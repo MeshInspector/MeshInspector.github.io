@@ -5,7 +5,6 @@ var MRObjectPointsHolder_8h =
       [ "MR_PointsVisualizePropertyType_SelectedVertices", "MRObjectPointsHolder_8h.html#a4b87a58bf7d9a84167fbde73db3a0802ab1c16b96c526c6a7c0c68942f6968616", null ],
       [ "MR_PointsVisualizePropertyType__count", "MRObjectPointsHolder_8h.html#a4b87a58bf7d9a84167fbde73db3a0802ac001f3204a85d0d2d7aaf9648daaa276", null ]
     ] ],
-    [ "MR_defaultSerializePointsFormat", "MRObjectPointsHolder_8h.html#ab9b6900bac00be23363ce0092599e40e", null ],
     [ "MR_ObjectPointsHolder_addChild", "MRObjectPointsHolder_8h.html#a52a97b0338a4e791cf2e40049aa574e5", null ],
     [ "MR_ObjectPointsHolder_addChildBefore", "MRObjectPointsHolder_8h.html#a8b0e7a88dcf45ffe74b17e90a5495133", null ],
     [ "MR_ObjectPointsHolder_addTag", "MRObjectPointsHolder_8h.html#a62cf8f060f69f268361cff1a83192cfd", null ],
@@ -165,6 +164,5 @@ var MRObjectPointsHolder_8h =
     [ "MR_ObjectPointsHolder_visibilityMask", "MRObjectPointsHolder_8h.html#ab9b5d4819ad0541d811fb65b51cf0620", null ],
     [ "MR_ObjectPointsHolder_worldXf", "MRObjectPointsHolder_8h.html#a790f0afb2baf0e773bbfa9104aabd4dd", null ],
     [ "MR_ObjectPointsHolder_xf", "MRObjectPointsHolder_8h.html#a613892c7bfa0c4d7c6fa60937767e713", null ],
-    [ "MR_ObjectPointsHolder_xfsForAllViewports", "MRObjectPointsHolder_8h.html#a49174abbab4d8ca9a15c32d05225d6b7", null ],
-    [ "MR_setDefaultSerializePointsFormat", "MRObjectPointsHolder_8h.html#a737ac0a46577e7f4199f80b2529cbacf", null ]
+    [ "MR_ObjectPointsHolder_xfsForAllViewports", "MRObjectPointsHolder_8h.html#a49174abbab4d8ca9a15c32d05225d6b7", null ]
 ];

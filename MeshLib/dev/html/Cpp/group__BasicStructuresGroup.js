@@ -78,6 +78,12 @@ var group__BasicStructuresGroup =
         [ "AutoDetect", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf", null ],
         [ "Smooth", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4", null ],
         [ "Flat", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
+      ] ],
+      [ "StringType", "group__GeneralGroup.html#gaca4cbb22b4674eb9de491e91090d5be6", [
+        [ "MeshSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb", null ],
+        [ "PointsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9", null ],
+        [ "VoxelsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159", null ],
+        [ "Count", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ]
     ] ],
     [ "MR::FloatGrid", "classMR_1_1FloatGrid.html", [

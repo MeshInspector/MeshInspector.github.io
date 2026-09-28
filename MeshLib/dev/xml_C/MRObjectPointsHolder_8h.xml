@@ -1568,7 +1568,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means defaultSerializePointsFormat() Generated from method <computeroutput>MR::ObjectPointsHolder::serializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <computeroutput>MR::ObjectPointsHolder::serializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1590,7 +1590,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;, nullptr means serialize in defaultSerializePointsFormat() Generated from method <computeroutput>MR::ObjectPointsHolder::setSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;, nullptr means serialize in SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <computeroutput>MR::ObjectPointsHolder::setSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3577,45 +3577,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h" line="981" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h" declline="981" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectPointsHolder_8h_1ab9b6900bac00be23363ce0092599e40e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
-        <definition>MRC_API const MR_std_string * MR_defaultSerializePointsFormat</definition>
-        <argsstring>(void)</argsstring>
-        <name>MR_defaultSerializePointsFormat</name>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns file extension used to serialize ObjectPointsHolder by default (if not overridden in specific object), the string starts with &apos;.&apos; Generated from function <computeroutput>MR::defaultSerializePointsFormat</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h" line="987" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h" declline="987" declcolumn="29"/>
-      </memberdef>
-      <memberdef kind="function" id="MRObjectPointsHolder_8h_1a737ac0a46577e7f4199f80b2529cbacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_setDefaultSerializePointsFormat</definition>
-        <argsstring>(const char *newFormat, const char *newFormat_end)</argsstring>
-        <name>MR_setDefaultSerializePointsFormat</name>
-        <param>
-          <type>const char *</type>
-          <declname>newFormat</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>newFormat_end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets file extension used to serialize serialize ObjectPointsHolder by default (if not overridden in specific object), the string must start from &apos;.&apos;; Generated from function <computeroutput>MR::setDefaultSerializePointsFormat</computeroutput>. Parameter <computeroutput>newFormat</computeroutput> can not be null. If <computeroutput>newFormat_end</computeroutput> is null, then <computeroutput>newFormat</computeroutput> is assumed to be null-terminated. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h" line="996" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h" declline="996" declcolumn="14"/>
-      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -3998,15 +3959,9 @@
 <codeline lineno="977"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="981" refid="MRObjectPointsHolder_8h_1aab0d1e890a18809f50f12b5c8d222997" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRObjectPointsHolder_8h_1aab0d1e890a18809f50f12b5c8d222997" kindref="member">MR_ObjectPointsHolder_getSharedPtr</ref>(const<sp/><ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="982"><highlight class="normal"></highlight></codeline>
-<codeline lineno="987" refid="MRObjectPointsHolder_8h_1ab9b6900bac00be23363ce0092599e40e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRObjectPointsHolder_8h_1ab9b6900bac00be23363ce0092599e40e" kindref="member">MR_defaultSerializePointsFormat</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="988"><highlight class="normal"></highlight></codeline>
-<codeline lineno="991"><highlight class="normal"></highlight><highlight class="comment">//<sp/>serialization<sp/>falls<sp/>back<sp/>to<sp/>the<sp/>PLY<sp/>format<sp/>if<sp/>given<sp/>format<sp/>support<sp/>is<sp/>available</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="992"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>CTM<sp/>format<sp/>support<sp/>is<sp/>available<sp/>in<sp/>the<sp/>MRIOExtras<sp/>library;<sp/>make<sp/>sure<sp/>to<sp/>load<sp/>it<sp/>if<sp/>you<sp/>prefer<sp/>CTM</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="996" refid="MRObjectPointsHolder_8h_1a737ac0a46577e7f4199f80b2529cbacf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectPointsHolder_8h_1a737ac0a46577e7f4199f80b2529cbacf" kindref="member">MR_setDefaultSerializePointsFormat</ref>(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*newFormat,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*newFormat_end);</highlight></codeline>
-<codeline lineno="997"><highlight class="normal"></highlight></codeline>
-<codeline lineno="998"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="999"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1000"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="983"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="984"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="985"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectPointsHolder.h"/>
   </compounddef>

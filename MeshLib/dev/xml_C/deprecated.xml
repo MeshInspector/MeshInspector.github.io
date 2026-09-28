@@ -7,6 +7,9 @@
     </briefdescription>
     <detaileddescription>
 <para><variablelist>
+<varlistentry><term>Member <ref refid="MRObjectVoxels_8h_1a26f7af611aeb6bbf34ba1129c2d1d253" kindref="member">MR_equal_MR_ObjectVoxels_VolumeRenderingParams</ref>  (const <ref refid="MRObjectVoxels_8h_1a24e57a3a62e88a846a5ed1147f069192" kindref="member">MR_ObjectVoxels_VolumeRenderingParams</ref> *_this, const <ref refid="MRObjectVoxels_8h_1a24e57a3a62e88a846a5ed1147f069192" kindref="member">MR_ObjectVoxels_VolumeRenderingParams</ref> *_1)</term></varlistentry>
+<listitem><para><anchor id="deprecated_1_deprecated000010"/>the cast inside is undefined behaviour, use meshPtr() instead / Generated from method <computeroutput>MR::ObjectVoxels::mesh</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+</listitem>
 <varlistentry><term>Member <ref refid="MRObject_8h_1ae09fdc8226bcbd2d669c798afc81e5e6" kindref="member">MR_Object_children</ref>  (const <ref refid="MRGltf_8h_1accce9c9179cadabc541edda0fc7a2571" kindref="member">MR_Object</ref> *_this)</term></varlistentry>
 <listitem><para><anchor id="deprecated_1_deprecated000001"/>the cast inside is undefined behaviour, use constChildren() instead Generated from method <computeroutput>MR::Object::children</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
 </listitem>
@@ -32,10 +35,7 @@
 <listitem><para><anchor id="deprecated_1_deprecated000008"/>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <computeroutput>MR::ObjectPoints::pointCloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
 </listitem>
 <varlistentry><term>Member <ref refid="MRObjectPointsHolder_8h_1a0a4b0605a5cd10234b4f3a70d6963ddb" kindref="member">MR_ObjectPointsHolder_pointCloud</ref>  (const <ref refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kindref="member">MR_ObjectPointsHolder</ref> *_this)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000009"/>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <computeroutput>MR::ObjectPointsHolder::pointCloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it.  </para>
-</listitem>
-<varlistentry><term>Member <ref refid="MRObjectVoxels_8h_1a5d48f92474e0313898091657a5c554a8" kindref="member">MR_setDefaultSerializeVoxelsFormat</ref>  (const char *newFormat, const char *newFormat_end)</term></varlistentry>
-<listitem><para><anchor id="deprecated_1_deprecated000010"/>the cast inside is undefined behaviour, use meshPtr() instead / Generated from method <computeroutput>MR::ObjectVoxels::mesh</computeroutput>. / Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it.</para>
+<listitem><para><anchor id="deprecated_1_deprecated000009"/>the cast inside is undefined behaviour, use pointCloudPtr() instead Generated from method <computeroutput>MR::ObjectPointsHolder::pointCloud</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
 </listitem>
 </variablelist>
 </para>

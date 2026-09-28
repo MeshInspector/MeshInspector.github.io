@@ -154,6 +154,7 @@ $(function(){initNavTree('MRSceneSettings_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:a3649382c7f0d2ead3e39ed8a9b4a751d" id="r_a3649382c7f0d2ead3e39ed8a9b4a751d"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3649382c7f0d2ead3e39ed8a9b4a751d">MR_SceneSettings_BoolType</a></td></tr>
 <tr class="memitem:a1d4b4e5796cebc0245ab16d6398b3b1a" id="r_a1d4b4e5796cebc0245ab16d6398b3b1a"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d4b4e5796cebc0245ab16d6398b3b1a">MR_SceneSettings_FloatType</a></td></tr>
+<tr class="memitem:a77b1b459a94f7a760e6822bf201b94b2" id="r_a77b1b459a94f7a760e6822bf201b94b2"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77b1b459a94f7a760e6822bf201b94b2">MR_SceneSettings_StringType</a></td></tr>
 <tr class="memitem:a0215ab4cc7cbc9b6a7fbc81fddc1f82f" id="r_a0215ab4cc7cbc9b6a7fbc81fddc1f82f"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0215ab4cc7cbc9b6a7fbc81fddc1f82f">MR_SceneSettings_ShadingMode</a></td></tr>
 <tr class="memdesc:a0215ab4cc7cbc9b6a7fbc81fddc1f82f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh faces shading mode.  <br /></td></tr>
 <tr class="memitem:a71b8f6135364d23bd16fac524ef466a8" id="r_a71b8f6135364d23bd16fac524ef466a8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a></td></tr>
@@ -180,6 +181,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181">MR_SceneSettings_FloatType_Count</a> = 11
 <br />
  }</td></tr>
+<tr class="memitem:a7ac995a0586ce25e03443419f1729e1c" id="r_a7ac995a0586ce25e03443419f1729e1c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a> { <a class="el" href="#a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a">MR_SceneSettings_StringType_MeshSerializeFormat</a> = 0
+, <a class="el" href="#a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d">MR_SceneSettings_StringType_PointsSerializeFormat</a> = 1
+, <a class="el" href="#a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c">MR_SceneSettings_StringType_VoxelsSerializeFormat</a> = 2
+, <a class="el" href="#a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e">MR_SceneSettings_StringType_Count</a> = 3
+ }</td></tr>
 <tr class="memitem:ad36202035d26a38fd21ab7870e5a527c" id="r_ad36202035d26a38fd21ab7870e5a527c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a> { <a class="el" href="#ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9">MR_SceneSettings_ShadingMode_AutoDetect</a> = 0
 , <a class="el" href="#ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7">MR_SceneSettings_ShadingMode_Smooth</a> = 1
 , <a class="el" href="#ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d">MR_SceneSettings_ShadingMode_Flat</a> = 2
@@ -194,10 +200,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:a511c5016fa7f2fdbbae2a42760919f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::SceneSettings::get</span>.  <br /></td></tr>
 <tr class="memitem:a2f53b33ea65b401b2bfdb0216efceef8" id="r_a2f53b33ea65b401b2bfdb0216efceef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f53b33ea65b401b2bfdb0216efceef8">MR_SceneSettings_get_MR_SceneSettings_FloatType</a> (<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a> type)</td></tr>
 <tr class="memdesc:a2f53b33ea65b401b2bfdb0216efceef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::SceneSettings::get</span>.  <br /></td></tr>
+<tr class="memitem:a18f9b2c08de9246c4f29dbb31a3348cd" id="r_a18f9b2c08de9246c4f29dbb31a3348cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f9b2c08de9246c4f29dbb31a3348cd">MR_SceneSettings_get_MR_SceneSettings_StringType</a> (<a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a> type)</td></tr>
 <tr class="memitem:a706cb745d9b13d1824be57c4de4848da" id="r_a706cb745d9b13d1824be57c4de4848da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706cb745d9b13d1824be57c4de4848da">MR_SceneSettings_set_MR_SceneSettings_BoolType</a> (<a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a> type, bool value)</td></tr>
 <tr class="memdesc:a706cb745d9b13d1824be57c4de4848da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::SceneSettings::set</span>.  <br /></td></tr>
 <tr class="memitem:a9e8c8ff62b21948e15c8bb790016863b" id="r_a9e8c8ff62b21948e15c8bb790016863b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8c8ff62b21948e15c8bb790016863b">MR_SceneSettings_set_MR_SceneSettings_FloatType</a> (<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a> type, float value)</td></tr>
 <tr class="memdesc:a9e8c8ff62b21948e15c8bb790016863b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::SceneSettings::set</span>.  <br /></td></tr>
+<tr class="memitem:a6cd0925e3f23eea6835101e50eec97a6" id="r_a6cd0925e3f23eea6835101e50eec97a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cd0925e3f23eea6835101e50eec97a6">MR_SceneSettings_set_MR_SceneSettings_StringType</a> (<a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a> type, const char *value, const char *value_end)</td></tr>
 <tr class="memitem:a81fb989e8e1e7db26369df3d8d294961" id="r_a81fb989e8e1e7db26369df3d8d294961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81fb989e8e1e7db26369df3d8d294961">MR_SceneSettings_getDefaultShadingMode</a> (void)</td></tr>
 <tr class="memitem:a7692ae8be694b0e839f86b766f0c45eb" id="r_a7692ae8be694b0e839f86b766f0c45eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7692ae8be694b0e839f86b766f0c45eb">MR_SceneSettings_setDefaultShadingMode</a> (<a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a> mode)</td></tr>
 <tr class="memdesc:a7692ae8be694b0e839f86b766f0c45eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt">MR::SceneSettings::setDefaultShadingMode</span>.  <br /></td></tr>
@@ -263,6 +271,20 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mesh faces shading mode. </p>
+
+</div>
+</div>
+<a id="a77b1b459a94f7a760e6822bf201b94b2" name="a77b1b459a94f7a760e6822bf201b94b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b1b459a94f7a760e6822bf201b94b2">&#9670;&#160;</a></span>MR_SceneSettings_StringType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a> <a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -336,6 +358,30 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7ac995a0586ce25e03443419f1729e1c" name="a7ac995a0586ce25e03443419f1729e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac995a0586ce25e03443419f1729e1c">&#9670;&#160;</a></span>MR_SceneSettings_StringType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a" name="a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a"></a>MR_SceneSettings_StringType_MeshSerializeFormat&#160;</td><td class="fielddoc"><p>file extension (starting with '.') used to serialize ObjectMeshHolder by default, if not overridden in specific object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d" name="a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d"></a>MR_SceneSettings_StringType_PointsSerializeFormat&#160;</td><td class="fielddoc"><p>file extension (starting with '.') used to serialize ObjectPointsHolder by default, if not overridden in specific object; falls back to PLY if given format is not supported </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c" name="a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c"></a>MR_SceneSettings_StringType_VoxelsSerializeFormat&#160;</td><td class="fielddoc"><p>file extension (starting with '.') used to serialize ObjectVoxels by default, if not overridden in specific object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e" name="a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e"></a>MR_SceneSettings_StringType_Count&#160;</td><td class="fielddoc"><p>total count </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a511c5016fa7f2fdbbae2a42760919f9e" name="a511c5016fa7f2fdbbae2a42760919f9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a511c5016fa7f2fdbbae2a42760919f9e">&#9670;&#160;</a></span>MR_SceneSettings_get_MR_SceneSettings_BoolType()</h2>
@@ -372,6 +418,24 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::SceneSettings::get</span>. </p>
+
+</div>
+</div>
+<a id="a18f9b2c08de9246c4f29dbb31a3348cd" name="a18f9b2c08de9246c4f29dbb31a3348cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f9b2c08de9246c4f29dbb31a3348cd">&#9670;&#160;</a></span>MR_SceneSettings_get_MR_SceneSettings_StringType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_SceneSettings_get_MR_SceneSettings_StringType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SceneSettings::get</span>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>
@@ -517,6 +581,33 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::SceneSettings::set</span>. </p>
+
+</div>
+</div>
+<a id="a6cd0925e3f23eea6835101e50eec97a6" name="a6cd0925e3f23eea6835101e50eec97a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cd0925e3f23eea6835101e50eec97a6">&#9670;&#160;</a></span>MR_SceneSettings_set_MR_SceneSettings_StringType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SceneSettings_set_MR_SceneSettings_StringType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7ac995a0586ce25e03443419f1729e1c">MR_SceneSettings_StringType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::SceneSettings::set</span>. Parameter <span class="tt">value</span> can not be null. If <span class="tt">value_end</span> is null, then <span class="tt">value</span> is assumed to be null-terminated. </p>
 
 </div>
 </div>

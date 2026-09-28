@@ -9142,7 +9142,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="20" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="21" bodyend="26"/>
+        <location file="MRMesh/MRSceneSettings.h" line="21" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="22" bodyend="27"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gad40f8b0bfec68b50393b6e9e021b0261" prot="public" static="no" strong="yes">
         <type></type>
@@ -9243,7 +9243,51 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="28" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="29" bodyend="48"/>
+        <location file="MRMesh/MRSceneSettings.h" line="29" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="30" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__GeneralGroup_1gaca4cbb22b4674eb9de491e91090d5be6" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>StringType</name>
+        <qualifiedname>MR::SceneSettings::StringType</qualifiedname>
+        <enumvalue id="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb" prot="public">
+          <name>MeshSerializeFormat</name>
+          <briefdescription>
+<para>file extension (starting with &apos;.&apos;) used to serialize <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> by default, if not overridden in specific object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9" prot="public">
+          <name>PointsSerializeFormat</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>file extension (starting with &apos;.&apos;) used to serialize <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> by default, if not overridden in specific object; falls back to PLY if given format is not supported </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159" prot="public">
+          <name>VoxelsSerializeFormat</name>
+          <briefdescription>
+<para>file extension (starting with &apos;.&apos;) used to serialize <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> by default, if not overridden in specific object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+<para>total count </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSceneSettings.h" line="51" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="52" bodyend="62"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga308e72dcfc90ae1a9370ca7c7bc3290c" prot="public" static="no" strong="yes">
         <type></type>
@@ -9277,7 +9321,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="56" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="57" bodyend="61"/>
+        <location file="MRMesh/MRSceneSettings.h" line="72" column="5" bodyfile="MRMesh/MRSceneSettings.h" bodystart="73" bodyend="77"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" prot="public" static="no" strong="yes">
         <type></type>
@@ -43709,7 +43753,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="79" column="16" bodyfile="MRMesh/MRSceneSettings.h" bodystart="79" bodyend="-1"/>
+        <location file="MRMesh/MRSceneSettings.h" line="95" column="16" bodyfile="MRMesh/MRSceneSettings.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga61a10cb8195c7d27a991787319abc2d4" prot="private" static="no" mutable="no">
         <type>std::array&lt; float, size_t(FloatType::Count) &gt;</type>
@@ -43723,7 +43767,21 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="80" column="16" bodyfile="MRMesh/MRSceneSettings.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRSceneSettings.h" line="96" column="16" bodyfile="MRMesh/MRSceneSettings.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaaf03afb76f9aab15d4ff54795ba61782" prot="private" static="no" mutable="no">
+        <type>std::array&lt; std::string, size_t(StringType::Count) &gt;</type>
+        <definition>std::array&lt;std::string, size_t( StringType::Count ) &gt; MR::SceneSettings::stringSettings_</definition>
+        <argsstring></argsstring>
+        <name>stringSettings_</name>
+        <qualifiedname>MR::SceneSettings::stringSettings_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSceneSettings.h" line="97" column="16" bodyfile="MRMesh/MRSceneSettings.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacd4f262ef33f4cc9d0bbee84ddbfcb1c" prot="private" static="no" mutable="no">
         <type>ShadingMode</type>
@@ -43738,7 +43796,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="82" column="17" bodyfile="MRMesh/MRSceneSettings.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRSceneSettings.h" line="99" column="17" bodyfile="MRMesh/MRSceneSettings.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga61486b22f9af7ded129fa6bcb8b6d30b" prot="private" static="no" mutable="no">
         <type>CNCMachineSettings</type>
@@ -43752,7 +43810,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="83" column="24" bodyfile="MRMesh/MRSceneSettings.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRSceneSettings.h" line="100" column="24" bodyfile="MRMesh/MRSceneSettings.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5473b25338c8b8b27c9d38f2b6bb8f89" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -68912,7 +68970,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <qualifiedname>MR::ObjectVoxels::indexer_</qualifiedname>
         <initializer>= VolumeIndexer( vdbVolume_.dims )</initializer>
         <briefdescription>
-<para>means <ref refid="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" kindref="member">defaultSerializeVoxelsFormat()</ref> </para>
+<para>means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) </para>
         </briefdescription>
         <detaileddescription>
 <para>Service data </para>
@@ -128547,7 +128605,7 @@ element fields:<linebreak/>
         <name>serializeFormat</name>
         <qualifiedname>MR::ObjectMeshHolder::serializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize mesh inside this object, nullptr means <ref refid="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" kindref="member">defaultSerializeMeshFormat()</ref> </para>
+<para>returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128562,7 +128620,7 @@ element fields:<linebreak/>
         <name>actualSerializeFormat</name>
         <qualifiedname>MR::ObjectMeshHolder::actualSerializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize mesh inside this object if set, or <ref refid="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" kindref="member">defaultSerializeMeshFormat()</ref>.c_str() otherwise; never returns nullptr </para>
+<para>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128583,7 +128641,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" kindref="member">defaultSerializeMeshFormat()</ref> </para>
+<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -128921,24 +128979,23 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRObjectMeshHolder.h" line="364" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>const std::string &amp; MR::defaultSerializeMeshFormat</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaf2ff1896602b42bea912877e4c59b1be" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE const std::string &amp;</type>
+        <definition>MR_BIND_IGNORE const std::string &amp; MR::defaultSerializeMeshFormat</definition>
         <argsstring>()</argsstring>
         <name>defaultSerializeMeshFormat</name>
         <qualifiedname>MR::defaultSerializeMeshFormat</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns file extension used to serialize <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> by default (if not overridden in specific object), the string starts with &apos;.&apos; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="371" column="22" declfile="MRMesh/MRObjectMeshHolder.h" declline="371" declcolumn="22"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="369" column="38" declfile="MRMesh/MRObjectMeshHolder.h" declline="369" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3e1e9d92e64e6c27696b626e2c450144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::setDefaultSerializeMeshFormat</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gad470465fba020e775587e6dfe209ba03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::setDefaultSerializeMeshFormat</definition>
         <argsstring>(std::string newFormat)</argsstring>
         <name>setDefaultSerializeMeshFormat</name>
         <qualifiedname>MR::setDefaultSerializeMeshFormat</qualifiedname>
@@ -128949,11 +129006,10 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets file extension used to serialize serialize <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> by default (if not overridden in specific object), the string must start from &apos;.&apos;; serialization falls back to the PLY format if given format support is available NOTE: CTM format support is available in the MRIOExtras library; make sure to load it if you prefer CTM </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshHolder.h" line="377" column="7" declfile="MRMesh/MRObjectMeshHolder.h" declline="377" declcolumn="7"/>
+        <location file="MRMesh/MRObjectMeshHolder.h" line="371" column="23" declfile="MRMesh/MRObjectMeshHolder.h" declline="371" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7add507ed0f2abe3843cec2e9f387f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -130169,7 +130225,7 @@ element fields:<linebreak/>
         <name>serializeFormat</name>
         <qualifiedname>MR::ObjectPointsHolder::serializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means <ref refid="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" kindref="member">defaultSerializePointsFormat()</ref> </para>
+<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130204,7 +130260,7 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" kindref="member">defaultSerializePointsFormat()</ref> </para>
+<para>overrides file extension used to serialize point cloud inside this object: must start from &apos;.&apos;, nullptr means serialize in SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -130509,24 +130565,23 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRObjectPointsHolder.h" line="232" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>const std::string &amp; MR::defaultSerializePointsFormat</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa64f295ab3550ca99f30ea4026bdd48b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE const std::string &amp;</type>
+        <definition>MR_BIND_IGNORE const std::string &amp; MR::defaultSerializePointsFormat</definition>
         <argsstring>()</argsstring>
         <name>defaultSerializePointsFormat</name>
         <qualifiedname>MR::defaultSerializePointsFormat</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns file extension used to serialize <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> by default (if not overridden in specific object), the string starts with &apos;.&apos; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="241" column="22" declfile="MRMesh/MRObjectPointsHolder.h" declline="241" declcolumn="22"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="239" column="38" declfile="MRMesh/MRObjectPointsHolder.h" declline="239" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7e504838577ed8995448cf04bf473df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::setDefaultSerializePointsFormat</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gadfa251767141b4418cd3d1b6b1828fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::setDefaultSerializePointsFormat</definition>
         <argsstring>(std::string newFormat)</argsstring>
         <name>setDefaultSerializePointsFormat</name>
         <qualifiedname>MR::setDefaultSerializePointsFormat</qualifiedname>
@@ -130537,11 +130592,10 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets file extension used to serialize serialize <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> by default (if not overridden in specific object), the string must start from &apos;.&apos;; serialization falls back to the PLY format if given format support is available NOTE: CTM format support is available in the MRIOExtras library; make sure to load it if you prefer CTM </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPointsHolder.h" line="247" column="7" declfile="MRMesh/MRObjectPointsHolder.h" declline="247" declcolumn="7"/>
+        <location file="MRMesh/MRObjectPointsHolder.h" line="241" column="23" declfile="MRMesh/MRObjectPointsHolder.h" declline="241" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -142416,7 +142470,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="18" column="18"/>
+        <location file="MRMesh/MRSceneSettings.h" line="19" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga16a379ad3fa3bd316038e6040a25d235" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -142434,7 +142488,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="50" column="18"/>
+        <location file="MRMesh/MRSceneSettings.h" line="64" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5786f478398399366131858ce23f54da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -142452,7 +142506,25 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="51" column="19"/>
+        <location file="MRMesh/MRSceneSettings.h" line="65" column="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4850eada4a4839c907727781caeb634c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>static const std::string &amp; MR::SceneSettings::get</definition>
+        <argsstring>(StringType type)</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::SceneSettings::get</qualifiedname>
+        <param>
+          <type>StringType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSceneSettings.h" line="66" column="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab78f12b36390bcda6254817a9d7247b6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -142474,7 +142546,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="52" column="18"/>
+        <location file="MRMesh/MRSceneSettings.h" line="67" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab33c04442675301bb7cf035e494dd33f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -142496,7 +142568,29 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="53" column="18"/>
+        <location file="MRMesh/MRSceneSettings.h" line="68" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac40e194648e293ad6f0fd7bc22382c50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MR::SceneSettings::set</definition>
+        <argsstring>(StringType type, std::string value)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::SceneSettings::set</qualifiedname>
+        <param>
+          <type>StringType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRSceneSettings.h" line="69" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga02b287347092463de5476b8ec75d358f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ShadingMode</type>
@@ -142511,7 +142605,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="66" column="25"/>
+        <location file="MRMesh/MRSceneSettings.h" line="82" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafca3894ccff66bbec70307b98b8b79cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -142529,7 +142623,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="67" column="18"/>
+        <location file="MRMesh/MRSceneSettings.h" line="83" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadb3726c677eae05ad9e1d00f757913c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const CNCMachineSettings &amp;</type>
@@ -142543,7 +142637,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="69" column="38"/>
+        <location file="MRMesh/MRSceneSettings.h" line="85" column="38"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeeec7a68a9468bf16f9a6de3ab6566bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -142561,7 +142655,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="70" column="18"/>
+        <location file="MRMesh/MRSceneSettings.h" line="86" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabb107126e0510fa95451b5471436d2d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -142575,7 +142669,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="73" column="6"/>
+        <location file="MRMesh/MRSceneSettings.h" line="89" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga833e6c4ea6089cdfa4dbddf1706b3016" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -142589,7 +142683,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="74" column="5"/>
+        <location file="MRMesh/MRSceneSettings.h" line="90" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaab309373a5f3f1cdf32c93bcc6fc34f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SceneSettings &amp;</type>
@@ -142607,7 +142701,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="75" column="19"/>
+        <location file="MRMesh/MRSceneSettings.h" line="91" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga287f581fbd80098de7734314b41e28c1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SceneSettings &amp;</type>
@@ -142621,7 +142715,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSceneSettings.h" line="77" column="26"/>
+        <location file="MRMesh/MRSceneSettings.h" line="93" column="26"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaabda96d9384f3d5e65c51a7147840ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; GroupOrder &gt;</type>
@@ -201766,7 +201860,7 @@ actually all zeros </para>
         <name>serializeFormat</name>
         <qualifiedname>MR::ObjectVoxels::serializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize voxels inside this object, nullptr means <ref refid="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" kindref="member">defaultSerializeVoxelsFormat()</ref> </para>
+<para>returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -201787,7 +201881,7 @@ actually all zeros </para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overrides file extension used to serialize voxels inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" kindref="member">defaultSerializeVoxelsFormat()</ref> </para>
+<para>overrides file extension used to serialize voxels inside this object: must start from &apos;.&apos;, nullptr means serialize in SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -202013,24 +202107,23 @@ actually all zeros </para>
         </inbodydescription>
         <location file="MRVoxels/MRObjectVoxels.h" line="283" column="23"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>const std::string &amp; MR::defaultSerializeVoxelsFormat</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7750610f894e8e2863d032a63e1365f8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE const std::string &amp;</type>
+        <definition>MR_BIND_IGNORE const std::string &amp; MR::defaultSerializeVoxelsFormat</definition>
         <argsstring>()</argsstring>
         <name>defaultSerializeVoxelsFormat</name>
         <qualifiedname>MR::defaultSerializeVoxelsFormat</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns file extension used to serialize <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> by default (if not overridden in specific object), the string starts with &apos;.&apos; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRObjectVoxels.h" line="288" column="22" declfile="MRVoxels/MRObjectVoxels.h" declline="288" declcolumn="22"/>
+        <location file="MRVoxels/MRObjectVoxels.h" line="286" column="38" declfile="MRVoxels/MRObjectVoxels.h" declline="286" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1e5d24821061d108c1e0e79aaea085a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::setDefaultSerializeVoxelsFormat</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gafdaa1f574c454749e18731b1ad8ee7a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::setDefaultSerializeVoxelsFormat</definition>
         <argsstring>(std::string newFormat)</argsstring>
         <name>setDefaultSerializeVoxelsFormat</name>
         <qualifiedname>MR::setDefaultSerializeVoxelsFormat</qualifiedname>
@@ -202041,11 +202134,10 @@ actually all zeros </para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>sets file extension used to serialize serialize <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> by default (if not overridden in specific object), the string must start from &apos;.&apos; </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRObjectVoxels.h" line="292" column="7" declfile="MRVoxels/MRObjectVoxels.h" declline="292" declcolumn="7"/>
+        <location file="MRVoxels/MRObjectVoxels.h" line="288" column="23" declfile="MRVoxels/MRObjectVoxels.h" declline="288" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8134bd36bc30764272b23a2c614b0e84" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>

@@ -2435,6 +2435,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ggad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9">MR::SceneSettings::FloatType::Count</a>
 <br />
  }</td></tr>
+<tr class="memitem:gaca4cbb22b4674eb9de491e91090d5be6" id="r_gaca4cbb22b4674eb9de491e91090d5be6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca4cbb22b4674eb9de491e91090d5be6">MR::SceneSettings::StringType</a> { <a class="el" href="#ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb">MR::SceneSettings::StringType::MeshSerializeFormat</a>
+, <a class="el" href="#ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9">MR::SceneSettings::StringType::PointsSerializeFormat</a>
+, <a class="el" href="#ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159">MR::SceneSettings::StringType::VoxelsSerializeFormat</a>
+, <a class="el" href="#ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9">MR::SceneSettings::StringType::Count</a>
+ }</td></tr>
 <tr class="memitem:ga308e72dcfc90ae1a9370ca7c7bc3290c" id="r_ga308e72dcfc90ae1a9370ca7c7bc3290c"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga308e72dcfc90ae1a9370ca7c7bc3290c">MR::SceneSettings::ShadingMode</a> { <a class="el" href="#gga308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf">MR::SceneSettings::ShadingMode::AutoDetect</a>
 , <a class="el" href="#gga308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4">MR::SceneSettings::ShadingMode::Smooth</a>
 , <a class="el" href="#gga308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d">MR::SceneSettings::ShadingMode::Flat</a>
@@ -6691,9 +6696,9 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga088b746453f486538f4a92503bb57ad1" id="r_ga088b746453f486538f4a92503bb57ad1"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga088b746453f486538f4a92503bb57ad1">MR::ObjectMeshHolder::heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ga088b746453f486538f4a92503bb57ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:gab34b3d99c43ea087bbb11a0948a1dd86" id="r_gab34b3d99c43ea087bbb11a0948a1dd86"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab34b3d99c43ea087bbb11a0948a1dd86">MR::ObjectMeshHolder::serializeFormat</a> () const</td></tr>
-<tr class="memdesc:gab34b3d99c43ea087bbb11a0948a1dd86"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize mesh inside this object, nullptr means <a class="el" href="#gaa327a029bad713e6790ebf10e611f39e">defaultSerializeMeshFormat()</a>  <br /></td></tr>
+<tr class="memdesc:gab34b3d99c43ea087bbb11a0948a1dd86"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat )  <br /></td></tr>
 <tr class="memitem:gaa8ad23b98d545682db124f812216b717" id="r_gaa8ad23b98d545682db124f812216b717"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8ad23b98d545682db124f812216b717">MR::ObjectMeshHolder::actualSerializeFormat</a> () const</td></tr>
-<tr class="memdesc:gaa8ad23b98d545682db124f812216b717"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize mesh inside this object if set, or <a class="el" href="#gaa327a029bad713e6790ebf10e611f39e">defaultSerializeMeshFormat()</a>.c_str() otherwise; never returns nullptr  <br /></td></tr>
+<tr class="memdesc:gaa8ad23b98d545682db124f812216b717"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr  <br /></td></tr>
 <tr class="memitem:ga0826e2dc429bc8184d9a8b9fcdc8612f" id="r_ga0826e2dc429bc8184d9a8b9fcdc8612f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0826e2dc429bc8184d9a8b9fcdc8612f">MR::ObjectMeshHolder::setSerializeFormat</a> (const char *newFormat)</td></tr>
 <tr class="memitem:ga4c898749d42f1d610da7ccc6a6d02411" id="r_ga4c898749d42f1d610da7ccc6a6d02411"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c898749d42f1d610da7ccc6a6d02411">MR::ObjectMeshHolder::resetFrontColor</a> () override</td></tr>
 <tr class="memdesc:ga4c898749d42f1d610da7ccc6a6d02411"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset basic object colors to their default values from the current theme  <br /></td></tr>
@@ -6718,8 +6723,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga9ffe0e484a89b59b8a16a7a306abd146"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all visualize properties masks  <br /></td></tr>
 <tr class="memitem:ga5e2aac0fdcedeffa2fa63a6e919ad77a" id="r_ga5e2aac0fdcedeffa2fa63a6e919ad77a"><td class="memItemLeft" align="right" valign="top">virtual Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e2aac0fdcedeffa2fa63a6e919ad77a">MR::ObjectMeshHolder::computeBoundingBox_</a> () const override</td></tr>
 <tr class="memitem:ga4dda7c8f974fc1d88b553ad6e192d1fb" id="r_ga4dda7c8f974fc1d88b553ad6e192d1fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dda7c8f974fc1d88b553ad6e192d1fb">MR::ObjectMeshHolder::setupRenderObject_</a> () const override</td></tr>
-<tr class="memitem:gaa327a029bad713e6790ebf10e611f39e" id="r_gaa327a029bad713e6790ebf10e611f39e"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa327a029bad713e6790ebf10e611f39e">MR::defaultSerializeMeshFormat</a> ()</td></tr>
-<tr class="memitem:ga3e1e9d92e64e6c27696b626e2c450144" id="r_ga3e1e9d92e64e6c27696b626e2c450144"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3e1e9d92e64e6c27696b626e2c450144">MR::setDefaultSerializeMeshFormat</a> (std::string newFormat)</td></tr>
+<tr class="memitem:gaf2ff1896602b42bea912877e4c59b1be" id="r_gaf2ff1896602b42bea912877e4c59b1be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2ff1896602b42bea912877e4c59b1be">MR::defaultSerializeMeshFormat</a> ()</td></tr>
+<tr class="memitem:gad470465fba020e775587e6dfe209ba03" id="r_gad470465fba020e775587e6dfe209ba03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad470465fba020e775587e6dfe209ba03">MR::setDefaultSerializeMeshFormat</a> (std::string newFormat)</td></tr>
 <tr class="memitem:ga7add507ed0f2abe3843cec2e9f387f8c" id="r_ga7add507ed0f2abe3843cec2e9f387f8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7add507ed0f2abe3843cec2e9f387f8c">MR::ObjectPoints::ObjectPoints</a> ()=default</td></tr>
 <tr class="memitem:gafdac591813395cc98c7d9f3db14c0bcc" id="r_gafdac591813395cc98c7d9f3db14c0bcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdac591813395cc98c7d9f3db14c0bcc">MR::ObjectPoints::ObjectPoints</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;objMesh, bool saveNormals=true)</td></tr>
 <tr class="memitem:ga5831e567d62ac9ac7959897b98ee75ae" id="r_ga5831e567d62ac9ac7959897b98ee75ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5831e567d62ac9ac7959897b98ee75ae">MR::ObjectPoints::operator=</a> (<a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;&amp;)=default</td></tr>
@@ -6815,7 +6820,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga77683714ded8bf8235f76f466b05ff53" id="r_ga77683714ded8bf8235f76f466b05ff53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga77683714ded8bf8235f76f466b05ff53">MR::ObjectPointsHolder::getMaxRenderingPoints</a> () const</td></tr>
 <tr class="memitem:ga001da3dc52da578f811cb94d08b1e711" id="r_ga001da3dc52da578f811cb94d08b1e711"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga001da3dc52da578f811cb94d08b1e711">MR::ObjectPointsHolder::setMaxRenderingPoints</a> (int val)</td></tr>
 <tr class="memitem:gaa25dc82cc5e496a153beeae60247d6c3" id="r_gaa25dc82cc5e496a153beeae60247d6c3"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa25dc82cc5e496a153beeae60247d6c3">MR::ObjectPointsHolder::serializeFormat</a> () const</td></tr>
-<tr class="memdesc:gaa25dc82cc5e496a153beeae60247d6c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize point cloud inside this object, nullptr means <a class="el" href="#ga2c6a78cd704061f23a26f39a7894d013">defaultSerializePointsFormat()</a>  <br /></td></tr>
+<tr class="memdesc:gaa25dc82cc5e496a153beeae60247d6c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat )  <br /></td></tr>
 <tr class="memitem:ga1027d5f4b567e9cc613073b40d9394ea" id="r_ga1027d5f4b567e9cc613073b40d9394ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1027d5f4b567e9cc613073b40d9394ea">MR::ObjectPointsHolder::savePointsFormat</a> () const</td></tr>
 <tr class="memitem:gae73c2487cbbb06cb19b9594324c29ff2" id="r_gae73c2487cbbb06cb19b9594324c29ff2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae73c2487cbbb06cb19b9594324c29ff2">MR::ObjectPointsHolder::setSerializeFormat</a> (const char *newFormat)</td></tr>
 <tr class="memitem:ga37fdb82e969da9523ee3f2deec8e9d75" id="r_ga37fdb82e969da9523ee3f2deec8e9d75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37fdb82e969da9523ee3f2deec8e9d75">MR::ObjectPointsHolder::setSavePointsFormat</a> (const char *newFormat)</td></tr>
@@ -6836,8 +6841,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga711ecee2d4dcf1f5d809c9a48112dba5" id="r_ga711ecee2d4dcf1f5d809c9a48112dba5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga711ecee2d4dcf1f5d809c9a48112dba5">MR::ObjectPointsHolder::setupRenderObject_</a> () const override</td></tr>
 <tr class="memitem:ga05e873804e02dbf7cbb548e35d30df1f" id="r_ga05e873804e02dbf7cbb548e35d30df1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga05e873804e02dbf7cbb548e35d30df1f">MR::ObjectPointsHolder::setAllVisualizeProperties_</a> (const <a class="el" href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">AllVisualizeProperties</a> &amp;properties, std::size_t &amp;pos) override</td></tr>
 <tr class="memdesc:ga05e873804e02dbf7cbb548e35d30df1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set all visualize properties masks  <br /></td></tr>
-<tr class="memitem:ga2c6a78cd704061f23a26f39a7894d013" id="r_ga2c6a78cd704061f23a26f39a7894d013"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2c6a78cd704061f23a26f39a7894d013">MR::defaultSerializePointsFormat</a> ()</td></tr>
-<tr class="memitem:ga7e504838577ed8995448cf04bf473df1" id="r_ga7e504838577ed8995448cf04bf473df1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7e504838577ed8995448cf04bf473df1">MR::setDefaultSerializePointsFormat</a> (std::string newFormat)</td></tr>
+<tr class="memitem:gaa64f295ab3550ca99f30ea4026bdd48b" id="r_gaa64f295ab3550ca99f30ea4026bdd48b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa64f295ab3550ca99f30ea4026bdd48b">MR::defaultSerializePointsFormat</a> ()</td></tr>
+<tr class="memitem:gadfa251767141b4418cd3d1b6b1828fab" id="r_gadfa251767141b4418cd3d1b6b1828fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadfa251767141b4418cd3d1b6b1828fab">MR::setDefaultSerializePointsFormat</a> (std::string newFormat)</td></tr>
 <tr class="memitem:ga7974cb0413a1baab9b74f14a1d14f410" id="r_ga7974cb0413a1baab9b74f14a1d14f410"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7974cb0413a1baab9b74f14a1d14f410">MR::objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object, bool recurse=false)</td></tr>
 <tr class="memitem:gadd599c2ce208d307f45d847e255a38da" id="r_gadd599c2ce208d307f45d847e255a38da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadd599c2ce208d307f45d847e255a38da">MR::ObjectSave::toAnySupportedSceneFormat</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1ObjectSave_1_1Settings.html">Settings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga0608cdde2a887ca5a818ea80d05340ab" id="r_ga0608cdde2a887ca5a818ea80d05340ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0608cdde2a887ca5a818ea80d05340ab">MR::ObjectSave::toAnySupportedFormat</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1ObjectSave_1_1Settings.html">Settings</a> &amp;settings={})</td></tr>
@@ -7601,8 +7606,10 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:ga894fcc815298b0aebea325e64d09c495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset all scene settings to default values.  <br /></td></tr>
 <tr class="memitem:ga16a379ad3fa3bd316038e6040a25d235" id="r_ga16a379ad3fa3bd316038e6040a25d235"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga16a379ad3fa3bd316038e6040a25d235">MR::SceneSettings::get</a> (<a class="el" href="#ga01216132f55f2f10947b9f6143f1b9b8">BoolType</a> type)</td></tr>
 <tr class="memitem:ga5786f478398399366131858ce23f54da" id="r_ga5786f478398399366131858ce23f54da"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5786f478398399366131858ce23f54da">MR::SceneSettings::get</a> (<a class="el" href="#gad40f8b0bfec68b50393b6e9e021b0261">FloatType</a> type)</td></tr>
+<tr class="memitem:ga4850eada4a4839c907727781caeb634c" id="r_ga4850eada4a4839c907727781caeb634c"><td class="memItemLeft" align="right" valign="top">static const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4850eada4a4839c907727781caeb634c">MR::SceneSettings::get</a> (<a class="el" href="#gaca4cbb22b4674eb9de491e91090d5be6">StringType</a> type)</td></tr>
 <tr class="memitem:gab78f12b36390bcda6254817a9d7247b6" id="r_gab78f12b36390bcda6254817a9d7247b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab78f12b36390bcda6254817a9d7247b6">MR::SceneSettings::set</a> (<a class="el" href="#ga01216132f55f2f10947b9f6143f1b9b8">BoolType</a> type, bool value)</td></tr>
 <tr class="memitem:gab33c04442675301bb7cf035e494dd33f" id="r_gab33c04442675301bb7cf035e494dd33f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab33c04442675301bb7cf035e494dd33f">MR::SceneSettings::set</a> (<a class="el" href="#gad40f8b0bfec68b50393b6e9e021b0261">FloatType</a> type, float value)</td></tr>
+<tr class="memitem:gac40e194648e293ad6f0fd7bc22382c50" id="r_gac40e194648e293ad6f0fd7bc22382c50"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac40e194648e293ad6f0fd7bc22382c50">MR::SceneSettings::set</a> (<a class="el" href="#gaca4cbb22b4674eb9de491e91090d5be6">StringType</a> type, std::string value)</td></tr>
 <tr class="memitem:ga02b287347092463de5476b8ec75d358f" id="r_ga02b287347092463de5476b8ec75d358f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ga308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02b287347092463de5476b8ec75d358f">MR::SceneSettings::getDefaultShadingMode</a> ()</td></tr>
 <tr class="memitem:gafca3894ccff66bbec70307b98b8b79cd" id="r_gafca3894ccff66bbec70307b98b8b79cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafca3894ccff66bbec70307b98b8b79cd">MR::SceneSettings::setDefaultShadingMode</a> (<a class="el" href="#ga308e72dcfc90ae1a9370ca7c7bc3290c">ShadingMode</a> mode)</td></tr>
 <tr class="memitem:gadb3726c677eae05ad9e1d00f757913c0" id="r_gadb3726c677eae05ad9e1d00f757913c0"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classMR_1_1CNCMachineSettings.html">CNCMachineSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb3726c677eae05ad9e1d00f757913c0">MR::SceneSettings::getCNCMachineSettings</a> ()</td></tr>
@@ -11571,7 +11578,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:ga5286b77a132b626476a159eca8284084" id="r_ga5286b77a132b626476a159eca8284084"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5286b77a132b626476a159eca8284084">MR::ObjectVoxels::heapBytes</a> () const override</td></tr>
 <tr class="memdesc:ga5286b77a132b626476a159eca8284084"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:ga1c26c30edd465ed8fa5cce096943dd41" id="r_ga1c26c30edd465ed8fa5cce096943dd41"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c26c30edd465ed8fa5cce096943dd41">MR::ObjectVoxels::serializeFormat</a> () const</td></tr>
-<tr class="memdesc:ga1c26c30edd465ed8fa5cce096943dd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize voxels inside this object, nullptr means <a class="el" href="#ga9e98998898fd6201022fae954bea3982">defaultSerializeVoxelsFormat()</a>  <br /></td></tr>
+<tr class="memdesc:ga1c26c30edd465ed8fa5cce096943dd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat )  <br /></td></tr>
 <tr class="memitem:ga4e05efe43388a379ebea5ee73eda2de2" id="r_ga4e05efe43388a379ebea5ee73eda2de2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e05efe43388a379ebea5ee73eda2de2">MR::ObjectVoxels::setSerializeFormat</a> (const char *newFormat)</td></tr>
 <tr class="memitem:gafeeac41257b653790782ef921fc2ef85" id="r_gafeeac41257b653790782ef921fc2ef85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafeeac41257b653790782ef921fc2ef85">MR::ObjectVoxels::resetFrontColor</a> () override</td></tr>
 <tr class="memdesc:gafeeac41257b653790782ef921fc2ef85"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset basic object colors to their default values from the current theme  <br /></td></tr>
@@ -11584,8 +11591,8 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:ga65b4a3ca47835fc39606d407e5edffd5" id="r_ga65b4a3ca47835fc39606d407e5edffd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65b4a3ca47835fc39606d407e5edffd5">MR::ObjectVoxels::deserializeModel_</a> (const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={}) override</td></tr>
 <tr class="memdesc:ga65b4a3ca47835fc39606d407e5edffd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <br /></td></tr>
 <tr class="memitem:ga4b66326802c2afb34138769dde3c0dcb" id="r_ga4b66326802c2afb34138769dde3c0dcb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::future&lt; <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b66326802c2afb34138769dde3c0dcb">MR::ObjectVoxels::serializeModel_</a> (const std::filesystem::path &amp;path) const override</td></tr>
-<tr class="memitem:ga9e98998898fd6201022fae954bea3982" id="r_ga9e98998898fd6201022fae954bea3982"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9e98998898fd6201022fae954bea3982">MR::defaultSerializeVoxelsFormat</a> ()</td></tr>
-<tr class="memitem:ga1e5d24821061d108c1e0e79aaea085a9" id="r_ga1e5d24821061d108c1e0e79aaea085a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e5d24821061d108c1e0e79aaea085a9">MR::setDefaultSerializeVoxelsFormat</a> (std::string newFormat)</td></tr>
+<tr class="memitem:ga7750610f894e8e2863d032a63e1365f8" id="r_ga7750610f894e8e2863d032a63e1365f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7750610f894e8e2863d032a63e1365f8">MR::defaultSerializeVoxelsFormat</a> ()</td></tr>
+<tr class="memitem:gafdaa1f574c454749e18731b1ad8ee7a0" id="r_gafdaa1f574c454749e18731b1ad8ee7a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdaa1f574c454749e18731b1ad8ee7a0">MR::setDefaultSerializeVoxelsFormat</a> (std::string newFormat)</td></tr>
 <tr class="memitem:ga8134bd36bc30764272b23a2c614b0e84" id="r_ga8134bd36bc30764272b23a2c614b0e84"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8134bd36bc30764272b23a2c614b0e84">MR::suggestVoxelSize</a> (const MeshPart &amp;mp, float approxNumVoxels)</td></tr>
 <tr class="memdesc:ga8134bd36bc30764272b23a2c614b0e84"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes size of a cubical voxel to get approximately given number of voxels during rasterization  <br /></td></tr>
 <tr class="memitem:ga9451ab00d17418a216cab567f73b88ac" id="r_ga9451ab00d17418a216cab567f73b88ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9451ab00d17418a216cab567f73b88ac">MR::offsetMesh</a> (const MeshPart &amp;mp, float offset, const <a class="el" href="structMR_1_1OffsetParameters.html">OffsetParameters</a> &amp;params={})</td></tr>
@@ -27447,6 +27454,38 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gaca4cbb22b4674eb9de491e91090d5be6" name="gaca4cbb22b4674eb9de491e91090d5be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca4cbb22b4674eb9de491e91090d5be6">&#9670;&#160;</a></span>StringType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gaca4cbb22b4674eb9de491e91090d5be6">MR::SceneSettings::StringType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb" name="ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb"></a>MeshSerializeFormat&#160;</td><td class="fielddoc"><p>file extension (starting with '.') used to serialize <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> by default, if not overridden in specific object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9" name="ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9"></a>PointsSerializeFormat&#160;</td><td class="fielddoc"><p>file extension (starting with '.') used to serialize <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> by default, if not overridden in specific object; falls back to PLY if given format is not supported </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159" name="ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159"></a>VoxelsSerializeFormat&#160;</td><td class="fielddoc"><p>file extension (starting with '.') used to serialize <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> by default, if not overridden in specific object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9" name="ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"><p>total count </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga5fa77fceab21954148047b9057cdadce" name="ga5fa77fceab21954148047b9057cdadce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga5fa77fceab21954148047b9057cdadce">&#9670;&#160;</a></span>SwipeMode</h2>
 
@@ -30693,7 +30732,7 @@ template&lt;typename TreeT&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
 
-<p>returns overriden file extension used to serialize mesh inside this object if set, or <a class="el" href="#gaa327a029bad713e6790ebf10e611f39e">defaultSerializeMeshFormat()</a>.c_str() otherwise; never returns nullptr </p>
+<p>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr </p>
 
 </div>
 </div>
@@ -54649,8 +54688,8 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="gaa327a029bad713e6790ebf10e611f39e" name="gaa327a029bad713e6790ebf10e611f39e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa327a029bad713e6790ebf10e611f39e">&#9670;&#160;</a></span>defaultSerializeMeshFormat()</h2>
+<a id="gaf2ff1896602b42bea912877e4c59b1be" name="gaf2ff1896602b42bea912877e4c59b1be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2ff1896602b42bea912877e4c59b1be">&#9670;&#160;</a></span>defaultSerializeMeshFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -54659,7 +54698,7 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; MR::defaultSerializeMeshFormat </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp; MR::defaultSerializeMeshFormat </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -54673,12 +54712,11 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
-<p>returns file extension used to serialize <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> by default (if not overridden in specific object), the string starts with '.' </p>
 
 </div>
 </div>
-<a id="ga2c6a78cd704061f23a26f39a7894d013" name="ga2c6a78cd704061f23a26f39a7894d013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2c6a78cd704061f23a26f39a7894d013">&#9670;&#160;</a></span>defaultSerializePointsFormat()</h2>
+<a id="gaa64f295ab3550ca99f30ea4026bdd48b" name="gaa64f295ab3550ca99f30ea4026bdd48b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa64f295ab3550ca99f30ea4026bdd48b">&#9670;&#160;</a></span>defaultSerializePointsFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -54687,7 +54725,7 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; MR::defaultSerializePointsFormat </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp; MR::defaultSerializePointsFormat </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -54701,12 +54739,11 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
-<p>returns file extension used to serialize <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> by default (if not overridden in specific object), the string starts with '.' </p>
 
 </div>
 </div>
-<a id="ga9e98998898fd6201022fae954bea3982" name="ga9e98998898fd6201022fae954bea3982"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9e98998898fd6201022fae954bea3982">&#9670;&#160;</a></span>defaultSerializeVoxelsFormat()</h2>
+<a id="ga7750610f894e8e2863d032a63e1365f8" name="ga7750610f894e8e2863d032a63e1365f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7750610f894e8e2863d032a63e1365f8">&#9670;&#160;</a></span>defaultSerializeVoxelsFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -54715,7 +54752,7 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; MR::defaultSerializeVoxelsFormat </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp; MR::defaultSerializeVoxelsFormat </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -54729,7 +54766,6 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
-<p>returns file extension used to serialize <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> by default (if not overridden in specific object), the string starts with '.' </p>
 
 </div>
 </div>
@@ -78398,7 +78434,7 @@ template&lt;typename F, std::enable_if_t&lt; std::is_invocable_r_v&lt; R, F &amp
 </div>
 </div>
 <a id="ga603a7ae71b566cde606c3d226c1d2c54" name="ga603a7ae71b566cde606c3d226c1d2c54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga603a7ae71b566cde606c3d226c1d2c54">&#9670;&#160;</a></span>get() <span class="overload">[1/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga603a7ae71b566cde606c3d226c1d2c54">&#9670;&#160;</a></span>get() <span class="overload">[1/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78429,7 +78465,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaba62ab281df54c9782b7668d99d28d1e" name="gaba62ab281df54c9782b7668d99d28d1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaba62ab281df54c9782b7668d99d28d1e">&#9670;&#160;</a></span>get() <span class="overload">[2/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba62ab281df54c9782b7668d99d28d1e">&#9670;&#160;</a></span>get() <span class="overload">[2/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78458,7 +78494,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad1f14bb94fff614d875bbb57566a723d" name="gad1f14bb94fff614d875bbb57566a723d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1f14bb94fff614d875bbb57566a723d">&#9670;&#160;</a></span>get() <span class="overload">[3/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1f14bb94fff614d875bbb57566a723d">&#9670;&#160;</a></span>get() <span class="overload">[3/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78485,7 +78521,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga28778e6e35ce6250d0ad0afbb71b84e4" name="ga28778e6e35ce6250d0ad0afbb71b84e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga28778e6e35ce6250d0ad0afbb71b84e4">&#9670;&#160;</a></span>get() <span class="overload">[4/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28778e6e35ce6250d0ad0afbb71b84e4">&#9670;&#160;</a></span>get() <span class="overload">[4/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78512,7 +78548,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga85885b5e86610e53fe93aea07accd2b7" name="ga85885b5e86610e53fe93aea07accd2b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga85885b5e86610e53fe93aea07accd2b7">&#9670;&#160;</a></span>get() <span class="overload">[5/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85885b5e86610e53fe93aea07accd2b7">&#9670;&#160;</a></span>get() <span class="overload">[5/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78539,7 +78575,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2213acc4e6b29595dcd41c3c01895fc6" name="ga2213acc4e6b29595dcd41c3c01895fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2213acc4e6b29595dcd41c3c01895fc6">&#9670;&#160;</a></span>get() <span class="overload">[6/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2213acc4e6b29595dcd41c3c01895fc6">&#9670;&#160;</a></span>get() <span class="overload">[6/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78566,7 +78602,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3264c00309108ada04f0af10519ad602" name="ga3264c00309108ada04f0af10519ad602"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3264c00309108ada04f0af10519ad602">&#9670;&#160;</a></span>get() <span class="overload">[7/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3264c00309108ada04f0af10519ad602">&#9670;&#160;</a></span>get() <span class="overload">[7/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78593,7 +78629,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga16a379ad3fa3bd316038e6040a25d235" name="ga16a379ad3fa3bd316038e6040a25d235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga16a379ad3fa3bd316038e6040a25d235">&#9670;&#160;</a></span>get() <span class="overload">[8/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga16a379ad3fa3bd316038e6040a25d235">&#9670;&#160;</a></span>get() <span class="overload">[8/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78620,7 +78656,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5786f478398399366131858ce23f54da" name="ga5786f478398399366131858ce23f54da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5786f478398399366131858ce23f54da">&#9670;&#160;</a></span>get() <span class="overload">[9/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5786f478398399366131858ce23f54da">&#9670;&#160;</a></span>get() <span class="overload">[9/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78646,8 +78682,35 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga4850eada4a4839c907727781caeb634c" name="ga4850eada4a4839c907727781caeb634c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4850eada4a4839c907727781caeb634c">&#9670;&#160;</a></span>get() <span class="overload">[10/22]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; MR::SceneSettings::get </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaca4cbb22b4674eb9de491e91090d5be6">StringType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSceneSettings_8h.html">MRMesh/MRSceneSettings.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga4594d4e61f1e8cb98cdf84f86dcdc9bd" name="ga4594d4e61f1e8cb98cdf84f86dcdc9bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4594d4e61f1e8cb98cdf84f86dcdc9bd">&#9670;&#160;</a></span>get() <span class="overload">[10/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4594d4e61f1e8cb98cdf84f86dcdc9bd">&#9670;&#160;</a></span>get() <span class="overload">[11/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78678,7 +78741,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga68a97ff9c823539594b0ebedef0ba8b1" name="ga68a97ff9c823539594b0ebedef0ba8b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga68a97ff9c823539594b0ebedef0ba8b1">&#9670;&#160;</a></span>get() <span class="overload">[11/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga68a97ff9c823539594b0ebedef0ba8b1">&#9670;&#160;</a></span>get() <span class="overload">[12/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78705,7 +78768,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gaa63ad726de4f8ed054254810d1e74b3e" name="gaa63ad726de4f8ed054254810d1e74b3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa63ad726de4f8ed054254810d1e74b3e">&#9670;&#160;</a></span>get() <span class="overload">[12/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa63ad726de4f8ed054254810d1e74b3e">&#9670;&#160;</a></span>get() <span class="overload">[13/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78738,7 +78801,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga7dcd7da9538cdabf19f8ba7df37407d8" name="ga7dcd7da9538cdabf19f8ba7df37407d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7dcd7da9538cdabf19f8ba7df37407d8">&#9670;&#160;</a></span>get() <span class="overload">[13/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7dcd7da9538cdabf19f8ba7df37407d8">&#9670;&#160;</a></span>get() <span class="overload">[14/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78765,7 +78828,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="ga0110b47db298ab6d8434751e3dcc795d" name="ga0110b47db298ab6d8434751e3dcc795d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0110b47db298ab6d8434751e3dcc795d">&#9670;&#160;</a></span>get() <span class="overload">[14/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0110b47db298ab6d8434751e3dcc795d">&#9670;&#160;</a></span>get() <span class="overload">[15/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78792,7 +78855,7 @@ template&lt;typename C, typename D, D M&gt; </div>
 </div>
 </div>
 <a id="gae73fe3f829a36a4c416f494dd52d6a23" name="gae73fe3f829a36a4c416f494dd52d6a23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae73fe3f829a36a4c416f494dd52d6a23">&#9670;&#160;</a></span>get() <span class="overload">[15/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gae73fe3f829a36a4c416f494dd52d6a23">&#9670;&#160;</a></span>get() <span class="overload">[16/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78821,7 +78884,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad5969e08db6cde585c897d89b6187f8e" name="gad5969e08db6cde585c897d89b6187f8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad5969e08db6cde585c897d89b6187f8e">&#9670;&#160;</a></span>get() <span class="overload">[16/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5969e08db6cde585c897d89b6187f8e">&#9670;&#160;</a></span>get() <span class="overload">[17/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78850,7 +78913,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga6ed32adcefd945e4693d6e9df9094510" name="ga6ed32adcefd945e4693d6e9df9094510"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6ed32adcefd945e4693d6e9df9094510">&#9670;&#160;</a></span>get() <span class="overload">[17/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6ed32adcefd945e4693d6e9df9094510">&#9670;&#160;</a></span>get() <span class="overload">[18/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78879,7 +78942,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7b206116497819980e1bc33f9a1f0774" name="ga7b206116497819980e1bc33f9a1f0774"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7b206116497819980e1bc33f9a1f0774">&#9670;&#160;</a></span>get() <span class="overload">[18/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7b206116497819980e1bc33f9a1f0774">&#9670;&#160;</a></span>get() <span class="overload">[19/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78908,7 +78971,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga51881d0d836b595d2b86615cbf6ef336" name="ga51881d0d836b595d2b86615cbf6ef336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga51881d0d836b595d2b86615cbf6ef336">&#9670;&#160;</a></span>get() <span class="overload">[19/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51881d0d836b595d2b86615cbf6ef336">&#9670;&#160;</a></span>get() <span class="overload">[20/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78939,7 +79002,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga831f5621f04fe15b891a1d7a2dc755d6" name="ga831f5621f04fe15b891a1d7a2dc755d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga831f5621f04fe15b891a1d7a2dc755d6">&#9670;&#160;</a></span>get() <span class="overload">[20/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga831f5621f04fe15b891a1d7a2dc755d6">&#9670;&#160;</a></span>get() <span class="overload">[21/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78970,7 +79033,7 @@ template&lt;typename Accessor&gt; </div>
 </div>
 </div>
 <a id="ga4cb9593831740a31e6a6933644435799" name="ga4cb9593831740a31e6a6933644435799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4cb9593831740a31e6a6933644435799">&#9670;&#160;</a></span>get() <span class="overload">[21/21]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cb9593831740a31e6a6933644435799">&#9670;&#160;</a></span>get() <span class="overload">[22/22]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163230,7 +163293,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
 
-<p>returns overriden file extension used to serialize mesh inside this object, nullptr means <a class="el" href="#gaa327a029bad713e6790ebf10e611f39e">defaultSerializeMeshFormat()</a> </p>
+<p>returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) </p>
 
 </div>
 </div>
@@ -163259,7 +163322,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
 
-<p>returns overriden file extension used to serialize point cloud inside this object, nullptr means <a class="el" href="#ga2c6a78cd704061f23a26f39a7894d013">defaultSerializePointsFormat()</a> </p>
+<p>returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) </p>
 
 </div>
 </div>
@@ -163288,7 +163351,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
 
-<p>returns overriden file extension used to serialize voxels inside this object, nullptr means <a class="el" href="#ga9e98998898fd6201022fae954bea3982">defaultSerializeVoxelsFormat()</a> </p>
+<p>returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) </p>
 
 </div>
 </div>
@@ -163759,7 +163822,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaf8baba6cb20d047df531941eeabd08d1" name="gaf8baba6cb20d047df531941eeabd08d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf8baba6cb20d047df531941eeabd08d1">&#9670;&#160;</a></span>set() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf8baba6cb20d047df531941eeabd08d1">&#9670;&#160;</a></span>set() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163780,7 +163843,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga446c4e6622ed348d28ddd40a2f97445c" name="ga446c4e6622ed348d28ddd40a2f97445c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga446c4e6622ed348d28ddd40a2f97445c">&#9670;&#160;</a></span>set() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga446c4e6622ed348d28ddd40a2f97445c">&#9670;&#160;</a></span>set() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163801,7 +163864,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga4f68b00de0e936bca0ded2f66858d59e" name="ga4f68b00de0e936bca0ded2f66858d59e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4f68b00de0e936bca0ded2f66858d59e">&#9670;&#160;</a></span>set() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f68b00de0e936bca0ded2f66858d59e">&#9670;&#160;</a></span>set() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163824,7 +163887,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaab5702041286d77201bac4ce1254f2d0" name="gaab5702041286d77201bac4ce1254f2d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaab5702041286d77201bac4ce1254f2d0">&#9670;&#160;</a></span>set() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab5702041286d77201bac4ce1254f2d0">&#9670;&#160;</a></span>set() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163855,7 +163918,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab78f12b36390bcda6254817a9d7247b6" name="gab78f12b36390bcda6254817a9d7247b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab78f12b36390bcda6254817a9d7247b6">&#9670;&#160;</a></span>set() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab78f12b36390bcda6254817a9d7247b6">&#9670;&#160;</a></span>set() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163886,7 +163949,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gab33c04442675301bb7cf035e494dd33f" name="gab33c04442675301bb7cf035e494dd33f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab33c04442675301bb7cf035e494dd33f">&#9670;&#160;</a></span>set() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gab33c04442675301bb7cf035e494dd33f">&#9670;&#160;</a></span>set() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163916,8 +163979,39 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="gac40e194648e293ad6f0fd7bc22382c50" name="gac40e194648e293ad6f0fd7bc22382c50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac40e194648e293ad6f0fd7bc22382c50">&#9670;&#160;</a></span>set() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SceneSettings::set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaca4cbb22b4674eb9de491e91090d5be6">StringType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSceneSettings_8h.html">MRMesh/MRSceneSettings.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga3b3e82656a92381f41f435da52178562" name="ga3b3e82656a92381f41f435da52178562"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3b3e82656a92381f41f435da52178562">&#9670;&#160;</a></span>set() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b3e82656a92381f41f435da52178562">&#9670;&#160;</a></span>set() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166693,14 +166787,14 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
-<a id="ga3e1e9d92e64e6c27696b626e2c450144" name="ga3e1e9d92e64e6c27696b626e2c450144"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3e1e9d92e64e6c27696b626e2c450144">&#9670;&#160;</a></span>setDefaultSerializeMeshFormat()</h2>
+<a id="gad470465fba020e775587e6dfe209ba03" name="gad470465fba020e775587e6dfe209ba03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad470465fba020e775587e6dfe209ba03">&#9670;&#160;</a></span>setDefaultSerializeMeshFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::setDefaultSerializeMeshFormat </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::setDefaultSerializeMeshFormat </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>newFormat</em></span></td><td>)</td>
           <td></td>
@@ -166709,18 +166803,17 @@ template&lt;typename Tag&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
-<p>sets file extension used to serialize serialize <a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> by default (if not overridden in specific object), the string must start from '.'; serialization falls back to the PLY format if given format support is available NOTE: CTM format support is available in the MRIOExtras library; make sure to load it if you prefer CTM </p>
 
 </div>
 </div>
-<a id="ga7e504838577ed8995448cf04bf473df1" name="ga7e504838577ed8995448cf04bf473df1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7e504838577ed8995448cf04bf473df1">&#9670;&#160;</a></span>setDefaultSerializePointsFormat()</h2>
+<a id="gadfa251767141b4418cd3d1b6b1828fab" name="gadfa251767141b4418cd3d1b6b1828fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfa251767141b4418cd3d1b6b1828fab">&#9670;&#160;</a></span>setDefaultSerializePointsFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::setDefaultSerializePointsFormat </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::setDefaultSerializePointsFormat </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>newFormat</em></span></td><td>)</td>
           <td></td>
@@ -166729,18 +166822,17 @@ template&lt;typename Tag&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
-<p>sets file extension used to serialize serialize <a class="el" href="classMR_1_1ObjectPointsHolder.html">ObjectPointsHolder</a> by default (if not overridden in specific object), the string must start from '.'; serialization falls back to the PLY format if given format support is available NOTE: CTM format support is available in the MRIOExtras library; make sure to load it if you prefer CTM </p>
 
 </div>
 </div>
-<a id="ga1e5d24821061d108c1e0e79aaea085a9" name="ga1e5d24821061d108c1e0e79aaea085a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1e5d24821061d108c1e0e79aaea085a9">&#9670;&#160;</a></span>setDefaultSerializeVoxelsFormat()</h2>
+<a id="gafdaa1f574c454749e18731b1ad8ee7a0" name="gafdaa1f574c454749e18731b1ad8ee7a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafdaa1f574c454749e18731b1ad8ee7a0">&#9670;&#160;</a></span>setDefaultSerializeVoxelsFormat()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MR::setDefaultSerializeVoxelsFormat </td>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::setDefaultSerializeVoxelsFormat </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>newFormat</em></span></td><td>)</td>
           <td></td>
@@ -166749,7 +166841,6 @@ template&lt;typename Tag&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
-<p>sets file extension used to serialize serialize <a class="el" href="classMR_1_1ObjectVoxels.html">ObjectVoxels</a> by default (if not overridden in specific object), the string must start from '.' </p>
 
 </div>
 </div>
@@ -172421,7 +172512,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectMeshHolder_8h.html">MRMesh/MRObjectMeshHolder.h</a>&gt;</code></p>
-<p>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in <a class="el" href="#gaa327a029bad713e6790ebf10e611f39e">defaultSerializeMeshFormat()</a> </p>
+<p>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) </p>
 
 </div>
 </div>
@@ -172441,7 +172532,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectPointsHolder_8h.html">MRMesh/MRObjectPointsHolder.h</a>&gt;</code></p>
-<p>overrides file extension used to serialize point cloud inside this object: must start from '.', nullptr means serialize in <a class="el" href="#ga2c6a78cd704061f23a26f39a7894d013">defaultSerializePointsFormat()</a> </p>
+<p>overrides file extension used to serialize point cloud inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) </p>
 
 </div>
 </div>
@@ -172461,7 +172552,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectVoxels_8h.html">MRVoxels/MRObjectVoxels.h</a>&gt;</code></p>
-<p>overrides file extension used to serialize voxels inside this object: must start from '.', nullptr means serialize in <a class="el" href="#ga9e98998898fd6201022fae954bea3982">defaultSerializeVoxelsFormat()</a> </p>
+<p>overrides file extension used to serialize voxels inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) </p>
 
 </div>
 </div>

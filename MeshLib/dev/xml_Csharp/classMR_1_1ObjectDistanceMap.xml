@@ -1142,7 +1142,7 @@
           <declname>newFormat</declname>
         </param>
         <briefdescription>
-<para>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in <ref refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kindref="member">defaultSerializeMeshFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2a2e011162f5fec3c054f227132711c7" kindref="member">MR.ObjectDistanceMap.setSerializeFormat</ref></computeroutput>. </para>
+<para>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2a2e011162f5fec3c054f227132711c7" kindref="member">MR.ObjectDistanceMap.setSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

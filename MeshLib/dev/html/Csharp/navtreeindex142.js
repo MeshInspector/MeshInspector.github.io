@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"classMR_1_1Vector__MRVertBitSet__MRObjId.html":[9,3,0,0,0,1796],
 "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a00fe50f8e1df160e2943a36a11de1bca":[9,3,0,0,0,1796,20],
 "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a033041f0eaf7ab2413d4eb4eae4009e7":[9,3,0,0,0,1796,10],
 "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a0de2e5b6ef740ee67e91771daf9ad839":[9,3,0,0,0,1796,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a3f7fcd027f4fbba4f0c5c0c690e7a6bc":[9,3,0,0,0,1804,10],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a430307bbbe9072a2cb76f594453c4573":[9,3,0,0,0,1804,21],
 "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a4eccf8eb0705190dc40b1169bef92822":[9,3,0,0,0,1804,16],
-"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a4ed50166edb9e630183ca22664596fab":[9,3,0,0,0,1804,11],
-"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a52697bdca87a383c2439ec4f0b9c89f0":[9,3,0,0,0,1804,14]
+"classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a4ed50166edb9e630183ca22664596fab":[9,3,0,0,0,1804,11]
 };

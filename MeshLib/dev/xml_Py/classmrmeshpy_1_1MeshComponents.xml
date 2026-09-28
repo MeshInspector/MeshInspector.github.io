@@ -61,41 +61,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3972" bodyend="3975"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
-        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.MeshComponents.getAllComponents</definition>
-        <argsstring>(Face2RegionMap componentsMap, int componentsCount, FaceBitSet region, int maxComponentCount)</argsstring>
-        <name>getAllComponents</name>
-        <qualifiedname>mrmeshpy.MeshComponents.getAllComponents</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref></type>
-          <declname>componentsMap</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>componentsCount</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
-          <declname>region</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>maxComponentCount</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets all connected components from components map ( FaceId =&gt; RegionId )
-\\detail if components  number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap)
-\\param maxComponentCount should be more than 1
-\\return components bitsets vector
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3978" bodyend="3984"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
         <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.MeshComponents.getAllComponents</definition>
@@ -125,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3987" bodyend="3991"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3978" bodyend="3982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref>, int]</type>
@@ -158,6 +123,41 @@
 \\detail if components  number more than the maxComponentCount, they will be combined into groups of the same size
 \\param maxComponentCount should be more than 1
 \\return pair components bitsets vector and number components in one group if components number more than maxComponentCount
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3985" bodyend="3991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.MeshComponents.getAllComponents</definition>
+        <argsstring>(Face2RegionMap componentsMap, int componentsCount, FaceBitSet region, int maxComponentCount)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getAllComponents</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref></type>
+          <declname>componentsMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>componentsCount</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets all connected components from components map ( FaceId =&gt; RegionId )
+\\detail if components  number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap)
+\\param maxComponentCount should be more than 1
+\\return components bitsets vector
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -1424,9 +1424,9 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshComponents_1a6495beaaac4f66402d568d63a55a8834" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>excludeFullySelectedComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1af592f7c3a03d69604d3a8135c9b0a29c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>expandToComponents</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1bb822da4a63e20538486113a5a4f557" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a2e46b54bd66024908500a79f80671439" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a3d3bb261ba59465c7003cfd175dc17dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>

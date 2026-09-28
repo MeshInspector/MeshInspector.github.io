@@ -467,7 +467,7 @@
           <declname>newFormat</declname>
         </param>
         <briefdescription>
-<para>overrides file extension used to serialize point cloud inside this object: must start from '.', nullptr means serialize in <ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">defaultSerializePointsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectPointsHolder_1a1c2520c78b77e4c255a2723a1474ed12" kindref="member">MR.ObjectPointsHolder.setSerializeFormat</ref></computeroutput>. </para>
+<para>overrides file extension used to serialize point cloud inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <computeroutput><ref refid="classMR_1_1ObjectPointsHolder_1a1c2520c78b77e4c255a2723a1474ed12" kindref="member">MR.ObjectPointsHolder.setSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

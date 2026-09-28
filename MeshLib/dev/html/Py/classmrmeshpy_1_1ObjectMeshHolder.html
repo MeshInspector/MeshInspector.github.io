@@ -418,7 +418,7 @@ an object that stores a mesh
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns overriden file extension used to serialize mesh inside this object if set, or defaultSerializeMeshFormat().c_str() otherwise; never returns nullptr
+<pre class="fragment">returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr
 </pre> 
 </div>
 </div>
@@ -1632,7 +1632,7 @@ e.g. ObjectMesh has valid meshPtr() or ObjectPoints has valid pointCloudPtr()
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns overriden file extension used to serialize mesh inside this object, nullptr means defaultSerializeMeshFormat()
+<pre class="fragment">returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat )
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ObjectVoxels.html#aa5ad4c12a35f573b76781d382667c058">mrmeshpy.ObjectVoxels</a>.</p>
 
@@ -2121,7 +2121,7 @@ DANGER: all cached values returned until then can be outdated
       </table>
 </div><div class="memdoc">
 <pre class="fragment">overrides file extension used to serialize mesh inside this object: must start from '.',
-nullptr means serialize in defaultSerializeMeshFormat()
+nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat )
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1ObjectVoxels.html#abc61affef50552d5c392d773998011ec">mrmeshpy.ObjectVoxels</a>.</p>
 

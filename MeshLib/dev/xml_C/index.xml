@@ -18650,8 +18650,6 @@
     <member refid="MRObjectMeshHolder_8h_1a25f9393f9a2b8093568f3ab2e991c21a" kind="function"><name>MR_ObjectMeshHolder_addTag</name></member>
     <member refid="MRObjectMeshHolder_8h_1a638fd31bcf68da716fad7ac4b90ca6a0" kind="function"><name>MR_ObjectMeshHolder_removeTag</name></member>
     <member refid="MRObjectMeshHolder_8h_1a3e3ab1af88ad8de33b69e11ce69b7b8b" kind="function"><name>MR_ObjectMeshHolder_getSharedPtr</name></member>
-    <member refid="MRObjectMeshHolder_8h_1a9db402ef29ab738a18f88dadcbcbd047" kind="function"><name>MR_defaultSerializeMeshFormat</name></member>
-    <member refid="MRObjectMeshHolder_8h_1aad9419407aaea662a3117bcb33440cbb" kind="function"><name>MR_setDefaultSerializeMeshFormat</name></member>
   </compound>
   <compound refid="MRObjectPoints_8h" kind="file"><name>MRObjectPoints.h</name>
     <member refid="MRObjectPoints_8h_1aa76b4405dda2a1ef0d835d2c4ede517a" kind="typedef"><name>MR_ObjectPointsHolder</name></member>
@@ -18998,8 +18996,6 @@
     <member refid="MRObjectPointsHolder_8h_1ac42252fbb0ea8aefa223c95e29492fe0" kind="function"><name>MR_ObjectPointsHolder_sameModels</name></member>
     <member refid="MRObjectPointsHolder_8h_1a357aa8007d7a258dee944806e13bb7cd" kind="function"><name>MR_ObjectPointsHolder_getModelHash</name></member>
     <member refid="MRObjectPointsHolder_8h_1aab0d1e890a18809f50f12b5c8d222997" kind="function"><name>MR_ObjectPointsHolder_getSharedPtr</name></member>
-    <member refid="MRObjectPointsHolder_8h_1ab9b6900bac00be23363ce0092599e40e" kind="function"><name>MR_defaultSerializePointsFormat</name></member>
-    <member refid="MRObjectPointsHolder_8h_1a737ac0a46577e7f4199f80b2529cbacf" kind="function"><name>MR_setDefaultSerializePointsFormat</name></member>
   </compound>
   <compound refid="MRObjectsAccess_8h" kind="file"><name>MRObjectsAccess.h</name>
     <member refid="MRObjectsAccess_8h_1a5a9229d11df8f70cd6034b5cd64f4652" kind="enum"><name>MR_ObjectSelectivityType</name></member>
@@ -22853,19 +22849,27 @@
     <member refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df" kind="enumvalue"><name>MR_SceneSettings_FloatType_FeatureSubPointSize</name></member>
     <member refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e" kind="enumvalue"><name>MR_SceneSettings_FloatType_AmbientCoefSelectedObj</name></member>
     <member refid="MRSceneSettings_8h_1ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181" kind="enumvalue"><name>MR_SceneSettings_FloatType_Count</name></member>
+    <member refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1c" kind="enum"><name>MR_SceneSettings_StringType</name></member>
+    <member refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca8fe0cd3c93a362bbb2c76bd10c97de6a" kind="enumvalue"><name>MR_SceneSettings_StringType_MeshSerializeFormat</name></member>
+    <member refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1cac4d7c821b51a82fb450ed5551485224d" kind="enumvalue"><name>MR_SceneSettings_StringType_PointsSerializeFormat</name></member>
+    <member refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca1c6309fd68e0e25c99612343870c4b6c" kind="enumvalue"><name>MR_SceneSettings_StringType_VoxelsSerializeFormat</name></member>
+    <member refid="MRSceneSettings_8h_1a7ac995a0586ce25e03443419f1729e1ca706d7765d33a1f8ba5c92867b129387e" kind="enumvalue"><name>MR_SceneSettings_StringType_Count</name></member>
     <member refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527c" kind="enum"><name>MR_SceneSettings_ShadingMode</name></member>
     <member refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9" kind="enumvalue"><name>MR_SceneSettings_ShadingMode_AutoDetect</name></member>
     <member refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7" kind="enumvalue"><name>MR_SceneSettings_ShadingMode_Smooth</name></member>
     <member refid="MRSceneSettings_8h_1ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d" kind="enumvalue"><name>MR_SceneSettings_ShadingMode_Flat</name></member>
     <member refid="MRSceneSettings_8h_1a3649382c7f0d2ead3e39ed8a9b4a751d" kind="typedef"><name>MR_SceneSettings_BoolType</name></member>
     <member refid="MRSceneSettings_8h_1a1d4b4e5796cebc0245ab16d6398b3b1a" kind="typedef"><name>MR_SceneSettings_FloatType</name></member>
+    <member refid="MRSceneSettings_8h_1a77b1b459a94f7a760e6822bf201b94b2" kind="typedef"><name>MR_SceneSettings_StringType</name></member>
     <member refid="MRSceneSettings_8h_1a0215ab4cc7cbc9b6a7fbc81fddc1f82f" kind="typedef"><name>MR_SceneSettings_ShadingMode</name></member>
     <member refid="MRSceneSettings_8h_1a71b8f6135364d23bd16fac524ef466a8" kind="typedef"><name>MR_SceneSettings</name></member>
     <member refid="MRSceneSettings_8h_1ac398ae069f5b6ed067e0ceacdb82e060" kind="function"><name>MR_SceneSettings_reset</name></member>
     <member refid="MRSceneSettings_8h_1a511c5016fa7f2fdbbae2a42760919f9e" kind="function"><name>MR_SceneSettings_get_MR_SceneSettings_BoolType</name></member>
     <member refid="MRSceneSettings_8h_1a2f53b33ea65b401b2bfdb0216efceef8" kind="function"><name>MR_SceneSettings_get_MR_SceneSettings_FloatType</name></member>
+    <member refid="MRSceneSettings_8h_1a18f9b2c08de9246c4f29dbb31a3348cd" kind="function"><name>MR_SceneSettings_get_MR_SceneSettings_StringType</name></member>
     <member refid="MRSceneSettings_8h_1a706cb745d9b13d1824be57c4de4848da" kind="function"><name>MR_SceneSettings_set_MR_SceneSettings_BoolType</name></member>
     <member refid="MRSceneSettings_8h_1a9e8c8ff62b21948e15c8bb790016863b" kind="function"><name>MR_SceneSettings_set_MR_SceneSettings_FloatType</name></member>
+    <member refid="MRSceneSettings_8h_1a6cd0925e3f23eea6835101e50eec97a6" kind="function"><name>MR_SceneSettings_set_MR_SceneSettings_StringType</name></member>
     <member refid="MRSceneSettings_8h_1a81fb989e8e1e7db26369df3d8d294961" kind="function"><name>MR_SceneSettings_getDefaultShadingMode</name></member>
     <member refid="MRSceneSettings_8h_1a7692ae8be694b0e839f86b766f0c45eb" kind="function"><name>MR_SceneSettings_setDefaultShadingMode</name></member>
     <member refid="MRSceneSettings_8h_1a79465aef7f1817ef1eada7eac8374fa7" kind="function"><name>MR_SceneSettings_getCNCMachineSettings</name></member>
@@ -51325,7 +51329,7 @@
     <member refid="MRObjectVoxels_8h_1a19573b60b37494d19a2b502bc9619d83" kind="function"><name>MR_ObjectVoxels_prepareDataForVolumeRendering</name></member>
     <member refid="MRObjectVoxels_8h_1a12bddccd34651e614c92109348a4427d" kind="function"><name>MR_ObjectVoxels_isVolumeRenderingEnabled</name></member>
     <member refid="MRObjectVoxels_8h_1a20b29619eb1318c8a7166c4a4312a03b" kind="function"><name>MR_ObjectVoxels_enableVolumeRendering</name></member>
-    <member refid="MRObjectVoxels_8h_1a5d48f92474e0313898091657a5c554a8" kind="function"><name>MR_setDefaultSerializeVoxelsFormat</name></member>
+    <member refid="MRObjectVoxels_8h_1a26f7af611aeb6bbf34ba1129c2d1d253" kind="function"><name>MR_equal_MR_ObjectVoxels_VolumeRenderingParams</name></member>
   </compound>
   <compound refid="MROffset_8h" kind="file"><name>MROffset.h</name>
     <member refid="MROffset_8h_1a211059bd90558b58bd309a0c7546f901" kind="typedef"><name>MR_BaseShellParameters</name></member>

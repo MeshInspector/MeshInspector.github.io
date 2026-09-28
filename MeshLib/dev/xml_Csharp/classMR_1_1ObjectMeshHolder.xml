@@ -1039,7 +1039,7 @@
           <declname>newFormat</declname>
         </param>
         <briefdescription>
-<para>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in <ref refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kindref="member">defaultSerializeMeshFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1ab6adb1286a39cb85eebe789779f467c6" kindref="member">MR.ObjectMeshHolder.setSerializeFormat</ref></computeroutput>. </para>
+<para>overrides file extension used to serialize mesh inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1ab6adb1286a39cb85eebe789779f467c6" kindref="member">MR.ObjectMeshHolder.setSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

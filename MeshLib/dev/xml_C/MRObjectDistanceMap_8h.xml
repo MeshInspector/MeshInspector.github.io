@@ -3133,7 +3133,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns overriden file extension used to serialize mesh inside this object, nullptr means defaultSerializeMeshFormat() Generated from method <computeroutput>MR::ObjectDistanceMap::serializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput>MR::ObjectDistanceMap::serializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3151,7 +3151,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns overriden file extension used to serialize mesh inside this object if set, or defaultSerializeMeshFormat().c_str() otherwise; never returns nullptr Generated from method <computeroutput>MR::ObjectDistanceMap::actualSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr Generated from method <computeroutput>MR::ObjectDistanceMap::actualSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -3173,7 +3173,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in defaultSerializeMeshFormat() Generated from method <computeroutput>MR::ObjectDistanceMap::setSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput>MR::ObjectDistanceMap::setSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

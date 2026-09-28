@@ -1,11 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"classMR_1_1Const__PolylineSubdivideSettings.html#ae92b3d1ea012f8b715001c56ffb4b131":[9,3,0,0,0,755,6],
-"classMR_1_1Const__PolylineSubdivideSettings.html#af60b77e00ec3729572311e98389012ca":[9,3,0,0,0,755,4],
-"classMR_1_1Const__PolylineToDistanceVolumeParams.html":[9,3,0,0,0,756],
-"classMR_1_1Const__PolylineToDistanceVolumeParams.html#a0f86a0ce39f6ed9d38c4ded3c1d2b4a8":[9,3,0,0,0,756,6],
-"classMR_1_1Const__PolylineToDistanceVolumeParams.html#a2134f85068e3c3a810e1ebbb4d6d5c1a":[9,3,0,0,0,756,10],
-"classMR_1_1Const__PolylineToDistanceVolumeParams.html#a2f0b071549c004f0fe181eddab2c51a5":[9,3,0,0,0,756,4],
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a3ae91caa069ea30687b1176f02a3c787":[9,3,0,0,0,756,0],
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a447d3bce54d566e789fa5fbd685e05b4":[9,3,0,0,0,756,7],
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a5163b4cfb608331d77c466237781a88a":[9,3,0,0,0,756,13],
@@ -249,5 +243,11 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__Polynomial__Float__4.html#a49f1a853cc4ce90029d3342a310e7719":[9,3,0,0,0,773,7],
 "classMR_1_1Const__Polynomial__Float__4.html#a4c5cccbbb605d769e04cccc0f818e154":[9,3,0,0,0,773,6],
 "classMR_1_1Const__Polynomial__Float__4.html#aa468c39f20651dfcbadf538885d1de8a":[9,3,0,0,0,773,4],
-"classMR_1_1Const__Polynomial__Float__4.html#ab19e7e4f589ac5e9dc3c3462c3570214":[9,3,0,0,0,773,2]
+"classMR_1_1Const__Polynomial__Float__4.html#ab19e7e4f589ac5e9dc3c3462c3570214":[9,3,0,0,0,773,2],
+"classMR_1_1Const__Polynomial__Float__4.html#aca0418ea619011782dddce97942a96ee":[9,3,0,0,0,773,10],
+"classMR_1_1Const__Polynomial__Float__4.html#ad9c7cf5b64c742897e40be48e9f7e8b4":[9,3,0,0,0,773,5],
+"classMR_1_1Const__Polynomial__Float__4.html#ae927bc02175d655d3f7fa02d69efc3ca":[9,3,0,0,0,773,3],
+"classMR_1_1Const__Polynomial__Float__5.html":[9,3,0,0,0,774],
+"classMR_1_1Const__Polynomial__Float__5.html#a2ee04853992152862eac66183b92ae09":[9,3,0,0,0,774,9],
+"classMR_1_1Const__Polynomial__Float__5.html#a3555e8e1588751044f152c65b146a159":[9,3,0,0,0,774,6]
 };

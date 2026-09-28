@@ -1,5 +1,12 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PythonFunctionAdder.html":[9,0,0,20,559],
+"structMR_1_1QuadraticForm.html":[9,0,0,0,19],
+"structMR_1_1QuadraticForm.html":[9,0,0,20,482],
+"structMR_1_1Quaternion.html":[9,0,0,0,20],
+"structMR_1_1Quaternion.html":[9,0,0,20,483],
+"structMR_1_1RangeSize.html":[9,0,0,20,876],
+"structMR_1_1RawTiffOutput.html":[9,0,0,20,519],
 "structMR_1_1RayOrigin.html":[9,0,0,0,9,0],
 "structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[9,0,0,0,9,0,0],
 "structMR_1_1RayOrigin.html#ac04a9fc6f4e6573fb74ba782ee0db113":[9,0,0,0,9,0,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,20,476],
 "structMR_1_1TriangulateHolesParams.html":[9,0,0,13,2],
 "structMR_1_1TriangulateHolesParams.html#a8817163abe136db373a3bbdefcba5ed0":[9,0,0,13,2,0],
-"structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb":[9,0,0,13,2,1],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,1,0,1,48,0],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,2,0,2,32,0],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[9,0,1,0,1,48,0,6],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e":[9,0,2,0,2,32,0,6],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a259f0dc748bf189fe876ca658509642e":[9,0,1,0,1,48,0,2],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a259f0dc748bf189fe876ca658509642e":[9,0,2,0,2,32,0,2],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091":[9,0,1,0,1,48,0,7]
+"structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb":[9,0,0,13,2,1]
 };

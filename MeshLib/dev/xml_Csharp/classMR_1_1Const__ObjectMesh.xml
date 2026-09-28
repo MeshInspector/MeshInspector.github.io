@@ -975,7 +975,7 @@
         <name>serializeFormat</name>
         <qualifiedname>MR.Const_ObjectMesh.serializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize mesh inside this object, nullptr means <ref refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kindref="member">defaultSerializeMeshFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMesh_1aad097386f114e4d9378e855580c3291a" kindref="member">MR.ObjectMesh.serializeFormat</ref></computeroutput>. </para>
+<para>returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMesh_1aad097386f114e4d9378e855580c3291a" kindref="member">MR.ObjectMesh.serializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -990,7 +990,7 @@
         <name>actualSerializeFormat</name>
         <qualifiedname>MR.Const_ObjectMesh.actualSerializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize mesh inside this object if set, or <ref refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kindref="member">defaultSerializeMeshFormat()</ref>.c_str() otherwise; never returns nullptr Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMesh_1a453709019e2673463defb8afe61963bc" kindref="member">MR.ObjectMesh.actualSerializeFormat</ref></computeroutput>. </para>
+<para>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectMesh_1a453709019e2673463defb8afe61963bc" kindref="member">MR.ObjectMesh.actualSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

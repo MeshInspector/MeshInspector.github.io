@@ -1,11 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"classMR_1_1Const__GridSettings.html#a990ab8bc9bccb8d4ed8ad62bf9911d80":[9,3,0,0,0,486,0],
-"classMR_1_1Const__GridSettings.html#a990ab8bc9bccb8d4ed8ad62bf9911d80a06ce2a25e5d12c166a36f654dbea6012":[9,3,0,0,0,486,0,1],
-"classMR_1_1Const__GridSettings.html#a990ab8bc9bccb8d4ed8ad62bf9911d80abdd515b2294ff6174a1894240f02e08e":[9,3,0,0,0,486,0,3],
-"classMR_1_1Const__GridSettings.html#a990ab8bc9bccb8d4ed8ad62bf9911d80ac1b5fa03ecdb95d4a45dd1c40b02527f":[9,3,0,0,0,486,0,0],
-"classMR_1_1Const__GridSettings.html#a990ab8bc9bccb8d4ed8ad62bf9911d80af14de12b788d5fd679e1e5d2875b95f4":[9,3,0,0,0,486,0,2],
-"classMR_1_1Const__GridSettings.html#a9ed33bfa75203226717b560f1b6319fe":[9,3,0,0,0,486,10],
 "classMR_1_1Const__GridSettings.html#aa2d59e405eda90a9db7ebbdfd42b12bc":[9,3,0,0,0,486,8],
 "classMR_1_1Const__GridSettings.html#acf6a6e408766abcbb970697fac4995e3":[9,3,0,0,0,486,4],
 "classMR_1_1Const__GridSettings.html#add21a49b4e8ec21647eb9e016b817db1":[9,3,0,0,0,486,5],
@@ -249,5 +243,11 @@ var NAVTREEINDEX50 =
 "classMR_1_1Const__IComputeToolDistance.html#a909498343a645ba1248403d000ab5f21":[9,3,0,0,0,496,1],
 "classMR_1_1Const__IComputeToolDistance.html#ad99fae3925f5373e82350646f3865158":[9,3,0,0,0,496,2],
 "classMR_1_1Const__IFastWindingNumber.html":[9,3,0,0,0,503],
-"classMR_1_1Const__IFastWindingNumber.html#a04b914fd85a4ba6cee47149f0fb5f48c":[9,3,0,0,0,503,0]
+"classMR_1_1Const__IFastWindingNumber.html#a04b914fd85a4ba6cee47149f0fb5f48c":[9,3,0,0,0,503,0],
+"classMR_1_1Const__IFastWindingNumber.html#a846097ec72d3f85805131a0c51ffe61e":[9,3,0,0,0,503,1],
+"classMR_1_1Const__IFastWindingNumberByParts.html":[9,3,0,0,0,504],
+"classMR_1_1Const__IFastWindingNumberByParts.html#a301a32532a2c8849f0d4d17454400209":[9,3,0,0,0,504,0],
+"classMR_1_1Const__IFastWindingNumberByParts.html#aea303205c61fa7127ed84a8884c134db":[9,3,0,0,0,504,1],
+"classMR_1_1Const__IFillContours2DPlanCache.html":[9,3,0,0,0,505],
+"classMR_1_1Const__IFillContours2DPlanCache.html#ac9938acb2149b6388c73cfd34d5f9cfb":[9,3,0,0,0,505,1]
 };

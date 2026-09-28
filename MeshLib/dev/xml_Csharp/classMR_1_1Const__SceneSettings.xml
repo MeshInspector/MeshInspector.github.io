@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="92" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="93" bodyend="102"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="112" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="113" bodyend="122"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1_1Const__SceneSettings_1a341a9d682a0e78dfdfd496691a48e36d" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="104" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="105" bodyend="124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="124" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="125" bodyend="144"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -178,7 +178,55 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="129" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="130" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="149" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="150" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>StringType</name>
+        <qualifiedname>MR.Const_SceneSettings.StringType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6a7c7083efbc53c626f151a4d9e7b029bb" prot="public">
+          <name>MeshSerializeFormat</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>file extension (starting with '.') used to serialize <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> by default, if not overridden in specific object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6a6aa229db0ba7959da11cbdb84060f3d9" prot="public">
+          <name>PointsSerializeFormat</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>file extension (starting with '.') used to serialize <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> by default, if not overridden in specific object; falls back to PLY if given format is not supported </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6a11502ad3cfb527908a8174aa52271159" prot="public">
+          <name>VoxelsSerializeFormat</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>file extension (starting with '.') used to serialize <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> by default, if not overridden in specific object </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>total count </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="156" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="157" bodyend="175"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -259,6 +307,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="36" bodyend="39"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a93cba51f238bd218e8b8f14a47cc4d12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>static unsafe MR.Std.Const_String MR.Const_SceneSettings.get</definition>
+        <argsstring>(MR.SceneSettings.StringType type)</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Const_SceneSettings.get</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" kindref="member">MR.SceneSettings.StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneSettings_1adec0b6e3b12330b2c40db004f53d1098" kindref="member">MR.SceneSettings.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="44" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a381163c488d8c158f329595b55629150" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>static void MR.Const_SceneSettings.set</definition>
@@ -280,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="44" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="44" bodyend="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="52" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a389e0af5c2195f84bbb7ca29bc03b0db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -303,7 +370,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="52" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="52" bodyend="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="60" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a81c68504a5c83b1f8e0bb2cbb41524e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_SceneSettings.set</definition>
+        <argsstring>(MR.SceneSettings.StringType type, string value)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.Const_SceneSettings.set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" kindref="member">MR.SceneSettings.StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneSettings_1a381163c488d8c158f329595b55629150" kindref="member">MR.SceneSettings.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="68" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="68" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1aaf0578659b9f3c0593c356b793eb0f33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202" kindref="member">MR.SceneSettings.ShadingMode</ref></type>
@@ -318,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="63" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="63" bodyend="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="83" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="83" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a8995b958620e8d19417ac54baff76fdc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -337,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="71" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="71" bodyend="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="91" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="91" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a6ef81598066fa1e41faec46f8c5e0132" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref></type>
@@ -352,7 +442,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="79" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="79" bodyend="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="99" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="99" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1ab03b93807f22b06fa29ab562cbbe644a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -371,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="87" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="87" bodyend="90"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="107" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="107" bodyend="110"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -387,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="139" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="180" column="68"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a3d1eef2913abc4a360040dd207b357f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202" kindref="member">MR.SceneSettings.ShadingMode</ref></type>
@@ -401,7 +491,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="142" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="183" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1abf7c5efe703b54b0f4cc93dd5d93817d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>byte</type>
@@ -419,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="145" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="186" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1acf7a84e9e181087313ba6ab0b899fefc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -437,7 +527,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="148" column="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="189" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a2ad4362351dc2ba3dad384c3891ef53c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_String._Underlying * MR.Const_SceneSettings.__MR_SceneSettings_get_MR_SceneSettings_StringType</definition>
+        <argsstring>(MR.SceneSettings.StringType type)</argsstring>
+        <name>__MR_SceneSettings_get_MR_SceneSettings_StringType</name>
+        <qualifiedname>MR.Const_SceneSettings.__MR_SceneSettings_get_MR_SceneSettings_StringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" kindref="member">MR.SceneSettings.StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="192" column="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a261689642a5a3e8109be41c2279c4186" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -451,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="151" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="195" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a417cc2ea9ea674dca4668abf74bc6e38" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -469,7 +577,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="154" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="198" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1ae0888d7b9f01bf02294f7bfc1eb67230" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -487,7 +595,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="157" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="201" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a8041bd0d13d40672971c247964c7ec27" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -509,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="160" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="204" column="28"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1ac1ad4299ab1d1fa16bc21a1c2683b28a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -531,7 +639,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="163" column="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="207" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneSettings_1a3826400bc8cdfcf1ff45d334f8a2a382" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_SceneSettings.__MR_SceneSettings_set_MR_SceneSettings_StringType</definition>
+        <argsstring>(MR.SceneSettings.StringType type, byte *value, byte *value_end)</argsstring>
+        <name>__MR_SceneSettings_set_MR_SceneSettings_StringType</name>
+        <qualifiedname>MR.Const_SceneSettings.__MR_SceneSettings_set_MR_SceneSettings_StringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" kindref="member">MR.SceneSettings.StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="210" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -567,15 +701,17 @@
         <label>MR.Misc.Object</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="9" bodyend="164"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneSettings.cs" bodystart="9" bodyend="211"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__SceneSettings_1abf7c5efe703b54b0f4cc93dd5d93817d" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_get_MR_SceneSettings_BoolType</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1acf7a84e9e181087313ba6ab0b899fefc" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_get_MR_SceneSettings_FloatType</name></member>
+      <member refid="classMR_1_1Const__SceneSettings_1a2ad4362351dc2ba3dad384c3891ef53c" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_get_MR_SceneSettings_StringType</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a682466af48bb902ea00496a671957709" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_getCNCMachineSettings</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a3d1eef2913abc4a360040dd207b357f6" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_getDefaultShadingMode</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a261689642a5a3e8109be41c2279c4186" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_reset</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a8041bd0d13d40672971c247964c7ec27" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_set_MR_SceneSettings_BoolType</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1ac1ad4299ab1d1fa16bc21a1c2683b28a" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_set_MR_SceneSettings_FloatType</name></member>
+      <member refid="classMR_1_1Const__SceneSettings_1a3826400bc8cdfcf1ff45d334f8a2a382" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_set_MR_SceneSettings_StringType</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a417cc2ea9ea674dca4668abf74bc6e38" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_setCNCMachineSettings</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1ae0888d7b9f01bf02294f7bfc1eb67230" prot="private" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>__MR_SceneSettings_setDefaultShadingMode</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a9ef457c7d4c1d20de5a98c10f5697b94" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>BoolType</name></member>
@@ -583,14 +719,17 @@
       <member refid="classMR_1_1Const__SceneSettings_1a341a9d682a0e78dfdfd496691a48e36d" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>FloatType</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1adec0b6e3b12330b2c40db004f53d1098" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>get</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a981acea46e61ecc0c0df398addade9f4" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__SceneSettings_1a93cba51f238bd218e8b8f14a47cc4d12" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>get</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a6ef81598066fa1e41faec46f8c5e0132" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>getCNCMachineSettings</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1aaf0578659b9f3c0593c356b793eb0f33" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>getDefaultShadingMode</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1ab285e662cfa798bc223af09694a1b36a" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>reset</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a381163c488d8c158f329595b55629150" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>set</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a389e0af5c2195f84bbb7ca29bc03b0db" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>set</name></member>
+      <member refid="classMR_1_1Const__SceneSettings_1a81c68504a5c83b1f8e0bb2cbb41524e1" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>set</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1ab03b93807f22b06fa29ab562cbbe644a" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>setCNCMachineSettings</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1a8995b958620e8d19417ac54baff76fdc" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>setDefaultShadingMode</name></member>
       <member refid="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>ShadingMode</name></member>
+      <member refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" prot="public" virt="non-virtual"><scope>MR::Const_SceneSettings</scope><name>StringType</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

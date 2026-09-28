@@ -29939,12 +29939,19 @@
     <member refid="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202a10c84306f5bb51fdad714b1f2f4463cf" kind="enumvalue"><name>AutoDetect</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202ae510cdf33cd497134b47b9316314d4b4" kind="enumvalue"><name>Smooth</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1ab15c090ffcb727728253f63e2586b202a745e3db6a7ffd50e1a72b39482f0882d" kind="enumvalue"><name>Flat</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6" kind="enum"><name>StringType</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6a7c7083efbc53c626f151a4d9e7b029bb" kind="enumvalue"><name>MeshSerializeFormat</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6a6aa229db0ba7959da11cbdb84060f3d9" kind="enumvalue"><name>PointsSerializeFormat</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6a11502ad3cfb527908a8174aa52271159" kind="enumvalue"><name>VoxelsSerializeFormat</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a236aa31006a27c2ceeadf9bec24ed6f6ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1ad71b5766b3576d6062481575102669b4" kind="function"><name>Const_SceneSettings</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1ab285e662cfa798bc223af09694a1b36a" kind="function"><name>reset</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1adec0b6e3b12330b2c40db004f53d1098" kind="function"><name>get</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a981acea46e61ecc0c0df398addade9f4" kind="function"><name>get</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a93cba51f238bd218e8b8f14a47cc4d12" kind="function"><name>get</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a381163c488d8c158f329595b55629150" kind="function"><name>set</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a389e0af5c2195f84bbb7ca29bc03b0db" kind="function"><name>set</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a81c68504a5c83b1f8e0bb2cbb41524e1" kind="function"><name>set</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1aaf0578659b9f3c0593c356b793eb0f33" kind="function"><name>getDefaultShadingMode</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a8995b958620e8d19417ac54baff76fdc" kind="function"><name>setDefaultShadingMode</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a6ef81598066fa1e41faec46f8c5e0132" kind="function"><name>getCNCMachineSettings</name></member>
@@ -29953,11 +29960,13 @@
     <member refid="classMR_1_1Const__SceneSettings_1a3d1eef2913abc4a360040dd207b357f6" kind="function"><name>__MR_SceneSettings_getDefaultShadingMode</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1abf7c5efe703b54b0f4cc93dd5d93817d" kind="function"><name>__MR_SceneSettings_get_MR_SceneSettings_BoolType</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1acf7a84e9e181087313ba6ab0b899fefc" kind="function"><name>__MR_SceneSettings_get_MR_SceneSettings_FloatType</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a2ad4362351dc2ba3dad384c3891ef53c" kind="function"><name>__MR_SceneSettings_get_MR_SceneSettings_StringType</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a261689642a5a3e8109be41c2279c4186" kind="function"><name>__MR_SceneSettings_reset</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a417cc2ea9ea674dca4668abf74bc6e38" kind="function"><name>__MR_SceneSettings_setCNCMachineSettings</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1ae0888d7b9f01bf02294f7bfc1eb67230" kind="function"><name>__MR_SceneSettings_setDefaultShadingMode</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1a8041bd0d13d40672971c247964c7ec27" kind="function"><name>__MR_SceneSettings_set_MR_SceneSettings_BoolType</name></member>
     <member refid="classMR_1_1Const__SceneSettings_1ac1ad4299ab1d1fa16bc21a1c2683b28a" kind="function"><name>__MR_SceneSettings_set_MR_SceneSettings_FloatType</name></member>
+    <member refid="classMR_1_1Const__SceneSettings_1a3826400bc8cdfcf1ff45d334f8a2a382" kind="function"><name>__MR_SceneSettings_set_MR_SceneSettings_StringType</name></member>
   </compound>
   <compound refid="classMR_1_1Const__SearchPathSettings" kind="class"><name>MR::Const_SearchPathSettings</name>
     <member refid="classMR_1_1Const__SearchPathSettings_1aaa511aa2eb45e6f024bce8d2b9bd0aa5" kind="property"><name>geodesicPathApprox</name></member>
@@ -52397,13 +52406,9 @@
     <member refid="classMR_1a950d8c1daff189d21449450ace7d3f9f" kind="function"><name>merge</name></member>
     <member refid="classMR_1ad30a324f52715859e7f266ece2b81b41" kind="function"><name>cloneRegion</name></member>
     <member refid="classMR_1af3df96cc0a50c769c9a2cf9a8955a9fa" kind="function"><name>edgesBetweenDifferentColors</name></member>
-    <member refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kind="function"><name>defaultSerializeMeshFormat</name></member>
-    <member refid="classMR_1aa01adb97f91261009ee2d0e53721b90a" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
     <member refid="classMR_1a059921be05a898483512aca1c85bdbfd" kind="function"><name>merge</name></member>
     <member refid="classMR_1ad4683de75981e3263a1f2cd0dbc7abd8" kind="function"><name>cloneRegion</name></member>
     <member refid="classMR_1a9499542ddc005ee0c9dab97fe0711aba" kind="function"><name>pack</name></member>
-    <member refid="classMR_1adb979235051f16e0860065ee9ec797d0" kind="function"><name>defaultSerializePointsFormat</name></member>
-    <member refid="classMR_1abb490e3f859a3d3d9af14265094680ff" kind="function"><name>setDefaultSerializePointsFormat</name></member>
     <member refid="classMR_1a452d6218563d5a3f7bed445c962984e5" kind="function"><name>asSelectivityType_MRObject</name></member>
     <member refid="classMR_1a3af199fb5a44d0697506046e1dd69db0" kind="function"><name>asSelectivityType_MRVisualObject</name></member>
     <member refid="classMR_1a86e536d330f316a5d9de8e3caff54799" kind="function"><name>asSelectivityType_MRObjectPoints</name></member>
@@ -53322,8 +53327,6 @@
     <member refid="classMR_1a34da633ecbc9915a55a30116ba2b08c2" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
     <member refid="classMR_1ac2767a6c33c9934aaf4ca9630d021f81" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
     <member refid="classMR_1a77dfbbb90a91c50e640a2432a32f11d3" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
-    <member refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
-    <member refid="classMR_1ae91e7549b77d2bd065ae8d7e21919c53" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
     <member refid="classMR_1ad81ffb3bbefd671f1f212d9577698869" kind="function"><name>suggestVoxelSize</name></member>
     <member refid="classMR_1a6b4be0bb80cfaec844c3a2c62dc09048" kind="function"><name>offsetMesh</name></member>
     <member refid="classMR_1a64b49580ddad63043b74bf4bf4efe29f" kind="function"><name>doubleOffsetMesh</name></member>
@@ -54228,13 +54231,9 @@
     <member refid="classMR_1a54d872d57e921d365e449999b4842524" kind="function"><name>__MR_cloneRegion_3</name></member>
     <member refid="classMR_1a9a9c9b88f63ecbfde4fb8ffaac0304a9" kind="function"><name>__MR_merge_2</name></member>
     <member refid="classMR_1a5e7a6931de36dce644bfab932786d81d" kind="function"><name>__MR_edgesBetweenDifferentColors</name></member>
-    <member refid="classMR_1a6f49918d167bb8d4ab672b762a4970c4" kind="function"><name>__MR_defaultSerializeMeshFormat</name></member>
-    <member refid="classMR_1a3367a6f702f81bf8f8b76d95f7629abb" kind="function"><name>__MR_setDefaultSerializeMeshFormat</name></member>
     <member refid="classMR_1a64cc6f9067b6d905b5baae9ca0b011a7" kind="function"><name>__MR_cloneRegion_2_std_shared_ptr_MR_ObjectPoints</name></member>
     <member refid="classMR_1a18c5e394bcb75da12e6055191ba23bb1" kind="function"><name>__MR_merge_1_std_vector_std_shared_ptr_MR_ObjectPoints</name></member>
     <member refid="classMR_1ad8c154438910da624ec4bd520b69c626" kind="function"><name>__MR_pack</name></member>
-    <member refid="classMR_1ae92c9d2ee44b975865e65e7db1e12acc" kind="function"><name>__MR_defaultSerializePointsFormat</name></member>
-    <member refid="classMR_1a500d60c6e6be09348b0e8d0de47e31f4" kind="function"><name>__MR_setDefaultSerializePointsFormat</name></member>
     <member refid="classMR_1a3448d7b97e00b45fb04556e5b67bbbb7" kind="function"><name>__MR_appendObjectFromTreeRecursive_MR_Object</name></member>
     <member refid="classMR_1a405e9838b0457e3a4d7cda421e7bbebe" kind="function"><name>__MR_appendObjectFromTreeRecursive_MR_ObjectDistanceMap</name></member>
     <member refid="classMR_1a6c0237a522cc4e89511b82ff70c97af5" kind="function"><name>__MR_appendObjectFromTreeRecursive_MR_ObjectLines</name></member>
@@ -55153,8 +55152,6 @@
     <member refid="classMR_1ad709d9039b75a513344451d972fdba99" kind="function"><name>__MR_moveMeshToVoxelMaxDeriv_MR_FunctionVolume</name></member>
     <member refid="classMR_1a54596d7f64b0ea08c110741756988af6" kind="function"><name>__MR_moveMeshToVoxelMaxDeriv_MR_SimpleVolumeMinMax</name></member>
     <member refid="classMR_1ac19c9c16167ef99e2e38e4927bc051e4" kind="function"><name>__MR_moveMeshToVoxelMaxDeriv_MR_VdbVolume</name></member>
-    <member refid="classMR_1a2fbab91ae4c455ac0792b693ee81c90e" kind="function"><name>__MR_defaultSerializeVoxelsFormat</name></member>
-    <member refid="classMR_1a7ded800562056f9aa2b54f247eaa61f5" kind="function"><name>__MR_setDefaultSerializeVoxelsFormat</name></member>
     <member refid="classMR_1a186ff65dbe74344e87cada3baeb7cb9e" kind="function"><name>__MR_doubleOffsetMesh</name></member>
     <member refid="classMR_1a7287e688d9d572ab2d255adab0cb8ada" kind="function"><name>__MR_generalOffsetMesh</name></member>
     <member refid="classMR_1ac71bd9d866728de725332ac9ca6fc54e" kind="function"><name>__MR_mcOffsetMesh</name></member>

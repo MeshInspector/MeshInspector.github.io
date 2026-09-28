@@ -1,5 +1,12 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[9,0,2,0,2,7,4,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[9,0,1,0,1,16,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[9,0,2,0,2,7,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[9,0,1,0,1,16,5,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[9,0,2,0,2,7,5,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[9,0,1,0,1,16,5,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a3e5d9aec94bcefc9114f7d79bb08f798":[9,0,2,0,2,7,5,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[9,0,1,0,1,16,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[9,0,2,0,2,7,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[9,0,1,0,1,16,5,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1IntersectionPrecomputes.html#ac2a5a2178c875139ca3e402c1a46324c":[9,0,0,1,15,1],
 "structMR_1_1IntersectionPrecomputes.html#ac2a5a2178c875139ca3e402c1a46324c":[9,0,0,20,356,1],
 "structMR_1_1IntersectionPrecomputes.html#af95502c89221bba3187782d4ed18199b":[9,0,0,1,15,8],
-"structMR_1_1IntersectionPrecomputes.html#af95502c89221bba3187782d4ed18199b":[9,0,0,20,356,8],
-"structMR_1_1IntersectionPrecomputes.html#affa5bcb7a516c4dda421ace86e2597c2":[9,0,0,1,15,5],
-"structMR_1_1IntersectionPrecomputes.html#affa5bcb7a516c4dda421ace86e2597c2":[9,0,0,20,356,5],
-"structMR_1_1IntersectionPrecomputes2.html":[9,0,0,1,16],
-"structMR_1_1IntersectionPrecomputes2.html":[9,0,0,20,362],
-"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[9,0,0,1,16,2],
-"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[9,0,0,20,362,2],
-"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[9,0,0,1,16,7]
+"structMR_1_1IntersectionPrecomputes.html#af95502c89221bba3187782d4ed18199b":[9,0,0,20,356,8]
 };

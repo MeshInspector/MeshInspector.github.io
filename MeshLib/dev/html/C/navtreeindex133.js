@@ -1,5 +1,9 @@
 var NAVTREEINDEX133 =
 {
+"MRWeightedPointsShell_8h.html#a8507761167d5f069b2412da6d5e6e68d":[9,2,2,0,0,0,0,4,41,79],
+"MRWeightedPointsShell_8h.html#a8560efeced21fcd024408ad79ae0543b":[9,2,2,0,0,0,0,4,41,84],
+"MRWeightedPointsShell_8h.html#a86ffbe205c9373380d35e7decf452e84":[9,2,2,0,0,0,0,4,41,117],
+"MRWeightedPointsShell_8h.html#a87e001746f17663c985c04e2b4d16ce3":[9,2,2,0,0,0,0,4,41,34],
 "MRWeightedPointsShell_8h.html#a8b71a75ae6e77a977b2dd9831b3b3810":[9,2,2,0,0,0,0,4,41,29],
 "MRWeightedPointsShell_8h.html#a8cee5a55c13f131110bfdf4be1ff0dd5":[9,2,2,0,0,0,0,4,41,68],
 "MRWeightedPointsShell_8h.html#a8f659b402e47ecefb533ee63744559cb":[9,2,2,0,0,0,0,4,41,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX133 =
 "expected__MR__Cuda__DeviceInfo__std__string_8h.html#adccffc0e1c745f0f89360780e6aa7cf2":[9,2,2,0,0,1,0,0,0,13],
 "expected__MR__Cuda__DeviceInfo__std__string_8h.html#ae88cae2bce2784e082fe4e2e31724e40":[9,2,2,0,0,1,0,0,0,1],
 "expected__MR__Cuda__DeviceInfo__std__string_8h_source.html":[9,2,2,0,0,1,0,0,0],
-"expected__MR__CurveFunc__std__string_8h.html":[9,2,2,0,0,0,0,2,4],
-"expected__MR__CurveFunc__std__string_8h.html#a1c8782a60a8bdedcef4ddf95bf72a366":[9,2,2,0,0,0,0,2,4,3],
-"expected__MR__CurveFunc__std__string_8h.html#a20bf424ce5f299b4b9a53a91e22313f8":[9,2,2,0,0,0,0,2,4,1],
-"expected__MR__CurveFunc__std__string_8h.html#a4972f04b0db3a05d9fd7f82cb331f1d5":[9,2,2,0,0,0,0,2,4,6],
-"expected__MR__CurveFunc__std__string_8h.html#a7ac785d13585504a213a4e39c7924617":[9,2,2,0,0,0,0,2,4,8]
+"expected__MR__CurveFunc__std__string_8h.html":[9,2,2,0,0,0,0,2,4]
 };

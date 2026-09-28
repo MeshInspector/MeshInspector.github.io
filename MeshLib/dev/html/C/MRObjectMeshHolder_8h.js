@@ -15,7 +15,6 @@ var MRObjectMeshHolder_8h =
       [ "MR_MeshVisualizePropertyType_PolygonOffsetFromCamera", "MRObjectMeshHolder_8h.html#aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a", null ],
       [ "MR_MeshVisualizePropertyType__count", "MRObjectMeshHolder_8h.html#aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431", null ]
     ] ],
-    [ "MR_defaultSerializeMeshFormat", "MRObjectMeshHolder_8h.html#a9db402ef29ab738a18f88dadcbcbd047", null ],
     [ "MR_ObjectMeshHolder_actualSerializeFormat", "MRObjectMeshHolder_8h.html#ad6652d6d0a589616653839fc3d849b86", null ],
     [ "MR_ObjectMeshHolder_addChild", "MRObjectMeshHolder_8h.html#ae5fdb0134d82ca7bcbf286ee4ea3072d", null ],
     [ "MR_ObjectMeshHolder_addChildBefore", "MRObjectMeshHolder_8h.html#a672bbb3bb5955ce3ba10701bb5aa2080", null ],
@@ -229,6 +228,5 @@ var MRObjectMeshHolder_8h =
     [ "MR_ObjectMeshHolder_volume", "MRObjectMeshHolder_8h.html#a123c4682c4c566def5d66e61d478751d", null ],
     [ "MR_ObjectMeshHolder_worldXf", "MRObjectMeshHolder_8h.html#a4a8ab1e81231aaaed937dce19ee9f261", null ],
     [ "MR_ObjectMeshHolder_xf", "MRObjectMeshHolder_8h.html#aa8145d1a8e5cc3c35938f83a7ef2978c", null ],
-    [ "MR_ObjectMeshHolder_xfsForAllViewports", "MRObjectMeshHolder_8h.html#aa38fdf47e95f7a64f7c53b1031db5261", null ],
-    [ "MR_setDefaultSerializeMeshFormat", "MRObjectMeshHolder_8h.html#aad9419407aaea662a3117bcb33440cbb", null ]
+    [ "MR_ObjectMeshHolder_xfsForAllViewports", "MRObjectMeshHolder_8h.html#aa38fdf47e95f7a64f7c53b1031db5261", null ]
 ];

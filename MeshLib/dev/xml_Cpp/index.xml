@@ -10467,16 +10467,20 @@
   <compound refid="classMR_1_1SceneSettings" kind="class"><name>MR::SceneSettings</name>
     <member refid="group__GeneralGroup_1ga01216132f55f2f10947b9f6143f1b9b8" kind="enum"><name>BoolType</name></member>
     <member refid="group__GeneralGroup_1gad40f8b0bfec68b50393b6e9e021b0261" kind="enum"><name>FloatType</name></member>
+    <member refid="group__GeneralGroup_1gaca4cbb22b4674eb9de491e91090d5be6" kind="enum"><name>StringType</name></member>
     <member refid="group__GeneralGroup_1ga308e72dcfc90ae1a9370ca7c7bc3290c" kind="enum"><name>ShadingMode</name></member>
     <member refid="group__GeneralGroup_1ga75e3127e8a7c5e0009f6238aeb254941" kind="variable"><name>boolSettings_</name></member>
     <member refid="group__GeneralGroup_1ga61a10cb8195c7d27a991787319abc2d4" kind="variable"><name>floatSettings_</name></member>
+    <member refid="group__GeneralGroup_1gaaf03afb76f9aab15d4ff54795ba61782" kind="variable"><name>stringSettings_</name></member>
     <member refid="group__GeneralGroup_1gacd4f262ef33f4cc9d0bbee84ddbfcb1c" kind="variable"><name>defaultShadingMode_</name></member>
     <member refid="group__GeneralGroup_1ga61486b22f9af7ded129fa6bcb8b6d30b" kind="variable"><name>cncMachineSettings_</name></member>
     <member refid="group__GeneralGroup_1ga894fcc815298b0aebea325e64d09c495" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga16a379ad3fa3bd316038e6040a25d235" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga5786f478398399366131858ce23f54da" kind="function"><name>get</name></member>
+    <member refid="group__GeneralGroup_1ga4850eada4a4839c907727781caeb634c" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1gab78f12b36390bcda6254817a9d7247b6" kind="function"><name>set</name></member>
     <member refid="group__GeneralGroup_1gab33c04442675301bb7cf035e494dd33f" kind="function"><name>set</name></member>
+    <member refid="group__GeneralGroup_1gac40e194648e293ad6f0fd7bc22382c50" kind="function"><name>set</name></member>
     <member refid="group__GeneralGroup_1ga02b287347092463de5476b8ec75d358f" kind="function"><name>getDefaultShadingMode</name></member>
     <member refid="group__GeneralGroup_1gafca3894ccff66bbec70307b98b8b79cd" kind="function"><name>setDefaultShadingMode</name></member>
     <member refid="group__GeneralGroup_1gadb3726c677eae05ad9e1d00f757913c0" kind="function"><name>getCNCMachineSettings</name></member>
@@ -15539,13 +15543,13 @@
     <member refid="group__GeneralGroup_1ga5a850ca45f231478ca979899d99d51c3" kind="function"><name>merge</name></member>
     <member refid="group__GeneralGroup_1gaf9a8f767ee5ad5cc349b0990baedf6c0" kind="function"><name>cloneRegion</name></member>
     <member refid="group__GeneralGroup_1gaae4731717fe16466c829b33fc212802e" kind="function"><name>edgesBetweenDifferentColors</name></member>
-    <member refid="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" kind="function"><name>defaultSerializeMeshFormat</name></member>
-    <member refid="group__GeneralGroup_1ga3e1e9d92e64e6c27696b626e2c450144" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
+    <member refid="group__GeneralGroup_1gaf2ff1896602b42bea912877e4c59b1be" kind="function"><name>defaultSerializeMeshFormat</name></member>
+    <member refid="group__GeneralGroup_1gad470465fba020e775587e6dfe209ba03" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
     <member refid="group__GeneralGroup_1ga7abd868ad7390058bd08ff4a1a97f58e" kind="function"><name>merge</name></member>
     <member refid="group__GeneralGroup_1ga6f0b5ec441ae5f56756368f8fcc0f26e" kind="function"><name>cloneRegion</name></member>
     <member refid="group__GeneralGroup_1ga14aba576e5451b9dfd9541bffe7470ef" kind="function"><name>pack</name></member>
-    <member refid="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" kind="function"><name>defaultSerializePointsFormat</name></member>
-    <member refid="group__GeneralGroup_1ga7e504838577ed8995448cf04bf473df1" kind="function"><name>setDefaultSerializePointsFormat</name></member>
+    <member refid="group__GeneralGroup_1gaa64f295ab3550ca99f30ea4026bdd48b" kind="function"><name>defaultSerializePointsFormat</name></member>
+    <member refid="group__GeneralGroup_1gadfa251767141b4418cd3d1b6b1828fab" kind="function"><name>setDefaultSerializePointsFormat</name></member>
     <member refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kind="function"><name>objectHasSelectableChildren</name></member>
     <member refid="group__GeneralGroup_1ga3fa67e9b2bffd51623fd22f0bc905c63" kind="function"><name>serializeObjectTree</name></member>
     <member refid="group__GeneralGroup_1ga52f72eaec639a525805b33872f567ba2" kind="function"><name>serializeObjectTree</name></member>
@@ -16290,8 +16294,8 @@
     <member refid="group__GeneralGroup_1ga03b89c7f5f3a6ea810077d91c14c98b5" kind="function"><name>makeCloseToMeshVolume</name></member>
     <member refid="group__GeneralGroup_1gaf99b4c073dc700a6e84295c59f0cbdef" kind="function"><name>meshRegionToIndicatorVolume</name></member>
     <member refid="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" kind="function"><name>meshToDirectionVolume</name></member>
-    <member refid="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
-    <member refid="group__GeneralGroup_1ga1e5d24821061d108c1e0e79aaea085a9" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
+    <member refid="group__GeneralGroup_1ga7750610f894e8e2863d032a63e1365f8" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
+    <member refid="group__GeneralGroup_1gafdaa1f574c454749e18731b1ad8ee7a0" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
     <member refid="group__GeneralGroup_1ga8134bd36bc30764272b23a2c614b0e84" kind="function"><name>suggestVoxelSize</name></member>
     <member refid="group__GeneralGroup_1ga9451ab00d17418a216cab567f73b88ac" kind="function"><name>offsetMesh</name></member>
     <member refid="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" kind="function"><name>doubleOffsetMesh</name></member>
@@ -20891,6 +20895,11 @@
     <member refid="group__GeneralGroup_1ggad40f8b0bfec68b50393b6e9e021b0261a42e73be4e6a3c410002eb381e9575f5b" kind="enumvalue"><name>FeatureSubPointSize</name></member>
     <member refid="group__GeneralGroup_1ggad40f8b0bfec68b50393b6e9e021b0261a8ac314a210ce649b6362765e85106c2a" kind="enumvalue"><name>AmbientCoefSelectedObj</name></member>
     <member refid="group__GeneralGroup_1ggad40f8b0bfec68b50393b6e9e021b0261ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="group__GeneralGroup_1gaca4cbb22b4674eb9de491e91090d5be6" kind="enum"><name>StringType</name></member>
+    <member refid="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb" kind="enumvalue"><name>MeshSerializeFormat</name></member>
+    <member refid="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9" kind="enumvalue"><name>PointsSerializeFormat</name></member>
+    <member refid="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159" kind="enumvalue"><name>VoxelsSerializeFormat</name></member>
+    <member refid="group__GeneralGroup_1ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="group__GeneralGroup_1ga308e72dcfc90ae1a9370ca7c7bc3290c" kind="enum"><name>ShadingMode</name></member>
     <member refid="group__GeneralGroup_1gga308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf" kind="enumvalue"><name>AutoDetect</name></member>
     <member refid="group__GeneralGroup_1gga308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4" kind="enumvalue"><name>Smooth</name></member>
@@ -23464,6 +23473,7 @@
     <member refid="group__GeneralGroup_1ga403c5d293c883065fdf6d851f599f705" kind="variable"><name>scenePath_</name></member>
     <member refid="group__GeneralGroup_1ga75e3127e8a7c5e0009f6238aeb254941" kind="variable"><name>boolSettings_</name></member>
     <member refid="group__GeneralGroup_1ga61a10cb8195c7d27a991787319abc2d4" kind="variable"><name>floatSettings_</name></member>
+    <member refid="group__GeneralGroup_1gaaf03afb76f9aab15d4ff54795ba61782" kind="variable"><name>stringSettings_</name></member>
     <member refid="group__GeneralGroup_1gacd4f262ef33f4cc9d0bbee84ddbfcb1c" kind="variable"><name>defaultShadingMode_</name></member>
     <member refid="group__GeneralGroup_1ga61486b22f9af7ded129fa6bcb8b6d30b" kind="variable"><name>cncMachineSettings_</name></member>
     <member refid="group__GeneralGroup_1ga5473b25338c8b8b27c9d38f2b6bb8f89" kind="variable"><name>a</name></member>
@@ -28065,8 +28075,8 @@
     <member refid="group__GeneralGroup_1ga4dda7c8f974fc1d88b553ad6e192d1fb" kind="function"><name>setupRenderObject_</name></member>
     <member refid="group__GeneralGroup_1gaef46fc3b1da7df32762502788193378e" kind="function"><name>setDefaultColors_</name></member>
     <member refid="group__GeneralGroup_1gaa89489923b1385e4c794696cc32c467b" kind="function"><name>setDefaultSceneProperties_</name></member>
-    <member refid="group__GeneralGroup_1gaa327a029bad713e6790ebf10e611f39e" kind="function"><name>defaultSerializeMeshFormat</name></member>
-    <member refid="group__GeneralGroup_1ga3e1e9d92e64e6c27696b626e2c450144" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
+    <member refid="group__GeneralGroup_1gaf2ff1896602b42bea912877e4c59b1be" kind="function"><name>defaultSerializeMeshFormat</name></member>
+    <member refid="group__GeneralGroup_1gad470465fba020e775587e6dfe209ba03" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
     <member refid="group__GeneralGroup_1ga7add507ed0f2abe3843cec2e9f387f8c" kind="function"><name>ObjectPoints</name></member>
     <member refid="group__GeneralGroup_1gafdac591813395cc98c7d9f3db14c0bcc" kind="function"><name>ObjectPoints</name></member>
     <member refid="group__GeneralGroup_1ga5831e567d62ac9ac7959897b98ee75ae" kind="function"><name>operator=</name></member>
@@ -28151,8 +28161,8 @@
     <member refid="group__GeneralGroup_1gabe1e951932c506b306d367115a41e02c" kind="function"><name>setDefaultColors_</name></member>
     <member refid="group__GeneralGroup_1ga5a6a53417a1bffe790748adf670da548" kind="function"><name>setDefaultSceneProperties_</name></member>
     <member refid="group__GeneralGroup_1ga9cddf2a7ff90fd435aab61ca3770f048" kind="function"><name>updateRenderDiscretization_</name></member>
-    <member refid="group__GeneralGroup_1ga2c6a78cd704061f23a26f39a7894d013" kind="function"><name>defaultSerializePointsFormat</name></member>
-    <member refid="group__GeneralGroup_1ga7e504838577ed8995448cf04bf473df1" kind="function"><name>setDefaultSerializePointsFormat</name></member>
+    <member refid="group__GeneralGroup_1gaa64f295ab3550ca99f30ea4026bdd48b" kind="function"><name>defaultSerializePointsFormat</name></member>
+    <member refid="group__GeneralGroup_1gadfa251767141b4418cd3d1b6b1828fab" kind="function"><name>setDefaultSerializePointsFormat</name></member>
     <member refid="group__GeneralGroup_1ga7974cb0413a1baab9b74f14a1d14f410" kind="function"><name>objectHasSelectableChildren</name></member>
     <member refid="group__GeneralGroup_1gadd599c2ce208d307f45d847e255a38da" kind="function"><name>toAnySupportedSceneFormat</name></member>
     <member refid="group__GeneralGroup_1ga0608cdde2a887ca5a818ea80d05340ab" kind="function"><name>toAnySupportedFormat</name></member>
@@ -28690,8 +28700,10 @@
     <member refid="group__GeneralGroup_1ga894fcc815298b0aebea325e64d09c495" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga16a379ad3fa3bd316038e6040a25d235" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga5786f478398399366131858ce23f54da" kind="function"><name>get</name></member>
+    <member refid="group__GeneralGroup_1ga4850eada4a4839c907727781caeb634c" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1gab78f12b36390bcda6254817a9d7247b6" kind="function"><name>set</name></member>
     <member refid="group__GeneralGroup_1gab33c04442675301bb7cf035e494dd33f" kind="function"><name>set</name></member>
+    <member refid="group__GeneralGroup_1gac40e194648e293ad6f0fd7bc22382c50" kind="function"><name>set</name></member>
     <member refid="group__GeneralGroup_1ga02b287347092463de5476b8ec75d358f" kind="function"><name>getDefaultShadingMode</name></member>
     <member refid="group__GeneralGroup_1gafca3894ccff66bbec70307b98b8b79cd" kind="function"><name>setDefaultShadingMode</name></member>
     <member refid="group__GeneralGroup_1gadb3726c677eae05ad9e1d00f757913c0" kind="function"><name>getCNCMachineSettings</name></member>
@@ -31693,8 +31705,8 @@
     <member refid="group__GeneralGroup_1gae54ab523a24b44f19fe5b98f3180c997" kind="function"><name>deserializeFields_</name></member>
     <member refid="group__GeneralGroup_1ga65b4a3ca47835fc39606d407e5edffd5" kind="function"><name>deserializeModel_</name></member>
     <member refid="group__GeneralGroup_1ga4b66326802c2afb34138769dde3c0dcb" kind="function"><name>serializeModel_</name></member>
-    <member refid="group__GeneralGroup_1ga9e98998898fd6201022fae954bea3982" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
-    <member refid="group__GeneralGroup_1ga1e5d24821061d108c1e0e79aaea085a9" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
+    <member refid="group__GeneralGroup_1ga7750610f894e8e2863d032a63e1365f8" kind="function"><name>defaultSerializeVoxelsFormat</name></member>
+    <member refid="group__GeneralGroup_1gafdaa1f574c454749e18731b1ad8ee7a0" kind="function"><name>setDefaultSerializeVoxelsFormat</name></member>
     <member refid="group__GeneralGroup_1ga8134bd36bc30764272b23a2c614b0e84" kind="function"><name>suggestVoxelSize</name></member>
     <member refid="group__GeneralGroup_1ga9451ab00d17418a216cab567f73b88ac" kind="function"><name>offsetMesh</name></member>
     <member refid="group__GeneralGroup_1ga6acf9887747227cdd2fed4f4c202638f" kind="function"><name>doubleOffsetMesh</name></member>

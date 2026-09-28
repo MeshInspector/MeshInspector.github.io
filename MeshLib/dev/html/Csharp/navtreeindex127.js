@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"classMR_1_1PolylineProjectionResult3Arg.html#af4f2f48f61c8efee2122b8dc1cc20b77":[9,3,0,0,0,1549,4],
 "classMR_1_1PolylineProjectionWithOffsetResult3.html":[9,3,0,0,0,1550],
 "classMR_1_1PolylineProjectionWithOffsetResult3.html#a054a78be8a8a27ff7febe09198ab3dd2":[9,3,0,0,0,1550,6],
 "classMR_1_1PolylineProjectionWithOffsetResult3.html#a405cfa4862eab2993e7e2adc0369dec6":[9,3,0,0,0,1550,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "classMR_1_1QuadraticForm2f.html#a4d78b99803797376266532ad2784f27d":[9,3,0,0,0,1582,3],
 "classMR_1_1QuadraticForm2f.html#a6131afde0157dda55603d85f6472aad9":[9,3,0,0,0,1582,1],
 "classMR_1_1QuadraticForm2f.html#a6270daaae0a7533704a519876a6ac97e":[9,3,0,0,0,1582,8],
-"classMR_1_1QuadraticForm2f.html#a7b5880f4a407dbfa175f9834c65e5566":[9,3,0,0,0,1582,2],
-"classMR_1_1QuadraticForm2f.html#a9ef4e1df7590ef08b5462c2c9c67d04e":[9,3,0,0,0,1582,9]
+"classMR_1_1QuadraticForm2f.html#a7b5880f4a407dbfa175f9834c65e5566":[9,3,0,0,0,1582,2]
 };

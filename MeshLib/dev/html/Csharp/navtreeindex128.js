@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1QuadraticForm2f.html#a9ef4e1df7590ef08b5462c2c9c67d04e":[9,3,0,0,0,1582,9],
 "classMR_1_1QuadraticForm2f.html#aa31eea29628e4c658124045cf587a505":[9,3,0,0,0,1582,6],
 "classMR_1_1QuadraticForm2f.html#aa6ed4713d341e29125ee849b758f3704":[9,3,0,0,0,1582,11],
 "classMR_1_1QuadraticForm2f.html#aa7eba1b51494172e774dd146535856ca":[9,3,0,0,0,1582,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1RelaxParams.html#aee56e0ad9adf25e0edb5e544f46857fc":[9,3,0,0,0,1596,1],
 "classMR_1_1RemeshSettings.html":[9,3,0,0,0,1597],
 "classMR_1_1RemeshSettings.html#a080cb6be1d1b401e316862291d62b3e9":[9,3,0,0,0,1597,14],
-"classMR_1_1RemeshSettings.html#a1410b041495d56bc3e616e34105e54d3":[9,3,0,0,0,1597,4],
-"classMR_1_1RemeshSettings.html#a1e54e7c58f6a61255a7ce70d49fe62dc":[9,3,0,0,0,1597,8]
+"classMR_1_1RemeshSettings.html#a1410b041495d56bc3e616e34105e54d3":[9,3,0,0,0,1597,4]
 };

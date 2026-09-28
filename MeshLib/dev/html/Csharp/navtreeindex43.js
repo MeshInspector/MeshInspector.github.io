@@ -1,11 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"classMR_1_1Const__DistanceMeasurementObject.html#a242e26bb5513ae2a4c348e3a6c740121":[9,3,0,0,0,410,70],
-"classMR_1_1Const__DistanceMeasurementObject.html#a26559254f864b89411f1b46f24259742":[9,3,0,0,0,410,53],
-"classMR_1_1Const__DistanceMeasurementObject.html#a2cb0f0dd6713b9ae040bc5a2b4efd5b0":[9,3,0,0,0,410,20],
-"classMR_1_1Const__DistanceMeasurementObject.html#a2da9792e1e70ca4db513aa7ab701e6f9":[9,3,0,0,0,410,63],
-"classMR_1_1Const__DistanceMeasurementObject.html#a2fd68556ef1c9e52c4840f40981589e6":[9,3,0,0,0,410,66],
-"classMR_1_1Const__DistanceMeasurementObject.html#a316478ecae431ed28805ff5112b99552":[9,3,0,0,0,410,9],
 "classMR_1_1Const__DistanceMeasurementObject.html#a3dafc6a0bfc5e5a783576c9db2fe3746":[9,3,0,0,0,410,34],
 "classMR_1_1Const__DistanceMeasurementObject.html#a4765082972994772bcf585ca4d3c5dc3":[9,3,0,0,0,410,35],
 "classMR_1_1Const__DistanceMeasurementObject.html#a491cd22755080b5bd568155599a50c99":[9,3,0,0,0,410,88],
@@ -249,5 +243,11 @@ var NAVTREEINDEX43 =
 "classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#a3c89c1e393f41d91823f9658f9f40e35":[9,3,0,0,0,417,0,2],
 "classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#ae8e094f2f302d700a5c72c6781e03c85":[9,3,0,0,0,417,0,0],
 "classMR_1_1Const__EdgeBitSet_1_1__Enumerator.html#aef2805705e069ef70f503e0332ff1946":[9,3,0,0,0,417,0,1],
-"classMR_1_1Const__EdgeColors.html":[9,3,0,0,0,419]
+"classMR_1_1Const__EdgeColors.html":[9,3,0,0,0,419],
+"classMR_1_1Const__EdgeColors.html#a08582e435dce194b248c1108a42f2796":[9,3,0,0,0,419,10],
+"classMR_1_1Const__EdgeColors.html#a2528562e1b75dccaa0db7e2fd85b7033":[9,3,0,0,0,419,25],
+"classMR_1_1Const__EdgeColors.html#a26e50cc87d15b02ff8534a800977be31":[9,3,0,0,0,419,1],
+"classMR_1_1Const__EdgeColors.html#a2f1c8a90888d119adbe0e78a1a570b5e":[9,3,0,0,0,419,16],
+"classMR_1_1Const__EdgeColors.html#a35fcb0a2bc98ffe601fb9272a68a0615":[9,3,0,0,0,419,15],
+"classMR_1_1Const__EdgeColors.html#a37127bdbcb584293286e0378fc7781b3":[9,3,0,0,0,419,3]
 };

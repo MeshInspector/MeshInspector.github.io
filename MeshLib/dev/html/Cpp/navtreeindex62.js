@@ -1,5 +1,12 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Box.html#ab72759c3d199697fa09474bba5c5284c":[9,0,0,0,2,0,4],
+"structMR_1_1Box.html#aba9d01a2283f33ef63e5d1cb49a6b84a":[9,0,0,0,2,0,27],
+"structMR_1_1Box.html#abaa0e8fa0a608290aa2ac4bee9a34a4e":[9,0,0,0,2,0,24],
+"structMR_1_1Box.html#abed683751e55c40fd8fdaf88da2fb35d":[9,0,0,0,2,0,28],
+"structMR_1_1Box.html#ac8eb14ff1a01b09de851695a4a0007d4":[9,0,0,0,2,0,25],
+"structMR_1_1Box.html#acc1e8e06848f35838481ee10e0308cda":[9,0,0,0,2,0,35],
+"structMR_1_1Box.html#acd003ee915daffe1dccdfe6bec573abc":[9,0,0,0,2,0,22],
 "structMR_1_1Box.html#ad11edd7dcd9aece9bebc0a2c388015b5":[9,0,0,0,2,0,33],
 "structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[9,0,0,0,2,0,9],
 "structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[9,0,0,0,2,0,10],
@@ -242,12 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1FanRecordWithCenter.html":[9,0,0,20,325],
 "structMR_1_1FeatureObjectProjectPointResult.html":[9,0,0,20,234],
 "structMR_1_1FeatureObjectSharedProperty.html":[9,0,0,20,233],
-"structMR_1_1Features_1_1MeasureResult.html":[9,0,0,20,240],
-"structMR_1_1Features_1_1MeasureResult_1_1Angle.html":[9,0,0,20,243],
-"structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html":[9,0,0,20,241],
-"structMR_1_1Features_1_1MeasureResult_1_1Distance.html":[9,0,0,20,242],
-"structMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[9,0,0,20,239],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html":[9,0,0,20,238],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[9,0,1,0,1,6,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[9,0,2,0,2,2,3]
+"structMR_1_1Features_1_1MeasureResult.html":[9,0,0,20,240]
 };

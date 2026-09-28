@@ -28643,40 +28643,6 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshData.cs" line="482" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshData.cs" bodystart="482" bodyend="485"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String</type>
-        <definition>static unsafe MR.Std.Const_String MR.defaultSerializeMeshFormat</definition>
-        <argsstring>()</argsstring>
-        <name>defaultSerializeMeshFormat</name>
-        <qualifiedname>MR.defaultSerializeMeshFormat</qualifiedname>
-        <briefdescription>
-<para>returns file extension used to serialize <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> by default (if not overridden in specific object), the string starts with '.' Generated from function <computeroutput><ref refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kindref="member">MR.defaultSerializeMeshFormat</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="2598" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="2598" bodyend="2601"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1aa01adb97f91261009ee2d0e53721b90a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.setDefaultSerializeMeshFormat</definition>
-        <argsstring>(string newFormat)</argsstring>
-        <name>setDefaultSerializeMeshFormat</name>
-        <qualifiedname>MR.setDefaultSerializeMeshFormat</qualifiedname>
-        <param>
-          <type>string</type>
-          <declname>newFormat</declname>
-        </param>
-        <briefdescription>
-<para>sets file extension used to serialize serialize <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> by default (if not overridden in specific object), the string must start from '.'; Generated from function <computeroutput><ref refid="classMR_1aa01adb97f91261009ee2d0e53721b90a" kindref="member">MR.setDefaultSerializeMeshFormat</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="2610" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="2610" bodyend="2617"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1a059921be05a898483512aca1c85bdbfd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectPoints</type>
         <definition>static unsafe MR.Std.SharedPtr_MRObjectPoints MR.merge</definition>
@@ -28763,40 +28729,6 @@ do not really keeps volume but tries hard </para>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2080" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2080" bodyend="2083"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1adb979235051f16e0860065ee9ec797d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String</type>
-        <definition>static unsafe MR.Std.Const_String MR.defaultSerializePointsFormat</definition>
-        <argsstring>()</argsstring>
-        <name>defaultSerializePointsFormat</name>
-        <qualifiedname>MR.defaultSerializePointsFormat</qualifiedname>
-        <briefdescription>
-<para>returns file extension used to serialize <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> by default (if not overridden in specific object), the string starts with '.' Generated from function <computeroutput><ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">MR.defaultSerializePointsFormat</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="1966" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="1966" bodyend="1969"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1abb490e3f859a3d3d9af14265094680ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.setDefaultSerializePointsFormat</definition>
-        <argsstring>(string newFormat)</argsstring>
-        <name>setDefaultSerializePointsFormat</name>
-        <qualifiedname>MR.setDefaultSerializePointsFormat</qualifiedname>
-        <param>
-          <type>string</type>
-          <declname>newFormat</declname>
-        </param>
-        <briefdescription>
-<para>sets file extension used to serialize serialize <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> by default (if not overridden in specific object), the string must start from '.'; Generated from function <computeroutput><ref refid="classMR_1abb490e3f859a3d3d9af14265094680ff" kindref="member">MR.setDefaultSerializePointsFormat</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="1978" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="1978" bodyend="1985"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a452d6218563d5a3f7bed445c962984e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -52419,40 +52351,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2799" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2799" bodyend="2811"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String</type>
-        <definition>static unsafe MR.Std.Const_String MR.defaultSerializeVoxelsFormat</definition>
-        <argsstring>()</argsstring>
-        <name>defaultSerializeVoxelsFormat</name>
-        <qualifiedname>MR.defaultSerializeVoxelsFormat</qualifiedname>
-        <briefdescription>
-<para>returns file extension used to serialize <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> by default (if not overridden in specific object), the string starts with '.' Generated from function <computeroutput><ref refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" kindref="member">MR.defaultSerializeVoxelsFormat</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3552" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3552" bodyend="3555"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1ae91e7549b77d2bd065ae8d7e21919c53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.setDefaultSerializeVoxelsFormat</definition>
-        <argsstring>(string newFormat)</argsstring>
-        <name>setDefaultSerializeVoxelsFormat</name>
-        <qualifiedname>MR.setDefaultSerializeVoxelsFormat</qualifiedname>
-        <param>
-          <type>string</type>
-          <declname>newFormat</declname>
-        </param>
-        <briefdescription>
-<para>sets file extension used to serialize serialize <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> by default (if not overridden in specific object), the string must start from '.' Generated from function <computeroutput><ref refid="classMR_1ae91e7549b77d2bd065ae8d7e21919c53" kindref="member">MR.setDefaultSerializeVoxelsFormat</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3562" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3562" bodyend="3569"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1ad81ffb3bbefd671f1f212d9577698869" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
         <definition>static unsafe float MR.suggestVoxelSize</definition>
@@ -75202,42 +75100,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshData.cs" line="490" column="60"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6f49918d167bb8d4ab672b762a4970c4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_String._Underlying * MR.__MR_defaultSerializeMeshFormat</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_defaultSerializeMeshFormat</name>
-        <qualifiedname>MR.__MR_defaultSerializeMeshFormat</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="2622" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a3367a6f702f81bf8f8b76d95f7629abb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_setDefaultSerializeMeshFormat</definition>
-        <argsstring>(byte *newFormat, byte *newFormat_end)</argsstring>
-        <name>__MR_setDefaultSerializeMeshFormat</name>
-        <qualifiedname>MR.__MR_setDefaultSerializeMeshFormat</qualifiedname>
-        <param>
-          <type>byte *</type>
-          <declname>newFormat</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>newFormat_end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="2625" column="31"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1a64cc6f9067b6d905b5baae9ca0b011a7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectPoints._Underlying *</type>
         <definition>static unsafe MR.Std.SharedPtr_MRObjectPoints._Underlying * MR.__MR_cloneRegion_2_std_shared_ptr_MR_ObjectPoints</definition>
@@ -75307,42 +75169,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2094" column="67"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1ae92c9d2ee44b975865e65e7db1e12acc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_String._Underlying * MR.__MR_defaultSerializePointsFormat</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_defaultSerializePointsFormat</name>
-        <qualifiedname>MR.__MR_defaultSerializePointsFormat</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="1990" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a500d60c6e6be09348b0e8d0de47e31f4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_setDefaultSerializePointsFormat</definition>
-        <argsstring>(byte *newFormat, byte *newFormat_end)</argsstring>
-        <name>__MR_setDefaultSerializePointsFormat</name>
-        <qualifiedname>MR.__MR_setDefaultSerializePointsFormat</qualifiedname>
-        <param>
-          <type>byte *</type>
-          <declname>newFormat</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>newFormat_end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="1993" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3448d7b97e00b45fb04556e5b67bbbb7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -96456,42 +96282,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2822" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a2fbab91ae4c455ac0792b693ee81c90e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Const_String._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_String._Underlying * MR.__MR_defaultSerializeVoxelsFormat</definition>
-        <argsstring>()</argsstring>
-        <name>__MR_defaultSerializeVoxelsFormat</name>
-        <qualifiedname>MR.__MR_defaultSerializeVoxelsFormat</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3574" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a7ded800562056f9aa2b54f247eaa61f5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_setDefaultSerializeVoxelsFormat</definition>
-        <argsstring>(byte *newFormat, byte *newFormat_end)</argsstring>
-        <name>__MR_setDefaultSerializeVoxelsFormat</name>
-        <qualifiedname>MR.__MR_setDefaultSerializeVoxelsFormat</qualifiedname>
-        <param>
-          <type>byte *</type>
-          <declname>newFormat</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>newFormat_end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3577" column="31"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1a186ff65dbe74344e87cada3baeb7cb9e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.__MR_doubleOffsetMesh</definition>
@@ -99004,9 +98794,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab32671d05f78e42631c7af140fe27994" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decode64</name></member>
       <member refid="classMR_1a8bec97364cb30813999b65c88edfe072" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_std_filesystem_path</name></member>
       <member refid="classMR_1a5a9ce7b4db12c6bc6cc9737564ebfc4b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_std_istream</name></member>
-      <member refid="classMR_1a6f49918d167bb8d4ab672b762a4970c4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_defaultSerializeMeshFormat</name></member>
-      <member refid="classMR_1ae92c9d2ee44b975865e65e7db1e12acc" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_defaultSerializePointsFormat</name></member>
-      <member refid="classMR_1a2fbab91ae4c455ac0792b693ee81c90e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_defaultSerializeVoxelsFormat</name></member>
       <member refid="classMR_1a166950a6e014807e77de1275c7536412" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delaunayTriangulationXY_const_MR_PointCloud_ref</name></member>
       <member refid="classMR_1a51eb0801e1046192b0515156d89af326" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delaunayTriangulationXY_MR_PointCloud_rvalue_ref</name></member>
       <member refid="classMR_1a82591e1d30f66c1cfe68ddb1e224392b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delaunayTriangulationXY_std_vector_MR_Vector3f</name></member>
@@ -100183,9 +99970,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab21761b4d5d1f51f7725593dcffd0454" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_serializeObjectTree_4</name></member>
       <member refid="classMR_1a39d79f01b71927ba8f146f5044b4048f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_serializeObjectTreeToGltf</name></member>
       <member refid="classMR_1a2d73e6a1b701f5e9b8cb2d7781cc5ba6" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_SetCurrentThreadName</name></member>
-      <member refid="classMR_1a3367a6f702f81bf8f8b76d95f7629abb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_setDefaultSerializeMeshFormat</name></member>
-      <member refid="classMR_1a500d60c6e6be09348b0e8d0de47e31f4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_setDefaultSerializePointsFormat</name></member>
-      <member refid="classMR_1a7ded800562056f9aa2b54f247eaa61f5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_setDefaultSerializeVoxelsFormat</name></member>
       <member refid="classMR_1a3304490083973b052133d796c409a4ff" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_setLevelSetType</name></member>
       <member refid="classMR_1acb40bc5212edd4e6927aa3e0a8510c86" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_setNewHandlerIfNeeded</name></member>
       <member refid="classMR_1ac34d7cc51ed95836c5a0d4bd4ab34d4f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_setupLoggerByDefault</name></member>
@@ -100846,9 +100630,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac37088ef3b1cf713abdc57959919e573" prot="public" virt="non-virtual"><scope>MR</scope><name>decode64</name></member>
       <member refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" prot="public" virt="non-virtual"><scope>MR</scope><name>decompressZip</name></member>
       <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" prot="public" virt="non-virtual"><scope>MR</scope><name>decompressZip</name></member>
-      <member refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" prot="public" virt="non-virtual"><scope>MR</scope><name>defaultSerializeMeshFormat</name></member>
-      <member refid="classMR_1adb979235051f16e0860065ee9ec797d0" prot="public" virt="non-virtual"><scope>MR</scope><name>defaultSerializePointsFormat</name></member>
-      <member refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" prot="public" virt="non-virtual"><scope>MR</scope><name>defaultSerializeVoxelsFormat</name></member>
       <member refid="classMR_1a7a2fd6c9db8b83882407c366c3776ec7" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
       <member refid="classMR_1a0e6541b14a9dac3653b66def6cd8fe80" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
       <member refid="classMR_1a630013d66dd6ec05562c1b7a16f274fe" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
@@ -102071,9 +101852,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a91868bc1255b7cc4a0593bdb2b6747d2" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTree</name></member>
       <member refid="classMR_1a508f5e435240bd997724cb93c20413c8" prot="public" virt="non-virtual"><scope>MR</scope><name>serializeObjectTreeToGltf</name></member>
       <member refid="classMR_1a993531e2266c46f2928b7f763c13d345" prot="public" virt="non-virtual"><scope>MR</scope><name>setCurrentThreadName</name></member>
-      <member refid="classMR_1aa01adb97f91261009ee2d0e53721b90a" prot="public" virt="non-virtual"><scope>MR</scope><name>setDefaultSerializeMeshFormat</name></member>
-      <member refid="classMR_1abb490e3f859a3d3d9af14265094680ff" prot="public" virt="non-virtual"><scope>MR</scope><name>setDefaultSerializePointsFormat</name></member>
-      <member refid="classMR_1ae91e7549b77d2bd065ae8d7e21919c53" prot="public" virt="non-virtual"><scope>MR</scope><name>setDefaultSerializeVoxelsFormat</name></member>
       <member refid="classMR_1aa9a7b3d441870b1fca936f93def21e4d" prot="public" virt="non-virtual"><scope>MR</scope><name>setLevelSetType</name></member>
       <member refid="classMR_1aabf3593c9a5b9b3d93015943a44c6d52" prot="public" virt="non-virtual"><scope>MR</scope><name>setNewHandlerIfNeeded</name></member>
       <member refid="classMR_1a3f2c3d315f40543d82d16bd8d0911243" prot="public" virt="non-virtual"><scope>MR</scope><name>setupLoggerByDefault</name></member>

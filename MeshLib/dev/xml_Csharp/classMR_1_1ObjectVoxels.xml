@@ -729,7 +729,7 @@
           <declname>newFormat</declname>
         </param>
         <briefdescription>
-<para>overrides file extension used to serialize voxels inside this object: must start from '.', nullptr means serialize in <ref refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" kindref="member">defaultSerializeVoxelsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" kindref="member">MR.ObjectVoxels.setSerializeFormat</ref></computeroutput>. </para>
+<para>overrides file extension used to serialize voxels inside this object: must start from '.', nullptr means serialize in SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat ) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" kindref="member">MR.ObjectVoxels.setSerializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

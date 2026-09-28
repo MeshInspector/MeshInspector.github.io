@@ -2854,7 +2854,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns overriden file extension used to serialize mesh inside this object, nullptr means defaultSerializeMeshFormat() Generated from method <computeroutput>MR::ObjectMeshHolder::serializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns overriden file extension used to serialize mesh inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput>MR::ObjectMeshHolder::serializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2872,7 +2872,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns overriden file extension used to serialize mesh inside this object if set, or defaultSerializeMeshFormat().c_str() otherwise; never returns nullptr Generated from method <computeroutput>MR::ObjectMeshHolder::actualSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns overriden file extension used to serialize mesh inside this object if set, or SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) otherwise; never returns nullptr Generated from method <computeroutput>MR::ObjectMeshHolder::actualSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -2894,7 +2894,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in defaultSerializeMeshFormat() Generated from method <computeroutput>MR::ObjectMeshHolder::setSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in SceneSettings::get( SceneSettings::StringType::MeshSerializeFormat ) Generated from method <computeroutput>MR::ObjectMeshHolder::setSerializeFormat</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -4859,45 +4859,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h" line="1264" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h" declline="1264" declcolumn="37"/>
       </memberdef>
-      <memberdef kind="function" id="MRObjectMeshHolder_8h_1a9db402ef29ab738a18f88dadcbcbd047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
-        <definition>MRC_API const MR_std_string * MR_defaultSerializeMeshFormat</definition>
-        <argsstring>(void)</argsstring>
-        <name>MR_defaultSerializeMeshFormat</name>
-        <param>
-          <type>void</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns file extension used to serialize ObjectMeshHolder by default (if not overridden in specific object), the string starts with &apos;.&apos; Generated from function <computeroutput>MR::defaultSerializeMeshFormat</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h" line="1270" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h" declline="1270" declcolumn="29"/>
-      </memberdef>
-      <memberdef kind="function" id="MRObjectMeshHolder_8h_1aad9419407aaea662a3117bcb33440cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_setDefaultSerializeMeshFormat</definition>
-        <argsstring>(const char *newFormat, const char *newFormat_end)</argsstring>
-        <name>MR_setDefaultSerializeMeshFormat</name>
-        <param>
-          <type>const char *</type>
-          <declname>newFormat</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>newFormat_end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets file extension used to serialize serialize ObjectMeshHolder by default (if not overridden in specific object), the string must start from &apos;.&apos;; Generated from function <computeroutput>MR::setDefaultSerializeMeshFormat</computeroutput>. Parameter <computeroutput>newFormat</computeroutput> can not be null. If <computeroutput>newFormat_end</computeroutput> is null, then <computeroutput>newFormat</computeroutput> is assumed to be null-terminated. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h" line="1279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h" declline="1279" declcolumn="14"/>
-      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -5405,15 +5366,9 @@
 <codeline lineno="1260"><highlight class="normal"></highlight><highlight class="comment">//<sp/>finds<sp/>it<sp/>among<sp/>its<sp/>parent&apos;s<sp/>recognized<sp/>children</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1264" refid="MRObjectMeshHolder_8h_1a3e3ab1af88ad8de33b69e11ce69b7b8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRObjectMeshHolder_8h_1a3e3ab1af88ad8de33b69e11ce69b7b8b" kindref="member">MR_ObjectMeshHolder_getSharedPtr</ref>(const<sp/><ref refid="MRObjectDistanceMap_8h_1a1c5e41e50d86c1613114a6f1296f0934" kindref="member">MR_ObjectMeshHolder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1265"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1270" refid="MRObjectMeshHolder_8h_1a9db402ef29ab738a18f88dadcbcbd047" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>const<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRObjectMeshHolder_8h_1a9db402ef29ab738a18f88dadcbcbd047" kindref="member">MR_defaultSerializeMeshFormat</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="1271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1274"><highlight class="normal"></highlight><highlight class="comment">//<sp/>serialization<sp/>falls<sp/>back<sp/>to<sp/>the<sp/>PLY<sp/>format<sp/>if<sp/>given<sp/>format<sp/>support<sp/>is<sp/>available</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1275"><highlight class="normal"></highlight><highlight class="comment">//<sp/>NOTE:<sp/>CTM<sp/>format<sp/>support<sp/>is<sp/>available<sp/>in<sp/>the<sp/>MRIOExtras<sp/>library;<sp/>make<sp/>sure<sp/>to<sp/>load<sp/>it<sp/>if<sp/>you<sp/>prefer<sp/>CTM</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1279" refid="MRObjectMeshHolder_8h_1aad9419407aaea662a3117bcb33440cbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectMeshHolder_8h_1aad9419407aaea662a3117bcb33440cbb" kindref="member">MR_setDefaultSerializeMeshFormat</ref>(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*newFormat,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*newFormat_end);</highlight></codeline>
-<codeline lineno="1280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1281"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1282"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1283"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="1266"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1267"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1268"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshHolder.h"/>
   </compounddef>

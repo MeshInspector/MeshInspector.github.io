@@ -1287,7 +1287,7 @@ returns false if canceled or voxel data is empty
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSerializeVoxelsFormat()
+<pre class="fragment">returns overriden file extension used to serialize voxels inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat )
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#ad3fabcee6943ae65a1e80d88ecb26dc0">mrmeshpy.ObjectMeshHolder</a>.</p>
 
@@ -1465,7 +1465,7 @@ Returns true if iso-value was updated, false - otherwise
       </table>
 </div><div class="memdoc">
 <pre class="fragment">overrides file extension used to serialize voxels inside this object: must start from '.',
-nullptr means serialize in defaultSerializeVoxelsFormat()
+nullptr means serialize in SceneSettings::get( SceneSettings::StringType::VoxelsSerializeFormat )
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectMeshHolder.html#a8659d3ca6569f9ba35b2da7aa09a744a">mrmeshpy.ObjectMeshHolder</a>.</p>
 

@@ -593,7 +593,7 @@
         <name>serializeFormat</name>
         <qualifiedname>MR.Const_ObjectPoints.serializeFormat</qualifiedname>
         <briefdescription>
-<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means <ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">defaultSerializePointsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ac980555d96dbc8584f7e48d3dcea9c06" kindref="member">MR.ObjectPoints.serializeFormat</ref></computeroutput>. </para>
+<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat ) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ac980555d96dbc8584f7e48d3dcea9c06" kindref="member">MR.ObjectPoints.serializeFormat</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

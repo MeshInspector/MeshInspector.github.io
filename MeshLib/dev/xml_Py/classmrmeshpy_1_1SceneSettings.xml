@@ -5,6 +5,7 @@
     <innerclass refid="classmrmeshpy_1_1SceneSettings_1_1BoolType" prot="public">mrmeshpy::SceneSettings::BoolType</innerclass>
     <innerclass refid="classmrmeshpy_1_1SceneSettings_1_1FloatType" prot="public">mrmeshpy::SceneSettings::FloatType</innerclass>
     <innerclass refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" prot="public">mrmeshpy::SceneSettings::ShadingMode</innerclass>
+    <innerclass refid="classmrmeshpy_1_1SceneSettings_1_1StringType" prot="public">mrmeshpy::SceneSettings::StringType</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1a13442569b0bb2a64d5113a8b249c7e9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -26,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43585" bodyend="43586"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43629" bodyend="43630"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1ac30d1bf09b1b0e4fb6fd74eb5e8e3524" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -44,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43589" bodyend="43590"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43633" bodyend="43634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1aa10d3d67bfc3806d0b2f84d84ee68307" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -62,7 +63,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43593" bodyend="43594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43637" bodyend="43638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1aedbfa1d5f4af0841dc6ed258cdb3e28a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SceneSettings.get</definition>
+        <argsstring>(SceneSettings.StringType type)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.SceneSettings.get</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneSettings_1_1StringType" kindref="compound">SceneSettings.StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43641" bodyend="43642"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1a8bb1afa86522261f4fd2a6e45b87fbf0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
@@ -76,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43596" bodyend="43597"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43644" bodyend="43645"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1a51831bf8457344a13a60707e86002615" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SceneSettings_1_1ShadingMode" kindref="compound">SceneSettings.ShadingMode</ref></type>
@@ -94,7 +113,7 @@ Tools may consider this setting when creating new meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43599" bodyend="43604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43647" bodyend="43652"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1ad2ed301ec9150dc6d540152913de2646" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -110,7 +129,7 @@ Tools may consider this setting when creating new meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43606" bodyend="43609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43654" bodyend="43657"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1a28a675b64d71478ba39c025bdf32a0af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -132,7 +151,7 @@ Tools may consider this setting when creating new meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43612" bodyend="43613"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43660" bodyend="43661"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1aa49f92c68bd35e8259e4da82b20f1b71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -154,7 +173,29 @@ Tools may consider this setting when creating new meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43616" bodyend="43617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43664" bodyend="43665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1a86cad38eb7c365c7aa2d0aa7f85373fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneSettings.set</definition>
+        <argsstring>(SceneSettings.StringType type, str value)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.SceneSettings.set</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneSettings_1_1StringType" kindref="compound">SceneSettings.StringType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43668" bodyend="43669"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1ad13f957a4379551cd3d978ac23728601" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -172,7 +213,7 @@ Tools may consider this setting when creating new meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43619" bodyend="43620"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43671" bodyend="43672"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SceneSettings_1ac86ca37be6e583228516ccea7f4e5476" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -190,7 +231,7 @@ Tools may consider this setting when creating new meshes
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43622" bodyend="43623"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43674" bodyend="43675"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -201,16 +242,18 @@ Tools may consider this setting when creating new meshes
 This singleton struct contains default settings for scene objects
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43434" bodyend="43623"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43434" bodyend="43675"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SceneSettings_1a13442569b0bb2a64d5113a8b249c7e9d" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1ac30d1bf09b1b0e4fb6fd74eb5e8e3524" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1aa10d3d67bfc3806d0b2f84d84ee68307" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1aedbfa1d5f4af0841dc6ed258cdb3e28a" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>get</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1a8bb1afa86522261f4fd2a6e45b87fbf0" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>getCNCMachineSettings</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1a51831bf8457344a13a60707e86002615" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>getDefaultShadingMode</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1ad2ed301ec9150dc6d540152913de2646" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>reset</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1a28a675b64d71478ba39c025bdf32a0af" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1aa49f92c68bd35e8259e4da82b20f1b71" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1SceneSettings_1a86cad38eb7c365c7aa2d0aa7f85373fd" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>set</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1ad13f957a4379551cd3d978ac23728601" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>setCNCMachineSettings</name></member>
       <member refid="classmrmeshpy_1_1SceneSettings_1ac86ca37be6e583228516ccea7f4e5476" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneSettings</scope><name>setDefaultShadingMode</name></member>
     </listofallmembers>

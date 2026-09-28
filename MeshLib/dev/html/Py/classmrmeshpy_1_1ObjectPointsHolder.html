@@ -929,7 +929,7 @@ e.g. ObjectMesh has valid meshPtr() or ObjectPoints has valid pointCloudPtr()
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">returns overriden file extension used to serialize point cloud inside this object, nullptr means defaultSerializePointsFormat()
+<pre class="fragment">returns overriden file extension used to serialize point cloud inside this object, nullptr means SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat )
 </pre> 
 </div>
 </div>
@@ -1076,7 +1076,7 @@ e.g. ObjectMesh has valid meshPtr() or ObjectPoints has valid pointCloudPtr()
       </table>
 </div><div class="memdoc">
 <pre class="fragment">overrides file extension used to serialize point cloud inside this object: must start from '.',
-nullptr means serialize in defaultSerializePointsFormat()
+nullptr means serialize in SceneSettings::get( SceneSettings::StringType::PointsSerializeFormat )
 </pre> 
 </div>
 </div>

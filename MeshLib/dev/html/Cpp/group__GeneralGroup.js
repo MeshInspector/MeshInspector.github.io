@@ -4445,6 +4445,12 @@ var group__GeneralGroup =
         [ "AutoDetect", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf", null ],
         [ "Smooth", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290cae510cdf33cd497134b47b9316314d4b4", null ],
         [ "Flat", "group__GeneralGroup.html#gga308e72dcfc90ae1a9370ca7c7bc3290ca745e3db6a7ffd50e1a72b39482f0882d", null ]
+      ] ],
+      [ "StringType", "group__GeneralGroup.html#gaca4cbb22b4674eb9de491e91090d5be6", [
+        [ "MeshSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb", null ],
+        [ "PointsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9", null ],
+        [ "VoxelsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159", null ],
+        [ "Count", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
       ] ]
     ] ],
     [ "MR::SegmPoint< T >", "structMR_1_1SegmPoint.html", [
@@ -10377,6 +10383,12 @@ var group__GeneralGroup =
       [ "MR::Features::MeasureResult::Status::badRelativeLocation", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7ea485094d05ff3ed356932b126a20864e2", null ],
       [ "MR::Features::MeasureResult::Status::notFinite", "group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7eafd6f633ddb4b5a2220cba15cebe96b8c", null ]
     ] ],
+    [ "MR::SceneSettings::StringType", "group__GeneralGroup.html#gaca4cbb22b4674eb9de491e91090d5be6", [
+      [ "MR::SceneSettings::StringType::MeshSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a7c7083efbc53c626f151a4d9e7b029bb", null ],
+      [ "MR::SceneSettings::StringType::PointsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a6aa229db0ba7959da11cbdb84060f3d9", null ],
+      [ "MR::SceneSettings::StringType::VoxelsSerializeFormat", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6a11502ad3cfb527908a8174aa52271159", null ],
+      [ "MR::SceneSettings::StringType::Count", "group__GeneralGroup.html#ggaca4cbb22b4674eb9de491e91090d5be6ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "MR::TouchpadParameters::SwipeMode", "group__GeneralGroup.html#ga5fa77fceab21954148047b9057cdadce", [
       [ "MR::TouchpadParameters::SwipeMode::SwipeRotatesCamera", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadceac8d8e07ee6a9f2300e021461537270d1", null ],
       [ "MR::TouchpadParameters::SwipeMode::SwipeMovesCamera", "group__GeneralGroup.html#gga5fa77fceab21954148047b9057cdadcea439ba9124c50be9c2bc639bb99432b0e", null ],
@@ -11560,9 +11572,9 @@ var group__GeneralGroup =
     [ "MR::decorateExpected", "group__GeneralGroup.html#gabf106ad4f6e3e81079b7698a30f31e20", null ],
     [ "MR::decorateExpected", "group__GeneralGroup.html#gaa60c1177452c69cf5b8cdab61296d1ce", null ],
     [ "MR::Viewport::PickRenderObjectParams::defaults", "group__GeneralGroup.html#ga12555ed5effec0f6d17edfe0508f0658", null ],
-    [ "MR::defaultSerializeMeshFormat", "group__GeneralGroup.html#gaa327a029bad713e6790ebf10e611f39e", null ],
-    [ "MR::defaultSerializePointsFormat", "group__GeneralGroup.html#ga2c6a78cd704061f23a26f39a7894d013", null ],
-    [ "MR::defaultSerializeVoxelsFormat", "group__GeneralGroup.html#ga9e98998898fd6201022fae954bea3982", null ],
+    [ "MR::defaultSerializeMeshFormat", "group__GeneralGroup.html#gaf2ff1896602b42bea912877e4c59b1be", null ],
+    [ "MR::defaultSerializePointsFormat", "group__GeneralGroup.html#gaa64f295ab3550ca99f30ea4026bdd48b", null ],
+    [ "MR::defaultSerializeVoxelsFormat", "group__GeneralGroup.html#ga7750610f894e8e2863d032a63e1365f8", null ],
     [ "MR::DefaultSplashWindow::DefaultSplashWindow", "group__GeneralGroup.html#ga47971ab928e999aec01b1d27348ff43c", null ],
     [ "MR::PlaneWidget::definePlane", "group__GeneralGroup.html#ga9b457e8f370aa64a11f49854dab6f1dd", null ],
     [ "MR::InSphereTesterSoS::degenerateTriangle", "group__GeneralGroup.html#gae5d8d9b9fe2dd4d41af7fad0d93fdff0", null ],
@@ -12333,6 +12345,7 @@ var group__GeneralGroup =
     [ "MR::SceneRoot::get", "group__GeneralGroup.html#ga3264c00309108ada04f0af10519ad602", null ],
     [ "MR::SceneSettings::get", "group__GeneralGroup.html#ga16a379ad3fa3bd316038e6040a25d235", null ],
     [ "MR::SceneSettings::get", "group__GeneralGroup.html#ga5786f478398399366131858ce23f54da", null ],
+    [ "MR::SceneSettings::get", "group__GeneralGroup.html#ga4850eada4a4839c907727781caeb634c", null ],
     [ "MR::SparsePolynomial::get", "group__GeneralGroup.html#ga4594d4e61f1e8cb98cdf84f86dcdc9bd", null ],
     [ "MR::UnifiedPythonStream::get", "group__GeneralGroup.html#ga68a97ff9c823539594b0ebedef0ba8b1", null ],
     [ "MR::Viewport::get", "group__GeneralGroup.html#gaa63ad726de4f8ed054254810d1e74b3e", null ],
@@ -15343,6 +15356,7 @@ var group__GeneralGroup =
     [ "MR::SceneColors::set", "group__GeneralGroup.html#gaab5702041286d77201bac4ce1254f2d0", null ],
     [ "MR::SceneSettings::set", "group__GeneralGroup.html#gab78f12b36390bcda6254817a9d7247b6", null ],
     [ "MR::SceneSettings::set", "group__GeneralGroup.html#gab33c04442675301bb7cf035e494dd33f", null ],
+    [ "MR::SceneSettings::set", "group__GeneralGroup.html#gac40e194648e293ad6f0fd7bc22382c50", null ],
     [ "MR::XfBasedCache::set", "group__GeneralGroup.html#ga3b3e82656a92381f41f435da52178562", null ],
     [ "MR::Viewer::set_root", "group__GeneralGroup.html#gaf98ce39ae7d05a6937772e3bc1ff4879", null ],
     [ "MR::ObjectVoxels::setActiveBounds", "group__GeneralGroup.html#gaf143f9c6dc763aac39a1a410685fdccd", null ],
@@ -15447,9 +15461,9 @@ var group__GeneralGroup =
     [ "MR::FeatureObject::setDecorationsColor", "group__GeneralGroup.html#ga973d7e4651d687dc0b0542643e12b76a", null ],
     [ "MR::FeatureObject::setDecorationsColorForAllViewports", "group__GeneralGroup.html#ga84051c024001eaafe93c9e0091a1a9a6", null ],
     [ "MR::ColorMapAggregator::setDefaultColor", "group__GeneralGroup.html#ga74373769376cffc67f3e967b161af622", null ],
-    [ "MR::setDefaultSerializeMeshFormat", "group__GeneralGroup.html#ga3e1e9d92e64e6c27696b626e2c450144", null ],
-    [ "MR::setDefaultSerializePointsFormat", "group__GeneralGroup.html#ga7e504838577ed8995448cf04bf473df1", null ],
-    [ "MR::setDefaultSerializeVoxelsFormat", "group__GeneralGroup.html#ga1e5d24821061d108c1e0e79aaea085a9", null ],
+    [ "MR::setDefaultSerializeMeshFormat", "group__GeneralGroup.html#gad470465fba020e775587e6dfe209ba03", null ],
+    [ "MR::setDefaultSerializePointsFormat", "group__GeneralGroup.html#gadfa251767141b4418cd3d1b6b1828fab", null ],
+    [ "MR::setDefaultSerializeVoxelsFormat", "group__GeneralGroup.html#gafdaa1f574c454749e18731b1ad8ee7a0", null ],
     [ "MR::SceneSettings::setDefaultShadingMode", "group__GeneralGroup.html#gafca3894ccff66bbec70307b98b8b79cd", null ],
     [ "MR::setDefaultUnitParams", "group__GeneralGroup.html#ga822feec21d0c267d63b63429392323c9", null ],
     [ "MR::Viewer::setDepthPeelNumPasses", "group__GeneralGroup.html#ga209b9db2ca12c0b19c1b7735328084dc", null ],

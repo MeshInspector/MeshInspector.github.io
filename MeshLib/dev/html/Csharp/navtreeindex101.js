@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1EdgePathsAStarBuilder.html#ae46f64743844b61f370c69dd2adec2f1":[9,3,0,0,0,1168,2],
 "classMR_1_1EdgePathsAStarBuilder.html#af0735d447410a3dbdba9294a0128634a":[9,3,0,0,0,1168,9],
 "classMR_1_1EdgePathsAStarBuilder.html#af0e220e96205306e292fe51beed7f1c1":[9,3,0,0,0,1168,7],
 "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html":[9,3,0,0,0,1169],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1FaceBitSet.html#a62cbbf2fce8ce6c381f104c9535d2afa":[9,3,0,0,0,1186,22],
 "classMR_1_1FaceBitSet.html#a6531c208a3310fc010e689dace7df17d":[9,3,0,0,0,1186,31],
 "classMR_1_1FaceBitSet.html#a6b32aaa52e26e73c4517a4b50f792903":[9,3,0,0,0,1186,23],
-"classMR_1_1FaceBitSet.html#a734da20e66693be29b7cf10d591af6f9":[9,3,0,0,0,1186,17],
-"classMR_1_1FaceBitSet.html#a7557041198ae5eb8a38d3b9bf4447d47":[9,3,0,0,0,1186,27]
+"classMR_1_1FaceBitSet.html#a734da20e66693be29b7cf10d591af6f9":[9,3,0,0,0,1186,17]
 };

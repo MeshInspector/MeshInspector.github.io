@@ -1334,6 +1334,7 @@ var hierarchy =
     [ "mrmeshpy.MeshLoad.StepLoadSettings", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html", null ],
     [ "mrmeshpy.StitchHolesNicelySettings", "classmrmeshpy_1_1StitchHolesNicelySettings.html", null ],
     [ "mrmeshpy.StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", null ],
+    [ "mrmeshpy.SceneSettings.StringType", "classmrmeshpy_1_1SceneSettings_1_1StringType.html", null ],
     [ "mrmeshpy.SubdivideFillingSettings", "classmrmeshpy_1_1SubdivideFillingSettings.html", null ],
     [ "mrmeshpy.SubdivideSettings", "classmrmeshpy_1_1SubdivideSettings.html", null ],
     [ "mrmeshpy.Features.SubfeatureInfo", "classmrmeshpy_1_1Features_1_1SubfeatureInfo.html", null ],

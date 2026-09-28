@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1SimpleVolumeMinMaxU16.html#a72f9f6095594e5fb799e277141368464":[9,3,0,0,0,1638,10],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a8298ab9645c4d40ec2c2a672682fd121":[9,3,0,0,0,1638,9],
 "classMR_1_1SimpleVolumeMinMaxU16.html#aaf18ad50cae9f1e115f9e45836163a96":[9,3,0,0,0,1638,1],
 "classMR_1_1SimpleVolumeMinMaxU16.html#ad0547476b4eb7a5a8eaca23f06990b41":[9,3,0,0,0,1638,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html#ac26314435e5c8b77cf3307a066358624":[9,3,0,0,0,1656,1,3],
 "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html#ac71e82acfd643ff7feec9d715da8f54f":[9,3,0,0,0,1656,1,1],
 "classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html#ad0c88d253141f7e3ec8f5f58c80af9e5":[9,3,0,0,0,1656,1,6],
-"classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html#ad78d2f15c777502748de31aaff75fedf":[9,3,0,0,0,1656,1,2],
-"classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html#aee4fe4ccb030fd22fb55c21de6788516":[9,3,0,0,0,1656,1,5]
+"classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber.html#ad78d2f15c777502748de31aaff75fedf":[9,3,0,0,0,1656,1,2]
 };
