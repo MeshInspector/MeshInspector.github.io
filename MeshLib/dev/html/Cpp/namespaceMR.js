@@ -3245,6 +3245,7 @@ var namespaceMR =
     [ "positionVertsWithSpacing", "group__GeneralGroup.html#gadb739a70f56473054c61b01ea775d324", null ],
     [ "postprocessMeshFromVoxels", "group__GeneralGroup.html#ga2e8f972be7a04d60a5748945b06ff2a8", null ],
     [ "preCollapseVertAttribute", "group__GeneralGroup.html#gad9d6f60ebc6c98c7e8ddfc4ad3b46bab", null ],
+    [ "preLaunchDefaultViewer", "group__GeneralGroup.html#gae94a86545f7fb008c49760e3bdab54a1", null ],
     [ "printCurrentTimerBranch", "group__BasicGroup.html#gaecffe26cbebdea7dd9123268d97c9b8d", null ],
     [ "printStacktraceOnCrash", "group__GeneralGroup.html#ga71227976536400c198b13a60878f53d2", null ],
     [ "printTimingTree", "group__BasicGroup.html#gaa062fb28e95de030cde47eb792db4270", null ],

@@ -10661,12 +10661,14 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memdesc:gad2c8ef31c89b8f6ac98ea4468e6ca19d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adding a template parameter to avoid including the whole <span class="tt">imgui.h</span>.  <br /></td></tr>
 <tr class="memitem:ga4eb6d9b787cbe2ef20e8a5d38f8de91d" id="r_ga4eb6d9b787cbe2ef20e8a5d38f8de91d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4eb6d9b787cbe2ef20e8a5d38f8de91d">MR::Viewer::parseLaunchParams</a> (<a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">LaunchParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga4eb6d9b787cbe2ef20e8a5d38f8de91d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accumulate launch params from cmd args.  <br /></td></tr>
+<tr class="memitem:gaa212a4873a067a393c79ed06f2d251e0" id="r_gaa212a4873a067a393c79ed06f2d251e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa212a4873a067a393c79ed06f2d251e0">MR::Viewer::preLaunch</a> (const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">LaunchParams</a> &amp;params)</td></tr>
 <tr class="memitem:ga6ba524665a123cfc2a7098ea88eecf48" id="r_ga6ba524665a123cfc2a7098ea88eecf48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ba524665a123cfc2a7098ea88eecf48">MR::Viewer::launch</a> (const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">LaunchParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga6ba524665a123cfc2a7098ea88eecf48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch viewer with given params.  <br /></td></tr>
 <tr class="memitem:ga9859eebed05121603d979f7c490890ab" id="r_ga9859eebed05121603d979f7c490890ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9859eebed05121603d979f7c490890ab">MR::Viewer::launchEventLoop</a> ()</td></tr>
 <tr class="memdesc:ga9859eebed05121603d979f7c490890ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts event loop.  <br /></td></tr>
 <tr class="memitem:ga83bd7780adc97eb86fd8c76d8d24f647" id="r_ga83bd7780adc97eb86fd8c76d8d24f647"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83bd7780adc97eb86fd8c76d8d24f647">MR::Viewer::launchShut</a> ()</td></tr>
 <tr class="memdesc:ga83bd7780adc97eb86fd8c76d8d24f647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate window.  <br /></td></tr>
+<tr class="memitem:gadff7849c01677ecd0b34bf909de0b585" id="r_gadff7849c01677ecd0b34bf909de0b585"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadff7849c01677ecd0b34bf909de0b585">MR::Viewer::isPreLaunched</a> () const</td></tr>
 <tr class="memitem:ga881f953c9d192cce78219319c2cdf0bb" id="r_ga881f953c9d192cce78219319c2cdf0bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga881f953c9d192cce78219319c2cdf0bb">MR::Viewer::isLaunched</a> () const</td></tr>
 <tr class="memitem:ga5e6446f42d0774a003b0af5832154822" id="r_ga5e6446f42d0774a003b0af5832154822"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">LaunchParams</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e6446f42d0774a003b0af5832154822">MR::Viewer::getLaunchParams</a> () const</td></tr>
 <tr class="memdesc:ga5e6446f42d0774a003b0af5832154822"><td class="mdescLeft">&#160;</td><td class="mdescRight">get full parameters with witch viewer was launched  <br /></td></tr>
@@ -10872,6 +10874,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:gae845f00d481d0fd18096f42a74a255dc" id="r_gae845f00d481d0fd18096f42a74a255dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae845f00d481d0fd18096f42a74a255dc">MR::Viewer::isMultiViewportAvailable</a> ()</td></tr>
 <tr class="memitem:ga9cbbe6698b91f4932fc8498ac345c362" id="r_ga9cbbe6698b91f4932fc8498ac345c362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9cbbe6698b91f4932fc8498ac345c362">MR::Viewer::EventsCounter::reset</a> ()</td></tr>
 <tr class="memitem:ga4dd7ea4b014eafdbbb1c753fb97eb3ab" id="r_ga4dd7ea4b014eafdbbb1c753fb97eb3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4dd7ea4b014eafdbbb1c753fb97eb3ab">MR::Viewer::GLPrimitivesCounter::reset</a> ()</td></tr>
+<tr class="memitem:gae94a86545f7fb008c49760e3bdab54a1" id="r_gae94a86545f7fb008c49760e3bdab54a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae94a86545f7fb008c49760e3bdab54a1">MR::preLaunchDefaultViewer</a> (const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;params, const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;setup)</td></tr>
 <tr class="memitem:gada0c424f2526de3fc5e1e405ddc1fb39" id="r_gada0c424f2526de3fc5e1e405ddc1fb39"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gada0c424f2526de3fc5e1e405ddc1fb39">MR::launchDefaultViewer</a> (const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;params, const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;setup)</td></tr>
 <tr class="memdesc:gada0c424f2526de3fc5e1e405ddc1fb39"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts default viewer with given params and setup  <br /></td></tr>
 <tr class="memitem:ga7aa91f7b5cc7541ac0f982fce5660507" id="r_ga7aa91f7b5cc7541ac0f982fce5660507"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7aa91f7b5cc7541ac0f982fce5660507">MR::ViewerEventQueue::emplace</a> (std::string name, <a class="el" href="#gaf677bfbbed9f6c283d0a3101b5e91aea">ViewerEventCallback</a> cb, bool skipable=false)</td></tr>
@@ -112083,6 +112086,33 @@ template&lt;typename C, typename D, D M&gt; </div>
 
 </div>
 </div>
+<a id="gadff7849c01677ecd0b34bf909de0b585" name="gadff7849c01677ecd0b34bf909de0b585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadff7849c01677ecd0b34bf909de0b585">&#9670;&#160;</a></span>isPreLaunched()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Viewer::isPreLaunched </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gabb58214722dec57f676bb9945fa96518" name="gabb58214722dec57f676bb9945fa96518"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabb58214722dec57f676bb9945fa96518">&#9670;&#160;</a></span>isPressed()</h2>
 
@@ -148615,6 +148645,50 @@ template&lt;typename ... Updates&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 <p>for incident vertices and faces of given edges, remember one of them as edgeWithOrg and edgeWithLeft; this is important in parallel algorithms where other edges may change but stable ones will survive </p>
+
+</div>
+</div>
+<a id="gaa212a4873a067a393c79ed06f2d251e0" name="gaa212a4873a067a393c79ed06f2d251e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa212a4873a067a393c79ed06f2d251e0">&#9670;&#160;</a></span>preLaunch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Viewer::preLaunch </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">LaunchParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
+<p>Pre-launch viewer with given params Generally you should just call <span class="tt">launch</span> instead. </p>
+
+</div>
+</div>
+<a id="gae94a86545f7fb008c49760e3bdab54a1" name="gae94a86545f7fb008c49760e3bdab54a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae94a86545f7fb008c49760e3bdab54a1">&#9670;&#160;</a></span>preLaunchDefaultViewer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::preLaunchDefaultViewer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga18c86b40dc97e73d26be6d5f21f65093">Viewer::LaunchParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ViewerSetup.html">ViewerSetup</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>setup</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
+<p>initializes default viewer with given params and setup generally you should just call <span class="tt">launchDefaultViewer</span> instead </p>
 
 </div>
 </div>

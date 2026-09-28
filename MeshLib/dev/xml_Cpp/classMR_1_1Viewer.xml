@@ -55,6 +55,7 @@
       <member refid="group__GeneralGroup_1ga33b2dcb488dbb9875ac473677359ec38" kind="variable"><name>eventsCounter_</name></member>
       <member refid="group__GeneralGroup_1gad9d7cefc8648f1ca4546f6d060885e04" kind="variable"><name>glPrimitivesCounter_</name></member>
       <member refid="group__GeneralGroup_1ga89ac7318bd231d3e59438b47ff3c84b9" kind="variable"><name>stopEventLoop_</name></member>
+      <member refid="group__GeneralGroup_1gae9fafb3d8a4f216856842818fde39581" kind="variable"><name>isPreLaunched_</name></member>
       <member refid="group__GeneralGroup_1ga995ab1496154a99adfdb3f0373714cae" kind="variable"><name>isLaunched_</name></member>
       <member refid="group__GeneralGroup_1ga3a8790f656a7c026514cd7a85c31cf5e" kind="variable"><name>focusRedrawReady_</name></member>
       <member refid="group__GeneralGroup_1ga199be8a4f0024f7007be61c7c326ca79" kind="variable"><name>sceneTexture_</name></member>
@@ -82,9 +83,11 @@
       <member refid="group__GeneralGroup_1ga9bf9b043a95e5fa4bf924a5ee2b799f1" kind="function"><name>constInstanceRef</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa212a4873a067a393c79ed06f2d251e0" kind="function"><name>preLaunch</name></member>
       <member refid="group__GeneralGroup_1ga6ba524665a123cfc2a7098ea88eecf48" kind="function"><name>launch</name></member>
       <member refid="group__GeneralGroup_1ga9859eebed05121603d979f7c490890ab" kind="function"><name>launchEventLoop</name></member>
       <member refid="group__GeneralGroup_1ga83bd7780adc97eb86fd8c76d8d24f647" kind="function"><name>launchShut</name></member>
+      <member refid="group__GeneralGroup_1gadff7849c01677ecd0b34bf909de0b585" kind="function"><name>isPreLaunched</name></member>
       <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" kind="function"><name>isLaunched</name></member>
       <member refid="group__GeneralGroup_1ga5e6446f42d0774a003b0af5832154822" kind="function"><name>getLaunchParams</name></member>
       <member refid="group__GeneralGroup_1ga85ad500aab48ce2471d2715030ff667a" kind="function"><name>getPluginInstance</name></member>
@@ -252,7 +255,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRViewer.h" line="69" column="1" bodyfile="MRViewer/MRViewer.h" bodystart="70" bodyend="655"/>
+    <location file="MRViewer/MRViewer.h" line="69" column="1" bodyfile="MRViewer/MRViewer.h" bodystart="70" bodyend="660"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8a4165d397a7c241fd7a2b6df849d8c8" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSortEnabled_</name></member>
       <member refid="group__GeneralGroup_1gad254163ddf7de404d091c350fb978a1b" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSorter_</name></member>
@@ -366,6 +369,8 @@
       <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isLaunched</name></member>
       <member refid="group__GeneralGroup_1ga995ab1496154a99adfdb3f0373714cae" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>isLaunched_</name></member>
       <member refid="group__GeneralGroup_1gae845f00d481d0fd18096f42a74a255dc" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isMultiViewportAvailable</name></member>
+      <member refid="group__GeneralGroup_1gadff7849c01677ecd0b34bf909de0b585" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isPreLaunched</name></member>
+      <member refid="group__GeneralGroup_1gae9fafb3d8a4f216856842818fde39581" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>isPreLaunched_</name></member>
       <member refid="group__GeneralGroup_1gaaa475c7f105117c594fd13388464d297" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isSceneTextureBound</name></member>
       <member refid="group__GeneralGroup_1gaac7aff085cfd616d6c21273ff18c0293" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isSceneTextureEnabled</name></member>
       <member refid="group__GeneralGroup_1ga243d3a269442edb970a8b2f440c26ce2" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isSupportedFormat</name></member>
@@ -410,6 +415,7 @@
       <member refid="group__GeneralGroup_1gab8dd3f2235b983007e99f1074ff603e6" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postSetPosition</name></member>
       <member refid="group__GeneralGroup_1gac4a5309ed19fd012a50b4fc912d52782" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>preciseFitDataViewport</name></member>
       <member refid="group__GeneralGroup_1ga70336185f136b3666741981254635d78" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>preciseFitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1gaa212a4873a067a393c79ed06f2d251e0" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>preLaunch</name></member>
       <member refid="group__GeneralGroup_1ga10001fd9054f560c93028f33049f6758" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>presentViewportsMask_</name></member>
       <member refid="group__GeneralGroup_1gaefb216a2684bab02df3b5f3444c8eeff" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>recentFilesStore</name></member>
       <member refid="group__GeneralGroup_1gaa513058cc1e60a1245cb96cb74884dcc" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>recentFilesStore</name></member>
