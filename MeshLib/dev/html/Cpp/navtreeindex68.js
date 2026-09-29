@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PreciseVertCoord.html":[9,0,0,20,471],
+"structMR_1_1PreciseVertCoords.html":[9,0,0,20,475],
+"structMR_1_1PreciseVertCoords2.html":[9,0,0,20,472],
+"structMR_1_1ProgressInterrupter.html":[9,0,0,20,908],
 "structMR_1_1ProjectAttributeParams.html":[9,0,0,20,481],
 "structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,20,50],
 "structMR_1_1PythonExport_1_1ModuleData.html":[9,0,0,20,558],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TriIntersectResult.html#afcfc8df6cc0634cb7eee48bd5186099f":[9,0,0,0,10,0,2],
 "structMR_1_1TriIntersectResult.html#afddaa2d62c7a7fcf3af2785e8551c268":[9,0,0,0,10,0,1],
 "structMR_1_1TriMesh.html":[9,0,0,20,523],
-"structMR_1_1TriPoint.html":[9,0,0,0,23],
-"structMR_1_1TriPoint.html":[9,0,0,20,525],
-"structMR_1_1TriTriDistanceParams.html":[9,0,0,20,522],
-"structMR_1_1TriTriDistanceResult.html":[9,0,0,20,521],
-"structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,20,476]
+"structMR_1_1TriPoint.html":[9,0,0,0,23]
 };

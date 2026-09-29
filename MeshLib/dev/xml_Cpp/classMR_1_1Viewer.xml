@@ -84,8 +84,10 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaa212a4873a067a393c79ed06f2d251e0" kind="function"><name>preLaunch</name></member>
+      <member refid="group__GeneralGroup_1ga9dc1034282d54e419b4f0812961f6a52" kind="function"><name>launchShow</name></member>
       <member refid="group__GeneralGroup_1ga6ba524665a123cfc2a7098ea88eecf48" kind="function"><name>launch</name></member>
       <member refid="group__GeneralGroup_1ga9859eebed05121603d979f7c490890ab" kind="function"><name>launchEventLoop</name></member>
+      <member refid="group__GeneralGroup_1gaab7928a3a97d277d7b96b0f019016360" kind="function"><name>runEventLoopIteration</name></member>
       <member refid="group__GeneralGroup_1ga83bd7780adc97eb86fd8c76d8d24f647" kind="function"><name>launchShut</name></member>
       <member refid="group__GeneralGroup_1gadff7849c01677ecd0b34bf909de0b585" kind="function"><name>isPreLaunched</name></member>
       <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" kind="function"><name>isLaunched</name></member>
@@ -255,7 +257,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRViewer.h" line="69" column="1" bodyfile="MRViewer/MRViewer.h" bodystart="70" bodyend="660"/>
+    <location file="MRViewer/MRViewer.h" line="69" column="1" bodyfile="MRViewer/MRViewer.h" bodystart="70" bodyend="667"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8a4165d397a7c241fd7a2b6df849d8c8" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSortEnabled_</name></member>
       <member refid="group__GeneralGroup_1gad254163ddf7de404d091c350fb978a1b" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSorter_</name></member>
@@ -383,6 +385,7 @@
       <member refid="group__GeneralGroup_1gac3729a6544182efd72fc44b5b5eb38ae" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>launchInit_</name></member>
       <member refid="group__GeneralGroup_1ga18c86b40dc97e73d26be6d5f21f65093" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>LaunchParams</name></member>
       <member refid="group__GeneralGroup_1gaa07a48e1ccf96cf1c97afe75b4bf45b4" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>launchParams_</name></member>
+      <member refid="group__GeneralGroup_1ga9dc1034282d54e419b4f0812961f6a52" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>launchShow</name></member>
       <member refid="group__GeneralGroup_1ga83bd7780adc97eb86fd8c76d8d24f647" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>launchShut</name></member>
       <member refid="group__GeneralGroup_1ga236d606e1cacfd400af1152c66c47b58" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>loadFiles</name></member>
       <member refid="group__GeneralGroup_1ga64f1bc4a6d775acbd9d0c2694e74aa58" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>loadFiles</name></member>
@@ -426,6 +429,7 @@
       <member refid="group__GeneralGroup_1ga5f253d7832f1e50f3936039860a48f25" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>resetSettingsFunction</name></member>
       <member refid="group__GeneralGroup_1gaa6b7ee8da360350c0e268423d8ae2ab0" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>resize</name></member>
       <member refid="group__GeneralGroup_1ga4c175c5eee2d6f8367e9fcfe26eee6a5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>rotationSphere</name></member>
+      <member refid="group__GeneralGroup_1gaab7928a3a97d277d7b96b0f019016360" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>runEventLoopIteration</name></member>
       <member refid="group__GeneralGroup_1ga434edf2262b54427fb1415f8d2124226" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>saveToFile</name></member>
       <member refid="group__GeneralGroup_1ga199be8a4f0024f7007be61c7c326ca79" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>sceneTexture_</name></member>
       <member refid="group__GeneralGroup_1gaa41eb3965767c764844b297c1e2ec9d2" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>screenToViewport</name></member>

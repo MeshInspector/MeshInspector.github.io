@@ -12837,8 +12837,10 @@
     <member refid="group__GeneralGroup_1ga8c5ec92949f2dab326c76616a704965b" kind="function"><name>constInstance</name></member>
     <member refid="group__GeneralGroup_1ga9bf9b043a95e5fa4bf924a5ee2b799f1" kind="function"><name>constInstanceRef</name></member>
     <member refid="group__GeneralGroup_1gaa212a4873a067a393c79ed06f2d251e0" kind="function"><name>preLaunch</name></member>
+    <member refid="group__GeneralGroup_1ga9dc1034282d54e419b4f0812961f6a52" kind="function"><name>launchShow</name></member>
     <member refid="group__GeneralGroup_1ga6ba524665a123cfc2a7098ea88eecf48" kind="function"><name>launch</name></member>
     <member refid="group__GeneralGroup_1ga9859eebed05121603d979f7c490890ab" kind="function"><name>launchEventLoop</name></member>
+    <member refid="group__GeneralGroup_1gaab7928a3a97d277d7b96b0f019016360" kind="function"><name>runEventLoopIteration</name></member>
     <member refid="group__GeneralGroup_1ga83bd7780adc97eb86fd8c76d8d24f647" kind="function"><name>launchShut</name></member>
     <member refid="group__GeneralGroup_1gadff7849c01677ecd0b34bf909de0b585" kind="function"><name>isPreLaunched</name></member>
     <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" kind="function"><name>isLaunched</name></member>
@@ -16236,7 +16238,9 @@
     <member refid="group__GeneralGroup_1ga9a965773312b3a70aff98af6a8c3edd6" kind="function"><name>guessPrecision</name></member>
     <member refid="group__GeneralGroup_1ga391cf83607d0cd26f7c40e107f63efca" kind="function"><name>valueToImGuiFormatString</name></member>
     <member refid="group__GeneralGroup_1ga4922fa02764d551e9d5c81230bcd87d0" kind="function"><name>valueToImGuiFormatString</name></member>
+    <member refid="group__GeneralGroup_1gacf760e3ba31ad8009635d91e930ce03a" kind="function"><name>protectedLaunchPhase</name></member>
     <member refid="group__GeneralGroup_1gae94a86545f7fb008c49760e3bdab54a1" kind="function"><name>preLaunchDefaultViewer</name></member>
+    <member refid="group__GeneralGroup_1gaa3218690ec87c6e3c4e07d69881a45b2" kind="function"><name>postLaunchDefaultViewer</name></member>
     <member refid="group__GeneralGroup_1gada0c424f2526de3fc5e1e405ddc1fb39" kind="function"><name>launchDefaultViewer</name></member>
     <member refid="group__GeneralGroup_1ga8b214a239776e9c466820912e4449a2f" kind="function"><name>getViewerInstance</name></member>
     <member refid="group__GeneralGroup_1ga3f7389c1f4cd8dac80612df24b155d86" kind="function"><name>incrementForceRedrawFrames</name></member>
@@ -30981,8 +30985,10 @@
     <member refid="group__GeneralGroup_1gad2c8ef31c89b8f6ac98ea4468e6ca19d" kind="function"><name>diagonal</name></member>
     <member refid="group__GeneralGroup_1ga4eb6d9b787cbe2ef20e8a5d38f8de91d" kind="function"><name>parseLaunchParams</name></member>
     <member refid="group__GeneralGroup_1gaa212a4873a067a393c79ed06f2d251e0" kind="function"><name>preLaunch</name></member>
+    <member refid="group__GeneralGroup_1ga9dc1034282d54e419b4f0812961f6a52" kind="function"><name>launchShow</name></member>
     <member refid="group__GeneralGroup_1ga6ba524665a123cfc2a7098ea88eecf48" kind="function"><name>launch</name></member>
     <member refid="group__GeneralGroup_1ga9859eebed05121603d979f7c490890ab" kind="function"><name>launchEventLoop</name></member>
+    <member refid="group__GeneralGroup_1gaab7928a3a97d277d7b96b0f019016360" kind="function"><name>runEventLoopIteration</name></member>
     <member refid="group__GeneralGroup_1ga83bd7780adc97eb86fd8c76d8d24f647" kind="function"><name>launchShut</name></member>
     <member refid="group__GeneralGroup_1gadff7849c01677ecd0b34bf909de0b585" kind="function"><name>isPreLaunched</name></member>
     <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" kind="function"><name>isLaunched</name></member>
@@ -31147,7 +31153,9 @@
     <member refid="group__GeneralGroup_1ga9e767e944f4177c77d7fad6651115629" kind="function"><name>updatePixelRatio_</name></member>
     <member refid="group__GeneralGroup_1ga9f4986149e4c0c760aa7cae4529fcc6a" kind="function"><name>getRequiredMSAA_</name></member>
     <member refid="group__GeneralGroup_1ga7c5d038d6cf456f63ff849a00eaa9b77" kind="function"><name>getFirstAvailableViewportId_</name></member>
+    <member refid="group__GeneralGroup_1gacf760e3ba31ad8009635d91e930ce03a" kind="function"><name>protectedLaunchPhase</name></member>
     <member refid="group__GeneralGroup_1gae94a86545f7fb008c49760e3bdab54a1" kind="function"><name>preLaunchDefaultViewer</name></member>
+    <member refid="group__GeneralGroup_1gaa3218690ec87c6e3c4e07d69881a45b2" kind="function"><name>postLaunchDefaultViewer</name></member>
     <member refid="group__GeneralGroup_1gada0c424f2526de3fc5e1e405ddc1fb39" kind="function"><name>launchDefaultViewer</name></member>
     <member refid="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" kind="function"><name>emplace</name></member>
     <member refid="group__GeneralGroup_1ga78565f4033ddbbe13e5097b3adb33ec2" kind="function"><name>execute</name></member>

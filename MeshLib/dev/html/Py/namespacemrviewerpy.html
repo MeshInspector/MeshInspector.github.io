@@ -515,7 +515,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">Starts the viewer with the given params and setup, and returns once it is up and accepts calls.
 On Windows and Linux the window opens here, and the script keeps running alongside it.
-On macOS the window opens in showViewer() instead; call both from the main thread.
+On macOS the viewer runs on the calling thread, which must be the main one: the window opens in showViewer(), or at the interactive prompt, where it stays live while the interpreter waits for input, in input() too.
 Raises RuntimeError if the viewer could not start (no display, or already launched once in this process).
 </pre> 
 </div>
