@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1OffsetContoursOrigins.html#aa51d8698fb8aff905d9b8e8212ad2ce1":[9,1,0,0,2,669,9],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#aa51d8698fb8aff905d9b8e8212ad2ce1":[9,1,1,0,1,669,9],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#ab804df8043d3435a078f3ed50db2baf8":[9,1,0,0,2,669,4],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#ab804df8043d3435a078f3ed50db2baf8":[9,1,1,0,1,669,4],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#ab966e308d804e37e07a8bd652146deaf":[9,1,0,0,2,669,7],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#ab966e308d804e37e07a8bd652146deaf":[9,1,1,0,1,669,7],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#afc369115bc68b3fbe5eab89ed31cbef9":[9,1,0,0,2,669,14],
+"classmrmeshpy_1_1OffsetContoursOrigins.html#afc369115bc68b3fbe5eab89ed31cbef9":[9,1,1,0,1,669,14],
 "classmrmeshpy_1_1OffsetContoursParams.html":[9,1,0,0,2,670],
 "classmrmeshpy_1_1OffsetContoursParams.html":[9,1,1,0,1,670],
 "classmrmeshpy_1_1OffsetContoursParams.html#a1888c82171c13a7c2334c74f84a4b376":[9,1,0,0,2,670,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1OutAttributesFillingSettings.html#aa846cb3de0814fa91640e877a0c41069":[9,1,0,0,2,679,3],
 "classmrmeshpy_1_1OutAttributesFillingSettings.html#aa846cb3de0814fa91640e877a0c41069":[9,1,1,0,1,679,3],
 "classmrmeshpy_1_1OutAttributesFillingSettings.html#ad4b5d5eecaabd6f81f1b7488ca48b9e3":[9,1,0,0,2,679,4],
-"classmrmeshpy_1_1OutAttributesFillingSettings.html#ad4b5d5eecaabd6f81f1b7488ca48b9e3":[9,1,1,0,1,679,4],
-"classmrmeshpy_1_1OutAttributesFillingSettings.html#afa4100efe7bb4a7263948ec3cbccc2f7":[9,1,0,0,2,679,2],
-"classmrmeshpy_1_1OutAttributesFillingSettings.html#afa4100efe7bb4a7263948ec3cbccc2f7":[9,1,1,0,1,679,2],
-"classmrmeshpy_1_1OutEdge.html":[9,1,0,0,2,680],
-"classmrmeshpy_1_1OutEdge.html":[9,1,1,0,1,680],
-"classmrmeshpy_1_1OutEdge.html#a094b197691f2b6ba588984280fba805f":[9,1,0,0,2,680,7],
-"classmrmeshpy_1_1OutEdge.html#a094b197691f2b6ba588984280fba805f":[9,1,1,0,1,680,7],
-"classmrmeshpy_1_1OutEdge.html#a3656fcb1d48f637c88e0f04fcf27832d":[9,1,0,0,2,680,4],
-"classmrmeshpy_1_1OutEdge.html#a3656fcb1d48f637c88e0f04fcf27832d":[9,1,1,0,1,680,4]
+"classmrmeshpy_1_1OutAttributesFillingSettings.html#ad4b5d5eecaabd6f81f1b7488ca48b9e3":[9,1,1,0,1,679,4]
 };

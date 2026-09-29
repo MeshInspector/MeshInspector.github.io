@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"classMR_1_1Const__IFastWindingNumberByParts.html#aea303205c61fa7127ed84a8884c134db":[9,3,0,0,0,504,1],
 "classMR_1_1Const__IFillContours2DPlanCache.html":[9,3,0,0,0,505],
 "classMR_1_1Const__IFillContours2DPlanCache.html#ac9938acb2149b6388c73cfd34d5f9cfb":[9,3,0,0,0,505,1],
 "classMR_1_1Const__IFillContours2DPlanCache.html#aea72dccd961d59fa75971f954a38bb49":[9,3,0,0,0,505,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "classMR_1_1Const__IntersectionPrecomputes__Double.html#a23107a2843d07f6a107f2678e20adada":[9,3,0,0,0,519,7],
 "classMR_1_1Const__IntersectionPrecomputes__Double.html#a39d18a0b2bb66fec135bd5df02ca05d1":[9,3,0,0,0,519,5],
 "classMR_1_1Const__IntersectionPrecomputes__Double.html#a487d8aaf20155ba44ebef33e2dfb8a8f":[9,3,0,0,0,519,4],
-"classMR_1_1Const__IntersectionPrecomputes__Double.html#a5351ac38ca0bdb6d863867cf49b99527":[9,3,0,0,0,519,14],
-"classMR_1_1Const__IntersectionPrecomputes__Double.html#a6bad938cfd33b83205ad287363c579ba":[9,3,0,0,0,519,15]
+"classMR_1_1Const__IntersectionPrecomputes__Double.html#a5351ac38ca0bdb6d863867cf49b99527":[9,3,0,0,0,519,14]
 };

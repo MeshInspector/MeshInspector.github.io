@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1ConstantCuspParams.html":[9,3,0,0,0,1046],
 "classMR_1_1ConstantCuspParams.html#a01536f453eaad46e6b08e49e61fa7f47":[9,3,0,0,0,1046,10],
 "classMR_1_1ConstantCuspParams.html#a0ad8023530126f87be00add95c98ec97":[9,3,0,0,0,1046,15],
 "classMR_1_1ConstantCuspParams.html#a10758245cc24e7f629659a90a88e42d6":[9,3,0,0,0,1046,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Cuda_1_1DeviceInfo.html#ab35c9dee8495ac2455d6d75f392255fd":[9,3,0,0,0,1122,8,10],
 "classMR_1_1Cuda_1_1DeviceInfo.html#aba5ae83b343db2eeb372973667274531":[9,3,0,0,0,1122,8,3],
 "classMR_1_1Cuda_1_1DeviceInfo.html#ac07825ad78f2c701aebae62cd191f08a":[9,3,0,0,0,1122,8,7],
-"classMR_1_1Cuda_1_1DeviceInfo.html#aeeee0b7998b6a346da8d2b9b690e88a2":[9,3,0,0,0,1122,8,9],
-"classMR_1_1Cuda_1_1DeviceInfo.html#af397eafc978a888df0fb3a95af799086":[9,3,0,0,0,1122,8,2]
+"classMR_1_1Cuda_1_1DeviceInfo.html#aeeee0b7998b6a346da8d2b9b690e88a2":[9,3,0,0,0,1122,8,9]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX143 =
 {
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#adabf4b83ef865c76e81fb931a2d8d120":[9,1,0,0,2,918,14],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#adabf4b83ef865c76e81fb931a2d8d120":[9,1,1,0,1,918,14],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ade9e1d3dfd57e9dc3e24700790f013fa":[9,1,0,0,2,918,5],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ade9e1d3dfd57e9dc3e24700790f013fa":[9,1,1,0,1,918,5],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ae4fbd6cbae666632c560117784e2094d":[9,1,0,0,2,918,6],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ae4fbd6cbae666632c560117784e2094d":[9,1,1,0,1,918,6],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#af0549430333d4abd26523d3e1fea07cd":[9,1,0,0,2,918,13],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#af0549430333d4abd26523d3e1fea07cd":[9,1,1,0,1,918,13],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#af5509ca27d0868be87adeccdef0a6635":[9,1,0,0,2,918,3],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#af5509ca27d0868be87adeccdef0a6635":[9,1,1,0,1,918,3],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html":[9,1,0,0,2,919],
@@ -241,13 +249,5 @@ var NAVTREEINDEX143 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a21fbe23646ceceb87d7b02cc24435e04":[9,1,0,0,2,929,17],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a21fbe23646ceceb87d7b02cc24435e04":[9,1,1,0,1,929,17],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a2bb8467c01280b3944a8c52bc85952e3":[9,1,0,0,2,929,8],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a2bb8467c01280b3944a8c52bc85952e3":[9,1,1,0,1,929,8],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3bd7fa981325cbf961c462b475bee96d":[9,1,0,0,2,929,21],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3bd7fa981325cbf961c462b475bee96d":[9,1,1,0,1,929,21],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3c21db32d6fa88841b399862a30f5964":[9,1,0,0,2,929,18],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a3c21db32d6fa88841b399862a30f5964":[9,1,1,0,1,929,18],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a509d0521127c16b1d983df093cc3cec0":[9,1,0,0,2,929,3],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a509d0521127c16b1d983df093cc3cec0":[9,1,1,0,1,929,3],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a56b703ecb33921a8cdbb9c6b60f0c70c":[9,1,0,0,2,929,23],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a56b703ecb33921a8cdbb9c6b60f0c70c":[9,1,1,0,1,929,23]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a2bb8467c01280b3944a8c52bc85952e3":[9,1,1,0,1,929,8]
 };

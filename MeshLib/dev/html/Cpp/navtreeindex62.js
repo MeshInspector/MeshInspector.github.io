@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Box.html#a2d9fecc0393e456242b1409f8a6a79f9":[9,0,0,0,2,0,18],
+"structMR_1_1Box.html#a30f9aaac8de3e73144319e59e64d5add":[9,0,0,0,2,0,2],
+"structMR_1_1Box.html#a36a72e5786051efa6c3fa7512b00c6c3":[9,0,0,0,2,0,17],
+"structMR_1_1Box.html#a3f06adfa8006bd6000537a4d96e4f66e":[9,0,0,0,2,0,13],
+"structMR_1_1Box.html#a493e21ced874aa010247428e109d524d":[9,0,0,0,2,0,34],
+"structMR_1_1Box.html#a5221795da9f2f569a0ac9fd9a1a5cba4":[9,0,0,0,2,0,20],
 "structMR_1_1Box.html#a58367ea0fa34d4b4d1009044564aded9":[9,0,0,0,2,0,11],
 "structMR_1_1Box.html#a5edd7e58dce05a67482b2c179f6abc6e":[9,0,0,0,2,0,8],
 "structMR_1_1Box.html#a6fa5434776a3bb7b53014edc67295ec8":[9,0,0,0,2,0,16],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1EmbeddedPython_1_1Config.html":[9,0,0,20,90],
 "structMR_1_1EmbeddedStructureParameters.html":[9,0,0,20,216],
 "structMR_1_1EndMillCutter.html":[9,0,0,20,217],
-"structMR_1_1EndMillTool.html":[9,0,0,20,218],
-"structMR_1_1FaceDistancesSettings.html":[9,0,0,20,221],
-"structMR_1_1FaceFace.html":[9,0,0,1,12],
-"structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f":[9,0,0,1,12,2],
-"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,0,0,1,12,1],
-"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,0,0,1,12,0],
-"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[9,0,0,1,12,3]
+"structMR_1_1EndMillTool.html":[9,0,0,20,218]
 };

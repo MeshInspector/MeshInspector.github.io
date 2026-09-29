@@ -167,11 +167,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ga9313e4c55061c6256011bd32a616752e" id="r_ga9313e4c55061c6256011bd32a616752e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga9313e4c55061c6256011bd32a616752e">Heap</a> (size_t <a class="el" href="#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def <a class="el" href="MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a>={}, P pred={})</td></tr>
 <tr class="memdesc:ga9313e4c55061c6256011bd32a616752e"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
 <tr class="memitem:ga26381c3d0e45502caae2e269f988a3f8" id="r_ga26381c3d0e45502caae2e269f988a3f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga26381c3d0e45502caae2e269f988a3f8">Heap</a> (std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt; elms <a class="el" href="MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a>, P pred={})</td></tr>
-<tr class="memdesc:ga26381c3d0e45502caae2e269f988a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled)  <br /></td></tr>
+<tr class="memdesc:ga26381c3d0e45502caae2e269f988a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat, but can have spaces and be arbitrary shuffled)  <br /></td></tr>
 <tr class="memitem:a516d00eb9620f9cdb1f5c43c0810f744" id="r_a516d00eb9620f9cdb1f5c43c0810f744"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516d00eb9620f9cdb1f5c43c0810f744">size</a> () const</td></tr>
 <tr class="memdesc:a516d00eb9620f9cdb1f5c43c0810f744"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size of the heap  <br /></td></tr>
 <tr class="memitem:ga2dc347cff75def29aeb2eaa76f066a84" id="r_ga2dc347cff75def29aeb2eaa76f066a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga2dc347cff75def29aeb2eaa76f066a84">resize</a> (size_t <a class="el" href="#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this)={})</td></tr>
 <tr class="memdesc:ga2dc347cff75def29aeb2eaa76f066a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
+<tr class="memitem:a0ac740ab7260fed70301d4fc4382df2b" id="r_a0ac740ab7260fed70301d4fc4382df2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac740ab7260fed70301d4fc4382df2b">contains</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId) const</td></tr>
+<tr class="memdesc:a0ac740ab7260fed70301d4fc4382df2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given element is present in the heap  <br /></td></tr>
+<tr class="memitem:gafcff97055b50c5542b2c3febf7cfabc7" id="r_gafcff97055b50c5542b2c3febf7cfabc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gafcff97055b50c5542b2c3febf7cfabc7">push</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;val <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="memdesc:gafcff97055b50c5542b2c3febf7cfabc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given element, which is not present in the heap yet  <br /></td></tr>
+<tr class="memitem:gad6fc20606fca8689766c2177661d444a" id="r_gad6fc20606fca8689766c2177661d444a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gad6fc20606fca8689766c2177661d444a">erase</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId)</td></tr>
+<tr class="memdesc:gad6fc20606fca8689766c2177661d444a"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes given element from the heap  <br /></td></tr>
+<tr class="memitem:a1ca44b15db4c797f2411d95c333a5881" id="r_a1ca44b15db4c797f2411d95c333a5881"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ca44b15db4c797f2411d95c333a5881">pop</a> ()</td></tr>
+<tr class="memdesc:a1ca44b15db4c797f2411d95c333a5881"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes the element with the largest value from the heap  <br /></td></tr>
 <tr class="memitem:abb8cd2f765625c9a0997a2cc6ec78e3c" id="r_abb8cd2f765625c9a0997a2cc6ec78e3c"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb8cd2f765625c9a0997a2cc6ec78e3c">value</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId) const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
 <tr class="memdesc:abb8cd2f765625c9a0997a2cc6ec78e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the value associated with given element  <br /></td></tr>
 <tr class="memitem:a1df97b93103894341efd76f393c597fb" id="r_a1df97b93103894341efd76f393c597fb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1df97b93103894341efd76f393c597fb">top</a> () const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
@@ -240,6 +248,35 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="a0ac740ab7260fed70301d4fc4382df2b" name="a0ac740ab7260fed70301d4fc4382df2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ac740ab7260fed70301d4fc4382df2b">&#9670;&#160;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if given element is present in the heap </p>
+
+</div>
+</div>
 <a id="af4f46522c9ccfd4ade826452c287a15d" name="af4f46522c9ccfd4ade826452c287a15d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4f46522c9ccfd4ade826452c287a15d">&#9670;&#160;</a></span>increaseValue()</h2>
 
@@ -270,6 +307,35 @@ template&lt;typename U&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ca44b15db4c797f2411d95c333a5881" name="a1ca44b15db4c797f2411d95c333a5881"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca44b15db4c797f2411d95c333a5881">&#9670;&#160;</a></span>pop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::pop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>removes the element with the largest value from the heap </p>
 
 </div>
 </div>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[9,1,0,0,2,692],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html":[9,1,1,0,1,692],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[9,1,0,0,2,692,1],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a08e812dd11f4f67f1e7a492eeb6d3b97":[9,1,1,0,1,692,1],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a841050a0d23e6a3b56ec8d26a21ba767":[9,1,0,0,2,692,0],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#a841050a0d23e6a3b56ec8d26a21ba767":[9,1,1,0,1,692,0],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[9,1,0,0,2,692,2],
+"classmrmeshpy_1_1PartialChangeMeshPointsAction.html#ae32cd6cc0f2fde9760c71e45ddfd0ef9":[9,1,1,0,1,692,2],
 "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html":[9,1,0,0,2,693],
 "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html":[9,1,1,0,1,693],
 "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html#a3e846d4d4cd0540d260d8c5577dee9ab":[9,1,0,0,2,693,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a6ae640414ba4ba23e3b2c25856a21427":[9,1,0,0,2,696,3,1,2],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a6ae640414ba4ba23e3b2c25856a21427":[9,1,1,0,1,696,3,1,2],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a727ef9cba36e0f66345332a176e54d52":[9,1,0,0,2,696,3,1,5],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a727ef9cba36e0f66345332a176e54d52":[9,1,1,0,1,696,3,1,5],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a958609b18f377e080309217cc089dd2d":[9,1,0,0,2,696,3,1,1],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a958609b18f377e080309217cc089dd2d":[9,1,1,0,1,696,3,1,1],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#aaf579cf2bae2e8b6d3c945cdb04623dc":[9,1,0,0,2,696,3,1,0],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#aaf579cf2bae2e8b6d3c945cdb04623dc":[9,1,1,0,1,696,3,1,0],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#ae4a99b7798edfc3961221fe0541dc54b":[9,1,0,0,2,696,3,1,11],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#ae4a99b7798edfc3961221fe0541dc54b":[9,1,1,0,1,696,3,1,11],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#ae637a5c605d45760b294067e78ca963f":[9,1,0,0,2,696,3,1,10],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#ae637a5c605d45760b294067e78ca963f":[9,1,1,0,1,696,3,1,10]
+"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html#a727ef9cba36e0f66345332a176e54d52":[9,1,1,0,1,696,3,1,5]
 };

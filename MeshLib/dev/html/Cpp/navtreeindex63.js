@@ -1,5 +1,11 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1FaceDistancesSettings.html":[9,0,0,20,221],
+"structMR_1_1FaceFace.html":[9,0,0,1,12],
+"structMR_1_1FaceFace.html#a8c0ae6c21ae275e2d6d66235d4aa4a3f":[9,0,0,1,12,2],
+"structMR_1_1FaceFace.html#a8e856ba4f380bb43a7a4efe0f1dc02bc":[9,0,0,1,12,1],
+"structMR_1_1FaceFace.html#ac3a31b47e7baa47611ea150254a49fe3":[9,0,0,1,12,0],
+"structMR_1_1FaceFace.html#aec8e3edd8159870a77814db603ba8c5d":[9,0,0,1,12,3],
 "structMR_1_1FaceFace.html#aee3dbbcbddd14dd0707a78411581d0fc":[9,0,0,1,12,4],
 "structMR_1_1FaceFaceFace.html":[9,0,0,20,524],
 "structMR_1_1FanRecord.html":[9,0,0,20,324],
@@ -243,11 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[9,0,1,0,1,16,2,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1e95c8b54a2ebd5b21a285d50c85255c":[9,0,2,0,2,7,2,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[9,0,1,0,1,16,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[9,0,2,0,2,7,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[9,0,1,0,1,16,3,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[9,0,2,0,2,7,3,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,1,0,1,16,3,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,2,0,2,7,3,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,1,0,1,16,3,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,2,0,2,7,3,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html":[9,0,2,0,2,7,3]
 };

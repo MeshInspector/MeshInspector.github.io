@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[9,0,1,0,1,16,3,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2":[9,0,2,0,2,7,3,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,1,0,1,16,3,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a64963bd2f3582a91eab34d7a28323d5f":[9,0,2,0,2,7,3,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,1,0,1,16,3,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#aea62b88f0b395d2c8a051864f80e62f9":[9,0,2,0,2,7,3,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,1,0,1,16,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[9,0,2,0,2,7,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a410882924f1531864aeae4b56402feca":[9,0,1,0,1,16,4,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1IntersectionPrecomputes.html#a18e2b9f640d3aab9e4db07a72514384b":[9,0,0,20,356,6],
 "structMR_1_1IntersectionPrecomputes.html#a1e89bb11cf7c4693e1c8839963994a08":[9,0,0,1,15,3],
 "structMR_1_1IntersectionPrecomputes.html#a1e89bb11cf7c4693e1c8839963994a08":[9,0,0,20,356,3],
-"structMR_1_1IntersectionPrecomputes.html#a20bce157ca3d8b30509d233be68639ec":[9,0,0,1,15,4],
-"structMR_1_1IntersectionPrecomputes.html#a20bce157ca3d8b30509d233be68639ec":[9,0,0,20,356,4],
-"structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c":[9,0,0,1,15,7],
-"structMR_1_1IntersectionPrecomputes.html#a21465bc7d67177777744f39ac171940c":[9,0,0,20,356,7],
-"structMR_1_1IntersectionPrecomputes.html#a59240ce19dcf5b27221a347b22086fcb":[9,0,0,1,15,2],
-"structMR_1_1IntersectionPrecomputes.html#a59240ce19dcf5b27221a347b22086fcb":[9,0,0,20,356,2],
-"structMR_1_1IntersectionPrecomputes.html#a6159c869b0afc38ccf26091c1681194a":[9,0,0,1,15,9]
+"structMR_1_1IntersectionPrecomputes.html#a20bce157ca3d8b30509d233be68639ec":[9,0,0,1,15,4]
 };

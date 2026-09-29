@@ -1,5 +1,13 @@
 var NAVTREEINDEX65 =
 {
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a982e38e876ecac7e2dce4935075ba73a":[9,1,0,0,2,662,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a982e38e876ecac7e2dce4935075ba73a":[9,1,1,0,1,662,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[9,1,0,0,2,663],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[9,1,1,0,1,663],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[9,1,0,0,2,663,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a11ff753c64cb35360a415b7b1223d39a":[9,1,1,0,1,663,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[9,1,0,0,2,663,0],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[9,1,0,0,2,663,2],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[9,1,1,0,1,663,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html#a896f44cfefedf48a251effb47eb4950d":[9,1,1,0,1,663,2],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere.html":[9,1,0,0,2,664],
@@ -241,13 +249,5 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1ObjectChildrenHolder.html":[9,1,0,0,2,639],
 "classmrmeshpy_1_1ObjectChildrenHolder.html":[9,1,1,0,1,639],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#a3332f9201f8c94be7db95e783a040abe":[9,1,0,0,2,639,0],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#a3332f9201f8c94be7db95e783a040abe":[9,1,1,0,1,639,0],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[9,1,0,0,2,639,2],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[9,1,1,0,1,639,2],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[9,1,0,0,2,639,3],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[9,1,1,0,1,639,3],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[9,1,0,0,2,639,1],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ac97a060b78892936b6a0c4bd86dae0ca":[9,1,1,0,1,639,1],
-"classmrmeshpy_1_1ObjectComparableWithReference.html":[9,1,0,0,2,640],
-"classmrmeshpy_1_1ObjectComparableWithReference.html":[9,1,1,0,1,640]
+"classmrmeshpy_1_1ObjectChildrenHolder.html#a3332f9201f8c94be7db95e783a040abe":[9,1,1,0,1,639,0]
 };

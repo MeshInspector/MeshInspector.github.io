@@ -5,6 +5,7 @@
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
     <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +16,8 @@
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
@@ -61,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="13" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="14" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" prot="public" static="no">
         <type>struct <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref></type>
@@ -75,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="18" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="19" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" prot="public" static="no">
         <type>struct <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref></type>
@@ -90,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="28" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" bodystart="28" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="29" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -109,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="34" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="34" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="35" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="35" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a0ab556f115ee110a5f28f855c6fe8b6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -127,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="39" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="39" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="40" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="40" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1acf0d2690da37ae2289f61914e03c19da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -149,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="43" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="43" declcolumn="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="44" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="44" declcolumn="62"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a76c9698321926648359804ec1d916330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -171,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="47" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="47" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="48" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="48" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1ae70abf6a64c43afdf838f6de9ca155c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -193,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="52" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="52" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="53" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="53" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a918083f34c8e0d65fedf6ae17d58c440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -215,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="58" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="58" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="59" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="59" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1ab647ca25d11679beff409330048ea912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -233,11 +236,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>constructs heap from given elements (id&apos;s shall not repeat and have spaces, but can be arbitrary shuffled) Generated from constructor <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Heap</computeroutput>. The reference to things referred to by the parameter <computeroutput>elms</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>constructs heap from given elements (id&apos;s shall not repeat, but can have spaces and be arbitrary shuffled) Generated from constructor <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::Heap</computeroutput>. The reference to things referred to by the parameter <computeroutput>elms</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="64" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="64" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="65" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="65" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -255,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="67" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="68" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a9173fc97e4c983c70cc487bea7ccf1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -273,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="70" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="71" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a4120d4d406026c91bc45a95ea811a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
@@ -299,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="77" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="77" declcolumn="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="78" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="78" declcolumn="56"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a43d0d9a4e0cb0e038dd706411501f116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
@@ -317,7 +320,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="82" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="82" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="83" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="83" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1affb21ef02391fa0fed14d27b01964800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -343,7 +346,95 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="88" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="89" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHeap_8h_1abcce8bd669087c293010454308fd6e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_Heap_float_MR_GraphVertId_std_greater_float_contains</definition>
+        <argsstring>(const MR_Heap_float_MR_GraphVertId_std_greater_float *_this, MR_GraphVertId elemId)</argsstring>
+        <name>MR_Heap_float_MR_GraphVertId_std_greater_float_contains</name>
+        <param>
+          <type>const <ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given element is present in the heap Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::contains</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHeap_8h_1abe3608eea065e91c0bf0e588938005c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Heap_float_MR_GraphVertId_std_greater_float_push</definition>
+        <argsstring>(MR_Heap_float_MR_GraphVertId_std_greater_float *_this, MR_GraphVertId elemId, const float *val)</argsstring>
+        <name>MR_Heap_float_MR_GraphVertId_std_greater_float_push</name>
+        <param>
+          <type><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds given element, which is not present in the heap yet Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::push</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>val</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>val</computeroutput> (if any) might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="101" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHeap_8h_1aed723d2f856f837c489f1f1ae78c8fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Heap_float_MR_GraphVertId_std_greater_float_erase</definition>
+        <argsstring>(MR_Heap_float_MR_GraphVertId_std_greater_float *_this, MR_GraphVertId elemId)</argsstring>
+        <name>MR_Heap_float_MR_GraphVertId_std_greater_float_erase</name>
+        <param>
+          <type><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes given element from the heap Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::erase</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="106" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHeap_8h_1af63df1055b73f2c08422a986e5d51164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Heap_float_MR_GraphVertId_std_greater_float_pop</definition>
+        <argsstring>(MR_Heap_float_MR_GraphVertId_std_greater_float *_this)</argsstring>
+        <name>MR_Heap_float_MR_GraphVertId_std_greater_float_pop</name>
+        <param>
+          <type><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removes the element with the largest value from the heap Generated from method <computeroutput>MR::Heap&lt;float, MR::GraphVertId, std::greater&lt;float&gt;&gt;::pop</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="111" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1ad5bdefa257263fc5326fefcfd83aa885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -365,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="95" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="118" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="118" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a9e64e8baadc2eeb41892c35c2fdaa9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -383,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="102" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="102" declcolumn="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="125" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="125" declcolumn="70"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a6e640d2cdea77a5000e59e3d982f7db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -409,7 +500,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="109" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="132" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1ab33640bbab1d656789ddd419cd08a49c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -435,7 +526,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="116" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a9ffa05d25430d3b8812f7fdded226827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -461,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="145" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a9967f7fd20c1207454e61400c7ea3ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -483,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="130" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="130" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="153" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="153" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1ab1b590334081f6d1f3d7305c7bc43f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref> *</type>
@@ -501,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="136" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="136" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="159" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="159" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a053c8d6dd8159b686be1cc342b24d9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -523,7 +614,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="142" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="165" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a479795d83afe777d48b8c01d852cdd89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref> *</type>
@@ -541,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="148" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="148" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="171" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="171" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1adec62b28b54242fe9b2cd8946ef69ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
@@ -559,7 +650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="154" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="154" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="177" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="177" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a5177332517b924403193e8766f66f31e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -581,7 +672,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="159" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="182" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a37497454ba92512130cfb312137bf0a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
@@ -599,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="165" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="165" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="188" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="188" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a12f440d130fd301b13c0d76154df0066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -616,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="169" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="169" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="192" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="192" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a582eae355300740556fce4d3cabff1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -634,7 +725,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="174" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="174" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="197" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="197" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a1227e8885c01e64f2f6de962ec7306b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -656,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="180" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="180" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="203" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="203" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a888ff6279fae61a1ddd2d833330ecfff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -678,7 +769,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="184" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="184" declcolumn="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="207" column="70" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="207" declcolumn="70"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a6a0cfbbbc4dd495792e90e502633da78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -700,7 +791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="188" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="188" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="211" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="211" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1aff5360a24552b331f81f219a7de32211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -718,7 +809,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="194" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="194" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="217" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="217" declcolumn="64"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -736,7 +827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="197" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="220" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1a17d3b9c75780d3cd38807594bcf3b4af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -754,7 +845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="200" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="223" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="223" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRHeap_8h_1aa95af8097da449ccee44f7a19667e767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref> *</type>
@@ -776,7 +867,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="208" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="208" declcolumn="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" line="231" column="64" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h" declline="231" declcolumn="64"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -790,88 +881,97 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" kindref="member">MR_std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/><ref refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" kindref="member">MR_std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" kindref="member">MR_std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/><ref refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" kindref="member">MR_std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref>;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref>;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRHeap_8h_1a61dc13a97bd9c7e61deb870ddfe0789f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a61dc13a97bd9c7e61deb870ddfe0789f" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRHeap_8h_1a0ab556f115ee110a5f28f855c6fe8b6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a0ab556f115ee110a5f28f855c6fe8b6b" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRHeap_8h_1acf0d2690da37ae2289f61914e03c19da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1acf0d2690da37ae2289f61914e03c19da" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRHeap_8h_1a76c9698321926648359804ec1d916330" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a76c9698321926648359804ec1d916330" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_OffsetMutablePtr</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRHeap_8h_1ae70abf6a64c43afdf838f6de9ca155c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1ae70abf6a64c43afdf838f6de9ca155c2" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRHeap_8h_1a918083f34c8e0d65fedf6ae17d58c440" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a918083f34c8e0d65fedf6ae17d58c440" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_3</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*def);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRHeap_8h_1ab647ca25d11679beff409330048ea912" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1ab647ca25d11679beff409330048ea912" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_2</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>elms_pass_by,<sp/><ref refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" kindref="member">MR_std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*elms);</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRHeap_8h_1a9173fc97e4c983c70cc487bea7ccf1b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a9173fc97e4c983c70cc487bea7ccf1b8" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRHeap_8h_1a4120d4d406026c91bc45a95ea811a644" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a4120d4d406026c91bc45a95ea811a644" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_AssignFromAnother</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRHeap_8h_1a43d0d9a4e0cb0e038dd706411501f116" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a43d0d9a4e0cb0e038dd706411501f116" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRHeap_8h_1affb21ef02391fa0fed14d27b01964800" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1affb21ef02391fa0fed14d27b01964800" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_resize</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*def);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRHeap_8h_1ad5bdefa257263fc5326fefcfd83aa885" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRHeap_8h_1ad5bdefa257263fc5326fefcfd83aa885" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRHeap_8h_1a9e64e8baadc2eeb41892c35c2fdaa9f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a9e64e8baadc2eeb41892c35c2fdaa9f0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_top</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRHeap_8h_1a6e640d2cdea77a5000e59e3d982f7db6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e640d2cdea77a5000e59e3d982f7db6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRHeap_8h_1ab33640bbab1d656789ddd419cd08a49c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1ab33640bbab1d656789ddd419cd08a49c" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setLargerValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRHeap_8h_1a9ffa05d25430d3b8812f7fdded226827" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a9ffa05d25430d3b8812f7fdded226827" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setSmallerValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRHeap_8h_1a9967f7fd20c1207454e61400c7ea3ac3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a9967f7fd20c1207454e61400c7ea3ac3" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setTopValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRHeap_8h_1ab1b590334081f6d1f3d7305c7bc43f8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRHeap_8h_1ab1b590334081f6d1f3d7305c7bc43f8a" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRHeap_8h_1a053c8d6dd8159b686be1cc342b24d9ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a053c8d6dd8159b686be1cc342b24d9ac" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Set_id</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRHeap_8h_1a479795d83afe777d48b8c01d852cdd89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRHeap_8h_1a479795d83afe777d48b8c01d852cdd89" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_GetMutable_id</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRHeap_8h_1adec62b28b54242fe9b2cd8946ef69ce2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRHeap_8h_1adec62b28b54242fe9b2cd8946ef69ce2" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Get_val</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRHeap_8h_1a5177332517b924403193e8766f66f31e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a5177332517b924403193e8766f66f31e" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Set_val</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRHeap_8h_1a61dc13a97bd9c7e61deb870ddfe0789f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a61dc13a97bd9c7e61deb870ddfe0789f" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_1</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRHeap_8h_1a0ab556f115ee110a5f28f855c6fe8b6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a0ab556f115ee110a5f28f855c6fe8b6b" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRHeap_8h_1acf0d2690da37ae2289f61914e03c19da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1acf0d2690da37ae2289f61914e03c19da" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRHeap_8h_1a76c9698321926648359804ec1d916330" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a76c9698321926648359804ec1d916330" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_OffsetMutablePtr</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRHeap_8h_1ae70abf6a64c43afdf838f6de9ca155c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1ae70abf6a64c43afdf838f6de9ca155c2" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRHeap_8h_1a918083f34c8e0d65fedf6ae17d58c440" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a918083f34c8e0d65fedf6ae17d58c440" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_3</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*def);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRHeap_8h_1ab647ca25d11679beff409330048ea912" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1ab647ca25d11679beff409330048ea912" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_2</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>elms_pass_by,<sp/><ref refid="MRHeap_8h_1a9da5c0967c721c3994a6a871f7ef3d42" kindref="member">MR_std_vector_MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*elms);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1ac76373de44027d52a93e521288336fa9" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRHeap_8h_1a9173fc97e4c983c70cc487bea7ccf1b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a9173fc97e4c983c70cc487bea7ccf1b8" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRHeap_8h_1a4120d4d406026c91bc45a95ea811a644" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*<ref refid="MRHeap_8h_1a4120d4d406026c91bc45a95ea811a644" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_AssignFromAnother</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRHeap_8h_1a43d0d9a4e0cb0e038dd706411501f116" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a43d0d9a4e0cb0e038dd706411501f116" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRHeap_8h_1affb21ef02391fa0fed14d27b01964800" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1affb21ef02391fa0fed14d27b01964800" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_resize</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*def);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRHeap_8h_1abcce8bd669087c293010454308fd6e42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1abcce8bd669087c293010454308fd6e42" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRHeap_8h_1abe3608eea065e91c0bf0e588938005c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1abe3608eea065e91c0bf0e588938005c7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_push</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*val);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRHeap_8h_1aed723d2f856f837c489f1f1ae78c8fd0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1aed723d2f856f837c489f1f1ae78c8fd0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_erase</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRHeap_8h_1af63df1055b73f2c08422a986e5d51164" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1af63df1055b73f2c08422a986e5d51164" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_pop</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRHeap_8h_1ad5bdefa257263fc5326fefcfd83aa885" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRHeap_8h_1ad5bdefa257263fc5326fefcfd83aa885" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRHeap_8h_1a9e64e8baadc2eeb41892c35c2fdaa9f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a9e64e8baadc2eeb41892c35c2fdaa9f0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_top</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRHeap_8h_1a6e640d2cdea77a5000e59e3d982f7db6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a6e640d2cdea77a5000e59e3d982f7db6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRHeap_8h_1ab33640bbab1d656789ddd419cd08a49c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1ab33640bbab1d656789ddd419cd08a49c" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setLargerValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRHeap_8h_1a9ffa05d25430d3b8812f7fdded226827" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a9ffa05d25430d3b8812f7fdded226827" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setSmallerValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>elemId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRHeap_8h_1a9967f7fd20c1207454e61400c7ea3ac3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a9967f7fd20c1207454e61400c7ea3ac3" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_setTopValue</ref>(<ref refid="MRHeap_8h_1a6e7160b38922b7924a340a66c3bd96b0" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*newVal);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRHeap_8h_1ab1b590334081f6d1f3d7305c7bc43f8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRHeap_8h_1ab1b590334081f6d1f3d7305c7bc43f8a" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Get_id</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRHeap_8h_1a37497454ba92512130cfb312137bf0a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRHeap_8h_1a37497454ba92512130cfb312137bf0a1" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_GetMutable_val</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="165" refid="MRHeap_8h_1a053c8d6dd8159b686be1cc342b24d9ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a053c8d6dd8159b686be1cc342b24d9ac" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Set_id</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this,<sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRHeap_8h_1a12f440d130fd301b13c0d76154df0066" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a12f440d130fd301b13c0d76154df0066" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRHeap_8h_1a582eae355300740556fce4d3cabff1ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a582eae355300740556fce4d3cabff1ec" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRHeap_8h_1a1227e8885c01e64f2f6de962ec7306b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a1227e8885c01e64f2f6de962ec7306b6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_ConstructFrom</ref>(<ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRHeap_8h_1a888ff6279fae61a1ddd2d833330ecfff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a888ff6279fae61a1ddd2d833330ecfff" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRHeap_8h_1a6a0cfbbbc4dd495792e90e502633da78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a6a0cfbbbc4dd495792e90e502633da78" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_OffsetMutablePtr</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="171" refid="MRHeap_8h_1a479795d83afe777d48b8c01d852cdd89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/>*<ref refid="MRHeap_8h_1a479795d83afe777d48b8c01d852cdd89" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_GetMutable_id</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRHeap_8h_1adec62b28b54242fe9b2cd8946ef69ce2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRHeap_8h_1adec62b28b54242fe9b2cd8946ef69ce2" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Get_val</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRHeap_8h_1a5177332517b924403193e8766f66f31e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a5177332517b924403193e8766f66f31e" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Set_val</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRHeap_8h_1a37497454ba92512130cfb312137bf0a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRHeap_8h_1a37497454ba92512130cfb312137bf0a1" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_GetMutable_val</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRHeap_8h_1aff5360a24552b331f81f219a7de32211" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1aff5360a24552b331f81f219a7de32211" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192" refid="MRHeap_8h_1a12f440d130fd301b13c0d76154df0066" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a12f440d130fd301b13c0d76154df0066" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRHeap_8h_1a582eae355300740556fce4d3cabff1ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a582eae355300740556fce4d3cabff1ec" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRHeap_8h_1a17d3b9c75780d3cd38807594bcf3b4af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a17d3b9c75780d3cd38807594bcf3b4af" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRHeap_8h_1aa95af8097da449ccee44f7a19667e767" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1aa95af8097da449ccee44f7a19667e767" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_AssignFromAnother</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="203" refid="MRHeap_8h_1a1227e8885c01e64f2f6de962ec7306b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a1227e8885c01e64f2f6de962ec7306b6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_ConstructFrom</ref>(<ref refid="structMR__GraphVertId" kindref="compound">MR_GraphVertId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRHeap_8h_1a888ff6279fae61a1ddd2d833330ecfff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a888ff6279fae61a1ddd2d833330ecfff" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="MRHeap_8h_1a6a0cfbbbc4dd495792e90e502633da78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1a6a0cfbbbc4dd495792e90e502633da78" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_OffsetMutablePtr</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRHeap_8h_1aff5360a24552b331f81f219a7de32211" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1aff5360a24552b331f81f219a7de32211" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1adce8a8a4771709dba628122118ab6db6" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="MRHeap_8h_1a17d3b9c75780d3cd38807594bcf3b4af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a17d3b9c75780d3cd38807594bcf3b4af" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRHeap_8h_1aa95af8097da449ccee44f7a19667e767" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*<ref refid="MRHeap_8h_1aa95af8097da449ccee44f7a19667e767" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element_AssignFromAnother</ref>(<ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHeap_8h_1a2c765f0454ed6e3d669a560928f37cd7" kindref="member">MR_Heap_float_MR_GraphVertId_std_greater_float_Element</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHeap.h"/>
   </compounddef>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX145 =
 {
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#ace9fbee8cc18f1ab9fc8984b2247f06c":[9,2,2,0,0,0,0,2,164,14],
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#af54cec91b551c4ef29aa8ad6de82c6f9":[9,2,2,0,0,0,0,2,164,5],
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#afdec7ddf3cc07782a7a5f3b11de9866c":[9,2,2,0,0,0,0,2,164,3],
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h_source.html":[9,2,2,0,0,0,0,2,164],
 "std__function__MR__Vector3f__from__MR__VertId_8h.html":[9,2,2,0,0,0,0,2,167],
 "std__function__MR__Vector3f__from__MR__VertId_8h.html#a0732c56c9f69346cdb9e1b780c18de2e":[9,2,2,0,0,0,0,2,167,6],
 "std__function__MR__Vector3f__from__MR__VertId_8h.html#a0bdae8f194b607c496d6427f62874e55":[9,2,2,0,0,0,0,2,167,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX145 =
 "std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a43116c004ede2bcf88316e66e6718ebd":[9,2,2,0,0,0,0,2,120,14],
 "std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a4829fa741f382c5c2ab6242c9b835d97":[9,2,2,0,0,0,0,2,120,11],
 "std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a59df8a118f1511ab31b6fd8ef9e139eb":[9,2,2,0,0,0,0,2,120,5],
-"std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a5b4bebbcd09595860bf84ae6b570f3de":[9,2,2,0,0,0,0,2,120,10],
-"std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a65a9b54da955e7a53cb369b7a68cda77":[9,2,2,0,0,0,0,2,120,8],
-"std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a77284f5366c684503cda7d0fa286ad0a":[9,2,2,0,0,0,0,2,120,3],
-"std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#aa0d5d973d4539598a5c412df4707722e":[9,2,2,0,0,0,0,2,120,1],
-"std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#aa2a10e1c75573c99bf44962413780e62":[9,2,2,0,0,0,0,2,120,2]
+"std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h.html#a5b4bebbcd09595860bf84ae6b570f3de":[9,2,2,0,0,0,0,2,120,10]
 };

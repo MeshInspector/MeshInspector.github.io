@@ -356,9 +356,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9313e4c55061c6256011bd32a616752e" id="r_ga9313e4c55061c6256011bd32a616752e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9313e4c55061c6256011bd32a616752e">MR::Heap&lt; T, I, P &gt;::Heap</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def <a class="el" href="MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a>={}, P pred={})</td></tr>
 <tr class="memdesc:ga9313e4c55061c6256011bd32a616752e"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap for given number of elements, assigning given default value to each element  <br /></td></tr>
 <tr class="memitem:ga26381c3d0e45502caae2e269f988a3f8" id="r_ga26381c3d0e45502caae2e269f988a3f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga26381c3d0e45502caae2e269f988a3f8">MR::Heap&lt; T, I, P &gt;::Heap</a> (std::vector&lt; <a class="el" href="structMR_1_1Heap_1_1Element.html">Element</a> &gt; elms <a class="el" href="MRMacros_8h.html#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a>, P pred={})</td></tr>
-<tr class="memdesc:ga26381c3d0e45502caae2e269f988a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled)  <br /></td></tr>
+<tr class="memdesc:ga26381c3d0e45502caae2e269f988a3f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs heap from given elements (id's shall not repeat, but can have spaces and be arbitrary shuffled)  <br /></td></tr>
 <tr class="memitem:ga2dc347cff75def29aeb2eaa76f066a84" id="r_ga2dc347cff75def29aeb2eaa76f066a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2dc347cff75def29aeb2eaa76f066a84">MR::Heap&lt; T, I, P &gt;::resize</a> (size_t <a class="el" href="classMR_1_1Heap.html#a516d00eb9620f9cdb1f5c43c0810f744">size</a>, T def <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this)={})</td></tr>
 <tr class="memdesc:ga2dc347cff75def29aeb2eaa76f066a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">increases the size of the heap by adding elements at the end  <br /></td></tr>
+<tr class="memitem:gafcff97055b50c5542b2c3febf7cfabc7" id="r_gafcff97055b50c5542b2c3febf7cfabc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafcff97055b50c5542b2c3febf7cfabc7">MR::Heap&lt; T, I, P &gt;::push</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;val <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
+<tr class="memdesc:gafcff97055b50c5542b2c3febf7cfabc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds given element, which is not present in the heap yet  <br /></td></tr>
+<tr class="memitem:gad6fc20606fca8689766c2177661d444a" id="r_gad6fc20606fca8689766c2177661d444a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6fc20606fca8689766c2177661d444a">MR::Heap&lt; T, I, P &gt;::erase</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId)</td></tr>
+<tr class="memdesc:gad6fc20606fca8689766c2177661d444a"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes given element from the heap  <br /></td></tr>
 <tr class="memitem:ga113ac866225ab4355eef002299a93671" id="r_ga113ac866225ab4355eef002299a93671"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga113ac866225ab4355eef002299a93671">MR::Heap&lt; T, I, P &gt;::setValue</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
 <tr class="memdesc:ga113ac866225ab4355eef002299a93671"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets new value to given element  <br /></td></tr>
 <tr class="memitem:ga63073f7e258e45cf224a470df850692a" id="r_ga63073f7e258e45cf224a470df850692a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga63073f7e258e45cf224a470df850692a">MR::Heap&lt; T, I, P &gt;::setLargerValue</a> (<a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a> elemId, const T &amp;newVal <a class="el" href="MRMacros_8h.html#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(this))</td></tr>
@@ -1080,6 +1084,29 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
 
 </div>
 </div>
+<a id="gad6fc20606fca8689766c2177661d444a" name="gad6fc20606fca8689766c2177661d444a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad6fc20606fca8689766c2177661d444a">&#9670;&#160;</a></span>erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRHeap_8h.html">MRMesh/MRHeap.h</a>&gt;</code></p>
+
+<p>removes given element from the heap </p>
+
+</div>
+</div>
 <a id="gace9f90469164cb307af85f02d5249dc9" name="gace9f90469164cb307af85f02d5249dc9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gace9f90469164cb307af85f02d5249dc9">&#9670;&#160;</a></span>faceMapsComposition() <span class="overload">[1/2]</span></h2>
 
@@ -1435,7 +1462,7 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 <p><code>#include &lt;<a class="el" href="MRHeap_8h.html">MRMesh/MRHeap.h</a>&gt;</code></p>
 
-<p>constructs heap from given elements (id's shall not repeat and have spaces, but can be arbitrary shuffled) </p>
+<p>constructs heap from given elements (id's shall not repeat, but can have spaces and be arbitrary shuffled) </p>
 
 </div>
 </div>
@@ -2867,6 +2894,33 @@ template&lt;typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="gafcff97055b50c5542b2c3febf7cfabc7" name="gafcff97055b50c5542b2c3febf7cfabc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcff97055b50c5542b2c3febf7cfabc7">&#9670;&#160;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, typename P = std::less&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classMR_1_1Heap.html">MR::Heap</a>&lt; T, <a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a>, P &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga7d89e508205d25559adcd087abfcd43a">I</a></td>          <td class="paramname"><span class="paramname"><em>elemId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;val </td>          <td class="paramname"><span class="paramname"><em>MR_LIFETIME_CAPTURE_BY_NESTED</em></span>this&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRHeap_8h.html">MRMesh/MRHeap.h</a>&gt;</code></p>
+
+<p>adds given element, which is not present in the heap yet </p>
 
 </div>
 </div>

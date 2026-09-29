@@ -4042,6 +4042,7 @@
   </compound>
   <compound refid="classMR_1_1Heap" kind="class"><name>MR::Heap</name>
     <member refid="classMR_1_1Heap_1afce981f39032a6f40b99a866d858b959" kind="typedef"><name>SizeType</name></member>
+    <member refid="classMR_1_1Heap_1aa745f55699414d12ff2caecbf4097e60" kind="variable"><name>InvalidPos</name></member>
     <member refid="classMR_1_1Heap_1aeae6302fc85941aabe1b0162258851b4" kind="variable"><name>heap_</name></member>
     <member refid="classMR_1_1Heap_1a9f4ee44e992da521079e3ea4a5d2d5b8" kind="variable"><name>id2PosInHeap_</name></member>
     <member refid="classMR_1_1Heap_1a1a9506e21e2b8f84d7c4f23873e5fe8b" kind="variable"><name>pred_</name></member>
@@ -4050,6 +4051,10 @@
     <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" kind="function"><name>Heap</name></member>
     <member refid="classMR_1_1Heap_1a516d00eb9620f9cdb1f5c43c0810f744" kind="function"><name>size</name></member>
     <member refid="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Heap_1a0ac740ab7260fed70301d4fc4382df2b" kind="function"><name>contains</name></member>
+    <member refid="group__BasicGroup_1gafcff97055b50c5542b2c3febf7cfabc7" kind="function"><name>push</name></member>
+    <member refid="group__BasicGroup_1gad6fc20606fca8689766c2177661d444a" kind="function"><name>erase</name></member>
+    <member refid="classMR_1_1Heap_1a1ca44b15db4c797f2411d95c333a5881" kind="function"><name>pop</name></member>
     <member refid="classMR_1_1Heap_1abb8cd2f765625c9a0997a2cc6ec78e3c" kind="function"><name>value</name></member>
     <member refid="classMR_1_1Heap_1a1df97b93103894341efd76f393c597fb" kind="function"><name>top</name></member>
     <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" kind="function"><name>setValue</name></member>
@@ -19345,6 +19350,8 @@
     <member refid="group__BasicGroup_1ga9313e4c55061c6256011bd32a616752e" kind="function"><name>Heap</name></member>
     <member refid="group__BasicGroup_1ga26381c3d0e45502caae2e269f988a3f8" kind="function"><name>Heap</name></member>
     <member refid="group__BasicGroup_1ga2dc347cff75def29aeb2eaa76f066a84" kind="function"><name>resize</name></member>
+    <member refid="group__BasicGroup_1gafcff97055b50c5542b2c3febf7cfabc7" kind="function"><name>push</name></member>
+    <member refid="group__BasicGroup_1gad6fc20606fca8689766c2177661d444a" kind="function"><name>erase</name></member>
     <member refid="group__BasicGroup_1ga113ac866225ab4355eef002299a93671" kind="function"><name>setValue</name></member>
     <member refid="group__BasicGroup_1ga63073f7e258e45cf224a470df850692a" kind="function"><name>setLargerValue</name></member>
     <member refid="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" kind="function"><name>lift_</name></member>

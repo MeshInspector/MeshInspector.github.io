@@ -16746,6 +16746,7 @@
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1abc17c50628133e345ac0f5f8fea434e0" kind="function"><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1af780cde48b26945ece7c69ba1d192fc3" kind="function"><name>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1ac5e6ec042fb58668e67d29d3ec65b927" kind="function"><name>size</name></member>
+    <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a7097bc9fd4b611b0fab99d94e86ea16a" kind="function"><name>contains</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1aa506837b8982aa9de1870d8f40d7fb4a" kind="function"><name>value</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a631c80c1f9058c0902b86d05f1b1c417" kind="function"><name>top</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a73f52d4e315a584a11e688152491758d" kind="function"><name>~Const_Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
@@ -16756,6 +16757,7 @@
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a30bd2cbcc524b0d91ce0cdd408440a3e" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_2</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a1dc54e14bb63c8ab3b4c1e88ee0ef061" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_3</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1abce5c71d030b90bde185c761ab382d7f" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_Destroy</name></member>
+    <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1ae2810802efbbd0d47fbee99893b859c9" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_contains</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1ab10978de8c028327c76383d6c7d16bbb" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_size</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1ad96b9960c84a0d634f61b3e96c9129bd" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_top</name></member>
     <member refid="classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1a0ad86be42945aad9567aebdddd04c095" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_value</name></member>
@@ -46797,6 +46799,9 @@
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1b1edd51b751dd94363c7f90f103051a" kind="function"><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1bf79a3e6fdb5d1bab89764e02ff3e94" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a291db982544b03dbb8de013a38c942d1" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aad87bde2be4463661ba6028302c50bb6" kind="function"><name>push</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a4647345aec8f00a8fb2a4c9feb0a29ff" kind="function"><name>erase</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1abf9e6577d20f416e9c4c49722a2046ce" kind="function"><name>pop</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a2f15fddffebfcabd5d14d0365bbf70f4" kind="function"><name>setValue</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" kind="function"><name>setLargerValue</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" kind="function"><name>setSmallerValue</name></member>
@@ -46807,6 +46812,9 @@
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae242c4fe790262ec1c04f160690b1607" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_1</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aeedf16b29b57521448f9a23ff4828910" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_2</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aa1965ab8cbbfc3de9e823387a3d062ae" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_Construct_3</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aafd52413aebe3f468ceaa164853e4aea" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_erase</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab2b7408568d00be620fc4bc0ec2d9c21" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_pop</name></member>
+    <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a4e2dafb0230cd7e78708203a7a78e852" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_push</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab13a0e8447ee434527699248f4ccd66e" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_resize</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a53bb1b7947a13fc957e71c4cfb130d39" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_setLargerValue</name></member>
     <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a40d219adf37f1c8f37beffcef4a9871f" kind="function"><name>__MR_Heap_float_MR_GraphVertId_std_greater_float_setSmallerValue</name></member>

@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MultiwayICPSamplingParameters.html":[9,0,0,20,386],
+"structMR_1_1MutexOwner.html":[9,0,0,20,388],
+"structMR_1_1NameTagClickListener.html":[9,0,0,20,608],
+"structMR_1_1Nesting_1_1BoxNestingCorner.html":[9,0,0,20,134],
+"structMR_1_1Nesting_1_1BoxNestingOptions.html":[9,0,0,20,136],
+"structMR_1_1Nesting_1_1BoxNestingParams.html":[9,0,0,20,137],
 "structMR_1_1Nesting_1_1MeshXf.html":[9,0,0,20,390],
 "structMR_1_1Nesting_1_1Nesting3mfParams.html":[9,0,0,20,94],
 "structMR_1_1Nesting_1_1NestingBaseParams.html":[9,0,0,20,391],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PositionVertsSmoothlyParams.html":[9,0,0,20,465],
 "structMR_1_1PositionedText.html":[9,0,0,20,464],
 "structMR_1_1PostDrawListener.html":[9,0,0,20,803],
-"structMR_1_1PostFocusListener.html":[9,0,0,20,825],
-"structMR_1_1PostRescaleListener.html":[9,0,0,20,809],
-"structMR_1_1PostResizeListener.html":[9,0,0,20,807],
-"structMR_1_1PreDrawListener.html":[9,0,0,20,801],
-"structMR_1_1PreSetupViewListener.html":[9,0,0,20,800],
-"structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[9,0,0,20,470],
-"structMR_1_1PreciseVertCoord.html":[9,0,0,0,18]
+"structMR_1_1PostFocusListener.html":[9,0,0,20,825]
 };
