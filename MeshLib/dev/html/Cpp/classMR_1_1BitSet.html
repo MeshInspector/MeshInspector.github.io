@@ -239,7 +239,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b3601282d28190fc25476e611829852" id="r_a8b3601282d28190fc25476e611829852"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3601282d28190fc25476e611829852">intersects</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a) const</td></tr>
 <tr class="memdesc:a8b3601282d28190fc25476e611829852"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.  <br /></td></tr>
 <tr class="memitem:ac7929d81a23ad4ff51c472f0d1c992d5" id="r_ac7929d81a23ad4ff51c472f0d1c992d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7929d81a23ad4ff51c472f0d1c992d5">resizeWithReserve</a> (size_t newSize)</td></tr>
-<tr class="memdesc:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
+<tr class="memdesc:ac7929d81a23ad4ff51c472f0d1c992d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically  <br /></td></tr>
 <tr class="memitem:ab61cde9e7da6d5d6c75fefd11e2e6a24" id="r_ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61cde9e7da6d5d6c75fefd11e2e6a24">autoResizeSet</a> (size_t pos, <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> len, bool val=true)</td></tr>
 <tr class="memdesc:ab61cde9e7da6d5d6c75fefd11e2e6a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements  <br /></td></tr>
 <tr class="memitem:a737f8cc71944c7c750f8eeba4028ac17" id="r_a737f8cc71944c7c750f8eeba4028ac17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a737f8cc71944c7c750f8eeba4028ac17">autoResizeSet</a> (size_t pos, bool val=true)</td></tr>
@@ -1399,7 +1399,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
+<p>same as resize(newSize), which already grows the capacity geometrically </p>
 
 </div>
 </div>

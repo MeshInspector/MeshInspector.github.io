@@ -8166,9 +8166,9 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga349375d06b5b75e3b26f9587fe0584f5" id="r_ga349375d06b5b75e3b26f9587fe0584f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga349375d06b5b75e3b26f9587fe0584f5">MR::Vector&lt; T, I &gt;::operator[]</a> (<a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> i) const <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
 <tr class="memitem:ga6bae4e482e7ead78efad9465a5ac085d" id="r_ga6bae4e482e7ead78efad9465a5ac085d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6bae4e482e7ead78efad9465a5ac085d">MR::Vector&lt; T, I &gt;::operator[]</a> (<a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> i) <a class="el" href="MRMacros_8h.html#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
 <tr class="memitem:ga291ed0f8042c268b0aa65b87497daca1" id="r_ga291ed0f8042c268b0aa65b87497daca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga291ed0f8042c268b0aa65b87497daca1">MR::Vector&lt; T, I &gt;::resizeWithReserve</a> (size_t newSize) <a class="el" href="#ga0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
-<tr class="memdesc:ga291ed0f8042c268b0aa65b87497daca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
+<tr class="memdesc:ga291ed0f8042c268b0aa65b87497daca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize), which already grows the capacity geometrically  <br /></td></tr>
 <tr class="memitem:ga8d2ff338e3ecf6232044e755e5145fde" id="r_ga8d2ff338e3ecf6232044e755e5145fde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d2ff338e3ecf6232044e755e5145fde">MR::Vector&lt; T, I &gt;::resizeWithReserve</a> (size_t newSize, const T &amp;value) <a class="el" href="#ga0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
-<tr class="memdesc:ga8d2ff338e3ecf6232044e755e5145fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation  <br /></td></tr>
+<tr class="memdesc:ga8d2ff338e3ecf6232044e755e5145fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as resize(newSize, value), which already grows the capacity geometrically  <br /></td></tr>
 <tr class="memitem:gaf0951dea97b2041bcf0b554bf3f92408" id="r_gaf0951dea97b2041bcf0b554bf3f92408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0951dea97b2041bcf0b554bf3f92408">MR::Vector&lt; T, I &gt;::autoResizeSet</a> (<a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> pos, size_t len, T val) <a class="el" href="#ga0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
 <tr class="memitem:gac42f813829d695e418e088932eacfd6c" id="r_gac42f813829d695e418e088932eacfd6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac42f813829d695e418e088932eacfd6c">MR::Vector&lt; T, I &gt;::autoResizeSet</a> (<a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I</a> i, T val) <a class="el" href="#ga0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
 <tr class="memdesc:gac42f813829d695e418e088932eacfd6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element  <br /></td></tr>
@@ -158417,8 +158417,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 <p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
 
-<p>doubles reserved memory until resize(newSize) can be done without reallocation </p>
-<p>This separate overload is needed as opposed to a <span class="tt">value = T{}</span> default argument, because if T isn't default-constructible, the parsed chokes on that.</p>
+<p>same as resize(newSize), which already grows the capacity geometrically </p>
 
 </div>
 </div>
@@ -158453,7 +158452,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 <p><code>#include &lt;<a class="el" href="MRVector_8h.html">MRMesh/MRVector.h</a>&gt;</code></p>
 
-<p>doubles reserved memory until resize(newSize, value) can be done without reallocation </p>
+<p>same as resize(newSize, value), which already grows the capacity geometrically </p>
 
 </div>
 </div>

@@ -1813,7 +1813,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+<para><verbatim>same as resize(newSize), which already grows the capacity geometrically
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>

@@ -45529,7 +45529,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="167" column="17" bodyfile="MRMesh/MRVector.h" bodystart="167" bodyend="-1"/>
+        <location file="MRMesh/MRVector.h" line="161" column="17" bodyfile="MRMesh/MRVector.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f40bccc013c893ac7558c2262a6eff1" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -74097,7 +74097,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="161" column="36" bodyfile="MRMesh/MRVector.h" bodystart="161" bodyend="161"/>
+        <location file="MRMesh/MRVector.h" line="155" column="36" bodyfile="MRMesh/MRVector.h" bodystart="155" bodyend="155"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY friend auto</type>
@@ -74115,7 +74115,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="162" column="36" bodyfile="MRMesh/MRVector.h" bodystart="162" bodyend="162"/>
+        <location file="MRMesh/MRVector.h" line="156" column="36" bodyfile="MRMesh/MRVector.h" bodystart="156" bodyend="156"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY friend auto</type>
@@ -74133,7 +74133,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="163" column="36" bodyfile="MRMesh/MRVector.h" bodystart="163" bodyend="163"/>
+        <location file="MRMesh/MRVector.h" line="157" column="36" bodyfile="MRMesh/MRVector.h" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY friend auto</type>
@@ -74151,7 +74151,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="164" column="36" bodyfile="MRMesh/MRVector.h" bodystart="164" bodyend="164"/>
+        <location file="MRMesh/MRVector.h" line="158" column="36" bodyfile="MRMesh/MRVector.h" bodystart="158" bodyend="158"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gaa313f8ba832a4b648631b27ecc640444" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -150637,14 +150637,13 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation </para>
+<para>same as resize(newSize), which already grows the capacity geometrically </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>This separate overload is needed as opposed to a <computeroutput>value = T{}</computeroutput> default argument, because if T isn&apos;t default-constructible, the parsed chokes on that.</para>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="79" column="10" bodyfile="MRMesh/MRVector.h" bodystart="79" bodyend="83"/>
+        <location file="MRMesh/MRVector.h" line="80" column="10" bodyfile="MRMesh/MRVector.h" bodystart="80" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8d2ff338e3ecf6232044e755e5145fde" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type>void</type>
@@ -150661,13 +150660,13 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation </para>
+<para>same as resize(newSize, value), which already grows the capacity geometrically </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="86" column="10" bodyfile="MRMesh/MRVector.h" bodystart="86" bodyend="96"/>
+        <location file="MRMesh/MRVector.h" line="87" column="10" bodyfile="MRMesh/MRVector.h" bodystart="87" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type>void</type>
@@ -150697,7 +150696,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 <para>the number of the elements existing before function call to be changed</para>
 <para>change the value of the elements existing before function call</para>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="100" column="10" bodyfile="MRMesh/MRVector.h" bodystart="100" bodyend="116"/>
+        <location file="MRMesh/MRVector.h" line="94" column="10" bodyfile="MRMesh/MRVector.h" bodystart="94" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac42f813829d695e418e088932eacfd6c" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type>void</type>
@@ -150720,7 +150719,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="119" column="10" bodyfile="MRMesh/MRVector.h" bodystart="119" bodyend="122"/>
+        <location file="MRMesh/MRVector.h" line="113" column="10" bodyfile="MRMesh/MRVector.h" bodystart="113" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type>reference</type>
@@ -150739,7 +150738,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="125" column="16" bodyfile="MRMesh/MRVector.h" bodystart="125" bodyend="130"/>
+        <location file="MRMesh/MRVector.h" line="119" column="16" bodyfile="MRMesh/MRVector.h" bodystart="119" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -150758,7 +150757,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="132" column="10" bodyfile="MRMesh/MRVector.h" bodystart="132" bodyend="132"/>
+        <location file="MRMesh/MRVector.h" line="126" column="10" bodyfile="MRMesh/MRVector.h" bodystart="126" bodyend="126"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga05637c5798b92bebed2ff7a28c610317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -150777,7 +150776,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="133" column="10" bodyfile="MRMesh/MRVector.h" bodystart="133" bodyend="133"/>
+        <location file="MRMesh/MRVector.h" line="127" column="10" bodyfile="MRMesh/MRVector.h" bodystart="127" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga06fae7c424bf43fc3c4cbbf624496400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -150791,7 +150790,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="134" column="10" bodyfile="MRMesh/MRVector.h" bodystart="134" bodyend="134"/>
+        <location file="MRMesh/MRVector.h" line="128" column="10" bodyfile="MRMesh/MRVector.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d377a848db9d73675bc1849a0810eac" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <templateparamlist>
@@ -150818,7 +150817,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="136" column="16" bodyfile="MRMesh/MRVector.h" bodystart="136" bodyend="137"/>
+        <location file="MRMesh/MRVector.h" line="130" column="16" bodyfile="MRMesh/MRVector.h" bodystart="130" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const_reference</type>
@@ -150832,7 +150831,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="139" column="22" bodyfile="MRMesh/MRVector.h" bodystart="139" bodyend="139"/>
+        <location file="MRMesh/MRVector.h" line="133" column="22" bodyfile="MRMesh/MRVector.h" bodystart="133" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>reference</type>
@@ -150846,7 +150845,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="140" column="22" bodyfile="MRMesh/MRVector.h" bodystart="140" bodyend="140"/>
+        <location file="MRMesh/MRVector.h" line="134" column="22" bodyfile="MRMesh/MRVector.h" bodystart="134" bodyend="134"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const_reference</type>
@@ -150860,7 +150859,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="141" column="23" bodyfile="MRMesh/MRVector.h" bodystart="141" bodyend="141"/>
+        <location file="MRMesh/MRVector.h" line="135" column="23" bodyfile="MRMesh/MRVector.h" bodystart="135" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>reference</type>
@@ -150874,7 +150873,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="142" column="23" bodyfile="MRMesh/MRVector.h" bodystart="142" bodyend="142"/>
+        <location file="MRMesh/MRVector.h" line="136" column="23" bodyfile="MRMesh/MRVector.h" bodystart="136" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>I</type>
@@ -150889,7 +150888,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="145" column="8" bodyfile="MRMesh/MRVector.h" bodystart="145" bodyend="145"/>
+        <location file="MRMesh/MRVector.h" line="139" column="8" bodyfile="MRMesh/MRVector.h" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>I</type>
@@ -150904,7 +150903,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="148" column="8" bodyfile="MRMesh/MRVector.h" bodystart="148" bodyend="148"/>
+        <location file="MRMesh/MRVector.h" line="142" column="8" bodyfile="MRMesh/MRVector.h" bodystart="142" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>I</type>
@@ -150919,7 +150918,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="151" column="8" bodyfile="MRMesh/MRVector.h" bodystart="151" bodyend="151"/>
+        <location file="MRMesh/MRVector.h" line="145" column="8" bodyfile="MRMesh/MRVector.h" bodystart="145" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T *</type>
@@ -150933,7 +150932,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="153" column="8" bodyfile="MRMesh/MRVector.h" bodystart="153" bodyend="153"/>
+        <location file="MRMesh/MRVector.h" line="147" column="8" bodyfile="MRMesh/MRVector.h" bodystart="147" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const T *</type>
@@ -150947,7 +150946,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="154" column="14" bodyfile="MRMesh/MRVector.h" bodystart="154" bodyend="154"/>
+        <location file="MRMesh/MRVector.h" line="148" column="14" bodyfile="MRMesh/MRVector.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -150965,7 +150964,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="156" column="10" bodyfile="MRMesh/MRVector.h" bodystart="156" bodyend="156"/>
+        <location file="MRMesh/MRVector.h" line="150" column="10" bodyfile="MRMesh/MRVector.h" bodystart="150" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -150980,7 +150979,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="159" column="13" bodyfile="MRMesh/MRVector.h" bodystart="159" bodyend="159"/>
+        <location file="MRMesh/MRVector.h" line="153" column="13" bodyfile="MRMesh/MRVector.h" bodystart="153" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -151013,7 +151012,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="176" column="11" bodyfile="MRMesh/MRVector.h" bodystart="176" bodyend="179"/>
+        <location file="MRMesh/MRVector.h" line="170" column="11" bodyfile="MRMesh/MRVector.h" bodystart="170" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -151049,7 +151048,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="183" column="11" bodyfile="MRMesh/MRVector.h" bodystart="183" bodyend="186"/>
+        <location file="MRMesh/MRVector.h" line="177" column="11" bodyfile="MRMesh/MRVector.h" bodystart="177" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8b62d7466c2f210d9618cc9c3fe555f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>
