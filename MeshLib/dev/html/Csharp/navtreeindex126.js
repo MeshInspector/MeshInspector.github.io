@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1PointsProjectionResult.html#a9a903dcb5da6a682da7b02d69a99000f":[9,3,0,0,0,1533,6],
+"classMR_1_1PointsProjectionResult.html#a9c7186b7a73694170108aedc5beb04ec":[9,3,0,0,0,1533,4],
 "classMR_1_1PointsProjectionResult.html#ac9c61180d80d4d8b4824325aa256693e":[9,3,0,0,0,1533,0],
 "classMR_1_1PointsProjector.html":[9,3,0,0,0,1534],
 "classMR_1_1PointsProjector.html#a08ea3a7b4ff5c24d2ea51ca85db5382a":[9,3,0,0,0,1534,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1PolylineProjectionResult3.html#a71c909b08f2e9707e42c3fcf06e8de48":[9,3,0,0,0,1548,4],
 "classMR_1_1PolylineProjectionResult3.html#a7c73ebc3e1d0d2e778fa2c141ebfccea":[9,3,0,0,0,1548,3],
 "classMR_1_1PolylineProjectionResult3.html#a9acea487b0fd3d39aac326b7dedbb6b0":[9,3,0,0,0,1548,0],
-"classMR_1_1PolylineProjectionResult3.html#acad837aec794ca5aa5732feac68ae458":[9,3,0,0,0,1548,5],
-"classMR_1_1PolylineProjectionResult3Arg.html":[9,3,0,0,0,1549],
-"classMR_1_1PolylineProjectionResult3Arg.html#a22447420c394d340aa12ff27395ee98c":[9,3,0,0,0,1549,6]
+"classMR_1_1PolylineProjectionResult3.html#acad837aec794ca5aa5732feac68ae458":[9,3,0,0,0,1548,5]
 };

@@ -221,8 +221,8 @@ var NAVTREEINDEX =
 "structMR_1_1Mesh.html#a5987866b04f9e182594595fadb7cc6e5",
 "structMR_1_1MultiwayICPSamplingParameters.html",
 "structMR_1_1PostRescaleListener.html",
-"structMR_1_1TriIntersectResult.html",
-"structMR_1_1Vector2.html#a7538b7a66163ad22feec74b78c40f5b5"
+"structMR_1_1TransparencyMode.html",
+"structMR_1_1Vector2.html#a7482d5a8c34fc5f6af7a5036b9d43c1c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

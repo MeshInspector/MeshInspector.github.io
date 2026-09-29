@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1GridSettings.html#af77ff5e075893577c26a461fdb5a0222":[9,3,0,0,0,1239,6],
+"classMR_1_1GridToMeshSettings.html":[9,3,0,0,0,1240],
 "classMR_1_1GridToMeshSettings.html#a121857b40909855ddf4e329cbb32055b":[9,3,0,0,0,1240,6],
 "classMR_1_1GridToMeshSettings.html#a13fd596b0d9ec494985e6170d41d9372":[9,3,0,0,0,1240,7],
 "classMR_1_1GridToMeshSettings.html#a3755177020f1ce5d135b71304d7bae3d":[9,3,0,0,0,1240,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1InSphereSearchSettings.html#a1ad3e1e69828559a4c69f53644ee447b":[9,3,0,0,0,1267,7],
 "classMR_1_1InSphereSearchSettings.html#a255ac7e8248c344c9a6bc160299ad7e9":[9,3,0,0,0,1267,1],
 "classMR_1_1InSphereSearchSettings.html#a32d335f03cd2e7eb1fe6ffb1e90e8d76":[9,3,0,0,0,1267,3],
-"classMR_1_1InSphereSearchSettings.html#a33eb41ab2c93b7219f1545b168a3e302":[9,3,0,0,0,1267,8],
-"classMR_1_1InSphereSearchSettings.html#a3f4fdd11a6e785f51d36b10701a6bb30":[9,3,0,0,0,1267,6],
-"classMR_1_1InSphereSearchSettings.html#a9cbe774cf6219f6365a4dac9a5e70d58":[9,3,0,0,0,1267,0]
+"classMR_1_1InSphereSearchSettings.html#a33eb41ab2c93b7219f1545b168a3e302":[9,3,0,0,0,1267,8]
 };

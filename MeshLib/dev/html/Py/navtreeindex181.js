@@ -1,5 +1,9 @@
 var NAVTREEINDEX181 =
 {
+"classmrviewerpy_1_1UiValueInt.html#abf8f19db1b41a0663ea38e415a1fb5e0":[9,1,0,0,3,4,1],
+"classmrviewerpy_1_1UiValueInt.html#abf8f19db1b41a0663ea38e415a1fb5e0":[9,1,1,0,2,4,1],
+"classmrviewerpy_1_1UiValueInt.html#ada5e0828517a130dc0349d5b2e7a5d46":[9,1,0,0,3,4,2],
+"classmrviewerpy_1_1UiValueInt.html#ada5e0828517a130dc0349d5b2e7a5d46":[9,1,1,0,2,4,2],
 "classmrviewerpy_1_1UiValueReal.html":[9,1,0,0,3,5],
 "classmrviewerpy_1_1UiValueReal.html":[9,1,1,0,2,5],
 "classmrviewerpy_1_1UiValueReal.html#a1b7df40ea59bf74487cd0d16e22d2aa3":[9,1,0,0,3,5,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX181 =
 "index.html":[],
 "mrcudapy_8pyi.html":[9,1,2,0,0,1,0,0,0,0],
 "mrmeshnumpy_8pyi.html":[9,1,2,0,0,1,0,0,0,1],
-"mrmeshpy_8pyi.html":[9,1,2,0,0,1,0,0,0,2],
-"mrviewerpy_8pyi.html":[9,1,2,0,0,1,0,0,0,3],
-"namespacemembers.html":[9,1,0,1,0],
-"namespacemembers.html":[9,1,0,1,0,0],
-"namespacemembers_b.html":[9,1,0,1,0,1]
+"mrmeshpy_8pyi.html":[9,1,2,0,0,1,0,0,0,2]
 };

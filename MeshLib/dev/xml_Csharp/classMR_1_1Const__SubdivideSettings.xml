@@ -141,6 +141,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="102" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="103" bodyend="114"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a5f1ca49006752c6c77b8646773ea91f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SubdivideSettings.onlyNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>onlyNearNotFlippable</name>
+        <qualifiedname>MR.Const_SubdivideSettings.onlyNearNotFlippable</qualifiedname>
+        <briefdescription>
+<para>If true, then only the edges having a vertex of their left or right triangle incident to a <ref refid="classMR_1_1Const__SubdivideSettings_1a55678e5b98c45bf1bca2329bdb8f40af" kindref="member">notFlippable</ref> edge can be split, so subdivision is localized near notFlippable edges; <ref refid="classMR_1_1Const__SubdivideSettings_1a55678e5b98c45bf1bca2329bdb8f40af" kindref="member">notFlippable</ref> must not be null then (nothing is split in release otherwise) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="121" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aad53b86309320b8d8bbab9b5b1b51ce8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
         <definition>unsafe MR.? VertBitSet MR.Const_SubdivideSettings.newVerts</definition>
@@ -154,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="120" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="121" bodyend="132"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="127" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="128" bodyend="139"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a5f51e469c9d65d679bccf514fe793c33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
@@ -170,7 +185,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="139" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="139" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="146" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1ab35fb47ec829ec29ae931dc6f13eb620" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe float</type>
@@ -185,7 +200,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="145" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="145" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="152" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aba133255b35f1dc94843b44ba545944b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe float</type>
@@ -200,7 +215,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="153" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="153" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="160" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a5905613db0f5ae5731ac9544df714efe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
@@ -215,7 +230,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="160" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="160" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="167" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1acb2587f7f8182ea98e164cb2b6b5ce56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe float</type>
@@ -229,7 +244,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="164" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="164" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="171" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aa3cec0abaa6273a31d8b3b0319551e12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
@@ -244,7 +259,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="170" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="170" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="177" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1ab3ac68d276317355aeeb9915c34e98b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_MREdgeId</type>
@@ -259,7 +274,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="176" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="176" bodyend="176"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="183" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="183" bodyend="183"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a971283c2339a8bda25f569bdc8be96a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Void_From_MRVertId</type>
@@ -274,7 +289,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="181" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="181" bodyend="181"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="188" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="188" bodyend="188"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a1781588eb5c2e666f45b67543e0b1c07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</type>
@@ -289,7 +304,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="186" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="186" bodyend="186"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="193" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="193" bodyend="193"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a23797e495a438f958495b0d5938a7add" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
@@ -304,7 +319,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="191" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="191" bodyend="191"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="198" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="198" bodyend="198"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -434,6 +449,20 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="115" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="115" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1ab39809f35c8cd011098a5ba99d35555b" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SubdivideSettings.__ref_storage_onlyNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_onlyNearNotFlippable</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_onlyNearNotFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="122" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1ac39d6804c45a7328fb13e1daefb4cc28" prot="protected" static="no" mutable="no">
         <type>unsafe MR.VertBitSet._Underlying **</type>
         <definition>unsafe MR.VertBitSet._Underlying** MR.Const_SubdivideSettings.__ptr_storage_newVerts</definition>
@@ -446,7 +475,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="133" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="133" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="140" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a2c00194c6d29c0a0efbd534dd7a4b6d9" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
@@ -460,7 +489,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="140" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="140" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="147" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a0ca39d0b6cba1bd765fe3fe5c8f3c50c" prot="protected" static="no" mutable="no">
         <type>unsafe float *</type>
@@ -474,7 +503,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="146" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="146" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="153" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1ac50521a8622ffe34542cc94707027181" prot="protected" static="no" mutable="no">
         <type>unsafe float *</type>
@@ -488,7 +517,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="154" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="154" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="161" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a80a38a2162cf1cdabdff53a2f1ff8258" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
@@ -502,7 +531,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="161" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="161" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="168" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="168" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a2537bcaab1cd2df41d423b5cd010aadf" prot="protected" static="no" mutable="no">
         <type>unsafe float *</type>
@@ -516,7 +545,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="165" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="165" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="172" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="172" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a5ee447b8d5897946d1ec79bcef3f627a" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
@@ -530,7 +559,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="171" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="171" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="178" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="178" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -581,12 +610,12 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="296" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="296" bodyend="300"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="307" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="307" bodyend="311"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ac71d211ccf0190830152c95eb3603e8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ac1c14b21f874ef5b44c803c40cb4c17e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
-        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet? region, MR.FaceBitSet? maintainRegion, MR.UndirectedEdgeBitSet? notFlippable, MR.VertBitSet? newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, MR.Std._ByValue_Function_Bool_From_MREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_Void_From_MRVertId onVertCreated, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
+        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet? region, MR.FaceBitSet? maintainRegion, MR.UndirectedEdgeBitSet? notFlippable, bool onlyNearNotFlippable, MR.VertBitSet? newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, MR.Std._ByValue_Function_Bool_From_MREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_Void_From_MRVertId onVertCreated, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
         <name>Const_SubdivideSettings</name>
         <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
         <param>
@@ -624,6 +653,10 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         <param>
           <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
           <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyNearNotFlippable</declname>
         </param>
         <param>
           <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>?</type>
@@ -676,7 +709,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="305" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="305" bodyend="317"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="316" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="316" bodyend="328"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a188023ed4a15e58cb7783f4f1a85324d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -695,7 +728,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="322" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="322" bodyend="327"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="333" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="333" bodyend="338"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a3664ca2c880c12fcf523182869c4dc82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -714,7 +747,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="332" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="332" bodyend="332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="343" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="343" bodyend="343"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1acc527c301f6bd4852405291464a392af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -733,7 +766,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="337" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="337" bodyend="337"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="348" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="348" bodyend="348"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -773,14 +806,14 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="285" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="285" bodyend="290"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="296" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="296" bodyend="301"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a576636211603c16106e09cc04d07867a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a4bc3fcfc153b1de759dd28902f474512" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.SubdivideSettings._Underlying *</type>
         <definition>static unsafe MR.SubdivideSettings._Underlying * MR.Const_SubdivideSettings.__MR_SubdivideSettings_ConstructFrom</definition>
-        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet._Underlying *region, MR.FaceBitSet._Underlying *maintainRegion, MR.UndirectedEdgeBitSet._Underlying *notFlippable, MR.VertBitSet._Underlying *newVerts, byte subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, byte smoothMode, float minSharpDihedralAngle, byte projectOnOriginalMesh, MR.Misc._PassBy beforeEdgeSplit_pass_by, MR.Std.Function_Bool_From_MREdgeId._Underlying *beforeEdgeSplit, MR.Misc._PassBy onVertCreated_pass_by, MR.Std.Function_Void_From_MRVertId._Underlying *onVertCreated, MR.Misc._PassBy onEdgeSplit_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeSplit, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback)</argsstring>
+        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet._Underlying *region, MR.FaceBitSet._Underlying *maintainRegion, MR.UndirectedEdgeBitSet._Underlying *notFlippable, byte onlyNearNotFlippable, MR.VertBitSet._Underlying *newVerts, byte subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, byte smoothMode, float minSharpDihedralAngle, byte projectOnOriginalMesh, MR.Misc._PassBy beforeEdgeSplit_pass_by, MR.Std.Function_Bool_From_MREdgeId._Underlying *beforeEdgeSplit, MR.Misc._PassBy onVertCreated_pass_by, MR.Std.Function_Void_From_MRVertId._Underlying *onVertCreated, MR.Misc._PassBy onEdgeSplit_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeSplit, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback)</argsstring>
         <name>__MR_SubdivideSettings_ConstructFrom</name>
         <qualifiedname>MR.Const_SubdivideSettings.__MR_SubdivideSettings_ConstructFrom</qualifiedname>
         <param>
@@ -818,6 +851,10 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         <param>
           <type>MR.UndirectedEdgeBitSet._Underlying *</type>
           <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>onlyNearNotFlippable</declname>
         </param>
         <param>
           <type>MR.VertBitSet._Underlying *</type>
@@ -885,7 +922,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="342" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="353" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a20cd0ae655cd78bed94ff7dd83b8bf10" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.SubdivideSettings._Underlying *</type>
@@ -907,7 +944,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="345" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="356" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1af5388511aea6bcb4388fa76d5d9307b3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.SubdivideSettings._Underlying *</type>
@@ -921,7 +958,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="348" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="359" column="61"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a04d0765095f5de5cc21adedb2af6df7a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -939,7 +976,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="351" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="362" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1abd429f3a49d1c9a11b55042103ca9cf0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Bool_From_MREdgeId._Underlying *</type>
@@ -957,7 +994,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="354" column="80"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="365" column="80"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ae1870d2e93c325b75f6b0b6ffa889524" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -975,7 +1012,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="357" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="368" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1aeaf0cb0cab40e160d8c787e04f5d40a5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -993,7 +1030,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="360" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="371" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a9daba2c0f25ebea3118afbcf41fc501e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying **</type>
@@ -1011,7 +1048,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="363" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="374" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ac71ee3d293ae394b3c718754e8528c2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1029,7 +1066,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="366" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="377" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a083723ddf6bbe3cbf5ac56bc21564385" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1047,7 +1084,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="369" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="380" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ab099800e34d9ad49d092a1d1fa19c3b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1065,7 +1102,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="372" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="383" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a377f24e349515973895aa83ed11f9f2c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int *</type>
@@ -1083,7 +1120,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="375" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="386" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1af2c121514131426b6420499999109660" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1101,7 +1138,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="378" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="389" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a04604656b214a492b492450c8a18153d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1119,7 +1156,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="381" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="392" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a4a046aa46294d5d62eeb5ab7753fc920" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1137,7 +1174,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="384" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="395" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a0b32b807aae273bb03d287b334b8847c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying **</type>
@@ -1155,7 +1192,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="387" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="398" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a3a1a1a4a26dd8b00d2c7a5f690a5bff2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
@@ -1173,7 +1210,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="390" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="401" column="64"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a555b9505de357933ee89e940f27f1078" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId._Underlying *</type>
@@ -1191,7 +1228,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="393" column="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="404" column="89"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a2521a1ee3be162b1bd547c3e5b484a9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Void_From_MRVertId._Underlying *</type>
@@ -1209,7 +1246,25 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="396" column="80"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="407" column="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a034459ee020088af007b572aa2a665ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_SubdivideSettings.__MR_SubdivideSettings_Get_onlyNearNotFlippable</definition>
+        <argsstring>(MR.Const_SubdivideSettings._Underlying *_this)</argsstring>
+        <name>__MR_SubdivideSettings_Get_onlyNearNotFlippable</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__MR_SubdivideSettings_Get_onlyNearNotFlippable</qualifiedname>
+        <param>
+          <type>MR.Const_SubdivideSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="410" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ab3959a7f1528ec65585c55b6730a2b51" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
@@ -1227,7 +1282,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="399" column="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="413" column="77"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a834232cc1f85aa1591fcf14cac1a0929" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1245,7 +1300,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="402" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="416" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a349da59783d687899e6f3647d5e53b2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying **</type>
@@ -1263,7 +1318,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="405" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="419" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a94e7225062bc06b3657621fd980480cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1281,7 +1336,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="408" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="422" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1af6b058e5abe0f30a2c005e8789dfb6d9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1299,7 +1354,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="411" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="425" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1355,9 +1410,9 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="8" bodyend="412"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="8" bodyend="426"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__SubdivideSettings_1a576636211603c16106e09cc04d07867a" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a4bc3fcfc153b1de759dd28902f474512" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a20cd0ae655cd78bed94ff7dd83b8bf10" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1af5388511aea6bcb4388fa76d5d9307b3" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a04d0765095f5de5cc21adedb2af6df7a" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Destroy</name></member>
@@ -1375,6 +1430,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       <member refid="classMR_1_1Const__SubdivideSettings_1a0b32b807aae273bb03d287b334b8847c" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_newVerts</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a3a1a1a4a26dd8b00d2c7a5f690a5bff2" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_notFlippable</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a555b9505de357933ee89e940f27f1078" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_onEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a034459ee020088af007b572aa2a665ca" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_onlyNearNotFlippable</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a2521a1ee3be162b1bd547c3e5b484a9d" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_onVertCreated</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1ab3959a7f1528ec65585c55b6730a2b51" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_progressCallback</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a834232cc1f85aa1591fcf14cac1a0929" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__MR_SubdivideSettings_Get_projectOnOriginalMesh</name></member>
@@ -1394,13 +1450,14 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       <member refid="classMR_1_1Const__SubdivideSettings_1ac50521a8622ffe34542cc94707027181" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxSplittableTriAspectRatio</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a0ca39d0b6cba1bd765fe3fe5c8f3c50c" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxTriAspectRatio</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a2537bcaab1cd2df41d423b5cd010aadf" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_minSharpDihedralAngle</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ab39809f35c8cd011098a5ba99d35555b" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_onlyNearNotFlippable</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a5ee447b8d5897946d1ec79bcef3f627a" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_projectOnOriginalMesh</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a80a38a2162cf1cdabdff53a2f1ff8258" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_smoothMode</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a2c00194c6d29c0a0efbd534dd7a4b6d9" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_subdivideBorder</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1ab3ac68d276317355aeeb9915c34e98b6" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1ada11d7fcec62ceccf62c36f926699306" prot="package" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a14fd7dd1a38583764e857562c06685a3" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
-      <member refid="classMR_1_1Const__SubdivideSettings_1ac71d211ccf0190830152c95eb3603e8b" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac1c14b21f874ef5b44c803c40cb4c17e" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a188023ed4a15e58cb7783f4f1a85324d" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a3664ca2c880c12fcf523182869c4dc82" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1acc527c301f6bd4852405291464a392af" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
@@ -1419,6 +1476,7 @@ use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.
       <member refid="classMR_1_1Const__SubdivideSettings_1aad53b86309320b8d8bbab9b5b1b51ce8" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>newVerts</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a55678e5b98c45bf1bca2329bdb8f40af" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>notFlippable</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a1781588eb5c2e666f45b67543e0b1c07" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5f1ca49006752c6c77b8646773ea91f9" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>onlyNearNotFlippable</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a971283c2339a8bda25f569bdc8be96a9" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>onVertCreated</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1a23797e495a438f958495b0d5938a7add" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>progressCallback</name></member>
       <member refid="classMR_1_1Const__SubdivideSettings_1aa3cec0abaa6273a31d8b3b0319551e12" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>

@@ -14,6 +14,7 @@ var structMR_1_1SubdivideSettings =
     [ "newVerts", "structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d", null ],
     [ "notFlippable", "structMR_1_1SubdivideSettings.html#acb648b35ff705d5ee52cdae10e7cb9b5", null ],
     [ "onEdgeSplit", "structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413", null ],
+    [ "onlyNearNotFlippable", "structMR_1_1SubdivideSettings.html#a68f313c1c37f0aae1d9da0aaf296225c", null ],
     [ "onVertCreated", "structMR_1_1SubdivideSettings.html#a9e8653d42d8358f40dca297f675d4111", null ],
     [ "progressCallback", "structMR_1_1SubdivideSettings.html#ad044782ba14d1d93d9140190393d28ce", null ],
     [ "projectOnOriginalMesh", "structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d", null ],

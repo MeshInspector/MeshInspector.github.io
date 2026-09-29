@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"classMR_1_1RelaxParams.html#a6a77807fb4269a27dbe4ed779b218721":[9,3,0,0,0,1596,6],
+"classMR_1_1RelaxParams.html#aa6b4edf72ee6909bde7dbba353ccb623":[9,3,0,0,0,1596,0],
 "classMR_1_1RelaxParams.html#ab63b0c054897c1b08f7e126ae1794748":[9,3,0,0,0,1596,4],
 "classMR_1_1RelaxParams.html#acd9b062a072a30f445c56768f6b39797":[9,3,0,0,0,1596,2],
 "classMR_1_1RelaxParams.html#ae949db566df3a3532f3bebfa7dfcd11c":[9,3,0,0,0,1596,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "classMR_1_1SegmentSegmentIntersectResult.html#a567a12087572ea1f5b6b1ecaa4a4cb84":[9,3,0,0,0,1613,0],
 "classMR_1_1SegmentSegmentIntersectResult.html#a9db549e17ed091219b843451fca66c2b":[9,3,0,0,0,1613,3],
 "classMR_1_1SegmentSegmentIntersectResult.html#ab828224eef8f481c8395326f176f1cc1":[9,3,0,0,0,1613,5],
-"classMR_1_1SelfIntersections.html":[9,3,0,0,0,1616],
-"classMR_1_1SelfIntersections.html#a08c2d73fabc1f3cff484d0615628d0d6":[9,3,0,0,0,1616,2],
-"classMR_1_1SelfIntersections.html#a3f0c054fbf98ac86587b94f1a322faf4":[9,3,0,0,0,1616,3]
+"classMR_1_1SelfIntersections.html":[9,3,0,0,0,1616]
 };

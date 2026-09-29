@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1Vector4i64.html#a1446d8c4428cb4bb1b6d79e9e779ebfb":[9,1,0,0,2,1196,18],
+"classmrmeshpy_1_1Vector4i64.html#a1446d8c4428cb4bb1b6d79e9e779ebfb":[9,1,1,0,1,1196,18],
+"classmrmeshpy_1_1Vector4i64.html#a15dad0b21ad8a362eb772f48693fc8e9":[9,1,0,0,2,1196,17],
+"classmrmeshpy_1_1Vector4i64.html#a15dad0b21ad8a362eb772f48693fc8e9":[9,1,1,0,1,1196,17],
 "classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,0,0,2,1196,5],
 "classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,0,0,2,1196,6],
 "classmrmeshpy_1_1Vector4i64.html#a1b75433824073cb8aee9ea1ac133cc9f":[9,1,1,0,1,1196,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6f1045ca5f00826b0b498ddcbb5eba34":[9,1,0,0,2,1199,4],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a6f1045ca5f00826b0b498ddcbb5eba34":[9,1,1,0,1,1199,4],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a7914adf69db817f0a5bc738918d9effc":[9,1,0,0,2,1199,24],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a7914adf69db817f0a5bc738918d9effc":[9,1,1,0,1,1199,24],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a89983026d092c14326b2e03e95d7329c":[9,1,0,0,2,1199,21],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a89983026d092c14326b2e03e95d7329c":[9,1,1,0,1,1199,21],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a8f5215929dda6f423ae2126528004533":[9,1,0,0,2,1199,32],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a8f5215929dda6f423ae2126528004533":[9,1,1,0,1,1199,32]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a7914adf69db817f0a5bc738918d9effc":[9,1,1,0,1,1199,24]
 };

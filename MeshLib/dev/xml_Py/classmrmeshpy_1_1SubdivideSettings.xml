@@ -9,7 +9,7 @@
         <argsstring></argsstring>
         <name>_offsetof_beforeEdgeSplit</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_beforeEdgeSplit</qualifiedname>
-        <initializer>=  80</initializer>
+        <initializer>=  88</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -129,7 +129,7 @@
         <argsstring></argsstring>
         <name>_offsetof_maxSplittableTriAspectRatio</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxSplittableTriAspectRatio</qualifiedname>
-        <initializer>=  64</initializer>
+        <initializer>=  72</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -144,7 +144,7 @@
         <argsstring></argsstring>
         <name>_offsetof_maxTriAspectRatio</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxTriAspectRatio</qualifiedname>
-        <initializer>=  60</initializer>
+        <initializer>=  68</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -159,7 +159,7 @@
         <argsstring></argsstring>
         <name>_offsetof_minSharpDihedralAngle</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_minSharpDihedralAngle</qualifiedname>
-        <initializer>=  72</initializer>
+        <initializer>=  80</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -174,7 +174,7 @@
         <argsstring></argsstring>
         <name>_offsetof_newVerts</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_newVerts</qualifiedname>
-        <initializer>=  48</initializer>
+        <initializer>=  56</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -204,7 +204,7 @@
         <argsstring></argsstring>
         <name>_offsetof_onEdgeSplit</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_onEdgeSplit</qualifiedname>
-        <initializer>=  144</initializer>
+        <initializer>=  152</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -219,7 +219,7 @@
         <argsstring></argsstring>
         <name>_offsetof_onVertCreated</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_onVertCreated</qualifiedname>
-        <initializer>=  112</initializer>
+        <initializer>=  120</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -228,13 +228,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45535" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a4b77ad50e492097278a241ac0257fcbd" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a5a7d460bdaab261a7ecca4a2f3e5378d" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_progressCallback</definition>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_onlyNearNotFlippable</definition>
         <argsstring></argsstring>
-        <name>_offsetof_progressCallback</name>
-        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_progressCallback</qualifiedname>
-        <initializer>=  176</initializer>
+        <name>_offsetof_onlyNearNotFlippable</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_onlyNearNotFlippable</qualifiedname>
+        <initializer>=  48</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -243,13 +243,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45536" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a7bf72106045baa38bf538eebfefa5ded" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a4b77ad50e492097278a241ac0257fcbd" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_projectOnOriginalMesh</definition>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_progressCallback</definition>
         <argsstring></argsstring>
-        <name>_offsetof_projectOnOriginalMesh</name>
-        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_projectOnOriginalMesh</qualifiedname>
-        <initializer>=  76</initializer>
+        <name>_offsetof_progressCallback</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_progressCallback</qualifiedname>
+        <initializer>=  184</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -257,6 +257,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a7bf72106045baa38bf538eebfefa5ded" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_projectOnOriginalMesh</qualifiedname>
+        <initializer>=  84</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45538" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a647199614fffd914b744dd8a7d7dff97" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -271,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45538" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45539" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1affaf6329dc31c02ac59423fb8b1f588d" prot="protected" static="yes" mutable="no">
         <type>typing</type>
@@ -279,22 +294,7 @@
         <argsstring></argsstring>
         <name>_offsetof_smoothMode</name>
         <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_smoothMode</qualifiedname>
-        <initializer>=  68</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45539" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1af521ef6822495773538011625f745ab6" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_subdivideBorder</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_subdivideBorder</name>
-        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_subdivideBorder</qualifiedname>
-        <initializer>=  56</initializer>
+        <initializer>=  76</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -302,6 +302,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1af521ef6822495773538011625f745ab6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_subdivideBorder</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_subdivideBorder</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_subdivideBorder</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45541" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -325,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45543" bodyend="45544"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45544" bodyend="45545"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref></type>
@@ -347,7 +362,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45547" bodyend="45548"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45548" bodyend="45549"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref></type>
@@ -369,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45551" bodyend="45552"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45552" bodyend="45553"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -389,7 +404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45554" bodyend="45555"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45555" bodyend="45556"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a0bdec7f52e1b3067e2b5858957b2d1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -413,12 +428,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45557" bodyend="45560"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45558" bodyend="45561"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a89492c2898ade0fd5071b7a1d977ab3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a1c8a46ddcbbaae0e5b781ed4c170319a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.SubdivideSettings.__init__</definition>
-        <argsstring>(self, float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, FaceBitSet region, FaceBitSet maintainRegion, UndirectedEdgeBitSet notFlippable, VertBitSet newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, func_bool_from_Id_EdgeTag beforeEdgeSplit, func_void_from_Id_VertTag onVertCreated, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeSplit, func_bool_from_float progressCallback)</argsstring>
+        <argsstring>(self, float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, FaceBitSet region, FaceBitSet maintainRegion, UndirectedEdgeBitSet notFlippable, bool onlyNearNotFlippable, VertBitSet newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, func_bool_from_Id_EdgeTag beforeEdgeSplit, func_void_from_Id_VertTag onVertCreated, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeSplit, func_bool_from_float progressCallback)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SubdivideSettings.__init__</qualifiedname>
         <param>
@@ -460,6 +475,10 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
           <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyNearNotFlippable</declname>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -513,7 +532,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45562" bodyend="45565"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45563" bodyend="45566"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a05e725e668c0d998e738738fe206b573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
@@ -533,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45567" bodyend="45570"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45568" bodyend="45571"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a27c28eb041431a83070e2babba9f2d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -555,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45572" bodyend="45573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45573" bodyend="45574"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a5c6c116f7e90e87b10bab532a9c6f30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -577,7 +596,7 @@ Unit: rad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45575" bodyend="45580"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45576" bodyend="45581"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a82df751d969cc5bf8693139c412858ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -599,7 +618,7 @@ Unit: rad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45582" bodyend="45583"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45583" bodyend="45584"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a7c362e0341337335a4c8db2eb8698fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -620,7 +639,7 @@ thus subdivision will be finer in the regions of high curvature compared to plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45585" bodyend="45589"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45586" bodyend="45590"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a9e67e80ce849b895e47403fcaf155ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -642,7 +661,7 @@ thus subdivision will be finer in the regions of high curvature compared to plan
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45591" bodyend="45592"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45592" bodyend="45593"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a5d37f221868eef866e57ca7deae2fa96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -663,7 +682,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45594" bodyend="45598"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45595" bodyend="45599"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a0328c23966ab54c890179f10d7332486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -685,7 +704,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45600" bodyend="45601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45601" bodyend="45602"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ace671f965fc0d3666816b925e0d2da39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -705,7 +724,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45603" bodyend="45606"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45604" bodyend="45607"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a94ec9f39a65e7550172e76c62438e008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -727,7 +746,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45608" bodyend="45609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45609" bodyend="45610"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1acb81cc5514d5dc9179f655f07be40694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -747,7 +766,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45611" bodyend="45614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45612" bodyend="45615"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a4c3d5442905b8f6ab343a606ead6c78d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -769,7 +788,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45616" bodyend="45617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45617" bodyend="45618"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1aa208223b43f5f18cc52ef0f409266162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -789,7 +808,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45619" bodyend="45622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45620" bodyend="45623"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a134373da68829413710fba241c1a9c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -811,7 +830,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45624" bodyend="45625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45625" bodyend="45626"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1addb566812b27ef260468bd8ea4b78ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -831,7 +850,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45627" bodyend="45630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45628" bodyend="45631"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a06cea0acb0033d305371446598ae8fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -853,7 +872,7 @@ note that Subdivide can split faces even outside of main \\p region, so it might
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45632" bodyend="45633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45633" bodyend="45634"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a2404ecba9679a0851327ec4b016a9e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -875,7 +894,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45635" bodyend="45640"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45636" bodyend="45641"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a66f53b3a9f9b0abee4485781533ed28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -897,7 +916,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45642" bodyend="45643"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45643" bodyend="45644"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a6177cd9c8e04e7c801ad00b7b55d11aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -917,7 +936,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45645" bodyend="45648"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45646" bodyend="45649"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1aa20f4a509dd15ee7d3509a4c010ff22d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -939,7 +958,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45650" bodyend="45651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45651" bodyend="45652"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1af47d33901c93698827a6a9229dfa4998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -959,7 +978,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45653" bodyend="45656"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45654" bodyend="45657"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a6f6204371628d80a30eb5265aa13eb1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -981,7 +1000,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45658" bodyend="45659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45659" bodyend="45660"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a5f296269b1893e63ba25d8980cfd8f86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -1001,7 +1020,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45661" bodyend="45664"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45662" bodyend="45665"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a2d2a6b255768accc5b433591b1f15f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1023,7 +1042,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45666" bodyend="45667"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45667" bodyend="45668"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1af5f7e30bd31f1a5159da6777ba82bc14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
@@ -1043,7 +1062,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45669" bodyend="45672"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45670" bodyend="45673"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ab74d731d838e42f0873c60e512c245fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1065,7 +1084,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45674" bodyend="45675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45675" bodyend="45676"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a9a751973a2c1c546624a23efb854e933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
@@ -1085,7 +1104,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45677" bodyend="45680"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45678" bodyend="45681"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1adc70cc0f879301813477c216e0f4b538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1107,7 +1126,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45682" bodyend="45683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45683" bodyend="45684"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a4b6e4c34c8e35cc65912a60d49df8c43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
@@ -1127,7 +1146,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45685" bodyend="45688"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45686" bodyend="45689"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ac6ae09ef9a297e1713bdf82f486456a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1149,7 +1168,50 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45690" bodyend="45691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45691" bodyend="45692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a4d07608b2ce0e9883e4de1c041566de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SubdivideSettings.onlyNearNotFlippable</definition>
+        <argsstring>(self)</argsstring>
+        <name>onlyNearNotFlippable</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.onlyNearNotFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true, then only the edges having a vertex of their left or right triangle incident to a \\ref notFlippable edge can be split,
+so subdivision is localized near notFlippable edges; \\ref notFlippable must not be null then (nothing is split in release otherwise)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45694" bodyend="45698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ad2fe9b0ee493cef6c3718ff14c721623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.onlyNearNotFlippable</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>onlyNearNotFlippable</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.onlyNearNotFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45700" bodyend="45701"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a846b8f3fdb199f7756aeccb570ef028c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
@@ -1169,7 +1231,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45693" bodyend="45696"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45703" bodyend="45706"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ab63e1ee4ddc64937a0796bbdb9429304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1191,7 +1253,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45698" bodyend="45699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45708" bodyend="45709"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a0edfd38d91ecd3150e15a170949bfcc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1211,7 +1273,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45701" bodyend="45704"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45711" bodyend="45714"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a9bab85172669eb6c4a51bc21f2d7c4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1233,7 +1295,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45706" bodyend="45707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45716" bodyend="45717"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a66940e8716933e1f5eb63c66b640b586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -1253,7 +1315,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45709" bodyend="45712"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45719" bodyend="45722"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1adbf2bbbe25100d93a64c0e7fb9d041cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1275,7 +1337,7 @@ Please set it to a smaller value only if subdivideBorder==false, otherwise many 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45714" bodyend="45715"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45724" bodyend="45725"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a07f2ddc9bebc439a44072fe1afaa9912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1296,7 +1358,7 @@ This option works best for natural surfaces without sharp edges in between trian
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45717" bodyend="45721"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45727" bodyend="45731"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1aae9ee78b0ced1e8887628f6feabaa90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1318,7 +1380,7 @@ This option works best for natural surfaces without sharp edges in between trian
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45723" bodyend="45724"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45733" bodyend="45734"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a1da217a46731215b16a731fa6bcce32d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1339,7 +1401,7 @@ use \\ref MR::findRegionOuterFaces to find boundary faces
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45726" bodyend="45730"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45736" bodyend="45740"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a97091ccd1de279b3b591584e42779599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -1361,7 +1423,7 @@ use \\ref MR::findRegionOuterFaces to find boundary faces
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45732" bodyend="45733"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45742" bodyend="45743"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1370,12 +1432,12 @@ use \\ref MR::findRegionOuterFaces to find boundary faces
 <para><verbatim>Generated from:  MR::SubdivideSettings
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45517" bodyend="45733"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45517" bodyend="45743"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a18d250e638903bfd44b9e03c23c9a11f" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a116a49624c84131bb1311078dd875e8e" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a0bdec7f52e1b3067e2b5858957b2d1d3" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1SubdivideSettings_1a89492c2898ade0fd5071b7a1d977ab3f" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a1c8a46ddcbbaae0e5b781ed4c170319a" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1abcbf5280e0ffbc745d3e7d7f149d88df" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_beforeEdgeSplit</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a79760bfe03bb4da8b68eea77ce5c7ff1" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_criticalAspectRatioFlip</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a1bd49e36a3532be4865fa3fe89f36ea2" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_curvaturePriority</name></member>
@@ -1390,6 +1452,7 @@ use \\ref MR::findRegionOuterFaces to find boundary faces
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b502dbb9d638d0036f8db25bbb3faa0" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_newVerts</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a810c828dd52abdbbffffc675a1a839b4" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_notFlippable</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a332a2766d79a43110056899e7fefd956" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a5a7d460bdaab261a7ecca4a2f3e5378d" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_onlyNearNotFlippable</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1abbb2446434dc5529d892c8963501b9f7" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_onVertCreated</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b77ad50e492097278a241ac0257fcbd" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_progressCallback</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a7bf72106045baa38bf538eebfefa5ded" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_projectOnOriginalMesh</name></member>
@@ -1424,6 +1487,8 @@ use \\ref MR::findRegionOuterFaces to find boundary faces
       <member refid="classmrmeshpy_1_1SubdivideSettings_1ab74d731d838e42f0873c60e512c245fe" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>notFlippable</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a9a751973a2c1c546624a23efb854e933" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onEdgeSplit</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1adc70cc0f879301813477c216e0f4b538" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a4d07608b2ce0e9883e4de1c041566de7" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onlyNearNotFlippable</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1ad2fe9b0ee493cef6c3718ff14c721623" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onlyNearNotFlippable</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b6e4c34c8e35cc65912a60d49df8c43" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onVertCreated</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1ac6ae09ef9a297e1713bdf82f486456a7" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onVertCreated</name></member>
       <member refid="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>operator</name></member>

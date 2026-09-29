@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1QuadraticForm2d.html#aa789b6434b9393331c6ee8ed69275fdb":[9,3,0,0,0,1581,1],
+"classMR_1_1QuadraticForm2d.html#ac80eebf297fb48569ca8419804908570":[9,3,0,0,0,1581,9],
 "classMR_1_1QuadraticForm2d.html#acbd0ff2d4a5c8e9294f8584034f855d3":[9,3,0,0,0,1581,10],
 "classMR_1_1QuadraticForm2d.html#af362a975b60969dc75fcb2c175847e7e":[9,3,0,0,0,1581,4],
 "classMR_1_1QuadraticForm2f.html":[9,3,0,0,0,1582],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1RelaxParams.html":[9,3,0,0,0,1596],
 "classMR_1_1RelaxParams.html#a25edc7a8669087781f5180c67a704a7d":[9,3,0,0,0,1596,8],
 "classMR_1_1RelaxParams.html#a3a35234771b7e73df2d9d2ac55d86881":[9,3,0,0,0,1596,5],
-"classMR_1_1RelaxParams.html#a4e6030af260cb62a5532b8a850755064":[9,3,0,0,0,1596,3],
-"classMR_1_1RelaxParams.html#a6a77807fb4269a27dbe4ed779b218721":[9,3,0,0,0,1596,6],
-"classMR_1_1RelaxParams.html#aa6b4edf72ee6909bde7dbba353ccb623":[9,3,0,0,0,1596,0]
+"classMR_1_1RelaxParams.html#a4e6030af260cb62a5532b8a850755064":[9,3,0,0,0,1596,3]
 };

@@ -2,7 +2,7 @@ var classmrmeshpy_1_1SubdivideSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a116a49624c84131bb1311078dd875e8e", null ],
     [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a0bdec7f52e1b3067e2b5858957b2d1d3", null ],
-    [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a89492c2898ade0fd5071b7a1d977ab3f", null ],
+    [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a1c8a46ddcbbaae0e5b781ed4c170319a", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1SubdivideSettings.html#a05e725e668c0d998e738738fe206b573", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1SubdivideSettings.html#a27c28eb041431a83070e2babba9f2d24", null ],
     [ "criticalAspectRatioFlip", "classmrmeshpy_1_1SubdivideSettings.html#a5c6c116f7e90e87b10bab532a9c6f30b", null ],
@@ -31,6 +31,8 @@ var classmrmeshpy_1_1SubdivideSettings =
     [ "notFlippable", "classmrmeshpy_1_1SubdivideSettings.html#ab74d731d838e42f0873c60e512c245fe", null ],
     [ "onEdgeSplit", "classmrmeshpy_1_1SubdivideSettings.html#a9a751973a2c1c546624a23efb854e933", null ],
     [ "onEdgeSplit", "classmrmeshpy_1_1SubdivideSettings.html#adc70cc0f879301813477c216e0f4b538", null ],
+    [ "onlyNearNotFlippable", "classmrmeshpy_1_1SubdivideSettings.html#a4d07608b2ce0e9883e4de1c041566de7", null ],
+    [ "onlyNearNotFlippable", "classmrmeshpy_1_1SubdivideSettings.html#ad2fe9b0ee493cef6c3718ff14c721623", null ],
     [ "onVertCreated", "classmrmeshpy_1_1SubdivideSettings.html#a4b6e4c34c8e35cc65912a60d49df8c43", null ],
     [ "onVertCreated", "classmrmeshpy_1_1SubdivideSettings.html#ac6ae09ef9a297e1713bdf82f486456a7", null ],
     [ "progressCallback", "classmrmeshpy_1_1SubdivideSettings.html#a846b8f3fdb199f7756aeccb570ef028c", null ],

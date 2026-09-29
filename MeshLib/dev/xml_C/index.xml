@@ -16008,6 +16008,9 @@
     <member refid="MRMeshSubdivide_8h_1a3b59f64b14ad28d3723245784cfa35f1" kind="function"><name>MR_SubdivideSettings_Get_notFlippable</name></member>
     <member refid="MRMeshSubdivide_8h_1aa4fd93c8c6f7d7202abc2b461d28d4cc" kind="function"><name>MR_SubdivideSettings_Set_notFlippable</name></member>
     <member refid="MRMeshSubdivide_8h_1aa4a8b5b1b83e3877b5c76d14810ab80f" kind="function"><name>MR_SubdivideSettings_GetMutable_notFlippable</name></member>
+    <member refid="MRMeshSubdivide_8h_1a4563b832bea1b3b352fb5cb70953227a" kind="function"><name>MR_SubdivideSettings_Get_onlyNearNotFlippable</name></member>
+    <member refid="MRMeshSubdivide_8h_1aa926977a42713abe58aa5b72d772f72e" kind="function"><name>MR_SubdivideSettings_Set_onlyNearNotFlippable</name></member>
+    <member refid="MRMeshSubdivide_8h_1a4ca669945ca96b7d61581bee7cb5fe55" kind="function"><name>MR_SubdivideSettings_GetMutable_onlyNearNotFlippable</name></member>
     <member refid="MRMeshSubdivide_8h_1a12ebeea40373bc67e5f2f9919b4c7dd4" kind="function"><name>MR_SubdivideSettings_Get_newVerts</name></member>
     <member refid="MRMeshSubdivide_8h_1a7b5a53e96f00b13f6bd092e110d0f37d" kind="function"><name>MR_SubdivideSettings_Set_newVerts</name></member>
     <member refid="MRMeshSubdivide_8h_1ae72b69a82f70bc466b17e7dafa8f37c7" kind="function"><name>MR_SubdivideSettings_GetMutable_newVerts</name></member>
@@ -16043,7 +16046,7 @@
     <member refid="MRMeshSubdivide_8h_1a2e34efdd70683dcbb0cdcea94f184306" kind="function"><name>MR_SubdivideSettings_GetMutable_progressCallback</name></member>
     <member refid="MRMeshSubdivide_8h_1a268b38eeac9b3f07910d2f93b995e963" kind="function"><name>MR_SubdivideSettings_DefaultConstruct</name></member>
     <member refid="MRMeshSubdivide_8h_1a3bbf36e4fe6125db820bba0c24d28298" kind="function"><name>MR_SubdivideSettings_DefaultConstructArray</name></member>
-    <member refid="MRMeshSubdivide_8h_1a1be34b790a8ac9a642748ebba736693b" kind="function"><name>MR_SubdivideSettings_ConstructFrom</name></member>
+    <member refid="MRMeshSubdivide_8h_1affd06140bf1da89547134292428b647f" kind="function"><name>MR_SubdivideSettings_ConstructFrom</name></member>
     <member refid="MRMeshSubdivide_8h_1a6b4f7e7b0f0ed46d93013ec6bd0360de" kind="function"><name>MR_SubdivideSettings_OffsetPtr</name></member>
     <member refid="MRMeshSubdivide_8h_1a4f6a9f1c14a318cf5070b1d2f8975fa8" kind="function"><name>MR_SubdivideSettings_OffsetMutablePtr</name></member>
     <member refid="MRMeshSubdivide_8h_1a8911145e55d57f9446b4bb88a7ea78c5" kind="function"><name>MR_SubdivideSettings_ConstructFromAnother</name></member>

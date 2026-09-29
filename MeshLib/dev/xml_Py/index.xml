@@ -23914,6 +23914,7 @@
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a810c828dd52abdbbffffc675a1a839b4" kind="variable"><name>_offsetof_notFlippable</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a332a2766d79a43110056899e7fefd956" kind="variable"><name>_offsetof_onEdgeSplit</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1abbb2446434dc5529d892c8963501b9f7" kind="variable"><name>_offsetof_onVertCreated</name></member>
+    <member refid="classmrmeshpy_1_1SubdivideSettings_1a5a7d460bdaab261a7ecca4a2f3e5378d" kind="variable"><name>_offsetof_onlyNearNotFlippable</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b77ad50e492097278a241ac0257fcbd" kind="variable"><name>_offsetof_progressCallback</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a7bf72106045baa38bf538eebfefa5ded" kind="variable"><name>_offsetof_projectOnOriginalMesh</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a647199614fffd914b744dd8a7d7dff97" kind="variable"><name>_offsetof_region</name></member>
@@ -23924,7 +23925,7 @@
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a116a49624c84131bb1311078dd875e8e" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a0bdec7f52e1b3067e2b5858957b2d1d3" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1SubdivideSettings_1a89492c2898ade0fd5071b7a1d977ab3f" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1SubdivideSettings_1a1c8a46ddcbbaae0e5b781ed4c170319a" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a05e725e668c0d998e738738fe206b573" kind="function"><name>beforeEdgeSplit</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a27c28eb041431a83070e2babba9f2d24" kind="function"><name>beforeEdgeSplit</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a5c6c116f7e90e87b10bab532a9c6f30b" kind="function"><name>criticalAspectRatioFlip</name></member>
@@ -23955,6 +23956,8 @@
     <member refid="classmrmeshpy_1_1SubdivideSettings_1adc70cc0f879301813477c216e0f4b538" kind="function"><name>onEdgeSplit</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b6e4c34c8e35cc65912a60d49df8c43" kind="function"><name>onVertCreated</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1ac6ae09ef9a297e1713bdf82f486456a7" kind="function"><name>onVertCreated</name></member>
+    <member refid="classmrmeshpy_1_1SubdivideSettings_1a4d07608b2ce0e9883e4de1c041566de7" kind="function"><name>onlyNearNotFlippable</name></member>
+    <member refid="classmrmeshpy_1_1SubdivideSettings_1ad2fe9b0ee493cef6c3718ff14c721623" kind="function"><name>onlyNearNotFlippable</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a846b8f3fdb199f7756aeccb570ef028c" kind="function"><name>progressCallback</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1ab63e1ee4ddc64937a0796bbdb9429304" kind="function"><name>progressCallback</name></member>
     <member refid="classmrmeshpy_1_1SubdivideSettings_1a0edfd38d91ecd3150e15a170949bfcc2" kind="function"><name>projectOnOriginalMesh</name></member>

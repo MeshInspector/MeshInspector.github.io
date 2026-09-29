@@ -1,5 +1,8 @@
 var NAVTREEINDEX169 =
 {
+"std__vector__MR__BallPivotCandidate_8h.html#aa81d6265beb09a428f50e96e39a684ff":[9,2,2,0,0,0,0,2,422,19],
+"std__vector__MR__BallPivotCandidate_8h.html#aab6f3e1f61f8d116e9fbe31a2980a882":[9,2,2,0,0,0,0,2,422,10],
+"std__vector__MR__BallPivotCandidate_8h.html#aac444c5d9b020190fae149953c2bf879":[9,2,2,0,0,0,0,2,422,6],
 "std__vector__MR__BallPivotCandidate_8h.html#ab363976295406b9556262a1367ebbde5":[9,2,2,0,0,0,0,2,422,5],
 "std__vector__MR__BallPivotCandidate_8h.html#ab42a995392b7ea842c8e7d1b06f0eb85":[9,2,2,0,0,0,0,2,422,9],
 "std__vector__MR__BallPivotCandidate_8h.html#ab4c4c98643f55f44397250f4842c4179":[9,2,2,0,0,0,0,2,422,40],
@@ -246,8 +249,5 @@ var NAVTREEINDEX169 =
 "std__vector__MR__Color_8h.html#aed21376e861434be65c51427539b533e":[9,2,2,0,0,0,0,2,425,9],
 "std__vector__MR__Color_8h.html#af3d3c664264801033948074f41d3c031":[9,2,2,0,0,0,0,2,425,63],
 "std__vector__MR__Color_8h.html#af4a98204634af4abd7c39a3cdb48d284":[9,2,2,0,0,0,0,2,425,27],
-"std__vector__MR__Color_8h.html#af7815cb5faf66ab782346f7c113a0827":[9,2,2,0,0,0,0,2,425,56],
-"std__vector__MR__Color_8h_source.html":[9,2,2,0,0,0,0,2,425],
-"std__vector__MR__CurvePoint_8h.html":[9,2,2,0,0,0,0,2,426],
-"std__vector__MR__CurvePoint_8h.html#a02bd83b3d0036cb140f5f4c281f261f9":[9,2,2,0,0,0,0,2,426,34]
+"std__vector__MR__Color_8h.html#af7815cb5faf66ab782346f7c113a0827":[9,2,2,0,0,0,0,2,425,56]
 };

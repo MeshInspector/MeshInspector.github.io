@@ -31814,6 +31814,7 @@
     <member refid="classMR_1_1Const__SubdivideSettings_1a82103d3a3becdb348dd69f759ecc9b25" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1aa7b5c3182a8181ed2703c5b8e3082a5d" kind="property"><name>maintainRegion</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a55678e5b98c45bf1bca2329bdb8f40af" kind="property"><name>notFlippable</name></member>
+    <member refid="classMR_1_1Const__SubdivideSettings_1a5f1ca49006752c6c77b8646773ea91f9" kind="property"><name>onlyNearNotFlippable</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1aad53b86309320b8d8bbab9b5b1b51ce8" kind="property"><name>newVerts</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a5f51e469c9d65d679bccf514fe793c33" kind="property"><name>subdivideBorder</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1ab35fb47ec829ec29ae931dc6f13eb620" kind="property"><name>maxTriAspectRatio</name></member>
@@ -31834,6 +31835,7 @@
     <member refid="classMR_1_1Const__SubdivideSettings_1a4fe96a0f5d438ed9abde58eb846cda23" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a098b85653e15883ddb0721844ba615c8" kind="variable"><name>__ptr_storage_maintainRegion</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a437c7a3fac90b99934a08a339de96828" kind="variable"><name>__ptr_storage_notFlippable</name></member>
+    <member refid="classMR_1_1Const__SubdivideSettings_1ab39809f35c8cd011098a5ba99d35555b" kind="variable"><name>__ref_storage_onlyNearNotFlippable</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1ac39d6804c45a7328fb13e1daefb4cc28" kind="variable"><name>__ptr_storage_newVerts</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a2c00194c6d29c0a0efbd534dd7a4b6d9" kind="variable"><name>__ref_storage_subdivideBorder</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a0ca39d0b6cba1bd765fe3fe5c8f3c50c" kind="variable"><name>__ref_storage_maxTriAspectRatio</name></member>
@@ -31844,13 +31846,13 @@
     <member refid="classMR_1_1Const__SubdivideSettings_1aa18a50333e2cfad6bea54eda05478d1f" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1ad200f99ae39e2c98e04f0e26a621f6a2" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a14fd7dd1a38583764e857562c06685a3" kind="function"><name>Const_SubdivideSettings</name></member>
-    <member refid="classMR_1_1Const__SubdivideSettings_1ac71d211ccf0190830152c95eb3603e8b" kind="function"><name>Const_SubdivideSettings</name></member>
+    <member refid="classMR_1_1Const__SubdivideSettings_1ac1c14b21f874ef5b44c803c40cb4c17e" kind="function"><name>Const_SubdivideSettings</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a188023ed4a15e58cb7783f4f1a85324d" kind="function"><name>Const_SubdivideSettings</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a3664ca2c880c12fcf523182869c4dc82" kind="function"><name>Const_SubdivideSettings</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1acc527c301f6bd4852405291464a392af" kind="function"><name>Const_SubdivideSettings</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a5ca24dfdf3294a82df118ffc009b999f" kind="function"><name>~Const_SubdivideSettings</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1ada11d7fcec62ceccf62c36f926699306" kind="function"><name>Const_SubdivideSettings</name></member>
-    <member refid="classMR_1_1Const__SubdivideSettings_1a576636211603c16106e09cc04d07867a" kind="function"><name>__MR_SubdivideSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__SubdivideSettings_1a4bc3fcfc153b1de759dd28902f474512" kind="function"><name>__MR_SubdivideSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a20cd0ae655cd78bed94ff7dd83b8bf10" kind="function"><name>__MR_SubdivideSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1af5388511aea6bcb4388fa76d5d9307b3" kind="function"><name>__MR_SubdivideSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a04d0765095f5de5cc21adedb2af6df7a" kind="function"><name>__MR_SubdivideSettings_Destroy</name></member>
@@ -31869,6 +31871,7 @@
     <member refid="classMR_1_1Const__SubdivideSettings_1a3a1a1a4a26dd8b00d2c7a5f690a5bff2" kind="function"><name>__MR_SubdivideSettings_Get_notFlippable</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a555b9505de357933ee89e940f27f1078" kind="function"><name>__MR_SubdivideSettings_Get_onEdgeSplit</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a2521a1ee3be162b1bd547c3e5b484a9d" kind="function"><name>__MR_SubdivideSettings_Get_onVertCreated</name></member>
+    <member refid="classMR_1_1Const__SubdivideSettings_1a034459ee020088af007b572aa2a665ca" kind="function"><name>__MR_SubdivideSettings_Get_onlyNearNotFlippable</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1ab3959a7f1528ec65585c55b6730a2b51" kind="function"><name>__MR_SubdivideSettings_Get_progressCallback</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a834232cc1f85aa1591fcf14cac1a0929" kind="function"><name>__MR_SubdivideSettings_Get_projectOnOriginalMesh</name></member>
     <member refid="classMR_1_1Const__SubdivideSettings_1a349da59783d687899e6f3647d5e53b2e" kind="function"><name>__MR_SubdivideSettings_Get_region</name></member>
@@ -62604,6 +62607,7 @@
     <member refid="classMR_1_1SubdivideSettings_1a7679fba5e7715c7052d5c7a097898dc3" kind="property"><name>region</name></member>
     <member refid="classMR_1_1SubdivideSettings_1aef7b0f16597505fa1847a9a38cb3164c" kind="property"><name>maintainRegion</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a0495785f822f1b829565b004006de39c" kind="property"><name>notFlippable</name></member>
+    <member refid="classMR_1_1SubdivideSettings_1a131861ed416d7c8d2607e50ea275eaa3" kind="property"><name>onlyNearNotFlippable</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a108c3d36d349b49603585bfe72c890a3" kind="property"><name>newVerts</name></member>
     <member refid="classMR_1_1SubdivideSettings_1aad4ac8496e56009514d91ed76ed5f65a" kind="property"><name>subdivideBorder</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a9cf86e36b3e6f9a951e3b6295ac62b33" kind="property"><name>maxTriAspectRatio</name></member>
@@ -62617,13 +62621,13 @@
     <member refid="classMR_1_1SubdivideSettings_1a51fdaba9b5394dd86567d88d04f9c88e" kind="property"><name>progressCallback</name></member>
     <member refid="classMR_1_1SubdivideSettings_1ad77a58af18d28d90ba42a55e50fac55f" kind="function"><name>SubdivideSettings</name></member>
     <member refid="classMR_1_1SubdivideSettings_1afab9ec8867cf7ea966aca70cd693d026" kind="function"><name>SubdivideSettings</name></member>
-    <member refid="classMR_1_1SubdivideSettings_1aaa7f5834055aa050171ec156870830c2" kind="function"><name>SubdivideSettings</name></member>
+    <member refid="classMR_1_1SubdivideSettings_1aa5445d7f8ce4e44a479be885013f10db" kind="function"><name>SubdivideSettings</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a77e5fc9232369309ce10093b3e9a59cd" kind="function"><name>SubdivideSettings</name></member>
     <member refid="classMR_1_1SubdivideSettings_1ae4cbe5558e198bc0824fb591d201b2dc" kind="function"><name>SubdivideSettings</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a73f6656f15457ff261608dca9bde93b0" kind="function"><name>SubdivideSettings</name></member>
     <member refid="classMR_1_1SubdivideSettings_1ac0725c0a8ca1e72ee28c30686ef32d02" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1SubdivideSettings_1acd423eed1d71cb9d6d1d673641591273" kind="function"><name>__MR_SubdivideSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1SubdivideSettings_1aefc693c4a89f0cbc68688088f86834e8" kind="function"><name>__MR_SubdivideSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1SubdivideSettings_1a5199e66056defe3d3fd5f53820f75204" kind="function"><name>__MR_SubdivideSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a31356cb524ac81dcaaa42b22322e7d3e" kind="function"><name>__MR_SubdivideSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a5bea510574c8f2cc7a9ddb986b0a3d4a" kind="function"><name>__MR_SubdivideSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1SubdivideSettings_1a1d50aa4e95d6eda1793419d1c569b491" kind="function"><name>__MR_SubdivideSettings_GetMutable_beforeEdgeSplit</name></member>

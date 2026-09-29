@@ -1,5 +1,9 @@
 var NAVTREEINDEX178 =
 {
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#afed39567e694e0f0c2722c0467eeaba1":[9,1,0,0,2,1055,5],
+"classmrmeshpy_1_1std__vector__std__vector__OffsetContoursOrigins.html#afed39567e694e0f0c2722c0467eeaba1":[9,1,1,0,1,1055,5],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html":[9,1,0,0,2,1056],
+"classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html":[9,1,1,0,1,1056],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a00150c09b6d82e36dd2c83b3b21af9d5":[9,1,0,0,2,1056,8],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a00150c09b6d82e36dd2c83b3b21af9d5":[9,1,1,0,1,1056,8],
 "classmrmeshpy_1_1std__vector__std__vector__PlanarTriangulation__IntersectionInfo.html#a01ef8425e005baea29ce42f67fe0b955":[9,1,0,0,2,1056,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX178 =
 "classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4b652376716e83be2ee92f0e891d7fe6":[9,1,0,0,2,1060,1],
 "classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4b652376716e83be2ee92f0e891d7fe6":[9,1,1,0,1,1060,1],
 "classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4e85d89d99e6432776e16771c76abd57":[9,1,0,0,2,1060,26],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4e85d89d99e6432776e16771c76abd57":[9,1,1,0,1,1060,26],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5189bda9e4d7f35da942bc8866061899":[9,1,0,0,2,1060,24],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5189bda9e4d7f35da942bc8866061899":[9,1,1,0,1,1060,24],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5742a290c986baf61b607cc652a6e26c":[9,1,0,0,2,1060,23],
-"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a5742a290c986baf61b607cc652a6e26c":[9,1,1,0,1,1060,23]
+"classmrmeshpy_1_1std__vector__std__vector__Vector3__double.html#a4e85d89d99e6432776e16771c76abd57":[9,1,1,0,1,1060,26]
 };

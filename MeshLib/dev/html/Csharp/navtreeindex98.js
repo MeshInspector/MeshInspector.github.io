@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Cuda_1_1DeviceInfo.html#ac07825ad78f2c701aebae62cd191f08a":[9,3,0,0,0,1122,8,7],
+"classMR_1_1Cuda_1_1DeviceInfo.html#aeeee0b7998b6a346da8d2b9b690e88a2":[9,3,0,0,0,1122,8,9],
 "classMR_1_1Cuda_1_1DeviceInfo.html#af397eafc978a888df0fb3a95af799086":[9,3,0,0,0,1122,8,2],
 "classMR_1_1Cuda_1_1FastWindingNumber.html":[9,3,0,0,0,1122,9],
 "classMR_1_1Cuda_1_1FastWindingNumber.html#a0b60cf60ef59820e7801f56523f4490f":[9,3,0,0,0,1122,9,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1DecimateSettings.html#a300c3b2ad9203e21162b89faf44bb048":[9,3,0,0,0,1135,6],
 "classMR_1_1DecimateSettings.html#a3aaf8b1370e2f9ecdcbaba611b7a9fb9":[9,3,0,0,0,1135,17],
 "classMR_1_1DecimateSettings.html#a41a5f86701c05809d1d01a45254b2185":[9,3,0,0,0,1135,5],
-"classMR_1_1DecimateSettings.html#a492c1ffd1bc957984b1d0f955ad47706":[9,3,0,0,0,1135,25],
-"classMR_1_1DecimateSettings.html#a4984b848772dfb665350a9ba3696eec5":[9,3,0,0,0,1135,27],
-"classMR_1_1DecimateSettings.html#a5e9863ef259f30192b2acbc1b3a78ec6":[9,3,0,0,0,1135,32]
+"classMR_1_1DecimateSettings.html#a492c1ffd1bc957984b1d0f955ad47706":[9,3,0,0,0,1135,25]
 };

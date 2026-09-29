@@ -1,7 +1,7 @@
 var classMR_1_1SubdivideSettings =
 [
     [ "SubdivideSettings", "classMR_1_1SubdivideSettings.html#afab9ec8867cf7ea966aca70cd693d026", null ],
-    [ "SubdivideSettings", "classMR_1_1SubdivideSettings.html#aaa7f5834055aa050171ec156870830c2", null ],
+    [ "SubdivideSettings", "classMR_1_1SubdivideSettings.html#aa5445d7f8ce4e44a479be885013f10db", null ],
     [ "SubdivideSettings", "classMR_1_1SubdivideSettings.html#a77e5fc9232369309ce10093b3e9a59cd", null ],
     [ "SubdivideSettings", "classMR_1_1SubdivideSettings.html#ae4cbe5558e198bc0824fb591d201b2dc", null ],
     [ "SubdivideSettings", "classMR_1_1SubdivideSettings.html#a73f6656f15457ff261608dca9bde93b0", null ],
@@ -20,6 +20,7 @@ var classMR_1_1SubdivideSettings =
     [ "newVerts", "classMR_1_1SubdivideSettings.html#a108c3d36d349b49603585bfe72c890a3", null ],
     [ "notFlippable", "classMR_1_1SubdivideSettings.html#a0495785f822f1b829565b004006de39c", null ],
     [ "onEdgeSplit", "classMR_1_1SubdivideSettings.html#a9c75413018666bf1b5424c3a3f32b36e", null ],
+    [ "onlyNearNotFlippable", "classMR_1_1SubdivideSettings.html#a131861ed416d7c8d2607e50ea275eaa3", null ],
     [ "onVertCreated", "classMR_1_1SubdivideSettings.html#a6ba97724b1aedb3e238b362961af1575", null ],
     [ "progressCallback", "classMR_1_1SubdivideSettings.html#a51fdaba9b5394dd86567d88d04f9c88e", null ],
     [ "projectOnOriginalMesh", "classMR_1_1SubdivideSettings.html#a274ef1ce22ba407fe9a21296ca6bd856", null ],

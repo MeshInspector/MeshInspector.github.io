@@ -148,6 +148,22 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshSubdivide.h" line="48" column="26" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="48" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a68f313c1c37f0aae1d9da0aaf296225c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SubdivideSettings::onlyNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>onlyNearNotFlippable</name>
+        <qualifiedname>MR::SubdivideSettings::onlyNearNotFlippable</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true, then only the edges having a vertex of their left or right triangle incident to a <ref refid="structMR_1_1SubdivideSettings_1acb648b35ff705d5ee52cdae10e7cb9b5" kindref="member">notFlippable</ref> edge can be split, so subdivision is localized near notFlippable edges; <ref refid="structMR_1_1SubdivideSettings_1acb648b35ff705d5ee52cdae10e7cb9b5" kindref="member">notFlippable</ref> must not be null then (nothing is split in release otherwise) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSubdivide.h" line="52" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1af4c50e1143edfb7886c734be3226ff9d" prot="public" static="no" mutable="no">
         <type>VertBitSet *</type>
         <definition>VertBitSet* MR::SubdivideSettings::newVerts</definition>
@@ -162,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="51" column="17" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="51" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="55" column="17" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a9288f9c5670484c0f76b53be1311b3cc" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -179,7 +195,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="55" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="55" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="59" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a33de3142a2aa3715df6e72e27478d3e1" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -195,7 +211,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="58" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="58" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="62" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad1664c92f743cfb7fc8dd795f7d89d9f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -211,7 +227,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="63" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="63" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="67" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a757c0278a48bf06117256165bec538c0" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -227,7 +243,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="67" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="71" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a55b830f7823b4a74b6891945bafa12a5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -243,7 +259,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="71" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="71" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="75" column="11" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a52aa2a88771ab9ca39f096cae8256c7d" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -260,7 +276,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="74" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="74" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="78" column="10" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a47209d51dfa333bfbaecd311df98c6b8" prot="public" static="no" mutable="no">
         <type>std::function&lt; bool(EdgeId e)&gt;</type>
@@ -275,7 +291,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="77" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="77" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="81" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a9e8653d42d8358f40dca297f675d4111" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(VertId)&gt;</type>
@@ -290,7 +306,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="80" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="80" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="84" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
@@ -305,7 +321,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="83" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="87" column="19" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -320,14 +336,14 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSubdivide.h" line="86" column="22" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRMeshSubdivide.h" line="90" column="22" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="90" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshSubdivide.h" line="17" column="1" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="18" bodyend="87"/>
+    <location file="MRMesh/MRMeshSubdivide.h" line="17" column="1" bodyfile="MRMesh/MRMeshSubdivide.h" bodystart="18" bodyend="91"/>
     <listofallmembers>
       <member refid="structMR_1_1SubdivideSettings_1a47209d51dfa333bfbaecd311df98c6b8" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
       <member refid="structMR_1_1SubdivideSettings_1a772aa28ef31f33140c7b3f6bfbc36d30" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
@@ -343,6 +359,7 @@ use <ref refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kindref
       <member refid="structMR_1_1SubdivideSettings_1af4c50e1143edfb7886c734be3226ff9d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>newVerts</name></member>
       <member refid="structMR_1_1SubdivideSettings_1acb648b35ff705d5ee52cdae10e7cb9b5" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>notFlippable</name></member>
       <member refid="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a68f313c1c37f0aae1d9da0aaf296225c" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>onlyNearNotFlippable</name></member>
       <member refid="structMR_1_1SubdivideSettings_1a9e8653d42d8358f40dca297f675d4111" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>onVertCreated</name></member>
       <member refid="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>progressCallback</name></member>
       <member refid="structMR_1_1SubdivideSettings_1a52aa2a88771ab9ca39f096cae8256c7d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>

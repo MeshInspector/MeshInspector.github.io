@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TransparencyMode.html":[9,0,0,20,488],
 "structMR_1_1TriIntersectResult.html":[9,0,0,0,10,0],
 "structMR_1_1TriIntersectResult.html#a48df7c0ab186bb4fc08a19d5729ecf0d":[9,0,0,0,10,0,0],
 "structMR_1_1TriIntersectResult.html#afcfc8df6cc0634cb7eee48bd5186099f":[9,0,0,0,10,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1Vector2.html#a6deeb9fc80b0d29ccbfa306b2aa4a33b":[9,0,0,0,12,0,39],
 "structMR_1_1Vector2.html#a6f79f1540d91026fb17aebbcf6e6d9dc":[9,0,0,0,12,0,3],
 "structMR_1_1Vector2.html#a6ff45773ec0657ef8d168ab6b82400d2":[9,0,0,0,12,0,16],
-"structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5":[9,0,0,0,12,0,0],
-"structMR_1_1Vector2.html#a7482d5a8c34fc5f6af7a5036b9d43c1c":[9,0,0,0,12,0,14]
+"structMR_1_1Vector2.html#a74579bfbb9d532d53c66684a02dc8cb5":[9,0,0,0,12,0,0]
 };

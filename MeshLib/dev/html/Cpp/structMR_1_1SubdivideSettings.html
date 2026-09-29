@@ -163,6 +163,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acfa476aa1e7c9c2507f12fde82a81f8f" id="r_acfa476aa1e7c9c2507f12fde82a81f8f"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfa476aa1e7c9c2507f12fde82a81f8f">maintainRegion</a> = nullptr</td></tr>
 <tr class="memitem:acb648b35ff705d5ee52cdae10e7cb9b5" id="r_acb648b35ff705d5ee52cdae10e7cb9b5"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb648b35ff705d5ee52cdae10e7cb9b5">notFlippable</a> = nullptr</td></tr>
 <tr class="memdesc:acb648b35ff705d5ee52cdae10e7cb9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation.  <br /></td></tr>
+<tr class="memitem:a68f313c1c37f0aae1d9da0aaf296225c" id="r_a68f313c1c37f0aae1d9da0aaf296225c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68f313c1c37f0aae1d9da0aaf296225c">onlyNearNotFlippable</a> = false</td></tr>
 <tr class="memitem:af4c50e1143edfb7886c734be3226ff9d" id="r_af4c50e1143edfb7886c734be3226ff9d"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4c50e1143edfb7886c734be3226ff9d">newVerts</a> = nullptr</td></tr>
 <tr class="memdesc:af4c50e1143edfb7886c734be3226ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">New vertices appeared during subdivision will be added here.  <br /></td></tr>
 <tr class="memitem:a9288f9c5670484c0f76b53be1311b3cc" id="r_a9288f9c5670484c0f76b53be1311b3cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9288f9c5670484c0f76b53be1311b3cc">subdivideBorder</a> = true</td></tr>
@@ -399,6 +400,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </p>
+
+</div>
+</div>
+<a id="a68f313c1c37f0aae1d9da0aaf296225c" name="a68f313c1c37f0aae1d9da0aaf296225c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f313c1c37f0aae1d9da0aaf296225c">&#9670;&#160;</a></span>onlyNearNotFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SubdivideSettings::onlyNearNotFlippable = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true, then only the edges having a vertex of their left or right triangle incident to a <a class="el" href="#acb648b35ff705d5ee52cdae10e7cb9b5">notFlippable</a> edge can be split, so subdivision is localized near notFlippable edges; <a class="el" href="#acb648b35ff705d5ee52cdae10e7cb9b5">notFlippable</a> must not be null then (nothing is split in release otherwise) </p>
 
 </div>
 </div>
