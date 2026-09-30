@@ -126926,6 +126926,25 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRObjectMeshData.h" line="42" column="24" declfile="MRMesh/MRObjectMeshData.h" declline="42" declcolumn="24"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga72798ab7c805da2fe840f2648569b52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::resizeAttributesToMesh</definition>
+        <argsstring>(ObjectMeshData &amp;data)</argsstring>
+        <name>resizeAttributesToMesh</name>
+        <qualifiedname>MR::resizeAttributesToMesh</qualifiedname>
+        <param>
+          <type>ObjectMeshData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty face attribute to faceSize(), the added elements get default values, and the added faces in texturePerFace get the first texture </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectMeshData.h" line="46" column="7" declfile="MRMesh/MRObjectMeshData.h" declline="46" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga37d2a428bd3835007572b583f596f4b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::ObjectMeshHolder::ObjectMeshHolder</definition>

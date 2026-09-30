@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a85d067a17942985e46a6f5e2dc15486f":[9,3,0,0,0,1533,4,7],
 "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a8873af129e104e167ce894159cf2b6b7":[9,3,0,0,0,1533,4,1],
 "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a9855cb3f5bd84f31975baef4d74f8401":[9,3,0,0,0,1533,4,3],
 "classMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#aadde6b9e009df5f183cf56dae23aa58a":[9,3,0,0,0,1533,4,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1PolylineMaker.html":[9,3,0,0,0,1548],
 "classMR_1_1PolylineMaker.html#a3952edf1d75c0a65c17df9a9f478c2c7":[9,3,0,0,0,1548,3],
 "classMR_1_1PolylineMaker.html#a4ecb70c3e0427effbde5957da9bee29a":[9,3,0,0,0,1548,5],
-"classMR_1_1PolylineMaker.html#a5f2b3eaf22e7022cb177fcbe4764d27c":[9,3,0,0,0,1548,0],
-"classMR_1_1PolylineMaker.html#a7e6e2e421f520b268a693f34b4b1827e":[9,3,0,0,0,1548,2]
+"classMR_1_1PolylineMaker.html#a5f2b3eaf22e7022cb177fcbe4764d27c":[9,3,0,0,0,1548,0]
 };

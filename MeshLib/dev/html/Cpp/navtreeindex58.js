@@ -1,7 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"group__SurfacePathGroup.html#gaa884a58991fce08349f987c0a54c5320":[9,0,0,20,2613],
 "group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549":[9,0,0,16,65],
-"group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549":[9,0,0,20,6861],
+"group__SurfacePathGroup.html#gaabc40dcee3ba22d445c0f838f170d549":[9,0,0,20,6862],
 "group__SurfacePathGroup.html#gaae44493b7ad45bf11d4a455ce5694ecd":[9,0,0,16,48],
 "group__SurfacePathGroup.html#gaae44493b7ad45bf11d4a455ce5694ecd":[9,0,0,20,2930],
 "group__SurfacePathGroup.html#gab11dcd26158decf73bbbaafe28944456":[9,0,0,16,28],
@@ -15,7 +16,7 @@ var NAVTREEINDEX58 =
 "group__SurfacePathGroup.html#gac13992e29bf5dd0ada3fdd1fa5f12f18":[9,0,0,16,7],
 "group__SurfacePathGroup.html#gac13992e29bf5dd0ada3fdd1fa5f12f18":[9,0,0,20,2011],
 "group__SurfacePathGroup.html#gac4206d9b8cd70351f464480a31eb6991":[9,0,0,16,64],
-"group__SurfacePathGroup.html#gac4206d9b8cd70351f464480a31eb6991":[9,0,0,20,6105],
+"group__SurfacePathGroup.html#gac4206d9b8cd70351f464480a31eb6991":[9,0,0,20,6106],
 "group__SurfacePathGroup.html#gac69eac289f7c94aff94e7e9db7ed8a62":[9,0,0,16,61],
 "group__SurfacePathGroup.html#gac69eac289f7c94aff94e7e9db7ed8a62":[9,0,0,20,4419],
 "group__SurfacePathGroup.html#gacb71fc9052e9e4c153a7016b45e70a83":[9,0,0,16,56],
@@ -31,7 +32,7 @@ var NAVTREEINDEX58 =
 "group__SurfacePathGroup.html#gae15f3e648c515cf6d02ec75c41495027":[9,0,0,16,31],
 "group__SurfacePathGroup.html#gae15f3e648c515cf6d02ec75c41495027":[9,0,0,20,2646],
 "group__SurfacePathGroup.html#gae1c98eba979eff47ecbc85819055f406":[9,0,0,16,63],
-"group__SurfacePathGroup.html#gae1c98eba979eff47ecbc85819055f406":[9,0,0,20,6104],
+"group__SurfacePathGroup.html#gae1c98eba979eff47ecbc85819055f406":[9,0,0,20,6105],
 "group__SurfacePathGroup.html#gae474ab43755b30ced4f02ee56022a3eb":[9,0,0,16,15],
 "group__SurfacePathGroup.html#gae474ab43755b30ced4f02ee56022a3eb":[9,0,0,20,2019],
 "group__SurfacePathGroup.html#gae6fc4363ac2ee20b54f4f7f52d8a296c":[9,0,0,16,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "hierarchy.html":[9,0,2,2],
 "index.html":[],
 "namespaceImGui.html":[9,0,1,0,0],
-"namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[9,0,1,0,0,27],
-"namespaceImGui.html#a0d41b8541cb776c3dd51831a279e1166":[9,0,1,0,0,8]
+"namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[9,0,1,0,0,27]
 };

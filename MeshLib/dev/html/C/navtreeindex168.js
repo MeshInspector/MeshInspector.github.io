@@ -1,5 +1,6 @@
 var NAVTREEINDEX168 =
 {
+"std__vector__MR__AABBTreePoints__Point_8h.html#a059102f078a93e37737fe884db8c9684":[9,2,2,0,0,0,0,2,419,22],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a064ec348ab1b49dff3eff8d0bb4b959c":[9,2,2,0,0,0,0,2,419,21],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a078e7f4b71d287ca874ea4d2b2c459be":[9,2,2,0,0,0,0,2,419,10],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a0b2bf53b686eabe75839c499c12214e0":[9,2,2,0,0,0,0,2,419,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX168 =
 "std__vector__MR__BallPivotCandidate_8h.html#a456e24e56a51ff12784b30aefb79c9ce":[9,2,2,0,0,0,0,2,422,42],
 "std__vector__MR__BallPivotCandidate_8h.html#a4c053981ba13c65826e88f9b5f731bce":[9,2,2,0,0,0,0,2,422,35],
 "std__vector__MR__BallPivotCandidate_8h.html#a52646ee1ac927cd76807932ff382cfae":[9,2,2,0,0,0,0,2,422,45],
-"std__vector__MR__BallPivotCandidate_8h.html#a579e5db357f1ac555923cd3e69d12ab1":[9,2,2,0,0,0,0,2,422,30],
-"std__vector__MR__BallPivotCandidate_8h.html#a5835c8ece171ecaf20b9afe0eb832865":[9,2,2,0,0,0,0,2,422,32]
+"std__vector__MR__BallPivotCandidate_8h.html#a579e5db357f1ac555923cd3e69d12ab1":[9,2,2,0,0,0,0,2,422,30]
 };

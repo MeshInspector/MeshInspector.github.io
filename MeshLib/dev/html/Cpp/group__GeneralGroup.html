@@ -6556,6 +6556,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga5f3fabf962173f318cdc109b9768b8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:gaae4731717fe16466c829b33fc212802e" id="r_gaae4731717fe16466c829b33fc212802e"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae4731717fe16466c829b33fc212802e">MR::edgesBetweenDifferentColors</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceColors &amp;colors)</td></tr>
 <tr class="memdesc:gaae4731717fe16466c829b33fc212802e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different colors  <br /></td></tr>
+<tr class="memitem:ga72798ab7c805da2fe840f2648569b52f" id="r_ga72798ab7c805da2fe840f2648569b52f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72798ab7c805da2fe840f2648569b52f">MR::resizeAttributesToMesh</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data)</td></tr>
 <tr class="memitem:ga37d2a428bd3835007572b583f596f4b5" id="r_ga37d2a428bd3835007572b583f596f4b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37d2a428bd3835007572b583f596f4b5">MR::ObjectMeshHolder::ObjectMeshHolder</a> ()</td></tr>
 <tr class="memitem:ga4b6ecb13b750192ac9a2d97d8dce077f" id="r_ga4b6ecb13b750192ac9a2d97d8dce077f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b6ecb13b750192ac9a2d97d8dce077f">MR::ObjectMeshHolder::ObjectMeshHolder</a> (<a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:ga9b6725a731d27509c295fc3a0acd2bfd" id="r_ga9b6725a731d27509c295fc3a0acd2bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b6725a731d27509c295fc3a0acd2bfd">MR::ObjectMeshHolder::operator=</a> (<a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &amp;&amp;) noexcept=default</td></tr>
@@ -158326,6 +158327,26 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRViewportGL_8h.html">MRViewer/MRViewportGL.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga72798ab7c805da2fe840f2648569b52f" name="ga72798ab7c805da2fe840f2648569b52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga72798ab7c805da2fe840f2648569b52f">&#9670;&#160;</a></span>resizeAttributesToMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::resizeAttributesToMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectMeshData_8h.html">MRMesh/MRObjectMeshData.h</a>&gt;</code></p>
+<p>resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty face attribute to faceSize(), the added elements get default values, and the added faces in texturePerFace get the first texture </p>
 
 </div>
 </div>

@@ -9960,7 +9960,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5acec4e437ef0a28be3ff53f86661858" id="r_a5acec4e437ef0a28be3ff53f86661858"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1DecimateResult.html">MR.DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5acec4e437ef0a28be3ff53f86661858">decimateMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__DecimateSettings.html">MR.Const_DecimateSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a5acec4e437ef0a28be3ff53f86661858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs mesh simplification in mesh region according to the settings.  <br /></td></tr>
 <tr class="memitem:a7b23bf5afee443084bf2d9b73f988b7d" id="r_a7b23bf5afee443084bf2d9b73f988b7d"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1DecimateResult.html">MR.DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b23bf5afee443084bf2d9b73f988b7d">decimateObjectMeshData</a> (<a class="el" href="classMR_1_1ObjectMeshData.html">MR.ObjectMeshData</a> data, <a class="el" href="classMR_1_1Const__DecimateSettings.html">MR.Const_DecimateSettings</a> settings)</td></tr>
-<tr class="memdesc:a7b23bf5afee443084bf2d9b73f988b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs mesh simplification with per-element attributes according to given settings; \detail settings.region must be null, and real simplification region will be data face selection (or whole mesh if no face selection) Generated from function <span class="tt"><a class="el" href="#a7b23bf5afee443084bf2d9b73f988b7d" title="Performs mesh simplification with per-element attributes according to given settings; \detail setting...">MR.decimateObjectMeshData</a></span>.  <br /></td></tr>
+<tr class="memdesc:a7b23bf5afee443084bf2d9b73f988b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs mesh simplification with per-element attributes according to given settings; \detail settings.region limits the simplification like in decimateMesh (whole mesh if null), and face selection is not used as a region; the attributes without values for some mesh elements are padded with default values (see resizeAttributesToMesh) Generated from function <span class="tt"><a class="el" href="#a7b23bf5afee443084bf2d9b73f988b7d" title="Performs mesh simplification with per-element attributes according to given settings; \detail setting...">MR.decimateObjectMeshData</a></span>.  <br /></td></tr>
 <tr class="memitem:afae00f00c650a31e74069bcd833d5dbb" id="r_afae00f00c650a31e74069bcd833d5dbb"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRObjectMeshData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae00f00c650a31e74069bcd833d5dbb">makeDecimatedObjectMeshData</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> obj, <a class="el" href="classMR_1_1Const__DecimateSettings.html">MR.Const_DecimateSettings</a> settings, <a class="el" href="classMR_1_1DecimateResult.html">MR.DecimateResult</a>? outRes=null)</td></tr>
 <tr class="memdesc:afae00f00c650a31e74069bcd833d5dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the data of decimated mesh given <a class="el" href="classMR_1_1ObjectMesh.html" title="an object that stores a mesh Generated from class MR.ObjectMesh. Base classes: Direct: (non-virtual) ...">ObjectMesh</a> (which remains unchanged) and decimation parameters Generated from function <span class="tt"><a class="el" href="#afae00f00c650a31e74069bcd833d5dbb" title="returns the data of decimated mesh given ObjectMesh (which remains unchanged) and decimation paramete...">MR.makeDecimatedObjectMeshData</a></span>.  <br /></td></tr>
 <tr class="memitem:adaff706b1ad6559988dccaecc02410eb" id="r_adaff706b1ad6559988dccaecc02410eb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1QuadraticForm3f.html">MR.QuadraticForm3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaff706b1ad6559988dccaecc02410eb">computeFormAtVertex</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, float stabilizer, bool angleWeigted, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? creases=null)</td></tr>
@@ -10555,6 +10555,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ad30a324f52715859e7f266ece2b81b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectMesh.html" title="an object that stores a mesh Generated from class MR.ObjectMesh. Base classes: Direct: (non-virtual) ...">ObjectMesh</a> containing the region of data from input object does not copy selection Generated from function <span class="tt"><a class="el" href="#abf2d3995a2b5da287f097a77c54dea8d" title="constructs new ObjectLines containing the region of data from input object Generated from function MR...">MR.cloneRegion</a></span>. Parameter <span class="tt">copyTexture</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
 <tr class="memitem:af3df96cc0a50c769c9a2cf9a8955a9fa" id="r_af3df96cc0a50c769c9a2cf9a8955a9fa"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3df96cc0a50c769c9a2cf9a8955a9fa">edgesBetweenDifferentColors</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> colors)</td></tr>
 <tr class="memdesc:af3df96cc0a50c769c9a2cf9a8955a9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different colors Generated from function <span class="tt"><a class="el" href="#af3df96cc0a50c769c9a2cf9a8955a9fa" title="return all edges separating faces with different colors Generated from function MR....">MR.edgesBetweenDifferentColors</a></span>.  <br /></td></tr>
+<tr class="memitem:af35d732dcce7d9ac6296c4c5cc837d5b" id="r_af35d732dcce7d9ac6296c4c5cc837d5b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af35d732dcce7d9ac6296c4c5cc837d5b">resizeAttributesToMesh</a> (<a class="el" href="classMR_1_1ObjectMeshData.html">MR.ObjectMeshData</a> data)</td></tr>
+<tr class="memdesc:af35d732dcce7d9ac6296c4c5cc837d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty face attribute to faceSize(), the added elements get default values, and the added faces in texturePerFace get the first texture Generated from function <span class="tt"><a class="el" href="#af35d732dcce7d9ac6296c4c5cc837d5b" title="resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty ...">MR.resizeAttributesToMesh</a></span>.  <br /></td></tr>
 <tr class="memitem:a059921be05a898483512aca1c85bdbfd" id="r_a059921be05a898483512aca1c85bdbfd"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.SharedPtr_MRObjectPoints&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a059921be05a898483512aca1c85bdbfd">merge</a> (MR.Std.Const_Vector_StdSharedPtrMRObjectPoints objsPoints)</td></tr>
 <tr class="memdesc:a059921be05a898483512aca1c85bdbfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectPoints.html" title="an object that stores a points Generated from class MR.ObjectPoints. Base classes: Direct: (non-virtu...">ObjectPoints</a> containing the union of valid points from all input objects Generated from function <span class="tt"><a class="el" href="#aa2f4fdce7f3e976c2cf0a336acd5f4e9" title="constructs new ObjectLines containing the union of valid data from all input objects Generated from f...">MR.merge</a></span>.  <br /></td></tr>
 <tr class="memitem:ad4683de75981e3263a1f2cd0dbc7abd8" id="r_ad4683de75981e3263a1f2cd0dbc7abd8"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.SharedPtr_MRObjectPoints&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4683de75981e3263a1f2cd0dbc7abd8">cloneRegion</a> (MR.Std.Const_SharedPtr_MRObjectPoints objPoints, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a> region)</td></tr>
@@ -30401,7 +30403,7 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 </table>
 </div><div class="memdoc">
 
-<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region must be null, and real simplification region will be data face selection (or whole mesh if no face selection) Generated from function <span class="tt"><a class="el" href="#a7b23bf5afee443084bf2d9b73f988b7d" title="Performs mesh simplification with per-element attributes according to given settings; \detail setting...">MR.decimateObjectMeshData</a></span>. </p>
+<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region limits the simplification like in decimateMesh (whole mesh if null), and face selection is not used as a region; the attributes without values for some mesh elements are padded with default values (see resizeAttributesToMesh) Generated from function <span class="tt"><a class="el" href="#a7b23bf5afee443084bf2d9b73f988b7d" title="Performs mesh simplification with per-element attributes according to given settings; \detail setting...">MR.decimateObjectMeshData</a></span>. </p>
 
 </div>
 </div>
@@ -70292,6 +70294,33 @@ do not really keeps volume but tries hard </p>
 </div><div class="memdoc">
 
 <p>resample this grid to fit voxelScale Generated from function <span class="tt"><a class="el" href="#a4e002a0fd2b4b43a50327413ffdee323" title="resample this grid to fit voxelScale Generated from function MR.resampled. Parameter cb defaults to {...">MR.resampled</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="af35d732dcce7d9ac6296c4c5cc837d5b" name="af35d732dcce7d9ac6296c4c5cc837d5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af35d732dcce7d9ac6296c4c5cc837d5b">&#9670;&#160;</a></span>resizeAttributesToMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.resizeAttributesToMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ObjectMeshData.html">MR.ObjectMeshData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty face attribute to faceSize(), the added elements get default values, and the added faces in texturePerFace get the first texture Generated from function <span class="tt"><a class="el" href="#af35d732dcce7d9ac6296c4c5cc837d5b" title="resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty ...">MR.resizeAttributesToMesh</a></span>. </p>
 
 </div>
 </div>

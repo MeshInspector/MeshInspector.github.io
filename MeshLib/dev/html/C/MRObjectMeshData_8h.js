@@ -35,5 +35,6 @@ var MRObjectMeshData_8h =
     [ "MR_ObjectMeshData_Set_selectedFaces", "MRObjectMeshData_8h.html#a254a2bbf125d02b5a42a902a4bb9a0e2", null ],
     [ "MR_ObjectMeshData_Set_texturePerFace", "MRObjectMeshData_8h.html#a38e7ab472224f66f51c86252c019741d", null ],
     [ "MR_ObjectMeshData_Set_uvCoordinates", "MRObjectMeshData_8h.html#a49f763747499bc9b7f88ef752a859754", null ],
-    [ "MR_ObjectMeshData_Set_vertColors", "MRObjectMeshData_8h.html#aafac710217323d779e78d70b60cf2216", null ]
+    [ "MR_ObjectMeshData_Set_vertColors", "MRObjectMeshData_8h.html#aafac710217323d779e78d70b60cf2216", null ],
+    [ "MR_resizeAttributesToMesh", "MRObjectMeshData_8h.html#a4747b56b066542010f007f7c5cd7d51d", null ]
 ];

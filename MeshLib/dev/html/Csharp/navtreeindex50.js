@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Const__Graph_1_1EndVertices.html#ae72c205d402e901e71f9d9fa4f789cb0":[9,3,0,0,0,484,1,6],
 "classMR_1_1Const__GridSettings.html":[9,3,0,0,0,487],
 "classMR_1_1Const__GridSettings.html#a057789d7b4df0603f9296bb17446034d":[9,3,0,0,0,487,9],
 "classMR_1_1Const__GridSettings.html#a0cbbcaa97d83d1eb1c4d860896d9119d":[9,3,0,0,0,487,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1Const__IComputePointsToDistanceVolume.html#a485d7d66140e0a541dc258ee6482501e":[9,3,0,0,0,495,2],
 "classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html":[9,3,0,0,0,496],
 "classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html#a5bc52fc8989bf376ba556e37de27f6e0":[9,3,0,0,0,496,5],
-"classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html#a733579fec52418a02ec5aa9574b4dad2":[9,3,0,0,0,496,0],
-"classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html#a895a65ca08f223a46e21ebe6382f275c":[9,3,0,0,0,496,1]
+"classMR_1_1Const__IComputePointsToDistanceVolumeByParts.html#a733579fec52418a02ec5aa9574b4dad2":[9,3,0,0,0,496,0]
 };

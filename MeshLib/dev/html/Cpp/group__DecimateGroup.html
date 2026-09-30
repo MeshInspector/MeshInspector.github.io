@@ -385,7 +385,7 @@ After</div></div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
-<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region must be null, and real simplification region will be data face selection (or whole mesh if no face selection) </p>
+<p>Performs mesh simplification with per-element attributes according to given settings; \detail settings.region limits the simplification like in decimateMesh (whole mesh if null), and face selection is not used as a region; the attributes without values for some mesh elements are padded with default values (see resizeAttributesToMesh) </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX179 =
 {
+"std__vector__MR__Image_8h.html#a9fba20703e3c1f6d1e0608914bb30fd4":[9,2,2,0,0,0,0,2,455,65],
 "std__vector__MR__Image_8h.html#aa04a91a31a7fd4e73548896361aaa3bf":[9,2,2,0,0,0,0,2,455,60],
 "std__vector__MR__Image_8h.html#aa334a115a9a7f93f31562c279e58eda1":[9,2,2,0,0,0,0,2,455,27],
 "std__vector__MR__Image_8h.html#aa99d514d704abe374ecae352d47df23e":[9,2,2,0,0,0,0,2,455,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX179 =
 "std__vector__MR__LineSegm3f_8h.html#af2370f2513b564399cbe14aa0b8f92a2":[9,2,2,0,0,0,0,2,459,55],
 "std__vector__MR__LineSegm3f_8h.html#af30ba8fd8fd6b854b20e7b55659e0d02":[9,2,2,0,0,0,0,2,459,37],
 "std__vector__MR__LineSegm3f_8h.html#af8cc3bb170d4f4db01b3a5a352103c30":[9,2,2,0,0,0,0,2,459,17],
-"std__vector__MR__LineSegm3f_8h.html#af938611ecd550233fab884c487f55c82":[9,2,2,0,0,0,0,2,459,44],
-"std__vector__MR__LineSegm3f_8h_source.html":[9,2,2,0,0,0,0,2,459]
+"std__vector__MR__LineSegm3f_8h.html#af938611ecd550233fab884c487f55c82":[9,2,2,0,0,0,0,2,459,44]
 };

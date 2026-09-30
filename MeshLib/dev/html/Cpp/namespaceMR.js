@@ -3348,6 +3348,7 @@ var namespaceMR =
     [ "resampled", "group__BasicStructuresGroup.html#ga1bfdecc867ada4fd3525c717441a44ce", null ],
     [ "resampleVolumeByInterpolation", "group__GeneralGroup.html#gaca1f6e889fadd4d30603c3cffcf9a930", null ],
     [ "reserveKeyEvent", "group__GeneralGroup.html#gaf47bd4d66fa353bf995946804d75af4f", null ],
+    [ "resizeAttributesToMesh", "group__GeneralGroup.html#ga72798ab7c805da2fe840f2648569b52f", null ],
     [ "resizeNoInit", "group__GeneralGroup.html#gad4c1d1b7c1a447ffccea9b5d867ef98b", null ],
     [ "resolveMeshDegenerations", "group__DecimateGroup.html#ga819efdab20db83df5180d339b4ed6196", null ],
     [ "reverse", "group__SurfacePathGroup.html#gae1c98eba979eff47ecbc85819055f406", null ],

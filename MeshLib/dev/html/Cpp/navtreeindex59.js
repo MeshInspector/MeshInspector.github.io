@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"namespaceImGui.html#a0d41b8541cb776c3dd51831a279e1166":[9,0,1,0,0,8],
 "namespaceImGui.html#a1de0301581b33a2a2e592a082de3ab16":[9,0,1,0,0,33],
 "namespaceImGui.html#a216fbde95017cbd4e591842b3530da81":[9,0,1,0,0,9],
 "namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6":[9,0,1,0,0,23],
@@ -57,7 +58,7 @@ var NAVTREEINDEX59 =
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,994],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1047],
 "namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2439],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3123],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3124],
 "namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2322],
 "namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2438],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e":[9,0,1,0,1,22,6],
 "namespaceMR_1_1McpSettings.html":[9,0,1,0,1,23],
 "namespaceMR_1_1McpSettings.html#a06c69dc8895e8070a05934c88d606346":[9,0,1,0,1,23,4],
-"namespaceMR_1_1McpSettings.html#a43cbff85da43c1a0c65fc3652c084a99":[9,0,1,0,1,23,2],
-"namespaceMR_1_1McpSettings.html#a682b418dc80be930d61e6955156d7c45":[9,0,1,0,1,23,1]
+"namespaceMR_1_1McpSettings.html#a43cbff85da43c1a0c65fc3652c084a99":[9,0,1,0,1,23,2]
 };

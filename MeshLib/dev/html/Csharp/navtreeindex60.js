@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1Const__MultiwayAligningTransform.html#ad901c126cafd38936418f1c777f5dd67":[9,3,0,0,0,628,4],
 "classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer.html":[9,3,0,0,0,628,0],
 "classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer.html#a16fd87171fb18f5aefba0765f5cb1209":[9,3,0,0,0,628,0,9],
 "classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer.html#a493956f4b6ffa5212bcb0238d9b573e6":[9,3,0,0,0,628,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__NoDefInit__MRGraphVertId.html#a8efe67e8ae1ce3367eb026f9a226d387":[9,3,0,0,0,655,3],
 "classMR_1_1Const__NoDefInit__MRGraphVertId.html#a91d95c1ac0627c6dc55cf0e213d501df":[9,3,0,0,0,655,10],
 "classMR_1_1Const__NoDefInit__MRGraphVertId.html#aaf5b7b592c3c10d017111f07760353ed":[9,3,0,0,0,655,13],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#ab4f49d53a358896ff0d36f6a789d92ee":[9,3,0,0,0,655,7],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#abd78b9df51b76741a357c1807905d0f0":[9,3,0,0,0,655,0]
+"classMR_1_1Const__NoDefInit__MRGraphVertId.html#ab4f49d53a358896ff0d36f6a789d92ee":[9,3,0,0,0,655,7]
 };

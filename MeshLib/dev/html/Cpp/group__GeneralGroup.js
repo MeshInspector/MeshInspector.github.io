@@ -15169,6 +15169,7 @@ var group__GeneralGroup =
     [ "MR::Vector::resize", "group__GeneralGroup.html#gae081234bbf4fef169d61159d617cf5c6", null ],
     [ "MR::Viewer::resize", "group__GeneralGroup.html#gaa6b7ee8da360350c0e268423d8ae2ab0", null ],
     [ "MR::ViewportGL::PickTextureFrameBuffer::resize", "group__GeneralGroup.html#gaa410eb80f6dbb5feabd40e00997b629a", null ],
+    [ "MR::resizeAttributesToMesh", "group__GeneralGroup.html#ga72798ab7c805da2fe840f2648569b52f", null ],
     [ "MR::MeshTopology::resizeBeforeParallelAdd", "group__GeneralGroup.html#ga365a012f4cca05d6ad5abd4570b993cd", null ],
     [ "MR::Palette::resizeCallback_", "group__GeneralGroup.html#ga1e4aa8e46a3709d8d7d4a228cde69c11", null ],
     [ "MR::resizeNoInit", "group__GeneralGroup.html#gad4c1d1b7c1a447ffccea9b5d867ef98b", null ],

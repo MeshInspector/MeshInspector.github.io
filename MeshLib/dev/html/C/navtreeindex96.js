@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"MRRelaxParams_8h.html#aa389f984e7fa6f1327c875d59ac97885":[9,2,2,0,0,0,0,1,310,5],
 "MRRelaxParams_8h.html#aab696473c52e65af43994300f543d90e":[9,2,2,0,0,0,0,1,310,4],
 "MRRelaxParams_8h.html#ac55bbbd1bae1d22f45122a0ff2fa6edc":[9,2,2,0,0,0,0,1,310,16],
 "MRRelaxParams_8h.html#ad28a71db9e860a02315430407b8c7f06":[9,2,2,0,0,0,0,1,310,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "MRSaveSettings_8h.html#af90fbfc5c629bfb342f1ee9b503abf99":[9,2,2,0,0,0,0,1,315,31],
 "MRSaveSettings_8h.html#af9cbaba815f6a58b9ae41735bc00a9cd":[9,2,2,0,0,0,0,1,315,57],
 "MRSaveSettings_8h_source.html":[9,2,2,0,0,0,0,1,315],
-"MRScalarConvert_8h.html":[9,2,2,0,0,0,0,4,21],
-"MRScalarConvert_8h.html#a83f6c95549a78bd31f73fd35598d74b6":[9,2,2,0,0,0,0,4,21,2]
+"MRScalarConvert_8h.html":[9,2,2,0,0,0,0,4,21]
 };
