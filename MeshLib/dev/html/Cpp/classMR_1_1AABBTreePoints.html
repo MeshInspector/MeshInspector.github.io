@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a380693f8b40a9dbaf50a33401b1301cb" id="r_a380693f8b40a9dbaf50a33401b1301cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a380693f8b40a9dbaf50a33401b1301cb">getLeafOrderAndReset</a> (VertBMap &amp;vertMap)</td></tr>
 <tr class="memitem:a318b5add1fc832e3c42913b9bc637d31" id="r_a318b5add1fc832e3c42913b9bc637d31"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318b5add1fc832e3c42913b9bc637d31">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a318b5add1fc832e3c42913b9bc637d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
-<tr class="memitem:aa2d9631179a6329493887fc027539b95" id="r_aa2d9631179a6329493887fc027539b95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d9631179a6329493887fc027539b95">refit</a> (const VertCoords &amp;newCoords, const VertBitSet &amp;changedVerts)</td></tr>
+<tr class="memitem:a2c793bd3c62f465fbdf1e4d9494943e8" id="r_a2c793bd3c62f465fbdf1e4d9494943e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c793bd3c62f465fbdf1e4d9494943e8">refit</a> (const VertCoords &amp;newCoords, const VertBitSet *changedVerts)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -539,8 +539,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2d9631179a6329493887fc027539b95" name="aa2d9631179a6329493887fc027539b95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2d9631179a6329493887fc027539b95">&#9670;&#160;</a></span>refit()</h2>
+<a id="a2c793bd3c62f465fbdf1e4d9494943e8" name="a2c793bd3c62f465fbdf1e4d9494943e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c793bd3c62f465fbdf1e4d9494943e8">&#9670;&#160;</a></span>refit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,14 +553,14 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span>&#160;)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>updates bounding boxes of the nodes containing changed vertices; this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newCoords</td><td>coordinates of all vertices including changed ones; </td></tr>
-    <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit) </td></tr>
+    <tr><td class="paramname">changedVerts</td><td>vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices </td></tr>
   </table>
   </dd>
 </dl>

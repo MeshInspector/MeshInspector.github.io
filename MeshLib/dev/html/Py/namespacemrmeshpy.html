@@ -2164,7 +2164,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a16bc228b32ab30cd65a55940eda4e5b6" id="r_a16bc228b32ab30cd65a55940eda4e5b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16bc228b32ab30cd65a55940eda4e5b6">findZcompensationShifts</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1ZCompensateParams.html">ZCompensateParams</a> params)</td></tr>
 <tr class="memitem:a0512a25432c86f4444141640adf3d932" id="r_a0512a25432c86f4444141640adf3d932"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0512a25432c86f4444141640adf3d932">fixMeshCreases</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1FixCreasesParams.html">FixCreasesParams</a> params=...)</td></tr>
 <tr class="memitem:a6f6958e6ed7efb9519b486db18ad036e" id="r_a6f6958e6ed7efb9519b486db18ad036e"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f6958e6ed7efb9519b486db18ad036e">fixMeshDegeneracies</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> params)</td></tr>
-<tr class="memitem:a34d71a4f029f030cc8af42cf6153d25c" id="r_a34d71a4f029f030cc8af42cf6153d25c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34d71a4f029f030cc8af42cf6153d25c">fixMultipleEdges</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html">std_vector_std_pair_Id_VertTag_Id_VertTag</a> multipleEdges)</td></tr>
+<tr class="memitem:a98bcc07ee9eec6be61657ac4be204882" id="r_a98bcc07ee9eec6be61657ac4be204882"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98bcc07ee9eec6be61657ac4be204882">fixMultipleEdges</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html">std_vector_std_pair_Id_VertTag_Id_VertTag</a> multipleEdges, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> new2Old=None)</td></tr>
 <tr class="memitem:ad81bf1129dc729164b3d8bd2167fbf51" id="r_ad81bf1129dc729164b3d8bd2167fbf51"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad81bf1129dc729164b3d8bd2167fbf51">fixMultipleEdges</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh)</td></tr>
 <tr class="memitem:a25fb1933edd66c926cd7b579fa191826" id="r_a25fb1933edd66c926cd7b579fa191826"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25fb1933edd66c926cd7b579fa191826">fixSelfIntersections</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, float voxelSize)</td></tr>
 <tr class="memitem:ab79f8912e46127b9c17d65df98d35c9c" id="r_ab79f8912e46127b9c17d65df98d35c9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VdbVolume.html">VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab79f8912e46127b9c17d65df98d35c9c">floatGridToVdbVolume</a> (<a class="el" href="classmrmeshpy_1_1FloatGrid.html">FloatGrid</a> grid)</td></tr>
@@ -22106,8 +22106,8 @@ otherwise returns std::nullopt
 </pre> 
 </div>
 </div>
-<a id="a34d71a4f029f030cc8af42cf6153d25c" name="a34d71a4f029f030cc8af42cf6153d25c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34d71a4f029f030cc8af42cf6153d25c">&#9670;&#160;</a></span>fixMultipleEdges() <span class="overload">[2/2]</span></h2>
+<a id="a98bcc07ee9eec6be61657ac4be204882" name="a98bcc07ee9eec6be61657ac4be204882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98bcc07ee9eec6be61657ac4be204882">&#9670;&#160;</a></span>fixMultipleEdges() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -22120,11 +22120,17 @@ otherwise returns std::nullopt
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html">std_vector_std_pair_Id_VertTag_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>multipleEdges</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html">std_vector_std_pair_Id_VertTag_Id_VertTag</a></td>          <td class="paramname"><span class="paramname"><em>multipleEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> </td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">resolves given multiple edges, but splitting all but one edge in each group
+<pre class="fragment">resolves given multiple edges, but splitting all but one edge in each group;
+\\param new2Old receives the mapping from each new face to the original face it was split from
 </pre> 
 </div>
 </div>

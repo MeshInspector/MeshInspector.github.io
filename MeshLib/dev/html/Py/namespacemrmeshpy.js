@@ -2007,7 +2007,7 @@ var namespacemrmeshpy =
     [ "fixMeshCreases", "namespacemrmeshpy.html#a0512a25432c86f4444141640adf3d932", null ],
     [ "fixMeshDegeneracies", "namespacemrmeshpy.html#a6f6958e6ed7efb9519b486db18ad036e", null ],
     [ "fixMultipleEdges", "namespacemrmeshpy.html#ad81bf1129dc729164b3d8bd2167fbf51", null ],
-    [ "fixMultipleEdges", "namespacemrmeshpy.html#a34d71a4f029f030cc8af42cf6153d25c", null ],
+    [ "fixMultipleEdges", "namespacemrmeshpy.html#a98bcc07ee9eec6be61657ac4be204882", null ],
     [ "fixSelfIntersections", "namespacemrmeshpy.html#a25fb1933edd66c926cd7b579fa191826", null ],
     [ "floatGridToVdbVolume", "namespacemrmeshpy.html#ab79f8912e46127b9c17d65df98d35c9c", null ],
     [ "forceBoolean", "namespacemrmeshpy.html#af6dbf7e8f2e0fecfb0b841ab58ad47d3", null ],

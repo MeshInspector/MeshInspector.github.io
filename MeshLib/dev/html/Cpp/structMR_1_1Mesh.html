@@ -331,7 +331,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa011de9d0180060e3b1dbcc27917c54b" id="r_aa011de9d0180060e3b1dbcc27917c54b"><td class="memItemLeft" align="right" valign="top">const Dipoles *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa011de9d0180060e3b1dbcc27917c54b">getDipolesNotCreate</a> () const</td></tr>
 <tr class="memdesc:aa011de9d0180060e3b1dbcc27917c54b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached dipoles of aabb-tree nodes for this mesh, but does not create it if it did not exist  <br /></td></tr>
 <tr class="memitem:a47afb5a6c704c55128ab6c07680ebaf4" id="r_a47afb5a6c704c55128ab6c07680ebaf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches</a> (bool pointsChanged=true)</td></tr>
-<tr class="memitem:a94526b987be4d4c15cd0139f1ce4b5b2" id="r_a94526b987be4d4c15cd0139f1ce4b5b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94526b987be4d4c15cd0139f1ce4b5b2">updateCaches</a> (const VertBitSet &amp;changedVerts)</td></tr>
+<tr class="memitem:a5234fc402df7b5912834413c90f4dd10" id="r_a5234fc402df7b5912834413c90f4dd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5234fc402df7b5912834413c90f4dd10">updateCaches</a> (const VertBitSet *changedVerts)</td></tr>
 <tr class="memitem:a938ddf04e638f19c080b5dc443141629" id="r_a938ddf04e638f19c080b5dc443141629"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a938ddf04e638f19c080b5dc443141629">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a938ddf04e638f19c080b5dc443141629"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:a100fbcee62af5a8779713b186d7e6824" id="r_a100fbcee62af5a8779713b186d7e6824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a100fbcee62af5a8779713b186d7e6824">shrinkToFit</a> ()</td></tr>
@@ -3942,8 +3942,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a94526b987be4d4c15cd0139f1ce4b5b2" name="a94526b987be4d4c15cd0139f1ce4b5b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94526b987be4d4c15cd0139f1ce4b5b2">&#9670;&#160;</a></span>updateCaches()</h2>
+<a id="a5234fc402df7b5912834413c90f4dd10" name="a5234fc402df7b5912834413c90f4dd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5234fc402df7b5912834413c90f4dd10">&#9670;&#160;</a></span>updateCaches()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3951,12 +3951,17 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MR::Mesh::updateCaches </td>
           <td>(</td>
-          <td class="paramtype">const VertBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span></td><td>)</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches()</a> and following rebuild of trees </p>
+<p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches()</a> and following rebuild of trees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changedVerts</td><td>vertices with modified coordinates, nullptr means all valid vertices </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

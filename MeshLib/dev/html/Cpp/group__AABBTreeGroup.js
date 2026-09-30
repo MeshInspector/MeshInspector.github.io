@@ -14,7 +14,7 @@ var group__AABBTreeGroup =
       [ "AABBTree", "classMR_1_1AABBTree.html#a23b6f58682ec54006a8fb8d00ca4a191", null ],
       [ "AABBTree", "classMR_1_1AABBTree.html#a299be175c35406bc5c624c524a3221e7", null ],
       [ "operator=", "classMR_1_1AABBTree.html#a3d03064881df6e739bd9f815c909abe5", null ],
-      [ "refit", "classMR_1_1AABBTree.html#ae34906bea801ab798c256ac017ef0a70", null ],
+      [ "refit", "classMR_1_1AABBTree.html#ad45eb520762fef375722fd1e51317b85", null ],
       [ "SharedThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#a1c7a27ff83b86c0c4b27ab51c59cdedb", null ],
       [ "UniqueThreadSafeOwner< AABBTree >", "classMR_1_1AABBTree.html#aed6e78485032d75bf97587de91224aaf", null ]
     ] ],
@@ -81,7 +81,7 @@ var group__AABBTreeGroup =
       [ "operator=", "classMR_1_1AABBTreePoints.html#a0f0edac8d95fa30b01aeb66950911da9", null ],
       [ "operator[]", "classMR_1_1AABBTreePoints.html#a067a3df7f5d829eb589583ac6cd370b4", null ],
       [ "orderedPoints", "classMR_1_1AABBTreePoints.html#a41964dab96066d649af6862a0978c4e2", null ],
-      [ "refit", "classMR_1_1AABBTreePoints.html#aa2d9631179a6329493887fc027539b95", null ],
+      [ "refit", "classMR_1_1AABBTreePoints.html#a2c793bd3c62f465fbdf1e4d9494943e8", null ],
       [ "SharedThreadSafeOwner< AABBTreePoints >", "classMR_1_1AABBTreePoints.html#a35c04a1429847484ecc187e053a7a5d3", null ],
       [ "UniqueThreadSafeOwner< AABBTreePoints >", "classMR_1_1AABBTreePoints.html#ab727b425d862eaa2f2f61e6b1e287174", null ]
     ] ],

@@ -3430,7 +3430,7 @@ var classMR =
     [ "fixMeshCreases", "classMR.html#a46aedb759b67c9c7168ef85bd78d15b8", null ],
     [ "fixMeshDegeneracies", "classMR.html#aedd1f11cf956f37d4ffb49f6d5f590c8", null ],
     [ "fixMultipleEdges", "classMR.html#a64dee20b9b67716171533280263e3a3b", null ],
-    [ "fixMultipleEdges", "classMR.html#a1b9a76c089e00152cd6c8718b5098cd8", null ],
+    [ "fixMultipleEdges", "classMR.html#afff5684339da3c01be8810e6bd106fcf", null ],
     [ "floatGridToVdbVolume", "classMR.html#a62ff6152633f18c3a1d4c7512a0b067d", null ],
     [ "forceBoolean", "classMR.html#a3111b23641d917bcea29b413a78b4dec", null ],
     [ "fromSameTriangle", "classMR.html#a12dbb182e1a977dba7fc0b5c948ae83d", null ],

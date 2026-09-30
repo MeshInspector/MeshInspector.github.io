@@ -108,10 +108,10 @@
         </inbodydescription>
         <location file="MRMesh/MRAABBTree.h" line="23" column="15"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTree_1ae34906bea801ab798c256ac017ef0a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1AABBTree_1ad45eb520762fef375722fd1e51317b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::AABBTree::refit</definition>
-        <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;changedVerts)</argsstring>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet *changedVerts)</argsstring>
         <name>refit</name>
         <qualifiedname>MR::AABBTree::refit</qualifiedname>
         <param>
@@ -119,7 +119,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>const VertBitSet &amp;</type>
+          <type>const VertBitSet *</type>
           <declname>changedVerts</declname>
         </param>
         <briefdescription>
@@ -138,7 +138,7 @@
 <parametername>changedVerts</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>vertex ids with modified coordinates (since tree construction or last refit) </para>
+<para>vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -247,7 +247,7 @@
       <member refid="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator=</name></member>
       <member refid="classMR_1_1AABBTree_1a4ab5667b36f37c71f2c5ead4d889d288" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gac94f623e90a49fd07aeb61722ab8e7f1" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>operator[]</name></member>
-      <member refid="classMR_1_1AABBTree_1ae34906bea801ab798c256ac017ef0a70" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>refit</name></member>
+      <member refid="classMR_1_1AABBTree_1ad45eb520762fef375722fd1e51317b85" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>refit</name></member>
       <member refid="group__GeneralGroup_1gab08f029b6e9e13cf15d36bb11eddc952" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1AABBTree_1a1c7a27ff83b86c0c4b27ab51c59cdedb" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>SharedThreadSafeOwner&lt; AABBTree &gt;</name></member>
       <member refid="group__GeneralGroup_1ga66e27ff8d7cb865904647479f715a7f3" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>Traits</name></member>

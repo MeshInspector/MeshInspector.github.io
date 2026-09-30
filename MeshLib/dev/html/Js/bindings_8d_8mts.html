@@ -421,7 +421,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad2e70752fd94158da5384b963647d8a1" id="r_ad2e70752fd94158da5384b963647d8a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2e70752fd94158da5384b963647d8a1">fixMeshDegeneracies</a> (<a class="el" href="classMesh.html">Mesh</a> mesh, <a class="el" href="classFixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> params)</td></tr>
 <tr class="memdesc:ad2e70752fd94158da5384b963647d8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes degenerate faces and short edges in mesh (changes topology)  <br /></td></tr>
 <tr class="memitem:a62b1f55455494508b18ef4ea430393fd" id="r_a62b1f55455494508b18ef4ea430393fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62b1f55455494508b18ef4ea430393fd">fixMultipleEdges</a> (<a class="el" href="classMesh.html">Mesh</a> mesh)</td></tr>
-<tr class="memdesc:a62b1f55455494508b18ef4ea430393fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolves given multiple edges, but splitting all but one edge in each group  <br /></td></tr>
 <tr class="memitem:a5ec070de215b46091edbe3b666acc074" id="r_a5ec070de215b46091edbe3b666acc074"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ec070de215b46091edbe3b666acc074">findDegenerateFaces</a> (<a class="el" href="classMesh.html">Mesh</a> mp, number criticalAspectRatio)</td></tr>
 <tr class="memdesc:a5ec070de215b46091edbe3b666acc074"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio  <br /></td></tr>
 <tr class="memitem:a11ea98673cf864ddc8427da1e8cd88ed" id="r_a11ea98673cf864ddc8427da1e8cd88ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classUndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11ea98673cf864ddc8427da1e8cd88ed">findShortEdges</a> (<a class="el" href="classMesh.html">Mesh</a> mp, number criticalLength)</td></tr>
@@ -1921,8 +1920,12 @@ fillHoleTrivially</dd>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>resolves given multiple edges, but splitting all but one edge in each group </p>
+<p>resolves given multiple edges, but splitting all but one edge in each group;</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>receives the mapping from each new face to the original face it was split from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

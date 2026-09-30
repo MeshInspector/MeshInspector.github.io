@@ -416,7 +416,7 @@ buffer in vertMap must be resized before the call, and caller is responsible for
 <pre class="fragment">updates bounding boxes of the nodes containing changed vertices;
 this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient)
 \\param newCoords coordinates of all vertices including changed ones;
-\\param changedVerts vertex ids with modified coordinates (since tree construction or last refit)
+\\param changedVerts vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices
 </pre> 
 </div>
 </div>

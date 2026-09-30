@@ -10714,7 +10714,7 @@ var searchData=
   ['mr_5ffixmeshdegeneraciesparams_5fset_5fstabilizer_10711',['MR_FixMeshDegeneraciesParams_Set_stabilizer',['../MRMeshFixer_8h.html#aea9c89385d7036dd53a869ec47cf3b89',1,'MRMeshFixer.h']]],
   ['mr_5ffixmeshdegeneraciesparams_5fset_5ftinyedgelength_10712',['MR_FixMeshDegeneraciesParams_Set_tinyEdgeLength',['../MRMeshFixer_8h.html#ae23e484f755fe5b9b13b0ebb4972d6b9',1,'MRMeshFixer.h']]],
   ['mr_5ffixmultipleedges_5f1_10713',['MR_fixMultipleEdges_1',['../MRMeshFixer_8h.html#a113a4bf7447ac9a412d78b1bdb2372cf',1,'MRMeshFixer.h']]],
-  ['mr_5ffixmultipleedges_5f2_10714',['MR_fixMultipleEdges_2',['../MRMeshFixer_8h.html#aee094d2f80146619c7a592a97f0bc71c',1,'MRMeshFixer.h']]],
+  ['mr_5ffixmultipleedges_5f3_10714',['MR_fixMultipleEdges_3',['../MRMeshFixer_8h.html#aba0a4a2b81d44242c3bb5ef08dc30c77',1,'MRMeshFixer.h']]],
   ['mr_5ffixundercuts_5fdistmapimprovedirection_10715',['MR_FixUndercuts_distMapImproveDirection',['../MRFixUndercuts_8h.html#a0bf2ba97a2a81230b3d93ceb5eb8bd7b',1,'MRFixUndercuts.h']]],
   ['mr_5ffixundercuts_5fdistmapimprovedirectionparameters_5fassignfromanother_10716',['MR_FixUndercuts_DistMapImproveDirectionParameters_AssignFromAnother',['../MRFixUndercuts_8h.html#ac9d3490df9c211447831ddca0612714f',1,'MRFixUndercuts.h']]],
   ['mr_5ffixundercuts_5fdistmapimprovedirectionparameters_5fconstructfromanother_10717',['MR_FixUndercuts_DistMapImproveDirectionParameters_ConstructFromAnother',['../MRFixUndercuts_8h.html#a3921f89a4c8414b29620922bbadefde0',1,'MRFixUndercuts.h']]],

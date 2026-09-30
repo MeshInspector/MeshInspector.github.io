@@ -3866,7 +3866,12 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees Generated from method <span class="tt">MR::Mesh::updateCaches</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">changedVerts</span> can not be null. It is a single object. </p>
+<p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changedVerts</td><td>vertices with modified coordinates, nullptr means all valid vertices Generated from method <span class="tt">MR::Mesh::updateCaches</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

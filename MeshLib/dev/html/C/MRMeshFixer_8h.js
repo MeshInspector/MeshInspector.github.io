@@ -108,7 +108,7 @@ var MRMeshFixer_8h =
     [ "MR_FixMeshDegeneraciesParams_Set_stabilizer", "MRMeshFixer_8h.html#aea9c89385d7036dd53a869ec47cf3b89", null ],
     [ "MR_FixMeshDegeneraciesParams_Set_tinyEdgeLength", "MRMeshFixer_8h.html#ae23e484f755fe5b9b13b0ebb4972d6b9", null ],
     [ "MR_fixMultipleEdges_1", "MRMeshFixer_8h.html#a113a4bf7447ac9a412d78b1bdb2372cf", null ],
-    [ "MR_fixMultipleEdges_2", "MRMeshFixer_8h.html#aee094d2f80146619c7a592a97f0bc71c", null ],
+    [ "MR_fixMultipleEdges_3", "MRMeshFixer_8h.html#aba0a4a2b81d44242c3bb5ef08dc30c77", null ],
     [ "MR_hasMultipleEdges", "MRMeshFixer_8h.html#a1262ede14e9757ec445423512010bfbf", null ],
     [ "MR_isDegree3Dest", "MRMeshFixer_8h.html#a983fcb4889ade27c7f8f3555dc08e83b", null ],
     [ "MR_isEdgeBetweenDoubleTris", "MRMeshFixer_8h.html#a4fdeaba5eb9aecce9fc1e3884dbc789e", null ],

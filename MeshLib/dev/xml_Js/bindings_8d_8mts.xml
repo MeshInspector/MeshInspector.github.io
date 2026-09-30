@@ -1703,9 +1703,18 @@
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>resolves given multiple edges, but splitting all but one edge in each group </para>
         </briefdescription>
         <detaileddescription>
+<para>resolves given multiple edges, but splitting all but one edge in each group;<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives the mapping from each new face to the original face it was split from </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

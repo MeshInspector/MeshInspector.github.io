@@ -353,10 +353,10 @@
         </inbodydescription>
         <location file="MRMesh/MRAABBTreePoints.h" line="71" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1aa2d9631179a6329493887fc027539b95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a2c793bd3c62f465fbdf1e4d9494943e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::AABBTreePoints::refit</definition>
-        <argsstring>(const VertCoords &amp;newCoords, const VertBitSet &amp;changedVerts)</argsstring>
+        <argsstring>(const VertCoords &amp;newCoords, const VertBitSet *changedVerts)</argsstring>
         <name>refit</name>
         <qualifiedname>MR::AABBTreePoints::refit</qualifiedname>
         <param>
@@ -364,7 +364,7 @@
           <declname>newCoords</declname>
         </param>
         <param>
-          <type>const VertBitSet &amp;</type>
+          <type>const VertBitSet *</type>
           <declname>changedVerts</declname>
         </param>
         <briefdescription>
@@ -383,7 +383,7 @@
 <parametername>changedVerts</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>vertex ids with modified coordinates (since tree construction or last refit) </para>
+<para>vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -473,7 +473,7 @@
       <member refid="classMR_1_1AABBTreePoints_1a067a3df7f5d829eb589583ac6cd370b4" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator[]</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a41964dab96066d649af6862a0978c4e2" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>orderedPoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1ab12d4e1a4a948a8e1e7a315d6e44c722" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>orderedPoints_</name></member>
-      <member refid="classMR_1_1AABBTreePoints_1aa2d9631179a6329493887fc027539b95" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>refit</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a2c793bd3c62f465fbdf1e4d9494943e8" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>refit</name></member>
       <member refid="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a35c04a1429847484ecc187e053a7a5d3" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>SharedThreadSafeOwner&lt; AABBTreePoints &gt;</name></member>
       <member refid="classMR_1_1AABBTreePoints_1ab727b425d862eaa2f2f61e6b1e287174" prot="private" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>UniqueThreadSafeOwner&lt; AABBTreePoints &gt;</name></member>

@@ -147,10 +147,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="784" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="784" bodyend="787"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a233c82a526d1389bc9440a59eb28b919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a27e6f9c622870d45c89954d452d290f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.AABBTreePoints.refit</definition>
-        <argsstring>(MR.Const_VertCoords newCoords, MR.Const_VertBitSet changedVerts)</argsstring>
+        <argsstring>(MR.Const_VertCoords newCoords, MR.Const_VertBitSet? changedVerts)</argsstring>
         <name>refit</name>
         <qualifiedname>MR.AABBTreePoints.refit</qualifiedname>
         <param>
@@ -158,7 +158,7 @@
           <declname>newCoords</declname>
         </param>
         <param>
-          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>changedVerts</declname>
         </param>
         <briefdescription>
@@ -178,7 +178,7 @@
 <parametername>changedVerts</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>vertex ids with modified coordinates (since tree construction or last refit) Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePoints_1a233c82a526d1389bc9440a59eb28b919" kindref="member">MR.AABBTreePoints.refit</ref></computeroutput>. </para>
+<para>vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePoints_1a27e6f9c622870d45c89954d452d290f8" kindref="member">MR.AABBTreePoints.refit</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -489,7 +489,7 @@
       <member refid="classMR_1_1Const__AABBTreePoints_1a0f498c1406136ec7ee09dc477eb1e86c" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator Const_AABBTreePoints</name></member>
       <member refid="classMR_1_1Const__AABBTreePoints_1a28c745d63a05c8cefd4305e39bcd40c7" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator Const_AABBTreePoints</name></member>
       <member refid="classMR_1_1Const__AABBTreePoints_1a6082a61cd4cd4c770a2fb5eff2bd0e19" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>orderedPoints</name></member>
-      <member refid="classMR_1_1AABBTreePoints_1a233c82a526d1389bc9440a59eb28b919" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>refit</name></member>
+      <member refid="classMR_1_1AABBTreePoints_1a27e6f9c622870d45c89954d452d290f8" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>refit</name></member>
       <member refid="classMR_1_1Const__AABBTreePoints_1a205923661aef6ba04d17e3264cd9d0fb" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>rootNodeId</name></member>
       <member refid="classMR_1_1Const__AABBTreePoints_1a947fe77b1f64c2f7824ce93ee916d8dc" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>this[MR.NodeId nid]</name></member>
     </listofallmembers>

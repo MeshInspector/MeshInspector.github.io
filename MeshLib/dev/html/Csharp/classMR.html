@@ -10080,10 +10080,10 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:a7f83ae4dbc26149e95490ea2cf809ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a7f83ae4dbc26149e95490ea2cf809ea5" title="Generated from function MR.findMultipleEdges. Parameter cb defaults to {}.">MR.findMultipleEdges</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a178a0c03c297caa9a508e9d47f24a0fb" id="r_a178a0c03c297caa9a508e9d47f24a0fb"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a178a0c03c297caa9a508e9d47f24a0fb">hasMultipleEdges</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology)</td></tr>
 <tr class="memdesc:a178a0c03c297caa9a508e9d47f24a0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a178a0c03c297caa9a508e9d47f24a0fb" title="Generated from function MR.hasMultipleEdges.">MR.hasMultipleEdges</a></span>.  <br /></td></tr>
-<tr class="memitem:a1b9a76c089e00152cd6c8718b5098cd8" id="r_a1b9a76c089e00152cd6c8718b5098cd8"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b9a76c089e00152cd6c8718b5098cd8">fixMultipleEdges</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, MR.Std.Const_Vector_StdPairMRVertIdMRVertId multipleEdges)</td></tr>
-<tr class="memdesc:a1b9a76c089e00152cd6c8718b5098cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolves given multiple edges, but splitting all but one edge in each group Generated from function <span class="tt"><a class="el" href="#a1b9a76c089e00152cd6c8718b5098cd8" title="resolves given multiple edges, but splitting all but one edge in each group Generated from function M...">MR.fixMultipleEdges</a></span>.  <br /></td></tr>
+<tr class="memitem:afff5684339da3c01be8810e6bd106fcf" id="r_afff5684339da3c01be8810e6bd106fcf"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afff5684339da3c01be8810e6bd106fcf">fixMultipleEdges</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, MR.Std.Const_Vector_StdPairMRVertIdMRVertId multipleEdges, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</td></tr>
+<tr class="memdesc:afff5684339da3c01be8810e6bd106fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">resolves given multiple edges, but splitting all but one edge in each group;  <br /></td></tr>
 <tr class="memitem:a64dee20b9b67716171533280263e3a3b" id="r_a64dee20b9b67716171533280263e3a3b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64dee20b9b67716171533280263e3a3b">fixMultipleEdges</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh)</td></tr>
-<tr class="memdesc:a64dee20b9b67716171533280263e3a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and resolves multiple edges Generated from function <span class="tt"><a class="el" href="#a1b9a76c089e00152cd6c8718b5098cd8" title="resolves given multiple edges, but splitting all but one edge in each group Generated from function M...">MR.fixMultipleEdges</a></span>.  <br /></td></tr>
+<tr class="memdesc:a64dee20b9b67716171533280263e3a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and resolves multiple edges Generated from function <span class="tt"><a class="el" href="#afff5684339da3c01be8810e6bd106fcf" title="resolves given multiple edges, but splitting all but one edge in each group;">MR.fixMultipleEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:a4dff76f4b1533772fb89ca30405240ad" id="r_a4dff76f4b1533772fb89ca30405240ad"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dff76f4b1533772fb89ca30405240ad">findDegenerateFaces</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float? criticalAspectRatio=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:a4dff76f4b1533772fb89ca30405240ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds faces having aspect ratio &gt;= criticalAspectRatio Generated from function <span class="tt"><a class="el" href="#a4dff76f4b1533772fb89ca30405240ad" title="finds faces having aspect ratio &gt;= criticalAspectRatio Generated from function MR....">MR.findDegenerateFaces</a></span>. Parameter <span class="tt">criticalAspectRatio</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:adcfd10de832d104a9cc341f39addfc9d" id="r_adcfd10de832d104a9cc341f39addfc9d"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcfd10de832d104a9cc341f39addfc9d">findNotSmoothFaces</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float? minAngle=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
@@ -50353,12 +50353,12 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </table>
 </div><div class="memdoc">
 
-<p>finds and resolves multiple edges Generated from function <span class="tt"><a class="el" href="#a1b9a76c089e00152cd6c8718b5098cd8" title="resolves given multiple edges, but splitting all but one edge in each group Generated from function M...">MR.fixMultipleEdges</a></span>. </p>
+<p>finds and resolves multiple edges Generated from function <span class="tt"><a class="el" href="#afff5684339da3c01be8810e6bd106fcf" title="resolves given multiple edges, but splitting all but one edge in each group;">MR.fixMultipleEdges</a></span>. </p>
 
 </div>
 </div>
-<a id="a1b9a76c089e00152cd6c8718b5098cd8" name="a1b9a76c089e00152cd6c8718b5098cd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b9a76c089e00152cd6c8718b5098cd8">&#9670;&#160;</a></span>fixMultipleEdges() <span class="overload">[2/2]</span></h2>
+<a id="afff5684339da3c01be8810e6bd106fcf" name="afff5684339da3c01be8810e6bd106fcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff5684339da3c01be8810e6bd106fcf">&#9670;&#160;</a></span>fixMultipleEdges() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -50374,7 +50374,12 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Std.Const_Vector_StdPairMRVertIdMRVertId</td>          <td class="paramname"><span class="paramname"><em>multipleEdges</em></span>&#160;)</td>
+          <td class="paramtype">MR.Std.Const_Vector_StdPairMRVertIdMRVertId</td>          <td class="paramname"><span class="paramname"><em>multipleEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -50384,7 +50389,13 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </table>
 </div><div class="memdoc">
 
-<p>resolves given multiple edges, but splitting all but one edge in each group Generated from function <span class="tt"><a class="el" href="#a1b9a76c089e00152cd6c8718b5098cd8" title="resolves given multiple edges, but splitting all but one edge in each group Generated from function M...">MR.fixMultipleEdges</a></span>. </p>
+<p>resolves given multiple edges, but splitting all but one edge in each group; </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>receives the mapping from each new face to the original face it was split from Generated from function <span class="tt"><a class="el" href="#afff5684339da3c01be8810e6bd106fcf" title="resolves given multiple edges, but splitting all but one edge in each group;">MR.fixMultipleEdges</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -3437,11 +3437,12 @@ if region is nullptr, all valid mesh vertices are used
 <para><verbatim>updates existing caches in case of few vertices were changed insignificantly,
 and topology remained unchanged;
 it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees
+\\param changedVerts vertices with modified coordinates, nullptr means all valid vertices
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30257" bodyend="30262"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30257" bodyend="30263"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a323fc8be238ad636a64a24571367e745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -3467,7 +3468,7 @@ if the region has holes then each hole will be virtually filled by adding triang
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30263" bodyend="30267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30264" bodyend="30268"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1ab8cdd0778f5e0b1600eaeca76f4dd961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3487,7 +3488,7 @@ if the region has holes then each hole will be virtually filled by adding triang
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30268" bodyend="30271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30269" bodyend="30272"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3500,7 +3501,7 @@ This class represents a mesh, including topology (connectivity) information and 
 as well as some caches to accelerate search algorithms
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29628" bodyend="30271"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29628" bodyend="30272"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Mesh_1a103b613cee322330912a3c900658294a" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1aa760a017b41d0b8f2a407300149c1528" prot="private" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>__hash__</name></member>

@@ -7,7 +7,7 @@
     <member refid="classMR_1_1AABBTree_1a23b6f58682ec54006a8fb8d00ca4a191" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" kind="function"><name>operator=</name></member>
-    <member refid="classMR_1_1AABBTree_1ae34906bea801ab798c256ac017ef0a70" kind="function"><name>refit</name></member>
+    <member refid="classMR_1_1AABBTree_1ad45eb520762fef375722fd1e51317b85" kind="function"><name>refit</name></member>
     <member refid="classMR_1_1AABBTree_1ad6975060e66ad2015a573f87cc496c9d" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1a4ab5667b36f37c71f2c5ead4d889d288" kind="function"><name>operator=</name></member>
   </compound>
@@ -76,7 +76,7 @@
     <member refid="classMR_1_1AABBTreePoints_1a9e9e68d422bdaad1a598bd1231716063" kind="function"><name>getLeafOrder</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a380693f8b40a9dbaf50a33401b1301cb" kind="function"><name>getLeafOrderAndReset</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a318b5add1fc832e3c42913b9bc637d31" kind="function"><name>heapBytes</name></member>
-    <member refid="classMR_1_1AABBTreePoints_1aa2d9631179a6329493887fc027539b95" kind="function"><name>refit</name></member>
+    <member refid="classMR_1_1AABBTreePoints_1a2c793bd3c62f465fbdf1e4d9494943e8" kind="function"><name>refit</name></member>
     <member refid="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" kind="function"><name>rootNodeId</name></member>
     <member refid="classMR_1_1AABBTreePoints_1ad21bcf3af3436eba60ab424d669d58e4" kind="function"><name>AABBTreePoints</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a8508065a350fbec7a0cf1f3f56a0ff3e" kind="function"><name>operator=</name></member>
@@ -5693,7 +5693,7 @@
     <member refid="structMR_1_1Mesh_1a27a660c62e95948d2e77cd4e2681c0f4" kind="function"><name>getDipoles</name></member>
     <member refid="structMR_1_1Mesh_1aa011de9d0180060e3b1dbcc27917c54b" kind="function"><name>getDipolesNotCreate</name></member>
     <member refid="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" kind="function"><name>invalidateCaches</name></member>
-    <member refid="structMR_1_1Mesh_1a94526b987be4d4c15cd0139f1ce4b5b2" kind="function"><name>updateCaches</name></member>
+    <member refid="structMR_1_1Mesh_1a5234fc402df7b5912834413c90f4dd10" kind="function"><name>updateCaches</name></member>
     <member refid="structMR_1_1Mesh_1a938ddf04e638f19c080b5dc443141629" kind="function"><name>heapBytes</name></member>
     <member refid="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" kind="function"><name>shrinkToFit</name></member>
     <member refid="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" kind="function"><name>mirror</name></member>
@@ -15249,7 +15249,7 @@
     <member refid="group__MeshFixerGroup_1ga900c1c80bfa1ca726e5afe5ccab5b31d" kind="function"><name>duplicateMultiHoleVertices</name></member>
     <member refid="group__MeshFixerGroup_1ga81e1fcab0f64d4bdb4ccf19d7e67bae1" kind="function"><name>findMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" kind="function"><name>hasMultipleEdges</name></member>
-    <member refid="group__MeshFixerGroup_1ga4b6baaa619201e7e4c135ec4200d38ce" kind="function"><name>fixMultipleEdges</name></member>
+    <member refid="group__MeshFixerGroup_1gaad5217689f3dbf4fefa9827d286a9871" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1gaa6e120bc37618d508cf410a20edaa787" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" kind="function"><name>findDegenerateFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>
@@ -19762,7 +19762,7 @@
     <member refid="group__MeshFixerGroup_1ga900c1c80bfa1ca726e5afe5ccab5b31d" kind="function"><name>duplicateMultiHoleVertices</name></member>
     <member refid="group__MeshFixerGroup_1ga81e1fcab0f64d4bdb4ccf19d7e67bae1" kind="function"><name>findMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" kind="function"><name>hasMultipleEdges</name></member>
-    <member refid="group__MeshFixerGroup_1ga4b6baaa619201e7e4c135ec4200d38ce" kind="function"><name>fixMultipleEdges</name></member>
+    <member refid="group__MeshFixerGroup_1gaad5217689f3dbf4fefa9827d286a9871" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1gaa6e120bc37618d508cf410a20edaa787" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="group__MeshFixerGroup_1gafd47b9faed25bf5ffcb8a57264c890b1" kind="function"><name>findDegenerateFaces</name></member>
     <member refid="group__MeshFixerGroup_1ga6eafb1189e4c2e117a06c36ae2b67fd5" kind="function"><name>findNotSmoothFaces</name></member>

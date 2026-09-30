@@ -3667,7 +3667,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees Generated from method <computeroutput>MR::Mesh::updateCaches</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>changedVerts</computeroutput> can not be null. It is a single object. </para>
+<para>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>changedVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertices with modified coordinates, nullptr means all valid vertices Generated from method <computeroutput>MR::Mesh::updateCaches</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

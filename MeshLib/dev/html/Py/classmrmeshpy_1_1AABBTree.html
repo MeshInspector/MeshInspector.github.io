@@ -260,7 +260,7 @@ bounding volume hierarchy
 <pre class="fragment">updates bounding boxes of the nodes containing changed vertices;
 this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient)
 \\param mesh same mesh for which this tree was constructed but with updated coordinates;
-\\param changedVerts vertex ids with modified coordinates (since tree construction or last refit)
+\\param changedVerts vertex ids with modified coordinates (since tree construction or last refit), nullptr means all vertices
 </pre> 
 </div>
 </div>

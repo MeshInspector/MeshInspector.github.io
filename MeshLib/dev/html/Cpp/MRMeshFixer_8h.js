@@ -19,7 +19,7 @@ var MRMeshFixer_8h =
     [ "MR::fixMeshCreases", "group__MeshFixerGroup.html#ga04f842da188886fe7f430e90a6956a06", null ],
     [ "MR::fixMeshDegeneracies", "group__MeshFixerGroup.html#ga1e63ddf91205ab34304a9ff3b2b550a2", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaa6e120bc37618d508cf410a20edaa787", null ],
-    [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#ga4b6baaa619201e7e4c135ec4200d38ce", null ],
+    [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaad5217689f3dbf4fefa9827d286a9871", null ],
     [ "MR::hasMultipleEdges", "group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e", null ],
     [ "MR::isDegree3Dest", "group__MeshFixerGroup.html#ga7ed9b863f3586261b7732c0dba013eae", null ],
     [ "MR::isEdgeBetweenDoubleTris", "group__MeshFixerGroup.html#ga754a74fa515375b32aee32394abe05f6", null ],

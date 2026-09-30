@@ -6,5 +6,5 @@ var classMR_1_1AABBTree =
     [ "assign", "classMR_1_1AABBTree.html#ac9cf74a20e92daa54a90f0be97415c79", null ],
     [ "getLeafOrderAndReset", "classMR_1_1AABBTree.html#a831781f0173f17a059fe1f1c9d27c6e1", null ],
     [ "operator MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f", "classMR_1_1AABBTree.html#a3a6eafb151b2827bb12bce910ddad61a", null ],
-    [ "refit", "classMR_1_1AABBTree.html#a5c12b4649d8570fc421d9165d47230f3", null ]
+    [ "refit", "classMR_1_1AABBTree.html#a3a38d1a947dd8d13a75f3f62bea46fad", null ]
 ];

@@ -3523,6 +3523,7 @@ if region is nullptr, all valid mesh vertices are used
 <pre class="fragment">updates existing caches in case of few vertices were changed insignificantly,
 and topology remained unchanged;
 it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees
+\\param changedVerts vertices with modified coordinates, nullptr means all valid vertices
 </pre> 
 </div>
 </div>

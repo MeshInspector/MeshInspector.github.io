@@ -160,7 +160,7 @@
     <member refid="classMR_1_1AABBTree_1a5074a33d522d0d1d9f40757f9642bad4" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1aad3f5d1057d0339e5fbc2790ac88ccc1" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1ac9cf74a20e92daa54a90f0be97415c79" kind="function"><name>assign</name></member>
-    <member refid="classMR_1_1AABBTree_1a5c12b4649d8570fc421d9165d47230f3" kind="function"><name>refit</name></member>
+    <member refid="classMR_1_1AABBTree_1a3a38d1a947dd8d13a75f3f62bea46fad" kind="function"><name>refit</name></member>
     <member refid="classMR_1_1AABBTree_1a831781f0173f17a059fe1f1c9d27c6e1" kind="function"><name>getLeafOrderAndReset</name></member>
     <member refid="classMR_1_1AABBTree_1a8e5003ecb87e8523ed536d557e0fb0f8" kind="function"><name>__MR_AABBTree_AssignFromAnother</name></member>
     <member refid="classMR_1_1AABBTree_1afcadacb903c473db1207410ce0535cd1" kind="function"><name>__MR_AABBTree_Construct</name></member>
@@ -315,7 +315,7 @@
     <member refid="classMR_1_1AABBTreePoints_1a7ec65571fa44e3daee66649224af0d7f" kind="function"><name>AABBTreePoints</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a461ac6e486e624910fdb1df77919d571" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a9283d974aa5edb3440a8521c5dfb0f90" kind="function"><name>getLeafOrderAndReset</name></member>
-    <member refid="classMR_1_1AABBTreePoints_1a233c82a526d1389bc9440a59eb28b919" kind="function"><name>refit</name></member>
+    <member refid="classMR_1_1AABBTreePoints_1a27e6f9c622870d45c89954d452d290f8" kind="function"><name>refit</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a09ed3d7a8a57d4385d09e34a9c2e2107" kind="function"><name>operator AABBTreePoints</name></member>
     <member refid="classMR_1_1AABBTreePoints_1a34b19d60b140e52545f0a1f8ec6df97a" kind="function"><name>operator AABBTreePoints</name></member>
     <member refid="classMR_1_1AABBTreePoints_1ad78503b538f226b9b6473f6212998d29" kind="function"><name>operator AABBTreePoints</name></member>
@@ -50074,7 +50074,7 @@
     <member refid="classMR_1_1Mesh_1a9c4cfb232ff407171f36e98165b1ba51" kind="function"><name>packOptimally</name></member>
     <member refid="classMR_1_1Mesh_1adad0b8879defc6c7855060282f4e79eb" kind="function"><name>deleteFaces</name></member>
     <member refid="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" kind="function"><name>invalidateCaches</name></member>
-    <member refid="classMR_1_1Mesh_1aa840c13d73b18aa3014201e05ffaf46e" kind="function"><name>updateCaches</name></member>
+    <member refid="classMR_1_1Mesh_1a82df6cc87a7a9ed397253a2ff13abc44" kind="function"><name>updateCaches</name></member>
     <member refid="classMR_1_1Mesh_1a9a5bddf03c626d877f81537eb854307d" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Mesh_1a2716bdfac62a94a52023c065250ba246" kind="function"><name>mirror</name></member>
     <member refid="classMR_1_1Mesh_1abacb634b3021597ef51fcde98e4fc8af" kind="function"><name>__MR_Mesh_AssignFromAnother</name></member>
@@ -52225,7 +52225,7 @@
     <member refid="classMR_1a503efa9aa79bf428672ef2fb0c72f21c" kind="function"><name>duplicateMultiHoleVertices</name></member>
     <member refid="classMR_1a7f83ae4dbc26149e95490ea2cf809ea5" kind="function"><name>findMultipleEdges</name></member>
     <member refid="classMR_1a178a0c03c297caa9a508e9d47f24a0fb" kind="function"><name>hasMultipleEdges</name></member>
-    <member refid="classMR_1a1b9a76c089e00152cd6c8718b5098cd8" kind="function"><name>fixMultipleEdges</name></member>
+    <member refid="classMR_1afff5684339da3c01be8810e6bd106fcf" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="classMR_1a64dee20b9b67716171533280263e3a3b" kind="function"><name>fixMultipleEdges</name></member>
     <member refid="classMR_1a4dff76f4b1533772fb89ca30405240ad" kind="function"><name>findDegenerateFaces</name></member>
     <member refid="classMR_1adcfd10de832d104a9cc341f39addfc9d" kind="function"><name>findNotSmoothFaces</name></member>
@@ -54065,7 +54065,7 @@
     <member refid="classMR_1ae9230e772ac3b0762dc12e78e6f3698b" kind="function"><name>__MR_fixMeshCreases</name></member>
     <member refid="classMR_1a0f4f44ecab3918d5087e721d64ed4f55" kind="function"><name>__MR_fixMeshDegeneracies</name></member>
     <member refid="classMR_1a3540db18a0c512ea08a0b986cd4d8b9d" kind="function"><name>__MR_fixMultipleEdges_1</name></member>
-    <member refid="classMR_1abeb9e4b9dccd4cdd7f6ba9fb463c645d" kind="function"><name>__MR_fixMultipleEdges_2</name></member>
+    <member refid="classMR_1ad1e836bdbe05180b152deff70202883f" kind="function"><name>__MR_fixMultipleEdges_3</name></member>
     <member refid="classMR_1a5d9690a86ab2e21118d45ebd128e45bd" kind="function"><name>__MR_hasMultipleEdges</name></member>
     <member refid="classMR_1aa539d35a50a0a5b850bd5a505ab60a6f" kind="function"><name>__MR_isDegree3Dest</name></member>
     <member refid="classMR_1a7e7b32b4c0712edf04ff01418538994a" kind="function"><name>__MR_isEdgeBetweenDoubleTris</name></member>
