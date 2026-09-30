@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="191" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="191" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="177" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="177" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RelaxParams_1a25edc7a8669087781f5180c67a704a7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="196" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="197" bodyend="206"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="182" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="183" bodyend="192"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RelaxParams_1ab63b0c054897c1b08f7e126ae1794748" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -47,22 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="211" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="211" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="property" id="classMR_1_1RelaxParams_1a5a248dea46ab9e0d96dd900d5869e131" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref bool</type>
-        <definition>new unsafe ref bool MR.RelaxParams.updateCaches</definition>
-        <argsstring></argsstring>
-        <name>updateCaches</name>
-        <qualifiedname>MR.RelaxParams.updateCaches</qualifiedname>
-        <briefdescription>
-<para>in functions taking <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> or <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="217" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="217" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="197" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RelaxParams_1a6a77807fb4269a27dbe4ed779b218721" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -77,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="222" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="222" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="202" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RelaxParams_1ae949db566df3a3532f3bebfa7dfcd11c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -92,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="227" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="227" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="207" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="207" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -116,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="231" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="231" bodyend="235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="211" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="211" bodyend="215"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -133,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="241" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="241" bodyend="245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="221" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="221" bodyend="225"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RelaxParams_1aee56e0ad9adf25e0edb5e544f46857fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -152,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="250" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="250" bodyend="255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="230" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="230" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RelaxParams_1acd9b062a072a30f445c56768f6b39797" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -171,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="260" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="260" bodyend="260"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="240" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="240" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RelaxParams_1a4e6030af260cb62a5532b8a850755064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RelaxParams" kindref="compound">MR.RelaxParams</ref></type>
@@ -190,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="265" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="265" bodyend="270"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="245" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="245" bodyend="250"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -214,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="275" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="255" column="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RelaxParams_1ade652cd4200be39dc475fc4e7e75e470" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RelaxParams._Underlying *</type>
@@ -232,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="278" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="258" column="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1RelaxParams_1a16bf149f710c2ec71e2181ff08c35247" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RelaxParams._Underlying *</type>
@@ -246,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="281" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="261" column="55"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -305,7 +290,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="186" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="187" bodyend="282"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="172" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="173" bodyend="262"/>
     <listofallmembers>
       <member refid="classMR_1_1RelaxParams_1a0f3083a77246929069c6af3aab354e4a" prot="private" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__MR_RelaxParams_AssignFromAnother</name></member>
       <member refid="classMR_1_1RelaxParams_1ade652cd4200be39dc475fc4e7e75e470" prot="private" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__MR_RelaxParams_ConstructFromAnother</name></member>
@@ -315,7 +300,6 @@
       <member refid="classMR_1_1Const__RelaxParams_1a8ef6ce3e932e96fada8665d114c2c0ad" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_iterations</name></member>
       <member refid="classMR_1_1Const__RelaxParams_1a3dd18ccefa9e598f04800582678b6d04" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_limitNearInitial</name></member>
       <member refid="classMR_1_1Const__RelaxParams_1a7a9ccc48fec0771bc496718d640a8cde" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_maxInitialDist</name></member>
-      <member refid="classMR_1_1Const__RelaxParams_1a10cbcf5e7d4053d550a7334c76074e5b" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_updateCaches</name></member>
       <member refid="classMR_1_1RelaxParams_1a4e6030af260cb62a5532b8a850755064" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__RelaxParams_1a8ebffc0aba6842aafd1fac6440da8b3d" prot="package" virt="non-virtual"><scope>MR::RelaxParams</scope><name>Const_RelaxParams</name></member>
       <member refid="classMR_1_1Const__RelaxParams_1ac867d1e3fee03d7ecff437f9d6ccf0b4" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>Const_RelaxParams</name></member>
@@ -332,7 +316,6 @@
       <member refid="classMR_1_1RelaxParams_1aa6b4edf72ee6909bde7dbba353ccb623" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>RelaxParams</name></member>
       <member refid="classMR_1_1RelaxParams_1aee56e0ad9adf25e0edb5e544f46857fc" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>RelaxParams</name></member>
       <member refid="classMR_1_1RelaxParams_1acd9b062a072a30f445c56768f6b39797" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>RelaxParams</name></member>
-      <member refid="classMR_1_1RelaxParams_1a5a248dea46ab9e0d96dd900d5869e131" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>updateCaches</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

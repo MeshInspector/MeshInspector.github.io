@@ -1,9 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0ae98cf252baade1a490387287b93775":[9,1,0,0,2,1303,0,3],
-"classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0ae98cf252baade1a490387287b93775":[9,1,1,0,1,1303,0,3],
-"classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0db6b4e58a3d82b095f7436c817a425b":[9,1,0,0,2,1303,0,18],
-"classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0db6b4e58a3d82b095f7436c817a425b":[9,1,1,0,1,1303,0,18],
 "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0f7d071065721db99efec2ec2bd845a3":[9,1,0,0,2,1303,0,6],
 "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0f7d071065721db99efec2ec2bd845a3":[9,1,1,0,1,1303,0,6],
 "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a12330ad639d0dcefa5c9562d9184d558":[9,1,0,0,2,1303,0,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX130 =
 "classmrmeshpy_1_1WholeEdgeMap.html#af92280efe1d21fec1f3fe92ff676ffa1":[9,1,0,0,2,1307,0],
 "classmrmeshpy_1_1WholeEdgeMap.html#af92280efe1d21fec1f3fe92ff676ffa1":[9,1,1,0,1,1307,0],
 "classmrmeshpy_1_1WrapType.html":[9,1,0,0,2,1308],
-"classmrmeshpy_1_1WrapType.html":[9,1,1,0,1,1308]
+"classmrmeshpy_1_1WrapType.html":[9,1,1,0,1,1308],
+"classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[9,1,0,0,2,1308,11],
+"classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[9,1,1,0,1,1308,11],
+"classmrmeshpy_1_1WrapType.html#a0b36738324f061864dff8926519985eb":[9,1,0,0,2,1308,5],
+"classmrmeshpy_1_1WrapType.html#a0b36738324f061864dff8926519985eb":[9,1,1,0,1,1308,5]
 };

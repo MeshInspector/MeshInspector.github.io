@@ -1,17 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"classMR_1_1Const__UndirectedEdgeBitSet.html#af6f6f2fa9a412bbf2a52f2bb71fe21e6":[9,3,0,0,0,916,23],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#afd0c48cc1d0fdb2482dd7a0fc6e9c6fc":[9,3,0,0,0,916,21],
-"classMR_1_1Const__UndirectedEdgeBitSet.html#afd4a81305f4e3b3eb5873f3e8f5a016b":[9,3,0,0,0,916,5],
-"classMR_1_1Const__UndirectedEdgeColors.html":[9,3,0,0,0,918],
-"classMR_1_1Const__UndirectedEdgeColors.html#a06d7a1be2f770300af598747e583e07b":[9,3,0,0,0,918,13],
-"classMR_1_1Const__UndirectedEdgeColors.html#a071023a60536a6a89d101a69e3f71a12":[9,3,0,0,0,918,4],
-"classMR_1_1Const__UndirectedEdgeColors.html#a14fe463580d59789781e8b86c9b1ae87":[9,3,0,0,0,918,2],
-"classMR_1_1Const__UndirectedEdgeColors.html#a19e477cef18e5434382d9f8e8b780496":[9,3,0,0,0,918,9],
-"classMR_1_1Const__UndirectedEdgeColors.html#a39b3f3aa1bb1012586e379ca00fd1dc6":[9,3,0,0,0,918,18],
-"classMR_1_1Const__UndirectedEdgeColors.html#a3a86196294fcdbec56bca0bdcbed72e6":[9,3,0,0,0,918,24],
-"classMR_1_1Const__UndirectedEdgeColors.html#a3fea673ba5b41905f47619e701adfc4d":[9,3,0,0,0,918,26],
-"classMR_1_1Const__UndirectedEdgeColors.html#a5109561197e51824964bb7366d2c9459":[9,3,0,0,0,918,23],
 "classMR_1_1Const__UndirectedEdgeColors.html#a5399e151af50625084f2f9d7bcfe07ea":[9,3,0,0,0,918,17],
 "classMR_1_1Const__UndirectedEdgeColors.html#a549b10626f1c1f968e4f6e9fa5f91425":[9,3,0,0,0,918,7],
 "classMR_1_1Const__UndirectedEdgeColors.html#a62364eaf2eba9ab689fdd8778f087cfe":[9,3,0,0,0,918,6],
@@ -249,5 +237,17 @@ var NAVTREEINDEX86 =
 "classMR_1_1Const__UnorientedTriangle.html":[9,3,0,0,0,934],
 "classMR_1_1Const__UnorientedTriangle.html#a02f6485d839e0ad81e280ed44d19d697":[9,3,0,0,0,934,3],
 "classMR_1_1Const__UnorientedTriangle.html#a19daa467c6f8b9b156b4d5e5dd257bd5":[9,3,0,0,0,934,1],
-"classMR_1_1Const__UnorientedTriangle.html#a2c7f97fd3b529075b252cc84029b9683":[9,3,0,0,0,934,0]
+"classMR_1_1Const__UnorientedTriangle.html#a2c7f97fd3b529075b252cc84029b9683":[9,3,0,0,0,934,0],
+"classMR_1_1Const__UnorientedTriangle.html#a311f1f87be08a2023d303c4c69397c53":[9,3,0,0,0,934,9],
+"classMR_1_1Const__UnorientedTriangle.html#a3d3daf951b549c2b32dee27fff3b1c27":[9,3,0,0,0,934,7],
+"classMR_1_1Const__UnorientedTriangle.html#a42a6223d3e7b4f7357a9f27c889097af":[9,3,0,0,0,934,8],
+"classMR_1_1Const__UnorientedTriangle.html#a5e00aed89d23cb18cf01eb5e77361312":[9,3,0,0,0,934,10],
+"classMR_1_1Const__UnorientedTriangle.html#aa84c67f4edbd0c45384165ed979b2606":[9,3,0,0,0,934,4],
+"classMR_1_1Const__UnorientedTriangle.html#aaa10dcd2d0d25050729b4e44419fc89c":[9,3,0,0,0,934,2],
+"classMR_1_1Const__UnorientedTriangle.html#ac394588593aeb0371d9089d5c1cf5429":[9,3,0,0,0,934,12],
+"classMR_1_1Const__UnorientedTriangle.html#adb66d32d1e6a0c4d387ca59ed7e86cdb":[9,3,0,0,0,934,11],
+"classMR_1_1Const__UnorientedTriangle.html#ae74712bebdc14c347f3c88af51646f9b":[9,3,0,0,0,934,13],
+"classMR_1_1Const__UnorientedTriangle.html#aea95710cfd65ccaf710054ed2bac1fd6":[9,3,0,0,0,934,14],
+"classMR_1_1Const__UnorientedTriangle.html#af68eda2bd2e72f5d08b0d197ced0f21f":[9,3,0,0,0,934,6],
+"classMR_1_1Const__UnorientedTriangle.html#afbc9d0eab91ce60c085e5647977942fa":[9,3,0,0,0,934,5]
 };

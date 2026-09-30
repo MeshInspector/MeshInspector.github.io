@@ -1,17 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classMR_1_1Const__Sphere3d.html#a16d681c33f1c860cc22b0d88bdc62c26":[9,3,0,0,0,851,4],
-"classMR_1_1Const__Sphere3d.html#a3c365a65e1ef4bb271ae2701d7efe23a":[9,3,0,0,0,851,1],
-"classMR_1_1Const__Sphere3d.html#a3cc8029fc2c539803214da3aba019e80":[9,3,0,0,0,851,11],
-"classMR_1_1Const__Sphere3d.html#a444e2d05e4fab543d9bf78387c1f44fa":[9,3,0,0,0,851,13],
-"classMR_1_1Const__Sphere3d.html#a70a8c027db2c27bcc7be7b14fd67b1c7":[9,3,0,0,0,851,10],
-"classMR_1_1Const__Sphere3d.html#a84c5af97e3d5bdc3991b76967f8afb0d":[9,3,0,0,0,851,7],
-"classMR_1_1Const__Sphere3d.html#a898618136ee5891cb035a407b3aeb74b":[9,3,0,0,0,851,14],
-"classMR_1_1Const__Sphere3d.html#a97b1a3ceea7e3b30288b5b8d012ccaa0":[9,3,0,0,0,851,2],
-"classMR_1_1Const__Sphere3d.html#aa1d0c48df49a6551298d82635cf78598":[9,3,0,0,0,851,8],
-"classMR_1_1Const__Sphere3d.html#aa4caa4712bb04eceb454375098c7b051":[9,3,0,0,0,851,15],
-"classMR_1_1Const__Sphere3d.html#ac7b3d595cf14cd13739bc675431575cd":[9,3,0,0,0,851,0],
-"classMR_1_1Const__Sphere3d.html#acc64bdb5f3303ea8365897bbcc72e18f":[9,3,0,0,0,851,3],
 "classMR_1_1Const__Sphere3d.html#ad0b6c60a7d7705345a63ba9a74b75643":[9,3,0,0,0,851,16],
 "classMR_1_1Const__Sphere3d.html#ae582002be15485d90797dcffd43aced8":[9,3,0,0,0,851,12],
 "classMR_1_1Const__Sphere3d.html#af128302edff13305335cfa87a17d876c":[9,3,0,0,0,851,9],
@@ -249,5 +237,17 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SubdivideSettings.html#ac1c14b21f874ef5b44c803c40cb4c17e":[9,3,0,0,0,860,1],
 "classMR_1_1Const__SubdivideSettings.html#ac39d6804c45a7328fb13e1daefb4cc28":[9,3,0,0,0,860,8],
 "classMR_1_1Const__SubdivideSettings.html#ac50521a8622ffe34542cc94707027181":[9,3,0,0,0,860,17],
-"classMR_1_1Const__SubdivideSettings.html#acb2587f7f8182ea98e164cb2b6b5ce56":[9,3,0,0,0,860,34]
+"classMR_1_1Const__SubdivideSettings.html#acb2587f7f8182ea98e164cb2b6b5ce56":[9,3,0,0,0,860,34],
+"classMR_1_1Const__SubdivideSettings.html#acc527c301f6bd4852405291464a392af":[9,3,0,0,0,860,4],
+"classMR_1_1Const__SubdivideSettings.html#ad12b94f8a0963e2569c82d8c3631104e":[9,3,0,0,0,860,14],
+"classMR_1_1Const__SubdivideSettings.html#ad200f99ae39e2c98e04f0e26a621f6a2":[9,3,0,0,0,860,5],
+"classMR_1_1Const__SubdivideSettings.html#ad66ffb9f43316f9a4f186099cf7138d1":[9,3,0,0,0,860,29],
+"classMR_1_1Const__SubdivideSettings.html#af07f3985ef5452be346bc3e5c2e05d84":[9,3,0,0,0,860,12],
+"classMR_1_1Const__SubdivideSettings.html#afb69c4b68a294908a63fbc203bc6a716":[9,3,0,0,0,860,16],
+"classMR_1_1Const__SurfaceDistanceBuilder.html":[9,3,0,0,0,861],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a02f823d3e8f998898c6faf436e03d4af":[9,3,0,0,0,861,7],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a097dc5313d3d09e396c1e4c1ab39c36e":[9,3,0,0,0,861,5],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a274a59664e9d5c477718991908278e3f":[9,3,0,0,0,861,6],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a39deef10f397eefc69d032bfa39ec6cf":[9,3,0,0,0,861,0],
+"classMR_1_1Const__SurfaceDistanceBuilder.html#a876ccebac8e43c23e4fc8cd52450ef84":[9,3,0,0,0,861,3]
 };

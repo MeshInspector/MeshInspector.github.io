@@ -12,6 +12,5 @@ var classMR_1_1PointCloudApproxRelaxParams =
     [ "maxInitialDist", "classMR_1_1PointCloudApproxRelaxParams.html#ac2da44309cc6f470a18fb6fde664c92e", null ],
     [ "neighborhoodRadius", "classMR_1_1PointCloudApproxRelaxParams.html#a737c49734315fdb3d7fd32ef285b5be5", null ],
     [ "region", "classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00", null ],
-    [ "type", "classMR_1_1PointCloudApproxRelaxParams.html#a9f212056331e43f999e81fea6369b897", null ],
-    [ "updateCaches", "classMR_1_1PointCloudApproxRelaxParams.html#a410253d4074c7c006c03705d955843e4", null ]
+    [ "type", "classMR_1_1PointCloudApproxRelaxParams.html#a9f212056331e43f999e81fea6369b897", null ]
 ];

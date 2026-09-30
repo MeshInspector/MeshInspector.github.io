@@ -1,9 +1,5 @@
 var NAVTREEINDEX163 =
 {
-"classmrmeshpy_1_1std__vector__SkyPatch.html#ab95b704c6aca85190dc5ef60835f2e59":[9,1,0,0,2,1020,19],
-"classmrmeshpy_1_1std__vector__SkyPatch.html#ab95b704c6aca85190dc5ef60835f2e59":[9,1,1,0,1,1020,19],
-"classmrmeshpy_1_1std__vector__SkyPatch.html#aba9cb8b9b365d3c5eb9224436109eab9":[9,1,0,0,2,1020,8],
-"classmrmeshpy_1_1std__vector__SkyPatch.html#aba9cb8b9b365d3c5eb9224436109eab9":[9,1,1,0,1,1020,8],
 "classmrmeshpy_1_1std__vector__SkyPatch.html#ac6512a6b58325da923303712dac5b6df":[9,1,0,0,2,1020,22],
 "classmrmeshpy_1_1std__vector__SkyPatch.html#ac6512a6b58325da923303712dac5b6df":[9,1,1,0,1,1020,22],
 "classmrmeshpy_1_1std__vector__SkyPatch.html#ac92cca877e85825728491aec5f86f35c":[9,1,0,0,2,1020,20],
@@ -249,5 +245,9 @@ var NAVTREEINDEX163 =
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html":[9,1,0,0,2,1067],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html":[9,1,1,0,1,1067],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a0b7987ee7565b7bde52412bb06c7ef9a":[9,1,0,0,2,1067,22],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a0b7987ee7565b7bde52412bb06c7ef9a":[9,1,1,0,1,1067,22]
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a0b7987ee7565b7bde52412bb06c7ef9a":[9,1,1,0,1,1067,22],
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a0d4a137a8312651e38b5d1e1ee933ab7":[9,1,0,0,2,1067,28],
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a0d4a137a8312651e38b5d1e1ee933ab7":[9,1,1,0,1,1067,28],
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a1bb42c6736c0890df2899919561eff32":[9,1,0,0,2,1067,0],
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#a1bb42c6736c0890df2899919561eff32":[9,1,1,0,1,1067,0]
 };

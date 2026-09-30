@@ -1,15 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"classMR_1_1Const__Quaternionf.html#a2b0a193ce05f44a3c56ad6fcf8cc95f1":[9,3,0,0,0,792,27],
-"classMR_1_1Const__Quaternionf.html#a30d543171609311dbd1c342221dd46be":[9,3,0,0,0,792,28],
-"classMR_1_1Const__Quaternionf.html#a5168b0e6a1d66730cd806c3a919171d9":[9,3,0,0,0,792,22],
-"classMR_1_1Const__Quaternionf.html#a57048a64f93c2ca4e98822bfeab6a40a":[9,3,0,0,0,792,25],
-"classMR_1_1Const__Quaternionf.html#a5a57d12636247db4852ef1c0feb76a8a":[9,3,0,0,0,792,6],
-"classMR_1_1Const__Quaternionf.html#a65d29c13d60e6d90f9daabc17db29c9c":[9,3,0,0,0,792,30],
-"classMR_1_1Const__Quaternionf.html#a69c51e80230a1849d3779f54db026e09":[9,3,0,0,0,792,11],
-"classMR_1_1Const__Quaternionf.html#a6f087c919498b60849a7b474dc3b4548":[9,3,0,0,0,792,24],
-"classMR_1_1Const__Quaternionf.html#a75943cc078d076a3aeebbe9178f9ac7b":[9,3,0,0,0,792,16],
-"classMR_1_1Const__Quaternionf.html#a7bb8fabf33cf342b5381c4bb0e2b9d4b":[9,3,0,0,0,792,5],
 "classMR_1_1Const__Quaternionf.html#a7d52aead5064aa12bc105baa1f6d48b9":[9,3,0,0,0,792,14],
 "classMR_1_1Const__Quaternionf.html#a851554426a977f88d60f00fcedd0ef28":[9,3,0,0,0,792,23],
 "classMR_1_1Const__Quaternionf.html#a99474ae49951e501c0aecba986ead6dd":[9,3,0,0,0,792,10],
@@ -249,5 +239,15 @@ var NAVTREEINDEX75 =
 "classMR_1_1Const__RegionBitSet.html#af91d44a1fd700ab600b5de8fd9f139a1":[9,3,0,0,0,798,10],
 "classMR_1_1Const__RegionBitSet.html#afa4df6a2c99a22ecefe3a2e2f2f619fb":[9,3,0,0,0,798,35],
 "classMR_1_1Const__RegionBitSet.html#afda93384c4810089e4eac01b57aba7b7":[9,3,0,0,0,798,4],
-"classMR_1_1Const__RegularMapMesher.html":[9,3,0,0,0,799]
+"classMR_1_1Const__RegularMapMesher.html":[9,3,0,0,0,799],
+"classMR_1_1Const__RegularMapMesher.html#a33768ea39ee571054fa19c96de53cee0":[9,3,0,0,0,799,0],
+"classMR_1_1Const__RegularMapMesher.html#a59c844fc1e48e099b735d1dcebf6bde9":[9,3,0,0,0,799,6],
+"classMR_1_1Const__RegularMapMesher.html#a7e8a095e13657f54dc93a731c2a65666":[9,3,0,0,0,799,3],
+"classMR_1_1Const__RegularMapMesher.html#a857501d05650c0b111912413f785bf33":[9,3,0,0,0,799,5],
+"classMR_1_1Const__RegularMapMesher.html#a8a2305a98a59c9906173e1127f301320":[9,3,0,0,0,799,4],
+"classMR_1_1Const__RegularMapMesher.html#aaca648230f0f47d45f984aabcff7d5db":[9,3,0,0,0,799,2],
+"classMR_1_1Const__RegularMapMesher.html#ad7556cdbf6ef40a02dee868765c88090":[9,3,0,0,0,799,1],
+"classMR_1_1Const__RelaxParams.html":[9,3,0,0,0,800],
+"classMR_1_1Const__RelaxParams.html#a0cdfab3d5daae3f6a0c55b008fc00ad1":[9,3,0,0,0,800,11],
+"classMR_1_1Const__RelaxParams.html#a26d76a758591f1a7f1b9b6546a1fcbcf":[9,3,0,0,0,800,6]
 };

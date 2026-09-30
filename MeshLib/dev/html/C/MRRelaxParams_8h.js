@@ -16,19 +16,16 @@ var MRRelaxParams_8h =
     [ "MR_RelaxParams_Get_limitNearInitial", "MRRelaxParams_8h.html#a5b56c5eb4a44eb66e2a8cbb299a13dec", null ],
     [ "MR_RelaxParams_Get_maxInitialDist", "MRRelaxParams_8h.html#ad911b4204b6bd435b4d7735cee98badc", null ],
     [ "MR_RelaxParams_Get_region", "MRRelaxParams_8h.html#a5f8ee19f99322450b383b09ae2185978", null ],
-    [ "MR_RelaxParams_Get_updateCaches", "MRRelaxParams_8h.html#ac182c1311903322fc627162275f59146", null ],
     [ "MR_RelaxParams_GetMutable_force", "MRRelaxParams_8h.html#ae7f4c026e2869fed95cb8aff08ee6459", null ],
     [ "MR_RelaxParams_GetMutable_iterations", "MRRelaxParams_8h.html#a008ce749ed54dbf0dc8e9a0ad85bcb56", null ],
     [ "MR_RelaxParams_GetMutable_limitNearInitial", "MRRelaxParams_8h.html#a30dba1537cc2bb61a72a24abcd6acbb0", null ],
     [ "MR_RelaxParams_GetMutable_maxInitialDist", "MRRelaxParams_8h.html#ac55bbbd1bae1d22f45122a0ff2fa6edc", null ],
     [ "MR_RelaxParams_GetMutable_region", "MRRelaxParams_8h.html#a52484e6ec5df2545e76c5d5408885fe8", null ],
-    [ "MR_RelaxParams_GetMutable_updateCaches", "MRRelaxParams_8h.html#a74b7abb008bf9b5cc8c41fe273f8ca61", null ],
     [ "MR_RelaxParams_OffsetMutablePtr", "MRRelaxParams_8h.html#aa1db5147a8df01cac34ac5bc1273fed9", null ],
     [ "MR_RelaxParams_OffsetPtr", "MRRelaxParams_8h.html#a3289571f730d394247ce3921121c9474", null ],
     [ "MR_RelaxParams_Set_force", "MRRelaxParams_8h.html#a4a58a8d2b7506c56070261f7b6b81217", null ],
     [ "MR_RelaxParams_Set_iterations", "MRRelaxParams_8h.html#a96e091f32783bbdc4bb48ba31ebab119", null ],
     [ "MR_RelaxParams_Set_limitNearInitial", "MRRelaxParams_8h.html#a8a33cc6b85e6e6b98c14c10ad3f8e0ac", null ],
     [ "MR_RelaxParams_Set_maxInitialDist", "MRRelaxParams_8h.html#a055e7dac1a2d14cf6899c633cd55b757", null ],
-    [ "MR_RelaxParams_Set_region", "MRRelaxParams_8h.html#a758bc619e407735c4b809cb43b201353", null ],
-    [ "MR_RelaxParams_Set_updateCaches", "MRRelaxParams_8h.html#a55cb4d03c300a50466a75ad05b7b8c42", null ]
+    [ "MR_RelaxParams_Set_region", "MRRelaxParams_8h.html#a758bc619e407735c4b809cb43b201353", null ]
 ];

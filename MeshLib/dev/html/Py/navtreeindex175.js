@@ -1,9 +1,5 @@
 var NAVTREEINDEX175 =
 {
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a116830c175cba2f6b52eb9b0c386ed3b":[9,1,0,0,2,1045,12],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a116830c175cba2f6b52eb9b0c386ed3b":[9,1,1,0,1,1045,12],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a19ebfc0d95b004c9134a681e31c9b50a":[9,1,0,0,2,1045,16],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a19ebfc0d95b004c9134a681e31c9b50a":[9,1,1,0,1,1045,16],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a1aff1b872465cd0bf79acccd21ea21e5":[9,1,0,0,2,1045,29],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a1aff1b872465cd0bf79acccd21ea21e5":[9,1,1,0,1,1045,29],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPoints.html#a1c53d189a4f1fb83518971edb55738c8":[9,1,0,0,2,1045,20],
@@ -249,5 +245,9 @@ var NAVTREEINDEX175 =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a0cdcfbcf93b4abce42943481d888a171":[9,1,0,0,2,1048,11],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a0cdcfbcf93b4abce42943481d888a171":[9,1,1,0,1,1048,11],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a1001de5e8e3b125e1d6dac2ca30e1af4":[9,1,0,0,2,1048,19],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a1001de5e8e3b125e1d6dac2ca30e1af4":[9,1,1,0,1,1048,19]
+"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a1001de5e8e3b125e1d6dac2ca30e1af4":[9,1,1,0,1,1048,19],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a118a9ebaf68fa6fc8f9fd2ab0db1c712":[9,1,0,0,2,1048,5],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a118a9ebaf68fa6fc8f9fd2ab0db1c712":[9,1,1,0,1,1048,5],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a126df442fb700e496249e5fd5e01dadb":[9,1,0,0,2,1048,15],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__VisualObject.html#a126df442fb700e496249e5fd5e01dadb":[9,1,1,0,1,1048,15]
 };

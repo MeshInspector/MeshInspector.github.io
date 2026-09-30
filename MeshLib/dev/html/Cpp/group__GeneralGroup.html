@@ -13378,7 +13378,6 @@ Variables</h2></td></tr>
 <tr class="memdesc:gabeb08d7e70411cf9ef2826c0f058b909"><td class="mdescLeft">&#160;</td><td class="mdescRight">region to relax  <br /></td></tr>
 <tr class="memitem:ga7f58a3b0b7e5c09209f53edd90b4371a" id="r_ga7f58a3b0b7e5c09209f53edd90b4371a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f58a3b0b7e5c09209f53edd90b4371a">MR::RelaxParams::force</a> = 0.5f</td></tr>
 <tr class="memdesc:ga7f58a3b0b7e5c09209f53edd90b4371a"><td class="mdescLeft">&#160;</td><td class="mdescRight">speed of relaxing, typical values (0.0, 0.5]  <br /></td></tr>
-<tr class="memitem:gaebc3bfd6830fc3b7fcf62a984d8b25f9" id="r_gaebc3bfd6830fc3b7fcf62a984d8b25f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaebc3bfd6830fc3b7fcf62a984d8b25f9">MR::RelaxParams::updateCaches</a> = false</td></tr>
 <tr class="memitem:gae8d07089d4abc1f4c2ccd3018e66e23a" id="r_gae8d07089d4abc1f4c2ccd3018e66e23a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8d07089d4abc1f4c2ccd3018e66e23a">MR::RelaxParams::limitNearInitial</a> = false</td></tr>
 <tr class="memdesc:gae8d07089d4abc1f4c2ccd3018e66e23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then maximal displacement of each point during denoising will be limited  <br /></td></tr>
 <tr class="memitem:gae2779bd159120c7d84c4d2e13186af7e" id="r_gae2779bd159120c7d84c4d2e13186af7e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2779bd159120c7d84c4d2e13186af7e">MR::RelaxParams::maxInitialDist</a> = 0</td></tr>
@@ -237957,21 +237956,6 @@ template&lt;UnitEnum E&gt; </div>
 </div><div class="memdoc">
 
 <p>ids of upper intersection edge vertices </p>
-
-</div>
-</div>
-<a id="gaebc3bfd6830fc3b7fcf62a984d8b25f9" name="gaebc3bfd6830fc3b7fcf62a984d8b25f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaebc3bfd6830fc3b7fcf62a984d8b25f9">&#9670;&#160;</a></span>updateCaches</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::RelaxParams::updateCaches = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>in functions taking <a class="el" href="structMR_1_1Mesh.html">Mesh</a> or <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient) </p>
 
 </div>
 </div>

@@ -1,9 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"classmrmeshpy_1_1Vector4i.html#aac6c1843614259c05796338717e53e39":[9,1,0,0,2,1196,0],
-"classmrmeshpy_1_1Vector4i.html#aac6c1843614259c05796338717e53e39":[9,1,1,0,1,1196,0],
-"classmrmeshpy_1_1Vector4i.html#ab54c172aef5a8c725af4cb3898f6c2c0":[9,1,0,0,2,1196,17],
-"classmrmeshpy_1_1Vector4i.html#ab54c172aef5a8c725af4cb3898f6c2c0":[9,1,1,0,1,1196,17],
 "classmrmeshpy_1_1Vector4i.html#abcecb961d8d46d99eae1c6edf42f073b":[9,1,0,0,2,1196,6],
 "classmrmeshpy_1_1Vector4i.html#abcecb961d8d46d99eae1c6edf42f073b":[9,1,0,0,2,1196,7],
 "classmrmeshpy_1_1Vector4i.html#abcecb961d8d46d99eae1c6edf42f073b":[9,1,1,0,1,1196,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a26fa912da8d395996ecea6d186e38afe":[9,1,0,0,2,1200,25],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a26fa912da8d395996ecea6d186e38afe":[9,1,1,0,1,1200,25],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea":[9,1,0,0,2,1200,36],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea":[9,1,1,0,1,1200,36]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea":[9,1,1,0,1,1200,36],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a33d09f5379e4b0138f65620b4a0408bd":[9,1,0,0,2,1200,15],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a33d09f5379e4b0138f65620b4a0408bd":[9,1,1,0,1,1200,15],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a3bc12803d7e76237a41bcaf57df50356":[9,1,0,0,2,1200,30],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a3bc12803d7e76237a41bcaf57df50356":[9,1,1,0,1,1200,30]
 };

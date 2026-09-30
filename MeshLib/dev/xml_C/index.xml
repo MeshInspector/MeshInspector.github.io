@@ -15821,9 +15821,6 @@
     <member refid="MRMeshRelax_8h_1a3f84d95ad46e8c3e027bc75ef0b36473" kind="function"><name>MR_MeshRelaxParams_Get_force</name></member>
     <member refid="MRMeshRelax_8h_1af5dd1999cbe82ed774301832df050815" kind="function"><name>MR_MeshRelaxParams_Set_force</name></member>
     <member refid="MRMeshRelax_8h_1ab5cbe9d9a3648d588bd18f7e232ad703" kind="function"><name>MR_MeshRelaxParams_GetMutable_force</name></member>
-    <member refid="MRMeshRelax_8h_1aee860be45421678938cda839d8e6fe31" kind="function"><name>MR_MeshRelaxParams_Get_updateCaches</name></member>
-    <member refid="MRMeshRelax_8h_1a2dbe91d4db69f69c936614de2f7470f3" kind="function"><name>MR_MeshRelaxParams_Set_updateCaches</name></member>
-    <member refid="MRMeshRelax_8h_1a2d203d06954a29e3b6019e62a6ead150" kind="function"><name>MR_MeshRelaxParams_GetMutable_updateCaches</name></member>
     <member refid="MRMeshRelax_8h_1ac70593c1de647dba6121828b4e1b6e66" kind="function"><name>MR_MeshRelaxParams_Get_limitNearInitial</name></member>
     <member refid="MRMeshRelax_8h_1ab352452e1c3d0fcd76c66ff40797b451" kind="function"><name>MR_MeshRelaxParams_Set_limitNearInitial</name></member>
     <member refid="MRMeshRelax_8h_1a529007a2edbb9c5c9ed70764493ccab0" kind="function"><name>MR_MeshRelaxParams_GetMutable_limitNearInitial</name></member>
@@ -15864,9 +15861,6 @@
     <member refid="MRMeshRelax_8h_1a97ab2d0f9562ed2814ea9600cb44b61f" kind="function"><name>MR_MeshEqualizeTriAreasParams_Get_force</name></member>
     <member refid="MRMeshRelax_8h_1a0e28ee7bf90a06a1532a331859361ac2" kind="function"><name>MR_MeshEqualizeTriAreasParams_Set_force</name></member>
     <member refid="MRMeshRelax_8h_1afac3c84b0253cdd2532e78ecc8b81852" kind="function"><name>MR_MeshEqualizeTriAreasParams_GetMutable_force</name></member>
-    <member refid="MRMeshRelax_8h_1a11098e2186db9de7ddee8e083efbc107" kind="function"><name>MR_MeshEqualizeTriAreasParams_Get_updateCaches</name></member>
-    <member refid="MRMeshRelax_8h_1a984e6c0079b64cbc1531fe33d4bea2e9" kind="function"><name>MR_MeshEqualizeTriAreasParams_Set_updateCaches</name></member>
-    <member refid="MRMeshRelax_8h_1ae71d8804b374978f68549292f6c8f6c9" kind="function"><name>MR_MeshEqualizeTriAreasParams_GetMutable_updateCaches</name></member>
     <member refid="MRMeshRelax_8h_1a2cf99e9718ee2a37501fd804ea39bf6d" kind="function"><name>MR_MeshEqualizeTriAreasParams_Get_limitNearInitial</name></member>
     <member refid="MRMeshRelax_8h_1af828c0b58e1bedbbfdbcb1a7d7cfd510" kind="function"><name>MR_MeshEqualizeTriAreasParams_Set_limitNearInitial</name></member>
     <member refid="MRMeshRelax_8h_1a6262c6afa8fe6835c5a5a404db8b5dd7" kind="function"><name>MR_MeshEqualizeTriAreasParams_GetMutable_limitNearInitial</name></member>
@@ -15914,9 +15908,6 @@
     <member refid="MRMeshRelax_8h_1a7d90c2d2f4b72e3fdf1ae3fa9a784c28" kind="function"><name>MR_MeshApproxRelaxParams_Get_force</name></member>
     <member refid="MRMeshRelax_8h_1a8d2abaf093c62f1adfc7eaacd6dfe181" kind="function"><name>MR_MeshApproxRelaxParams_Set_force</name></member>
     <member refid="MRMeshRelax_8h_1a3201351c898374e24284fdc0620722ed" kind="function"><name>MR_MeshApproxRelaxParams_GetMutable_force</name></member>
-    <member refid="MRMeshRelax_8h_1a2502b198119e4004bdce84c5269a71a5" kind="function"><name>MR_MeshApproxRelaxParams_Get_updateCaches</name></member>
-    <member refid="MRMeshRelax_8h_1a6435a05aaa47e1092c3bff9668bbe6c4" kind="function"><name>MR_MeshApproxRelaxParams_Set_updateCaches</name></member>
-    <member refid="MRMeshRelax_8h_1a3607397f7644b36f1b9dbcefabdf91d6" kind="function"><name>MR_MeshApproxRelaxParams_GetMutable_updateCaches</name></member>
     <member refid="MRMeshRelax_8h_1a9c16f62653cddc34fe5b2811ac082d06" kind="function"><name>MR_MeshApproxRelaxParams_Get_limitNearInitial</name></member>
     <member refid="MRMeshRelax_8h_1a500d07a65c6f71f36d8aae10c05d0c1f" kind="function"><name>MR_MeshApproxRelaxParams_Set_limitNearInitial</name></member>
     <member refid="MRMeshRelax_8h_1add069d5dbc872947d19b57cdc080b216" kind="function"><name>MR_MeshApproxRelaxParams_GetMutable_limitNearInitial</name></member>
@@ -20106,9 +20097,6 @@
     <member refid="MRPointCloudRelax_8h_1ae8e6ae2256c8bdf7f8d3b5fd4dfebe6a" kind="function"><name>MR_PointCloudRelaxParams_Get_force</name></member>
     <member refid="MRPointCloudRelax_8h_1aaaae54bc68b98274448b323f03a79b5e" kind="function"><name>MR_PointCloudRelaxParams_Set_force</name></member>
     <member refid="MRPointCloudRelax_8h_1a51f0af1eafdbac253c55d6b63d51d798" kind="function"><name>MR_PointCloudRelaxParams_GetMutable_force</name></member>
-    <member refid="MRPointCloudRelax_8h_1a0eb2084674773b25d1500b29e87dcac8" kind="function"><name>MR_PointCloudRelaxParams_Get_updateCaches</name></member>
-    <member refid="MRPointCloudRelax_8h_1a20abd49d723e091d25a037dbbd2a5100" kind="function"><name>MR_PointCloudRelaxParams_Set_updateCaches</name></member>
-    <member refid="MRPointCloudRelax_8h_1a5dd4e2f28b7a38f4e8eeae3a8e4d91a4" kind="function"><name>MR_PointCloudRelaxParams_GetMutable_updateCaches</name></member>
     <member refid="MRPointCloudRelax_8h_1a700dc0c764e35c9c1fc3661919451b01" kind="function"><name>MR_PointCloudRelaxParams_Get_limitNearInitial</name></member>
     <member refid="MRPointCloudRelax_8h_1ad8e8f84eeb16af11e99f2e0b5763075c" kind="function"><name>MR_PointCloudRelaxParams_Set_limitNearInitial</name></member>
     <member refid="MRPointCloudRelax_8h_1a3d16bbe8e477814b96e0217b33443358" kind="function"><name>MR_PointCloudRelaxParams_GetMutable_limitNearInitial</name></member>
@@ -20144,9 +20132,6 @@
     <member refid="MRPointCloudRelax_8h_1a7d2035a938386d7302acfa3133cc83a2" kind="function"><name>MR_PointCloudApproxRelaxParams_Get_force</name></member>
     <member refid="MRPointCloudRelax_8h_1a9efb4fed8592eb2860c81c43b20d74c1" kind="function"><name>MR_PointCloudApproxRelaxParams_Set_force</name></member>
     <member refid="MRPointCloudRelax_8h_1af6b5aeebcbedd648551ea8938ff9c4f1" kind="function"><name>MR_PointCloudApproxRelaxParams_GetMutable_force</name></member>
-    <member refid="MRPointCloudRelax_8h_1abf0a4c70db41ce3fc763c31db7a11b46" kind="function"><name>MR_PointCloudApproxRelaxParams_Get_updateCaches</name></member>
-    <member refid="MRPointCloudRelax_8h_1a082c4ee1fd521c59baffaa1273e07066" kind="function"><name>MR_PointCloudApproxRelaxParams_Set_updateCaches</name></member>
-    <member refid="MRPointCloudRelax_8h_1a5fd6942e237b0802022fca73aecb3806" kind="function"><name>MR_PointCloudApproxRelaxParams_GetMutable_updateCaches</name></member>
     <member refid="MRPointCloudRelax_8h_1a40bb9c1f23645016e12a2bb0c48d4fb4" kind="function"><name>MR_PointCloudApproxRelaxParams_Get_limitNearInitial</name></member>
     <member refid="MRPointCloudRelax_8h_1a589122d742e6dd62ce959b0cfba8c70e" kind="function"><name>MR_PointCloudApproxRelaxParams_Set_limitNearInitial</name></member>
     <member refid="MRPointCloudRelax_8h_1ae257aa45302bd3a2bc030c7de04d5250" kind="function"><name>MR_PointCloudApproxRelaxParams_GetMutable_limitNearInitial</name></member>
@@ -22426,9 +22411,6 @@
     <member refid="MRRelaxParams_8h_1a528ce75912bdbadeffb77d9af99c06b4" kind="function"><name>MR_RelaxParams_Get_force</name></member>
     <member refid="MRRelaxParams_8h_1a4a58a8d2b7506c56070261f7b6b81217" kind="function"><name>MR_RelaxParams_Set_force</name></member>
     <member refid="MRRelaxParams_8h_1ae7f4c026e2869fed95cb8aff08ee6459" kind="function"><name>MR_RelaxParams_GetMutable_force</name></member>
-    <member refid="MRRelaxParams_8h_1ac182c1311903322fc627162275f59146" kind="function"><name>MR_RelaxParams_Get_updateCaches</name></member>
-    <member refid="MRRelaxParams_8h_1a55cb4d03c300a50466a75ad05b7b8c42" kind="function"><name>MR_RelaxParams_Set_updateCaches</name></member>
-    <member refid="MRRelaxParams_8h_1a74b7abb008bf9b5cc8c41fe273f8ca61" kind="function"><name>MR_RelaxParams_GetMutable_updateCaches</name></member>
     <member refid="MRRelaxParams_8h_1a5b56c5eb4a44eb66e2a8cbb299a13dec" kind="function"><name>MR_RelaxParams_Get_limitNearInitial</name></member>
     <member refid="MRRelaxParams_8h_1a8a33cc6b85e6e6b98c14c10ad3f8e0ac" kind="function"><name>MR_RelaxParams_Set_limitNearInitial</name></member>
     <member refid="MRRelaxParams_8h_1a30dba1537cc2bb61a72a24abcd6acbb0" kind="function"><name>MR_RelaxParams_GetMutable_limitNearInitial</name></member>

@@ -194,7 +194,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad0492e21bd56ce778049eeee41e1abfa" id="r_ad0492e21bd56ce778049eeee41e1abfa"><td class="memItemLeft" align="right" valign="top">unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0492e21bd56ce778049eeee41e1abfa">__ref_storage_iterations</a></td></tr>
 <tr class="memitem:a15f715af7e447605a5c445948c753185" id="r_a15f715af7e447605a5c445948c753185"><td class="memItemLeft" align="right" valign="top">unsafe MR.Const_VertBitSet._Underlying **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15f715af7e447605a5c445948c753185">__ptr_storage_region</a></td></tr>
 <tr class="memitem:a2831cd4e25d817b6fba80f3e0bcb5ecd" id="r_a2831cd4e25d817b6fba80f3e0bcb5ecd"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2831cd4e25d817b6fba80f3e0bcb5ecd">__ref_storage_force</a></td></tr>
-<tr class="memitem:a882c468acedf5d1f00bbf703bdfe4bb7" id="r_a882c468acedf5d1f00bbf703bdfe4bb7"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a882c468acedf5d1f00bbf703bdfe4bb7">__ref_storage_updateCaches</a></td></tr>
 <tr class="memitem:aa0b02a1c5a8ebf213cf1685d9a2a7034" id="r_aa0b02a1c5a8ebf213cf1685d9a2a7034"><td class="memItemLeft" align="right" valign="top">unsafe bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0b02a1c5a8ebf213cf1685d9a2a7034">__ref_storage_limitNearInitial</a></td></tr>
 <tr class="memitem:a15c0ae3510e802be27e6ed06ceb98821" id="r_a15c0ae3510e802be27e6ed06ceb98821"><td class="memItemLeft" align="right" valign="top">unsafe float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15c0ae3510e802be27e6ed06ceb98821">__ref_storage_maxInitialDist</a></td></tr>
 </table><table class="memberdecls">
@@ -213,8 +212,6 @@ Properties</h2></td></tr>
 <tr class="memdesc:a9f0c1d10bdce59ebae6e2cc3f775499a"><td class="mdescLeft">&#160;</td><td class="mdescRight">region to relax  <br /></td></tr>
 <tr class="memitem:a6b08133bb7443e349d4d68fcf2d365fd" id="r_a6b08133bb7443e349d4d68fcf2d365fd"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b08133bb7443e349d4d68fcf2d365fd">force</a><code> [get]</code></td></tr>
 <tr class="memdesc:a6b08133bb7443e349d4d68fcf2d365fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">speed of relaxing, typical values (0.0, 0.5]  <br /></td></tr>
-<tr class="memitem:a1231ee32db9c98a9b238cf6704b600a8" id="r_a1231ee32db9c98a9b238cf6704b600a8"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1231ee32db9c98a9b238cf6704b600a8">updateCaches</a><code> [get]</code></td></tr>
-<tr class="memdesc:a1231ee32db9c98a9b238cf6704b600a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">in functions taking <a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> or <a class="el" href="classMR_1_1PointCloud.html" title="Generated from class MR.PointCloud. This is the non-const half of the class.">PointCloud</a>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient)  <br /></td></tr>
 <tr class="memitem:a83d147c2c369f150d6606203a8640efd" id="r_a83d147c2c369f150d6606203a8640efd"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83d147c2c369f150d6606203a8640efd">limitNearInitial</a><code> [get]</code></td></tr>
 <tr class="memdesc:a83d147c2c369f150d6606203a8640efd"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then maximal displacement of each point during denoising will be limited  <br /></td></tr>
 <tr class="memitem:ac876131fed4074ce6aed9dce0328121e" id="r_ac876131fed4074ce6aed9dce0328121e"><td class="memItemLeft" align="right" valign="top">unsafe float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac876131fed4074ce6aed9dce0328121e">maxInitialDist</a><code> [get]</code></td></tr>
@@ -604,28 +601,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a882c468acedf5d1f00bbf703bdfe4bb7" name="a882c468acedf5d1f00bbf703bdfe4bb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a882c468acedf5d1f00bbf703bdfe4bb7">&#9670;&#160;</a></span>__ref_storage_updateCaches</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe bool* MR.Const_MeshApproxRelaxParams.__ref_storage_updateCaches</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-property-members" id="doc-property-members"></a><h2 id="header-doc-property-members" class="groupheader">Property Documentation</h2>
 <a id="a6b08133bb7443e349d4d68fcf2d365fd" name="a6b08133bb7443e349d4d68fcf2d365fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b08133bb7443e349d4d68fcf2d365fd">&#9670;&#160;</a></span>force</h2>
@@ -814,30 +789,6 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1231ee32db9c98a9b238cf6704b600a8" name="a1231ee32db9c98a9b238cf6704b600a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1231ee32db9c98a9b238cf6704b600a8">&#9670;&#160;</a></span>updateCaches</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe bool MR.Const_MeshApproxRelaxParams.updateCaches</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>in functions taking <a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> or <a class="el" href="classMR_1_1PointCloud.html" title="Generated from class MR.PointCloud. This is the non-const half of the class.">PointCloud</a>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient) </p>
 
 </div>
 </div>

@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#aa8200aa3ad605ff04ee257334721e45f":[9,0,2,0,2,7,1,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[9,0,1,0,1,16,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html":[9,0,2,0,2,7,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html#a1c78e55a9990e6cbd07c33abe73a74ea":[9,0,1,0,1,16,2,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImproveSamplingSettings.html":[9,0,0,20,298],
 "structMR_1_1InSphere.html":[9,0,0,20,374],
 "structMR_1_1InSphereSearchSettings.html":[9,0,0,20,373],
-"structMR_1_1InflateSettings.html":[9,0,0,20,469]
+"structMR_1_1InflateSettings.html":[9,0,0,20,469],
+"structMR_1_1InterpolateScalarsParams.html":[9,0,0,20,467]
 };

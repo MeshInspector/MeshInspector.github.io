@@ -41,7 +41,7 @@
         <argsstring></argsstring>
         <name>_offsetof_limitNearInitial</name>
         <qualifiedname>mrmeshpy.RelaxParams._offsetof_limitNearInitial</qualifiedname>
-        <initializer>=  21</initializer>
+        <initializer>=  20</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -80,21 +80,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42375" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1RelaxParams_1a227457a1af580830f74841c5298f78f3" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.RelaxParams::_offsetof_updateCaches</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_updateCaches</name>
-        <qualifiedname>mrmeshpy.RelaxParams._offsetof_updateCaches</qualifiedname>
-        <initializer>=  20</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42376" bodyend="-1"/>
-      </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -117,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42379" bodyend="42380"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42378" bodyend="42379"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RelaxParams" kindref="compound">RelaxParams</ref></type>
@@ -149,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42383" bodyend="42384"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42382" bodyend="42383"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RelaxParams" kindref="compound">RelaxParams</ref></type>
@@ -181,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42387" bodyend="42388"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42386" bodyend="42387"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -201,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42390" bodyend="42391"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42389" bodyend="42390"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a386c6a81559a1035881bd09b3edbcc15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -225,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42393" bodyend="42396"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42392" bodyend="42395"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a50cf8dcf97e972a6edc0d47c1ee1dd3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -245,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42398" bodyend="42401"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42397" bodyend="42400"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a13bf0dd030baeca317670c6d33c74fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -267,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42403" bodyend="42404"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42402" bodyend="42403"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a68f885712a7a1f4522fddc1eaa0d163c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -287,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42406" bodyend="42409"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42405" bodyend="42408"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a35e06939d6f9c2868a2009ba180cdf83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -309,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42411" bodyend="42412"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42410" bodyend="42411"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1ab6ff32ad8ff49d4f9e37b09d63a4bbee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -329,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42414" bodyend="42417"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42413" bodyend="42416"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a78d217d8e068c4182eaf9a88db99d486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -351,7 +336,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42419" bodyend="42420"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42418" bodyend="42419"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a9a5588d458a45c4730429d7fa4e1d45e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -371,7 +356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42422" bodyend="42425"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42421" bodyend="42424"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1abbbd4e47677582624306fbf6d815071e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -393,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42427" bodyend="42428"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42426" bodyend="42427"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a3c50015019e887ebe84ccf46a5eb5526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
@@ -413,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42430" bodyend="42433"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42429" bodyend="42432"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1ada1587f87d7047c2c5ef3bdf29526932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -435,50 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42435" bodyend="42436"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1aa37ee6b3518df0f688020fb3712efc39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.RelaxParams.updateCaches</definition>
-        <argsstring>(self)</argsstring>
-        <name>updateCaches</name>
-        <qualifiedname>mrmeshpy.RelaxParams.updateCaches</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>in functions taking Mesh or PointCloud: if false then all mesh caches (AABB trees) are invalidated after relaxation,
-if true then they are updated only in the region (faster, but the trees might become less efficient)
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42438" bodyend="42442"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a355217d8b4bf329faf52db41aabaa310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.RelaxParams.updateCaches</definition>
-        <argsstring>(self, bool arg1)</argsstring>
-        <name>updateCaches</name>
-        <qualifiedname>mrmeshpy.RelaxParams.updateCaches</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42444" bodyend="42445"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42434" bodyend="42435"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -523,7 +465,7 @@ if true then they are updated only in the region (faster, but the trees might be
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42367" bodyend="42445"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42367" bodyend="42435"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1afd31167e135be967a3382800f93ee6c3" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>__init__</name></member>
@@ -533,7 +475,6 @@ if true then they are updated only in the region (faster, but the trees might be
       <member refid="classmrmeshpy_1_1RelaxParams_1af24b5738eccaa7ecbc122678716b8851" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_limitNearInitial</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1a0b92ca2a90aaf638d65383b75a82661f" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_maxInitialDist</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1a880bc11dc81254d52fa31ad35b44fa7e" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_region</name></member>
-      <member refid="classmrmeshpy_1_1RelaxParams_1a227457a1af580830f74841c5298f78f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_updateCaches</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1a50cf8dcf97e972a6edc0d47c1ee1dd3e" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>force</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1a13bf0dd030baeca317670c6d33c74fe4" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>force</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1a68f885712a7a1f4522fddc1eaa0d163c" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>iterations</name></member>
@@ -546,8 +487,6 @@ if true then they are updated only in the region (faster, but the trees might be
       <member refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1a3c50015019e887ebe84ccf46a5eb5526" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>region</name></member>
       <member refid="classmrmeshpy_1_1RelaxParams_1ada1587f87d7047c2c5ef3bdf29526932" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>region</name></member>
-      <member refid="classmrmeshpy_1_1RelaxParams_1aa37ee6b3518df0f688020fb3712efc39" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>updateCaches</name></member>
-      <member refid="classmrmeshpy_1_1RelaxParams_1a355217d8b4bf329faf52db41aabaa310" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>updateCaches</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

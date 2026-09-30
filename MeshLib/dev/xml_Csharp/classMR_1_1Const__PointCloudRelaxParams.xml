@@ -66,21 +66,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="71" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="71" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__PointCloudRelaxParams_1a03570a7f4e87fd61920cb272c337bec3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe bool</type>
-        <definition>unsafe bool MR.Const_PointCloudRelaxParams.updateCaches</definition>
-        <argsstring></argsstring>
-        <name>updateCaches</name>
-        <qualifiedname>MR.Const_PointCloudRelaxParams.updateCaches</qualifiedname>
-        <briefdescription>
-<para>in functions taking <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> or <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="78" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="78" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__PointCloudRelaxParams_1a6037d2a9c7dad3c1b9543cf5c66ff3d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.Const_PointCloudRelaxParams.limitNearInitial</definition>
@@ -94,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="84" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="84" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="77" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__PointCloudRelaxParams_1ab38227255e76452f62e552ceb74e730e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe float</type>
@@ -109,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="90" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="90" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="83" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="83" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -169,20 +154,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="72" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="72" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__PointCloudRelaxParams_1ac95f39ea3f3cc6ef8ffbacddb3eb90f0" prot="protected" static="no" mutable="no">
-        <type>unsafe bool *</type>
-        <definition>unsafe bool* MR.Const_PointCloudRelaxParams.__ref_storage_updateCaches</definition>
-        <argsstring></argsstring>
-        <name>__ref_storage_updateCaches</name>
-        <qualifiedname>MR.Const_PointCloudRelaxParams.__ref_storage_updateCaches</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="79" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="79" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__PointCloudRelaxParams_1ac33ba6e0932b14f218ff1aee20d948b8" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
         <definition>unsafe bool* MR.Const_PointCloudRelaxParams.__ref_storage_limitNearInitial</definition>
@@ -195,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="85" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="85" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__PointCloudRelaxParams_1a8dbf4909a553ec27f9504afae339039d" prot="protected" static="no" mutable="no">
         <type>unsafe float *</type>
@@ -209,7 +180,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="91" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="91" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="84" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="84" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -260,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="140" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="140" bodyend="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="129" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="129" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a1d8e6afb5224f1bdd54af15d2df6c548" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -279,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="149" bodyend="154"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="138" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="138" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a7fa4f9e07190a2cb01123b368eeb8048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -298,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="159" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="159" bodyend="159"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="148" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="148" bodyend="148"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -358,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="129" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="129" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="118" bodyend="123"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -378,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="164" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="153" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a495eac1fa2f259dd97f09af487a28630" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PointCloudRelaxParams._Underlying *</type>
@@ -392,7 +363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="167" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="156" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a9d4ee14e5b234b8331d5f905d7c0629d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -410,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="170" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="159" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a131c04c641a656642f2341497f2ac673" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -428,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="173" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="162" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a516f50462ae31109660a0e0a049e4f2f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int *</type>
@@ -446,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="176" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="165" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a2679dbc0d2eb41a79e02358dd4fd7fba" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -464,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="179" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="168" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a265371db9ef75d92e15b16465f571dee" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -482,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="182" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="171" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1ab475e8b0f8347216cc4168558b965cc5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -500,7 +471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="185" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="174" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a8861a736c25e72c84f6bcc0535819d62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_VertBitSet._Underlying **</type>
@@ -518,25 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="188" column="60"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a35bc7bfbf94296242613f6e13f5adf8f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe bool *</type>
-        <definition>static unsafe bool * MR.Const_PointCloudRelaxParams.__MR_PointCloudRelaxParams_Get_updateCaches</definition>
-        <argsstring>(MR.Const_PointCloudRelaxParams._Underlying *_this)</argsstring>
-        <name>__MR_PointCloudRelaxParams_Get_updateCaches</name>
-        <qualifiedname>MR.Const_PointCloudRelaxParams.__MR_PointCloudRelaxParams_Get_updateCaches</qualifiedname>
-        <param>
-          <type>MR.Const_PointCloudRelaxParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="191" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="177" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointCloudRelaxParams_1a8ad7896a5fb0919b98a1b535deb92179" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_RelaxParams._Underlying *</type>
@@ -554,7 +507,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="194" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="180" column="61"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -607,7 +560,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="13" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="14" bodyend="195"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="13" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="14" bodyend="181"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1ae6fae31105418bcb00be30c7bf16667f" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a495eac1fa2f259dd97f09af487a28630" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_DefaultConstruct</name></member>
@@ -618,7 +571,6 @@
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a265371db9ef75d92e15b16465f571dee" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_Get_maxInitialDist</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab475e8b0f8347216cc4168558b965cc5" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_Get_neighborhoodRadius</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a8861a736c25e72c84f6bcc0535819d62" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_Get_region</name></member>
-      <member refid="classMR_1_1Const__PointCloudRelaxParams_1a35bc7bfbf94296242613f6e13f5adf8f" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_Get_updateCaches</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a8ad7896a5fb0919b98a1b535deb92179" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab33f78dfa7da839a0ba26522b6ee4344" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a1712625282733bce5f0a5899998f655a" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__ref_storage_force</name></member>
@@ -626,7 +578,6 @@
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1ac33ba6e0932b14f218ff1aee20d948b8" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__ref_storage_limitNearInitial</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a8dbf4909a553ec27f9504afae339039d" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__ref_storage_maxInitialDist</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a741ae7e0d42c75f7beaa526aaee51f7a" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__ref_storage_neighborhoodRadius</name></member>
-      <member refid="classMR_1_1Const__PointCloudRelaxParams_1ac95f39ea3f3cc6ef8ffbacddb3eb90f0" prot="protected" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>__ref_storage_updateCaches</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1adc841dddb1e204477ff333bd43b63faa" prot="package" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>Const_PointCloudRelaxParams</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a9334c267f49f809a8b7d27cce13fc3f1" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>Const_PointCloudRelaxParams</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a1d8e6afb5224f1bdd54af15d2df6c548" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>Const_PointCloudRelaxParams</name></member>
@@ -640,7 +591,6 @@
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a1e53c60559c8d2365bd740f1462b2dc9" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>neighborhoodRadius</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1a19e9533c9de68f3bb582fd7e1ae93d62" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>operator MR.Const_RelaxParams</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab2086a9133d1a21315ca6a28f79ce562" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>region</name></member>
-      <member refid="classMR_1_1Const__PointCloudRelaxParams_1a03570a7f4e87fd61920cb272c337bec3" prot="public" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>updateCaches</name></member>
       <member refid="classMR_1_1Const__PointCloudRelaxParams_1abfd19c2320120f1dc09052d38fa64deb" prot="private" virt="non-virtual"><scope>MR::Const_PointCloudRelaxParams</scope><name>~Const_PointCloudRelaxParams</name></member>
     </listofallmembers>
   </compounddef>

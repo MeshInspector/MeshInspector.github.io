@@ -10,11 +10,9 @@ var classMR_1_1Const__RelaxParams =
     [ "__ref_storage_iterations", "classMR_1_1Const__RelaxParams.html#a8ef6ce3e932e96fada8665d114c2c0ad", null ],
     [ "__ref_storage_limitNearInitial", "classMR_1_1Const__RelaxParams.html#a3dd18ccefa9e598f04800582678b6d04", null ],
     [ "__ref_storage_maxInitialDist", "classMR_1_1Const__RelaxParams.html#a7a9ccc48fec0771bc496718d640a8cde", null ],
-    [ "__ref_storage_updateCaches", "classMR_1_1Const__RelaxParams.html#a10cbcf5e7d4053d550a7334c76074e5b", null ],
     [ "force", "classMR_1_1Const__RelaxParams.html#a4b47b3ef14415db5a777c835683f9a8f", null ],
     [ "iterations", "classMR_1_1Const__RelaxParams.html#a0cdfab3d5daae3f6a0c55b008fc00ad1", null ],
     [ "limitNearInitial", "classMR_1_1Const__RelaxParams.html#a809a0874306b1f12ff541951c363e636", null ],
     [ "maxInitialDist", "classMR_1_1Const__RelaxParams.html#acad3b7acdb636a6001003db64d091101", null ],
-    [ "region", "classMR_1_1Const__RelaxParams.html#ad76d7d379d813b9c219b5a17d4fa625c", null ],
-    [ "updateCaches", "classMR_1_1Const__RelaxParams.html#a49fc2eda27c6f2f62443aef058ed853d", null ]
+    [ "region", "classMR_1_1Const__RelaxParams.html#ad76d7d379d813b9c219b5a17d4fa625c", null ]
 ];
