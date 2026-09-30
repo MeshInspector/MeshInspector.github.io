@@ -59233,6 +59233,7 @@
     <member refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kind="function"><name>pack</name></member>
     <member refid="classMR_1_1PointCloud_1aaf2bfed849f1d723342ede548466882a" kind="function"><name>pack</name></member>
     <member refid="classMR_1_1PointCloud_1aee9b6dc6ffe24907b217ec92c3d62f4c" kind="function"><name>invalidateCaches</name></member>
+    <member refid="classMR_1_1PointCloud_1a7e8007cfb36bf1a8951d27bb9ade8639" kind="function"><name>updateCaches</name></member>
     <member refid="classMR_1_1PointCloud_1ae36fe1c8f743086d2f3bcf747d971c8c" kind="function"><name>__MR_PointCloud_AssignFromAnother</name></member>
     <member refid="classMR_1_1PointCloud_1afbe960594cbcd0d75d3bcfba6bb0cc7c" kind="function"><name>__MR_PointCloud_ConstructFromAnother</name></member>
     <member refid="classMR_1_1PointCloud_1ac1dff0dd4fc16538b1d168d1796c6c75" kind="function"><name>__MR_PointCloud_DefaultConstruct</name></member>
@@ -59248,6 +59249,7 @@
     <member refid="classMR_1_1PointCloud_1ab96d1ee288c51e5f2d29e49e230e0c33" kind="function"><name>__MR_PointCloud_pack_MR_Reorder</name></member>
     <member refid="classMR_1_1PointCloud_1a4a3998ca89c88772f9c759a7087816ab" kind="function"><name>__MR_PointCloud_pack_MR_VertMap_ptr</name></member>
     <member refid="classMR_1_1PointCloud_1a7d1e5ef3a2d5f44be3a4c69a47b819af" kind="function"><name>__MR_PointCloud_transform</name></member>
+    <member refid="classMR_1_1PointCloud_1ad03e8491092195383d2ef6cd1a1c98ac" kind="function"><name>__MR_PointCloud_updateCaches</name></member>
   </compound>
   <compound refid="classMR_1_1PointCloudApproxRelaxParams" kind="class"><name>MR::PointCloudApproxRelaxParams</name>
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1a9f212056331e43f999e81fea6369b897" kind="property"><name>type</name></member>

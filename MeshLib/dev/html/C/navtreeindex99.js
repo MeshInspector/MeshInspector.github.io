@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"MRSignDetectionMode_8h.html#a58cc14f1136bfffa8f15fdbb95d48406":[9,2,2,0,0,0,0,1,326,1],
 "MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2":[9,2,2,0,0,0,0,1,326,4],
 "MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6":[9,2,2,0,0,0,0,1,326,3],
 "MRSignDetectionMode_8h.html#aa5bd2d112ff162d30b64963883902bb6a2813c30113c56c44607b0c348ad8c259":[9,2,2,0,0,0,0,1,326,3,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "MRSphere_8h.html#a4924c32d0e44122616d4fbea614b1644":[9,2,2,0,0,0,0,1,329,49],
 "MRSphere_8h.html#a4c211d622de915c4f151a5704d3d0eda":[9,2,2,0,0,0,0,1,329,43],
 "MRSphere_8h.html#a4d2ee62af82a947dbd9e3bbbbf3abed8":[9,2,2,0,0,0,0,1,329,6],
-"MRSphere_8h.html#a50f999800c60f27145cfdaa262f129d6":[9,2,2,0,0,0,0,1,329,31],
-"MRSphere_8h.html#a531019833f9e35834e4daccb1992a626":[9,2,2,0,0,0,0,1,329,66]
+"MRSphere_8h.html#a50f999800c60f27145cfdaa262f129d6":[9,2,2,0,0,0,0,1,329,31]
 };

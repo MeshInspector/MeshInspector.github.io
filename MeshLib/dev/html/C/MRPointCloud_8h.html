@@ -194,6 +194,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aa18f716ae7fbcc90afea85bee696fb73" id="r_aa18f716ae7fbcc90afea85bee696fb73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa18f716ae7fbcc90afea85bee696fb73">MR_PointCloud_pack_MR_VertMap_ptr</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outNew2Old)</td></tr>
 <tr class="memitem:ae7e0fdbd355cee541ac739744a107c8d" id="r_ae7e0fdbd355cee541ac739744a107c8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7e0fdbd355cee541ac739744a107c8d">MR_PointCloud_pack_MR_Reorder</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="MREnums_8h.html#a7869edbba7e774adc1c184741e30f492">MR_Reorder</a> reoder)</td></tr>
 <tr class="memitem:a934e318a856f277a2d64d4f26eb226d6" id="r_a934e318a856f277a2d64d4f26eb226d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934e318a856f277a2d64d4f26eb226d6">MR_PointCloud_invalidateCaches</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:ab5bdd663c390e599cd49d82b28595d9f" id="r_ab5bdd663c390e599cd49d82b28595d9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5bdd663c390e599cd49d82b28595d9f">MR_PointCloud_updateCaches</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *changedVerts)</td></tr>
 <tr class="memitem:a4e57e991afac4b0ffeab81c0a252b7f7" id="r_a4e57e991afac4b0ffeab81c0a252b7f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e57e991afac4b0ffeab81c0a252b7f7">MR_PointCloud_heapBytes</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -1007,6 +1008,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>applies given transformation to specified points and corresponding transformation to their normals if present; if region is nullptr, all valid points are modified Generated from method <span class="tt">MR::PointCloud::transform</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">xf</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="ab5bdd663c390e599cd49d82b28595d9f" name="ab5bdd663c390e599cd49d82b28595d9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bdd663c390e599cd49d82b28595d9f">&#9670;&#160;</a></span>MR_PointCloud_updateCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_updateCaches </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates existing caches in case of few points were changed insignificantly, and validPoints remained unchanged; it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changedVerts</td><td>points with modified coordinates, nullptr means all valid points Generated from method <span class="tt">MR::PointCloud::updateCaches</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

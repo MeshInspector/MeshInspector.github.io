@@ -188,6 +188,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaf2bfed849f1d723342ede548466882a"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating invalid points, reorders valid points according to given strategy;  <br /></td></tr>
 <tr class="memitem:aee9b6dc6ffe24907b217ec92c3d62f4c" id="r_aee9b6dc6ffe24907b217ec92c3d62f4c"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee9b6dc6ffe24907b217ec92c3d62f4c">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:aee9b6dc6ffe24907b217ec92c3d62f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud Generated from method <span class="tt"><a class="el" href="#aee9b6dc6ffe24907b217ec92c3d62f4c" title="Invalidates caches (e.g. aabb-tree) after a change in point cloud Generated from method MR....">MR.PointCloud.invalidateCaches</a></span>.  <br /></td></tr>
+<tr class="memitem:a7e8007cfb36bf1a8951d27bb9ade8639" id="r_a7e8007cfb36bf1a8951d27bb9ade8639"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e8007cfb36bf1a8951d27bb9ade8639">updateCaches</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? changedVerts)</td></tr>
+<tr class="memdesc:a7e8007cfb36bf1a8951d27bb9ade8639"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches in case of few points were changed insignificantly, and validPoints remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#aee9b6dc6ffe24907b217ec92c3d62f4c" title="Invalidates caches (e.g. aabb-tree) after a change in point cloud Generated from method MR....">invalidateCaches()</a> and following rebuild of trees  <br /></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1Const__PointCloud"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__PointCloud')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a></td></tr>
 <tr class="memitem:a6fd12720fdf6f0debd8d510b5441e5e1 inherit pub_methods_classMR_1_1Const__PointCloud" id="r_a6fd12720fdf6f0debd8d510b5441e5e1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__PointCloud.html#a6fd12720fdf6f0debd8d510b5441e5e1">Dispose</a> ()</td></tr>
 <tr class="memitem:a59abbd89562fad50d6114c2177e5e076 inherit pub_methods_classMR_1_1Const__PointCloud" id="r_a59abbd89562fad50d6114c2177e5e076"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__PointCloud.html#a59abbd89562fad50d6114c2177e5e076">Const_PointCloud</a> ()</td></tr>
@@ -652,6 +654,39 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>applies given transformation to specified points and corresponding transformation to their normals if present; if region is nullptr, all valid points are modified Generated from method <span class="tt"><a class="el" href="#acaaa9294839523cc4fdc93532c24f40a" title="applies given transformation to specified points and corresponding transformation to their normals if...">MR.PointCloud.transform</a></span>. </p>
+
+</div>
+</div>
+<a id="a7e8007cfb36bf1a8951d27bb9ade8639" name="a7e8007cfb36bf1a8951d27bb9ade8639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e8007cfb36bf1a8951d27bb9ade8639">&#9670;&#160;</a></span>updateCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.PointCloud.updateCaches </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>?</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>updates existing caches in case of few points were changed insignificantly, and validPoints remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#aee9b6dc6ffe24907b217ec92c3d62f4c" title="Invalidates caches (e.g. aabb-tree) after a change in point cloud Generated from method MR....">invalidateCaches()</a> and following rebuild of trees </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changedVerts</td><td>points with modified coordinates, nullptr means all valid points Generated from method <span class="tt"><a class="el" href="#a7e8007cfb36bf1a8951d27bb9ade8639" title="updates existing caches in case of few points were changed insignificantly, and validPoints remained ...">MR.PointCloud.updateCaches</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

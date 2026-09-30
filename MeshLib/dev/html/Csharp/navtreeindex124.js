@@ -182,14 +182,15 @@ var NAVTREEINDEX124 =
 "classMR_1_1PointCloud.html#a4d782ee2ce58df0cb8f8e1304482f12c":[9,3,0,0,0,1522,0],
 "classMR_1_1PointCloud.html#a5e88af4b4426f9a92fc67cfb4b6e2af4":[9,3,0,0,0,1522,6],
 "classMR_1_1PointCloud.html#a6c04d2648e8e4b6dde581ceeb93ed85e":[9,3,0,0,0,1522,2],
+"classMR_1_1PointCloud.html#a7e8007cfb36bf1a8951d27bb9ade8639":[9,3,0,0,0,1522,14],
 "classMR_1_1PointCloud.html#a9b55a6773c74ca7871fc303fa29d92e9":[9,3,0,0,0,1522,8],
-"classMR_1_1PointCloud.html#a9faa4978fe1eb1d506d69ae8af0d7651":[9,3,0,0,0,1522,16],
+"classMR_1_1PointCloud.html#a9faa4978fe1eb1d506d69ae8af0d7651":[9,3,0,0,0,1522,17],
 "classMR_1_1PointCloud.html#aaf2bfed849f1d723342ede548466882a":[9,3,0,0,0,1522,11],
 "classMR_1_1PointCloud.html#abbebb117a9a8e2c986d53ff756cbd476":[9,3,0,0,0,1522,1],
 "classMR_1_1PointCloud.html#acaaa9294839523cc4fdc93532c24f40a":[9,3,0,0,0,1522,13],
 "classMR_1_1PointCloud.html#aee9b6dc6ffe24907b217ec92c3d62f4c":[9,3,0,0,0,1522,9],
-"classMR_1_1PointCloud.html#af08107665be27af8046957156640f884":[9,3,0,0,0,1522,15],
-"classMR_1_1PointCloud.html#af2ae8e74aea3d8821752b3e915182b4d":[9,3,0,0,0,1522,14],
+"classMR_1_1PointCloud.html#af08107665be27af8046957156640f884":[9,3,0,0,0,1522,16],
+"classMR_1_1PointCloud.html#af2ae8e74aea3d8821752b3e915182b4d":[9,3,0,0,0,1522,15],
 "classMR_1_1PointCloudApproxRelaxParams.html":[9,3,0,0,0,1523],
 "classMR_1_1PointCloudApproxRelaxParams.html#a339a0669c843a5366cc7a06afd55eaca":[9,3,0,0,0,1523,0],
 "classMR_1_1PointCloudApproxRelaxParams.html#a5ae949fb204a4258640690eb47d30e05":[9,3,0,0,0,1523,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1PointMeasurementObject.html#a4c0766b00af5568cc3cdf2d3078a9b90":[9,3,0,0,0,1527,54],
 "classMR_1_1PointMeasurementObject.html#a4c7441c1bcd7073b168cde02a2cebbd2":[9,3,0,0,0,1527,2],
 "classMR_1_1PointMeasurementObject.html#a4c7eeca60200c44d4987ef1082b39fae":[9,3,0,0,0,1527,58],
-"classMR_1_1PointMeasurementObject.html#a523e9b93973c8dceaeec1650489c938f":[9,3,0,0,0,1527,13],
-"classMR_1_1PointMeasurementObject.html#a54fc9b516dbcbbde5f47c545e1521c84":[9,3,0,0,0,1527,1]
+"classMR_1_1PointMeasurementObject.html#a523e9b93973c8dceaeec1650489c938f":[9,3,0,0,0,1527,13]
 };

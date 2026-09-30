@@ -220,9 +220,9 @@ var NAVTREEINDEX =
 "structMR_1_1InterruptCloseListener.html",
 "structMR_1_1Mesh.html#a47afb5a6c704c55128ab6c07680ebaf4",
 "structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090",
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html",
-"structMR_1_1TouchpadSwipeGestureEndListener.html",
-"structMR_1_1Vector2.html#a5dfc5e9acce45ac36a78ba8a1115af3a"
+"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d",
+"structMR_1_1TouchpadSwipeGestureBeginListener.html",
+"structMR_1_1Vector2.html#a534888485fa5d824508faf3d113658ad"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

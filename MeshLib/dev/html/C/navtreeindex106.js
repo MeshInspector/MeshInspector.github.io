@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"MRTriDist_8h.html#a79c2dee0f65eb31c850a77180313dee6":[9,2,2,0,0,0,0,1,351,51],
 "MRTriDist_8h.html#a7d5dcfc4bc147febaf0176615ce602c5":[9,2,2,0,0,0,0,1,351,44],
 "MRTriDist_8h.html#a7f01c2ac45593bd79ce94d74c2277896":[9,2,2,0,0,0,0,1,351,52],
 "MRTriDist_8h.html#a805b729ae2bb3cd97d001515b7bf22bb":[9,2,2,0,0,0,0,1,351,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "MRTripleFaceIntersections_8h.html#ab701fdf4a6dcc8a901142674dbbfbc04":[9,2,2,0,0,0,0,1,354,5],
 "MRTripleFaceIntersections_8h.html#abd79e78e95147ae5cbfc323abad5c758":[9,2,2,0,0,0,0,1,354,1],
 "MRTripleFaceIntersections_8h.html#ae1731ae1bf2680e66a33544c32e56091":[9,2,2,0,0,0,0,1,354,11],
-"MRTripleFaceIntersections_8h_source.html":[9,2,2,0,0,0,0,1,354],
-"MRTunnelDetector_8h.html":[9,2,2,0,0,0,0,1,356]
+"MRTripleFaceIntersections_8h_source.html":[9,2,2,0,0,0,0,1,354]
 };

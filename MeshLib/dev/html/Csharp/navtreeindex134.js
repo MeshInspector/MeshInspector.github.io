@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1TextureBitSet.html#a67b894ad90857e6a1947575e01df737b":[9,3,0,0,0,1686,8],
 "classMR_1_1TextureBitSet.html#a75ca01d90cf2e0350587b4d8a0aa5856":[9,3,0,0,0,1686,21],
 "classMR_1_1TextureBitSet.html#a7841750691be44e3f6d5f0e01c0c0245":[9,3,0,0,0,1686,6],
 "classMR_1_1TextureBitSet.html#a84d08c3b08d69bc5927cecfc7abf9eba":[9,3,0,0,0,1686,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1TriangulateHolesParams.html#ada8ed7e075e5dc665f48dcd8b1c54952":[9,3,0,0,0,1697,3],
 "classMR_1_1Triangulation.html":[9,3,0,0,0,1698],
 "classMR_1_1Triangulation.html#a04f9cd1b736a2331e4ba9b845e3aa134":[9,3,0,0,0,1698,27],
-"classMR_1_1Triangulation.html#a05b6d0e3e6f7959f0e5806d45edeafb5":[9,3,0,0,0,1698,17],
-"classMR_1_1Triangulation.html#a0c9c411a222fccaeb88a8d94a5a60a79":[9,3,0,0,0,1698,8]
+"classMR_1_1Triangulation.html#a05b6d0e3e6f7959f0e5806d45edeafb5":[9,3,0,0,0,1698,17]
 };

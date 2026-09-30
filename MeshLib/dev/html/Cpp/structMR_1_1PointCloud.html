@@ -183,6 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fee9a45c5a54797c40fb2c7c9ed646e" id="r_a9fee9a45c5a54797c40fb2c7c9ed646e"><td class="memItemLeft" align="right" valign="top">VertBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fee9a45c5a54797c40fb2c7c9ed646e">pack</a> (<a class="el" href="group__GeneralGroup.html#gafedf1467ef6a61af5a59eafa50a41bf9">Reorder</a> reoder)</td></tr>
 <tr class="memitem:ab7c257206a284f22b8e2484b87436069" id="r_ab7c257206a284f22b8e2484b87436069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a> ()</td></tr>
 <tr class="memdesc:ab7c257206a284f22b8e2484b87436069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidates caches (e.g. aabb-tree) after a change in point cloud.  <br /></td></tr>
+<tr class="memitem:af87c45e1d1e2193c2f42933aa2ba646e" id="r_af87c45e1d1e2193c2f42933aa2ba646e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af87c45e1d1e2193c2f42933aa2ba646e">updateCaches</a> (const VertBitSet *changedVerts)</td></tr>
 <tr class="memitem:a2a3bb316a10b49cacc3843090aa06a22" id="r_a2a3bb316a10b49cacc3843090aa06a22"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a3bb316a10b49cacc3843090aa06a22">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a2a3bb316a10b49cacc3843090aa06a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 </table><table class="memberdecls">
@@ -714,6 +715,29 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>applies given transformation to specified points and corresponding transformation to their normals if present; if region is nullptr, all valid points are modified </p>
+
+</div>
+</div>
+<a id="af87c45e1d1e2193c2f42933aa2ba646e" name="af87c45e1d1e2193c2f42933aa2ba646e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af87c45e1d1e2193c2f42933aa2ba646e">&#9670;&#160;</a></span>updateCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::PointCloud::updateCaches </td>
+          <td>(</td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates existing caches in case of few points were changed insignificantly, and validPoints remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#ab7c257206a284f22b8e2484b87436069" title="Invalidates caches (e.g. aabb-tree) after a change in point cloud.">invalidateCaches()</a> and following rebuild of trees </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">changedVerts</td><td>points with modified coordinates, nullptr means all valid points </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

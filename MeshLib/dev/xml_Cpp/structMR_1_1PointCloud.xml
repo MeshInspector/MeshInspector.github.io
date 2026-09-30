@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloud.h" line="104" column="35" bodyfile="MRMesh/MRPointCloud.h" bodystart="104" bodyend="-1"/>
+        <location file="MRMesh/MRPointCloud.h" line="110" column="35" bodyfile="MRMesh/MRPointCloud.h" bodystart="110" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -454,6 +454,34 @@
         </inbodydescription>
         <location file="MRMesh/MRPointCloud.h" line="98" column="10" bodyfile="MRMesh/MRPointCloud.h" bodystart="98" bodyend="98"/>
       </memberdef>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1af87c45e1d1e2193c2f42933aa2ba646e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::PointCloud::updateCaches</definition>
+        <argsstring>(const VertBitSet *changedVerts)</argsstring>
+        <name>updateCaches</name>
+        <qualifiedname>MR::PointCloud::updateCaches</qualifiedname>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>changedVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updates existing caches in case of few points were changed insignificantly, and validPoints remained unchanged; it shall be considered as a faster alternative to <ref refid="structMR_1_1PointCloud_1ab7c257206a284f22b8e2484b87436069" kindref="member">invalidateCaches()</ref> and following rebuild of trees <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>changedVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>points with modified coordinates, nullptr means all valid points </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloud.h" line="104" column="11"/>
+      </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t MR::PointCloud::heapBytes</definition>
@@ -467,14 +495,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloud.h" line="101" column="14"/>
+        <location file="MRMesh/MRPointCloud.h" line="107" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRPointCloud.h" line="16" column="1" bodyfile="MRMesh/MRPointCloud.h" bodystart="17" bodyend="105"/>
+    <location file="MRMesh/MRPointCloud.h" line="16" column="1" bodyfile="MRMesh/MRPointCloud.h" bodystart="17" bodyend="111"/>
     <listofallmembers>
       <member refid="structMR_1_1PointCloud_1a544b6f1222cd259ee283fafdb0700311" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPartByMask</name></member>
@@ -500,6 +528,7 @@
       <member refid="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
       <member refid="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>points</name></member>
       <member refid="structMR_1_1PointCloud_1a050308043ec1ab0b5b1170e045463514" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>transform</name></member>
+      <member refid="structMR_1_1PointCloud_1af87c45e1d1e2193c2f42933aa2ba646e" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>updateCaches</name></member>
       <member refid="structMR_1_1PointCloud_1a99cd2bd3f8fa8482032603f382ab9a03" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>validPoints</name></member>
     </listofallmembers>
   </compounddef>

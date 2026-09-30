@@ -14,6 +14,7 @@ var classMR_1_1PointCloud =
     [ "pack", "classMR_1_1PointCloud.html#aaf2bfed849f1d723342ede548466882a", null ],
     [ "pack", "classMR_1_1PointCloud.html#a1c1a1986a690529ab5952d4ba265174e", null ],
     [ "transform", "classMR_1_1PointCloud.html#acaaa9294839523cc4fdc93532c24f40a", null ],
+    [ "updateCaches", "classMR_1_1PointCloud.html#a7e8007cfb36bf1a8951d27bb9ade8639", null ],
     [ "normals", "classMR_1_1PointCloud.html#af2ae8e74aea3d8821752b3e915182b4d", null ],
     [ "points", "classMR_1_1PointCloud.html#af08107665be27af8046957156640f884", null ],
     [ "validPoints", "classMR_1_1PointCloud.html#a9faa4978fe1eb1d506d69ae8af0d7651", null ]

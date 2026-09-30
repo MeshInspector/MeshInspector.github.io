@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"MRWeightedPointsShell_8h.html#a57e44238d18fdfe94e38bc76c0bda21c":[9,2,2,0,0,0,0,4,41,51],
 "MRWeightedPointsShell_8h.html#a596718171a4373b98dcd49604e6a8a70":[9,2,2,0,0,0,0,4,41,9],
 "MRWeightedPointsShell_8h.html#a59bf4b2f61e988b16a4fa603a0b94001":[9,2,2,0,0,0,0,4,41,100],
 "MRWeightedPointsShell_8h.html#a5a6626b790d78f0b213e6b52d456f44c":[9,2,2,0,0,0,0,4,41,107],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "expected__MR__BooleanResultPoints__std__string_8h.html#a00de09a11d5021185ec7cbacc6f40459":[9,2,2,0,0,0,0,2,3,9],
 "expected__MR__BooleanResultPoints__std__string_8h.html#a1fcdd6c2fcd969846aa0fef1796e9085":[9,2,2,0,0,0,0,2,3,10],
 "expected__MR__BooleanResultPoints__std__string_8h.html#a24bd90224604e90f9b287f75db6c8205":[9,2,2,0,0,0,0,2,3,8],
-"expected__MR__BooleanResultPoints__std__string_8h.html#a5181453db6f5a5a8217eb42f2675b33a":[9,2,2,0,0,0,0,2,3,0],
-"expected__MR__BooleanResultPoints__std__string_8h.html#a601c3400211349a9fca57294276df698":[9,2,2,0,0,0,0,2,3,11]
+"expected__MR__BooleanResultPoints__std__string_8h.html#a5181453db6f5a5a8217eb42f2675b33a":[9,2,2,0,0,0,0,2,3,0]
 };

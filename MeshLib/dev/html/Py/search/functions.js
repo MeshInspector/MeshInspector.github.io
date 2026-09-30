@@ -1486,7 +1486,7 @@ var searchData=
   ['updateaccvolume_37',['updateAccVolume',['../classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a183445e2e38ebfffc29ddeab4abf4257',1,'mrmeshpy::WatershedGraph::BasinInfo']]],
   ['updateallpointpairs_38',['updateAllPointPairs',['../classmrmeshpy_1_1MultiwayICP.html#a81a36e43b2fc7a8a6c7c1b3138d9b6f2',1,'mrmeshpy::MultiwayICP']]],
   ['updateancillaryuvcoords_39',['updateAncillaryUVCoords',['../classmrmeshpy_1_1ObjectMeshHolder.html#a2125910f91820bce1ddd7a0f413b3d53',1,'mrmeshpy::ObjectMeshHolder']]],
-  ['updatecaches_40',['updateCaches',['../classmrmeshpy_1_1Mesh.html#a50620cd3a4364a60b1c2af2eb2e464de',1,'mrmeshpy::Mesh']]],
+  ['updatecaches_40',['updateCaches',['../classmrmeshpy_1_1Mesh.html#a50620cd3a4364a60b1c2af2eb2e464de',1,'mrmeshpy.Mesh.updateCaches()'],['../classmrmeshpy_1_1PointCloud.html#a57f803caa579e214c09fce2639b365a8',1,'mrmeshpy.PointCloud.updateCaches()']]],
   ['updatedata_41',['updateData',['../classmrmeshpy_1_1ObjectMeshHolder.html#a0c00c682699dacfe3cef5446996c3657',1,'mrmeshpy::ObjectMeshHolder']]],
   ['updatefacescolormap_42',['updateFacesColorMap',['../classmrmeshpy_1_1ObjectMeshHolder.html#aa5be24d40de65e242fa6c56cae792628',1,'mrmeshpy::ObjectMeshHolder']]],
   ['updategrouppairs_43',['updateGroupPairs',['../namespacemrmeshpy.html#a17e598a0e232b9697ccbd10510fdc251',1,'mrmeshpy']]],

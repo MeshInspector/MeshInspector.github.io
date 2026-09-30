@@ -37,5 +37,6 @@ var MRPointCloud_8h =
     [ "MR_PointCloud_Set_normals", "MRPointCloud_8h.html#abe63601a44cacf9a87f8154abf2d8f79", null ],
     [ "MR_PointCloud_Set_points", "MRPointCloud_8h.html#a86db9aebdbb258466243cc693f09bd33", null ],
     [ "MR_PointCloud_Set_validPoints", "MRPointCloud_8h.html#af6d324093dc674581c5f06d59ac94183", null ],
-    [ "MR_PointCloud_transform", "MRPointCloud_8h.html#aae229aedc2dbab2f9c636de3e21be34d", null ]
+    [ "MR_PointCloud_transform", "MRPointCloud_8h.html#aae229aedc2dbab2f9c636de3e21be34d", null ],
+    [ "MR_PointCloud_updateCaches", "MRPointCloud_8h.html#ab5bdd663c390e599cd49d82b28595d9f", null ]
 ];

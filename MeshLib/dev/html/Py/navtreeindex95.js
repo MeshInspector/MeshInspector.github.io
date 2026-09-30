@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873":[9,1,1,0,1,1121,6],
+"classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873":[9,1,1,0,1,1121,7],
 "classmrmeshpy_1_1TexturePerFace.html#a6a353b2389e211a223477f5bc0c7b961":[9,1,0,0,2,1121,27],
 "classmrmeshpy_1_1TexturePerFace.html#a6a353b2389e211a223477f5bc0c7b961":[9,1,1,0,1,1121,27],
 "classmrmeshpy_1_1TexturePerFace.html#a70968cc377a7ae96096faad0c4752f72":[9,1,0,0,2,1121,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "classmrmeshpy_1_1TransparencyMode.html":[9,1,0,0,2,1130],
 "classmrmeshpy_1_1TransparencyMode.html":[9,1,1,0,1,1130],
 "classmrmeshpy_1_1TransparencyMode.html#a134f02d944d482aefb155af0ffb4a99f":[9,1,0,0,2,1130,3],
-"classmrmeshpy_1_1TransparencyMode.html#a134f02d944d482aefb155af0ffb4a99f":[9,1,1,0,1,1130,3],
-"classmrmeshpy_1_1TransparencyMode.html#a70ee3eb2b6160532512f561d6576f2ab":[9,1,0,0,2,1130,0],
-"classmrmeshpy_1_1TransparencyMode.html#a70ee3eb2b6160532512f561d6576f2ab":[9,1,1,0,1,1130,0]
+"classmrmeshpy_1_1TransparencyMode.html#a134f02d944d482aefb155af0ffb4a99f":[9,1,1,0,1,1130,3]
 };

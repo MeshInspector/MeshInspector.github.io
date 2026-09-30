@@ -3013,7 +3013,7 @@ var searchData=
   ['updatebackendaliveandnotify_56',['updateBackendAliveAndNotify',['../namespaceMR_1_1McpGateway.html#a153505bbfb54eb994b1929e70f09d9f5',1,'MR::McpGateway']]],
   ['updatebase_57',['updateBase',['../group__GeneralGroup.html#ga26a5611366a5f71f29399bd127ddd4a0',1,'MR::DirectionWidget']]],
   ['updatebox_58',['updateBox',['../group__GeneralGroup.html#gaabd4a4dae6bd541eabfc1d46a09ea764',1,'MR::PlaneWidget']]],
-  ['updatecaches_59',['updateCaches',['../structMR_1_1Mesh.html#a5234fc402df7b5912834413c90f4dd10',1,'MR::Mesh']]],
+  ['updatecaches_59',['updateCaches',['../structMR_1_1Mesh.html#a5234fc402df7b5912834413c90f4dd10',1,'MR::Mesh::updateCaches()'],['../structMR_1_1PointCloud.html#af87c45e1d1e2193c2f42933aa2ba646e',1,'MR::PointCloud::updateCaches()']]],
   ['updatecaptions_60',['updateCaptions',['../group__GeneralGroup.html#ga8af5edf8dcfc7e614da42890828f9e3e',1,'MR::RibbonSchema']]],
   ['updatecurrentviewbycontrollerregion_61',['updateCurrentViewByControllerRegion',['../group__GeneralGroup.html#gac1516c648ca1edb3f56c9b5bc47f0271',1,'MR']]],
   ['updatedata_62',['updateData',['../group__GeneralGroup.html#gab7e47b82a6501403576f8f97bf8b117a',1,'MR::ObjectMeshHolder']]],

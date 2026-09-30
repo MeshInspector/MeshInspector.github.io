@@ -171,6 +171,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abad135ceb97f77b6fa9716df1f56b33f" id="r_abad135ceb97f77b6fa9716df1f56b33f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abad135ceb97f77b6fa9716df1f56b33f">pack</a> (self, <a class="el" href="classmrmeshpy_1_1VertMap.html">VertMap</a> outNew2Old=None)</td></tr>
 <tr class="memitem:a0b6ffbd591fab78a902f2d8daa21a62e" id="r_a0b6ffbd591fab78a902f2d8daa21a62e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertBMap.html">VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b6ffbd591fab78a902f2d8daa21a62e">pack</a> (self, <a class="el" href="classmrmeshpy_1_1Reorder.html">Reorder</a> reoder)</td></tr>
 <tr class="memitem:aaf28b2aad97713fad7d07fe07fb4f69c" id="r_aaf28b2aad97713fad7d07fe07fb4f69c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf28b2aad97713fad7d07fe07fb4f69c">transform</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> xf, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region=None)</td></tr>
+<tr class="memitem:a57f803caa579e214c09fce2639b365a8" id="r_a57f803caa579e214c09fce2639b365a8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57f803caa579e214c09fce2639b365a8">updateCaches</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> changedVerts)</td></tr>
 <tr class="memitem:a23972a978f8a795836fd5e38807a05ff" id="r_a23972a978f8a795836fd5e38807a05ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23972a978f8a795836fd5e38807a05ff">normals</a> (self)</td></tr>
 <tr class="memitem:a0591486b7bf01ea95aea10217793ac6f" id="r_a0591486b7bf01ea95aea10217793ac6f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0591486b7bf01ea95aea10217793ac6f">normals</a> (self, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> arg1)</td></tr>
 <tr class="memitem:acdb67f6989ea8100aac560a5bcc83e04" id="r_acdb67f6989ea8100aac560a5bcc83e04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdb67f6989ea8100aac560a5bcc83e04">points</a> (self)</td></tr>
@@ -856,6 +857,31 @@ if pack is done optionally returns mappings: new.id -&gt; old.id
 </div><div class="memdoc">
 <pre class="fragment">applies given transformation to specified points and corresponding transformation to their normals if present;
 if region is nullptr, all valid points are modified
+</pre> 
+</div>
+</div>
+<a id="a57f803caa579e214c09fce2639b365a8" name="a57f803caa579e214c09fce2639b365a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f803caa579e214c09fce2639b365a8">&#9670;&#160;</a></span>updateCaches()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.PointCloud.updateCaches </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>changedVerts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">updates existing caches in case of few points were changed insignificantly,
+and validPoints remained unchanged;
+it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees
+\\param changedVerts points with modified coordinates, nullptr means all valid points
 </pre> 
 </div>
 </div>
