@@ -11,6 +11,7 @@
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga57cfdd5a88450edaed4d0ef0bddb6370" kind="variable"><name>isCursorInside_</name></member>
       <member refid="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" kind="variable"><name>dropOldEventsOnNew_</name></member>
+      <member refid="group__GeneralGroup_1ga34df441d357fbf3086121e79143116f4" kind="variable"><name>zoomInverted_</name></member>
       <member refid="group__GeneralGroup_1ga2e6765b0f76655d0df89fa3a5dabdc38" kind="variable"><name>downTranslation_</name></member>
       <member refid="group__GeneralGroup_1ga9c73486137ca18d89c55de9e8690f998" kind="variable"><name>downMousePos_</name></member>
       <member refid="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" kind="variable"><name>prevMousePos_</name></member>
@@ -39,6 +40,8 @@
       <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" kind="function"><name>isCursorInside</name></member>
       <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" kind="function"><name>isDropOldEventOnNewActive</name></member>
       <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" kind="function"><name>dropOldEventsOnNew</name></member>
+      <member refid="group__GeneralGroup_1ga205e76672bb14d8a8f8c83ab703dc004" kind="function"><name>isZoomInverted</name></member>
+      <member refid="group__GeneralGroup_1ga893481665590dcc2ca508e8d676ae9fc" kind="function"><name>setZoomInverted</name></member>
       <member refid="group__GeneralGroup_1ga5cfbe5c519b74434202e1e4f3d26779f" kind="function"><name>findControlByMode</name></member>
       <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" kind="function"><name>setTrasformModifierCb</name></member>
       <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" kind="function"><name>setFOVModifierCb</name></member>
@@ -64,7 +67,7 @@
     <detaileddescription>
 <para>this class stores two maps: 1) mouse control to mouse mode 2) mouse mode to mouse control it is present as field in <ref refid="classMR_1_1Viewer" kindref="compound">Viewer</ref>, and used to control scene note: default state is usually set from <ref refid="classMR_1_1ViewerSetup" kindref="compound">ViewerSetup</ref> class note: user config saves its state </para>
     </detaileddescription>
-    <location file="MRViewer/MRMouseController.h" line="23" column="1" bodyfile="MRViewer/MRMouseController.h" bodystart="24" bodyend="115"/>
+    <location file="MRViewer/MRMouseController.h" line="23" column="1" bodyfile="MRViewer/MRMouseController.h" bodystart="24" bodyend="120"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga466cd2d69aa16b0e62170a0967243e43" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>backMap_</name></member>
       <member refid="group__GeneralGroup_1ga277e6e071b88904a856769149ff3b56a" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>clickButton_</name></member>
@@ -93,6 +96,7 @@
       <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isDropOldEventOnNewActive</name></member>
       <member refid="group__GeneralGroup_1gabb58214722dec57f676bb9945fa96518" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressed</name></member>
       <member refid="group__GeneralGroup_1gab6b255ac13c315a9db8983b0875fa62d" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isPressedAny</name></member>
+      <member refid="group__GeneralGroup_1ga205e76672bb14d8a8f8c83ab703dc004" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>isZoomInverted</name></member>
       <member refid="group__GeneralGroup_1gadb14e66cdb0ce97e615367d0c0bcbf9a" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>keyToMouseAndMod</name></member>
       <member refid="group__GeneralGroup_1ga8f30fa3856888a18448ad24974f98b1b" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>map_</name></member>
       <member refid="group__GeneralGroup_1gae38872a38ceb66e1c2a20f312921b8e8" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>mouseAndModToKey</name></member>
@@ -110,7 +114,9 @@
       <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setFOVModifierCb</name></member>
       <member refid="group__GeneralGroup_1gabf12d68f3ac6484a0fdffb15eeb0131c" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setMouseControl</name></member>
       <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1ga893481665590dcc2ca508e8d676ae9fc" prot="public" virt="non-virtual"><scope>MR::MouseController</scope><name>setZoomInverted</name></member>
       <member refid="group__GeneralGroup_1ga8f377fb5f4b4ae1261438935d12d6b89" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>transformModifierCb_</name></member>
+      <member refid="group__GeneralGroup_1ga34df441d357fbf3086121e79143116f4" prot="private" virt="non-virtual"><scope>MR::MouseController</scope><name>zoomInverted_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -19017,7 +19017,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="107" column="5" bodyfile="MRViewer/MRMouseController.h" bodystart="107" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="112" column="5" bodyfile="MRViewer/MRMouseController.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gabc8ea13d2c29de4c6878d778c53b7940" prot="private" static="no">
         <type>HashMap&lt; MouseMode, int &gt;</type>
@@ -19031,7 +19031,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="108" column="5" bodyfile="MRViewer/MRMouseController.h" bodystart="108" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="113" column="5" bodyfile="MRViewer/MRMouseController.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga424dfa22186e052b06c55ce2655c2e26" prot="public" static="no">
         <type>std::function&lt; ControlBit(const Vector3f &amp;center, const AffineXf3f &amp;xf, ViewportId)&gt;</type>
@@ -50894,7 +50894,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="84" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="84" bodyend="84"/>
+        <location file="MRViewer/MRMouseController.h" line="88" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -50909,7 +50909,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="87" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="87" bodyend="87"/>
+        <location file="MRViewer/MRMouseController.h" line="91" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga34df441d357fbf3086121e79143116f4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MouseController::zoomInverted_</definition>
+        <argsstring></argsstring>
+        <name>zoomInverted_</name>
+        <qualifiedname>MR::MouseController::zoomInverted_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMouseController.h" line="92" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="92" bodyend="92"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2e6765b0f76655d0df89fa3a5dabdc38" prot="private" static="no" mutable="no">
         <type>Vector3f</type>
@@ -50923,7 +50938,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="90" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="90" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="95" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9c73486137ca18d89c55de9e8690f998" prot="private" static="no" mutable="no">
         <type>Vector2i</type>
@@ -50938,7 +50953,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="92" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="92" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="97" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" prot="private" static="no" mutable="no">
         <type>Vector2i</type>
@@ -50952,7 +50967,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="93" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="93" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="98" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabb4d12ea163f0f2ad318bab3d7cdec04" prot="private" static="no" mutable="no">
         <type>Vector2i</type>
@@ -50966,7 +50981,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="94" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="94" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="99" column="14" bodyfile="MRViewer/MRMouseController.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3558791fcc45041e37412914370454c3" prot="private" static="no" mutable="no">
         <type>BitSet</type>
@@ -50980,7 +50995,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="96" column="12" bodyfile="MRViewer/MRMouseController.h" bodystart="96" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="101" column="12" bodyfile="MRViewer/MRMouseController.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga133a228bac6f1df8212f8df1039ffe89" prot="private" static="no" mutable="no">
         <type>MouseMode</type>
@@ -50995,7 +51010,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="97" column="15" bodyfile="MRViewer/MRMouseController.h" bodystart="97" bodyend="97"/>
+        <location file="MRViewer/MRMouseController.h" line="102" column="15" bodyfile="MRViewer/MRMouseController.h" bodystart="102" bodyend="102"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga277e6e071b88904a856769149ff3b56a" prot="private" static="no" mutable="no">
         <type>MouseButton</type>
@@ -51011,7 +51026,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="100" column="17" bodyfile="MRViewer/MRMouseController.h" bodystart="100" bodyend="100"/>
+        <location file="MRViewer/MRMouseController.h" line="105" column="17" bodyfile="MRViewer/MRMouseController.h" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf1d2af68b305682321cc5fc636ad3435" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -51027,7 +51042,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="101" column="9" bodyfile="MRViewer/MRMouseController.h" bodystart="101" bodyend="101"/>
+        <location file="MRViewer/MRMouseController.h" line="106" column="9" bodyfile="MRViewer/MRMouseController.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4ee40fc6f784380b6b48fa681ad8fb81" prot="private" static="no" mutable="no">
         <type>Time</type>
@@ -51043,7 +51058,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="102" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="102" bodyend="102"/>
+        <location file="MRViewer/MRMouseController.h" line="107" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gace6ff7ee7290e7ebc86bfbc3125cbace" prot="private" static="no" mutable="no">
         <type>MouseButton</type>
@@ -51059,7 +51074,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="103" column="17" bodyfile="MRViewer/MRMouseController.h" bodystart="103" bodyend="103"/>
+        <location file="MRViewer/MRMouseController.h" line="108" column="17" bodyfile="MRViewer/MRMouseController.h" bodystart="108" bodyend="108"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2bfcc1cfbe75108b42dc97a3da162141" prot="private" static="no" mutable="no">
         <type>MouseButton</type>
@@ -51075,7 +51090,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="104" column="17" bodyfile="MRViewer/MRMouseController.h" bodystart="104" bodyend="104"/>
+        <location file="MRViewer/MRMouseController.h" line="109" column="17" bodyfile="MRViewer/MRMouseController.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0a7601b01a5133b6acdad382da935ca2" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -51091,7 +51106,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="105" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="105" bodyend="105"/>
+        <location file="MRViewer/MRMouseController.h" line="110" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="110" bodyend="110"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8f30fa3856888a18448ad24974f98b1b" prot="private" static="no" mutable="no">
         <type>MouseModeMap</type>
@@ -51105,7 +51120,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="110" column="18" bodyfile="MRViewer/MRMouseController.h" bodystart="110" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="115" column="18" bodyfile="MRViewer/MRMouseController.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga466cd2d69aa16b0e62170a0967243e43" prot="private" static="no" mutable="no">
         <type>MouseModeBackMap</type>
@@ -51119,7 +51134,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="111" column="22" bodyfile="MRViewer/MRMouseController.h" bodystart="111" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="116" column="22" bodyfile="MRViewer/MRMouseController.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8f377fb5f4b4ae1261438935d12d6b89" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(AffineXf3f &amp;)&gt;</type>
@@ -51133,7 +51148,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="113" column="19" bodyfile="MRViewer/MRMouseController.h" bodystart="113" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="118" column="19" bodyfile="MRViewer/MRMouseController.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad1b71f4ffbe2dbebe14d9b4a3f9bb426" prot="private" static="no" mutable="no">
         <type>std::function&lt; void(float &amp;)&gt;</type>
@@ -51147,7 +51162,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="114" column="19" bodyfile="MRViewer/MRMouseController.h" bodystart="114" bodyend="-1"/>
+        <location file="MRViewer/MRMouseController.h" line="119" column="19" bodyfile="MRViewer/MRMouseController.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gada61b8ab8617465251bf6b1f36c1d782" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -163659,6 +163674,39 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRViewer/MRMouseController.h" line="54" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="54" bodyend="54"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga205e76672bb14d8a8f8c83ab703dc004" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::MouseController::isZoomInverted</definition>
+        <argsstring>() const</argsstring>
+        <name>isZoomInverted</name>
+        <qualifiedname>MR::MouseController::isZoomInverted</qualifiedname>
+        <briefdescription>
+<para>if true, mouse wheel zooms in the opposite direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMouseController.h" line="57" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga893481665590dcc2ca508e8d676ae9fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::MouseController::setZoomInverted</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setZoomInverted</name>
+        <qualifiedname>MR::MouseController::setZoomInverted</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRMouseController.h" line="58" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="58" bodyend="58"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5cfbe5c519b74434202e1e4f3d26779f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; MouseControlKey &gt;</type>
         <definition>std::optional&lt; MouseControlKey &gt; MR::MouseController::findControlByMode</definition>
@@ -163676,7 +163724,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="57" column="20"/>
+        <location file="MRViewer/MRMouseController.h" line="61" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab0ab7f0553a3700c77a68a99bb5f54e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -163695,7 +163743,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="59" column="25"/>
+        <location file="MRViewer/MRMouseController.h" line="63" column="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae38872a38ceb66e1c2a20f312921b8e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -163714,7 +163762,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="62" column="17"/>
+        <location file="MRViewer/MRMouseController.h" line="66" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadb14e66cdb0ce97e615367d0c0bcbf9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MouseControlKey</type>
@@ -163733,7 +163781,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="64" column="29"/>
+        <location file="MRViewer/MRMouseController.h" line="68" column="29"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -163752,7 +163800,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="67" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="67" bodyend="67"/>
+        <location file="MRViewer/MRMouseController.h" line="71" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="71" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -163771,7 +163819,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="70" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="70" bodyend="70"/>
+        <location file="MRViewer/MRMouseController.h" line="74" column="10" bodyfile="MRViewer/MRMouseController.h" bodystart="74" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga24e57a9dc84d98aa47bb153dce49815c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -163786,7 +163834,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="74" column="9"/>
+        <location file="MRViewer/MRMouseController.h" line="78" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga40d31be81a1f1a36774c3240969be6d6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -163808,7 +163856,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="77" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="81" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaba6e92a5a4a8fe8713057e942b2056b6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -163830,7 +163878,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="78" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="82" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaae5a7b97a117db96e3541d4ff4e8eb96" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -163852,7 +163900,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="79" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="83" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4529493c14f9d8b11b26a4f23d5e9e26" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -163870,7 +163918,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="80" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="84" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabb9d0696f050b5c7a5a4cd91592d83af" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -163893,7 +163941,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="81" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="85" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa4026196164b20bb9abef4700439c60b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -163911,7 +163959,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="82" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="86" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga92e2b5854eb11ae1d9391c63c0c675b8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -163929,7 +163977,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="85" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="89" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d913e0ad425b861ac4e770079c87b0a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -163943,7 +163991,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRMouseController.h" line="88" column="10"/>
+        <location file="MRViewer/MRMouseController.h" line="93" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga38667d92b4c0a5c674ae3984e4887601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

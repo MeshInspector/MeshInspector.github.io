@@ -6273,6 +6273,7 @@
     <member refid="group__GeneralGroup_1gabc8ea13d2c29de4c6878d778c53b7940" kind="typedef"><name>MouseModeBackMap</name></member>
     <member refid="group__GeneralGroup_1ga57cfdd5a88450edaed4d0ef0bddb6370" kind="variable"><name>isCursorInside_</name></member>
     <member refid="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" kind="variable"><name>dropOldEventsOnNew_</name></member>
+    <member refid="group__GeneralGroup_1ga34df441d357fbf3086121e79143116f4" kind="variable"><name>zoomInverted_</name></member>
     <member refid="group__GeneralGroup_1ga2e6765b0f76655d0df89fa3a5dabdc38" kind="variable"><name>downTranslation_</name></member>
     <member refid="group__GeneralGroup_1ga9c73486137ca18d89c55de9e8690f998" kind="variable"><name>downMousePos_</name></member>
     <member refid="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" kind="variable"><name>prevMousePos_</name></member>
@@ -6299,6 +6300,8 @@
     <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" kind="function"><name>isCursorInside</name></member>
     <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" kind="function"><name>isDropOldEventOnNewActive</name></member>
     <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" kind="function"><name>dropOldEventsOnNew</name></member>
+    <member refid="group__GeneralGroup_1ga205e76672bb14d8a8f8c83ab703dc004" kind="function"><name>isZoomInverted</name></member>
+    <member refid="group__GeneralGroup_1ga893481665590dcc2ca508e8d676ae9fc" kind="function"><name>setZoomInverted</name></member>
     <member refid="group__GeneralGroup_1ga5cfbe5c519b74434202e1e4f3d26779f" kind="function"><name>findControlByMode</name></member>
     <member refid="group__GeneralGroup_1gaad7e4bd9f3d1de6069e852940644b5e9" kind="function"><name>setTrasformModifierCb</name></member>
     <member refid="group__GeneralGroup_1gae1ce84791f0d7205fd00e67c96b257b1" kind="function"><name>setFOVModifierCb</name></member>
@@ -23968,6 +23971,7 @@
     <member refid="group__GeneralGroup_1ga647bc43b34bf75a34af675e69cd0f10b" kind="variable"><name>mod</name></member>
     <member refid="group__GeneralGroup_1ga57cfdd5a88450edaed4d0ef0bddb6370" kind="variable"><name>isCursorInside_</name></member>
     <member refid="group__GeneralGroup_1ga72fb2fecdb2ee6e4351f29a5cc80b465" kind="variable"><name>dropOldEventsOnNew_</name></member>
+    <member refid="group__GeneralGroup_1ga34df441d357fbf3086121e79143116f4" kind="variable"><name>zoomInverted_</name></member>
     <member refid="group__GeneralGroup_1ga2e6765b0f76655d0df89fa3a5dabdc38" kind="variable"><name>downTranslation_</name></member>
     <member refid="group__GeneralGroup_1ga9c73486137ca18d89c55de9e8690f998" kind="variable"><name>downMousePos_</name></member>
     <member refid="group__GeneralGroup_1ga54f3d2a5c3b3baa3b91f9b87a8187e03" kind="variable"><name>prevMousePos_</name></member>
@@ -29788,6 +29792,8 @@
     <member refid="group__GeneralGroup_1ga60ec56af8ea70c0cef52b6f90c088000" kind="function"><name>isCursorInside</name></member>
     <member refid="group__GeneralGroup_1gaa1030d7031685c5fff336b1a7e01e08b" kind="function"><name>isDropOldEventOnNewActive</name></member>
     <member refid="group__GeneralGroup_1gabb21421c9f8c663d90c93fc87982a797" kind="function"><name>dropOldEventsOnNew</name></member>
+    <member refid="group__GeneralGroup_1ga205e76672bb14d8a8f8c83ab703dc004" kind="function"><name>isZoomInverted</name></member>
+    <member refid="group__GeneralGroup_1ga893481665590dcc2ca508e8d676ae9fc" kind="function"><name>setZoomInverted</name></member>
     <member refid="group__GeneralGroup_1ga5cfbe5c519b74434202e1e4f3d26779f" kind="function"><name>findControlByMode</name></member>
     <member refid="group__GeneralGroup_1gab0ab7f0553a3700c77a68a99bb5f54e8" kind="function"><name>getControlString</name></member>
     <member refid="group__GeneralGroup_1gae38872a38ceb66e1c2a20f312921b8e8" kind="function"><name>mouseAndModToKey</name></member>

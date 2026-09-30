@@ -9142,6 +9142,9 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gaa1030d7031685c5fff336b1a7e01e08b" id="r_gaa1030d7031685c5fff336b1a7e01e08b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa1030d7031685c5fff336b1a7e01e08b">MR::MouseController::isDropOldEventOnNewActive</a> () const</td></tr>
 <tr class="memdesc:gaa1030d7031685c5fff336b1a7e01e08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">dropOldEventsOnNew flag - drop active mouse down state (calling mouseUp) if new mouse event happens  <br /></td></tr>
 <tr class="memitem:gabb21421c9f8c663d90c93fc87982a797" id="r_gabb21421c9f8c663d90c93fc87982a797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb21421c9f8c663d90c93fc87982a797">MR::MouseController::dropOldEventsOnNew</a> (bool on)</td></tr>
+<tr class="memitem:ga205e76672bb14d8a8f8c83ab703dc004" id="r_ga205e76672bb14d8a8f8c83ab703dc004"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga205e76672bb14d8a8f8c83ab703dc004">MR::MouseController::isZoomInverted</a> () const</td></tr>
+<tr class="memdesc:ga205e76672bb14d8a8f8c83ab703dc004"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, mouse wheel zooms in the opposite direction  <br /></td></tr>
+<tr class="memitem:ga893481665590dcc2ca508e8d676ae9fc" id="r_ga893481665590dcc2ca508e8d676ae9fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga893481665590dcc2ca508e8d676ae9fc">MR::MouseController::setZoomInverted</a> (bool on)</td></tr>
 <tr class="memitem:ga5cfbe5c519b74434202e1e4f3d26779f" id="r_ga5cfbe5c519b74434202e1e4f3d26779f"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1MouseController_1_1MouseControlKey.html">MouseControlKey</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5cfbe5c519b74434202e1e4f3d26779f">MR::MouseController::findControlByMode</a> (<a class="el" href="#ga067afc36528fa2a554ff76aaa10efb75">MouseMode</a> mode) const</td></tr>
 <tr class="memdesc:ga5cfbe5c519b74434202e1e4f3d26779f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns nullopt if no control is present for given mode, otherwise returns associated control  <br /></td></tr>
 <tr class="memitem:gab0ab7f0553a3700c77a68a99bb5f54e8" id="r_gab0ab7f0553a3700c77a68a99bb5f54e8"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab0ab7f0553a3700c77a68a99bb5f54e8">MR::MouseController::getControlString</a> (const <a class="el" href="structMR_1_1MouseController_1_1MouseControlKey.html">MouseControlKey</a> &amp;key)</td></tr>
@@ -112851,6 +112854,35 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
+<a id="ga205e76672bb14d8a8f8c83ab703dc004" name="ga205e76672bb14d8a8f8c83ab703dc004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga205e76672bb14d8a8f8c83ab703dc004">&#9670;&#160;</a></span>isZoomInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::MouseController::isZoomInverted </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMouseController_8h.html">MRViewer/MRMouseController.h</a>&gt;</code></p>
+
+<p>if true, mouse wheel zooms in the opposite direction </p>
+
+</div>
+</div>
 <a id="ga8551ebd9ecb3e6bab5cde187606e154a" name="ga8551ebd9ecb3e6bab5cde187606e154a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8551ebd9ecb3e6bab5cde187606e154a">&#9670;&#160;</a></span>ItemEnabledPerViewport()</h2>
 
@@ -175862,6 +175894,33 @@ template&lt;typename C, typename D, D M&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
 
 <p>sets coefficient for given degree to zero </p>
+
+</div>
+</div>
+<a id="ga893481665590dcc2ca508e8d676ae9fc" name="ga893481665590dcc2ca508e8d676ae9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga893481665590dcc2ca508e8d676ae9fc">&#9670;&#160;</a></span>setZoomInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::MouseController::setZoomInverted </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>on</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMouseController_8h.html">MRViewer/MRMouseController.h</a>&gt;</code></p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1Box.html#a25efa79c9a3710f2c59fac06fb39ad12":[9,0,0,0,2,0,15],
+"structMR_1_1Box.html#a2cfcb26887cd979172fd1831229c8144":[9,0,0,0,2,0,12],
 "structMR_1_1Box.html#a2d9fecc0393e456242b1409f8a6a79f9":[9,0,0,0,2,0,18],
 "structMR_1_1Box.html#a30f9aaac8de3e73144319e59e64d5add":[9,0,0,0,2,0,2],
 "structMR_1_1Box.html#a36a72e5786051efa6c3fa7512b00c6c3":[9,0,0,0,2,0,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[9,0,0,1,17,0],
 "structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[9,0,0,1,17,3],
 "structMR_1_1EmbeddedPython_1_1Config.html":[9,0,0,20,90],
-"structMR_1_1EmbeddedStructureParameters.html":[9,0,0,20,216],
-"structMR_1_1EndMillCutter.html":[9,0,0,20,217],
-"structMR_1_1EndMillTool.html":[9,0,0,20,218]
+"structMR_1_1EmbeddedStructureParameters.html":[9,0,0,20,216]
 };

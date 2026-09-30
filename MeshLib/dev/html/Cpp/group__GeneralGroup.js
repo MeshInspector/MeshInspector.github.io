@@ -5990,10 +5990,12 @@ var group__GeneralGroup =
       [ "isDropOldEventOnNewActive", "group__GeneralGroup.html#gaa1030d7031685c5fff336b1a7e01e08b", null ],
       [ "isPressed", "group__GeneralGroup.html#gabb58214722dec57f676bb9945fa96518", null ],
       [ "isPressedAny", "group__GeneralGroup.html#gab6b255ac13c315a9db8983b0875fa62d", null ],
+      [ "isZoomInverted", "group__GeneralGroup.html#ga205e76672bb14d8a8f8c83ab703dc004", null ],
       [ "MR_ADD_CTOR_DELETE_MOVE", "group__GeneralGroup.html#gaf91ecfb07e0863d000af4ebedc49c763", null ],
       [ "setFOVModifierCb", "group__GeneralGroup.html#gae1ce84791f0d7205fd00e67c96b257b1", null ],
       [ "setMouseControl", "group__GeneralGroup.html#gabf12d68f3ac6484a0fdffb15eeb0131c", null ],
-      [ "setTrasformModifierCb", "group__GeneralGroup.html#gaad7e4bd9f3d1de6069e852940644b5e9", null ]
+      [ "setTrasformModifierCb", "group__GeneralGroup.html#gaad7e4bd9f3d1de6069e852940644b5e9", null ],
+      [ "setZoomInverted", "group__GeneralGroup.html#ga893481665590dcc2ca508e8d676ae9fc", null ]
     ] ],
     [ "MR::MouseController::MouseControlKey", "structMR_1_1MouseController_1_1MouseControlKey.html", [
       [ "btn", "group__GeneralGroup.html#ga13a368ef25048dff50e694ce949484e6", null ],
@@ -13551,6 +13553,7 @@ var group__GeneralGroup =
     [ "MR::PlanarTriangulation::ISweepLineCache::ISweepLineCache", "group__GeneralGroup.html#gac7ed44839b1ca7e7617e7fa3515aab8c", null ],
     [ "MR::PlanarTriangulation::ISweepLineCache::ISweepLineCache", "group__GeneralGroup.html#ga751f460bcb903fdc8e863f6a1681e1b2", null ],
     [ "MR::Features::Primitives::ConeSegment::isZeroRadius", "group__GeneralGroup.html#gad0e22f8a9ddce47d6aab63cfe35ab6bd", null ],
+    [ "MR::MouseController::isZoomInverted", "group__GeneralGroup.html#ga205e76672bb14d8a8f8c83ab703dc004", null ],
     [ "MR::ItemEnabledPerViewport::ItemEnabledPerViewport", "group__GeneralGroup.html#ga8551ebd9ecb3e6bab5cde187606e154a", null ],
     [ "MR::RibbonMenu::itemPressed_", "group__GeneralGroup.html#ga8aae0d64e5c1c2cbcc6a5872cb4ef398", null ],
     [ "MR::ConstChildren::Iterator::Iterator", "group__GeneralGroup.html#ga0ce0435d606c4d19a79a699eec18f7f2", null ],
@@ -15819,6 +15822,7 @@ var group__GeneralGroup =
     [ "MR::FeatureObject::setXf", "group__GeneralGroup.html#ga400a0d007a56111994e7f514ad861a2f", null ],
     [ "MR::ICP::setXfs", "group__GeneralGroup.html#gac6e52fe345c88a831ba23619cd352e47", null ],
     [ "MR::SparsePolynomial::setZeroCoeff", "group__GeneralGroup.html#ga687ad0841acd4ba8dd03d5915fdaecf3", null ],
+    [ "MR::MouseController::setZoomInverted", "group__GeneralGroup.html#ga893481665590dcc2ca508e8d676ae9fc", null ],
     [ "MR::sgn", "group__GeneralGroup.html#ga86bf24d57f63afab9354505400a0e82c", null ],
     [ "MR::ShadowsGL::ShadowsGL", "group__GeneralGroup.html#ga7e6bcf6e69dbb71096b7a3168949ac56", null ],
     [ "MR::ShadowsGL::ShadowsGL", "group__GeneralGroup.html#ga25146e777f581d9d82c1e4f22d3165c9", null ],
