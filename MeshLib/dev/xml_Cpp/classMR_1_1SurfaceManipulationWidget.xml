@@ -14,7 +14,6 @@
       <member refid="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" kind="variable"><name>settings_</name></member>
       <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" kind="variable"><name>obj_</name></member>
       <member refid="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" kind="variable"><name>unchangeableVerts_</name></member>
-      <member refid="group__GeneralGroup_1ga3c9ed0bdb3a5f708f5d1da2cc0ab3c4f" kind="variable"><name>minRadius_</name></member>
       <member refid="group__GeneralGroup_1gaf9cf7388fbbb8c4053cd1f1403584d2d" kind="variable"><name>mousePos_</name></member>
       <member refid="group__GeneralGroup_1ga9886221cbea0c54df9eba2ffb40c889f" kind="variable"><name>pointsUnderMouse_</name></member>
       <member refid="group__GeneralGroup_1ga2bb3cc2556966f7a514fefa8774cf9b9" kind="variable"><name>singleEditingRegion_</name></member>
@@ -24,7 +23,6 @@
       <member refid="group__GeneralGroup_1gaefb48658b014a85090a083256f594b26" kind="variable"><name>editingDistanceMap_</name></member>
       <member refid="group__GeneralGroup_1gaf47cba96ac32e05d6105943185dc431b" kind="variable"><name>visualizationDistanceMap_</name></member>
       <member refid="group__GeneralGroup_1ga448684abe0f6d4ad9d419eed84251565" kind="variable"><name>valueChanges_</name></member>
-      <member refid="group__GeneralGroup_1ga4636a687b93fa094ea26c634950fee2a" kind="variable"><name>lastStableValueChanges_</name></member>
       <member refid="group__GeneralGroup_1gac6d7a49981ff378d5f791c4ec36bc73b" kind="variable"><name>originalMesh_</name></member>
       <member refid="group__GeneralGroup_1gac7a2498fe16f6962cd02e3789909ab03" kind="variable"><name>unknownSign_</name></member>
       <member refid="group__GeneralGroup_1gaa4fd8214477b4cb504db49be1146ed47" kind="variable"><name>lastStableObjMesh_</name></member>
@@ -57,8 +55,8 @@
       <member refid="group__GeneralGroup_1ga67a4ba46cf14092e8bf56898b7ade0fc" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1gac1ffece5d3e0b7195e322e80a7ccaa64" kind="function"><name>setFixedRegion</name></member>
       <member refid="group__GeneralGroup_1gaf2a354d3a5027e69da49b73352ace95e" kind="function"><name>setSettings</name></member>
-      <member refid="group__GeneralGroup_1ga5c92a01b46aaaed4c495dbe938af36b1" kind="function"><name>getSettings</name></member>
-      <member refid="group__GeneralGroup_1ga90391f79a0502c885245e9778e248a48" kind="function"><name>getMinRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf363fda9cae141a0a0c5ebe617c0499a" kind="function"><name>getSettings</name></member>
+      <member refid="group__GeneralGroup_1ga9b847ffedd36427c284019c278553bda" kind="function"><name>getMinRadius</name></member>
       <member refid="group__GeneralGroup_1gac630e539a99b5bafb846ed70cae75f35" kind="function"><name>palette</name></member>
       <member refid="group__GeneralGroup_1ga6c46de82558f8d178be7daf5e0448a73" kind="function"><name>updateTexture</name></member>
       <member refid="group__GeneralGroup_1ga6588dff0dd0d4df97210457d94e09a1b" kind="function"><name>updateUVs</name></member>
@@ -66,7 +64,7 @@
       <member refid="group__GeneralGroup_1ga56a5628a874646dfb5089e6639a1d01c" kind="function"><name>setDeviationCalculationMethod</name></member>
       <member refid="group__GeneralGroup_1ga76aa039e8ae336abe7f7ed7b9cfa2022" kind="function"><name>deviationCalculationMethod</name></member>
       <member refid="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" kind="function"><name>sameOriginalMeshTopology</name></member>
-      <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" kind="function"><name>getMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga83d9ce87019abe28e4413297ac6d01ab" kind="function"><name>getMinMax</name></member>
       <member refid="group__GeneralGroup_1ga3bc89f53e9455e469e85b68524cbc035" kind="function"><name>setIgnoreOcclusion</name></member>
       <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" kind="function"><name>ignoreOcclusion</name></member>
       <member refid="group__GeneralGroup_1ga18aa909790d847163a6e7d2ad4ed145a" kind="function"><name>setEditOnlyCodirectedSurface</name></member>
@@ -149,7 +147,7 @@
         <link refid="structMR_1_1SurfaceManipulationWidget_1_1Settings"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="236"/>
+    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="235"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>abortEdit_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendHistoryAction_</name></member>
@@ -172,9 +170,9 @@
       <member refid="group__GeneralGroup_1ga181dd74e48211e1559bf51c95ea04b5d" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>enableDeviationVisualization</name></member>
       <member refid="group__GeneralGroup_1ga76be206635ab7abc679ccdad3f0ab7e8" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>firstInit_</name></member>
       <member refid="group__GeneralGroup_1gacc7693d8223133cb63b0540ec58107aa" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>generalEditingRegion_</name></member>
-      <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinMax</name></member>
-      <member refid="group__GeneralGroup_1ga90391f79a0502c885245e9778e248a48" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinRadius</name></member>
-      <member refid="group__GeneralGroup_1ga5c92a01b46aaaed4c495dbe938af36b1" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getSettings</name></member>
+      <member refid="group__GeneralGroup_1ga83d9ce87019abe28e4413297ac6d01ab" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinMax</name></member>
+      <member refid="group__GeneralGroup_1ga9b847ffedd36427c284019c278553bda" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getMinRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf363fda9cae141a0a0c5ebe617c0499a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>getSettings</name></member>
       <member refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>historyAction_</name></member>
       <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion</name></member>
       <member refid="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>ignoreOcclusion_</name></member>
@@ -187,9 +185,7 @@
       <member refid="group__GeneralGroup_1ga297618816e83dce980de3f9075d4657a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>laplacianMoveVert_</name></member>
       <member refid="group__GeneralGroup_1gad41aeaafb3e4c8632a313f4d729c3561" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>laplacianPickVert_</name></member>
       <member refid="group__GeneralGroup_1gaa4fd8214477b4cb504db49be1146ed47" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>lastStableObjMesh_</name></member>
-      <member refid="group__GeneralGroup_1ga4636a687b93fa094ea26c634950fee2a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>lastStableValueChanges_</name></member>
       <member refid="group__GeneralGroup_1ga19b5f418f871baaab19f8b61b09a900a" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>meshChangedConnection_</name></member>
-      <member refid="group__GeneralGroup_1ga3c9ed0bdb3a5f708f5d1da2cc0ab3c4f" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>minRadius_</name></member>
       <member refid="group__GeneralGroup_1gaf9cf7388fbbb8c4053cd1f1403584d2d" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>mousePos_</name></member>
       <member refid="group__GeneralGroup_1ga2bce77a98a1b42394a4f68d72bcb1637" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>mousePressed_</name></member>
       <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>obj_</name></member>

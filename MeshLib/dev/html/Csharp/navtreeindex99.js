@@ -1,5 +1,17 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1DecimatePolylineSettings__MRVector3f.html#aca019eb5fe4577d2a152f2bf12c4d0ee":[9,3,0,0,0,1135,1],
+"classMR_1_1DecimatePolylineSettings__MRVector3f.html#ae75dc95a81c1876c6380f047786bd50c":[9,3,0,0,0,1135,5],
+"classMR_1_1DecimatePolylineSettings__MRVector3f.html#aebe591a272ea58af9c1cc63457ee6c9d":[9,3,0,0,0,1135,4],
+"classMR_1_1DecimatePolylineSettings__MRVector3f.html#afbdbd8a23899b58774a33ccdc912dfa7":[9,3,0,0,0,1135,6],
+"classMR_1_1DecimateResult.html":[9,3,0,0,0,1136],
+"classMR_1_1DecimateResult.html#a1485417101447b1de97b0f684c956034":[9,3,0,0,0,1136,2],
+"classMR_1_1DecimateResult.html#a4907b767f454c980b94fb8385a459c6b":[9,3,0,0,0,1136,4],
+"classMR_1_1DecimateResult.html#a527166116e334bc77c78ef5ce736cda5":[9,3,0,0,0,1136,5],
+"classMR_1_1DecimateResult.html#a64552392c8ee7167f138222085aa9f03":[9,3,0,0,0,1136,0],
+"classMR_1_1DecimateResult.html#a877bdbe5430fac08446a155fbf450e3a":[9,3,0,0,0,1136,1],
+"classMR_1_1DecimateResult.html#a9c657ab91f569e655fccca5e33e67b2e":[9,3,0,0,0,1136,6],
+"classMR_1_1DecimateResult.html#ab39a6cda23e5c59ade07c3e4dff2ffcb":[9,3,0,0,0,1136,3],
 "classMR_1_1DecimateResult.html#aced91d188a3ac295b24ea646bc1b209c":[9,3,0,0,0,1136,7],
 "classMR_1_1DecimateResult.html#ade919f12c7cec4bf8a5d694bb01349a4":[9,3,0,0,0,1136,8],
 "classMR_1_1DecimateSettings.html":[9,3,0,0,0,1137],
@@ -237,17 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1DistanceMapLoadSettings.html#a02dda1fdf844fadaea0ea737a3ea97b0":[9,3,0,0,0,1153,2],
 "classMR_1_1DistanceMapLoadSettings.html#a56684daf977dd1a85c7c46acffa7b3d2":[9,3,0,0,0,1153,4],
 "classMR_1_1DistanceMapLoadSettings.html#a662fda52cacab21f277647212a1e69a8":[9,3,0,0,0,1153,0],
-"classMR_1_1DistanceMapLoadSettings.html#ab67dafb04467db1c9aa9fa909f838080":[9,3,0,0,0,1153,6],
-"classMR_1_1DistanceMapLoadSettings.html#abe477ff6d128a940c071f3c1e9e4d652":[9,3,0,0,0,1153,1],
-"classMR_1_1DistanceMapLoadSettings.html#ac3a3475c13d56c84d0de716ecedae55b":[9,3,0,0,0,1153,3],
-"classMR_1_1DistanceMapLoadSettings.html#acc3fa000e7cfd08ee22dee4337ffa449":[9,3,0,0,0,1153,7],
-"classMR_1_1DistanceMapLoadSettings.html#afb85e50d2e5a9883a7fb31329397dd27":[9,3,0,0,0,1153,5],
-"classMR_1_1DistanceMapSave.html":[9,3,0,0,0,1154],
-"classMR_1_1DistanceMapSave.html#a6287d978737eddc435dc514259ab1ab0":[9,3,0,0,0,1154,3],
-"classMR_1_1DistanceMapSave.html#a8d5a6944088df3384d615a495c64b210":[9,3,0,0,0,1154,1],
-"classMR_1_1DistanceMapSave.html#ad2c46a3796f8ae801f2fdc9d7fbf41b3":[9,3,0,0,0,1154,0],
-"classMR_1_1DistanceMapSave.html#af5f73d2b7ddf420b84901ac67016729f":[9,3,0,0,0,1154,2],
-"classMR_1_1DistanceMapSaveSettings.html":[9,3,0,0,0,1155],
-"classMR_1_1DistanceMapSaveSettings.html#a2f4f9fdb8967a93301a279f1c3e70bf1":[9,3,0,0,0,1155,4],
-"classMR_1_1DistanceMapSaveSettings.html#a603194d45b8ab62610ec0de558da7877":[9,3,0,0,0,1155,1]
+"classMR_1_1DistanceMapLoadSettings.html#ab67dafb04467db1c9aa9fa909f838080":[9,3,0,0,0,1153,6]
 };

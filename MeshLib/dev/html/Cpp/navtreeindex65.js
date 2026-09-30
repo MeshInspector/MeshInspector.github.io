@@ -1,6 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1InflateSettings.html":[9,0,0,20,469],
 "structMR_1_1InterpolateScalarsParams.html":[9,0,0,20,467],
 "structMR_1_1InterruptCloseListener.html":[9,0,0,20,809],
 "structMR_1_1IntersectionPrecomputes.html":[9,0,0,1,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX65 =
 "structMR_1_1Mesh.html#a3aab49091b051347cde5a30a3f9ccbcc":[9,0,0,7,1,84],
 "structMR_1_1Mesh.html#a3eb0890a9d7a3fe58757bdd6768610ac":[9,0,0,7,1,2],
 "structMR_1_1Mesh.html#a4040ab24e115ea0cd68fef6a177882c7":[9,0,0,7,1,17],
-"structMR_1_1Mesh.html#a40a4b434d26da4ffa956ad8cb72093ff":[9,0,0,7,1,3]
+"structMR_1_1Mesh.html#a40a4b434d26da4ffa956ad8cb72093ff":[9,0,0,7,1,3],
+"structMR_1_1Mesh.html#a45cc8a4868a2671492e010d86cb408cd":[9,0,0,7,1,8]
 };

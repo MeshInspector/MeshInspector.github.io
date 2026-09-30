@@ -9408,6 +9408,7 @@
     <member refid="group__GeneralGroup_1gaf6f0f001e98c26c2b38d1d51b3f3ef1f" kind="variable"><name>iterations</name></member>
     <member refid="group__GeneralGroup_1gabeb08d7e70411cf9ef2826c0f058b909" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" kind="variable"><name>force</name></member>
+    <member refid="group__GeneralGroup_1gaebc3bfd6830fc3b7fcf62a984d8b25f9" kind="variable"><name>updateCaches</name></member>
     <member refid="group__GeneralGroup_1gae8d07089d4abc1f4c2ccd3018e66e23a" kind="variable"><name>limitNearInitial</name></member>
     <member refid="group__GeneralGroup_1gae2779bd159120c7d84c4d2e13186af7e" kind="variable"><name>maxInitialDist</name></member>
     <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" kind="variable"><name>_padding</name></member>
@@ -11274,7 +11275,6 @@
     <member refid="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" kind="variable"><name>settings_</name></member>
     <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" kind="variable"><name>unchangeableVerts_</name></member>
-    <member refid="group__GeneralGroup_1ga3c9ed0bdb3a5f708f5d1da2cc0ab3c4f" kind="variable"><name>minRadius_</name></member>
     <member refid="group__GeneralGroup_1gaf9cf7388fbbb8c4053cd1f1403584d2d" kind="variable"><name>mousePos_</name></member>
     <member refid="group__GeneralGroup_1ga9886221cbea0c54df9eba2ffb40c889f" kind="variable"><name>pointsUnderMouse_</name></member>
     <member refid="group__GeneralGroup_1ga2bb3cc2556966f7a514fefa8774cf9b9" kind="variable"><name>singleEditingRegion_</name></member>
@@ -11284,7 +11284,6 @@
     <member refid="group__GeneralGroup_1gaefb48658b014a85090a083256f594b26" kind="variable"><name>editingDistanceMap_</name></member>
     <member refid="group__GeneralGroup_1gaf47cba96ac32e05d6105943185dc431b" kind="variable"><name>visualizationDistanceMap_</name></member>
     <member refid="group__GeneralGroup_1ga448684abe0f6d4ad9d419eed84251565" kind="variable"><name>valueChanges_</name></member>
-    <member refid="group__GeneralGroup_1ga4636a687b93fa094ea26c634950fee2a" kind="variable"><name>lastStableValueChanges_</name></member>
     <member refid="group__GeneralGroup_1gac6d7a49981ff378d5f791c4ec36bc73b" kind="variable"><name>originalMesh_</name></member>
     <member refid="group__GeneralGroup_1gac7a2498fe16f6962cd02e3789909ab03" kind="variable"><name>unknownSign_</name></member>
     <member refid="group__GeneralGroup_1gaa4fd8214477b4cb504db49be1146ed47" kind="variable"><name>lastStableObjMesh_</name></member>
@@ -11315,8 +11314,8 @@
     <member refid="group__GeneralGroup_1ga67a4ba46cf14092e8bf56898b7ade0fc" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gac1ffece5d3e0b7195e322e80a7ccaa64" kind="function"><name>setFixedRegion</name></member>
     <member refid="group__GeneralGroup_1gaf2a354d3a5027e69da49b73352ace95e" kind="function"><name>setSettings</name></member>
-    <member refid="group__GeneralGroup_1ga5c92a01b46aaaed4c495dbe938af36b1" kind="function"><name>getSettings</name></member>
-    <member refid="group__GeneralGroup_1ga90391f79a0502c885245e9778e248a48" kind="function"><name>getMinRadius</name></member>
+    <member refid="group__GeneralGroup_1gaf363fda9cae141a0a0c5ebe617c0499a" kind="function"><name>getSettings</name></member>
+    <member refid="group__GeneralGroup_1ga9b847ffedd36427c284019c278553bda" kind="function"><name>getMinRadius</name></member>
     <member refid="group__GeneralGroup_1gac630e539a99b5bafb846ed70cae75f35" kind="function"><name>palette</name></member>
     <member refid="group__GeneralGroup_1ga6c46de82558f8d178be7daf5e0448a73" kind="function"><name>updateTexture</name></member>
     <member refid="group__GeneralGroup_1ga6588dff0dd0d4df97210457d94e09a1b" kind="function"><name>updateUVs</name></member>
@@ -11324,7 +11323,7 @@
     <member refid="group__GeneralGroup_1ga56a5628a874646dfb5089e6639a1d01c" kind="function"><name>setDeviationCalculationMethod</name></member>
     <member refid="group__GeneralGroup_1ga76aa039e8ae336abe7f7ed7b9cfa2022" kind="function"><name>deviationCalculationMethod</name></member>
     <member refid="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" kind="function"><name>sameOriginalMeshTopology</name></member>
-    <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" kind="function"><name>getMinMax</name></member>
+    <member refid="group__GeneralGroup_1ga83d9ce87019abe28e4413297ac6d01ab" kind="function"><name>getMinMax</name></member>
     <member refid="group__GeneralGroup_1ga3bc89f53e9455e469e85b68524cbc035" kind="function"><name>setIgnoreOcclusion</name></member>
     <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" kind="function"><name>ignoreOcclusion</name></member>
     <member refid="group__GeneralGroup_1ga18aa909790d847163a6e7d2ad4ed145a" kind="function"><name>setEditOnlyCodirectedSurface</name></member>
@@ -23468,6 +23467,7 @@
     <member refid="group__GeneralGroup_1gaf6f0f001e98c26c2b38d1d51b3f3ef1f" kind="variable"><name>iterations</name></member>
     <member refid="group__GeneralGroup_1gabeb08d7e70411cf9ef2826c0f058b909" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" kind="variable"><name>force</name></member>
+    <member refid="group__GeneralGroup_1gaebc3bfd6830fc3b7fcf62a984d8b25f9" kind="variable"><name>updateCaches</name></member>
     <member refid="group__GeneralGroup_1gae8d07089d4abc1f4c2ccd3018e66e23a" kind="variable"><name>limitNearInitial</name></member>
     <member refid="group__GeneralGroup_1gae2779bd159120c7d84c4d2e13186af7e" kind="variable"><name>maxInitialDist</name></member>
     <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" kind="variable"><name>_padding</name></member>
@@ -24708,7 +24708,6 @@
     <member refid="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" kind="variable"><name>settings_</name></member>
     <member refid="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" kind="variable"><name>obj_</name></member>
     <member refid="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" kind="variable"><name>unchangeableVerts_</name></member>
-    <member refid="group__GeneralGroup_1ga3c9ed0bdb3a5f708f5d1da2cc0ab3c4f" kind="variable"><name>minRadius_</name></member>
     <member refid="group__GeneralGroup_1gaf9cf7388fbbb8c4053cd1f1403584d2d" kind="variable"><name>mousePos_</name></member>
     <member refid="group__GeneralGroup_1ga9886221cbea0c54df9eba2ffb40c889f" kind="variable"><name>pointsUnderMouse_</name></member>
     <member refid="group__GeneralGroup_1ga2bb3cc2556966f7a514fefa8774cf9b9" kind="variable"><name>singleEditingRegion_</name></member>
@@ -24718,7 +24717,6 @@
     <member refid="group__GeneralGroup_1gaefb48658b014a85090a083256f594b26" kind="variable"><name>editingDistanceMap_</name></member>
     <member refid="group__GeneralGroup_1gaf47cba96ac32e05d6105943185dc431b" kind="variable"><name>visualizationDistanceMap_</name></member>
     <member refid="group__GeneralGroup_1ga448684abe0f6d4ad9d419eed84251565" kind="variable"><name>valueChanges_</name></member>
-    <member refid="group__GeneralGroup_1ga4636a687b93fa094ea26c634950fee2a" kind="variable"><name>lastStableValueChanges_</name></member>
     <member refid="group__GeneralGroup_1gac6d7a49981ff378d5f791c4ec36bc73b" kind="variable"><name>originalMesh_</name></member>
     <member refid="group__GeneralGroup_1gac7a2498fe16f6962cd02e3789909ab03" kind="variable"><name>unknownSign_</name></member>
     <member refid="group__GeneralGroup_1gaa4fd8214477b4cb504db49be1146ed47" kind="variable"><name>lastStableObjMesh_</name></member>
@@ -30758,8 +30756,8 @@
     <member refid="group__GeneralGroup_1ga67a4ba46cf14092e8bf56898b7ade0fc" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gac1ffece5d3e0b7195e322e80a7ccaa64" kind="function"><name>setFixedRegion</name></member>
     <member refid="group__GeneralGroup_1gaf2a354d3a5027e69da49b73352ace95e" kind="function"><name>setSettings</name></member>
-    <member refid="group__GeneralGroup_1ga5c92a01b46aaaed4c495dbe938af36b1" kind="function"><name>getSettings</name></member>
-    <member refid="group__GeneralGroup_1ga90391f79a0502c885245e9778e248a48" kind="function"><name>getMinRadius</name></member>
+    <member refid="group__GeneralGroup_1gaf363fda9cae141a0a0c5ebe617c0499a" kind="function"><name>getSettings</name></member>
+    <member refid="group__GeneralGroup_1ga9b847ffedd36427c284019c278553bda" kind="function"><name>getMinRadius</name></member>
     <member refid="group__GeneralGroup_1gac630e539a99b5bafb846ed70cae75f35" kind="function"><name>palette</name></member>
     <member refid="group__GeneralGroup_1ga6c46de82558f8d178be7daf5e0448a73" kind="function"><name>updateTexture</name></member>
     <member refid="group__GeneralGroup_1ga6588dff0dd0d4df97210457d94e09a1b" kind="function"><name>updateUVs</name></member>
@@ -30767,7 +30765,7 @@
     <member refid="group__GeneralGroup_1ga56a5628a874646dfb5089e6639a1d01c" kind="function"><name>setDeviationCalculationMethod</name></member>
     <member refid="group__GeneralGroup_1ga76aa039e8ae336abe7f7ed7b9cfa2022" kind="function"><name>deviationCalculationMethod</name></member>
     <member refid="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" kind="function"><name>sameOriginalMeshTopology</name></member>
-    <member refid="group__GeneralGroup_1gaf5a9e8b4fd61a438f8ba559e9743b5ac" kind="function"><name>getMinMax</name></member>
+    <member refid="group__GeneralGroup_1ga83d9ce87019abe28e4413297ac6d01ab" kind="function"><name>getMinMax</name></member>
     <member refid="group__GeneralGroup_1ga3bc89f53e9455e469e85b68524cbc035" kind="function"><name>setIgnoreOcclusion</name></member>
     <member refid="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" kind="function"><name>ignoreOcclusion</name></member>
     <member refid="group__GeneralGroup_1ga18aa909790d847163a6e7d2ad4ed145a" kind="function"><name>setEditOnlyCodirectedSurface</name></member>

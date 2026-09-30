@@ -14,5 +14,6 @@ var classMR_1_1MeshApproxRelaxParams =
     [ "region", "classMR_1_1MeshApproxRelaxParams.html#a73f3038b349afb74f1bcd16dcaf19eaa", null ],
     [ "surfaceDilateRadius", "classMR_1_1MeshApproxRelaxParams.html#a6a2bf9299774fa6af8fa9131c4eb1b2d", null ],
     [ "type", "classMR_1_1MeshApproxRelaxParams.html#a6c6221567d59717a3854b2d4ccdf2e91", null ],
+    [ "updateCaches", "classMR_1_1MeshApproxRelaxParams.html#ad19699b764372ec3f98bec1c1dc43020", null ],
     [ "weights", "classMR_1_1MeshApproxRelaxParams.html#a20b9f027ef9fb92dbdfd954b469a7303", null ]
 ];

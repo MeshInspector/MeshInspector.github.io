@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Cuda_1_1Const__PointsProjector.html#a65f1f452b774126bc2db3fc7202f56c8":[9,3,0,0,0,1123,6,0],
+"classMR_1_1Cuda_1_1Const__PointsProjector.html#a77fcbb4414ad6a3f1511e9a27462ab5f":[9,3,0,0,0,1123,6,4],
+"classMR_1_1Cuda_1_1Const__PointsProjector.html#aa35635920c4405e21b1954836c06f6d5":[9,3,0,0,0,1123,6,7],
+"classMR_1_1Cuda_1_1Const__PointsProjector.html#ac1abec6fcfd8a08a693c2102326ca36f":[9,3,0,0,0,1123,6,8],
+"classMR_1_1Cuda_1_1Const__PointsProjector.html#acbf4b7287e50b6493b15475dafea6fba":[9,3,0,0,0,1123,6,1],
+"classMR_1_1Cuda_1_1Const__PointsProjector.html#aef7afd0014618ac03eee242e4379147f":[9,3,0,0,0,1123,6,9],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html":[9,3,0,0,0,1123,7],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a0c5d2e92cddc3957fd34799932d82002":[9,3,0,0,0,1123,7,2],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a30c1365e012d872d8df43e12fbc76e53":[9,3,0,0,0,1123,7,0],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32":[9,3,0,0,0,1123,7,8],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6b9df534abc4ddb6c2c9b95a674063ed":[9,3,0,0,0,1123,7,1],
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6":[9,3,0,0,0,1123,7,7],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac3f7a8e10de898caab17054a19c1187b":[9,3,0,0,0,1123,7,3],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a":[9,3,0,0,0,1123,7,6],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#acd9ad7fc72d377e1afdc3d3cbbf74bbd":[9,3,0,0,0,1123,7,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1DecimatePolylineSettings__MRVector3f.html#a988ce2d52dd53256f8ac93c5a97606ae":[9,3,0,0,0,1135,3],
 "classMR_1_1DecimatePolylineSettings__MRVector3f.html#a993f19a57aa6b29df7877e2806f3fd80":[9,3,0,0,0,1135,2],
 "classMR_1_1DecimatePolylineSettings__MRVector3f.html#a9d684452ddae6fbb84ae69bc88f6c1e8":[9,3,0,0,0,1135,10],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#ac44507341f59380a30751ab03013228a":[9,3,0,0,0,1135,0],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#aca019eb5fe4577d2a152f2bf12c4d0ee":[9,3,0,0,0,1135,1],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#ae75dc95a81c1876c6380f047786bd50c":[9,3,0,0,0,1135,5],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#aebe591a272ea58af9c1cc63457ee6c9d":[9,3,0,0,0,1135,4],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#afbdbd8a23899b58774a33ccdc912dfa7":[9,3,0,0,0,1135,6],
-"classMR_1_1DecimateResult.html":[9,3,0,0,0,1136],
-"classMR_1_1DecimateResult.html#a1485417101447b1de97b0f684c956034":[9,3,0,0,0,1136,2],
-"classMR_1_1DecimateResult.html#a4907b767f454c980b94fb8385a459c6b":[9,3,0,0,0,1136,4],
-"classMR_1_1DecimateResult.html#a527166116e334bc77c78ef5ce736cda5":[9,3,0,0,0,1136,5],
-"classMR_1_1DecimateResult.html#a64552392c8ee7167f138222085aa9f03":[9,3,0,0,0,1136,0],
-"classMR_1_1DecimateResult.html#a877bdbe5430fac08446a155fbf450e3a":[9,3,0,0,0,1136,1],
-"classMR_1_1DecimateResult.html#a9c657ab91f569e655fccca5e33e67b2e":[9,3,0,0,0,1136,6],
-"classMR_1_1DecimateResult.html#ab39a6cda23e5c59ade07c3e4dff2ffcb":[9,3,0,0,0,1136,3]
+"classMR_1_1DecimatePolylineSettings__MRVector3f.html#ac44507341f59380a30751ab03013228a":[9,3,0,0,0,1135,0]
 };

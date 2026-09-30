@@ -19769,6 +19769,7 @@
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1ac362678c59d37aa041fcdba84e5e2d37" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a9f0c1d10bdce59ebae6e2cc3f775499a" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a6b08133bb7443e349d4d68fcf2d365fd" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a1231ee32db9c98a9b238cf6704b600a8" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a83d147c2c369f150d6606203a8640efd" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1ac876131fed4074ce6aed9dce0328121e" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a62f547f8f60b11f960c54137b6f68d5a" kind="variable"><name>__ref_storage_surfaceDilateRadius</name></member>
@@ -19778,6 +19779,7 @@
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1ad0492e21bd56ce778049eeee41e1abfa" kind="variable"><name>__ref_storage_iterations</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a15f715af7e447605a5c445948c753185" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a2831cd4e25d817b6fba80f3e0bcb5ecd" kind="variable"><name>__ref_storage_force</name></member>
+    <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a882c468acedf5d1f00bbf703bdfe4bb7" kind="variable"><name>__ref_storage_updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1aa0b02a1c5a8ebf213cf1685d9a2a7034" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a15c0ae3510e802be27e6ed06ceb98821" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a020a0810bec95e795b5f6695de66c730" kind="function"><name>Dispose</name></member>
@@ -19800,6 +19802,7 @@
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1ae617b8934fb5490073c6eb908e00574f" kind="function"><name>__MR_MeshApproxRelaxParams_Get_region</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a4880a53988edfef57463699b78bc81d3" kind="function"><name>__MR_MeshApproxRelaxParams_Get_surfaceDilateRadius</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a69dd96cbaa45b0c0af4db5b06a78a831" kind="function"><name>__MR_MeshApproxRelaxParams_Get_type</name></member>
+    <member refid="classMR_1_1Const__MeshApproxRelaxParams_1af51c704c01ff82d629bf0ae7998d9897" kind="function"><name>__MR_MeshApproxRelaxParams_Get_updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a2604db83ad7d411a8fcb82b0b3bfc11a" kind="function"><name>__MR_MeshApproxRelaxParams_Get_weights</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a46ec3464a351c0cec6a7e557f5c5445c" kind="function"><name>__MR_MeshApproxRelaxParams_UpcastTo_MR_MeshRelaxParams</name></member>
     <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a77b036da82a0d27b160cd817b45403a1" kind="function"><name>__MR_MeshApproxRelaxParams_UpcastTo_MR_RelaxParams</name></member>
@@ -19856,6 +19859,7 @@
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a81e92d1b3985a606286e3ab1e45e20f2" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a3eacf27b681afc8da4de0f3113b1edef" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a9ddd52f06a44adcf75f45b51115435a9" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1aa501bc4dbe61710f9b48d46644cf3eba" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ad10af2fef73cb33a8c44074edabc1fc5" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a6d0980d9f18aa87ab01d1a00c368eda8" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a3350feeae6d6c031272532f919eeccb3" kind="variable"><name>__ref_storage_noShrinkage</name></member>
@@ -19864,6 +19868,7 @@
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a98efa52be1a033f538ffa5075e95c1e1" kind="variable"><name>__ref_storage_iterations</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a87665211a015d621e8c038895aee86eb" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a6fdb4d847c516e0b954cb0b7a2c30494" kind="variable"><name>__ref_storage_force</name></member>
+    <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae965bc335adf7a834f8f6c2bf22a1090" kind="variable"><name>__ref_storage_updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a14cd65b4fd404db12dbb3216616b8089" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae153027572a88406fa5c82d59633c166" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1aafb9669bec8bf19450c7fb9503ed67ac" kind="function"><name>Dispose</name></member>
@@ -19885,6 +19890,7 @@
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a419173a8d78bc4e3e4a93cf8017744fb" kind="function"><name>__MR_MeshEqualizeTriAreasParams_Get_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ade0b6516f79aea508f911f2e2fa576c1" kind="function"><name>__MR_MeshEqualizeTriAreasParams_Get_noShrinkage</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a641443957ab9c107e445d76e2e0130c9" kind="function"><name>__MR_MeshEqualizeTriAreasParams_Get_region</name></member>
+    <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a0695941673760b39fbe13883575d8bda" kind="function"><name>__MR_MeshEqualizeTriAreasParams_Get_updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a11fd615e6930ae850077b8deed1977bf" kind="function"><name>__MR_MeshEqualizeTriAreasParams_Get_weights</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a7435b713065ac26b0e89625428b0e315" kind="function"><name>__MR_MeshEqualizeTriAreasParams_UpcastTo_MR_MeshRelaxParams</name></member>
     <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1aaa898153d9d59d0cf19879391bc8f2a8" kind="function"><name>__MR_MeshEqualizeTriAreasParams_UpcastTo_MR_RelaxParams</name></member>
@@ -20680,6 +20686,7 @@
     <member refid="classMR_1_1Const__MeshRelaxParams_1aa14a1d3a5d99df83471bb9e9da8e7092" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1ac53821cf709ed1a2ac178e572f725303" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1aad84c03cb4f2f79fa6004f81d499f398" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1Const__MeshRelaxParams_1a09ca6fff61ae24aae7c13eb10044b8cd" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a7df3aa7fab1fde66b139f6668f8b140a" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a588effff89acd3a722999fbc347d751b" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1aa0e0149484e1ec8413369ef562bfc2fd" kind="variable"><name>__ref_storage_hardSmoothTetrahedrons</name></member>
@@ -20687,6 +20694,7 @@
     <member refid="classMR_1_1Const__MeshRelaxParams_1a84bbe0ff50642d694dcc9247b355304b" kind="variable"><name>__ref_storage_iterations</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1ad54a846b0f78da968ef6077196bfe116" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1aff8262611ffca2717113aa1cdabed3fc" kind="variable"><name>__ref_storage_force</name></member>
+    <member refid="classMR_1_1Const__MeshRelaxParams_1ab9df56c16d866c84db5567b5f81508f6" kind="variable"><name>__ref_storage_updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a82b983c92a40bd77e6ef1cb7b08d8779" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1aed8668d0df3fb6b5196e2c09703e4357" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a9c8d83f2ca6a38e0fa02fa7a43d601c1" kind="function"><name>Dispose</name></member>
@@ -20706,6 +20714,7 @@
     <member refid="classMR_1_1Const__MeshRelaxParams_1a4b4a1a2602fa4405d155b7857cf23095" kind="function"><name>__MR_MeshRelaxParams_Get_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1ae24e559c4ff57a005d96fdfdab5c6fab" kind="function"><name>__MR_MeshRelaxParams_Get_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a44894a0fe15079c36eb582424c3a9629" kind="function"><name>__MR_MeshRelaxParams_Get_region</name></member>
+    <member refid="classMR_1_1Const__MeshRelaxParams_1ae39caca89b0b6e0390eec15d8a6821a3" kind="function"><name>__MR_MeshRelaxParams_Get_updateCaches</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a70e59a6801a0a45f717f96a87aae00b5" kind="function"><name>__MR_MeshRelaxParams_Get_weights</name></member>
     <member refid="classMR_1_1Const__MeshRelaxParams_1a590a06bbce7b2f7ce2a1c61e316f8d78" kind="function"><name>__MR_MeshRelaxParams_UpcastTo_MR_RelaxParams</name></member>
   </compound>
@@ -26635,6 +26644,7 @@
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1aeb47b16b0d9027c83336befea7bd4f73" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1adfaa5a9bee6f6c34ef4a14e20563c938" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1aa27e3121c29358e6c03f43ac625e5add" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1ab5553f8921ca8162701c1e5ea72d253a" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1ae50fa1d9593af715c6bb04497cb55f1b" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1ae01870f7fbf91167324719ae41334229" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a9f1d9e5c2561aa8dc505841d667a5e87" kind="variable"><name>__ref_storage_type</name></member>
@@ -26642,6 +26652,7 @@
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a2695b347ddbc5423d3870510493b864d" kind="variable"><name>__ref_storage_iterations</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a27f4764a8d2937762ab6590ee7ac5914" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a874c45de8ca2843e91e62d5335dcc693" kind="variable"><name>__ref_storage_force</name></member>
+    <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1ada62271de4434011fe80a36d39e03fd8" kind="variable"><name>__ref_storage_updateCaches</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1ac564fcf4a28f23df42c767eb28c7c362" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a3feac27e1a43bb71b8e2f5e99ba3736e" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a23c2e7e2357492c9daccda2dfd99d12c" kind="function"><name>Dispose</name></member>
@@ -26663,6 +26674,7 @@
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a848add563dc3fed9b219e63ff1875ad2" kind="function"><name>__MR_PointCloudApproxRelaxParams_Get_neighborhoodRadius</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1aca4bd05b449263798b7795bc364ad6d4" kind="function"><name>__MR_PointCloudApproxRelaxParams_Get_region</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1acbb03d6e6e2e296ae2dcaa0400bc1bad" kind="function"><name>__MR_PointCloudApproxRelaxParams_Get_type</name></member>
+    <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1af1a2df426508601a5a84920070842bc8" kind="function"><name>__MR_PointCloudApproxRelaxParams_Get_updateCaches</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a3fca37c86fd6cc2216ce6d37e2a62465" kind="function"><name>__MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams</name></member>
     <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a741c4ee362af89d14735b4f4d8dce2ca" kind="function"><name>__MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams</name></member>
   </compound>
@@ -26689,12 +26701,14 @@
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1aa6c62e8078f132bd6284a27028148853" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab2086a9133d1a21315ca6a28f79ce562" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1af15fe2a3aadfa9d73481a773a5af29b0" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1Const__PointCloudRelaxParams_1a03570a7f4e87fd61920cb272c337bec3" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a6037d2a9c7dad3c1b9543cf5c66ff3d2" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab38227255e76452f62e552ceb74e730e" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a741ae7e0d42c75f7beaa526aaee51f7a" kind="variable"><name>__ref_storage_neighborhoodRadius</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1ad518641e084079d670c72852145507a2" kind="variable"><name>__ref_storage_iterations</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab33f78dfa7da839a0ba26522b6ee4344" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a1712625282733bce5f0a5899998f655a" kind="variable"><name>__ref_storage_force</name></member>
+    <member refid="classMR_1_1Const__PointCloudRelaxParams_1ac95f39ea3f3cc6ef8ffbacddb3eb90f0" kind="variable"><name>__ref_storage_updateCaches</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1ac33ba6e0932b14f218ff1aee20d948b8" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a8dbf4909a553ec27f9504afae339039d" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a15a50da2f5e1d0a41d590fda9274ef8a" kind="function"><name>Dispose</name></member>
@@ -26714,6 +26728,7 @@
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a265371db9ef75d92e15b16465f571dee" kind="function"><name>__MR_PointCloudRelaxParams_Get_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1ab475e8b0f8347216cc4168558b965cc5" kind="function"><name>__MR_PointCloudRelaxParams_Get_neighborhoodRadius</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a8861a736c25e72c84f6bcc0535819d62" kind="function"><name>__MR_PointCloudRelaxParams_Get_region</name></member>
+    <member refid="classMR_1_1Const__PointCloudRelaxParams_1a35bc7bfbf94296242613f6e13f5adf8f" kind="function"><name>__MR_PointCloudRelaxParams_Get_updateCaches</name></member>
     <member refid="classMR_1_1Const__PointCloudRelaxParams_1a8ad7896a5fb0919b98a1b535deb92179" kind="function"><name>__MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</name></member>
   </compound>
   <compound refid="classMR_1_1Const__PointMeasurementObject" kind="class"><name>MR::Const_PointMeasurementObject</name>
@@ -29405,11 +29420,13 @@
     <member refid="classMR_1_1Const__RelaxParams_1a0cdfab3d5daae3f6a0c55b008fc00ad1" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1ad76d7d379d813b9c219b5a17d4fa625c" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a4b47b3ef14415db5a777c835683f9a8f" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1Const__RelaxParams_1a49fc2eda27c6f2f62443aef058ed853d" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a809a0874306b1f12ff541951c363e636" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1acad3b7acdb636a6001003db64d091101" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a8ef6ce3e932e96fada8665d114c2c0ad" kind="variable"><name>__ref_storage_iterations</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1aae85b298b41bfe3bd1c77e64a70d8947" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a26d76a758591f1a7f1b9b6546a1fcbcf" kind="variable"><name>__ref_storage_force</name></member>
+    <member refid="classMR_1_1Const__RelaxParams_1a10cbcf5e7d4053d550a7334c76074e5b" kind="variable"><name>__ref_storage_updateCaches</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a3dd18ccefa9e598f04800582678b6d04" kind="variable"><name>__ref_storage_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a7a9ccc48fec0771bc496718d640a8cde" kind="variable"><name>__ref_storage_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1acdc8fe724eabe7e445dafd408920af74" kind="function"><name>Dispose</name></member>
@@ -29427,6 +29444,7 @@
     <member refid="classMR_1_1Const__RelaxParams_1a48f441abd55f0b6124eb9d55dc2668b4" kind="function"><name>__MR_RelaxParams_Get_limitNearInitial</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1a82347617b3118418ad166fb8003941d9" kind="function"><name>__MR_RelaxParams_Get_maxInitialDist</name></member>
     <member refid="classMR_1_1Const__RelaxParams_1ac21fab5962a817c70029bf88624017fd" kind="function"><name>__MR_RelaxParams_Get_region</name></member>
+    <member refid="classMR_1_1Const__RelaxParams_1af4aced764885ed1fe2cfd0fb1f503e9f" kind="function"><name>__MR_RelaxParams_Get_updateCaches</name></member>
   </compound>
   <compound refid="classMR_1_1Const__RemeshSettings" kind="class"><name>MR::Const_RemeshSettings</name>
     <member refid="classMR_1_1Const__RemeshSettings_1a6c210030c43ee07be11340e7272abbd7" kind="property"><name>targetEdgeLen</name></member>
@@ -50115,6 +50133,7 @@
     <member refid="classMR_1_1MeshApproxRelaxParams_1a564ff635e217c82d7e872f0d14f49b32" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1MeshApproxRelaxParams_1a73f3038b349afb74f1bcd16dcaf19eaa" kind="property"><name>region</name></member>
     <member refid="classMR_1_1MeshApproxRelaxParams_1a9343045d84dc9a11afb04655a63b8381" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1MeshApproxRelaxParams_1ad19699b764372ec3f98bec1c1dc43020" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1MeshApproxRelaxParams_1a75f3e99cdf6c3021c01af50976148592" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1MeshApproxRelaxParams_1a8a163a03ba292adb2564c2686f06e719" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1MeshApproxRelaxParams_1ad4e58253d24183d41ad9d4b0a6c7cf95" kind="function"><name>operator MR.RelaxParams</name></member>
@@ -50299,6 +50318,7 @@
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1ac16cac43b7aee6645062e4bc905743dc" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" kind="property"><name>region</name></member>
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1adbcaef58601f7c404b72267c05f07988" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0deab6e310051bb09ba506e8a13b86b1" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a5c0ecfb59473911cc9c1063d29626651" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a8e8bb59424534582e08d97437801e9e9" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0d7884a31c110e494ce2b39bb1adcfdc" kind="function"><name>operator MR.RelaxParams</name></member>
@@ -50748,6 +50768,7 @@
     <member refid="classMR_1_1MeshRelaxParams_1a507f9239d84b838cc03f728023125341" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1MeshRelaxParams_1a8f3806fc1ebf27bf671e2fc89f085458" kind="property"><name>region</name></member>
     <member refid="classMR_1_1MeshRelaxParams_1a727523eb6245510332fbd40fa8179c93" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1MeshRelaxParams_1aecd5a9e8b4ec12206043fecf8fac4215" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1MeshRelaxParams_1a784f38a22f8fbc1f8ea077f84a1b984b" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1MeshRelaxParams_1aa6078c1afe0cb38f94df4d75fe845c9d" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1MeshRelaxParams_1a5407448cfcd857d1cc31ed8961a04771" kind="function"><name>operator MR.RelaxParams</name></member>
@@ -59259,6 +59280,7 @@
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1ab630953d03bfb929d16344bb18fa3129" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1a5d6ce71080a29b20a5757c47ef106f00" kind="property"><name>region</name></member>
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1af7c5b151cd681efb052eddb4e6e35584" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1PointCloudApproxRelaxParams_1a410253d4074c7c006c03705d955843e4" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1a5ae949fb204a4258640690eb47d30e05" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1ac2da44309cc6f470a18fb6fde664c92e" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1PointCloudApproxRelaxParams_1aedc7c2ccb09df55714f4637348c9023a" kind="function"><name>operator MR.RelaxParams</name></member>
@@ -59303,6 +59325,7 @@
     <member refid="classMR_1_1PointCloudRelaxParams_1a70c3d79d96848834ba724591c0b65fc5" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1PointCloudRelaxParams_1a16f1be7dcfa33ab5cabcac9e580116a8" kind="property"><name>region</name></member>
     <member refid="classMR_1_1PointCloudRelaxParams_1a996549583f62dc448d5e758adbdc2afe" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1PointCloudRelaxParams_1ad9599a62cb759e87b1e352d9caa0f2e9" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1PointCloudRelaxParams_1a3f8d8730b5e1552c1ef9600bb7f845b8" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1PointCloudRelaxParams_1ad9d9e2dfb40e5e8bb1a02350e0cb3366" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1PointCloudRelaxParams_1a175501ac00160f3e4e57f5d365feed0e" kind="function"><name>operator MR.RelaxParams</name></member>
@@ -61228,6 +61251,7 @@
     <member refid="classMR_1_1RelaxParams_1a3a35234771b7e73df2d9d2ac55d86881" kind="property"><name>iterations</name></member>
     <member refid="classMR_1_1RelaxParams_1a25edc7a8669087781f5180c67a704a7d" kind="property"><name>region</name></member>
     <member refid="classMR_1_1RelaxParams_1ab63b0c054897c1b08f7e126ae1794748" kind="property"><name>force</name></member>
+    <member refid="classMR_1_1RelaxParams_1a5a248dea46ab9e0d96dd900d5869e131" kind="property"><name>updateCaches</name></member>
     <member refid="classMR_1_1RelaxParams_1a6a77807fb4269a27dbe4ed779b218721" kind="property"><name>limitNearInitial</name></member>
     <member refid="classMR_1_1RelaxParams_1ae949db566df3a3532f3bebfa7dfcd11c" kind="property"><name>maxInitialDist</name></member>
     <member refid="classMR_1_1RelaxParams_1a4c8a8ca1df85c60f4afec1dd34c1614c" kind="function"><name>RelaxParams</name></member>
