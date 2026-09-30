@@ -87,6 +87,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "pickedVertsToData_", "group__GeneralGroup.html#gafb73c4c85c9d2f5882438cb0c5d6f17d", null ],
     [ "pointsShift_", "group__GeneralGroup.html#ga36f9a86b24ef8363fa101445a7131338", null ],
     [ "pointsUnderMouse_", "group__GeneralGroup.html#ga9886221cbea0c54df9eba2ffb40c889f", null ],
+    [ "requestedDeviationCalculationMethod_", "group__GeneralGroup.html#ga2584a189d7c7cfcd0164ea5fa581f09b", null ],
     [ "sameOriginalMeshTopology_", "group__GeneralGroup.html#ga32f9a2a3b8c9d57623374cb94a70f8b6", null ],
     [ "settings_", "group__GeneralGroup.html#ga1470ce9a66bc6a7554b36d69c81102e1", null ],
     [ "singleEditingRegion_", "group__GeneralGroup.html#ga2bb3cc2556966f7a514fefa8774cf9b9", null ],

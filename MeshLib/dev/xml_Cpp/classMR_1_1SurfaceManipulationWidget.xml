@@ -45,6 +45,7 @@
       <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
       <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" kind="variable"><name>enableDeviationTexture_</name></member>
       <member refid="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" kind="variable"><name>deviationCalculationMethod_</name></member>
+      <member refid="group__GeneralGroup_1ga2584a189d7c7cfcd0164ea5fa581f09b" kind="variable"><name>requestedDeviationCalculationMethod_</name></member>
       <member refid="group__GeneralGroup_1ga32f9a2a3b8c9d57623374cb94a70f8b6" kind="variable"><name>sameOriginalMeshTopology_</name></member>
       <member refid="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" kind="variable"><name>ignoreOcclusion_</name></member>
       <member refid="group__GeneralGroup_1ga03c8e502f4a92fa8e57e0d50ed97524a" kind="variable"><name>editOnlyCodirectedSurface_</name></member>
@@ -148,7 +149,7 @@
         <link refid="structMR_1_1SurfaceManipulationWidget_1_1Settings"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="234"/>
+    <location file="MRViewer/MRSurfaceManipulationWidget.h" line="20" column="1" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="23" bodyend="236"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>abortEdit_</name></member>
       <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>appendHistoryAction_</name></member>
@@ -206,6 +207,7 @@
       <member refid="group__GeneralGroup_1gae826bf629c48be2db7b2635290b59a5c" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>postDraw_</name></member>
       <member refid="group__GeneralGroup_1ga6bf4b908832273c2d2b0dff19ba3eddc" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>reallocData_</name></member>
       <member refid="group__GeneralGroup_1ga8b49dc6133efe789f4fa17bb75f3641c" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>removeLastStableObjMesh_</name></member>
+      <member refid="group__GeneralGroup_1ga2584a189d7c7cfcd0164ea5fa581f09b" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>requestedDeviationCalculationMethod_</name></member>
       <member refid="group__GeneralGroup_1ga67a4ba46cf14092e8bf56898b7ade0fc" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga87e780495d7aae0fc12390c68b58631d" prot="protected" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>resetConnections_</name></member>
       <member refid="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget</scope><name>sameOriginalMeshTopology</name></member>
