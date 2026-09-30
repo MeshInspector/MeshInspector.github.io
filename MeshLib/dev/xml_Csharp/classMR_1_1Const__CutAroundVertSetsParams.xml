@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__CutAroundVertSetsParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_CutAroundVertSetsParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1CutAroundVertSetsParams" prot="public" virt="non-virtual">MR.CutAroundVertSetsParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__CutAroundVertSetsParams_1ae37965a9dd43144d6e807a830011591e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_CutAroundVertSetsParams.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.distance</qualifiedname>
+        <briefdescription>
+<para>the mesh is cut along the isolines of surface distance equal to this value around each vertex set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CutAroundVertSetsParams_1aa5878e3a3d9dfed729481eddcebbe2cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_CutAroundVertSetsParams.gap</definition>
+        <argsstring></argsstring>
+        <name>gap</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.gap</qualifiedname>
+        <briefdescription>
+<para>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__CutAroundVertSetsParams_1ad07adc5adf92b1e6a3aa5b294c2c3a68" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_CutAroundVertSetsParams.__ref_storage_distance</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distance</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__ref_storage_distance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="27" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CutAroundVertSetsParams_1ab8059f40e3334fc607e04803a317a7d6" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_CutAroundVertSetsParams.__ref_storage_gap</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_gap</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__ref_storage_gap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="37" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1ada9953745c778a7592743e4975916b12" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_CutAroundVertSetsParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="13" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1ac3d7bf1fa966ee32671db01fda96c7ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_CutAroundVertSetsParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="20" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1abdebeae64c50c99ca49176d5c33e4f9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_CutAroundVertSetsParams</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="66" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a4c17b81edd9fe11c2e1fbafcd3be0ee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</definition>
+        <argsstring>(float distance, float gap)</argsstring>
+        <name>Const_CutAroundVertSetsParams</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gap</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CutAroundVertSetsParams" kindref="compound">MR.CutAroundVertSetsParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="75" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1ab1d792a18fab1792e6753964fbcc4a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</definition>
+        <argsstring>(MR.Const_CutAroundVertSetsParams _other)</argsstring>
+        <name>Const_CutAroundVertSetsParams</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__CutAroundVertSetsParams" kindref="compound">MR.Const_CutAroundVertSetsParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutAroundVertSetsParams_1a4717c7cd8183cacef60339b1ce07614f" kindref="member">MR.CutAroundVertSetsParams.CutAroundVertSetsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1ae5df3291e76b3ccf5070078c699697d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</definition>
+        <argsstring>(CutAroundVertSetsParams _other)</argsstring>
+        <name>Const_CutAroundVertSetsParams</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CutAroundVertSetsParams" kindref="compound">CutAroundVertSetsParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CutAroundVertSetsParams_1a4717c7cd8183cacef60339b1ce07614f" kindref="member">MR.CutAroundVertSetsParams.CutAroundVertSetsParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="94" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a6ac6e44446db293f0691479e0f766385" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CutAroundVertSetsParams.~Const_CutAroundVertSetsParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_CutAroundVertSetsParams</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.~Const_CutAroundVertSetsParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="21" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a434d161667d9aebaacb313ec75cee240" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_CutAroundVertSetsParams</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.Const_CutAroundVertSetsParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="55" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a66b5c7a4a8c54c539773de3b82a5be9e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CutAroundVertSetsParams._Underlying *</type>
+        <definition>static unsafe MR.CutAroundVertSetsParams._Underlying * MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_ConstructFrom</definition>
+        <argsstring>(float distance, float gap)</argsstring>
+        <name>__MR_CutAroundVertSetsParams_ConstructFrom</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_ConstructFrom</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="99" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a1d371143e072b4c83a5894a88af76ada" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CutAroundVertSetsParams._Underlying *</type>
+        <definition>static unsafe MR.CutAroundVertSetsParams._Underlying * MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_ConstructFromAnother</definition>
+        <argsstring>(MR.CutAroundVertSetsParams._Underlying *_other)</argsstring>
+        <name>__MR_CutAroundVertSetsParams_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.CutAroundVertSetsParams._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="102" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a4e5c07bc179cd380b07b943db886cb3f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CutAroundVertSetsParams._Underlying *</type>
+        <definition>static unsafe MR.CutAroundVertSetsParams._Underlying * MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_CutAroundVertSetsParams_DefaultConstruct</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="105" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a53f76f9da7060883afa620f3a575ceb3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_CutAroundVertSetsParams_Destroy</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="108" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1abd35ae79a647791b8e98148aa29d1a9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_Get_distance</definition>
+        <argsstring>(MR.Const_CutAroundVertSetsParams._Underlying *_this)</argsstring>
+        <name>__MR_CutAroundVertSetsParams_Get_distance</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_Get_distance</qualifiedname>
+        <param>
+          <type>MR.Const_CutAroundVertSetsParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="111" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CutAroundVertSetsParams_1a701dc1d6d98388a3181a5bff02d0d943" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_Get_gap</definition>
+        <argsstring>(MR.Const_CutAroundVertSetsParams._Underlying *_this)</argsstring>
+        <name>__MR_CutAroundVertSetsParams_Get_gap</name>
+        <qualifiedname>MR.Const_CutAroundVertSetsParams.__MR_CutAroundVertSetsParams_Get_gap</qualifiedname>
+        <param>
+          <type>MR.Const_CutAroundVertSetsParams._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="114" column="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1CutAroundVertSetsParams" kindref="compound">MR.CutAroundVertSetsParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_CutAroundVertSetsParams</label>
+        <link refid="classMR_1_1Const__CutAroundVertSetsParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.CutAroundVertSetsParams</label>
+        <link refid="classMR_1_1CutAroundVertSetsParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_CutAroundVertSetsParams</label>
+        <link refid="classMR_1_1Const__CutAroundVertSetsParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="8" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a66b5c7a4a8c54c539773de3b82a5be9e" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__MR_CutAroundVertSetsParams_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a1d371143e072b4c83a5894a88af76ada" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__MR_CutAroundVertSetsParams_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a4e5c07bc179cd380b07b943db886cb3f" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__MR_CutAroundVertSetsParams_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a53f76f9da7060883afa620f3a575ceb3" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__MR_CutAroundVertSetsParams_Destroy</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1abd35ae79a647791b8e98148aa29d1a9d" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__MR_CutAroundVertSetsParams_Get_distance</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a701dc1d6d98388a3181a5bff02d0d943" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__MR_CutAroundVertSetsParams_Get_gap</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ad07adc5adf92b1e6a3aa5b294c2c3a68" prot="protected" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__ref_storage_distance</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ab8059f40e3334fc607e04803a317a7d6" prot="protected" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>__ref_storage_gap</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a434d161667d9aebaacb313ec75cee240" prot="package" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Const_CutAroundVertSetsParams</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1abdebeae64c50c99ca49176d5c33e4f9f" prot="public" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Const_CutAroundVertSetsParams</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a4c17b81edd9fe11c2e1fbafcd3be0ee1" prot="public" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Const_CutAroundVertSetsParams</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ab1d792a18fab1792e6753964fbcc4a1c" prot="public" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Const_CutAroundVertSetsParams</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ae5df3291e76b3ccf5070078c699697d6" prot="public" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Const_CutAroundVertSetsParams</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ada9953745c778a7592743e4975916b12" prot="protected" virt="virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ac3d7bf1fa966ee32671db01fda96c7ca" prot="public" virt="virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ae37965a9dd43144d6e807a830011591e" prot="public" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>distance</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1aa5878e3a3d9dfed729481eddcebbe2cd" prot="public" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>gap</name></member>
+      <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a6ac6e44446db293f0691479e0f766385" prot="private" virt="non-virtual"><scope>MR::Const_CutAroundVertSetsParams</scope><name>~Const_CutAroundVertSetsParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,10 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1McpSettings.html#aabd7ee51a26a87628235c65f55010021":[9,0,1,0,1,23,5],
+"namespaceMR_1_1McpSettings.html#ab767d0637775e980afcc3ab39cd9fc16":[9,0,1,0,1,23,6],
+"namespaceMR_1_1McpSettings.html#ae113c4a8d7ac3b45e348fefa7573b57b":[9,0,1,0,1,23,7],
+"namespaceMR_1_1Mcp_1_1Schema.html":[9,0,1,0,1,21,0],
+"namespaceMR_1_1MeshBuilder.html":[9,0,0,20,13],
 "namespaceMR_1_1MeshComponents.html":[9,0,1,0,1,25],
 "namespaceMR_1_1MeshLoad.html":[9,0,0,2,10,0],
 "namespaceMR_1_1MeshLoad.html":[9,0,0,20,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceWasm.html#a8fcf46baef17e780656f368b02733012":[9,0,1,0,3,9],
 "namespaceWasm.html#aacfb315c0db2d2b7e53cdc1d52ecfd03":[9,0,1,0,3,10],
 "namespaceWasm.html#addc62d9e0722d3324e1f25bced9f48b2":[9,0,1,0,3,14],
-"namespacemembers.html":[9,0,1,1,0],
-"namespacemembers.html":[9,0,1,1,0,0],
-"namespacemembers_b.html":[9,0,1,1,0,1],
-"namespacemembers_c.html":[9,0,1,1,0,2],
-"namespacemembers_d.html":[9,0,1,1,0,3],
-"namespacemembers_e.html":[9,0,1,1,0,4]
+"namespacemembers.html":[9,0,1,1,0]
 };

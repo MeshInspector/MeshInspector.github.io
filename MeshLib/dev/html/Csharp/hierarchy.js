@@ -702,6 +702,9 @@ var hierarchy =
       [ "MR.Const_CurvePoint", "classMR_1_1Const__CurvePoint.html", [
         [ "MR.CurvePoint", "classMR_1_1CurvePoint.html", null ]
       ] ],
+      [ "MR.Const_CutAroundVertSetsParams", "classMR_1_1Const__CutAroundVertSetsParams.html", [
+        [ "MR.CutAroundVertSetsParams", "classMR_1_1CutAroundVertSetsParams.html", null ]
+      ] ],
       [ "MR.Const_CutByProjectionSettings", "classMR_1_1Const__CutByProjectionSettings.html", [
         [ "MR.CutByProjectionSettings", "classMR_1_1CutByProjectionSettings.html", null ]
       ] ],
@@ -3822,6 +3825,7 @@ var hierarchy =
       [ "MR.Const_CubicBezierCurve3f", "classMR_1_1Const__CubicBezierCurve3f.html", null ],
       [ "MR.Const_CurveFunc", "classMR_1_1Const__CurveFunc.html", null ],
       [ "MR.Const_CurvePoint", "classMR_1_1Const__CurvePoint.html", null ],
+      [ "MR.Const_CutAroundVertSetsParams", "classMR_1_1Const__CutAroundVertSetsParams.html", null ],
       [ "MR.Const_CutByProjectionSettings", "classMR_1_1Const__CutByProjectionSettings.html", null ],
       [ "MR.Const_CutMeshParameters", "classMR_1_1Const__CutMeshParameters.html", null ],
       [ "MR.Const_CutMeshResult", "classMR_1_1Const__CutMeshResult.html", null ],

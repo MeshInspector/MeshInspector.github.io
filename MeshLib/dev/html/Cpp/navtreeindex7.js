@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BitSet.html#a8295e25fd9e822feb28fec92eb1bbcfb":[9,0,0,3,3,33],
+"classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95":[9,0,0,3,3,9],
 "classMR_1_1BitSet.html#a85be34ba3bb731ce828ca21c67b1413c":[9,0,0,3,3,53],
 "classMR_1_1BitSet.html#a88d7cb003f37bb4ff177bf6082074305":[9,0,0,3,3,54],
 "classMR_1_1BitSet.html#a8b3601282d28190fc25476e611829852":[9,0,0,3,3,27],
@@ -38,7 +40,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1BitSet.html#afab07406cee38429e04894dd1de6f202":[9,0,0,3,3,4],
 "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a":[9,0,0,3,3,14],
 "classMR_1_1BitSet.html#afc982ba4c4d3131098dc2fd20f779177":[9,0,0,3,3,34],
-"classMR_1_1BoundarySelectionWidget.html":[9,0,0,20,616],
+"classMR_1_1BoundarySelectionWidget.html":[9,0,0,20,617],
 "classMR_1_1Buffer.html":[9,0,0,3,6],
 "classMR_1_1Buffer.html":[9,0,0,20,141],
 "classMR_1_1CNCMachineSettings.html":[9,0,0,20,173],
@@ -53,7 +55,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeActiveBoxAction.html#a7fdeabeadb9c2e89e83a34c52576dba3":[9,0,0,4,47,3],
 "classMR_1_1ChangeActiveBoxAction.html#a83fd8175728c350029784aa802749d90":[9,0,0,4,47,2],
 "classMR_1_1ChangeActiveBoxAction.html#a897d1a8335367c58278f3a6da3a6c59f":[9,0,0,4,47,0],
-"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[9,0,0,20,618],
+"classMR_1_1ChangeBoundarySelectionHistoryAction.html":[9,0,0,20,619],
 "classMR_1_1ChangeColoringType.html":[9,0,0,4,3],
 "classMR_1_1ChangeColoringType.html":[9,0,0,20,149],
 "classMR_1_1ChangeDualMarchingCubesAction.html":[9,0,0,4,46],
@@ -77,7 +79,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e":[9,0,0,4,45,1],
 "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0":[9,0,0,4,45,2],
 "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[9,0,0,4,45,3],
-"classMR_1_1ChangeLabelAction.html":[9,0,0,20,563],
+"classMR_1_1ChangeLabelAction.html":[9,0,0,20,564],
 "classMR_1_1ChangeLinesColorMapAction.html":[9,0,0,4,2],
 "classMR_1_1ChangeLinesColorMapAction.html":[9,0,0,20,148],
 "classMR_1_1ChangeMeshAction.html":[9,0,0,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1CircleObject.html#a71adcff077bd4cf5509cea361f0f96bb":[9,0,0,11,0,0,14],
 "classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917":[9,0,0,11,0,0,23],
 "classMR_1_1CircleObject.html#a93090fe220169d0ebb34d3fcc16425d5":[9,0,0,11,0,0,2],
-"classMR_1_1CircleObject.html#a991beec8b2a8e873d3c1325a07e90050":[9,0,0,11,0,0,5],
-"classMR_1_1CircleObject.html#aa13f61ce686ebbd95f164568642be551":[9,0,0,11,0,0,6],
-"classMR_1_1CircleObject.html#abec5f0f71f858d015c3d3f59b521962e":[9,0,0,11,0,0,3]
+"classMR_1_1CircleObject.html#a991beec8b2a8e873d3c1325a07e90050":[9,0,0,11,0,0,5]
 };

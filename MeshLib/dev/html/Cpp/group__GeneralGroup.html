@@ -397,6 +397,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings structurer for cutMeshByProjection function.  <a href="structMR_1_1CutByProjectionSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ACurvePoint" id="r_MR_3A_3ACurvePoint"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CurvePoint.html">MR::CurvePoint</a></td></tr>
 <tr class="memitem:MR_3A_3ACurveFunc" id="r_MR_3A_3ACurveFunc"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CurveFunc.html">MR::CurveFunc</a></td></tr>
+<tr class="memitem:MR_3A_3ACutAroundVertSetsParams" id="r_MR_3A_3ACutAroundVertSetsParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutAroundVertSetsParams.html">MR::CutAroundVertSetsParams</a></td></tr>
 <tr class="memitem:MR_3A_3ACylinder3_3C_20T_20_3E" id="r_MR_3A_3ACylinder3_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cylinder3.html">MR::Cylinder3&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ACylinder3Approximation_3C_20T_20_3E" id="r_MR_3A_3ACylinder3Approximation_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cylinder3Approximation.html">MR::Cylinder3Approximation&lt; T &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ACylinderObject" id="r_MR_3A_3ACylinderObject"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1CylinderObject.html">MR::CylinderObject</a></td></tr>
@@ -4247,6 +4248,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga166533c02408563549ca0992b30698d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates parallelepiped mesh with given min-corner <code class="param">base</code> and given directional vectors <code class="param">size</code>  <br /></td></tr>
 <tr class="memitem:ga12b2fab7216e05ecbedc177ac2924f68" id="r_ga12b2fab7216e05ecbedc177ac2924f68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12b2fab7216e05ecbedc177ac2924f68">MR::makeBoxMesh</a> (const Box3f &amp;box)</td></tr>
 <tr class="memdesc:ga12b2fab7216e05ecbedc177ac2924f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates mesh visualizing a box  <br /></td></tr>
+<tr class="memitem:gaabaabcfbb5c05b726326cccfb14062ac" id="r_gaabaabcfbb5c05b726326cccfb14062ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; FaceBitSet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaabaabcfbb5c05b726326cccfb14062ac">MR::cutAroundVertSets</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; VertBitSet &gt; &amp;vertSets, const <a class="el" href="structMR_1_1CutAroundVertSetsParams.html">CutAroundVertSetsParams</a> &amp;params, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:gae8304f9886b01726e0bfd8eae173d7bf" id="r_gae8304f9886b01726e0bfd8eae173d7bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8304f9886b01726e0bfd8eae173d7bf">MR::makeCylinder</a> (float radius=0.1f, float <a class="el" href="#gaf9d495c1655d813d553030485d00fea7">length</a>=1.0f, int resolution=16)</td></tr>
 <tr class="memdesc:gae8304f9886b01726e0bfd8eae173d7bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Z-looking.  <br /></td></tr>
 <tr class="memitem:ga9e9e32ceefb3721896bc40d630b35d68" id="r_ga9e9e32ceefb3721896bc40d630b35d68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9e9e32ceefb3721896bc40d630b35d68">MR::makeOpenCylinder</a> (float radius=1, float z1=-1, float z2=1, int numCircleSegments=16)</td></tr>
@@ -12117,6 +12119,9 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga7a92b6effeeb33d9c993fa589c5eff96"><td class="mdescLeft">&#160;</td><td class="mdescRight">curve given as a function: position along curve -&gt; point  <br /></td></tr>
 <tr class="memitem:ga21b99a5ca399c63ce98b634bf83fb7fb" id="r_ga21b99a5ca399c63ce98b634bf83fb7fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga21b99a5ca399c63ce98b634bf83fb7fb">MR::CurveFunc::totalLength</a> = 1.0f</td></tr>
 <tr class="memdesc:ga21b99a5ca399c63ce98b634bf83fb7fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">total length of the given curve  <br /></td></tr>
+<tr class="memitem:ga774d2942e99988822ff6e6764aca59a3" id="r_ga774d2942e99988822ff6e6764aca59a3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga774d2942e99988822ff6e6764aca59a3">MR::CutAroundVertSetsParams::distance</a> = 0</td></tr>
+<tr class="memdesc:ga774d2942e99988822ff6e6764aca59a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the mesh is cut along the isolines of surface distance equal to this value around each vertex set  <br /></td></tr>
+<tr class="memitem:ga00a86d77277d18dff9b4fa3f1744be9e" id="r_ga00a86d77277d18dff9b4fa3f1744be9e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga00a86d77277d18dff9b4fa3f1744be9e">MR::CutAroundVertSetsParams::gap</a> = 0</td></tr>
 <tr class="memitem:ga65afcbe0b70345dae107e699760f116d" id="r_ga65afcbe0b70345dae107e699760f116d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga7eef389e2e2dd24fc59576c7ad184eb5">Line3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga65afcbe0b70345dae107e699760f116d">MR::Cylinder3&lt; T &gt;::mainAxis</a></td></tr>
 <tr class="memitem:ga1badba33dd4c2e2d83af7d18fdb2e605" id="r_ga1badba33dd4c2e2d83af7d18fdb2e605"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1badba33dd4c2e2d83af7d18fdb2e605">MR::Cylinder3&lt; T &gt;::radius</a> = 0</td></tr>
 <tr class="memitem:ga49761af205e8affe422e2ff23a49935b" id="r_ga49761af205e8affe422e2ff23a49935b"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49761af205e8affe422e2ff23a49935b">MR::Cylinder3&lt; T &gt;::length</a> = 0</td></tr>
@@ -53587,6 +53592,48 @@ template&lt;typename V&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRContoursStitch_8h.html">MRMesh/MRContoursStitch.h</a>&gt;</code></p>
 <p>given a closed loop of edges, splits the surface along that loop so that after return: 1) returned loop has the same size as input, with corresponding edges in same indexed elements of both; 2) all edges of c0 have no left faces; 3) all returned edges have no right faces; </p>
+
+</div>
+</div>
+<a id="gaabaabcfbb5c05b726326cccfb14062ac" name="gaabaabcfbb5c05b726326cccfb14062ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaabaabcfbb5c05b726326cccfb14062ac">&#9670;&#160;</a></span>cutAroundVertSets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; FaceBitSet &gt; &gt; MR::cutAroundVertSets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; VertBitSet &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>vertSets</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CutAroundVertSetsParams.html">CutAroundVertSetsParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCutAroundVertSets_8h.html">MRMesh/MRCutAroundVertSets.h</a>&gt;</code></p>
+<p>computes surface distance field around each vertex set up to (distance + gap), scales any two fields to be separated by gap, and cuts the mesh along isolines of each field at given distance; no two vertex sets may share a vertex; edges with both ends in one set are not cut and keep their ids; </p><dl class="section return"><dt>Returns</dt><dd>the region of each vertex set (triangles with distance &lt;= params.distance) in the modified mesh </dd></dl>
 
 </div>
 </div>
@@ -211987,8 +212034,24 @@ template&lt;class T&gt; </div>
 
 </div>
 </div>
+<a id="ga774d2942e99988822ff6e6764aca59a3" name="ga774d2942e99988822ff6e6764aca59a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga774d2942e99988822ff6e6764aca59a3">&#9670;&#160;</a></span>distance <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::CutAroundVertSetsParams::distance = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the mesh is cut along the isolines of surface distance equal to this value around each vertex set </p>
+
+</div>
+</div>
 <a id="ga618a5c8cc475ae385a15f69aa6316d10" name="ga618a5c8cc475ae385a15f69aa6316d10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga618a5c8cc475ae385a15f69aa6316d10">&#9670;&#160;</a></span>distance <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga618a5c8cc475ae385a15f69aa6316d10">&#9670;&#160;</a></span>distance <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212004,7 +212067,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="gabc2ecf316c1affc7c259c7b438753dbb" name="gabc2ecf316c1affc7c259c7b438753dbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc2ecf316c1affc7c259c7b438753dbb">&#9670;&#160;</a></span>distance <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc2ecf316c1affc7c259c7b438753dbb">&#9670;&#160;</a></span>distance <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212020,7 +212083,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="ga010165bed75fd690071dbe15b50f8c58" name="ga010165bed75fd690071dbe15b50f8c58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga010165bed75fd690071dbe15b50f8c58">&#9670;&#160;</a></span>distance <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga010165bed75fd690071dbe15b50f8c58">&#9670;&#160;</a></span>distance <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215809,6 +215872,21 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... </p>
+
+</div>
+</div>
+<a id="ga00a86d77277d18dff9b4fa3f1744be9e" name="ga00a86d77277d18dff9b4fa3f1744be9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga00a86d77277d18dff9b4fa3f1744be9e">&#9670;&#160;</a></span>gap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::CutAroundVertSetsParams::gap = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide </p>
 
 </div>
 </div>

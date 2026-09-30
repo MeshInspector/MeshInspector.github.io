@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCutAroundVertSets_8h" kind="file" language="C++">
+    <compoundname>MRCutAroundVertSets.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCutAroundVertSets.h</label>
+        <link refid="MRCutAroundVertSets_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" prot="public" static="no">
+        <type>struct <ref refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kindref="member">MR_expected_std_vector_MR_FaceBitSet_std_string</ref></type>
+        <definition>typedef struct MR_expected_std_vector_MR_FaceBitSet_std_string MR_expected_std_vector_MR_FaceBitSet_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_std_vector_MR_FaceBitSet_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores either a <computeroutput>std::vector&lt;MR::FaceBitSet&gt;</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="12" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" prot="public" static="no">
+        <type>struct <ref refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_std_vector_MR_VertBitSet MR_std_vector_MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::VertBitSet&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="14" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" prot="public" static="no">
+        <type>struct <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref></type>
+        <definition>typedef struct MR_CutAroundVertSetsParams MR_CutAroundVertSetsParams</definition>
+        <argsstring></argsstring>
+        <name>MR_CutAroundVertSetsParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::CutAroundVertSetsParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="19" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a9fefac6ce04933d43cc0681e2db97a4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_CutAroundVertSetsParams_Get_distance</definition>
+        <argsstring>(const MR_CutAroundVertSetsParams *_this)</argsstring>
+        <name>MR_CutAroundVertSetsParams_Get_distance</name>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the mesh is cut along the isolines of surface distance equal to this value around each vertex set Returns a pointer to a member variable of class <computeroutput>MR::CutAroundVertSetsParams</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="26" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1af79f0b737d75377669c39900ef0570e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CutAroundVertSetsParams_Set_distance</definition>
+        <argsstring>(MR_CutAroundVertSetsParams *_this, float value)</argsstring>
+        <name>MR_CutAroundVertSetsParams_Set_distance</name>
+        <param>
+          <type><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the mesh is cut along the isolines of surface distance equal to this value around each vertex set Modifies a member variable of class <computeroutput>MR::CutAroundVertSetsParams</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>distance</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="32" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a45111b7dcb54a0c93dd510a3c0c1f06f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_CutAroundVertSetsParams_GetMutable_distance</definition>
+        <argsstring>(MR_CutAroundVertSetsParams *_this)</argsstring>
+        <name>MR_CutAroundVertSetsParams_GetMutable_distance</name>
+        <param>
+          <type><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the mesh is cut along the isolines of surface distance equal to this value around each vertex set Returns a mutable pointer to a member variable of class <computeroutput>MR::CutAroundVertSetsParams</computeroutput> named <computeroutput>distance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="39" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="39" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a5960d62f4b8e483c1b3cf72f2f63d402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_CutAroundVertSetsParams_Get_gap</definition>
+        <argsstring>(const MR_CutAroundVertSetsParams *_this)</argsstring>
+        <name>MR_CutAroundVertSetsParams_Get_gap</name>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide Returns a pointer to a member variable of class <computeroutput>MR::CutAroundVertSetsParams</computeroutput> named <computeroutput>gap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="50" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a5cb9074089698ab8494f0b8d26039cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CutAroundVertSetsParams_Set_gap</definition>
+        <argsstring>(MR_CutAroundVertSetsParams *_this, float value)</argsstring>
+        <name>MR_CutAroundVertSetsParams_Set_gap</name>
+        <param>
+          <type><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide Modifies a member variable of class <computeroutput>MR::CutAroundVertSetsParams</computeroutput> named <computeroutput>gap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>gap</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="60" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a0871671a090845162f5bb34de7a513d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_CutAroundVertSetsParams_GetMutable_gap</definition>
+        <argsstring>(MR_CutAroundVertSetsParams *_this)</argsstring>
+        <name>MR_CutAroundVertSetsParams_GetMutable_gap</name>
+        <param>
+          <type><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide Returns a mutable pointer to a member variable of class <computeroutput>MR::CutAroundVertSetsParams</computeroutput> named <computeroutput>gap</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="71" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="71" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a5becfdd332142f42baecc4afe94cc417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CutAroundVertSetsParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" kindref="member">MR_CutAroundVertSetsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="75" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="75" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a5602beab48a6d15409c96e9df157d3de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CutAroundVertSetsParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRCutAroundVertSets_8h_1a125883c4d629baad5b3d25c68120398c" kindref="member">MR_CutAroundVertSetsParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRCutAroundVertSets_8h_1a539cd59497efb6944ceaaa9b23fd296f" kindref="member">MR_CutAroundVertSetsParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRCutAroundVertSets_8h_1a3b361a4ce87e14b3c50fc63beabbed8a" kindref="member">MR_CutAroundVertSetsParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="80" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="80" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a6729b476f8f3929b25ba4be86af7dc46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_ConstructFrom</definition>
+        <argsstring>(float distance, float gap)</argsstring>
+        <name>MR_CutAroundVertSetsParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::CutAroundVertSetsParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" kindref="member">MR_CutAroundVertSetsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="85" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="85" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a3b361a4ce87e14b3c50fc63beabbed8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API const MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_OffsetPtr</definition>
+        <argsstring>(const MR_CutAroundVertSetsParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CutAroundVertSetsParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="89" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="89" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a539cd59497efb6944ceaaa9b23fd296f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_CutAroundVertSetsParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CutAroundVertSetsParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="93" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="93" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a6491054679aed770c97e61e30e720040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_CutAroundVertSetsParams *_other)</argsstring>
+        <name>MR_CutAroundVertSetsParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CutAroundVertSetsParams::CutAroundVertSetsParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" kindref="member">MR_CutAroundVertSetsParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="99" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="99" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CutAroundVertSetsParams_Destroy</definition>
+        <argsstring>(const MR_CutAroundVertSetsParams *_this)</argsstring>
+        <name>MR_CutAroundVertSetsParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a125883c4d629baad5b3d25c68120398c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_CutAroundVertSetsParams_DestroyArray</definition>
+        <argsstring>(const MR_CutAroundVertSetsParams *_this)</argsstring>
+        <name>MR_CutAroundVertSetsParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="105" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a9a0020ead18d60df0a9f14c3b36a1c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+        <definition>MRC_API MR_CutAroundVertSetsParams * MR_CutAroundVertSetsParams_AssignFromAnother</definition>
+        <argsstring>(MR_CutAroundVertSetsParams *_this, const MR_CutAroundVertSetsParams *_other)</argsstring>
+        <name>MR_CutAroundVertSetsParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CutAroundVertSetsParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="113" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="113" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCutAroundVertSets_8h_1a38dab2609eee6dab160234c4dfa3545e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kindref="member">MR_expected_std_vector_MR_FaceBitSet_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_MR_FaceBitSet_std_string * MR_cutAroundVertSets</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_std_vector_MR_VertBitSet *vertSets, const MR_CutAroundVertSetsParams *params, const MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_cutAroundVertSets</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref> *</type>
+          <declname>vertSets</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes surface distance field around each vertex set up to (distance + gap), scales any two fields to be separated by gap, and cuts the mesh along isolines of each field at given distance; no two vertex sets may share a vertex; edges with both ends in one set are not cut and keep their ids; <simplesect kind="return"><para>the region of each vertex set (triangles with distance &lt;= params.distance) in the modified mesh Generated from function <computeroutput>MR::cutAroundVertSets</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>vertSets</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__FaceBitSet__std__string_8h_1a1a7bbf48e3dfa4dcabd053f9e3aab40b" kindref="member">MR_expected_std_vector_MR_FaceBitSet_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" line="126" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h" declline="126" declcolumn="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kindref="member">MR_expected_std_vector_MR_FaceBitSet_std_string</ref><sp/><ref refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kindref="member">MR_expected_std_vector_MR_FaceBitSet_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_std_vector_MR_FaceBitSet_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/><ref refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRCutAroundVertSets_8h_1a9fefac6ce04933d43cc0681e2db97a4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCutAroundVertSets_8h_1a9fefac6ce04933d43cc0681e2db97a4b" kindref="member">MR_CutAroundVertSetsParams_Get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRCutAroundVertSets_8h_1af79f0b737d75377669c39900ef0570e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1af79f0b737d75377669c39900ef0570e2" kindref="member">MR_CutAroundVertSetsParams_Set_distance</ref>(<ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRCutAroundVertSets_8h_1a45111b7dcb54a0c93dd510a3c0c1f06f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCutAroundVertSets_8h_1a45111b7dcb54a0c93dd510a3c0c1f06f" kindref="member">MR_CutAroundVertSetsParams_GetMutable_distance</ref>(<ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRCutAroundVertSets_8h_1a5960d62f4b8e483c1b3cf72f2f63d402" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCutAroundVertSets_8h_1a5960d62f4b8e483c1b3cf72f2f63d402" kindref="member">MR_CutAroundVertSetsParams_Get_gap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRCutAroundVertSets_8h_1a5cb9074089698ab8494f0b8d26039cdb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1a5cb9074089698ab8494f0b8d26039cdb" kindref="member">MR_CutAroundVertSetsParams_Set_gap</ref>(<ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRCutAroundVertSets_8h_1a0871671a090845162f5bb34de7a513d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRCutAroundVertSets_8h_1a0871671a090845162f5bb34de7a513d4" kindref="member">MR_CutAroundVertSetsParams_GetMutable_gap</ref>(<ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRCutAroundVertSets_8h_1a5becfdd332142f42baecc4afe94cc417" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a5becfdd332142f42baecc4afe94cc417" kindref="member">MR_CutAroundVertSetsParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRCutAroundVertSets_8h_1a5602beab48a6d15409c96e9df157d3de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a5602beab48a6d15409c96e9df157d3de" kindref="member">MR_CutAroundVertSetsParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRCutAroundVertSets_8h_1a6729b476f8f3929b25ba4be86af7dc46" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a6729b476f8f3929b25ba4be86af7dc46" kindref="member">MR_CutAroundVertSetsParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distance,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>gap);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRCutAroundVertSets_8h_1a3b361a4ce87e14b3c50fc63beabbed8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a3b361a4ce87e14b3c50fc63beabbed8a" kindref="member">MR_CutAroundVertSetsParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRCutAroundVertSets_8h_1a539cd59497efb6944ceaaa9b23fd296f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a539cd59497efb6944ceaaa9b23fd296f" kindref="member">MR_CutAroundVertSetsParams_OffsetMutablePtr</ref>(<ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRCutAroundVertSets_8h_1a6491054679aed770c97e61e30e720040" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a6491054679aed770c97e61e30e720040" kindref="member">MR_CutAroundVertSetsParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" kindref="member">MR_CutAroundVertSetsParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRCutAroundVertSets_8h_1a125883c4d629baad5b3d25c68120398c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1a125883c4d629baad5b3d25c68120398c" kindref="member">MR_CutAroundVertSetsParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="MRCutAroundVertSets_8h_1a9a0020ead18d60df0a9f14c3b36a1c96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a9a0020ead18d60df0a9f14c3b36a1c96" kindref="member">MR_CutAroundVertSetsParams_AssignFromAnother</ref>(<ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRCutAroundVertSets_8h_1a38dab2609eee6dab160234c4dfa3545e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kindref="member">MR_expected_std_vector_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRCutAroundVertSets_8h_1a38dab2609eee6dab160234c4dfa3545e" kindref="member">MR_cutAroundVertSets</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kindref="member">MR_std_vector_MR_VertBitSet</ref><sp/>*vertSets,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kindref="member">MR_CutAroundVertSetsParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCutAroundVertSets.h"/>
+  </compounddef>
+</doxygen>

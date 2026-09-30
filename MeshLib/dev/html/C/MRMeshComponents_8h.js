@@ -11,7 +11,6 @@ var MRMeshComponents_8h =
     [ "MR_std_pair_std_vector_MR_FaceBitSet_int", "MRMeshComponents_8h.html#a8627fb6dcfa429e140269bee7c3de08f", null ],
     [ "MR_std_vector_MR_EdgeBitSet", "MRMeshComponents_8h.html#af889488c447569938ce6b021d200e919", null ],
     [ "MR_std_vector_MR_UndirectedEdgeBitSet", "MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e", null ],
-    [ "MR_std_vector_MR_VertBitSet", "MRMeshComponents_8h.html#ad4db865f7b80a8d7441c084aaf087d1f", null ],
     [ "MR_UnionFind_MR_UndirectedEdgeId", "MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d", null ],
     [ "MR_UnionFind_MR_VertId", "MRMeshComponents_8h.html#aae1af1886c1d727925eb39e88e0dfdf9", null ],
     [ "MR_Vector_double_MR_RegionId", "MRMeshComponents_8h.html#a06306831ace9e501baac05adb1b1eea3", null ],

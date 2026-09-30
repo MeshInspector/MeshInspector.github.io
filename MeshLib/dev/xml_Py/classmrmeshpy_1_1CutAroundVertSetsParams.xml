@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CutAroundVertSetsParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CutAroundVertSetsParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CutAroundVertSetsParams_1aa45824063292000dc1f921da0fd73c8b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CutAroundVertSetsParams::_offsetof_distance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distance</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams._offsetof_distance</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a8f81eb841783234dc7cf4cabc562479f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CutAroundVertSetsParams::_offsetof_gap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gap</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams._offsetof_gap</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13710" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a7d8fd1222cbed07a802933160b7ab5fb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutAroundVertSetsParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13713" bodyend="13714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1ad1f3fff0822cc578099b53d0f7a92c09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CutAroundVertSetsParams" kindref="compound">CutAroundVertSetsParams</ref></type>
+        <definition> CutAroundVertSetsParams mrmeshpy.CutAroundVertSetsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13717" bodyend="13718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1ad1f3fff0822cc578099b53d0f7a92c09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CutAroundVertSetsParams" kindref="compound">CutAroundVertSetsParams</ref></type>
+        <definition> CutAroundVertSetsParams mrmeshpy.CutAroundVertSetsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13721" bodyend="13722"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a8125383309b220398ed2bbb22719e78f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutAroundVertSetsParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13724" bodyend="13725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1aa671bfb8e9d1f7e2155276b9a5af03ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutAroundVertSetsParams.__init__</definition>
+        <argsstring>(self, CutAroundVertSetsParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CutAroundVertSetsParams" kindref="compound">CutAroundVertSetsParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13727" bodyend="13730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1ac75f2e58436a10742cf986a8d15109cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutAroundVertSetsParams.__init__</definition>
+        <argsstring>(self, float distance, float gap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13732" bodyend="13735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a771dca7063c060a9ed37aa1a19c3ab94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CutAroundVertSetsParams.distance</definition>
+        <argsstring>(self)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the mesh is cut along the isolines of surface distance equal to this value around each vertex set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13737" bodyend="13740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a94df39bfda3ccb9c28cb7440dda7772c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutAroundVertSetsParams.distance</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13742" bodyend="13743"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a11a48cc8286b987118ce19094a8a0525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.CutAroundVertSetsParams.gap</definition>
+        <argsstring>(self)</argsstring>
+        <name>gap</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.gap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap):
+in the vertices where the sum of two distance fields is less than (2*distance + gap),
+both values are scaled proportionally to make the sum exactly (2*distance + gap);
+so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap);
+must be positive, otherwise the isolines of two close sets coincide
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13745" bodyend="13752"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CutAroundVertSetsParams_1a2a04c4dc08234c13cbc5b76e712dff38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CutAroundVertSetsParams.gap</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>gap</name>
+        <qualifiedname>mrmeshpy.CutAroundVertSetsParams.gap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13754" bodyend="13755"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CutAroundVertSetsParams
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13705" bodyend="13755"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a7d8fd1222cbed07a802933160b7ab5fb" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a8125383309b220398ed2bbb22719e78f" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1aa671bfb8e9d1f7e2155276b9a5af03ba" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1ac75f2e58436a10742cf986a8d15109cf" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1aa45824063292000dc1f921da0fd73c8b" prot="protected" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>_offsetof_distance</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a8f81eb841783234dc7cf4cabc562479f" prot="protected" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>_offsetof_gap</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a771dca7063c060a9ed37aa1a19c3ab94" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a94df39bfda3ccb9c28cb7440dda7772c" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a11a48cc8286b987118ce19094a8a0525" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>gap</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1a2a04c4dc08234c13cbc5b76e712dff38" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>gap</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1ad1f3fff0822cc578099b53d0f7a92c09" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CutAroundVertSetsParams_1ad1f3fff0822cc578099b53d0f7a92c09" prot="public" virt="non-virtual"><scope>mrmeshpy::CutAroundVertSetsParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

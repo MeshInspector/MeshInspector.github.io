@@ -12249,6 +12249,26 @@
     <member refid="classMR_1_1Const__CurvePoint_1a13159657075b2ded455978b38f4a36ad" kind="function"><name>__MR_CurvePoint_Get_pos</name></member>
     <member refid="classMR_1_1Const__CurvePoint_1abf95ee29cda4414789b94fd982bce212" kind="function"><name>__MR_CurvePoint_Get_snorm</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__CutAroundVertSetsParams" kind="class"><name>MR::Const_CutAroundVertSetsParams</name>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ae37965a9dd43144d6e807a830011591e" kind="property"><name>distance</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1aa5878e3a3d9dfed729481eddcebbe2cd" kind="property"><name>gap</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ad07adc5adf92b1e6a3aa5b294c2c3a68" kind="variable"><name>__ref_storage_distance</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ab8059f40e3334fc607e04803a317a7d6" kind="variable"><name>__ref_storage_gap</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ada9953745c778a7592743e4975916b12" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ac3d7bf1fa966ee32671db01fda96c7ca" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1abdebeae64c50c99ca49176d5c33e4f9f" kind="function"><name>Const_CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a4c17b81edd9fe11c2e1fbafcd3be0ee1" kind="function"><name>Const_CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ab1d792a18fab1792e6753964fbcc4a1c" kind="function"><name>Const_CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1ae5df3291e76b3ccf5070078c699697d6" kind="function"><name>Const_CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a6ac6e44446db293f0691479e0f766385" kind="function"><name>~Const_CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a434d161667d9aebaacb313ec75cee240" kind="function"><name>Const_CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a66b5c7a4a8c54c539773de3b82a5be9e" kind="function"><name>__MR_CutAroundVertSetsParams_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a1d371143e072b4c83a5894a88af76ada" kind="function"><name>__MR_CutAroundVertSetsParams_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a4e5c07bc179cd380b07b943db886cb3f" kind="function"><name>__MR_CutAroundVertSetsParams_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a53f76f9da7060883afa620f3a575ceb3" kind="function"><name>__MR_CutAroundVertSetsParams_Destroy</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1abd35ae79a647791b8e98148aa29d1a9d" kind="function"><name>__MR_CutAroundVertSetsParams_Get_distance</name></member>
+    <member refid="classMR_1_1Const__CutAroundVertSetsParams_1a701dc1d6d98388a3181a5bff02d0d943" kind="function"><name>__MR_CutAroundVertSetsParams_Get_gap</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__CutByProjectionSettings" kind="class"><name>MR::Const_CutByProjectionSettings</name>
     <member refid="classMR_1_1Const__CutByProjectionSettings_1a09fe00c5ef7f1cd4270c284fdfe4f4bb" kind="property"><name>direction</name></member>
     <member refid="classMR_1_1Const__CutByProjectionSettings_1a5df7526cb9a8ae23e9dcf5fefdce53a5" kind="property"><name>cont2mesh</name></member>
@@ -43285,6 +43305,20 @@
     <member refid="classMR_1_1CurvePoint_1ab826b4de5c526c9f04baf5f3af1f8383" kind="function"><name>__MR_CurvePoint_ConstructFromAnother</name></member>
     <member refid="classMR_1_1CurvePoint_1a5e5a3c627e2b794b65f854438bb9433a" kind="function"><name>__MR_CurvePoint_DefaultConstruct</name></member>
   </compound>
+  <compound refid="classMR_1_1CutAroundVertSetsParams" kind="class"><name>MR::CutAroundVertSetsParams</name>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a60ff4d5fabbdff6bb25002179461cf48" kind="property"><name>distance</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1acdb1ab600ddf0d6104729ea705858e8b" kind="property"><name>gap</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1acffa048cc976d7c1f26a51e94b941c77" kind="function"><name>CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a4717c7cd8183cacef60339b1ce07614f" kind="function"><name>CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a9b5297aac791de7c9f51d540fed817d4" kind="function"><name>CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a1fa9e2ba0c93f89cb476cd1d3ab1a7be" kind="function"><name>CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1abb66b722feac6bba4e20ae80cfa7d74e" kind="function"><name>CutAroundVertSetsParams</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a6652cd4839e753d98ad1850a5daecaba" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1acbcbefee72ae79a13827f9a255ddc4ea" kind="function"><name>__MR_CutAroundVertSetsParams_AssignFromAnother</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a319afedf7a30e4355f5b82ab8dab26e5" kind="function"><name>__MR_CutAroundVertSetsParams_ConstructFrom</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1ad5f125c0b089b9243833a228da8b74ff" kind="function"><name>__MR_CutAroundVertSetsParams_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1CutAroundVertSetsParams_1a67f9b994a8d8509a9a7e28d3b53f6c7e" kind="function"><name>__MR_CutAroundVertSetsParams_DefaultConstruct</name></member>
+  </compound>
   <compound refid="classMR_1_1CutByProjectionSettings" kind="class"><name>MR::CutByProjectionSettings</name>
     <member refid="classMR_1_1CutByProjectionSettings_1af4530181b0b21c811a0cca7106f3c0e1" kind="property"><name>direction</name></member>
     <member refid="classMR_1_1CutByProjectionSettings_1a920e5c5498135589ee86466cc9f5d9fb" kind="property"><name>cont2mesh</name></member>
@@ -51837,6 +51871,7 @@
     <member refid="classMR_1a8fe1281a3c71e131dc209e3c1ef35677" kind="function"><name>makeCube</name></member>
     <member refid="classMR_1af6bc668ec5765b0c9dd0c521877e1119" kind="function"><name>makeParallelepiped</name></member>
     <member refid="classMR_1a34b4c2a422277c1b723a8d77ce26cfde" kind="function"><name>makeBoxMesh</name></member>
+    <member refid="classMR_1a9fad7fff26df73772a11771bd7633cb2" kind="function"><name>cutAroundVertSets</name></member>
     <member refid="classMR_1aba9773a5df9ecf18755eafb4544d02ec" kind="function"><name>makeCylinder</name></member>
     <member refid="classMR_1a12ecc39c264674d24c55d5094eee0d9a" kind="function"><name>makeOpenCylinder</name></member>
     <member refid="classMR_1af740a35b13d90312f7e8cb34c9cea2eb" kind="function"><name>makeOpenCone</name></member>
@@ -53660,6 +53695,7 @@
     <member refid="classMR_1a3bd295913ca3d7b6f74409e21a808b29" kind="function"><name>__MR_makeCube</name></member>
     <member refid="classMR_1a7017dedd2620a05d9a241543e4587758" kind="function"><name>__MR_makeCubeTopology</name></member>
     <member refid="classMR_1aaff173bdbfdd9c5b8d43238c20763a72" kind="function"><name>__MR_makeParallelepiped</name></member>
+    <member refid="classMR_1a45ea29518d2e90237d06d42dbb01014d" kind="function"><name>__MR_cutAroundVertSets</name></member>
     <member refid="classMR_1a0e105c3afc544cbaae35ebcd03985185" kind="function"><name>__MR_makeCone</name></member>
     <member refid="classMR_1ada1993d7a7f32fbf4601ad0d5d0e868d" kind="function"><name>__MR_makeCylinder</name></member>
     <member refid="classMR_1a378b0d8ece9997029ec5cd2480024838" kind="function"><name>__MR_makeCylinderAdvanced</name></member>
@@ -70673,6 +70709,8 @@
   <compound refid="MRCube_8cs" kind="file"><name>MRCube.cs</name>
   </compound>
   <compound refid="MRCurve_8cs" kind="file"><name>MRCurve.cs</name>
+  </compound>
+  <compound refid="MRCutAroundVertSets_8cs" kind="file"><name>MRCutAroundVertSets.cs</name>
   </compound>
   <compound refid="MRCylinder_8cs" kind="file"><name>MRCylinder.cs</name>
   </compound>

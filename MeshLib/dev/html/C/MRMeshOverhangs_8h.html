@@ -152,7 +152,6 @@ $(function(){initNavTree('MRMeshOverhangs_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a1b1abbd2bb9a00492f7da1010eee6c21" id="r_a1b1abbd2bb9a00492f7da1010eee6c21"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a></td></tr>
 <tr class="memitem:ad61d6c00ae6daaf30097ffaca3c8c9c2" id="r_ad61d6c00ae6daaf30097ffaca3c8c9c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -186,25 +185,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ae6d2f730eba062244d1fc576f074716c" id="r_ae6d2f730eba062244d1fc576f074716c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d2f730eba062244d1fc576f074716c">MR_FindOverhangsSettings_DestroyArray</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
 <tr class="memdesc:ae6d2f730eba062244d1fc576f074716c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a42cad8e94a73230306eda89acd723646" id="r_a42cad8e94a73230306eda89acd723646"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42cad8e94a73230306eda89acd723646">MR_FindOverhangsSettings_AssignFromAnother</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_other)</td></tr>
-<tr class="memitem:a30f926307f58d8adde041658e60debcf" id="r_a30f926307f58d8adde041658e60debcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f926307f58d8adde041658e60debcf">MR_findOverhangs</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *settings)</td></tr>
+<tr class="memitem:a30f926307f58d8adde041658e60debcf" id="r_a30f926307f58d8adde041658e60debcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCutAroundVertSets_8h.html#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f926307f58d8adde041658e60debcf">MR_findOverhangs</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *settings)</td></tr>
 <tr class="memdesc:a30f926307f58d8adde041658e60debcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find face regions that might create overhangs.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a1b1abbd2bb9a00492f7da1010eee6c21" name="a1b1abbd2bb9a00492f7da1010eee6c21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b1abbd2bb9a00492f7da1010eee6c21">&#9670;&#160;</a></span>MR_expected_std_vector_MR_FaceBitSet_std_string</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Stores either a <span class="tt">std::vector&lt;MR::FaceBitSet&gt;</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
 <a id="ad61d6c00ae6daaf30097ffaca3c8c9c2" name="ad61d6c00ae6daaf30097ffaca3c8c9c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">&#9670;&#160;</a></span>MR_FindOverhangsSettings</h2>
 
@@ -228,7 +212,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> * MR_findOverhangs </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCutAroundVertSets_8h.html#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> * MR_findOverhangs </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>

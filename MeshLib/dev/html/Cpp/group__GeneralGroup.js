@@ -1169,6 +1169,10 @@ var group__GeneralGroup =
       [ "func", "group__GeneralGroup.html#ga7a92b6effeeb33d9c993fa589c5eff96", null ],
       [ "totalLength", "group__GeneralGroup.html#ga21b99a5ca399c63ce98b634bf83fb7fb", null ]
     ] ],
+    [ "MR::CutAroundVertSetsParams", "structMR_1_1CutAroundVertSetsParams.html", [
+      [ "distance", "group__GeneralGroup.html#ga774d2942e99988822ff6e6764aca59a3", null ],
+      [ "gap", "group__GeneralGroup.html#ga00a86d77277d18dff9b4fa3f1744be9e", null ]
+    ] ],
     [ "MR::Cylinder3< T >", "classMR_1_1Cylinder3.html", [
       [ "Cylinder3", "group__GeneralGroup.html#ga2724ae87e66c30b14b9c64852d404fb4", null ],
       [ "Cylinder3", "group__GeneralGroup.html#ga207b6871fc0227d093441a7c12305b89", null ],
@@ -11546,6 +11550,7 @@ var group__GeneralGroup =
     [ "MR::RibbonButtonDrawer::CustomCollapsingHeader", "group__GeneralGroup.html#ga5b4295b0fc51e4c88cd77286de65e4af", null ],
     [ "MR::cutAlongEdgeLoop", "group__GeneralGroup.html#ga94992ac4ac435a830f6ae3bd1c62cd60", null ],
     [ "MR::cutAlongEdgeLoop", "group__GeneralGroup.html#ga800a7215f19eb459e13c87d65a08d34d", null ],
+    [ "MR::cutAroundVertSets", "group__GeneralGroup.html#gaabaabcfbb5c05b726326cccfb14062ac", null ],
     [ "MR::cutMeshByContour", "group__GeneralGroup.html#gaf5b396c08011572eef5659ca9b84f37a", null ],
     [ "MR::cutMeshByContours", "group__GeneralGroup.html#ga8471f2a87338254b2c1d8a0790776f0e", null ],
     [ "MR::cutMeshByProjection", "group__GeneralGroup.html#ga66c0157a15c650c2df28de17df4c485c", null ],
@@ -17289,6 +17294,7 @@ var group__GeneralGroup =
     [ "MR::PointAndDistance::dist", "group__GeneralGroup.html#ga95a6c6e03ea27af92edfb720b51eb6cc", null ],
     [ "MR::PolylineToVolumeParams::dist", "group__GeneralGroup.html#ga000c468f653f412dd5e5110354c49d7b", null ],
     [ "MR::SpacingSettings::dist", "group__GeneralGroup.html#ga49adf144c8f1f64aafce1e6927f03dc0", null ],
+    [ "MR::CutAroundVertSetsParams::distance", "group__GeneralGroup.html#ga774d2942e99988822ff6e6764aca59a3", null ],
     [ "MR::Features::MeasureResult::distance", "group__GeneralGroup.html#ga618a5c8cc475ae385a15f69aa6316d10", null ],
     [ "MR::Features::MeasureResult::Distance::distance", "group__GeneralGroup.html#gabc2ecf316c1affc7c259c7b438753dbb", null ],
     [ "MR::UniformSamplingSettings::distance", "group__GeneralGroup.html#ga010165bed75fd690071dbe15b50f8c58", null ],
@@ -17516,6 +17522,7 @@ var group__GeneralGroup =
     [ "MR::Color::g", "group__GeneralGroup.html#ga88b7f7b16582811c68398fcb60488717", null ],
     [ "MR::DenoiseViaNormalsSettings::gamma", "group__GeneralGroup.html#gad5c55319dff328b55475f07390acd505", null ],
     [ "MR::DenoiseWithCreasesSettings::gamma", "group__GeneralGroup.html#ga3d33a7031078f565b34961a3e568362d", null ],
+    [ "MR::CutAroundVertSetsParams::gap", "group__GeneralGroup.html#ga00a86d77277d18dff9b4fa3f1744be9e", null ],
     [ "MR::ObjectGcode::gcodeChangedSignal", "group__GeneralGroup.html#gaf7ac54e95de2f8914777e833e1a83678", null ],
     [ "MR::SurfaceManipulationWidget::generalEditingRegion_", "group__GeneralGroup.html#gacc7693d8223133cb63b0540ec58107aa", null ],
     [ "MR::SearchPathSettings::geodesicPathApprox", "group__GeneralGroup.html#ga73e36cb0460a39c6bf496d2038aced39", null ],

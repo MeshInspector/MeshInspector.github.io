@@ -68,6 +68,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRConvexHull.h", "MRConvexHull_8h.html", "MRConvexHull_8h" ],
     [ "MRCube.h", "MRCube_8h.html", "MRCube_8h" ],
     [ "MRCurve.h", "MRCurve_8h.html", "MRCurve_8h" ],
+    [ "MRCutAroundVertSets.h", "MRCutAroundVertSets_8h.html", "MRCutAroundVertSets_8h" ],
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRCylinder3.h", "MRCylinder3_8h.html", "MRCylinder3_8h" ],
     [ "MRCylinderObject.h", "MRCylinderObject_8h.html", "MRCylinderObject_8h" ],

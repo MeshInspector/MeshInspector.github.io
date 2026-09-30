@@ -468,6 +468,7 @@ var annotated_dup =
       [ "CurveFunc", "structMR_1_1CurveFunc.html", "structMR_1_1CurveFunc" ],
       [ "CurvePoint", "structMR_1_1CurvePoint.html", "structMR_1_1CurvePoint" ],
       [ "CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", "structMR_1_1CustomButtonParameters" ],
+      [ "CutAroundVertSetsParams", "structMR_1_1CutAroundVertSetsParams.html", "structMR_1_1CutAroundVertSetsParams" ],
       [ "CutByProjectionSettings", "structMR_1_1CutByProjectionSettings.html", "structMR_1_1CutByProjectionSettings" ],
       [ "CutMeshParameters", "structMR_1_1CutMeshParameters.html", "structMR_1_1CutMeshParameters" ],
       [ "CutMeshResult", "structMR_1_1CutMeshResult.html", "structMR_1_1CutMeshResult" ],

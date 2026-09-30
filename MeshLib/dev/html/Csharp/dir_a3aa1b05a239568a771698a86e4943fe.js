@@ -68,6 +68,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRConvexHull.cs", "MRConvexHull_8cs.html", "MRConvexHull_8cs" ],
     [ "MRCube.cs", "MRCube_8cs.html", "MRCube_8cs" ],
     [ "MRCurve.cs", "MRCurve_8cs.html", "MRCurve_8cs" ],
+    [ "MRCutAroundVertSets.cs", "MRCutAroundVertSets_8cs.html", "MRCutAroundVertSets_8cs" ],
     [ "MRCylinder.cs", "MRCylinder_8cs.html", "MRCylinder_8cs" ],
     [ "MRCylinder3.cs", "MRCylinder3_8cs.html", "MRCylinder3_8cs" ],
     [ "MRCylinderObject.cs", "MRCylinderObject_8cs.html", "MRCylinderObject_8cs" ],

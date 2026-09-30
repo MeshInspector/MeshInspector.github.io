@@ -144,6 +144,7 @@
     <innerclass refid="structMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="structMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="structMR_1_1CustomButtonParameters" prot="public">MR::CustomButtonParameters</innerclass>
+    <innerclass refid="structMR_1_1CutAroundVertSetsParams" prot="public">MR::CutAroundVertSetsParams</innerclass>
     <innerclass refid="structMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
     <innerclass refid="structMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
     <innerclass refid="structMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
@@ -2271,6 +2272,7 @@
       <member refid="group__GeneralGroup_1ga993574f450d55ec20cce4d53bcf16766" kind="function"><name>makeCube</name></member>
       <member refid="group__GeneralGroup_1ga166533c02408563549ca0992b30698d1" kind="function"><name>makeParallelepiped</name></member>
       <member refid="group__GeneralGroup_1ga12b2fab7216e05ecbedc177ac2924f68" kind="function"><name>makeBoxMesh</name></member>
+      <member refid="group__GeneralGroup_1gaabaabcfbb5c05b726326cccfb14062ac" kind="function"><name>cutAroundVertSets</name></member>
       <member refid="group__GeneralGroup_1gae8304f9886b01726e0bfd8eae173d7bf" kind="function"><name>makeCylinder</name></member>
       <member refid="group__GeneralGroup_1ga9e9e32ceefb3721896bc40d630b35d68" kind="function"><name>makeOpenCylinder</name></member>
       <member refid="group__GeneralGroup_1gabd16e5e560e3242b43d472ae3546e5ad" kind="function"><name>makeOpenCone</name></member>

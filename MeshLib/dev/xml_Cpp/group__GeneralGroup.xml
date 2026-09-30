@@ -149,6 +149,7 @@
     <innerclass refid="structMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
     <innerclass refid="structMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="structMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
+    <innerclass refid="structMR_1_1CutAroundVertSetsParams" prot="public">MR::CutAroundVertSetsParams</innerclass>
     <innerclass refid="classMR_1_1Cylinder3" prot="public">MR::Cylinder3</innerclass>
     <innerclass refid="classMR_1_1Cylinder3Approximation" prot="public">MR::Cylinder3Approximation</innerclass>
     <innerclass refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData" prot="private">MR::Cylinder3Approximation::BestHemisphereStoredData</innerclass>
@@ -27073,6 +27074,38 @@ it provides additional info from other mesh used in boolean operation, useful to
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRCurve.h" line="25" column="11" bodyfile="MRMesh/MRCurve.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga774d2942e99988822ff6e6764aca59a3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::CutAroundVertSetsParams::distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <qualifiedname>MR::CutAroundVertSetsParams::distance</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>the mesh is cut along the isolines of surface distance equal to this value around each vertex set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutAroundVertSets.h" line="16" column="11" bodyfile="MRMesh/MRCutAroundVertSets.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga00a86d77277d18dff9b4fa3f1744be9e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::CutAroundVertSetsParams::gap</definition>
+        <argsstring></argsstring>
+        <name>gap</name>
+        <qualifiedname>MR::CutAroundVertSetsParams::gap</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>keeps the regions of any two vertex sets from overlapping, even if the sets are closer than (2*distance + gap): in the vertices where the sum of two distance fields is less than (2*distance + gap), both values are scaled proportionally to make the sum exactly (2*distance + gap); so the gap is exact in the scaled fields, and the surface gap between two regions is about gap * setsDistance / (2*distance + gap); must be positive, otherwise the isolines of two close sets coincide </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutAroundVertSets.h" line="23" column="11" bodyfile="MRMesh/MRCutAroundVertSets.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" prot="public" static="no" mutable="no">
         <type>Line3&lt; T &gt;</type>
@@ -91253,6 +91286,40 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRCube.h" line="32" column="8" declfile="MRMesh/MRCube.h" declline="32" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaabaabcfbb5c05b726326cccfb14062ac" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; std::vector&lt; FaceBitSet &gt; &gt;</type>
+        <definition>Expected&lt; std::vector&lt; FaceBitSet &gt; &gt; MR::cutAroundVertSets</definition>
+        <argsstring>(Mesh &amp;mesh, const std::vector&lt; VertBitSet &gt; &amp;vertSets, const CutAroundVertSetsParams &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>cutAroundVertSets</name>
+        <qualifiedname>MR::cutAroundVertSets</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; VertBitSet &gt; &amp;</type>
+          <declname>vertSets</declname>
+        </param>
+        <param>
+          <type>const CutAroundVertSetsParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes surface distance field around each vertex set up to (distance + gap), scales any two fields to be separated by gap, and cuts the mesh along isolines of each field at given distance; no two vertex sets may share a vertex; edges with both ends in one set are not cut and keep their ids; <simplesect kind="return"><para>the region of each vertex set (triangles with distance &lt;= params.distance) in the modified mesh </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutAroundVertSets.h" line="30" column="12" declfile="MRMesh/MRCutAroundVertSets.h" declline="30" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae8304f9886b01726e0bfd8eae173d7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>

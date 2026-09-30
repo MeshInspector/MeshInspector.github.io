@@ -7917,6 +7917,27 @@
     <member refid="MRCurve_8h_1a9582a287adc8b40b150661758e19a38e" kind="function"><name>MR_CurveFunc_DestroyArray</name></member>
     <member refid="MRCurve_8h_1a5ef42ea48e34ecf0febcbc229df75ff7" kind="function"><name>MR_CurveFunc_AssignFromAnother</name></member>
   </compound>
+  <compound refid="MRCutAroundVertSets_8h" kind="file"><name>MRCutAroundVertSets.h</name>
+    <member refid="MRCutAroundVertSets_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kind="typedef"><name>MR_expected_std_vector_MR_FaceBitSet_std_string</name></member>
+    <member refid="MRCutAroundVertSets_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kind="typedef"><name>MR_std_vector_MR_VertBitSet</name></member>
+    <member refid="MRCutAroundVertSets_8h_1aa1a8072e9a26c04af0400b4c62f7f5b3" kind="typedef"><name>MR_CutAroundVertSetsParams</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a9fefac6ce04933d43cc0681e2db97a4b" kind="function"><name>MR_CutAroundVertSetsParams_Get_distance</name></member>
+    <member refid="MRCutAroundVertSets_8h_1af79f0b737d75377669c39900ef0570e2" kind="function"><name>MR_CutAroundVertSetsParams_Set_distance</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a45111b7dcb54a0c93dd510a3c0c1f06f" kind="function"><name>MR_CutAroundVertSetsParams_GetMutable_distance</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a5960d62f4b8e483c1b3cf72f2f63d402" kind="function"><name>MR_CutAroundVertSetsParams_Get_gap</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a5cb9074089698ab8494f0b8d26039cdb" kind="function"><name>MR_CutAroundVertSetsParams_Set_gap</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a0871671a090845162f5bb34de7a513d4" kind="function"><name>MR_CutAroundVertSetsParams_GetMutable_gap</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a5becfdd332142f42baecc4afe94cc417" kind="function"><name>MR_CutAroundVertSetsParams_DefaultConstruct</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a5602beab48a6d15409c96e9df157d3de" kind="function"><name>MR_CutAroundVertSetsParams_DefaultConstructArray</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a6729b476f8f3929b25ba4be86af7dc46" kind="function"><name>MR_CutAroundVertSetsParams_ConstructFrom</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a3b361a4ce87e14b3c50fc63beabbed8a" kind="function"><name>MR_CutAroundVertSetsParams_OffsetPtr</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a539cd59497efb6944ceaaa9b23fd296f" kind="function"><name>MR_CutAroundVertSetsParams_OffsetMutablePtr</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a6491054679aed770c97e61e30e720040" kind="function"><name>MR_CutAroundVertSetsParams_ConstructFromAnother</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a7345ab05061031e64d2ecd9ef32c82ce" kind="function"><name>MR_CutAroundVertSetsParams_Destroy</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a125883c4d629baad5b3d25c68120398c" kind="function"><name>MR_CutAroundVertSetsParams_DestroyArray</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a9a0020ead18d60df0a9f14c3b36a1c96" kind="function"><name>MR_CutAroundVertSetsParams_AssignFromAnother</name></member>
+    <member refid="MRCutAroundVertSets_8h_1a38dab2609eee6dab160234c4dfa3545e" kind="function"><name>MR_cutAroundVertSets</name></member>
+  </compound>
   <compound refid="MRCylinder_8h" kind="file"><name>MRCylinder.h</name>
     <member refid="MRCylinder_8h_1a1f4b930b75de319ce444a0973d00a1ab" kind="function"><name>MR_makeCylinder</name></member>
     <member refid="MRCylinder_8h_1ad5678077125c3ba3a9ef83ba61bb2517" kind="function"><name>MR_makeOpenCylinder</name></member>
@@ -14304,7 +14325,6 @@
     <member refid="MRMeshComponents_8h_1a8627fb6dcfa429e140269bee7c3de08f" kind="typedef"><name>MR_std_pair_std_vector_MR_FaceBitSet_int</name></member>
     <member refid="MRMeshComponents_8h_1af889488c447569938ce6b021d200e919" kind="typedef"><name>MR_std_vector_MR_EdgeBitSet</name></member>
     <member refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kind="typedef"><name>MR_std_vector_MR_UndirectedEdgeBitSet</name></member>
-    <member refid="MRMeshComponents_8h_1ad4db865f7b80a8d7441c084aaf087d1f" kind="typedef"><name>MR_std_vector_MR_VertBitSet</name></member>
     <member refid="MRMeshComponents_8h_1ac3f010ac22afaad3c7b42f66688577d2" kind="typedef"><name>MR_MeshComponents_FaceIncidence</name></member>
     <member refid="MRMeshComponents_8h_1ab1723c783e46589dda78a51b35d9d358" kind="typedef"><name>MR_MeshComponents_VolumeSelection</name></member>
     <member refid="MRMeshComponents_8h_1a56e44aaa8a15f4abcba40e2572542073" kind="typedef"><name>MR_MeshComponents_ExpandToComponentsParams</name></member>
@@ -15656,7 +15676,6 @@
     <member refid="MRMeshOrPointsObject_8h_1a1a4e060da248ba9b07af52c6c33a8af6" kind="function"><name>MR_MeshOrPointsObject_meshOrPoints</name></member>
   </compound>
   <compound refid="MRMeshOverhangs_8h" kind="file"><name>MRMeshOverhangs.h</name>
-    <member refid="MRMeshOverhangs_8h_1a1b1abbd2bb9a00492f7da1010eee6c21" kind="typedef"><name>MR_expected_std_vector_MR_FaceBitSet_std_string</name></member>
     <member refid="MRMeshOverhangs_8h_1ad61d6c00ae6daaf30097ffaca3c8c9c2" kind="typedef"><name>MR_FindOverhangsSettings</name></member>
     <member refid="MRMeshOverhangs_8h_1a741166ac19124393dc826db763c21b81" kind="function"><name>MR_FindOverhangsSettings_Get_axis</name></member>
     <member refid="MRMeshOverhangs_8h_1abec162200c1ad771afb9c0bb1b2211f8" kind="function"><name>MR_FindOverhangsSettings_Set_axis</name></member>

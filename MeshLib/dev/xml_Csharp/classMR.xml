@@ -384,6 +384,7 @@
     <innerclass refid="classMR_1_1Const__CubicBezierCurve3f" prot="public">MR::Const_CubicBezierCurve3f</innerclass>
     <innerclass refid="classMR_1_1Const__CurveFunc" prot="public">MR::Const_CurveFunc</innerclass>
     <innerclass refid="classMR_1_1Const__CurvePoint" prot="public">MR::Const_CurvePoint</innerclass>
+    <innerclass refid="classMR_1_1Const__CutAroundVertSetsParams" prot="public">MR::Const_CutAroundVertSetsParams</innerclass>
     <innerclass refid="classMR_1_1Const__CutByProjectionSettings" prot="public">MR::Const_CutByProjectionSettings</innerclass>
     <innerclass refid="classMR_1_1Const__CutMeshParameters" prot="public">MR::Const_CutMeshParameters</innerclass>
     <innerclass refid="classMR_1_1Const__CutMeshResult" prot="public">MR::Const_CutMeshResult</innerclass>
@@ -1127,6 +1128,7 @@
     <innerclass refid="classMR_1_1Cuda" prot="public">MR::Cuda</innerclass>
     <innerclass refid="classMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="classMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
+    <innerclass refid="classMR_1_1CutAroundVertSetsParams" prot="public">MR::CutAroundVertSetsParams</innerclass>
     <innerclass refid="classMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
     <innerclass refid="classMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
     <innerclass refid="classMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
@@ -11017,6 +11019,41 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCube.cs" line="52" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCube.cs" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9fad7fff26df73772a11771bd7633cb2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRFaceBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRFaceBitSet MR.cutAroundVertSets</definition>
+        <argsstring>(MR.Mesh mesh, MR.Std.Const_Vector_MRVertBitSet vertSets, MR.Const_CutAroundVertSetsParams params_, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>cutAroundVertSets</name>
+        <qualifiedname>MR.cutAroundVertSets</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVertBitSet</type>
+          <declname>vertSets</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CutAroundVertSetsParams" kindref="compound">MR.Const_CutAroundVertSetsParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes surface distance field around each vertex set up to (distance + gap), scales any two fields to be separated by gap, and cuts the mesh along isolines of each field at given distance; no two vertex sets may share a vertex; edges with both ends in one set are not cut and keep their ids; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the region of each vertex set (triangles with distance &lt;= params.distance) in the modified mesh Generated from function <computeroutput><ref refid="classMR_1a9fad7fff26df73772a11771bd7633cb2" kindref="member">MR.cutAroundVertSets</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="246" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" bodystart="246" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aba9773a5df9ecf18755eafb4544d02ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -59748,6 +59785,36 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCube.cs" line="72" column="44"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a45ea29518d2e90237d06d42dbb01014d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_StdVectorMRFaceBitSet_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_StdVectorMRFaceBitSet_StdString._Underlying * MR.__MR_cutAroundVertSets</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh, MR.Std.Const_Vector_MRVertBitSet._Underlying *vertSets, MR.Const_CutAroundVertSetsParams._Underlying *params_, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
+        <name>__MR_cutAroundVertSets</name>
+        <qualifiedname>MR.__MR_cutAroundVertSets</qualifiedname>
+        <param>
+          <type>MR.Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVertBitSet._Underlying *</type>
+          <declname>vertSets</declname>
+        </param>
+        <param>
+          <type>MR.Const_CutAroundVertSetsParams._Underlying *</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCutAroundVertSets.cs" line="257" column="80"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a0e105c3afc544cbaae35ebcd03985185" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Mesh._Underlying *</type>
         <definition>static unsafe MR.Mesh._Underlying * MR.__MR_makeCone</definition>
@@ -98770,6 +98837,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a5077eb55c98980166bd0021a500abd2a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_curveFromPoints_std_vector_MR_CurvePoint_rvalue_ref</name></member>
       <member refid="classMR_1a5d57c78a604887342ed0cf25bac49145" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_cutAlongEdgeLoop_MR_Mesh</name></member>
       <member refid="classMR_1a5265f3b61e05204dc1efc6a815db5db0" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_cutAlongEdgeLoop_MR_MeshTopology</name></member>
+      <member refid="classMR_1a45ea29518d2e90237d06d42dbb01014d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_cutAroundVertSets</name></member>
       <member refid="classMR_1a8b7f2327a907114110c90c94e88491e9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_cutMesh</name></member>
       <member refid="classMR_1a6138dfe48ce8c7b65468a33ec19ea98b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_cutMeshByContour</name></member>
       <member refid="classMR_1af690219591bc7be4d352665e42e5873e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_cutMeshByContours</name></member>
@@ -100605,6 +100673,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aeb566be45447b462f915fb9557d2e22f" prot="public" virt="non-virtual"><scope>MR</scope><name>curveFromPoints</name></member>
       <member refid="classMR_1adac5939b4aaa58d98e7c81671cc44a95" prot="public" virt="non-virtual"><scope>MR</scope><name>cutAlongEdgeLoop</name></member>
       <member refid="classMR_1a490f7132d9fb92698835c7bf7abe7d17" prot="public" virt="non-virtual"><scope>MR</scope><name>cutAlongEdgeLoop</name></member>
+      <member refid="classMR_1a9fad7fff26df73772a11771bd7633cb2" prot="public" virt="non-virtual"><scope>MR</scope><name>cutAroundVertSets</name></member>
       <member refid="classMR_1a69c80bb31266546933db0c88875afc59" prot="public" virt="non-virtual"><scope>MR</scope><name>cutMesh</name></member>
       <member refid="classMR_1a66706bca91747f8db37973b61c26c5a8" prot="public" virt="non-virtual"><scope>MR</scope><name>cutMeshByContour</name></member>
       <member refid="classMR_1a8780422842277c2966f86979c2e549c3" prot="public" virt="non-virtual"><scope>MR</scope><name>cutMeshByContours</name></member>
