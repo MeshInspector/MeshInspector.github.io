@@ -11,5 +11,7 @@ var classmrmeshpy_1_1RelaxParams =
     [ "maxInitialDist", "classmrmeshpy_1_1RelaxParams.html#a9a5588d458a45c4730429d7fa4e1d45e", null ],
     [ "maxInitialDist", "classmrmeshpy_1_1RelaxParams.html#abbbd4e47677582624306fbf6d815071e", null ],
     [ "region", "classmrmeshpy_1_1RelaxParams.html#a3c50015019e887ebe84ccf46a5eb5526", null ],
-    [ "region", "classmrmeshpy_1_1RelaxParams.html#ada1587f87d7047c2c5ef3bdf29526932", null ]
+    [ "region", "classmrmeshpy_1_1RelaxParams.html#ada1587f87d7047c2c5ef3bdf29526932", null ],
+    [ "updateCaches", "classmrmeshpy_1_1RelaxParams.html#aa37ee6b3518df0f688020fb3712efc39", null ],
+    [ "updateCaches", "classmrmeshpy_1_1RelaxParams.html#a355217d8b4bf329faf52db41aabaa310", null ]
 ];

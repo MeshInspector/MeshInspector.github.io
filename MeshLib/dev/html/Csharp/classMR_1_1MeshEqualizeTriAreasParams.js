@@ -13,5 +13,6 @@ var classMR_1_1MeshEqualizeTriAreasParams =
     [ "maxInitialDist", "classMR_1_1MeshEqualizeTriAreasParams.html#a8e8bb59424534582e08d97437801e9e9", null ],
     [ "noShrinkage", "classMR_1_1MeshEqualizeTriAreasParams.html#af5841b71eb6b9c923a283caeef3aa586", null ],
     [ "region", "classMR_1_1MeshEqualizeTriAreasParams.html#a81f3754b3040a5da12e8e02b5a7081c5", null ],
+    [ "updateCaches", "classMR_1_1MeshEqualizeTriAreasParams.html#a0deab6e310051bb09ba506e8a13b86b1", null ],
     [ "weights", "classMR_1_1MeshEqualizeTriAreasParams.html#a6f1292ae2f55809386e260ad626cb1f5", null ]
 ];

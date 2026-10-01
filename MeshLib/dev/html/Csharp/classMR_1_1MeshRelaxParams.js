@@ -11,5 +11,6 @@ var classMR_1_1MeshRelaxParams =
     [ "limitNearInitial", "classMR_1_1MeshRelaxParams.html#a784f38a22f8fbc1f8ea077f84a1b984b", null ],
     [ "maxInitialDist", "classMR_1_1MeshRelaxParams.html#aa6078c1afe0cb38f94df4d75fe845c9d", null ],
     [ "region", "classMR_1_1MeshRelaxParams.html#a8f3806fc1ebf27bf671e2fc89f085458", null ],
+    [ "updateCaches", "classMR_1_1MeshRelaxParams.html#aecd5a9e8b4ec12206043fecf8fac4215", null ],
     [ "weights", "classMR_1_1MeshRelaxParams.html#a7b3237b6a361256d62cfb92eb778619e", null ]
 ];

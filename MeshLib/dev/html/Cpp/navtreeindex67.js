@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MultiRayMeshIntersectResult.html":[9,0,0,1,20],
 "structMR_1_1MultiRayMeshIntersectResult.html#a71a0fa75e778ec8d7c6e2a3f6b0a8090":[9,0,0,1,20,0],
 "structMR_1_1MultiRayMeshIntersectResult.html#a7455a93722a7e3da39f0baacdfb67c00":[9,0,0,1,20,3],
 "structMR_1_1MultiRayMeshIntersectResult.html#a9a3654ac0ded1bdf4d07ac43e5c5e085":[9,0,0,1,20,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,0,0,15,0,1],
 "structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,20,885],
 "structMR_1_1PolylineToVolumeParams.html":[9,0,0,20,886],
-"structMR_1_1PolylineTraits.html":[9,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9]
+"structMR_1_1PolylineTraits.html":[9,0,0,1,8]
 };

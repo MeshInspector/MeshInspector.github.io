@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="631" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="631" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="665" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="665" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1ab7e745f31e1561d212058f1d5f11c9f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="636" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="636" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="670" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="670" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a6f1292ae2f55809386e260ad626cb1f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertScalars" kindref="compound">Const_VertScalars</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="641" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="642" bodyend="651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="675" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="676" bodyend="685"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1ac16cac43b7aee6645062e4bc905743dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="656" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="656" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="690" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="690" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="661" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="662" bodyend="671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="695" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="696" bodyend="705"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1adbcaef58601f7c404b72267c05f07988" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -92,7 +92,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="676" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="676" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="710" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="710" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a0deab6e310051bb09ba506e8a13b86b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshEqualizeTriAreasParams.updateCaches</definition>
+        <argsstring></argsstring>
+        <name>updateCaches</name>
+        <qualifiedname>MR.MeshEqualizeTriAreasParams.updateCaches</qualifiedname>
+        <briefdescription>
+<para>in functions taking <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> or <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="716" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="716" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a5c0ecfb59473911cc9c1063d29626651" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -107,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="681" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="681" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="721" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="721" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshEqualizeTriAreasParams_1a8e8bb59424534582e08d97437801e9e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -122,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="686" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="686" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="726" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="726" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -142,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="614" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="614" bodyend="619"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="648" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="648" bodyend="653"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a0032d100d19a62734b15a9fa00ece630" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -160,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="620" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="620" bodyend="625"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="654" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="654" bodyend="659"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -184,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="690" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="690" bodyend="694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="730" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="730" bodyend="734"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -201,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="700" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="700" bodyend="704"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="740" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="740" bodyend="744"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1ab2446c493737974b3c6a9a9339db8dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -220,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="709" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="709" bodyend="714"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="749" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="749" bodyend="754"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a4fb112503135759cf22128f08bb4d23e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -239,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="719" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="719" bodyend="719"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="759" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="759" bodyend="759"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a9c5a13d2757c4512b378c0eab99ef4a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshEqualizeTriAreasParams" kindref="compound">MR.MeshEqualizeTriAreasParams</ref></type>
@@ -258,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="724" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="724" bodyend="729"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="764" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="764" bodyend="769"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -282,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="734" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="774" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1aa3cc5efae179718738cb11e165aea09a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshEqualizeTriAreasParams._Underlying *</type>
@@ -300,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="737" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="777" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1ab51e875a728afeebaff776eed0b41156" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshEqualizeTriAreasParams._Underlying *</type>
@@ -314,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="740" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="780" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1a1a162c744673f34301956336cd64a4db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshRelaxParams._Underlying *</type>
@@ -332,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="743" column="59"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="783" column="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshEqualizeTriAreasParams_1ab3cb942dad74a29660b231f89d495cd5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RelaxParams._Underlying *</type>
@@ -350,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="746" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="786" column="55"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -410,7 +425,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="611" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="612" bodyend="747"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="645" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="646" bodyend="787"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0d9e18a5d5f5278a8395ebf2fbd32654" prot="private" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__MR_MeshEqualizeTriAreasParams_AssignFromAnother</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1aa3cc5efae179718738cb11e165aea09a" prot="private" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__MR_MeshEqualizeTriAreasParams_ConstructFromAnother</name></member>
@@ -425,6 +440,7 @@
       <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a14cd65b4fd404db12dbb3216616b8089" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_limitNearInitial</name></member>
       <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae153027572a88406fa5c82d59633c166" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_maxInitialDist</name></member>
       <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a3350feeae6d6c031272532f919eeccb3" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_noShrinkage</name></member>
+      <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1ae965bc335adf7a834f8f6c2bf22a1090" prot="protected" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>__ref_storage_updateCaches</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a9c5a13d2757c4512b378c0eab99ef4a1" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1a64935f2ffb562b3d3f66c5722e7c422c" prot="package" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Const_MeshEqualizeTriAreasParams</name></member>
       <member refid="classMR_1_1Const__MeshEqualizeTriAreasParams_1af1c3c9e7a38a7a59a23cd046319a498f" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>Const_MeshEqualizeTriAreasParams</name></member>
@@ -447,6 +463,7 @@
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0032d100d19a62734b15a9fa00ece630" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.MeshRelaxParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0d7884a31c110e494ce2b39bb1adcfdc" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>operator MR.RelaxParams</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a81f3754b3040a5da12e8e02b5a7081c5" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>region</name></member>
+      <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a0deab6e310051bb09ba506e8a13b86b1" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>updateCaches</name></member>
       <member refid="classMR_1_1MeshEqualizeTriAreasParams_1a6f1292ae2f55809386e260ad626cb1f5" prot="public" virt="non-virtual"><scope>MR::MeshEqualizeTriAreasParams</scope><name>weights</name></member>
     </listofallmembers>
   </compounddef>

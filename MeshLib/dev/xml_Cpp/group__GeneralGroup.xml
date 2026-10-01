@@ -8788,7 +8788,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRelaxParams.h" line="38" column="1" bodyfile="MRMesh/MRRelaxParams.h" bodystart="39" bodyend="42"/>
+        <location file="MRMesh/MRRelaxParams.h" line="42" column="1" bodyfile="MRMesh/MRRelaxParams.h" bodystart="43" bodyend="46"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" prot="public" static="no" strong="yes">
         <type></type>
@@ -43271,6 +43271,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRRelaxParams.h" line="23" column="11" bodyfile="MRMesh/MRRelaxParams.h" bodystart="23" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaebc3bfd6830fc3b7fcf62a984d8b25f9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::RelaxParams::updateCaches</definition>
+        <argsstring></argsstring>
+        <name>updateCaches</name>
+        <qualifiedname>MR::RelaxParams::updateCaches</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in functions taking <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> or <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>: if false then all mesh caches (AABB trees) are invalidated after relaxation, if true then they are updated only in the region (faster, but the trees might become less efficient) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRelaxParams.h" line="27" column="10" bodyfile="MRMesh/MRRelaxParams.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MR::RelaxParams::limitNearInitial</definition>
@@ -43285,7 +43301,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRelaxParams.h" line="26" column="10" bodyfile="MRMesh/MRRelaxParams.h" bodystart="26" bodyend="-1"/>
+        <location file="MRMesh/MRRelaxParams.h" line="30" column="10" bodyfile="MRMesh/MRRelaxParams.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae2779bd159120c7d84c4d2e13186af7e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -43301,7 +43317,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRelaxParams.h" line="29" column="11" bodyfile="MRMesh/MRRelaxParams.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRRelaxParams.h" line="33" column="11" bodyfile="MRMesh/MRRelaxParams.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" static="no" mutable="no">
         <type>MR_BIND_IGNORE int</type>
@@ -43316,7 +43332,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRelaxParams.h" line="35" column="24" bodyfile="MRMesh/MRRelaxParams.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRRelaxParams.h" line="39" column="24" bodyfile="MRMesh/MRRelaxParams.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9dbfa2d5793105fa2d992a5d8f5c0709" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -141116,7 +141132,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRelaxParams.h" line="47" column="11" bodyfile="MRMesh/MRRelaxParams.h" bodystart="47" bodyend="55"/>
+        <location file="MRMesh/MRRelaxParams.h" line="51" column="11" bodyfile="MRMesh/MRRelaxParams.h" bodystart="51" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad5ce7dfebc8414530e9eee5461a1f289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

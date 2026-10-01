@@ -4299,7 +4299,8 @@ var group__GeneralGroup =
       [ "iterations", "group__GeneralGroup.html#gaf6f0f001e98c26c2b38d1d51b3f3ef1f", null ],
       [ "limitNearInitial", "group__GeneralGroup.html#gae8d07089d4abc1f4c2ccd3018e66e23a", null ],
       [ "maxInitialDist", "group__GeneralGroup.html#gae2779bd159120c7d84c4d2e13186af7e", null ],
-      [ "region", "group__GeneralGroup.html#gabeb08d7e70411cf9ef2826c0f058b909", null ]
+      [ "region", "group__GeneralGroup.html#gabeb08d7e70411cf9ef2826c0f058b909", null ],
+      [ "updateCaches", "group__GeneralGroup.html#gaebc3bfd6830fc3b7fcf62a984d8b25f9", null ]
     ] ],
     [ "MR::TransparencyMode", "structMR_1_1TransparencyMode.html", [
       [ "TransparencyMode", "group__GeneralGroup.html#gad5ce7dfebc8414530e9eee5461a1f289", null ],
@@ -18853,6 +18854,7 @@ var group__GeneralGroup =
     [ "MR::MeshToVolumeParams::Unsigned", "group__GeneralGroup.html#ga7eb94a27012d5cf106c21b228b6c8c2a", null ],
     [ "MR::OffsetContoursOrigins::uOrg", "group__GeneralGroup.html#ga8e421292af478ab293a9e62952548df9", null ],
     [ "MR::PlanarTriangulation::IntersectionInfo::uOrg", "group__GeneralGroup.html#ga8b5c188731f0cecbac0ccc0fd4a6bfb7", null ],
+    [ "MR::RelaxParams::updateCaches", "group__GeneralGroup.html#gaebc3bfd6830fc3b7fcf62a984d8b25f9", null ],
     [ "MR::ViewportGL::ScaledPickRes::updatedBox", "group__GeneralGroup.html#ga224b86e0fc476df4cd60410f71f7d516", null ],
     [ "MR::FixUndercuts::FindParams::upDirection", "group__GeneralGroup.html#gae2c7f6104befccb90b1d399429ba991a", null ],
     [ "MR::MeshProjectionParameters::upDistLimitSq", "group__GeneralGroup.html#ga93e080458c496f555a43b92f40f7e547", null ],

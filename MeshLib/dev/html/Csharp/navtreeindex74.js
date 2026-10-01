@@ -1,5 +1,15 @@
 var NAVTREEINDEX74 =
 {
+"classMR_1_1Const__Polynomial__Float__3.html":[9,3,0,0,0,773],
+"classMR_1_1Const__Polynomial__Float__3.html#a12547b36691070850735200daad3b4cf":[9,3,0,0,0,773,9],
+"classMR_1_1Const__Polynomial__Float__3.html#a3645442ad9ff135645ded2308e307767":[9,3,0,0,0,773,8],
+"classMR_1_1Const__Polynomial__Float__3.html#a40d88a638646debd3e30c297c9377e00":[9,3,0,0,0,773,6],
+"classMR_1_1Const__Polynomial__Float__3.html#a5baa8b5478fcb5f4e5dd6a7f52278547":[9,3,0,0,0,773,10],
+"classMR_1_1Const__Polynomial__Float__3.html#a6a4941b01bfd0bf9b2700542b97edcb4":[9,3,0,0,0,773,7],
+"classMR_1_1Const__Polynomial__Float__3.html#a876dd007bcec6e1b207b907ba0393240":[9,3,0,0,0,773,5],
+"classMR_1_1Const__Polynomial__Float__3.html#a98aa51ec1ddbfd36d124c0d24db371f0":[9,3,0,0,0,773,4],
+"classMR_1_1Const__Polynomial__Float__3.html#aa4b590537180a9a7277b69532f296490":[9,3,0,0,0,773,2],
+"classMR_1_1Const__Polynomial__Float__3.html#ab036e8ee20e857eb2e978776592c0cc6":[9,3,0,0,0,773,0],
 "classMR_1_1Const__Polynomial__Float__3.html#ae0d9fd4484c463250033da5e7d36a248":[9,3,0,0,0,773,1],
 "classMR_1_1Const__Polynomial__Float__3.html#aff32298b1a87d52a77f050e82aee948e":[9,3,0,0,0,773,3],
 "classMR_1_1Const__Polynomial__Float__4.html":[9,3,0,0,0,774],
@@ -239,15 +249,5 @@ var NAVTREEINDEX74 =
 "classMR_1_1Const__Quaternionf.html#a152a1b53ef817afead9dd4b57dcc82be":[9,3,0,0,0,792,2],
 "classMR_1_1Const__Quaternionf.html#a1ed31b5363f9a8a33158c400b9185a0e":[9,3,0,0,0,792,12],
 "classMR_1_1Const__Quaternionf.html#a1f81f63ae8de752cdb7bbcdac8461786":[9,3,0,0,0,792,1],
-"classMR_1_1Const__Quaternionf.html#a2a1ce343fe6da4a81020bada6b08b009":[9,3,0,0,0,792,15],
-"classMR_1_1Const__Quaternionf.html#a2b0a193ce05f44a3c56ad6fcf8cc95f1":[9,3,0,0,0,792,27],
-"classMR_1_1Const__Quaternionf.html#a30d543171609311dbd1c342221dd46be":[9,3,0,0,0,792,28],
-"classMR_1_1Const__Quaternionf.html#a5168b0e6a1d66730cd806c3a919171d9":[9,3,0,0,0,792,22],
-"classMR_1_1Const__Quaternionf.html#a57048a64f93c2ca4e98822bfeab6a40a":[9,3,0,0,0,792,25],
-"classMR_1_1Const__Quaternionf.html#a5a57d12636247db4852ef1c0feb76a8a":[9,3,0,0,0,792,6],
-"classMR_1_1Const__Quaternionf.html#a65d29c13d60e6d90f9daabc17db29c9c":[9,3,0,0,0,792,30],
-"classMR_1_1Const__Quaternionf.html#a69c51e80230a1849d3779f54db026e09":[9,3,0,0,0,792,11],
-"classMR_1_1Const__Quaternionf.html#a6f087c919498b60849a7b474dc3b4548":[9,3,0,0,0,792,24],
-"classMR_1_1Const__Quaternionf.html#a75943cc078d076a3aeebbe9178f9ac7b":[9,3,0,0,0,792,16],
-"classMR_1_1Const__Quaternionf.html#a7bb8fabf33cf342b5381c4bb0e2b9d4b":[9,3,0,0,0,792,5]
+"classMR_1_1Const__Quaternionf.html#a2a1ce343fe6da4a81020bada6b08b009":[9,3,0,0,0,792,15]
 };
