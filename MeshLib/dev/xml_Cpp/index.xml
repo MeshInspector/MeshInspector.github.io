@@ -3544,6 +3544,7 @@
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" kind="variable"><name>region</name></member>
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" kind="variable"><name>Remesh</name></member>
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a39c6c7eb9bf8c2a75b88975d8f434101" kind="variable"><name>mimicPatch</name></member>
+    <member refid="structMR_1_1FixMeshDegeneraciesParams_1a2f58b5b52ce3c9588255ffc814220198" kind="variable"><name>protectAttributeBorders</name></member>
     <member refid="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" kind="variable"><name>cb</name></member>
   </compound>
   <compound refid="structMR_1_1FixUndercuts_1_1FixParams" kind="struct"><name>MR::FixUndercuts::FixParams</name>
@@ -15259,6 +15260,7 @@
     <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga070d3e16e2fb8549c1d840e8595948bd" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
+    <member refid="group__MeshFixerGroup_1gad1c53f9374cb68d222f9f777a25f964f" kind="function"><name>fixMeshDataDegeneracies</name></member>
     <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
     <member refid="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" kind="function"><name>eliminateDoubleTris</name></member>
@@ -15565,6 +15567,7 @@
     <member refid="group__GeneralGroup_1ga5a850ca45f231478ca979899d99d51c3" kind="function"><name>merge</name></member>
     <member refid="group__GeneralGroup_1gaf9a8f767ee5ad5cc349b0990baedf6c0" kind="function"><name>cloneRegion</name></member>
     <member refid="group__GeneralGroup_1gaae4731717fe16466c829b33fc212802e" kind="function"><name>edgesBetweenDifferentColors</name></member>
+    <member refid="group__GeneralGroup_1ga31e22685884ff5b009ed2fe8836bb22f" kind="function"><name>edgesBetweenDifferentTextures</name></member>
     <member refid="group__GeneralGroup_1ga72798ab7c805da2fe840f2648569b52f" kind="function"><name>resizeAttributesToMesh</name></member>
     <member refid="group__GeneralGroup_1gaf2ff1896602b42bea912877e4c59b1be" kind="function"><name>defaultSerializeMeshFormat</name></member>
     <member refid="group__GeneralGroup_1gad470465fba020e775587e6dfe209ba03" kind="function"><name>setDefaultSerializeMeshFormat</name></member>
@@ -19773,6 +19776,7 @@
     <member refid="group__MeshFixerGroup_1ga3d72f926edb3f593c53583fba7398538" kind="function"><name>findShortEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga070d3e16e2fb8549c1d840e8595948bd" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="group__MeshFixerGroup_1ga1e63ddf91205ab34304a9ff3b2b550a2" kind="function"><name>fixMeshDegeneracies</name></member>
+    <member refid="group__MeshFixerGroup_1gad1c53f9374cb68d222f9f777a25f964f" kind="function"><name>fixMeshDataDegeneracies</name></member>
     <member refid="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
     <member refid="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" kind="function"><name>eliminateDoubleTris</name></member>
@@ -27992,6 +27996,7 @@
     <member refid="group__GeneralGroup_1gae12896dbfb3b9f1cbea264c478768f85" kind="function"><name>clone</name></member>
     <member refid="group__GeneralGroup_1ga5f3fabf962173f318cdc109b9768b8a2" kind="function"><name>heapBytes</name></member>
     <member refid="group__GeneralGroup_1gaae4731717fe16466c829b33fc212802e" kind="function"><name>edgesBetweenDifferentColors</name></member>
+    <member refid="group__GeneralGroup_1ga31e22685884ff5b009ed2fe8836bb22f" kind="function"><name>edgesBetweenDifferentTextures</name></member>
     <member refid="group__GeneralGroup_1ga72798ab7c805da2fe840f2648569b52f" kind="function"><name>resizeAttributesToMesh</name></member>
     <member refid="group__GeneralGroup_1ga37d2a428bd3835007572b583f596f4b5" kind="function"><name>ObjectMeshHolder</name></member>
     <member refid="group__GeneralGroup_1ga4b6ecb13b750192ac9a2d97d8dce077f" kind="function"><name>ObjectMeshHolder</name></member>

@@ -307,7 +307,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="89" column="11" declfile="MRMesh/MRMeshFixer.h" declline="89" declcolumn="11"/>
+        <location file="MRMesh/MRMeshFixer.h" line="95" column="11" declfile="MRMesh/MRMeshFixer.h" declline="95" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gad1c53f9374cb68d222f9f777a25f964f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::fixMeshDataDegeneracies</definition>
+        <argsstring>(ObjectMeshData &amp;data, const FixMeshDegeneraciesParams &amp;params)</argsstring>
+        <name>fixMeshDataDegeneracies</name>
+        <qualifiedname>MR::fixMeshDataDegeneracies</qualifiedname>
+        <param>
+          <type>ObjectMeshData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const FixMeshDegeneraciesParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fixes degenerate faces and short edges in the mesh of data like fixMeshDegeneracies, and keeps all per-element attributes of data valid: the elements from edge splits get the attributes of the split elements (interpolated for vertices), and the new elements of Mode::RemeshPatch get the attributes of the nearest points of the removed surface; with params.protectAttributeBorders = false the mesh is the same as from fixMeshDegeneracies, but an edge flip keeps the ids of the edge and of its two faces, so it can move a border between different face attributes, a selected edge or a crease to the other diagonal of the quadrangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFixer.h" line="102" column="11" declfile="MRMesh/MRMeshFixer.h" declline="102" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga83684a28016ea3e3feadd7c643905e6d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -335,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="92" column="14" declfile="MRMesh/MRMeshFixer.h" declline="92" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFixer.h" line="105" column="14" declfile="MRMesh/MRMeshFixer.h" declline="105" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga754a74fa515375b32aee32394abe05f6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -358,7 +381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="95" column="8" declfile="MRMesh/MRMeshFixer.h" declline="95" declcolumn="8"/>
+        <location file="MRMesh/MRMeshFixer.h" line="108" column="8" declfile="MRMesh/MRMeshFixer.h" declline="108" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga3c868d7f7706bea58f102f3218ffc524" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -386,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="101" column="9" declfile="MRMesh/MRMeshFixer.h" declline="101" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFixer.h" line="114" column="9" declfile="MRMesh/MRMeshFixer.h" declline="114" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1gae137c5e3de8e28fc5ff47caee9632c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -414,7 +437,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="105" column="7" declfile="MRMesh/MRMeshFixer.h" declline="105" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFixer.h" line="118" column="7" declfile="MRMesh/MRMeshFixer.h" declline="118" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga7ed9b863f3586261b7732c0dba013eae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -437,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="108" column="8" declfile="MRMesh/MRMeshFixer.h" declline="108" declcolumn="8"/>
+        <location file="MRMesh/MRMeshFixer.h" line="121" column="8" declfile="MRMesh/MRMeshFixer.h" declline="121" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga1a6d31909cb9b003dd59942b58bcdfae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -465,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="114" column="9" declfile="MRMesh/MRMeshFixer.h" declline="114" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFixer.h" line="127" column="9" declfile="MRMesh/MRMeshFixer.h" declline="127" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga0092e601fb2bbe0c8035549ad3395862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -504,7 +527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="119" column="6" declfile="MRMesh/MRMeshFixer.h" declline="119" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFixer.h" line="132" column="6" declfile="MRMesh/MRMeshFixer.h" declline="132" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga79c0629831d5275b266a9c2e89184d18" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -527,7 +550,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="123" column="10" declfile="MRMesh/MRMeshFixer.h" declline="123" declcolumn="10"/>
+        <location file="MRMesh/MRMeshFixer.h" line="136" column="10" declfile="MRMesh/MRMeshFixer.h" declline="136" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga30b08f4167efdcd741cdad4aeaf5d066" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -546,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="126" column="14" declfile="MRMesh/MRMeshFixer.h" declline="126" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFixer.h" line="139" column="14" declfile="MRMesh/MRMeshFixer.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1gafd82e42a7f55fb987e177185b62155a8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -565,7 +588,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="131" column="14" declfile="MRMesh/MRMeshFixer.h" declline="131" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFixer.h" line="144" column="14" declfile="MRMesh/MRMeshFixer.h" declline="144" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga04f842da188886fe7f430e90a6956a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -589,7 +612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="147" column="7" declfile="MRMesh/MRMeshFixer.h" declline="147" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFixer.h" line="160" column="7" declfile="MRMesh/MRMeshFixer.h" declline="160" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshFixerGroup_1ga0cfc3535cc2f563e521b206c694169cd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>
@@ -613,7 +636,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="167" column="12" declfile="MRMesh/MRMeshFixer.h" declline="167" declcolumn="12"/>
+        <location file="MRMesh/MRMeshFixer.h" line="180" column="12" declfile="MRMesh/MRMeshFixer.h" declline="180" declcolumn="12"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

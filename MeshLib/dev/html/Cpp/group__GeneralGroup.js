@@ -11948,6 +11948,7 @@ var group__GeneralGroup =
     [ "MR::MeshTopology::edgeReserve", "group__GeneralGroup.html#ga9f51a101a9532359e94df8a25560980b", null ],
     [ "MR::PolylineTopology::edgeReserve", "group__GeneralGroup.html#gaa5cb50f06372f350dcdd3dbc747a0615", null ],
     [ "MR::edgesBetweenDifferentColors", "group__GeneralGroup.html#gaae4731717fe16466c829b33fc212802e", null ],
+    [ "MR::edgesBetweenDifferentTextures", "group__GeneralGroup.html#ga31e22685884ff5b009ed2fe8836bb22f", null ],
     [ "MR::EdgeSegment::EdgeSegment", "group__GeneralGroup.html#gadbe97beb7bc790ab2d46f0863a5bbacf", null ],
     [ "MR::EdgeSegment::EdgeSegment", "group__GeneralGroup.html#ga2cd476f962cb44bbb72355daf9bd9735", null ],
     [ "MR::edgeSegment", "group__GeneralGroup.html#ga2298085a06a459719ca28a1f8c583f2a", null ],

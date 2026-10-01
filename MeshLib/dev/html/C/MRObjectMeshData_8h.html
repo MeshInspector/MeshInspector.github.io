@@ -188,6 +188,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a8943c22786649cddb96b2224047d149c" id="r_a8943c22786649cddb96b2224047d149c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8943c22786649cddb96b2224047d149c">MR_ObjectMeshData_clone</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
 <tr class="memitem:a9d0bb29fbef6800843d6eb4a6ebf5c5e" id="r_a9d0bb29fbef6800843d6eb4a6ebf5c5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d0bb29fbef6800843d6eb4a6ebf5c5e">MR_ObjectMeshData_heapBytes</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
 <tr class="memitem:a48331984243bc5f349dc700c18d2c664" id="r_a48331984243bc5f349dc700c18d2c664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48331984243bc5f349dc700c18d2c664">MR_edgesBetweenDifferentColors</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *colors)</td></tr>
+<tr class="memitem:a5a02278a8f8c3a9ff18f95b9353ca2b8" id="r_a5a02278a8f8c3a9ff18f95b9353ca2b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a02278a8f8c3a9ff18f95b9353ca2b8">MR_edgesBetweenDifferentTextures</a> (const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *textures)</td></tr>
 <tr class="memitem:a4747b56b066542010f007f7c5cd7d51d" id="r_a4747b56b066542010f007f7c5cd7d51d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4747b56b066542010f007f7c5cd7d51d">MR_resizeAttributesToMesh</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *data)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -210,6 +211,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>return all edges separating faces with different colors Generated from function <span class="tt">MR::edgesBetweenDifferentColors</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">colors</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5a02278a8f8c3a9ff18f95b9353ca2b8" name="a5a02278a8f8c3a9ff18f95b9353ca2b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a02278a8f8c3a9ff18f95b9353ca2b8">&#9670;&#160;</a></span>MR_edgesBetweenDifferentTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_edgesBetweenDifferentTextures </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCameraPointsTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *</td>          <td class="paramname"><span class="paramname"><em>textures</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return all edges separating faces with different textures Generated from function <span class="tt">MR::edgesBetweenDifferentTextures</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">textures</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

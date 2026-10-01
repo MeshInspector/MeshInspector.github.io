@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aed320c2ab2373830f74e3f3feff3d9a2":[9,3,0,0,0,916,3],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aef9d184bd2f2eccbf6eb5763a8fa49a1":[9,3,0,0,0,916,34],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#af144db2c551181276ffde59951758995":[9,3,0,0,0,916,11],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#af33d96a78f2710b97c02cf8508e3d783":[9,3,0,0,0,916,8],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#af6f6f2fa9a412bbf2a52f2bb71fe21e6":[9,3,0,0,0,916,23],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#afd0c48cc1d0fdb2482dd7a0fc6e9c6fc":[9,3,0,0,0,916,21],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#afd4a81305f4e3b3eb5873f3e8f5a016b":[9,3,0,0,0,916,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "classMR_1_1Const__UniteMeshNormalizationParams.html#abed2bef641dfb4f23da866116df5e795":[9,3,0,0,0,932,8],
 "classMR_1_1Const__UniteMeshNormalizationParams.html#ac3e59dedb1c3337c3669fb9cc4969ea6":[9,3,0,0,0,932,2],
 "classMR_1_1Const__UniteMeshNormalizationParams.html#ae15d414b8b3ce684cfaadd4bf2753b19":[9,3,0,0,0,932,3],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#afb1b50ce92965c41c375acb1f289a7bc":[9,3,0,0,0,932,9],
-"classMR_1_1Const__UnorientedTriangle.html":[9,3,0,0,0,934],
-"classMR_1_1Const__UnorientedTriangle.html#a02f6485d839e0ad81e280ed44d19d697":[9,3,0,0,0,934,3],
-"classMR_1_1Const__UnorientedTriangle.html#a19daa467c6f8b9b156b4d5e5dd257bd5":[9,3,0,0,0,934,1],
-"classMR_1_1Const__UnorientedTriangle.html#a2c7f97fd3b529075b252cc84029b9683":[9,3,0,0,0,934,0]
+"classMR_1_1Const__UniteMeshNormalizationParams.html#afb1b50ce92965c41c375acb1f289a7bc":[9,3,0,0,0,932,9]
 };

@@ -1,6 +1,7 @@
 var MRObjectMeshData_8h =
 [
     [ "MR_edgesBetweenDifferentColors", "MRObjectMeshData_8h.html#a48331984243bc5f349dc700c18d2c664", null ],
+    [ "MR_edgesBetweenDifferentTextures", "MRObjectMeshData_8h.html#a5a02278a8f8c3a9ff18f95b9353ca2b8", null ],
     [ "MR_ObjectMeshData_AssignFromAnother", "MRObjectMeshData_8h.html#a05a5a4c9ffc455dd423d8b7d5439e9e7", null ],
     [ "MR_ObjectMeshData_clone", "MRObjectMeshData_8h.html#a8943c22786649cddb96b2224047d149c", null ],
     [ "MR_ObjectMeshData_ConstructFrom", "MRObjectMeshData_8h.html#adcf75877e2e33e4b70223d3d348a6cd5", null ],

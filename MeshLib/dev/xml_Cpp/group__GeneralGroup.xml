@@ -126945,6 +126945,29 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRObjectMeshData.h" line="42" column="24" declfile="MRMesh/MRObjectMeshData.h" declline="42" declcolumn="24"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga31e22685884ff5b009ed2fe8836bb22f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UndirectedEdgeBitSet</type>
+        <definition>UndirectedEdgeBitSet MR::edgesBetweenDifferentTextures</definition>
+        <argsstring>(const MeshTopology &amp;topology, const TexturePerFace &amp;textures)</argsstring>
+        <name>edgesBetweenDifferentTextures</name>
+        <qualifiedname>MR::edgesBetweenDifferentTextures</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const TexturePerFace &amp;</type>
+          <declname>textures</declname>
+        </param>
+        <briefdescription>
+<para>return all edges separating faces with different textures </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectMeshData.h" line="45" column="24" declfile="MRMesh/MRObjectMeshData.h" declline="45" declcolumn="24"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga72798ab7c805da2fe840f2648569b52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::resizeAttributesToMesh</definition>
@@ -126962,7 +126985,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectMeshData.h" line="46" column="7" declfile="MRMesh/MRObjectMeshData.h" declline="46" declcolumn="7"/>
+        <location file="MRMesh/MRObjectMeshData.h" line="49" column="7" declfile="MRMesh/MRObjectMeshData.h" declline="49" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga37d2a428bd3835007572b583f596f4b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

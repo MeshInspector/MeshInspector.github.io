@@ -1,5 +1,10 @@
 var NAVTREEINDEX144 =
 {
+"std__array__MR__WeightedVertex__3_8h.html#aee405c086730bffc515c7b063ec68946":[9,2,2,0,0,0,0,2,114,14],
+"std__array__MR__WeightedVertex__3_8h.html#af2204e202bcf14a787aed541b13f74de":[9,2,2,0,0,0,0,2,114,0],
+"std__array__MR__WeightedVertex__3_8h_source.html":[9,2,2,0,0,0,0,2,114],
+"std__array__double__4_8h.html":[9,2,2,0,0,0,0,2,95],
+"std__array__double__4_8h.html#a005b8faa51c561bd38587698d7638795":[9,2,2,0,0,0,0,2,95,1],
 "std__array__double__4_8h_source.html":[9,2,2,0,0,0,0,2,95],
 "std__array__float__4_8h.html":[9,2,2,0,0,0,0,2,96],
 "std__array__float__4_8h.html#a82f73d0cb85ecd4a21030fd090df5024":[9,2,2,0,0,0,0,2,96,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX144 =
 "std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#acfeb7453e99a3fc10542c17faa843e08":[9,2,2,0,0,0,0,2,159,3],
 "std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#ae78ddff936bc813b343328e83bc6df5f":[9,2,2,0,0,0,0,2,159,0],
 "std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h.html#af23aa717c03c70cb1967a84d1ed9a80d":[9,2,2,0,0,0,0,2,159,10],
-"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h_source.html":[9,2,2,0,0,0,0,2,159],
-"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html":[9,2,2,0,0,0,0,2,160],
-"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#a0a05cdbe72a5667e58afe893bd75997f":[9,2,2,0,0,0,0,2,160,3],
-"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#a1ae6ec47bd26a9088214ab68a2e32d3d":[9,2,2,0,0,0,0,2,160,13],
-"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#a1ea343d3a28f977b540538985af9a0cd":[9,2,2,0,0,0,0,2,160,8],
-"std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h.html#a2e5861b516e476f3aa39109eabdd76f2":[9,2,2,0,0,0,0,2,160,14]
+"std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h_source.html":[9,2,2,0,0,0,0,2,159]
 };

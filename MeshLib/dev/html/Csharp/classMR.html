@@ -10094,6 +10094,8 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <tr class="memdesc:aa1180c9d1583ff8c3e199e4962fdbef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes all faces having at least one edge longer than maxEdgeLength Generated from function <span class="tt"><a class="el" href="#aa1180c9d1583ff8c3e199e4962fdbef6" title="deletes all faces having at least one edge longer than maxEdgeLength Generated from function MR....">MR.deleteFacesWithLongEdges</a></span>.  <br /></td></tr>
 <tr class="memitem:aedd1f11cf956f37d4ffb49f6d5f590c8" id="r_aedd1f11cf956f37d4ffb49f6d5f590c8"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd1f11cf956f37d4ffb49f6d5f590c8">fixMeshDegeneracies</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, <a class="el" href="classMR_1_1Const__FixMeshDegeneraciesParams.html">MR.Const_FixMeshDegeneraciesParams</a> params_)</td></tr>
 <tr class="memdesc:aedd1f11cf956f37d4ffb49f6d5f590c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes degenerate faces and short edges in mesh (changes topology) Generated from function <span class="tt"><a class="el" href="#aedd1f11cf956f37d4ffb49f6d5f590c8" title="Fixes degenerate faces and short edges in mesh (changes topology) Generated from function MR....">MR.fixMeshDegeneracies</a></span>.  <br /></td></tr>
+<tr class="memitem:af91fe6c4f3d5786f770978b9bf1f80ec" id="r_af91fe6c4f3d5786f770978b9bf1f80ec"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af91fe6c4f3d5786f770978b9bf1f80ec">fixMeshDataDegeneracies</a> (<a class="el" href="classMR_1_1ObjectMeshData.html">MR.ObjectMeshData</a> data, <a class="el" href="classMR_1_1Const__FixMeshDegeneraciesParams.html">MR.Const_FixMeshDegeneraciesParams</a> params_)</td></tr>
+<tr class="memdesc:af91fe6c4f3d5786f770978b9bf1f80ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes degenerate faces and short edges in the mesh of data like fixMeshDegeneracies, and keeps all per-element attributes of data valid: the elements from edge splits get the attributes of the split elements (interpolated for vertices), and the new elements of Mode::RemeshPatch get the attributes of the nearest points of the removed surface; with params.protectAttributeBorders = false the mesh is the same as from fixMeshDegeneracies, but an edge flip keeps the ids of the edge and of its two faces, so it can move a border between different face attributes, a selected edge or a crease to the other diagonal of the quadrangle Generated from function <span class="tt"><a class="el" href="#af91fe6c4f3d5786f770978b9bf1f80ec" title="Fixes degenerate faces and short edges in the mesh of data like fixMeshDegeneracies,...">MR.fixMeshDataDegeneracies</a></span>.  <br /></td></tr>
 <tr class="memitem:a60605fefa0bd7baed1a7039973ed4488" id="r_a60605fefa0bd7baed1a7039973ed4488"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60605fefa0bd7baed1a7039973ed4488">findInnerVertsOfDegree</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, int n, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
 <tr class="memdesc:a60605fefa0bd7baed1a7039973ed4488"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all inner vertices in region with the given number of incident edges each Generated from function <span class="tt"><a class="el" href="#a60605fefa0bd7baed1a7039973ed4488" title="finds all inner vertices in region with the given number of incident edges each Generated from functi...">MR.findInnerVertsOfDegree</a></span>.  <br /></td></tr>
 <tr class="memitem:a2aad8cde3ad7daeae5ea6ed7e582e657" id="r_a2aad8cde3ad7daeae5ea6ed7e582e657"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aad8cde3ad7daeae5ea6ed7e582e657">isEdgeBetweenDoubleTris</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> e)</td></tr>
@@ -10555,6 +10557,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ad30a324f52715859e7f266ece2b81b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectMesh.html" title="an object that stores a mesh Generated from class MR.ObjectMesh. Base classes: Direct: (non-virtual) ...">ObjectMesh</a> containing the region of data from input object does not copy selection Generated from function <span class="tt"><a class="el" href="#abf2d3995a2b5da287f097a77c54dea8d" title="constructs new ObjectLines containing the region of data from input object Generated from function MR...">MR.cloneRegion</a></span>. Parameter <span class="tt">copyTexture</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
 <tr class="memitem:af3df96cc0a50c769c9a2cf9a8955a9fa" id="r_af3df96cc0a50c769c9a2cf9a8955a9fa"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3df96cc0a50c769c9a2cf9a8955a9fa">edgesBetweenDifferentColors</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceColors.html">MR.Const_FaceColors</a> colors)</td></tr>
 <tr class="memdesc:af3df96cc0a50c769c9a2cf9a8955a9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different colors Generated from function <span class="tt"><a class="el" href="#af3df96cc0a50c769c9a2cf9a8955a9fa" title="return all edges separating faces with different colors Generated from function MR....">MR.edgesBetweenDifferentColors</a></span>.  <br /></td></tr>
+<tr class="memitem:a6fb6e5bf6a30d6d5136a4b51db08cffa" id="r_a6fb6e5bf6a30d6d5136a4b51db08cffa"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fb6e5bf6a30d6d5136a4b51db08cffa">edgesBetweenDifferentTextures</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__TexturePerFace.html">MR.Const_TexturePerFace</a> textures)</td></tr>
+<tr class="memdesc:a6fb6e5bf6a30d6d5136a4b51db08cffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different textures Generated from function <span class="tt"><a class="el" href="#a6fb6e5bf6a30d6d5136a4b51db08cffa" title="return all edges separating faces with different textures Generated from function MR....">MR.edgesBetweenDifferentTextures</a></span>.  <br /></td></tr>
 <tr class="memitem:af35d732dcce7d9ac6296c4c5cc837d5b" id="r_af35d732dcce7d9ac6296c4c5cc837d5b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af35d732dcce7d9ac6296c4c5cc837d5b">resizeAttributesToMesh</a> (<a class="el" href="classMR_1_1ObjectMeshData.html">MR.ObjectMeshData</a> data)</td></tr>
 <tr class="memdesc:af35d732dcce7d9ac6296c4c5cc837d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty face attribute to faceSize(), the added elements get default values, and the added faces in texturePerFace get the first texture Generated from function <span class="tt"><a class="el" href="#af35d732dcce7d9ac6296c4c5cc837d5b" title="resizes each non-empty vertex attribute of data to data.mesh-&gt;topology.vertSize() and each non-empty ...">MR.resizeAttributesToMesh</a></span>.  <br /></td></tr>
 <tr class="memitem:a059921be05a898483512aca1c85bdbfd" id="r_a059921be05a898483512aca1c85bdbfd"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.SharedPtr_MRObjectPoints&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a059921be05a898483512aca1c85bdbfd">merge</a> (MR.Std.Const_Vector_StdSharedPtrMRObjectPoints objsPoints)</td></tr>
@@ -35208,6 +35212,37 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 
 </div>
 </div>
+<a id="a6fb6e5bf6a30d6d5136a4b51db08cffa" name="a6fb6e5bf6a30d6d5136a4b51db08cffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fb6e5bf6a30d6d5136a4b51db08cffa">&#9670;&#160;</a></span>edgesBetweenDifferentTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a> MR.edgesBetweenDifferentTextures </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__TexturePerFace.html">MR.Const_TexturePerFace</a></td>          <td class="paramname"><span class="paramname"><em>textures</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>return all edges separating faces with different textures Generated from function <span class="tt"><a class="el" href="#a6fb6e5bf6a30d6d5136a4b51db08cffa" title="return all edges separating faces with different textures Generated from function MR....">MR.edgesBetweenDifferentTextures</a></span>. </p>
+
+</div>
+</div>
 <a id="a6982eb66e06708c84cca5b66bb212cfc" name="a6982eb66e06708c84cca5b66bb212cfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6982eb66e06708c84cca5b66bb212cfc">&#9670;&#160;</a></span>edgeSegment()</h2>
 
@@ -50298,6 +50333,37 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>Finds creases edges and re-triangulates planar areas around them, useful to fix double faces Generated from function <span class="tt"><a class="el" href="#a46aedb759b67c9c7168ef85bd78d15b8" title="Finds creases edges and re-triangulates planar areas around them, useful to fix double faces Generate...">MR.fixMeshCreases</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<a id="af91fe6c4f3d5786f770978b9bf1f80ec" name="af91fe6c4f3d5786f770978b9bf1f80ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af91fe6c4f3d5786f770978b9bf1f80ec">&#9670;&#160;</a></span>fixMeshDataDegeneracies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.fixMeshDataDegeneracies </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ObjectMeshData.html">MR.ObjectMeshData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__FixMeshDegeneraciesParams.html">MR.Const_FixMeshDegeneraciesParams</a></td>          <td class="paramname"><span class="paramname"><em>params_</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fixes degenerate faces and short edges in the mesh of data like fixMeshDegeneracies, and keeps all per-element attributes of data valid: the elements from edge splits get the attributes of the split elements (interpolated for vertices), and the new elements of Mode::RemeshPatch get the attributes of the nearest points of the removed surface; with params.protectAttributeBorders = false the mesh is the same as from fixMeshDegeneracies, but an edge flip keeps the ids of the edge and of its two faces, so it can move a border between different face attributes, a selected edge or a crease to the other diagonal of the quadrangle Generated from function <span class="tt"><a class="el" href="#af91fe6c4f3d5786f770978b9bf1f80ec" title="Fixes degenerate faces and short edges in the mesh of data like fixMeshDegeneracies,...">MR.fixMeshDataDegeneracies</a></span>. </p>
 
 </div>
 </div>
