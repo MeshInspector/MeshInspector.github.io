@@ -1493,7 +1493,7 @@ var searchData=
   ['updateheadcounter_44',['updateHeadCounter',['../classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver.html#a32fcb36d26755ed4b1339b8216a3625a',1,'mrmeshpy::MeshSave::BinaryStlSaver']]],
   ['updatehistogram_45',['updateHistogram',['../classmrmeshpy_1_1ObjectVoxels.html#a0686644f794743ea4e8a36720647c63d',1,'mrmeshpy::ObjectVoxels']]],
   ['updatehistogramandsurface_46',['updateHistogramAndSurface',['../classmrmeshpy_1_1ObjectVoxels.html#ad138a3220012614e3d5d68bbb90c48d9',1,'mrmeshpy::ObjectVoxels']]],
-  ['updateindicator_47',['updateIndicator',['../namespacemrmeshpy.html#a594163130487c21b865377d839621947',1,'mrmeshpy']]],
+  ['updateindicator_47',['updateIndicator',['../namespacemrmeshpy.html#a322986d363a676bd2c06ef84f38a9b22',1,'mrmeshpy']]],
   ['updateindicatorfast_48',['updateIndicatorFast',['../namespacemrmeshpy.html#a5ffbe63dd32beecf891562cd0c73271a',1,'mrmeshpy']]],
   ['updateisosurface_49',['updateIsoSurface',['../classmrmeshpy_1_1ObjectVoxels.html#a9ce26a587627b58473c3596c03b511f6',1,'mrmeshpy::ObjectVoxels']]],
   ['updatelinescolormap_50',['updateLinesColorMap',['../classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559',1,'mrmeshpy::ObjectLinesHolder']]],

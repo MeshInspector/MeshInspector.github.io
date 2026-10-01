@@ -16420,7 +16420,7 @@ var group__GeneralGroup =
     [ "MR::updateGroupPairs", "group__GeneralGroup.html#ga8b53d4824a98c05f3bfe0e82093609ea", null ],
     [ "MR::ObjectVoxels::updateHistogram", "group__GeneralGroup.html#ga935f4ba4160b0b4c6cc1599da7a822ac", null ],
     [ "MR::ObjectVoxels::updateHistogramAndSurface", "group__GeneralGroup.html#gaa29bdba1ba0647a7e4aa6225996ea9ed", null ],
-    [ "MR::updateIndicator", "group__GeneralGroup.html#gae67bf8c66f6b1dee34bd8aa00e69a913", null ],
+    [ "MR::updateIndicator", "group__GeneralGroup.html#ga7ffe0a021107f569b3ffa018da32e9b2", null ],
     [ "MR::updateIndicatorFast", "group__GeneralGroup.html#gad6e2edf074642202b7e738dfeee59f29", null ],
     [ "MR::ObjectVoxels::updateIsoSurface", "group__GeneralGroup.html#ga30dbd10af43f975fe9365af6e563413d", null ],
     [ "MR::RibbonMenu::updateItemStatus", "group__GeneralGroup.html#gaaec9315cca701ab9b19f7b0a91be57cc", null ],

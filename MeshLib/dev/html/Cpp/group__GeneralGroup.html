@@ -6299,7 +6299,7 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gaaa8735508a78c638055d6001174d206a" id="r_gaaa8735508a78c638055d6001174d206a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa8735508a78c638055d6001174d206a">MR::NoDefInit&lt; T &gt;::NoDefInit</a> () noexcept</td></tr>
 <tr class="memitem:gabbbe864ceddaba1c6f816d82be1cf434" id="r_gabbbe864ceddaba1c6f816d82be1cf434"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabbbe864ceddaba1c6f816d82be1cf434">MR::denoiseNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma, const FaceBitSet *region=nullptr)</td></tr>
 <tr class="memitem:ga1954e92c2b9fe2316cbf33d72e75d527" id="r_ga1954e92c2b9fe2316cbf33d72e75d527"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1954e92c2b9fe2316cbf33d72e75d527">MR::denoiseNormals</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertCoords &amp;points, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma, const FaceBitSet *region=nullptr)</td></tr>
-<tr class="memitem:gae67bf8c66f6b1dee34bd8aa00e69a913" id="r_gae67bf8c66f6b1dee34bd8aa00e69a913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae67bf8c66f6b1dee34bd8aa00e69a913">MR::updateIndicator</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
+<tr class="memitem:ga7ffe0a021107f569b3ffa018da32e9b2" id="r_ga7ffe0a021107f569b3ffa018da32e9b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7ffe0a021107f569b3ffa018da32e9b2">MR::updateIndicator</a> (const MeshPart &amp;mp, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
 <tr class="memitem:gad6e2edf074642202b7e738dfeee59f29" id="r_gad6e2edf074642202b7e738dfeee59f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad6e2edf074642202b7e738dfeee59f29">MR::updateIndicatorFast</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
 <tr class="memitem:ga6883a12f4f393ed08b4e93f7bf0be84a" id="r_ga6883a12f4f393ed08b4e93f7bf0be84a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6883a12f4f393ed08b4e93f7bf0be84a">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gac335a53bfd7d287604c31298e1b5a43b" id="r_gac335a53bfd7d287604c31298e1b5a43b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac335a53bfd7d287604c31298e1b5a43b">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)</td></tr>
@@ -193366,8 +193366,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gae67bf8c66f6b1dee34bd8aa00e69a913" name="gae67bf8c66f6b1dee34bd8aa00e69a913"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae67bf8c66f6b1dee34bd8aa00e69a913">&#9670;&#160;</a></span>updateIndicator()</h2>
+<a id="ga7ffe0a021107f569b3ffa018da32e9b2" name="ga7ffe0a021107f569b3ffa018da32e9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ffe0a021107f569b3ffa018da32e9b2">&#9670;&#160;</a></span>updateIndicator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193375,7 +193375,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::updateIndicator </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -193403,7 +193403,7 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRNormalDenoising_8h.html">MRMesh/MRNormalDenoising.h</a>&gt;</code></p>
 <p>Compute edge indicator function (1 - smooth edge, 0 - crease edge) by solving large system of linear equations </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mesh</td><td>contains topology information and coordinates for equation weights </td></tr>
+    <tr><td class="paramname">mp</td><td>contains topology information and coordinates for equation weights; if its region is given, then only the indicator of the edges of region faces is updated, and the indicator of all other edges is fixed </td></tr>
     <tr><td class="paramname">normals</td><td>per-face normals </td></tr>
     <tr><td class="paramname">beta</td><td>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </td></tr>
     <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) </td></tr>

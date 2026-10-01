@@ -2923,7 +2923,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.unitVector3_double", "namespacemrmeshpy.html#a8357889b653d11fc06aa6a1ae5ee3f56", null ],
     [ "mrmeshpy.unitVector3_float", "namespacemrmeshpy.html#a1e4342178b6e8f2c013eaaffd713d4f2", null ],
     [ "mrmeshpy.updateGroupPairs", "namespacemrmeshpy.html#a17e598a0e232b9697ccbd10510fdc251", null ],
-    [ "mrmeshpy.updateIndicator", "namespacemrmeshpy.html#a594163130487c21b865377d839621947", null ],
+    [ "mrmeshpy.updateIndicator", "namespacemrmeshpy.html#a322986d363a676bd2c06ef84f38a9b22", null ],
     [ "mrmeshpy.updateIndicatorFast", "namespacemrmeshpy.html#a5ffbe63dd32beecf891562cd0c73271a", null ],
     [ "mrmeshpy.updatePointPairs", "namespacemrmeshpy.html#a5d2536e502f9d876c8de49d8641ee65c", null ],
     [ "mrmeshpy.utf8string", "namespacemrmeshpy.html#a44c5a46c8d632eff18d069175e5bde49", null ],
