@@ -1,10 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a0c71a779d7152951bb9d97a934bc74b8":[9,2,2,0,0,0,0,2,193,2],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a263b12a67b2571a71e6b072993e4a6fe":[9,2,2,0,0,0,0,2,193,9],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a294b93a984b905958dd346a0a2fe8b9d":[9,2,2,0,0,0,0,2,193,14],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a2a2a6ccdf1f2814c6f534afe0ad1e8e9":[9,2,2,0,0,0,0,2,193,10],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a313ab35b2781c6c3b27b4dea4736b1f0":[9,2,2,0,0,0,0,2,193,5],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a4adbc325d5cee5edbf86b3c58c50c0b1":[9,2,2,0,0,0,0,2,193,4],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a52b800bca14f1f0ba1878e3850fe15cd":[9,2,2,0,0,0,0,2,193,13],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h.html#a77e3b789d0aea48b0d485db459161fde":[9,2,2,0,0,0,0,2,193,8],
@@ -249,5 +244,10 @@ var NAVTREEINDEX149 =
 "std__optional__MR__DentalId_8h.html":[9,2,2,0,0,0,0,2,204],
 "std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[9,2,2,0,0,0,0,2,204,6],
 "std__optional__MR__DentalId_8h.html#a2ef1f290c904a8e51dafa9b52c43bcf2":[9,2,2,0,0,0,0,2,204,9],
-"std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[9,2,2,0,0,0,0,2,204,1]
+"std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01":[9,2,2,0,0,0,0,2,204,1],
+"std__optional__MR__DentalId_8h.html#a767e86332b6a2186f3165682f5e6b2d7":[9,2,2,0,0,0,0,2,204,12],
+"std__optional__MR__DentalId_8h.html#a7d4a8b5b0b534e30d35f223682683dbe":[9,2,2,0,0,0,0,2,204,5],
+"std__optional__MR__DentalId_8h.html#a8146a1e0bae9c2c45834adcc8c2d4c4a":[9,2,2,0,0,0,0,2,204,8],
+"std__optional__MR__DentalId_8h.html#a89493065b4df62da86b6e3b257ee44f0":[9,2,2,0,0,0,0,2,204,4],
+"std__optional__MR__DentalId_8h.html#ab6f851679734ec8da383d00d028966a6":[9,2,2,0,0,0,0,2,204,7]
 };

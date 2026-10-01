@@ -168,22 +168,6 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshFixer.h" line="83" column="10" bodyfile="MRMesh/MRMeshFixer.h" bodystart="83" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a2f58b5b52ce3c9588255ffc814220198" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::FixMeshDegeneraciesParams::protectAttributeBorders</definition>
-        <argsstring></argsstring>
-        <name>protectAttributeBorders</name>
-        <qualifiedname>MR::FixMeshDegeneraciesParams::protectAttributeBorders</qualifiedname>
-        <initializer>= true</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>only for fixMeshDataDegeneracies (fixMeshDegeneracies ignores it): never flip the edges between faces with different colors or texture ids, the selected edges and the creases, so that the fixing does not move them, but their vertices can still shift by up to max( maxDeviation, tinyEdgeLength ) in the collapses of nearby edges; a degenerate triangle with the longest edge among them is then fixed only if its opposite vertex is within max( maxDeviation, tinyEdgeLength ) from that edge, or by <ref refid="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7" kindref="member">Mode::RemeshPatch</ref> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="89" column="10" bodyfile="MRMesh/MRMeshFixer.h" bodystart="89" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::FixMeshDegeneraciesParams::cb</definition>
@@ -196,14 +180,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFixer.h" line="91" column="22" bodyfile="MRMesh/MRMeshFixer.h" bodystart="91" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFixer.h" line="85" column="22" bodyfile="MRMesh/MRMeshFixer.h" bodystart="85" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshFixer.h" line="52" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="53" bodyend="92"/>
+    <location file="MRMesh/MRMeshFixer.h" line="52" column="1" bodyfile="MRMesh/MRMeshFixer.h" bodystart="53" bodyend="86"/>
     <listofallmembers>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a0eff7987d6820ff165e578fac210c66e" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>cb</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a78bb997d121e9c191fabce84d8f05980" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
@@ -211,7 +195,6 @@
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a1288492f43aeb3ebd3709f7eaed006ec" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a39c6c7eb9bf8c2a75b88975d8f434101" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>mimicPatch</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a5c91e8c36061ca0e6a68afef44486f42" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Mode</name></member>
-      <member refid="structMR_1_1FixMeshDegeneraciesParams_1a2f58b5b52ce3c9588255ffc814220198" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>protectAttributeBorders</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a03fabfe38c70165440f7eaf7677e07ce" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>region</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1a53fef689c0014c588a5990ec1626c5a7" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>Remesh</name></member>
       <member refid="structMR_1_1FixMeshDegeneraciesParams_1adbf34724488c4de119231db46448de01" prot="public" virt="non-virtual"><scope>MR::FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>

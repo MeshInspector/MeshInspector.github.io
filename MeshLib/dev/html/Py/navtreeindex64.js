@@ -1,9 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"classmrmeshpy_1_1NodeBitSet.html#acff536e69312f246e4887cdd370bf0c0":[9,1,0,0,2,616,30],
-"classmrmeshpy_1_1NodeBitSet.html#acff536e69312f246e4887cdd370bf0c0":[9,1,1,0,1,616,30],
-"classmrmeshpy_1_1NodeBitSet.html#ad2a863b8e3ebac9a7067b63371179a09":[9,1,0,0,2,616,16],
-"classmrmeshpy_1_1NodeBitSet.html#ad2a863b8e3ebac9a7067b63371179a09":[9,1,1,0,1,616,16],
 "classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[9,1,0,0,2,616,40],
 "classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[9,1,1,0,1,616,40],
 "classmrmeshpy_1_1NodeBitSet.html#ad61a251c87e3505ef479a64eb7717bf1":[9,1,0,0,2,616,22],
@@ -249,5 +245,9 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone.html#abdcd69b052df6205382ee2ec151b43f2":[9,1,0,0,2,660,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cone.html#abdcd69b052df6205382ee2ec151b43f2":[9,1,1,0,1,660,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[9,1,0,0,2,661],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[9,1,1,0,1,661]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[9,1,1,0,1,661],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a6d97443d51ac31b0f67b45c25932e150":[9,1,0,0,2,661,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a6d97443d51ac31b0f67b45c25932e150":[9,1,1,0,1,661,1],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[9,1,0,0,2,661,0],
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[9,1,0,0,2,661,2]
 };

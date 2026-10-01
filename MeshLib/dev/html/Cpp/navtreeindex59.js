@@ -1,7 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"index.html":[],
-"namespaceImGui.html":[9,0,1,0,0],
 "namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[9,0,1,0,0,27],
 "namespaceImGui.html#a0d41b8541cb776c3dd51831a279e1166":[9,0,1,0,0,8],
 "namespaceImGui.html#a1de0301581b33a2a2e592a082de3ab16":[9,0,1,0,0,33],
@@ -54,16 +52,16 @@ var NAVTREEINDEX59 =
 "namespaceMR.html#a03d4bc2fa6d66cfcaa8ed9d0b124e863":[9,0,1,0,1,1042],
 "namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[9,0,1,0,1,1045],
 "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8":[9,0,1,0,1,1043],
-"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2442],
-"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2332],
+"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2440],
+"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2330],
 "namespaceMR.html#a9381161a7388eeabb33982f4df1cf1c3":[9,0,1,0,1,1046],
 "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8":[9,0,1,0,1,1044],
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,994],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1047],
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2441],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3126],
-"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2324],
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2440],
+"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2439],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3124],
+"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2322],
+"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2438],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1McpGateway.html#a9ff5364896665cd137e921006696f4ad":[9,0,1,0,1,22,12],
 "namespaceMR_1_1McpGateway.html#aa850caecea2d15bbf4a28557f7c247b5":[9,0,1,0,1,22,11],
 "namespaceMR_1_1McpGateway.html#ac20c4e1c03dba31d5c77bdd7aa9f78d0":[9,0,1,0,1,22,7],
-"namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e":[9,0,1,0,1,22,6]
+"namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e":[9,0,1,0,1,22,6],
+"namespaceMR_1_1McpSettings.html":[9,0,1,0,1,23],
+"namespaceMR_1_1McpSettings.html#a06c69dc8895e8070a05934c88d606346":[9,0,1,0,1,23,4]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html":[9,1,0,0,2,580],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html":[9,1,1,0,1,580],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html#a2d1347b7566511185c8de5a8b57f111e":[9,1,0,0,2,580,1],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html#a2d1347b7566511185c8de5a8b57f111e":[9,1,1,0,1,580,1],
 "classmrmeshpy_1_1MinMaxArg__float__VertId.html#a2db596444cfa6f872733c723f582cb51":[9,1,0,0,2,580,0],
 "classmrmeshpy_1_1MinMaxArg__float__VertId.html#a2db596444cfa6f872733c723f582cb51":[9,1,1,0,1,580,0],
 "classmrmeshpy_1_1MinMaxArg__float__VertId.html#a7254dcfe234dbd31b609485d0d798986":[9,1,0,0,2,580,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1MultiwayAligningTransform.html#a8c6e4084649c4b0472c23f43666a6c88":[9,1,0,0,2,590,2],
 "classmrmeshpy_1_1MultiwayAligningTransform.html#a8c6e4084649c4b0472c23f43666a6c88":[9,1,1,0,1,590,2],
 "classmrmeshpy_1_1MultiwayAligningTransform.html#ab224475675855739431f7747ca691553":[9,1,0,0,2,590,3],
-"classmrmeshpy_1_1MultiwayAligningTransform.html#ab224475675855739431f7747ca691553":[9,1,1,0,1,590,3]
+"classmrmeshpy_1_1MultiwayAligningTransform.html#ab224475675855739431f7747ca691553":[9,1,1,0,1,590,3],
+"classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html":[9,1,0,0,2,590,0],
+"classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html":[9,1,1,0,1,590,0],
+"classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html#a04cba48fefc79451ea785240f4c3bf49":[9,1,0,0,2,590,0,5],
+"classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer.html#a04cba48fefc79451ea785240f4c3bf49":[9,1,1,0,1,590,0,5]
 };

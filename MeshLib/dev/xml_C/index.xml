@@ -15009,15 +15009,12 @@
     <member refid="MRMeshFixer_8h_1a2b4946b0a0da70442589edf2c4747233" kind="function"><name>MR_FixMeshDegeneraciesParams_Get_mimicPatch</name></member>
     <member refid="MRMeshFixer_8h_1affcecb60551f425fa988bc27dd5d5e26" kind="function"><name>MR_FixMeshDegeneraciesParams_Set_mimicPatch</name></member>
     <member refid="MRMeshFixer_8h_1adbe70c1daecd71cf78a8f65d76468c4b" kind="function"><name>MR_FixMeshDegeneraciesParams_GetMutable_mimicPatch</name></member>
-    <member refid="MRMeshFixer_8h_1a91fd0f16efb12c86827ec75d8af3c711" kind="function"><name>MR_FixMeshDegeneraciesParams_Get_protectAttributeBorders</name></member>
-    <member refid="MRMeshFixer_8h_1aa362b62fed13312937a14e185b025164" kind="function"><name>MR_FixMeshDegeneraciesParams_Set_protectAttributeBorders</name></member>
-    <member refid="MRMeshFixer_8h_1ad018adfdd5f010dbd10cedc4ecc12da6" kind="function"><name>MR_FixMeshDegeneraciesParams_GetMutable_protectAttributeBorders</name></member>
     <member refid="MRMeshFixer_8h_1a41b2e93cc66c734a622e9f19ecb39b2c" kind="function"><name>MR_FixMeshDegeneraciesParams_Get_cb</name></member>
     <member refid="MRMeshFixer_8h_1ae5ffeeee2c218749e4047398725d323b" kind="function"><name>MR_FixMeshDegeneraciesParams_Set_cb</name></member>
     <member refid="MRMeshFixer_8h_1a842633a78691c5bcd9bf6a24194314d9" kind="function"><name>MR_FixMeshDegeneraciesParams_GetMutable_cb</name></member>
     <member refid="MRMeshFixer_8h_1aa82e31ecefb88180af57e86dc24fa6bd" kind="function"><name>MR_FixMeshDegeneraciesParams_DefaultConstruct</name></member>
     <member refid="MRMeshFixer_8h_1a557c4a9379d280031a8ae1718fc7d985" kind="function"><name>MR_FixMeshDegeneraciesParams_DefaultConstructArray</name></member>
-    <member refid="MRMeshFixer_8h_1a3f2d9c5d4ecb887b8592d3ab227735b2" kind="function"><name>MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
+    <member refid="MRMeshFixer_8h_1ab5c10c96e86f5552dec7369e13e30c1a" kind="function"><name>MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
     <member refid="MRMeshFixer_8h_1afa4d00a83cfa7e71eb7021dd7518a661" kind="function"><name>MR_FixMeshDegeneraciesParams_OffsetPtr</name></member>
     <member refid="MRMeshFixer_8h_1a26315aa1ae0c8b2834fc7aafac3bba00" kind="function"><name>MR_FixMeshDegeneraciesParams_OffsetMutablePtr</name></member>
     <member refid="MRMeshFixer_8h_1af758c72ac366a24b72cfc66c647af8c9" kind="function"><name>MR_FixMeshDegeneraciesParams_ConstructFromAnother</name></member>
@@ -15025,7 +15022,6 @@
     <member refid="MRMeshFixer_8h_1aea76bd4d0ef614c6c6c813c1aca5a3d3" kind="function"><name>MR_FixMeshDegeneraciesParams_DestroyArray</name></member>
     <member refid="MRMeshFixer_8h_1a6f9fc3e38ab53593985af7a1c41eec36" kind="function"><name>MR_FixMeshDegeneraciesParams_AssignFromAnother</name></member>
     <member refid="MRMeshFixer_8h_1a47e489904520d211193647c552f184e7" kind="function"><name>MR_fixMeshDegeneracies</name></member>
-    <member refid="MRMeshFixer_8h_1aa2482773730ad47c6026dc651e98ca21" kind="function"><name>MR_fixMeshDataDegeneracies</name></member>
     <member refid="MRMeshFixer_8h_1a36755d6695af97208938b826ca36d37c" kind="function"><name>MR_findInnerVertsOfDegree</name></member>
     <member refid="MRMeshFixer_8h_1a4fdeaba5eb9aecce9fc1e3884dbc789e" kind="function"><name>MR_isEdgeBetweenDoubleTris</name></member>
     <member refid="MRMeshFixer_8h_1a64ebdebfed9ac51cb5f089a461b71faf" kind="function"><name>MR_eliminateDoubleTris</name></member>
@@ -18462,7 +18458,6 @@
     <member refid="MRObjectMeshData_8h_1a8943c22786649cddb96b2224047d149c" kind="function"><name>MR_ObjectMeshData_clone</name></member>
     <member refid="MRObjectMeshData_8h_1a9d0bb29fbef6800843d6eb4a6ebf5c5e" kind="function"><name>MR_ObjectMeshData_heapBytes</name></member>
     <member refid="MRObjectMeshData_8h_1a48331984243bc5f349dc700c18d2c664" kind="function"><name>MR_edgesBetweenDifferentColors</name></member>
-    <member refid="MRObjectMeshData_8h_1a5a02278a8f8c3a9ff18f95b9353ca2b8" kind="function"><name>MR_edgesBetweenDifferentTextures</name></member>
     <member refid="MRObjectMeshData_8h_1a4747b56b066542010f007f7c5cd7d51d" kind="function"><name>MR_resizeAttributesToMesh</name></member>
   </compound>
   <compound refid="MRObjectMeshHolder_8h" kind="file"><name>MRObjectMeshHolder.h</name>

@@ -17,7 +17,6 @@ var MRMeshFixer_8h =
     [ "MR::findRepeatedVertsOnHoleBd", "group__MeshFixerGroup.html#ga30b08f4167efdcd741cdad4aeaf5d066", null ],
     [ "MR::findShortEdges", "group__MeshFixerGroup.html#ga3d72f926edb3f593c53583fba7398538", null ],
     [ "MR::fixMeshCreases", "group__MeshFixerGroup.html#ga04f842da188886fe7f430e90a6956a06", null ],
-    [ "MR::fixMeshDataDegeneracies", "group__MeshFixerGroup.html#gad1c53f9374cb68d222f9f777a25f964f", null ],
     [ "MR::fixMeshDegeneracies", "group__MeshFixerGroup.html#ga1e63ddf91205ab34304a9ff3b2b550a2", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaa6e120bc37618d508cf410a20edaa787", null ],
     [ "MR::fixMultipleEdges", "group__MeshFixerGroup.html#gaad5217689f3dbf4fefa9827d286a9871", null ],

@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="191" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="192" bodyend="205"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="178" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="179" bodyend="192"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="property">
@@ -166,21 +166,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="80" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="80" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="classMR_1_1Const__FixMeshDegeneraciesParams_1aa5069a37ad7b32e3e87f7676168d1f74" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>unsafe bool</type>
-        <definition>unsafe bool MR.Const_FixMeshDegeneraciesParams.protectAttributeBorders</definition>
-        <argsstring></argsstring>
-        <name>protectAttributeBorders</name>
-        <qualifiedname>MR.Const_FixMeshDegeneraciesParams.protectAttributeBorders</qualifiedname>
-        <briefdescription>
-<para>only for fixMeshDataDegeneracies (fixMeshDegeneracies ignores it): never flip the edges between faces with different colors or texture ids, the selected edges and the creases, so that the fixing does not move them, but their vertices can still shift by up to max( maxDeviation, tinyEdgeLength ) in the collapses of nearby edges; a degenerate triangle with the longest edge among them is then fixed only if its opposite vertex is within max( maxDeviation, tinyEdgeLength ) from that edge, or by <ref refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a3dd3870eb93ae71848370ead6b73c8d5afdff1c7af1a0e17ae94181b693bb5de7" kindref="member">Mode.RemeshPatch</ref> </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="89" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="89" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__FixMeshDegeneraciesParams_1ab7950c46cb0fdeff918f730ef3d1f7b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
         <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_FixMeshDegeneraciesParams.cb</definition>
@@ -193,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="92" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="92" bodyend="92"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="83" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="83" bodyend="83"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -309,20 +294,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="81" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="81" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classMR_1_1Const__FixMeshDegeneraciesParams_1ae3d43f03eb539ecc27698bb6c1107e2f" prot="protected" static="no" mutable="no">
-        <type>unsafe bool *</type>
-        <definition>unsafe bool* MR.Const_FixMeshDegeneraciesParams.__ref_storage_protectAttributeBorders</definition>
-        <argsstring></argsstring>
-        <name>__ref_storage_protectAttributeBorders</name>
-        <qualifiedname>MR.Const_FixMeshDegeneraciesParams.__ref_storage_protectAttributeBorders</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="90" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="90" bodyend="-1"/>
-      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a291a86810571ea0136416d7e3d3a6197" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -372,12 +343,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="154" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="154" bodyend="158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="141" bodyend="145"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a5fb2d83f34596e610caac9274a11aeba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1aad748e53b582104a5c56a4ed1e68a060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FixMeshDegeneraciesParams.Const_FixMeshDegeneraciesParams</definition>
-        <argsstring>(float maxDeviation, float tinyEdgeLength, float criticalTriAspectRatio, float maxAngleChange, float stabilizer, MR.FaceBitSet? region, MR.FixMeshDegeneraciesParams.Mode mode, bool mimicPatch, bool protectAttributeBorders, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(float maxDeviation, float tinyEdgeLength, float criticalTriAspectRatio, float maxAngleChange, float stabilizer, MR.FaceBitSet? region, MR.FixMeshDegeneraciesParams.Mode mode, bool mimicPatch, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>Const_FixMeshDegeneraciesParams</name>
         <qualifiedname>MR.Const_FixMeshDegeneraciesParams.Const_FixMeshDegeneraciesParams</qualifiedname>
         <param>
@@ -413,10 +384,6 @@
           <declname>mimicPatch</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>protectAttributeBorders</declname>
-        </param>
-        <param>
           <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
@@ -427,7 +394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="163" bodyend="169"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="150" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="150" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a8297b179e9ea4e71524f4c771f46f210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -446,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="174" bodyend="179"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="161" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="161" bodyend="166"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a4ed42362c83a078cabd8cb7e23e9ef5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -465,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="184" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="184" bodyend="184"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="171" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="171" bodyend="171"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a0a463aa3bee483acbd62fd902da9dfcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -484,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="189" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="189" bodyend="189"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="176" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="176" bodyend="176"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -524,14 +491,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="143" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="143" bodyend="148"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="130" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="130" bodyend="135"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a6d3897f65ac5c711030d84b4eb51c61a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a604ba08e7a3016fba2d42493dd5057d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FixMeshDegeneraciesParams._Underlying *</type>
         <definition>static unsafe MR.FixMeshDegeneraciesParams._Underlying * MR.Const_FixMeshDegeneraciesParams.__MR_FixMeshDegeneraciesParams_ConstructFrom</definition>
-        <argsstring>(float maxDeviation, float tinyEdgeLength, float criticalTriAspectRatio, float maxAngleChange, float stabilizer, MR.FaceBitSet._Underlying *region, MR.FixMeshDegeneraciesParams.Mode mode, byte mimicPatch, byte protectAttributeBorders, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
+        <argsstring>(float maxDeviation, float tinyEdgeLength, float criticalTriAspectRatio, float maxAngleChange, float stabilizer, MR.FaceBitSet._Underlying *region, MR.FixMeshDegeneraciesParams.Mode mode, byte mimicPatch, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
         <name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name>
         <qualifiedname>MR.Const_FixMeshDegeneraciesParams.__MR_FixMeshDegeneraciesParams_ConstructFrom</qualifiedname>
         <param>
@@ -567,10 +534,6 @@
           <declname>mimicPatch</declname>
         </param>
         <param>
-          <type>byte</type>
-          <declname>protectAttributeBorders</declname>
-        </param>
-        <param>
           <type>MR.Misc._PassBy</type>
           <declname>cb_pass_by</declname>
         </param>
@@ -584,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="210" column="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="197" column="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a9b85bb0947e7b8d8b2ffb26e10500dba" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FixMeshDegeneraciesParams._Underlying *</type>
@@ -606,7 +569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="213" column="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="200" column="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a2e4b1f2cf1d1e4a99ef462ea75233e09" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FixMeshDegeneraciesParams._Underlying *</type>
@@ -620,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="216" column="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="203" column="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a9c0973976798c68cc8332b09b10aa002" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -638,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="219" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="206" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1af88d910df89ed83993c879c90f7254b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
@@ -656,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="222" column="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="209" column="77"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a7cc06117657e1bb384606dd2ee18329c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -674,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="225" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="212" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a2caf470b9a36d98bd35957e793447fb6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -692,7 +655,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="228" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="215" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1af219c1eb3869b4ef5dbaf00d05a667a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -710,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="231" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="218" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a1911bb496cc17922b18358c1fbcb2d6c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -728,7 +691,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="234" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="221" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1ad147d6ff738c8f10abd8328db38d230b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a3dd3870eb93ae71848370ead6b73c8d5" kindref="member">MR.FixMeshDegeneraciesParams.Mode</ref> *</type>
@@ -746,25 +709,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="237" column="62"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1adac38de1989a6b8d711eb22e40334c69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe bool *</type>
-        <definition>static unsafe bool * MR.Const_FixMeshDegeneraciesParams.__MR_FixMeshDegeneraciesParams_Get_protectAttributeBorders</definition>
-        <argsstring>(MR.Const_FixMeshDegeneraciesParams._Underlying *_this)</argsstring>
-        <name>__MR_FixMeshDegeneraciesParams_Get_protectAttributeBorders</name>
-        <qualifiedname>MR.Const_FixMeshDegeneraciesParams.__MR_FixMeshDegeneraciesParams_Get_protectAttributeBorders</qualifiedname>
-        <param>
-          <type>MR.Const_FixMeshDegeneraciesParams._Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="240" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="224" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a4adbe1ed6bebdf3dba9beb4609e8cc5d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying **</type>
@@ -782,7 +727,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="243" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="227" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a189a35d5ea851dbc89e0f5c68a17a8fd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -800,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="246" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="230" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__FixMeshDegeneraciesParams_1a6fc4ddb0570ff141949871ed79e22bec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -818,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="249" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="233" column="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -872,9 +817,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="8" bodyend="250"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="8" bodyend="234"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a6d3897f65ac5c711030d84b4eb51c61a" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a604ba08e7a3016fba2d42493dd5057d3" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9b85bb0947e7b8d8b2ffb26e10500dba" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a2e4b1f2cf1d1e4a99ef462ea75233e09" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9c0973976798c68cc8332b09b10aa002" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Destroy</name></member>
@@ -884,7 +829,6 @@
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1af219c1eb3869b4ef5dbaf00d05a667a1" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_maxDeviation</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a1911bb496cc17922b18358c1fbcb2d6c" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_mimicPatch</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ad147d6ff738c8f10abd8328db38d230b" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_mode</name></member>
-      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1adac38de1989a6b8d711eb22e40334c69" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_protectAttributeBorders</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a4adbe1ed6bebdf3dba9beb4609e8cc5d" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_region</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a189a35d5ea851dbc89e0f5c68a17a8fd" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_stabilizer</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a6fc4ddb0570ff141949871ed79e22bec" prot="private" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__MR_FixMeshDegeneraciesParams_Get_tinyEdgeLength</name></member>
@@ -894,13 +838,12 @@
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a052ab98356845d818ac9db4720d189db" prot="protected" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__ref_storage_maxDeviation</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a403e6394e4848e64d962288673a26184" prot="protected" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__ref_storage_mimicPatch</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a1f7adbf6131d6e2fd0003b5ce31f7e56" prot="protected" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__ref_storage_mode</name></member>
-      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ae3d43f03eb539ecc27698bb6c1107e2f" prot="protected" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__ref_storage_protectAttributeBorders</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aba77e0617e57ed5155f8ed017e2aa9d9" prot="protected" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__ref_storage_stabilizer</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a7e505a1eccf6614a9ddfcfd6caae9fb7" prot="protected" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>__ref_storage_tinyEdgeLength</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ab7950c46cb0fdeff918f730ef3d1f7b2" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>cb</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9d8cdff7d595486f385364278f01ca68" prot="package" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a856e69fed4dbc0e9f18955062eaf0b7b" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
-      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a5fb2d83f34596e610caac9274a11aeba" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
+      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aad748e53b582104a5c56a4ed1e68a060" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a8297b179e9ea4e71524f4c771f46f210" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a4ed42362c83a078cabd8cb7e23e9ef5e" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a0a463aa3bee483acbd62fd902da9dfcf" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Const_FixMeshDegeneraciesParams</name></member>
@@ -912,7 +855,6 @@
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a064006eaa3ddd709628e9e8549ba56c5" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>mimicPatch</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a3dd3870eb93ae71848370ead6b73c8d5" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>Mode</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a2f1a0ebca914b2980aecf7e8a865afdc" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>mode</name></member>
-      <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aa5069a37ad7b32e3e87f7676168d1f74" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>protectAttributeBorders</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1af78b98031c3bc6e49060c470e74e6f8b" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>region</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a745b673850b932959cc0fbf2f6d2507a" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>
       <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ad34544dd1c8996f18881d7efabfbaf42" prot="public" virt="non-virtual"><scope>MR::Const_FixMeshDegeneraciesParams</scope><name>tinyEdgeLength</name></member>

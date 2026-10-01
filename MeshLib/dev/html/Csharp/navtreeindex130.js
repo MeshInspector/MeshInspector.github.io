@@ -1,10 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"classMR_1_1SceneSave_1_1Const__Settings.html#ac8bffe38d1d85cd7d68f23ebad4a28a9":[9,3,0,0,0,1612,0,8],
-"classMR_1_1SceneSave_1_1Settings.html":[9,3,0,0,0,1612,1],
-"classMR_1_1SceneSave_1_1Settings.html#a14d4cbe22728b139df609530c7124cf7":[9,3,0,0,0,1612,1,3],
-"classMR_1_1SceneSave_1_1Settings.html#a2f6df54ebe971bab9016f6a4a599680f":[9,3,0,0,0,1612,1,5],
-"classMR_1_1SceneSave_1_1Settings.html#a5e595203147ecda13f226eb110e20d49":[9,3,0,0,0,1612,1,7],
 "classMR_1_1SceneSave_1_1Settings.html#a74cae48fadbf58330ad9b08f9a51c932":[9,3,0,0,0,1612,1,4],
 "classMR_1_1SceneSave_1_1Settings.html#a92cdd81059c452c151997518f31e7cff":[9,3,0,0,0,1612,1,6],
 "classMR_1_1SceneSave_1_1Settings.html#ac4ca19a3a0d8ce3343c3e8f48f32417c":[9,3,0,0,0,1612,1,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX130 =
 "classMR_1_1SignedDistanceToMeshOptions.html#a7b3c9fa8816801ba6fc1a22bc7bf62f5":[9,3,0,0,0,1635,3],
 "classMR_1_1SignedDistanceToMeshOptions.html#a838e0a24d37d54f8894575aae28ac6a8":[9,3,0,0,0,1635,4],
 "classMR_1_1SignedDistanceToMeshOptions.html#a96eafe9f6028d482210c64d437f2415a":[9,3,0,0,0,1635,5],
-"classMR_1_1SignedDistanceToMeshOptions.html#aaf0886882da23302fefbc14dac909f5d":[9,3,0,0,0,1635,10]
+"classMR_1_1SignedDistanceToMeshOptions.html#aaf0886882da23302fefbc14dac909f5d":[9,3,0,0,0,1635,10],
+"classMR_1_1SignedDistanceToMeshOptions.html#acc8cb3033573c60f5c9d30d2546ed1f2":[9,3,0,0,0,1635,9],
+"classMR_1_1SignedDistanceToMeshOptions.html#aec5eafe75e5cdd99c6cdc985243c1410":[9,3,0,0,0,1635,8],
+"classMR_1_1SignedDistanceToMeshOptions.html#afbb6ca22069c28e5a565c0887f4bf8fc":[9,3,0,0,0,1635,0],
+"classMR_1_1SignedDistanceToMeshResult.html":[9,3,0,0,0,1636],
+"classMR_1_1SignedDistanceToMeshResult.html#a415b41fda3e1bc40b38d77e78f5f997d":[9,3,0,0,0,1636,5]
 };

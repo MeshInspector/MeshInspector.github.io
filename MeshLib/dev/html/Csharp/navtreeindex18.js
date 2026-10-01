@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"classMR_1_1Buffer__MRPixelId__MRPixelId.html#ae2485b91eb5781f42d32372bd556b6d8":[9,3,0,0,0,152,3],
-"classMR_1_1Buffer__MRPixelId__MRPixelId.html#ae98869eea05072657b818ae4d193f44b":[9,3,0,0,0,152,2],
 "classMR_1_1Buffer__MRPixelId__MRPixelId.html#af1ce6bb6bc8b79727114cfee1f441001":[9,3,0,0,0,152,5],
 "classMR_1_1Buffer__MRRegionId__MRRegionId.html":[9,3,0,0,0,153],
 "classMR_1_1Buffer__MRRegionId__MRRegionId.html#a29bacacfb1e6a455729918aaa2bda70f":[9,3,0,0,0,153,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeMeshPointsAction.html#ad2f4f73282e8362dbf69bd605947f295":[9,3,0,0,0,176,5],
 "classMR_1_1ChangeMeshPointsAction.html#af0e7b70fa483ffb738e67e34aa62e610":[9,3,0,0,0,176,0],
 "classMR_1_1ChangeMeshTexturePerFaceAction.html":[9,3,0,0,0,177],
-"classMR_1_1ChangeMeshTexturePerFaceAction.html#a12a6ee7721be116ecf3a7c5707fbe73b":[9,3,0,0,0,177,2]
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#a12a6ee7721be116ecf3a7c5707fbe73b":[9,3,0,0,0,177,2],
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#a1336bd75958b55fa5e680b4877de7c8b":[9,3,0,0,0,177,1],
+"classMR_1_1ChangeMeshTexturePerFaceAction.html#a1377c4ec5de1b799f9db318967286e30":[9,3,0,0,0,177,5]
 };
