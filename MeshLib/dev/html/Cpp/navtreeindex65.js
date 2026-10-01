@@ -1,5 +1,12 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMenu_1_1LabelParams.html":[9,0,0,20,569],
+"structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html":[9,0,0,20,571],
+"structMR_1_1ImGuiMenu_1_1TagEditorState.html":[9,0,0,20,570],
+"structMR_1_1Image.html":[9,0,0,18,0],
+"structMR_1_1Image.html":[9,0,0,20,297],
+"structMR_1_1ImproveSamplingSettings.html":[9,0,0,20,298],
+"structMR_1_1InSphere.html":[9,0,0,20,374],
 "structMR_1_1InSphereSearchSettings.html":[9,0,0,20,373],
 "structMR_1_1InflateSettings.html":[9,0,0,20,469],
 "structMR_1_1InterpolateScalarsParams.html":[9,0,0,20,467],
@@ -242,12 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Mesh.html#a1d9c349940bd023baeffad5dd6e503f5":[9,0,0,7,1,70],
 "structMR_1_1Mesh.html#a1e2a8eaf7d1882e02a3eea66d1d72349":[9,0,0,7,1,19],
 "structMR_1_1Mesh.html#a1eda7cca99d50abaa6f9c15d4edefabb":[9,0,0,7,1,46],
-"structMR_1_1Mesh.html#a270c420c13ec0ad3d41b3bee66a69fe7":[9,0,0,7,1,111],
-"structMR_1_1Mesh.html#a27a660c62e95948d2e77cd4e2681c0f4":[9,0,0,7,1,58],
-"structMR_1_1Mesh.html#a2ad2ec1a3eff2b13c34415c807db69ad":[9,0,0,7,1,57],
-"structMR_1_1Mesh.html#a30ffc7daf92144ac76a43684a5ca21b4":[9,0,0,7,1,47],
-"structMR_1_1Mesh.html#a3a4be0475ee77042c23f150bf522aae7":[9,0,0,7,1,50],
-"structMR_1_1Mesh.html#a3aab49091b051347cde5a30a3f9ccbcc":[9,0,0,7,1,84],
-"structMR_1_1Mesh.html#a3eb0890a9d7a3fe58757bdd6768610ac":[9,0,0,7,1,2],
-"structMR_1_1Mesh.html#a4040ab24e115ea0cd68fef6a177882c7":[9,0,0,7,1,17]
+"structMR_1_1Mesh.html#a270c420c13ec0ad3d41b3bee66a69fe7":[9,0,0,7,1,111]
 };

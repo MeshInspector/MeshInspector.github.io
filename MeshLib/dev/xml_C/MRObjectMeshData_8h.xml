@@ -827,6 +827,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" line="247" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" declline="247" declcolumn="33"/>
       </memberdef>
+      <memberdef kind="function" id="MRObjectMeshData_8h_1a5a02278a8f8c3a9ff18f95b9353ca2b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_UndirectedEdgeBitSet * MR_edgesBetweenDifferentTextures</definition>
+        <argsstring>(const MR_MeshTopology *topology, const MR_TexturePerFace *textures)</argsstring>
+        <name>MR_edgesBetweenDifferentTextures</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *</type>
+          <declname>textures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return all edges separating faces with different textures Generated from function <computeroutput>MR::edgesBetweenDifferentTextures</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>textures</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRBitSet_8h_1a5f5b1d2e5d4d71fe8be1eddbe649ca16" kindref="member">MR_UndirectedEdgeBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" line="254" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" declline="254" declcolumn="33"/>
+      </memberdef>
       <memberdef kind="function" id="MRObjectMeshData_8h_1a4747b56b066542010f007f7c5cd7d51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_resizeAttributesToMesh</definition>
@@ -843,7 +865,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" line="253" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" declline="253" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" line="260" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h" declline="260" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -952,11 +974,13 @@
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
 <codeline lineno="247" refid="MRObjectMeshData_8h_1a48331984243bc5f349dc700c18d2c664" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRObjectMeshData_8h_1a48331984243bc5f349dc700c18d2c664" kindref="member">MR_edgesBetweenDifferentColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*colors);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRObjectMeshData_8h_1a4747b56b066542010f007f7c5cd7d51d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectMeshData_8h_1a4747b56b066542010f007f7c5cd7d51d" kindref="member">MR_resizeAttributesToMesh</ref>(<ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*data);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="256"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="254" refid="MRObjectMeshData_8h_1a5a02278a8f8c3a9ff18f95b9353ca2b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRObjectMeshData_8h_1a5a02278a8f8c3a9ff18f95b9353ca2b8" kindref="member">MR_edgesBetweenDifferentTextures</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*textures);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRObjectMeshData_8h_1a4747b56b066542010f007f7c5cd7d51d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRObjectMeshData_8h_1a4747b56b066542010f007f7c5cd7d51d" kindref="member">MR_resizeAttributesToMesh</ref>(<ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*data);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRObjectMeshData.h"/>
   </compounddef>

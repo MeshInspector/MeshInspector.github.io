@@ -176,6 +176,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga070d3e16e2fb8549c1d840e8595948bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes all faces having at least one edge longer than maxEdgeLength  <br /></td></tr>
 <tr class="memitem:ga1e63ddf91205ab34304a9ff3b2b550a2" id="r_ga1e63ddf91205ab34304a9ff3b2b550a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e63ddf91205ab34304a9ff3b2b550a2">MR::fixMeshDegeneracies</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> &amp;params)</td></tr>
 <tr class="memdesc:ga1e63ddf91205ab34304a9ff3b2b550a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixes degenerate faces and short edges in mesh (changes topology)  <br /></td></tr>
+<tr class="memitem:gad1c53f9374cb68d222f9f777a25f964f" id="r_gad1c53f9374cb68d222f9f777a25f964f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1c53f9374cb68d222f9f777a25f964f">MR::fixMeshDataDegeneracies</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data, const <a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> &amp;params)</td></tr>
 <tr class="memitem:ga83684a28016ea3e3feadd7c643905e6d" id="r_ga83684a28016ea3e3feadd7c643905e6d"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga83684a28016ea3e3feadd7c643905e6d">MR::findInnerVertsOfDegree</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, int n, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:ga83684a28016ea3e3feadd7c643905e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all inner vertices in region with the given number of incident edges each  <br /></td></tr>
 <tr class="memitem:ga754a74fa515375b32aee32394abe05f6" id="r_ga754a74fa515375b32aee32394abe05f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga754a74fa515375b32aee32394abe05f6">MR::isEdgeBetweenDoubleTris</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId e)</td></tr>
@@ -711,6 +712,30 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</code></p>
 
 <p>Finds creases edges and re-triangulates planar areas around them, useful to fix double faces. </p>
+
+</div>
+</div>
+<a id="gad1c53f9374cb68d222f9f777a25f964f" name="gad1c53f9374cb68d222f9f777a25f964f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1c53f9374cb68d222f9f777a25f964f">&#9670;&#160;</a></span>fixMeshDataDegeneracies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::fixMeshDataDegeneracies </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html">FixMeshDegeneraciesParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshFixer_8h.html">MRMesh/MRMeshFixer.h</a>&gt;</code></p>
+<p>Fixes degenerate faces and short edges in the mesh of data like fixMeshDegeneracies, and keeps all per-element attributes of data valid: the elements from edge splits get the attributes of the split elements (interpolated for vertices), and the new elements of Mode::RemeshPatch get the attributes of the nearest points of the removed surface; with params.protectAttributeBorders = false the mesh is the same as from fixMeshDegeneracies, but an edge flip keeps the ids of the edge and of its two faces, so it can move a border between different face attributes, a selected edge or a crease to the other diagonal of the quadrangle </p>
 
 </div>
 </div>

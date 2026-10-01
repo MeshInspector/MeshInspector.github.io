@@ -1,5 +1,12 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PolylineSubdivideSettings.html#a6fb7e5a3cc422db6b191956e2e931bff":[9,0,0,15,0,3],
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23":[9,0,0,15,0,6],
+"structMR_1_1PolylineSubdivideSettings.html#a99ce30c33108d826ab31a84dcfb796e9":[9,0,0,15,0,4],
+"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3":[9,0,0,15,0,7],
+"structMR_1_1PolylineSubdivideSettings.html#afd1b05e15df328d6581de39d05ef0ba2":[9,0,0,15,0,5],
+"structMR_1_1PolylineSubdivideSettings.html#afd93804f4deac58fb3c9851426d2d9a3":[9,0,0,15,0,1],
+"structMR_1_1PolylineToDistanceVolumeParams.html":[9,0,0,20,885],
 "structMR_1_1PolylineToVolumeParams.html":[9,0,0,20,886],
 "structMR_1_1PolylineTraits.html":[9,0,0,1,8],
 "structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[9,0,0,1,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1TimeRecord.html#a80d3da8e260d6c62716855a674a2bc46":[9,0,0,3,13,1],
 "structMR_1_1TimeRecord.html#aa1636ed4f889fa0058dc49ddbf33c8ff":[9,0,0,3,13,0],
 "structMR_1_1TimeRecord.html#aa4ecd25889d637813c8abcc75610cf51":[9,0,0,3,13,4],
-"structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af":[9,0,0,3,13,2],
-"structMR_1_1TimeRecord.html#aefc29a1b393cb4e47eec9c964a56b8f9":[9,0,0,3,13,3],
-"structMR_1_1ToolPathParams.html":[9,0,0,20,899],
-"structMR_1_1ToolPathResult.html":[9,0,0,20,904],
-"structMR_1_1TouchEndListener.html":[9,0,0,20,813],
-"structMR_1_1TouchMoveListener.html":[9,0,0,20,812],
-"structMR_1_1TouchStartListener.html":[9,0,0,20,811],
-"structMR_1_1TouchpadParameters.html":[9,0,0,20,767]
+"structMR_1_1TimeRecord.html#ae2011c61063c65e0a8f63688cb97f6af":[9,0,0,3,13,2]
 };

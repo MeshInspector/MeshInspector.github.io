@@ -204,6 +204,11 @@ Functions</h2></td></tr>
 <tr class="memdesc:a92b09b917f0685293d7605ed0b7986a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">end state plugin window with custom style  <br /></td></tr>
 <tr class="memitem:acf0100b42cbaf8998bfce08740ceb543" id="r_acf0100b42cbaf8998bfce08740ceb543"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf0100b42cbaf8998bfce08740ceb543">BeginModalNoAnimation</a> (const char *label, bool *open=nullptr, ImGuiWindowFlags flags=0)</td></tr>
 <tr class="memdesc:acf0100b42cbaf8998bfce08740ceb543"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts modal window with no animation for background  <br /></td></tr>
+<tr class="memitem:adbd1f922c656fb33c73e1a0823b6ffeb" id="r_adbd1f922c656fb33c73e1a0823b6ffeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd1f922c656fb33c73e1a0823b6ffeb">EnqueuePopup</a> (const char *str_id)</td></tr>
+<tr class="memitem:a24bc7a31f5653609a6debb19f46e8e96" id="r_a24bc7a31f5653609a6debb19f46e8e96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24bc7a31f5653609a6debb19f46e8e96">EnqueuePopup</a> (ImGuiID id)</td></tr>
+<tr class="memitem:a8242055f7640c8724d74793612778f81" id="r_a8242055f7640c8724d74793612778f81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8242055f7640c8724d74793612778f81">OpenTopPriorityPopup</a> (ImGuiID id)</td></tr>
+<tr class="memitem:a8efd9ce0caa50817365088533014393a" id="r_a8efd9ce0caa50817365088533014393a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8efd9ce0caa50817365088533014393a">OpenEnqueuedPopup</a> ()</td></tr>
+<tr class="memdesc:a8efd9ce0caa50817365088533014393a"><td class="mdescLeft">&#160;</td><td class="mdescRight">opens the first enqueued popup if no modal is open; called by ImGuiMenu each frame after ImGui::NewFrame  <br /></td></tr>
 <tr class="memitem:a5defcf8082320dec4abc0770f3bc99d2" id="r_a5defcf8082320dec4abc0770f3bc99d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5defcf8082320dec4abc0770f3bc99d2">InputIntBitSet</a> (const char *label, int *v, const <a class="el" href="classMR_1_1BitSet.html">MR::BitSet</a> &amp;bs, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</td></tr>
 <tr class="memdesc:a5defcf8082320dec4abc0770f3bc99d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as ImGui::InputInt  <br /></td></tr>
 <tr class="memitem:ac6574da9d1febddb9aa79e7f9bdd7038" id="r_ac6574da9d1febddb9aa79e7f9bdd7038"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6574da9d1febddb9aa79e7f9bdd7038">DragInputInt</a> (const char *label, int *value, float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;, ImGuiSliderFlags flags=ImGuiSliderFlags_None)</td></tr>
@@ -886,6 +891,41 @@ template&lt;typename GetValueFunc, typename SetValueFunc&gt; </div>
 
 </div>
 </div>
+<a id="adbd1f922c656fb33c73e1a0823b6ffeb" name="adbd1f922c656fb33c73e1a0823b6ffeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbd1f922c656fb33c73e1a0823b6ffeb">&#9670;&#160;</a></span>EnqueuePopup() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ImGui::EnqueuePopup </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str_id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use instead of ImGui::OpenPopup for modal popups, since opening a popup closes the one open at the same level: opens the popup now if no modal is open, otherwise after the open modal and all popups enqueued earlier are closed; inside an open popup (between Begin* and EndPopup) opens a nested popup now, like ImGui::OpenPopup; does nothing if the popup is already open or enqueued </p>
+
+</div>
+</div>
+<a id="a24bc7a31f5653609a6debb19f46e8e96" name="a24bc7a31f5653609a6debb19f46e8e96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24bc7a31f5653609a6debb19f46e8e96">&#9670;&#160;</a></span>EnqueuePopup() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ImGui::EnqueuePopup </td>
+          <td>(</td>
+          <td class="paramtype">ImGuiID</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a471b8f48842ef21f90356a0070d33d1d" name="a471b8f48842ef21f90356a0070d33d1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a471b8f48842ef21f90356a0070d33d1d">&#9670;&#160;</a></span>GetDownPosition()</h2>
 
@@ -1384,6 +1424,43 @@ value can't be changed if bs has no any valid value </dd></dl>
 </div><div class="memdoc">
 
 <p>draw exit button with close cross (i.e. for settings modal popup ) </p>
+
+</div>
+</div>
+<a id="a8efd9ce0caa50817365088533014393a" name="a8efd9ce0caa50817365088533014393a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efd9ce0caa50817365088533014393a">&#9670;&#160;</a></span>OpenEnqueuedPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ImGui::OpenEnqueuedPopup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>opens the first enqueued popup if no modal is open; called by ImGuiMenu each frame after ImGui::NewFrame </p>
+
+</div>
+</div>
+<a id="a8242055f7640c8724d74793612778f81" name="a8242055f7640c8724d74793612778f81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8242055f7640c8724d74793612778f81">&#9670;&#160;</a></span>OpenTopPriorityPopup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ImGui::OpenTopPriorityPopup </td>
+          <td>(</td>
+          <td class="paramtype">ImGuiID</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>opens the popup now even if a modal is open: that modal is closed and opens again first once this popup is closed (popups nested in it are not reopened); for the progress bar, which has to block the UI from the moment an operation is ordered </p>
 
 </div>
 </div>

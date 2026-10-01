@@ -1,5 +1,11 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,1,0,1,103,2],
+"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,2,0,2,85,2],
+"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[9,0,1,0,1,103,1],
+"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[9,0,2,0,2,85,1],
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[9,0,1,0,1,103,0],
+"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[9,0,2,0,2,85,0],
 "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html":[9,0,0,20,618],
 "structMR_1_1Box.html":[9,0,0,0,2,0],
 "structMR_1_1Box.html#a047eb0e28cab517e74255789df872504":[9,0,0,0,2,0,32],
@@ -243,11 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DragListener.html":[9,0,0,20,796],
 "structMR_1_1DragOverListener.html":[9,0,0,20,807],
 "structMR_1_1DragStartListener.html":[9,0,0,20,794],
-"structMR_1_1DrawButtonParams.html":[9,0,0,20,679],
-"structMR_1_1DrawListener.html":[9,0,0,20,803],
-"structMR_1_1DrawSceneUiListener.html":[9,0,0,20,610],
-"structMR_1_1EdgeLengthMesh.html":[9,0,0,7,0],
-"structMR_1_1EdgeLengthMesh.html":[9,0,0,20,205],
-"structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html":[9,0,0,20,210],
-"structMR_1_1EdgePoint.html":[9,0,0,20,214]
+"structMR_1_1DrawButtonParams.html":[9,0,0,20,679]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"classmrmeshpy_1_1MeshTopology.html#a8cff20f14d08a4cf6be10125d7d6fd01":[9,1,0,0,2,572,74],
+"classmrmeshpy_1_1MeshTopology.html#a8cff20f14d08a4cf6be10125d7d6fd01":[9,1,1,0,1,572,74],
+"classmrmeshpy_1_1MeshTopology.html#a8da1e0b5e3b1f42bdde2ed399b1694b2":[9,1,0,0,2,572,59],
+"classmrmeshpy_1_1MeshTopology.html#a8da1e0b5e3b1f42bdde2ed399b1694b2":[9,1,1,0,1,572,59],
 "classmrmeshpy_1_1MeshTopology.html#a9039791096460a4b675d546babb43ca3":[9,1,0,0,2,572,98],
 "classmrmeshpy_1_1MeshTopology.html#a9039791096460a4b675d546babb43ca3":[9,1,1,0,1,572,98],
 "classmrmeshpy_1_1MeshTopology.html#a9066abdd9c68fea9be3e97862d157ea9":[9,1,0,0,2,572,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "classmrmeshpy_1_1MetricToAStarPenalty.html#abbfb34a9e8409658aa7f48720ddba2ef":[9,1,0,0,2,579,2],
 "classmrmeshpy_1_1MetricToAStarPenalty.html#abbfb34a9e8409658aa7f48720ddba2ef":[9,1,1,0,1,579,2],
 "classmrmeshpy_1_1MetricToAStarPenalty.html#acfa9edde8c0ca9ef7fafa83f5ebb50dc":[9,1,0,0,2,579,1],
-"classmrmeshpy_1_1MetricToAStarPenalty.html#acfa9edde8c0ca9ef7fafa83f5ebb50dc":[9,1,1,0,1,579,1],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html":[9,1,0,0,2,580],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html":[9,1,1,0,1,580],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html#a2d1347b7566511185c8de5a8b57f111e":[9,1,0,0,2,580,1],
-"classmrmeshpy_1_1MinMaxArg__float__VertId.html#a2d1347b7566511185c8de5a8b57f111e":[9,1,1,0,1,580,1]
+"classmrmeshpy_1_1MetricToAStarPenalty.html#acfa9edde8c0ca9ef7fafa83f5ebb50dc":[9,1,1,0,1,579,1]
 };

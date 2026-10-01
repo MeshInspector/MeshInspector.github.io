@@ -1,9 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#aef18acdff79e42342561f709e03f23ef":[9,1,0,0,2,301,6],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#aef18acdff79e42342561f709e03f23ef":[9,1,1,0,1,301,6],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af11bff844a9425eeb8cfdf0e6d815521":[9,1,0,0,2,301,9],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af11bff844a9425eeb8cfdf0e6d815521":[9,1,1,0,1,301,9],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af1fa642dd015c97f9141ea6cecb2d29a":[9,1,0,0,2,301,4],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af1fa642dd015c97f9141ea6cecb2d29a":[9,1,1,0,1,301,4],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af4b2cbe65ab13459cdc1658a19b35659":[9,1,0,0,2,301,14],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af4b2cbe65ab13459cdc1658a19b35659":[9,1,1,0,1,301,14],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af4b2cbe65ab13459cdc1658a19b35659":[9,1,0,0,2,301,16],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#af4b2cbe65ab13459cdc1658a19b35659":[9,1,1,0,1,301,16],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html":[9,1,0,0,2,301,0],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html":[9,1,1,0,1,301,0],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#a09e14a1fbcd07c4226e7d6aa151cd4af":[9,1,0,0,2,301,0,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "classmrmeshpy_1_1FreeFormDeformer.html#a5d23668f817802a2159e5bcddaea86d4":[9,1,0,0,2,310,0],
 "classmrmeshpy_1_1FreeFormDeformer.html#a5d23668f817802a2159e5bcddaea86d4":[9,1,1,0,1,310,0],
 "classmrmeshpy_1_1FreeFormDeformer.html#a978da9e8e62c7df1ae7245f5bcea7c99":[9,1,0,0,2,310,10],
-"classmrmeshpy_1_1FreeFormDeformer.html#a978da9e8e62c7df1ae7245f5bcea7c99":[9,1,1,0,1,310,10],
-"classmrmeshpy_1_1FreeFormDeformer.html#a99805b1064c10d7a2eb4ee7936eb7491":[9,1,0,0,2,310,5],
-"classmrmeshpy_1_1FreeFormDeformer.html#a99805b1064c10d7a2eb4ee7936eb7491":[9,1,1,0,1,310,5],
-"classmrmeshpy_1_1FreeFormDeformer.html#a9cb66a7ff75e56a31498d4a8d7da751d":[9,1,0,0,2,310,1],
-"classmrmeshpy_1_1FreeFormDeformer.html#a9cb66a7ff75e56a31498d4a8d7da751d":[9,1,1,0,1,310,1]
+"classmrmeshpy_1_1FreeFormDeformer.html#a978da9e8e62c7df1ae7245f5bcea7c99":[9,1,1,0,1,310,10]
 };

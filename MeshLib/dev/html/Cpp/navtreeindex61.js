@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"namespaceWasm.html":[9,0,1,0,3],
+"namespaceWasm.html#a36950f79f9abe0a2bc245e925d5797ab":[9,0,1,0,3,11],
+"namespaceWasm.html#a36f8f8b55be7990fef04d7603b11cba0":[9,0,1,0,3,8],
+"namespaceWasm.html#a44512ca9f7d57381b2a99216ca21d356":[9,0,1,0,3,13],
+"namespaceWasm.html#a6d333399973ee8089ff5eb4c186904ef":[9,0,1,0,3,12],
+"namespaceWasm.html#a8fcf46baef17e780656f368b02733012":[9,0,1,0,3,9],
 "namespaceWasm.html#aacfb315c0db2d2b7e53cdc1d52ecfd03":[9,0,1,0,3,10],
 "namespaceWasm.html#addc62d9e0722d3324e1f25bced9f48b2":[9,0,1,0,3,14],
 "namespacemembers.html":[9,0,1,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,0,0,8,0,0,1],
 "structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[9,0,0,8,0,0,3],
 "structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,103],
-"structMR_1_1BooleanResultPoints.html":[9,0,2,0,2,85],
-"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,1,0,1,103,2],
-"structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,2,0,2,85,2],
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[9,0,1,0,1,103,1],
-"structMR_1_1BooleanResultPoints.html#a758818e3193d5a31f2ce34e7fef01456":[9,0,2,0,2,85,1],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[9,0,1,0,1,103,0],
-"structMR_1_1BooleanResultPoints.html#abc2f5304a2f9d4dc1963601907fb744f":[9,0,2,0,2,85,0]
+"structMR_1_1BooleanResultPoints.html":[9,0,2,0,2,85]
 };

@@ -6556,6 +6556,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memdesc:ga5f3fabf962173f318cdc109b9768b8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:gaae4731717fe16466c829b33fc212802e" id="r_gaae4731717fe16466c829b33fc212802e"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaae4731717fe16466c829b33fc212802e">MR::edgesBetweenDifferentColors</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceColors &amp;colors)</td></tr>
 <tr class="memdesc:gaae4731717fe16466c829b33fc212802e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different colors  <br /></td></tr>
+<tr class="memitem:ga31e22685884ff5b009ed2fe8836bb22f" id="r_ga31e22685884ff5b009ed2fe8836bb22f"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga31e22685884ff5b009ed2fe8836bb22f">MR::edgesBetweenDifferentTextures</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const TexturePerFace &amp;textures)</td></tr>
+<tr class="memdesc:ga31e22685884ff5b009ed2fe8836bb22f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return all edges separating faces with different textures  <br /></td></tr>
 <tr class="memitem:ga72798ab7c805da2fe840f2648569b52f" id="r_ga72798ab7c805da2fe840f2648569b52f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga72798ab7c805da2fe840f2648569b52f">MR::resizeAttributesToMesh</a> (<a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;data)</td></tr>
 <tr class="memitem:ga37d2a428bd3835007572b583f596f4b5" id="r_ga37d2a428bd3835007572b583f596f4b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga37d2a428bd3835007572b583f596f4b5">MR::ObjectMeshHolder::ObjectMeshHolder</a> ()</td></tr>
 <tr class="memitem:ga4b6ecb13b750192ac9a2d97d8dce077f" id="r_ga4b6ecb13b750192ac9a2d97d8dce077f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b6ecb13b750192ac9a2d97d8dce077f">MR::ObjectMeshHolder::ObjectMeshHolder</a> (<a class="el" href="classMR_1_1ObjectMeshHolder.html">ObjectMeshHolder</a> &amp;&amp;) noexcept=default</td></tr>
@@ -65643,6 +65645,39 @@ template&lt;class MetricToPenalty&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRObjectMeshData_8h.html">MRMesh/MRObjectMeshData.h</a>&gt;</code></p>
 
 <p>return all edges separating faces with different colors </p>
+
+</div>
+</div>
+<a id="ga31e22685884ff5b009ed2fe8836bb22f" name="ga31e22685884ff5b009ed2fe8836bb22f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga31e22685884ff5b009ed2fe8836bb22f">&#9670;&#160;</a></span>edgesBetweenDifferentTextures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UndirectedEdgeBitSet MR::edgesBetweenDifferentTextures </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const TexturePerFace &amp;</td>          <td class="paramname"><span class="paramname"><em>textures</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectMeshData_8h.html">MRMesh/MRObjectMeshData.h</a>&gt;</code></p>
+
+<p>return all edges separating faces with different textures </p>
 
 </div>
 </div>
@@ -160447,7 +160482,7 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRUISaveChangesPopup_8h.html">MRViewer/MRUISaveChangesPopup.h</a>&gt;</code></p>
-<p>Shows <a class="el" href="namespaceImGui.html">ImGui</a> popup that suggests user to save changes, user need to call ImGui::OpenPopup( str_id ) to open this popup. It has 3 options: save, don't save, cancel str_id - <a class="el" href="namespaceImGui.html">ImGui</a> string id for the popup window settings - settings for dialog </p>
+<p>Shows <a class="el" href="namespaceImGui.html">ImGui</a> popup that suggests user to save changes, user need to call ImGui::EnqueuePopup( str_id ) to open this popup. It has 3 options: save, don't save, cancel str_id - <a class="el" href="namespaceImGui.html">ImGui</a> string id for the popup window settings - settings for dialog </p>
 
 </div>
 </div>

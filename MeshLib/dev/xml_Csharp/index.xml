@@ -16047,6 +16047,7 @@
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1af78b98031c3bc6e49060c470e74e6f8b" kind="property"><name>region</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a2f1a0ebca914b2980aecf7e8a865afdc" kind="property"><name>mode</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a064006eaa3ddd709628e9e8549ba56c5" kind="property"><name>mimicPatch</name></member>
+    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aa5069a37ad7b32e3e87f7676168d1f74" kind="property"><name>protectAttributeBorders</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ab7950c46cb0fdeff918f730ef3d1f7b2" kind="property"><name>cb</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a052ab98356845d818ac9db4720d189db" kind="variable"><name>__ref_storage_maxDeviation</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a7e505a1eccf6614a9ddfcfd6caae9fb7" kind="variable"><name>__ref_storage_tinyEdgeLength</name></member>
@@ -16056,16 +16057,17 @@
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ac753029452e2336abd75ccdc770f16f2" kind="variable"><name>__ptr_storage_region</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a1f7adbf6131d6e2fd0003b5ce31f7e56" kind="variable"><name>__ref_storage_mode</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a403e6394e4848e64d962288673a26184" kind="variable"><name>__ref_storage_mimicPatch</name></member>
+    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ae3d43f03eb539ecc27698bb6c1107e2f" kind="variable"><name>__ref_storage_protectAttributeBorders</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a291a86810571ea0136416d7e3d3a6197" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a246b5b45a6f435b22655f939ade88ea4" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a856e69fed4dbc0e9f18955062eaf0b7b" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
-    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1aad748e53b582104a5c56a4ed1e68a060" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
+    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a5fb2d83f34596e610caac9274a11aeba" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a8297b179e9ea4e71524f4c771f46f210" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a4ed42362c83a078cabd8cb7e23e9ef5e" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a0a463aa3bee483acbd62fd902da9dfcf" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ad7fe506dcab7058b46487c672421172a" kind="function"><name>~Const_FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9d8cdff7d595486f385364278f01ca68" kind="function"><name>Const_FixMeshDegeneraciesParams</name></member>
-    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a604ba08e7a3016fba2d42493dd5057d3" kind="function"><name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a6d3897f65ac5c711030d84b4eb51c61a" kind="function"><name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9b85bb0947e7b8d8b2ffb26e10500dba" kind="function"><name>__MR_FixMeshDegeneraciesParams_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a2e4b1f2cf1d1e4a99ef462ea75233e09" kind="function"><name>__MR_FixMeshDegeneraciesParams_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a9c0973976798c68cc8332b09b10aa002" kind="function"><name>__MR_FixMeshDegeneraciesParams_Destroy</name></member>
@@ -16075,6 +16077,7 @@
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1af219c1eb3869b4ef5dbaf00d05a667a1" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_maxDeviation</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a1911bb496cc17922b18358c1fbcb2d6c" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_mimicPatch</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1ad147d6ff738c8f10abd8328db38d230b" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_mode</name></member>
+    <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1adac38de1989a6b8d711eb22e40334c69" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_protectAttributeBorders</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a4adbe1ed6bebdf3dba9beb4609e8cc5d" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_region</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a189a35d5ea851dbc89e0f5c68a17a8fd" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_stabilizer</name></member>
     <member refid="classMR_1_1Const__FixMeshDegeneraciesParams_1a6fc4ddb0570ff141949871ed79e22bec" kind="function"><name>__MR_FixMeshDegeneraciesParams_Get_tinyEdgeLength</name></member>
@@ -46254,16 +46257,17 @@
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a90621e659cd5be3a26daa4cfbd577895" kind="property"><name>region</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a25aacc89ccb14968d6cd430e6548dd96" kind="property"><name>mode</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1af56263c3a1a1183678e4e39be3507721" kind="property"><name>mimicPatch</name></member>
+    <member refid="classMR_1_1FixMeshDegeneraciesParams_1a6f50121cc5a5024f168d13df83200801" kind="property"><name>protectAttributeBorders</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a9b4f190d07dd759f7eaa047c7520aad5" kind="property"><name>cb</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1ac6400b423961dedd5e93ab4ef4a0345c" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3c9b5a14a7d0e81bed4a289ee27d1b76" kind="function"><name>FixMeshDegeneraciesParams</name></member>
-    <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3a6b16ace20842364e8050ea4978b4f2" kind="function"><name>FixMeshDegeneraciesParams</name></member>
+    <member refid="classMR_1_1FixMeshDegeneraciesParams_1a816f1a655212348842217e80f63a2164" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a2ad2ea9e85e256bcffb91c9e3bc93519" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1aed491e9ef17151bea847c24357ad295b" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a3d7bb50a9f36d671b303d52ef31423a7" kind="function"><name>FixMeshDegeneraciesParams</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1afd7292ca48775e0ab94233157bde5f54" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1a363d9f9d495e8190ee287f95cec5afb0" kind="function"><name>__MR_FixMeshDegeneraciesParams_AssignFromAnother</name></member>
-    <member refid="classMR_1_1FixMeshDegeneraciesParams_1ab481912d70d827eeeb849cf2bdb8f62b" kind="function"><name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
+    <member refid="classMR_1_1FixMeshDegeneraciesParams_1a4078f07977aab32e52dd7e758153d7d2" kind="function"><name>__MR_FixMeshDegeneraciesParams_ConstructFrom</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1aa1cf5abfce9e2882ecb41d9a9fd7ca45" kind="function"><name>__MR_FixMeshDegeneraciesParams_ConstructFromAnother</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1adfb805b412a6f57e2037970dd0c68513" kind="function"><name>__MR_FixMeshDegeneraciesParams_DefaultConstruct</name></member>
     <member refid="classMR_1_1FixMeshDegeneraciesParams_1ae163de1d1e724d65125464dcf66ddd50" kind="function"><name>__MR_FixMeshDegeneraciesParams_GetMutable_cb</name></member>
@@ -52253,6 +52257,7 @@
     <member refid="classMR_1a18d296c841db9ca6d6984fbd0b4672c4" kind="function"><name>findShortEdges</name></member>
     <member refid="classMR_1aa1180c9d1583ff8c3e199e4962fdbef6" kind="function"><name>deleteFacesWithLongEdges</name></member>
     <member refid="classMR_1aedd1f11cf956f37d4ffb49f6d5f590c8" kind="function"><name>fixMeshDegeneracies</name></member>
+    <member refid="classMR_1af91fe6c4f3d5786f770978b9bf1f80ec" kind="function"><name>fixMeshDataDegeneracies</name></member>
     <member refid="classMR_1a60605fefa0bd7baed1a7039973ed4488" kind="function"><name>findInnerVertsOfDegree</name></member>
     <member refid="classMR_1a2aad8cde3ad7daeae5ea6ed7e582e657" kind="function"><name>isEdgeBetweenDoubleTris</name></member>
     <member refid="classMR_1a1d76581e3b2dff62e442c8bb46802970" kind="function"><name>eliminateDoubleTris</name></member>
@@ -52477,6 +52482,7 @@
     <member refid="classMR_1a950d8c1daff189d21449450ace7d3f9f" kind="function"><name>merge</name></member>
     <member refid="classMR_1ad30a324f52715859e7f266ece2b81b41" kind="function"><name>cloneRegion</name></member>
     <member refid="classMR_1af3df96cc0a50c769c9a2cf9a8955a9fa" kind="function"><name>edgesBetweenDifferentColors</name></member>
+    <member refid="classMR_1a6fb6e5bf6a30d6d5136a4b51db08cffa" kind="function"><name>edgesBetweenDifferentTextures</name></member>
     <member refid="classMR_1af35d732dcce7d9ac6296c4c5cc837d5b" kind="function"><name>resizeAttributesToMesh</name></member>
     <member refid="classMR_1a059921be05a898483512aca1c85bdbfd" kind="function"><name>merge</name></member>
     <member refid="classMR_1ad4683de75981e3263a1f2cd0dbc7abd8" kind="function"><name>cloneRegion</name></member>
@@ -54085,6 +54091,7 @@
     <member refid="classMR_1ad49336bdcaeb2f026845e4a1a5812d59" kind="function"><name>__MR_findRepeatedVertsOnHoleBd</name></member>
     <member refid="classMR_1ac20c63596be5429f29cbd600cb0ed7b3" kind="function"><name>__MR_findShortEdges</name></member>
     <member refid="classMR_1ae9230e772ac3b0762dc12e78e6f3698b" kind="function"><name>__MR_fixMeshCreases</name></member>
+    <member refid="classMR_1a9f9de0cb54fa9e1a2d3ec055bafc6fbf" kind="function"><name>__MR_fixMeshDataDegeneracies</name></member>
     <member refid="classMR_1a0f4f44ecab3918d5087e721d64ed4f55" kind="function"><name>__MR_fixMeshDegeneracies</name></member>
     <member refid="classMR_1a3540db18a0c512ea08a0b986cd4d8b9d" kind="function"><name>__MR_fixMultipleEdges_1</name></member>
     <member refid="classMR_1ad1e836bdbe05180b152deff70202883f" kind="function"><name>__MR_fixMultipleEdges_3</name></member>
@@ -54304,6 +54311,7 @@
     <member refid="classMR_1a54d872d57e921d365e449999b4842524" kind="function"><name>__MR_cloneRegion_3</name></member>
     <member refid="classMR_1a9a9c9b88f63ecbfde4fb8ffaac0304a9" kind="function"><name>__MR_merge_2</name></member>
     <member refid="classMR_1a5e7a6931de36dce644bfab932786d81d" kind="function"><name>__MR_edgesBetweenDifferentColors</name></member>
+    <member refid="classMR_1a8b253a212efada0716d7f48b0e27801b" kind="function"><name>__MR_edgesBetweenDifferentTextures</name></member>
     <member refid="classMR_1a2cd627e545e9cbdb55e4b02f7835bc73" kind="function"><name>__MR_resizeAttributesToMesh</name></member>
     <member refid="classMR_1a64cc6f9067b6d905b5baae9ca0b011a7" kind="function"><name>__MR_cloneRegion_2_std_shared_ptr_MR_ObjectPoints</name></member>
     <member refid="classMR_1a18c5e394bcb75da12e6055191ba23bb1" kind="function"><name>__MR_merge_1_std_vector_std_shared_ptr_MR_ObjectPoints</name></member>
