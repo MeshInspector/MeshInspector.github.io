@@ -181953,7 +181953,7 @@ returns true if load was succeed </para>
           <declname>objectMesh</declname>
         </param>
         <briefdescription>
-<para>initialize widget according <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> </para>
+<para>initialize widget according <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref>; if it was initialized with another object, <ref refid="group__GeneralGroup_1ga67a4ba46cf14092e8bf56898b7ade0fc" kindref="member">reset()</ref> is called first </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181968,7 +181968,7 @@ returns true if load was succeed </para>
         <name>reset</name>
         <qualifiedname>MR::SurfaceManipulationWidget::reset</qualifiedname>
         <briefdescription>
-<para>reset widget state </para>
+<para>reset widget state including the fixed region; does nothing if the widget is not initialized </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182053,7 +182053,7 @@ returns true if load was succeed </para>
         <name>palette</name>
         <qualifiedname>MR::SurfaceManipulationWidget::palette</qualifiedname>
         <briefdescription>
-<para>get palette used for visualization point shifts </para>
+<para>get palette used for visualization point shifts, available before <ref refid="group__GeneralGroup_1ga42056e56380a989d42601b9611494613" kindref="member">init()</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

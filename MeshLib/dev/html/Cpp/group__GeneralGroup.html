@@ -10307,9 +10307,9 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gad0cfe05cc1cf5086455eac521a734b64" id="r_gad0cfe05cc1cf5086455eac521a734b64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad0cfe05cc1cf5086455eac521a734b64">MR::SurfaceManipulationWidget::SurfaceManipulationWidget</a> ()</td></tr>
 <tr class="memitem:ga3fb1bf78682921ec4def3ccb1a994b86" id="r_ga3fb1bf78682921ec4def3ccb1a994b86"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3fb1bf78682921ec4def3ccb1a994b86">MR::SurfaceManipulationWidget::~SurfaceManipulationWidget</a> ()</td></tr>
 <tr class="memitem:ga42056e56380a989d42601b9611494613" id="r_ga42056e56380a989d42601b9611494613"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga42056e56380a989d42601b9611494613">MR::SurfaceManipulationWidget::init</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;objectMesh)</td></tr>
-<tr class="memdesc:ga42056e56380a989d42601b9611494613"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize widget according <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>  <br /></td></tr>
+<tr class="memdesc:ga42056e56380a989d42601b9611494613"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize widget according <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>; if it was initialized with another object, <a class="el" href="#ga67a4ba46cf14092e8bf56898b7ade0fc" title="reset widget state including the fixed region; does nothing if the widget is not initialized">reset()</a> is called first  <br /></td></tr>
 <tr class="memitem:ga67a4ba46cf14092e8bf56898b7ade0fc" id="r_ga67a4ba46cf14092e8bf56898b7ade0fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga67a4ba46cf14092e8bf56898b7ade0fc">MR::SurfaceManipulationWidget::reset</a> ()</td></tr>
-<tr class="memdesc:ga67a4ba46cf14092e8bf56898b7ade0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset widget state  <br /></td></tr>
+<tr class="memdesc:ga67a4ba46cf14092e8bf56898b7ade0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset widget state including the fixed region; does nothing if the widget is not initialized  <br /></td></tr>
 <tr class="memitem:gac1ffece5d3e0b7195e322e80a7ccaa64" id="r_gac1ffece5d3e0b7195e322e80a7ccaa64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac1ffece5d3e0b7195e322e80a7ccaa64">MR::SurfaceManipulationWidget::setFixedRegion</a> (const FaceBitSet &amp;region)</td></tr>
 <tr class="memitem:gaf2a354d3a5027e69da49b73352ace95e" id="r_gaf2a354d3a5027e69da49b73352ace95e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2a354d3a5027e69da49b73352ace95e">MR::SurfaceManipulationWidget::setSettings</a> (const <a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html">Settings</a> &amp;settings)</td></tr>
 <tr class="memdesc:gaf2a354d3a5027e69da49b73352ace95e"><td class="mdescLeft">&#160;</td><td class="mdescRight">set widget settings (mesh change settings)  <br /></td></tr>
@@ -10318,7 +10318,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga9b847ffedd36427c284019c278553bda" id="r_ga9b847ffedd36427c284019c278553bda"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b847ffedd36427c284019c278553bda">MR::SurfaceManipulationWidget::getMinRadius</a> () const</td></tr>
 <tr class="memdesc:ga9b847ffedd36427c284019c278553bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum radius of editing area.  <br /></td></tr>
 <tr class="memitem:gac630e539a99b5bafb846ed70cae75f35" id="r_gac630e539a99b5bafb846ed70cae75f35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Palette.html">Palette</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac630e539a99b5bafb846ed70cae75f35">MR::SurfaceManipulationWidget::palette</a> ()</td></tr>
-<tr class="memdesc:gac630e539a99b5bafb846ed70cae75f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">get palette used for visualization point shifts  <br /></td></tr>
+<tr class="memdesc:gac630e539a99b5bafb846ed70cae75f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">get palette used for visualization point shifts, available before <a class="el" href="#ga42056e56380a989d42601b9611494613" title="initialize widget according ObjectMesh; if it was initialized with another object,...">init()</a>  <br /></td></tr>
 <tr class="memitem:ga6c46de82558f8d178be7daf5e0448a73" id="r_ga6c46de82558f8d178be7daf5e0448a73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c46de82558f8d178be7daf5e0448a73">MR::SurfaceManipulationWidget::updateTexture</a> ()</td></tr>
 <tr class="memdesc:ga6c46de82558f8d178be7daf5e0448a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">update texture used for colorize surface (use after change colorMap in palette)  <br /></td></tr>
 <tr class="memitem:ga6588dff0dd0d4df97210457d94e09a1b" id="r_ga6588dff0dd0d4df97210457d94e09a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6588dff0dd0d4df97210457d94e09a1b">MR::SurfaceManipulationWidget::updateUVs</a> ()</td></tr>
@@ -106491,7 +106491,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceManipulationWidget_8h.html">MRViewer/MRSurfaceManipulationWidget.h</a>&gt;</code></p>
 
-<p>initialize widget according <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> </p>
+<p>initialize widget according <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a>; if it was initialized with another object, <a class="el" href="#ga67a4ba46cf14092e8bf56898b7ade0fc" title="reset widget state including the fixed region; does nothing if the widget is not initialized">reset()</a> is called first </p>
 
 </div>
 </div>
@@ -144315,7 +144315,7 @@ template&lt;class... Ts&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceManipulationWidget_8h.html">MRViewer/MRSurfaceManipulationWidget.h</a>&gt;</code></p>
 
-<p>get palette used for visualization point shifts </p>
+<p>get palette used for visualization point shifts, available before <a class="el" href="#ga42056e56380a989d42601b9611494613" title="initialize widget according ObjectMesh; if it was initialized with another object,...">init()</a> </p>
 
 </div>
 </div>
@@ -157306,7 +157306,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceManipulationWidget_8h.html">MRViewer/MRSurfaceManipulationWidget.h</a>&gt;</code></p>
 
-<p>reset widget state </p>
+<p>reset widget state including the fixed region; does nothing if the widget is not initialized </p>
 
 </div>
 </div>
