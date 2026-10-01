@@ -4457,6 +4457,8 @@
     <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" kind="variable"><name>userScaling_</name></member>
     <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" kind="variable"><name>context_</name></member>
     <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" kind="variable"><name>prevFrameFocusPlugin_</name></member>
+    <member refid="group__GeneralGroup_1gaa7fe10df58079927769d8bff7f916821" kind="variable"><name>testKeyModifiers_</name></member>
+    <member refid="group__GeneralGroup_1ga4774f429a2df58c2df690edc6fd9107f" kind="variable"><name>realKeyModifiers_</name></member>
     <member refid="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" kind="variable"><name>pollEventsInPreDraw</name></member>
     <member refid="group__GeneralGroup_1ga02f96b228edc61b7c42ab06b759d6f5d" kind="variable"><name>showShortcuts_</name></member>
     <member refid="group__GeneralGroup_1gab14610cb6f67cd8617dd1750924c854f" kind="variable"><name>showStatistics_</name></member>
@@ -10422,7 +10424,7 @@
     <member refid="group__GeneralGroup_1gac7cac88af55e173aeb0c55db22de8537" kind="function"><name>drawObject_</name></member>
     <member refid="group__GeneralGroup_1gac83507788674f6fdc300388afebb3304" kind="function"><name>drawSkippedObject_</name></member>
     <member refid="group__GeneralGroup_1ga809ccc1275d19dfcc5bfc3cadba293b1" kind="function"><name>drawObjectCollapsingHeader_</name></member>
-    <member refid="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" kind="function"><name>processItemClick_</name></member>
+    <member refid="group__GeneralGroup_1ga6b49bb69e16897b2b6e18f9a69651f70" kind="function"><name>processItemClick_</name></member>
     <member refid="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" kind="function"><name>makeDragDropSource_</name></member>
     <member refid="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" kind="function"><name>needDragDropTarget_</name></member>
     <member refid="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" kind="function"><name>makeDragDropTarget_</name></member>
@@ -23739,6 +23741,8 @@
     <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" kind="variable"><name>userScaling_</name></member>
     <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" kind="variable"><name>context_</name></member>
     <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" kind="variable"><name>prevFrameFocusPlugin_</name></member>
+    <member refid="group__GeneralGroup_1gaa7fe10df58079927769d8bff7f916821" kind="variable"><name>testKeyModifiers_</name></member>
+    <member refid="group__GeneralGroup_1ga4774f429a2df58c2df690edc6fd9107f" kind="variable"><name>realKeyModifiers_</name></member>
     <member refid="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" kind="variable"><name>pollEventsInPreDraw</name></member>
     <member refid="group__GeneralGroup_1ga02f96b228edc61b7c42ab06b759d6f5d" kind="variable"><name>showShortcuts_</name></member>
     <member refid="group__GeneralGroup_1gab14610cb6f67cd8617dd1750924c854f" kind="variable"><name>showStatistics_</name></member>
@@ -30548,7 +30552,7 @@
     <member refid="group__GeneralGroup_1gac7cac88af55e173aeb0c55db22de8537" kind="function"><name>drawObject_</name></member>
     <member refid="group__GeneralGroup_1gac83507788674f6fdc300388afebb3304" kind="function"><name>drawSkippedObject_</name></member>
     <member refid="group__GeneralGroup_1ga809ccc1275d19dfcc5bfc3cadba293b1" kind="function"><name>drawObjectCollapsingHeader_</name></member>
-    <member refid="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" kind="function"><name>processItemClick_</name></member>
+    <member refid="group__GeneralGroup_1ga6b49bb69e16897b2b6e18f9a69651f70" kind="function"><name>processItemClick_</name></member>
     <member refid="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" kind="function"><name>makeDragDropSource_</name></member>
     <member refid="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" kind="function"><name>needDragDropTarget_</name></member>
     <member refid="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" kind="function"><name>makeDragDropTarget_</name></member>

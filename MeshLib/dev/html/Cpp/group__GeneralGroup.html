@@ -10061,8 +10061,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memdesc:gac83507788674f6fdc300388afebb3304"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw dummy container for skipped object  <br /></td></tr>
 <tr class="memitem:ga809ccc1275d19dfcc5bfc3cadba293b1" id="r_ga809ccc1275d19dfcc5bfc3cadba293b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga809ccc1275d19dfcc5bfc3cadba293b1">MR::SceneObjectsListDrawer::drawObjectCollapsingHeader_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::string &amp;uniqueStr, bool hasRealChildren)</td></tr>
 <tr class="memdesc:ga809ccc1275d19dfcc5bfc3cadba293b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that draws collapsing header and process click on it  <br /></td></tr>
-<tr class="memitem:ga74e5357e26632ac0982586feae564127" id="r_ga74e5357e26632ac0982586feae564127"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga74e5357e26632ac0982586feae564127">MR::SceneObjectsListDrawer::processItemClick_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
-<tr class="memdesc:ga74e5357e26632ac0982586feae564127"><td class="mdescLeft">&#160;</td><td class="mdescRight">function that do click logic on object line (select/deselect/rename/open context)  <br /></td></tr>
+<tr class="memitem:ga6b49bb69e16897b2b6e18f9a69651f70" id="r_ga6b49bb69e16897b2b6e18f9a69651f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b49bb69e16897b2b6e18f9a69651f70">MR::SceneObjectsListDrawer::processItemClick_</a> (<a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, bool simulatedClick=false)</td></tr>
 <tr class="memitem:ga8aec8ee6ac0266249b98403d81359111" id="r_ga8aec8ee6ac0266249b98403d81359111"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8aec8ee6ac0266249b98403d81359111">MR::SceneObjectsListDrawer::makeDragDropSource_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;payload)</td></tr>
 <tr class="memdesc:ga8aec8ee6ac0266249b98403d81359111"><td class="mdescLeft">&#160;</td><td class="mdescRight">payload object will be moved  <br /></td></tr>
 <tr class="memitem:ga6b32550029f40adcc37e0d55b6cd3a1b" id="r_ga6b32550029f40adcc37e0d55b6cd3a1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b32550029f40adcc37e0d55b6cd3a1b">MR::SceneObjectsListDrawer::needDragDropTarget_</a> ()</td></tr>
@@ -13699,6 +13698,10 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga5211abf1979e6de5356bf10417272d04"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceImGui.html">ImGui</a> Context.  <br /></td></tr>
 <tr class="memitem:gaed028910bb5ce3eedfa0802afa5e040d" id="r_gaed028910bb5ce3eedfa0802afa5e040d"><td class="memItemLeft" align="right" valign="top">ImGuiWindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed028910bb5ce3eedfa0802afa5e040d">MR::ImGuiMenu::prevFrameFocusPlugin_</a> = nullptr</td></tr>
 <tr class="memdesc:gaed028910bb5ce3eedfa0802afa5e040d"><td class="mdescLeft">&#160;</td><td class="mdescRight">last focused plugin window  <br /></td></tr>
+<tr class="memitem:gaa7fe10df58079927769d8bff7f916821" id="r_gaa7fe10df58079927769d8bff7f916821"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa7fe10df58079927769d8bff7f916821">MR::ImGuiMenu::testKeyModifiers_</a> = 0</td></tr>
+<tr class="memdesc:gaa7fe10df58079927769d8bff7f916821"><td class="mdescLeft">&#160;</td><td class="mdescRight">keyboard modifiers (GLFW_MOD_* bits) held for <a class="el" href="namespaceImGui.html">ImGui</a> in addition to the real keyboard, set by <a class="el" href="namespaceMR_1_1UI.html">UI</a> tests via test-engine value "##key_modifiers"  <br /></td></tr>
+<tr class="memitem:ga4774f429a2df58c2df690edc6fd9107f" id="r_ga4774f429a2df58c2df690edc6fd9107f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; ImGuiKey, bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4774f429a2df58c2df690edc6fd9107f">MR::ImGuiMenu::realKeyModifiers_</a></td></tr>
+<tr class="memdesc:ga4774f429a2df58c2df690edc6fd9107f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the real down states of the <a class="el" href="namespaceImGui.html">ImGui</a> modifier keys replaced by testKeyModifiers_ in this frame  <br /></td></tr>
 <tr class="memitem:gad68df6b8216d5bb1c4b0b0d0ed0147c4" id="r_gad68df6b8216d5bb1c4b0b0d0ed0147c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad68df6b8216d5bb1c4b0b0d0ed0147c4">MR::ImGuiMenu::pollEventsInPreDraw</a> = false</td></tr>
 <tr class="memdesc:gad68df6b8216d5bb1c4b0b0d0ed0147c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, then pre_draw will start from polling glfw events  <br /></td></tr>
 <tr class="memitem:ga02f96b228edc61b7c42ab06b759d6f5d" id="r_ga02f96b228edc61b7c42ab06b759d6f5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga02f96b228edc61b7c42ab06b759d6f5d">MR::ImGuiMenu::showShortcuts_</a> { false }</td></tr>
@@ -149810,8 +149813,8 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 
 </div>
 </div>
-<a id="ga74e5357e26632ac0982586feae564127" name="ga74e5357e26632ac0982586feae564127"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74e5357e26632ac0982586feae564127">&#9670;&#160;</a></span>processItemClick_()</h2>
+<a id="ga6b49bb69e16897b2b6e18f9a69651f70" name="ga6b49bb69e16897b2b6e18f9a69651f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b49bb69e16897b2b6e18f9a69651f70">&#9670;&#160;</a></span>processItemClick_()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149827,7 +149830,12 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>selected</em></span>&#160;)</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>selected</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>simulatedClick</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -149838,8 +149846,12 @@ template&lt;typename T, typename P = std::less&lt;T&gt;&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSceneObjectsListDrawer_8h.html">MRViewer/MRSceneObjectsListDrawer.h</a>&gt;</code></p>
-
-<p>function that do click logic on object line (select/deselect/rename/open context) </p>
+<p>function that do click logic on object line (select/deselect/rename/open context) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">simulatedClick</td><td>a click simulated by <a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html">UI::TestEngine</a>, which has no mouse state, so only selects </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -229875,6 +229887,30 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="ga4774f429a2df58c2df690edc6fd9107f" name="ga4774f429a2df58c2df690edc6fd9107f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4774f429a2df58c2df690edc6fd9107f">&#9670;&#160;</a></span>realKeyModifiers_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;ImGuiKey, bool&gt; &gt; MR::ImGuiMenu::realKeyModifiers_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the real down states of the <a class="el" href="namespaceImGui.html">ImGui</a> modifier keys replaced by testKeyModifiers_ in this frame </p>
+
+</div>
+</div>
 <a id="ga397021c2f11cc76a8178e525bd2bed86" name="ga397021c2f11cc76a8178e525bd2bed86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga397021c2f11cc76a8178e525bd2bed86">&#9670;&#160;</a></span>reason</h2>
 
@@ -235565,6 +235601,30 @@ template&lt;UnitEnum E&gt; </div>
 </div><div class="memdoc">
 
 <p>if not empty, force use this string as name in <a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html">TestEngine</a> </p>
+
+</div>
+</div>
+<a id="gaa7fe10df58079927769d8bff7f916821" name="gaa7fe10df58079927769d8bff7f916821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa7fe10df58079927769d8bff7f916821">&#9670;&#160;</a></span>testKeyModifiers_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::ImGuiMenu::testKeyModifiers_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>keyboard modifiers (GLFW_MOD_* bits) held for <a class="el" href="namespaceImGui.html">ImGui</a> in addition to the real keyboard, set by <a class="el" href="namespaceMR_1_1UI.html">UI</a> tests via test-engine value "##key_modifiers" </p>
 
 </div>
 </div>

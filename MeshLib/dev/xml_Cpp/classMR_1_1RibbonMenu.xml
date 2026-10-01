@@ -474,6 +474,7 @@
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Quad</name></member>
       <member refid="group__GeneralGroup_1gad39ad3ddc0ea7d5a0753e66b37c8a6e7" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>readMenuItemsStructure_</name></member>
       <member refid="group__GeneralGroup_1gafb270d8d6ed8c41e735740d40eb5c8d7" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>readQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1ga4774f429a2df58c2df690edc6fd9107f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>realKeyModifiers_</name></member>
       <member refid="group__GeneralGroup_1ga26eb9671e1e3a225fc4e99fd4492aff7" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>registerItemsShortcuts_</name></member>
       <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reload_font</name></member>
       <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reloadFonts</name></member>
@@ -529,6 +530,7 @@
       <member refid="group__GeneralGroup_1ga8bb8f40cba94a969573fe41fd42cc1cb" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tabPanelScroll_</name></member>
       <member refid="group__GeneralGroup_1gafa4ddd1abc45868c85e00d51ff1bee16" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tagEditorState_</name></member>
       <member refid="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tagNewName_</name></member>
+      <member refid="group__GeneralGroup_1gaa7fe10df58079927769d8bff7f916821" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>testKeyModifiers_</name></member>
       <member refid="group__GeneralGroup_1ga943f8a972e6fd6e1c85ceed8a570dd03" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>toolbar_</name></member>
       <member refid="group__GeneralGroup_1gab36bd1545f96a4f5df1289ab88be741f" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>topPanelHiddenHeight_</name></member>
       <member refid="group__GeneralGroup_1ga529d097846dbeb6b6c920552ed4fdcc8" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>topPanelOpenedHeight_</name></member>

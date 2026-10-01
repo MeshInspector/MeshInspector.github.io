@@ -10300,7 +10300,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="32" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="33" bodyend="42"/>
+        <location file="MRViewer/ImGuiMenu.h" line="33" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="34" bodyend="43"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga2a88aa32db69286a1b09237c0bdadfd6" prot="protected" static="no" strong="yes">
         <type>int</type>
@@ -10326,7 +10326,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="106" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="107" bodyend="110"/>
+        <location file="MRViewer/ImGuiMenu.h" line="112" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="113" bodyend="116"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga2fc0e85a12011b7f97ae8de0c9174217" prot="protected" static="no" strong="no">
         <type></type>
@@ -10369,7 +10369,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="131" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="132" bodyend="137"/>
+        <location file="MRViewer/ImGuiMenu.h" line="137" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="138" bodyend="143"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" prot="public" static="no" strong="yes">
         <type></type>
@@ -10397,7 +10397,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="317" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="318" bodyend="323"/>
+        <location file="MRViewer/ImGuiMenu.h" line="323" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="324" bodyend="329"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gad1582b16bb15b7032af648423d3dd002" prot="public" static="no" strong="yes">
         <type></type>
@@ -18590,7 +18590,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="55" column="5" bodyfile="MRViewer/ImGuiMenu.h" bodystart="55" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="56" column="5" bodyfile="MRViewer/ImGuiMenu.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" prot="public" static="no">
         <type>boost::signals2::signal&lt; bool(Object &amp;object, NameTagSelectionMode mode), StopOnTrueCombiner &gt;</type>
@@ -18604,7 +18604,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="324" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="324" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="330" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="330" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" prot="public" static="no">
         <type>boost::signals2::signal&lt; void(ViewportId viewportId, UiRenderParams::UiTaskList &amp;tasks)&gt;</type>
@@ -18618,7 +18618,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="332" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="332" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="338" column="3" bodyfile="MRViewer/ImGuiMenu.h" bodystart="338" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga29e1a40f8ddae233dc49511e5daa9200" prot="public" static="no">
         <type>unsigned int</type>
@@ -47303,7 +47303,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="65" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="65" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="66" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga82ff9b55670fc260eb1bf910179964f5" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -47318,7 +47318,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="69" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="69" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="70" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -47334,7 +47334,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="72" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="72" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="73" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" prot="protected" static="no" mutable="no">
         <type>ImGuiContext *</type>
@@ -47350,7 +47350,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="75" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="75" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="76" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" prot="protected" static="no" mutable="no">
         <type>ImGuiWindow *</type>
@@ -47366,7 +47366,38 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="77" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="77" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="78" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa7fe10df58079927769d8bff7f916821" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ImGuiMenu::testKeyModifiers_</definition>
+        <argsstring></argsstring>
+        <name>testKeyModifiers_</name>
+        <qualifiedname>MR::ImGuiMenu::testKeyModifiers_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>keyboard modifiers (GLFW_MOD_* bits) held for <ref refid="namespaceImGui" kindref="compound">ImGui</ref> in addition to the real keyboard, set by <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> tests via test-engine value &quot;##key_modifiers&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/ImGuiMenu.h" line="81" column="7" bodyfile="MRViewer/ImGuiMenu.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga4774f429a2df58c2df690edc6fd9107f" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; ImGuiKey, bool &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;ImGuiKey, bool&gt; &gt; MR::ImGuiMenu::realKeyModifiers_</definition>
+        <argsstring></argsstring>
+        <name>realKeyModifiers_</name>
+        <qualifiedname>MR::ImGuiMenu::realKeyModifiers_</qualifiedname>
+        <briefdescription>
+<para>the real down states of the <ref refid="namespaceImGui" kindref="compound">ImGui</ref> modifier keys replaced by testKeyModifiers_ in this frame </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/ImGuiMenu.h" line="83" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47382,7 +47413,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="80" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="80" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="86" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga02f96b228edc61b7c42ab06b759d6f5d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47398,7 +47429,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="82" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="82" bodyend="82"/>
+        <location file="MRViewer/ImGuiMenu.h" line="88" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab14610cb6f67cd8617dd1750924c854f" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47413,7 +47444,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="83" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="83" bodyend="83"/>
+        <location file="MRViewer/ImGuiMenu.h" line="89" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5ddf7775cb2ef343f9725d01c61e655b" prot="protected" static="no" mutable="no">
         <type>long long</type>
@@ -47428,7 +47459,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="84" column="13" bodyfile="MRViewer/ImGuiMenu.h" bodystart="84" bodyend="84"/>
+        <location file="MRViewer/ImGuiMenu.h" line="90" column="13" bodyfile="MRViewer/ImGuiMenu.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga09e144807f360fa5ae2c48aa130a940d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47443,7 +47474,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="85" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="85" bodyend="85"/>
+        <location file="MRViewer/ImGuiMenu.h" line="91" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="91" bodyend="91"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae9bb69c3589e2a7be927ce74e0b1f2ac" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -47457,7 +47488,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="86" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="86" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="92" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga43c1faf504ab05faff5dd7aadbf0ce81" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -47471,7 +47502,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="87" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="87" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="93" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4e9570d57a509d6e4a02c3893c617fe4" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47486,7 +47517,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="88" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="88" bodyend="88"/>
+        <location file="MRViewer/ImGuiMenu.h" line="94" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="94" bodyend="94"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9d77cd28320ae4333fc7e5b9c5a4d38b" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47501,7 +47532,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="89" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="89" bodyend="89"/>
+        <location file="MRViewer/ImGuiMenu.h" line="95" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="95" bodyend="95"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga030eb50192d51050ab5c5aa34e63929d" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -47515,7 +47546,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="90" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="90" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="96" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafea5ae3d33013ab15abbe5747b71e139" prot="protected" static="no" mutable="no">
         <type>NotificationType</type>
@@ -47530,7 +47561,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="91" column="20" bodyfile="MRViewer/ImGuiMenu.h" bodystart="91" bodyend="91"/>
+        <location file="MRViewer/ImGuiMenu.h" line="97" column="20" bodyfile="MRViewer/ImGuiMenu.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf12f28cc32062db2ff2e65a8abeab3ca" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; ShortcutManager &gt;</type>
@@ -47544,7 +47575,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="92" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="92" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="98" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga503f28da6e0267912172f146e9e5ecea" prot="protected" static="no" mutable="no">
         <type>ImVec2</type>
@@ -47558,7 +47589,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="94" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="94" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="100" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1995588bf4401620b33e1a4e6ed8c15d" prot="protected" static="no" mutable="no">
         <type>ImVec2</type>
@@ -47572,7 +47603,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="95" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="95" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="101" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad09d9b751f97c0d1e2ba46c849392a7c" prot="protected" static="no" mutable="no">
         <type>ImVec2</type>
@@ -47586,7 +47617,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="96" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="96" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="102" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga348b708be326f0e5f3a65a9be9f143b9" prot="protected" static="no" mutable="no">
         <type>ImVec2</type>
@@ -47600,7 +47631,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="97" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="97" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="103" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga69ba22274265966f6ddc7eabf3eb78a9" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47615,7 +47646,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="101" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="101" bodyend="101"/>
+        <location file="MRViewer/ImGuiMenu.h" line="107" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="107" bodyend="107"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae809764ef8ca8203ef9f26e34abb2c2f" prot="protected" static="no" mutable="no">
         <type>std::weak_ptr&lt; Object &gt;</type>
@@ -47629,7 +47660,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="103" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="103" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="109" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga53309002abe5f491c36f5ef71490a8e9" prot="protected" static="no" mutable="no">
         <type>Box3f</type>
@@ -47643,7 +47674,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="104" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="104" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="110" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac8a4b5b373c2e5ab3e633a34fd148f12" prot="protected" static="no" mutable="no">
         <type>Box3f</type>
@@ -47658,7 +47689,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="105" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="105" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="111" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga96f0bc9450fbe39ac5e90abcbc52c36a" prot="protected" static="no" mutable="no">
         <type>enum <ref refid="group__GeneralGroup_1ga2a88aa32db69286a1b09237c0bdadfd6" kindref="member">MR::ImGuiMenu::CoordType</ref></type>
@@ -47672,7 +47703,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="110" column="30"/>
+        <location file="MRViewer/ImGuiMenu.h" line="116" column="30"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadf0278292ff9ea06a7b310f6c39c237b" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -47686,7 +47717,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="114" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="114" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="120" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9b6fa31d0eca45b8885f1594a2bf3f4a" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -47700,7 +47731,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="115" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="115" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="121" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga011f5f577a8b08a9aa41429b0dbe5387" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectLabel &gt;</type>
@@ -47715,7 +47746,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="116" column="23" bodyfile="MRViewer/ImGuiMenu.h" bodystart="116" bodyend="116"/>
+        <location file="MRViewer/ImGuiMenu.h" line="122" column="23" bodyfile="MRViewer/ImGuiMenu.h" bodystart="122" bodyend="122"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaabb7d476614f65f1d63a7135ffb63a18" prot="protected" static="no" mutable="no">
         <type>struct <ref refid="structMR_1_1ImGuiMenu_1_1LabelParams" kindref="compound">MR::ImGuiMenu::LabelParams</ref></type>
@@ -47729,7 +47760,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="117" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="123" column="19"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacdcda8b2bba5f78579846e3596ab3c42" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47744,7 +47775,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="119" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="119" bodyend="119"/>
+        <location file="MRViewer/ImGuiMenu.h" line="125" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="125" bodyend="125"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafd9b841be73749d7e6b9ccbd81ba5afd" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47759,7 +47790,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="120" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="120" bodyend="120"/>
+        <location file="MRViewer/ImGuiMenu.h" line="126" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="126" bodyend="126"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga22b27718dfcaa0c7a6c683598c89b75d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47774,7 +47805,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="121" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="121" bodyend="121"/>
+        <location file="MRViewer/ImGuiMenu.h" line="127" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="127" bodyend="127"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga44726097595253c81b8abae8fe5fe91f" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47789,7 +47820,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="122" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="122" bodyend="122"/>
+        <location file="MRViewer/ImGuiMenu.h" line="128" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga42944b2f8a7080c6a06c93633f97cb4c" prot="protected" static="no" mutable="no">
         <type>std::optional&lt; std::pair&lt; std::string, Vector4f &gt; &gt;</type>
@@ -47803,7 +47834,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="124" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="124" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="130" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -47817,7 +47848,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="127" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="127" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="133" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1MeshModifier" kindref="compound">MR::MeshModifier</ref> &gt; &gt;</type>
@@ -47831,7 +47862,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="129" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="129" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="135" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4235036156971a18b7ef3ad2e50c0291" prot="protected" static="no" mutable="no">
         <type>enum <ref refid="group__GeneralGroup_1ga2fc0e85a12011b7f97ae8de0c9174217" kindref="member">MR::ImGuiMenu::ViewportConfigurations</ref></type>
@@ -47845,7 +47876,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="137" column="27"/>
+        <location file="MRViewer/ImGuiMenu.h" line="143" column="27"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49c19c2fdda8a6285c1a30c8018a8538" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -47861,7 +47892,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="142" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="142" bodyend="142"/>
+        <location file="MRViewer/ImGuiMenu.h" line="148" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="148" bodyend="148"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" prot="protected" static="no" mutable="no">
         <type>ViewportId</type>
@@ -47877,7 +47908,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="144" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="144" bodyend="144"/>
+        <location file="MRViewer/ImGuiMenu.h" line="150" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="150" bodyend="150"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" static="no" mutable="no">
         <type>std::weak_ptr&lt; Object &gt;</type>
@@ -47892,7 +47923,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="147" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="147" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="153" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" prot="protected" static="no" mutable="no">
         <type>AffineXf3f</type>
@@ -47907,7 +47938,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="149" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="149" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="155" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabaec0c0a0a46426ec7ec96e959e4f421" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -47921,7 +47952,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="154" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="154" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="160" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="160" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac6de01ecc7438107c57d834ed8291c86" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -47935,7 +47966,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="155" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="155" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="161" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafb6faf8bc0849a0b80ae509cdf5c4b25" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -47950,7 +47981,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="156" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="156" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="162" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="162" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaea360d36502bf0c3741c65d73b499f83" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -47965,7 +47996,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="157" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="157" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="163" column="14" bodyfile="MRViewer/ImGuiMenu.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5b721362d61f02d9a0561a2dc185b2be" prot="public" static="no" mutable="no">
         <type>ImVec4</type>
@@ -47979,7 +48010,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="158" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="158" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="164" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf8e9809b70542f1e9563256ecc1ce30a" prot="public" static="no" mutable="no">
         <type>ImVec4</type>
@@ -47993,7 +48024,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="159" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="159" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="165" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafa4ddd1abc45868c85e00d51ff1bee16" prot="protected" static="no" mutable="no">
         <type>TagEditorState</type>
@@ -48007,7 +48038,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="161" column="20" bodyfile="MRViewer/ImGuiMenu.h" bodystart="161" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="167" column="20" bodyfile="MRViewer/ImGuiMenu.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0b38f50d2a1f161806e3cdca4a7846c" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -48023,7 +48054,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="163" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="163" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="169" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -48038,7 +48069,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="165" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="165" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="171" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" prot="public" static="no" mutable="no">
         <type>NameTagClickSignal</type>
@@ -48053,7 +48084,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="326" column="22" bodyfile="MRViewer/ImGuiMenu.h" bodystart="326" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="332" column="22" bodyfile="MRViewer/ImGuiMenu.h" bodystart="332" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" prot="public" static="no" mutable="no">
         <type>DrawSceneUiSignal</type>
@@ -48068,7 +48099,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="334" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="334" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="340" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="340" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga14e060dc9ad54344946cd90b6ff34e8a" prot="public" static="no" mutable="no">
         <type>Color</type>
@@ -48083,7 +48114,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="354" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="354" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="360" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="360" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0be879df50c239a2a8f15bd641a8a129" prot="public" static="no" mutable="no">
         <type>Color</type>
@@ -48098,7 +48129,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="356" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="356" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="362" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="362" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga75ad4997decc94821deab2bf292752c2" prot="public" static="no" mutable="no">
         <type>Color</type>
@@ -48113,7 +48144,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="358" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="358" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="364" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="364" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga64ed116148c0f66e9a645d6f77e36289" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -48129,7 +48160,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="360" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="360" bodyend="360"/>
+        <location file="MRViewer/ImGuiMenu.h" line="366" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="366" bodyend="366"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga86eda72b36c0b4d40f716d958c6e6b8a" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -48145,7 +48176,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="362" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="362" bodyend="362"/>
+        <location file="MRViewer/ImGuiMenu.h" line="368" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="368" bodyend="368"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac30683adb4adc5ab45bf16c3ef84ec86" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -48161,7 +48192,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="364" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="364" bodyend="364"/>
+        <location file="MRViewer/ImGuiMenu.h" line="370" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="370" bodyend="370"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -48176,7 +48207,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="370" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="370" bodyend="370"/>
+        <location file="MRViewer/ImGuiMenu.h" line="376" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="376" bodyend="376"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga810c0bc5c84d12f69dbbdd1510c7ea20" prot="public" static="no" mutable="no">
         <type>BasicUiRenderTask::InteractionMask</type>
@@ -48192,7 +48223,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="455" column="44" bodyfile="MRViewer/ImGuiMenu.h" bodystart="455" bodyend="455"/>
+        <location file="MRViewer/ImGuiMenu.h" line="461" column="44" bodyfile="MRViewer/ImGuiMenu.h" bodystart="461" bodyend="461"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" prot="protected" static="no" mutable="no">
         <type>std::unique_ptr&lt; UiRenderManagerImpl &gt;</type>
@@ -48207,7 +48238,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="462" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="462" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="468" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="468" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7d0715a8cba151ac2cf1b9260c778350" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; SceneObjectsListDrawer &gt;</type>
@@ -48221,7 +48252,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="463" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="463" bodyend="-1"/>
+        <location file="MRViewer/ImGuiMenu.h" line="469" column="21" bodyfile="MRViewer/ImGuiMenu.h" bodystart="469" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0454bd66896c6920f95935a9b912c86c" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60274,7 +60305,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="113" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="113" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="114" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf4b84e5c4ee9c3f4eca9a8e0c73dde3d" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -60289,7 +60320,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="114" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="114" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="115" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8a60d352593fe44cc3cfcd83f0490498" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60304,7 +60335,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="130" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="130" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="131" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="131" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadd1a30cdd75755b51664d031778458f9" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60319,7 +60350,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="131" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="131" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="132" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="132" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0c8ba2a60d4747b8f0eae8791efd2249" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -60334,7 +60365,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="136" column="13" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="136" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="137" column="13" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf5e2efafccac2a050712323ed5479603" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60350,7 +60381,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="137" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="137" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="138" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5fa4cc6e843bdb6827ddcfde0e1b7709" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -60366,7 +60397,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="138" column="14" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="138" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="139" column="14" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8ed6e5199964885fbd4d42c0691c91a3" prot="private" static="no" mutable="no">
         <type>MoveAndScrollData</type>
@@ -60380,7 +60411,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="140" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="140" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="141" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga462460aacf6b87ba3500be6d2305892e" prot="private" static="no" mutable="no">
         <type>MoveAndScrollData</type>
@@ -60394,7 +60425,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="141" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="141" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="142" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga93aad96cf435af094f474899bc80c660" prot="private" static="no" mutable="no">
         <type>MoveAndScrollData</type>
@@ -60408,7 +60439,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="142" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="142" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="143" column="23" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="143" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6b506e2a4af03f568dcad5b76ccd21be" prot="private" static="no" mutable="no">
         <type>SceneReorder</type>
@@ -60422,7 +60453,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="144" column="18" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="144" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="145" column="18" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="145" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabbf3505abf910c44d4b8d50aaae3fb11" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60437,7 +60468,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="149" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="149" bodyend="149"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="150" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="150" bodyend="150"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaef48e5d11739e2460d49ae418a9b07ad" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60452,7 +60483,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="150" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="150" bodyend="150"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="151" column="15" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="151" bodyend="151"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0afb65f705666663924638196be9f85a" prot="private" static="no" mutable="no">
         <type>struct MR::SceneObjectsListDrawer::ScrollPositionPreservation</type>
@@ -60466,7 +60497,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="151" column="21"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="152" column="21"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac24b4b269239dd2b3da9c9d21ab89b53" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -60482,7 +60513,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="153" column="9" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="153" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="154" column="9" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga65e801481ef6fc98205d59d1fa5e79b0" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60498,7 +60529,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="155" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="155" bodyend="155"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="156" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="156" bodyend="156"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1ae5202f89849a3745f8753c984a2ecf" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60514,7 +60545,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="157" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="157" bodyend="157"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="158" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="158" bodyend="158"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga56acdae4fd756a65ce6ea8f31206ac9f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -60530,7 +60561,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="163" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="163" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="164" column="10" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga35cdb8be56900573df3387f4538a787b" prot="protected" static="no" mutable="no">
         <type>std::unordered_map&lt; const Object *, bool &gt;</type>
@@ -60544,7 +60575,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="166" column="24" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="166" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="167" column="24" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad781fd9e905dc8e6d2f5cc6645b6d82e" prot="public" static="no" constexpr="yes" mutable="no">
         <type>int</type>
@@ -60560,7 +60591,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="170" column="22" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="170" bodyend="-1"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="171" column="22" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -154707,7 +154738,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="99" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="105" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga94d45ffa94d1720d85a4120b6e769b55" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector4f</type>
@@ -154729,7 +154760,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="125" column="12"/>
+        <location file="MRViewer/ImGuiMenu.h" line="131" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab64a0169c2ce828e50018e9e77a7efde" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::shared_ptr&lt; ImGuiMenu &gt; &amp;</type>
@@ -154743,7 +154774,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="168" column="33"/>
+        <location file="MRViewer/ImGuiMenu.h" line="174" column="33"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7ee3e7a4a77594b927efba32415a464" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154764,7 +154795,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="170" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="176" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga587478555bffc9440eae880bd0bcd307" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154779,7 +154810,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="173" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="179" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8b79c21599f784533ef4f70fddf1db36" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154794,7 +154825,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="176" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="182" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1bcd52f7eae916075af2a2ec8afedfba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154809,7 +154840,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="178" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="184" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga10d1bd0e786d451e3b0835861f9837b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154829,7 +154860,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="180" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="186" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac9ab04a91a6ade403dc6c5e4535f4abe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -154848,7 +154879,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="181" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="181" bodyend="181"/>
+        <location file="MRViewer/ImGuiMenu.h" line="187" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="187" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154867,7 +154898,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="183" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="189" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -154886,7 +154917,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="184" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="184" bodyend="184"/>
+        <location file="MRViewer/ImGuiMenu.h" line="190" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="190" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab240aaae96a293365717e78584688f4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154903,7 +154934,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="186" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="192" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeb3ade87e9a78c6336c999822aeae8c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154918,7 +154949,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="189" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="195" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab850436ff735a29b18d896606e0c11a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -154932,7 +154963,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="191" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="197" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaad9c69dddc39d4febd3531d3ea252ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -154948,7 +154979,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="194" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="200" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -154962,7 +154993,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="195" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="195" bodyend="195"/>
+        <location file="MRViewer/ImGuiMenu.h" line="201" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="201" bodyend="201"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -154977,7 +155008,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="198" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="198" bodyend="198"/>
+        <location file="MRViewer/ImGuiMenu.h" line="204" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="204" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga87214e72ace01fd1dddf2981cb68653a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -154993,7 +155024,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="201" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="201" bodyend="201"/>
+        <location file="MRViewer/ImGuiMenu.h" line="207" column="16" bodyfile="MRViewer/ImGuiMenu.h" bodystart="207" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -155007,7 +155038,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="202" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="202" bodyend="202"/>
+        <location file="MRViewer/ImGuiMenu.h" line="208" column="17" bodyfile="MRViewer/ImGuiMenu.h" bodystart="208" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155045,7 +155076,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="204" column="10"/>
+        <location file="MRViewer/ImGuiMenu.h" line="210" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155059,7 +155090,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="212" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="218" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -155073,7 +155104,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="213" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="213" bodyend="213"/>
+        <location file="MRViewer/ImGuiMenu.h" line="219" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="219" bodyend="219"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad248425d3712e792741393518a2ed159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -155088,7 +155119,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="216" column="10"/>
+        <location file="MRViewer/ImGuiMenu.h" line="222" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -155102,7 +155133,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="217" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="217" bodyend="217"/>
+        <location file="MRViewer/ImGuiMenu.h" line="223" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="223" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4e4537524051d9c7a417963dfd62d6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -155117,7 +155148,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="220" column="10"/>
+        <location file="MRViewer/ImGuiMenu.h" line="226" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -155131,7 +155162,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="221" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="221" bodyend="221"/>
+        <location file="MRViewer/ImGuiMenu.h" line="227" column="10" bodyfile="MRViewer/ImGuiMenu.h" bodystart="227" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga53fb99f080653c78f591db4173df202f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155145,7 +155176,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="223" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="229" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -155159,7 +155190,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="225" column="10"/>
+        <location file="MRViewer/ImGuiMenu.h" line="231" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -155173,7 +155204,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="226" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="232" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -155188,7 +155219,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="229" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="229" bodyend="229"/>
+        <location file="MRViewer/ImGuiMenu.h" line="235" column="9" bodyfile="MRViewer/ImGuiMenu.h" bodystart="235" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaafde25d3c36aa8b8ef7ed089de03c8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155207,7 +155238,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="231" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="237" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga251791115f07b579fa202436054f5d48" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>ImGuiContext *</type>
@@ -155221,7 +155252,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="233" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="239" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa42442fae2b45f724400fbfa87716738" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>ImGuiWindow *</type>
@@ -155235,7 +155266,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="235" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="235" bodyend="235"/>
+        <location file="MRViewer/ImGuiMenu.h" line="241" column="15" bodyfile="MRViewer/ImGuiMenu.h" bodystart="241" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa01c67f4f60c3ada3a42131b072e462f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -155258,7 +155289,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="238" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="244" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga985205322b93f00291168e3510b45334" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::filesystem::path</type>
@@ -155273,7 +155304,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="240" column="34"/>
+        <location file="MRViewer/ImGuiMenu.h" line="246" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga42624abdfcdda719a37176eb1053d605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155292,7 +155323,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="243" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="249" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga43f85bb44dcc48fb654aca2f9c8e1325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155307,7 +155338,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="246" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="252" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabc0755f9915af8353fcdacacb0bc8444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155330,7 +155361,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="248" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="254" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae65039b931dc674243f763a8876fc140" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -155349,7 +155380,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="252" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="258" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaba56047bcc1fbc1ffa7a44ab65955419" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -155368,7 +155399,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="255" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="261" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2f41574cc14aa82fc1fc29b98febd6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -155394,7 +155425,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="259" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="265" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6bec132133eebcf4d7ef25102a76fa39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -155410,7 +155441,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="261" column="17"/>
+        <location file="MRViewer/ImGuiMenu.h" line="267" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155445,7 +155476,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="263" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="269" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e7dfc4d1ce4492b22b5430476500520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -155480,7 +155511,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="265" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="271" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -155518,7 +155549,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="269" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="275" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga47c3996c85c24d180bec9f89358e666e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155548,7 +155579,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="273" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="279" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0b9508550f2dc503c7e8bfe4d20c6756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -155594,7 +155625,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="278" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="284" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga344b3a7a1c2340b70efb4c3d5ffa920f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155624,7 +155655,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="282" column="8"/>
+        <location file="MRViewer/ImGuiMenu.h" line="288" column="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6313d10e2b78aadec08af6df6ce0df6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::shared_ptr&lt; ShortcutManager &gt;</type>
@@ -155638,7 +155669,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="286" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="286" bodyend="286"/>
+        <location file="MRViewer/ImGuiMenu.h" line="292" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="292" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155656,7 +155687,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="288" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="294" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacda74258f75623378ed69b6cf60a5711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155674,7 +155705,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="290" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="296" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -155688,7 +155719,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="291" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="291" bodyend="291"/>
+        <location file="MRViewer/ImGuiMenu.h" line="297" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="297" bodyend="297"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155706,7 +155737,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="293" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="299" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga46994fb4141726f726f8e903e0ebdd3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155720,7 +155751,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="295" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="301" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7fb78d10511806576e8eb081203982f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155742,7 +155773,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="297" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="303" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga107476790b63bb2626af1911696a2612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155761,7 +155792,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="300" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="306" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2e12c000c6392a47446df2a428e38a3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -155780,7 +155811,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="303" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="309" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab7846cc6b8aebe41100e1bad3ee7b165" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155795,7 +155826,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="305" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="311" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2d17638d5eae8d84052a441927c8e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -155814,7 +155845,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="308" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="308" bodyend="308"/>
+        <location file="MRViewer/ImGuiMenu.h" line="314" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="314" bodyend="314"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3af61c19b91ea2126bb2ffdea304cba9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -155829,7 +155860,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="310" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="310" bodyend="310"/>
+        <location file="MRViewer/ImGuiMenu.h" line="316" column="8" bodyfile="MRViewer/ImGuiMenu.h" bodystart="316" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga960994b2cf7ea83b62d0709572c3f591" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>UiRenderManager &amp;</type>
@@ -155844,7 +155875,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="313" column="28"/>
+        <location file="MRViewer/ImGuiMenu.h" line="319" column="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga48fd92cd17ef9d58c9f021cfa8d2658d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; SceneObjectsListDrawer &gt; &amp;</type>
@@ -155858,7 +155889,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="315" column="26" bodyfile="MRViewer/ImGuiMenu.h" bodystart="315" bodyend="315"/>
+        <location file="MRViewer/ImGuiMenu.h" line="321" column="26" bodyfile="MRViewer/ImGuiMenu.h" bodystart="321" bodyend="321"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae37d50df7b1ae39e2fb9f1ffadea21a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155881,7 +155912,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="328" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="334" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0c19303af27f7c3d1bc9fcd233ac00da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155900,7 +155931,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="330" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="336" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad2a64141eea7543d77763acf46e5674b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155915,7 +155946,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="337" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="343" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga398dc624768fd545202eabec71edca08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155930,7 +155961,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="339" column="9"/>
+        <location file="MRViewer/ImGuiMenu.h" line="345" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacf0c50c3142b19530e99510238d76d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SelectedTypesMask</type>
@@ -155949,7 +155980,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="343" column="24"/>
+        <location file="MRViewer/ImGuiMenu.h" line="349" column="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e8c9335d9129dab0ac3f428f4f9afe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155967,7 +155998,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="344" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="350" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga696222ece2d12338ac7925bf5ba31001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -155989,7 +156020,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="345" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="351" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa9ae19f72e7141f60d4bc7c556816678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -156007,7 +156038,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="346" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="352" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ae2634d70e38f62b6a64768e075a2e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -156029,7 +156060,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="347" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="353" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga781d285bb03ab1613b955b1ee6611097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -156047,7 +156078,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="348" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="354" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156061,7 +156092,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="368" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="374" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga994b09e6e275cbb251285532f2c151ed" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156084,7 +156115,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="372" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="378" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8a6fa727b9d7376e1013da8fdd82ba1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156106,7 +156137,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="373" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="379" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa62cc275373a6ea5f93a45f30808f559" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156128,7 +156159,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="374" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="380" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga39593a74467c7f5657c1928ba29e9918" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156146,7 +156177,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="375" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="381" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaee8749db5f4345cd8e9e82f9b4b588a3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156164,7 +156195,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="376" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="382" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga71c0a4f3e155ed0c5a23884385941faf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156187,7 +156218,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="378" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="384" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9fd2c5cfa5ab8477bbf3d7bf1ab8ebef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156209,7 +156240,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="379" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="385" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaddc623163631e49d8f6274ea52de8c4e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156231,7 +156262,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="380" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="386" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3a4a876fef977b3d64182c7a90017350" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156253,7 +156284,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="381" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="387" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1a04f77dd9640baabc21151abbeb373a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156277,7 +156308,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="383" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="389" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga62511e31a24aa693197882de543d01b2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156300,7 +156331,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="384" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="390" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga15cf987399a05978bda56826f3cfa9e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156323,7 +156354,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="386" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="392" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad624687937256fd0722428f0f446bbf4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156341,7 +156372,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="387" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="393" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae2a62bf6f90ebf260b61f81dd258f714" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156356,7 +156387,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="389" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="395" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac92850dfedbaf136b29969809e6bc5b7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156374,7 +156405,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="390" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="396" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga03caa17830177e82fef4957f4b816184" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156388,7 +156419,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="391" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="397" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa78732e0e9637761b5d75fd438dbc38a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156402,7 +156433,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="392" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="398" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga016b5cca7b3fe9f9e022e3528654a39b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156428,7 +156459,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="393" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="399" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga94cce2cb106ba99a14f51e1fd4afb50e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156442,7 +156473,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="394" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="400" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6be0f0e930aff8b721e952068edd177d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156456,7 +156487,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="395" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="401" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae8c54fb0b0f263c36ef11aeccf8e2fde" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156478,7 +156509,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="396" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="402" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ae9318994ff4c3a45ae8addd49d473d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -156492,7 +156523,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="397" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="403" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3aee721bfe74d1d6bc9cb7bfae13d907" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156511,7 +156542,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="399" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="405" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae165bd076813c61b66a4d1267c0fbfb4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156526,7 +156557,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="403" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="409" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e0b023b33b10ed33c6ed78157fb7973" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -156540,7 +156571,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="405" column="12"/>
+        <location file="MRViewer/ImGuiMenu.h" line="411" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa95362cbaedec95d47487198b49e72ee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156558,7 +156589,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="406" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="412" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga93d9f62f18aedb3aee05577b6b4f84a3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156576,7 +156607,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="408" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="414" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab4e5f971f31b4ef95eb9c3698d9dff31" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156599,7 +156630,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="411" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="417" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2da5750de4e13ca0344018028ab6d0c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156617,7 +156648,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="413" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="419" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156635,7 +156666,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="415" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="421" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -156649,7 +156680,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="417" column="12"/>
+        <location file="MRViewer/ImGuiMenu.h" line="423" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3c93b3198a82123abaaf9619c58277cb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156677,7 +156708,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="423" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="429" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga65cb9f9b2313e78e999658565fa015c1" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; CombinedHistoryAction &gt;</type>
@@ -156700,7 +156731,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="427" column="22"/>
+        <location file="MRViewer/ImGuiMenu.h" line="433" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga20f37af023e4aded4584a7858e7c3092" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156723,7 +156754,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="432" column="11"/>
+        <location file="MRViewer/ImGuiMenu.h" line="438" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae4c26f4c30442c915cba470b1bd73bf4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -156742,7 +156773,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="439" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="439" bodyend="439"/>
+        <location file="MRViewer/ImGuiMenu.h" line="445" column="19" bodyfile="MRViewer/ImGuiMenu.h" bodystart="445" bodyend="445"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9acbbe6962c9c3658461ad306bf41e7a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156758,7 +156789,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="442" column="19"/>
+        <location file="MRViewer/ImGuiMenu.h" line="448" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf1877fc755762a20d997b8f1a9742043" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -156778,7 +156809,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="444" column="12"/>
+        <location file="MRViewer/ImGuiMenu.h" line="450" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga393e611425f8e0700c6a66af14fc700b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156798,7 +156829,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="449" column="15"/>
+        <location file="MRViewer/ImGuiMenu.h" line="455" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga88f44b8b52e3dc0e7e3c125b45cdb7c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156818,7 +156849,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="450" column="15"/>
+        <location file="MRViewer/ImGuiMenu.h" line="456" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d422ddb23c790808aa9288b25363482" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>BasicUiRenderTask::BackwardPassParams</type>
@@ -156842,7 +156873,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="451" column="48"/>
+        <location file="MRViewer/ImGuiMenu.h" line="457" column="48"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadfffa8dc5a661a4fb5936ad8b3858b77" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156866,7 +156897,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="452" column="15"/>
+        <location file="MRViewer/ImGuiMenu.h" line="458" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -156885,7 +156916,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="459" column="15"/>
+        <location file="MRViewer/ImGuiMenu.h" line="465" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -156904,7 +156935,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/ImGuiMenu.h" line="468" column="7" declfile="MRViewer/ImGuiMenu.h" declline="468" declcolumn="7"/>
+        <location file="MRViewer/ImGuiMenu.h" line="474" column="7" declfile="MRViewer/ImGuiMenu.h" declline="474" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1dd61ddfaca7ad57995cff3e85436742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -178110,10 +178141,10 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRSceneObjectsListDrawer.h" line="94" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga6b49bb69e16897b2b6e18f9a69651f70" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::SceneObjectsListDrawer::processItemClick_</definition>
-        <argsstring>(Object &amp;object, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected)</argsstring>
+        <argsstring>(Object &amp;object, const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;selected, bool simulatedClick=false)</argsstring>
         <name>processItemClick_</name>
         <qualifiedname>MR::SceneObjectsListDrawer::processItemClick_</qualifiedname>
         <param>
@@ -178124,14 +178155,28 @@ returns true if load was succeed </para>
           <type>const std::vector&lt; std::shared_ptr&lt; Object &gt; &gt; &amp;</type>
           <declname>selected</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>simulatedClick</declname>
+          <defval>false</defval>
+        </param>
         <briefdescription>
-<para>function that do click logic on object line (select/deselect/rename/open context) </para>
         </briefdescription>
         <detaileddescription>
+<para>function that do click logic on object line (select/deselect/rename/open context) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>simulatedClick</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a click simulated by <ref refid="namespaceMR_1_1UI_1_1TestEngine" kindref="compound">UI::TestEngine</ref>, which has no mouse state, so only selects </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="97" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="98" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178150,7 +178195,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="100" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="101" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -178165,7 +178210,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="103" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="104" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178196,7 +178241,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="108" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="109" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga79c979b84fc273be259ddba84ad09b5a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178219,7 +178264,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="111" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="112" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa63339981a28d0554c97a965142626c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178233,7 +178278,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="116" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="117" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga53956dc4e37d0ddf2727ae5fc9aed2e5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -178247,7 +178292,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="118" column="11"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="119" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga99cca3921f92be5097701848cabe923a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178261,7 +178306,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="119" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="120" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ed66c5b5c043bdbfc1b1562cf5f1cfb" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -178276,7 +178321,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="122" column="19"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="123" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab91f94e8ae1fdc4ef130921e7b59b0a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; Object * &gt;</type>
@@ -178310,7 +178355,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="124" column="17"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="125" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9850a78cb338110886f83ec3be592af6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178336,7 +178381,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="128" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="129" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga263a0162283350565586c34660445415" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -178351,7 +178396,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="160" column="10"/>
+        <location file="MRViewer/MRSceneObjectsListDrawer.h" line="161" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga28b1d1a4fc0bc2811d060a22d79a48b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TypedFlatTree</type>

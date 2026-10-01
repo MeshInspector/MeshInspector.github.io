@@ -53,7 +53,7 @@
       <member refid="group__GeneralGroup_1gac7cac88af55e173aeb0c55db22de8537" kind="function"><name>drawObject_</name></member>
       <member refid="group__GeneralGroup_1gac83507788674f6fdc300388afebb3304" kind="function"><name>drawSkippedObject_</name></member>
       <member refid="group__GeneralGroup_1ga809ccc1275d19dfcc5bfc3cadba293b1" kind="function"><name>drawObjectCollapsingHeader_</name></member>
-      <member refid="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" kind="function"><name>processItemClick_</name></member>
+      <member refid="group__GeneralGroup_1ga6b49bb69e16897b2b6e18f9a69651f70" kind="function"><name>processItemClick_</name></member>
       <member refid="group__GeneralGroup_1ga8aec8ee6ac0266249b98403d81359111" kind="function"><name>makeDragDropSource_</name></member>
       <member refid="group__GeneralGroup_1ga6b32550029f40adcc37e0d55b6cd3a1b" kind="function"><name>needDragDropTarget_</name></member>
       <member refid="group__GeneralGroup_1ga4dad108f861cd4c0c6a865c6ea12b6c5" kind="function"><name>makeDragDropTarget_</name></member>
@@ -85,7 +85,7 @@
         <link refid="classMR_1_1SceneObjectsListDrawer"/>
       </node>
     </inheritancegraph>
-    <location file="MRViewer/MRSceneObjectsListDrawer.h" line="18" column="1" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="19" bodyend="167"/>
+    <location file="MRViewer/MRSceneObjectsListDrawer.h" line="18" column="1" bodyfile="MRViewer/MRSceneObjectsListDrawer.h" bodystart="19" bodyend="168"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8084682665d391053cd04055e7c0ca4c" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder</name></member>
       <member refid="group__GeneralGroup_1gadd1a30cdd75755b51664d031778458f9" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>allowSceneReorder_</name></member>
@@ -122,7 +122,7 @@
       <member refid="group__GeneralGroup_1ga93aad96cf435af094f474899bc80c660" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>nextVisible_</name></member>
       <member refid="group__GeneralGroup_1gae92bca1def2f90b666c4e0d9e4bb01d5" prot="protected" virt="virtual"><scope>MR::SceneObjectsListDrawer</scope><name>objectLineStrId_</name></member>
       <member refid="group__GeneralGroup_1ga0afb65f705666663924638196be9f85a" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>prevScrollInfo_</name></member>
-      <member refid="group__GeneralGroup_1ga74e5357e26632ac0982586feae564127" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>processItemClick_</name></member>
+      <member refid="group__GeneralGroup_1ga6b49bb69e16897b2b6e18f9a69651f70" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>processItemClick_</name></member>
       <member refid="group__GeneralGroup_1ga99cca3921f92be5097701848cabe923a" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>reorderSceneIfNeeded_</name></member>
       <member refid="group__GeneralGroup_1ga35cdb8be56900573df3387f4538a787b" prot="protected" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>sceneOpenCommands_</name></member>
       <member refid="group__GeneralGroup_1ga6b506e2a4af03f568dcad5b76ccd21be" prot="private" virt="non-virtual"><scope>MR::SceneObjectsListDrawer</scope><name>sceneReorderCommand_</name></member>

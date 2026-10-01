@@ -21,6 +21,7 @@ var mrviewerpy_8pyi =
     [ "mrviewerpy.addPointCloudToScene", "namespacemrviewerpy.html#ad723a9f8a820b28c207c7fd920f3f84f", null ],
     [ "mrviewerpy.addVoxelsToScene", "namespacemrviewerpy.html#a12130d0a2a698d420a56a8cb11187c27", null ],
     [ "mrviewerpy.clearScene", "namespacemrviewerpy.html#a4e3940e810d3ed1f816f07f901b20b4e", null ],
+    [ "mrviewerpy.getPrimaryCtrlKeyMod", "namespacemrviewerpy.html#a34d0b3361413cd5999b47ed252d1a9ea", null ],
     [ "mrviewerpy.getSelectedDistanceMaps", "namespacemrviewerpy.html#ad13a99427238e7c8e67e8eb79c2289ca", null ],
     [ "mrviewerpy.getSelectedMeshEdges", "namespacemrviewerpy.html#ac795f4e87a560fe4cbbc50248212888c", null ],
     [ "mrviewerpy.getSelectedMeshes", "namespacemrviewerpy.html#abe7a459217a7ebfe3c467102f2a5c653", null ],
