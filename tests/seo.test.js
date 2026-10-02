@@ -34,6 +34,14 @@ describe('documentation SEO', () => {
     expect(offenders).toEqual([]);
   });
 
+  it('loads the meshlib.io consent banner on every page built with html_header.html', () => {
+    // The github.io redirect script marks the pages that use our header.
+    const headerPages = files.filter((file) => fs.readFileSync(file, 'utf8').includes("currentHost === 'meshinspector.github.io'"));
+    expect(headerPages.length).toBeGreaterThan(0);
+    const missing = headerPages.filter((file) => !fs.readFileSync(file, 'utf8').includes('<script src="/consent/embed.js" defer></script>')).map(relative);
+    expect(missing).toEqual([]);
+  });
+
   it('keeps doxygen_crawl.html out of the index', () => {
     const crawlPages = files.filter((file) => path.basename(file) === 'doxygen_crawl.html');
     expect(crawlPages.length).toBeGreaterThan(0);
