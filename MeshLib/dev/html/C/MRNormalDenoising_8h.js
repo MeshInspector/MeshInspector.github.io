@@ -71,5 +71,5 @@ var MRNormalDenoising_8h =
     [ "MR_meshDenoiseWithCreases_4_MR_MeshTopology", "MRNormalDenoising_8h.html#a8c74417edf7febec877f1df7249096e6", null ],
     [ "MR_meshDenoiseWithCreases_5", "MRNormalDenoising_8h.html#aef44ad45e2911609a86b186709746313", null ],
     [ "MR_updateIndicator", "MRNormalDenoising_8h.html#a5044557867c70d83cef5bb325cc0fb23", null ],
-    [ "MR_updateIndicatorFast", "MRNormalDenoising_8h.html#a2b6f9a972a5c537afbf98411a3e6ae23", null ]
+    [ "MR_updateIndicatorFast", "MRNormalDenoising_8h.html#af23297044b26295d54431e90242c68cb", null ]
 ];

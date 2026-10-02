@@ -320,7 +320,7 @@ var NAVTREEINDEX =
 "functions_vars_h.html",
 "namespacemrmeshpy.html#a0ea1d277b35b165f31699a808adf8dca",
 "namespacemrmeshpy.html#a2f8a7b7988d86558871b98eac1cbd5dc",
-"namespacemrmeshpy.html#a4ce7d4c96054a03fa778e9cb40d7ecaf",
+"namespacemrmeshpy.html#a4cb0c64febe2a13962ce9f33f565863f",
 "namespacemrmeshpy.html#a6d1baf610cca607d4de106f48c7d0a3f",
 "namespacemrmeshpy.html#a8c34ab02948cfbf3cb312c7db6361e2c",
 "namespacemrmeshpy.html#aac3ff37b2f929dfad909a6c29b48fcd3",

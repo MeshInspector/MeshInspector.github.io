@@ -2748,7 +2748,7 @@ var namespacemrmeshpy =
     [ "unitVector3_float", "namespacemrmeshpy.html#a1e4342178b6e8f2c013eaaffd713d4f2", null ],
     [ "updateGroupPairs", "namespacemrmeshpy.html#a17e598a0e232b9697ccbd10510fdc251", null ],
     [ "updateIndicator", "namespacemrmeshpy.html#a322986d363a676bd2c06ef84f38a9b22", null ],
-    [ "updateIndicatorFast", "namespacemrmeshpy.html#a5ffbe63dd32beecf891562cd0c73271a", null ],
+    [ "updateIndicatorFast", "namespacemrmeshpy.html#a3ea8641f8316100580fe3876fa072c2a", null ],
     [ "updatePointPairs", "namespacemrmeshpy.html#a5d2536e502f9d876c8de49d8641ee65c", null ],
     [ "utf8string", "namespacemrmeshpy.html#a44c5a46c8d632eff18d069175e5bde49", null ],
     [ "utf8substr", "namespacemrmeshpy.html#aefd62381b61aa9a233a353977723f816", null ],

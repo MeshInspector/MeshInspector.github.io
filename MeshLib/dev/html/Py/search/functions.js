@@ -1496,7 +1496,7 @@ var searchData=
   ['updatehistogram_45',['updateHistogram',['../classmrmeshpy_1_1ObjectVoxels.html#a0686644f794743ea4e8a36720647c63d',1,'mrmeshpy::ObjectVoxels']]],
   ['updatehistogramandsurface_46',['updateHistogramAndSurface',['../classmrmeshpy_1_1ObjectVoxels.html#ad138a3220012614e3d5d68bbb90c48d9',1,'mrmeshpy::ObjectVoxels']]],
   ['updateindicator_47',['updateIndicator',['../namespacemrmeshpy.html#a322986d363a676bd2c06ef84f38a9b22',1,'mrmeshpy']]],
-  ['updateindicatorfast_48',['updateIndicatorFast',['../namespacemrmeshpy.html#a5ffbe63dd32beecf891562cd0c73271a',1,'mrmeshpy']]],
+  ['updateindicatorfast_48',['updateIndicatorFast',['../namespacemrmeshpy.html#a3ea8641f8316100580fe3876fa072c2a',1,'mrmeshpy']]],
   ['updateisosurface_49',['updateIsoSurface',['../classmrmeshpy_1_1ObjectVoxels.html#a9ce26a587627b58473c3596c03b511f6',1,'mrmeshpy::ObjectVoxels']]],
   ['updatelinescolormap_50',['updateLinesColorMap',['../classmrmeshpy_1_1ObjectLinesHolder.html#a0882af5e3f185e6fe9863b2b29e59559',1,'mrmeshpy::ObjectLinesHolder']]],
   ['updatemesh_51',['updateMesh',['../classmrmeshpy_1_1ObjectDistanceMap.html#a9e1e2eab4b34336646077a31fb904bb2',1,'mrmeshpy.ObjectDistanceMap.updateMesh()'],['../classmrmeshpy_1_1ObjectMesh.html#a3eb4e068663392513827bd418a9faf6f',1,'mrmeshpy.ObjectMesh.updateMesh()']]],

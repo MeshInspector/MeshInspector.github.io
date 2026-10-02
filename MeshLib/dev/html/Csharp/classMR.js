@@ -4136,7 +4136,7 @@ var classMR =
     [ "unitVector3", "classMR.html#acc0c11ba0b8ac541cf9e6c1bcc80357b", null ],
     [ "updateGroupPairs", "classMR.html#a6027b8b74f4ebeecd72a953db5f82337", null ],
     [ "updateIndicator", "classMR.html#a8f6461f22bfa379a6b38caeb730b911c", null ],
-    [ "updateIndicatorFast", "classMR.html#ab75ba536145e2c152d05abc39a879b52", null ],
+    [ "updateIndicatorFast", "classMR.html#a5f2f62d487701ed133ff3d6b84c06c45", null ],
     [ "updatePointPairs", "classMR.html#a04df1ae413ed90a70e4f0fe6704b85ea", null ],
     [ "utf8string", "classMR.html#abeb41b99b4311c17828f86d7db0afe66", null ],
     [ "utf8substr", "classMR.html#ae58512a52343d7db666fd91aedaa69d9", null ],

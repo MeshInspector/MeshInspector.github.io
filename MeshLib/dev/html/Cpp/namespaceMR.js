@@ -3618,7 +3618,7 @@ var namespaceMR =
     [ "updateCurrentViewByControllerRegion", "group__GeneralGroup.html#gac1516c648ca1edb3f56c9b5bc47f0271", null ],
     [ "updateGroupPairs", "group__GeneralGroup.html#ga8b53d4824a98c05f3bfe0e82093609ea", null ],
     [ "updateIndicator", "group__GeneralGroup.html#ga7ffe0a021107f569b3ffa018da32e9b2", null ],
-    [ "updateIndicatorFast", "group__GeneralGroup.html#gad6e2edf074642202b7e738dfeee59f29", null ],
+    [ "updateIndicatorFast", "group__GeneralGroup.html#gab54d26f09a8a2f95888858cfdcdd347c", null ],
     [ "updatePointPairs", "group__GeneralGroup.html#ga1301b1c633de237705ebc76fcbd215df", null ],
     [ "updateRootsParallel", "group__GeneralGroup.html#gae7af679c3eb052bec144b61413a52372", null ],
     [ "utf32ToUtf8", "group__BasicGroup.html#ga78e854361dc1dced79ade4111cdb6965", null ],
