@@ -153,6 +153,8 @@ $(function(){initNavTree('structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html',
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae3e69d330fabb3b2d376e4c801e960d5" id="r_ae3e69d330fabb3b2d376e4c801e960d5"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e69d330fabb3b2d376e4c801e960d5">disabledReason</a></td></tr>
 <tr class="memdesc:ae3e69d330fabb3b2d376e4c801e960d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-empty marks the widget as disabled with this reason. Only read during the call.  <br /></td></tr>
+<tr class="memitem:a695d48555d359194959f202492b508cb" id="r_a695d48555d359194959f202492b508cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a695d48555d359194959f202492b508cb">ignoreBlockingModal</a> = false</td></tr>
+<tr class="memdesc:a695d48555d359194959f202492b508cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the entry stays enabled while a modal popup is open, e.g. for a value registered outside of any window.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Optional attributes reported to the test engine each frame alongside a widget registration. </p>
@@ -170,6 +172,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Non-empty marks the widget as disabled with this reason. Only read during the call. </p>
+
+</div>
+</div>
+<a id="a695d48555d359194959f202492b508cb" name="a695d48555d359194959f202492b508cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a695d48555d359194959f202492b508cb">&#9670;&#160;</a></span>ignoreBlockingModal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::TestEngine::EntryAttributes::ignoreBlockingModal = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If true, the entry stays enabled while a modal popup is open, e.g. for a value registered outside of any window. </p>
 
 </div>
 </div>

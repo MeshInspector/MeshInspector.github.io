@@ -3152,6 +3152,7 @@
   </compound>
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" kind="struct"><name>MR::UI::TestEngine::EntryAttributes</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1ae3e69d330fabb3b2d376e4c801e960d5" kind="variable"><name>disabledReason</name></member>
+    <member refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes_1a695d48555d359194959f202492b508cb" kind="variable"><name>ignoreBlockingModal</name></member>
   </compound>
   <compound refid="classMR_1_1EnumNeihbourFaces" kind="class"><name>MR::EnumNeihbourFaces</name>
     <member refid="group__GeneralGroup_1ga79203f31763f7bc8c5334f9eefa76d4d" kind="variable"><name>visited_</name></member>
