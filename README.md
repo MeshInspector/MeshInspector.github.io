@@ -56,10 +56,11 @@ You can try updating them using the following instructions:
 
 1. Prepare html_header.html
 
-Inject Google Analytics code into the HTML header
-```
-sed -e "/<head>/r scripts/analytics/html_head.html" -e "/<body>/r scripts/analytics/html_body.html" -i html_header.html
-```
+Do not inject analytics or tag-manager code into the header. The documentation is
+served as https://meshlib.io/documentation, so it falls under the meshlib.io cookie
+policy: trackers may load only after the visitor consents, and these pages have no
+consent banner. If documentation analytics is needed, it has to read the consent the
+meshlib.io site already stores rather than load tags unconditionally.
 
 Add doxygen-awesome scripts
 ```
