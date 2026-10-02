@@ -141,6 +141,7 @@ var MRMesh_8h =
     [ "MR_Mesh_triCenter", "MRMesh_8h.html#afd9a5a04df354435d727caa9fb9bccf3", null ],
     [ "MR_Mesh_triPoint", "MRMesh_8h.html#a7c4419a1fe6b8000bd5d992d5ba338b6", null ],
     [ "MR_Mesh_updateCaches", "MRMesh_8h.html#a21ed6ff7557adf4ba0fa4efd52bb38c9", null ],
+    [ "MR_Mesh_updateCachesAfterSplits", "MRMesh_8h.html#a0808c721348661ec9c201a1664611ee6", null ],
     [ "MR_Mesh_volume", "MRMesh_8h.html#a9947ce49e209c6d1b9b517cc729c706d", null ],
     [ "MR_Mesh_zeroUnusedPoints", "MRMesh_8h.html#aeaaaacfbe283dcc72b4d746621ecc651", null ]
 ];

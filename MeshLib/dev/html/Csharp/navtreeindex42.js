@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1Const__DenoiseWithCreasesSettings.html#a0afc970dc1620a066c0f38edf192fba6":[9,3,0,0,0,397,7],
 "classMR_1_1Const__DenoiseWithCreasesSettings.html#a21fdc18f9011798e2c16bb2ec085badc":[9,3,0,0,0,397,8],
 "classMR_1_1Const__DenoiseWithCreasesSettings.html#a2fc1bbdbe675411cb14c34651f356960":[9,3,0,0,0,397,4],
 "classMR_1_1Const__DenoiseWithCreasesSettings.html#a3cd8780731709fa7a7d8cbd8d9c6e6e4":[9,3,0,0,0,397,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DistanceMeasurementObject.html":[9,3,0,0,0,411],
 "classMR_1_1Const__DistanceMeasurementObject.html#a060c07830ceca82c990b95d36a4246c9":[9,3,0,0,0,411,10],
 "classMR_1_1Const__DistanceMeasurementObject.html#a06497d2b2e5e3f7887223474c372f44b":[9,3,0,0,0,411,73],
-"classMR_1_1Const__DistanceMeasurementObject.html#a06f0bbddb48abd4959e1323b90eed6e5":[9,3,0,0,0,411,64],
-"classMR_1_1Const__DistanceMeasurementObject.html#a0b69f0e3f8bcb71632285bed5834dc3d":[9,3,0,0,0,411,77]
+"classMR_1_1Const__DistanceMeasurementObject.html#a06f0bbddb48abd4959e1323b90eed6e5":[9,3,0,0,0,411,64]
 };

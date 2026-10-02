@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1IDragDropHandler.html":[9,0,0,20,594],
 "classMR_1_1IFastWindingNumber.html":[9,0,0,20,223],
 "classMR_1_1IFastWindingNumberByParts.html":[9,0,0,20,225],
 "classMR_1_1IFillContours2DPlanCache.html":[9,0,0,20,258],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1Object.html#abf2e87d7dd67d22799d82a35ddecc7b3":[9,0,0,11,4,83],
 "classMR_1_1Object.html#ac2ef0a60f0cb9b488534014376ccd38d":[9,0,0,11,4,2],
 "classMR_1_1Object.html#ac427b5b1a99a87eac1305683801fc850":[9,0,0,11,4,68],
-"classMR_1_1Object.html#ac5bae69ebe807554a5e9f8b91a89dfd6":[9,0,0,11,4,6],
-"classMR_1_1Object.html#ac8aa3b30c857e87440cb2be7e1a60732":[9,0,0,11,4,19]
+"classMR_1_1Object.html#ac5bae69ebe807554a5e9f8b91a89dfd6":[9,0,0,11,4,6]
 };

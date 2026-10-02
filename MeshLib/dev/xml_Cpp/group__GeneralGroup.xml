@@ -17620,7 +17620,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="73" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="73" bodyend="-1"/>
+        <location file="MRMesh/MROneMeshContours.h" line="74" column="1" bodyfile="MRMesh/MROneMeshContours.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3c6c4a3a98a6d5a53b51d05984395fa3" prot="public" static="no">
         <type>std::variant&lt; std::monostate, MeshTriPoint, EdgePoint, VertId &gt;</type>
@@ -39988,7 +39988,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="88" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="88" bodyend="88"/>
+        <location file="MRMesh/MROneMeshContours.h" line="89" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa176e79c6812cb52b0c1dabdaa2e61c3" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -40004,7 +40004,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="89" column="9" bodyfile="MRMesh/MROneMeshContours.h" bodystart="89" bodyend="89"/>
+        <location file="MRMesh/MROneMeshContours.h" line="90" column="9" bodyfile="MRMesh/MROneMeshContours.h" bodystart="90" bodyend="90"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -131326,11 +131326,11 @@ element fields:<linebreak/>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Divides faces that fully own contours into 3 parts with center in center mass of one of the face contours if there is more than one contour on face it guarantee to subdivide at least one lone contour on this face </para>
+<para>Divides faces that fully own contours into 3 parts with center in center mass of one of the face contours if there is more than one contour on face it guarantee to subdivide at least one lone contour on this face the AABB tree of the mesh (if any) is updated instead of being invalidated </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="51" column="7" declfile="MRMesh/MROneMeshContours.h" declline="51" declcolumn="7"/>
+        <location file="MRMesh/MROneMeshContours.h" line="52" column="7" declfile="MRMesh/MROneMeshContours.h" declline="52" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6c2a8d613e29f26fcbbfaad5c43205a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -131385,7 +131385,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="57" column="7" declfile="MRMesh/MROneMeshContours.h" declline="57" declcolumn="7"/>
+        <location file="MRMesh/MROneMeshContours.h" line="58" column="7" declfile="MRMesh/MROneMeshContours.h" declline="58" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga57f74cde60c66eebd3b6f0076937f2c8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>OneMeshContours</type>
@@ -131417,7 +131417,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="66" column="18" declfile="MRMesh/MROneMeshContours.h" declline="66" declcolumn="18"/>
+        <location file="MRMesh/MROneMeshContours.h" line="67" column="18" declfile="MRMesh/MROneMeshContours.h" declline="67" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1d82174091ef8dac35de35e5b472b0fe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Contours3f</type>
@@ -131436,7 +131436,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MROneMeshContours.h" line="71" column="13" declfile="MRMesh/MROneMeshContours.h" declline="71" declcolumn="13"/>
+        <location file="MRMesh/MROneMeshContours.h" line="72" column="13" declfile="MRMesh/MROneMeshContours.h" declline="72" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga23e34559729eb030740a98ba96839023" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBMap</type>

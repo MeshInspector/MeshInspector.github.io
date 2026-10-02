@@ -1,5 +1,7 @@
 var NAVTREEINDEX147 =
 {
+"classMR_1_1WeightedShell.html#acea209e9f19afa7cdac2593429765dd3":[9,3,0,0,0,1862,13],
+"classMR_1_1WeightedShell.html#ad6ca04c27d7c4365abb15752feb103b5":[9,3,0,0,0,1862,11],
 "classMR_1_1WeightedShell.html#ad8babcfcf4a060f9f9099d5063f06462":[9,3,0,0,0,1862,12],
 "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html":[9,3,0,0,0,1862,0],
 "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html#a0a923f72230f10420125262396608f5b":[9,3,0,0,0,1862,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX147 =
 "functions_func_b.html":[9,3,0,3,1,2],
 "functions_func_c.html":[9,3,0,3,1,3],
 "functions_func_d.html":[9,3,0,3,1,4],
-"functions_func_e.html":[9,3,0,3,1,5],
-"functions_func_f.html":[9,3,0,3,1,6],
-"functions_func_g.html":[9,3,0,3,1,7]
+"functions_func_e.html":[9,3,0,3,1,5]
 };

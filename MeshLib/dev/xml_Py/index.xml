@@ -3,6 +3,7 @@
   <compound refid="classmrmeshpy_1_1AABBTree" kind="class"><name>mrmeshpy::AABBTree</name>
     <member refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1AABBTree_1a9b992ca3f90afb46c8b53abb6a38cf82" kind="function"><name>addSplitFaces</name></member>
     <member refid="classmrmeshpy_1_1AABBTree_1acc7553c31cfedc725404a6b4739aef0e" kind="function"><name>refit</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f" kind="class"><name>mrmeshpy::AABBTreeBase_AABBTreeTraits_FaceTag_Box3f</name>
@@ -11153,6 +11154,7 @@
     <member refid="classmrmeshpy_1_1Mesh_1a9386837c14764124fc2b283abb1f73d2" kind="function"><name>triPoint</name></member>
     <member refid="classmrmeshpy_1_1Mesh_1a546355126ec03aafb22ef5a3634f63f4" kind="function"><name>triangleAspectRatio</name></member>
     <member refid="classmrmeshpy_1_1Mesh_1a50620cd3a4364a60b1c2af2eb2e464de" kind="function"><name>updateCaches</name></member>
+    <member refid="classmrmeshpy_1_1Mesh_1a744a601401c3c9dd0ba9eb65d768ddd8" kind="function"><name>updateCachesAfterSplits</name></member>
     <member refid="classmrmeshpy_1_1Mesh_1a323fc8be238ad636a64a24571367e745" kind="function"><name>volume</name></member>
     <member refid="classmrmeshpy_1_1Mesh_1ab8cdd0778f5e0b1600eaeca76f4dd961" kind="function"><name>zeroUnusedPoints</name></member>
   </compound>

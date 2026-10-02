@@ -332,6 +332,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa011de9d0180060e3b1dbcc27917c54b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached dipoles of aabb-tree nodes for this mesh, but does not create it if it did not exist  <br /></td></tr>
 <tr class="memitem:a47afb5a6c704c55128ab6c07680ebaf4" id="r_a47afb5a6c704c55128ab6c07680ebaf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches</a> (bool pointsChanged=true)</td></tr>
 <tr class="memitem:a5234fc402df7b5912834413c90f4dd10" id="r_a5234fc402df7b5912834413c90f4dd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5234fc402df7b5912834413c90f4dd10">updateCaches</a> (const VertBitSet *changedVerts)</td></tr>
+<tr class="memitem:a09a97bb00b1eac52db441f32170cbcc6" id="r_a09a97bb00b1eac52db441f32170cbcc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09a97bb00b1eac52db441f32170cbcc6">updateCachesAfterSplits</a> (const <a class="el" href="group__GeneralGroup.html#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> &amp;new2Old)</td></tr>
 <tr class="memitem:a938ddf04e638f19c080b5dc443141629" id="r_a938ddf04e638f19c080b5dc443141629"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a938ddf04e638f19c080b5dc443141629">heapBytes</a> () const</td></tr>
 <tr class="memdesc:a938ddf04e638f19c080b5dc443141629"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="memitem:a100fbcee62af5a8779713b186d7e6824" id="r_a100fbcee62af5a8779713b186d7e6824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a100fbcee62af5a8779713b186d7e6824">shrinkToFit</a> ()</td></tr>
@@ -3959,6 +3960,29 @@ Public Attributes</h2></td></tr>
 <p>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches()</a> and following rebuild of trees </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">changedVerts</td><td>vertices with modified coordinates, nullptr means all valid vertices </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a09a97bb00b1eac52db441f32170cbcc6" name="a09a97bb00b1eac52db441f32170cbcc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a97bb00b1eac52db441f32170cbcc6">&#9670;&#160;</a></span>updateCachesAfterSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Mesh::updateCachesAfterSplits </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#a9f365e654b9b4a4584293c3add2fdb05">splitFace()</a> or <a class="el" href="#a0426a1ac11c53b02a2756afa0c205105">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a47afb5a6c704c55128ab6c07680ebaf4">invalidateCaches()</a> and following rebuild of AABB tree </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by <a class="el" href="#a9f365e654b9b4a4584293c3add2fdb05">splitFace()</a> and <a class="el" href="#a0426a1ac11c53b02a2756afa0c205105">splitEdge()</a>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more </td></tr>
   </table>
   </dd>
 </dl>

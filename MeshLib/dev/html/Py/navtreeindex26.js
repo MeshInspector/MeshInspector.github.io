@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"classmrmeshpy_1_1EdgeBitSet.html#afde3b1c767b3b0e1479d6aaecd46f476":[9,1,0,0,2,238,24],
+"classmrmeshpy_1_1EdgeBitSet.html#afde3b1c767b3b0e1479d6aaecd46f476":[9,1,1,0,1,238,24],
 "classmrmeshpy_1_1EdgeColors.html":[9,1,0,0,2,240],
 "classmrmeshpy_1_1EdgeColors.html":[9,1,1,0,1,240],
 "classmrmeshpy_1_1EdgeColors.html#a019f293f89395b64363b71eea0f5960f":[9,1,0,0,2,240,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a06803e372cd69911665787f48bc15940":[9,1,0,0,2,245,2],
 "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a06803e372cd69911665787f48bc15940":[9,1,1,0,1,245,2],
 "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a1a8dda29273c4a6a22c9d454a6783247":[9,1,0,0,2,245,14],
-"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a1a8dda29273c4a6a22c9d454a6783247":[9,1,1,0,1,245,14],
-"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a3b670650a5cf7b6f27a81b0482f47e6b":[9,1,0,0,2,245,12],
-"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a3b670650a5cf7b6f27a81b0482f47e6b":[9,1,1,0,1,245,12]
+"classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty.html#a1a8dda29273c4a6a22c9d454a6783247":[9,1,1,0,1,245,14]
 };

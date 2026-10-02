@@ -262,6 +262,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9386837c14764124fc2b283abb1f73d2" id="r_a9386837c14764124fc2b283abb1f73d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9386837c14764124fc2b283abb1f73d2">triPoint</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> p)</td></tr>
 <tr class="memitem:a546355126ec03aafb22ef5a3634f63f4" id="r_a546355126ec03aafb22ef5a3634f63f4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a546355126ec03aafb22ef5a3634f63f4">triangleAspectRatio</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
 <tr class="memitem:a50620cd3a4364a60b1c2af2eb2e464de" id="r_a50620cd3a4364a60b1c2af2eb2e464de"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50620cd3a4364a60b1c2af2eb2e464de">updateCaches</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> changedVerts)</td></tr>
+<tr class="memitem:a744a601401c3c9dd0ba9eb65d768ddd8" id="r_a744a601401c3c9dd0ba9eb65d768ddd8"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a744a601401c3c9dd0ba9eb65d768ddd8">updateCachesAfterSplits</a> (self, <a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a> new2Old)</td></tr>
 <tr class="memitem:a323fc8be238ad636a64a24571367e745" id="r_a323fc8be238ad636a64a24571367e745"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a323fc8be238ad636a64a24571367e745">volume</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> region=None)</td></tr>
 <tr class="memitem:ab8cdd0778f5e0b1600eaeca76f4dd961" id="r_ab8cdd0778f5e0b1600eaeca76f4dd961"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8cdd0778f5e0b1600eaeca76f4dd961">zeroUnusedPoints</a> (self)</td></tr>
 </table><table class="memberdecls">
@@ -3524,6 +3525,32 @@ if region is nullptr, all valid mesh vertices are used
 and topology remained unchanged;
 it shall be considered as a faster alternative to invalidateCaches() and following rebuild of trees
 \\param changedVerts vertices with modified coordinates, nullptr means all valid vertices
+</pre> 
+</div>
+</div>
+<a id="a744a601401c3c9dd0ba9eb65d768ddd8" name="a744a601401c3c9dd0ba9eb65d768ddd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744a601401c3c9dd0ba9eb65d768ddd8">&#9670;&#160;</a></span>updateCachesAfterSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.Mesh.updateCachesAfterSplits </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</a></td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) with no other changes in the mesh;
+it shall be considered as a faster alternative to invalidateCaches() and following rebuild of AABB tree
+\\param new2Old maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge());
+it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls
+(like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more
 </pre> 
 </div>
 </div>

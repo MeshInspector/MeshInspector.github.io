@@ -8,6 +8,7 @@
     <member refid="classMR_1_1AABBTree_1a299be175c35406bc5c624c524a3221e7" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1a3d03064881df6e739bd9f815c909abe5" kind="function"><name>operator=</name></member>
     <member refid="classMR_1_1AABBTree_1ad45eb520762fef375722fd1e51317b85" kind="function"><name>refit</name></member>
+    <member refid="classMR_1_1AABBTree_1aebe936e844503aa620a92af3a0ed22b5" kind="function"><name>addSplitFaces</name></member>
     <member refid="classMR_1_1AABBTree_1ad6975060e66ad2015a573f87cc496c9d" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1a4ab5667b36f37c71f2c5ead4d889d288" kind="function"><name>operator=</name></member>
   </compound>
@@ -5698,6 +5699,7 @@
     <member refid="structMR_1_1Mesh_1aa011de9d0180060e3b1dbcc27917c54b" kind="function"><name>getDipolesNotCreate</name></member>
     <member refid="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" kind="function"><name>invalidateCaches</name></member>
     <member refid="structMR_1_1Mesh_1a5234fc402df7b5912834413c90f4dd10" kind="function"><name>updateCaches</name></member>
+    <member refid="structMR_1_1Mesh_1a09a97bb00b1eac52db441f32170cbcc6" kind="function"><name>updateCachesAfterSplits</name></member>
     <member refid="structMR_1_1Mesh_1a938ddf04e638f19c080b5dc443141629" kind="function"><name>heapBytes</name></member>
     <member refid="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" kind="function"><name>shrinkToFit</name></member>
     <member refid="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" kind="function"><name>mirror</name></member>

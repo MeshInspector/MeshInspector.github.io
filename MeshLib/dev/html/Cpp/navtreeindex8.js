@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"classMR_1_1CircleObject.html#a991beec8b2a8e873d3c1325a07e90050":[9,0,0,11,0,0,5],
 "classMR_1_1CircleObject.html#aa13f61ce686ebbd95f164568642be551":[9,0,0,11,0,0,6],
 "classMR_1_1CircleObject.html#abec5f0f71f858d015c3d3f59b521962e":[9,0,0,11,0,0,3],
 "classMR_1_1CircleObject.html#ac35a7a207e548a2782870a3d1a218de1":[9,0,0,11,0,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "classMR_1_1IComputePointsToDistanceFunctionVolume.html":[9,0,0,20,882],
 "classMR_1_1IComputePointsToDistanceVolume.html":[9,0,0,20,880],
 "classMR_1_1IComputePointsToDistanceVolumeByParts.html":[9,0,0,20,881],
-"classMR_1_1IComputeToolDistance.html":[9,0,0,20,893],
-"classMR_1_1IDragDropHandler.html":[9,0,0,20,594]
+"classMR_1_1IComputeToolDistance.html":[9,0,0,20,893]
 };

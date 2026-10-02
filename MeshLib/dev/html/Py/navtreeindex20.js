@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1CubicBezierCurve3f.html":[9,1,0,0,2,192],
+"classmrmeshpy_1_1CubicBezierCurve3f.html":[9,1,1,0,1,192],
 "classmrmeshpy_1_1CubicBezierCurve3f.html#a1b104feeac6028a9f414781d6b3ae98c":[9,1,0,0,2,192,0],
 "classmrmeshpy_1_1CubicBezierCurve3f.html#a1b104feeac6028a9f414781d6b3ae98c":[9,1,1,0,1,192,0],
 "classmrmeshpy_1_1CubicBezierCurve3f.html#a6efef7c5e596dcbe90ff2cc59d04bdae":[9,1,0,0,2,192,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1DecimatePolylineResult.html#aadebc6bf0edaacce6b1622286c83a4a9":[9,1,0,0,2,202,1],
 "classmrmeshpy_1_1DecimatePolylineResult.html#aadebc6bf0edaacce6b1622286c83a4a9":[9,1,1,0,1,202,1],
 "classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[9,1,0,0,2,202,3],
-"classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[9,1,1,0,1,202,3],
-"classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[9,1,0,0,2,202,4],
-"classmrmeshpy_1_1DecimatePolylineResult.html#adf5b213c3a7aa27f31f35e37f1ad2837":[9,1,1,0,1,202,4]
+"classmrmeshpy_1_1DecimatePolylineResult.html#ad521b16cfeb877a7e727b009848030a8":[9,1,1,0,1,202,3]
 };

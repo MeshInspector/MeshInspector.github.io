@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BooleanResultMapper.html#afade241a084e350772386120b922671d":[9,3,0,0,0,65,0],
 "classMR_1_1BooleanResultMapper.html#aff24e0a1b486b7b20ed99e9b36a2f018":[9,3,0,0,0,65,3],
 "classMR_1_1BooleanResultPoints.html":[9,3,0,0,0,66],
 "classMR_1_1BooleanResultPoints.html#a394d9f8c4a1db8abc4665b19675fed0f":[9,3,0,0,0,66,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1Box__FaceId.html#a85d98e4f977cc61c4d0930559f9784b6":[9,3,0,0,0,97,3],
 "classMR_1_1Box__FaceId.html#aa4a029d201b8e2bec4b8e65ba3ed98fa":[9,3,0,0,0,97,9],
 "classMR_1_1Box__FaceId.html#ab000ce61205627aea1bfa12b0bcfc4b4":[9,3,0,0,0,97,11],
-"classMR_1_1Box__FaceId.html#ab6354795956e84b7af46a04cc3278123":[9,3,0,0,0,97,5],
-"classMR_1_1Box__FaceId.html#abb54b47bca40f5cf82e125fb6509cb18":[9,3,0,0,0,97,7]
+"classMR_1_1Box__FaceId.html#ab6354795956e84b7af46a04cc3278123":[9,3,0,0,0,97,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"MRAngleMeasurementObject_8h.html#af1ca331873ba835241239ff1b19b0d44":[9,2,2,0,0,0,0,1,14,58],
+"MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1":[9,2,2,0,0,0,0,1,14,1],
 "MRAngleMeasurementObject_8h.html#af542efb8a053d7186f8b403894332c54":[9,2,2,0,0,0,0,1,14,123],
 "MRAngleMeasurementObject_8h.html#afe89400105b57dccc2067afe413715c1":[9,2,2,0,0,0,0,1,14,94],
 "MRAngleMeasurementObject_8h.html#afeeb94c5a80b1bdcc0eb7da534d0ffcd":[9,2,2,0,0,0,0,1,14,151],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "MRBestFitPolynomial_8h.html#a465d6ce7703c391cf9ace6174e1fb27b":[9,2,2,0,0,0,0,1,22,177],
 "MRBestFitPolynomial_8h.html#a47b5d487b4b23ad95ba85ba9f2eb081c":[9,2,2,0,0,0,0,1,22,47],
 "MRBestFitPolynomial_8h.html#a48ced3fddb257ae0aa740a9c2ea9ba47":[9,2,2,0,0,0,0,1,22,158],
-"MRBestFitPolynomial_8h.html#a4a6a0415cbfc9c862e78b3d0c6025fb7":[9,2,2,0,0,0,0,1,22,81],
-"MRBestFitPolynomial_8h.html#a4af4b71f560d779d77cb6ca3d01b75ac":[9,2,2,0,0,0,0,1,22,214],
-"MRBestFitPolynomial_8h.html#a4c4c6e9d3f367d2841db8b21b86e109f":[9,2,2,0,0,0,0,1,22,121]
+"MRBestFitPolynomial_8h.html#a4a6a0415cbfc9c862e78b3d0c6025fb7":[9,2,2,0,0,0,0,1,22,81]
 };

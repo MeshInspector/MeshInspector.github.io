@@ -161,12 +161,14 @@
     <member refid="classMR_1_1AABBTree_1aad3f5d1057d0339e5fbc2790ac88ccc1" kind="function"><name>AABBTree</name></member>
     <member refid="classMR_1_1AABBTree_1ac9cf74a20e92daa54a90f0be97415c79" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1AABBTree_1a3a38d1a947dd8d13a75f3f62bea46fad" kind="function"><name>refit</name></member>
+    <member refid="classMR_1_1AABBTree_1a219f54b60e4aaacfa03245f5a106dd83" kind="function"><name>addSplitFaces</name></member>
     <member refid="classMR_1_1AABBTree_1a831781f0173f17a059fe1f1c9d27c6e1" kind="function"><name>getLeafOrderAndReset</name></member>
     <member refid="classMR_1_1AABBTree_1a8e5003ecb87e8523ed536d557e0fb0f8" kind="function"><name>__MR_AABBTree_AssignFromAnother</name></member>
     <member refid="classMR_1_1AABBTree_1afcadacb903c473db1207410ce0535cd1" kind="function"><name>__MR_AABBTree_Construct</name></member>
     <member refid="classMR_1_1AABBTree_1abeb6773100cb0136a508cd8c51d3fbff" kind="function"><name>__MR_AABBTree_ConstructFromAnother</name></member>
     <member refid="classMR_1_1AABBTree_1a7e1eaf1a6bc2109d6c9fcda454451f39" kind="function"><name>__MR_AABBTree_DefaultConstruct</name></member>
     <member refid="classMR_1_1AABBTree_1aaa7118ee46b0676b43d989f649512f1e" kind="function"><name>__MR_AABBTree_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f</name></member>
+    <member refid="classMR_1_1AABBTree_1a727d1e5930e2cf0f09c95ea934f55508" kind="function"><name>__MR_AABBTree_addSplitFaces</name></member>
     <member refid="classMR_1_1AABBTree_1a06601478a987ec767580fdff9acadd15" kind="function"><name>__MR_AABBTree_getLeafOrderAndReset</name></member>
     <member refid="classMR_1_1AABBTree_1a4d81a58f5d126f11ebf0b763590fccb3" kind="function"><name>__MR_AABBTree_refit</name></member>
   </compound>
@@ -50097,6 +50099,7 @@
     <member refid="classMR_1_1Mesh_1adad0b8879defc6c7855060282f4e79eb" kind="function"><name>deleteFaces</name></member>
     <member refid="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" kind="function"><name>invalidateCaches</name></member>
     <member refid="classMR_1_1Mesh_1a82df6cc87a7a9ed397253a2ff13abc44" kind="function"><name>updateCaches</name></member>
+    <member refid="classMR_1_1Mesh_1aec3c07c4daca1f2cebe67ed88eba9652" kind="function"><name>updateCachesAfterSplits</name></member>
     <member refid="classMR_1_1Mesh_1a9a5bddf03c626d877f81537eb854307d" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Mesh_1a2716bdfac62a94a52023c065250ba246" kind="function"><name>mirror</name></member>
     <member refid="classMR_1_1Mesh_1abacb634b3021597ef51fcde98e4fc8af" kind="function"><name>__MR_Mesh_AssignFromAnother</name></member>
@@ -50127,6 +50130,7 @@
     <member refid="classMR_1_1Mesh_1aa7151a78b7d4edaaba4ef2154c68a5fc" kind="function"><name>__MR_Mesh_splitFace_4</name></member>
     <member refid="classMR_1_1Mesh_1ab133c3a5ad396fe25c242cddd37bd5cb" kind="function"><name>__MR_Mesh_transform</name></member>
     <member refid="classMR_1_1Mesh_1a9c41bc9e0557b420a4449b952b581fe7" kind="function"><name>__MR_Mesh_updateCaches</name></member>
+    <member refid="classMR_1_1Mesh_1ae06c41783b499413ea2f826e36e63bbb" kind="function"><name>__MR_Mesh_updateCachesAfterSplits</name></member>
     <member refid="classMR_1_1Mesh_1a0e0616d40a2ae3bb48619f5eadebf326" kind="function"><name>__MR_Mesh_zeroUnusedPoints</name></member>
   </compound>
   <compound refid="classMR_1_1MeshApproxRelaxParams" kind="class"><name>MR::MeshApproxRelaxParams</name>

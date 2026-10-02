@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99922" bodyend="99923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99930" bodyend="99931"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -44,7 +44,41 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99925" bodyend="99928"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99933" bodyend="99936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1a9b992ca3f90afb46c8b53abb6a38cf82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTree.addSplitFaces</definition>
+        <argsstring>(self, Mesh mesh, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old)</argsstring>
+        <name>addSplitFaces</name>
+        <qualifiedname>mrmeshpy.AABBTree.addSplitFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>new2Old</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds to the tree the faces that appeared after splitting some of its faces into parts (e.g. by Mesh::splitFace or Mesh::splitEdge):
+the leaf of each split face is replaced with a subtree of that face and its new parts;
+this is a faster alternative to full tree rebuild (but the tree after the update might be less efficient)
+\\param mesh same mesh for which this tree was constructed, but after the splits
+\\param new2Old maps every new face (not present in the tree) to the face of this tree it was split from;
+it must contain only the splits made since the tree was built or last updated: a map accumulated over several calls
+would add the earlier faces to the tree once more
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99937" bodyend="99946"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1AABBTree_1acc7553c31cfedc725404a6b4739aef0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -75,7 +109,7 @@ this is a faster alternative to full tree rebuild (but the tree after refit migh
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99929" bodyend="99935"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99947" bodyend="99953"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -110,11 +144,12 @@ bounding volume hierarchy
         <link refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99915" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99915" bodyend="99935"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="99923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="99923" bodyend="99953"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a53d6bbe90c9939f33d3b31dbd5f7bb88" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1a31df616df8ebd38c2ca94d5994b10c59" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1AABBTree_1a61d53bd98bc1f2e15dd8e60b2fbb0cbb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTree_1a9b992ca3f90afb46c8b53abb6a38cf82" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>addSplitFaces</name></member>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a62aa4a237234ee6e4240611c4d4b20f7" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>BoxT</name></member>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1af474e7aa575461debc92925add9a2002" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getBoundingBox</name></member>
       <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__FaceTag__Box3f_1a267bb32c343cad4671760c34b65f612c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTree</scope><name>getLeafOrder</name></member>

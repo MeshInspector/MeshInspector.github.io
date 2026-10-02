@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"hierarchy.html":[9,0,2,2],
 "index.html":[],
 "namespaceImGui.html":[9,0,1,0,0],
 "namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[9,0,1,0,0,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1McpGateway.html#a492feeb41d07c965ac23ee0076d73f14":[9,0,1,0,1,22,5],
 "namespaceMR_1_1McpGateway.html#a513db1d1766357ace9b7e93446e3a1d1":[9,0,1,0,1,22,13],
 "namespaceMR_1_1McpGateway.html#a7233b4a48f42fac23e3288ae84c19ed8":[9,0,1,0,1,22,2],
-"namespaceMR_1_1McpGateway.html#a7a95f3dc050ff3960ed8ad8918399289":[9,0,1,0,1,22,9],
-"namespaceMR_1_1McpGateway.html#a9ab308a9eb9041eb3bb4933a227f605c":[9,0,1,0,1,22,10]
+"namespaceMR_1_1McpGateway.html#a7a95f3dc050ff3960ed8ad8918399289":[9,0,1,0,1,22,9]
 };

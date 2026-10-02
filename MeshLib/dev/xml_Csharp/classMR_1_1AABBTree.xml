@@ -161,6 +161,47 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="273" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="273" bodyend="276"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTree_1a219f54b60e4aaacfa03245f5a106dd83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.AABBTree.addSplitFaces</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId new2Old)</argsstring>
+        <name>addSplitFaces</name>
+        <qualifiedname>MR.AABBTree.addSplitFaces</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId</type>
+          <declname>new2Old</declname>
+        </param>
+        <briefdescription>
+<para>adds to the tree the faces that appeared after splitting some of its faces into parts (e.g. by <ref refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" kindref="member">Mesh.splitFace</ref> or <ref refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" kindref="member">Mesh.splitEdge</ref>): the leaf of each split face is replaced with a subtree of that face and its new parts; this is a faster alternative to full tree rebuild (but the tree after the update might be less efficient) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>same mesh for which this tree was constructed, but after the splits </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maps every new face (not present in the tree) to the face of this tree it was split from; it must contain only the splits made since the tree was built or last updated: a map accumulated over several calls would add the earlier faces to the tree once more Generated from method <computeroutput><ref refid="classMR_1_1AABBTree_1a219f54b60e4aaacfa03245f5a106dd83" kindref="member">MR.AABBTree.addSplitFaces</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="288" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="288" bodyend="291"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a831781f0173f17a059fe1f1c9d27c6e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.AABBTree.getLeafOrderAndReset</definition>
@@ -178,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="283" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="283" bodyend="286"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="298" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="298" bodyend="301"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -206,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="291" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="306" column="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1afcadacb903c473db1207410ce0535cd1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.AABBTree._Underlying *</type>
@@ -224,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="294" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="309" column="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1abeb6773100cb0136a508cd8c51d3fbff" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.AABBTree._Underlying *</type>
@@ -246,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="297" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="312" column="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a7e1eaf1a6bc2109d6c9fcda454451f39" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.AABBTree._Underlying *</type>
@@ -260,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="300" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="315" column="52"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1aaa7118ee46b0676b43d989f649512f1e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f._Underlying *</type>
@@ -278,7 +319,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="303" column="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="318" column="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTree_1a727d1e5930e2cf0f09c95ea934f55508" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.AABBTree.__MR_AABBTree_addSplitFaces</definition>
+        <argsstring>(_Underlying *_this, MR.Const_Mesh._Underlying *mesh, MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId._Underlying *new2Old)</argsstring>
+        <name>__MR_AABBTree_addSplitFaces</name>
+        <qualifiedname>MR.AABBTree.__MR_AABBTree_addSplitFaces</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId._Underlying *</type>
+          <declname>new2Old</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="321" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a06601478a987ec767580fdff9acadd15" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -300,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="306" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="324" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTree_1a4d81a58f5d126f11ebf0b763590fccb3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -326,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="309" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="327" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -378,8 +445,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="214" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="215" bodyend="310"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" line="214" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTree.cs" bodystart="215" bodyend="328"/>
     <listofallmembers>
+      <member refid="classMR_1_1AABBTree_1a727d1e5930e2cf0f09c95ea934f55508" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>__MR_AABBTree_addSplitFaces</name></member>
       <member refid="classMR_1_1AABBTree_1a8e5003ecb87e8523ed536d557e0fb0f8" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>__MR_AABBTree_AssignFromAnother</name></member>
       <member refid="classMR_1_1AABBTree_1afcadacb903c473db1207410ce0535cd1" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>__MR_AABBTree_Construct</name></member>
       <member refid="classMR_1_1AABBTree_1abeb6773100cb0136a508cd8c51d3fbff" prot="private" virt="non-virtual"><scope>MR::AABBTree</scope><name>__MR_AABBTree_ConstructFromAnother</name></member>
@@ -391,6 +459,7 @@
       <member refid="classMR_1_1AABBTree_1a0fe9f89526ce3b9319309cd487d21536" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
       <member refid="classMR_1_1AABBTree_1a5074a33d522d0d1d9f40757f9642bad4" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
       <member refid="classMR_1_1AABBTree_1aad3f5d1057d0339e5fbc2790ac88ccc1" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>AABBTree</name></member>
+      <member refid="classMR_1_1AABBTree_1a219f54b60e4aaacfa03245f5a106dd83" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>addSplitFaces</name></member>
       <member refid="classMR_1_1AABBTree_1ac9cf74a20e92daa54a90f0be97415c79" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__AABBTree_1a7257bfbff69e97eb43c321222999571d" prot="package" virt="non-virtual"><scope>MR::AABBTree</scope><name>Const_AABBTree</name></member>
       <member refid="classMR_1_1Const__AABBTree_1a4ca190897eed98cd71470214cf3a0a05" prot="public" virt="non-virtual"><scope>MR::AABBTree</scope><name>Const_AABBTree</name></member>

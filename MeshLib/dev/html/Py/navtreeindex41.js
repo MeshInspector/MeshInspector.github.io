@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1IFastWindingNumber.html":[9,1,0,0,2,425],
+"classmrmeshpy_1_1IFastWindingNumber.html":[9,1,1,0,1,425],
 "classmrmeshpy_1_1IFastWindingNumber.html#a5d368442bd4a019e50adacc23099b4ba":[9,1,0,0,2,425,0],
 "classmrmeshpy_1_1IFastWindingNumber.html#a5d368442bd4a019e50adacc23099b4ba":[9,1,1,0,1,425,0],
 "classmrmeshpy_1_1IFastWindingNumber.html#a898b12e02f113538c5d54bf9af0d7bd9":[9,1,0,0,2,425,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1InSphereSearchSettings.html#ad611bdd900cdba3a1649947a32aedc87":[9,1,0,0,2,437,10],
 "classmrmeshpy_1_1InSphereSearchSettings.html#ad611bdd900cdba3a1649947a32aedc87":[9,1,1,0,1,437,10],
 "classmrmeshpy_1_1InSphereSearchSettings.html#af9bbe4cee5f7424c133413c36f6b8f3a":[9,1,0,0,2,437,11],
-"classmrmeshpy_1_1InSphereSearchSettings.html#af9bbe4cee5f7424c133413c36f6b8f3a":[9,1,1,0,1,437,11],
-"classmrmeshpy_1_1InSphereTesterSoS.html":[9,1,0,0,2,441],
-"classmrmeshpy_1_1InSphereTesterSoS.html":[9,1,1,0,1,441]
+"classmrmeshpy_1_1InSphereSearchSettings.html#af9bbe4cee5f7424c133413c36f6b8f3a":[9,1,1,0,1,437,11]
 };

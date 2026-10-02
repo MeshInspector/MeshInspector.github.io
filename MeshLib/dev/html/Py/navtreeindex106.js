@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1Vector4i.html#a95cb349c7e3194277d60bb4c014594ac":[9,1,0,0,2,1196,12],
+"classmrmeshpy_1_1Vector4i.html#a95cb349c7e3194277d60bb4c014594ac":[9,1,1,0,1,1196,12],
+"classmrmeshpy_1_1Vector4i.html#a9887bfa5b652b31f143cc6a0749250e7":[9,1,0,0,2,1196,20],
+"classmrmeshpy_1_1Vector4i.html#a9887bfa5b652b31f143cc6a0749250e7":[9,1,1,0,1,1196,20],
 "classmrmeshpy_1_1Vector4i.html#a9c2b892e026a61330f81f1054fa97aaf":[9,1,0,0,2,1196,22],
 "classmrmeshpy_1_1Vector4i.html#a9c2b892e026a61330f81f1054fa97aaf":[9,1,1,0,1,1196,22],
 "classmrmeshpy_1_1Vector4i.html#aa234721c49ed680f046e5893920bbb9c":[9,1,0,0,2,1196,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1c975c25fbd79ee1e61eea4550733325":[9,1,0,0,2,1200,29],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1c975c25fbd79ee1e61eea4550733325":[9,1,1,0,1,1200,29],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1d19f724a6014d63a1e832cc4379dabf":[9,1,0,0,2,1200,34],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1d19f724a6014d63a1e832cc4379dabf":[9,1,1,0,1,1200,34],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[9,1,0,0,2,1200,12],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[9,1,0,0,2,1200,13],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[9,1,1,0,1,1200,12],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[9,1,1,0,1,1200,13]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1d19f724a6014d63a1e832cc4379dabf":[9,1,1,0,1,1200,34]
 };

@@ -20,7 +20,6 @@ var MRBitSet_8h =
     [ "MR_Id_MR_ICPElemtTag", "MRBitSet_8h.html#af8cfbacc0df87971b8455177e0d07815", null ],
     [ "MR_ObjMap", "MRBitSet_8h.html#a7196dee7acb1c489cfe2b9746631dc5c", null ],
     [ "MR_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId", "MRBitSet_8h.html#a2fc157e75f4f17e5943cac8e140aedd8", null ],
-    [ "MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId", "MRBitSet_8h.html#a03edab687b909f8423dba338e60cd1e9", null ],
     [ "MR_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId", "MRBitSet_8h.html#a9280dd27dc04debf869502954fab3403", null ],
     [ "MR_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId", "MRBitSet_8h.html#a19b350f3dbd0a9f630ad7647f546b455", null ],
     [ "MR_phmap_flat_hash_map_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag", "MRBitSet_8h.html#a2bfc502c2f5d300e60147d34eb619edf", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX166 =
 {
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ac0853643251458ef9090194ef7aabb13":[9,2,2,0,0,0,0,2,401,0],
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ac08967ecfdc42f1daa012d55ed9f3d12":[9,2,2,0,0,0,0,2,401,21],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ac90b5030fb10fa833c7dc9e3fb822394":[9,2,2,0,0,0,0,2,401,2],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#acc9dfcbf49ba4d67f0d522c948ca9770":[9,2,2,0,0,0,0,2,401,31],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#ad2de930cba665c46b4acacc01618f2f2":[9,2,2,0,0,0,0,2,401,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX166 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a0bb0304f1111e8498c75703ad9b31f4f":[9,2,2,0,0,0,0,2,415,62],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a0ccfeab8d39a6c5e4cc2197c19940478":[9,2,2,0,0,0,0,2,415,4],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a0e15a865ce385c0ea215b8ebcdbbc953":[9,2,2,0,0,0,0,2,415,33],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a164174cb1a17d0f5a16328bfc1e1bc4a":[9,2,2,0,0,0,0,2,415,47],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a1677b36b8e4aa8288adfbb806345c07c":[9,2,2,0,0,0,0,2,415,13],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a17c3120405cdae2305d2c8bd5087bf65":[9,2,2,0,0,0,0,2,415,27]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#a164174cb1a17d0f5a16328bfc1e1bc4a":[9,2,2,0,0,0,0,2,415,47]
 };

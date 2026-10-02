@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1FanRecordWithCenter.html#ad1432b8de49b7126d15278ae4e400a4e":[9,3,0,0,0,1201,9],
 "classMR_1_1FastInSphereTesterSoS.html":[9,3,0,0,0,1202],
 "classMR_1_1FastInSphereTesterSoS.html#a01fe96f8df8e548496bad860d4c6c87e":[9,3,0,0,0,1202,5],
 "classMR_1_1FastInSphereTesterSoS.html#a3b271637168b0fd95d33f926af752b29":[9,3,0,0,0,1202,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1Features_1_1Primitives.html":[9,3,0,0,0,1207,3],
 "classMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[9,3,0,0,0,1207,3,0],
 "classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3049dc06a32a670b86b37621ffab85c7":[9,3,0,0,0,1207,3,0,1],
-"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a336ffa611f8a83553510b0ade6300c9e":[9,3,0,0,0,1207,3,0,0],
-"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a4e25f5bda09fe784428561eb8d208987":[9,3,0,0,0,1207,3,0,4]
+"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a336ffa611f8a83553510b0ade6300c9e":[9,3,0,0,0,1207,3,0,0]
 };

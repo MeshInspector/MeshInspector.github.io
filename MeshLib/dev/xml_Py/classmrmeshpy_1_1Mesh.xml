@@ -3444,6 +3444,34 @@ it shall be considered as a faster alternative to invalidateCaches() and followi
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30269" bodyend="30275"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a744a601401c3c9dd0ba9eb65d768ddd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Mesh.updateCachesAfterSplits</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag new2Old)</argsstring>
+        <name>updateCachesAfterSplits</name>
+        <qualifiedname>mrmeshpy.Mesh.updateCachesAfterSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>new2Old</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) with no other changes in the mesh;
+it shall be considered as a faster alternative to invalidateCaches() and following rebuild of AABB tree
+\\param new2Old maps every face appeared after the splits to the face it was split from (as filled by splitFace() and splitEdge());
+it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls
+(like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30276" bodyend="30283"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1a323fc8be238ad636a64a24571367e745" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
         <definition> float mrmeshpy.Mesh.volume</definition>
@@ -3468,7 +3496,7 @@ if the region has holes then each hole will be virtually filled by adding triang
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30276" bodyend="30280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30284" bodyend="30288"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Mesh_1ab8cdd0778f5e0b1600eaeca76f4dd961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3488,7 +3516,7 @@ if the region has holes then each hole will be virtually filled by adding triang
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30281" bodyend="30284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30289" bodyend="30292"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3501,7 +3529,7 @@ This class represents a mesh, including topology (connectivity) information and 
 as well as some caches to accelerate search algorithms
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29640" bodyend="30284"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="29640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="29640" bodyend="30292"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Mesh_1a103b613cee322330912a3c900658294a" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1aa760a017b41d0b8f2a407300149c1528" prot="private" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>__hash__</name></member>
@@ -3628,6 +3656,7 @@ as well as some caches to accelerate search algorithms
       <member refid="classmrmeshpy_1_1Mesh_1a7f72d8d7a286e5d23451c3f234e12add" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>triCenter</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a9386837c14764124fc2b283abb1f73d2" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>triPoint</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a50620cd3a4364a60b1c2af2eb2e464de" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>updateCaches</name></member>
+      <member refid="classmrmeshpy_1_1Mesh_1a744a601401c3c9dd0ba9eb65d768ddd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>updateCachesAfterSplits</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1a323fc8be238ad636a64a24571367e745" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>volume</name></member>
       <member refid="classmrmeshpy_1_1Mesh_1ab8cdd0778f5e0b1600eaeca76f4dd961" prot="public" virt="non-virtual"><scope>mrmeshpy::Mesh</scope><name>zeroUnusedPoints</name></member>
     </listofallmembers>

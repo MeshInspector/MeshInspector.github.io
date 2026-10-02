@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"MRImproveSampling_8h.html#aae698efc066002c03a5444e9c6d36dd3":[9,2,2,0,0,0,0,1,129,5],
 "MRImproveSampling_8h.html#ac5b93698b491eb0c30f447d31606b2b8":[9,2,2,0,0,0,0,1,129,29],
 "MRImproveSampling_8h.html#ac6bb9de608102ba8fde204e4302392f7":[9,2,2,0,0,0,0,1,129,26],
 "MRImproveSampling_8h.html#acfc77a8ae9440a54e0cf3ae4ee77077d":[9,2,2,0,0,0,0,1,129,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "MRIntersectionPrecomputes_8h.html#a24320e04672a7d8c54de053d64c6df50":[9,2,2,0,0,0,0,1,134,9],
 "MRIntersectionPrecomputes_8h.html#a2665c3f6243f042ebc09628662cb8f0d":[9,2,2,0,0,0,0,1,134,32],
 "MRIntersectionPrecomputes_8h.html#a29ce9ffed255d82213637a2f3f0608b9":[9,2,2,0,0,0,0,1,134,51],
-"MRIntersectionPrecomputes_8h.html#a2cb8a0c89d0c0b6f75772cfc510a4dfb":[9,2,2,0,0,0,0,1,134,23],
-"MRIntersectionPrecomputes_8h.html#a30844ff2b19655c92946e7044af0ae28":[9,2,2,0,0,0,0,1,134,5]
+"MRIntersectionPrecomputes_8h.html#a2cb8a0c89d0c0b6f75772cfc510a4dfb":[9,2,2,0,0,0,0,1,134,23]
 };

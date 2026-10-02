@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a299be175c35406bc5c624c524a3221e7" id="r_a299be175c35406bc5c624c524a3221e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a299be175c35406bc5c624c524a3221e7">AABBTree</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:a3d03064881df6e739bd9f815c909abe5" id="r_a3d03064881df6e739bd9f815c909abe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d03064881df6e739bd9f815c909abe5">operator=</a> (<a class="el" href="classMR_1_1AABBTree.html">AABBTree</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="memitem:ad45eb520762fef375722fd1e51317b85" id="r_ad45eb520762fef375722fd1e51317b85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad45eb520762fef375722fd1e51317b85">refit</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *changedVerts)</td></tr>
+<tr class="memitem:aebe936e844503aa620a92af3a0ed22b5" id="r_aebe936e844503aa620a92af3a0ed22b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe936e844503aa620a92af3a0ed22b5">addSplitFaces</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> &amp;new2Old)</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1AABBTreeBase"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1AABBTreeBase')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1AABBTreeBase.html">MR::AABBTreeBase&lt; FaceTreeTraits3 &gt;</a></td></tr>
 <tr class="memitem:ga58f8dd538965bde14c46c2ed60aac1f9 inherit pub_methods_classMR_1_1AABBTreeBase" id="r_ga58f8dd538965bde14c46c2ed60aac1f9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__GeneralGroup.html#ga7a0335fa16114969e7f5e031192bf45b">NodeVec</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58f8dd538965bde14c46c2ed60aac1f9">nodes</a> () const</td></tr>
 <tr class="memdesc:ga58f8dd538965bde14c46c2ed60aac1f9 inherit pub_methods_classMR_1_1AABBTreeBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">const-access to all nodes  <br /></td></tr>
@@ -288,6 +289,34 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="aebe936e844503aa620a92af3a0ed22b5" name="aebe936e844503aa620a92af3a0ed22b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebe936e844503aa620a92af3a0ed22b5">&#9670;&#160;</a></span>addSplitFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::AABBTree::addSplitFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga93482f559c684be16c718d5acd291d3e">FaceHashMap</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds to the tree the faces that appeared after splitting some of its faces into parts (e.g. by <a class="el" href="structMR_1_1Mesh.html#a9f365e654b9b4a4584293c3add2fdb05">Mesh::splitFace</a> or <a class="el" href="structMR_1_1Mesh.html#a0426a1ac11c53b02a2756afa0c205105">Mesh::splitEdge</a>): the leaf of each split face is replaced with a subtree of that face and its new parts; this is a faster alternative to full tree rebuild (but the tree after the update might be less efficient) </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>same mesh for which this tree was constructed, but after the splits </td></tr>
+    <tr><td class="paramname">new2Old</td><td>maps every new face (not present in the tree) to the face of this tree it was split from; it must contain only the splits made since the tree was built or last updated: a map accumulated over several calls would add the earlier faces to the tree once more </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a3d03064881df6e739bd9f815c909abe5" name="a3d03064881df6e739bd9f815c909abe5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d03064881df6e739bd9f815c909abe5">&#9670;&#160;</a></span>operator=()</h2>
 

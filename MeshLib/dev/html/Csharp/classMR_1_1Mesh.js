@@ -28,6 +28,7 @@ var classMR_1_1Mesh =
     [ "splitFace", "classMR_1_1Mesh.html#afbb50d9e289a891a10226c90dd906a37", null ],
     [ "transform", "classMR_1_1Mesh.html#a6ea37e2c3415fdc14f7fdbc23ba80fd5", null ],
     [ "updateCaches", "classMR_1_1Mesh.html#a82df6cc87a7a9ed397253a2ff13abc44", null ],
+    [ "updateCachesAfterSplits", "classMR_1_1Mesh.html#aec3c07c4daca1f2cebe67ed88eba9652", null ],
     [ "zeroUnusedPoints", "classMR_1_1Mesh.html#af8b0fa03a2c37a7cf1f7e4b66e2aba06", null ],
     [ "points", "classMR_1_1Mesh.html#aaabc8bb44cded098e13d1d424ef42241", null ],
     [ "topology", "classMR_1_1Mesh.html#a504c6630e7c1492cbe741522640f0d95", null ]

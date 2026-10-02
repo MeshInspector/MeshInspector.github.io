@@ -1028,6 +1028,7 @@
     <member refid="MRAABBTree_8h_1aa94c1c7260ea012c8bea78aa4477d504" kind="typedef"><name>MR_NodeBitSet</name></member>
     <member refid="MRAABBTree_8h_1ac80f2e9c6e2917cfe358b8825a0608ac" kind="typedef"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId</name></member>
     <member refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kind="typedef"><name>MR_VertBitSet</name></member>
+    <member refid="MRAABBTree_8h_1a03edab687b909f8423dba338e60cd1e9" kind="typedef"><name>MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</name></member>
     <member refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kind="typedef"><name>MR_std_vector_MR_NodeId</name></member>
     <member refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kind="typedef"><name>MR_AABBTree</name></member>
     <member refid="MRAABBTree_8h_1a262711363854c05f6cd64c80d5f6044b" kind="function"><name>MR_AABBTree_DefaultConstruct</name></member>
@@ -1044,6 +1045,7 @@
     <member refid="MRAABBTree_8h_1a95d1f0cac31796969fee7aa32f972cc5" kind="function"><name>MR_AABBTree_DestroyArray</name></member>
     <member refid="MRAABBTree_8h_1a9d35efe2cf99e373340a280ae2fa3120" kind="function"><name>MR_AABBTree_AssignFromAnother</name></member>
     <member refid="MRAABBTree_8h_1a9b359063a63a9a93ff01475cbd92bd83" kind="function"><name>MR_AABBTree_refit</name></member>
+    <member refid="MRAABBTree_8h_1aaa0ce7a5eae63e7a7b55ffa9ab3a3729" kind="function"><name>MR_AABBTree_addSplitFaces</name></member>
     <member refid="MRAABBTree_8h_1a39634445d02045d8a9bfd9b69d28246d" kind="function"><name>MR_AABBTree_nodes</name></member>
     <member refid="MRAABBTree_8h_1a0f40875e91188b96aa3f88c9d1c9cc51" kind="function"><name>MR_AABBTree_index</name></member>
     <member refid="MRAABBTree_8h_1a005ec9d26797f7e4897d5cdd34642597" kind="function"><name>MR_AABBTree_rootNodeId</name></member>
@@ -3024,7 +3026,6 @@
     <member refid="MRBitSet_8h_1a9411c4b2a67407fa8ea1d1c514b0f938" kind="typedef"><name>MR_Vector_MR_VoxelId_MR_VoxelId</name></member>
     <member refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kind="typedef"><name>MR_VertMap</name></member>
     <member refid="MRBitSet_8h_1a2fc157e75f4f17e5943cac8e140aedd8" kind="typedef"><name>MR_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId</name></member>
-    <member refid="MRBitSet_8h_1a03edab687b909f8423dba338e60cd1e9" kind="typedef"><name>MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId</name></member>
     <member refid="MRBitSet_8h_1a9280dd27dc04debf869502954fab3403" kind="typedef"><name>MR_phmap_flat_hash_map_MR_GraphEdgeId_MR_GraphEdgeId</name></member>
     <member refid="MRBitSet_8h_1a19b350f3dbd0a9f630ad7647f546b455" kind="typedef"><name>MR_phmap_flat_hash_map_MR_GraphVertId_MR_GraphVertId</name></member>
     <member refid="MRBitSet_8h_1a2bfc502c2f5d300e60147d34eb619edf" kind="typedef"><name>MR_phmap_flat_hash_map_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</name></member>
@@ -13940,6 +13941,7 @@
     <member refid="MRMesh_8h_1a78c3b10639b46763146b78ae2ae4329f" kind="function"><name>MR_Mesh_getDipolesNotCreate</name></member>
     <member refid="MRMesh_8h_1abbcff8f64e166a1e41cf870176a76330" kind="function"><name>MR_Mesh_invalidateCaches</name></member>
     <member refid="MRMesh_8h_1a21ed6ff7557adf4ba0fa4efd52bb38c9" kind="function"><name>MR_Mesh_updateCaches</name></member>
+    <member refid="MRMesh_8h_1a0808c721348661ec9c201a1664611ee6" kind="function"><name>MR_Mesh_updateCachesAfterSplits</name></member>
     <member refid="MRMesh_8h_1adef9d3c261914a07e4974694dc596f2c" kind="function"><name>MR_Mesh_heapBytes</name></member>
     <member refid="MRMesh_8h_1adc26f677977a6a1e2d4bc031c8b0aaca" kind="function"><name>MR_Mesh_shrinkToFit</name></member>
     <member refid="MRMesh_8h_1a7f8e735e555fb5cc3fd25b1ca9e88c62" kind="function"><name>MR_Mesh_mirror</name></member>

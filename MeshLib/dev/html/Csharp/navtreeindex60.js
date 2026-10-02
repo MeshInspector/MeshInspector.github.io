@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1Const__MultiRayMeshIntersectResult.html#adb26b7f987a9e0bc3ae56f3013ed7632":[9,3,0,0,0,627,8],
 "classMR_1_1Const__MultiRayMeshIntersectResult.html#adb41c6e109e72b4b2571061d0b081bb3":[9,3,0,0,0,627,9],
 "classMR_1_1Const__MultiRayMeshIntersectResult.html#afb278623a519da5c90dff265837ae7af":[9,3,0,0,0,627,7],
 "classMR_1_1Const__MultiRayMeshIntersectResult.html#afdddec1a71aae97e50e4c8a9185f614c":[9,3,0,0,0,627,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html#ac28df036628e1b29dbea6946a708955e":[9,3,0,0,0,654,2],
 "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html#af1605d8ae139364a65e19d6bcc8ef689":[9,3,0,0,0,654,7],
 "classMR_1_1Const__NoDefInit__MRGraphVertId.html":[9,3,0,0,0,655],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a0427739988fdd17516a869d873861d5d":[9,3,0,0,0,655,5],
-"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a1a74a3a6509ac295c2f80a0ee1f72c38":[9,3,0,0,0,655,2]
+"classMR_1_1Const__NoDefInit__MRGraphVertId.html#a0427739988fdd17516a869d873861d5d":[9,3,0,0,0,655,5]
 };

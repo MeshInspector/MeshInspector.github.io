@@ -114,6 +114,7 @@ var classmrmeshpy_1_1Mesh =
     [ "triCenter", "classmrmeshpy_1_1Mesh.html#a7f72d8d7a286e5d23451c3f234e12add", null ],
     [ "triPoint", "classmrmeshpy_1_1Mesh.html#a9386837c14764124fc2b283abb1f73d2", null ],
     [ "updateCaches", "classmrmeshpy_1_1Mesh.html#a50620cd3a4364a60b1c2af2eb2e464de", null ],
+    [ "updateCachesAfterSplits", "classmrmeshpy_1_1Mesh.html#a744a601401c3c9dd0ba9eb65d768ddd8", null ],
     [ "volume", "classmrmeshpy_1_1Mesh.html#a323fc8be238ad636a64a24571367e745", null ],
     [ "zeroUnusedPoints", "classmrmeshpy_1_1Mesh.html#ab8cdd0778f5e0b1600eaeca76f4dd961", null ]
 ];

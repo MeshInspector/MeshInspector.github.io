@@ -214,6 +214,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2456faa5acbeb85adca2cf5b496df684"><td class="mdescLeft">&#160;</td><td class="mdescRight">invalidates caches (aabb-trees) after any change in mesh geometry or topology  <br /></td></tr>
 <tr class="memitem:a82df6cc87a7a9ed397253a2ff13abc44" id="r_a82df6cc87a7a9ed397253a2ff13abc44"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82df6cc87a7a9ed397253a2ff13abc44">updateCaches</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? changedVerts)</td></tr>
 <tr class="memdesc:a82df6cc87a7a9ed397253a2ff13abc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of trees  <br /></td></tr>
+<tr class="memitem:aec3c07c4daca1f2cebe67ed88eba9652" id="r_aec3c07c4daca1f2cebe67ed88eba9652"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec3c07c4daca1f2cebe67ed88eba9652">updateCachesAfterSplits</a> (MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId new2Old)</td></tr>
+<tr class="memdesc:aec3c07c4daca1f2cebe67ed88eba9652"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#a7047e329fbec57254356a66c56e303a5" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> or <a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of AABB tree  <br /></td></tr>
 <tr class="memitem:a9a5bddf03c626d877f81537eb854307d" id="r_a9a5bddf03c626d877f81537eb854307d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a5bddf03c626d877f81537eb854307d">shrinkToFit</a> ()</td></tr>
 <tr class="memdesc:a9a5bddf03c626d877f81537eb854307d"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests the removal of unused capacity Generated from method <span class="tt"><a class="el" href="#a9a5bddf03c626d877f81537eb854307d" title="requests the removal of unused capacity Generated from method MR.Mesh.shrinkToFit.">MR.Mesh.shrinkToFit</a></span>.  <br /></td></tr>
 <tr class="memitem:a2716bdfac62a94a52023c065250ba246" id="r_a2716bdfac62a94a52023c065250ba246"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2716bdfac62a94a52023c065250ba246">mirror</a> (<a class="el" href="classMR_1_1Const__Plane3f.html">MR.Const_Plane3f</a> plane)</td></tr>
@@ -1395,6 +1397,39 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">changedVerts</td><td>vertices with modified coordinates, nullptr means all valid vertices Generated from method <span class="tt"><a class="el" href="#a82df6cc87a7a9ed397253a2ff13abc44" title="updates existing caches in case of few vertices were changed insignificantly, and topology remained u...">MR.Mesh.updateCaches</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aec3c07c4daca1f2cebe67ed88eba9652" name="aec3c07c4daca1f2cebe67ed88eba9652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3c07c4daca1f2cebe67ed88eba9652">&#9670;&#160;</a></span>updateCachesAfterSplits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Mesh.updateCachesAfterSplits </td>
+          <td>(</td>
+          <td class="paramtype">MR.Phmap.Const_FlatHashMap_MRFaceId_MRFaceId</td>          <td class="paramname"><span class="paramname"><em>new2Old</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>updates existing caches after some faces were split into parts (e.g. by <a class="el" href="#a7047e329fbec57254356a66c56e303a5" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> or <a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>) with no other changes in the mesh; it shall be considered as a faster alternative to <a class="el" href="#a2456faa5acbeb85adca2cf5b496df684" title="invalidates caches (aabb-trees) after any change in mesh geometry or topology">invalidateCaches()</a> and following rebuild of AABB tree </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new2Old</td><td>maps every face appeared after the splits to the face it was split from (as filled by <a class="el" href="#a7047e329fbec57254356a66c56e303a5" title="split given triangle on three triangles, introducing new vertex with given coordinates and connecting...">splitFace()</a> and <a class="el" href="#a6c3397a5f9b167c21f2ef11cdc2714bb" title="split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex,...">splitEdge()</a>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more Generated from method <span class="tt"><a class="el" href="#aec3c07c4daca1f2cebe67ed88eba9652" title="updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) w...">MR.Mesh.updateCachesAfterSplits</a></span>. </td></tr>
   </table>
   </dd>
 </dl>

@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="503" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="503" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="510" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="510" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" prot="private" static="no" mutable="yes">
         <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt; <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref> &gt;</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="504" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="504" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="511" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="511" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1Mesh_1a7a5061b30edacea6f7d707988504f80e" prot="private" static="no" mutable="yes">
         <type><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt; Dipoles &gt;</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="505" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="505" bodyend="-1"/>
+        <location file="MRMesh/MRMesh.h" line="512" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="512" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -3035,6 +3035,34 @@
         </inbodydescription>
         <location file="MRMesh/MRMesh.h" line="491" column="11"/>
       </memberdef>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a09a97bb00b1eac52db441f32170cbcc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Mesh::updateCachesAfterSplits</definition>
+        <argsstring>(const FaceHashMap &amp;new2Old)</argsstring>
+        <name>updateCachesAfterSplits</name>
+        <qualifiedname>MR::Mesh::updateCachesAfterSplits</qualifiedname>
+        <param>
+          <type>const <ref refid="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" kindref="member">FaceHashMap</ref> &amp;</type>
+          <declname>new2Old</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updates existing caches after some faces were split into parts (e.g. by <ref refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" kindref="member">splitFace()</ref> or <ref refid="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" kindref="member">splitEdge()</ref>) with no other changes in the mesh; it shall be considered as a faster alternative to <ref refid="structMR_1_1Mesh_1a47afb5a6c704c55128ab6c07680ebaf4" kindref="member">invalidateCaches()</ref> and following rebuild of AABB tree <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maps every face appeared after the splits to the face it was split from (as filled by <ref refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" kindref="member">splitFace()</ref> and <ref refid="structMR_1_1Mesh_1a0426a1ac11c53b02a2756afa0c205105" kindref="member">splitEdge()</ref>); it must contain only the splits made since the AABB tree was built or last updated: a map accumulated over several calls (like new2oldMap of subdivideLoneContours in the iterations of boolean) would add the earlier faces to the tree once more </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="498" column="11"/>
+      </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a938ddf04e638f19c080b5dc443141629" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t MR::Mesh::heapBytes</definition>
@@ -3048,7 +3076,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="494" column="14"/>
+        <location file="MRMesh/MRMesh.h" line="501" column="14"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3063,7 +3091,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="497" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="504" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3082,7 +3110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="500" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="507" column="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3103,7 +3131,7 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMesh.h" line="23" column="1" bodyfile="MRMesh/MRMesh.h" bodystart="24" bodyend="506"/>
+    <location file="MRMesh/MRMesh.h" line="23" column="1" bodyfile="MRMesh/MRMesh.h" bodystart="24" bodyend="513"/>
     <listofallmembers>
       <member refid="structMR_1_1Mesh_1a43406c62d4fbf3496b1acce4c8107633" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreePointsOwner_</name></member>
@@ -3232,6 +3260,7 @@
       <member refid="structMR_1_1Mesh_1a985bc1ef62bdb8754e1b4f3da304256b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triCenter</name></member>
       <member refid="structMR_1_1Mesh_1a9c3fed969fd69fc13302e22b2d6fd4ad" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triPoint</name></member>
       <member refid="structMR_1_1Mesh_1a5234fc402df7b5912834413c90f4dd10" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCaches</name></member>
+      <member refid="structMR_1_1Mesh_1a09a97bb00b1eac52db441f32170cbcc6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCachesAfterSplits</name></member>
       <member refid="structMR_1_1Mesh_1ae844a3412483056be32f892b104dac40" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>volume</name></member>
       <member refid="structMR_1_1Mesh_1ab19cc6268005d386aff0e95b2b04fa9d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>zeroUnusedPoints</name></member>
     </listofallmembers>
