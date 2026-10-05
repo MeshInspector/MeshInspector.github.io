@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Const__Graph_1_1EndVertices.html#a4600fdd38aa24eb91669029f95660d38":[9,3,0,0,0,484,1,4],
 "classMR_1_1Const__Graph_1_1EndVertices.html#a58ba08c2304fb074af78d131995ecbd5":[9,3,0,0,0,484,1,5],
 "classMR_1_1Const__Graph_1_1EndVertices.html#aa47ad5725290752a33fc6b3e52eb9ddb":[9,3,0,0,0,484,1,0],
 "classMR_1_1Const__Graph_1_1EndVertices.html#ab400709796d477d387484ef072870864":[9,3,0,0,0,484,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1Const__IComputePointsToDistanceFunctionVolume.html#ae2462be0baabc62e6c0dd073fbf02821":[9,3,0,0,0,494,6],
 "classMR_1_1Const__IComputePointsToDistanceFunctionVolume.html#af056755b02ba4fe9e571c8d96a21803f":[9,3,0,0,0,494,2],
 "classMR_1_1Const__IComputePointsToDistanceVolume.html":[9,3,0,0,0,495],
-"classMR_1_1Const__IComputePointsToDistanceVolume.html#a15a934f8ee57851dfa370a0f33634250":[9,3,0,0,0,495,1],
-"classMR_1_1Const__IComputePointsToDistanceVolume.html#a3d16af0b87a1dd48123cbc9f5354dc8b":[9,3,0,0,0,495,3]
+"classMR_1_1Const__IComputePointsToDistanceVolume.html#a15a934f8ee57851dfa370a0f33634250":[9,3,0,0,0,495,1]
 };

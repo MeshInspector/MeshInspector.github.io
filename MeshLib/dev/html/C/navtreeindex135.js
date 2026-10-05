@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"expected__MR__ObjectDistanceMap__std__string_8h.html#aa7964418fd385c402ce945ac3ab203de":[9,2,2,0,0,0,0,2,16,3],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#ab6ac8e143e0e609bd1e6e1f5904e9297":[9,2,2,0,0,0,0,2,16,8],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#ae07264b63c5cc14c0cb520583095a65c":[9,2,2,0,0,0,0,2,16,12],
 "expected__MR__ObjectDistanceMap__std__string_8h_source.html":[9,2,2,0,0,0,0,2,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "expected__MR__UndirectedEdgeBitSet__std__string_8h.html#a69140af722c5e126a5dd69025e11c48d":[9,2,2,0,0,0,0,2,32,6],
 "expected__MR__UndirectedEdgeBitSet__std__string_8h.html#a721b706593fd894d60cb51b6140b8362":[9,2,2,0,0,0,0,2,32,0],
 "expected__MR__UndirectedEdgeBitSet__std__string_8h.html#a75fa3b82b473b1956c21dd9a2dd3440a":[9,2,2,0,0,0,0,2,32,8],
-"expected__MR__UndirectedEdgeBitSet__std__string_8h.html#a924d53e0cbcf46510049f79bbeb4d629":[9,2,2,0,0,0,0,2,32,12],
-"expected__MR__UndirectedEdgeBitSet__std__string_8h.html#aa1f89c3289cb7a5c15be1b43e5b88b1d":[9,2,2,0,0,0,0,2,32,7]
+"expected__MR__UndirectedEdgeBitSet__std__string_8h.html#a924d53e0cbcf46510049f79bbeb4d629":[9,2,2,0,0,0,0,2,32,12]
 };

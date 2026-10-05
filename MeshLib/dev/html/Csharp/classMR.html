@@ -12385,6 +12385,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a87269e7358207c0c0dd3c0803c8e3cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <a class="el" href="classMR_1_1FunctionVolume.html" title="represents a box in 3D space subdivided on voxels stored in T Generated from class MR....">FunctionVolume</a> representing (signed or unsigned) distances from <a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> with given settings Generated from function <span class="tt"><a class="el" href="#a87269e7358207c0c0dd3c0803c8e3cf6" title="makes FunctionVolume representing (signed or unsigned) distances from Mesh with given settings Genera...">MR.meshToDistanceFunctionVolume</a></span>.  <br /></td></tr>
 <tr class="memitem:a3fc8242ea5040c6b7f9f3d478c3b7332" id="r_a3fc8242ea5040c6b7f9f3d478c3b7332"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1SimpleBinaryVolume.html">MR.SimpleBinaryVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fc8242ea5040c6b7f9f3d478c3b7332">makeCloseToMeshVolume</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__CloseToMeshVolumeParams.html">MR.Const_CloseToMeshVolumeParams</a> params_)</td></tr>
 <tr class="memdesc:a3fc8242ea5040c6b7f9f3d478c3b7332"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes a binary volume with close-to-surface predicate values according to the given parameters Generated from function <span class="tt"><a class="el" href="#a3fc8242ea5040c6b7f9f3d478c3b7332" title="makes a binary volume with close-to-surface predicate values according to the given parameters Genera...">MR.makeCloseToMeshVolume</a></span>.  <br /></td></tr>
+<tr class="memitem:a9f3408502e52e4dc74e224e5407427a3" id="r_a9f3408502e52e4dc74e224e5407427a3"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1SimpleBinaryVolume.html">MR.SimpleBinaryVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f3408502e52e4dc74e224e5407427a3">makeInsideMeshVolume</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__DistanceVolumeParams.html">MR.Const_DistanceVolumeParams</a> params_)</td></tr>
+<tr class="memdesc:a9f3408502e52e4dc74e224e5407427a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it casts one ray per row of voxels and counts the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero; a voxel is inside if the surface is crossed an odd number of times on the way from it to infinity, ignoring triangle orientation: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other Generated from function <span class="tt"><a class="el" href="#a9f3408502e52e4dc74e224e5407427a3" title="makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it ...">MR.makeInsideMeshVolume</a></span>.  <br /></td></tr>
 <tr class="memitem:a45fe869275cd0aad1052b853ac65ea10" id="r_a45fe869275cd0aad1052b853ac65ea10"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1SimpleVolumeMinMax.html">MR.SimpleVolumeMinMax</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45fe869275cd0aad1052b853ac65ea10">meshRegionToIndicatorVolume</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> region, float offset, <a class="el" href="classMR_1_1Const__DistanceVolumeParams.html">MR.Const_DistanceVolumeParams</a> params_)</td></tr>
 <tr class="memdesc:a45fe869275cd0aad1052b853ac65ea10"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a volume filled with the values: (unsigned distance to region-part) - (unsigned distance to not-region-part); v &lt; 0: this point is within offset distance to region-part of mesh and it is closer to region-part than to not-region-part Generated from function <span class="tt"><a class="el" href="#a45fe869275cd0aad1052b853ac65ea10" title="returns a volume filled with the values: (unsigned distance to region-part) - (unsigned distance to n...">MR.meshRegionToIndicatorVolume</a></span>.  <br /></td></tr>
 <tr class="memitem:a643e3be78f578a2f6adacd0d29612444" id="r_a643e3be78f578a2f6adacd0d29612444"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Array_MRSimpleVolumeMinMax_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a643e3be78f578a2f6adacd0d29612444">meshToDirectionVolume</a> (<a class="el" href="classMR_1_1Const__MeshToDirectionVolumeParams.html">MR.Const_MeshToDirectionVolumeParams</a> params_)</td></tr>
@@ -60336,6 +60338,37 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>creates a HashMap where for each set bit of input bitset its sequential number starting from 0 is returned Generated from function <span class="tt"><a class="el" href="#a6b1c9d417f912a10e6a8c558c0f31960" title="creates a HashMap where for each set bit of input bitset its sequential number starting from 0 is ret...">MR.makeHashMapWithSeqNums</a></span>. </p>
+
+</div>
+</div>
+<a id="a9f3408502e52e4dc74e224e5407427a3" name="a9f3408502e52e4dc74e224e5407427a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3408502e52e4dc74e224e5407427a3">&#9670;&#160;</a></span>makeInsideMeshVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1SimpleBinaryVolume.html">MR.SimpleBinaryVolume</a> MR.makeInsideMeshVolume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__DistanceVolumeParams.html">MR.Const_DistanceVolumeParams</a></td>          <td class="paramname"><span class="paramname"><em>params_</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it casts one ray per row of voxels and counts the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero; a voxel is inside if the surface is crossed an odd number of times on the way from it to infinity, ignoring triangle orientation: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other Generated from function <span class="tt"><a class="el" href="#a9f3408502e52e4dc74e224e5407427a3" title="makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it ...">MR.makeInsideMeshVolume</a></span>. </p>
 
 </div>
 </div>

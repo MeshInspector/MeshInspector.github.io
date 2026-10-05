@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"classMR_1_1PointCloudRelaxParams.html#a996549583f62dc448d5e758adbdc2afe":[9,3,0,0,0,1526,5],
 "classMR_1_1PointCloudRelaxParams.html#a99d01b3ce3289da9687aade8fd9de79e":[9,3,0,0,0,1526,2],
 "classMR_1_1PointCloudRelaxParams.html#acf9e19c184e1945431b1dd53698d2cef":[9,3,0,0,0,1526,1],
 "classMR_1_1PointCloudRelaxParams.html#ad9599a62cb759e87b1e352d9caa0f2e9":[9,3,0,0,0,1526,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#ae7fda897351dc126b1ef9e646d7d67ac":[9,3,0,0,0,1533,1,3],
 "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#ae8e9b9ae95bf180f20d713ed3b593771":[9,3,0,0,0,1533,1,6],
 "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#afeda136e1295cb21abf48fc0e6e94b07":[9,3,0,0,0,1533,1,0],
-"classMR_1_1PointsLoad_1_1Const__NamedCloud.html":[9,3,0,0,0,1533,2],
-"classMR_1_1PointsLoad_1_1Const__NamedCloud.html#a273ecf9454b81a493b2179fe623f7898":[9,3,0,0,0,1533,2,2]
+"classMR_1_1PointsLoad_1_1Const__NamedCloud.html":[9,3,0,0,0,1533,2]
 };

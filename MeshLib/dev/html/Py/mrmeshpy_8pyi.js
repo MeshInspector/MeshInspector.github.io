@@ -2505,6 +2505,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.makeFillContours2DPlanCache", "namespacemrmeshpy.html#aca32a7c72fee5341574f8a663f4e0d49", null ],
     [ "mrmeshpy.makeFreeFormOriginGrid", "namespacemrmeshpy.html#addad1e17822d7eef136de61cc6141013", null ],
     [ "mrmeshpy.makeHashMapWithSeqNums", "namespacemrmeshpy.html#a36fc287697e511bf984cdd42eff95a01", null ],
+    [ "mrmeshpy.makeInsideMeshVolume", "namespacemrmeshpy.html#aa7ff2b462c3f355636d35b761da035e9", null ],
     [ "mrmeshpy.makeInterHoleBridgeEdges", "namespacemrmeshpy.html#a1de24c72f67a8653137a4a0418688984", null ],
     [ "mrmeshpy.makeInterHoleBridgeEdges", "namespacemrmeshpy.html#a9e8c90a0aea2ffa7faf8e24e2c0545ee", null ],
     [ "mrmeshpy.makeLevelOfDetails", "namespacemrmeshpy.html#a77e479b5adb3f82ccd3cdefec082ea19", null ],

@@ -52292,6 +52292,29 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="943" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="943" bodyend="949"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a9f3408502e52e4dc74e224e5407427a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SimpleBinaryVolume" kindref="compound">MR.SimpleBinaryVolume</ref></type>
+        <definition>static unsafe MR.SimpleBinaryVolume MR.makeInsideMeshVolume</definition>
+        <argsstring>(MR.Const_MeshPart mp, MR.Const_DistanceVolumeParams params_)</argsstring>
+        <name>makeInsideMeshVolume</name>
+        <qualifiedname>MR.makeInsideMeshVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__DistanceVolumeParams" kindref="compound">MR.Const_DistanceVolumeParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it casts one ray per row of voxels and counts the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero; a voxel is inside if the surface is crossed an odd number of times on the way from it to infinity, ignoring triangle orientation: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other Generated from function <computeroutput><ref refid="classMR_1a9f3408502e52e4dc74e224e5407427a3" kindref="member">MR.makeInsideMeshVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="959" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="959" bodyend="965"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a45fe869275cd0aad1052b853ac65ea10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></type>
         <definition>static unsafe MR.SimpleVolumeMinMax MR.meshRegionToIndicatorVolume</definition>
@@ -52321,7 +52344,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="956" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="956" bodyend="962"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="972" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="972" bodyend="978"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a643e3be78f578a2f6adacd0d29612444" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRSimpleVolumeMinMax_3</type>
@@ -52350,7 +52373,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="970" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="970" bodyend="976"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="986" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="986" bodyend="992"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a34da633ecbc9915a55a30116ba2b08c2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -96292,7 +96315,29 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="981" column="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="997" column="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a474b668b7d12aa8f75e6d07c15f325f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRSimpleBinaryVolume_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRSimpleBinaryVolume_StdString._Underlying * MR.__MR_makeInsideMeshVolume</definition>
+        <argsstring>(MR.Const_MeshPart._Underlying *mp, MR.Const_DistanceVolumeParams._Underlying *params_)</argsstring>
+        <name>__MR_makeInsideMeshVolume</name>
+        <qualifiedname>MR.__MR_makeInsideMeshVolume</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart._Underlying *</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceVolumeParams._Underlying *</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="1000" column="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5f1a76675935bfb9a4e86bef7fae3a72" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRSimpleVolumeMinMax_StdString._Underlying *</type>
@@ -96322,7 +96367,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="984" column="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="1003" column="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a463adcd632420501dfc121b1acc662a0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdArrayMRSimpleVolumeMinMax3_StdString._Underlying *</type>
@@ -96340,7 +96385,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="987" column="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="1006" column="88"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac1f013ffcae366d1b3d9fd2d25d1bd07" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FunctionVolume._Underlying *</type>
@@ -96362,7 +96407,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="990" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="1009" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a33c814623b5fe54bbcdc78957326a742" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRSimpleVolumeMinMax_StdString._Underlying *</type>
@@ -96384,7 +96429,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="993" column="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="1012" column="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad709d9039b75a513344451d972fdba99" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVertBitSet_StdString._Underlying *</type>
@@ -99905,6 +99950,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a64e4adff9af13a2a39b6416937a3ccaf" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeFillContours2DPlanCache</name></member>
       <member refid="classMR_1a4811b459be3354fb44d347ae23ba702f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeFreeFormOriginGrid</name></member>
       <member refid="classMR_1a9ae4c08fad4039d9a08c326aa1ace1ce" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeHashMapWithSeqNums</name></member>
+      <member refid="classMR_1a474b668b7d12aa8f75e6d07c15f325f0" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeInsideMeshVolume</name></member>
       <member refid="classMR_1a051915ec84332e4870369aecbf7520dc" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeInterHoleBridgeEdges_2</name></member>
       <member refid="classMR_1a7f4d8a48ce7281ac787fb335ee532b18" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeInterHoleBridgeEdges_3</name></member>
       <member refid="classMR_1a44501f0e575ff8db3eaa91c6a17c7569" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_makeLevelOfDetails</name></member>
@@ -101764,6 +101810,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a181ef1de3a3a5b9cb580e96e1f4e6675" prot="public" virt="non-virtual"><scope>MR</scope><name>makeFillContours2DPlanCache</name></member>
       <member refid="classMR_1a0a66432b3b35d22d9df2f74ae081a52f" prot="public" virt="non-virtual"><scope>MR</scope><name>makeFreeFormOriginGrid</name></member>
       <member refid="classMR_1a6b1c9d417f912a10e6a8c558c0f31960" prot="public" virt="non-virtual"><scope>MR</scope><name>makeHashMapWithSeqNums</name></member>
+      <member refid="classMR_1a9f3408502e52e4dc74e224e5407427a3" prot="public" virt="non-virtual"><scope>MR</scope><name>makeInsideMeshVolume</name></member>
       <member refid="classMR_1a5f1ae429308f74d7c759942e6542df15" prot="public" virt="non-virtual"><scope>MR</scope><name>makeInterHoleBridgeEdges</name></member>
       <member refid="classMR_1a855cc3ff380e423698136e5353a339db" prot="public" virt="non-virtual"><scope>MR</scope><name>makeInterHoleBridgeEdges</name></member>
       <member refid="classMR_1a49661b868d391af60b0407b022040f06" prot="public" virt="non-virtual"><scope>MR</scope><name>makeLevelOfDetails</name></member>

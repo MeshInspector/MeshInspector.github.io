@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"std__optional__MR__SignedDistanceToMeshResult_8h.html":[9,2,2,0,0,0,0,2,221],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616":[9,2,2,0,0,0,0,2,221,4],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a2fe07979d378f2957cd1e14dedb59b8e":[9,2,2,0,0,0,0,2,221,12],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a31751180fa24dc5f4eacbc3737c93080":[9,2,2,0,0,0,0,2,221,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a6bbc6c2a8538eef42c3ed87107ae868f":[9,2,2,0,0,0,0,2,235,6],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a7bfe62023a269229fbafede908aa166f":[9,2,2,0,0,0,0,2,235,2],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a8ee265945214e385328513f3aa40207b":[9,2,2,0,0,0,0,2,235,4],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a97bf32cbcb26e1d28efbe3e1c6e80733":[9,2,2,0,0,0,0,2,235,8],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a9e20d4f9191bb1c4294a8f12d85773f2":[9,2,2,0,0,0,0,2,235,3]
+"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a97bf32cbcb26e1d28efbe3e1c6e80733":[9,2,2,0,0,0,0,2,235,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MouseController_1_1MouseControlKey.html":[9,0,0,20,624],
 "structMR_1_1MouseDownListener.html":[9,0,0,20,789],
 "structMR_1_1MouseMoveListener.html":[9,0,0,20,791],
 "structMR_1_1MouseScrollListener.html":[9,0,0,20,792],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PolylineProjectionResult.html#a7a353323e51db61fabf08080cbe55598":[9,0,0,1,33,1],
 "structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8":[9,0,0,1,33,2],
 "structMR_1_1PolylineProjectionResult.html#a954df3a650cf8eeea5e253acae8126bd":[9,0,0,1,33,4],
-"structMR_1_1PolylineProjectionResult3Arg.html":[9,0,0,1,34],
-"structMR_1_1PolylineProjectionResult3Arg.html#a2cf18e52c58f017c162f7f60ad2c514e":[9,0,0,1,34,0]
+"structMR_1_1PolylineProjectionResult3Arg.html":[9,0,0,1,34]
 };
