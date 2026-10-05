@@ -31364,6 +31364,7 @@
     <member refid="namespacemrmeshnumpy_1a0eb7da152334eb8272d6ddf545189b6a" kind="function"><name>faceBitSetFromBools</name></member>
     <member refid="namespacemrmeshnumpy_1a436f15df78cab87872b198370b097c0e" kind="function"><name>fromNumpyArray</name></member>
     <member refid="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" kind="function"><name>getNumpy3Darray</name></member>
+    <member refid="namespacemrmeshnumpy_1afcef0e62a701539ab3eccfd15999f2e9" kind="function"><name>getNumpy3Darray</name></member>
     <member refid="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" kind="function"><name>getNumpyBitSet</name></member>
     <member refid="namespacemrmeshnumpy_1a4ff4013d8f081b6e4ad1c3c9a4631fa2" kind="function"><name>getNumpyCurvature</name></member>
     <member refid="namespacemrmeshnumpy_1a6c6a7732d2ef76e8fbcb88033a0b80ec" kind="function"><name>getNumpyFaces</name></member>
@@ -31380,6 +31381,8 @@
     <member refid="namespacemrmeshnumpy_1a4ecdf081b92fedf910fcd4fecfe617c8" kind="function"><name>toNumpyArray</name></member>
     <member refid="namespacemrmeshnumpy_1a0e13b8c54dc10e601ebf8258e1b97da1" kind="function"><name>undirectedEdgeBitSetFromBools</name></member>
     <member refid="namespacemrmeshnumpy_1a31711773ee51c2175497e8f31b786ad0" kind="function"><name>vertBitSetFromBools</name></member>
+    <member refid="namespacemrmeshnumpy_1a9ab34520eda955b5edee5a5499b1fc61" kind="function"><name>voxelBitSetFrom3Darray</name></member>
+    <member refid="namespacemrmeshnumpy_1aa4d8fc71f2a588f44e2e4f1750a818d3" kind="function"><name>voxelBitSetFromBools</name></member>
   </compound>
   <compound refid="namespacemrmeshpy" kind="namespace"><name>mrmeshpy</name>
     <member refid="namespacemrmeshpy_1ae28443e617436d14fa9c4d3fe8f9075e" kind="variable"><name>__all__</name></member>

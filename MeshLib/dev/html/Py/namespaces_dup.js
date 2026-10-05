@@ -6,6 +6,7 @@ var namespaces_dup =
       [ "faceBitSetFromBools", "namespacemrmeshnumpy.html#a0eb7da152334eb8272d6ddf545189b6a", null ],
       [ "fromNumpyArray", "namespacemrmeshnumpy.html#a436f15df78cab87872b198370b097c0e", null ],
       [ "getNumpy3Darray", "namespacemrmeshnumpy.html#a30039e3551018d198a5a42bd480744cd", null ],
+      [ "getNumpy3Darray", "namespacemrmeshnumpy.html#afcef0e62a701539ab3eccfd15999f2e9", null ],
       [ "getNumpyBitSet", "namespacemrmeshnumpy.html#a99acb9582fb6b8f20b4c8352a9943d6b", null ],
       [ "getNumpyCurvature", "namespacemrmeshnumpy.html#a4ff4013d8f081b6e4ad1c3c9a4631fa2", null ],
       [ "getNumpyFaces", "namespacemrmeshnumpy.html#a6c6a7732d2ef76e8fbcb88033a0b80ec", null ],
@@ -21,7 +22,9 @@ var namespaces_dup =
       [ "toNumpyArray", "namespacemrmeshnumpy.html#a4ecdf081b92fedf910fcd4fecfe617c8", null ],
       [ "toNumpyArray", "namespacemrmeshnumpy.html#a8c5b5395e60350c4ed44f27494f41ad5", null ],
       [ "undirectedEdgeBitSetFromBools", "namespacemrmeshnumpy.html#a0e13b8c54dc10e601ebf8258e1b97da1", null ],
-      [ "vertBitSetFromBools", "namespacemrmeshnumpy.html#a31711773ee51c2175497e8f31b786ad0", null ]
+      [ "vertBitSetFromBools", "namespacemrmeshnumpy.html#a31711773ee51c2175497e8f31b786ad0", null ],
+      [ "voxelBitSetFrom3Darray", "namespacemrmeshnumpy.html#a9ab34520eda955b5edee5a5499b1fc61", null ],
+      [ "voxelBitSetFromBools", "namespacemrmeshnumpy.html#aa4d8fc71f2a588f44e2e4f1750a818d3", null ]
     ] ],
     [ "mrmeshpy", "namespacemrmeshpy.html", "namespacemrmeshpy" ],
     [ "mrviewerpy", "namespacemrviewerpy.html", "namespacemrviewerpy" ]

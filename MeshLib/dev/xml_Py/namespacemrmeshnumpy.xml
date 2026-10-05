@@ -9,7 +9,7 @@
         <argsstring></argsstring>
         <name>__all__</name>
         <qualifiedname>mrmeshnumpy.__all__</qualifiedname>
-        <initializer>=  [&apos;<ref refid="namespacemrmeshnumpy_1a4c856fa3511daab45f4c4996e4d48f62" kindref="member">edgeBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0eb7da152334eb8272d6ddf545189b6a" kindref="member">faceBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a436f15df78cab87872b198370b097c0e" kindref="member">fromNumpyArray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" kindref="member">getNumpy3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" kindref="member">getNumpyBitSet</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a4ff4013d8f081b6e4ad1c3c9a4631fa2" kindref="member">getNumpyCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a6c6a7732d2ef76e8fbcb88033a0b80ec" kindref="member">getNumpyFaces</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a112c46ee48d636b11e53698db53119e3" kindref="member">getNumpyGaussianCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0fb0ed1e250c69e589c8cc7f710a82e7" kindref="member">getNumpyMeanCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a1246f4777bd0e0fa1f5a7f7ed9ae4fd6" kindref="member">getNumpyVerts</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a77b8867a49668ef48883a85a9113df81" kindref="member">meshFromFacesVerts</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a17cf7f7527475e90734b1c6033d7b439" kindref="member">meshFromUVPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a67c605242104534bf522a0f72ef88db5" kindref="member">pointCloudFromPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1ad12b61da2fba2209c9f70ec5a2e44911" kindref="member">polyline2FromPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1ac6224bbc57901b29cec13de697c190f3" kindref="member">simpleVolumeFrom3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a8c5b5395e60350c4ed44f27494f41ad5" kindref="member">toNumpyArray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0e13b8c54dc10e601ebf8258e1b97da1" kindref="member">undirectedEdgeBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a31711773ee51c2175497e8f31b786ad0" kindref="member">vertBitSetFromBools</ref>&apos;]</initializer>
+        <initializer>=  [&apos;<ref refid="namespacemrmeshnumpy_1a4c856fa3511daab45f4c4996e4d48f62" kindref="member">edgeBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0eb7da152334eb8272d6ddf545189b6a" kindref="member">faceBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a436f15df78cab87872b198370b097c0e" kindref="member">fromNumpyArray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" kindref="member">getNumpy3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" kindref="member">getNumpyBitSet</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a4ff4013d8f081b6e4ad1c3c9a4631fa2" kindref="member">getNumpyCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a6c6a7732d2ef76e8fbcb88033a0b80ec" kindref="member">getNumpyFaces</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a112c46ee48d636b11e53698db53119e3" kindref="member">getNumpyGaussianCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0fb0ed1e250c69e589c8cc7f710a82e7" kindref="member">getNumpyMeanCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a1246f4777bd0e0fa1f5a7f7ed9ae4fd6" kindref="member">getNumpyVerts</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a77b8867a49668ef48883a85a9113df81" kindref="member">meshFromFacesVerts</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a17cf7f7527475e90734b1c6033d7b439" kindref="member">meshFromUVPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a67c605242104534bf522a0f72ef88db5" kindref="member">pointCloudFromPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1ad12b61da2fba2209c9f70ec5a2e44911" kindref="member">polyline2FromPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1ac6224bbc57901b29cec13de697c190f3" kindref="member">simpleVolumeFrom3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a8c5b5395e60350c4ed44f27494f41ad5" kindref="member">toNumpyArray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0e13b8c54dc10e601ebf8258e1b97da1" kindref="member">undirectedEdgeBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a31711773ee51c2175497e8f31b786ad0" kindref="member">vertBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a9ab34520eda955b5edee5a5499b1fc61" kindref="member">voxelBitSetFrom3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1aa4d8fc71f2a588f44e2e4f1750a818d3" kindref="member">voxelBitSetFromBools</ref>&apos;]</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="15" bodyend="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="15" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -98,7 +98,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="19" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1afcef0e62a701539ab3eccfd15999f2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[bool]</type>
+        <definition> numpy.ndarray[bool] mrmeshnumpy.getNumpy3Darray</definition>
+        <argsstring>(meshlib.mrmeshpy.VoxelBitSet voxelBitSet, meshlib.mrmeshpy.Vector3i dims)</argsstring>
+        <name>getNumpy3Darray</name>
+        <qualifiedname>mrmeshnumpy.getNumpy3Darray</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.VoxelBitSet</type>
+          <declname>voxelBitSet</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convert VoxelBitSet of the volume with given dimensions to numpy 3D array of bools with shape (x,y,z)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="25" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[bool]</type>
@@ -118,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="23" bodyend="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="29" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a4ff4013d8f081b6e4ad1c3c9a4631fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -138,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="27" bodyend="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="33" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a6c6a7732d2ef76e8fbcb88033a0b80ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.int32]</type>
@@ -158,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="31" bodyend="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="37" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a112c46ee48d636b11e53698db53119e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -178,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="35" bodyend="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="41" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a0fb0ed1e250c69e589c8cc7f710a82e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -198,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="39" bodyend="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="45" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a1246f4777bd0e0fa1f5a7f7ed9ae4fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -218,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="43" bodyend="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a77b8867a49668ef48883a85a9113df81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.Mesh</type>
@@ -252,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="47" bodyend="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="53" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a17cf7f7527475e90734b1c6033d7b439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.Mesh</type>
@@ -280,7 +304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="51" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="51" bodyend="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="57" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a67c605242104534bf522a0f72ef88db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.PointCloud</type>
@@ -305,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="55" bodyend="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1ad12b61da2fba2209c9f70ec5a2e44911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.Polyline2</type>
@@ -325,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="59" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="59" bodyend="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="65" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="65" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1ac6224bbc57901b29cec13de697c190f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.SimpleVolumeMinMax</type>
@@ -345,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="63" bodyend="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="69" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="69" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a8c5b5395e60350c4ed44f27494f41ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -365,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="68" bodyend="72"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="74" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a1c3d6c72018281ed51f66dc03c8da6bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -385,7 +409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="73" bodyend="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="79" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a4ecdf081b92fedf910fcd4fecfe617c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>numpy.ndarray[numpy.float64]</type>
@@ -405,7 +429,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="78" bodyend="81"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="84" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a0e13b8c54dc10e601ebf8258e1b97da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.UndirectedEdgeBitSet</type>
@@ -425,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="82" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="82" bodyend="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="88" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="88" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="namespacemrmeshnumpy_1a31711773ee51c2175497e8f31b786ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>meshlib.mrmeshpy.VertBitSet</type>
@@ -445,7 +469,47 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="86" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="86" bodyend="90"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="92" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a9ab34520eda955b5edee5a5499b1fc61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.VoxelBitSet</type>
+        <definition> meshlib.mrmeshpy.VoxelBitSet mrmeshnumpy.voxelBitSetFrom3Darray</definition>
+        <argsstring>(typing_extensions.Buffer boolsArray)</argsstring>
+        <name>voxelBitSetFrom3Darray</name>
+        <qualifiedname>mrmeshnumpy.voxelBitSetFrom3Darray</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>boolsArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convert numpy 3D array of bools with shape (x,y,z) to VoxelBitSet indexed as in VolumeIndexer
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="96" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1aa4d8fc71f2a588f44e2e4f1750a818d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.VoxelBitSet</type>
+        <definition> meshlib.mrmeshpy.VoxelBitSet mrmeshnumpy.voxelBitSetFromBools</definition>
+        <argsstring>(typing_extensions.Buffer boolArray)</argsstring>
+        <name>voxelBitSetFromBools</name>
+        <qualifiedname>mrmeshnumpy.voxelBitSetFromBools</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>boolArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns VoxelBitSet from numpy array with bools
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="100" bodyend="104"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
