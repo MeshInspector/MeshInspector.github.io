@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a4c0b76bb7c70dcb1b1fb7b933d81cf68":[9,3,0,0,0,1024,7],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a636bb6599bf4a7ffb5ebff3cb3663f95":[9,3,0,0,0,1024,6],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a6ca0a55ac8d4def0e5226e20cbb8eef7":[9,3,0,0,0,1024,4],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#acb5ca7b3ee2515675d01ccc61fcf110f":[9,3,0,0,0,1024,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Const__ZCompensateParams.html#ac65351c4041f02d81d9849146338ff77":[9,3,0,0,0,1042,0],
 "classMR_1_1Const__ZCompensateParams.html#ada140429f8ba689b21fee5652c565b12":[9,3,0,0,0,1042,9],
 "classMR_1_1Const__ZCompensateParams.html#af1414784cc68b06ec073ed8bc2d7eec5":[9,3,0,0,0,1042,13],
-"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[9,3,0,0,0,1042,10],
-"classMR_1_1Const__ZeroOnMove__SizeT.html":[9,3,0,0,0,1043]
+"classMR_1_1Const__ZCompensateParams.html#af75ff2d683f534553bc39fc235032074":[9,3,0,0,0,1042,10]
 };

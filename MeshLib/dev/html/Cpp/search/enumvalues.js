@@ -288,7 +288,7 @@ var searchData=
   ['objectpointsholderbit_7',['ObjectPointsHolderBit',['../group__GeneralGroup.html#gga08fcff6c599b446c2e39ef49b4f62fc0ac104128a468562f5e9c96509dfed3d53',1,'MR']]],
   ['objects_8',['Objects',['../group__GeneralGroup.html#ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386',1,'MR']]],
   ['objecttypeicon_9',['ObjectTypeIcon',['../group__GeneralGroup.html#gga2d10e82f8fd5c6cc53279374e9bd3931af039b462df0cff215dbf650d8b6e3ce9',1,'MR::RibbonIcons']]],
-  ['oddcrossings_10',['OddCrossings',['../group__GeneralGroup.html#gga7da18eadf0576c3cb0a3c42de2f106dba4e54356eb1e29dcab78f68189add6f1e',1,'MR']]],
+  ['oddcrossings_10',['OddCrossings',['../group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309a4e54356eb1e29dcab78f68189add6f1e',1,'MR::OddCrossings'],['../group__GeneralGroup.html#gga7da18eadf0576c3cb0a3c42de2f106dba4e54356eb1e29dcab78f68189add6f1e',1,'MR::OddCrossings']]],
   ['offset_11',['Offset',['../group__GeneralGroup.html#ggaf7ce0ff6c24247a435c6742c785db972adfd0a82c4bf37b1e90b690a22a20692e',1,'MR::OffsetContoursParams']]],
   ['ok_12',['Ok',['../group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115',1,'MR::VoxelsLoad']]],
   ['ok_13',['ok',['../group__GeneralGroup.html#ggab9a02bda2fc92c73a0d7d637ba562a7ea444bcb3a3fcf8389296c49467f27e1d6',1,'MR::Features::MeasureResult']]],
