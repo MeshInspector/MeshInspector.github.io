@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__ZlibCompressParams.html":[9,3,0,0,0,1044],
 "classMR_1_1Const__ZlibCompressParams.html#a07838910415bbcf105f2de1c420118e6":[9,3,0,0,0,1044,0],
 "classMR_1_1Const__ZlibCompressParams.html#a124bf8bdbc9a9f7ad208dfda90b99c98":[9,3,0,0,0,1044,2],
 "classMR_1_1Const__ZlibCompressParams.html#a5f8b992389adc7d0e616f6f92b5601ce":[9,3,0,0,0,1044,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Cuda_1_1Const__FastWindingNumber.html#a9fce616aa39c4d6db699c035d698d6f7":[9,3,0,0,0,1123,5,6],
 "classMR_1_1Cuda_1_1Const__FastWindingNumber.html#aab8e79db4989321f3e4fbc8e42bddac6":[9,3,0,0,0,1123,5,4],
 "classMR_1_1Cuda_1_1Const__FastWindingNumber.html#ac696ba52c2ebe1899753a8694369b738":[9,3,0,0,0,1123,5,5],
-"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#ad81224aa9a6123c3e7ce1419bb6a6ed0":[9,3,0,0,0,1123,5,9],
-"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#ae74c1d77b80ea7b25d4a8c8793340f7a":[9,3,0,0,0,1123,5,10]
+"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#ad81224aa9a6123c3e7ce1419bb6a6ed0":[9,3,0,0,0,1123,5,9]
 };

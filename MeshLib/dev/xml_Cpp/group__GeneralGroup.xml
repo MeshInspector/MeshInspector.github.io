@@ -68775,7 +68775,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="59" column="26" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="59" bodyend="-1"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="66" column="26" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae40d1d140cfa8187507172fe40598193" prot="public" static="no" mutable="no">
         <type>DistanceToMeshOptions</type>
@@ -68789,7 +68789,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="60" column="27" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="60" bodyend="-1"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="67" column="27" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabe274cb37fde7b021b46a400ec6ce767" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; IPointsToMeshProjector &gt;</type>
@@ -68804,7 +68804,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="61" column="21" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="61" bodyend="-1"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="68" column="21" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa2018932b0f46e90f13ac5b75b7eaed9" prot="public" static="no" mutable="no">
         <type>FilterType</type>
@@ -201028,6 +201028,29 @@ actually all zeros </para>
         </inbodydescription>
         <location file="MRVoxels/MRMeshToDistanceVolume.h" line="50" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="50" declcolumn="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga23afae32b25cdee2c3bf2b6056f688e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; SimpleBinaryVolume &gt;</type>
+        <definition>Expected&lt; SimpleBinaryVolume &gt; MR::makeInsideMeshVolumeVdb</definition>
+        <argsstring>(const MeshPart &amp;mp, const DistanceVolumeParams &amp;params)</argsstring>
+        <name>makeInsideMeshVolumeVdb</name>
+        <qualifiedname>MR::makeInsideMeshVolumeVdb</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const DistanceVolumeParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it is computed by OpenVDB in a narrow band of half a voxel, 15-30 times slower than makeInsideMeshVolume (512^3 voxels and 2.6M triangles on a 12-core Ryzen 9 3900X: 1.3-2.8 s vs 0.08 s); inside are all voxels separated from infinity by the surface, ignoring triangle orientation: enclosed cavities and the space between nested layers are filled, and overlapping parts of a self-intersecting surface are united </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="57" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="57" declcolumn="11"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf99b4c073dc700a6e84295c59f0cbdef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; SimpleVolumeMinMax &gt;</type>
         <definition>Expected&lt; SimpleVolumeMinMax &gt; MR::meshRegionToIndicatorVolume</definition>
@@ -201057,7 +201080,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="54" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="54" declcolumn="11"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="61" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="61" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt;</type>
@@ -201085,7 +201108,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="67" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="67" declcolumn="11"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="74" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="74" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadedf1f1574fe5ce4838b7a443b3e3902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

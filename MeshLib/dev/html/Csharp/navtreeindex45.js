@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgeScalars.html#af751ea02a4e630ab3240809d0be33006":[9,3,0,0,0,429,13],
 "classMR_1_1Const__EdgeScalars.html#afadc5ea6f9ec9b75274fee0667bcc0f5":[9,3,0,0,0,429,11],
 "classMR_1_1Const__EdgeScalars_1_1__Enumerator.html":[9,3,0,0,0,429,0],
 "classMR_1_1Const__EdgeScalars_1_1__Enumerator.html#a0347d8700a6c75720d07e2ef790adebb":[9,3,0,0,0,429,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__FaceBitSet.html#a9e6721a9a80bf912907647bfe735385e":[9,3,0,0,0,441,46],
 "classMR_1_1Const__FaceBitSet.html#aa0759c34e5fd9eb6f603edd98e8dc8d0":[9,3,0,0,0,441,42],
 "classMR_1_1Const__FaceBitSet.html#aa4a20c281980ba20a62f2833d71d537d":[9,3,0,0,0,441,38],
-"classMR_1_1Const__FaceBitSet.html#aaae98de3a19bc57aadb23fe8ed6e92b1":[9,3,0,0,0,441,24],
-"classMR_1_1Const__FaceBitSet.html#aae5a6aba3e358a0be6bca7ba862bd410":[9,3,0,0,0,441,0]
+"classMR_1_1Const__FaceBitSet.html#aaae98de3a19bc57aadb23fe8ed6e92b1":[9,3,0,0,0,441,24]
 };

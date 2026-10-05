@@ -53405,6 +53405,7 @@
     <member refid="classMR_1a87269e7358207c0c0dd3c0803c8e3cf6" kind="function"><name>meshToDistanceFunctionVolume</name></member>
     <member refid="classMR_1a3fc8242ea5040c6b7f9f3d478c3b7332" kind="function"><name>makeCloseToMeshVolume</name></member>
     <member refid="classMR_1a9f3408502e52e4dc74e224e5407427a3" kind="function"><name>makeInsideMeshVolume</name></member>
+    <member refid="classMR_1a7633af3a7e3b5f90ae1c564b6802d5cf" kind="function"><name>makeInsideMeshVolumeVdb</name></member>
     <member refid="classMR_1a45fe869275cd0aad1052b853ac65ea10" kind="function"><name>meshRegionToIndicatorVolume</name></member>
     <member refid="classMR_1a643e3be78f578a2f6adacd0d29612444" kind="function"><name>meshToDirectionVolume</name></member>
     <member refid="classMR_1a34da633ecbc9915a55a30116ba2b08c2" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
@@ -55233,6 +55234,7 @@
     <member refid="classMR_1aacbef7f5d763c51e632738e8269eaba1" kind="function"><name>__MR_marchingCubes_MR_VdbVolume</name></member>
     <member refid="classMR_1abf8245fd4b2ef12b034ddefa3f3903a2" kind="function"><name>__MR_makeCloseToMeshVolume</name></member>
     <member refid="classMR_1a474b668b7d12aa8f75e6d07c15f325f0" kind="function"><name>__MR_makeInsideMeshVolume</name></member>
+    <member refid="classMR_1ac61b93ab8004d77c67af5320875a05c1" kind="function"><name>__MR_makeInsideMeshVolumeVdb</name></member>
     <member refid="classMR_1a5f1a76675935bfb9a4e86bef7fae3a72" kind="function"><name>__MR_meshRegionToIndicatorVolume</name></member>
     <member refid="classMR_1a463adcd632420501dfc121b1acc662a0" kind="function"><name>__MR_meshToDirectionVolume</name></member>
     <member refid="classMR_1ac1f013ffcae366d1b3d9fd2d25d1bd07" kind="function"><name>__MR_meshToDistanceFunctionVolume</name></member>

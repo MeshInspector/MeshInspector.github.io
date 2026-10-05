@@ -23,6 +23,7 @@ var MRMeshToDistanceVolume_8h =
     [ "MR_CloseToMeshVolumeParams_Set_vol", "MRMeshToDistanceVolume_8h.html#ac2e8ce1dab09f89e0163983f832d400d", null ],
     [ "MR_makeCloseToMeshVolume", "MRMeshToDistanceVolume_8h.html#ab8474bb8d34959241004fdfaccb44b78", null ],
     [ "MR_makeInsideMeshVolume", "MRMeshToDistanceVolume_8h.html#a230b5f44fea0965bd51e2cc8a3519e69", null ],
+    [ "MR_makeInsideMeshVolumeVdb", "MRMeshToDistanceVolume_8h.html#aef1d2fb05dd64d7fa475de9fd6de776a", null ],
     [ "MR_meshRegionToIndicatorVolume", "MRMeshToDistanceVolume_8h.html#addd92e9dd41842f48503abb3024c6ae7", null ],
     [ "MR_meshToDirectionVolume", "MRMeshToDistanceVolume_8h.html#ae551c765200db3f95f41b2be38ccfcb2", null ],
     [ "MR_MeshToDirectionVolumeParams_AssignFromAnother", "MRMeshToDistanceVolume_8h.html#a862d6d6f4a84f0201283659c593a745c", null ],

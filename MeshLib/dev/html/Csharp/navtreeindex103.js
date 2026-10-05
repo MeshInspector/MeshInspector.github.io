@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1FanRecordWithCenter.html#aadcbe96d28ba78210e21149b15ff0b7b":[9,3,0,0,0,1201,5],
 "classMR_1_1FanRecordWithCenter.html#ad0c2c59c3ee4fa1d01cae8186067a731":[9,3,0,0,0,1201,3],
 "classMR_1_1FanRecordWithCenter.html#ad1432b8de49b7126d15278ae4e400a4e":[9,3,0,0,0,1201,9],
 "classMR_1_1FastInSphereTesterSoS.html":[9,3,0,0,0,1202],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1Features_1_1MeasureResult.html#ad29540a2fa2c0b2a538d2bc9fbbc151d":[9,3,0,0,0,1207,2,3],
 "classMR_1_1Features_1_1MeasureResult.html#ae92b40a434d849657013993a2519c131":[9,3,0,0,0,1207,2,6],
 "classMR_1_1Features_1_1Primitives.html":[9,3,0,0,0,1207,3],
-"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[9,3,0,0,0,1207,3,0],
-"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#a3049dc06a32a670b86b37621ffab85c7":[9,3,0,0,0,1207,3,0,1]
+"classMR_1_1Features_1_1Primitives_1_1ConeSegment.html":[9,3,0,0,0,1207,3,0]
 };

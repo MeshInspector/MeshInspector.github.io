@@ -2328,6 +2328,7 @@ var namespacemrmeshpy =
     [ "makeFreeFormOriginGrid", "namespacemrmeshpy.html#addad1e17822d7eef136de61cc6141013", null ],
     [ "makeHashMapWithSeqNums", "namespacemrmeshpy.html#a36fc287697e511bf984cdd42eff95a01", null ],
     [ "makeInsideMeshVolume", "namespacemrmeshpy.html#aa7ff2b462c3f355636d35b761da035e9", null ],
+    [ "makeInsideMeshVolumeVdb", "namespacemrmeshpy.html#a4c5313bd9d85b7210c3e7102a532d8b8", null ],
     [ "makeInterHoleBridgeEdges", "namespacemrmeshpy.html#a1de24c72f67a8653137a4a0418688984", null ],
     [ "makeInterHoleBridgeEdges", "namespacemrmeshpy.html#a9e8c90a0aea2ffa7faf8e24e2c0545ee", null ],
     [ "makeLevelOfDetails", "namespacemrmeshpy.html#a77e479b5adb3f82ccd3cdefec082ea19", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Cuda_1_1Const__FastWindingNumber.html#ae74c1d77b80ea7b25d4a8c8793340f7a":[9,3,0,0,0,1123,5,10],
 "classMR_1_1Cuda_1_1Const__FastWindingNumber.html#af52235525a101c5f2268de8e3be41ba1":[9,3,0,0,0,1123,5,7],
 "classMR_1_1Cuda_1_1Const__PointsProjector.html":[9,3,0,0,0,1123,6],
 "classMR_1_1Cuda_1_1Const__PointsProjector.html#a153dda8b94491c98bf120fe4ac26ac0e":[9,3,0,0,0,1123,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1DecimatePolylineSettings__MRVector3f.html#a437f741e1de6955c64e18429cafe8187":[9,3,0,0,0,1135,11],
 "classMR_1_1DecimatePolylineSettings__MRVector3f.html#a4391a848f31d726d5e2372b52f6572dc":[9,3,0,0,0,1135,9],
 "classMR_1_1DecimatePolylineSettings__MRVector3f.html#a4f9b26292d957bb31cc5ef4940504f23":[9,3,0,0,0,1135,12],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#a60e440df5bac2bb017734dc6d120e09b":[9,3,0,0,0,1135,15],
-"classMR_1_1DecimatePolylineSettings__MRVector3f.html#a6dc14879ee7002cec471e0be237ed76d":[9,3,0,0,0,1135,13]
+"classMR_1_1DecimatePolylineSettings__MRVector3f.html#a60e440df5bac2bb017734dc6d120e09b":[9,3,0,0,0,1135,15]
 };

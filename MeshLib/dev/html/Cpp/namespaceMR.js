@@ -2877,6 +2877,7 @@ var namespaceMR =
     [ "makeHashMapWithSeqNums", "group__BasicGroup.html#ga11d9716c4a58936253cf70cf7394f983", null ],
     [ "makeHashMapWithSeqNums", "group__BasicGroup.html#ga2637b6b01910fbe8294a9f26f472f35f", null ],
     [ "makeInsideMeshVolume", "group__GeneralGroup.html#ga3485331fc97fee1f0ef217d1bbcd91b9", null ],
+    [ "makeInsideMeshVolumeVdb", "group__GeneralGroup.html#ga23afae32b25cdee2c3bf2b6056f688e1", null ],
     [ "makeInterHoleBridgeEdges", "group__FillHoleGroup.html#gaedeea912acd0e1829ff8da9d845c8f69", null ],
     [ "makeInterHoleBridgeEdges", "group__FillHoleGroup.html#gaa7b4656b5eb409139fbb67985106e06b", null ],
     [ "makeLevelOfDetails", "group__GeneralGroup.html#ga642d8f58bfaf2bf579e6da003fcdc164", null ],
