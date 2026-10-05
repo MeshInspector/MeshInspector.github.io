@@ -1,5 +1,9 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PositionedText.html#a695c93813d9653fca5f94e3127da2f34":[9,3,0,0,0,1576,0],
+"classMR_1_1PositionedText.html#a80bc1e820ef920546477e1070e75a12a":[9,3,0,0,0,1576,7],
+"classMR_1_1PositionedText.html#a874d4faac3e88cd7637e77d17dfee868":[9,3,0,0,0,1576,6],
+"classMR_1_1PositionedText.html#ab5062226fda0570ea408212fbf306e1d":[9,3,0,0,0,1576,5],
 "classMR_1_1PositionedText.html#af478904c36291dff35b479b75b2341cc":[9,3,0,0,0,1576,2],
 "classMR_1_1PrecipitationSimulator.html":[9,3,0,0,0,1578],
 "classMR_1_1PrecipitationSimulator.html#a24b065f2e8be893101a63a3a21ddda6c":[9,3,0,0,0,1578,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1RefineParameters.html#a9d1d42433d6294dd61fd7b1836e2e2f1":[9,3,0,0,0,1594,5],
 "classMR_1_1RefineParameters.html#aa0934a64cd02007afc18ced8d1a1e5a7":[9,3,0,0,0,1594,3],
 "classMR_1_1RefineParameters.html#aa339ea784228e1f059eaaf663e269696":[9,3,0,0,0,1594,2],
-"classMR_1_1RefineParameters.html#aa8b988abbfbe287b960ec914c6fe7fa2":[9,3,0,0,0,1594,8],
-"classMR_1_1RefineParameters.html#ab5d9afbb32de0c56467d6e5b283a80a2":[9,3,0,0,0,1594,1],
-"classMR_1_1RefineParameters.html#acb842f8927db7effa85025af92d854aa":[9,3,0,0,0,1594,9],
-"classMR_1_1RegionBitSet.html":[9,3,0,0,0,1595],
-"classMR_1_1RegionBitSet.html#a03ce7adcd7ae250e545dd7fd046e9fe9":[9,3,0,0,0,1595,7]
+"classMR_1_1RefineParameters.html#aa8b988abbfbe287b960ec914c6fe7fa2":[9,3,0,0,0,1594,8]
 };

@@ -1,8 +1,13 @@
 var MRMeshToDistanceVolume_8h =
 [
     [ "MR_CloseToMeshVolumeParams", "MRMeshToDistanceVolume_8h.html#a33ccc9213632115baaa3eadf663f2fa1", null ],
+    [ "MR_InsideMeshRule", "MRMeshToDistanceVolume_8h.html#ad827f429df17a4f837d1067698cea584", null ],
     [ "MR_MeshToDirectionVolumeParams", "MRMeshToDistanceVolume_8h.html#a557b4fed95ba8da17c9968cf525cf725", null ],
     [ "MR_MeshToDistanceVolumeParams", "MRMeshToDistanceVolume_8h.html#acd6f0d50c4d5eb9d0b199deab0deced3", null ],
+    [ "MR_InsideMeshRule", "MRMeshToDistanceVolume_8h.html#ad4b5e860474dca91114c857f140f8e94", [
+      [ "MR_InsideMeshRule_OddCrossings", "MRMeshToDistanceVolume_8h.html#ad4b5e860474dca91114c857f140f8e94ae5f769edd5c382de2b3402de71795281", null ],
+      [ "MR_InsideMeshRule_PositiveWinding", "MRMeshToDistanceVolume_8h.html#ad4b5e860474dca91114c857f140f8e94a9535bfd00102508eb554f98ac189b64b", null ]
+    ] ],
     [ "MR_CloseToMeshVolumeParams_AssignFromAnother", "MRMeshToDistanceVolume_8h.html#ac992bea9026474db2953b1fce91a00c1", null ],
     [ "MR_CloseToMeshVolumeParams_ConstructFrom", "MRMeshToDistanceVolume_8h.html#a73343d5c644d4f1c90a8f45ca5371c9b", null ],
     [ "MR_CloseToMeshVolumeParams_ConstructFromAnother", "MRMeshToDistanceVolume_8h.html#ac0bb771df8a3087657071ef35a337436", null ],
@@ -22,7 +27,7 @@ var MRMeshToDistanceVolume_8h =
     [ "MR_CloseToMeshVolumeParams_Set_meshToWorld", "MRMeshToDistanceVolume_8h.html#a81171934c32a9ca5fb5c9cdc5e02bbf0", null ],
     [ "MR_CloseToMeshVolumeParams_Set_vol", "MRMeshToDistanceVolume_8h.html#ac2e8ce1dab09f89e0163983f832d400d", null ],
     [ "MR_makeCloseToMeshVolume", "MRMeshToDistanceVolume_8h.html#ab8474bb8d34959241004fdfaccb44b78", null ],
-    [ "MR_makeInsideMeshVolume", "MRMeshToDistanceVolume_8h.html#a230b5f44fea0965bd51e2cc8a3519e69", null ],
+    [ "MR_makeInsideMeshVolume", "MRMeshToDistanceVolume_8h.html#ab327404e10bedbd9bf91f9a1cdb70a30", null ],
     [ "MR_makeInsideMeshVolumeVdb", "MRMeshToDistanceVolume_8h.html#aef1d2fb05dd64d7fa475de9fd6de776a", null ],
     [ "MR_meshRegionToIndicatorVolume", "MRMeshToDistanceVolume_8h.html#addd92e9dd41842f48503abb3024c6ae7", null ],
     [ "MR_meshToDirectionVolume", "MRMeshToDistanceVolume_8h.html#ae551c765200db3f95f41b2be38ccfcb2", null ],

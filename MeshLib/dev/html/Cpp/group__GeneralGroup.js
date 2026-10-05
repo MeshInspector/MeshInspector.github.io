@@ -9931,6 +9931,10 @@ var group__GeneralGroup =
       [ "MR::ICPMode::FixedAxis", "group__GeneralGroup.html#gga2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae", null ],
       [ "MR::ICPMode::TranslationOnly", "group__GeneralGroup.html#gga2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce", null ]
     ] ],
+    [ "MR::InsideMeshRule", "group__GeneralGroup.html#ga7da18eadf0576c3cb0a3c42de2f106db", [
+      [ "MR::InsideMeshRule::OddCrossings", "group__GeneralGroup.html#gga7da18eadf0576c3cb0a3c42de2f106dba4e54356eb1e29dcab78f68189add6f1e", null ],
+      [ "MR::InsideMeshRule::PositiveWinding", "group__GeneralGroup.html#gga7da18eadf0576c3cb0a3c42de2f106dbab5838c321dc8939d8443a5a8c783360a", null ]
+    ] ],
     [ "MR::BasicUiRenderTask::InteractionMask", "group__GeneralGroup.html#gab4d07ed1576fec164c6c0308c3cbbb3d", [
       [ "MR::BasicUiRenderTask::InteractionMask::mouseHover", "group__GeneralGroup.html#ggab4d07ed1576fec164c6c0308c3cbbb3da63e651859a2c9145e78189f8e31965a5", null ],
       [ "MR::BasicUiRenderTask::InteractionMask::mouseScroll", "group__GeneralGroup.html#ggab4d07ed1576fec164c6c0308c3cbbb3da3a576d0a62d9d598826a5dd9f7f6fec6", null ]
@@ -13745,7 +13749,7 @@ var group__GeneralGroup =
     [ "MR::PolylineTopology::makeEdges", "group__GeneralGroup.html#ga8a4fbc8fedb7d97bff82911cce15609a", null ],
     [ "MR::makeFillContours2DPlanCache", "group__GeneralGroup.html#ga4b58b14fd18ff412914c444b5d647659", null ],
     [ "MR::makeFreeFormOriginGrid", "group__GeneralGroup.html#ga6c7c9b7158d19c16a538796d96742fe2", null ],
-    [ "MR::makeInsideMeshVolume", "group__GeneralGroup.html#ga3485331fc97fee1f0ef217d1bbcd91b9", null ],
+    [ "MR::makeInsideMeshVolume", "group__GeneralGroup.html#gad2a0f095b14cd7fd73b9ab7667899bd7", null ],
     [ "MR::makeInsideMeshVolumeVdb", "group__GeneralGroup.html#ga23afae32b25cdee2c3bf2b6056f688e1", null ],
     [ "MR::makeLevelOfDetails", "group__GeneralGroup.html#ga642d8f58bfaf2bf579e6da003fcdc164", null ],
     [ "MR::makeMovementBuildBody", "group__GeneralGroup.html#ga7cceaa249191f3117f4443ce661e9c13", null ],

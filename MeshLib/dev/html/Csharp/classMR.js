@@ -2040,6 +2040,10 @@ var classMR =
       [ "FixedAxis", "classMR.html#a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae", null ],
       [ "TranslationOnly", "classMR.html#a8d81aa456e2777ec7823ebb5a61662d5a55fae57b90256ccb618322f9a33784ce", null ]
     ] ],
+    [ "InsideMeshRule", "classMR.html#aaab5125bed355f42a81950b40e8dd142", [
+      [ "OddCrossings", "classMR.html#aaab5125bed355f42a81950b40e8dd142a4e54356eb1e29dcab78f68189add6f1e", null ],
+      [ "PositiveWinding", "classMR.html#aaab5125bed355f42a81950b40e8dd142ab5838c321dc8939d8443a5a8c783360a", null ]
+    ] ],
     [ "InSphereResult", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0", [
       [ "NoSphere", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0a5ab5ae4c67e711f8cf3e94ea03d92e5c", null ],
       [ "Outside", "classMR.html#a6744bb80f3f77f5eb58dedbab3680cb0a76fbf0ccd7fcd64879c2ff2119dc15a4", null ],
@@ -3728,7 +3732,7 @@ var classMR =
     [ "makeFillContours2DPlanCache", "classMR.html#a181ef1de3a3a5b9cb580e96e1f4e6675", null ],
     [ "makeFreeFormOriginGrid", "classMR.html#a0a66432b3b35d22d9df2f74ae081a52f", null ],
     [ "makeHashMapWithSeqNums", "classMR.html#a6b1c9d417f912a10e6a8c558c0f31960", null ],
-    [ "makeInsideMeshVolume", "classMR.html#a9f3408502e52e4dc74e224e5407427a3", null ],
+    [ "makeInsideMeshVolume", "classMR.html#a3c33bca47f55cefbd720928ed0cb1242", null ],
     [ "makeInsideMeshVolumeVdb", "classMR.html#a7633af3a7e3b5f90ae1c564b6802d5cf", null ],
     [ "makeInterHoleBridgeEdges", "classMR.html#a5f1ae429308f74d7c759942e6542df15", null ],
     [ "makeInterHoleBridgeEdges", "classMR.html#a855cc3ff380e423698136e5353a339db", null ],
@@ -3959,6 +3963,7 @@ var classMR =
     [ "rayMeshIntersect", "classMR.html#a2ceb1bbd2c5682dd9ba925c98037a9cc", null ],
     [ "rayMeshIntersect", "classMR.html#ae6ca9e2df203172e726e347559d748a4", null ],
     [ "rayMeshIntersectAll", "classMR.html#aaf99ab9928de9f23d017043195436c9a", null ],
+    [ "rayMeshIntersectAll", "classMR.html#a48e483c3a05120d78d7949a0ca95604c", null ],
     [ "rayMeshIntersectAll", "classMR.html#abe5fc4b3796e1ff1d7320e36491ff5dc", null ],
     [ "rayMultiMeshAnyIntersect", "classMR.html#a9e83648b959d268705221830d80faf43", null ],
     [ "rayMultiMeshAnyIntersect", "classMR.html#a0cac22c831c0b9e3b121511a853a3328", null ],

@@ -1164,6 +1164,7 @@ var namespaceMR =
     [ "MenuItemsListMigrations", "group__GeneralGroup.html#gab7127eaef6bbef972ecd0663dcf8d527", null ],
     [ "MeshEdgePoint", "group__GeneralGroup.html#ga8ffb37085bbd6060f17bcf222941ab8c", null ],
     [ "MeshIntersectionCallback", "group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517", null ],
+    [ "MeshIntersectionWithSideCallback", "group__AABBTreeGroup.html#ga9aa9e0fd7fa1a5029ec19df149069464", null ],
     [ "MeshOnVoxelsFunction", "namespaceMR.html#a03d4bc2fa6d66cfcaa8ed9d0b124e863", null ],
     [ "MeshOnVoxelsFunctionC", "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8", null ],
     [ "MeshOnVoxelsSimple", "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8", null ],
@@ -1452,6 +1453,10 @@ var namespaceMR =
       [ "OrthogonalAxis", "group__GeneralGroup.html#gga2f8db848fea33b9619ade1fc1ac08677a9dc639d68610e7c72efff69db6d60b18", null ],
       [ "FixedAxis", "group__GeneralGroup.html#gga2f8db848fea33b9619ade1fc1ac08677aeaff0b601f0c9235c1d2d08500449fae", null ],
       [ "TranslationOnly", "group__GeneralGroup.html#gga2f8db848fea33b9619ade1fc1ac08677a55fae57b90256ccb618322f9a33784ce", null ]
+    ] ],
+    [ "InsideMeshRule", "group__GeneralGroup.html#ga7da18eadf0576c3cb0a3c42de2f106db", [
+      [ "OddCrossings", "group__GeneralGroup.html#gga7da18eadf0576c3cb0a3c42de2f106dba4e54356eb1e29dcab78f68189add6f1e", null ],
+      [ "PositiveWinding", "group__GeneralGroup.html#gga7da18eadf0576c3cb0a3c42de2f106dbab5838c321dc8939d8443a5a8c783360a", null ]
     ] ],
     [ "InSphereResult", "group__MathGroup.html#ga924383ee24cd4b41824111cdf4cd50b2", [
       [ "NoSphere", "group__MathGroup.html#gga924383ee24cd4b41824111cdf4cd50b2a5ab5ae4c67e711f8cf3e94ea03d92e5c", null ],
@@ -2877,7 +2882,7 @@ var namespaceMR =
     [ "makeFreeFormOriginGrid", "group__GeneralGroup.html#ga6c7c9b7158d19c16a538796d96742fe2", null ],
     [ "makeHashMapWithSeqNums", "group__BasicGroup.html#ga11d9716c4a58936253cf70cf7394f983", null ],
     [ "makeHashMapWithSeqNums", "group__BasicGroup.html#ga2637b6b01910fbe8294a9f26f472f35f", null ],
-    [ "makeInsideMeshVolume", "group__GeneralGroup.html#ga3485331fc97fee1f0ef217d1bbcd91b9", null ],
+    [ "makeInsideMeshVolume", "group__GeneralGroup.html#gad2a0f095b14cd7fd73b9ab7667899bd7", null ],
     [ "makeInsideMeshVolumeVdb", "group__GeneralGroup.html#ga23afae32b25cdee2c3bf2b6056f688e1", null ],
     [ "makeInterHoleBridgeEdges", "group__FillHoleGroup.html#gaedeea912acd0e1829ff8da9d845c8f69", null ],
     [ "makeInterHoleBridgeEdges", "group__FillHoleGroup.html#gaa7b4656b5eb409139fbb67985106e06b", null ],
@@ -3298,6 +3303,7 @@ var namespaceMR =
     [ "rayMeshIntersect", "group__AABBTreeGroup.html#gac496cb12e8c787a2c31ed1a53cd7c6a5", null ],
     [ "rayMeshIntersect", "group__AABBTreeGroup.html#ga5d17b235f3f132749a8d474be90b43b5", null ],
     [ "rayMeshIntersectAll", "group__AABBTreeGroup.html#ga0748a541fe122677a587562720e71f2e", null ],
+    [ "rayMeshIntersectAll", "group__AABBTreeGroup.html#ga92153083b04ab55fc9b8c21d293bb79a", null ],
     [ "rayMeshIntersectAll", "group__AABBTreeGroup.html#ga04cf3416b5e94ef81eefafbad1a4a814", null ],
     [ "rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#gaeacd596a535ae8aa6fe31809d838622e", null ],
     [ "rayMultiMeshAnyIntersect", "group__AABBTreeGroup.html#gae5f7b660ced5a6518f007aa99a455bc7", null ],

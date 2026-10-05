@@ -13695,6 +13695,35 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRVoxels/MRMarchingCubes.h" line="53" column="5" bodyfile="MRVoxels/MRMarchingCubes.h" bodystart="54" bodyend="62"/>
       </memberdef>
+      <memberdef kind="enum" id="group__GeneralGroup_1ga7da18eadf0576c3cb0a3c42de2f106db" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InsideMeshRule</name>
+        <qualifiedname>MR::InsideMeshRule</qualifiedname>
+        <enumvalue id="group__GeneralGroup_1gga7da18eadf0576c3cb0a3c42de2f106dba4e54356eb1e29dcab78f68189add6f1e" prot="public">
+          <name>OddCrossings</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>the surface is crossed an odd number of times on the way from the voxel to infinity, triangle orientation is ignored: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga7da18eadf0576c3cb0a3c42de2f106dbab5838c321dc8939d8443a5a8c783360a" prot="public">
+          <name>PositiveWinding</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>the winding number of the surface around the voxel is positive (for a mesh with outward normals): overlapping parts of a self-intersecting surface are united, a cavity stays empty if its triangles look inside it </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>how makeInsideMeshVolume decides whether a voxel is inside </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="46" column="1" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="47" bodyend="55"/>
+      </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga0b40e31d1a019aab3cc599a4440216cf" prot="public" static="no" strong="yes">
         <type></type>
         <name>ShadingType</name>
@@ -68775,7 +68804,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="66" column="26" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="66" bodyend="-1"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="77" column="26" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae40d1d140cfa8187507172fe40598193" prot="public" static="no" mutable="no">
         <type>DistanceToMeshOptions</type>
@@ -68789,7 +68818,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="67" column="27" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="67" bodyend="-1"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="78" column="27" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabe274cb37fde7b021b46a400ec6ce767" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; IPointsToMeshProjector &gt;</type>
@@ -68804,7 +68833,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="68" column="21" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="68" bodyend="-1"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="79" column="21" bodyfile="MRVoxels/MRMeshToDistanceVolume.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa2018932b0f46e90f13ac5b75b7eaed9" prot="public" static="no" mutable="no">
         <type>FilterType</type>
@@ -201005,10 +201034,10 @@ actually all zeros </para>
         </inbodydescription>
         <location file="MRVoxels/MRMeshToDistanceVolume.h" line="43" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="43" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3485331fc97fee1f0ef217d1bbcd91b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gad2a0f095b14cd7fd73b9ab7667899bd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; SimpleBinaryVolume &gt;</type>
         <definition>Expected&lt; SimpleBinaryVolume &gt; MR::makeInsideMeshVolume</definition>
-        <argsstring>(const MeshPart &amp;mp, const DistanceVolumeParams &amp;params)</argsstring>
+        <argsstring>(const MeshPart &amp;mp, const DistanceVolumeParams &amp;params, InsideMeshRule rule=InsideMeshRule::OddCrossings)</argsstring>
         <name>makeInsideMeshVolume</name>
         <qualifiedname>MR::makeInsideMeshVolume</qualifiedname>
         <param>
@@ -201019,14 +201048,19 @@ actually all zeros </para>
           <type>const DistanceVolumeParams &amp;</type>
           <declname>params</declname>
         </param>
+        <param>
+          <type>InsideMeshRule</type>
+          <declname>rule</declname>
+          <defval>InsideMeshRule::OddCrossings</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it casts one ray per row of voxels and counts the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero; a voxel is inside if the surface is crossed an odd number of times on the way from it to infinity, ignoring triangle orientation: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other </para>
+<para>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh according to given rule, and 0 otherwise; it casts one ray per row of voxels and finds the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="50" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="50" declcolumn="11"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="60" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="60" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga23afae32b25cdee2c3bf2b6056f688e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; SimpleBinaryVolume &gt;</type>
@@ -201049,7 +201083,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="57" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="57" declcolumn="11"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="68" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="68" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf99b4c073dc700a6e84295c59f0cbdef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; SimpleVolumeMinMax &gt;</type>
@@ -201080,7 +201114,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="61" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="61" declcolumn="11"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="72" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="72" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt;</type>
@@ -201108,7 +201142,7 @@ actually all zeros </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="74" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="74" declcolumn="11"/>
+        <location file="MRVoxels/MRMeshToDistanceVolume.h" line="85" column="11" declfile="MRVoxels/MRMeshToDistanceVolume.h" declline="85" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadedf1f1574fe5ce4838b7a443b3e3902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

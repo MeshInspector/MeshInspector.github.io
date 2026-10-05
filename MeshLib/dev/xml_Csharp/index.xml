@@ -51615,6 +51615,9 @@
     <member refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4a945d5e233cf7d6240f6b783b36a374ff" kind="enumvalue"><name>Left</name></member>
     <member refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4a4f1f6016fc9f3f2353c0cc7c67b292bd" kind="enumvalue"><name>Center</name></member>
     <member refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4a92b09c7c48c520c3c55e497875da437c" kind="enumvalue"><name>Right</name></member>
+    <member refid="classMR_1aaab5125bed355f42a81950b40e8dd142" kind="enum"><name>InsideMeshRule</name></member>
+    <member refid="classMR_1aaab5125bed355f42a81950b40e8dd142a4e54356eb1e29dcab78f68189add6f1e" kind="enumvalue"><name>OddCrossings</name></member>
+    <member refid="classMR_1aaab5125bed355f42a81950b40e8dd142ab5838c321dc8939d8443a5a8c783360a" kind="enumvalue"><name>PositiveWinding</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kind="enum"><name>ScalarType</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a" kind="enumvalue"><name>UInt8</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539" kind="enumvalue"><name>Int8</name></member>
@@ -52281,6 +52284,7 @@
     <member refid="classMR_1a9e83648b959d268705221830d80faf43" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
     <member refid="classMR_1abe5fc4b3796e1ff1d7320e36491ff5dc" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="classMR_1aaf99ab9928de9f23d017043195436c9a" kind="function"><name>rayMeshIntersectAll</name></member>
+    <member refid="classMR_1a48e483c3a05120d78d7949a0ca95604c" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="classMR_1a4c71a4aaf9dee724ba0b0115706c9420" kind="function"><name>planeMeshIntersect</name></member>
     <member refid="classMR_1a17b0c4cf6bc9f815d3b23492a8f8760b" kind="function"><name>xyPlaneMeshIntersect</name></member>
     <member refid="classMR_1afd2ec4a77da567bcbb913ed3c4e232b4" kind="function"><name>loadMrmesh</name></member>
@@ -53405,7 +53409,7 @@
     <member refid="classMR_1ac921156eca77b3ffb3b8d9f88e247596" kind="function"><name>meshToDistanceVolume</name></member>
     <member refid="classMR_1a87269e7358207c0c0dd3c0803c8e3cf6" kind="function"><name>meshToDistanceFunctionVolume</name></member>
     <member refid="classMR_1a3fc8242ea5040c6b7f9f3d478c3b7332" kind="function"><name>makeCloseToMeshVolume</name></member>
-    <member refid="classMR_1a9f3408502e52e4dc74e224e5407427a3" kind="function"><name>makeInsideMeshVolume</name></member>
+    <member refid="classMR_1a3c33bca47f55cefbd720928ed0cb1242" kind="function"><name>makeInsideMeshVolume</name></member>
     <member refid="classMR_1a7633af3a7e3b5f90ae1c564b6802d5cf" kind="function"><name>makeInsideMeshVolumeVdb</name></member>
     <member refid="classMR_1a45fe869275cd0aad1052b853ac65ea10" kind="function"><name>meshRegionToIndicatorVolume</name></member>
     <member refid="classMR_1a643e3be78f578a2f6adacd0d29612444" kind="function"><name>meshToDirectionVolume</name></member>
@@ -54108,8 +54112,9 @@
     <member refid="classMR_1ac28b32b994aa50050c40e34bb7fb2ea7" kind="function"><name>__MR_isVertexRepeatedOnHoleBd</name></member>
     <member refid="classMR_1a38681ef909e9947e8c5694458111d89a" kind="function"><name>__MR_multiRayMeshIntersect</name></member>
     <member refid="classMR_1ae62f73d8ef4e96102b865956b1841f7e" kind="function"><name>__MR_planeMeshIntersect</name></member>
-    <member refid="classMR_1ade4c207087f5672f233989c06d79cfc4" kind="function"><name>__MR_rayMeshIntersectAll_MR_Line3d</name></member>
-    <member refid="classMR_1a9e2c6ca2c833d0588b62f6fc3b4d1c78" kind="function"><name>__MR_rayMeshIntersectAll_MR_Line3f</name></member>
+    <member refid="classMR_1a3fe1a19a39e29a99bac3e68ab9ae05ab" kind="function"><name>__MR_rayMeshIntersectAll_const_MR_Line3d_ref_std_function_bool_func_from_const_MR_MeshIntersectionResult_ref</name></member>
+    <member refid="classMR_1ae63b82b7169320ed59b653180084f074" kind="function"><name>__MR_rayMeshIntersectAll_const_MR_Line3d_ref_std_function_bool_func_from_const_MR_MeshIntersectionResult_ref_bool</name></member>
+    <member refid="classMR_1ace519a95dded1f7843f22ac0d087618e" kind="function"><name>__MR_rayMeshIntersectAll_const_MR_Line3f_ref</name></member>
     <member refid="classMR_1ab1f683af7dac47c80f7c187d8912657d" kind="function"><name>__MR_rayMeshIntersect_MR_Line3d</name></member>
     <member refid="classMR_1aac154afbd53d0e427f2358054565b958" kind="function"><name>__MR_rayMeshIntersect_MR_Line3f</name></member>
     <member refid="classMR_1a1365ac6789bdf3a41d07c0687b71f973" kind="function"><name>__MR_rayMultiMeshAnyIntersect_std_vector_MR_Line3Mesh_double</name></member>
@@ -55235,7 +55240,7 @@
     <member refid="classMR_1a1e08eaea44cb4afe7c9b23c3ad60ed73" kind="function"><name>__MR_marchingCubes_MR_SimpleVolumeMinMax</name></member>
     <member refid="classMR_1aacbef7f5d763c51e632738e8269eaba1" kind="function"><name>__MR_marchingCubes_MR_VdbVolume</name></member>
     <member refid="classMR_1abf8245fd4b2ef12b034ddefa3f3903a2" kind="function"><name>__MR_makeCloseToMeshVolume</name></member>
-    <member refid="classMR_1a474b668b7d12aa8f75e6d07c15f325f0" kind="function"><name>__MR_makeInsideMeshVolume</name></member>
+    <member refid="classMR_1a2dd2704b75ff490b2033a3b9f49abb7a" kind="function"><name>__MR_makeInsideMeshVolume</name></member>
     <member refid="classMR_1ac61b93ab8004d77c67af5320875a05c1" kind="function"><name>__MR_makeInsideMeshVolumeVdb</name></member>
     <member refid="classMR_1a5f1a76675935bfb9a4e86bef7fae3a72" kind="function"><name>__MR_meshRegionToIndicatorVolume</name></member>
     <member refid="classMR_1a463adcd632420501dfc121b1acc662a0" kind="function"><name>__MR_meshToDirectionVolume</name></member>

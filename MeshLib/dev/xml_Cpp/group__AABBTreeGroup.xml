@@ -322,6 +322,21 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshIntersect.h" line="105" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="105" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__AABBTreeGroup_1ga9aa9e0fd7fa1a5029ec19df149069464" prot="public" static="no">
+        <type>std::function&lt; bool(const MeshIntersectionResult &amp;, bool fromFront)&gt;</type>
+        <definition>using MR::MeshIntersectionWithSideCallback =  std::function&lt;bool( const MeshIntersectionResult &amp;, bool fromFront )&gt;</definition>
+        <argsstring></argsstring>
+        <name>MeshIntersectionWithSideCallback</name>
+        <qualifiedname>MR::MeshIntersectionWithSideCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this callback is envoked for each encountered ray-mesh intersection, fromFront is true if the ray crosses the triangle from its front side (where the triangle&apos;s normal points) to its back, i.e. enters a closed mesh with outward normals; if it returns false, then the search immediately terminates </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshIntersect.h" line="118" column="1" bodyfile="MRMesh/MRMeshIntersect.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" prot="public" static="no">
         <type>std::function&lt; Processing(FaceId found, Ball3f &amp;ball)&gt;</type>
         <definition>using MR::FoundBoxedTriCallback =  std::function&lt;Processing( FaceId found, Ball3f &amp; ball )&gt;</definition>
@@ -1873,6 +1888,48 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshIntersect.h" line="111" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="111" declcolumn="7"/>
       </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga92153083b04ab55fc9b8c21d293bb79a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::rayMeshIntersectAll</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const Line3d &amp;line, MeshIntersectionWithSideCallback callback, double rayStart=0.0, double rayEnd=DBL_MAX, const IntersectionPrecomputes&lt; double &gt; *prec=nullptr)</argsstring>
+        <name>rayMeshIntersectAll</name>
+        <qualifiedname>MR::rayMeshIntersectAll</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const Line3d &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>MeshIntersectionWithSideCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayStart</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rayEnd</declname>
+          <defval>DBL_MAX</defval>
+        </param>
+        <param>
+          <type>const IntersectionPrecomputes&lt; double &gt; *</type>
+          <declname>prec</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Same as <ref refid="group__AABBTreeGroup_1rayMeshIntersectAllF" kindref="member">rayMeshIntersectAllF</ref> in double precision, also reporting the side from which the ray crosses each triangle; both the intersections and the sides are decided by precise predicates, so for a closed mesh every infinite ray has the same number of crossings from front and from back </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshIntersect.h" line="122" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="122" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga832764c6cc9e48dbef001e22786ddc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::planeMeshIntersect</definition>
@@ -1944,7 +2001,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshIntersect.h" line="119" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="119" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="130" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="130" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -2017,7 +2074,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshIntersect.h" line="128" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="128" declcolumn="7"/>
+        <location file="MRMesh/MRMeshIntersect.h" line="139" column="7" declfile="MRMesh/MRMeshIntersect.h" declline="139" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshMeshDistanceResult</type>

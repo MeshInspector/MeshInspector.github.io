@@ -132,6 +132,7 @@ $(function(){initNavTree('MRMeshToDistanceVolume_8h.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshToDistanceVolume.h File Reference</div></div>
 </div><!--header-->
@@ -146,7 +147,16 @@ $(function(){initNavTree('MRMeshToDistanceVolume_8h.html','',''); });
 Typedefs</h2></td></tr>
 <tr class="memitem:acd6f0d50c4d5eb9d0b199deab0deced3" id="r_acd6f0d50c4d5eb9d0b199deab0deced3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acd6f0d50c4d5eb9d0b199deab0deced3">MR_MeshToDistanceVolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6f0d50c4d5eb9d0b199deab0deced3">MR_MeshToDistanceVolumeParams</a></td></tr>
 <tr class="memitem:a33ccc9213632115baaa3eadf663f2fa1" id="r_a33ccc9213632115baaa3eadf663f2fa1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a></td></tr>
+<tr class="memitem:ad827f429df17a4f837d1067698cea584" id="r_ad827f429df17a4f837d1067698cea584"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad827f429df17a4f837d1067698cea584">MR_InsideMeshRule</a></td></tr>
+<tr class="memdesc:ad827f429df17a4f837d1067698cea584"><td class="mdescLeft">&#160;</td><td class="mdescRight">how makeInsideMeshVolume decides whether a voxel is inside  <br /></td></tr>
 <tr class="memitem:a557b4fed95ba8da17c9968cf525cf725" id="r_a557b4fed95ba8da17c9968cf525cf725"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a557b4fed95ba8da17c9968cf525cf725">MR_MeshToDirectionVolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557b4fed95ba8da17c9968cf525cf725">MR_MeshToDirectionVolumeParams</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad4b5e860474dca91114c857f140f8e94" id="r_ad4b5e860474dca91114c857f140f8e94"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a> { <a class="el" href="#ad4b5e860474dca91114c857f140f8e94ae5f769edd5c382de2b3402de71795281">MR_InsideMeshRule_OddCrossings</a> = 0
+, <a class="el" href="#ad4b5e860474dca91114c857f140f8e94a9535bfd00102508eb554f98ac189b64b">MR_InsideMeshRule_PositiveWinding</a> = 1
+ }</td></tr>
+<tr class="memdesc:ad4b5e860474dca91114c857f140f8e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">how makeInsideMeshVolume decides whether a voxel is inside  <a href="#ad4b5e860474dca91114c857f140f8e94">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -193,7 +203,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a660f5d26c16b1bede6b98cfe444c409f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ac992bea9026474db2953b1fce91a00c1" id="r_ac992bea9026474db2953b1fce91a00c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac992bea9026474db2953b1fce91a00c1">MR_CloseToMeshVolumeParams_AssignFromAnother</a> (<a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a> *_other)</td></tr>
 <tr class="memitem:ab8474bb8d34959241004fdfaccb44b78" id="r_ab8474bb8d34959241004fdfaccb44b78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__SimpleBinaryVolume__std__string_8h.html#a05f6b2f8f77734bcc45fd8c370fddce2">MR_expected_MR_SimpleBinaryVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8474bb8d34959241004fdfaccb44b78">MR_makeCloseToMeshVolume</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="#a33ccc9213632115baaa3eadf663f2fa1">MR_CloseToMeshVolumeParams</a> *params)</td></tr>
-<tr class="memitem:a230b5f44fea0965bd51e2cc8a3519e69" id="r_a230b5f44fea0965bd51e2cc8a3519e69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__SimpleBinaryVolume__std__string_8h.html#a05f6b2f8f77734bcc45fd8c370fddce2">MR_expected_MR_SimpleBinaryVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a230b5f44fea0965bd51e2cc8a3519e69">MR_makeInsideMeshVolume</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *params)</td></tr>
+<tr class="memitem:ab327404e10bedbd9bf91f9a1cdb70a30" id="r_ab327404e10bedbd9bf91f9a1cdb70a30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__SimpleBinaryVolume__std__string_8h.html#a05f6b2f8f77734bcc45fd8c370fddce2">MR_expected_MR_SimpleBinaryVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab327404e10bedbd9bf91f9a1cdb70a30">MR_makeInsideMeshVolume</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *params, const <a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a> *rule)</td></tr>
 <tr class="memitem:aef1d2fb05dd64d7fa475de9fd6de776a" id="r_aef1d2fb05dd64d7fa475de9fd6de776a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__SimpleBinaryVolume__std__string_8h.html#a05f6b2f8f77734bcc45fd8c370fddce2">MR_expected_MR_SimpleBinaryVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef1d2fb05dd64d7fa475de9fd6de776a">MR_makeInsideMeshVolumeVdb</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *params)</td></tr>
 <tr class="memitem:addd92e9dd41842f48503abb3024c6ae7" id="r_addd92e9dd41842f48503abb3024c6ae7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__SimpleVolumeMinMax__std__string_8h.html#aa92b66a9548e8504eac52319ee60536a">MR_expected_MR_SimpleVolumeMinMax_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addd92e9dd41842f48503abb3024c6ae7">MR_meshRegionToIndicatorVolume</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, float offset, const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *params)</td></tr>
 <tr class="memitem:ac27b703ae4fd30e931e59615d73974a5" id="r_ac27b703ae4fd30e931e59615d73974a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac27b703ae4fd30e931e59615d73974a5">MR_MeshToDirectionVolumeParams_Get_vol</a> (const <a class="el" href="#a557b4fed95ba8da17c9968cf525cf725">MR_MeshToDirectionVolumeParams</a> *_this)</td></tr>
@@ -234,6 +244,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad827f429df17a4f837d1067698cea584" name="ad827f429df17a4f837d1067698cea584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad827f429df17a4f837d1067698cea584">&#9670;&#160;</a></span>MR_InsideMeshRule</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a> <a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how makeInsideMeshVolume decides whether a voxel is inside </p>
+
+</div>
+</div>
 <a id="a557b4fed95ba8da17c9968cf525cf725" name="a557b4fed95ba8da17c9968cf525cf725"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a557b4fed95ba8da17c9968cf525cf725">&#9670;&#160;</a></span>MR_MeshToDirectionVolumeParams</h2>
 
@@ -261,6 +287,29 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from class <span class="tt">MR::MeshToDistanceVolumeParams</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad4b5e860474dca91114c857f140f8e94" name="ad4b5e860474dca91114c857f140f8e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b5e860474dca91114c857f140f8e94">&#9670;&#160;</a></span>MR_InsideMeshRule</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how makeInsideMeshVolume decides whether a voxel is inside </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad4b5e860474dca91114c857f140f8e94ae5f769edd5c382de2b3402de71795281" name="ad4b5e860474dca91114c857f140f8e94ae5f769edd5c382de2b3402de71795281"></a>MR_InsideMeshRule_OddCrossings&#160;</td><td class="fielddoc"><p>the surface is crossed an odd number of times on the way from the voxel to infinity, triangle orientation is ignored: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad4b5e860474dca91114c857f140f8e94a9535bfd00102508eb554f98ac189b64b" name="ad4b5e860474dca91114c857f140f8e94a9535bfd00102508eb554f98ac189b64b"></a>MR_InsideMeshRule_PositiveWinding&#160;</td><td class="fielddoc"><p>the winding number of the surface around the voxel is positive (for a mesh with outward normals): overlapping parts of a self-intersecting surface are united, a cavity stays empty if its triangles look inside it </p>
+</td></tr>
+</table>
 
 </div>
 </div>
@@ -665,8 +714,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a230b5f44fea0965bd51e2cc8a3519e69" name="a230b5f44fea0965bd51e2cc8a3519e69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a230b5f44fea0965bd51e2cc8a3519e69">&#9670;&#160;</a></span>MR_makeInsideMeshVolume()</h2>
+<a id="ab327404e10bedbd9bf91f9a1cdb70a30" name="ab327404e10bedbd9bf91f9a1cdb70a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab327404e10bedbd9bf91f9a1cdb70a30">&#9670;&#160;</a></span>MR_makeInsideMeshVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,11 +728,16 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRDistanceVolumeParams_8h.html#af9c1f01ab3534b48d6b02a0b6c78143e">MR_DistanceVolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad4b5e860474dca91114c857f140f8e94">MR_InsideMeshRule</a> *</td>          <td class="paramname"><span class="paramname"><em>rule</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh, and 0 otherwise; it casts one ray per row of voxels and counts the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero; a voxel is inside if the surface is crossed an odd number of times on the way from it to infinity, ignoring triangle orientation: enclosed cavities stay empty, nested layers alternate inside and outside, and overlapping parts of a self-intersecting surface cancel each other Generated from function <span class="tt">MR::makeInsideMeshVolume</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__SimpleBinaryVolume__std__string_8h.html#a33c05acb827bb566f3ad01eb1d71b30c" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleBinaryVolume_std_string....">MR_expected_MR_SimpleBinaryVolume_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+<p>makes a binary volume, where a voxel gets 1 if its center is inside closed mesh according to given rule, and 0 otherwise; it casts one ray per row of voxels and finds the intersections with precise predicates, so no distances are computed, unlike in meshToDistanceVolume followed by thresholding at zero Generated from function <span class="tt">MR::makeInsideMeshVolume</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">rule</span> has a default argument: <span class="tt">MR::InsideMeshRule::OddCrossings</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__SimpleBinaryVolume__std__string_8h.html#a33c05acb827bb566f3ad01eb1d71b30c" title="Destroys a heap-allocated instance of MR_expected_MR_SimpleBinaryVolume_std_string....">MR_expected_MR_SimpleBinaryVolume_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a637d8699be14cec528498ac81a981265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64529" bodyend="64530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1af85f0acaac6e1352fed2087a96c98610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__call__</definition>
+        <argsstring>(self, MeshIntersectionResult arg0, bool arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64531" bodyend="64532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a5ebed6e6a91f5e9bc4e7a6967a44c2d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64534" bodyend="64535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1ac8bcc8bff8bb100a17e81f060e247b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64537" bodyend="64538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a38a13e358bfbf2be22bf508c7db5db9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</definition>
+        <argsstring>(self, func_bool_from_MeshIntersectionResult_bool arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool" kindref="compound">func_bool_from_MeshIntersectionResult_bool</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64540" bodyend="64541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a0c37ca175ed44335ac7423b8c96ca0fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</definition>
+        <argsstring>(self, typing.Callable[[MeshIntersectionResult, bool], bool] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[MeshIntersectionResult, bool]</array>
+        </param>
+        <param>
+          <type>bool]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64543" bodyend="64544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a8a0262f035581722a0d65138f8adf835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_MeshIntersectionResult_bool.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64545" bodyend="64548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a4524fe6f9428a05a842d95d6f8013185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_MeshIntersectionResult_bool.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_bool_from_MeshIntersectionResult_bool.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64549" bodyend="64552"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="64528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="64528" bodyend="64552"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a637d8699be14cec528498ac81a981265" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1af85f0acaac6e1352fed2087a96c98610" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a5ebed6e6a91f5e9bc4e7a6967a44c2d8" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1ac8bcc8bff8bb100a17e81f060e247b84" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a38a13e358bfbf2be22bf508c7db5db9d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a0c37ca175ed44335ac7423b8c96ca0fd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a8a0262f035581722a0d65138f8adf835" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__MeshIntersectionResult__bool_1a4524fe6f9428a05a842d95d6f8013185" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_MeshIntersectionResult_bool</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

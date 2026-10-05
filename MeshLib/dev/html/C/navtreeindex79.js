@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"MRObjectTagEventDispatcher_8h_source.html":[9,2,2,0,0,0,0,1,242],
+"MRObjectVoxels_8h.html":[9,2,2,0,0,0,0,4,14],
+"MRObjectVoxels_8h.html#a007566e84375f229f2f9fac9f5c1fed1":[9,2,2,0,0,0,0,4,14,81],
+"MRObjectVoxels_8h.html#a01103444eceb484f2eb3e7264558262d":[9,2,2,0,0,0,0,4,14,58],
+"MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387b":[9,2,2,0,0,0,0,4,14,5],
+"MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387ba283d34f1bd50e3b21cfc03398874c5db":[9,2,2,0,0,0,0,4,14,5,2],
 "MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387ba7fee5bff368aa0199d3c28b3af49a1ae":[9,2,2,0,0,0,0,4,14,5,1],
 "MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387baf0d912aa981b6534fcd5090ce833ba6e":[9,2,2,0,0,0,0,4,14,5,0],
 "MRObjectVoxels_8h.html#a0994f6b22808d8cab50fca1966392d3c":[9,2,2,0,0,0,0,4,14,17],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "MRObjectsAccess_8h.html#a9a3bde7539329e99c0ca4a5bc4291d36":[9,2,2,0,0,0,0,1,239,8],
 "MRObjectsAccess_8h.html#a9ac7016b7314e82735cc1b2acee1831b":[9,2,2,0,0,0,0,1,239,35],
 "MRObjectsAccess_8h.html#a9bdb802964df4e5c04597e5753808d50":[9,2,2,0,0,0,0,1,239,17],
-"MRObjectsAccess_8h.html#aa2c2e3f32c4e2936cb652ecaec0fbf19":[9,2,2,0,0,0,0,1,239,48],
-"MRObjectsAccess_8h.html#aa6c3ee8f3522edc59f9d9c7d472d78a8":[9,2,2,0,0,0,0,1,239,30],
-"MRObjectsAccess_8h.html#aa6f50642d417d8b1f62c5b2235a23e89":[9,2,2,0,0,0,0,1,239,21],
-"MRObjectsAccess_8h.html#ab7819bac5cd4e560e242389155838bb2":[9,2,2,0,0,0,0,1,239,20],
-"MRObjectsAccess_8h.html#ab7f3a3c6de0cecead91039a5dfcf9c4a":[9,2,2,0,0,0,0,1,239,55],
-"MRObjectsAccess_8h.html#acaa4b98ca27244813b3e75e87824bc31":[9,2,2,0,0,0,0,1,239,16],
-"MRObjectsAccess_8h.html#acaaf81369281c98bc3c8512ade043137":[9,2,2,0,0,0,0,1,239,27]
+"MRObjectsAccess_8h.html#aa2c2e3f32c4e2936cb652ecaec0fbf19":[9,2,2,0,0,0,0,1,239,48]
 };

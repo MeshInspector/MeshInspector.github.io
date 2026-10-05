@@ -1,5 +1,10 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DistanceMapToWorld.html#ac20206aa1ac29437ea53266ea70723dc":[9,0,0,5,5,10],
+"structMR_1_1DistanceToMeshOptions.html":[9,0,0,20,202],
+"structMR_1_1DistanceVolumeParams.html":[9,0,0,20,856],
+"structMR_1_1DivideMeshWithPlaneParams.html":[9,0,0,20,347],
+"structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,20,447],
 "structMR_1_1DividePolylineParameters.html":[9,0,0,20,464],
 "structMR_1_1DoubleOffsetSettings.html":[9,0,0,20,908],
 "structMR_1_1DragDropListener.html":[9,0,0,20,805],
@@ -244,10 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html":[9,0,1,0,1,15,0,3],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html":[9,0,2,0,2,6,0,3],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,1,0,1,15,0,3,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,2,0,2,6,0,3,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[9,0,1,0,1,15,0,4],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html":[9,0,2,0,2,6,0,4],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[9,0,1,0,1,15,0,4,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4.html#adfc0ecae222770b0db30cfc9c46495ca":[9,0,2,0,2,6,0,4,0],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[9,0,1,0,1,15,0,5]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4.html#a27c3f4fb399c5305651f2dd9386238c3":[9,0,2,0,2,6,0,3,0]
 };

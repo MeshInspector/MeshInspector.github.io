@@ -15093,6 +15093,7 @@
   </compound>
   <compound refid="MRMeshIntersect_8h" kind="file"><name>MRMeshIntersect.h</name>
     <member refid="MRMeshIntersect_8h_1a261c3cfa58d4133fd58d76c4a8843725" kind="typedef"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref</name></member>
+    <member refid="MRMeshIntersect_8h_1ae00d9b46da485b75c34119ea5a933bb7" kind="typedef"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool</name></member>
     <member refid="MRMeshIntersect_8h_1a98dee1c201475a41b1743bce3bd7e4a0" kind="typedef"><name>MR_std_vector_MR_Line3Mesh_double</name></member>
     <member refid="MRMeshIntersect_8h_1a43062d107a8100c388907d87dbfb66c2" kind="typedef"><name>MR_std_vector_MR_Line3Mesh_float</name></member>
     <member refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kind="typedef"><name>MR_std_vector_MR_TriPointf</name></member>
@@ -15222,8 +15223,9 @@
     <member refid="MRMeshIntersect_8h_1ad71ab9d3f7f51ca8a01845d5fed7ed84" kind="function"><name>MR_Line3Mesh_double_AssignFromAnother</name></member>
     <member refid="MRMeshIntersect_8h_1aba186fe1dff6e54e9d1253c11619dd28" kind="function"><name>MR_rayMultiMeshAnyIntersect_std_vector_MR_Line3Mesh_float</name></member>
     <member refid="MRMeshIntersect_8h_1a23da538c0594085b3e700ab4b7ec8057" kind="function"><name>MR_rayMultiMeshAnyIntersect_std_vector_MR_Line3Mesh_double</name></member>
-    <member refid="MRMeshIntersect_8h_1af41b55f933bda4be6004cd5860c02d11" kind="function"><name>MR_rayMeshIntersectAll_MR_Line3f</name></member>
-    <member refid="MRMeshIntersect_8h_1a10eab48dee39699411bcbb39294e9512" kind="function"><name>MR_rayMeshIntersectAll_MR_Line3d</name></member>
+    <member refid="MRMeshIntersect_8h_1a6ac0d0661d7b1797940174b65d816a15" kind="function"><name>MR_rayMeshIntersectAll_const_MR_Line3f_ref</name></member>
+    <member refid="MRMeshIntersect_8h_1a0e44f710472ef5fbee4a192180bc6ed4" kind="function"><name>MR_rayMeshIntersectAll_const_MR_Line3d_ref_std_function_bool_func_from_const_MR_MeshIntersectionResult_ref</name></member>
+    <member refid="MRMeshIntersect_8h_1ad85aca5942bbb0c888b191f5109e4cf1" kind="function"><name>MR_rayMeshIntersectAll_const_MR_Line3d_ref_std_function_bool_func_from_const_MR_MeshIntersectionResult_ref_bool</name></member>
     <member refid="MRMeshIntersect_8h_1ac463de32a5f0dec26011d84294100b39" kind="function"><name>MR_planeMeshIntersect</name></member>
     <member refid="MRMeshIntersect_8h_1ad7752a91f250527b6694c9afef4136aa" kind="function"><name>MR_xyPlaneMeshIntersect</name></member>
   </compound>
@@ -32947,6 +32949,23 @@
     <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h_1ac676f9fa0b104425feeaf205eadca937" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_Assign</name></member>
     <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h_1a17f49151fe2094000ba42b0de5d58e06" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_ConstructEx</name></member>
     <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h_1a0e0e7b45c244df84a61d6e0407853014" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_AssignEx</name></member>
+  </compound>
+  <compound refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h" kind="file"><name>std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool.h</name>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a38afb2d94828fdeaa19bc3c387575855" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_DefaultConstruct</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1afa399411e0949058c2e23297e8ab220b" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_DefaultConstructArray</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a06d022373116a0255124282ced55313d" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_ConstructFromAnother</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1ac26072c0054e95bfd0237f67d96d76d4" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_AssignFromAnother</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1aa6de1f279001a02f4e6c2cb07be37bc3" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_Destroy</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1af661bd61666ba5d5313651cd3bf5c8a5" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_DestroyArray</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a7619d4f693834166baee8c4453b1526c" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_OffsetPtr</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a13566e3da13e7a93e5eb5bbf528a7cf1" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_OffsetMutablePtr</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a415935a680e65529479cd85980c03ed3" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_has_value</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1aadccec95fc744ea198609f4f1c4df470" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_reset</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a06b638b9d227f5b6ad0564006f46d097" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_call</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a06ce8a2fb6ba1f32284cddb8d0557fbd" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_ConstructStateless</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1a54f750521a089bcadaac5f3556b3faf8" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_Assign</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1aeef78771a941cb5aff9e59059fb47829" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_ConstructEx</name></member>
+    <member refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h_1adb56c7c26a7aadd3e13b1793698c9722" kind="function"><name>MR_std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool_AssignEx</name></member>
   </compound>
   <compound refid="std__function__bool__from__const__MR__MeshProjectionResult__ref_8h" kind="file"><name>std_function_bool_from_const_MR_MeshProjectionResult_ref.h</name>
     <member refid="std__function__bool__from__const__MR__MeshProjectionResult__ref_8h_1a1faffd20f0deb74b3e8066e54c6ed086" kind="function"><name>MR_std_function_bool_from_const_MR_MeshProjectionResult_ref_DefaultConstruct</name></member>
@@ -51041,8 +51060,12 @@
     <member refid="MRMarchingCubes_8h_1adaa8ceb6645dda745d9d0e6729fa3095" kind="function"><name>MR_MarchingCubesByParts_finalize</name></member>
   </compound>
   <compound refid="MRMeshToDistanceVolume_8h" kind="file"><name>MRMeshToDistanceVolume.h</name>
+    <member refid="MRMeshToDistanceVolume_8h_1ad4b5e860474dca91114c857f140f8e94" kind="enum"><name>MR_InsideMeshRule</name></member>
+    <member refid="MRMeshToDistanceVolume_8h_1ad4b5e860474dca91114c857f140f8e94ae5f769edd5c382de2b3402de71795281" kind="enumvalue"><name>MR_InsideMeshRule_OddCrossings</name></member>
+    <member refid="MRMeshToDistanceVolume_8h_1ad4b5e860474dca91114c857f140f8e94a9535bfd00102508eb554f98ac189b64b" kind="enumvalue"><name>MR_InsideMeshRule_PositiveWinding</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1acd6f0d50c4d5eb9d0b199deab0deced3" kind="typedef"><name>MR_MeshToDistanceVolumeParams</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1a33ccc9213632115baaa3eadf663f2fa1" kind="typedef"><name>MR_CloseToMeshVolumeParams</name></member>
+    <member refid="MRMeshToDistanceVolume_8h_1ad827f429df17a4f837d1067698cea584" kind="typedef"><name>MR_InsideMeshRule</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1a557b4fed95ba8da17c9968cf525cf725" kind="typedef"><name>MR_MeshToDirectionVolumeParams</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1ac711a3aa45ce552c9bb7fc4326051324" kind="function"><name>MR_MeshToDistanceVolumeParams_Get_vol</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1abc0d318f7038912397e50b69bd7cf81e" kind="function"><name>MR_MeshToDistanceVolumeParams_Set_vol</name></member>
@@ -51083,7 +51106,7 @@
     <member refid="MRMeshToDistanceVolume_8h_1a660f5d26c16b1bede6b98cfe444c409f" kind="function"><name>MR_CloseToMeshVolumeParams_DestroyArray</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1ac992bea9026474db2953b1fce91a00c1" kind="function"><name>MR_CloseToMeshVolumeParams_AssignFromAnother</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1ab8474bb8d34959241004fdfaccb44b78" kind="function"><name>MR_makeCloseToMeshVolume</name></member>
-    <member refid="MRMeshToDistanceVolume_8h_1a230b5f44fea0965bd51e2cc8a3519e69" kind="function"><name>MR_makeInsideMeshVolume</name></member>
+    <member refid="MRMeshToDistanceVolume_8h_1ab327404e10bedbd9bf91f9a1cdb70a30" kind="function"><name>MR_makeInsideMeshVolume</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1aef1d2fb05dd64d7fa475de9fd6de776a" kind="function"><name>MR_makeInsideMeshVolumeVdb</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1addd92e9dd41842f48503abb3024c6ae7" kind="function"><name>MR_meshRegionToIndicatorVolume</name></member>
     <member refid="MRMeshToDistanceVolume_8h_1ac27b703ae4fd30e931e59615d73974a5" kind="function"><name>MR_MeshToDirectionVolumeParams_Get_vol</name></member>

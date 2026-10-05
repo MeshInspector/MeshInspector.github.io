@@ -14393,6 +14393,7 @@
     <member refid="group__GeneralGroup_1gaa6b11352e59ca716da2c9d8bf2371424" kind="enum"><name>DegreesMode</name></member>
     <member refid="group__GeneralGroup_1gaa591847657e546eba90e70acf2185c02" kind="enum"><name>ZeroMode</name></member>
     <member refid="group__GeneralGroup_1ga3b6b94f5ad3595b510d6842ee045d493" kind="enum"><name>SideRegions</name></member>
+    <member refid="group__GeneralGroup_1ga7da18eadf0576c3cb0a3c42de2f106db" kind="enum"><name>InsideMeshRule</name></member>
     <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
     <member refid="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" kind="enum"><name>BypassDirection</name></member>
     <member refid="group__GeneralGroup_1ga88f1fdd848610bc41226918baa28e601" kind="enum"><name>MoveType</name></member>
@@ -14533,6 +14534,7 @@
     <member refid="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" kind="typedef"><name>Line3fMesh</name></member>
     <member refid="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" kind="typedef"><name>Line3dMesh</name></member>
     <member refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kind="typedef"><name>MeshIntersectionCallback</name></member>
+    <member refid="group__AABBTreeGroup_1ga9aa9e0fd7fa1a5029ec19df149069464" kind="typedef"><name>MeshIntersectionWithSideCallback</name></member>
     <member refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kind="typedef"><name>FillTriangleMetric</name></member>
     <member refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kind="typedef"><name>FillEdgeMetric</name></member>
     <member refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" kind="typedef"><name>FillCombineMetric</name></member>
@@ -15379,6 +15381,7 @@
     <member refid="group__AABBTreeGroup_1gaeacd596a535ae8aa6fe31809d838622e" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
     <member refid="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="group__AABBTreeGroup_1ga0748a541fe122677a587562720e71f2e" kind="function"><name>rayMeshIntersectAll</name></member>
+    <member refid="group__AABBTreeGroup_1ga92153083b04ab55fc9b8c21d293bb79a" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="group__AABBTreeGroup_1ga832764c6cc9e48dbef001e22786ddc99" kind="function"><name>planeMeshIntersect</name></member>
     <member refid="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" kind="function"><name>xyPlaneMeshIntersect</name></member>
     <member refid="group__MeshLoadGroup_1gaba05f7f90f05d09381c9cb8f7ebd026f" kind="function"><name>loadMrmesh</name></member>
@@ -16333,7 +16336,7 @@
     <member refid="group__GeneralGroup_1gaed72deb95016a3c136004932e83ae969" kind="function"><name>meshToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1gaf240d29116bdd27249c44e9978b98541" kind="function"><name>meshToDistanceFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1ga03b89c7f5f3a6ea810077d91c14c98b5" kind="function"><name>makeCloseToMeshVolume</name></member>
-    <member refid="group__GeneralGroup_1ga3485331fc97fee1f0ef217d1bbcd91b9" kind="function"><name>makeInsideMeshVolume</name></member>
+    <member refid="group__GeneralGroup_1gad2a0f095b14cd7fd73b9ab7667899bd7" kind="function"><name>makeInsideMeshVolume</name></member>
     <member refid="group__GeneralGroup_1ga23afae32b25cdee2c3bf2b6056f688e1" kind="function"><name>makeInsideMeshVolumeVdb</name></member>
     <member refid="group__GeneralGroup_1gaf99b4c073dc700a6e84295c59f0cbdef" kind="function"><name>meshRegionToIndicatorVolume</name></member>
     <member refid="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" kind="function"><name>meshToDirectionVolume</name></member>
@@ -19159,6 +19162,7 @@
     <member refid="group__AABBTreeGroup_1ga9222ec2d954badb7ee5874321a084eb6" kind="typedef"><name>Line3fMesh</name></member>
     <member refid="group__AABBTreeGroup_1ga8ba650839d7806773bb542b986ac4283" kind="typedef"><name>Line3dMesh</name></member>
     <member refid="group__AABBTreeGroup_1gac20cf6ba073a7db1e2df313fb87d9517" kind="typedef"><name>MeshIntersectionCallback</name></member>
+    <member refid="group__AABBTreeGroup_1ga9aa9e0fd7fa1a5029ec19df149069464" kind="typedef"><name>MeshIntersectionWithSideCallback</name></member>
     <member refid="group__AABBTreeGroup_1ga4349e23b1c03bbeb120c81f3cbb8b615" kind="typedef"><name>FoundBoxedTriCallback</name></member>
     <member refid="group__AABBTreeGroup_1ga3fa10deed3f5f765a28d62f2a9667c0f" kind="typedef"><name>FoundTriCallback</name></member>
     <member refid="group__AABBTreeGroup_1ga80d1c820a9a9983c511c6785b2c8ed94" kind="typedef"><name>PolylineIntersectionCallback2</name></member>
@@ -19204,6 +19208,7 @@
     <member refid="group__AABBTreeGroup_1gaeacd596a535ae8aa6fe31809d838622e" kind="function"><name>rayMultiMeshAnyIntersect</name></member>
     <member refid="group__AABBTreeGroup_1ga04cf3416b5e94ef81eefafbad1a4a814" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="group__AABBTreeGroup_1ga0748a541fe122677a587562720e71f2e" kind="function"><name>rayMeshIntersectAll</name></member>
+    <member refid="group__AABBTreeGroup_1ga92153083b04ab55fc9b8c21d293bb79a" kind="function"><name>rayMeshIntersectAll</name></member>
     <member refid="group__AABBTreeGroup_1ga832764c6cc9e48dbef001e22786ddc99" kind="function"><name>planeMeshIntersect</name></member>
     <member refid="group__AABBTreeGroup_1gaaca7d2972259949e2583eb7ddb97d335" kind="function"><name>xyPlaneMeshIntersect</name></member>
     <member refid="group__AABBTreeGroup_1ga34f61c1aafa08f324c2dee292bf3f326" kind="function"><name>findDistance</name></member>
@@ -21487,6 +21492,9 @@
     <member refid="group__GeneralGroup_1ggad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d" kind="enumvalue"><name>Automatic</name></member>
     <member refid="group__GeneralGroup_1ggad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
     <member refid="group__GeneralGroup_1ggad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0" kind="enumvalue"><name>Normal</name></member>
+    <member refid="group__GeneralGroup_1ga7da18eadf0576c3cb0a3c42de2f106db" kind="enum"><name>InsideMeshRule</name></member>
+    <member refid="group__GeneralGroup_1gga7da18eadf0576c3cb0a3c42de2f106dba4e54356eb1e29dcab78f68189add6f1e" kind="enumvalue"><name>OddCrossings</name></member>
+    <member refid="group__GeneralGroup_1gga7da18eadf0576c3cb0a3c42de2f106dbab5838c321dc8939d8443a5a8c783360a" kind="enumvalue"><name>PositiveWinding</name></member>
     <member refid="group__GeneralGroup_1ga0b40e31d1a019aab3cc599a4440216cf" kind="enum"><name>ShadingType</name></member>
     <member refid="group__GeneralGroup_1gga0b40e31d1a019aab3cc599a4440216cfa6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
     <member refid="group__GeneralGroup_1gga0b40e31d1a019aab3cc599a4440216cfa95d1531d160fa0a7112f86c30a174300" kind="enumvalue"><name>ValueGradient</name></member>
@@ -31697,7 +31705,7 @@
     <member refid="group__GeneralGroup_1gaed72deb95016a3c136004932e83ae969" kind="function"><name>meshToDistanceVolume</name></member>
     <member refid="group__GeneralGroup_1gaf240d29116bdd27249c44e9978b98541" kind="function"><name>meshToDistanceFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1ga03b89c7f5f3a6ea810077d91c14c98b5" kind="function"><name>makeCloseToMeshVolume</name></member>
-    <member refid="group__GeneralGroup_1ga3485331fc97fee1f0ef217d1bbcd91b9" kind="function"><name>makeInsideMeshVolume</name></member>
+    <member refid="group__GeneralGroup_1gad2a0f095b14cd7fd73b9ab7667899bd7" kind="function"><name>makeInsideMeshVolume</name></member>
     <member refid="group__GeneralGroup_1ga23afae32b25cdee2c3bf2b6056f688e1" kind="function"><name>makeInsideMeshVolumeVdb</name></member>
     <member refid="group__GeneralGroup_1gaf99b4c073dc700a6e84295c59f0cbdef" kind="function"><name>meshRegionToIndicatorVolume</name></member>
     <member refid="group__GeneralGroup_1ga0752e5390277bae84ef50d8e1f0a5db9" kind="function"><name>meshToDirectionVolume</name></member>

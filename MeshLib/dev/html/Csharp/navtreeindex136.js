@@ -1,5 +1,9 @@
 var NAVTREEINDEX136 =
 {
+"classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a83a3f8f0abc17003ecd7334cc917a575":[9,3,0,0,0,1715,27],
+"classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a8dbe789b7c1182d6c5aea0cdbbba16e7":[9,3,0,0,0,1715,23],
+"classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a8f14d3ca32aa8ef10bf0d794202aa4fa":[9,3,0,0,0,1715,26],
+"classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a8f5cf7d2c5947493bac1bb998a4255f2":[9,3,0,0,0,1715,33],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a90cbb2ae736b0b6c4ed4a699747b4bea":[9,3,0,0,0,1715,29],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a986f12c01585ca16d0d03c4eee81aae9":[9,3,0,0,0,1715,18],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#aaeb18a672773d4f3d341ecbd1c5d995d":[9,3,0,0,0,1715,35],
@@ -245,9 +249,5 @@ var NAVTREEINDEX136 =
 "classMR_1_1UniformSamplingSettings.html#a494a476a45c72142b38920f499c41edb":[9,3,0,0,0,1729,5],
 "classMR_1_1UniformSamplingSettings.html#a5c1e6f8646dc6d75c051fe27fb0cea69":[9,3,0,0,0,1729,8],
 "classMR_1_1UniformSamplingSettings.html#a82a25e7af5b92c41b0ca6eb708eb6662":[9,3,0,0,0,1729,6],
-"classMR_1_1UniformSamplingSettings.html#aa0c0eda46a317c18cb9ab86933962358":[9,3,0,0,0,1729,4],
-"classMR_1_1UniformSamplingSettings.html#aa68380082bc7ff41e43932b27b7a0186":[9,3,0,0,0,1729,9],
-"classMR_1_1UniformSamplingSettings.html#ad42a137be78f767cdf663bbf2a85554c":[9,3,0,0,0,1729,3],
-"classMR_1_1UniformSamplingSettings.html#adcacd788d4fe7af894e7c98019451289":[9,3,0,0,0,1729,1],
-"classMR_1_1UnionFind__MRUndirectedEdgeId.html":[9,3,0,0,0,1730]
+"classMR_1_1UniformSamplingSettings.html#aa0c0eda46a317c18cb9ab86933962358":[9,3,0,0,0,1729,4]
 };

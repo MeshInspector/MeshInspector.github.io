@@ -265,33 +265,6 @@ SaveSettings::onlyValidPoints = false is ignored
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1827" bodyend="1828"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a63761b5b2b28178b40bb49919a97da9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshSave.toCtm</definition>
-        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>mrmeshpy.MeshSave.toCtm</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1831" bodyend="1832"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a45d56125648ca4c2d5efd6cf019a9962" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshSave.toCtm</definition>
@@ -318,7 +291,60 @@ SaveSettings::onlyValidPoints = false is ignored
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1835" bodyend="1838"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1831" bodyend="1834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a63761b5b2b28178b40bb49919a97da9b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.toCtm</definition>
+        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>mrmeshpy.MeshSave.toCtm</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1837" bodyend="1838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1af0df600484370e9d78b7d8fb1383f43f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.toCtm</definition>
+        <argsstring>(Mesh mesh, typing.Any out, MeshSave.CtmSaveOptions options)</argsstring>
+        <name>toCtm</name>
+        <qualifiedname>mrmeshpy.MeshSave.toCtm</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1841" bodyend="1842"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1acd5d2ad479c9b03a03c2f2553c81cb66" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -338,32 +364,6 @@ SaveSettings::onlyValidPoints = false is ignored
           <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
           <declname>settings</declname>
           <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1841" bodyend="1842"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1af0df600484370e9d78b7d8fb1383f43f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshSave.toCtm</definition>
-        <argsstring>(Mesh mesh, typing.Any out, MeshSave.CtmSaveOptions options)</argsstring>
-        <name>toCtm</name>
-        <qualifiedname>mrmeshpy.MeshSave.toCtm</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>typing.Any</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
-          <declname>options</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -659,35 +659,6 @@ SaveSettings::onlyValidPoints = true is ignored
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1895" bodyend="1896"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a0bcda7b1a063a9e2f31f0df860000e55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.MeshSave.toPly</definition>
-        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
-        <name>toPly</name>
-        <qualifiedname>mrmeshpy.MeshSave.toPly</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>saves in .ply file
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1899" bodyend="1902"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1aac3ba1c09e0a1694ae1eaf6f6c39bb6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshSave.toPly</definition>
@@ -716,16 +687,45 @@ independently of SaveSettings::onlyValidPoints and SaveSettings::packPrimitives
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1905" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1905" bodyend="1909"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1899" bodyend="1903"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a141ea68daf597e4692cd26ad61f3ee7b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a0bcda7b1a063a9e2f31f0df860000e55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshSave.toPly</definition>
-        <argsstring>(TriMesh mesh, typing.Any out, SaveSettings settings=...)</argsstring>
+        <argsstring>(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
         <name>toPly</name>
         <qualifiedname>mrmeshpy.MeshSave.toPly</qualifiedname>
         <param>
-          <type><ref refid="classmrmeshpy_1_1TriMesh" kindref="compound">TriMesh</ref></type>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .ply file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1906" bodyend="1909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1ae88dd33959924127edd12a9fdecc03b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.toPly</definition>
+        <argsstring>(Mesh mesh, typing.Any out, SaveSettings settings=...)</argsstring>
+        <name>toPly</name>
+        <qualifiedname>mrmeshpy.MeshSave.toPly</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -745,14 +745,14 @@ independently of SaveSettings::onlyValidPoints and SaveSettings::packPrimitives
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1912" bodyend="1913"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1ae88dd33959924127edd12a9fdecc03b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1a141ea68daf597e4692cd26ad61f3ee7b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshSave.toPly</definition>
-        <argsstring>(Mesh mesh, typing.Any out, SaveSettings settings=...)</argsstring>
+        <argsstring>(TriMesh mesh, typing.Any out, SaveSettings settings=...)</argsstring>
         <name>toPly</name>
         <qualifiedname>mrmeshpy.MeshSave.toPly</qualifiedname>
         <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <type><ref refid="classmrmeshpy_1_1TriMesh" kindref="compound">TriMesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -790,10 +790,10 @@ independently of SaveSettings::onlyValidPoints and SaveSettings::packPrimitives
       <member refid="classmrmeshpy_1_1MeshSave_1a02886ed0117742f6135a5c2d7589f230" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toAsciiStl</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a9de67da96babb5adec0409f84e93ea03" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toBinaryStl</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a9a20a3e6ae5c7ccb9fae0cee16e8888c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toBinaryStl</name></member>
-      <member refid="classmrmeshpy_1_1MeshSave_1a63761b5b2b28178b40bb49919a97da9b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a45d56125648ca4c2d5efd6cf019a9962" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
-      <member refid="classmrmeshpy_1_1MeshSave_1acd5d2ad479c9b03a03c2f2553c81cb66" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1a63761b5b2b28178b40bb49919a97da9b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1af0df600484370e9d78b7d8fb1383f43f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1acd5d2ad479c9b03a03c2f2553c81cb66" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1ab0d43742784f3b4419db1c696fdca3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toModel3mf</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a95d064674823c0086bea423fddcbd7bc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toModel3mf</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a3a8440786f42901cbe28395ff427646b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toMrmesh</name></member>
@@ -804,10 +804,10 @@ independently of SaveSettings::onlyValidPoints and SaveSettings::packPrimitives
       <member refid="classmrmeshpy_1_1MeshSave_1a1fc51116975dc71269657a2362ecf515" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toObj</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1a6bceba8a058a3224c532907cc96c4cec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toOff</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1ac775541939cafbe4d0f5482179b8fa75" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toOff</name></member>
-      <member refid="classmrmeshpy_1_1MeshSave_1a0bcda7b1a063a9e2f31f0df860000e55" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toPly</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1aac3ba1c09e0a1694ae1eaf6f6c39bb6b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toPly</name></member>
-      <member refid="classmrmeshpy_1_1MeshSave_1a141ea68daf597e4692cd26ad61f3ee7b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toPly</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1a0bcda7b1a063a9e2f31f0df860000e55" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toPly</name></member>
       <member refid="classmrmeshpy_1_1MeshSave_1ae88dd33959924127edd12a9fdecc03b4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toPly</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1a141ea68daf597e4692cd26ad61f3ee7b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave</scope><name>toPly</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
