@@ -2272,7 +2272,6 @@ var classMR =
       [ "Unsigned", "classMR.html#a616095899064d3af43a1861f0ae70fedaa1a914735b205424ba6c40b85528d78a", null ],
       [ "OpenVDB", "classMR.html#a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9", null ],
       [ "ProjectionNormal", "classMR.html#a616095899064d3af43a1861f0ae70feda17670c4544b47c1acf63b776209440a9", null ],
-      [ "OddCrossings", "classMR.html#a616095899064d3af43a1861f0ae70feda4e54356eb1e29dcab78f68189add6f1e", null ],
       [ "WindingRule", "classMR.html#a616095899064d3af43a1861f0ae70feda103a84d91e18de34821243d0495258ed", null ],
       [ "HoleWindingRule", "classMR.html#a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4", null ]
     ] ],

@@ -6,7 +6,7 @@ var searchData=
   ['visibility_3',['Visibility',['../classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a1729a56cfc89021478498fe0c89a843a',1,'MR']]],
   ['volumerendering_4',['VolumeRendering',['../classMR.html#a2cfe11534ca643c46387ccc93c6822d4a2c8629caa05b0fa4359a9e92093f6607',1,'MR']]],
   ['voxelsserializeformat_5',['VoxelsSerializeFormat',['../classMR_1_1Const__SceneSettings.html#a236aa31006a27c2ceeadf9bec24ed6f6a11502ad3cfb527908a8174aa52271159',1,'MR::Const_SceneSettings']]],
-  ['oddcrossings_0',['OddCrossings',['../classMR.html#a616095899064d3af43a1861f0ae70feda4e54356eb1e29dcab78f68189add6f1e',1,'MR.OddCrossings'],['../classMR.html#aaab5125bed355f42a81950b40e8dd142a4e54356eb1e29dcab78f68189add6f1e',1,'MR.OddCrossings']]],
+  ['oddcrossings_0',['OddCrossings',['../classMR.html#aaab5125bed355f42a81950b40e8dd142a4e54356eb1e29dcab78f68189add6f1e',1,'MR']]],
   ['offset_1',['Offset',['../classMR_1_1Const__OffsetContoursParams.html#a83f97f15995c36ee12400d4d35f6fda1adfd0a82c4bf37b1e90b690a22a20692e',1,'MR::Const_OffsetContoursParams']]],
   ['ok_2',['Ok',['../classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0aa60852f204ed8028c1c58808b746d115',1,'MR.Features.Const_MeasureResult.Ok'],['../classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115',1,'MR.VoxelsLoad.Ok']]],
   ['onecolor_3',['OneColor',['../classMR_1_1Const__ObjectVoxels_1_1Const__VolumeRenderingParams.html#a7b60ed47901e967394c83007516ea860a0c8f5a9ec9d29d3f98de501c16144109',1,'MR::Const_ObjectVoxels::Const_VolumeRenderingParams']]],

@@ -3935,20 +3935,11 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="classMR_1a616095899064d3af43a1861f0ae70feda4e54356eb1e29dcab78f68189add6f1e" prot="public">
-          <name>OddCrossings</name>
-          <initializer>= 3</initializer>
-          <briefdescription>
-<para>a point is inside if the surface is crossed an odd number of times on the way from the point to infinity, triangle orientation is ignored (as <ref refid="classMR_1aaab5125bed355f42a81950b40e8dd142a4e54356eb1e29dcab78f68189add6f1e" kindref="member">InsideMeshRule.OddCrossings</ref> in makeInsideMeshVolume); for meshes with holes, the result depends on the ray direction (+X); signedDistanceToMesh casts a ray from every point, while the volume functions (e.g. meshToDistanceVolume) cast one ray per row of voxels, which is much faster; this mode does NOT have CUDA acceleration at this moment </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="classMR_1a616095899064d3af43a1861f0ae70feda103a84d91e18de34821243d0495258ed" prot="public">
           <name>WindingRule</name>
           <initializer>= 3</initializer>
           <briefdescription>
-<para>old name of OddCrossings </para>
+<para>ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh; this mode is slow, and it does NOT have CUDA acceleration at this moment </para>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
@@ -3969,7 +3960,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" bodystart="7" bodyend="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" bodystart="7" bodyend="30"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1aacd4e54997154b3fd8baece917df2044" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -4009,7 +4000,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" bodystart="42" bodyend="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" bodystart="36" bodyend="49"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1af7e53b952434f8c498abce670fa14aae" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -20658,13 +20649,13 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>op</declname>
         </param>
         <briefdescription>
-<para>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule); for op.signMode == OddCrossings it casts a ray from the point; for all points of a grid, meshToDistanceVolume is much faster, since it casts one ray per row of voxels Generated from function <computeroutput><ref refid="classMR_1addf12d4a5d4d667a74f60a25e4078157" kindref="member">MR.signedDistanceToMesh</ref></computeroutput>. </para>
+<para>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule) Generated from function <computeroutput><ref refid="classMR_1addf12d4a5d4d667a74f60a25e4078157" kindref="member">MR.signedDistanceToMesh</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" line="31" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" bodystart="31" bodyend="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" line="30" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" bodystart="30" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4f6d98103bb12285cdc1e599ad250ddb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -38134,7 +38125,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="61" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" bodystart="61" bodyend="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="55" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" bodystart="55" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a311934c7866322cde555668d43870ae4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVector3f</type>
@@ -68516,7 +68507,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" line="42" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" line="41" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a726d99123774e2ccc50678813d834490" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_Float._Underlying *</type>
@@ -68542,7 +68533,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" line="45" column="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDistance.cs" line="44" column="57"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa775fc59f8cdc40fd1c6575c5de473fb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -83356,7 +83347,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="70" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSignDetectionMode.cs" line="64" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afc065444691f79f682f46419e3f73103" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>

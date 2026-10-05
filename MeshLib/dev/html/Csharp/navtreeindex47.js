@@ -1,6 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"classMR_1_1Const__FeatureObject.html":[9,3,0,0,0,456],
 "classMR_1_1Const__FeatureObject.html#a04f2acac8a03e091e12c68cfe48bc477":[9,3,0,0,0,456,51],
 "classMR_1_1Const__FeatureObject.html#a06277fd3af2c8037719395f4e30f0c3f":[9,3,0,0,0,456,60],
 "classMR_1_1Const__FeatureObject.html#a06a046325dbb50b258916c7e7bc841be":[9,3,0,0,0,456,37],
@@ -249,5 +248,6 @@ var NAVTREEINDEX47 =
 "classMR_1_1Const__FindOutliersParams.html#af26b1ff1860c411aaaf2d491abd1da48":[9,3,0,0,0,467,3],
 "classMR_1_1Const__FindOverhangsSettings.html":[9,3,0,0,0,468],
 "classMR_1_1Const__FindOverhangsSettings.html#a0368635a3a912899184a86d8c3932a6d":[9,3,0,0,0,468,0],
-"classMR_1_1Const__FindOverhangsSettings.html#a0d1f42ea11f862a6e2b397479115504a":[9,3,0,0,0,468,8]
+"classMR_1_1Const__FindOverhangsSettings.html#a0d1f42ea11f862a6e2b397479115504a":[9,3,0,0,0,468,8],
+"classMR_1_1Const__FindOverhangsSettings.html#a3ad26f7471a8cf298891b7e91dcffa6b":[9,3,0,0,0,468,3]
 };

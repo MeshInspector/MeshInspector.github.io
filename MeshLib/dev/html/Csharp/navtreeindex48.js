@@ -1,6 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"classMR_1_1Const__FindOverhangsSettings.html#a3ad26f7471a8cf298891b7e91dcffa6b":[9,3,0,0,0,468,3],
 "classMR_1_1Const__FindOverhangsSettings.html#a527a2a83624351a92c6f557df8ce1b04":[9,3,0,0,0,468,13],
 "classMR_1_1Const__FindOverhangsSettings.html#a545e9cb071df4d5fa243d7a88f965434":[9,3,0,0,0,468,9],
 "classMR_1_1Const__FindOverhangsSettings.html#a5b92c1b1b8ccf0b7e144e1b13e1a806d":[9,3,0,0,0,468,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX48 =
 "classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector2f.html#ac49464df08899d257ffd3450452805b2":[9,3,0,0,0,480,0,3],
 "classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector2f.html#acb7235a4868e5be8ac80177bc3e2bdf0":[9,3,0,0,0,480,0,5],
 "classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector3f.html":[9,3,0,0,0,480,1],
-"classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector3f.html#a3bf78541a666e980080d44d92b9a8631":[9,3,0,0,0,480,1,3]
+"classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector3f.html#a3bf78541a666e980080d44d92b9a8631":[9,3,0,0,0,480,1,3],
+"classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector3f.html#a48e8b46c2d1c2ee412affeb32425ce70":[9,3,0,0,0,480,1,1]
 };

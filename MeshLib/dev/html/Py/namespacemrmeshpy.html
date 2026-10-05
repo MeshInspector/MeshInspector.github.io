@@ -39165,8 +39165,7 @@ consider offsetMesh(...) if a self-intersection free result is required
       </table>
 </div><div class="memdoc">
 <pre class="fragment">computes signed distance from point (p) to mesh part (mp) following options (op);
-returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule);
-for op.signMode == OddCrossings it casts a ray from the point; for all points of a grid, meshToDistanceVolume is much faster, since it casts one ray per row of voxels
+returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule)
 </pre> 
 </div>
 </div>

@@ -1641,11 +1641,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule); for op.signMode == OddCrossings it casts a ray from the point; for all points of a grid, meshToDistanceVolume is much faster, since it casts one ray per row of voxels </para>
+<para>computes signed distance from point (p) to mesh part (mp) following options (op); returns std::nullopt if distance is smaller than op.minDist or larger than op.maxDist (except for op.signMode == HoleWindingRule) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDistance.h" line="37" column="17" declfile="MRMesh/MRMeshDistance.h" declline="37" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDistance.h" line="36" column="17" declfile="MRMesh/MRMeshDistance.h" declline="36" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga5d17b235f3f132749a8d474be90b43b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MeshIntersectionResult</type>

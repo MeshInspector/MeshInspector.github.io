@@ -156,7 +156,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:aae1964ab7dc74f2d9cc82a4b0d2e97b4" id="r_aae1964ab7dc74f2d9cc82a4b0d2e97b4"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1964ab7dc74f2d9cc82a4b0d2e97b4">HoleWindingRule</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td></tr>
-<tr class="memitem:a5163153451cf0b6e61b1ae9d311e2436" id="r_a5163153451cf0b6e61b1ae9d311e2436"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5163153451cf0b6e61b1ae9d311e2436">OddCrossings</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td></tr>
 <tr class="memitem:a0097324f14e399c9d9662ed6d501a012" id="r_a0097324f14e399c9d9662ed6d501a012"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0097324f14e399c9d9662ed6d501a012">OpenVDB</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td></tr>
 <tr class="memitem:ae1820cf53c750b370b64c62ef98be74f" id="r_ae1820cf53c750b370b64c62ef98be74f"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1820cf53c750b370b64c62ef98be74f">ProjectionNormal</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td></tr>
 <tr class="memitem:af635190fc536189bcb4ca4355dabd4b0" id="r_af635190fc536189bcb4ca4355dabd4b0"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af635190fc536189bcb4ca4355dabd4b0">Unsigned</a> .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td></tr>
@@ -171,12 +170,8 @@ Static Public Attributes</h2></td></tr>
 
   ProjectionNormal : the sign is determined based on pseudonormal in closest mesh point (unsafe in case of self-intersections)
 
-  OddCrossings : a point is inside if the surface is crossed an odd number of times on the way from the point to infinity, triangle orientation is ignored
-(as InsideMeshRule::OddCrossings in makeInsideMeshVolume); for meshes with holes, the result depends on the ray direction (+X);
-signedDistanceToMesh casts a ray from every point, while the volume functions (e.g. meshToDistanceVolume) cast one ray per row of voxels, which is much faster;
-this mode does NOT have CUDA acceleration at this moment
-
-  WindingRule : old name of OddCrossings
+  WindingRule : ray intersection counter, significantly slower than ProjectionNormal and does not support holes in mesh;
+this mode is slow, and it does NOT have CUDA acceleration at this moment
 
   HoleWindingRule : computes robust winding number generalization with support of holes and self-intersections in mesh,
 it is the slowest sign detection mode, but it CAN be accelerated with CUDA if this mode activated e.g. in OffsetParameters.fwn
@@ -414,28 +409,6 @@ it is the slowest sign detection mode, but it CAN be accelerated with CUDA if th
       <table class="memname">
         <tr>
           <td class="memname">typing mrmeshpy.SignDetectionMode.HoleWindingRule .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5163153451cf0b6e61b1ae9d311e2436" name="a5163153451cf0b6e61b1ae9d311e2436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5163153451cf0b6e61b1ae9d311e2436">&#9670;&#160;</a></span>OddCrossings</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typing mrmeshpy.SignDetectionMode.OddCrossings .ClassVar[<a class="el" href="classmrmeshpy_1_1SignDetectionMode.html">SignDetectionMode</a>]</td>
         </tr>
       </table>
   </td>

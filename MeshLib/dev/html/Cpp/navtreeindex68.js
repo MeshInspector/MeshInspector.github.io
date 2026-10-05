@@ -1,6 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[9,0,0,1,32,1],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[9,0,0,1,32,0],
 "structMR_1_1PolylineMaker.html":[9,0,0,20,463],
 "structMR_1_1PolylineProjectionResult.html":[9,0,0,1,33],
@@ -249,5 +248,6 @@ var NAVTREEINDEX68 =
 "structMR_1_1SymbolMeshParams.html":[9,0,0,20,567],
 "structMR_1_1SystemMemory.html":[9,0,0,20,513],
 "structMR_1_1TbbTaskArenaAndGroup.html":[9,0,0,20,515],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[9,0,0,20,896]
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[9,0,0,20,896],
+"structMR_1_1TerminalVertex.html":[9,0,0,20,207]
 };

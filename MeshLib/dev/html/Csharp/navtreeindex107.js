@@ -1,6 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"classMR_1_1GraphEdgeBitSet.html#af420bf0b958c545abc1cca798c85a131":[9,3,0,0,0,1237,31],
 "classMR_1_1GraphEdgeBitSet.html#af6c226f98f10825831ed67be1ec00563":[9,3,0,0,0,1237,8],
 "classMR_1_1GraphEdgeBitSet.html#af9a55ed0ad2bf185bcf5a1b1d0fe947b":[9,3,0,0,0,1237,19],
 "classMR_1_1GraphVertBitSet.html":[9,3,0,0,0,1239],
@@ -249,5 +248,6 @@ var NAVTREEINDEX107 =
 "classMR_1_1Image.html#a6fde70b541bd3844938e4009eb0f2a73":[9,3,0,0,0,1262,8],
 "classMR_1_1Image.html#a78bedaf6dd1508fecdeb392e45393c9b":[9,3,0,0,0,1262,4],
 "classMR_1_1Image.html#a883df314f57ad180b5cb8bb1180f9b63":[9,3,0,0,0,1262,2],
-"classMR_1_1Image.html#ab3d15c40630c7e3ceb4e8d57d721c5cb":[9,3,0,0,0,1262,7]
+"classMR_1_1Image.html#ab3d15c40630c7e3ceb4e8d57d721c5cb":[9,3,0,0,0,1262,7],
+"classMR_1_1Image.html#afeeedc7d3b5c7cfe108b11c461eef319":[9,3,0,0,0,1262,5]
 };
