@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"classMR_1_1OutlierParams.html#ac3b8b4d4dce7a2deb70fdb380396c8db":[9,3,0,0,0,1498,2],
 "classMR_1_1OutlierParams.html#af3184d787d43b01c1d66c9e651d211e6":[9,3,0,0,0,1498,5],
 "classMR_1_1OutlierParams.html#afe44a6b9579d7795eb02276eb5936be8":[9,3,0,0,0,1498,0],
 "classMR_1_1OutliersDetector.html":[9,3,0,0,0,1499],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a5ebc137d6e74af3782bf3a32f87feb50":[9,3,0,0,0,1514,2,4],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#a68bbe6e1d60cad034ffa1e92e3505f9c":[9,3,0,0,0,1514,2,6],
 "classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#ab2a11ee6c4d7158ff985ef64ffebdb97":[9,3,0,0,0,1514,2,15],
-"classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#ab3af7646fa270984474295e37e2b09a8":[9,3,0,0,0,1514,2,2],
-"classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#ac6570905ea4042b593390857f0f84cbc":[9,3,0,0,0,1514,2,1]
+"classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo.html#ab3af7646fa270984474295e37e2b09a8":[9,3,0,0,0,1514,2,2]
 };

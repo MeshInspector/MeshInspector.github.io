@@ -1717,6 +1717,7 @@ var namespaceMR =
       [ "Unsigned", "group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a", null ],
       [ "OpenVDB", "group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309a011b949ced7ed48dafe7b08ae740dae9", null ],
       [ "ProjectionNormal", "group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309a17670c4544b47c1acf63b776209440a9", null ],
+      [ "OddCrossings", "group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309a4e54356eb1e29dcab78f68189add6f1e", null ],
       [ "WindingRule", "group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309a103a84d91e18de34821243d0495258ed", null ],
       [ "HoleWindingRule", "group__GeneralGroup.html#gga03fba1fe0e5d6fe3c22dc41c9d57d309a3065abc09e5d4edae66468fee91282e4", null ]
     ] ],

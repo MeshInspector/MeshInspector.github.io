@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#a5fd2b36512a07b320fb57a735381ff61":[9,3,0,0,0,1533,1,1],
 "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#a7e49cf8f915a696665e7d123cebc8eb6":[9,3,0,0,0,1533,1,9],
 "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#a9f81df23643ad313165cf1122e4ab6ea":[9,3,0,0,0,1533,1,4],
 "classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#adb16e4b3d08f5181a0ccf02bb579e8ea":[9,3,0,0,0,1533,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1PolylineComponents.html#ad322275571fc9a63dd4206b902cecea4":[9,3,0,0,0,1546,9],
 "classMR_1_1PolylineComponents.html#ad37824b60abf4a0b56c1752d519a22db":[9,3,0,0,0,1546,8],
 "classMR_1_1PolylineComponents.html#af2132aa8545ff1dca82d24706b64f11d":[9,3,0,0,0,1546,7],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html":[9,3,0,0,0,1546,0],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a19c46f796aea8c9c500a04ef9fbc5bf6":[9,3,0,0,0,1546,0,2]
+"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html":[9,3,0,0,0,1546,0]
 };

@@ -190,6 +190,7 @@ var bindings_8d_8mts =
       [ "OpenVDB", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aeafb35f6b4995c1c5fcf308006ac31f7b1", null ],
       [ "ProjectionNormal", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea89aba2570635eeaf58b335fcd90407bf", null ],
       [ "WindingRule", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea5f44b72607792afaa4a0175adb4d929c", null ],
+      [ "OddCrossings", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea7aed141052e1150ff2a1060fd6fb8734", null ],
       [ "HoleWindingRule", "bindings_8d_8mts.html#a3a1c46c77f4561d4e907577f24e085aea831fd92e27f978a1573736876e7b0aa7", null ]
     ] ],
     [ "VertexMass", "bindings_8d_8mts.html#a82166a6381ef88adc0a9ccac4000cc6b", [

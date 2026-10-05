@@ -6,6 +6,7 @@ var MRSignDetectionMode_8h =
       [ "MR_SignDetectionMode_Unsigned", "MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1", null ],
       [ "MR_SignDetectionMode_OpenVDB", "MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775", null ],
       [ "MR_SignDetectionMode_ProjectionNormal", "MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a0159154a09edb6fb7addf455b3841885", null ],
+      [ "MR_SignDetectionMode_OddCrossings", "MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a446d75edc4e20047c9c04082700f7a2b", null ],
       [ "MR_SignDetectionMode_WindingRule", "MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571ab5ab8141c9894c69d2d6de5775f32897", null ],
       [ "MR_SignDetectionMode_HoleWindingRule", "MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea", null ]
     ] ],
