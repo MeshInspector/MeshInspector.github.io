@@ -2364,6 +2364,7 @@ var namespaceMR =
     [ "findExtremeEdges", "group__SurfacePathSubgroup.html#gabfa071156dd75b886635006c22723f0d", null ],
     [ "findFewClosestPoints", "group__AABBTreeGroup.html#ga435f633cd74c790a6f22a06436182137", null ],
     [ "findFilter", "group__IOFiltersGroup.html#ga785198f857650c3631e4bce518e9518f", null ],
+    [ "findGridPointsInsidePolyline", "group__AABBTreeGroup.html#ga2702a14aa9e44b83e9a85d4d1aea1136", null ],
     [ "findHalfSpacePoints", "group__GeneralGroup.html#ga947a6bad93f0eb336d355ab0497b7dbd", null ],
     [ "findHoleComplicatingFaces", "group__MeshFixerGroup.html#gafd82e42a7f55fb987e177185b62155a8", null ],
     [ "findIncidentFaces", "group__GeneralGroup.html#gac8a3360d0255d400d87d4dd71dbbbbe9", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PositionedText.html#af478904c36291dff35b479b75b2341cc":[9,3,0,0,0,1576,2],
 "classMR_1_1PrecipitationSimulator.html":[9,3,0,0,0,1578],
 "classMR_1_1PrecipitationSimulator.html#a24b065f2e8be893101a63a3a21ddda6c":[9,3,0,0,0,1578,0],
 "classMR_1_1PrecipitationSimulator.html#a57f8520258df3e81b3cee150d943e773":[9,3,0,0,0,1578,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1RefineParameters.html#ab5d9afbb32de0c56467d6e5b283a80a2":[9,3,0,0,0,1594,1],
 "classMR_1_1RefineParameters.html#acb842f8927db7effa85025af92d854aa":[9,3,0,0,0,1594,9],
 "classMR_1_1RegionBitSet.html":[9,3,0,0,0,1595],
-"classMR_1_1RegionBitSet.html#a03ce7adcd7ae250e545dd7fd046e9fe9":[9,3,0,0,0,1595,7],
-"classMR_1_1RegionBitSet.html#a09445b4b3088c51e040e98f7e67ae1cf":[9,3,0,0,0,1595,11]
+"classMR_1_1RegionBitSet.html#a03ce7adcd7ae250e545dd7fd046e9fe9":[9,3,0,0,0,1595,7]
 };

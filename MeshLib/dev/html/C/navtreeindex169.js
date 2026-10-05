@@ -1,5 +1,6 @@
 var NAVTREEINDEX169 =
 {
+"std__vector__MR__BallPivotCandidate_8h.html#a01ff901db7cfdb8aeaa2a30e29fb71c6":[9,2,2,0,0,0,0,2,422,50],
 "std__vector__MR__BallPivotCandidate_8h.html#a07aa6473cf2eb8741c5f72841f67f239":[9,2,2,0,0,0,0,2,422,53],
 "std__vector__MR__BallPivotCandidate_8h.html#a0a6990dee679096334c0a4b85a43f609":[9,2,2,0,0,0,0,2,422,44],
 "std__vector__MR__BallPivotCandidate_8h.html#a0d4290bcbb39f0883a98b275a40c5f19":[9,2,2,0,0,0,0,2,422,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX169 =
 "std__vector__MR__Color_8h.html#a3f2001dfa469b94e69515d747d5ad8c6":[9,2,2,0,0,0,0,2,425,53],
 "std__vector__MR__Color_8h.html#a4044fb4419adcedb52e8b5c7d53fe14d":[9,2,2,0,0,0,0,2,425,50],
 "std__vector__MR__Color_8h.html#a42151604a54888265a752c36874c067d":[9,2,2,0,0,0,0,2,425,52],
-"std__vector__MR__Color_8h.html#a435421f3b88a2dffce270dd650b8ec03":[9,2,2,0,0,0,0,2,425,10],
-"std__vector__MR__Color_8h.html#a4d82a93268fb379f041e93bc7ea1b12c":[9,2,2,0,0,0,0,2,425,12]
+"std__vector__MR__Color_8h.html#a435421f3b88a2dffce270dd650b8ec03":[9,2,2,0,0,0,0,2,425,10]
 };

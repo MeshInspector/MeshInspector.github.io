@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"classMR_1_1PointsLoad_1_1Const__MultiScanLoadSettings.html#afeda136e1295cb21abf48fc0e6e94b07":[9,3,0,0,0,1533,1,0],
 "classMR_1_1PointsLoad_1_1Const__NamedCloud.html":[9,3,0,0,0,1533,2],
 "classMR_1_1PointsLoad_1_1Const__NamedCloud.html#a273ecf9454b81a493b2179fe623f7898":[9,3,0,0,0,1533,2,2],
 "classMR_1_1PointsLoad_1_1Const__NamedCloud.html#a3d5dab09fca75e586222c8e78fed390b":[9,3,0,0,0,1533,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a2e0fa250da40c3ebb6ad030f2a56c308":[9,3,0,0,0,1546,0,8],
 "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a6c7f3f0e9f86c3ae1f579f247956df05":[9,3,0,0,0,1546,0,0],
 "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#a9ece6db23f3f3699a769836b7fe4d967":[9,3,0,0,0,1546,0,5],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#aab32a606f3b8196c9de773ba53aa1946":[9,3,0,0,0,1546,0,1],
-"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#ab39c83fe1559e0dd88f068769dc720b9":[9,3,0,0,0,1546,0,6]
+"classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html#aab32a606f3b8196c9de773ba53aa1946":[9,3,0,0,0,1546,0,1]
 };

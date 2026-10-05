@@ -348,6 +348,7 @@ var group__AABBTreeGroup =
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#gab36006e6e34e3bfb5c1eae34c7ca7a8d", null ],
     [ "MR::findEdgesInBall", "group__AABBTreeGroup.html#ga85e20053ebbe6ca6df0716626e180145", null ],
     [ "MR::findFewClosestPoints", "group__AABBTreeGroup.html#ga435f633cd74c790a6f22a06436182137", null ],
+    [ "MR::findGridPointsInsidePolyline", "group__AABBTreeGroup.html#ga2702a14aa9e44b83e9a85d4d1aea1136", null ],
     [ "MR::findMaxDistanceSq", "group__AABBTreeGroup.html#ga45e61b0f865d15d2172777953f29b4b1", null ],
     [ "MR::findMaxDistanceSqOneWay", "group__AABBTreeGroup.html#ga27ff8608a418f39b18f07f8db69d07d4", null ],
     [ "MR::findMaxProjectionOnPolyline", "group__AABBTreeGroup.html#ga58d35b756f586caa1fd15e099ab23327", null ],

@@ -370,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="49" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="49" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="57" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gae0b1767f78412a4100c7baa4ae2cb2de" prot="public" static="no">
         <type>PolylineIntersectionCallback2&lt; float &gt;</type>
@@ -384,7 +384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="50" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="50" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="58" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gaba7cace2c59d8ea1874ea0223d3c3d42" prot="public" static="no">
         <type>PolylineIntersectionCallback2&lt; double &gt;</type>
@@ -398,7 +398,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="51" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="51" bodyend="-1"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="59" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" prot="public" static="no">
         <templateparamlist>
@@ -3642,7 +3642,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="19" column="8" declfile="MRMesh/MRPolyline2Intersect.h" declline="19" declcolumn="8"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="20" column="8" declfile="MRMesh/MRPolyline2Intersect.h" declline="20" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga2702a14aa9e44b83e9a85d4d1aea1136" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BitSet</type>
+        <definition>BitSet MR::findGridPointsInsidePolyline</definition>
+        <argsstring>(const Polyline2 &amp;polyline, const Vector2i &amp;dims, const Vector2f &amp;origin={}, const Vector2f &amp;step=Vector2f::diagonal(1.f))</argsstring>
+        <name>findGridPointsInsidePolyline</name>
+        <qualifiedname>MR::findGridPointsInsidePolyline</qualifiedname>
+        <param>
+          <type>const Polyline2 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const Vector2i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>origin</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>step</declname>
+          <defval>Vector2f::diagonal(1.f)</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>step</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>step.x must be positive </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bit set with dims.x * dims.y bits, where the bit ( x + y * dims.x ) is set if the point is inside </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="26" column="10" declfile="MRMesh/MRPolyline2Intersect.h" declline="26" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga33dfe4d49b343eca892fe35c75826f0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; PolylineIntersectionResult2 &gt;</type>
@@ -3685,7 +3729,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="34" column="17" declfile="MRMesh/MRPolyline2Intersect.h" declline="34" declcolumn="17"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="42" column="17" declfile="MRMesh/MRPolyline2Intersect.h" declline="42" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga40c1b0b4821dfe2acb66ec335a638cdc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; PolylineIntersectionResult2 &gt;</type>
@@ -3728,7 +3772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="42" column="17" declfile="MRMesh/MRPolyline2Intersect.h" declline="42" declcolumn="17"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="50" column="17" declfile="MRMesh/MRPolyline2Intersect.h" declline="50" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga6334c9f41d88763fea47f1a1af491d7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3770,7 +3814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="55" column="7" declfile="MRMesh/MRPolyline2Intersect.h" declline="55" declcolumn="7"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="63" column="7" declfile="MRMesh/MRPolyline2Intersect.h" declline="63" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga9a7462ec4027240eb0a1161b6f626cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -3812,7 +3856,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPolyline2Intersect.h" line="60" column="7" declfile="MRMesh/MRPolyline2Intersect.h" declline="60" declcolumn="7"/>
+        <location file="MRMesh/MRPolyline2Intersect.h" line="68" column="7" declfile="MRMesh/MRPolyline2Intersect.h" declline="68" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga0995927769e13d426cdc839b9333a348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>PolylineProjectionResult2</type>

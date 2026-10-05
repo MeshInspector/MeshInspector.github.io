@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"std__optional__MR__PolylineIntersectionResult2_8h.html#ad3264ceeed199d92fdebc3fa148a4cc7":[9,2,2,0,0,0,0,2,220,1],
 "std__optional__MR__PolylineIntersectionResult2_8h_source.html":[9,2,2,0,0,0,0,2,220],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html":[9,2,2,0,0,0,0,2,221],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616":[9,2,2,0,0,0,0,2,221,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a59c3869d29aaa610433b6253d024f099":[9,2,2,0,0,0,0,2,235,7],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a66266a45c12b60c6e13236874ff64ec9":[9,2,2,0,0,0,0,2,235,5],
 "std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a6bbc6c2a8538eef42c3ed87107ae868f":[9,2,2,0,0,0,0,2,235,6],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a7bfe62023a269229fbafede908aa166f":[9,2,2,0,0,0,0,2,235,2],
-"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a8ee265945214e385328513f3aa40207b":[9,2,2,0,0,0,0,2,235,4]
+"std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h.html#a7bfe62023a269229fbafede908aa166f":[9,2,2,0,0,0,0,2,235,2]
 };

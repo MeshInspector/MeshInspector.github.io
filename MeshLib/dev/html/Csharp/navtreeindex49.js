@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__GcodeProcessor_1_1BaseAction__MRVector3f.html#ad7be2b25ddf6bda292a0d12c5a1d8da2":[9,3,0,0,0,480,1,6],
 "classMR_1_1Const__GcodeProcessor_1_1Command.html":[9,3,0,0,0,480,2],
 "classMR_1_1Const__GcodeProcessor_1_1Command.html#a67ea25657bbb7bb5dcd64b2d1cb26e09":[9,3,0,0,0,480,2,6],
 "classMR_1_1Const__GcodeProcessor_1_1Command.html#a8b1a20c4147a218d2619f9b0f7c2c3bd":[9,3,0,0,0,480,2,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__Graph_1_1Const__EndVertices.html#aa163553a615444c1cd9a0c4164ad24d8":[9,3,0,0,0,484,0,0],
 "classMR_1_1Const__Graph_1_1Const__EndVertices.html#ab12ccfb7fd5ed51d66d8817142b62257":[9,3,0,0,0,484,0,5],
 "classMR_1_1Const__Graph_1_1Const__EndVertices.html#aca562f137e8e2b3391b2ec7e8e307129":[9,3,0,0,0,484,0,4],
-"classMR_1_1Const__Graph_1_1Const__EndVertices.html#ae7c85acfee6d13aaec63a6a29a5fefdb":[9,3,0,0,0,484,0,8],
-"classMR_1_1Const__Graph_1_1EndVertices.html":[9,3,0,0,0,484,1]
+"classMR_1_1Const__Graph_1_1Const__EndVertices.html#ae7c85acfee6d13aaec63a6a29a5fefdb":[9,3,0,0,0,484,0,8]
 };

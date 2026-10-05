@@ -356,6 +356,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaf5614c6f47e495a7aa4513078b1b2ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <br /></td></tr>
 <tr class="memitem:ga8cdd94e81e6095b86dbd245ec23e9657" id="r_ga8cdd94e81e6095b86dbd245ec23e9657"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8cdd94e81e6095b86dbd245ec23e9657">MR::isPointInsidePolyline</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const Vector2f &amp;point)</td></tr>
 <tr class="memdesc:ga8cdd94e81e6095b86dbd245ec23e9657"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <br /></td></tr>
+<tr class="memitem:ga2702a14aa9e44b83e9a85d4d1aea1136" id="r_ga2702a14aa9e44b83e9a85d4d1aea1136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2702a14aa9e44b83e9a85d4d1aea1136">MR::findGridPointsInsidePolyline</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const Vector2i &amp;dims, const Vector2f &amp;origin={}, const Vector2f &amp;step=Vector2f::diagonal(1.f))</td></tr>
 <tr class="memitem:ga33dfe4d49b343eca892fe35c75826f0b" id="r_ga33dfe4d49b343eca892fe35c75826f0b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1PolylineIntersectionResult2.html">PolylineIntersectionResult2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33dfe4d49b343eca892fe35c75826f0b">MR::rayPolylineIntersect</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const <a class="el" href="group__GeneralGroup.html#gabba178f9dab92a53239aa80045aa3ae5">Line2f</a> &amp;line, float rayStart=0, float rayEnd=FLT_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes2.html">IntersectionPrecomputes2</a>&lt; float &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
 <tr class="memitem:ga40c1b0b4821dfe2acb66ec335a638cdc" id="r_ga40c1b0b4821dfe2acb66ec335a638cdc"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1PolylineIntersectionResult2.html">PolylineIntersectionResult2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga40c1b0b4821dfe2acb66ec335a638cdc">MR::rayPolylineIntersect</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const Line2d &amp;line, double rayStart=0, double rayEnd=DBL_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes2.html">IntersectionPrecomputes2</a>&lt; double &gt; *prec=nullptr, bool closestIntersect=true)</td></tr>
 <tr class="memitem:ga6334c9f41d88763fea47f1a1af491d7a" id="r_ga6334c9f41d88763fea47f1a1af491d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6334c9f41d88763fea47f1a1af491d7a">MR::rayPolylineIntersectAll</a> (const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;polyline, const <a class="el" href="group__GeneralGroup.html#gabba178f9dab92a53239aa80045aa3ae5">Line2f</a> &amp;line, const <a class="el" href="#gae0b1767f78412a4100c7baa4ae2cb2de">PolylineIntersectionCallback2f</a> &amp;callback, float rayStart=0.0f, float rayEnd=FLT_MAX, const <a class="el" href="structMR_1_1IntersectionPrecomputes2.html">IntersectionPrecomputes2</a>&lt; float &gt; *prec=nullptr)</td></tr>
@@ -1696,6 +1697,54 @@ template&lt;typename T&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga2702a14aa9e44b83e9a85d4d1aea1136" name="ga2702a14aa9e44b83e9a85d4d1aea1136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2702a14aa9e44b83e9a85d4d1aea1136">&#9670;&#160;</a></span>findGridPointsInsidePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> MR::findGridPointsInsidePolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga98da94791426a3dbbdeb1a6b25801df6">Polyline2</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2f &amp;</td>          <td class="paramname"><span class="paramname"><em>origin</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector2f &amp;</td>          <td class="paramname"><span class="paramname"><em>step</em></span><span class="paramdefsep"> = </span><span class="paramdefval">Vector2f::diagonal(1.f)</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPolyline2Intersect_8h.html">MRMesh/MRPolyline2Intersect.h</a>&gt;</code></p>
+<p>checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>step.x must be positive </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bit set with dims.x * dims.y bits, where the bit ( x + y * dims.x ) is set if the point is inside </dd></dl>
 
 </div>
 </div>

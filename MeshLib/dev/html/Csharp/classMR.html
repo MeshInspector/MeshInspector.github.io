@@ -10841,6 +10841,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a9db4e30a56a12fef93111c28021fe572"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <br /></td></tr>
 <tr class="memitem:aeea146b9109e63514a2e3f157109c3d3" id="r_aeea146b9109e63514a2e3f157109c3d3"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeea146b9109e63514a2e3f157109c3d3">isPointInsidePolyline</a> (<a class="el" href="classMR_1_1Const__Polyline2.html">MR.Const_Polyline2</a> polyline, in <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a> point)</td></tr>
 <tr class="memdesc:aeea146b9109e63514a2e3f157109c3d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <br /></td></tr>
+<tr class="memitem:a122851184065b72e8bbf3e7cdc368459" id="r_a122851184065b72e8bbf3e7cdc368459"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BitSet.html">MR.BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122851184065b72e8bbf3e7cdc368459">findGridPointsInsidePolyline</a> (<a class="el" href="classMR_1_1Const__Polyline2.html">MR.Const_Polyline2</a> polyline, in <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a> dims, <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>? origin=null, <a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>? step=null)</td></tr>
+<tr class="memdesc:a122851184065b72e8bbf3e7cdc368459"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points  <br /></td></tr>
 <tr class="memitem:ad72d3356541afe5be8068f3f33975421" id="r_ad72d3356541afe5be8068f3f33975421"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRPolylineIntersectionResult2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad72d3356541afe5be8068f3f33975421">rayPolylineIntersect</a> (<a class="el" href="classMR_1_1Const__Polyline2.html">MR.Const_Polyline2</a> polyline, <a class="el" href="classMR_1_1Const__Line2f.html">MR.Const_Line2f</a> line, float? rayStart=null, float? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes2__Float.html">MR.Const_IntersectionPrecomputes2_Float</a>? prec=null, bool? closestIntersect=null)</td></tr>
 <tr class="memdesc:ad72d3356541afe5be8068f3f33975421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds ray and polyline intersection in float-precision. <code class="param">rayStart</code> and <code class="param">rayEnd</code> define the interval on the ray to detect an intersection. <code class="param">prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code class="param">!closestIntersect</code>. Generated from function <span class="tt"><a class="el" href="#ad72d3356541afe5be8068f3f33975421" title="Finds ray and polyline intersection in float-precision. rayStart and rayEnd define the interval on th...">MR.rayPolylineIntersect</a></span>. Parameter <span class="tt">rayStart</span> defaults to <span class="tt">0</span>. Parameter <span class="tt">rayEnd</span> defaults to <span class="tt">3.40282347e38f</span>. Parameter <span class="tt">closestIntersect</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
 <tr class="memitem:a1fc2e48dcc63836ae45ed7197ebe0d8e" id="r_a1fc2e48dcc63836ae45ed7197ebe0d8e"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRPolylineIntersectionResult2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fc2e48dcc63836ae45ed7197ebe0d8e">rayPolylineIntersect</a> (<a class="el" href="classMR_1_1Const__Polyline2.html">MR.Const_Polyline2</a> polyline, <a class="el" href="classMR_1_1Const__Line2d.html">MR.Const_Line2d</a> line, double? rayStart=null, double? rayEnd=null, <a class="el" href="classMR_1_1Const__IntersectionPrecomputes2__Double.html">MR.Const_IntersectionPrecomputes2_Double</a>? prec=null, bool? closestIntersect=null)</td></tr>
@@ -46071,6 +46073,54 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>find a corresponding filter for a given extension Generated from function <span class="tt"><a class="el" href="#a5262d17d096102f5f297ab164a5bb838" title="find a corresponding filter for a given extension Generated from function MR.findFilter.">MR.findFilter</a></span>. </p>
+
+</div>
+</div>
+<a id="a122851184065b72e8bbf3e7cdc368459" name="a122851184065b72e8bbf3e7cdc368459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122851184065b72e8bbf3e7cdc368459">&#9670;&#160;</a></span>findGridPointsInsidePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1BitSet.html">MR.BitSet</a> MR.findGridPointsInsidePolyline </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Polyline2.html">MR.Const_Polyline2</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector2i.html">MR.Vector2i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>?</td>          <td class="paramname"><span class="paramname"><em>origin</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector2f.html">MR.Vector2f</a>?</td>          <td class="paramname"><span class="paramname"><em>step</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>step.x must be positive </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bit set with dims.x * dims.y bits, where the bit ( x + y * dims.x ) is set if the point is inside Generated from function <span class="tt"><a class="el" href="#a122851184065b72e8bbf3e7cdc368459" title="checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; d...">MR.findGridPointsInsidePolyline</a></span>. Parameter <span class="tt">origin</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">step</span> defaults to <span class="tt">MR::Vector2&amp;lt;float&amp;gt;::diagonal(1.0f)</span>. </dd></dl>
 
 </div>
 </div>

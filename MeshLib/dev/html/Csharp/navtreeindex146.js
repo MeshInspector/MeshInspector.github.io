@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"classMR_1_1VoxelsLoad.html":[9,3,0,0,0,1845],
 "classMR_1_1VoxelsLoad.html#a004c8a6614aa21eea7c7b95e1ee3f7cc":[9,3,0,0,0,1845,30],
 "classMR_1_1VoxelsLoad.html#a080500230f9c9b4291ae7b1b1fb5c287":[9,3,0,0,0,1845,16],
 "classMR_1_1VoxelsLoad.html#a0a504531613aad2bcfd1b5a726f544b1":[9,3,0,0,0,1845,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "classMR_1_1WatershedGraph.html#aba4bc53a0ef298617141d5668abd953c":[9,3,0,0,0,1861,1],
 "classMR_1_1WatershedGraph.html#aba8155ec71a26aeb3390e5f25c3f4a6c":[9,3,0,0,0,1861,6],
 "classMR_1_1WeightedShell.html":[9,3,0,0,0,1862],
-"classMR_1_1WeightedShell.html#a06e94717e57a00157fcde0c34721f6dc":[9,3,0,0,0,1862,10],
-"classMR_1_1WeightedShell.html#a763a6fe685b45f4558b004904cd284eb":[9,3,0,0,0,1862,8]
+"classMR_1_1WeightedShell.html#a06e94717e57a00157fcde0c34721f6dc":[9,3,0,0,0,1862,10]
 };

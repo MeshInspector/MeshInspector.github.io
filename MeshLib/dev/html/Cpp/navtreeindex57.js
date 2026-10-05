@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"group__MeshNormalsGroup.html#gaa5b7b1b62db0c38010925f94be955036":[9,0,0,9,5,6],
 "group__MeshNormalsGroup.html#gade8bb0a85e5a0e9f0038065ea5bcd9cf":[9,0,0,9,5,2],
 "group__MeshNormalsGroup.html#gae0d9f93e52c6de06a13b82bdcd6c69b5":[9,0,0,9,5,3],
 "group__MeshRelaxGroup.html":[9,0,0,9,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "group__SurfacePathGroup.html#ga84c9cd9d7243cae376c8758beb6c70dc":[9,0,0,16,27],
 "group__SurfacePathGroup.html#ga84c9cd9d7243cae376c8758beb6c70dc":[9,0,0,20,2618],
 "group__SurfacePathGroup.html#ga8f974309d2b6a5eb49d1c1d30ba97135":[9,0,0,16,30],
-"group__SurfacePathGroup.html#ga8f974309d2b6a5eb49d1c1d30ba97135":[9,0,0,20,2642],
-"group__SurfacePathGroup.html#ga97f761bb5bc7bb62fd18a5142907936e":[9,0,0,16,22]
+"group__SurfacePathGroup.html#ga8f974309d2b6a5eb49d1c1d30ba97135":[9,0,0,20,2642]
 };

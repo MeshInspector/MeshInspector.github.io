@@ -33254,6 +33254,51 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="254" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="254" bodyend="260"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a122851184065b72e8bbf3e7cdc368459" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
+        <definition>static unsafe MR.BitSet MR.findGridPointsInsidePolyline</definition>
+        <argsstring>(MR.Const_Polyline2 polyline, in MR.Vector2i dims, MR.Vector2f? origin=null, MR.Vector2f? step=null)</argsstring>
+        <name>findGridPointsInsidePolyline</name>
+        <qualifiedname>MR.findGridPointsInsidePolyline</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>?</type>
+          <declname>origin</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>?</type>
+          <declname>step</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>step</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>step.x must be positive </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bit set with dims.x * dims.y bits, where the bit ( x + y * dims.x ) is set if the point is inside Generated from function <computeroutput><ref refid="classMR_1a122851184065b72e8bbf3e7cdc368459" kindref="member">MR.findGridPointsInsidePolyline</ref></computeroutput>. Parameter <computeroutput>origin</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>step</computeroutput> defaults to <computeroutput>MR::Vector2&amp;lt;float&amp;gt;::diagonal(1.0f)</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="271" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="271" bodyend="279"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1ad72d3356541afe5be8068f3f33975421" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRPolylineIntersectionResult2</type>
         <definition>static unsafe MR.Std.Optional_MRPolylineIntersectionResult2 MR.rayPolylineIntersect</definition>
@@ -33295,7 +33340,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="273" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="273" bodyend="279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="292" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="292" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1fc2e48dcc63836ae45ed7197ebe0d8e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRPolylineIntersectionResult2</type>
@@ -33338,7 +33383,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="292" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="292" bodyend="298"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="311" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="311" bodyend="317"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa432137cf88ae1e24a753b5e2f5fcde1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33380,7 +33425,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="307" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="307" bodyend="312"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="326" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="326" bodyend="331"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a076610c9128890306835ce36d17c7a08" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -33422,7 +33467,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="321" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="321" bodyend="326"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="340" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="340" bodyend="345"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6395faf9db8917747e12a9e33e707b22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DecimatePolylineResult" kindref="compound">MR.DecimatePolylineResult</ref></type>
@@ -79110,6 +79155,36 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Collide.cs" line="101" column="31"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a103ff1661a3f2b6c057da69debf963be" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.BitSet._Underlying *</type>
+        <definition>static unsafe MR.BitSet._Underlying * MR.__MR_findGridPointsInsidePolyline</definition>
+        <argsstring>(MR.Const_Polyline2._Underlying *polyline, MR.Vector2i *dims, MR.Vector2f *origin, MR.Vector2f *step)</argsstring>
+        <name>__MR_findGridPointsInsidePolyline</name>
+        <qualifiedname>MR.__MR_findGridPointsInsidePolyline</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline2._Underlying *</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+          <declname>step</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="350" column="46"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a73e968af9801969dab5ab9d834bc7c75" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
         <definition>static unsafe byte MR.__MR_isPointInsidePolyline</definition>
@@ -79130,7 +79205,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="331" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="353" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aff7cdce3df25a7bf73cd15c32502901c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -79168,7 +79243,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="334" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="356" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afdd36014528ec5c71a55f5be0f0f11d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -79206,7 +79281,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="337" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="359" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac7e27b580d89d2acd25ee5e2e2fd89c5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRPolylineIntersectionResult2._Underlying *</type>
@@ -79244,7 +79319,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="340" column="81"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="362" column="81"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a71c409984015b90b22df016cd05f3b7d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRPolylineIntersectionResult2._Underlying *</type>
@@ -79282,7 +79357,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="343" column="81"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="365" column="81"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a36e59813112cd5f576c6fa95b2fc09f8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimatePolylineResult._Underlying *</type>
@@ -99589,6 +99664,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a569b76bff94dcc661347e4d4bb8749ee" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findExtremeEdges</name></member>
       <member refid="classMR_1ac887bd8ad6f913287cdf7122c77857f7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findFewClosestPoints</name></member>
       <member refid="classMR_1ace7540dd6cf5bdb30d4e9865d4ffec16" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findFilter</name></member>
+      <member refid="classMR_1a103ff1661a3f2b6c057da69debf963be" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findGridPointsInsidePolyline</name></member>
       <member refid="classMR_1a94afc87261b0af9ad220afd497b4d1bb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findHalfSpacePoints</name></member>
       <member refid="classMR_1a8c1f0c4ae38b58210d1123346c4ab4ab" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findHoleComplicatingFaces</name></member>
       <member refid="classMR_1a5c9ca2a57b1fec724de227d4cf107b60" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findInnerShellFacesWithSplits</name></member>
@@ -101440,6 +101516,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a9a8600205e933491a3b631af0eacac92" prot="public" virt="non-virtual"><scope>MR</scope><name>findExtremeEdges</name></member>
       <member refid="classMR_1a34ace263cc7717193368b5feb88f40fd" prot="public" virt="non-virtual"><scope>MR</scope><name>findFewClosestPoints</name></member>
       <member refid="classMR_1a5262d17d096102f5f297ab164a5bb838" prot="public" virt="non-virtual"><scope>MR</scope><name>findFilter</name></member>
+      <member refid="classMR_1a122851184065b72e8bbf3e7cdc368459" prot="public" virt="non-virtual"><scope>MR</scope><name>findGridPointsInsidePolyline</name></member>
       <member refid="classMR_1ae44ec97ad6e13dfea392e02f962c1cb9" prot="public" virt="non-virtual"><scope>MR</scope><name>findHalfSpacePoints</name></member>
       <member refid="classMR_1affd314e05844616b16c9fcca2dd95f65" prot="public" virt="non-virtual"><scope>MR</scope><name>findHoleComplicatingFaces</name></member>
       <member refid="classMR_1aa8e0156a33a192e52b36125a60dae1d3" prot="public" virt="non-virtual"><scope>MR</scope><name>findInnerShellFacesWithSplits</name></member>

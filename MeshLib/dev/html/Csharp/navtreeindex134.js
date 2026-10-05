@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1TextMeshAlignParams.html#a9046bca00ac5aa23fc3f96b2127cd409":[9,3,0,0,0,1685,4],
 "classMR_1_1TextMeshAlignParams.html#aaa75cbf58ddf19fa8d65a0260b39e27c":[9,3,0,0,0,1685,19],
 "classMR_1_1TextMeshAlignParams.html#ab613d0d40bacc2c896ce242a398f613b":[9,3,0,0,0,1685,9],
 "classMR_1_1TextMeshAlignParams.html#ab66897160740c738a250a43f2e5d627a":[9,3,0,0,0,1685,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1TriTriDistanceResult__Double.html#ab3526abe920a6e7540ab52fa4103e686":[9,3,0,0,0,1710,2],
 "classMR_1_1TriTriDistanceResult__Double.html#aba05e48341bff4b60bbd496f1497209d":[9,3,0,0,0,1710,7],
 "classMR_1_1TriTriDistanceResult__Double.html#abb52533c9fe7d97e391d2f667e1dcab9":[9,3,0,0,0,1710,4],
-"classMR_1_1TriTriDistanceResult__Double.html#adf279b7e5e2d513333926fa0ddd70f62":[9,3,0,0,0,1710,5],
-"classMR_1_1TriTriDistanceResult__Float.html":[9,3,0,0,0,1711]
+"classMR_1_1TriTriDistanceResult__Double.html#adf279b7e5e2d513333926fa0ddd70f62":[9,3,0,0,0,1710,5]
 };

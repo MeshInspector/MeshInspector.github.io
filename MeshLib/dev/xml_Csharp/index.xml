@@ -52632,6 +52632,7 @@
     <member refid="classMR_1a4493996fa02a18f9a3db6e4475db77b9" kind="function"><name>findSelfCollidingEdgesBS</name></member>
     <member refid="classMR_1a9db4e30a56a12fef93111c28021fe572" kind="function"><name>isInside</name></member>
     <member refid="classMR_1aeea146b9109e63514a2e3f157109c3d3" kind="function"><name>isPointInsidePolyline</name></member>
+    <member refid="classMR_1a122851184065b72e8bbf3e7cdc368459" kind="function"><name>findGridPointsInsidePolyline</name></member>
     <member refid="classMR_1ad72d3356541afe5be8068f3f33975421" kind="function"><name>rayPolylineIntersect</name></member>
     <member refid="classMR_1a1fc2e48dcc63836ae45ed7197ebe0d8e" kind="function"><name>rayPolylineIntersect</name></member>
     <member refid="classMR_1aa432137cf88ae1e24a753b5e2f5fcde1" kind="function"><name>rayPolylineIntersectAll</name></member>
@@ -54462,6 +54463,7 @@
     <member refid="classMR_1a353761340940d87f3611e785c1652f9a" kind="function"><name>__MR_findSelfCollidingEdges</name></member>
     <member refid="classMR_1a6534ee09ae19afa814dbdeb53fe20285" kind="function"><name>__MR_findSelfCollidingEdgesBS</name></member>
     <member refid="classMR_1a8166b830d3b940aafcedc4001abc5fa9" kind="function"><name>__MR_isInside_MR_Polyline2</name></member>
+    <member refid="classMR_1a103ff1661a3f2b6c057da69debf963be" kind="function"><name>__MR_findGridPointsInsidePolyline</name></member>
     <member refid="classMR_1a73e968af9801969dab5ab9d834bc7c75" kind="function"><name>__MR_isPointInsidePolyline</name></member>
     <member refid="classMR_1aff7cdce3df25a7bf73cd15c32502901c" kind="function"><name>__MR_rayPolylineIntersectAll_MR_Line2d</name></member>
     <member refid="classMR_1afdd36014528ec5c71a55f5be0f0f11d6" kind="function"><name>__MR_rayPolylineIntersectAll_MR_Line2f</name></member>

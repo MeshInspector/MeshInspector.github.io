@@ -153,6 +153,7 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:acf93cf3a1f5ba3084dba6820c954ff9a" id="r_acf93cf3a1f5ba3084dba6820c954ff9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf93cf3a1f5ba3084dba6820c954ff9a">MR_isPointInsidePolyline</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *point)</td></tr>
 <tr class="memdesc:acf93cf3a1f5ba3084dba6820c954ff9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">detect if given point is inside polyline, by counting ray intersections  <br /></td></tr>
+<tr class="memitem:aacf369ee5c11c4481921d779278b1e68" id="r_aacf369ee5c11c4481921d779278b1e68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacf369ee5c11c4481921d779278b1e68">MR_findGridPointsInsidePolyline</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *dims, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *origin, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *step)</td></tr>
 <tr class="memitem:a8463401d85a2a242b7bd6a623bd29c6e" id="r_a8463401d85a2a242b7bd6a623bd29c6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8463401d85a2a242b7bd6a623bd29c6e">MR_PolylineIntersectionResult2_Get_edgePoint</a> (const <a class="el" href="#a3db0409fc80b9fae469a9fbca2407a83">MR_PolylineIntersectionResult2</a> *_this)</td></tr>
 <tr class="memitem:acffed28fd0cfc2889aed03314c390d45" id="r_acffed28fd0cfc2889aed03314c390d45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acffed28fd0cfc2889aed03314c390d45">MR_PolylineIntersectionResult2_Set_edgePoint</a> (<a class="el" href="#a3db0409fc80b9fae469a9fbca2407a83">MR_PolylineIntersectionResult2</a> *_this, const <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *value)</td></tr>
 <tr class="memitem:ad3515469858dddabec62b78e0c9dc3c8" id="r_ad3515469858dddabec62b78e0c9dc3c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3515469858dddabec62b78e0c9dc3c8">MR_PolylineIntersectionResult2_GetMutable_edgePoint</a> (<a class="el" href="#a3db0409fc80b9fae469a9fbca2407a83">MR_PolylineIntersectionResult2</a> *_this)</td></tr>
@@ -237,6 +238,44 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="aacf369ee5c11c4481921d779278b1e68" name="aacf369ee5c11c4481921d779278b1e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf369ee5c11c4481921d779278b1e68">&#9670;&#160;</a></span>MR_findGridPointsInsidePolyline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a36d7d5a26d258211a2da5d9311a0798c">MR_BitSet</a> * MR_findGridPointsInsidePolyline </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *</td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>origin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>step</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>checks every point ( step.x * x + origin.x, step.y * y + origin.y ) of a regular grid with 0 &lt;= x &lt; dims.x, 0 &lt;= y &lt; dims.y; gives the same results as isPointInsidePolyline, but traces only one ray per row of points </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">step</td><td>step.x must be positive </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bit set with dims.x * dims.y bits, where the bit ( x + y * dims.x ) is set if the point is inside Generated from function <span class="tt">MR::findGridPointsInsidePolyline</span>. Parameter <span class="tt">polyline</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">origin</span> is a single object. Parameter <span class="tt">origin</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">step</span> is a single object. Parameter <span class="tt">step</span> has a default argument: <span class="tt">MR::Vector2&lt;float&gt;::diagonal(1.0f)</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRBitSet_8h.html#a051229b3987e1901ba57e522e36f92cc" title="Destroys a heap-allocated instance of MR_BitSet. Does nothing if the pointer is null.">MR_BitSet_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
 <a id="acf93cf3a1f5ba3084dba6820c954ff9a" name="acf93cf3a1f5ba3084dba6820c954ff9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf93cf3a1f5ba3084dba6820c954ff9a">&#9670;&#160;</a></span>MR_isPointInsidePolyline()</h2>
 

@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1Const__CylinderObject.html#aa3e02a2e1275f7b0ee3a2adb2d3f3337":[9,3,0,0,0,388,27],
 "classMR_1_1Const__CylinderObject.html#aa5a382955286b8f6252922baaabc7aae":[9,3,0,0,0,388,3],
 "classMR_1_1Const__CylinderObject.html#aa9936749dbab62ca11048d6bacf74b06":[9,3,0,0,0,388,37],
 "classMR_1_1Const__CylinderObject.html#aa9e55a96f9be069bb2ff7f06eb0162eb":[9,3,0,0,0,388,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1Const__DenoiseViaNormalsSettings.html#ab75e6d03ccb32cf3e9593dd86357b2cf":[9,3,0,0,0,396,24],
 "classMR_1_1Const__DenoiseViaNormalsSettings.html#acf357e2c710dcddfe6f46593a680bae3":[9,3,0,0,0,396,10],
 "classMR_1_1Const__DenoiseViaNormalsSettings.html#ada08c71c90ae3f605c3bcede8e135979":[9,3,0,0,0,396,0],
-"classMR_1_1Const__DenoiseViaNormalsSettings.html#aea818b386b5c28c3e76a130f0848f6a9":[9,3,0,0,0,396,22],
-"classMR_1_1Const__DenoiseWithCreasesSettings.html":[9,3,0,0,0,397]
+"classMR_1_1Const__DenoiseViaNormalsSettings.html#aea818b386b5c28c3e76a130f0848f6a9":[9,3,0,0,0,396,22]
 };
