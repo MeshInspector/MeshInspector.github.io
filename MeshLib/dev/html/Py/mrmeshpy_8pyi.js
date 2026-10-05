@@ -2930,6 +2930,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.uniteManyMeshesMutable", "namespacemrmeshpy.html#aae1a005ae9ba36a4b4ad818dd4ce2139", null ],
     [ "mrmeshpy.unitVector3_double", "namespacemrmeshpy.html#a8357889b653d11fc06aa6a1ae5ee3f56", null ],
     [ "mrmeshpy.unitVector3_float", "namespacemrmeshpy.html#a1e4342178b6e8f2c013eaaffd713d4f2", null ],
+    [ "mrmeshpy.updateCollidingEdgeTrisPrecise", "namespacemrmeshpy.html#a59b08516e9c10f0d6b68aac6f38fb9fb", null ],
     [ "mrmeshpy.updateGroupPairs", "namespacemrmeshpy.html#a17e598a0e232b9697ccbd10510fdc251", null ],
     [ "mrmeshpy.updateIndicator", "namespacemrmeshpy.html#a322986d363a676bd2c06ef84f38a9b22", null ],
     [ "mrmeshpy.updateIndicatorFast", "namespacemrmeshpy.html#a3ea8641f8316100580fe3876fa072c2a", null ],

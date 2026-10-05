@@ -27,6 +27,7 @@ var MRMeshCollidePrecise_8h =
     [ "MR_findSelfCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#ae0ab0e425b25bb0a36561e010c034018", null ],
     [ "MR_getVectorConverters_1", "MRMeshCollidePrecise_8h.html#a542c00eb6846d8681ed69cc58d0b7f29", null ],
     [ "MR_getVectorConverters_3", "MRMeshCollidePrecise_8h.html#a189e3dabfd0a7a1ec3447323aaee4138", null ],
+    [ "MR_updateCollidingEdgeTrisPrecise", "MRMeshCollidePrecise_8h.html#a4b5a03ee75e89e17a7d9b9cf5794f430", null ],
     [ "MR_VarEdgeTri_AssignFromAnother", "MRMeshCollidePrecise_8h.html#a11e644047f96b475eaaa7f8210a8147e", null ],
     [ "MR_VarEdgeTri_Construct_2", "MRMeshCollidePrecise_8h.html#a03b2b4a118f6557a5c971beb9205ec44", null ],
     [ "MR_VarEdgeTri_Construct_3", "MRMeshCollidePrecise_8h.html#a4c8f7a0f7bd70b01012ba7032bd92c72", null ],

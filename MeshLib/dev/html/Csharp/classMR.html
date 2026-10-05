@@ -9944,6 +9944,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a81069e2066cb866085ff5113c64f47e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isNonIntersectingInside</span> deciding by the precise orient3d predicate, which is never undefined, unlike the sign of the distance in the area where the meshes touch one another  <br /></td></tr>
 <tr class="memitem:ae62ead4cec1fd8dca61367a5adfa45c3" id="r_ae62ead4cec1fd8dca61367a5adfa45c3"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRVarEdgeTri&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62ead4cec1fd8dca61367a5adfa45c3">findCollidingEdgeTrisPrecise</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> a, <a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> b, <a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a> conv, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, bool? anyIntersection=null)</td></tr>
 <tr class="memdesc:ae62ead4cec1fd8dca61367a5adfa45c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from one mesh and triangle from another mesh  <br /></td></tr>
+<tr class="memitem:a19201e872f5a250272ce9be57a39c4e8" id="r_a19201e872f5a250272ce9be57a39c4e8"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19201e872f5a250272ce9be57a39c4e8">updateCollidingEdgeTrisPrecise</a> (MR.Std.Vector_MRVarEdgeTri res, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> a, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> aFirstNewVert, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> b, <a class="el" href="structMR_1_1VertId.html">MR.VertId</a> bFirstNewVert, <a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a> conv, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null)</td></tr>
+<tr class="memdesc:a19201e872f5a250272ce9be57a39c4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <a class="el" href="classMR_1_1Mesh.html#aec3c07c4daca1f2cebe67ed88eba9652" title="updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) w...">Mesh.updateCachesAfterSplits</a>) or invalidated  <br /></td></tr>
 <tr class="memitem:ab2abde373576e0411ca25ca1dc12d848" id="r_ab2abde373576e0411ca25ca1dc12d848"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MREdgeTri&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2abde373576e0411ca25ca1dc12d848">findSelfCollidingEdgeTrisPrecise</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a> conv, bool? anyIntersection=null, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null, int? aVertSizes=null)</td></tr>
 <tr class="memdesc:ab2abde373576e0411ca25ca1dc12d848"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges and triangle within one mesh  <br /></td></tr>
 <tr class="memitem:adec767a5b13eec77c9c1f464825b34d0" id="r_adec767a5b13eec77c9c1f464825b34d0"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MREdgeTri&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec767a5b13eec77c9c1f464825b34d0">findCollidingEdgeTrisPrecise</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> a, MR.Std.Const_Vector_MREdgeId edgesA, <a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> b, MR.Std.Const_Vector_MRFaceId facesB, <a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a> conv, <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>? rigidB2A=null)</td></tr>
@@ -75482,6 +75484,69 @@ default metric: ComplexStitchMetric. </p>
 </div><div class="memdoc">
 
 <p>returns a point on unit sphere given two angles Generated from function <span class="tt"><a class="el" href="#acc0c11ba0b8ac541cf9e6c1bcc80357b" title="returns a point on unit sphere given two angles Generated from function MR.unitVector3&lt;float&gt;.">MR.unitVector3</a>&amp;lt;float&amp;gt;</span>. </p>
+
+</div>
+</div>
+<a id="a19201e872f5a250272ce9be57a39c4e8" name="a19201e872f5a250272ce9be57a39c4e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19201e872f5a250272ce9be57a39c4e8">&#9670;&#160;</a></span>updateCollidingEdgeTrisPrecise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.updateCollidingEdgeTrisPrecise </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Vector_MRVarEdgeTri</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1VertId.html">MR.VertId</a></td>          <td class="paramname"><span class="paramname"><em>aFirstNewVert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1VertId.html">MR.VertId</a></td>          <td class="paramname"><span class="paramname"><em>bFirstNewVert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__ConvertToIntVector.html">MR.Const_ConvertToIntVector</a></td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a>?</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <a class="el" href="classMR_1_1Mesh.html#aec3c07c4daca1f2cebe67ed88eba9652" title="updates existing caches after some faces were split into parts (e.g. by splitFace() or splitEdge()) w...">Mesh.updateCachesAfterSplits</a>) or invalidated </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">res</td><td>the result of findCollidingEdgeTrisPrecise with the same conv and rigidB2A before the splits </td></tr>
+    <tr><td class="paramname">aFirstNewVert</td><td>(bFirstNewVert) all vertices of mesh A (B) with this or larger ids appeared in the splits Generated from function <span class="tt"><a class="el" href="#a19201e872f5a250272ce9be57a39c4e8" title="updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges ...">MR.updateCollidingEdgeTrisPrecise</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

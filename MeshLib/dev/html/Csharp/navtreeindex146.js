@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html":[9,3,0,0,0,1860],
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a23f9be322d1e18e9c01c9843c6f3ec6c":[9,3,0,0,0,1860,1],
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a2de1bb0020086fb7b59ce1c78ae590ef":[9,3,0,0,0,1860,2],
 "classMR_1_1VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a5111ee884965dfaba967706c86657a13":[9,3,0,0,0,1860,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "classMR_1_1WatershedGraph.html#a18232b2ebc524ead9718a678045ba03e":[9,3,0,0,0,1861,4],
 "classMR_1_1WatershedGraph.html#a1e2e6c34cf43ba93e15747e4705abe48":[9,3,0,0,0,1861,7],
 "classMR_1_1WatershedGraph.html#a23d6b3bc273652e246115fee49451b6a":[9,3,0,0,0,1861,8],
-"classMR_1_1WatershedGraph.html#a5b2c2401848105a2680e58cd003d954c":[9,3,0,0,0,1861,5],
-"classMR_1_1WatershedGraph.html#ab19b95643e86cffe573d2e090d07a208":[9,3,0,0,0,1861,2]
+"classMR_1_1WatershedGraph.html#a5b2c2401848105a2680e58cd003d954c":[9,3,0,0,0,1861,5]
 };

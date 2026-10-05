@@ -1326,6 +1326,68 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshCollidePrecise.h" line="71" column="25" declfile="MRMesh/MRMeshCollidePrecise.h" declline="71" declcolumn="25"/>
       </memberdef>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga91e422710464a72aa3c6bb6894527e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::updateCollidingEdgeTrisPrecise</definition>
+        <argsstring>(PreciseCollisionResult &amp;res, const Mesh &amp;a, VertId aFirstNewVert, const Mesh &amp;b, VertId bFirstNewVert, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr)</argsstring>
+        <name>updateCollidingEdgeTrisPrecise</name>
+        <qualifiedname>MR::updateCollidingEdgeTrisPrecise</qualifiedname>
+        <param>
+          <type>PreciseCollisionResult &amp;</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>aFirstNewVert</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>bFirstNewVert</declname>
+        </param>
+        <param>
+          <type>ConvertToIntVector</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <ref refid="structMR_1_1Mesh_1a09a97bb00b1eac52db441f32170cbcc6" kindref="member">Mesh::updateCachesAfterSplits</ref>) or invalidated </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the result of findCollidingEdgeTrisPrecise with the same conv and rigidB2A before the splits </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aFirstNewVert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(bFirstNewVert) all vertices of mesh A (B) with this or larger ids appeared in the splits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="84" column="7" declfile="MRMesh/MRMeshCollidePrecise.h" declline="84" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeTri &gt;</type>
         <definition>std::vector&lt; EdgeTri &gt; MR::findSelfCollidingEdgeTrisPrecise</definition>
@@ -1388,7 +1450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="80" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="80" declcolumn="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="94" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="94" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeTri &gt;</type>
@@ -1428,7 +1490,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="84" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="84" declcolumn="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="98" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeTri &gt;</type>
@@ -1468,7 +1530,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="90" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="90" declcolumn="14"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="104" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CoordinateConverters</type>
@@ -1487,7 +1549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="98" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="23"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="112" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="112" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>CoordinateConverters</type>
@@ -1525,7 +1587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="104" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="23"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="118" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="118" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

@@ -19622,6 +19622,68 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="787" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="787" bodyend="792"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a19201e872f5a250272ce9be57a39c4e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.updateCollidingEdgeTrisPrecise</definition>
+        <argsstring>(MR.Std.Vector_MRVarEdgeTri res, MR.Const_Mesh a, MR.VertId aFirstNewVert, MR.Const_Mesh b, MR.VertId bFirstNewVert, MR.Const_ConvertToIntVector conv, MR.AffineXf3f? rigidB2A=null)</argsstring>
+        <name>updateCollidingEdgeTrisPrecise</name>
+        <qualifiedname>MR.updateCollidingEdgeTrisPrecise</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_MRVarEdgeTri</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>aFirstNewVert</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>bFirstNewVert</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConvertToIntVector" kindref="compound">MR.Const_ConvertToIntVector</ref></type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>rigidB2A</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by <ref refid="classMR_1_1Mesh_1aec3c07c4daca1f2cebe67ed88eba9652" kindref="member">Mesh.updateCachesAfterSplits</ref>) or invalidated </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the result of findCollidingEdgeTrisPrecise with the same conv and rigidB2A before the splits </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>aFirstNewVert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(bFirstNewVert) all vertices of mesh A (B) with this or larger ids appeared in the splits Generated from function <computeroutput><ref refid="classMR_1a19201e872f5a250272ce9be57a39c4e8" kindref="member">MR.updateCollidingEdgeTrisPrecise</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="805" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="805" bodyend="809"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1ab2abde373576e0411ca25ca1dc12d848" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri</type>
         <definition>static unsafe MR.Std.Vector_MREdgeTri MR.findSelfCollidingEdgeTrisPrecise</definition>
@@ -19684,7 +19746,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="803" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="803" bodyend="809"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="820" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="820" bodyend="826"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adec767a5b13eec77c9c1f464825b34d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri</type>
@@ -19724,7 +19786,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="815" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="815" bodyend="819"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="832" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="832" bodyend="836"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0c1f02c84a53e83ef23f31cd9f4ffbc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri</type>
@@ -19764,7 +19826,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="825" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="825" bodyend="829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="842" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="842" bodyend="846"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9afa81802de44df497bcf2bba8cb633d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CoordinateConverters" kindref="compound">MR.CoordinateConverters</ref></type>
@@ -19783,7 +19845,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="835" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="835" bodyend="838"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="852" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="852" bodyend="855"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7d825281edfcc75381c4efd918c6fc6e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CoordinateConverters" kindref="compound">MR.CoordinateConverters</ref></type>
@@ -19821,7 +19883,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="845" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="845" bodyend="849"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="862" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="862" bodyend="866"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5acec4e437ef0a28be3ff53f86661858" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DecimateResult" kindref="compound">MR.DecimateResult</ref></type>
@@ -67603,7 +67665,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="854" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="871" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1098e3e7047951ac5cdd49be173a3179" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri._Underlying *</type>
@@ -67641,7 +67703,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="857" column="59"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="874" column="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a198eeadec282406c0148098f728afdd9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri._Underlying *</type>
@@ -67679,7 +67741,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="860" column="59"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="877" column="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7ae906807a87c51b3e2b16af2f44c406" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri._Underlying *</type>
@@ -67713,7 +67775,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="863" column="59"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="880" column="59"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8cdd5f51a5b7d719c10a3c75b7259831" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.CoordinateConverters._Underlying *</type>
@@ -67731,7 +67793,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="866" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="883" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aabcf8aca5cfb21088005c840b0fb4960" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.CoordinateConverters._Underlying *</type>
@@ -67757,7 +67819,49 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="869" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="886" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1acd00d39456b2692535b662e1072e2755" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.__MR_updateCollidingEdgeTrisPrecise</definition>
+        <argsstring>(MR.Std.Vector_MRVarEdgeTri._Underlying *res, MR.Const_Mesh._Underlying *a, MR.VertId aFirstNewVert, MR.Const_Mesh._Underlying *b, MR.VertId bFirstNewVert, MR.ConvertToIntVector._Underlying *conv, MR.AffineXf3f *rigidB2A)</argsstring>
+        <name>__MR_updateCollidingEdgeTrisPrecise</name>
+        <qualifiedname>MR.__MR_updateCollidingEdgeTrisPrecise</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_MRVarEdgeTri._Underlying *</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>aFirstNewVert</declname>
+        </param>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>bFirstNewVert</declname>
+        </param>
+        <param>
+          <type>MR.ConvertToIntVector._Underlying *</type>
+          <declname>conv</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>rigidB2A</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="889" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9a3d3c0e242c5121cad23b8cdf458db0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.QuadraticForm3f._Underlying *</type>
@@ -100605,6 +100709,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a4bc89db3ea292f9ccd9ebe7e1d41c9a1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_uniteManyMeshesMutable</name></member>
       <member refid="classMR_1ade0c7702ba5b524435bbcc985236a4a1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_unitVector3_double</name></member>
       <member refid="classMR_1a5d7b41d751bf4f73aee680adbf555304" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_unitVector3_float</name></member>
+      <member refid="classMR_1acd00d39456b2692535b662e1072e2755" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_updateCollidingEdgeTrisPrecise</name></member>
       <member refid="classMR_1acbc3c29e38aa3af915919b76af40783d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_updateGroupPairs</name></member>
       <member refid="classMR_1aa58be1a2b15cb44c6b5f0262b0de5131" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_updateIndicator</name></member>
       <member refid="classMR_1a0b271a8486673c5a0938ca4423840dd7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_updateIndicatorFast</name></member>
@@ -102503,6 +102608,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a22a543bb144ce2ffb8de11f6fc182ed9" prot="public" virt="non-virtual"><scope>MR</scope><name>uniteManyMeshesMutable</name></member>
       <member refid="classMR_1acc0c11ba0b8ac541cf9e6c1bcc80357b" prot="public" virt="non-virtual"><scope>MR</scope><name>unitVector3</name></member>
       <member refid="classMR_1a3052bc668193cabaef66f826c74474cc" prot="public" virt="non-virtual"><scope>MR</scope><name>unitVector3</name></member>
+      <member refid="classMR_1a19201e872f5a250272ce9be57a39c4e8" prot="public" virt="non-virtual"><scope>MR</scope><name>updateCollidingEdgeTrisPrecise</name></member>
       <member refid="classMR_1a6027b8b74f4ebeecd72a953db5f82337" prot="public" virt="non-virtual"><scope>MR</scope><name>updateGroupPairs</name></member>
       <member refid="classMR_1a8f6461f22bfa379a6b38caeb730b911c" prot="public" virt="non-virtual"><scope>MR</scope><name>updateIndicator</name></member>
       <member refid="classMR_1a5f2f62d487701ed133ff3d6b84c06c45" prot="public" virt="non-virtual"><scope>MR</scope><name>updateIndicatorFast</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1TextMeshAlignParams.html":[9,0,0,20,562],
 "structMR_1_1ThickenParams.html":[9,0,0,20,423],
 "structMR_1_1ThreadRootTimeRecord.html":[9,0,0,3,14],
 "structMR_1_1ThreadRootTimeRecord.html#a3e5ba8456a90bb0fad95117f932b88b7":[9,0,0,3,14,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1VarEdgeTri.html#a2845a94e12c71150e5cc22e2c03a027d":[9,0,0,1,18,4],
 "structMR_1_1VarEdgeTri.html#a33184180e0f7658211800f7ad3720833":[9,0,0,1,18,5],
 "structMR_1_1VarEdgeTri.html#a40285e5911c3efc0fdba9474bce8129a":[9,0,0,1,18,10],
-"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[9,0,0,1,18,7],
-"structMR_1_1VarEdgeTri.html#a8e7c3895e3226b4e74de73d21cd4c4ad":[9,0,0,1,18,9]
+"structMR_1_1VarEdgeTri.html#a5f818bf5f96cbe4b5c899d56e9185ce6":[9,0,0,1,18,7]
 };

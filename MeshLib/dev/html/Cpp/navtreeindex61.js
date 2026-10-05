@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1WeightedShell.html#ad2ba4e4f0e0175fc0608e172a0619984":[9,0,1,0,1,54,4],
 "namespaceMR_1_1detail.html":[9,0,0,0,5,0],
 "namespaceMR_1_1detail.html":[9,0,0,20,14],
 "namespaceMR_1_1detail.html#a0c3c7fc10991c0eb99094bb42d438de2":[9,0,1,0,1,3,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1BooleanResultMapper.html#a2afc6594c031077012caba95a2ba2672":[9,0,0,8,0,5],
 "structMR_1_1BooleanResultMapper.html#a3a2abc280314da83919063aff2e0490f":[9,0,0,8,0,11],
 "structMR_1_1BooleanResultMapper.html#a3c9521a76c9f0ff1327150e75980e48f":[9,0,0,8,0,6],
-"structMR_1_1BooleanResultMapper.html#a4025520e93584d2b0b95e661d513df2b":[9,0,0,8,0,8],
-"structMR_1_1BooleanResultMapper.html#a49d9476b91391ce052bbd2b26db33be5":[9,0,0,8,0,10]
+"structMR_1_1BooleanResultMapper.html#a4025520e93584d2b0b95e661d513df2b":[9,0,0,8,0,8]
 };

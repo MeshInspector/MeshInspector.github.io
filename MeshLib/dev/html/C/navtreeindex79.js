@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"MRObjectTagEventDispatcher_8h.html#aea2f72f3b92b15192980bb2bb9b0606d":[9,2,2,0,0,0,0,1,242,6],
 "MRObjectTagEventDispatcher_8h_source.html":[9,2,2,0,0,0,0,1,242],
 "MRObjectVoxels_8h.html":[9,2,2,0,0,0,0,4,14],
 "MRObjectVoxels_8h.html#a007566e84375f229f2f9fac9f5c1fed1":[9,2,2,0,0,0,0,4,14,81],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "MRObjectsAccess_8h.html#a991f88491fbc68dae2ef0b27fe8b997a":[9,2,2,0,0,0,0,1,239,25],
 "MRObjectsAccess_8h.html#a9a3bde7539329e99c0ca4a5bc4291d36":[9,2,2,0,0,0,0,1,239,8],
 "MRObjectsAccess_8h.html#a9ac7016b7314e82735cc1b2acee1831b":[9,2,2,0,0,0,0,1,239,35],
-"MRObjectsAccess_8h.html#a9bdb802964df4e5c04597e5753808d50":[9,2,2,0,0,0,0,1,239,17],
-"MRObjectsAccess_8h.html#aa2c2e3f32c4e2936cb652ecaec0fbf19":[9,2,2,0,0,0,0,1,239,48]
+"MRObjectsAccess_8h.html#a9bdb802964df4e5c04597e5753808d50":[9,2,2,0,0,0,0,1,239,17]
 };

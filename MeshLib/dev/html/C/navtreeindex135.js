@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"expected__MR__ObjectDistanceMap__std__string_8h.html#a13021e70d9ea0c84bb81dc2494632c76":[9,2,2,0,0,0,0,2,16,4],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a17496b2406100eac9393ffed091877c5":[9,2,2,0,0,0,0,2,16,6],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a1e908f9ac1e836b05ff9ebb886fea329":[9,2,2,0,0,0,0,2,16,9],
 "expected__MR__ObjectDistanceMap__std__string_8h.html#a228b79f2cbf565b097a60628e2a3fb32":[9,2,2,0,0,0,0,2,16,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "expected__MR__TriMesh__std__string_8h.html#abfcd95827513a847c7de0d83a3db0aa0":[9,2,2,0,0,0,0,2,31,3],
 "expected__MR__TriMesh__std__string_8h.html#acb914f20d3445080ab5c4df9f7769422":[9,2,2,0,0,0,0,2,31,6],
 "expected__MR__TriMesh__std__string_8h.html#ad0f357e7c4f3d0c8da8cac4400aacbc3":[9,2,2,0,0,0,0,2,31,1],
-"expected__MR__TriMesh__std__string_8h_source.html":[9,2,2,0,0,0,0,2,31],
-"expected__MR__UndirectedEdgeBitSet__std__string_8h.html":[9,2,2,0,0,0,0,2,32]
+"expected__MR__TriMesh__std__string_8h_source.html":[9,2,2,0,0,0,0,2,31]
 };

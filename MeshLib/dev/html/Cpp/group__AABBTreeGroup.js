@@ -415,5 +415,6 @@ var group__AABBTreeGroup =
     [ "MR::rayPolylineIntersectAll", "group__AABBTreeGroup.html#ga9a7462ec4027240eb0a1161b6f626cb7", null ],
     [ "MR::rayPolylineIntersectAll", "group__AABBTreeGroup.html#ga6334c9f41d88763fea47f1a1af491d7a", null ],
     [ "MR::signedDistanceToMesh", "group__AABBTreeGroup.html#ga50fea0557381236d780b7ea113906a0f", null ],
+    [ "MR::updateCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga91e422710464a72aa3c6bb6894527e72", null ],
     [ "MR::xyPlaneMeshIntersect", "group__AABBTreeGroup.html#gaaca7d2972259949e2583eb7ddb97d335", null ]
 ];

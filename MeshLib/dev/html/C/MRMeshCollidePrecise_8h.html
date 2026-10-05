@@ -206,6 +206,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abf70969295656c08894a213e025587bf" id="r_abf70969295656c08894a213e025587bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf70969295656c08894a213e025587bf">MR_equal_MR_VarEdgeTri_FlaggedTri</a> (const <a class="el" href="#abf6a829f32de2170f9352ebcb68bf275">MR_VarEdgeTri_FlaggedTri</a> *_this, const <a class="el" href="#abf6a829f32de2170f9352ebcb68bf275">MR_VarEdgeTri_FlaggedTri</a> *_1)</td></tr>
 <tr class="memitem:aa0d3fe43222cd91fce172bf38905a668" id="r_aa0d3fe43222cd91fce172bf38905a668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3">MR_std_vector_MR_VarEdgeTri</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0d3fe43222cd91fce172bf38905a668">MR_findCollidingEdgeTrisPrecise_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a> *conv, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const bool *anyIntersection)</td></tr>
 <tr class="memdesc:aa0d3fe43222cd91fce172bf38905a668"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from one mesh and triangle from another mesh  <br /></td></tr>
+<tr class="memitem:a4b5a03ee75e89e17a7d9b9cf5794f430" id="r_a4b5a03ee75e89e17a7d9b9cf5794f430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5a03ee75e89e17a7d9b9cf5794f430">MR_updateCollidingEdgeTrisPrecise</a> (<a class="el" href="MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3">MR_std_vector_MR_VarEdgeTri</a> *res, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__VertId.html">MR_VertId</a> aFirstNewVert, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *b, <a class="el" href="structMR__VertId.html">MR_VertId</a> bFirstNewVert, const <a class="el" href="MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a> *conv, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memdesc:a4b5a03ee75e89e17a7d9b9cf5794f430"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by Mesh::updateCachesAfterSplits) or invalidated  <br /></td></tr>
 <tr class="memitem:ae0ab0e425b25bb0a36561e010c034018" id="r_ae0ab0e425b25bb0a36561e010c034018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIntersectionContour_8h.html#a3d502e2ab46b5aa656a771e8cbbb3ab9">MR_std_vector_MR_EdgeTri</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0ab0e425b25bb0a36561e010c034018">MR_findSelfCollidingEdgeTrisPrecise</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a> *conv, const bool *anyIntersection, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const int *aVertSizes)</td></tr>
 <tr class="memdesc:ae0ab0e425b25bb0a36561e010c034018"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges and triangle within one mesh  <br /></td></tr>
 <tr class="memitem:ad59817eb69bd24ce065d6ff8ef397a3e" id="r_ad59817eb69bd24ce065d6ff8ef397a3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIntersectionContour_8h.html#a3d502e2ab46b5aa656a771e8cbbb3ab9">MR_std_vector_MR_EdgeTri</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad59817eb69bd24ce065d6ff8ef397a3e">MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *edgesA, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *b, const <a class="el" href="MRExtractIsolines_8h.html#a94dee374602a203a401f6d452bedc8c8">MR_std_vector_MR_FaceId</a> *facesB, const <a class="el" href="MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a> *conv, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
@@ -847,6 +849,61 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation Generated from function <span class="tt">MR::getVectorConverters</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRPrecisePredicates3_8h.html#a5d32c606d9b1291955941491aafd3e5c" title="Destroys a heap-allocated instance of MR_CoordinateConverters. Does nothing if the pointer is null.">MR_CoordinateConverters_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4b5a03ee75e89e17a7d9b9cf5794f430" name="a4b5a03ee75e89e17a7d9b9cf5794f430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b5a03ee75e89e17a7d9b9cf5794f430">&#9670;&#160;</a></span>MR_updateCollidingEdgeTrisPrecise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_updateCollidingEdgeTrisPrecise </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#a1b4353d07e0d9c78080a20bc84d0ebf3">MR_std_vector_MR_VarEdgeTri</a> *</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>aFirstNewVert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>bFirstNewVert</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAlphaShape_8h.html#a109826dd6ebd783e9011351debdab874">MR_ConvertToIntVector</a> *</td>          <td class="paramname"><span class="paramname"><em>conv</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>rigidB2A</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>updates the result of findCollidingEdgeTrisPrecise( a, b, conv, rigidB2A ) after some faces or edges of the meshes were split (e.g. in subdivideLoneContours) with no other changes in the meshes: removes all intersections with the triangles around new vertices (the split triangles and their new parts) and with their edges, and finds them again, which is much faster than new search if few faces were split, but slower if many were split: so if more than 1/32 of all vertices are new, the function makes new search instead; the AABB trees of the meshes must be updated after the splits (e.g. by Mesh::updateCachesAfterSplits) or invalidated </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">res</td><td>the result of findCollidingEdgeTrisPrecise with the same conv and rigidB2A before the splits </td></tr>
+    <tr><td class="paramname">aFirstNewVert</td><td>(bFirstNewVert) all vertices of mesh A (B) with this or larger ids appeared in the splits Generated from function <span class="tt">MR::updateCollidingEdgeTrisPrecise</span>. Parameter <span class="tt">res</span> can not be null. It is a single object. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">conv</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. </td></tr>
   </table>
   </dd>
 </dl>

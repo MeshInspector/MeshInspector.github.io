@@ -8,5 +8,6 @@ var MRMeshCollidePrecise_8h =
     [ "MR::findSelfCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#gaa06a012aef3a0273d36e471fda3beb02", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga057f5379e01790297fec3ffe2573986e", null ],
     [ "MR::getVectorConverters", "group__AABBTreeGroup.html#ga55c0d6a31ffafbd8b8283f2a5aa70fb2", null ],
-    [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ]
+    [ "MR::operator==", "group__AABBTreeGroup.html#ga8f7cfd40975f9648e9785f72d75ff92d", null ],
+    [ "MR::updateCollidingEdgeTrisPrecise", "group__AABBTreeGroup.html#ga91e422710464a72aa3c6bb6894527e72", null ]
 ];

@@ -4142,6 +4142,7 @@ var classMR =
     [ "uniteManyMeshesMutable", "classMR.html#a22a543bb144ce2ffb8de11f6fc182ed9", null ],
     [ "unitVector3", "classMR.html#a3052bc668193cabaef66f826c74474cc", null ],
     [ "unitVector3", "classMR.html#acc0c11ba0b8ac541cf9e6c1bcc80357b", null ],
+    [ "updateCollidingEdgeTrisPrecise", "classMR.html#a19201e872f5a250272ce9be57a39c4e8", null ],
     [ "updateGroupPairs", "classMR.html#a6027b8b74f4ebeecd72a953db5f82337", null ],
     [ "updateIndicator", "classMR.html#a8f6461f22bfa379a6b38caeb730b911c", null ],
     [ "updateIndicatorFast", "classMR.html#a5f2f62d487701ed133ff3d6b84c06c45", null ],

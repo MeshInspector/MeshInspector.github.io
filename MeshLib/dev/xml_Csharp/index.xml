@@ -52194,6 +52194,7 @@
     <member refid="classMR_1aa3b24253bac89e8fd0dc3c3f1feb6109" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="classMR_1a81069e2066cb866085ff5113c64f47e9" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
     <member refid="classMR_1ae62ead4cec1fd8dca61367a5adfa45c3" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
+    <member refid="classMR_1a19201e872f5a250272ce9be57a39c4e8" kind="function"><name>updateCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1ab2abde373576e0411ca25ca1dc12d848" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1adec767a5b13eec77c9c1f464825b34d0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1a0c1f02c84a53e83ef23f31cd9f4ffbc5" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
@@ -54032,6 +54033,7 @@
     <member refid="classMR_1a7ae906807a87c51b3e2b16af2f44c406" kind="function"><name>__MR_findSelfCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1a8cdd5f51a5b7d719c10a3c75b7259831" kind="function"><name>__MR_getVectorConverters_1</name></member>
     <member refid="classMR_1aabcf8aca5cfb21088005c840b0fb4960" kind="function"><name>__MR_getVectorConverters_3</name></member>
+    <member refid="classMR_1acd00d39456b2692535b662e1072e2755" kind="function"><name>__MR_updateCollidingEdgeTrisPrecise</name></member>
     <member refid="classMR_1a9a3d3c0e242c5121cad23b8cdf458db0" kind="function"><name>__MR_computeFormAtVertex</name></member>
     <member refid="classMR_1a06df88249af2010a83656753328dc6ef" kind="function"><name>__MR_computeFormsAtVertices</name></member>
     <member refid="classMR_1a19fa5f0ec03ebb181bc7dec881c6afcc" kind="function"><name>__MR_decimateMesh</name></member>
