@@ -61561,12 +61561,13 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <qualifiedname>MR::SurfaceManipulationWidget::Settings::workMode</qualifiedname>
         <initializer>= WorkMode::Add</initializer>
         <briefdescription>
+<para>common settings </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="50" column="18" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="50" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="51" column="18" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga39181874053a773d7db01166de8a0c7b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -61582,7 +61583,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="51" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="51" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="52" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -61592,13 +61593,78 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxForce</qualifiedname>
         <initializer>= 0.2f</initializer>
         <briefdescription>
+<para>Relax mode. </para>
+        </briefdescription>
+        <detaileddescription>
 <para>speed of relaxing, typical values (0 - 0.5] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="55" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa5130dbea2eb02633e047cc5ea6de4ac" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::Settings::relaxKeepCreases</definition>
+        <argsstring></argsstring>
+        <name>relaxKeepCreases</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxKeepCreases</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>if true in Relax mode, the selected edges and creases of the mesh are kept sharp (meshDenoiseWithCreases is used instead of relax) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="52" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="52" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="56" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga35afa19ba19e1f04f714fdca6cffcf35" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SurfaceManipulationWidget::Settings::relaxNormalsSmoothing</definition>
+        <argsstring></argsstring>
+        <name>relaxNormalsSmoothing</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxNormalsSmoothing</qualifiedname>
+        <initializer>= 100.f</initializer>
+        <briefdescription>
+<para>if relaxKeepCreases, the amount of smoothing of face normals between creases (gamma in meshDenoiseWithCreases) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="57" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga9ca910333757dc98bcc8059b1cf58778" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SurfaceManipulationWidget::Settings::relaxPointIters</definition>
+        <argsstring></argsstring>
+        <name>relaxPointIters</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxPointIters</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>if relaxKeepCreases, the number of iterations to update vertex coordinates from smoothed normals </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="58" column="13" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gae86e1fae81f471d930030df9b1152dbf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SurfaceManipulationWidget::Settings::relaxMarkCreases</definition>
+        <argsstring></argsstring>
+        <name>relaxMarkCreases</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::Settings::relaxMarkCreases</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>if true and relaxKeepCreases, then on mouse up in Relax mode the selected edges in the smoothed area become creases </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="59" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -61608,13 +61674,14 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <qualifiedname>MR::SurfaceManipulationWidget::Settings::editForce</qualifiedname>
         <initializer>= 1.f</initializer>
         <briefdescription>
-<para>material thickness added or removed to the surface </para>
+<para>Add and Remove modes. </para>
         </briefdescription>
         <detaileddescription>
+<para>material thickness added or removed to the surface </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="53" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="53" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="62" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -61630,7 +61697,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="54" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="54" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="63" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -61646,39 +61713,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="55" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="55" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" prot="public" static="no" mutable="no">
-        <type>EdgeWeights</type>
-        <definition>EdgeWeights MR::SurfaceManipulationWidget::Settings::edgeWeights</definition>
-        <argsstring></argsstring>
-        <name>edgeWeights</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::edgeWeights</qualifiedname>
-        <initializer>= EdgeWeights::Cotan</initializer>
-        <briefdescription>
-<para>edge weights for <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and Patch </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="56" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="56" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" prot="public" static="no" mutable="no">
-        <type>VertexMass</type>
-        <definition>VertexMass MR::SurfaceManipulationWidget::Settings::vmass</definition>
-        <argsstring></argsstring>
-        <name>vmass</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::Settings::vmass</qualifiedname>
-        <initializer>= VertexMass::NeiArea</initializer>
-        <briefdescription>
-<para>vertex weights for <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and Patch </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="57" column="20" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="57" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="64" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -61694,7 +61729,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="58" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="58" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="65" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -61710,7 +61745,40 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="59" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="59" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="66" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" prot="public" static="no" mutable="no">
+        <type>EdgeWeights</type>
+        <definition>EdgeWeights MR::SurfaceManipulationWidget::Settings::edgeWeights</definition>
+        <argsstring></argsstring>
+        <name>edgeWeights</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::Settings::edgeWeights</qualifiedname>
+        <initializer>= EdgeWeights::Cotan</initializer>
+        <briefdescription>
+<para><ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and Patch modes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>edge weights for <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and Patch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="69" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" prot="public" static="no" mutable="no">
+        <type>VertexMass</type>
+        <definition>VertexMass MR::SurfaceManipulationWidget::Settings::vmass</definition>
+        <argsstring></argsstring>
+        <name>vmass</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::Settings::vmass</qualifiedname>
+        <initializer>= VertexMass::NeiArea</initializer>
+        <briefdescription>
+<para>vertex weights for <ref refid="classMR_1_1Laplacian" kindref="compound">Laplacian</ref> and Patch </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="70" column="20" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4c7f8ee88493130e68016e2b7fc658c6" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -61726,7 +61794,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="60" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="60" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="71" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1470ce9a66bc6a7554b36d69c81102e1" prot="protected" static="no" mutable="no">
         <type>Settings</type>
@@ -61740,7 +61808,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="176" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="176" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="189" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga83f58ee4ef74ddd5127a9de59ad0658e" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectMesh &gt;</type>
@@ -61754,7 +61822,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="178" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="178" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="191" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="191" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa0fd16498ab8c5a8415556c1e670724b" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -61768,7 +61836,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="179" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="179" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="192" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="192" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf9cf7388fbbb8c4053cd1f1403584d2d" prot="protected" static="no" mutable="no">
         <type>Vector2f</type>
@@ -61783,7 +61851,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="180" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="180" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="193" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="193" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9886221cbea0c54df9eba2ffb40c889f" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; MeshTriPoint &gt;</type>
@@ -61798,7 +61866,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="181" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="181" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="194" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2bb3cc2556966f7a514fefa8774cf9b9" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -61813,7 +61881,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="182" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="182" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="195" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="195" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga56cce88aefa27259841a2dee896b8812" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -61828,7 +61896,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="183" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="183" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="196" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacc7693d8223133cb63b0540ec58107aa" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -61843,7 +61911,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="184" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="184" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="197" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga36f9a86b24ef8363fa101445a7131338" prot="protected" static="no" mutable="no">
         <type>VertScalars</type>
@@ -61857,7 +61925,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="185" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="185" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="198" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="198" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaefb48658b014a85090a083256f594b26" prot="protected" static="no" mutable="no">
         <type>VertScalars</type>
@@ -61871,7 +61939,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="186" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="186" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="199" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="199" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf47cba96ac32e05d6105943185dc431b" prot="protected" static="no" mutable="no">
         <type>VertScalars</type>
@@ -61885,7 +61953,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="187" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="187" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="200" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga448684abe0f6d4ad9d419eed84251565" prot="protected" static="no" mutable="no">
         <type>VertScalars</type>
@@ -61899,7 +61967,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="188" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="188" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="201" column="17" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac6d7a49981ff378d5f791c4ec36bc73b" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; Mesh &gt;</type>
@@ -61914,7 +61982,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="189" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="189" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="202" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="202" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac7a2498fe16f6962cd02e3789909ab03" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -61929,7 +61997,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="190" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="190" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="203" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="203" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa4fd8214477b4cb504db49be1146ed47" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectMesh &gt;</type>
@@ -61943,7 +62011,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="191" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="191" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="204" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="204" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga76be206635ab7abc679ccdad3f0ab7e8" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -61959,7 +62027,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="192" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="192" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="205" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="205" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab29aa143377b68d247fab12b0da55a6a" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -61975,7 +62043,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="193" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="193" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="206" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="206" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2bce77a98a1b42394a4f68d72bcb1637" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -61990,7 +62058,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="195" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="195" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="208" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="208" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga19b5f418f871baaab19f8b61b09a900a" prot="protected" static="no" mutable="no">
         <type>boost::signals2::scoped_connection</type>
@@ -62004,7 +62072,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="197" column="40" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="197" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="210" column="40" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="210" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab48b92dfb4eab8bf8e44861c6b4d3751" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62020,7 +62088,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="198" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="198" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="211" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="211" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga184c41be698549192241c93c8cb1a573" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62035,7 +62103,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="200" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="200" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="213" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="213" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3fb404481401039261c3c4d8d7272b08" prot="protected" static="no" mutable="no">
         <type>VertId</type>
@@ -62051,7 +62119,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="203" column="12" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="203" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="216" column="12" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="216" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" prot="protected" static="no" mutable="no">
         <type>Vector3f</type>
@@ -62066,7 +62134,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="204" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="204" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="217" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="217" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" prot="protected" static="no" mutable="no">
         <type>Vector2i</type>
@@ -62080,7 +62148,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="205" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="205" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="218" column="14" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="218" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" prot="protected" static="no" mutable="no">
         <type>std::unique_ptr&lt; Laplacian &gt;</type>
@@ -62094,7 +62162,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="206" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="206" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="219" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="219" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga47539b64ca1aeaf07bf68c5d9642e7d0" prot="protected" static="no" mutable="no">
         <type>VertBitSet</type>
@@ -62109,7 +62177,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="209" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="209" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="222" column="16" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="222" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac3a67a467bdc711c843eebdc84c4afc0" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
@@ -62123,7 +62191,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="213" column="18" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="213" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="226" column="18" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="226" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf5f398eb21b5c7e30480b4dbea5e0a51" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -62139,7 +62207,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="214" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="214" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="227" column="15" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="227" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafb73c4c85c9d2f5882438cb0c5d6f17d" prot="protected" static="no" mutable="no">
         <type>HashMap&lt; VertId, PickedVertData &gt;</type>
@@ -62154,7 +62222,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="218" column="13" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="218" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="231" column="13" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="231" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; VersatileChangeMeshPointsAction &gt;</type>
@@ -62169,7 +62237,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="222" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="222" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="235" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="235" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62185,7 +62253,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="225" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="225" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="238" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="238" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; Palette &gt;</type>
@@ -62199,7 +62267,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="227" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="227" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="240" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="240" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62214,7 +62282,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="228" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="228" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="241" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="241" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" prot="protected" static="no" mutable="no">
         <type>DeviationCalculationMethod</type>
@@ -62229,7 +62297,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="229" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="229" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="242" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="242" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2584a189d7c7cfcd0164ea5fa581f09b" prot="protected" static="no" mutable="no">
         <type>DeviationCalculationMethod</type>
@@ -62245,7 +62313,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="230" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="230" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="243" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="243" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga32f9a2a3b8c9d57623374cb94a70f8b6" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62260,7 +62328,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="231" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="231" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="244" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="244" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62276,7 +62344,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="234" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="234" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="247" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="247" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga03c8e502f4a92fa8e57e0d50ed97524a" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62291,7 +62359,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="235" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="235" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="248" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="248" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaef0e9963d176c1ff1684083ddecd4fbe" prot="public" static="no" mutable="no">
         <type>PositionType</type>
@@ -182040,7 +182108,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="64" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="75" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga67a4ba46cf14092e8bf56898b7ade0fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182055,7 +182123,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="67" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="78" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac1ffece5d3e0b7195e322e80a7ccaa64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182078,7 +182146,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="72" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="83" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf2a354d3a5027e69da49b73352ace95e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182097,7 +182165,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="75" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="86" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf363fda9cae141a0a0c5ebe617c0499a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const Settings &amp;</type>
@@ -182112,7 +182180,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="78" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="78" bodyend="78"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="89" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="89" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b847ffedd36427c284019c278553bda" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -182127,7 +182195,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="82" column="12" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="82" bodyend="82"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="93" column="12" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="93" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac630e539a99b5bafb846ed70cae75f35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Palette &amp;</type>
@@ -182142,7 +182210,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="85" column="13" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="85" bodyend="85"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="96" column="13" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6c46de82558f8d178be7daf5e0448a73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182157,7 +182225,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="88" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="99" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6588dff0dd0d4df97210457d94e09a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182172,7 +182240,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="91" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="102" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga181dd74e48211e1559bf51c95ea04b5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182191,7 +182259,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="94" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="105" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga56a5628a874646dfb5089e6639a1d01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182210,7 +182278,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="98" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="109" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga76aa039e8ae336abe7f7ed7b9cfa2022" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>DeviationCalculationMethod</type>
@@ -182225,7 +182293,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="101" column="33" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="101" bodyend="101"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="112" column="33" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga998ed9f5a542e8c57a1949c38c3a9802" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -182240,7 +182308,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="104" column="11" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="104" bodyend="104"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="115" column="11" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="115" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga83d9ce87019abe28e4413297ac6d01ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector2f</type>
@@ -182255,7 +182323,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="107" column="15"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="118" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3bc89f53e9455e469e85b68524cbc035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -182274,7 +182342,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="110" column="11" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="110" bodyend="110"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="121" column="11" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="121" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf2026eeba0e30566834023085a3b9aac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -182288,7 +182356,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="111" column="11" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="111" bodyend="111"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="122" column="11" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="122" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga18aa909790d847163a6e7d2ad4ed145a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -182307,7 +182375,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="114" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="114" bodyend="114"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="125" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="125" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad2b38b4c5264c1e038e71ddbea2b4e19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -182322,7 +182390,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="117" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="117" bodyend="117"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="128" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="128" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6a788ede5edad08a10293e286f1724e1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -182345,7 +182413,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="121" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="132" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5908d79f6a7abc4a8c3f6aa0ac4d69a5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -182368,7 +182436,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="124" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="135" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf525f25d8f06e87086f030e616006f6b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -182391,7 +182459,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="127" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="138" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae826bf629c48be2db7b2635290b59a5c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182406,7 +182474,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="130" column="11"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="141" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf966053fe76fc7b6c4277b3203c4afe7" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -182427,7 +182495,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="134" column="19" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="134" bodyend="134"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="145" column="19" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="145" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaca77ba72f9e08e06f95cf55a5c215808" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -182450,7 +182518,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="138" column="19"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="149" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6bf4b908832273c2d2b0dff19ba3eddc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182468,7 +182536,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="140" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="151" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f27b490ad008b35fb24b4fb9d4ae8da" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182482,7 +182550,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="141" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="152" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga959fcbd7bbe023bb87adc1de1a8dda45" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182496,7 +182564,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="143" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="154" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga87e780495d7aae0fc12390c68b58631d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182510,7 +182578,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="144" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="155" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e617c68f73988a733f41d84e9f780ec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182524,7 +182592,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="146" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="157" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae4b9515fa9dae25aae35292c7e2b87e6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182547,7 +182615,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="147" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="158" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf2e20a55a28b2f567d2c8197674fd9d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182565,7 +182633,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="148" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="159" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga405e5904bb2f5f323394b020acdb5b67" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182579,7 +182647,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="149" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="160" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadd0ddfdc3b43ddc99dec3be877b7a919" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182593,7 +182661,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="150" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="161" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga365040ea11094054ee08f4ddc7ee4ac1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182612,7 +182680,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="153" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="164" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad41aeaafb3e4c8632a313f4d729c3561" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182631,7 +182699,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="154" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="165" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga297618816e83dce980de3f9075d4657a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182649,7 +182717,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="155" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="166" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafd37fd93e8c51f4037dda6a9b72ee3d7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182664,7 +182732,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="158" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="169" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga48b4a6109c413aa4b50e445d75db016a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182682,7 +182750,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="160" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="171" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8d43ee87f7e0a5475028a3d1b0ba4940" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182700,7 +182768,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="161" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="172" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad651996bd721dcebc5e4a9da9d307617" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182718,7 +182786,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="162" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="173" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf7d88774175c7d5272ce114c8f7ec8d4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182736,7 +182804,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="163" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="174" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa523360f594c4085afd84c62654681d4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182754,7 +182822,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="164" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="175" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1ec79535e6a70009906b9e2f0008cb22" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182768,7 +182836,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="165" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="176" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8b49dc6133efe789f4fa17bb75f3641c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182782,7 +182850,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="166" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="177" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad1d907cbe938c1010826d617b7b662e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182797,7 +182865,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="170" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="181" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9480cf2e836bdd55ef97b31078472b78" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182811,7 +182879,22 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="172" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="183" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gac824dfb2a9c89c4a4904e04151d6dfdb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SurfaceManipulationWidget::markSelectedEdgesAsCreases_</definition>
+        <argsstring>()</argsstring>
+        <name>markSelectedEdgesAsCreases_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::markSelectedEdgesAsCreases_</qualifiedname>
+        <briefdescription>
+<para>selected edges having a face in generalEditingRegion_ become creases (with undo) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="185" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadf5109d449597873be4c158a237ce02f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182845,7 +182928,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="174" column="10"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="187" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e9391f8516c7ce8bfa47457eac393de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

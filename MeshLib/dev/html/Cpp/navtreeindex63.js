@@ -1,5 +1,10 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DragEndListener.html":[9,0,0,20,795],
+"structMR_1_1DragEntranceListener.html":[9,0,0,20,806],
+"structMR_1_1DragListener.html":[9,0,0,20,796],
+"structMR_1_1DragOverListener.html":[9,0,0,20,807],
+"structMR_1_1DragStartListener.html":[9,0,0,20,794],
 "structMR_1_1DrawButtonParams.html":[9,0,0,20,679],
 "structMR_1_1DrawListener.html":[9,0,0,20,803],
 "structMR_1_1DrawSceneUiListener.html":[9,0,0,20,610],
@@ -244,10 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[9,0,1,0,1,15,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[9,0,2,0,2,6,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[9,0,1,0,1,15,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[9,0,2,0,2,6,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[9,0,1,0,1,15,0,7],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[9,0,2,0,2,6,0,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[9,0,1,0,1,16,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[9,0,2,0,2,7,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[9,0,1,0,1,16,0,0]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[9,0,2,0,2,6,0,6]
 };

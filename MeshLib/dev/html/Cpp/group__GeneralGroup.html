@@ -10368,6 +10368,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga8b49dc6133efe789f4fa17bb75f3641c" id="r_ga8b49dc6133efe789f4fa17bb75f3641c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8b49dc6133efe789f4fa17bb75f3641c">MR::SurfaceManipulationWidget::removeLastStableObjMesh_</a> ()</td></tr>
 <tr class="memitem:gad1d907cbe938c1010826d617b7b662e8" id="r_gad1d907cbe938c1010826d617b7b662e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1d907cbe938c1010826d617b7b662e8">MR::SurfaceManipulationWidget::compressChangePointsAction_</a> ()</td></tr>
 <tr class="memitem:ga9480cf2e836bdd55ef97b31078472b78" id="r_ga9480cf2e836bdd55ef97b31078472b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9480cf2e836bdd55ef97b31078472b78">MR::SurfaceManipulationWidget::subdivideAfterAddRemove_</a> ()</td></tr>
+<tr class="memitem:gac824dfb2a9c89c4a4904e04151d6dfdb" id="r_gac824dfb2a9c89c4a4904e04151d6dfdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac824dfb2a9c89c4a4904e04151d6dfdb">MR::SurfaceManipulationWidget::markSelectedEdgesAsCreases_</a> ()</td></tr>
+<tr class="memdesc:gac824dfb2a9c89c4a4904e04151d6dfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">selected edges having a face in generalEditingRegion_ become creases (with undo)  <br /></td></tr>
 <tr class="memitem:gadf5109d449597873be4c158a237ce02f" id="r_gadf5109d449597873be4c158a237ce02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf5109d449597873be4c158a237ce02f">MR::SurfaceManipulationWidget::updateDistancesAndRegion_</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;start, VertScalars &amp;distances, VertBitSet &amp;region, const VertBitSet *untouchable)</td></tr>
 <tr class="memitem:ga0e9391f8516c7ce8bfa47457eac393de" id="r_ga0e9391f8516c7ce8bfa47457eac393de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e9391f8516c7ce8bfa47457eac393de">MR::SurfacePointWidget::~SurfacePointWidget</a> ()</td></tr>
 <tr class="memitem:gaadc0a7d57266cccc5ac9edfc261e5671" id="r_gaadc0a7d57266cccc5ac9edfc261e5671"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadc0a7d57266cccc5ac9edfc261e5671">MR::SurfacePointWidget::create</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;surface, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;startPos)</td></tr>
@@ -14395,24 +14397,33 @@ Variables</h2></td></tr>
 <tr class="memitem:gad910ff2766e17a565cfa33cb6eefc831" id="r_gad910ff2766e17a565cfa33cb6eefc831"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad910ff2766e17a565cfa33cb6eefc831">MR::PluginCloseOnChangePointCloud::pointCloudChanged_</a> { false }</td></tr>
 <tr class="memdesc:gad910ff2766e17a565cfa33cb6eefc831"><td class="mdescLeft">&#160;</td><td class="mdescRight">plugin can return the value to false after points change if it changed the mesh by itself and does not want to close  <br /></td></tr>
 <tr class="memitem:ga112aadc006f7ece0404c1cbe603783cd" id="r_ga112aadc006f7ece0404c1cbe603783cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaaf2bf24fbfd2017b8037ed9cab3df93c">WorkMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga112aadc006f7ece0404c1cbe603783cd">MR::SurfaceManipulationWidget::Settings::workMode</a> = <a class="el" href="#ggaaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9">WorkMode::Add</a></td></tr>
+<tr class="memdesc:ga112aadc006f7ece0404c1cbe603783cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">common settings  <br /></td></tr>
 <tr class="memitem:ga39181874053a773d7db01166de8a0c7b" id="r_ga39181874053a773d7db01166de8a0c7b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39181874053a773d7db01166de8a0c7b">MR::SurfaceManipulationWidget::Settings::radius</a> = 1.f</td></tr>
 <tr class="memdesc:ga39181874053a773d7db01166de8a0c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">radius of editing region  <br /></td></tr>
 <tr class="memitem:ga2d31568cac0bf19969e4cc51dc854a14" id="r_ga2d31568cac0bf19969e4cc51dc854a14"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d31568cac0bf19969e4cc51dc854a14">MR::SurfaceManipulationWidget::Settings::relaxForce</a> = 0.2f</td></tr>
-<tr class="memdesc:ga2d31568cac0bf19969e4cc51dc854a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">speed of relaxing, typical values (0 - 0.5]  <br /></td></tr>
+<tr class="memdesc:ga2d31568cac0bf19969e4cc51dc854a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Relax mode.  <br /></td></tr>
+<tr class="memitem:gaa5130dbea2eb02633e047cc5ea6de4ac" id="r_gaa5130dbea2eb02633e047cc5ea6de4ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa5130dbea2eb02633e047cc5ea6de4ac">MR::SurfaceManipulationWidget::Settings::relaxKeepCreases</a> = false</td></tr>
+<tr class="memdesc:gaa5130dbea2eb02633e047cc5ea6de4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true in Relax mode, the selected edges and creases of the mesh are kept sharp (meshDenoiseWithCreases is used instead of relax)  <br /></td></tr>
+<tr class="memitem:ga35afa19ba19e1f04f714fdca6cffcf35" id="r_ga35afa19ba19e1f04f714fdca6cffcf35"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35afa19ba19e1f04f714fdca6cffcf35">MR::SurfaceManipulationWidget::Settings::relaxNormalsSmoothing</a> = 100.f</td></tr>
+<tr class="memdesc:ga35afa19ba19e1f04f714fdca6cffcf35"><td class="mdescLeft">&#160;</td><td class="mdescRight">if relaxKeepCreases, the amount of smoothing of face normals between creases (gamma in meshDenoiseWithCreases)  <br /></td></tr>
+<tr class="memitem:ga9ca910333757dc98bcc8059b1cf58778" id="r_ga9ca910333757dc98bcc8059b1cf58778"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ca910333757dc98bcc8059b1cf58778">MR::SurfaceManipulationWidget::Settings::relaxPointIters</a> = 3</td></tr>
+<tr class="memdesc:ga9ca910333757dc98bcc8059b1cf58778"><td class="mdescLeft">&#160;</td><td class="mdescRight">if relaxKeepCreases, the number of iterations to update vertex coordinates from smoothed normals  <br /></td></tr>
+<tr class="memitem:gae86e1fae81f471d930030df9b1152dbf" id="r_gae86e1fae81f471d930030df9b1152dbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae86e1fae81f471d930030df9b1152dbf">MR::SurfaceManipulationWidget::Settings::relaxMarkCreases</a> = true</td></tr>
+<tr class="memdesc:gae86e1fae81f471d930030df9b1152dbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true and relaxKeepCreases, then on mouse up in Relax mode the selected edges in the smoothed area become creases  <br /></td></tr>
 <tr class="memitem:gab14405334e68a28589b518f7764d2176" id="r_gab14405334e68a28589b518f7764d2176"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab14405334e68a28589b518f7764d2176">MR::SurfaceManipulationWidget::Settings::editForce</a> = 1.f</td></tr>
-<tr class="memdesc:gab14405334e68a28589b518f7764d2176"><td class="mdescLeft">&#160;</td><td class="mdescRight">material thickness added or removed to the surface  <br /></td></tr>
+<tr class="memdesc:gab14405334e68a28589b518f7764d2176"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add and Remove modes.  <br /></td></tr>
 <tr class="memitem:gac91503b98cd4530afb0bafe21f09b924" id="r_gac91503b98cd4530afb0bafe21f09b924"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac91503b98cd4530afb0bafe21f09b924">MR::SurfaceManipulationWidget::Settings::sharpness</a> = 50.f</td></tr>
 <tr class="memdesc:gac91503b98cd4530afb0bafe21f09b924"><td class="mdescLeft">&#160;</td><td class="mdescRight">effect of force on points far from center editing area. [0 - 100]  <br /></td></tr>
 <tr class="memitem:gab3d9e28df35121c177e6e2eead86a43a" id="r_gab3d9e28df35121c177e6e2eead86a43a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab3d9e28df35121c177e6e2eead86a43a">MR::SurfaceManipulationWidget::Settings::relaxForceAfterEdit</a> = 0.25f</td></tr>
 <tr class="memdesc:gab3d9e28df35121c177e6e2eead86a43a"><td class="mdescLeft">&#160;</td><td class="mdescRight">force of relaxing modified area after editing (add / remove) is complete. [0 - 0.5], 0 - not relax  <br /></td></tr>
-<tr class="memitem:ga2bf410c025634089f22b3341825cd20b" id="r_ga2bf410c025634089f22b3341825cd20b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2bf410c025634089f22b3341825cd20b">MR::SurfaceManipulationWidget::Settings::edgeWeights</a> = <a class="el" href="#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
-<tr class="memdesc:ga2bf410c025634089f22b3341825cd20b"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge weights for <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch  <br /></td></tr>
-<tr class="memitem:gaab506cf4d0c39bc59ac2ac941047014b" id="r_gaab506cf4d0c39bc59ac2ac941047014b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab506cf4d0c39bc59ac2ac941047014b">MR::SurfaceManipulationWidget::Settings::vmass</a> = <a class="el" href="#ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06">VertexMass::NeiArea</a></td></tr>
-<tr class="memdesc:gaab506cf4d0c39bc59ac2ac941047014b"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertex weights for <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch  <br /></td></tr>
 <tr class="memitem:ga85a36f3e76609b4c85759a1e84f534bb" id="r_ga85a36f3e76609b4c85759a1e84f534bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85a36f3e76609b4c85759a1e84f534bb">MR::SurfaceManipulationWidget::Settings::laplacianBasedAddRemove</a> = false</td></tr>
 <tr class="memdesc:ga85a36f3e76609b4c85759a1e84f534bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true in Add/Remove modes, the modification will be done using <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> solver, where the closest vertices will be attracted toward mouse cursor to form ideal ridges or grooves  <br /></td></tr>
 <tr class="memitem:ga3ef41c990eabe59d5dbc874d00accf52" id="r_ga3ef41c990eabe59d5dbc874d00accf52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3ef41c990eabe59d5dbc874d00accf52">MR::SurfaceManipulationWidget::Settings::subdivideGrooves</a> = false</td></tr>
 <tr class="memdesc:ga3ef41c990eabe59d5dbc874d00accf52"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true in Add/Remove modes, changed parts of mesh will be subdivided on mouse up  <br /></td></tr>
+<tr class="memitem:ga2bf410c025634089f22b3341825cd20b" id="r_ga2bf410c025634089f22b3341825cd20b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2bf410c025634089f22b3341825cd20b">MR::SurfaceManipulationWidget::Settings::edgeWeights</a> = <a class="el" href="#gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
+<tr class="memdesc:ga2bf410c025634089f22b3341825cd20b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch modes.  <br /></td></tr>
+<tr class="memitem:gaab506cf4d0c39bc59ac2ac941047014b" id="r_gaab506cf4d0c39bc59ac2ac941047014b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab506cf4d0c39bc59ac2ac941047014b">MR::SurfaceManipulationWidget::Settings::vmass</a> = <a class="el" href="#ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06">VertexMass::NeiArea</a></td></tr>
+<tr class="memdesc:gaab506cf4d0c39bc59ac2ac941047014b"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertex weights for <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch  <br /></td></tr>
 <tr class="memitem:ga4c7f8ee88493130e68016e2b7fc658c6" id="r_ga4c7f8ee88493130e68016e2b7fc658c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c7f8ee88493130e68016e2b7fc658c6">MR::SurfaceManipulationWidget::Settings::mimicPatch</a> = false</td></tr>
 <tr class="memdesc:ga4c7f8ee88493130e68016e2b7fc658c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true in Patch mode mixes <span class="tt">CloseSurfaceFillMetric</span> and disables smoothing  <br /></td></tr>
 <tr class="memitem:ga1470ce9a66bc6a7554b36d69c81102e1" id="r_ga1470ce9a66bc6a7554b36d69c81102e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1SurfaceManipulationWidget_1_1Settings.html">Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1470ce9a66bc6a7554b36d69c81102e1">MR::SurfaceManipulationWidget::settings_</a></td></tr>
@@ -120265,6 +120276,35 @@ template&lt;typename ValueT, typename IndexT&gt; </div>
 
 </div>
 </div>
+<a id="gac824dfb2a9c89c4a4904e04151d6dfdb" name="gac824dfb2a9c89c4a4904e04151d6dfdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac824dfb2a9c89c4a4904e04151d6dfdb">&#9670;&#160;</a></span>markSelectedEdgesAsCreases_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::SurfaceManipulationWidget::markSelectedEdgesAsCreases_ </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSurfaceManipulationWidget_8h.html">MRViewer/MRSurfaceManipulationWidget.h</a>&gt;</code></p>
+
+<p>selected edges having a face in generalEditingRegion_ become creases (with undo) </p>
+
+</div>
+</div>
 <a id="ga11b0766cdd3a2c4ef934d13fe73ab629" name="ga11b0766cdd3a2c4ef934d13fe73ab629"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga11b0766cdd3a2c4ef934d13fe73ab629">&#9670;&#160;</a></span>Matrix2() <span class="overload">[1/3]</span></h2>
 
@@ -213317,6 +213357,7 @@ template&lt;typename L&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch modes. </p>
 <p>edge weights for <a class="el" href="classMR_1_1Laplacian.html">Laplacian</a> and Patch </p>
 
 </div>
@@ -213419,6 +213460,7 @@ template&lt;typename L&gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>Add and Remove modes. </p>
 <p>material thickness added or removed to the surface </p>
 
 </div>
@@ -230488,6 +230530,7 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
       </table>
 </div><div class="memdoc">
 
+<p>Relax mode. </p>
 <p>speed of relaxing, typical values (0 - 0.5] </p>
 
 </div>
@@ -230553,6 +230596,70 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 </div><div class="memdoc">
 
 <p>Maximum relax iterations. </p>
+
+</div>
+</div>
+<a id="gaa5130dbea2eb02633e047cc5ea6de4ac" name="gaa5130dbea2eb02633e047cc5ea6de4ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa5130dbea2eb02633e047cc5ea6de4ac">&#9670;&#160;</a></span>relaxKeepCreases</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SurfaceManipulationWidget::Settings::relaxKeepCreases = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true in Relax mode, the selected edges and creases of the mesh are kept sharp (meshDenoiseWithCreases is used instead of relax) </p>
+
+</div>
+</div>
+<a id="gae86e1fae81f471d930030df9b1152dbf" name="gae86e1fae81f471d930030df9b1152dbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae86e1fae81f471d930030df9b1152dbf">&#9670;&#160;</a></span>relaxMarkCreases</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::SurfaceManipulationWidget::Settings::relaxMarkCreases = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if true and relaxKeepCreases, then on mouse up in Relax mode the selected edges in the smoothed area become creases </p>
+
+</div>
+</div>
+<a id="ga35afa19ba19e1f04f714fdca6cffcf35" name="ga35afa19ba19e1f04f714fdca6cffcf35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga35afa19ba19e1f04f714fdca6cffcf35">&#9670;&#160;</a></span>relaxNormalsSmoothing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::SurfaceManipulationWidget::Settings::relaxNormalsSmoothing = 100.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if relaxKeepCreases, the amount of smoothing of face normals between creases (gamma in meshDenoiseWithCreases) </p>
+
+</div>
+</div>
+<a id="ga9ca910333757dc98bcc8059b1cf58778" name="ga9ca910333757dc98bcc8059b1cf58778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ca910333757dc98bcc8059b1cf58778">&#9670;&#160;</a></span>relaxPointIters</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::SurfaceManipulationWidget::Settings::relaxPointIters = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>if relaxKeepCreases, the number of iterations to update vertex coordinates from smoothed normals </p>
 
 </div>
 </div>
@@ -240994,6 +241101,8 @@ template&lt;typename ObjectT = Object&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>common settings </p>
 
 </div>
 </div>

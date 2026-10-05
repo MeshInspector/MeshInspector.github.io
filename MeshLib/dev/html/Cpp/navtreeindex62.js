@@ -1,5 +1,10 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[9,0,0,8,0,0,2],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[9,0,0,8,0,0,0],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[9,0,0,8,0,0,1],
+"structMR_1_1BooleanResultMapper_1_1Maps.html#accfdff73b6e9b6265313ff04878b8973":[9,0,0,8,0,0,3],
+"structMR_1_1BooleanResultPoints.html":[9,0,1,0,1,103],
 "structMR_1_1BooleanResultPoints.html":[9,0,2,0,2,85],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,1,0,1,103,2],
 "structMR_1_1BooleanResultPoints.html#a73c3b72527fa64512c86e99d2c0ce6c4":[9,0,2,0,2,85,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DividePointCloudOptionalOutput.html":[9,0,0,20,447],
 "structMR_1_1DividePolylineParameters.html":[9,0,0,20,464],
 "structMR_1_1DoubleOffsetSettings.html":[9,0,0,20,908],
-"structMR_1_1DragDropListener.html":[9,0,0,20,805],
-"structMR_1_1DragEndListener.html":[9,0,0,20,795],
-"structMR_1_1DragEntranceListener.html":[9,0,0,20,806],
-"structMR_1_1DragListener.html":[9,0,0,20,796],
-"structMR_1_1DragOverListener.html":[9,0,0,20,807],
-"structMR_1_1DragStartListener.html":[9,0,0,20,794]
+"structMR_1_1DragDropListener.html":[9,0,0,20,805]
 };

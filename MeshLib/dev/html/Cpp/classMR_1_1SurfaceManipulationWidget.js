@@ -34,6 +34,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "isEditOnlyCodirectedSurface", "group__GeneralGroup.html#gad2b38b4c5264c1e038e71ddbea2b4e19", null ],
     [ "laplacianMoveVert_", "group__GeneralGroup.html#ga297618816e83dce980de3f9075d4657a", null ],
     [ "laplacianPickVert_", "group__GeneralGroup.html#gad41aeaafb3e4c8632a313f4d729c3561", null ],
+    [ "markSelectedEdgesAsCreases_", "group__GeneralGroup.html#gac824dfb2a9c89c4a4904e04151d6dfdb", null ],
     [ "onMouseDown_", "group__GeneralGroup.html#ga6a788ede5edad08a10293e286f1724e1", null ],
     [ "onMouseMove_", "group__GeneralGroup.html#gaf525f25d8f06e87086f030e616006f6b", null ],
     [ "onMouseUp_", "group__GeneralGroup.html#ga5908d79f6a7abc4a8c3f6aa0ac4d69a5", null ],
