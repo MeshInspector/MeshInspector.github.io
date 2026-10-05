@@ -9468,6 +9468,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gab11bc5dfefdb4e93bd73731421566acf" id="r_gab11bc5dfefdb4e93bd73731421566acf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab11bc5dfefdb4e93bd73731421566acf">MR::ProgressBar::callBackSetProgress</a> (float p)</td></tr>
 <tr class="memitem:gae0dfc3a5d6c1229334b6a4cb1b0e9d76" id="r_gae0dfc3a5d6c1229334b6a4cb1b0e9d76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae0dfc3a5d6c1229334b6a4cb1b0e9d76">MR::ProgressBar::simpleCallBackSetProgress</a> (float p)</td></tr>
 <tr class="memitem:ga70ad4ef298be59d96e5d1def879b9e93" id="r_ga70ad4ef298be59d96e5d1def879b9e93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70ad4ef298be59d96e5d1def879b9e93">MR::ProgressBar::printTimingTree</a> (double minTimeSec=0.1)</td></tr>
+<tr class="memitem:gad5f4df8e16c18beb7b823f5b8ef7a98c" id="r_gad5f4df8e16c18beb7b823f5b8ef7a98c"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
+<tr class="memitem:gad5f4df8e16c18beb7b823f5b8ef7a98c template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5f4df8e16c18beb7b823f5b8ef7a98c">MR::pythonRunCommandFromGUIThread</a> (F &amp;&amp;f)</td></tr>
 <tr class="memitem:gaf07768b4409c36a0b8cc9b9849f82691" id="r_gaf07768b4409c36a0b8cc9b9849f82691"><td class="memTemplParams" colspan="2">template&lt;typename F, typename... Args&gt; </td></tr>
 <tr class="memitem:gaf07768b4409c36a0b8cc9b9849f82691 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf07768b4409c36a0b8cc9b9849f82691">MR::pythonAppendOrRun</a> (F func, Args &amp;&amp;... args)</td></tr>
 <tr class="memitem:ga0f61ad5fbd50836547b99cd10c78763f" id="r_ga0f61ad5fbd50836547b99cd10c78763f"><td class="memTemplParams" colspan="2">template&lt;typename R, typename... Args&gt; </td></tr>
@@ -152047,6 +152049,28 @@ template&lt;typename F, typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRPython_8h.html">MRPython/MRPython.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gad5f4df8e16c18beb7b823f5b8ef7a98c" name="gad5f4df8e16c18beb7b823f5b8ef7a98c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5f4df8e16c18beb7b823f5b8ef7a98c">&#9670;&#160;</a></span>pythonRunCommandFromGUIThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename F&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::pythonRunCommandFromGUIThread </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPythonAppendCommand_8h.html">MRViewer/MRPythonAppendCommand.h</a>&gt;</code></p>
+<p><a class="el" href="#gaa7b94269107f75e82b8f719b5981465d">CommandLoop::runCommandFromGUIThread</a> for a binding: waits with the GIL released, since the GUI thread may need the GIL to get to the command, e.g. the macOS main thread still running Python code </p>
 
 </div>
 </div>

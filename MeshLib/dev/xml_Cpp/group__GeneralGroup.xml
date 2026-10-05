@@ -169365,6 +169365,30 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRProgressBar.h" line="81" column="8" declfile="MRViewer/MRProgressBar.h" declline="81" declcolumn="8"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gad5f4df8e16c18beb7b823f5b8ef7a98c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void MR::pythonRunCommandFromGUIThread</definition>
+        <argsstring>(F &amp;&amp;f)</argsstring>
+        <name>pythonRunCommandFromGUIThread</name>
+        <qualifiedname>MR::pythonRunCommandFromGUIThread</qualifiedname>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="group__GeneralGroup_1gaa7b94269107f75e82b8f719b5981465d" kindref="member">CommandLoop::runCommandFromGUIThread</ref> for a binding: waits with the GIL released, since the GUI thread may need the GIL to get to the command, e.g. the macOS main thread still running Python code </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRPythonAppendCommand.h" line="14" column="6" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="14" bodyend="18"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf07768b4409c36a0b8cc9b9849f82691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
@@ -169396,7 +169420,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRPythonAppendCommand.h" line="13" column="6" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="13" bodyend="20"/>
+        <location file="MRViewer/MRPythonAppendCommand.h" line="23" column="6" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="23" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0f61ad5fbd50836547b99cd10c78763f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -169426,7 +169450,7 @@ returns true if load was succeed </para>
         <inbodydescription>
 <para>fLocal must not be moved</para>
         </inbodydescription>
-        <location file="MRViewer/MRPythonAppendCommand.h" line="26" column="7" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="26" bodyend="33"/>
+        <location file="MRViewer/MRPythonAppendCommand.h" line="36" column="7" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="36" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga98815b53a5018d4a910654f696d65b57" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -169449,7 +169473,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRPythonAppendCommand.h" line="36" column="7" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="36" bodyend="39"/>
+        <location file="MRViewer/MRPythonAppendCommand.h" line="46" column="7" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="46" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga01c442c33cfa7f1e68e1261ab49b71b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -169480,7 +169504,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRPythonAppendCommand.h" line="42" column="6" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="42" bodyend="45"/>
+        <location file="MRViewer/MRPythonAppendCommand.h" line="52" column="6" bodyfile="MRViewer/MRPythonAppendCommand.h" bodystart="52" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

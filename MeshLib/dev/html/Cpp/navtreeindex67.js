@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MetricToAStarPenalty.html":[9,0,0,20,212],
 "structMR_1_1MinArg.html":[9,0,0,20,354],
 "structMR_1_1MinMaxArg.html":[9,0,0,20,356],
 "structMR_1_1ModalDialogSettings.html":[9,0,0,20,621],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html":[9,0,0,20,458],
 "structMR_1_1PolylineIntersectionResult2.html":[9,0,0,1,32],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[9,0,0,1,32,1],
-"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[9,0,0,1,32,0],
-"structMR_1_1PolylineMaker.html":[9,0,0,20,463]
+"structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[9,0,0,1,32,0]
 };
