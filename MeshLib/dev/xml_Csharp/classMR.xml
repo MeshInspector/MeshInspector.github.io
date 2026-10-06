@@ -2475,6 +2475,46 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="81" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="82" bodyend="85"/>
       </memberdef>
+      <memberdef kind="enum" id="classMR_1ae87fa6e092f96675221f3e07ece671eb" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>VertNormalsMode</name>
+        <qualifiedname>MR.VertNormalsMode</qualifiedname>
+        <enumvalue id="classMR_1ae87fa6e092f96675221f3e07ece671ebabafd7322c6e97d25b6299b5d6fe8920b" prot="public">
+          <name>No</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>the cloud has no normals </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" prot="public">
+          <name>AreaWeighted</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>area-weighted average of the normals of incident triangles, see computePerVertNormals </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1ae87fa6e092f96675221f3e07ece671eba1c49998375abb3376ffe312e644a306e" prot="public">
+          <name>AngleWeighted</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>angle-weighted average of the normals of incident triangles (pseudonormals), see computePerVertPseudoNormals </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>which normals are given to the points of the cloud made from mesh vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="90" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="91" bodyend="104"/>
+      </memberdef>
       <memberdef kind="enum" id="classMR_1ad0f6ea3aa4937d3c311b441344576dab" prot="public" static="no" strong="yes">
         <type>int</type>
         <name>OrientNormals</name>
@@ -2510,7 +2550,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="90" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="91" bodyend="95"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="110" bodyend="114"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1aaa631c02105f2a8fa6fe24c7873e8d98" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -2549,7 +2589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="97" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="98" bodyend="111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="117" bodyend="130"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -2610,7 +2650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="117" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="118" bodyend="139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="136" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="137" bodyend="158"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1adc3b249d0ba364990f1bc96d27fa7d88" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -2646,7 +2686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="141" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="142" bodyend="149"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="161" bodyend="168"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1aeefd25abc54607bc39e87bf80e80bf04" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -2686,7 +2726,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="154" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="155" bodyend="168"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="173" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="174" bodyend="187"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a8e14dd18b0dc9305caffdd32f1a13ead" prot="public" static="no" strong="yes">
         <type>byte</type>
@@ -2715,7 +2755,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="175" bodyend="178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="193" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="194" bodyend="197"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -14657,7 +14697,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="184" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="184" bodyend="188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="203" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" bodystart="203" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a04f8b4668e8d810a139093e706eb72f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -27549,10 +27589,10 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="942" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" bodystart="942" bodyend="945"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6328cc48bc1be46ed3893c317cdf37eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ac3ae47199ecb1701d15c5608c8efb704" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
         <definition>static unsafe MR.PointCloud MR.meshToPointCloud</definition>
-        <argsstring>(MR.Const_Mesh mesh, bool? saveNormals=null, MR.Const_VertBitSet? verts=null)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.VertNormalsMode? normals=null, MR.Const_VertBitSet? verts=null)</argsstring>
         <name>meshToPointCloud</name>
         <qualifiedname>MR.meshToPointCloud</qualifiedname>
         <param>
@@ -27560,8 +27600,8 @@ do not really keeps volume but tries hard </para>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>bool?</type>
-          <declname>saveNormals</declname>
+          <type><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eb" kindref="member">MR.VertNormalsMode</ref>?</type>
+          <declname>normals</declname>
           <defval>null</defval>
         </param>
         <param>
@@ -27570,7 +27610,7 @@ do not really keeps volume but tries hard </para>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para><ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> to <ref refid="classMR_1_1PointCloud" kindref="compound">PointCloud</ref> Generated from function <computeroutput><ref refid="classMR_1a6328cc48bc1be46ed3893c317cdf37eb" kindref="member">MR.meshToPointCloud</ref></computeroutput>. Parameter <computeroutput>saveNormals</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+<para>converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated from function <computeroutput><ref refid="classMR_1ac3ae47199ecb1701d15c5608c8efb704" kindref="member">MR.meshToPointCloud</ref></computeroutput>. Parameter <computeroutput>normals</computeroutput> defaults to <computeroutput><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" kindref="member">MR.VertNormalsMode.AreaWeighted</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -27578,10 +27618,10 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="8" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" bodystart="8" bodyend="12"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aa99481de7657067322381c6376cc9df8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1abdc8d4ca3a7e5c78239da53c680fcec4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
         <definition>static unsafe MR.PointCloud MR.meshToDensePointCloud</definition>
-        <argsstring>(MR.Const_MeshPart mp, float radius, bool? saveNormals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <argsstring>(MR.Const_MeshPart mp, float radius, MR.VertNormalsMode? normals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
         <name>meshToDensePointCloud</name>
         <qualifiedname>MR.meshToDensePointCloud</qualifiedname>
         <param>
@@ -27593,8 +27633,8 @@ do not really keeps volume but tries hard </para>
           <declname>radius</declname>
         </param>
         <param>
-          <type>bool?</type>
-          <declname>saveNormals</declname>
+          <type><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eb" kindref="member">MR.VertNormalsMode</ref>?</type>
+          <declname>normals</declname>
           <defval>null</defval>
         </param>
         <param>
@@ -27616,10 +27656,10 @@ do not really keeps volume but tries hard </para>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>saveNormals</parametername>
+<parametername>normals</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true then the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <computeroutput><ref refid="classMR_1aa99481de7657067322381c6376cc9df8" kindref="member">MR.meshToDensePointCloud</ref></computeroutput>. Parameter <computeroutput>saveNormals</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>unless No, the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <computeroutput><ref refid="classMR_1abdc8d4ca3a7e5c78239da53c680fcec4" kindref="member">MR.meshToDensePointCloud</ref></computeroutput>. Parameter <computeroutput>normals</computeroutput> defaults to <computeroutput><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" kindref="member">MR.VertNormalsMode.AreaWeighted</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -29050,7 +29090,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2058" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2058" bodyend="2061"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2060" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2060" bodyend="2063"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad4683de75981e3263a1f2cd0dbc7abd8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectPoints</type>
@@ -29073,7 +29113,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2068" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2068" bodyend="2071"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2070" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2070" bodyend="2073"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9499542ddc005ee0c9dab97fe0711aba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectPoints</type>
@@ -29118,7 +29158,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2080" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2080" bodyend="2083"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2082" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="2082" bodyend="2085"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a452d6218563d5a3f7bed445c962984e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObject</type>
@@ -63661,7 +63701,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="193" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnums.cs" line="212" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8f64268eff366c956a78aad20e6e6a8a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying *</type>
@@ -74667,10 +74707,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshThickness.cs" line="965" column="62"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ae2242a337033883ffe2f4e80ddbb104c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ac16227022b71ffcb7ec3a59a60aab537" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRPointCloud_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.__MR_meshToDensePointCloud</definition>
-        <argsstring>(MR.Const_MeshPart._Underlying *mp, float radius, byte *saveNormals, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
+        <argsstring>(MR.Const_MeshPart._Underlying *mp, float radius, MR.VertNormalsMode *normals, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
         <name>__MR_meshToDensePointCloud</name>
         <qualifiedname>MR.__MR_meshToDensePointCloud</qualifiedname>
         <param>
@@ -74682,8 +74722,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>radius</declname>
         </param>
         <param>
-          <type>byte *</type>
-          <declname>saveNormals</declname>
+          <type><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eb" kindref="member">MR.VertNormalsMode</ref> *</type>
+          <declname>normals</declname>
         </param>
         <param>
           <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
@@ -74697,10 +74737,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="43" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a80037d7ccee0acba84a7e6dfcf49d886" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a14c78e829c2dada8f217d5aba1e5c02e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PointCloud._Underlying *</type>
         <definition>static unsafe MR.PointCloud._Underlying * MR.__MR_meshToPointCloud</definition>
-        <argsstring>(MR.Const_Mesh._Underlying *mesh, byte *saveNormals, MR.Const_VertBitSet._Underlying *verts)</argsstring>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.VertNormalsMode *normals, MR.Const_VertBitSet._Underlying *verts)</argsstring>
         <name>__MR_meshToPointCloud</name>
         <qualifiedname>MR.__MR_meshToPointCloud</qualifiedname>
         <param>
@@ -74708,8 +74748,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
           <declname>mesh</declname>
         </param>
         <param>
-          <type>byte *</type>
-          <declname>saveNormals</declname>
+          <type><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eb" kindref="member">MR.VertNormalsMode</ref> *</type>
+          <declname>normals</declname>
         </param>
         <param>
           <type>MR.Const_VertBitSet._Underlying *</type>
@@ -75981,7 +76021,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2088" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2090" column="67"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a18c5e394bcb75da12e6055191ba23bb1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectPoints._Underlying *</type>
@@ -75999,7 +76039,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2091" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2093" column="67"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad8c154438910da624ec4bd520b69c626" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRObjectPoints._Underlying *</type>
@@ -76029,7 +76069,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2094" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="2096" column="67"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3448d7b97e00b45fb04556e5b67bbbb7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -100801,14 +100841,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a2d8afbea24e7ae75bf60055d1860174d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshPathCurvePoints_std_vector_MR_EdgePoint</name></member>
       <member refid="classMR_1ae9369a6841bceff387728fb03377a2fc" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshPreCollapseVertAttribute</name></member>
       <member refid="classMR_1a5f1a76675935bfb9a4e86bef7fae3a72" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshRegionToIndicatorVolume</name></member>
-      <member refid="classMR_1ae2242a337033883ffe2f4e80ddbb104c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDensePointCloud</name></member>
+      <member refid="classMR_1ac16227022b71ffcb7ec3a59a60aab537" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDensePointCloud</name></member>
       <member refid="classMR_1a463adcd632420501dfc121b1acc662a0" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDirectionVolume</name></member>
       <member refid="classMR_1a490a681f514ece20c0e9609ff73988f1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDistanceField</name></member>
       <member refid="classMR_1ac1f013ffcae366d1b3d9fd2d25d1bd07" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDistanceFunctionVolume</name></member>
       <member refid="classMR_1a597dca8f24d623c67fffecf3a1bddf9c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDistanceVdbVolume</name></member>
       <member refid="classMR_1a33c814623b5fe54bbcdc78957326a742" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToDistanceVolume</name></member>
       <member refid="classMR_1ae087da1602fa4e3a57e4d2aabdd53765" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToLevelSet</name></member>
-      <member refid="classMR_1a80037d7ccee0acba84a7e6dfcf49d886" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToPointCloud</name></member>
+      <member refid="classMR_1a14c78e829c2dada8f217d5aba1e5c02e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToPointCloud</name></member>
       <member refid="classMR_1a1c25e0c75077c62ead13ffbb5b13444f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshToVolume</name></member>
       <member refid="classMR_1affcf7f5b187a9d436e12ee05b1058873" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_mincircleDiameterSq_double</name></member>
       <member refid="classMR_1abd70a6d9d96f6b258ced3c137578988e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_mincircleDiameterSq_float</name></member>
@@ -102674,14 +102714,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a3be76cfbfc9b9d79395c268568c458e2" prot="public" virt="non-virtual"><scope>MR</scope><name>meshPathCurvePoints</name></member>
       <member refid="classMR_1a50c216fceb589c982d43e7396bea561b" prot="public" virt="non-virtual"><scope>MR</scope><name>meshPreCollapseVertAttribute</name></member>
       <member refid="classMR_1a45fe869275cd0aad1052b853ac65ea10" prot="public" virt="non-virtual"><scope>MR</scope><name>meshRegionToIndicatorVolume</name></member>
-      <member refid="classMR_1aa99481de7657067322381c6376cc9df8" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDensePointCloud</name></member>
+      <member refid="classMR_1abdc8d4ca3a7e5c78239da53c680fcec4" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDensePointCloud</name></member>
       <member refid="classMR_1a643e3be78f578a2f6adacd0d29612444" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDirectionVolume</name></member>
       <member refid="classMR_1aef2b3d58f6897afadf360280b4a8597e" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDistanceField</name></member>
       <member refid="classMR_1a87269e7358207c0c0dd3c0803c8e3cf6" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDistanceFunctionVolume</name></member>
       <member refid="classMR_1a0a2ae773a008ba1712effc70e5fa584e" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDistanceVdbVolume</name></member>
       <member refid="classMR_1ac921156eca77b3ffb3b8d9f88e247596" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToDistanceVolume</name></member>
       <member refid="classMR_1a42ce950d8e8cf6b6c14d01c0e7485a6b" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToLevelSet</name></member>
-      <member refid="classMR_1a6328cc48bc1be46ed3893c317cdf37eb" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToPointCloud</name></member>
+      <member refid="classMR_1ac3ae47199ecb1701d15c5608c8efb704" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToPointCloud</name></member>
       <member refid="classMR_1a9fd082f1c1027b0a10b4e1358358f1d5" prot="public" virt="non-virtual"><scope>MR</scope><name>meshToVolume</name></member>
       <member refid="classMR_1a31e10e554566804ad375d43e4bf7f4a8" prot="public" virt="non-virtual"><scope>MR</scope><name>MeshVisualizePropertyType</name></member>
       <member refid="classMR_1aca8deb6f32e3e4907eca107b240b643a" prot="public" virt="non-virtual"><scope>MR</scope><name>mincircleDiameterSq</name></member>
@@ -103049,6 +103089,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a3a05fc3fdc22093975e8f613041012c9" prot="public" virt="non-virtual"><scope>MR</scope><name>verticesGridSampling</name></member>
       <member refid="classMR_1a509ce983082cbcf78709068fcc93747a" prot="public" virt="non-virtual"><scope>MR</scope><name>vertMapsComposition</name></member>
       <member refid="classMR_1ab0f972ede287facff67841df1dbe415b" prot="public" virt="non-virtual"><scope>MR</scope><name>vertMapsComposition</name></member>
+      <member refid="classMR_1ae87fa6e092f96675221f3e07ece671eb" prot="public" virt="non-virtual"><scope>MR</scope><name>VertNormalsMode</name></member>
       <member refid="classMR_1a93c701ffcc6efc02cd75b0925eb9c829" prot="public" virt="non-virtual"><scope>MR</scope><name>VisualizeMaskType</name></member>
       <member refid="classMR_1a9746e4d2c8c0e87376f83e20494d4bfc" prot="public" virt="non-virtual"><scope>MR</scope><name>volume</name></member>
       <member refid="classMR_1ab6727c8e704ad9b3f5e483d26e415da2" prot="public" virt="non-virtual"><scope>MR</scope><name>VolumeUnit</name></member>

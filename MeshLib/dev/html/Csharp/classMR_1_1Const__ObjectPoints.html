@@ -166,8 +166,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac4815407b97acccf7f56344b2b7a75c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="memitem:a8983795c69bda90c49af2c3aa5ecd2d1" id="r_a8983795c69bda90c49af2c3aa5ecd2d1"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8983795c69bda90c49af2c3aa5ecd2d1">Const_ObjectPoints</a> (MR._ByValue_ObjectPoints _other)</td></tr>
 <tr class="memdesc:a8983795c69bda90c49af2c3aa5ecd2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>.  <br /></td></tr>
-<tr class="memitem:aa6fd827226c6492fd56db71452adfcc4" id="r_aa6fd827226c6492fd56db71452adfcc4"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6fd827226c6492fd56db71452adfcc4">Const_ObjectPoints</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> objMesh, bool? saveNormals=null)</td></tr>
-<tr class="memdesc:aa6fd827226c6492fd56db71452adfcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
+<tr class="memitem:a7fcedb4572e59c06c2f125be892ea043" id="r_a7fcedb4572e59c06c2f125be892ea043"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fcedb4572e59c06c2f125be892ea043">Const_ObjectPoints</a> (<a class="el" href="classMR_1_1Const__ObjectMesh.html">MR.Const_ObjectMesh</a> objMesh, <a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>? normals=null)</td></tr>
+<tr class="memdesc:a7fcedb4572e59c06c2f125be892ea043"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>.  <br /></td></tr>
 <tr class="memitem:a75fcbda37452a47c25486433982141c9" id="r_a75fcbda37452a47c25486433982141c9"><td class="memItemLeft" align="right" valign="top">unsafe? byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75fcbda37452a47c25486433982141c9">typeName</a> ()</td></tr>
 <tr class="memdesc:a75fcbda37452a47c25486433982141c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a75fcbda37452a47c25486433982141c9" title="Generated from method MR.ObjectPoints.typeName.">MR.ObjectPoints.typeName</a></span>.  <br /></td></tr>
 <tr class="memitem:a0d20f03c81ed51939b29b87fe1f72d87" id="r_a0d20f03c81ed51939b29b87fe1f72d87"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d20f03c81ed51939b29b87fe1f72d87">className</a> ()</td></tr>
@@ -404,8 +404,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6fd827226c6492fd56db71452adfcc4" name="aa6fd827226c6492fd56db71452adfcc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6fd827226c6492fd56db71452adfcc4">&#9670;&#160;</a></span>Const_ObjectPoints() <span class="overload">[3/3]</span></h2>
+<a id="a7fcedb4572e59c06c2f125be892ea043" name="a7fcedb4572e59c06c2f125be892ea043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fcedb4572e59c06c2f125be892ea043">&#9670;&#160;</a></span>Const_ObjectPoints() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,7 +421,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>?</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -431,7 +431,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>. </p>
+<p>makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected Generated from constructor <span class="tt"><a class="el" href="classMR_1_1ObjectPoints.html#a2b413054c12867e04d326ba8ad50549d" title="Constructs an empty (default-constructed) instance.">MR.ObjectPoints.ObjectPoints</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>. </p>
 
 </div>
 </div>

@@ -2322,6 +2322,11 @@ var classMR =
       [ "Unit", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f", null ],
       [ "NeiArea", "classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
+    [ "VertNormalsMode", "classMR.html#ae87fa6e092f96675221f3e07ece671eb", [
+      [ "No", "classMR.html#ae87fa6e092f96675221f3e07ece671ebabafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "AreaWeighted", "classMR.html#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b", null ],
+      [ "AngleWeighted", "classMR.html#ae87fa6e092f96675221f3e07ece671eba1c49998375abb3376ffe312e644a306e", null ]
+    ] ],
     [ "VisualizeMaskType", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829", [
       [ "Visibility", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a1729a56cfc89021478498fe0c89a843a", null ],
       [ "Name", "classMR.html#a93c701ffcc6efc02cd75b0925eb9c829a49ee3087348e8d44e1feda1917443987", null ],
@@ -3833,14 +3838,14 @@ var classMR =
     [ "meshPathCurvePoints", "classMR.html#a3be76cfbfc9b9d79395c268568c458e2", null ],
     [ "meshPreCollapseVertAttribute", "classMR.html#a50c216fceb589c982d43e7396bea561b", null ],
     [ "meshRegionToIndicatorVolume", "classMR.html#a45fe869275cd0aad1052b853ac65ea10", null ],
-    [ "meshToDensePointCloud", "classMR.html#aa99481de7657067322381c6376cc9df8", null ],
+    [ "meshToDensePointCloud", "classMR.html#abdc8d4ca3a7e5c78239da53c680fcec4", null ],
     [ "meshToDirectionVolume", "classMR.html#a643e3be78f578a2f6adacd0d29612444", null ],
     [ "meshToDistanceField", "classMR.html#aef2b3d58f6897afadf360280b4a8597e", null ],
     [ "meshToDistanceFunctionVolume", "classMR.html#a87269e7358207c0c0dd3c0803c8e3cf6", null ],
     [ "meshToDistanceVdbVolume", "classMR.html#a0a2ae773a008ba1712effc70e5fa584e", null ],
     [ "meshToDistanceVolume", "classMR.html#ac921156eca77b3ffb3b8d9f88e247596", null ],
     [ "meshToLevelSet", "classMR.html#a42ce950d8e8cf6b6c14d01c0e7485a6b", null ],
-    [ "meshToPointCloud", "classMR.html#a6328cc48bc1be46ed3893c317cdf37eb", null ],
+    [ "meshToPointCloud", "classMR.html#ac3ae47199ecb1701d15c5608c8efb704", null ],
     [ "meshToVolume", "classMR.html#a9fd082f1c1027b0a10b4e1358358f1d5", null ],
     [ "mincircleDiameterSq", "classMR.html#a389a1cc6f097e216f0eb85031a25c7d6", null ],
     [ "mincircleDiameterSq", "classMR.html#aca8deb6f32e3e4907eca107b240b643a", null ],

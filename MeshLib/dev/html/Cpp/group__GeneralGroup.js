@@ -3531,7 +3531,8 @@ var group__GeneralGroup =
     ] ],
     [ "MR::ObjectPoints", "classMR_1_1ObjectPoints.html", [
       [ "ObjectPoints", "group__GeneralGroup.html#ga7add507ed0f2abe3843cec2e9f387f8c", null ],
-      [ "ObjectPoints", "group__GeneralGroup.html#gafdac591813395cc98c7d9f3db14c0bcc", null ],
+      [ "ObjectPoints", "group__GeneralGroup.html#gacdd5364562fafc70ef7f78f6f3425cea", null ],
+      [ "ObjectPoints", "group__GeneralGroup.html#gadd1b1c697c9f90ebc024ac8b7a04419e", null ],
       [ "ObjectPoints", "group__GeneralGroup.html#gaa61490c1ac4aa372d55e05f695cc5d23", null ],
       [ "ObjectPoints", "group__GeneralGroup.html#ga565091fdf7ac04df64dcc926ecf74ffb", null ],
       [ "ObjectPoints", "group__GeneralGroup.html#ga2115d8e4f880b457969069d6da367e5f", null ],
@@ -10596,6 +10597,11 @@ var group__GeneralGroup =
       [ "MR::VertexMass::Unit", "group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
       [ "MR::VertexMass::NeiArea", "group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
+    [ "MR::VertNormalsMode", "group__GeneralGroup.html#gae8cccc75b39074c044cb7ece46ea677f", [
+      [ "MR::VertNormalsMode::No", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "MR::VertNormalsMode::AreaWeighted", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b", null ],
+      [ "MR::VertNormalsMode::AngleWeighted", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e", null ]
+    ] ],
     [ "MR::ColorTheme::ViewportColorsType", "group__GeneralGroup.html#ga91b6b928ca7f490fdd396c347347bcdc", [
       [ "MR::ColorTheme::ViewportColorsType::Background", "group__GeneralGroup.html#gga91b6b928ca7f490fdd396c347347bcdcaa9ded1e5ce5d75814730bb4caaf49419", null ],
       [ "MR::ColorTheme::ViewportColorsType::Borders", "group__GeneralGroup.html#gga91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476", null ],
@@ -13899,12 +13905,14 @@ var group__GeneralGroup =
     [ "MR::MeshRegion::MeshRegion", "group__GeneralGroup.html#ga35b39c1790f734aa2ed34e68281a8a04", null ],
     [ "MR::MeshRegion::MeshRegion", "group__GeneralGroup.html#gae376220ccfe757dc78e7edd18501521e", null ],
     [ "MR::meshRegionToIndicatorVolume", "group__GeneralGroup.html#gaf99b4c073dc700a6e84295c59f0cbdef", null ],
+    [ "MR::meshToDensePointCloud", "group__GeneralGroup.html#ga01293c6701985304e21781a54a8df3e9", null ],
     [ "MR::meshToDirectionVolume", "group__GeneralGroup.html#ga0752e5390277bae84ef50d8e1f0a5db9", null ],
     [ "MR::meshToDistanceField", "group__GeneralGroup.html#gad6792f245ad7c79f45f2e51da0703d8e", null ],
     [ "MR::meshToDistanceFunctionVolume", "group__GeneralGroup.html#gaf240d29116bdd27249c44e9978b98541", null ],
     [ "MR::meshToDistanceVdbVolume", "group__GeneralGroup.html#gaff89dc3bea151ef50a139c1718146419", null ],
     [ "MR::meshToDistanceVolume", "group__GeneralGroup.html#gaed72deb95016a3c136004932e83ae969", null ],
     [ "MR::meshToLevelSet", "group__GeneralGroup.html#ga4a5a5572b6bfd680678650c3da0badcd", null ],
+    [ "MR::meshToPointCloud", "group__GeneralGroup.html#ga56073a4519234b94321564d8c638bf05", null ],
     [ "MR::MeshTopologyDiff::MeshTopologyDiff", "group__GeneralGroup.html#gaf1195b4bb18db9e8ca21e92db9139406", null ],
     [ "MR::MeshTopologyDiff::MeshTopologyDiff", "group__GeneralGroup.html#ga88fdf0cea84ab07c1fef729e2ae635cb", null ],
     [ "MR::meshToVolume", "group__GeneralGroup.html#gab22dbe091527f028fd609ca3116d57b6", null ],
@@ -14215,7 +14223,8 @@ var group__GeneralGroup =
     [ "MR::ObjectMeshHolder::ObjectMeshHolder", "group__GeneralGroup.html#ga4b6ecb13b750192ac9a2d97d8dce077f", null ],
     [ "MR::ObjectMeshHolder::ObjectMeshHolder", "group__GeneralGroup.html#ga2e5a1d2eb57673d1f8ca824ea753f470", null ],
     [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#ga7add507ed0f2abe3843cec2e9f387f8c", null ],
-    [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#gafdac591813395cc98c7d9f3db14c0bcc", null ],
+    [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#gadd1b1c697c9f90ebc024ac8b7a04419e", null ],
+    [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#gacdd5364562fafc70ef7f78f6f3425cea", null ],
     [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#ga2115d8e4f880b457969069d6da367e5f", null ],
     [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#gaa61490c1ac4aa372d55e05f695cc5d23", null ],
     [ "MR::ObjectPoints::ObjectPoints", "group__GeneralGroup.html#ga565091fdf7ac04df64dcc926ecf74ffb", null ],

@@ -8,7 +8,8 @@
     <includes refid="MRObjectPoints_8h" local="no">MRMesh/MRObjectPoints.h</includes>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga7add507ed0f2abe3843cec2e9f387f8c" kind="function"><name>ObjectPoints</name></member>
-      <member refid="group__GeneralGroup_1gafdac591813395cc98c7d9f3db14c0bcc" kind="function"><name>ObjectPoints</name></member>
+      <member refid="group__GeneralGroup_1gacdd5364562fafc70ef7f78f6f3425cea" kind="function"><name>ObjectPoints</name></member>
+      <member refid="group__GeneralGroup_1gadd1b1c697c9f90ebc024ac8b7a04419e" kind="function"><name>ObjectPoints</name></member>
       <member refid="group__GeneralGroup_1ga5831e567d62ac9ac7959897b98ee75ae" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gaa61490c1ac4aa372d55e05f695cc5d23" kind="function"><name>ObjectPoints</name></member>
       <member refid="group__GeneralGroup_1gaf389d74376fb91966716aa2ff7444a5d" kind="function"><name>typeName</name></member>
@@ -198,7 +199,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRObjectPoints.h" line="13" column="1" bodyfile="MRMesh/MRObjectPoints.h" bodystart="14" bodyend="53"/>
+    <location file="MRMesh/MRObjectPoints.h" line="13" column="1" bodyfile="MRMesh/MRObjectPoints.h" bodystart="14" bodyend="56"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>addChildBefore</name></member>
@@ -308,7 +309,8 @@
       <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectChildrenHolder_1ac39b8635e5ec3a3e5d0c900806a6766e" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectChildrenHolder</name></member>
       <member refid="group__GeneralGroup_1ga7add507ed0f2abe3843cec2e9f387f8c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
-      <member refid="group__GeneralGroup_1gafdac591813395cc98c7d9f3db14c0bcc" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
+      <member refid="group__GeneralGroup_1gacdd5364562fafc70ef7f78f6f3425cea" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
+      <member refid="group__GeneralGroup_1gadd1b1c697c9f90ebc024ac8b7a04419e" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="group__GeneralGroup_1gaa61490c1ac4aa372d55e05f695cc5d23" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="group__GeneralGroup_1ga565091fdf7ac04df64dcc926ecf74ffb" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>
       <member refid="group__GeneralGroup_1ga2115d8e4f880b457969069d6da367e5f" prot="protected" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>ObjectPoints</name></member>

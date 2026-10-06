@@ -188,6 +188,34 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4002" bodyend="4005"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a3d3bb261ba59465c7003cfd175dc17dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MeshComponents.ComponentsFaces</ref></type>
+        <definition> MeshComponents.ComponentsFaces mrmeshpy.MeshComponents.getAllComponentsFaces</definition>
+        <argsstring>(Face2RegionMap componentsMap, int componentsCount, FaceBitSet region)</argsstring>
+        <name>getAllComponentsFaces</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getAllComponentsFaces</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref></type>
+          <declname>componentsMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>componentsCount</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets all connected components from components map ( FaceId =&gt; RegionId in [0, componentsCount) ) for the faces of given region
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4008" bodyend="4011"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2e46b54bd66024908500a79f80671439" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MeshComponents.ComponentsFaces</ref></type>
         <definition> MeshComponents.ComponentsFaces mrmeshpy.MeshComponents.getAllComponentsFaces</definition>
@@ -217,35 +245,7 @@ unlike getAllComponents, the memory is proportional to the number of faces in th
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4008" bodyend="4012"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a3d3bb261ba59465c7003cfd175dc17dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1ComponentsFaces" kindref="compound">MeshComponents.ComponentsFaces</ref></type>
-        <definition> MeshComponents.ComponentsFaces mrmeshpy.MeshComponents.getAllComponentsFaces</definition>
-        <argsstring>(Face2RegionMap componentsMap, int componentsCount, FaceBitSet region)</argsstring>
-        <name>getAllComponentsFaces</name>
-        <qualifiedname>mrmeshpy.MeshComponents.getAllComponentsFaces</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref></type>
-          <declname>componentsMap</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>componentsCount</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
-          <declname>region</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets all connected components from components map ( FaceId =&gt; RegionId in [0, componentsCount) ) for the faces of given region
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4015" bodyend="4018"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4014" bodyend="4018"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2fefa3287af9ba22e88d92c400897f9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1Face2RegionMap" kindref="compound">Face2RegionMap</ref>, int]</type>
@@ -1428,8 +1428,8 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
       <member refid="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1bb822da4a63e20538486113a5a4f557" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsEdges</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a2e46b54bd66024908500a79f80671439" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a3d3bb261ba59465c7003cfd175dc17dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a2e46b54bd66024908500a79f80671439" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a2fefa3287af9ba22e88d92c400897f9e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsMap</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ad0adaeee3254ed9191852bb0c49bf095" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsMapBySharpEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae55975d6d99d183f77ae1db5eeadba7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsUndirectedEdges</name></member>

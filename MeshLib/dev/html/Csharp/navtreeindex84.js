@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"classMR_1_1Const__TextureBitSet.html#aacd061c492a1976acc5665a43b8ad260":[9,3,0,0,0,888,29],
+"classMR_1_1Const__TextureBitSet.html#aaf81019d0581a46afb284cac9b641418":[9,3,0,0,0,888,3],
+"classMR_1_1Const__TextureBitSet.html#ab2cd94bc0af4466bd7c5028d1728cea5":[9,3,0,0,0,888,27],
+"classMR_1_1Const__TextureBitSet.html#ab3bb834c5249471e629b2e9637f3338c":[9,3,0,0,0,888,6],
 "classMR_1_1Const__TextureBitSet.html#ab952327b3557ca4cf163e2decf4ba77b":[9,3,0,0,0,888,45],
 "classMR_1_1Const__TextureBitSet.html#acda9adabbe7b7481fd67c7c30ead83d9":[9,3,0,0,0,888,18],
 "classMR_1_1Const__TextureBitSet.html#ad2c27ce8c2cbf1d594fd320a6f342bbc":[9,3,0,0,0,888,35],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "classMR_1_1Const__TriPointf.html#affc75d2221ab5fa03d85526a8ba91f76":[9,3,0,0,0,907,15],
 "classMR_1_1Const__TriTriDistanceParams__Double.html":[9,3,0,0,0,908],
 "classMR_1_1Const__TriTriDistanceParams__Double.html#a0406ae7599b1c53ae1f8c36da82d1471":[9,3,0,0,0,908,1],
-"classMR_1_1Const__TriTriDistanceParams__Double.html#a179ae3c4c2130f7d0f82289e02d7f616":[9,3,0,0,0,908,8],
-"classMR_1_1Const__TriTriDistanceParams__Double.html#a1985751fcb570108174906c621822943":[9,3,0,0,0,908,0],
-"classMR_1_1Const__TriTriDistanceParams__Double.html#a4b96b7cbb25838aa4bb811af08fccf3a":[9,3,0,0,0,908,3],
-"classMR_1_1Const__TriTriDistanceParams__Double.html#a50c7eadaa2335b73d4c874ef93feb166":[9,3,0,0,0,908,6],
-"classMR_1_1Const__TriTriDistanceParams__Double.html#a52e35bd14e53c4d47cd75cd6e98e246b":[9,3,0,0,0,908,9]
+"classMR_1_1Const__TriTriDistanceParams__Double.html#a179ae3c4c2130f7d0f82289e02d7f616":[9,3,0,0,0,908,8]
 };

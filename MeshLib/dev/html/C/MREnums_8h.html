@@ -155,6 +155,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae7edb655a25d3bc6dd3415d5cfbda767" id="r_ae7edb655a25d3bc6dd3415d5cfbda767"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7edb655a25d3bc6dd3415d5cfbda767">MR_RememberShape</a></td></tr>
 <tr class="memitem:ae27ea8c7570f040835b33a0df5f6be04" id="r_ae27ea8c7570f040835b33a0df5f6be04"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae27ea8c7570f040835b33a0df5f6be04">MR_Processing</a></td></tr>
 <tr class="memdesc:ae27ea8c7570f040835b33a0df5f6be04"><td class="mdescLeft">&#160;</td><td class="mdescRight">typically returned from callbacks to control the behavior of main algorithm  <br /></td></tr>
+<tr class="memitem:aebc5faceb119fd6c5c82ed681e015c5e" id="r_aebc5faceb119fd6c5c82ed681e015c5e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebc5faceb119fd6c5c82ed681e015c5e">MR_VertNormalsMode</a></td></tr>
+<tr class="memdesc:aebc5faceb119fd6c5c82ed681e015c5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">which normals are given to the points of the cloud made from mesh vertices  <br /></td></tr>
 <tr class="memitem:ae07e1336427a647b041b525ba1b2e725" id="r_ae07e1336427a647b041b525ba1b2e725"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a7e870a89eaf0714e711833b123b397b3">MR_OrientNormals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae07e1336427a647b041b525ba1b2e725">MR_OrientNormals</a></td></tr>
 <tr class="memdesc:ae07e1336427a647b041b525ba1b2e725"><td class="mdescLeft">&#160;</td><td class="mdescRight">the method how to choose between two opposite normal orientations  <br /></td></tr>
 <tr class="memitem:adec1219ece1c9c68f233e4ab1056cd02" id="r_adec1219ece1c9c68f233e4ab1056cd02"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae3aefa13a6ad289eab7812593f65ae74">MR_OffsetMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec1219ece1c9c68f233e4ab1056cd02">MR_OffsetMode</a></td></tr>
@@ -192,6 +194,11 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a36d700ebf29352ed53877325228f40e2" id="r_a36d700ebf29352ed53877325228f40e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a36d700ebf29352ed53877325228f40e2a8c0d78f87009289352f7cc7a81650651">MR_Processing_Continue</a> = 0
 , <a class="el" href="#a36d700ebf29352ed53877325228f40e2ad272346f566a093bb3b6a9a1500f8f52">MR_Processing_Stop</a> = 1
  }</td></tr>
+<tr class="memitem:ad44368a5d6b9a542fb312941ff39676f" id="r_ad44368a5d6b9a542fb312941ff39676f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a> { <a class="el" href="#ad44368a5d6b9a542fb312941ff39676fa9b4a1cf2b5a587c30b3612f982b7ff49">MR_VertNormalsMode_No</a> = 0
+, <a class="el" href="#ad44368a5d6b9a542fb312941ff39676fafd7878f261e680b332fcd98daeca426c">MR_VertNormalsMode_AreaWeighted</a> = 1
+, <a class="el" href="#ad44368a5d6b9a542fb312941ff39676fab7ee8c67d7269b265f6fcebe35cc7cc5">MR_VertNormalsMode_AngleWeighted</a> = 2
+ }</td></tr>
+<tr class="memdesc:ad44368a5d6b9a542fb312941ff39676f"><td class="mdescLeft">&#160;</td><td class="mdescRight">which normals are given to the points of the cloud made from mesh vertices  <a href="#ad44368a5d6b9a542fb312941ff39676f">More...</a><br /></td></tr>
 <tr class="memitem:a7e870a89eaf0714e711833b123b397b3" id="r_a7e870a89eaf0714e711833b123b397b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e870a89eaf0714e711833b123b397b3">MR_OrientNormals</a> { <a class="el" href="#a7e870a89eaf0714e711833b123b397b3a895fc9daf6c5031555850f1c3c3cac4c">MR_OrientNormals_TowardOrigin</a> = 0
 , <a class="el" href="#a7e870a89eaf0714e711833b123b397b3a0249a411bf2394e3efbbad25a602079c">MR_OrientNormals_AwayFromOrigin</a> = 1
 , <a class="el" href="#a7e870a89eaf0714e711833b123b397b3ad38dbb20ad31f3b7610abce74844df12">MR_OrientNormals_Smart</a> = 2
@@ -407,6 +414,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>determines the weight or mass of each vertex in applications like Laplacian </p>
+
+</div>
+</div>
+<a id="aebc5faceb119fd6c5c82ed681e015c5e" name="aebc5faceb119fd6c5c82ed681e015c5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc5faceb119fd6c5c82ed681e015c5e">&#9670;&#160;</a></span>MR_VertNormalsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a> <a class="el" href="#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>which normals are given to the points of the cloud made from mesh vertices </p>
 
 </div>
 </div>
@@ -691,6 +714,30 @@ Functions</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2" name="ae6b0258254d005d6b726579dd8ae29b3a5e5ecf1c40930d2b93f875b093245ac2"></a>MR_VertexMass_NeiArea&#160;</td><td class="fielddoc"><p>vertex mass depends on local geometry and proportional to the area of first-ring triangles </p>
 </td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad44368a5d6b9a542fb312941ff39676f" name="ad44368a5d6b9a542fb312941ff39676f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44368a5d6b9a542fb312941ff39676f">&#9670;&#160;</a></span>MR_VertNormalsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>which normals are given to the points of the cloud made from mesh vertices </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad44368a5d6b9a542fb312941ff39676fa9b4a1cf2b5a587c30b3612f982b7ff49" name="ad44368a5d6b9a542fb312941ff39676fa9b4a1cf2b5a587c30b3612f982b7ff49"></a>MR_VertNormalsMode_No&#160;</td><td class="fielddoc"><p>the cloud has no normals </p>
+<p>area-weighted average of the normals of incident triangles, see computePerVertNormals </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad44368a5d6b9a542fb312941ff39676fafd7878f261e680b332fcd98daeca426c" name="ad44368a5d6b9a542fb312941ff39676fafd7878f261e680b332fcd98daeca426c"></a>MR_VertNormalsMode_AreaWeighted&#160;</td><td class="fielddoc"><p>angle-weighted average of the normals of incident triangles (pseudonormals), see computePerVertPseudoNormals </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad44368a5d6b9a542fb312941ff39676fab7ee8c67d7269b265f6fcebe35cc7cc5" name="ad44368a5d6b9a542fb312941ff39676fab7ee8c67d7269b265f6fcebe35cc7cc5"></a>MR_VertNormalsMode_AngleWeighted&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

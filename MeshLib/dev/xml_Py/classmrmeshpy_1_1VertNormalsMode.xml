@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertNormalsMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertNormalsMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertNormalsMode_1a2baa16a10eb179358dce11762bb91dda" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertNormalsMode::AngleWeighted</definition>
+        <argsstring></argsstring>
+        <name>AngleWeighted</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.AngleWeighted</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VertNormalsMode" kindref="compound">VertNormalsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertNormalsMode_1a9051debc4e9e737461582561593dd08c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertNormalsMode::AreaWeighted</definition>
+        <argsstring></argsstring>
+        <name>AreaWeighted</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.AreaWeighted</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VertNormalsMode" kindref="compound">VertNormalsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertNormalsMode_1a167109672d338a1529347461f8b37a93" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertNormalsMode::No</definition>
+        <argsstring></argsstring>
+        <name>No</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.No</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VertNormalsMode" kindref="compound">VertNormalsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60989" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertNormalsMode_1a2099e6d677b9a11a03f46ddfd448710f" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertNormalsMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1VertNormalsMode" kindref="compound">VertNormalsMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60990" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1a26f4a88963e35949760de6ec908b91a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertNormalsMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60991" bodyend="60992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1aea980da4b3a1fc2907ac5462486956fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertNormalsMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60993" bodyend="60994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1ac75077c7255bb8f52d664eee5c480d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertNormalsMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60995" bodyend="60996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1abbe22ba9f72d9baeb8099d0b72fe831d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertNormalsMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60997" bodyend="60998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1ade886ecbf0a2a52c9618331a95a722fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertNormalsMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60999" bodyend="61000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1af677896881005ce0de8965e32df21599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertNormalsMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61001" bodyend="61002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1ae65ae4a01bb90321bb1dfcf22bcf3d28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertNormalsMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61003" bodyend="61004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1afa429938f97d4168c1bf75602c0b9162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertNormalsMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61005" bodyend="61006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1ab366e19d2297d76ba62aec9143a76a19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertNormalsMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61007" bodyend="61008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1a3a9a19594d5908cdd11f8cfe6ec1fc21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertNormalsMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61009" bodyend="61010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1ad76faef278e1d1b97c71865ae8a406f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertNormalsMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61012" bodyend="61013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertNormalsMode_1a8deff97a80c4e61018218c22389743ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertNormalsMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.VertNormalsMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61015" bodyend="61016"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  No : the cloud has no normals
+
+  AreaWeighted : area-weighted average of the normals of incident triangles, see computePerVertNormals
+
+  AngleWeighted : angle-weighted average of the normals of incident triangles (pseudonormals), see computePerVertPseudoNormals
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60977" bodyend="61016"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a26f4a88963e35949760de6ec908b91a7" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1aea980da4b3a1fc2907ac5462486956fa" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1ac75077c7255bb8f52d664eee5c480d73" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1abbe22ba9f72d9baeb8099d0b72fe831d" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1ade886ecbf0a2a52c9618331a95a722fd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1af677896881005ce0de8965e32df21599" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a2099e6d677b9a11a03f46ddfd448710f" prot="private" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1ae65ae4a01bb90321bb1dfcf22bcf3d28" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1afa429938f97d4168c1bf75602c0b9162" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1ab366e19d2297d76ba62aec9143a76a19" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a3a9a19594d5908cdd11f8cfe6ec1fc21" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a2baa16a10eb179358dce11762bb91dda" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>AngleWeighted</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a9051debc4e9e737461582561593dd08c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>AreaWeighted</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1ad76faef278e1d1b97c71865ae8a406f2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a167109672d338a1529347461f8b37a93" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>No</name></member>
+      <member refid="classmrmeshpy_1_1VertNormalsMode_1a8deff97a80c4e61018218c22389743ea" prot="public" virt="non-virtual"><scope>mrmeshpy::VertNormalsMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

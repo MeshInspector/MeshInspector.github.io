@@ -2198,6 +2198,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ggae9fc4543eb3302ae33b7843707485149a11a755d598c0c417f9a36758c3da7481">MR::Processing::Stop</a>
  }</td></tr>
 <tr class="memdesc:gae9fc4543eb3302ae33b7843707485149"><td class="mdescLeft">&#160;</td><td class="mdescRight">typically returned from callbacks to control the behavior of main algorithm  <a href="#gae9fc4543eb3302ae33b7843707485149">More...</a><br /></td></tr>
+<tr class="memitem:gae8cccc75b39074c044cb7ece46ea677f" id="r_gae8cccc75b39074c044cb7ece46ea677f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae8cccc75b39074c044cb7ece46ea677f">MR::VertNormalsMode</a> { <a class="el" href="#ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b">MR::VertNormalsMode::No</a>
+, <a class="el" href="#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b">MR::VertNormalsMode::AreaWeighted</a>
+, <a class="el" href="#ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e">MR::VertNormalsMode::AngleWeighted</a>
+ }</td></tr>
+<tr class="memdesc:gae8cccc75b39074c044cb7ece46ea677f"><td class="mdescLeft">&#160;</td><td class="mdescRight">which normals are given to the points of the cloud made from mesh vertices  <a href="#gae8cccc75b39074c044cb7ece46ea677f">More...</a><br /></td></tr>
 <tr class="memitem:gaf24a4564a6b209f61d84fd30c8c71a8b" id="r_gaf24a4564a6b209f61d84fd30c8c71a8b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf24a4564a6b209f61d84fd30c8c71a8b">MR::OrientNormals</a> { <a class="el" href="#ggaf24a4564a6b209f61d84fd30c8c71a8ba2825d6d77d04650a6a5ffef55c198d9f">MR::OrientNormals::TowardOrigin</a>
 , <a class="el" href="#ggaf24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7">MR::OrientNormals::AwayFromOrigin</a>
 , <a class="el" href="#ggaf24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666">MR::OrientNormals::Smart</a>
@@ -5940,6 +5945,8 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gab0c7ddb6812ef3a4def0bec679fb7e04" id="r_gab0c7ddb6812ef3a4def0bec679fb7e04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1InSphere.html">InSphere</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab0c7ddb6812ef3a4def0bec679fb7e04">MR::findInSphere</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId v, const <a class="el" href="structMR_1_1InSphereSearchSettings.html">InSphereSearchSettings</a> &amp;settings)</td></tr>
 <tr class="memitem:ga239cbc262f9cc0bda4d8b5bf928ee0d2" id="r_ga239cbc262f9cc0bda4d8b5bf928ee0d2"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga239cbc262f9cc0bda4d8b5bf928ee0d2">MR::computeInSphereThicknessAtVertices</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1InSphereSearchSettings.html">InSphereSearchSettings</a> &amp;settings, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
 <tr class="memdesc:ga239cbc262f9cc0bda4d8b5bf928ee0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the thickness at each vertex as the diameter of the maximal inscribed sphere  <br /></td></tr>
+<tr class="memitem:ga56073a4519234b94321564d8c638bf05" id="r_ga56073a4519234b94321564d8c638bf05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56073a4519234b94321564d8c638bf05">MR::meshToPointCloud</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, bool saveNormals, const VertBitSet *verts=nullptr)</td></tr>
+<tr class="memitem:ga01293c6701985304e21781a54a8df3e9" id="r_ga01293c6701985304e21781a54a8df3e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga01293c6701985304e21781a54a8df3e9">MR::meshToDensePointCloud</a> (const MeshPart &amp;mp, float radius, bool saveNormals, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="memitem:ga107a70561c7abcc661b7ada8910fb701" id="r_ga107a70561c7abcc661b7ada8910fb701"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga107a70561c7abcc661b7ada8910fb701">MR::MeshTopology::makeEdge</a> ()</td></tr>
 <tr class="memdesc:ga107a70561c7abcc661b7ada8910fb701"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex or face  <br /></td></tr>
 <tr class="memitem:ga4c15050b1b58ff7c1899157e4532f74d" id="r_ga4c15050b1b58ff7c1899157e4532f74d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c15050b1b58ff7c1899157e4532f74d">MR::MeshTopology::isLoneEdge</a> (EdgeId a) const</td></tr>
@@ -6740,7 +6747,9 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:gaf2ff1896602b42bea912877e4c59b1be" id="r_gaf2ff1896602b42bea912877e4c59b1be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf2ff1896602b42bea912877e4c59b1be">MR::defaultSerializeMeshFormat</a> ()</td></tr>
 <tr class="memitem:gad470465fba020e775587e6dfe209ba03" id="r_gad470465fba020e775587e6dfe209ba03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad470465fba020e775587e6dfe209ba03">MR::setDefaultSerializeMeshFormat</a> (std::string newFormat)</td></tr>
 <tr class="memitem:ga7add507ed0f2abe3843cec2e9f387f8c" id="r_ga7add507ed0f2abe3843cec2e9f387f8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7add507ed0f2abe3843cec2e9f387f8c">MR::ObjectPoints::ObjectPoints</a> ()=default</td></tr>
-<tr class="memitem:gafdac591813395cc98c7d9f3db14c0bcc" id="r_gafdac591813395cc98c7d9f3db14c0bcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdac591813395cc98c7d9f3db14c0bcc">MR::ObjectPoints::ObjectPoints</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;objMesh, bool saveNormals=true)</td></tr>
+<tr class="memitem:gacdd5364562fafc70ef7f78f6f3425cea" id="r_gacdd5364562fafc70ef7f78f6f3425cea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacdd5364562fafc70ef7f78f6f3425cea">MR::ObjectPoints::ObjectPoints</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;objMesh, <a class="el" href="#gae8cccc75b39074c044cb7ece46ea677f">VertNormalsMode</a> normals=<a class="el" href="#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b">VertNormalsMode::AreaWeighted</a>)</td></tr>
+<tr class="memdesc:gacdd5364562fafc70ef7f78f6f3425cea"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected  <br /></td></tr>
+<tr class="memitem:gadd1b1c697c9f90ebc024ac8b7a04419e" id="r_gadd1b1c697c9f90ebc024ac8b7a04419e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadd1b1c697c9f90ebc024ac8b7a04419e">MR::ObjectPoints::ObjectPoints</a> (const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;objMesh, bool saveNormals)</td></tr>
 <tr class="memitem:ga5831e567d62ac9ac7959897b98ee75ae" id="r_ga5831e567d62ac9ac7959897b98ee75ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5831e567d62ac9ac7959897b98ee75ae">MR::ObjectPoints::operator=</a> (<a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;&amp;)=default</td></tr>
 <tr class="memitem:gaa61490c1ac4aa372d55e05f695cc5d23" id="r_gaa61490c1ac4aa372d55e05f695cc5d23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa61490c1ac4aa372d55e05f695cc5d23">MR::ObjectPoints::ObjectPoints</a> (<a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a> &amp;&amp;)=default</td></tr>
 <tr class="memitem:ga2b707017bc1c576f7d820105146fbdeb" id="r_ga2b707017bc1c576f7d820105146fbdeb"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b707017bc1c576f7d820105146fbdeb">MR::ObjectPoints::StaticTypeName</a> () noexcept</td></tr>
@@ -28398,6 +28407,40 @@ template&lt;typename Tag&gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f" name="ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f"></a>Unit&#160;</td><td class="fielddoc"><p>all vertices have same mass=1 </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06" name="ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06"></a>NeiArea&#160;</td><td class="fielddoc"><p>vertex mass depends on local geometry and proportional to the area of first-ring triangles </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gae8cccc75b39074c044cb7ece46ea677f" name="gae8cccc75b39074c044cb7ece46ea677f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae8cccc75b39074c044cb7ece46ea677f">&#9670;&#160;</a></span>VertNormalsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gae8cccc75b39074c044cb7ece46ea677f">MR::VertNormalsMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MREnums_8h.html">MRMesh/MREnums.h</a>&gt;</code></p>
+
+<p>which normals are given to the points of the cloud made from mesh vertices </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b" name="ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b"></a>No&#160;</td><td class="fielddoc"><p>the cloud has no normals </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b" name="ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b"></a>AreaWeighted&#160;</td><td class="fielddoc"><p>area-weighted average of the normals of incident triangles, see computePerVertNormals </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e" name="ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e"></a>AngleWeighted&#160;</td><td class="fielddoc"><p>angle-weighted average of the normals of incident triangles (pseudonormals), see computePerVertPseudoNormals </p>
 </td></tr>
 </table>
 
@@ -122676,6 +122719,47 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 
 </div>
 </div>
+<a id="ga01293c6701985304e21781a54a8df3e9" name="ga01293c6701985304e21781a54a8df3e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga01293c6701985304e21781a54a8df3e9">&#9670;&#160;</a></span>meshToDensePointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::meshToDensePointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshToPointCloud_8h.html">MRMesh/MRMeshToPointCloud.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga0752e5390277bae84ef50d8e1f0a5db9" name="ga0752e5390277bae84ef50d8e1f0a5db9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0752e5390277bae84ef50d8e1f0a5db9">&#9670;&#160;</a></span>meshToDirectionVolume()</h2>
 
@@ -122850,6 +122934,34 @@ template&lt;typename <a class="el" href="#gaf293d6c66d14a3940a1c5a5685a1b36f">Re
 
 <p><code>#include &lt;<a class="el" href="MRVDBConversions_8h.html">MRVoxels/MRVDBConversions.h</a>&gt;</code></p>
 <p>closed surface is required surfaceOffset - number voxels around surface to calculate distance in (should be positive) returns null if was canceled by progress callback </p>
+
+</div>
+</div>
+<a id="ga56073a4519234b94321564d8c638bf05" name="ga56073a4519234b94321564d8c638bf05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga56073a4519234b94321564d8c638bf05">&#9670;&#160;</a></span>meshToPointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> MR::meshToPointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshToPointCloud_8h.html">MRMesh/MRMeshToPointCloud.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -130808,7 +130920,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga7add507ed0f2abe3843cec2e9f387f8c" name="ga7add507ed0f2abe3843cec2e9f387f8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7add507ed0f2abe3843cec2e9f387f8c">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7add507ed0f2abe3843cec2e9f387f8c">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130834,8 +130946,31 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gafdac591813395cc98c7d9f3db14c0bcc" name="gafdac591813395cc98c7d9f3db14c0bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafdac591813395cc98c7d9f3db14c0bcc">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[2/5]</span></h2>
+<a id="gadd1b1c697c9f90ebc024ac8b7a04419e" name="gadd1b1c697c9f90ebc024ac8b7a04419e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd1b1c697c9f90ebc024ac8b7a04419e">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> MR::ObjectPoints::ObjectPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>objMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectPoints_8h.html">MRMesh/MRObjectPoints.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gacdd5364562fafc70ef7f78f6f3425cea" name="gacdd5364562fafc70ef7f78f6f3425cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacdd5364562fafc70ef7f78f6f3425cea">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130851,7 +130986,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#gae8cccc75b39074c044cb7ece46ea677f">VertNormalsMode</a></td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b">VertNormalsMode::AreaWeighted</a></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -130863,10 +130998,12 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRObjectPoints_8h.html">MRMesh/MRObjectPoints.h</a>&gt;</code></p>
 
+<p>makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected </p>
+
 </div>
 </div>
 <a id="ga2115d8e4f880b457969069d6da367e5f" name="ga2115d8e4f880b457969069d6da367e5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2115d8e4f880b457969069d6da367e5f">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2115d8e4f880b457969069d6da367e5f">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130893,7 +131030,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaa61490c1ac4aa372d55e05f695cc5d23" name="gaa61490c1ac4aa372d55e05f695cc5d23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa61490c1ac4aa372d55e05f695cc5d23">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa61490c1ac4aa372d55e05f695cc5d23">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130920,7 +131057,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga565091fdf7ac04df64dcc926ecf74ffb" name="ga565091fdf7ac04df64dcc926ecf74ffb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga565091fdf7ac04df64dcc926ecf74ffb">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga565091fdf7ac04df64dcc926ecf74ffb">&#9670;&#160;</a></span>ObjectPoints() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

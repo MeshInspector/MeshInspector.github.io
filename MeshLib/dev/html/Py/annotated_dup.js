@@ -1279,6 +1279,7 @@ var annotated_dup =
       [ "VertexMass", "classmrmeshpy_1_1VertexMass.html", "classmrmeshpy_1_1VertexMass" ],
       [ "VertId", "classmrmeshpy_1_1VertId.html", "classmrmeshpy_1_1VertId" ],
       [ "VertMap", "classmrmeshpy_1_1VertMap.html", "classmrmeshpy_1_1VertMap" ],
+      [ "VertNormalsMode", "classmrmeshpy_1_1VertNormalsMode.html", "classmrmeshpy_1_1VertNormalsMode" ],
       [ "VertPathInfo", "classmrmeshpy_1_1VertPathInfo.html", "classmrmeshpy_1_1VertPathInfo" ],
       [ "VertRenumber", "classmrmeshpy_1_1VertRenumber.html", "classmrmeshpy_1_1VertRenumber" ],
       [ "VertScalars", "classmrmeshpy_1_1VertScalars.html", "classmrmeshpy_1_1VertScalars" ],

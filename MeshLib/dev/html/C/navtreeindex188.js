@@ -1,5 +1,10 @@
 var NAVTREEINDEX188 =
 {
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#acdd99cadfb718731d9519916cbfbb1e1":[9,2,2,0,0,0,0,2,486,45],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#ad495136031cc2b901de86d1e8a2fffce":[9,2,2,0,0,0,0,2,486,40],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#ad7626279b6ba19a3edcd10878d2f18b5":[9,2,2,0,0,0,0,2,486,8],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#aded59f484d427931cafbf2466fae0289":[9,2,2,0,0,0,0,2,486,57],
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#ae004b5b008d349ea0e25c79456ad41a9":[9,2,2,0,0,0,0,2,486,29],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#ae44400ba7fd993a19e071e93dba76b68":[9,2,2,0,0,0,0,2,486,5],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#ae4dcaa547c2438703a76adc15f806ff1":[9,2,2,0,0,0,0,2,486,39],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#ae6a6bfbf8a43b9373b7620c28a6a916e":[9,2,2,0,0,0,0,2,486,24],
@@ -244,10 +249,5 @@ var NAVTREEINDEX188 =
 "std__vector__MR__PointsLoad__NamedCloud_8h.html#a261dba0a25f47dc29c9a1a829d0f815a":[9,2,2,0,0,0,0,2,490,24],
 "std__vector__MR__PointsLoad__NamedCloud_8h.html#a265fb87a7a2e97651037716349b1a26c":[9,2,2,0,0,0,0,2,490,36],
 "std__vector__MR__PointsLoad__NamedCloud_8h.html#a28972bcdd89bc421fff7150560e34ca7":[9,2,2,0,0,0,0,2,490,44],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#a3e61a1ac67873777725f4035f45197b1":[9,2,2,0,0,0,0,2,490,30],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#a4200cbe08fe2dc1b7e4bf0ce44c3dd3d":[9,2,2,0,0,0,0,2,490,54],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#a42127efc3aa9a498abb6d9cec7fcc158":[9,2,2,0,0,0,0,2,490,46],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#a4c4cd3917fa54a9068832d7e8d20851c":[9,2,2,0,0,0,0,2,490,23],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#a4e3b23753f515dd3763f6d2e68f3cde0":[9,2,2,0,0,0,0,2,490,21],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#a51dc303bba945b7216eb073b6a228c7c":[9,2,2,0,0,0,0,2,490,13]
+"std__vector__MR__PointsLoad__NamedCloud_8h.html#a3e61a1ac67873777725f4035f45197b1":[9,2,2,0,0,0,0,2,490,30]
 };

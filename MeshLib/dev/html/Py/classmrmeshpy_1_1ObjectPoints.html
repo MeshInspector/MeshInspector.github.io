@@ -154,7 +154,7 @@ $(function(){initNavTree('classmrmeshpy_1_1ObjectPoints.html','','classmrmeshpy_
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7723030d0f3da83fdd9f9f3deb67472d" id="r_a7723030d0f3da83fdd9f9f3deb67472d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7723030d0f3da83fdd9f9f3deb67472d">__init__</a> (self)</td></tr>
-<tr class="memitem:a1b8a3423ebe5c2c2bfe68309b0180d64" id="r_a1b8a3423ebe5c2c2bfe68309b0180d64"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b8a3423ebe5c2c2bfe68309b0180d64">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjectMesh.html">ObjectMesh</a> objMesh, bool saveNormals=True)</td></tr>
+<tr class="memitem:ac5e783bd09c17682c34fc0d963aa1af2" id="r_ac5e783bd09c17682c34fc0d963aa1af2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5e783bd09c17682c34fc0d963aa1af2">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjectMesh.html">ObjectMesh</a> objMesh, <a class="el" href="classmrmeshpy_1_1VertNormalsMode.html">VertNormalsMode</a> normals='MR::VertNormalsMode::AreaWeighted')</td></tr>
 <tr class="memitem:aa541cb0ec3835b6b9f275bedfee1f6fa" id="r_aa541cb0ec3835b6b9f275bedfee1f6fa"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa541cb0ec3835b6b9f275bedfee1f6fa">className</a> (self)</td></tr>
 <tr class="memitem:abaa72dcdff8aa2b06e48be6e78ac3595" id="r_abaa72dcdff8aa2b06e48be6e78ac3595"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaa72dcdff8aa2b06e48be6e78ac3595">classNameInPlural</a> (self)</td></tr>
 <tr class="memitem:a8a2bbd6705202af2e96e68811bad6874" id="r_a8a2bbd6705202af2e96e68811bad6874"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2bbd6705202af2e96e68811bad6874">clone</a> (self)</td></tr>
@@ -352,8 +352,8 @@ an object that stores a points
 
 </div>
 </div>
-<a id="a1b8a3423ebe5c2c2bfe68309b0180d64" name="a1b8a3423ebe5c2c2bfe68309b0180d64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b8a3423ebe5c2c2bfe68309b0180d64">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
+<a id="ac5e783bd09c17682c34fc0d963aa1af2" name="ac5e783bd09c17682c34fc0d963aa1af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5e783bd09c17682c34fc0d963aa1af2">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,11 +371,12 @@ an object that stores a points
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertNormalsMode.html">VertNormalsMode</a> </td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'MR::VertNormalsMode::AreaWeighted'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected
+</pre> 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>

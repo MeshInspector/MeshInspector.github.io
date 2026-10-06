@@ -8475,6 +8475,11 @@ Public Types</h2></td></tr>
 , <a class="el" href="#a2e141c1c8c46db7665c0466e70b3917ca11a755d598c0c417f9a36758c3da7481">Stop</a> = 1
  }</td></tr>
 <tr class="memdesc:a2e141c1c8c46db7665c0466e70b3917c"><td class="mdescLeft">&#160;</td><td class="mdescRight">typically returned from callbacks to control the behavior of main algorithm This enum is intended to be boolean.  <a href="#a2e141c1c8c46db7665c0466e70b3917c">More...</a><br /></td></tr>
+<tr class="memitem:ae87fa6e092f96675221f3e07ece671eb" id="r_ae87fa6e092f96675221f3e07ece671eb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">VertNormalsMode</a> : int { <a class="el" href="#ae87fa6e092f96675221f3e07ece671ebabafd7322c6e97d25b6299b5d6fe8920b">No</a> = 0
+, <a class="el" href="#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b">AreaWeighted</a> = 1
+, <a class="el" href="#ae87fa6e092f96675221f3e07ece671eba1c49998375abb3376ffe312e644a306e">AngleWeighted</a> = 2
+ }</td></tr>
+<tr class="memdesc:ae87fa6e092f96675221f3e07ece671eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">which normals are given to the points of the cloud made from mesh vertices  <a href="#ae87fa6e092f96675221f3e07ece671eb">More...</a><br /></td></tr>
 <tr class="memitem:ad0f6ea3aa4937d3c311b441344576dab" id="r_ad0f6ea3aa4937d3c311b441344576dab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0f6ea3aa4937d3c311b441344576dab">OrientNormals</a> : int { <a class="el" href="#ad0f6ea3aa4937d3c311b441344576daba2825d6d77d04650a6a5ffef55c198d9f">TowardOrigin</a> = 0
 , <a class="el" href="#ad0f6ea3aa4937d3c311b441344576daba08b9149d45da3efbdd41811c50774bf7">AwayFromOrigin</a> = 1
 , <a class="el" href="#ad0f6ea3aa4937d3c311b441344576dabaacd381e68b92357896c0856efebb3666">Smart</a> = 2
@@ -10509,10 +10514,10 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a315ecb2f225f55a3c049ecb61ad59d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a356b6688a9b3e256531dbf0da42bbb36" title="finds maximal sphere inscribed in the mesh touching point (p) with center along the normal at (p) Gen...">MR.findInSphere</a></span>.  <br /></td></tr>
 <tr class="memitem:a159bb274260c010b34aff34f24dc590e" id="r_a159bb274260c010b34aff34f24dc590e"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a159bb274260c010b34aff34f24dc590e">computeInSphereThicknessAtVertices</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__InSphereSearchSettings.html">MR.Const_InSphereSearchSettings</a> settings, MR.Std.Const_Function_Bool_From_Float? progress=null)</td></tr>
 <tr class="memdesc:a159bb274260c010b34aff34f24dc590e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the thickness at each vertex as the diameter of the maximal inscribed sphere Generated from function <span class="tt"><a class="el" href="#a159bb274260c010b34aff34f24dc590e" title="returns the thickness at each vertex as the diameter of the maximal inscribed sphere Generated from f...">MR.computeInSphereThicknessAtVertices</a></span>. Parameter <span class="tt">progress</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
-<tr class="memitem:a6328cc48bc1be46ed3893c317cdf37eb" id="r_a6328cc48bc1be46ed3893c317cdf37eb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb">meshToPointCloud</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, bool? saveNormals=null, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? verts=null)</td></tr>
-<tr class="memdesc:a6328cc48bc1be46ed3893c317cdf37eb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> to <a class="el" href="classMR_1_1PointCloud.html" title="Generated from class MR.PointCloud. This is the non-const half of the class.">PointCloud</a> Generated from function <span class="tt"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb" title="Mesh to PointCloud Generated from function MR.meshToPointCloud. Parameter saveNormals defaults to tru...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>.  <br /></td></tr>
-<tr class="memitem:aa99481de7657067322381c6376cc9df8" id="r_aa99481de7657067322381c6376cc9df8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa99481de7657067322381c6376cc9df8">meshToDensePointCloud</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float radius, bool? saveNormals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
-<tr class="memdesc:aa99481de7657067322381c6376cc9df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples inside every triangle that its own vertices cannot cover, and on the edges of it. A triangle needs no samples at all, however long its edges are, if every point of it is within the radius from one of its vertices, as in a sliver with the third vertex near the longest edge. Please note that the number of samples grows as 1/radius^2.  <br /></td></tr>
+<tr class="memitem:ac3ae47199ecb1701d15c5608c8efb704" id="r_ac3ae47199ecb1701d15c5608c8efb704"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3ae47199ecb1701d15c5608c8efb704">meshToPointCloud</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>? normals=null, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? verts=null)</td></tr>
+<tr class="memdesc:ac3ae47199ecb1701d15c5608c8efb704"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated from function <span class="tt"><a class="el" href="#ac3ae47199ecb1701d15c5608c8efb704" title="converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated f...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>.  <br /></td></tr>
+<tr class="memitem:abdc8d4ca3a7e5c78239da53c680fcec4" id="r_abdc8d4ca3a7e5c78239da53c680fcec4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc8d4ca3a7e5c78239da53c680fcec4">meshToDensePointCloud</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float radius, <a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>? normals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:abdc8d4ca3a7e5c78239da53c680fcec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples inside every triangle that its own vertices cannot cover, and on the edges of it. A triangle needs no samples at all, however long its edges are, if every point of it is within the radius from one of its vertices, as in a sliver with the third vertex near the longest edge. Please note that the number of samples grows as 1/radius^2.  <br /></td></tr>
 <tr class="memitem:ae4171f5402c2383f24804f51074d6311" id="r_ae4171f5402c2383f24804f51074d6311"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4171f5402c2383f24804f51074d6311">reduceTotalAngle</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
 <tr class="memdesc:ae4171f5402c2383f24804f51074d6311"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its length; performs the given number of iterations, during each the edges are flipped; returns the total number of flips done Generated from function <span class="tt"><a class="el" href="#ae4171f5402c2383f24804f51074d6311" title="minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its...">MR.reduceTotalAngle</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCallback</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:abcd3335b980057dbe48e9fa19efcc011" id="r_abcd3335b980057dbe48e9fa19efcc011"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd3335b980057dbe48e9fa19efcc011">reduceTotalAngleInMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
@@ -14200,6 +14205,30 @@ Related Symbols</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" name="ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f"></a>Unit&#160;</td><td class="fielddoc"><p>all vertices have same mass=1 </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ad5aa38a574d0ed7054d3cfbda73f5ca8a1382ee05d86c5b607841935eeb648e06" name="ad5aa38a574d0ed7054d3cfbda73f5ca8a1382ee05d86c5b607841935eeb648e06"></a>NeiArea&#160;</td><td class="fielddoc"><p>vertex mass depends on local geometry and proportional to the area of first-ring triangles </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="ae87fa6e092f96675221f3e07ece671eb" name="ae87fa6e092f96675221f3e07ece671eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae87fa6e092f96675221f3e07ece671eb">&#9670;&#160;</a></span>VertNormalsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>which normals are given to the points of the cloud made from mesh vertices </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae87fa6e092f96675221f3e07ece671ebabafd7322c6e97d25b6299b5d6fe8920b" name="ae87fa6e092f96675221f3e07ece671ebabafd7322c6e97d25b6299b5d6fe8920b"></a>No&#160;</td><td class="fielddoc"><p>the cloud has no normals </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" name="ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b"></a>AreaWeighted&#160;</td><td class="fielddoc"><p>area-weighted average of the normals of incident triangles, see computePerVertNormals </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ae87fa6e092f96675221f3e07ece671eba1c49998375abb3376ffe312e644a306e" name="ae87fa6e092f96675221f3e07ece671eba1c49998375abb3376ffe312e644a306e"></a>AngleWeighted&#160;</td><td class="fielddoc"><p>angle-weighted average of the normals of incident triangles (pseudonormals), see computePerVertPseudoNormals </p>
 </td></tr>
 </table>
 
@@ -63743,8 +63772,8 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
-<a id="aa99481de7657067322381c6376cc9df8" name="aa99481de7657067322381c6376cc9df8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa99481de7657067322381c6376cc9df8">&#9670;&#160;</a></span>meshToDensePointCloud()</h2>
+<a id="abdc8d4ca3a7e5c78239da53c680fcec4" name="abdc8d4ca3a7e5c78239da53c680fcec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc8d4ca3a7e5c78239da53c680fcec4">&#9670;&#160;</a></span>meshToDensePointCloud()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -63765,7 +63794,7 @@ All new faces should be parallel to given direction It is measured in squared le
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+          <td class="paramtype"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>?</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -63784,7 +63813,7 @@ All new faces should be parallel to given direction It is measured in squared le
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mp</td><td>the mesh or the part of it to be covered; nothing outside the part is sampled </td></tr>
-    <tr><td class="paramname">saveNormals</td><td>if true then the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <span class="tt"><a class="el" href="#aa99481de7657067322381c6376cc9df8" title="Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball...">MR.meshToDensePointCloud</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">normals</td><td>unless No, the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <span class="tt"><a class="el" href="#abdc8d4ca3a7e5c78239da53c680fcec4" title="Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball...">MR.meshToDensePointCloud</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -64009,8 +64038,8 @@ All new faces should be parallel to given direction It is measured in squared le
 
 </div>
 </div>
-<a id="a6328cc48bc1be46ed3893c317cdf37eb" name="a6328cc48bc1be46ed3893c317cdf37eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6328cc48bc1be46ed3893c317cdf37eb">&#9670;&#160;</a></span>meshToPointCloud()</h2>
+<a id="ac3ae47199ecb1701d15c5608c8efb704" name="ac3ae47199ecb1701d15c5608c8efb704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ae47199ecb1701d15c5608c8efb704">&#9670;&#160;</a></span>meshToPointCloud()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -64026,7 +64055,7 @@ All new faces should be parallel to given direction It is measured in squared le
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+          <td class="paramtype"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>?</td>          <td class="paramname"><span class="paramname"><em>normals</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -64041,7 +64070,7 @@ All new faces should be parallel to given direction It is measured in squared le
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="classMR_1_1Mesh.html" title="This class represents a mesh, including topology (connectivity) information and point coordinates,...">Mesh</a> to <a class="el" href="classMR_1_1PointCloud.html" title="Generated from class MR.PointCloud. This is the non-const half of the class.">PointCloud</a> Generated from function <span class="tt"><a class="el" href="#a6328cc48bc1be46ed3893c317cdf37eb" title="Mesh to PointCloud Generated from function MR.meshToPointCloud. Parameter saveNormals defaults to tru...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">saveNormals</span> defaults to <span class="tt">true</span>. </p>
+<p>converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated from function <span class="tt"><a class="el" href="#ac3ae47199ecb1701d15c5608c8efb704" title="converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated f...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>. </p>
 
 </div>
 </div>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FindInnerShellSettings.html#aa254671229619255334480365985d604":[9,3,0,0,0,1221,5],
+"classMR_1_1FindInnerShellSettings.html#aafb04edc1a56f609d663c5fbac54dfce":[9,3,0,0,0,1221,0],
+"classMR_1_1FindInnerShellSettings.html#abe4a0691ca6a9530ffad0b6fe1ebc761":[9,3,0,0,0,1221,7],
+"classMR_1_1FindOutliersParams.html":[9,3,0,0,0,1222],
 "classMR_1_1FindOutliersParams.html#a0a63ee3aba2a9eb01995a74cf11f7879":[9,3,0,0,0,1222,6],
 "classMR_1_1FindOutliersParams.html#a26da76238da983db6540f7eb1bdc678f":[9,3,0,0,0,1222,1],
 "classMR_1_1FindOutliersParams.html#a84eaed57a6b327e3e13f4f89151271cb":[9,3,0,0,0,1222,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FunctionVolume.html#a980bffc600ca12ff1c86a55f10fd76ed":[9,3,0,0,0,1235,8],
 "classMR_1_1FunctionVolume.html#aa11f7e8de721c0be83e8353e3bf05f4f":[9,3,0,0,0,1235,7],
 "classMR_1_1FunctionVolume.html#aa313592c69888e64418aaa2ff59edf6d":[9,3,0,0,0,1235,6],
-"classMR_1_1FunctionVolume.html#ad9e2df2b8d00043cd5b898d0c193df08":[9,3,0,0,0,1235,5],
-"classMR_1_1FunctionVolume.html#ae1d825bb972949eab44a7b86eb36e655":[9,3,0,0,0,1235,3],
-"classMR_1_1FunctionVolumeU8.html":[9,3,0,0,0,1236],
-"classMR_1_1FunctionVolumeU8.html#a18fa01455273e94507be3cc6580892f9":[9,3,0,0,0,1236,1],
-"classMR_1_1FunctionVolumeU8.html#a28956fb8326b4ceebafcb9b0585e130f":[9,3,0,0,0,1236,6]
+"classMR_1_1FunctionVolume.html#ad9e2df2b8d00043cd5b898d0c193df08":[9,3,0,0,0,1235,5]
 };

@@ -7530,6 +7530,43 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MREnums.h" line="62" column="1" bodyfile="MRMesh/MREnums.h" bodystart="63" bodyend="66"/>
       </memberdef>
+      <memberdef kind="enum" id="group__GeneralGroup_1gae8cccc75b39074c044cb7ece46ea677f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>VertNormalsMode</name>
+        <qualifiedname>MR::VertNormalsMode</qualifiedname>
+        <enumvalue id="group__GeneralGroup_1ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b" prot="public">
+          <name>No</name>
+          <briefdescription>
+<para>the cloud has no normals </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b" prot="public">
+          <name>AreaWeighted</name>
+          <briefdescription>
+<para>area-weighted average of the normals of incident triangles, see computePerVertNormals </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e" prot="public">
+          <name>AngleWeighted</name>
+          <briefdescription>
+<para>angle-weighted average of the normals of incident triangles (pseudonormals), see computePerVertPseudoNormals </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>which normals are given to the points of the cloud made from mesh vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREnums.h" line="69" column="1" bodyfile="MRMesh/MREnums.h" bodystart="70" bodyend="74"/>
+      </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gaf24a4564a6b209f61d84fd30c8c71a8b" prot="public" static="no" strong="yes">
         <type></type>
         <name>OrientNormals</name>
@@ -7562,7 +7599,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="69" column="1" bodyfile="MRMesh/MREnums.h" bodystart="70" bodyend="74"/>
+        <location file="MRMesh/MREnums.h" line="77" column="1" bodyfile="MRMesh/MREnums.h" bodystart="78" bodyend="82"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gaaa631c02105f2a8fa6fe24c7873e8d98" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -7598,7 +7635,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="76" column="1" bodyfile="MRMesh/MREnums.h" bodystart="77" bodyend="81"/>
+        <location file="MRMesh/MREnums.h" line="84" column="1" bodyfile="MRMesh/MREnums.h" bodystart="85" bodyend="89"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga270a25a8ef13e07e59e7070834efc33f" prot="public" static="no" strong="yes">
         <type></type>
@@ -7655,7 +7692,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="85" column="1" bodyfile="MRMesh/MREnums.h" bodystart="86" bodyend="92"/>
+        <location file="MRMesh/MREnums.h" line="93" column="1" bodyfile="MRMesh/MREnums.h" bodystart="94" bodyend="100"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gafb67fe49bcb6006882e7b08e51b2eeff" prot="public" static="no" strong="yes">
         <type>char</type>
@@ -7690,7 +7727,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="97" column="1" bodyfile="MRMesh/MREnums.h" bodystart="98" bodyend="102"/>
+        <location file="MRMesh/MREnums.h" line="105" column="1" bodyfile="MRMesh/MREnums.h" bodystart="106" bodyend="110"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga0d52c069a53aab9d22c0f2c4e3f262a2" prot="public" static="no" strong="yes">
         <type>char</type>
@@ -7727,7 +7764,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="105" column="1" bodyfile="MRMesh/MREnums.h" bodystart="106" bodyend="113"/>
+        <location file="MRMesh/MREnums.h" line="113" column="1" bodyfile="MRMesh/MREnums.h" bodystart="114" bodyend="121"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga119ecb93af42f379f5a1462e9f9987ef" prot="public" static="no" strong="yes">
         <type>bool</type>
@@ -7754,7 +7791,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="116" column="1" bodyfile="MRMesh/MREnums.h" bodystart="117" bodyend="120"/>
+        <location file="MRMesh/MREnums.h" line="124" column="1" bodyfile="MRMesh/MREnums.h" bodystart="125" bodyend="128"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gafb9b1832b03f4aa0afb1842bf74a358a" prot="public" static="no" strong="yes">
         <type></type>
@@ -95793,7 +95830,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREnums.h" line="95" column="15" declfile="MRMesh/MREnums.h" declline="95" declcolumn="15"/>
+        <location file="MRMesh/MREnums.h" line="103" column="15" declfile="MRMesh/MREnums.h" declline="103" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0aa76473eb16c1962035c1d6561a08da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -117714,6 +117751,64 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshThickness.h" line="76" column="17" declfile="MRMesh/MRMeshThickness.h" declline="76" declcolumn="17"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga56073a4519234b94321564d8c638bf05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE PointCloud</type>
+        <definition>MR_BIND_IGNORE PointCloud MR::meshToPointCloud</definition>
+        <argsstring>(const Mesh &amp;mesh, bool saveNormals, const VertBitSet *verts=nullptr)</argsstring>
+        <name>meshToPointCloud</name>
+        <qualifiedname>MR::meshToPointCloud</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveNormals</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>verts</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="20" column="12" declfile="MRMesh/MRMeshToPointCloud.h" declline="20" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga01293c6701985304e21781a54a8df3e9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; PointCloud &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; PointCloud &gt; MR::meshToDensePointCloud</definition>
+        <argsstring>(const MeshPart &amp;mp, float radius, bool saveNormals, const ProgressCallback &amp;cb={})</argsstring>
+        <name>meshToDensePointCloud</name>
+        <qualifiedname>MR::meshToDensePointCloud</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveNormals</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="39" column="10" declfile="MRMesh/MRMeshToPointCloud.h" declline="39" declcolumn="10"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga107a70561c7abcc661b7ada8910fb701" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
         <definition>EdgeId MR::MeshTopology::makeEdge</definition>
@@ -129605,10 +129700,34 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRObjectPoints.h" line="16" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafdac591813395cc98c7d9f3db14c0bcc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gacdd5364562fafc70ef7f78f6f3425cea" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::ObjectPoints::ObjectPoints</definition>
-        <argsstring>(const ObjectMesh &amp;objMesh, bool saveNormals=true)</argsstring>
+        <argsstring>(const ObjectMesh &amp;objMesh, VertNormalsMode normals=VertNormalsMode::AreaWeighted)</argsstring>
+        <name>ObjectPoints</name>
+        <qualifiedname>MR::ObjectPoints::ObjectPoints</qualifiedname>
+        <param>
+          <type>const ObjectMesh &amp;</type>
+          <declname>objMesh</declname>
+        </param>
+        <param>
+          <type>VertNormalsMode</type>
+          <declname>normals</declname>
+          <defval>VertNormalsMode::AreaWeighted</defval>
+        </param>
+        <briefdescription>
+<para>makes the point cloud from the mesh vertices; if some triangles are selected, then only from the vertices with all incident triangles selected </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRObjectPoints.h" line="18" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gadd1b1c697c9f90ebc024ac8b7a04419e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE</type>
+        <definition>MR_BIND_IGNORE MR::ObjectPoints::ObjectPoints</definition>
+        <argsstring>(const ObjectMesh &amp;objMesh, bool saveNormals)</argsstring>
         <name>ObjectPoints</name>
         <qualifiedname>MR::ObjectPoints::ObjectPoints</qualifiedname>
         <param>
@@ -129618,7 +129737,6 @@ element fields:<linebreak/>
         <param>
           <type>bool</type>
           <declname>saveNormals</declname>
-          <defval>true</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -129626,7 +129744,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="17" column="15"/>
+        <location file="MRMesh/MRObjectPoints.h" line="20" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5831e567d62ac9ac7959897b98ee75ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ObjectPoints &amp;</type>
@@ -129643,7 +129761,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="18" column="18"/>
+        <location file="MRMesh/MRObjectPoints.h" line="21" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa61490c1ac4aa372d55e05f695cc5d23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -129660,7 +129778,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="19" column="5"/>
+        <location file="MRMesh/MRObjectPoints.h" line="22" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2b707017bc1c576f7d820105146fbdeb" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -129674,7 +129792,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="21" column="33" bodyfile="MRMesh/MRObjectPoints.h" bodystart="21" bodyend="21"/>
+        <location file="MRMesh/MRObjectPoints.h" line="24" column="33" bodyfile="MRMesh/MRObjectPoints.h" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf389d74376fb91966716aa2ff7444a5d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>const char *</type>
@@ -129689,7 +129807,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="22" column="24" bodyfile="MRMesh/MRObjectPoints.h" bodystart="22" bodyend="22"/>
+        <location file="MRMesh/MRObjectPoints.h" line="25" column="24" bodyfile="MRMesh/MRObjectPoints.h" bodystart="25" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabbbafa06292edbf341e28d237a14d1d4" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -129703,7 +129821,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="24" column="33" bodyfile="MRMesh/MRObjectPoints.h" bodystart="24" bodyend="24"/>
+        <location file="MRMesh/MRObjectPoints.h" line="27" column="33" bodyfile="MRMesh/MRObjectPoints.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4252b0e95bda212a786f5d4cd32f9d35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -129718,7 +129836,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="25" column="25" bodyfile="MRMesh/MRObjectPoints.h" bodystart="25" bodyend="25"/>
+        <location file="MRMesh/MRObjectPoints.h" line="28" column="25" bodyfile="MRMesh/MRObjectPoints.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafcf28edd7f47227d028c84a6876dc0ef" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>const char *</type>
@@ -129732,7 +129850,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="27" column="33" bodyfile="MRMesh/MRObjectPoints.h" bodystart="27" bodyend="27"/>
+        <location file="MRMesh/MRObjectPoints.h" line="30" column="33" bodyfile="MRMesh/MRObjectPoints.h" bodystart="30" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7158fa0a7fc019003efd19130a838f58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>std::string</type>
@@ -129747,7 +129865,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="28" column="25" bodyfile="MRMesh/MRObjectPoints.h" bodystart="28" bodyend="28"/>
+        <location file="MRMesh/MRObjectPoints.h" line="31" column="25" bodyfile="MRMesh/MRObjectPoints.h" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa134e3602fae441e2eb584f728815c89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>const std::shared_ptr&lt; PointCloud &gt; &amp;</type>
@@ -129762,7 +129880,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="31" column="35" bodyfile="MRMesh/MRObjectPoints.h" bodystart="31" bodyend="31"/>
+        <location file="MRMesh/MRObjectPoints.h" line="34" column="35" bodyfile="MRMesh/MRObjectPoints.h" bodystart="34" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5856ca60c2f8b465c0ef652b64673c43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -129778,7 +129896,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="33" column="30"/>
+        <location file="MRMesh/MRObjectPoints.h" line="36" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2c3cd5b9c7b2ec3d338781a407811c59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::shared_ptr&lt; Object &gt;</type>
@@ -129794,7 +129912,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="34" column="30"/>
+        <location file="MRMesh/MRObjectPoints.h" line="37" column="30"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7133f9317fd79fe3af1c4c4f58e0865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
@@ -129812,7 +129930,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="36" column="18" bodyfile="MRMesh/MRObjectPoints.h" bodystart="36" bodyend="36"/>
+        <location file="MRMesh/MRObjectPoints.h" line="39" column="18" bodyfile="MRMesh/MRObjectPoints.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9be08b98788cf767141c49c360c12547" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129831,7 +129949,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="39" column="19"/>
+        <location file="MRMesh/MRObjectPoints.h" line="42" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga565091fdf7ac04df64dcc926ecf74ffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -129855,7 +129973,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="42" column="5" bodyfile="MRMesh/MRObjectPoints.h" bodystart="42" bodyend="42"/>
+        <location file="MRMesh/MRObjectPoints.h" line="45" column="5" bodyfile="MRMesh/MRObjectPoints.h" bodystart="45" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac5aad93f6e8de9c6a0a8a84bc03c263c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -129871,7 +129989,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="44" column="26"/>
+        <location file="MRMesh/MRObjectPoints.h" line="47" column="26"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2115d8e4f880b457969069d6da367e5f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -129889,7 +130007,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="47" column="5"/>
+        <location file="MRMesh/MRObjectPoints.h" line="50" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa23666fab5f9183750635cdd702415cf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129909,7 +130027,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="50" column="19"/>
+        <location file="MRMesh/MRObjectPoints.h" line="53" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae1df152e8ef64cf91607ed7168d86ce7" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -129931,7 +130049,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="52" column="19"/>
+        <location file="MRMesh/MRObjectPoints.h" line="55" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7abd868ad7390058bd08ff4a1a97f58e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; ObjectPoints &gt;</type>
@@ -129950,7 +130068,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="56" column="19" declfile="MRMesh/MRObjectPoints.h" declline="56" declcolumn="19"/>
+        <location file="MRMesh/MRObjectPoints.h" line="59" column="19" declfile="MRMesh/MRObjectPoints.h" declline="59" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6f0b5ec441ae5f56756368f8fcc0f26e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; ObjectPoints &gt;</type>
@@ -129973,7 +130091,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="60" column="19" declfile="MRMesh/MRObjectPoints.h" declline="60" declcolumn="19"/>
+        <location file="MRMesh/MRObjectPoints.h" line="63" column="19" declfile="MRMesh/MRObjectPoints.h" declline="63" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga14aba576e5451b9dfd9541bffe7470ef" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; ObjectPoints &gt;</type>
@@ -130017,7 +130135,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRObjectPoints.h" line="65" column="19" declfile="MRMesh/MRObjectPoints.h" declline="65" declcolumn="19"/>
+        <location file="MRMesh/MRObjectPoints.h" line="68" column="19" declfile="MRMesh/MRObjectPoints.h" declline="68" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae877dc8d1afce019e5db8031304cf298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

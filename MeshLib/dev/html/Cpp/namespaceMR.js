@@ -1775,6 +1775,11 @@ var namespaceMR =
       [ "Unit", "group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f", null ],
       [ "NeiArea", "group__GeneralGroup.html#ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06", null ]
     ] ],
+    [ "VertNormalsMode", "group__GeneralGroup.html#gae8cccc75b39074c044cb7ece46ea677f", [
+      [ "No", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fabafd7322c6e97d25b6299b5d6fe8920b", null ],
+      [ "AreaWeighted", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa10aa938500345421e5e8faad0279137b", null ],
+      [ "AngleWeighted", "group__GeneralGroup.html#ggae8cccc75b39074c044cb7ece46ea677fa1c49998375abb3376ffe312e644a306e", null ]
+    ] ],
     [ "VolumeUnit", "group__GeneralGroup.html#gad9e7a49998c5eecad26ffc58feb2a29a", [
       [ "microns3", "group__GeneralGroup.html#ggad9e7a49998c5eecad26ffc58feb2a29aa2721926f0c08bc977b75d30560305bdf", null ],
       [ "millimeters3", "group__GeneralGroup.html#ggad9e7a49998c5eecad26ffc58feb2a29aa3a7f8edab106073f428064294552e862", null ],
@@ -2995,7 +3000,8 @@ var namespaceMR =
     [ "meshPreCollapseVertAttribute", "group__GeneralGroup.html#ga00f6abdbff2057a8c1d1838e4bf43849", null ],
     [ "MeshRegion", "group__GeneralGroup.html#gac2467062511884bec34fc4442102c639", null ],
     [ "meshRegionToIndicatorVolume", "group__GeneralGroup.html#gaf99b4c073dc700a6e84295c59f0cbdef", null ],
-    [ "meshToDensePointCloud", "group__MeshAlgorithmGroup.html#ga00db4afad371e3746b5a8a8197e654a3", null ],
+    [ "meshToDensePointCloud", "group__GeneralGroup.html#ga01293c6701985304e21781a54a8df3e9", null ],
+    [ "meshToDensePointCloud", "group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846", null ],
     [ "meshToDirectionVolume", "group__GeneralGroup.html#ga0752e5390277bae84ef50d8e1f0a5db9", null ],
     [ "meshToDistanceField", "group__GeneralGroup.html#gad6792f245ad7c79f45f2e51da0703d8e", null ],
     [ "meshToDistanceFunctionVolume", "group__GeneralGroup.html#gaf240d29116bdd27249c44e9978b98541", null ],
@@ -3003,7 +3009,8 @@ var namespaceMR =
     [ "meshToDistanceVolume", "group__GeneralGroup.html#gaed72deb95016a3c136004932e83ae969", null ],
     [ "meshToEigen", "group__MeshEigenGroup.html#ga24bf8eab6bf0c1eed0bb93ca8668237d", null ],
     [ "meshToLevelSet", "group__GeneralGroup.html#ga4a5a5572b6bfd680678650c3da0badcd", null ],
-    [ "meshToPointCloud", "group__MeshAlgorithmGroup.html#gaff12e899a2fa7790b09853a93701515f", null ],
+    [ "meshToPointCloud", "group__GeneralGroup.html#ga56073a4519234b94321564d8c638bf05", null ],
+    [ "meshToPointCloud", "group__MeshAlgorithmGroup.html#ga2d7563f4b05501158a133d1e52731cc0", null ],
     [ "meshToVolume", "group__GeneralGroup.html#gab22dbe091527f028fd609ca3116d57b6", null ],
     [ "MeshTriPointT< float >", "group__GeneralGroup.html#gac9eac519634b1a5b87faff78b7e2eefa", null ],
     [ "mincircleDiameterSq", "group__MathGroup.html#ga4d722517a95582901be4599a6042e273", null ],

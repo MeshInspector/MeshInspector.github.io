@@ -1548,6 +1548,7 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.MeshBuilder.VertInfo", "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html", null ],
     [ "mrmeshpy.VertMap", "classmrmeshpy_1_1VertMap.html", null ],
+    [ "mrmeshpy.VertNormalsMode", "classmrmeshpy_1_1VertNormalsMode.html", null ],
     [ "mrmeshpy.VertPathInfo", "classmrmeshpy_1_1VertPathInfo.html", null ],
     [ "mrmeshpy.VertRenumber", "classmrmeshpy_1_1VertRenumber.html", null ],
     [ "mrmeshpy.VertScalars", "classmrmeshpy_1_1VertScalars.html", null ],

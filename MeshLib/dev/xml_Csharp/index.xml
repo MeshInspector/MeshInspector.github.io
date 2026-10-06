@@ -24551,7 +24551,7 @@
     <member refid="classMR_1_1Const__ObjectPoints_1adba63b2b6bdd76cd521ab38757ec5515" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1ac4815407b97acccf7f56344b2b7a75c0" kind="function"><name>Const_ObjectPoints</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a8983795c69bda90c49af2c3aa5ecd2d1" kind="function"><name>Const_ObjectPoints</name></member>
-    <member refid="classMR_1_1Const__ObjectPoints_1aa6fd827226c6492fd56db71452adfcc4" kind="function"><name>Const_ObjectPoints</name></member>
+    <member refid="classMR_1_1Const__ObjectPoints_1a7fcedb4572e59c06c2f125be892ea043" kind="function"><name>Const_ObjectPoints</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a75fcbda37452a47c25486433982141c9" kind="function"><name>typeName</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a0d20f03c81ed51939b29b87fe1f72d87" kind="function"><name>className</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a0939caa9f930cb58a33b3935a7d85aa6" kind="function"><name>classNameInPlural</name></member>
@@ -24638,7 +24638,7 @@
     <member refid="classMR_1_1Const__ObjectPoints_1af71dcccd07a366e94d43fe2ab46865c3" kind="function"><name>staticClassName</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a0473bea4ce98801cba43cb3209a66852" kind="function"><name>staticClassNameInPlural</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1acb574ccc959fc9d561154c98403706f8" kind="function"><name>Const_ObjectPoints</name></member>
-    <member refid="classMR_1_1Const__ObjectPoints_1a1d0f95cd50bf43fe818dd7d3211c8628" kind="function"><name>__MR_ObjectPoints_Construct</name></member>
+    <member refid="classMR_1_1Const__ObjectPoints_1a5398b366849551ae6ecc94bbc074b0cc" kind="function"><name>__MR_ObjectPoints_Construct</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a9c24ba99130c2ac8df8f588bb64c8c6a" kind="function"><name>__MR_ObjectPoints_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1ab15d00aec454b725fa1cd7eebae7beae" kind="function"><name>__MR_ObjectPoints_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__ObjectPoints_1a5fa545b725eebf158297776b858d7348" kind="function"><name>__MR_ObjectPoints_Destroy</name></member>
@@ -51553,6 +51553,10 @@
     <member refid="classMR_1a2e141c1c8c46db7665c0466e70b3917c" kind="enum"><name>Processing</name></member>
     <member refid="classMR_1a2e141c1c8c46db7665c0466e70b3917caa0bfb8e59e6c13fc8d990781f77694fe" kind="enumvalue"><name>Continue</name></member>
     <member refid="classMR_1a2e141c1c8c46db7665c0466e70b3917ca11a755d598c0c417f9a36758c3da7481" kind="enumvalue"><name>Stop</name></member>
+    <member refid="classMR_1ae87fa6e092f96675221f3e07ece671eb" kind="enum"><name>VertNormalsMode</name></member>
+    <member refid="classMR_1ae87fa6e092f96675221f3e07ece671ebabafd7322c6e97d25b6299b5d6fe8920b" kind="enumvalue"><name>No</name></member>
+    <member refid="classMR_1ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" kind="enumvalue"><name>AreaWeighted</name></member>
+    <member refid="classMR_1ae87fa6e092f96675221f3e07ece671eba1c49998375abb3376ffe312e644a306e" kind="enumvalue"><name>AngleWeighted</name></member>
     <member refid="classMR_1ad0f6ea3aa4937d3c311b441344576dab" kind="enum"><name>OrientNormals</name></member>
     <member refid="classMR_1ad0f6ea3aa4937d3c311b441344576daba2825d6d77d04650a6a5ffef55c198d9f" kind="enumvalue"><name>TowardOrigin</name></member>
     <member refid="classMR_1ad0f6ea3aa4937d3c311b441344576daba08b9149d45da3efbdd41811c50774bf7" kind="enumvalue"><name>AwayFromOrigin</name></member>
@@ -52676,8 +52680,8 @@
     <member refid="classMR_1a356b6688a9b3e256531dbf0da42bbb36" kind="function"><name>findInSphere</name></member>
     <member refid="classMR_1a315ecb2f225f55a3c049ecb61ad59d56" kind="function"><name>findInSphere</name></member>
     <member refid="classMR_1a159bb274260c010b34aff34f24dc590e" kind="function"><name>computeInSphereThicknessAtVertices</name></member>
-    <member refid="classMR_1a6328cc48bc1be46ed3893c317cdf37eb" kind="function"><name>meshToPointCloud</name></member>
-    <member refid="classMR_1aa99481de7657067322381c6376cc9df8" kind="function"><name>meshToDensePointCloud</name></member>
+    <member refid="classMR_1ac3ae47199ecb1701d15c5608c8efb704" kind="function"><name>meshToPointCloud</name></member>
+    <member refid="classMR_1abdc8d4ca3a7e5c78239da53c680fcec4" kind="function"><name>meshToDensePointCloud</name></member>
     <member refid="classMR_1ae4171f5402c2383f24804f51074d6311" kind="function"><name>reduceTotalAngle</name></member>
     <member refid="classMR_1abcd3335b980057dbe48e9fa19efcc011" kind="function"><name>reduceTotalAngleInMesh</name></member>
     <member refid="classMR_1a103de4fbb47232ed417ee551b883b7c2" kind="function"><name>subdivideWithPlane</name></member>
@@ -54517,8 +54521,8 @@
     <member refid="classMR_1a827de2c771eb9ced506c4a7faa61f31d" kind="function"><name>__MR_findInSphere_MR_VertId</name></member>
     <member refid="classMR_1a99a566bbf95a24b1bd1e109264dbe666" kind="function"><name>__MR_rayInsideIntersect_MR_MeshPoint</name></member>
     <member refid="classMR_1a32f2c1ee89c7d5554c5a20d8e45fe711" kind="function"><name>__MR_rayInsideIntersect_MR_VertId</name></member>
-    <member refid="classMR_1ae2242a337033883ffe2f4e80ddbb104c" kind="function"><name>__MR_meshToDensePointCloud</name></member>
-    <member refid="classMR_1a80037d7ccee0acba84a7e6dfcf49d886" kind="function"><name>__MR_meshToPointCloud</name></member>
+    <member refid="classMR_1ac16227022b71ffcb7ec3a59a60aab537" kind="function"><name>__MR_meshToDensePointCloud</name></member>
+    <member refid="classMR_1a14c78e829c2dada8f217d5aba1e5c02e" kind="function"><name>__MR_meshToPointCloud</name></member>
     <member refid="classMR_1a05c2c98a1f86f12efac4b5bfdbe5e552" kind="function"><name>__MR_reduceTotalAngle</name></member>
     <member refid="classMR_1aee5cacda638c41535764ba4a0b3a8d98" kind="function"><name>__MR_reduceTotalAngleInMesh</name></member>
     <member refid="classMR_1ac147d5e4c6a2b09f24cb151ca7b83598" kind="function"><name>__MR_subdivideWithPlane_5</name></member>
@@ -57796,7 +57800,7 @@
     <member refid="classMR_1_1ObjectPoints_1a999c748e8868b49835bb28109f525ed4" kind="function"><name>ObjectPoints</name></member>
     <member refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" kind="function"><name>ObjectPoints</name></member>
     <member refid="classMR_1_1ObjectPoints_1a6f091b4fa2eeaa92bbeb7a6f0c08737d" kind="function"><name>ObjectPoints</name></member>
-    <member refid="classMR_1_1ObjectPoints_1a18650d21d71e643383ceef38d5f77903" kind="function"><name>ObjectPoints</name></member>
+    <member refid="classMR_1_1ObjectPoints_1a0483e7e8df01c1e28878cdda5cfe1c17" kind="function"><name>ObjectPoints</name></member>
     <member refid="classMR_1_1ObjectPoints_1a56dac0dab5698dcb731b16bf7d3387e3" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1ObjectPoints_1a4daaf98c8ebfd08175a25b80f7f7bfd4" kind="function"><name>varPointCloud</name></member>
     <member refid="classMR_1_1ObjectPoints_1af9c27d9accbeda280597034655fb66fe" kind="function"><name>setPointCloud</name></member>
@@ -57855,7 +57859,7 @@
     <member refid="classMR_1_1ObjectPoints_1a0a8ec99266cd9781d58cb8e4900d32eb" kind="function"><name>addTag</name></member>
     <member refid="classMR_1_1ObjectPoints_1acda7e03c16433bc22bf9a4df2b2b538e" kind="function"><name>removeTag</name></member>
     <member refid="classMR_1_1ObjectPoints_1a3b220e4ef90e7dc3fee2197a3c913676" kind="function"><name>__MR_ObjectPoints_AssignFromAnother</name></member>
-    <member refid="classMR_1_1ObjectPoints_1a6f4b08b9286d217f80c1d345d6685930" kind="function"><name>__MR_ObjectPoints_Construct</name></member>
+    <member refid="classMR_1_1ObjectPoints_1a64fc6aac5a278f98d708ba2ddf3735f4" kind="function"><name>__MR_ObjectPoints_Construct</name></member>
     <member refid="classMR_1_1ObjectPoints_1a357d774f3d2b21e37474fa0f35bcd36b" kind="function"><name>__MR_ObjectPoints_ConstructFromAnother</name></member>
     <member refid="classMR_1_1ObjectPoints_1aef5f672f87fdc61071a26b7a8d08afe4" kind="function"><name>__MR_ObjectPoints_DefaultConstruct</name></member>
     <member refid="classMR_1_1ObjectPoints_1a8ce9e59a214b3f528be9ca180ed9df3d" kind="function"><name>__MR_ObjectPoints_DynamicDowncastFrom_MR_Object</name></member>

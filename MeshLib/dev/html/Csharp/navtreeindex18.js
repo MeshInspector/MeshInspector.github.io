@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1Buffer__MRNodeId__MRNodeId.html#a5fb8e01302705797e56070e8c1b42997":[9,3,0,0,0,150,7],
+"classMR_1_1Buffer__MRNodeId__MRNodeId.html#a9a655b588a95f96c52f3dc957fe37307":[9,3,0,0,0,150,3],
+"classMR_1_1Buffer__MRNodeId__MRNodeId.html#ad92d73ecad161ffcefd5daf9520d7097":[9,3,0,0,0,150,8],
+"classMR_1_1Buffer__MRNodeId__MRNodeId.html#adc9fd628987dc653687a477353931ee8":[9,3,0,0,0,150,0],
 "classMR_1_1Buffer__MRObjId__MRObjId.html":[9,3,0,0,0,151],
 "classMR_1_1Buffer__MRObjId__MRObjId.html#a22be4a561acf97a0a8d16ab84ec3f450":[9,3,0,0,0,151,4],
 "classMR_1_1Buffer__MRObjId__MRObjId.html#a641a3aa8459d00b774f10878cecab556":[9,3,0,0,0,151,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangeMeshEdgeSelectionAction.html#a4acf78b9d6737bbf5676ab67f78217b7":[9,3,0,0,0,174,5],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html#a618b701faba0c6dfe02f8e101cc16da2":[9,3,0,0,0,174,6],
 "classMR_1_1ChangeMeshEdgeSelectionAction.html#a6be252d80add207c53552fc2ecb4bf1f":[9,3,0,0,0,174,4],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#aa0bb5906ca1b68967070e775e56c07a3":[9,3,0,0,0,174,3],
-"classMR_1_1ChangeMeshEdgeSelectionAction.html#af7bcc388743a21c455c0964fcf8b5938":[9,3,0,0,0,174,2],
-"classMR_1_1ChangeMeshFaceSelectionAction.html":[9,3,0,0,0,175],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a1b29a5d063cd9bd2eca85cb1a201e4a0":[9,3,0,0,0,175,5],
-"classMR_1_1ChangeMeshFaceSelectionAction.html#a841d36a666d101dba90f3c3a99d48dc7":[9,3,0,0,0,175,3]
+"classMR_1_1ChangeMeshEdgeSelectionAction.html#aa0bb5906ca1b68967070e775e56c07a3":[9,3,0,0,0,174,3]
 };

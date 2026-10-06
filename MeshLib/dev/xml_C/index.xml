@@ -9357,6 +9357,10 @@
     <member refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2" kind="enum"><name></name></member>
     <member refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2a8c0d78f87009289352f7cc7a81650651" kind="enumvalue"><name>MR_Processing_Continue</name></member>
     <member refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2ad272346f566a093bb3b6a9a1500f8f52" kind="enumvalue"><name>MR_Processing_Stop</name></member>
+    <member refid="MREnums_8h_1ad44368a5d6b9a542fb312941ff39676f" kind="enum"><name>MR_VertNormalsMode</name></member>
+    <member refid="MREnums_8h_1ad44368a5d6b9a542fb312941ff39676fa9b4a1cf2b5a587c30b3612f982b7ff49" kind="enumvalue"><name>MR_VertNormalsMode_No</name></member>
+    <member refid="MREnums_8h_1ad44368a5d6b9a542fb312941ff39676fafd7878f261e680b332fcd98daeca426c" kind="enumvalue"><name>MR_VertNormalsMode_AreaWeighted</name></member>
+    <member refid="MREnums_8h_1ad44368a5d6b9a542fb312941ff39676fab7ee8c67d7269b265f6fcebe35cc7cc5" kind="enumvalue"><name>MR_VertNormalsMode_AngleWeighted</name></member>
     <member refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kind="enum"><name>MR_OrientNormals</name></member>
     <member refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3a895fc9daf6c5031555850f1c3c3cac4c" kind="enumvalue"><name>MR_OrientNormals_TowardOrigin</name></member>
     <member refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3a0249a411bf2394e3efbbad25a602079c" kind="enumvalue"><name>MR_OrientNormals_AwayFromOrigin</name></member>
@@ -9389,6 +9393,7 @@
     <member refid="MREnums_8h_1a7beea1a411c7b0c6342e68d2ad76f98d" kind="typedef"><name>MR_EdgeWeights</name></member>
     <member refid="MREnums_8h_1ae7edb655a25d3bc6dd3415d5cfbda767" kind="typedef"><name>MR_RememberShape</name></member>
     <member refid="MREnums_8h_1ae27ea8c7570f040835b33a0df5f6be04" kind="typedef"><name>MR_Processing</name></member>
+    <member refid="MREnums_8h_1aebc5faceb119fd6c5c82ed681e015c5e" kind="typedef"><name>MR_VertNormalsMode</name></member>
     <member refid="MREnums_8h_1ae07e1336427a647b041b525ba1b2e725" kind="typedef"><name>MR_OrientNormals</name></member>
     <member refid="MREnums_8h_1adec1219ece1c9c68f233e4ab1056cd02" kind="typedef"><name>MR_OffsetMode</name></member>
     <member refid="MREnums_8h_1aa3e17d7f4bb150c98eb10595d2f34b4e" kind="typedef"><name>MR_ColoringType</name></member>
@@ -16265,8 +16270,8 @@
     <member refid="MRMeshThickness_8h_1af89f59f39bfe4168e61a26832e0db034" kind="function"><name>MR_computeInSphereThicknessAtVertices</name></member>
   </compound>
   <compound refid="MRMeshToPointCloud_8h" kind="file"><name>MRMeshToPointCloud.h</name>
-    <member refid="MRMeshToPointCloud_8h_1a060fac87ab3afc82366468bd9cd33d72" kind="function"><name>MR_meshToPointCloud</name></member>
-    <member refid="MRMeshToPointCloud_8h_1a6b1802a12d293880790681fc5851bf92" kind="function"><name>MR_meshToDensePointCloud</name></member>
+    <member refid="MRMeshToPointCloud_8h_1aa27de8d8b93ea473dd03c1f7a453f502" kind="function"><name>MR_meshToPointCloud</name></member>
+    <member refid="MRMeshToPointCloud_8h_1ae63c479177201e03c445da1ab33f6ee8" kind="function"><name>MR_meshToDensePointCloud</name></member>
   </compound>
   <compound refid="MRMeshTopology_8h" kind="file"><name>MRMeshTopology.h</name>
     <member refid="MRMeshTopology_8h_1ad437c87b0085a9b068d0f17444d2ec37" kind="typedef"><name>MR_Vector_MR_EdgeId_MR_FaceId</name></member>
@@ -18849,7 +18854,7 @@
     <member refid="MRObjectPoints_8h_1a60e69a5a5d190c7be09dd536b63e9b87" kind="function"><name>MR_ObjectPoints_DynamicDowncastFromOrFail_MR_ObjectPointsHolder</name></member>
     <member refid="MRObjectPoints_8h_1a02a74367b828164c6bb884648e47490e" kind="function"><name>MR_ObjectPoints_MutableDynamicDowncastFromOrFail_MR_ObjectPointsHolder</name></member>
     <member refid="MRObjectPoints_8h_1a56506355d5845a0a5fbc9f40263dbd7e" kind="function"><name>MR_ObjectPoints_ConstructFromAnother</name></member>
-    <member refid="MRObjectPoints_8h_1a16fadbb002a50f51cac1a32f5220c996" kind="function"><name>MR_ObjectPoints_Construct</name></member>
+    <member refid="MRObjectPoints_8h_1ae2586eee4120c96b6de8a3e32094e82d" kind="function"><name>MR_ObjectPoints_Construct</name></member>
     <member refid="MRObjectPoints_8h_1aaab88d56bdcaf94f0e0ea6e7c5d257fc" kind="function"><name>MR_ObjectPoints_Destroy</name></member>
     <member refid="MRObjectPoints_8h_1a4fdc9defe551cc85fc2a781c1127de99" kind="function"><name>MR_ObjectPoints_DestroyArray</name></member>
     <member refid="MRObjectPoints_8h_1a67d842caa5a000120ad3b7c4a35f0d33" kind="function"><name>MR_ObjectPoints_AssignFromAnother</name></member>
