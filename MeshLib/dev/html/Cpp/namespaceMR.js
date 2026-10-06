@@ -13,6 +13,7 @@ var namespaceMR =
       [ "ForAllRanged", "namespaceMR_1_1BitSetParallel.html#a364f6c3c44118bfca1b525a51dd54626", null ],
       [ "ForAllRanged", "namespaceMR_1_1BitSetParallel.html#ab05fc848939177c9fd25511b45bf05c3", null ],
       [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#aaed29890343a67cc172f1987cd57dc10", null ],
+      [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#a171e1b4c596f99a5ac789f4ec19c22d3", null ],
       [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#a7188e3b56fb0a02aa78b5e9d3bcc6ae6", null ],
       [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#a1f094746abf85a10cf062caea76a86ee", null ]
     ] ],
@@ -1863,8 +1864,10 @@ var namespaceMR =
     [ "bindVertexAttribArray", "group__GeneralGroup.html#ga44858c7093ecce05e414dad5e83ea270", null ],
     [ "bit_cast", "group__GeneralGroup.html#gaba5467b93d277b487924275e34615eb3", null ],
     [ "BitSetParallelFor", "group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e", null ],
+    [ "BitSetParallelFor", "group__BasicGroup.html#gabc3f588255ae3bd530638a5c6fb55557", null ],
     [ "BitSetParallelFor", "group__BasicGroup.html#gaa44fd6dceea20f68975639cc07df31b2", null ],
     [ "BitSetParallelForAll", "group__BasicGroup.html#ga13c3e24dbe2feef1f9d56ea427ef4107", null ],
+    [ "BitSetParallelForAll", "group__BasicGroup.html#ga86e6878b728d3f789b3b211a2011d935", null ],
     [ "BitSetParallelForAll", "group__BasicGroup.html#ga473b8a238072b360e13c47d4c255d66f", null ],
     [ "BitSetParallelForAllRanged", "group__BasicGroup.html#ga33e26ce0b4711944b757408b0ab339a5", null ],
     [ "BitSetParallelForAllRanged", "group__BasicGroup.html#ga82bab0dac0d1604747ecff512e8a091a", null ],

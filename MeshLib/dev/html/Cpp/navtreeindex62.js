@@ -1,5 +1,8 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[9,0,1,0,1,99,7],
+"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[9,0,2,0,2,81,7],
+"structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[9,0,1,0,1,99,2],
 "structMR_1_1BooleanParameters.html#af122b254d2e75cc6cb395664d901d802":[9,0,2,0,2,81,2],
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[9,0,1,0,1,99,5],
 "structMR_1_1BooleanParameters.html#af4d200cef62096c6780b126ec5eaf0a7":[9,0,2,0,2,81,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1Dipole.html":[9,0,0,20,196],
 "structMR_1_1DirectionWidget_1_1Arrow.html":[9,0,0,20,593],
 "structMR_1_1Directory.html":[9,0,0,20,198],
-"structMR_1_1DirectoryIterator.html":[9,0,0,20,197],
-"structMR_1_1DirectoryRecursive.html":[9,0,0,20,200],
-"structMR_1_1DirectoryRecursiveIterator.html":[9,0,0,20,199],
-"structMR_1_1Dirty.html":[9,0,0,11,2,4]
+"structMR_1_1DirectoryIterator.html":[9,0,0,20,197]
 };
