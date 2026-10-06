@@ -379,6 +379,46 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="89" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a87d080e133cb15082d7b0abf9c5aad47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_PointToPlaneAligningTransform_setStabilizer</definition>
+        <argsstring>(MR_PointToPlaneAligningTransform *_this, double stabilizer)</argsstring>
+        <name>MR_PointToPlaneAligningTransform_setStabilizer</name>
+        <param>
+          <type><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>stabilizer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets relative regularization: this fraction of the mean diagonal element of the rotation block and of the translation block of the linear system is added to the diagonal of the same block; it suppresses huge motions along the directions poorly constrained by the planes (e.g. sliding along parallel planes) Generated from method <computeroutput>MR::PointToPlaneAligningTransform::setStabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="96" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1ad29526fb83b5d83b9fa62921265d6b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
+        <definition>MRC_API double MR_PointToPlaneAligningTransform_getStabilizer</definition>
+        <argsstring>(const MR_PointToPlaneAligningTransform *_this)</argsstring>
+        <name>MR_PointToPlaneAligningTransform_getStabilizer</name>
+        <param>
+          <type>const <ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PointToPlaneAligningTransform::getStabilizer</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="100" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="100" declcolumn="16"/>
+      </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1ac8abc18ba022df3819efc9fa6ced012c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
         <definition>MRC_API MR_AffineXf3d MR_PointToPlaneAligningTransform_findBestRigidXf</definition>
@@ -395,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="96" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="96" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="107" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="107" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1ae7ba697a63f601fca8712e2228c80d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
@@ -413,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="101" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="101" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="112" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="112" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a9b254e7580fc89b8a1faacd9d1ff641c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
@@ -435,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="107" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="107" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="118" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="118" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a8549ebc35cd355a57163481787a60c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
@@ -457,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="113" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="113" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="124" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="124" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a47e2cd3a737f67b73befd2dc17b98ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
@@ -483,7 +523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="120" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="131" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="131" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a822df16f451378736cffa814dfc3729a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
@@ -501,7 +541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="126" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="126" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="137" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="137" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a484aa55e26b386d1e1959cc39d6a9227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
@@ -519,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="132" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="132" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="143" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="143" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1abf0c38cdd04e4d71acc582a8e6701443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
@@ -541,7 +581,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="139" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="139" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="150" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="150" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointToPlaneAligningTransform_8h_1a3eed41ca4d0ceef18133afc57e5ec782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
@@ -563,7 +603,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="146" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="146" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" line="157" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h" declline="157" declcolumn="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -613,27 +653,31 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="89" refid="MRPointToPlaneAligningTransform_8h_1a08ad3f986ec9bc1877d02f36ec8f9665" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a08ad3f986ec9bc1877d02f36ec8f9665" kindref="member">MR_PointToPlaneAligningTransform_clear</ref>(<ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRPointToPlaneAligningTransform_8h_1ac8abc18ba022df3819efc9fa6ced012c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ac8abc18ba022df3819efc9fa6ced012c" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96" refid="MRPointToPlaneAligningTransform_8h_1a87d080e133cb15082d7b0abf9c5aad47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a87d080e133cb15082d7b0abf9c5aad47" kindref="member">MR_PointToPlaneAligningTransform_setStabilizer</ref>(<ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>stabilizer);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRPointToPlaneAligningTransform_8h_1ae7ba697a63f601fca8712e2228c80d3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ae7ba697a63f601fca8712e2228c80d3c" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidScaleXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRPointToPlaneAligningTransform_8h_1a9b254e7580fc89b8a1faacd9d1ff641c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a9b254e7580fc89b8a1faacd9d1ff641c" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidXfFixedRotationAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*axis);</highlight></codeline>
+<codeline lineno="100" refid="MRPointToPlaneAligningTransform_8h_1ad29526fb83b5d83b9fa62921265d6b1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad29526fb83b5d83b9fa62921265d6b1e" kindref="member">MR_PointToPlaneAligningTransform_getStabilizer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRPointToPlaneAligningTransform_8h_1ac8abc18ba022df3819efc9fa6ced012c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ac8abc18ba022df3819efc9fa6ced012c" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRPointToPlaneAligningTransform_8h_1a8549ebc35cd355a57163481787a60c06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a8549ebc35cd355a57163481787a60c06" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidXfOrthogonalRotationAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*ort);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRPointToPlaneAligningTransform_8h_1a47e2cd3a737f67b73befd2dc17b98ba8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a47e2cd3a737f67b73befd2dc17b98ba8" kindref="member">MR_PointToPlaneAligningTransform_findBestTranslation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*rotAngles,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*scale);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRPointToPlaneAligningTransform_8h_1a822df16f451378736cffa814dfc3729a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a822df16f451378736cffa814dfc3729a" kindref="member">MR_PointToPlaneAligningTransform_calculateAmendment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRPointToPlaneAligningTransform_8h_1a484aa55e26b386d1e1959cc39d6a9227" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a484aa55e26b386d1e1959cc39d6a9227" kindref="member">MR_PointToPlaneAligningTransform_calculateAmendmentWithScale</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRPointToPlaneAligningTransform_8h_1abf0c38cdd04e4d71acc582a8e6701443" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1abf0c38cdd04e4d71acc582a8e6701443" kindref="member">MR_PointToPlaneAligningTransform_calculateFixedAxisAmendment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*axis);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRPointToPlaneAligningTransform_8h_1a3eed41ca4d0ceef18133afc57e5ec782" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a3eed41ca4d0ceef18133afc57e5ec782" kindref="member">MR_PointToPlaneAligningTransform_calculateOrthogonalAxisAmendment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*ort);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="112" refid="MRPointToPlaneAligningTransform_8h_1ae7ba697a63f601fca8712e2228c80d3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ae7ba697a63f601fca8712e2228c80d3c" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidScaleXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRPointToPlaneAligningTransform_8h_1a9b254e7580fc89b8a1faacd9d1ff641c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a9b254e7580fc89b8a1faacd9d1ff641c" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidXfFixedRotationAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*axis);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRPointToPlaneAligningTransform_8h_1a8549ebc35cd355a57163481787a60c06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a8549ebc35cd355a57163481787a60c06" kindref="member">MR_PointToPlaneAligningTransform_findBestRigidXfOrthogonalRotationAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*ort);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRPointToPlaneAligningTransform_8h_1a47e2cd3a737f67b73befd2dc17b98ba8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1a47e2cd3a737f67b73befd2dc17b98ba8" kindref="member">MR_PointToPlaneAligningTransform_findBestTranslation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*rotAngles,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*scale);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRPointToPlaneAligningTransform_8h_1a822df16f451378736cffa814dfc3729a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a822df16f451378736cffa814dfc3729a" kindref="member">MR_PointToPlaneAligningTransform_calculateAmendment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRPointToPlaneAligningTransform_8h_1a484aa55e26b386d1e1959cc39d6a9227" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a484aa55e26b386d1e1959cc39d6a9227" kindref="member">MR_PointToPlaneAligningTransform_calculateAmendmentWithScale</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRPointToPlaneAligningTransform_8h_1abf0c38cdd04e4d71acc582a8e6701443" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1abf0c38cdd04e4d71acc582a8e6701443" kindref="member">MR_PointToPlaneAligningTransform_calculateFixedAxisAmendment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*axis);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRPointToPlaneAligningTransform_8h_1a3eed41ca4d0ceef18133afc57e5ec782" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRPointToPlaneAligningTransform_8h_1a3eed41ca4d0ceef18133afc57e5ec782" kindref="member">MR_PointToPlaneAligningTransform_calculateOrthogonalAxisAmendment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kindref="member">MR_PointToPlaneAligningTransform</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*ort);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPointToPlaneAligningTransform.h"/>
   </compounddef>

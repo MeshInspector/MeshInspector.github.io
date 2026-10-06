@@ -8557,12 +8557,13 @@
     <member refid="classmrmeshpy_1_1ICPProperties_1a6d35298d49c21ffa3b8d8c6f60281bd9" kind="variable"><name>_offsetof_mutualClosest</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a0036e4afdfd00c8599404ee0b846f92f" kind="variable"><name>_offsetof_p2plAngleLimit</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1af9fd3e336bf502e350e7ac28a98d2abc" kind="variable"><name>_offsetof_p2plScaleLimit</name></member>
+    <member refid="classmrmeshpy_1_1ICPProperties_1a03dcc4f0d204475eb7d0d702da790551" kind="variable"><name>_offsetof_p2plStabilizer</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1aa89de4a44e0d4e9b6527d2fdd6535db6" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a73324f3325684ae361d0e9320d61dea9" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a73324f3325684ae361d0e9320d61dea9" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1abe68bb0f3604951e95268c3dfd7eba97" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a2dea189365e1696b3cf748ba878b6a9c" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1ICPProperties_1a61204eac5bfb717ab47d176a0540606d" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1ICPProperties_1af2f40a01fa7403de3234b88f6cf3656f" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a8b7927988eea35058503cbf76709ab8d" kind="function"><name>badIterStopCount</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a69efb3b9084ce61347b3302067744147" kind="function"><name>badIterStopCount</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a519b3cf3bc71b7c8a49d80b1961787c8" kind="function"><name>cosThreshold</name></member>
@@ -8589,6 +8590,8 @@
     <member refid="classmrmeshpy_1_1ICPProperties_1a1c3c6994d135a325eb26d903c9cc96fd" kind="function"><name>p2plAngleLimit</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a42eecb09247c38ebb33e6d77a6415a12" kind="function"><name>p2plScaleLimit</name></member>
     <member refid="classmrmeshpy_1_1ICPProperties_1a413d67ced255b4d3991d13d4308ade64" kind="function"><name>p2plScaleLimit</name></member>
+    <member refid="classmrmeshpy_1_1ICPProperties_1a4ce22742944d6745a1df5f54091d40c0" kind="function"><name>p2plStabilizer</name></member>
+    <member refid="classmrmeshpy_1_1ICPProperties_1a9b7fceb094226c4a445c41c50112ead5" kind="function"><name>p2plStabilizer</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1Id__ICPElemtTag" kind="class"><name>mrmeshpy::Id_ICPElemtTag</name>
     <member refid="classmrmeshpy_1_1Id__ICPElemtTag_1af4fef998c2f9c0198c8ac9abf0629ea0" kind="variable"><name>__hash__</name></member>
@@ -15806,7 +15809,9 @@
     <member refid="classmrmeshpy_1_1PointToPlaneAligningTransform_1a0bfc7aa4f1f1960f9921baf1853e2d4f" kind="function"><name>findBestRigidXfFixedRotationAxis</name></member>
     <member refid="classmrmeshpy_1_1PointToPlaneAligningTransform_1a5037f0578da6cb55634b90dc272d214a" kind="function"><name>findBestRigidXfOrthogonalRotationAxis</name></member>
     <member refid="classmrmeshpy_1_1PointToPlaneAligningTransform_1a04bd70a8289cbba92842fcdf19fc56ed" kind="function"><name>findBestTranslation</name></member>
+    <member refid="classmrmeshpy_1_1PointToPlaneAligningTransform_1a7b1e1ecbca8f12e7f82a3f5b116c3d7e" kind="function"><name>getStabilizer</name></member>
     <member refid="classmrmeshpy_1_1PointToPlaneAligningTransform_1ac7e556070b0858e2726569e3e212e09c" kind="function"><name>prepare</name></member>
+    <member refid="classmrmeshpy_1_1PointToPlaneAligningTransform_1aa68f9ba3f4aca6d25ce3f1134ab48224" kind="function"><name>setStabilizer</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1PointToPointAligningTransform" kind="class"><name>mrmeshpy::PointToPointAligningTransform</name>
     <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a9e76a3b8fa548f254abc5ad98417f0d1" kind="function"><name>__init__</name></member>

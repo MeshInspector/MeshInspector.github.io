@@ -12461,6 +12461,7 @@ Variables</h2></td></tr>
 <tr class="memitem:gaea1145693fe2129927a24c786165f31f" id="r_gaea1145693fe2129927a24c786165f31f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea1145693fe2129927a24c786165f31f">MR::ICPProperties::p2plAngleLimit</a> = PI_F / 6.0f</td></tr>
 <tr class="memitem:gaf5cb06bed691cb37cc63ad3e96ebc6f2" id="r_gaf5cb06bed691cb37cc63ad3e96ebc6f2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf5cb06bed691cb37cc63ad3e96ebc6f2">MR::ICPProperties::p2plScaleLimit</a> = 2</td></tr>
 <tr class="memdesc:gaf5cb06bed691cb37cc63ad3e96ebc6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">[radians]  <br /></td></tr>
+<tr class="memitem:ga828450fb0e2950414bdd2ad602fd6b6c" id="r_ga828450fb0e2950414bdd2ad602fd6b6c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga828450fb0e2950414bdd2ad602fd6b6c">MR::ICPProperties::p2plStabilizer</a> = 1e-6f</td></tr>
 <tr class="memitem:ga108845995db78805f41524217e474500" id="r_ga108845995db78805f41524217e474500"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga108845995db78805f41524217e474500">MR::ICPProperties::cosThreshold</a> = 0.7f</td></tr>
 <tr class="memitem:ga43460c0d16c0f302226c8e09b6b98811" id="r_ga43460c0d16c0f302226c8e09b6b98811"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties::distThresholdSq</a> = 1.f</td></tr>
 <tr class="memdesc:ga43460c0d16c0f302226c8e09b6b98811"><td class="mdescLeft">&#160;</td><td class="mdescRight">in [-1,1]  <br /></td></tr>
@@ -226817,6 +226818,21 @@ template&lt;typename V&gt; </div>
 
 <p>[radians] </p>
 <p>Scaling during one iteration of <a class="el" href="#ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed">ICPMethod::PointToPlane</a> will be limited by this value. This is to reduce possible instability. </p>
+
+</div>
+</div>
+<a id="ga828450fb0e2950414bdd2ad602fd6b6c" name="ga828450fb0e2950414bdd2ad602fd6b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga828450fb0e2950414bdd2ad602fd6b6c">&#9670;&#160;</a></span>p2plStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::ICPProperties::p2plStabilizer = 1e-6f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative regularization of the linear system in <a class="el" href="#ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed">ICPMethod::PointToPlane</a>, see <a class="el" href="classMR_1_1PointToPlaneAligningTransform.html#a41b9d1c35ce5def32fcc86fad7e5ab06">PointToPlaneAligningTransform::setStabilizer</a>. This is to avoid huge motions along the directions poorly constrained by the planes, e.g. sliding along parallel faces of a CAD model. </p>
 
 </div>
 </div>

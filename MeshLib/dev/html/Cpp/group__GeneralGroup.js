@@ -1974,7 +1974,8 @@ var group__GeneralGroup =
       [ "method", "group__GeneralGroup.html#gaaebab641b9a81a0d03d0a64d155ea22f", null ],
       [ "mutualClosest", "group__GeneralGroup.html#ga229d248012276b39cb1c7102f4184f4c", null ],
       [ "p2plAngleLimit", "group__GeneralGroup.html#gaea1145693fe2129927a24c786165f31f", null ],
-      [ "p2plScaleLimit", "group__GeneralGroup.html#gaf5cb06bed691cb37cc63ad3e96ebc6f2", null ]
+      [ "p2plScaleLimit", "group__GeneralGroup.html#gaf5cb06bed691cb37cc63ad3e96ebc6f2", null ],
+      [ "p2plStabilizer", "group__GeneralGroup.html#ga828450fb0e2950414bdd2ad602fd6b6c", null ]
     ] ],
     [ "MR::ICP", "classMR_1_1ICP.html", [
       [ "ICP", "group__GeneralGroup.html#gabf8abfc1336998ff9b7f0baff945f17f", null ],
@@ -18187,6 +18188,7 @@ var group__GeneralGroup =
     [ "MR::Line::p", "group__GeneralGroup.html#gaca04c91be84f9b11da19a3e455b5a28a", null ],
     [ "MR::ICPProperties::p2plAngleLimit", "group__GeneralGroup.html#gaea1145693fe2129927a24c786165f31f", null ],
     [ "MR::ICPProperties::p2plScaleLimit", "group__GeneralGroup.html#gaf5cb06bed691cb37cc63ad3e96ebc6f2", null ],
+    [ "MR::ICPProperties::p2plStabilizer", "group__GeneralGroup.html#ga828450fb0e2950414bdd2ad602fd6b6c", null ],
     [ "MR::RawTiffOutput::p2wXf", "group__GeneralGroup.html#ga56a198effd90991eb70ce8c6707711dc", null ],
     [ "MR::SaveSettings::packPrimitives", "group__GeneralGroup.html#gaf59abe4d1987a4ccd1c117cfe7f3c160", null ],
     [ "MR::RenderNameObject::Task::paddingA", "group__GeneralGroup.html#ga760ca30fd51a54481c7ff9f32ab09a61", null ],

@@ -13,5 +13,6 @@ var classICPProperties =
     [ "method", "classICPProperties.html#acb64007a3da8386169a98ce66b13e42c", null ],
     [ "mutualClosest", "classICPProperties.html#a6de5a245d12c271892b87380cbcb7804", null ],
     [ "p2plAngleLimit", "classICPProperties.html#a0fc13ba599026819af59e18e1c22e2cf", null ],
-    [ "p2plScaleLimit", "classICPProperties.html#a918a5ac988471269899eb4105c2e10e9", null ]
+    [ "p2plScaleLimit", "classICPProperties.html#a918a5ac988471269899eb4105c2e10e9", null ],
+    [ "p2plStabilizer", "classICPProperties.html#a51b358f243888b6cf83db958e296c41d", null ]
 ];

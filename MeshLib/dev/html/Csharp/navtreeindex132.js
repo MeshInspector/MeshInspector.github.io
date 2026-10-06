@@ -1,5 +1,10 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1SmoothCameraMeshDepthSettings.html#a380549e4a7de7c8c59e139e81321f13e":[9,3,0,0,0,1652,2],
+"classMR_1_1SmoothCameraMeshDepthSettings.html#a3d71f3be77a6c29356290f48784bb533":[9,3,0,0,0,1652,8],
+"classMR_1_1SmoothCameraMeshDepthSettings.html#a54e7a63926da8b769150a6acca1ac9fb":[9,3,0,0,0,1652,6],
+"classMR_1_1SmoothCameraMeshDepthSettings.html#a87ef6aee4c6ba282c37c8e0fe728c379":[9,3,0,0,0,1652,1],
+"classMR_1_1SmoothCameraMeshDepthSettings.html#ad00cb67303857ff121dc50715ca263d8":[9,3,0,0,0,1652,3],
 "classMR_1_1SmoothCameraMeshDepthSettings.html#ae3570886ee6a23f29381416c0891d249":[9,3,0,0,0,1652,7],
 "classMR_1_1SmoothCameraMeshDepthSettings.html#ae3adae5d2f97d0c2fd1565bdb3fedfcf":[9,3,0,0,0,1652,4],
 "classMR_1_1SmoothCameraMeshDepthSettings.html#ae5963eaca20822aba3ac686005be7def":[9,3,0,0,0,1652,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a5c62d6749d54eecc3a272385003e47c4":[9,3,0,0,0,1665,4,5],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a65fe2972fdfb89e3eb051b7bcd0e2ce9":[9,3,0,0,0,1665,4,1],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a6b3159d41df396dc66e419f0e3be0b12":[9,3,0,0,0,1665,4,6],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a89ec56aa9a31d5b061a7915e7efb1199":[9,3,0,0,0,1665,4,8],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a97d04a117d6d49dd1c7fc9cc3e59ddcd":[9,3,0,0,0,1665,4,2],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#aa21e1f81cef7cc9f7507cd20fd69a00e":[9,3,0,0,0,1665,4,11],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ace112ee2636b4c56f8018ec4b1f807d9":[9,3,0,0,0,1665,4,4],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ae287341475fb4c6cf9f8ba294a5624d6":[9,3,0,0,0,1665,4,0],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#ae6d939d19e60def089133853e31f0706":[9,3,0,0,0,1665,4,10]
+"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a89ec56aa9a31d5b061a7915e7efb1199":[9,3,0,0,0,1665,4,8]
 };

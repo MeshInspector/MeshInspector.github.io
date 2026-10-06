@@ -7,6 +7,7 @@
       <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" kind="variable"><name>method</name></member>
       <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" kind="variable"><name>p2plAngleLimit</name></member>
       <member refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" kind="variable"><name>p2plScaleLimit</name></member>
+      <member refid="group__GeneralGroup_1ga828450fb0e2950414bdd2ad602fd6b6c" kind="variable"><name>p2plStabilizer</name></member>
       <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" kind="variable"><name>cosThreshold</name></member>
       <member refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" kind="variable"><name>distThresholdSq</name></member>
       <member refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" kind="variable"><name>farDistFactor</name></member>
@@ -23,7 +24,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRICP.h" line="125" column="1" bodyfile="MRMesh/MRICP.h" bodystart="126" bodyend="179"/>
+    <location file="MRMesh/MRICP.h" line="125" column="1" bodyfile="MRMesh/MRICP.h" bodystart="126" bodyend="183"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>badIterStopCount</name></member>
       <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>cosThreshold</name></member>
@@ -38,6 +39,7 @@
       <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>mutualClosest</name></member>
       <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plAngleLimit</name></member>
       <member refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plScaleLimit</name></member>
+      <member refid="group__GeneralGroup_1ga828450fb0e2950414bdd2ad602fd6b6c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plStabilizer</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

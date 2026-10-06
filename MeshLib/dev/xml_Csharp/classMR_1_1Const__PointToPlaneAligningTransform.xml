@@ -93,6 +93,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="50" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="50" bodyend="50"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1adc70c59e0d4e5c05945560642edac0c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_PointToPlaneAligningTransform.getStabilizer</definition>
+        <argsstring>()</argsstring>
+        <name>getStabilizer</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.getStabilizer</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1adc70c59e0d4e5c05945560642edac0c1" kindref="member">MR.PointToPlaneAligningTransform.getStabilizer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="55" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a2a30a7fa5657204067209c35f966c29b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
         <definition>unsafe MR.AffineXf3d MR.Const_PointToPlaneAligningTransform.findBestRigidXf</definition>
@@ -106,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="58" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="58" bodyend="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="66" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="66" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1aad63ecb149bd446219d64c59573babcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -121,7 +136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="67" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="67" bodyend="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="75" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="75" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a05b4de2b8fd756de121a490eaca5f4d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -140,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="76" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="76" bodyend="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="84" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="84" bodyend="90"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a3cd7609d8169547941d01135cae85c07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -159,7 +174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="88" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="88" bodyend="94"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="96" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="96" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a6c16ddd7da47a042528c9f4d2285772d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -184,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="102" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="102" bodyend="106"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="110" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="110" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a3f6eef4bdf66580494a8109a29d85cd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
@@ -199,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="112" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="112" bodyend="115"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="120" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="120" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a19d0022bc2197ef00ecbe4806c81f510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
@@ -214,7 +229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="121" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="121" bodyend="124"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="129" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="129" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a50fd04c8d9c722e16017ebaa6b131a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
@@ -233,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="130" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="130" bodyend="136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="138" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="138" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a38f05e6c7e0a69bf355d11caf6c982d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
@@ -252,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="142" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="142" bodyend="148"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="150" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="150" bodyend="156"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -312,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="153" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="161" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a1624ba9f4472bec9412a539a4affed62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PointToPlaneAligningTransform._Underlying *</type>
@@ -326,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="156" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="164" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1ae3361db7408745d0f466d367aa841944" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -344,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="159" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="167" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a6f05476a02e39cfaaab4fc7d64b5a52e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RigidScaleXf3d._Underlying *</type>
@@ -362,7 +377,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="162" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="170" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a0e6ef08ccf35e46ecdea6e82d7fed26f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RigidScaleXf3d._Underlying *</type>
@@ -380,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="165" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="173" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a970506c74e5e2c5650c19953a510f980" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RigidScaleXf3d._Underlying *</type>
@@ -402,7 +417,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="168" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="176" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a1f431a464056f9d0d6ffba1bf4724e74" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RigidScaleXf3d._Underlying *</type>
@@ -424,7 +439,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="171" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="179" column="58"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a252b8f87dbef6ffd33b9bfb356023569" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -442,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="174" column="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="182" column="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a42d28529d466b7f1a4ab7a698d28d191" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -460,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="177" column="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="185" column="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1afbf3c389962879e468e56f4c0cacb17c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -482,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="180" column="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="188" column="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a0e41d329029c2e03a5428782515af2a0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
@@ -504,7 +519,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="183" column="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="191" column="43"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1ae9f90b4335b5cf62c05e58d7e78c8dae" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -530,7 +545,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="186" column="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="194" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1ae3d513162ff6972cc8bd3adbd9f170a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.Const_PointToPlaneAligningTransform.__MR_PointToPlaneAligningTransform_getStabilizer</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PointToPlaneAligningTransform_getStabilizer</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.__MR_PointToPlaneAligningTransform_getStabilizer</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="197" column="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -576,7 +609,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="13" bodyend="187"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="13" bodyend="198"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6f05476a02e39cfaaab4fc7d64b5a52e" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>__MR_PointToPlaneAligningTransform_calculateAmendment</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a0e6ef08ccf35e46ecdea6e82d7fed26f" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>__MR_PointToPlaneAligningTransform_calculateAmendmentWithScale</name></member>
@@ -590,6 +623,7 @@
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1afbf3c389962879e468e56f4c0cacb17c" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>__MR_PointToPlaneAligningTransform_findBestRigidXfFixedRotationAxis</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a0e41d329029c2e03a5428782515af2a0" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>__MR_PointToPlaneAligningTransform_findBestRigidXfOrthogonalRotationAxis</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1ae9f90b4335b5cf62c05e58d7e78c8dae" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>__MR_PointToPlaneAligningTransform_findBestTranslation</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1ae3d513162ff6972cc8bd3adbd9f170a8" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>__MR_PointToPlaneAligningTransform_getStabilizer</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3f6eef4bdf66580494a8109a29d85cd2" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateAmendment</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a19d0022bc2197ef00ecbe4806c81f510" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateAmendmentWithScale</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a50fd04c8d9c722e16017ebaa6b131a18" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateFixedAxisAmendment</name></member>
@@ -605,6 +639,7 @@
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a05b4de2b8fd756de121a490eaca5f4d3" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3cd7609d8169547941d01135cae85c07" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6c16ddd7da47a042528c9f4d2285772d" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestTranslation</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1adc70c59e0d4e5c05945560642edac0c1" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>getStabilizer</name></member>
       <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a5d2ae4f74256e9e5fb89c46350d517ad" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>~Const_PointToPlaneAligningTransform</name></member>
     </listofallmembers>
   </compounddef>

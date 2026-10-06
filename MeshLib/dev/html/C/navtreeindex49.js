@@ -1,5 +1,8 @@
 var NAVTREEINDEX49 =
 {
+"MRLaplacian_8h.html#aed1f5d2fd2c6257475041a7956e90de5":[9,2,2,0,0,0,0,1,143,38],
+"MRLaplacian_8h.html#af9db56cd2a924fefa689205cdaecfb84":[9,2,2,0,0,0,0,1,143,13],
+"MRLaplacian_8h.html#aff188d2c3235faaab819e545354341b6":[9,2,2,0,0,0,0,1,143,26],
 "MRLaplacian_8h_source.html":[9,2,2,0,0,0,0,1,143],
 "MRLas_8h.html":[9,2,2,0,0,0,0,0,7],
 "MRLas_8h.html#a6a13fb6b93a7e8a1bf9fef3e2ea60a18":[9,2,2,0,0,0,0,0,7,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX49 =
 "MRLineSegm_8h.html#ab2282d4818b9126bc7c9b1728fc29c25":[9,2,2,0,0,0,0,1,147,57],
 "MRLineSegm_8h.html#ab96cd68541eb30e8aac8af83d4b5564f":[9,2,2,0,0,0,0,1,147,16],
 "MRLineSegm_8h.html#abd3e265ec936dc016e8bf64f47f68fcf":[9,2,2,0,0,0,0,1,147,63],
-"MRLineSegm_8h.html#ac27e2daad959ca5b4a74f600eda88d23":[9,2,2,0,0,0,0,1,147,28],
-"MRLineSegm_8h.html#ac635bdef395f4977b00fb787034c5aab":[9,2,2,0,0,0,0,1,147,69],
-"MRLineSegm_8h.html#ac918cfb58e0d05e1fc6afa7206d01b72":[9,2,2,0,0,0,0,1,147,77],
-"MRLineSegm_8h.html#aca00a7f95ad3b65caccc1406e6a42e68":[9,2,2,0,0,0,0,1,147,53]
+"MRLineSegm_8h.html#ac27e2daad959ca5b4a74f600eda88d23":[9,2,2,0,0,0,0,1,147,28]
 };

@@ -58,7 +58,7 @@
     <detaileddescription>
 <para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-examples/MeshICP.dox.cpp"></programlisting> </para>
     </detaileddescription>
-    <location file="MRMesh/MRICP.h" line="192" column="1" bodyfile="MRMesh/MRICP.h" bodystart="193" bodyend="308"/>
+    <location file="MRMesh/MRICP.h" line="196" column="1" bodyfile="MRMesh/MRICP.h" bodystart="197" bodyend="312"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="group__GeneralGroup_1ga2919e6c1f1b78a1b0e6e9513744013bd" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcCombined_</name></member>

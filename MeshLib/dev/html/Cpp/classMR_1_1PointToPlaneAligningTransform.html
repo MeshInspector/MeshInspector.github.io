@@ -149,6 +149,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aeefc37b3b3fdedb7a7cfa9c63d2e6712"><td class="mdescLeft">&#160;</td><td class="mdescRight">this method must be called after <a class="el" href="#aa73beee9c704c6383e28a4f2ef68f1f9" title="Add a pair of corresponding points and the normal of the tangent plane at the second point.">add()</a> and before constant find...()/calculate...() to make the matrix symmetric  <br /></td></tr>
 <tr class="memitem:aaab037d0039ed961116c7af28bd59347" id="r_aaab037d0039ed961116c7af28bd59347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaab037d0039ed961116c7af28bd59347">clear</a> ()</td></tr>
 <tr class="memdesc:aaab037d0039ed961116c7af28bd59347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear points and normals data.  <br /></td></tr>
+<tr class="memitem:a41b9d1c35ce5def32fcc86fad7e5ab06" id="r_a41b9d1c35ce5def32fcc86fad7e5ab06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b9d1c35ce5def32fcc86fad7e5ab06">setStabilizer</a> (double stabilizer)</td></tr>
+<tr class="memitem:a0ef48d320912d233720b2cb2346a0774" id="r_a0ef48d320912d233720b2cb2346a0774"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ef48d320912d233720b2cb2346a0774">getStabilizer</a> () const</td></tr>
 <tr class="memitem:a28c394327019054e87403e25b8cda62b" id="r_a28c394327019054e87403e25b8cda62b"><td class="memItemLeft" align="right" valign="top">AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c394327019054e87403e25b8cda62b">findBestRigidXf</a> () const</td></tr>
 <tr class="memitem:af8656bfbca5608611a5f78b10ce037b2" id="r_af8656bfbca5608611a5f78b10ce037b2"><td class="memItemLeft" align="right" valign="top">AffineXf3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8656bfbca5608611a5f78b10ce037b2">findBestRigidScaleXf</a> () const</td></tr>
 <tr class="memdesc:af8656bfbca5608611a5f78b10ce037b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version searches for best rigid body transformation with uniform scaling  <br /></td></tr>
@@ -517,6 +519,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ef48d320912d233720b2cb2346a0774" name="a0ef48d320912d233720b2cb2346a0774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef48d320912d233720b2cb2346a0774">&#9670;&#160;</a></span>getStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MR::PointToPlaneAligningTransform::getStabilizer </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeefc37b3b3fdedb7a7cfa9c63d2e6712" name="aeefc37b3b3fdedb7a7cfa9c63d2e6712"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeefc37b3b3fdedb7a7cfa9c63d2e6712">&#9670;&#160;</a></span>prepare()</h2>
 
@@ -533,6 +560,32 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>this method must be called after <a class="el" href="#aa73beee9c704c6383e28a4f2ef68f1f9" title="Add a pair of corresponding points and the normal of the tangent plane at the second point.">add()</a> and before constant find...()/calculate...() to make the matrix symmetric </p>
+
+</div>
+</div>
+<a id="a41b9d1c35ce5def32fcc86fad7e5ab06" name="a41b9d1c35ce5def32fcc86fad7e5ab06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b9d1c35ce5def32fcc86fad7e5ab06">&#9670;&#160;</a></span>setStabilizer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::PointToPlaneAligningTransform::setStabilizer </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>stabilizer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>sets relative regularization: this fraction of the mean diagonal element of the rotation block and of the translation block of the linear system is added to the diagonal of the same block; it suppresses huge motions along the directions poorly constrained by the planes (e.g. sliding along parallel planes) </p>
 
 </div>
 </div>

@@ -12,5 +12,6 @@ var structMR_1_1ICPProperties =
     [ "method", "group__GeneralGroup.html#gaaebab641b9a81a0d03d0a64d155ea22f", null ],
     [ "mutualClosest", "group__GeneralGroup.html#ga229d248012276b39cb1c7102f4184f4c", null ],
     [ "p2plAngleLimit", "group__GeneralGroup.html#gaea1145693fe2129927a24c786165f31f", null ],
-    [ "p2plScaleLimit", "group__GeneralGroup.html#gaf5cb06bed691cb37cc63ad3e96ebc6f2", null ]
+    [ "p2plScaleLimit", "group__GeneralGroup.html#gaf5cb06bed691cb37cc63ad3e96ebc6f2", null ],
+    [ "p2plStabilizer", "group__GeneralGroup.html#ga828450fb0e2950414bdd2ad602fd6b6c", null ]
 ];

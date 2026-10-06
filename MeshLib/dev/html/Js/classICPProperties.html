@@ -151,6 +151,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:acb64007a3da8386169a98ce66b13e42c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The method how to update transformation from point pairs, see description of each option in <a class="el" href="bindings_8d_8mts.html#a75c2396affd27f8601376967f1783460" title="The method how to update transformation from point pairs.">ICPMethod</a>.  <br /></td></tr>
 <tr class="memitem:a0fc13ba599026819af59e18e1c22e2cf" id="r_a0fc13ba599026819af59e18e1c22e2cf"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc13ba599026819af59e18e1c22e2cf">p2plAngleLimit</a></td></tr>
 <tr class="memitem:a918a5ac988471269899eb4105c2e10e9" id="r_a918a5ac988471269899eb4105c2e10e9"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a918a5ac988471269899eb4105c2e10e9">p2plScaleLimit</a></td></tr>
+<tr class="memitem:a51b358f243888b6cf83db958e296c41d" id="r_a51b358f243888b6cf83db958e296c41d"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51b358f243888b6cf83db958e296c41d">p2plStabilizer</a></td></tr>
 <tr class="memitem:afd4c01aedc5d186d0658cc710b5f6023" id="r_afd4c01aedc5d186d0658cc710b5f6023"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd4c01aedc5d186d0658cc710b5f6023">cosThreshold</a></td></tr>
 <tr class="memitem:af1cc741ae6539a672e74e518e433d16c" id="r_af1cc741ae6539a672e74e518e433d16c"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1cc741ae6539a672e74e518e433d16c">distThresholdSq</a></td></tr>
 <tr class="memitem:a64b3624c4ca62cb605f582ef821f815b" id="r_a64b3624c4ca62cb605f582ef821f815b"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64b3624c4ca62cb605f582ef821f815b">farDistFactor</a></td></tr>
@@ -380,6 +381,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Scaling during one iteration of ICPMethod::PointToPlane will be limited by this value. This is to reduce possible instability. </p>
+
+</div>
+</div>
+<a id="a51b358f243888b6cf83db958e296c41d" name="a51b358f243888b6cf83db958e296c41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51b358f243888b6cf83db958e296c41d">&#9670;&#160;</a></span>p2plStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">number ICPProperties::p2plStabilizer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Relative regularization of the linear system in ICPMethod::PointToPlane, see PointToPlaneAligningTransform::setStabilizer. This is to avoid huge motions along the directions poorly constrained by the planes, e.g. sliding along parallel faces of a CAD model. </p>
 
 </div>
 </div>

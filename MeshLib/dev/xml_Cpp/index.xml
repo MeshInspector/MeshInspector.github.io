@@ -4286,6 +4286,7 @@
     <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" kind="variable"><name>method</name></member>
     <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" kind="variable"><name>p2plAngleLimit</name></member>
     <member refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" kind="variable"><name>p2plScaleLimit</name></member>
+    <member refid="group__GeneralGroup_1ga828450fb0e2950414bdd2ad602fd6b6c" kind="variable"><name>p2plStabilizer</name></member>
     <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" kind="variable"><name>cosThreshold</name></member>
     <member refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" kind="variable"><name>distThresholdSq</name></member>
     <member refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" kind="variable"><name>farDistFactor</name></member>
@@ -8669,10 +8670,13 @@
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a71b5320ef00c8e2f0f3c8ff685954c20" kind="variable"><name>sumA_</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a192f5833d2b323b289ea948818c1fd2c" kind="variable"><name>sumB_</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a86f7d7600f44d8db5bbf6126128dcb84" kind="variable"><name>sumAIsSym_</name></member>
+    <member refid="classMR_1_1PointToPlaneAligningTransform_1a689f0fea02dd39490c0f7737c5b65619" kind="variable"><name>stabilizer_</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1aa73beee9c704c6383e28a4f2ef68f1f9" kind="function"><name>add</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a1cdd6aff2ef7a9e5eecf5624b27a3f3b" kind="function"><name>add</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1aeefc37b3b3fdedb7a7cfa9c63d2e6712" kind="function"><name>prepare</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1aaab037d0039ed961116c7af28bd59347" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1PointToPlaneAligningTransform_1a41b9d1c35ce5def32fcc86fad7e5ab06" kind="function"><name>setStabilizer</name></member>
+    <member refid="classMR_1_1PointToPlaneAligningTransform_1a0ef48d320912d233720b2cb2346a0774" kind="function"><name>getStabilizer</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a28c394327019054e87403e25b8cda62b" kind="function"><name>findBestRigidXf</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1af8656bfbca5608611a5f78b10ce037b2" kind="function"><name>findBestRigidScaleXf</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a5162299152d3a4f6ae9de54c2a1ccb58" kind="function"><name>findBestRigidXfFixedRotationAxis</name></member>
@@ -8682,6 +8686,7 @@
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a96303d3a4594c31c1b4db090f1d48043" kind="function"><name>calculateAmendmentWithScale</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1a276418c74f8a429b4fced7eea84c38f6" kind="function"><name>calculateFixedAxisAmendment</name></member>
     <member refid="classMR_1_1PointToPlaneAligningTransform_1adbd14cc29a38750565424a2b6f985597" kind="function"><name>calculateOrthogonalAxisAmendment</name></member>
+    <member refid="classMR_1_1PointToPlaneAligningTransform_1a5cbfe61b11ebf4ffb817b726d4cf6cc8" kind="function"><name>stabilizedA_</name></member>
   </compound>
   <compound refid="classMR_1_1PointToPointAligningTransform" kind="class"><name>MR::PointToPointAligningTransform</name>
     <member refid="classMR_1_1PointToPointAligningTransform_1ab91d6f05bd29312cd06a75b7e4a50e4e" kind="variable"><name>sum12_</name></member>
@@ -22728,6 +22733,7 @@
     <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" kind="variable"><name>method</name></member>
     <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" kind="variable"><name>p2plAngleLimit</name></member>
     <member refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" kind="variable"><name>p2plScaleLimit</name></member>
+    <member refid="group__GeneralGroup_1ga828450fb0e2950414bdd2ad602fd6b6c" kind="variable"><name>p2plStabilizer</name></member>
     <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" kind="variable"><name>cosThreshold</name></member>
     <member refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" kind="variable"><name>distThresholdSq</name></member>
     <member refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" kind="variable"><name>farDistFactor</name></member>

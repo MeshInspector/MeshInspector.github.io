@@ -1,7 +1,7 @@
 var classMR_1_1ICPProperties =
 [
     [ "ICPProperties", "classMR_1_1ICPProperties.html#ad127c9892319a4baef52d06272019218", null ],
-    [ "ICPProperties", "classMR_1_1ICPProperties.html#a48031c486296616aa42f7592b408621c", null ],
+    [ "ICPProperties", "classMR_1_1ICPProperties.html#a530674d1947dee5d1b1848e454014007", null ],
     [ "ICPProperties", "classMR_1_1ICPProperties.html#aaafa6c6e368dc36ffd96236ba743c6c2", null ],
     [ "ICPProperties", "classMR_1_1ICPProperties.html#a50be44fff6df0bd6b825b255cf465375", null ],
     [ "assign", "classMR_1_1ICPProperties.html#a61aca8c5d9f5d4a4feeb863b994af34b", null ],
@@ -17,5 +17,6 @@ var classMR_1_1ICPProperties =
     [ "method", "classMR_1_1ICPProperties.html#ac2c4713ca7d53632503c5da094439dfa", null ],
     [ "mutualClosest", "classMR_1_1ICPProperties.html#af63c2738a5d70b7d24bd14df5364c528", null ],
     [ "p2plAngleLimit", "classMR_1_1ICPProperties.html#a1fa0ac7e07ebbbfc075dbe3653dbde8c", null ],
-    [ "p2plScaleLimit", "classMR_1_1ICPProperties.html#a34a875a78ce31db5fb191a3fc68716ef", null ]
+    [ "p2plScaleLimit", "classMR_1_1ICPProperties.html#a34a875a78ce31db5fb191a3fc68716ef", null ],
+    [ "p2plStabilizer", "classMR_1_1ICPProperties.html#a52aa2f341f1b4992d78f21b16094a230", null ]
 ];

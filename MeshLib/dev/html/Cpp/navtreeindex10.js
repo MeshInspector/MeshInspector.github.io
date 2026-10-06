@@ -132,9 +132,11 @@ var NAVTREEINDEX10 =
 "classMR_1_1PointObject.html":[9,0,0,11,0,5],
 "classMR_1_1PointObject.html":[9,0,0,20,451],
 "classMR_1_1PointToPlaneAligningTransform.html":[9,0,0,0,8,1],
+"classMR_1_1PointToPlaneAligningTransform.html#a0ef48d320912d233720b2cb2346a0774":[9,0,0,0,8,1,12],
 "classMR_1_1PointToPlaneAligningTransform.html#a1cdd6aff2ef7a9e5eecf5624b27a3f3b":[9,0,0,0,8,1,1],
 "classMR_1_1PointToPlaneAligningTransform.html#a276418c74f8a429b4fced7eea84c38f6":[9,0,0,0,8,1,4],
 "classMR_1_1PointToPlaneAligningTransform.html#a28c394327019054e87403e25b8cda62b":[9,0,0,0,8,1,8],
+"classMR_1_1PointToPlaneAligningTransform.html#a41b9d1c35ce5def32fcc86fad7e5ab06":[9,0,0,0,8,1,14],
 "classMR_1_1PointToPlaneAligningTransform.html#a4eb5e463d55efd8dafb0a8b5072b36b5":[9,0,0,0,8,1,2],
 "classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58":[9,0,0,0,8,1,9],
 "classMR_1_1PointToPlaneAligningTransform.html#a96303d3a4594c31c1b4db090f1d48043":[9,0,0,0,8,1,3],
@@ -142,7 +144,7 @@ var NAVTREEINDEX10 =
 "classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347":[9,0,0,0,8,1,6],
 "classMR_1_1PointToPlaneAligningTransform.html#ac063a17fa743ac58c5fbc9ad217c5198":[9,0,0,0,8,1,11],
 "classMR_1_1PointToPlaneAligningTransform.html#adbd14cc29a38750565424a2b6f985597":[9,0,0,0,8,1,5],
-"classMR_1_1PointToPlaneAligningTransform.html#aeefc37b3b3fdedb7a7cfa9c63d2e6712":[9,0,0,0,8,1,12],
+"classMR_1_1PointToPlaneAligningTransform.html#aeefc37b3b3fdedb7a7cfa9c63d2e6712":[9,0,0,0,8,1,13],
 "classMR_1_1PointToPlaneAligningTransform.html#af0c4b1002192d03fcf79ae0df032d66e":[9,0,0,0,8,1,10],
 "classMR_1_1PointToPlaneAligningTransform.html#af8656bfbca5608611a5f78b10ce037b2":[9,0,0,0,8,1,7],
 "classMR_1_1PointToPointAligningTransform.html":[9,0,0,0,8,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html":[9,0,2,0,2,26,8],
 "classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html#a45bb25ac7f3b6895bfc1e9d8efc6a142":[9,0,1,0,1,41,8,1],
 "classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html#a45bb25ac7f3b6895bfc1e9d8efc6a142":[9,0,2,0,2,26,8,1],
-"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html#ad86a6397956f8f12cc6082150715d90f":[9,0,1,0,1,41,8,0],
-"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html#ad86a6397956f8f12cc6082150715d90f":[9,0,2,0,2,26,8,0],
-"classMR_1_1RenderFeatures_1_1RenderPlaneFeatureObject.html":[9,0,1,0,1,41,9]
+"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html#ad86a6397956f8f12cc6082150715d90f":[9,0,1,0,1,41,8,0]
 };

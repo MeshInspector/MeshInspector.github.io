@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"group__SurfacePathGroup.html#ga3e3b684cdc3ff80a0b5abc9ef633d404":[9,0,0,20,2942],
+"group__SurfacePathGroup.html#ga49b1ba597792f69ce9ff43247589abdc":[9,0,0,16,67],
+"group__SurfacePathGroup.html#ga49b1ba597792f69ce9ff43247589abdc":[9,0,0,20,6916],
 "group__SurfacePathGroup.html#ga4d28c28ac45bd44a6f3711fd55891011":[9,0,0,16,36],
 "group__SurfacePathGroup.html#ga4d28c28ac45bd44a6f3711fd55891011":[9,0,0,20,2849],
 "group__SurfacePathGroup.html#ga4d9b525e2a13c59a961a8c19c0241cf5":[9,0,0,16,44],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "group__VoxelPathGroup.html#ga26f2d73245508897220a463898d518ae":[9,0,0,17,3,6],
 "group__VoxelPathGroup.html#ga4412ea17fd4bcca4ad23e987f61c20ab":[9,0,0,17,3,3],
 "group__VoxelPathGroup.html#ga71893ed176bf05baf89d6e5a3e42c3f8":[9,0,0,17,3,5],
-"group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce":[9,0,0,17,3,1],
-"group__VoxelPathGroup.html#ga85e60c553cc81b298c4bfeac4a623b79":[9,0,0,17,3,2],
-"group__VoxelPathGroup.html#gae4966f63c7b2037c5dd9048a7103e382":[9,0,0,17,3,4],
-"group__VoxelPathGroup.html#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9":[9,0,0,17,3,3,1]
+"group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce":[9,0,0,17,3,1]
 };
