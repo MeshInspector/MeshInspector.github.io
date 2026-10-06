@@ -143134,7 +143134,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
-<p>this shall be called in order to start concurrent task execution with progress bar display please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
+<p>this shall be called in order to start concurrent task execution with progress bar display if another operation is ordered, starts after its post-processing, also if that one is canceled; waiting operations start in the order of calls please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
 
 </div>
 </div>
@@ -143227,7 +143227,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
-<p>in this version the task returns a function to be executed in main thread please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
+<p>in this version the task returns a function to be executed in main thread if another operation is ordered, starts after its post-processing, also if that one is canceled; waiting operations start in the order of calls please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
 
 </div>
 </div>
@@ -143256,7 +143256,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
-<p>the task is spawned by the progress bar but the <span class="tt">finish</span> method is called from a callback please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
+<p>the task is spawned by the progress bar but the <span class="tt">finish</span> method is called from a callback if another operation is ordered, starts after its post-processing, also if that one is canceled; waiting operations start in the order of calls please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
 
 </div>
 </div>
