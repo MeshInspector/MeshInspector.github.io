@@ -1,6 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a3c7ba28901d6fa116631ad43afab91a1":[9,3,0,0,0,1213,5,8,2],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a6b5e92b9e046f7c7184e9c9e36c4a83f":[9,3,0,0,0,1213,5,8,5],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a8ad7bc77a68eb1847e65b0a1d4501718":[9,3,0,0,0,1213,5,8,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#ab5d6bb98d7784d1ac403896748a7b4c7":[9,3,0,0,0,1213,5,8,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX105 =
 "classMR_1_1FindInnerShellSettings.html#abe4a0691ca6a9530ffad0b6fe1ebc761":[9,3,0,0,0,1221,7],
 "classMR_1_1FindOutliersParams.html":[9,3,0,0,0,1222],
 "classMR_1_1FindOutliersParams.html#a0a63ee3aba2a9eb01995a74cf11f7879":[9,3,0,0,0,1222,6],
-"classMR_1_1FindOutliersParams.html#a26da76238da983db6540f7eb1bdc678f":[9,3,0,0,0,1222,1]
+"classMR_1_1FindOutliersParams.html#a26da76238da983db6540f7eb1bdc678f":[9,3,0,0,0,1222,1],
+"classMR_1_1FindOutliersParams.html#a84eaed57a6b327e3e13f4f89151271cb":[9,3,0,0,0,1222,4]
 };

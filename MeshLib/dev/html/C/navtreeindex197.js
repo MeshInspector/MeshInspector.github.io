@@ -1,6 +1,5 @@
 var NAVTREEINDEX197 =
 {
-"std__vector__MR__ViewportMask_8h.html#a8768b823969f1aeb847dbddeff220637":[9,2,2,0,0,0,0,2,517,28],
 "std__vector__MR__ViewportMask_8h.html#a8a8ad3e50fa35c0371f4ae722aa0fe22":[9,2,2,0,0,0,0,2,517,6],
 "std__vector__MR__ViewportMask_8h.html#a8f5e5314abbd1815f15937759d420e90":[9,2,2,0,0,0,0,2,517,18],
 "std__vector__MR__ViewportMask_8h.html#a8fe65ed4f0ce2c14a7ad4b996854597a":[9,2,2,0,0,0,0,2,517,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX197 =
 "std__vector__MR__WatershedGraph__BasinInfo_8h.html#af7524c6fed42773121b6d05436aecc1d":[9,2,2,0,0,0,0,2,520,19],
 "std__vector__MR__WatershedGraph__BasinInfo_8h.html#afd6e2a6ca4c1b92a28fc5b731b0ac477":[9,2,2,0,0,0,0,2,520,67],
 "std__vector__MR__WatershedGraph__BasinInfo_8h.html#aff8d2e7c7b7c6cc99e9a1659c1ffad62":[9,2,2,0,0,0,0,2,520,12],
-"std__vector__MR__WatershedGraph__BasinInfo_8h_source.html":[9,2,2,0,0,0,0,2,520]
+"std__vector__MR__WatershedGraph__BasinInfo_8h_source.html":[9,2,2,0,0,0,0,2,520],
+"std__vector__MR__WatershedGraph__BdInfo_8h.html":[9,2,2,0,0,0,0,2,521]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX147 =
 {
-"classMR_1_1VoxelsLoad_1_1DicomVolume.html#aafe236ba8ce9ba482959c6e2c498a324":[9,3,0,0,0,1852,6,5],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#ab2af87955f85db2837ee20c2695f000a":[9,3,0,0,0,1852,6,1],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#abd7c795158f6de08b4970e0d8058b628":[9,3,0,0,0,1852,6,3],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#abe0d90be31b0c0bf151c7448dfd5893b":[9,3,0,0,0,1852,6,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX147 =
 "classMR_1_1WeightedShell_1_1ParametersMetric.html#a8a270d73d77a602d0fc4adb6b5fe034f":[9,3,0,0,0,1869,6,3],
 "classMR_1_1WeightedShell_1_1ParametersMetric.html#aa1aad134aff0dcae9c13083a39a245de":[9,3,0,0,0,1869,6,5],
 "classMR_1_1WeightedShell_1_1ParametersMetric.html#aacef6ded7117e592c6a19078d77f6931":[9,3,0,0,0,1869,6,1],
-"classMR_1_1WeightedShell_1_1ParametersMetric.html#ac84edd9957b85c5628d8227863afb45a":[9,3,0,0,0,1869,6,9]
+"classMR_1_1WeightedShell_1_1ParametersMetric.html#ac84edd9957b85c5628d8227863afb45a":[9,3,0,0,0,1869,6,9],
+"classMR_1_1WeightedShell_1_1ParametersMetric.html#aed23b668a2f6acf1cbcb446ce2c047c6":[9,3,0,0,0,1869,6,8]
 };

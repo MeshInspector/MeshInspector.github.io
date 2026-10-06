@@ -11029,8 +11029,6 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a83e0b345b01c84fd05648c47894e2c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given two line segments AB and CD located in one plane, finds whether they intersect and if yes, computes their common point using integer-only arithmetic Generated from function <span class="tt"><a class="el" href="#a83e0b345b01c84fd05648c47894e2c0e" title="given two line segments AB and CD located in one plane, finds whether they intersect and if yes,...">MR.findTwoSegmentsIntersection</a></span>.  <br /></td></tr>
 <tr class="memitem:a7e89a2556d434b92264d95fe54699665" id="r_a7e89a2556d434b92264d95fe54699665"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e89a2556d434b92264d95fe54699665">findTriangleSegmentIntersectionPrecise</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> a, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> b, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> c, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> d, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> e, <a class="el" href="classMR_1_1Const__CoordinateConverters.html">MR.Const_CoordinateConverters</a> converters)</td></tr>
 <tr class="memdesc:a7e89a2556d434b92264d95fe54699665"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds intersection precise, using high precision int inside this function input should have intersection Generated from function <span class="tt"><a class="el" href="#a7e89a2556d434b92264d95fe54699665" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findTriangleSegmentIntersectionPrecise</a></span>.  <br /></td></tr>
-<tr class="memitem:a91436cd7c8c095f42abc8b02ecec5bc4" id="r_a91436cd7c8c095f42abc8b02ecec5bc4"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91436cd7c8c095f42abc8b02ecec5bc4">findTriangleSegmentIntersectionPreciseInt</a> (in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> ai, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> bi, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> ci, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> di, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> ei)</td></tr>
-<tr class="memdesc:a91436cd7c8c095f42abc8b02ecec5bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides Generated from function <span class="tt"><a class="el" href="#a91436cd7c8c095f42abc8b02ecec5bc4" title="the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; return...">MR.findTriangleSegmentIntersectionPreciseInt</a></span>.  <br /></td></tr>
 <tr class="memitem:a509ce983082cbcf78709068fcc93747a" id="r_a509ce983082cbcf78709068fcc93747a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509ce983082cbcf78709068fcc93747a">vertMapsComposition</a> (<a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a> a2b, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> b2c)</td></tr>
 <tr class="memdesc:a509ce983082cbcf78709068fcc93747a"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map Generated from function <span class="tt"><a class="el" href="#a509ce983082cbcf78709068fcc93747a" title="updates a2b map to a2c map using b2c map Generated from function MR.vertMapsComposition.">MR.vertMapsComposition</a></span>.  <br /></td></tr>
 <tr class="memitem:ab0f972ede287facff67841df1dbe415b" id="r_ab0f972ede287facff67841df1dbe415b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f972ede287facff67841df1dbe415b">vertMapsComposition</a> (<a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> a2b, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> b2c)</td></tr>
@@ -49713,52 +49711,6 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 </div><div class="memdoc">
 
 <p>finds intersection precise, using high precision int inside this function input should have intersection Generated from function <span class="tt"><a class="el" href="#a7e89a2556d434b92264d95fe54699665" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findTriangleSegmentIntersectionPrecise</a></span>. </p>
-
-</div>
-</div>
-<a id="a91436cd7c8c095f42abc8b02ecec5bc4" name="a91436cd7c8c095f42abc8b02ecec5bc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91436cd7c8c095f42abc8b02ecec5bc4">&#9670;&#160;</a></span>findTriangleSegmentIntersectionPreciseInt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe MR.Std.Optional_MRVector3i MR.findTriangleSegmentIntersectionPreciseInt </td>
-          <td>(</td>
-          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>ai</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>bi</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>ci</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>di</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>ei</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides Generated from function <span class="tt"><a class="el" href="#a91436cd7c8c095f42abc8b02ecec5bc4" title="the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; return...">MR.findTriangleSegmentIntersectionPreciseInt</a></span>. </p>
 
 </div>
 </div>

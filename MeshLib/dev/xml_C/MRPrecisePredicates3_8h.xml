@@ -2078,40 +2078,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="623" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="623" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRPrecisePredicates3_8h_1a2eeb04f8c756f6f1907cbbbf6d0af088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref> *</type>
-        <definition>MRC_API MR_std_optional_MR_Vector3i * MR_findTriangleSegmentIntersectionPreciseInt</definition>
-        <argsstring>(const MR_Vector3i *ai, const MR_Vector3i *bi, const MR_Vector3i *ci, const MR_Vector3i *di, const MR_Vector3i *ei)</argsstring>
-        <name>MR_findTriangleSegmentIntersectionPreciseInt</name>
-        <param>
-          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
-          <declname>ai</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
-          <declname>bi</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
-          <declname>ci</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
-          <declname>di</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
-          <declname>ei</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides Generated from function <computeroutput>MR::findTriangleSegmentIntersectionPreciseInt</computeroutput>. Parameter <computeroutput>ai</computeroutput> can not be null. It is a single object. Parameter <computeroutput>bi</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ci</computeroutput> can not be null. It is a single object. Parameter <computeroutput>di</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ei</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__Vector3i_8h_1a4e4d1099e659ba8173161b16f181fb17" kindref="member">MR_std_optional_MR_Vector3i_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" line="634" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h" declline="634" declcolumn="37"/>
-      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -2343,11 +2309,9 @@
 <codeline lineno="613"><highlight class="normal"></highlight></codeline>
 <codeline lineno="623" refid="MRPrecisePredicates3_8h_1a207c6c1c69c4a375099867737ae0e88c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a207c6c1c69c4a375099867737ae0e88c" kindref="member">MR_findTriangleSegmentIntersectionPrecise</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBooleanOperation_8h_1a1d5f64a5e4478ee2148c84427aaaf552" kindref="member">MR_CoordinateConverters</ref><sp/>*converters);</highlight></codeline>
 <codeline lineno="624"><highlight class="normal"></highlight></codeline>
-<codeline lineno="634" refid="MRPrecisePredicates3_8h_1a2eeb04f8c756f6f1907cbbbf6d0af088" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPrecisePredicates3_8h_1a469fa520597b79e2e4f047cb3a6cb55a" kindref="member">MR_std_optional_MR_Vector3i</ref><sp/>*<ref refid="MRPrecisePredicates3_8h_1a2eeb04f8c756f6f1907cbbbf6d0af088" kindref="member">MR_findTriangleSegmentIntersectionPreciseInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*ai,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*bi,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*ci,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*di,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*ei);</highlight></codeline>
-<codeline lineno="635"><highlight class="normal"></highlight></codeline>
-<codeline lineno="636"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="637"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="638"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="626"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="627"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPrecisePredicates3.h"/>
   </compounddef>

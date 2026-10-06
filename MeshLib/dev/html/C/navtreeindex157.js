@@ -1,6 +1,5 @@
 var NAVTREEINDEX157 =
 {
-"std__shared__ptr__MR__ChangeMeshAction_8h.html#a71a8250698879d6c372668241063be71":[9,2,2,0,0,0,0,2,308,1],
 "std__shared__ptr__MR__ChangeMeshAction_8h.html#a80142769388b6d47861091c275492d52":[9,2,2,0,0,0,0,2,308,13],
 "std__shared__ptr__MR__ChangeMeshAction_8h.html#aa4be893dd7a29a2e48e07bb91a80f511":[9,2,2,0,0,0,0,2,308,20],
 "std__shared__ptr__MR__ChangeMeshAction_8h.html#ab9798eee08218757caa6bc8e61932a0c":[9,2,2,0,0,0,0,2,308,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX157 =
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#ae3e798f2b209d2b7cdbc70bcbdf4139a":[9,2,2,0,0,0,0,2,318,17],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#ae56d18f514b0c47e13aa27e075caf21e":[9,2,2,0,0,0,0,2,318,3],
 "std__shared__ptr__MR__ChangeObjectAction_8h.html#af68407a56daf34ff0226006d7518d639":[9,2,2,0,0,0,0,2,318,18],
-"std__shared__ptr__MR__ChangeObjectAction_8h_source.html":[9,2,2,0,0,0,0,2,318]
+"std__shared__ptr__MR__ChangeObjectAction_8h_source.html":[9,2,2,0,0,0,0,2,318],
+"std__shared__ptr__MR__ChangeObjectColorAction_8h.html":[9,2,2,0,0,0,0,2,319]
 };

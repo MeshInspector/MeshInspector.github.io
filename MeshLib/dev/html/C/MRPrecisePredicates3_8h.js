@@ -61,7 +61,6 @@ var MRPrecisePredicates3_8h =
     [ "MR_CoordinateConverters_Set_toInt", "MRPrecisePredicates3_8h.html#afeb6e5b03fe4b57299f0a090f007210d", null ],
     [ "MR_doTriangleSegmentIntersect", "MRPrecisePredicates3_8h.html#a354ffb90fa8540b715583ff5cb278071", null ],
     [ "MR_findTriangleSegmentIntersectionPrecise", "MRPrecisePredicates3_8h.html#a207c6c1c69c4a375099867737ae0e88c", null ],
-    [ "MR_findTriangleSegmentIntersectionPreciseInt", "MRPrecisePredicates3_8h.html#a2eeb04f8c756f6f1907cbbbf6d0af088", null ],
     [ "MR_findTwoSegmentsIntersection", "MRPrecisePredicates3_8h.html#afd12aa71fc4b93df21f3354992018d3f", null ],
     [ "MR_getToFloatConverter", "MRPrecisePredicates3_8h.html#a39130f852ef4983995edf3aa2e0848b2", null ],
     [ "MR_getToIntConverter", "MRPrecisePredicates3_8h.html#a1d0d50cfb3cef97d06769616f314de0f", null ],
