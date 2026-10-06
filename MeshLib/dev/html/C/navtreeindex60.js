@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"MRMeshDistance_8h_source.html":[9,2,2,0,0,0,0,1,180],
 "MRMeshDivideWithPlane_8h.html":[9,2,2,0,0,0,0,1,181],
 "MRMeshDivideWithPlane_8h.html#a0702ce82aae9397a8ea142b01892212e":[9,2,2,0,0,0,0,1,181,13],
 "MRMeshDivideWithPlane_8h.html#a071226e2a8001f52976def311d05f538":[9,2,2,0,0,0,0,1,181,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "MRMeshFixer_8h.html#acde45ba5062238bd079f1e1b22732227acdcfed748ac00782a69e6822b837d05b":[9,2,2,0,0,0,0,1,185,8,1],
 "MRMeshFixer_8h.html#acde45ba5062238bd079f1e1b22732227afb9cffa48c4994cc5b9a2e0d5506164c":[9,2,2,0,0,0,0,1,185,8,2],
 "MRMeshFixer_8h.html#ad018adfdd5f010dbd10cedc4ecc12da6":[9,2,2,0,0,0,0,1,185,87],
-"MRMeshFixer_8h.html#ad0c57de147f6753da0964834cfbd2542":[9,2,2,0,0,0,0,1,185,60],
-"MRMeshFixer_8h.html#ad32b476c7eb9ad78dd99acbc4bd3325c":[9,2,2,0,0,0,0,1,185,21]
+"MRMeshFixer_8h.html#ad0c57de147f6753da0964834cfbd2542":[9,2,2,0,0,0,0,1,185,60]
 };

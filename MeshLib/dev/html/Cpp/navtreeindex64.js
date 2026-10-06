@@ -1,5 +1,10 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1ImGuiMath_1_1CompareAll.html":[9,0,2,0,2,6,2],
+"structMR_1_1ImGuiMath_1_1CompareAny.html":[9,0,1,0,1,15,3],
+"structMR_1_1ImGuiMath_1_1CompareAny.html":[9,0,2,0,2,6,3],
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[9,0,1,0,1,15,0,0],
+"structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize.html":[9,0,2,0,2,6,0,0],
 "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[9,0,1,0,1,15,0,1],
 "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html":[9,0,2,0,2,6,0,1],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize.html":[9,0,1,0,1,15,0,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#a4e2480a0595f86ed76d23eaf54937085":[9,0,2,0,2,7,10,0,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#abef55d08e12e74ed849345c2dc54cf34":[9,0,1,0,1,16,10,0,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html#abef55d08e12e74ed849345c2dc54cf34":[9,0,2,0,2,7,10,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html":[9,0,1,0,1,16,10,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html":[9,0,2,0,2,7,10,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a17831741c05ccdf8eb71b79f1239dd82":[9,0,1,0,1,16,10,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a17831741c05ccdf8eb71b79f1239dd82":[9,0,2,0,2,7,10,1,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a23c806d42e41fad352f5eb6862a3505a":[9,0,1,0,1,16,10,1,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a23c806d42e41fad352f5eb6862a3505a":[9,0,2,0,2,7,10,1,3]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html":[9,0,1,0,1,16,10,1]
 };

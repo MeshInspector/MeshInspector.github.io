@@ -544,6 +544,7 @@
     <includedby refid="std__array__MR__PreciseVertCoords__8_8h" local="no">std_array_MR_PreciseVertCoords_8.h</includedby>
     <includedby refid="std__array__MR__SimpleVolumeMinMax__3_8h" local="no">std_array_MR_SimpleVolumeMinMax_3.h</includedby>
     <includedby refid="std__array__MR__WeightedVertex__3_8h" local="no">std_array_MR_WeightedVertex_3.h</includedby>
+    <includedby refid="std__array__MR__WeightedVertexd__3_8h" local="no">std_array_MR_WeightedVertexd_3.h</includedby>
     <includedby refid="std__array__std__filesystem__path__4_8h" local="no">std_array_std_filesystem_path_4.h</includedby>
     <includedby refid="std__filesystem__path_8h" local="no">std_filesystem_path.h</includedby>
     <includedby refid="std__function__MR__AABBTree_8h" local="no">std_function_MR_AABBTree.h</includedby>
@@ -6498,6 +6499,8 @@
         </childnode>
         <childnode refid="989" relation="include">
         </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
         <childnode refid="661" relation="include">
         </childnode>
         <childnode refid="662" relation="include">
@@ -6674,7 +6677,7 @@
         </childnode>
         <childnode refid="139" relation="include">
         </childnode>
-        <childnode refid="990" relation="include">
+        <childnode refid="991" relation="include">
         </childnode>
         <childnode refid="409" relation="include">
         </childnode>
@@ -6690,27 +6693,27 @@
         </childnode>
         <childnode refid="713" relation="include">
         </childnode>
-        <childnode refid="991" relation="include">
-        </childnode>
         <childnode refid="992" relation="include">
         </childnode>
         <childnode refid="993" relation="include">
         </childnode>
         <childnode refid="994" relation="include">
         </childnode>
-        <childnode refid="714" relation="include">
-        </childnode>
         <childnode refid="995" relation="include">
+        </childnode>
+        <childnode refid="714" relation="include">
         </childnode>
         <childnode refid="996" relation="include">
         </childnode>
-        <childnode refid="715" relation="include">
-        </childnode>
         <childnode refid="997" relation="include">
+        </childnode>
+        <childnode refid="715" relation="include">
         </childnode>
         <childnode refid="998" relation="include">
         </childnode>
         <childnode refid="999" relation="include">
+        </childnode>
+        <childnode refid="1000" relation="include">
         </childnode>
         <childnode refid="716" relation="include">
         </childnode>
@@ -6734,13 +6737,13 @@
         </childnode>
         <childnode refid="721" relation="include">
         </childnode>
-        <childnode refid="1000" relation="include">
-        </childnode>
         <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
         </childnode>
         <childnode refid="722" relation="include">
         </childnode>
-        <childnode refid="1002" relation="include">
+        <childnode refid="1003" relation="include">
         </childnode>
         <childnode refid="723" relation="include">
         </childnode>
@@ -6780,7 +6783,7 @@
         </childnode>
         <childnode refid="310" relation="include">
         </childnode>
-        <childnode refid="1003" relation="include">
+        <childnode refid="1004" relation="include">
         </childnode>
         <childnode refid="311" relation="include">
         </childnode>
@@ -6790,7 +6793,7 @@
         </childnode>
         <childnode refid="314" relation="include">
         </childnode>
-        <childnode refid="1004" relation="include">
+        <childnode refid="1005" relation="include">
         </childnode>
         <childnode refid="315" relation="include">
         </childnode>
@@ -6820,19 +6823,19 @@
         </childnode>
         <childnode refid="100" relation="include">
         </childnode>
-        <childnode refid="1005" relation="include">
+        <childnode refid="1006" relation="include">
         </childnode>
         <childnode refid="278" relation="include">
         </childnode>
-        <childnode refid="1006" relation="include">
+        <childnode refid="1007" relation="include">
         </childnode>
         <childnode refid="328" relation="include">
-        </childnode>
-        <childnode refid="1007" relation="include">
         </childnode>
         <childnode refid="1008" relation="include">
         </childnode>
         <childnode refid="1009" relation="include">
+        </childnode>
+        <childnode refid="1010" relation="include">
         </childnode>
         <childnode refid="730" relation="include">
         </childnode>
@@ -7054,7 +7057,7 @@
         </childnode>
         <childnode refid="842" relation="include">
         </childnode>
-        <childnode refid="1010" relation="include">
+        <childnode refid="1011" relation="include">
         </childnode>
         <childnode refid="843" relation="include">
         </childnode>
@@ -7066,11 +7069,11 @@
         </childnode>
         <childnode refid="92" relation="include">
         </childnode>
-        <childnode refid="1011" relation="include">
-        </childnode>
         <childnode refid="1012" relation="include">
         </childnode>
         <childnode refid="1013" relation="include">
+        </childnode>
+        <childnode refid="1014" relation="include">
         </childnode>
         <childnode refid="846" relation="include">
         </childnode>
@@ -7597,6 +7600,10 @@
         <label>std_array_MR_WeightedVertex_3.h</label>
         <link refid="std__array__MR__WeightedVertex__3_8h"/>
       </node>
+      <node id="990">
+        <label>std_array_MR_WeightedVertexd_3.h</label>
+        <link refid="std__array__MR__WeightedVertexd__3_8h"/>
+      </node>
       <node id="661">
         <label>std_array_std_filesystem_path_4.h</label>
         <link refid="std__array__std__filesystem__path__4_8h"/>
@@ -7949,7 +7956,7 @@
         <label>std_optional_MR_Color.h</label>
         <link refid="std__optional__MR__Color_8h"/>
       </node>
-      <node id="990">
+      <node id="991">
         <label>std_optional_MR_DentalId.h</label>
         <link refid="std__optional__MR__DentalId_8h"/>
       </node>
@@ -7981,19 +7988,19 @@
         <label>std_optional_MR_Mesh.h</label>
         <link refid="std__optional__MR__Mesh_8h"/>
       </node>
-      <node id="991">
+      <node id="992">
         <label>std_optional_MR_MeshOrPoints.h</label>
         <link refid="std__optional__MR__MeshOrPoints_8h"/>
       </node>
-      <node id="992">
+      <node id="993">
         <label>std_optional_MR_MeshOrPointsXf.h</label>
         <link refid="std__optional__MR__MeshOrPointsXf_8h"/>
       </node>
-      <node id="993">
+      <node id="994">
         <label>std_optional_MR_ObjectComparableWithReference_ComparableProperty.h</label>
         <link refid="std__optional__MR__ObjectComparableWithReference__ComparableProperty_8h"/>
       </node>
-      <node id="994">
+      <node id="995">
         <label>std_optional_MR_ObjectComparableWithReference_ComparisonTolerance.h</label>
         <link refid="std__optional__MR__ObjectComparableWithReference__ComparisonTolerance_8h"/>
       </node>
@@ -8001,11 +8008,11 @@
         <label>std_optional_MR_ObjectMeshData.h</label>
         <link refid="std__optional__MR__ObjectMeshData_8h"/>
       </node>
-      <node id="995">
+      <node id="996">
         <label>std_optional_MR_Plane3d.h</label>
         <link refid="std__optional__MR__Plane3d_8h"/>
       </node>
-      <node id="996">
+      <node id="997">
         <label>std_optional_MR_Plane3f.h</label>
         <link refid="std__optional__MR__Plane3f_8h"/>
       </node>
@@ -8013,15 +8020,15 @@
         <label>std_optional_MR_PointCloud.h</label>
         <link refid="std__optional__MR__PointCloud_8h"/>
       </node>
-      <node id="997">
+      <node id="998">
         <label>std_optional_MR_PolylineIntersectionResult2.h</label>
         <link refid="std__optional__MR__PolylineIntersectionResult2_8h"/>
       </node>
-      <node id="998">
+      <node id="999">
         <label>std_optional_MR_SignedDistanceToMeshResult.h</label>
         <link refid="std__optional__MR__SignedDistanceToMeshResult_8h"/>
       </node>
-      <node id="999">
+      <node id="1000">
         <label>std_optional_MR_TriIntersectResult.h</label>
         <link refid="std__optional__MR__TriIntersectResult_8h"/>
       </node>
@@ -8069,11 +8076,11 @@
         <label>std_optional_MR_VertScalars.h</label>
         <link refid="std__optional__MR__VertScalars_8h"/>
       </node>
-      <node id="1000">
+      <node id="1001">
         <label>std_optional_double.h</label>
         <link refid="std__optional__double_8h"/>
       </node>
-      <node id="1001">
+      <node id="1002">
         <label>std_optional_float.h</label>
         <link refid="std__optional__float_8h"/>
       </node>
@@ -8081,7 +8088,7 @@
         <label>std_optional_std_string.h</label>
         <link refid="std__optional__std__string_8h"/>
       </node>
-      <node id="1002">
+      <node id="1003">
         <label>std_optional_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitiv__9713.h</label>
         <link refid="std__optional__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____9713_8h"/>
       </node>
@@ -8161,7 +8168,7 @@
         <label>std_pair_MR_VertId_bool.h</label>
         <link refid="std__pair__MR__VertId__bool_8h"/>
       </node>
-      <node id="1003">
+      <node id="1004">
         <label>std_pair_bool_int.h</label>
         <link refid="std__pair__bool__int_8h"/>
       </node>
@@ -8181,7 +8188,7 @@
         <label>std_pair_const_MR_GraphVertId_MR_GraphVertId.h</label>
         <link refid="std__pair__const__MR__GraphVertId__MR__GraphVertId_8h"/>
       </node>
-      <node id="1004">
+      <node id="1005">
         <label>std_pair_const_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag.h</label>
         <link refid="std__pair__const__MR__Id__MR__ICPElemtTag__MR__Id__MR__ICPElemtTag_8h"/>
       </node>
@@ -8241,7 +8248,7 @@
         <label>std_pair_const_int_MR_Box3i.h</label>
         <link refid="std__pair__const__int__MR__Box3i_8h"/>
       </node>
-      <node id="1005">
+      <node id="1006">
         <label>std_pair_const_size_t_size_t.h</label>
         <link refid="std__pair__const__size__t__size__t_8h"/>
       </node>
@@ -8249,7 +8256,7 @@
         <label>std_pair_const_size_t_std_array_MR_VertId_3.h</label>
         <link refid="std__pair__const__size__t__std__array__MR__VertId__3_8h"/>
       </node>
-      <node id="1006">
+      <node id="1007">
         <label>std_pair_double_int.h</label>
         <link refid="std__pair__double__int_8h"/>
       </node>
@@ -8257,15 +8264,15 @@
         <label>std_pair_float_MR_VertId.h</label>
         <link refid="std__pair__float__MR__VertId_8h"/>
       </node>
-      <node id="1007">
+      <node id="1008">
         <label>std_pair_float_float.h</label>
         <link refid="std__pair__float__float_8h"/>
       </node>
-      <node id="1008">
+      <node id="1009">
         <label>std_pair_int_int.h</label>
         <link refid="std__pair__int__int_8h"/>
       </node>
-      <node id="1009">
+      <node id="1010">
         <label>std_pair_size_t_size_t.h</label>
         <link refid="std__pair__size__t__size__t_8h"/>
       </node>
@@ -8709,7 +8716,7 @@
         <label>std_string.h</label>
         <link refid="std__string_8h"/>
       </node>
-      <node id="1010">
+      <node id="1011">
         <label>std_string_view.h</label>
         <link refid="std__string__view_8h"/>
       </node>
@@ -8733,15 +8740,15 @@
         <label>std_variant_MR_PdfBuildinFont_std_filesystem_path.h</label>
         <link refid="std__variant__MR__PdfBuildinFont__std__filesystem__path_8h"/>
       </node>
-      <node id="1011">
+      <node id="1012">
         <label>std_variant_MR_Polynomial_double_0_MR_Polynomial_double_1_MR_Polynomial_double_2_MR_Polynomi__dfcd.h</label>
         <link refid="std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h"/>
       </node>
-      <node id="1012">
+      <node id="1013">
         <label>std_variant_MR_Polynomial_float_0_MR_Polynomial_float_1_MR_Polynomial_float_2_MR_Polynomial___4993.h</label>
         <link refid="std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h"/>
       </node>
-      <node id="1013">
+      <node id="1014">
         <label>std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane.h</label>
         <link refid="std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h"/>
       </node>

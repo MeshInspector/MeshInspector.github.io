@@ -53,6 +53,9 @@ var MRMeshFwd_8h =
     [ "MR::Line3", "group__GeneralGroup.html#ga7eef389e2e2dd24fc59576c7ad184eb5", null ],
     [ "MR::LineSegm3", "group__GeneralGroup.html#ga22626b510a506d8dad6a4ccf8b3db9a1", null ],
     [ "MR::MeshEdgePoint", "group__GeneralGroup.html#ga8ffb37085bbd6060f17bcf222941ab8c", null ],
+    [ "MR::MeshEdgePointd", "group__GeneralGroup.html#gaab5ca49a331271fb2d5473870878ece1", null ],
+    [ "MR::MeshEdgePointf", "group__GeneralGroup.html#ga1c3200908153553a41d609577fde3f5d", null ],
+    [ "MR::MeshEdgePointT", "group__GeneralGroup.html#ga252bcd65d63cc4565357a77c71496984", null ],
     [ "MR::MinMax", "group__GeneralGroup.html#ga27890b8241dca9b28e5fc331a9453786", null ],
     [ "MR::MinMaxd", "group__GeneralGroup.html#ga8a502bbb7355b197a80a998945d1a885", null ],
     [ "MR::MinMaxf", "group__GeneralGroup.html#ga2bd3b23d498c69cd04c544b6c7068f3a", null ],
@@ -130,6 +133,7 @@ var MRMeshFwd_8h =
     [ "MR::Matrix3< bool >", "group__GeneralGroup.html#gabac9492dff43f7bbe2a7540e4f199655", null ],
     [ "MR::Matrix4< bool >", "group__GeneralGroup.html#ga8d7f0f343c2b055e2dbb0b8a71cf5806", null ],
     [ "MR::MeshRegion", "group__GeneralGroup.html#gac2467062511884bec34fc4442102c639", null ],
+    [ "MR::MeshTriPointT< float >", "group__GeneralGroup.html#gac9eac519634b1a5b87faff78b7e2eefa", null ],
     [ "MR::MR_REQUIRES_IF_SUPPORTED", "group__MathGroup.html#gab29a7719b4a571baf6abe4be5d93d4f2", null ],
     [ "MR::NoInitId", "group__GeneralGroup.html#gaeb3095cd375fd30c934ee7228450dce9", null ],
     [ "MR::overloaded", "group__GeneralGroup.html#ga80e6b953fc44378e5898ba71b21f216a", null ],
@@ -182,6 +186,7 @@ var MRMeshFwd_8h =
     [ "MR::Vector< Vector3f, VertId >", "group__GeneralGroup.html#ga374d9f637dc91009a8ab07155ebf8568", null ],
     [ "MR::Vector< Vector3f, VertId >", "group__GeneralGroup.html#ga8a2dd0eff31eff9de22ae770f2e078d7", null ],
     [ "MR::Vector< VertId, VertId >", "group__GeneralGroup.html#ga9ab78cd91b5f3ab474f75cc8f1bf16fc", null ],
+    [ "MR::WeightedVertexT< float >", "group__GeneralGroup.html#ga8af0745aff8f8e5091fd2088e16165d8", null ],
     [ "MR::AABBTree", "group__GeneralGroup.html#gabe7cfa4da2fbf3567857cea149030590", null ],
     [ "MR::AABBTreeObjects", "group__GeneralGroup.html#gad2555bd8680e7acc591ec78b0d789d23", null ],
     [ "MR::AABBTreePoints", "group__GeneralGroup.html#ga99c966a131266f5ea0b682099c7df561", null ],
@@ -229,6 +234,8 @@ var MRMeshFwd_8h =
     [ "MR::Mesh", "group__GeneralGroup.html#ga49165bcb87a59752b8f02f19ea7f2424", null ],
     [ "MR::MeshOrPoints", "group__GeneralGroup.html#ga2c2ce7a11febd432cbfcbcd26f3d6103", null ],
     [ "MR::MeshTopology", "group__GeneralGroup.html#ga70998e19114b7179469682c1c31c77ae", null ],
+    [ "MR::MeshTriPoint", "group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab", null ],
+    [ "MR::MeshTriPointT", "group__GeneralGroup.html#gac63db67c119d66b228c92840c6395214", null ],
     [ "MR::NoDefInit", "group__GeneralGroup.html#gae14e1033b3de0c30a6bb404e940dc424", null ],
     [ "MR::NodeTag", "group__GeneralGroup.html#ga377a98e08f145435910c6f6f568722b3", null ],
     [ "MR::noInit", "group__GeneralGroup.html#gaaa8f63a4fb4dcabf0f8f1dc79cdeee90", null ],
@@ -274,5 +281,7 @@ var MRMeshFwd_8h =
     [ "MR::Vector4", "group__GeneralGroup.html#gabf2b64d81134dc56b5d017eab9836038", null ],
     [ "MR::Vector4b", "group__GeneralGroup.html#gaf850f4ab24246adda7bc6c967ca3d4f7", null ],
     [ "MR::VertTag", "group__GeneralGroup.html#gaa92378bf233fad3fbb22ac30f72ea71e", null ],
-    [ "MR::VoxelTag", "group__GeneralGroup.html#ga643d3f06a57ec77e78fffeee6a27fc3d", null ]
+    [ "MR::VoxelTag", "group__GeneralGroup.html#ga643d3f06a57ec77e78fffeee6a27fc3d", null ],
+    [ "MR::WeightedVertex", "group__GeneralGroup.html#ga00f8fdc0cbbc74e9d3b0a0b79023f922", null ],
+    [ "MR::WeightedVertexT", "group__GeneralGroup.html#ga1b6eaab878e011b609b556f10ce4e7d5", null ]
 ];

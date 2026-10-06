@@ -150,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c6e554b532579328641e4e3ce314e7d" id="r_a7c6e554b532579328641e4e3ce314e7d"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c6e554b532579328641e4e3ce314e7d">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a> arg0)</td></tr>
 <tr class="memitem:a7659c7ecd22d8d1fc01ab82e891710dc" id="r_a7659c7ecd22d8d1fc01ab82e891710dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshTriPoint.html">MeshTriPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7659c7ecd22d8d1fc01ab82e891710dc">canonical</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:a6dc021e7989535c25414494e0c73e925" id="r_a6dc021e7989535c25414494e0c73e925"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dc021e7989535c25414494e0c73e925">fromTriangle</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f)</td></tr>
-<tr class="memitem:a67a1eb612f64c173d9b48ddf1ac6e3af" id="r_a67a1eb612f64c173d9b48ddf1ac6e3af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__WeightedVertex__3.html">std_array_WeightedVertex_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67a1eb612f64c173d9b48ddf1ac6e3af">getWeightedVerts</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
+<tr class="memitem:a0f71fc8929a84999dd58aa4a86010cf3" id="r_a0f71fc8929a84999dd58aa4a86010cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__array__WeightedVertexT__float__3.html">std_array_WeightedVertexT_float_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f71fc8929a84999dd58aa4a86010cf3">getWeightedVerts</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:a1ccad1803ac48a4521f00c687e616177" id="r_a1ccad1803ac48a4521f00c687e616177"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ccad1803ac48a4521f00c687e616177">inVertex</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology)</td></tr>
 <tr class="memitem:a34fdd00fd161bf60823d7f6200804aaa" id="r_a34fdd00fd161bf60823d7f6200804aaa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34fdd00fd161bf60823d7f6200804aaa">inVertex</a> (self)</td></tr>
 <tr class="memitem:a05fb33003d9e54c99b88e4c37048f4fa" id="r_a05fb33003d9e54c99b88e4c37048f4fa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05fb33003d9e54c99b88e4c37048f4fa">interpolate</a> (self, <a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertScalars.html">VertScalars</a> field)</td></tr>
@@ -177,6 +177,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::MeshTriPoint
+Aliases:  MeshTriPointf
 
 encodes a point inside a triangular mesh face using barycentric coordinates
 \\details Notations used below: \\n
@@ -524,14 +525,14 @@ a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.
 </pre> 
 </div>
 </div>
-<a id="a67a1eb612f64c173d9b48ddf1ac6e3af" name="a67a1eb612f64c173d9b48ddf1ac6e3af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67a1eb612f64c173d9b48ddf1ac6e3af">&#9670;&#160;</a></span>getWeightedVerts()</h2>
+<a id="a0f71fc8929a84999dd58aa4a86010cf3" name="a0f71fc8929a84999dd58aa4a86010cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f71fc8929a84999dd58aa4a86010cf3">&#9670;&#160;</a></span>getWeightedVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__array__WeightedVertex__3.html">std_array_WeightedVertex_3</a> mrmeshpy.MeshTriPoint.getWeightedVerts </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__array__WeightedVertexT__float__3.html">std_array_WeightedVertexT_float_3</a> mrmeshpy.MeshTriPoint.getWeightedVerts </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
         </tr>
@@ -681,7 +682,7 @@ a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns valid value if the point is on edge and topology.left(result.e) == topology.left(this-&gt;e),
-otherwise returns invalid MeshEdgePoint
+otherwise returns invalid MeshEdgePointT
 </pre> 
 </div>
 </div>

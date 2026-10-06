@@ -562,7 +562,7 @@
         <name>triPoint</name>
         <qualifiedname>MR::Mesh::triPoint</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref> &amp;</type>
           <declname>p</declname>
         </param>
         <briefdescription>
@@ -651,7 +651,7 @@
         <location file="MRMesh/MRMesh.h" line="118" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="118" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a270c420c13ec0ad3d41b3bee66a69fe7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref></type>
         <definition>MeshTriPoint MR::Mesh::toTriPoint</definition>
         <argsstring>(VertId v) const</argsstring>
         <name>toTriPoint</name>
@@ -670,7 +670,7 @@
         <location file="MRMesh/MRMesh.h" line="121" column="20"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1a72472fa8eac4aba3ae82bb68995534c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref></type>
         <definition>MeshTriPoint MR::Mesh::toTriPoint</definition>
         <argsstring>(FaceId f, const Vector3f &amp;p) const</argsstring>
         <name>toTriPoint</name>
@@ -693,7 +693,7 @@
         <location file="MRMesh/MRMesh.h" line="124" column="19" bodyfile="MRMesh/MRMesh.h" bodystart="124" bodyend="124"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1af8c6a8e572a6252362c3616d2973c5f7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref></type>
         <definition>MeshTriPoint MR::Mesh::toTriPoint</definition>
         <argsstring>(const PointOnFace &amp;p) const</argsstring>
         <name>toTriPoint</name>
@@ -779,7 +779,7 @@
         <name>getClosestVertex</name>
         <qualifiedname>MR::Mesh::getClosestVertex</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref> &amp;</type>
           <declname>p</declname>
         </param>
         <briefdescription>
@@ -817,7 +817,7 @@
         <name>getClosestEdge</name>
         <qualifiedname>MR::Mesh::getClosestEdge</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref> &amp;</type>
           <declname>p</declname>
         </param>
         <briefdescription>
@@ -1299,7 +1299,7 @@
         <name>normal</name>
         <qualifiedname>MR::Mesh::normal</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref> &amp;</type>
           <declname>p</declname>
         </param>
         <briefdescription>
@@ -1366,7 +1366,7 @@
         <name>pseudonormal</name>
         <qualifiedname>MR::Mesh::pseudonormal</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kindref="member">MeshTriPoint</ref> &amp;</type>
           <declname>p</declname>
         </param>
         <param>

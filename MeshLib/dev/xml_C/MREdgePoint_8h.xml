@@ -2177,11 +2177,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="633" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="633" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="MREdgePoint_8h_1a42ce5d1a471ca923405604dc1e20a43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MREdgePoint_8h_1adc184aea1d2a80315d9c15850b995c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
-        <definition>MRC_API bool MR_same_MR_EdgePoint</definition>
+        <definition>MRC_API bool MR_same_float_MR_EdgePoint</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_EdgePoint *lhs, const MR_EdgePoint *rhs)</argsstring>
-        <name>MR_same_MR_EdgePoint</name>
+        <name>MR_same_float_MR_EdgePoint</name>
         <param>
           <type>const <ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
           <declname>topology</declname>
@@ -2197,11 +2197,37 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns true if two edge-points are equal considering different representations Generated from function <computeroutput>MR::same</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>lhs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rhs</computeroutput> can not be null. It is a single object. </para>
+<para>returns true if two edge-points are equal considering different representations Generated from function <computeroutput>MR::same&lt;float&gt;</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>lhs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rhs</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="640" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="640" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgePoint_8h_1a580c7a7754afede986c4d2b501f3822e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_same_double_MR_EdgePointd</definition>
+        <argsstring>(const MR_MeshTopology *topology, const MR_EdgePointd *lhs, const MR_EdgePointd *rhs)</argsstring>
+        <name>MR_same_double_MR_EdgePointd</name>
+        <param>
+          <type>const <ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref> *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref> *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if two edge-points are equal considering different representations Generated from function <computeroutput>MR::same&lt;double&gt;</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>lhs</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rhs</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="647" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="647" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
@@ -2219,7 +2245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="646" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="646" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="653" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="653" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2241,7 +2267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="653" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="653" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="660" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="660" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
@@ -2259,7 +2285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="659" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="659" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="666" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="666" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
@@ -2277,7 +2303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="665" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="665" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="672" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="672" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2299,7 +2325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="672" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="672" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="679" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="679" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
@@ -2317,7 +2343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="678" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="678" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="685" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="685" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2334,7 +2360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="682" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="682" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="689" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="689" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2352,7 +2378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="687" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="687" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="694" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="694" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2374,7 +2400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="691" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="691" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="698" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="698" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2396,7 +2422,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="695" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="695" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="702" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="702" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2414,7 +2440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="701" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="701" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="708" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="708" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2436,7 +2462,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="709" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="709" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="716" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="716" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2454,7 +2480,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="712" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="712" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="719" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="719" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -2472,7 +2498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="715" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="715" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="722" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="722" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref> *</type>
@@ -2494,7 +2520,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="723" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="723" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="730" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="730" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
@@ -2516,7 +2542,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="729" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="729" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" line="736" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h" declline="736" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -2757,47 +2783,53 @@
 <codeline lineno="628"><highlight class="normal"></highlight></codeline>
 <codeline lineno="633" refid="MREdgePoint_8h_1ac0b0fcb905882fdbf2f6f3ce36802d14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a9fa2c470ebf1799f697f65076b3df1c1" kindref="member">MR_EdgeSegmentd</ref><sp/>*<ref refid="MREdgePoint_8h_1ac0b0fcb905882fdbf2f6f3ce36802d14" kindref="member">MR_EdgeSegmentd_sym</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a9fa2c470ebf1799f697f65076b3df1c1" kindref="member">MR_EdgeSegmentd</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="634"><highlight class="normal"></highlight></codeline>
-<codeline lineno="640" refid="MREdgePoint_8h_1a42ce5d1a471ca923405604dc1e20a43c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a42ce5d1a471ca923405604dc1e20a43c" kindref="member">MR_same_MR_EdgePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="640" refid="MREdgePoint_8h_1adc184aea1d2a80315d9c15850b995c77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1adc184aea1d2a80315d9c15850b995c77" kindref="member">MR_same_float_MR_EdgePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*rhs);</highlight></codeline>
 <codeline lineno="641"><highlight class="normal"></highlight></codeline>
-<codeline lineno="646" refid="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" kindref="member">MR_EdgePointPair_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="647"><highlight class="normal"></highlight></codeline>
-<codeline lineno="653" refid="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" kindref="member">MR_EdgePointPair_Set_a</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="647" refid="MREdgePoint_8h_1a580c7a7754afede986c4d2b501f3822e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a580c7a7754afede986c4d2b501f3822e" kindref="member">MR_same_double_MR_EdgePointd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref><sp/>*lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"></highlight></codeline>
+<codeline lineno="653" refid="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" kindref="member">MR_EdgePointPair_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="654"><highlight class="normal"></highlight></codeline>
-<codeline lineno="659" refid="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" kindref="member">MR_EdgePointPair_GetMutable_a</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="660"><highlight class="normal"></highlight></codeline>
-<codeline lineno="665" refid="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" kindref="member">MR_EdgePointPair_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="666"><highlight class="normal"></highlight></codeline>
-<codeline lineno="672" refid="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" kindref="member">MR_EdgePointPair_Set_b</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="660" refid="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" kindref="member">MR_EdgePointPair_Set_a</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="661"><highlight class="normal"></highlight></codeline>
+<codeline lineno="666" refid="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" kindref="member">MR_EdgePointPair_GetMutable_a</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="667"><highlight class="normal"></highlight></codeline>
+<codeline lineno="672" refid="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" kindref="member">MR_EdgePointPair_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="673"><highlight class="normal"></highlight></codeline>
-<codeline lineno="678" refid="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" kindref="member">MR_EdgePointPair_GetMutable_b</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="679"><highlight class="normal"></highlight></codeline>
-<codeline lineno="682" refid="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" kindref="member">MR_EdgePointPair_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="683"><highlight class="normal"></highlight></codeline>
-<codeline lineno="687" refid="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" kindref="member">MR_EdgePointPair_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="688"><highlight class="normal"></highlight></codeline>
-<codeline lineno="691" refid="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" kindref="member">MR_EdgePointPair_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="692"><highlight class="normal"></highlight></codeline>
-<codeline lineno="695" refid="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" kindref="member">MR_EdgePointPair_OffsetMutablePtr</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="696"><highlight class="normal"></highlight></codeline>
-<codeline lineno="701" refid="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" kindref="member">MR_EdgePointPair_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="702"><highlight class="normal"></highlight></codeline>
-<codeline lineno="709" refid="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" kindref="member">MR_EdgePointPair_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*ia,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*ib);</highlight></codeline>
-<codeline lineno="710"><highlight class="normal"></highlight></codeline>
-<codeline lineno="712" refid="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" kindref="member">MR_EdgePointPair_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="713"><highlight class="normal"></highlight></codeline>
-<codeline lineno="715" refid="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" kindref="member">MR_EdgePointPair_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="716"><highlight class="normal"></highlight></codeline>
-<codeline lineno="723" refid="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" kindref="member">MR_EdgePointPair_AssignFromAnother</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="724"><highlight class="normal"></highlight></codeline>
-<codeline lineno="729" refid="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" kindref="member">MR_equal_MR_EdgePointPair</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*rhs);</highlight></codeline>
-<codeline lineno="730"><highlight class="normal"></highlight></codeline>
-<codeline lineno="738"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_fromSameTriangle_MR_EdgePoint_ref(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*a,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="739"><highlight class="normal"></highlight></codeline>
-<codeline lineno="751"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_fromSameTriangle_MR_EdgePoint_rvalue_ref(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*a,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*b);</highlight></codeline>
-<codeline lineno="752"><highlight class="normal"></highlight></codeline>
-<codeline lineno="753"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="754"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="755"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="679" refid="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" kindref="member">MR_EdgePointPair_Set_b</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="680"><highlight class="normal"></highlight></codeline>
+<codeline lineno="685" refid="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" kindref="member">MR_EdgePointPair_GetMutable_b</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="686"><highlight class="normal"></highlight></codeline>
+<codeline lineno="689" refid="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" kindref="member">MR_EdgePointPair_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="690"><highlight class="normal"></highlight></codeline>
+<codeline lineno="694" refid="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" kindref="member">MR_EdgePointPair_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="695"><highlight class="normal"></highlight></codeline>
+<codeline lineno="698" refid="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" kindref="member">MR_EdgePointPair_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight></codeline>
+<codeline lineno="702" refid="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" kindref="member">MR_EdgePointPair_OffsetMutablePtr</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="703"><highlight class="normal"></highlight></codeline>
+<codeline lineno="708" refid="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" kindref="member">MR_EdgePointPair_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="709"><highlight class="normal"></highlight></codeline>
+<codeline lineno="716" refid="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" kindref="member">MR_EdgePointPair_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*ia,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*ib);</highlight></codeline>
+<codeline lineno="717"><highlight class="normal"></highlight></codeline>
+<codeline lineno="719" refid="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" kindref="member">MR_EdgePointPair_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="720"><highlight class="normal"></highlight></codeline>
+<codeline lineno="722" refid="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" kindref="member">MR_EdgePointPair_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="723"><highlight class="normal"></highlight></codeline>
+<codeline lineno="730" refid="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*<ref refid="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" kindref="member">MR_EdgePointPair_AssignFromAnother</ref>(<ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="731"><highlight class="normal"></highlight></codeline>
+<codeline lineno="736" refid="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" kindref="member">MR_equal_MR_EdgePointPair</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kindref="member">MR_EdgePointPair</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"></highlight></codeline>
+<codeline lineno="745"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_fromSameTriangle_float_MR_EdgePoint_ref(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*a,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="746"><highlight class="normal"></highlight></codeline>
+<codeline lineno="754"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_fromSameTriangle_double_MR_EdgePointd_ref(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref><sp/>*a,<sp/><ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="755"><highlight class="normal"></highlight></codeline>
+<codeline lineno="767"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_fromSameTriangle_float_MR_EdgePoint_rvalue_ref(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*a,<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="768"><highlight class="normal"></highlight></codeline>
+<codeline lineno="780"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_fromSameTriangle_double_MR_EdgePointd_rvalue_ref(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCameraPointsTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref><sp/>*a,<sp/><ref refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kindref="member">MR_EdgePointd</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="781"><highlight class="normal"></highlight></codeline>
+<codeline lineno="782"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="783"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="784"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgePoint.h"/>
   </compounddef>

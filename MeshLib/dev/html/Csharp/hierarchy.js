@@ -1447,6 +1447,9 @@ var hierarchy =
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", [
         [ "MR.MeshTriPoint", "classMR_1_1MeshTriPoint.html", null ]
       ] ],
+      [ "MR.Const_MeshTriPointd", "classMR_1_1Const__MeshTriPointd.html", [
+        [ "MR.MeshTriPointd", "classMR_1_1MeshTriPointd.html", null ]
+      ] ],
       [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", [
         [ "MR.MeshVertPart", "classMR_1_1MeshVertPart.html", null ]
       ] ],
@@ -2765,6 +2768,9 @@ var hierarchy =
       [ "MR.Const_WeightedVertex", "classMR_1_1Const__WeightedVertex.html", [
         [ "MR.WeightedVertex", "classMR_1_1WeightedVertex.html", null ]
       ] ],
+      [ "MR.Const_WeightedVertexd", "classMR_1_1Const__WeightedVertexd.html", [
+        [ "MR.WeightedVertexd", "classMR_1_1WeightedVertexd.html", null ]
+      ] ],
       [ "MR.Const_WholeEdgeBMap", "classMR_1_1Const__WholeEdgeBMap.html", [
         [ "MR.WholeEdgeBMap", "classMR_1_1WholeEdgeBMap.html", null ]
       ] ],
@@ -3422,6 +3428,7 @@ var hierarchy =
       [ "MR.Const_MeshOrPointsObject", "classMR_1_1Const__MeshOrPointsObject.html", null ],
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ],
+      [ "MR.Const_MeshTriPointd", "classMR_1_1Const__MeshTriPointd.html", null ],
       [ "MR.Const_NoDefInit_MREdgeId", "classMR_1_1Const__NoDefInit__MREdgeId.html", null ],
       [ "MR.Const_NoDefInit_MRFaceId", "classMR_1_1Const__NoDefInit__MRFaceId.html", null ],
       [ "MR.Const_NoDefInit_MRGraphEdgeId", "classMR_1_1Const__NoDefInit__MRGraphEdgeId.html", null ],
@@ -4082,6 +4089,7 @@ var hierarchy =
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
       [ "MR.Const_MeshTopologyDiff", "classMR_1_1Const__MeshTopologyDiff.html", null ],
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ],
+      [ "MR.Const_MeshTriPointd", "classMR_1_1Const__MeshTriPointd.html", null ],
       [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", null ],
       [ "MR.Const_MeshVoxelsConverter", "classMR_1_1Const__MeshVoxelsConverter.html", null ],
       [ "MR.Const_MetricToAStarPenalty", "classMR_1_1Const__MetricToAStarPenalty.html", null ],
@@ -4528,6 +4536,7 @@ var hierarchy =
       [ "MR.Const_WatershedGraph.Const_BdInfo", "classMR_1_1Const__WatershedGraph_1_1Const__BdInfo.html", null ],
       [ "MR.Const_WatershedGraph.Const_OverflowPoint", "classMR_1_1Const__WatershedGraph_1_1Const__OverflowPoint.html", null ],
       [ "MR.Const_WeightedVertex", "classMR_1_1Const__WeightedVertex.html", null ],
+      [ "MR.Const_WeightedVertexd", "classMR_1_1Const__WeightedVertexd.html", null ],
       [ "MR.Const_WholeEdgeBMap", "classMR_1_1Const__WholeEdgeBMap.html", null ],
       [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
       [ "MR.Const_XfBasedCache_MRBox3f", "classMR_1_1Const__XfBasedCache__MRBox3f.html", null ],

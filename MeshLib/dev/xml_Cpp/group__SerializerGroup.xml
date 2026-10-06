@@ -660,7 +660,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this version takes topology to convert <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> in its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
+<para>this version takes topology to convert MeshTriPoint in its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1160,7 +1160,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this version takes topology to construct <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> from its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
+<para>this version takes topology to construct MeshTriPoint from its representation relative a face; also beware that de-serialization will work only if faces are not renumbered (so please pack mesh before saving) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

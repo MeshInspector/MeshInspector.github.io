@@ -115,6 +115,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_array_MR_VertId_2.h", "std__array__MR__VertId__2_8h.html", "std__array__MR__VertId__2_8h" ],
     [ "std_array_MR_VertId_3.h", "std__array__MR__VertId__3_8h.html", "std__array__MR__VertId__3_8h" ],
     [ "std_array_MR_WeightedVertex_3.h", "std__array__MR__WeightedVertex__3_8h.html", "std__array__MR__WeightedVertex__3_8h" ],
+    [ "std_array_MR_WeightedVertexd_3.h", "std__array__MR__WeightedVertexd__3_8h.html", "std__array__MR__WeightedVertexd__3_8h" ],
     [ "std_array_std_filesystem_path_4.h", "std__array__std__filesystem__path__4_8h.html", "std__array__std__filesystem__path__4_8h" ],
     [ "std_filesystem_path.h", "std__filesystem__path_8h.html", "std__filesystem__path_8h" ],
     [ "std_function_bool_from_const_MR_MeshIntersectionResult_ref.h", "std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h.html", "std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h" ],

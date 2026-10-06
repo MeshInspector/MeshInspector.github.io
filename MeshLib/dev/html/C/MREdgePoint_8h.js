@@ -126,5 +126,6 @@ var MREdgePoint_8h =
     [ "MR_equal_MR_EdgePointPair", "MREdgePoint_8h.html#afa010decd1be1a0b4db1ee729f3c4386", null ],
     [ "MR_equal_MR_EdgeSegment", "MREdgePoint_8h.html#a5c41ed71c49ad1e53ff5c2a2e9b2f63f", null ],
     [ "MR_equal_MR_EdgeSegmentd", "MREdgePoint_8h.html#a5d088ac6cd90a89548f1970e02f35480", null ],
-    [ "MR_same_MR_EdgePoint", "MREdgePoint_8h.html#a42ce5d1a471ca923405604dc1e20a43c", null ]
+    [ "MR_same_double_MR_EdgePointd", "MREdgePoint_8h.html#a580c7a7754afede986c4d2b501f3822e", null ],
+    [ "MR_same_float_MR_EdgePoint", "MREdgePoint_8h.html#adc184aea1d2a80315d9c15850b995c77", null ]
 ];

@@ -31,10 +31,6 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="3">
-        <label>MR::MeshTriPoint</label>
-        <link refid="structMR_1_1MeshTriPoint"/>
-      </node>
       <node id="2">
         <label>MR::SymbolMeshParams</label>
         <link refid="structMR_1_1SymbolMeshParams"/>
@@ -43,9 +39,6 @@
         <label>MR::TextMeshAlignParams</label>
         <link refid="structMR_1_1TextMeshAlignParams"/>
         <childnode refid="2" relation="public-inheritance">
-        </childnode>
-        <childnode refid="3" relation="usage">
-          <edgelabel>startPoint</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>

@@ -1,4 +1,4 @@
 var MREdgePoint_8h =
 [
-    [ "MR::same", "group__GeneralGroup.html#ga8e206529d8c003b0ea8ab3b6bb80f0f7", null ]
+    [ "MR::same", "group__GeneralGroup.html#ga3b15caf456e5957f1d1a548142e66641", null ]
 ];

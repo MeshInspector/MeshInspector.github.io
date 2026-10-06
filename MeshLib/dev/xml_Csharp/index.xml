@@ -21251,6 +21251,60 @@
     <member refid="classMR_1_1Const__MeshTriPoint_1ab4df020ef12944b15129bdc5e59cfcef" kind="function"><name>__MR_MeshTriPoint_valid</name></member>
     <member refid="classMR_1_1Const__MeshTriPoint_1a56b2d1ea1e7d57e4c90248a00e7a91bf" kind="function"><name>__MR_equal_MR_MeshTriPoint</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__MeshTriPointd" kind="class"><name>MR::Const_MeshTriPointd</name>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ab0222a4f46b140f4f8d6664cc3fe8aac" kind="property"><name>e</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a7d99314d6d6b13b97c4f527d369e98e9" kind="property"><name>bary</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a6808c9638e8af3cbfe0569a7a393fbdc" kind="variable"><name>__ref_storage_e</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a090d8467380c4f7e779a8246129009a3" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1aed1bedd7cd0bea900f3699993e6d1fbc" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1aeab6622e5f1920d073bd557dd4409685" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a9b6d9b1709974580b123c7cfd14bea53" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ad8abbec7f18d1a9c71a14eb403544736" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a9fc985116df9b6e79f5590e0b02daa1b" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a134f7086fcaa4370dbb9a686e27e4f36" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a40447d235565a8229c63ea9c364cf5fa" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a4619bfa419c19fd60774ffcf6c44cfb0" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a6ddbef5ed586189f24d16d23d418f3fc" kind="function"><name>inVertex</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a85bec412b437b6c99b720db7d5f1c743" kind="function"><name>inVertex</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a55cf066cab9687ffde0c3063d638a890" kind="function"><name>onEdge</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1aafefe208849b433a0eeb7b61ab0c2ff6" kind="function"><name>isBd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ae5c145adf9854b054a98df6b3a2c32c6" kind="function"><name>fromTriangle</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a765d47dea1c210464d99fa01c2f50083" kind="function"><name>valid</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1aeb065871293b054a716b994e4a527f6c" kind="function"><name>lnext</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a15591a560b29fb8c0c5f113d0c37f077" kind="function"><name>canonical</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a7d07c00e8c8c11f82fb1d926fe17fa04" kind="function"><name>getWeightedVerts</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a92a90f09e441ba2929af4795536808ec" kind="function"><name>interpolate</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1aaae942ec849a1c64cce3b2c9b461b0c0" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a9d54b95be0ebb4fd54e4b5fbea3c0514" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a23e037c8d692a911eedef2959bcb6c90" kind="function"><name>~Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a058c0330d2113b9aea5daf223f05f445" kind="function"><name>Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a98db488c1201a6dff532f9c049353eb2" kind="function"><name>operator Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a8ba523b3fb4ec511fd3293ecd0d7b787" kind="function"><name>operator Const_MeshTriPointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a0e8932a6a4fd44af0f560f7a0c593d7a" kind="function"><name>operator bool</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a7ef711f05ced5556d9776eed7aa3d4bc" kind="function"><name>operator==</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ab3abb7262d6b68ee5440f3f301f72c7c" kind="function"><name>operator!=</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a18cf5e603d54cbf87d68762bf148d9da" kind="function"><name>__MR_MeshTriPointd_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a3e98d45b7c0d72ee94d8444e5b2d1773" kind="function"><name>__MR_MeshTriPointd_Construct_1_MR_EdgePointd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a392bf037cd2dbb1504393b63fb2f08ca" kind="function"><name>__MR_MeshTriPointd_Construct_1_MR_NoInit</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1aa963a641395a9315e229a5fa7d0d43c7" kind="function"><name>__MR_MeshTriPointd_Construct_2_MR_EdgeId</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a565e7607433834b1200d31dd584dc4bd" kind="function"><name>__MR_MeshTriPointd_Construct_2_MR_MeshTopology</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a338e9dcef19be3d89144e0a1b407c35d" kind="function"><name>__MR_MeshTriPointd_ConvertTo_bool</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a8943da84e7f5321d3d2e32085f039ac3" kind="function"><name>__MR_MeshTriPointd_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a340dd69792c6f2f7d52e35f342f06075" kind="function"><name>__MR_MeshTriPointd_Destroy</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1af366c76afdcc84d9cea0193f646ace20" kind="function"><name>__MR_MeshTriPointd_Get_bary</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ae253d26dd2ad37838be0aa290f7a1edd" kind="function"><name>__MR_MeshTriPointd_Get_e</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a7a1f4dd6938000e55f9d29f46e6ef62b" kind="function"><name>__MR_MeshTriPointd_canonical</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a925eefed2a06b7ad5a9357bd799352c6" kind="function"><name>__MR_MeshTriPointd_fromTriangle</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a1d3458e0a7549181e86c1d8a4e365d74" kind="function"><name>__MR_MeshTriPointd_getWeightedVerts</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a9e7470f0739d6f9455e2755ff731e096" kind="function"><name>__MR_MeshTriPointd_inVertex_0</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1adbff3a874231c4ffc5c55d81e9b19806" kind="function"><name>__MR_MeshTriPointd_inVertex_1</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a76b5f423c7cb01f504ba208874ce7ca5" kind="function"><name>__MR_MeshTriPointd_interpolate</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a4a776dbfdf9042897690ba0a564d838e" kind="function"><name>__MR_MeshTriPointd_isBd</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ac8e6624c1c6c91ea3cecf86229ab1c5f" kind="function"><name>__MR_MeshTriPointd_lnext</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1a1341cdd3ef3ba12bd154acde74a5db6b" kind="function"><name>__MR_MeshTriPointd_onEdge</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ac470569a7e4a3b8735d401fd59bf1cf3" kind="function"><name>__MR_MeshTriPointd_valid</name></member>
+    <member refid="classMR_1_1Const__MeshTriPointd_1ac44243c6f24406b85adc0ea513420b24" kind="function"><name>__MR_equal_MR_MeshTriPointd</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__MeshVertPart" kind="class"><name>MR::Const_MeshVertPart</name>
     <member refid="classMR_1_1Const__MeshVertPart_1a2f5c68d7730dc7e1e7079f9fc1f17a67" kind="property"><name>mesh</name></member>
     <member refid="classMR_1_1Const__MeshVertPart_1abeb8769777876c6233488f99c053ac26" kind="property"><name>region</name></member>
@@ -39420,6 +39474,26 @@
     <member refid="classMR_1_1Const__WeightedVertex_1aebfe7c2b37a2d7d3a1385692ee7edb9a" kind="function"><name>__MR_WeightedVertex_Get_v</name></member>
     <member refid="classMR_1_1Const__WeightedVertex_1aeb5f929e14c6bb93e6f7a7a35390e0a7" kind="function"><name>__MR_WeightedVertex_Get_weight</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__WeightedVertexd" kind="class"><name>MR::Const_WeightedVertexd</name>
+    <member refid="classMR_1_1Const__WeightedVertexd_1af4e8fe7d3cd19b2baaf1bcd40eec4f6e" kind="property"><name>v</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a5587d445812b1e40a4dc0a8909154d0f" kind="property"><name>weight</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a24669c2756762532f0452ad8c432d66e" kind="variable"><name>__ref_storage_v</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a4823f76639511a90ec1bdc8cc6b4733b" kind="variable"><name>__ref_storage_weight</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a2b3559ee8d81f7a3fa777a65a485ac26" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a8916cfab0bb4f46e59ef61f9d6de8306" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a9635aec9341d0d26d70d666f2b271818" kind="function"><name>Const_WeightedVertexd</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1ae8b7e4a6cd28f6e63adf151eb394b906" kind="function"><name>Const_WeightedVertexd</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a8099389790c199979a3ebb45a362e5a5" kind="function"><name>Const_WeightedVertexd</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1ad1df163f5404400b065ca7bb65f9877d" kind="function"><name>Const_WeightedVertexd</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a1105a5b6faf1147bec6c6f85aa69825f" kind="function"><name>~Const_WeightedVertexd</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1ad1581b76b1c4d41d4193279c894d092f" kind="function"><name>Const_WeightedVertexd</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1af9279b778640411d38298a2f908f67a9" kind="function"><name>__MR_WeightedVertexd_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a201bdde098f89ed934625adb55c56f22" kind="function"><name>__MR_WeightedVertexd_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a0eb032fcc9cd8e8d5f1e2ffb6e7ac852" kind="function"><name>__MR_WeightedVertexd_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1ada3468d6462a58a1f11becd74485b0d2" kind="function"><name>__MR_WeightedVertexd_Destroy</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1a1d0a4c8c2194edb4e5cb9ef4a996fddb" kind="function"><name>__MR_WeightedVertexd_Get_v</name></member>
+    <member refid="classMR_1_1Const__WeightedVertexd_1ae71b05e0505f193da65a1ef697c93d49" kind="function"><name>__MR_WeightedVertexd_Get_weight</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__WholeEdgeBMap" kind="class"><name>MR::Const_WholeEdgeBMap</name>
     <member refid="classMR_1_1Const__WholeEdgeBMap_1a9f6cf80173b4419953c5e9d4f343bcca" kind="property"><name>b</name></member>
     <member refid="classMR_1_1Const__WholeEdgeBMap_1a7ed6e203af84fa6f92fac69e631cfeac" kind="property"><name>tsize</name></member>
@@ -51200,6 +51274,29 @@
     <member refid="classMR_1_1MeshTriPoint_1aee455857bbda77e1756d2f667ee2079e" kind="function"><name>__MR_MeshTriPoint_DefaultConstruct</name></member>
     <member refid="classMR_1_1MeshTriPoint_1a0e3b3c6d8ee49ddfe03522edbabdfff6" kind="function"><name>__MR_MeshTriPoint_GetMutable_bary</name></member>
   </compound>
+  <compound refid="classMR_1_1MeshTriPointd" kind="class"><name>MR::MeshTriPointd</name>
+    <member refid="classMR_1_1MeshTriPointd_1a119c2fa1a7164312cbfe56e22bfc5bd7" kind="property"><name>e</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a8301059beaeeff86c26852e05e5bb8a0" kind="property"><name>bary</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a75ba1a820a3c6e5c180fe2bc837f1bc8" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1afef468db61622e0b892d376168f71e25" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1ac0530420d9d79a3ba8b670111a0722fa" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a5d53e4df1ee2ddf5c436422b46bed69f" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1aba8449b3330204e4a95e3ce28e8d6e45" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a3dc904cb3672bfd33ad90a97d76741e4" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a3a147df98447e8413cea038fff1a3721" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1af3cbc9623e5aa51cafe910eabb3a1c34" kind="function"><name>MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1afe637dc5a3087453fcf3eaa271bc636d" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a940296e0ca7888e2568d4ab6c660afc9" kind="function"><name>operator MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1ac71241b0e8133002a76e6a94fd76c0b5" kind="function"><name>operator MeshTriPointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a61272c9b71dcecde06adaff4f675c03f" kind="function"><name>__MR_MeshTriPointd_AssignFromAnother</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a60b72055dcf11116634e9c4b4dbb457c" kind="function"><name>__MR_MeshTriPointd_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a367d1d17dff06c67b37969d9d1c04cf7" kind="function"><name>__MR_MeshTriPointd_Construct_1_MR_EdgePointd</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a8ffb43860707d86032cf3953669d705a" kind="function"><name>__MR_MeshTriPointd_Construct_1_MR_NoInit</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a5047b414d8d2970b259f8d606d88ab04" kind="function"><name>__MR_MeshTriPointd_Construct_2_MR_EdgeId</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1ab37d02ab30369c62b9ad0e3d89dd8d62" kind="function"><name>__MR_MeshTriPointd_Construct_2_MR_MeshTopology</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1ad8b61d4be40076907e852ae72809f1fc" kind="function"><name>__MR_MeshTriPointd_DefaultConstruct</name></member>
+    <member refid="classMR_1_1MeshTriPointd_1a291ed79f82aaf1ecb82fbbc5b0d13329" kind="function"><name>__MR_MeshTriPointd_GetMutable_bary</name></member>
+  </compound>
   <compound refid="classMR_1_1MeshVertPart" kind="class"><name>MR::MeshVertPart</name>
     <member refid="classMR_1_1MeshVertPart_1aac084d72573cae7061247013c0ac8dbf" kind="property"><name>region</name></member>
     <member refid="classMR_1_1MeshVertPart_1a85c1a1c5bc077aae9baae0c25fbe8876" kind="function"><name>MeshVertPart</name></member>
@@ -52138,6 +52235,7 @@
     <member refid="classMR_1a74cae6c4fcf29296f59d360fb31bf0dc" kind="function"><name>edgePathToContour3f</name></member>
     <member refid="classMR_1a3affce5365732394bfd1e7aa026a84a5" kind="function"><name>edgePathsToContours3f</name></member>
     <member refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kind="function"><name>same</name></member>
+    <member refid="classMR_1aa35bae920fd7d141c12e52111ce599cd" kind="function"><name>same</name></member>
     <member refid="classMR_1a3e60756545213ad61b23ebfde6ce0a5c" kind="function"><name>embedStructureToTerrain</name></member>
     <member refid="classMR_1a55598251e2bb218106dafd54300db510" kind="function"><name>computeSpaceDistances</name></member>
     <member refid="classMR_1a64d627e6d2681808ead70f8b32a15afd" kind="function"><name>findNeighborVerts</name></member>
@@ -52577,8 +52675,11 @@
     <member refid="classMR_1a103de4fbb47232ed417ee551b883b7c2" kind="function"><name>subdivideWithPlane</name></member>
     <member refid="classMR_1a6d27e0e8e30c6b9ec13029e9dcf4b289" kind="function"><name>trimWithPlane</name></member>
     <member refid="classMR_1a4f48c0f5cfa1a838b1857f3aa5d421d1" kind="function"><name>same</name></member>
+    <member refid="classMR_1a84fee0f0269737a81785ae059ffaa014" kind="function"><name>same</name></member>
     <member refid="classMR_1a12dbb182e1a977dba7fc0b5c948ae83d" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="classMR_1a7efef39c447afd6bb658dd6e348346a4" kind="function"><name>fromSameTriangle</name></member>
     <member refid="classMR_1aa688cfa70f5974944c15be6578715ced" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="classMR_1a9d8af032dfa9778b038e482654fc1d11" kind="function"><name>fromSameTriangle</name></member>
     <member refid="classMR_1af4819d62fdf57e6005ca5d7a17d3cb40" kind="function"><name>getVertexAsMeshTriPoint</name></member>
     <member refid="classMR_1a0bfac490bed9af37383a4378eef3c578" kind="function"><name>makeMovementBuildBody</name></member>
     <member refid="classMR_1a6027b8b74f4ebeecd72a953db5f82337" kind="function"><name>updateGroupPairs</name></member>
@@ -53969,9 +54070,12 @@
     <member refid="classMR_1ac406b619e7ccc09c4c6941ad9912b769" kind="function"><name>__MR_sortPathsByLength</name></member>
     <member refid="classMR_1a8d7f12e6fc1382956a8e1157d90cb180" kind="function"><name>__MR_sortPathsByMetric</name></member>
     <member refid="classMR_1a891343271684c1a9874fcff42768a872" kind="function"><name>__MR_splitOnSimpleLoops</name></member>
-    <member refid="classMR_1ae75ccb0f5fe9fc95b5f8101edf677fb9" kind="function"><name>__MR_fromSameTriangle_MR_EdgePoint_ref</name></member>
-    <member refid="classMR_1a37961b6e7beac7536475c24e691e198f" kind="function"><name>__MR_fromSameTriangle_MR_EdgePoint_rvalue_ref</name></member>
-    <member refid="classMR_1ab9131b0ff5d310815db29372088d384e" kind="function"><name>__MR_same_MR_EdgePoint</name></member>
+    <member refid="classMR_1a04fd4ca4cc5d869fe2570f4ff94505b4" kind="function"><name>__MR_fromSameTriangle_double_MR_EdgePointd_ref</name></member>
+    <member refid="classMR_1a8e10843836403f87136ef0aa9cd68ace" kind="function"><name>__MR_fromSameTriangle_double_MR_EdgePointd_rvalue_ref</name></member>
+    <member refid="classMR_1a996727ccdb9f39155ea29d31399f082c" kind="function"><name>__MR_fromSameTriangle_float_MR_EdgePoint_ref</name></member>
+    <member refid="classMR_1adff0af3a6e7b93281168cae39d123c15" kind="function"><name>__MR_fromSameTriangle_float_MR_EdgePoint_rvalue_ref</name></member>
+    <member refid="classMR_1a7e07d9209ec13865b678c4c0777d97c5" kind="function"><name>__MR_same_double_MR_EdgePointd</name></member>
+    <member refid="classMR_1a820206a6dfb4aafe0250870dcf31e65c" kind="function"><name>__MR_same_float_MR_EdgePoint</name></member>
     <member refid="classMR_1a97c38c1f32d7363f61868f4a28a629cd" kind="function"><name>__MR_embedStructureToTerrain</name></member>
     <member refid="classMR_1a67d387bc6434950fa183d4fcdbf4d190" kind="function"><name>__MR_computeSpaceDistances</name></member>
     <member refid="classMR_1a9cbeded57f795ed035d0d07b81458090" kind="function"><name>__MR_findNeighborVerts</name></member>
@@ -54410,10 +54514,13 @@
     <member refid="classMR_1aee5cacda638c41535764ba4a0b3a8d98" kind="function"><name>__MR_reduceTotalAngleInMesh</name></member>
     <member refid="classMR_1ac147d5e4c6a2b09f24cb151ca7b83598" kind="function"><name>__MR_subdivideWithPlane_5</name></member>
     <member refid="classMR_1a6640d27458af0e2270865c35f461f994" kind="function"><name>__MR_trimWithPlane_MR_Mesh</name></member>
-    <member refid="classMR_1af94e9d6724b4ee8b182a401515d17120" kind="function"><name>__MR_fromSameTriangle_MR_MeshTriPoint_ref</name></member>
-    <member refid="classMR_1a65730a1477390eead2b782048ef9b3c4" kind="function"><name>__MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</name></member>
+    <member refid="classMR_1a5a13dfb3de39873243d2ff7ff38012ac" kind="function"><name>__MR_fromSameTriangle_double_MR_MeshTriPointd_ref</name></member>
+    <member refid="classMR_1a30e95117dc62924bd2df7506fcc5cd85" kind="function"><name>__MR_fromSameTriangle_double_MR_MeshTriPointd_rvalue_ref</name></member>
+    <member refid="classMR_1a937f0971ca9e976dffcbb49e4d7bbbc6" kind="function"><name>__MR_fromSameTriangle_float_MR_MeshTriPoint_ref</name></member>
+    <member refid="classMR_1af922de8c6604659cfcb8b34b97dbfed1" kind="function"><name>__MR_fromSameTriangle_float_MR_MeshTriPoint_rvalue_ref</name></member>
     <member refid="classMR_1ad82b53b6af4fd7bfe7f771a9be4c3df7" kind="function"><name>__MR_getVertexAsMeshTriPoint</name></member>
-    <member refid="classMR_1a947304442f34cd303e63e512669e141c" kind="function"><name>__MR_same_MR_MeshTriPoint</name></member>
+    <member refid="classMR_1ab8b46a3a2e531960dce7029553ccfc39" kind="function"><name>__MR_same_double_MR_MeshTriPointd</name></member>
+    <member refid="classMR_1a1dd9cea6625bbb63a91f2f68b276577f" kind="function"><name>__MR_same_float_MR_MeshTriPoint</name></member>
     <member refid="classMR_1aadd371dec79c5743dee585e3dd965c87" kind="function"><name>__MR_makeMovementBuildBody</name></member>
     <member refid="classMR_1acbc3c29e38aa3af915919b76af40783d" kind="function"><name>__MR_updateGroupPairs</name></member>
     <member refid="classMR_1a214c5ad0b76055316670ac7bf68dd1b1" kind="function"><name>__MR_denoiseNormals_5</name></member>
@@ -55449,7 +55556,9 @@
     <member refid="classMR_1a80154cbda286925e89058648585b1d7c" kind="function"><name>__MR_saveObjectVoxelsToFile</name></member>
     <member refid="classMR_1a8a1e3334fe55087864dcde18dea56ce7" kind="function"><name>__MR_functionVolumeToSimpleVolume</name></member>
     <member refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="classMR_1a5c6d177e3cac9e0e0bab9b8c83d99fca" kind="function"><name>fromSameTriangle</name></member>
     <member refid="classMR_1a850a2064fa3c92e73ff78e630eb2b642" kind="function"><name>fromSameTriangle</name></member>
+    <member refid="classMR_1a9f963ccae761f7f43b1582f56897f852" kind="function"><name>fromSameTriangle</name></member>
   </compound>
   <compound refid="classMR_1_1MultiMeshIntersectionResult" kind="class"><name>MR::MultiMeshIntersectionResult</name>
     <member refid="classMR_1_1MultiMeshIntersectionResult_1ac572d4ac53a18a8d702c367369f1e72a" kind="property"><name>mesh</name></member>
@@ -70530,6 +70639,20 @@
     <member refid="classMR_1_1WeightedVertex_1ada9e8b8edd610fdb1c86ce7b2f121002" kind="function"><name>__MR_WeightedVertex_ConstructFrom</name></member>
     <member refid="classMR_1_1WeightedVertex_1a95f5cd436a6c5ef5dafb5e3133777d28" kind="function"><name>__MR_WeightedVertex_ConstructFromAnother</name></member>
     <member refid="classMR_1_1WeightedVertex_1af009d390d17d64704b104b5b74b0723a" kind="function"><name>__MR_WeightedVertex_DefaultConstruct</name></member>
+  </compound>
+  <compound refid="classMR_1_1WeightedVertexd" kind="class"><name>MR::WeightedVertexd</name>
+    <member refid="classMR_1_1WeightedVertexd_1a1bd8705749131c302b6dad25ae3a5a58" kind="property"><name>v</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1a6eb3667cc7cdb1926aec25610d9a8e15" kind="property"><name>weight</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1afba9592dfc1c07838fc6d0888ec6babb" kind="function"><name>WeightedVertexd</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1a11c7921342a8b5d255d7e08188d7d289" kind="function"><name>WeightedVertexd</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1ad065f88ee118aab64b6995922ad02b8e" kind="function"><name>WeightedVertexd</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1a6a738221621f32e66f13a8bf637e96a6" kind="function"><name>WeightedVertexd</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1aa6085973c18336b4963f77fad5508338" kind="function"><name>WeightedVertexd</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1af7c418be2a280754ef085fe2208c4203" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1a474a21f29fd5b4b1231fb56c693e89cf" kind="function"><name>__MR_WeightedVertexd_AssignFromAnother</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1af28936191dc390bf4e4277b90aad7aaf" kind="function"><name>__MR_WeightedVertexd_ConstructFrom</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1a0c07e8d813f206c6d013f8b99a079a56" kind="function"><name>__MR_WeightedVertexd_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1WeightedVertexd_1a8195dc327729ddcd84815f4a4fa4e050" kind="function"><name>__MR_WeightedVertexd_DefaultConstruct</name></member>
   </compound>
   <compound refid="classMR_1_1WholeEdgeBMap" kind="class"><name>MR::WholeEdgeBMap</name>
     <member refid="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" kind="property"><name>b</name></member>

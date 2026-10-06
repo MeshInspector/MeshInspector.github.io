@@ -1,5 +1,10 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html":[9,0,2,0,2,7,10,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a17831741c05ccdf8eb71b79f1239dd82":[9,0,1,0,1,16,10,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a17831741c05ccdf8eb71b79f1239dd82":[9,0,2,0,2,7,10,1,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a23c806d42e41fad352f5eb6862a3505a":[9,0,1,0,1,16,10,1,3],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a23c806d42e41fad352f5eb6862a3505a":[9,0,2,0,2,7,10,1,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a5ed27f2a108a9b941bb2672a552ec6":[9,0,1,0,1,16,10,1,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a5ed27f2a108a9b941bb2672a552ec6":[9,0,2,0,2,7,10,1,5],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a2a82331b336fe5a2fc8e7f5a209c07e1":[9,0,1,0,1,16,10,1,6],
@@ -244,10 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Mcp_1_1Server_1_1Params.html#aed25300f1cd5c8f887d17e5f49656d51":[9,0,2,0,2,10,1,0,0],
 "structMR_1_1MenuItemCaptionSize.html":[9,0,0,20,701],
 "structMR_1_1MenuItemInfo.html":[9,0,0,20,703],
-"structMR_1_1MenuItemShortcut.html":[9,0,0,20,702],
-"structMR_1_1MergeVolumePartSettings.html":[9,0,0,17,4],
-"structMR_1_1MergeVolumePartSettings.html":[9,0,0,20,912],
-"structMR_1_1Mesh.html":[9,0,0,7,1],
-"structMR_1_1Mesh.html#a017bf9ba11329c4596f14d33cbc8a654":[9,0,0,7,1,93],
-"structMR_1_1Mesh.html#a029d8d453e90f13a14ae22b25a71db47":[9,0,0,7,1,27]
+"structMR_1_1MenuItemShortcut.html":[9,0,0,20,702]
 };

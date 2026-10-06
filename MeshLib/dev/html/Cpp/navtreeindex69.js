@@ -1,5 +1,10 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1SymMatrix2.html":[9,0,0,0,7,4],
+"structMR_1_1SymMatrix2.html":[9,0,0,20,510],
+"structMR_1_1SymMatrix3.html":[9,0,0,0,7,5],
+"structMR_1_1SymMatrix3.html":[9,0,0,20,511],
+"structMR_1_1SymMatrix4.html":[9,0,0,0,7,6],
 "structMR_1_1SymMatrix4.html":[9,0,0,20,512],
 "structMR_1_1SymbolMeshParams.html":[9,0,0,20,567],
 "structMR_1_1SystemMemory.html":[9,0,0,20,513],
@@ -244,10 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[9,0,0,1,13,1],
 "structMR_1_1UniformSamplingSettings.html":[9,0,0,20,528],
 "structMR_1_1UniquePtr.html":[9,0,0,20,531],
-"structMR_1_1UnitInfo.html":[9,0,0,20,535],
-"structMR_1_1UnitToStringParams.html":[9,0,0,20,780],
-"structMR_1_1UniteManyMeshesParams.html":[9,0,0,20,533],
-"structMR_1_1UniteMeshNormalizationParams.html":[9,0,0,20,534],
-"structMR_1_1UnorientedTriangle.html":[9,0,0,20,536],
-"structMR_1_1VacantElements.html":[9,0,0,20,375]
+"structMR_1_1UnitInfo.html":[9,0,0,20,535]
 };

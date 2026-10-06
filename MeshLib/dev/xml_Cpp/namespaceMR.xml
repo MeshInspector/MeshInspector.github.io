@@ -406,7 +406,7 @@
     <innerclass refid="classMR_1_1MeshTopology" prot="public">MR::MeshTopology</innerclass>
     <innerclass refid="classMR_1_1MeshTopologyDiff" prot="public">MR::MeshTopologyDiff</innerclass>
     <innerclass refid="structMR_1_1MeshToVolumeParams" prot="public">MR::MeshToVolumeParams</innerclass>
-    <innerclass refid="structMR_1_1MeshTriPoint" prot="public">MR::MeshTriPoint</innerclass>
+    <innerclass refid="structMR_1_1MeshTriPointT" prot="public">MR::MeshTriPointT</innerclass>
     <innerclass refid="structMR_1_1MeshVoxelsConverter" prot="public">MR::MeshVoxelsConverter</innerclass>
     <innerclass refid="structMR_1_1MetricToAStarPenalty" prot="public">MR::MetricToAStarPenalty</innerclass>
     <innerclass refid="structMR_1_1MinArg" prot="public">MR::MinArg</innerclass>
@@ -862,7 +862,7 @@
     <innerclass refid="structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4" prot="public">MR::VoxelTraits&lt; VoxelValueGetter&lt; T &gt; &gt;</innerclass>
     <innerclass refid="classMR_1_1WatershedGraph" prot="public">MR::WatershedGraph</innerclass>
     <innerclass refid="classMR_1_1WebRequest" prot="public">MR::WebRequest</innerclass>
-    <innerclass refid="structMR_1_1WeightedVertex" prot="public">MR::WeightedVertex</innerclass>
+    <innerclass refid="structMR_1_1WeightedVertexT" prot="public">MR::WeightedVertexT</innerclass>
     <innerclass refid="structMR_1_1Writer" prot="public">MR::Writer</innerclass>
     <innerclass refid="structMR_1_1WriteRawTiffParams" prot="public">MR::WriteRawTiffParams</innerclass>
     <innerclass refid="classMR_1_1XfBasedCache" prot="public">MR::XfBasedCache</innerclass>
@@ -1350,12 +1350,6 @@
       <member refid="group__GeneralGroup_1gaff9e2bc787d384454aed9377473bfdc3" kind="function"><name>outer</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
-      <member refid="group__GeneralGroup_1ga4c5344758f4daed07c548746957f795d" kind="function"><name>same</name></member>
-      <member refid="group__GeneralGroup_1ga6421ee7a169962d806d9288a85019fff" kind="function"><name>fromSameTriangle</name></member>
-      <member refid="group__GeneralGroup_1ga5b4701e6cc60a8b3a60545055a0f0ad2" kind="function"><name>fromSameTriangle</name></member>
-      <member refid="group__GeneralGroup_1gaacaa9b179d37a2b7448d4174d9026d02" kind="function"><name>getVertexAsMeshTriPoint</name></member>
-    </sectiondef>
-    <sectiondef kind="user-defined">
       <member refid="group__GeneralGroup_1gab78bbcb21e57f07de12885121b3e2177" kind="function"><name>invTransformed</name></member>
       <member refid="group__GeneralGroup_1ga38c8491b1563ae8fbbfe5666645cecc5" kind="function"><name>transformed</name></member>
     </sectiondef>
@@ -1803,6 +1797,9 @@
       <member refid="group__GeneralGroup_1ga9905362191a698597df6dca4bd2cc53b" kind="typedef"><name>Triangle3d</name></member>
       <member refid="group__GeneralGroup_1ga1931367f34dc44e777731c77a6840237" kind="typedef"><name>EdgeSegmentf</name></member>
       <member refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kind="typedef"><name>MeshEdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga252bcd65d63cc4565357a77c71496984" kind="typedef"><name>MeshEdgePointT</name></member>
+      <member refid="group__GeneralGroup_1ga1c3200908153553a41d609577fde3f5d" kind="typedef"><name>MeshEdgePointf</name></member>
+      <member refid="group__GeneralGroup_1gaab5ca49a331271fb2d5473870878ece1" kind="typedef"><name>MeshEdgePointd</name></member>
       <member refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kind="typedef"><name>SurfacePath</name></member>
       <member refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kind="typedef"><name>SurfacePaths</name></member>
       <member refid="group__GeneralGroup_1ga6e262af332519e310390cebc4a585090" kind="typedef"><name>IsoLine</name></member>
@@ -2029,6 +2026,10 @@
       <member refid="group__GeneralGroup_1ga0df3fa5d7fd5a0e498e9e7c656c0dedf" kind="variable"><name>EdgeSegment</name></member>
       <member refid="group__GeneralGroup_1gab4b475d1cfb4a2c8cdef119f5570a9d6" kind="variable"><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kind="variable"><name>TriPointf</name></member>
+      <member refid="group__GeneralGroup_1gac63db67c119d66b228c92840c6395214" kind="variable"><name>MeshTriPointT</name></member>
+      <member refid="group__GeneralGroup_1ga385347c747ccdacb9d225088205f6dab" kind="variable"><name>MeshTriPoint</name></member>
+      <member refid="group__GeneralGroup_1ga1b6eaab878e011b609b556f10ce4e7d5" kind="variable"><name>WeightedVertexT</name></member>
+      <member refid="group__GeneralGroup_1ga00f8fdc0cbbc74e9d3b0a0b79023f922" kind="variable"><name>WeightedVertex</name></member>
       <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
       <member refid="group__GeneralGroup_1gad18d27e1aa8c9210d5b1086a3615644e" kind="variable"><name>Hash</name></member>
       <member refid="group__GeneralGroup_1ga328a03eeb36433aa99e9d41822a84272" kind="variable"><name>Eq</name></member>
@@ -2339,7 +2340,7 @@
       <member refid="group__GeneralGroup_1ga19b191245b05d1121109cd26f5ca30d2" kind="function"><name>operator==</name></member>
       <member refid="group__GeneralGroup_1gae22c2e220dc580608b0c17c7358f4b29" kind="function"><name>operator!=</name></member>
       <member refid="group__GeneralGroup_1ga6de91a42354f4257ba3081c18a497828" kind="function"><name>undirectedEdges</name></member>
-      <member refid="group__GeneralGroup_1ga8e206529d8c003b0ea8ab3b6bb80f0f7" kind="function"><name>same</name></member>
+      <member refid="group__GeneralGroup_1ga3b15caf456e5957f1d1a548142e66641" kind="function"><name>same</name></member>
       <member refid="group__GeneralGroup_1ga69cec6f928a8d5e51752ad80d4b57a6b" kind="function"><name>embedStructureToTerrain</name></member>
       <member refid="group__GeneralGroup_1ga574f1f2f571db84f8b2338212fc11745" kind="function"><name>serializeToJson</name></member>
       <member refid="group__GeneralGroup_1ga9d3e2e70f92ff142b799e7d581e9d329" kind="function"><name>serializeToJson</name></member>
@@ -2693,6 +2694,8 @@
       <member refid="group__GeneralGroup_1ga1a7a521c17a2e95c2f6e94c3199cd135" kind="function"><name>EdgePointT&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1ga07e9e4fd9071c2935508179121960b6d" kind="function"><name>EdgeSegmentT&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1gac9eac519634b1a5b87faff78b7e2eefa" kind="function"><name>MeshTriPointT&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga8af0745aff8f8e5091fd2088e16165d8" kind="function"><name>WeightedVertexT&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
       <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga937386adcc94bddd2ad6e08e67913e56" kind="function"><name>Vector&lt; Dipole, NodeId &gt;</name></member>

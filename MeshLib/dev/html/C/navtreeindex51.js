@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"MRLoadedObjects_8h.html#a662b7bd8c04d181427320636668b9eaa":[9,2,2,0,0,0,0,1,152,2],
 "MRLoadedObjects_8h.html#a66545ae3c29e18a2a4db1548f4f1f423":[9,2,2,0,0,0,0,1,152,25],
 "MRLoadedObjects_8h.html#a6660822f835d878717b151a860d6ddd9":[9,2,2,0,0,0,0,1,152,3],
 "MRLoadedObjects_8h.html#a6a3371bbd53ef2650f672594a9f9cae9":[9,2,2,0,0,0,0,1,152,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "MRMapOrHashMap_8h.html#a4dcc8ee3381609dda4eb4f8de7c5c68e":[9,2,2,0,0,0,0,1,158,101],
 "MRMapOrHashMap_8h.html#a4ecd3bcd238deb9c8f60f3e501160ec1":[9,2,2,0,0,0,0,1,158,36],
 "MRMapOrHashMap_8h.html#a4ff5e636b54fa2f70667f115897bde4f":[9,2,2,0,0,0,0,1,158,49],
-"MRMapOrHashMap_8h.html#a51baa34149cb682e4566c648e45c8bf2":[9,2,2,0,0,0,0,1,158,24],
-"MRMapOrHashMap_8h.html#a52acaf6149d6d537f3f01fcef04db808":[9,2,2,0,0,0,0,1,158,50]
+"MRMapOrHashMap_8h.html#a51baa34149cb682e4566c648e45c8bf2":[9,2,2,0,0,0,0,1,158,24]
 };

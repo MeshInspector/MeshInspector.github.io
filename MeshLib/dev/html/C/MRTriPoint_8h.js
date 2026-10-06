@@ -1,6 +1,5 @@
 var MRTriPoint_8h =
 [
-    [ "MR_TriPointd", "MRTriPoint_8h.html#a17289bf57bcb0037619be07245ff0c78", null ],
     [ "MR_equal_MR_TriPointd", "MRTriPoint_8h.html#a1ea5e8a7ea858db42b9f376b7d49637e", null ],
     [ "MR_equal_MR_TriPointf", "MRTriPoint_8h.html#aa08f569c94b6abcd4a7c79204adef811", null ],
     [ "MR_input_MR_TriPointd", "MRTriPoint_8h.html#a943a6780bdf04e469bb34da549383455", null ],

@@ -621,6 +621,7 @@
     <innerclass refid="classMR_1_1Const__MeshTopologyDiff" prot="public">MR::Const_MeshTopologyDiff</innerclass>
     <innerclass refid="classMR_1_1Const__MeshToVolumeParams" prot="public">MR::Const_MeshToVolumeParams</innerclass>
     <innerclass refid="classMR_1_1Const__MeshTriPoint" prot="public">MR::Const_MeshTriPoint</innerclass>
+    <innerclass refid="classMR_1_1Const__MeshTriPointd" prot="public">MR::Const_MeshTriPointd</innerclass>
     <innerclass refid="classMR_1_1Const__MeshVertPart" prot="public">MR::Const_MeshVertPart</innerclass>
     <innerclass refid="classMR_1_1Const__MeshVoxelsConverter" prot="public">MR::Const_MeshVoxelsConverter</innerclass>
     <innerclass refid="classMR_1_1Const__MetricToAStarPenalty" prot="public">MR::Const_MetricToAStarPenalty</innerclass>
@@ -1043,6 +1044,7 @@
     <innerclass refid="classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef" prot="public">MR::Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef</innerclass>
     <innerclass refid="classMR_1_1Const__WatershedGraph" prot="public">MR::Const_WatershedGraph</innerclass>
     <innerclass refid="classMR_1_1Const__WeightedVertex" prot="public">MR::Const_WeightedVertex</innerclass>
+    <innerclass refid="classMR_1_1Const__WeightedVertexd" prot="public">MR::Const_WeightedVertexd</innerclass>
     <innerclass refid="classMR_1_1Const__WholeEdgeBMap" prot="public">MR::Const_WholeEdgeBMap</innerclass>
     <innerclass refid="classMR_1_1Const__WholeEdgeMap" prot="public">MR::Const_WholeEdgeMap</innerclass>
     <innerclass refid="classMR_1_1Const__XfBasedCache__MRBox3f" prot="public">MR::Const_XfBasedCache_MRBox3f</innerclass>
@@ -1408,6 +1410,7 @@
     <innerclass refid="classMR_1_1MeshTopologyDiff" prot="public">MR::MeshTopologyDiff</innerclass>
     <innerclass refid="classMR_1_1MeshToVolumeParams" prot="public">MR::MeshToVolumeParams</innerclass>
     <innerclass refid="classMR_1_1MeshTriPoint" prot="public">MR::MeshTriPoint</innerclass>
+    <innerclass refid="classMR_1_1MeshTriPointd" prot="public">MR::MeshTriPointd</innerclass>
     <innerclass refid="classMR_1_1MeshVertPart" prot="public">MR::MeshVertPart</innerclass>
     <innerclass refid="classMR_1_1MeshVoxelsConverter" prot="public">MR::MeshVoxelsConverter</innerclass>
     <innerclass refid="classMR_1_1MetricToAStarPenalty" prot="public">MR::MetricToAStarPenalty</innerclass>
@@ -1870,6 +1873,7 @@
     <innerclass refid="classMR_1_1WatershedGraph" prot="public">MR::WatershedGraph</innerclass>
     <innerclass refid="classMR_1_1WeightedShell" prot="public">MR::WeightedShell</innerclass>
     <innerclass refid="classMR_1_1WeightedVertex" prot="public">MR::WeightedVertex</innerclass>
+    <innerclass refid="classMR_1_1WeightedVertexd" prot="public">MR::WeightedVertexd</innerclass>
     <innerclass refid="classMR_1_1WholeEdgeBMap" prot="public">MR::WholeEdgeBMap</innerclass>
     <innerclass refid="classMR_1_1WholeEdgeMap" prot="public">MR::WholeEdgeMap</innerclass>
     <innerclass refid="classMR_1_1XfBasedCache__MRBox3f" prot="public">MR::XfBasedCache_MRBox3f</innerclass>
@@ -14492,13 +14496,40 @@ input contours must be closed within the area of distance map and be consistentl
           <declname>rhs</declname>
         </param>
         <briefdescription>
-<para>returns true if two edge-points are equal considering different representations Generated from function <computeroutput><ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">MR.same</ref></computeroutput>. </para>
+<para>returns true if two edge-points are equal considering different representations Generated from function <computeroutput><ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">MR.same</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1941" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1941" bodyend="1944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1aa35bae920fd7d141c12e52111ce599cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.same</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_EdgePointd lhs, MR.Const_EdgePointd rhs)</argsstring>
+        <name>same</name>
+        <qualifiedname>MR.same</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePointd" kindref="compound">MR.Const_EdgePointd</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePointd" kindref="compound">MR.Const_EdgePointd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>returns true if two edge-points are equal considering different representations Generated from function <computeroutput><ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">MR.same</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1950" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1950" bodyend="1953"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3e60756545213ad61b23ebfde6ce0a5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -27807,13 +27838,40 @@ do not really keeps volume but tries hard </para>
           <declname>rhs</declname>
         </param>
         <briefdescription>
-<para>returns true if two points are equal considering different representations Generated from function <computeroutput><ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">MR.same</ref></computeroutput>. </para>
+<para>returns true if two points are equal considering different representations Generated from function <computeroutput><ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">MR.same</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="758" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="758" bodyend="761"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1509" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1509" bodyend="1512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a84fee0f0269737a81785ae059ffaa014" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.same</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Const_MeshTriPointd lhs, MR.Const_MeshTriPointd rhs)</argsstring>
+        <name>same</name>
+        <qualifiedname>MR.same</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPointd" kindref="compound">MR.Const_MeshTriPointd</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPointd" kindref="compound">MR.Const_MeshTriPointd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>returns true if two points are equal considering different representations Generated from function <computeroutput><ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">MR.same</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1518" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1518" bodyend="1521"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a12dbb182e1a977dba7fc0b5c948ae83d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -27834,13 +27892,40 @@ do not really keeps volume but tries hard </para>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref></computeroutput>. </para>
+<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="768" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="768" bodyend="771"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1528" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1528" bodyend="1531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7efef39c447afd6bb658dd6e348346a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.fromSameTriangle</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.MeshTriPointd a, MR.MeshTriPointd b)</argsstring>
+        <name>fromSameTriangle</name>
+        <qualifiedname>MR.fromSameTriangle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshTriPointd" kindref="compound">MR.MeshTriPointd</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshTriPointd" kindref="compound">MR.MeshTriPointd</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1538" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1538" bodyend="1541"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa688cfa70f5974944c15be6578715ced" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -27861,13 +27946,40 @@ do not really keeps volume but tries hard </para>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref></computeroutput>. </para>
+<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="778" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="778" bodyend="781"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1548" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1548" bodyend="1551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9d8af032dfa9778b038e482654fc1d11" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.fromSameTriangle</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Misc._Moved&lt; MR.MeshTriPointd &gt; a, MR.Misc._Moved&lt; MR.MeshTriPointd &gt; b)</argsstring>
+        <name>fromSameTriangle</name>
+        <qualifiedname>MR.fromSameTriangle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshTriPointd" kindref="compound">MR.MeshTriPointd</ref> &gt;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1MeshTriPointd" kindref="compound">MR.MeshTriPointd</ref> &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if points a and b are located insides or on a boundary of the same triangle; if true a.e and b.e are updated to have that triangle on the left Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1558" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1558" bodyend="1561"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af4819d62fdf57e6005ca5d7a17d3cb40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -27888,13 +28000,13 @@ do not really keeps volume but tries hard </para>
           <declname>v</declname>
         </param>
         <briefdescription>
-<para>returns <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> representation of given vertex with given edge field; or invalid <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> if it is not possible Generated from function <computeroutput><ref refid="classMR_1af4819d62fdf57e6005ca5d7a17d3cb40" kindref="member">MR.getVertexAsMeshTriPoint</ref></computeroutput>. </para>
+<para>returns <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> representation of given vertex with given edge field; or invalid <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> if it is not possible Generated from function <computeroutput><ref refid="classMR_1af4819d62fdf57e6005ca5d7a17d3cb40" kindref="member">MR.getVertexAsMeshTriPoint</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="787" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="787" bodyend="790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1567" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="1567" bodyend="1570"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0bfac490bed9af37383a4378eef3c578" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -63264,12 +63376,64 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePaths.cs" line="851" column="67"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ae75ccb0f5fe9fc95b5f8101edf677fb9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a04fd4ca4cc5d869fe2570f4ff94505b4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_fromSameTriangle_MR_EdgePoint_ref</definition>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_double_MR_EdgePointd_ref</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.EdgePointd._Underlying *a, MR.EdgePointd._Underlying *b)</argsstring>
+        <name>__MR_fromSameTriangle_double_MR_EdgePointd_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_double_MR_EdgePointd_ref</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.EdgePointd._Underlying *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>MR.EdgePointd._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="2002" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8e10843836403f87136ef0aa9cd68ace" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_double_MR_EdgePointd_rvalue_ref</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.EdgePointd._Underlying *a, MR.EdgePointd._Underlying *b)</argsstring>
+        <name>__MR_fromSameTriangle_double_MR_EdgePointd_rvalue_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_double_MR_EdgePointd_rvalue_ref</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.EdgePointd._Underlying *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>MR.EdgePointd._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="2005" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a996727ccdb9f39155ea29d31399f082c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_float_MR_EdgePoint_ref</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.EdgePoint._Underlying *a, MR.EdgePoint._Underlying *b)</argsstring>
-        <name>__MR_fromSameTriangle_MR_EdgePoint_ref</name>
-        <qualifiedname>MR.__MR_fromSameTriangle_MR_EdgePoint_ref</qualifiedname>
+        <name>__MR_fromSameTriangle_float_MR_EdgePoint_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_float_MR_EdgePoint_ref</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -63288,14 +63452,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1971" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="2008" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a37961b6e7beac7536475c24e691e198f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1adff0af3a6e7b93281168cae39d123c15" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_fromSameTriangle_MR_EdgePoint_rvalue_ref</definition>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_float_MR_EdgePoint_rvalue_ref</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.EdgePoint._Underlying *a, MR.EdgePoint._Underlying *b)</argsstring>
-        <name>__MR_fromSameTriangle_MR_EdgePoint_rvalue_ref</name>
-        <qualifiedname>MR.__MR_fromSameTriangle_MR_EdgePoint_rvalue_ref</qualifiedname>
+        <name>__MR_fromSameTriangle_float_MR_EdgePoint_rvalue_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_float_MR_EdgePoint_rvalue_ref</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -63314,14 +63478,40 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1974" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="2011" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ab9131b0ff5d310815db29372088d384e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a7e07d9209ec13865b678c4c0777d97c5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_same_MR_EdgePoint</definition>
+        <definition>static unsafe byte MR.__MR_same_double_MR_EdgePointd</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_EdgePointd._Underlying *lhs, MR.Const_EdgePointd._Underlying *rhs)</argsstring>
+        <name>__MR_same_double_MR_EdgePointd</name>
+        <qualifiedname>MR.__MR_same_double_MR_EdgePointd</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_EdgePointd._Underlying *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>MR.Const_EdgePointd._Underlying *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="2014" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a820206a6dfb4aafe0250870dcf31e65c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_same_float_MR_EdgePoint</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_EdgePoint._Underlying *lhs, MR.Const_EdgePoint._Underlying *rhs)</argsstring>
-        <name>__MR_same_MR_EdgePoint</name>
-        <qualifiedname>MR.__MR_same_MR_EdgePoint</qualifiedname>
+        <name>__MR_same_float_MR_EdgePoint</name>
+        <qualifiedname>MR.__MR_same_float_MR_EdgePoint</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -63340,7 +63530,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1977" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="2017" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a97c38c1f32d7363f61868f4a28a629cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -74626,22 +74816,22 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTrimWithPlane.cs" line="755" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1af94e9d6724b4ee8b182a401515d17120" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a5a13dfb3de39873243d2ff7ff38012ac" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_fromSameTriangle_MR_MeshTriPoint_ref</definition>
-        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.MeshTriPoint._Underlying *a, MR.MeshTriPoint._Underlying *b)</argsstring>
-        <name>__MR_fromSameTriangle_MR_MeshTriPoint_ref</name>
-        <qualifiedname>MR.__MR_fromSameTriangle_MR_MeshTriPoint_ref</qualifiedname>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_double_MR_MeshTriPointd_ref</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.MeshTriPointd._Underlying *a, MR.MeshTriPointd._Underlying *b)</argsstring>
+        <name>__MR_fromSameTriangle_double_MR_MeshTriPointd_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_double_MR_MeshTriPointd_ref</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.MeshTriPoint._Underlying *</type>
+          <type>MR.MeshTriPointd._Underlying *</type>
           <declname>a</declname>
         </param>
         <param>
-          <type>MR.MeshTriPoint._Underlying *</type>
+          <type>MR.MeshTriPointd._Underlying *</type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -74650,14 +74840,40 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="795" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1575" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a65730a1477390eead2b782048ef9b3c4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a30e95117dc62924bd2df7506fcc5cd85" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</definition>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_double_MR_MeshTriPointd_rvalue_ref</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.MeshTriPointd._Underlying *a, MR.MeshTriPointd._Underlying *b)</argsstring>
+        <name>__MR_fromSameTriangle_double_MR_MeshTriPointd_rvalue_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_double_MR_MeshTriPointd_rvalue_ref</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.MeshTriPointd._Underlying *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>MR.MeshTriPointd._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1578" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a937f0971ca9e976dffcbb49e4d7bbbc6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_float_MR_MeshTriPoint_ref</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.MeshTriPoint._Underlying *a, MR.MeshTriPoint._Underlying *b)</argsstring>
-        <name>__MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</name>
-        <qualifiedname>MR.__MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</qualifiedname>
+        <name>__MR_fromSameTriangle_float_MR_MeshTriPoint_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_float_MR_MeshTriPoint_ref</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -74676,7 +74892,33 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="798" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1581" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1af922de8c6604659cfcb8b34b97dbfed1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_fromSameTriangle_float_MR_MeshTriPoint_rvalue_ref</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.MeshTriPoint._Underlying *a, MR.MeshTriPoint._Underlying *b)</argsstring>
+        <name>__MR_fromSameTriangle_float_MR_MeshTriPoint_rvalue_ref</name>
+        <qualifiedname>MR.__MR_fromSameTriangle_float_MR_MeshTriPoint_rvalue_ref</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.MeshTriPoint._Underlying *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>MR.MeshTriPoint._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1584" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad82b53b6af4fd7bfe7f771a9be4c3df7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.MeshTriPoint._Underlying *</type>
@@ -74702,14 +74944,40 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="801" column="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1587" column="52"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a947304442f34cd303e63e512669e141c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ab8b46a3a2e531960dce7029553ccfc39" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_same_MR_MeshTriPoint</definition>
+        <definition>static unsafe byte MR.__MR_same_double_MR_MeshTriPointd</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_MeshTriPointd._Underlying *lhs, MR.Const_MeshTriPointd._Underlying *rhs)</argsstring>
+        <name>__MR_same_double_MR_MeshTriPointd</name>
+        <qualifiedname>MR.__MR_same_double_MR_MeshTriPointd</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology._Underlying *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTriPointd._Underlying *</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTriPointd._Underlying *</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1590" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a1dd9cea6625bbb63a91f2f68b276577f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_same_float_MR_MeshTriPoint</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_MeshTriPoint._Underlying *lhs, MR.Const_MeshTriPoint._Underlying *rhs)</argsstring>
-        <name>__MR_same_MR_MeshTriPoint</name>
-        <qualifiedname>MR.__MR_same_MR_MeshTriPoint</qualifiedname>
+        <name>__MR_same_float_MR_MeshTriPoint</name>
+        <qualifiedname>MR.__MR_same_float_MR_MeshTriPoint</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -74728,7 +74996,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="804" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="1593" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aadd371dec79c5743dee585e3dd965c87" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Mesh._Underlying *</type>
@@ -98875,11 +99143,40 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </briefdescription>
         <detaileddescription>
 <para>if true a.e and b.e are updated to have that triangle on the left</para>
-<para>Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1952" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1952" bodyend="1955"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1961" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1961" bodyend="1964"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a5c6d177e3cac9e0e0bab9b8c83d99fca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool fromSameTriangle</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.EdgePointd a, MR.EdgePointd b)</argsstring>
+        <name>fromSameTriangle</name>
+        <qualifiedname>MR.fromSameTriangle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1EdgePointd" kindref="compound">MR.EdgePointd</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1EdgePointd" kindref="compound">MR.EdgePointd</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if points a and b are located on a boundary of the same triangle; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if true a.e and b.e are updated to have that triangle on the left</para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1972" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1972" bodyend="1975"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a850a2064fa3c92e73ff78e630eb2b642" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -98904,11 +99201,40 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </briefdescription>
         <detaileddescription>
 <para>if true a.e and b.e are updated to have that triangle on the left</para>
-<para>Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;float&amp;gt;</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1963" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1963" bodyend="1966"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1983" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1983" bodyend="1986"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a9f963ccae761f7f43b1582f56897f852" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool fromSameTriangle</definition>
+        <argsstring>(MR.Const_MeshTopology topology, MR.Misc._Moved&lt; MR.EdgePointd &gt; a, MR.Misc._Moved&lt; MR.EdgePointd &gt; b)</argsstring>
+        <name>fromSameTriangle</name>
+        <qualifiedname>MR.fromSameTriangle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1EdgePointd" kindref="compound">MR.EdgePointd</ref> &gt;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1EdgePointd" kindref="compound">MR.EdgePointd</ref> &gt;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if points a and b are located on a boundary of the same triangle; </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if true a.e and b.e are updated to have that triangle on the left</para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" kindref="member">MR.fromSameTriangle</ref>&amp;lt;double&amp;gt;</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1994" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1994" bodyend="1997"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -100018,10 +100344,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ad1e836bdbe05180b152deff70202883f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fixMultipleEdges_3</name></member>
       <member refid="classMR_1aefbab89f8b7aa0daf67fbf5e2e4976f1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_floatGridToVdbVolume</name></member>
       <member refid="classMR_1a4aa334fda5810fddf73937e9c09420ee" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_forceBoolean</name></member>
-      <member refid="classMR_1ae75ccb0f5fe9fc95b5f8101edf677fb9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_MR_EdgePoint_ref</name></member>
-      <member refid="classMR_1a37961b6e7beac7536475c24e691e198f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_MR_EdgePoint_rvalue_ref</name></member>
-      <member refid="classMR_1af94e9d6724b4ee8b182a401515d17120" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_MR_MeshTriPoint_ref</name></member>
-      <member refid="classMR_1a65730a1477390eead2b782048ef9b3c4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</name></member>
+      <member refid="classMR_1a04fd4ca4cc5d869fe2570f4ff94505b4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_double_MR_EdgePointd_ref</name></member>
+      <member refid="classMR_1a8e10843836403f87136ef0aa9cd68ace" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_double_MR_EdgePointd_rvalue_ref</name></member>
+      <member refid="classMR_1a5a13dfb3de39873243d2ff7ff38012ac" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_double_MR_MeshTriPointd_ref</name></member>
+      <member refid="classMR_1a30e95117dc62924bd2df7506fcc5cd85" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_double_MR_MeshTriPointd_rvalue_ref</name></member>
+      <member refid="classMR_1a996727ccdb9f39155ea29d31399f082c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_float_MR_EdgePoint_ref</name></member>
+      <member refid="classMR_1adff0af3a6e7b93281168cae39d123c15" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_float_MR_EdgePoint_rvalue_ref</name></member>
+      <member refid="classMR_1a937f0971ca9e976dffcbb49e4d7bbbc6" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_float_MR_MeshTriPoint_ref</name></member>
+      <member refid="classMR_1af922de8c6604659cfcb8b34b97dbfed1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_fromSameTriangle_float_MR_MeshTriPoint_rvalue_ref</name></member>
       <member refid="classMR_1a8a1e3334fe55087864dcde18dea56ce7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_functionVolumeToSimpleVolume</name></member>
       <member refid="classMR_1a327dabd2125e4570458392f8df1cb385" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_functionVolumeToVdbVolume</name></member>
       <member refid="classMR_1a241177a37301a39795116223a6f5a2d8" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_gaussianFilter</name></member>
@@ -100592,8 +100922,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1adf7abbfaa807eacdd2c419ccb117da19" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reverse_std_vector_std_vector_MR_EdgeId</name></member>
       <member refid="classMR_1a2627ba8428e14a3381ca32a8fd55f95f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_roundToPrecision_double</name></member>
       <member refid="classMR_1a4f82c8443b7026c832840485b69785e8" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_roundToPrecision_float</name></member>
-      <member refid="classMR_1ab9131b0ff5d310815db29372088d384e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_MR_EdgePoint</name></member>
-      <member refid="classMR_1a947304442f34cd303e63e512669e141c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_MR_MeshTriPoint</name></member>
+      <member refid="classMR_1a7e07d9209ec13865b678c4c0777d97c5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_double_MR_EdgePointd</name></member>
+      <member refid="classMR_1ab8b46a3a2e531960dce7029553ccfc39" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_double_MR_MeshTriPointd</name></member>
+      <member refid="classMR_1a820206a6dfb4aafe0250870dcf31e65c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_float_MR_EdgePoint</name></member>
+      <member refid="classMR_1a1dd9cea6625bbb63a91f2f68b276577f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_float_MR_MeshTriPoint</name></member>
       <member refid="classMR_1ab3b16095974678bd7ce18caa737ae6ce" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_sampleHalfSphere</name></member>
       <member refid="classMR_1a47588fb2525c59092f6fab89abe22c09" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_sampleVertexColor</name></member>
       <member refid="classMR_1a4a5bfd8ad13e1b34c78c0a23aa32c34c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_sampleVertexColors</name></member>
@@ -101874,9 +102206,13 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a62ff6152633f18c3a1d4c7512a0b067d" prot="public" virt="non-virtual"><scope>MR</scope><name>floatGridToVdbVolume</name></member>
       <member refid="classMR_1a3111b23641d917bcea29b413a78b4dec" prot="public" virt="non-virtual"><scope>MR</scope><name>forceBoolean</name></member>
       <member refid="classMR_1a81da99b61b4a57fd9176bac92b0507d2" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
+      <member refid="classMR_1a5c6d177e3cac9e0e0bab9b8c83d99fca" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
       <member refid="classMR_1a850a2064fa3c92e73ff78e630eb2b642" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
+      <member refid="classMR_1a9f963ccae761f7f43b1582f56897f852" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
       <member refid="classMR_1a12dbb182e1a977dba7fc0b5c948ae83d" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
+      <member refid="classMR_1a7efef39c447afd6bb658dd6e348346a4" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
       <member refid="classMR_1aa688cfa70f5974944c15be6578715ced" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
+      <member refid="classMR_1a9d8af032dfa9778b038e482654fc1d11" prot="public" virt="non-virtual"><scope>MR</scope><name>fromSameTriangle</name></member>
       <member refid="classMR_1ad8853bd7eb5c30989a396a00b2afdace" prot="public" virt="non-virtual"><scope>MR</scope><name>functionVolumeToSimpleVolume</name></member>
       <member refid="classMR_1a6c8cc69cc6557fe679f4877e630f8712" prot="public" virt="non-virtual"><scope>MR</scope><name>functionVolumeToVdbVolume</name></member>
       <member refid="classMR_1aa969e913e8b517abf1e447d4b25bd8b8" prot="public" virt="non-virtual"><scope>MR</scope><name>gaussianFilter</name></member>
@@ -102484,7 +102820,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a9cdca8c8994e7acafcd7bd505dd61a45" prot="public" virt="non-virtual"><scope>MR</scope><name>roundToPrecision</name></member>
       <member refid="classMR_1a5c57a8f458e244373cbf47a60ee4a988" prot="public" virt="non-virtual"><scope>MR</scope><name>roundToPrecision</name></member>
       <member refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" prot="public" virt="non-virtual"><scope>MR</scope><name>same</name></member>
+      <member refid="classMR_1aa35bae920fd7d141c12e52111ce599cd" prot="public" virt="non-virtual"><scope>MR</scope><name>same</name></member>
       <member refid="classMR_1a4f48c0f5cfa1a838b1857f3aa5d421d1" prot="public" virt="non-virtual"><scope>MR</scope><name>same</name></member>
+      <member refid="classMR_1a84fee0f0269737a81785ae059ffaa014" prot="public" virt="non-virtual"><scope>MR</scope><name>same</name></member>
       <member refid="classMR_1a311934c7866322cde555668d43870ae4" prot="public" virt="non-virtual"><scope>MR</scope><name>sampleHalfSphere</name></member>
       <member refid="classMR_1abc19425dd5b385621846d1aeeb7d2732" prot="public" virt="non-virtual"><scope>MR</scope><name>sampleVertexColor</name></member>
       <member refid="classMR_1a8756c03b06bfad40ef6af10833abf42f" prot="public" virt="non-virtual"><scope>MR</scope><name>sampleVertexColors</name></member>
