@@ -3420,6 +3420,7 @@ var classMR =
     [ "findSubstringCaseInsensitive", "classMR.html#aa4a078b0714b2c5cf6b35ad75c4d61b5", null ],
     [ "findTriangleSectionsByXYPlane", "classMR.html#a579c511bc2373a0f450d09e4a00fa5dd", null ],
     [ "findTriangleSegmentIntersectionPrecise", "classMR.html#a7e89a2556d434b92264d95fe54699665", null ],
+    [ "findTriangleSegmentIntersectionPreciseInt", "classMR.html#a91436cd7c8c095f42abc8b02ecec5bc4", null ],
     [ "findTriExitPos", "classMR.html#a8d96a4f3543974831c8fc6cf4406ee39", null ],
     [ "findTriExitPos", "classMR.html#ac88efe688502564a054578f599f59322", null ],
     [ "findTripleFaceIntersections", "classMR.html#a353cb88f7b6c29b24f5e398a978b8e96", null ],

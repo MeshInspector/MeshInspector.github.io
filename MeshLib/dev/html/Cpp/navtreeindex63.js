@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e":[9,0,0,5,6,0],
+"structMR_1_1DistanceMapLoadSettings.html#ac98a6aecff7b146c598462c9c382a18f":[9,0,0,5,6,1],
 "structMR_1_1DistanceMapSaveSettings.html":[9,0,0,5,7],
 "structMR_1_1DistanceMapSaveSettings.html#a9f997144e49ed33ed02e13c2f32edbf0":[9,0,0,5,7,1],
 "structMR_1_1DistanceMapSaveSettings.html#aec3a1ee780a0e876728e2fcfab35daa2":[9,0,0,5,7,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#ad90dcc9ff00b5b5d146e090b2052a11a":[9,0,1,0,1,15,1,5],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#ad90dcc9ff00b5b5d146e090b2052a11a":[9,0,2,0,2,6,1,5],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aec7d8146daad69362b5227401e520802":[9,0,1,0,1,15,1,3],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aec7d8146daad69362b5227401e520802":[9,0,2,0,2,6,1,3],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#afea42796d1fcb6ca7fe5c89f11710287":[9,0,1,0,1,15,1,4],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#afea42796d1fcb6ca7fe5c89f11710287":[9,0,2,0,2,6,1,4]
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aec7d8146daad69362b5227401e520802":[9,0,2,0,2,6,1,3]
 };

@@ -12207,6 +12207,7 @@ var group__GeneralGroup =
     [ "MR::findSpikeVertices", "group__GeneralGroup.html#ga66f3bd66d803bb96a375e32d150f2f10", null ],
     [ "MR::findTriangleSectionsByXYPlane", "group__GeneralGroup.html#ga9b426238bd03d85c23a23ee01f37380b", null ],
     [ "MR::findTriangleSegmentIntersectionPrecise", "group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
+    [ "MR::findTriangleSegmentIntersectionPreciseInt", "group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040", null ],
     [ "MR::findTriExitPos", "group__GeneralGroup.html#ga50ad07fcc0f878c660e360bb5e342d0a", null ],
     [ "MR::findTripleFaceIntersections", "group__GeneralGroup.html#ga4c8a5717e585b662ba95f0a28e8cdf49", null ],
     [ "MR::findTriTriDistance", "group__GeneralGroup.html#gaac4ce716b1bcfe02acfd83cf06380768", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PolylineTopology.html#a5a26d6f98214fae43c3b0acf2360fa10":[9,3,0,0,0,1562,8],
 "classMR_1_1PolylineTopology.html#a5e75be04c18e1a83272f0915eaddcdf1":[9,3,0,0,0,1562,0],
 "classMR_1_1PolylineTopology.html#a741a8dc6c74d1ea52e7a249fb96bc986":[9,3,0,0,0,1562,10],
 "classMR_1_1PolylineTopology.html#a76b38237af4cf0caf24e603ce4d3c679":[9,3,0,0,0,1562,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1Quaterniond.html#acdaa86c5397261db18c7dd18f2a0244c":[9,3,0,0,0,1595,9],
 "classMR_1_1Quaterniond.html#acfb3e3e4a5b71f9823f40b7471bf97ad":[9,3,0,0,0,1595,12],
 "classMR_1_1Quaterniond.html#ae16549e53f8aa016b3d78fef21fa0489":[9,3,0,0,0,1595,15],
-"classMR_1_1Quaterniond.html#af45a7888d342e7b1a7a6d9a61a226974":[9,3,0,0,0,1595,7],
-"classMR_1_1Quaternionf.html":[9,3,0,0,0,1596]
+"classMR_1_1Quaterniond.html#af45a7888d342e7b1a7a6d9a61a226974":[9,3,0,0,0,1595,7]
 };

@@ -15580,6 +15580,7 @@ Friends</h2></td></tr>
 <tr class="memitem:gabad3bcfedc022e24fc08968b846a21b5" id="r_gabad3bcfedc022e24fc08968b846a21b5"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gabad3bcfedc022e24fc08968b846a21b5">MR::computeFloatCoords</a> (const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;conv, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</td></tr>
 <tr class="memitem:ga4a25b52ef9a47a48d91540efe6f61bcd" id="r_ga4a25b52ef9a47a48d91540efe6f61bcd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd">MR::findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
 <tr class="memitem:gaab6e7e21a9eac612957d5e6b91637769" id="r_gaab6e7e21a9eac612957d5e6b91637769"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769">MR::findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
+<tr class="memitem:ga67bcae2090ea4cb7ddaa3649e817b040" id="r_ga67bcae2090ea4cb7ddaa3649e817b040"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040">MR::findTriangleSegmentIntersectionPreciseInt</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di, const Vector3i &amp;ei)</td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291" id="r_gac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291 template"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gac1420892e3e154a187396a8dd5e65291">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e" id="r_ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -74059,6 +74060,53 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
 <p>finds intersection precise, using high precision int inside this function input should have intersection </p>
+
+</div>
+</div>
+<a id="ga67bcae2090ea4cb7ddaa3649e817b040" name="ga67bcae2090ea4cb7ddaa3649e817b040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67bcae2090ea4cb7ddaa3649e817b040">&#9670;&#160;</a></span>findTriangleSegmentIntersectionPreciseInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Vector3i &gt; MR::findTriangleSegmentIntersectionPreciseInt </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ai</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>bi</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ci</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>di</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ei</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides </p>
 
 </div>
 </div>

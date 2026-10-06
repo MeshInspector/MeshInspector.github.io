@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"classMR_1_1Const__TriTriDistanceParams__Double.html#a7b033b06b2c9b3133427c74bd1335d0c":[9,3,0,0,0,908,5],
 "classMR_1_1Const__TriTriDistanceParams__Double.html#aabde8fce002929ee6c2832beb2f9498d":[9,3,0,0,0,908,7],
 "classMR_1_1Const__TriTriDistanceParams__Double.html#ae46ea985499e88d6e1709f58ff262386":[9,3,0,0,0,908,11],
 "classMR_1_1Const__TriTriDistanceParams__Double.html#af2c9756d50601f3936133d00715945c3":[9,3,0,0,0,908,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "classMR_1_1Const__UiRenderParams.html#a5fef55053db87a9b5dbfcd74f4dc6f58":[9,3,0,0,0,917,1],
 "classMR_1_1Const__UiRenderParams.html#a662dd62db7823625a19719e459167495":[9,3,0,0,0,917,11],
 "classMR_1_1Const__UiRenderParams.html#a74539ca33c478b1f242f093a840a2af3":[9,3,0,0,0,917,9],
-"classMR_1_1Const__UiRenderParams.html#a8fb8238d2deab5ce13b6170552b5baff":[9,3,0,0,0,917,14],
-"classMR_1_1Const__UiRenderParams.html#a974e6ae635cbbfa8cf21e8bc6cfb5e04":[9,3,0,0,0,917,12]
+"classMR_1_1Const__UiRenderParams.html#a8fb8238d2deab5ce13b6170552b5baff":[9,3,0,0,0,917,14]
 };
