@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_std_vector_EdgePointT_float</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a5fe1926920b695cf2b327cbed159a0f3" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_vector_EdgePointT_float::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93645" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1acab530ae6d8b70f07a79133b9f382a54" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_vector_EdgePointT_float::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.element_type_byte_size</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93646" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a307971d667042ee91df66ff3621bdefa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_vector_EdgePointT_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93647" bodyend="93650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1abc3b3cededcc2d54596ae216933f1cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_vector_EdgePointT_float.__contains__</definition>
+        <argsstring>(self, std_vector_EdgePointT_float x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93651" bodyend="93654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ace831f8a367e18ba90e0ea6f599e090e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93656" bodyend="93659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a587e62fb0569a3bd1a0561c541160a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93661" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93661" bodyend="93664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1afee80b3d5049e97560879a0acb192380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_vector_EdgePointT_float.__eq__</definition>
+        <argsstring>(self, std_vector_std_vector_EdgePointT_float arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93665" bodyend="93666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a0b160a2845ce10fea2ffd5a42516abd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
+        <definition> std_vector_std_vector_EdgePointT_float mrmeshpy.std_vector_std_vector_EdgePointT_float.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93668" bodyend="93671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a314494e21d8e0a03ee138caa66bf71b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+        <definition> std_vector_EdgePointT_float mrmeshpy.std_vector_std_vector_EdgePointT_float.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93673" bodyend="93674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a6a187b5ec1ea27b4abaac762831b5e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93676" bodyend="93677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a12665e4ffb3e3fb5ff95063ac9dbf781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93679" bodyend="93680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a6183a884e8f13240d9630d17931fbef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__init__</definition>
+        <argsstring>(self, std_vector_std_vector_EdgePointT_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93682" bodyend="93683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1acb8d9143215b7c23e0e41cbf24b309ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref>]</type>
+        <definition> typing.Iterator[std_vector_EdgePointT_float] mrmeshpy.std_vector_std_vector_EdgePointT_float.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93684" bodyend="93685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a72650d8b4b09f5cfe318c14fd7721cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_vector_EdgePointT_float.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93686" bodyend="93687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a13b548db371328df8712c08a5924f0c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_vector_EdgePointT_float.__ne__</definition>
+        <argsstring>(self, std_vector_std_vector_EdgePointT_float arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93688" bodyend="93689"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a7b4f7d3f0e8b03f5a2f25ea419379a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__setitem__</definition>
+        <argsstring>(self, int arg0, std_vector_EdgePointT_float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93691" bodyend="93692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a779a0303b3a0625a1ace6f566ed83236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_std_vector_EdgePointT_float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93694" bodyend="93697"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ad9fc549f5eb0bf3e4757479a30ff38b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.append</definition>
+        <argsstring>(self, std_vector_EdgePointT_float x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93698" bodyend="93701"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a2c0ff8cc8ee5e2bf4cd212a1b724a1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93702" bodyend="93705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a32020b63443ff47bec25f69831ab6bb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_vector_EdgePointT_float.count</definition>
+        <argsstring>(self, std_vector_EdgePointT_float x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93706" bodyend="93709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a3e811350637a42f251dd7c49e85f5ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_vector_EdgePointT_float.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93710" bodyend="93713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1aeca38603facd2f99061f80b552570997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_vector_EdgePointT_float.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93714" bodyend="93715"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ac7168f069494ad9032ec7d758d2bac01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.extend</definition>
+        <argsstring>(self, std_vector_std_vector_EdgePointT_float L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93717" bodyend="93720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ad1bcd8b92e1fa3c4ce8bd6f9f7bc04ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93722" bodyend="93725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ab2d290c082d5f02b8691f489e782db45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.insert</definition>
+        <argsstring>(self, int i, std_vector_EdgePointT_float x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93726" bodyend="93729"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a14bfca3d96d973a5c2b5ed61bc08bd7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+        <definition> std_vector_EdgePointT_float mrmeshpy.std_vector_std_vector_EdgePointT_float.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93731" bodyend="93734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a0a45855ecc3e549d11435a64956a609b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+        <definition> std_vector_EdgePointT_float mrmeshpy.std_vector_std_vector_EdgePointT_float.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93736" bodyend="93739"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a0c59a9211b0338fcb62a87f548a08b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.remove</definition>
+        <argsstring>(self, std_vector_EdgePointT_float x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93740" bodyend="93743"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a743dd4d42a93cea9f5cd85b5aedfcdde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93745" bodyend="93746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ae7871e5625da6963a60bf5eb6c86810f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_vector_EdgePointT_float.resize</definition>
+        <argsstring>(self, int arg0, std_vector_EdgePointT_float arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93748" bodyend="93749"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1afa98177177583d9af40cfb7481e8931f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_vector_EdgePointT_float.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_vector_EdgePointT_float.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93750" bodyend="93751"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  IsoLines, PlaneSections, SurfacePaths, std_vector_std_vector_EdgePoint
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93641" bodyend="93751"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a307971d667042ee91df66ff3621bdefa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1abc3b3cededcc2d54596ae216933f1cfc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ace831f8a367e18ba90e0ea6f599e090e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a587e62fb0569a3bd1a0561c541160a8b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1afee80b3d5049e97560879a0acb192380" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a0b160a2845ce10fea2ffd5a42516abd3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a314494e21d8e0a03ee138caa66bf71b3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a5fe1926920b695cf2b327cbed159a0f3" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a6a187b5ec1ea27b4abaac762831b5e54" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a12665e4ffb3e3fb5ff95063ac9dbf781" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a6183a884e8f13240d9630d17931fbef6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1acb8d9143215b7c23e0e41cbf24b309ed" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a72650d8b4b09f5cfe318c14fd7721cef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a13b548db371328df8712c08a5924f0c6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a7b4f7d3f0e8b03f5a2f25ea419379a32" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a779a0303b3a0625a1ace6f566ed83236" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ad9fc549f5eb0bf3e4757479a30ff38b8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a2c0ff8cc8ee5e2bf4cd212a1b724a1d8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a32020b63443ff47bec25f69831ab6bb2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a3e811350637a42f251dd7c49e85f5ce4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1acab530ae6d8b70f07a79133b9f382a54" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1aeca38603facd2f99061f80b552570997" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ac7168f069494ad9032ec7d758d2bac01" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ad1bcd8b92e1fa3c4ce8bd6f9f7bc04ed" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ab2d290c082d5f02b8691f489e782db45" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a14bfca3d96d973a5c2b5ed61bc08bd7b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a0a45855ecc3e549d11435a64956a609b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a0c59a9211b0338fcb62a87f548a08b7e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1a743dd4d42a93cea9f5cd85b5aedfcdde" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1ae7871e5625da6963a60bf5eb6c86810f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float_1afa98177177583d9af40cfb7481e8931f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_vector_EdgePointT_float</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

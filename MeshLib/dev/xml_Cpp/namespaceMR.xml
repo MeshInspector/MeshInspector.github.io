@@ -199,9 +199,9 @@
     <innerclass refid="structMR_1_1EdgeLengthMesh" prot="public">MR::EdgeLengthMesh</innerclass>
     <innerclass refid="classMR_1_1EdgePathsAStarBuilder" prot="public">MR::EdgePathsAStarBuilder</innerclass>
     <innerclass refid="classMR_1_1EdgePathsBuilderT" prot="public">MR::EdgePathsBuilderT</innerclass>
-    <innerclass refid="structMR_1_1EdgePoint" prot="public">MR::EdgePoint</innerclass>
     <innerclass refid="structMR_1_1EdgePointPair" prot="public">MR::EdgePointPair</innerclass>
-    <innerclass refid="structMR_1_1EdgeSegment" prot="public">MR::EdgeSegment</innerclass>
+    <innerclass refid="structMR_1_1EdgePointT" prot="public">MR::EdgePointT</innerclass>
+    <innerclass refid="structMR_1_1EdgeSegmentT" prot="public">MR::EdgeSegmentT</innerclass>
     <innerclass refid="structMR_1_1EdgeTri" prot="public">MR::EdgeTri</innerclass>
     <innerclass refid="classMR_1_1EmbeddedPython" prot="public">MR::EmbeddedPython</innerclass>
     <innerclass refid="structMR_1_1EmbeddedStructureParameters" prot="public">MR::EmbeddedStructureParameters</innerclass>
@@ -1801,6 +1801,7 @@
       <member refid="group__GeneralGroup_1ga712806ee9f8b1b9a53133ddba57f7da7" kind="typedef"><name>Triangle3i</name></member>
       <member refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kind="typedef"><name>Triangle3f</name></member>
       <member refid="group__GeneralGroup_1ga9905362191a698597df6dca4bd2cc53b" kind="typedef"><name>Triangle3d</name></member>
+      <member refid="group__GeneralGroup_1ga1931367f34dc44e777731c77a6840237" kind="typedef"><name>EdgeSegmentf</name></member>
       <member refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kind="typedef"><name>MeshEdgePoint</name></member>
       <member refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kind="typedef"><name>SurfacePath</name></member>
       <member refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kind="typedef"><name>SurfacePaths</name></member>
@@ -2022,6 +2023,10 @@
       <member refid="group__GeneralGroup_1gaaeefc18e0b5d4277fd54d80dd8b861d2" kind="variable"><name>Quaternionf</name></member>
       <member refid="group__GeneralGroup_1ga19edd69b6fe6517b6c72b6874676bfc7" kind="variable"><name>SegmPoint</name></member>
       <member refid="group__GeneralGroup_1gad43f4122edb9f01bedc63d1fc84a374e" kind="variable"><name>SegmPointf</name></member>
+      <member refid="group__GeneralGroup_1ga7f2c874520cf3659b3f7797b820dabb4" kind="variable"><name>EdgePointT</name></member>
+      <member refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kind="variable"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga942e564154a6c79c748ab1824b02e23f" kind="variable"><name>EdgeSegmentT</name></member>
+      <member refid="group__GeneralGroup_1ga0df3fa5d7fd5a0e498e9e7c656c0dedf" kind="variable"><name>EdgeSegment</name></member>
       <member refid="group__GeneralGroup_1gab4b475d1cfb4a2c8cdef119f5570a9d6" kind="variable"><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kind="variable"><name>TriPointf</name></member>
       <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
@@ -2684,7 +2689,9 @@
       <member refid="group__GeneralGroup_1ga5c33a7be53d3fe550c6d77720f82bb21" kind="function"><name>QuadraticForm&lt; Vector2&lt; float &gt; &gt;</name></member>
       <member refid="group__GeneralGroup_1ga69fe14dc984335904595108e5caaec9a" kind="function"><name>QuadraticForm&lt; Vector3&lt; float &gt; &gt;</name></member>
       <member refid="group__GeneralGroup_1ga38aebbf79d171f4f7b22798a3bcc59b5" kind="function"><name>Quaternion&lt; float &gt;</name></member>
-      <member refid="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga2ab7486d501ce047d28cf8208b6c8501" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga1a7a521c17a2e95c2f6e94c3199cd135" kind="function"><name>EdgePointT&lt; float &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga07e9e4fd9071c2935508179121960b6d" kind="function"><name>EdgeSegmentT&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
       <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
       <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
@@ -3818,8 +3825,6 @@
       </memberdef>
       <member refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kind="function"><name>saveObjectVoxelsToFile</name></member>
       <member refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" kind="function"><name>functionVolumeToSimpleVolume</name></member>
-      <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
-      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
       <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
       <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
     </sectiondef>

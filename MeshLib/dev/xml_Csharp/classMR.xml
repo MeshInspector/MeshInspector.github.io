@@ -429,10 +429,12 @@
     <innerclass refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty" prot="public">MR::Const_EdgePathsBuilderT_MRMetricToAStarPenalty</innerclass>
     <innerclass refid="classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty" prot="public">MR::Const_EdgePathsBuilderT_MRTrivialMetricToPenalty</innerclass>
     <innerclass refid="classMR_1_1Const__EdgePoint" prot="public">MR::Const_EdgePoint</innerclass>
+    <innerclass refid="classMR_1_1Const__EdgePointd" prot="public">MR::Const_EdgePointd</innerclass>
     <innerclass refid="classMR_1_1Const__EdgePointPair" prot="public">MR::Const_EdgePointPair</innerclass>
     <innerclass refid="classMR_1_1Const__Edges" prot="public">MR::Const_Edges</innerclass>
     <innerclass refid="classMR_1_1Const__EdgeScalars" prot="public">MR::Const_EdgeScalars</innerclass>
     <innerclass refid="classMR_1_1Const__EdgeSegment" prot="public">MR::Const_EdgeSegment</innerclass>
+    <innerclass refid="classMR_1_1Const__EdgeSegmentd" prot="public">MR::Const_EdgeSegmentd</innerclass>
     <innerclass refid="classMR_1_1Const__EdgeSetBitIterator" prot="public">MR::Const_EdgeSetBitIterator</innerclass>
     <innerclass refid="classMR_1_1Const__EdgeTri" prot="public">MR::Const_EdgeTri</innerclass>
     <innerclass refid="classMR_1_1Const__EmbeddedStructureParameters" prot="public">MR::Const_EmbeddedStructureParameters</innerclass>
@@ -1176,10 +1178,12 @@
     <innerclass refid="classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty" prot="public">MR::EdgePathsBuilderT_MRMetricToAStarPenalty</innerclass>
     <innerclass refid="classMR_1_1EdgePathsBuilderT__MRTrivialMetricToPenalty" prot="public">MR::EdgePathsBuilderT_MRTrivialMetricToPenalty</innerclass>
     <innerclass refid="classMR_1_1EdgePoint" prot="public">MR::EdgePoint</innerclass>
+    <innerclass refid="classMR_1_1EdgePointd" prot="public">MR::EdgePointd</innerclass>
     <innerclass refid="classMR_1_1EdgePointPair" prot="public">MR::EdgePointPair</innerclass>
     <innerclass refid="classMR_1_1Edges" prot="public">MR::Edges</innerclass>
     <innerclass refid="classMR_1_1EdgeScalars" prot="public">MR::EdgeScalars</innerclass>
     <innerclass refid="classMR_1_1EdgeSegment" prot="public">MR::EdgeSegment</innerclass>
+    <innerclass refid="classMR_1_1EdgeSegmentd" prot="public">MR::EdgeSegmentd</innerclass>
     <innerclass refid="classMR_1_1EdgeSetBitIterator" prot="public">MR::EdgeSetBitIterator</innerclass>
     <innerclass refid="classMR_1_1EdgeTri" prot="public">MR::EdgeTri</innerclass>
     <innerclass refid="classMR_1_1EmbeddedStructureParameters" prot="public">MR::EmbeddedStructureParameters</innerclass>
@@ -14494,7 +14498,7 @@ input contours must be closed within the area of distance map and be consistentl
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1114" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1114" bodyend="1117"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1941" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1941" bodyend="1944"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3e60756545213ad61b23ebfde6ce0a5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -63284,7 +63288,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1144" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1971" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a37961b6e7beac7536475c24e691e198f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -63310,7 +63314,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1147" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1974" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ab9131b0ff5d310815db29372088d384e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -63336,7 +63340,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1150" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1977" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a97c38c1f32d7363f61868f4a28a629cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -98875,7 +98879,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1125" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1125" bodyend="1128"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1952" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1952" bodyend="1955"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a850a2064fa3c92e73ff78e630eb2b642" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -98904,7 +98908,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1136" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1136" bodyend="1139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" line="1963" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePoint.cs" bodystart="1963" bodyend="1966"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

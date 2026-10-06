@@ -368,7 +368,7 @@
         <name>edgePoint</name>
         <qualifiedname>MR::Polyline::edgePoint</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kindref="member">EdgePoint</ref> &amp;</type>
           <declname>ep</declname>
         </param>
         <briefdescription>
@@ -438,7 +438,7 @@
         <location file="MRMesh/MRPolyline.h" line="78" column="15" bodyfile="MRMesh/MRPolyline.h" bodystart="78" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1adcd14ead7b771006dcdc733950976288" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kindref="member">EdgePoint</ref></type>
         <definition>EdgePoint MR::Polyline&lt; V &gt;::toEdgePoint</definition>
         <argsstring>(VertId v) const</argsstring>
         <name>toEdgePoint</name>
@@ -457,7 +457,7 @@
         <location file="MRMesh/MRPolyline.h" line="81" column="16" bodyfile="MRMesh/MRPolyline.h" bodystart="81" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Polyline_1acddfc9fe7193026b7c731a688f1dc478" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kindref="member">EdgePoint</ref></type>
         <definition>EdgePoint MR::Polyline&lt; V &gt;::toEdgePoint</definition>
         <argsstring>(EdgeId e, const V &amp;p) const</argsstring>
         <name>toEdgePoint</name>

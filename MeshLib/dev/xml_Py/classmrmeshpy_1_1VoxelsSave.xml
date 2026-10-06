@@ -529,15 +529,15 @@ which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters 
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5961" bodyend="5962"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ae6c1e15579e8855a67ad1418c56325d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.VoxelsSave.toRawFloat</definition>
-        <argsstring>(VdbVolume vdbVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <argsstring>(SimpleVolume simpleVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
         <name>toRawFloat</name>
         <qualifiedname>mrmeshpy.VoxelsSave.toRawFloat</qualifiedname>
         <param>
-          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
-          <declname>vdbVolume</declname>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
         </param>
         <param>
           <type>typing.Any</type>
@@ -556,15 +556,15 @@ which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters 
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5965" bodyend="5966"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ae6c1e15579e8855a67ad1418c56325d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.VoxelsSave.toRawFloat</definition>
-        <argsstring>(SimpleVolume simpleVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <argsstring>(VdbVolume vdbVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
         <name>toRawFloat</name>
         <qualifiedname>mrmeshpy.VoxelsSave.toRawFloat</qualifiedname>
         <param>
-          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
-          <declname>simpleVolume</declname>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
         </param>
         <param>
           <type>typing.Any</type>
@@ -637,8 +637,8 @@ which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters 
       <member refid="classmrmeshpy_1_1VoxelsSave_1a425388d71d8e1c6b25aa6be42b20c61d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
       <member refid="classmrmeshpy_1_1VoxelsSave_1a82035a5fa8da4bba63f50e6cfc4ede3b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawAutoname</name></member>
       <member refid="classmrmeshpy_1_1VoxelsSave_1ab1aa23348d8cac99844d841409fb7e5e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawAutoname</name></member>
-      <member refid="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawFloat</name></member>
       <member refid="classmrmeshpy_1_1VoxelsSave_1ae6c1e15579e8855a67ad1418c56325d0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawFloat</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawFloat</name></member>
       <member refid="classmrmeshpy_1_1VoxelsSave_1a847f320fb2490df7e111f254671a1a45" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toVdb</name></member>
     </listofallmembers>
   </compounddef>

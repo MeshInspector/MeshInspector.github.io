@@ -383,9 +383,9 @@ var hierarchy =
     [ "MR::EdgePathsBuilderT< MetricToAStarPenalty >", "classMR_1_1EdgePathsBuilderT.html", [
       [ "MR::EdgePathsAStarBuilder", "classMR_1_1EdgePathsAStarBuilder.html", null ]
     ] ],
-    [ "MR::EdgePoint", "structMR_1_1EdgePoint.html", null ],
     [ "MR::EdgePointPair", "structMR_1_1EdgePointPair.html", null ],
-    [ "MR::EdgeSegment", "structMR_1_1EdgeSegment.html", null ],
+    [ "MR::EdgePointT< T >", "structMR_1_1EdgePointT.html", null ],
+    [ "MR::EdgeSegmentT< T >", "structMR_1_1EdgeSegmentT.html", null ],
     [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text::Elem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html", null ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],

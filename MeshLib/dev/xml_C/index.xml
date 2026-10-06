@@ -9090,10 +9090,13 @@
   </compound>
   <compound refid="MREdgePoint_8h" kind="file"><name>MREdgePoint.h</name>
     <member refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kind="typedef"><name>MR_PolylineTopology</name></member>
+    <member refid="MREdgePoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kind="typedef"><name>MR_SegmPointd</name></member>
     <member refid="MREdgePoint_8h_1a82acfe4bf120daf3ba429a5974adeafe" kind="typedef"><name>MR_SegmPointf</name></member>
     <member refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kind="typedef"><name>MR_EdgePoint</name></member>
-    <member refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kind="typedef"><name>MR_EdgePointPair</name></member>
+    <member refid="MREdgePoint_8h_1aead9287f2b6da518d9dc162c7b8891ce" kind="typedef"><name>MR_EdgePointd</name></member>
     <member refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kind="typedef"><name>MR_EdgeSegment</name></member>
+    <member refid="MREdgePoint_8h_1a9fa2c470ebf1799f697f65076b3df1c1" kind="typedef"><name>MR_EdgeSegmentd</name></member>
+    <member refid="MREdgePoint_8h_1a8a401395680b3017eda4a4bcd40aa2be" kind="typedef"><name>MR_EdgePointPair</name></member>
     <member refid="MREdgePoint_8h_1a960e63f7231bb165cd96dee7143beac2" kind="function"><name>MR_EdgePoint_Get_e</name></member>
     <member refid="MREdgePoint_8h_1aea94c827956702b4f50c5972a52fc77f" kind="function"><name>MR_EdgePoint_Set_e</name></member>
     <member refid="MREdgePoint_8h_1a168cabf58f98460fdf18f8ce8a20a02c" kind="function"><name>MR_EdgePoint_GetMutable_e</name></member>
@@ -9122,23 +9125,34 @@
     <member refid="MREdgePoint_8h_1a8d57a1f87b638d0d49c9608af3fc3731" kind="function"><name>MR_EdgePoint_valid</name></member>
     <member refid="MREdgePoint_8h_1a23f89e334894896d414724607772d68a" kind="function"><name>MR_EdgePoint_sym</name></member>
     <member refid="MREdgePoint_8h_1a64ab6e45c09766341d29e139451fcb45" kind="function"><name>MR_equal_MR_EdgePoint</name></member>
-    <member refid="MREdgePoint_8h_1a42ce5d1a471ca923405604dc1e20a43c" kind="function"><name>MR_same_MR_EdgePoint</name></member>
-    <member refid="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" kind="function"><name>MR_EdgePointPair_Get_a</name></member>
-    <member refid="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" kind="function"><name>MR_EdgePointPair_Set_a</name></member>
-    <member refid="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" kind="function"><name>MR_EdgePointPair_GetMutable_a</name></member>
-    <member refid="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" kind="function"><name>MR_EdgePointPair_Get_b</name></member>
-    <member refid="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" kind="function"><name>MR_EdgePointPair_Set_b</name></member>
-    <member refid="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" kind="function"><name>MR_EdgePointPair_GetMutable_b</name></member>
-    <member refid="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" kind="function"><name>MR_EdgePointPair_DefaultConstruct</name></member>
-    <member refid="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" kind="function"><name>MR_EdgePointPair_DefaultConstructArray</name></member>
-    <member refid="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" kind="function"><name>MR_EdgePointPair_OffsetPtr</name></member>
-    <member refid="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" kind="function"><name>MR_EdgePointPair_OffsetMutablePtr</name></member>
-    <member refid="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" kind="function"><name>MR_EdgePointPair_ConstructFromAnother</name></member>
-    <member refid="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" kind="function"><name>MR_EdgePointPair_Construct</name></member>
-    <member refid="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" kind="function"><name>MR_EdgePointPair_Destroy</name></member>
-    <member refid="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" kind="function"><name>MR_EdgePointPair_DestroyArray</name></member>
-    <member refid="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" kind="function"><name>MR_EdgePointPair_AssignFromAnother</name></member>
-    <member refid="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" kind="function"><name>MR_equal_MR_EdgePointPair</name></member>
+    <member refid="MREdgePoint_8h_1a88044161707ca8355a248bd1978936fc" kind="function"><name>MR_EdgePointd_Get_e</name></member>
+    <member refid="MREdgePoint_8h_1a48f1b8b08418e99640df143c0e185a39" kind="function"><name>MR_EdgePointd_Set_e</name></member>
+    <member refid="MREdgePoint_8h_1a7374f5e278c0eed43a6fae5e3f3a0180" kind="function"><name>MR_EdgePointd_GetMutable_e</name></member>
+    <member refid="MREdgePoint_8h_1a96d9e5b3569e8497a3e44875336e6fd7" kind="function"><name>MR_EdgePointd_Get_a</name></member>
+    <member refid="MREdgePoint_8h_1a11582e48f6f05529126afe02d2de6f1d" kind="function"><name>MR_EdgePointd_Set_a</name></member>
+    <member refid="MREdgePoint_8h_1ad0659d2257076568040c5c62eafca417" kind="function"><name>MR_EdgePointd_GetMutable_a</name></member>
+    <member refid="MREdgePoint_8h_1a4ed036850649ca72fa558ca3fbc8f988" kind="function"><name>MR_EdgePointd_DefaultConstruct</name></member>
+    <member refid="MREdgePoint_8h_1a6d705e16c19744b541bd1c6470ca919e" kind="function"><name>MR_EdgePointd_DefaultConstructArray</name></member>
+    <member refid="MREdgePoint_8h_1aaef33d91e988484794a2c4089b54d9a4" kind="function"><name>MR_EdgePointd_OffsetPtr</name></member>
+    <member refid="MREdgePoint_8h_1a3591abf616a53ef1a7e8ec5a9cafa0e4" kind="function"><name>MR_EdgePointd_OffsetMutablePtr</name></member>
+    <member refid="MREdgePoint_8h_1a14662284f55b6b609e43444e0cfbf29e" kind="function"><name>MR_EdgePointd_ConstructFromAnother</name></member>
+    <member refid="MREdgePoint_8h_1a4c6bf90794a49df953887f99af448738" kind="function"><name>MR_EdgePointd_Construct_MR_EdgeId</name></member>
+    <member refid="MREdgePoint_8h_1a77e608bb561f03d3dd1c415f86e7fb73" kind="function"><name>MR_EdgePointd_Construct_MR_MeshTopology</name></member>
+    <member refid="MREdgePoint_8h_1ab678f8d2ab5f3cc095930604befe85b2" kind="function"><name>MR_EdgePointd_Construct_MR_PolylineTopology</name></member>
+    <member refid="MREdgePoint_8h_1a4f22c54122b8aab42003405f79967062" kind="function"><name>MR_EdgePointd_Destroy</name></member>
+    <member refid="MREdgePoint_8h_1a0a227dee32f71b34f90855763d21d799" kind="function"><name>MR_EdgePointd_DestroyArray</name></member>
+    <member refid="MREdgePoint_8h_1a65d8ff372a322b20ea17841d739a3cc9" kind="function"><name>MR_EdgePointd_ConvertTo_bool</name></member>
+    <member refid="MREdgePoint_8h_1a6043c50a35d32ddc40ff16416aeaf14e" kind="function"><name>MR_EdgePointd_AssignFromAnother</name></member>
+    <member refid="MREdgePoint_8h_1ab341cb4783305f2b8c558d4b3f6dd176" kind="function"><name>MR_EdgePointd_inVertex_1_MR_MeshTopology</name></member>
+    <member refid="MREdgePoint_8h_1a643a60d8238697258182cc21567f98c8" kind="function"><name>MR_EdgePointd_inVertex_1_MR_PolylineTopology</name></member>
+    <member refid="MREdgePoint_8h_1ab7d1328eaec0fa4172ac0bcb6798b740" kind="function"><name>MR_EdgePointd_getClosestVertex_MR_MeshTopology</name></member>
+    <member refid="MREdgePoint_8h_1a6d684b10c3432e5fd03aef0e3fbbef6b" kind="function"><name>MR_EdgePointd_getClosestVertex_MR_PolylineTopology</name></member>
+    <member refid="MREdgePoint_8h_1add7be77e22f379e480d62d4ccf8a679a" kind="function"><name>MR_EdgePointd_inVertex_0</name></member>
+    <member refid="MREdgePoint_8h_1ab2e63696c9f11d241402d7c3670d6fa8" kind="function"><name>MR_EdgePointd_moveToClosestVertex</name></member>
+    <member refid="MREdgePoint_8h_1af82d6b3065306c8f24a6e0e6cd264434" kind="function"><name>MR_EdgePointd_isBd</name></member>
+    <member refid="MREdgePoint_8h_1ad93888b4b9ae16036a5f9f9db998ec7d" kind="function"><name>MR_EdgePointd_valid</name></member>
+    <member refid="MREdgePoint_8h_1aaf5dc497a60e7df67f09cb858520feea" kind="function"><name>MR_EdgePointd_sym</name></member>
+    <member refid="MREdgePoint_8h_1a848a30545d8b6ceab43482f545cea12c" kind="function"><name>MR_equal_MR_EdgePointd</name></member>
     <member refid="MREdgePoint_8h_1aa90bea9b9646706e7f0c32d57b8cac86" kind="function"><name>MR_EdgeSegment_Get_e</name></member>
     <member refid="MREdgePoint_8h_1a8652182d557b6c419a0859b29ce27aec" kind="function"><name>MR_EdgeSegment_Set_e</name></member>
     <member refid="MREdgePoint_8h_1a7a0f36b6493afb7bc3df1647ceb4bc5b" kind="function"><name>MR_EdgeSegment_GetMutable_e</name></member>
@@ -9162,6 +9176,46 @@
     <member refid="MREdgePoint_8h_1a5602ecaafaa8ae57a554ad38e3626990" kind="function"><name>MR_EdgeSegment_valid</name></member>
     <member refid="MREdgePoint_8h_1a5c41ed71c49ad1e53ff5c2a2e9b2f63f" kind="function"><name>MR_equal_MR_EdgeSegment</name></member>
     <member refid="MREdgePoint_8h_1a8260f94290d8408e6eb79108056f824f" kind="function"><name>MR_EdgeSegment_sym</name></member>
+    <member refid="MREdgePoint_8h_1a4b93de8b6309bdb30febbf3f70245176" kind="function"><name>MR_EdgeSegmentd_Get_e</name></member>
+    <member refid="MREdgePoint_8h_1a5c6114dfb63311b4486a8d75e51eb40d" kind="function"><name>MR_EdgeSegmentd_Set_e</name></member>
+    <member refid="MREdgePoint_8h_1a678490d9d0c25162e87863a7589c370d" kind="function"><name>MR_EdgeSegmentd_GetMutable_e</name></member>
+    <member refid="MREdgePoint_8h_1ad5be72c1fa85be0f2c99ffdc3f989853" kind="function"><name>MR_EdgeSegmentd_Get_a</name></member>
+    <member refid="MREdgePoint_8h_1a3901e1778a58d61583e09c02976dcff3" kind="function"><name>MR_EdgeSegmentd_Set_a</name></member>
+    <member refid="MREdgePoint_8h_1a39ef22be24384179f7400ac268ffddf1" kind="function"><name>MR_EdgeSegmentd_GetMutable_a</name></member>
+    <member refid="MREdgePoint_8h_1a0345c4f5f6654d44a306df0592e3fad0" kind="function"><name>MR_EdgeSegmentd_Get_b</name></member>
+    <member refid="MREdgePoint_8h_1ab8528459c8c703a6b7f689e8810921d3" kind="function"><name>MR_EdgeSegmentd_Set_b</name></member>
+    <member refid="MREdgePoint_8h_1aa3565ab838ce625eb2a29080bf87f13b" kind="function"><name>MR_EdgeSegmentd_GetMutable_b</name></member>
+    <member refid="MREdgePoint_8h_1a99eeab5b746f00589fa4203f081caf3b" kind="function"><name>MR_EdgeSegmentd_DefaultConstruct</name></member>
+    <member refid="MREdgePoint_8h_1a43c88bc4ecd287a630ba9a0cad9fa07d" kind="function"><name>MR_EdgeSegmentd_DefaultConstructArray</name></member>
+    <member refid="MREdgePoint_8h_1af652f4009c7a9f325151db42cc2cfb47" kind="function"><name>MR_EdgeSegmentd_OffsetPtr</name></member>
+    <member refid="MREdgePoint_8h_1a966639d273ded1d7c95931c342b320aa" kind="function"><name>MR_EdgeSegmentd_OffsetMutablePtr</name></member>
+    <member refid="MREdgePoint_8h_1a9247f2a522f3ba4b466f04cc207065c8" kind="function"><name>MR_EdgeSegmentd_ConstructFromAnother</name></member>
+    <member refid="MREdgePoint_8h_1ab67488dd83fdf395f82aaa62ca64c1c4" kind="function"><name>MR_EdgeSegmentd_Construct</name></member>
+    <member refid="MREdgePoint_8h_1a2ce75e2a10dbf35cfcdf7a10d97d5346" kind="function"><name>MR_EdgeSegmentd_Destroy</name></member>
+    <member refid="MREdgePoint_8h_1a2dbaec8575c2d7e004c4e53d4c87a28b" kind="function"><name>MR_EdgeSegmentd_DestroyArray</name></member>
+    <member refid="MREdgePoint_8h_1a038c54343b3ef788265cad121bf4b73f" kind="function"><name>MR_EdgeSegmentd_AssignFromAnother</name></member>
+    <member refid="MREdgePoint_8h_1a7167dca9f26e9e5dd2f0cf2d17a7aff2" kind="function"><name>MR_EdgeSegmentd_edgePointA</name></member>
+    <member refid="MREdgePoint_8h_1ac30c251dbdad6b1c096152d509667e5c" kind="function"><name>MR_EdgeSegmentd_edgePointB</name></member>
+    <member refid="MREdgePoint_8h_1acbaa3d26ba77e3ad49d630f12efc9cda" kind="function"><name>MR_EdgeSegmentd_valid</name></member>
+    <member refid="MREdgePoint_8h_1a5d088ac6cd90a89548f1970e02f35480" kind="function"><name>MR_equal_MR_EdgeSegmentd</name></member>
+    <member refid="MREdgePoint_8h_1ac0b0fcb905882fdbf2f6f3ce36802d14" kind="function"><name>MR_EdgeSegmentd_sym</name></member>
+    <member refid="MREdgePoint_8h_1a42ce5d1a471ca923405604dc1e20a43c" kind="function"><name>MR_same_MR_EdgePoint</name></member>
+    <member refid="MREdgePoint_8h_1a532abdd572c9c5f0676cc5b95f10aeb2" kind="function"><name>MR_EdgePointPair_Get_a</name></member>
+    <member refid="MREdgePoint_8h_1a7a151afc3f8efb63a034b65bc0e0bfba" kind="function"><name>MR_EdgePointPair_Set_a</name></member>
+    <member refid="MREdgePoint_8h_1a9f74e214d755a4fdcb5b549ddb28ca06" kind="function"><name>MR_EdgePointPair_GetMutable_a</name></member>
+    <member refid="MREdgePoint_8h_1a159ae54ee13db3f1892f4f8de43ac9b6" kind="function"><name>MR_EdgePointPair_Get_b</name></member>
+    <member refid="MREdgePoint_8h_1a5c47a2665f434c1b80946980a7548d63" kind="function"><name>MR_EdgePointPair_Set_b</name></member>
+    <member refid="MREdgePoint_8h_1a49ac35db7077e42fef792a27c503e4ab" kind="function"><name>MR_EdgePointPair_GetMutable_b</name></member>
+    <member refid="MREdgePoint_8h_1af00920c30502e98e23a0b412f7037a0b" kind="function"><name>MR_EdgePointPair_DefaultConstruct</name></member>
+    <member refid="MREdgePoint_8h_1a2251042d568b01bec335424c53c8db5a" kind="function"><name>MR_EdgePointPair_DefaultConstructArray</name></member>
+    <member refid="MREdgePoint_8h_1a3102d17766d88bacba303a1be45639fd" kind="function"><name>MR_EdgePointPair_OffsetPtr</name></member>
+    <member refid="MREdgePoint_8h_1a82ae82586b4e9d3bd53dca92335e4dbe" kind="function"><name>MR_EdgePointPair_OffsetMutablePtr</name></member>
+    <member refid="MREdgePoint_8h_1a47684dfc996d36dac1487a0fbf19a9ee" kind="function"><name>MR_EdgePointPair_ConstructFromAnother</name></member>
+    <member refid="MREdgePoint_8h_1a086befbdb35fdfbdff3270af3cdb0664" kind="function"><name>MR_EdgePointPair_Construct</name></member>
+    <member refid="MREdgePoint_8h_1acfcb7ebb9db7cb83f840a2302ddb6b27" kind="function"><name>MR_EdgePointPair_Destroy</name></member>
+    <member refid="MREdgePoint_8h_1adc8015c68b11f5f4f36bcd2cd3482d7e" kind="function"><name>MR_EdgePointPair_DestroyArray</name></member>
+    <member refid="MREdgePoint_8h_1af8adf3e9e0f9aa36faba0cf209d631a8" kind="function"><name>MR_EdgePointPair_AssignFromAnother</name></member>
+    <member refid="MREdgePoint_8h_1afa010decd1be1a0b4db1ee729f3c4386" kind="function"><name>MR_equal_MR_EdgePointPair</name></member>
   </compound>
   <compound refid="MREmbedTerrainStructure_8h" kind="file"><name>MREmbedTerrainStructure.h</name>
     <member refid="MREmbedTerrainStructure_8h_1a9204627ed4e3e788d024175d696e2a99" kind="typedef"><name>MR_EmbeddedStructureParameters</name></member>
@@ -22942,7 +22996,6 @@
     <member refid="MRSegmentMesh_8h_1a4e8765ad5eb7eb8f2dfa89456baf6d3c" kind="function"><name>MR_findSegmentBoundaries</name></member>
   </compound>
   <compound refid="MRSegmPoint_8h" kind="file"><name>MRSegmPoint.h</name>
-    <member refid="MRSegmPoint_8h_1aa5fc94684762de00501d32e2f80a9fc5" kind="typedef"><name>MR_SegmPointd</name></member>
     <member refid="MRSegmPoint_8h_1a0035133af66b9b6f91c2eabf9f6a4432" kind="function"><name>MR_SegmPointf_Get_eps</name></member>
     <member refid="MRSegmPoint_8h_1a026633425e2739ec558b8689fd20ba9c" kind="function"><name>MR_SegmPointf_Get_a</name></member>
     <member refid="MRSegmPoint_8h_1a5df392e93245decf685001fb773aed3f" kind="function"><name>MR_SegmPointf_Set_a</name></member>

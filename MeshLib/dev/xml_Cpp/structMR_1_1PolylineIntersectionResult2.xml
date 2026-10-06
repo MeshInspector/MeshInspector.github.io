@@ -5,7 +5,7 @@
     <includes refid="MRPolyline2Intersect_8h" local="no">MRMesh/MRPolyline2Intersect.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structMR_1_1PolylineIntersectionResult2_1a50c61aceb6ee726418c11dd484bbd071" prot="public" static="no" mutable="no">
-        <type><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <type><ref refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kindref="member">EdgePoint</ref></type>
         <definition>EdgePoint MR::PolylineIntersectionResult2::edgePoint</definition>
         <argsstring></argsstring>
         <name>edgePoint</name>
@@ -40,19 +40,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <collaborationgraph>
-      <node id="2">
-        <label>MR::EdgePoint</label>
-        <link refid="structMR_1_1EdgePoint"/>
-      </node>
-      <node id="1">
-        <label>MR::PolylineIntersectionResult2</label>
-        <link refid="structMR_1_1PolylineIntersectionResult2"/>
-        <childnode refid="2" relation="usage">
-          <edgelabel>edgePoint</edgelabel>
-        </childnode>
-      </node>
-    </collaborationgraph>
     <location file="MRMesh/MRPolyline2Intersect.h" line="29" column="1" bodyfile="MRMesh/MRPolyline2Intersect.h" bodystart="30" bodyend="35"/>
     <listofallmembers>
       <member refid="structMR_1_1PolylineIntersectionResult2_1a982fc29b0df692b0fecec815554eb78b" prot="public" virt="non-virtual"><scope>MR::PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>

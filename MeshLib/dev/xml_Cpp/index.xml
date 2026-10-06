@@ -3015,27 +3015,6 @@
     <member refid="group__GeneralGroup_1ga6121aae22b66ff8e123f4f1d2d21528d" kind="function"><name>doneDistance</name></member>
     <member refid="group__GeneralGroup_1gad30700907c0223d6668cc9e5910765c3" kind="function"><name>vertPathInfoMap</name></member>
   </compound>
-  <compound refid="structMR_1_1EdgePoint" kind="struct"><name>MR::EdgePoint</name>
-    <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kind="variable"><name>e</name></member>
-    <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kind="variable"><name>a</name></member>
-    <member refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1ga75bd37e42e9c418a1c8e1e3a4add7df8" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1gabf9d35f92cc4beea8706c99342746cae" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1gab60af61aa5bac1603ef31e8928b85ee9" kind="function"><name>inVertex</name></member>
-    <member refid="group__GeneralGroup_1ga2f4528985a24290ac4841fc3d3c4c154" kind="function"><name>inVertex</name></member>
-    <member refid="group__GeneralGroup_1gaa1479493ea4e74cdf5ad200c64a70bca" kind="function"><name>getClosestVertex</name></member>
-    <member refid="group__GeneralGroup_1gabe93cfd47d9874d37127a15bf472d0d9" kind="function"><name>getClosestVertex</name></member>
-    <member refid="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" kind="function"><name>inVertex</name></member>
-    <member refid="group__GeneralGroup_1ga429607b228841ae5a81e3382863d9c99" kind="function"><name>moveToClosestVertex</name></member>
-    <member refid="group__GeneralGroup_1ga65c535dd9e71f4eed91c90f04ff007f8" kind="function"><name>isBd</name></member>
-    <member refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" kind="function"><name>valid</name></member>
-    <member refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" kind="function"><name>operator bool</name></member>
-    <member refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kind="function"><name>sym</name></member>
-    <member refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" kind="function"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
-    <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
-  </compound>
   <compound refid="structMR_1_1EdgePointPair" kind="struct"><name>MR::EdgePointPair</name>
     <member refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" kind="variable"><name>b</name></member>
@@ -3043,17 +3022,36 @@
     <member refid="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" kind="function"><name>EdgePointPair</name></member>
     <member refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" kind="function"><name>operator==</name></member>
   </compound>
-  <compound refid="structMR_1_1EdgeSegment" kind="struct"><name>MR::EdgeSegment</name>
-    <member refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kind="variable"><name>e</name></member>
-    <member refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" kind="variable"><name>a</name></member>
-    <member refid="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" kind="function"><name>EdgeSegment</name></member>
-    <member refid="group__GeneralGroup_1ga2cd476f962cb44bbb72355daf9bd9735" kind="function"><name>EdgeSegment</name></member>
-    <member refid="group__GeneralGroup_1ga1d81986816953f871379b4fd7f212b0f" kind="function"><name>edgePointA</name></member>
-    <member refid="group__GeneralGroup_1gaea79b437b030390db5737ed448df376c" kind="function"><name>edgePointB</name></member>
-    <member refid="group__GeneralGroup_1gaaed1cd16846104a721ea8ee3f83cb046" kind="function"><name>valid</name></member>
-    <member refid="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" kind="function"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kind="function"><name>sym</name></member>
+  <compound refid="structMR_1_1EdgePointT" kind="struct"><name>MR::EdgePointT</name>
+    <member refid="group__GeneralGroup_1ga23965c4e44a8127acd21535b70718c0c" kind="variable"><name>e</name></member>
+    <member refid="group__GeneralGroup_1ga6f7984cdd308a0c9cfdfdab64c870c2f" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga078240069e2589b3b272e96f0d08ce76" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1ga59c3405157910f18f6c985c4534a35be" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1ga31cbc8e7ee997c15a527add4040c25c5" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1gaf707d8c7f59dcc89bf1ea725d0727245" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1gafa7fd9899efb99de7fed0eefb05c9cde" kind="function"><name>inVertex</name></member>
+    <member refid="group__GeneralGroup_1gaf3e28d16ebf75161a0190243debe63d8" kind="function"><name>inVertex</name></member>
+    <member refid="group__GeneralGroup_1ga7dcdc86f7256be5b5e2d886499c688a5" kind="function"><name>getClosestVertex</name></member>
+    <member refid="group__GeneralGroup_1ga6dac519a2b9501ad2e27c1b9846e93f3" kind="function"><name>getClosestVertex</name></member>
+    <member refid="group__GeneralGroup_1ga9f0019400e1885ce5da3be742d5af547" kind="function"><name>inVertex</name></member>
+    <member refid="group__GeneralGroup_1gab05efd9fbdec1c8274cbcdc12722fe53" kind="function"><name>moveToClosestVertex</name></member>
+    <member refid="group__GeneralGroup_1ga0e4a25d014a289be406af1c41173c2bc" kind="function"><name>isBd</name></member>
+    <member refid="group__GeneralGroup_1gaf0830c781cdfc67653c788b2211341bf" kind="function"><name>valid</name></member>
+    <member refid="group__GeneralGroup_1ga72afd5541163c06c93d4957d6d18a308" kind="function"><name>operator bool</name></member>
+    <member refid="group__GeneralGroup_1gaa29d3ed6355ced519e967726484dc72d" kind="function"><name>sym</name></member>
+    <member refid="group__GeneralGroup_1gaafdf9399f4a83f11c40d3ebea98de071" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structMR_1_1EdgeSegmentT" kind="struct"><name>MR::EdgeSegmentT</name>
+    <member refid="group__GeneralGroup_1ga0c12ac6523db53badc99794b5870cd65" kind="variable"><name>e</name></member>
+    <member refid="group__GeneralGroup_1ga87ce7cfc8aa4d50dc87c6ef7b7751cd9" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1gad0c89e3405412b9dea74a995aab95f38" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1gada3157584160d268f80f9a5fab72182c" kind="function"><name>EdgeSegmentT</name></member>
+    <member refid="group__GeneralGroup_1gae2a28f0de5ae33cfdd9b60f5ad231d4e" kind="function"><name>EdgeSegmentT</name></member>
+    <member refid="group__GeneralGroup_1ga29b819c5c62cb662cfb8bbce87d9f7be" kind="function"><name>edgePointA</name></member>
+    <member refid="group__GeneralGroup_1ga29090de2295c6b3437463b6f39d50510" kind="function"><name>edgePointB</name></member>
+    <member refid="group__GeneralGroup_1ga214653b779a4522f109338dae1067598" kind="function"><name>valid</name></member>
+    <member refid="group__GeneralGroup_1gab9e0ea27a1614f0f9979235fa160bd82" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga5f8acb3a6790ee93ffc8b23dc3f8a991" kind="function"><name>sym</name></member>
   </compound>
   <compound refid="structMR_1_1EdgeTri" kind="struct"><name>MR::EdgeTri</name>
     <member refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" kind="variable"><name>edge</name></member>
@@ -14489,6 +14487,7 @@
     <member refid="group__GeneralGroup_1ga712806ee9f8b1b9a53133ddba57f7da7" kind="typedef"><name>Triangle3i</name></member>
     <member refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kind="typedef"><name>Triangle3f</name></member>
     <member refid="group__GeneralGroup_1ga9905362191a698597df6dca4bd2cc53b" kind="typedef"><name>Triangle3d</name></member>
+    <member refid="group__GeneralGroup_1ga1931367f34dc44e777731c77a6840237" kind="typedef"><name>EdgeSegmentf</name></member>
     <member refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kind="typedef"><name>MeshEdgePoint</name></member>
     <member refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kind="typedef"><name>SurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kind="typedef"><name>SurfacePaths</name></member>
@@ -14682,6 +14681,10 @@
     <member refid="group__GeneralGroup_1gaaeefc18e0b5d4277fd54d80dd8b861d2" kind="variable"><name>Quaternionf</name></member>
     <member refid="group__GeneralGroup_1ga19edd69b6fe6517b6c72b6874676bfc7" kind="variable"><name>SegmPoint</name></member>
     <member refid="group__GeneralGroup_1gad43f4122edb9f01bedc63d1fc84a374e" kind="variable"><name>SegmPointf</name></member>
+    <member refid="group__GeneralGroup_1ga7f2c874520cf3659b3f7797b820dabb4" kind="variable"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kind="variable"><name>EdgePoint</name></member>
+    <member refid="group__GeneralGroup_1ga942e564154a6c79c748ab1824b02e23f" kind="variable"><name>EdgeSegmentT</name></member>
+    <member refid="group__GeneralGroup_1ga0df3fa5d7fd5a0e498e9e7c656c0dedf" kind="variable"><name>EdgeSegment</name></member>
     <member refid="group__GeneralGroup_1gab4b475d1cfb4a2c8cdef119f5570a9d6" kind="variable"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kind="variable"><name>TriPointf</name></member>
     <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
@@ -15342,7 +15345,9 @@
     <member refid="group__GeneralGroup_1ga5c33a7be53d3fe550c6d77720f82bb21" kind="function"><name>QuadraticForm&lt; Vector2&lt; float &gt; &gt;</name></member>
     <member refid="group__GeneralGroup_1ga69fe14dc984335904595108e5caaec9a" kind="function"><name>QuadraticForm&lt; Vector3&lt; float &gt; &gt;</name></member>
     <member refid="group__GeneralGroup_1ga38aebbf79d171f4f7b22798a3bcc59b5" kind="function"><name>Quaternion&lt; float &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga2ab7486d501ce047d28cf8208b6c8501" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga1a7a521c17a2e95c2f6e94c3199cd135" kind="function"><name>EdgePointT&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga07e9e4fd9071c2935508179121960b6d" kind="function"><name>EdgeSegmentT&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
     <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
@@ -16431,8 +16436,6 @@
     <member refid="namespaceMR_1adc6c309b18d3d1c442591ea06f9cb26c" kind="function"><name>makeObjectFromVoxelsFile</name></member>
     <member refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kind="function"><name>saveObjectVoxelsToFile</name></member>
     <member refid="group__GeneralGroup_1ga98e1035b952283c216159688c04819fd" kind="function"><name>functionVolumeToSimpleVolume</name></member>
-    <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
-    <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
     <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
     <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
   </compound>
@@ -21713,6 +21716,7 @@
     <member refid="group__GeneralGroup_1ga712806ee9f8b1b9a53133ddba57f7da7" kind="typedef"><name>Triangle3i</name></member>
     <member refid="group__GeneralGroup_1gac3b4f93ff16dbb5975ce8dec6adc39cf" kind="typedef"><name>Triangle3f</name></member>
     <member refid="group__GeneralGroup_1ga9905362191a698597df6dca4bd2cc53b" kind="typedef"><name>Triangle3d</name></member>
+    <member refid="group__GeneralGroup_1ga1931367f34dc44e777731c77a6840237" kind="typedef"><name>EdgeSegmentf</name></member>
     <member refid="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" kind="typedef"><name>MeshEdgePoint</name></member>
     <member refid="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" kind="typedef"><name>SurfacePath</name></member>
     <member refid="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" kind="typedef"><name>SurfacePaths</name></member>
@@ -22489,13 +22493,13 @@
     <member refid="group__GeneralGroup_1ga02bfffff2751cbd5ad9dfe92f6d7fffa" kind="variable"><name>nextSteps_</name></member>
     <member refid="group__GeneralGroup_1gae78d929b06e35477653b8824ffed2383" kind="variable"><name>points</name></member>
     <member refid="group__GeneralGroup_1ga1abb85a715d1e270fa171a12e30b3b33" kind="variable"><name>target</name></member>
-    <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kind="variable"><name>e</name></member>
-    <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga23965c4e44a8127acd21535b70718c0c" kind="variable"><name>e</name></member>
+    <member refid="group__GeneralGroup_1ga6f7984cdd308a0c9cfdfdab64c870c2f" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" kind="variable"><name>e</name></member>
-    <member refid="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" kind="variable"><name>a</name></member>
-    <member refid="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga0c12ac6523db53badc99794b5870cd65" kind="variable"><name>e</name></member>
+    <member refid="group__GeneralGroup_1ga87ce7cfc8aa4d50dc87c6ef7b7751cd9" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1gad0c89e3405412b9dea74a995aab95f38" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" kind="variable"><name>fillAngle</name></member>
     <member refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" kind="variable"><name>cutAngle</name></member>
     <member refid="group__GeneralGroup_1gaae10852bdbbce2035519d95bceadd171" kind="variable"><name>minAnglePrecision</name></member>
@@ -22969,6 +22973,10 @@
     <member refid="group__GeneralGroup_1gaaeefc18e0b5d4277fd54d80dd8b861d2" kind="variable"><name>Quaternionf</name></member>
     <member refid="group__GeneralGroup_1ga19edd69b6fe6517b6c72b6874676bfc7" kind="variable"><name>SegmPoint</name></member>
     <member refid="group__GeneralGroup_1gad43f4122edb9f01bedc63d1fc84a374e" kind="variable"><name>SegmPointf</name></member>
+    <member refid="group__GeneralGroup_1ga7f2c874520cf3659b3f7797b820dabb4" kind="variable"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" kind="variable"><name>EdgePoint</name></member>
+    <member refid="group__GeneralGroup_1ga942e564154a6c79c748ab1824b02e23f" kind="variable"><name>EdgeSegmentT</name></member>
+    <member refid="group__GeneralGroup_1ga0df3fa5d7fd5a0e498e9e7c656c0dedf" kind="variable"><name>EdgeSegment</name></member>
     <member refid="group__GeneralGroup_1gab4b475d1cfb4a2c8cdef119f5570a9d6" kind="variable"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" kind="variable"><name>TriPointf</name></member>
     <member refid="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" kind="variable"><name>Dipole</name></member>
@@ -26552,32 +26560,32 @@
     <member refid="group__GeneralGroup_1gadcfa3f6e76c7ebd915a9859d2105ab57" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga4e018ac01b06bc74b3f4de5e064041a0" kind="function"><name>EdgePathsAStarBuilder</name></member>
     <member refid="group__GeneralGroup_1gae2771303c291202904b3ec855b364487" kind="function"><name>EdgePathsAStarBuilder</name></member>
-    <member refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1ga75bd37e42e9c418a1c8e1e3a4add7df8" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1gabf9d35f92cc4beea8706c99342746cae" kind="function"><name>EdgePoint</name></member>
-    <member refid="group__GeneralGroup_1gab60af61aa5bac1603ef31e8928b85ee9" kind="function"><name>inVertex</name></member>
-    <member refid="group__GeneralGroup_1ga2f4528985a24290ac4841fc3d3c4c154" kind="function"><name>inVertex</name></member>
-    <member refid="group__GeneralGroup_1gaa1479493ea4e74cdf5ad200c64a70bca" kind="function"><name>getClosestVertex</name></member>
-    <member refid="group__GeneralGroup_1gabe93cfd47d9874d37127a15bf472d0d9" kind="function"><name>getClosestVertex</name></member>
-    <member refid="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" kind="function"><name>inVertex</name></member>
-    <member refid="group__GeneralGroup_1ga429607b228841ae5a81e3382863d9c99" kind="function"><name>moveToClosestVertex</name></member>
-    <member refid="group__GeneralGroup_1ga65c535dd9e71f4eed91c90f04ff007f8" kind="function"><name>isBd</name></member>
-    <member refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" kind="function"><name>valid</name></member>
-    <member refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" kind="function"><name>operator bool</name></member>
-    <member refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kind="function"><name>sym</name></member>
-    <member refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga078240069e2589b3b272e96f0d08ce76" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1ga59c3405157910f18f6c985c4534a35be" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1ga31cbc8e7ee997c15a527add4040c25c5" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1gaf707d8c7f59dcc89bf1ea725d0727245" kind="function"><name>EdgePointT</name></member>
+    <member refid="group__GeneralGroup_1gafa7fd9899efb99de7fed0eefb05c9cde" kind="function"><name>inVertex</name></member>
+    <member refid="group__GeneralGroup_1gaf3e28d16ebf75161a0190243debe63d8" kind="function"><name>inVertex</name></member>
+    <member refid="group__GeneralGroup_1ga7dcdc86f7256be5b5e2d886499c688a5" kind="function"><name>getClosestVertex</name></member>
+    <member refid="group__GeneralGroup_1ga6dac519a2b9501ad2e27c1b9846e93f3" kind="function"><name>getClosestVertex</name></member>
+    <member refid="group__GeneralGroup_1ga9f0019400e1885ce5da3be742d5af547" kind="function"><name>inVertex</name></member>
+    <member refid="group__GeneralGroup_1gab05efd9fbdec1c8274cbcdc12722fe53" kind="function"><name>moveToClosestVertex</name></member>
+    <member refid="group__GeneralGroup_1ga0e4a25d014a289be406af1c41173c2bc" kind="function"><name>isBd</name></member>
+    <member refid="group__GeneralGroup_1gaf0830c781cdfc67653c788b2211341bf" kind="function"><name>valid</name></member>
+    <member refid="group__GeneralGroup_1ga72afd5541163c06c93d4957d6d18a308" kind="function"><name>operator bool</name></member>
+    <member refid="group__GeneralGroup_1gaa29d3ed6355ced519e967726484dc72d" kind="function"><name>sym</name></member>
+    <member refid="group__GeneralGroup_1gaafdf9399f4a83f11c40d3ebea98de071" kind="function"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga8e206529d8c003b0ea8ab3b6bb80f0f7" kind="function"><name>same</name></member>
     <member refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" kind="function"><name>EdgePointPair</name></member>
     <member refid="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" kind="function"><name>EdgePointPair</name></member>
     <member refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" kind="function"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" kind="function"><name>EdgeSegment</name></member>
-    <member refid="group__GeneralGroup_1ga2cd476f962cb44bbb72355daf9bd9735" kind="function"><name>EdgeSegment</name></member>
-    <member refid="group__GeneralGroup_1ga1d81986816953f871379b4fd7f212b0f" kind="function"><name>edgePointA</name></member>
-    <member refid="group__GeneralGroup_1gaea79b437b030390db5737ed448df376c" kind="function"><name>edgePointB</name></member>
-    <member refid="group__GeneralGroup_1gaaed1cd16846104a721ea8ee3f83cb046" kind="function"><name>valid</name></member>
-    <member refid="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" kind="function"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" kind="function"><name>sym</name></member>
+    <member refid="group__GeneralGroup_1gada3157584160d268f80f9a5fab72182c" kind="function"><name>EdgeSegmentT</name></member>
+    <member refid="group__GeneralGroup_1gae2a28f0de5ae33cfdd9b60f5ad231d4e" kind="function"><name>EdgeSegmentT</name></member>
+    <member refid="group__GeneralGroup_1ga29b819c5c62cb662cfb8bbce87d9f7be" kind="function"><name>edgePointA</name></member>
+    <member refid="group__GeneralGroup_1ga29090de2295c6b3437463b6f39d50510" kind="function"><name>edgePointB</name></member>
+    <member refid="group__GeneralGroup_1ga214653b779a4522f109338dae1067598" kind="function"><name>valid</name></member>
+    <member refid="group__GeneralGroup_1gab9e0ea27a1614f0f9979235fa160bd82" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga5f8acb3a6790ee93ffc8b23dc3f8a991" kind="function"><name>sym</name></member>
     <member refid="group__GeneralGroup_1ga69cec6f928a8d5e51752ad80d4b57a6b" kind="function"><name>embedStructureToTerrain</name></member>
     <member refid="group__GeneralGroup_1ga7a843fd939d29c66c557a1646f25624d" kind="function"><name>getMinimalCutLength</name></member>
     <member refid="group__GeneralGroup_1gafd82dda173138e4ccc395e22d4a9c2c0" kind="function"><name>toMesh</name></member>
@@ -27408,7 +27416,9 @@
     <member refid="group__GeneralGroup_1ga5c33a7be53d3fe550c6d77720f82bb21" kind="function"><name>QuadraticForm&lt; Vector2&lt; float &gt; &gt;</name></member>
     <member refid="group__GeneralGroup_1ga69fe14dc984335904595108e5caaec9a" kind="function"><name>QuadraticForm&lt; Vector3&lt; float &gt; &gt;</name></member>
     <member refid="group__GeneralGroup_1ga38aebbf79d171f4f7b22798a3bcc59b5" kind="function"><name>Quaternion&lt; float &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga2ab7486d501ce047d28cf8208b6c8501" kind="function"><name>SegmPoint&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga1a7a521c17a2e95c2f6e94c3199cd135" kind="function"><name>EdgePointT&lt; float &gt;</name></member>
+    <member refid="group__GeneralGroup_1ga07e9e4fd9071c2935508179121960b6d" kind="function"><name>EdgeSegmentT&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" kind="function"><name>TriPoint&lt; float &gt;</name></member>
     <member refid="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" kind="function"><name>Vector</name></member>
     <member refid="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" kind="function"><name>Vector&lt; ThreeVertIds, FaceId &gt;</name></member>
@@ -31947,8 +31957,6 @@
     <member refid="group__GeneralGroup_1ga51881d0d836b595d2b86615cbf6ef336" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1ga0c4911db05a5f2db0db3ed24843eeba1" kind="function"><name>toLayerIndex</name></member>
     <member refid="group__GeneralGroup_1gac3ca93af341ba6c38daae5c5bbfe5b82" kind="function"><name>preloadLayer_</name></member>
-    <member refid="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" kind="function"><name>fromSameTriangle</name></member>
-    <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
     <member refid="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" kind="function"><name>sum</name></member>
     <member refid="group__GeneralGroup_1gaa13755aec0b01f413e7b38c41ef3c838" kind="function"><name>sumAt</name></member>
     <member refid="group__GeneralGroup_1gacceb51312ffcedf923f69bfea9ab9770" kind="define"><name>MR_RETURN_IF_UNEXPECTED</name></member>

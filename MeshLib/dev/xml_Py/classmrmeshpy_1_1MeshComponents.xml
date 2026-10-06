@@ -61,6 +61,37 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3972" bodyend="3975"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.MeshComponents.getAllComponents</definition>
+        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getAllComponents</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
+          <declname>incidence</declname>
+          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>isCompBd</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets all connected components of mesh part
+\\note be careful, if mesh is large enough and has many components, the memory overflow will occur
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3978" bodyend="3982"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref>, int]</type>
         <definition> tuple[std_vector_TypedBitSet_Id_FaceTag, int] mrmeshpy.MeshComponents.getAllComponents</definition>
@@ -96,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3978" bodyend="3984"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3985" bodyend="3991"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
@@ -131,38 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3987" bodyend="3993"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag" kindref="compound">std_vector_TypedBitSet_Id_FaceTag</ref></type>
-        <definition> std_vector_TypedBitSet_Id_FaceTag mrmeshpy.MeshComponents.getAllComponents</definition>
-        <argsstring>(MeshPart meshPart, MeshComponents.FaceIncidence incidence=&apos;MR::MeshComponents::PerEdge&apos;, UndirectedEdgeBitSet isCompBd=&apos;{}&apos;)</argsstring>
-        <name>getAllComponents</name>
-        <qualifiedname>mrmeshpy.MeshComponents.getAllComponents</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
-          <declname>meshPart</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshComponents_1_1FaceIncidence" kindref="compound">MeshComponents.FaceIncidence</ref></type>
-          <declname>incidence</declname>
-          <defval>&apos;MR::MeshComponents::PerEdge&apos;</defval>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
-          <declname>isCompBd</declname>
-          <defval>&apos;{}&apos;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets all connected components of mesh part
-\\note be careful, if mesh is large enough and has many components, the memory overflow will occur
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3996" bodyend="4000"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3994" bodyend="4000"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a1bb822da4a63e20538486113a5a4f557" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
@@ -356,10 +356,10 @@ unlike getAllComponents, the memory is proportional to the number of faces in th
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4040" bodyend="4043"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aeb81e1bb8df77560eb30669095b33920" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1af0ee0cfc228e86cce6e8470e1c1083d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag" kindref="compound">std_vector_TypedBitSet_Id_VertTag</ref></type>
         <definition> std_vector_TypedBitSet_Id_VertTag mrmeshpy.MeshComponents.getAllComponentsVertsSeparatedByPath</definition>
-        <argsstring>(Mesh mesh, std_vector_EdgePoint path)</argsstring>
+        <argsstring>(Mesh mesh, std_vector_EdgePointT_float path)</argsstring>
         <name>getAllComponentsVertsSeparatedByPath</name>
         <qualifiedname>mrmeshpy.MeshComponents.getAllComponentsVertsSeparatedByPath</qualifiedname>
         <param>
@@ -367,7 +367,7 @@ unlike getAllComponents, the memory is proportional to the number of faces in th
           <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePoint" kindref="compound">std_vector_EdgePoint</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
           <declname>path</declname>
         </param>
         <briefdescription>
@@ -380,10 +380,10 @@ unlike getAllComponents, the memory is proportional to the number of faces in th
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4045" bodyend="4048"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a7f766f18a502294c426cd024cf4d8874" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ab27833542ac1a95ab8002bd20dc6fe05" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__VertTag" kindref="compound">std_vector_TypedBitSet_Id_VertTag</ref></type>
         <definition> std_vector_TypedBitSet_Id_VertTag mrmeshpy.MeshComponents.getAllComponentsVertsSeparatedByPaths</definition>
-        <argsstring>(Mesh mesh, std_vector_std_vector_EdgePoint paths)</argsstring>
+        <argsstring>(Mesh mesh, std_vector_std_vector_EdgePointT_float paths)</argsstring>
         <name>getAllComponentsVertsSeparatedByPaths</name>
         <qualifiedname>mrmeshpy.MeshComponents.getAllComponentsVertsSeparatedByPaths</qualifiedname>
         <param>
@@ -391,7 +391,7 @@ unlike getAllComponents, the memory is proportional to the number of faces in th
           <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePoint" kindref="compound">std_vector_std_vector_EdgePoint</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
           <declname>paths</declname>
         </param>
         <briefdescription>
@@ -1190,54 +1190,6 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4189" bodyend="4193"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
-        <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
-        <argsstring>(Mesh mesh, VertBitSet region=None)</argsstring>
-        <name>getUnionFindStructureVerts</name>
-        <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVerts</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>region</declname>
-          <defval>None</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets union-find structure for vertices
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4196" bodyend="4199"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
-        <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
-        <argsstring>(MeshTopology topology, VertBitSet region=None)</argsstring>
-        <name>getUnionFindStructureVerts</name>
-        <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVerts</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>region</declname>
-          <defval>None</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4202" bodyend="4203"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aa6a97d11d80dd53dae9bbc11638b1acd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
         <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
@@ -1260,7 +1212,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4206" bodyend="4209"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4196" bodyend="4199"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1284,7 +1236,55 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4212" bodyend="4215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4202" bodyend="4205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
+        <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(Mesh mesh, VertBitSet region=None)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets union-find structure for vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4208" bodyend="4211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
+        <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(MeshTopology topology, VertBitSet region=None)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4214" bodyend="4215"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a78f0cb19a56353b7c77d0cf4ba5cd952" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -1310,10 +1310,10 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4217" bodyend="4220"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1a160673de7369769db9c212722aa6ed0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1ae5747d46f59f0a4692d983e04a6f71b0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
         <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVertsSeparatedByPath</definition>
-        <argsstring>(Mesh mesh, std_vector_EdgePoint path, VertBitSet outPathVerts=None)</argsstring>
+        <argsstring>(Mesh mesh, std_vector_EdgePointT_float path, VertBitSet outPathVerts=None)</argsstring>
         <name>getUnionFindStructureVertsSeparatedByPath</name>
         <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVertsSeparatedByPath</qualifiedname>
         <param>
@@ -1321,7 +1321,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
           <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePoint" kindref="compound">std_vector_EdgePoint</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgePointT__float" kindref="compound">std_vector_EdgePointT_float</ref></type>
           <declname>path</declname>
         </param>
         <param>
@@ -1340,10 +1340,10 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="4222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="4222" bodyend="4226"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aad92358b1133cef73925d1cca000522b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshComponents_1aadebf2607d729ca2b5567d0d043a2084" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
         <definition> UnionFind_VertId mrmeshpy.MeshComponents.getUnionFindStructureVertsSeparatedByPaths</definition>
-        <argsstring>(Mesh mesh, std_vector_std_vector_EdgePoint paths, VertBitSet outPathVerts=None)</argsstring>
+        <argsstring>(Mesh mesh, std_vector_std_vector_EdgePointT_float paths, VertBitSet outPathVerts=None)</argsstring>
         <name>getUnionFindStructureVertsSeparatedByPaths</name>
         <qualifiedname>mrmeshpy.MeshComponents.getUnionFindStructureVertsSeparatedByPaths</qualifiedname>
         <param>
@@ -1351,7 +1351,7 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
           <declname>mesh</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePoint" kindref="compound">std_vector_std_vector_EdgePoint</ref></type>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__EdgePointT__float" kindref="compound">std_vector_std_vector_EdgePointT_float</ref></type>
           <declname>paths</declname>
         </param>
         <param>
@@ -1424,9 +1424,9 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshComponents_1a6495beaaac4f66402d568d63a55a8834" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>excludeFullySelectedComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1af592f7c3a03d69604d3a8135c9b0a29c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>expandToComponents</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a82b49b3a65fca69c50a0d92cdc3bc14d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1afd1ecfdf218c60f79a0c96d9b096c41b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a00c3b04b638d3c83a0601668a1247e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1bb822da4a63e20538486113a5a4f557" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a2e46b54bd66024908500a79f80671439" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a3d3bb261ba59465c7003cfd175dc17dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsFaces</name></member>
@@ -1434,8 +1434,8 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
       <member refid="classmrmeshpy_1_1MeshComponents_1ad0adaeee3254ed9191852bb0c49bf095" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsMapBySharpEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae55975d6d99d183f77ae1db5eeadba7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsUndirectedEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1abf2def00e15a00d09e4c19035c625994" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1aeb81e1bb8df77560eb30669095b33920" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPath</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a7f766f18a502294c426cd024cf4d8874" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPaths</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1af0ee0cfc228e86cce6e8470e1c1083d3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPath</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1ab27833542ac1a95ab8002bd20dc6fe05" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getAllComponentsVertsSeparatedByPaths</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a07a32a897c522986c4fed761bd098a03" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponent</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a1bf9dac785bd3f2c7d2053118fed2caa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponents</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aeb586167b3bbc5534aa7f1318ea10866" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getComponents</name></member>
@@ -1461,13 +1461,13 @@ it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and
       <member refid="classmrmeshpy_1_1MeshComponents_1ac7438ab6ac2e26b3611ce17bd609ec8c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ab68e82b3eba94bc7a6e7ef764345e215" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureFacesPerEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a50f7037c672042546d6d0d81fbff8b75" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureUndirectedEdges</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1aa6a97d11d80dd53dae9bbc11638b1acd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a13c3d0574b8e6fef528700fc169df071" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1a2570d9269445d36962e74579a9f05f94" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1ad2458ff366ad73a2a31e2e2372023d41" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a78f0cb19a56353b7c77d0cf4ba5cd952" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsEx</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1a160673de7369769db9c212722aa6ed0f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPath</name></member>
-      <member refid="classmrmeshpy_1_1MeshComponents_1aad92358b1133cef73925d1cca000522b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPaths</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1ae5747d46f59f0a4692d983e04a6f71b0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPath</name></member>
+      <member refid="classmrmeshpy_1_1MeshComponents_1aadebf2607d729ca2b5567d0d043a2084" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>getUnionFindStructureVertsSeparatedByPaths</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1ae54a0cf542b013633cb6096bc42ac1dc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
       <member refid="classmrmeshpy_1_1MeshComponents_1a15200f2e7236a7ee1c27236ee39bc205" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshComponents</scope><name>hasFullySelectedComponent</name></member>
     </listofallmembers>

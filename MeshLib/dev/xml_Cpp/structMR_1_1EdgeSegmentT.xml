@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgeSegmentT" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgeSegmentT</compoundname>
+    <includes refid="MREdgePoint_8h" local="no">MRMesh/MREdgePoint.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga0c12ac6523db53badc99794b5870cd65" kind="variable"><name>e</name></member>
+      <member refid="group__GeneralGroup_1ga87ce7cfc8aa4d50dc87c6ef7b7751cd9" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1gad0c89e3405412b9dea74a995aab95f38" kind="variable"><name>b</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gada3157584160d268f80f9a5fab72182c" kind="function"><name>EdgeSegmentT</name></member>
+      <member refid="group__GeneralGroup_1gae2a28f0de5ae33cfdd9b60f5ad231d4e" kind="function"><name>EdgeSegmentT</name></member>
+      <member refid="group__GeneralGroup_1ga29b819c5c62cb662cfb8bbce87d9f7be" kind="function"><name>edgePointA</name></member>
+      <member refid="group__GeneralGroup_1ga29090de2295c6b3437463b6f39d50510" kind="function"><name>edgePointB</name></member>
+      <member refid="group__GeneralGroup_1ga214653b779a4522f109338dae1067598" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gab9e0ea27a1614f0f9979235fa160bd82" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga5f8acb3a6790ee93ffc8b23dc3f8a991" kind="function"><name>sym</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a segment on one edge. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MREdgePoint.h" line="65" column="1" bodyfile="MRMesh/MREdgePoint.h" bodystart="66" bodyend="85"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga87ce7cfc8aa4d50dc87c6ef7b7751cd9" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gad0c89e3405412b9dea74a995aab95f38" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga0c12ac6523db53badc99794b5870cd65" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>e</name></member>
+      <member refid="group__GeneralGroup_1ga29b819c5c62cb662cfb8bbce87d9f7be" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>edgePointA</name></member>
+      <member refid="group__GeneralGroup_1ga29090de2295c6b3437463b6f39d50510" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>edgePointB</name></member>
+      <member refid="group__GeneralGroup_1gada3157584160d268f80f9a5fab72182c" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>EdgeSegmentT</name></member>
+      <member refid="group__GeneralGroup_1gae2a28f0de5ae33cfdd9b60f5ad231d4e" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>EdgeSegmentT</name></member>
+      <member refid="group__GeneralGroup_1gab9e0ea27a1614f0f9979235fa160bd82" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga5f8acb3a6790ee93ffc8b23dc3f8a991" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>sym</name></member>
+      <member refid="group__GeneralGroup_1ga214653b779a4522f109338dae1067598" prot="public" virt="non-virtual"><scope>MR::EdgeSegmentT</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

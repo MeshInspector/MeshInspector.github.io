@@ -1,5 +1,10 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Polyline.html#aeaa90b34cd74ab76a35694d438baaf65":[9,0,0,14,0,29],
+"structMR_1_1Polyline.html#aee0339a19861aa52dd86eceea3e805b8":[9,0,0,14,0,32],
+"structMR_1_1Polyline.html#af24fd643f0d6cd970d26dccd51949a93":[9,0,0,14,0,31],
+"structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html":[9,0,0,20,458],
+"structMR_1_1PolylineIntersectionResult2.html":[9,0,0,1,32],
 "structMR_1_1PolylineIntersectionResult2.html#a50c61aceb6ee726418c11dd484bbd071":[9,0,0,1,32,1],
 "structMR_1_1PolylineIntersectionResult2.html#a982fc29b0df692b0fecec815554eb78b":[9,0,0,1,32,0],
 "structMR_1_1PolylineMaker.html":[9,0,0,20,463],
@@ -244,10 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1SymMatrix2.html":[9,0,0,20,510],
 "structMR_1_1SymMatrix3.html":[9,0,0,0,7,5],
 "structMR_1_1SymMatrix3.html":[9,0,0,20,511],
-"structMR_1_1SymMatrix4.html":[9,0,0,0,7,6],
-"structMR_1_1SymMatrix4.html":[9,0,0,20,512],
-"structMR_1_1SymbolMeshParams.html":[9,0,0,20,567],
-"structMR_1_1SystemMemory.html":[9,0,0,20,513],
-"structMR_1_1TbbTaskArenaAndGroup.html":[9,0,0,20,515],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[9,0,0,20,896]
+"structMR_1_1SymMatrix4.html":[9,0,0,0,7,6]
 };

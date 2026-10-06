@@ -174,9 +174,9 @@
     <innerclass refid="structMR_1_1TrivialMetricToPenalty" prot="public">MR::TrivialMetricToPenalty</innerclass>
     <innerclass refid="structMR_1_1MetricToAStarPenalty" prot="public">MR::MetricToAStarPenalty</innerclass>
     <innerclass refid="classMR_1_1EdgePathsAStarBuilder" prot="public">MR::EdgePathsAStarBuilder</innerclass>
-    <innerclass refid="structMR_1_1EdgePoint" prot="public">MR::EdgePoint</innerclass>
+    <innerclass refid="structMR_1_1EdgePointT" prot="public">MR::EdgePointT</innerclass>
     <innerclass refid="structMR_1_1EdgePointPair" prot="public">MR::EdgePointPair</innerclass>
-    <innerclass refid="structMR_1_1EdgeSegment" prot="public">MR::EdgeSegment</innerclass>
+    <innerclass refid="structMR_1_1EdgeSegmentT" prot="public">MR::EdgeSegmentT</innerclass>
     <innerclass refid="structMR_1_1EmbeddedStructureParameters" prot="public">MR::EmbeddedStructureParameters</innerclass>
     <innerclass refid="structMR_1_1EndMillCutter" prot="public">MR::EndMillCutter</innerclass>
     <innerclass refid="structMR_1_1EndMillTool" prot="public">MR::EndMillTool</innerclass>
@@ -16665,6 +16665,20 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRMeshFwd.h" line="467" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="467" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga1931367f34dc44e777731c77a6840237" prot="public" static="no">
+        <type>EdgeSegmentT&lt; float &gt;</type>
+        <definition>using MR::EdgeSegmentf =  EdgeSegmentT&lt;float&gt;</definition>
+        <argsstring></argsstring>
+        <name>EdgeSegmentf</name>
+        <qualifiedname>MR::EdgeSegmentf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="485" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="485" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga8ffb37085bbd6060f17bcf222941ab8c" prot="public" static="no">
         <type>EdgePoint</type>
         <definition>using MR::MeshEdgePoint =  EdgePoint</definition>
@@ -16677,7 +16691,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="478" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="478" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="486" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="486" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga7798ef4dfda44362083b0aa66a45d6a3" prot="public" static="no">
         <type>std::vector&lt; MeshEdgePoint &gt;</type>
@@ -16691,7 +16705,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="479" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="479" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="487" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="487" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga1947baff009e7ba9b3d0754c30a458a5" prot="public" static="no">
         <type>std::vector&lt; SurfacePath &gt;</type>
@@ -16705,7 +16719,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="480" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="480" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="488" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="488" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga6e262af332519e310390cebc4a585090" prot="public" static="no">
         <type>SurfacePath</type>
@@ -16719,7 +16733,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="481" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="481" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="489" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="489" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gac6a876169f42e604d166b3309044b89d" prot="public" static="no">
         <type>SurfacePaths</type>
@@ -16733,7 +16747,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="482" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="482" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="490" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="490" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga92cbbca830da255a9350ce63a48f49c3" prot="public" static="no">
         <type>SurfacePath</type>
@@ -16747,7 +16761,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="483" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="483" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="491" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="491" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga5e21b52bde652c1330fdd745ee2ccbbc" prot="public" static="no">
         <type>SurfacePaths</type>
@@ -16761,7 +16775,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="484" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="484" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="492" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="492" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gad75ce80ca78d38bd524b9c4ccd7a520d" prot="public" static="no">
         <type>std::pair&lt; VertId, VertId &gt;</type>
@@ -16775,7 +16789,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="489" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="489" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="497" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="497" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaaa1b9cb8e04334b38aa70434301df035" prot="public" static="no">
         <type>std::pair&lt; FaceId, FaceId &gt;</type>
@@ -16789,7 +16803,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="490" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="490" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="498" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="498" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab355986e338097e97435c68b33987055" prot="public" static="no">
         <type>std::pair&lt; EdgeId, EdgeId &gt;</type>
@@ -16803,7 +16817,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="491" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="491" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="499" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="499" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaab52299f28e8b207084bb5e513ecd216" prot="public" static="no">
         <type>std::pair&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</type>
@@ -16817,7 +16831,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="492" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="492" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="500" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="500" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga6f8b9797e8968735a685a81d8a6064d6" prot="public" static="no">
         <type>Vector2f</type>
@@ -16842,7 +16856,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="514" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="514" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="522" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="522" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga18500a3df20aa256325c44e2c5b2b499" prot="public" static="no">
         <type>std::array&lt; VertId, 2 &gt;</type>
@@ -16857,7 +16871,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="517" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="517" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="525" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="525" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" prot="public" static="no">
         <type>std::array&lt; VertId, 3 &gt;</type>
@@ -16872,7 +16886,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="520" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="520" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="528" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="528" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga4434b15c24b22d8f017f529064021a35" prot="public" static="no">
         <type>std::array&lt; UVCoord, 3 &gt;</type>
@@ -16887,7 +16901,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="523" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="523" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="531" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="531" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" prot="public" static="no">
         <type>std::function&lt; bool(FaceId)&gt;</type>
@@ -16901,7 +16915,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="570" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="570" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="578" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="578" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3dd173667e136d1ab529bb70c4f9e450" prot="public" static="no">
         <type>std::function&lt; bool(EdgeId)&gt;</type>
@@ -16915,7 +16929,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="571" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="571" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="579" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="579" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga54078c8d4e2a3473d6e15a932c107cd4" prot="public" static="no">
         <type>std::function&lt; bool(UndirectedEdgeId)&gt;</type>
@@ -16929,7 +16943,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="572" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="572" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="580" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="580" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga8ca6fbc7c349a31c3f0a68ce8f513265" prot="public" static="no">
         <type>std::function&lt; bool(EdgeId edgeToCollapse, const Vector3f &amp;newEdgeOrgPos)&gt;</type>
@@ -16943,7 +16957,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="574" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="574" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="582" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="582" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab50339e87a21861f4405943730720850" prot="public" static="no">
         <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
@@ -16957,7 +16971,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="575" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="575" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="583" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="583" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga036c60a88f141a437ffed0bc572fce6d" prot="public" static="no">
         <type>std::function&lt; float(VertId)&gt;</type>
@@ -16971,7 +16985,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="583" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="583" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="591" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="591" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga964a181b4bf9b03b222d6e2ad3529487" prot="public" static="no">
         <type>std::function&lt; float(FaceId)&gt;</type>
@@ -16985,7 +16999,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="584" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="584" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="592" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="592" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" prot="public" static="no">
         <type>std::function&lt; float(EdgeId)&gt;</type>
@@ -16999,7 +17013,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="585" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="585" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="593" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="593" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab7a3fa3c0bf9137f59a3a494350314d1" prot="public" static="no">
         <type>std::function&lt; float(UndirectedEdgeId)&gt;</type>
@@ -17013,7 +17027,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="586" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="586" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="594" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="594" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gad321412e874739790b445adf4bbb1139" prot="public" static="no">
         <templateparamlist>
@@ -17040,7 +17054,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="599" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="599" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="607" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="607" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga9c13b23a521cbb81b2b70d44c1d2251e" prot="public" static="no">
         <type>HashSet&lt; FaceId &gt;</type>
@@ -17055,7 +17069,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="602" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="602" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="610" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="610" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga38a7dfd218690048dcae5c9a85647bc6" prot="public" static="no">
         <type>HashSet&lt; VertId &gt;</type>
@@ -17069,7 +17083,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="603" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="603" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="611" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="611" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaab2dff43553ca83a7047da7cf31b3c1b" prot="public" static="no">
         <type>HashSet&lt; EdgeId &gt;</type>
@@ -17083,7 +17097,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="604" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="604" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="612" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="612" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" prot="public" static="no">
         <templateparamlist>
@@ -17113,7 +17127,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="607" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="607" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="615" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="615" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga05d4e4903837647940c265c6939dcfdf" prot="public" static="no">
         <templateparamlist>
@@ -17143,7 +17157,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="609" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="609" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="617" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="617" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga93482f559c684be16c718d5acd291d3e" prot="public" static="no">
         <type>HashMap&lt; FaceId, FaceId &gt;</type>
@@ -17157,7 +17171,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="611" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="611" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="619" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="619" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga5f073f01bf5ba45cd1ca11d8507f494d" prot="public" static="no">
         <type>HashMap&lt; VertId, VertId &gt;</type>
@@ -17171,7 +17185,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="612" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="612" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="620" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="620" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gacf12278406a871d48023f839544d29e8" prot="public" static="no">
         <type>HashMap&lt; EdgeId, EdgeId &gt;</type>
@@ -17185,7 +17199,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="613" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="613" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="621" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="621" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gae4c04995449710309dc72ed533991d7f" prot="public" static="no">
         <type>HashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</type>
@@ -17199,7 +17213,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="614" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="614" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="622" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="622" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga7a097c2851c9c54eef96a938f84750a4" prot="public" static="no">
         <type>HashMap&lt; UndirectedEdgeId, EdgeId &gt;</type>
@@ -17214,7 +17228,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="616" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="616" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="624" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="624" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga23dbcde07009ca26251020b292a2837b" prot="public" static="no">
         <type>MapOrHashMap&lt; FaceId, FaceId &gt;</type>
@@ -17228,7 +17242,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="621" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="621" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="629" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="629" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga595ea07ed87137527c40e85cf045379f" prot="public" static="no">
         <type>MapOrHashMap&lt; VertId, VertId &gt;</type>
@@ -17242,7 +17256,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="622" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="622" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="630" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="630" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga5eae17d4ec2d21bcf09a42615776b072" prot="public" static="no">
         <type>MapOrHashMap&lt; EdgeId, EdgeId &gt;</type>
@@ -17256,7 +17270,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="623" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="623" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="631" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="631" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gad6b354346cb9e2f14be7f44615ea9538" prot="public" static="no">
         <type>MapOrHashMap&lt; UndirectedEdgeId, UndirectedEdgeId &gt;</type>
@@ -17270,7 +17284,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="624" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="624" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="632" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="632" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga97913e3bb3380204133f3b371cc4b6de" prot="public" static="no">
         <type>MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</type>
@@ -17285,7 +17299,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="626" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="626" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="634" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="634" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga0cc9f139078c5c5597f9bb7465fd7fda" prot="public" static="no">
         <type>std::vector&lt; std::string &gt;</type>
@@ -17299,7 +17313,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="686" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="686" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="694" column="1" bodyfile="MRMesh/MRMeshFwd.h" bodystart="694" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" prot="public" static="no">
         <type>std::function&lt; bool(const Vector3f &amp;p, ProjectionResult &amp;res)&gt;</type>
@@ -17669,7 +17683,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>For long-term storage of picked points on an object, such as point and contour widgets, it is more convenient to use the local coordinates of the object rather than 3D coordinates, which can change depending on the xf of the object. <mdash/> <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> for <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> <mdash/> <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> for <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> (polylines) <mdash/> VertId for <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> <mdash/> std::monostate means not valid pick (pick in empty space). </para>
+<para>For long-term storage of picked points on an object, such as point and contour widgets, it is more convenient to use the local coordinates of the object rather than 3D coordinates, which can change depending on the xf of the object. <mdash/> <ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> for <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> <mdash/> EdgePoint for <ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref> (polylines) <mdash/> VertId for <ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">ObjectPointsHolder</ref> <mdash/> std::monostate means not valid pick (pick in empty space). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -28139,26 +28153,26 @@ it provides additional info from other mesh used in boolean operation, useful to
         </inbodydescription>
         <location file="MRMesh/MREdgePathsBuilder.h" line="274" column="14" bodyfile="MRMesh/MREdgePathsBuilder.h" bodystart="274" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga23965c4e44a8127acd21535b70718c0c" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
-        <definition>EdgeId MR::EdgePoint::e</definition>
+        <definition>EdgeId MR::EdgePointT&lt; T &gt;::e</definition>
         <argsstring></argsstring>
         <name>e</name>
-        <qualifiedname>MR::EdgePoint::e</qualifiedname>
+        <qualifiedname>MR::EdgePointT::e</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="15" column="12" bodyfile="MRMesh/MREdgePoint.h" bodystart="15" bodyend="-1"/>
+        <location file="MRMesh/MREdgePoint.h" line="16" column="12" bodyfile="MRMesh/MREdgePoint.h" bodystart="16" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" prot="public" static="no" mutable="no">
-        <type>SegmPointf</type>
-        <definition>SegmPointf MR::EdgePoint::a</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga6f7984cdd308a0c9cfdfdab64c870c2f" prot="public" static="no" mutable="no">
+        <type>SegmPoint&lt; T &gt;</type>
+        <definition>SegmPoint&lt;T&gt; MR::EdgePointT&lt; T &gt;::a</definition>
         <argsstring></argsstring>
         <name>a</name>
-        <qualifiedname>MR::EdgePoint::a</qualifiedname>
+        <qualifiedname>MR::EdgePointT::a</qualifiedname>
         <briefdescription>
 <para>a in [0,1], a=0 =&gt; point is in org( e ), a=1 =&gt; point is in dest( e ) </para>
         </briefdescription>
@@ -28166,7 +28180,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="16" column="16" bodyfile="MRMesh/MREdgePoint.h" bodystart="16" bodyend="-1"/>
+        <location file="MRMesh/MREdgePoint.h" line="17" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" prot="public" static="no" mutable="no">
         <type>EdgePoint</type>
@@ -28180,7 +28194,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="54" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMesh/MREdgePoint.h" line="55" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" prot="public" static="no" mutable="no">
         <type>EdgePoint</type>
@@ -28194,14 +28208,14 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="55" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="55" bodyend="-1"/>
+        <location file="MRMesh/MREdgePoint.h" line="56" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="56" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gac984995bf16ae26205209c4da35c2f63" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga0c12ac6523db53badc99794b5870cd65" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
-        <definition>EdgeId MR::EdgeSegment::e</definition>
+        <definition>EdgeId MR::EdgeSegmentT&lt; T &gt;::e</definition>
         <argsstring></argsstring>
         <name>e</name>
-        <qualifiedname>MR::EdgeSegment::e</qualifiedname>
+        <qualifiedname>MR::EdgeSegmentT::e</qualifiedname>
         <briefdescription>
 <para>id of the edge </para>
         </briefdescription>
@@ -28209,15 +28223,15 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="66" column="12" bodyfile="MRMesh/MREdgePoint.h" bodystart="66" bodyend="-1"/>
+        <location file="MRMesh/MREdgePoint.h" line="68" column="12" bodyfile="MRMesh/MREdgePoint.h" bodystart="68" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaaa89099133adbadcd8e04016b7dfd5ef" prot="public" static="no" mutable="no">
-        <type>SegmPointf</type>
-        <definition>SegmPointf MR::EdgeSegment::a</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga87ce7cfc8aa4d50dc87c6ef7b7751cd9" prot="public" static="no" mutable="no">
+        <type>SegmPoint&lt; T &gt;</type>
+        <definition>SegmPoint&lt;T&gt; MR::EdgeSegmentT&lt; T &gt;::a</definition>
         <argsstring></argsstring>
         <name>a</name>
-        <qualifiedname>MR::EdgeSegment::a</qualifiedname>
-        <initializer>{ 0.0f }</initializer>
+        <qualifiedname>MR::EdgeSegmentT::a</qualifiedname>
+        <initializer>{ 0 }</initializer>
         <briefdescription>
 <para>start of the segment </para>
         </briefdescription>
@@ -28225,15 +28239,15 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="68" column="16" bodyfile="MRMesh/MREdgePoint.h" bodystart="68" bodyend="68"/>
+        <location file="MRMesh/MREdgePoint.h" line="70" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="70" bodyend="70"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga74fca78a4ea23f1e08811bcd012a03e1" prot="public" static="no" mutable="no">
-        <type>SegmPointf</type>
-        <definition>SegmPointf MR::EdgeSegment::b</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad0c89e3405412b9dea74a995aab95f38" prot="public" static="no" mutable="no">
+        <type>SegmPoint&lt; T &gt;</type>
+        <definition>SegmPoint&lt;T&gt; MR::EdgeSegmentT&lt; T &gt;::b</definition>
         <argsstring></argsstring>
         <name>b</name>
-        <qualifiedname>MR::EdgeSegment::b</qualifiedname>
-        <initializer>{ 1.0f }</initializer>
+        <qualifiedname>MR::EdgeSegmentT::b</qualifiedname>
+        <initializer>{ 1 }</initializer>
         <briefdescription>
 <para>end of the segment </para>
         </briefdescription>
@@ -28241,7 +28255,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="70" column="16" bodyfile="MRMesh/MREdgePoint.h" bodystart="70" bodyend="70"/>
+        <location file="MRMesh/MREdgePoint.h" line="72" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="72" bodyend="72"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -35348,6 +35362,62 @@ it provides additional info from other mesh used in boolean operation, useful to
         </inbodydescription>
         <location file="MRMesh/MRMeshFwd.h" line="472" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="472" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga7f2c874520cf3659b3f7797b820dabb4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>MR::EdgePointT</definition>
+        <argsstring></argsstring>
+        <name>EdgePointT</name>
+        <qualifiedname>MR::EdgePointT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="476" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga2184a4ebcef7a214ba981313f3637935" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>MR::EdgePoint</definition>
+        <argsstring></argsstring>
+        <name>EdgePoint</name>
+        <qualifiedname>MR::EdgePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="477" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga942e564154a6c79c748ab1824b02e23f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>MR::EdgeSegmentT</definition>
+        <argsstring></argsstring>
+        <name>EdgeSegmentT</name>
+        <qualifiedname>MR::EdgeSegmentT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="480" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga0df3fa5d7fd5a0e498e9e7c656c0dedf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>MR::EdgeSegment</definition>
+        <argsstring></argsstring>
+        <name>EdgeSegment</name>
+        <qualifiedname>MR::EdgeSegment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="481" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="481" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab4b475d1cfb4a2c8cdef119f5570a9d6" prot="public" static="no" mutable="no">
         <type></type>
         <definition>MR::TriPoint</definition>
@@ -35360,7 +35430,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="494" column="21" bodyfile="MRMesh/MRMeshFwd.h" bodystart="494" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="502" column="21" bodyfile="MRMesh/MRMeshFwd.h" bodystart="502" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga38bb05d6835471e5cc3352addbd30f02" prot="public" static="no" mutable="no">
         <type></type>
@@ -35374,7 +35444,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="495" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="495" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="503" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="503" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad199d60177879413c7ab7c1b24e30a54" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35388,7 +35458,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="525" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="525" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="533" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="533" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad18d27e1aa8c9210d5b1086a3615644e" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35403,7 +35473,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="596" column="13" bodyfile="MRMesh/MRMeshFwd.h" bodystart="596" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="604" column="13" bodyfile="MRMesh/MRMeshFwd.h" bodystart="604" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga328a03eeb36433aa99e9d41822a84272" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35419,7 +35489,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="596" column="28" bodyfile="MRMesh/MRMeshFwd.h" bodystart="596" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="604" column="28" bodyfile="MRMesh/MRMeshFwd.h" bodystart="604" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga70998e19114b7179469682c1c31c77ae" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35433,7 +35503,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="631" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="631" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="639" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="639" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49165bcb87a59752b8f02f19ea7f2424" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35447,7 +35517,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="632" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="632" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="640" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="640" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1b27efcf0bc43958ffdc2474a71d7730" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35461,7 +35531,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="633" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="633" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="641" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="641" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2c2ce7a11febd432cbfcbcd26f3d6103" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35475,7 +35545,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="634" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="634" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="642" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="642" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1bfc73c4801d5127d8be21699dc9f590" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35489,7 +35559,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="635" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="635" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="643" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="643" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad9aaf9760f28ddb9fb832eab131b7bcc" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35503,7 +35573,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="636" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="636" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="644" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="644" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabe7cfa4da2fbf3567857cea149030590" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35517,7 +35587,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="637" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="637" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="645" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="645" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga99c966a131266f5ea0b682099c7df561" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35531,7 +35601,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="638" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="638" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="646" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="646" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad2555bd8680e7acc591ec78b0d789d23" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35545,7 +35615,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="639" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="639" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="647" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="647" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga32d2679c43468dd98bb8cf90ddd25b77" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35559,7 +35629,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="640" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="640" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="648" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="648" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga206d2359088d7de67554ae5420f14ab2" prot="public" static="no" mutable="no">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35573,7 +35643,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="641" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="641" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="649" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="649" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga192b92fae532ff79089afc3dcc6002c3" prot="public" static="no" mutable="no">
         <type></type>
@@ -35587,7 +35657,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="659" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="659" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="667" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="667" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga98da94791426a3dbbdeb1a6b25801df6" prot="public" static="no" mutable="no">
         <type></type>
@@ -35601,7 +35671,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="660" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="660" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="668" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="668" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa4c32f36330a9f8ba2d5a660c4cc6ee2" prot="public" static="no" mutable="no">
         <type></type>
@@ -35615,7 +35685,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="664" column="7" bodyfile="MRMesh/MRMeshFwd.h" bodystart="664" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="672" column="7" bodyfile="MRMesh/MRMeshFwd.h" bodystart="672" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga218fb32b8fe05ec26bcc38bf30b7a729" prot="public" static="no" mutable="no">
         <type></type>
@@ -35629,7 +35699,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="665" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="665" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="673" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="673" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga507086a21a04027731ffeb5332b8ed9c" prot="public" static="no" mutable="no">
         <type></type>
@@ -35643,7 +35713,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="677" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="677" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="685" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="685" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacdd7942df456145c6efbf9d6524f3f88" prot="public" static="no" mutable="no">
         <type></type>
@@ -35657,7 +35727,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="678" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="678" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="686" column="6" bodyfile="MRMesh/MRMeshFwd.h" bodystart="686" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga78658d7e2559b2c2ecccd1003dc75e04" prot="public" static="no" mutable="no">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -35671,7 +35741,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="722" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="722" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="730" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="730" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac090ec24cc989c66ab1dbc182cb43c87" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
@@ -35691,7 +35761,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="790" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="790" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="798" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="798" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &gt; *</type>
@@ -94800,32 +94870,32 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MREdgePathsBuilder.h" line="288" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga078240069e2589b3b272e96f0d08ce76" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MR::EdgePoint::EdgePoint</definition>
+        <definition>MR::EdgePointT&lt; T &gt;::EdgePointT</definition>
         <argsstring>()=default</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
+        <name>EdgePointT</name>
+        <qualifiedname>MR::EdgePointT::EdgePointT</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="18" column="6"/>
+        <location file="MRMesh/MREdgePoint.h" line="19" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga59c3405157910f18f6c985c4534a35be" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>MR::EdgePoint::EdgePoint</definition>
-        <argsstring>(EdgeId e, float a)</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
+        <definition>MR::EdgePointT&lt; T &gt;::EdgePointT</definition>
+        <argsstring>(EdgeId e, T a)</argsstring>
+        <name>EdgePointT</name>
+        <qualifiedname>MR::EdgePointT::EdgePointT</qualifiedname>
         <param>
           <type>EdgeId</type>
           <declname>e</declname>
         </param>
         <param>
-          <type>float</type>
+          <type>T</type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -94834,38 +94904,16 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="19" column="6" bodyfile="MRMesh/MREdgePoint.h" bodystart="19" bodyend="19"/>
+        <location file="MRMesh/MREdgePoint.h" line="20" column="6" bodyfile="MRMesh/MREdgePoint.h" bodystart="20" bodyend="20"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga75bd37e42e9c418a1c8e1e3a4add7df8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga31cbc8e7ee997c15a527add4040c25c5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MR::EdgePoint::EdgePoint</definition>
+        <definition>MR::EdgePointT&lt; T &gt;::EdgePointT</definition>
         <argsstring>(const MeshTopology &amp;topology, VertId v)</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
+        <name>EdgePointT</name>
+        <qualifiedname>MR::EdgePointT::EdgePointT</qualifiedname>
         <param>
           <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="20" column="7"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gabf9d35f92cc4beea8706c99342746cae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::EdgePoint::EdgePoint</definition>
-        <argsstring>(const PolylineTopology &amp;topology, VertId v)</argsstring>
-        <name>EdgePoint</name>
-        <qualifiedname>MR::EdgePoint::EdgePoint</qualifiedname>
-        <param>
-          <type>const PolylineTopology &amp;</type>
           <declname>topology</declname>
         </param>
         <param>
@@ -94880,12 +94928,34 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MREdgePoint.h" line="21" column="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab60af61aa5bac1603ef31e8928b85ee9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf707d8c7f59dcc89bf1ea725d0727245" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgePointT&lt; T &gt;::EdgePointT</definition>
+        <argsstring>(const PolylineTopology &amp;topology, VertId v)</argsstring>
+        <name>EdgePointT</name>
+        <qualifiedname>MR::EdgePointT::EdgePointT</qualifiedname>
+        <param>
+          <type>const PolylineTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgePoint.h" line="22" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gafa7fd9899efb99de7fed0eefb05c9cde" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
-        <definition>VertId MR::EdgePoint::inVertex</definition>
+        <definition>VertId MR::EdgePointT&lt; T &gt;::inVertex</definition>
         <argsstring>(const MeshTopology &amp;topology) const</argsstring>
         <name>inVertex</name>
-        <qualifiedname>MR::EdgePoint::inVertex</qualifiedname>
+        <qualifiedname>MR::EdgePointT::inVertex</qualifiedname>
         <param>
           <type>const MeshTopology &amp;</type>
           <declname>topology</declname>
@@ -94897,14 +94967,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="24" column="14"/>
+        <location file="MRMesh/MREdgePoint.h" line="25" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2f4528985a24290ac4841fc3d3c4c154" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf3e28d16ebf75161a0190243debe63d8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
-        <definition>VertId MR::EdgePoint::inVertex</definition>
+        <definition>VertId MR::EdgePointT&lt; T &gt;::inVertex</definition>
         <argsstring>(const PolylineTopology &amp;topology) const</argsstring>
         <name>inVertex</name>
-        <qualifiedname>MR::EdgePoint::inVertex</qualifiedname>
+        <qualifiedname>MR::EdgePointT::inVertex</qualifiedname>
         <param>
           <type>const PolylineTopology &amp;</type>
           <declname>topology</declname>
@@ -94916,14 +94986,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="26" column="14"/>
+        <location file="MRMesh/MREdgePoint.h" line="27" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa1479493ea4e74cdf5ad200c64a70bca" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga7dcdc86f7256be5b5e2d886499c688a5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
-        <definition>VertId MR::EdgePoint::getClosestVertex</definition>
+        <definition>VertId MR::EdgePointT&lt; T &gt;::getClosestVertex</definition>
         <argsstring>(const MeshTopology &amp;topology) const</argsstring>
         <name>getClosestVertex</name>
-        <qualifiedname>MR::EdgePoint::getClosestVertex</qualifiedname>
+        <qualifiedname>MR::EdgePointT::getClosestVertex</qualifiedname>
         <param>
           <type>const MeshTopology &amp;</type>
           <declname>topology</declname>
@@ -94935,14 +95005,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="28" column="14"/>
+        <location file="MRMesh/MREdgePoint.h" line="29" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gabe93cfd47d9874d37127a15bf472d0d9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga6dac519a2b9501ad2e27c1b9846e93f3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
-        <definition>VertId MR::EdgePoint::getClosestVertex</definition>
+        <definition>VertId MR::EdgePointT&lt; T &gt;::getClosestVertex</definition>
         <argsstring>(const PolylineTopology &amp;topology) const</argsstring>
         <name>getClosestVertex</name>
-        <qualifiedname>MR::EdgePoint::getClosestVertex</qualifiedname>
+        <qualifiedname>MR::EdgePointT::getClosestVertex</qualifiedname>
         <param>
           <type>const PolylineTopology &amp;</type>
           <declname>topology</declname>
@@ -94954,14 +95024,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="30" column="14"/>
+        <location file="MRMesh/MREdgePoint.h" line="31" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga9f0019400e1885ce5da3be742d5af547" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MR::EdgePoint::inVertex</definition>
+        <definition>bool MR::EdgePointT&lt; T &gt;::inVertex</definition>
         <argsstring>() const</argsstring>
         <name>inVertex</name>
-        <qualifiedname>MR::EdgePoint::inVertex</qualifiedname>
+        <qualifiedname>MR::EdgePointT::inVertex</qualifiedname>
         <briefdescription>
 <para>returns true if the point is in a vertex </para>
         </briefdescription>
@@ -94969,14 +95039,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="32" column="11" bodyfile="MRMesh/MREdgePoint.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MREdgePoint.h" line="33" column="11" bodyfile="MRMesh/MREdgePoint.h" bodystart="33" bodyend="33"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga429607b228841ae5a81e3382863d9c99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gab05efd9fbdec1c8274cbcdc12722fe53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void MR::EdgePoint::moveToClosestVertex</definition>
+        <definition>void MR::EdgePointT&lt; T &gt;::moveToClosestVertex</definition>
         <argsstring>()</argsstring>
         <name>moveToClosestVertex</name>
-        <qualifiedname>MR::EdgePoint::moveToClosestVertex</qualifiedname>
+        <qualifiedname>MR::EdgePointT::moveToClosestVertex</qualifiedname>
         <briefdescription>
 <para>sets this to the closest end of the edge </para>
         </briefdescription>
@@ -94984,14 +95054,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="34" column="11"/>
+        <location file="MRMesh/MREdgePoint.h" line="35" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga65c535dd9e71f4eed91c90f04ff007f8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga0e4a25d014a289be406af1c41173c2bc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MR::EdgePoint::isBd</definition>
+        <definition>bool MR::EdgePointT&lt; T &gt;::isBd</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr) const</argsstring>
         <name>isBd</name>
-        <qualifiedname>MR::EdgePoint::isBd</qualifiedname>
+        <qualifiedname>MR::EdgePointT::isBd</qualifiedname>
         <param>
           <type>const MeshTopology &amp;</type>
           <declname>topology</declname>
@@ -95008,14 +95078,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="36" column="12"/>
+        <location file="MRMesh/MREdgePoint.h" line="37" column="12"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf0830c781cdfc67653c788b2211341bf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MR::EdgePoint::valid</definition>
+        <definition>bool MR::EdgePointT&lt; T &gt;::valid</definition>
         <argsstring>() const</argsstring>
         <name>valid</name>
-        <qualifiedname>MR::EdgePoint::valid</qualifiedname>
+        <qualifiedname>MR::EdgePointT::valid</qualifiedname>
         <briefdescription>
 <para>consider this valid if the edge ID is valid </para>
         </briefdescription>
@@ -95023,28 +95093,28 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="39" column="11" bodyfile="MRMesh/MREdgePoint.h" bodystart="39" bodyend="39"/>
+        <location file="MRMesh/MREdgePoint.h" line="40" column="11" bodyfile="MRMesh/MREdgePoint.h" bodystart="40" bodyend="40"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga72afd5541163c06c93d4957d6d18a308" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>MR::EdgePoint::operator bool</definition>
+        <definition>MR::EdgePointT&lt; T &gt;::operator bool</definition>
         <argsstring>() const</argsstring>
         <name>operator bool</name>
-        <qualifiedname>MR::EdgePoint::operator bool</qualifiedname>
+        <qualifiedname>MR::EdgePointT::operator bool</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="40" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="40" bodyend="40"/>
+        <location file="MRMesh/MREdgePoint.h" line="41" column="15" bodyfile="MRMesh/MREdgePoint.h" bodystart="41" bodyend="41"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgePoint</type>
-        <definition>EdgePoint MR::EdgePoint::sym</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa29d3ed6355ced519e967726484dc72d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgePointT</type>
+        <definition>EdgePointT MR::EdgePointT&lt; T &gt;::sym</definition>
         <argsstring>() const</argsstring>
         <name>sym</name>
-        <qualifiedname>MR::EdgePoint::sym</qualifiedname>
+        <qualifiedname>MR::EdgePointT::sym</qualifiedname>
         <briefdescription>
 <para>represents the same point relative to sym edge in </para>
         </briefdescription>
@@ -95052,16 +95122,16 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="43" column="16" bodyfile="MRMesh/MREdgePoint.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MREdgePoint.h" line="44" column="17" bodyfile="MRMesh/MREdgePoint.h" bodystart="44" bodyend="44"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaafdf9399f4a83f11c40d3ebea98de071" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MR::EdgePoint::operator==</definition>
-        <argsstring>(const EdgePoint &amp;rhs) const =default</argsstring>
+        <definition>bool MR::EdgePointT&lt; T &gt;::operator==</definition>
+        <argsstring>(const EdgePointT &amp;rhs) const =default</argsstring>
         <name>operator==</name>
-        <qualifiedname>MR::EdgePoint::operator==</qualifiedname>
+        <qualifiedname>MR::EdgePointT::operator==</qualifiedname>
         <param>
-          <type>const EdgePoint &amp;</type>
+          <type>const EdgePointT &amp;</type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -95071,7 +95141,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="45" column="11"/>
+        <location file="MRMesh/MREdgePoint.h" line="46" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8e206529d8c003b0ea8ab3b6bb80f0f7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -95098,7 +95168,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="49" column="8" declfile="MRMesh/MREdgePoint.h" declline="49" declcolumn="8"/>
+        <location file="MRMesh/MREdgePoint.h" line="50" column="8" declfile="MRMesh/MREdgePoint.h" declline="50" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -95112,7 +95182,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="56" column="5"/>
+        <location file="MRMesh/MREdgePoint.h" line="57" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -95134,7 +95204,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="57" column="5" bodyfile="MRMesh/MREdgePoint.h" bodystart="57" bodyend="57"/>
+        <location file="MRMesh/MREdgePoint.h" line="58" column="5" bodyfile="MRMesh/MREdgePoint.h" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -95153,41 +95223,41 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="59" column="10"/>
+        <location file="MRMesh/MREdgePoint.h" line="60" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gadbe97beb7bc790ab2d46f0863a5bbacf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gada3157584160d268f80f9a5fab72182c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MR::EdgeSegment::EdgeSegment</definition>
+        <definition>MR::EdgeSegmentT&lt; T &gt;::EdgeSegmentT</definition>
         <argsstring>()=default</argsstring>
-        <name>EdgeSegment</name>
-        <qualifiedname>MR::EdgeSegment::EdgeSegment</qualifiedname>
+        <name>EdgeSegmentT</name>
+        <qualifiedname>MR::EdgeSegmentT::EdgeSegmentT</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="71" column="6"/>
+        <location file="MRMesh/MREdgePoint.h" line="73" column="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2cd476f962cb44bbb72355daf9bd9735" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gae2a28f0de5ae33cfdd9b60f5ad231d4e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>MR::EdgeSegment::EdgeSegment</definition>
-        <argsstring>(EdgeId e, float a=0.0f, float b=1.0f)</argsstring>
-        <name>EdgeSegment</name>
-        <qualifiedname>MR::EdgeSegment::EdgeSegment</qualifiedname>
+        <definition>MR::EdgeSegmentT&lt; T &gt;::EdgeSegmentT</definition>
+        <argsstring>(EdgeId e, T a=0, T b=1)</argsstring>
+        <name>EdgeSegmentT</name>
+        <qualifiedname>MR::EdgeSegmentT::EdgeSegmentT</qualifiedname>
         <param>
           <type>EdgeId</type>
           <declname>e</declname>
         </param>
         <param>
-          <type>float</type>
+          <type>T</type>
           <declname>a</declname>
-          <defval>0.0f</defval>
+          <defval>0</defval>
         </param>
         <param>
-          <type>float</type>
+          <type>T</type>
           <declname>b</declname>
-          <defval>1.0f</defval>
+          <defval>1</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -95195,44 +95265,44 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="72" column="6" bodyfile="MRMesh/MREdgePoint.h" bodystart="72" bodyend="72"/>
+        <location file="MRMesh/MREdgePoint.h" line="74" column="6" bodyfile="MRMesh/MREdgePoint.h" bodystart="74" bodyend="74"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1d81986816953f871379b4fd7f212b0f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgePoint</type>
-        <definition>EdgePoint MR::EdgeSegment::edgePointA</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga29b819c5c62cb662cfb8bbce87d9f7be" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgePointT&lt; T &gt;</type>
+        <definition>EdgePointT&lt; T &gt; MR::EdgeSegmentT&lt; T &gt;::edgePointA</definition>
         <argsstring>() const</argsstring>
         <name>edgePointA</name>
-        <qualifiedname>MR::EdgeSegment::edgePointA</qualifiedname>
+        <qualifiedname>MR::EdgeSegmentT::edgePointA</qualifiedname>
         <briefdescription>
-<para>returns starting <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> </para>
+<para>returns starting EdgePoint </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="74" column="16" bodyfile="MRMesh/MREdgePoint.h" bodystart="74" bodyend="74"/>
+        <location file="MRMesh/MREdgePoint.h" line="76" column="17" bodyfile="MRMesh/MREdgePoint.h" bodystart="76" bodyend="76"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaea79b437b030390db5737ed448df376c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgePoint</type>
-        <definition>EdgePoint MR::EdgeSegment::edgePointB</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga29090de2295c6b3437463b6f39d50510" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgePointT&lt; T &gt;</type>
+        <definition>EdgePointT&lt; T &gt; MR::EdgeSegmentT&lt; T &gt;::edgePointB</definition>
         <argsstring>() const</argsstring>
         <name>edgePointB</name>
-        <qualifiedname>MR::EdgeSegment::edgePointB</qualifiedname>
+        <qualifiedname>MR::EdgeSegmentT::edgePointB</qualifiedname>
         <briefdescription>
-<para>returns ending <ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref> </para>
+<para>returns ending EdgePoint </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="76" column="16" bodyfile="MRMesh/MREdgePoint.h" bodystart="76" bodyend="76"/>
+        <location file="MRMesh/MREdgePoint.h" line="78" column="17" bodyfile="MRMesh/MREdgePoint.h" bodystart="78" bodyend="78"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaaed1cd16846104a721ea8ee3f83cb046" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga214653b779a4522f109338dae1067598" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MR::EdgeSegment::valid</definition>
+        <definition>bool MR::EdgeSegmentT&lt; T &gt;::valid</definition>
         <argsstring>() const</argsstring>
         <name>valid</name>
-        <qualifiedname>MR::EdgeSegment::valid</qualifiedname>
+        <qualifiedname>MR::EdgeSegmentT::valid</qualifiedname>
         <briefdescription>
 <para>returns true if the edge is valid and start point is less than end point </para>
         </briefdescription>
@@ -95240,16 +95310,16 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="78" column="11" bodyfile="MRMesh/MREdgePoint.h" bodystart="78" bodyend="78"/>
+        <location file="MRMesh/MREdgePoint.h" line="80" column="11" bodyfile="MRMesh/MREdgePoint.h" bodystart="80" bodyend="80"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab68223c4ba6ec2ad9ef572c8ef6c929b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gab9e0ea27a1614f0f9979235fa160bd82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
-        <definition>bool MR::EdgeSegment::operator==</definition>
-        <argsstring>(const EdgeSegment &amp;rhs) const =default</argsstring>
+        <definition>bool MR::EdgeSegmentT&lt; T &gt;::operator==</definition>
+        <argsstring>(const EdgeSegmentT &amp;rhs) const =default</argsstring>
         <name>operator==</name>
-        <qualifiedname>MR::EdgeSegment::operator==</qualifiedname>
+        <qualifiedname>MR::EdgeSegmentT::operator==</qualifiedname>
         <param>
-          <type>const EdgeSegment &amp;</type>
+          <type>const EdgeSegmentT &amp;</type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -95258,14 +95328,14 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="80" column="10"/>
+        <location file="MRMesh/MREdgePoint.h" line="82" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga58bb10eea905d9ba81c91be627dfad8d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>EdgeSegment</type>
-        <definition>EdgeSegment MR::EdgeSegment::sym</definition>
+      <memberdef kind="function" id="group__GeneralGroup_1ga5f8acb3a6790ee93ffc8b23dc3f8a991" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>EdgeSegmentT</type>
+        <definition>EdgeSegmentT MR::EdgeSegmentT&lt; T &gt;::sym</definition>
         <argsstring>() const</argsstring>
         <name>sym</name>
-        <qualifiedname>MR::EdgeSegment::sym</qualifiedname>
+        <qualifiedname>MR::EdgeSegmentT::sym</qualifiedname>
         <briefdescription>
 <para>represents the same segment relative to sym edge in </para>
         </briefdescription>
@@ -95273,7 +95343,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="82" column="18" bodyfile="MRMesh/MREdgePoint.h" bodystart="82" bodyend="82"/>
+        <location file="MRMesh/MREdgePoint.h" line="84" column="19" bodyfile="MRMesh/MREdgePoint.h" bodystart="84" bodyend="84"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga69cec6f928a8d5e51752ad80d4b57a6b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
@@ -113318,10 +113388,10 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshFwd.h" line="459" column="6" declfile="MRMesh/MRMeshFwd.h" declline="459" declcolumn="6"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3b86c0635148207af3c42589fb521b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga2ab7486d501ce047d28cf8208b6c8501" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::SegmPoint&lt; float &gt;</definition>
-        <argsstring>(SegmPointd, SegmPoint&lt; double &gt;)) struct EdgePoint</argsstring>
+        <argsstring>(SegmPointd, SegmPoint&lt; double &gt;)) 1((template&lt; typename T &gt; struct)</argsstring>
         <name>SegmPoint&lt; float &gt;</name>
         <qualifiedname>MR::SegmPoint&lt; float &gt;</qualifiedname>
         <param>
@@ -113336,7 +113406,47 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="472" column="6" declfile="MRMesh/MRMeshFwd.h" declline="472" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="472" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1a7a521c17a2e95c2f6e94c3199cd135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgePointT&lt; float &gt;</definition>
+        <argsstring>(EdgePointd, EdgePointT&lt; double &gt;)) 1((template&lt; typename T &gt; struct)</argsstring>
+        <name>EdgePointT&lt; float &gt;</name>
+        <qualifiedname>MR::EdgePointT&lt; float &gt;</qualifiedname>
+        <param>
+          <type>EdgePointd</type>
+        </param>
+        <param>
+          <type>EdgePointT&lt; double &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="477" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga07e9e4fd9071c2935508179121960b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgeSegmentT&lt; float &gt;</definition>
+        <argsstring>(EdgeSegmentd, EdgeSegmentT&lt; double &gt;)) using EdgePointf</argsstring>
+        <name>EdgeSegmentT&lt; float &gt;</name>
+        <qualifiedname>MR::EdgeSegmentT&lt; float &gt;</qualifiedname>
+        <param>
+          <type>EdgeSegmentd</type>
+        </param>
+        <param>
+          <type>EdgeSegmentT&lt; double &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFwd.h" line="481" column="6" declfile="MRMesh/MRMeshFwd.h" declline="481" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8554dff48c157c37bb29bdf97fb1a148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113356,7 +113466,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="495" column="6" declfile="MRMesh/MRMeshFwd.h" declline="495" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="503" column="6" declfile="MRMesh/MRMeshFwd.h" declline="503" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacac5737ffa7f53925156e25e8825e2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113386,7 +113496,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf60378ba8d73c4b704f025b2e3cb794b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113407,7 +113517,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga937386adcc94bddd2ad6e08e67913e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113427,7 +113537,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9ab78cd91b5f3ab474f75cc8f1bf16fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113447,7 +113557,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga439dd4e9c2f13c560c5372c4c987f04f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113468,7 +113578,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0ad370c3276db583d6145b62a3404eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113488,7 +113598,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf07dba3af327f2390be8f392fc6e53e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113508,7 +113618,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga374d9f637dc91009a8ab07155ebf8568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113528,7 +113638,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8a2dd0eff31eff9de22ae770f2e078d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113548,7 +113658,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ba1fe2582adfab5d693549fab8e4df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113568,7 +113678,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae5a0dc0ec72979e77357933fff648914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113588,7 +113698,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7965f4340f8a05292212679b11b6c867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113608,7 +113718,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8068a609ed1b503e57eb9c8ce892fd8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113628,7 +113738,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac616f611dfed813824b64b0632ec27ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113648,7 +113758,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="527" column="34" declfile="MRMesh/MRMeshFwd.h" declline="527" declcolumn="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="535" column="34" declfile="MRMesh/MRMeshFwd.h" declline="535" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e69561d8c59d6cbfe5db9199465db72" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -113675,7 +113785,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="578" column="14" bodyfile="MRMesh/MRMeshFwd.h" bodystart="578" bodyend="581"/>
+        <location file="MRMesh/MRMeshFwd.h" line="586" column="14" bodyfile="MRMesh/MRMeshFwd.h" bodystart="586" bodyend="589"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1d5cc23c99d2f46783d60010d13d31f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113703,7 +113813,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="588" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="596" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabf67c17ae441516a38345057213cc4c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113723,7 +113833,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="588" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="596" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7352d9729644e3fd4d02dd5131bdc652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>struct <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113743,7 +113853,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="588" column="34"/>
+        <location file="MRMesh/MRMeshFwd.h" line="596" column="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac2467062511884bec34fc4442102c639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113768,7 +113878,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="649" column="33"/>
+        <location file="MRMesh/MRMeshFwd.h" line="657" column="33"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e15a094341523800c2e66c4b9d0fff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113788,7 +113898,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="660" column="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="668" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga14ff904b44efe8d73deea9652e3f2713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113808,7 +113918,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="665" column="6" declfile="MRMesh/MRMeshFwd.h" declline="665" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="673" column="6" declfile="MRMesh/MRMeshFwd.h" declline="673" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7f89f4dcc97050f3d73c1175acce317f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113828,7 +113938,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="665" column="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="673" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4e70bdb857b2a4beb1d18fc4bfc9f3a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -113848,7 +113958,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="678" column="6" declfile="MRMesh/MRMeshFwd.h" declline="678" declcolumn="6"/>
+        <location file="MRMesh/MRMeshFwd.h" line="686" column="6" declfile="MRMesh/MRMeshFwd.h" declline="686" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaad2f9beb5428f10d81959d6f9e33b662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -113873,7 +113983,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="739" column="32"/>
+        <location file="MRMesh/MRMeshFwd.h" line="747" column="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cfa531260155650235a24f3d1e8dfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -113893,7 +114003,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="739" column="32" declfile="MRMesh/MRMeshFwd.h" declline="739" declcolumn="32"/>
+        <location file="MRMesh/MRMeshFwd.h" line="747" column="32" declfile="MRMesh/MRMeshFwd.h" declline="747" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a8e1fa5c677ea23d7801ead67934dd7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113917,7 +114027,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="770" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="770" bodyend="770"/>
+        <location file="MRMesh/MRMeshFwd.h" line="778" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="778" bodyend="778"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga86bf24d57f63afab9354505400a0e82c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113941,7 +114051,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="774" column="22" bodyfile="MRMesh/MRMeshFwd.h" bodystart="774" bodyend="774"/>
+        <location file="MRMesh/MRMeshFwd.h" line="782" column="22" bodyfile="MRMesh/MRMeshFwd.h" bodystart="782" bodyend="782"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8bbe103235cb82270d98d373ac2da406" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113969,7 +114079,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="778" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="778" bodyend="778"/>
+        <location file="MRMesh/MRMeshFwd.h" line="786" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="786" bodyend="786"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafe7f9b1ee8498444247bc2793cbe7f8c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -113997,7 +114107,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="783" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="783" bodyend="783"/>
+        <location file="MRMesh/MRMeshFwd.h" line="791" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="791" bodyend="791"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabedf6d080f6840c8f336d5bce0c9f87a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -114032,7 +114142,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="787" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="787" bodyend="787"/>
+        <location file="MRMesh/MRMeshFwd.h" line="795" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="795" bodyend="795"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -114057,7 +114167,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="797" column="1" declfile="MRMesh/MRMeshFwd.h" declline="797" declcolumn="1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="805" column="1" declfile="MRMesh/MRMeshFwd.h" declline="805" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114076,7 +114186,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="816" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="816" bodyend="816"/>
+        <location file="MRMesh/MRMeshFwd.h" line="824" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="824" bodyend="824"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114098,7 +114208,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="817" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="817" bodyend="817"/>
+        <location file="MRMesh/MRMeshFwd.h" line="825" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="825" bodyend="825"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7aee4117439f47322227fe3a7c202c0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114124,7 +114234,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="818" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="818" bodyend="818"/>
+        <location file="MRMesh/MRMeshFwd.h" line="826" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="826" bodyend="826"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf79f1e699d7f8cf7f45d6fd8208503d4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114154,7 +114264,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="819" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="819" bodyend="819"/>
+        <location file="MRMesh/MRMeshFwd.h" line="827" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="827" bodyend="827"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -206665,62 +206775,6 @@ actually all zeros </para>
 <para>only for OpenVDB accessor, which is not thread-safe</para>
         </inbodydescription>
         <location file="MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="93" column="10" bodyfile="MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="93" bodyend="110"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa0bfe5c7c18c2a1dff71abfb4bd48404" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool fromSameTriangle</definition>
-        <argsstring>(const MeshTopology &amp;topology, EdgePoint &amp;a, EdgePoint &amp;b)</argsstring>
-        <name>fromSameTriangle</name>
-        <qualifiedname>MR::EdgePoint::fromSameTriangle</qualifiedname>
-        <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>EdgePoint &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>EdgePoint &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns true if points a and b are located on a boundary of the same triangle;</para>
-<para>if true a.e and b.e are updated to have that triangle on the left </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="88" column="8" declfile="MRMesh/MREdgePoint.h" declline="88" declcolumn="8"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool fromSameTriangle</definition>
-        <argsstring>(const MeshTopology &amp;topology, EdgePoint &amp;&amp;a, EdgePoint &amp;&amp;b)</argsstring>
-        <name>fromSameTriangle</name>
-        <qualifiedname>MR::EdgePoint::fromSameTriangle</qualifiedname>
-        <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>EdgePoint &amp;&amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>EdgePoint &amp;&amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns true if points a and b are located on a boundary of the same triangle;</para>
-<para>if true a.e and b.e are updated to have that triangle on the left </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MREdgePoint.h" line="92" column="14" bodyfile="MRMesh/MREdgePoint.h" bodystart="92" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9daf64aad4fef868e611ff192efae554" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>

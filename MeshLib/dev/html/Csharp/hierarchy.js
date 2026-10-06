@@ -846,11 +846,17 @@ var hierarchy =
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", [
         [ "MR.EdgePointPair", "classMR_1_1EdgePointPair.html", null ]
       ] ],
+      [ "MR.Const_EdgePointd", "classMR_1_1Const__EdgePointd.html", [
+        [ "MR.EdgePointd", "classMR_1_1EdgePointd.html", null ]
+      ] ],
       [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", [
         [ "MR.EdgeScalars", "classMR_1_1EdgeScalars.html", null ]
       ] ],
       [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", [
         [ "MR.EdgeSegment", "classMR_1_1EdgeSegment.html", null ]
+      ] ],
+      [ "MR.Const_EdgeSegmentd", "classMR_1_1Const__EdgeSegmentd.html", [
+        [ "MR.EdgeSegmentd", "classMR_1_1EdgeSegmentd.html", null ]
       ] ],
       [ "MR.Const_EdgeSetBitIterator", "classMR_1_1Const__EdgeSetBitIterator.html", [
         [ "MR.EdgeSetBitIterator", "classMR_1_1EdgeSetBitIterator.html", null ]
@@ -3394,8 +3400,10 @@ var hierarchy =
       [ "MR.Const_EdgeMap", "classMR_1_1Const__EdgeMap.html", null ],
       [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ],
+      [ "MR.Const_EdgePointd", "classMR_1_1Const__EdgePointd.html", null ],
       [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ],
       [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", null ],
+      [ "MR.Const_EdgeSegmentd", "classMR_1_1Const__EdgeSegmentd.html", null ],
       [ "MR.Const_EdgeSetBitIterator", "classMR_1_1Const__EdgeSetBitIterator.html", null ],
       [ "MR.Const_EdgeTri", "classMR_1_1Const__EdgeTri.html", null ],
       [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ],
@@ -3873,8 +3881,10 @@ var hierarchy =
       [ "MR.Const_EdgePathsBuilderT_MRTrivialMetricToPenalty.Const_ReachedVert", "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty_1_1Const__ReachedVert.html", null ],
       [ "MR.Const_EdgePoint", "classMR_1_1Const__EdgePoint.html", null ],
       [ "MR.Const_EdgePointPair", "classMR_1_1Const__EdgePointPair.html", null ],
+      [ "MR.Const_EdgePointd", "classMR_1_1Const__EdgePointd.html", null ],
       [ "MR.Const_EdgeScalars", "classMR_1_1Const__EdgeScalars.html", null ],
       [ "MR.Const_EdgeSegment", "classMR_1_1Const__EdgeSegment.html", null ],
+      [ "MR.Const_EdgeSegmentd", "classMR_1_1Const__EdgeSegmentd.html", null ],
       [ "MR.Const_EdgeSetBitIterator", "classMR_1_1Const__EdgeSetBitIterator.html", null ],
       [ "MR.Const_EdgeTri", "classMR_1_1Const__EdgeTri.html", null ],
       [ "MR.Const_Edges", "classMR_1_1Const__Edges.html", null ],

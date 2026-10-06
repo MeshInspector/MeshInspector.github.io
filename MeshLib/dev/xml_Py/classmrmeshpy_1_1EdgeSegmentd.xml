@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgeSegmentd" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgeSegmentd</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeSegmentd_1a06cd0a545df94ad1f6e9e77a55e96543" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeSegmentd::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17933" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeSegmentd_1adc0b7e27b4f4db27a04284963a6f31c4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeSegmentd::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd._offsetof_a</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17934" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17934" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeSegmentd_1a35c2b0d4fe4c58eee9f93607965be609" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeSegmentd::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd._offsetof_b</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17935" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeSegmentd_1a0bf8d9abdf522d1bab3c6ed3774e8acf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeSegmentd::_offsetof_e</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_e</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd._offsetof_e</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17936" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a1b6d2b79d77e5e5349fde1e27ec08011" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17939" bodyend="17940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a51e52f795f7b4cb066ba814ec3307cbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeSegmentd" kindref="compound">EdgeSegmentd</ref></type>
+        <definition> EdgeSegmentd mrmeshpy.EdgeSegmentd.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17943" bodyend="17944"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a51e52f795f7b4cb066ba814ec3307cbd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeSegmentd" kindref="compound">EdgeSegmentd</ref></type>
+        <definition> EdgeSegmentd mrmeshpy.EdgeSegmentd.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17947" bodyend="17948"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1ab5ce1582ab48a399e317cae5b1ed6d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeSegmentd.__eq__</definition>
+        <argsstring>(self, EdgeSegmentd rhs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegmentd" kindref="compound">EdgeSegmentd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17949" bodyend="17950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a01eb45e83cc7b234d1ab93568f05631f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17952" bodyend="17953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1ae5b60fd4ec96d753ab1f13aa27ea313d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.__init__</definition>
+        <argsstring>(self, EdgeId e, float a=0, float b=1)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17955" bodyend="17956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1af36d5ea4967cff6d6ed61889e35a6223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.__init__</definition>
+        <argsstring>(self, EdgeSegmentd arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegmentd" kindref="compound">EdgeSegmentd</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17958" bodyend="17961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a1e4ad674a6fc5c4b978a09c80c3f57c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePointd" kindref="compound">EdgePointd</ref></type>
+        <definition> EdgePointd mrmeshpy.EdgeSegmentd.edgePointA</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgePointA</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.edgePointA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns starting EdgePoint
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17962" bodyend="17965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a472b08665b0b6f646295166f93142619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePointd" kindref="compound">EdgePointd</ref></type>
+        <definition> EdgePointd mrmeshpy.EdgeSegmentd.edgePointB</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgePointB</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.edgePointB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns ending EdgePoint
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17966" bodyend="17969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1aa3b90017b98bc4729160f550872fbf28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeSegmentd" kindref="compound">EdgeSegmentd</ref></type>
+        <definition> EdgeSegmentd mrmeshpy.EdgeSegmentd.sym</definition>
+        <argsstring>(self)</argsstring>
+        <name>sym</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.sym</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>represents the same segment relative to sym edge in
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17970" bodyend="17973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a990e9a2a29a040458f40b16441657de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeSegmentd.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the edge is valid and start point is less than end point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17974" bodyend="17977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a9f87cc5113b48d354755d28401581802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SegmPointd" kindref="compound">SegmPointd</ref></type>
+        <definition> SegmPointd mrmeshpy.EdgeSegmentd.a</definition>
+        <argsstring>(self)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>start of the segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17979" bodyend="17982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a41b09fb9c0d69c7bcb06e2a859ee366a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.a</definition>
+        <argsstring>(self, SegmPointd arg1)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SegmPointd" kindref="compound">SegmPointd</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17984" bodyend="17985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1abe24daf4f4f093ffb0b2e3032424c2b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SegmPointd" kindref="compound">SegmPointd</ref></type>
+        <definition> SegmPointd mrmeshpy.EdgeSegmentd.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>end of the segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17987" bodyend="17990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1ad43bf70715fe19f1e00266b64e0c1d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.b</definition>
+        <argsstring>(self, SegmPointd arg1)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SegmPointd" kindref="compound">SegmPointd</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17992" bodyend="17993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a5116608dd14dd7ce651ace1eb4e3812b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeSegmentd.e</definition>
+        <argsstring>(self)</argsstring>
+        <name>e</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.e</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>id of the edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17995" bodyend="17998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeSegmentd_1a4dc70920b981d7080b0f4057246134e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeSegmentd.e</definition>
+        <argsstring>(self, EdgeId arg1)</argsstring>
+        <name>e</name>
+        <qualifiedname>mrmeshpy.EdgeSegmentd.e</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18000" bodyend="18001"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgeSegmentd
+
+Represents a segment on one edge
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17927" bodyend="18001"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1ab5ce1582ab48a399e317cae5b1ed6d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a06cd0a545df94ad1f6e9e77a55e96543" prot="private" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a1b6d2b79d77e5e5349fde1e27ec08011" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a01eb45e83cc7b234d1ab93568f05631f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1ae5b60fd4ec96d753ab1f13aa27ea313d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1af36d5ea4967cff6d6ed61889e35a6223" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1adc0b7e27b4f4db27a04284963a6f31c4" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a35c2b0d4fe4c58eee9f93607965be609" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a0bf8d9abdf522d1bab3c6ed3774e8acf" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>_offsetof_e</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a9f87cc5113b48d354755d28401581802" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a41b09fb9c0d69c7bcb06e2a859ee366a" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1abe24daf4f4f093ffb0b2e3032424c2b9" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1ad43bf70715fe19f1e00266b64e0c1d06" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a5116608dd14dd7ce651ace1eb4e3812b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>e</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a4dc70920b981d7080b0f4057246134e3" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>e</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a1e4ad674a6fc5c4b978a09c80c3f57c2" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>edgePointA</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a472b08665b0b6f646295166f93142619" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>edgePointB</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a51e52f795f7b4cb066ba814ec3307cbd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a51e52f795f7b4cb066ba814ec3307cbd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1aa3b90017b98bc4729160f550872fbf28" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>sym</name></member>
+      <member refid="classmrmeshpy_1_1EdgeSegmentd_1a990e9a2a29a040458f40b16441657de6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeSegmentd</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
