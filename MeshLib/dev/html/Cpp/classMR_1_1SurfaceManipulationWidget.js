@@ -90,6 +90,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "sameOriginalMeshTopology_", "group__GeneralGroup.html#ga32f9a2a3b8c9d57623374cb94a70f8b6", null ],
     [ "settings_", "group__GeneralGroup.html#ga1470ce9a66bc6a7554b36d69c81102e1", null ],
     [ "singleEditingRegion_", "group__GeneralGroup.html#ga2bb3cc2556966f7a514fefa8774cf9b9", null ],
+    [ "smoothHistoryAction_", "group__GeneralGroup.html#ga75283e02567950af1335626fd38bd98d", null ],
     [ "storedDown_", "group__GeneralGroup.html#ga07b29d80acee8bb71f3b36cf6f3c61d3", null ],
     [ "touchVertId_", "group__GeneralGroup.html#ga3fb404481401039261c3c4d8d7272b08", null ],
     [ "touchVertIniPos_", "group__GeneralGroup.html#ga90ca984430afc6677edfa65a39a5d5bb", null ],

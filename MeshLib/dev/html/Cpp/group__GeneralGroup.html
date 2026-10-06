@@ -10386,7 +10386,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gad1d907cbe938c1010826d617b7b662e8" id="r_gad1d907cbe938c1010826d617b7b662e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1d907cbe938c1010826d617b7b662e8">MR::SurfaceManipulationWidget::compressChangePointsAction_</a> ()</td></tr>
 <tr class="memitem:ga9480cf2e836bdd55ef97b31078472b78" id="r_ga9480cf2e836bdd55ef97b31078472b78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9480cf2e836bdd55ef97b31078472b78">MR::SurfaceManipulationWidget::subdivideAfterAddRemove_</a> ()</td></tr>
 <tr class="memitem:gac824dfb2a9c89c4a4904e04151d6dfdb" id="r_gac824dfb2a9c89c4a4904e04151d6dfdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac824dfb2a9c89c4a4904e04151d6dfdb">MR::SurfaceManipulationWidget::markSelectedEdgesAsCreases_</a> ()</td></tr>
-<tr class="memdesc:gac824dfb2a9c89c4a4904e04151d6dfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">selected edges having a face in generalEditingRegion_ become creases (with undo)  <br /></td></tr>
+<tr class="memdesc:gac824dfb2a9c89c4a4904e04151d6dfdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">selected edges having a face in generalEditingRegion_ become creases, undone together with the smoothing  <br /></td></tr>
 <tr class="memitem:gadf5109d449597873be4c158a237ce02f" id="r_gadf5109d449597873be4c158a237ce02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf5109d449597873be4c158a237ce02f">MR::SurfaceManipulationWidget::updateDistancesAndRegion_</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;start, VertScalars &amp;distances, VertBitSet &amp;region, const VertBitSet *untouchable)</td></tr>
 <tr class="memitem:ga0e9391f8516c7ce8bfa47457eac393de" id="r_ga0e9391f8516c7ce8bfa47457eac393de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e9391f8516c7ce8bfa47457eac393de">MR::SurfacePointWidget::~SurfacePointWidget</a> ()</td></tr>
 <tr class="memitem:gaadc0a7d57266cccc5ac9edfc261e5671" id="r_gaadc0a7d57266cccc5ac9edfc261e5671"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="#ga3c6c4a3a98a6d5a53b51d05984395fa3">PickedPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaadc0a7d57266cccc5ac9edfc261e5671">MR::SurfacePointWidget::create</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &amp;surface, const <a class="el" href="structMR_1_1PointOnObject.html">PointOnObject</a> &amp;startPos)</td></tr>
@@ -14498,6 +14498,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga8bb8e8fac1549f326e6cba81c77c7a15" id="r_ga8bb8e8fac1549f326e6cba81c77c7a15"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VersatileChangeMeshPointsAction.html">VersatileChangeMeshPointsAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8bb8e8fac1549f326e6cba81c77c7a15">MR::SurfaceManipulationWidget::historyAction_</a></td></tr>
 <tr class="memitem:ga09c56116fa4c39bcc7554e4142816027" id="r_ga09c56116fa4c39bcc7554e4142816027"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga09c56116fa4c39bcc7554e4142816027">MR::SurfaceManipulationWidget::appendHistoryAction_</a> = false</td></tr>
 <tr class="memdesc:ga09c56116fa4c39bcc7554e4142816027"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if historyAction_ is prepared but not yet appended to <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>, which is done on first mouse move  <br /></td></tr>
+<tr class="memitem:ga75283e02567950af1335626fd38bd98d" id="r_ga75283e02567950af1335626fd38bd98d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75283e02567950af1335626fd38bd98d">MR::SurfaceManipulationWidget::smoothHistoryAction_</a></td></tr>
+<tr class="memdesc:ga75283e02567950af1335626fd38bd98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">in Relax mode with relaxMarkCreases, wraps historyAction_ in <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>, and receives the creases change on mouse up  <br /></td></tr>
 <tr class="memitem:ga3853225f96fef25c2dbce20227c54c7d" id="r_ga3853225f96fef25c2dbce20227c54c7d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1Palette.html">Palette</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3853225f96fef25c2dbce20227c54c7d">MR::SurfaceManipulationWidget::palette_</a></td></tr>
 <tr class="memitem:ga08839c74598549c345ed5f06ffaa769f" id="r_ga08839c74598549c345ed5f06ffaa769f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08839c74598549c345ed5f06ffaa769f">MR::SurfaceManipulationWidget::enableDeviationTexture_</a> = false</td></tr>
 <tr class="memitem:ga4f7ed13fa0a8080d470fade319e360f7" id="r_ga4f7ed13fa0a8080d470fade319e360f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga07fc1d71375854270d1a16b8d06209f4">DeviationCalculationMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f7ed13fa0a8080d470fade319e360f7">MR::SurfaceManipulationWidget::deviationCalculationMethod_</a> = <a class="el" href="#gga07fc1d71375854270d1a16b8d06209f4ac93a47dc243a30fb1778ef562c03732c">DeviationCalculationMethod::ExactDistance</a></td></tr>
@@ -120385,7 +120387,7 @@ template&lt;typename ValueT, typename IndexT&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRSurfaceManipulationWidget_8h.html">MRViewer/MRSurfaceManipulationWidget.h</a>&gt;</code></p>
 
-<p>selected edges having a face in generalEditingRegion_ become creases (with undo) </p>
+<p>selected edges having a face in generalEditingRegion_ become creases, undone together with the smoothing </p>
 
 </div>
 </div>
@@ -233896,6 +233898,30 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface. </p>
+
+</div>
+</div>
+<a id="ga75283e02567950af1335626fd38bd98d" name="ga75283e02567950af1335626fd38bd98d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75283e02567950af1335626fd38bd98d">&#9670;&#160;</a></span>smoothHistoryAction_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a>&gt; MR::SurfaceManipulationWidget::smoothHistoryAction_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>in Relax mode with relaxMarkCreases, wraps historyAction_ in <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>, and receives the creases change on mouse up </p>
 
 </div>
 </div>

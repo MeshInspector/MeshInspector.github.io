@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html":[9,0,1,0,1,16,10,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html":[9,0,2,0,2,7,10,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a17831741c05ccdf8eb71b79f1239dd82":[9,0,1,0,1,16,10,1,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html#a17831741c05ccdf8eb71b79f1239dd82":[9,0,2,0,2,7,10,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Mcp_1_1Server_1_1Params.html#aed25300f1cd5c8f887d17e5f49656d51":[9,0,1,0,1,21,1,0,0],
 "structMR_1_1Mcp_1_1Server_1_1Params.html#aed25300f1cd5c8f887d17e5f49656d51":[9,0,2,0,2,10,1,0,0],
 "structMR_1_1MenuItemCaptionSize.html":[9,0,0,20,701],
-"structMR_1_1MenuItemInfo.html":[9,0,0,20,703],
-"structMR_1_1MenuItemShortcut.html":[9,0,0,20,702]
+"structMR_1_1MenuItemInfo.html":[9,0,0,20,703]
 };
