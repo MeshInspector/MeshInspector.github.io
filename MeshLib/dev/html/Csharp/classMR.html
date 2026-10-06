@@ -9777,7 +9777,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a894f476f6c88ae1369eb922217e2ad25" id="r_a894f476f6c88ae1369eb922217e2ad25"><td class="memItemLeft" align="right" valign="top">static unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a894f476f6c88ae1369eb922217e2ad25">deactivateFarPairs</a> (<a class="el" href="classMR_1_1IPointPairs.html">MR.IPointPairs</a> pairs, float maxDistSq)</td></tr>
 <tr class="memdesc:a894f476f6c88ae1369eb922217e2ad25"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset active bit if pair distance is further than maxDistSq Generated from function <span class="tt"><a class="el" href="#a894f476f6c88ae1369eb922217e2ad25" title="reset active bit if pair distance is further than maxDistSq Generated from function MR....">MR.deactivateFarPairs</a></span>.  <br /></td></tr>
 <tr class="memitem:a04df1ae413ed90a70e4f0fe6704b85ea" id="r_a04df1ae413ed90a70e4f0fe6704b85ea"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04df1ae413ed90a70e4f0fe6704b85ea">updatePointPairs</a> (<a class="el" href="classMR_1_1PointPairs.html">MR.PointPairs</a> pairs, <a class="el" href="classMR_1_1Const__MeshOrPointsXf.html">MR.Const_MeshOrPointsXf</a> src, <a class="el" href="classMR_1_1Const__MeshOrPointsXf.html">MR.Const_MeshOrPointsXf</a> tgt, float cosThreshold, float distThresholdSq, bool mutualClosest, bool ignoreBdTgts)</td></tr>
-<tr class="memdesc:a04df1ae413ed90a70e4f0fe6704b85ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation) Generated from function <span class="tt"><a class="el" href="#a04df1ae413ed90a70e4f0fe6704b85ea" title="in each pair updates the target data and performs basic filtering (activation) Generated from functio...">MR.updatePointPairs</a></span>.  <br /></td></tr>
+<tr class="memdesc:a04df1ae413ed90a70e4f0fe6704b85ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation); pair weights are not changed Generated from function <span class="tt"><a class="el" href="#a04df1ae413ed90a70e4f0fe6704b85ea" title="in each pair updates the target data and performs basic filtering (activation); pair weights are not ...">MR.updatePointPairs</a></span>.  <br /></td></tr>
 <tr class="memitem:ac95af8b58253b4d617b325e074bd8a86" id="r_ac95af8b58253b4d617b325e074bd8a86"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95af8b58253b4d617b325e074bd8a86">improveSampling</a> (<a class="el" href="classMR_1_1Const__PointCloud.html">MR.Const_PointCloud</a> cloud, <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a> samples, <a class="el" href="classMR_1_1Const__ImproveSamplingSettings.html">MR.Const_ImproveSamplingSettings</a> settings)</td></tr>
 <tr class="memdesc:ac95af8b58253b4d617b325e074bd8a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds more representative sampling starting from a given one following k-means method;.  <br /></td></tr>
 <tr class="memitem:a3614c4bae635d1b8bc8e7f2a2749015c" id="r_a3614c4bae635d1b8bc8e7f2a2749015c"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1ShellVertexInfo.html">MR.ShellVertexInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3614c4bae635d1b8bc8e7f2a2749015c">classifyShellVert</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> shellPoint, <a class="el" href="classMR_1_1Const__FindInnerShellSettings.html">MR.Const_FindInnerShellSettings</a>? settings=null)</td></tr>
@@ -11029,6 +11029,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a83e0b345b01c84fd05648c47894e2c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given two line segments AB and CD located in one plane, finds whether they intersect and if yes, computes their common point using integer-only arithmetic Generated from function <span class="tt"><a class="el" href="#a83e0b345b01c84fd05648c47894e2c0e" title="given two line segments AB and CD located in one plane, finds whether they intersect and if yes,...">MR.findTwoSegmentsIntersection</a></span>.  <br /></td></tr>
 <tr class="memitem:a7e89a2556d434b92264d95fe54699665" id="r_a7e89a2556d434b92264d95fe54699665"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e89a2556d434b92264d95fe54699665">findTriangleSegmentIntersectionPrecise</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> a, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> b, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> c, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> d, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> e, <a class="el" href="classMR_1_1Const__CoordinateConverters.html">MR.Const_CoordinateConverters</a> converters)</td></tr>
 <tr class="memdesc:a7e89a2556d434b92264d95fe54699665"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds intersection precise, using high precision int inside this function input should have intersection Generated from function <span class="tt"><a class="el" href="#a7e89a2556d434b92264d95fe54699665" title="finds intersection precise, using high precision int inside this function input should have intersect...">MR.findTriangleSegmentIntersectionPrecise</a></span>.  <br /></td></tr>
+<tr class="memitem:a91436cd7c8c095f42abc8b02ecec5bc4" id="r_a91436cd7c8c095f42abc8b02ecec5bc4"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Optional_MRVector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91436cd7c8c095f42abc8b02ecec5bc4">findTriangleSegmentIntersectionPreciseInt</a> (in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> ai, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> bi, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> ci, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> di, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> ei)</td></tr>
+<tr class="memdesc:a91436cd7c8c095f42abc8b02ecec5bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides Generated from function <span class="tt"><a class="el" href="#a91436cd7c8c095f42abc8b02ecec5bc4" title="the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; return...">MR.findTriangleSegmentIntersectionPreciseInt</a></span>.  <br /></td></tr>
 <tr class="memitem:a509ce983082cbcf78709068fcc93747a" id="r_a509ce983082cbcf78709068fcc93747a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509ce983082cbcf78709068fcc93747a">vertMapsComposition</a> (<a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a> a2b, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> b2c)</td></tr>
 <tr class="memdesc:a509ce983082cbcf78709068fcc93747a"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates a2b map to a2c map using b2c map Generated from function <span class="tt"><a class="el" href="#a509ce983082cbcf78709068fcc93747a" title="updates a2b map to a2c map using b2c map Generated from function MR.vertMapsComposition.">MR.vertMapsComposition</a></span>.  <br /></td></tr>
 <tr class="memitem:ab0f972ede287facff67841df1dbe415b" id="r_ab0f972ede287facff67841df1dbe415b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0f972ede287facff67841df1dbe415b">vertMapsComposition</a> (<a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> a2b, <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a> b2c)</td></tr>
@@ -13203,7 +13205,7 @@ Related Symbols</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a90fcd9e2a74e2161a52251e979ed957dacabf254f8195fce8d901b3cce7092ea9" name="a90fcd9e2a74e2161a52251e979ed957dacabf254f8195fce8d901b3cce7092ea9"></a>PointToPoint&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between two points in each pair, it is the safest approach but can converge slowly </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" name="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="classMR_1_1ICP.html#ae35290c0364a69e16bdd1c5d32fa68ea" title="select pairs with origin samples on floating object Generated from method MR.ICP.setFltSamples.">MR.ICP.setFltSamples()</a></span> or <span class="tt"><a class="el" href="classMR_1_1ICP.html#a41baf3890175819ccd69e3d3e59908df" title="select pairs with origin samples on reference object Generated from method MR.ICP....">MR.ICP.setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
+<tr><td class="fieldname"><a id="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" name="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="classMR_1_1ICP.html#ae35290c0364a69e16bdd1c5d32fa68ea" title="select pairs with origin samples on floating object; setFltSamples weights each pair by the double ar...">MR.ICP.setFltSamples()</a></span> or <span class="tt"><a class="el" href="classMR_1_1ICP.html#a41baf3890175819ccd69e3d3e59908df" title="select pairs with origin samples on reference object, weighted the same way as for floating object Ge...">MR.ICP.setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
 </td></tr>
 </table>
 
@@ -49714,6 +49716,52 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 
 </div>
 </div>
+<a id="a91436cd7c8c095f42abc8b02ecec5bc4" name="a91436cd7c8c095f42abc8b02ecec5bc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91436cd7c8c095f42abc8b02ecec5bc4">&#9670;&#160;</a></span>findTriangleSegmentIntersectionPreciseInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Optional_MRVector3i MR.findTriangleSegmentIntersectionPreciseInt </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>ai</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>bi</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>ci</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>di</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>ei</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides Generated from function <span class="tt"><a class="el" href="#a91436cd7c8c095f42abc8b02ecec5bc4" title="the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; return...">MR.findTriangleSegmentIntersectionPreciseInt</a></span>. </p>
+
+</div>
+</div>
 <a id="a8d96a4f3543974831c8fc6cf4406ee39" name="a8d96a4f3543974831c8fc6cf4406ee39"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8d96a4f3543974831c8fc6cf4406ee39">&#9670;&#160;</a></span>findTriExitPos() <span class="overload">[1/2]</span></h2>
 
@@ -75964,7 +76012,7 @@ default metric: ComplexStitchMetric. </p>
 </table>
 </div><div class="memdoc">
 
-<p>in each pair updates the target data and performs basic filtering (activation) Generated from function <span class="tt"><a class="el" href="#a04df1ae413ed90a70e4f0fe6704b85ea" title="in each pair updates the target data and performs basic filtering (activation) Generated from functio...">MR.updatePointPairs</a></span>. </p>
+<p>in each pair updates the target data and performs basic filtering (activation); pair weights are not changed Generated from function <span class="tt"><a class="el" href="#a04df1ae413ed90a70e4f0fe6704b85ea" title="in each pair updates the target data and performs basic filtering (activation); pair weights are not ...">MR.updatePointPairs</a></span>. </p>
 
 </div>
 </div>

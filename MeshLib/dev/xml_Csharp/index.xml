@@ -17030,6 +17030,8 @@
     <member refid="classMR_1_1Const__ICP_1aa37c735f395dc50ad64cc50962bac1c3" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1a2c1b354fe4c7a6f5320bbad409508ff0" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1af287d5873bcb6650f925f64d6b706be1" kind="function"><name>Const_ICP</name></member>
+    <member refid="classMR_1_1Const__ICP_1a46c970eb426c4006d1795e5b54367e25" kind="function"><name>Const_ICP</name></member>
+    <member refid="classMR_1_1Const__ICP_1aed584c57ed2f5cad58da6a172b82f3b7" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1a2c12ff1f17c72c5c34d23c191bafd21e" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1a64750361729c199e93884b318d94de8d" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1a4f2d5578d6e08ec63100e0f35f919a97" kind="function"><name>getParams</name></member>
@@ -17044,9 +17046,11 @@
     <member refid="classMR_1_1Const__ICP_1ab603b5e56dcf99db5b753b78933dfabd" kind="function"><name>Const_ICP</name></member>
     <member refid="classMR_1_1Const__ICP_1a98cb51132fa57227e6ecb2b69c67dd67" kind="function"><name>__MR_ICP_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__ICP_1acabf58255e50c5c7c184c5fa42925b09" kind="function"><name>__MR_ICP_Construct_3</name></member>
-    <member refid="classMR_1_1Const__ICP_1af1f564d06e06da2b5923d1625204b7ef" kind="function"><name>__MR_ICP_Construct_4</name></member>
+    <member refid="classMR_1_1Const__ICP_1a4f51653de23452c0bbc600e066101dd8" kind="function"><name>__MR_ICP_Construct_4_MR_VertBitSet</name></member>
+    <member refid="classMR_1_1Const__ICP_1a6bd5ffd60b7650c8fc36c173ad4f464f" kind="function"><name>__MR_ICP_Construct_4_std_vector_MR_WeightedVertex</name></member>
     <member refid="classMR_1_1Const__ICP_1af00bcf0420ff8e91577638c800891ea1" kind="function"><name>__MR_ICP_Construct_5</name></member>
-    <member refid="classMR_1_1Const__ICP_1a5034f87e6943fa14487740cfe1895406" kind="function"><name>__MR_ICP_Construct_6</name></member>
+    <member refid="classMR_1_1Const__ICP_1aa9fc81d1a78470e063cadbe17e0db219" kind="function"><name>__MR_ICP_Construct_6_MR_VertBitSet</name></member>
+    <member refid="classMR_1_1Const__ICP_1ac10207a71136f2a8e6f105d2977c347f" kind="function"><name>__MR_ICP_Construct_6_std_vector_MR_WeightedVertex</name></member>
     <member refid="classMR_1_1Const__ICP_1a0bd72f3ad4e0973990df8401d026509d" kind="function"><name>__MR_ICP_Destroy</name></member>
     <member refid="classMR_1_1Const__ICP_1a0bea029946e6bee2b47fa6f2ad2ef9f2" kind="function"><name>__MR_ICP_getFlt2RefPairs</name></member>
     <member refid="classMR_1_1Const__ICP_1a9067ceffbbd83df56b87e85c71437d7c" kind="function"><name>__MR_ICP_getMeanSqDistToPlane</name></member>
@@ -47162,6 +47166,8 @@
     <member refid="classMR_1_1ICP_1a50d460c339a6a0e81d337b6fd97a10af" kind="function"><name>ICP</name></member>
     <member refid="classMR_1_1ICP_1a68a663f06b7db2e362f75db9b5aadda3" kind="function"><name>ICP</name></member>
     <member refid="classMR_1_1ICP_1a54d6d6c986cd5374c5bc2c87714a671d" kind="function"><name>ICP</name></member>
+    <member refid="classMR_1_1ICP_1a71ae4987fb977d80b4a3403a0bdb08a9" kind="function"><name>ICP</name></member>
+    <member refid="classMR_1_1ICP_1a32612375b91db81b334ba471d200d2e0" kind="function"><name>ICP</name></member>
     <member refid="classMR_1_1ICP_1a9cc948b5a419c12cd9ebe4b5b6a11ef9" kind="function"><name>ICP</name></member>
     <member refid="classMR_1_1ICP_1ad73194130b2c49c87763dc2fc5c890af" kind="function"><name>ICP</name></member>
     <member refid="classMR_1_1ICP_1adb64130fb34f494c2a32095b9661aee6" kind="function"><name>assign</name></member>
@@ -47183,9 +47189,11 @@
     <member refid="classMR_1_1ICP_1a829b3471c0b4fcabfd395ff443a60c9b" kind="function"><name>__MR_ICP_AssignFromAnother</name></member>
     <member refid="classMR_1_1ICP_1aa61361dfcb47e999d8ba487062f986cd" kind="function"><name>__MR_ICP_ConstructFromAnother</name></member>
     <member refid="classMR_1_1ICP_1af2c0e1df7d85fdbfd1537fec71a87004" kind="function"><name>__MR_ICP_Construct_3</name></member>
-    <member refid="classMR_1_1ICP_1a1c547fa33214d70e1f1a4eed340f174d" kind="function"><name>__MR_ICP_Construct_4</name></member>
+    <member refid="classMR_1_1ICP_1a5829f42b9ee8824140c587f57813ac1c" kind="function"><name>__MR_ICP_Construct_4_MR_VertBitSet</name></member>
+    <member refid="classMR_1_1ICP_1a3defc8da975956744c852f997d9263ef" kind="function"><name>__MR_ICP_Construct_4_std_vector_MR_WeightedVertex</name></member>
     <member refid="classMR_1_1ICP_1a32c8622eaeaa3af9584ca295994961cc" kind="function"><name>__MR_ICP_Construct_5</name></member>
-    <member refid="classMR_1_1ICP_1a51828f9e01263ba1ba2e0c33c532a326" kind="function"><name>__MR_ICP_Construct_6</name></member>
+    <member refid="classMR_1_1ICP_1a41b7318dae0fec0c792c98639402dd31" kind="function"><name>__MR_ICP_Construct_6_MR_VertBitSet</name></member>
+    <member refid="classMR_1_1ICP_1a7dd96c47737939b41da077f48f8d39a0" kind="function"><name>__MR_ICP_Construct_6_std_vector_MR_WeightedVertex</name></member>
     <member refid="classMR_1_1ICP_1a1fc6973adc8a4e60f595c663e9a069fb" kind="function"><name>__MR_ICP_autoSelectFloatXf</name></member>
     <member refid="classMR_1_1ICP_1a546db55d4d6176a05d80cd2c48348a23" kind="function"><name>__MR_ICP_calculateTransformation</name></member>
     <member refid="classMR_1_1ICP_1a9c8e6827efb020e3e2f70117d5530e98" kind="function"><name>__MR_ICP_sampleFltPoints</name></member>
@@ -52928,6 +52936,7 @@
     <member refid="classMR_1ad55ef072e0ff043883e05497366d51d5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="classMR_1a83e0b345b01c84fd05648c47894e2c0e" kind="function"><name>findTwoSegmentsIntersection</name></member>
     <member refid="classMR_1a7e89a2556d434b92264d95fe54699665" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="classMR_1a91436cd7c8c095f42abc8b02ecec5bc4" kind="function"><name>findTriangleSegmentIntersectionPreciseInt</name></member>
     <member refid="classMR_1a509ce983082cbcf78709068fcc93747a" kind="function"><name>vertMapsComposition</name></member>
     <member refid="classMR_1ab0f972ede287facff67841df1dbe415b" kind="function"><name>vertMapsComposition</name></member>
     <member refid="classMR_1a1c7fcbc46b0140ab62da2ea6fafa28ab" kind="function"><name>edgeMapsComposition</name></member>
@@ -54759,6 +54768,7 @@
     <member refid="classMR_1a2ca6795594ace0eefcd4a1ec7fa7b332" kind="function"><name>__MR_computeIntCoords</name></member>
     <member refid="classMR_1a3dfd9404ac97c4aec24a21b7429d2782" kind="function"><name>__MR_doTriangleSegmentIntersect</name></member>
     <member refid="classMR_1a947f7c7aa44024ab2dce2757050dbbe8" kind="function"><name>__MR_findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="classMR_1af9a602a7a932cdee31b6f7663196cb42" kind="function"><name>__MR_findTriangleSegmentIntersectionPreciseInt</name></member>
     <member refid="classMR_1a3f3bd1ab9e303a9fba91b84a4980c23b" kind="function"><name>__MR_findTwoSegmentsIntersection</name></member>
     <member refid="classMR_1a9eeaa740b5f03410cbb36593bdfc7ecd" kind="function"><name>__MR_getToFloatConverter</name></member>
     <member refid="classMR_1a754f99ed4b5dc3fddd5054ebd33b3131" kind="function"><name>__MR_getToIntConverter</name></member>

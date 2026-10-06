@@ -145,6 +145,7 @@ $(function(){initNavTree('MRICP_8h.html','',''); });
 <code>#include &quot;<a class="el" href="MRConstants_8h_source.html">MRConstants.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAffineXf_8h_source.html">MRAffineXf.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRBitSet_8h_source.html">MRBitSet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMeshTriPoint_8h_source.html">MRMeshTriPoint.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
 </div>
 <p><a href="MRICP_8h_source.html">Go to the source code of this file.</a></p>
@@ -186,7 +187,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9381989fd9c2bfbded47dacbf86d0aee" id="r_ga9381989fd9c2bfbded47dacbf86d0aee"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9381989fd9c2bfbded47dacbf86d0aee">MR::deactivateFarPairs</a> (<a class="el" href="structMR_1_1IPointPairs.html">IPointPairs</a> &amp;pairs, float maxDistSq)</td></tr>
 <tr class="memdesc:ga9381989fd9c2bfbded47dacbf86d0aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset active bit if pair distance is further than maxDistSq  <br /></td></tr>
 <tr class="memitem:ga1301b1c633de237705ebc76fcbd215df" id="r_ga1301b1c633de237705ebc76fcbd215df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1301b1c633de237705ebc76fcbd215df">MR::updatePointPairs</a> (<a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;src, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;tgt, float cosThreshold, float distThresholdSq, bool mutualClosest, bool ignoreBdTgts)</td></tr>
-<tr class="memdesc:ga1301b1c633de237705ebc76fcbd215df"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation)  <br /></td></tr>
+<tr class="memdesc:ga1301b1c633de237705ebc76fcbd215df"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation); pair weights are not changed  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

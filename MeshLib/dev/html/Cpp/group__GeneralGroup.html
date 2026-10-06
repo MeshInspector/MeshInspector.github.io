@@ -4989,9 +4989,11 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga9381989fd9c2bfbded47dacbf86d0aee" id="r_ga9381989fd9c2bfbded47dacbf86d0aee"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9381989fd9c2bfbded47dacbf86d0aee">MR::deactivateFarPairs</a> (<a class="el" href="structMR_1_1IPointPairs.html">IPointPairs</a> &amp;pairs, float maxDistSq)</td></tr>
 <tr class="memdesc:ga9381989fd9c2bfbded47dacbf86d0aee"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset active bit if pair distance is further than maxDistSq  <br /></td></tr>
 <tr class="memitem:ga1301b1c633de237705ebc76fcbd215df" id="r_ga1301b1c633de237705ebc76fcbd215df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1301b1c633de237705ebc76fcbd215df">MR::updatePointPairs</a> (<a class="el" href="structMR_1_1PointPairs.html">PointPairs</a> &amp;pairs, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;src, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;tgt, float cosThreshold, float distThresholdSq, bool mutualClosest, bool ignoreBdTgts)</td></tr>
-<tr class="memdesc:ga1301b1c633de237705ebc76fcbd215df"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation)  <br /></td></tr>
+<tr class="memdesc:ga1301b1c633de237705ebc76fcbd215df"><td class="mdescLeft">&#160;</td><td class="mdescRight">in each pair updates the target data and performs basic filtering (activation); pair weights are not changed  <br /></td></tr>
 <tr class="memitem:gabf8abfc1336998ff9b7f0baff945f17f" id="r_gabf8abfc1336998ff9b7f0baff945f17f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabf8abfc1336998ff9b7f0baff945f17f">MR::ICP::ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</td></tr>
 <tr class="memitem:ga176b1bc0e8f03f9db115cb8e5894ff14" id="r_ga176b1bc0e8f03f9db115cb8e5894ff14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga176b1bc0e8f03f9db115cb8e5894ff14">MR::ICP::ICP</a> (const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;flt, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;ref, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</td></tr>
+<tr class="memitem:ga95a8266663f52f5442b8b30c105495e5" id="r_ga95a8266663f52f5442b8b30c105495e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga95a8266663f52f5442b8b30c105495e5">MR::ICP::ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, const std::vector&lt; WeightedVertexf &gt; &amp;fltSamples, const std::vector&lt; WeightedVertexf &gt; &amp;refSamples)</td></tr>
+<tr class="memitem:gad5f4abee52607307b0e47d4d04559473" id="r_gad5f4abee52607307b0e47d4d04559473"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5f4abee52607307b0e47d4d04559473">MR::ICP::ICP</a> (const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;flt, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;ref, const std::vector&lt; WeightedVertexf &gt; &amp;fltSamples, const std::vector&lt; WeightedVertexf &gt; &amp;refSamples)</td></tr>
 <tr class="memitem:ga78b77e51102c8f0da1a67c2f90dd0449" id="r_ga78b77e51102c8f0da1a67c2f90dd0449"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga78b77e51102c8f0da1a67c2f90dd0449">MR::ICP::ICP</a> (const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;flt, const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;ref, const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf, float samplingVoxelSize)</td></tr>
 <tr class="memitem:gad1944f4e241f23e28b47d4fcf882869b" id="r_gad1944f4e241f23e28b47d4fcf882869b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1944f4e241f23e28b47d4fcf882869b">MR::ICP::ICP</a> (const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;flt, const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;ref, float samplingVoxelSize)</td></tr>
 <tr class="memitem:ga432cc96b69c08b035a5c6bf6bf8919da" id="r_ga432cc96b69c08b035a5c6bf6bf8919da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga432cc96b69c08b035a5c6bf6bf8919da">MR::ICP::setParams</a> (const <a class="el" href="structMR_1_1ICPProperties.html">ICPProperties</a> &amp;prop)</td></tr>
@@ -5001,10 +5003,9 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga88482e98d2aeaf3ce210222c82b564c4" id="r_ga88482e98d2aeaf3ce210222c82b564c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88482e98d2aeaf3ce210222c82b564c4">MR::ICP::setBadIterCount</a> (const int iter)</td></tr>
 <tr class="memitem:ga6fcc01ef678556ea9ba8a4afdb839374" id="r_ga6fcc01ef678556ea9ba8a4afdb839374"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6fcc01ef678556ea9ba8a4afdb839374">MR::ICP::setFarDistFactor</a> (const float <a class="el" href="#ggaa2579613f677dcb6e5d4112ae3f95f4ca742f32c65ffd18b766fa307f8de2d47d">factor</a>)</td></tr>
 <tr class="memitem:gaa6195ab12431f72e5d49e783f2411c81" id="r_gaa6195ab12431f72e5d49e783f2411c81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa6195ab12431f72e5d49e783f2411c81">MR::ICP::setFltSamples</a> (const VertBitSet &amp;fltSamples)</td></tr>
-<tr class="memdesc:gaa6195ab12431f72e5d49e783f2411c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on floating object  <br /></td></tr>
 <tr class="memitem:ga7f572bc2fdfab2f29e537e947494d549" id="r_ga7f572bc2fdfab2f29e537e947494d549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f572bc2fdfab2f29e537e947494d549">MR::ICP::sampleFltPoints</a> (float samplingVoxelSize)</td></tr>
 <tr class="memitem:ga033946f0665c58cf3f65b7bdd9732679" id="r_ga033946f0665c58cf3f65b7bdd9732679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga033946f0665c58cf3f65b7bdd9732679">MR::ICP::setRefSamples</a> (const VertBitSet &amp;refSamples)</td></tr>
-<tr class="memdesc:ga033946f0665c58cf3f65b7bdd9732679"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on reference object  <br /></td></tr>
+<tr class="memdesc:ga033946f0665c58cf3f65b7bdd9732679"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on reference object, weighted the same way as for floating object  <br /></td></tr>
 <tr class="memitem:gae55a8bd90c0c0c8c817a58f4d10bdc97" id="r_gae55a8bd90c0c0c8c817a58f4d10bdc97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae55a8bd90c0c0c8c817a58f4d10bdc97">MR::ICP::sampleRefPoints</a> (float samplingVoxelSize)</td></tr>
 <tr class="memitem:ga56cde0df43df6f53274400daea013890" id="r_ga56cde0df43df6f53274400daea013890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56cde0df43df6f53274400daea013890">MR::ICP::samplePoints</a> (float samplingVoxelSize)</td></tr>
 <tr class="memdesc:ga56cde0df43df6f53274400daea013890"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on both objects  <br /></td></tr>
@@ -15580,6 +15581,7 @@ Friends</h2></td></tr>
 <tr class="memitem:gabad3bcfedc022e24fc08968b846a21b5" id="r_gabad3bcfedc022e24fc08968b846a21b5"><td class="memItemLeft" align="right" valign="top">VertCoords&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gabad3bcfedc022e24fc08968b846a21b5">MR::computeFloatCoords</a> (const <a class="el" href="structMR_1_1ConvertToFloatVector.html">ConvertToFloatVector</a> &amp;conv, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; Vector3i, VertId &gt; &amp;intCoords, const VertBitSet *valid=nullptr)</td></tr>
 <tr class="memitem:ga4a25b52ef9a47a48d91540efe6f61bcd" id="r_ga4a25b52ef9a47a48d91540efe6f61bcd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd">MR::findTwoSegmentsIntersection</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di)</td></tr>
 <tr class="memitem:gaab6e7e21a9eac612957d5e6b91637769" id="r_gaab6e7e21a9eac612957d5e6b91637769"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769">MR::findTriangleSegmentIntersectionPrecise</a> (const Vector3f &amp;a, const Vector3f &amp;b, const Vector3f &amp;c, const Vector3f &amp;d, const Vector3f &amp;e, <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> converters)</td></tr>
+<tr class="memitem:ga67bcae2090ea4cb7ddaa3649e817b040" id="r_ga67bcae2090ea4cb7ddaa3649e817b040"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3i &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040">MR::findTriangleSegmentIntersectionPreciseInt</a> (const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di, const Vector3i &amp;ei)</td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291" id="r_gac1420892e3e154a187396a8dd5e65291"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gac1420892e3e154a187396a8dd5e65291 template"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; T, 2, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#gac1420892e3e154a187396a8dd5e65291">MR::toEigen</a> (const <a class="el" href="structMR_1_1Vector2.html">Vector2</a>&lt; T &gt; &amp;v)</td></tr>
 <tr class="memitem:ga57c0e085976ff3667bcc12e402216d6e" id="r_ga57c0e085976ff3667bcc12e402216d6e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -25406,7 +25408,7 @@ template&lt;typename Tag&gt; </div>
 <tr><td class="fieldname"><a id="ggadc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9" name="ggadc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9"></a>PointToPoint&#160;</td><td class="fielddoc"><p>it is the safest approach but can converge slowly </p>
 <p>select transformation that minimizes mean squared distance between two points in each pair, </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed" name="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="#gaa6195ab12431f72e5d49e783f2411c81" title="select pairs with origin samples on floating object">MR::ICP::setFltSamples()</a></span> or <span class="tt"><a class="el" href="#ga033946f0665c58cf3f65b7bdd9732679" title="select pairs with origin samples on reference object">MR::ICP::setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
+<tr><td class="fieldname"><a id="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed" name="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="#gaa6195ab12431f72e5d49e783f2411c81">MR::ICP::setFltSamples()</a></span> or <span class="tt"><a class="el" href="#ga033946f0665c58cf3f65b7bdd9732679" title="select pairs with origin samples on reference object, weighted the same way as for floating object">MR::ICP::setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
 </td></tr>
 </table>
 
@@ -74062,6 +74064,53 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
+<a id="ga67bcae2090ea4cb7ddaa3649e817b040" name="ga67bcae2090ea4cb7ddaa3649e817b040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga67bcae2090ea4cb7ddaa3649e817b040">&#9670;&#160;</a></span>findTriangleSegmentIntersectionPreciseInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::optional&lt; Vector3i &gt; MR::findTriangleSegmentIntersectionPreciseInt </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ai</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>bi</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ci</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>di</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>ei</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRPrecisePredicates3_8h.html">MRMesh/MRPrecisePredicates3.h</a>&gt;</code></p>
+<p>the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides </p>
+
+</div>
+</div>
 <a id="ga50ad07fcc0f878c660e360bb5e342d0a" name="ga50ad07fcc0f878c660e360bb5e342d0a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga50ad07fcc0f878c660e360bb5e342d0a">&#9670;&#160;</a></span>findTriExitPos()</h2>
 
@@ -104432,8 +104481,60 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="ga95a8266663f52f5442b8b30c105495e5" name="ga95a8266663f52f5442b8b30c105495e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga95a8266663f52f5442b8b30c105495e5">&#9670;&#160;</a></span>ICP() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ICP::ICP </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>fltXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>refXf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; WeightedVertexf &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; WeightedVertexf &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
+<p>Constructs <a class="el" href="classMR_1_1ICP.html">ICP</a> framework with given sample points on both objects and the weights of their pairs, the weights stay fixed during the algorithm </p>
+
+</div>
+</div>
 <a id="gabf8abfc1336998ff9b7f0baff945f17f" name="gabf8abfc1336998ff9b7f0baff945f17f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabf8abfc1336998ff9b7f0baff945f17f">&#9670;&#160;</a></span>ICP() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf8abfc1336998ff9b7f0baff945f17f">&#9670;&#160;</a></span>ICP() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -104487,7 +104588,7 @@ template&lt;typename... Args&gt; </div>
     <tr><td class="paramname">fltXf</td><td>transformation from floating object space to global space </td></tr>
     <tr><td class="paramname">refXf</td><td>transformation from reference object space to global space </td></tr>
     <tr><td class="paramname">fltSamples</td><td>samples on floating object to find projections on the reference object during the algorithm </td></tr>
-    <tr><td class="paramname">refSamples</td><td>samples on reference object to find projections on the floating object during the algorithm </td></tr>
+    <tr><td class="paramname">refSamples</td><td>samples on reference object to find projections on the floating object during the algorithm the weight of each pair is the double area of mesh triangles around its sample vertex (1 for point clouds) </td></tr>
   </table>
   </dd>
 </dl>
@@ -104495,7 +104596,7 @@ template&lt;typename... Args&gt; </div>
 </div>
 </div>
 <a id="ga78b77e51102c8f0da1a67c2f90dd0449" name="ga78b77e51102c8f0da1a67c2f90dd0449"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga78b77e51102c8f0da1a67c2f90dd0449">&#9670;&#160;</a></span>ICP() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga78b77e51102c8f0da1a67c2f90dd0449">&#9670;&#160;</a></span>ICP() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -104543,15 +104644,48 @@ template&lt;typename... Args&gt; </div>
     <tr><td class="paramname">ref</td><td>reference object </td></tr>
     <tr><td class="paramname">fltXf</td><td>transformation from floating object space to global space </td></tr>
     <tr><td class="paramname">refXf</td><td>transformation from reference object space to global space </td></tr>
-    <tr><td class="paramname">samplingVoxelSize</td><td>approximate distance between samples on each of two objects </td></tr>
+    <tr><td class="paramname">samplingVoxelSize</td><td>approximate distance between samples on each of two objects all pairs get equal weights </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
+<a id="gad5f4abee52607307b0e47d4d04559473" name="gad5f4abee52607307b0e47d4d04559473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5f4abee52607307b0e47d4d04559473">&#9670;&#160;</a></span>ICP() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ICP::ICP </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>flt</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; WeightedVertexf &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>fltSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; WeightedVertexf &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>refSamples</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga176b1bc0e8f03f9db115cb8e5894ff14" name="ga176b1bc0e8f03f9db115cb8e5894ff14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga176b1bc0e8f03f9db115cb8e5894ff14">&#9670;&#160;</a></span>ICP() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga176b1bc0e8f03f9db115cb8e5894ff14">&#9670;&#160;</a></span>ICP() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -104584,7 +104718,7 @@ template&lt;typename... Args&gt; </div>
 </div>
 </div>
 <a id="gad1944f4e241f23e28b47d4fcf882869b" name="gad1944f4e241f23e28b47d4fcf882869b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad1944f4e241f23e28b47d4fcf882869b">&#9670;&#160;</a></span>ICP() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1944f4e241f23e28b47d4fcf882869b">&#9670;&#160;</a></span>ICP() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143134,7 +143268,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
-<p>this shall be called in order to start concurrent task execution with progress bar display please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
+<p>this shall be called in order to start concurrent task execution with progress bar display if another operation is ordered, starts after its post-processing, also if that one is canceled; waiting operations start in the order of calls please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
 
 </div>
 </div>
@@ -143227,7 +143361,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
-<p>in this version the task returns a function to be executed in main thread please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
+<p>in this version the task returns a function to be executed in main thread if another operation is ordered, starts after its post-processing, also if that one is canceled; waiting operations start in the order of calls please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
 
 </div>
 </div>
@@ -143256,7 +143390,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRProgressBar_8h.html">MRViewer/MRProgressBar.h</a>&gt;</code></p>
-<p>the task is spawned by the progress bar but the <span class="tt">finish</span> method is called from a callback please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
+<p>the task is spawned by the progress bar but the <span class="tt">finish</span> method is called from a callback if another operation is ordered, starts after its post-processing, also if that one is canceled; waiting operations start in the order of calls please call <a class="el" href="#ga5186ca7deffe05b352f5ce76760bd999" title="this function should be called only once for each frame (it is called in MR::Menu (MR::RibbonMenu))">setup()</a> first, otherwise this function just execute task directly </p>
 
 </div>
 </div>
@@ -168393,8 +168527,7 @@ ignored before <a class="el" href="#ga42056e56380a989d42601b9611494613" title="i
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
-
-<p>select pairs with origin samples on floating object </p>
+<p>select pairs with origin samples on floating object; setFltSamples weights each pair by the double area of mesh triangles around its sample vertex, sampleFltPoints performs grid sampling and gives all pairs equal weights </p>
 
 </div>
 </div>
@@ -172249,7 +172382,7 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
 
-<p>select pairs with origin samples on reference object </p>
+<p>select pairs with origin samples on reference object, weighted the same way as for floating object </p>
 
 </div>
 </div>
@@ -194060,7 +194193,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
 
-<p>in each pair updates the target data and performs basic filtering (activation) </p>
+<p>in each pair updates the target data and performs basic filtering (activation); pair weights are not changed </p>
 
 </div>
 </div>

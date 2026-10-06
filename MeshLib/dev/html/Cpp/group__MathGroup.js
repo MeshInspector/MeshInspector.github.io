@@ -195,6 +195,7 @@ var group__MathGroup =
     [ "MR::doTriangleSegmentIntersect", "group__MathGroup.html#ga4b162fc9a97cef14dfdf9a7dfc6bf34f", null ],
     [ "MR::edgeCoveringRadiusSq", "group__MathGroup.html#ga95bae9bf748cf3afac3e19c5a26d62d4", null ],
     [ "MR::findTriangleSegmentIntersectionPrecise", "group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
+    [ "MR::findTriangleSegmentIntersectionPreciseInt", "group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040", null ],
     [ "MR::findTwoSegmentsIntersection", "group__MathGroup.html#ga4a25b52ef9a47a48d91540efe6f61bcd", null ],
     [ "MR::fromEigen", "group__MathGroup.html#ga3f97fcf1b362e9c60d8a596aa8d1de68", null ],
     [ "MR::fromEigen", "group__MathGroup.html#ga49129aa06221938faa98e6295f0d790b", null ],

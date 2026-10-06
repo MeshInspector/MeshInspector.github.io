@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__SmoothCameraMeshDepthSettings.html#aef55a8c600b3ab8aada6d15250ed4e0d":[9,3,0,0,0,847,7],
+"classMR_1_1Const__SmoothFillingSettings.html":[9,3,0,0,0,848],
+"classMR_1_1Const__SmoothFillingSettings.html#a29f5f44fa9a192acfb483609e0a77608":[9,3,0,0,0,848,11],
 "classMR_1_1Const__SmoothFillingSettings.html#a32bc10ef492cf65264a604f765a27dcd":[9,3,0,0,0,848,0],
 "classMR_1_1Const__SmoothFillingSettings.html#a3d7b9c46de15f8466ce008c5531d38cc":[9,3,0,0,0,848,9],
 "classMR_1_1Const__SmoothFillingSettings.html#a676be1d8e572865a6d1677e5928fd2e6":[9,3,0,0,0,848,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SplineSettings.html#a8abb548415d85f1c9a334434a3a59c2b":[9,3,0,0,0,858,12],
 "classMR_1_1Const__SplineSettings.html#a94d416785df829aa19205571d8877084":[9,3,0,0,0,858,7],
 "classMR_1_1Const__SplineSettings.html#a95dd56ce407fa6eed372fa3ec1943acc":[9,3,0,0,0,858,2],
-"classMR_1_1Const__SplineSettings.html#a9e83eeb2d727b4400a0c6c8b8f907500":[9,3,0,0,0,858,0],
-"classMR_1_1Const__SplineSettings.html#aa5e9f30b9235de84049f0d6ba0d4edfb":[9,3,0,0,0,858,8],
-"classMR_1_1Const__SplineSettings.html#aa7bacc94a546cf521aa3f9ecfbeac2b6":[9,3,0,0,0,858,13],
-"classMR_1_1Const__SplineSettings.html#aca669ca035951a9b6d9871ff3689ef87":[9,3,0,0,0,858,6]
+"classMR_1_1Const__SplineSettings.html#a9e83eeb2d727b4400a0c6c8b8f907500":[9,3,0,0,0,858,0]
 };

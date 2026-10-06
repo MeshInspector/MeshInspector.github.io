@@ -630,6 +630,41 @@
         </inbodydescription>
         <location file="MRMesh/MRPrecisePredicates3.h" line="170" column="12" declfile="MRMesh/MRPrecisePredicates3.h" declline="170" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga67bcae2090ea4cb7ddaa3649e817b040" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; Vector3i &gt;</type>
+        <definition>std::optional&lt; Vector3i &gt; MR::findTriangleSegmentIntersectionPreciseInt</definition>
+        <argsstring>(const Vector3i &amp;ai, const Vector3i &amp;bi, const Vector3i &amp;ci, const Vector3i &amp;di, const Vector3i &amp;ei)</argsstring>
+        <name>findTriangleSegmentIntersectionPreciseInt</name>
+        <qualifiedname>MR::findTriangleSegmentIntersectionPreciseInt</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>ai</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>bi</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>ci</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>di</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>ei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the same as findTriangleSegmentIntersectionPrecise, but takes and returns integer coordinates; returns std::nullopt in the rare case when segment DE lies in the plane of triangle ABC without crossing its sides </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3.h" line="177" column="17" declfile="MRMesh/MRPrecisePredicates3.h" declline="177" declcolumn="17"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
       <memberdef kind="function" id="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">

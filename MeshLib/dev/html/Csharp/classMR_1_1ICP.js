@@ -5,6 +5,8 @@ var classMR_1_1ICP =
     [ "ICP", "classMR_1_1ICP.html#a50d460c339a6a0e81d337b6fd97a10af", null ],
     [ "ICP", "classMR_1_1ICP.html#a68a663f06b7db2e362f75db9b5aadda3", null ],
     [ "ICP", "classMR_1_1ICP.html#a54d6d6c986cd5374c5bc2c87714a671d", null ],
+    [ "ICP", "classMR_1_1ICP.html#a71ae4987fb977d80b4a3403a0bdb08a9", null ],
+    [ "ICP", "classMR_1_1ICP.html#a32612375b91db81b334ba471d200d2e0", null ],
     [ "ICP", "classMR_1_1ICP.html#a9cc948b5a419c12cd9ebe4b5b6a11ef9", null ],
     [ "ICP", "classMR_1_1ICP.html#ad73194130b2c49c87763dc2fc5c890af", null ],
     [ "assign", "classMR_1_1ICP.html#adb64130fb34f494c2a32095b9661aee6", null ],

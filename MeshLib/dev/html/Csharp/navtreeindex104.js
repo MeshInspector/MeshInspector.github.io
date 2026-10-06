@@ -1,5 +1,8 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0ab1bc723d1e213c2b6aee133847ba331f":[9,3,0,0,0,1213,0,6,3],
+"classMR_1_1Features_1_1Const__MeasureResult.html#a1695eaeaeb34bd746e9bfb7b150635c0aff6e97b110349dae9c6e8be0ff7a85c3":[9,3,0,0,0,1213,0,6,4],
+"classMR_1_1Features_1_1Const__MeasureResult.html#a42a1e22d9546ada9489c1e75df183d7d":[9,3,0,0,0,1213,0,17],
 "classMR_1_1Features_1_1Const__MeasureResult.html#a68f0f564a167a8f327bd9004098d6bb8":[9,3,0,0,0,1213,0,7],
 "classMR_1_1Features_1_1Const__MeasureResult.html#a7b7522a7b4eea2a56bf2f3feb116c21c":[9,3,0,0,0,1213,0,15],
 "classMR_1_1Features_1_1Const__MeasureResult.html#aa47f85fd18d4105bbfc3a6bd3e4322e4":[9,3,0,0,0,1213,0,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html#a2ed925fe3e030e3839b2f084a7fed02f":[9,3,0,0,0,1213,5,7,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html#acfea1d4d82f9c61779a1f4dd43533bfe":[9,3,0,0,0,1213,5,7,3],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html#ad66ef76830a8340acbac59e249012b4f":[9,3,0,0,0,1213,5,7,1],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html#ae8163ee5cba813b03956f5381cc49002":[9,3,0,0,0,1213,5,7,2],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html#afc651d287b00bf1b142977fb0c8d8237":[9,3,0,0,0,1213,5,7,5],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html":[9,3,0,0,0,1213,5,8],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html#a3c7ba28901d6fa116631ad43afab91a1":[9,3,0,0,0,1213,5,8,2]
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html#ae8163ee5cba813b03956f5381cc49002":[9,3,0,0,0,1213,5,7,2]
 };

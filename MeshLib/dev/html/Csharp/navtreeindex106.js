@@ -1,5 +1,8 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FindOutliersParams.html#a0a63ee3aba2a9eb01995a74cf11f7879":[9,3,0,0,0,1222,6],
+"classMR_1_1FindOutliersParams.html#a26da76238da983db6540f7eb1bdc678f":[9,3,0,0,0,1222,1],
+"classMR_1_1FindOutliersParams.html#a84eaed57a6b327e3e13f4f89151271cb":[9,3,0,0,0,1222,4],
 "classMR_1_1FindOutliersParams.html#a8e9974176d7f400b34e863ba309cf1b4":[9,3,0,0,0,1222,0],
 "classMR_1_1FindOutliersParams.html#aa3cd77a83bc17aa334c98eb7ecff44c6":[9,3,0,0,0,1222,5],
 "classMR_1_1FindOutliersParams.html#aa603fcda68b76482ab300b2d27701348":[9,3,0,0,0,1222,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FunctionVolume.html#ae1d825bb972949eab44a7b86eb36e655":[9,3,0,0,0,1235,3],
 "classMR_1_1FunctionVolumeU8.html":[9,3,0,0,0,1236],
 "classMR_1_1FunctionVolumeU8.html#a18fa01455273e94507be3cc6580892f9":[9,3,0,0,0,1236,1],
-"classMR_1_1FunctionVolumeU8.html#a28956fb8326b4ceebafcb9b0585e130f":[9,3,0,0,0,1236,6],
-"classMR_1_1FunctionVolumeU8.html#a3094b8ab7b845e54464a0c59734e497c":[9,3,0,0,0,1236,5],
-"classMR_1_1FunctionVolumeU8.html#a47705fa8a49f74454da11574bbbf55e6":[9,3,0,0,0,1236,2],
-"classMR_1_1FunctionVolumeU8.html#a5eca89ca5d5acb7a33aff41b76589347":[9,3,0,0,0,1236,3]
+"classMR_1_1FunctionVolumeU8.html#a28956fb8326b4ceebafcb9b0585e130f":[9,3,0,0,0,1236,6]
 };

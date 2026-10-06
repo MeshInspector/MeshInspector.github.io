@@ -4227,6 +4227,8 @@
     <member refid="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" kind="variable"><name>iter_</name></member>
     <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" kind="function"><name>setParams</name></member>
@@ -14225,6 +14227,7 @@
     <member refid="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
     <member refid="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="group__MathGroup_1ga67bcae2090ea4cb7ddaa3649e817b040" kind="function"><name>findTriangleSegmentIntersectionPreciseInt</name></member>
     <member refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kind="function"><name>fromEigen</name></member>
     <member refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kind="function"><name>toEigen</name></member>
     <member refid="group__MathGroup_1ga57c0e085976ff3667bcc12e402216d6e" kind="function"><name>toEigen</name></member>
@@ -19104,6 +19107,7 @@
     <member refid="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
     <member refid="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="group__MathGroup_1ga67bcae2090ea4cb7ddaa3649e817b040" kind="function"><name>findTriangleSegmentIntersectionPreciseInt</name></member>
     <member refid="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" kind="function"><name>fromEigen</name></member>
     <member refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kind="function"><name>toEigen</name></member>
     <member refid="group__MathGroup_1ga57c0e085976ff3667bcc12e402216d6e" kind="function"><name>toEigen</name></member>
@@ -20542,6 +20546,7 @@
     <member refid="group__MathGroup_1gabad3bcfedc022e24fc08968b846a21b5" kind="function"><name>computeFloatCoords</name></member>
     <member refid="group__MathGroup_1ga4a25b52ef9a47a48d91540efe6f61bcd" kind="function"><name>findTwoSegmentsIntersection</name></member>
     <member refid="group__MathGroup_1gaab6e7e21a9eac612957d5e6b91637769" kind="function"><name>findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="group__MathGroup_1ga67bcae2090ea4cb7ddaa3649e817b040" kind="function"><name>findTriangleSegmentIntersectionPreciseInt</name></member>
     <member refid="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" kind="function"><name>toEigen</name></member>
     <member refid="group__MathGroup_1ga57c0e085976ff3667bcc12e402216d6e" kind="function"><name>toEigen</name></member>
     <member refid="group__MathGroup_1ga8888d3eb79b0414fbc4855426d85cf9c" kind="function"><name>toEigen</name></member>
@@ -26932,6 +26937,8 @@
     <member refid="group__GeneralGroup_1ga1301b1c633de237705ebc76fcbd215df" kind="function"><name>updatePointPairs</name></member>
     <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" kind="function"><name>setParams</name></member>

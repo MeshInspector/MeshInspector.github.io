@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_WeightedVertexT_float</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a273e1a0f43e3a1cef2282b4751c442db" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_WeightedVertexT_float::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.element_type_byte_size</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70799" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aff27acabd3caaad5e3de74d3477d8767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_WeightedVertexT_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70800" bodyend="70803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a6131fd2883620b13899eb165d6cfdd8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70805" bodyend="70808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a4d4b41da25f15d96b0dbed9b4db61cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70810" bodyend="70813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a7c3e3c90e81b04bdbf736b8339e2997d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+        <definition> std_vector_WeightedVertexT_float mrmeshpy.std_vector_WeightedVertexT_float.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70815" bodyend="70818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ad9481bc31decba23407e3c52597818de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+        <definition> WeightedVertex mrmeshpy.std_vector_WeightedVertexT_float.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70820" bodyend="70821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a0c1a52c8859f28f775406b67f391047f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70823" bodyend="70824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a22186e6ffa253b5bdc9b1c6636d2dcca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70826" bodyend="70827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ac6fac8d13482ed354afe7a1ec4875a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__init__</definition>
+        <argsstring>(self, std_vector_WeightedVertexT_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70829" bodyend="70830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a694e768bd57e62b6c4a3eb6bd8ff454d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref>]</type>
+        <definition> typing.Iterator[WeightedVertex] mrmeshpy.std_vector_WeightedVertexT_float.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70831" bodyend="70832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a13f4f8896e0f8bfef48baa2da5b65626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_WeightedVertexT_float.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70833" bodyend="70834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aed13b73f24b610961e67450499d12124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__setitem__</definition>
+        <argsstring>(self, int arg0, WeightedVertex arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70836" bodyend="70837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aaa247894c1ab4a04dcc07394a6aa99bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_WeightedVertexT_float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70839" bodyend="70842"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a3fa6bfc6890e5b32ae00dc599b589909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.append</definition>
+        <argsstring>(self, WeightedVertex x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70843" bodyend="70846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ac0d0045f0eac621428d8f0069398e482" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70847" bodyend="70850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1adb9a97b7ab0ebad488fc255bc3feee54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_WeightedVertexT_float.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70851" bodyend="70854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a4c3d82d94e324ebc3dd8ee3f1388e481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_WeightedVertexT_float.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70855" bodyend="70856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a8849183d4a786c9ccbe8524fb80c6d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.extend</definition>
+        <argsstring>(self, std_vector_WeightedVertexT_float L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float" kindref="compound">std_vector_WeightedVertexT_float</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70858" bodyend="70861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a1cf8a362a7569c1eb6fc1e9c2e69cbb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70863" bodyend="70866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a8bc2d8e4f48c8ed36de4f7c559f7139f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.insert</definition>
+        <argsstring>(self, int i, WeightedVertex x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70867" bodyend="70870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a745bdd186a38b4921164a28146376be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+        <definition> WeightedVertex mrmeshpy.std_vector_WeightedVertexT_float.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70872" bodyend="70875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aca9a26e1808530102d0ad1f6d5d3fa37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+        <definition> WeightedVertex mrmeshpy.std_vector_WeightedVertexT_float.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70877" bodyend="70880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a7d765eeb44d2bca39c3392ec1c4496e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70882" bodyend="70883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a1ddd28b7424ed5bad47f658bb1fa2cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WeightedVertexT_float.resize</definition>
+        <argsstring>(self, int arg0, WeightedVertex arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70885" bodyend="70886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ab2cdd1890ba8393a91b8bf2dce377d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_WeightedVertexT_float.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_WeightedVertexT_float.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70887" bodyend="70888"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_WeightedVertex
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70795" bodyend="70888"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aff27acabd3caaad5e3de74d3477d8767" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a6131fd2883620b13899eb165d6cfdd8c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a4d4b41da25f15d96b0dbed9b4db61cae" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a7c3e3c90e81b04bdbf736b8339e2997d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ad9481bc31decba23407e3c52597818de" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a0c1a52c8859f28f775406b67f391047f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a22186e6ffa253b5bdc9b1c6636d2dcca" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ac6fac8d13482ed354afe7a1ec4875a46" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a694e768bd57e62b6c4a3eb6bd8ff454d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a13f4f8896e0f8bfef48baa2da5b65626" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aed13b73f24b610961e67450499d12124" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aaa247894c1ab4a04dcc07394a6aa99bf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a3fa6bfc6890e5b32ae00dc599b589909" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ac0d0045f0eac621428d8f0069398e482" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1adb9a97b7ab0ebad488fc255bc3feee54" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a273e1a0f43e3a1cef2282b4751c442db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a4c3d82d94e324ebc3dd8ee3f1388e481" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a8849183d4a786c9ccbe8524fb80c6d98" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a1cf8a362a7569c1eb6fc1e9c2e69cbb2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a8bc2d8e4f48c8ed36de4f7c559f7139f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a745bdd186a38b4921164a28146376be7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1aca9a26e1808530102d0ad1f6d5d3fa37" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a7d765eeb44d2bca39c3392ec1c4496e1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1a1ddd28b7424ed5bad47f658bb1fa2cbb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WeightedVertexT__float_1ab2cdd1890ba8393a91b8bf2dce377d9d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WeightedVertexT_float</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

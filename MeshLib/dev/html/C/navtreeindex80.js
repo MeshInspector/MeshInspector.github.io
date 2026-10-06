@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"MRObject_8h.html#a5801869616158c69c932d9bcbf4d7b7c":[9,2,2,0,0,0,0,1,225,11],
+"MRObject_8h.html#a5b2d4b79cb35f5e9d2303b79206ee41b":[9,2,2,0,0,0,0,1,225,51],
+"MRObject_8h.html#a67e80ff4f36e45b6044f028c34613f3d":[9,2,2,0,0,0,0,1,225,23],
 "MRObject_8h.html#a68e4a0bfa70ee6c35877eb6f09417670":[9,2,2,0,0,0,0,1,225,43],
 "MRObject_8h.html#a74af1ea2ec55a48a154aa1541ea69d38":[9,2,2,0,0,0,0,1,225,16],
 "MRObject_8h.html#a7680ab715441e174b35bcd7c583cede8":[9,2,2,0,0,0,0,1,225,86],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "MROffsetContours_8h.html#aff2c6921bb46cb4c387d4c0f5a1e691d":[9,2,2,0,0,0,0,1,243,102],
 "MROffsetContours_8h_source.html":[9,2,2,0,0,0,0,1,243],
 "MROffsetVerts_8h.html":[9,2,2,0,0,0,0,1,244],
-"MROffsetVerts_8h.html#a01afad5ea1110f5707cf12be90202cd1":[9,2,2,0,0,0,0,1,244,30],
-"MROffsetVerts_8h.html#a07600a1b74173ca94d343f4a1885702f":[9,2,2,0,0,0,0,1,244,15],
-"MROffsetVerts_8h.html#a0c19d2437ae0ea52dea8a99f62099a55":[9,2,2,0,0,0,0,1,244,13],
-"MROffsetVerts_8h.html#a0cb6719a2325598ef2ed82ff5e921aa0":[9,2,2,0,0,0,0,1,244,42]
+"MROffsetVerts_8h.html#a01afad5ea1110f5707cf12be90202cd1":[9,2,2,0,0,0,0,1,244,30]
 };

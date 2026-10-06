@@ -673,6 +673,7 @@
     <includedby refid="std__vector__MR__WatershedGraph__BdInfo_8h" local="no">std_vector_MR_WatershedGraph_BdInfo.h</includedby>
     <includedby refid="std__vector__MR__WatershedGraph__OverflowPoint_8h" local="no">std_vector_MR_WatershedGraph_OverflowPoint.h</includedby>
     <includedby refid="std__vector__MR__WeightedShell__ParametersRegions__Region_8h" local="no">std_vector_MR_WeightedShell_ParametersRegions_Region.h</includedby>
+    <includedby refid="std__vector__MR__WeightedVertex_8h" local="no">std_vector_MR_WeightedVertex.h</includedby>
     <includedby refid="std__vector__char_8h" local="no">std_vector_char.h</includedby>
     <includedby refid="std__vector__const__MR__Mesh__ptr_8h" local="no">std_vector_const_MR_Mesh_ptr.h</includedby>
     <includedby refid="std__vector__double_8h" local="no">std_vector_double.h</includedby>
@@ -3009,6 +3010,8 @@
         </childnode>
         <childnode refid="722" relation="include">
         </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
       </node>
       <node id="243">
         <label>expected_MR_AffineXf3f_std_string.h</label>
@@ -4723,206 +4726,210 @@
         <link refid="std__vector__MR__WeightedShell__ParametersRegions__Region_8h"/>
       </node>
       <node id="672">
+        <label>std_vector_MR_WeightedVertex.h</label>
+        <link refid="std__vector__MR__WeightedVertex_8h"/>
+      </node>
+      <node id="673">
         <label>std_vector_char.h</label>
         <link refid="std__vector__char_8h"/>
       </node>
-      <node id="673">
+      <node id="674">
         <label>std_vector_const_MR_Mesh_ptr.h</label>
         <link refid="std__vector__const__MR__Mesh__ptr_8h"/>
       </node>
-      <node id="674">
+      <node id="675">
         <label>std_vector_double.h</label>
         <link refid="std__vector__double_8h"/>
       </node>
-      <node id="675">
+      <node id="676">
         <label>std_vector_expected_MR_VoxelsLoad_DicomVolumeAsVdb_std_string.h</label>
         <link refid="std__vector__expected__MR__VoxelsLoad__DicomVolumeAsVdb__std__string_8h"/>
       </node>
-      <node id="676">
+      <node id="677">
         <label>std_vector_expected_MR_VoxelsLoad_DicomVolume_std_string.h</label>
         <link refid="std__vector__expected__MR__VoxelsLoad__DicomVolume__std__string_8h"/>
       </node>
-      <node id="677">
+      <node id="678">
         <label>std_vector_float.h</label>
         <link refid="std__vector__float_8h"/>
       </node>
-      <node id="678">
+      <node id="679">
         <label>std_vector_int.h</label>
         <link refid="std__vector__int_8h"/>
       </node>
-      <node id="679">
+      <node id="680">
         <label>std_vector_size_t.h</label>
         <link refid="std__vector__size__t_8h"/>
       </node>
-      <node id="680">
+      <node id="681">
         <label>std_vector_std_array_MR_Vector2f_3.h</label>
         <link refid="std__vector__std__array__MR__Vector2f__3_8h"/>
       </node>
-      <node id="681">
+      <node id="682">
         <label>std_vector_std_array_MR_Vector3f_3.h</label>
         <link refid="std__vector__std__array__MR__Vector3f__3_8h"/>
       </node>
-      <node id="682">
+      <node id="683">
         <label>std_vector_std_array_MR_VertId_2.h</label>
         <link refid="std__vector__std__array__MR__VertId__2_8h"/>
       </node>
-      <node id="683">
+      <node id="684">
         <label>std_vector_std_array_MR_VertId_3.h</label>
         <link refid="std__vector__std__array__MR__VertId__3_8h"/>
       </node>
-      <node id="684">
+      <node id="685">
         <label>std_vector_std_array_std_filesystem_path_4.h</label>
         <link refid="std__vector__std__array__std__filesystem__path__4_8h"/>
       </node>
-      <node id="685">
+      <node id="686">
         <label>std_vector_std_filesystem_path.h</label>
         <link refid="std__vector__std__filesystem__path_8h"/>
       </node>
-      <node id="686">
+      <node id="687">
         <label>std_vector_std_pair_MR_EdgeId_MR_EdgeId.h</label>
         <link refid="std__vector__std__pair__MR__EdgeId__MR__EdgeId_8h"/>
       </node>
-      <node id="687">
+      <node id="688">
         <label>std_vector_std_pair_MR_Vector3f_MR_Vector3f.h</label>
         <link refid="std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h"/>
       </node>
-      <node id="688">
+      <node id="689">
         <label>std_vector_std_pair_MR_VertId_MR_VertId.h</label>
         <link refid="std__vector__std__pair__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="689">
+      <node id="690">
         <label>std_vector_std_pair_double_int.h</label>
         <link refid="std__vector__std__pair__double__int_8h"/>
       </node>
-      <node id="690">
+      <node id="691">
         <label>std_vector_std_pair_size_t_size_t.h</label>
         <link refid="std__vector__std__pair__size__t__size__t_8h"/>
       </node>
-      <node id="691">
+      <node id="692">
         <label>std_vector_std_pair_std_string_float.h</label>
         <link refid="std__vector__std__pair__std__string__float_8h"/>
       </node>
-      <node id="692">
+      <node id="693">
         <label>std_vector_std_shared_ptr_MR_BasicUiRenderTask.h</label>
         <link refid="std__vector__std__shared__ptr__MR__BasicUiRenderTask_8h"/>
       </node>
-      <node id="693">
+      <node id="694">
         <label>std_vector_std_shared_ptr_MR_HistoryAction.h</label>
         <link refid="std__vector__std__shared__ptr__MR__HistoryAction_8h"/>
       </node>
-      <node id="694">
+      <node id="695">
         <label>std_vector_std_shared_ptr_MR_Mesh.h</label>
         <link refid="std__vector__std__shared__ptr__MR__Mesh_8h"/>
       </node>
-      <node id="695">
+      <node id="696">
         <label>std_vector_std_shared_ptr_MR_Object.h</label>
         <link refid="std__vector__std__shared__ptr__MR__Object_8h"/>
       </node>
-      <node id="696">
+      <node id="697">
         <label>std_vector_std_shared_ptr_MR_ObjectDistanceMap.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectDistanceMap_8h"/>
       </node>
-      <node id="697">
+      <node id="698">
         <label>std_vector_std_shared_ptr_MR_ObjectLines.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectLines_8h"/>
       </node>
-      <node id="698">
+      <node id="699">
         <label>std_vector_std_shared_ptr_MR_ObjectLinesHolder.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectLinesHolder_8h"/>
       </node>
-      <node id="699">
+      <node id="700">
         <label>std_vector_std_shared_ptr_MR_ObjectMesh.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectMesh_8h"/>
       </node>
-      <node id="700">
+      <node id="701">
         <label>std_vector_std_shared_ptr_MR_ObjectMeshHolder.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectMeshHolder_8h"/>
       </node>
-      <node id="701">
+      <node id="702">
         <label>std_vector_std_shared_ptr_MR_ObjectPoints.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectPoints_8h"/>
       </node>
-      <node id="702">
+      <node id="703">
         <label>std_vector_std_shared_ptr_MR_ObjectPointsHolder.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectPointsHolder_8h"/>
       </node>
-      <node id="703">
+      <node id="704">
         <label>std_vector_std_shared_ptr_MR_ObjectVoxels.h</label>
         <link refid="std__vector__std__shared__ptr__MR__ObjectVoxels_8h"/>
       </node>
-      <node id="704">
+      <node id="705">
         <label>std_vector_std_shared_ptr_MR_VisualObject.h</label>
         <link refid="std__vector__std__shared__ptr__MR__VisualObject_8h"/>
       </node>
-      <node id="705">
+      <node id="706">
         <label>std_vector_std_shared_ptr_const_MR_Object.h</label>
         <link refid="std__vector__std__shared__ptr__const__MR__Object_8h"/>
       </node>
-      <node id="706">
+      <node id="707">
         <label>std_vector_std_string.h</label>
         <link refid="std__vector__std__string_8h"/>
       </node>
-      <node id="707">
+      <node id="708">
         <label>std_vector_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives__cdd2.h</label>
         <link refid="std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h"/>
       </node>
-      <node id="708">
+      <node id="709">
         <label>std_vector_std_vector_MR_EdgeId.h</label>
         <link refid="std__vector__std__vector__MR__EdgeId_8h"/>
       </node>
-      <node id="709">
+      <node id="710">
         <label>std_vector_std_vector_MR_EdgePoint.h</label>
         <link refid="std__vector__std__vector__MR__EdgePoint_8h"/>
       </node>
-      <node id="710">
+      <node id="711">
         <label>std_vector_std_vector_MR_GraphEdgeId.h</label>
         <link refid="std__vector__std__vector__MR__GraphEdgeId_8h"/>
       </node>
-      <node id="711">
+      <node id="712">
         <label>std_vector_std_vector_MR_ObjVertId.h</label>
         <link refid="std__vector__std__vector__MR__ObjVertId_8h"/>
       </node>
-      <node id="712">
+      <node id="713">
         <label>std_vector_std_vector_MR_OffsetContoursOrigins.h</label>
         <link refid="std__vector__std__vector__MR__OffsetContoursOrigins_8h"/>
       </node>
-      <node id="713">
+      <node id="714">
         <label>std_vector_std_vector_MR_PlanarTriangulation_IntersectionInfo.h</label>
         <link refid="std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h"/>
       </node>
-      <node id="714">
+      <node id="715">
         <label>std_vector_std_vector_MR_VarEdgeTri.h</label>
         <link refid="std__vector__std__vector__MR__VarEdgeTri_8h"/>
       </node>
-      <node id="715">
+      <node id="716">
         <label>std_vector_std_vector_MR_Vector2d.h</label>
         <link refid="std__vector__std__vector__MR__Vector2d_8h"/>
       </node>
-      <node id="716">
+      <node id="717">
         <label>std_vector_std_vector_MR_Vector2f.h</label>
         <link refid="std__vector__std__vector__MR__Vector2f_8h"/>
       </node>
-      <node id="717">
+      <node id="718">
         <label>std_vector_std_vector_MR_Vector3d.h</label>
         <link refid="std__vector__std__vector__MR__Vector3d_8h"/>
       </node>
-      <node id="718">
+      <node id="719">
         <label>std_vector_std_vector_MR_Vector3f.h</label>
         <link refid="std__vector__std__vector__MR__Vector3f_8h"/>
       </node>
-      <node id="719">
+      <node id="720">
         <label>std_vector_std_vector_MR_VertId.h</label>
         <link refid="std__vector__std__vector__MR__VertId_8h"/>
       </node>
-      <node id="720">
+      <node id="721">
         <label>std_vector_uint64_t.h</label>
         <link refid="std__vector__uint64__t_8h"/>
       </node>
-      <node id="721">
+      <node id="722">
         <label>std_vector_unsigned_char.h</label>
         <link refid="std__vector__unsigned__char_8h"/>
       </node>
-      <node id="722">
+      <node id="723">
         <label>std_vector_unsigned_short.h</label>
         <link refid="std__vector__unsigned__short_8h"/>
       </node>

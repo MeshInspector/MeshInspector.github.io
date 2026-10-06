@@ -10747,6 +10747,7 @@
     <member refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kind="typedef"><name>MR_MeshOrPointsXf</name></member>
     <member refid="MRICP_8h_1a688de095aadd73180efe43123477f63f" kind="typedef"><name>MR_PointToPlaneAligningTransform</name></member>
     <member refid="MRICP_8h_1ab0d83ae2f35ff147b7fde65fb40816b7" kind="typedef"><name>MR_std_vector_MR_PointPair</name></member>
+    <member refid="MRICP_8h_1a9ce24bb46ae695ad2d12f0e4aebe2e41" kind="typedef"><name>MR_std_vector_MR_WeightedVertex</name></member>
     <member refid="MRICP_8h_1ab2dae85553b6362b2a20a5a8fd296776" kind="typedef"><name>MR_ICPPairData</name></member>
     <member refid="MRICP_8h_1aa8fb09f97978d475d7ef247882fe1a0f" kind="typedef"><name>MR_PointPair</name></member>
     <member refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kind="typedef"><name>MR_IPointPairs</name></member>
@@ -10938,8 +10939,10 @@
     <member refid="MRICP_8h_1ae9a7fa9e0e9ba06eb664b2a7d20266e6" kind="function"><name>MR_ICP_ConstructFromAnother</name></member>
     <member refid="MRICP_8h_1a492e87c87baa650c93cf8411640fc154" kind="function"><name>MR_ICP_OffsetPtr</name></member>
     <member refid="MRICP_8h_1af2d3e9b70de11ac641acb9025db11704" kind="function"><name>MR_ICP_OffsetMutablePtr</name></member>
-    <member refid="MRICP_8h_1af8ef0b820cf7fb753110d623ff26b8f4" kind="function"><name>MR_ICP_Construct_6</name></member>
-    <member refid="MRICP_8h_1a5f9b10cdc0e05686066f3d8ef618f3aa" kind="function"><name>MR_ICP_Construct_4</name></member>
+    <member refid="MRICP_8h_1a1951cfc78e72e49a66ee4d2249bb4f3c" kind="function"><name>MR_ICP_Construct_6_MR_VertBitSet</name></member>
+    <member refid="MRICP_8h_1a34b70a3bb482db1ccb51ac20a2ee4d7f" kind="function"><name>MR_ICP_Construct_4_MR_VertBitSet</name></member>
+    <member refid="MRICP_8h_1a0b8febf1a1fb85f6c024d8b957eb3909" kind="function"><name>MR_ICP_Construct_6_std_vector_MR_WeightedVertex</name></member>
+    <member refid="MRICP_8h_1ac27f5d439aaa76fa5e4239a08d42b720" kind="function"><name>MR_ICP_Construct_4_std_vector_MR_WeightedVertex</name></member>
     <member refid="MRICP_8h_1a0a19e65b20ce2d1003b093d401201c26" kind="function"><name>MR_ICP_Construct_5</name></member>
     <member refid="MRICP_8h_1a79626d9b3ae7d9a0aaedcfc4b42b3aa4" kind="function"><name>MR_ICP_Construct_3</name></member>
     <member refid="MRICP_8h_1a719d54e4c8831382cf5738706fb26310" kind="function"><name>MR_ICP_Destroy</name></member>
@@ -22013,6 +22016,7 @@
     <member refid="MRPrecisePredicates3_8h_1abb2acb415fc9d650e2112a6a72ef8d38" kind="function"><name>MR_computeFloatCoords</name></member>
     <member refid="MRPrecisePredicates3_8h_1afd12aa71fc4b93df21f3354992018d3f" kind="function"><name>MR_findTwoSegmentsIntersection</name></member>
     <member refid="MRPrecisePredicates3_8h_1a207c6c1c69c4a375099867737ae0e88c" kind="function"><name>MR_findTriangleSegmentIntersectionPrecise</name></member>
+    <member refid="MRPrecisePredicates3_8h_1a2eeb04f8c756f6f1907cbbbf6d0af088" kind="function"><name>MR_findTriangleSegmentIntersectionPreciseInt</name></member>
   </compound>
   <compound refid="MRPrimitiveMapsComposition_8h" kind="file"><name>MRPrimitiveMapsComposition.h</name>
     <member refid="MRPrimitiveMapsComposition_8h_1a5a8ef0ddc4db94ef7e57cf54af206700" kind="function"><name>MR_vertMapsComposition_MR_VertMap_ref</name></member>
@@ -47044,6 +47048,79 @@
     <member refid="std__vector__MR__WeightedShell__ParametersRegions__Region_8h_1a801bf68995481262ba5b5a07a3db6c8d" kind="function"><name>MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator_add_assign</name></member>
     <member refid="std__vector__MR__WeightedShell__ParametersRegions__Region_8h_1a19b05bfb0786367be78fe4396d107bfc" kind="function"><name>MR_sub_MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</name></member>
     <member refid="std__vector__MR__WeightedShell__ParametersRegions__Region_8h_1a831ac3970b036b20c1b8e53d8a231797" kind="function"><name>MR_equal_MR_std_vector_MR_WeightedShell_ParametersRegions_Region_iterator</name></member>
+  </compound>
+  <compound refid="std__vector__MR__WeightedVertex_8h" kind="file"><name>std_vector_MR_WeightedVertex.h</name>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a30233ba497b9857eebc10b7cd457f2b0" kind="typedef"><name>MR_std_vector_MR_WeightedVertex_const_iterator</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a4ca847a2d440028b50f78bc5f76b4ed1" kind="typedef"><name>MR_std_vector_MR_WeightedVertex_iterator</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1abf0b213e811f74f092e5ae9e528755cb" kind="function"><name>MR_std_vector_MR_WeightedVertex_DefaultConstruct</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1afdcb0c4d474b10b6e0d5348f4c830a04" kind="function"><name>MR_std_vector_MR_WeightedVertex_DefaultConstructArray</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ab63037db119259dd8570ed76b29e4691" kind="function"><name>MR_std_vector_MR_WeightedVertex_ConstructFromAnother</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a1b701a6bf4827db7efdbc86e39349af8" kind="function"><name>MR_std_vector_MR_WeightedVertex_AssignFromAnother</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ab6cc89d541a10f4e1a5f37eb9fa4fb56" kind="function"><name>MR_std_vector_MR_WeightedVertex_Destroy</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a148a87709c4f761fb25a06389acb75cb" kind="function"><name>MR_std_vector_MR_WeightedVertex_DestroyArray</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a7abf15f8752ba7060b9a9f7037875d6e" kind="function"><name>MR_std_vector_MR_WeightedVertex_OffsetPtr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a8beadd8b5519e42309cb1a6ab3a2e86a" kind="function"><name>MR_std_vector_MR_WeightedVertex_OffsetMutablePtr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1aeef9b9ff4aa6e588173b6d019b6d500a" kind="function"><name>MR_std_vector_MR_WeightedVertex_size</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a7e4b9b35e6c5231317050e733ebfd600" kind="function"><name>MR_std_vector_MR_WeightedVertex_empty</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a8684d32b42876045215fe3c6356cdf73" kind="function"><name>MR_std_vector_MR_WeightedVertex_resize</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a8e74972f72fed2f3eaeac6a326c81cd2" kind="function"><name>MR_std_vector_MR_WeightedVertex_resize_with_default_value</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1af40ecc86924768d73ab58fe6a715cb4c" kind="function"><name>MR_std_vector_MR_WeightedVertex_clear</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ae12eb01b9dfd8615fd85bf91ea6a7db9" kind="function"><name>MR_std_vector_MR_WeightedVertex_capacity</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1af10b0adb0331d10716f9f921300c997d" kind="function"><name>MR_std_vector_MR_WeightedVertex_reserve</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a00e02489e279063df35aacf871b22f42" kind="function"><name>MR_std_vector_MR_WeightedVertex_shrink_to_fit</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a5192426d50267a8ab4e0232e5c88b844" kind="function"><name>MR_std_vector_MR_WeightedVertex_at</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a257812d1e927cb70b3389226dc58aca5" kind="function"><name>MR_std_vector_MR_WeightedVertex_at_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a77dfb066261453f75c1d1963996c29de" kind="function"><name>MR_std_vector_MR_WeightedVertex_front</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1afa5cff3f7a5c6368bbd55e2f80c4be67" kind="function"><name>MR_std_vector_MR_WeightedVertex_front_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a958e0e43d05e1c029d0f4cbf63cc5593" kind="function"><name>MR_std_vector_MR_WeightedVertex_back</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1adf3d860868b1fda490efe79f164b0617" kind="function"><name>MR_std_vector_MR_WeightedVertex_back_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a6c22ec2c9b40a6e5b7b06b3f5b00633b" kind="function"><name>MR_std_vector_MR_WeightedVertex_push_back</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ac4d5d6aec3e6d8793b21b3a57a096ef0" kind="function"><name>MR_std_vector_MR_WeightedVertex_pop_back</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a7ad703a3a9389074a0b9df7d8bb07a58" kind="function"><name>MR_std_vector_MR_WeightedVertex_insert</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1afcd19c0dbf3487f6d95fbc5cabf08a1d" kind="function"><name>MR_std_vector_MR_WeightedVertex_erase</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a972257d01210858b392128579ada3dc6" kind="function"><name>MR_std_vector_MR_WeightedVertex_insert_at_mutable_iter</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a6c75ba782212846d6a5792593a90c603" kind="function"><name>MR_std_vector_MR_WeightedVertex_erase_at_mutable_iter</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a824a81e6dc024caca24d141ac722af1a" kind="function"><name>MR_std_vector_MR_WeightedVertex_insert_at_iter</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1abcc146201171c417a97ee6506550b264" kind="function"><name>MR_std_vector_MR_WeightedVertex_erase_at_iter</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a1ade7d9850ec5f6410dedc4b1bc2e755" kind="function"><name>MR_std_vector_MR_WeightedVertex_begin</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a005679052b96e57c6fc020a28796cedd" kind="function"><name>MR_std_vector_MR_WeightedVertex_is_begin</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1adcb75e7cb5777017b5213b9b1503d66e" kind="function"><name>MR_std_vector_MR_WeightedVertex_begin_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a5a4e6040e6d2287e43012334b24ec66b" kind="function"><name>MR_std_vector_MR_WeightedVertex_is_begin_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a8f29290bebe98e4528be13a3e743126b" kind="function"><name>MR_std_vector_MR_WeightedVertex_end</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1abf4124ad1c18607a16208ce160ead6d3" kind="function"><name>MR_std_vector_MR_WeightedVertex_is_end</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a0523be055877c8015c68d46e48d9f6e1" kind="function"><name>MR_std_vector_MR_WeightedVertex_end_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a38b2bdb418e25ba14b0803f57bd073d1" kind="function"><name>MR_std_vector_MR_WeightedVertex_is_end_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a7e643e714802d0c0318c8a3c84fedd38" kind="function"><name>MR_std_vector_MR_WeightedVertex_to_index</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a7974fb56c1942b8e93c04d483e12e166" kind="function"><name>MR_std_vector_MR_WeightedVertex_to_index_mut</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1adb4f7feb4fd6b2231ba03596c2fa8a30" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_DefaultConstruct</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1afbecc5b72cc236ea3c94b1d395dfdab6" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_DefaultConstructArray</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a74c2ec982f55e197051fc9b1d185ae23" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_ConstructFromAnother</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a4f487429ee7fcd567404d338cc7ab159" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_AssignFromAnother</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a9bcd7031753caf8ac0b42fb2a19f97a0" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_Destroy</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a6cc598d889dc4992548c84912167aaa6" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_DestroyArray</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a961b51a8bf6d1e2fa971de2d0d8746ae" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_OffsetPtr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a0e3ac5dd86ca1f2bb3a52c7010be5adb" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_OffsetMutablePtr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a0a409b259148c35e758fe6902b220a35" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_from_mutable</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1abca24425c9e8a5cfc560e45af30d7743" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_DefaultConstruct</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a8d81cf37bfae68d226b38a9c34d73fe8" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_DefaultConstructArray</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a7fa21006347b1e0ec74d4cb39fd42c6b" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_ConstructFromAnother</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ab9dc143a54b83bec2c374edff37685e3" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_AssignFromAnother</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1afa66f840c127a71bbd5623c5776983ae" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_Destroy</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1adcbd5cac900648e4b1f9ae76f78ee2f1" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_DestroyArray</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1aa965aa62f8d7e2e581fb1d98271b0ac4" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_OffsetPtr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a10d23c31532fe631d452530c9d87dcf0" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_OffsetMutablePtr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a3a707866d7a0a24314b46cc74005e796" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_deref</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a79d0c21af965f3cae2efefb044940f09" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_incr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a48d194a4e1ddddce31fc97e1db6c2431" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_decr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ab087645f9cb3d8aa1ed4cd81e475dc1f" kind="function"><name>MR_std_vector_MR_WeightedVertex_const_iterator_add_assign</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ac051203f9cbd4a294d52737b97b3b974" kind="function"><name>MR_sub_MR_std_vector_MR_WeightedVertex_const_iterator</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a8eee15c077f084098875b57e0f110832" kind="function"><name>MR_equal_MR_std_vector_MR_WeightedVertex_const_iterator</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a31bfe5bd4ff9a5e0be600914f5aca7da" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_deref</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1aed758802a1828c33386bdf847bf8d7d9" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_incr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a4d2f7007a0b2064f39aaf593c9bb836c" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_decr</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a16a8545f1771638e65c81e4f938bdfd8" kind="function"><name>MR_std_vector_MR_WeightedVertex_iterator_add_assign</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1ab851add1d26101b26918de124b6881b9" kind="function"><name>MR_sub_MR_std_vector_MR_WeightedVertex_iterator</name></member>
+    <member refid="std__vector__MR__WeightedVertex_8h_1a74a38d2ca41e0dd7d18f88af1bccb4f2" kind="function"><name>MR_equal_MR_std_vector_MR_WeightedVertex_iterator</name></member>
   </compound>
   <compound refid="std__vector__size__t_8h" kind="file"><name>std_vector_size_t.h</name>
     <member refid="std__vector__size__t_8h_1aa3558a3a0a35d141a5f06d3156f29e3f" kind="typedef"><name>MR_std_vector_size_t_const_iterator</name></member>

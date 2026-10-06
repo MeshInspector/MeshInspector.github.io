@@ -524,6 +524,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_vector_MR_WatershedGraph_BdInfo.h", "std__vector__MR__WatershedGraph__BdInfo_8h.html", "std__vector__MR__WatershedGraph__BdInfo_8h" ],
     [ "std_vector_MR_WatershedGraph_OverflowPoint.h", "std__vector__MR__WatershedGraph__OverflowPoint_8h.html", "std__vector__MR__WatershedGraph__OverflowPoint_8h" ],
     [ "std_vector_MR_WeightedShell_ParametersRegions_Region.h", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html", "std__vector__MR__WeightedShell__ParametersRegions__Region_8h" ],
+    [ "std_vector_MR_WeightedVertex.h", "std__vector__MR__WeightedVertex_8h.html", "std__vector__MR__WeightedVertex_8h" ],
     [ "std_vector_size_t.h", "std__vector__size__t_8h.html", "std__vector__size__t_8h" ],
     [ "std_vector_std_array_MR_Vector2f_3.h", "std__vector__std__array__MR__Vector2f__3_8h.html", "std__vector__std__array__MR__Vector2f__3_8h" ],
     [ "std_vector_std_array_MR_Vector3f_3.h", "std__vector__std__array__MR__Vector3f__3_8h.html", "std__vector__std__array__MR__Vector3f__3_8h" ],

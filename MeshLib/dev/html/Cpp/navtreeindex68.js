@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Polyline.html#ab9e9cb920eced56be83119d6d268691f":[9,0,0,14,0,21],
+"structMR_1_1Polyline.html#abaaaf2e622a7df2fb5ef5492721109be":[9,0,0,14,0,13],
+"structMR_1_1Polyline.html#abe0cb6a927b49d813ccebab2cc70d7a7":[9,0,0,14,0,25],
+"structMR_1_1Polyline.html#acddfc9fe7193026b7c731a688f1dc478":[9,0,0,14,0,34],
 "structMR_1_1Polyline.html#ad1f0b9ea32808bf20f7aa8c85eb62641":[9,0,0,14,0,15],
 "structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3":[9,0,0,14,0,28],
 "structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[9,0,0,14,0,35],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1SubdivideSettings.html#ad1664c92f743cfb7fc8dd795f7d89d9f":[9,0,0,9,7,0,8],
 "structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476":[9,0,0,9,7,0,5],
 "structMR_1_1SubdivideSettings.html#ae48504fe6f54fb67dee57969d77efc43":[9,0,0,9,7,0,2],
-"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[9,0,0,9,7,0,11],
-"structMR_1_1SubdivideSettings.html#afcfc1a9eeddefe49c96b100fce1be413":[9,0,0,9,7,0,13],
-"structMR_1_1SubdivideSettings.html#aff0af54aeab721522fe62a3eab94a74d":[9,0,0,9,7,0,7],
-"structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html":[9,0,0,20,758],
-"structMR_1_1SurfaceManipulationWidget_1_1Settings.html":[9,0,0,20,757]
+"structMR_1_1SubdivideSettings.html#af4c50e1143edfb7886c734be3226ff9d":[9,0,0,9,7,0,11]
 };

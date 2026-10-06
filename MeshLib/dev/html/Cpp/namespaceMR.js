@@ -2472,6 +2472,7 @@ var namespaceMR =
     [ "findTriangleSectionsByXYPlane", "group__GeneralGroup.html#ga9b426238bd03d85c23a23ee01f37380b", null ],
     [ "findTriangleSegmentIntersection", "group__TriangleIntersectionGroup.html#gabd389cf6a5e3a2723def05e2d19fac73", null ],
     [ "findTriangleSegmentIntersectionPrecise", "group__MathGroup.html#gaab6e7e21a9eac612957d5e6b91637769", null ],
+    [ "findTriangleSegmentIntersectionPreciseInt", "group__MathGroup.html#ga67bcae2090ea4cb7ddaa3649e817b040", null ],
     [ "findTriangleTriangleIntersection", "group__TriangleIntersectionGroup.html#ga07dcacdb0aa89291cef5c6fa101029a0", null ],
     [ "findTriExitPos", "group__GeneralGroup.html#ga50ad07fcc0f878c660e360bb5e342d0a", null ],
     [ "findTripleFaceIntersections", "group__GeneralGroup.html#ga4c8a5717e585b662ba95f0a28e8cdf49", null ],

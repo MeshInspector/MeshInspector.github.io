@@ -1106,6 +1106,7 @@ var annotated_dup =
       [ "std_vector_WatershedGraph_BdInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo" ],
       [ "std_vector_WatershedGraph_OverflowPoint", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint" ],
       [ "std_vector_WeightedShell_ParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region" ],
+      [ "std_vector_WeightedVertexT_float", "classmrmeshpy_1_1std__vector__WeightedVertexT__float.html", "classmrmeshpy_1_1std__vector__WeightedVertexT__float" ],
       [ "StitchHolesNicelySettings", "classmrmeshpy_1_1StitchHolesNicelySettings.html", "classmrmeshpy_1_1StitchHolesNicelySettings" ],
       [ "StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", "classmrmeshpy_1_1StitchHolesParams" ],
       [ "SubdivideFillingSettings", "classmrmeshpy_1_1SubdivideFillingSettings.html", "classmrmeshpy_1_1SubdivideFillingSettings" ],
