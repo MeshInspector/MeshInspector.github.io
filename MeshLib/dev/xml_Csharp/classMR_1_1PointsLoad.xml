@@ -57,6 +57,54 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1544" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1544" bodyend="1550"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1a38a2afd95fdcf04ff8217d83555a4e14" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+        <definition>static unsafe MR.PointCloud MR.PointsLoad.fromDrc</definition>
+        <argsstring>(string file, MR.Const_PointsLoadSettings? settings=null)</argsstring>
+        <name>fromDrc</name>
+        <qualifiedname>MR.PointsLoad.fromDrc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without triangles and without merging Generated from function <computeroutput><ref refid="classMR_1_1PointsLoad_1a38a2afd95fdcf04ff8217d83555a4e14" kindref="member">MR.PointsLoad.fromDrc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="783" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="783" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1af9d9adce8c94041255b160232af39bc4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+        <definition>static unsafe MR.PointCloud MR.PointsLoad.fromDrc</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_PointsLoadSettings? settings=null)</argsstring>
+        <name>fromDrc</name>
+        <qualifiedname>MR.PointsLoad.fromDrc</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">MR.Const_PointsLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointsLoad_1a38a2afd95fdcf04ff8217d83555a4e14" kindref="member">MR.PointsLoad.fromDrc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="799" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="799" bodyend="805"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a7e527512ac9d84f26b1ef9b1ee6c611a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRPointsLoadNamedCloud</type>
         <definition>static unsafe MR.Std.Vector_MRPointsLoadNamedCloud MR.PointsLoad.fromSceneE57File</definition>
@@ -575,6 +623,54 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1558" column="75"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1a29d3dfe686889320de1511b87a040780" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRPointCloud_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromDrc_std_filesystem_path</definition>
+        <argsstring>(byte *file, byte *file_end, MR.Const_PointsLoadSettings._Underlying *settings)</argsstring>
+        <name>__MR_PointsLoad_fromDrc_std_filesystem_path</name>
+        <qualifiedname>MR.PointsLoad.__MR_PointsLoad_fromDrc_std_filesystem_path</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_PointsLoadSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="810" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1a4223a93d870a872aef10e094db4175bd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRPointCloud_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromDrc_std_istream</definition>
+        <argsstring>(MR.Std.Istream._Underlying *in_, MR.Const_PointsLoadSettings._Underlying *settings)</argsstring>
+        <name>__MR_PointsLoad_fromDrc_std_istream</name>
+        <qualifiedname>MR.PointsLoad.__MR_PointsLoad_fromDrc_std_istream</qualifiedname>
+        <param>
+          <type>MR.Std.Istream._Underlying *</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_PointsLoadSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="813" column="75"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsLoad_1a4272d18f7a3803f4d87ff9de28b9fdf0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRPointCloud_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromE57_std_filesystem_path</definition>
@@ -1060,6 +1156,8 @@
       <member refid="classMR_1_1PointsLoad_1afa9b94691ab8cfee3e2bd2a9712d808b" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromAnySupportedFormat_3</name></member>
       <member refid="classMR_1_1PointsLoad_1af75fc29911f809bf10d94f21c1dc47b1" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromCtm_std_filesystem_path</name></member>
       <member refid="classMR_1_1PointsLoad_1ac4e94294c124147e44ecc3a26f82d6e2" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromCtm_std_istream</name></member>
+      <member refid="classMR_1_1PointsLoad_1a29d3dfe686889320de1511b87a040780" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromDrc_std_filesystem_path</name></member>
+      <member refid="classMR_1_1PointsLoad_1a4223a93d870a872aef10e094db4175bd" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromDrc_std_istream</name></member>
       <member refid="classMR_1_1PointsLoad_1a8a1bf60b7bcfbae7c07c555245913549" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromDxf_std_filesystem_path</name></member>
       <member refid="classMR_1_1PointsLoad_1a4b68db79a7a0a2933b4e96ce5c24f1f6" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromDxf_std_istream</name></member>
       <member refid="classMR_1_1PointsLoad_1a4272d18f7a3803f4d87ff9de28b9fdf0" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromE57_std_filesystem_path</name></member>
@@ -1081,6 +1179,8 @@
       <member refid="classMR_1_1PointsLoad_1ad3f6f9aefe03d5c1313483f26d459790" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromAnySupportedFormat</name></member>
       <member refid="classMR_1_1PointsLoad_1a41482212997d8c721ae8f497c4b81c35" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromCtm</name></member>
       <member refid="classMR_1_1PointsLoad_1a44b48011a7c016b4d451251954b6e56b" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromCtm</name></member>
+      <member refid="classMR_1_1PointsLoad_1a38a2afd95fdcf04ff8217d83555a4e14" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromDrc</name></member>
+      <member refid="classMR_1_1PointsLoad_1af9d9adce8c94041255b160232af39bc4" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromDrc</name></member>
       <member refid="classMR_1_1PointsLoad_1af9815642e0c36886c3e9c58ee783120e" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromDxf</name></member>
       <member refid="classMR_1_1PointsLoad_1a12f5d4e8f3e31a88b73e6a7a96039493" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromDxf</name></member>
       <member refid="classMR_1_1PointsLoad_1ad5bec718b73ec3b68699a6fe0aaa904a" prot="public" virt="non-virtual"><scope>MR::PointsLoad</scope><name>fromE57</name></member>

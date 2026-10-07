@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DracoSaveOptions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DracoSaveOptions</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1SaveSettings" prot="public" virt="non-virtual">mrmeshpy.SaveSettings</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DracoSaveOptions_1a41ef0c5872b4b5765c110af70ed30abd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DracoSaveOptions::_offsetof_compressionLevel</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_compressionLevel</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions._offsetof_compressionLevel</qualifiedname>
+        <initializer>=  136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DracoSaveOptions_1afb36503d1c416aa2dd9c7c1e84f346f6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DracoSaveOptions::_offsetof_positionQuantizationBits</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_positionQuantizationBits</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions._offsetof_positionQuantizationBits</qualifiedname>
+        <initializer>=  140</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75813" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1aa21beb49f729f31f6348b2221c0071d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DracoSaveOptions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75816" bodyend="75817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1af6ef85f1d0eb43e5c53c793e867fa6f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DracoSaveOptions" kindref="compound">DracoSaveOptions</ref></type>
+        <definition> DracoSaveOptions mrmeshpy.DracoSaveOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75820" bodyend="75821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1af6ef85f1d0eb43e5c53c793e867fa6f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DracoSaveOptions" kindref="compound">DracoSaveOptions</ref></type>
+        <definition> DracoSaveOptions mrmeshpy.DracoSaveOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75824" bodyend="75825"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1ac341ee6b35d33c4d762062cafb0d50dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DracoSaveOptions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75827" bodyend="75828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1ad70b3ace5b14c1cdf5c25ceeb9ad446c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DracoSaveOptions.__init__</definition>
+        <argsstring>(self, DracoSaveOptions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DracoSaveOptions" kindref="compound">DracoSaveOptions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75830" bodyend="75833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1a98a2efccb18455102d4ea123c4874426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DracoSaveOptions.compressionLevel</definition>
+        <argsstring>(self)</argsstring>
+        <name>compressionLevel</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.compressionLevel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>0 - fastest encoding and decoding but the worst compression, 10 - the best compression
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75835" bodyend="75838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1a7cdf398cd239f2322a05c1a05f111cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DracoSaveOptions.compressionLevel</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>compressionLevel</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.compressionLevel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75840" bodyend="75841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1a1d0678ce604b3330a99afa4446e3cfcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DracoSaveOptions.positionQuantizationBits</definition>
+        <argsstring>(self)</argsstring>
+        <name>positionQuantizationBits</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.positionQuantizationBits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of bits to quantize vertex coordinates to (in the range [1, 30]);
+0 - no quantization, the coordinates are saved losslessly
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75843" bodyend="75847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DracoSaveOptions_1a6e78c6b47633a9ed643c5fb51b96f227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DracoSaveOptions.positionQuantizationBits</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>positionQuantizationBits</name>
+        <qualifiedname>mrmeshpy.DracoSaveOptions.positionQuantizationBits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75849" bodyend="75850"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DracoSaveOptions
+
+options for saving in Google Draco format
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.DracoSaveOptions</label>
+        <link refid="classmrmeshpy_1_1DracoSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SaveSettings</label>
+        <link refid="classmrmeshpy_1_1SaveSettings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DracoSaveOptions</label>
+        <link refid="classmrmeshpy_1_1DracoSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SaveSettings</label>
+        <link refid="classmrmeshpy_1_1SaveSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75806" bodyend="75850"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1aa21beb49f729f31f6348b2221c0071d1" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1ac341ee6b35d33c4d762062cafb0d50dc" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1ad70b3ace5b14c1cdf5c25ceeb9ad446c" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae35a7ec8495ce94e1fd03b4dceac8b5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1a41ef0c5872b4b5765c110af70ed30abd" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a8689618a7bd4e0b9bcd1563ec2f220b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aa24db8f1e6975b4e80299b0395b5d277" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1af6382673ee79bdbd4ef8eedd3cae6ffb" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1abb16dd24f03313ac7488a06d561dcf85" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1afb36503d1c416aa2dd9c7c1e84f346f6" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_positionQuantizationBits</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a9927f2981c0a4a5de094c3c16dde8189" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ad48354bde4088e2b337e62c9d86b3e1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a819623127578de57657b454d96613484" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aac63ae0eae5e3bea4e338ebfb82eb2c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aea88a521334279f5ac00dd457ec24c22" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1acacfe86c98d114f89fd4c30ba9634ef1" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ac88cf3cf5ff30969ae1804138eca04d5" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae8e98c842cbdd98ba61fd4f582a23e00" prot="protected" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a5ec9ce1fa6f90eb7f892b31b2b3ef370" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a8aa43c02d17f5a9ee0e26dce9257efbd" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1a98a2efccb18455102d4ea123c4874426" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1a7cdf398cd239f2322a05c1a05f111cbe" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1abeb98dbc79164c4ca44a5572bf87ae7c" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae1c9049be74df3d1d5033225df842d1f" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab0308bab262ffed82505833c80b2e3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1af17c4b730c97288805ab8983e82d8704" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a699b99fafa9f99d7b5ac668d94846b54" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aa55f96bf1a4f0fbdf29abebca792cf0e" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1af6ef85f1d0eb43e5c53c793e867fa6f6" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1af6ef85f1d0eb43e5c53c793e867fa6f6" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a2757d2692d68494072f1f487909ffe3b" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a5440f2cb435a919c342ecba70d7bcc84" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1a1d0678ce604b3330a99afa4446e3cfcd" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>positionQuantizationBits</name></member>
+      <member refid="classmrmeshpy_1_1DracoSaveOptions_1a6e78c6b47633a9ed643c5fb51b96f227" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>positionQuantizationBits</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a491d341e64709efc64bfb7b06c61cb94" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab923837c094808909182c58c0a176578" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ad2aa92a9933e1da8144093512a63814f" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a1814186f22bbc6e369572926674e3f80" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1afdec538a28f221bf5f8fd37437261098" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a065faec4aa15fddb07aeab33ec88d3e1" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a1c4405d19328e0f1b917e56fac7f7c8f" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a6562a7051c49a9ce7d811f217eeeb77e" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a7d567ca2364dc8ff64662fde01bbb43d" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aea586d6ed0ff9ec645d59b0719318c4a" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a60eff520b1c3959b2b96552b61ed69db" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aebb954e2bd869408a83b791b34b2196c" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a33660f56044f095ceee7e8f4d5aa2f3b" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a81771cf4e4023c678647efcd50223e01" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a254000896cbd0bbab818dc27474361cb" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a68ee31992d19548930e73b7a6d4a1aaa" prot="public" virt="non-virtual"><scope>mrmeshpy::DracoSaveOptions</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

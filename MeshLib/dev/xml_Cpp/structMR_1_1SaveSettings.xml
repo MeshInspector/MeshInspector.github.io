@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1SaveSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::SaveSettings</compoundname>
+    <derivedcompoundref refid="structMR_1_1DracoSaveOptions" prot="public" virt="non-virtual">MR::DracoSaveOptions</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" prot="public" virt="non-virtual">MR::MeshSave::CtmSaveOptions</derivedcompoundref>
     <derivedcompoundref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public" virt="non-virtual">MR::PointsSave::CtmSavePointsOptions</derivedcompoundref>
     <includes refid="MRSaveSettings_8h" local="no">MRMesh/MRSaveSettings.h</includes>
@@ -27,12 +28,18 @@
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
+        <label>MR::DracoSaveOptions</label>
+        <link refid="structMR_1_1DracoSaveOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
         <label>MR::MeshSave::CtmSaveOptions</label>
         <link refid="structMR_1_1MeshSave_1_1CtmSaveOptions"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="3">
+      <node id="4">
         <label>MR::PointsSave::CtmSavePointsOptions</label>
         <link refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions"/>
         <childnode refid="1" relation="public-inheritance">

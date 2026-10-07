@@ -10,6 +10,8 @@ var namespaceMR_1_1PointsLoad =
     [ "fromAnySupportedFormat", "group__IOGroup.html#gaecd3b7671e06c949d93c808ec95506f7", null ],
     [ "fromCtm", "group__GeneralGroup.html#ga8a580b810c0308121d566693f5e196a2", null ],
     [ "fromCtm", "group__GeneralGroup.html#ga1afe750e0a8c61a6730d43d9b071987f", null ],
+    [ "fromDrc", "group__GeneralGroup.html#ga30664957b9e3557712428bd9b5f2d61b", null ],
+    [ "fromDrc", "group__GeneralGroup.html#ga8fd8cc7a4384fd3d832a57241288badf", null ],
     [ "fromDxf", "group__IOGroup.html#ga0bcd39338d08939438531f7d5c9d077d", null ],
     [ "fromDxf", "group__IOGroup.html#ga72bf2e744527a6f283dc17ddb3f49317", null ],
     [ "fromE57", "namespaceMR_1_1PointsLoad.html#a2375d8a5796d1b39ee7f5f90ef0c6649", null ],

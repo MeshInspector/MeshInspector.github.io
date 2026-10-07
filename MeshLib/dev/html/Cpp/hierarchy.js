@@ -1208,6 +1208,7 @@ var hierarchy =
     [ "ImGui::SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", null ],
     [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", null ],
     [ "MR::SaveSettings", "structMR_1_1SaveSettings.html", [
+      [ "MR::DracoSaveOptions", "structMR_1_1DracoSaveOptions.html", null ],
       [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],
       [ "MR::PointsSave::CtmSavePointsOptions", "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html", null ]
     ] ],

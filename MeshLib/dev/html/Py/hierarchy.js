@@ -1060,6 +1060,7 @@ var hierarchy =
     [ "mrmeshpy.CNCMachineSettings.RotationAxisName", "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html", null ],
     [ "mrmeshpy.BaseTiffParameters.SampleType", "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html", null ],
     [ "mrmeshpy.SaveSettings", "classmrmeshpy_1_1SaveSettings.html", [
+      [ "mrmeshpy.DracoSaveOptions", "classmrmeshpy_1_1DracoSaveOptions.html", null ],
       [ "mrmeshpy.MeshSave.CtmSaveOptions", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html", null ],
       [ "mrmeshpy.PointsSave.CtmSavePointsOptions", "classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html", null ]
     ] ],

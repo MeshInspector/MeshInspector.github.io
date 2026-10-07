@@ -362,6 +362,7 @@ var namespaceMR =
     [ "DividePointCloudOptionalOutput", "structMR_1_1DividePointCloudOptionalOutput.html", "structMR_1_1DividePointCloudOptionalOutput" ],
     [ "DividePolylineParameters", "structMR_1_1DividePolylineParameters.html", "structMR_1_1DividePolylineParameters" ],
     [ "DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", "structMR_1_1DoubleOffsetSettings" ],
+    [ "DracoSaveOptions", "structMR_1_1DracoSaveOptions.html", "structMR_1_1DracoSaveOptions" ],
     [ "DragDropListener", "structMR_1_1DragDropListener.html", "structMR_1_1DragDropListener" ],
     [ "DragEndListener", "structMR_1_1DragEndListener.html", "structMR_1_1DragEndListener" ],
     [ "DragEntranceListener", "structMR_1_1DragEntranceListener.html", "structMR_1_1DragEntranceListener" ],

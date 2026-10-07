@@ -13,6 +13,8 @@
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" kind="function"><name>fromCtm</name></member>
       <member refid="group__GeneralGroup_1gaab397c33ed047fb5ccbb545c3940957d" kind="function"><name>fromCtm</name></member>
+      <member refid="group__GeneralGroup_1gafce514409e214aad754da493867e1929" kind="function"><name>fromDrc</name></member>
+      <member refid="group__GeneralGroup_1ga94ca62ab59127307bb6e550c824ae036" kind="function"><name>fromDrc</name></member>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1af8cb15148c8421e06a2fb126237416d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::MeshLoad::fromStep</definition>

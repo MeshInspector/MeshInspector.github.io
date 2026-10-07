@@ -10,6 +10,8 @@ var classMR_1_1PointsLoad =
     [ "fromAnySupportedFormat", "classMR_1_1PointsLoad.html#a807e0acdc6797b2e9278c2612d13be55", null ],
     [ "fromCtm", "classMR_1_1PointsLoad.html#a44b48011a7c016b4d451251954b6e56b", null ],
     [ "fromCtm", "classMR_1_1PointsLoad.html#a41482212997d8c721ae8f497c4b81c35", null ],
+    [ "fromDrc", "classMR_1_1PointsLoad.html#af9d9adce8c94041255b160232af39bc4", null ],
+    [ "fromDrc", "classMR_1_1PointsLoad.html#a38a2afd95fdcf04ff8217d83555a4e14", null ],
     [ "fromDxf", "classMR_1_1PointsLoad.html#a12f5d4e8f3e31a88b73e6a7a96039493", null ],
     [ "fromDxf", "classMR_1_1PointsLoad.html#af9815642e0c36886c3e9c58ee783120e", null ],
     [ "fromE57", "classMR_1_1PointsLoad.html#a1b9f0ece0fa4136c55f986719981f6c1", null ],

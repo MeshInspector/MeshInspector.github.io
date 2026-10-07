@@ -1,0 +1,1015 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DracoSaveOptions" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DracoSaveOptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DracoSaveOptions" prot="public" virt="non-virtual">MR.DracoSaveOptions</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1affb516c7bb04dc8088f9619b49bc7371" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_DracoSaveOptions.compressionLevel</definition>
+        <argsstring></argsstring>
+        <name>compressionLevel</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.compressionLevel</qualifiedname>
+        <briefdescription>
+<para>0 - fastest encoding and decoding but the worst compression, 10 - the best compression </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="38" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a66bbfb7c32ea7f2b6a186ea5fefb21a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_DracoSaveOptions.positionQuantizationBits</definition>
+        <argsstring></argsstring>
+        <name>positionQuantizationBits</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.positionQuantizationBits</qualifiedname>
+        <briefdescription>
+<para>the number of bits to quantize vertex coordinates to (in the range [1, 30]); 0 - no quantization, the coordinates are saved losslessly </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="45" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a14fea09182feda685d52d359d2fc17e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_DracoSaveOptions.onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>onlyValidPoints</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.onlyValidPoints</qualifiedname>
+        <briefdescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="52" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a3478d2f50122fb600501674bc5546c71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_DracoSaveOptions.packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>packPrimitives</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.packPrimitives</qualifiedname>
+        <briefdescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="62" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1afd53a1f61120a6ed63ca9857b5924f3b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
+        <definition>unsafe MR.? Const_VertColors MR.Const_DracoSaveOptions.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.colors</qualifiedname>
+        <briefdescription>
+<para>optional per-vertex color to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="68" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="69" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a339935aa0f59803aa5ceeac13bfeb657" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Const_Vector_MRColor</type>
+        <definition>unsafe MR.Std.? Const_Vector_MRColor MR.Const_DracoSaveOptions.primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>primitiveColors</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.primitiveColors</qualifiedname>
+        <briefdescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="86" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="87" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1ad765bc93442266f0522322b6ff58f3a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords2" kindref="compound">Const_VertCoords2</ref></type>
+        <definition>unsafe MR.? Const_VertCoords2 MR.Const_DracoSaveOptions.uvMap</definition>
+        <argsstring></argsstring>
+        <name>uvMap</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.uvMap</qualifiedname>
+        <briefdescription>
+<para>optional per-vertex uv coordinate to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="104" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a1380cbbf068dfd84127b60aeec868266" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_DracoSaveOptions.saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>saveTriCornerUVCoords</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.saveTriCornerUVCoords</qualifiedname>
+        <briefdescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="123" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1ae710cf4de708ae66c469738353acf773" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
+        <definition>unsafe MR.? Const_MeshTexture MR.Const_DracoSaveOptions.texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.texture</qualifiedname>
+        <briefdescription>
+<para>optional texture to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="129" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="130" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1aa39dd7eadb2d512673f2f0bfa92c26a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_DracoSaveOptions.materialName</definition>
+        <argsstring></argsstring>
+        <name>materialName</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.materialName</qualifiedname>
+        <briefdescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="147" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1aa5f91250ed3e079f508238cd4d79d4d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3d" kindref="compound">ConstBox_AffineXf3d</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3d MR.Const_DracoSaveOptions.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.xf</qualifiedname>
+        <briefdescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="152" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="153" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a8a7c2130131c5c490edc94b7c076db9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRLengthUnit</type>
+        <definition>unsafe MR.Std.Const_Optional_MRLengthUnit MR.Const_DracoSaveOptions.lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.lengthUnit</qualifiedname>
+        <briefdescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="170" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1af796d0818d91db9592bd087f0479a17c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRColor</type>
+        <definition>unsafe MR.Std.Const_Optional_MRColor MR.Const_DracoSaveOptions.solidColor</definition>
+        <argsstring></argsstring>
+        <name>solidColor</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.solidColor</qualifiedname>
+        <briefdescription>
+<para>the color of whole object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="175" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1acdc488a5fcabfbb29e6cf168dd83ba85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_DracoSaveOptions.telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.telemetrySignal</qualifiedname>
+        <briefdescription>
+<para>permit telemetry signal about saving </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="180" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DracoSaveOptions_1a716b144902d81515f5600841cea852ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_DracoSaveOptions.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="186" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="186" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1afdb03c0af63c5fde517a58bd21402563" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_DracoSaveOptions.__ref_storage_compressionLevel</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_compressionLevel</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ref_storage_compressionLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="39" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1adb1549ba8aa74c84715c82f223dabd41" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_DracoSaveOptions.__ref_storage_positionQuantizationBits</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_positionQuantizationBits</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ref_storage_positionQuantizationBits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="46" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1aab354da1f23713cb9776071dda90896a" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_DracoSaveOptions.__ref_storage_onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_onlyValidPoints</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ref_storage_onlyValidPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="53" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1afa040c6992a22722e1c1d867fa148a8e" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_DracoSaveOptions.__ref_storage_packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_packPrimitives</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ref_storage_packPrimitives</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="63" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1a55589bbdc6fefb2db0ef7c926f7f046e" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertColors._Underlying **</type>
+        <definition>unsafe MR.Const_VertColors._Underlying** MR.Const_DracoSaveOptions.__ptr_storage_colors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_colors</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ptr_storage_colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="81" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1aab6328e49c80643b52598fc71e7da881" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Const_Vector_MRColor._Underlying **</type>
+        <definition>unsafe MR.Std.Const_Vector_MRColor._Underlying** MR.Const_DracoSaveOptions.__ptr_storage_primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_primitiveColors</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ptr_storage_primitiveColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="99" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1ac144de29b78067b1528caf9f44123453" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords2._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords2._Underlying** MR.Const_DracoSaveOptions.__ptr_storage_uvMap</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_uvMap</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ptr_storage_uvMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="117" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1a6864094c7ee1ce8e6647d620fe313625" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_DracoSaveOptions.__ref_storage_saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_saveTriCornerUVCoords</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ref_storage_saveTriCornerUVCoords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="124" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1a048bf3cd8d19fb209ac9d5f780874677" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_MeshTexture._Underlying **</type>
+        <definition>unsafe MR.Const_MeshTexture._Underlying** MR.Const_DracoSaveOptions.__ptr_storage_texture</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_texture</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ptr_storage_texture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="142" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1afde376c20a9132240dc620ebd04d8bbe" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3d._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3d._Underlying** MR.Const_DracoSaveOptions.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="165" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DracoSaveOptions_1ab8e4962e25c3245b78357601295eefff" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_DracoSaveOptions.__ref_storage_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_telemetrySignal</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__ref_storage_telemetrySignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="181" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a608a2bba728692ace02fbb6d497d7d17" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DracoSaveOptions.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a75dbb20ba5703570187d0e55dc97d55b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DracoSaveOptions.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1abb26712b123f34721b8605dbc0fee55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DracoSaveOptions.Const_DracoSaveOptions</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DracoSaveOptions</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="271" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="271" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a1f383b17795661b49a66d9ae80f98b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DracoSaveOptions.Const_DracoSaveOptions</definition>
+        <argsstring>(MR._ByValue_DracoSaveOptions _other)</argsstring>
+        <name>Const_DracoSaveOptions</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</qualifiedname>
+        <param>
+          <type>MR._ByValue_DracoSaveOptions</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DracoSaveOptions_1ae380983930127284960cb808fa13cdc3" kindref="member">MR.DracoSaveOptions.DracoSaveOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="280" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="280" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a2bc648d6723bbca31145035022f389de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</definition>
+        <argsstring>(Const_DracoSaveOptions _other)</argsstring>
+        <name>Const_DracoSaveOptions</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DracoSaveOptions" kindref="compound">Const_DracoSaveOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DracoSaveOptions_1ae380983930127284960cb808fa13cdc3" kindref="member">MR.DracoSaveOptions.DracoSaveOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="290" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a77ca57a48ecb1048c7d50581e36aaf41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</definition>
+        <argsstring>(DracoSaveOptions _other)</argsstring>
+        <name>Const_DracoSaveOptions</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DracoSaveOptions" kindref="compound">DracoSaveOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DracoSaveOptions_1ae380983930127284960cb808fa13cdc3" kindref="member">MR.DracoSaveOptions.DracoSaveOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="295" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="295" bodyend="295"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a07fde7e2491c31b13a7c065e82a2d51b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DracoSaveOptions.~Const_DracoSaveOptions</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DracoSaveOptions</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.~Const_DracoSaveOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1af14a7d1b5755f3a4d9881546a72c1a0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_DracoSaveOptions.operator MR.Const_SaveSettings</definition>
+        <argsstring>(Const_DracoSaveOptions self)</argsstring>
+        <name>operator MR.Const_SaveSettings</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.operator MR.Const_SaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DracoSaveOptions" kindref="compound">Const_DracoSaveOptions</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="28" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1ae81db0f69ad98fa769839bfb2aaeb336" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DracoSaveOptions.Const_DracoSaveOptions</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DracoSaveOptions</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.Const_DracoSaveOptions</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="260" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="260" bodyend="265"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a9fd1b9d7d753dad6095c8f1a09142464" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.DracoSaveOptions._Underlying *</type>
+        <definition>static unsafe MR.DracoSaveOptions._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.DracoSaveOptions._Underlying *_other)</argsstring>
+        <name>__MR_DracoSaveOptions_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.DracoSaveOptions._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="300" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1ae6d1cf0553e862603b5a50ce11d95f9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.DracoSaveOptions._Underlying *</type>
+        <definition>static unsafe MR.DracoSaveOptions._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_DracoSaveOptions_DefaultConstruct</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="303" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a9633f01a92266b64be92d48823575328" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Destroy</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="306" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a466640538e613064ce06b8d0cc76313e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VertColors._Underlying **</type>
+        <definition>static unsafe MR.Const_VertColors._Underlying ** MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_colors</definition>
+        <argsstring>(Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_colors</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_colors</qualifiedname>
+        <param>
+          <type>Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="309" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a70f6cf007c015b667e49173a6e15b85d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_compressionLevel</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_compressionLevel</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_compressionLevel</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="312" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1af87cfb56017c262c0dc2e1ba65805e2d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Optional_MRLengthUnit._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Optional_MRLengthUnit._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_lengthUnit</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_lengthUnit</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_lengthUnit</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="315" column="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a2d8bcbcc21053042cad8b39c000d3b75" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_String._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_materialName</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_materialName</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_materialName</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="318" column="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a3f63a990d4a33efc39503d628744a8a9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_onlyValidPoints</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_onlyValidPoints</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_onlyValidPoints</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="321" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1ab735eaf1fc205b2c53b4d795b2921526" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_packPrimitives</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_packPrimitives</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_packPrimitives</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="324" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a7629c6610347261444b02b3953e97d0e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe int *</type>
+        <definition>static unsafe int * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_positionQuantizationBits</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_positionQuantizationBits</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_positionQuantizationBits</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="327" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a84ac17c065d0c2ac24611757d1adb3af" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRColor._Underlying **</type>
+        <definition>static unsafe MR.Std.Const_Vector_MRColor._Underlying ** MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_primitiveColors</definition>
+        <argsstring>(Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_primitiveColors</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_primitiveColors</qualifiedname>
+        <param>
+          <type>Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="330" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a3ff6743757503dccec74cb1db1234f23" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Function_Bool_From_Float._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_progress</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_progress</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_progress</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="333" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1adc1443cb535d0dac7688e8cab3e6080c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_saveTriCornerUVCoords</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_saveTriCornerUVCoords</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_saveTriCornerUVCoords</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="336" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a90817294a31cb4d894b45776a8c01d25" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Optional_MRColor._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Optional_MRColor._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_solidColor</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_solidColor</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_solidColor</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="339" column="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a97a52635ef25f2aeac8c545bba14e4f5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe bool *</type>
+        <definition>static unsafe bool * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_telemetrySignal</definition>
+        <argsstring>(MR.Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_telemetrySignal</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_telemetrySignal</qualifiedname>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="342" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a63414e12b79e5f6b7fb527808038b7f7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_MeshTexture._Underlying **</type>
+        <definition>static unsafe MR.Const_MeshTexture._Underlying ** MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_texture</definition>
+        <argsstring>(Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_texture</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_texture</qualifiedname>
+        <param>
+          <type>Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="345" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1ad1d9f768dc75b2c4383942959e7842b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VertCoords2._Underlying **</type>
+        <definition>static unsafe MR.Const_VertCoords2._Underlying ** MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_uvMap</definition>
+        <argsstring>(Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_uvMap</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_uvMap</qualifiedname>
+        <param>
+          <type>Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="348" column="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1a042ddaf571e60e05cf7846efd5aab9e1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstBox_AffineXf3d._Underlying **</type>
+        <definition>static unsafe MR.ConstBox_AffineXf3d._Underlying ** MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_xf</definition>
+        <argsstring>(Const_DracoSaveOptions._Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_Get_xf</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_Get_xf</qualifiedname>
+        <param>
+          <type>Const_DracoSaveOptions._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="351" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DracoSaveOptions_1afaba5c09a52db623e4bff949ed6b6e77" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_SaveSettings._Underlying *</type>
+        <definition>static unsafe MR.Const_SaveSettings._Underlying * MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_UpcastTo_MR_SaveSettings</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_DracoSaveOptions_UpcastTo_MR_SaveSettings</name>
+        <qualifiedname>MR.Const_DracoSaveOptions.__MR_DracoSaveOptions_UpcastTo_MR_SaveSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="354" column="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>options for saving in Google Draco format Generated from class <computeroutput><ref refid="classMR_1_1DracoSaveOptions" kindref="compound">MR.DracoSaveOptions</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SaveSettings" kindref="compound">MR.SaveSettings</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DracoSaveOptions</label>
+        <link refid="classMR_1_1Const__DracoSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DracoSaveOptions</label>
+        <link refid="classMR_1_1DracoSaveOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_DracoSaveOptions</label>
+        <link refid="classMR_1_1Const__DracoSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+          <edgelabel>__ptr_storage_primitiveColors</edgelabel>
+          <edgelabel>__ptr_storage_texture</edgelabel>
+          <edgelabel>__ptr_storage_uvMap</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="12" bodyend="355"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a9fd1b9d7d753dad6095c8f1a09142464" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ae6d1cf0553e862603b5a50ce11d95f9c" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a9633f01a92266b64be92d48823575328" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Destroy</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a466640538e613064ce06b8d0cc76313e" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_colors</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a70f6cf007c015b667e49173a6e15b85d" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_compressionLevel</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1af87cfb56017c262c0dc2e1ba65805e2d" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_lengthUnit</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a2d8bcbcc21053042cad8b39c000d3b75" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_materialName</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a3f63a990d4a33efc39503d628744a8a9" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_onlyValidPoints</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ab735eaf1fc205b2c53b4d795b2921526" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_packPrimitives</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a7629c6610347261444b02b3953e97d0e" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_positionQuantizationBits</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a84ac17c065d0c2ac24611757d1adb3af" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_primitiveColors</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a3ff6743757503dccec74cb1db1234f23" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_progress</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1adc1443cb535d0dac7688e8cab3e6080c" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a90817294a31cb4d894b45776a8c01d25" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_solidColor</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a97a52635ef25f2aeac8c545bba14e4f5" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_telemetrySignal</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a63414e12b79e5f6b7fb527808038b7f7" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_texture</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ad1d9f768dc75b2c4383942959e7842b9" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_uvMap</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a042ddaf571e60e05cf7846efd5aab9e1" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_Get_xf</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1afaba5c09a52db623e4bff949ed6b6e77" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__MR_DracoSaveOptions_UpcastTo_MR_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a55589bbdc6fefb2db0ef7c926f7f046e" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1aab6328e49c80643b52598fc71e7da881" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ptr_storage_primitiveColors</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a048bf3cd8d19fb209ac9d5f780874677" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ptr_storage_texture</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ac144de29b78067b1528caf9f44123453" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ptr_storage_uvMap</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1afde376c20a9132240dc620ebd04d8bbe" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1afdb03c0af63c5fde517a58bd21402563" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ref_storage_compressionLevel</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1aab354da1f23713cb9776071dda90896a" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ref_storage_onlyValidPoints</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1afa040c6992a22722e1c1d867fa148a8e" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ref_storage_packPrimitives</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1adb1549ba8aa74c84715c82f223dabd41" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ref_storage_positionQuantizationBits</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a6864094c7ee1ce8e6647d620fe313625" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ref_storage_saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ab8e4962e25c3245b78357601295eefff" prot="protected" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>__ref_storage_telemetrySignal</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1afd53a1f61120a6ed63ca9857b5924f3b" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1affb516c7bb04dc8088f9619b49bc7371" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ae81db0f69ad98fa769839bfb2aaeb336" prot="package" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Const_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1abb26712b123f34721b8605dbc0fee55d" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Const_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a1f383b17795661b49a66d9ae80f98b68" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Const_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a2bc648d6723bbca31145035022f389de" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Const_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a77ca57a48ecb1048c7d50581e36aaf41" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Const_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a608a2bba728692ace02fbb6d497d7d17" prot="protected" virt="virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a75dbb20ba5703570187d0e55dc97d55b" prot="public" virt="virtual"><scope>MR::Const_DracoSaveOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a8a7c2130131c5c490edc94b7c076db9f" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>lengthUnit</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1aa39dd7eadb2d512673f2f0bfa92c26a9" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>materialName</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a14fea09182feda685d52d359d2fc17e7" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>onlyValidPoints</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1af14a7d1b5755f3a4d9881546a72c1a0b" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>operator MR.Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a3478d2f50122fb600501674bc5546c71" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>packPrimitives</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a66bbfb7c32ea7f2b6a186ea5fefb21a4" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>positionQuantizationBits</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a339935aa0f59803aa5ceeac13bfeb657" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>primitiveColors</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a716b144902d81515f5600841cea852ec" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a1380cbbf068dfd84127b60aeec868266" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1af796d0818d91db9592bd087f0479a17c" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>solidColor</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1acdc488a5fcabfbb29e6cf168dd83ba85" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>telemetrySignal</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ae710cf4de708ae66c469738353acf773" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>texture</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1ad765bc93442266f0522322b6ff58f3a9" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>uvMap</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1aa5f91250ed3e079f508238cd4d79d4d1" prot="public" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__DracoSaveOptions_1a07fde7e2491c31b13a7c065e82a2d51b" prot="private" virt="non-virtual"><scope>MR::Const_DracoSaveOptions</scope><name>~Const_DracoSaveOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

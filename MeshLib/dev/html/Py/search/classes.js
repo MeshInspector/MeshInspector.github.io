@@ -336,6 +336,7 @@ var searchData=
   ['dividepolylineparameters_43',['DividePolylineParameters',['../classmrmeshpy_1_1DividePolylineParameters.html',1,'mrmeshpy']]],
   ['double_5foutput_44',['double_output',['../classmrmeshpy_1_1double__output.html',1,'mrmeshpy']]],
   ['doubleoffsetsettings_45',['DoubleOffsetSettings',['../classmrmeshpy_1_1DoubleOffsetSettings.html',1,'mrmeshpy']]],
+  ['dracosaveoptions_46',['DracoSaveOptions',['../classmrmeshpy_1_1DracoSaveOptions.html',1,'mrmeshpy']]],
   ['xfbasedcache_5fbox3f_0',['XfBasedCache_Box3f',['../classmrmeshpy_1_1XfBasedCache__Box3f.html',1,'mrmeshpy']]],
   ['namedcloud_0',['NamedCloud',['../classmrmeshpy_1_1PointsLoad_1_1NamedCloud.html',1,'mrmeshpy::PointsLoad']]],
   ['namedmesh_1',['NamedMesh',['../classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html',1,'mrmeshpy::MeshLoad']]],

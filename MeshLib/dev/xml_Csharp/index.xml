@@ -13943,6 +13943,62 @@
     <member refid="classMR_1_1Const__DoubleOffsetSettings_1a653260869693acb56f0952180b4b583d" kind="function"><name>__MR_DoubleOffsetSettings_Get_windingNumberBeta</name></member>
     <member refid="classMR_1_1Const__DoubleOffsetSettings_1a4ae7b62ff62de6728a366f5ea9a1b0a5" kind="function"><name>__MR_DoubleOffsetSettings_Get_windingNumberThreshold</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__DracoSaveOptions" kind="class"><name>MR::Const_DracoSaveOptions</name>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1affb516c7bb04dc8088f9619b49bc7371" kind="property"><name>compressionLevel</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a66bbfb7c32ea7f2b6a186ea5fefb21a4" kind="property"><name>positionQuantizationBits</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a14fea09182feda685d52d359d2fc17e7" kind="property"><name>onlyValidPoints</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a3478d2f50122fb600501674bc5546c71" kind="property"><name>packPrimitives</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1afd53a1f61120a6ed63ca9857b5924f3b" kind="property"><name>colors</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a339935aa0f59803aa5ceeac13bfeb657" kind="property"><name>primitiveColors</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ad765bc93442266f0522322b6ff58f3a9" kind="property"><name>uvMap</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a1380cbbf068dfd84127b60aeec868266" kind="property"><name>saveTriCornerUVCoords</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ae710cf4de708ae66c469738353acf773" kind="property"><name>texture</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1aa39dd7eadb2d512673f2f0bfa92c26a9" kind="property"><name>materialName</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1aa5f91250ed3e079f508238cd4d79d4d1" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a8a7c2130131c5c490edc94b7c076db9f" kind="property"><name>lengthUnit</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1af796d0818d91db9592bd087f0479a17c" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1acdc488a5fcabfbb29e6cf168dd83ba85" kind="property"><name>telemetrySignal</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a716b144902d81515f5600841cea852ec" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1afdb03c0af63c5fde517a58bd21402563" kind="variable"><name>__ref_storage_compressionLevel</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1adb1549ba8aa74c84715c82f223dabd41" kind="variable"><name>__ref_storage_positionQuantizationBits</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1aab354da1f23713cb9776071dda90896a" kind="variable"><name>__ref_storage_onlyValidPoints</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1afa040c6992a22722e1c1d867fa148a8e" kind="variable"><name>__ref_storage_packPrimitives</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a55589bbdc6fefb2db0ef7c926f7f046e" kind="variable"><name>__ptr_storage_colors</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1aab6328e49c80643b52598fc71e7da881" kind="variable"><name>__ptr_storage_primitiveColors</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ac144de29b78067b1528caf9f44123453" kind="variable"><name>__ptr_storage_uvMap</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a6864094c7ee1ce8e6647d620fe313625" kind="variable"><name>__ref_storage_saveTriCornerUVCoords</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a048bf3cd8d19fb209ac9d5f780874677" kind="variable"><name>__ptr_storage_texture</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1afde376c20a9132240dc620ebd04d8bbe" kind="variable"><name>__ptr_storage_xf</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ab8e4962e25c3245b78357601295eefff" kind="variable"><name>__ref_storage_telemetrySignal</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a608a2bba728692ace02fbb6d497d7d17" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a75dbb20ba5703570187d0e55dc97d55b" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1abb26712b123f34721b8605dbc0fee55d" kind="function"><name>Const_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a1f383b17795661b49a66d9ae80f98b68" kind="function"><name>Const_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a2bc648d6723bbca31145035022f389de" kind="function"><name>Const_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a77ca57a48ecb1048c7d50581e36aaf41" kind="function"><name>Const_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a07fde7e2491c31b13a7c065e82a2d51b" kind="function"><name>~Const_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1af14a7d1b5755f3a4d9881546a72c1a0b" kind="function"><name>operator MR.Const_SaveSettings</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ae81db0f69ad98fa769839bfb2aaeb336" kind="function"><name>Const_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a9fd1b9d7d753dad6095c8f1a09142464" kind="function"><name>__MR_DracoSaveOptions_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ae6d1cf0553e862603b5a50ce11d95f9c" kind="function"><name>__MR_DracoSaveOptions_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a9633f01a92266b64be92d48823575328" kind="function"><name>__MR_DracoSaveOptions_Destroy</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a466640538e613064ce06b8d0cc76313e" kind="function"><name>__MR_DracoSaveOptions_Get_colors</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a70f6cf007c015b667e49173a6e15b85d" kind="function"><name>__MR_DracoSaveOptions_Get_compressionLevel</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1af87cfb56017c262c0dc2e1ba65805e2d" kind="function"><name>__MR_DracoSaveOptions_Get_lengthUnit</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a2d8bcbcc21053042cad8b39c000d3b75" kind="function"><name>__MR_DracoSaveOptions_Get_materialName</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a3f63a990d4a33efc39503d628744a8a9" kind="function"><name>__MR_DracoSaveOptions_Get_onlyValidPoints</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ab735eaf1fc205b2c53b4d795b2921526" kind="function"><name>__MR_DracoSaveOptions_Get_packPrimitives</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a7629c6610347261444b02b3953e97d0e" kind="function"><name>__MR_DracoSaveOptions_Get_positionQuantizationBits</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a84ac17c065d0c2ac24611757d1adb3af" kind="function"><name>__MR_DracoSaveOptions_Get_primitiveColors</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a3ff6743757503dccec74cb1db1234f23" kind="function"><name>__MR_DracoSaveOptions_Get_progress</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1adc1443cb535d0dac7688e8cab3e6080c" kind="function"><name>__MR_DracoSaveOptions_Get_saveTriCornerUVCoords</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a90817294a31cb4d894b45776a8c01d25" kind="function"><name>__MR_DracoSaveOptions_Get_solidColor</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a97a52635ef25f2aeac8c545bba14e4f5" kind="function"><name>__MR_DracoSaveOptions_Get_telemetrySignal</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a63414e12b79e5f6b7fb527808038b7f7" kind="function"><name>__MR_DracoSaveOptions_Get_texture</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1ad1d9f768dc75b2c4383942959e7842b9" kind="function"><name>__MR_DracoSaveOptions_Get_uvMap</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1a042ddaf571e60e05cf7846efd5aab9e1" kind="function"><name>__MR_DracoSaveOptions_Get_xf</name></member>
+    <member refid="classMR_1_1Const__DracoSaveOptions_1afaba5c09a52db623e4bff949ed6b6e77" kind="function"><name>__MR_DracoSaveOptions_UpcastTo_MR_SaveSettings</name></member>
+  </compound>
   <compound refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings" kind="class"><name>MR::PointsLoad::Const_E57LoadSettings</name>
     <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a7c0e3f4821738962f7f74811e146d016" kind="property"><name>combineAllObjects</name></member>
     <member refid="classMR_1_1PointsLoad_1_1Const__E57LoadSettings_1a7c7e0f90c61f95fd581a1766a430609a" kind="property"><name>identityXf</name></member>
@@ -44625,6 +44681,38 @@
     <member refid="classMR_1_1DoubleOffsetSettings_1a97c9e8fb5203e2109c93e0c35293ab72" kind="function"><name>__MR_DoubleOffsetSettings_GetMutable_fwn</name></member>
     <member refid="classMR_1_1DoubleOffsetSettings_1aaf6fc5506d56a67732c0f8f4db82f3d9" kind="function"><name>__MR_DoubleOffsetSettings_GetMutable_progress</name></member>
   </compound>
+  <compound refid="classMR_1_1DracoSaveOptions" kind="class"><name>MR::DracoSaveOptions</name>
+    <member refid="classMR_1_1DracoSaveOptions_1a584345627717f488e4abae1e7c49306b" kind="property"><name>compressionLevel</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a9d8ba5094cdb3a6fcb59260cf3252314" kind="property"><name>positionQuantizationBits</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a4c6ea9cfcb9ea1b04fedad71bca59072" kind="property"><name>onlyValidPoints</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a9bbbc3a9324662eecdcafcd088f548d6" kind="property"><name>packPrimitives</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1ac9dbf720e4f521c13c4da4cf12b85458" kind="property"><name>colors</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a8ea7155bf4641297ae708107236f953e" kind="property"><name>primitiveColors</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1ac1c0eea2ea89e3d4c2b0c58562448e0e" kind="property"><name>uvMap</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a6e61f804fead573508f475a100f91275" kind="property"><name>saveTriCornerUVCoords</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1afe73530dcbe09bd3ba7f42f9e3064f22" kind="property"><name>texture</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1aee5519c16e7abb05d058ee43d5bda267" kind="property"><name>materialName</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a8e0814dbaa75f4cdd056089dd3c44d06" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a04a829ee3c3b47ae696e610ea386f263" kind="property"><name>lengthUnit</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a476701de0b3e21f67bf9555fe0ef3349" kind="property"><name>solidColor</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1af9b2b40163acac2ab21c384816563aae" kind="property"><name>telemetrySignal</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a366a1a886f247199ed7f0a565767077c" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a7adf6e3c8dfa02e288ef0a8b1f2183b5" kind="function"><name>operator MR.SaveSettings</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a059784d6878b0fc3b471d48f008cabfe" kind="function"><name>DracoSaveOptions</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1ae380983930127284960cb808fa13cdc3" kind="function"><name>DracoSaveOptions</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1adfb962ff7ee4b39ee86ea6a7e400f765" kind="function"><name>DracoSaveOptions</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1aecb8d907dca592deed854f99659ccb43" kind="function"><name>DracoSaveOptions</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1adcc27144776336631493c8993dcf6fd9" kind="function"><name>DracoSaveOptions</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a4899dc079d8e34a32c761e0c9d764e62" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a511d8daedd719274adfb2c59f70d5397" kind="function"><name>__MR_DracoSaveOptions_AssignFromAnother</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a4e3ed570a46dde58090b1f1986625e84" kind="function"><name>__MR_DracoSaveOptions_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a56ab716bfd7cdd5ace9d688eeb448a66" kind="function"><name>__MR_DracoSaveOptions_DefaultConstruct</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1ad065db1fe6375b8d75abbfd107881c69" kind="function"><name>__MR_DracoSaveOptions_GetMutable_lengthUnit</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a73118061ee5756a04ceadb3889bbc7db" kind="function"><name>__MR_DracoSaveOptions_GetMutable_materialName</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a33c08eaeda1402ff95e30238923789fd" kind="function"><name>__MR_DracoSaveOptions_GetMutable_progress</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a3d530ab4118dd540e7af831e2f37c619" kind="function"><name>__MR_DracoSaveOptions_GetMutable_solidColor</name></member>
+    <member refid="classMR_1_1DracoSaveOptions_1a366fda998d0402517df4acb8c0952509" kind="function"><name>__MR_DracoSaveOptions_UpcastTo_MR_SaveSettings</name></member>
+  </compound>
   <compound refid="classMR_1_1PointsLoad_1_1E57LoadSettings" kind="class"><name>MR::PointsLoad::E57LoadSettings</name>
     <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1a8bafbe80e2489d0df62df79696df2574" kind="property"><name>combineAllObjects</name></member>
     <member refid="classMR_1_1PointsLoad_1_1E57LoadSettings_1acba567a6102f19497bae5288ff8af181" kind="property"><name>identityXf</name></member>
@@ -50590,6 +50678,8 @@
   <compound refid="classMR_1_1MeshLoad" kind="class"><name>MR::MeshLoad</name>
     <member refid="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" kind="function"><name>fromCtm</name></member>
     <member refid="classMR_1_1MeshLoad_1a1f448c12bb73983175543b2797dfb671" kind="function"><name>fromCtm</name></member>
+    <member refid="classMR_1_1MeshLoad_1a1ae78aae5b58ab567f180a5306fd83fd" kind="function"><name>fromDrc</name></member>
+    <member refid="classMR_1_1MeshLoad_1a22ac614c8a3c6a42ab0b7cfda782210d" kind="function"><name>fromDrc</name></member>
     <member refid="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" kind="function"><name>fromStep</name></member>
     <member refid="classMR_1_1MeshLoad_1aef32d952c0dcf02c08a933599c4bc520" kind="function"><name>fromStep</name></member>
     <member refid="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" kind="function"><name>fromSceneStepFile</name></member>
@@ -50618,6 +50708,8 @@
     <member refid="classMR_1_1MeshLoad_1a94f74d007f6d508219aa326f25488c61" kind="function"><name>loadObjectFromObj</name></member>
     <member refid="classMR_1_1MeshLoad_1a1c96fe3d6fc2d0e42291f8573507a981" kind="function"><name>__MR_MeshLoad_fromCtm_std_filesystem_path</name></member>
     <member refid="classMR_1_1MeshLoad_1a95536127c8078661623c05db9ce036d9" kind="function"><name>__MR_MeshLoad_fromCtm_std_istream</name></member>
+    <member refid="classMR_1_1MeshLoad_1acf7343f8a2ad57f7b5ebd1a2e907a6e0" kind="function"><name>__MR_MeshLoad_fromDrc_std_filesystem_path</name></member>
+    <member refid="classMR_1_1MeshLoad_1a55ec040e629150b97a054e5be25d08b9" kind="function"><name>__MR_MeshLoad_fromDrc_std_istream</name></member>
     <member refid="classMR_1_1MeshLoad_1a03603760815339acd9de6bb68e4cb828" kind="function"><name>__MR_MeshLoad_fromSceneStepFile_std_filesystem_path</name></member>
     <member refid="classMR_1_1MeshLoad_1a63e8f397b76f931ae026aa2a15750eff" kind="function"><name>__MR_MeshLoad_fromSceneStepFile_std_istream</name></member>
     <member refid="classMR_1_1MeshLoad_1a496e98d57eb9673aeac04e77fd6a2723" kind="function"><name>__MR_MeshLoad_fromStep_std_filesystem_path</name></member>
@@ -51006,6 +51098,10 @@
     <member refid="classMR_1_1MeshSave_1a7988fc2ac6b3ff08bf3d5b057b2dcf3c" kind="function"><name>toCtm</name></member>
     <member refid="classMR_1_1MeshSave_1ae2479c9649075a3f2cc85dcd9f6a2c76" kind="function"><name>toCtm</name></member>
     <member refid="classMR_1_1MeshSave_1a3ad87e7d784e27d6adc5fb131ce7190f" kind="function"><name>toCtm</name></member>
+    <member refid="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" kind="function"><name>toDrc</name></member>
+    <member refid="classMR_1_1MeshSave_1a4e396f5ebc938f76702b82ffb9d37683" kind="function"><name>toDrc</name></member>
+    <member refid="classMR_1_1MeshSave_1a52ada6277b62e9b30062a92670f15cd4" kind="function"><name>toDrc</name></member>
+    <member refid="classMR_1_1MeshSave_1a3a8c68afaec87aca9b1fa8694653b3d5" kind="function"><name>toDrc</name></member>
     <member refid="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" kind="function"><name>toMrmesh</name></member>
     <member refid="classMR_1_1MeshSave_1ac2c2b377fe8f0b1af7f12c5a533390a1" kind="function"><name>toMrmesh</name></member>
     <member refid="classMR_1_1MeshSave_1a045084fbf724cd87a0ec2bf4682e1d14" kind="function"><name>toOff</name></member>
@@ -51033,6 +51129,10 @@
     <member refid="classMR_1_1MeshSave_1a77d66f106dfe8608a6eaf264f99a025f" kind="function"><name>__MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</name></member>
     <member refid="classMR_1_1MeshSave_1aa909976f23542c1109faacae99ef4542" kind="function"><name>__MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions</name></member>
     <member refid="classMR_1_1MeshSave_1a8a786600ad73894fa20fcffd010de77b" kind="function"><name>__MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings</name></member>
+    <member refid="classMR_1_1MeshSave_1a98f7cad6495d99369113e6b58c68cd15" kind="function"><name>__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1MeshSave_1a7265180082b04b6269b362dd15a7010c" kind="function"><name>__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_SaveSettings</name></member>
+    <member refid="classMR_1_1MeshSave_1a52e60a2ebbf385230d5e9eb4bdef84a7" kind="function"><name>__MR_MeshSave_toDrc_std_ostream_ref_MR_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1MeshSave_1af5f8aefe0a22196695a5b844f0a23b41" kind="function"><name>__MR_MeshSave_toDrc_std_ostream_ref_MR_SaveSettings</name></member>
     <member refid="classMR_1_1MeshSave_1ab1cfc6d5b3068363532480e8dc6d8ce8" kind="function"><name>__MR_MeshSave_to3mf</name></member>
     <member refid="classMR_1_1MeshSave_1ad72a45ae5ed9b64dd05562e6fdec8e99" kind="function"><name>__MR_MeshSave_toAnySupportedFormat_3</name></member>
     <member refid="classMR_1_1MeshSave_1a6d129f95918d47a0cc09b5611c622c4a" kind="function"><name>__MR_MeshSave_toAnySupportedFormat_4</name></member>
@@ -59945,6 +60045,8 @@
   <compound refid="classMR_1_1PointsLoad" kind="class"><name>MR::PointsLoad</name>
     <member refid="classMR_1_1PointsLoad_1a41482212997d8c721ae8f497c4b81c35" kind="function"><name>fromCtm</name></member>
     <member refid="classMR_1_1PointsLoad_1a44b48011a7c016b4d451251954b6e56b" kind="function"><name>fromCtm</name></member>
+    <member refid="classMR_1_1PointsLoad_1a38a2afd95fdcf04ff8217d83555a4e14" kind="function"><name>fromDrc</name></member>
+    <member refid="classMR_1_1PointsLoad_1af9d9adce8c94041255b160232af39bc4" kind="function"><name>fromDrc</name></member>
     <member refid="classMR_1_1PointsLoad_1a7e527512ac9d84f26b1ef9b1ee6c611a" kind="function"><name>fromSceneE57File</name></member>
     <member refid="classMR_1_1PointsLoad_1ad5bec718b73ec3b68699a6fe0aaa904a" kind="function"><name>fromE57</name></member>
     <member refid="classMR_1_1PointsLoad_1a1b9f0ece0fa4136c55f986719981f6c1" kind="function"><name>fromE57</name></member>
@@ -59966,6 +60068,8 @@
     <member refid="classMR_1_1PointsLoad_1ad3f6f9aefe03d5c1313483f26d459790" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="classMR_1_1PointsLoad_1af75fc29911f809bf10d94f21c1dc47b1" kind="function"><name>__MR_PointsLoad_fromCtm_std_filesystem_path</name></member>
     <member refid="classMR_1_1PointsLoad_1ac4e94294c124147e44ecc3a26f82d6e2" kind="function"><name>__MR_PointsLoad_fromCtm_std_istream</name></member>
+    <member refid="classMR_1_1PointsLoad_1a29d3dfe686889320de1511b87a040780" kind="function"><name>__MR_PointsLoad_fromDrc_std_filesystem_path</name></member>
+    <member refid="classMR_1_1PointsLoad_1a4223a93d870a872aef10e094db4175bd" kind="function"><name>__MR_PointsLoad_fromDrc_std_istream</name></member>
     <member refid="classMR_1_1PointsLoad_1a4272d18f7a3803f4d87ff9de28b9fdf0" kind="function"><name>__MR_PointsLoad_fromE57_std_filesystem_path</name></member>
     <member refid="classMR_1_1PointsLoad_1a9815d755bfd7a0c6b063c0844cb92286" kind="function"><name>__MR_PointsLoad_fromE57_std_istream</name></member>
     <member refid="classMR_1_1PointsLoad_1ad6bbf1f358dbd6e3076c5f5164234162" kind="function"><name>__MR_PointsLoad_fromSceneE57File</name></member>
@@ -60057,6 +60161,10 @@
     <member refid="classMR_1_1PointsSave_1adbff1d89ed9f645278007ccf7d97cb0d" kind="function"><name>toCtm</name></member>
     <member refid="classMR_1_1PointsSave_1a691a7c68c14a79470f818346d56ce25a" kind="function"><name>toCtm</name></member>
     <member refid="classMR_1_1PointsSave_1aabbd754fc04eb93dc74717a13b1a6749" kind="function"><name>toCtm</name></member>
+    <member refid="classMR_1_1PointsSave_1ac48e22eb118495d753a5fbacbaa95964" kind="function"><name>toDrc</name></member>
+    <member refid="classMR_1_1PointsSave_1a98782fd5a5fde8cb761315cd08e4ddfd" kind="function"><name>toDrc</name></member>
+    <member refid="classMR_1_1PointsSave_1a1f954fb2b5687707f363e40aa956d3b3" kind="function"><name>toDrc</name></member>
+    <member refid="classMR_1_1PointsSave_1ac7dad39d0023f71bf5bcf5f22658ae5c" kind="function"><name>toDrc</name></member>
     <member refid="classMR_1_1PointsSave_1acd7df9eadd5b7bc7b589715397d749cb" kind="function"><name>toXyz</name></member>
     <member refid="classMR_1_1PointsSave_1ab7bbf7fab105dc0b445ec96b6d3d001f" kind="function"><name>toXyz</name></member>
     <member refid="classMR_1_1PointsSave_1abe86cade2e964250af0109853a6dfc7e" kind="function"><name>toXyzn</name></member>
@@ -60071,6 +60179,10 @@
     <member refid="classMR_1_1PointsSave_1a8573d9f4c88417155b6095135b9d5458" kind="function"><name>__MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</name></member>
     <member refid="classMR_1_1PointsSave_1abc590204452063270a1dee33f0f07eee" kind="function"><name>__MR_PointsSave_toCtm_std_ostream_ref_MR_PointsSave_CtmSavePointsOptions</name></member>
     <member refid="classMR_1_1PointsSave_1afae6efe0332883d4e4840f928c9bc9a6" kind="function"><name>__MR_PointsSave_toCtm_std_ostream_ref_MR_SaveSettings</name></member>
+    <member refid="classMR_1_1PointsSave_1ab5896d21b2ef17d71e381346bda7ae2d" kind="function"><name>__MR_PointsSave_toDrc_const_std_filesystem_path_ref_MR_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1PointsSave_1a95aeb8d00e629cb17b44cbc166386d15" kind="function"><name>__MR_PointsSave_toDrc_const_std_filesystem_path_ref_MR_SaveSettings</name></member>
+    <member refid="classMR_1_1PointsSave_1a9f4fa5400b17edaf51add46f65dba46e" kind="function"><name>__MR_PointsSave_toDrc_std_ostream_ref_MR_DracoSaveOptions</name></member>
+    <member refid="classMR_1_1PointsSave_1a150b1c35c1bae07b8e2d5352202a2019" kind="function"><name>__MR_PointsSave_toDrc_std_ostream_ref_MR_SaveSettings</name></member>
     <member refid="classMR_1_1PointsSave_1a05b32e4d62578bb3f7e7f4a88ffe3815" kind="function"><name>__MR_PointsSave_toAnySupportedFormat_3</name></member>
     <member refid="classMR_1_1PointsSave_1a0067ff7837b3122b03e8f578bfbb7b71" kind="function"><name>__MR_PointsSave_toAnySupportedFormat_4</name></member>
     <member refid="classMR_1_1PointsSave_1a5c5c7e0fb6f7e09e1e8fefd3dba6dd95" kind="function"><name>__MR_PointsSave_toAsc_std_filesystem_path</name></member>
@@ -70874,6 +70986,8 @@
   <compound refid="MR3mf_8cs" kind="file"><name>MR3mf.cs</name>
   </compound>
   <compound refid="MRCtm_8cs" kind="file"><name>MRCtm.cs</name>
+  </compound>
+  <compound refid="MRDraco_8cs" kind="file"><name>MRDraco.cs</name>
   </compound>
   <compound refid="MRE57_8cs" kind="file"><name>MRE57.cs</name>
   </compound>

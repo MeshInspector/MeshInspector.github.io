@@ -16,6 +16,8 @@ var classMR_1_1MeshLoad =
     [ "fromBinaryStl", "classMR_1_1MeshLoad.html#a2d0218fccd9ca5feeaf428af4d446a4d", null ],
     [ "fromCtm", "classMR_1_1MeshLoad.html#a1f448c12bb73983175543b2797dfb671", null ],
     [ "fromCtm", "classMR_1_1MeshLoad.html#a6b19df3e63cd1c399ed8d9e896023526", null ],
+    [ "fromDrc", "classMR_1_1MeshLoad.html#a22ac614c8a3c6a42ab0b7cfda782210d", null ],
+    [ "fromDrc", "classMR_1_1MeshLoad.html#a1ae78aae5b58ab567f180a5306fd83fd", null ],
     [ "fromDxf", "classMR_1_1MeshLoad.html#a0033c99ba79a767c4b97796416401bea", null ],
     [ "fromDxf", "classMR_1_1MeshLoad.html#af0272b617b0ff4d5445053ab5f0bafbd", null ],
     [ "fromMrmesh", "classMR_1_1MeshLoad.html#ab1c2632f5d8a7b89644f9438ebd3fed9", null ],

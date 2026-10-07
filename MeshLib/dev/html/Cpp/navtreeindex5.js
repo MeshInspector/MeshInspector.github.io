@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"MRRibbonFontHolder_8h_source.html":[9,0,3,0,11,96],
+"MRRibbonFontManager_8h.html":[9,0,3,0,11,97],
 "MRRibbonFontManager_8h_source.html":[9,0,3,0,11,97],
 "MRRibbonIcons_8h.html":[9,0,3,0,11,98],
 "MRRibbonIcons_8h_source.html":[9,0,3,0,11,98],
@@ -141,8 +143,8 @@ var NAVTREEINDEX5 =
 "MRStatePluginUpdate_8h_source.html":[9,0,3,0,11,135],
 "MRStatePlugin_8h.html":[9,0,3,0,11,134],
 "MRStatePlugin_8h_source.html":[9,0,3,0,11,134],
-"MRStep_8h.html":[9,0,3,0,4,12],
-"MRStep_8h_source.html":[9,0,3,0,4,12],
+"MRStep_8h.html":[9,0,3,0,4,13],
+"MRStep_8h_source.html":[9,0,3,0,4,13],
 "MRStitchOpenTwins_8h.html":[9,0,3,0,7,388],
 "MRStitchOpenTwins_8h_source.html":[9,0,3,0,7,388],
 "MRStringConvert_8h.html":[9,0,3,0,7,390],
@@ -165,8 +167,8 @@ var NAVTREEINDEX5 =
 "MRSurfacePointPicker_8h_source.html":[9,0,3,0,11,137],
 "MRSurroundingContour_8h.html":[9,0,3,0,7,396],
 "MRSurroundingContour_8h_source.html":[9,0,3,0,7,396],
-"MRSvg_8h.html":[9,0,3,0,4,13],
-"MRSvg_8h_source.html":[9,0,3,0,4,13],
+"MRSvg_8h.html":[9,0,3,0,4,14],
+"MRSvg_8h_source.html":[9,0,3,0,4,14],
 "MRSwapRootAction_8h.html":[9,0,3,0,11,138],
 "MRSwapRootAction_8h_source.html":[9,0,3,0,11,138],
 "MRSweptVolume_8h.html":[9,0,3,0,12,26],
@@ -203,8 +205,8 @@ var NAVTREEINDEX5 =
 "MRTextureColors_8h_source.html":[9,0,3,0,7,406],
 "MRTiffIO_8h.html":[9,0,3,0,7,407],
 "MRTiffIO_8h_source.html":[9,0,3,0,7,407],
-"MRTiff_8h.html":[9,0,3,0,4,14],
-"MRTiff_8h_source.html":[9,0,3,0,4,14],
+"MRTiff_8h.html":[9,0,3,0,4,15],
+"MRTiff_8h_source.html":[9,0,3,0,4,15],
 "MRTimeRecord_8h.html":[9,0,3,0,7,409],
 "MRTimeRecord_8h_source.html":[9,0,3,0,7,409],
 "MRTimer_8h.html":[9,0,3,0,7,408],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRTunnelDetector_8h_source.html":[9,0,3,0,7,418],
 "MRTupleBindings_8h.html":[9,0,3,0,7,419],
 "MRTupleBindings_8h_source.html":[9,0,3,0,7,419],
-"MRTwoLineSegmDist_8h.html":[9,0,3,0,7,420],
-"MRTwoLineSegmDist_8h_source.html":[9,0,3,0,7,420],
-"MRUINonOverlappingLabels_8h.html":[9,0,3,0,11,146]
+"MRTwoLineSegmDist_8h.html":[9,0,3,0,7,420]
 };

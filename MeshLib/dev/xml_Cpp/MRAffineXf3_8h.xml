@@ -253,6 +253,10 @@
         <label>MRIOExtras/MRCtm.h</label>
         <link refid="MRCtm_8h"/>
       </node>
+      <node id="185">
+        <label>MRIOExtras/MRDraco.h</label>
+        <link refid="MRDraco_8h"/>
+      </node>
       <node id="3">
         <label>MRIOExtras/MRE57.h</label>
         <link refid="MRE57_8h"/>
@@ -370,15 +374,15 @@
         </childnode>
         <childnode refid="183" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
-        </childnode>
         <childnode refid="189" relation="include">
         </childnode>
         <childnode refid="190" relation="include">
         </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
         <childnode refid="165" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="192" relation="include">
         </childnode>
         <childnode refid="110" relation="include">
         </childnode>
@@ -715,7 +719,7 @@
         <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="185">
+      <node id="186">
         <label>MRMesh/MRLinesSave.h</label>
         <link refid="MRLinesSave_8h"/>
       </node>
@@ -755,7 +759,7 @@
         <childnode refid="150" relation="include">
         </childnode>
       </node>
-      <node id="186">
+      <node id="187">
         <label>MRMesh/MRMeshSave.h</label>
         <link refid="MRMeshSave_8h"/>
       </node>
@@ -953,7 +957,7 @@
         <label>MRMesh/MRPointsInBox.h</label>
         <link refid="MRPointsInBox_8h"/>
       </node>
-      <node id="187">
+      <node id="188">
         <label>MRMesh/MRPointsSave.h</label>
         <link refid="MRPointsSave_8h"/>
       </node>
@@ -1012,13 +1016,15 @@
         <link refid="MRSaveSettings_8h"/>
         <childnode refid="184" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
         <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
         </childnode>
         <childnode refid="186" relation="include">
         </childnode>
         <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
         </childnode>
       </node>
       <node id="162">
@@ -1033,7 +1039,7 @@
         <childnode refid="164" relation="include">
         </childnode>
       </node>
-      <node id="188">
+      <node id="189">
         <label>MRMesh/MRSharpenMarchingCubesMesh.h</label>
         <link refid="MRSharpenMarchingCubesMesh_8h"/>
       </node>
@@ -1099,7 +1105,7 @@
         <childnode refid="93" relation="include">
         </childnode>
       </node>
-      <node id="189">
+      <node id="190">
         <label>MRMesh/MRXfBasedCache.h</label>
         <link refid="MRXfBasedCache_8h"/>
         <childnode refid="67" relation="include">
@@ -1165,7 +1171,7 @@
         <label>MRViewer/MRMeshModifier.h</label>
         <link refid="MRMeshModifier_8h"/>
       </node>
-      <node id="190">
+      <node id="191">
         <label>MRViewer/MRMoveObjectByMouseImpl.h</label>
         <link refid="MRMoveObjectByMouseImpl_8h"/>
         <childnode refid="2" relation="include">
@@ -1349,7 +1355,7 @@
         <label>MRViewer/MRSwapRootAction.h</label>
         <link refid="MRSwapRootAction_8h"/>
       </node>
-      <node id="191">
+      <node id="192">
         <label>MRViewer/MRTouchesController.h</label>
         <link refid="MRTouchesController_8h"/>
       </node>

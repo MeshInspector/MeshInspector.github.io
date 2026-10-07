@@ -2885,6 +2885,10 @@
     <member refid="group__GeneralGroup_1gaee042c47f37e1c7b083569430a185ce3" kind="variable"><name>windingNumberBeta</name></member>
     <member refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" kind="variable"><name>progress</name></member>
   </compound>
+  <compound refid="structMR_1_1DracoSaveOptions" kind="struct"><name>MR::DracoSaveOptions</name>
+    <member refid="group__GeneralGroup_1gae9c7e6e219acdd599b0d504614993d45" kind="variable"><name>compressionLevel</name></member>
+    <member refid="group__GeneralGroup_1gacfaf819a8e53f4a4b264ba8906358cf6" kind="variable"><name>positionQuantizationBits</name></member>
+  </compound>
   <compound refid="structMR_1_1DragDropListener" kind="struct"><name>MR::DragDropListener</name>
     <member refid="group__GeneralGroup_1gaa474fef434b1551d773987884fe59e30" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
     <member refid="group__GeneralGroup_1ga73c49f92cdcdaab7c5112daea50c40e7" kind="function"><name>~DragDropListener</name></member>
@@ -16896,6 +16900,8 @@
     <member refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kind="typedef"><name>MeshStreamLoader</name></member>
     <member refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" kind="function"><name>fromCtm</name></member>
     <member refid="group__GeneralGroup_1gaab397c33ed047fb5ccbb545c3940957d" kind="function"><name>fromCtm</name></member>
+    <member refid="group__GeneralGroup_1gafce514409e214aad754da493867e1929" kind="function"><name>fromDrc</name></member>
+    <member refid="group__GeneralGroup_1ga94ca62ab59127307bb6e550c824ae036" kind="function"><name>fromDrc</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1af8cb15148c8421e06a2fb126237416d4" kind="function"><name>fromStep</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1a949d7b6686c5cb76b565854e32918ea5" kind="function"><name>fromStep</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1af82c12efa3f3e13a47d5616a3a2dd5a1" kind="function"><name>fromSceneStepFile</name></member>
@@ -16931,6 +16937,10 @@
     <member refid="group__GeneralGroup_1ga61be7630e83bc41780d3e40c1dfb1351" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga0ac906684f9be8595fe62ce6ced0e1c8" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga98779f78c4bba8956c622a7d76eee8b3" kind="function"><name>toCtm</name></member>
+    <member refid="group__GeneralGroup_1ga910d5c1770bc9178bbcb9d4e51209a36" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gae9a2f12e0f7a6e8ad396ddfd77305600" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gaea1518d5c552311bae9bb42e31d29b96" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gad12ad0cb2c3055ddae301d1188a5924f" kind="function"><name>toDrc</name></member>
     <member refid="group__MeshSaveGroup_1ga9513ef1ff3f501a7e44ca11e8020add4" kind="function"><name>toMrmesh</name></member>
     <member refid="group__MeshSaveGroup_1gaca2f6357ec8494d5605359f1605f00b3" kind="function"><name>toMrmesh</name></member>
     <member refid="group__MeshSaveGroup_1ga9493b59b63946b2427188aed7ceae256" kind="function"><name>toOff</name></member>
@@ -17004,6 +17014,8 @@
     <member refid="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" kind="typedef"><name>PointsStreamLoader</name></member>
     <member refid="group__GeneralGroup_1ga8a580b810c0308121d566693f5e196a2" kind="function"><name>fromCtm</name></member>
     <member refid="group__GeneralGroup_1ga1afe750e0a8c61a6730d43d9b071987f" kind="function"><name>fromCtm</name></member>
+    <member refid="group__GeneralGroup_1ga30664957b9e3557712428bd9b5f2d61b" kind="function"><name>fromDrc</name></member>
+    <member refid="group__GeneralGroup_1ga8fd8cc7a4384fd3d832a57241288badf" kind="function"><name>fromDrc</name></member>
     <member refid="namespaceMR_1_1PointsLoad_1a4e26659cfe9947e314c23ec7aed1a859" kind="function"><name>fromSceneE57File</name></member>
     <member refid="namespaceMR_1_1PointsLoad_1a2375d8a5796d1b39ee7f5f90ef0c6649" kind="function"><name>fromE57</name></member>
     <member refid="namespaceMR_1_1PointsLoad_1a74d1bdfae49f008619b4a62372672501" kind="function"><name>fromE57</name></member>
@@ -17032,6 +17044,10 @@
     <member refid="group__GeneralGroup_1gae7775f44d52949b8d06ef0d096de8863" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga898d2d11a740e4045732fea8bcaf73cd" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1gaf1f0368ea29bcc428bd7a55601155bd2" kind="function"><name>toCtm</name></member>
+    <member refid="group__GeneralGroup_1ga19acb77803f6f1c3f8644f011a89ce6b" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gaa2dfdf88388714304bb6153828685336" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1ga412edbeb03fc5ac26a91aa23f8fedc2d" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1ga0b612ac4880f07437b89932fa81b98c5" kind="function"><name>toDrc</name></member>
     <member refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" kind="function"><name>toXyz</name></member>
     <member refid="group__PointsSaveGroup_1ga736ca6d57fbc8d9d4574411f34b2f3ea" kind="function"><name>toXyz</name></member>
     <member refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" kind="function"><name>toXyzn</name></member>
@@ -17508,6 +17524,8 @@
   <compound refid="MR3mf_8h" kind="file"><name>MR3mf.h</name>
   </compound>
   <compound refid="MRCtm_8h" kind="file"><name>MRCtm.h</name>
+  </compound>
+  <compound refid="MRDraco_8h" kind="file"><name>MRDraco.h</name>
   </compound>
   <compound refid="MRE57_8h" kind="file"><name>MRE57.h</name>
   </compound>
@@ -22154,6 +22172,8 @@
     <member refid="group__GeneralGroup_1ga19694f1e7c36428c2d0e206560be24a3" kind="variable"><name>comment</name></member>
     <member refid="group__GeneralGroup_1ga93bcbf8ddd9c5a89210bf3cf9f8acbef" kind="variable"><name>compressionLevel</name></member>
     <member refid="group__GeneralGroup_1ga5f613f44fae6b6a33f13f57fc0161a01" kind="variable"><name>comment</name></member>
+    <member refid="group__GeneralGroup_1gae9c7e6e219acdd599b0d504614993d45" kind="variable"><name>compressionLevel</name></member>
+    <member refid="group__GeneralGroup_1gacfaf819a8e53f4a4b264ba8906358cf6" kind="variable"><name>positionQuantizationBits</name></member>
     <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" kind="variable"><name>meshes</name></member>
     <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" kind="variable"><name>zStep</name></member>
     <member refid="group__GeneralGroup_1gaf3032d52bc7a38384a85315c9e82a4e6" kind="variable"><name>decimateMaxError</name></member>
@@ -25882,6 +25902,18 @@
     <member refid="group__GeneralGroup_1gae7775f44d52949b8d06ef0d096de8863" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga898d2d11a740e4045732fea8bcaf73cd" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1gaf1f0368ea29bcc428bd7a55601155bd2" kind="function"><name>toCtm</name></member>
+    <member refid="group__GeneralGroup_1gafce514409e214aad754da493867e1929" kind="function"><name>fromDrc</name></member>
+    <member refid="group__GeneralGroup_1ga94ca62ab59127307bb6e550c824ae036" kind="function"><name>fromDrc</name></member>
+    <member refid="group__GeneralGroup_1ga910d5c1770bc9178bbcb9d4e51209a36" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gae9a2f12e0f7a6e8ad396ddfd77305600" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gaea1518d5c552311bae9bb42e31d29b96" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gad12ad0cb2c3055ddae301d1188a5924f" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1ga30664957b9e3557712428bd9b5f2d61b" kind="function"><name>fromDrc</name></member>
+    <member refid="group__GeneralGroup_1ga8fd8cc7a4384fd3d832a57241288badf" kind="function"><name>fromDrc</name></member>
+    <member refid="group__GeneralGroup_1ga19acb77803f6f1c3f8644f011a89ce6b" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1gaa2dfdf88388714304bb6153828685336" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1ga412edbeb03fc5ac26a91aa23f8fedc2d" kind="function"><name>toDrc</name></member>
+    <member refid="group__GeneralGroup_1ga0b612ac4880f07437b89932fa81b98c5" kind="function"><name>toDrc</name></member>
     <member refid="group__GeneralGroup_1ga7cc25bc496e0571853d5bff35f22141c" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1gae3be0e4523fa81a156b0f18d9ba3626f" kind="function"><name>getStepLoadSettings</name></member>
     <member refid="group__GeneralGroup_1gacbee99bc55851f045016c99b05b192ae" kind="function"><name>setStepLoadSettings</name></member>

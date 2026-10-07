@@ -810,6 +810,9 @@ var hierarchy =
       [ "MR.Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html", [
         [ "MR.DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html", null ]
       ] ],
+      [ "MR.Const_DracoSaveOptions", "classMR_1_1Const__DracoSaveOptions.html", [
+        [ "MR.DracoSaveOptions", "classMR_1_1DracoSaveOptions.html", null ]
+      ] ],
       [ "MR.Const_EdgeBMap", "classMR_1_1Const__EdgeBMap.html", [
         [ "MR.EdgeBMap", "classMR_1_1EdgeBMap.html", null ]
       ] ],
@@ -3876,6 +3879,7 @@ var hierarchy =
       [ "MR.Const_DividePointCloudOptionalOutput", "classMR_1_1Const__DividePointCloudOptionalOutput.html", null ],
       [ "MR.Const_DividePolylineParameters", "classMR_1_1Const__DividePolylineParameters.html", null ],
       [ "MR.Const_DoubleOffsetSettings", "classMR_1_1Const__DoubleOffsetSettings.html", null ],
+      [ "MR.Const_DracoSaveOptions", "classMR_1_1Const__DracoSaveOptions.html", null ],
       [ "MR.Const_EdgeBMap", "classMR_1_1Const__EdgeBMap.html", null ],
       [ "MR.Const_EdgeBitSet", "classMR_1_1Const__EdgeBitSet.html", null ],
       [ "MR.Const_EdgeColors", "classMR_1_1Const__EdgeColors.html", null ],

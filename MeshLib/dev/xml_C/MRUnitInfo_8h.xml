@@ -5,6 +5,7 @@
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <includedby refid="MRCtm_8h" local="no">MRCtm.h</includedby>
+    <includedby refid="MRDraco_8h" local="no">MRDraco.h</includedby>
     <includedby refid="MRLoadedObjects_8h" local="no">MRLoadedObjects.h</includedby>
     <includedby refid="MRObjectSaveSettings_8h" local="no">MRObjectSaveSettings.h</includedby>
     <includedby refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includedby>
@@ -33,18 +34,22 @@
         <link refid="MRCtm_8h"/>
       </node>
       <node id="3">
+        <label>MRDraco.h</label>
+        <link refid="MRDraco_8h"/>
+      </node>
+      <node id="4">
         <label>MRLoadedObjects.h</label>
         <link refid="MRLoadedObjects_8h"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRObjectSaveSettings.h</label>
         <link refid="MRObjectSaveSettings_8h"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRSceneLoad.h</label>
         <link refid="MRSceneLoad_8h"/>
       </node>
@@ -63,8 +68,10 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
       </node>
-      <node id="7">
+      <node id="8">
         <label>std_optional_MR_LengthUnit.h</label>
         <link refid="std__optional__MR__LengthUnit_8h"/>
       </node>

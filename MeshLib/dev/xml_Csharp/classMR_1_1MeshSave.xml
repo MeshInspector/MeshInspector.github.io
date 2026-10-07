@@ -119,6 +119,116 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1499" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1499" bodyend="1504"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toDrc</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_DracoSaveOptions options)</argsstring>
+        <name>toDrc</name>
+        <qualifiedname>MR.MeshSave.toDrc</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__DracoSaveOptions" kindref="compound">MR.Const_DracoSaveOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>saves in Google Draco .drc file Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" kindref="member">MR.MeshSave.toDrc</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="714" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="714" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a4e396f5ebc938f76702b82ffb9d37683" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toDrc</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_DracoSaveOptions options)</argsstring>
+        <name>toDrc</name>
+        <qualifiedname>MR.MeshSave.toDrc</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__DracoSaveOptions" kindref="compound">MR.Const_DracoSaveOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" kindref="member">MR.MeshSave.toDrc</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="728" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="728" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a52ada6277b62e9b30062a92670f15cd4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toDrc</definition>
+        <argsstring>(MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toDrc</name>
+        <qualifiedname>MR.MeshSave.toDrc</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" kindref="member">MR.MeshSave.toDrc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="739" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="739" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a3a8c68afaec87aca9b1fa8694653b3d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshSave.toDrc</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</argsstring>
+        <name>toDrc</name>
+        <qualifiedname>MR.MeshSave.toDrc</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" kindref="member">MR.MeshSave.toDrc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="754" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="754" bodyend="759"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.MeshSave.toMrmesh</definition>
@@ -897,6 +1007,118 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1518" column="67"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a98f7cad6495d99369113e6b58c68cd15" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_DracoSaveOptions</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, byte *file, byte *file_end, MR.Const_DracoSaveOptions._Underlying *options)</argsstring>
+        <name>__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_DracoSaveOptions</name>
+        <qualifiedname>MR.MeshSave.__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_DracoSaveOptions</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="764" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a7265180082b04b6269b362dd15a7010c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_SaveSettings</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, byte *file, byte *file_end, MR.Const_SaveSettings._Underlying *settings)</argsstring>
+        <name>__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_SaveSettings</name>
+        <qualifiedname>MR.MeshSave.__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_SaveSettings</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="767" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a52e60a2ebbf385230d5e9eb4bdef84a7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toDrc_std_ostream_ref_MR_DracoSaveOptions</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Ostream._Underlying *out_, MR.Const_DracoSaveOptions._Underlying *options)</argsstring>
+        <name>__MR_MeshSave_toDrc_std_ostream_ref_MR_DracoSaveOptions</name>
+        <qualifiedname>MR.MeshSave.__MR_MeshSave_toDrc_std_ostream_ref_MR_DracoSaveOptions</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream._Underlying *</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_DracoSaveOptions._Underlying *</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="770" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshSave_1af5f8aefe0a22196695a5b844f0a23b41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toDrc_std_ostream_ref_MR_SaveSettings</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Ostream._Underlying *out_, MR.Const_SaveSettings._Underlying *settings)</argsstring>
+        <name>__MR_MeshSave_toDrc_std_ostream_ref_MR_SaveSettings</name>
+        <qualifiedname>MR.MeshSave.__MR_MeshSave_toDrc_std_ostream_ref_MR_SaveSettings</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Ostream._Underlying *</type>
+          <declname>out_</declname>
+        </param>
+        <param>
+          <type>MR.Const_SaveSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="773" column="67"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1ab1cfc6d5b3068363532480e8dc6d8ce8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_to3mf</definition>
@@ -1579,6 +1801,10 @@
       <member refid="classMR_1_1MeshSave_1a77d66f106dfe8608a6eaf264f99a025f" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</name></member>
       <member refid="classMR_1_1MeshSave_1aa909976f23542c1109faacae99ef4542" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions</name></member>
       <member refid="classMR_1_1MeshSave_1a8a786600ad73894fa20fcffd010de77b" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings</name></member>
+      <member refid="classMR_1_1MeshSave_1a98f7cad6495d99369113e6b58c68cd15" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1MeshSave_1a7265180082b04b6269b362dd15a7010c" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toDrc_const_std_filesystem_path_ref_MR_SaveSettings</name></member>
+      <member refid="classMR_1_1MeshSave_1a52e60a2ebbf385230d5e9eb4bdef84a7" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toDrc_std_ostream_ref_MR_DracoSaveOptions</name></member>
+      <member refid="classMR_1_1MeshSave_1af5f8aefe0a22196695a5b844f0a23b41" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toDrc_std_ostream_ref_MR_SaveSettings</name></member>
       <member refid="classMR_1_1MeshSave_1a89be2fa7dd751eb03e5be9bbf536a71c" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toModel3mf_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshSave_1a4249850aca66f4c06b62c57f940a54bf" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toModel3mf_std_ostream</name></member>
       <member refid="classMR_1_1MeshSave_1ab8b1f87e35ba193e8a803718d1794997" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toMrmesh_std_filesystem_path</name></member>
@@ -1606,6 +1832,10 @@
       <member refid="classMR_1_1MeshSave_1a7988fc2ac6b3ff08bf3d5b057b2dcf3c" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
       <member refid="classMR_1_1MeshSave_1ae2479c9649075a3f2cc85dcd9f6a2c76" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
       <member refid="classMR_1_1MeshSave_1a3ad87e7d784e27d6adc5fb131ce7190f" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toCtm</name></member>
+      <member refid="classMR_1_1MeshSave_1a2747e199df34a8b9956290f81ba65e03" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toDrc</name></member>
+      <member refid="classMR_1_1MeshSave_1a4e396f5ebc938f76702b82ffb9d37683" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toDrc</name></member>
+      <member refid="classMR_1_1MeshSave_1a52ada6277b62e9b30062a92670f15cd4" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toDrc</name></member>
+      <member refid="classMR_1_1MeshSave_1a3a8c68afaec87aca9b1fa8694653b3d5" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toDrc</name></member>
       <member refid="classMR_1_1MeshSave_1aa988778d418dea9da20c378a635f5d5a" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toModel3mf</name></member>
       <member refid="classMR_1_1MeshSave_1a61c969185f711a6e683a9d463fe16bce" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toModel3mf</name></member>
       <member refid="classMR_1_1MeshSave_1a5deda1bdd0e1ae82023c5ec63da83f7c" prot="public" virt="non-virtual"><scope>MR::MeshSave</scope><name>toMrmesh</name></member>

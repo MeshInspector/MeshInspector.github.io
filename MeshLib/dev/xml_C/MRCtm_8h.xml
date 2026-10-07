@@ -225,7 +225,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>determines how to save points/lines/mesh Generated from class <computeroutput>MR::SaveSettings</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>determines how to save points/lines/mesh Generated from class <computeroutput>MR::SaveSettings</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::DracoSaveOptions</computeroutput> <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput> <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

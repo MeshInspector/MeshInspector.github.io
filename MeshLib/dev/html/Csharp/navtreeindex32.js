@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__AngleMeasurementObject.html#ae0ae1c1555e7be7c4103adcea8bd8366":[9,3,0,0,0,247,73],
 "classMR_1_1Const__AngleMeasurementObject.html#ae9cd015ef39c91c5e2d4eb882f385e13":[9,3,0,0,0,247,12],
 "classMR_1_1Const__AngleMeasurementObject.html#aeacac9a58475cda06067ba0be76fa6f0":[9,3,0,0,0,247,14],
 "classMR_1_1Const__AngleMeasurementObject.html#aecc842ea4d8b9929b400892ac65a5839":[9,3,0,0,0,247,57],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__BaseRenderParams.html#a25bf9eedfbf73f29d78c49cbf1d07199":[9,3,0,0,0,257,6],
 "classMR_1_1Const__BaseRenderParams.html#a2cd5ef57c54e7a0688b8d7edb9784699":[9,3,0,0,0,257,11],
 "classMR_1_1Const__BaseRenderParams.html#a2dbf5e1173f832658ad62872f1923941":[9,3,0,0,0,257,3],
-"classMR_1_1Const__BaseRenderParams.html#a2e1d1bd654da8a39c04325f2f9899208":[9,3,0,0,0,257,7],
-"classMR_1_1Const__BaseRenderParams.html#a46faaeb554a33c42ca7c68f6635e4e61":[9,3,0,0,0,257,12]
+"classMR_1_1Const__BaseRenderParams.html#a2e1d1bd654da8a39c04325f2f9899208":[9,3,0,0,0,257,7]
 };

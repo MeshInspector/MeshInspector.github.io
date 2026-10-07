@@ -1156,6 +1156,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.SliceInfo", "classmrmeshpy_1_1SliceInfo.html", "classmrmeshpy_1_1SliceInfo" ],
     [ "mrmeshpy.std_vector_SliceInfo", "classmrmeshpy_1_1std__vector__SliceInfo.html", "classmrmeshpy_1_1std__vector__SliceInfo" ],
     [ "mrmeshpy.std_vector_SkyPatch", "classmrmeshpy_1_1std__vector__SkyPatch.html", "classmrmeshpy_1_1std__vector__SkyPatch" ],
+    [ "mrmeshpy.DracoSaveOptions", "classmrmeshpy_1_1DracoSaveOptions.html", "classmrmeshpy_1_1DracoSaveOptions" ],
     [ "mrmeshpy.std_vector_RigidXf3_double", "classmrmeshpy_1_1std__vector__RigidXf3__double.html", "classmrmeshpy_1_1std__vector__RigidXf3__double" ],
     [ "mrmeshpy.MeshRelaxParams", "classmrmeshpy_1_1MeshRelaxParams.html", "classmrmeshpy_1_1MeshRelaxParams" ],
     [ "mrmeshpy.PointCloudRelaxParams", "classmrmeshpy_1_1PointCloudRelaxParams.html", "classmrmeshpy_1_1PointCloudRelaxParams" ],

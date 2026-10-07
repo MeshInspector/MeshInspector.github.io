@@ -247,6 +247,7 @@ var annotated_dup =
       [ "DividePolylineParameters", "classmrmeshpy_1_1DividePolylineParameters.html", "classmrmeshpy_1_1DividePolylineParameters" ],
       [ "double_output", "classmrmeshpy_1_1double__output.html", "classmrmeshpy_1_1double__output" ],
       [ "DoubleOffsetSettings", "classmrmeshpy_1_1DoubleOffsetSettings.html", "classmrmeshpy_1_1DoubleOffsetSettings" ],
+      [ "DracoSaveOptions", "classmrmeshpy_1_1DracoSaveOptions.html", "classmrmeshpy_1_1DracoSaveOptions" ],
       [ "EdgeBitSet", "classmrmeshpy_1_1EdgeBitSet.html", "classmrmeshpy_1_1EdgeBitSet" ],
       [ "EdgeBMap", "classmrmeshpy_1_1EdgeBMap.html", "classmrmeshpy_1_1EdgeBMap" ],
       [ "EdgeColors", "classmrmeshpy_1_1EdgeColors.html", "classmrmeshpy_1_1EdgeColors" ],

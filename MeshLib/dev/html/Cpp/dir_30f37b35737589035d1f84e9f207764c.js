@@ -3,6 +3,7 @@ var dir_30f37b35737589035d1f84e9f207764c =
     [ "config.h", "MRIOExtras_2config_8h.html", null ],
     [ "MR3mf.h", "MR3mf_8h.html", "MR3mf_8h" ],
     [ "MRCtm.h", "MRCtm_8h.html", "MRCtm_8h" ],
+    [ "MRDraco.h", "MRDraco_8h.html", "MRDraco_8h" ],
     [ "MRE57.h", "MRE57_8h.html", "MRE57_8h" ],
     [ "MRExtraFormatSettings.h", "MRExtraFormatSettings_8h.html", null ],
     [ "MRGltf.h", "MRGltf_8h.html", "MRGltf_8h" ],

@@ -261,6 +261,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3AEmbeddedPython_3A_3AConfig" id="r_MR_3A_3AEmbeddedPython_3A_3AConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EmbeddedPython_1_1Config.html">MR::EmbeddedPython::Config</a></td></tr>
 <tr class="memitem:MR_3A_3AMeshSave_3A_3ACtmSaveOptions" id="r_MR_3A_3AMeshSave_3A_3ACtmSaveOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshSave_1_1CtmSaveOptions.html">MR::MeshSave::CtmSaveOptions</a></td></tr>
 <tr class="memitem:MR_3A_3APointsSave_3A_3ACtmSavePointsOptions" id="r_MR_3A_3APointsSave_3A_3ACtmSavePointsOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">MR::PointsSave::CtmSavePointsOptions</a></td></tr>
+<tr class="memitem:MR_3A_3ADracoSaveOptions" id="r_MR_3A_3ADracoSaveOptions"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DracoSaveOptions.html">MR::DracoSaveOptions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">options for saving in Google Draco format  <a href="structMR_1_1DracoSaveOptions.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3AExtraFormatSettings" id="r_MR_3A_3AExtraFormatSettings"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ExtraFormatSettings.html">MR::ExtraFormatSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">default settings of MRIOExtras formats, used when loading or saving via the format registry  <a href="classMR_1_1ExtraFormatSettings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ANesting_3A_3ANesting3mfParams" id="r_MR_3A_3ANesting_3A_3ANesting3mfParams"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Nesting_1_1Nesting3mfParams.html">MR::Nesting::Nesting3mfParams</a></td></tr>
@@ -3447,6 +3449,21 @@ Functions</h2></td></tr>
 <tr class="memitem:gae7775f44d52949b8d06ef0d096de8863" id="r_gae7775f44d52949b8d06ef0d096de8863"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae7775f44d52949b8d06ef0d096de8863">MR::PointsSave::toCtm</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="structMR_1_1PointsSave_1_1CtmSavePointsOptions.html">CtmSavePointsOptions</a> &amp;options)</td></tr>
 <tr class="memitem:ga898d2d11a740e4045732fea8bcaf73cd" id="r_ga898d2d11a740e4045732fea8bcaf73cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga898d2d11a740e4045732fea8bcaf73cd">MR::PointsSave::toCtm</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gaf1f0368ea29bcc428bd7a55601155bd2" id="r_gaf1f0368ea29bcc428bd7a55601155bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf1f0368ea29bcc428bd7a55601155bd2">MR::PointsSave::toCtm</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gafce514409e214aad754da493867e1929" id="r_gafce514409e214aad754da493867e1929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafce514409e214aad754da493867e1929">MR::MeshLoad::fromDrc</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga94ca62ab59127307bb6e550c824ae036" id="r_ga94ca62ab59127307bb6e550c824ae036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94ca62ab59127307bb6e550c824ae036">MR::MeshLoad::fromDrc</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga910d5c1770bc9178bbcb9d4e51209a36" id="r_ga910d5c1770bc9178bbcb9d4e51209a36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga910d5c1770bc9178bbcb9d4e51209a36">MR::MeshSave::toDrc</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;options)</td></tr>
+<tr class="memdesc:ga910d5c1770bc9178bbcb9d4e51209a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in Google Draco .drc file  <br /></td></tr>
+<tr class="memitem:gae9a2f12e0f7a6e8ad396ddfd77305600" id="r_gae9a2f12e0f7a6e8ad396ddfd77305600"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9a2f12e0f7a6e8ad396ddfd77305600">MR::MeshSave::toDrc</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::ostream &amp;out, const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;options)</td></tr>
+<tr class="memitem:gaea1518d5c552311bae9bb42e31d29b96" id="r_gaea1518d5c552311bae9bb42e31d29b96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaea1518d5c552311bae9bb42e31d29b96">MR::MeshSave::toDrc</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gad12ad0cb2c3055ddae301d1188a5924f" id="r_gad12ad0cb2c3055ddae301d1188a5924f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad12ad0cb2c3055ddae301d1188a5924f">MR::MeshSave::toDrc</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::ostream &amp;out, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga30664957b9e3557712428bd9b5f2d61b" id="r_ga30664957b9e3557712428bd9b5f2d61b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga30664957b9e3557712428bd9b5f2d61b">MR::PointsLoad::fromDrc</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memdesc:ga30664957b9e3557712428bd9b5f2d61b"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without triangles and without merging  <br /></td></tr>
+<tr class="memitem:ga8fd8cc7a4384fd3d832a57241288badf" id="r_ga8fd8cc7a4384fd3d832a57241288badf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8fd8cc7a4384fd3d832a57241288badf">MR::PointsLoad::fromDrc</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga19acb77803f6f1c3f8644f011a89ce6b" id="r_ga19acb77803f6f1c3f8644f011a89ce6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga19acb77803f6f1c3f8644f011a89ce6b">MR::PointsSave::toDrc</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;options)</td></tr>
+<tr class="memdesc:ga19acb77803f6f1c3f8644f011a89ce6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in Google Draco .drc file  <br /></td></tr>
+<tr class="memitem:gaa2dfdf88388714304bb6153828685336" id="r_gaa2dfdf88388714304bb6153828685336"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa2dfdf88388714304bb6153828685336">MR::PointsSave::toDrc</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;options)</td></tr>
+<tr class="memitem:ga412edbeb03fc5ac26a91aa23f8fedc2d" id="r_ga412edbeb03fc5ac26a91aa23f8fedc2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga412edbeb03fc5ac26a91aa23f8fedc2d">MR::PointsSave::toDrc</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga0b612ac4880f07437b89932fa81b98c5" id="r_ga0b612ac4880f07437b89932fa81b98c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b612ac4880f07437b89932fa81b98c5">MR::PointsSave::toDrc</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;points, std::ostream &amp;out, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga7cc25bc496e0571853d5bff35f22141c" id="r_ga7cc25bc496e0571853d5bff35f22141c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7cc25bc496e0571853d5bff35f22141c">MR::ExtraFormatSettings::reset</a> ()</td></tr>
 <tr class="memdesc:ga7cc25bc496e0571853d5bff35f22141c"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets all settings to default values  <br /></td></tr>
 <tr class="memitem:gae3be0e4523fa81a156b0f18d9ba3626f" id="r_gae3be0e4523fa81a156b0f18d9ba3626f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">MeshLoad::StepLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3be0e4523fa81a156b0f18d9ba3626f">MR::ExtraFormatSettings::getStepLoadSettings</a> ()</td></tr>
@@ -11886,6 +11903,9 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga93bcbf8ddd9c5a89210bf3cf9f8acbef"><td class="mdescLeft">&#160;</td><td class="mdescRight">0 - minimal compression, but fast; 9 - maximal compression, but slow  <br /></td></tr>
 <tr class="memitem:ga5f613f44fae6b6a33f13f57fc0161a01" id="r_ga5f613f44fae6b6a33f13f57fc0161a01"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5f613f44fae6b6a33f13f57fc0161a01">MR::PointsSave::CtmSavePointsOptions::comment</a> = &quot;MeshInspector Points&quot;</td></tr>
 <tr class="memdesc:ga5f613f44fae6b6a33f13f57fc0161a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">comment saved in the file  <br /></td></tr>
+<tr class="memitem:gae9c7e6e219acdd599b0d504614993d45" id="r_gae9c7e6e219acdd599b0d504614993d45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9c7e6e219acdd599b0d504614993d45">MR::DracoSaveOptions::compressionLevel</a> = 7</td></tr>
+<tr class="memdesc:gae9c7e6e219acdd599b0d504614993d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">0 - fastest encoding and decoding but the worst compression, 10 - the best compression  <br /></td></tr>
+<tr class="memitem:gacfaf819a8e53f4a4b264ba8906358cf6" id="r_gacfaf819a8e53f4a4b264ba8906358cf6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfaf819a8e53f4a4b264ba8906358cf6">MR::DracoSaveOptions::positionQuantizationBits</a> = 0</td></tr>
 <tr class="memitem:ga9a2234e0b12e4618ece1508effa2cec6" id="r_ga9a2234e0b12e4618ece1508effa2cec6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1Nesting_1_1MeshXf.html">MeshXf</a>, ObjId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a2234e0b12e4618ece1508effa2cec6">MR::Nesting::Nesting3mfParams::meshes</a></td></tr>
 <tr class="memdesc:ga9a2234e0b12e4618ece1508effa2cec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">nested meshes with their transforms into nest  <br /></td></tr>
 <tr class="memitem:gab78cb7930d69ef6f6248ec6771a773a1" id="r_gab78cb7930d69ef6f6248ec6771a773a1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab78cb7930d69ef6f6248ec6771a773a1">MR::Nesting::Nesting3mfParams::zStep</a> = 1.0f</td></tr>
@@ -77299,6 +77319,101 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRMeshBuilder_8h.html">MRMesh/MRMeshBuilder.h</a>&gt;</code></p>
 <p>construct mesh topology in parallel from given disjoint mesh pieces (which do not have any shared vertex) and some additional triangles (in settings) that join the pieces </p>
+
+</div>
+</div>
+<a id="gafce514409e214aad754da493867e1929" name="gafce514409e214aad754da493867e1929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafce514409e214aad754da493867e1929">&#9670;&#160;</a></span>fromDrc() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::MeshLoad::fromDrc </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+<p>loads from Google Draco .drc file; the vertices with exactly the same coordinates are merged; if the file contains a point cloud, then the mesh without triangles is returned </p>
+
+</div>
+</div>
+<a id="ga94ca62ab59127307bb6e550c824ae036" name="ga94ca62ab59127307bb6e550c824ae036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94ca62ab59127307bb6e550c824ae036">&#9670;&#160;</a></span>fromDrc() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::MeshLoad::fromDrc </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga30664957b9e3557712428bd9b5f2d61b" name="ga30664957b9e3557712428bd9b5f2d61b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga30664957b9e3557712428bd9b5f2d61b">&#9670;&#160;</a></span>fromDrc() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromDrc </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+<p>loads from Google Draco .drc file; if the file contains a mesh, then its points are returned without triangles and without merging </p>
+
+</div>
+</div>
+<a id="ga8fd8cc7a4384fd3d832a57241288badf" name="ga8fd8cc7a4384fd3d832a57241288badf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8fd8cc7a4384fd3d832a57241288badf">&#9670;&#160;</a></span>fromDrc() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &gt; MR::PointsLoad::fromDrc </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointsLoadSettings.html">PointsLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -186297,6 +186412,234 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga910d5c1770bc9178bbcb9d4e51209a36" name="ga910d5c1770bc9178bbcb9d4e51209a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga910d5c1770bc9178bbcb9d4e51209a36">&#9670;&#160;</a></span>toDrc() <span class="overload">[1/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::MeshSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+<p>saves in Google Draco .drc file </p>
+
+</div>
+</div>
+<a id="gaea1518d5c552311bae9bb42e31d29b96" name="gaea1518d5c552311bae9bb42e31d29b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea1518d5c552311bae9bb42e31d29b96">&#9670;&#160;</a></span>toDrc() <span class="overload">[2/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::MeshSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gae9a2f12e0f7a6e8ad396ddfd77305600" name="gae9a2f12e0f7a6e8ad396ddfd77305600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9a2f12e0f7a6e8ad396ddfd77305600">&#9670;&#160;</a></span>toDrc() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::MeshSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gad12ad0cb2c3055ddae301d1188a5924f" name="gad12ad0cb2c3055ddae301d1188a5924f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad12ad0cb2c3055ddae301d1188a5924f">&#9670;&#160;</a></span>toDrc() <span class="overload">[4/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::MeshSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga19acb77803f6f1c3f8644f011a89ce6b" name="ga19acb77803f6f1c3f8644f011a89ce6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga19acb77803f6f1c3f8644f011a89ce6b">&#9670;&#160;</a></span>toDrc() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::PointsSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+<p>saves in Google Draco .drc file </p>
+
+</div>
+</div>
+<a id="ga412edbeb03fc5ac26a91aa23f8fedc2d" name="ga412edbeb03fc5ac26a91aa23f8fedc2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga412edbeb03fc5ac26a91aa23f8fedc2d">&#9670;&#160;</a></span>toDrc() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::PointsSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaa2dfdf88388714304bb6153828685336" name="gaa2dfdf88388714304bb6153828685336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa2dfdf88388714304bb6153828685336">&#9670;&#160;</a></span>toDrc() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::PointsSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DracoSaveOptions.html">DracoSaveOptions</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga0b612ac4880f07437b89932fa81b98c5" name="ga0b612ac4880f07437b89932fa81b98c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0b612ac4880f07437b89932fa81b98c5">&#9670;&#160;</a></span>toDrc() <span class="overload">[8/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::PointsSave::toDrc </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ostream &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRDraco_8h.html">MRIOExtras/MRDraco.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="gabe638e99ebfb3b54030f011f87f115f1" name="gabe638e99ebfb3b54030f011f87f115f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabe638e99ebfb3b54030f011f87f115f1">&#9670;&#160;</a></span>toEdgePoint()</h2>
 
@@ -209746,8 +210089,24 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gae9c7e6e219acdd599b0d504614993d45" name="gae9c7e6e219acdd599b0d504614993d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9c7e6e219acdd599b0d504614993d45">&#9670;&#160;</a></span>compressionLevel <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::DracoSaveOptions::compressionLevel = 7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>0 - fastest encoding and decoding but the worst compression, 10 - the best compression </p>
+
+</div>
+</div>
 <a id="ga09f020b5c907033a5e7b25073effacf5" name="ga09f020b5c907033a5e7b25073effacf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga09f020b5c907033a5e7b25073effacf5">&#9670;&#160;</a></span>compressionLevel <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09f020b5c907033a5e7b25073effacf5">&#9670;&#160;</a></span>compressionLevel <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209764,7 +210123,7 @@ template&lt;typename Tag&gt; </div>
 </div>
 </div>
 <a id="ga93bcbf8ddd9c5a89210bf3cf9f8acbef" name="ga93bcbf8ddd9c5a89210bf3cf9f8acbef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga93bcbf8ddd9c5a89210bf3cf9f8acbef">&#9670;&#160;</a></span>compressionLevel <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga93bcbf8ddd9c5a89210bf3cf9f8acbef">&#9670;&#160;</a></span>compressionLevel <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229130,6 +229489,21 @@ template&lt;typename Accessor&gt; </div>
       </table>
 </div><div class="memdoc">
 <p>function to calculate position of result mesh points if the function isn't set, a linear positioner will be used note: this function is called in parallel from different threads </p>
+
+</div>
+</div>
+<a id="gacfaf819a8e53f4a4b264ba8906358cf6" name="gacfaf819a8e53f4a4b264ba8906358cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacfaf819a8e53f4a4b264ba8906358cf6">&#9670;&#160;</a></span>positionQuantizationBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::DracoSaveOptions::positionQuantizationBits = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the number of bits to quantize vertex coordinates to (in the range [1, 30]); 0 - no quantization, the coordinates are saved losslessly </p>
 
 </div>
 </div>

@@ -57,6 +57,54 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1436" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1436" bodyend="1442"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a1ae78aae5b58ab567f180a5306fd83fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromDrc</definition>
+        <argsstring>(string file, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromDrc</name>
+        <qualifiedname>MR.MeshLoad.fromDrc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads from Google Draco .drc file; the vertices with exactly the same coordinates are merged; if the file contains a point cloud, then the mesh without triangles is returned Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a1ae78aae5b58ab567f180a5306fd83fd" kindref="member">MR.MeshLoad.fromDrc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="675" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="675" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a22ac614c8a3c6a42ab0b7cfda782210d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.MeshLoad.fromDrc</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_MeshLoadSettings? settings=null)</argsstring>
+        <name>fromDrc</name>
+        <qualifiedname>MR.MeshLoad.fromDrc</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshLoadSettings" kindref="compound">MR.Const_MeshLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1MeshLoad_1a1ae78aae5b58ab567f180a5306fd83fd" kindref="member">MR.MeshLoad.fromDrc</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="691" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" bodystart="691" bodyend="697"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.MeshLoad.fromStep</definition>
@@ -799,6 +847,54 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1450" column="69"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1acf7343f8a2ad57f7b5ebd1a2e907a6e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromDrc_std_filesystem_path</definition>
+        <argsstring>(byte *file, byte *file_end, MR.Const_MeshLoadSettings._Underlying *settings)</argsstring>
+        <name>__MR_MeshLoad_fromDrc_std_filesystem_path</name>
+        <qualifiedname>MR.MeshLoad.__MR_MeshLoad_fromDrc_std_filesystem_path</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>file_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="702" column="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a55ec040e629150b97a054e5be25d08b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromDrc_std_istream</definition>
+        <argsstring>(MR.Std.Istream._Underlying *in_, MR.Const_MeshLoadSettings._Underlying *settings)</argsstring>
+        <name>__MR_MeshLoad_fromDrc_std_istream</name>
+        <qualifiedname>MR.MeshLoad.__MR_MeshLoad_fromDrc_std_istream</qualifiedname>
+        <param>
+          <type>MR.Std.Istream._Underlying *</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshLoadSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="705" column="69"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshLoad_1a03603760815339acd9de6bb68e4cb828" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdSharedPtrMRObject_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_StdSharedPtrMRObject_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromSceneStepFile_std_filesystem_path</definition>
@@ -1496,6 +1592,8 @@
       <member refid="classMR_1_1MeshLoad_1afd6fee7af7d4b47e31098d308596dde0" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromBinaryStl_std_istream</name></member>
       <member refid="classMR_1_1MeshLoad_1a1c96fe3d6fc2d0e42291f8573507a981" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromCtm_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshLoad_1a95536127c8078661623c05db9ce036d9" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromCtm_std_istream</name></member>
+      <member refid="classMR_1_1MeshLoad_1acf7343f8a2ad57f7b5ebd1a2e907a6e0" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromDrc_std_filesystem_path</name></member>
+      <member refid="classMR_1_1MeshLoad_1a55ec040e629150b97a054e5be25d08b9" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromDrc_std_istream</name></member>
       <member refid="classMR_1_1MeshLoad_1a4eb5d753b61b72572409b76fd3817b2f" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromDxf_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshLoad_1a8dea6aa69f6180ba42d44df779d0ee8b" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromDxf_std_istream</name></member>
       <member refid="classMR_1_1MeshLoad_1a57c76bec1a4da4ec1b8eb9bc57e05232" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromMrmesh_std_filesystem_path</name></member>
@@ -1524,6 +1622,8 @@
       <member refid="classMR_1_1MeshLoad_1a146d5b4a6df0d68b51b6ccf87bc9a514" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromBinaryStl</name></member>
       <member refid="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromCtm</name></member>
       <member refid="classMR_1_1MeshLoad_1a1f448c12bb73983175543b2797dfb671" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromCtm</name></member>
+      <member refid="classMR_1_1MeshLoad_1a1ae78aae5b58ab567f180a5306fd83fd" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromDrc</name></member>
+      <member refid="classMR_1_1MeshLoad_1a22ac614c8a3c6a42ab0b7cfda782210d" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromDrc</name></member>
       <member refid="classMR_1_1MeshLoad_1af0272b617b0ff4d5445053ab5f0bafbd" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromDxf</name></member>
       <member refid="classMR_1_1MeshLoad_1a0033c99ba79a767c4b97796416401bea" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromDxf</name></member>
       <member refid="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" prot="public" virt="non-virtual"><scope>MR::MeshLoad</scope><name>fromMrmesh</name></member>

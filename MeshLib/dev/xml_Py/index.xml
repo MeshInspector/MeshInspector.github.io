@@ -5222,6 +5222,19 @@
     <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ab7a0b4372a0564b8421996cc1409cb7c" kind="function"><name>windingNumberThreshold</name></member>
     <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a5699ae1da4553b1dd3e9278094e3f7a0" kind="function"><name>windingNumberThreshold</name></member>
   </compound>
+  <compound refid="classmrmeshpy_1_1DracoSaveOptions" kind="class"><name>mrmeshpy::DracoSaveOptions</name>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1a41ef0c5872b4b5765c110af70ed30abd" kind="variable"><name>_offsetof_compressionLevel</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1afb36503d1c416aa2dd9c7c1e84f346f6" kind="variable"><name>_offsetof_positionQuantizationBits</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1aa21beb49f729f31f6348b2221c0071d1" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1af6ef85f1d0eb43e5c53c793e867fa6f6" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1af6ef85f1d0eb43e5c53c793e867fa6f6" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1ac341ee6b35d33c4d762062cafb0d50dc" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1ad70b3ace5b14c1cdf5c25ceeb9ad446c" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1a98a2efccb18455102d4ea123c4874426" kind="function"><name>compressionLevel</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1a7cdf398cd239f2322a05c1a05f111cbe" kind="function"><name>compressionLevel</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1a1d0678ce604b3330a99afa4446e3cfcd" kind="function"><name>positionQuantizationBits</name></member>
+    <member refid="classmrmeshpy_1_1DracoSaveOptions_1a6e78c6b47633a9ed643c5fb51b96f227" kind="function"><name>positionQuantizationBits</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings" kind="class"><name>mrmeshpy::PointsLoad::E57LoadSettings</name>
     <member refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings_1a55a189a4f196764a2b871004f570020d" kind="variable"><name>_offsetof_combineAllObjects</name></member>
     <member refid="classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings_1a472ce1110c4f261ce1744a244af858c8" kind="variable"><name>_offsetof_identityXf</name></member>
@@ -11417,6 +11430,8 @@
     <member refid="classmrmeshpy_1_1MeshLoad_1acadc838d9aa7b56a7109884ed701c2d8" kind="function"><name>fromBinaryStl</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1a6132777a53cf1b570b0ccd4d21e1acc7" kind="function"><name>fromCtm</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1a2e7259e0122d393bdc85d25321453f08" kind="function"><name>fromCtm</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1a2d995988d40f9419422d6c51876422a9" kind="function"><name>fromDrc</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1aa684441c6ab71921ead2ddade42f348d" kind="function"><name>fromDrc</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1a089c68aa902e43c79006fc296e9496dd" kind="function"><name>fromDxf</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1ad0eadd0f59701877d527209c9f6506de" kind="function"><name>fromDxf</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1a3ed7c639cb0da6a7cd5a922cd6904ca5" kind="function"><name>fromMrmesh</name></member>
@@ -11916,6 +11931,10 @@
     <member refid="classmrmeshpy_1_1MeshSave_1a63761b5b2b28178b40bb49919a97da9b" kind="function"><name>toCtm</name></member>
     <member refid="classmrmeshpy_1_1MeshSave_1af0df600484370e9d78b7d8fb1383f43f" kind="function"><name>toCtm</name></member>
     <member refid="classmrmeshpy_1_1MeshSave_1acd5d2ad479c9b03a03c2f2553c81cb66" kind="function"><name>toCtm</name></member>
+    <member refid="classmrmeshpy_1_1MeshSave_1aee6ede3b78e3c783067af74e12369df0" kind="function"><name>toDrc</name></member>
+    <member refid="classmrmeshpy_1_1MeshSave_1a61c651290268cb267274e0418e1e6823" kind="function"><name>toDrc</name></member>
+    <member refid="classmrmeshpy_1_1MeshSave_1a96edab7da0b88d2e617fb61d73859dbb" kind="function"><name>toDrc</name></member>
+    <member refid="classmrmeshpy_1_1MeshSave_1a75fd8fbf3eb2cec28ef6e82ae9254b9a" kind="function"><name>toDrc</name></member>
     <member refid="classmrmeshpy_1_1MeshSave_1ab0d43742784f3b4419db1c696fdca3c0" kind="function"><name>toModel3mf</name></member>
     <member refid="classmrmeshpy_1_1MeshSave_1a95d064674823c0086bea423fddcbd7bc" kind="function"><name>toModel3mf</name></member>
     <member refid="classmrmeshpy_1_1MeshSave_1a3a8440786f42901cbe28395ff427646b" kind="function"><name>toMrmesh</name></member>
@@ -15618,6 +15637,8 @@
     <member refid="classmrmeshpy_1_1PointsLoad_1ad56601f7a01631872d32ce3ca0b3feab" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1PointsLoad_1a8c8ec5afe4c33cd4efeaccc92753ce15" kind="function"><name>fromCtm</name></member>
     <member refid="classmrmeshpy_1_1PointsLoad_1aca912e8555e5cf989d255b67286734d6" kind="function"><name>fromCtm</name></member>
+    <member refid="classmrmeshpy_1_1PointsLoad_1aed6c37e0cd54774665f7f10125939d0c" kind="function"><name>fromDrc</name></member>
+    <member refid="classmrmeshpy_1_1PointsLoad_1ac77ac09367a1ba92a20ef74071a33eaa" kind="function"><name>fromDrc</name></member>
     <member refid="classmrmeshpy_1_1PointsLoad_1a1e62b559c5b4b67b86c244825200d14f" kind="function"><name>fromDxf</name></member>
     <member refid="classmrmeshpy_1_1PointsLoad_1a6902e7be4da03ee8a4321f32f3cb63d0" kind="function"><name>fromDxf</name></member>
     <member refid="classmrmeshpy_1_1PointsLoad_1a2d99c63bb0559ee1bcab50640142ccf7" kind="function"><name>fromE57</name></member>
@@ -15699,6 +15720,10 @@
     <member refid="classmrmeshpy_1_1PointsSave_1a13dced07ff00d1e3ba3fe0f3aeacd7a5" kind="function"><name>toCtm</name></member>
     <member refid="classmrmeshpy_1_1PointsSave_1ab6e2c023ecfac37431fbbc78226902ce" kind="function"><name>toCtm</name></member>
     <member refid="classmrmeshpy_1_1PointsSave_1a935ede47437742121a7853c640d3a56c" kind="function"><name>toCtm</name></member>
+    <member refid="classmrmeshpy_1_1PointsSave_1a3c36925c708353472e53da18535ae2d4" kind="function"><name>toDrc</name></member>
+    <member refid="classmrmeshpy_1_1PointsSave_1a96c6e0a389c2c04bd1563f0ae7685eba" kind="function"><name>toDrc</name></member>
+    <member refid="classmrmeshpy_1_1PointsSave_1a85ba6dbb7115ba72f8b012e5934c609b" kind="function"><name>toDrc</name></member>
+    <member refid="classmrmeshpy_1_1PointsSave_1af41173f25e0fc62fa09f2686e1ae48da" kind="function"><name>toDrc</name></member>
     <member refid="classmrmeshpy_1_1PointsSave_1a60cd4c66a5cc982d51e42742a3dadc21" kind="function"><name>toPly</name></member>
     <member refid="classmrmeshpy_1_1PointsSave_1a64abf2928066d95967b400626f576ca4" kind="function"><name>toPly</name></member>
     <member refid="classmrmeshpy_1_1PointsSave_1a885cbd0b5a16ff95bebb0717e6a5c606" kind="function"><name>toXyz</name></member>
@@ -31132,12 +31157,12 @@
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a26c0fbfe3f9ad30fd2cb3e8cb0368226" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a0e9e549b8230f0ad53a1703d96dc4008" kind="function"><name>fromGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a2b7ae1ac3589ee79b1be1086e9a4e095" kind="function"><name>fromGav</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1ab1b0fcbab4e8b0fe8394684afd36f3ca" kind="function"><name>fromRaw</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsLoad_1a2f674215f03943ce77e4b800c46fb434" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a8c129066ec57b924bbd7e1ecd49f9634" kind="function"><name>fromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a239472762712a6d742940866d9c12df3" kind="function"><name>fromVdb</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" kind="function"><name>gridFromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1acc23c6953c375804496949ebfd4d52d4" kind="function"><name>gridFromRaw</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsLoad_1ad11add7a57292c1b92e17c3a5edee463" kind="function"><name>gridFromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a57fd0589d500ff33af21c13e7c80aa6e" kind="function"><name>gridFromRaw</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1aef7c5474aed881dbc6dacfa6699ef46b" kind="function"><name>gridsFromAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsLoad_1a51aaf65530c90d93f4bb7705693b1863" kind="function"><name>gridsFromVdb</name></member>
@@ -31173,8 +31198,8 @@
     <member refid="classmrmeshpy_1_1VoxelsSave_1a425388d71d8e1c6b25aa6be42b20c61d" kind="function"><name>toGav</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1a82035a5fa8da4bba63f50e6cfc4ede3b" kind="function"><name>toRawAutoname</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1ab1aa23348d8cac99844d841409fb7e5e" kind="function"><name>toRawAutoname</name></member>
-    <member refid="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" kind="function"><name>toRawFloat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1ae6c1e15579e8855a67ad1418c56325d0" kind="function"><name>toRawFloat</name></member>
+    <member refid="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" kind="function"><name>toRawFloat</name></member>
     <member refid="classmrmeshpy_1_1VoxelsSave_1a847f320fb2490df7e111f254671a1a45" kind="function"><name>toVdb</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1VoxelsVolume__FloatGrid" kind="class"><name>mrmeshpy::VoxelsVolume_FloatGrid</name>
@@ -33074,7 +33099,6 @@
     <member refid="namespacemrmeshpy_1ad08692945aa2db9962bc60be1003e591" kind="function"><name>hasFormatPlaceholders</name></member>
     <member refid="namespacemrmeshpy_1ac4c9e0d73e2c530f3125cec14e7a484b" kind="function"><name>hasMultipleEdges</name></member>
     <member refid="namespacemrmeshpy_1a9eca53aeabfa6d70e9441d9f9a1aeef6" kind="function"><name>hasProhibitedChars</name></member>
-    <member refid="namespacemrmeshpy_1ab9a0836c02cc4cad3b558a7661aac471" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a9ee1db556a8c20bda08add64497250c6" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a7cdebfe26d01bb16a1968604c7fa68e0" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a97ce01094a8c118590cdbf7cc9bf6134" kind="function"><name>heapBytes</name></member>
@@ -33084,6 +33108,7 @@
     <member refid="namespacemrmeshpy_1aec3a3422a79c5fc34df1bcf0bff41eff" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1ade70f20ade3b161b3c46d41738f386f2" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1afa61dce26ed66edfff9cea5e70b2a09b" kind="function"><name>heapBytes</name></member>
+    <member refid="namespacemrmeshpy_1ab9a0836c02cc4cad3b558a7661aac471" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a033abbdc76d5393f43e8ae89a50a8e12" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1ae53e446ff455ecd603569115d2e51d44" kind="function"><name>holeDirArea</name></member>
     <member refid="namespacemrmeshpy_1a0213d9e3c40a01066287a35a975c4934" kind="function"><name>holePerimeter</name></member>
@@ -33179,8 +33204,8 @@
     <member refid="namespacemrmeshpy_1a448a68cb9eb4d86bfda0650ce6183229" kind="function"><name>loadVoxels</name></member>
     <member refid="namespacemrmeshpy_1a0562ae88d8b4f5b9238e13e58782acc7" kind="function"><name>loadVoxelsGav</name></member>
     <member refid="namespacemrmeshpy_1a97ae43769ebf1d90b2e809870be86e6c" kind="function"><name>loadVoxelsGav</name></member>
-    <member refid="namespacemrmeshpy_1a173869ea7ad893322cf234a96db9cd2f" kind="function"><name>loadVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a4c8ec4c9a03e3bef02a20e385724c7d1" kind="function"><name>loadVoxelsRaw</name></member>
+    <member refid="namespacemrmeshpy_1a173869ea7ad893322cf234a96db9cd2f" kind="function"><name>loadVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a33ec2bb1e585298ee9188a03fa65ef7a" kind="function"><name>loadVoxelsRaw</name></member>
     <member refid="namespacemrmeshpy_1a5f70fcb2b05e0dcfeda6a0ad6723152f" kind="function"><name>localFindSelfIntersections</name></member>
     <member refid="namespacemrmeshpy_1a597df4dc51e79baf52000aef066be34f" kind="function"><name>localFixSelfIntersections</name></member>
