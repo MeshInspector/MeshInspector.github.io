@@ -3661,6 +3661,7 @@ var classMR =
     [ "isClosed", "classMR.html#a18cc976ad51cc9f637b0dbeacaebd246", null ],
     [ "isClosed", "classMR.html#a652296f3d4742fa5373b47f6e53f140c", null ],
     [ "isConsistentlyOriented", "classMR.html#a8412b7d585ad2ee514e3fa15f5202597", null ],
+    [ "isCoveredByVertices", "classMR.html#af800e33eea043ca0e5f6870a6c82ffe0", null ],
     [ "isDegree3Dest", "classMR.html#a7a088a3f6722e92c81727faf3ce59e67", null ],
     [ "isEdgeBetweenDoubleTris", "classMR.html#a2aad8cde3ad7daeae5ea6ed7e582e657", null ],
     [ "isEdgeLoop", "classMR.html#a9430b9f1dc7aa3c95d210209f7db116f", null ],

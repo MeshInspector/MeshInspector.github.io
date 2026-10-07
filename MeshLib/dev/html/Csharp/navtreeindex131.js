@@ -1,5 +1,6 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1SetBitIterator.html#a9ddc68c7faf7c3d18ca4a3af87f02c8f":[9,3,0,0,0,1627,2],
 "classMR_1_1SetBitIterator.html#aa8025a79724586c7f23cacd93c67a8ca":[9,3,0,0,0,1627,1],
 "classMR_1_1SetBitIterator.html#ac1426a96abe14024b073930e493a54e9":[9,3,0,0,0,1627,6],
 "classMR_1_1SetBitIterator.html#ae50e4d633e77e7f2929d9820a40f9573":[9,3,0,0,0,1627,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1SliceInfoBase.html#ac22c20d95109a16b908078f5895b917e":[9,3,0,0,0,1651,5],
 "classMR_1_1SliceInfoBase.html#ae118a1cc82fc59d928616819c655a94e":[9,3,0,0,0,1651,1],
 "classMR_1_1SliceInfoBase.html#ae9dcdaa280dc5cc300c30b9cc1298695":[9,3,0,0,0,1651,3],
-"classMR_1_1SmoothCameraMeshDepthSettings.html":[9,3,0,0,0,1652],
-"classMR_1_1SmoothCameraMeshDepthSettings.html#a3781e3e97d5a268d1d17aa0ed47383c5":[9,3,0,0,0,1652,0]
+"classMR_1_1SmoothCameraMeshDepthSettings.html":[9,3,0,0,0,1652]
 };

@@ -158,9 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a277d781cbf6564b7391a9f999d13589d" id="r_a277d781cbf6564b7391a9f999d13589d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ICPProperties.html">ICPProperties</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a277d781cbf6564b7391a9f999d13589d">getParams</a> (self)</td></tr>
 <tr class="memitem:a9417ab6b0f89eb260cb193ff61fcceb2" id="r_a9417ab6b0f89eb260cb193ff61fcceb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1PointPairs.html">PointPairs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9417ab6b0f89eb260cb193ff61fcceb2">getRef2FltPairs</a> (self)</td></tr>
 <tr class="memitem:a4b3d3a4629f37f9e36c389b8743ede91" id="r_a4b3d3a4629f37f9e36c389b8743ede91"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b3d3a4629f37f9e36c389b8743ede91">getStatusInfo</a> (self)</td></tr>
-<tr class="memitem:ae74966352e9497f6602c550641ea1567" id="r_ae74966352e9497f6602c550641ea1567"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae74966352e9497f6602c550641ea1567">sampleFltPoints</a> (self, float samplingVoxelSize)</td></tr>
-<tr class="memitem:a104163f5c7cf2235a5e74b7adc1de60a" id="r_a104163f5c7cf2235a5e74b7adc1de60a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104163f5c7cf2235a5e74b7adc1de60a">samplePoints</a> (self, float samplingVoxelSize)</td></tr>
-<tr class="memitem:aeb7770adee0665ba02b26deca3fb6b66" id="r_aeb7770adee0665ba02b26deca3fb6b66"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb7770adee0665ba02b26deca3fb6b66">sampleRefPoints</a> (self, float samplingVoxelSize)</td></tr>
+<tr class="memitem:a4d96212e6b333f3935e9afa8256b5d98" id="r_a4d96212e6b333f3935e9afa8256b5d98"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d96212e6b333f3935e9afa8256b5d98">sampleFltPoints</a> (self, float samplingVoxelSize, bool nonVertexSamples=True)</td></tr>
+<tr class="memitem:a77e6ff8e013d3298e963dd4971c29d2b" id="r_a77e6ff8e013d3298e963dd4971c29d2b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77e6ff8e013d3298e963dd4971c29d2b">samplePoints</a> (self, float samplingVoxelSize, bool nonVertexSamples=True)</td></tr>
+<tr class="memitem:a433784f62a60e2d9ad4e41de3c539117" id="r_a433784f62a60e2d9ad4e41de3c539117"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a433784f62a60e2d9ad4e41de3c539117">sampleRefPoints</a> (self, float samplingVoxelSize, bool nonVertexSamples=True)</td></tr>
 <tr class="memitem:a2ea525f82352741afd656ff3fd7d377f" id="r_a2ea525f82352741afd656ff3fd7d377f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ea525f82352741afd656ff3fd7d377f">setBadIterCount</a> (self, int iter)</td></tr>
 <tr class="memitem:aa17b6110c040aef16e368f932091bd56" id="r_aa17b6110c040aef16e368f932091bd56"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa17b6110c040aef16e368f932091bd56">setCosineLimit</a> (self, float cos)</td></tr>
 <tr class="memitem:a2b76e72a0c01645742ffa8b30aabe825" id="r_a2b76e72a0c01645742ffa8b30aabe825"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b76e72a0c01645742ffa8b30aabe825">setDistanceLimit</a> (self, float dist)</td></tr>
@@ -432,7 +432,7 @@ the weights stay fixed during the algorithm
 \\param fltXf transformation from floating object space to global space
 \\param refXf transformation from reference object space to global space
 \\param samplingVoxelSize approximate distance between samples on each of two objects
-all pairs get equal weights
+all pairs get equal weights, and a mesh with big triangles gets samples inside them as in samplePoints( samplingVoxelSize, true )
 </pre> 
 </div>
 </div>
@@ -746,8 +746,8 @@ applies the transformation to the floating object and returns it
 
 </div>
 </div>
-<a id="ae74966352e9497f6602c550641ea1567" name="ae74966352e9497f6602c550641ea1567"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae74966352e9497f6602c550641ea1567">&#9670;&#160;</a></span>sampleFltPoints()</h2>
+<a id="a4d96212e6b333f3935e9afa8256b5d98" name="a4d96212e6b333f3935e9afa8256b5d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d96212e6b333f3935e9afa8256b5d98">&#9670;&#160;</a></span>sampleFltPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -760,15 +760,20 @@ applies the transformation to the floating object and returns it
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a104163f5c7cf2235a5e74b7adc1de60a" name="a104163f5c7cf2235a5e74b7adc1de60a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a104163f5c7cf2235a5e74b7adc1de60a">&#9670;&#160;</a></span>samplePoints()</h2>
+<a id="a77e6ff8e013d3298e963dd4971c29d2b" name="a77e6ff8e013d3298e963dd4971c29d2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77e6ff8e013d3298e963dd4971c29d2b">&#9670;&#160;</a></span>samplePoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -781,7 +786,12 @@ applies the transformation to the floating object and returns it
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -789,8 +799,8 @@ applies the transformation to the floating object and returns it
 </pre> 
 </div>
 </div>
-<a id="aeb7770adee0665ba02b26deca3fb6b66" name="aeb7770adee0665ba02b26deca3fb6b66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb7770adee0665ba02b26deca3fb6b66">&#9670;&#160;</a></span>sampleRefPoints()</h2>
+<a id="a433784f62a60e2d9ad4e41de3c539117" name="a433784f62a60e2d9ad4e41de3c539117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433784f62a60e2d9ad4e41de3c539117">&#9670;&#160;</a></span>sampleRefPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -803,7 +813,12 @@ applies the transformation to the floating object and returns it
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -936,7 +951,9 @@ applies the transformation to the floating object and returns it
 </div><div class="memdoc">
 <pre class="fragment">select pairs with origin samples on floating object;
 setFltSamples weights each pair by the double area of mesh triangles around its sample vertex,
-sampleFltPoints performs grid sampling and gives all pairs equal weights
+sampleFltPoints performs grid sampling and gives all pairs equal weights;
+\\param nonVertexSamples if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud
+       (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled
 </pre> 
 </div>
 </div>
@@ -980,7 +997,7 @@ sampleFltPoints performs grid sampling and gives all pairs equal weights
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">select pairs with origin samples on reference object, weighted the same way as for floating object
+<pre class="fragment">select pairs with origin samples on reference object, weighted and sampled the same way as for floating object
 </pre> 
 </div>
 </div>

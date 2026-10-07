@@ -10518,6 +10518,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ac3ae47199ecb1701d15c5608c8efb704"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated from function <span class="tt"><a class="el" href="#ac3ae47199ecb1701d15c5608c8efb704" title="converts the mesh vertices (or only given ones) in a point cloud with the same vertex ids Generated f...">MR.meshToPointCloud</a></span>. Parameter <span class="tt">normals</span> defaults to <span class="tt"><a class="el" href="#ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" title="area-weighted average of the normals of incident triangles, see computePerVertNormals">MR.VertNormalsMode.AreaWeighted</a></span>.  <br /></td></tr>
 <tr class="memitem:abdc8d4ca3a7e5c78239da53c680fcec4" id="r_abdc8d4ca3a7e5c78239da53c680fcec4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1PointCloud.html">MR.PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdc8d4ca3a7e5c78239da53c680fcec4">meshToDensePointCloud</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float radius, <a class="el" href="#ae87fa6e092f96675221f3e07ece671eb">MR.VertNormalsMode</a>? normals=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:abdc8d4ca3a7e5c78239da53c680fcec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the mesh or its part in a point cloud dense enough to stop any ball of given radius: no ball of the radius can pass through the sampled surface without touching at least one point of the cloud, because every point of that surface is within the radius from some point of the cloud. The cloud consists of 1) all vertices of the sampled faces, having the same ids as in the mesh; 2) samples inside every triangle that its own vertices cannot cover, and on the edges of it. A triangle needs no samples at all, however long its edges are, if every point of it is within the radius from one of its vertices, as in a sliver with the third vertex near the longest edge. Please note that the number of samples grows as 1/radius^2.  <br /></td></tr>
+<tr class="memitem:af800e33eea043ca0e5f6870a6c82ffe0" id="r_af800e33eea043ca0e5f6870a6c82ffe0"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af800e33eea043ca0e5f6870a6c82ffe0">isCoveredByVertices</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, float radius)</td></tr>
+<tr class="memdesc:af800e33eea043ca0e5f6870a6c82ffe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if every point of the mesh part is within the radius from one of the vertices of its triangle, which is exactly when meshToDensePointCloud( mp, radius ) returns the vertices of the mesh and no other samples Generated from function <span class="tt"><a class="el" href="#af800e33eea043ca0e5f6870a6c82ffe0" title="returns true if every point of the mesh part is within the radius from one of the vertices of its tri...">MR.isCoveredByVertices</a></span>.  <br /></td></tr>
 <tr class="memitem:ae4171f5402c2383f24804f51074d6311" id="r_ae4171f5402c2383f24804f51074d6311"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4171f5402c2383f24804f51074d6311">reduceTotalAngle</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertCoords.html">MR.Const_VertCoords</a> points, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
 <tr class="memdesc:ae4171f5402c2383f24804f51074d6311"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its length; performs the given number of iterations, during each the edges are flipped; returns the total number of flips done Generated from function <span class="tt"><a class="el" href="#ae4171f5402c2383f24804f51074d6311" title="minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its...">MR.reduceTotalAngle</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">progressCallback</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:abcd3335b980057dbe48e9fa19efcc011" id="r_abcd3335b980057dbe48e9fa19efcc011"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd3335b980057dbe48e9fa19efcc011">reduceTotalAngleInMesh</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, int numIters, <a class="el" href="classMR_1_1Const__ReduceTotalAngleParams.html">MR.Const_ReduceTotalAngleParams</a>? params_=null, MR.Std.Const_Function_Bool_From_Float? progressCallback=null)</td></tr>
@@ -13210,7 +13212,7 @@ Related Symbols</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a90fcd9e2a74e2161a52251e979ed957dacabf254f8195fce8d901b3cce7092ea9" name="a90fcd9e2a74e2161a52251e979ed957dacabf254f8195fce8d901b3cce7092ea9"></a>PointToPoint&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between two points in each pair, it is the safest approach but can converge slowly </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" name="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="classMR_1_1ICP.html#ae35290c0364a69e16bdd1c5d32fa68ea" title="select pairs with origin samples on floating object; setFltSamples weights each pair by the double ar...">MR.ICP.setFltSamples()</a></span> or <span class="tt"><a class="el" href="classMR_1_1ICP.html#a41baf3890175819ccd69e3d3e59908df" title="select pairs with origin samples on reference object, weighted the same way as for floating object Ge...">MR.ICP.setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
+<tr><td class="fieldname"><a id="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" name="a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="classMR_1_1ICP.html#ae35290c0364a69e16bdd1c5d32fa68ea" title="select pairs with origin samples on floating object; setFltSamples weights each pair by the double ar...">MR.ICP.setFltSamples()</a></span> or <span class="tt"><a class="el" href="classMR_1_1ICP.html#a41baf3890175819ccd69e3d3e59908df" title="select pairs with origin samples on reference object, weighted and sampled the same way as for floati...">MR.ICP.setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
 </td></tr>
 </table>
 
@@ -57543,6 +57545,37 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>returns true if left(isoline[i].e) == right(isoline[i+1].e) and valid for all i; all above functions produce consistently oriented lines Generated from function <span class="tt"><a class="el" href="#a8412b7d585ad2ee514e3fa15f5202597" title="returns true if left(isoline[i].e) == right(isoline[i+1].e) and valid for all i; all above functions ...">MR.isConsistentlyOriented</a></span>. </p>
+
+</div>
+</div>
+<a id="af800e33eea043ca0e5f6870a6c82ffe0" name="af800e33eea043ca0e5f6870a6c82ffe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af800e33eea043ca0e5f6870a6c82ffe0">&#9670;&#160;</a></span>isCoveredByVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.isCoveredByVertices </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns true if every point of the mesh part is within the radius from one of the vertices of its triangle, which is exactly when meshToDensePointCloud( mp, radius ) returns the vertices of the mesh and no other samples Generated from function <span class="tt"><a class="el" href="#af800e33eea043ca0e5f6870a6c82ffe0" title="returns true if every point of the mesh part is within the radius from one of the vertices of its tri...">MR.isCoveredByVertices</a></span>. </p>
 
 </div>
 </div>

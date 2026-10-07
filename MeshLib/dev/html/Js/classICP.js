@@ -9,7 +9,8 @@ var classICP =
     [ "getNumActivePairs", "classICP.html#a990fe54b35371b4058ca82e52402af02", null ],
     [ "getNumSamples", "classICP.html#a13dc8dc33851c0538dd76d90519cf5be", null ],
     [ "getStatusInfo", "classICP.html#a6b8aaa414a5049987b8d9e8a9b713fbf", null ],
-    [ "samplePoints", "classICP.html#ab1b81df3f853d4084e5c5f2016c2f127", null ],
+    [ "samplePoints", "classICP.html#a1aa6ac06ab188c6ad5f91c62cd5071be", null ],
+    [ "samplePoints", "classICP.html#a30f002a3aa9c4481b34f432a04cf28cc", null ],
     [ "setParams", "classICP.html#afa32833f0273c59aefc35f9257bc2389", null ],
     [ "updatePointPairs", "classICP.html#a26937217ceae941d917ba5a0b02dc35c", null ]
 ];

@@ -78,15 +78,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="458" column="8"/>
       </memberdef>
-      <memberdef kind="function" id="classICP_1ab1b81df3f853d4084e5c5f2016c2f127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classICP_1a1aa6ac06ab188c6ad5f91c62cd5071be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ICP::samplePoints</definition>
-        <argsstring>(number samplingVoxelSize)</argsstring>
+        <argsstring>(number _0)</argsstring>
         <name>samplePoints</name>
         <qualifiedname>ICP::samplePoints</qualifiedname>
         <param>
           <type>number</type>
-          <declname>samplingVoxelSize</declname>
+          <declname>_0</declname>
         </param>
         <briefdescription>
 <para>select pairs with origin samples on both objects </para>
@@ -96,6 +96,29 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="462" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classICP_1a30f002a3aa9c4481b34f432a04cf28cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICP::samplePoints</definition>
+        <argsstring>(number samplingVoxelSize, boolean nonVertexSamples)</argsstring>
+        <name>samplePoints</name>
+        <qualifiedname>ICP::samplePoints</qualifiedname>
+        <param>
+          <type>number</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="bindings_8d_8mts_1ab327118a7dc64c2db1605682331342bb" kindref="member">boolean</ref></type>
+          <declname>nonVertexSamples</declname>
+        </param>
+        <briefdescription>
+<para>select pairs with origin samples on both objects </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="466" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1ac51b5db8da1b5e9d6768e0911c6bcb75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -110,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="466" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="470" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a26937217ceae941d917ba5a0b02dc35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125,7 +148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="470" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="474" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a6b8aaa414a5049987b8d9e8a9b713fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>string</type>
@@ -139,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="471" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="475" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a13dc8dc33851c0538dd76d90519cf5be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -154,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="475" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="479" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a990fe54b35371b4058ca82e52402af02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -169,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="479" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="483" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a1f2682699e56c561c1988e98571e1837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -184,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="483" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="487" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a927348b785aa38ed25d056379d39e201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>number</type>
@@ -199,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="487" column="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="491" column="10"/>
       </memberdef>
       <memberdef kind="function" id="classICP_1a3d8e926b66f331934a1c0b17fd3361eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classAffineXf3f" kindref="compound">AffineXf3f</ref></type>
@@ -216,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="491" column="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="495" column="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -224,7 +247,7 @@
     <detaileddescription>
 <para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="451" bodyend="492"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="451" bodyend="496"/>
     <listofallmembers>
       <member refid="classICP_1ac51b5db8da1b5e9d6768e0911c6bcb75" prot="public" virt="non-virtual"><scope>ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="classICP_1a3d8e926b66f331934a1c0b17fd3361eb" prot="public" virt="non-virtual"><scope>ICP</scope><name>calculateTransformation</name></member>
@@ -235,7 +258,8 @@
       <member refid="classICP_1a6b8aaa414a5049987b8d9e8a9b713fbf" prot="public" virt="non-virtual"><scope>ICP</scope><name>getStatusInfo</name></member>
       <member refid="classICP_1a09dbac28a63c296be59f1b6481271e8a" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
       <member refid="classICP_1a770878be33c4ff48b382d3b260b2eda6" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
-      <member refid="classICP_1ab1b81df3f853d4084e5c5f2016c2f127" prot="public" virt="non-virtual"><scope>ICP</scope><name>samplePoints</name></member>
+      <member refid="classICP_1a1aa6ac06ab188c6ad5f91c62cd5071be" prot="public" virt="non-virtual"><scope>ICP</scope><name>samplePoints</name></member>
+      <member refid="classICP_1a30f002a3aa9c4481b34f432a04cf28cc" prot="public" virt="non-virtual"><scope>ICP</scope><name>samplePoints</name></member>
       <member refid="classICP_1afa32833f0273c59aefc35f9257bc2389" prot="public" virt="non-virtual"><scope>ICP</scope><name>setParams</name></member>
       <member refid="classICP_1a26937217ceae941d917ba5a0b02dc35c" prot="public" virt="non-virtual"><scope>ICP</scope><name>updatePointPairs</name></member>
     </listofallmembers>

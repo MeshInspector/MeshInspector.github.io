@@ -5008,12 +5008,12 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga88482e98d2aeaf3ce210222c82b564c4" id="r_ga88482e98d2aeaf3ce210222c82b564c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga88482e98d2aeaf3ce210222c82b564c4">MR::ICP::setBadIterCount</a> (const int iter)</td></tr>
 <tr class="memitem:ga6fcc01ef678556ea9ba8a4afdb839374" id="r_ga6fcc01ef678556ea9ba8a4afdb839374"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6fcc01ef678556ea9ba8a4afdb839374">MR::ICP::setFarDistFactor</a> (const float <a class="el" href="#ggaa2579613f677dcb6e5d4112ae3f95f4ca742f32c65ffd18b766fa307f8de2d47d">factor</a>)</td></tr>
 <tr class="memitem:gaa6195ab12431f72e5d49e783f2411c81" id="r_gaa6195ab12431f72e5d49e783f2411c81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa6195ab12431f72e5d49e783f2411c81">MR::ICP::setFltSamples</a> (const VertBitSet &amp;fltSamples)</td></tr>
-<tr class="memitem:ga7f572bc2fdfab2f29e537e947494d549" id="r_ga7f572bc2fdfab2f29e537e947494d549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7f572bc2fdfab2f29e537e947494d549">MR::ICP::sampleFltPoints</a> (float samplingVoxelSize)</td></tr>
+<tr class="memitem:gab34beaf329dc6198fe7d028dd9ddccbe" id="r_gab34beaf329dc6198fe7d028dd9ddccbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab34beaf329dc6198fe7d028dd9ddccbe">MR::ICP::sampleFltPoints</a> (float samplingVoxelSize, bool nonVertexSamples=true)</td></tr>
 <tr class="memitem:ga033946f0665c58cf3f65b7bdd9732679" id="r_ga033946f0665c58cf3f65b7bdd9732679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga033946f0665c58cf3f65b7bdd9732679">MR::ICP::setRefSamples</a> (const VertBitSet &amp;refSamples)</td></tr>
-<tr class="memdesc:ga033946f0665c58cf3f65b7bdd9732679"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on reference object, weighted the same way as for floating object  <br /></td></tr>
-<tr class="memitem:gae55a8bd90c0c0c8c817a58f4d10bdc97" id="r_gae55a8bd90c0c0c8c817a58f4d10bdc97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae55a8bd90c0c0c8c817a58f4d10bdc97">MR::ICP::sampleRefPoints</a> (float samplingVoxelSize)</td></tr>
-<tr class="memitem:ga56cde0df43df6f53274400daea013890" id="r_ga56cde0df43df6f53274400daea013890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga56cde0df43df6f53274400daea013890">MR::ICP::samplePoints</a> (float samplingVoxelSize)</td></tr>
-<tr class="memdesc:ga56cde0df43df6f53274400daea013890"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on both objects  <br /></td></tr>
+<tr class="memdesc:ga033946f0665c58cf3f65b7bdd9732679"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on reference object, weighted and sampled the same way as for floating object  <br /></td></tr>
+<tr class="memitem:gafc0b8391f6d7cff0770e87055906cf2c" id="r_gafc0b8391f6d7cff0770e87055906cf2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafc0b8391f6d7cff0770e87055906cf2c">MR::ICP::sampleRefPoints</a> (float samplingVoxelSize, bool nonVertexSamples=true)</td></tr>
+<tr class="memitem:ga64b2b6e88452dd7ef588e0f2533beeee" id="r_ga64b2b6e88452dd7ef588e0f2533beeee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga64b2b6e88452dd7ef588e0f2533beeee">MR::ICP::samplePoints</a> (float samplingVoxelSize, bool nonVertexSamples=true)</td></tr>
+<tr class="memdesc:ga64b2b6e88452dd7ef588e0f2533beeee"><td class="mdescLeft">&#160;</td><td class="mdescRight">select pairs with origin samples on both objects  <br /></td></tr>
 <tr class="memitem:gabd481b32d31b8f82a05f815143b28820" id="r_gabd481b32d31b8f82a05f815143b28820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd481b32d31b8f82a05f815143b28820">MR::ICP::recomputeBitSet</a> (float fltSamplingVoxelSize)</td></tr>
 <tr class="memitem:gac6e52fe345c88a831ba23619cd352e47" id="r_gac6e52fe345c88a831ba23619cd352e47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac6e52fe345c88a831ba23619cd352e47">MR::ICP::setXfs</a> (const AffineXf3f &amp;fltXf, const AffineXf3f &amp;refXf)</td></tr>
 <tr class="memdesc:gac6e52fe345c88a831ba23619cd352e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets to-world transformations both for floating and reference objects  <br /></td></tr>
@@ -12444,7 +12444,6 @@ Variables</h2></td></tr>
 <tr class="memitem:gacade73682f0a4e356ccf90131e1a5fa2" id="r_gacade73682f0a4e356ccf90131e1a5fa2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacade73682f0a4e356ccf90131e1a5fa2">MR::ICPPairData::weight</a> = 1.f</td></tr>
 <tr class="memdesc:gacade73682f0a4e356ccf90131e1a5fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">weight of the pair (to prioritize over other pairs)  <br /></td></tr>
 <tr class="memitem:ga0be978719b10258123e31ffe3413c532" id="r_ga0be978719b10258123e31ffe3413c532"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0be978719b10258123e31ffe3413c532">MR::PointPair::srcVertId</a></td></tr>
-<tr class="memdesc:ga0be978719b10258123e31ffe3413c532"><td class="mdescLeft">&#160;</td><td class="mdescRight">id of the source point  <br /></td></tr>
 <tr class="memitem:ga6e96779ac71de15fae84c9c1dee17cb7" id="r_ga6e96779ac71de15fae84c9c1dee17cb7"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e96779ac71de15fae84c9c1dee17cb7">MR::PointPair::tgtCloseVert</a></td></tr>
 <tr class="memitem:ga087147661647b219169ee6e63da113fd" id="r_ga087147661647b219169ee6e63da113fd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga087147661647b219169ee6e63da113fd">MR::PointPair::normalsAngleCos</a> = 1.f</td></tr>
 <tr class="memdesc:ga087147661647b219169ee6e63da113fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">cosine between normals in source and target points  <br /></td></tr>
@@ -25418,7 +25417,7 @@ template&lt;typename Tag&gt; </div>
 <tr><td class="fieldname"><a id="ggadc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9" name="ggadc079b022ca7581fe4f508ab8f6a80ecacabf254f8195fce8d901b3cce7092ea9"></a>PointToPoint&#160;</td><td class="fielddoc"><p>it is the safest approach but can converge slowly </p>
 <p>select transformation that minimizes mean squared distance between two points in each pair, </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed" name="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="#gaa6195ab12431f72e5d49e783f2411c81">MR::ICP::setFltSamples()</a></span> or <span class="tt"><a class="el" href="#ga033946f0665c58cf3f65b7bdd9732679" title="select pairs with origin samples on reference object, weighted the same way as for floating object">MR::ICP::setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
+<tr><td class="fieldname"><a id="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed" name="ggadc079b022ca7581fe4f508ab8f6a80eca621eeaff7db1283a0db27b4e7233a8ed"></a>PointToPlane&#160;</td><td class="fielddoc"><p>select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair, converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals). By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings to only project one way (using <span class="tt"><a class="el" href="#gaa6195ab12431f72e5d49e783f2411c81">MR::ICP::setFltSamples()</a></span> or <span class="tt"><a class="el" href="#ga033946f0665c58cf3f65b7bdd9732679" title="select pairs with origin samples on reference object, weighted and sampled the same way as for floati...">MR::ICP::setRefSamples()</a></span>), in which case the object being projected onto must have normals. </p>
 </td></tr>
 </table>
 
@@ -104688,7 +104687,7 @@ template&lt;typename... Args&gt; </div>
     <tr><td class="paramname">ref</td><td>reference object </td></tr>
     <tr><td class="paramname">fltXf</td><td>transformation from floating object space to global space </td></tr>
     <tr><td class="paramname">refXf</td><td>transformation from reference object space to global space </td></tr>
-    <tr><td class="paramname">samplingVoxelSize</td><td>approximate distance between samples on each of two objects all pairs get equal weights </td></tr>
+    <tr><td class="paramname">samplingVoxelSize</td><td>approximate distance between samples on each of two objects all pairs get equal weights, and a mesh with big triangles gets samples inside them as in samplePoints( samplingVoxelSize, true ) </td></tr>
   </table>
   </dd>
 </dl>
@@ -160649,8 +160648,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga7f572bc2fdfab2f29e537e947494d549" name="ga7f572bc2fdfab2f29e537e947494d549"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7f572bc2fdfab2f29e537e947494d549">&#9670;&#160;</a></span>sampleFltPoints()</h2>
+<a id="gab34beaf329dc6198fe7d028dd9ddccbe" name="gab34beaf329dc6198fe7d028dd9ddccbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab34beaf329dc6198fe7d028dd9ddccbe">&#9670;&#160;</a></span>sampleFltPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160658,8 +160657,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::ICP::sampleFltPoints </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span></td><td>)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -160697,8 +160700,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga56cde0df43df6f53274400daea013890" name="ga56cde0df43df6f53274400daea013890"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga56cde0df43df6f53274400daea013890">&#9670;&#160;</a></span>samplePoints()</h2>
+<a id="ga64b2b6e88452dd7ef588e0f2533beeee" name="ga64b2b6e88452dd7ef588e0f2533beeee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga64b2b6e88452dd7ef588e0f2533beeee">&#9670;&#160;</a></span>samplePoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160709,8 +160712,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::ICP::samplePoints </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span></td><td>)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -160726,8 +160733,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gae55a8bd90c0c0c8c817a58f4d10bdc97" name="gae55a8bd90c0c0c8c817a58f4d10bdc97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae55a8bd90c0c0c8c817a58f4d10bdc97">&#9670;&#160;</a></span>sampleRefPoints()</h2>
+<a id="gafc0b8391f6d7cff0770e87055906cf2c" name="gafc0b8391f6d7cff0770e87055906cf2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc0b8391f6d7cff0770e87055906cf2c">&#9670;&#160;</a></span>sampleRefPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160735,8 +160742,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::ICP::sampleRefPoints </td>
           <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span></td><td>)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>samplingVoxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>nonVertexSamples</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -168665,7 +168676,12 @@ ignored before <a class="el" href="#ga42056e56380a989d42601b9611494613" title="i
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
-<p>select pairs with origin samples on floating object; setFltSamples weights each pair by the double area of mesh triangles around its sample vertex, sampleFltPoints performs grid sampling and gives all pairs equal weights </p>
+<p>select pairs with origin samples on floating object; setFltSamples weights each pair by the double area of mesh triangles around its sample vertex, sampleFltPoints performs grid sampling and gives all pairs equal weights; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonVertexSamples</td><td>if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -172520,7 +172536,7 @@ template&lt;typename TreeT, typename Proc&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRICP_8h.html">MRMesh/MRICP.h</a>&gt;</code></p>
 
-<p>select pairs with origin samples on reference object, weighted the same way as for floating object </p>
+<p>select pairs with origin samples on reference object, weighted and sampled the same way as for floating object </p>
 
 </div>
 </div>
@@ -234710,8 +234726,7 @@ template&lt;UnitEnum E&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>id of the source point </p>
+<p>id of the source point: a vertex of the source object, or a point of the denser cloud in case of grid sampling of a mesh with big triangles (see <a class="el" href="#gab34beaf329dc6198fe7d028dd9ddccbe">ICP::sampleFltPoints</a>) </p>
 
 </div>
 </div>

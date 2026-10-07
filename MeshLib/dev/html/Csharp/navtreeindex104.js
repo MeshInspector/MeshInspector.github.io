@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1Features.html#ae0c4b0a33a2306988bed3afd7b6e6530":[9,3,0,0,0,1213,20],
 "classMR_1_1Features.html#ae6f2b52cd268f6acb93756796a552e52":[9,3,0,0,0,1213,19],
 "classMR_1_1Features_1_1Const__MeasureResult.html":[9,3,0,0,0,1213,0],
 "classMR_1_1Features_1_1Const__MeasureResult.html#a0f8238495e7072e8f864b3e4f0a5f571":[9,3,0,0,0,1213,0,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a07609e92425910fe47a8c09be99d2d78":[9,3,0,0,0,1213,5,6,1],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a07fd647e7d4b4e116595e22dbf085e20":[9,3,0,0,0,1213,5,6,2],
 "classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a56998405976a406028c0f47ea247080e":[9,3,0,0,0,1213,5,6,4],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a6488a5cfe87fc34a5de5c120c2f6fc81":[9,3,0,0,0,1213,5,6,3],
-"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a7c58a3b14ffa0f1fd598ab11afce6f1a":[9,3,0,0,0,1213,5,6,5]
+"classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html#a6488a5cfe87fc34a5de5c120c2f6fc81":[9,3,0,0,0,1213,5,6,3]
 };

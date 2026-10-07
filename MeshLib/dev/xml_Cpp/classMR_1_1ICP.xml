@@ -9,6 +9,8 @@
       <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" kind="variable"><name>prop_</name></member>
       <member refid="group__GeneralGroup_1gac9ea5c5be89d6d0ac867a3c800b3d576" kind="variable"><name>flt2refPairs_</name></member>
       <member refid="group__GeneralGroup_1gaba64c8a5a357b2f567a3318251ca1efc" kind="variable"><name>ref2fltPairs_</name></member>
+      <member refid="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" kind="variable"><name>fltSamplesCloud_</name></member>
+      <member refid="group__GeneralGroup_1ga2ddb4bf28f18ebfa84539617a8f16e83" kind="variable"><name>refSamplesCloud_</name></member>
       <member refid="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" kind="variable"><name>resultType_</name></member>
       <member refid="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" kind="variable"><name>iter_</name></member>
     </sectiondef>
@@ -25,10 +27,10 @@
       <member refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" kind="function"><name>setBadIterCount</name></member>
       <member refid="group__GeneralGroup_1ga6fcc01ef678556ea9ba8a4afdb839374" kind="function"><name>setFarDistFactor</name></member>
       <member refid="group__GeneralGroup_1gaa6195ab12431f72e5d49e783f2411c81" kind="function"><name>setFltSamples</name></member>
-      <member refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" kind="function"><name>sampleFltPoints</name></member>
+      <member refid="group__GeneralGroup_1gab34beaf329dc6198fe7d028dd9ddccbe" kind="function"><name>sampleFltPoints</name></member>
       <member refid="group__GeneralGroup_1ga033946f0665c58cf3f65b7bdd9732679" kind="function"><name>setRefSamples</name></member>
-      <member refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" kind="function"><name>sampleRefPoints</name></member>
-      <member refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" kind="function"><name>samplePoints</name></member>
+      <member refid="group__GeneralGroup_1gafc0b8391f6d7cff0770e87055906cf2c" kind="function"><name>sampleRefPoints</name></member>
+      <member refid="group__GeneralGroup_1ga64b2b6e88452dd7ef588e0f2533beeee" kind="function"><name>samplePoints</name></member>
       <member refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" kind="function"><name>recomputeBitSet</name></member>
       <member refid="group__GeneralGroup_1gac6e52fe345c88a831ba23619cd352e47" kind="function"><name>setXfs</name></member>
       <member refid="group__GeneralGroup_1ga5202fb23e45467915bb51d0923b9caaf" kind="function"><name>setFloatXf</name></member>
@@ -58,7 +60,7 @@
     <detaileddescription>
 <para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-examples/MeshICP.dox.cpp"></programlisting> </para>
     </detaileddescription>
-    <location file="MRMesh/MRICP.h" line="196" column="1" bodyfile="MRMesh/MRICP.h" bodystart="197" bodyend="312"/>
+    <location file="MRMesh/MRICP.h" line="198" column="1" bodyfile="MRMesh/MRICP.h" bodystart="199" bodyend="321"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
       <member refid="group__GeneralGroup_1ga2919e6c1f1b78a1b0e6e9513744013bd" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>calcCombined_</name></member>
@@ -69,6 +71,7 @@
       <member refid="group__GeneralGroup_1gaa8b47068555e697a4aa11d9d09b42d48" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>deactivatefarDistPairs_</name></member>
       <member refid="group__GeneralGroup_1gac9ea5c5be89d6d0ac867a3c800b3d576" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>flt2refPairs_</name></member>
       <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>flt_</name></member>
+      <member refid="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>fltSamplesCloud_</name></member>
       <member refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getFlt2RefPairs</name></member>
       <member refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPlane</name></member>
       <member refid="group__GeneralGroup_1gadd96602ef2f4214943001ed7d428f400" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPoint</name></member>
@@ -90,10 +93,11 @@
       <member refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>recomputeBitSet</name></member>
       <member refid="group__GeneralGroup_1gaba64c8a5a357b2f567a3318251ca1efc" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>ref2fltPairs_</name></member>
       <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>ref_</name></member>
+      <member refid="group__GeneralGroup_1ga2ddb4bf28f18ebfa84539617a8f16e83" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>refSamplesCloud_</name></member>
       <member refid="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>resultType_</name></member>
-      <member refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleFltPoints</name></member>
-      <member refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>samplePoints</name></member>
-      <member refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleRefPoints</name></member>
+      <member refid="group__GeneralGroup_1gab34beaf329dc6198fe7d028dd9ddccbe" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleFltPoints</name></member>
+      <member refid="group__GeneralGroup_1ga64b2b6e88452dd7ef588e0f2533beeee" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>samplePoints</name></member>
+      <member refid="group__GeneralGroup_1gafc0b8391f6d7cff0770e87055906cf2c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleRefPoints</name></member>
       <member refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setBadIterCount</name></member>
       <member refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setCosineLimit</name></member>
       <member refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setDistanceLimit</name></member>

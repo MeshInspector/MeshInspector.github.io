@@ -278,7 +278,7 @@ the weights stay fixed during the algorithm
 \\param fltXf transformation from floating object space to global space
 \\param refXf transformation from reference object space to global space
 \\param samplingVoxelSize approximate distance between samples on each of two objects
-all pairs get equal weights
+all pairs get equal weights, and a mesh with big triangles gets samples inside them as in samplePoints( samplingVoxelSize, true )
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -556,10 +556,10 @@ applies the transformation to the floating object and returns it
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22977" bodyend="22978"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ae74966352e9497f6602c550641ea1567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a4d96212e6b333f3935e9afa8256b5d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ICP.sampleFltPoints</definition>
-        <argsstring>(self, float samplingVoxelSize)</argsstring>
+        <argsstring>(self, float samplingVoxelSize, bool nonVertexSamples=True)</argsstring>
         <name>sampleFltPoints</name>
         <qualifiedname>mrmeshpy.ICP.sampleFltPoints</qualifiedname>
         <param>
@@ -570,6 +570,11 @@ applies the transformation to the floating object and returns it
           <type>float</type>
           <declname>samplingVoxelSize</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>nonVertexSamples</declname>
+          <defval>True</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -578,10 +583,10 @@ applies the transformation to the floating object and returns it
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22979" bodyend="22980"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a104163f5c7cf2235a5e74b7adc1de60a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a77e6ff8e013d3298e963dd4971c29d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ICP.samplePoints</definition>
-        <argsstring>(self, float samplingVoxelSize)</argsstring>
+        <argsstring>(self, float samplingVoxelSize, bool nonVertexSamples=True)</argsstring>
         <name>samplePoints</name>
         <qualifiedname>mrmeshpy.ICP.samplePoints</qualifiedname>
         <param>
@@ -591,6 +596,11 @@ applies the transformation to the floating object and returns it
         <param>
           <type>float</type>
           <declname>samplingVoxelSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>nonVertexSamples</declname>
+          <defval>True</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -602,10 +612,10 @@ applies the transformation to the floating object and returns it
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22981" bodyend="22984"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1aeb7770adee0665ba02b26deca3fb6b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a433784f62a60e2d9ad4e41de3c539117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.ICP.sampleRefPoints</definition>
-        <argsstring>(self, float samplingVoxelSize)</argsstring>
+        <argsstring>(self, float samplingVoxelSize, bool nonVertexSamples=True)</argsstring>
         <name>sampleRefPoints</name>
         <qualifiedname>mrmeshpy.ICP.sampleRefPoints</qualifiedname>
         <param>
@@ -615,6 +625,11 @@ applies the transformation to the floating object and returns it
         <param>
           <type>float</type>
           <declname>samplingVoxelSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>nonVertexSamples</declname>
+          <defval>True</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -755,12 +770,14 @@ applies the transformation to the floating object and returns it
         <detaileddescription>
 <para><verbatim>select pairs with origin samples on floating object;
 setFltSamples weights each pair by the double area of mesh triangles around its sample vertex,
-sampleFltPoints performs grid sampling and gives all pairs equal weights
+sampleFltPoints performs grid sampling and gives all pairs equal weights;
+\\param nonVertexSamples if true, a mesh with triangles too big for the sampling is sampled from its dense point cloud
+       (see meshToDensePointCloud) to get the samples inside the triangles and on the edges as well; otherwise only its vertices are sampled
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22999" bodyend="23004"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22999" bodyend="23006"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1ac0dcef5e07c1f116cd0eab6ee10deb8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -784,7 +801,7 @@ sampleFltPoints performs grid sampling and gives all pairs equal weights
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23005" bodyend="23008"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23007" bodyend="23010"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a3883d5ac966f8b92a04c7d7fa18b4327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -803,12 +820,12 @@ sampleFltPoints performs grid sampling and gives all pairs equal weights
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>select pairs with origin samples on reference object, weighted the same way as for floating object
+<para><verbatim>select pairs with origin samples on reference object, weighted and sampled the same way as for floating object
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23009" bodyend="23012"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23011" bodyend="23014"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1a1af5d734af135af38cae796f963b12c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -836,7 +853,7 @@ sampleFltPoints performs grid sampling and gives all pairs equal weights
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23013" bodyend="23016"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23015" bodyend="23018"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ICP_1acb36c4cea4d75ae5271591859211235e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -856,7 +873,7 @@ sampleFltPoints performs grid sampling and gives all pairs equal weights
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23017" bodyend="23020"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23019" bodyend="23022"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -869,7 +886,7 @@ Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms
 \\snippet cpp-examples/MeshICP.dox.cpp 0
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22875" bodyend="23020"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22875" bodyend="23022"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ICP_1a0737ba639106d17e6fa545a85195c01c" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a21e0e8fe1edaf1a11bce6ade76c5bdcc" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>__init__</name></member>
@@ -892,9 +909,9 @@ Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms
       <member refid="classmrmeshpy_1_1ICP_1a4b3d3a4629f37f9e36c389b8743ede91" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>getStatusInfo</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a4c07482c39bbf3881a50651444969869" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a4c07482c39bbf3881a50651444969869" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1ICP_1ae74966352e9497f6602c550641ea1567" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleFltPoints</name></member>
-      <member refid="classmrmeshpy_1_1ICP_1a104163f5c7cf2235a5e74b7adc1de60a" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>samplePoints</name></member>
-      <member refid="classmrmeshpy_1_1ICP_1aeb7770adee0665ba02b26deca3fb6b66" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleRefPoints</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a4d96212e6b333f3935e9afa8256b5d98" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleFltPoints</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a77e6ff8e013d3298e963dd4971c29d2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>samplePoints</name></member>
+      <member refid="classmrmeshpy_1_1ICP_1a433784f62a60e2d9ad4e41de3c539117" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>sampleRefPoints</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a2ea525f82352741afd656ff3fd7d377f" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>setBadIterCount</name></member>
       <member refid="classmrmeshpy_1_1ICP_1aa17b6110c040aef16e368f932091bd56" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>setCosineLimit</name></member>
       <member refid="classmrmeshpy_1_1ICP_1a2b76e72a0c01645742ffa8b30aabe825" prot="public" virt="non-virtual"><scope>mrmeshpy::ICP</scope><name>setDistanceLimit</name></member>

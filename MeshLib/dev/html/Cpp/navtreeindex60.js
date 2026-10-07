@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1LinesLoad.html":[9,0,1,0,1,18],
 "namespaceMR_1_1LinesLoad.html#a6c5aaedb0fddecc05327761329a8d9f1":[9,0,1,0,1,18,12],
 "namespaceMR_1_1LinesLoad.html#a7dcf879b73b8a97e9f65c04228e953e6":[9,0,1,0,1,18,11],
 "namespaceMR_1_1LinesLoad.html#a8ba03f82b986b90262ac83290496a441":[9,0,1,0,1,18,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4":[9,0,1,0,1,51,0],
 "namespaceMR_1_1VoxelsLoad.html":[9,0,0,20,34],
 "namespaceMR_1_1VoxelsSave.html":[9,0,0,2,17,0],
-"namespaceMR_1_1VoxelsSave.html":[9,0,0,20,35],
-"namespaceMR_1_1VoxelsSave.html#a0f33f9e03ac1292f300799e260c153be":[9,0,1,0,1,53,4]
+"namespaceMR_1_1VoxelsSave.html":[9,0,0,20,35]
 };

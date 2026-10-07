@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"MRMeshTriPoint_8h.html#a7f19a4c391678ec76b8b82df654c7ca7":[9,2,2,0,0,0,0,1,214,44],
 "MRMeshTriPoint_8h.html#a8969085e52650ac9d43f5ab34d5b5f86":[9,2,2,0,0,0,0,1,214,93],
 "MRMeshTriPoint_8h.html#a8ae540e0ee942034d91e223e811d7735":[9,2,2,0,0,0,0,1,214,95],
 "MRMeshTriPoint_8h.html#a8b365cb3f736888f04fc187787b6f10e":[9,2,2,0,0,0,0,1,214,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "MRMesh_8h.html#af009576c976ffe50aab40f3ce29fab06":[9,2,2,0,0,0,0,1,165,118],
 "MRMesh_8h.html#af251443cb28544a8c153d5c2f9206abf":[9,2,2,0,0,0,0,1,165,94],
 "MRMesh_8h.html#af39d3bbf2a2c996161013a6516e5434b":[9,2,2,0,0,0,0,1,165,12],
-"MRMesh_8h.html#af42d73f1fe471f60db1f37ab8abfd6b5":[9,2,2,0,0,0,0,1,165,110],
-"MRMesh_8h.html#af6e3e5aa2040a1e5dd7e1fbd9fdd8369":[9,2,2,0,0,0,0,1,165,101]
+"MRMesh_8h.html#af42d73f1fe471f60db1f37ab8abfd6b5":[9,2,2,0,0,0,0,1,165,110]
 };

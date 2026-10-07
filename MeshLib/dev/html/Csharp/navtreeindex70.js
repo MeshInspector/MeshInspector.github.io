@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1Const__PixelBitSet.html#a05e94795f4b03b7c76e8581b46585122":[9,3,0,0,0,724,43],
 "classMR_1_1Const__PixelBitSet.html#a0aa4781c8aae2cba0b9bb7a799741ef5":[9,3,0,0,0,724,44],
 "classMR_1_1Const__PixelBitSet.html#a0b32597f7bed0a60f038b88e33c163c8":[9,3,0,0,0,724,30],
 "classMR_1_1Const__PixelBitSet.html#a13cb6d17452ac9f60bbb6af70cc92c2e":[9,3,0,0,0,724,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "classMR_1_1Const__PointAndDistance.html#acac2df9a30cba00f6f4ef1c43579bedb":[9,3,0,0,0,731,9],
 "classMR_1_1Const__PointCloud.html":[9,3,0,0,0,732],
 "classMR_1_1Const__PointCloud.html#a156c2c92a9e0677f05fa88f4c5178095":[9,3,0,0,0,732,1],
-"classMR_1_1Const__PointCloud.html#a1f5c42178cd4c63944197c759dd01759":[9,3,0,0,0,732,13],
-"classMR_1_1Const__PointCloud.html#a2ed45108a2b34dc41abfd2b4a891e0fd":[9,3,0,0,0,732,12]
+"classMR_1_1Const__PointCloud.html#a1f5c42178cd4c63944197c759dd01759":[9,3,0,0,0,732,13]
 };

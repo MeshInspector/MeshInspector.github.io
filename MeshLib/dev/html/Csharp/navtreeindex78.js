@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"classMR_1_1Const__SegmentSegmentIntersectResult.html#a3b99a52b4fdac9ab16b306224ada89e2":[9,3,0,0,0,818,8],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html#a4377e19204daf399556e312501048d5c":[9,3,0,0,0,818,0],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html#a4a273c4f0c14b2b17e7ee40791ac4d8e":[9,3,0,0,0,818,7],
 "classMR_1_1Const__SegmentSegmentIntersectResult.html#a4ade552edb1750bc3ea8b44d01d001b8":[9,3,0,0,0,818,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a2942ebb31ce6e1129ed8560b004da31a":[9,3,0,0,0,833,16],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a2cf8139b4ab8b96238dc8029ac2ea2a6":[9,3,0,0,0,833,6],
 "classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a2d365234b3e04e88c568ccf52796cace":[9,3,0,0,0,833,3],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a4c5ee8c56c3e92e87f9e4ba5a244a875":[9,3,0,0,0,833,24],
-"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a4c62f6b3cfdb3353f72290cfcf9a3664":[9,3,0,0,0,833,9]
+"classMR_1_1Const__SharpenMarchingCubesMeshSettings.html#a4c5ee8c56c3e92e87f9e4ba5a244a875":[9,3,0,0,0,833,24]
 };

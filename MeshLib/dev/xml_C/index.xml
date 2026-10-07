@@ -10962,10 +10962,10 @@
     <member refid="MRICP_8h_1a6ebd9e5205131737a84f24ee596fcc06" kind="function"><name>MR_ICP_setBadIterCount</name></member>
     <member refid="MRICP_8h_1a1d08b471a979e75a73c58933d504f7dc" kind="function"><name>MR_ICP_setFarDistFactor</name></member>
     <member refid="MRICP_8h_1a6d4f4b4d994885021d0ccdfe24c4ab37" kind="function"><name>MR_ICP_setFltSamples</name></member>
-    <member refid="MRICP_8h_1ac09a0f74c012d2c4dfedda53f00fa66a" kind="function"><name>MR_ICP_sampleFltPoints</name></member>
+    <member refid="MRICP_8h_1a285732e37940b9ef1de14e6c15a8d0b4" kind="function"><name>MR_ICP_sampleFltPoints</name></member>
     <member refid="MRICP_8h_1abbe3512870d71f2b3bde5f42c69094c0" kind="function"><name>MR_ICP_setRefSamples</name></member>
-    <member refid="MRICP_8h_1a6c4ed7e0e80b59acf32299a2f9e3973c" kind="function"><name>MR_ICP_sampleRefPoints</name></member>
-    <member refid="MRICP_8h_1a8bc89a966b488e24d75a50a8fe6d8c68" kind="function"><name>MR_ICP_samplePoints</name></member>
+    <member refid="MRICP_8h_1a3a61f1e37f8ec757fdf337d97adaaaa8" kind="function"><name>MR_ICP_sampleRefPoints</name></member>
+    <member refid="MRICP_8h_1a74877c1998b731f5d0783b5820411552" kind="function"><name>MR_ICP_samplePoints</name></member>
     <member refid="MRICP_8h_1a1550aafce0bb3a07124e371d5c007dfc" kind="function"><name>MR_ICP_setXfs</name></member>
     <member refid="MRICP_8h_1a73390d368304460abfe63430198d6c77" kind="function"><name>MR_ICP_setFloatXf</name></member>
     <member refid="MRICP_8h_1aedfe9d8592140d33340502ea7a446f15" kind="function"><name>MR_ICP_autoSelectFloatXf</name></member>
@@ -16275,6 +16275,7 @@
   <compound refid="MRMeshToPointCloud_8h" kind="file"><name>MRMeshToPointCloud.h</name>
     <member refid="MRMeshToPointCloud_8h_1aa27de8d8b93ea473dd03c1f7a453f502" kind="function"><name>MR_meshToPointCloud</name></member>
     <member refid="MRMeshToPointCloud_8h_1ae63c479177201e03c445da1ab33f6ee8" kind="function"><name>MR_meshToDensePointCloud</name></member>
+    <member refid="MRMeshToPointCloud_8h_1a1a92549d4dd94c29b30e9a537a4ff245" kind="function"><name>MR_isCoveredByVertices</name></member>
   </compound>
   <compound refid="MRMeshTopology_8h" kind="file"><name>MRMeshTopology.h</name>
     <member refid="MRMeshTopology_8h_1ad437c87b0085a9b068d0f17444d2ec37" kind="typedef"><name>MR_Vector_MR_EdgeId_MR_FaceId</name></member>

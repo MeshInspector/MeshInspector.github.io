@@ -133,6 +133,29 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshToPointCloud.h" line="36" column="12" declfile="MRMesh/MRMeshToPointCloud.h" declline="36" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="group__MeshAlgorithmGroup_1ga7999ef1bb11a163c7d4d19232694b037" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isCoveredByVertices</definition>
+        <argsstring>(const MeshPart &amp;mp, float radius)</argsstring>
+        <name>isCoveredByVertices</name>
+        <qualifiedname>MR::isCoveredByVertices</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if every point of the mesh part is within the radius from one of the vertices of its triangle, which is exactly when meshToDensePointCloud( mp, radius ) returns the vertices of the mesh and no other samples </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="45" column="8" declfile="MRMesh/MRMeshToPointCloud.h" declline="45" declcolumn="8"/>
+      </memberdef>
       <memberdef kind="function" id="group__MeshAlgorithmGroup_1gab7d2c48bfaa0dc31cdbf3e73901a79b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::shrinkwrap</definition>

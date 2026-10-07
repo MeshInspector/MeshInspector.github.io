@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId.html#a4a476e1b69d39f2f3011c46200a5bebd":[9,3,0,0,0,573,8],
 "classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId.html#a504e1fef2581b136fdee76226949a44e":[9,3,0,0,0,573,0],
 "classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId.html#a606d694650fe3597124723d763fb1132":[9,3,0,0,0,573,7],
 "classMR_1_1Const__MapOrHashMap__MRVertId__MRVertId.html#a7a97cbafc42cc304f620797455042ddd":[9,3,0,0,0,573,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "classMR_1_1Const__MeasurementObject.html#af61d288aa049e36584d1fbf0c7efb449":[9,3,0,0,0,581,13],
 "classMR_1_1Const__MeasurementObject.html#af7856cf0278d4a440d95e4520a38a032":[9,3,0,0,0,581,66],
 "classMR_1_1Const__MeasurementObject.html#afe595e5c6ca78f12700ac625ba1fe7de":[9,3,0,0,0,581,70],
-"classMR_1_1Const__MergeVolumePartSettings.html":[9,3,0,0,0,582],
-"classMR_1_1Const__MergeVolumePartSettings.html#a016d97a6e50d12c3596bb9ab53ba4122":[9,3,0,0,0,582,3]
+"classMR_1_1Const__MergeVolumePartSettings.html":[9,3,0,0,0,582]
 };

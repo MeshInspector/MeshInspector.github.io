@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Const__ViewportMask.html#ad57d7c5b54eb457e769cc1c84d7365af":[9,3,0,0,0,1011,12],
 "classMR_1_1Const__ViewportProperty__MRAffineXf3f.html":[9,3,0,0,0,1012],
 "classMR_1_1Const__ViewportProperty__MRAffineXf3f.html#a1ab2112c4382ebf7706a556c81f54a99":[9,3,0,0,0,1012,3],
 "classMR_1_1Const__ViewportProperty__MRAffineXf3f.html#a1ae8b39ffb13d8543b21ff0e6429c0d0":[9,3,0,0,0,1012,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Const__VoxelBitSet.html#a771f8d961d8c603f0a2ad8e155b2a909":[9,3,0,0,0,1023,37],
 "classMR_1_1Const__VoxelBitSet.html#a7990fa54eb68a014ab2f2859f18237c9":[9,3,0,0,0,1023,8],
 "classMR_1_1Const__VoxelBitSet.html#a7b23807a440ef0e2fb6d182ca1c9156d":[9,3,0,0,0,1023,5],
-"classMR_1_1Const__VoxelBitSet.html#a7d6f9f29625ba64c714fe4539f3d7cf1":[9,3,0,0,0,1023,4],
-"classMR_1_1Const__VoxelBitSet.html#a80e3b054b008604ab08c8102f96aa43c":[9,3,0,0,0,1023,19]
+"classMR_1_1Const__VoxelBitSet.html#a7d6f9f29625ba64c714fe4539f3d7cf1":[9,3,0,0,0,1023,4]
 };

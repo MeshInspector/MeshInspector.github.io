@@ -1,5 +1,6 @@
 var MRMeshToPointCloud_8h =
 [
+    [ "MR::isCoveredByVertices", "group__MeshAlgorithmGroup.html#ga7999ef1bb11a163c7d4d19232694b037", null ],
     [ "MR::meshToDensePointCloud", "group__GeneralGroup.html#ga01293c6701985304e21781a54a8df3e9", null ],
     [ "MR::meshToDensePointCloud", "group__MeshAlgorithmGroup.html#ga1b34cefe32e8fd4e623da084831b0846", null ],
     [ "MR::meshToPointCloud", "group__GeneralGroup.html#ga56073a4519234b94321564d8c638bf05", null ],

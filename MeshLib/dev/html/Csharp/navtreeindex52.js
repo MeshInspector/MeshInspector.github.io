@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1Const__InSphereTester__Int.html#acace13207df1e37c002a2078d14eb2b8":[9,3,0,0,0,517,4],
 "classMR_1_1Const__InTreePathBuilder.html":[9,3,0,0,0,524],
 "classMR_1_1Const__InTreePathBuilder.html#a0f2d1d804772cbbc6eddceecdb14b979":[9,3,0,0,0,524,0],
 "classMR_1_1Const__InTreePathBuilder.html#a3625ee14f983b2eb26402ac4d20b52d5":[9,3,0,0,0,524,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Const__Laplacian.html#ae473d467899b8addb65792993e5819c4":[9,3,0,0,0,545,2],
 "classMR_1_1Const__Laplacian_1_1Attractor.html":[9,3,0,0,0,545,0],
 "classMR_1_1Const__Laplacian_1_1Attractor.html#a07f46a138d7eec3feeb2fd03d7922813":[9,3,0,0,0,545,0,6],
-"classMR_1_1Const__Laplacian_1_1Attractor.html#a20a5a02e5ccf9f5776aec482c1cf5308":[9,3,0,0,0,545,0,0],
-"classMR_1_1Const__Laplacian_1_1Attractor.html#a6da39ef29defcf63581aaad3c2ed33a3":[9,3,0,0,0,545,0,5]
+"classMR_1_1Const__Laplacian_1_1Attractor.html#a20a5a02e5ccf9f5776aec482c1cf5308":[9,3,0,0,0,545,0,0]
 };

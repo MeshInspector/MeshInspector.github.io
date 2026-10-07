@@ -2786,6 +2786,7 @@ var namespaceMR =
     [ "isClosed", "group__GeneralGroup.html#ga5f51d4370aebd823bf1ff7e534b0b426", null ],
     [ "isClosed", "group__GeneralGroup.html#gacd259cc34db34b6aee3060c1baf8822d", null ],
     [ "isConsistentlyOriented", "group__GeneralGroup.html#gad593983d3666838a510cad90f2fcda9f", null ],
+    [ "isCoveredByVertices", "group__MeshAlgorithmGroup.html#ga7999ef1bb11a163c7d4d19232694b037", null ],
     [ "isDegree3Dest", "group__MeshFixerGroup.html#ga7ed9b863f3586261b7732c0dba013eae", null ],
     [ "isEdgeBetweenDoubleTris", "group__MeshFixerGroup.html#ga754a74fa515375b32aee32394abe05f6", null ],
     [ "isEdgeLoop", "group__SurfacePathGroup.html#gac69eac289f7c94aff94e7e9db7ed8a62", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"classMR_1_1Const__VertBitSet.html#aff2d3fc60fc6f0c222d253e780d8b1b9":[9,3,0,0,0,997,45],
 "classMR_1_1Const__VertColorMapAggregator.html":[9,3,0,0,0,999],
 "classMR_1_1Const__VertColorMapAggregator.html#a0b84579a8142e260c62650ace24839cf":[9,3,0,0,0,999,0],
 "classMR_1_1Const__VertColorMapAggregator.html#a0ff6d37c9a99fc86f8959d5a28c2a2b1":[9,3,0,0,0,999,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "classMR_1_1Const__ViewportMask.html#ac5aaae3f1ea1cc67aae6645d70c117d3":[9,3,0,0,0,1011,18],
 "classMR_1_1Const__ViewportMask.html#ac85755db46ca2ac08b580a2c1f6d4054":[9,3,0,0,0,1011,8],
 "classMR_1_1Const__ViewportMask.html#ad04a867277d97a3de2fdda475df07b92":[9,3,0,0,0,1011,22],
-"classMR_1_1Const__ViewportMask.html#ad2870bddb4eb8c3a8dfe3ab8f65ac8a7":[9,3,0,0,0,1011,16],
-"classMR_1_1Const__ViewportMask.html#ad57d7c5b54eb457e769cc1c84d7365af":[9,3,0,0,0,1011,12]
+"classMR_1_1Const__ViewportMask.html#ad2870bddb4eb8c3a8dfe3ab8f65ac8a7":[9,3,0,0,0,1011,16]
 };

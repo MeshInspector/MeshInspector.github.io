@@ -4223,6 +4223,8 @@
     <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" kind="variable"><name>prop_</name></member>
     <member refid="group__GeneralGroup_1gac9ea5c5be89d6d0ac867a3c800b3d576" kind="variable"><name>flt2refPairs_</name></member>
     <member refid="group__GeneralGroup_1gaba64c8a5a357b2f567a3318251ca1efc" kind="variable"><name>ref2fltPairs_</name></member>
+    <member refid="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" kind="variable"><name>fltSamplesCloud_</name></member>
+    <member refid="group__GeneralGroup_1ga2ddb4bf28f18ebfa84539617a8f16e83" kind="variable"><name>refSamplesCloud_</name></member>
     <member refid="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" kind="variable"><name>resultType_</name></member>
     <member refid="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" kind="variable"><name>iter_</name></member>
     <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
@@ -4237,10 +4239,10 @@
     <member refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" kind="function"><name>setBadIterCount</name></member>
     <member refid="group__GeneralGroup_1ga6fcc01ef678556ea9ba8a4afdb839374" kind="function"><name>setFarDistFactor</name></member>
     <member refid="group__GeneralGroup_1gaa6195ab12431f72e5d49e783f2411c81" kind="function"><name>setFltSamples</name></member>
-    <member refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" kind="function"><name>sampleFltPoints</name></member>
+    <member refid="group__GeneralGroup_1gab34beaf329dc6198fe7d028dd9ddccbe" kind="function"><name>sampleFltPoints</name></member>
     <member refid="group__GeneralGroup_1ga033946f0665c58cf3f65b7bdd9732679" kind="function"><name>setRefSamples</name></member>
-    <member refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" kind="function"><name>sampleRefPoints</name></member>
-    <member refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" kind="function"><name>samplePoints</name></member>
+    <member refid="group__GeneralGroup_1gafc0b8391f6d7cff0770e87055906cf2c" kind="function"><name>sampleRefPoints</name></member>
+    <member refid="group__GeneralGroup_1ga64b2b6e88452dd7ef588e0f2533beeee" kind="function"><name>samplePoints</name></member>
     <member refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" kind="function"><name>recomputeBitSet</name></member>
     <member refid="group__GeneralGroup_1gac6e52fe345c88a831ba23619cd352e47" kind="function"><name>setXfs</name></member>
     <member refid="group__GeneralGroup_1ga5202fb23e45467915bb51d0923b9caaf" kind="function"><name>setFloatXf</name></member>
@@ -15577,6 +15579,7 @@
     <member refid="group__GeneralGroup_1ga56073a4519234b94321564d8c638bf05" kind="function"><name>meshToPointCloud</name></member>
     <member refid="group__MeshAlgorithmGroup_1ga1b34cefe32e8fd4e623da084831b0846" kind="function"><name>meshToDensePointCloud</name></member>
     <member refid="group__GeneralGroup_1ga01293c6701985304e21781a54a8df3e9" kind="function"><name>meshToDensePointCloud</name></member>
+    <member refid="group__MeshAlgorithmGroup_1ga7999ef1bb11a163c7d4d19232694b037" kind="function"><name>isCoveredByVertices</name></member>
     <member refid="group__GeneralGroup_1gaaf3190c056e93a1b63f3643cef77443d" kind="function"><name>rearrangeVectorByMap</name></member>
     <member refid="group__GeneralGroup_1ga19250559074367ec9c94fb269e4edbf0" kind="function"><name>reduceTotalAngle</name></member>
     <member refid="group__GeneralGroup_1ga3fe97c1cb025727b2b2ee3ac20eccbcd" kind="function"><name>reduceTotalAngleInMesh</name></member>
@@ -19657,6 +19660,7 @@
     <member refid="group__MeshAlgorithmGroup_1ga85f120484f51a420267e45c05af90e90" kind="function"><name>straightenBoundary</name></member>
     <member refid="group__MeshAlgorithmGroup_1ga2d7563f4b05501158a133d1e52731cc0" kind="function"><name>meshToPointCloud</name></member>
     <member refid="group__MeshAlgorithmGroup_1ga1b34cefe32e8fd4e623da084831b0846" kind="function"><name>meshToDensePointCloud</name></member>
+    <member refid="group__MeshAlgorithmGroup_1ga7999ef1bb11a163c7d4d19232694b037" kind="function"><name>isCoveredByVertices</name></member>
     <member refid="group__MeshAlgorithmGroup_1gab7d2c48bfaa0dc31cdbf3e73901a79b4" kind="function"><name>shrinkwrap</name></member>
     <member refid="group__MeshAlgorithmGroup_1ga27ff4ac0c2344695698b194570ece13c" kind="function"><name>findShrinkwrapPositions</name></member>
   </compound>
@@ -22754,6 +22758,8 @@
     <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" kind="variable"><name>prop_</name></member>
     <member refid="group__GeneralGroup_1gac9ea5c5be89d6d0ac867a3c800b3d576" kind="variable"><name>flt2refPairs_</name></member>
     <member refid="group__GeneralGroup_1gaba64c8a5a357b2f567a3318251ca1efc" kind="variable"><name>ref2fltPairs_</name></member>
+    <member refid="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" kind="variable"><name>fltSamplesCloud_</name></member>
+    <member refid="group__GeneralGroup_1ga2ddb4bf28f18ebfa84539617a8f16e83" kind="variable"><name>refSamplesCloud_</name></member>
     <member refid="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" kind="variable"><name>resultType_</name></member>
     <member refid="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" kind="variable"><name>iter_</name></member>
     <member refid="group__GeneralGroup_1gab442087e0c922ef9c3246e9c1bd35bec" kind="variable"><name>id_</name></member>
@@ -26966,10 +26972,10 @@
     <member refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" kind="function"><name>setBadIterCount</name></member>
     <member refid="group__GeneralGroup_1ga6fcc01ef678556ea9ba8a4afdb839374" kind="function"><name>setFarDistFactor</name></member>
     <member refid="group__GeneralGroup_1gaa6195ab12431f72e5d49e783f2411c81" kind="function"><name>setFltSamples</name></member>
-    <member refid="group__GeneralGroup_1ga7f572bc2fdfab2f29e537e947494d549" kind="function"><name>sampleFltPoints</name></member>
+    <member refid="group__GeneralGroup_1gab34beaf329dc6198fe7d028dd9ddccbe" kind="function"><name>sampleFltPoints</name></member>
     <member refid="group__GeneralGroup_1ga033946f0665c58cf3f65b7bdd9732679" kind="function"><name>setRefSamples</name></member>
-    <member refid="group__GeneralGroup_1gae55a8bd90c0c0c8c817a58f4d10bdc97" kind="function"><name>sampleRefPoints</name></member>
-    <member refid="group__GeneralGroup_1ga56cde0df43df6f53274400daea013890" kind="function"><name>samplePoints</name></member>
+    <member refid="group__GeneralGroup_1gafc0b8391f6d7cff0770e87055906cf2c" kind="function"><name>sampleRefPoints</name></member>
+    <member refid="group__GeneralGroup_1ga64b2b6e88452dd7ef588e0f2533beeee" kind="function"><name>samplePoints</name></member>
     <member refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" kind="function"><name>recomputeBitSet</name></member>
     <member refid="group__GeneralGroup_1gac6e52fe345c88a831ba23619cd352e47" kind="function"><name>setXfs</name></member>
     <member refid="group__GeneralGroup_1ga5202fb23e45467915bb51d0923b9caaf" kind="function"><name>setFloatXf</name></member>

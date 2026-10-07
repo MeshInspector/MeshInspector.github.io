@@ -137,6 +137,7 @@ $(function(){initNavTree('MRMeshToPointCloud_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRMeshToPointCloud_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -144,8 +145,31 @@ $(function(){initNavTree('MRMeshToPointCloud_8h.html','',''); });
 Functions</h2></td></tr>
 <tr class="memitem:aa27de8d8b93ea473dd03c1f7a453f502" id="r_aa27de8d8b93ea473dd03c1f7a453f502"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa27de8d8b93ea473dd03c1f7a453f502">MR_meshToPointCloud</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREnums_8h.html#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a> *normals, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
 <tr class="memitem:ae63c479177201e03c445da1ab33f6ee8" id="r_ae63c479177201e03c445da1ab33f6ee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a9dbbf904c32d71d8c8ec8da2165b4a12">MR_expected_MR_PointCloud_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae63c479177201e03c445da1ab33f6ee8">MR_meshToDensePointCloud</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float radius, const <a class="el" href="MREnums_8h.html#ad44368a5d6b9a542fb312941ff39676f">MR_VertNormalsMode</a> *normals, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a1a92549d4dd94c29b30e9a537a4ff245" id="r_a1a92549d4dd94c29b30e9a537a4ff245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a92549d4dd94c29b30e9a537a4ff245">MR_isCoveredByVertices</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float radius)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a1a92549d4dd94c29b30e9a537a4ff245" name="a1a92549d4dd94c29b30e9a537a4ff245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a92549d4dd94c29b30e9a537a4ff245">&#9670;&#160;</a></span>MR_isCoveredByVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isCoveredByVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if every point of the mesh part is within the radius from one of the vertices of its triangle, which is exactly when meshToDensePointCloud( mp, radius ) returns the vertices of the mesh and no other samples Generated from function <span class="tt">MR::isCoveredByVertices</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="ae63c479177201e03c445da1ab33f6ee8" name="ae63c479177201e03c445da1ab33f6ee8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae63c479177201e03c445da1ab33f6ee8">&#9670;&#160;</a></span>MR_meshToDensePointCloud()</h2>
 
