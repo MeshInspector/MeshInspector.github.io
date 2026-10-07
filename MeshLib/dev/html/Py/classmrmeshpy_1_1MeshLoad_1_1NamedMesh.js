@@ -7,6 +7,8 @@ var classmrmeshpy_1_1MeshLoad_1_1NamedMesh =
     [ "duplicatedVertexCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#afb45757ac9dace916e99706aa8cf5c1b", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#ae9aca214dd6221616c1a92ed29dc84ea", null ],
     [ "skippedFaceCount", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#aaf0a4abce9cabb08bab45bb745d27f1f", null ],
+    [ "textureFiles", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a77b73d06ebe23d30fa1f2c76e05cb156", null ],
+    [ "textureFiles", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#aab6bb10a94d1e5950c4cd24c2951ca24", null ],
     [ "xf", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a13ecc50b77895b387b011d2b76e7ac7a", null ],
     [ "xf", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html#a6bee57bc7e7887b27f48ed9f2d84184e", null ]
 ];

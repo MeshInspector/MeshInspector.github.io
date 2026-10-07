@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1VoxelsSave.html":[9,0,0,20,35],
 "namespaceMR_1_1VoxelsSave.html#a0f33f9e03ac1292f300799e260c153be":[9,0,1,0,1,53,4],
 "namespaceMR_1_1VoxelsSave.html#a25d9cd02652bc821741b80b0ddf5469e":[9,0,1,0,1,53,21],
 "namespaceMR_1_1VoxelsSave.html#a2df418f8471fab1ef437524c6b07333a":[9,0,1,0,1,53,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[9,0,1,0,1,99,1],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[9,0,2,0,2,81,1],
 "structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[9,0,1,0,1,99,3],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[9,0,2,0,2,81,3],
-"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[9,0,1,0,1,99,4]
+"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[9,0,2,0,2,81,3]
 };

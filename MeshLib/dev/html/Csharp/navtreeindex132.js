@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1SliceInfoBase.html#ae118a1cc82fc59d928616819c655a94e":[9,3,0,0,0,1651,1],
+"classMR_1_1SliceInfoBase.html#ae9dcdaa280dc5cc300c30b9cc1298695":[9,3,0,0,0,1651,3],
+"classMR_1_1SmoothCameraMeshDepthSettings.html":[9,3,0,0,0,1652],
 "classMR_1_1SmoothCameraMeshDepthSettings.html#a3781e3e97d5a268d1d17aa0ed47383c5":[9,3,0,0,0,1652,0],
 "classMR_1_1SmoothCameraMeshDepthSettings.html#a380549e4a7de7c8c59e139e81321f13e":[9,3,0,0,0,1652,2],
 "classMR_1_1SmoothCameraMeshDepthSettings.html#a3d71f3be77a6c29356290f48784bb533":[9,3,0,0,0,1652,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a266fc1d21f83a6c7ef2199d7176bb457":[9,3,0,0,0,1665,4,12],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a434b9bb73d081044f7a54fee50e0a01e":[9,3,0,0,0,1665,4,13],
 "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a4f256b7cb1f1bc5d5c8ef87401983857":[9,3,0,0,0,1665,4,9],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a5b8cd8f82aab079560a9e40ed8572dc9":[9,3,0,0,0,1665,4,7],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a5c62d6749d54eecc3a272385003e47c4":[9,3,0,0,0,1665,4,5],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a65fe2972fdfb89e3eb051b7bcd0e2ce9":[9,3,0,0,0,1665,4,1],
-"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a6b3159d41df396dc66e419f0e3be0b12":[9,3,0,0,0,1665,4,6]
+"classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html#a5b8cd8f82aab079560a9e40ed8572dc9":[9,3,0,0,0,1665,4,7]
 };

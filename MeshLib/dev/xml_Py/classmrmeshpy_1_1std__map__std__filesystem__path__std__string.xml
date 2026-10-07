@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_map_std_filesystem_path_std_string</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac3fcda256953efac00235be395343b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_map_std_filesystem_path_std_string.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the map is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67338" bodyend="67341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a2e9bb1614cbe56ff3b94f8b8a07cd012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_map_std_filesystem_path_std_string.__contains__</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67343" bodyend="67344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a923f2aec814d1d567f4de054fcd92d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_map_std_filesystem_path_std_string.__contains__</definition>
+        <argsstring>(self, typing.Any arg0)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67346" bodyend="67347"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a878799e19231a373cad476cbd24d158e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_map_std_filesystem_path_std_string.__delitem__</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67348" bodyend="67349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a94bb2b1c4f645dfe25194af11d35a000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_map_std_filesystem_path_std_string.__getitem__</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67350" bodyend="67351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1aa78a48f4da01c775678b74c8bf8421ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_map_std_filesystem_path_std_string.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67353" bodyend="67354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a4aa20955e34a6419dd40d66315af8fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_map_std_filesystem_path_std_string.__init__</definition>
+        <argsstring>(self, std_map_std_filesystem_path_std_string arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string" kindref="compound">std_map_std_filesystem_path_std_string</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67356" bodyend="67357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac3ff2b9cd889544fca76bf1a519edb73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[pathlib.Path]</type>
+        <definition> typing.Iterator[pathlib.Path] mrmeshpy.std_map_std_filesystem_path_std_string.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67358" bodyend="67359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a2f7da4bae6881c655c2fa79e0e7f02c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_map_std_filesystem_path_std_string.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67360" bodyend="67361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ae171934e2895f6c859e148ab7f892705" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_map_std_filesystem_path_std_string.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67362" bodyend="67365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1aaedc64df003cca89e58e4efa0661d843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_map_std_filesystem_path_std_string.__setitem__</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg0, str arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67366" bodyend="67367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1af51a2a78af99dba883e326ac7454f8ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ItemsView</type>
+        <definition> typing.ItemsView mrmeshpy.std_map_std_filesystem_path_std_string.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67368" bodyend="67369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac97954df85948d37b9f28625fdcc8302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.KeysView</type>
+        <definition> typing.KeysView mrmeshpy.std_map_std_filesystem_path_std_string.keys</definition>
+        <argsstring>(self)</argsstring>
+        <name>keys</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.keys</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67370" bodyend="67371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a3221e2e4b7cdb9b8ad2b1689eb369646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_map_std_filesystem_path_std_string.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67372" bodyend="67373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1acd68b13f51885ebab8c4e2599dbab4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.ValuesView</type>
+        <definition> typing.ValuesView mrmeshpy.std_map_std_filesystem_path_std_string.values</definition>
+        <argsstring>(self)</argsstring>
+        <name>values</name>
+        <qualifiedname>mrmeshpy.std_map_std_filesystem_path_std_string.values</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67374" bodyend="67375"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67337" bodyend="67375"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac3fcda256953efac00235be395343b15" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a2e9bb1614cbe56ff3b94f8b8a07cd012" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a923f2aec814d1d567f4de054fcd92d92" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a878799e19231a373cad476cbd24d158e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a94bb2b1c4f645dfe25194af11d35a000" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1aa78a48f4da01c775678b74c8bf8421ae" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a4aa20955e34a6419dd40d66315af8fd1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac3ff2b9cd889544fca76bf1a519edb73" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a2f7da4bae6881c655c2fa79e0e7f02c6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ae171934e2895f6c859e148ab7f892705" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1aaedc64df003cca89e58e4efa0661d843" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1af51a2a78af99dba883e326ac7454f8ca" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>items</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac97954df85948d37b9f28625fdcc8302" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>keys</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a3221e2e4b7cdb9b8ad2b1689eb369646" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1acd68b13f51885ebab8c4e2599dbab4ab" prot="public" virt="non-virtual"><scope>mrmeshpy::std_map_std_filesystem_path_std_string</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1SaveSettings.html#a68ee31992d19548930e73b7a6d4a1aaa":[9,1,0,0,2,834,28],
+"classmrmeshpy_1_1SaveSettings.html#a68ee31992d19548930e73b7a6d4a1aaa":[9,1,1,0,1,834,28],
+"classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54":[9,1,0,0,2,834,9],
+"classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54":[9,1,1,0,1,834,9],
+"classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b":[9,1,0,0,2,834,1],
+"classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b":[9,1,1,0,1,834,1],
+"classmrmeshpy_1_1SaveSettings.html#a7d567ca2364dc8ff64662fde01bbb43d":[9,1,0,0,2,834,21],
+"classmrmeshpy_1_1SaveSettings.html#a7d567ca2364dc8ff64662fde01bbb43d":[9,1,1,0,1,834,21],
 "classmrmeshpy_1_1SaveSettings.html#a81771cf4e4023c678647efcd50223e01":[9,1,0,0,2,834,26],
 "classmrmeshpy_1_1SaveSettings.html#a81771cf4e4023c678647efcd50223e01":[9,1,1,0,1,834,26],
 "classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd":[9,1,0,0,2,834,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a866692d0000f18ef81f8578923787e2c":[9,1,0,0,2,841,2,11],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a866692d0000f18ef81f8578923787e2c":[9,1,1,0,1,841,2,11],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[9,1,0,0,2,841,2,5],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[9,1,1,0,1,841,2,5],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,0,0,2,841,2,7],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,1,0,1,841,2,7],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,0,0,2,841,3],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,1,0,1,841,3],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,0,0,2,841,3,5],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,1,0,1,841,3,5],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a2e6f3f8c97d77d7079bb2633bfe3f6c0":[9,1,0,0,2,841,3,0],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a2e6f3f8c97d77d7079bb2633bfe3f6c0":[9,1,1,0,1,841,3,0]
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[9,1,1,0,1,841,2,5]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[9,0,1,0,1,99,4],
 "structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[9,0,2,0,2,81,4],
 "structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[9,0,1,0,1,99,7],
 "structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[9,0,2,0,2,81,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,0,0,16,4,0,6],
 "structMR_1_1DihedralAngleProcessParams.html":[9,0,0,20,206],
 "structMR_1_1Dipole.html":[9,0,0,20,196],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[9,0,0,20,593],
-"structMR_1_1Directory.html":[9,0,0,20,198]
+"structMR_1_1DirectionWidget_1_1Arrow.html":[9,0,0,20,593]
 };

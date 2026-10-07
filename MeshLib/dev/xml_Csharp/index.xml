@@ -25321,25 +25321,28 @@
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a659235530ff89791dec425099b7ddc07" kind="property"><name>countSkippedFaces</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aceebc3878f811a3f1cc03934ee86d2ce" kind="property"><name>callback</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1abf0c5742747bb054f6c8a2ec55205c7d" kind="property"><name>telemetrySignal</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1ab8aa5e1ddfb9cc486457e28229f5c5bf" kind="property"><name>mtlErrors</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a43d602f4f0c6050e09993f0b1d3cdb2d" kind="variable"><name>__ref_storage_customXf</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a365b6061e2804ec2440a5469f5e7095d" kind="variable"><name>__ref_storage_countSkippedFaces</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a6957eb393b2d41d634c7b5b80ed4f00c" kind="variable"><name>__ref_storage_telemetrySignal</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a54b8aa0b8ff44f5dbd928a8b3da7b41f" kind="variable"><name>__ptr_storage_mtlErrors</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a53e7fdf08da90474f620c2337d74b727" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1ad1dd91de873114494b6558a12e648f98" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a0acfbde27627acd348f9fc77a4d25350" kind="function"><name>Const_ObjLoadSettings</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aeb848408540e347fe2b5547855325528" kind="function"><name>Const_ObjLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aac327c5871d729f84d931d9835a5f51e" kind="function"><name>Const_ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a50c26f152029035dba77a46a20db5376" kind="function"><name>Const_ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1ac9b7969dee2c283b39f97a8d493dfc60" kind="function"><name>Const_ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aa09e4babbe95da31be8545c5a8a25210" kind="function"><name>Const_ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a55edeac10ef96bb42dc56b9e36819d19" kind="function"><name>~Const_ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a4f845c63dd13300f8073d822cf9c905a" kind="function"><name>Const_ObjLoadSettings</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1abe0e58855f29f29537d135e6c00516e9" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a042beee4e204fba5a6fa239cb55903dc" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a4c4c3aae018788b54c9ab3a4ee28aa99" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a11d25b9abc11c7ad9b14804df50cfa93" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1ac3e6ad6d19bce24cc2b2b6f2cfbcf39b" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_Destroy</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a7aa667396f01b0ff2ee1f33cd8cea78d" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_Get_callback</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a03b7a86e84471e2dbdc766be864a93a0" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_Get_countSkippedFaces</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a450c0609764d5922755defddbeae48e7" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_Get_customXf</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1aed7f215f0c3bf78ba6393744a3dfc102" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_Get_mtlErrors</name></member>
     <member refid="classMR_1_1MeshLoad_1_1Const__ObjLoadSettings_1a573461192c1e2c04b0d4878ff4a3d2cf" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_Get_telemetrySignal</name></member>
   </compound>
   <compound refid="classMR_1_1Const__ObjMap" kind="class"><name>MR::Const_ObjMap</name>
@@ -58408,15 +58411,16 @@
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a2f3c90fc1ac9cdf841dc2f0b033d728a" kind="property"><name>countSkippedFaces</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a440cfca2d3cf16590b2802d1e4b34713" kind="property"><name>callback</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a9ceee0aff4c7f5e0f43d35c5ed0cca63" kind="property"><name>telemetrySignal</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a981e20c46981797189fe29830e2b2adc" kind="property"><name>mtlErrors</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a140a31777d9800339bb996b516c98b15" kind="function"><name>ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1aacf4640ed66356a1e5d76800bb2f864d" kind="function"><name>ObjLoadSettings</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a7b9c5697c135e7b11554101cfdfe8d0d" kind="function"><name>ObjLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ac77412831478442172b987fdcbf88369" kind="function"><name>ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ac6a778556259a507d3df3ecc312b35f9" kind="function"><name>ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a17fff62a7d725b1f6cadcca9b301f883" kind="function"><name>ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1ae2f99913a41cb21c9adc81925cf98ea5" kind="function"><name>ObjLoadSettings</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a005338441b18696c7ca219c9fc855ace" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a1803934cb768cfbb246d49e68db0d8c2" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a69ead934c1597e79769cbb434d342ff9" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a81fad6fca240e15f26b6aa7b9cfe4d6d" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a75f9eaa72b21cc841bfdf268170f9fff" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a8a106cd71870ee597ce8360d3de5f833" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1MeshLoad_1_1ObjLoadSettings_1a32edf39b8afd35e86ad02e858a0c4f10" kind="function"><name>__MR_MeshLoad_ObjLoadSettings_GetMutable_callback</name></member>

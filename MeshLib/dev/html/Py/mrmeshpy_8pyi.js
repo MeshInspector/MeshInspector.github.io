@@ -1031,6 +1031,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.SystemPath.SystemFontType", "classmrmeshpy_1_1SystemPath_1_1SystemFontType.html", "classmrmeshpy_1_1SystemPath_1_1SystemFontType" ],
     [ "mrmeshpy.std_string_output", "classmrmeshpy_1_1std__string__output.html", "classmrmeshpy_1_1std__string__output" ],
     [ "mrmeshpy.std_greater_float", "classmrmeshpy_1_1std__greater__float.html", null ],
+    [ "mrmeshpy.std_map_std_filesystem_path_std_string", "classmrmeshpy_1_1std__map__std__filesystem__path__std__string.html", "classmrmeshpy_1_1std__map__std__filesystem__path__std__string" ],
     [ "mrmeshpy.std_monostate", "classmrmeshpy_1_1std__monostate.html", null ],
     [ "mrmeshpy.std_optional_Box_Vector3_float", "classmrmeshpy_1_1std__optional__Box__Vector3__float.html", "classmrmeshpy_1_1std__optional__Box__Vector3__float" ],
     [ "mrmeshpy.std_optional_Box_float", "classmrmeshpy_1_1std__optional__Box__float.html", "classmrmeshpy_1_1std__optional__Box__float" ],

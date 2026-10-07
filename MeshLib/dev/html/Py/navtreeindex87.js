@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,0,0,2,841,2,7],
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,1,0,1,841,2,7],
+"classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,0,0,2,841,3],
+"classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,1,0,1,841,3],
+"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,0,0,2,841,3,5],
+"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,1,0,1,841,3,5],
+"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a2e6f3f8c97d77d7079bb2633bfe3f6c0":[9,1,0,0,2,841,3,0],
+"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a2e6f3f8c97d77d7079bb2633bfe3f6c0":[9,1,1,0,1,841,3,0],
 "classmrmeshpy_1_1SceneSettings_1_1StringType.html#a39cf875c438dd0d2a6b1d8b8eaabeede":[9,1,0,0,2,841,3,3],
 "classmrmeshpy_1_1SceneSettings_1_1StringType.html#a39cf875c438dd0d2a6b1d8b8eaabeede":[9,1,1,0,1,841,3,3],
 "classmrmeshpy_1_1SceneSettings_1_1StringType.html#a3af2d776cbeba5960c0e4a02771f5f48":[9,1,0,0,2,841,3,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[9,1,0,0,2,850,8],
 "classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[9,1,1,0,1,850,8],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,0,0,2,849],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,1,0,1,849],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7":[9,1,0,0,2,849,6],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7":[9,1,1,0,1,849,6],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a2b5fbdca0b14f5275750244753139c32":[9,1,0,0,2,849,3],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a2b5fbdca0b14f5275750244753139c32":[9,1,1,0,1,849,3],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469":[9,1,0,0,2,849,7],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469":[9,1,1,0,1,849,7],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a427b35255292abbf04e4a45783607bc7":[9,1,0,0,2,849,15],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a427b35255292abbf04e4a45783607bc7":[9,1,1,0,1,849,15]
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,1,0,1,849]
 };

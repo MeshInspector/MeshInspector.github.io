@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Directory.html":[9,0,0,20,198],
 "structMR_1_1DirectoryIterator.html":[9,0,0,20,197],
 "structMR_1_1DirectoryRecursive.html":[9,0,0,20,200],
 "structMR_1_1DirectoryRecursiveIterator.html":[9,0,0,20,199],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[9,0,0,3,5,0],
 "structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0":[9,0,0,3,5,1],
 "structMR_1_1IdRange.html#aff5326f04115631dc2ec0096a162fc58":[9,0,0,3,5,2],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[9,0,1,0,1,15,1],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[9,0,2,0,2,6,1]
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[9,0,1,0,1,15,1]
 };

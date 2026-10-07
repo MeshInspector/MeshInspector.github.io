@@ -12713,6 +12713,8 @@
     <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1afb45757ac9dace916e99706aa8cf5c1b" kind="function"><name>duplicatedVertexCount</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ae9aca214dd6221616c1a92ed29dc84ea" kind="function"><name>skippedFaceCount</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1aaf0a4abce9cabb08bab45bb745d27f1f" kind="function"><name>skippedFaceCount</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a77b73d06ebe23d30fa1f2c76e05cb156" kind="function"><name>textureFiles</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1aab6bb10a94d1e5950c4cd24c2951ca24" kind="function"><name>textureFiles</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a13ecc50b77895b387b011d2b76e7ac7a" kind="function"><name>xf</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a6bee57bc7e7887b27f48ed9f2d84184e" kind="function"><name>xf</name></member>
   </compound>
@@ -14033,19 +14035,22 @@
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a85391965b0a92b9134a211d86a02692d" kind="variable"><name>_offsetof_callback</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a7ba8b75a3b0d808417e170dec7e79af4" kind="variable"><name>_offsetof_countSkippedFaces</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a03a2fc6dda2ac0f6d576fb20ccf4d7c8" kind="variable"><name>_offsetof_customXf</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a55c96c97622e66f8d616bf9b44d7e39f" kind="variable"><name>_offsetof_mtlErrors</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a2854435663b858a55f26aebe40a11044" kind="variable"><name>_offsetof_telemetrySignal</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a418230891fe4cf7224fb069caf18077c" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a96e59486d1f581ef6609f9b3a97a6c2d" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a96e59486d1f581ef6609f9b3a97a6c2d" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1ac2bc3511081c8cfbb2a59fdf50b28a1f" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1af06fb0140de4166a32e9cac2a1ca0e4d" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a93cfe99069a0f5cba0a59b5687553691" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a5d0cfa3afbeec51fd8061cb6f0e791ea" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1af91dd95e7e2c46001b45d94fcf24d6a1" kind="function"><name>callback</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1ad98007c28ef3bcf599ab7a8a480ce45e" kind="function"><name>callback</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a14829e4b2f59bf7b67cdd78daa9daebb" kind="function"><name>countSkippedFaces</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a72e05a8aa10f263089e0b656f3ba3252" kind="function"><name>countSkippedFaces</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1aa116b8560c51548f116c6f9c81c499aa" kind="function"><name>customXf</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a6d29646f1a73fb2a518cd7751b765384" kind="function"><name>customXf</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1ac7dd3b3b368f5a748a67add33a9f3d7b" kind="function"><name>mtlErrors</name></member>
+    <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a9a2e93e4e7d0a2f4ef0a27017d8cc72d" kind="function"><name>mtlErrors</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1acacd913e49bfff96c929abe004788d30" kind="function"><name>telemetrySignal</name></member>
     <member refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings_1a820f3eb40fd5bab377ec9cdc156e0021" kind="function"><name>telemetrySignal</name></member>
   </compound>
@@ -18638,6 +18643,23 @@
     <member refid="classmrmeshpy_1_1std__array__WeightedVertexT__float__3_1a468018d7d9a5315c26b46e534517da66" kind="function"><name>__setitem__</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1std__greater__float" kind="class"><name>mrmeshpy::std_greater_float</name>
+  </compound>
+  <compound refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string" kind="class"><name>mrmeshpy::std_map_std_filesystem_path_std_string</name>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac3fcda256953efac00235be395343b15" kind="function"><name>__bool__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a2e9bb1614cbe56ff3b94f8b8a07cd012" kind="function"><name>__contains__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a923f2aec814d1d567f4de054fcd92d92" kind="function"><name>__contains__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a878799e19231a373cad476cbd24d158e" kind="function"><name>__delitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a94bb2b1c4f645dfe25194af11d35a000" kind="function"><name>__getitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1aa78a48f4da01c775678b74c8bf8421ae" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a4aa20955e34a6419dd40d66315af8fd1" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac3ff2b9cd889544fca76bf1a519edb73" kind="function"><name>__iter__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a2f7da4bae6881c655c2fa79e0e7f02c6" kind="function"><name>__len__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ae171934e2895f6c859e148ab7f892705" kind="function"><name>__repr__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1aaedc64df003cca89e58e4efa0661d843" kind="function"><name>__setitem__</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1af51a2a78af99dba883e326ac7454f8ca" kind="function"><name>items</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1ac97954df85948d37b9f28625fdcc8302" kind="function"><name>keys</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1a3221e2e4b7cdb9b8ad2b1689eb369646" kind="function"><name>size</name></member>
+    <member refid="classmrmeshpy_1_1std__map__std__filesystem__path__std__string_1acd68b13f51885ebab8c4e2599dbab4ab" kind="function"><name>values</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1std__monostate" kind="class"><name>mrmeshpy::std_monostate</name>
   </compound>
