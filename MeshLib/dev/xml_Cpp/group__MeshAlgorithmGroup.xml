@@ -123,7 +123,7 @@
 <parametername>normals</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>unless No, the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles </para>
+<para>unless No, the normals of the cloud are set as well: AreaWeighted - the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles; AngleWeighted - <ref refid="structMR_1_1Mesh_1a0362095ba2aeef52de9f42ffa78756a0" kindref="member">Mesh::pseudonormal</ref> in every point: of the vertex, of the edge on an edge, of the triangle inside it </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshToPointCloud.h" line="35" column="12" declfile="MRMesh/MRMeshToPointCloud.h" declline="35" declcolumn="12"/>
+        <location file="MRMesh/MRMeshToPointCloud.h" line="36" column="12" declfile="MRMesh/MRMeshToPointCloud.h" declline="36" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshAlgorithmGroup_1gab7d2c48bfaa0dc31cdbf3e73901a79b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>

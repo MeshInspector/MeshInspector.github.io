@@ -27659,7 +27659,7 @@ do not really keeps volume but tries hard </para>
 <parametername>normals</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>unless No, the normals of the cloud are set as well: the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles Generated from function <computeroutput><ref refid="classMR_1abdc8d4ca3a7e5c78239da53c680fcec4" kindref="member">MR.meshToDensePointCloud</ref></computeroutput>. Parameter <computeroutput>normals</computeroutput> defaults to <computeroutput><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" kindref="member">MR.VertNormalsMode.AreaWeighted</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>unless No, the normals of the cloud are set as well: AreaWeighted - the normals of the mesh vertices, and their interpolation in the samples on the edges and inside the triangles; AngleWeighted - <ref refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" kindref="member">Mesh.pseudonormal</ref> in every point: of the vertex, of the edge on an edge, of the triangle inside it Generated from function <computeroutput><ref refid="classMR_1abdc8d4ca3a7e5c78239da53c680fcec4" kindref="member">MR.meshToDensePointCloud</ref></computeroutput>. Parameter <computeroutput>normals</computeroutput> defaults to <computeroutput><ref refid="classMR_1ae87fa6e092f96675221f3e07ece671eba10aa938500345421e5e8faad0279137b" kindref="member">MR.VertNormalsMode.AreaWeighted</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -27667,7 +27667,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="31" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" bodystart="31" bodyend="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="32" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" bodystart="32" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae4171f5402c2383f24804f51074d6311" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -74735,7 +74735,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="43" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="44" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a14c78e829c2dada8f217d5aba1e5c02e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PointCloud._Underlying *</type>
@@ -74761,7 +74761,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="46" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshToPointCloud.cs" line="47" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a05c2c98a1f86f12efac4b5bfdbe5e552" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int</type>
