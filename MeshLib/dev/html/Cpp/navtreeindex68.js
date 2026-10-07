@@ -1,5 +1,12 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1Polyline.html#a31c2d8e3b6a9e6729084fbb4221d8d57":[9,0,0,14,0,27],
+"structMR_1_1Polyline.html#a32c77b23ecee22eeb23aff9b7e7e0392":[9,0,0,14,0,33],
+"structMR_1_1Polyline.html#a363c6648b8fe1702f69d019676856179":[9,0,0,14,0,24],
+"structMR_1_1Polyline.html#a403ab94ad27b1766b1ef3043546ee01d":[9,0,0,14,0,30],
+"structMR_1_1Polyline.html#a4247ea43b01e686c29028046ad50fe6a":[9,0,0,14,0,36],
+"structMR_1_1Polyline.html#a4b0c7356bf9410a07c99ee9ee80b8db5":[9,0,0,14,0,1],
+"structMR_1_1Polyline.html#a5b3f0a6dabe52200adbd05fce503069a":[9,0,0,14,0,0],
 "structMR_1_1Polyline.html#a5c0695a3191577ed04a1a11224d50045":[9,0,0,14,0,6],
 "structMR_1_1Polyline.html#a64df04a94a707f0ac6075f909e5e9d2a":[9,0,0,14,0,4],
 "structMR_1_1Polyline.html#a6680e632ef5cd15c07a087a1b0f4da18":[9,0,0,14,0,11],
@@ -242,12 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1StitchHolesNicelySettings.html":[9,0,0,20,263],
 "structMR_1_1StitchHolesParams.html":[9,0,0,9,3,1],
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[9,0,0,9,3,1,1],
-"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,0,0,9,3,1,0],
-"structMR_1_1StopOnTrueCombiner.html":[9,0,0,20,744],
-"structMR_1_1SubdivideFillingSettings.html":[9,0,0,20,259],
-"structMR_1_1SubdivideSettings.html":[9,0,0,9,7,0],
-"structMR_1_1SubdivideSettings.html#a33de3142a2aa3715df6e72e27478d3e1":[9,0,0,9,7,0,9],
-"structMR_1_1SubdivideSettings.html#a36d315cb2aaa92503d1a85c889074250":[9,0,0,9,7,0,6],
-"structMR_1_1SubdivideSettings.html#a47209d51dfa333bfbaecd311df98c6b8":[9,0,0,9,7,0,0],
-"structMR_1_1SubdivideSettings.html#a52aa2a88771ab9ca39f096cae8256c7d":[9,0,0,9,7,0,17]
+"structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020":[9,0,0,9,3,1,0]
 };

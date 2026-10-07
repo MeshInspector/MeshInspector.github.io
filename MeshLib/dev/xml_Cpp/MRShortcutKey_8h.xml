@@ -4,6 +4,8 @@
     <compoundname>MRShortcutKey.h</compoundname>
     <includes refid="MRViewerFwd_8h" local="yes">MRViewerFwd.h</includes>
     <includes local="no">compare</includes>
+    <includes local="no">utility</includes>
+    <includes local="no">vector</includes>
     <includedby refid="MRRibbonSchema_8h" local="yes">MRViewer/MRRibbonSchema.h</includedby>
     <includedby refid="MRShortcutManager_8h" local="yes">MRViewer/MRShortcutManager.h</includedby>
     <incdepgraph>
@@ -54,6 +56,10 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRViewerFwd.h</label>
@@ -97,6 +103,9 @@
       </node>
       <node id="12">
         <label>string</label>
+      </node>
+      <node id="18">
+        <label>utility</label>
       </node>
       <node id="11">
         <label>vector</label>
@@ -145,37 +154,45 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRViewerFwd_8h" kindref="compound">MRViewerFwd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;compare&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="structMR_1_1ShortcutKey" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref></highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13" refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" kindref="member">key</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="14" refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" kindref="member">mod</ref>{<sp/>0<sp/>};</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga15023612f2e5823930b47399a616f7f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga15023612f2e5823930b47399a616f7f5" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875" kindref="member">Info</ref>,</highlight></codeline>
-<codeline lineno="22" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" kindref="member">Edit</ref>,</highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" kindref="member">View</ref>,</highlight></codeline>
-<codeline lineno="24" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" kindref="member">Scene</ref>,</highlight></codeline>
-<codeline lineno="25" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" kindref="member">Objects</ref>,</highlight></codeline>
-<codeline lineno="26" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" kindref="member">Selection</ref>,</highlight></codeline>
-<codeline lineno="27" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="structMR_1_1Shortcut" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1Shortcut" kindref="compound">Shortcut</ref></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="33" refid="group__GeneralGroup_1gaa36a0c8f4f33e0212241a6ac652e0a7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref><sp/><ref refid="group__GeneralGroup_1gaa36a0c8f4f33e0212241a6ac652e0a7d" kindref="member">key</ref>;</highlight></codeline>
-<codeline lineno="34" refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/><ref refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kindref="member">category</ref>{};</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1ShortcutKey" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" kindref="member">key</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" kindref="member">mod</ref>{<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga15023612f2e5823930b47399a616f7f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga15023612f2e5823930b47399a616f7f5" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/>:<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4059b0251f66a18cb56f544728796875" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875" kindref="member">Info</ref>,</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba7dce122004969d56ae2e0245cb754d35" kindref="member">Edit</ref>,</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba4351cfebe4b61d8aa5efa1d020710005" kindref="member">View</ref>,</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba9ead0d38e06ec253ca0ecbf6ea56e59b" kindref="member">Scene</ref>,</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bac8308b1eba7ba926a61b8fd802194386" kindref="member">Objects</ref>,</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6ba6ff9dd0d34f65181173c1e4bc39939de" kindref="member">Selection</ref>,</highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1ggabeff4ec21e8ee2ea544cdb4ce4d55d6bae93f994f01c537c4e2f7d8528c3eb5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" kindref="member">Count</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="structMR_1_1Shortcut" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" kindref="member">Shortcut</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;ShortcutKey&gt;<sp/><ref refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" kindref="member">keys</ref>;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/><ref refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kindref="member">category</ref>{};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" kindref="member">Shortcut</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga7aecb7b011ec90b32e20ea9b986fa587" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga7aecb7b011ec90b32e20ea9b986fa587" kindref="member">Shortcut</ref>(<sp/><ref refid="structMR_1_1ShortcutKey" kindref="compound">ShortcutKey</ref><sp/>k,<sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/>c<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" kindref="member">keys</ref>{<sp/>k<sp/>},<sp/><ref refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kindref="member">category</ref>(<sp/>c<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga5111ff56ee83412c855b2f0d9ac09f41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5111ff56ee83412c855b2f0d9ac09f41" kindref="member">Shortcut</ref>(<sp/>std::vector&lt;ShortcutKey&gt;<sp/>ks,<sp/><ref refid="group__GeneralGroup_1gabeff4ec21e8ee2ea544cdb4ce4d55d6b" kindref="member">ShortcutCategory</ref><sp/>c<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" kindref="member">keys</ref>(<sp/>std::move(<sp/>ks<sp/>)<sp/>),<sp/><ref refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kindref="member">category</ref>(<sp/>c<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga2a42973ef5568cce8008642ce4d53e5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2a42973ef5568cce8008642ce4d53e5f" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" kindref="member">Shortcut</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRShortcutKey.h"/>
   </compounddef>

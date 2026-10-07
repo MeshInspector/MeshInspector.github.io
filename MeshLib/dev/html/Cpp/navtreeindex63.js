@@ -1,5 +1,12 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DetectTunnelSettings.html#a4cf5671891104927d0393e7dd378f34b":[9,0,0,16,4,0,1],
+"structMR_1_1DetectTunnelSettings.html#a8d6b7fc11355d114ed558fb05291e839":[9,0,0,16,4,0,2],
+"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[9,0,0,16,4,0,4],
+"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,0,0,16,4,0,6],
+"structMR_1_1DihedralAngleProcessParams.html":[9,0,0,20,206],
+"structMR_1_1Dipole.html":[9,0,0,20,196],
+"structMR_1_1DirectionWidget_1_1Arrow.html":[9,0,0,20,593],
 "structMR_1_1Directory.html":[9,0,0,20,198],
 "structMR_1_1DirectoryIterator.html":[9,0,0,20,197],
 "structMR_1_1DirectoryRecursive.html":[9,0,0,20,200],
@@ -242,12 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[9,0,0,2,6,0,1],
 "structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[9,0,0,2,6,0,0],
 "structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a":[9,0,0,2,6,0,3],
-"structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223":[9,0,0,2,6,0,4],
-"structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980":[9,0,0,2,6,0,5],
-"structMR_1_1IPointPairs.html":[9,0,0,20,286],
-"structMR_1_1IdRange.html":[9,0,0,3,5],
-"structMR_1_1IdRange.html#a20f9cf39b58e7c10a1c4a32969691d3a":[9,0,0,3,5,0],
-"structMR_1_1IdRange.html#a3067ad4ae350fd44c70d1c64edda60c0":[9,0,0,3,5,1],
-"structMR_1_1IdRange.html#aff5326f04115631dc2ec0096a162fc58":[9,0,0,3,5,2],
-"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html":[9,0,1,0,1,15,1]
+"structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223":[9,0,0,2,6,0,4]
 };

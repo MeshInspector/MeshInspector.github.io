@@ -1,5 +1,12 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[9,0,2,0,2,81,6],
+"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[9,0,1,0,1,99,0],
+"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[9,0,2,0,2,81,0],
+"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[9,0,1,0,1,99,1],
+"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[9,0,2,0,2,81,1],
+"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[9,0,1,0,1,99,3],
+"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[9,0,2,0,2,81,3],
 "structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[9,0,1,0,1,99,4],
 "structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[9,0,2,0,2,81,4],
 "structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[9,0,1,0,1,99,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DetectTunnelSettings.html":[9,0,0,16,4,0],
 "structMR_1_1DetectTunnelSettings.html#a1179dac4ffbe7c13245c98e8833a6178":[9,0,0,16,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[9,0,0,16,4,0,5],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[9,0,0,16,4,0,3],
-"structMR_1_1DetectTunnelSettings.html#a4cf5671891104927d0393e7dd378f34b":[9,0,0,16,4,0,1],
-"structMR_1_1DetectTunnelSettings.html#a8d6b7fc11355d114ed558fb05291e839":[9,0,0,16,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[9,0,0,16,4,0,4],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[9,0,0,16,4,0,6],
-"structMR_1_1DihedralAngleProcessParams.html":[9,0,0,20,206],
-"structMR_1_1Dipole.html":[9,0,0,20,196],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[9,0,0,20,593]
+"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[9,0,0,16,4,0,3]
 };

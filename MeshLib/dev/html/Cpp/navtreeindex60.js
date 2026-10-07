@@ -1,5 +1,12 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4":[9,0,1,0,1,16,18],
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378":[9,0,1,0,1,16,18,0],
+"namespaceMR_1_1ImageLoad.html":[9,0,0,20,5],
+"namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53":[9,0,1,0,1,12,0],
+"namespaceMR_1_1ImageSave.html":[9,0,0,20,6],
+"namespaceMR_1_1ImageSave.html#af787ba09d658e9fdb5560be6d9d7f2eb":[9,0,1,0,1,13,0],
+"namespaceMR_1_1ImageTransform.html":[9,0,1,0,1,14],
 "namespaceMR_1_1ImageTransform.html#a317a29cee71effe5d77bf2153d117a00":[9,0,1,0,1,14,0],
 "namespaceMR_1_1LinesLoad.html":[9,0,1,0,1,18],
 "namespaceMR_1_1LinesLoad.html#a6c5aaedb0fddecc05327761329a8d9f1":[9,0,1,0,1,18,12],
@@ -242,12 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1UnitSettings.html#a9660ba5f25b3c345a1d75f38de621842":[9,0,1,0,1,50,10],
 "namespaceMR_1_1UnitSettings.html#ac410a1fcd84e320251f853094123a7c9":[9,0,1,0,1,50,16],
 "namespaceMR_1_1UnitSettings.html#ad0f4b58308b6afde0805f1a15314ec36":[9,0,1,0,1,50,8],
-"namespaceMR_1_1UnitSettings.html#ad5bb619905d31722d3e7f5a91afb1c46":[9,0,1,0,1,50,2],
-"namespaceMR_1_1UnitSettings.html#ae83d1247da6bf1d2bf28212e19246978":[9,0,1,0,1,50,7],
-"namespaceMR_1_1UnitSettings.html#af40b003a9c4deee8e921de1a4f03e0b2":[9,0,1,0,1,50,17],
-"namespaceMR_1_1UnitSettings.html#afe6f0698124e6aaa4213c97e053c0696":[9,0,1,0,1,50,14],
-"namespaceMR_1_1Unsigned.html":[9,0,1,0,1,51],
-"namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4":[9,0,1,0,1,51,0],
-"namespaceMR_1_1VoxelsLoad.html":[9,0,0,20,34],
-"namespaceMR_1_1VoxelsSave.html":[9,0,0,2,17,0]
+"namespaceMR_1_1UnitSettings.html#ad5bb619905d31722d3e7f5a91afb1c46":[9,0,1,0,1,50,2]
 };

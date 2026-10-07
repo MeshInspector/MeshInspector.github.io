@@ -1,5 +1,12 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#af838c4e58173e3c9d3464ff2aa9941f6":[9,0,1,0,1,16,13,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#af838c4e58173e3c9d3464ff2aa9941f6":[9,0,2,0,2,7,13,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html":[9,0,1,0,1,16,13,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html":[9,0,2,0,2,7,13,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#a3915b7762c2b88313bdf93ba00b51475":[9,0,1,0,1,16,13,0,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#a3915b7762c2b88313bdf93ba00b51475":[9,0,2,0,2,7,13,0,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#a5cb62d069491278c2397eb5c0a8d94fa":[9,0,1,0,1,16,13,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#a5cb62d069491278c2397eb5c0a8d94fa":[9,0,2,0,2,7,13,0,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#ad3b9bd4bb1b58ac3d681a5ee86935825":[9,0,1,0,1,16,13,0,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html#ad3b9bd4bb1b58ac3d681a5ee86935825":[9,0,2,0,2,7,13,0,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Mcp_1_1Schema_1_1Object.html#a53963c4c37e0f59f3594e240089b3cc0":[9,0,1,0,1,21,0,4,3],
 "structMR_1_1Mcp_1_1Schema_1_1Object.html#a53963c4c37e0f59f3594e240089b3cc0":[9,0,2,0,2,10,0,4,3],
 "structMR_1_1Mcp_1_1Schema_1_1Object.html#a879f4210a350ca91962e32da897aedbe":[9,0,1,0,1,21,0,4,2],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#a879f4210a350ca91962e32da897aedbe":[9,0,2,0,2,10,0,4,2],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#a8ec8a47414c378c8ad44aa51aee8650b":[9,0,1,0,1,21,0,4,4],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#a8ec8a47414c378c8ad44aa51aee8650b":[9,0,2,0,2,10,0,4,4],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#aaecf9812313d1c213d098bf8b98d8504":[9,0,1,0,1,21,0,4,1],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#aaecf9812313d1c213d098bf8b98d8504":[9,0,2,0,2,10,0,4,1],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#af8a3b8c253103a26e99faba8a133745f":[9,0,1,0,1,21,0,4,0],
-"structMR_1_1Mcp_1_1Schema_1_1Object.html#af8a3b8c253103a26e99faba8a133745f":[9,0,2,0,2,10,0,4,0],
-"structMR_1_1Mcp_1_1Schema_1_1String.html":[9,0,1,0,1,21,0,5]
+"structMR_1_1Mcp_1_1Schema_1_1Object.html#a879f4210a350ca91962e32da897aedbe":[9,0,2,0,2,10,0,4,2]
 };

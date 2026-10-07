@@ -10898,8 +10898,12 @@
     <member refid="group__GeneralGroup_1ga2462275abc34da748597b3ebccd9f961" kind="function"><name>setShift</name></member>
   </compound>
   <compound refid="structMR_1_1Shortcut" kind="struct"><name>MR::Shortcut</name>
-    <member refid="group__GeneralGroup_1gaa36a0c8f4f33e0212241a6ac652e0a7d" kind="variable"><name>key</name></member>
+    <member refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" kind="variable"><name>keys</name></member>
     <member refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kind="variable"><name>category</name></member>
+    <member refid="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" kind="function"><name>Shortcut</name></member>
+    <member refid="group__GeneralGroup_1ga7aecb7b011ec90b32e20ea9b986fa587" kind="function"><name>Shortcut</name></member>
+    <member refid="group__GeneralGroup_1ga5111ff56ee83412c855b2f0d9ac09f41" kind="function"><name>Shortcut</name></member>
+    <member refid="group__GeneralGroup_1ga2a42973ef5568cce8008642ce4d53e5f" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="structMR_1_1ShortcutManager_1_1ShortcutAction" kind="struct"><name>MR::ShortcutManager::ShortcutAction</name>
     <member refid="group__GeneralGroup_1ga8bb005062ea606a2a68ab2995184d194" kind="variable"><name>name</name></member>
@@ -10921,9 +10925,9 @@
     <member refid="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" kind="enum"><name>Reason</name></member>
     <member refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kind="typedef"><name>ShortcutKey</name></member>
     <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" kind="typedef"><name>Category</name></member>
-    <member refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" kind="typedef"><name>ShortcutList</name></member>
+    <member refid="group__GeneralGroup_1ga9918a5c8915f7c72f592fa82789864df" kind="typedef"><name>ShortcutList</name></member>
     <member refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kind="typedef"><name>ShourtcutsMap</name></member>
-    <member refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" kind="typedef"><name>ShourtcutsBackMap</name></member>
+    <member refid="group__GeneralGroup_1gaf562f5c38989a107a4b160789b9133ab" kind="typedef"><name>ShourtcutsBackMap</name></member>
     <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" kind="variable"><name>categoryNames</name></member>
     <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kind="variable"><name>enabled_</name></member>
     <member refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" kind="variable"><name>map_</name></member>
@@ -10931,6 +10935,7 @@
     <member refid="group__GeneralGroup_1gadf3fea364a499a2b41b73fb7fa94b301" kind="variable"><name>listCache_</name></member>
     <member refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" kind="function"><name>~ShortcutManager</name></member>
     <member refid="group__GeneralGroup_1ga151c44e97717ac5bcb5627cf3dbca179" kind="function"><name>setShortcut</name></member>
+    <member refid="group__GeneralGroup_1gac6a8e1df94682bd4434f95f3a4492475" kind="function"><name>resetShortcut</name></member>
     <member refid="group__GeneralGroup_1ga4c68791d3f75a5a75cf9cc1de43d5621" kind="function"><name>setShortcut</name></member>
     <member refid="group__GeneralGroup_1ga1b3fadc0be7a95ea871c730b0038d2df" kind="function"><name>getShortcutList</name></member>
     <member refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" kind="function"><name>isEnabled</name></member>
@@ -10939,10 +10944,12 @@
     <member refid="group__GeneralGroup_1ga959eba5366b2a67059bd1ee8ff2d3b62" kind="function"><name>onKeyDown_</name></member>
     <member refid="group__GeneralGroup_1gaa663126efdb053e8d1d576bf2a2458c2" kind="function"><name>onKeyRepeat_</name></member>
     <member refid="group__GeneralGroup_1ga174c714d2e8c7d0d831b3561f5e8b427" kind="function"><name>findShortcutByName</name></member>
+    <member refid="group__GeneralGroup_1gaf218cbc8058fd693d8c5db0928b6509c" kind="function"><name>findShortcutsByName</name></member>
     <member refid="group__GeneralGroup_1ga229a8e7249d6d753b590d2c3de6d043e" kind="function"><name>clear</name></member>
     <member refid="group__GeneralGroup_1ga15b57b50512b2769b584863ef3b21cb0" kind="function"><name>getModifierString</name></member>
     <member refid="group__GeneralGroup_1ga2d13f2ae4409cb7a885172ab0edb7f9a" kind="function"><name>getKeyString</name></member>
     <member refid="group__GeneralGroup_1ga9215f4392ec0aaaf49c8df15042552e0" kind="function"><name>getKeyFullString</name></member>
+    <member refid="group__GeneralGroup_1ga70868aca69ca2e19aab95c7543a48e38" kind="function"><name>getKeysFullString</name></member>
     <member refid="group__GeneralGroup_1ga8389e3401cdb0d37f50b39a1e511104a" kind="function"><name>parseKey</name></member>
     <member refid="group__GeneralGroup_1gada55de86cc547515b4abee252d5cc7dd" kind="function"><name>parseModifier</name></member>
     <member refid="group__GeneralGroup_1gaa05dcb9fe7531702637967609af8bf6d" kind="function"><name>parseCategory</name></member>
@@ -21943,9 +21950,9 @@
     <member refid="group__GeneralGroup_1gadef3ad4d7054ccf6e99aba195fc29cf8" kind="typedef"><name>ImGuiTreeNodeFlags</name></member>
     <member refid="group__GeneralGroup_1ga95af7d1cba13355b957e0dd270166269" kind="typedef"><name>ShortcutKey</name></member>
     <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" kind="typedef"><name>Category</name></member>
-    <member refid="group__GeneralGroup_1ga912f0a1bddab02d0a371cdf93d4729f1" kind="typedef"><name>ShortcutList</name></member>
+    <member refid="group__GeneralGroup_1ga9918a5c8915f7c72f592fa82789864df" kind="typedef"><name>ShortcutList</name></member>
     <member refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kind="typedef"><name>ShourtcutsMap</name></member>
-    <member refid="group__GeneralGroup_1ga12fa153bb2f0df72498264f840eeef6c" kind="typedef"><name>ShourtcutsBackMap</name></member>
+    <member refid="group__GeneralGroup_1gaf562f5c38989a107a4b160789b9133ab" kind="typedef"><name>ShourtcutsBackMap</name></member>
     <member refid="group__GeneralGroup_1gae157bdf17a7f295d510dd732d523f78f" kind="typedef"><name>result_type</name></member>
     <member refid="group__GeneralGroup_1ga1f068c2aecefbd45559101aca348aca3" kind="typedef"><name>PluginParent</name></member>
     <member refid="group__GeneralGroup_1ga700dee77fa82afbe743aa424eb782e2d" kind="typedef"><name>MultiListenerBase</name></member>
@@ -24741,7 +24748,7 @@
     <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" kind="variable"><name>enabled_</name></member>
     <member refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" kind="variable"><name>key</name></member>
     <member refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" kind="variable"><name>mod</name></member>
-    <member refid="group__GeneralGroup_1gaa36a0c8f4f33e0212241a6ac652e0a7d" kind="variable"><name>key</name></member>
+    <member refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" kind="variable"><name>keys</name></member>
     <member refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kind="variable"><name>category</name></member>
     <member refid="group__GeneralGroup_1ga8bb005062ea606a2a68ab2995184d194" kind="variable"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga0a5b5d199aa906bfbcf6e2601ec29929" kind="variable"><name>func</name></member>
@@ -30755,8 +30762,13 @@
     <member refid="group__GeneralGroup_1gaf19d7d45c062332fae1db2eea0abe889" kind="function"><name>drawShadow_</name></member>
     <member refid="group__GeneralGroup_1ga4819d4cc62a7f6b5512217ecc0364419" kind="function"><name>drawTexture_</name></member>
     <member refid="group__GeneralGroup_1ga15023612f2e5823930b47399a616f7f5" kind="function"><name>operator&lt;=&gt;</name></member>
+    <member refid="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" kind="function"><name>Shortcut</name></member>
+    <member refid="group__GeneralGroup_1ga7aecb7b011ec90b32e20ea9b986fa587" kind="function"><name>Shortcut</name></member>
+    <member refid="group__GeneralGroup_1ga5111ff56ee83412c855b2f0d9ac09f41" kind="function"><name>Shortcut</name></member>
+    <member refid="group__GeneralGroup_1ga2a42973ef5568cce8008642ce4d53e5f" kind="function"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" kind="function"><name>~ShortcutManager</name></member>
     <member refid="group__GeneralGroup_1ga151c44e97717ac5bcb5627cf3dbca179" kind="function"><name>setShortcut</name></member>
+    <member refid="group__GeneralGroup_1gac6a8e1df94682bd4434f95f3a4492475" kind="function"><name>resetShortcut</name></member>
     <member refid="group__GeneralGroup_1ga4c68791d3f75a5a75cf9cc1de43d5621" kind="function"><name>setShortcut</name></member>
     <member refid="group__GeneralGroup_1ga1b3fadc0be7a95ea871c730b0038d2df" kind="function"><name>getShortcutList</name></member>
     <member refid="group__GeneralGroup_1gaaf51fc21fb54cb1e8d7b1734c0d4c0e9" kind="function"><name>isEnabled</name></member>
@@ -30767,11 +30779,13 @@
     <member refid="group__GeneralGroup_1ga15b57b50512b2769b584863ef3b21cb0" kind="function"><name>getModifierString</name></member>
     <member refid="group__GeneralGroup_1ga2d13f2ae4409cb7a885172ab0edb7f9a" kind="function"><name>getKeyString</name></member>
     <member refid="group__GeneralGroup_1ga9215f4392ec0aaaf49c8df15042552e0" kind="function"><name>getKeyFullString</name></member>
+    <member refid="group__GeneralGroup_1ga70868aca69ca2e19aab95c7543a48e38" kind="function"><name>getKeysFullString</name></member>
     <member refid="group__GeneralGroup_1ga8389e3401cdb0d37f50b39a1e511104a" kind="function"><name>parseKey</name></member>
     <member refid="group__GeneralGroup_1gada55de86cc547515b4abee252d5cc7dd" kind="function"><name>parseModifier</name></member>
     <member refid="group__GeneralGroup_1gaa05dcb9fe7531702637967609af8bf6d" kind="function"><name>parseCategory</name></member>
     <member refid="group__GeneralGroup_1gac7f8ea82cc4bfd7220630d3cc9e7ce68" kind="function"><name>parseShortcutKey</name></member>
     <member refid="group__GeneralGroup_1ga174c714d2e8c7d0d831b3561f5e8b427" kind="function"><name>findShortcutByName</name></member>
+    <member refid="group__GeneralGroup_1gaf218cbc8058fd693d8c5db0928b6509c" kind="function"><name>findShortcutsByName</name></member>
     <member refid="group__GeneralGroup_1ga229a8e7249d6d753b590d2c3de6d043e" kind="function"><name>clear</name></member>
     <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kind="function"><name>mapKeyFromKeyAndMod</name></member>
     <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kind="function"><name>kayAndModFromMapKey</name></member>
