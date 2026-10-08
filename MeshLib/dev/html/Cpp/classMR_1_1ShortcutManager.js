@@ -12,6 +12,7 @@ var classMR_1_1ShortcutManager =
     [ "~ShortcutManager", "group__GeneralGroup.html#gac5d35f9b0ea4c909a2e0e182b46ca18b", null ],
     [ "clear", "group__GeneralGroup.html#ga229a8e7249d6d753b590d2c3de6d043e", null ],
     [ "enable", "group__GeneralGroup.html#ga5e5ccda452d5473a8328af4b7003e4f3", null ],
+    [ "findHeldKey_", "group__GeneralGroup.html#ga41a4a80376fa59dec5b86d85456e9fdf", null ],
     [ "findShortcutByName", "group__GeneralGroup.html#ga174c714d2e8c7d0d831b3561f5e8b427", null ],
     [ "findShortcutsByName", "group__GeneralGroup.html#gaf218cbc8058fd693d8c5db0928b6509c", null ],
     [ "getShortcutList", "group__GeneralGroup.html#ga1b3fadc0be7a95ea871c730b0038d2df", null ],

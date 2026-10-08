@@ -843,8 +843,10 @@
 <codeline lineno="472"><highlight class="normal"></highlight></codeline>
 <codeline lineno="474" refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" kindref="member">reserveKeyEvent</ref>(<sp/>ImGuiKey<sp/>key<sp/>);</highlight></codeline>
 <codeline lineno="475"><highlight class="normal"></highlight></codeline>
-<codeline lineno="476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="477"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="477" refid="group__GeneralGroup_1ga82c81a65b2203662fea9340627bdf921" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga82c81a65b2203662fea9340627bdf921" kindref="member">isKeyEventReserved</ref>(<sp/>ImGuiKey<sp/>key<sp/>);</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight></codeline>
+<codeline lineno="480"><highlight class="normal">}<sp/></highlight></codeline>
     </programlisting>
     <location file="MRViewer/ImGuiMenu.h"/>
   </compounddef>
