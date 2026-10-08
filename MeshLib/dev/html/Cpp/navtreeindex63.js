@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,2,0,2,192,4],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[9,0,1,0,1,210,6],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[9,0,2,0,2,192,6],
 "structMR_1_1DeloneSettings.html#aa9b9e4eb7d2bb9781d1170012f3c98b2":[9,0,1,0,1,210,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1GridSettings.html":[9,0,0,20,278],
 "structMR_1_1GridToMeshSettings.html":[9,0,0,20,907],
 "structMR_1_1Heap_1_1Element.html":[9,0,0,3,7,0],
-"structMR_1_1Heap_1_1Element.html":[9,0,0,20,361,0],
-"structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[9,0,0,3,7,0,1]
+"structMR_1_1Heap_1_1Element.html":[9,0,0,20,361,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"namespaceMR_1_1UI_1_1detail.html":[9,0,0,20,31],
 "namespaceMR_1_1UnitSettings.html":[9,0,1,0,1,50],
 "namespaceMR_1_1UnitSettings.html#a1ba5ba0e90a17b0b4971b32b561eeaf4":[9,0,1,0,1,50,0],
 "namespaceMR_1_1UnitSettings.html#a212516673007eec61db6d6737ed89889":[9,0,1,0,1,50,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1BMap.html":[9,0,0,20,143],
 "structMR_1_1Ball.html":[9,0,0,20,127],
 "structMR_1_1BallPivotCandidate.html":[9,0,0,20,125],
-"structMR_1_1BaseFitParams.html":[9,0,0,20,600],
-"structMR_1_1BaseRenderParams.html":[9,0,0,20,307]
+"structMR_1_1BaseFitParams.html":[9,0,0,20,600]
 };

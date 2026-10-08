@@ -50,6 +50,7 @@
       <member refid="group__GeneralGroup_1ga7b9982a0596af03ca659f33d64ae9f2a" kind="function"><name>serializeFields_</name></member>
       <member refid="group__GeneralGroup_1ga528d61e1346347cab130b0245d2e6700" kind="function"><name>deserializeFields_</name></member>
       <member refid="group__GeneralGroup_1gac0ca9eeac1a1a24b6b12338a01cb6439" kind="function"><name>setupRenderObject_</name></member>
+      <member refid="group__GeneralGroup_1ga918d4705c76a0def8a5fe7f88acf7678" kind="function"><name>setAllVisualizeProperties_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -190,7 +191,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRPointMeasurementObject.h" line="19" column="1" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="22" bodyend="87"/>
+    <location file="MRMesh/MRPointMeasurementObject.h" line="19" column="1" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="22" bodyend="89"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>addChildBefore</name></member>
@@ -336,7 +337,7 @@
       <member refid="classMR_1_1Object_1a50700fd5697a12cef45947f3b26adc2b" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>serializeModel_</name></member>
       <member refid="classMR_1_1Object_1a816a99fe61e3ee86b2dddb57fc65aef9" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>serializeRecursive</name></member>
       <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
-      <member refid="classMR_1_1VisualObject_1ac7a76c5a492ec728c0b9e42c09dc5033" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga918d4705c76a0def8a5fe7f88acf7678" prot="protected" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizeProperties_</name></member>
       <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizePropertiesForEnum</name></member>
       <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1Object_1aff1c500650f7ae09501f12d0830ebe69" prot="public" virt="virtual"><scope>MR::PointMeasurementObject</scope><name>setAncillary</name></member>

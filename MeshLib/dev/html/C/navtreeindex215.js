@@ -1,7 +1,5 @@
 var NAVTREEINDEX215 =
 {
-"structMR__Color.html#a5dea71edd69bdc81ca83d36580a3677b":[9,2,1,0,17,2],
-"structMR__Color.html#aa42eb9bb577b955386e4f8b1cc7e1f25":[9,2,1,0,17,3],
 "structMR__Color.html#aa750e2f6bf418c8ccc3000069caf5b0a":[9,2,1,0,17,1],
 "structMR__EdgeId.html":[9,2,1,0,18],
 "structMR__EdgeId.html#a15e0dc8bb877ee01d7cbaf634fd3acff":[9,2,1,0,18,0],

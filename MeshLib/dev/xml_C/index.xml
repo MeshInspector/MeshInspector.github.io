@@ -15413,7 +15413,7 @@
   <compound refid="MRMeshLoadObj_8h" kind="file"><name>MRMeshLoadObj.h</name>
     <member refid="MRMeshLoadObj_8h_1a146ef2f7eb6f38906cc72cee72d4df7a" kind="typedef"><name>MR_Vector_std_filesystem_path_MR_TextureId</name></member>
     <member refid="MRMeshLoadObj_8h_1a4937b515a308e1ef18f05af0b9763d0f" kind="typedef"><name>MR_expected_std_vector_MR_MeshLoad_NamedMesh_std_string</name></member>
-    <member refid="MRMeshLoadObj_8h_1aa0321a9411a929e49738bc575e08e7f8" kind="typedef"><name>MR_std_map_std_filesystem_path_std_string</name></member>
+    <member refid="MRMeshLoadObj_8h_1ad5e656b23732ca8ee47f89346d860a1a" kind="typedef"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string</name></member>
     <member refid="MRMeshLoadObj_8h_1acc2e8503e932c1841efb7d9eb614d088" kind="typedef"><name>MR_MeshLoad_ObjLoadSettings</name></member>
     <member refid="MRMeshLoadObj_8h_1adf0e6b0e594c907f1cb8f66cfb856e3a" kind="typedef"><name>MR_MeshLoad_NamedMesh</name></member>
     <member refid="MRMeshLoadObj_8h_1a7d6f6e89e192bf5c53edb02973350f48" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Get_customXf</name></member>
@@ -15428,12 +15428,12 @@
     <member refid="MRMeshLoadObj_8h_1a56ec179b932db38e622c560eae3ba3c4" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Get_telemetrySignal</name></member>
     <member refid="MRMeshLoadObj_8h_1a45a333e728b801eef0ceda86fbb765f8" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Set_telemetrySignal</name></member>
     <member refid="MRMeshLoadObj_8h_1a5331fd5a5749029418d41d1bcdf3bed0" kind="function"><name>MR_MeshLoad_ObjLoadSettings_GetMutable_telemetrySignal</name></member>
-    <member refid="MRMeshLoadObj_8h_1a3ef1cea342dec934d0e2bf61bca716cf" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Get_mtlErrors</name></member>
-    <member refid="MRMeshLoadObj_8h_1ab66cf43c69c4fc9760373df921d318d4" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Set_mtlErrors</name></member>
-    <member refid="MRMeshLoadObj_8h_1ad19b04d14bac9368b5265e6a9f454b3a" kind="function"><name>MR_MeshLoad_ObjLoadSettings_GetMutable_mtlErrors</name></member>
+    <member refid="MRMeshLoadObj_8h_1a5edd586b0c67cbef1eb319996833de83" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Get_mtlErrors</name></member>
+    <member refid="MRMeshLoadObj_8h_1afc6cc210ee40e26f72957a5977b0ac5c" kind="function"><name>MR_MeshLoad_ObjLoadSettings_Set_mtlErrors</name></member>
+    <member refid="MRMeshLoadObj_8h_1af81d2baf792e79663cf5a900605b1b32" kind="function"><name>MR_MeshLoad_ObjLoadSettings_GetMutable_mtlErrors</name></member>
     <member refid="MRMeshLoadObj_8h_1a382c49c4f163150aa642dc8ae8adc68e" kind="function"><name>MR_MeshLoad_ObjLoadSettings_DefaultConstruct</name></member>
     <member refid="MRMeshLoadObj_8h_1a808980271f1aee4fa2bb9903f5c6e895" kind="function"><name>MR_MeshLoad_ObjLoadSettings_DefaultConstructArray</name></member>
-    <member refid="MRMeshLoadObj_8h_1a1640d6d6ec941a0bf01c8ef320cd583b" kind="function"><name>MR_MeshLoad_ObjLoadSettings_ConstructFrom</name></member>
+    <member refid="MRMeshLoadObj_8h_1adfe641e3f2fb8e35e67d5c546d1aab46" kind="function"><name>MR_MeshLoad_ObjLoadSettings_ConstructFrom</name></member>
     <member refid="MRMeshLoadObj_8h_1ae3bed515da8b80fe853b818ac96b067d" kind="function"><name>MR_MeshLoad_ObjLoadSettings_OffsetPtr</name></member>
     <member refid="MRMeshLoadObj_8h_1a65ef621c416fddfcd6765a20d6ce7828" kind="function"><name>MR_MeshLoad_ObjLoadSettings_OffsetMutablePtr</name></member>
     <member refid="MRMeshLoadObj_8h_1ad2f834221feb96ef7ffbe91adf9935a8" kind="function"><name>MR_MeshLoad_ObjLoadSettings_ConstructFromAnother</name></member>
@@ -32904,6 +32904,61 @@
     <member refid="phmap__flat__hash__map__size__t__std__array__MR__VertId__3_8h_1a8dd892451e7ce5f50f591a6bcd4c0bc4" kind="function"><name>MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3_iterator_incr</name></member>
     <member refid="phmap__flat__hash__map__size__t__std__array__MR__VertId__3_8h_1ac6d40c4e3e01e0196bc6514ab7425964" kind="function"><name>MR_equal_MR_phmap_flat_hash_map_size_t_std_array_MR_VertId_3_iterator</name></member>
   </compound>
+  <compound refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h" kind="file"><name>phmap_flat_hash_map_std_filesystem_path_std_string.h</name>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kind="typedef"><name>MR_std_pair_const_std_filesystem_path_std_string</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a54517336e914a403ec3ea80c361cd689" kind="typedef"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1af7359bf8dfb59772d793e033da7a9029" kind="typedef"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ac5474b5c147a33391557513a95bcd4c2" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_DefaultConstruct</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1aa581364c39d1bb7e117c7b6cf825ced9" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_DefaultConstructArray</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a9247f0f8adf9191a8efc669b5f96244f" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_ConstructFromAnother</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a94b1419143a205c9c534f95b10954851" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_AssignFromAnother</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a95eb67d53151dbf8de06081e71a7d433" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_Destroy</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a159b3341664ecf3e0d68eb130df50dc0" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_DestroyArray</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1aeaaa6217ef10b3f10e92c109af70dee0" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_OffsetPtr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a906183ae58b88d76ab0da83922f8322c" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_OffsetMutablePtr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ab448c624ef206dd63285a68715cae026" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_size</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a9dc79e2d3f2dff69d0093e07c8f0a785" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_empty</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a2e33b9416bd278fd510eb02fffee302a" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_clear</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a2d440416115710f57c4e4a25eba01c9d" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_find_or_construct_elem</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ab0e7c2c6a88dfecb5e36624f96f8ee96" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_contains</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a6301db8766b6c11f4bf09782c285587c" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_find</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a48e80e728ff1820069cb1a417758745b" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_find_mut</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a8c4623854f9afb15eea8f1dcc880d385" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_begin</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1acf7ff026d67a50a32b65aa7d44f1131d" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_is_begin</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ac667610e849684609d8ea9efc2483523" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_begin_mut</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a3ece18602a209e73a33fd92f6bcaf46b" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_is_begin_mut</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a66677cd791027dfda87d009512c4334b" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_end</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ad39ead765ac64323ed2895c87876675b" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_is_end</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ab3c49d3e7bb2e821356a16d37a3f2d28" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_end_mut</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ad0d1c71b50c2effaa2c6f9c72037f3ba" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_is_end_mut</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1af63a35a07806f02fc1b5f0ca0e297c35" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_DefaultConstruct</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a6ab6c3424b82c7b4932a15b2fbf61f4a" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_DefaultConstructArray</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1afcc9b87f7a81c33defe041d8a089a80d" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_ConstructFromAnother</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a5ada94459fabfa8fc9367261f67f94d9" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_AssignFromAnother</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a1be60a993db3bc053111c9067b1b32c4" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_Destroy</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a3751f17577b15eeb1725c8482a075691" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_DestroyArray</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a477c4005be07f2b005a115f364ec2d0e" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_OffsetPtr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a7b0c2cf432f12a382198a8384cb46462" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_OffsetMutablePtr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a51b59d013bc1e6efd380465f94499ed9" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_from_mutable</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a84ff10da5f70f459feef001e2d11cba5" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_DefaultConstruct</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a02820b2cba821f4d9df09cc515cf445d" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_DefaultConstructArray</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a925e728f0569b26e42d808a037590b2b" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_ConstructFromAnother</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a2c753b86948caf128cffe4d12293a3bb" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_AssignFromAnother</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a2a421f4fcdac53135e52cef34d8ab193" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_Destroy</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a46bd3cbe3d3e4ecf171df8d831c432ca" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_DestroyArray</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a8c62949f01d5332688b5192dec607db2" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_OffsetPtr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1aeeadcf1e4f74d5402ae42d7ebd68f317" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_OffsetMutablePtr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ac9210ec2cb14ff968d26ad8468ba0271" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_deref</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1afa85264e71f403898e81a79385c94e9a" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_deref_key</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a21043d1e7c02c4d7b7441db9700927f0" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_deref_value</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a40931702faacc89a9773ce9a3a70d0e8" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator_incr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a2c66c2e8a14a48e84cc605c6dac067d8" kind="function"><name>MR_equal_MR_phmap_flat_hash_map_std_filesystem_path_std_string_const_iterator</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a98f99aa15c70d7465941cd94225f6ec7" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_deref</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ab119e56ca4e16a3fae9b465c0049044d" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_deref_key</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a3c939a92123234c9264860d187e5fe16" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_deref_value</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1ac00241361eba6d4c8ebc6953b2753e7a" kind="function"><name>MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator_incr</name></member>
+    <member refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h_1a8b257d812d79888cfb5824915c7e5c10" kind="function"><name>MR_equal_MR_phmap_flat_hash_map_std_filesystem_path_std_string_iterator</name></member>
+  </compound>
   <compound refid="std__array__double__4_8h" kind="file"><name>std_array_double_4.h</name>
     <member refid="std__array__double__4_8h_1a005b8faa51c561bd38587698d7638795" kind="typedef"><name>MR_std_array_double_4</name></member>
   </compound>
@@ -34556,63 +34611,6 @@
     <member refid="std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h_1ae852262633914ca13e8f9aaeee53fdbc" kind="function"><name>MR_std_function_void_from_MR_VertId_const_MR_Vector3f_ref_Assign</name></member>
     <member refid="std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h_1a1b0903399e8c495f43e231af86d04e11" kind="function"><name>MR_std_function_void_from_MR_VertId_const_MR_Vector3f_ref_ConstructEx</name></member>
     <member refid="std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h_1a1e76c3a9b275e0c84d7a8f0aab72e19d" kind="function"><name>MR_std_function_void_from_MR_VertId_const_MR_Vector3f_ref_AssignEx</name></member>
-  </compound>
-  <compound refid="std__map__std__filesystem__path__std__string_8h" kind="file"><name>std_map_std_filesystem_path_std_string.h</name>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1af60dcc33e537eaac5db7b54cb3ce3b9e" kind="typedef"><name>MR_std_pair_const_std_filesystem_path_std_string</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a51a2e9e4e71a90dc8876a792152f56c5" kind="typedef"><name>MR_std_map_std_filesystem_path_std_string_const_iterator</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1acb20847069bf0234f9b13853d67431a2" kind="typedef"><name>MR_std_map_std_filesystem_path_std_string_iterator</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a535cac814a5d2c7e05304491a73d9b30" kind="function"><name>MR_std_map_std_filesystem_path_std_string_DefaultConstruct</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a7db5e7b8fc903e9c9141093ee7ef8ad8" kind="function"><name>MR_std_map_std_filesystem_path_std_string_DefaultConstructArray</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a3af24dc2e942781d0bcc58d35a3e4f74" kind="function"><name>MR_std_map_std_filesystem_path_std_string_ConstructFromAnother</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a0ab88486891ff0aed9390909059c47aa" kind="function"><name>MR_std_map_std_filesystem_path_std_string_AssignFromAnother</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1ad8b8e1b12bcc635b418575a273901d95" kind="function"><name>MR_std_map_std_filesystem_path_std_string_Destroy</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a905aedccb35ff2c145f82f2f7730a3c8" kind="function"><name>MR_std_map_std_filesystem_path_std_string_DestroyArray</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a63c5d06763747761914bfe4a4f1ad12f" kind="function"><name>MR_std_map_std_filesystem_path_std_string_OffsetPtr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a95d12384b42a49eb2a60cf72f51b23f1" kind="function"><name>MR_std_map_std_filesystem_path_std_string_OffsetMutablePtr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a2ef626dd43b3733d9a2a048fd4137fb5" kind="function"><name>MR_std_map_std_filesystem_path_std_string_size</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1aecd9c1f7bdf63332056032af93697ddf" kind="function"><name>MR_std_map_std_filesystem_path_std_string_empty</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a318a3943526b6545a398cc5054dff9fa" kind="function"><name>MR_std_map_std_filesystem_path_std_string_clear</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a683fa023cd964d68bfda33dbfcbd8e05" kind="function"><name>MR_std_map_std_filesystem_path_std_string_find_or_construct_elem</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a8f5cf8ac009b9e7b6bdd14135bc02a53" kind="function"><name>MR_std_map_std_filesystem_path_std_string_contains</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1aa20922401ac4caf9452ad145cbf6618e" kind="function"><name>MR_std_map_std_filesystem_path_std_string_find</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a7e7d5cdd9294fdd2190a7173310a1a2a" kind="function"><name>MR_std_map_std_filesystem_path_std_string_find_mut</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a65a14275f4bc3ba0512bd99378afac11" kind="function"><name>MR_std_map_std_filesystem_path_std_string_begin</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a886b76af45bc3e490b03ecb6834e9ecc" kind="function"><name>MR_std_map_std_filesystem_path_std_string_is_begin</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a15c49b292b1dee5cdd1f51ccc7145700" kind="function"><name>MR_std_map_std_filesystem_path_std_string_begin_mut</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a31c1862c8c09e6f9c6e52c3ca04ba745" kind="function"><name>MR_std_map_std_filesystem_path_std_string_is_begin_mut</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a017163c8ad1c7c30fb8865e4b84de7d0" kind="function"><name>MR_std_map_std_filesystem_path_std_string_end</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a4441b9b3fc917ed708b38124e98623cd" kind="function"><name>MR_std_map_std_filesystem_path_std_string_is_end</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a4bda11da9b8cb092c516ee5b3dfbaa66" kind="function"><name>MR_std_map_std_filesystem_path_std_string_end_mut</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a64b0799e9694e11de9fe38d5fc001db9" kind="function"><name>MR_std_map_std_filesystem_path_std_string_is_end_mut</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a121db33d7e6ac45c15d26c90d78c6fad" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstruct</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a49ca82dc2e3a38cc4467085beac9be1b" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_DefaultConstructArray</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a627eb3dd7321b7e196f2f3f592025c5d" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_ConstructFromAnother</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1af55e30860ec148a6118fe289d1850537" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_AssignFromAnother</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1aeef648c982cb833f980b807302863c6f" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_Destroy</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1ac7ef6b6aefbb4dc48c77e6f8e7163a34" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_DestroyArray</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a5c1afa79542e9bff1bfe050692d94773" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetPtr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a4354c0994ff94c773d1c79b0bd719846" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_OffsetMutablePtr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1adc81c24b104f123c3046147bd3bea6bd" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_from_mutable</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a457039b06b2627de927c0cd416fad752" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstruct</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a2846b5fa003c46f30768d3cd1116c992" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_DefaultConstructArray</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a9cd9a82829f7e68666702b05885e12a1" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_ConstructFromAnother</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1ada38031527ec4c47195f0ffe8b2ca132" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_AssignFromAnother</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a3d208cae54703858b662a1a8d64232cb" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_Destroy</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a9d494095ea216ddc8a64eebe4d283f02" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_DestroyArray</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a66a992fded4af76b2da37becdcb97800" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_OffsetPtr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1aa9ef28a85365582f3714c97a812c58db" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_OffsetMutablePtr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a5eda37cdad88a77ab472486ad010fdd6" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_deref</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a88dfaf1557db7693d2972cfe22a29340" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_deref_key</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a1c5561b085b23be177122640bf4300d6" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_deref_value</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1ad17013247dea1ed0320e8a19364b78fa" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_incr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a707bbf1cd40f6bf33436fb66f85c5928" kind="function"><name>MR_std_map_std_filesystem_path_std_string_const_iterator_decr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a7c43776402203c6138ce7a3bc4c1c6b6" kind="function"><name>MR_equal_MR_std_map_std_filesystem_path_std_string_const_iterator</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1af162601adbb9893625ff9139e082efae" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_deref</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a695672ebdd00dc7cb7d165211fdf63e9" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_deref_key</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1aadb6d3c1fc67d4c1333e2471337f9b2c" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_deref_value</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a6f0973a17e80f836c52ddee2d297ce78" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_incr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a84cab0577cf53a3913a7e65bd76c3bef" kind="function"><name>MR_std_map_std_filesystem_path_std_string_iterator_decr</name></member>
-    <member refid="std__map__std__filesystem__path__std__string_8h_1a4add5fcd4c7a31c1a117745e74e4ed92" kind="function"><name>MR_equal_MR_std_map_std_filesystem_path_std_string_iterator</name></member>
   </compound>
   <compound refid="std__optional__double_8h" kind="file"><name>std_optional_double.h</name>
     <member refid="std__optional__double_8h_1a713910baefa42aabde4cfa07b4d000d4" kind="function"><name>MR_std_optional_double_DefaultConstruct</name></member>

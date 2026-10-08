@@ -41452,7 +41452,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointMeasurementObject.h" line="82" column="19" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRPointMeasurementObject.h" line="84" column="19" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaefa853ab1211c443d16dcf16f2f39d84" prot="private" static="no" mutable="no">
         <type>std::optional&lt; Vector3f &gt;</type>
@@ -41466,7 +41466,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointMeasurementObject.h" line="83" column="19" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRPointMeasurementObject.h" line="85" column="19" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga753aa93b3c409afeaf35914046a7f9de" prot="private" static="no" mutable="no">
         <type>std::optional&lt; ComparisonTolerance &gt;</type>
@@ -41481,7 +41481,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointMeasurementObject.h" line="84" column="19" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="84" bodyend="-1"/>
+        <location file="MRMesh/MRPointMeasurementObject.h" line="86" column="19" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga14a63fa9680dd72dfbae3a778da36a71" prot="private" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -41496,7 +41496,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointMeasurementObject.h" line="86" column="18" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRPointMeasurementObject.h" line="88" column="18" bodyfile="MRMesh/MRPointMeasurementObject.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" prot="public" static="no" mutable="no">
         <type>FaceId</type>
@@ -135420,6 +135420,29 @@ element fields:<linebreak/>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRPointMeasurementObject.h" line="79" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga918d4705c76a0def8a5fe7f88acf7678" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void MR::PointMeasurementObject::setAllVisualizeProperties_</definition>
+        <argsstring>(const AllVisualizeProperties &amp;properties, std::size_t &amp;pos) override</argsstring>
+        <name>setAllVisualizeProperties_</name>
+        <qualifiedname>MR::PointMeasurementObject::setAllVisualizeProperties_</qualifiedname>
+        <reimplements refid="classMR_1_1VisualObject_1ac7a76c5a492ec728c0b9e42c09dc5033">setAllVisualizeProperties_</reimplements>
+        <param>
+          <type>const AllVisualizeProperties &amp;</type>
+          <declname>properties</declname>
+        </param>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointMeasurementObject.h" line="81" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad63d8f23fc91cc17ef699c247af4226f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>

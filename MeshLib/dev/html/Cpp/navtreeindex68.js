@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointsProjectionResult.html#aac972c9152f1d040824f6ce8998b7cf7":[9,0,0,1,28,0],
 "structMR_1_1PointsProjectionResult.html#ac5592bc916da0b017f4e3a254bad34f7":[9,0,0,1,28,2],
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html":[9,0,0,20,92],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[9,0,1,0,1,36,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[9,0,2,0,2,31,0,3],
 "structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[9,0,1,0,1,46,0,2],
 "structMR_1_1SpaceMouse_1_1Action.html#a96ec36ec991e2a807c4173907db102f1":[9,0,2,0,2,31,0,2],
-"structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9":[9,0,1,0,1,46,0,0],
-"structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9":[9,0,2,0,2,31,0,0]
+"structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9":[9,0,1,0,1,46,0,0]
 };

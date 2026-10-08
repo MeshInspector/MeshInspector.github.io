@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BaseRenderParams.html":[9,0,0,20,307],
 "structMR_1_1BaseShellParameters.html":[9,0,0,20,869],
 "structMR_1_1BaseTiffParameters.html":[9,0,0,20,519],
 "structMR_1_1BasicUiRenderTask.html":[9,0,0,20,310],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[9,0,2,0,2,192,5],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[9,0,1,0,1,210,2],
 "structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[9,0,2,0,2,192,2],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,1,0,1,210,4],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,2,0,2,192,4]
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,1,0,1,210,4]
 };
