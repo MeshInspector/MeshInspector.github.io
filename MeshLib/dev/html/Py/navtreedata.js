@@ -277,8 +277,8 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag.html#ad7f21ff97b26eea254b4828889ef9f10",
 "classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__EdgeTag.html#ae30fb58e265af92736f3b4cf40db24f7",
 "classmrmeshpy_1_1phmap__flat__hash__map__int__Box__Vector3__int.html#ac0000c6a38069bbd2b13e4c4bb008396",
-"classmrmeshpy_1_1std__array__PreciseVertCoords2__6.html#a4590b69fe7321e3cde853dceb5739daa",
-"classmrmeshpy_1_1std__greater__float.html",
+"classmrmeshpy_1_1std__array__PreciseVertCoords__5.html#a34668c07a9fc7e33698398098b867bba",
+"classmrmeshpy_1_1std__map__std__filesystem__path__std__string.html#af51a2a78af99dba883e326ac7454f8ca",
 "classmrmeshpy_1_1std__variant__Id__FaceTag__Id__EdgeTag__Id__VertTag.html#a24f99d28881d0adab93e075840aaad49",
 "classmrmeshpy_1_1std__variant__std__monostate__MeshTriPointT__float__EdgePointT__float__Id__VertTag.html#a2d04f18619438e8cce0dd8fffde6c287",
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a193f0e77070066dfaedb44542cd32ef2",
@@ -325,9 +325,9 @@ var NAVTREEINDEX =
 "namespacemrmeshpy.html#a6125c91c3d9d191df8030d99c9f81314",
 "namespacemrmeshpy.html#a80dc6a16e62cecb61979174d70371c96",
 "namespacemrmeshpy.html#aa19dbe453c8f96e7f284a7f57affb1d9",
-"namespacemrmeshpy.html#abf8dc9c07b6a3c9995defaee175689d4",
-"namespacemrmeshpy.html#adbc1bf1b0c30546bafab83efe382612e",
-"namespacemrmeshpy.html#afad1997c3dd5a6417f268e6fd7cc1476"
+"namespacemrmeshpy.html#abf9bc5fe4f7c71d5fe2638bb69fbfb04",
+"namespacemrmeshpy.html#adbee87d0d8b90209fdafc7adfeee6116",
+"namespacemrmeshpy.html#afadd34410a6933bfcd0de3fa08c2ebd1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

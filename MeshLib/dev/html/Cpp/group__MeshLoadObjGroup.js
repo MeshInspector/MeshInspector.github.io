@@ -4,7 +4,7 @@ var group__MeshLoadObjGroup =
       [ "callback", "group__MeshLoadObjGroup.html#gaeda2f2f6435f3ba3f78394fb87ed0b35", null ],
       [ "countSkippedFaces", "group__MeshLoadObjGroup.html#gaa88281fa5522b4dfb24b0d60f21ad3c7", null ],
       [ "customXf", "group__MeshLoadObjGroup.html#gace2b31e89c8b25c9b8475eacea73c38a", null ],
-      [ "mtlErrors", "group__MeshLoadObjGroup.html#ga621099b9262cff03b62381068e4dd3c3", null ],
+      [ "mtlErrors", "group__MeshLoadObjGroup.html#gaa5840dd6bf8ec58f59d1abfb8d076193", null ],
       [ "telemetrySignal", "group__MeshLoadObjGroup.html#ga84ada408307af26a9c2f008bedd2a4fc", null ]
     ] ],
     [ "MR::MeshLoad::NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", [
@@ -30,7 +30,7 @@ var group__MeshLoadObjGroup =
     [ "MR::MeshLoad::NamedMesh::diffuseColor", "group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188", null ],
     [ "MR::MeshLoad::NamedMesh::duplicatedVertexCount", "group__MeshLoadObjGroup.html#ga26a8bc92daf43830d65572e1f00a40dc", null ],
     [ "MR::MeshLoad::NamedMesh::mesh", "group__MeshLoadObjGroup.html#gab4ded5f4899c9c9bd466b211bd8e2bf1", null ],
-    [ "MR::MeshLoad::ObjLoadSettings::mtlErrors", "group__MeshLoadObjGroup.html#ga621099b9262cff03b62381068e4dd3c3", null ],
+    [ "MR::MeshLoad::ObjLoadSettings::mtlErrors", "group__MeshLoadObjGroup.html#gaa5840dd6bf8ec58f59d1abfb8d076193", null ],
     [ "MR::MeshLoad::NamedMesh::name", "group__MeshLoadObjGroup.html#ga05826b92a46319385603f88ae180c23a", null ],
     [ "MR::MeshLoad::NamedMesh::skippedFaceCount", "group__MeshLoadObjGroup.html#ga7655251160688728be82b103fa220dd3", null ],
     [ "MR::MeshLoad::ObjLoadSettings::telemetrySignal", "group__MeshLoadObjGroup.html#ga84ada408307af26a9c2f008bedd2a4fc", null ],
