@@ -1,9 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"classmrmeshpy_1_1PointsToMeshParameters.html#af26a9a57c2c4437d59d17d909f963910":[9,1,0,0,2,757,15],
-"classmrmeshpy_1_1PointsToMeshParameters.html#af26a9a57c2c4437d59d17d909f963910":[9,1,1,0,1,757,15],
-"classmrmeshpy_1_1PointsToMeshParameters.html#af4bc95eb4e477741fad621fa48d2c211":[9,1,0,0,2,757,10],
-"classmrmeshpy_1_1PointsToMeshParameters.html#af4bc95eb4e477741fad621fa48d2c211":[9,1,1,0,1,757,10],
 "classmrmeshpy_1_1PointsToMeshParameters.html#af62032a5650ece11b6e5caec73ebc931":[9,1,0,0,2,757,9],
 "classmrmeshpy_1_1PointsToMeshParameters.html#af62032a5650ece11b6e5caec73ebc931":[9,1,1,0,1,757,9],
 "classmrmeshpy_1_1PointsToMeshProjector.html":[9,1,0,0,2,758],
@@ -249,5 +245,9 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1PolylineIntersectionResult2.html#a3cd0e5dbae9be5bc408c038bc1a7de47":[9,1,0,0,2,766,0],
 "classmrmeshpy_1_1PolylineIntersectionResult2.html#a3cd0e5dbae9be5bc408c038bc1a7de47":[9,1,1,0,1,766,0],
 "classmrmeshpy_1_1PolylineIntersectionResult2.html#a5b847509bd68758e9d8acbed7091e868":[9,1,0,0,2,766,6],
-"classmrmeshpy_1_1PolylineIntersectionResult2.html#a5b847509bd68758e9d8acbed7091e868":[9,1,1,0,1,766,6]
+"classmrmeshpy_1_1PolylineIntersectionResult2.html#a5b847509bd68758e9d8acbed7091e868":[9,1,1,0,1,766,6],
+"classmrmeshpy_1_1PolylineIntersectionResult2.html#a5e0242ce369caf481e34b0c7a326f34e":[9,1,0,0,2,766,5],
+"classmrmeshpy_1_1PolylineIntersectionResult2.html#a5e0242ce369caf481e34b0c7a326f34e":[9,1,1,0,1,766,5],
+"classmrmeshpy_1_1PolylineIntersectionResult2.html#ace7ec59f05530912987475e29a6236db":[9,1,0,0,2,766,3],
+"classmrmeshpy_1_1PolylineIntersectionResult2.html#ace7ec59f05530912987475e29a6236db":[9,1,1,0,1,766,3]
 };

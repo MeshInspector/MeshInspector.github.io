@@ -1,9 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"classmrmeshpy_1_1NoiseSettings.html#ab9fc953ae8522e80a13e6ab6fe55c95a":[9,1,0,0,2,640,3],
-"classmrmeshpy_1_1NoiseSettings.html#ab9fc953ae8522e80a13e6ab6fe55c95a":[9,1,1,0,1,640,3],
-"classmrmeshpy_1_1NormalsToPoints.html":[9,1,0,0,2,641],
-"classmrmeshpy_1_1NormalsToPoints.html":[9,1,1,0,1,641],
 "classmrmeshpy_1_1NormalsToPoints.html#a61600269735bb24204f539b990d57ac4":[9,1,0,0,2,641,3],
 "classmrmeshpy_1_1NormalsToPoints.html#a61600269735bb24204f539b990d57ac4":[9,1,1,0,1,641,3],
 "classmrmeshpy_1_1NormalsToPoints.html#a9bb7bb6b7021e898cfb559dd27573f27":[9,1,0,0,2,641,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX65 =
 "classmrmeshpy_1_1ObjMap.html#a6d03d3b161517d4e132a3acdb67d2e0e":[9,1,0,0,2,672,12],
 "classmrmeshpy_1_1ObjMap.html#a6d03d3b161517d4e132a3acdb67d2e0e":[9,1,1,0,1,672,12],
 "classmrmeshpy_1_1ObjMap.html#a71f479f9859f1041d2bc4b37fa46fa78":[9,1,0,0,2,672,2],
-"classmrmeshpy_1_1ObjMap.html#a71f479f9859f1041d2bc4b37fa46fa78":[9,1,1,0,1,672,2]
+"classmrmeshpy_1_1ObjMap.html#a71f479f9859f1041d2bc4b37fa46fa78":[9,1,1,0,1,672,2],
+"classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c":[9,1,0,0,2,672,6],
+"classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c":[9,1,0,0,2,672,7],
+"classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c":[9,1,1,0,1,672,6],
+"classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c":[9,1,1,0,1,672,7]
 };
