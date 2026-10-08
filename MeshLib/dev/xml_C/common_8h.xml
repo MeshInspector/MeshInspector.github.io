@@ -335,6 +335,7 @@
     <includedby refid="phmap__flat__hash__map__int__MR__Box3i__phmap__Hash__int32__t_8h" local="no">phmap_flat_hash_map_int_MR_Box3i_phmap_Hash_int32_t.h</includedby>
     <includedby refid="phmap__flat__hash__map__size__t__size__t_8h" local="no">phmap_flat_hash_map_size_t_size_t.h</includedby>
     <includedby refid="phmap__flat__hash__map__size__t__std__array__MR__VertId__3_8h" local="no">phmap_flat_hash_map_size_t_std_array_MR_VertId_3.h</includedby>
+    <includedby refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h" local="no">phmap_flat_hash_map_std_filesystem_path_std_string.h</includedby>
     <includedby refid="std__array__MR__BooleanResultMapper__Maps__2_8h" local="no">std_array_MR_BooleanResultMapper_Maps_2.h</includedby>
     <includedby refid="std__array__MR__SimpleVolumeMinMax__3_8h" local="no">std_array_MR_SimpleVolumeMinMax_3.h</includedby>
     <includedby refid="std__array__std__filesystem__path__4_8h" local="no">std_array_std_filesystem_path_4.h</includedby>
@@ -421,7 +422,6 @@
     <includedby refid="std__function__void__from__const__std__filesystem__path__ref_8h" local="no">std_function_void_from_const_std_filesystem_path_ref.h</includedby>
     <includedby refid="std__function__void__from__const__std__variant__float__MR__Vector3f__ref__MR__FeatureObject__ptr__MR__Viewp____37af_8h" local="no">std_function_void_from_const_std_variant_float_MR_Vector3f_ref_MR_FeatureObject_ptr_MR_Viewp__37af.h</includedby>
     <includedby refid="std__function__void__from__int_8h" local="no">std_function_void_from_int.h</includedby>
-    <includedby refid="std__map__std__filesystem__path__std__string_8h" local="no">std_map_std_filesystem_path_std_string.h</includedby>
     <includedby refid="std__optional__MR__AllLocalTriangulations_8h" local="no">std_optional_MR_AllLocalTriangulations.h</includedby>
     <includedby refid="std__optional__MR__Edges_8h" local="no">std_optional_MR_Edges.h</includedby>
     <includedby refid="std__optional__MR__FaceScalars_8h" local="no">std_optional_MR_FaceScalars.h</includedby>
@@ -3395,352 +3395,352 @@
         <link refid="phmap__flat__hash__map__size__t__std__array__MR__VertId__3_8h"/>
       </node>
       <node id="336">
+        <label>phmap_flat_hash_map_std_filesystem_path_std_string.h</label>
+        <link refid="phmap__flat__hash__map__std__filesystem__path__std__string_8h"/>
+      </node>
+      <node id="337">
         <label>std_array_MR_BooleanResultMapper_Maps_2.h</label>
         <link refid="std__array__MR__BooleanResultMapper__Maps__2_8h"/>
       </node>
-      <node id="337">
+      <node id="338">
         <label>std_array_MR_SimpleVolumeMinMax_3.h</label>
         <link refid="std__array__MR__SimpleVolumeMinMax__3_8h"/>
       </node>
-      <node id="338">
+      <node id="339">
         <label>std_array_std_filesystem_path_4.h</label>
         <link refid="std__array__std__filesystem__path__4_8h"/>
       </node>
-      <node id="339">
+      <node id="340">
         <label>std_filesystem_path.h</label>
         <link refid="std__filesystem__path_8h"/>
       </node>
-      <node id="340">
+      <node id="341">
         <label>std_function_MR_AABBTree.h</label>
         <link refid="std__function__MR__AABBTree_8h"/>
       </node>
-      <node id="341">
+      <node id="342">
         <label>std_function_MR_AABBTreePoints.h</label>
         <link refid="std__function__MR__AABBTreePoints_8h"/>
       </node>
-      <node id="342">
+      <node id="343">
         <label>std_function_MR_CurvePoint_from_float.h</label>
         <link refid="std__function__MR__CurvePoint__from__float_8h"/>
       </node>
-      <node id="343">
+      <node id="344">
         <label>std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h</label>
         <link refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h"/>
       </node>
-      <node id="344">
+      <node id="345">
         <label>std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref.h</label>
         <link refid="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="345">
+      <node id="346">
         <label>std_function_MR_MeshTriPoint_from_size_t.h</label>
         <link refid="std__function__MR__MeshTriPoint__from__size__t_8h"/>
       </node>
-      <node id="346">
+      <node id="347">
         <label>std_function_MR_Pdf_CellCustomParams_from_int_int_const_std_string_ref.h</label>
         <link refid="std__function__MR__Pdf__CellCustomParams__from__int__int__const__std__string__ref_8h"/>
       </node>
-      <node id="347">
+      <node id="348">
         <label>std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h</label>
         <link refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h"/>
       </node>
-      <node id="348">
+      <node id="349">
         <label>std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref.h</label>
         <link refid="std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h"/>
       </node>
-      <node id="349">
+      <node id="350">
         <label>std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h"/>
       </node>
-      <node id="350">
+      <node id="351">
         <label>std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h"/>
       </node>
-      <node id="351">
+      <node id="352">
         <label>std_function_MR_Processing_from_const_MR_MeshProjectionResult_ref_MR_Ball3f_ref.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h"/>
       </node>
-      <node id="352">
+      <node id="353">
         <label>std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR__d070.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h"/>
       </node>
-      <node id="353">
+      <node id="354">
         <label>std_function_MR_Vector2f_from_const_MR_Vector2i_ref.h</label>
         <link refid="std__function__MR__Vector2f__from__const__MR__Vector2i__ref_8h"/>
       </node>
-      <node id="354">
+      <node id="355">
         <label>std_function_MR_Vector2i_from_const_MR_Vector2f_ref.h</label>
         <link refid="std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h"/>
       </node>
-      <node id="355">
+      <node id="356">
         <label>std_function_MR_Vector3f_from_MR_VertId.h</label>
         <link refid="std__function__MR__Vector3f__from__MR__VertId_8h"/>
       </node>
-      <node id="356">
+      <node id="357">
         <label>std_function_MR_Vector3f_from_const_MR_Vector3f_ref.h</label>
         <link refid="std__function__MR__Vector3f__from__const__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="357">
+      <node id="358">
         <label>std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float.h</label>
         <link refid="std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h"/>
       </node>
-      <node id="358">
+      <node id="359">
         <label>std_function_MR_Vector3f_from_size_t_size_t.h</label>
         <link refid="std__function__MR__Vector3f__from__size__t__size__t_8h"/>
       </node>
-      <node id="359">
+      <node id="360">
         <label>std_function_bool_from_MR_EdgeId.h</label>
         <link refid="std__function__bool__from__MR__EdgeId_8h"/>
       </node>
-      <node id="360">
+      <node id="361">
         <label>std_function_bool_from_MR_EdgeId_const_MR_Vector2f_ref.h</label>
         <link refid="std__function__bool__from__MR__EdgeId__const__MR__Vector2f__ref_8h"/>
       </node>
-      <node id="361">
+      <node id="362">
         <label>std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref.h</label>
         <link refid="std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="362">
+      <node id="363">
         <label>std_function_bool_from_MR_FaceId.h</label>
         <link refid="std__function__bool__from__MR__FaceId_8h"/>
       </node>
-      <node id="363">
+      <node id="364">
         <label>std_function_bool_from_MR_FaceId_MR_FaceId.h</label>
         <link refid="std__function__bool__from__MR__FaceId__MR__FaceId_8h"/>
       </node>
-      <node id="364">
+      <node id="365">
         <label>std_function_bool_from_MR_VertId.h</label>
         <link refid="std__function__bool__from__MR__VertId_8h"/>
       </node>
-      <node id="365">
+      <node id="366">
         <label>std_function_bool_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId_MR_VertId.h</label>
         <link refid="std__function__bool__from__MR__VertId__MR__VertId__MR__VertId__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="366">
+      <node id="367">
         <label>std_function_bool_from_const_MR_MeshIntersectionResult_ref.h</label>
         <link refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref_8h"/>
       </node>
-      <node id="367">
+      <node id="368">
         <label>std_function_bool_from_const_MR_MeshIntersectionResult_ref_bool.h</label>
         <link refid="std__function__bool__from__const__MR__MeshIntersectionResult__ref__bool_8h"/>
       </node>
-      <node id="368">
+      <node id="369">
         <label>std_function_bool_from_const_MR_MeshProjectionResult_ref.h</label>
         <link refid="std__function__bool__from__const__MR__MeshProjectionResult__ref_8h"/>
       </node>
-      <node id="369">
+      <node id="370">
         <label>std_function_bool_from_const_MR_Object_ref.h</label>
         <link refid="std__function__bool__from__const__MR__Object__ref_8h"/>
       </node>
-      <node id="370">
+      <node id="371">
         <label>std_function_bool_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref.h</label>
         <link refid="std__function__bool__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref_8h"/>
       </node>
-      <node id="371">
+      <node id="372">
         <label>std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref.h</label>
         <link refid="std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h"/>
       </node>
-      <node id="372">
+      <node id="373">
         <label>std_function_bool_from_float.h</label>
         <link refid="std__function__bool__from__float_8h"/>
       </node>
-      <node id="373">
+      <node id="374">
         <label>std_function_bool_from_size_t_size_t.h</label>
         <link refid="std__function__bool__from__size__t__size__t_8h"/>
       </node>
-      <node id="374">
+      <node id="375">
         <label>std_function_bool_from_size_t_size_t_size_t_size_t_size_t_size_t.h</label>
         <link refid="std__function__bool__from__size__t__size__t__size__t__size__t__size__t__size__t_8h"/>
       </node>
-      <node id="375">
+      <node id="376">
         <label>std_function_const_MR_FaceBitSet_ptr_from_size_t.h</label>
         <link refid="std__function__const__MR__FaceBitSet__ptr__from__size__t_8h"/>
       </node>
-      <node id="376">
+      <node id="377">
         <label>std_function_double_from_MR_VertId_MR_VertId_MR_VertId.h</label>
         <link refid="std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="377">
+      <node id="378">
         <label>std_function_double_from_MR_VertId_MR_VertId_MR_VertId_MR_VertId.h</label>
         <link refid="std__function__double__from__MR__VertId__MR__VertId__MR__VertId__MR__VertId_8h"/>
       </node>
-      <node id="378">
+      <node id="379">
         <label>std_function_double_from_const_MR_FaceBitSet_ref_const_MR_FixUndercuts_FindParams_ref.h</label>
         <link refid="std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h"/>
       </node>
-      <node id="379">
+      <node id="380">
         <label>std_function_double_from_double_double.h</label>
         <link refid="std__function__double__from__double__double_8h"/>
       </node>
-      <node id="380">
+      <node id="381">
         <label>std_function_expected_MR_LoadedObjects_std_string_from_const_std_filesystem_path_ref_const_s__c201.h</label>
         <link refid="std__function__expected__MR__LoadedObjects__std__string__from__const__std__filesystem__path__ref__const__s____c201_8h"/>
       </node>
-      <node id="381">
+      <node id="382">
         <label>std_function_expected_void_std_string_from_const_MR_SimpleVolumeMinMax_ref_int.h</label>
         <link refid="std__function__expected__void__std__string__from__const__MR__SimpleVolumeMinMax__ref__int_8h"/>
       </node>
-      <node id="382">
+      <node id="383">
         <label>std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref__42b9.h</label>
         <link refid="std__function__expected__void__std__string__from__std__vector__float__rvalue__ref__const__MR__Vector3i__ref____42b9_8h"/>
       </node>
-      <node id="383">
+      <node id="384">
         <label>std_function_float_from_MR_EdgeId.h</label>
         <link refid="std__function__float__from__MR__EdgeId_8h"/>
       </node>
-      <node id="384">
+      <node id="385">
         <label>std_function_float_from_MR_UndirectedEdgeId.h</label>
         <link refid="std__function__float__from__MR__UndirectedEdgeId_8h"/>
       </node>
-      <node id="385">
+      <node id="386">
         <label>std_function_float_from_MR_VertId.h</label>
         <link refid="std__function__float__from__MR__VertId_8h"/>
       </node>
-      <node id="386">
+      <node id="387">
         <label>std_function_float_from_const_MR_Vector3i_ref.h</label>
         <link refid="std__function__float__from__const__MR__Vector3i__ref_8h"/>
       </node>
-      <node id="387">
+      <node id="388">
         <label>std_function_float_from_const_char_ptr.h</label>
         <link refid="std__function__float__from__const__char__ptr_8h"/>
       </node>
-      <node id="388">
+      <node id="389">
         <label>std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h</label>
         <link refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h"/>
       </node>
-      <node id="389">
+      <node id="390">
         <label>std_function_float_from_int.h</label>
         <link refid="std__function__float__from__int_8h"/>
       </node>
-      <node id="390">
+      <node id="391">
         <label>std_function_float_from_int_int.h</label>
         <link refid="std__function__float__from__int__int_8h"/>
       </node>
-      <node id="391">
+      <node id="392">
         <label>std_function_float_from_size_t.h</label>
         <link refid="std__function__float__from__size__t_8h"/>
       </node>
-      <node id="392">
+      <node id="393">
         <label>std_function_float_from_size_t_size_t.h</label>
         <link refid="std__function__float__from__size__t__size__t_8h"/>
       </node>
-      <node id="393">
+      <node id="394">
         <label>std_function_std_string.h</label>
         <link refid="std__function__std__string_8h"/>
       </node>
-      <node id="394">
+      <node id="395">
         <label>std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitiv__dc87.h</label>
         <link refid="std__function__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitiv____dc87_8h"/>
       </node>
-      <node id="395">
+      <node id="396">
         <label>std_function_std_variant_float_MR_Vector3f_from_const_MR_FeatureObject_ptr_MR_ViewportId.h</label>
         <link refid="std__function__std__variant__float__MR__Vector3f__from__const__MR__FeatureObject__ptr__MR__ViewportId_8h"/>
       </node>
-      <node id="396">
+      <node id="397">
         <label>std_function_unsigned_char_from_const_MR_Vector3i_ref.h</label>
         <link refid="std__function__unsigned__char__from__const__MR__Vector3i__ref_8h"/>
       </node>
-      <node id="397">
+      <node id="398">
         <label>std_function_void.h</label>
         <link refid="std__function__void_8h"/>
       </node>
-      <node id="398">
+      <node id="399">
         <label>std_function_void_from_MR_AABBTreePoints_ref.h</label>
         <link refid="std__function__void__from__MR__AABBTreePoints__ref_8h"/>
       </node>
-      <node id="399">
+      <node id="400">
         <label>std_function_void_from_MR_AABBTree_ref.h</label>
         <link refid="std__function__void__from__MR__AABBTree__ref_8h"/>
       </node>
-      <node id="400">
+      <node id="401">
         <label>std_function_void_from_MR_EdgeId_MR_EdgeId.h</label>
         <link refid="std__function__void__from__MR__EdgeId__MR__EdgeId_8h"/>
       </node>
-      <node id="401">
+      <node id="402">
         <label>std_function_void_from_MR_EdgeId_MR_EdgeId_float.h</label>
         <link refid="std__function__void__from__MR__EdgeId__MR__EdgeId__float_8h"/>
       </node>
-      <node id="402">
+      <node id="403">
         <label>std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId.h</label>
         <link refid="std__function__void__from__MR__GraphEdgeId__MR__GraphEdgeId_8h"/>
       </node>
-      <node id="403">
+      <node id="404">
         <label>std_function_void_from_MR_Mesh_ref.h</label>
         <link refid="std__function__void__from__MR__Mesh__ref_8h"/>
       </node>
-      <node id="404">
+      <node id="405">
         <label>std_function_void_from_MR_Mesh_ref_const_MR_PartMapping_ref.h</label>
         <link refid="std__function__void__from__MR__Mesh__ref__const__MR__PartMapping__ref_8h"/>
       </node>
-      <node id="405">
+      <node id="406">
         <label>std_function_void_from_MR_Mesh_ref_float_float.h</label>
         <link refid="std__function__void__from__MR__Mesh__ref__float__float_8h"/>
       </node>
-      <node id="406">
+      <node id="407">
         <label>std_function_void_from_MR_ObjId_MR_MeshOrPoints_ProjectionResult.h</label>
         <link refid="std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h"/>
       </node>
-      <node id="407">
+      <node id="408">
         <label>std_function_void_from_MR_Pdf_ref.h</label>
         <link refid="std__function__void__from__MR__Pdf__ref_8h"/>
       </node>
-      <node id="408">
+      <node id="409">
         <label>std_function_void_from_MR_SceneLoad_Result.h</label>
         <link refid="std__function__void__from__MR__SceneLoad__Result_8h"/>
       </node>
-      <node id="409">
+      <node id="410">
         <label>std_function_void_from_MR_SignDetectionMode.h</label>
         <link refid="std__function__void__from__MR__SignDetectionMode_8h"/>
       </node>
-      <node id="410">
+      <node id="411">
         <label>std_function_void_from_MR_UndirectedEdgeId_const_MR_Vector2f_ref_float.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h"/>
       </node>
-      <node id="411">
+      <node id="412">
         <label>std_function_void_from_MR_UndirectedEdgeId_const_MR_Vector3f_ref_float.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector3f__ref__float_8h"/>
       </node>
-      <node id="412">
+      <node id="413">
         <label>std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector2f_ref.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector2f__ref_8h"/>
       </node>
-      <node id="413">
+      <node id="414">
         <label>std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref.h</label>
         <link refid="std__function__void__from__MR__UndirectedEdgeId__float__ref__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="414">
+      <node id="415">
         <label>std_function_void_from_MR_VertId.h</label>
         <link refid="std__function__void__from__MR__VertId_8h"/>
       </node>
-      <node id="415">
+      <node id="416">
         <label>std_function_void_from_MR_VertId_const_MR_Vector3f_ref.h</label>
         <link refid="std__function__void__from__MR__VertId__const__MR__Vector3f__ref_8h"/>
       </node>
-      <node id="416">
+      <node id="417">
         <label>std_function_void_from_const_MR_EdgePoint_ref.h</label>
         <link refid="std__function__void__from__const__MR__EdgePoint__ref_8h"/>
       </node>
-      <node id="417">
+      <node id="418">
         <label>std_function_void_from_const_MR_Features_SubfeatureInfo_ref.h</label>
         <link refid="std__function__void__from__const__MR__Features__SubfeatureInfo__ref_8h"/>
       </node>
-      <node id="418">
+      <node id="419">
         <label>std_function_void_from_const_MR_Vector3f_ref_MR_MeshOrPoints_ProjectionResult_ref_MR_ObjId_r__f9dd.h</label>
         <link refid="std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h"/>
       </node>
-      <node id="419">
+      <node id="420">
         <label>std_function_void_from_const_std_filesystem_path_ref.h</label>
         <link refid="std__function__void__from__const__std__filesystem__path__ref_8h"/>
       </node>
-      <node id="420">
+      <node id="421">
         <label>std_function_void_from_const_std_variant_float_MR_Vector3f_ref_MR_FeatureObject_ptr_MR_Viewp__37af.h</label>
         <link refid="std__function__void__from__const__std__variant__float__MR__Vector3f__ref__MR__FeatureObject__ptr__MR__Viewp____37af_8h"/>
       </node>
-      <node id="421">
+      <node id="422">
         <label>std_function_void_from_int.h</label>
         <link refid="std__function__void__from__int_8h"/>
-      </node>
-      <node id="422">
-        <label>std_map_std_filesystem_path_std_string.h</label>
-        <link refid="std__map__std__filesystem__path__std__string_8h"/>
       </node>
       <node id="423">
         <label>std_optional_MR_AllLocalTriangulations.h</label>

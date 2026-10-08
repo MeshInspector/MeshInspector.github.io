@@ -1,7 +1,5 @@
 var NAVTREEINDEX211 =
 {
-"std__vector__std__vector__MR__GraphEdgeId_8h.html#a07c0b7c4e198d4ead03a8b26c9c1f316":[9,2,2,0,0,0,0,2,558,2],
-"std__vector__std__vector__MR__GraphEdgeId_8h.html#a190b740b3c12cad5b9a9bfcb8aedd6d9":[9,2,2,0,0,0,0,2,558,52],
 "std__vector__std__vector__MR__GraphEdgeId_8h.html#a1c51c8ade363d104b5c3a1527a7bef78":[9,2,2,0,0,0,0,2,558,26],
 "std__vector__std__vector__MR__GraphEdgeId_8h.html#a1e74a2a8988462d9556b649be789b05b":[9,2,2,0,0,0,0,2,558,45],
 "std__vector__std__vector__MR__GraphEdgeId_8h.html#a206e4392db663f18e7fb4e80b3985f79":[9,2,2,0,0,0,0,2,558,31],
@@ -249,5 +247,7 @@ var NAVTREEINDEX211 =
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a82ca27543a40137989fe98e9f543fee7":[9,2,2,0,0,0,0,2,561,7],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a868ff597c9f0dc06dcca05755751e31a":[9,2,2,0,0,0,0,2,561,21],
 "std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a87f065e31bbadbf974713d55e2a7bcf7":[9,2,2,0,0,0,0,2,561,14],
-"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a8e71e9a9b7f6ddade08a3194d74dec66":[9,2,2,0,0,0,0,2,561,18]
+"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a8e71e9a9b7f6ddade08a3194d74dec66":[9,2,2,0,0,0,0,2,561,18],
+"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a8f2ce7b035810bbb179a1823df5994b1":[9,2,2,0,0,0,0,2,561,32],
+"std__vector__std__vector__MR__PlanarTriangulation__IntersectionInfo_8h.html#a905cd13c36ecd8b6ad845b16227f8002":[9,2,2,0,0,0,0,2,561,11]
 };

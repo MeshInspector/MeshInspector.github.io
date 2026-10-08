@@ -54,7 +54,7 @@ var searchData=
   ['_5f_5fptr_5fstorage_5fmeshnames_37',['__ptr_storage_meshNames',['../classMR_1_1Nesting_1_1Const__Nesting3mfParams.html#a017add827e2c6907dc9d7ad4543c01a6',1,'MR::Nesting::Const_Nesting3mfParams']]],
   ['_5f_5fptr_5fstorage_5fmeshtoworld_38',['__ptr_storage_meshToWorld',['../classMR_1_1Const__CloseToMeshVolumeParams.html#a31d139698b74bdc0527e3f0dd7e74b9e',1,'MR::Const_CloseToMeshVolumeParams']]],
   ['_5f_5fptr_5fstorage_5fmodifybdvertices_39',['__ptr_storage_modifyBdVertices',['../classMR_1_1Const__TriangulateHolesParams.html#ac8d4aa7744f59848836e54c1f3714062',1,'MR::Const_TriangulateHolesParams']]],
-  ['_5f_5fptr_5fstorage_5fmtlerrors_40',['__ptr_storage_mtlErrors',['../classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html#a54b8aa0b8ff44f5dbd928a8b3da7b41f',1,'MR::MeshLoad::Const_ObjLoadSettings']]],
+  ['_5f_5fptr_5fstorage_5fmtlerrors_40',['__ptr_storage_mtlErrors',['../classMR_1_1MeshLoad_1_1Const__ObjLoadSettings.html#a1464dbdb05491e024e204c7b0bfe4849',1,'MR::MeshLoad::Const_ObjLoadSettings']]],
   ['_5f_5fptr_5fstorage_5fnestdimensionscache_41',['__ptr_storage_nestDimensionsCache',['../classMR_1_1Nesting_1_1Const__TetrisDensifyOptions.html#a9133c19c2519c0af14dcd65520ca2251',1,'MR::Nesting::Const_TetrisDensifyOptions']]],
   ['_5f_5fptr_5fstorage_5fnestvoxelscache_42',['__ptr_storage_nestVoxelsCache',['../classMR_1_1Nesting_1_1Const__TetrisDensifyOptions.html#a8a75bff1ea627015264c72be83ff3bc5',1,'MR::Nesting::Const_TetrisDensifyOptions']]],
   ['_5f_5fptr_5fstorage_5fnew2old_43',['__ptr_storage_new2Old',['../classMR_1_1Const__TrimOptionalOutput.html#a06cacbf642afc7f8f3d4ed583788336c',1,'MR::Const_TrimOptionalOutput']]],
