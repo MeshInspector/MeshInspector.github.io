@@ -2800,6 +2800,7 @@ var namespaceMR =
     [ "isHoleBd", "group__FillHoleGroup.html#ga3e708a001bfa14982547301df2e42e83", null ],
     [ "isInside", "group__AABBTreeGroup.html#ga7892dab0d0fdaed07c3c16c0b4ccc6e9", null ],
     [ "isInside", "group__AABBTreeGroup.html#gaf5614c6f47e495a7aa4513078b1b2ecb", null ],
+    [ "isKeyEventReserved", "group__GeneralGroup.html#ga82c81a65b2203662fea9340627bdf921", null ],
     [ "isLoopOuter", "group__TunnelDetectorGroup.html#ga002f332a7657596c6a7a3db1e4b3dc71", null ],
     [ "isNanFast", "group__GeneralGroup.html#gad4d2c738603108b1182410a19fbe7b5a", null ],
     [ "isNonIntersectingInside", "group__AABBTreeGroup.html#gac22748b9e5c563d95321d66315116084", null ],

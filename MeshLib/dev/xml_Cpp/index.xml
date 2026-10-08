@@ -10924,6 +10924,7 @@
   <compound refid="structMR_1_1ShortcutKey" kind="struct"><name>MR::ShortcutKey</name>
     <member refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" kind="variable"><name>key</name></member>
     <member refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" kind="variable"><name>mod</name></member>
+    <member refid="group__GeneralGroup_1gab6f1bc084d939e28f359acc2026c033c" kind="variable"><name>heldKey</name></member>
     <member refid="group__GeneralGroup_1ga15023612f2e5823930b47399a616f7f5" kind="function"><name>operator&lt;=&gt;</name></member>
   </compound>
   <compound refid="classMR_1_1ShortcutManager" kind="class"><name>MR::ShortcutManager</name>
@@ -10934,6 +10935,8 @@
     <member refid="group__GeneralGroup_1gaa3f924fb2d8d08321689742094b61a10" kind="typedef"><name>ShourtcutsMap</name></member>
     <member refid="group__GeneralGroup_1gaf562f5c38989a107a4b160789b9133ab" kind="typedef"><name>ShourtcutsBackMap</name></member>
     <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" kind="variable"><name>categoryNames</name></member>
+    <member refid="group__GeneralGroup_1ga4b70a3665db3593d8683c4df132b231f" kind="variable"><name>cModBits</name></member>
+    <member refid="group__GeneralGroup_1ga025351c6db0d926bfff64eda31f6c7d2" kind="variable"><name>cKeyBits</name></member>
     <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kind="variable"><name>enabled_</name></member>
     <member refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" kind="variable"><name>map_</name></member>
     <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" kind="variable"><name>backMap_</name></member>
@@ -10961,6 +10964,7 @@
     <member refid="group__GeneralGroup_1gac7f8ea82cc4bfd7220630d3cc9e7ce68" kind="function"><name>parseShortcutKey</name></member>
     <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kind="function"><name>mapKeyFromKeyAndMod</name></member>
     <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kind="function"><name>kayAndModFromMapKey</name></member>
+    <member refid="group__GeneralGroup_1ga41a4a80376fa59dec5b86d85456e9fdf" kind="function"><name>findHeldKey_</name></member>
   </compound>
   <compound refid="structMR_1_1ShrinkwrapParameters" kind="struct"><name>MR::ShrinkwrapParameters</name>
     <member refid="structMR_1_1ShrinkwrapParameters_1a183a87107e261430e1f648901026b0eb" kind="variable"><name>offset</name></member>
@@ -16208,6 +16212,7 @@
     <member refid="group__GeneralGroup_1gae2aa1d33734baaded9793f01c67d8a83" kind="function"><name>createSymbolContours</name></member>
     <member refid="group__GeneralGroup_1ga141a61d44641c538f45c2c292f7c2e59" kind="function"><name>createSymbolsMesh</name></member>
     <member refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" kind="function"><name>reserveKeyEvent</name></member>
+    <member refid="group__GeneralGroup_1ga82c81a65b2203662fea9340627bdf921" kind="function"><name>isKeyEventReserved</name></member>
     <member refid="group__GeneralGroup_1ga63eff6abd3e68ba4393b53531873036a" kind="function"><name>AppendHistory</name></member>
     <member refid="group__GeneralGroup_1ga16bb6fdbdb21a92b1fa0da2432cc699a" kind="function"><name>AppendHistory</name></member>
     <member refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" kind="function"><name>FilterHistoryByCondition</name></member>
@@ -24773,6 +24778,7 @@
     <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" kind="variable"><name>enabled_</name></member>
     <member refid="group__GeneralGroup_1ga3a4d01661553cca5e961b0ee03e3985f" kind="variable"><name>key</name></member>
     <member refid="group__GeneralGroup_1gae3638e49cd7fb1443983589d80c3eee2" kind="variable"><name>mod</name></member>
+    <member refid="group__GeneralGroup_1gab6f1bc084d939e28f359acc2026c033c" kind="variable"><name>heldKey</name></member>
     <member refid="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" kind="variable"><name>keys</name></member>
     <member refid="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" kind="variable"><name>category</name></member>
     <member refid="group__GeneralGroup_1ga8bb005062ea606a2a68ab2995184d194" kind="variable"><name>name</name></member>
@@ -24783,6 +24789,8 @@
     <member refid="group__GeneralGroup_1ga74e7c30555d8435657c7465809b44a6a" kind="variable"><name>action</name></member>
     <member refid="group__GeneralGroup_1gacf2e272c865f0181e677f9a0cce89ec5" kind="variable"><name>repeatable</name></member>
     <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" kind="variable"><name>categoryNames</name></member>
+    <member refid="group__GeneralGroup_1ga4b70a3665db3593d8683c4df132b231f" kind="variable"><name>cModBits</name></member>
+    <member refid="group__GeneralGroup_1ga025351c6db0d926bfff64eda31f6c7d2" kind="variable"><name>cKeyBits</name></member>
     <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kind="variable"><name>enabled_</name></member>
     <member refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" kind="variable"><name>map_</name></member>
     <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" kind="variable"><name>backMap_</name></member>
@@ -29574,6 +29582,7 @@
     <member refid="group__GeneralGroup_1gadfffa8dc5a661a4fb5936ad8b3858b77" kind="function"><name>finishBackwardPass</name></member>
     <member refid="group__GeneralGroup_1gaa40348ce85a4b0c87fffec966a71d952" kind="function"><name>canConsumeEvent</name></member>
     <member refid="group__GeneralGroup_1gaf47bd4d66fa353bf995946804d75af4f" kind="function"><name>reserveKeyEvent</name></member>
+    <member refid="group__GeneralGroup_1ga82c81a65b2203662fea9340627bdf921" kind="function"><name>isKeyEventReserved</name></member>
     <member refid="group__GeneralGroup_1ga1dd61ddfaca7ad57995cff3e85436742" kind="function"><name>~AlphaSortGL</name></member>
     <member refid="group__GeneralGroup_1gaba382f76f34a17ef1f0536debd4b6683" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gac0008d001179507a880971efa7b03847" kind="function"><name>free</name></member>
@@ -30831,6 +30840,7 @@
     <member refid="group__GeneralGroup_1ga229a8e7249d6d753b590d2c3de6d043e" kind="function"><name>clear</name></member>
     <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kind="function"><name>mapKeyFromKeyAndMod</name></member>
     <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kind="function"><name>kayAndModFromMapKey</name></member>
+    <member refid="group__GeneralGroup_1ga41a4a80376fa59dec5b86d85456e9fdf" kind="function"><name>findHeldKey_</name></member>
     <member refid="group__GeneralGroup_1ga04d5a9c5ea64015a7ac8eccdf71e108e" kind="function"><name>showModal</name></member>
     <member refid="group__GeneralGroup_1ga81804b582b588b4a894660b307a92cc2" kind="function"><name>showError</name></member>
     <member refid="group__GeneralGroup_1gac4c7b58291a1f9e59adb38ee87fca271" kind="function"><name>operator()</name></member>

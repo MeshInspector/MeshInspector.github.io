@@ -12678,7 +12678,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="21" column="1" bodyfile="MRViewer/MRShortcutKey.h" bodystart="22" bodyend="30"/>
+        <location file="MRViewer/MRShortcutKey.h" line="24" column="1" bodyfile="MRViewer/MRShortcutKey.h" bodystart="25" bodyend="33"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga1a85baae28af51cf7825c2099b693c1b" prot="public" static="no" strong="yes">
         <type></type>
@@ -19625,7 +19625,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="127" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="127" bodyend="-1"/>
+        <location file="MRViewer/MRShortcutManager.h" line="134" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gaf562f5c38989a107a4b160789b9133ab" prot="protected" static="no">
         <type>HashMap&lt; std::string, std::vector&lt; int &gt; &gt;</type>
@@ -19639,7 +19639,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="128" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="128" bodyend="-1"/>
+        <location file="MRViewer/MRShortcutManager.h" line="135" column="5" bodyfile="MRViewer/MRShortcutManager.h" bodystart="135" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gae157bdf17a7f295d510dd732d523f78f" prot="public" static="no">
         <type>bool</type>
@@ -61326,6 +61326,22 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRViewer/MRShortcutKey.h" line="16" column="9" bodyfile="MRViewer/MRShortcutKey.h" bodystart="16" bodyend="16"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gab6f1bc084d939e28f359acc2026c033c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::ShortcutKey::heldKey</definition>
+        <argsstring></argsstring>
+        <name>heldKey</name>
+        <qualifiedname>MR::ShortcutKey::heldKey</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>another key held down when <computeroutput>key</computeroutput> is pressed, e.g. Space in Space+1; 0 if none; matched by its GLFW code, not the keyboard layout; a shortcut on the held key alone also fires when a chord starts </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRShortcutKey.h" line="19" column="9" bodyfile="MRViewer/MRShortcutKey.h" bodystart="19" bodyend="19"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa42a0533a2fe264bfb7bd0bd85cada7f" prot="public" static="no" mutable="no">
         <type>std::vector&lt; ShortcutKey &gt;</type>
         <definition>std::vector&lt;ShortcutKey&gt; MR::Shortcut::keys</definition>
@@ -61339,7 +61355,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="36" column="17" bodyfile="MRViewer/MRShortcutKey.h" bodystart="36" bodyend="-1"/>
+        <location file="MRViewer/MRShortcutKey.h" line="39" column="17" bodyfile="MRViewer/MRShortcutKey.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2509265a76aadf7a2b292cb19021581e" prot="public" static="no" mutable="no">
         <type>ShortcutCategory</type>
@@ -61354,7 +61370,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="37" column="22" bodyfile="MRViewer/MRShortcutKey.h" bodystart="37" bodyend="37"/>
+        <location file="MRViewer/MRShortcutKey.h" line="40" column="22" bodyfile="MRViewer/MRShortcutKey.h" bodystart="40" bodyend="40"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8bb005062ea606a2a68ab2995184d194" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -61473,6 +61489,37 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRViewer/MRShortcutManager.h" line="46" column="37" bodyfile="MRViewer/MRShortcutManager.h" bodystart="46" bodyend="46"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga4b70a3665db3593d8683c4df132b231f" prot="protected" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::ShortcutManager::cModBits</definition>
+        <argsstring></argsstring>
+        <name>cModBits</name>
+        <qualifiedname>MR::ShortcutManager::cModBits</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+<para>bits of the modifiers and of the key in a map key, the held key takes the rest </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRShortcutManager.h" line="128" column="26" bodyfile="MRViewer/MRShortcutManager.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga025351c6db0d926bfff64eda31f6c7d2" prot="protected" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::ShortcutManager::cKeyBits</definition>
+        <argsstring></argsstring>
+        <name>cKeyBits</name>
+        <qualifiedname>MR::ShortcutManager::cKeyBits</qualifiedname>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRShortcutManager.h" line="129" column="26" bodyfile="MRViewer/MRShortcutManager.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" prot="protected" static="no" mutable="no">
         <type>bool</type>
         <definition>bool MR::ShortcutManager::enabled_</definition>
@@ -61487,7 +61534,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="130" column="10" bodyfile="MRViewer/MRShortcutManager.h" bodystart="130" bodyend="130"/>
+        <location file="MRViewer/MRShortcutManager.h" line="137" column="10" bodyfile="MRViewer/MRShortcutManager.h" bodystart="137" bodyend="137"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" prot="protected" static="no" mutable="no">
         <type>ShourtcutsMap</type>
@@ -61501,7 +61548,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="132" column="19" bodyfile="MRViewer/MRShortcutManager.h" bodystart="132" bodyend="-1"/>
+        <location file="MRViewer/MRShortcutManager.h" line="139" column="19" bodyfile="MRViewer/MRShortcutManager.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" prot="protected" static="no" mutable="no">
         <type>ShourtcutsBackMap</type>
@@ -61515,7 +61562,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="133" column="23" bodyfile="MRViewer/MRShortcutManager.h" bodystart="133" bodyend="-1"/>
+        <location file="MRViewer/MRShortcutManager.h" line="140" column="23" bodyfile="MRViewer/MRShortcutManager.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadf3fea364a499a2b41b73fb7fa94b301" prot="protected" static="no" mutable="yes">
         <type>std::optional&lt; ShortcutList &gt;</type>
@@ -61529,7 +61576,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="135" column="27" bodyfile="MRViewer/MRShortcutManager.h" bodystart="135" bodyend="-1"/>
+        <location file="MRViewer/MRShortcutManager.h" line="142" column="27" bodyfile="MRViewer/MRShortcutManager.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga79107d23834b7d624c70558d9acfcd38" prot="protected" static="no" mutable="no">
         <type>std::string</type>
@@ -158027,6 +158074,25 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRViewer/ImGuiMenu.h" line="474" column="7" declfile="MRViewer/ImGuiMenu.h" declline="474" declcolumn="7"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga82c81a65b2203662fea9340627bdf921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isKeyEventReserved</definition>
+        <argsstring>(ImGuiKey key)</argsstring>
+        <name>isKeyEventReserved</name>
+        <qualifiedname>MR::isKeyEventReserved</qualifiedname>
+        <param>
+          <type>ImGuiKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>returns true if reserveKeyEvent was called for this key in the last frame </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/ImGuiMenu.h" line="477" column="7" declfile="MRViewer/ImGuiMenu.h" declline="477" declcolumn="7"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1dd61ddfaca7ad57995cff3e85436742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::AlphaSortGL::~AlphaSortGL</definition>
@@ -181448,7 +181514,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="18" column="5"/>
+        <location file="MRViewer/MRShortcutKey.h" line="21" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga67149302afee0929f66dd656817d547b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -181462,7 +181528,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="39" column="5"/>
+        <location file="MRViewer/MRShortcutKey.h" line="42" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7aecb7b011ec90b32e20ea9b986fa587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -181484,7 +181550,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="40" column="5" bodyfile="MRViewer/MRShortcutKey.h" bodystart="40" bodyend="40"/>
+        <location file="MRViewer/MRShortcutKey.h" line="43" column="5" bodyfile="MRViewer/MRShortcutKey.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5111ff56ee83412c855b2f0d9ac09f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -181506,7 +181572,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="41" column="5" bodyfile="MRViewer/MRShortcutKey.h" bodystart="41" bodyend="41"/>
+        <location file="MRViewer/MRShortcutKey.h" line="44" column="5" bodyfile="MRViewer/MRShortcutKey.h" bodystart="44" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a42973ef5568cce8008642ce4d53e5f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -181523,7 +181589,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutKey.h" line="43" column="10"/>
+        <location file="MRViewer/MRShortcutKey.h" line="46" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac5d35f9b0ea4c909a2e0e182b46ca18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -181773,7 +181839,7 @@ returns true if load was succeed </para>
           <defval>true</defval>
         </param>
         <briefdescription>
-<para>make string from all modifiers and with/without key and returns it </para>
+<para>make string from all modifiers, the held key and with/without key and returns it, e.g. &quot;Ctrl+Space+1&quot; </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181870,7 +181936,7 @@ returns true if load was succeed </para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>parses a shortcut written as its modifiers and key separated by &quot;+&quot;, e.g. &quot;Primary+Shift+S&quot;, the inverse of getKeyFullString; returns nothing if any part is unknown </para>
+<para>parses a shortcut written as its modifiers and key separated by &quot;+&quot;, e.g. &quot;Primary+Shift+S&quot;, the inverse of getKeyFullString; a key name among the modifiers is the held key of a chord, e.g. &quot;Space+1&quot;; returns nothing if any part is unknown or there are several held keys </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -181969,7 +182035,30 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRShortcutManager.h" line="125" column="24" bodyfile="MRViewer/MRShortcutManager.h" bodystart="125" bodyend="125"/>
+        <location file="MRViewer/MRShortcutManager.h" line="125" column="24" bodyfile="MRViewer/MRShortcutManager.h" bodystart="125" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga41a4a80376fa59dec5b86d85456e9fdf" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::ShortcutManager::findHeldKey_</definition>
+        <argsstring>(int key, int mod) const</argsstring>
+        <name>findHeldKey_</name>
+        <qualifiedname>MR::ShortcutManager::findHeldKey_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mod</declname>
+        </param>
+        <briefdescription>
+<para>the held key, down now and not reserved by a <ref refid="namespaceMR_1_1UI" kindref="compound">UI</ref> hotkey (reserveKeyEvent), of a chord with given key and modifiers; 0 if none </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRShortcutManager.h" line="132" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga04d5a9c5ea64015a7ac8eccdf71e108e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
