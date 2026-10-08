@@ -8807,6 +8807,127 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRRenderModelParameters.h" line="39" column="1" bodyfile="MRMesh/MRRenderModelParameters.h" bodystart="40" bodyend="48"/>
       </memberdef>
+      <memberdef kind="enum" id="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ScalarType</name>
+        <qualifiedname>MR::ScalarType</qualifiedname>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" prot="public">
+          <name>UInt8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" prot="public">
+          <name>Int8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" prot="public">
+          <name>UInt16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" prot="public">
+          <name>Int16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" prot="public">
+          <name>UInt32</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" prot="public">
+          <name>Int32</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" prot="public">
+          <name>UInt64</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" prot="public">
+          <name>Int64</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" prot="public">
+          <name>Float32</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" prot="public">
+          <name>Float64</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" prot="public">
+          <name>Float32_4</name>
+          <briefdescription>
+<para>the last value from float[4] </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63" prot="public">
+          <name>RGB8</name>
+          <briefdescription>
+<para>8-bit red, green and blue components; the scalar value is their luma </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642" prot="public">
+          <name>RGBA8</name>
+          <briefdescription>
+<para>8-bit red, green, blue and alpha components as in <ref refid="structMR_1_1Color" kindref="compound">Color</ref>; the scalar value is the luma of the color components </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>scalar value&apos;s binary format type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRScalarConvert.h" line="13" column="1" bodyfile="MRMesh/MRScalarConvert.h" bodystart="14" bodyend="30"/>
+      </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" prot="public" static="no" strong="no">
         <type></type>
         <name>Type</name>
@@ -13824,111 +13945,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRVoxels/MROpenVDBHelper.h" line="179" column="5" bodyfile="MRVoxels/MROpenVDBHelper.h" bodystart="180" bodyend="183"/>
-      </memberdef>
-      <memberdef kind="enum" id="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ScalarType</name>
-        <qualifiedname>MR::ScalarType</qualifiedname>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" prot="public">
-          <name>UInt8</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" prot="public">
-          <name>Int8</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" prot="public">
-          <name>UInt16</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" prot="public">
-          <name>Int16</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" prot="public">
-          <name>UInt32</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" prot="public">
-          <name>Int32</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" prot="public">
-          <name>UInt64</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" prot="public">
-          <name>Int64</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" prot="public">
-          <name>Float32</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" prot="public">
-          <name>Float64</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" prot="public">
-          <name>Float32_4</name>
-          <briefdescription>
-<para>the last value from float[4] </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
-          <name>Unknown</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>scalar value&apos;s binary format type </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRScalarConvert.h" line="12" column="1" bodyfile="MRVoxels/MRScalarConvert.h" bodystart="13" bodyend="27"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" prot="public" static="no" strong="yes">
         <type></type>
@@ -142998,6 +143014,117 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRSaveSettings.h" line="124" column="21" declfile="MRMesh/MRSaveSettings.h" declline="124" declcolumn="21"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaecb1b9cc74ab928d3f2f8dc150689984" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::getScalarTypeSize</definition>
+        <argsstring>(ScalarType scalarType)</argsstring>
+        <name>getScalarTypeSize</name>
+        <qualifiedname>MR::getScalarTypeSize</qualifiedname>
+        <param>
+          <type>ScalarType</type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+<para>returns the size in bytes of a value of given type, or 0 for <ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType::Unknown</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRScalarConvert.h" line="33" column="10" declfile="MRMesh/MRScalarConvert.h" declline="33" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab6e8e67fbea857421ad3a3283681c636" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MinMaxd</type>
+        <definition>MinMaxd MR::getScalarTypeMinMax</definition>
+        <argsstring>(ScalarType scalarType)</argsstring>
+        <name>getScalarTypeMinMax</name>
+        <qualifiedname>MR::getScalarTypeMinMax</qualifiedname>
+        <param>
+          <type>ScalarType</type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for <ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType::Unknown</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRScalarConvert.h" line="37" column="11" declfile="MRMesh/MRScalarConvert.h" declline="37" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaced528923d8f8fed3f529de962457a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::function&lt; float(const char *)&gt;</type>
+        <definition>std::function&lt; float(const char *)&gt; MR::getTypeConverter</definition>
+        <argsstring>(ScalarType scalarType, const MinMaxd &amp;range)</argsstring>
+        <name>getTypeConverter</name>
+        <qualifiedname>MR::getTypeConverter</qualifiedname>
+        <param>
+          <type>ScalarType</type>
+          <declname>scalarType</declname>
+        </param>
+        <param>
+          <type>const MinMaxd &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalarType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- binary format type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRScalarConvert.h" line="43" column="16" declfile="MRMesh/MRScalarConvert.h" declline="43" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::invoke_result_t&lt; F, int &gt;</type>
+        <definition>std::invoke_result_t&lt; F, int &gt; MR::visitScalarType</definition>
+        <argsstring>(F &amp;&amp;f, ScalarType scalarType, const char *c)</argsstring>
+        <name>visitScalarType</name>
+        <qualifiedname>MR::visitScalarType</qualifiedname>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>ScalarType</type>
+          <declname>scalarType</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>More general template to pass a single value of specified format <computeroutput>scalarType</computeroutput> to a generic function <computeroutput>f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>the same luma as in convertImageToDistanceMap</para>
+        </inbodydescription>
+        <location file="MRMesh/MRScalarConvert.h" line="48" column="22" bodyfile="MRMesh/MRScalarConvert.h" bodystart="48" bodyend="90"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2213acc4e6b29595dcd41c3c01895fc6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const Color &amp;</type>
         <definition>static const Color &amp; MR::SceneColors::get</definition>
@@ -205094,90 +205221,6 @@ actually all zeros </para>
         <inbodydescription>
         </inbodydescription>
         <location file="MRVoxels/MRRebuildMesh.h" line="99" column="11" declfile="MRVoxels/MRRebuildMesh.h" declline="99" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0c019c040ba2230993e3fb3d8c92ce7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::function&lt; float(const char *)&gt;</type>
-        <definition>std::function&lt; float(const char *)&gt; MR::getTypeConverter</definition>
-        <argsstring>(ScalarType scalarType, std::uint64_t range, std::int64_t min)</argsstring>
-        <name>getTypeConverter</name>
-        <qualifiedname>MR::getTypeConverter</qualifiedname>
-        <param>
-          <type>ScalarType</type>
-          <declname>scalarType</declname>
-        </param>
-        <param>
-          <type>std::uint64_t</type>
-          <declname>range</declname>
-        </param>
-        <param>
-          <type>std::int64_t</type>
-          <declname>min</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>get a function to convert binary data of specified format type to a scalar value <parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>scalarType</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- binary format type </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>range</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- (for integer types only) the range of possible values </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>min</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- (for integer types only) the minimal value </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRScalarConvert.h" line="33" column="16" declfile="MRVoxels/MRScalarConvert.h" declline="33" declcolumn="16"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename F</type>
-          </param>
-        </templateparamlist>
-        <type>std::invoke_result_t&lt; F, int &gt;</type>
-        <definition>std::invoke_result_t&lt; F, int &gt; MR::visitScalarType</definition>
-        <argsstring>(F &amp;&amp;f, ScalarType scalarType, const char *c)</argsstring>
-        <name>visitScalarType</name>
-        <qualifiedname>MR::visitScalarType</qualifiedname>
-        <param>
-          <type>F &amp;&amp;</type>
-          <declname>f</declname>
-        </param>
-        <param>
-          <type>ScalarType</type>
-          <declname>scalarType</declname>
-        </param>
-        <param>
-          <type>const char *</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-<para>More general template to pass a single value of specified format <computeroutput>scalarType</computeroutput> to a generic function <computeroutput>f</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRScalarConvert.h" line="38" column="22" bodyfile="MRVoxels/MRScalarConvert.h" bodystart="38" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>auto</type>

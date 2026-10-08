@@ -1,5 +1,9 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1DenoiseWithCreasesSettings.html#a2811b6e89df4b0484c15b559d0cb8426":[9,3,0,0,0,1146,0],
+"classMR_1_1DenoiseWithCreasesSettings.html#a58f3ad257e43fa698e8f263d2b5d91ed":[9,3,0,0,0,1146,2],
+"classMR_1_1DenoiseWithCreasesSettings.html#a5b48e64ce96eeab5fa023ea483f4d350":[9,3,0,0,0,1146,3],
+"classMR_1_1DenoiseWithCreasesSettings.html#a627d553b7988e97678b6b7af6ea6b3b9":[9,3,0,0,0,1146,5],
 "classMR_1_1DenoiseWithCreasesSettings.html#a63b524433e5ad6f0b0f97eb1cf6b2b7b":[9,3,0,0,0,1146,8],
 "classMR_1_1DenoiseWithCreasesSettings.html#a8bb9efaab8f705ecd0c81b03adb35fb1":[9,3,0,0,0,1146,4],
 "classMR_1_1DenoiseWithCreasesSettings.html#ab6e775ce0d2107efb46cfe1b4bbd8d0d":[9,3,0,0,0,1146,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1DistanceMeasurementObject.html#aee91b33d8cefacc77edd416549f91883":[9,3,0,0,0,1162,48],
 "classMR_1_1DistanceMeasurementObject.html#af2787022b98b2017be163c5cccd9931f":[9,3,0,0,0,1162,43],
 "classMR_1_1DistanceMeasurementObject.html#afad345e3b5fa2c361bfc9cfa36d58c05":[9,3,0,0,0,1162,25],
-"classMR_1_1DistanceMeasurementObject.html#afee187ec6f720cfd5e7bd53cce4ea962":[9,3,0,0,0,1162,35],
-"classMR_1_1DistanceMeasurementObject.html#aff126bccbc4338c9e660b445f98ff2b6":[9,3,0,0,0,1162,10],
-"classMR_1_1DistanceToMeshOptions.html":[9,3,0,0,0,1163],
-"classMR_1_1DistanceToMeshOptions.html#a2564d0316126d2665acb3bff9c285ce0":[9,3,0,0,0,1163,5],
-"classMR_1_1DistanceToMeshOptions.html#a25ae60a5350b7b96e037e1bfce91821e":[9,3,0,0,0,1163,8]
+"classMR_1_1DistanceMeasurementObject.html#afee187ec6f720cfd5e7bd53cce4ea962":[9,3,0,0,0,1162,35]
 };

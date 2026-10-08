@@ -14371,6 +14371,7 @@
     <member refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kind="enum"><name>OutEdge2</name></member>
     <member refid="group__GeneralGroup_1ga6ab288ae813e1aa688312e31c258df71" kind="enum"><name>RelaxApproxType</name></member>
     <member refid="group__GeneralGroup_1ga712ee084e6055ce8fadbbe8cf8b3f6ce" kind="enum"><name>RenderModelPassMask</name></member>
+    <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
     <member refid="group__GeneralGroup_1ga280c060609c3f9f4b19b026220db29fe" kind="enum"><name>NeighborDir</name></member>
     <member refid="group__GeneralGroup_1ga03fba1fe0e5d6fe3c22dc41c9d57d309" kind="enum"><name>SignDetectionMode</name></member>
     <member refid="group__GeneralGroup_1ga07048ed78d40b323183d7f5479f821d0" kind="enum"><name>SignDetectionModeShort</name></member>
@@ -14410,7 +14411,6 @@
     <member refid="group__GeneralGroup_1gaa591847657e546eba90e70acf2185c02" kind="enum"><name>ZeroMode</name></member>
     <member refid="group__GeneralGroup_1ga3b6b94f5ad3595b510d6842ee045d493" kind="enum"><name>SideRegions</name></member>
     <member refid="group__GeneralGroup_1ga7da18eadf0576c3cb0a3c42de2f106db" kind="enum"><name>InsideMeshRule</name></member>
-    <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
     <member refid="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" kind="enum"><name>BypassDirection</name></member>
     <member refid="group__GeneralGroup_1ga88f1fdd848610bc41226918baa28e601" kind="enum"><name>MoveType</name></member>
     <member refid="group__GeneralGroup_1gae1af7aec8f28c8e85182ca94f5802435" kind="enum"><name>ArcPlane</name></member>
@@ -15857,6 +15857,10 @@
     <member refid="group__GeneralGroup_1ga7b5f265567104240be13bb0adc6d84f7" kind="function"><name>applyDouble</name></member>
     <member refid="group__GeneralGroup_1gab047e224fb3353ad1723fd634e961af5" kind="function"><name>transformPoints</name></member>
     <member refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" kind="function"><name>transformNormals</name></member>
+    <member refid="group__GeneralGroup_1gaecb1b9cc74ab928d3f2f8dc150689984" kind="function"><name>getScalarTypeSize</name></member>
+    <member refid="group__GeneralGroup_1gab6e8e67fbea857421ad3a3283681c636" kind="function"><name>getScalarTypeMinMax</name></member>
+    <member refid="group__GeneralGroup_1gaced528923d8f8fed3f529de962457a9a" kind="function"><name>getTypeConverter</name></member>
+    <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
     <member refid="group__GeneralGroup_1gad5ae7a8d3bd6824999f6568bffa233ad" kind="function"><name>createRootFormObject</name></member>
     <member refid="group__GeneralGroup_1gaabda96d9384f3d5e65c51a7147840ab1" kind="function"><name>segmentMesh</name></member>
     <member refid="group__GeneralGroup_1gaeebd4bef93283f73be72ea619fe1eca3" kind="function"><name>findSegmentBoundaries</name></member>
@@ -16404,8 +16408,6 @@
     <member refid="group__GeneralGroup_1gadb4c3ea9d9fc385fecb015c1b41bec58" kind="function"><name>polylineToFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1gaa920641fd86dd739a1409ad679445384" kind="function"><name>rebuildMesh</name></member>
     <member refid="group__GeneralGroup_1ga2e8f972be7a04d60a5748945b06ff2a8" kind="function"><name>postprocessMeshFromVoxels</name></member>
-    <member refid="group__GeneralGroup_1ga0c019c040ba2230993e3fb3d8c92ce7d" kind="function"><name>getTypeConverter</name></member>
-    <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
     <member refid="group__GeneralGroup_1gaff91c68f41381e746ca7f806ee6e6fc8" kind="function"><name>sortScansByOrder</name></member>
     <member refid="group__GeneralGroup_1gad32e4b25d65d4972f9223a5261cbd1b9" kind="function"><name>putScanFileNameInZ</name></member>
     <member refid="group__GeneralGroup_1ga5e508caef59590753520653304096fa8" kind="function"><name>sortScanFilesByName</name></member>
@@ -18411,6 +18413,9 @@
   </compound>
   <compound refid="MRSaveSettings_8h" kind="file"><name>MRSaveSettings.h</name>
   </compound>
+  <compound refid="MRScalarConvert_8h" kind="file"><name>MRScalarConvert.h</name>
+    <member refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kind="define"><name>M</name></member>
+  </compound>
   <compound refid="MRSceneColors_8h" kind="file"><name>MRSceneColors.h</name>
   </compound>
   <compound refid="MRSceneLoad_8h" kind="file"><name>MRSceneLoad.h</name>
@@ -19064,9 +19069,6 @@
   <compound refid="MRPolylineToVoxels_8h" kind="file"><name>MRPolylineToVoxels.h</name>
   </compound>
   <compound refid="MRRebuildMesh_8h" kind="file"><name>MRRebuildMesh.h</name>
-  </compound>
-  <compound refid="MRScalarConvert_8h" kind="file"><name>MRScalarConvert.h</name>
-    <member refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kind="define"><name>M</name></member>
   </compound>
   <compound refid="MRScanHelpers_8h" kind="file"><name>MRScanHelpers.h</name>
   </compound>
@@ -20954,6 +20956,22 @@
     <member refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6cea2c8629caa05b0fa4359a9e92093f6607" kind="enumvalue"><name>VolumeRendering</name></member>
     <member refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceaf69df7097e3ab319cda15613b634273a" kind="enumvalue"><name>NoDepthTest</name></member>
     <member refid="group__GeneralGroup_1gga712ee084e6055ce8fadbbe8cf8b3f6ceab1c94ca2fbc3e78fc30069c8d0f01680" kind="enumvalue"><name>All</name></member>
+    <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" kind="enumvalue"><name>UInt8</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" kind="enumvalue"><name>Int8</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" kind="enumvalue"><name>UInt16</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" kind="enumvalue"><name>Int16</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" kind="enumvalue"><name>UInt32</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" kind="enumvalue"><name>Int32</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" kind="enumvalue"><name>UInt64</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" kind="enumvalue"><name>Int64</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" kind="enumvalue"><name>Float32</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" kind="enumvalue"><name>Float64</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" kind="enumvalue"><name>Float32_4</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63" kind="enumvalue"><name>RGB8</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642" kind="enumvalue"><name>RGBA8</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" kind="enum"><name>Type</name></member>
     <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f" kind="enumvalue"><name>SelectedObjectMesh</name></member>
     <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa736ebf30fa5a88ee5cbede49aecbc3ef" kind="enumvalue"><name>UnselectedObjectMesh</name></member>
@@ -21570,20 +21588,6 @@
     <member refid="group__GeneralGroup_1gaa39d9c285d46ac3ce70aea92db6f9bf2" kind="enum"><name>Mode</name></member>
     <member refid="group__GeneralGroup_1ggaa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129" kind="enumvalue"><name>Leaves</name></member>
     <member refid="group__GeneralGroup_1ggaa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756" kind="enumvalue"><name>Tiles</name></member>
-    <member refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kind="enum"><name>ScalarType</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab31df9c476d20e85ff898121efe11b5a" kind="enumvalue"><name>UInt8</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a7d839b2c12bfd40ac121b4cc9e81c539" kind="enumvalue"><name>Int8</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a8bd950a9d7779b83f5c30046c9aaf1cf" kind="enumvalue"><name>UInt16</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a39bc2ae44b184207f560ff8619823208" kind="enumvalue"><name>Int16</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae7956ed7be1c5025a27ed3cb42a396bd" kind="enumvalue"><name>UInt32</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ac06129f6e6e15c09328365e553f1dc31" kind="enumvalue"><name>Int32</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8aaf71234725f0470ccf993e263a8b820a" kind="enumvalue"><name>UInt64</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8afbde23b11d7e59af7828e81144c8b487" kind="enumvalue"><name>Int64</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" kind="enumvalue"><name>Float32</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" kind="enumvalue"><name>Float64</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" kind="enumvalue"><name>Float32_4</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
-    <member refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="group__GeneralGroup_1ga496117b22a6f09546f0037fb4b5d43aa" kind="enum"><name>BypassDirection</name></member>
     <member refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaaba360a794737bcc8657a5b6e870d7ba8" kind="enumvalue"><name>Clockwise</name></member>
     <member refid="group__GeneralGroup_1gga496117b22a6f09546f0037fb4b5d43aaa8f23635f9ec49db2161fc5cddf033a79" kind="enumvalue"><name>CounterClockwise</name></member>
@@ -28832,6 +28836,10 @@
     <member refid="group__GeneralGroup_1ga4180132d13f552ef422f73a2ad0c6bdc" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gab047e224fb3353ad1723fd634e961af5" kind="function"><name>transformPoints</name></member>
     <member refid="group__GeneralGroup_1ga452464952a46f9611ea150f4851a9202" kind="function"><name>transformNormals</name></member>
+    <member refid="group__GeneralGroup_1gaecb1b9cc74ab928d3f2f8dc150689984" kind="function"><name>getScalarTypeSize</name></member>
+    <member refid="group__GeneralGroup_1gab6e8e67fbea857421ad3a3283681c636" kind="function"><name>getScalarTypeMinMax</name></member>
+    <member refid="group__GeneralGroup_1gaced528923d8f8fed3f529de962457a9a" kind="function"><name>getTypeConverter</name></member>
+    <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
     <member refid="group__GeneralGroup_1ga2213acc4e6b29595dcd41c3c01895fc6" kind="function"><name>get</name></member>
     <member refid="group__GeneralGroup_1gaab5702041286d77201bac4ce1254f2d0" kind="function"><name>set</name></member>
     <member refid="group__GeneralGroup_1gab707d437e87e22030a43899bb2baf017" kind="function"><name>getName</name></member>
@@ -31957,8 +31965,6 @@
     <member refid="group__GeneralGroup_1gadb4c3ea9d9fc385fecb015c1b41bec58" kind="function"><name>polylineToFunctionVolume</name></member>
     <member refid="group__GeneralGroup_1gaa920641fd86dd739a1409ad679445384" kind="function"><name>rebuildMesh</name></member>
     <member refid="group__GeneralGroup_1ga2e8f972be7a04d60a5748945b06ff2a8" kind="function"><name>postprocessMeshFromVoxels</name></member>
-    <member refid="group__GeneralGroup_1ga0c019c040ba2230993e3fb3d8c92ce7d" kind="function"><name>getTypeConverter</name></member>
-    <member refid="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" kind="function"><name>visitScalarType</name></member>
     <member refid="group__GeneralGroup_1ga2d712987f45ca23b27e048c4decf6293" kind="function"><name>operator&lt;=&gt;</name></member>
     <member refid="group__GeneralGroup_1gaff91c68f41381e746ca7f806ee6e6fc8" kind="function"><name>sortScansByOrder</name></member>
     <member refid="group__GeneralGroup_1gad32e4b25d65d4972f9223a5261cbd1b9" kind="function"><name>putScanFileNameInZ</name></member>

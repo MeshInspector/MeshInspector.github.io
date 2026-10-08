@@ -51819,6 +51819,22 @@
     <member refid="classMR_1a2cfe11534ca643c46387ccc93c6822d4a2c8629caa05b0fa4359a9e92093f6607" kind="enumvalue"><name>VolumeRendering</name></member>
     <member refid="classMR_1a2cfe11534ca643c46387ccc93c6822d4af69df7097e3ab319cda15613b634273a" kind="enumvalue"><name>NoDepthTest</name></member>
     <member refid="classMR_1a2cfe11534ca643c46387ccc93c6822d4ab1c94ca2fbc3e78fc30069c8d0f01680" kind="enumvalue"><name>All</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kind="enum"><name>ScalarType</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a" kind="enumvalue"><name>UInt8</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539" kind="enumvalue"><name>Int8</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea8bd950a9d7779b83f5c30046c9aaf1cf" kind="enumvalue"><name>UInt16</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea39bc2ae44b184207f560ff8619823208" kind="enumvalue"><name>Int16</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eae7956ed7be1c5025a27ed3cb42a396bd" kind="enumvalue"><name>UInt32</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eac06129f6e6e15c09328365e553f1dc31" kind="enumvalue"><name>Int32</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eaaf71234725f0470ccf993e263a8b820a" kind="enumvalue"><name>UInt64</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eafbde23b11d7e59af7828e81144c8b487" kind="enumvalue"><name>Int64</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea166495adc0d0f53bee6baecc577f5204" kind="enumvalue"><name>Float32</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0" kind="enumvalue"><name>Float64</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea3dced80f38319c510aa418c1dee5e142" kind="enumvalue"><name>Float32_4</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea165c6379d01617e12de274a3952efa63" kind="enumvalue"><name>RGB8</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eab4b279046a02077466fa26cabb00c642" kind="enumvalue"><name>RGBA8</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
+    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="classMR_1a2581a1561c74e2ad725a43e2a00f71d0" kind="enum"><name>NeighborDir</name></member>
     <member refid="classMR_1a2581a1561c74e2ad725a43e2a00f71d0a02129bb861061d1a052c592e2dc6b383" kind="enumvalue"><name>X</name></member>
     <member refid="classMR_1a2581a1561c74e2ad725a43e2a00f71d0a57cec4137b614c87cb4e24a3d003a3e0" kind="enumvalue"><name>Y</name></member>
@@ -51957,20 +51973,6 @@
     <member refid="classMR_1aaab5125bed355f42a81950b40e8dd142" kind="enum"><name>InsideMeshRule</name></member>
     <member refid="classMR_1aaab5125bed355f42a81950b40e8dd142a4e54356eb1e29dcab78f68189add6f1e" kind="enumvalue"><name>OddCrossings</name></member>
     <member refid="classMR_1aaab5125bed355f42a81950b40e8dd142ab5838c321dc8939d8443a5a8c783360a" kind="enumvalue"><name>PositiveWinding</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kind="enum"><name>ScalarType</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a" kind="enumvalue"><name>UInt8</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539" kind="enumvalue"><name>Int8</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea8bd950a9d7779b83f5c30046c9aaf1cf" kind="enumvalue"><name>UInt16</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea39bc2ae44b184207f560ff8619823208" kind="enumvalue"><name>Int16</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eae7956ed7be1c5025a27ed3cb42a396bd" kind="enumvalue"><name>UInt32</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eac06129f6e6e15c09328365e553f1dc31" kind="enumvalue"><name>Int32</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eaaf71234725f0470ccf993e263a8b820a" kind="enumvalue"><name>UInt64</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eafbde23b11d7e59af7828e81144c8b487" kind="enumvalue"><name>Int64</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea166495adc0d0f53bee6baecc577f5204" kind="enumvalue"><name>Float32</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0" kind="enumvalue"><name>Float64</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea3dced80f38319c510aa418c1dee5e142" kind="enumvalue"><name>Float32_4</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3" kind="enum"><name>BypassDirection</name></member>
     <member refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3aba360a794737bcc8657a5b6e870d7ba8" kind="enumvalue"><name>Clockwise</name></member>
     <member refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3a8f23635f9ec49db2161fc5cddf033a79" kind="enumvalue"><name>CounterClockwise</name></member>
@@ -53126,6 +53128,9 @@
     <member refid="classMR_1a37641a99def7680d0260d9dcd3b68d6d" kind="function"><name>applyDouble</name></member>
     <member refid="classMR_1a46d0a16a6fbb84371e7beca7802c93a3" kind="function"><name>transformPoints</name></member>
     <member refid="classMR_1ab23727f7c05d87866e6883be23ca73d0" kind="function"><name>transformNormals</name></member>
+    <member refid="classMR_1af2e2f921da07597ae62080f716f0a7d3" kind="function"><name>getScalarTypeSize</name></member>
+    <member refid="classMR_1a636873d3705fe5aef4bae49db0f335d0" kind="function"><name>getScalarTypeMinMax</name></member>
+    <member refid="classMR_1a263978db247c54699d410228fd14b81f" kind="function"><name>getTypeConverter</name></member>
     <member refid="classMR_1a287bed0de1310a19fb1f0e70310fc1a5" kind="function"><name>createRootFormObject</name></member>
     <member refid="classMR_1a2892a429fcca8d796d18aaa4487030c8" kind="function"><name>segmentMesh</name></member>
     <member refid="classMR_1a650432941efed7583f03292e595e1040" kind="function"><name>findSegmentBoundaries</name></member>
@@ -53783,7 +53788,6 @@
     <member refid="classMR_1ae2e6d5867bb99b1020ccafd327d08177" kind="function"><name>polylineToFunctionVolume</name></member>
     <member refid="classMR_1a4b0db30e86821abcdb5d2d088f815556" kind="function"><name>rebuildMesh</name></member>
     <member refid="classMR_1a6b377122641530f2431c891ac465fdde" kind="function"><name>postprocessMeshFromVoxels</name></member>
-    <member refid="classMR_1a0e859584baa00f107283a3b92d0be19d" kind="function"><name>getTypeConverter</name></member>
     <member refid="classMR_1a47c347c1ea42e180b5d0e030c33fe450" kind="function"><name>sortScansByOrder</name></member>
     <member refid="classMR_1a508c0f9086c8dedaf73a53064b1b50ab" kind="function"><name>putScanFileNameInZ</name></member>
     <member refid="classMR_1abfbb6bd2fa9f441f1049a4325f3d5d8b" kind="function"><name>sortScanFilesByName</name></member>
@@ -54968,6 +54972,9 @@
     <member refid="classMR_1a7d4b36d97a7bdd44a82fe5b12dec3d4b" kind="function"><name>__MR_applyFloat_const_MR_Matrix3d_ptr</name></member>
     <member refid="classMR_1a46ffaa6c2c2b2a3055e4ee1cd8e17ce7" kind="function"><name>__MR_transformNormals</name></member>
     <member refid="classMR_1aab979fe49059ec77cf2ae4f7d643d482" kind="function"><name>__MR_transformPoints</name></member>
+    <member refid="classMR_1a627d24718f201aa09481bd9e181c7c51" kind="function"><name>__MR_getScalarTypeMinMax</name></member>
+    <member refid="classMR_1a930f45cb33edf733069e2d3de0b7b4f1" kind="function"><name>__MR_getScalarTypeSize</name></member>
+    <member refid="classMR_1a385fb634c60b0d0fd07203afd32bcd1c" kind="function"><name>__MR_getTypeConverter</name></member>
     <member refid="classMR_1aff91835520d8f3efbcf885a66026ef97" kind="function"><name>__MR_createRootFormObject</name></member>
     <member refid="classMR_1ae887ea2717f57326ac275560048934b5" kind="function"><name>__MR_findSegmentBoundaries</name></member>
     <member refid="classMR_1ab12e41bea46c68a0c65917278a73c6f7" kind="function"><name>__MR_segmentMesh</name></member>
@@ -55625,7 +55632,6 @@
     <member refid="classMR_1a7409326d15b4fd72720d1299cfdf2fb7" kind="function"><name>__MR_polylineToVdbVolume</name></member>
     <member refid="classMR_1a9921109b347716dd470c13652aead4dc" kind="function"><name>__MR_postprocessMeshFromVoxels</name></member>
     <member refid="classMR_1a3df292ecd58e58c902ab40dce761a41d" kind="function"><name>__MR_rebuildMesh</name></member>
-    <member refid="classMR_1a9781ec771932cfddb92582743b6dd1f1" kind="function"><name>__MR_getTypeConverter</name></member>
     <member refid="classMR_1a4a41f9bc5af0c9ec3cf3c44736fcb9e9" kind="function"><name>__MR_putScanFileNameInZ</name></member>
     <member refid="classMR_1a87813848f1ddbfb1b05dc6ceb58d84a3" kind="function"><name>__MR_sortScanFilesByName</name></member>
     <member refid="classMR_1a050988704643df330ca265b7750449de" kind="function"><name>__MR_sortScansByOrder</name></member>
@@ -71645,6 +71651,8 @@
   </compound>
   <compound refid="MRSaveSettings_8cs" kind="file"><name>MRSaveSettings.cs</name>
   </compound>
+  <compound refid="MRScalarConvert_8cs" kind="file"><name>MRScalarConvert.cs</name>
+  </compound>
   <compound refid="MRSceneColors_8cs" kind="file"><name>MRSceneColors.cs</name>
   </compound>
   <compound refid="MRSceneLoad_8cs" kind="file"><name>MRSceneLoad.cs</name>
@@ -71822,8 +71830,6 @@
   <compound refid="MRPolylineToVoxels_8cs" kind="file"><name>MRPolylineToVoxels.cs</name>
   </compound>
   <compound refid="MRRebuildMesh_8cs" kind="file"><name>MRRebuildMesh.cs</name>
-  </compound>
-  <compound refid="MRScalarConvert_8cs" kind="file"><name>MRScalarConvert.cs</name>
   </compound>
   <compound refid="MRScanHelpers_8cs" kind="file"><name>MRScanHelpers.cs</name>
   </compound>

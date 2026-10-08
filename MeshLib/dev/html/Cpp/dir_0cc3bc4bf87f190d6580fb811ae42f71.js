@@ -367,6 +367,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRRigidXf3.h", "MRRigidXf3_8h.html", null ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
     [ "MRSaveSettings.h", "MRSaveSettings_8h.html", "MRSaveSettings_8h" ],
+    [ "MRScalarConvert.h", "MRScalarConvert_8h.html", "MRScalarConvert_8h" ],
     [ "MRSceneColors.h", "MRSceneColors_8h.html", null ],
     [ "MRSceneLoad.h", "MRSceneLoad_8h.html", "MRSceneLoad_8h" ],
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", "MRSceneRoot_8h" ],

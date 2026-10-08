@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985":[9,0,0,17,20],
+"group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35":[9,0,0,17,17],
+"group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c":[9,0,0,17,25],
+"group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f":[9,0,0,17,8],
 "group__VoxelGroup.html#ga381737dfbef1fd95586ae4f44b63b468":[9,0,0,17,23],
 "group__VoxelGroup.html#ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e":[9,0,0,17,28],
 "group__VoxelGroup.html#ga3f90dd1eb37b8e96421048a44936a299":[9,0,0,17,18],
@@ -128,16 +132,16 @@ var NAVTREEINDEX59 =
 "namespaceMR.html#a03d4bc2fa6d66cfcaa8ed9d0b124e863":[9,0,1,0,1,1048],
 "namespaceMR.html#a0df0f857bd84e84b19954332c9dcfae5":[9,0,1,0,1,1051],
 "namespaceMR.html#a180687f93fbe5cc6216008e26099f5f8":[9,0,1,0,1,1049],
-"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2457],
-"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2344],
+"namespaceMR.html#a4c95ee49f1806c7573241fe7617401c9":[9,0,1,0,1,2459],
+"namespaceMR.html#a90e7a361537bcd60aa55bcec6cc4ffb1":[9,0,1,0,1,2346],
 "namespaceMR.html#a9381161a7388eeabb33982f4df1cf1c3":[9,0,1,0,1,1052],
 "namespaceMR.html#a93836181db6f59783ce1351a98d59cb8":[9,0,1,0,1,1050],
 "namespaceMR.html#a93bff7f59121c9c61175744b11326824":[9,0,1,0,1,996],
 "namespaceMR.html#a94d7093d57cb27ac9abdfb241ddb6bc0":[9,0,1,0,1,1053],
-"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2456],
-"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3144],
-"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2336],
-"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2455],
+"namespaceMR.html#a9e77619da9231f0a8ee9ca39edfbaf11":[9,0,1,0,1,2458],
+"namespaceMR.html#aca010840c751d4c7b1a30bcd55fe5cdd":[9,0,1,0,1,3146],
+"namespaceMR.html#adc6c309b18d3d1c442591ea06f9cb26c":[9,0,1,0,1,2338],
+"namespaceMR.html#af57a9e992da58c4255497330494f5790":[9,0,1,0,1,2457],
 "namespaceMR_1_1AsyncObjectLoad.html":[9,0,1,0,1,0],
 "namespaceMR_1_1AsyncObjectLoad.html#a00566fda9bf4c9254ac5d2d9ffe7208d":[9,0,1,0,1,0,1],
 "namespaceMR_1_1AsyncObjectLoad.html#a5be8803f8be8c57d2ec98589759c0507":[9,0,1,0,1,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[9,0,1,0,1,15,15],
 "namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f":[9,0,1,0,1,15,18],
 "namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255":[9,0,1,0,1,15,10],
-"namespaceMR_1_1ImGuiMath_1_1detail.html":[9,0,1,0,1,15,0],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html":[9,0,1,0,1,16],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a10f8eed093365dade4b8f37a4bdf05fb":[9,0,1,0,1,16,21],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a491df75b1eafcddfde28b6ed4dd4c88c":[9,0,1,0,1,16,20],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6a":[9,0,1,0,1,16,16]
+"namespaceMR_1_1ImGuiMath_1_1detail.html":[9,0,1,0,1,15,0]
 };

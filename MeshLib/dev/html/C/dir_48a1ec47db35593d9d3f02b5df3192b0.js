@@ -316,6 +316,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRRigidXf3.h", "MRRigidXf3_8h.html", "MRRigidXf3_8h" ],
     [ "MRRingIterator.h", "MRRingIterator_8h.html", "MRRingIterator_8h" ],
     [ "MRSaveSettings.h", "MRSaveSettings_8h.html", "MRSaveSettings_8h" ],
+    [ "MRScalarConvert.h", "MRScalarConvert_8h.html", "MRScalarConvert_8h" ],
     [ "MRSceneColors.h", "MRSceneColors_8h.html", "MRSceneColors_8h" ],
     [ "MRSceneLoad.h", "MRSceneLoad_8h.html", "MRSceneLoad_8h" ],
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", "MRSceneRoot_8h" ],

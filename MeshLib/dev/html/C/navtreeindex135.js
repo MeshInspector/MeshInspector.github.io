@@ -1,5 +1,10 @@
 var NAVTREEINDEX135 =
 {
+"expected__MR__Cuda__DeviceInfo__std__string_8h.html#a0c5741669ec9a98bcebc7840d013e4fd":[9,2,2,0,0,1,0,0,0,3],
+"expected__MR__Cuda__DeviceInfo__std__string_8h.html#a43a98738096d1151919fd0cc091c5f83":[9,2,2,0,0,1,0,0,0,6],
+"expected__MR__Cuda__DeviceInfo__std__string_8h.html#a5c545507a4e2b31cad9d583e3e71c025":[9,2,2,0,0,1,0,0,0,2],
+"expected__MR__Cuda__DeviceInfo__std__string_8h.html#a80a3625bd64a00a7d9a4f869504877e8":[9,2,2,0,0,1,0,0,0,9],
+"expected__MR__Cuda__DeviceInfo__std__string_8h.html#a8746a6034e84bb6ec03a16fbd58521ff":[9,2,2,0,0,1,0,0,0,8],
 "expected__MR__Cuda__DeviceInfo__std__string_8h.html#a9addbe8ad295167a0fa98f9b3f6fd89a":[9,2,2,0,0,1,0,0,0,11],
 "expected__MR__Cuda__DeviceInfo__std__string_8h.html#aa1e0868c7076b3e03c59fa52f696cc26":[9,2,2,0,0,1,0,0,0,14],
 "expected__MR__Cuda__DeviceInfo__std__string_8h.html#aaaf31aad9dc9c5e96e4c0e567ccec120":[9,2,2,0,0,1,0,0,0,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX135 =
 "expected__MR__ObjectPoints__std__string_8h.html#a176e5c4e940a0dfbd3cbce1eb69313f2":[9,2,2,0,0,0,0,2,19,9],
 "expected__MR__ObjectPoints__std__string_8h.html#a4d8230ab41e3ac2fb908ce1fa54a8f85":[9,2,2,0,0,0,0,2,19,0],
 "expected__MR__ObjectPoints__std__string_8h.html#a5fed1e437f6d7850934c9b5eed47f414":[9,2,2,0,0,0,0,2,19,3],
-"expected__MR__ObjectPoints__std__string_8h.html#a68a1939186fd156bbf74611250b62cef":[9,2,2,0,0,0,0,2,19,5],
-"expected__MR__ObjectPoints__std__string_8h.html#a6bb0b9090ff8d288a492a64719602880":[9,2,2,0,0,0,0,2,19,4],
-"expected__MR__ObjectPoints__std__string_8h.html#a73066536a1a7385f2946468744dc8d2d":[9,2,2,0,0,0,0,2,19,12],
-"expected__MR__ObjectPoints__std__string_8h.html#a92fba2b71c674bd284c27ce92b6d654a":[9,2,2,0,0,0,0,2,19,8],
-"expected__MR__ObjectPoints__std__string_8h.html#aa13ce2b283d9e85f75356cdf86af5b59":[9,2,2,0,0,0,0,2,19,6],
-"expected__MR__ObjectPoints__std__string_8h.html#ab63f6acd166c85050b6ac8649fd70228":[9,2,2,0,0,0,0,2,19,1]
+"expected__MR__ObjectPoints__std__string_8h.html#a68a1939186fd156bbf74611250b62cef":[9,2,2,0,0,0,0,2,19,5]
 };

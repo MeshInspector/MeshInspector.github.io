@@ -1,5 +1,9 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a30ca6dfdbb0b7a47e390cbe2c987f334":[9,3,0,0,0,1230,7,4],
+"classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#a8987cee399c786f246a79f77f645ddfc":[9,3,0,0,0,1230,7,7],
+"classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aaf7fe53da7d5d1c173bc6d561c7e5f9e":[9,3,0,0,0,1230,7,5],
+"classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#acce3085933a97bd0ed0660aaa88b61f9":[9,3,0,0,0,1230,7,0],
 "classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#ae28ab534ab259e3d603eecedd230d12c":[9,3,0,0,0,1230,7,8],
 "classMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aef2dc3df4ce571d1d7a8163b1f336dfa":[9,3,0,0,0,1230,7,3],
 "classMR_1_1FloatGrid.html":[9,3,0,0,0,1231],
@@ -245,9 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1GridToMeshSettings.html#ac4a546b1910f492043db5ea0acc19e34":[9,3,0,0,0,1250,4],
 "classMR_1_1GridToMeshSettings.html#ac53ef8702a4d873c7d4d4932220fe82c":[9,3,0,0,0,1250,2],
 "classMR_1_1GridToMeshSettings.html#af5766fa330ebb77d8b3c2689f03b884d":[9,3,0,0,0,1250,5],
-"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html":[9,3,0,0,0,1251],
-"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#a008d083ebc2a143e0de24d0270059851":[9,3,0,0,0,1251,12],
-"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#a1b1edd51b751dd94363c7f90f103051a":[9,3,0,0,0,1251,5],
-"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#a1bf79a3e6fdb5d1bab89764e02ff3e94":[9,3,0,0,0,1251,6],
-"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html#a27aefb96c9473ddf8097478adfd67c8a":[9,3,0,0,0,1251,8]
+"classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat.html":[9,3,0,0,0,1251]
 };

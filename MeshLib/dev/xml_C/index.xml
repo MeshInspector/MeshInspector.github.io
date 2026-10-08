@@ -22893,6 +22893,29 @@
     <member refid="MRSaveSettings_8h_1aba019337d4010cdcf79405454ec8c1f5" kind="function"><name>MR_transformPoints</name></member>
     <member refid="MRSaveSettings_8h_1a35e393952c9b273026d176331b4d4921" kind="function"><name>MR_transformNormals</name></member>
   </compound>
+  <compound refid="MRScalarConvert_8h" kind="file"><name>MRScalarConvert.h</name>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kind="enum"><name>MR_ScalarType</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a033f7a6929186c68993cf03f69e1f02d" kind="enumvalue"><name>MR_ScalarType_UInt8</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a85a22bf011d778d56102be830977ef42" kind="enumvalue"><name>MR_ScalarType_Int8</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ae5027e09ff6318ec81849f25780ab935" kind="enumvalue"><name>MR_ScalarType_UInt16</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a541d3fdfceee06e5172edde10ac038ec" kind="enumvalue"><name>MR_ScalarType_Int16</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a0e166a2fece126e8ec2494816f392d98" kind="enumvalue"><name>MR_ScalarType_UInt32</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a284d624dbabc4fe1aa36b2be2fe1dfaa" kind="enumvalue"><name>MR_ScalarType_Int32</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26abfd8138bda3918f67850bd7ef31dca1b" kind="enumvalue"><name>MR_ScalarType_UInt64</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a3f37149a93c34923b4f9258465a4ccb7" kind="enumvalue"><name>MR_ScalarType_Int64</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5" kind="enumvalue"><name>MR_ScalarType_Float32</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c" kind="enumvalue"><name>MR_ScalarType_Float64</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" kind="enumvalue"><name>MR_ScalarType_Float32_4</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4" kind="enumvalue"><name>MR_ScalarType_RGB8</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701" kind="enumvalue"><name>MR_ScalarType_RGBA8</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" kind="enumvalue"><name>MR_ScalarType_Unknown</name></member>
+    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" kind="enumvalue"><name>MR_ScalarType_Count</name></member>
+    <member refid="MRScalarConvert_8h_1a6513aac0d66c11e07fefbd0c297f54cf" kind="typedef"><name>MR_std_function_float_from_const_char_ptr</name></member>
+    <member refid="MRScalarConvert_8h_1af35de36846ccdc81378f0c9a85984525" kind="typedef"><name>MR_ScalarType</name></member>
+    <member refid="MRScalarConvert_8h_1a8681ebff0218398e5a876fd223991e7b" kind="function"><name>MR_getScalarTypeSize</name></member>
+    <member refid="MRScalarConvert_8h_1a58141f9ae02b706e004a57ee5ca037e6" kind="function"><name>MR_getScalarTypeMinMax</name></member>
+    <member refid="MRScalarConvert_8h_1a16b43726507c6326ba804fc3346e1735" kind="function"><name>MR_getTypeConverter</name></member>
+  </compound>
   <compound refid="MRSceneColors_8h" kind="file"><name>MRSceneColors.h</name>
     <member refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kind="enum"><name>MR_SceneColors_Type</name></member>
     <member refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763babafeac52b8a53c33df9b984bebf1b98dd1" kind="enumvalue"><name>MR_SceneColors_Type_SelectedObjectMesh</name></member>
@@ -33616,7 +33639,6 @@
     <member refid="std__function__expected__void__std__string__from__std__vector__float__rvalue__ref__const__MR__Vector3i__ref____42b9_8h_1a5105d7db71890075089ff8ac0ed31377" kind="function"><name>MR_std_function_expected_void_std_string_from_std_vector_float_rvalue_ref_const_MR_Vector3i_ref_int_AssignEx</name></member>
   </compound>
   <compound refid="std__function__float__from__const__char__ptr_8h" kind="file"><name>std_function_float_from_const_char_ptr.h</name>
-    <member refid="std__function__float__from__const__char__ptr_8h_1a6513aac0d66c11e07fefbd0c297f54cf" kind="typedef"><name>MR_std_function_float_from_const_char_ptr</name></member>
     <member refid="std__function__float__from__const__char__ptr_8h_1a542450af33ce5aa991c6e4c53318c744" kind="function"><name>MR_std_function_float_from_const_char_ptr_DefaultConstruct</name></member>
     <member refid="std__function__float__from__const__char__ptr_8h_1a01e5d3e3dd3e39679f6b9d03c78eea5c" kind="function"><name>MR_std_function_float_from_const_char_ptr_DefaultConstructArray</name></member>
     <member refid="std__function__float__from__const__char__ptr_8h_1adc59cff02163244b61bbf5900187b446" kind="function"><name>MR_std_function_float_from_const_char_ptr_ConstructFromAnother</name></member>
@@ -52263,24 +52285,6 @@
     <member refid="MRRebuildMesh_8h_1ac1c228e3c0100d87d445e42cf650cb99" kind="function"><name>MR_MeshFromVoxelsPostProcessingParams_DestroyArray</name></member>
     <member refid="MRRebuildMesh_8h_1addcde2854a6d8c0c6ba87dd17d17f7ca" kind="function"><name>MR_MeshFromVoxelsPostProcessingParams_AssignFromAnother</name></member>
     <member refid="MRRebuildMesh_8h_1a72b4f31d13e1af6b2aa0245528b7a013" kind="function"><name>MR_postprocessMeshFromVoxels</name></member>
-  </compound>
-  <compound refid="MRScalarConvert_8h" kind="file"><name>MRScalarConvert.h</name>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kind="enum"><name>MR_ScalarType</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a033f7a6929186c68993cf03f69e1f02d" kind="enumvalue"><name>MR_ScalarType_UInt8</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a85a22bf011d778d56102be830977ef42" kind="enumvalue"><name>MR_ScalarType_Int8</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ae5027e09ff6318ec81849f25780ab935" kind="enumvalue"><name>MR_ScalarType_UInt16</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a541d3fdfceee06e5172edde10ac038ec" kind="enumvalue"><name>MR_ScalarType_Int16</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a0e166a2fece126e8ec2494816f392d98" kind="enumvalue"><name>MR_ScalarType_UInt32</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a284d624dbabc4fe1aa36b2be2fe1dfaa" kind="enumvalue"><name>MR_ScalarType_Int32</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26abfd8138bda3918f67850bd7ef31dca1b" kind="enumvalue"><name>MR_ScalarType_UInt64</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a3f37149a93c34923b4f9258465a4ccb7" kind="enumvalue"><name>MR_ScalarType_Int64</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5" kind="enumvalue"><name>MR_ScalarType_Float32</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c" kind="enumvalue"><name>MR_ScalarType_Float64</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" kind="enumvalue"><name>MR_ScalarType_Float32_4</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" kind="enumvalue"><name>MR_ScalarType_Unknown</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" kind="enumvalue"><name>MR_ScalarType_Count</name></member>
-    <member refid="MRScalarConvert_8h_1af35de36846ccdc81378f0c9a85984525" kind="typedef"><name>MR_ScalarType</name></member>
-    <member refid="MRScalarConvert_8h_1a83f6c95549a78bd31f73fd35598d74b6" kind="function"><name>MR_getTypeConverter</name></member>
   </compound>
   <compound refid="MRScanHelpers_8h" kind="file"><name>MRScanHelpers.h</name>
     <member refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kind="typedef"><name>MR_SliceInfoBase</name></member>

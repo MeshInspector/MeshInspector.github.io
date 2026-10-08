@@ -46,6 +46,7 @@
     <includedby refid="MRPointObject_8h" local="no">MRPointObject.h</includedby>
     <includedby refid="MRPolyline_8h" local="no">MRPolyline.h</includedby>
     <includedby refid="MRRadiusMeasurementObject_8h" local="no">MRRadiusMeasurementObject.h</includedby>
+    <includedby refid="MRScalarConvert_8h" local="no">MRScalarConvert.h</includedby>
     <includedby refid="MRSceneRoot_8h" local="no">MRSceneRoot.h</includedby>
     <includedby refid="MRSphereObject_8h" local="no">MRSphereObject.h</includedby>
     <includedby refid="MRSweptVolume_8h" local="no">MRSweptVolume.h</includedby>
@@ -232,17 +233,15 @@
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
         <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
         <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
@@ -251,6 +250,10 @@
         <childnode refid="50" relation="include">
         </childnode>
         <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -360,10 +363,16 @@
         <link refid="MRRadiusMeasurementObject_8h"/>
       </node>
       <node id="42">
+        <label>MRScalarConvert.h</label>
+        <link refid="MRScalarConvert_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
         <label>MRSceneRoot.h</label>
         <link refid="MRSceneRoot_8h"/>
       </node>
-      <node id="43">
+      <node id="45">
         <label>MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
       </node>
@@ -371,19 +380,19 @@
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
       </node>
-      <node id="47">
+      <node id="49">
         <label>MRXfBasedCache.h</label>
         <link refid="MRXfBasedCache_8h"/>
       </node>
-      <node id="48">
+      <node id="50">
         <label>std_optional_MR_Box1f.h</label>
         <link refid="std__optional__MR__Box1f_8h"/>
       </node>
-      <node id="49">
+      <node id="51">
         <label>std_optional_MR_Box3f.h</label>
         <link refid="std__optional__MR__Box3f_8h"/>
       </node>
-      <node id="50">
+      <node id="52">
         <label>std_pair_const_int_MR_Box3i.h</label>
         <link refid="std__pair__const__int__MR__Box3i_8h"/>
       </node>
@@ -391,7 +400,7 @@
         <label>std_variant_MR_PdfBuildinFont_std_filesystem_path.h</label>
         <link refid="std__variant__MR__PdfBuildinFont__std__filesystem__path_8h"/>
       </node>
-      <node id="51">
+      <node id="53">
         <label>std_vector_MR_Box3f.h</label>
         <link refid="std__vector__MR__Box3f_8h"/>
       </node>
@@ -407,15 +416,19 @@
         <label>MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
       </node>
-      <node id="44">
+      <node id="46">
         <label>MRSweptVolume.h</label>
         <link refid="MRSweptVolume_8h"/>
       </node>
-      <node id="45">
+      <node id="47">
         <label>MRVDBConversions.h</label>
         <link refid="MRVDBConversions_8h"/>
       </node>
-      <node id="46">
+      <node id="43">
+        <label>MRVoxelsLoad.h</label>
+        <link refid="MRVoxelsLoad_8h"/>
+      </node>
+      <node id="48">
         <label>MRVoxelsVolume.h</label>
         <link refid="MRVoxelsVolume_8h"/>
       </node>

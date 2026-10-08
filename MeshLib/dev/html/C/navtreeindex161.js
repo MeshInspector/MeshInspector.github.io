@@ -1,5 +1,9 @@
 var NAVTREEINDEX161 =
 {
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a711e93bc1f9cc8c144c6a37584317c0c":[9,2,2,0,0,1,0,0,12,16],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a749ea1de2e5fcd2e0f35d65c8293d69b":[9,2,2,0,0,1,0,0,12,10],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a849352edd4a22a97fd742423756d77c8":[9,2,2,0,0,1,0,0,12,17],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a9b51396faae7b97d4689e6fe1027557f":[9,2,2,0,0,1,0,0,12,5],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#aa38827560cd64569b28362ca4873ae89":[9,2,2,0,0,1,0,0,12,7],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#ac1441cea3e70d50c9dac33253f1a4b8e":[9,2,2,0,0,1,0,0,12,8],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#ac20fb4b19da884b7f0eadf915fa55f5a":[9,2,2,0,0,1,0,0,12,18],
@@ -245,9 +249,5 @@ var NAVTREEINDEX161 =
 "std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#aea5edd76e1ee2cbb544d0871c097d311":[9,2,2,0,0,0,0,2,354,7],
 "std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#af1d3069c70acefcaf060cb2c9f320a62":[9,2,2,0,0,0,0,2,354,11],
 "std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_source.html":[9,2,2,0,0,0,0,2,354],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html":[9,2,2,0,0,0,0,2,353],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a0ace502fa08f84485e4ce9e8add1e8fe":[9,2,2,0,0,0,0,2,353,7],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a1591e8794d970d0353940b4abd2a643e":[9,2,2,0,0,0,0,2,353,2],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a225e872c5d02072ce82e90020a96c617":[9,2,2,0,0,0,0,2,353,12],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3ac49b10a3f8d9b5da02fa8bcde7c82a":[9,2,2,0,0,0,0,2,353,1]
+"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html":[9,2,2,0,0,0,0,2,353]
 };

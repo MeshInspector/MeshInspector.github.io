@@ -1,5 +1,9 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1Const__InSphereSearchSettings.html#a6a1a85a4973c3daca4d9eabd66d11a27":[9,3,0,0,0,515,14],
+"classMR_1_1Const__InSphereSearchSettings.html#a6bed451141bff4bc62cf7b721379e285":[9,3,0,0,0,515,5],
+"classMR_1_1Const__InSphereSearchSettings.html#a6fdb94d0ddf46155c263bdb12dcd17aa":[9,3,0,0,0,515,1],
+"classMR_1_1Const__InSphereSearchSettings.html#a7c11d016999382d00eef95b853984584":[9,3,0,0,0,515,0],
 "classMR_1_1Const__InSphereSearchSettings.html#a8e790144ab3cb3baad7abaa291bac0be":[9,3,0,0,0,515,2],
 "classMR_1_1Const__InSphereSearchSettings.html#a9476d0ddf13365e9667153c73295fc30":[9,3,0,0,0,515,8],
 "classMR_1_1Const__InSphereSearchSettings.html#aac890cf14d33e355b3515015f354a795":[9,3,0,0,0,515,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html#acb79376dbb60039bcc2686bf09e8af0a":[9,3,0,0,0,542,5],
 "classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html#aff96778d231718746de7a90b6889c5d4":[9,3,0,0,0,542,1],
 "classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html":[9,3,0,0,0,543],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a1182a91dbf09a01fecb7dcd4af64269f":[9,3,0,0,0,543,2],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a166e2c3ef071679ba1c93895cdb9faae":[9,3,0,0,0,543,5],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a3e3d08c03792f87015932a5810a65ecb":[9,3,0,0,0,543,0],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a7b81a0ed2f6a3031a5d8f155d1b2c4ee":[9,3,0,0,0,543,7],
-"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a858b5cf9069843221f52fe9cf2dde2e6":[9,3,0,0,0,543,3]
+"classMR_1_1Const__IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html#a1182a91dbf09a01fecb7dcd4af64269f":[9,3,0,0,0,543,2]
 };

@@ -21,7 +21,6 @@ var dir_0a2b2b3c4a45c3f535d8cb570d2e647d =
     [ "MRPointsToMeshFusion.h", "MRPointsToMeshFusion_8h.html", "MRPointsToMeshFusion_8h" ],
     [ "MRPolylineToVoxels.h", "MRPolylineToVoxels_8h.html", "MRPolylineToVoxels_8h" ],
     [ "MRRebuildMesh.h", "MRRebuildMesh_8h.html", "MRRebuildMesh_8h" ],
-    [ "MRScalarConvert.h", "MRScalarConvert_8h.html", "MRScalarConvert_8h" ],
     [ "MRScanHelpers.h", "MRScanHelpers_8h.html", "MRScanHelpers_8h" ],
     [ "MRSequentialNester.h", "MRSequentialNester_8h.html", "MRSequentialNester_8h" ],
     [ "MRSweptVolume.h", "MRSweptVolume_8h.html", "MRSweptVolume_8h" ],

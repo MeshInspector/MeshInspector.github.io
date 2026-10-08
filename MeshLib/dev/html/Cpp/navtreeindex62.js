@@ -1,5 +1,9 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1BMap.html":[9,0,0,20,143],
+"structMR_1_1Ball.html":[9,0,0,20,127],
+"structMR_1_1BallPivotCandidate.html":[9,0,0,20,125],
+"structMR_1_1BaseFitParams.html":[9,0,0,20,600],
 "structMR_1_1BaseRenderParams.html":[9,0,0,20,307],
 "structMR_1_1BaseShellParameters.html":[9,0,0,20,869],
 "structMR_1_1BaseTiffParameters.html":[9,0,0,20,519],
@@ -245,9 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DeloneFlipsCache.html#a9a35236144629c8b122c73e09d8a57b3":[9,0,2,0,2,191,4],
 "structMR_1_1DeloneSettings.html":[9,0,1,0,1,210],
 "structMR_1_1DeloneSettings.html":[9,0,2,0,2,192],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[9,0,1,0,1,210,5],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[9,0,2,0,2,192,5],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[9,0,1,0,1,210,2],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[9,0,2,0,2,192,2],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[9,0,1,0,1,210,4]
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[9,0,1,0,1,210,5]
 };

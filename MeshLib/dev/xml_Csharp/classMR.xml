@@ -3910,6 +3910,142 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" line="264" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRenderModelParameters.cs" bodystart="265" bodyend="271"/>
       </memberdef>
+      <memberdef kind="enum" id="classMR_1a84b05c595bca2e76755d6b627c5b940e" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>ScalarType</name>
+        <qualifiedname>MR.ScalarType</qualifiedname>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a" prot="public">
+          <name>UInt8</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539" prot="public">
+          <name>Int8</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea8bd950a9d7779b83f5c30046c9aaf1cf" prot="public">
+          <name>UInt16</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea39bc2ae44b184207f560ff8619823208" prot="public">
+          <name>Int16</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eae7956ed7be1c5025a27ed3cb42a396bd" prot="public">
+          <name>UInt32</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eac06129f6e6e15c09328365e553f1dc31" prot="public">
+          <name>Int32</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eaaf71234725f0470ccf993e263a8b820a" prot="public">
+          <name>UInt64</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eafbde23b11d7e59af7828e81144c8b487" prot="public">
+          <name>Int64</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea166495adc0d0f53bee6baecc577f5204" prot="public">
+          <name>Float32</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0" prot="public">
+          <name>Float64</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea3dced80f38319c510aa418c1dee5e142" prot="public">
+          <name>Float32_4</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>the last value from float[4] </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea165c6379d01617e12de274a3952efa63" prot="public">
+          <name>RGB8</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>8-bit red, green and blue components; the scalar value is their luma </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eab4b279046a02077466fa26cabb00c642" prot="public">
+          <name>RGBA8</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+<para>8-bit red, green, blue and alpha components as in <ref refid="structMR_1_1Color" kindref="compound">Color</ref>; the scalar value is the luma of the color components </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>scalar value's binary format type </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="7" bodyend="32"/>
+      </memberdef>
       <memberdef kind="enum" id="classMR_1a2581a1561c74e2ad725a43e2a00f71d0" prot="public" static="no" strong="yes">
         <type>int</type>
         <name>NeighborDir</name>
@@ -5135,124 +5271,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="622" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="623" bodyend="634"/>
-      </memberdef>
-      <memberdef kind="enum" id="classMR_1a84b05c595bca2e76755d6b627c5b940e" prot="public" static="no" strong="yes">
-        <type>int</type>
-        <name>ScalarType</name>
-        <qualifiedname>MR.ScalarType</qualifiedname>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eab31df9c476d20e85ff898121efe11b5a" prot="public">
-          <name>UInt8</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea7d839b2c12bfd40ac121b4cc9e81c539" prot="public">
-          <name>Int8</name>
-          <initializer>= 1</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea8bd950a9d7779b83f5c30046c9aaf1cf" prot="public">
-          <name>UInt16</name>
-          <initializer>= 2</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea39bc2ae44b184207f560ff8619823208" prot="public">
-          <name>Int16</name>
-          <initializer>= 3</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eae7956ed7be1c5025a27ed3cb42a396bd" prot="public">
-          <name>UInt32</name>
-          <initializer>= 4</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eac06129f6e6e15c09328365e553f1dc31" prot="public">
-          <name>Int32</name>
-          <initializer>= 5</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eaaf71234725f0470ccf993e263a8b820a" prot="public">
-          <name>UInt64</name>
-          <initializer>= 6</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eafbde23b11d7e59af7828e81144c8b487" prot="public">
-          <name>Int64</name>
-          <initializer>= 7</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea166495adc0d0f53bee6baecc577f5204" prot="public">
-          <name>Float32</name>
-          <initializer>= 8</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0" prot="public">
-          <name>Float64</name>
-          <initializer>= 9</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea3dced80f38319c510aa418c1dee5e142" prot="public">
-          <name>Float32_4</name>
-          <initializer>= 10</initializer>
-          <briefdescription>
-<para>the last value from float[4] </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
-          <name>Unknown</name>
-          <initializer>= 11</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
-          <name>Count</name>
-          <initializer>= 12</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>scalar value's binary format type </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScalarConvert.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScalarConvert.cs" bodystart="7" bodyend="24"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -38092,6 +38110,85 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="937" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="937" bodyend="941"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1af2e2f921da07597ae62080f716f0a7d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>nuint</type>
+        <definition>static nuint MR.getScalarTypeSize</definition>
+        <argsstring>(MR.ScalarType scalarType)</argsstring>
+        <name>getScalarTypeSize</name>
+        <qualifiedname>MR.getScalarTypeSize</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+<para>returns the size in bytes of a value of given type, or 0 for <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType.Unknown</ref> Generated from function <computeroutput><ref refid="classMR_1af2e2f921da07597ae62080f716f0a7d3" kindref="member">MR.getScalarTypeSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="38" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a636873d3705fe5aef4bae49db0f335d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>static MR.Box1d MR.getScalarTypeMinMax</definition>
+        <argsstring>(MR.ScalarType scalarType)</argsstring>
+        <name>getScalarTypeMinMax</name>
+        <qualifiedname>MR.getScalarTypeMinMax</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+<para>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType.Unknown</ref> Generated from function <computeroutput><ref refid="classMR_1a636873d3705fe5aef4bae49db0f335d0" kindref="member">MR.getScalarTypeMinMax</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="48" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a263978db247c54699d410228fd14b81f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Float_From_ConstCharPtr</type>
+        <definition>static unsafe MR.Std.Function_Float_From_ConstCharPtr MR.getTypeConverter</definition>
+        <argsstring>(MR.ScalarType scalarType, in MR.Box1d range)</argsstring>
+        <name>getTypeConverter</name>
+        <qualifiedname>MR.getTypeConverter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalarType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- binary format type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <computeroutput><ref refid="classMR_1a263978db247c54699d410228fd14b81f" kindref="member">MR.getTypeConverter</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="60" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a287bed0de1310a19fb1f0e70310fc1a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRSceneRootObject</type>
         <definition>static unsafe MR.Std.SharedPtr_MRSceneRootObject MR.createRootFormObject</definition>
@@ -53568,59 +53665,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="885" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="885" bodyend="890"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a0e859584baa00f107283a3b92d0be19d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Float_From_ConstCharPtr</type>
-        <definition>static unsafe MR.Std.Function_Float_From_ConstCharPtr MR.getTypeConverter</definition>
-        <argsstring>(MR.ScalarType scalarType, ulong range, long min)</argsstring>
-        <name>getTypeConverter</name>
-        <qualifiedname>MR.getTypeConverter</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
-          <declname>scalarType</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>range</declname>
-        </param>
-        <param>
-          <type>long</type>
-          <declname>min</declname>
-        </param>
-        <briefdescription>
-<para>get a function to convert binary data of specified format type to a scalar value </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>scalarType</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- binary format type </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>range</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- (for integer types only) the range of possible values </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>min</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>- (for integer types only) the minimal value Generated from function <computeroutput><ref refid="classMR_1a0e859584baa00f107283a3b92d0be19d" kindref="member">MR.getTypeConverter</ref></computeroutput>. </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScalarConvert.cs" line="33" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScalarConvert.cs" bodystart="33" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a47c347c1ea42e180b5d0e030c33fe450" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -83566,6 +83610,64 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="961" column="56"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a627d24718f201aa09481bd9e181c7c51" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
+        <definition>static MR.Box1d MR.__MR_getScalarTypeMinMax</definition>
+        <argsstring>(MR.ScalarType scalarType)</argsstring>
+        <name>__MR_getScalarTypeMinMax</name>
+        <qualifiedname>MR.__MR_getScalarTypeMinMax</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="71" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a930f45cb33edf733069e2d3de0b7b4f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>nuint</type>
+        <definition>static nuint MR.__MR_getScalarTypeSize</definition>
+        <argsstring>(MR.ScalarType scalarType)</argsstring>
+        <name>__MR_getScalarTypeSize</name>
+        <qualifiedname>MR.__MR_getScalarTypeSize</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="74" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a385fb634c60b0d0fd07203afd32bcd1c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Function_Float_From_ConstCharPtr._Underlying *</type>
+        <definition>static unsafe MR.Std.Function_Float_From_ConstCharPtr._Underlying * MR.__MR_getTypeConverter</definition>
+        <argsstring>(MR.ScalarType scalarType, MR.Box1d *range)</argsstring>
+        <name>__MR_getTypeConverter</name>
+        <qualifiedname>MR.__MR_getTypeConverter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref> *</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="77" column="75"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1aff91835520d8f3efbcf885a66026ef97" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRSceneRootObject._Underlying *</type>
         <definition>static unsafe MR.Std.SharedPtr_MRSceneRootObject._Underlying * MR.__MR_createRootFormObject</definition>
@@ -97884,32 +97986,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="898" column="65"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a9781ec771932cfddb92582743b6dd1f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Std.Function_Float_From_ConstCharPtr._Underlying *</type>
-        <definition>static unsafe MR.Std.Function_Float_From_ConstCharPtr._Underlying * MR.__MR_getTypeConverter</definition>
-        <argsstring>(MR.ScalarType scalarType, ulong range, long min)</argsstring>
-        <name>__MR_getTypeConverter</name>
-        <qualifiedname>MR.__MR_getTypeConverter</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
-          <declname>scalarType</declname>
-        </param>
-        <param>
-          <type>ulong</type>
-          <declname>range</declname>
-        </param>
-        <param>
-          <type>long</type>
-          <declname>min</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScalarConvert.cs" line="41" column="75"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1a4a41f9bc5af0c9ec3cf3c44736fcb9e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.__MR_putScanFileNameInZ</definition>
@@ -100617,6 +100693,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a55b339602d4dd2748aa6e5ee95b6e5ea" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getRegionBoundaryVerts</name></member>
       <member refid="classMR_1ac9caa900c7ef36147f40df1b61025be5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getRegionEdges</name></member>
       <member refid="classMR_1a2c4498ccfe01de4944e442e9cf41dd45" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getRegionInnerVerts</name></member>
+      <member refid="classMR_1a627d24718f201aa09481bd9e181c7c51" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getScalarTypeMinMax</name></member>
+      <member refid="classMR_1a930f45cb33edf733069e2d3de0b7b4f1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getScalarTypeSize</name></member>
       <member refid="classMR_1a8f6e2fcc7034a97370d8095f151f8e3b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getSubdividePart</name></member>
       <member refid="classMR_1afd15f71515dc57f9cc04f2033f955692" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getSumSqDistToPlane</name></member>
       <member refid="classMR_1ab1b04f53922451649ee41e6a3d7b3361" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getSumSqDistToPoint</name></member>
@@ -100647,7 +100725,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a6b6b13a99cb69c2b43f1217987adc356" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getTopmostVisibleObjects_MR_VisualObject</name></member>
       <member refid="classMR_1aae6621aeaeef9b430c3a37387f372cac" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getTriPoints_3</name></member>
       <member refid="classMR_1a46754dac8d42fdf09e3da6091f98de25" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getTriPoints_6</name></member>
-      <member refid="classMR_1a9781ec771932cfddb92582743b6dd1f1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getTypeConverter</name></member>
+      <member refid="classMR_1a385fb634c60b0d0fd07203afd32bcd1c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getTypeConverter</name></member>
       <member refid="classMR_1a16761b3e836189ca8ae2248997ce9501" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getUniversalMetric</name></member>
       <member refid="classMR_1ac8b9dfd431aebfef1be0a90602481378" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getUserConfigDir</name></member>
       <member refid="classMR_1a41116f1bf7f150dda428a3bf0dd86f3f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getUserConfigFilePath</name></member>
@@ -102481,6 +102559,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a20968573b76cd2e53ad1cf152e0e1212" prot="public" virt="non-virtual"><scope>MR</scope><name>getRegionBoundaryVerts</name></member>
       <member refid="classMR_1a196f2a04b1c76f0a0f268e9c5f54c234" prot="public" virt="non-virtual"><scope>MR</scope><name>getRegionEdges</name></member>
       <member refid="classMR_1a2451853251808e4141ef955f04d93c55" prot="public" virt="non-virtual"><scope>MR</scope><name>getRegionInnerVerts</name></member>
+      <member refid="classMR_1a636873d3705fe5aef4bae49db0f335d0" prot="public" virt="non-virtual"><scope>MR</scope><name>getScalarTypeMinMax</name></member>
+      <member refid="classMR_1af2e2f921da07597ae62080f716f0a7d3" prot="public" virt="non-virtual"><scope>MR</scope><name>getScalarTypeSize</name></member>
       <member refid="classMR_1a0999167624becfc8f0ef783fd10f96b3" prot="public" virt="non-virtual"><scope>MR</scope><name>getSubdividePart</name></member>
       <member refid="classMR_1abf546042a4484cc6c4a4c1815f87d9a3" prot="public" virt="non-virtual"><scope>MR</scope><name>getSumSqDistToPlane</name></member>
       <member refid="classMR_1ad884edc07370b3a77d87506ef21dc7b2" prot="public" virt="non-virtual"><scope>MR</scope><name>getSumSqDistToPoint</name></member>
@@ -102511,7 +102591,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1af2292bf2071b09643cb9278fde0b2d10" prot="public" virt="non-virtual"><scope>MR</scope><name>getTopmostVisibleObjects_MRVisualObject</name></member>
       <member refid="classMR_1aff79f7928ce9c96848d34a9d5c7e75f5" prot="public" virt="non-virtual"><scope>MR</scope><name>getTriPoints</name></member>
       <member refid="classMR_1a69ce56a77bcc3e101ec5668d261e0456" prot="public" virt="non-virtual"><scope>MR</scope><name>getTriPoints</name></member>
-      <member refid="classMR_1a0e859584baa00f107283a3b92d0be19d" prot="public" virt="non-virtual"><scope>MR</scope><name>getTypeConverter</name></member>
+      <member refid="classMR_1a263978db247c54699d410228fd14b81f" prot="public" virt="non-virtual"><scope>MR</scope><name>getTypeConverter</name></member>
       <member refid="classMR_1a3479dc8ba670cd660f8b297c1c36a9bb" prot="public" virt="non-virtual"><scope>MR</scope><name>getUniversalMetric</name></member>
       <member refid="classMR_1a53549a2b8d701e1dc6522dc3c126a943" prot="public" virt="non-virtual"><scope>MR</scope><name>getUserConfigDir</name></member>
       <member refid="classMR_1aafe71e742b16092dbf0c7a9277fabde6" prot="public" virt="non-virtual"><scope>MR</scope><name>getUserConfigFilePath</name></member>

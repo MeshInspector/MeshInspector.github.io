@@ -1,6 +1,7 @@
 var MRScalarConvert_8h =
 [
     [ "MR_ScalarType", "MRScalarConvert_8h.html#af35de36846ccdc81378f0c9a85984525", null ],
+    [ "MR_std_function_float_from_const_char_ptr", "MRScalarConvert_8h.html#a6513aac0d66c11e07fefbd0c297f54cf", null ],
     [ "MR_ScalarType", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26", [
       [ "MR_ScalarType_UInt8", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26a033f7a6929186c68993cf03f69e1f02d", null ],
       [ "MR_ScalarType_Int8", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26a85a22bf011d778d56102be830977ef42", null ],
@@ -13,8 +14,12 @@ var MRScalarConvert_8h =
       [ "MR_ScalarType_Float32", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5", null ],
       [ "MR_ScalarType_Float64", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c", null ],
       [ "MR_ScalarType_Float32_4", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d", null ],
+      [ "MR_ScalarType_RGB8", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4", null ],
+      [ "MR_ScalarType_RGBA8", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701", null ],
       [ "MR_ScalarType_Unknown", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18", null ],
       [ "MR_ScalarType_Count", "MRScalarConvert_8h.html#a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9", null ]
     ] ],
-    [ "MR_getTypeConverter", "MRScalarConvert_8h.html#a83f6c95549a78bd31f73fd35598d74b6", null ]
+    [ "MR_getScalarTypeMinMax", "MRScalarConvert_8h.html#a58141f9ae02b706e004a57ee5ca037e6", null ],
+    [ "MR_getScalarTypeSize", "MRScalarConvert_8h.html#a8681ebff0218398e5a876fd223991e7b", null ],
+    [ "MR_getTypeConverter", "MRScalarConvert_8h.html#a16b43726507c6326ba804fc3346e1735", null ]
 ];
