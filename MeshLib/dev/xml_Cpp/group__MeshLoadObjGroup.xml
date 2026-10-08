@@ -92,12 +92,13 @@
         <name>name</name>
         <qualifiedname>MR::MeshLoad::NamedMesh::name</qualifiedname>
         <briefdescription>
+<para>the name from the o line of the object; empty for the faces before the first o line, as for an o line without a name </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="45" column="17" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="45" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="46" column="17" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1gab4ded5f4899c9c9bd466b211bd8e2bf1" prot="public" static="no" mutable="no">
         <type>Mesh</type>
@@ -111,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="46" column="10" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="46" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="47" column="10" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga216284f1a34367048f2f39d7688b1a72" prot="public" static="no" mutable="no">
         <type>VertUVCoords</type>
@@ -125,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="47" column="18" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="47" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="48" column="18" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1gacad26bb0f966762a6201f66dbe3e0f03" prot="public" static="no" mutable="no">
         <type>VertColors</type>
@@ -139,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="48" column="16" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="48" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="49" column="16" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1gae14992ee2961e93c9690326874a825e4" prot="public" static="no" mutable="no">
         <type>Vector&lt; std::filesystem::path, TextureId &gt;</type>
@@ -154,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="52" column="12" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="52" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="53" column="12" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga311db5316a105349238e8f439b00d599" prot="public" static="no" mutable="no">
         <type>Vector&lt; TextureId, FaceId &gt;</type>
@@ -168,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="53" column="12" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="53" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="54" column="12" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga24c0d1fb11f0d559f180bff7fc3fc188" prot="public" static="no" mutable="no">
         <type>std::optional&lt; Color &gt;</type>
@@ -182,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="54" column="19" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="54" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="55" column="19" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga62b08df84e9ae3aa8d59b93d284d02d7" prot="public" static="no" mutable="no">
         <type>AffineXf3f</type>
@@ -197,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="57" column="16" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="57" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="58" column="16" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga7655251160688728be82b103fa220dd3" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -213,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="60" column="9" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="61" column="9" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__MeshLoadObjGroup_1ga26a8bc92daf43830d65572e1f00a40dc" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -229,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="63" column="9" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="63" bodyend="-1"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="64" column="9" bodyfile="MRMesh/MRMeshLoadObj.h" bodystart="64" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -259,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="67" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="67" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="68" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="68" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadObjGroup_1ga084c68bf6ed27f70de50de85900bd2bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
@@ -300,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="73" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="73" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="74" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="74" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadObjGroup_1gafe70d87753142e4f6d767910ecdbdc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; std::vector&lt; NamedMesh &gt; &gt;</type>
@@ -345,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="78" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="78" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="79" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="79" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshLoadObjGroup_1ga1050c330b0ab72a1f904d39a3297d93f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; LoadedObjects &gt;</type>
@@ -369,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoadObj.h" line="82" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="82" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoadObj.h" line="83" column="11" declfile="MRMesh/MRMeshLoadObj.h" declline="83" declcolumn="11"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95740" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95747" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -47,7 +47,7 @@ the volume should not modified while it is accessed by this class
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95742" bodyend="95746"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95749" bodyend="95753"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1ad86b9c939b934d0700df1b15a010207f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -75,7 +75,7 @@ the volume should not modified while it is accessed by this class
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95748" bodyend="95751"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95755" bodyend="95758"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1a30eb8c5e4f6d1851878ed2e1b241b4f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -99,7 +99,7 @@ the volume should not modified while it is accessed by this class
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95752" bodyend="95755"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95759" bodyend="95762"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -117,7 +117,7 @@ note: this class is as thread-safe as the underlying Accessor
 e.g. VoxelsVolumeAccessor&lt;VdbVolume&gt; is not thread-safe (but several instances on same volume is thread-safe)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95727" bodyend="95755"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95734" bodyend="95762"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1a727d2024da43ca3c49e2d40e22edba82" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1VoxelsVolumeInterpolatedAccessor__VoxelsVolumeAccessor__VdbVolume_1ad86b9c939b934d0700df1b15a010207f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsVolumeInterpolatedAccessor_VoxelsVolumeAccessor_VdbVolume</scope><name>__init__</name></member>
