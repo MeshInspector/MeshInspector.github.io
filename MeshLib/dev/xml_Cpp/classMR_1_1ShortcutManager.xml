@@ -19,10 +19,6 @@
     <sectiondef kind="public-static-attrib">
       <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" kind="variable"><name>categoryNames</name></member>
     </sectiondef>
-    <sectiondef kind="protected-static-attrib">
-      <member refid="group__GeneralGroup_1ga4b70a3665db3593d8683c4df132b231f" kind="variable"><name>cModBits</name></member>
-      <member refid="group__GeneralGroup_1ga025351c6db0d926bfff64eda31f6c7d2" kind="variable"><name>cKeyBits</name></member>
-    </sectiondef>
     <sectiondef kind="protected-attrib">
       <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" kind="variable"><name>enabled_</name></member>
       <member refid="group__GeneralGroup_1gaac7a5049ef27e6c01ce4352af5405141" kind="variable"><name>map_</name></member>
@@ -57,9 +53,6 @@
     <sectiondef kind="protected-static-func">
       <member refid="group__GeneralGroup_1ga8ec5f01d49170ca3c2273904385eb8a3" kind="function"><name>mapKeyFromKeyAndMod</name></member>
       <member refid="group__GeneralGroup_1ga0b68904b55fdbcdc64a244f69e50b481" kind="function"><name>kayAndModFromMapKey</name></member>
-    </sectiondef>
-    <sectiondef kind="protected-func">
-      <member refid="group__GeneralGroup_1ga41a4a80376fa59dec5b86d85456e9fdf" kind="function"><name>findHeldKey_</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -100,19 +93,16 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRShortcutManager.h" line="21" column="1" bodyfile="MRViewer/MRShortcutManager.h" bodystart="22" bodyend="143"/>
+    <location file="MRViewer/MRShortcutManager.h" line="21" column="1" bodyfile="MRViewer/MRShortcutManager.h" bodystart="22" bodyend="136"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa81ce4c0f43334be0c680e28346fce2e" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>backMap_</name></member>
       <member refid="group__GeneralGroup_1gacac503f87e678e4a4e1c3541d5915098" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>Category</name></member>
       <member refid="group__GeneralGroup_1ga32f51a9bb8d5a8f0ef57375bf98c2ce1" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>categoryNames</name></member>
-      <member refid="group__GeneralGroup_1ga025351c6db0d926bfff64eda31f6c7d2" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>cKeyBits</name></member>
       <member refid="group__GeneralGroup_1ga229a8e7249d6d753b590d2c3de6d043e" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>clear</name></member>
-      <member refid="group__GeneralGroup_1ga4b70a3665db3593d8683c4df132b231f" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>cModBits</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>connect</name></member>
       <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::ShortcutManager</scope><name>disconnect</name></member>
       <member refid="group__GeneralGroup_1ga5e5ccda452d5473a8328af4b7003e4f3" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>enable</name></member>
       <member refid="group__GeneralGroup_1gaf0dd4d072b92bf237ce72e80f357d475" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>enabled_</name></member>
-      <member refid="group__GeneralGroup_1ga41a4a80376fa59dec5b86d85456e9fdf" prot="protected" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>findHeldKey_</name></member>
       <member refid="group__GeneralGroup_1ga174c714d2e8c7d0d831b3561f5e8b427" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>findShortcutByName</name></member>
       <member refid="group__GeneralGroup_1gaf218cbc8058fd693d8c5db0928b6509c" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>findShortcutsByName</name></member>
       <member refid="group__GeneralGroup_1ga9215f4392ec0aaaf49c8df15042552e0" prot="public" virt="non-virtual"><scope>MR::ShortcutManager</scope><name>getKeyFullString</name></member>

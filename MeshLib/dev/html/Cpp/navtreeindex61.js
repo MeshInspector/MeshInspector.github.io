@@ -1,10 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2adb0f6f37ebeb6ea09489124345af2a45":[9,0,1,0,1,49,2,0,7,1],
-"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2af02c10344a98c7dcc797ccc308953387":[9,0,1,0,1,49,2,0,7,4],
-"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html":[9,0,1,0,1,49,2,1],
-"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a228b99eeaa30617d5cf0d9880a743d07":[9,0,1,0,1,49,2,1,6],
-"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a2e73c8ebc73460f3aa834d31f6cb8d3d":[9,0,1,0,1,49,2,1,7],
 "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a573298488f7a57e1cc25d4f962e1a22f":[9,0,1,0,1,49,2,1,4],
 "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ab897ec83d6544cb895ed73a8330cfe6e":[9,0,1,0,1,49,2,1,2],
 "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ac9491c45101e3a80f649bee148eacb62":[9,0,1,0,1,49,2,1,5],
@@ -249,5 +244,10 @@ var NAVTREEINDEX61 =
 "structMR_1_1AlphaShapeData.html":[9,0,0,20,122],
 "structMR_1_1AlphaShapeNei.html":[9,0,0,20,124],
 "structMR_1_1AlphaShapeStats.html":[9,0,0,20,123],
-"structMR_1_1AncillaryLabel.html":[9,0,0,20,575]
+"structMR_1_1AncillaryLabel.html":[9,0,0,20,575],
+"structMR_1_1AncillaryLines.html":[9,0,0,20,577],
+"structMR_1_1AncillaryMesh.html":[9,0,0,20,578],
+"structMR_1_1AncillaryPlane.html":[9,0,0,20,579],
+"structMR_1_1AncillaryPoints.html":[9,0,0,20,580],
+"structMR_1_1ArcInterpolationParams.html":[9,0,0,20,903]
 };

@@ -8679,8 +8679,6 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gaa40348ce85a4b0c87fffec966a71d952" id="r_gaa40348ce85a4b0c87fffec966a71d952"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa40348ce85a4b0c87fffec966a71d952">MR::ImGuiMenu::UiRenderManagerImpl::canConsumeEvent</a> (<a class="el" href="#gab4d07ed1576fec164c6c0308c3cbbb3d">BasicUiRenderTask::InteractionMask</a> event) const</td></tr>
 <tr class="memitem:gaf47bd4d66fa353bf995946804d75af4f" id="r_gaf47bd4d66fa353bf995946804d75af4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf47bd4d66fa353bf995946804d75af4f">MR::reserveKeyEvent</a> (ImGuiKey key)</td></tr>
 <tr class="memdesc:gaf47bd4d66fa353bf995946804d75af4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">call if you want <a class="el" href="namespaceImGui.html">ImGui</a> to take event if this key is pressed (to prevent scene reaction on key press)  <br /></td></tr>
-<tr class="memitem:ga82c81a65b2203662fea9340627bdf921" id="r_ga82c81a65b2203662fea9340627bdf921"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga82c81a65b2203662fea9340627bdf921">MR::isKeyEventReserved</a> (ImGuiKey key)</td></tr>
-<tr class="memdesc:ga82c81a65b2203662fea9340627bdf921"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if reserveKeyEvent was called for this key in the last frame  <br /></td></tr>
 <tr class="memitem:ga1dd61ddfaca7ad57995cff3e85436742" id="r_ga1dd61ddfaca7ad57995cff3e85436742"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1dd61ddfaca7ad57995cff3e85436742">MR::AlphaSortGL::~AlphaSortGL</a> ()</td></tr>
 <tr class="memitem:gaba382f76f34a17ef1f0536debd4b6683" id="r_gaba382f76f34a17ef1f0536debd4b6683"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba382f76f34a17ef1f0536debd4b6683">MR::AlphaSortGL::init</a> ()</td></tr>
 <tr class="memdesc:gaba382f76f34a17ef1f0536debd4b6683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all GL buffers and arrays.  <br /></td></tr>
@@ -10261,7 +10259,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga2d13f2ae4409cb7a885172ab0edb7f9a" id="r_ga2d13f2ae4409cb7a885172ab0edb7f9a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2d13f2ae4409cb7a885172ab0edb7f9a">MR::ShortcutManager::getKeyString</a> (int key)</td></tr>
 <tr class="memdesc:ga2d13f2ae4409cb7a885172ab0edb7f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">make string from a key without modifiers, for arrow characters it uses icons font  <br /></td></tr>
 <tr class="memitem:ga9215f4392ec0aaaf49c8df15042552e0" id="r_ga9215f4392ec0aaaf49c8df15042552e0"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9215f4392ec0aaaf49c8df15042552e0">MR::ShortcutManager::getKeyFullString</a> (const <a class="el" href="#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a> &amp;key, bool respectKey=true)</td></tr>
-<tr class="memdesc:ga9215f4392ec0aaaf49c8df15042552e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">make string from all modifiers, the held key and with/without key and returns it, e.g. "Ctrl+Space+1"  <br /></td></tr>
+<tr class="memdesc:ga9215f4392ec0aaaf49c8df15042552e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">make string from all modifiers and with/without key and returns it  <br /></td></tr>
 <tr class="memitem:ga70868aca69ca2e19aab95c7543a48e38" id="r_ga70868aca69ca2e19aab95c7543a48e38"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga70868aca69ca2e19aab95c7543a48e38">MR::ShortcutManager::getKeysFullString</a> (const std::vector&lt; <a class="el" href="#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a> &gt; &amp;keys)</td></tr>
 <tr class="memdesc:ga70868aca69ca2e19aab95c7543a48e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes string from several keys separated by commas, e.g. "Ctrl+Shift+Z, Ctrl+Y"  <br /></td></tr>
 <tr class="memitem:ga8389e3401cdb0d37f50b39a1e511104a" id="r_ga8389e3401cdb0d37f50b39a1e511104a"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8389e3401cdb0d37f50b39a1e511104a">MR::ShortcutManager::parseKey</a> (std::string_view name)</td></tr>
@@ -10277,8 +10275,6 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga8ec5f01d49170ca3c2273904385eb8a3" id="r_ga8ec5f01d49170ca3c2273904385eb8a3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ec5f01d49170ca3c2273904385eb8a3">MR::ShortcutManager::mapKeyFromKeyAndMod</a> (const <a class="el" href="#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a> &amp;key, bool respectKeyboard)</td></tr>
 <tr class="memitem:ga0b68904b55fdbcdc64a244f69e50b481" id="r_ga0b68904b55fdbcdc64a244f69e50b481"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b68904b55fdbcdc64a244f69e50b481">MR::ShortcutManager::kayAndModFromMapKey</a> (int mapKey)</td></tr>
 <tr class="memdesc:ga0b68904b55fdbcdc64a244f69e50b481"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns key with modifier (alt, ctrl, shift, etc.) from simple map key  <br /></td></tr>
-<tr class="memitem:ga41a4a80376fa59dec5b86d85456e9fdf" id="r_ga41a4a80376fa59dec5b86d85456e9fdf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41a4a80376fa59dec5b86d85456e9fdf">MR::ShortcutManager::findHeldKey_</a> (int key, int mod) const</td></tr>
-<tr class="memdesc:ga41a4a80376fa59dec5b86d85456e9fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the held key, down now and not reserved by a <a class="el" href="namespaceMR_1_1UI.html">UI</a> hotkey (reserveKeyEvent), of a chord with given key and modifiers; 0 if none  <br /></td></tr>
 <tr class="memitem:ga04d5a9c5ea64015a7ac8eccdf71e108e" id="r_ga04d5a9c5ea64015a7ac8eccdf71e108e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04d5a9c5ea64015a7ac8eccdf71e108e">MR::showModal</a> (const std::string &amp;error, <a class="el" href="#ga3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type)</td></tr>
 <tr class="memdesc:ga04d5a9c5ea64015a7ac8eccdf71e108e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if menu is available and if it is, shows modal window.  <br /></td></tr>
 <tr class="memitem:ga81804b582b588b4a894660b307a92cc2" id="r_ga81804b582b588b4a894660b307a92cc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81804b582b588b4a894660b307a92cc2">MR::showError</a> (const std::string &amp;error)</td></tr>
@@ -14443,7 +14439,6 @@ Variables</h2></td></tr>
 <tr class="memitem:ga35513ae94fe050c531007ff11ed80236" id="r_ga35513ae94fe050c531007ff11ed80236"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35513ae94fe050c531007ff11ed80236">MR::ViewerSetup::LoadedModule::filename</a></td></tr>
 <tr class="memitem:ga3a4d01661553cca5e961b0ee03e3985f" id="r_ga3a4d01661553cca5e961b0ee03e3985f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a4d01661553cca5e961b0ee03e3985f">MR::ShortcutKey::key</a> { 0 }</td></tr>
 <tr class="memitem:gae3638e49cd7fb1443983589d80c3eee2" id="r_gae3638e49cd7fb1443983589d80c3eee2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3638e49cd7fb1443983589d80c3eee2">MR::ShortcutKey::mod</a> { 0 }</td></tr>
-<tr class="memitem:gab6f1bc084d939e28f359acc2026c033c" id="r_gab6f1bc084d939e28f359acc2026c033c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab6f1bc084d939e28f359acc2026c033c">MR::ShortcutKey::heldKey</a> { 0 }</td></tr>
 <tr class="memitem:gaa42a0533a2fe264bfb7bd0bd85cada7f" id="r_gaa42a0533a2fe264bfb7bd0bd85cada7f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1ShortcutKey.html">ShortcutKey</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa42a0533a2fe264bfb7bd0bd85cada7f">MR::Shortcut::keys</a></td></tr>
 <tr class="memdesc:gaa42a0533a2fe264bfb7bd0bd85cada7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">alternative keys doing the same, e.g. Ctrl+Shift+Z and Ctrl+Y for Redo  <br /></td></tr>
 <tr class="memitem:ga2509265a76aadf7a2b292cb19021581e" id="r_ga2509265a76aadf7a2b292cb19021581e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gabeff4ec21e8ee2ea544cdb4ce4d55d6b">ShortcutCategory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2509265a76aadf7a2b292cb19021581e">MR::Shortcut::category</a> {}</td></tr>
@@ -14457,9 +14452,6 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga74e7c30555d8435657c7465809b44a6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of action  <br /></td></tr>
 <tr class="memitem:gacf2e272c865f0181e677f9a0cce89ec5" id="r_gacf2e272c865f0181e677f9a0cce89ec5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacf2e272c865f0181e677f9a0cce89ec5">MR::ShortcutManager::ShortcutCommand::repeatable</a> = true</td></tr>
 <tr class="memitem:ga32f51a9bb8d5a8f0ef57375bf98c2ce1" id="r_ga32f51a9bb8d5a8f0ef57375bf98c2ce1"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga32f51a9bb8d5a8f0ef57375bf98c2ce1">MR::ShortcutManager::categoryNames</a> [6] = { &quot;Info&quot;, &quot;Edit&quot;, &quot;View&quot;, &quot;Scene&quot;, &quot;Objects&quot;, &quot;Selection &quot; }</td></tr>
-<tr class="memitem:ga4b70a3665db3593d8683c4df132b231f" id="r_ga4b70a3665db3593d8683c4df132b231f"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4b70a3665db3593d8683c4df132b231f">MR::ShortcutManager::cModBits</a> = 6</td></tr>
-<tr class="memdesc:ga4b70a3665db3593d8683c4df132b231f"><td class="mdescLeft">&#160;</td><td class="mdescRight">bits of the modifiers and of the key in a map key, the held key takes the rest  <br /></td></tr>
-<tr class="memitem:ga025351c6db0d926bfff64eda31f6c7d2" id="r_ga025351c6db0d926bfff64eda31f6c7d2"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga025351c6db0d926bfff64eda31f6c7d2">MR::ShortcutManager::cKeyBits</a> = 9</td></tr>
 <tr class="memitem:gaf0dd4d072b92bf237ce72e80f357d475" id="r_gaf0dd4d072b92bf237ce72e80f357d475"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0dd4d072b92bf237ce72e80f357d475">MR::ShortcutManager::enabled_</a> { true }</td></tr>
 <tr class="memdesc:gaf0dd4d072b92bf237ce72e80f357d475"><td class="mdescLeft">&#160;</td><td class="mdescRight">all keys of an action in their order  <br /></td></tr>
 <tr class="memitem:gaac7a5049ef27e6c01ce4352af5405141" id="r_gaac7a5049ef27e6c01ce4352af5405141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gaa3f924fb2d8d08321689742094b61a10">ShourtcutsMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaac7a5049ef27e6c01ce4352af5405141">MR::ShortcutManager::map_</a></td></tr>
@@ -72051,39 +72043,6 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 
 </div>
 </div>
-<a id="ga41a4a80376fa59dec5b86d85456e9fdf" name="ga41a4a80376fa59dec5b86d85456e9fdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga41a4a80376fa59dec5b86d85456e9fdf">&#9670;&#160;</a></span>findHeldKey_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::ShortcutManager::findHeldKey_ </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mod</em></span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRShortcutManager_8h.html">MRViewer/MRShortcutManager.h</a>&gt;</code></p>
-
-<p>the held key, down now and not reserved by a <a class="el" href="namespaceMR_1_1UI.html">UI</a> hotkey (reserveKeyEvent), of a chord with given key and modifiers; 0 if none </p>
-
-</div>
-</div>
 <a id="ga3262bb44df785f646fa7a39b244388a8" name="ga3262bb44df785f646fa7a39b244388a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3262bb44df785f646fa7a39b244388a8">&#9670;&#160;</a></span>findHoleRepresentiveEdges()</h2>
 
@@ -88087,7 +88046,7 @@ template&lt;typename K, typename V&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRShortcutManager_8h.html">MRViewer/MRShortcutManager.h</a>&gt;</code></p>
 
-<p>make string from all modifiers, the held key and with/without key and returns it, e.g. "Ctrl+Space+1" </p>
+<p>make string from all modifiers and with/without key and returns it </p>
 
 </div>
 </div>
@@ -112208,27 +112167,6 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRUIStyle_8h.html">MRViewer/MRUIStyle.h</a>&gt;</code></p>
 
 <p>Checks if the item with this name in the current window is active. </p>
-
-</div>
-</div>
-<a id="ga82c81a65b2203662fea9340627bdf921" name="ga82c81a65b2203662fea9340627bdf921"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga82c81a65b2203662fea9340627bdf921">&#9670;&#160;</a></span>isKeyEventReserved()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::isKeyEventReserved </td>
-          <td>(</td>
-          <td class="paramtype">ImGuiKey</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="ImGuiMenu_8h.html">MRViewer/ImGuiMenu.h</a>&gt;</code></p>
-
-<p>returns true if reserveKeyEvent was called for this key in the last frame </p>
 
 </div>
 </div>
@@ -145925,7 +145863,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRShortcutManager_8h.html">MRViewer/MRShortcutManager.h</a>&gt;</code></p>
-<p>parses a shortcut written as its modifiers and key separated by "+", e.g. "Primary+Shift+S", the inverse of getKeyFullString; a key name among the modifiers is the held key of a chord, e.g. "Space+1"; returns nothing if any part is unknown or there are several held keys </p>
+<p>parses a shortcut written as its modifiers and key separated by "+", e.g. "Primary+Shift+S", the inverse of getKeyFullString; returns nothing if any part is unknown </p>
 
 </div>
 </div>
@@ -209113,28 +209051,6 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
-<a id="ga025351c6db0d926bfff64eda31f6c7d2" name="ga025351c6db0d926bfff64eda31f6c7d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga025351c6db0d926bfff64eda31f6c7d2">&#9670;&#160;</a></span>cKeyBits</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::ShortcutManager::cKeyBits = 9</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga3f269328b594b62b2356a95a95cdeedd" name="ga3f269328b594b62b2356a95a95cdeedd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3f269328b594b62b2356a95a95cdeedd">&#9670;&#160;</a></span>clickableCornerA</h2>
 
@@ -209633,30 +209549,6 @@ template&lt;typename V&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRRibbonConstants_8h.html">MRViewer/MRRibbonConstants.h</a>&gt;</code></p>
-
-</div>
-</div>
-<a id="ga4b70a3665db3593d8683c4df132b231f" name="ga4b70a3665db3593d8683c4df132b231f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4b70a3665db3593d8683c4df132b231f">&#9670;&#160;</a></span>cModBits</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::ShortcutManager::cModBits = 6</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>bits of the modifiers and of the key in a map key, the held key takes the rest </p>
 
 </div>
 </div>
@@ -217702,21 +217594,6 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="gab6f1bc084d939e28f359acc2026c033c" name="gab6f1bc084d939e28f359acc2026c033c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab6f1bc084d939e28f359acc2026c033c">&#9670;&#160;</a></span>heldKey</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int MR::ShortcutKey::heldKey { 0 }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>another key held down when <span class="tt">key</span> is pressed, e.g. Space in Space+1; 0 if none; matched by its GLFW code, not the keyboard layout; a shortcut on the held key alone also fires when a chord starts </p>
 
 </div>
 </div>

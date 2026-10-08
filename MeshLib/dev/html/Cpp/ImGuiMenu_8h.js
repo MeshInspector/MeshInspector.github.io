@@ -10,6 +10,5 @@ var ImGuiMenu_8h =
       [ "MR::SelectedTypesMask::ObjectFeatureBit", "group__GeneralGroup.html#gga08fcff6c599b446c2e39ef49b4f62fc0a840710b56e2f7b2a23389dc4690ad6a5", null ],
       [ "MR::SelectedTypesMask::ObjectMeasurementBit", "group__GeneralGroup.html#gga08fcff6c599b446c2e39ef49b4f62fc0a16f25ad8602ca99aa2f2efac374523d7", null ]
     ] ],
-    [ "MR::isKeyEventReserved", "group__GeneralGroup.html#ga82c81a65b2203662fea9340627bdf921", null ],
     [ "MR::reserveKeyEvent", "group__GeneralGroup.html#gaf47bd4d66fa353bf995946804d75af4f", null ]
 ];

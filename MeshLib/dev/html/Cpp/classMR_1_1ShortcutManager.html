@@ -137,10 +137,8 @@ $(function(){initNavTree('classMR_1_1ShortcutManager.html','','classMR_1_1Shortc
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classMR_1_1ShortcutManager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ShortcutManager Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
@@ -209,7 +207,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ga2d13f2ae4409cb7a885172ab0edb7f9a" id="r_ga2d13f2ae4409cb7a885172ab0edb7f9a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2d13f2ae4409cb7a885172ab0edb7f9a">getKeyString</a> (int key)</td></tr>
 <tr class="memdesc:ga2d13f2ae4409cb7a885172ab0edb7f9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">make string from a key without modifiers, for arrow characters it uses icons font  <br /></td></tr>
 <tr class="memitem:ga9215f4392ec0aaaf49c8df15042552e0" id="r_ga9215f4392ec0aaaf49c8df15042552e0"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9215f4392ec0aaaf49c8df15042552e0">getKeyFullString</a> (const <a class="el" href="group__GeneralGroup.html#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a> &amp;key, bool respectKey=true)</td></tr>
-<tr class="memdesc:ga9215f4392ec0aaaf49c8df15042552e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">make string from all modifiers, the held key and with/without key and returns it, e.g. "Ctrl+Space+1"  <br /></td></tr>
+<tr class="memdesc:ga9215f4392ec0aaaf49c8df15042552e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">make string from all modifiers and with/without key and returns it  <br /></td></tr>
 <tr class="memitem:ga70868aca69ca2e19aab95c7543a48e38" id="r_ga70868aca69ca2e19aab95c7543a48e38"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga70868aca69ca2e19aab95c7543a48e38">getKeysFullString</a> (const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a> &gt; &amp;keys)</td></tr>
 <tr class="memdesc:ga70868aca69ca2e19aab95c7543a48e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes string from several keys separated by commas, e.g. "Ctrl+Shift+Z, Ctrl+Y"  <br /></td></tr>
 <tr class="memitem:ga8389e3401cdb0d37f50b39a1e511104a" id="r_ga8389e3401cdb0d37f50b39a1e511104a"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8389e3401cdb0d37f50b39a1e511104a">parseKey</a> (std::string_view name)</td></tr>
@@ -226,11 +224,6 @@ Protected Types</h2></td></tr>
 <tr class="memitem:gaa3f924fb2d8d08321689742094b61a10" id="r_gaa3f924fb2d8d08321689742094b61a10"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa3f924fb2d8d08321689742094b61a10">ShourtcutsMap</a> = <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt;int, <a class="el" href="structMR_1_1ShortcutManager_1_1ShortcutCommand.html">ShortcutCommand</a>&gt;</td></tr>
 <tr class="memitem:gaf562f5c38989a107a4b160789b9133ab" id="r_gaf562f5c38989a107a4b160789b9133ab"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf562f5c38989a107a4b160789b9133ab">ShourtcutsBackMap</a> = <a class="el" href="group__GeneralGroup.html#gaf8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt;std::string, std::vector&lt;int&gt;&gt;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ga41a4a80376fa59dec5b86d85456e9fdf" id="r_ga41a4a80376fa59dec5b86d85456e9fdf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga41a4a80376fa59dec5b86d85456e9fdf">findHeldKey_</a> (int key, int mod) const</td></tr>
-<tr class="memdesc:ga41a4a80376fa59dec5b86d85456e9fdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">the held key, down now and not reserved by a <a class="el" href="namespaceMR_1_1UI.html">UI</a> hotkey (reserveKeyEvent), of a chord with given key and modifiers; 0 if none  <br /></td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-static-methods" class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:ga8ec5f01d49170ca3c2273904385eb8a3" id="r_ga8ec5f01d49170ca3c2273904385eb8a3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8ec5f01d49170ca3c2273904385eb8a3">mapKeyFromKeyAndMod</a> (const <a class="el" href="group__GeneralGroup.html#ga95af7d1cba13355b957e0dd270166269">ShortcutKey</a> &amp;key, bool respectKeyboard)</td></tr>
@@ -244,12 +237,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:gaac7a5049ef27e6c01ce4352af5405141" id="r_gaac7a5049ef27e6c01ce4352af5405141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaa3f924fb2d8d08321689742094b61a10">ShourtcutsMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaac7a5049ef27e6c01ce4352af5405141">map_</a></td></tr>
 <tr class="memitem:gaa81ce4c0f43334be0c680e28346fce2e" id="r_gaa81ce4c0f43334be0c680e28346fce2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gaf562f5c38989a107a4b160789b9133ab">ShourtcutsBackMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa81ce4c0f43334be0c680e28346fce2e">backMap_</a></td></tr>
 <tr class="memitem:gadf3fea364a499a2b41b73fb7fa94b301" id="r_gadf3fea364a499a2b41b73fb7fa94b301"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="group__GeneralGroup.html#ga9918a5c8915f7c72f592fa82789864df">ShortcutList</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadf3fea364a499a2b41b73fb7fa94b301">listCache_</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pro-static-attribs" class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
-<tr class="memitem:ga4b70a3665db3593d8683c4df132b231f" id="r_ga4b70a3665db3593d8683c4df132b231f"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4b70a3665db3593d8683c4df132b231f">cModBits</a> = 6</td></tr>
-<tr class="memdesc:ga4b70a3665db3593d8683c4df132b231f"><td class="mdescLeft">&#160;</td><td class="mdescRight">bits of the modifiers and of the key in a map key, the held key takes the rest  <br /></td></tr>
-<tr class="memitem:ga025351c6db0d926bfff64eda31f6c7d2" id="r_ga025351c6db0d926bfff64eda31f6c7d2"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga025351c6db0d926bfff64eda31f6c7d2">cKeyBits</a> = 9</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>this class stores two maps: 1) shortcut to action 2) action name to its shortcuts it can be used to process, customize and print shortcuts indifferent to literals register </p>

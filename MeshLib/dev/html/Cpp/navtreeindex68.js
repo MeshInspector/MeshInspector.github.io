@@ -1,10 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[9,0,2,0,2,22,2,1],
-"structMR_1_1PointsLoad_1_1PointsLoader.html":[9,0,1,0,1,35,3],
-"structMR_1_1PointsLoad_1_1PointsLoader.html":[9,0,2,0,2,22,3],
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[9,0,1,0,1,35,3,0],
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[9,0,2,0,2,22,3,0],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a799a24a6bd721d10d31a02b8b1e918f7":[9,0,1,0,1,35,3,1],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a799a24a6bd721d10d31a02b8b1e918f7":[9,0,2,0,2,22,3,1],
 "structMR_1_1PointsProjectionResult.html":[9,0,0,1,28],
@@ -249,5 +244,10 @@ var NAVTREEINDEX68 =
 "structMR_1_1SortIntersectionsData.html":[9,0,0,20,426],
 "structMR_1_1SpaceMouseDownListener.html":[9,0,0,20,816],
 "structMR_1_1SpaceMouseMoveListener.html":[9,0,0,20,815],
-"structMR_1_1SpaceMouseUpListener.html":[9,0,0,20,817]
+"structMR_1_1SpaceMouseUpListener.html":[9,0,0,20,817],
+"structMR_1_1SpaceMouse_1_1Action.html":[9,0,1,0,1,46,0],
+"structMR_1_1SpaceMouse_1_1Action.html":[9,0,2,0,2,31,0],
+"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[9,0,1,0,1,46,0,1],
+"structMR_1_1SpaceMouse_1_1Action.html#a1e0813c3c0900b8ea40740c8eadf381a":[9,0,2,0,2,31,0,1],
+"structMR_1_1SpaceMouse_1_1Action.html#a7b51eab6ff82e23fface5fb492999ba3":[9,0,1,0,1,46,0,3]
 };
