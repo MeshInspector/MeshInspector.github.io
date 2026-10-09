@@ -1,6 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"group__SurfaceDistanceGroup.html#gafcfbdd0804b19650444f23e586a83452":[9,0,0,16,1,0],
 "group__SurfacePathGroup.html":[9,0,0,16],
 "group__SurfacePathGroup.html#ga02ee193e489ee539ab60e56139f84aa5":[9,0,0,16,12],
 "group__SurfacePathGroup.html#ga02ee193e489ee539ab60e56139f84aa5":[9,0,0,20,2023],
@@ -249,5 +248,6 @@ var NAVTREEINDEX58 =
 "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454":[9,0,0,17,0,2,6],
 "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a":[9,0,0,17,0,2,3],
 "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565":[9,0,0,17,0,2,4],
-"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7":[9,0,0,17,0,2,5]
+"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7":[9,0,0,17,0,2,5],
+"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9":[9,0,0,17,0,2,7]
 };

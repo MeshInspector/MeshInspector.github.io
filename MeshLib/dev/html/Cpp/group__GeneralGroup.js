@@ -6827,7 +6827,6 @@ var group__GeneralGroup =
       [ "numSmallText", "group__GeneralGroup.html#ga2c5115679d5b077be3479e377e7951b1", null ]
     ] ],
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", [
-      [ "dialogPositionFixed", "group__GeneralGroup.html#ga81cacb5c7aa2d35d0b873c9a48145777", null ],
       [ "item", "group__GeneralGroup.html#gaeb25a7d0ddadeeeda6f7ca36d711642b", null ]
     ] ],
     [ "MR::RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", [
@@ -17333,7 +17332,6 @@ var group__GeneralGroup =
     [ "MR::SurfaceManipulationWidget::deviationCalculationMethod_", "group__GeneralGroup.html#ga4f7ed13fa0a8080d470fade319e360f7", null ],
     [ "MR::StateBasePlugin::dialogIsCollapsed_", "group__GeneralGroup.html#ga55b362aee5989fe359aadd33c9be78b4", null ],
     [ "MR::StateBasePlugin::dialogIsOpen_", "group__GeneralGroup.html#ga1d97f71a0f325fbe29b0bbec3e564204", null ],
-    [ "MR::RibbonMenu::DialogItemPtr::dialogPositionFixed", "group__GeneralGroup.html#ga81cacb5c7aa2d35d0b873c9a48145777", null ],
     [ "diameter", "group__GeneralGroup.html#ga7cb80fe4cd457e0d0e931c0ade82101c", null ],
     [ "MR::EndMillTool::diameter", "group__GeneralGroup.html#gad8f4a7587862e0863fa16e3bc9763cda", null ],
     [ "MR::VoxelsLoad::DicomVolume", "group__GeneralGroup.html#ga78572299be99c8ae0544e2063f483452", null ],

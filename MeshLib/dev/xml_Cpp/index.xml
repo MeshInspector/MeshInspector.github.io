@@ -2583,7 +2583,6 @@
   </compound>
   <compound refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" kind="struct"><name>MR::RibbonMenu::DialogItemPtr</name>
     <member refid="group__GeneralGroup_1gaeb25a7d0ddadeeeda6f7ca36d711642b" kind="variable"><name>item</name></member>
-    <member refid="group__GeneralGroup_1ga81cacb5c7aa2d35d0b873c9a48145777" kind="variable"><name>dialogPositionFixed</name></member>
   </compound>
   <compound refid="structMR_1_1VoxelsLoad_1_1DicomStatus" kind="struct"><name>MR::VoxelsLoad::DicomStatus</name>
     <member refid="group__GeneralGroup_1ga69fabaf9380693815d99277fda43022f" kind="variable"><name>status</name></member>
@@ -24590,7 +24589,6 @@
     <member refid="group__GeneralGroup_1ga2c5115679d5b077be3479e377e7951b1" kind="variable"><name>numSmallText</name></member>
     <member refid="group__GeneralGroup_1ga0b1bb44ee2f0cfdbab7b516b3ce2a6f8" kind="variable"><name>numSmall</name></member>
     <member refid="group__GeneralGroup_1gaeb25a7d0ddadeeeda6f7ca36d711642b" kind="variable"><name>item</name></member>
-    <member refid="group__GeneralGroup_1ga81cacb5c7aa2d35d0b873c9a48145777" kind="variable"><name>dialogPositionFixed</name></member>
     <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" kind="variable"><name>activeBlockingItem_</name></member>
     <member refid="group__GeneralGroup_1gacf628a7bb9081d2c4b3d3405e96e85b4" kind="variable"><name>activeNonBlockingItems_</name></member>
     <member refid="group__GeneralGroup_1ga8d13b702d7c6dad7794328080b6562e0" kind="variable"><name>prevFrameSelectedObjectsCache_</name></member>
