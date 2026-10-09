@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__SkyPatch.html#aab51b65de899ce97c55f199171bfbcfa":[9,3,0,0,0,845,5],
 "classMR_1_1Const__SkyPatch.html#aab649c7a323bc542694ffb8cee776d94":[9,3,0,0,0,845,7],
 "classMR_1_1Const__SkyPatch.html#af847132e1c1b196fc7a1c76bb6aefcc5":[9,3,0,0,0,845,6],
 "classMR_1_1Const__SkyPatch.html#afa8c2296414aa7ae8b7380010ca3a874":[9,3,0,0,0,845,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SphereObject.html#ab201abb2a088caf3134f36d360b07ff4":[9,3,0,0,0,857,11],
 "classMR_1_1Const__SphereObject.html#ab68b5225aaef0dd9193377ed69af15a0":[9,3,0,0,0,857,47],
 "classMR_1_1Const__SphereObject.html#abb2d9179bf384d57c573ed69ca7118b5":[9,3,0,0,0,857,17],
-"classMR_1_1Const__SphereObject.html#abebeec0085bf06bb373d598e7da8fd5a":[9,3,0,0,0,857,3],
-"classMR_1_1Const__SphereObject.html#ac2dd7800fc41a25a4a9587f4acc5f85f":[9,3,0,0,0,857,45]
+"classMR_1_1Const__SphereObject.html#abebeec0085bf06bb373d598e7da8fd5a":[9,3,0,0,0,857,3]
 };

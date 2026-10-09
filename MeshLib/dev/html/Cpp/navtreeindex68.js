@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[9,0,1,0,1,35,2,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[9,0,2,0,2,22,2,1],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[9,0,1,0,1,35,3],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[9,0,2,0,2,22,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1SomeLocalTriangulations.html":[9,0,0,20,328],
 "structMR_1_1SortIntersectionsData.html":[9,0,0,20,426],
 "structMR_1_1SpaceMouseDownListener.html":[9,0,0,20,816],
-"structMR_1_1SpaceMouseMoveListener.html":[9,0,0,20,815],
-"structMR_1_1SpaceMouseUpListener.html":[9,0,0,20,817]
+"structMR_1_1SpaceMouseMoveListener.html":[9,0,0,20,815]
 };

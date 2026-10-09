@@ -683,7 +683,7 @@ var searchData=
   ['setmonochrome_325',['setMonochrome',['../group__GeneralGroup.html#ga3f3ee9a023e395253ee1df5bc2147a2f',1,'MR::RibbonButtonDrawer']]],
   ['setmouseblocked_326',['setMouseBlocked',['../group__GeneralGroup.html#gaaacce6a74f1585b599a10bda3b361f5e',1,'MR::DirectionWidget']]],
   ['setmousecontrol_327',['setMouseControl',['../group__GeneralGroup.html#gabf12d68f3ac6484a0fdffb15eeb0131c',1,'MR::MouseController']]],
-  ['setname_328',['setName',['../classMR_1_1Object.html#ace89695fb0235bdf97caecfe26390349',1,'MR::Object::setName()'],['../group__GeneralGroup.html#ga0f1d78f37dfc7faf40bed924c76deca1',1,'MR::SceneRootObject::setName()']]],
+  ['setname_328',['setName',['../group__GeneralGroup.html#gadec7cb9b7de9adafd76501936a9c687a',1,'MR::CombinedHistoryAction::setName()'],['../classMR_1_1Object.html#ace89695fb0235bdf97caecfe26390349',1,'MR::Object::setName()'],['../group__GeneralGroup.html#ga0f1d78f37dfc7faf40bed924c76deca1',1,'MR::SceneRootObject::setName()']]],
   ['setnewfontpaths_329',['setNewFontPaths',['../group__GeneralGroup.html#ga4ec42bb68d5b28aabef0f28fce200eaf',1,'MR::RibbonFontManager']]],
   ['setnewhandlerifneeded_330',['setNewHandlerIfNeeded',['../group__GeneralGroup.html#gacf82628c1b0f5d65b9b4e3f0f5bc93df',1,'MR']]],
   ['setnewpageaction_331',['setNewPageAction',['../group__GeneralGroup.html#gae8f3b5dc8632f9d2f88485100f9295aa',1,'MR::Pdf']]],

@@ -9,5 +9,6 @@ var classmrmeshpy_1_1CombinedHistoryAction =
     [ "getStack", "classmrmeshpy_1_1CombinedHistoryAction.html#aed389df0ad90db4ac3ec880ffe23d3e9", null ],
     [ "getStack", "classmrmeshpy_1_1CombinedHistoryAction.html#aed389df0ad90db4ac3ec880ffe23d3e9", null ],
     [ "heapBytes", "classmrmeshpy_1_1CombinedHistoryAction.html#adda1b97205488ebee4dbac9e83b44648", null ],
-    [ "name", "classmrmeshpy_1_1CombinedHistoryAction.html#a070223efdcb3794d1a3de1c811bff3e7", null ]
+    [ "name", "classmrmeshpy_1_1CombinedHistoryAction.html#a070223efdcb3794d1a3de1c811bff3e7", null ],
+    [ "setName", "classmrmeshpy_1_1CombinedHistoryAction.html#a09e6e9245f6be315818cb5eb70002133", null ]
 ];

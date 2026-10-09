@@ -1,5 +1,6 @@
 var NAVTREEINDEX148 =
 {
+"classMR_1_1WeightedShell_1_1Const__ParametersBase.html#aa7b571f5978879ad2876e925125585b7":[9,3,0,0,0,1871,1,13],
 "classMR_1_1WeightedShell_1_1Const__ParametersBase.html#ab0d1fdf7b3724fb4e3b6d73841b02f48":[9,3,0,0,0,1871,1,11],
 "classMR_1_1WeightedShell_1_1Const__ParametersBase.html#ab5bd04290d5dac0a20c0ed7e71ef8ac5":[9,3,0,0,0,1871,1,12],
 "classMR_1_1WeightedShell_1_1Const__ParametersBase.html#acc61ccc082e401e990245f4e357246a8":[9,3,0,0,0,1871,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX148 =
 "functions_func_s.html":[9,3,0,3,1,17],
 "functions_func_t.html":[9,3,0,3,1,18],
 "functions_func_u.html":[9,3,0,3,1,19],
-"functions_func_v.html":[9,3,0,3,1,20],
-"functions_func_w.html":[9,3,0,3,1,21]
+"functions_func_v.html":[9,3,0,3,1,20]
 };

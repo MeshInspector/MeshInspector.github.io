@@ -1,5 +1,7 @@
 var NAVTREEINDEX125 =
 {
+"classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[9,1,0,0,2,1265,24],
+"classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[9,1,0,0,2,1265,25],
 "classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[9,1,1,0,1,1265,24],
 "classmrmeshpy_1_1VertCoords.html#ab701dfa32ec644b31988a3d14a4d5a1a":[9,1,1,0,1,1265,25],
 "classmrmeshpy_1_1VertCoords.html#ab79cc3930ab8fd7d45966cd3b993c299":[9,1,0,0,2,1265,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX125 =
 "classmrmeshpy_1_1VertMap.html#af3eddfa2cc557d7562a00d4b4bfca58c":[9,1,0,0,2,1271,20],
 "classmrmeshpy_1_1VertMap.html#af3eddfa2cc557d7562a00d4b4bfca58c":[9,1,0,0,2,1271,21],
 "classmrmeshpy_1_1VertMap.html#af3eddfa2cc557d7562a00d4b4bfca58c":[9,1,1,0,1,1271,20],
-"classmrmeshpy_1_1VertMap.html#af3eddfa2cc557d7562a00d4b4bfca58c":[9,1,1,0,1,1271,21],
-"classmrmeshpy_1_1VertNormalsMode.html":[9,1,0,0,2,1272],
-"classmrmeshpy_1_1VertNormalsMode.html":[9,1,1,0,1,1272]
+"classmrmeshpy_1_1VertMap.html#af3eddfa2cc557d7562a00d4b4bfca58c":[9,1,1,0,1,1271,21]
 };

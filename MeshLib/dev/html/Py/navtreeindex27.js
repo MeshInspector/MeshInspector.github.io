@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1EdgeMap.html#afdc6d92502bc75d9033af70821bc03f3":[9,1,0,0,2,244,30],
+"classmrmeshpy_1_1EdgeMap.html#afdc6d92502bc75d9033af70821bc03f3":[9,1,1,0,1,244,30],
 "classmrmeshpy_1_1EdgePathsAStarBuilder.html":[9,1,0,0,2,245],
 "classmrmeshpy_1_1EdgePathsAStarBuilder.html":[9,1,1,0,1,245],
 "classmrmeshpy_1_1EdgePathsAStarBuilder.html#a68438cc7012b1c89ba3857306c4d0941":[9,1,0,0,2,245,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1EdgeScalars.html#ab2fbd6587eb3d7351faeba6d2cd3ebdd":[9,1,0,0,2,252,33],
 "classmrmeshpy_1_1EdgeScalars.html#ab2fbd6587eb3d7351faeba6d2cd3ebdd":[9,1,1,0,1,252,33],
 "classmrmeshpy_1_1EdgeScalars.html#ab79ba17463cd23d3356345b29e269bcc":[9,1,0,0,2,252,18],
-"classmrmeshpy_1_1EdgeScalars.html#ab79ba17463cd23d3356345b29e269bcc":[9,1,1,0,1,252,18],
-"classmrmeshpy_1_1EdgeScalars.html#ac3ec4feaf610b56864a8ebb2a0b8adff":[9,1,0,0,2,252,22],
-"classmrmeshpy_1_1EdgeScalars.html#ac3ec4feaf610b56864a8ebb2a0b8adff":[9,1,1,0,1,252,22]
+"classmrmeshpy_1_1EdgeScalars.html#ab79ba17463cd23d3356345b29e269bcc":[9,1,1,0,1,252,18]
 };

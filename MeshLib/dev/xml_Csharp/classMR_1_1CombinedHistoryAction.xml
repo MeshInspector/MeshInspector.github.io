@@ -151,6 +151,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="210" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="210" bodyend="219"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a9dfaddd71ec6c7ae3ea2226fbf0cf2ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CombinedHistoryAction.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.CombinedHistoryAction.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CombinedHistoryAction_1a9dfaddd71ec6c7ae3ea2226fbf0cf2ae" kindref="member">MR.CombinedHistoryAction.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="224" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="224" bodyend="231"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1ace723fe0552e381f472a4cafa459a886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.CombinedHistoryAction.action</definition>
@@ -168,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="224" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="224" bodyend="227"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="236" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="236" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a85b30407745962bc5a2675fb77325ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new MR.Std.Vector_StdSharedPtrMRHistoryAction</type>
@@ -183,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="232" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="232" bodyend="235"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="244" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="244" bodyend="247"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a90fd5fe8930164bcbb34442c2905749e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -202,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="242" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="242" bodyend="245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="254" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="254" bodyend="257"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -234,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="250" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="262" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1aac6a00e1ae50a7a82ce3af6a979f75ec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.CombinedHistoryAction._Underlying *</type>
@@ -256,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="253" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="265" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1aa08a9a705d507e2634b7f00b93185979" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe _Underlying *</type>
@@ -274,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="256" column="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="268" column="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a69cee303b819891236e54829b4e4ac53" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.HistoryAction._Underlying *</type>
@@ -292,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="259" column="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="271" column="57"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a1855d74294cfcc34199343c812a6b41f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -314,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="262" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="274" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1a8d900fbff2eaaf8e21e35a9db8c97b7e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -340,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="265" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="277" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1ab3a84e46c64ca5569411a3c4767bb878" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdSharedPtrMRHistoryAction._Underlying *</type>
@@ -358,7 +377,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="268" column="81"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="280" column="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CombinedHistoryAction_1adb46a69acb9ec90ebe46fde536d0b65d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.CombinedHistoryAction.__MR_CombinedHistoryAction_setName</definition>
+        <argsstring>(_Underlying *_this, byte *name, byte *name_end)</argsstring>
+        <name>__MR_CombinedHistoryAction_setName</name>
+        <qualifiedname>MR.CombinedHistoryAction.__MR_CombinedHistoryAction_setName</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>name_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="283" column="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -410,7 +455,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="164" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="165" bodyend="269"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="164" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="165" bodyend="284"/>
     <listofallmembers>
       <member refid="classMR_1_1CombinedHistoryAction_1a1855d74294cfcc34199343c812a6b41f" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_action</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a696b57f191e3dc501a947c4809516589" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_Construct</name></member>
@@ -418,6 +463,7 @@
       <member refid="classMR_1_1CombinedHistoryAction_1aa08a9a705d507e2634b7f00b93185979" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_DynamicDowncastFrom_MR_HistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a8d900fbff2eaaf8e21e35a9db8c97b7e" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_filter</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1ab3a84e46c64ca5569411a3c4767bb878" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_getStack_mut</name></member>
+      <member refid="classMR_1_1CombinedHistoryAction_1adb46a69acb9ec90ebe46fde536d0b65d" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_setName</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a69cee303b819891236e54829b4e4ac53" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>__MR_CombinedHistoryAction_UpcastTo_MR_HistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1ace723fe0552e381f472a4cafa459a886" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>action</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a93d2141f278b178994310a483c19bb5f" prot="package" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
@@ -442,6 +488,7 @@
       <member refid="classMR_1_1Const__CombinedHistoryAction_1a0a8e5e4d015750cf78d44cba216defdf" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator Const_CombinedHistoryAction?</name></member>
       <member refid="classMR_1_1Const__CombinedHistoryAction_1aa6ed99ff4dae60b13d556c2697fd0fc0" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1CombinedHistoryAction_1a0d3a6d4cefc8d1d0490713cf45ecfbd5" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1CombinedHistoryAction_1a9dfaddd71ec6c7ae3ea2226fbf0cf2ae" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>setName</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -249,6 +249,28 @@ Do deep filtering.
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90621" bodyend="90622"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CombinedHistoryAction_1a09e6e9245f6be315818cb5eb70002133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CombinedHistoryAction.setName</definition>
+        <argsstring>(self, str name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>mrmeshpy.CombinedHistoryAction.setName</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90623" bodyend="90624"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -282,7 +304,7 @@ History action for combine some history actions
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90580" bodyend="90622"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="90580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="90580" bodyend="90624"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a57c4735a99342bc64589f0e88be4cc71" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a8f24e013c6c88c0b8414b074b20150a3" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>__init__</name></member>
@@ -295,6 +317,7 @@ History action for combine some history actions
       <member refid="classmrmeshpy_1_1CombinedHistoryAction_1aed389df0ad90db4ac3ec880ffe23d3e9" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>getStack</name></member>
       <member refid="classmrmeshpy_1_1CombinedHistoryAction_1adda1b97205488ebee4dbac9e83b44648" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a070223efdcb3794d1a3de1c811bff3e7" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1CombinedHistoryAction_1a09e6e9245f6be315818cb5eb70002133" prot="public" virt="non-virtual"><scope>mrmeshpy::CombinedHistoryAction</scope><name>setName</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

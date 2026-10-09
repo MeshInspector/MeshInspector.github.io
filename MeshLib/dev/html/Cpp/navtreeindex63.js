@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[9,0,2,0,2,191,2],
 "structMR_1_1DeloneFlipsCache.html#a9a35236144629c8b122c73e09d8a57b3":[9,0,1,0,1,209,4],
 "structMR_1_1DeloneFlipsCache.html#a9a35236144629c8b122c73e09d8a57b3":[9,0,2,0,2,191,4],
 "structMR_1_1DeloneSettings.html":[9,0,1,0,1,210],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1GcodeProcessor_1_1MoveAction.html":[9,0,0,20,272],
 "structMR_1_1GeneralOffsetParameters.html":[9,0,0,20,873],
 "structMR_1_1GeodesicPath.html":[9,0,0,16,3,0],
-"structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[9,0,0,16,3,0,4],
-"structMR_1_1GeodesicPath.html#a500cd0125a04fdafa54081b9392409e4":[9,0,0,16,3,0,0]
+"structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[9,0,0,16,3,0,4]
 };

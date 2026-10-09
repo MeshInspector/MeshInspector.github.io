@@ -1802,6 +1802,7 @@
     <member refid="group__GeneralGroup_1ga0542f5855c346ab2031cd4193dea10c9" kind="variable"><name>dynNameGetter_</name></member>
     <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" kind="function"><name>CombinedHistoryAction</name></member>
     <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kind="function"><name>name</name></member>
+    <member refid="group__GeneralGroup_1gadec7cb9b7de9adafd76501936a9c687a" kind="function"><name>setName</name></member>
     <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kind="function"><name>getStack</name></member>
     <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kind="function"><name>getStack</name></member>
@@ -11332,7 +11333,7 @@
     <member refid="group__GeneralGroup_1gafb73c4c85c9d2f5882438cb0c5d6f17d" kind="variable"><name>pickedVertsToData_</name></member>
     <member refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" kind="variable"><name>historyAction_</name></member>
     <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" kind="variable"><name>appendHistoryAction_</name></member>
-    <member refid="group__GeneralGroup_1ga75283e02567950af1335626fd38bd98d" kind="variable"><name>smoothHistoryAction_</name></member>
+    <member refid="group__GeneralGroup_1gae1a9a0fee708096a7825443824c8513d" kind="variable"><name>combinedHistoryAction_</name></member>
     <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
     <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" kind="variable"><name>enableDeviationTexture_</name></member>
     <member refid="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" kind="variable"><name>deviationCalculationMethod_</name></member>
@@ -24861,7 +24862,7 @@
     <member refid="group__GeneralGroup_1gafb73c4c85c9d2f5882438cb0c5d6f17d" kind="variable"><name>pickedVertsToData_</name></member>
     <member refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" kind="variable"><name>historyAction_</name></member>
     <member refid="group__GeneralGroup_1ga09c56116fa4c39bcc7554e4142816027" kind="variable"><name>appendHistoryAction_</name></member>
-    <member refid="group__GeneralGroup_1ga75283e02567950af1335626fd38bd98d" kind="variable"><name>smoothHistoryAction_</name></member>
+    <member refid="group__GeneralGroup_1gae1a9a0fee708096a7825443824c8513d" kind="variable"><name>combinedHistoryAction_</name></member>
     <member refid="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" kind="variable"><name>palette_</name></member>
     <member refid="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" kind="variable"><name>enableDeviationTexture_</name></member>
     <member refid="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" kind="variable"><name>deviationCalculationMethod_</name></member>
@@ -26365,6 +26366,7 @@
     <member refid="group__GeneralGroup_1ga8f6e52c359bc6bafb4860f15faadf048" kind="function"><name>updateAggregated_</name></member>
     <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" kind="function"><name>CombinedHistoryAction</name></member>
     <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kind="function"><name>name</name></member>
+    <member refid="group__GeneralGroup_1gadec7cb9b7de9adafd76501936a9c687a" kind="function"><name>setName</name></member>
     <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kind="function"><name>getStack</name></member>
     <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kind="function"><name>getStack</name></member>

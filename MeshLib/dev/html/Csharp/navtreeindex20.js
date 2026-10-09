@@ -181,6 +181,7 @@ var NAVTREEINDEX20 =
 "classMR_1_1CombinedHistoryAction.html#a700a0fa9718ca688df2b3ab52dae6824":[9,3,0,0,0,214,0],
 "classMR_1_1CombinedHistoryAction.html#a85b30407745962bc5a2675fb77325ef9":[9,3,0,0,0,214,6],
 "classMR_1_1CombinedHistoryAction.html#a90fd5fe8930164bcbb34442c2905749e":[9,3,0,0,0,214,5],
+"classMR_1_1CombinedHistoryAction.html#a9dfaddd71ec6c7ae3ea2226fbf0cf2ae":[9,3,0,0,0,214,9],
 "classMR_1_1CombinedHistoryAction.html#ace147b697b2c803fdfcee40a75b5179b":[9,3,0,0,0,214,3],
 "classMR_1_1CombinedHistoryAction.html#ace723fe0552e381f472a4cafa459a886":[9,3,0,0,0,214,4],
 "classMR_1_1CompensateRadiusParams.html":[9,3,0,0,0,215],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1Cone3ApproximationParams.html#ab1da9e6ab2a1664c5e0b140ab65cc5b5":[9,3,0,0,0,220,3],
 "classMR_1_1Cone3ApproximationParams.html#ab56e98e327e3486c270e36470165ad78":[9,3,0,0,0,220,5],
 "classMR_1_1Cone3ApproximationParams.html#af2785e781acf07380a8a25ea345c19b2":[9,3,0,0,0,220,7],
-"classMR_1_1Cone3d.html":[9,3,0,0,0,221],
-"classMR_1_1Cone3d.html#a086fe5a2989f021ef613ba5bba99e1d2":[9,3,0,0,0,221,6]
+"classMR_1_1Cone3d.html":[9,3,0,0,0,221]
 };

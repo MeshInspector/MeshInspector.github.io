@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html#a42e63e5fdda8624b1da1656e3e4457b1":[9,1,0,0,2,1094,21],
+"classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html#a42e63e5fdda8624b1da1656e3e4457b1":[9,1,1,0,1,1094,21],
 "classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html#a55e99b153983002d51689dfc9af83607":[9,1,0,0,2,1094,12],
 "classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html#a55e99b153983002d51689dfc9af83607":[9,1,1,0,1,1094,12],
 "classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html#a5fd52321cb50d20ab945d5faccaac486":[9,1,0,0,2,1094,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX169 =
 "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#ad3b37b847116b253b63e8bd8722cf9c0":[9,1,0,0,2,1098,15],
 "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#ad3b37b847116b253b63e8bd8722cf9c0":[9,1,1,0,1,1098,15],
 "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#aeed3c08afe16a0acc814de626ea43283":[9,1,0,0,2,1098,11],
-"classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#aeed3c08afe16a0acc814de626ea43283":[9,1,1,0,1,1098,11],
-"classmrmeshpy_1_1std__vector__WeightedVertexT__float.html":[9,1,0,0,2,1099],
-"classmrmeshpy_1_1std__vector__WeightedVertexT__float.html":[9,1,1,0,1,1099]
+"classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#aeed3c08afe16a0acc814de626ea43283":[9,1,1,0,1,1098,11]
 };

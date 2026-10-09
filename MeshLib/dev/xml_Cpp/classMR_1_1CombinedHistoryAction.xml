@@ -15,6 +15,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" kind="function"><name>CombinedHistoryAction</name></member>
       <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gadec7cb9b7de9adafd76501936a9c687a" kind="function"><name>setName</name></member>
       <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kind="function"><name>action</name></member>
       <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kind="function"><name>getStack</name></member>
       <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kind="function"><name>getStack</name></member>
@@ -52,7 +53,7 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRCombinedHistoryAction.h" line="15" column="1" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="16" bodyend="50"/>
+    <location file="MRMesh/MRCombinedHistoryAction.h" line="15" column="1" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="16" bodyend="52"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>actions_</name></member>
@@ -70,6 +71,7 @@
       <member refid="group__GeneralGroup_1ga5619f8acd52326bd184417238d324c5c" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>HistoryAction</name></member>
       <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1ga219972a9af7ad77c1bd08a16d09df839" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gadec7cb9b7de9adafd76501936a9c687a" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>setName</name></member>
       <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>Type</name></member>
       <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>~HistoryAction</name></member>
     </listofallmembers>

@@ -4109,6 +4109,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gae424bbf4ddf0c42e7c361becbf04c4c2" id="r_gae424bbf4ddf0c42e7c361becbf04c4c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae424bbf4ddf0c42e7c361becbf04c4c2">MR::CombinedHistoryAction::CombinedHistoryAction</a> (const std::string &amp;<a class="el" href="#ga59961c77016991a1c41b6f0c34545ee6">name</a>, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; &gt; &amp;actions, const <a class="el" href="#ga83caa49f307fe6803e21a9d3083322a9">DynamicNameGetter</a> &amp;dynNameGetter={})</td></tr>
 <tr class="memdesc:gae424bbf4ddf0c42e7c361becbf04c4c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will call <a class="el" href="#gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" title="This function is called on history action (undo, redo, etc.)">action()</a> for each actions in given order (undo in reverse, redo in forward)  <br /></td></tr>
 <tr class="memitem:ga59961c77016991a1c41b6f0c34545ee6" id="r_ga59961c77016991a1c41b6f0c34545ee6"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga59961c77016991a1c41b6f0c34545ee6">MR::CombinedHistoryAction::name</a> () const override</td></tr>
+<tr class="memitem:gadec7cb9b7de9adafd76501936a9c687a" id="r_gadec7cb9b7de9adafd76501936a9c687a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadec7cb9b7de9adafd76501936a9c687a">MR::CombinedHistoryAction::setName</a> (std::string <a class="el" href="#ga59961c77016991a1c41b6f0c34545ee6">name</a>)</td></tr>
 <tr class="memitem:gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" id="r_gad5c4af46eaf9e4c6e88d77f5f7cdf5e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5c4af46eaf9e4c6e88d77f5f7cdf5e6">MR::CombinedHistoryAction::action</a> (<a class="el" href="#gac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a> type) override</td></tr>
 <tr class="memdesc:gad5c4af46eaf9e4c6e88d77f5f7cdf5e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called on history action (undo, redo, etc.)  <br /></td></tr>
 <tr class="memitem:gaa47d5898040fc2ee2c67bf0ffee6176c" id="r_gaa47d5898040fc2ee2c67bf0ffee6176c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa47d5898040fc2ee2c67bf0ffee6176c">MR::CombinedHistoryAction::getStack</a> ()</td></tr>
@@ -14555,8 +14556,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ga8bb8e8fac1549f326e6cba81c77c7a15" id="r_ga8bb8e8fac1549f326e6cba81c77c7a15"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VersatileChangeMeshPointsAction.html">VersatileChangeMeshPointsAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8bb8e8fac1549f326e6cba81c77c7a15">MR::SurfaceManipulationWidget::historyAction_</a></td></tr>
 <tr class="memitem:ga09c56116fa4c39bcc7554e4142816027" id="r_ga09c56116fa4c39bcc7554e4142816027"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga09c56116fa4c39bcc7554e4142816027">MR::SurfaceManipulationWidget::appendHistoryAction_</a> = false</td></tr>
 <tr class="memdesc:ga09c56116fa4c39bcc7554e4142816027"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if historyAction_ is prepared but not yet appended to <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>, which is done on first mouse move  <br /></td></tr>
-<tr class="memitem:ga75283e02567950af1335626fd38bd98d" id="r_ga75283e02567950af1335626fd38bd98d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75283e02567950af1335626fd38bd98d">MR::SurfaceManipulationWidget::smoothHistoryAction_</a></td></tr>
-<tr class="memdesc:ga75283e02567950af1335626fd38bd98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">in Relax mode with relaxMarkCreases, wraps historyAction_ in <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>, and receives the creases change on mouse up  <br /></td></tr>
+<tr class="memitem:gae1a9a0fee708096a7825443824c8513d" id="r_gae1a9a0fee708096a7825443824c8513d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1a9a0fee708096a7825443824c8513d">MR::SurfaceManipulationWidget::combinedHistoryAction_</a></td></tr>
 <tr class="memitem:ga3853225f96fef25c2dbce20227c54c7d" id="r_ga3853225f96fef25c2dbce20227c54c7d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1Palette.html">Palette</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3853225f96fef25c2dbce20227c54c7d">MR::SurfaceManipulationWidget::palette_</a></td></tr>
 <tr class="memitem:ga08839c74598549c345ed5f06ffaa769f" id="r_ga08839c74598549c345ed5f06ffaa769f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08839c74598549c345ed5f06ffaa769f">MR::SurfaceManipulationWidget::enableDeviationTexture_</a> = false</td></tr>
 <tr class="memitem:ga4f7ed13fa0a8080d470fade319e360f7" id="r_ga4f7ed13fa0a8080d470fade319e360f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga07fc1d71375854270d1a16b8d06209f4">DeviationCalculationMethod</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f7ed13fa0a8080d470fade319e360f7">MR::SurfaceManipulationWidget::deviationCalculationMethod_</a> = <a class="el" href="#gga07fc1d71375854270d1a16b8d06209f4ac93a47dc243a30fb1778ef562c03732c">DeviationCalculationMethod::ExactDistance</a></td></tr>
@@ -171189,8 +171189,35 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gadec7cb9b7de9adafd76501936a9c687a" name="gadec7cb9b7de9adafd76501936a9c687a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadec7cb9b7de9adafd76501936a9c687a">&#9670;&#160;</a></span>setName() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::CombinedHistoryAction::setName </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRCombinedHistoryAction_8h.html">MRMesh/MRCombinedHistoryAction.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga0f1d78f37dfc7faf40bed924c76deca1" name="ga0f1d78f37dfc7faf40bed924c76deca1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0f1d78f37dfc7faf40bed924c76deca1">&#9670;&#160;</a></span>setName()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0f1d78f37dfc7faf40bed924c76deca1">&#9670;&#160;</a></span>setName() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210141,6 +210168,29 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="gae1a9a0fee708096a7825443824c8513d" name="gae1a9a0fee708096a7825443824c8513d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae1a9a0fee708096a7825443824c8513d">&#9670;&#160;</a></span>combinedHistoryAction_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a>&gt; MR::SurfaceManipulationWidget::combinedHistoryAction_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>wraps historyAction_ in <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a> to receive the changes made on mouse up: the creases in Relax mode with relaxMarkCreases, the subdivision in Add/Remove modes with subdivideGrooves </p>
+
+</div>
+</div>
 <a id="ga505493fbe72fd322c04cc7922826c5f8" name="ga505493fbe72fd322c04cc7922826c5f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga505493fbe72fd322c04cc7922826c5f8">&#9670;&#160;</a></span>commandArgs</h2>
 
@@ -234998,30 +235048,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Whether to make patch over the hole smooth both inside and on its boundary with existed surface. </p>
-
-</div>
-</div>
-<a id="ga75283e02567950af1335626fd38bd98d" name="ga75283e02567950af1335626fd38bd98d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga75283e02567950af1335626fd38bd98d">&#9670;&#160;</a></span>smoothHistoryAction_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;<a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a>&gt; MR::SurfaceManipulationWidget::smoothHistoryAction_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>in Relax mode with relaxMarkCreases, wraps historyAction_ in <a class="el" href="classMR_1_1HistoryStore.html" title="This class stores history stack for undo/redo.">HistoryStore</a>, and receives the creases change on mouse up </p>
 
 </div>
 </div>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1SaveSettings.html#a1814186f22bbc6e369572926674e3f80":[9,1,0,0,2,836,16],
+"classmrmeshpy_1_1SaveSettings.html#a1814186f22bbc6e369572926674e3f80":[9,1,1,0,1,836,16],
 "classmrmeshpy_1_1SaveSettings.html#a1c4405d19328e0f1b917e56fac7f7c8f":[9,1,0,0,2,836,19],
 "classmrmeshpy_1_1SaveSettings.html#a1c4405d19328e0f1b917e56fac7f7c8f":[9,1,1,0,1,836,19],
 "classmrmeshpy_1_1SaveSettings.html#a254000896cbd0bbab818dc27474361cb":[9,1,0,0,2,836,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html":[9,1,0,0,2,843,2],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html":[9,1,1,0,1,843,2],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a0161672359ccf20b46c2a14f5e30b2e6":[9,1,0,0,2,843,2,1],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a0161672359ccf20b46c2a14f5e30b2e6":[9,1,1,0,1,843,2,1],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a04aee76da7f8cda8ee3af0b57c4fde93":[9,1,0,0,2,843,2,10],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a04aee76da7f8cda8ee3af0b57c4fde93":[9,1,1,0,1,843,2,10]
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#a0161672359ccf20b46c2a14f5e30b2e6":[9,1,1,0,1,843,2,1]
 };

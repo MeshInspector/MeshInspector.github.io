@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__DracoSaveOptions.html#ad765bc93442266f0522322b6ff58f3a9":[9,3,0,0,0,418,31],
 "classMR_1_1Const__DracoSaveOptions.html#adb1549ba8aa74c84715c82f223dabd41":[9,3,0,0,0,418,15],
 "classMR_1_1Const__DracoSaveOptions.html#ae710cf4de708ae66c469738353acf773":[9,3,0,0,0,418,30],
 "classMR_1_1Const__DracoSaveOptions.html#af14a7d1b5755f3a4d9881546a72c1a0b":[9,3,0,0,0,418,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EdgePoint.html#a03993a04be1f5c19b9ddb5b92f21c5b3":[9,3,0,0,0,427,14],
 "classMR_1_1Const__EdgePoint.html#a09cf280366bfdb166fa7fcfa970b6281":[9,3,0,0,0,427,13],
 "classMR_1_1Const__EdgePoint.html#a15c2e101e9b3c2ba1d019f4a355b956e":[9,3,0,0,0,427,17],
-"classMR_1_1Const__EdgePoint.html#a1910719d541cd9f76905c4f5a6fd8b20":[9,3,0,0,0,427,16],
-"classMR_1_1Const__EdgePoint.html#a279684181c8c6e0166ff0d88b037b5c4":[9,3,0,0,0,427,11]
+"classMR_1_1Const__EdgePoint.html#a1910719d541cd9f76905c4f5a6fd8b20":[9,3,0,0,0,427,16]
 };

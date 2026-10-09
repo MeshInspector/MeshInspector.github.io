@@ -26684,7 +26684,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="47" column="26" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="47" bodyend="-1"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="49" column="26" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga219972a9af7ad77c1bd08a16d09df839" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -26698,7 +26698,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="48" column="17" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="48" bodyend="-1"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="50" column="17" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga0542f5855c346ab2031cd4193dea10c9" prot="private" static="no" mutable="no">
         <type>DynamicNameGetter</type>
@@ -26712,7 +26712,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="49" column="23" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="49" bodyend="-1"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="51" column="23" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" prot="public" static="no" mutable="no">
         <type>Line3&lt; T &gt;</type>
@@ -62572,20 +62572,20 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRViewer/MRSurfaceManipulationWidget.h" line="238" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="238" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga75283e02567950af1335626fd38bd98d" prot="protected" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1gae1a9a0fee708096a7825443824c8513d" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; CombinedHistoryAction &gt;</type>
-        <definition>std::shared_ptr&lt;CombinedHistoryAction&gt; MR::SurfaceManipulationWidget::smoothHistoryAction_</definition>
+        <definition>std::shared_ptr&lt;CombinedHistoryAction&gt; MR::SurfaceManipulationWidget::combinedHistoryAction_</definition>
         <argsstring></argsstring>
-        <name>smoothHistoryAction_</name>
-        <qualifiedname>MR::SurfaceManipulationWidget::smoothHistoryAction_</qualifiedname>
+        <name>combinedHistoryAction_</name>
+        <qualifiedname>MR::SurfaceManipulationWidget::combinedHistoryAction_</qualifiedname>
         <briefdescription>
-<para>in Relax mode with relaxMarkCreases, wraps historyAction_ in <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>, and receives the creases change on mouse up </para>
         </briefdescription>
         <detaileddescription>
+<para>wraps historyAction_ in <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> to receive the changes made on mouse up: the creases in Relax mode with relaxMarkCreases, the subdivision in Add/Remove modes with subdivideGrooves </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="241" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="241" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="242" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="242" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3853225f96fef25c2dbce20227c54c7d" prot="protected" static="no" mutable="no">
         <type>std::shared_ptr&lt; Palette &gt;</type>
@@ -62599,7 +62599,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="243" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="243" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="244" column="21" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="244" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga08839c74598549c345ed5f06ffaa769f" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62614,7 +62614,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="244" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="244" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="245" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="245" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4f7ed13fa0a8080d470fade319e360f7" prot="protected" static="no" mutable="no">
         <type>DeviationCalculationMethod</type>
@@ -62629,7 +62629,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="245" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="245" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="246" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="246" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2584a189d7c7cfcd0164ea5fa581f09b" prot="protected" static="no" mutable="no">
         <type>DeviationCalculationMethod</type>
@@ -62645,7 +62645,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="246" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="246" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="247" column="32" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="247" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga32f9a2a3b8c9d57623374cb94a70f8b6" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62660,7 +62660,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="247" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="247" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="248" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="248" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8c958ed29a4e3f960ce7aab676126adb" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62676,7 +62676,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="250" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="250" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="251" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="251" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga03c8e502f4a92fa8e57e0d50ed97524a" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -62691,7 +62691,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="251" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="251" bodyend="-1"/>
+        <location file="MRViewer/MRSurfaceManipulationWidget.h" line="252" column="10" bodyfile="MRViewer/MRSurfaceManipulationWidget.h" bodystart="252" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaef0e9963d176c1ff1684083ddecd4fbe" prot="public" static="no" mutable="no">
         <type>PositionType</type>
@@ -89456,6 +89456,24 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRCombinedHistoryAction.h" line="25" column="25" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="25" bodyend="28"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gadec7cb9b7de9adafd76501936a9c687a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::CombinedHistoryAction::setName</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR::CombinedHistoryAction::setName</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="30" column="10" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="30" bodyend="30"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void MR::CombinedHistoryAction::action</definition>
@@ -89474,7 +89492,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="30" column="19"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="32" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>HistoryActionsVector &amp;</type>
@@ -89488,7 +89506,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="32" column="32" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="32" bodyend="32"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="34" column="32" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="34" bodyend="34"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const HistoryActionsVector &amp;</type>
@@ -89502,7 +89520,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="33" column="32" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="33" bodyend="33"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="35" column="32" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="35" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -89521,7 +89539,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="37" column="11"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="39" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -89535,7 +89553,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="39" column="10" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="39" bodyend="39"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="41" column="10" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="41" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga81ab07a6d63f11c541b280dfc3aad08d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::string &gt;</type>
@@ -89550,7 +89568,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="42" column="20"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="44" column="20"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -89566,7 +89584,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="44" column="22"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="46" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaffef646cc3f7a4011be4466f7a497e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::string &gt;</type>
@@ -89585,7 +89603,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRCombinedHistoryAction.h" line="53" column="16" declfile="MRMesh/MRCombinedHistoryAction.h" declline="53" declcolumn="16"/>
+        <location file="MRMesh/MRCombinedHistoryAction.h" line="55" column="16" declfile="MRMesh/MRCombinedHistoryAction.h" declline="55" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3b72d0a9806c94f23088c93a9194c0a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>

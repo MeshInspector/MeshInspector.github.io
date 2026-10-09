@@ -299,7 +299,8 @@ var group__HistoryGroup =
       [ "getStack", "group__GeneralGroup.html#gaa47d5898040fc2ee2c67bf0ffee6176c", null ],
       [ "getStack", "group__GeneralGroup.html#ga304820a24e74e6c61b31a203e017bc48", null ],
       [ "heapBytes", "group__GeneralGroup.html#ga83839aa6c5c2a8896645421552f26edd", null ],
-      [ "name", "group__GeneralGroup.html#ga59961c77016991a1c41b6f0c34545ee6", null ]
+      [ "name", "group__GeneralGroup.html#ga59961c77016991a1c41b6f0c34545ee6", null ],
+      [ "setName", "group__GeneralGroup.html#gadec7cb9b7de9adafd76501936a9c687a", null ]
     ] ],
     [ "MR::HistoryAction", "classMR_1_1HistoryAction.html", [
       [ "Type", "group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7", [

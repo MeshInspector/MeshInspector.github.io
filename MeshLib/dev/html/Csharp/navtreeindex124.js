@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"classMR_1_1Parabolaf.html":[9,3,0,0,0,1512],
 "classMR_1_1Parabolaf.html#a08d5f99bbbde31da5f5799a817c1193a":[9,3,0,0,0,1512,3],
 "classMR_1_1Parabolaf.html#a205aa0304480edab7bb9675dd34b1ff5":[9,3,0,0,0,1512,0],
 "classMR_1_1Parabolaf.html#a2ad263238106aa02f9b1e7e73d03e7a4":[9,3,0,0,0,1512,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1PlanarTriangulation_1_1Const__TriangulationParameters.html#afd1e2d64d18177832e9c167cc7b218e7":[9,3,0,0,0,1523,6,6],
 "classMR_1_1PlanarTriangulation_1_1ISweepLineCache.html":[9,3,0,0,0,1523,9],
 "classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[9,3,0,0,0,1523,7],
-"classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a18ee4f34334f3021a750a5931e9ef9df":[9,3,0,0,0,1523,7,8],
-"classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1b4295b83947ce66acb52d8f4ebfddcb":[9,3,0,0,0,1523,7,2]
+"classMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a18ee4f34334f3021a750a5931e9ef9df":[9,3,0,0,0,1523,7,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"classMR_1_1Const__MeshToDistanceVolumeParams.html#a0f49ae3f0372ed3222214dd39a10dee1":[9,3,0,0,0,615,3],
 "classMR_1_1Const__MeshToDistanceVolumeParams.html#a18f3685eca16c9ef2be91796c3078777":[9,3,0,0,0,615,7],
 "classMR_1_1Const__MeshToDistanceVolumeParams.html#a32b9c52db215ffa70cc84c2d2bae5272":[9,3,0,0,0,615,6],
 "classMR_1_1Const__MeshToDistanceVolumeParams.html#a38657da60ade4a672f32d9f87cd8b11e":[9,3,0,0,0,615,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "classMR_1_1Const__MetricToAStarPenalty.html#acc20dc4b6120920a4157488482c0a5d0":[9,3,0,0,0,623,7],
 "classMR_1_1Const__MetricToAStarPenalty.html#acef9039f69981994dac07f2e8a378903":[9,3,0,0,0,623,4],
 "classMR_1_1Const__MinMaxArg__Float__MRVertId.html":[9,3,0,0,0,624],
-"classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a0c41d15871a1ac9364645459fb3ef746":[9,3,0,0,0,624,9],
-"classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a0e9e808030ef22dd586c5314bb0c02d6":[9,3,0,0,0,624,14]
+"classMR_1_1Const__MinMaxArg__Float__MRVertId.html#a0c41d15871a1ac9364645459fb3ef746":[9,3,0,0,0,624,9]
 };
