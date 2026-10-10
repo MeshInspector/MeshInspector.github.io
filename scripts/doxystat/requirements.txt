@@ -1,0 +1,5 @@
+# doxystat parsers (scripts/doxystat/{index,compound}.py) are generateDS output:
+# they need six, and their namespace handling assumes lxml rather than the
+# xml.etree fallback they import when lxml is missing.
+lxml
+six
