@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Raster" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Raster</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Raster_1a412bed6f42057a0ebc8560818a321da9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Raster::_offsetof_data</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_data</name>
+        <qualifiedname>mrmeshpy.Raster._offsetof_data</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Raster_1a578e23d42e3b81d399c580aeab46937f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Raster::_offsetof_info</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_info</name>
+        <qualifiedname>mrmeshpy.Raster._offsetof_info</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a50dd961b8517e0ff713f7f121ac7676a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Raster.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Raster.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42184" bodyend="42185"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a7a175c3af4f17c88c111449346b81c3f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
+        <definition> Raster mrmeshpy.Raster.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Raster.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42188" bodyend="42189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a7a175c3af4f17c88c111449346b81c3f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
+        <definition> Raster mrmeshpy.Raster.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Raster.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42192" bodyend="42193"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a033776dd83278673700b667888766eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Raster.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Raster.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42195" bodyend="42196"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a8044325571ccabb78f0fc649cca984cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Raster.__init__</definition>
+        <argsstring>(self, Raster arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Raster.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42198" bodyend="42201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a23bd0418260ee0e004e9ab4d89b6c808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Raster.__init__</definition>
+        <argsstring>(self, RasterInfo info, std_vector_unsigned_char data)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Raster.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42203" bodyend="42206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1a540ce1fb842c0bdc58fed675bc42ae76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+        <definition> std_vector_unsigned_char mrmeshpy.Raster.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Raster.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>values of type info.type: the channels of a pixel go together, x changes first, then y (the rows go from top to bottom,
+unlike in Image), then z
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42208" bodyend="42212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Raster_1affe42745d5af27f24a4293b5b1e49f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Raster.data</definition>
+        <argsstring>(self, std_vector_unsigned_char arg1)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Raster.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42214" bodyend="42215"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Raster
+
+regular grid of values of any type: an image if it has one layer, otherwise a volume
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42173" bodyend="42215"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Raster_1a50dd961b8517e0ff713f7f121ac7676a" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a033776dd83278673700b667888766eb9" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a8044325571ccabb78f0fc649cca984cc" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a23bd0418260ee0e004e9ab4d89b6c808" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a412bed6f42057a0ebc8560818a321da9" prot="protected" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>_offsetof_data</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a578e23d42e3b81d399c580aeab46937f" prot="protected" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>_offsetof_info</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a540ce1fb842c0bdc58fed675bc42ae76" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1affe42745d5af27f24a4293b5b1e49f16" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a7a175c3af4f17c88c111449346b81c3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Raster_1a7a175c3af4f17c88c111449346b81c3f" prot="public" virt="non-virtual"><scope>mrmeshpy::Raster</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -9,6 +9,7 @@
     <innerclass refid="classMR_1_1SceneSettings" prot="public">MR::SceneSettings</innerclass>
     <innerclass refid="classMR_1_1FloatGrid" prot="public">MR::FloatGrid</innerclass>
     <innerclass refid="structMR_1_1OpenVdbFloatGrid" prot="public">MR::OpenVdbFloatGrid</innerclass>
+    <innergroup refid="group__RasterGroup">Raster</innergroup>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" prot="public" static="no">
         <type>std::function&lt; bool(float)&gt;</type>
@@ -23,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="780" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="780" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="784" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="784" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">

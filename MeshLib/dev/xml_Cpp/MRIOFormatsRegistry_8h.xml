@@ -710,6 +710,7 @@
     <innerclass refid="structMR_1_1LinesSave_1_1LinesSaver" prot="public">MR::LinesSave::LinesSaver</innerclass>
     <innerclass refid="structMR_1_1PointsLoad_1_1PointsLoader" prot="public">MR::PointsLoad::PointsLoader</innerclass>
     <innerclass refid="structMR_1_1PointsSave_1_1PointsSaver" prot="public">MR::PointsSave::PointsSaver</innerclass>
+    <innerclass refid="structMR_1_1RasterLoad_1_1RasterLoader" prot="public">MR::RasterLoad::RasterLoader</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshLoad">MR::MeshLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1MeshSave">MR::MeshSave</innernamespace>
@@ -726,6 +727,8 @@
     <innernamespace refid="namespaceMR_1_1SceneSave">MR::SceneSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1DistanceMapLoad">MR::DistanceMapLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1DistanceMapSave">MR::DistanceMapSave</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterLoad">MR::RasterLoad</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterSave">MR::RasterSave</innernamespace>
     <sectiondef kind="define">
       <memberdef kind="define" id="MRIOFormatsRegistry_8h_1a5523f4a0eb6dd34454d8708545fa1463" prot="public" static="no">
         <name>MR_FORMAT_REGISTRY_EXTERNAL_DECL</name>
@@ -1080,6 +1083,33 @@ const IOFilters&amp; getFilters()                                               
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRIOFormatsRegistry.h" line="400" column="9" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="400" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="define" id="MRIOFormatsRegistry_8h_1a6865516ed11cc9edbf494851f4b8fa1c" prot="public" static="no">
+        <name>MR_ADD_RASTER_LOADER</name>
+        <param><defname>filter</defname></param>
+        <param><defname>loader</defname></param>
+        <param><defname>infoLoader</defname></param>
+        <initializer><ref refid="MROnInit_8h_1a97d3ce2d47b8492d5aee0f258780b227" kindref="member">MR_ON_INIT</ref> { using namespace MR::RasterLoad; setRasterLoader( filter, { static_cast&lt;RasterFileLoader&gt;( loader ), static_cast&lt;RasterInfoLoader&gt;( infoLoader ) } ); };</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="421" column="9" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="421" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="define" id="MRIOFormatsRegistry_8h_1af674478204b0d70cdfa7d2193a11b7fc" prot="public" static="no">
+        <name>MR_ADD_RASTER_SAVER</name>
+        <param><defname>filter</defname></param>
+        <param><defname>saver</defname></param>
+        <initializer><ref refid="MROnInit_8h_1a97d3ce2d47b8492d5aee0f258780b227" kindref="member">MR_ON_INIT</ref> { using namespace MR::RasterSave; setRasterSaver( filter, saver ); };</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="433" column="9" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="433" bodyend="434"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1470,8 +1500,39 @@ const IOFilters&amp; getFilters()                                               
 <codeline lineno="402"><highlight class="normal"></highlight></codeline>
 <codeline lineno="403"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="405"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="406"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterLoad" kindref="compound">RasterLoad</ref></highlight></codeline>
+<codeline lineno="406"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408" refid="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" kindref="member">RasterFileLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Raster&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="409" refid="namespaceMR_1_1RasterLoad_1ade9e8b8215e87321bea2c34d68fe543b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterLoad_1ade9e8b8215e87321bea2c34d68fe543b" kindref="member">RasterInfoLoader</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;RasterInfo&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411" refid="structMR_1_1RasterLoad_1_1RasterLoader" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RasterLoad_1_1RasterLoader" kindref="compound">RasterLoader</ref></highlight></codeline>
+<codeline lineno="412"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="414" refid="structMR_1_1RasterLoad_1_1RasterLoader_1abd3ba17645c37e6f6d37004db945532c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" kindref="member">RasterFileLoader</ref><sp/><ref refid="structMR_1_1RasterLoad_1_1RasterLoader_1abd3ba17645c37e6f6d37004db945532c" kindref="member">fileLoad</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="416" refid="structMR_1_1RasterLoad_1_1RasterLoader_1a1144daaa14a34e9a7eb038d91217c799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1RasterLoad_1ade9e8b8215e87321bea2c34d68fe543b" kindref="member">RasterInfoLoader</ref><sp/><ref refid="structMR_1_1RasterLoad_1_1RasterLoader_1a1144daaa14a34e9a7eb038d91217c799" kindref="member">infoLoad</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="417"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/>RasterLoader<sp/>)</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="421" refid="MRIOFormatsRegistry_8h_1a6865516ed11cc9edbf494851f4b8fa1c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_RASTER_LOADER(<sp/>filter,<sp/>loader,<sp/>infoLoader<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="422"><highlight class="preprocessor">MR_ON_INIT<sp/>{<sp/>using<sp/>namespace<sp/>MR::RasterLoad;<sp/>setRasterLoader(<sp/>filter,<sp/>{<sp/>static_cast&lt;RasterFileLoader&gt;(<sp/>loader<sp/>),<sp/>static_cast&lt;RasterInfoLoader&gt;(<sp/>infoLoader<sp/>)<sp/>}<sp/>);<sp/>};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"></highlight></codeline>
+<codeline lineno="424"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterSave" kindref="compound">RasterSave</ref></highlight></codeline>
+<codeline lineno="427"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429" refid="namespaceMR_1_1RasterSave_1ad922f4de76620e64ed212b390b2e0414" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterSave_1ad922f4de76620e64ed212b390b2e0414" kindref="member">RasterSaver</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref>(<sp/>*<sp/>)(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Raster" kindref="compound">Raster</ref>&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><ref refid="MRIOFormatsRegistry_8h_1ac0f6e00f19d26a3fb4eef786c3e46599" kindref="member">MR_FORMAT_REGISTRY_DECL</ref>(<sp/><ref refid="namespaceMR_1_1RasterSave_1ad922f4de76620e64ed212b390b2e0414" kindref="member">RasterSaver</ref><sp/>)</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"></highlight></codeline>
+<codeline lineno="433" refid="MRIOFormatsRegistry_8h_1af674478204b0d70cdfa7d2193a11b7fc" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ADD_RASTER_SAVER(<sp/>filter,<sp/>saver<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="434"><highlight class="preprocessor">MR_ON_INIT<sp/>{<sp/>using<sp/>namespace<sp/>MR::RasterSave;<sp/>setRasterSaver(<sp/>filter,<sp/>saver<sp/>);<sp/>};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"></highlight></codeline>
+<codeline lineno="438"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRIOFormatsRegistry.h"/>
   </compounddef>

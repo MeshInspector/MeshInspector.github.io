@@ -1,5 +1,6 @@
 var group__BasicStructuresGroup =
 [
+    [ "Raster", "group__RasterGroup.html", "group__RasterGroup" ],
     [ "MR::Image", "structMR_1_1Image.html", [
       [ "heapBytes", "group__GeneralGroup.html#gaed3087256e14a389e2e32449eb1233d1", null ],
       [ "operator[]", "group__GeneralGroup.html#ga3b6b9b5bd10ab0b951b4049866cb22fb", null ],

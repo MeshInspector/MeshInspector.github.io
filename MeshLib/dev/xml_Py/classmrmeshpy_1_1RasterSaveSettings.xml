@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RasterSaveSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RasterSaveSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterSaveSettings_1a58dc178c0a0673531638f33b1ee6fe13" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterSaveSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings._offsetof_progress</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42329" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1a71d245052a15ee1f98525d5ce6c9cc35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterSaveSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42332" bodyend="42333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1af15e670727f4e76671436234a560f703" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref></type>
+        <definition> RasterSaveSettings mrmeshpy.RasterSaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42336" bodyend="42337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1af15e670727f4e76671436234a560f703" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref></type>
+        <definition> RasterSaveSettings mrmeshpy.RasterSaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42340" bodyend="42341"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1ad48380036885cac7486460e37d334c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterSaveSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42343" bodyend="42344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1a63d1d086bd884042da1aa1211d938bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterSaveSettings.__init__</definition>
+        <argsstring>(self, RasterSaveSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42346" bodyend="42349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1a5fa94e9ed8914120358208365273545b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterSaveSettings.__init__</definition>
+        <argsstring>(self, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42351" bodyend="42354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1ae3a5be2c2326fd93dfc90cb70a351be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.RasterSaveSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report save progress and cancel saving if user desires
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42356" bodyend="42359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1ab196c20c1b14a5f6487263841c1e4ec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterSaveSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.RasterSaveSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42361" bodyend="42362"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RasterSaveSettings
+
+settings for saving rasters in external formats
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42323" bodyend="42362"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1a71d245052a15ee1f98525d5ce6c9cc35" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1ad48380036885cac7486460e37d334c23" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1a63d1d086bd884042da1aa1211d938bb7" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1a5fa94e9ed8914120358208365273545b" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1a58dc178c0a0673531638f33b1ee6fe13" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1af15e670727f4e76671436234a560f703" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1af15e670727f4e76671436234a560f703" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1ae3a5be2c2326fd93dfc90cb70a351be4" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1ab196c20c1b14a5f6487263841c1e4ec3" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

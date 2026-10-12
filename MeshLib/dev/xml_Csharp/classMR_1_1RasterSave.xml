@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RasterSave" kind="class" language="C#" prot="public">
+    <compoundname>MR::RasterSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RasterSave_1afe4f0c1514eae7af14cdc197b6e81875" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.RasterSave.toTiff</definition>
+        <argsstring>(MR.Const_Raster raster, string path, MR.Const_RasterSaveSettings? settings=null)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>MR.RasterSave.toTiff</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Raster" kindref="compound">MR.Const_Raster</ref></type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterSaveSettings" kindref="compound">MR.Const_RasterSaveSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 Generated from function <computeroutput><ref refid="classMR_1_1RasterSave_1afe4f0c1514eae7af14cdc197b6e81875" kindref="member">MR.RasterSave.toTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="62" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="62" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterSave_1a7f65bed30d597f5a060b967888ad02d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.RasterSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_Raster raster, string path, MR.Const_RasterSaveSettings? settings=null)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.RasterSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Raster" kindref="compound">MR.Const_Raster</ref></type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterSaveSettings" kindref="compound">MR.Const_RasterSaveSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and saves the raster in it Generated from function <computeroutput><ref refid="classMR_1_1RasterSave_1a7f65bed30d597f5a060b967888ad02d8" kindref="member">MR.RasterSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterSave.cs" line="10" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterSave.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1RasterSave_1acf6d203d5303bd7846985821dc41311c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.RasterSave.__MR_RasterSave_toTiff</definition>
+        <argsstring>(MR.Const_Raster._Underlying *raster, byte *path, byte *path_end, MR.Const_RasterSaveSettings._Underlying *settings)</argsstring>
+        <name>__MR_RasterSave_toTiff</name>
+        <qualifiedname>MR.RasterSave.__MR_RasterSave_toTiff</qualifiedname>
+        <param>
+          <type>MR.Const_Raster._Underlying *</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_RasterSaveSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="76" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterSave_1a970c6242073cfdc50103aae10eb9913b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.RasterSave.__MR_RasterSave_toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_Raster._Underlying *raster, byte *path, byte *path_end, MR.Const_RasterSaveSettings._Underlying *settings)</argsstring>
+        <name>__MR_RasterSave_toAnySupportedFormat</name>
+        <qualifiedname>MR.RasterSave.__MR_RasterSave_toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_Raster._Underlying *</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_RasterSaveSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterSave.cs" line="24" column="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="54" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="55" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RasterSave_1a970c6242073cfdc50103aae10eb9913b" prot="private" virt="non-virtual"><scope>MR::RasterSave</scope><name>__MR_RasterSave_toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1RasterSave_1acf6d203d5303bd7846985821dc41311c" prot="private" virt="non-virtual"><scope>MR::RasterSave</scope><name>__MR_RasterSave_toTiff</name></member>
+      <member refid="classMR_1_1RasterSave_1a7f65bed30d597f5a060b967888ad02d8" prot="public" virt="non-virtual"><scope>MR::RasterSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1RasterSave_1afe4f0c1514eae7af14cdc197b6e81875" prot="public" virt="non-virtual"><scope>MR::RasterSave</scope><name>toTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

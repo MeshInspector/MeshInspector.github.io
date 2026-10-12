@@ -165,11 +165,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5">MR_ScalarType_Float32</a> = 8
 , <a class="el" href="#a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c">MR_ScalarType_Float64</a> = 9
 , <a class="el" href="#a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d">MR_ScalarType_Float32_4</a> = 10
-, <a class="el" href="#a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4">MR_ScalarType_RGB8</a> = 11
+, <a class="el" href="#a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18">MR_ScalarType_Unknown</a> = 11
 , <br />
-&#160;&#160;<a class="el" href="#a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701">MR_ScalarType_RGBA8</a> = 12
-, <a class="el" href="#a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18">MR_ScalarType_Unknown</a> = 13
-, <a class="el" href="#a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9">MR_ScalarType_Count</a> = 14
+&#160;&#160;<a class="el" href="#a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9">MR_ScalarType_Count</a> = 12
 <br />
  }</td></tr>
 <tr class="memdesc:a8984c8b5d57b39c99016a5f22464da26"><td class="mdescLeft">&#160;</td><td class="mdescRight">scalar value's binary format type  <a href="#a8984c8b5d57b39c99016a5f22464da26">More...</a><br /></td></tr>
@@ -238,11 +236,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5" name="a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5"></a>MR_ScalarType_Float32&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c" name="a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c"></a>MR_ScalarType_Float64&#160;</td><td class="fielddoc"><p>the last value from float[4] </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" name="a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d"></a>MR_ScalarType_Float32_4&#160;</td><td class="fielddoc"><p>8-bit red, green and blue components; the scalar value is their luma </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4" name="a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4"></a>MR_ScalarType_RGB8&#160;</td><td class="fielddoc"><p>8-bit red, green, blue and alpha components as in Color; the scalar value is the luma of the color components </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701" name="a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701"></a>MR_ScalarType_RGBA8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" name="a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d"></a>MR_ScalarType_Float32_4&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" name="a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18"></a>MR_ScalarType_Unknown&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" name="a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9"></a>MR_ScalarType_Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -264,7 +258,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for ScalarType::Unknown Generated from function <span class="tt">MR::getScalarTypeMinMax</span>. </p>
+<p>returns the minimal and the maximal values of given type, or zeros for ScalarType::Unknown Generated from function <span class="tt">MR::getScalarTypeMinMax</span>. </p>
 
 </div>
 </div>
@@ -304,10 +298,10 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are </p><dl class="params"><dt>Parameters</dt><dd>
+<p>get a function to convert binary data of specified format type to a scalar value: integer values are mapped from given range to [0, 1], floating-point values are returned as they are </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">scalarType</td><td>- binary format type </td></tr>
-    <tr><td class="paramname">range</td><td>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <span class="tt">MR::getTypeConverter</span>. Parameter <span class="tt">range</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__const__char__ptr_8h.html#a40757f0fe991345cd13de1e4d4b46832" title="Destroys a heap-allocated instance of MR_std_function_float_from_const_char_ptr. Does nothing if the ...">MR_std_function_float_from_const_char_ptr_Destroy()</a></span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">range</td><td>- (for integer types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <span class="tt">MR::getTypeConverter</span>. Parameter <span class="tt">range</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__function__float__from__const__char__ptr_8h.html#a40757f0fe991345cd13de1e4d4b46832" title="Destroys a heap-allocated instance of MR_std_function_float_from_const_char_ptr. Does nothing if the ...">MR_std_function_float_from_const_char_ptr_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>

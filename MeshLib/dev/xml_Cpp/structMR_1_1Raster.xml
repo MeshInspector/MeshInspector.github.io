@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Raster" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Raster</compoundname>
+    <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Raster_1afcb38dc34e0fdeda6a61ed5b5a99ac0e" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+        <definition>RasterInfo MR::Raster::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <qualifiedname>MR::Raster::info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="39" column="16" bodyfile="MRMesh/MRRaster.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Raster_1aba67d13f8d3fadd9281c8893af3b1eba" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; MR::Raster::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR::Raster::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>values of type info.type: the channels of a pixel go together, x changes first, then y (the rows go from top to bottom, unlike in <ref refid="structMR_1_1Image" kindref="compound">Image</ref>), then z </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="43" column="17" bodyfile="MRMesh/MRRaster.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>regular grid of values of any type: an image if it has one layer, otherwise a volume </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Raster</label>
+        <link refid="structMR_1_1Raster"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RasterInfo</label>
+        <link refid="structMR_1_1RasterInfo"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRRaster.h" line="37" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="38" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Raster_1aba67d13f8d3fadd9281c8893af3b1eba" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>data</name></member>
+      <member refid="structMR_1_1Raster_1afcb38dc34e0fdeda6a61ed5b5a99ac0e" prot="public" virt="non-virtual"><scope>MR::Raster</scope><name>info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

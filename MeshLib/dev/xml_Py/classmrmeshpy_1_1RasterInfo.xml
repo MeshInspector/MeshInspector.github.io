@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RasterInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RasterInfo</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterInfo_1a5cd9c9c7a29e5f9a0946435d831530a9" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterInfo::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.RasterInfo.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42222" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterInfo_1a5914a9feb40dbac5c11f01ea77945d6f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterInfo::_offsetof_channels</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_channels</name>
+        <qualifiedname>mrmeshpy.RasterInfo._offsetof_channels</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterInfo_1abd77593a3aa274489fce3e433faf9718" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterInfo::_offsetof_dims</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dims</name>
+        <qualifiedname>mrmeshpy.RasterInfo._offsetof_dims</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RasterInfo_1a1b6e83d4b9d39012125c95983e5a4d98" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RasterInfo::_offsetof_type</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_type</name>
+        <qualifiedname>mrmeshpy.RasterInfo._offsetof_type</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42225" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1af9291c33a674195ff96af8ad36e065a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RasterInfo.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.RasterInfo.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42227" bodyend="42228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a975ea0fb38b1c7882f4e233ab1d7990b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterInfo.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42231" bodyend="42232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a8e5d281b51f1db2a6be0959d2efa3b76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+        <definition> RasterInfo mrmeshpy.RasterInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RasterInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42235" bodyend="42236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a8e5d281b51f1db2a6be0959d2efa3b76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+        <definition> RasterInfo mrmeshpy.RasterInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RasterInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42239" bodyend="42240"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1ae44d24f3e34cbe78aadcca970d7442b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42242" bodyend="42243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1ae9d64252d7d50bf19716814c532e0fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.__init__</definition>
+        <argsstring>(self, RasterInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42245" bodyend="42248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a2bdd78a2fe56956449f95736c29ec9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.__init__</definition>
+        <argsstring>(self, Vector3i dims, ScalarType type, int channels)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RasterInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ScalarType" kindref="compound">ScalarType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42250" bodyend="42253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a0b7c846d03bfb23561cb6d61be20fe3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RasterInfo.dataSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>dataSize</name>
+        <qualifiedname>mrmeshpy.RasterInfo.dataSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the size of all values in bytes, or the largest size_t value if the size does not fit in size_t, which no data can have
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42254" bodyend="42257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a33f5cc831b3a7abea58dddd98a2d7d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RasterInfo.channels</definition>
+        <argsstring>(self)</argsstring>
+        <name>channels</name>
+        <qualifiedname>mrmeshpy.RasterInfo.channels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>number of values in each pixel, e.g. 1 for gray values, 3 for RGB colors, 4 for RGBA colors, or any number of bands;
+convertRasterToImage takes three or more channels as RGB(A) colors, so three or four gray bands look like colors there
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42259" bodyend="42263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1ae735d06a2e5e354d2679773700a33ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.channels</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>channels</name>
+        <qualifiedname>mrmeshpy.RasterInfo.channels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42265" bodyend="42266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a7cae8ac85c30f3c1ef25cd18801f63b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.RasterInfo.dims</definition>
+        <argsstring>(self)</argsstring>
+        <name>dims</name>
+        <qualifiedname>mrmeshpy.RasterInfo.dims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>number of pixels along each axis: x is the width, y is the height, z is the number of layers
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42268" bodyend="42271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1abfd3f1d6906031559b135d525b6f3038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.dims</definition>
+        <argsstring>(self, Vector3i arg1)</argsstring>
+        <name>dims</name>
+        <qualifiedname>mrmeshpy.RasterInfo.dims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42273" bodyend="42274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1a5452cdb8f96fbee51bc6f30442ad28e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ScalarType" kindref="compound">ScalarType</ref></type>
+        <definition> ScalarType mrmeshpy.RasterInfo.type</definition>
+        <argsstring>(self)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.RasterInfo.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>type of all values
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42276" bodyend="42279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterInfo_1aa80ee6de318270d92d3ba442d86cfbf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterInfo.type</definition>
+        <argsstring>(self, ScalarType arg1)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.RasterInfo.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ScalarType" kindref="compound">ScalarType</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42281" bodyend="42282"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RasterInfo
+
+everything about a raster except its values
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42216" bodyend="42282"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RasterInfo_1af9291c33a674195ff96af8ad36e065a5" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a5cd9c9c7a29e5f9a0946435d831530a9" prot="private" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a975ea0fb38b1c7882f4e233ab1d7990b" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1ae44d24f3e34cbe78aadcca970d7442b7" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1ae9d64252d7d50bf19716814c532e0fc0" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a2bdd78a2fe56956449f95736c29ec9e9" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a5914a9feb40dbac5c11f01ea77945d6f" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>_offsetof_channels</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1abd77593a3aa274489fce3e433faf9718" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>_offsetof_dims</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a1b6e83d4b9d39012125c95983e5a4d98" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>_offsetof_type</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a33f5cc831b3a7abea58dddd98a2d7d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>channels</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1ae735d06a2e5e354d2679773700a33ee3" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>channels</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a0b7c846d03bfb23561cb6d61be20fe3a" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>dataSize</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a7cae8ac85c30f3c1ef25cd18801f63b7" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>dims</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1abfd3f1d6906031559b135d525b6f3038" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>dims</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a8e5d281b51f1db2a6be0959d2efa3b76" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a8e5d281b51f1db2a6be0959d2efa3b76" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1a5452cdb8f96fbee51bc6f30442ad28e0" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>type</name></member>
+      <member refid="classmrmeshpy_1_1RasterInfo_1aa80ee6de318270d92d3ba442d86cfbf6" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterInfo</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

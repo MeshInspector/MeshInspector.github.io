@@ -212,6 +212,9 @@ var annotated_dup =
       [ "PolylineComponents", "namespaceMR_1_1PolylineComponents.html", [
         [ "LargeByLengthComponentsSettings", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" ]
       ] ],
+      [ "RasterLoad", "namespaceMR_1_1RasterLoad.html", [
+        [ "RasterLoader", "structMR_1_1RasterLoad_1_1RasterLoader.html", "structMR_1_1RasterLoad_1_1RasterLoader" ]
+      ] ],
       [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", [
         [ "AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],
         [ "AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", "classMR_1_1RenderDimensions_1_1AngleTask" ],
@@ -912,6 +915,10 @@ var annotated_dup =
       [ "RangeProcessorSingle", "classMR_1_1RangeProcessorSingle.html", "classMR_1_1RangeProcessorSingle" ],
       [ "RangeProgress", "classMR_1_1RangeProgress.html", "classMR_1_1RangeProgress" ],
       [ "RangeSize", "structMR_1_1RangeSize.html", "structMR_1_1RangeSize" ],
+      [ "Raster", "structMR_1_1Raster.html", "structMR_1_1Raster" ],
+      [ "RasterInfo", "structMR_1_1RasterInfo.html", "structMR_1_1RasterInfo" ],
+      [ "RasterLoadSettings", "structMR_1_1RasterLoadSettings.html", "structMR_1_1RasterLoadSettings" ],
+      [ "RasterSaveSettings", "structMR_1_1RasterSaveSettings.html", "structMR_1_1RasterSaveSettings" ],
       [ "RawTiffOutput", "structMR_1_1RawTiffOutput.html", "structMR_1_1RawTiffOutput" ],
       [ "RayOrigin", "structMR_1_1RayOrigin.html", "structMR_1_1RayOrigin" ],
       [ "RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", "structMR_1_1RebuildMeshSettings" ],

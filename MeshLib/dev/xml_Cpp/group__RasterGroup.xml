@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="group__RasterGroup" kind="group">
+    <compoundname>RasterGroup</compoundname>
+    <title>Raster</title>
+    <innerclass refid="structMR_1_1RasterInfo" prot="public">MR::RasterInfo</innerclass>
+    <innerclass refid="structMR_1_1Raster" prot="public">MR::Raster</innerclass>
+    <innerclass refid="structMR_1_1RasterLoadSettings" prot="public">MR::RasterLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1RasterSaveSettings" prot="public">MR::RasterSaveSettings</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__RasterGroup_1gadcb09b212975aa3c7b3267ef39c306e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Image &gt;</type>
+        <definition>Expected&lt; Image &gt; MR::convertRasterToImage</definition>
+        <argsstring>(const Raster &amp;raster)</argsstring>
+        <name>convertRasterToImage</name>
+        <qualifiedname>MR::convertRasterToImage</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts a raster with one layer to an image (the rows are reordered from bottom to top):<itemizedlist>
+<listitem><para>the values of one channel are scaled from the range of finite values to gray colors, NaN and infinite values become black;</para>
+</listitem><listitem><para>three or more channels are RGB or RGBA colors (the channels after the fourth are ignored): integer values keep their high byte and are taken as unsigned ones, floating-point values are clamped to [0, 1], NaN becomes 0 </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="50" column="11" declfile="MRMesh/MRRaster.h" declline="50" declcolumn="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

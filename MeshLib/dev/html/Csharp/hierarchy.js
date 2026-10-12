@@ -2026,6 +2026,18 @@ var hierarchy =
       [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", [
         [ "MR.RadiusMeasurementObject", "classMR_1_1RadiusMeasurementObject.html", null ]
       ] ],
+      [ "MR.Const_Raster", "classMR_1_1Const__Raster.html", [
+        [ "MR.Raster", "classMR_1_1Raster.html", null ]
+      ] ],
+      [ "MR.Const_RasterInfo", "classMR_1_1Const__RasterInfo.html", [
+        [ "MR.RasterInfo", "classMR_1_1RasterInfo.html", null ]
+      ] ],
+      [ "MR.Const_RasterLoadSettings", "classMR_1_1Const__RasterLoadSettings.html", [
+        [ "MR.RasterLoadSettings", "classMR_1_1RasterLoadSettings.html", null ]
+      ] ],
+      [ "MR.Const_RasterSaveSettings", "classMR_1_1Const__RasterSaveSettings.html", [
+        [ "MR.RasterSaveSettings", "classMR_1_1RasterSaveSettings.html", null ]
+      ] ],
       [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", [
         [ "MR.RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html", null ]
       ] ],
@@ -3452,6 +3464,7 @@ var hierarchy =
       [ "MR.Const_PolylineTopology", "classMR_1_1Const__PolylineTopology.html", null ],
       [ "MR.Const_PolylineUndirectedEdgeIterator", "classMR_1_1Const__PolylineUndirectedEdgeIterator.html", null ],
       [ "MR.Const_PositionedText", "classMR_1_1Const__PositionedText.html", null ],
+      [ "MR.Const_RasterInfo", "classMR_1_1Const__RasterInfo.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameLeft", "classMR_1_1Const__RingIterator__MRNextEdgeSameLeft.html", null ],
       [ "MR.Const_RingIterator_MRNextEdgeSameOrigin", "classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin.html", null ],
       [ "MR.Const_SegmPointd", "classMR_1_1Const__SegmPointd.html", null ],
@@ -4285,6 +4298,10 @@ var hierarchy =
       [ "MR.Const_Quaterniond", "classMR_1_1Const__Quaterniond.html", null ],
       [ "MR.Const_Quaternionf", "classMR_1_1Const__Quaternionf.html", null ],
       [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", null ],
+      [ "MR.Const_Raster", "classMR_1_1Const__Raster.html", null ],
+      [ "MR.Const_RasterInfo", "classMR_1_1Const__RasterInfo.html", null ],
+      [ "MR.Const_RasterLoadSettings", "classMR_1_1Const__RasterLoadSettings.html", null ],
+      [ "MR.Const_RasterSaveSettings", "classMR_1_1Const__RasterSaveSettings.html", null ],
       [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", null ],
       [ "MR.Const_RectIndexer", "classMR_1_1Const__RectIndexer.html", null ],
       [ "MR.Const_ReduceTotalAngleParams", "classMR_1_1Const__ReduceTotalAngleParams.html", null ],
@@ -4657,6 +4674,8 @@ var hierarchy =
     [ "MR.PointsSave", "classMR_1_1PointsSave.html", null ],
     [ "MR.PolylineComponents", "classMR_1_1PolylineComponents.html", null ],
     [ "MR.Features.Primitives", "classMR_1_1Features_1_1Primitives.html", null ],
+    [ "MR.RasterLoad", "classMR_1_1RasterLoad.html", null ],
+    [ "MR.RasterSave", "classMR_1_1RasterSave.html", null ],
     [ "MR.SceneLoad", "classMR_1_1SceneLoad.html", null ],
     [ "MR.SceneSave", "classMR_1_1SceneSave.html", null ],
     [ "MR.SelfIntersections", "classMR_1_1SelfIntersections.html", null ],

@@ -589,6 +589,10 @@
     <innerclass refid="classMR_1_1RangeProcessorSingle" prot="public">MR::RangeProcessorSingle</innerclass>
     <innerclass refid="classMR_1_1RangeProgress" prot="public">MR::RangeProgress</innerclass>
     <innerclass refid="structMR_1_1RangeSize" prot="public">MR::RangeSize</innerclass>
+    <innerclass refid="structMR_1_1Raster" prot="public">MR::Raster</innerclass>
+    <innerclass refid="structMR_1_1RasterInfo" prot="public">MR::RasterInfo</innerclass>
+    <innerclass refid="structMR_1_1RasterLoadSettings" prot="public">MR::RasterLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1RasterSaveSettings" prot="public">MR::RasterSaveSettings</innerclass>
     <innerclass refid="structMR_1_1RawTiffOutput" prot="public">MR::RawTiffOutput</innerclass>
     <innerclass refid="structMR_1_1RayOrigin" prot="public">MR::RayOrigin</innerclass>
     <innerclass refid="structMR_1_1RebuildMeshSettings" prot="public">MR::RebuildMeshSettings</innerclass>
@@ -912,6 +916,8 @@
     <innernamespace refid="namespaceMR_1_1PolylineComponents">MR::PolylineComponents</innernamespace>
     <innernamespace refid="namespaceMR_1_1ProgressBar">MR::ProgressBar</innernamespace>
     <innernamespace refid="namespaceMR_1_1QualityControl">MR::QualityControl</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterLoad">MR::RasterLoad</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterSave">MR::RasterSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1RenderDimensions">MR::RenderDimensions</innernamespace>
     <innernamespace refid="namespaceMR_1_1RenderFeatures">MR::RenderFeatures</innernamespace>
     <innernamespace refid="namespaceMR_1_1RenderWrapObject">MR::RenderWrapObject</innernamespace>
@@ -3113,6 +3119,7 @@
       <member refid="group__GeneralGroup_1gaefd90794b9e1a0a3b3c1fefd0a9139c4" kind="function"><name>protectedRun</name></member>
       <member refid="group__GeneralGroup_1ga7b0557ba9010a35f8711edaeef9f1cb4" kind="function"><name>protectedFunc</name></member>
       <member refid="group__GeneralGroup_1ga3dd2fe92b7669c20647e3ff3405df52f" kind="function"><name>compensateRadius</name></member>
+      <member refid="group__RasterGroup_1gadcb09b212975aa3c7b3267ef39c306e1" kind="function"><name>convertRasterToImage</name></member>
       <member refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kind="function"><name>rayBoxIntersect</name></member>
       <member refid="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" kind="function"><name>rayBoxIntersect</name></member>
       <member refid="group__GeneralGroup_1gaac19a38e96d99402db9f484da674bf04" kind="function"><name>rayBoxIntersect</name></member>

@@ -962,6 +962,14 @@
   <compound refid="MRTiff_8h" kind="file"><name>MRTiff.h</name>
     <member refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kind="typedef"><name>MR_DistanceMap</name></member>
     <member refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kind="typedef"><name>MR_DistanceMapSaveSettings</name></member>
+    <member refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kind="typedef"><name>MR_Raster</name></member>
+    <member refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kind="typedef"><name>MR_RasterLoadSettings</name></member>
+    <member refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kind="typedef"><name>MR_RasterSaveSettings</name></member>
+    <member refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kind="typedef"><name>MR_expected_MR_RasterInfo_std_string</name></member>
+    <member refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kind="typedef"><name>MR_expected_MR_Raster_std_string</name></member>
+    <member refid="MRTiff_8h_1ae4661697cb83e683195e70223e1f168f" kind="function"><name>MR_RasterLoad_fromTiff</name></member>
+    <member refid="MRTiff_8h_1ad565ad3cf5977c40bfb54c28dc5fe29b" kind="function"><name>MR_RasterLoad_infoFromTiff</name></member>
+    <member refid="MRTiff_8h_1a695f31c8df26abc5e3cfb42cf56e46fb" kind="function"><name>MR_RasterSave_toTiff</name></member>
     <member refid="MRTiff_8h_1aae858b7352c4eef0ccd73cb22bc12883" kind="function"><name>MR_ImageLoad_fromTiff</name></member>
     <member refid="MRTiff_8h_1a653199b30fbb39e729763433a8153528" kind="function"><name>MR_ImageSave_toTiff</name></member>
     <member refid="MRTiff_8h_1a5112184b5e33a3b163c1eeedc884b8d9" kind="function"><name>MR_DistanceMapSave_toTiff</name></member>
@@ -22529,6 +22537,76 @@
     <member refid="MRRadiusMeasurementObject_8h_1a9aae5cdeb45c81c9a1c2697864d23aa0" kind="function"><name>MR_RadiusMeasurementObject_getModelHash</name></member>
     <member refid="MRRadiusMeasurementObject_8h_1a0d30e5a0ffbf304ab5f7a6239b834fe1" kind="function"><name>MR_RadiusMeasurementObject_getSharedPtr</name></member>
   </compound>
+  <compound refid="MRRaster_8h" kind="file"><name>MRRaster.h</name>
+    <member refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kind="typedef"><name>MR_RasterInfo</name></member>
+    <member refid="MRRaster_8h_1ad37f021cfe06336a20f0f70540e0a920" kind="function"><name>MR_RasterInfo_Get_dims</name></member>
+    <member refid="MRRaster_8h_1aede127a255c574c7dd4ed3d2ed2a6767" kind="function"><name>MR_RasterInfo_Set_dims</name></member>
+    <member refid="MRRaster_8h_1a563d333bbc835243546387a17ce3d7cb" kind="function"><name>MR_RasterInfo_GetMutable_dims</name></member>
+    <member refid="MRRaster_8h_1a01369802915d53564372838efca55560" kind="function"><name>MR_RasterInfo_Get_type</name></member>
+    <member refid="MRRaster_8h_1a2d54cced02f9a6a245148d17aef1b184" kind="function"><name>MR_RasterInfo_Set_type</name></member>
+    <member refid="MRRaster_8h_1a1b7f7b6a395ab3a8f679a80e0ca2dd1e" kind="function"><name>MR_RasterInfo_GetMutable_type</name></member>
+    <member refid="MRRaster_8h_1acf0eb8c509a8ae15f20f55c11828de6c" kind="function"><name>MR_RasterInfo_Get_channels</name></member>
+    <member refid="MRRaster_8h_1af857b717900b7567699f27dd3c518991" kind="function"><name>MR_RasterInfo_Set_channels</name></member>
+    <member refid="MRRaster_8h_1a8c0b079edd3df7d0f2c08c7f22cd493e" kind="function"><name>MR_RasterInfo_GetMutable_channels</name></member>
+    <member refid="MRRaster_8h_1a22058404b667a560bc77d1011dc05e5c" kind="function"><name>MR_RasterInfo_DefaultConstruct</name></member>
+    <member refid="MRRaster_8h_1a284ab2945f9524819a7b94ada4a25016" kind="function"><name>MR_RasterInfo_DefaultConstructArray</name></member>
+    <member refid="MRRaster_8h_1a090a3abe1ce75f93b8989af67c2d520f" kind="function"><name>MR_RasterInfo_ConstructFrom</name></member>
+    <member refid="MRRaster_8h_1ae2ad48fb7b1389a1ae071fad17115371" kind="function"><name>MR_RasterInfo_OffsetPtr</name></member>
+    <member refid="MRRaster_8h_1aea6a3342b47f678e8c194d62c06d9519" kind="function"><name>MR_RasterInfo_OffsetMutablePtr</name></member>
+    <member refid="MRRaster_8h_1a5fd14596462f85bb60a472a34785bc80" kind="function"><name>MR_RasterInfo_ConstructFromAnother</name></member>
+    <member refid="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" kind="function"><name>MR_RasterInfo_Destroy</name></member>
+    <member refid="MRRaster_8h_1aff600399762183bf8fbca40ba86887af" kind="function"><name>MR_RasterInfo_DestroyArray</name></member>
+    <member refid="MRRaster_8h_1a004bb95fa4a40290e1f6c54da5328af9" kind="function"><name>MR_RasterInfo_AssignFromAnother</name></member>
+    <member refid="MRRaster_8h_1abd42eb638ee8fdd12c9d29328489fd3d" kind="function"><name>MR_RasterInfo_dataSize</name></member>
+    <member refid="MRRaster_8h_1a40ecd1d5994d47db7ccd3b392bdc889b" kind="function"><name>MR_equal_MR_RasterInfo</name></member>
+    <member refid="MRRaster_8h_1ac9be74b1d760cd7e7a0fde6237fe59a3" kind="function"><name>MR_Raster_Get_info</name></member>
+    <member refid="MRRaster_8h_1a1c33a307e16ab67bd44705bc593fdc23" kind="function"><name>MR_Raster_Set_info</name></member>
+    <member refid="MRRaster_8h_1a306e7f75194a9af797b23a6f8e55825a" kind="function"><name>MR_Raster_GetMutable_info</name></member>
+    <member refid="MRRaster_8h_1ad7ee4422367d406b6f7671c300489077" kind="function"><name>MR_Raster_Get_data</name></member>
+    <member refid="MRRaster_8h_1a8cb4dec6dbc65e483130c59bd0d52831" kind="function"><name>MR_Raster_Set_data</name></member>
+    <member refid="MRRaster_8h_1aa9cc51698b265039286e76e919207d57" kind="function"><name>MR_Raster_GetMutable_data</name></member>
+    <member refid="MRRaster_8h_1ac7d2592a9178e544a935b3ebbb22f6bc" kind="function"><name>MR_Raster_DefaultConstruct</name></member>
+    <member refid="MRRaster_8h_1a33c8bfcebeec62f5df1d6d91a2db2e29" kind="function"><name>MR_Raster_DefaultConstructArray</name></member>
+    <member refid="MRRaster_8h_1a88054523ea2a03f30adae1c25066dc09" kind="function"><name>MR_Raster_ConstructFrom</name></member>
+    <member refid="MRRaster_8h_1af13b540bcb7df0890f9175a3a5bb02d3" kind="function"><name>MR_Raster_OffsetPtr</name></member>
+    <member refid="MRRaster_8h_1aa82a2e219bf5b4490afcf14d66abce7d" kind="function"><name>MR_Raster_OffsetMutablePtr</name></member>
+    <member refid="MRRaster_8h_1ab56cff30bb0abdc7e58d82fe59ee60b1" kind="function"><name>MR_Raster_ConstructFromAnother</name></member>
+    <member refid="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" kind="function"><name>MR_Raster_Destroy</name></member>
+    <member refid="MRRaster_8h_1a61e52a06f999ec495ae1b16ed4146405" kind="function"><name>MR_Raster_DestroyArray</name></member>
+    <member refid="MRRaster_8h_1ab543ab1ad20360bbc1d0ab8214b45ef4" kind="function"><name>MR_Raster_AssignFromAnother</name></member>
+    <member refid="MRRaster_8h_1a18efee41067d84b62acfea7b870c3f17" kind="function"><name>MR_convertRasterToImage</name></member>
+    <member refid="MRRaster_8h_1a00ab6dd10ff2a032e62195887ba84f58" kind="function"><name>MR_RasterLoadSettings_Get_progress</name></member>
+    <member refid="MRRaster_8h_1ae0e7e8b664d58a443d46a0fe83728ac5" kind="function"><name>MR_RasterLoadSettings_Set_progress</name></member>
+    <member refid="MRRaster_8h_1a5942704b3c522e46c4c60273d033382b" kind="function"><name>MR_RasterLoadSettings_GetMutable_progress</name></member>
+    <member refid="MRRaster_8h_1aa5f2a63102859173de9351bc1365c8f0" kind="function"><name>MR_RasterLoadSettings_DefaultConstruct</name></member>
+    <member refid="MRRaster_8h_1a4687d397e3e847a8844379db69e84909" kind="function"><name>MR_RasterLoadSettings_DefaultConstructArray</name></member>
+    <member refid="MRRaster_8h_1ae91007e29ddb326ce16ac67d86aa3cbf" kind="function"><name>MR_RasterLoadSettings_ConstructFrom</name></member>
+    <member refid="MRRaster_8h_1a9484063757fe59620ea03a9ed3df0128" kind="function"><name>MR_RasterLoadSettings_OffsetPtr</name></member>
+    <member refid="MRRaster_8h_1ad55fd21947c8ee1ec2c5f7de020d3c30" kind="function"><name>MR_RasterLoadSettings_OffsetMutablePtr</name></member>
+    <member refid="MRRaster_8h_1aea7bf8c616063149ef1f8020f284699e" kind="function"><name>MR_RasterLoadSettings_ConstructFromAnother</name></member>
+    <member refid="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" kind="function"><name>MR_RasterLoadSettings_Destroy</name></member>
+    <member refid="MRRaster_8h_1af437eb9765f2e19c9d8c687523ec4190" kind="function"><name>MR_RasterLoadSettings_DestroyArray</name></member>
+    <member refid="MRRaster_8h_1ac9d7ee2ec5ed50509df0ad5e1f42073b" kind="function"><name>MR_RasterLoadSettings_AssignFromAnother</name></member>
+    <member refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" kind="function"><name>MR_RasterSaveSettings_Get_progress</name></member>
+    <member refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" kind="function"><name>MR_RasterSaveSettings_Set_progress</name></member>
+    <member refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" kind="function"><name>MR_RasterSaveSettings_GetMutable_progress</name></member>
+    <member refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" kind="function"><name>MR_RasterSaveSettings_DefaultConstruct</name></member>
+    <member refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" kind="function"><name>MR_RasterSaveSettings_DefaultConstructArray</name></member>
+    <member refid="MRRaster_8h_1a013df0359918453475c2c51c75af1f65" kind="function"><name>MR_RasterSaveSettings_ConstructFrom</name></member>
+    <member refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" kind="function"><name>MR_RasterSaveSettings_OffsetPtr</name></member>
+    <member refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" kind="function"><name>MR_RasterSaveSettings_OffsetMutablePtr</name></member>
+    <member refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" kind="function"><name>MR_RasterSaveSettings_ConstructFromAnother</name></member>
+    <member refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kind="function"><name>MR_RasterSaveSettings_Destroy</name></member>
+    <member refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" kind="function"><name>MR_RasterSaveSettings_DestroyArray</name></member>
+    <member refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" kind="function"><name>MR_RasterSaveSettings_AssignFromAnother</name></member>
+  </compound>
+  <compound refid="MRRasterLoad_8h" kind="file"><name>MRRasterLoad.h</name>
+    <member refid="MRRasterLoad_8h_1a4972a90823a8940333cbea4e5614c773" kind="function"><name>MR_RasterLoad_fromAnySupportedFormat</name></member>
+    <member refid="MRRasterLoad_8h_1a211153d2de3ee592d4464638abf9dd46" kind="function"><name>MR_RasterLoad_infoFromAnySupportedFormat</name></member>
+  </compound>
+  <compound refid="MRRasterSave_8h" kind="file"><name>MRRasterSave.h</name>
+    <member refid="MRRasterSave_8h_1a8d36ad2d01aec2a8afbd3c42e71ea6a4" kind="function"><name>MR_RasterSave_toAnySupportedFormat</name></member>
+  </compound>
   <compound refid="MRRectIndexer_8h" kind="file"><name>MRRectIndexer.h</name>
     <member refid="MRRectIndexer_8h_1ac8110574447dc8ea1acee184f88c6f79" kind="enum"><name></name></member>
     <member refid="MRRectIndexer_8h_1ac8110574447dc8ea1acee184f88c6f79a01c338df064c4413855124f0514411d1" kind="enumvalue"><name>MR_OutEdge2_Invalid</name></member>
@@ -22907,8 +22985,6 @@
     <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5" kind="enumvalue"><name>MR_ScalarType_Float32</name></member>
     <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c" kind="enumvalue"><name>MR_ScalarType_Float64</name></member>
     <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" kind="enumvalue"><name>MR_ScalarType_Float32_4</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4" kind="enumvalue"><name>MR_ScalarType_RGB8</name></member>
-    <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701" kind="enumvalue"><name>MR_ScalarType_RGBA8</name></member>
     <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" kind="enumvalue"><name>MR_ScalarType_Unknown</name></member>
     <member refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" kind="enumvalue"><name>MR_ScalarType_Count</name></member>
     <member refid="MRScalarConvert_8h_1a6513aac0d66c11e07fefbd0c297f54cf" kind="typedef"><name>MR_std_function_float_from_const_char_ptr</name></member>
@@ -31003,6 +31079,36 @@
     <member refid="expected__MR__Polyline3__std__string_8h_1a4eee081dc92a6672f94267dc0e97e5ce" kind="function"><name>MR_expected_MR_Polyline3_std_string_error</name></member>
     <member refid="expected__MR__Polyline3__std__string_8h_1a61c8a7b6182dc7d033079fe6a8b1b005" kind="function"><name>MR_expected_MR_Polyline3_std_string_value_mut</name></member>
     <member refid="expected__MR__Polyline3__std__string_8h_1a0f821730ecaeb1a058f811a78402fe45" kind="function"><name>MR_expected_MR_Polyline3_std_string_error_mut</name></member>
+  </compound>
+  <compound refid="expected__MR__Raster__std__string_8h" kind="file"><name>expected_MR_Raster_std_string.h</name>
+    <member refid="expected__MR__Raster__std__string_8h_1a89bdecac461e0cce5d3799a1cbb0ad23" kind="function"><name>MR_expected_MR_Raster_std_string_DefaultConstruct</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a56c725c33c961fb90b0a22642b84890f" kind="function"><name>MR_expected_MR_Raster_std_string_DefaultConstructArray</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1aad68b55c8fff2a4d178d4c42cc1c7640" kind="function"><name>MR_expected_MR_Raster_std_string_ConstructFromAnother</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a7f88e4979b6575ff8b4ef6bad6b7b224" kind="function"><name>MR_expected_MR_Raster_std_string_AssignFromAnother</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a610dadc5a92d224ed1017725396d1cca" kind="function"><name>MR_expected_MR_Raster_std_string_Destroy</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a3aa953c5a8f220eba25ea6013cf1629a" kind="function"><name>MR_expected_MR_Raster_std_string_DestroyArray</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a50731374564521b1c2f1ad23c5bf74a9" kind="function"><name>MR_expected_MR_Raster_std_string_OffsetPtr</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a35e65fbce47b861b1b1f4a25089bbbab" kind="function"><name>MR_expected_MR_Raster_std_string_OffsetMutablePtr</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a034d5f3a8c690d3ebe190fce58f189ff" kind="function"><name>MR_expected_MR_Raster_std_string_success</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1afda02cc8bbf808d6705d7e9c485dbb7d" kind="function"><name>MR_expected_MR_Raster_std_string_value</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a0789581565401950875ba93ba7be47c7" kind="function"><name>MR_expected_MR_Raster_std_string_error</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a8f39966d92dc0bab864af80df4b5b024" kind="function"><name>MR_expected_MR_Raster_std_string_value_mut</name></member>
+    <member refid="expected__MR__Raster__std__string_8h_1a70bb67e25a6a674dcb1cc0ba47f98d5a" kind="function"><name>MR_expected_MR_Raster_std_string_error_mut</name></member>
+  </compound>
+  <compound refid="expected__MR__RasterInfo__std__string_8h" kind="file"><name>expected_MR_RasterInfo_std_string.h</name>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a0cd507200d2800934fb1126eca13705c" kind="function"><name>MR_expected_MR_RasterInfo_std_string_DefaultConstruct</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a87e9000c274c8d4c2ddd5a2bb0531382" kind="function"><name>MR_expected_MR_RasterInfo_std_string_DefaultConstructArray</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a0962f6710e604a334868c5b98b9c0c81" kind="function"><name>MR_expected_MR_RasterInfo_std_string_ConstructFromAnother</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1ace3140416e4cb8365045bb532db798cc" kind="function"><name>MR_expected_MR_RasterInfo_std_string_AssignFromAnother</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1ad041a40ab819bf024e8335e6bb898bcc" kind="function"><name>MR_expected_MR_RasterInfo_std_string_Destroy</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a03f6a6069de67c590eb1fb0d5f5857ea" kind="function"><name>MR_expected_MR_RasterInfo_std_string_DestroyArray</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a489e6a33407c14a08ff00effb9ad96d8" kind="function"><name>MR_expected_MR_RasterInfo_std_string_OffsetPtr</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a10a72d7e80e5d6e2561a1505b5171f00" kind="function"><name>MR_expected_MR_RasterInfo_std_string_OffsetMutablePtr</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a0b018bdfc37b8f4d5424218a4d4a20f4" kind="function"><name>MR_expected_MR_RasterInfo_std_string_success</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a0a2158eb7c309a387ada0bad98c79ae7" kind="function"><name>MR_expected_MR_RasterInfo_std_string_value</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1ace41931a4696b977ce4e675e8c38708f" kind="function"><name>MR_expected_MR_RasterInfo_std_string_error</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a14200631e56b2d894959af017d8893be" kind="function"><name>MR_expected_MR_RasterInfo_std_string_value_mut</name></member>
+    <member refid="expected__MR__RasterInfo__std__string_8h_1a50a6e6b7dd987af664c6695e409e7796" kind="function"><name>MR_expected_MR_RasterInfo_std_string_error_mut</name></member>
   </compound>
   <compound refid="expected__MR__SimpleBinaryVolume__std__string_8h" kind="file"><name>expected_MR_SimpleBinaryVolume_std_string.h</name>
     <member refid="expected__MR__SimpleBinaryVolume__std__string_8h_1aaa4ae6bbf6ad9117ec1235050e489a58" kind="typedef"><name>MR_SimpleBinaryVolume</name></member>

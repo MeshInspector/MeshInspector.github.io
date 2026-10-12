@@ -800,6 +800,10 @@
     <innerclass refid="classMR_1_1Const__Quaterniond" prot="public">MR::Const_Quaterniond</innerclass>
     <innerclass refid="classMR_1_1Const__Quaternionf" prot="public">MR::Const_Quaternionf</innerclass>
     <innerclass refid="classMR_1_1Const__RadiusMeasurementObject" prot="public">MR::Const_RadiusMeasurementObject</innerclass>
+    <innerclass refid="classMR_1_1Const__Raster" prot="public">MR::Const_Raster</innerclass>
+    <innerclass refid="classMR_1_1Const__RasterInfo" prot="public">MR::Const_RasterInfo</innerclass>
+    <innerclass refid="classMR_1_1Const__RasterLoadSettings" prot="public">MR::Const_RasterLoadSettings</innerclass>
+    <innerclass refid="classMR_1_1Const__RasterSaveSettings" prot="public">MR::Const_RasterSaveSettings</innerclass>
     <innerclass refid="classMR_1_1Const__RebuildMeshSettings" prot="public">MR::Const_RebuildMeshSettings</innerclass>
     <innerclass refid="classMR_1_1Const__RectIndexer" prot="public">MR::Const_RectIndexer</innerclass>
     <innerclass refid="classMR_1_1Const__ReduceTotalAngleParams" prot="public">MR::Const_ReduceTotalAngleParams</innerclass>
@@ -1602,6 +1606,12 @@
     <innerclass refid="classMR_1_1Quaterniond" prot="public">MR::Quaterniond</innerclass>
     <innerclass refid="classMR_1_1Quaternionf" prot="public">MR::Quaternionf</innerclass>
     <innerclass refid="classMR_1_1RadiusMeasurementObject" prot="public">MR::RadiusMeasurementObject</innerclass>
+    <innerclass refid="classMR_1_1Raster" prot="public">MR::Raster</innerclass>
+    <innerclass refid="classMR_1_1RasterInfo" prot="public">MR::RasterInfo</innerclass>
+    <innerclass refid="classMR_1_1RasterLoad" prot="public">MR::RasterLoad</innerclass>
+    <innerclass refid="classMR_1_1RasterLoadSettings" prot="public">MR::RasterLoadSettings</innerclass>
+    <innerclass refid="classMR_1_1RasterSave" prot="public">MR::RasterSave</innerclass>
+    <innerclass refid="classMR_1_1RasterSaveSettings" prot="public">MR::RasterSaveSettings</innerclass>
     <innerclass refid="classMR_1_1RebuildMeshSettings" prot="public">MR::RebuildMeshSettings</innerclass>
     <innerclass refid="classMR_1_1RectIndexer" prot="public">MR::RectIndexer</innerclass>
     <innerclass refid="classMR_1_1ReduceTotalAngleParams" prot="public">MR::ReduceTotalAngleParams</innerclass>
@@ -4003,27 +4013,9 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea165c6379d01617e12de274a3952efa63" prot="public">
-          <name>RGB8</name>
-          <initializer>= 11</initializer>
-          <briefdescription>
-<para>8-bit red, green and blue components; the scalar value is their luma </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eab4b279046a02077466fa26cabb00c642" prot="public">
-          <name>RGBA8</name>
-          <initializer>= 12</initializer>
-          <briefdescription>
-<para>8-bit red, green, blue and alpha components as in <ref refid="structMR_1_1Color" kindref="compound">Color</ref>; the scalar value is the luma of the color components </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
           <name>Unknown</name>
-          <initializer>= 13</initializer>
+          <initializer>= 11</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -4031,7 +4023,7 @@
         </enumvalue>
         <enumvalue id="classMR_1a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
           <name>Count</name>
-          <initializer>= 14</initializer>
+          <initializer>= 12</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -4044,7 +4036,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="7" bodyend="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="7" bodyend="24"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a2581a1561c74e2ad725a43e2a00f71d0" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -36534,6 +36526,30 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="418" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="418" bodyend="423"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a948a1620c0d5bf5331e6995b5bb68528" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.convertRasterToImage</definition>
+        <argsstring>(MR.Const_Raster raster)</argsstring>
+        <name>convertRasterToImage</name>
+        <qualifiedname>MR.convertRasterToImage</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Raster" kindref="compound">MR.Const_Raster</ref></type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+<para>converts a raster with one layer to an image (the rows are reordered from bottom to top): </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>the values of one channel are scaled from the range of finite values to gray colors, NaN and infinite values become black;</para>
+</listitem><listitem><para>three or more channels are RGB or RGBA colors (the channels after the fourth are ignored): integer values keep their high byte and are taken as unsigned ones, floating-point values are clamped to [0, 1], NaN becomes 0 Generated from function <computeroutput><ref refid="classMR_1a948a1620c0d5bf5331e6995b5bb68528" kindref="member">MR.convertRasterToImage</ref></computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1112" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="1112" bodyend="1118"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a92d5d2a460180c528dd10abce7ccbf68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1aa2556093ed70e2854dc1e4adfa12ce79" kindref="member">MR.OutEdge2</ref></type>
         <definition>static MR.OutEdge2 MR.opposite</definition>
@@ -38127,7 +38143,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="38" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="38" bodyend="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="30" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="30" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a636873d3705fe5aef4bae49db0f335d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Box1d" kindref="compound">MR.Box1d</ref></type>
@@ -38140,13 +38156,13 @@ do not really keeps volume but tries hard </para>
           <declname>scalarType</declname>
         </param>
         <briefdescription>
-<para>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType.Unknown</ref> Generated from function <computeroutput><ref refid="classMR_1a636873d3705fe5aef4bae49db0f335d0" kindref="member">MR.getScalarTypeMinMax</ref></computeroutput>. </para>
+<para>returns the minimal and the maximal values of given type, or zeros for <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType.Unknown</ref> Generated from function <computeroutput><ref refid="classMR_1a636873d3705fe5aef4bae49db0f335d0" kindref="member">MR.getScalarTypeMinMax</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="48" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="48" bodyend="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="39" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a263978db247c54699d410228fd14b81f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_ConstCharPtr</type>
@@ -38163,7 +38179,7 @@ do not really keeps volume but tries hard </para>
           <declname>range</declname>
         </param>
         <briefdescription>
-<para>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are </para>
+<para>get a function to convert binary data of specified format type to a scalar value: integer values are mapped from given range to [0, 1], floating-point values are returned as they are </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -38179,7 +38195,7 @@ do not really keeps volume but tries hard </para>
 <parametername>range</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <computeroutput><ref refid="classMR_1a263978db247c54699d410228fd14b81f" kindref="member">MR.getTypeConverter</ref></computeroutput>. </para>
+<para>- (for integer types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <computeroutput><ref refid="classMR_1a263978db247c54699d410228fd14b81f" kindref="member">MR.getTypeConverter</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -38187,7 +38203,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="60" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="60" bodyend="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="51" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" bodystart="51" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a287bed0de1310a19fb1f0e70310fc1a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRSceneRootObject</type>
@@ -82258,6 +82274,24 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="428" column="63"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a4b34e4dfa49ee64c913873e4a678f897" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRImage_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRImage_StdString._Underlying * MR.__MR_convertRasterToImage</definition>
+        <argsstring>(MR.Const_Raster._Underlying *raster)</argsstring>
+        <name>__MR_convertRasterToImage</name>
+        <qualifiedname>MR.__MR_convertRasterToImage</qualifiedname>
+        <param>
+          <type>MR.Const_Raster._Underlying *</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1123" column="66"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a2744172eb100bd7e09a232ee8265d976" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.__MR_expandPixelMask</definition>
@@ -83702,7 +83736,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="71" column="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="62" column="27"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a930f45cb33edf733069e2d3de0b7b4f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>nuint</type>
@@ -83720,7 +83754,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="74" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="65" column="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a385fb634c60b0d0fd07203afd32bcd1c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Function_Float_From_ConstCharPtr._Underlying *</type>
@@ -83742,7 +83776,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="77" column="75"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRScalarConvert.cs" line="68" column="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aff91835520d8f3efbcf885a66026ef97" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.SharedPtr_MRSceneRootObject._Underlying *</type>
@@ -100067,6 +100101,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac3a4989161818cce10bd73a6afc2c58c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int</name></member>
       <member refid="classMR_1a78685b307fb8562ba4f17fedd4d2f2d2" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertMeshTriPointsToClosedContour</name></member>
       <member refid="classMR_1a9af14e425b8f7644b927d7b60169b0a1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertMeshTriPointsToMeshContour</name></member>
+      <member refid="classMR_1a4b34e4dfa49ee64c913873e4a678f897" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertRasterToImage</name></member>
       <member refid="classMR_1a624b9e29d357c1ec6f005a48150751de" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertSurfacePathsToMeshContours</name></member>
       <member refid="classMR_1a8f5e0ca5e15a0a7366d94648bbe5a8f8" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertSurfacePathWithEndsToMeshContour</name></member>
       <member refid="classMR_1a389c1dabbb737a9e77e9db8b16efa549" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_copySubdividePackMesh</name></member>
@@ -101923,6 +101958,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a7b36dfa81f6516db1c9f6a19bce00cca" prot="public" virt="non-virtual"><scope>MR</scope><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
       <member refid="classMR_1a3e13ad5693207d2111e76373c99e70fd" prot="public" virt="non-virtual"><scope>MR</scope><name>convertMeshTriPointsToClosedContour</name></member>
       <member refid="classMR_1a4c21ee05149540c42fe44e772486a561" prot="public" virt="non-virtual"><scope>MR</scope><name>convertMeshTriPointsToMeshContour</name></member>
+      <member refid="classMR_1a948a1620c0d5bf5331e6995b5bb68528" prot="public" virt="non-virtual"><scope>MR</scope><name>convertRasterToImage</name></member>
       <member refid="classMR_1a17aadc79148649b96ee95169fb912b52" prot="public" virt="non-virtual"><scope>MR</scope><name>convertSurfacePathsToMeshContours</name></member>
       <member refid="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" prot="public" virt="non-virtual"><scope>MR</scope><name>convertSurfacePathWithEndsToMeshContour</name></member>
       <member refid="classMR_1ab3c747ea96dae2944c4882b7e6c8e5f9" prot="public" virt="non-virtual"><scope>MR</scope><name>copySubdividePackMesh</name></member>

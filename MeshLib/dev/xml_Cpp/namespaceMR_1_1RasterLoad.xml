@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1RasterLoad" kind="namespace" language="C++">
+    <compoundname>MR::RasterLoad</compoundname>
+    <innerclass refid="structMR_1_1RasterLoad_1_1RasterLoader" prot="public">MR::RasterLoad::RasterLoader</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Raster" kindref="compound">Raster</ref> &gt;(*)(const std::filesystem::path &amp;, const <ref refid="structMR_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref> &amp;)</type>
+        <definition>using MR::RasterLoad::RasterFileLoader =  Expected&lt;Raster&gt;( * )( const std::filesystem::path&amp;, const RasterLoadSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>RasterFileLoader</name>
+        <qualifiedname>MR::RasterLoad::RasterFileLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="408" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1RasterLoad_1ade9e8b8215e87321bea2c34d68fe543b" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1RasterInfo" kindref="compound">RasterInfo</ref> &gt;(*)(const std::filesystem::path &amp;)</type>
+        <definition>using MR::RasterLoad::RasterInfoLoader =  Expected&lt;RasterInfo&gt;( * )( const std::filesystem::path&amp; )</definition>
+        <argsstring></argsstring>
+        <name>RasterInfoLoader</name>
+        <qualifiedname>MR::RasterLoad::RasterInfoLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="409" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kind="function"><name>fromTiff</name></member>
+      <member refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" kind="function"><name>infoFromTiff</name></member>
+      <member refid="group__RasterLoadGroup_1gaab2549a28175f7d8f2ae7b5431442f73" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__RasterLoadGroup_1ga60a7fe313f6d66a2d13aaf834599e50d" kind="function"><name>infoFromAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRIOExtras/MRTiff.h" line="20" column="1"/>
+  </compounddef>
+</doxygen>

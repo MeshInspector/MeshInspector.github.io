@@ -7,6 +7,7 @@
     <includes refid="MRDistanceMapParams_8h" local="no">MRMesh/MRDistanceMapParams.h</includes>
     <includes refid="MRExpected_8h" local="no">MRMesh/MRExpected.h</includes>
     <includes refid="MRMeshFwd_8h" local="no">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
     <includes local="no">filesystem</includes>
     <incdepgraph>
       <node id="1">
@@ -23,6 +24,8 @@
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -203,6 +206,20 @@
         <childnode refid="7" relation="include">
         </childnode>
       </node>
+      <node id="46">
+        <label>MRMesh/MRRaster.h</label>
+        <link refid="MRRaster_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
       <node id="6">
         <label>MRRectIndexer.h</label>
         <link refid="MRRectIndexer_8h"/>
@@ -223,6 +240,14 @@
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MRScalarConvert.h</label>
+        <link refid="MRScalarConvert_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
         </childnode>
       </node>
       <node id="20">
@@ -343,7 +368,7 @@
       <node id="3">
         <label>exports.h</label>
       </node>
-      <node id="46">
+      <node id="48">
         <label>filesystem</label>
       </node>
       <node id="16">
@@ -375,6 +400,8 @@
       </node>
     </incdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterLoad">MR::RasterLoad</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterSave">MR::RasterSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1ImageLoad">MR::ImageLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1ImageSave">MR::ImageSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1DistanceMapSave">MR::DistanceMapSave</innernamespace>
@@ -392,36 +419,53 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRDistanceMapParams_8h" kindref="compound">MRMesh/MRDistanceMapParams.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRMeshFwd_8h" kindref="compound">MRMesh/MRMeshFwd.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRRaster_8h" kindref="compound">MRMesh/MRRaster.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageLoad" kindref="compound">ImageLoad</ref></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Image&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" kindref="member">fromTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageSave" kindref="compound">ImageSave</ref></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" kindref="member">toTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="namespaceMR_1_1RasterLoad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterLoad" kindref="compound">RasterLoad</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Raster&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kindref="member">fromTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="namespaceMR_1_1DistanceMapSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1DistanceMapSave" kindref="compound">DistanceMapSave</ref></highlight></codeline>
-<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;RasterInfo&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" kindref="member">infoFromTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" kindref="member">toTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>dmap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="38" refid="namespaceMR_1_1RasterSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1RasterSave" kindref="compound">RasterSave</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" kindref="member">toTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Raster" kindref="compound">Raster</ref>&amp;<sp/>raster,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ImageLoad</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Image&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" kindref="member">fromTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImageSave" kindref="compound">ImageSave</ref></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" kindref="member">toTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Image" kindref="compound">Image</ref>&amp;<sp/>image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="namespaceMR_1_1DistanceMapSave" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1DistanceMapSave" kindref="compound">DistanceMapSave</ref></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" refkind="member"><highlight class="normal">MRIOEXTRAS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" kindref="member">toTiff</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref>&amp;<sp/>dmap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="MRIOExtras/MRTiff.h"/>
   </compounddef>

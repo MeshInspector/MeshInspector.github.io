@@ -13,8 +13,6 @@ var MRScalarConvert_8h =
       [ "MR::ScalarType::Float32", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204", null ],
       [ "MR::ScalarType::Float64", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0", null ],
       [ "MR::ScalarType::Float32_4", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142", null ],
-      [ "MR::ScalarType::RGB8", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63", null ],
-      [ "MR::ScalarType::RGBA8", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642", null ],
       [ "MR::ScalarType::Unknown", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "MR::ScalarType::Count", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],

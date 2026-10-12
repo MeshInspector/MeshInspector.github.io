@@ -156,6 +156,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:MR_3A_3AImageLoad" id="r_MR_3A_3AImageLoad"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageLoad.html">MR::ImageLoad</a></td></tr>
 <tr class="memitem:MR_3A_3AImageSave" id="r_MR_3A_3AImageSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageSave.html">MR::ImageSave</a></td></tr>
 <tr class="memitem:MR_3A_3ANesting" id="r_MR_3A_3ANesting"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Nesting.html">MR::Nesting</a></td></tr>
+<tr class="memitem:MR_3A_3ARasterLoad" id="r_MR_3A_3ARasterLoad"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1RasterLoad.html">MR::RasterLoad</a></td></tr>
+<tr class="memitem:MR_3A_3ARasterSave" id="r_MR_3A_3ARasterSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1RasterSave.html">MR::RasterSave</a></td></tr>
 <tr class="memitem:MR_3A_3ADistanceMapSave" id="r_MR_3A_3ADistanceMapSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapSave.html">MR::DistanceMapSave</a></td></tr>
 <tr class="memitem:MR_3A_3APlanarTriangulation" id="r_MR_3A_3APlanarTriangulation"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1PlanarTriangulation.html">MR::PlanarTriangulation</a></td></tr>
 <tr class="memitem:MR_3A_3AFeatures_3A_3APrimitives" id="r_MR_3A_3AFeatures_3A_3APrimitives"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Features_1_1Primitives.html">MR::Features::Primitives</a></td></tr>
@@ -2387,11 +2389,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204">MR::ScalarType::Float32</a>
 , <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0">MR::ScalarType::Float64</a>
 , <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142">MR::ScalarType::Float32_4</a>
-, <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63">MR::ScalarType::RGB8</a>
-, <br />
-&#160;&#160;<a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642">MR::ScalarType::RGBA8</a>
 , <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e">MR::ScalarType::Unknown</a>
-, <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9">MR::ScalarType::Count</a>
+, <br />
+&#160;&#160;<a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9">MR::ScalarType::Count</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ga5d528348b4d27cfa92a1b565755099c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">scalar value's binary format type  <a href="#ga5d528348b4d27cfa92a1b565755099c8">More...</a><br /></td></tr>
@@ -3542,8 +3542,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9317aae284f353085d4799cc043a4471" id="r_ga9317aae284f353085d4799cc043a4471"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9317aae284f353085d4799cc043a4471">MR::ImageSave::toPng</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga9317aae284f353085d4799cc043a4471"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .png format  <br /></td></tr>
 <tr class="memitem:ga6c144adb55e7a5da74033de268c22adb" id="r_ga6c144adb55e7a5da74033de268c22adb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6c144adb55e7a5da74033de268c22adb">MR::ImageSave::toPng</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, std::ostream &amp;os)</td></tr>
+<tr class="memitem:ga4cb4aac0a47a9d901d24247625ebc4f9" id="r_ga4cb4aac0a47a9d901d24247625ebc4f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Raster.html">Raster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4cb4aac0a47a9d901d24247625ebc4f9">MR::RasterLoad::fromTiff</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1RasterLoadSettings.html">RasterLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga937e9face092516582310b4330dfc8da" id="r_ga937e9face092516582310b4330dfc8da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1RasterInfo.html">RasterInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga937e9face092516582310b4330dfc8da">MR::RasterLoad::infoFromTiff</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:ga937e9face092516582310b4330dfc8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads everything about the raster except its values from .tiff format  <br /></td></tr>
+<tr class="memitem:ga75f16c022a45b2f8a627a948a9390653" id="r_ga75f16c022a45b2f8a627a948a9390653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75f16c022a45b2f8a627a948a9390653">MR::RasterSave::toTiff</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga7aa85481e130d6308bc8ddae1581f9c4" id="r_ga7aa85481e130d6308bc8ddae1581f9c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7aa85481e130d6308bc8ddae1581f9c4">MR::ImageLoad::fromTiff</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ga7aa85481e130d6308bc8ddae1581f9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .tiff format  <br /></td></tr>
 <tr class="memitem:ga15e4b1b6ede3c72f01803bf8178f5203" id="r_ga15e4b1b6ede3c72f01803bf8178f5203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15e4b1b6ede3c72f01803bf8178f5203">MR::ImageSave::toTiff</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga15e4b1b6ede3c72f01803bf8178f5203"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
 <tr class="memitem:gabd82d0afb5ae771e7c73d41a9c8d7a91" id="r_gabd82d0afb5ae771e7c73d41a9c8d7a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd82d0afb5ae771e7c73d41a9c8d7a91">MR::DistanceMapSave::toTiff</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;dmap, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a> &amp;settings={})</td></tr>
@@ -7618,6 +7621,7 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gaecb1b9cc74ab928d3f2f8dc150689984" id="r_gaecb1b9cc74ab928d3f2f8dc150689984"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecb1b9cc74ab928d3f2f8dc150689984">MR::getScalarTypeSize</a> (<a class="el" href="#ga5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType)</td></tr>
 <tr class="memdesc:gaecb1b9cc74ab928d3f2f8dc150689984"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the size in bytes of a value of given type, or 0 for <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e">ScalarType::Unknown</a>  <br /></td></tr>
 <tr class="memitem:gab6e8e67fbea857421ad3a3283681c636" id="r_gab6e8e67fbea857421ad3a3283681c636"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga8a502bbb7355b197a80a998945d1a885">MinMaxd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab6e8e67fbea857421ad3a3283681c636">MR::getScalarTypeMinMax</a> (<a class="el" href="#ga5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType)</td></tr>
+<tr class="memdesc:gab6e8e67fbea857421ad3a3283681c636"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimal and the maximal values of given type, or zeros for <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e">ScalarType::Unknown</a>  <br /></td></tr>
 <tr class="memitem:gaced528923d8f8fed3f529de962457a9a" id="r_gaced528923d8f8fed3f529de962457a9a"><td class="memItemLeft" align="right" valign="top">std::function&lt; float(const char *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaced528923d8f8fed3f529de962457a9a">MR::getTypeConverter</a> (<a class="el" href="#ga5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, const <a class="el" href="#ga8a502bbb7355b197a80a998945d1a885">MinMaxd</a> &amp;range)</td></tr>
 <tr class="memitem:gae86505f58081c90fd8f92538bff1673b" id="r_gae86505f58081c90fd8f92538bff1673b"><td class="memTemplParams" colspan="2">template&lt;typename F&gt; </td></tr>
 <tr class="memitem:gae86505f58081c90fd8f92538bff1673b template"><td class="memItemLeft" align="right" valign="top">std::invoke_result_t&lt; F, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae86505f58081c90fd8f92538bff1673b">MR::visitScalarType</a> (F &amp;&amp;f, <a class="el" href="#ga5d528348b4d27cfa92a1b565755099c8">ScalarType</a> scalarType, const char *c)</td></tr>
@@ -27156,10 +27160,6 @@ template&lt;typename Tag&gt; </div>
 <tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" name="gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204"></a>Float32&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0" name="gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0"></a>Float64&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142" name="gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142"></a>Float32_4&#160;</td><td class="fielddoc"><p>the last value from float[4] </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63" name="gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63"></a>RGB8&#160;</td><td class="fielddoc"><p>8-bit red, green and blue components; the scalar value is their luma </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642" name="gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642"></a>RGBA8&#160;</td><td class="fielddoc"><p>8-bit red, green, blue and alpha components as in <a class="el" href="structMR_1_1Color.html">Color</a>; the scalar value is the luma of the color components </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" name="gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9" name="gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
@@ -78201,7 +78201,7 @@ element fields:<br  />
 </div>
 </div>
 <a id="ga7aa85481e130d6308bc8ddae1581f9c4" name="ga7aa85481e130d6308bc8ddae1581f9c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7aa85481e130d6308bc8ddae1581f9c4">&#9670;&#160;</a></span>fromTiff()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7aa85481e130d6308bc8ddae1581f9c4">&#9670;&#160;</a></span>fromTiff() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -78216,8 +78216,37 @@ element fields:<br  />
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
+<p>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <a class="el" href="#ga4cb4aac0a47a9d901d24247625ebc4f9">RasterLoad::fromTiff</a> and converted by convertRasterToImage </p>
 
-<p>loads from .tiff format </p>
+</div>
+</div>
+<a id="ga4cb4aac0a47a9d901d24247625ebc4f9" name="ga4cb4aac0a47a9d901d24247625ebc4f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cb4aac0a47a9d901d24247625ebc4f9">&#9670;&#160;</a></span>fromTiff() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Raster.html">Raster</a> &gt; MR::RasterLoad::fromTiff </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RasterLoadSettings.html">RasterLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
+<p>loads the first image of a .tiff file as a raster with one layer:</p><ul>
+<li>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</li>
+<li>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</li>
+<li>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</li>
+<li>the files compressed by the methods that libtiff does not support fail to load;</li>
+<li>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats </li>
+</ul>
 
 </div>
 </div>
@@ -95030,7 +95059,8 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScalarConvert_8h.html">MRMesh/MRScalarConvert.h</a>&gt;</code></p>
-<p>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e">ScalarType::Unknown</a> </p>
+
+<p>returns the minimal and the maximal values of given type, or zeros for <a class="el" href="#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e">ScalarType::Unknown</a> </p>
 
 </div>
 </div>
@@ -98192,10 +98222,10 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRScalarConvert_8h.html">MRMesh/MRScalarConvert.h</a>&gt;</code></p>
-<p>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are </p><dl class="params"><dt>Parameters</dt><dd>
+<p>get a function to convert binary data of specified format type to a scalar value: integer values are mapped from given range to [0, 1], floating-point values are returned as they are </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">scalarType</td><td>- binary format type </td></tr>
-    <tr><td class="paramname">range</td><td>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) </td></tr>
+    <tr><td class="paramname">range</td><td>- (for integer types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) </td></tr>
   </table>
   </dd>
 </dl>
@@ -106674,6 +106704,27 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 
 <p><code>#include &lt;<a class="el" href="MRPositionVertsSmoothly_8h.html">MRMesh/MRPositionVertsSmoothly.h</a>&gt;</code></p>
 <p>Inflates (in one of two sides) given mesh region, putting given vertices in such positions to make smooth surface inside verts-region, but sharp on its boundary; this function makes just 1 iteration of inflation and is used inside inflate(...) </p>
+
+</div>
+</div>
+<a id="ga937e9face092516582310b4330dfc8da" name="ga937e9face092516582310b4330dfc8da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga937e9face092516582310b4330dfc8da">&#9670;&#160;</a></span>infoFromTiff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1RasterInfo.html">RasterInfo</a> &gt; MR::RasterLoad::infoFromTiff </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
+
+<p>loads everything about the raster except its values from .tiff format </p>
 
 </div>
 </div>
@@ -187976,7 +188027,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gabd82d0afb5ae771e7c73d41a9c8d7a91" name="gabd82d0afb5ae771e7c73d41a9c8d7a91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabd82d0afb5ae771e7c73d41a9c8d7a91">&#9670;&#160;</a></span>toTiff() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd82d0afb5ae771e7c73d41a9c8d7a91">&#9670;&#160;</a></span>toTiff() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188006,7 +188057,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga15e4b1b6ede3c72f01803bf8178f5203" name="ga15e4b1b6ede3c72f01803bf8178f5203"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga15e4b1b6ede3c72f01803bf8178f5203">&#9670;&#160;</a></span>toTiff() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15e4b1b6ede3c72f01803bf8178f5203">&#9670;&#160;</a></span>toTiff() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188027,6 +188078,35 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
 
 <p>saves in .tiff format </p>
+
+</div>
+</div>
+<a id="ga75f16c022a45b2f8a627a948a9390653" name="ga75f16c022a45b2f8a627a948a9390653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75f16c022a45b2f8a627a948a9390653">&#9670;&#160;</a></span>toTiff() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::RasterSave::toTiff </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>raster</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
+<p>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 </p>
 
 </div>
 </div>
@@ -199210,7 +199290,6 @@ template&lt;typename F&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRScalarConvert_8h.html">MRMesh/MRScalarConvert.h</a>&gt;</code></p>
 
 <p>More general template to pass a single value of specified format <code class="param">scalarType</code> to a generic function <code class="param">f</code>. </p>
-<p>the same luma as in convertImageToDistanceMap</p>
 
 </div>
 </div>

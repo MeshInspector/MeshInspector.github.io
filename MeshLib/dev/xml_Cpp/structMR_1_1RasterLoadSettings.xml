@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RasterLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RasterLoadSettings</compoundname>
+    <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RasterLoadSettings_1a1489b5970837ecb1c1e1d14e59dcd27c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::RasterLoadSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::RasterLoadSettings::progress</qualifiedname>
+        <briefdescription>
+<para>to report load progress and cancel loading if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="56" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings for loading rasters from external formats </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRRaster.h" line="53" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="54" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RasterLoadSettings_1a1489b5970837ecb1c1e1d14e59dcd27c" prot="public" virt="non-virtual"><scope>MR::RasterLoadSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

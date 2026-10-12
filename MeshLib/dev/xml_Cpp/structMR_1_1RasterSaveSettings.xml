@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RasterSaveSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RasterSaveSettings</compoundname>
+    <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+        <definition>ProgressCallback MR::RasterSaveSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::RasterSaveSettings::progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="63" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings for saving rasters in external formats </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRRaster.h" line="60" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="61" bodyend="64"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" virt="non-virtual"><scope>MR::RasterSaveSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

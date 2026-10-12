@@ -138,13 +138,13 @@
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>loads from .tiff format Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1a74c98160927bc8cc7f5d5b065db7b147" kindref="member">MR.ImageLoad.fromTiff</ref></computeroutput>. </para>
+<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <ref refid="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" kindref="member">RasterLoad.fromTiff</ref> and converted by convertRasterToImage Generated from function <computeroutput><ref refid="classMR_1_1ImageLoad_1a74c98160927bc8cc7f5d5b065db7b147" kindref="member">MR.ImageLoad.fromTiff</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="9" bodyend="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="86" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="86" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ImageLoad_1ad1494ca8b7d8a6d0c11896779b7b6bfa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="24" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="101" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ImageLoad_1ac0992d215160d9ce666c6c8bcfc05528" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRImage_StdString._Underlying *</type>

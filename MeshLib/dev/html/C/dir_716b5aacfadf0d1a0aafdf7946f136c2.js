@@ -24,6 +24,8 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "expected_MR_PackMapping_std_string.h", "expected__MR__PackMapping__std__string_8h.html", "expected__MR__PackMapping__std__string_8h" ],
     [ "expected_MR_PointCloud_std_string.h", "expected__MR__PointCloud__std__string_8h.html", "expected__MR__PointCloud__std__string_8h" ],
     [ "expected_MR_Polyline3_std_string.h", "expected__MR__Polyline3__std__string_8h.html", "expected__MR__Polyline3__std__string_8h" ],
+    [ "expected_MR_Raster_std_string.h", "expected__MR__Raster__std__string_8h.html", "expected__MR__Raster__std__string_8h" ],
+    [ "expected_MR_RasterInfo_std_string.h", "expected__MR__RasterInfo__std__string_8h.html", "expected__MR__RasterInfo__std__string_8h" ],
     [ "expected_MR_SimpleBinaryVolume_std_string.h", "expected__MR__SimpleBinaryVolume__std__string_8h.html", "expected__MR__SimpleBinaryVolume__std__string_8h" ],
     [ "expected_MR_SimpleVolume_std_string.h", "expected__MR__SimpleVolume__std__string_8h.html", "expected__MR__SimpleVolume__std__string_8h" ],
     [ "expected_MR_SimpleVolumeMinMax_std_string.h", "expected__MR__SimpleVolumeMinMax__std__string_8h.html", "expected__MR__SimpleVolumeMinMax__std__string_8h" ],

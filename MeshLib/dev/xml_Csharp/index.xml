@@ -29262,6 +29262,89 @@
     <member refid="classMR_1_1Const__RadiusMeasurementObject_1a31e5be04895246e06d831dc45e3b797c" kind="function"><name>__MR_RadiusMeasurementObject_xf</name></member>
     <member refid="classMR_1_1Const__RadiusMeasurementObject_1a95209a1ad5102f6112246e478e6fca9b" kind="function"><name>__MR_RadiusMeasurementObject_xfsForAllViewports</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__Raster" kind="class"><name>MR::Const_Raster</name>
+    <member refid="classMR_1_1Const__Raster_1a719a62a28ab87aefca580c9e00d33c2a" kind="property"><name>info</name></member>
+    <member refid="classMR_1_1Const__Raster_1a4437c2e307c86031810241cdbc1d058a" kind="property"><name>data</name></member>
+    <member refid="classMR_1_1Const__Raster_1a25974fee47d04b00533311817948df7c" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Raster_1abf19cb905b21d6e5dccdc98dd31c43c2" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Raster_1a8b55916a57e801744995bdccb6727c5b" kind="function"><name>Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1a0919e35b6cea27d404a75703707325a0" kind="function"><name>Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1a5b3e309c406a708d949ece7b837e798d" kind="function"><name>Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1a6263edc644eacd0d294a168c12b61b4e" kind="function"><name>Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1af9d831c0cc63eeca0925e072bde43979" kind="function"><name>Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1a11e2b57f817b92ddde0bd5da2889cf14" kind="function"><name>~Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1a46947b750ada2aecf3f6957bc0266722" kind="function"><name>Const_Raster</name></member>
+    <member refid="classMR_1_1Const__Raster_1a343de2b9f65effa1d32545b41357e150" kind="function"><name>__MR_Raster_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__Raster_1a480b2863677136f845e9d0e11cb7af6d" kind="function"><name>__MR_Raster_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__Raster_1a4478752bea872916df7da6926037db4b" kind="function"><name>__MR_Raster_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__Raster_1ae0f2c24843de16999fe21c093c95c317" kind="function"><name>__MR_Raster_Destroy</name></member>
+    <member refid="classMR_1_1Const__Raster_1af6960c43d02e5e97d92f785bf14c8d30" kind="function"><name>__MR_Raster_Get_data</name></member>
+    <member refid="classMR_1_1Const__Raster_1ab685f4e7052bc997f5a9061d9769c9ef" kind="function"><name>__MR_Raster_Get_info</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__RasterInfo" kind="class"><name>MR::Const_RasterInfo</name>
+    <member refid="classMR_1_1Const__RasterInfo_1a1fa64c40fb0e2df40151f3b4ae8e0155" kind="property"><name>dims</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1ae469ef60f3e113e79d80976c47309432" kind="property"><name>type</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a3ce587a5ac588b7b2237274f925b5625" kind="property"><name>channels</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a2b388c203e169ebc7c6e0f394e3df9d0" kind="variable"><name>__ref_storage_dims</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a5512cca6f4488509b6f17660e4885381" kind="variable"><name>__ref_storage_type</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a7e2d2dc98f4898b5c002c9cb388582b7" kind="variable"><name>__ref_storage_channels</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a8290c65b6ed5d722c04e8d6c6e263381" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1acb51d09945b6adf31002194c8e97eb4c" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a25cc8ba6f7a253d23b1f0deb4599aeff" kind="function"><name>Const_RasterInfo</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1aeb408ad5ff496354f2be1129ed7fc5e1" kind="function"><name>Const_RasterInfo</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a3e8440ad9f2256f022bcdedb1b1907d0" kind="function"><name>Const_RasterInfo</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a018c557dce22f105d55943c4a3f376c6" kind="function"><name>Const_RasterInfo</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a79e41bb2e0c84959398af51ae4d8c289" kind="function"><name>dataSize</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a9463ace42a8b673ab3b6d56180014941" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a3dc1d9e15c63b62467222fe0ee1db684" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1aa7ff14352734c8edc90d8274b55b687c" kind="function"><name>~Const_RasterInfo</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1aeac5c0b23f08d8f066e31453bcf6561a" kind="function"><name>Const_RasterInfo</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a194433ed30632a4888eaecd1adb9204e" kind="function"><name>operator==</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1af7da33676206c911b19ed36655220189" kind="function"><name>operator!=</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1afcdd1a5f46d597bd68239ee951d25cc3" kind="function"><name>__MR_RasterInfo_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a3c89d9f155996339eb908218895d3a11" kind="function"><name>__MR_RasterInfo_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a57b40d46fb3f229f49349c9525e8f2b2" kind="function"><name>__MR_RasterInfo_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1ac925df5f042ac4ef83c8678f26eb22eb" kind="function"><name>__MR_RasterInfo_Destroy</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a43abe9fa85b19beebf096f1b6e9a6db1" kind="function"><name>__MR_RasterInfo_Get_channels</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1aa8b5f93c6654a286de1e455f239e7c20" kind="function"><name>__MR_RasterInfo_Get_dims</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1af244f6b0a784a18c2d2232ba7b3fc513" kind="function"><name>__MR_RasterInfo_Get_type</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1a93379555aa6f7642bcaa6125ef3d59db" kind="function"><name>__MR_RasterInfo_dataSize</name></member>
+    <member refid="classMR_1_1Const__RasterInfo_1ac3688ed102cec471104925c0c2ab5343" kind="function"><name>__MR_equal_MR_RasterInfo</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__RasterLoadSettings" kind="class"><name>MR::Const_RasterLoadSettings</name>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a0c5beeb1c3f1f5e22a311e7d7f08aec0" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a540e97149ec2e7feb64ca36350e8f47e" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a8b542023637190efcb5c0eec9a68e5bd" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1ac103fbe129dd47279ef42ee447bd21fa" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1afee821299ce8b8abbe32152497fac707" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a7b17570279cf15429f2879573199c547" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1aa31fb56d43db160f839e9f242c9f1e1c" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a01cae43e9386c31159df50a8d84104ca" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1ae6eff86a56646c2c118d10cb1d3be223" kind="function"><name>~Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a2273caf62fa0ab778c185ecc1b639f8f" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a3144e5961ba880806159b078e8668291" kind="function"><name>__MR_RasterLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1acae7a7d10fe917d619dff465bfaeb0a5" kind="function"><name>__MR_RasterLoadSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1aa472f868bfc0c3cadba9048e2331e7f3" kind="function"><name>__MR_RasterLoadSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a322a737b526c4d2ec3f904642a8bf2a4" kind="function"><name>__MR_RasterLoadSettings_Destroy</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a5315bb642cfe90f0ea89847588373a0d" kind="function"><name>__MR_RasterLoadSettings_Get_progress</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__RasterSaveSettings" kind="class"><name>MR::Const_RasterSaveSettings</name>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a576d74b88d561344757ea21ce0c11985" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a578d4af4fdfb44c82b98705724848f5e" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1ae74b952efcaca8e1ccfe42f94ff2740a" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a1d9dd71526dad9b58a7d2e100ceaeac3" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a8ebe00647b63a5a0a26712ba9ee54dbc" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a96b0a8a1e20198b780c34e3fb041d549" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a1ed87c5dad0505cd28ae24a2f46a23b6" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a1dede3a65b4e7f9c1b69427ca107fb99" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1aa1c42ea500a4e357584aa035f5ccf850" kind="function"><name>~Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a989e1b47c4855a99f9b64b0d2bf1fbc4" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a9b4b7f61f65386d54dc9dc06d07208a3" kind="function"><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1aed6982013d65fbeedc738eb0bd99de37" kind="function"><name>__MR_RasterSaveSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1aa6228880cf2a007eef1f5b9eedcb2b6f" kind="function"><name>__MR_RasterSaveSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a177915d29d92b9887276bf392c0accd1" kind="function"><name>__MR_RasterSaveSettings_Destroy</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1aa2c6b1ee5a7cf2953c95580806cb2f82" kind="function"><name>__MR_RasterSaveSettings_Get_progress</name></member>
+  </compound>
   <compound refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kind="class"><name>MR::VoxelsLoad::Const_RawParameters</name>
     <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a73389c75a88d00cf09220e40d0c02297" kind="property"><name>dimensions</name></member>
     <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ac83ad168f3235ed678c05a863e8614d9" kind="property"><name>voxelSize</name></member>
@@ -51833,8 +51916,6 @@
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea166495adc0d0f53bee6baecc577f5204" kind="enumvalue"><name>Float32</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ead2b556d8a8f5c8ac323f51a4b82e79a0" kind="enumvalue"><name>Float64</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea3dced80f38319c510aa418c1dee5e142" kind="enumvalue"><name>Float32_4</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea165c6379d01617e12de274a3952efa63" kind="enumvalue"><name>RGB8</name></member>
-    <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eab4b279046a02077466fa26cabb00c642" kind="enumvalue"><name>RGBA8</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940ea88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
     <member refid="classMR_1a84b05c595bca2e76755d6b627c5b940eae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
     <member refid="classMR_1a2581a1561c74e2ad725a43e2a00f71d0" kind="enum"><name>NeighborDir</name></member>
@@ -53072,6 +53153,7 @@
     <member refid="classMR_1a886161af20c3588eefac4fcc4b1be87b" kind="function"><name>protectedRun</name></member>
     <member refid="classMR_1a1df35dfd475a236e3142308f720d7bfd" kind="function"><name>protectedFunc</name></member>
     <member refid="classMR_1af5da93169ac1bfdbf073097307b26b2f" kind="function"><name>compensateRadius</name></member>
+    <member refid="classMR_1a948a1620c0d5bf5331e6995b5bb68528" kind="function"><name>convertRasterToImage</name></member>
     <member refid="classMR_1a92d5d2a460180c528dd10abce7ccbf68" kind="function"><name>opposite</name></member>
     <member refid="classMR_1a8934bf2383fd03d4a4a6c3f956ed2fab" kind="function"><name>expandPixelMask</name></member>
     <member refid="classMR_1a840f706b183b2902b3a9fa5c2ce5b0d1" kind="function"><name>shrinkPixelMask</name></member>
@@ -54918,6 +55000,7 @@
     <member refid="classMR_1a8c1c14266cc3e3de2e20448cd5d3d647" kind="function"><name>__MR_protectedFunc</name></member>
     <member refid="classMR_1a5f01a0753a7f9e87a3d61b0bd0a5a6bb" kind="function"><name>__MR_protectedRun</name></member>
     <member refid="classMR_1add449f738383c6239067eb2479141ec9" kind="function"><name>__MR_compensateRadius</name></member>
+    <member refid="classMR_1a4b34e4dfa49ee64c913873e4a678f897" kind="function"><name>__MR_convertRasterToImage</name></member>
     <member refid="classMR_1a2744172eb100bd7e09a232ee8265d976" kind="function"><name>__MR_expandPixelMask</name></member>
     <member refid="classMR_1aff0ea610529811fb26505dc6aa4a9799" kind="function"><name>__MR_opposite_MR_OutEdge2</name></member>
     <member refid="classMR_1a1b6390d9b4f60f22c9ed0efe98f4c55d" kind="function"><name>__MR_shrinkPixelMask</name></member>
@@ -61376,6 +61459,84 @@
     <member refid="classMR_1_1RadiusMeasurementObject_1a682914e33777c927069fae0d69bc91f9" kind="function"><name>__MR_RadiusMeasurementObject_sortChildren</name></member>
     <member refid="classMR_1_1RadiusMeasurementObject_1a24002d8bbf71af0ca058e3fc50147034" kind="function"><name>__MR_RadiusMeasurementObject_swap</name></member>
     <member refid="classMR_1_1RadiusMeasurementObject_1a050eb6d0f2ab980a2886a392f6dafe91" kind="function"><name>__MR_RadiusMeasurementObject_toggleVisualizeProperty</name></member>
+  </compound>
+  <compound refid="classMR_1_1Raster" kind="class"><name>MR::Raster</name>
+    <member refid="classMR_1_1Raster_1a261554001cdafd194945e9c3175eb792" kind="property"><name>info</name></member>
+    <member refid="classMR_1_1Raster_1a25160881285d91949dea1694a8bffa75" kind="property"><name>data</name></member>
+    <member refid="classMR_1_1Raster_1a6247a8a7c3133048228a4811c02876e6" kind="function"><name>Raster</name></member>
+    <member refid="classMR_1_1Raster_1ac198ab0fc5c46913cce534541720df25" kind="function"><name>Raster</name></member>
+    <member refid="classMR_1_1Raster_1a100769c6429d9514cd48b78c0e56b9f7" kind="function"><name>Raster</name></member>
+    <member refid="classMR_1_1Raster_1a3801bfb095b916e3e9416406a8e81c39" kind="function"><name>Raster</name></member>
+    <member refid="classMR_1_1Raster_1a2195f474b96da69ce8c435401162a506" kind="function"><name>Raster</name></member>
+    <member refid="classMR_1_1Raster_1a6e5549a9e969d0606b46ea34b0c6fe96" kind="function"><name>Raster</name></member>
+    <member refid="classMR_1_1Raster_1a29f14f9670bafff09b41b16759f1cf21" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Raster_1a4d82c54e0c2192250de6d898c2b0c365" kind="function"><name>__MR_Raster_AssignFromAnother</name></member>
+    <member refid="classMR_1_1Raster_1a174b96479fe4938599a9d3c87cb92e4b" kind="function"><name>__MR_Raster_ConstructFrom</name></member>
+    <member refid="classMR_1_1Raster_1aa0bda4e49e9484a24974641689fbf554" kind="function"><name>__MR_Raster_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Raster_1a8daef65f7448883ea0cf10daabdc7fbf" kind="function"><name>__MR_Raster_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Raster_1aa34dfbae274ceecb2209fabe02ddfe3f" kind="function"><name>__MR_Raster_GetMutable_data</name></member>
+    <member refid="classMR_1_1Raster_1a4f2ef4e9817449dabc4086bc442e6982" kind="function"><name>__MR_Raster_GetMutable_info</name></member>
+  </compound>
+  <compound refid="classMR_1_1RasterInfo" kind="class"><name>MR::RasterInfo</name>
+    <member refid="classMR_1_1RasterInfo_1a544f27d346071f972572f80a62222b72" kind="property"><name>dims</name></member>
+    <member refid="classMR_1_1RasterInfo_1a53fdb7703806f6f5f4a2d8a166179d0e" kind="property"><name>type</name></member>
+    <member refid="classMR_1_1RasterInfo_1a296b379e77666c7685709d6a280fecb7" kind="property"><name>channels</name></member>
+    <member refid="classMR_1_1RasterInfo_1af2c6580e5806e2517b8134de6b041586" kind="function"><name>RasterInfo</name></member>
+    <member refid="classMR_1_1RasterInfo_1abd694d41e92ddf57c5d75523315e503a" kind="function"><name>RasterInfo</name></member>
+    <member refid="classMR_1_1RasterInfo_1a77c1ee44c1cc6cd71a66ffc74b846c09" kind="function"><name>RasterInfo</name></member>
+    <member refid="classMR_1_1RasterInfo_1addaf64ab9546ef54e1b3e1604f2f5c66" kind="function"><name>RasterInfo</name></member>
+    <member refid="classMR_1_1RasterInfo_1a8ccfe20cc504469f00c189e1f3eb6377" kind="function"><name>RasterInfo</name></member>
+    <member refid="classMR_1_1RasterInfo_1aec3801d57b55ce3ff92b63b44449076d" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1RasterInfo_1abd6940e086c7d68dbbb5809391154665" kind="function"><name>__MR_RasterInfo_AssignFromAnother</name></member>
+    <member refid="classMR_1_1RasterInfo_1a3ae063e9caaff396d2b6a15a19178209" kind="function"><name>__MR_RasterInfo_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterInfo_1a0bd6c7b9350a7423a0fa81e37e279b67" kind="function"><name>__MR_RasterInfo_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1RasterInfo_1a9d8e2ffbeaa2d1107315a6a892117628" kind="function"><name>__MR_RasterInfo_DefaultConstruct</name></member>
+  </compound>
+  <compound refid="classMR_1_1RasterLoad" kind="class"><name>MR::RasterLoad</name>
+    <member refid="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" kind="function"><name>fromTiff</name></member>
+    <member refid="classMR_1_1RasterLoad_1a0d7f9a0a540662f6edbcda4c5630cbcb" kind="function"><name>infoFromTiff</name></member>
+    <member refid="classMR_1_1RasterLoad_1a3404721ea149fdff48a6a04bfad3e97c" kind="function"><name>fromAnySupportedFormat</name></member>
+    <member refid="classMR_1_1RasterLoad_1ad3a841c5d719fb952f3c0772b1946e52" kind="function"><name>infoFromAnySupportedFormat</name></member>
+    <member refid="classMR_1_1RasterLoad_1a1eb2e6bfc8d89d1e3defa2f15903051f" kind="function"><name>__MR_RasterLoad_fromTiff</name></member>
+    <member refid="classMR_1_1RasterLoad_1a5699866c160798898544744d2dc4a144" kind="function"><name>__MR_RasterLoad_infoFromTiff</name></member>
+    <member refid="classMR_1_1RasterLoad_1af851a27a8ad266631e2aab4f7cd81017" kind="function"><name>__MR_RasterLoad_fromAnySupportedFormat</name></member>
+    <member refid="classMR_1_1RasterLoad_1a6d528213b653aba8c7345f097bf45653" kind="function"><name>__MR_RasterLoad_infoFromAnySupportedFormat</name></member>
+  </compound>
+  <compound refid="classMR_1_1RasterLoadSettings" kind="class"><name>MR::RasterLoadSettings</name>
+    <member refid="classMR_1_1RasterLoadSettings_1a4de8b2465057f4538429c56ceff8ef0e" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a32545febbe44843b71d1a8edc6429650" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a57540193d68aaea71a307ab22925dce7" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1aae6b6586718fa5221b0d707ab28ad0af" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a79df293268433c56048b230b4f640126" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1aecd3ed1fe53fec733c592ae388080534" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1af4b5dd69f49a7ae1f3495930e0cded37" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a6e0f4b891461bb782519deeffb8a5378" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1ab3655afc0900834363b91db94836dda5" kind="function"><name>__MR_RasterLoadSettings_AssignFromAnother</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a5f0d258504150d32420d74552c1de0b7" kind="function"><name>__MR_RasterLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a6f062d7b1303d1fee05c27576c192189" kind="function"><name>__MR_RasterLoadSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1ae63d6579d85b3dd37b2e5073422ba3ae" kind="function"><name>__MR_RasterLoadSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a31965eec43a56748c110a4d174f2b245" kind="function"><name>__MR_RasterLoadSettings_GetMutable_progress</name></member>
+  </compound>
+  <compound refid="classMR_1_1RasterSave" kind="class"><name>MR::RasterSave</name>
+    <member refid="classMR_1_1RasterSave_1afe4f0c1514eae7af14cdc197b6e81875" kind="function"><name>toTiff</name></member>
+    <member refid="classMR_1_1RasterSave_1a7f65bed30d597f5a060b967888ad02d8" kind="function"><name>toAnySupportedFormat</name></member>
+    <member refid="classMR_1_1RasterSave_1acf6d203d5303bd7846985821dc41311c" kind="function"><name>__MR_RasterSave_toTiff</name></member>
+    <member refid="classMR_1_1RasterSave_1a970c6242073cfdc50103aae10eb9913b" kind="function"><name>__MR_RasterSave_toAnySupportedFormat</name></member>
+  </compound>
+  <compound refid="classMR_1_1RasterSaveSettings" kind="class"><name>MR::RasterSaveSettings</name>
+    <member refid="classMR_1_1RasterSaveSettings_1a834757aa4ba8efdadd036c942e2178c5" kind="property"><name>progress</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1aa81fd9fe6387fe8cc2f632c7f8da8b00" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a2ec258a7346e0d46297d8c6cf93ffb0f" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a95bf2fb666db685840f691327aec26e0" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1af6ee9f1382312c3ce3e53db6bbd3bda3" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a6cfa5d1080dc629f7168c88cd001726e" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a487a98a44f7293d21282e5d2f44d81b4" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a5e1b514bd55dc47e6f4493750262a7db" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1af14cac931101de92e69a75cec203973b" kind="function"><name>__MR_RasterSaveSettings_AssignFromAnother</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1afa990e0343c920ccb09575b236d8fefa" kind="function"><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a103da59b78acf2f8ee77ebf44a74c992" kind="function"><name>__MR_RasterSaveSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a9aac9d9534c0fcdd33d0d8450b059649" kind="function"><name>__MR_RasterSaveSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1af1b3b3e264b706191c805fbf08d91237" kind="function"><name>__MR_RasterSaveSettings_GetMutable_progress</name></member>
   </compound>
   <compound refid="classMR_1_1VoxelsLoad_1_1RawParameters" kind="class"><name>MR::VoxelsLoad::RawParameters</name>
     <member refid="classMR_1_1VoxelsLoad_1_1RawParameters_1a2b4d7f21a3f4c1b9ac6c1e0387fec668" kind="property"><name>dimensions</name></member>
@@ -71634,6 +71795,12 @@
   <compound refid="MRRadiusCompensation_8cs" kind="file"><name>MRRadiusCompensation.cs</name>
   </compound>
   <compound refid="MRRadiusMeasurementObject_8cs" kind="file"><name>MRRadiusMeasurementObject.cs</name>
+  </compound>
+  <compound refid="MRRaster_8cs" kind="file"><name>MRRaster.cs</name>
+  </compound>
+  <compound refid="MRRasterLoad_8cs" kind="file"><name>MRRasterLoad.cs</name>
+  </compound>
+  <compound refid="MRRasterSave_8cs" kind="file"><name>MRRasterSave.cs</name>
   </compound>
   <compound refid="MRRectIndexer_8cs" kind="file"><name>MRRectIndexer.cs</name>
   </compound>

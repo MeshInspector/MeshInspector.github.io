@@ -15,6 +15,8 @@ var group__IOGroup =
     [ "Mesh Save", "group__MeshSaveGroup.html", "group__MeshSaveGroup" ],
     [ "Mesh Save Obj", "group__MeshSaveObjGroup.html", "group__MeshSaveObjGroup" ],
     [ "Points Save", "group__PointsSaveGroup.html", "group__PointsSaveGroup" ],
+    [ "Raster Load", "group__RasterLoadGroup.html", "group__RasterLoadGroup" ],
+    [ "Raster Save", "group__RasterSaveGroup.html", "group__RasterSaveGroup" ],
     [ "Serializer", "group__SerializerGroup.html", "group__SerializerGroup" ],
     [ "Voxels Load", "group__VoxelsLoadGroup.html", "group__VoxelsLoadGroup" ],
     [ "Voxels Save", "group__VoxelsSaveGroup.html", "group__VoxelsSaveGroup" ],

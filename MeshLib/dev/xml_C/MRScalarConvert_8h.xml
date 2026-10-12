@@ -5,6 +5,7 @@
     <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
+    <includedby refid="MRRaster_8h" local="no">MRRaster.h</includedby>
     <includedby refid="MRVoxelsLoad_8h" local="no">MRVoxelsLoad.h</includedby>
     <incdepgraph>
       <node id="2">
@@ -72,13 +73,19 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="2">
+        <label>MRRaster.h</label>
+        <link refid="MRRaster_8h"/>
+      </node>
       <node id="1">
         <label>MRScalarConvert.h</label>
         <link refid="MRScalarConvert_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
-      <node id="2">
+      <node id="3">
         <label>MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
       </node>
@@ -172,31 +179,13 @@
           <name>MR_ScalarType_Float32_4</name>
           <initializer>= 10</initializer>
           <briefdescription>
-<para>8-bit red, green and blue components; the scalar value is their luma </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4" prot="public">
-          <name>MR_ScalarType_RGB8</name>
-          <initializer>= 11</initializer>
-          <briefdescription>
-<para>8-bit red, green, blue and alpha components as in Color; the scalar value is the luma of the color components </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701" prot="public">
-          <name>MR_ScalarType_RGBA8</name>
-          <initializer>= 12</initializer>
-          <briefdescription>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
         <enumvalue id="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" prot="public">
           <name>MR_ScalarType_Unknown</name>
-          <initializer>= 13</initializer>
+          <initializer>= 11</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -204,7 +193,7 @@
         </enumvalue>
         <enumvalue id="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" prot="public">
           <name>MR_ScalarType_Count</name>
-          <initializer>= 14</initializer>
+          <initializer>= 12</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -217,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" bodystart="17" bodyend="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" bodystart="17" bodyend="32"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -247,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="36" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="32" column="15"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -267,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="40" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" declline="40" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="36" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" declline="36" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRScalarConvert_8h_1a58141f9ae02b706e004a57ee5ca037e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref></type>
@@ -281,11 +270,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for ScalarType::Unknown Generated from function <computeroutput>MR::getScalarTypeMinMax</computeroutput>. </para>
+<para>returns the minimal and the maximal values of given type, or zeros for ScalarType::Unknown Generated from function <computeroutput>MR::getScalarTypeMinMax</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="45" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" declline="45" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="40" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" declline="40" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRScalarConvert_8h_1a16b43726507c6326ba804fc3346e1735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRScalarConvert_8h_1a6513aac0d66c11e07fefbd0c297f54cf" kindref="member">MR_std_function_float_from_const_char_ptr</ref> *</type>
@@ -303,7 +292,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are <parameterlist kind="param"><parameteritem>
+<para>get a function to convert binary data of specified format type to a scalar value: integer values are mapped from given range to [0, 1], floating-point values are returned as they are <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>scalarType</parametername>
 </parameternamelist>
@@ -316,7 +305,7 @@
 <parametername>range</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <computeroutput>MR::getTypeConverter</computeroutput>. Parameter <computeroutput>range</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__const__char__ptr_8h_1a40757f0fe991345cd13de1e4d4b46832" kindref="member">MR_std_function_float_from_const_char_ptr_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>- (for integer types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) Generated from function <computeroutput>MR::getTypeConverter</computeroutput>. Parameter <computeroutput>range</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__const__char__ptr_8h_1a40757f0fe991345cd13de1e4d4b46832" kindref="member">MR_std_function_float_from_const_char_ptr_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -324,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="54" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" declline="54" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" line="49" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h" declline="49" declcolumn="51"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -359,21 +348,19 @@
 <codeline lineno="26" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26ad2b674fdc3cb20dfe6debdabd286a0d5" kindref="member">MR_ScalarType_Float32</ref><sp/>=<sp/>8,</highlight></codeline>
 <codeline lineno="27" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a55f88f171ef5edd1a1131998847d236c" kindref="member">MR_ScalarType_Float64</ref><sp/>=<sp/>9,</highlight></codeline>
 <codeline lineno="29" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26acdcad53e853624dfa606e2a534eb6f5d" kindref="member">MR_ScalarType_Float32_4</ref><sp/>=<sp/>10,</highlight></codeline>
-<codeline lineno="31" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a28b65a4c941257f2c7af5f4bdb6460b4" kindref="member">MR_ScalarType_RGB8</ref><sp/>=<sp/>11,</highlight></codeline>
-<codeline lineno="33" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26af36ae7ad5b5456bbc4157c726edf0701" kindref="member">MR_ScalarType_RGBA8</ref><sp/>=<sp/>12,</highlight></codeline>
-<codeline lineno="34" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" kindref="member">MR_ScalarType_Unknown</ref><sp/>=<sp/>13,</highlight></codeline>
-<codeline lineno="35" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" kindref="member">MR_ScalarType_Count</ref><sp/>=<sp/>14,</highlight></codeline>
-<codeline lineno="36" refid="MRScalarConvert_8h_1af35de36846ccdc81378f0c9a85984525" refkind="member"><highlight class="normal">}<sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref>;</highlight></codeline>
+<codeline lineno="30" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a5204c1e35164b08033575dbcbef49a18" kindref="member">MR_ScalarType_Unknown</ref><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="31" refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26a146dae2c7d8e0f2a98e627bfcc45b6e9" kindref="member">MR_ScalarType_Count</ref><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="32" refid="MRScalarConvert_8h_1af35de36846ccdc81378f0c9a85984525" refkind="member"><highlight class="normal">}<sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRScalarConvert_8h_1a8681ebff0218398e5a876fd223991e7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRScalarConvert_8h_1a8681ebff0218398e5a876fd223991e7b" kindref="member">MR_getScalarTypeSize</ref>(<ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>scalarType);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40" refid="MRScalarConvert_8h_1a8681ebff0218398e5a876fd223991e7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRScalarConvert_8h_1a8681ebff0218398e5a876fd223991e7b" kindref="member">MR_getScalarTypeSize</ref>(<ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>scalarType);</highlight></codeline>
+<codeline lineno="40" refid="MRScalarConvert_8h_1a58141f9ae02b706e004a57ee5ca037e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/><ref refid="MRScalarConvert_8h_1a58141f9ae02b706e004a57ee5ca037e6" kindref="member">MR_getScalarTypeMinMax</ref>(<ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>scalarType);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRScalarConvert_8h_1a58141f9ae02b706e004a57ee5ca037e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/><ref refid="MRScalarConvert_8h_1a58141f9ae02b706e004a57ee5ca037e6" kindref="member">MR_getScalarTypeMinMax</ref>(<ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>scalarType);</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRScalarConvert_8h_1a16b43726507c6326ba804fc3346e1735" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRScalarConvert_8h_1a6513aac0d66c11e07fefbd0c297f54cf" kindref="member">MR_std_function_float_from_const_char_ptr</ref><sp/>*<ref refid="MRScalarConvert_8h_1a16b43726507c6326ba804fc3346e1735" kindref="member">MR_getTypeConverter</ref>(<ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>scalarType,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/>*range);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="49" refid="MRScalarConvert_8h_1a16b43726507c6326ba804fc3346e1735" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRScalarConvert_8h_1a6513aac0d66c11e07fefbd0c297f54cf" kindref="member">MR_std_function_float_from_const_char_ptr</ref><sp/>*<ref refid="MRScalarConvert_8h_1a16b43726507c6326ba804fc3346e1735" kindref="member">MR_getTypeConverter</ref>(<ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>scalarType,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRScalarConvert.h"/>
   </compounddef>

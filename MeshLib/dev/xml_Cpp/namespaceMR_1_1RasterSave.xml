@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1RasterSave" kind="namespace" language="C++">
+    <compoundname>MR::RasterSave</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1RasterSave_1ad922f4de76620e64ed212b390b2e0414" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="structMR_1_1Raster" kindref="compound">Raster</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref> &amp;)</type>
+        <definition>using MR::RasterSave::RasterSaver =  Expected&lt;void&gt;( * )( const Raster&amp;, const std::filesystem::path&amp;, const RasterSaveSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>RasterSaver</name>
+        <qualifiedname>MR::RasterSave::RasterSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRIOFormatsRegistry.h" line="429" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="429" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" kind="function"><name>toTiff</name></member>
+      <member refid="group__RasterSaveGroup_1gabfae0555a373861a3218bc93db65a2e6" kind="function"><name>toAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRIOExtras/MRTiff.h" line="38" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRRaster_8h" kind="file" language="C++">
+    <compoundname>MRRaster.h</compoundname>
+    <includes refid="MRScalarConvert_8h" local="no">MRCMesh/MRScalarConvert.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRRaster.h</label>
+        <link refid="MRRaster_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRScalarConvert.h</label>
+        <link refid="MRScalarConvert_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" prot="public" static="no">
+        <type>struct <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref></type>
+        <definition>typedef struct MR_RasterInfo MR_RasterInfo</definition>
+        <argsstring></argsstring>
+        <name>MR_RasterInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>everything about a raster except its values Generated from class <computeroutput>MR::RasterInfo</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="23" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRRaster_8h_1ad37f021cfe06336a20f0f70540e0a920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API const MR_Vector3i * MR_RasterInfo_Get_dims</definition>
+        <argsstring>(const MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_Get_dims</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of pixels along each axis: x is the width, y is the height, z is the number of layers Returns a pointer to a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="45" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="45" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aede127a255c574c7dd4ed3d2ed2a6767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterInfo_Set_dims</definition>
+        <argsstring>(MR_RasterInfo *_this, MR_Vector3i value)</argsstring>
+        <name>MR_RasterInfo_Set_dims</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of pixels along each axis: x is the width, y is the height, z is the number of layers Modifies a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dims</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dims</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a563d333bbc835243546387a17ce3d7cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <definition>MRC_API MR_Vector3i * MR_RasterInfo_GetMutable_dims</definition>
+        <argsstring>(MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_GetMutable_dims</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of pixels along each axis: x is the width, y is the height, z is the number of layers Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="59" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="59" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a01369802915d53564372838efca55560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref> *</type>
+        <definition>MRC_API const MR_ScalarType * MR_RasterInfo_Get_type</definition>
+        <argsstring>(const MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_Get_type</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>type of all values Returns a pointer to a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="66" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="66" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a2d54cced02f9a6a245148d17aef1b184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterInfo_Set_type</definition>
+        <argsstring>(MR_RasterInfo *_this, MR_ScalarType value)</argsstring>
+        <name>MR_RasterInfo_Set_type</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>type of all values Modifies a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>type</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>type</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a1b7f7b6a395ab3a8f679a80e0ca2dd1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref> *</type>
+        <definition>MRC_API MR_ScalarType * MR_RasterInfo_GetMutable_type</definition>
+        <argsstring>(MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_GetMutable_type</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>type of all values Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>type</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="80" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="80" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1acf0eb8c509a8ae15f20f55c11828de6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_RasterInfo_Get_channels</definition>
+        <argsstring>(const MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_Get_channels</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of values in each pixel, e.g. 1 for gray values, 3 for RGB colors, 4 for RGBA colors, or any number of bands; convertRasterToImage takes three or more channels as RGB(A) colors, so three or four gray bands look like colors there Returns a pointer to a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>channels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="88" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="88" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1af857b717900b7567699f27dd3c518991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterInfo_Set_channels</definition>
+        <argsstring>(MR_RasterInfo *_this, int value)</argsstring>
+        <name>MR_RasterInfo_Set_channels</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of values in each pixel, e.g. 1 for gray values, 3 for RGB colors, 4 for RGBA colors, or any number of bands; convertRasterToImage takes three or more channels as RGB(A) colors, so three or four gray bands look like colors there Modifies a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>channels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>channels</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a8c0b079edd3df7d0f2c08c7f22cd493e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_RasterInfo_GetMutable_channels</definition>
+        <argsstring>(MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_GetMutable_channels</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of values in each pixel, e.g. 1 for gray values, 3 for RGB colors, 4 for RGBA colors, or any number of bands; convertRasterToImage takes three or more channels as RGB(A) colors, so three or four gray bands look like colors there Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterInfo</computeroutput> named <computeroutput>channels</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="103" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="103" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a22058404b667a560bc77d1011dc05e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_RasterInfo_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RasterInfo_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" kindref="member">MR_RasterInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="107" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="107" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a284ab2945f9524819a7b94ada4a25016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_RasterInfo_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RasterInfo_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRaster_8h_1aff600399762183bf8fbca40ba86887af" kindref="member">MR_RasterInfo_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRaster_8h_1aea6a3342b47f678e8c194d62c06d9519" kindref="member">MR_RasterInfo_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRaster_8h_1ae2ad48fb7b1389a1ae071fad17115371" kindref="member">MR_RasterInfo_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="112" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="112" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a090a3abe1ce75f93b8989af67c2d520f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_RasterInfo_ConstructFrom</definition>
+        <argsstring>(MR_Vector3i dims, MR_ScalarType type, int channels)</argsstring>
+        <name>MR_RasterInfo_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::RasterInfo</computeroutput> elementwise. The reference to the parameter <computeroutput>dims</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" kindref="member">MR_RasterInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="119" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="119" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ae2ad48fb7b1389a1ae071fad17115371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API const MR_RasterInfo * MR_RasterInfo_OffsetPtr</definition>
+        <argsstring>(const MR_RasterInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RasterInfo_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="123" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="123" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aea6a3342b47f678e8c194d62c06d9519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_RasterInfo_OffsetMutablePtr</definition>
+        <argsstring>(MR_RasterInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RasterInfo_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="127" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="127" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a5fd14596462f85bb60a472a34785bc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_RasterInfo_ConstructFromAnother</definition>
+        <argsstring>(const MR_RasterInfo *_other)</argsstring>
+        <name>MR_RasterInfo_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RasterInfo::RasterInfo</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" kindref="member">MR_RasterInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="133" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="133" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterInfo_Destroy</definition>
+        <argsstring>(const MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_Destroy</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aff600399762183bf8fbca40ba86887af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterInfo_DestroyArray</definition>
+        <argsstring>(const MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a004bb95fa4a40290e1f6c54da5328af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_RasterInfo_AssignFromAnother</definition>
+        <argsstring>(MR_RasterInfo *_this, const MR_RasterInfo *_other)</argsstring>
+        <name>MR_RasterInfo_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RasterInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="147" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="147" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1abd42eb638ee8fdd12c9d29328489fd3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_RasterInfo_dataSize</definition>
+        <argsstring>(const MR_RasterInfo *_this)</argsstring>
+        <name>MR_RasterInfo_dataSize</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the size of all values in bytes, or the largest size_t value if the size does not fit in size_t, which no data can have Generated from method <computeroutput>MR::RasterInfo::dataSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="152" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="152" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a40ecd1d5994d47db7ccd3b392bdc889b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_RasterInfo</definition>
+        <argsstring>(const MR_RasterInfo *_this, const MR_RasterInfo *_1)</argsstring>
+        <name>MR_equal_MR_RasterInfo</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RasterInfo::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="157" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="157" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ac9be74b1d760cd7e7a0fde6237fe59a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API const MR_RasterInfo * MR_Raster_Get_info</definition>
+        <argsstring>(const MR_Raster *_this)</argsstring>
+        <name>MR_Raster_Get_info</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Raster</computeroutput> named <computeroutput>info</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="163" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="163" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a1c33a307e16ab67bd44705bc593fdc23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Raster_Set_info</definition>
+        <argsstring>(MR_Raster *_this, const MR_RasterInfo *value)</argsstring>
+        <name>MR_Raster_Set_info</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Raster</computeroutput> named <computeroutput>info</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>info</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>info</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="170" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a306e7f75194a9af797b23a6f8e55825a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+        <definition>MRC_API MR_RasterInfo * MR_Raster_GetMutable_info</definition>
+        <argsstring>(MR_Raster *_this)</argsstring>
+        <name>MR_Raster_GetMutable_info</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Raster</computeroutput> named <computeroutput>info</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="176" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="176" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ad7ee4422367d406b6f7671c300489077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref> *</type>
+        <definition>MRC_API const MR_std_vector_unsigned_char * MR_Raster_Get_data</definition>
+        <argsstring>(const MR_Raster *_this)</argsstring>
+        <name>MR_Raster_Get_data</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>values of type info.type: the channels of a pixel go together, x changes first, then y (the rows go from top to bottom, unlike in Image), then z Returns a pointer to a member variable of class <computeroutput>MR::Raster</computeroutput> named <computeroutput>data</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="184" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="184" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a8cb4dec6dbc65e483130c59bd0d52831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Raster_Set_data</definition>
+        <argsstring>(MR_Raster *_this, MR_PassBy value_pass_by, MR_std_vector_unsigned_char *value)</argsstring>
+        <name>MR_Raster_Set_data</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>values of type info.type: the channels of a pixel go together, x changes first, then y (the rows go from top to bottom, unlike in Image), then z Modifies a member variable of class <computeroutput>MR::Raster</computeroutput> named <computeroutput>data</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>data</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>data</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="192" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="192" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aa9cc51698b265039286e76e919207d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref> *</type>
+        <definition>MRC_API MR_std_vector_unsigned_char * MR_Raster_GetMutable_data</definition>
+        <argsstring>(MR_Raster *_this)</argsstring>
+        <name>MR_Raster_GetMutable_data</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>values of type info.type: the channels of a pixel go together, x changes first, then y (the rows go from top to bottom, unlike in Image), then z Returns a mutable pointer to a member variable of class <computeroutput>MR::Raster</computeroutput> named <computeroutput>data</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="200" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="200" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ac7d2592a9178e544a935b3ebbb22f6bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API MR_Raster * MR_Raster_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Raster_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" kindref="member">MR_Raster_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="204" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="204" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a33c8bfcebeec62f5df1d6d91a2db2e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API MR_Raster * MR_Raster_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Raster_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRaster_8h_1a61e52a06f999ec495ae1b16ed4146405" kindref="member">MR_Raster_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRaster_8h_1aa82a2e219bf5b4490afcf14d66abce7d" kindref="member">MR_Raster_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRaster_8h_1af13b540bcb7df0890f9175a3a5bb02d3" kindref="member">MR_Raster_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="209" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="209" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a88054523ea2a03f30adae1c25066dc09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API MR_Raster * MR_Raster_ConstructFrom</definition>
+        <argsstring>(const MR_RasterInfo *info, MR_PassBy data_pass_by, MR_std_vector_unsigned_char *data)</argsstring>
+        <name>MR_Raster_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>data_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Raster</computeroutput> elementwise. Parameter <computeroutput>info</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>info</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>data</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" kindref="member">MR_Raster_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="217" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="217" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1af13b540bcb7df0890f9175a3a5bb02d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API const MR_Raster * MR_Raster_OffsetPtr</definition>
+        <argsstring>(const MR_Raster *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Raster_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="221" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="221" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aa82a2e219bf5b4490afcf14d66abce7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API MR_Raster * MR_Raster_OffsetMutablePtr</definition>
+        <argsstring>(MR_Raster *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Raster_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ab56cff30bb0abdc7e58d82fe59ee60b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API MR_Raster * MR_Raster_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Raster *_other)</argsstring>
+        <name>MR_Raster_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Raster::Raster</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" kindref="member">MR_Raster_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="230" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="230" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Raster_Destroy</definition>
+        <argsstring>(const MR_Raster *_this)</argsstring>
+        <name>MR_Raster_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="233" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a61e52a06f999ec495ae1b16ed4146405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_Raster_DestroyArray</definition>
+        <argsstring>(const MR_Raster *_this)</argsstring>
+        <name>MR_Raster_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="236" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ab543ab1ad20360bbc1d0ab8214b45ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+        <definition>MRC_API MR_Raster * MR_Raster_AssignFromAnother</definition>
+        <argsstring>(MR_Raster *_this, MR_PassBy _other_pass_by, MR_Raster *_other)</argsstring>
+        <name>MR_Raster_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Raster::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="243" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="243" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a18efee41067d84b62acfea7b870c3f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Image_std_string * MR_convertRasterToImage</definition>
+        <argsstring>(const MR_Raster *raster)</argsstring>
+        <name>MR_convertRasterToImage</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts a raster with one layer to an image (the rows are reordered from bottom to top):<itemizedlist>
+<listitem><para>the values of one channel are scaled from the range of finite values to gray colors, NaN and infinite values become black;</para>
+</listitem><listitem><para>three or more channels are RGB or RGBA colors (the channels after the fourth are ignored): integer values keep their high byte and are taken as unsigned ones, floating-point values are clamped to [0, 1], NaN becomes 0 Generated from function <computeroutput>MR::convertRasterToImage</computeroutput>. Parameter <computeroutput>raster</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Image__std__string_8h_1a546f00d8e86a2a77282047264d88e6a2" kindref="member">MR_expected_MR_Image_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="252" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="252" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a00ab6dd10ff2a032e62195887ba84f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_RasterLoadSettings_Get_progress</definition>
+        <argsstring>(const MR_RasterLoadSettings *_this)</argsstring>
+        <name>MR_RasterLoadSettings_Get_progress</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report load progress and cancel loading if user desires Returns a pointer to a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="259" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="259" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ae0e7e8b664d58a443d46a0fe83728ac5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterLoadSettings_Set_progress</definition>
+        <argsstring>(MR_RasterLoadSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_RasterLoadSettings_Set_progress</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report load progress and cancel loading if user desires Modifies a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="266" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a5942704b3c522e46c4c60273d033382b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_RasterLoadSettings_GetMutable_progress</definition>
+        <argsstring>(MR_RasterLoadSettings *_this)</argsstring>
+        <name>MR_RasterLoadSettings_GetMutable_progress</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report load progress and cancel loading if user desires Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="273" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="273" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aa5f2a63102859173de9351bc1365c8f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API MR_RasterLoadSettings * MR_RasterLoadSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RasterLoadSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" kindref="member">MR_RasterLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="277" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="277" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a4687d397e3e847a8844379db69e84909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API MR_RasterLoadSettings * MR_RasterLoadSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RasterLoadSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRaster_8h_1af437eb9765f2e19c9d8c687523ec4190" kindref="member">MR_RasterLoadSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRaster_8h_1ad55fd21947c8ee1ec2c5f7de020d3c30" kindref="member">MR_RasterLoadSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRaster_8h_1a9484063757fe59620ea03a9ed3df0128" kindref="member">MR_RasterLoadSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="282" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="282" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ae91007e29ddb326ce16ac67d86aa3cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API MR_RasterLoadSettings * MR_RasterLoadSettings_ConstructFrom</definition>
+        <argsstring>(MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_RasterLoadSettings_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::RasterLoadSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" kindref="member">MR_RasterLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="288" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="288" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a9484063757fe59620ea03a9ed3df0128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API const MR_RasterLoadSettings * MR_RasterLoadSettings_OffsetPtr</definition>
+        <argsstring>(const MR_RasterLoadSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RasterLoadSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="292" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="292" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ad55fd21947c8ee1ec2c5f7de020d3c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API MR_RasterLoadSettings * MR_RasterLoadSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_RasterLoadSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RasterLoadSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="296" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="296" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aea7bf8c616063149ef1f8020f284699e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API MR_RasterLoadSettings * MR_RasterLoadSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_RasterLoadSettings *_other)</argsstring>
+        <name>MR_RasterLoadSettings_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RasterLoadSettings::RasterLoadSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" kindref="member">MR_RasterLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="301" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="301" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterLoadSettings_Destroy</definition>
+        <argsstring>(const MR_RasterLoadSettings *_this)</argsstring>
+        <name>MR_RasterLoadSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="304" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="304" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1af437eb9765f2e19c9d8c687523ec4190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterLoadSettings_DestroyArray</definition>
+        <argsstring>(const MR_RasterLoadSettings *_this)</argsstring>
+        <name>MR_RasterLoadSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="307" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="307" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ac9d7ee2ec5ed50509df0ad5e1f42073b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+        <definition>MRC_API MR_RasterLoadSettings * MR_RasterLoadSettings_AssignFromAnother</definition>
+        <argsstring>(MR_RasterLoadSettings *_this, MR_PassBy _other_pass_by, MR_RasterLoadSettings *_other)</argsstring>
+        <name>MR_RasterLoadSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RasterLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="314" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="314" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_RasterSaveSettings_Get_progress</definition>
+        <argsstring>(const MR_RasterSaveSettings *_this)</argsstring>
+        <name>MR_RasterSaveSettings_Get_progress</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="321" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="321" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterSaveSettings_Set_progress</definition>
+        <argsstring>(MR_RasterSaveSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_RasterSaveSettings_Set_progress</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report save progress and cancel saving if user desires Modifies a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>progress</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>progress</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_RasterSaveSettings_GetMutable_progress</definition>
+        <argsstring>(MR_RasterSaveSettings *_this)</argsstring>
+        <name>MR_RasterSaveSettings_GetMutable_progress</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>progress</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="335" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="335" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API MR_RasterSaveSettings * MR_RasterSaveSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RasterSaveSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kindref="member">MR_RasterSaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="339" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="339" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API MR_RasterSaveSettings * MR_RasterSaveSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RasterSaveSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" kindref="member">MR_RasterSaveSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" kindref="member">MR_RasterSaveSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" kindref="member">MR_RasterSaveSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="344" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="344" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a013df0359918453475c2c51c75af1f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API MR_RasterSaveSettings * MR_RasterSaveSettings_ConstructFrom</definition>
+        <argsstring>(MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
+        <name>MR_RasterSaveSettings_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::RasterSaveSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>progress</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kindref="member">MR_RasterSaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="350" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="350" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API const MR_RasterSaveSettings * MR_RasterSaveSettings_OffsetPtr</definition>
+        <argsstring>(const MR_RasterSaveSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RasterSaveSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="354" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="354" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API MR_RasterSaveSettings * MR_RasterSaveSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_RasterSaveSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RasterSaveSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="358" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="358" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API MR_RasterSaveSettings * MR_RasterSaveSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_RasterSaveSettings *_other)</argsstring>
+        <name>MR_RasterSaveSettings_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RasterSaveSettings::RasterSaveSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kindref="member">MR_RasterSaveSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="363" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="363" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterSaveSettings_Destroy</definition>
+        <argsstring>(const MR_RasterSaveSettings *_this)</argsstring>
+        <name>MR_RasterSaveSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="366" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="366" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_RasterSaveSettings_DestroyArray</definition>
+        <argsstring>(const MR_RasterSaveSettings *_this)</argsstring>
+        <name>MR_RasterSaveSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="369" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="369" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+        <definition>MRC_API MR_RasterSaveSettings * MR_RasterSaveSettings_AssignFromAnother</definition>
+        <argsstring>(MR_RasterSaveSettings *_this, MR_PassBy _other_pass_by, MR_RasterSaveSettings *_other)</argsstring>
+        <name>MR_RasterSaveSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RasterSaveSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="376" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="376" declcolumn="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRScalarConvert_8h" kindref="compound">MRCMesh/MRScalarConvert.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Image_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_unsigned_char.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRRaster_8h_1ad37f021cfe06336a20f0f70540e0a920" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRRaster_8h_1ad37f021cfe06336a20f0f70540e0a920" kindref="member">MR_RasterInfo_Get_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRRaster_8h_1aede127a255c574c7dd4ed3d2ed2a6767" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1aede127a255c574c7dd4ed3d2ed2a6767" kindref="member">MR_RasterInfo_Set_dims</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRRaster_8h_1a563d333bbc835243546387a17ce3d7cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRRaster_8h_1a563d333bbc835243546387a17ce3d7cb" kindref="member">MR_RasterInfo_GetMutable_dims</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRRaster_8h_1a01369802915d53564372838efca55560" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>*<ref refid="MRRaster_8h_1a01369802915d53564372838efca55560" kindref="member">MR_RasterInfo_Get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRRaster_8h_1a2d54cced02f9a6a245148d17aef1b184" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a2d54cced02f9a6a245148d17aef1b184" kindref="member">MR_RasterInfo_Set_type</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this,<sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>value);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRRaster_8h_1a1b7f7b6a395ab3a8f679a80e0ca2dd1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>*<ref refid="MRRaster_8h_1a1b7f7b6a395ab3a8f679a80e0ca2dd1e" kindref="member">MR_RasterInfo_GetMutable_type</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRRaster_8h_1acf0eb8c509a8ae15f20f55c11828de6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRaster_8h_1acf0eb8c509a8ae15f20f55c11828de6c" kindref="member">MR_RasterInfo_Get_channels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRRaster_8h_1af857b717900b7567699f27dd3c518991" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1af857b717900b7567699f27dd3c518991" kindref="member">MR_RasterInfo_Set_channels</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRRaster_8h_1a8c0b079edd3df7d0f2c08c7f22cd493e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRaster_8h_1a8c0b079edd3df7d0f2c08c7f22cd493e" kindref="member">MR_RasterInfo_GetMutable_channels</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRRaster_8h_1a22058404b667a560bc77d1011dc05e5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1a22058404b667a560bc77d1011dc05e5c" kindref="member">MR_RasterInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRRaster_8h_1a284ab2945f9524819a7b94ada4a25016" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1a284ab2945f9524819a7b94ada4a25016" kindref="member">MR_RasterInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRRaster_8h_1a090a3abe1ce75f93b8989af67c2d520f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1a090a3abe1ce75f93b8989af67c2d520f" kindref="member">MR_RasterInfo_ConstructFrom</ref>(<ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>dims,<sp/><ref refid="MRScalarConvert_8h_1a8984c8b5d57b39c99016a5f22464da26" kindref="member">MR_ScalarType</ref><sp/>type,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>channels);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRRaster_8h_1ae2ad48fb7b1389a1ae071fad17115371" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1ae2ad48fb7b1389a1ae071fad17115371" kindref="member">MR_RasterInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="MRRaster_8h_1aea6a3342b47f678e8c194d62c06d9519" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1aea6a3342b47f678e8c194d62c06d9519" kindref="member">MR_RasterInfo_OffsetMutablePtr</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRRaster_8h_1a5fd14596462f85bb60a472a34785bc80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1a5fd14596462f85bb60a472a34785bc80" kindref="member">MR_RasterInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a0c91aee5f7133ed0234edacbbba66838" kindref="member">MR_RasterInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRRaster_8h_1aff600399762183bf8fbca40ba86887af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1aff600399762183bf8fbca40ba86887af" kindref="member">MR_RasterInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="MRRaster_8h_1a004bb95fa4a40290e1f6c54da5328af9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1a004bb95fa4a40290e1f6c54da5328af9" kindref="member">MR_RasterInfo_AssignFromAnother</ref>(<ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRRaster_8h_1abd42eb638ee8fdd12c9d29328489fd3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1abd42eb638ee8fdd12c9d29328489fd3d" kindref="member">MR_RasterInfo_dataSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRRaster_8h_1a40ecd1d5994d47db7ccd3b392bdc889b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a40ecd1d5994d47db7ccd3b392bdc889b" kindref="member">MR_equal_MR_RasterInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRRaster_8h_1ac9be74b1d760cd7e7a0fde6237fe59a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1ac9be74b1d760cd7e7a0fde6237fe59a3" kindref="member">MR_Raster_Get_info</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRRaster_8h_1a1c33a307e16ab67bd44705bc593fdc23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a1c33a307e16ab67bd44705bc593fdc23" kindref="member">MR_Raster_Set_info</ref>(<ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRRaster_8h_1a306e7f75194a9af797b23a6f8e55825a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*<ref refid="MRRaster_8h_1a306e7f75194a9af797b23a6f8e55825a" kindref="member">MR_Raster_GetMutable_info</ref>(<ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRRaster_8h_1ad7ee4422367d406b6f7671c300489077" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/>*<ref refid="MRRaster_8h_1ad7ee4422367d406b6f7671c300489077" kindref="member">MR_Raster_Get_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRRaster_8h_1a8cb4dec6dbc65e483130c59bd0d52831" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a8cb4dec6dbc65e483130c59bd0d52831" kindref="member">MR_Raster_Set_data</ref>(<ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRRaster_8h_1aa9cc51698b265039286e76e919207d57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/>*<ref refid="MRRaster_8h_1aa9cc51698b265039286e76e919207d57" kindref="member">MR_Raster_GetMutable_data</ref>(<ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="MRRaster_8h_1ac7d2592a9178e544a935b3ebbb22f6bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1ac7d2592a9178e544a935b3ebbb22f6bc" kindref="member">MR_Raster_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRRaster_8h_1a33c8bfcebeec62f5df1d6d91a2db2e29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1a33c8bfcebeec62f5df1d6d91a2db2e29" kindref="member">MR_Raster_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRRaster_8h_1a88054523ea2a03f30adae1c25066dc09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1a88054523ea2a03f30adae1c25066dc09" kindref="member">MR_Raster_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1adf1d104b1aa631432f310ac6375ea945" kindref="member">MR_RasterInfo</ref><sp/>*info,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>data_pass_by,<sp/><ref refid="MRBase64_8h_1a7f6e3e5252ba136468a252fb7a041661" kindref="member">MR_std_vector_unsigned_char</ref><sp/>*data);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRRaster_8h_1af13b540bcb7df0890f9175a3a5bb02d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1af13b540bcb7df0890f9175a3a5bb02d3" kindref="member">MR_Raster_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRRaster_8h_1aa82a2e219bf5b4490afcf14d66abce7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1aa82a2e219bf5b4490afcf14d66abce7d" kindref="member">MR_Raster_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRRaster_8h_1ab56cff30bb0abdc7e58d82fe59ee60b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1ab56cff30bb0abdc7e58d82fe59ee60b1" kindref="member">MR_Raster_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a985a875a5d360c38a9fd41e6af2397a8" kindref="member">MR_Raster_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRRaster_8h_1a61e52a06f999ec495ae1b16ed4146405" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a61e52a06f999ec495ae1b16ed4146405" kindref="member">MR_Raster_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRRaster_8h_1ab543ab1ad20360bbc1d0ab8214b45ef4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*<ref refid="MRRaster_8h_1ab543ab1ad20360bbc1d0ab8214b45ef4" kindref="member">MR_Raster_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRRaster_8h_1a18efee41067d84b62acfea7b870c3f17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRRaster_8h_1a18efee41067d84b62acfea7b870c3f17" kindref="member">MR_convertRasterToImage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*raster);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="MRRaster_8h_1a00ab6dd10ff2a032e62195887ba84f58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1a00ab6dd10ff2a032e62195887ba84f58" kindref="member">MR_RasterLoadSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="MRRaster_8h_1ae0e7e8b664d58a443d46a0fe83728ac5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1ae0e7e8b664d58a443d46a0fe83728ac5" kindref="member">MR_RasterLoadSettings_Set_progress</ref>(<ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRRaster_8h_1a5942704b3c522e46c4c60273d033382b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1a5942704b3c522e46c4c60273d033382b" kindref="member">MR_RasterLoadSettings_GetMutable_progress</ref>(<ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRRaster_8h_1aa5f2a63102859173de9351bc1365c8f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1aa5f2a63102859173de9351bc1365c8f0" kindref="member">MR_RasterLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRRaster_8h_1a4687d397e3e847a8844379db69e84909" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1a4687d397e3e847a8844379db69e84909" kindref="member">MR_RasterLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRRaster_8h_1ae91007e29ddb326ce16ac67d86aa3cbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1ae91007e29ddb326ce16ac67d86aa3cbf" kindref="member">MR_RasterLoadSettings_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRRaster_8h_1a9484063757fe59620ea03a9ed3df0128" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9484063757fe59620ea03a9ed3df0128" kindref="member">MR_RasterLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="MRRaster_8h_1ad55fd21947c8ee1ec2c5f7de020d3c30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1ad55fd21947c8ee1ec2c5f7de020d3c30" kindref="member">MR_RasterLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRRaster_8h_1aea7bf8c616063149ef1f8020f284699e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1aea7bf8c616063149ef1f8020f284699e" kindref="member">MR_RasterLoadSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a7fd9470063ec8920af0b305a74576d37" kindref="member">MR_RasterLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRRaster_8h_1af437eb9765f2e19c9d8c687523ec4190" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1af437eb9765f2e19c9d8c687523ec4190" kindref="member">MR_RasterLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRRaster_8h_1ac9d7ee2ec5ed50509df0ad5e1f42073b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1ac9d7ee2ec5ed50509df0ad5e1f42073b" kindref="member">MR_RasterLoadSettings_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" kindref="member">MR_RasterSaveSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" kindref="member">MR_RasterSaveSettings_Set_progress</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" kindref="member">MR_RasterSaveSettings_GetMutable_progress</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" kindref="member">MR_RasterSaveSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" kindref="member">MR_RasterSaveSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRRaster_8h_1a013df0359918453475c2c51c75af1f65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a013df0359918453475c2c51c75af1f65" kindref="member">MR_RasterSaveSettings_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354" refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" kindref="member">MR_RasterSaveSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" kindref="member">MR_RasterSaveSettings_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" kindref="member">MR_RasterSaveSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kindref="member">MR_RasterSaveSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" kindref="member">MR_RasterSaveSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" kindref="member">MR_RasterSaveSettings_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h"/>
+  </compounddef>
+</doxygen>

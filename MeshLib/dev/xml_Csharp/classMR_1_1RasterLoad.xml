@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RasterLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::RasterLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Raster" kindref="compound">MR.Raster</ref></type>
+        <definition>static unsafe MR.Raster MR.RasterLoad.fromTiff</definition>
+        <argsstring>(string path, MR.Const_RasterLoadSettings? settings=null)</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR.RasterLoad.fromTiff</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterLoadSettings" kindref="compound">MR.Const_RasterLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads the first image of a .tiff file as a raster with one layer: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</para>
+</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</para>
+</listitem><listitem><para>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</para>
+</listitem><listitem><para>the files compressed by the methods that libtiff does not support fail to load;</para>
+</listitem><listitem><para>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats Generated from function <computeroutput><ref refid="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" kindref="member">MR.RasterLoad.fromTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="17" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1a0d7f9a0a540662f6edbcda4c5630cbcb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RasterInfo" kindref="compound">MR.RasterInfo</ref></type>
+        <definition>static unsafe MR.RasterInfo MR.RasterLoad.infoFromTiff</definition>
+        <argsstring>(string path)</argsstring>
+        <name>infoFromTiff</name>
+        <qualifiedname>MR.RasterLoad.infoFromTiff</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>loads everything about the raster except its values from .tiff format Generated from function <computeroutput><ref refid="classMR_1_1RasterLoad_1a0d7f9a0a540662f6edbcda4c5630cbcb" kindref="member">MR.RasterLoad.infoFromTiff</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="33" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="33" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1a3404721ea149fdff48a6a04bfad3e97c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Raster" kindref="compound">MR.Raster</ref></type>
+        <definition>static unsafe MR.Raster MR.RasterLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string path, MR.Const_RasterLoadSettings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.RasterLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterLoadSettings" kindref="compound">MR.Const_RasterLoadSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads a raster from it Generated from function <computeroutput><ref refid="classMR_1_1RasterLoad_1a3404721ea149fdff48a6a04bfad3e97c" kindref="member">MR.RasterLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterLoad.cs" line="10" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterLoad.cs" bodystart="10" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1ad3a841c5d719fb952f3c0772b1946e52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RasterInfo" kindref="compound">MR.RasterInfo</ref></type>
+        <definition>static unsafe MR.RasterInfo MR.RasterLoad.infoFromAnySupportedFormat</definition>
+        <argsstring>(string path)</argsstring>
+        <name>infoFromAnySupportedFormat</name>
+        <qualifiedname>MR.RasterLoad.infoFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>detects the format from file extension and loads everything about the raster except its samples Generated from function <computeroutput><ref refid="classMR_1_1RasterLoad_1ad3a841c5d719fb952f3c0772b1946e52" kindref="member">MR.RasterLoad.infoFromAnySupportedFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterLoad.cs" line="26" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterLoad.cs" bodystart="26" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1a1eb2e6bfc8d89d1e3defa2f15903051f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRRaster_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRRaster_StdString._Underlying * MR.RasterLoad.__MR_RasterLoad_fromTiff</definition>
+        <argsstring>(byte *path, byte *path_end, MR.Const_RasterLoadSettings._Underlying *settings)</argsstring>
+        <name>__MR_RasterLoad_fromTiff</name>
+        <qualifiedname>MR.RasterLoad.__MR_RasterLoad_fromTiff</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_RasterLoadSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="48" column="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1a5699866c160798898544744d2dc4a144" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRRasterInfo_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRRasterInfo_StdString._Underlying * MR.RasterLoad.__MR_RasterLoad_infoFromTiff</definition>
+        <argsstring>(byte *path, byte *path_end)</argsstring>
+        <name>__MR_RasterLoad_infoFromTiff</name>
+        <qualifiedname>MR.RasterLoad.__MR_RasterLoad_infoFromTiff</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="51" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1af851a27a8ad266631e2aab4f7cd81017" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRRaster_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRRaster_StdString._Underlying * MR.RasterLoad.__MR_RasterLoad_fromAnySupportedFormat</definition>
+        <argsstring>(byte *path, byte *path_end, MR.Const_RasterLoadSettings._Underlying *settings)</argsstring>
+        <name>__MR_RasterLoad_fromAnySupportedFormat</name>
+        <qualifiedname>MR.RasterLoad.__MR_RasterLoad_fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>MR.Const_RasterLoadSettings._Underlying *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterLoad.cs" line="41" column="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RasterLoad_1a6d528213b653aba8c7345f097bf45653" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRRasterInfo_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRRasterInfo_StdString._Underlying * MR.RasterLoad.__MR_RasterLoad_infoFromAnySupportedFormat</definition>
+        <argsstring>(byte *path, byte *path_end)</argsstring>
+        <name>__MR_RasterLoad_infoFromAnySupportedFormat</name>
+        <qualifiedname>MR.RasterLoad.__MR_RasterLoad_infoFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>path_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRasterLoad.cs" line="44" column="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="4" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RasterLoad_1af851a27a8ad266631e2aab4f7cd81017" prot="private" virt="non-virtual"><scope>MR::RasterLoad</scope><name>__MR_RasterLoad_fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1RasterLoad_1a1eb2e6bfc8d89d1e3defa2f15903051f" prot="private" virt="non-virtual"><scope>MR::RasterLoad</scope><name>__MR_RasterLoad_fromTiff</name></member>
+      <member refid="classMR_1_1RasterLoad_1a6d528213b653aba8c7345f097bf45653" prot="private" virt="non-virtual"><scope>MR::RasterLoad</scope><name>__MR_RasterLoad_infoFromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1RasterLoad_1a5699866c160798898544744d2dc4a144" prot="private" virt="non-virtual"><scope>MR::RasterLoad</scope><name>__MR_RasterLoad_infoFromTiff</name></member>
+      <member refid="classMR_1_1RasterLoad_1a3404721ea149fdff48a6a04bfad3e97c" prot="public" virt="non-virtual"><scope>MR::RasterLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" prot="public" virt="non-virtual"><scope>MR::RasterLoad</scope><name>fromTiff</name></member>
+      <member refid="classMR_1_1RasterLoad_1ad3a841c5d719fb952f3c0772b1946e52" prot="public" virt="non-virtual"><scope>MR::RasterLoad</scope><name>infoFromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1RasterLoad_1a0d7f9a0a540662f6edbcda4c5630cbcb" prot="public" virt="non-virtual"><scope>MR::RasterLoad</scope><name>infoFromTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

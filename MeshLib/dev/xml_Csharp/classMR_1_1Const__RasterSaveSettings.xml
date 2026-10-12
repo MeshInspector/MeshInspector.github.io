@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__RasterSaveSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_RasterSaveSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RasterSaveSettings" prot="public" virt="non-virtual">MR.RasterSaveSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__RasterSaveSettings_1a576d74b88d561344757ea21ce0c11985" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_RasterSaveSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="868" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="868" bodyend="868"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a578d4af4fdfb44c82b98705724848f5e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_RasterSaveSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="855" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="855" bodyend="861"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1ae74b952efcaca8e1ccfe42f94ff2740a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_RasterSaveSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="862" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="862" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1d9dd71526dad9b58a7d2e100ceaeac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="894" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="894" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a8ebe00647b63a5a0a26712ba9ee54dbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
+        <argsstring>(MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <name>Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1RasterSaveSettings" kindref="compound">MR.RasterSaveSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="903" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="903" bodyend="908"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a96b0a8a1e20198b780c34e3fb041d549" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
+        <argsstring>(MR._ByValue_RasterSaveSettings _other)</argsstring>
+        <name>Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_RasterSaveSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RasterSaveSettings_1a2ec258a7346e0d46297d8c6cf93ffb0f" kindref="member">MR.RasterSaveSettings.RasterSaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="913" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="913" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1ed87c5dad0505cd28ae24a2f46a23b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
+        <argsstring>(Const_RasterSaveSettings _other)</argsstring>
+        <name>Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RasterSaveSettings" kindref="compound">Const_RasterSaveSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RasterSaveSettings_1a2ec258a7346e0d46297d8c6cf93ffb0f" kindref="member">MR.RasterSaveSettings.RasterSaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="923" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="923" bodyend="923"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1dede3a65b4e7f9c1b69427ca107fb99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
+        <argsstring>(RasterSaveSettings _other)</argsstring>
+        <name>Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RasterSaveSettings_1a2ec258a7346e0d46297d8c6cf93ffb0f" kindref="member">MR.RasterSaveSettings.RasterSaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="928" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="928" bodyend="928"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aa1c42ea500a4e357584aa035f5ccf850" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RasterSaveSettings.~Const_RasterSaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.~Const_RasterSaveSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="863" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="863" bodyend="863"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a989e1b47c4855a99f9b64b0d2bf1fbc4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="883" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="883" bodyend="888"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a9b4b7f61f65386d54dc9dc06d07208a3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterSaveSettings._Underlying *</type>
+        <definition>static unsafe MR.RasterSaveSettings._Underlying * MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_ConstructFrom</definition>
+        <argsstring>(MR.Misc._PassBy progress_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progress)</argsstring>
+        <name>__MR_RasterSaveSettings_ConstructFrom</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_ConstructFrom</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>progress_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="933" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aed6982013d65fbeedc738eb0bd99de37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterSaveSettings._Underlying *</type>
+        <definition>static unsafe MR.RasterSaveSettings._Underlying * MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.RasterSaveSettings._Underlying *_other)</argsstring>
+        <name>__MR_RasterSaveSettings_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.RasterSaveSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="936" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aa6228880cf2a007eef1f5b9eedcb2b6f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.RasterSaveSettings._Underlying *</type>
+        <definition>static unsafe MR.RasterSaveSettings._Underlying * MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_RasterSaveSettings_DefaultConstruct</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="939" column="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a177915d29d92b9887276bf392c0accd1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_RasterSaveSettings_Destroy</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="942" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aa2c6b1ee5a7cf2953c95580806cb2f82" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Function_Bool_From_Float._Underlying * MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_Get_progress</definition>
+        <argsstring>(MR.Const_RasterSaveSettings._Underlying *_this)</argsstring>
+        <name>__MR_RasterSaveSettings_Get_progress</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_Get_progress</qualifiedname>
+        <param>
+          <type>MR.Const_RasterSaveSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="945" column="77"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings for saving rasters in external formats Generated from class <computeroutput><ref refid="classMR_1_1RasterSaveSettings" kindref="compound">MR.RasterSaveSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_RasterSaveSettings</label>
+        <link refid="classMR_1_1Const__RasterSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.RasterSaveSettings</label>
+        <link refid="classMR_1_1RasterSaveSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_RasterSaveSettings</label>
+        <link refid="classMR_1_1Const__RasterSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="849" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="850" bodyend="946"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a9b4b7f61f65386d54dc9dc06d07208a3" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1aed6982013d65fbeedc738eb0bd99de37" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1aa6228880cf2a007eef1f5b9eedcb2b6f" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a177915d29d92b9887276bf392c0accd1" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_Destroy</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1aa2c6b1ee5a7cf2953c95580806cb2f82" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_Get_progress</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a989e1b47c4855a99f9b64b0d2bf1fbc4" prot="package" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a1d9dd71526dad9b58a7d2e100ceaeac3" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a8ebe00647b63a5a0a26712ba9ee54dbc" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a96b0a8a1e20198b780c34e3fb041d549" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a1ed87c5dad0505cd28ae24a2f46a23b6" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a1dede3a65b4e7f9c1b69427ca107fb99" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a578d4af4fdfb44c82b98705724848f5e" prot="protected" virt="virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1ae74b952efcaca8e1ccfe42f94ff2740a" prot="public" virt="virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a576d74b88d561344757ea21ce0c11985" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1aa1c42ea500a4e357584aa035f5ccf850" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>~Const_RasterSaveSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

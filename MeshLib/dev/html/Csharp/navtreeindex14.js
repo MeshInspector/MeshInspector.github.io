@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BooleanParameters.html#ad5e497e4879c97fd381f589e89690655":[9,3,0,0,0,62,5],
+"classMR_1_1BooleanParameters.html#ad9cbad0b57e02b14bfdc1531250d8366":[9,3,0,0,0,62,6],
 "classMR_1_1BooleanParameters.html#ae2205ffc85fa428c127fc66756977e1d":[9,3,0,0,0,62,9],
 "classMR_1_1BooleanPreCutResult.html":[9,3,0,0,0,63],
 "classMR_1_1BooleanPreCutResult.html#a347ec655c5fe4cc2ee051cdf2d26e515":[9,3,0,0,0,63,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1Box__Color.html#aa729ec8dd7ddd0c3bb7f183463241c54":[9,3,0,0,0,95,6],
 "classMR_1_1Box__Color.html#aab650255dd17c239a85d36abccbd6a2e":[9,3,0,0,0,95,5],
 "classMR_1_1Box__Color.html#ab717345344712b0138934af70d2003d2":[9,3,0,0,0,95,7],
-"classMR_1_1Box__Color.html#abb1482714528c17ca6796a00c226b63f":[9,3,0,0,0,95,2],
-"classMR_1_1Box__Color.html#ad84608b164e1c22768b5b90e7e300a9a":[9,3,0,0,0,95,4],
-"classMR_1_1Box__Color.html#ae53a945d902988aaa78711025c116d9b":[9,3,0,0,0,95,10]
+"classMR_1_1Box__Color.html#abb1482714528c17ca6796a00c226b63f":[9,3,0,0,0,95,2]
 };

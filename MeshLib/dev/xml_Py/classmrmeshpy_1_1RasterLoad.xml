@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RasterLoad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RasterLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1a96747cea6029d73d12fe6f58078c3960" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
+        <definition> Raster mrmeshpy.RasterLoad.fromAnySupportedFormat</definition>
+        <argsstring>(os.PathLike|str|bytes path, RasterLoadSettings settings=...)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.RasterLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and loads a raster from it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="717" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1a021b9266012771aea5cfcb4fe9941447" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
+        <definition> Raster mrmeshpy.RasterLoad.fromTiff</definition>
+        <argsstring>(os.PathLike|str|bytes path, RasterLoadSettings settings=...)</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>mrmeshpy.RasterLoad.fromTiff</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads the first image of a .tiff file as a raster with one layer:
+* gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;
+* libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels
+  of RGBA colors;
+* the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples
+  of 8 to 64 bits, otherwise loading fails;
+* the files compressed by the methods that libtiff does not support fail to load;
+* the rows keep the stored order whatever the Orientation tag says, also in the decoded formats
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="722" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1adae450f6635ad312da84e579db5c8c79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+        <definition> RasterInfo mrmeshpy.RasterLoad.infoFromAnySupportedFormat</definition>
+        <argsstring>(os.PathLike|str|bytes path)</argsstring>
+        <name>infoFromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.RasterLoad.infoFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and loads everything about the raster except its samples
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="734" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1a13800f67eb0c2ffe9086efc2ef35becd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
+        <definition> RasterInfo mrmeshpy.RasterLoad.infoFromTiff</definition>
+        <argsstring>(os.PathLike|str|bytes path)</argsstring>
+        <name>infoFromTiff</name>
+        <qualifiedname>mrmeshpy.RasterLoad.infoFromTiff</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads everything about the raster except its values from .tiff format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="739" bodyend="742"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="712" bodyend="742"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RasterLoad_1a96747cea6029d73d12fe6f58078c3960" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoad_1a021b9266012771aea5cfcb4fe9941447" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>fromTiff</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoad_1adae450f6635ad312da84e579db5c8c79" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>infoFromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoad_1a13800f67eb0c2ffe9086efc2ef35becd" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>infoFromTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

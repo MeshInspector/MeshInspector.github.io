@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1Const__ContoursDistanceMapOptions.html#aebb708f8d3bb9af2f774850567ff24fc":[9,3,0,0,0,369,12],
+"classMR_1_1Const__ContoursDistanceMapOptions.html#af0944ae9eefdd58c0052b99cd187d044":[9,3,0,0,0,369,17],
 "classMR_1_1Const__ContoursMeshAlignParams.html":[9,3,0,0,0,370],
 "classMR_1_1Const__ContoursMeshAlignParams.html#a09009b68da26673725b658e2472e500e":[9,3,0,0,0,370,10],
 "classMR_1_1Const__ContoursMeshAlignParams.html#a1666f8c16bdf1910e0d590ba0c36a45e":[9,3,0,0,0,370,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1Const__CylinderObject.html#a40ef08b304ae7fdde6e8e161466f498b":[9,3,0,0,0,388,12],
 "classMR_1_1Const__CylinderObject.html#a43fe2052219cdb616f0ef4268fb4c84e":[9,3,0,0,0,388,25],
 "classMR_1_1Const__CylinderObject.html#a4db45c3e202df0fb010b500f69fd3397":[9,3,0,0,0,388,56],
-"classMR_1_1Const__CylinderObject.html#a4e6bbd9b017786af39d3066ec2449a4b":[9,3,0,0,0,388,42],
-"classMR_1_1Const__CylinderObject.html#a4f72338cc9f30f9c8284ce58f27d94c4":[9,3,0,0,0,388,60],
-"classMR_1_1Const__CylinderObject.html#a51090692ab75dd9230fc7dbd6901c23a":[9,3,0,0,0,388,47]
+"classMR_1_1Const__CylinderObject.html#a4e6bbd9b017786af39d3066ec2449a4b":[9,3,0,0,0,388,42]
 };

@@ -142,6 +142,12 @@ var namespaceMR =
     [ "QualityControl", "namespaceMR_1_1QualityControl.html", [
       [ "inputTolerance", "namespaceMR_1_1QualityControl.html#a33943e0e66b7b658ae4c5489310a4ace", null ]
     ] ],
+    [ "RasterLoad", "namespaceMR_1_1RasterLoad.html", "namespaceMR_1_1RasterLoad" ],
+    [ "RasterSave", "namespaceMR_1_1RasterSave.html", [
+      [ "RasterSaver", "namespaceMR_1_1RasterSave.html#ad922f4de76620e64ed212b390b2e0414", null ],
+      [ "toAnySupportedFormat", "group__RasterSaveGroup.html#gabfae0555a373861a3218bc93db65a2e6", null ],
+      [ "toTiff", "group__GeneralGroup.html#ga75f16c022a45b2f8a627a948a9390653", null ]
+    ] ],
     [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", "namespaceMR_1_1RenderDimensions" ],
     [ "RenderFeatures", "namespaceMR_1_1RenderFeatures.html", "namespaceMR_1_1RenderFeatures" ],
     [ "RenderWrapObject", "namespaceMR_1_1RenderWrapObject.html", "namespaceMR_1_1RenderWrapObject" ],
@@ -764,6 +770,10 @@ var namespaceMR =
     [ "RangeProcessorSingle", "classMR_1_1RangeProcessorSingle.html", "classMR_1_1RangeProcessorSingle" ],
     [ "RangeProgress", "classMR_1_1RangeProgress.html", "classMR_1_1RangeProgress" ],
     [ "RangeSize", "structMR_1_1RangeSize.html", "structMR_1_1RangeSize" ],
+    [ "Raster", "structMR_1_1Raster.html", "structMR_1_1Raster" ],
+    [ "RasterInfo", "structMR_1_1RasterInfo.html", "structMR_1_1RasterInfo" ],
+    [ "RasterLoadSettings", "structMR_1_1RasterLoadSettings.html", "structMR_1_1RasterLoadSettings" ],
+    [ "RasterSaveSettings", "structMR_1_1RasterSaveSettings.html", "structMR_1_1RasterSaveSettings" ],
     [ "RawTiffOutput", "structMR_1_1RawTiffOutput.html", "structMR_1_1RawTiffOutput" ],
     [ "RayOrigin", "structMR_1_1RayOrigin.html", "structMR_1_1RayOrigin" ],
     [ "RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", "structMR_1_1RebuildMeshSettings" ],
@@ -1685,8 +1695,6 @@ var namespaceMR =
       [ "Float32", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204", null ],
       [ "Float64", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ad2b556d8a8f5c8ac323f51a4b82e79a0", null ],
       [ "Float32_4", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a3dced80f38319c510aa418c1dee5e142", null ],
-      [ "RGB8", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63", null ],
-      [ "RGBA8", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642", null ],
       [ "Unknown", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Count", "group__GeneralGroup.html#gga5d528348b4d27cfa92a1b565755099c8ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
@@ -2034,6 +2042,7 @@ var namespaceMR =
     [ "convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga9b27124d1aee7872d4ac97a96ef4fee2", null ],
     [ "convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga86ca2da82f81a72954e27baf0e31fbd8", null ],
     [ "convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga1038937a987d09a86802e694724e7aa7", null ],
+    [ "convertRasterToImage", "group__RasterGroup.html#gadcb09b212975aa3c7b3267ef39c306e1", null ],
     [ "convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga60c552ace8de5755edd7e5a28dd4dc6b", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
     [ "convertUnits", "group__GeneralGroup.html#gab07c2e27cb1322b5471e253ff9e52a0d", null ],

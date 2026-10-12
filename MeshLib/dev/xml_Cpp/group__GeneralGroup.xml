@@ -929,6 +929,8 @@
     <innernamespace refid="namespaceMR_1_1ImageLoad">MR::ImageLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1ImageSave">MR::ImageSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1Nesting">MR::Nesting</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterLoad">MR::RasterLoad</innernamespace>
+    <innernamespace refid="namespaceMR_1_1RasterSave">MR::RasterSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1DistanceMapSave">MR::DistanceMapSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1PlanarTriangulation">MR::PlanarTriangulation</innernamespace>
     <innernamespace refid="namespaceMR_1_1Features_1_1Primitives">MR::Features::Primitives</innernamespace>
@@ -8890,22 +8892,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a165c6379d01617e12de274a3952efa63" prot="public">
-          <name>RGB8</name>
-          <briefdescription>
-<para>8-bit red, green and blue components; the scalar value is their luma </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8ab4b279046a02077466fa26cabb00c642" prot="public">
-          <name>RGBA8</name>
-          <briefdescription>
-<para>8-bit red, green, blue and alpha components as in <ref refid="structMR_1_1Color" kindref="compound">Color</ref>; the scalar value is the luma of the color components </para>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
           <name>Unknown</name>
           <briefdescription>
@@ -8927,7 +8913,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRScalarConvert.h" line="13" column="1" bodyfile="MRMesh/MRScalarConvert.h" bodystart="14" bodyend="30"/>
+        <location file="MRMesh/MRScalarConvert.h" line="13" column="1" bodyfile="MRMesh/MRScalarConvert.h" bodystart="14" bodyend="28"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga1cacbfc4a30c305f1acb6b5c8d6b3a3a" prot="public" static="no" strong="no">
         <type></type>
@@ -35902,7 +35888,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="742" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="742" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="746" column="19" bodyfile="MRMesh/MRMeshFwd.h" bodystart="746" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac090ec24cc989c66ab1dbc182cb43c87" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
@@ -35922,7 +35908,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="810" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="810" bodyend="-1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="814" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="814" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" prot="public" static="no" mutable="no">
         <type>std::optional&lt; <ref refid="group__GeneralGroup_1ga29d14b75d26970bc256e90bf11c3f0e5" kindref="member">Edges</ref> &gt; *</type>
@@ -81550,6 +81536,84 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRIOExtras/MRPng.h" line="32" column="11" declfile="MRIOExtras/MRPng.h" declline="32" declcolumn="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Raster &gt;</type>
+        <definition>Expected&lt; Raster &gt; MR::RasterLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const RasterLoadSettings &amp;settings={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::RasterLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const RasterLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads the first image of a .tiff file as a raster with one layer:<itemizedlist>
+<listitem><para>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</para>
+</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</para>
+</listitem><listitem><para>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</para>
+</listitem><listitem><para>the files compressed by the methods that libtiff does not support fail to load;</para>
+</listitem><listitem><para>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="31" column="11" declfile="MRIOExtras/MRTiff.h" declline="31" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; RasterInfo &gt;</type>
+        <definition>Expected&lt; RasterInfo &gt; MR::RasterLoad::infoFromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
+        <name>infoFromTiff</name>
+        <qualifiedname>MR::RasterLoad::infoFromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>loads everything about the raster except its values from .tiff format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="34" column="11" declfile="MRIOExtras/MRTiff.h" declline="34" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::RasterSave::toTiff</definition>
+        <argsstring>(const Raster &amp;raster, const std::filesystem::path &amp;path, const RasterSaveSettings &amp;settings={})</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>MR::RasterSave::toTiff</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const RasterSaveSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="43" column="11" declfile="MRIOExtras/MRTiff.h" declline="43" declcolumn="11"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Image &gt;</type>
         <definition>Expected&lt; Image &gt; MR::ImageLoad::fromTiff</definition>
@@ -81561,13 +81625,13 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>loads from .tiff format </para>
         </briefdescription>
         <detaileddescription>
+<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <ref refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kindref="member">RasterLoad::fromTiff</ref> and converted by convertRasterToImage </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="23" column="11" declfile="MRIOExtras/MRTiff.h" declline="23" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="52" column="11" declfile="MRIOExtras/MRTiff.h" declline="52" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81590,7 +81654,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="31" column="11" declfile="MRIOExtras/MRTiff.h" declline="31" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="60" column="11" declfile="MRIOExtras/MRTiff.h" declline="60" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81618,7 +81682,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="39" column="11" declfile="MRIOExtras/MRTiff.h" declline="39" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="68" column="11" declfile="MRIOExtras/MRTiff.h" declline="68" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -114685,7 +114749,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="759" column="32"/>
+        <location file="MRMesh/MRMeshFwd.h" line="763" column="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cfa531260155650235a24f3d1e8dfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>class <ref refid="MRMeshFwd_8h_1a45ed33a118705bfd4aac6d294495276a" kindref="member">MRMESH_CLASS</ref></type>
@@ -114705,7 +114769,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="759" column="32" declfile="MRMesh/MRMeshFwd.h" declline="759" declcolumn="32"/>
+        <location file="MRMesh/MRMeshFwd.h" line="763" column="32" declfile="MRMesh/MRMeshFwd.h" declline="763" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2a8e1fa5c677ea23d7801ead67934dd7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -114729,7 +114793,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="790" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="790" bodyend="790"/>
+        <location file="MRMesh/MRMeshFwd.h" line="794" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="794" bodyend="794"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga86bf24d57f63afab9354505400a0e82c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -114753,7 +114817,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="794" column="22" bodyfile="MRMesh/MRMeshFwd.h" bodystart="794" bodyend="794"/>
+        <location file="MRMesh/MRMeshFwd.h" line="798" column="22" bodyfile="MRMesh/MRMeshFwd.h" bodystart="798" bodyend="798"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8bbe103235cb82270d98d373ac2da406" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -114781,7 +114845,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="798" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="798" bodyend="798"/>
+        <location file="MRMesh/MRMeshFwd.h" line="802" column="20" bodyfile="MRMesh/MRMeshFwd.h" bodystart="802" bodyend="802"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafe7f9b1ee8498444247bc2793cbe7f8c" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -114809,7 +114873,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="803" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="803" bodyend="803"/>
+        <location file="MRMesh/MRMeshFwd.h" line="807" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="807" bodyend="807"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabedf6d080f6840c8f336d5bce0c9f87a" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <templateparamlist>
@@ -114844,7 +114908,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="807" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="807" bodyend="807"/>
+        <location file="MRMesh/MRMeshFwd.h" line="811" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="811" bodyend="811"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga80e6b953fc44378e5898ba71b21f216a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -114869,7 +114933,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="817" column="1" declfile="MRMesh/MRMeshFwd.h" declline="817" declcolumn="1"/>
+        <location file="MRMesh/MRMeshFwd.h" line="821" column="1" declfile="MRMesh/MRMeshFwd.h" declline="821" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114888,7 +114952,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="836" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="836" bodyend="836"/>
+        <location file="MRMesh/MRMeshFwd.h" line="840" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="840" bodyend="840"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114910,7 +114974,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="837" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="837" bodyend="837"/>
+        <location file="MRMesh/MRMeshFwd.h" line="841" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="841" bodyend="841"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa7aee4117439f47322227fe3a7c202c0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114936,7 +115000,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="838" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="838" bodyend="838"/>
+        <location file="MRMesh/MRMeshFwd.h" line="842" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="842" bodyend="842"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf79f1e699d7f8cf7f45d6fd8208503d4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>auto</type>
@@ -114966,7 +115030,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFwd.h" line="839" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="839" bodyend="839"/>
+        <location file="MRMesh/MRMeshFwd.h" line="843" column="23" bodyfile="MRMesh/MRMeshFwd.h" bodystart="843" bodyend="843"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2a7fba3a600699de880615c69671718" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Vector3f</type>
@@ -143110,7 +143174,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRScalarConvert.h" line="33" column="10" declfile="MRMesh/MRScalarConvert.h" declline="33" declcolumn="10"/>
+        <location file="MRMesh/MRScalarConvert.h" line="31" column="10" declfile="MRMesh/MRScalarConvert.h" declline="31" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab6e8e67fbea857421ad3a3283681c636" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MinMaxd</type>
@@ -143123,13 +143187,13 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <declname>scalarType</declname>
         </param>
         <briefdescription>
+<para>returns the minimal and the maximal values of given type, or zeros for <ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType::Unknown</ref> </para>
         </briefdescription>
         <detaileddescription>
-<para>returns the minimal and the maximal values of given type (of a color component for RGB8 and RGBA8), or zeros for <ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a88183b946cc5f0e8c96b2e66e1c74a7e" kindref="member">ScalarType::Unknown</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRScalarConvert.h" line="37" column="11" declfile="MRMesh/MRScalarConvert.h" declline="37" declcolumn="11"/>
+        <location file="MRMesh/MRScalarConvert.h" line="34" column="11" declfile="MRMesh/MRScalarConvert.h" declline="34" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaced528923d8f8fed3f529de962457a9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::function&lt; float(const char *)&gt;</type>
@@ -143148,7 +143212,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>get a function to convert binary data of specified format type to a scalar value: integer and color values are mapped from given range to [0, 1], floating-point values are returned as they are <parameterlist kind="param"><parameteritem>
+<para>get a function to convert binary data of specified format type to a scalar value: integer values are mapped from given range to [0, 1], floating-point values are returned as they are <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>scalarType</parametername>
 </parameternamelist>
@@ -143161,7 +143225,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 <parametername>range</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>- (for integer and color types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) </para>
+<para>- (for integer types only) the range of possible values, e.g. getScalarTypeMinMax( scalarType ) </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -143169,7 +143233,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRScalarConvert.h" line="43" column="16" declfile="MRMesh/MRScalarConvert.h" declline="43" declcolumn="16"/>
+        <location file="MRMesh/MRScalarConvert.h" line="40" column="16" declfile="MRMesh/MRScalarConvert.h" declline="40" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae86505f58081c90fd8f92538bff1673b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -143200,9 +143264,8 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>the same luma as in convertImageToDistanceMap</para>
         </inbodydescription>
-        <location file="MRMesh/MRScalarConvert.h" line="48" column="22" bodyfile="MRMesh/MRScalarConvert.h" bodystart="48" bodyend="90"/>
+        <location file="MRMesh/MRScalarConvert.h" line="45" column="22" bodyfile="MRMesh/MRScalarConvert.h" bodystart="45" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2213acc4e6b29595dcd41c3c01895fc6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const Color &amp;</type>

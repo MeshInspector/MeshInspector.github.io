@@ -44,8 +44,163 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="10" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" bodystart="10" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="typedef" id="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" prot="public" static="no">
+        <type>struct <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref></type>
+        <definition>typedef struct MR_Raster MR_Raster</definition>
+        <argsstring></argsstring>
+        <name>MR_Raster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>regular grid of values of any type: an image if it has one layer, otherwise a volume Generated from class <computeroutput>MR::Raster</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="12" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" prot="public" static="no">
+        <type>struct <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref></type>
+        <definition>typedef struct MR_RasterLoadSettings MR_RasterLoadSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_RasterLoadSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>settings for loading rasters from external formats Generated from class <computeroutput>MR::RasterLoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="13" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" prot="public" static="no">
+        <type>struct <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref></type>
+        <definition>typedef struct MR_RasterSaveSettings MR_RasterSaveSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_RasterSaveSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>settings for saving rasters in external formats Generated from class <computeroutput>MR::RasterSaveSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="14" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" prot="public" static="no">
+        <type>struct <ref refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kindref="member">MR_expected_MR_RasterInfo_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_RasterInfo_std_string MR_expected_MR_RasterInfo_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_RasterInfo_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores either a <computeroutput>MR::RasterInfo</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="16" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" prot="public" static="no">
+        <type>struct <ref refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kindref="member">MR_expected_MR_Raster_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_Raster_std_string MR_expected_MR_Raster_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_Raster_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores either a <computeroutput>MR::Raster</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="17" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="func">
+      <memberdef kind="function" id="MRTiff_8h_1ae4661697cb83e683195e70223e1f168f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kindref="member">MR_expected_MR_Raster_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Raster_std_string * MR_RasterLoad_fromTiff</definition>
+        <argsstring>(const char *path, const char *path_end, const MR_RasterLoadSettings *settings)</argsstring>
+        <name>MR_RasterLoad_fromTiff</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads the first image of a .tiff file as a raster with one layer:<itemizedlist>
+<listitem><para>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</para>
+</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</para>
+</listitem><listitem><para>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</para>
+</listitem><listitem><para>the files compressed by the methods that libtiff does not support fail to load;</para>
+</listitem><listitem><para>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats Generated from function <computeroutput>MR::RasterLoad::fromTiff</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Raster__std__string_8h_1a610dadc5a92d224ed1017725396d1cca" kindref="member">MR_expected_MR_Raster_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="34" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="34" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTiff_8h_1ad565ad3cf5977c40bfb54c28dc5fe29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kindref="member">MR_expected_MR_RasterInfo_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_RasterInfo_std_string * MR_RasterLoad_infoFromTiff</definition>
+        <argsstring>(const char *path, const char *path_end)</argsstring>
+        <name>MR_RasterLoad_infoFromTiff</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads everything about the raster except its values from .tiff format Generated from function <computeroutput>MR::RasterLoad::infoFromTiff</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__RasterInfo__std__string_8h_1ad041a40ab819bf024e8335e6bb898bcc" kindref="member">MR_expected_MR_RasterInfo_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="40" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="40" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTiff_8h_1a695f31c8df26abc5e3cfb42cf56e46fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_RasterSave_toTiff</definition>
+        <argsstring>(const MR_Raster *raster, const char *path, const char *path_end, const MR_RasterSaveSettings *settings)</argsstring>
+        <name>MR_RasterSave_toTiff</name>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref> *</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 Generated from function <computeroutput>MR::RasterSave::toTiff</computeroutput>. Parameter <computeroutput>raster</computeroutput> can not be null. It is a single object. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="50" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="50" declcolumn="37"/>
+      </memberdef>
       <memberdef kind="function" id="MRTiff_8h_1aae858b7352c4eef0ccd73cb22bc12883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Image_std_string * MR_ImageLoad_fromTiff</definition>
@@ -62,11 +217,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads from .tiff format Generated from function <computeroutput>MR::ImageLoad::fromTiff</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Image__std__string_8h_1a546f00d8e86a2a77282047264d88e6a2" kindref="member">MR_expected_MR_Image_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by RasterLoad::fromTiff and converted by convertRasterToImage Generated from function <computeroutput>MR::ImageLoad::fromTiff</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Image__std__string_8h_1a546f00d8e86a2a77282047264d88e6a2" kindref="member">MR_expected_MR_Image_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="20" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="20" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="57" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="57" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRTiff_8h_1a653199b30fbb39e729763433a8153528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -92,7 +247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="27" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="27" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="64" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="64" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRTiff_8h_1a5112184b5e33a3b163c1eeedc884b8d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -122,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="36" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="36" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" line="73" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h" declline="73" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -141,19 +296,30 @@
 <codeline lineno="9" refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10" refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMapParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRImage.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Image_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRTiff_8h_1aae858b7352c4eef0ccd73cb22bc12883" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRTiff_8h_1aae858b7352c4eef0ccd73cb22bc12883" kindref="member">MR_ImageLoad_fromTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRTiff_8h_1a653199b30fbb39e729763433a8153528" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTiff_8h_1a653199b30fbb39e729763433a8153528" kindref="member">MR_ImageSave_toTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRTiff_8h_1a5112184b5e33a3b163c1eeedc884b8d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTiff_8h_1a5112184b5e33a3b163c1eeedc884b8d9" kindref="member">MR_DistanceMapSave_toTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*dmap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="12" refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRaster.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRaster.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRaster.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Image_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kindref="member">MR_expected_MR_RasterInfo_std_string</ref><sp/><ref refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kindref="member">MR_expected_MR_RasterInfo_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_RasterInfo_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kindref="member">MR_expected_MR_Raster_std_string</ref><sp/><ref refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kindref="member">MR_expected_MR_Raster_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Raster_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRTiff_8h_1ae4661697cb83e683195e70223e1f168f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kindref="member">MR_expected_MR_Raster_std_string</ref><sp/>*<ref refid="MRTiff_8h_1ae4661697cb83e683195e70223e1f168f" kindref="member">MR_RasterLoad_fromTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRTiff_8h_1ad565ad3cf5977c40bfb54c28dc5fe29b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kindref="member">MR_expected_MR_RasterInfo_std_string</ref><sp/>*<ref refid="MRTiff_8h_1ad565ad3cf5977c40bfb54c28dc5fe29b" kindref="member">MR_RasterLoad_infoFromTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRTiff_8h_1a695f31c8df26abc5e3cfb42cf56e46fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTiff_8h_1a695f31c8df26abc5e3cfb42cf56e46fb" kindref="member">MR_RasterSave_toTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a0a70009e8aa37a2f4a0df7c6aba89eb3" kindref="member">MR_Raster</ref><sp/>*raster,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRTiff_8h_1aae858b7352c4eef0ccd73cb22bc12883" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRJpeg_8h_1a4b3fdef77440565efc1c3cf3be1904f6" kindref="member">MR_expected_MR_Image_std_string</ref><sp/>*<ref refid="MRTiff_8h_1aae858b7352c4eef0ccd73cb22bc12883" kindref="member">MR_ImageLoad_fromTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRTiff_8h_1a653199b30fbb39e729763433a8153528" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTiff_8h_1a653199b30fbb39e729763433a8153528" kindref="member">MR_ImageSave_toTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRTiff_8h_1a5112184b5e33a3b163c1eeedc884b8d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRTiff_8h_1a5112184b5e33a3b163c1eeedc884b8d9" kindref="member">MR_DistanceMapSave_toTiff</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*dmap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRTiff.h"/>
   </compounddef>
