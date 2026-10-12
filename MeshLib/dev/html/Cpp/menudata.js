@@ -192,7 +192,8 @@ var menudata={children:[
 {text:"t",url:"namespacemembers_type_t.html#index_t"},
 {text:"u",url:"namespacemembers_type_u.html#index_u"},
 {text:"v",url:"namespacemembers_type_v.html#index_v"},
-{text:"w",url:"namespacemembers_type_w.html#index_w"}]},
+{text:"w",url:"namespacemembers_type_w.html#index_w"},
+{text:"z",url:"namespacemembers_type_z.html#index_z"}]},
 {text:"Enumerations",url:"namespacemembers_enum.html",children:[
 {text:"a",url:"namespacemembers_enum.html#index_a"},
 {text:"b",url:"namespacemembers_enum.html#index_b"},

@@ -1,5 +1,8 @@
 var NAVTREEINDEX147 =
 {
+"std__function__bool__from__MR__VertId_8h.html#a2d81312c490277a4cf02488f1ef24e71":[9,2,2,0,0,0,0,2,131,13],
+"std__function__bool__from__MR__VertId_8h.html#a41f955209c60c9ef686d2c2acee88d08":[9,2,2,0,0,0,0,2,131,2],
+"std__function__bool__from__MR__VertId_8h.html#a517833b4992b311bc5247a52ac05d595":[9,2,2,0,0,0,0,2,131,10],
 "std__function__bool__from__MR__VertId_8h.html#a61c39416cfd831b264f4f7cc5453cadd":[9,2,2,0,0,0,0,2,131,1],
 "std__function__bool__from__MR__VertId_8h.html#a67dfb870e55fc45e964cd38eb09e4d5b":[9,2,2,0,0,0,0,2,131,4],
 "std__function__bool__from__MR__VertId_8h.html#a7c2afc43f2ed552c06688f728d8197c1":[9,2,2,0,0,0,0,2,131,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX147 =
 "std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#aaa3f2fd2a0fb06e87be5060ff555910a":[9,2,2,0,0,0,0,2,136,14],
 "std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#ab0a352a792eceb5ba9fd6909ce6f6d3f":[9,2,2,0,0,0,0,2,136,10],
 "std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#abed926c0a761971d67a23eda4f94d977":[9,2,2,0,0,0,0,2,136,6],
-"std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#ac2029668d6fa8a0d6f419428a5649461":[9,2,2,0,0,0,0,2,136,9],
-"std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#ad14bb2f72305b8bdb15855ea6a630454":[9,2,2,0,0,0,0,2,136,13],
-"std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#af2b6a7311494f1629e0885507c579da9":[9,2,2,0,0,0,0,2,136,7],
-"std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h_source.html":[9,2,2,0,0,0,0,2,136]
+"std__function__double__from__const__MR__FaceBitSet__ref__const__MR__FixUndercuts__FindParams__ref_8h.html#ac2029668d6fa8a0d6f419428a5649461":[9,2,2,0,0,0,0,2,136,9]
 };

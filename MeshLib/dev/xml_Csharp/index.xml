@@ -53719,6 +53719,8 @@
     <member refid="classMR_1a29865cf1a02db2d808230eb20fbbf00b" kind="function"><name>shrinkVoxelsMask</name></member>
     <member refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" kind="function"><name>decompressZip</name></member>
     <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" kind="function"><name>decompressZip</name></member>
+    <member refid="classMR_1a10587c56d6b65e77d83428bc51732f0c" kind="function"><name>decompressZip</name></member>
+    <member refid="classMR_1a8ace89ce15419645912754d49ad1dc3b" kind="function"><name>decompressZip</name></member>
     <member refid="classMR_1a28f7e08543f680496abdc30531896dfb" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1a01f22dbeb48be9ff66104bb658c30d01" kind="function"><name>compressZip</name></member>
     <member refid="classMR_1ac2656817676b706754685c099497a5d1" kind="function"><name>zlibCompressStream</name></member>
@@ -55563,8 +55565,10 @@
     <member refid="classMR_1a2dc2c8e066eae41af08fdbd3e45ee30b" kind="function"><name>__MR_shrinkVoxelsMask</name></member>
     <member refid="classMR_1af7de49b38c4f9d14236be0f75744515f" kind="function"><name>__MR_compressZip_3</name></member>
     <member refid="classMR_1ae9e38f13857632c496fe6ed84efadcc5" kind="function"><name>__MR_compressZip_5</name></member>
-    <member refid="classMR_1a8bec97364cb30813999b65c88edfe072" kind="function"><name>__MR_decompressZip_std_filesystem_path</name></member>
-    <member refid="classMR_1a5a9ce7b4db12c6bc6cc9737564ebfc4b" kind="function"><name>__MR_decompressZip_std_istream</name></member>
+    <member refid="classMR_1ae06dae244477c7d2bf4d3365ce20800e" kind="function"><name>__MR_decompressZip_const_std_filesystem_path_ref_std_filesystem_path</name></member>
+    <member refid="classMR_1a70822c173adbfcaaac72709af9dd5738" kind="function"><name>__MR_decompressZip_const_std_filesystem_path_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</name></member>
+    <member refid="classMR_1ac0a64e22b7db0bac066225d3ef8d033e" kind="function"><name>__MR_decompressZip_std_istream_ref_std_filesystem_path</name></member>
+    <member refid="classMR_1a42db2dc01584fd8cf6d1929229202518" kind="function"><name>__MR_decompressZip_std_istream_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</name></member>
     <member refid="classMR_1a34b13f3b3572f483b0d77eeb1565e1d6" kind="function"><name>__MR_zlibCompressStream_MR_ZlibCompressParams</name></member>
     <member refid="classMR_1a07075e0076654488ce201cab92b6f5c7" kind="function"><name>__MR_zlibCompressStream_int</name></member>
     <member refid="classMR_1ab133acecd728f27c08ea895f1019ddd3" kind="function"><name>__MR_zlibDecompressStream_2</name></member>

@@ -12377,6 +12377,10 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a076ad8dee2fa3cbb7786f70506666749"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file into given folder  <br /></td></tr>
 <tr class="memitem:a1e7386f7bd98058cc59ea61cdfa681f2" id="r_a1e7386f7bd98058cc59ea61cdfa681f2"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e7386f7bd98058cc59ea61cdfa681f2">decompressZip</a> (MR.Std.Istream zipStream, string targetFolder, byte? password=null)</td></tr>
 <tr class="memdesc:a1e7386f7bd98058cc59ea61cdfa681f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) into given folder  <br /></td></tr>
+<tr class="memitem:a10587c56d6b65e77d83428bc51732f0c" id="r_a10587c56d6b65e77d83428bc51732f0c"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10587c56d6b65e77d83428bc51732f0c">decompressZip</a> (string zipFile, MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef callback, byte? password=null)</td></tr>
+<tr class="memdesc:a10587c56d6b65e77d83428bc51732f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file and passes every file from it to the callback without saving anything on disk; folder entries are skipped  <br /></td></tr>
+<tr class="memitem:a8ace89ce15419645912754d49ad1dc3b" id="r_a8ace89ce15419645912754d49ad1dc3b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ace89ce15419645912754d49ad1dc3b">decompressZip</a> (MR.Std.Istream zipStream, MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef callback, byte? password=null)</td></tr>
+<tr class="memdesc:a8ace89ce15419645912754d49ad1dc3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) and passes every file from it to the callback without saving anything on disk; folder entries are skipped  <br /></td></tr>
 <tr class="memitem:a28f7e08543f680496abdc30531896dfb" id="r_a28f7e08543f680496abdc30531896dfb"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28f7e08543f680496abdc30531896dfb">compressZip</a> (string zipFile, string sourceFolder, <a class="el" href="classMR_1_1Const__CompressZipSettings.html">MR.Const_CompressZipSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:a28f7e08543f680496abdc30531896dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file Generated from function <span class="tt"><a class="el" href="#a28f7e08543f680496abdc30531896dfb" title="compresses given folder in given zip-file Generated from function MR.compressZip. Parameter settings ...">MR.compressZip</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a01f22dbeb48be9ff66104bb658c30d01" id="r_a01f22dbeb48be9ff66104bb658c30d01"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01f22dbeb48be9ff66104bb658c30d01">compressZip</a> (string zipFile, string sourceFolder, MR.Std.Const_Vector_StdFilesystemPath excludeFiles, byte? password=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
@@ -30629,8 +30633,50 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 
 </div>
 </div>
+<a id="a8ace89ce15419645912754d49ad1dc3b" name="a8ace89ce15419645912754d49ad1dc3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ace89ce15419645912754d49ad1dc3b">&#9670;&#160;</a></span>decompressZip() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.decompressZip </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>zipStream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte?</td>          <td class="paramname"><span class="paramname"><em>password</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>decompresses given binary stream (containing the data of a zip file only) and passes every file from it to the callback without saving anything on disk; folder entries are skipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>if password is given then it will be used to decipher encrypted archive Generated from function <span class="tt"><a class="el" href="#a076ad8dee2fa3cbb7786f70506666749" title="decompresses given zip-file into given folder">MR.decompressZip</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a1e7386f7bd98058cc59ea61cdfa681f2" name="a1e7386f7bd98058cc59ea61cdfa681f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e7386f7bd98058cc59ea61cdfa681f2">&#9670;&#160;</a></span>decompressZip() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7386f7bd98058cc59ea61cdfa681f2">&#9670;&#160;</a></span>decompressZip() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -30671,8 +30717,50 @@ it might be useful to subdivide mesh before cut, to avoid issues related to lone
 
 </div>
 </div>
+<a id="a10587c56d6b65e77d83428bc51732f0c" name="a10587c56d6b65e77d83428bc51732f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10587c56d6b65e77d83428bc51732f0c">&#9670;&#160;</a></span>decompressZip() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.decompressZip </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>zipFile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte?</td>          <td class="paramname"><span class="paramname"><em>password</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>decompresses given zip-file and passes every file from it to the callback without saving anything on disk; folder entries are skipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>if password is given then it will be used to decipher encrypted archive Generated from function <span class="tt"><a class="el" href="#a076ad8dee2fa3cbb7786f70506666749" title="decompresses given zip-file into given folder">MR.decompressZip</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a076ad8dee2fa3cbb7786f70506666749" name="a076ad8dee2fa3cbb7786f70506666749"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076ad8dee2fa3cbb7786f70506666749">&#9670;&#160;</a></span>decompressZip() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a076ad8dee2fa3cbb7786f70506666749">&#9670;&#160;</a></span>decompressZip() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

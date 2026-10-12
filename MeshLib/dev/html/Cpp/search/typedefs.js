@@ -330,6 +330,7 @@ var searchData=
   ['affinexf3orplaceholder_4',['AffineXf3OrPlaceholder',['../group__GeneralGroup.html#gae2856f9003f11adc4d85d9befcb2f442',1,'MR']]],
   ['allowcallback_5',['AllowCallBack',['../group__GeneralGroup.html#gadffaab931d52fa647870ad0274b3166f',1,'MR::PickPointManager']]],
   ['allvisualizeproperties_6',['AllVisualizeProperties',['../group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f',1,'MR']]],
+  ['zipfilecallback_0',['ZipFileCallback',['../group__SerializerGroup.html#ga2b394d3aa0c69081d4bcb11804d390c0',1,'MR']]],
   ['launchparams_0',['LaunchParams',['../group__GeneralGroup.html#ga18c86b40dc97e73d26be6d5f21f65093',1,'MR::Viewer']]],
   ['leafbitset_1',['LeafBitSet',['../group__GeneralGroup.html#gaa68c6e8f36c8a52617b624e91f11568d',1,'MR::AABBTreeBase']]],
   ['leafbmap_2',['LeafBMap',['../group__GeneralGroup.html#ga6fd4a54abb1c4fe946e503bcb14d15c4',1,'MR::AABBTreeBase']]],

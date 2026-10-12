@@ -51610,6 +51610,82 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="370" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="370" bodyend="380"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a10587c56d6b65e77d83428bc51732f0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.decompressZip</definition>
+        <argsstring>(string zipFile, MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef callback, byte? password=null)</argsstring>
+        <name>decompressZip</name>
+        <qualifiedname>MR.decompressZip</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>zipFile</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>byte?</type>
+          <declname>password</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>decompresses given zip-file and passes every file from it to the callback without saving anything on disk; folder entries are skipped </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if password is given then it will be used to decipher encrypted archive Generated from function <computeroutput><ref refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" kindref="member">MR.decompressZip</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="388" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="388" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a8ace89ce15419645912754d49ad1dc3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.decompressZip</definition>
+        <argsstring>(MR.Std.Istream zipStream, MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef callback, byte? password=null)</argsstring>
+        <name>decompressZip</name>
+        <qualifiedname>MR.decompressZip</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>zipStream</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>byte?</type>
+          <declname>password</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>decompresses given binary stream (containing the data of a zip file only) and passes every file from it to the callback without saving anything on disk; folder entries are skipped </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if password is given then it will be used to decipher encrypted archive Generated from function <computeroutput><ref refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" kindref="member">MR.decompressZip</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="406" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="406" bodyend="412"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a28f7e08543f680496abdc30531896dfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.compressZip</definition>
@@ -51636,7 +51712,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="387" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="387" bodyend="400"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="419" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="419" bodyend="432"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a01f22dbeb48be9ff66104bb658c30d01" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -51699,7 +51775,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="411" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="411" bodyend="425"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="443" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" bodystart="443" bodyend="457"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac2656817676b706754685c099497a5d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -96144,7 +96220,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="430" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="462" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae9e38f13857632c496fe6ed84efadcc5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
@@ -96190,14 +96266,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="433" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="465" column="63"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a8bec97364cb30813999b65c88edfe072" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ae06dae244477c7d2bf4d3365ce20800e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_decompressZip_std_filesystem_path</definition>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_decompressZip_const_std_filesystem_path_ref_std_filesystem_path</definition>
         <argsstring>(byte *zipFile, byte *zipFile_end, byte *targetFolder, byte *targetFolder_end, byte *password)</argsstring>
-        <name>__MR_decompressZip_std_filesystem_path</name>
-        <qualifiedname>MR.__MR_decompressZip_std_filesystem_path</qualifiedname>
+        <name>__MR_decompressZip_const_std_filesystem_path_ref_std_filesystem_path</name>
+        <qualifiedname>MR.__MR_decompressZip_const_std_filesystem_path_ref_std_filesystem_path</qualifiedname>
         <param>
           <type>byte *</type>
           <declname>zipFile</declname>
@@ -96224,14 +96300,44 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="436" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="468" column="63"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a5a9ce7b4db12c6bc6cc9737564ebfc4b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a70822c173adbfcaaac72709af9dd5738" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_decompressZip_std_istream</definition>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_decompressZip_const_std_filesystem_path_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</definition>
+        <argsstring>(byte *zipFile, byte *zipFile_end, MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef._Underlying *callback, byte *password)</argsstring>
+        <name>__MR_decompressZip_const_std_filesystem_path_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</name>
+        <qualifiedname>MR.__MR_decompressZip_const_std_filesystem_path_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</qualifiedname>
+        <param>
+          <type>byte *</type>
+          <declname>zipFile</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>zipFile_end</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef._Underlying *</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="471" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ac0a64e22b7db0bac066225d3ef8d033e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_decompressZip_std_istream_ref_std_filesystem_path</definition>
         <argsstring>(MR.Std.Istream._Underlying *zipStream, byte *targetFolder, byte *targetFolder_end, byte *password)</argsstring>
-        <name>__MR_decompressZip_std_istream</name>
-        <qualifiedname>MR.__MR_decompressZip_std_istream</qualifiedname>
+        <name>__MR_decompressZip_std_istream_ref_std_filesystem_path</name>
+        <qualifiedname>MR.__MR_decompressZip_std_istream_ref_std_filesystem_path</qualifiedname>
         <param>
           <type>MR.Std.Istream._Underlying *</type>
           <declname>zipStream</declname>
@@ -96254,7 +96360,33 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="439" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="474" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a42db2dc01584fd8cf6d1929229202518" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_decompressZip_std_istream_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</definition>
+        <argsstring>(MR.Std.Istream._Underlying *zipStream, MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef._Underlying *callback, byte *password)</argsstring>
+        <name>__MR_decompressZip_std_istream_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</name>
+        <qualifiedname>MR.__MR_decompressZip_std_istream_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</qualifiedname>
+        <param>
+          <type>MR.Std.Istream._Underlying *</type>
+          <declname>zipStream</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_ExpectedVoidStdString_From_ConstStdStringRef_StdVectorCharRvalueRef._Underlying *</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZip.cs" line="477" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a34b13f3b3572f483b0d77eeb1565e1d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
@@ -99987,8 +100119,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a967819f7a5bf4112c838ff78848abc66" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decimatePolyline_MR_Polyline2</name></member>
       <member refid="classMR_1ac1d53db31c98bd4f80229dfbec308f5c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decimatePolyline_MR_Polyline3</name></member>
       <member refid="classMR_1ab32671d05f78e42631c7af140fe27994" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decode64</name></member>
-      <member refid="classMR_1a8bec97364cb30813999b65c88edfe072" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_std_filesystem_path</name></member>
-      <member refid="classMR_1a5a9ce7b4db12c6bc6cc9737564ebfc4b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_std_istream</name></member>
+      <member refid="classMR_1ae06dae244477c7d2bf4d3365ce20800e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_const_std_filesystem_path_ref_std_filesystem_path</name></member>
+      <member refid="classMR_1a70822c173adbfcaaac72709af9dd5738" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_const_std_filesystem_path_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</name></member>
+      <member refid="classMR_1ac0a64e22b7db0bac066225d3ef8d033e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_std_istream_ref_std_filesystem_path</name></member>
+      <member refid="classMR_1a42db2dc01584fd8cf6d1929229202518" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_decompressZip_std_istream_ref_std_function_expected_void_std_string_func_from_const_std_string_ref_std_vector_char_rvalue_ref</name></member>
       <member refid="classMR_1a166950a6e014807e77de1275c7536412" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delaunayTriangulationXY_const_MR_PointCloud_ref</name></member>
       <member refid="classMR_1a51eb0801e1046192b0515156d89af326" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delaunayTriangulationXY_MR_PointCloud_rvalue_ref</name></member>
       <member refid="classMR_1a82591e1d30f66c1cfe68ddb1e224392b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_delaunayTriangulationXY_std_vector_MR_Vector3f</name></member>
@@ -101844,6 +101978,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac37088ef3b1cf713abdc57959919e573" prot="public" virt="non-virtual"><scope>MR</scope><name>decode64</name></member>
       <member refid="classMR_1a076ad8dee2fa3cbb7786f70506666749" prot="public" virt="non-virtual"><scope>MR</scope><name>decompressZip</name></member>
       <member refid="classMR_1a1e7386f7bd98058cc59ea61cdfa681f2" prot="public" virt="non-virtual"><scope>MR</scope><name>decompressZip</name></member>
+      <member refid="classMR_1a10587c56d6b65e77d83428bc51732f0c" prot="public" virt="non-virtual"><scope>MR</scope><name>decompressZip</name></member>
+      <member refid="classMR_1a8ace89ce15419645912754d49ad1dc3b" prot="public" virt="non-virtual"><scope>MR</scope><name>decompressZip</name></member>
       <member refid="classMR_1a7a2fd6c9db8b83882407c366c3776ec7" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
       <member refid="classMR_1a0e6541b14a9dac3653b66def6cd8fe80" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>
       <member refid="classMR_1a630013d66dd6ec05562c1b7a16f274fe" prot="public" virt="non-virtual"><scope>MR</scope><name>delaunayTriangulationXY</name></member>

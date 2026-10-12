@@ -1278,6 +1278,7 @@ var namespaceMR =
     [ "WebResponseCallback", "group__GeneralGroup.html#gaa81b46bc5e733f50fb93fe00f095b2f8", null ],
     [ "WholeEdgeHashMap", "group__GeneralGroup.html#ga7a097c2851c9c54eef96a938f84750a4", null ],
     [ "WholeEdgeMapOrHashMap", "group__GeneralGroup.html#ga97913e3bb3380204133f3b371cc4b6de", null ],
+    [ "ZipFileCallback", "group__SerializerGroup.html#ga2b394d3aa0c69081d4bcb11804d390c0", null ],
     [ "AlignType", "group__GeneralGroup.html#ga78218d9e8bdad31c92f563f91f5d470a", [
       [ "Left", "group__GeneralGroup.html#gga78218d9e8bdad31c92f563f91f5d470aaf275ae8072936015841ec53b58693aaf", null ],
       [ "Center", "group__GeneralGroup.html#gga78218d9e8bdad31c92f563f91f5d470aa5b265d7896353384ff9b6e3c69467563", null ],
@@ -2086,7 +2087,9 @@ var namespaceMR =
     [ "decode64", "group__Base64Group.html#gafaafdc8ec7862a4f44bf4f68e525d9db", null ],
     [ "decomposeMatrix3", "group__GeneralGroup.html#ga227c386f62eafef4624dfa5aad12289a", null ],
     [ "decompressZip", "group__SerializerGroup.html#ga4a175d8a8e417663622148510dd390ba", null ],
+    [ "decompressZip", "group__SerializerGroup.html#ga6d60fc3db9ca48db4715864be5b1e23f", null ],
     [ "decompressZip", "group__SerializerGroup.html#gaeb9ec7f1149bdc406b6d901c2bc1986f", null ],
+    [ "decompressZip", "group__SerializerGroup.html#ga591d76b8e857091a46184d4903e87598", null ],
     [ "decorateExpected", "group__GeneralGroup.html#ga5fcb58debd182644f22e1ea6eac867b6", null ],
     [ "decorateExpected", "group__GeneralGroup.html#gabf106ad4f6e3e81079b7698a30f31e20", null ],
     [ "decorateExpected", "group__GeneralGroup.html#gaa60c1177452c69cf5b8cdab61296d1ce", null ],

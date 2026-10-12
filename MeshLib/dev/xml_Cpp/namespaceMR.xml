@@ -1908,6 +1908,7 @@
       <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
       <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
       <member refid="group__VisualObjectGroup_1ga1f6aeed936aa967b17cba0997d30ff7f" kind="typedef"><name>AllVisualizeProperties</name></member>
+      <member refid="group__SerializerGroup_1ga2b394d3aa0c69081d4bcb11804d390c0" kind="typedef"><name>ZipFileCallback</name></member>
       <member refid="group__GeneralGroup_1ga200de30e6095463279bfb030e610864b" kind="typedef"><name>Time</name></member>
       <member refid="group__GeneralGroup_1gaf32258fa43e72bfbd6c42df4283b25db" kind="typedef"><name>DisabledWarnings</name></member>
       <member refid="group__GeneralGroup_1ga23cad89260f563924fc2715e193959c5" kind="typedef"><name>FilesLoadedCallback</name></member>
@@ -3512,6 +3513,8 @@
       <member refid="group__VolumeIndexerGroup_1ga051634fee494f975b01af37644de2b2a" kind="function"><name>shrinkVoxelsMask</name></member>
       <member refid="group__SerializerGroup_1ga4a175d8a8e417663622148510dd390ba" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1gaeb9ec7f1149bdc406b6d901c2bc1986f" kind="function"><name>decompressZip</name></member>
+      <member refid="group__SerializerGroup_1ga6d60fc3db9ca48db4715864be5b1e23f" kind="function"><name>decompressZip</name></member>
+      <member refid="group__SerializerGroup_1ga591d76b8e857091a46184d4903e87598" kind="function"><name>decompressZip</name></member>
       <member refid="group__SerializerGroup_1gaaeb1d5f0f783381f2285fd4d7fbd1c6b" kind="function"><name>compressZip</name></member>
       <member refid="group__SerializerGroup_1ga4466031d05f4eb56868dc88105bc5248" kind="function"><name>compressZip</name></member>
       <member refid="group__GeneralGroup_1gab5809f4005176091dab5888398265a1e" kind="function"><name>zlibCompressStream</name></member>

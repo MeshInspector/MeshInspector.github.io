@@ -6,10 +6,13 @@ var group__SerializerGroup =
       [ "excludeFiles", "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d", null ],
       [ "password", "structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d", null ]
     ] ],
+    [ "MR::ZipFileCallback", "group__SerializerGroup.html#ga2b394d3aa0c69081d4bcb11804d390c0", null ],
     [ "MR::compressZip", "group__SerializerGroup.html#gaaeb1d5f0f783381f2285fd4d7fbd1c6b", null ],
     [ "MR::compressZip", "group__SerializerGroup.html#ga4466031d05f4eb56868dc88105bc5248", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#ga4a175d8a8e417663622148510dd390ba", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga6d60fc3db9ca48db4715864be5b1e23f", null ],
     [ "MR::decompressZip", "group__SerializerGroup.html#gaeb9ec7f1149bdc406b6d901c2bc1986f", null ],
+    [ "MR::decompressZip", "group__SerializerGroup.html#ga591d76b8e857091a46184d4903e87598", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga0976e55e1f829c8d93c9fa0b7385b554", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#ga9e46a04df527f41269ef366a4fcffce2", null ],
     [ "MR::deserializeFromJson", "group__SerializerGroup.html#gae512f586c88dd70e81f31e416bef9d77", null ],

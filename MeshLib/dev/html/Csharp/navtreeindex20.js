@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Chunk.html#aaf7a7ef75c29cf295d2c0c28b6ae38d5":[9,3,0,0,0,203,4],
+"classMR_1_1Chunk.html#ae8c6aaa18d8abb743711403fc2f95fae":[9,3,0,0,0,203,6],
 "classMR_1_1ChunkIterator.html":[9,3,0,0,0,204],
 "classMR_1_1ChunkIterator.html#a09b88432d8c951555b556c60d6773fbc":[9,3,0,0,0,204,2],
 "classMR_1_1ChunkIterator.html#a0e78dcb7eeb8852cc2e209e795484080":[9,3,0,0,0,204,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1Cone3ApproximationParams.html#a7872d2972441854c7af23be6132187f7":[9,3,0,0,0,220,0],
 "classMR_1_1Cone3ApproximationParams.html#a97852b30167a4245b2ec825da1e41ee1":[9,3,0,0,0,220,1],
 "classMR_1_1Cone3ApproximationParams.html#ab1da9e6ab2a1664c5e0b140ab65cc5b5":[9,3,0,0,0,220,3],
-"classMR_1_1Cone3ApproximationParams.html#ab56e98e327e3486c270e36470165ad78":[9,3,0,0,0,220,5],
-"classMR_1_1Cone3ApproximationParams.html#af2785e781acf07380a8a25ea345c19b2":[9,3,0,0,0,220,7],
-"classMR_1_1Cone3d.html":[9,3,0,0,0,221]
+"classMR_1_1Cone3ApproximationParams.html#ab56e98e327e3486c270e36470165ad78":[9,3,0,0,0,220,5]
 };

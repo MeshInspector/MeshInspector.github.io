@@ -132,6 +132,7 @@ $(function(){initNavTree('group__SerializerGroup.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Serializer <div class="ingroups"><a class="el" href="group__IOGroup.html">Input/Output</a></div></div></div>
 </div><!--header-->
@@ -140,6 +141,10 @@ $(function(){initNavTree('group__SerializerGroup.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ACompressZipSettings" id="r_MR_3A_3ACompressZipSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CompressZipSettings.html">MR::CompressZipSettings</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga2b394d3aa0c69081d4bcb11804d390c0" id="r_ga2b394d3aa0c69081d4bcb11804d390c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b394d3aa0c69081d4bcb11804d390c0">MR::ZipFileCallback</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const std::string&amp; path, std::vector&lt;char&gt;&amp;&amp; data )&gt;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -203,12 +208,34 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga4a175d8a8e417663622148510dd390ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file into given folder  <br /></td></tr>
 <tr class="memitem:gaeb9ec7f1149bdc406b6d901c2bc1986f" id="r_gaeb9ec7f1149bdc406b6d901c2bc1986f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb9ec7f1149bdc406b6d901c2bc1986f">MR::decompressZip</a> (std::istream &amp;zipStream, const std::filesystem::path &amp;targetFolder, const char *password=nullptr)</td></tr>
 <tr class="memdesc:gaeb9ec7f1149bdc406b6d901c2bc1986f"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) into given folder  <br /></td></tr>
+<tr class="memitem:ga6d60fc3db9ca48db4715864be5b1e23f" id="r_ga6d60fc3db9ca48db4715864be5b1e23f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d60fc3db9ca48db4715864be5b1e23f">MR::decompressZip</a> (const std::filesystem::path &amp;zipFile, const <a class="el" href="#ga2b394d3aa0c69081d4bcb11804d390c0">ZipFileCallback</a> &amp;callback, const char *password=nullptr)</td></tr>
+<tr class="memdesc:ga6d60fc3db9ca48db4715864be5b1e23f"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given zip-file and passes every file from it to the callback without saving anything on disk; folder entries are skipped  <br /></td></tr>
+<tr class="memitem:ga591d76b8e857091a46184d4903e87598" id="r_ga591d76b8e857091a46184d4903e87598"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga591d76b8e857091a46184d4903e87598">MR::decompressZip</a> (std::istream &amp;zipStream, const <a class="el" href="#ga2b394d3aa0c69081d4bcb11804d390c0">ZipFileCallback</a> &amp;callback, const char *password=nullptr)</td></tr>
+<tr class="memdesc:ga591d76b8e857091a46184d4903e87598"><td class="mdescLeft">&#160;</td><td class="mdescRight">decompresses given binary stream (containing the data of a zip file only) and passes every file from it to the callback without saving anything on disk; folder entries are skipped  <br /></td></tr>
 <tr class="memitem:gaaeb1d5f0f783381f2285fd4d7fbd1c6b" id="r_gaaeb1d5f0f783381f2285fd4d7fbd1c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaeb1d5f0f783381f2285fd4d7fbd1c6b">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const <a class="el" href="structMR_1_1CompressZipSettings.html">CompressZipSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gaaeb1d5f0f783381f2285fd4d7fbd1c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
 <tr class="memitem:ga4466031d05f4eb56868dc88105bc5248" id="r_ga4466031d05f4eb56868dc88105bc5248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4466031d05f4eb56868dc88105bc5248">MR::compressZip</a> (const std::filesystem::path &amp;zipFile, const std::filesystem::path &amp;sourceFolder, const std::vector&lt; std::filesystem::path &gt; &amp;excludeFiles, const char *password=nullptr, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga4466031d05f4eb56868dc88105bc5248"><td class="mdescLeft">&#160;</td><td class="mdescRight">compresses given folder in given zip-file  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="ga2b394d3aa0c69081d4bcb11804d390c0" name="ga2b394d3aa0c69081d4bcb11804d390c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2b394d3aa0c69081d4bcb11804d390c0">&#9670;&#160;</a></span>ZipFileCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ga2b394d3aa0c69081d4bcb11804d390c0">MR::ZipFileCallback</a> = std::function&lt;<a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const std::string&amp; path, std::vector&lt;char&gt;&amp;&amp; data )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRZip_8h.html">MRMesh/MRZip.h</a>&gt;</code></p>
+<p>receives the path of a file inside the archive (with '/' separators) and its decompressed content; returned error stops the decompression and is passed to the caller </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="gaaeb1d5f0f783381f2285fd4d7fbd1c6b" name="gaaeb1d5f0f783381f2285fd4d7fbd1c6b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaaeb1d5f0f783381f2285fd4d7fbd1c6b">&#9670;&#160;</a></span>compressZip() <span class="overload">[1/2]</span></h2>
@@ -289,7 +316,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ga4a175d8a8e417663622148510dd390ba" name="ga4a175d8a8e417663622148510dd390ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4a175d8a8e417663622148510dd390ba">&#9670;&#160;</a></span>decompressZip() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4a175d8a8e417663622148510dd390ba">&#9670;&#160;</a></span>decompressZip() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,8 +351,44 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga6d60fc3db9ca48db4715864be5b1e23f" name="ga6d60fc3db9ca48db4715864be5b1e23f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d60fc3db9ca48db4715864be5b1e23f">&#9670;&#160;</a></span>decompressZip() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::decompressZip </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;</td>          <td class="paramname"><span class="paramname"><em>zipFile</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga2b394d3aa0c69081d4bcb11804d390c0">ZipFileCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>password</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRZip_8h.html">MRMesh/MRZip.h</a>&gt;</code></p>
+
+<p>decompresses given zip-file and passes every file from it to the callback without saving anything on disk; folder entries are skipped </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>if password is given then it will be used to decipher encrypted archive </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gaeb9ec7f1149bdc406b6d901c2bc1986f" name="gaeb9ec7f1149bdc406b6d901c2bc1986f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaeb9ec7f1149bdc406b6d901c2bc1986f">&#9670;&#160;</a></span>decompressZip() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb9ec7f1149bdc406b6d901c2bc1986f">&#9670;&#160;</a></span>decompressZip() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,6 +414,42 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRZip_8h.html">MRMesh/MRZip.h</a>&gt;</code></p>
 
 <p>decompresses given binary stream (containing the data of a zip file only) into given folder </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>if password is given then it will be used to decipher encrypted archive </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga591d76b8e857091a46184d4903e87598" name="ga591d76b8e857091a46184d4903e87598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga591d76b8e857091a46184d4903e87598">&#9670;&#160;</a></span>decompressZip() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::decompressZip </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;</td>          <td class="paramname"><span class="paramname"><em>zipStream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga2b394d3aa0c69081d4bcb11804d390c0">ZipFileCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>password</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRZip_8h.html">MRMesh/MRZip.h</a>&gt;</code></p>
+
+<p>decompresses given binary stream (containing the data of a zip file only) and passes every file from it to the callback without saving anything on disk; folder entries are skipped </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">password</td><td>if password is given then it will be used to decipher encrypted archive </td></tr>

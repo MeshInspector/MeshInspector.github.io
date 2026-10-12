@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PolylineMaker.html#a3952edf1d75c0a65c17df9a9f478c2c7":[9,3,0,0,0,1557,3],
+"classMR_1_1PolylineMaker.html#a4ecb70c3e0427effbde5957da9bee29a":[9,3,0,0,0,1557,5],
 "classMR_1_1PolylineMaker.html#a5f2b3eaf22e7022cb177fcbe4764d27c":[9,3,0,0,0,1557,0],
 "classMR_1_1PolylineMaker.html#a7e6e2e421f520b268a693f34b4b1827e":[9,3,0,0,0,1557,2],
 "classMR_1_1PolylineMaker.html#a899133810f9d230cf5ed16a663100780":[9,3,0,0,0,1557,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1PreciseVertCoords.html#a7aada8f7673305aa3ff0734e5913877b":[9,3,0,0,0,1589,1],
 "classMR_1_1PreciseVertCoords.html#a8a04b55e6692cf90c927c4e905cb2aae":[9,3,0,0,0,1589,4],
 "classMR_1_1PreciseVertCoords.html#ad1d1828a03099901d8fba1bc9ec67dc1":[9,3,0,0,0,1589,3],
-"classMR_1_1PreciseVertCoords.html#aea6b182971e8dce91633a2a4032fbdf8":[9,3,0,0,0,1589,5],
-"classMR_1_1PreciseVertCoords2.html":[9,3,0,0,0,1590],
-"classMR_1_1PreciseVertCoords2.html#a18cc4c1d44ed4329e18ca18f722e9c00":[9,3,0,0,0,1590,0]
+"classMR_1_1PreciseVertCoords.html#aea6b182971e8dce91633a2a4032fbdf8":[9,3,0,0,0,1589,5]
 };

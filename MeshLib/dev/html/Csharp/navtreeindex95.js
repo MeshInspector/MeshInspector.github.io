@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"classMR_1_1Const__VertSetBitIterator.html#acbcfb50f0d0e29ebd95e65829822be9b":[9,3,0,0,0,1010,0],
+"classMR_1_1Const__VertSetBitIterator.html#ae2ddccbe76ef1163bd891741314354e8":[9,3,0,0,0,1010,13],
 "classMR_1_1Const__ViewportIterator.html":[9,3,0,0,0,1011],
 "classMR_1_1Const__ViewportIterator.html#a05a42c6e69f38c3b7b4d53fed809cbf0":[9,3,0,0,0,1011,10],
 "classMR_1_1Const__ViewportIterator.html#a21ce4bdd6513367d6c492eeec536dfa3":[9,3,0,0,0,1011,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "classMR_1_1Const__VolumeSegmenter.html#a66b882e9668a4efaf81919c677d9c3d3":[9,3,0,0,0,1022,10],
 "classMR_1_1Const__VolumeSegmenter.html#a78aedbd3f46f18865305e33bad218f69":[9,3,0,0,0,1022,3],
 "classMR_1_1Const__VolumeSegmenter.html#a92b915baaa2c0552f04dbe41b13c2e7e":[9,3,0,0,0,1022,11],
-"classMR_1_1Const__VolumeSegmenter.html#abbcdb9ca90355528a0468672b0eb5f4e":[9,3,0,0,0,1022,2],
-"classMR_1_1Const__VolumeSegmenter.html#abc0c0cbfadd66f72be166ad669fac922":[9,3,0,0,0,1022,5],
-"classMR_1_1Const__VolumeSegmenter.html#ad1387100337aa1897a3cf7027590c836":[9,3,0,0,0,1022,4]
+"classMR_1_1Const__VolumeSegmenter.html#abbcdb9ca90355528a0468672b0eb5f4e":[9,3,0,0,0,1022,2]
 };
