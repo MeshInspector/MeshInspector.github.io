@@ -991,7 +991,7 @@ var searchData=
   ['stitchholesnicely_633',['stitchHolesNicely',['../group__GeneralGroup.html#ga5b7046fd268a56376489379737381aee',1,'MR']]],
   ['stitchopentwinedges_634',['stitchOpenTwinEdges',['../group__GeneralGroup.html#gae7fa0d219828bbdd6d0def6e9f01ffbb',1,'MR']]],
   ['stop_635',['stop',['../group__GeneralGroup.html#gab48855fcfc4227b2e7cf197229389efb',1,'MR::SplashWindow']]],
-  ['stopeventloop_636',['stopEventLoop',['../group__GeneralGroup.html#gae29c947bfa15c43f777ab468990ff716',1,'MR::Viewer']]],
+  ['stopeventloop_636',['stopEventLoop',['../group__GeneralGroup.html#gac702c27ebcd0cb78676354716899d5dd',1,'MR::Viewer']]],
   ['stopmodify_637',['stopModify',['../group__GeneralGroup.html#ga65ad009cf346461d12e9799d32f6fc37',1,'MR::ITransformControls']]],
   ['stopmodify_5f_638',['stopModify_',['../group__GeneralGroup.html#ga044830cadc17d1698a87fcdd9a6c699e',1,'MR::ITransformControls']]],
   ['stopupdatingvalids_639',['stopUpdatingValids',['../group__GeneralGroup.html#gac675cc2e5656941060f7db9be54b92a0',1,'MR::MeshTopology']]],

@@ -10,7 +10,7 @@ var classmrviewerpy_1_1Viewer =
     [ "mouseUp", "classmrviewerpy_1_1Viewer.html#ac0260b73bc9b46e1fe08612553d6e9b4", null ],
     [ "preciseFitDataViewport", "classmrviewerpy_1_1Viewer.html#a730f9ae2d9580f5715274f72068df9e3", null ],
     [ "showSceneTree", "classmrviewerpy_1_1Viewer.html#a90d029ac75c94841747bb951a4473e47", null ],
-    [ "shutdown", "classmrviewerpy_1_1Viewer.html#a57b409f65dbd238d9b62f8e759dddfa4", null ],
+    [ "shutdown", "classmrviewerpy_1_1Viewer.html#a5bec62c726eae1b5e5eb1eba51863954", null ],
     [ "skipFrames", "classmrviewerpy_1_1Viewer.html#ac2f35c7bfcda30c6a8d8bc57755f7039", null ],
     [ "viewport", "classmrviewerpy_1_1Viewer.html#a71e1baaf8deab7b37fed0b3d5e741f4f", null ],
     [ "viewportToScreen", "classmrviewerpy_1_1Viewer.html#a4a666c97d674b522e05582ead580d28b", null ]

@@ -149,7 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0260b73bc9b46e1fe08612553d6e9b4" id="r_ac0260b73bc9b46e1fe08612553d6e9b4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0260b73bc9b46e1fe08612553d6e9b4">mouseUp</a> (self, <a class="el" href="classmrviewerpy_1_1MouseButton.html">MouseButton</a> button, <a class="el" href="classmrviewerpy_1_1KeyMod.html">KeyMod</a> modifier=...)</td></tr>
 <tr class="memitem:a730f9ae2d9580f5715274f72068df9e3" id="r_a730f9ae2d9580f5715274f72068df9e3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a730f9ae2d9580f5715274f72068df9e3">preciseFitDataViewport</a> (self, meshlib.mrmeshpy.ViewportMask vpList=..., <a class="el" href="classmrviewerpy_1_1ViewportFitDataParams.html">ViewportFitDataParams</a> params=...)</td></tr>
 <tr class="memitem:a90d029ac75c94841747bb951a4473e47" id="r_a90d029ac75c94841747bb951a4473e47"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90d029ac75c94841747bb951a4473e47">showSceneTree</a> (self, bool show)</td></tr>
-<tr class="memitem:a57b409f65dbd238d9b62f8e759dddfa4" id="r_a57b409f65dbd238d9b62f8e759dddfa4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57b409f65dbd238d9b62f8e759dddfa4">shutdown</a> (self)</td></tr>
+<tr class="memitem:a5bec62c726eae1b5e5eb1eba51863954" id="r_a5bec62c726eae1b5e5eb1eba51863954"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bec62c726eae1b5e5eb1eba51863954">shutdown</a> (self, int exitCode=0, bool interruptible=True)</td></tr>
 <tr class="memitem:ac2f35c7bfcda30c6a8d8bc57755f7039" id="r_ac2f35c7bfcda30c6a8d8bc57755f7039"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f35c7bfcda30c6a8d8bc57755f7039">skipFrames</a> (self, int frames)</td></tr>
 <tr class="memitem:a71e1baaf8deab7b37fed0b3d5e741f4f" id="r_a71e1baaf8deab7b37fed0b3d5e741f4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrviewerpy_1_1Viewport.html">Viewport</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71e1baaf8deab7b37fed0b3d5e741f4f">viewport</a> (self, meshlib.mrmeshpy.ViewportId viewportId=...)</td></tr>
 <tr class="memitem:a4a666c97d674b522e05582ead580d28b" id="r_a4a666c97d674b522e05582ead580d28b"><td class="memItemLeft" align="right" valign="top">meshlib.mrmeshpy.Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a666c97d674b522e05582ead580d28b">viewportToScreen</a> (self, meshlib.mrmeshpy.Vector3f arg0, meshlib.mrmeshpy.ViewportId arg1)</td></tr>
@@ -397,8 +397,8 @@ params - params fit data
 </pre> 
 </div>
 </div>
-<a id="a57b409f65dbd238d9b62f8e759dddfa4" name="a57b409f65dbd238d9b62f8e759dddfa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57b409f65dbd238d9b62f8e759dddfa4">&#9670;&#160;</a></span>shutdown()</h2>
+<a id="a5bec62c726eae1b5e5eb1eba51863954" name="a5bec62c726eae1b5e5eb1eba51863954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bec62c726eae1b5e5eb1eba51863954">&#9670;&#160;</a></span>shutdown()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,12 +406,21 @@ params - params fit data
         <tr>
           <td class="memname"> None mrviewerpy.Viewer.shutdown </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int </td>          <td class="paramname"><span class="paramname"><em>exitCode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>interruptible</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets stop event loop flag (this flag is glfwShouldWindowClose equivalent)
+<pre class="fragment">sets stop event loop flag (this flag is glfwShouldWindowClose equivalent); the viewer's launch then returns exitCode; interruptible = False: no interruptCloseSignal slot can cancel the stop
 </pre> 
 </div>
 </div>

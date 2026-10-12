@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Viewer_1_1StopEventLoopRequest" kind="struct" language="C++" prot="private">
+    <compoundname>MR::Viewer::StopEventLoopRequest</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga1e6fa64d641164be82d693f6782292ba" kind="variable"><name>exitCode</name></member>
+      <member refid="group__GeneralGroup_1ga74cf7a50123c2c813395a8b14f516ce7" kind="variable"><name>interruptible</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>set by stopEventLoop: the loop is to stop, and <computeroutput>launch</computeroutput> returns exitCode; reset if the close is interrupted </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRViewer/MRViewer.h" line="633" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="634" bodyend="637"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1e6fa64d641164be82d693f6782292ba" prot="public" virt="non-virtual"><scope>MR::Viewer::StopEventLoopRequest</scope><name>exitCode</name></member>
+      <member refid="group__GeneralGroup_1ga74cf7a50123c2c813395a8b14f516ce7" prot="public" virt="non-virtual"><scope>MR::Viewer::StopEventLoopRequest</scope><name>interruptible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

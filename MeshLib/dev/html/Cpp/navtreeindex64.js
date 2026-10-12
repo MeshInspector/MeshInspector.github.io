@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1GcodeProcessor_1_1Command.html":[9,0,0,20,273],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[9,0,0,20,272],
 "structMR_1_1GeneralOffsetParameters.html":[9,0,0,20,873],
 "structMR_1_1GeodesicPath.html":[9,0,0,16,3,0],
 "structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d":[9,0,0,16,3,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[9,0,2,0,2,7,10,9],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[9,0,1,0,1,16,10,14],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[9,0,2,0,2,7,10,14],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[9,0,1,0,1,16,10,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[9,0,2,0,2,7,10,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[9,0,1,0,1,16,10,17]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[9,0,1,0,1,16,10,19]
 };

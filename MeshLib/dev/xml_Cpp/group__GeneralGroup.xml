@@ -772,6 +772,7 @@
     <innerclass refid="classMR_1_1Viewer" prot="public">MR::Viewer</innerclass>
     <innerclass refid="structMR_1_1Viewer_1_1EventsCounter" prot="private">MR::Viewer::EventsCounter</innerclass>
     <innerclass refid="structMR_1_1Viewer_1_1GLPrimitivesCounter" prot="private">MR::Viewer::GLPrimitivesCounter</innerclass>
+    <innerclass refid="structMR_1_1Viewer_1_1StopEventLoopRequest" prot="private">MR::Viewer::StopEventLoopRequest</innerclass>
     <innerclass refid="classMR_1_1ViewerEventQueue" prot="public">MR::ViewerEventQueue</innerclass>
     <innerclass refid="structMR_1_1ViewerEventQueue_1_1NamedEvent" prot="private">MR::ViewerEventQueue::NamedEvent</innerclass>
     <innerclass refid="structMR_1_1IConnectable" prot="public">MR::IConnectable</innerclass>
@@ -13344,7 +13345,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="38" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="39" bodyend="45"/>
+        <location file="MRViewer/MRViewer.h" line="39" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="40" bodyend="46"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga2f8bda46d1cd218cc450c9b0f076f2b0" prot="public" static="no" strong="yes">
         <type></type>
@@ -13420,7 +13421,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="291" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="292" bodyend="302"/>
+        <location file="MRViewer/MRViewer.h" line="292" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="293" bodyend="303"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1gacd808397ec9c13d1d3bce1b0e846bd40" prot="public" static="no" strong="yes">
         <type></type>
@@ -13483,7 +13484,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="307" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="308" bodyend="317"/>
+        <location file="MRViewer/MRViewer.h" line="308" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="309" bodyend="318"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga0467e77cf6f92e5f94c8d1d75eef8a76" prot="public" static="no" strong="yes">
         <type></type>
@@ -19823,7 +19824,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="72" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="72" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="73" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga8fda1ccb2d6d517de3047c2fd65203ea" prot="public" static="no">
         <type><ref refid="group__GeneralGroup_1ga067afc36528fa2a554ff76aaa10efb75" kindref="member">MR::MouseMode</ref></type>
@@ -19837,7 +19838,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="73" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="73" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="74" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga18c86b40dc97e73d26be6d5f21f65093" prot="public" static="no">
         <type><ref refid="structMR_1_1LaunchParams" kindref="compound">MR::LaunchParams</ref></type>
@@ -19851,7 +19852,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="75" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="75" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="76" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gae11f6202a72dd7403332a471e5aced7e" prot="public" static="no">
         <type><ref refid="structMR_1_1PointInAllSpaces" kindref="compound">MR::PointInAllSpaces</ref></type>
@@ -19865,7 +19866,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="384" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="384" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="385" column="5" bodyfile="MRViewer/MRViewer.h" bodystart="385" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gae679240dc1c3cb46bbffe4002f1f48e5" prot="public" static="no">
         <type>Box2f</type>
@@ -64721,7 +64722,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="35" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="35" bodyend="35"/>
+        <location file="MRViewer/MRViewer.h" line="36" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="36" bodyend="36"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad45928846a94144888b24d45f9a24db5" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -64737,7 +64738,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="36" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="36" bodyend="36"/>
+        <location file="MRViewer/MRViewer.h" line="37" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="37" bodyend="37"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa761ccae3c2bc953581b4731e0ed39e4" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -64752,7 +64753,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="37" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="37" bodyend="37"/>
+        <location file="MRViewer/MRViewer.h" line="38" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadf7ca51c8109714e1b6bbe600ab207fe" prot="public" static="no" mutable="no">
         <type>enum <ref refid="group__GeneralGroup_1ga022b76b62fcdfb2c120c1c0ccb08513d" kindref="member">MR::LaunchParams::WindowMode</ref></type>
@@ -64766,7 +64767,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="45" column="26"/>
+        <location file="MRViewer/MRViewer.h" line="46" column="26"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa6440efc7c04ec8f8f7b89b49c885a7c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64781,7 +64782,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="46" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="46" bodyend="46"/>
+        <location file="MRViewer/MRViewer.h" line="47" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="47" bodyend="47"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gacf3d8ea466f9852feb32b9bbf903c0d0" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64796,7 +64797,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="47" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="47" bodyend="47"/>
+        <location file="MRViewer/MRViewer.h" line="48" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga05b72c90683749a3c0a7b1c0994af432" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64811,7 +64812,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="48" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="48" bodyend="48"/>
+        <location file="MRViewer/MRViewer.h" line="49" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga07f2db56407417cdebdb79d3941a757e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64827,7 +64828,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="49" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="49" bodyend="49"/>
+        <location file="MRViewer/MRViewer.h" line="50" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="50" bodyend="50"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7ac116acae77e3053b6c660885a6c4ed" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64843,7 +64844,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="50" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="50" bodyend="50"/>
+        <location file="MRViewer/MRViewer.h" line="51" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="51" bodyend="51"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae1dc0fc994254f323bd28cbf180dffdf" prot="public" static="no" mutable="no">
         <type>std::string</type>
@@ -64859,7 +64860,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="51" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="51" bodyend="51"/>
+        <location file="MRViewer/MRViewer.h" line="52" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="52" bodyend="52"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaacf5adff18ac37c5815a2a4d5a6bd3ec" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64875,7 +64876,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="52" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="52" bodyend="52"/>
+        <location file="MRViewer/MRViewer.h" line="53" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga165772971fdd10bdb851e8f7acde05eb" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64891,7 +64892,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="53" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="53" bodyend="53"/>
+        <location file="MRViewer/MRViewer.h" line="54" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="54" bodyend="54"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga79e98fc0f869a338e1adbd9d61c767a4" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64907,7 +64908,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="54" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="54" bodyend="54"/>
+        <location file="MRViewer/MRViewer.h" line="55" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="55" bodyend="55"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga07a77d9bc69574a2a471911d79f7ee7f" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64923,7 +64924,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="55" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="55" bodyend="55"/>
+        <location file="MRViewer/MRViewer.h" line="56" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga25346cad277e065c937a564b8b5f003d" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -64939,7 +64940,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="56" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="56" bodyend="56"/>
+        <location file="MRViewer/MRViewer.h" line="57" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="57" bodyend="57"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga110de818033b5fb6a7e1a6b507d8d21b" prot="public" static="no" mutable="no">
         <type>char **</type>
@@ -64955,7 +64956,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="57" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="57" bodyend="57"/>
+        <location file="MRViewer/MRViewer.h" line="58" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="58" bodyend="58"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8a3dd1d7fa354ff72a92220cc87229a5" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64971,7 +64972,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="59" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="59" bodyend="59"/>
+        <location file="MRViewer/MRViewer.h" line="60" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="60" bodyend="60"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafc8b03eeee8947080b371a8c17c18c1f" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -64987,7 +64988,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="60" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="60" bodyend="60"/>
+        <location file="MRViewer/MRViewer.h" line="61" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="61" bodyend="61"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga20edb65311a8752fc65095fe9b17ab9a" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -65003,7 +65004,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="61" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="61" bodyend="61"/>
+        <location file="MRViewer/MRViewer.h" line="62" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="62" bodyend="62"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6db074c0e788a143ac4b532bafd77763" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65019,7 +65020,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="62" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="62" bodyend="62"/>
+        <location file="MRViewer/MRViewer.h" line="63" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3d73570ea540b87c4e76c06675506b76" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65035,7 +65036,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="63" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="63" bodyend="63"/>
+        <location file="MRViewer/MRViewer.h" line="64" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="64" bodyend="64"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga401802bd4a4ed3a745fe35920b213cb5" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; SplashWindow &gt;</type>
@@ -65050,7 +65051,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="65" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="65" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="66" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga297a4daffc230ff2379b7c69f2312089" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65066,7 +65067,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="276" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="276" bodyend="276"/>
+        <location file="MRViewer/MRViewer.h" line="277" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="277" bodyend="277"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf6ad84943b0d9f49dbd4b22e3129216d" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -65082,7 +65083,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="278" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="278" bodyend="278"/>
+        <location file="MRViewer/MRViewer.h" line="279" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="279" bodyend="279"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gadf21364b06943f8b3a27b96c8145bd89" prot="public" static="no" mutable="no">
         <type>GLFWwindow *</type>
@@ -65097,7 +65098,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="465" column="16" bodyfile="MRViewer/MRViewer.h" bodystart="465" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="468" column="16" bodyfile="MRViewer/MRViewer.h" bodystart="468" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f253d7832f1e50f3936039860a48f25" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(Viewer *viewer)&gt;</type>
@@ -65112,7 +65113,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="469" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="469" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="472" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="472" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafc8ad30c033c6e7346948b81416c26eb" prot="public" static="no" mutable="no">
         <type>std::vector&lt; Viewport &gt;</type>
@@ -65127,7 +65128,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="472" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="472" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="475" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="475" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7a5a19ca84a8ba99f086c440d5e6403b" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -65141,7 +65142,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="473" column="12" bodyfile="MRViewer/MRViewer.h" bodystart="473" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="476" column="12" bodyfile="MRViewer/MRViewer.h" bodystart="476" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga25d26ec62da3276a69b3f8c516c98887" prot="public" static="no" mutable="no">
         <type>std::vector&lt; ViewerPlugin * &gt;</type>
@@ -65156,7 +65157,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="476" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="476" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="479" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="479" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7cb04be7931c10a1a93bb386ba1f7bb6" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -65171,7 +65172,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="478" column="11" bodyfile="MRViewer/MRViewer.h" bodystart="478" bodyend="478"/>
+        <location file="MRViewer/MRViewer.h" line="481" column="11" bodyfile="MRViewer/MRViewer.h" bodystart="481" bodyend="481"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabcae9cdb5ec2a2c07ab8bad1508bd3d8" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -65185,7 +65186,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="479" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="479" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="482" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="482" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gace49ac281b241eab9e8e5f1aae4bcdbe" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -65199,7 +65200,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="480" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="480" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="483" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="483" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2b4fb1e2f21f33e213858ab579eb8620" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -65214,7 +65215,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="481" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="481" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="484" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="484" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4cdddbaa5eba70fd3ab533a608991894" prot="public" static="no" mutable="no">
         <type>Vector2i</type>
@@ -65229,7 +65230,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="482" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="482" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="485" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="485" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6d59e96ed0b5e74b104f0a94012c9185" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65244,7 +65245,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="483" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="483" bodyend="483"/>
+        <location file="MRViewer/MRViewer.h" line="486" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="486" bodyend="486"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7ccea0f47c749b27fc3a4ab8dc91026c" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65260,7 +65261,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="486" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="486" bodyend="486"/>
+        <location file="MRViewer/MRViewer.h" line="489" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="489" bodyend="489"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1747b85f1a561ad143a87af606bf91ac" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -65276,7 +65277,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="488" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="488" bodyend="488"/>
+        <location file="MRViewer/MRViewer.h" line="491" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="491" bodyend="491"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafee4d5b20b5586b703af20535b8a191d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -65292,7 +65293,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="491" column="11" bodyfile="MRViewer/MRViewer.h" bodystart="491" bodyend="491"/>
+        <location file="MRViewer/MRViewer.h" line="494" column="11" bodyfile="MRViewer/MRViewer.h" bodystart="494" bodyend="494"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga240a033f91b3eb0250fa706cd2f2feb1" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -65309,7 +65310,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="493" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="493" bodyend="493"/>
+        <location file="MRViewer/MRViewer.h" line="496" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="496" bodyend="496"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga79903d8243abfd135d4c770623022ef3" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65326,7 +65327,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="495" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="495" bodyend="495"/>
+        <location file="MRViewer/MRViewer.h" line="498" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="498" bodyend="498"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga505493fbe72fd322c04cc7922826c5f8" prot="public" static="no" mutable="no">
         <type>std::vector&lt; std::string &gt;</type>
@@ -65341,7 +65342,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="497" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="497" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="500" column="17" bodyfile="MRViewer/MRViewer.h" bodystart="500" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaabff40e9f5b2102161db747f1d36c787" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectMesh &gt;</type>
@@ -65355,7 +65356,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="499" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="499" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="502" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="502" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad282257ff021063d9026914e11b361d1" prot="public" static="no" mutable="no">
         <type>std::unique_ptr&lt; CornerControllerObject &gt;</type>
@@ -65369,7 +65370,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="500" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="500" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="503" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="503" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8e8017221bc14ddf989b5065726236ed" prot="public" static="no" mutable="no">
         <type>std::unique_ptr&lt; ViewportGlobalBasis &gt;</type>
@@ -65383,7 +65384,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="501" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="501" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="504" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="504" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4c175c5eee2d6f8367e9fcfe26eee6a5" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectMesh &gt;</type>
@@ -65397,7 +65398,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="502" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="502" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="505" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="505" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga97b86b8de173c41ecb9d6b4c2abe7b65" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; ObjectMesh &gt;</type>
@@ -65412,7 +65413,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="504" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="504" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="507" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="507" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1ab66cb836861acffdf2c1e4f3397846" prot="public" static="no" mutable="no">
         <type>std::shared_ptr&lt; ViewerTitle &gt;</type>
@@ -65427,7 +65428,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="507" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="507" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="510" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="510" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab31597e29524aa8f4453493fc6704743" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -65443,7 +65444,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="575" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="575" bodyend="575"/>
+        <location file="MRViewer/MRViewer.h" line="578" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="578" bodyend="578"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafac9885eaf1a5a5c6c79b3eb838d4371" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -65459,7 +65460,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="577" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="577" bodyend="577"/>
+        <location file="MRViewer/MRViewer.h" line="580" column="9" bodyfile="MRViewer/MRViewer.h" bodystart="580" bodyend="580"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf3e729a7c59e7ebfc40a3e7f380b6019" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; ViewerEventQueue &gt;</type>
@@ -65473,7 +65474,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="579" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="579" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="582" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="582" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab3d26a257d9b36c035df07775993f203" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; ImGuiMenu &gt;</type>
@@ -65488,7 +65489,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="582" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="582" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="585" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="585" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7c619e36696c6c84b8d34d189e2019fe" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; TouchpadController &gt;</type>
@@ -65502,7 +65503,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="584" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="584" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="587" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="587" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gafd2aed641c2d9c84f9a1d60ee2975feb" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; SpaceMouse::Controller &gt;</type>
@@ -65516,7 +65517,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="585" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="585" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="588" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="588" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga26b4ebf73f54e94bd29534ff73b024f5" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; TouchesController &gt;</type>
@@ -65530,7 +65531,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="586" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="586" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="589" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="589" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga05e34fa1cf534f046789529b04e6da69" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; MouseController &gt;</type>
@@ -65544,7 +65545,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="587" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="587" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="590" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="590" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga10eb399f6fb956d59a171ccf28be3ac0" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; IDragDropHandler &gt;</type>
@@ -65558,7 +65559,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="588" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="588" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="591" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="591" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga96242727b73d237d225ae9acbaabbe8c" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; RecentFilesStore &gt;</type>
@@ -65572,7 +65573,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="590" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="590" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="593" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="593" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5c2adc670fba040fb4c52bb8232fa7a3" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; FrameCounter &gt;</type>
@@ -65586,7 +65587,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="591" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="591" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="594" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="594" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaaebf5d401977df7d575253b4ae39bada" prot="public" static="no" mutable="no">
         <type>std::array&lt; size_t, size_t(EventType::Count)&gt;</type>
@@ -65601,7 +65602,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="595" column="20" bodyfile="MRViewer/MRViewer.h" bodystart="595" bodyend="595"/>
+        <location file="MRViewer/MRViewer.h" line="598" column="20" bodyfile="MRViewer/MRViewer.h" bodystart="598" bodyend="598"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga33b2dcb488dbb9875ac473677359ec38" prot="private" static="no" mutable="no">
         <type>struct MR::Viewer::EventsCounter</type>
@@ -65615,7 +65616,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="597" column="20"/>
+        <location file="MRViewer/MRViewer.h" line="600" column="20"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5e3703eba5285dc1c4ccfdcb9784030e" prot="public" static="no" mutable="no">
         <type>std::array&lt; size_t, size_t(GLPrimitivesType::Count)&gt;</type>
@@ -65630,7 +65631,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="601" column="20" bodyfile="MRViewer/MRViewer.h" bodystart="601" bodyend="601"/>
+        <location file="MRViewer/MRViewer.h" line="604" column="20" bodyfile="MRViewer/MRViewer.h" bodystart="604" bodyend="604"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad9d7cefc8648f1ca4546f6d060885e04" prot="private" static="no" mutable="no">
         <type>struct MR::Viewer::GLPrimitivesCounter</type>
@@ -65644,22 +65645,51 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="603" column="26"/>
+        <location file="MRViewer/MRViewer.h" line="606" column="26"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga89ac7318bd231d3e59438b47ff3c84b9" prot="private" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::Viewer::stopEventLoop_</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga1e6fa64d641164be82d693f6782292ba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Viewer::StopEventLoopRequest::exitCode</definition>
         <argsstring></argsstring>
-        <name>stopEventLoop_</name>
-        <qualifiedname>MR::Viewer::stopEventLoop_</qualifiedname>
-        <initializer>{ false }</initializer>
+        <name>exitCode</name>
+        <qualifiedname>MR::Viewer::StopEventLoopRequest::exitCode</qualifiedname>
+        <initializer>= 0</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="629" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="629" bodyend="629"/>
+        <location file="MRViewer/MRViewer.h" line="635" column="13" bodyfile="MRViewer/MRViewer.h" bodystart="635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga74cf7a50123c2c813395a8b14f516ce7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Viewer::StopEventLoopRequest::interruptible</definition>
+        <argsstring></argsstring>
+        <name>interruptible</name>
+        <qualifiedname>MR::Viewer::StopEventLoopRequest::interruptible</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRViewer.h" line="636" column="14" bodyfile="MRViewer/MRViewer.h" bodystart="636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gac43c24fbcce5c29ac18f4ee551e6b624" prot="private" static="no" mutable="no">
+        <type>std::optional&lt; StopEventLoopRequest &gt;</type>
+        <definition>std::optional&lt;StopEventLoopRequest&gt; MR::Viewer::stopEventLoopRequest_</definition>
+        <argsstring></argsstring>
+        <name>stopEventLoopRequest_</name>
+        <qualifiedname>MR::Viewer::stopEventLoopRequest_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRViewer.h" line="638" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="638" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae9fafb3d8a4f216856842818fde39581" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65674,7 +65704,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="631" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="631" bodyend="631"/>
+        <location file="MRViewer/MRViewer.h" line="640" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="640" bodyend="640"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga995ab1496154a99adfdb3f0373714cae" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65689,7 +65719,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="632" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="632" bodyend="632"/>
+        <location file="MRViewer/MRViewer.h" line="641" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="641" bodyend="641"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3a8790f656a7c026514cd7a85c31cf5e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65705,7 +65735,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="634" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="634" bodyend="634"/>
+        <location file="MRViewer/MRViewer.h" line="643" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="643" bodyend="643"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga199be8a4f0024f7007be61c7c326ca79" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; SceneTextureGL &gt;</type>
@@ -65719,7 +65749,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="636" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="636" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="645" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="645" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad254163ddf7de404d091c350fb978a1b" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; AlphaSortGL &gt;</type>
@@ -65733,7 +65763,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="637" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="637" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="646" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="646" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga9799f9fb1a3e6b8194046e6da3e0df94" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; DepthPeelingGL &gt;</type>
@@ -65747,7 +65777,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="638" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="638" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="647" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="647" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8a4165d397a7c241fd7a2b6df849d8c8" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65762,7 +65792,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="640" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="640" bodyend="640"/>
+        <location file="MRViewer/MRViewer.h" line="649" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="649" bodyend="649"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa96e35f7819f1f050a9257d13b9de83f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65777,7 +65807,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="642" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="642" bodyend="642"/>
+        <location file="MRViewer/MRViewer.h" line="651" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="651" bodyend="651"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gabccad304a3a8ab15bdd72b929ee30568" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65792,7 +65822,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="644" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="644" bodyend="644"/>
+        <location file="MRViewer/MRViewer.h" line="653" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="653" bodyend="653"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga8b78058bc93c29870dadad421281198f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65807,7 +65837,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="645" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="645" bodyend="645"/>
+        <location file="MRViewer/MRViewer.h" line="654" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="654" bodyend="654"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab943bf675cc708d263406c6e706acec4" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65822,7 +65852,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="647" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="647" bodyend="647"/>
+        <location file="MRViewer/MRViewer.h" line="656" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="656" bodyend="656"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga465768d0b6831ee6a63cb05aaf8d9180" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -65837,7 +65867,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="649" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="649" bodyend="649"/>
+        <location file="MRViewer/MRViewer.h" line="658" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="658" bodyend="658"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa07a48e1ccf96cf1c97afe75b4bf45b4" prot="private" static="no" mutable="no">
         <type>LaunchParams</type>
@@ -65851,7 +65881,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="651" column="18" bodyfile="MRViewer/MRViewer.h" bodystart="651" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="660" column="18" bodyfile="MRViewer/MRViewer.h" bodystart="660" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga10001fd9054f560c93028f33049f6758" prot="private" static="no" mutable="no">
         <type>ViewportMask</type>
@@ -65865,7 +65895,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="654" column="18" bodyfile="MRViewer/MRViewer.h" bodystart="654" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="663" column="18" bodyfile="MRViewer/MRViewer.h" bodystart="663" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5fa6b46135646a47e4056233be54ecfe" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; IViewerSettingsManager &gt;</type>
@@ -65879,7 +65909,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="656" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="656" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="665" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="665" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6bfc18f8043e09ee393e3b7d08790279" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; HistoryStore &gt;</type>
@@ -65893,7 +65923,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="658" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="658" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="667" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="667" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga6631633d5e4835ca4452da0d3fdfcbb5" prot="private" static="no" mutable="no">
         <type>std::shared_ptr&lt; SpaceMouse::Handler &gt;</type>
@@ -65907,7 +65937,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="660" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="660" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="669" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="669" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab95f3d2b7857df69bd6488d31c08950e" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; Connections &gt;</type>
@@ -65921,7 +65951,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="663" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="663" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="672" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="672" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga00bd01e33bd3b7922b7cc439e5df2aed" prot="private" static="no" mutable="no">
         <type>std::unique_ptr&lt; ViewerSignals &gt;</type>
@@ -65935,7 +65965,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="664" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="664" bodyend="-1"/>
+        <location file="MRViewer/MRViewer.h" line="673" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="673" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gae11fb18e48834d5bb7d3bca60862f695" prot="public" static="no" mutable="no">
         <type>const std::string</type>
@@ -75469,7 +75499,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="666" column="20"/>
+        <location file="MRViewer/MRViewer.h" line="675" column="20"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gaf4bbfb7affce8bc85f680fc1562f61ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189201,7 +189231,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="78" column="18"/>
+        <location file="MRViewer/MRViewer.h" line="79" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa212a4873a067a393c79ed06f2d251e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -189220,7 +189250,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="82" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="83" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9dc1034282d54e419b4f0812961f6a52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -189239,7 +189269,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="85" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="86" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6ba524665a123cfc2a7098ea88eecf48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -189258,7 +189288,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="87" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="88" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9859eebed05121603d979f7c490890ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189273,7 +189303,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="89" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="90" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaab7928a3a97d277d7b96b0f019016360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189293,7 +189323,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="93" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="94" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga83bd7780adc97eb86fd8c76d8d24f647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189308,7 +189338,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="95" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="96" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadff7849c01677ecd0b34bf909de0b585" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -189322,7 +189352,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="97" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="97" bodyend="97"/>
+        <location file="MRViewer/MRViewer.h" line="98" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="98" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -189336,7 +189366,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="98" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="98" bodyend="98"/>
+        <location file="MRViewer/MRViewer.h" line="99" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5e6446f42d0774a003b0af5832154822" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const LaunchParams &amp;</type>
@@ -189351,7 +189381,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="101" column="24" bodyfile="MRViewer/MRViewer.h" bodystart="101" bodyend="101"/>
+        <location file="MRViewer/MRViewer.h" line="102" column="24" bodyfile="MRViewer/MRViewer.h" bodystart="102" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga827107af544bf966370dc8de607ed59c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Viewer *</type>
@@ -189366,7 +189396,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="104" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="104" bodyend="104"/>
+        <location file="MRViewer/MRViewer.h" line="105" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaab103f5088bda1288b59fb83c0635ef5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Viewer &amp;</type>
@@ -189380,7 +189410,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="105" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="105" bodyend="105"/>
+        <location file="MRViewer/MRViewer.h" line="106" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8c5ec92949f2dab326c76616a704965b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const Viewer *</type>
@@ -189395,7 +189425,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="107" column="25" bodyfile="MRViewer/MRViewer.h" bodystart="107" bodyend="107"/>
+        <location file="MRViewer/MRViewer.h" line="108" column="25" bodyfile="MRViewer/MRViewer.h" bodystart="108" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9bf9b043a95e5fa4bf924a5ee2b799f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const Viewer &amp;</type>
@@ -189409,7 +189439,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="108" column="25" bodyfile="MRViewer/MRViewer.h" bodystart="108" bodyend="108"/>
+        <location file="MRViewer/MRViewer.h" line="109" column="25" bodyfile="MRViewer/MRViewer.h" bodystart="109" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga85ad500aab48ce2471d2715030ff667a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -189428,7 +189458,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="111" column="16" bodyfile="MRViewer/MRViewer.h" bodystart="111" bodyend="122"/>
+        <location file="MRViewer/MRViewer.h" line="112" column="16" bodyfile="MRViewer/MRViewer.h" bodystart="112" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga243d3a269442edb970a8b2f440c26ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189447,7 +189477,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="126" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="127" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga236d606e1cacfd400af1152c66c47b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189470,7 +189500,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="130" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="131" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga64f1bc4a6d775acbd9d0c2694e74aa58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189488,7 +189518,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="131" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="132" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga434edf2262b54427fb1415f8d2124226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189507,7 +189537,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="134" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="135" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1f3d36854daf2309c34d7c89c6b54f34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189530,7 +189560,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="137" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="138" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad475d17f414267f6b59022d88dbd009c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189552,7 +189582,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="138" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="139" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga604aa557574a2b7e076e853ed98b3ec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189574,7 +189604,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="139" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="140" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga17f0fffc0f992c6a8bd839ff0ca9f66b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189596,7 +189626,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="140" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="141" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6653cc66cd11e3b157f3579003f0b6c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189618,7 +189648,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="141" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="142" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad464ccc4047c77658d786bddc9211442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189640,7 +189670,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="142" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="143" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab1f3dbe6fc135b2927e1773a4068e127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189662,7 +189692,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="143" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="144" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0c33e053d59f8eeb80c74f65d8839ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189680,7 +189710,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="144" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="145" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa4b3be9edddfa8058ec8168a5e968204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189702,7 +189732,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="145" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="146" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf807c6407e850a98674fdb9970562ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189724,7 +189754,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="146" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="147" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadb313722a06f17a5852dd594c23f2b23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189746,7 +189776,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="147" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="148" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaee9c8bf1b623f5801915df4d4732cf67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189768,7 +189798,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="148" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="149" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga877eea86a6d223ff2064a2b964e7433c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189790,7 +189820,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="149" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="150" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5a92b87b57c575a3d55d797e0c9dd4b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189808,7 +189838,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="150" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="151" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf06cc89d98ae763703f498b696ce159a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189826,7 +189856,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="151" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="152" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab8fbd57fc513769bc7c790011b02bbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189844,7 +189874,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="152" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="153" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2299985afa17601c2457a53c99eca5f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189862,7 +189892,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="153" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="154" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4b5c11b48759b4a3eedbcf34b954dde8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189889,7 +189919,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="155" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="156" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9bb49ccebe6978c84b25d230215832c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189915,7 +189945,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="156" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="157" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1167a687bd443bd9f1d2838e9011116a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189941,7 +189971,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="157" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="158" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf593d5ead23554b139cab4b4f9898a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189956,7 +189986,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="159" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="160" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga080eeb32bacd765c91b8b3190bc9d239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189974,7 +190004,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="160" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="161" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab32515f373e032a106e7f8ca8b93eaab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -189988,7 +190018,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="161" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="162" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga739b84347713ba134b1e7503c87b1886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190002,7 +190032,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="162" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="163" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga74da732921a6a1797b684ea74b7f1090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190028,7 +190058,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="163" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="164" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabc9afd2abf90f0c683dda5a6c2b38407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190042,7 +190072,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="164" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="165" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga741ba022478cbb1c0efe2b505e60fff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190056,7 +190086,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="165" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="166" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad64b453db6d6540f42a6a54d086ab724" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190078,7 +190108,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="166" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="167" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2da8c46b82c05d03af240c05f755ad30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190092,7 +190122,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="167" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="168" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7e7616d3e7c5c2c4229ab79201de365e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190107,7 +190137,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="169" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="170" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1e52292628937c1dc4648eda0a18d020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190127,7 +190157,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="172" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="173" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga08b47a8d9394f581b65d5355ede19a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190146,7 +190176,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="174" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="175" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga55165e717474b378ca93d56da0111fad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190165,7 +190195,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="177" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="178" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae50905f091961545124fb5e4be824fec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -190180,7 +190210,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="179" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="179" bodyend="179"/>
+        <location file="MRViewer/MRViewer.h" line="180" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="180" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2473ba73a3e6aec4b4bb6ff72ae93315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190195,7 +190225,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="181" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="182" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga547dc13e4da7484dc4d08a02d5cb6a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190210,7 +190240,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="183" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="184" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa6b7ee8da360350c0e268423d8ae2ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190233,7 +190263,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="185" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="186" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae518db4e97baa52814503a659da7f2fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190256,7 +190286,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="186" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="187" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab8dd3f2235b983007e99f1074ff603e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190279,7 +190309,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="187" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="188" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab78011a2b0d3f84714190446763fe87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190298,7 +190328,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="188" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="189" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad85aa751767b3bbfe2a244cb463a0f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190317,7 +190347,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="189" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="190" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0e04e41be49a579275dffaf670591d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190336,7 +190366,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="190" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="191" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga66838428085b69c202e8eafba948df03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190359,7 +190389,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="191" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="192" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabb4abb787949bc46bed0f9183a0ca768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190374,7 +190404,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="192" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="193" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf98ce39ae7d05a6937772e3bc1ff4879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190394,7 +190424,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="199" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="200" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga027bbdb1b51f7add65d1d297333bc4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190409,7 +190439,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="202" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="203" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2135a45dc216425b8c22edb5a21b322b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Viewport &amp;</type>
@@ -190431,7 +190461,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="212" column="15"/>
+        <location file="MRViewer/MRViewer.h" line="213" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3fe6f8bf3f89cd4d1f1b51463c958757" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const Viewport &amp;</type>
@@ -190450,7 +190480,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="213" column="21"/>
+        <location file="MRViewer/MRViewer.h" line="214" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga571f3cfec1ce5e1f1bbe119073a39b8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>ViewportId</type>
@@ -190476,7 +190506,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="225" column="17"/>
+        <location file="MRViewer/MRViewer.h" line="226" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9749617e6e8037496e19ef619f62f9ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Box2f</type>
@@ -190491,7 +190521,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="229" column="12"/>
+        <location file="MRViewer/MRViewer.h" line="230" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad592d45c85bc8a1ffa0a76c3849fcbde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190511,7 +190541,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="235" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="236" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga961d5bd749df9599862852d86e94c43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190529,7 +190559,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="236" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="237" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacc7846d6e3e61b3d7c7422334eb1ee94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -190548,7 +190578,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="240" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="241" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3c54670bfb4d598bff954b665b9efb8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>ViewportId</type>
@@ -190563,7 +190593,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="244" column="17"/>
+        <location file="MRViewer/MRViewer.h" line="245" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga65cffd97996815fffa0c49f4725a9b17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>ViewportId</type>
@@ -190578,7 +190608,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="247" column="17"/>
+        <location file="MRViewer/MRViewer.h" line="248" column="17"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaab5ca043261c5f950dc6e5388fe59928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190593,7 +190623,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="250" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="251" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9235892eec3bd170f4db51496c78ffb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190623,7 +190653,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="255" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="256" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga548522987265c081ebe19e872f204dad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190657,7 +190687,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="260" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="261" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac4a5309ed19fd012a50b4fc912d52782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190677,7 +190707,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="264" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="265" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga70336185f136b3666741981254635d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190699,7 +190729,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="265" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="266" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab15cbcc76bde57098ea4d4b751dd030b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190713,7 +190743,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="267" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="268" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga92e42c9709217410c53a0b3c311c537a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190727,7 +190757,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="268" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="269" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaca51049e3e01fcf772afa0039f059197" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190741,7 +190771,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="269" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="270" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7fd7f5345850eb4c927834dad221a0df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -190755,7 +190785,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="270" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="271" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga09c11048760de5f9614eff7510c65b63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190770,7 +190800,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="273" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="274" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga41481bf9cd1dfbac65b8d32fcbea009d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190795,7 +190825,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="282" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="283" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac86b8d8fb6557a123042d5da0eb7f254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190815,7 +190845,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="285" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="286" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2d19f6525bdfcfc7c1ed0f4e036e9afc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -190830,7 +190860,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="288" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="289" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeb7d69b50299a7ee54d495c63b0127d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190849,7 +190879,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="304" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="305" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa486b589d62e3d0a7869fc48398c0637" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -190868,7 +190898,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="319" column="13"/>
+        <location file="MRViewer/MRViewer.h" line="320" column="13"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga752bf234a24f7083f46a619603365327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190891,7 +190921,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="321" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="322" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga31d6494e00e43d9afe0c2ca0c089c075" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>ViewportMask</type>
@@ -190906,7 +190936,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="325" column="18" bodyfile="MRViewer/MRViewer.h" bodystart="325" bodyend="325"/>
+        <location file="MRViewer/MRViewer.h" line="326" column="18" bodyfile="MRViewer/MRViewer.h" bodystart="326" bodyend="326"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaccace334096cc2fbb5078324e8aece5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -190921,7 +190951,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="328" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="329" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga872a90f5fa0569f8eda21ff7e8b0ad27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Image</type>
@@ -190963,7 +190993,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="335" column="12"/>
+        <location file="MRViewer/MRViewer.h" line="336" column="12"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2b728eae4e3cb8ee9e7c5f604bb511cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191017,7 +191047,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="343" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="344" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5c9e26830548aa11d7a6e6763eae74d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191032,7 +191062,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="347" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="348" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga5091bade246711d8967a3c91b633afc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191051,7 +191081,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="350" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="351" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga734edab571108af641cc046a7fae2b88" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191066,7 +191096,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="352" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="352" bodyend="352"/>
+        <location file="MRViewer/MRViewer.h" line="353" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="353" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9a38dec395ce161795d8368e9d94ebdd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191081,7 +191111,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="355" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="356" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga209b9db2ca12c0b19c1b7735328084dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191100,7 +191130,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="357" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="358" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2ede5f409263bd385e345cbadbdcd541" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191115,7 +191145,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="359" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="360" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaa475c7f105117c594fd13388464d297" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191130,7 +191160,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="362" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="363" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga640afa8cb8b38863a0fde63c56f0a53d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191149,7 +191179,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="365" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="366" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaac7aff085cfd616d6c21273ff18c0293" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191164,7 +191194,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="367" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="368" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaefbb949861117282763a708df35ef6f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191179,7 +191209,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="371" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="372" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2dd581b78e123daa362055fcc7a99fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191198,7 +191228,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="375" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="376" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae2c6d7d9b091c37a745619db547dc932" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191213,7 +191243,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="377" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="378" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga16b5ba2c760da178698660af7cdb25c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191232,7 +191262,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="381" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="382" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga768e340608022a6ee3d9fcef03a4a32d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::unique_ptr&lt; IViewerSettingsManager &gt; &amp;</type>
@@ -191246,7 +191276,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="382" column="28" bodyfile="MRViewer/MRViewer.h" bodystart="382" bodyend="382"/>
+        <location file="MRViewer/MRViewer.h" line="383" column="28" bodyfile="MRViewer/MRViewer.h" bodystart="383" bodyend="383"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6f6d61b9c14406fb30e82ad4c84278f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>PointInAllSpaces</type>
@@ -191265,7 +191295,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="386" column="23"/>
+        <location file="MRViewer/MRViewer.h" line="387" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3a12cb3d1ab49b666696979a4fe8b791" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>PointInAllSpaces</type>
@@ -191280,7 +191310,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="388" column="23"/>
+        <location file="MRViewer/MRViewer.h" line="389" column="23"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa41eb3965767c764844b297c1e2ec9d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -191303,7 +191333,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="395" column="15"/>
+        <location file="MRViewer/MRViewer.h" line="396" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2b21e132ce643959f9440c9c89b6481d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -191326,7 +191356,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="401" column="15"/>
+        <location file="MRViewer/MRViewer.h" line="402" column="15"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga102c7fd464a86d7feb362437a72321ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::reference_wrapper&lt; Viewport &gt; &gt;</type>
@@ -191346,7 +191376,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="404" column="18"/>
+        <location file="MRViewer/MRViewer.h" line="405" column="18"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga89d38af7dad0c6b381376b976afb4ba5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191365,7 +191395,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="407" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="408" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf783e511fab48488cefa29c151e6dca4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191380,7 +191410,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="409" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="409" bodyend="409"/>
+        <location file="MRViewer/MRViewer.h" line="410" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="410" bodyend="410"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad4ce8cb351499d220fa739bc59c63cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191399,7 +191429,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="412" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="413" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeb6d2411bc5081c289cf2b44288aca65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191414,7 +191444,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="415" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="416" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad7e2561c71f4b86cd8744b665f955b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191429,7 +191459,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="418" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="419" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga520a3cea42c06d9b28d8d25a2fa42a14" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>HistoryStore *</type>
@@ -191444,7 +191474,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="422" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="422" bodyend="422"/>
+        <location file="MRViewer/MRViewer.h" line="423" column="19" bodyfile="MRViewer/MRViewer.h" bodystart="423" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gafd170f694bbfbea3c491223d0ea2b091" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::shared_ptr&lt; SpaceMouse::Handler &gt; &amp;</type>
@@ -191459,7 +191489,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="425" column="27" bodyfile="MRViewer/MRViewer.h" bodystart="425" bodyend="425"/>
+        <location file="MRViewer/MRViewer.h" line="426" column="27" bodyfile="MRViewer/MRViewer.h" bodystart="426" bodyend="426"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga04b2e54c346f8aa8eb3e1b1a53a0f839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191483,7 +191513,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="428" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="429" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga52e2911cb17d8d48d94476db606e0416" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const std::shared_ptr&lt; ImGuiMenu &gt; &amp;</type>
@@ -191498,7 +191528,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="431" column="28"/>
+        <location file="MRViewer/MRViewer.h" line="432" column="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac7c0486cdf3014b72cb41594726e3844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191516,7 +191546,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="432" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="433" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf0dc857d40bbac0ced48c651d1d6daac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::shared_ptr&lt; RibbonMenu &gt;</type>
@@ -191531,7 +191561,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="435" column="22"/>
+        <location file="MRViewer/MRViewer.h" line="436" column="22"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44471d66496b4d2184d8604af087598e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -191551,22 +191581,32 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="439" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="439" bodyend="439"/>
+        <location file="MRViewer/MRViewer.h" line="440" column="21" bodyfile="MRViewer/MRViewer.h" bodystart="440" bodyend="440"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae29c947bfa15c43f777ab468990ff716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gac702c27ebcd0cb78676354716899d5dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::Viewer::stopEventLoop</definition>
-        <argsstring>()</argsstring>
+        <argsstring>(int exitCode=0, bool interruptible=true)</argsstring>
         <name>stopEventLoop</name>
         <qualifiedname>MR::Viewer::stopEventLoop</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>exitCode</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>interruptible</declname>
+          <defval>true</defval>
+        </param>
         <briefdescription>
-<para>sets stop event loop flag (this flag is glfwShouldWindowClose equivalent) </para>
         </briefdescription>
         <detaileddescription>
+<para>sets stop event loop flag (this flag is glfwShouldWindowClose equivalent); <computeroutput>launch</computeroutput> returns exitCode after the normal shutdown, so use it instead of std::exit to report a failure; interruptible = false: interruptCloseSignal is not emitted, so no slot can cancel this stop </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="442" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="445" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaff7d7329c84d85a009790d68eeb8661d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191581,7 +191621,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="444" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="444" bodyend="444"/>
+        <location file="MRViewer/MRViewer.h" line="447" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="447" bodyend="447"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga098bf2b0a344703be167559575e4ea3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191596,7 +191636,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="448" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="451" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44dcab99aafe4a71d2890df4698179a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191611,7 +191651,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="453" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="453" bodyend="453"/>
+        <location file="MRViewer/MRViewer.h" line="456" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="456" bodyend="456"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9937d813493b08183d9e450ab55b6e77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191626,7 +191666,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="456" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="459" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga01b60caf23e036ab2d107862a55beffa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191641,7 +191681,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="459" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="459" bodyend="459"/>
+        <location file="MRViewer/MRViewer.h" line="462" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="462" bodyend="462"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabda017be7b7724dec62de676c2335469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ViewerSignals &amp;</type>
@@ -191656,7 +191696,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="510" column="20" bodyfile="MRViewer/MRViewer.h" bodystart="510" bodyend="510"/>
+        <location file="MRViewer/MRViewer.h" line="513" column="20" bodyfile="MRViewer/MRViewer.h" bodystart="513" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1a30a9d93fe61498f1f96c20bb834060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191684,7 +191724,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="514" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="517" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1733c9e810416f1ea7a125becb440cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191703,7 +191743,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="516" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="519" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaac9f1c88475c7f8bc326a7b2f5eaceb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191717,7 +191757,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="518" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="521" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga37192a2a155cd48be18371ea224f9dd4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const TouchpadController &amp;</type>
@@ -191731,7 +191771,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="520" column="31" bodyfile="MRViewer/MRViewer.h" bodystart="520" bodyend="520"/>
+        <location file="MRViewer/MRViewer.h" line="523" column="31" bodyfile="MRViewer/MRViewer.h" bodystart="523" bodyend="523"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf0231892dae1d4f17526471d37e3a3e2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>TouchpadController &amp;</type>
@@ -191745,7 +191785,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="521" column="25" bodyfile="MRViewer/MRViewer.h" bodystart="521" bodyend="521"/>
+        <location file="MRViewer/MRViewer.h" line="524" column="25" bodyfile="MRViewer/MRViewer.h" bodystart="524" bodyend="524"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2f90363344944df08c1220d0620ea1d0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const SpaceMouse::Controller &amp;</type>
@@ -191759,7 +191799,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="523" column="35" bodyfile="MRViewer/MRViewer.h" bodystart="523" bodyend="523"/>
+        <location file="MRViewer/MRViewer.h" line="526" column="35" bodyfile="MRViewer/MRViewer.h" bodystart="526" bodyend="526"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa15471582a150f384804ce9faff91b38" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SpaceMouse::Controller &amp;</type>
@@ -191773,7 +191813,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="524" column="29" bodyfile="MRViewer/MRViewer.h" bodystart="524" bodyend="524"/>
+        <location file="MRViewer/MRViewer.h" line="527" column="29" bodyfile="MRViewer/MRViewer.h" bodystart="527" bodyend="527"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1984b77308668a59ce2f073ed6ae59ad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const MouseController &amp;</type>
@@ -191787,7 +191827,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="526" column="28" bodyfile="MRViewer/MRViewer.h" bodystart="526" bodyend="526"/>
+        <location file="MRViewer/MRViewer.h" line="529" column="28" bodyfile="MRViewer/MRViewer.h" bodystart="529" bodyend="529"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeacb3259b74669514d1c901f9ed2acfe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MouseController &amp;</type>
@@ -191801,7 +191841,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="527" column="22" bodyfile="MRViewer/MRViewer.h" bodystart="527" bodyend="527"/>
+        <location file="MRViewer/MRViewer.h" line="530" column="22" bodyfile="MRViewer/MRViewer.h" bodystart="530" bodyend="530"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaefb216a2684bab02df3b5f3444c8eeff" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const RecentFilesStore &amp;</type>
@@ -191816,7 +191856,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="530" column="29" bodyfile="MRViewer/MRViewer.h" bodystart="530" bodyend="530"/>
+        <location file="MRViewer/MRViewer.h" line="533" column="29" bodyfile="MRViewer/MRViewer.h" bodystart="533" bodyend="533"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa513058cc1e60a1245cb96cb74884dcc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>RecentFilesStore &amp;</type>
@@ -191830,7 +191870,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="531" column="23" bodyfile="MRViewer/MRViewer.h" bodystart="531" bodyend="531"/>
+        <location file="MRViewer/MRViewer.h" line="534" column="23" bodyfile="MRViewer/MRViewer.h" bodystart="534" bodyend="534"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabfffc85a6df279c09db31b207fb7604a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -191845,7 +191885,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="534" column="11" bodyfile="MRViewer/MRViewer.h" bodystart="534" bodyend="534"/>
+        <location file="MRViewer/MRViewer.h" line="537" column="11" bodyfile="MRViewer/MRViewer.h" bodystart="537" bodyend="537"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9e7838b6c40f9f7bbdb03fbc9b53a857" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -191864,7 +191904,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="537" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="537" bodyend="537"/>
+        <location file="MRViewer/MRViewer.h" line="540" column="10" bodyfile="MRViewer/MRViewer.h" bodystart="540" bodyend="540"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga88c08f64213aeff8cd7e77b506eafccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191879,7 +191919,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="540" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="543" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae845f00d481d0fd18096f42a74a255dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191894,7 +191934,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="544" column="11"/>
+        <location file="MRViewer/MRViewer.h" line="547" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44b52ba7b746b1dd7ebce86e163d03a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -191908,7 +191948,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="546" column="5"/>
+        <location file="MRViewer/MRViewer.h" line="549" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga367480dd3c7e349b7b215bcb354ada05" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -191922,7 +191962,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="547" column="5"/>
+        <location file="MRViewer/MRViewer.h" line="550" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac3729a6544182efd72fc44b5b5eb38ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191941,7 +191981,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="550" column="9"/>
+        <location file="MRViewer/MRViewer.h" line="553" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae4f9e972d533f197921dc2d86ee03cbc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191960,7 +192000,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="553" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="556" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4d724cf6f1623cea2fa90eff3dce9c3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -191979,7 +192019,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="556" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="559" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1448a75a3b308acb76bd469ea1d4a4d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -191994,7 +192034,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="559" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="562" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga89f477e0035c07d1086a1940b9edd423" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192009,7 +192049,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="562" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="565" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9b22c1f3abd42f9b87f8683c9ad6586e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192024,7 +192064,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="565" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="568" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga10f14300bc327e5adc26db6e62014dca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -192043,7 +192083,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="572" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="575" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9cbbe6698b91f4932fc8498ac345c362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192057,7 +192097,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="596" column="14"/>
+        <location file="MRViewer/MRViewer.h" line="599" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4dd7ea4b014eafdbbb1c753fb97eb3ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192071,7 +192111,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="602" column="14"/>
+        <location file="MRViewer/MRViewer.h" line="605" column="14"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga89c8b71780bb16a96fb79c6f594fa4f2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -192110,7 +192150,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="607" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="610" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8cd319229ed4f29b9740484b16e219a2" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -192124,7 +192164,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="609" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="612" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac820c8cf4f25f7365a71733f4be0344f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192138,7 +192178,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="610" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="613" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae79b3e34898bf7de4afd475f5d26d47e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192152,7 +192192,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="612" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="615" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4180d50e3351b2011d15f4bcdf570c43" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192166,7 +192206,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="613" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="616" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga532e0bd4643b092401759f6d4081ad3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192180,7 +192220,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="614" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="617" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaeb612f90bd985c7aa46081e12e2240fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192194,7 +192234,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="615" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="618" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab2e92be18b14f66f56ac90b1c5b63e6a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192208,7 +192248,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="616" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="619" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga26dcc15aa5b6cb08a61d9182569378f8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192223,7 +192263,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="619" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="622" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9e767e944f4177c77d7fad6651115629" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192238,7 +192278,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="622" column="10"/>
+        <location file="MRViewer/MRViewer.h" line="625" column="10"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9f4986149e4c0c760aa7cae4529fcc6a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -192261,7 +192301,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="627" column="9"/>
+        <location file="MRViewer/MRViewer.h" line="630" column="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7c5d038d6cf456f63ff849a00eaa9b77" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>ViewportId</type>
@@ -192275,7 +192315,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="653" column="16"/>
+        <location file="MRViewer/MRViewer.h" line="662" column="16"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacf760e3ba31ad8009635d91e930ce03a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -192294,7 +192334,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="671" column="6" declfile="MRViewer/MRViewer.h" declline="671" declcolumn="6"/>
+        <location file="MRViewer/MRViewer.h" line="680" column="6" declfile="MRViewer/MRViewer.h" declline="680" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gae94a86545f7fb008c49760e3bdab54a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -192317,7 +192357,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="674" column="6" declfile="MRViewer/MRViewer.h" declline="674" declcolumn="6"/>
+        <location file="MRViewer/MRViewer.h" line="683" column="6" declfile="MRViewer/MRViewer.h" declline="683" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa3218690ec87c6e3c4e07d69881a45b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192340,7 +192380,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="677" column="7" declfile="MRViewer/MRViewer.h" declline="677" declcolumn="7"/>
+        <location file="MRViewer/MRViewer.h" line="686" column="7" declfile="MRViewer/MRViewer.h" declline="686" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gada0c424f2526de3fc5e1e405ddc1fb39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -192363,7 +192403,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRViewer.h" line="679" column="6" declfile="MRViewer/MRViewer.h" declline="679" declcolumn="6"/>
+        <location file="MRViewer/MRViewer.h" line="688" column="6" declfile="MRViewer/MRViewer.h" declline="688" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7aa91f7b5cc7541ac0f982fce5660507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

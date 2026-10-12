@@ -146,7 +146,7 @@ var classMR_1_1Viewer =
     [ "spaceMouseMove", "group__GeneralGroup.html#ga877eea86a6d223ff2064a2b964e7433c", null ],
     [ "spaceMouseRepeat", "group__GeneralGroup.html#gab8fbd57fc513769bc7c790011b02bbd3", null ],
     [ "spaceMouseUp", "group__GeneralGroup.html#gaf06cc89d98ae763703f498b696ce159a", null ],
-    [ "stopEventLoop", "group__GeneralGroup.html#gae29c947bfa15c43f777ab468990ff716", null ],
+    [ "stopEventLoop", "group__GeneralGroup.html#gac702c27ebcd0cb78676354716899d5dd", null ],
     [ "touchEnd", "group__GeneralGroup.html#ga1167a687bd443bd9f1d2838e9011116a", null ],
     [ "touchMove", "group__GeneralGroup.html#ga9bb49ccebe6978c84b25d230215832c5", null ],
     [ "touchpadController", "group__GeneralGroup.html#gaf0231892dae1d4f17526471d37e3a3e2", null ],

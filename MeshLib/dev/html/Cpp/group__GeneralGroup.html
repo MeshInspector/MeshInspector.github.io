@@ -10927,8 +10927,7 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 <tr class="memitem:ga44471d66496b4d2184d8604af087598e" id="r_ga44471d66496b4d2184d8604af087598e"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga44471d66496b4d2184d8604af087598e template"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44471d66496b4d2184d8604af087598e">MR::Viewer::getMenuPluginAs</a> () const</td></tr>
 <tr class="memdesc:ga44471d66496b4d2184d8604af087598e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the menu plugin casted in given type.  <br /></td></tr>
-<tr class="memitem:gae29c947bfa15c43f777ab468990ff716" id="r_gae29c947bfa15c43f777ab468990ff716"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae29c947bfa15c43f777ab468990ff716">MR::Viewer::stopEventLoop</a> ()</td></tr>
-<tr class="memdesc:gae29c947bfa15c43f777ab468990ff716"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets stop event loop flag (this flag is glfwShouldWindowClose equivalent)  <br /></td></tr>
+<tr class="memitem:gac702c27ebcd0cb78676354716899d5dd" id="r_gac702c27ebcd0cb78676354716899d5dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac702c27ebcd0cb78676354716899d5dd">MR::Viewer::stopEventLoop</a> (int exitCode=0, bool interruptible=true)</td></tr>
 <tr class="memitem:gaff7d7329c84d85a009790d68eeb8661d" id="r_gaff7d7329c84d85a009790d68eeb8661d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaff7d7329c84d85a009790d68eeb8661d">MR::Viewer::getStopEventLoopFlag</a> () const</td></tr>
 <tr class="memdesc:gaff7d7329c84d85a009790d68eeb8661d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get stop event loop flag (this flag is glfwShouldWindowClose equivalent)  <br /></td></tr>
 <tr class="memitem:ga098bf2b0a344703be167559575e4ea3e" id="r_ga098bf2b0a344703be167559575e4ea3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga098bf2b0a344703be167559575e4ea3e">MR::Viewer::windowShouldClose</a> ()</td></tr>
@@ -14785,6 +14784,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:ga1ab66cb836861acffdf2c1e4f3397846"><td class="mdescLeft">&#160;</td><td class="mdescRight">class that updates viewer title  <br /></td></tr>
 <tr class="memitem:gaaebf5d401977df7d575253b4ae39bada" id="r_gaaebf5d401977df7d575253b4ae39bada"><td class="memItemLeft" align="right" valign="top">std::array&lt; size_t, size_t(<a class="el" href="#gga2f8bda46d1cd218cc450c9b0f076f2b0ae93f994f01c537c4e2f7d8528c3eb5e9">EventType::Count</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaebf5d401977df7d575253b4ae39bada">MR::Viewer::EventsCounter::counter</a> {}</td></tr>
 <tr class="memitem:ga5e3703eba5285dc1c4ccfdcb9784030e" id="r_ga5e3703eba5285dc1c4ccfdcb9784030e"><td class="memItemLeft" align="right" valign="top">std::array&lt; size_t, size_t(<a class="el" href="#ggacd808397ec9c13d1d3bce1b0e846bd40ae93f994f01c537c4e2f7d8528c3eb5e9">GLPrimitivesType::Count</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e3703eba5285dc1c4ccfdcb9784030e">MR::Viewer::GLPrimitivesCounter::counter</a> {}</td></tr>
+<tr class="memitem:ga1e6fa64d641164be82d693f6782292ba" id="r_ga1e6fa64d641164be82d693f6782292ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1e6fa64d641164be82d693f6782292ba">MR::Viewer::StopEventLoopRequest::exitCode</a> = 0</td></tr>
+<tr class="memitem:ga74cf7a50123c2c813395a8b14f516ce7" id="r_ga74cf7a50123c2c813395a8b14f516ce7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga74cf7a50123c2c813395a8b14f516ce7">MR::Viewer::StopEventLoopRequest::interruptible</a> = true</td></tr>
 <tr class="memitem:gae11fb18e48834d5bb7d3bca60862f695" id="r_gae11fb18e48834d5bb7d3bca60862f695"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae11fb18e48834d5bb7d3bca60862f695">MR::cDefaultMultiViewportKey</a> = &quot;defaultMultiViewport&quot;</td></tr>
 <tr class="memdesc:gae11fb18e48834d5bb7d3bca60862f695"><td class="mdescLeft">&#160;</td><td class="mdescRight">key for getting/satting default state for multi viewport from the config  <br /></td></tr>
 <tr class="memitem:gab5b099b7d40ec529bc932d45cefc5593" id="r_gab5b099b7d40ec529bc932d45cefc5593"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab5b099b7d40ec529bc932d45cefc5593">MR::ViewerEventQueue::NamedEvent::name</a></td></tr>
@@ -183312,8 +183313,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gae29c947bfa15c43f777ab468990ff716" name="gae29c947bfa15c43f777ab468990ff716"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae29c947bfa15c43f777ab468990ff716">&#9670;&#160;</a></span>stopEventLoop()</h2>
+<a id="gac702c27ebcd0cb78676354716899d5dd" name="gac702c27ebcd0cb78676354716899d5dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac702c27ebcd0cb78676354716899d5dd">&#9670;&#160;</a></span>stopEventLoop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183321,15 +183322,18 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">void MR::Viewer::stopEventLoop </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>exitCode</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>interruptible</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRViewer_8h.html">MRViewer/MRViewer.h</a>&gt;</code></p>
-
-<p>sets stop event loop flag (this flag is glfwShouldWindowClose equivalent) </p>
+<p>sets stop event loop flag (this flag is glfwShouldWindowClose equivalent); <span class="tt">launch</span> returns exitCode after the normal shutdown, so use it instead of std::exit to report a failure; interruptible = false: interruptCloseSignal is not emitted, so no slot can cancel this stop </p>
 
 </div>
 </div>
@@ -215423,6 +215427,20 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga1e6fa64d641164be82d693f6782292ba" name="ga1e6fa64d641164be82d693f6782292ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1e6fa64d641164be82d693f6782292ba">&#9670;&#160;</a></span>exitCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Viewer::StopEventLoopRequest::exitCode = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gafe075e9e4944999f30c142f357d071d7" name="gafe075e9e4944999f30c142f357d071d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gafe075e9e4944999f30c142f357d071d7">&#9670;&#160;</a></span>exitVal</h2>
 
@@ -218801,6 +218819,20 @@ template&lt;typename Accessor&gt; </div>
 </div><div class="memdoc">
 
 <p>signal is called after window rescale </p>
+
+</div>
+</div>
+<a id="ga74cf7a50123c2c813395a8b14f516ce7" name="ga74cf7a50123c2c813395a8b14f516ce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74cf7a50123c2c813395a8b14f516ce7">&#9670;&#160;</a></span>interruptible</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::Viewer::StopEventLoopRequest::interruptible = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
