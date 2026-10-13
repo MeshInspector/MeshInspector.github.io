@@ -12,14 +12,10 @@ var group__RasterGroup =
       [ "info", "structMR_1_1Raster.html#afcb38dc34e0fdeda6a61ed5b5a99ac0e", null ]
     ] ],
     [ "MR::RasterLoadSettings", "structMR_1_1RasterLoadSettings.html", [
-      [ "progress", "structMR_1_1RasterLoadSettings.html#a1489b5970837ecb1c1e1d14e59dcd27c", null ],
-      [ "xf", "structMR_1_1RasterLoadSettings.html#ac90b0db79dd8dbe777a53e0e10528860", null ]
+      [ "progress", "structMR_1_1RasterLoadSettings.html#a1489b5970837ecb1c1e1d14e59dcd27c", null ]
     ] ],
     [ "MR::RasterSaveSettings", "structMR_1_1RasterSaveSettings.html", [
-      [ "progress", "structMR_1_1RasterSaveSettings.html#a04b466bdf3c5f2d7e08030e4cd463ee8", null ],
-      [ "xf", "structMR_1_1RasterSaveSettings.html#a96a20d4c5e859028ef66fd98db8fd14b", null ]
+      [ "progress", "structMR_1_1RasterSaveSettings.html#a04b466bdf3c5f2d7e08030e4cd463ee8", null ]
     ] ],
-    [ "MR::convertRasterToFloats", "group__RasterGroup.html#gafac7517a903175c5a262beba1b91f775", null ],
-    [ "MR::convertRasterToFloats", "group__RasterGroup.html#ga9ef3666bc6712baf860863656831fa63", null ],
     [ "MR::convertRasterToImage", "group__RasterGroup.html#gadcb09b212975aa3c7b3267ef39c306e1", null ]
 ];

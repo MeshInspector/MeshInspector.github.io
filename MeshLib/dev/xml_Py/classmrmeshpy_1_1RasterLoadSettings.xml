@@ -9,21 +9,6 @@
         <argsstring></argsstring>
         <name>_offsetof_progress</name>
         <qualifiedname>mrmeshpy.RasterLoadSettings._offsetof_progress</qualifiedname>
-        <initializer>=  8</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42157" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1RasterLoadSettings_1a06fc1e46b8f4b3a17f7ccb724122b351" prot="protected" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrmeshpy.RasterLoadSettings::_offsetof_xf</definition>
-        <argsstring></argsstring>
-        <name>_offsetof_xf</name>
-        <qualifiedname>mrmeshpy.RasterLoadSettings._offsetof_xf</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -31,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42158" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42289" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -55,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42161" bodyend="42162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42292" bodyend="42293"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
@@ -77,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42165" bodyend="42166"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42296" bodyend="42297"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
@@ -99,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42169" bodyend="42170"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42300" bodyend="42301"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -119,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42172" bodyend="42173"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42303" bodyend="42304"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a5863b66276a91c30489a75bcc700f557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -143,21 +128,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42175" bodyend="42178"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42306" bodyend="42309"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a9cb30a53ec05c600bacb9817fc46272a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a6150bd56ce638c47edb3668320a056b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.RasterLoadSettings.__init__</definition>
-        <argsstring>(self, AffineXf3f xf, func_bool_from_float progress)</argsstring>
+        <argsstring>(self, func_bool_from_float progress)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.RasterLoadSettings.__init__</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
-          <declname>xf</declname>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
@@ -171,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42180" bodyend="42183"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42311" bodyend="42314"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a771ff5b403a4590121d6a77f04d9ed8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
@@ -191,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42185" bodyend="42188"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42316" bodyend="42319"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1aa7d0d51a6b5ba160167f53b92ecb7cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -213,50 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42190" bodyend="42191"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1a99328b0b3a144acea9c00bda5e051197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
-        <definition> AffineXf3f mrmeshpy.RasterLoadSettings.xf</definition>
-        <argsstring>(self)</argsstring>
-        <name>xf</name>
-        <qualifiedname>mrmeshpy.RasterLoadSettings.xf</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF),
-otherwise the identity
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42193" bodyend="42197"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoadSettings_1aaf3a84a878ee3b212aadd53246c49487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.RasterLoadSettings.xf</definition>
-        <argsstring>(self, AffineXf3f arg1)</argsstring>
-        <name>xf</name>
-        <qualifiedname>mrmeshpy.RasterLoadSettings.xf</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
-          <declname>arg1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42199" bodyend="42200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42321" bodyend="42322"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -267,20 +205,17 @@ otherwise the identity
 settings for loading rasters from external formats
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42151" bodyend="42200"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42283" bodyend="42322"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1aae65b3470d673f4de2dcb8a9c4ff7733" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1ae3712bdbc49fe5255af05b6a8cceb529" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1a5863b66276a91c30489a75bcc700f557" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a9cb30a53ec05c600bacb9817fc46272a" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a6150bd56ce638c47edb3668320a056b8" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1a11fa99dd64937886ce2b8a8642c8c267" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>_offsetof_progress</name></member>
-      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a06fc1e46b8f4b3a17f7ccb724122b351" prot="protected" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>_offsetof_xf</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1a26e5f87e3c53100eff35971020ed37a8" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1a771ff5b403a4590121d6a77f04d9ed8b" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>progress</name></member>
       <member refid="classmrmeshpy_1_1RasterLoadSettings_1aa7d0d51a6b5ba160167f53b92ecb7cc5" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>progress</name></member>
-      <member refid="classmrmeshpy_1_1RasterLoadSettings_1a99328b0b3a144acea9c00bda5e051197" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>xf</name></member>
-      <member refid="classmrmeshpy_1_1RasterLoadSettings_1aaf3a84a878ee3b212aadd53246c49487" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoadSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

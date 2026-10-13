@@ -7,7 +7,7 @@
     <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume" prot="public">mrmeshpy::VoxelsLoad::DicomVolume</innerclass>
     <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb" prot="public">mrmeshpy::VoxelsLoad::DicomVolumeAsVdb</innerclass>
     <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType" prot="public">mrmeshpy::VoxelsLoad::GridType</innerclass>
-    <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings" prot="public">mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</innerclass>
+    <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">mrmeshpy::VoxelsLoad::LoadingTiffSettings</innerclass>
     <innerclass refid="classmrmeshpy_1_1VoxelsLoad_1_1RawParameters" prot="public">mrmeshpy::VoxelsLoad::RawParameters</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a69efed3f38ce0f4014532dc5e1fad178" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -664,26 +664,25 @@ important on Windows: in stream must be open in binary mode
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="418" bodyend="421"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1ab45d1e6a2bd4f754b02de1a2720cd4c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1a58d2fe49221905c90b8728f9a6ab247a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
-        <definition> VdbVolume mrmeshpy.VoxelsLoad.loadRasterFolder</definition>
-        <argsstring>(VoxelsLoad.RasterFolderLoadSettings settings)</argsstring>
-        <name>loadRasterFolder</name>
-        <qualifiedname>mrmeshpy.VoxelsLoad.loadRasterFolder</qualifiedname>
+        <definition> VdbVolume mrmeshpy.VoxelsLoad.loadTiffDir</definition>
+        <argsstring>(VoxelsLoad.LoadingTiffSettings settings)</argsstring>
+        <name>loadTiffDir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.loadTiffDir</qualifiedname>
         <param>
-          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">VoxelsLoad.RasterFolderLoadSettings</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings" kindref="compound">VoxelsLoad.LoadingTiffSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>Load voxels from the raster files of a folder, a layer from each file: the files are those of the extension with a raster loader
-that most files have, sorted by name; they must have the same RasterInfo, their values are converted by convertRasterToFloats
+<para><verbatim>Load voxels from a set of TIFF files
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="423" bodyend="427"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="423" bodyend="426"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1aec2f331f785552d4d985f02e7484d81f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1LoadedObjects" kindref="compound">LoadedObjects</ref></type>
@@ -708,7 +707,7 @@ that most files have, sorted by name; they must have the same RasterInfo, their 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="429" bodyend="432"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="428" bodyend="431"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -717,7 +716,7 @@ that most files have, sorted by name; they must have the same RasterInfo, their 
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6" bodyend="432"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6" bodyend="431"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a69efed3f38ce0f4014532dc5e1fad178" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>createObjectVoxels</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a20d17c6e1d9e335e602b4a6873190d79" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>findDicomFoldersRecursively</name></member>
@@ -744,7 +743,7 @@ that most files have, sorted by name; they must have the same RasterInfo, their 
       <member refid="classmrmeshpy_1_1VoxelsLoad_1a2043806b904d21685bee977d3755d22f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>loadDicomsFolder</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1ae4167bf8c7e678bb39aaa939c1cc3326" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>loadDicomsFolderAsVdb</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1ab660a4c3a4a4553d99365b4053b4b5c9" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>loadDicomsFolderTreeAsVdb</name></member>
-      <member refid="classmrmeshpy_1_1VoxelsLoad_1ab45d1e6a2bd4f754b02de1a2720cd4c9" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>loadRasterFolder</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1a58d2fe49221905c90b8728f9a6ab247a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>loadTiffDir</name></member>
       <member refid="classmrmeshpy_1_1VoxelsLoad_1aec2f331f785552d4d985f02e7484d81f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad</scope><name>makeObjectVoxelsFromDicomFolder</name></member>
     </listofallmembers>
   </compounddef>

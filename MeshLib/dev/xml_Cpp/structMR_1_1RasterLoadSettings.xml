@@ -4,22 +4,6 @@
     <compoundname>MR::RasterLoadSettings</compoundname>
     <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1RasterLoadSettings_1ac90b0db79dd8dbe777a53e0e10528860" prot="public" static="no" mutable="no">
-        <type>AffineXf3f *</type>
-        <definition>AffineXf3f* MR::RasterLoadSettings::xf</definition>
-        <argsstring></argsstring>
-        <name>xf</name>
-        <qualifiedname>MR::RasterLoadSettings::xf</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRRaster.h" line="67" column="16" bodyfile="MRMesh/MRRaster.h" bodystart="67" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="structMR_1_1RasterLoadSettings_1a1489b5970837ecb1c1e1d14e59dcd27c" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::RasterLoadSettings::progress</definition>
@@ -33,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRaster.h" line="69" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="69" bodyend="-1"/>
+        <location file="MRMesh/MRRaster.h" line="56" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="56" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -41,10 +25,9 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRRaster.h" line="63" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="64" bodyend="70"/>
+    <location file="MRMesh/MRRaster.h" line="53" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="54" bodyend="57"/>
     <listofallmembers>
       <member refid="structMR_1_1RasterLoadSettings_1a1489b5970837ecb1c1e1d14e59dcd27c" prot="public" virt="non-virtual"><scope>MR::RasterLoadSettings</scope><name>progress</name></member>
-      <member refid="structMR_1_1RasterLoadSettings_1ac90b0db79dd8dbe777a53e0e10528860" prot="public" virt="non-virtual"><scope>MR::RasterLoadSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

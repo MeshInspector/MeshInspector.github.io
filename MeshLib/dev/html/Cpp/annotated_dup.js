@@ -317,7 +317,7 @@ var annotated_dup =
       [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", [
         [ "DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", "structMR_1_1VoxelsLoad_1_1DicomStatus" ],
         [ "DicomVolumeT", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
-        [ "RasterFolderLoadSettings", "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" ],
+        [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
         [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ]
       ] ],
       [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", [
@@ -359,6 +359,7 @@ var annotated_dup =
       [ "BaseFitParams", "structMR_1_1BaseFitParams.html", "structMR_1_1BaseFitParams" ],
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
       [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
+      [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
       [ "BaseUnionFind", "classMR_1_1BaseUnionFind.html", "classMR_1_1BaseUnionFind" ],
       [ "BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", "classMR_1_1BasicClickableRectUiRenderTask" ],
       [ "BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
@@ -918,6 +919,7 @@ var annotated_dup =
       [ "RasterInfo", "structMR_1_1RasterInfo.html", "structMR_1_1RasterInfo" ],
       [ "RasterLoadSettings", "structMR_1_1RasterLoadSettings.html", "structMR_1_1RasterLoadSettings" ],
       [ "RasterSaveSettings", "structMR_1_1RasterSaveSettings.html", "structMR_1_1RasterSaveSettings" ],
+      [ "RawTiffOutput", "structMR_1_1RawTiffOutput.html", "structMR_1_1RawTiffOutput" ],
       [ "RayOrigin", "structMR_1_1RayOrigin.html", "structMR_1_1RayOrigin" ],
       [ "RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", "structMR_1_1RebuildMeshSettings" ],
       [ "RecentFilesStore", "classMR_1_1RecentFilesStore.html", "classMR_1_1RecentFilesStore" ],
@@ -1076,7 +1078,7 @@ var annotated_dup =
       [ "Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", "classMR_1_1Tgt2SrcMaps" ],
       [ "ThickenParams", "structMR_1_1ThickenParams.html", "structMR_1_1ThickenParams" ],
       [ "ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", "structMR_1_1ThreadRootTimeRecord" ],
-      [ "TiffSaveSettings", "structMR_1_1TiffSaveSettings.html", "structMR_1_1TiffSaveSettings" ],
+      [ "TiffParameters", "structMR_1_1TiffParameters.html", "structMR_1_1TiffParameters" ],
       [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],
       [ "TimeRecord", "structMR_1_1TimeRecord.html", "structMR_1_1TimeRecord" ],
       [ "Toolbar", "classMR_1_1Toolbar.html", "classMR_1_1Toolbar" ],
@@ -1192,6 +1194,7 @@ var annotated_dup =
       [ "WebRequest", "classMR_1_1WebRequest.html", "classMR_1_1WebRequest" ],
       [ "WeightedVertexT", "structMR_1_1WeightedVertexT.html", "structMR_1_1WeightedVertexT" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
+      [ "WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", "structMR_1_1WriteRawTiffParams" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
       [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ],

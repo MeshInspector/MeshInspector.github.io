@@ -140,19 +140,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="38" column="24"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" prot="public" static="no">
-        <type>struct <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref></type>
-        <definition>typedef struct MR_VoxelsLoad_RasterFolderLoadSettings MR_VoxelsLoad_RasterFolderLoadSettings</definition>
+      <memberdef kind="typedef" id="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref></type>
+        <definition>typedef struct MR_VoxelsLoad_LoadingTiffSettings MR_VoxelsLoad_LoadingTiffSettings</definition>
         <argsstring></argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings</name>
+        <name>MR_VoxelsLoad_LoadingTiffSettings</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="42" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="42" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" bodystart="42" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -937,31 +937,31 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="277" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="277" declcolumn="56"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1aa11db2fdfe0b70c6129d874a4d4337c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1aa8912e897ed96dc28ba096eec2046e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
-        <definition>MRC_API const MR_std_filesystem_path * MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir</name>
+        <definition>MRC_API const MR_std_filesystem_path * MR_VoxelsLoad_LoadingTiffSettings_Get_dir</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Get_dir</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="283" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="283" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a846a56ce8a87bf7da57717d836e87249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1ad266fb0a060dcc4d8dadaf99c3928267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelsLoad_RasterFolderLoadSettings_Set_dir</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this, const char *value, const char *value_end)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Set_dir</name>
+        <definition>MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_dir</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Set_dir</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -975,55 +975,55 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>dir</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>dir</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="290" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a652a9987859cb0f9dd2bfa196e11099c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a20be48a5eaee620097c06f457c55c9a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref> *</type>
-        <definition>MRC_API MR_std_filesystem_path * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</name>
+        <definition>MRC_API MR_std_filesystem_path * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>dir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="296" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="296" declcolumn="32"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1ae089794b114c2f2a7d835d946c498e5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a0147a46a348f40ce96674a59aaa2b042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
-        <definition>MRC_API const MR_Vector3f * MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize</name>
+        <definition>MRC_API const MR_Vector3f * MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="302" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="302" declcolumn="27"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a669d131c18a4855934768f7b88615857" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1aeff961572e1fc4390d5d7d363df57d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelsLoad_RasterFolderLoadSettings_Set_voxelSize</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this, MR_Vector3f value)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Set_voxelSize</name>
+        <definition>MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this, MR_Vector3f value)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1033,55 +1033,55 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>voxelSize</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>voxelSize</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="308" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="308" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a54a9f7782f0a015c1c34d91b6d8eb8de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a5da79e2e4e8a071981b719bc17ed69fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
-        <definition>MRC_API MR_Vector3f * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_voxelSize</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_voxelSize</name>
+        <definition>MRC_API MR_Vector3f * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="314" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="314" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1ad8a5b2bbdf0d8a3718e9168f7b6507dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a3a9880d183d9c1d412afeedfc1a5d535" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref> *</type>
-        <definition>MRC_API const MR_VoxelsLoad_GridType * MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType</name>
+        <definition>MRC_API const MR_VoxelsLoad_GridType * MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>gridType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>gridType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="320" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="320" declcolumn="38"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a6e7d46892840baa3a945fa17e7cb0b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a28b7293a8999ff7f62842b9d13aec1e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelsLoad_RasterFolderLoadSettings_Set_gridType</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this, MR_VoxelsLoad_GridType value)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Set_gridType</name>
+        <definition>MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_gridType</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this, MR_VoxelsLoad_GridType value)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Set_gridType</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1091,55 +1091,55 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>gridType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>gridType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>gridType</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>gridType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>gridType</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>gridType</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="326" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="326" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a5b07c7029c71b7c72c2db5b471ef7ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a771732e5673994c5cb305a05051fc422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_GridType * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_gridType</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_gridType</name>
+        <definition>MRC_API MR_VoxelsLoad_GridType * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>gridType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>gridType</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="332" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="332" declcolumn="32"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a80baa874464bbcf263e9b33c84b8778f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a6e0dc8f72313b22622e4fb5b5d749168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
-        <definition>MRC_API const MR_std_function_bool_from_float * MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb</name>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_VoxelsLoad_LoadingTiffSettings_Get_cb</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Get_cb</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="338" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="338" declcolumn="47"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1aa04c3f267cb0110a80f0bc54c8e97e0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a04e4ac89ebcfbd947135caa095e07f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelsLoad_RasterFolderLoadSettings_Set_cb</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Set_cb</name>
+        <definition>MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_cb</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Set_cb</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1153,52 +1153,52 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
+<para>Modifies a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>cb</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="344" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="344" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a87a1e1b513c33ad72314c4d3643e1fc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1adf1fe2aaeca45d7e63dbd9eee463d04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
-        <definition>MRC_API MR_std_function_bool_from_float * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</name>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="350" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="350" declcolumn="41"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1ad05b8b56bead63bc8d985ea3c710288b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</definition>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a131e02a16948d22dc6dc25cfebac26e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</name>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</name>
         <param>
           <type>void</type>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsLoad_8h_1a7b0da7d1d589691555b792fb72dfecc6" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsLoad_8h_1a232ccf76360eabacbd668f5cb7d6af7a" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="354" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="354" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="354" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="354" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a157540e651165096a31a15975e556fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstructArray</definition>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a8997c99acd68bb0ea17b3885d8968b0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstructArray</name>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray</name>
         <param>
           <type>size_t</type>
           <declname>num_elems</declname>
@@ -1206,17 +1206,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVoxelsLoad_8h_1a12a1a0caec74d3815f7db733efccf27e" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVoxelsLoad_8h_1a36057b85cbfaa6988a57e6cad9d3d85f" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVoxelsLoad_8h_1a5f3d6be556f42b07dca5c3658e5e26d9" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVoxelsLoad_8h_1a7dc8b7961625eb5f5923659fb317a30b" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVoxelsLoad_8h_1af851854396e80a2a6ff71586bd303862" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVoxelsLoad_8h_1a373c3dc98c987a14b9a7f64e064a6286" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="359" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="359" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="359" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="359" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a5b09a6751681c10c0feabfd14388badf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</definition>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1aa8b28dc0590689ff3253f1b020e06d06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</definition>
         <argsstring>(const char *dir, const char *dir_end, MR_Vector3f voxelSize, MR_VoxelsLoad_GridType gridType, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</name>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</name>
         <param>
           <type>const char *</type>
           <declname>dir</declname>
@@ -1244,19 +1244,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings</computeroutput> elementwise. Parameter <computeroutput>dir</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>gridType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsLoad_8h_1a7b0da7d1d589691555b792fb72dfecc6" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+<para>Constructs <computeroutput>MR::VoxelsLoad::LoadingTiffSettings</computeroutput> elementwise. Parameter <computeroutput>dir</computeroutput> is a UTF-8 encoded filesystem path. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>voxelSize</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>gridType</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsLoad_8h_1a232ccf76360eabacbd668f5cb7d6af7a" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="369" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="369" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="369" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="369" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a5f3d6be556f42b07dca5c3658e5e26d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API const MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr</name>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a373c3dc98c987a14b9a7f64e064a6286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API const MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -1270,15 +1270,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="373" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="373" declcolumn="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="373" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="373" declcolumn="49"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a36057b85cbfaa6988a57e6cad9d3d85f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr</name>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1af851854396e80a2a6ff71586bd303862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -1292,41 +1292,41 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="377" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="377" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="377" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="377" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a863b96fc240c9a0098436a51374c2157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</definition>
-        <argsstring>(MR_PassBy _other_pass_by, MR_VoxelsLoad_RasterFolderLoadSettings *_other)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</name>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a270de112e16d9c71bbe683512efd0cfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_VoxelsLoad_LoadingTiffSettings *_other)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</name>
         <param>
           <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings::RasterFolderLoadSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsLoad_8h_1a7b0da7d1d589691555b792fb72dfecc6" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsLoad::LoadingTiffSettings::LoadingTiffSettings</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsLoad_8h_1a232ccf76360eabacbd668f5cb7d6af7a" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="382" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="382" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="382" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="382" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a7b0da7d1d589691555b792fb72dfecc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a232ccf76360eabacbd668f5cb7d6af7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelsLoad_RasterFolderLoadSettings_Destroy</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_Destroy</name>
+        <definition>MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Destroy</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_Destroy</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1334,17 +1334,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="385" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="385" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a12a1a0caec74d3815f7db733efccf27e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a7dc8b7961625eb5f5923659fb317a30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *_this)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray</name>
+        <definition>MRC_API void MR_VoxelsLoad_LoadingTiffSettings_DestroyArray</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *_this)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1352,13 +1352,13 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="388" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="388" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1af35eeafd809143e3ac26752683d2d99a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
-        <definition>MRC_API MR_VoxelsLoad_RasterFolderLoadSettings * MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</definition>
-        <argsstring>(MR_VoxelsLoad_RasterFolderLoadSettings *_this, MR_PassBy _other_pass_by, MR_VoxelsLoad_RasterFolderLoadSettings *_other)</argsstring>
-        <name>MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</name>
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1aa67b2a467727a9365a09899f7ae70e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
+        <definition>MRC_API MR_VoxelsLoad_LoadingTiffSettings * MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</definition>
+        <argsstring>(MR_VoxelsLoad_LoadingTiffSettings *_this, MR_PassBy _other_pass_by, MR_VoxelsLoad_LoadingTiffSettings *_other)</argsstring>
+        <name>MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -1366,35 +1366,35 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelsLoad::RasterFolderLoadSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelsLoad::LoadingTiffSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="395" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="395" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="395" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="395" declcolumn="43"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsLoad_8h_1a5f91f1d2af44f34cae660b667de1fee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsLoad_8h_1a9a9c31128691bcc88e2fc8132dd4ef1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VdbVolume__std__string_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_MR_VdbVolume_std_string * MR_VoxelsLoad_loadRasterFolder</definition>
-        <argsstring>(const MR_VoxelsLoad_RasterFolderLoadSettings *settings)</argsstring>
-        <name>MR_VoxelsLoad_loadRasterFolder</name>
+        <definition>MRC_API MR_expected_MR_VdbVolume_std_string * MR_VoxelsLoad_loadTiffDir</definition>
+        <argsstring>(const MR_VoxelsLoad_LoadingTiffSettings *settings)</argsstring>
+        <name>MR_VoxelsLoad_loadTiffDir</name>
         <param>
-          <type>const <ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref> *</type>
+          <type>const <ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref> *</type>
           <declname>settings</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Load voxels from the raster files of a folder, a layer from each file: the files are those of the extension with a raster loader that most files have, sorted by name; they must have the same RasterInfo, their values are converted by convertRasterToFloats Generated from function <computeroutput>MR::VoxelsLoad::loadRasterFolder</computeroutput>. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__VdbVolume__std__string_8h_1a63d0432e270cbf6256899313477a31d9" kindref="member">MR_expected_MR_VdbVolume_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Load voxels from a set of TIFF files Generated from function <computeroutput>MR::VoxelsLoad::loadTiffDir</computeroutput>. Parameter <computeroutput>settings</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__VdbVolume__std__string_8h_1a63d0432e270cbf6256899313477a31d9" kindref="member">MR_expected_MR_VdbVolume_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="402" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="402" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="401" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="401" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsLoad_8h_1a1ef86ceb605d0bffae3b67211a5598b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h_1ac9916094f7c66b0214a856e06fe3ea70" kindref="member">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</ref> *</type>
@@ -1424,7 +1424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="409" column="74" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="409" declcolumn="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="408" column="74" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="408" declcolumn="74"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsLoad_8h_1a52b39239ae5695304c1d98ff2d13b7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref> *</type>
@@ -1450,7 +1450,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="416" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="416" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" line="415" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h" declline="415" declcolumn="49"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1495,7 +1495,7 @@
 <codeline lineno="37" refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3ea47d65f766447b295a21ed3614b20b22b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3ea47d65f766447b295a21ed3614b20b22b" kindref="member">MR_VoxelsLoad_GridType_LevelSet</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="38" refid="MRVoxelsLoad_8h_1a48dc9955a7e911e90a30f8306223fce3" refkind="member"><highlight class="normal">}<sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref>;</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref>;</highlight></codeline>
+<codeline lineno="42" refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref>;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48" refid="MRVoxelsLoad_8h_1a6d7c799106ec441c3db3a48ba3b253cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a6d7c799106ec441c3db3a48ba3b253cd" kindref="member">MR_VoxelsLoad_RawParameters_Get_dimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VoxelsLoad__RawParameters__std__string_8h_1af646f8f51576a586c8b409eb6b38e998" kindref="member">MR_VoxelsLoad_RawParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
@@ -1567,57 +1567,57 @@
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
 <codeline lineno="277" refid="MRVoxelsLoad_8h_1ac51c63e42adaafa76c997bf7e57243cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ae3ba0e6af4325538adb54422bf66550e" kindref="member">MR_expected_std_vector_MR_VdbVolume_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1ac51c63e42adaafa76c997bf7e57243cc" kindref="member">MR_VoxelsLoad_fromAnySupportedFormat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283" refid="MRVoxelsLoad_8h_1aa11db2fdfe0b70c6129d874a4d4337c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1aa11db2fdfe0b70c6129d874a4d4337c5" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="283" refid="MRVoxelsLoad_8h_1aa8912e897ed96dc28ba096eec2046e8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1aa8912e897ed96dc28ba096eec2046e8a" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Get_dir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MRVoxelsLoad_8h_1a846a56ce8a87bf7da57717d836e87249" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a846a56ce8a87bf7da57717d836e87249" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Set_dir</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="290" refid="MRVoxelsLoad_8h_1ad266fb0a060dcc4d8dadaf99c3928267" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1ad266fb0a060dcc4d8dadaf99c3928267" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Set_dir</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="296" refid="MRVoxelsLoad_8h_1a652a9987859cb0f9dd2bfa196e11099c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a652a9987859cb0f9dd2bfa196e11099c" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="296" refid="MRVoxelsLoad_8h_1a20be48a5eaee620097c06f457c55c9a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPly_8h_1a006d61fd2048bba5b5622d42cbe72526" kindref="member">MR_std_filesystem_path</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a20be48a5eaee620097c06f457c55c9a1" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="297"><highlight class="normal"></highlight></codeline>
-<codeline lineno="302" refid="MRVoxelsLoad_8h_1ae089794b114c2f2a7d835d946c498e5d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1ae089794b114c2f2a7d835d946c498e5d" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="302" refid="MRVoxelsLoad_8h_1a0147a46a348f40ce96674a59aaa2b042" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a0147a46a348f40ce96674a59aaa2b042" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308" refid="MRVoxelsLoad_8h_1a669d131c18a4855934768f7b88615857" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a669d131c18a4855934768f7b88615857" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Set_voxelSize</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="308" refid="MRVoxelsLoad_8h_1aeff961572e1fc4390d5d7d363df57d7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeff961572e1fc4390d5d7d363df57d7d" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="MRVoxelsLoad_8h_1a54a9f7782f0a015c1c34d91b6d8eb8de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a54a9f7782f0a015c1c34d91b6d8eb8de" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_voxelSize</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="314" refid="MRVoxelsLoad_8h_1a5da79e2e4e8a071981b719bc17ed69fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a5da79e2e4e8a071981b719bc17ed69fd" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="320" refid="MRVoxelsLoad_8h_1ad8a5b2bbdf0d8a3718e9168f7b6507dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1ad8a5b2bbdf0d8a3718e9168f7b6507dc" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="320" refid="MRVoxelsLoad_8h_1a3a9880d183d9c1d412afeedfc1a5d535" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a3a9880d183d9c1d412afeedfc1a5d535" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRVoxelsLoad_8h_1a6e7d46892840baa3a945fa17e7cb0b6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a6e7d46892840baa3a945fa17e7cb0b6c" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Set_gridType</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>value);</highlight></codeline>
+<codeline lineno="326" refid="MRVoxelsLoad_8h_1a28b7293a8999ff7f62842b9d13aec1e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a28b7293a8999ff7f62842b9d13aec1e9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Set_gridType</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this,<sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>value);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRVoxelsLoad_8h_1a5b07c7029c71b7c72c2db5b471ef7ad2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a5b07c7029c71b7c72c2db5b471ef7ad2" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_gridType</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="332" refid="MRVoxelsLoad_8h_1a771732e5673994c5cb305a05051fc422" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a771732e5673994c5cb305a05051fc422" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338" refid="MRVoxelsLoad_8h_1a80baa874464bbcf263e9b33c84b8778f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a80baa874464bbcf263e9b33c84b8778f" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="338" refid="MRVoxelsLoad_8h_1a6e0dc8f72313b22622e4fb5b5d749168" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a6e0dc8f72313b22622e4fb5b5d749168" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344" refid="MRVoxelsLoad_8h_1aa04c3f267cb0110a80f0bc54c8e97e0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aa04c3f267cb0110a80f0bc54c8e97e0e" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Set_cb</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="344" refid="MRVoxelsLoad_8h_1a04e4ac89ebcfbd947135caa095e07f7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a04e4ac89ebcfbd947135caa095e07f7e" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Set_cb</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="350" refid="MRVoxelsLoad_8h_1a87a1e1b513c33ad72314c4d3643e1fc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a87a1e1b513c33ad72314c4d3643e1fc8" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="350" refid="MRVoxelsLoad_8h_1adf1fe2aaeca45d7e63dbd9eee463d04c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1adf1fe2aaeca45d7e63dbd9eee463d04c" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"></highlight></codeline>
-<codeline lineno="354" refid="MRVoxelsLoad_8h_1ad05b8b56bead63bc8d985ea3c710288b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1ad05b8b56bead63bc8d985ea3c710288b" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="354" refid="MRVoxelsLoad_8h_1a131e02a16948d22dc6dc25cfebac26e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a131e02a16948d22dc6dc25cfebac26e0" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="355"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="MRVoxelsLoad_8h_1a157540e651165096a31a15975e556fb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a157540e651165096a31a15975e556fb7" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="359" refid="MRVoxelsLoad_8h_1a8997c99acd68bb0ea17b3885d8968b0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a8997c99acd68bb0ea17b3885d8968b0d" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="369" refid="MRVoxelsLoad_8h_1a5b09a6751681c10c0feabfd14388badf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a5b09a6751681c10c0feabfd14388badf" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>voxelSize,<sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>gridType,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="369" refid="MRVoxelsLoad_8h_1aa8b28dc0590689ff3253f1b020e06d06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1aa8b28dc0590689ff3253f1b020e06d06" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dir_end,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>voxelSize,<sp/><ref refid="MRVoxelsLoad_8h_1ade81850d307663037a73e44454100a3e" kindref="member">MR_VoxelsLoad_GridType</ref><sp/>gridType,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="370"><highlight class="normal"></highlight></codeline>
-<codeline lineno="373" refid="MRVoxelsLoad_8h_1a5f3d6be556f42b07dca5c3658e5e26d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a5f3d6be556f42b07dca5c3658e5e26d9" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="373" refid="MRVoxelsLoad_8h_1a373c3dc98c987a14b9a7f64e064a6286" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a373c3dc98c987a14b9a7f64e064a6286" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="377" refid="MRVoxelsLoad_8h_1a36057b85cbfaa6988a57e6cad9d3d85f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a36057b85cbfaa6988a57e6cad9d3d85f" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="377" refid="MRVoxelsLoad_8h_1af851854396e80a2a6ff71586bd303862" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1af851854396e80a2a6ff71586bd303862" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="378"><highlight class="normal"></highlight></codeline>
-<codeline lineno="382" refid="MRVoxelsLoad_8h_1a863b96fc240c9a0098436a51374c2157" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a863b96fc240c9a0098436a51374c2157" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="382" refid="MRVoxelsLoad_8h_1a270de112e16d9c71bbe683512efd0cfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a270de112e16d9c71bbe683512efd0cfa" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="383"><highlight class="normal"></highlight></codeline>
-<codeline lineno="385" refid="MRVoxelsLoad_8h_1a7b0da7d1d589691555b792fb72dfecc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a7b0da7d1d589691555b792fb72dfecc6" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="385" refid="MRVoxelsLoad_8h_1a232ccf76360eabacbd668f5cb7d6af7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a232ccf76360eabacbd668f5cb7d6af7a" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="386"><highlight class="normal"></highlight></codeline>
-<codeline lineno="388" refid="MRVoxelsLoad_8h_1a12a1a0caec74d3815f7db733efccf27e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a12a1a0caec74d3815f7db733efccf27e" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="388" refid="MRVoxelsLoad_8h_1a7dc8b7961625eb5f5923659fb317a30b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a7dc8b7961625eb5f5923659fb317a30b" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="389"><highlight class="normal"></highlight></codeline>
-<codeline lineno="395" refid="MRVoxelsLoad_8h_1af35eeafd809143e3ac26752683d2d99a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1af35eeafd809143e3ac26752683d2d99a" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="395" refid="MRVoxelsLoad_8h_1aa67b2a467727a9365a09899f7ae70e8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1aa67b2a467727a9365a09899f7ae70e8f" kindref="member">MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</ref>(<ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="402" refid="MRVoxelsLoad_8h_1a5f91f1d2af44f34cae660b667de1fee7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a5f91f1d2af44f34cae660b667de1fee7" kindref="member">MR_VoxelsLoad_loadRasterFolder</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1a67e79feb44820d200be6fd57c1090360" kindref="member">MR_VoxelsLoad_RasterFolderLoadSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="403"><highlight class="normal"></highlight></codeline>
-<codeline lineno="409" refid="MRVoxelsLoad_8h_1a1ef86ceb605d0bffae3b67211a5598b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h_1ac9916094f7c66b0214a856e06fe3ea70" kindref="member">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a1ef86ceb605d0bffae3b67211a5598b2" kindref="member">MR_makeObjectVoxelsFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="410"><highlight class="normal"></highlight></codeline>
-<codeline lineno="416" refid="MRVoxelsLoad_8h_1a52b39239ae5695304c1d98ff2d13b7bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a52b39239ae5695304c1d98ff2d13b7bc" kindref="member">MR_makeObjectFromVoxelsFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
-<codeline lineno="417"><highlight class="normal"></highlight></codeline>
-<codeline lineno="418"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="419"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="420"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="401" refid="MRVoxelsLoad_8h_1a9a9c31128691bcc88e2fc8132dd4ef1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a61cd90e7a5c3eb5c7524a41ee1678db1" kindref="member">MR_expected_MR_VdbVolume_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a9a9c31128691bcc88e2fc8132dd4ef1a" kindref="member">MR_VoxelsLoad_loadTiffDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsLoad_8h_1aeb55c2e7200cad314e4876ce3d2d50a9" kindref="member">MR_VoxelsLoad_LoadingTiffSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408" refid="MRVoxelsLoad_8h_1a1ef86ceb605d0bffae3b67211a5598b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h_1ac9916094f7c66b0214a856e06fe3ea70" kindref="member">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a1ef86ceb605d0bffae3b67211a5598b2" kindref="member">MR_makeObjectVoxelsFromFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="MRVoxelsLoad_8h_1a52b39239ae5695304c1d98ff2d13b7bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRVoxelsLoad_8h_1a52b39239ae5695304c1d98ff2d13b7bc" kindref="member">MR_makeObjectFromVoxelsFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsLoad.h"/>
   </compounddef>

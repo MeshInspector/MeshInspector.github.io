@@ -4,7 +4,7 @@
     <compoundname>VoxelsLoadGroup</compoundname>
     <title>Voxels Load</title>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
-    <innerclass refid="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" prot="public">MR::VoxelsLoad::RasterFolderLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">MR::VoxelsLoad::LoadingTiffSettings</innerclass>
     <sectiondef kind="enum">
       <memberdef kind="enum" id="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" prot="public" static="no" strong="yes">
         <type></type>
@@ -39,20 +39,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="group__VoxelsLoadGroup_1ga707920855f52f8e5871fc6c0056a6002" prot="public" static="no">
-        <type>RasterFolderLoadSettings</type>
-        <definition>using MR::VoxelsLoad::MR_BIND_IGNORE =  RasterFolderLoadSettings</definition>
-        <argsstring></argsstring>
-        <name>MR_BIND_IGNORE</name>
-        <qualifiedname>MR::VoxelsLoad::MR_BIND_IGNORE</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="103" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="103" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="group__VoxelsLoadGroup_1gac95950f875729ac15c011d99d4624d96" prot="public" static="no">
         <type>Expected&lt; std::vector&lt; VdbVolume &gt; &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
         <definition>using MR::VoxelsLoad::VoxelsLoader =  Expected&lt;std::vector&lt;VdbVolume&gt;&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
@@ -60,12 +46,13 @@
         <name>VoxelsLoader</name>
         <qualifiedname>MR::VoxelsLoad::VoxelsLoader</qualifiedname>
         <briefdescription>
+<para>MRVOXELS_NO_TIFF. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="111" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="111" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="105" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="105" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -128,26 +115,26 @@
         </inbodydescription>
         <location file="MRVoxels/MRVoxelsLoad.h" line="27" column="16" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="27" bodyend="27"/>
       </memberdef>
-      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga6f55869c63bb8067acb4a7014d657fee" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" prot="public" static="no" mutable="no">
         <type>std::filesystem::path</type>
-        <definition>std::filesystem::path MR::VoxelsLoad::RasterFolderLoadSettings::dir</definition>
+        <definition>std::filesystem::path MR::VoxelsLoad::LoadingTiffSettings::dir</definition>
         <argsstring></argsstring>
         <name>dir</name>
-        <qualifiedname>MR::VoxelsLoad::RasterFolderLoadSettings::dir</qualifiedname>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::dir</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="94" column="27" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="94" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="95" column="27" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="95" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga6b44bc2d62818582cfdb8a9d739e7122" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga39c8477a2a590bcaef5179d861b7f1de" prot="public" static="no" mutable="no">
         <type>Vector3f</type>
-        <definition>Vector3f MR::VoxelsLoad::RasterFolderLoadSettings::voxelSize</definition>
+        <definition>Vector3f MR::VoxelsLoad::LoadingTiffSettings::voxelSize</definition>
         <argsstring></argsstring>
         <name>voxelSize</name>
-        <qualifiedname>MR::VoxelsLoad::RasterFolderLoadSettings::voxelSize</qualifiedname>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::voxelSize</qualifiedname>
         <initializer>= { 1.0f, 1.0f, 1.0f }</initializer>
         <briefdescription>
         </briefdescription>
@@ -155,14 +142,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="95" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="95" bodyend="95"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="96" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="96" bodyend="96"/>
       </memberdef>
-      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga8f8a4ec016fe0cb39efd887065b6ced9" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga162c946b965977a5048ed85b3b7d1293" prot="public" static="no" mutable="no">
         <type>GridType</type>
-        <definition>GridType MR::VoxelsLoad::RasterFolderLoadSettings::gridType</definition>
+        <definition>GridType MR::VoxelsLoad::LoadingTiffSettings::gridType</definition>
         <argsstring></argsstring>
         <name>gridType</name>
-        <qualifiedname>MR::VoxelsLoad::RasterFolderLoadSettings::gridType</qualifiedname>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::gridType</qualifiedname>
         <initializer>= GridType::DenseGrid</initializer>
         <briefdescription>
         </briefdescription>
@@ -170,14 +157,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="96" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="96" bodyend="-1"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="97" column="14" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="97" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__VoxelsLoadGroup_1ga6b30b1186e44ca7bf4c9f5d09853ad8c" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__VoxelsLoadGroup_1gad7f6150701181ada771a2322643a89dd" prot="public" static="no" mutable="no">
         <type>ProgressCallback</type>
-        <definition>ProgressCallback MR::VoxelsLoad::RasterFolderLoadSettings::cb</definition>
+        <definition>ProgressCallback MR::VoxelsLoad::LoadingTiffSettings::cb</definition>
         <argsstring></argsstring>
         <name>cb</name>
-        <qualifiedname>MR::VoxelsLoad::RasterFolderLoadSettings::cb</qualifiedname>
+        <qualifiedname>MR::VoxelsLoad::LoadingTiffSettings::cb</qualifiedname>
         <initializer>= {}</initializer>
         <briefdescription>
         </briefdescription>
@@ -185,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="97" column="22" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="97" bodyend="97"/>
+        <location file="MRVoxels/MRVoxelsLoad.h" line="98" column="22" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="98" bodyend="98"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -543,42 +530,24 @@
         </inbodydescription>
         <location file="MRVoxels/MRVoxelsLoad.h" line="80" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="80" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga2b3126db75b88eeee5be2e16619f48be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; VdbVolume &gt;</type>
-        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::loadRasterFolder</definition>
-        <argsstring>(const RasterFolderLoadSettings &amp;settings)</argsstring>
-        <name>loadRasterFolder</name>
-        <qualifiedname>MR::VoxelsLoad::loadRasterFolder</qualifiedname>
+        <definition>Expected&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir</definition>
+        <argsstring>(const LoadingTiffSettings &amp;settings)</argsstring>
+        <name>loadTiffDir</name>
+        <qualifiedname>MR::VoxelsLoad::loadTiffDir</qualifiedname>
         <param>
-          <type>const RasterFolderLoadSettings &amp;</type>
+          <type>const LoadingTiffSettings &amp;</type>
           <declname>settings</declname>
         </param>
         <briefdescription>
+<para>Load voxels from a set of TIFF files. </para>
         </briefdescription>
         <detaileddescription>
-<para>Load voxels from the raster files of a folder, a layer from each file: the files are those of the extension with a raster loader that most files have, sorted by name; they must have the same <ref refid="structMR_1_1RasterInfo" kindref="compound">RasterInfo</ref>, their values are converted by convertRasterToFloats </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="MRVoxels/MRVoxelsLoad.h" line="101" column="11" declfile="MRVoxels/MRVoxelsLoad.h" declline="101" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga0960ce4def7ec9ddd1ca37933d82542b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>MR_BIND_IGNORE Expected&lt; VdbVolume &gt;</type>
-        <definition>MR_BIND_IGNORE Expected&lt; VdbVolume &gt; MR::VoxelsLoad::loadTiffDir</definition>
-        <argsstring>(const RasterFolderLoadSettings &amp;settings)</argsstring>
-        <name>loadTiffDir</name>
-        <qualifiedname>MR::VoxelsLoad::loadTiffDir</qualifiedname>
-        <param>
-          <type>const RasterFolderLoadSettings &amp;</type>
-          <declname>settings</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRVoxels/MRVoxelsLoad.h" line="105" column="32" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="105" bodyend="108"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

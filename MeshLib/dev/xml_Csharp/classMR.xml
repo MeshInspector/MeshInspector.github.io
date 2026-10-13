@@ -899,7 +899,6 @@
     <innerclass refid="classMR_1_1Const__TexturePerFace" prot="public">MR::Const_TexturePerFace</innerclass>
     <innerclass refid="classMR_1_1Const__Tgt2SrcMaps" prot="public">MR::Const_Tgt2SrcMaps</innerclass>
     <innerclass refid="classMR_1_1Const__ThickenParams" prot="public">MR::Const_ThickenParams</innerclass>
-    <innerclass refid="classMR_1_1Const__TiffSaveSettings" prot="public">MR::Const_TiffSaveSettings</innerclass>
     <innerclass refid="classMR_1_1Const__ToolPathParams" prot="public">MR::Const_ToolPathParams</innerclass>
     <innerclass refid="classMR_1_1Const__ToolPathResult" prot="public">MR::Const_ToolPathResult</innerclass>
     <innerclass refid="classMR_1_1Const__TransformedMesh" prot="public">MR::Const_TransformedMesh</innerclass>
@@ -1713,7 +1712,6 @@
     <innerclass refid="classMR_1_1TexturePerFace" prot="public">MR::TexturePerFace</innerclass>
     <innerclass refid="classMR_1_1Tgt2SrcMaps" prot="public">MR::Tgt2SrcMaps</innerclass>
     <innerclass refid="classMR_1_1ThickenParams" prot="public">MR::ThickenParams</innerclass>
-    <innerclass refid="classMR_1_1TiffSaveSettings" prot="public">MR::TiffSaveSettings</innerclass>
     <innerclass refid="classMR_1_1ToolPathParams" prot="public">MR::ToolPathParams</innerclass>
     <innerclass refid="classMR_1_1ToolPathResult" prot="public">MR::ToolPathResult</innerclass>
     <innerclass refid="classMR_1_1TransformedMesh" prot="public">MR::TransformedMesh</innerclass>
@@ -36550,30 +36548,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1206" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="1206" bodyend="1212"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1aae7fd0badd4a9edf6846b485b4f8c257" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.convertRasterToFloats</definition>
-        <argsstring>(MR.Const_Raster raster, MR.Std.Vector_Float dst)</argsstring>
-        <name>convertRasterToFloats</name>
-        <qualifiedname>MR.convertRasterToFloats</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Raster" kindref="compound">MR.Const_Raster</ref></type>
-          <declname>raster</declname>
-        </param>
-        <param>
-          <type>MR.Std.Vector_Float</type>
-          <declname>dst</declname>
-        </param>
-        <briefdescription>
-<para>converts the values of a raster to floats as above, dst is resized to dims.x * dims.y * dims.z values (memory is reallocated only if its capacity is too small) Generated from function <computeroutput><ref refid="classMR_1aae7fd0badd4a9edf6846b485b4f8c257" kindref="member">MR.convertRasterToFloats</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1219" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="1219" bodyend="1224"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1112" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="1112" bodyend="1118"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a92d5d2a460180c528dd10abce7ccbf68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1aa2556093ed70e2854dc1e4adfa12ce79" kindref="member">MR.OutEdge2</ref></type>
@@ -55392,7 +55367,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="849" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="849" bodyend="859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="848" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="848" bodyend="858"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af23e52644e4563df7f9e7705d001ba91" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1LoadedObjects" kindref="compound">MR.LoadedObjects</ref></type>
@@ -55416,7 +55391,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="865" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="865" bodyend="875"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="864" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="864" bodyend="874"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aee2e28be1e6d52e1f413f8163274d93e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -82299,28 +82274,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="428" column="63"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a3266f8f511d3969fd4668a9587a713cb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.__MR_convertRasterToFloats</definition>
-        <argsstring>(MR.Const_Raster._Underlying *raster, MR.Std.Vector_Float._Underlying *dst)</argsstring>
-        <name>__MR_convertRasterToFloats</name>
-        <qualifiedname>MR.__MR_convertRasterToFloats</qualifiedname>
-        <param>
-          <type>MR.Const_Raster._Underlying *</type>
-          <declname>raster</declname>
-        </param>
-        <param>
-          <type>MR.Std.Vector_Float._Underlying *</type>
-          <declname>dst</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1229" column="63"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1a4b34e4dfa49ee64c913873e4a678f897" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRImage_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_MRImage_StdString._Underlying * MR.__MR_convertRasterToImage</definition>
@@ -82337,7 +82290,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1232" column="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1123" column="66"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a2744172eb100bd7e09a232ee8265d976" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -99479,7 +99432,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="880" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="879" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3c42f0529e89cd7c1d5c9a4402e47111" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorStdSharedPtrMRObjectVoxels_StdString._Underlying *</type>
@@ -99509,7 +99462,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="883" column="94"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="882" column="94"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a80154cbda286925e89058648585b1d7c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
@@ -100148,7 +100101,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac3a4989161818cce10bd73a6afc2c58c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int</name></member>
       <member refid="classMR_1a78685b307fb8562ba4f17fedd4d2f2d2" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertMeshTriPointsToClosedContour</name></member>
       <member refid="classMR_1a9af14e425b8f7644b927d7b60169b0a1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertMeshTriPointsToMeshContour</name></member>
-      <member refid="classMR_1a3266f8f511d3969fd4668a9587a713cb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertRasterToFloats</name></member>
       <member refid="classMR_1a4b34e4dfa49ee64c913873e4a678f897" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertRasterToImage</name></member>
       <member refid="classMR_1a624b9e29d357c1ec6f005a48150751de" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertSurfacePathsToMeshContours</name></member>
       <member refid="classMR_1a8f5e0ca5e15a0a7366d94648bbe5a8f8" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_convertSurfacePathWithEndsToMeshContour</name></member>
@@ -102006,7 +101958,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a7b36dfa81f6516db1c9f6a19bce00cca" prot="public" virt="non-virtual"><scope>MR</scope><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
       <member refid="classMR_1a3e13ad5693207d2111e76373c99e70fd" prot="public" virt="non-virtual"><scope>MR</scope><name>convertMeshTriPointsToClosedContour</name></member>
       <member refid="classMR_1a4c21ee05149540c42fe44e772486a561" prot="public" virt="non-virtual"><scope>MR</scope><name>convertMeshTriPointsToMeshContour</name></member>
-      <member refid="classMR_1aae7fd0badd4a9edf6846b485b4f8c257" prot="public" virt="non-virtual"><scope>MR</scope><name>convertRasterToFloats</name></member>
       <member refid="classMR_1a948a1620c0d5bf5331e6995b5bb68528" prot="public" virt="non-virtual"><scope>MR</scope><name>convertRasterToImage</name></member>
       <member refid="classMR_1a17aadc79148649b96ee95169fb912b52" prot="public" virt="non-virtual"><scope>MR</scope><name>convertSurfacePathsToMeshContours</name></member>
       <member refid="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" prot="public" virt="non-virtual"><scope>MR</scope><name>convertSurfacePathWithEndsToMeshContour</name></member>

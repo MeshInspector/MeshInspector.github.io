@@ -109,6 +109,9 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "MR::BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", [
+      [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
+    ] ],
     [ "MR::BaseUnionFind< I >", "classMR_1_1BaseUnionFind.html", [
       [ "MR::ParallelUnionFind< I >", "classMR_1_1ParallelUnionFind.html", null ],
       [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ]
@@ -829,6 +832,7 @@ var hierarchy =
     [ "MR::LinesSave::LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", null ],
     [ "MR::LoadedObjects", "structMR_1_1LoadedObjects.html", null ],
     [ "MR::LoadedObjectT< ObjectT >", "structMR_1_1LoadedObjectT.html", null ],
+    [ "MR::VoxelsLoad::LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "MR::TbbThreadMutex::LockGuard", "classMR_1_1TbbThreadMutex_1_1LockGuard.html", null ],
     [ "MR::Logger", "classMR_1_1Logger.html", null ],
     [ "MR::MakeBridgeResult", "structMR_1_1MakeBridgeResult.html", null ],
@@ -1129,14 +1133,12 @@ var hierarchy =
     [ "MR::RangeProgress", "classMR_1_1RangeProgress.html", null ],
     [ "MR::RangeSize", "structMR_1_1RangeSize.html", null ],
     [ "MR::Raster", "structMR_1_1Raster.html", null ],
-    [ "MR::VoxelsLoad::RasterFolderLoadSettings", "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", null ],
     [ "MR::RasterInfo", "structMR_1_1RasterInfo.html", null ],
     [ "MR::RasterLoad::RasterLoader", "structMR_1_1RasterLoad_1_1RasterLoader.html", null ],
     [ "MR::RasterLoadSettings", "structMR_1_1RasterLoadSettings.html", null ],
-    [ "MR::RasterSaveSettings", "structMR_1_1RasterSaveSettings.html", [
-      [ "MR::TiffSaveSettings", "structMR_1_1TiffSaveSettings.html", null ]
-    ] ],
+    [ "MR::RasterSaveSettings", "structMR_1_1RasterSaveSettings.html", null ],
     [ "MR::VoxelsLoad::RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", null ],
+    [ "MR::RawTiffOutput", "structMR_1_1RawTiffOutput.html", null ],
     [ "MR::RayOrigin< T >", "structMR_1_1RayOrigin.html", null ],
     [ "MR::EdgePathsBuilderT< MetricToPenalty >::ReachedVert", "structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html", null ],
     [ "MR::RebuildMeshSettings", "structMR_1_1RebuildMeshSettings.html", null ],
@@ -1500,6 +1502,7 @@ var hierarchy =
     [ "MR::WebRequest", "classMR_1_1WebRequest.html", null ],
     [ "MR::WeightedVertexT< T >", "structMR_1_1WeightedVertexT.html", null ],
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
+    [ "MR::WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::ZCompensateParams", "structMR_1_1ZCompensateParams.html", null ],
     [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ],

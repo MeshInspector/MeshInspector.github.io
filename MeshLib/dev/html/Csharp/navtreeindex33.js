@@ -1,6 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"classMR_1_1Const__BallPivotCandidate.html#ab271cbe40b9db8f2fdb598013edd356d":[9,3,0,0,0,256,5],
 "classMR_1_1Const__BallPivotCandidate.html#adfca7af0851679e988c96d4bdce18629":[9,3,0,0,0,256,1],
 "classMR_1_1Const__BallPivotCandidate.html#ae05e007f3f5ff5fce7291cc1bee9cb23":[9,3,0,0,0,256,4],
 "classMR_1_1Const__BaseRenderParams.html":[9,3,0,0,0,257],
@@ -249,5 +248,6 @@ var NAVTREEINDEX33 =
 "classMR_1_1Const__BooleanResult.html#a1e708df5ee397ff1f133fb9fe7083a02":[9,3,0,0,0,284,8],
 "classMR_1_1Const__BooleanResult.html#a2e2f9cc61f5167a8ceb93dbf1bb06e8d":[9,3,0,0,0,284,6],
 "classMR_1_1Const__BooleanResult.html#a3b68ca57fe6112e8cc5cf00ae3a8e958":[9,3,0,0,0,284,0],
-"classMR_1_1Const__BooleanResult.html#a531e61f8d7c222fa4935a6224aff3fe4":[9,3,0,0,0,284,5]
+"classMR_1_1Const__BooleanResult.html#a531e61f8d7c222fa4935a6224aff3fe4":[9,3,0,0,0,284,5],
+"classMR_1_1Const__BooleanResult.html#a568bbfe5f7ff99396907554751d1a38b":[9,3,0,0,0,284,1]
 };

@@ -431,6 +431,15 @@
     <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" kind="variable"><name>voxelSize</name></member>
     <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" kind="variable"><name>callBack</name></member>
   </compound>
+  <compound refid="structMR_1_1BaseTiffParameters" kind="struct"><name>MR::BaseTiffParameters</name>
+    <member refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kind="enum"><name>SampleType</name></member>
+    <member refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kind="enum"><name>ValueType</name></member>
+    <member refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kind="variable"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" kind="variable"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" kind="variable"><name>bytesPerSample</name></member>
+    <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" kind="variable"><name>imageSize</name></member>
+    <member refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" kind="function"><name>operator==</name></member>
+  </compound>
   <compound refid="classMR_1_1BaseUnionFind" kind="class"><name>MR::BaseUnionFind</name>
     <member refid="group__GeneralGroup_1gaa88958d9af0b7f8bf07e0ae35807f9cf" kind="typedef"><name>SizeType</name></member>
     <member refid="group__GeneralGroup_1gadbeac8c6a42c497272482183b034f8c7" kind="variable"><name>parents_</name></member>
@@ -5222,6 +5231,12 @@
     <member refid="group__GeneralGroup_1gaabc1e6add51daf7ce715234cb96c9805" kind="variable"><name>warnings</name></member>
     <member refid="group__GeneralGroup_1ga869e1d0fd0383f0a90acabb56fc23eaa" kind="variable"><name>lengthUnit</name></member>
   </compound>
+  <compound refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" kind="struct"><name>MR::VoxelsLoad::LoadingTiffSettings</name>
+    <member refid="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" kind="variable"><name>dir</name></member>
+    <member refid="group__VoxelsLoadGroup_1ga39c8477a2a590bcaef5179d861b7f1de" kind="variable"><name>voxelSize</name></member>
+    <member refid="group__VoxelsLoadGroup_1ga162c946b965977a5048ed85b3b7d1293" kind="variable"><name>gridType</name></member>
+    <member refid="group__VoxelsLoadGroup_1gad7f6150701181ada771a2322643a89dd" kind="variable"><name>cb</name></member>
+  </compound>
   <compound refid="classMR_1_1TbbThreadMutex_1_1LockGuard" kind="class"><name>MR::TbbThreadMutex::LockGuard</name>
     <member refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" kind="friend"><name>TbbThreadMutex</name></member>
     <member refid="group__GeneralGroup_1ga8d59993aea4f0f08617ad7fd2d82ed91" kind="variable"><name>mutex_</name></member>
@@ -9287,12 +9302,6 @@
     <member refid="structMR_1_1Raster_1afcb38dc34e0fdeda6a61ed5b5a99ac0e" kind="variable"><name>info</name></member>
     <member refid="structMR_1_1Raster_1aba67d13f8d3fadd9281c8893af3b1eba" kind="variable"><name>data</name></member>
   </compound>
-  <compound refid="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kind="struct"><name>MR::VoxelsLoad::RasterFolderLoadSettings</name>
-    <member refid="group__VoxelsLoadGroup_1ga6f55869c63bb8067acb4a7014d657fee" kind="variable"><name>dir</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga6b44bc2d62818582cfdb8a9d739e7122" kind="variable"><name>voxelSize</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga8f8a4ec016fe0cb39efd887065b6ced9" kind="variable"><name>gridType</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga6b30b1186e44ca7bf4c9f5d09853ad8c" kind="variable"><name>cb</name></member>
-  </compound>
   <compound refid="structMR_1_1RasterInfo" kind="struct"><name>MR::RasterInfo</name>
     <member refid="structMR_1_1RasterInfo_1ae6e6b33190a6ad4ff0fc9af5e2664d4d" kind="variable"><name>dims</name></member>
     <member refid="structMR_1_1RasterInfo_1a36f891c8cd22da0d525bbbff20782d0f" kind="variable"><name>type</name></member>
@@ -9305,11 +9314,9 @@
     <member refid="structMR_1_1RasterLoad_1_1RasterLoader_1a1144daaa14a34e9a7eb038d91217c799" kind="variable"><name>infoLoad</name></member>
   </compound>
   <compound refid="structMR_1_1RasterLoadSettings" kind="struct"><name>MR::RasterLoadSettings</name>
-    <member refid="structMR_1_1RasterLoadSettings_1ac90b0db79dd8dbe777a53e0e10528860" kind="variable"><name>xf</name></member>
     <member refid="structMR_1_1RasterLoadSettings_1a1489b5970837ecb1c1e1d14e59dcd27c" kind="variable"><name>progress</name></member>
   </compound>
   <compound refid="structMR_1_1RasterSaveSettings" kind="struct"><name>MR::RasterSaveSettings</name>
-    <member refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" kind="variable"><name>xf</name></member>
     <member refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" kind="variable"><name>progress</name></member>
   </compound>
   <compound refid="structMR_1_1VoxelsLoad_1_1RawParameters" kind="struct"><name>MR::VoxelsLoad::RawParameters</name>
@@ -9317,6 +9324,15 @@
     <member refid="group__VoxelsLoadGroup_1gafd3e66a2e50b601320d9254e884691dd" kind="variable"><name>voxelSize</name></member>
     <member refid="group__VoxelsLoadGroup_1ga5d28afdbdf8874a171bdaa3da9a77db7" kind="variable"><name>gridLevelSet</name></member>
     <member refid="group__VoxelsLoadGroup_1ga69214b3d1697f4864e145aa2b9802cea" kind="variable"><name>scalarType</name></member>
+  </compound>
+  <compound refid="structMR_1_1RawTiffOutput" kind="struct"><name>MR::RawTiffOutput</name>
+    <member refid="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" kind="variable"><name>bytes</name></member>
+    <member refid="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" kind="variable"><name>size</name></member>
+    <member refid="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" kind="variable"><name>params</name></member>
+    <member refid="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" kind="variable"><name>p2wXf</name></member>
+    <member refid="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" kind="variable"><name>convertToFloat</name></member>
+    <member refid="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" kind="variable"><name>min</name></member>
+    <member refid="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" kind="variable"><name>max</name></member>
   </compound>
   <compound refid="structMR_1_1RayOrigin" kind="struct"><name>MR::RayOrigin</name>
     <member refid="structMR_1_1RayOrigin_1ac04a9fc6f4e6573fb74ba782ee0db113" kind="variable"><name>p</name></member>
@@ -11741,8 +11757,12 @@
     <member refid="structMR_1_1ThreadRootTimeRecord_1a3e5ba8456a90bb0fad95117f932b88b7" kind="function"><name>printTree</name></member>
     <member refid="structMR_1_1ThreadRootTimeRecord_1a8369b56e3b80eadaad7c4d75eae4ea14" kind="function"><name>~ThreadRootTimeRecord</name></member>
   </compound>
-  <compound refid="structMR_1_1TiffSaveSettings" kind="struct"><name>MR::TiffSaveSettings</name>
-    <member refid="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" kind="variable"><name>noData</name></member>
+  <compound refid="structMR_1_1TiffParameters" kind="struct"><name>MR::TiffParameters</name>
+    <member refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" kind="variable"><name>tiled</name></member>
+    <member refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" kind="variable"><name>tileSize</name></member>
+    <member refid="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" kind="variable"><name>layers</name></member>
+    <member refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" kind="variable"><name>depth</name></member>
+    <member refid="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="classMR_1_1Timer" kind="class"><name>MR::Timer</name>
     <member refid="classMR_1_1Timer_1a37b277791cc374816c6078ee2849381c" kind="variable"><name>start_</name></member>
@@ -13959,6 +13979,11 @@
     <member refid="group__GeneralGroup_1gabf4ee009f08992fff0aadc8ee8e79daa" kind="function"><name>Writer</name></member>
     <member refid="group__GeneralGroup_1gaa459ed75918dac0dd5c9055f24c156f6" kind="function"><name>~Writer</name></member>
   </compound>
+  <compound refid="structMR_1_1WriteRawTiffParams" kind="struct"><name>MR::WriteRawTiffParams</name>
+    <member refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" kind="variable"><name>baseParams</name></member>
+    <member refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" kind="variable"><name>noData</name></member>
+  </compound>
   <compound refid="classMR_1_1XfBasedCache" kind="class"><name>MR::XfBasedCache</name>
     <member refid="group__GeneralGroup_1ga0a7b066a543aef13ca56e872b81744fd" kind="variable"><name>xf_</name></member>
     <member refid="group__GeneralGroup_1ga89a2235f9a91e43fb9da57b8416450e1" kind="variable"><name>cache_</name></member>
@@ -15795,8 +15820,6 @@
     <member refid="group__GeneralGroup_1ga7b0557ba9010a35f8711edaeef9f1cb4" kind="function"><name>protectedFunc</name></member>
     <member refid="group__GeneralGroup_1ga3dd2fe92b7669c20647e3ff3405df52f" kind="function"><name>compensateRadius</name></member>
     <member refid="group__RasterGroup_1gadcb09b212975aa3c7b3267ef39c306e1" kind="function"><name>convertRasterToImage</name></member>
-    <member refid="group__RasterGroup_1gafac7517a903175c5a262beba1b91f775" kind="function"><name>convertRasterToFloats</name></member>
-    <member refid="group__RasterGroup_1ga9ef3666bc6712baf860863656831fa63" kind="function"><name>convertRasterToFloats</name></member>
     <member refid="group__RayBoxIntersectionGroup_1ga774d7b2ef218b7634faca3e3300f13b9" kind="function"><name>rayBoxIntersect</name></member>
     <member refid="group__RayBoxIntersectionGroup_1ga710fb3f98b472e45efdd6c3671f90581" kind="function"><name>rayBoxIntersect</name></member>
     <member refid="group__GeneralGroup_1gaac19a38e96d99402db9f484da674bf04" kind="function"><name>rayBoxIntersect</name></member>
@@ -16042,6 +16065,11 @@
     <member refid="group__GeneralGroup_1ga5428c2a5d40a3d0e09c57ea16c47701b" kind="function"><name>findVertexUVs</name></member>
     <member refid="group__GeneralGroup_1ga3d51a6426ec702d816828da6e6660c9e" kind="function"><name>sampleVertexColor</name></member>
     <member refid="group__GeneralGroup_1gad43e808664575f49147711c1ad69534d" kind="function"><name>sampleVertexColors</name></member>
+    <member refid="group__GeneralGroup_1ga82a781ae507923635d45a1044e8983bb" kind="function"><name>isTIFFFile</name></member>
+    <member refid="group__GeneralGroup_1ga2d9f515a128f5399a3bb2d923eac2a0a" kind="function"><name>readTiffParameters</name></member>
+    <member refid="group__GeneralGroup_1ga279ac3e2a1324201295c03e901942929" kind="function"><name>readRawTiff</name></member>
+    <member refid="group__GeneralGroup_1ga0f1dc59ecc48a433652dd5d6fa7f86cc" kind="function"><name>writeRawTiff</name></member>
+    <member refid="group__GeneralGroup_1gae22fd2b15bcc1e528cb2eb3c7650d520" kind="function"><name>writeRawTiff</name></member>
     <member refid="group__BasicGroup_1gaea0c8b01358b57ffcc2ca74961b6a912" kind="function"><name>printTimingTreeAtEnd</name></member>
     <member refid="group__BasicGroup_1gaecffe26cbebdea7dd9123268d97c9b8d" kind="function"><name>printCurrentTimerBranch</name></member>
     <member refid="group__BasicGroup_1gaa062fb28e95de030cde47eb792db4270" kind="function"><name>printTimingTree</name></member>
@@ -16546,12 +16574,12 @@
   </compound>
   <compound refid="namespaceMR_1_1DistanceMapLoad" kind="namespace"><name>MR::DistanceMapLoad</name>
     <member refid="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" kind="typedef"><name>DistanceMapLoader</name></member>
-    <member refid="group__GeneralGroup_1gaca4207193c9429dfa4854457efea6c23" kind="function"><name>fromTiff</name></member>
-    <member refid="group__GeneralGroup_1gab345cb66e5ce36e8727661b2a91f9f02" kind="function"><name>fromTiff</name></member>
     <member refid="group__DistanceMapLoadGroup_1gaf1149f1de08d40e945870f95e03e5a10" kind="function"><name>fromRaw</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga84cffe3f4d1400f8f975c77ffc252126" kind="function"><name>fromRaw</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga68367289de2ea857d4cb19cf4f7abd40" kind="function"><name>fromMrDistanceMap</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga3975372a3d6ef3b6c0ffecd16d39eaba" kind="function"><name>fromMrDistanceMap</name></member>
+    <member refid="group__DistanceMapLoadGroup_1gaca4207193c9429dfa4854457efea6c23" kind="function"><name>fromTiff</name></member>
+    <member refid="group__DistanceMapLoadGroup_1gab345cb66e5ce36e8727661b2a91f9f02" kind="function"><name>fromTiff</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga05362ea3391dbf7d2ee5d4ea434b4f40" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga50b271c979604f387a76f2ca17ca92cb" kind="function"><name>fromAnySupportedFormat</name></member>
   </compound>
@@ -17114,7 +17142,6 @@
   </compound>
   <compound refid="namespaceMR_1_1RasterSave" kind="namespace"><name>MR::RasterSave</name>
     <member refid="namespaceMR_1_1RasterSave_1ad922f4de76620e64ed212b390b2e0414" kind="typedef"><name>RasterSaver</name></member>
-    <member refid="group__GeneralGroup_1ga97262f8abdfe526f36a8127e068508f6" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" kind="function"><name>toTiff</name></member>
     <member refid="group__RasterSaveGroup_1gabfae0555a373861a3218bc93db65a2e6" kind="function"><name>toAnySupportedFormat</name></member>
   </compound>
@@ -17389,7 +17416,6 @@
   <compound refid="namespaceMR_1_1VoxelsLoad" kind="namespace"><name>MR::VoxelsLoad</name>
     <member refid="group__GeneralGroup_1ga4877b5ea79a241234ef88b527edc08e6" kind="enum"><name>DicomStatusEnum</name></member>
     <member refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" kind="enum"><name>GridType</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga707920855f52f8e5871fc6c0056a6002" kind="typedef"><name>MR_BIND_IGNORE</name></member>
     <member refid="group__VoxelsLoadGroup_1gac95950f875729ac15c011d99d4624d96" kind="typedef"><name>VoxelsLoader</name></member>
     <member refid="group__GeneralGroup_1ga4e5fc90a09aac4ba09fdfb6db09083cf" kind="variable"><name>struct</name></member>
     <member refid="group__GeneralGroup_1ga4e75c919102a2c36c220423f73a3fbf6" kind="variable"><name>DicomVolumeT</name></member>
@@ -17420,8 +17446,7 @@
     <member refid="group__VoxelsLoadGroup_1ga6e416ae7982ee1812f92be62d196d48d" kind="function"><name>fromGav</name></member>
     <member refid="group__VoxelsLoadGroup_1gad303045560cb427689099a6b7fd25789" kind="function"><name>gridsFromAnySupportedFormat</name></member>
     <member refid="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga2b3126db75b88eeee5be2e16619f48be" kind="function"><name>loadRasterFolder</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga0960ce4def7ec9ddd1ca37933d82542b" kind="function"><name>loadTiffDir</name></member>
+    <member refid="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" kind="function"><name>loadTiffDir</name></member>
   </compound>
   <compound refid="namespaceMR_1_1VoxelsSave" kind="namespace"><name>MR::VoxelsSave</name>
     <member refid="namespaceMR_1_1VoxelsSave_1a5289196c605171ac3410bbe845a26176" kind="typedef"><name>VoxelsSaver</name></member>
@@ -18527,6 +18552,8 @@
   </compound>
   <compound refid="MRTextureColors_8h" kind="file"><name>MRTextureColors.h</name>
   </compound>
+  <compound refid="MRTiffIO_8h" kind="file"><name>MRTiffIO.h</name>
+  </compound>
   <compound refid="MRTimer_8h" kind="file"><name>MRTimer.h</name>
     <member refid="MRTimer_8h_1adf7fc408af3ac6d6583cc0ca173120ae" kind="define"><name>MR_TIMER</name></member>
     <member refid="MRTimer_8h_1a46095ee84a5ee67f76a16abd1fe242fa" kind="define"><name>MR_NAMED_TIMER</name></member>
@@ -19580,6 +19607,8 @@
     <member refid="group__DistanceMapLoadGroup_1ga84cffe3f4d1400f8f975c77ffc252126" kind="function"><name>fromRaw</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga68367289de2ea857d4cb19cf4f7abd40" kind="function"><name>fromMrDistanceMap</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga3975372a3d6ef3b6c0ffecd16d39eaba" kind="function"><name>fromMrDistanceMap</name></member>
+    <member refid="group__DistanceMapLoadGroup_1gaca4207193c9429dfa4854457efea6c23" kind="function"><name>fromTiff</name></member>
+    <member refid="group__DistanceMapLoadGroup_1gab345cb66e5ce36e8727661b2a91f9f02" kind="function"><name>fromTiff</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga05362ea3391dbf7d2ee5d4ea434b4f40" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="group__DistanceMapLoadGroup_1ga50b271c979604f387a76f2ca17ca92cb" kind="function"><name>fromAnySupportedFormat</name></member>
   </compound>
@@ -20079,8 +20108,6 @@
   </compound>
   <compound refid="group__RasterGroup" kind="group"><name>RasterGroup</name>
     <member refid="group__RasterGroup_1gadcb09b212975aa3c7b3267ef39c306e1" kind="function"><name>convertRasterToImage</name></member>
-    <member refid="group__RasterGroup_1gafac7517a903175c5a262beba1b91f775" kind="function"><name>convertRasterToFloats</name></member>
-    <member refid="group__RasterGroup_1ga9ef3666bc6712baf860863656831fa63" kind="function"><name>convertRasterToFloats</name></member>
   </compound>
   <compound refid="group__RasterLoadGroup" kind="group"><name>RasterLoadGroup</name>
     <member refid="group__RasterLoadGroup_1gaab2549a28175f7d8f2ae7b5431442f73" kind="function"><name>fromAnySupportedFormat</name></member>
@@ -20470,16 +20497,15 @@
     <member refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" kind="enum"><name>GridType</name></member>
     <member refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19add8e62e5509837aab18087d15bd5b8c7" kind="enumvalue"><name>DenseGrid</name></member>
     <member refid="group__VoxelsLoadGroup_1gga5a3e4b96e9ddb9678f554fe8a8d56a19af75f97f8f1058acd62c93bf29de9f49e" kind="enumvalue"><name>LevelSet</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga707920855f52f8e5871fc6c0056a6002" kind="typedef"><name>MR_BIND_IGNORE</name></member>
     <member refid="group__VoxelsLoadGroup_1gac95950f875729ac15c011d99d4624d96" kind="typedef"><name>VoxelsLoader</name></member>
     <member refid="group__VoxelsLoadGroup_1gab1db96ec60477ec788bfe5aeb3596da2" kind="variable"><name>dimensions</name></member>
     <member refid="group__VoxelsLoadGroup_1gafd3e66a2e50b601320d9254e884691dd" kind="variable"><name>voxelSize</name></member>
     <member refid="group__VoxelsLoadGroup_1ga5d28afdbdf8874a171bdaa3da9a77db7" kind="variable"><name>gridLevelSet</name></member>
     <member refid="group__VoxelsLoadGroup_1ga69214b3d1697f4864e145aa2b9802cea" kind="variable"><name>scalarType</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga6f55869c63bb8067acb4a7014d657fee" kind="variable"><name>dir</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga6b44bc2d62818582cfdb8a9d739e7122" kind="variable"><name>voxelSize</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga8f8a4ec016fe0cb39efd887065b6ced9" kind="variable"><name>gridType</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga6b30b1186e44ca7bf4c9f5d09853ad8c" kind="variable"><name>cb</name></member>
+    <member refid="group__VoxelsLoadGroup_1gaafca990d1d688a3f2f9ce8ba0a67a3c5" kind="variable"><name>dir</name></member>
+    <member refid="group__VoxelsLoadGroup_1ga39c8477a2a590bcaef5179d861b7f1de" kind="variable"><name>voxelSize</name></member>
+    <member refid="group__VoxelsLoadGroup_1ga162c946b965977a5048ed85b3b7d1293" kind="variable"><name>gridType</name></member>
+    <member refid="group__VoxelsLoadGroup_1gad7f6150701181ada771a2322643a89dd" kind="variable"><name>cb</name></member>
     <member refid="group__VoxelsLoadGroup_1ga8ce6022f00f55c40a634b016f91a3b31" kind="function"><name>fromRaw</name></member>
     <member refid="group__VoxelsLoadGroup_1gab0a9073a8190607740aa7a4e108a70ea" kind="function"><name>fromRaw</name></member>
     <member refid="group__VoxelsLoadGroup_1gab8b39ae86f2bd1e780c542ceebadc56d" kind="function"><name>gridFromRaw</name></member>
@@ -20494,8 +20520,7 @@
     <member refid="group__VoxelsLoadGroup_1ga6e416ae7982ee1812f92be62d196d48d" kind="function"><name>fromGav</name></member>
     <member refid="group__VoxelsLoadGroup_1gad303045560cb427689099a6b7fd25789" kind="function"><name>gridsFromAnySupportedFormat</name></member>
     <member refid="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga2b3126db75b88eeee5be2e16619f48be" kind="function"><name>loadRasterFolder</name></member>
-    <member refid="group__VoxelsLoadGroup_1ga0960ce4def7ec9ddd1ca37933d82542b" kind="function"><name>loadTiffDir</name></member>
+    <member refid="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" kind="function"><name>loadTiffDir</name></member>
   </compound>
   <compound refid="group__VoxelsSaveGroup" kind="group"><name>VoxelsSaveGroup</name>
     <member refid="group__VoxelsSaveGroup_1ga2c95017a0cb0c854829b6223518168eb" kind="function"><name>saveObjectVoxelsToFile</name></member>
@@ -21104,6 +21129,16 @@
     <member refid="group__GeneralGroup_1gga0cf7d55377d8e831c45ed8aa549b7ac8a1d874710ccdcd46b95397049d2e7500c" kind="enumvalue"><name>Italic</name></member>
     <member refid="group__GeneralGroup_1gga0cf7d55377d8e831c45ed8aa549b7ac8a1e8fb6e2ee37a07189ff20a09cb4d6d5" kind="enumvalue"><name>BoldItalic</name></member>
     <member refid="group__GeneralGroup_1gga0cf7d55377d8e831c45ed8aa549b7ac8ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kind="enum"><name>SampleType</name></member>
+    <member refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" kind="enumvalue"><name>Uint</name></member>
+    <member refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" kind="enumvalue"><name>Int</name></member>
+    <member refid="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" kind="enumvalue"><name>Float</name></member>
+    <member refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kind="enum"><name>ValueType</name></member>
+    <member refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" kind="enumvalue"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" kind="enumvalue"><name>Scalar</name></member>
+    <member refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" kind="enumvalue"><name>RGB</name></member>
+    <member refid="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" kind="enumvalue"><name>RGBA</name></member>
     <member refid="group__GeneralGroup_1ga44bd35b44ad13ba0a8968ae8260539cd" kind="enum"><name>UpLimitCheck</name></member>
     <member refid="group__GeneralGroup_1gga44bd35b44ad13ba0a8968ae8260539cda6f2f0aefb3d22da0f3839453add5f937" kind="enumvalue"><name>GreaterOrEqual</name></member>
     <member refid="group__GeneralGroup_1gga44bd35b44ad13ba0a8968ae8260539cda8768a6821cd735aea4f5b0df88c1fc6a" kind="enumvalue"><name>Greater</name></member>
@@ -22264,7 +22299,6 @@
     <member refid="group__GeneralGroup_1ga8ad3bd1fc79040b52327f862e925278f" kind="variable"><name>colorLines</name></member>
     <member refid="group__GeneralGroup_1ga2e3f2fa34910012c4d09f57c480d85b6" kind="variable"><name>fontSize</name></member>
     <member refid="group__GeneralGroup_1gae024d2a255ca7e6b10a982238597494f" kind="variable"><name>tableParams_</name></member>
-    <member refid="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" kind="variable"><name>noData</name></member>
     <member refid="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" kind="variable"><name>lOrg</name></member>
     <member refid="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" kind="variable"><name>lDest</name></member>
     <member refid="group__GeneralGroup_1ga8b5c188731f0cecbac0ccc0fd4a6bfb7" kind="variable"><name>uOrg</name></member>
@@ -23701,6 +23735,24 @@
     <member refid="group__GeneralGroup_1gac2142db03ef7499985da45422ed8023c" kind="variable"><name>id_</name></member>
     <member refid="group__GeneralGroup_1ga5ab0ebf352e994936c07826cea204d81" kind="variable"><name>lockFlag_</name></member>
     <member refid="group__GeneralGroup_1gafc52ca9c641e143b043d33a56cb36376" kind="variable"><name>TelemetrySignal</name></member>
+    <member refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" kind="variable"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" kind="variable"><name>Unknown</name></member>
+    <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" kind="variable"><name>bytesPerSample</name></member>
+    <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" kind="variable"><name>imageSize</name></member>
+    <member refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" kind="variable"><name>tiled</name></member>
+    <member refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" kind="variable"><name>tileSize</name></member>
+    <member refid="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" kind="variable"><name>layers</name></member>
+    <member refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" kind="variable"><name>depth</name></member>
+    <member refid="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" kind="variable"><name>bytes</name></member>
+    <member refid="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" kind="variable"><name>size</name></member>
+    <member refid="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" kind="variable"><name>params</name></member>
+    <member refid="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" kind="variable"><name>p2wXf</name></member>
+    <member refid="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" kind="variable"><name>convertToFloat</name></member>
+    <member refid="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" kind="variable"><name>min</name></member>
+    <member refid="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" kind="variable"><name>max</name></member>
+    <member refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" kind="variable"><name>baseParams</name></member>
+    <member refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" kind="variable"><name>noData</name></member>
     <member refid="group__GeneralGroup_1ga26c9f09ce86daf06e28972f128bd268a" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1ga254fa3cf488a854853a6b959c1abb8e4" kind="variable"><name>distSq</name></member>
@@ -25996,12 +26048,9 @@
     <member refid="group__GeneralGroup_1ga6c144adb55e7a5da74033de268c22adb" kind="function"><name>toPng</name></member>
     <member refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" kind="function"><name>infoFromTiff</name></member>
-    <member refid="group__GeneralGroup_1ga97262f8abdfe526f36a8127e068508f6" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" kind="function"><name>toTiff</name></member>
-    <member refid="group__GeneralGroup_1gaca4207193c9429dfa4854457efea6c23" kind="function"><name>fromTiff</name></member>
-    <member refid="group__GeneralGroup_1gab345cb66e5ce36e8727661b2a91f9f02" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" kind="function"><name>isIntersection</name></member>
     <member refid="group__GeneralGroup_1ga5e8af5982b8fe271a4ec768cd30c61f1" kind="function"><name>getOutlineMesh</name></member>
@@ -29092,6 +29141,13 @@
     <member refid="group__GeneralGroup_1ga5428c2a5d40a3d0e09c57ea16c47701b" kind="function"><name>findVertexUVs</name></member>
     <member refid="group__GeneralGroup_1ga3d51a6426ec702d816828da6e6660c9e" kind="function"><name>sampleVertexColor</name></member>
     <member refid="group__GeneralGroup_1gad43e808664575f49147711c1ad69534d" kind="function"><name>sampleVertexColors</name></member>
+    <member refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" kind="function"><name>operator==</name></member>
+    <member refid="group__GeneralGroup_1ga82a781ae507923635d45a1044e8983bb" kind="function"><name>isTIFFFile</name></member>
+    <member refid="group__GeneralGroup_1ga2d9f515a128f5399a3bb2d923eac2a0a" kind="function"><name>readTiffParameters</name></member>
+    <member refid="group__GeneralGroup_1ga279ac3e2a1324201295c03e901942929" kind="function"><name>readRawTiff</name></member>
+    <member refid="group__GeneralGroup_1ga0f1dc59ecc48a433652dd5d6fa7f86cc" kind="function"><name>writeRawTiff</name></member>
+    <member refid="group__GeneralGroup_1gae22fd2b15bcc1e528cb2eb3c7650d520" kind="function"><name>writeRawTiff</name></member>
     <member refid="group__GeneralGroup_1ga638324ed49e28189a1c35cf398dc6a73" kind="function"><name>makeTorus</name></member>
     <member refid="group__GeneralGroup_1ga2f848bbc7834993f6bc3c5d5b1006bbf" kind="function"><name>makeOuterHalfTorus</name></member>
     <member refid="group__GeneralGroup_1ga99b11eed83d74e389ff6b2ecff249059" kind="function"><name>makeTorusWithUndercut</name></member>

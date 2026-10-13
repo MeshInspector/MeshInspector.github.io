@@ -2186,7 +2186,7 @@
         <argsstring>(const MR_DistanceMapLoadSettings *_this)</argsstring>
         <name>MR_DistanceMapLoadSettings_Get_distanceMapToWorld</name>
         <param>
-          <type>const <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type>const <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -2204,7 +2204,7 @@
         <argsstring>(MR_DistanceMapLoadSettings *_this, MR_DistanceMapToWorld *value)</argsstring>
         <name>MR_DistanceMapLoadSettings_Set_distanceMapToWorld</name>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -2226,7 +2226,7 @@
         <argsstring>(MR_DistanceMapLoadSettings *_this)</argsstring>
         <name>MR_DistanceMapLoadSettings_GetMutable_distanceMapToWorld</name>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -2244,7 +2244,7 @@
         <argsstring>(const MR_DistanceMapLoadSettings *_this)</argsstring>
         <name>MR_DistanceMapLoadSettings_Get_progress</name>
         <param>
-          <type>const <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type>const <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -2262,7 +2262,7 @@
         <argsstring>(MR_DistanceMapLoadSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_DistanceMapLoadSettings_Set_progress</name>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -2288,7 +2288,7 @@
         <argsstring>(MR_DistanceMapLoadSettings *_this)</argsstring>
         <name>MR_DistanceMapLoadSettings_GetMutable_progress</name>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -2301,7 +2301,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="782" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="782" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1a7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_DistanceMapLoadSettings_DefaultConstruct</name>
@@ -2318,7 +2318,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="786" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="786" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1a8d4e19d50aacc5af6213dd1d48ca00af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_DistanceMapLoadSettings_DefaultConstructArray</name>
@@ -2336,7 +2336,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="791" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="791" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1aeeeec0cc886653542c64772a98f81f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_ConstructFrom</definition>
         <argsstring>(MR_DistanceMapToWorld *distanceMapToWorld, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
         <name>MR_DistanceMapLoadSettings_ConstructFrom</name>
@@ -2362,12 +2362,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="798" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="798" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1aef6711ac9cee72e8b536e99dbc8d3324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API const MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_OffsetPtr</definition>
         <argsstring>(const MR_DistanceMapLoadSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DistanceMapLoadSettings_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type>const <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -2384,12 +2384,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="802" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="802" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1a4dfca9543d19eaf0687116f50e7182f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_DistanceMapLoadSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DistanceMapLoadSettings_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -2406,7 +2406,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="806" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="806" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1aceda7df419fbc3d54aa0f0b099b91710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_DistanceMapLoadSettings *_other)</argsstring>
         <name>MR_DistanceMapLoadSettings_ConstructFromAnother</name>
@@ -2415,7 +2415,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -2433,11 +2433,11 @@
         <argsstring>(const MR_DistanceMapLoadSettings *_this)</argsstring>
         <name>MR_DistanceMapLoadSettings_Destroy</name>
         <param>
-          <type>const <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type>const <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2451,11 +2451,11 @@
         <argsstring>(const MR_DistanceMapLoadSettings *_this)</argsstring>
         <name>MR_DistanceMapLoadSettings_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type>const <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -2464,12 +2464,12 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" line="817" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDistanceMapParams.h" declline="817" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceMapParams_8h_1ab29e68e8448c308a37f9e0039ba15ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
         <definition>MRC_API MR_DistanceMapLoadSettings * MR_DistanceMapLoadSettings_AssignFromAnother</definition>
         <argsstring>(MR_DistanceMapLoadSettings *_this, MR_PassBy _other_pass_by, MR_DistanceMapLoadSettings *_other)</argsstring>
         <name>MR_DistanceMapLoadSettings_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -2477,7 +2477,7 @@
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
+          <type><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -2832,7 +2832,7 @@
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref>;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
@@ -3034,35 +3034,35 @@
 <codeline lineno="737"><highlight class="normal"></highlight></codeline>
 <codeline lineno="740" refid="MRDistanceMapParams_8h_1afb22f53befd69701a53c020d42c7023a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRDistanceMapParams_8h_1afb22f53befd69701a53c020d42c7023a" kindref="member">MR_DistanceMapToWorld_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="741"><highlight class="normal"></highlight></codeline>
-<codeline lineno="747" refid="MRDistanceMapParams_8h_1a478e0955eabe020ba696f17e867cec24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMapParams_8h_1a478e0955eabe020ba696f17e867cec24" kindref="member">MR_DistanceMapLoadSettings_Get_distanceMapToWorld</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="747" refid="MRDistanceMapParams_8h_1a478e0955eabe020ba696f17e867cec24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMapParams_8h_1a478e0955eabe020ba696f17e867cec24" kindref="member">MR_DistanceMapLoadSettings_Get_distanceMapToWorld</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="748"><highlight class="normal"></highlight></codeline>
-<codeline lineno="754" refid="MRDistanceMapParams_8h_1a8fe0c7b281f092473e82a6e594e2edbd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a8fe0c7b281f092473e82a6e594e2edbd" kindref="member">MR_DistanceMapLoadSettings_Set_distanceMapToWorld</ref>(<ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="754" refid="MRDistanceMapParams_8h_1a8fe0c7b281f092473e82a6e594e2edbd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a8fe0c7b281f092473e82a6e594e2edbd" kindref="member">MR_DistanceMapLoadSettings_Set_distanceMapToWorld</ref>(<ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this,<sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="755"><highlight class="normal"></highlight></codeline>
-<codeline lineno="761" refid="MRDistanceMapParams_8h_1ab56a0bd1fb2c3e09e8f00e844edf82b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>**<ref refid="MRDistanceMapParams_8h_1ab56a0bd1fb2c3e09e8f00e844edf82b1" kindref="member">MR_DistanceMapLoadSettings_GetMutable_distanceMapToWorld</ref>(<ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="761" refid="MRDistanceMapParams_8h_1ab56a0bd1fb2c3e09e8f00e844edf82b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>**<ref refid="MRDistanceMapParams_8h_1ab56a0bd1fb2c3e09e8f00e844edf82b1" kindref="member">MR_DistanceMapLoadSettings_GetMutable_distanceMapToWorld</ref>(<ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="762"><highlight class="normal"></highlight></codeline>
-<codeline lineno="768" refid="MRDistanceMapParams_8h_1a3e490d6d5d5bfb8b5c5a714b7375f517" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a3e490d6d5d5bfb8b5c5a714b7375f517" kindref="member">MR_DistanceMapLoadSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="768" refid="MRDistanceMapParams_8h_1a3e490d6d5d5bfb8b5c5a714b7375f517" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a3e490d6d5d5bfb8b5c5a714b7375f517" kindref="member">MR_DistanceMapLoadSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="769"><highlight class="normal"></highlight></codeline>
-<codeline lineno="775" refid="MRDistanceMapParams_8h_1a75531b5de112773ae3cd1710a2c7f287" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a75531b5de112773ae3cd1710a2c7f287" kindref="member">MR_DistanceMapLoadSettings_Set_progress</ref>(<ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="775" refid="MRDistanceMapParams_8h_1a75531b5de112773ae3cd1710a2c7f287" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a75531b5de112773ae3cd1710a2c7f287" kindref="member">MR_DistanceMapLoadSettings_Set_progress</ref>(<ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="782" refid="MRDistanceMapParams_8h_1aa637513c83c537217b5a20d66cfc3a3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aa637513c83c537217b5a20d66cfc3a3f" kindref="member">MR_DistanceMapLoadSettings_GetMutable_progress</ref>(<ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="782" refid="MRDistanceMapParams_8h_1aa637513c83c537217b5a20d66cfc3a3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aa637513c83c537217b5a20d66cfc3a3f" kindref="member">MR_DistanceMapLoadSettings_GetMutable_progress</ref>(<ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="783"><highlight class="normal"></highlight></codeline>
-<codeline lineno="786" refid="MRDistanceMapParams_8h_1a7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9" kindref="member">MR_DistanceMapLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="786" refid="MRDistanceMapParams_8h_1a7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a7b3b96bdd4d5d1b0aa65ed6f6e1d1fe9" kindref="member">MR_DistanceMapLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="787"><highlight class="normal"></highlight></codeline>
-<codeline lineno="791" refid="MRDistanceMapParams_8h_1a8d4e19d50aacc5af6213dd1d48ca00af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a8d4e19d50aacc5af6213dd1d48ca00af" kindref="member">MR_DistanceMapLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="791" refid="MRDistanceMapParams_8h_1a8d4e19d50aacc5af6213dd1d48ca00af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a8d4e19d50aacc5af6213dd1d48ca00af" kindref="member">MR_DistanceMapLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="792"><highlight class="normal"></highlight></codeline>
-<codeline lineno="798" refid="MRDistanceMapParams_8h_1aeeeec0cc886653542c64772a98f81f70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aeeeec0cc886653542c64772a98f81f70" kindref="member">MR_DistanceMapLoadSettings_ConstructFrom</ref>(<ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*distanceMapToWorld,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="798" refid="MRDistanceMapParams_8h_1aeeeec0cc886653542c64772a98f81f70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aeeeec0cc886653542c64772a98f81f70" kindref="member">MR_DistanceMapLoadSettings_ConstructFrom</ref>(<ref refid="MRDistanceMapParams_8h_1a20641c296a854171ffca0e1334e8a422" kindref="member">MR_DistanceMapToWorld</ref><sp/>*distanceMapToWorld,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
 <codeline lineno="799"><highlight class="normal"></highlight></codeline>
-<codeline lineno="802" refid="MRDistanceMapParams_8h_1aef6711ac9cee72e8b536e99dbc8d3324" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aef6711ac9cee72e8b536e99dbc8d3324" kindref="member">MR_DistanceMapLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="802" refid="MRDistanceMapParams_8h_1aef6711ac9cee72e8b536e99dbc8d3324" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aef6711ac9cee72e8b536e99dbc8d3324" kindref="member">MR_DistanceMapLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="803"><highlight class="normal"></highlight></codeline>
-<codeline lineno="806" refid="MRDistanceMapParams_8h_1a4dfca9543d19eaf0687116f50e7182f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a4dfca9543d19eaf0687116f50e7182f6" kindref="member">MR_DistanceMapLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="806" refid="MRDistanceMapParams_8h_1a4dfca9543d19eaf0687116f50e7182f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1a4dfca9543d19eaf0687116f50e7182f6" kindref="member">MR_DistanceMapLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="807"><highlight class="normal"></highlight></codeline>
-<codeline lineno="811" refid="MRDistanceMapParams_8h_1aceda7df419fbc3d54aa0f0b099b91710" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aceda7df419fbc3d54aa0f0b099b91710" kindref="member">MR_DistanceMapLoadSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="811" refid="MRDistanceMapParams_8h_1aceda7df419fbc3d54aa0f0b099b91710" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1aceda7df419fbc3d54aa0f0b099b91710" kindref="member">MR_DistanceMapLoadSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="812"><highlight class="normal"></highlight></codeline>
-<codeline lineno="814" refid="MRDistanceMapParams_8h_1ae456ec158b0241bbfb94c5c554d91f7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1ae456ec158b0241bbfb94c5c554d91f7b" kindref="member">MR_DistanceMapLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="814" refid="MRDistanceMapParams_8h_1ae456ec158b0241bbfb94c5c554d91f7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1ae456ec158b0241bbfb94c5c554d91f7b" kindref="member">MR_DistanceMapLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="815"><highlight class="normal"></highlight></codeline>
-<codeline lineno="817" refid="MRDistanceMapParams_8h_1a43aa3708c03d15ed33ff9bdc297f333d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a43aa3708c03d15ed33ff9bdc297f333d" kindref="member">MR_DistanceMapLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="817" refid="MRDistanceMapParams_8h_1a43aa3708c03d15ed33ff9bdc297f333d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapParams_8h_1a43aa3708c03d15ed33ff9bdc297f333d" kindref="member">MR_DistanceMapLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="818"><highlight class="normal"></highlight></codeline>
-<codeline lineno="824" refid="MRDistanceMapParams_8h_1ab29e68e8448c308a37f9e0039ba15ecc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1ab29e68e8448c308a37f9e0039ba15ecc" kindref="member">MR_DistanceMapLoadSettings_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="824" refid="MRDistanceMapParams_8h_1ab29e68e8448c308a37f9e0039ba15ecc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*<ref refid="MRDistanceMapParams_8h_1ab29e68e8448c308a37f9e0039ba15ecc" kindref="member">MR_DistanceMapLoadSettings_AssignFromAnother</ref>(<ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRDistanceMapLoad_8h_1acb7982850a6576e45e73598937682264" kindref="member">MR_DistanceMapLoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="825"><highlight class="normal"></highlight></codeline>
 <codeline lineno="831" refid="MRDistanceMapParams_8h_1afa14cee1088d226f7bd8e2c17ff4eca4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceMapParams_8h_1afa14cee1088d226f7bd8e2c17ff4eca4" kindref="member">MR_DistanceMapSaveSettings_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a2b8e42b38bd4d4f8c966e3bc97e7527e" kindref="member">MR_DistanceMapSaveSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="832"><highlight class="normal"></highlight></codeline>

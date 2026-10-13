@@ -1,6 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1Const__DeloneSettings.html#adf2e90024a808dc38a816bff8869ca5a":[9,3,0,0,0,395,12],
 "classMR_1_1Const__DeloneSettings.html#ae30fec3df38f7a5f0618453c56c9bbaf":[9,3,0,0,0,395,19],
 "classMR_1_1Const__DenoiseViaNormalsSettings.html":[9,3,0,0,0,396],
 "classMR_1_1Const__DenoiseViaNormalsSettings.html#a06e2c22d655a8a3bd00b02c81c96e5fb":[9,3,0,0,0,396,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DistanceMapSaveSettings.html#a69f6f246e11ff990764400107575921b":[9,3,0,0,0,409,5],
 "classMR_1_1Const__DistanceMapSaveSettings.html#a8ab934788cee41ab8d972f15e6f5e718":[9,3,0,0,0,409,6],
 "classMR_1_1Const__DistanceMapSaveSettings.html#aa4687ccabf93f86d7022a5fa4c587f58":[9,3,0,0,0,409,9],
-"classMR_1_1Const__DistanceMapSaveSettings.html#ad0a55f9c73b9db4e29b6e07115b1dcbb":[9,3,0,0,0,409,1]
+"classMR_1_1Const__DistanceMapSaveSettings.html#ad0a55f9c73b9db4e29b6e07115b1dcbb":[9,3,0,0,0,409,1],
+"classMR_1_1Const__DistanceMapSaveSettings.html#ad8849b29b6dc55fb8db834c9a63fc942":[9,3,0,0,0,409,3]
 };

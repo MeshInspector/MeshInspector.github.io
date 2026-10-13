@@ -100,6 +100,56 @@
         </inbodydescription>
         <location file="MRMesh/MRDistanceMapLoad.h" line="38" column="32" bodyfile="MRMesh/MRDistanceMapLoad.h" bodystart="38" bodyend="44"/>
       </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1gaca4207193c9429dfa4854457efea6c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; DistanceMap &gt;</type>
+        <definition>Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::DistanceMapLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const DistanceMapLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDistanceMapLoad.h" line="47" column="11" declfile="MRMesh/MRDistanceMapLoad.h" declline="47" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapLoadGroup_1gab345cb66e5ce36e8727661b2a91f9f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, DistanceMapToWorld &amp;params, ProgressCallback progressCb={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::DistanceMapLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>DistanceMapToWorld &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDistanceMapLoad.h" line="49" column="32" bodyfile="MRMesh/MRDistanceMapLoad.h" bodystart="49" bodyend="55"/>
+      </memberdef>
       <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga05362ea3391dbf7d2ee5d4ea434b4f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; DistanceMap &gt;</type>
         <definition>Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromAnySupportedFormat</definition>
@@ -121,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRDistanceMapLoad.h" line="46" column="11" declfile="MRMesh/MRDistanceMapLoad.h" declline="46" declcolumn="11"/>
+        <location file="MRMesh/MRDistanceMapLoad.h" line="58" column="11" declfile="MRMesh/MRDistanceMapLoad.h" declline="58" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapLoadGroup_1ga50b271c979604f387a76f2ca17ca92cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
@@ -148,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRDistanceMapLoad.h" line="48" column="32" bodyfile="MRMesh/MRDistanceMapLoad.h" bodystart="48" bodyend="54"/>
+        <location file="MRMesh/MRDistanceMapLoad.h" line="60" column="32" bodyfile="MRMesh/MRDistanceMapLoad.h" bodystart="60" bodyend="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -58,7 +58,7 @@
         <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
-      <node id="34">
+      <node id="35">
         <label>MRCuda/MRCudaContoursDistanceMap.h</label>
         <link refid="MRCudaContoursDistanceMap_8h"/>
       </node>
@@ -66,7 +66,7 @@
         <label>MRCuda/MRCudaFastWindingNumber.h</label>
         <link refid="MRCudaFastWindingNumber_8h"/>
       </node>
-      <node id="35">
+      <node id="36">
         <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
@@ -118,7 +118,7 @@
         <label>MRIOExtras/MRPng.h</label>
         <link refid="MRPng_8h"/>
       </node>
-      <node id="36">
+      <node id="33">
         <label>MRIOExtras/MRTiff.h</label>
         <link refid="MRTiff_8h"/>
       </node>
@@ -205,7 +205,7 @@
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="32" relation="include">
         </childnode>
@@ -640,11 +640,9 @@
         <label>MRMesh/MRDipole.h</label>
         <link refid="MRDipole_8h"/>
       </node>
-      <node id="33">
+      <node id="34">
         <label>MRMesh/MRDistanceMap.h</label>
         <link refid="MRDistanceMap_8h"/>
-        <childnode refid="34" relation="include">
-        </childnode>
         <childnode refid="35" relation="include">
         </childnode>
         <childnode refid="36" relation="include">
@@ -662,6 +660,8 @@
         <label>MRMesh/MRDistanceMapParams.h</label>
         <link refid="MRDistanceMapParams_8h"/>
         <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
@@ -817,7 +817,7 @@
         </childnode>
         <childnode refid="247" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="248" relation="include">
         </childnode>
@@ -975,7 +975,7 @@
         <link refid="MRMesh_8h"/>
         <childnode refid="215" relation="include">
         </childnode>
-        <childnode refid="35" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
         <childnode refid="216" relation="include">
         </childnode>
@@ -1565,7 +1565,7 @@
         </childnode>
         <childnode refid="88" relation="include">
         </childnode>
-        <childnode refid="33" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
         <childnode refid="292" relation="include">
         </childnode>
@@ -1649,7 +1649,7 @@
       <node id="55">
         <label>MRMesh/MRRaster.h</label>
         <link refid="MRRaster_8h"/>
-        <childnode refid="36" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="56" relation="include">
         </childnode>

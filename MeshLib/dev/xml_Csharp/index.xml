@@ -18968,6 +18968,31 @@
     <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a67dcb8f44c69091ef4dc516b93b66767" kind="function"><name>__MR_LoadedObjectT_MR_ObjectVoxels_Get_obj</name></member>
     <member refid="classMR_1_1Const__LoadedObjectT__MRObjectVoxels_1a1d37ecbe286f78b702fef8bc7e47473c" kind="function"><name>__MR_LoadedObjectT_MR_ObjectVoxels_Get_warnings</name></member>
   </compound>
+  <compound refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" kind="class"><name>MR::VoxelsLoad::Const_LoadingTiffSettings</name>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ad2ea1abcb1b9096f2045706640a05938" kind="property"><name>dir</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ab69cd5235c2078ece16ed6596d5791c3" kind="property"><name>voxelSize</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ad977d5e60327a6b2fd1bf309da34bf40" kind="property"><name>gridType</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a94ad5f74d7aa3b7aedd108fcc9d0c5a8" kind="property"><name>cb</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a9d2b506143bc9b9f70131b63b0634c13" kind="variable"><name>__ref_storage_voxelSize</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a53b0fec3f2eedfc533c9ddcd80db076a" kind="variable"><name>__ref_storage_gridType</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1aa8e866ab3dbc18065fa5914886e48d81" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a1464336c087e8640286425f1c4fbbb77" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ac35c019af708e764856f5f68e47a1ff2" kind="function"><name>Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a7e64ababdc47b3fc6a2cb22e3ee4f522" kind="function"><name>Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a7273eef8dda566a418aa00a2a717b0c5" kind="function"><name>Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1ae9cda35d714063e1c04b381a62db50f5" kind="function"><name>Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1aa7bbb3b49ec6b1fa1336374d729f40a7" kind="function"><name>Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1af16f3f2a3debec743c11d4014ef82de7" kind="function"><name>~Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a3ca09098c16606edf3741b63d2bfd6ca" kind="function"><name>Const_LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a3fed5e72f06b07bf9c3420613e352e5e" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a051a13ac6959b9fa08519693d2a57f4c" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1abfad55e843a9e98c1f241b52e93e12b3" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a69c08be9b3f0d6afb8070ef9d9e5885e" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_Destroy</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a23693b43f0913236d84b694ddea2767b" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_cb</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1af17e8c770f38c36823e815256ee67fef" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_dir</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1abfb2136c555a4aff60e2473df0879b69" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings_1a61fa22037fe7c0ec67ca17bc60eebc7a" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__MakeBridgeResult" kind="class"><name>MR::Const_MakeBridgeResult</name>
     <member refid="classMR_1_1Const__MakeBridgeResult_1acd3b0baf8a25484ef5ffb1649e69fc7c" kind="property"><name>newFaces</name></member>
     <member refid="classMR_1_1Const__MakeBridgeResult_1a5fc03676f47ef1f562bddce48f5dd1f4" kind="property"><name>na</name></member>
@@ -29256,31 +29281,6 @@
     <member refid="classMR_1_1Const__Raster_1af6960c43d02e5e97d92f785bf14c8d30" kind="function"><name>__MR_Raster_Get_data</name></member>
     <member refid="classMR_1_1Const__Raster_1ab685f4e7052bc997f5a9061d9769c9ef" kind="function"><name>__MR_Raster_Get_info</name></member>
   </compound>
-  <compound refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings" kind="class"><name>MR::VoxelsLoad::Const_RasterFolderLoadSettings</name>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1aeba25060561095e117f738c43eb4aeec" kind="property"><name>dir</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a3773fce0e30928adc57e6dafef740e68" kind="property"><name>voxelSize</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1af92521e4398af377d7e4be6c690c4ca0" kind="property"><name>gridType</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1af11e445c392983a3575dec72a21b3fad" kind="property"><name>cb</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a35093889339a91da761eb4dde0aef03a" kind="variable"><name>__ref_storage_voxelSize</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a656698790c99b476e68c70398e4f17a0" kind="variable"><name>__ref_storage_gridType</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1af3246b142ad4f21dc2bc9a9d51d774ad" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a90603d32b4d2f1c0d53d658c1f82ff53" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a4d561f3b32f0337fcc43ab2254fb94ca" kind="function"><name>Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a6a9a53a72afc1645722ba7afb3f4a542" kind="function"><name>Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1aea94ff613da658ba097aebf40f87e370" kind="function"><name>Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1abf6c1f13e9e9f7a605a2cfd02a103bb9" kind="function"><name>Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1aba689b9b98504d41a06ea91aafbe1ab0" kind="function"><name>Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1aa12b96105b56b7946510636143ff30a0" kind="function"><name>~Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a515b1939959b0e17d2e4d52be5a32953" kind="function"><name>Const_RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a222c5952b542f7d4e66101a40dde8288" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1ad4b55696bcdd5c4c8fc18296f2c20e56" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a5d3554c86c5d5046699e1aa0f7bb4063" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a8f458c24c3c50ff6d8dc5e80f52611b4" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_Destroy</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a9bb349995fe0ce9bedc097e4213a400b" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a8c5152196752fa7c4714c4dae6cf7805" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1a79364762b7cccb166fccca6ba33c2538" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings_1ac1b2726fd5dff0605a26047a4739ee26" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize</name></member>
-  </compound>
   <compound refid="classMR_1_1Const__RasterInfo" kind="class"><name>MR::Const_RasterInfo</name>
     <member refid="classMR_1_1Const__RasterInfo_1a1fa64c40fb0e2df40151f3b4ae8e0155" kind="property"><name>dims</name></member>
     <member refid="classMR_1_1Const__RasterInfo_1ae469ef60f3e113e79d80976c47309432" kind="property"><name>type</name></member>
@@ -29312,44 +29312,38 @@
     <member refid="classMR_1_1Const__RasterInfo_1ac3688ed102cec471104925c0c2ab5343" kind="function"><name>__MR_equal_MR_RasterInfo</name></member>
   </compound>
   <compound refid="classMR_1_1Const__RasterLoadSettings" kind="class"><name>MR::Const_RasterLoadSettings</name>
-    <member refid="classMR_1_1Const__RasterLoadSettings_1aaf7687081b70a4a082fa073ac34ab5d8" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a0c5beeb1c3f1f5e22a311e7d7f08aec0" kind="property"><name>progress</name></member>
-    <member refid="classMR_1_1Const__RasterLoadSettings_1a0821aaa16bf1f7a4a99ef3c105426456" kind="variable"><name>__ptr_storage_xf</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a540e97149ec2e7feb64ca36350e8f47e" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a8b542023637190efcb5c0eec9a68e5bd" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1ac103fbe129dd47279ef42ee447bd21fa" kind="function"><name>Const_RasterLoadSettings</name></member>
-    <member refid="classMR_1_1Const__RasterLoadSettings_1aac97d2b83baa6b7aa360859c96064b85" kind="function"><name>Const_RasterLoadSettings</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1afee821299ce8b8abbe32152497fac707" kind="function"><name>Const_RasterLoadSettings</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a7b17570279cf15429f2879573199c547" kind="function"><name>Const_RasterLoadSettings</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1aa31fb56d43db160f839e9f242c9f1e1c" kind="function"><name>Const_RasterLoadSettings</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a01cae43e9386c31159df50a8d84104ca" kind="function"><name>Const_RasterLoadSettings</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1ae6eff86a56646c2c118d10cb1d3be223" kind="function"><name>~Const_RasterLoadSettings</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a2273caf62fa0ab778c185ecc1b639f8f" kind="function"><name>Const_RasterLoadSettings</name></member>
-    <member refid="classMR_1_1Const__RasterLoadSettings_1a5fb41c87c5b56d5c761a35533e5b8489" kind="function"><name>__MR_RasterLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__RasterLoadSettings_1a3144e5961ba880806159b078e8668291" kind="function"><name>__MR_RasterLoadSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1acae7a7d10fe917d619dff465bfaeb0a5" kind="function"><name>__MR_RasterLoadSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1aa472f868bfc0c3cadba9048e2331e7f3" kind="function"><name>__MR_RasterLoadSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a322a737b526c4d2ec3f904642a8bf2a4" kind="function"><name>__MR_RasterLoadSettings_Destroy</name></member>
     <member refid="classMR_1_1Const__RasterLoadSettings_1a5315bb642cfe90f0ea89847588373a0d" kind="function"><name>__MR_RasterLoadSettings_Get_progress</name></member>
-    <member refid="classMR_1_1Const__RasterLoadSettings_1a36cafc91c3d805099f6de7c48645b4b9" kind="function"><name>__MR_RasterLoadSettings_Get_xf</name></member>
   </compound>
   <compound refid="classMR_1_1Const__RasterSaveSettings" kind="class"><name>MR::Const_RasterSaveSettings</name>
-    <member refid="classMR_1_1Const__RasterSaveSettings_1a475fb2d2022c628dcfe4a1c17f090812" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a576d74b88d561344757ea21ce0c11985" kind="property"><name>progress</name></member>
-    <member refid="classMR_1_1Const__RasterSaveSettings_1a4498e1595f92897cb4e2b5bb31a72763" kind="variable"><name>__ptr_storage_xf</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a578d4af4fdfb44c82b98705724848f5e" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1ae74b952efcaca8e1ccfe42f94ff2740a" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a1d9dd71526dad9b58a7d2e100ceaeac3" kind="function"><name>Const_RasterSaveSettings</name></member>
-    <member refid="classMR_1_1Const__RasterSaveSettings_1a1b9f0b05d0ecd5a7469965f64ca5b666" kind="function"><name>Const_RasterSaveSettings</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a8ebe00647b63a5a0a26712ba9ee54dbc" kind="function"><name>Const_RasterSaveSettings</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a96b0a8a1e20198b780c34e3fb041d549" kind="function"><name>Const_RasterSaveSettings</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a1ed87c5dad0505cd28ae24a2f46a23b6" kind="function"><name>Const_RasterSaveSettings</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a1dede3a65b4e7f9c1b69427ca107fb99" kind="function"><name>Const_RasterSaveSettings</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1aa1c42ea500a4e357584aa035f5ccf850" kind="function"><name>~Const_RasterSaveSettings</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a989e1b47c4855a99f9b64b0d2bf1fbc4" kind="function"><name>Const_RasterSaveSettings</name></member>
-    <member refid="classMR_1_1Const__RasterSaveSettings_1af4467a743845e00b3455c514ac8af3b6" kind="function"><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__RasterSaveSettings_1a9b4b7f61f65386d54dc9dc06d07208a3" kind="function"><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1aed6982013d65fbeedc738eb0bd99de37" kind="function"><name>__MR_RasterSaveSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1aa6228880cf2a007eef1f5b9eedcb2b6f" kind="function"><name>__MR_RasterSaveSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1a177915d29d92b9887276bf392c0accd1" kind="function"><name>__MR_RasterSaveSettings_Destroy</name></member>
     <member refid="classMR_1_1Const__RasterSaveSettings_1aa2c6b1ee5a7cf2953c95580806cb2f82" kind="function"><name>__MR_RasterSaveSettings_Get_progress</name></member>
-    <member refid="classMR_1_1Const__RasterSaveSettings_1a590180cd35781f19afb5a78dd5589d68" kind="function"><name>__MR_RasterSaveSettings_Get_xf</name></member>
   </compound>
   <compound refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kind="class"><name>MR::VoxelsLoad::Const_RawParameters</name>
     <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a73389c75a88d00cf09220e40d0c02297" kind="property"><name>dimensions</name></member>
@@ -33534,28 +33528,6 @@
     <member refid="classMR_1_1Const__ThickenParams_1a74168c5b72b25705c32168b0ce35cf0c" kind="function"><name>__MR_ThickenParams_Get_insideOffset</name></member>
     <member refid="classMR_1_1Const__ThickenParams_1a164bad7b81b9e795bb2c4056f7a220df" kind="function"><name>__MR_ThickenParams_Get_normalsTrustFactor</name></member>
     <member refid="classMR_1_1Const__ThickenParams_1a58070045e92ba7371f959842349ad54c" kind="function"><name>__MR_ThickenParams_Get_outsideOffset</name></member>
-  </compound>
-  <compound refid="classMR_1_1Const__TiffSaveSettings" kind="class"><name>MR::Const_TiffSaveSettings</name>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1ab86eca2fa52171bef6df78d0aac2f11a" kind="property"><name>noData</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a88b3ae402762384e1690ff94dcedef46" kind="property"><name>xf</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1ad2ba467a0f750a962073929155d9144f" kind="property"><name>progress</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1af1a1fc137f089a456504bed875d2a527" kind="variable"><name>__ptr_storage_xf</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a135d95612a4e79f1ddaf9e9766de3ffd" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a0a6b7ccee5d8d756fed1ab8d0e5a4947" kind="function"><name>Dispose</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a36ad58f80bf54b294de8b990f98ea565" kind="function"><name>Const_TiffSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1adbf56b977e0174e0a0777f686f280226" kind="function"><name>Const_TiffSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1af088e543025509d4a42586fc1698387b" kind="function"><name>Const_TiffSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1ad3c9ce147235f3433cc50a2e0c362772" kind="function"><name>Const_TiffSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1ad18d4aa3b4dc451206a0ab90a9bbc11c" kind="function"><name>~Const_TiffSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1af51d84ce87bf919ad346ca34fad6b181" kind="function"><name>operator MR.Const_RasterSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a3c6599a1805505a199806791e976ef87" kind="function"><name>Const_TiffSaveSettings</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a359700513f51d112a5b797c26147ada1" kind="function"><name>__MR_TiffSaveSettings_ConstructFromAnother</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a2a1f7d83193e0ede189f64c9da04221a" kind="function"><name>__MR_TiffSaveSettings_DefaultConstruct</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a3c7375a68886ba82b4b74658efcc6e76" kind="function"><name>__MR_TiffSaveSettings_Destroy</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1aa2466b470927074e0ee7b5437c01492f" kind="function"><name>__MR_TiffSaveSettings_Get_noData</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a90b0f46775f87fa97421ec9e371d8881" kind="function"><name>__MR_TiffSaveSettings_Get_progress</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1a952cc80fe61653d6a8f595b7d535ce22" kind="function"><name>__MR_TiffSaveSettings_Get_xf</name></member>
-    <member refid="classMR_1_1Const__TiffSaveSettings_1ab01c66075e477a632a4e37744eff424f" kind="function"><name>__MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</name></member>
   </compound>
   <compound refid="classMR_1_1Const__ToolPathParams" kind="class"><name>MR::Const_ToolPathParams</name>
     <member refid="classMR_1_1Const__ToolPathParams_1a1273014c82a25b52b0bc696e098017f7" kind="property"><name>millRadius</name></member>
@@ -44452,11 +44424,9 @@
     <member refid="classMR_1_1DistanceMap_1a23ea5b6b16baf0b120693aec5360b357" kind="function"><name>__MR_DistanceMap_unset_2</name></member>
   </compound>
   <compound refid="classMR_1_1DistanceMapLoad" kind="class"><name>MR::DistanceMapLoad</name>
-    <member refid="classMR_1_1DistanceMapLoad_1a14f9d19844f30c80e3d9e795f15edce1" kind="function"><name>fromTiff</name></member>
     <member refid="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" kind="function"><name>fromRaw</name></member>
     <member refid="classMR_1_1DistanceMapLoad_1aead3d31ae57eff03c26fbd715a4f3e15" kind="function"><name>fromMrDistanceMap</name></member>
     <member refid="classMR_1_1DistanceMapLoad_1a4332ee3da23fc2a0131acb34496d9b4a" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="classMR_1_1DistanceMapLoad_1a7c22ecb4c411cbe403589dc781ac86ee" kind="function"><name>__MR_DistanceMapLoad_fromTiff</name></member>
     <member refid="classMR_1_1DistanceMapLoad_1a587890b52984d993177ab2d88edf6fe6" kind="function"><name>__MR_DistanceMapLoad_fromAnySupportedFormat</name></member>
     <member refid="classMR_1_1DistanceMapLoad_1ae1fc28637acc3730f3201dd3259fe300" kind="function"><name>__MR_DistanceMapLoad_fromMrDistanceMap</name></member>
     <member refid="classMR_1_1DistanceMapLoad_1a313cb1513d5cd9b6893e516a991331fa" kind="function"><name>__MR_DistanceMapLoad_fromRaw</name></member>
@@ -48735,6 +48705,25 @@
     <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1a437efc527ab8e0b9c4a710b34b400d14" kind="function"><name>__MR_LoadedObjectT_MR_ObjectVoxels_GetMutable_lengthUnit</name></member>
     <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1a0001248e49581413de7d858b1879edd7" kind="function"><name>__MR_LoadedObjectT_MR_ObjectVoxels_GetMutable_obj</name></member>
     <member refid="classMR_1_1LoadedObjectT__MRObjectVoxels_1a4a217087936640cfcb63ae9f2f2658e6" kind="function"><name>__MR_LoadedObjectT_MR_ObjectVoxels_GetMutable_warnings</name></member>
+  </compound>
+  <compound refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings" kind="class"><name>MR::VoxelsLoad::LoadingTiffSettings</name>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a86eb8310beeb24ca91e8dffa180cc76b" kind="property"><name>dir</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a06c9bef41746d737f29a57c67d400271" kind="property"><name>voxelSize</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a7becbe7a84bbab41f97873542f0f8d25" kind="property"><name>gridType</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ab6e668acd805999854f47197c4d0f1f8" kind="property"><name>cb</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a1757e3a56e12d551f362ea04226584c9" kind="function"><name>LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a51489fc121733819cb1f07474cb9ef55" kind="function"><name>LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a50548edb580b1f1828f3aff6ec25b51e" kind="function"><name>LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a704b365a64b724c7822d14bad578aea1" kind="function"><name>LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1aa2e1369f72a29e505200df374f82568e" kind="function"><name>LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ab4b516916f9b7426cd679e11126f87a9" kind="function"><name>LoadingTiffSettings</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ac32410a7b781f846a344e5d5106fe3f7" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a2b3807431d20f3c6ea567215d7f44204" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1aaa4b4efdb54f7e496be8c591543245b7" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1ab3f666857957f6ade54e9b8fdaba8c23" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a2bb223236ed63446c44c26209697e8fc" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1a68c52cd99df91ff0bd5b8fd3e4a5ad77" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings_1aecd8c8afea0cb8d6a9d026f2da5463c5" kind="function"><name>__MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</name></member>
   </compound>
   <compound refid="classMR_1_1Locale" kind="class"><name>MR::Locale</name>
     <member refid="classMR_1_1Locale_1aec99b30291d099d1b2defc3c5f5ebc03" kind="function"><name>translateNoop</name></member>
@@ -53165,7 +53154,6 @@
     <member refid="classMR_1a1df35dfd475a236e3142308f720d7bfd" kind="function"><name>protectedFunc</name></member>
     <member refid="classMR_1af5da93169ac1bfdbf073097307b26b2f" kind="function"><name>compensateRadius</name></member>
     <member refid="classMR_1a948a1620c0d5bf5331e6995b5bb68528" kind="function"><name>convertRasterToImage</name></member>
-    <member refid="classMR_1aae7fd0badd4a9edf6846b485b4f8c257" kind="function"><name>convertRasterToFloats</name></member>
     <member refid="classMR_1a92d5d2a460180c528dd10abce7ccbf68" kind="function"><name>opposite</name></member>
     <member refid="classMR_1a8934bf2383fd03d4a4a6c3f956ed2fab" kind="function"><name>expandPixelMask</name></member>
     <member refid="classMR_1a840f706b183b2902b3a9fa5c2ce5b0d1" kind="function"><name>shrinkPixelMask</name></member>
@@ -55012,7 +55000,6 @@
     <member refid="classMR_1a8c1c14266cc3e3de2e20448cd5d3d647" kind="function"><name>__MR_protectedFunc</name></member>
     <member refid="classMR_1a5f01a0753a7f9e87a3d61b0bd0a5a6bb" kind="function"><name>__MR_protectedRun</name></member>
     <member refid="classMR_1add449f738383c6239067eb2479141ec9" kind="function"><name>__MR_compensateRadius</name></member>
-    <member refid="classMR_1a3266f8f511d3969fd4668a9587a713cb" kind="function"><name>__MR_convertRasterToFloats</name></member>
     <member refid="classMR_1a4b34e4dfa49ee64c913873e4a678f897" kind="function"><name>__MR_convertRasterToImage</name></member>
     <member refid="classMR_1a2744172eb100bd7e09a232ee8265d976" kind="function"><name>__MR_expandPixelMask</name></member>
     <member refid="classMR_1aff0ea610529811fb26505dc6aa4a9799" kind="function"><name>__MR_opposite_MR_OutEdge2</name></member>
@@ -61490,25 +61477,6 @@
     <member refid="classMR_1_1Raster_1aa34dfbae274ceecb2209fabe02ddfe3f" kind="function"><name>__MR_Raster_GetMutable_data</name></member>
     <member refid="classMR_1_1Raster_1a4f2ef4e9817449dabc4086bc442e6982" kind="function"><name>__MR_Raster_GetMutable_info</name></member>
   </compound>
-  <compound refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kind="class"><name>MR::VoxelsLoad::RasterFolderLoadSettings</name>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a7f27a0d58f9771b910b1dffe8f6990a9" kind="property"><name>dir</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a7d66f930142b087c4f589c3bd76f987d" kind="property"><name>voxelSize</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3740b71ac6f6e60a1c4cd7b0f197a8f7" kind="property"><name>gridType</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1afcbe568c71d69df12a955422dcad24a1" kind="property"><name>cb</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1acf8d19c878132bd1029a668337f90e75" kind="function"><name>RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a385b8f0df5ddd7d48786dde3b18d6408" kind="function"><name>RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5bdfba9a8b6723df0a17a11228497b16" kind="function"><name>RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5d87a1d42f0028faace103d60d1b073e" kind="function"><name>RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a985a612759ea77c3fa67ec5afede73d4" kind="function"><name>RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a5c1cdf449d83ef1037b04cfb12226019" kind="function"><name>RasterFolderLoadSettings</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1afcc05302eef1271b27eb884658a89e54" kind="function"><name>assign</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a048ca302bd7d7570c9de98fcc1976cfa" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ad330ae0a6f785cfc79bf18b92c2ae8c7" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1af48c8149e105eb26e249783e02ef1761" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a31653c97cd5ba0063de413a0d72ccbfa" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e0acda449b69f20af4b334048cbe688" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a993863c21d3d2d00563770d0ac0b913c" kind="function"><name>__MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</name></member>
-  </compound>
   <compound refid="classMR_1_1RasterInfo" kind="class"><name>MR::RasterInfo</name>
     <member refid="classMR_1_1RasterInfo_1a544f27d346071f972572f80a62222b72" kind="property"><name>dims</name></member>
     <member refid="classMR_1_1RasterInfo_1a53fdb7703806f6f5f4a2d8a166179d0e" kind="property"><name>type</name></member>
@@ -61535,41 +61503,37 @@
     <member refid="classMR_1_1RasterLoad_1a6d528213b653aba8c7345f097bf45653" kind="function"><name>__MR_RasterLoad_infoFromAnySupportedFormat</name></member>
   </compound>
   <compound refid="classMR_1_1RasterLoadSettings" kind="class"><name>MR::RasterLoadSettings</name>
-    <member refid="classMR_1_1RasterLoadSettings_1a9ec3b6cc19b1b7ac194dfb0381a3ca86" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a4de8b2465057f4538429c56ceff8ef0e" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a32545febbe44843b71d1a8edc6429650" kind="function"><name>RasterLoadSettings</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a57540193d68aaea71a307ab22925dce7" kind="function"><name>RasterLoadSettings</name></member>
-    <member refid="classMR_1_1RasterLoadSettings_1afbe695b49899fa4ac87c05a46a13060a" kind="function"><name>RasterLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1aae6b6586718fa5221b0d707ab28ad0af" kind="function"><name>RasterLoadSettings</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a79df293268433c56048b230b4f640126" kind="function"><name>RasterLoadSettings</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1aecd3ed1fe53fec733c592ae388080534" kind="function"><name>RasterLoadSettings</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1af4b5dd69f49a7ae1f3495930e0cded37" kind="function"><name>RasterLoadSettings</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a6e0f4b891461bb782519deeffb8a5378" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1ab3655afc0900834363b91db94836dda5" kind="function"><name>__MR_RasterLoadSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1RasterLoadSettings_1a6f927a8cd003915284d96a145e76a0c0" kind="function"><name>__MR_RasterLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterLoadSettings_1a5f0d258504150d32420d74552c1de0b7" kind="function"><name>__MR_RasterLoadSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a6f062d7b1303d1fee05c27576c192189" kind="function"><name>__MR_RasterLoadSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1ae63d6579d85b3dd37b2e5073422ba3ae" kind="function"><name>__MR_RasterLoadSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1RasterLoadSettings_1a31965eec43a56748c110a4d174f2b245" kind="function"><name>__MR_RasterLoadSettings_GetMutable_progress</name></member>
   </compound>
   <compound refid="classMR_1_1RasterSave" kind="class"><name>MR::RasterSave</name>
-    <member refid="classMR_1_1RasterSave_1a213a289f37cc53833dff5ed378e08046" kind="function"><name>toTiff</name></member>
     <member refid="classMR_1_1RasterSave_1afe4f0c1514eae7af14cdc197b6e81875" kind="function"><name>toTiff</name></member>
     <member refid="classMR_1_1RasterSave_1a7f65bed30d597f5a060b967888ad02d8" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="classMR_1_1RasterSave_1a469f214d2e9bcb0ad67a6cac3043bdf2" kind="function"><name>__MR_RasterSave_toTiff_MR_RasterSaveSettings</name></member>
-    <member refid="classMR_1_1RasterSave_1a427e568d0b94aea60e2440f96fe3ddc0" kind="function"><name>__MR_RasterSave_toTiff_MR_TiffSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSave_1acf6d203d5303bd7846985821dc41311c" kind="function"><name>__MR_RasterSave_toTiff</name></member>
     <member refid="classMR_1_1RasterSave_1a970c6242073cfdc50103aae10eb9913b" kind="function"><name>__MR_RasterSave_toAnySupportedFormat</name></member>
   </compound>
   <compound refid="classMR_1_1RasterSaveSettings" kind="class"><name>MR::RasterSaveSettings</name>
-    <member refid="classMR_1_1RasterSaveSettings_1a950372980997b17a8f5ad5f2c4ed4682" kind="property"><name>xf</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a834757aa4ba8efdadd036c942e2178c5" kind="property"><name>progress</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1aa81fd9fe6387fe8cc2f632c7f8da8b00" kind="function"><name>RasterSaveSettings</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a2ec258a7346e0d46297d8c6cf93ffb0f" kind="function"><name>RasterSaveSettings</name></member>
-    <member refid="classMR_1_1RasterSaveSettings_1a98321ca9eab56fdf6b77a267dbf92656" kind="function"><name>RasterSaveSettings</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1a95bf2fb666db685840f691327aec26e0" kind="function"><name>RasterSaveSettings</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1af6ee9f1382312c3ce3e53db6bbd3bda3" kind="function"><name>RasterSaveSettings</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a6cfa5d1080dc629f7168c88cd001726e" kind="function"><name>RasterSaveSettings</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a487a98a44f7293d21282e5d2f44d81b4" kind="function"><name>RasterSaveSettings</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a5e1b514bd55dc47e6f4493750262a7db" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1af14cac931101de92e69a75cec203973b" kind="function"><name>__MR_RasterSaveSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1RasterSaveSettings_1a9c333172e7911037ee26fdddcfffe206" kind="function"><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterSaveSettings_1afa990e0343c920ccb09575b236d8fefa" kind="function"><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a103da59b78acf2f8ee77ebf44a74c992" kind="function"><name>__MR_RasterSaveSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1a9aac9d9534c0fcdd33d0d8450b059649" kind="function"><name>__MR_RasterSaveSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1RasterSaveSettings_1af1b3b3e264b706191c805fbf08d91237" kind="function"><name>__MR_RasterSaveSettings_GetMutable_progress</name></member>
@@ -64126,24 +64090,6 @@
     <member refid="classMR_1_1ThickenParams_1a693abcb85904c02d404de897f51c2497" kind="function"><name>__MR_ThickenParams_ConstructFrom</name></member>
     <member refid="classMR_1_1ThickenParams_1af04ef97c8a0b650179c477c617fbcf23" kind="function"><name>__MR_ThickenParams_ConstructFromAnother</name></member>
     <member refid="classMR_1_1ThickenParams_1a87c75816be34355e20fed8b6ea116185" kind="function"><name>__MR_ThickenParams_DefaultConstruct</name></member>
-  </compound>
-  <compound refid="classMR_1_1TiffSaveSettings" kind="class"><name>MR::TiffSaveSettings</name>
-    <member refid="classMR_1_1TiffSaveSettings_1a123054b2cd95ae52a8faeefabddbff2e" kind="property"><name>noData</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a9caf1a0cce0f9f5759bac8a68604aa32" kind="property"><name>xf</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1ac0a57e4ccf8f68a7e6cc3559ca86065d" kind="property"><name>progress</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1ada4b1acd9160cc188f7d749f07a28d42" kind="function"><name>operator MR.RasterSaveSettings</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a68a99fa64fdd1ecf21b51ccf9cf47abb" kind="function"><name>TiffSaveSettings</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1aeccefde83e9cebc562141ff42680f4a7" kind="function"><name>TiffSaveSettings</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a4a3ede65669c7e1e7942cda11a6ea16d" kind="function"><name>TiffSaveSettings</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a228fbb1d2b3421dd91cb0efad3a27294" kind="function"><name>TiffSaveSettings</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a7e8f0eb791dc20a9228ce5a3bafe3d76" kind="function"><name>TiffSaveSettings</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1aa700e71978c3a8254acc0d55813185ea" kind="function"><name>assign</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a1bb6a75dd0ae471bbe37052c071c815b" kind="function"><name>__MR_TiffSaveSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a3fddcd590719e84eb582b8000018f4e6" kind="function"><name>__MR_TiffSaveSettings_ConstructFromAnother</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a17288b76d5a47529f5a3fcb58c27b48e" kind="function"><name>__MR_TiffSaveSettings_DefaultConstruct</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a2fdeb213333396ae47e3b6714f8be4a3" kind="function"><name>__MR_TiffSaveSettings_GetMutable_noData</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a0a297903282c04ea236c9b57f689aaf3" kind="function"><name>__MR_TiffSaveSettings_GetMutable_progress</name></member>
-    <member refid="classMR_1_1TiffSaveSettings_1a21af3857f6f6c9988c1ed2d873626dca" kind="function"><name>__MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</name></member>
   </compound>
   <compound refid="classMR_1_1ToolPathParams" kind="class"><name>MR::ToolPathParams</name>
     <member refid="classMR_1_1ToolPathParams_1a7195a5a6a112d727d4027663b44689d0" kind="property"><name>millRadius</name></member>
@@ -70750,7 +70696,7 @@
     <member refid="classMR_1_1VoxelsLoad_1a080500230f9c9b4291ae7b1b1fb5c287" kind="function"><name>fromGav</name></member>
     <member refid="classMR_1_1VoxelsLoad_1a80a4a72242fcaa36ea61514e8291db22" kind="function"><name>gridsFromAnySupportedFormat</name></member>
     <member refid="classMR_1_1VoxelsLoad_1a67fa635f15742a7398b6fe4540753b58" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1a98ab986403555cd6c2df64984e8897bb" kind="function"><name>loadRasterFolder</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" kind="function"><name>loadTiffDir</name></member>
     <member refid="classMR_1_1VoxelsLoad_1a2712868c1aa23d2c3c848f4e27e08228" kind="function"><name>__MR_VoxelsLoad_createObjectVoxels</name></member>
     <member refid="classMR_1_1VoxelsLoad_1a841de0ffc973935a1aceb14581c22001" kind="function"><name>__MR_VoxelsLoad_findDicomFoldersRecursively</name></member>
     <member refid="classMR_1_1VoxelsLoad_1ad341fc4a497f1c87edf8bfae06fc39b5" kind="function"><name>__MR_VoxelsLoad_isDicomFile</name></member>
@@ -70777,7 +70723,7 @@
     <member refid="classMR_1_1VoxelsLoad_1af21b75f5efc7f6e3d81dc5cb3da777ca" kind="function"><name>__MR_VoxelsLoad_gridsFromAnySupportedFormat</name></member>
     <member refid="classMR_1_1VoxelsLoad_1aa19ebd5d109f0eb378bc1102cf2f7ac4" kind="function"><name>__MR_VoxelsLoad_gridsFromVdb_std_filesystem_path</name></member>
     <member refid="classMR_1_1VoxelsLoad_1a67c35c8809e291a010133eb238c637f6" kind="function"><name>__MR_VoxelsLoad_gridsFromVdb_std_istream</name></member>
-    <member refid="classMR_1_1VoxelsLoad_1acaa9588d34c3a5102417edc88c37b13c" kind="function"><name>__MR_VoxelsLoad_loadRasterFolder</name></member>
+    <member refid="classMR_1_1VoxelsLoad_1a3368e464e0808449afc9baccb99b7930" kind="function"><name>__MR_VoxelsLoad_loadTiffDir</name></member>
   </compound>
   <compound refid="classMR_1_1VoxelsSave" kind="class"><name>MR::VoxelsSave</name>
     <member refid="classMR_1_1VoxelsSave_1a56867aadf2bd62203ce5312a547d2b7a" kind="function"><name>toDicom</name></member>

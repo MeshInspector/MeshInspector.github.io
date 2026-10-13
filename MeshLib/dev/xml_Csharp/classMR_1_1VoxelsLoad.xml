@@ -5,12 +5,12 @@
     <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" prot="public">MR::VoxelsLoad::Const_DicomStatus</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume" prot="public">MR::VoxelsLoad::Const_DicomVolume</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" prot="public">MR::VoxelsLoad::Const_DicomVolumeAsVdb</innerclass>
-    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings" prot="public">MR::VoxelsLoad::Const_RasterFolderLoadSettings</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" prot="public">MR::VoxelsLoad::Const_LoadingTiffSettings</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" prot="public">MR::VoxelsLoad::Const_RawParameters</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomStatus" prot="public">MR::VoxelsLoad::DicomStatus</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomVolume" prot="public">MR::VoxelsLoad::DicomVolume</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" prot="public">MR::VoxelsLoad::DicomVolumeAsVdb</innerclass>
-    <innerclass refid="classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" prot="public">MR::VoxelsLoad::RasterFolderLoadSettings</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">MR::VoxelsLoad::LoadingTiffSettings</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" prot="public" static="no" strong="yes">
@@ -758,24 +758,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="771" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="771" bodyend="781"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a98ab986403555cd6c2df64984e8897bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
-        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.loadRasterFolder</definition>
-        <argsstring>(MR.VoxelsLoad.Const_RasterFolderLoadSettings settings)</argsstring>
-        <name>loadRasterFolder</name>
-        <qualifiedname>MR.VoxelsLoad.loadRasterFolder</qualifiedname>
+        <definition>static unsafe MR.VdbVolume MR.VoxelsLoad.loadTiffDir</definition>
+        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings settings)</argsstring>
+        <name>loadTiffDir</name>
+        <qualifiedname>MR.VoxelsLoad.loadTiffDir</qualifiedname>
         <param>
-          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings" kindref="compound">MR.VoxelsLoad.Const_RasterFolderLoadSettings</ref></type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" kindref="compound">MR.VoxelsLoad.Const_LoadingTiffSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
-<para>Load voxels from the raster files of a folder, a layer from each file: the files are those of the extension with a raster loader that most files have, sorted by name; they must have the same <ref refid="classMR_1_1RasterInfo" kindref="compound">RasterInfo</ref>, their values are converted by convertRasterToFloats Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a98ab986403555cd6c2df64984e8897bb" kindref="member">MR.VoxelsLoad.loadRasterFolder</ref></computeroutput>. </para>
+<para>Load voxels from a set of TIFF files Generated from function <computeroutput><ref refid="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" kindref="member">MR.VoxelsLoad.loadTiffDir</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="788" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="788" bodyend="794"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="787" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="787" bodyend="793"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -1119,7 +1119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="799" column="88"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="798" column="88"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1af9b5f297b6016991650fe350ec4689ae" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMRVdbVolume_StdString._Underlying *</type>
@@ -1145,7 +1145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="802" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="801" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a41c8cff0b80b191c520608d15fd31cbb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -1171,7 +1171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="805" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="804" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a64d814f8f3884a35b0f90b99ddc34520" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -1193,7 +1193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="808" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="807" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a275c210cf5e5506ec5b0384efbb37c4e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -1219,7 +1219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="811" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="810" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a43ded21888939260f570ab430d4e8deb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -1249,7 +1249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="814" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="813" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1aaf291b476c56e84acf195586d54ced46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -1275,7 +1275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="817" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="816" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a1dc4f714ebc724a747ef1a0c458b369b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMRVdbVolume_StdString._Underlying *</type>
@@ -1301,7 +1301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="820" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="819" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a26f348c658b5bcc21e009d14ff6faa95" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFloatGrid_StdString._Underlying *</type>
@@ -1327,7 +1327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="823" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="822" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a0c1795f99a846037e4d68edb1596e143" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFloatGrid_StdString._Underlying *</type>
@@ -1357,7 +1357,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="826" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="825" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a1aca454ed5ccc1f4be3d8b75fefc7c33" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFloatGrid_StdString._Underlying *</type>
@@ -1383,7 +1383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="829" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="828" column="74"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1af21b75f5efc7f6e3d81dc5cb3da777ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMRFloatGrid_StdString._Underlying *</type>
@@ -1409,7 +1409,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="832" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="831" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1aa19ebd5d109f0eb378bc1102cf2f7ac4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMRFloatGrid_StdString._Underlying *</type>
@@ -1435,7 +1435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="835" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="834" column="83"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a67c35c8809e291a010133eb238c637f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMRFloatGrid_StdString._Underlying *</type>
@@ -1457,16 +1457,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="838" column="83"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="837" column="83"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1acaa9588d34c3a5102417edc88c37b13c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1a3368e464e0808449afc9baccb99b7930" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRVdbVolume_StdString._Underlying * MR.VoxelsLoad.__MR_VoxelsLoad_loadRasterFolder</definition>
-        <argsstring>(MR.VoxelsLoad.Const_RasterFolderLoadSettings._Underlying *settings)</argsstring>
-        <name>__MR_VoxelsLoad_loadRasterFolder</name>
-        <qualifiedname>MR.VoxelsLoad.__MR_VoxelsLoad_loadRasterFolder</qualifiedname>
+        <definition>static unsafe MR.Expected_MRVdbVolume_StdString._Underlying * MR.VoxelsLoad.__MR_VoxelsLoad_loadTiffDir</definition>
+        <argsstring>(MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *settings)</argsstring>
+        <name>__MR_VoxelsLoad_loadTiffDir</name>
+        <qualifiedname>MR.VoxelsLoad.__MR_VoxelsLoad_loadTiffDir</qualifiedname>
         <param>
-          <type>MR.VoxelsLoad.Const_RasterFolderLoadSettings._Underlying *</type>
+          <type>MR.VoxelsLoad.Const_LoadingTiffSettings._Underlying *</type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -1475,7 +1475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="841" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="840" column="74"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1509,7 +1509,7 @@
       <member refid="classMR_1_1VoxelsLoad_1a9404c57694578e3d255f657debf88b68" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>__MR_VoxelsLoad_loadDicomsFolder</name></member>
       <member refid="classMR_1_1VoxelsLoad_1a83183df0f2e34961099e33c4bee81692" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>__MR_VoxelsLoad_loadDicomsFolderAsVdb</name></member>
       <member refid="classMR_1_1VoxelsLoad_1a52f8a5cc5b7f53ed0463cc0f70aa1d54" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>__MR_VoxelsLoad_loadDicomsFolderTreeAsVdb</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1acaa9588d34c3a5102417edc88c37b13c" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>__MR_VoxelsLoad_loadRasterFolder</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a3368e464e0808449afc9baccb99b7930" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>__MR_VoxelsLoad_loadTiffDir</name></member>
       <member refid="classMR_1_1VoxelsLoad_1a9b20805dfb03a9cb7e7d332e828e4f16" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>__MR_VoxelsLoad_makeObjectVoxelsFromDicomFolder</name></member>
       <member refid="classMR_1_1VoxelsLoad_1ae854629967cfff9f8d40ce8efd58a11b" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>createObjectVoxels</name></member>
       <member refid="classMR_1_1VoxelsLoad_1a4877b5ea79a241234ef88b527edc08e6" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>DicomStatusEnum</name></member>
@@ -1538,7 +1538,7 @@
       <member refid="classMR_1_1VoxelsLoad_1a46c8ae672debd2f25110b977e9827fb9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomsFolder</name></member>
       <member refid="classMR_1_1VoxelsLoad_1af8b9fa119e7a6919991c737d90420682" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomsFolderAsVdb</name></member>
       <member refid="classMR_1_1VoxelsLoad_1add8b39606d69883317cade51f7564e1f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadDicomsFolderTreeAsVdb</name></member>
-      <member refid="classMR_1_1VoxelsLoad_1a98ab986403555cd6c2df64984e8897bb" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadRasterFolder</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1a80cc54725388b6ee3b52d0e132206b26" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>loadTiffDir</name></member>
       <member refid="classMR_1_1VoxelsLoad_1ab4f11881b595dab444e3381abe457dc4" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad</scope><name>makeObjectVoxelsFromDicomFolder</name></member>
     </listofallmembers>
   </compounddef>
