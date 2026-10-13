@@ -54,7 +54,7 @@
         <detaileddescription>
 <para>converts the values of a raster to floats in dst, which has room for size = dims.x * dims.y * dims.z values, in the order of the raster:<itemizedlist>
 <listitem><para>one channel is taken as is;</para>
-</listitem><listitem><para>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, data whose size does not match the dimensions, or another size </para>
+</listitem><listitem><para>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, negative dimensions, data whose size does not match the dimensions, or another size </para>
 </listitem></itemizedlist>
 </para>
         </detaileddescription>

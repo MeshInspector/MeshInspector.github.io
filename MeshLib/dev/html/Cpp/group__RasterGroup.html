@@ -183,7 +183,7 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRRaster_8h.html">MRMesh/MRRaster.h</a>&gt;</code></p>
 <p>converts the values of a raster to floats in dst, which has room for size = dims.x * dims.y * dims.z values, in the order of the raster:</p><ul>
 <li>one channel is taken as is;</li>
-<li>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, data whose size does not match the dimensions, or another size </li>
+<li>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, negative dimensions, data whose size does not match the dimensions, or another size </li>
 </ul>
 
 </div>
