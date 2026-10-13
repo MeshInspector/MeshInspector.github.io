@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1WeightedVertexT.html":[9,0,0,20,386],
+"structMR_1_1Writer.html":[9,0,0,20,554],
 "structMR_1_1ZCompensateParams.html":[9,0,0,20,429],
 "structMR_1_1ZeroOnMove.html":[9,0,0,20,143],
 "structMR_1_1ZlibCompressParams.html":[9,0,0,20,558],

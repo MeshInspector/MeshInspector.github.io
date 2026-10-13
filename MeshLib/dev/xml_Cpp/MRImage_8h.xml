@@ -346,6 +346,8 @@
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
       </node>
       <node id="21">
         <label>MRMesh/MRObjectDistanceMap.h</label>
@@ -432,6 +434,22 @@
       <node id="39">
         <label>MRViewer/MRRenderVolumeObject.h</label>
         <link refid="MRRenderVolumeObject_8h"/>
+      </node>
+      <node id="41">
+        <label>MRViewer/MRRibbonButtonDrawer.h</label>
+        <link refid="MRRibbonButtonDrawer_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MRViewer/MRRibbonIcons.h</label>
+        <link refid="MRRibbonIcons_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MRViewer/MRRibbonMenu.h</label>
+        <link refid="MRRibbonMenu_8h"/>
       </node>
       <node id="32">
         <label>MRVoxels/MRChangeVoxelSelectionAction.h</label>

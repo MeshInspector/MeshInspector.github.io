@@ -14243,6 +14243,8 @@ Variables</h2></td></tr>
 <tr class="memdesc:gab3b0a0f725a458351575eea540e60d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">merge into previous font; mapped to ImFontConfig::MergeMode  <br /></td></tr>
 <tr class="memitem:gaed0f3941ebd4706c243f8028f00fa10b" id="r_gaed0f3941ebd4706c243f8028f00fa10b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed0f3941ebd4706c243f8028f00fa10b">MR::RibbonIcons::Icons::colored</a></td></tr>
 <tr class="memitem:ga5393f41d456609657a0ec506c3d1006b" id="r_ga5393f41d456609657a0ec506c3d1006b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5393f41d456609657a0ec506c3d1006b">MR::RibbonIcons::Icons::white</a></td></tr>
+<tr class="memitem:ga28d2b1e47f08e3056248c65e76b12b4f" id="r_ga28d2b1e47f08e3056248c65e76b12b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga28d2b1e47f08e3056248c65e76b12b4f">MR::RibbonIcons::Textures::colored</a></td></tr>
+<tr class="memitem:ga24c98877a397997373e6b8ce6668616e" id="r_ga24c98877a397997373e6b8ce6668616e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga24c98877a397997373e6b8ce6668616e">MR::RibbonIcons::Textures::white</a></td></tr>
 <tr class="memitem:ga8e7be73585be2d1e172f4043af2dd7da" id="r_ga8e7be73585be2d1e172f4043af2dd7da"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8e7be73585be2d1e172f4043af2dd7da">MR::RibbonIcons::IconTypeData::pathDirectory</a></td></tr>
 <tr class="memitem:ga4731ad96d4ed20fddf9a1f57bdf7a532" id="r_ga4731ad96d4ed20fddf9a1f57bdf7a532"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Sizes, Sizes &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4731ad96d4ed20fddf9a1f57bdf7a532">MR::RibbonIcons::IconTypeData::minMaxSizes</a></td></tr>
 <tr class="memdesc:ga4731ad96d4ed20fddf9a1f57bdf7a532"><td class="mdescLeft">&#160;</td><td class="mdescRight">first - min size, second - max size  <br /></td></tr>
@@ -115793,7 +115795,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRRibbonIcons_8h.html">MRViewer/MRRibbonIcons.h</a>&gt;</code></p>
-<p>this should be called once on start of program (called in <a class="el" href="#ga1ead9bda756b557c004a8b3048fc882c" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>); loads all icon types except Logos, which are loaded on first findByName request </p>
+<p>this should be called once on start of program (called in <a class="el" href="#ga1ead9bda756b557c004a8b3048fc882c" title="This function is called when the viewer is initialized (no mesh will be loaded at this stage)">RibbonMenu::init</a>); if resource/icons*.zip exist (one archive per library, made by the build, entries like "icons/X1/name.png"), loads all icons from them, otherwise loads all icon types from resource/&lt;type&gt; folders except Logos, which are loaded on first findByName request </p>
 
 </div>
 </div>
@@ -209838,13 +209840,27 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaed0f3941ebd4706c243f8028f00fa10b" name="gaed0f3941ebd4706c243f8028f00fa10b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaed0f3941ebd4706c243f8028f00fa10b">&#9670;&#160;</a></span>colored</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed0f3941ebd4706c243f8028f00fa10b">&#9670;&#160;</a></span>colored <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a>&gt; MR::RibbonIcons::Icons::colored</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga28d2b1e47f08e3056248c65e76b12b4f" name="ga28d2b1e47f08e3056248c65e76b12b4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28d2b1e47f08e3056248c65e76b12b4f">&#9670;&#160;</a></span>colored <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> MR::RibbonIcons::Textures::colored</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241857,13 +241873,27 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5393f41d456609657a0ec506c3d1006b" name="ga5393f41d456609657a0ec506c3d1006b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5393f41d456609657a0ec506c3d1006b">&#9670;&#160;</a></span>white</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5393f41d456609657a0ec506c3d1006b">&#9670;&#160;</a></span>white <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">std::unique_ptr&lt;<a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a>&gt; MR::RibbonIcons::Icons::white</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga24c98877a397997373e6b8ce6668616e" name="ga24c98877a397997373e6b8ce6668616e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga24c98877a397997373e6b8ce6668616e">&#9670;&#160;</a></span>white <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> MR::RibbonIcons::Textures::white</td>
         </tr>
       </table>
 </div><div class="memdoc">

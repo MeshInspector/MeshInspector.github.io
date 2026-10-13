@@ -9917,6 +9917,7 @@
     <member refid="group__GeneralGroup_1gacb8553a429f9686c8640af6c2c125542" kind="enum"><name>Sizes</name></member>
     <member refid="group__GeneralGroup_1ga62a1717386122730a20db87f57d97a86" kind="typedef"><name>SizedIcons</name></member>
     <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" kind="variable"><name>data_</name></member>
+    <member refid="group__GeneralGroup_1ga614bae927ae8f2851b0aeb16764ff142" kind="variable"><name>zipTried_</name></member>
     <member refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" kind="function"><name>load</name></member>
     <member refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" kind="function"><name>free</name></member>
     <member refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" kind="function"><name>findByName</name></member>
@@ -9924,8 +9925,11 @@
     <member refid="group__GeneralGroup_1ga603de62481d9bad09f02eb788bfc0423" kind="function"><name>~RibbonIcons</name></member>
     <member refid="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" kind="function"><name>findRequiredSize_</name></member>
     <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" kind="function"><name>load_</name></member>
+    <member refid="group__GeneralGroup_1gaae6fe375bccbd117bb5fe0c196170511" kind="function"><name>loadZips_</name></member>
     <member refid="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" kind="function"><name>instance_</name></member>
     <member refid="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" kind="function"><name>sizeSubFolder_</name></member>
+    <member refid="group__GeneralGroup_1ga42e0e5e35fd31daac7c3c79a6600d38d" kind="function"><name>makeTextures_</name></member>
+    <member refid="group__GeneralGroup_1ga42eabad55e02bc6cc0ce97a289fc5fc4" kind="function"><name>addIcon_</name></member>
   </compound>
   <compound refid="classMR_1_1RibbonMenu" kind="class"><name>MR::RibbonMenu</name>
     <member refid="group__GeneralGroup_1gaf8f659a638712863260fa7636adb4588" kind="enum"><name>CollapseState</name></member>
@@ -11708,6 +11712,10 @@
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a94e287dc6994cec0b2e49f8d3d2d87fe" kind="variable"><name>textCornerB</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a5f94555831e1f94892d9ff939f618dd9" kind="variable"><name>bgCornerA</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a3db8a74d097eec16f3625ff3865dea29" kind="variable"><name>bgCornerB</name></member>
+  </compound>
+  <compound refid="structMR_1_1RibbonIcons_1_1Textures" kind="struct"><name>MR::RibbonIcons::Textures</name>
+    <member refid="group__GeneralGroup_1ga28d2b1e47f08e3056248c65e76b12b4f" kind="variable"><name>colored</name></member>
+    <member refid="group__GeneralGroup_1ga24c98877a397997373e6b8ce6668616e" kind="variable"><name>white</name></member>
   </compound>
   <compound refid="classMR_1_1Tgt2SrcMaps" kind="class"><name>MR::Tgt2SrcMaps</name>
     <member refid="group__GeneralGroup_1ga9d1aa77a4d94484528e724c1559cc9b7" kind="variable"><name>outFmap_</name></member>
@@ -24585,12 +24593,15 @@
     <member refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" kind="variable"><name>mergeMode</name></member>
     <member refid="group__GeneralGroup_1gaed0f3941ebd4706c243f8028f00fa10b" kind="variable"><name>colored</name></member>
     <member refid="group__GeneralGroup_1ga5393f41d456609657a0ec506c3d1006b" kind="variable"><name>white</name></member>
+    <member refid="group__GeneralGroup_1ga28d2b1e47f08e3056248c65e76b12b4f" kind="variable"><name>colored</name></member>
+    <member refid="group__GeneralGroup_1ga24c98877a397997373e6b8ce6668616e" kind="variable"><name>white</name></member>
     <member refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" kind="variable"><name>pathDirectory</name></member>
     <member refid="group__GeneralGroup_1ga4731ad96d4ed20fddf9a1f57bdf7a532" kind="variable"><name>minMaxSizes</name></member>
     <member refid="group__GeneralGroup_1ga0773e7767a6caea3e52277c10bab8610" kind="variable"><name>availableColor</name></member>
     <member refid="group__GeneralGroup_1ga05fb9b2891ce6c47d3792e32d2f762ea" kind="variable"><name>map</name></member>
     <member refid="group__GeneralGroup_1gadd5db6ebcba46e60e03d40bd3b1ad0d7" kind="variable"><name>loaded</name></member>
     <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" kind="variable"><name>data_</name></member>
+    <member refid="group__GeneralGroup_1ga614bae927ae8f2851b0aeb16764ff142" kind="variable"><name>zipTried_</name></member>
     <member refid="group__GeneralGroup_1ga5002834cd308d2eeda7cc7f532840f8a" kind="variable"><name>menuUIConfig</name></member>
     <member refid="group__GeneralGroup_1ga678575ecbadf5b880fab6e6072873ee5" kind="variable"><name>monochromeRibbonIcons</name></member>
     <member refid="group__GeneralGroup_1ga64f5562c14952b7d260af9fa205a774e" kind="variable"><name>colorTheme</name></member>
@@ -30507,6 +30518,9 @@
     <member refid="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" kind="function"><name>sizeSubFolder_</name></member>
     <member refid="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" kind="function"><name>findRequiredSize_</name></member>
     <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" kind="function"><name>load_</name></member>
+    <member refid="group__GeneralGroup_1gaae6fe375bccbd117bb5fe0c196170511" kind="function"><name>loadZips_</name></member>
+    <member refid="group__GeneralGroup_1ga42e0e5e35fd31daac7c3c79a6600d38d" kind="function"><name>makeTextures_</name></member>
+    <member refid="group__GeneralGroup_1ga42eabad55e02bc6cc0ce97a289fc5fc4" kind="function"><name>addIcon_</name></member>
     <member refid="group__GeneralGroup_1ga3930f402786f9fc077eb6b0c2e18076e" kind="function"><name>createRibbonConfigFromJson</name></member>
     <member refid="group__GeneralGroup_1ga53ed527d48ac5f73d332b491e1b4af56" kind="function"><name>applyRibbonConfig</name></member>
     <member refid="group__GeneralGroup_1gaba75111f3f3b4597e8c77bc7ccd0a660" kind="function"><name>RibbonMenu</name></member>

@@ -5,6 +5,7 @@
     <includes refid="MRRibbonIcons_8h" local="no">MRViewer/MRRibbonIcons.h</includes>
     <innerclass refid="structMR_1_1RibbonIcons_1_1Icons" prot="private">MR::RibbonIcons::Icons</innerclass>
     <innerclass refid="structMR_1_1RibbonIcons_1_1IconTypeData" prot="private">MR::RibbonIcons::IconTypeData</innerclass>
+    <innerclass refid="structMR_1_1RibbonIcons_1_1Textures" prot="private">MR::RibbonIcons::Textures</innerclass>
     <sectiondef kind="public-type">
       <member refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" kind="enum"><name>ColorType</name></member>
       <member refid="group__GeneralGroup_1ga2d10e82f8fd5c6cc53279374e9bd3931" kind="enum"><name>IconType</name></member>
@@ -15,6 +16,7 @@
     </sectiondef>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" kind="variable"><name>data_</name></member>
+      <member refid="group__GeneralGroup_1ga614bae927ae8f2851b0aeb16764ff142" kind="variable"><name>zipTried_</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <member refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" kind="function"><name>load</name></member>
@@ -26,18 +28,22 @@
       <member refid="group__GeneralGroup_1ga603de62481d9bad09f02eb788bfc0423" kind="function"><name>~RibbonIcons</name></member>
       <member refid="group__GeneralGroup_1ga035b16d20062233be750ef65c484d42b" kind="function"><name>findRequiredSize_</name></member>
       <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" kind="function"><name>load_</name></member>
+      <member refid="group__GeneralGroup_1gaae6fe375bccbd117bb5fe0c196170511" kind="function"><name>loadZips_</name></member>
     </sectiondef>
     <sectiondef kind="private-static-func">
       <member refid="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" kind="function"><name>instance_</name></member>
       <member refid="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" kind="function"><name>sizeSubFolder_</name></member>
+      <member refid="group__GeneralGroup_1ga42e0e5e35fd31daac7c3c79a6600d38d" kind="function"><name>makeTextures_</name></member>
+      <member refid="group__GeneralGroup_1ga42eabad55e02bc6cc0ce97a289fc5fc4" kind="function"><name>addIcon_</name></member>
     </sectiondef>
     <briefdescription>
 <para>this class holds icons for ribbon items </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRViewer/MRRibbonIcons.h" line="15" column="1" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="16" bodyend="86"/>
+    <location file="MRViewer/MRRibbonIcons.h" line="16" column="1" bodyfile="MRViewer/MRRibbonIcons.h" bodystart="17" bodyend="100"/>
     <listofallmembers>
+      <member refid="group__GeneralGroup_1ga42eabad55e02bc6cc0ce97a289fc5fc4" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>addIcon_</name></member>
       <member refid="group__GeneralGroup_1gacd06ecfde8f0637bb01c0d36d8605bef" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>ColorType</name></member>
       <member refid="group__GeneralGroup_1ga1bb1ab1a4406b3b5cba83fc05098e8f2" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>data_</name></member>
       <member refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>findByName</name></member>
@@ -47,10 +53,13 @@
       <member refid="group__GeneralGroup_1gaaf1e56f223e24c5ff86b4a00f1214f46" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>instance_</name></member>
       <member refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" prot="public" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load</name></member>
       <member refid="group__GeneralGroup_1ga11a41e3bc4dd9a30eccd5e45cfbbad81" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>load_</name></member>
+      <member refid="group__GeneralGroup_1gaae6fe375bccbd117bb5fe0c196170511" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>loadZips_</name></member>
+      <member refid="group__GeneralGroup_1ga42e0e5e35fd31daac7c3c79a6600d38d" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>makeTextures_</name></member>
       <member refid="group__GeneralGroup_1ga9c0e1ddeff54a33609d04589edfa9b39" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>RibbonIcons</name></member>
       <member refid="group__GeneralGroup_1ga62a1717386122730a20db87f57d97a86" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>SizedIcons</name></member>
       <member refid="group__GeneralGroup_1gacb8553a429f9686c8640af6c2c125542" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>Sizes</name></member>
       <member refid="group__GeneralGroup_1gac5ee09887871f765bcc05e147462a850" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>sizeSubFolder_</name></member>
+      <member refid="group__GeneralGroup_1ga614bae927ae8f2851b0aeb16764ff142" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>zipTried_</name></member>
       <member refid="group__GeneralGroup_1ga603de62481d9bad09f02eb788bfc0423" prot="private" virt="non-virtual"><scope>MR::RibbonIcons</scope><name>~RibbonIcons</name></member>
     </listofallmembers>
   </compounddef>
