@@ -1,5 +1,17 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a368d2a793a084f11a5c4f401944e5da3":[9,3,0,0,0,1646,1],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a6f21027a74971e57622d80420e419bfe":[9,3,0,0,0,1646,6],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#a79f4dc1e70e6f916675013b3ed16bd11":[9,3,0,0,0,1646,0],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#aa7546566d051e65a3a136afe3814850f":[9,3,0,0,0,1646,3],
+"classMR_1_1SetBitIteratorT__MRRegionBitSet.html#ae14c4084753745b9bf6b133884e79822":[9,3,0,0,0,1646,4],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html":[9,3,0,0,0,1647],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html#a290a931fdf8045e883bcd77ff57baa79":[9,3,0,0,0,1647,5],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html#a5ce826657016624ec97485f762430ec8":[9,3,0,0,0,1647,3],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html#a7ac0eda91d4cc1fc98caa87999c5ff49":[9,3,0,0,0,1647,4],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html#a85d2f00c52c7161b32e586e6292ff2f8":[9,3,0,0,0,1647,1],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html#ad60a2142b923e6309ca53c84d55b104a":[9,3,0,0,0,1647,6],
+"classMR_1_1SetBitIteratorT__MRTextureBitSet.html#ae33f5cffec3a1330969d8c09f364fe0e":[9,3,0,0,0,1647,2],
 "classMR_1_1SetBitIteratorT__MRTextureBitSet.html#afbcb9adcdd5f4f079c8c9c20f77eb6bb":[9,3,0,0,0,1647,0],
 "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html":[9,3,0,0,0,1648],
 "classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag.html#a189bc672683371f3e26e3f86ed4e9a95":[9,3,0,0,0,1648,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1SpacingSettings.html#abd3c7f927bd0d40e95a754a4dd015035":[9,3,0,0,0,1669,5],
 "classMR_1_1SpacingSettings.html#adeaea458c53836029d5d007afafb52a1":[9,3,0,0,0,1669,0],
 "classMR_1_1SpacingSettings.html#ae38a0a964f52696e4a8a8c661101fc11":[9,3,0,0,0,1669,2],
-"classMR_1_1SpacingSettings.html#aea8f32294eeca4cec2af9b05cb73931b":[9,3,0,0,0,1669,3],
-"classMR_1_1SpacingSettings.html#af059dcabd20fcd000546b46e355a9958":[9,3,0,0,0,1669,6],
-"classMR_1_1SpacingSettings.html#af9615190efb6008947e0e2b6978d5637":[9,3,0,0,0,1669,7],
-"classMR_1_1Sphere2d.html":[9,3,0,0,0,1670],
-"classMR_1_1Sphere2d.html#a3ad74ff03b36eec0fc4842045fe1ae3f":[9,3,0,0,0,1670,1],
-"classMR_1_1Sphere2d.html#a52ef9baab5f14de58c1740b3d1829136":[9,3,0,0,0,1670,6],
-"classMR_1_1Sphere2d.html#a6cf02ddad3de059cc6b102d400e1fbd6":[9,3,0,0,0,1670,3],
-"classMR_1_1Sphere2d.html#a8a06d459383e71ced9a87aaf85a71c69":[9,3,0,0,0,1670,5],
-"classMR_1_1Sphere2d.html#aa99365939e8d93cba526b4fce21dc17d":[9,3,0,0,0,1670,0],
-"classMR_1_1Sphere2d.html#aaf368ed41850034f6496a0ca568d842a":[9,3,0,0,0,1670,4],
-"classMR_1_1Sphere2d.html#ae480050f605c2eb999fe20643bc6ea3a":[9,3,0,0,0,1670,2],
-"classMR_1_1Sphere2f.html":[9,3,0,0,0,1671],
-"classMR_1_1Sphere2f.html#a02cc7fc66dc4b144ed76398c30b63c2d":[9,3,0,0,0,1671,0]
+"classMR_1_1SpacingSettings.html#aea8f32294eeca4cec2af9b05cb73931b":[9,3,0,0,0,1669,3]
 };

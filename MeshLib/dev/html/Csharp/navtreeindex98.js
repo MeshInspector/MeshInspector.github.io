@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Const__ZlibCompressStats.html#aa5229b6f30a38de134efcec25ca3dc61":[9,3,0,0,0,1055,0],
+"classMR_1_1Const__ZlibCompressStats.html#acf2e2562bd3124717f68cb64d8557bc7":[9,3,0,0,0,1055,3],
+"classMR_1_1Const__ZlibCompressStats.html#ae0a2fa861092d1f0fc38c1474bb003a3":[9,3,0,0,0,1055,5],
+"classMR_1_1Const__ZlibCompressStats.html#ae3b0780a5221c0ec092bcfd16196ce56":[9,3,0,0,0,1055,6],
+"classMR_1_1Const__ZlibCompressStats.html#aeeba761551696795ea2b9295bcb82adf":[9,3,0,0,0,1055,11],
+"classMR_1_1Const__ZlibParams.html":[9,3,0,0,0,1056],
+"classMR_1_1Const__ZlibParams.html#a4560045f8f956344e28267c473033f43":[9,3,0,0,0,1056,0],
+"classMR_1_1Const__ZlibParams.html#aac56f18a75cd96d87f9bd7a24de59422":[9,3,0,0,0,1056,5],
+"classMR_1_1Const__ZlibParams.html#aaf302b9fd4fcc1f1721fc63352d303c2":[9,3,0,0,0,1056,6],
+"classMR_1_1Const__ZlibParams.html#abee88f5aa0d6623300cfb5084f2b85e6":[9,3,0,0,0,1056,3],
+"classMR_1_1Const__ZlibParams.html#ac93ab460e35ee3609ba9d00119ca5895":[9,3,0,0,0,1056,4],
+"classMR_1_1Const__ZlibParams.html#ad16490ac32ff333b27e3e2a55a90cfc8":[9,3,0,0,0,1056,1],
 "classMR_1_1Const__ZlibParams.html#ae289d948f6bf45b0e77772bd97025187":[9,3,0,0,0,1056,7],
 "classMR_1_1Const__ZlibParams.html#ae5a708384ef399208914a13c92ea0a50":[9,3,0,0,0,1056,2],
 "classMR_1_1ConstantCuspParams.html":[9,3,0,0,0,1057],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6b9df534abc4ddb6c2c9b95a674063ed":[9,3,0,0,0,1133,7,1],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6":[9,3,0,0,0,1133,7,7],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac3f7a8e10de898caab17054a19c1187b":[9,3,0,0,0,1133,7,3],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a":[9,3,0,0,0,1133,7,6],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#acd9ad7fc72d377e1afdc3d3cbbf74bbd":[9,3,0,0,0,1133,7,5],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#adfe1466efe7d1fc5372095f5e5f35082":[9,3,0,0,0,1133,7,4],
-"classMR_1_1Cuda_1_1DeviceInfo.html":[9,3,0,0,0,1133,8],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a11540c23bfe5df4433b853029235ad5f":[9,3,0,0,0,1133,8,11],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a4b29477160f3d5b4ab27a91f36c24dcc":[9,3,0,0,0,1133,8,6],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a511c6973291a9a12b4f4b08e9d4db247":[9,3,0,0,0,1133,8,4],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a6e6c4939b6920c688230767ddcfd831f":[9,3,0,0,0,1133,8,8],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a90555be5935f5bc531443e1540561178":[9,3,0,0,0,1133,8,0],
-"classMR_1_1Cuda_1_1DeviceInfo.html#a9dcf7d9665e6c2d45916da5113c251e1":[9,3,0,0,0,1133,8,5],
-"classMR_1_1Cuda_1_1DeviceInfo.html#ab0a6ea6e7061c6a14634460fa70c8005":[9,3,0,0,0,1133,8,1],
-"classMR_1_1Cuda_1_1DeviceInfo.html#ab35c9dee8495ac2455d6d75f392255fd":[9,3,0,0,0,1133,8,10],
-"classMR_1_1Cuda_1_1DeviceInfo.html#aba5ae83b343db2eeb372973667274531":[9,3,0,0,0,1133,8,3]
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac8675580f0e0f03eaa9f73c5f5e0be3a":[9,3,0,0,0,1133,7,6]
 };

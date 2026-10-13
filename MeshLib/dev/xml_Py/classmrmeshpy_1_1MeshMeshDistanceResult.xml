@@ -24,7 +24,7 @@
         <argsstring></argsstring>
         <name>_offsetof_b</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult._offsetof_b</qualifiedname>
-        <initializer>=  16</initializer>
+        <initializer>=  32</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -39,7 +39,7 @@
         <argsstring></argsstring>
         <name>_offsetof_distSq</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult._offsetof_distSq</qualifiedname>
-        <initializer>=  32</initializer>
+        <initializer>=  64</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -160,10 +160,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31000" bodyend="31003"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1aace7ba189617f3b990d97de8ec3ba9b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1ad2bdcd644053ed36aee77eb5e6bb5582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshMeshDistanceResult.__init__</definition>
-        <argsstring>(self, PointOnFace a, PointOnFace b, float distSq)</argsstring>
+        <argsstring>(self, MeshProjectionResult a, MeshProjectionResult b, float distSq)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult.__init__</qualifiedname>
         <param>
@@ -171,11 +171,11 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
           <declname>a</declname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
           <declname>b</declname>
         </param>
         <param>
@@ -192,9 +192,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31005" bodyend="31008"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a39854f4c422108b5ceba3a54e41e9831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
-        <definition> PointOnFace mrmeshpy.MeshMeshDistanceResult.a</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a92229076a95ca07b7079b22179b9a071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+        <definition> MeshProjectionResult mrmeshpy.MeshMeshDistanceResult.a</definition>
         <argsstring>(self)</argsstring>
         <name>a</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult.a</qualifiedname>
@@ -205,17 +205,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>two closest points: from meshes A and B respectively
+<para><verbatim>two closest points: from meshes A and B respectively, each one as the projection of the other point;
+unlike the conversion of a point&apos;s position, its barycentric coordinates place it exactly on the edge or in the vertex where it was found
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31010" bodyend="31013"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31010" bodyend="31014"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a4681c2f1a7388be668b5db9a6e18cbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a8318ba06069c1eac120234e2ed637e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshMeshDistanceResult.a</definition>
-        <argsstring>(self, PointOnFace arg1)</argsstring>
+        <argsstring>(self, MeshProjectionResult arg1)</argsstring>
         <name>a</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult.a</qualifiedname>
         <param>
@@ -223,7 +224,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -232,11 +233,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31015" bodyend="31016"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31016" bodyend="31017"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1af36d7a0fd9c0eeefd9398b0d1d54d181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
-        <definition> PointOnFace mrmeshpy.MeshMeshDistanceResult.b</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a7392ef39dd54726cd661fdd1b342b18d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+        <definition> MeshProjectionResult mrmeshpy.MeshMeshDistanceResult.b</definition>
         <argsstring>(self)</argsstring>
         <name>b</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult.b</qualifiedname>
@@ -247,17 +248,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>two closest points: from meshes A and B respectively
+<para><verbatim>two closest points: from meshes A and B respectively, each one as the projection of the other point;
+unlike the conversion of a point&apos;s position, its barycentric coordinates place it exactly on the edge or in the vertex where it was found
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31018" bodyend="31021"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31019" bodyend="31023"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1aafac39b9657862df21e0f16bdc0e0df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a7773ab43f39f0d371257bd93654d1291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.MeshMeshDistanceResult.b</definition>
-        <argsstring>(self, PointOnFace arg1)</argsstring>
+        <argsstring>(self, MeshProjectionResult arg1)</argsstring>
         <name>b</name>
         <qualifiedname>mrmeshpy.MeshMeshDistanceResult.b</qualifiedname>
         <param>
@@ -265,7 +267,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -274,7 +276,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31023" bodyend="31024"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31025" bodyend="31026"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a20fac53509635d55ac7e2b8cc34771de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -294,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31026" bodyend="31029"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31028" bodyend="31031"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshMeshDistanceResult_1a1e01cb709979872b3e1989b71f7f77f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -316,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31031" bodyend="31032"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31033" bodyend="31034"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -325,19 +327,19 @@
 <para><verbatim>Generated from:  MR::MeshMeshDistanceResult
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30977" bodyend="31032"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30977" bodyend="31034"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a098fcdcdce717180b10a5fe69771c98e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a4c95bbf056e57632896f041ed809f5b4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1ae6e1eb51cade95e3f2e7d08558f351db" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1aace7ba189617f3b990d97de8ec3ba9b5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1ad2bdcd644053ed36aee77eb5e6bb5582" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a64c720ff058232f43ad00b008c604405" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>_offsetof_a</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1ad06572ea0dba7e37ba72714a87980243" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>_offsetof_b</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a6e739f0119ae0775bea2fe0f341aa8bd" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>_offsetof_distSq</name></member>
-      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a39854f4c422108b5ceba3a54e41e9831" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>a</name></member>
-      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a4681c2f1a7388be668b5db9a6e18cbb1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>a</name></member>
-      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1af36d7a0fd9c0eeefd9398b0d1d54d181" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>b</name></member>
-      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1aafac39b9657862df21e0f16bdc0e0df6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a92229076a95ca07b7079b22179b9a071" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a8318ba06069c1eac120234e2ed637e74" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a7392ef39dd54726cd661fdd1b342b18d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a7773ab43f39f0d371257bd93654d1291" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>b</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a20fac53509635d55ac7e2b8cc34771de" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>distSq</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a1e01cb709979872b3e1989b71f7f77f1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>distSq</name></member>
       <member refid="classmrmeshpy_1_1MeshMeshDistanceResult_1a118a3c4056b3793dc8d3f96c238a67bc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshMeshDistanceResult</scope><name>operator</name></member>

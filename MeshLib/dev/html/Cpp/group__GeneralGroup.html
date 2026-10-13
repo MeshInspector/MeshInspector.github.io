@@ -7936,6 +7936,9 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga196a0dd004b8640ecf44ab19177397b8" id="r_ga196a0dd004b8640ecf44ab19177397b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga196a0dd004b8640ecf44ab19177397b8">MR::makeTorusWithSpikes</a> (float primaryRadius=1.0f, float secondaryRadiusInner=0.1f, float secondaryRadiusOuter=0.5f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</td></tr>
 <tr class="memitem:ga57eb865bddfea0b83ba03d7d424a3589" id="r_ga57eb865bddfea0b83ba03d7d424a3589"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57eb865bddfea0b83ba03d7d424a3589">MR::makeTorusWithComponents</a> (float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</td></tr>
 <tr class="memitem:gaefe2a3413e9ffcfb9ee62b40c3eb6f90" id="r_gaefe2a3413e9ffcfb9ee62b40c3eb6f90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaefe2a3413e9ffcfb9ee62b40c3eb6f90">MR::makeTorusWithSelfIntersections</a> (float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</td></tr>
+<tr class="memitem:ga900e15ae81322ccab4f5c92a8cab0b58" id="r_ga900e15ae81322ccab4f5c92a8cab0b58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga900e15ae81322ccab4f5c92a8cab0b58">MR::TriTriDistanceResult&lt; T &gt;::aBary</a> (const Triangle3&lt; T &gt; &amp;ta) const</td></tr>
+<tr class="memitem:ga178ce7a6cec594937ceae72bd61afaad" id="r_ga178ce7a6cec594937ceae72bd61afaad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga178ce7a6cec594937ceae72bd61afaad">MR::TriTriDistanceResult&lt; T &gt;::bBary</a> (const Triangle3&lt; T &gt; &amp;tb) const</td></tr>
+<tr class="memdesc:ga178ce7a6cec594937ceae72bd61afaad"><td class="mdescLeft">&#160;</td><td class="mdescRight">barycentric coordinates of point b in triangle tb, given to findTriTriDistance as the second one  <br /></td></tr>
 <tr class="memitem:ga6df4c26e656105a5ccfaafa11c449171" id="r_ga6df4c26e656105a5ccfaafa11c449171"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6df4c26e656105a5ccfaafa11c449171">MR::TriTriDistanceParams&lt; T &gt;::canExitEarlier</a> () const</td></tr>
 <tr class="memdesc:ga6df4c26e656105a5ccfaafa11c449171"><td class="mdescLeft">&#160;</td><td class="mdescRight">with the current parameters  <br /></td></tr>
 <tr class="memitem:ga745b2861e9d719b9e27aa41804bdda11" id="r_ga745b2861e9d719b9e27aa41804bdda11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga745b2861e9d719b9e27aa41804bdda11">MR::TriTriDistanceParams&lt; T &gt;::canExitEarlier</a> (T distSqLowerBound) const</td></tr>
@@ -8067,10 +8070,8 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga6f222148e7f6b0eb3edf6f62d6a5209e" id="r_ga6f222148e7f6b0eb3edf6f62d6a5209e"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
 <tr class="memitem:ga6f222148e7f6b0eb3edf6f62d6a5209e template"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f222148e7f6b0eb3edf6f62d6a5209e">MR::TriPoint&lt; T &gt;::MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; T, U &gt;) const expr <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>(const <a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; U &gt; &amp;s)</td></tr>
 <tr class="memdesc:ga6f222148e7f6b0eb3edf6f62d6a5209e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The condition is needed for the bindings to not duplicate this ctor against the copy ctor.  <br /></td></tr>
-<tr class="memitem:gae145ad02214aefc05be85737aa1d6cca" id="r_gae145ad02214aefc05be85737aa1d6cca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae145ad02214aefc05be85737aa1d6cca">MR::TriPoint&lt; T &gt;::TriPoint</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v0, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v1, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v2)</td></tr>
-<tr class="memdesc:gae145ad02214aefc05be85737aa1d6cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point  <br /></td></tr>
-<tr class="memitem:ga38305f3769604953fbac39b9fa79f6bc" id="r_ga38305f3769604953fbac39b9fa79f6bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga38305f3769604953fbac39b9fa79f6bc">MR::TriPoint&lt; T &gt;::TriPoint</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v1, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v2)</td></tr>
-<tr class="memdesc:ga38305f3769604953fbac39b9fa79f6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point  <br /></td></tr>
+<tr class="memitem:ga661e89b89909c122bd83d3c3aac049d2" id="r_ga661e89b89909c122bd83d3c3aac049d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga661e89b89909c122bd83d3c3aac049d2">MR::TriPoint&lt; T &gt;::TriPoint</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v0, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v1, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v2, int edge=-1)</td></tr>
+<tr class="memitem:ga589c0e1b03d96cace2cd1ac06b21e07e" id="r_ga589c0e1b03d96cace2cd1ac06b21e07e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga589c0e1b03d96cace2cd1ac06b21e07e">MR::TriPoint&lt; T &gt;::TriPoint</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;p, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v1, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;v2, int edge=-1)</td></tr>
 <tr class="memitem:ga443eb1cdffa8cf6269dce8d4f7712a3b" id="r_ga443eb1cdffa8cf6269dce8d4f7712a3b"><td class="memTemplParams" colspan="2">template&lt;typename U&gt; </td></tr>
 <tr class="memitem:ga443eb1cdffa8cf6269dce8d4f7712a3b template"><td class="memItemLeft" align="right" valign="top">U&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga443eb1cdffa8cf6269dce8d4f7712a3b">MR::TriPoint&lt; T &gt;::interpolate</a> (const U &amp;v0, const U &amp;v1, const U &amp;v2) const</td></tr>
 <tr class="memdesc:ga443eb1cdffa8cf6269dce8d4f7712a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">given three values in three vertices, computes interpolated value at this barycentric coordinates  <br /></td></tr>
@@ -13538,6 +13539,8 @@ Variables</h2></td></tr>
 <tr class="memitem:ga2adde456867209868cd165e976db06d2" id="r_ga2adde456867209868cd165e976db06d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2adde456867209868cd165e976db06d2">MR::TriTriDistanceResult&lt; T &gt;::b</a></td></tr>
 <tr class="memitem:ga254fa3cf488a854853a6b959c1abb8e4" id="r_ga254fa3cf488a854853a6b959c1abb8e4"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga254fa3cf488a854853a6b959c1abb8e4">MR::TriTriDistanceResult&lt; T &gt;::distSq</a> = 0</td></tr>
 <tr class="memitem:ga7b9368c23e58b3e92e87a03f3cd2d701" id="r_ga7b9368c23e58b3e92e87a03f3cd2d701"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b9368c23e58b3e92e87a03f3cd2d701">MR::TriTriDistanceResult&lt; T &gt;::overlap</a> = true</td></tr>
+<tr class="memitem:gaf76eb0bc60171b171363306c05ccaef0" id="r_gaf76eb0bc60171b171363306c05ccaef0"><td class="memItemLeft" align="right" valign="top">std::int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf76eb0bc60171b171363306c05ccaef0">MR::TriTriDistanceResult&lt; T &gt;::aEdge</a> = -1</td></tr>
+<tr class="memitem:ga98e507e98c4ebce53b724e38ffeb7224" id="r_ga98e507e98c4ebce53b724e38ffeb7224"><td class="memItemLeft" align="right" valign="top">std::int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98e507e98c4ebce53b724e38ffeb7224">MR::TriTriDistanceResult&lt; T &gt;::bEdge</a> = -1</td></tr>
 <tr class="memitem:ga4c75a2d0e0280a86b4ec6f5f09d69d3e" id="r_ga4c75a2d0e0280a86b4ec6f5f09d69d3e"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4c75a2d0e0280a86b4ec6f5f09d69d3e">MR::TriTriDistanceParams&lt; T &gt;::upDistLimitSq</a> = std::numeric_limits&lt;T&gt;::max()</td></tr>
 <tr class="memitem:ga76e2b79a6d1aacb9cb96489b3f725b01" id="r_ga76e2b79a6d1aacb9cb96489b3f725b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga44bd35b44ad13ba0a8968ae8260539cd">UpLimitCheck</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76e2b79a6d1aacb9cb96489b3f725b01">MR::TriTriDistanceParams&lt; T &gt;::upLimitCheck</a> = <a class="el" href="#gga44bd35b44ad13ba0a8968ae8260539cda8768a6821cd735aea4f5b0df88c1fc6a">UpLimitCheck::Greater</a></td></tr>
 <tr class="memitem:ga1063845cc2871f7dcae178304213db81" id="r_ga1063845cc2871f7dcae178304213db81"><td class="memItemLeft" align="right" valign="top">Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1063845cc2871f7dcae178304213db81">MR::TriMesh::tris</a></td></tr>
@@ -28774,6 +28777,36 @@ template&lt;typename Tag&gt; </div>
 
 </div>
 </div>
+<a id="ga900e15ae81322ccab4f5c92a8cab0b58" name="ga900e15ae81322ccab4f5c92a8cab0b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga900e15ae81322ccab4f5c92a8cab0b58">&#9670;&#160;</a></span>aBary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; <a class="el" href="structMR_1_1TriTriDistanceResult.html">MR::TriTriDistanceResult</a>&lt; T &gt;::aBary </td>
+          <td>(</td>
+          <td class="paramtype">const Triangle3&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ta</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriDist_8h.html">MRMesh/MRTriDist.h</a>&gt;</code></p>
+<p>barycentric coordinates of point a in triangle ta, given to findTriTriDistance as the first one; unlike the ones computed from the position of the point, they place a point found on an edge or in a vertex there </p>
+
+</div>
+</div>
 <a id="gadd0ddfdc3b43ddc99dec3be877b7a919" name="gadd0ddfdc3b43ddc99dec3be877b7a919"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadd0ddfdc3b43ddc99dec3be877b7a919">&#9670;&#160;</a></span>abortEdit_()</h2>
 
@@ -36492,6 +36525,37 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 <p><code>#include &lt;<a class="el" href="MRDenseBox_8h.html">MRMesh/MRDenseBox.h</a>&gt;</code></p>
 
 <p>transform world space to box space </p>
+
+</div>
+</div>
+<a id="ga178ce7a6cec594937ceae72bd61afaad" name="ga178ce7a6cec594937ceae72bd61afaad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga178ce7a6cec594937ceae72bd61afaad">&#9670;&#160;</a></span>bBary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1TriPoint.html">TriPoint</a>&lt; T &gt; <a class="el" href="structMR_1_1TriTriDistanceResult.html">MR::TriTriDistanceResult</a>&lt; T &gt;::bBary </td>
+          <td>(</td>
+          <td class="paramtype">const Triangle3&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tb</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriDist_8h.html">MRMesh/MRTriDist.h</a>&gt;</code></p>
+
+<p>barycentric coordinates of point b in triangle tb, given to findTriTriDistance as the second one </p>
 
 </div>
 </div>
@@ -191230,8 +191294,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gae145ad02214aefc05be85737aa1d6cca" name="gae145ad02214aefc05be85737aa1d6cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae145ad02214aefc05be85737aa1d6cca">&#9670;&#160;</a></span>TriPoint() <span class="overload">[2/5]</span></h2>
+<a id="ga661e89b89909c122bd83d3c3aac049d2" name="ga661e89b89909c122bd83d3c3aac049d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga661e89b89909c122bd83d3c3aac049d2">&#9670;&#160;</a></span>TriPoint() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191259,7 +191323,12 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v2</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>edge</em></span><span class="paramdefsep"> = </span><span class="paramdefval">-1</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -191270,13 +191339,12 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTriPoint_8h.html">MRMesh/MRTriPoint.h</a>&gt;</code></p>
-
-<p>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point </p>
+<p>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point; if the point is known to be on an edge, numbered as in <a class="el" href="#ga8cc175bbb2037eebe6e8f2ced01a4b10">onEdge()</a>, then pass it to place the point exactly there </p>
 
 </div>
 </div>
-<a id="ga38305f3769604953fbac39b9fa79f6bc" name="ga38305f3769604953fbac39b9fa79f6bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga38305f3769604953fbac39b9fa79f6bc">&#9670;&#160;</a></span>TriPoint() <span class="overload">[3/5]</span></h2>
+<a id="ga589c0e1b03d96cace2cd1ac06b21e07e" name="ga589c0e1b03d96cace2cd1ac06b21e07e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga589c0e1b03d96cace2cd1ac06b21e07e">&#9670;&#160;</a></span>TriPoint() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191296,14 +191364,18 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v2</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>v2</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>edge</em></span><span class="paramdefsep"> = </span><span class="paramdefval">-1</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTriPoint_8h.html">MRMesh/MRTriPoint.h</a>&gt;</code></p>
-
-<p>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point </p>
+<p>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point; if the point is known to be on an edge, numbered as in <a class="el" href="#ga8cc175bbb2037eebe6e8f2ced01a4b10">onEdge()</a>, then pass it to place the point exactly there </p>
 
 </div>
 </div>
@@ -205163,6 +205235,23 @@ template&lt;typename V&gt; </div>
 
 </div>
 </div>
+<a id="gaf76eb0bc60171b171363306c05ccaef0" name="gaf76eb0bc60171b171363306c05ccaef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf76eb0bc60171b171363306c05ccaef0">&#9670;&#160;</a></span>aEdge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::int8_t <a class="el" href="structMR_1_1TriTriDistanceResult.html">MR::TriTriDistanceResult</a>&lt; T &gt;::aEdge = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>the edges of the triangles with points a and b, numbered as in <a class="el" href="#ga8cc175bbb2037eebe6e8f2ced01a4b10">TriPoint::onEdge()</a> (which also contain a point found in a vertex), or -1 if the point is inside its triangle </p>
+
+</div>
+</div>
 <a id="gacd551d9c00ebe29729a816dec419d8b3" name="gacd551d9c00ebe29729a816dec419d8b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gacd551d9c00ebe29729a816dec419d8b3">&#9670;&#160;</a></span>aFace</h2>
 
@@ -206666,6 +206755,22 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>stabilizer of every boundary vertex of the mesh: the more the value, the bigger attraction of the vertex to its measured depth </p>
+
+</div>
+</div>
+<a id="ga98e507e98c4ebce53b724e38ffeb7224" name="ga98e507e98c4ebce53b724e38ffeb7224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98e507e98c4ebce53b724e38ffeb7224">&#9670;&#160;</a></span>bEdge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::int8_t <a class="el" href="structMR_1_1TriTriDistanceResult.html">MR::TriTriDistanceResult</a>&lt; T &gt;::bEdge = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -239293,7 +239398,7 @@ template&lt;class T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary </p>
+<p>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b with their edges can be arbitrary </p>
 
 </div>
 </div>

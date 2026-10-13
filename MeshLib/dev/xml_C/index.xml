@@ -15643,30 +15643,30 @@
     <member refid="MRMeshMeshDistance_8h_1aaaef17266d43a3f23b258d9769d940f7" kind="typedef"><name>MR_MeshMeshDistanceResult</name></member>
     <member refid="MRMeshMeshDistance_8h_1a874c63df4bd4f8e56227d175e1ccc9f9" kind="typedef"><name>MR_MeshMeshCollisionStatus</name></member>
     <member refid="MRMeshMeshDistance_8h_1a04beb5153370f051a06c0671724b799f" kind="typedef"><name>MR_MeshMeshSignedDistanceResult</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a6432ce88c1f4fbc724ed1cd44b46080a" kind="function"><name>MR_MeshMeshDistanceResult_Get_a</name></member>
-    <member refid="MRMeshMeshDistance_8h_1af646db05160d6f5c2b2ab1b7e8d95cc9" kind="function"><name>MR_MeshMeshDistanceResult_Set_a</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a932b0a09ab15238573432130cd2699db" kind="function"><name>MR_MeshMeshDistanceResult_GetMutable_a</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a90203e4e58faf88d2453deed30690a90" kind="function"><name>MR_MeshMeshDistanceResult_Get_b</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a042826741caa4022071cd068e8cfb0bd" kind="function"><name>MR_MeshMeshDistanceResult_Set_b</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a6c2de362002a65d9a12e90d2e57f1902" kind="function"><name>MR_MeshMeshDistanceResult_GetMutable_b</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a3a0ea2ef2293116c9adb60928ea5c9f7" kind="function"><name>MR_MeshMeshDistanceResult_Get_a</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a805bf9a500828de7448db145a93fccd0" kind="function"><name>MR_MeshMeshDistanceResult_Set_a</name></member>
+    <member refid="MRMeshMeshDistance_8h_1ac301c6bb15b79e84508b5a0ca7653841" kind="function"><name>MR_MeshMeshDistanceResult_GetMutable_a</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a15298c436de735ba7132feaf62a1f072" kind="function"><name>MR_MeshMeshDistanceResult_Get_b</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a7525fdf72dbe1e4e1716bde7fae81db4" kind="function"><name>MR_MeshMeshDistanceResult_Set_b</name></member>
+    <member refid="MRMeshMeshDistance_8h_1ab0475c981b1f60778493bf15dcabc621" kind="function"><name>MR_MeshMeshDistanceResult_GetMutable_b</name></member>
     <member refid="MRMeshMeshDistance_8h_1aee28d39cf7f2d21dc12b8ecdccdbaf88" kind="function"><name>MR_MeshMeshDistanceResult_Get_distSq</name></member>
     <member refid="MRMeshMeshDistance_8h_1aef907d02539e2281c4ad5fe132e86bcc" kind="function"><name>MR_MeshMeshDistanceResult_Set_distSq</name></member>
     <member refid="MRMeshMeshDistance_8h_1ac66bf6fed83a33b28593754594f67358" kind="function"><name>MR_MeshMeshDistanceResult_GetMutable_distSq</name></member>
     <member refid="MRMeshMeshDistance_8h_1a5f1d48cda5894c51c83a725093d7b130" kind="function"><name>MR_MeshMeshDistanceResult_DefaultConstruct</name></member>
     <member refid="MRMeshMeshDistance_8h_1a9beffa891b837c24010181eecf7cb1cd" kind="function"><name>MR_MeshMeshDistanceResult_DefaultConstructArray</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a620e045b7b3f88384f0300da993b98de" kind="function"><name>MR_MeshMeshDistanceResult_ConstructFrom</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a4e1c20786f65522028bc0f3ad551a1ae" kind="function"><name>MR_MeshMeshDistanceResult_ConstructFrom</name></member>
     <member refid="MRMeshMeshDistance_8h_1a0b6fb69f512709472a57ac21e980e467" kind="function"><name>MR_MeshMeshDistanceResult_OffsetPtr</name></member>
     <member refid="MRMeshMeshDistance_8h_1a37b1318a3ccea6ef9224a4ad3bf4c5a3" kind="function"><name>MR_MeshMeshDistanceResult_OffsetMutablePtr</name></member>
     <member refid="MRMeshMeshDistance_8h_1a308dd52a3b22ec816167ee1907d4d27c" kind="function"><name>MR_MeshMeshDistanceResult_ConstructFromAnother</name></member>
     <member refid="MRMeshMeshDistance_8h_1a422e88c7c82f6ef314e000f5dbde8335" kind="function"><name>MR_MeshMeshDistanceResult_Destroy</name></member>
     <member refid="MRMeshMeshDistance_8h_1a0e0ead09010c658f544208310f0c959a" kind="function"><name>MR_MeshMeshDistanceResult_DestroyArray</name></member>
     <member refid="MRMeshMeshDistance_8h_1af140a12096f798797ee7990d97091c7c" kind="function"><name>MR_MeshMeshDistanceResult_AssignFromAnother</name></member>
-    <member refid="MRMeshMeshDistance_8h_1aa799c50d6327a1a6fa4a152cd8ba57ec" kind="function"><name>MR_MeshMeshSignedDistanceResult_Get_a</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a2eaaa07698d67dcf4ed6f2491b4c375e" kind="function"><name>MR_MeshMeshSignedDistanceResult_Set_a</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a59ec7adf4e004801552ce2c62395b2c7" kind="function"><name>MR_MeshMeshSignedDistanceResult_GetMutable_a</name></member>
-    <member refid="MRMeshMeshDistance_8h_1aa98e84493be8ff71f49b5df5dda6c79c" kind="function"><name>MR_MeshMeshSignedDistanceResult_Get_b</name></member>
-    <member refid="MRMeshMeshDistance_8h_1abc6507c7e90a39ace748a30ee2c530db" kind="function"><name>MR_MeshMeshSignedDistanceResult_Set_b</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a4598f714ce3defde54199c1babdacce3" kind="function"><name>MR_MeshMeshSignedDistanceResult_GetMutable_b</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a511490216c5c9bf167eb9c0ec22869e2" kind="function"><name>MR_MeshMeshSignedDistanceResult_Get_a</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a1879c7c0f288c54b660007f60b3b8a84" kind="function"><name>MR_MeshMeshSignedDistanceResult_Set_a</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a53147a24fa01258641f89252b1f64384" kind="function"><name>MR_MeshMeshSignedDistanceResult_GetMutable_a</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a4c7a7d3231d609aca497aec2597425a4" kind="function"><name>MR_MeshMeshSignedDistanceResult_Get_b</name></member>
+    <member refid="MRMeshMeshDistance_8h_1add474009bb3aafaa4d8df930448b9f1b" kind="function"><name>MR_MeshMeshSignedDistanceResult_Set_b</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a2986810ccceb63299b1ea25bcfa558ce" kind="function"><name>MR_MeshMeshSignedDistanceResult_GetMutable_b</name></member>
     <member refid="MRMeshMeshDistance_8h_1a390c60d588766bda7363664fd1ab3caf" kind="function"><name>MR_MeshMeshSignedDistanceResult_Get_status</name></member>
     <member refid="MRMeshMeshDistance_8h_1a4d5cde757e9aa4a6c73d2108b69acc6f" kind="function"><name>MR_MeshMeshSignedDistanceResult_Set_status</name></member>
     <member refid="MRMeshMeshDistance_8h_1ab701f778ccd9432400a1819a9bb194de" kind="function"><name>MR_MeshMeshSignedDistanceResult_GetMutable_status</name></member>
@@ -15675,7 +15675,7 @@
     <member refid="MRMeshMeshDistance_8h_1ae13e9092c6a21819674a665274b1af88" kind="function"><name>MR_MeshMeshSignedDistanceResult_GetMutable_signedDist</name></member>
     <member refid="MRMeshMeshDistance_8h_1ace152260c3addd26489d6b820c02170e" kind="function"><name>MR_MeshMeshSignedDistanceResult_DefaultConstruct</name></member>
     <member refid="MRMeshMeshDistance_8h_1aed16edb553fbe329af51c09f56d3d2da" kind="function"><name>MR_MeshMeshSignedDistanceResult_DefaultConstructArray</name></member>
-    <member refid="MRMeshMeshDistance_8h_1a6d6a7f97b5fd82528b0eb62965940f78" kind="function"><name>MR_MeshMeshSignedDistanceResult_ConstructFrom</name></member>
+    <member refid="MRMeshMeshDistance_8h_1a200111c96db1f7db28ba9e7526b67a4e" kind="function"><name>MR_MeshMeshSignedDistanceResult_ConstructFrom</name></member>
     <member refid="MRMeshMeshDistance_8h_1a66ad59feb2eb1f5b6b97381b960d5b08" kind="function"><name>MR_MeshMeshSignedDistanceResult_OffsetPtr</name></member>
     <member refid="MRMeshMeshDistance_8h_1ad58388446945dd46a52d263cb8cf39f2" kind="function"><name>MR_MeshMeshSignedDistanceResult_OffsetMutablePtr</name></member>
     <member refid="MRMeshMeshDistance_8h_1a13bccd6e2698116d8ced1de6a54e9850" kind="function"><name>MR_MeshMeshSignedDistanceResult_ConstructFromAnother</name></member>
@@ -24754,15 +24754,23 @@
     <member refid="MRTriDist_8h_1af8d2bd188d4b62c5ba3a70050c34696e" kind="function"><name>MR_TriTriDistanceResult_float_Get_overlap</name></member>
     <member refid="MRTriDist_8h_1ad756a635b42eb3a024740115fc48512c" kind="function"><name>MR_TriTriDistanceResult_float_Set_overlap</name></member>
     <member refid="MRTriDist_8h_1a677aab0e5f8ab49d7e0d4e03d12c52d5" kind="function"><name>MR_TriTriDistanceResult_float_GetMutable_overlap</name></member>
+    <member refid="MRTriDist_8h_1a06a1e715a1223cb4a9faa594e8dc22dd" kind="function"><name>MR_TriTriDistanceResult_float_Get_aEdge</name></member>
+    <member refid="MRTriDist_8h_1ae3c5936326def95d62175279ec955bf6" kind="function"><name>MR_TriTriDistanceResult_float_Set_aEdge</name></member>
+    <member refid="MRTriDist_8h_1a3c705680e00eed218908974b05e31420" kind="function"><name>MR_TriTriDistanceResult_float_GetMutable_aEdge</name></member>
+    <member refid="MRTriDist_8h_1a7e651a74ac7816f9fe6d5ee97f85e503" kind="function"><name>MR_TriTriDistanceResult_float_Get_bEdge</name></member>
+    <member refid="MRTriDist_8h_1a6b0c1f66f749f4990818a95b60af0ed1" kind="function"><name>MR_TriTriDistanceResult_float_Set_bEdge</name></member>
+    <member refid="MRTriDist_8h_1ab0d153fcb272a1f84c2231a100c97346" kind="function"><name>MR_TriTriDistanceResult_float_GetMutable_bEdge</name></member>
     <member refid="MRTriDist_8h_1a9b28d0187ace8467fb8b82a3de6eac82" kind="function"><name>MR_TriTriDistanceResult_float_DefaultConstruct</name></member>
     <member refid="MRTriDist_8h_1aa48bcc37b4776de62505cac64ec83b83" kind="function"><name>MR_TriTriDistanceResult_float_DefaultConstructArray</name></member>
-    <member refid="MRTriDist_8h_1a668c03b1c29128b7499812fb0f44bae3" kind="function"><name>MR_TriTriDistanceResult_float_ConstructFrom</name></member>
+    <member refid="MRTriDist_8h_1ae0503253e89898d0b5ddbe04864cbc84" kind="function"><name>MR_TriTriDistanceResult_float_ConstructFrom</name></member>
     <member refid="MRTriDist_8h_1a35996e4cf69bba6201b82ad9dccd0fb3" kind="function"><name>MR_TriTriDistanceResult_float_OffsetPtr</name></member>
     <member refid="MRTriDist_8h_1ac862a2cec9ca3abe064daffbdfdc7fcc" kind="function"><name>MR_TriTriDistanceResult_float_OffsetMutablePtr</name></member>
     <member refid="MRTriDist_8h_1ab3e66fd7b2373449cf16fb2e4fb299da" kind="function"><name>MR_TriTriDistanceResult_float_ConstructFromAnother</name></member>
     <member refid="MRTriDist_8h_1ac4e695a46966583d085a69f546e55d60" kind="function"><name>MR_TriTriDistanceResult_float_Destroy</name></member>
     <member refid="MRTriDist_8h_1a9adfa33cce896a5823b176d0815fda6d" kind="function"><name>MR_TriTriDistanceResult_float_DestroyArray</name></member>
     <member refid="MRTriDist_8h_1afceaf70f569ecd1ebfbaec2f4ba6596c" kind="function"><name>MR_TriTriDistanceResult_float_AssignFromAnother</name></member>
+    <member refid="MRTriDist_8h_1a2afa8ede5cb9b7576cc0cdb5053dd825" kind="function"><name>MR_TriTriDistanceResult_float_aBary</name></member>
+    <member refid="MRTriDist_8h_1a3633c7c73a145ba5f8df7ffb71b67cbe" kind="function"><name>MR_TriTriDistanceResult_float_bBary</name></member>
     <member refid="MRTriDist_8h_1a79c2dee0f65eb31c850a77180313dee6" kind="function"><name>MR_TriTriDistanceResult_double_Get_a</name></member>
     <member refid="MRTriDist_8h_1a19d13697ddfcc1ea7155845a0a4b75df" kind="function"><name>MR_TriTriDistanceResult_double_Set_a</name></member>
     <member refid="MRTriDist_8h_1a8d7e9be7685adf840f8aa806898d1a1e" kind="function"><name>MR_TriTriDistanceResult_double_GetMutable_a</name></member>
@@ -24775,15 +24783,23 @@
     <member refid="MRTriDist_8h_1a89ea3b9ba6eba35063465a7b971d6bc5" kind="function"><name>MR_TriTriDistanceResult_double_Get_overlap</name></member>
     <member refid="MRTriDist_8h_1a1c82340d7989fbe0f52501322e1c24a2" kind="function"><name>MR_TriTriDistanceResult_double_Set_overlap</name></member>
     <member refid="MRTriDist_8h_1ad4cd15999f01055299cb6e7f543e14c4" kind="function"><name>MR_TriTriDistanceResult_double_GetMutable_overlap</name></member>
+    <member refid="MRTriDist_8h_1a7ca2c0ada205f3230a4b15e76b5fd5ec" kind="function"><name>MR_TriTriDistanceResult_double_Get_aEdge</name></member>
+    <member refid="MRTriDist_8h_1a66a6db0776bf52362779f008eef5e4b0" kind="function"><name>MR_TriTriDistanceResult_double_Set_aEdge</name></member>
+    <member refid="MRTriDist_8h_1a88d988980dec364e27227881de642d7c" kind="function"><name>MR_TriTriDistanceResult_double_GetMutable_aEdge</name></member>
+    <member refid="MRTriDist_8h_1a37fa27a3d366dbaf49a5dd704ff2ac80" kind="function"><name>MR_TriTriDistanceResult_double_Get_bEdge</name></member>
+    <member refid="MRTriDist_8h_1abbd7eb806606aa56092b4a3a6a20bd51" kind="function"><name>MR_TriTriDistanceResult_double_Set_bEdge</name></member>
+    <member refid="MRTriDist_8h_1ab7141ca1cf8e3a1e87c2313606583253" kind="function"><name>MR_TriTriDistanceResult_double_GetMutable_bEdge</name></member>
     <member refid="MRTriDist_8h_1a76154d8763e1699a599b78dbe8dbc60d" kind="function"><name>MR_TriTriDistanceResult_double_DefaultConstruct</name></member>
     <member refid="MRTriDist_8h_1a3e10511311cc4a3cc077796a74b05c18" kind="function"><name>MR_TriTriDistanceResult_double_DefaultConstructArray</name></member>
-    <member refid="MRTriDist_8h_1a09c33198a70e6b858d8f1f27fdb9fcd8" kind="function"><name>MR_TriTriDistanceResult_double_ConstructFrom</name></member>
+    <member refid="MRTriDist_8h_1ad3370c1f5db5dab4c09d1a269d181835" kind="function"><name>MR_TriTriDistanceResult_double_ConstructFrom</name></member>
     <member refid="MRTriDist_8h_1a70fff9993f1b2d43b9b05d3a7dab2cee" kind="function"><name>MR_TriTriDistanceResult_double_OffsetPtr</name></member>
     <member refid="MRTriDist_8h_1ae89e7cbae03da44aea1e77778a1c4fed" kind="function"><name>MR_TriTriDistanceResult_double_OffsetMutablePtr</name></member>
     <member refid="MRTriDist_8h_1a91b3c48df87258e880fd9084fa46bbf7" kind="function"><name>MR_TriTriDistanceResult_double_ConstructFromAnother</name></member>
     <member refid="MRTriDist_8h_1a30f7fb82e0314dcd6c2f51154cc3b63f" kind="function"><name>MR_TriTriDistanceResult_double_Destroy</name></member>
     <member refid="MRTriDist_8h_1a805b729ae2bb3cd97d001515b7bf22bb" kind="function"><name>MR_TriTriDistanceResult_double_DestroyArray</name></member>
     <member refid="MRTriDist_8h_1a7d5dcfc4bc147febaf0176615ce602c5" kind="function"><name>MR_TriTriDistanceResult_double_AssignFromAnother</name></member>
+    <member refid="MRTriDist_8h_1acbeb3642d03a9ed4f1436ef95b57a8b5" kind="function"><name>MR_TriTriDistanceResult_double_aBary</name></member>
+    <member refid="MRTriDist_8h_1a13500c33024025b90cb6da5a3a56db0b" kind="function"><name>MR_TriTriDistanceResult_double_bBary</name></member>
     <member refid="MRTriDist_8h_1a96b178ec72f18b82f4297bcc6fcd1038" kind="function"><name>MR_TriTriDistanceParams_float_Get_upDistLimitSq</name></member>
     <member refid="MRTriDist_8h_1a2cbea8e6b3983b434588e73e9ac9c73f" kind="function"><name>MR_TriTriDistanceParams_float_Set_upDistLimitSq</name></member>
     <member refid="MRTriDist_8h_1ae23c096e2250790164b79c0d5278f711" kind="function"><name>MR_TriTriDistanceParams_float_GetMutable_upDistLimitSq</name></member>
@@ -24960,8 +24976,8 @@
     <member refid="MRTriPoint_8h_1a8e076c644374156b35ff20916817a9ff" kind="function"><name>MR_TriPointf_ConstructFromAnother</name></member>
     <member refid="MRTriPoint_8h_1a4e854ec778dc7c5cf2f3fb0984e53f67" kind="function"><name>MR_TriPointf_Construct_1</name></member>
     <member refid="MRTriPoint_8h_1a03bba17c83938f7d06c839703667108b" kind="function"><name>MR_TriPointf_Construct_2</name></member>
-    <member refid="MRTriPoint_8h_1a6db42c927e3567a7874d80105382e754" kind="function"><name>MR_TriPointf_Construct_4</name></member>
-    <member refid="MRTriPoint_8h_1a7a9ac1e51156915081dc64d4b70dc0d9" kind="function"><name>MR_TriPointf_Construct_3</name></member>
+    <member refid="MRTriPoint_8h_1a8b29ab6989a75c6305374238dd88fef2" kind="function"><name>MR_TriPointf_Construct_5</name></member>
+    <member refid="MRTriPoint_8h_1aeeb7a3dbbd63d22d3fdf1f2c87bb9015" kind="function"><name>MR_TriPointf_Construct_4</name></member>
     <member refid="MRTriPoint_8h_1a1a057294800fc78583a6f59bd20d8eca" kind="function"><name>MR_TriPointf_Destroy</name></member>
     <member refid="MRTriPoint_8h_1a3c408d3c78848249e37a218ba4f42a65" kind="function"><name>MR_TriPointf_DestroyArray</name></member>
     <member refid="MRTriPoint_8h_1a19de1839107df99f8591e322273fb03f" kind="function"><name>MR_TriPointf_AssignFromAnother</name></member>
@@ -24985,8 +25001,8 @@
     <member refid="MRTriPoint_8h_1a5767de4b4e90ed2bb0d8e89022e74d0b" kind="function"><name>MR_TriPointd_ConstructFromAnother</name></member>
     <member refid="MRTriPoint_8h_1a073a3ed4f1ac3ac0c4568956508885e3" kind="function"><name>MR_TriPointd_Construct_1</name></member>
     <member refid="MRTriPoint_8h_1ad67c9452f2d36b3e882f41bec39deb5c" kind="function"><name>MR_TriPointd_Construct_2</name></member>
-    <member refid="MRTriPoint_8h_1ac2294567bed258069aafb981a12c1b4f" kind="function"><name>MR_TriPointd_Construct_4</name></member>
-    <member refid="MRTriPoint_8h_1a8e002a8e89dbda1428f3128fc295f35a" kind="function"><name>MR_TriPointd_Construct_3</name></member>
+    <member refid="MRTriPoint_8h_1a17740519ce29c2df31840d22f6f359d6" kind="function"><name>MR_TriPointd_Construct_5</name></member>
+    <member refid="MRTriPoint_8h_1a5e7f33f03bb26884cbef5e0719cb02de" kind="function"><name>MR_TriPointd_Construct_4</name></member>
     <member refid="MRTriPoint_8h_1a6a829920cc66de4a1e76d28546f6d751" kind="function"><name>MR_TriPointd_Destroy</name></member>
     <member refid="MRTriPoint_8h_1a0f518881ed6ddadc06908c8d93fdab2e" kind="function"><name>MR_TriPointd_DestroyArray</name></member>
     <member refid="MRTriPoint_8h_1aec9c5e337a115ddffd9aa6df4d3f910a" kind="function"><name>MR_TriPointd_AssignFromAnother</name></member>

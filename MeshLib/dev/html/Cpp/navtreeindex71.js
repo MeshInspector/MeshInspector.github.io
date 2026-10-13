@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1ZCompensateParams.html":[9,0,0,20,429],
+"structMR_1_1ZeroOnMove.html":[9,0,0,20,143],
+"structMR_1_1ZlibCompressParams.html":[9,0,0,20,558],
+"structMR_1_1ZlibCompressStats.html":[9,0,0,20,557],
 "structMR_1_1ZlibParams.html":[9,0,0,20,556],
 "structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder.html":[9,0,0,20,358],
 "structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType.html":[9,0,0,20,356],

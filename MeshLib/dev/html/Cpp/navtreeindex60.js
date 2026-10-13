@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#a10f8eed093365dade4b8f37a4bdf05fb":[9,0,1,0,1,16,21],
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#a491df75b1eafcddfde28b6ed4dd4c88c":[9,0,1,0,1,16,20],
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6a":[9,0,1,0,1,16,16],
+"namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8":[9,0,1,0,1,16,16,0],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9":[9,0,1,0,1,16,16,4],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea":[9,0,1,0,1,16,16,3],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698":[9,0,1,0,1,16,16,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2ac5b6efbcca1f43b59969a46a5d29cca8":[9,0,1,0,1,51,2,0,7,3],
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2ac90003a36daf39c1f43bb3af3689cd92":[9,0,1,0,1,51,2,0,7,2],
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2ace50a09343724eb82df11390e2c1de18":[9,0,1,0,1,51,2,0,7,0],
-"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2adb0f6f37ebeb6ea09489124345af2a45":[9,0,1,0,1,51,2,0,7,1],
-"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2af02c10344a98c7dcc797ccc308953387":[9,0,1,0,1,51,2,0,7,4],
-"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html":[9,0,1,0,1,51,2,1],
-"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a228b99eeaa30617d5cf0d9880a743d07":[9,0,1,0,1,51,2,1,6],
-"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#a2e73c8ebc73460f3aa834d31f6cb8d3d":[9,0,1,0,1,51,2,1,7]
+"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2adb0f6f37ebeb6ea09489124345af2a45":[9,0,1,0,1,51,2,0,7,1]
 };

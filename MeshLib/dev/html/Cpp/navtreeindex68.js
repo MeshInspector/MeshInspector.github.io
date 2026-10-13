@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[9,0,1,0,1,35,3],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[9,0,2,0,2,22,3],
+"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[9,0,1,0,1,35,3,0],
+"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799":[9,0,2,0,2,22,3,0],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a799a24a6bd721d10d31a02b8b1e918f7":[9,0,1,0,1,35,3,1],
 "structMR_1_1PointsLoad_1_1PointsLoader.html#a799a24a6bd721d10d31a02b8b1e918f7":[9,0,2,0,2,22,3,1],
 "structMR_1_1PointsProjectionResult.html":[9,0,0,1,28],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ShrinkwrapParameters.html#a183a87107e261430e1f648901026b0eb":[9,0,0,9,11,0],
 "structMR_1_1ShrinkwrapParameters.html#a6494558a624f34d76f7b2c33730173b6":[9,0,0,9,11,2],
 "structMR_1_1ShrinkwrapParameters.html#a7e99b9b0dac6abe3e30c3f2f95b2c5d4":[9,0,0,9,11,1],
-"structMR_1_1Signal.html":[9,0,0,20,510],
-"structMR_1_1SignedDistanceToMeshOptions.html":[9,0,0,20,208],
-"structMR_1_1SignedDistanceToMeshResult.html":[9,0,0,1,27],
-"structMR_1_1SignedDistanceToMeshResult.html#ab2ab2feebc81103d19915755ccb48d23":[9,0,0,1,27,0],
-"structMR_1_1SignedDistanceToMeshResult.html#adb459805ccfb452c3a5c82fe673bbfec":[9,0,0,1,27,2]
+"structMR_1_1Signal.html":[9,0,0,20,510]
 };

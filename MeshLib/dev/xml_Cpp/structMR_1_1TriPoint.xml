@@ -20,8 +20,8 @@
       <member refid="group__GeneralGroup_1gab5b9f73c3a043a47d8d279a89d744c5d" kind="function"><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga3665ef8bed664d4374515106f2128c58" kind="function"><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga6f222148e7f6b0eb3edf6f62d6a5209e" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-      <member refid="group__GeneralGroup_1gae145ad02214aefc05be85737aa1d6cca" kind="function"><name>TriPoint</name></member>
-      <member refid="group__GeneralGroup_1ga38305f3769604953fbac39b9fa79f6bc" kind="function"><name>TriPoint</name></member>
+      <member refid="group__GeneralGroup_1ga661e89b89909c122bd83d3c3aac049d2" kind="function"><name>TriPoint</name></member>
+      <member refid="group__GeneralGroup_1ga589c0e1b03d96cace2cd1ac06b21e07e" kind="function"><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga443eb1cdffa8cf6269dce8d4f7712a3b" kind="function"><name>interpolate</name></member>
       <member refid="group__GeneralGroup_1ga02506879ef28b9372cf1868c17a808da" kind="function"><name>lnext</name></member>
       <member refid="group__GeneralGroup_1ga4d5a222417a7c162c44bb932b91cdd7a" kind="function"><name>inVertex</name></member>
@@ -38,7 +38,7 @@
     <detaileddescription>
 <para>Notations used below: v0, v1, v2 - points of the triangle </para>
     </detaileddescription>
-    <location file="MRMesh/MRTriPoint.h" line="18" column="1" bodyfile="MRMesh/MRTriPoint.h" bodystart="19" bodyend="69"/>
+    <location file="MRMesh/MRTriPoint.h" line="18" column="1" bodyfile="MRMesh/MRTriPoint.h" bodystart="19" bodyend="71"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8b3c5d2f52bedd379a12737883685b69" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>a</name></member>
       <member refid="group__GeneralGroup_1ga7ad9a3fd75d2c4414e75599a4eb0d497" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>b</name></member>
@@ -54,8 +54,8 @@
       <member refid="group__GeneralGroup_1ga173bd5baa937f72d4e42901d913f3ff3" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1gab5b9f73c3a043a47d8d279a89d744c5d" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
       <member refid="group__GeneralGroup_1ga3665ef8bed664d4374515106f2128c58" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
-      <member refid="group__GeneralGroup_1gae145ad02214aefc05be85737aa1d6cca" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
-      <member refid="group__GeneralGroup_1ga38305f3769604953fbac39b9fa79f6bc" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
+      <member refid="group__GeneralGroup_1ga661e89b89909c122bd83d3c3aac049d2" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
+      <member refid="group__GeneralGroup_1ga589c0e1b03d96cace2cd1ac06b21e07e" prot="public" virt="non-virtual"><scope>MR::TriPoint</scope><name>TriPoint</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

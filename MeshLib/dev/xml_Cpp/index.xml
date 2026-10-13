@@ -5755,13 +5755,13 @@
     <member refid="group__GeneralGroup_1ga799a0b7401b397fa7e07c3a6c8f565a1" kind="function"><name>operator()</name></member>
   </compound>
   <compound refid="structMR_1_1MeshMeshDistanceResult" kind="struct"><name>MR::MeshMeshDistanceResult</name>
-    <member refid="structMR_1_1MeshMeshDistanceResult_1ac63fe46e0eee3773c56a65dacf2f15b4" kind="variable"><name>a</name></member>
-    <member refid="structMR_1_1MeshMeshDistanceResult_1aeb2b4c0d5e120181eaa3a706a14f40f9" kind="variable"><name>b</name></member>
+    <member refid="structMR_1_1MeshMeshDistanceResult_1a8e4aaaa01afff658794e609f5abf4bf1" kind="variable"><name>a</name></member>
+    <member refid="structMR_1_1MeshMeshDistanceResult_1a25773dfd268367216094115d6c10cf7b" kind="variable"><name>b</name></member>
     <member refid="structMR_1_1MeshMeshDistanceResult_1a31d5db7464e13bf1f300593e515875c9" kind="variable"><name>distSq</name></member>
   </compound>
   <compound refid="structMR_1_1MeshMeshSignedDistanceResult" kind="struct"><name>MR::MeshMeshSignedDistanceResult</name>
-    <member refid="structMR_1_1MeshMeshSignedDistanceResult_1a642ae2b2d6307510e4c0d80c5157ebbb" kind="variable"><name>a</name></member>
-    <member refid="structMR_1_1MeshMeshSignedDistanceResult_1a23af96a4b4cd53382d78f9c0356b4c09" kind="variable"><name>b</name></member>
+    <member refid="structMR_1_1MeshMeshSignedDistanceResult_1abca10df1db5ac5efffea90d7308944cb" kind="variable"><name>a</name></member>
+    <member refid="structMR_1_1MeshMeshSignedDistanceResult_1aba6f94f778c8fe4136f3ffa11c4ac1cd" kind="variable"><name>b</name></member>
     <member refid="structMR_1_1MeshMeshSignedDistanceResult_1a2dde76f179a4bcac69592b196d1b91ab" kind="variable"><name>status</name></member>
     <member refid="structMR_1_1MeshMeshSignedDistanceResult_1abe11291a5f4afd550ef7697c23ba7410" kind="variable"><name>signedDist</name></member>
   </compound>
@@ -12076,8 +12076,8 @@
     <member refid="group__GeneralGroup_1gab5b9f73c3a043a47d8d279a89d744c5d" kind="function"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga3665ef8bed664d4374515106f2128c58" kind="function"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga6f222148e7f6b0eb3edf6f62d6a5209e" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="group__GeneralGroup_1gae145ad02214aefc05be85737aa1d6cca" kind="function"><name>TriPoint</name></member>
-    <member refid="group__GeneralGroup_1ga38305f3769604953fbac39b9fa79f6bc" kind="function"><name>TriPoint</name></member>
+    <member refid="group__GeneralGroup_1ga661e89b89909c122bd83d3c3aac049d2" kind="function"><name>TriPoint</name></member>
+    <member refid="group__GeneralGroup_1ga589c0e1b03d96cace2cd1ac06b21e07e" kind="function"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga443eb1cdffa8cf6269dce8d4f7712a3b" kind="function"><name>interpolate</name></member>
     <member refid="group__GeneralGroup_1ga02506879ef28b9372cf1868c17a808da" kind="function"><name>lnext</name></member>
     <member refid="group__GeneralGroup_1ga4d5a222417a7c162c44bb932b91cdd7a" kind="function"><name>inVertex</name></member>
@@ -12097,6 +12097,10 @@
     <member refid="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1ga254fa3cf488a854853a6b959c1abb8e4" kind="variable"><name>distSq</name></member>
     <member refid="group__GeneralGroup_1ga7b9368c23e58b3e92e87a03f3cd2d701" kind="variable"><name>overlap</name></member>
+    <member refid="group__GeneralGroup_1gaf76eb0bc60171b171363306c05ccaef0" kind="variable"><name>aEdge</name></member>
+    <member refid="group__GeneralGroup_1ga98e507e98c4ebce53b724e38ffeb7224" kind="variable"><name>bEdge</name></member>
+    <member refid="group__GeneralGroup_1ga900e15ae81322ccab4f5c92a8cab0b58" kind="function"><name>aBary</name></member>
+    <member refid="group__GeneralGroup_1ga178ce7a6cec594937ceae72bd61afaad" kind="function"><name>bBary</name></member>
   </compound>
   <compound refid="structMR_1_1TrivialMetricToPenalty" kind="struct"><name>MR::TrivialMetricToPenalty</name>
     <member refid="group__GeneralGroup_1gac520c15e54c74fc25c2c0d3a0bdd18a6" kind="function"><name>operator()</name></member>
@@ -23705,6 +23709,8 @@
     <member refid="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1ga254fa3cf488a854853a6b959c1abb8e4" kind="variable"><name>distSq</name></member>
     <member refid="group__GeneralGroup_1ga7b9368c23e58b3e92e87a03f3cd2d701" kind="variable"><name>overlap</name></member>
+    <member refid="group__GeneralGroup_1gaf76eb0bc60171b171363306c05ccaef0" kind="variable"><name>aEdge</name></member>
+    <member refid="group__GeneralGroup_1ga98e507e98c4ebce53b724e38ffeb7224" kind="variable"><name>bEdge</name></member>
     <member refid="group__GeneralGroup_1ga4c75a2d0e0280a86b4ec6f5f09d69d3e" kind="variable"><name>upDistLimitSq</name></member>
     <member refid="group__GeneralGroup_1ga76e2b79a6d1aacb9cb96489b3f725b01" kind="variable"><name>upLimitCheck</name></member>
     <member refid="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" kind="variable"><name>tris</name></member>
@@ -29098,6 +29104,8 @@
     <member refid="group__GeneralGroup_1ga196a0dd004b8640ecf44ab19177397b8" kind="function"><name>makeTorusWithSpikes</name></member>
     <member refid="group__GeneralGroup_1ga57eb865bddfea0b83ba03d7d424a3589" kind="function"><name>makeTorusWithComponents</name></member>
     <member refid="group__GeneralGroup_1gaefe2a3413e9ffcfb9ee62b40c3eb6f90" kind="function"><name>makeTorusWithSelfIntersections</name></member>
+    <member refid="group__GeneralGroup_1ga900e15ae81322ccab4f5c92a8cab0b58" kind="function"><name>aBary</name></member>
+    <member refid="group__GeneralGroup_1ga178ce7a6cec594937ceae72bd61afaad" kind="function"><name>bBary</name></member>
     <member refid="group__GeneralGroup_1ga6df4c26e656105a5ccfaafa11c449171" kind="function"><name>canExitEarlier</name></member>
     <member refid="group__GeneralGroup_1ga745b2861e9d719b9e27aa41804bdda11" kind="function"><name>canExitEarlier</name></member>
     <member refid="group__GeneralGroup_1gaac3443060426dd9845f9a0a5ce1967bc" kind="function"><name>findTriTriDistance</name></member>
@@ -29179,8 +29187,8 @@
     <member refid="group__GeneralGroup_1gab5b9f73c3a043a47d8d279a89d744c5d" kind="function"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga3665ef8bed664d4374515106f2128c58" kind="function"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga6f222148e7f6b0eb3edf6f62d6a5209e" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="group__GeneralGroup_1gae145ad02214aefc05be85737aa1d6cca" kind="function"><name>TriPoint</name></member>
-    <member refid="group__GeneralGroup_1ga38305f3769604953fbac39b9fa79f6bc" kind="function"><name>TriPoint</name></member>
+    <member refid="group__GeneralGroup_1ga661e89b89909c122bd83d3c3aac049d2" kind="function"><name>TriPoint</name></member>
+    <member refid="group__GeneralGroup_1ga589c0e1b03d96cace2cd1ac06b21e07e" kind="function"><name>TriPoint</name></member>
     <member refid="group__GeneralGroup_1ga443eb1cdffa8cf6269dce8d4f7712a3b" kind="function"><name>interpolate</name></member>
     <member refid="group__GeneralGroup_1ga02506879ef28b9372cf1868c17a808da" kind="function"><name>lnext</name></member>
     <member refid="group__GeneralGroup_1ga4d5a222417a7c162c44bb932b91cdd7a" kind="function"><name>inVertex</name></member>

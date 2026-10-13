@@ -9658,7 +9658,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="34" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="35" bodyend="38"/>
+        <location file="MRMesh/MRTriDist.h" line="47" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga58525252a9ee9abb57d352127584531f" prot="public" static="no" strong="yes">
         <type></type>
@@ -18087,7 +18087,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="31" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="31" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="44" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga307f773bda9a64426a2d85875a9f7241" prot="public" static="no">
         <type>TriTriDistanceResult&lt; double &gt;</type>
@@ -18101,7 +18101,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="32" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="32" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="45" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga74b84c1e75186c097b95643711a4c6c4" prot="public" static="no">
         <type>TriTriDistanceParams&lt; float &gt;</type>
@@ -18115,7 +18115,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="60" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="73" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga76982b24cc7c5ea26c870ff223e08493" prot="public" static="no">
         <type>TriTriDistanceParams&lt; double &gt;</type>
@@ -18129,7 +18129,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="61" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="61" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="74" column="1" bodyfile="MRMesh/MRTriDist.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" prot="public" static="no">
         <type>TwoLineSegmClosestPoints&lt; float &gt;</type>
@@ -44847,7 +44847,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="20" column="13" bodyfile="MRMesh/MRTriDist.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="22" column="13" bodyfile="MRMesh/MRTriDist.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2adde456867209868cd165e976db06d2" prot="public" static="no" mutable="no">
         <type>Vector3&lt; T &gt;</type>
@@ -44861,7 +44861,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="20" column="15" bodyfile="MRMesh/MRTriDist.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="22" column="15" bodyfile="MRMesh/MRTriDist.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga254fa3cf488a854853a6b959c1abb8e4" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -44877,7 +44877,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="25" column="7" bodyfile="MRMesh/MRTriDist.h" bodystart="25" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="27" column="7" bodyfile="MRMesh/MRTriDist.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga7b9368c23e58b3e92e87a03f3cd2d701" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -44893,7 +44893,38 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="29" column="10" bodyfile="MRMesh/MRTriDist.h" bodystart="29" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="31" column="10" bodyfile="MRMesh/MRTriDist.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaf76eb0bc60171b171363306c05ccaef0" prot="public" static="no" mutable="no">
+        <type>std::int8_t</type>
+        <definition>std::int8_t MR::TriTriDistanceResult&lt; T &gt;::aEdge</definition>
+        <argsstring></argsstring>
+        <name>aEdge</name>
+        <qualifiedname>MR::TriTriDistanceResult::aEdge</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the edges of the triangles with points a and b, numbered as in <ref refid="group__GeneralGroup_1ga8cc175bbb2037eebe6e8f2ced01a4b10" kindref="member">TriPoint::onEdge()</ref> (which also contain a point found in a vertex), or -1 if the point is inside its triangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTriDist.h" line="35" column="17" bodyfile="MRMesh/MRTriDist.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga98e507e98c4ebce53b724e38ffeb7224" prot="public" static="no" mutable="no">
+        <type>std::int8_t</type>
+        <definition>std::int8_t MR::TriTriDistanceResult&lt; T &gt;::bEdge</definition>
+        <argsstring></argsstring>
+        <name>bEdge</name>
+        <qualifiedname>MR::TriTriDistanceResult::bEdge</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTriDist.h" line="35" column="24" bodyfile="MRMesh/MRTriDist.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga4c75a2d0e0280a86b4ec6f5f09d69d3e" prot="public" static="no" mutable="no">
         <type>T</type>
@@ -44905,11 +44936,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary </para>
+<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b with their edges can be arbitrary </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="46" column="7" bodyfile="MRMesh/MRTriDist.h" bodystart="46" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="59" column="7" bodyfile="MRMesh/MRTriDist.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga76e2b79a6d1aacb9cb96489b3f725b01" prot="public" static="no" mutable="no">
         <type>UpLimitCheck</type>
@@ -44924,7 +44955,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="48" column="18" bodyfile="MRMesh/MRTriDist.h" bodystart="48" bodyend="-1"/>
+        <location file="MRMesh/MRTriDist.h" line="61" column="18" bodyfile="MRMesh/MRTriDist.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" prot="public" static="no" mutable="no">
         <type>Triangulation</type>
@@ -74176,7 +74207,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="59" column="12" bodyfile="MRMesh/MRTriPoint.h" bodystart="59" bodyend="62"/>
+        <location file="MRMesh/MRTriPoint.h" line="61" column="12" bodyfile="MRMesh/MRTriPoint.h" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gaae0ca13e381c0da0a32ffd38d5f8c346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>std::istream &amp;</type>
@@ -74198,7 +74229,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="64" column="25" bodyfile="MRMesh/MRTriPoint.h" bodystart="64" bodyend="68"/>
+        <location file="MRMesh/MRTriPoint.h" line="66" column="25" bodyfile="MRMesh/MRTriPoint.h" bodystart="66" bodyend="70"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -147631,6 +147662,44 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRTorus.h" line="36" column="7" declfile="MRMesh/MRTorus.h" declline="36" declcolumn="7"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga900e15ae81322ccab4f5c92a8cab0b58" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TriPoint&lt; T &gt;</type>
+        <definition>TriPoint&lt; T &gt; MR::TriTriDistanceResult&lt; T &gt;::aBary</definition>
+        <argsstring>(const Triangle3&lt; T &gt; &amp;ta) const</argsstring>
+        <name>aBary</name>
+        <qualifiedname>MR::TriTriDistanceResult::aBary</qualifiedname>
+        <param>
+          <type>const Triangle3&lt; T &gt; &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>barycentric coordinates of point a in triangle ta, given to findTriTriDistance as the first one; unlike the ones computed from the position of the point, they place a point found on an edge or in a vertex there </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTriDist.h" line="39" column="15" bodyfile="MRMesh/MRTriDist.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga178ce7a6cec594937ceae72bd61afaad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TriPoint&lt; T &gt;</type>
+        <definition>TriPoint&lt; T &gt; MR::TriTriDistanceResult&lt; T &gt;::bBary</definition>
+        <argsstring>(const Triangle3&lt; T &gt; &amp;tb) const</argsstring>
+        <name>bBary</name>
+        <qualifiedname>MR::TriTriDistanceResult::bBary</qualifiedname>
+        <param>
+          <type>const Triangle3&lt; T &gt; &amp;</type>
+          <declname>tb</declname>
+        </param>
+        <briefdescription>
+<para>barycentric coordinates of point b in triangle tb, given to findTriTriDistance as the second one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTriDist.h" line="42" column="15" bodyfile="MRMesh/MRTriDist.h" bodystart="42" bodyend="42"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6df4c26e656105a5ccfaafa11c449171" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::TriTriDistanceParams&lt; T &gt;::canExitEarlier</definition>
@@ -147644,7 +147713,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="50" column="10" bodyfile="MRMesh/MRTriDist.h" bodystart="50" bodyend="53"/>
+        <location file="MRMesh/MRTriDist.h" line="63" column="10" bodyfile="MRMesh/MRTriDist.h" bodystart="63" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga745b2861e9d719b9e27aa41804bdda11" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -147663,7 +147732,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="55" column="10" bodyfile="MRMesh/MRTriDist.h" bodystart="55" bodyend="58"/>
+        <location file="MRMesh/MRTriDist.h" line="68" column="10" bodyfile="MRMesh/MRTriDist.h" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaac3443060426dd9845f9a0a5ce1967bc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TriTriDistanceResultf</type>
@@ -147691,7 +147760,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="64" column="25" declfile="MRMesh/MRTriDist.h" declline="64" declcolumn="25"/>
+        <location file="MRMesh/MRTriDist.h" line="77" column="25" declfile="MRMesh/MRTriDist.h" declline="77" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaac4ce716b1bcfe02acfd83cf06380768" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TriTriDistanceResultd</type>
@@ -147718,7 +147787,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="65" column="25" declfile="MRMesh/MRTriDist.h" declline="65" declcolumn="25"/>
+        <location file="MRMesh/MRTriDist.h" line="78" column="25" declfile="MRMesh/MRTriDist.h" declline="78" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac3ed6b876e79b7bacb3039ccacd336cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE float</type>
@@ -147751,7 +147820,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="68" column="24" declfile="MRMesh/MRTriDist.h" declline="68" declcolumn="24"/>
+        <location file="MRMesh/MRTriDist.h" line="81" column="24" declfile="MRMesh/MRTriDist.h" declline="81" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -147781,7 +147850,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="70" column="9" declfile="MRMesh/MRTriDist.h" declline="70" declcolumn="9"/>
+        <location file="MRMesh/MRTriDist.h" line="83" column="9" declfile="MRMesh/MRTriDist.h" declline="83" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga973831babbbe4c9395f8304e8b980d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -147827,7 +147896,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriDist.h" line="72" column="8" declfile="MRMesh/MRTriDist.h" declline="72" declcolumn="8"/>
+        <location file="MRMesh/MRTriDist.h" line="85" column="8" declfile="MRMesh/MRTriDist.h" declline="85" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga90f6bce33bc894bbb05eacce88a464c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -149619,10 +149688,10 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRTriPoint.h" line="30" column="17" bodyfile="MRMesh/MRTriPoint.h" bodystart="30" bodyend="31"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae145ad02214aefc05be85737aa1d6cca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga661e89b89909c122bd83d3c3aac049d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>MR::TriPoint&lt; T &gt;::TriPoint</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v0, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)</argsstring>
+        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v0, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2, int edge=-1)</argsstring>
         <name>TriPoint</name>
         <qualifiedname>MR::TriPoint::TriPoint</qualifiedname>
         <param>
@@ -149641,19 +149710,24 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <type>const Vector3&lt; T &gt; &amp;</type>
           <declname>v2</declname>
         </param>
+        <param>
+          <type>int</type>
+          <declname>edge</declname>
+          <defval>-1</defval>
+        </param>
         <briefdescription>
-<para>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point </para>
         </briefdescription>
         <detaileddescription>
+<para>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point; if the point is known to be on an edge, numbered as in <ref refid="group__GeneralGroup_1ga8cc175bbb2037eebe6e8f2ced01a4b10" kindref="member">onEdge()</ref>, then pass it to place the point exactly there </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="34" column="5" bodyfile="MRMesh/MRTriPoint.h" bodystart="34" bodyend="34"/>
+        <location file="MRMesh/MRTriPoint.h" line="35" column="5" bodyfile="MRMesh/MRTriPoint.h" bodystart="35" bodyend="35"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga38305f3769604953fbac39b9fa79f6bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga589c0e1b03d96cace2cd1ac06b21e07e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>MR::TriPoint&lt; T &gt;::TriPoint</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2)</argsstring>
+        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;v1, const Vector3&lt; T &gt; &amp;v2, int edge=-1)</argsstring>
         <name>TriPoint</name>
         <qualifiedname>MR::TriPoint::TriPoint</qualifiedname>
         <param>
@@ -149668,14 +149742,19 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
           <type>const Vector3&lt; T &gt; &amp;</type>
           <declname>v2</declname>
         </param>
+        <param>
+          <type>int</type>
+          <declname>edge</declname>
+          <defval>-1</defval>
+        </param>
         <briefdescription>
-<para>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point </para>
         </briefdescription>
         <detaileddescription>
+<para>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point; if the point is known to be on an edge, numbered as in <ref refid="group__GeneralGroup_1ga8cc175bbb2037eebe6e8f2ced01a4b10" kindref="member">onEdge()</ref>, then pass it to place the point exactly there </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="36" column="5"/>
+        <location file="MRMesh/MRTriPoint.h" line="38" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga443eb1cdffa8cf6269dce8d4f7712a3b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -149707,7 +149786,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="40" column="7" bodyfile="MRMesh/MRTriPoint.h" bodystart="40" bodyend="41"/>
+        <location file="MRMesh/MRTriPoint.h" line="42" column="7" bodyfile="MRMesh/MRTriPoint.h" bodystart="42" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga02506879ef28b9372cf1868c17a808da" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>TriPoint</type>
@@ -149722,7 +149801,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="44" column="15" bodyfile="MRMesh/MRTriPoint.h" bodystart="44" bodyend="44"/>
+        <location file="MRMesh/MRTriPoint.h" line="46" column="15" bodyfile="MRMesh/MRTriPoint.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4d5a222417a7c162c44bb932b91cdd7a" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -149738,7 +149817,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="51" column="19"/>
+        <location file="MRMesh/MRTriPoint.h" line="53" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8cc175bbb2037eebe6e8f2ced01a4b10" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -149753,7 +149832,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="54" column="19"/>
+        <location file="MRMesh/MRTriPoint.h" line="56" column="19"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaaebb5e3d0837bb5c59e39b23498ccaa2" prot="public" static="no" nodiscard="yes" constexpr="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -149772,7 +149851,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTriPoint.h" line="57" column="21"/>
+        <location file="MRMesh/MRTriPoint.h" line="59" column="21"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TwoLineSegmClosestPointsf</type>

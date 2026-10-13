@@ -66,6 +66,36 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="55" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="55" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriTriDistanceResult__Float_1a1aec844cd678b868493a5ab38edb74d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe sbyte</type>
+        <definition>unsafe sbyte MR.Const_TriTriDistanceResult_Float.aEdge</definition>
+        <argsstring></argsstring>
+        <name>aEdge</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.aEdge</qualifiedname>
+        <briefdescription>
+<para>the edges of the triangles with points a and b, numbered as in TriPoint::onEdge() (which also contain a point found in a vertex), or -1 if the point is inside its triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="62" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriTriDistanceResult__Float_1a2c3f9b53d466e3b98ab1239ea9bc4476" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe sbyte</type>
+        <definition>unsafe sbyte MR.Const_TriTriDistanceResult_Float.bEdge</definition>
+        <argsstring></argsstring>
+        <name>bEdge</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.bEdge</qualifiedname>
+        <briefdescription>
+<para>the edges of the triangles with points a and b, numbered as in TriPoint::onEdge() (which also contain a point found in a vertex), or -1 if the point is inside its triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="69" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="classMR_1_1Const__TriTriDistanceResult__Float_1a9a43e7af7ea75e0b06412e3181b75ce2" prot="protected" static="no" mutable="no">
@@ -124,6 +154,34 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="56" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="56" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriTriDistanceResult__Float_1aa5fbc469f11145f4b2ba06a712d5f8e0" prot="protected" static="no" mutable="no">
+        <type>unsafe sbyte *</type>
+        <definition>unsafe sbyte* MR.Const_TriTriDistanceResult_Float.__ref_storage_aEdge</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_aEdge</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.__ref_storage_aEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="63" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriTriDistanceResult__Float_1a2b040511f48293acfb990243892cb6a5" prot="protected" static="no" mutable="no">
+        <type>unsafe sbyte *</type>
+        <definition>unsafe sbyte* MR.Const_TriTriDistanceResult_Float.__ref_storage_bEdge</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_bEdge</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.__ref_storage_bEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="70" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a98fa65c659b0bdfc6fe2793abcf61b1c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
@@ -173,12 +231,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="93" bodyend="97"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="115" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="115" bodyend="119"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a26f69e24329f61667404669d885f97fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1ad91e35dee629daee7d222fa398d2f021" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_TriTriDistanceResult_Float.Const_TriTriDistanceResult_Float</definition>
-        <argsstring>(MR.Vector3f a, MR.Vector3f b, float distSq, bool overlap)</argsstring>
+        <argsstring>(MR.Vector3f a, MR.Vector3f b, float distSq, bool overlap, sbyte aEdge, sbyte bEdge)</argsstring>
         <name>Const_TriTriDistanceResult_Float</name>
         <qualifiedname>MR.Const_TriTriDistanceResult_Float.Const_TriTriDistanceResult_Float</qualifiedname>
         <param>
@@ -197,6 +255,14 @@
           <type>bool</type>
           <declname>overlap</declname>
         </param>
+        <param>
+          <type>sbyte</type>
+          <declname>aEdge</declname>
+        </param>
+        <param>
+          <type>sbyte</type>
+          <declname>bEdge</declname>
+        </param>
         <briefdescription>
 <para>Constructs <computeroutput>MR::TriTriDistanceResult&amp;lt;float&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
@@ -204,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="102" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="102" bodyend="106"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="124" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1ab2804c272a98836cf73bff2193405ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -223,7 +289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="111" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="111" bodyend="116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="133" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1ad40f2120d582f7fea4e5527f584750de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -242,7 +308,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="121" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="121" bodyend="121"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="143" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a82f02dfd5cc30faeb0a12b2fbb84a435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriPointf" kindref="compound">MR.TriPointf</ref></type>
+        <definition>unsafe MR.TriPointf MR.Const_TriTriDistanceResult_Float.aBary</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 ta)</argsstring>
+        <name>aBary</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.aBary</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+<para>barycentric coordinates of point a in triangle ta, given to findTriTriDistance as the first one; unlike the ones computed from the position of the point, they place a point found on an edge or in a vertex there Generated from method <computeroutput>MR::TriTriDistanceResult&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__TriTriDistanceResult__Float_1a82f02dfd5cc30faeb0a12b2fbb84a435" kindref="member">aBary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="150" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="150" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a00865d30a00689a5b68b38ec432cfc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriPointf" kindref="compound">MR.TriPointf</ref></type>
+        <definition>unsafe MR.TriPointf MR.Const_TriTriDistanceResult_Float.bBary</definition>
+        <argsstring>(in MR.Std.Array_MRVector3f_3 tb)</argsstring>
+        <name>bBary</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.bBary</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVector3f_3</type>
+          <declname>tb</declname>
+        </param>
+        <briefdescription>
+<para>barycentric coordinates of point b in triangle tb, given to findTriTriDistance as the second one Generated from method <computeroutput>MR::TriTriDistanceResult&amp;lt;float&amp;gt;<ref refid="classMR_1_1Const__TriTriDistanceResult__Float_1a00865d30a00689a5b68b38ec432cfc30" kindref="member">bBary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="162" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="162" bodyend="168"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -282,14 +386,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="82" bodyend="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="104" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="104" bodyend="109"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a507fb3ac8a953ec2fae43b6a3d0511d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a1c984f4824981f42030533d11919ec56" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriTriDistanceResult_Float._Underlying *</type>
         <definition>static unsafe MR.TriTriDistanceResult_Float._Underlying * MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_ConstructFrom</definition>
-        <argsstring>(MR.Vector3f a, MR.Vector3f b, float distSq, byte overlap)</argsstring>
+        <argsstring>(MR.Vector3f a, MR.Vector3f b, float distSq, byte overlap, sbyte aEdge, sbyte bEdge)</argsstring>
         <name>__MR_TriTriDistanceResult_float_ConstructFrom</name>
         <qualifiedname>MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_ConstructFrom</qualifiedname>
         <param>
@@ -308,13 +412,21 @@
           <type>byte</type>
           <declname>overlap</declname>
         </param>
+        <param>
+          <type>sbyte</type>
+          <declname>aEdge</declname>
+        </param>
+        <param>
+          <type>sbyte</type>
+          <declname>bEdge</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="126" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="173" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a1ca5ddcbda950288388cfecda59702cf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriTriDistanceResult_Float._Underlying *</type>
@@ -332,7 +444,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="129" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="176" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1aaf4755818ffa9e23fc60dd29134fbe5a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriTriDistanceResult_Float._Underlying *</type>
@@ -346,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="132" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="179" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a48fa1e5442ee69bc41730c0480abf573" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -364,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="135" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="182" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1ac23cade42be9df9da5b601dd6c8f998a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
@@ -382,7 +494,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="138" column="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="185" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a4f9ddddc2a2b3fbf1f2235bb6e8fadb1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe sbyte *</type>
+        <definition>static unsafe sbyte * MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_Get_aEdge</definition>
+        <argsstring>(MR.Const_TriTriDistanceResult_Float._Underlying *_this)</argsstring>
+        <name>__MR_TriTriDistanceResult_float_Get_aEdge</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_Get_aEdge</qualifiedname>
+        <param>
+          <type>MR.Const_TriTriDistanceResult_Float._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="188" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1aa4f6925156136161eea451cceba10900" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
@@ -400,7 +530,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="141" column="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="191" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a1f041fc2f479b81510989cb200bffb43" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe sbyte *</type>
+        <definition>static unsafe sbyte * MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_Get_bEdge</definition>
+        <argsstring>(MR.Const_TriTriDistanceResult_Float._Underlying *_this)</argsstring>
+        <name>__MR_TriTriDistanceResult_float_Get_bEdge</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_Get_bEdge</qualifiedname>
+        <param>
+          <type>MR.Const_TriTriDistanceResult_Float._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="194" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a94fd065694007de09f7dae7a84fc5559" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -418,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="144" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="197" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1aaf3d3846846eab3f2e8789cd2046cb3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -436,7 +584,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="147" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="200" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1ac4da94dd9047fde925663935abc9ecfd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TriPointf._Underlying *</type>
+        <definition>static unsafe MR.TriPointf._Underlying * MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_aBary</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Array_MRVector3f_3 *ta)</argsstring>
+        <name>__MR_TriTriDistanceResult_float_aBary</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_aBary</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_MRVector3f_3 *</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="203" column="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceResult__Float_1a6b760c9970fd8d570abd509029ba03f5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TriPointf._Underlying *</type>
+        <definition>static unsafe MR.TriPointf._Underlying * MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_bBary</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Array_MRVector3f_3 *tb)</argsstring>
+        <name>__MR_TriTriDistanceResult_float_bBary</name>
+        <qualifiedname>MR.Const_TriTriDistanceResult_Float.__MR_TriTriDistanceResult_float_bBary</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Array_MRVector3f_3 *</type>
+          <declname>tb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="206" column="53"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -490,25 +682,35 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="8" bodyend="148"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="8" bodyend="207"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a507fb3ac8a953ec2fae43b6a3d0511d2" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1ac4da94dd9047fde925663935abc9ecfd" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_aBary</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a6b760c9970fd8d570abd509029ba03f5" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_bBary</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a1c984f4824981f42030533d11919ec56" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a1ca5ddcbda950288388cfecda59702cf" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1aaf4755818ffa9e23fc60dd29134fbe5a" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a48fa1e5442ee69bc41730c0480abf573" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Destroy</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1ac23cade42be9df9da5b601dd6c8f998a" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Get_a</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a4f9ddddc2a2b3fbf1f2235bb6e8fadb1" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Get_aEdge</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1aa4f6925156136161eea451cceba10900" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Get_b</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a1f041fc2f479b81510989cb200bffb43" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Get_bEdge</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a94fd065694007de09f7dae7a84fc5559" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Get_distSq</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1aaf3d3846846eab3f2e8789cd2046cb3b" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__MR_TriTriDistanceResult_float_Get_overlap</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a9a43e7af7ea75e0b06412e3181b75ce2" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1aa5fbc469f11145f4b2ba06a712d5f8e0" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__ref_storage_aEdge</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a5ffce502db6780c3083821925be73f5b" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a2b040511f48293acfb990243892cb6a5" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__ref_storage_bEdge</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a533887ae9f5384a3fa9136cc749f37d3" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__ref_storage_distSq</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1af5719d254a2e37a9ac2fc1bc419cc0b1" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>__ref_storage_overlap</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a9dfbee0b05c7d1964e133ebf641a119e" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a82f02dfd5cc30faeb0a12b2fbb84a435" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>aBary</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a1aec844cd678b868493a5ab38edb74d8" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>aEdge</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a1454902eaef9745a0f352b3c198d1db5" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a00865d30a00689a5b68b38ec432cfc30" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>bBary</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a2c3f9b53d466e3b98ab1239ea9bc4476" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>bEdge</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1aab74989495e7a404d7904195739de6fe" prot="package" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Const_TriTriDistanceResult_Float</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1aa2cc4b6e4ed2a986f7cb5aaf9ba29806" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Const_TriTriDistanceResult_Float</name></member>
-      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a26f69e24329f61667404669d885f97fa" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Const_TriTriDistanceResult_Float</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1ad91e35dee629daee7d222fa398d2f021" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Const_TriTriDistanceResult_Float</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1ab2804c272a98836cf73bff2193405ec8" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Const_TriTriDistanceResult_Float</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1ad40f2120d582f7fea4e5527f584750de" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Const_TriTriDistanceResult_Float</name></member>
       <member refid="classMR_1_1Const__TriTriDistanceResult__Float_1a98fa65c659b0bdfc6fe2793abcf61b1c" prot="protected" virt="virtual"><scope>MR::Const_TriTriDistanceResult_Float</scope><name>Dispose</name></member>
