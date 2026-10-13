@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TiffSaveSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TiffSaveSettings</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1RasterSaveSettings" prot="public" virt="non-virtual">mrmeshpy.RasterSaveSettings</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TiffSaveSettings_1aabfe1a97204c9482788c718bc0842dbe" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TiffSaveSettings::_offsetof_noData</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_noData</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings._offsetof_noData</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76769" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1a773d607ea82364617242952d775fc9be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffSaveSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76772" bodyend="76773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1a6808c55c289be6ecbab7e7d8eca1c10f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TiffSaveSettings" kindref="compound">TiffSaveSettings</ref></type>
+        <definition> TiffSaveSettings mrmeshpy.TiffSaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RasterSaveSettings_1af15e670727f4e76671436234a560f703">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76776" bodyend="76777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1a6808c55c289be6ecbab7e7d8eca1c10f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TiffSaveSettings" kindref="compound">TiffSaveSettings</ref></type>
+        <definition> TiffSaveSettings mrmeshpy.TiffSaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RasterSaveSettings_1af15e670727f4e76671436234a560f703">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76780" bodyend="76781"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1a51ac0fe0df953b6617f966b094745c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffSaveSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76783" bodyend="76784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1ad631bf40647f9d30fc3ac390e672d644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffSaveSettings.__init__</definition>
+        <argsstring>(self, TiffSaveSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TiffSaveSettings" kindref="compound">TiffSaveSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76786" bodyend="76789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1a7f2dbdf66c59795b4123eefbad5be728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__double" kindref="compound">std_optional_double</ref></type>
+        <definition> std_optional_double mrmeshpy.TiffSaveSettings.noData</definition>
+        <argsstring>(self)</argsstring>
+        <name>noData</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.noData</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional value meaning no data, written as GDAL_NODATA
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76791" bodyend="76794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TiffSaveSettings_1a7cf57feb662e8056e8ccae78aa13ac67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TiffSaveSettings.noData</definition>
+        <argsstring>(self, std_optional_double arg1)</argsstring>
+        <name>noData</name>
+        <qualifiedname>mrmeshpy.TiffSaveSettings.noData</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__double" kindref="compound">std_optional_double</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76796" bodyend="76797"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TiffSaveSettings
+
+settings for saving rasters in .tiff format
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.TiffSaveSettings</label>
+        <link refid="classmrmeshpy_1_1TiffSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RasterSaveSettings</label>
+        <link refid="classmrmeshpy_1_1RasterSaveSettings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TiffSaveSettings</label>
+        <link refid="classmrmeshpy_1_1TiffSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RasterSaveSettings</label>
+        <link refid="classmrmeshpy_1_1RasterSaveSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76763" bodyend="76797"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1a773d607ea82364617242952d775fc9be" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1a51ac0fe0df953b6617f966b094745c02" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1ad631bf40647f9d30fc3ac390e672d644" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1aabfe1a97204c9482788c718bc0842dbe" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>_offsetof_noData</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1a58dc178c0a0673531638f33b1ee6fe13" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1a892da2fa4a3f9981742a4dea2e4ee4d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1a7f2dbdf66c59795b4123eefbad5be728" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>noData</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1a7cf57feb662e8056e8ccae78aa13ac67" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>noData</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1a6808c55c289be6ecbab7e7d8eca1c10f" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TiffSaveSettings_1a6808c55c289be6ecbab7e7d8eca1c10f" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1ae3a5be2c2326fd93dfc90cb70a351be4" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1ab196c20c1b14a5f6487263841c1e4ec3" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1aaee736cff8e568537463f2e4f219b6bf" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1RasterSaveSettings_1ac87301b5321ade40253d832a9357dfe8" prot="public" virt="non-virtual"><scope>mrmeshpy::TiffSaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

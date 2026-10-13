@@ -156,7 +156,7 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="8">
+      <node id="9">
         <label>MRCommonPlugins/Voxels/MROpenRawVoxelsPlugin.h</label>
         <link refid="MROpenRawVoxelsPlugin_8h"/>
       </node>
@@ -168,7 +168,7 @@
         <label>MRCuda/MRCudaMeshDistanceMap.h</label>
         <link refid="MRCudaMeshDistanceMap_8h"/>
       </node>
-      <node id="12">
+      <node id="5">
         <label>MRIOExtras/MRTiff.h</label>
         <link refid="MRTiff_8h"/>
       </node>
@@ -183,16 +183,16 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MRMesh/MRDistanceMapLoad.h</label>
         <link refid="MRDistanceMapLoad_8h"/>
       </node>
-      <node id="11">
+      <node id="12">
         <label>MRMesh/MRDistanceMapParams.h</label>
         <link refid="MRDistanceMapParams_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
@@ -204,18 +204,18 @@
         <label>MRMesh/MRDistanceMapSave.h</label>
         <link refid="MRDistanceMapSave_8h"/>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRMesh/MRIOFormatsRegistry.h</label>
         <link refid="MRIOFormatsRegistry_8h"/>
-        <childnode refid="7" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRMesh/MRMatrix.h</label>
         <link refid="MRMatrix_8h"/>
-        <childnode refid="11" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
       </node>
       <node id="14">
@@ -227,16 +227,16 @@
         <link refid="MRRectIndexer_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="7">
+      <node id="8">
         <label>MRVoxels/MRVoxelsLoad.h</label>
         <link refid="MRVoxelsLoad_8h"/>
-        <childnode refid="8" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRVoxels/MRVoxelsSave.h</label>
         <link refid="MRVoxelsSave_8h"/>
       </node>

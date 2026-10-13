@@ -5,7 +5,6 @@ var MRDistanceMap_8h =
     [ "MR_ContoursDistanceMapOptions", "MRDistanceMap_8h.html#af9858814c2a5d9f1e896f1f5569bd76e", null ],
     [ "MR_ContoursDistanceMapOptions_SignedDetectionMethod", "MRDistanceMap_8h.html#ae1ee1f5632a211391fb21b2dcd5572fd", null ],
     [ "MR_ContourToDistanceMapParams", "MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4", null ],
-    [ "MR_expected_MR_DistanceMap_std_string", "MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323", null ],
     [ "MR_Matrix_float", "MRDistanceMap_8h.html#a7cdde60e20392324b624c6508b359f95", null ],
     [ "MR_MeshToDistanceMapParams", "MRDistanceMap_8h.html#a23925ade3ecef5dcb8ca148e5af923f1", null ],
     [ "MR_RectIndexer", "MRDistanceMap_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b", null ],

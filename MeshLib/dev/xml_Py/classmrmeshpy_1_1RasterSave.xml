@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="702" bodyend="705"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="703" bodyend="706"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterSave_1a30296ad07ad74f0d1e92a663476663ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -54,13 +54,39 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="709" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterSave_1ac49589f358644cad49a9ae5119f30019" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RasterSave.toTiff</definition>
+        <argsstring>(Raster raster, os.PathLike|str|bytes path, TiffSaveSettings settings)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>mrmeshpy.RasterSave.toTiff</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TiffSaveSettings" kindref="compound">TiffSaveSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
 <para><verbatim>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors,
 of any type from UInt8 to Float64
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="707" bodyend="711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="713" bodyend="717"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -69,10 +95,11 @@ of any type from UInt8 to Float64
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="697" bodyend="711"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="698" bodyend="717"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RasterSave_1a5d196629bc3773640fb6d4fb4fbf89f3" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSave</scope><name>toAnySupportedFormat</name></member>
       <member refid="classmrmeshpy_1_1RasterSave_1a30296ad07ad74f0d1e92a663476663ec" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSave</scope><name>toTiff</name></member>
+      <member refid="classmrmeshpy_1_1RasterSave_1ac49589f358644cad49a9ae5119f30019" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSave</scope><name>toTiff</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

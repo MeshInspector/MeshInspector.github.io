@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgePoint.html":[9,3,0,0,0,427],
 "classMR_1_1Const__EdgePoint.html#a03993a04be1f5c19b9ddb5b92f21c5b3":[9,3,0,0,0,427,14],
 "classMR_1_1Const__EdgePoint.html#a09cf280366bfdb166fa7fcfa970b6281":[9,3,0,0,0,427,13],
 "classMR_1_1Const__EdgePoint.html#a15c2e101e9b3c2ba1d019f4a355b956e":[9,3,0,0,0,427,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__EndMillTool.html#a8f5a9c9b8484c4cbee08d0ba70fc9008":[9,3,0,0,0,438,9],
 "classMR_1_1Const__EndMillTool.html#a9c25915ae1a4dc5d3636528a697a1607":[9,3,0,0,0,438,3],
 "classMR_1_1Const__EndMillTool.html#aa95bfccf4e8988036bebbade91e2acba":[9,3,0,0,0,438,2],
-"classMR_1_1Const__EndMillTool.html#ab29f73de0b3da41523a67d4c5cb6a833":[9,3,0,0,0,438,11],
-"classMR_1_1Const__EndMillTool.html#ab78c628d56ccaa45dcf87ced5db84235":[9,3,0,0,0,438,1]
+"classMR_1_1Const__EndMillTool.html#ab29f73de0b3da41523a67d4c5cb6a833":[9,3,0,0,0,438,11]
 };

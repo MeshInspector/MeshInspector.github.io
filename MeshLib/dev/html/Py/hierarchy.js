@@ -64,9 +64,6 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "mrmeshpy.BaseTiffParameters", "classmrmeshpy_1_1BaseTiffParameters.html", [
-      [ "mrmeshpy.TiffParameters", "classmrmeshpy_1_1TiffParameters.html", null ]
-    ] ],
     [ "mrmeshpy.BaseUnionFind_FaceId", "classmrmeshpy_1_1BaseUnionFind__FaceId.html", null ],
     [ "mrmeshpy.BaseUnionFind_UndirectedEdgeId", "classmrmeshpy_1_1BaseUnionFind__UndirectedEdgeId.html", [
       [ "mrmeshpy.UnionFind_UndirectedEdgeId", "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html", null ]
@@ -662,7 +659,6 @@ var hierarchy =
     [ "mrmeshpy.LoadedObjectT_ObjectMesh", "classmrmeshpy_1_1LoadedObjectT__ObjectMesh.html", null ],
     [ "mrmeshpy.LoadedObjectT_ObjectPoints", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html", null ],
     [ "mrmeshpy.LoadedObjectT_ObjectVoxels", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html", null ],
-    [ "mrmeshpy.VoxelsLoad.LoadingTiffSettings", "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "mrmeshpy.Locale", "classmrmeshpy_1_1Locale.html", null ],
     [ "mrmeshpy.LocaleDomainId", "classmrmeshpy_1_1LocaleDomainId.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.LutType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html", null ],
@@ -1021,14 +1017,16 @@ var hierarchy =
     [ "mrmeshpy.Quaterniond", "classmrmeshpy_1_1Quaterniond.html", null ],
     [ "mrmeshpy.Quaternionf", "classmrmeshpy_1_1Quaternionf.html", null ],
     [ "mrmeshpy.Raster", "classmrmeshpy_1_1Raster.html", null ],
+    [ "mrmeshpy.VoxelsLoad.RasterFolderLoadSettings", "classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", null ],
     [ "mrmeshpy.RasterInfo", "classmrmeshpy_1_1RasterInfo.html", null ],
     [ "mrmeshpy.RasterLoad", "classmrmeshpy_1_1RasterLoad.html", null ],
     [ "mrmeshpy.RasterLoadSettings", "classmrmeshpy_1_1RasterLoadSettings.html", null ],
     [ "mrmeshpy.RasterSave", "classmrmeshpy_1_1RasterSave.html", null ],
-    [ "mrmeshpy.RasterSaveSettings", "classmrmeshpy_1_1RasterSaveSettings.html", null ],
+    [ "mrmeshpy.RasterSaveSettings", "classmrmeshpy_1_1RasterSaveSettings.html", [
+      [ "mrmeshpy.TiffSaveSettings", "classmrmeshpy_1_1TiffSaveSettings.html", null ]
+    ] ],
     [ "mrmeshpy.RatioUnit", "classmrmeshpy_1_1RatioUnit.html", null ],
     [ "mrmeshpy.VoxelsLoad.RawParameters", "classmrmeshpy_1_1VoxelsLoad_1_1RawParameters.html", null ],
-    [ "mrmeshpy.RawTiffOutput", "classmrmeshpy_1_1RawTiffOutput.html", null ],
     [ "mrmeshpy.FindDisorientationParams.RayMode", "classmrmeshpy_1_1FindDisorientationParams_1_1RayMode.html", null ],
     [ "mrmeshpy.RayOrigin_float", "classmrmeshpy_1_1RayOrigin__float.html", null ],
     [ "mrmeshpy.EdgePathsBuilderT_MetricToAStarPenalty.ReachedVert", "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html", null ],
@@ -1066,7 +1064,6 @@ var hierarchy =
     [ "mrmeshpy.RigidXf3d", "classmrmeshpy_1_1RigidXf3d.html", null ],
     [ "mrmeshpy.RigidXf3f", "classmrmeshpy_1_1RigidXf3f.html", null ],
     [ "mrmeshpy.CNCMachineSettings.RotationAxisName", "classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName.html", null ],
-    [ "mrmeshpy.BaseTiffParameters.SampleType", "classmrmeshpy_1_1BaseTiffParameters_1_1SampleType.html", null ],
     [ "mrmeshpy.SaveSettings", "classmrmeshpy_1_1SaveSettings.html", [
       [ "mrmeshpy.DracoSaveOptions", "classmrmeshpy_1_1DracoSaveOptions.html", null ],
       [ "mrmeshpy.MeshSave.CtmSaveOptions", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html", null ],
@@ -1466,11 +1463,9 @@ var hierarchy =
     [ "mrmeshpy.UniteMeshNormalizationParams", "classmrmeshpy_1_1UniteMeshNormalizationParams.html", null ],
     [ "mrmeshpy.UnitInfo", "classmrmeshpy_1_1UnitInfo.html", null ],
     [ "mrmeshpy.UnorientedTriangle", "classmrmeshpy_1_1UnorientedTriangle.html", null ],
-    [ "mrmeshpy.unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", null ],
     [ "mrmeshpy.UpLimitCheck", "classmrmeshpy_1_1UpLimitCheck.html", null ],
     [ "mrmeshpy.UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", null ],
     [ "mrmeshpy.VacantElements", "classmrmeshpy_1_1VacantElements.html", null ],
-    [ "mrmeshpy.BaseTiffParameters.ValueType", "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html", null ],
     [ "mrmeshpy.VarEdgeTri", "classmrmeshpy_1_1VarEdgeTri.html", null ],
     [ "mrmeshpy.Vector2b", "classmrmeshpy_1_1Vector2b.html", null ],
     [ "mrmeshpy.Vector2d", "classmrmeshpy_1_1Vector2d.html", null ],
@@ -1623,7 +1618,6 @@ var hierarchy =
     [ "mrmeshpy.WholeEdgeMap", "classmrmeshpy_1_1WholeEdgeMap.html", null ],
     [ "mrmeshpy.PlanarTriangulation.WindingMode", "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html", null ],
     [ "mrmeshpy.WrapType", "classmrmeshpy_1_1WrapType.html", null ],
-    [ "mrmeshpy.WriteRawTiffParams", "classmrmeshpy_1_1WriteRawTiffParams.html", null ],
     [ "mrmeshpy.XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", null ],
     [ "mrmeshpy.ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", null ],
     [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", null ],

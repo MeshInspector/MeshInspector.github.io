@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__TiffSaveSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_TiffSaveSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TiffSaveSettings" prot="public" virt="non-virtual">MR.TiffSaveSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__TiffSaveSettings_1ab86eca2fa52171bef6df78d0aac2f11a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_Double</type>
+        <definition>unsafe MR.Std.Const_Optional_Double MR.Const_TiffSaveSettings.noData</definition>
+        <argsstring></argsstring>
+        <name>noData</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.noData</qualifiedname>
+        <briefdescription>
+<para>optional value meaning no data, written as GDAL_NODATA </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="38" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TiffSaveSettings_1a88b3ae402762384e1690ff94dcedef46" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3f MR.Const_TiffSaveSettings.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.xf</qualifiedname>
+        <briefdescription>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="43" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="44" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TiffSaveSettings_1ad2ba467a0f750a962073929155d9144f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_TiffSaveSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="61" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__TiffSaveSettings_1af1a1fc137f089a456504bed875d2a527" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3f._Underlying** MR.Const_TiffSaveSettings.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="56" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a135d95612a4e79f1ddaf9e9766de3ffd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_TiffSaveSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a0a6b7ccee5d8d756fed1ab8d0e5a4947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_TiffSaveSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a36ad58f80bf54b294de8b990f98ea565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TiffSaveSettings.Const_TiffSaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TiffSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="96" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="96" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1adbf56b977e0174e0a0777f686f280226" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TiffSaveSettings.Const_TiffSaveSettings</definition>
+        <argsstring>(MR._ByValue_TiffSaveSettings _other)</argsstring>
+        <name>Const_TiffSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_TiffSaveSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TiffSaveSettings_1aeccefde83e9cebc562141ff42680f4a7" kindref="member">MR.TiffSaveSettings.TiffSaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="105" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1af088e543025509d4a42586fc1698387b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</definition>
+        <argsstring>(Const_TiffSaveSettings _other)</argsstring>
+        <name>Const_TiffSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TiffSaveSettings" kindref="compound">Const_TiffSaveSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TiffSaveSettings_1aeccefde83e9cebc562141ff42680f4a7" kindref="member">MR.TiffSaveSettings.TiffSaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1ad3c9ce147235f3433cc50a2e0c362772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</definition>
+        <argsstring>(TiffSaveSettings _other)</argsstring>
+        <name>Const_TiffSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TiffSaveSettings" kindref="compound">TiffSaveSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TiffSaveSettings_1aeccefde83e9cebc562141ff42680f4a7" kindref="member">MR.TiffSaveSettings.TiffSaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="120" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="120" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1ad18d4aa3b4dc451206a0ab90a9bbc11c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TiffSaveSettings.~Const_TiffSaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TiffSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.~Const_TiffSaveSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1af51d84ce87bf919ad346ca34fad6b181" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_TiffSaveSettings.operator MR.Const_RasterSaveSettings</definition>
+        <argsstring>(Const_TiffSaveSettings self)</argsstring>
+        <name>operator MR.Const_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.operator MR.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TiffSaveSettings" kindref="compound">Const_TiffSaveSettings</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="28" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a3c6599a1805505a199806791e976ef87" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TiffSaveSettings.Const_TiffSaveSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TiffSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.Const_TiffSaveSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="85" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a359700513f51d112a5b797c26147ada1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TiffSaveSettings._Underlying *</type>
+        <definition>static unsafe MR.TiffSaveSettings._Underlying * MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.TiffSaveSettings._Underlying *_other)</argsstring>
+        <name>__MR_TiffSaveSettings_ConstructFromAnother</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.TiffSaveSettings._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="125" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a2a1f7d83193e0ede189f64c9da04221a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TiffSaveSettings._Underlying *</type>
+        <definition>static unsafe MR.TiffSaveSettings._Underlying * MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_TiffSaveSettings_DefaultConstruct</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="128" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a3c7375a68886ba82b4b74658efcc6e76" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Destroy</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_TiffSaveSettings_Destroy</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Destroy</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="131" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1aa2466b470927074e0ee7b5437c01492f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Optional_Double._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Optional_Double._Underlying * MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Get_noData</definition>
+        <argsstring>(MR.Const_TiffSaveSettings._Underlying *_this)</argsstring>
+        <name>__MR_TiffSaveSettings_Get_noData</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Get_noData</qualifiedname>
+        <param>
+          <type>MR.Const_TiffSaveSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="134" column="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a90b0f46775f87fa97421ec9e371d8881" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Const_Function_Bool_From_Float._Underlying * MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Get_progress</definition>
+        <argsstring>(MR.Const_TiffSaveSettings._Underlying *_this)</argsstring>
+        <name>__MR_TiffSaveSettings_Get_progress</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Get_progress</qualifiedname>
+        <param>
+          <type>MR.Const_TiffSaveSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="137" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1a952cc80fe61653d6a8f595b7d535ce22" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>static unsafe MR.ConstBox_AffineXf3f._Underlying ** MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Get_xf</definition>
+        <argsstring>(Const_TiffSaveSettings._Underlying *_this)</argsstring>
+        <name>__MR_TiffSaveSettings_Get_xf</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_Get_xf</qualifiedname>
+        <param>
+          <type>Const_TiffSaveSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="140" column="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TiffSaveSettings_1ab01c66075e477a632a4e37744eff424f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_RasterSaveSettings._Underlying *</type>
+        <definition>static unsafe MR.Const_RasterSaveSettings._Underlying * MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</name>
+        <qualifiedname>MR.Const_TiffSaveSettings.__MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="143" column="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings for saving rasters in .tiff format Generated from class <computeroutput><ref refid="classMR_1_1TiffSaveSettings" kindref="compound">MR.TiffSaveSettings</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RasterSaveSettings" kindref="compound">MR.RasterSaveSettings</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_TiffSaveSettings</label>
+        <link refid="classMR_1_1Const__TiffSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.TiffSaveSettings</label>
+        <link refid="classMR_1_1TiffSaveSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_TiffSaveSettings</label>
+        <link refid="classMR_1_1Const__TiffSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="12" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a359700513f51d112a5b797c26147ada1" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a2a1f7d83193e0ede189f64c9da04221a" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_DefaultConstruct</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a3c7375a68886ba82b4b74658efcc6e76" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_Destroy</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1aa2466b470927074e0ee7b5437c01492f" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_Get_noData</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a90b0f46775f87fa97421ec9e371d8881" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_Get_progress</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a952cc80fe61653d6a8f595b7d535ce22" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_Get_xf</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1ab01c66075e477a632a4e37744eff424f" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1af1a1fc137f089a456504bed875d2a527" prot="protected" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a3c6599a1805505a199806791e976ef87" prot="package" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Const_TiffSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a36ad58f80bf54b294de8b990f98ea565" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Const_TiffSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1adbf56b977e0174e0a0777f686f280226" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Const_TiffSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1af088e543025509d4a42586fc1698387b" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Const_TiffSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1ad3c9ce147235f3433cc50a2e0c362772" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Const_TiffSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a135d95612a4e79f1ddaf9e9766de3ffd" prot="protected" virt="virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a0a6b7ccee5d8d756fed1ab8d0e5a4947" prot="public" virt="virtual"><scope>MR::Const_TiffSaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1ab86eca2fa52171bef6df78d0aac2f11a" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>noData</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1af51d84ce87bf919ad346ca34fad6b181" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>operator MR.Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1ad2ba467a0f750a962073929155d9144f" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1a88b3ae402762384e1690ff94dcedef46" prot="public" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__TiffSaveSettings_1ad18d4aa3b4dc451206a0ab90a9bbc11c" prot="private" virt="non-virtual"><scope>MR::Const_TiffSaveSettings</scope><name>~Const_TiffSaveSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

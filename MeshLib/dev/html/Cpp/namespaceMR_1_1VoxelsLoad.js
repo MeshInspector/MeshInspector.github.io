@@ -2,8 +2,9 @@ var namespaceMR_1_1VoxelsLoad =
 [
     [ "DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", "structMR_1_1VoxelsLoad_1_1DicomStatus" ],
     [ "DicomVolumeT", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", "structMR_1_1VoxelsLoad_1_1DicomVolumeT" ],
-    [ "LoadingTiffSettings", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
+    [ "RasterFolderLoadSettings", "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" ],
     [ "RawParameters", "structMR_1_1VoxelsLoad_1_1RawParameters.html", "structMR_1_1VoxelsLoad_1_1RawParameters" ],
+    [ "MR_BIND_IGNORE", "group__VoxelsLoadGroup.html#ga707920855f52f8e5871fc6c0056a6002", null ],
     [ "VoxelsLoader", "group__VoxelsLoadGroup.html#gac95950f875729ac15c011d99d4624d96", null ],
     [ "DicomStatusEnum", "group__GeneralGroup.html#ga4877b5ea79a241234ef88b527edc08e6", [
       [ "Ok", "group__GeneralGroup.html#gga4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
@@ -39,7 +40,8 @@ var namespaceMR_1_1VoxelsLoad =
     [ "loadDicomsFolder", "group__GeneralGroup.html#ga508397486e680c7dbfe36422254927f7", null ],
     [ "loadDicomsFolderAsVdb", "group__GeneralGroup.html#ga5c1ca19afdda2f1e3872b21e96382a1c", null ],
     [ "loadDicomsFolderTreeAsVdb", "group__GeneralGroup.html#ga3cce80232dfeab3ad6d3b2ca76c5d680", null ],
-    [ "loadTiffDir", "group__VoxelsLoadGroup.html#gaa3493438ee99f77d8e1ae26c176c0453", null ],
+    [ "loadRasterFolder", "group__VoxelsLoadGroup.html#ga2b3126db75b88eeee5be2e16619f48be", null ],
+    [ "loadTiffDir", "group__VoxelsLoadGroup.html#ga0960ce4def7ec9ddd1ca37933d82542b", null ],
     [ "makeObjectVoxelsFromDicomFolder", "group__GeneralGroup.html#gaad1f792247d40e8bff19146ed05c9acf", null ],
     [ "DicomVolume", "group__GeneralGroup.html#ga78572299be99c8ae0544e2063f483452", null ],
     [ "DicomVolumeT", "group__GeneralGroup.html#ga4e75c919102a2c36c220423f73a3fbf6", null ],

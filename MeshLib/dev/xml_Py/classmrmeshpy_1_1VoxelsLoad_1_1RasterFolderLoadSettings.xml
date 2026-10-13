@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a4420321d6299c6a06ab64a702fd2934b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RasterFolderLoadSettings::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings._offsetof_cb</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a89327d33bd5409e4d1c0ff903cba8093" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RasterFolderLoadSettings::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings._offsetof_dir</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ac32e25c564be51fdcd1f3a03dffd5932" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RasterFolderLoadSettings::_offsetof_gridType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gridType</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings._offsetof_gridType</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a08ff8c1cf50609eed7241bb3d7ac3b67" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelsLoad.RasterFolderLoadSettings::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings._offsetof_voxelSize</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="206" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1aff3485d58044162033cd5bc3072c452e" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad" kindref="compound">VoxelsLoad</ref></type>
+        <definition>VoxelsLoad mrmeshpy.VoxelsLoad.RasterFolderLoadSettings::gridType</definition>
+        <argsstring></argsstring>
+        <name>gridType</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.gridType</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType" kindref="compound">GridType</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="208" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a2f4a6aac94bd79b9277ad9d53661f76c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="212" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e3bd9a0a79ddcf53fd9619260668e76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">VoxelsLoad.RasterFolderLoadSettings</ref></type>
+        <definition> VoxelsLoad.RasterFolderLoadSettings mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="216" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e3bd9a0a79ddcf53fd9619260668e76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">VoxelsLoad.RasterFolderLoadSettings</ref></type>
+        <definition> VoxelsLoad.RasterFolderLoadSettings mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="220" bodyend="221"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a1adfff84544dee5cc571543bb39475e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="223" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a8621ca2c6f8e7ce57658c9831d5aecf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</definition>
+        <argsstring>(self, VoxelsLoad.RasterFolderLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kindref="compound">VoxelsLoad.RasterFolderLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="226" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ac968103ac873f402c5420a4825efb035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</definition>
+        <argsstring>(self, os.PathLike|str|bytes dir, Vector3f voxelSize, VoxelsLoad.GridType gridType, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsLoad_1_1GridType" kindref="compound">VoxelsLoad.GridType</ref></type>
+          <declname>gridType</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a81ef8d96baaea77e31a6944ffdf5517a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="236" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1af1285cba822ac12806e26b1bafec876d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.dir</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="239" bodyend="241"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelsLoad::RasterFolderLoadSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelsLoad.RasterFolderLoadSettings</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>gridType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VoxelsLoad</label>
+        <link refid="classmrmeshpy_1_1VoxelsLoad"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="199" bodyend="240"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a2f4a6aac94bd79b9277ad9d53661f76c" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a1adfff84544dee5cc571543bb39475e3" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a8621ca2c6f8e7ce57658c9831d5aecf0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ac968103ac873f402c5420a4825efb035" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a4420321d6299c6a06ab64a702fd2934b" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a89327d33bd5409e4d1c0ff903cba8093" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1ac32e25c564be51fdcd1f3a03dffd5932" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>_offsetof_gridType</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a08ff8c1cf50609eed7241bb3d7ac3b67" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a81ef8d96baaea77e31a6944ffdf5517a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1af1285cba822ac12806e26b1bafec876d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1aff3485d58044162033cd5bc3072c452e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>gridType</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e3bd9a0a79ddcf53fd9619260668e76" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsLoad_1_1RasterFolderLoadSettings_1a3e3bd9a0a79ddcf53fd9619260668e76" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsLoad::RasterFolderLoadSettings</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

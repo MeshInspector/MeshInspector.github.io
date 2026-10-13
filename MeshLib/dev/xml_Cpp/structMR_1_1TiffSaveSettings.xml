@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TiffSaveSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TiffSaveSettings</compoundname>
+    <basecompoundref refid="structMR_1_1RasterSaveSettings" prot="public" virt="non-virtual">MR::RasterSaveSettings</basecompoundref>
+    <includes refid="MRTiff_8h" local="no">MRIOExtras/MRTiff.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" kind="variable"><name>noData</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>settings for saving rasters in .tiff format </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::RasterSaveSettings</label>
+        <link refid="structMR_1_1RasterSaveSettings"/>
+      </node>
+      <node id="1">
+        <label>MR::TiffSaveSettings</label>
+        <link refid="structMR_1_1TiffSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::RasterSaveSettings</label>
+        <link refid="structMR_1_1RasterSaveSettings"/>
+      </node>
+      <node id="1">
+        <label>MR::TiffSaveSettings</label>
+        <link refid="structMR_1_1TiffSaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRIOExtras/MRTiff.h" line="40" column="1" bodyfile="MRIOExtras/MRTiff.h" bodystart="41" bodyend="44"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" prot="public" virt="non-virtual"><scope>MR::TiffSaveSettings</scope><name>noData</name></member>
+      <member refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" virt="non-virtual"><scope>MR::TiffSaveSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" prot="public" virt="non-virtual"><scope>MR::TiffSaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

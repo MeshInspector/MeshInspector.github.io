@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsLoad::RasterFolderLoadSettings</compoundname>
+    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxels/MRVoxelsLoad.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__VoxelsLoadGroup_1ga6f55869c63bb8067acb4a7014d657fee" kind="variable"><name>dir</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga6b44bc2d62818582cfdb8a9d739e7122" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga8f8a4ec016fe0cb39efd887065b6ced9" kind="variable"><name>gridType</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga6b30b1186e44ca7bf4c9f5d09853ad8c" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRVoxels/MRVoxelsLoad.h" line="92" column="1" bodyfile="MRVoxels/MRVoxelsLoad.h" bodystart="93" bodyend="98"/>
+    <listofallmembers>
+      <member refid="group__VoxelsLoadGroup_1ga6b30b1186e44ca7bf4c9f5d09853ad8c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>cb</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga6f55869c63bb8067acb4a7014d657fee" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>dir</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga8f8a4ec016fe0cb39efd887065b6ced9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>gridType</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga6b44bc2d62818582cfdb8a9d739e7122" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RasterFolderLoadSettings</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
