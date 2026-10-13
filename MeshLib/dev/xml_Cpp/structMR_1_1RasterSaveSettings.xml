@@ -2,8 +2,25 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1RasterSaveSettings" kind="struct" language="C++" prot="public">
     <compoundname>MR::RasterSaveSettings</compoundname>
+    <derivedcompoundref refid="structMR_1_1TiffSaveSettings" prot="public" virt="non-virtual">MR::TiffSaveSettings</derivedcompoundref>
     <includes refid="MRRaster_8h" local="no">MRMesh/MRRaster.h</includes>
     <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::RasterSaveSettings::xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::RasterSaveSettings::xf</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="76" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
         <definition>ProgressCallback MR::RasterSaveSettings::progress</definition>
@@ -17,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRaster.h" line="63" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="63" bodyend="-1"/>
+        <location file="MRMesh/MRRaster.h" line="78" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="78" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -25,9 +42,22 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRRaster.h" line="60" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="61" bodyend="64"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::RasterSaveSettings</label>
+        <link refid="structMR_1_1RasterSaveSettings"/>
+      </node>
+      <node id="2">
+        <label>MR::TiffSaveSettings</label>
+        <link refid="structMR_1_1TiffSaveSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="MRMesh/MRRaster.h" line="73" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="74" bodyend="79"/>
     <listofallmembers>
       <member refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" virt="non-virtual"><scope>MR::RasterSaveSettings</scope><name>progress</name></member>
+      <member refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" prot="public" virt="non-virtual"><scope>MR::RasterSaveSettings</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

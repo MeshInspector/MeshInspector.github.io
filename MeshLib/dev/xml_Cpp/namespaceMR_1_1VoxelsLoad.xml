@@ -4,13 +4,14 @@
     <compoundname>MR::VoxelsLoad</compoundname>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1DicomStatus" prot="public">MR::VoxelsLoad::DicomStatus</innerclass>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1DicomVolumeT" prot="public">MR::VoxelsLoad::DicomVolumeT</innerclass>
-    <innerclass refid="structMR_1_1VoxelsLoad_1_1LoadingTiffSettings" prot="public">MR::VoxelsLoad::LoadingTiffSettings</innerclass>
+    <innerclass refid="structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings" prot="public">MR::VoxelsLoad::RasterFolderLoadSettings</innerclass>
     <innerclass refid="structMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
     <sectiondef kind="enum">
       <member refid="group__GeneralGroup_1ga4877b5ea79a241234ef88b527edc08e6" kind="enum"><name>DicomStatusEnum</name></member>
       <member refid="group__VoxelsLoadGroup_1ga5a3e4b96e9ddb9678f554fe8a8d56a19" kind="enum"><name>GridType</name></member>
     </sectiondef>
     <sectiondef kind="typedef">
+      <member refid="group__VoxelsLoadGroup_1ga707920855f52f8e5871fc6c0056a6002" kind="typedef"><name>MR_BIND_IGNORE</name></member>
       <member refid="group__VoxelsLoadGroup_1gac95950f875729ac15c011d99d4624d96" kind="typedef"><name>VoxelsLoader</name></member>
     </sectiondef>
     <sectiondef kind="var">
@@ -45,7 +46,8 @@
       <member refid="group__VoxelsLoadGroup_1ga6e416ae7982ee1812f92be62d196d48d" kind="function"><name>fromGav</name></member>
       <member refid="group__VoxelsLoadGroup_1gad303045560cb427689099a6b7fd25789" kind="function"><name>gridsFromAnySupportedFormat</name></member>
       <member refid="group__VoxelsLoadGroup_1ga1679273711f98deaa8bb82cf59834512" kind="function"><name>fromAnySupportedFormat</name></member>
-      <member refid="group__VoxelsLoadGroup_1gaa3493438ee99f77d8e1ae26c176c0453" kind="function"><name>loadTiffDir</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga2b3126db75b88eeee5be2e16619f48be" kind="function"><name>loadRasterFolder</name></member>
+      <member refid="group__VoxelsLoadGroup_1ga0960ce4def7ec9ddd1ca37933d82542b" kind="function"><name>loadTiffDir</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>

@@ -31,6 +31,60 @@
         </inbodydescription>
         <location file="MRMesh/MRRaster.h" line="50" column="11" declfile="MRMesh/MRRaster.h" declline="50" declcolumn="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__RasterGroup_1gafac7517a903175c5a262beba1b91f775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; void &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; void &gt; MR::convertRasterToFloats</definition>
+        <argsstring>(const Raster &amp;raster, float *dst, size_t size)</argsstring>
+        <name>convertRasterToFloats</name>
+        <qualifiedname>MR::convertRasterToFloats</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts the values of a raster to floats in dst, which has room for size = dims.x * dims.y * dims.z values, in the order of the raster:<itemizedlist>
+<listitem><para>one channel is taken as is;</para>
+</listitem><listitem><para>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, data whose size does not match the dimensions, or another size </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="56" column="26" declfile="MRMesh/MRRaster.h" declline="56" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="group__RasterGroup_1ga9ef3666bc6712baf860863656831fa63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::convertRasterToFloats</definition>
+        <argsstring>(const Raster &amp;raster, std::vector&lt; float &gt; &amp;dst)</argsstring>
+        <name>convertRasterToFloats</name>
+        <qualifiedname>MR::convertRasterToFloats</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts the values of a raster to floats as above, dst is resized to dims.x * dims.y * dims.z values (memory is reallocated only if its capacity is too small) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRaster.h" line="60" column="11" declfile="MRMesh/MRRaster.h" declline="60" declcolumn="11"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>

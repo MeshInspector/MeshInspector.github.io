@@ -139,85 +139,121 @@ $(function(){initNavTree('MRTiff_8h_source.html','',''); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef MRIOEXTRAS_NO_TIFF</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;exports.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="MRDistanceMapParams_8h.html">MRMesh/MRDistanceMapParams.h</a>&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="MRDistanceMap_8h.html">MRMesh/MRDistanceMap.h</a>&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;<a class="code" href="MRExpected_8h.html">MRMesh/MRExpected.h</a>&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="MRMeshFwd_8h.html">MRMesh/MRMeshFwd.h</a>&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;<a class="code" href="MRRaster_8h.html">MRMesh/MRRaster.h</a>&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespaceMR_1_1RasterLoad.html">   20</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1RasterLoad.html">RasterLoad</a></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9">   31</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Raster&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1RasterLoadSettings.html">RasterLoadSettings</a>&amp; settings = {} );</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da">   34</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;RasterInfo&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da">infoFromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="namespaceMR_1_1RasterLoad.html">   21</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1RasterLoad.html">RasterLoad</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>{</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9">   32</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Raster&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1RasterLoadSettings.html">RasterLoadSettings</a>&amp; settings = {} );</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da">   35</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;RasterInfo&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da">infoFromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="foldopen" id="foldopen00038" data-start="{" data-end="}">
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="namespaceMR_1_1RasterSave.html">   38</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1RasterSave.html">RasterSave</a></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>{</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga75f16c022a45b2f8a627a948a9390653">   43</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga75f16c022a45b2f8a627a948a9390653">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Raster.html">Raster</a>&amp; raster, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a>&amp; settings = {} );</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>}</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span></div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="};">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structMR_1_1TiffSaveSettings.html">   40</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1TiffSaveSettings.html">TiffSaveSettings</a> : <a class="code hl_struct" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>{</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345">   43</a></span>    std::optional&lt;double&gt; <a class="code hl_variable" href="group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345">noData</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
 </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">namespace </span>ImageLoad</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4">   52</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Image&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="}">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="namespaceMR_1_1RasterSave.html">   46</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1RasterSave.html">RasterSave</a></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga97262f8abdfe526f36a8127e068508f6">   51</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga97262f8abdfe526f36a8127e068508f6">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Raster.html">Raster</a>&amp; raster, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1TiffSaveSettings.html">TiffSaveSettings</a>&amp; settings );</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga75f16c022a45b2f8a627a948a9390653">   52</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga97262f8abdfe526f36a8127e068508f6">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Raster.html">Raster</a>&amp; raster, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a>&amp; settings = {} );</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
+</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1ImageSave.html">ImageSave</a></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">namespace </span>ImageLoad</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>{</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">   60</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Image.html">Image</a>&amp; image, <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="foldopen" id="foldopen00064" data-start="{" data-end="}">
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespaceMR_1_1DistanceMapSave.html">   64</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1DistanceMapSave.html">DistanceMapSave</a></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>{</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gabd82d0afb5ae771e7c73d41a9c8d7a91">   68</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#gabd82d0afb5ae771e7c73d41a9c8d7a91">toTiff</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1DistanceMap.html">DistanceMap</a>&amp; dmap, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a>&amp; settings = {} );</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4">   61</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;Image&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1ImageSave.html">ImageSave</a></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>{</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">   69</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">toTiff</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Image.html">Image</a>&amp; image, <span class="keyword">const</span> std::filesystem::path&amp; path );</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="foldopen" id="foldopen00073" data-start="{" data-end="}">
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="namespaceMR_1_1DistanceMapLoad.html">   73</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1DistanceMapLoad.html">DistanceMapLoad</a></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>{</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23">   78</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;DistanceMap&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a>&amp; settings = {} );</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>[[deprecated( <span class="stringliteral">&quot;Use fromTiff( path, settings )&quot;</span>)]]</div>
+<div class="foldopen" id="foldopen00080" data-start="{" data-end="}">
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gab345cb66e5ce36e8727661b2a91f9f02">   80</a></span><a class="code hl_typedef" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <span class="keyword">inline</span> <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;DistanceMap&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23">fromTiff</a>( <span class="keyword">const</span> std::filesystem::path&amp; path, <a class="code hl_struct" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a>&amp; params, <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb = {} )</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>{</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23">fromTiff</a>( path, {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        .distanceMapToWorld = &amp;params,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        .progress = progressCb,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    } );</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
 </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>}</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aMRDistanceMapParams_8h_html"><div class="ttname"><a href="MRDistanceMapParams_8h.html">MRDistanceMapParams.h</a></div></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>}</div>
+</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="foldopen" id="foldopen00090" data-start="{" data-end="}">
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="namespaceMR_1_1DistanceMapSave.html">   90</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1DistanceMapSave.html">DistanceMapSave</a></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>{</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gabd82d0afb5ae771e7c73d41a9c8d7a91">   94</a></span>MRIOEXTRAS_API <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;void&gt;</a> <a class="code hl_function" href="group__GeneralGroup.html#gabd82d0afb5ae771e7c73d41a9c8d7a91">toTiff</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1DistanceMap.html">DistanceMap</a>&amp; dmap, <span class="keyword">const</span> std::filesystem::path&amp; path, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a>&amp; settings = {} );</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
+</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>}</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRDistanceMap_8h_html"><div class="ttname"><a href="MRDistanceMap_8h.html">MRDistanceMap.h</a></div></div>
 <div class="ttc" id="aMRExpected_8h_html"><div class="ttname"><a href="MRExpected_8h.html">MRExpected.h</a></div></div>
 <div class="ttc" id="aMRIOExtras_2config_8h_html"><div class="ttname"><a href="MRIOExtras_2config_8h.html">config.h</a></div></div>
 <div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRRaster_8h_html"><div class="ttname"><a href="MRRaster_8h.html">MRRaster.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1DistanceMap_html"><div class="ttname"><a href="classMR_1_1DistanceMap.html">MR::DistanceMap</a></div><div class="ttdef"><b>Definition</b> MRDistanceMap.h:24</div></div>
+<div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:784</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga15e4b1b6ede3c72f01803bf8178f5203"><div class="ttname"><a href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">MR::ImageSave::toTiff</a></div><div class="ttdeci">Expected&lt; void &gt; toTiff(const Image &amp;image, const std::filesystem::path &amp;path)</div><div class="ttdoc">saves in .tiff format</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga4cb4aac0a47a9d901d24247625ebc4f9"><div class="ttname"><a href="group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9">MR::RasterLoad::fromTiff</a></div><div class="ttdeci">Expected&lt; Raster &gt; fromTiff(const std::filesystem::path &amp;path, const RasterLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:31</div></div>
-<div class="ttc" id="agroup__GeneralGroup_html_ga75f16c022a45b2f8a627a948a9390653"><div class="ttname"><a href="group__GeneralGroup.html#ga75f16c022a45b2f8a627a948a9390653">MR::RasterSave::toTiff</a></div><div class="ttdeci">Expected&lt; void &gt; toTiff(const Raster &amp;raster, const std::filesystem::path &amp;path, const RasterSaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga7aa85481e130d6308bc8ddae1581f9c4"><div class="ttname"><a href="group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4">MR::ImageLoad::fromTiff</a></div><div class="ttdeci">Expected&lt; Image &gt; fromTiff(const std::filesystem::path &amp;path)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_ga937e9face092516582310b4330dfc8da"><div class="ttname"><a href="group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da">MR::RasterLoad::infoFromTiff</a></div><div class="ttdeci">Expected&lt; RasterInfo &gt; infoFromTiff(const std::filesystem::path &amp;path)</div><div class="ttdoc">loads everything about the raster except its values from .tiff format</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga97262f8abdfe526f36a8127e068508f6"><div class="ttname"><a href="group__GeneralGroup.html#ga97262f8abdfe526f36a8127e068508f6">MR::RasterSave::toTiff</a></div><div class="ttdeci">Expected&lt; void &gt; toTiff(const Raster &amp;raster, const std::filesystem::path &amp;path, const TiffSaveSettings &amp;settings)</div></div>
 <div class="ttc" id="agroup__GeneralGroup_html_gabd82d0afb5ae771e7c73d41a9c8d7a91"><div class="ttname"><a href="group__GeneralGroup.html#gabd82d0afb5ae771e7c73d41a9c8d7a91">MR::DistanceMapSave::toTiff</a></div><div class="ttdeci">Expected&lt; void &gt; toTiff(const DistanceMap &amp;dmap, const std::filesystem::path &amp;path, const DistanceMapSaveSettings &amp;settings={})</div><div class="ttdoc">saves in .tiff format</div></div>
-<div class="ttc" id="anamespaceMR_1_1DistanceMapSave_html"><div class="ttname"><a href="namespaceMR_1_1DistanceMapSave.html">MR::DistanceMapSave</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:65</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:13</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaca4207193c9429dfa4854457efea6c23"><div class="ttname"><a href="group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23">MR::DistanceMapLoad::fromTiff</a></div><div class="ttdeci">Expected&lt; DistanceMap &gt; fromTiff(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaea10af7e0dd9264e3a7855d26a7b5345"><div class="ttname"><a href="group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345">MR::TiffSaveSettings::noData</a></div><div class="ttdeci">std::optional&lt; double &gt; noData</div><div class="ttdoc">optional value meaning no data, written as GDAL_NODATA</div><div class="ttdef"><b>Definition</b> MRTiff.h:43</div></div>
+<div class="ttc" id="anamespaceMR_1_1DistanceMapLoad_html"><div class="ttname"><a href="namespaceMR_1_1DistanceMapLoad.html">MR::DistanceMapLoad</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:74</div></div>
+<div class="ttc" id="anamespaceMR_1_1DistanceMapSave_html"><div class="ttname"><a href="namespaceMR_1_1DistanceMapSave.html">MR::DistanceMapSave</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:91</div></div>
 <div class="ttc" id="anamespaceMR_1_1ImageSave_html"><div class="ttname"><a href="namespaceMR_1_1ImageSave.html">MR::ImageSave</a></div><div class="ttdef"><b>Definition</b> MRJpeg.h:30</div></div>
-<div class="ttc" id="anamespaceMR_1_1RasterLoad_html"><div class="ttname"><a href="namespaceMR_1_1RasterLoad.html">MR::RasterLoad</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:21</div></div>
-<div class="ttc" id="anamespaceMR_1_1RasterSave_html"><div class="ttname"><a href="namespaceMR_1_1RasterSave.html">MR::RasterSave</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:39</div></div>
+<div class="ttc" id="anamespaceMR_1_1RasterLoad_html"><div class="ttname"><a href="namespaceMR_1_1RasterLoad.html">MR::RasterLoad</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:22</div></div>
+<div class="ttc" id="anamespaceMR_1_1RasterSave_html"><div class="ttname"><a href="namespaceMR_1_1RasterSave.html">MR::RasterSave</a></div><div class="ttdef"><b>Definition</b> MRTiff.h:47</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="astructMR_1_1DistanceMapLoadSettings_html"><div class="ttname"><a href="structMR_1_1DistanceMapLoadSettings.html">MR::DistanceMapLoadSettings</a></div><div class="ttdoc">settings for loading distance maps from external formats</div><div class="ttdef"><b>Definition</b> MRDistanceMapParams.h:189</div></div>
 <div class="ttc" id="astructMR_1_1DistanceMapSaveSettings_html"><div class="ttname"><a href="structMR_1_1DistanceMapSaveSettings.html">MR::DistanceMapSaveSettings</a></div><div class="ttdoc">determines how to save distance maps</div><div class="ttdef"><b>Definition</b> MRDistanceMapParams.h:198</div></div>
+<div class="ttc" id="astructMR_1_1DistanceMapToWorld_html"><div class="ttname"><a href="structMR_1_1DistanceMapToWorld.html">MR::DistanceMapToWorld</a></div><div class="ttdoc">This structure store data to transform distance map to world coordinates.</div><div class="ttdef"><b>Definition</b> MRDistanceMapParams.h:136</div></div>
 <div class="ttc" id="astructMR_1_1Image_html"><div class="ttname"><a href="structMR_1_1Image.html">MR::Image</a></div><div class="ttdef"><b>Definition</b> MRImage.h:19</div></div>
-<div class="ttc" id="astructMR_1_1RasterLoadSettings_html"><div class="ttname"><a href="structMR_1_1RasterLoadSettings.html">MR::RasterLoadSettings</a></div><div class="ttdoc">settings for loading rasters from external formats</div><div class="ttdef"><b>Definition</b> MRRaster.h:54</div></div>
-<div class="ttc" id="astructMR_1_1RasterSaveSettings_html"><div class="ttname"><a href="structMR_1_1RasterSaveSettings.html">MR::RasterSaveSettings</a></div><div class="ttdoc">settings for saving rasters in external formats</div><div class="ttdef"><b>Definition</b> MRRaster.h:61</div></div>
+<div class="ttc" id="astructMR_1_1RasterLoadSettings_html"><div class="ttname"><a href="structMR_1_1RasterLoadSettings.html">MR::RasterLoadSettings</a></div><div class="ttdoc">settings for loading rasters from external formats</div><div class="ttdef"><b>Definition</b> MRRaster.h:64</div></div>
+<div class="ttc" id="astructMR_1_1RasterSaveSettings_html"><div class="ttname"><a href="structMR_1_1RasterSaveSettings.html">MR::RasterSaveSettings</a></div><div class="ttdoc">settings for saving rasters in external formats</div><div class="ttdef"><b>Definition</b> MRRaster.h:74</div></div>
 <div class="ttc" id="astructMR_1_1Raster_html"><div class="ttname"><a href="structMR_1_1Raster.html">MR::Raster</a></div><div class="ttdoc">regular grid of values of any type: an image if it has one layer, otherwise a volume</div><div class="ttdef"><b>Definition</b> MRRaster.h:38</div></div>
+<div class="ttc" id="astructMR_1_1TiffSaveSettings_html"><div class="ttname"><a href="structMR_1_1TiffSaveSettings.html">MR::TiffSaveSettings</a></div><div class="ttdoc">settings for saving rasters in .tiff format</div><div class="ttdef"><b>Definition</b> MRTiff.h:41</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

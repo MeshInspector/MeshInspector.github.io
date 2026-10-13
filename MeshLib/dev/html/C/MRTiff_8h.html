@@ -136,30 +136,76 @@ $(function(){initNavTree('MRTiff_8h.html','',''); });
   <div class="headertitle"><div class="title">MRTiff.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRTiff_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a88a1df6fb138786a55241b1d77a4b0cc" id="r_a88a1df6fb138786a55241b1d77a4b0cc"><td class="memItemLeft" align="right" valign="top">typedef struct MR_AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a1df6fb138786a55241b1d77a4b0cc">MR_AffineXf3f</a></td></tr>
 <tr class="memitem:ac5b3176651bd10f11559934b0565b6ee" id="r_ac5b3176651bd10f11559934b0565b6ee"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a></td></tr>
+<tr class="memitem:acb7982850a6576e45e73598937682264" id="r_acb7982850a6576e45e73598937682264"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a></td></tr>
 <tr class="memitem:a2b8e42b38bd4d4f8c966e3bc97e7527e" id="r_a2b8e42b38bd4d4f8c966e3bc97e7527e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a></td></tr>
 <tr class="memitem:a0a70009e8aa37a2f4a0df7c6aba89eb3" id="r_a0a70009e8aa37a2f4a0df7c6aba89eb3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a></td></tr>
 <tr class="memitem:a8a32d017de76b733fb7da342370bbc72" id="r_a8a32d017de76b733fb7da342370bbc72"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8a32d017de76b733fb7da342370bbc72">MR_RasterLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a32d017de76b733fb7da342370bbc72">MR_RasterLoadSettings</a></td></tr>
 <tr class="memitem:a091b1c6d0c8400fc4a818d402115b616" id="r_a091b1c6d0c8400fc4a818d402115b616"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a></td></tr>
+<tr class="memitem:a52efa08117d1b3edf97d282ba7127323" id="r_a52efa08117d1b3edf97d282ba7127323"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a></td></tr>
 <tr class="memitem:a6f8f980fd6d903b05640e3e02a1ec231" id="r_a6f8f980fd6d903b05640e3e02a1ec231"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6f8f980fd6d903b05640e3e02a1ec231">MR_expected_MR_RasterInfo_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f8f980fd6d903b05640e3e02a1ec231">MR_expected_MR_RasterInfo_std_string</a></td></tr>
 <tr class="memitem:af973406beb1038c22c5342ae0d99a27e" id="r_af973406beb1038c22c5342ae0d99a27e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af973406beb1038c22c5342ae0d99a27e">MR_expected_MR_Raster_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af973406beb1038c22c5342ae0d99a27e">MR_expected_MR_Raster_std_string</a></td></tr>
+<tr class="memitem:ae0c6104dcd799a946e4e2ddc8214d24c" id="r_ae0c6104dcd799a946e4e2ddc8214d24c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a></td></tr>
+<tr class="memitem:a0e44ffea584a24f5e2afeb57343b6b4c" id="r_a0e44ffea584a24f5e2afeb57343b6b4c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae4661697cb83e683195e70223e1f168f" id="r_ae4661697cb83e683195e70223e1f168f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af973406beb1038c22c5342ae0d99a27e">MR_expected_MR_Raster_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4661697cb83e683195e70223e1f168f">MR_RasterLoad_fromTiff</a> (const char *path, const char *path_end, const <a class="el" href="#a8a32d017de76b733fb7da342370bbc72">MR_RasterLoadSettings</a> *settings)</td></tr>
 <tr class="memitem:ad565ad3cf5977c40bfb54c28dc5fe29b" id="r_ad565ad3cf5977c40bfb54c28dc5fe29b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6f8f980fd6d903b05640e3e02a1ec231">MR_expected_MR_RasterInfo_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad565ad3cf5977c40bfb54c28dc5fe29b">MR_RasterLoad_infoFromTiff</a> (const char *path, const char *path_end)</td></tr>
-<tr class="memitem:a695f31c8df26abc5e3cfb42cf56e46fb" id="r_a695f31c8df26abc5e3cfb42cf56e46fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a695f31c8df26abc5e3cfb42cf56e46fb">MR_RasterSave_toTiff</a> (const <a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a> *raster, const char *path, const char *path_end, const <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *settings)</td></tr>
+<tr class="memitem:ab51da680f433ddd00fa83b96674e2587" id="r_ab51da680f433ddd00fa83b96674e2587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab51da680f433ddd00fa83b96674e2587">MR_TiffSaveSettings_Get_noData</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memitem:a12f178db18a70aa2eaadcacc40b66465" id="r_a12f178db18a70aa2eaadcacc40b66465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f178db18a70aa2eaadcacc40b66465">MR_TiffSaveSettings_Set_noData</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this, const double *value)</td></tr>
+<tr class="memitem:ab6524f0a62e0cd546850582be1cbcaae" id="r_ab6524f0a62e0cd546850582be1cbcaae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6524f0a62e0cd546850582be1cbcaae">MR_TiffSaveSettings_GetMutable_noData</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memitem:a747e2e6d6f4e62f45d2467feb799c175" id="r_a747e2e6d6f4e62f45d2467feb799c175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a747e2e6d6f4e62f45d2467feb799c175">MR_TiffSaveSettings_Get_xf</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memitem:a46b6a55ee4dd389f20888a11eb05b707" id="r_a46b6a55ee4dd389f20888a11eb05b707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b6a55ee4dd389f20888a11eb05b707">MR_TiffSaveSettings_Set_xf</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *value)</td></tr>
+<tr class="memitem:a96f87f162e1f98ef7b379ef16db08fb3" id="r_a96f87f162e1f98ef7b379ef16db08fb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96f87f162e1f98ef7b379ef16db08fb3">MR_TiffSaveSettings_GetMutable_xf</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memitem:ab8a42682773dd99fb521212581717277" id="r_ab8a42682773dd99fb521212581717277"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a42682773dd99fb521212581717277">MR_TiffSaveSettings_Get_progress</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memitem:ad0ab16e85b7e46df72ec6a7710959834" id="r_ad0ab16e85b7e46df72ec6a7710959834"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0ab16e85b7e46df72ec6a7710959834">MR_TiffSaveSettings_Set_progress</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:a66de8183539911d7fe39b704a693e731" id="r_a66de8183539911d7fe39b704a693e731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66de8183539911d7fe39b704a693e731">MR_TiffSaveSettings_GetMutable_progress</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memitem:a3306fc9eaa4936a38413bc1a3dd25fdd" id="r_a3306fc9eaa4936a38413bc1a3dd25fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3306fc9eaa4936a38413bc1a3dd25fdd">MR_TiffSaveSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a7c37249ac0c29afa0031f085e3b2254f" id="r_a7c37249ac0c29afa0031f085e3b2254f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c37249ac0c29afa0031f085e3b2254f">MR_TiffSaveSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a1e94f3b44e9617104c00cc613978a86b" id="r_a1e94f3b44e9617104c00cc613978a86b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e94f3b44e9617104c00cc613978a86b">MR_TiffSaveSettings_OffsetPtr</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ae548d10e1b5c420d6694fb2cd4d5ced2" id="r_ae548d10e1b5c420d6694fb2cd4d5ced2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae548d10e1b5c420d6694fb2cd4d5ced2">MR_TiffSaveSettings_OffsetMutablePtr</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a81aa32037f3380ef06a895300f19962e" id="r_a81aa32037f3380ef06a895300f19962e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81aa32037f3380ef06a895300f19962e">MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *object)</td></tr>
+<tr class="memitem:a2fbe579a19c5f1c721a7a5d65a68ca26" id="r_a2fbe579a19c5f1c721a7a5d65a68ca26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fbe579a19c5f1c721a7a5d65a68ca26">MR_TiffSaveSettings_MutableUpcastTo_MR_RasterSaveSettings</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *object)</td></tr>
+<tr class="memitem:aef895180ab23624de387f8badbdf310f" id="r_aef895180ab23624de387f8badbdf310f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef895180ab23624de387f8badbdf310f">MR_TiffSaveSettings_StaticDowncastFrom_MR_RasterSaveSettings</a> (const <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *object)</td></tr>
+<tr class="memitem:ae53395e525b21b4f9f528ee7062e8de5" id="r_ae53395e525b21b4f9f528ee7062e8de5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae53395e525b21b4f9f528ee7062e8de5">MR_TiffSaveSettings_MutableStaticDowncastFrom_MR_RasterSaveSettings</a> (<a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *object)</td></tr>
+<tr class="memitem:a7aa50d92e2118aa6328fb1153b4358eb" id="r_a7aa50d92e2118aa6328fb1153b4358eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa50d92e2118aa6328fb1153b4358eb">MR_TiffSaveSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_other)</td></tr>
+<tr class="memitem:a6514719641aaa1dfe5efdd70f2b92df0" id="r_a6514719641aaa1dfe5efdd70f2b92df0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6514719641aaa1dfe5efdd70f2b92df0">MR_TiffSaveSettings_Destroy</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memdesc:a6514719641aaa1dfe5efdd70f2b92df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ad1b4b857c32b44ab6d1568eb78124233" id="r_ad1b4b857c32b44ab6d1568eb78124233"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1b4b857c32b44ab6d1568eb78124233">MR_TiffSaveSettings_DestroyArray</a> (const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this)</td></tr>
+<tr class="memdesc:ad1b4b857c32b44ab6d1568eb78124233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:aaeae6963ad97f0eb724d60f7a48531ab" id="r_aaeae6963ad97f0eb724d60f7a48531ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaeae6963ad97f0eb724d60f7a48531ab">MR_TiffSaveSettings_AssignFromAnother</a> (<a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *_other)</td></tr>
+<tr class="memitem:a6e6af9385ff2e8460ec52a4c099b48a9" id="r_a6e6af9385ff2e8460ec52a4c099b48a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e6af9385ff2e8460ec52a4c099b48a9">MR_RasterSave_toTiff_MR_TiffSaveSettings</a> (const <a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a> *raster, const char *path, const char *path_end, const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *settings)</td></tr>
+<tr class="memitem:adbb7ee8a33a9e3cfc18c348093fae04f" id="r_adbb7ee8a33a9e3cfc18c348093fae04f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbb7ee8a33a9e3cfc18c348093fae04f">MR_RasterSave_toTiff_MR_RasterSaveSettings</a> (const <a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a> *raster, const char *path, const char *path_end, const <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *settings)</td></tr>
 <tr class="memitem:aae858b7352c4eef0ccd73cb22bc12883" id="r_aae858b7352c4eef0ccd73cb22bc12883"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a4b3fdef77440565efc1c3cf3be1904f6">MR_expected_MR_Image_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae858b7352c4eef0ccd73cb22bc12883">MR_ImageLoad_fromTiff</a> (const char *path, const char *path_end)</td></tr>
 <tr class="memitem:a653199b30fbb39e729763433a8153528" id="r_a653199b30fbb39e729763433a8153528"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653199b30fbb39e729763433a8153528">MR_ImageSave_toTiff</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
+<tr class="memitem:a427596c8432d09d2751f6b6529c8e6c1" id="r_a427596c8432d09d2751f6b6529c8e6c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427596c8432d09d2751f6b6529c8e6c1">MR_DistanceMapLoad_fromTiff</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
 <tr class="memitem:a5112184b5e33a3b163c1eeedc884b8d9" id="r_a5112184b5e33a3b163c1eeedc884b8d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5112184b5e33a3b163c1eeedc884b8d9">MR_DistanceMapSave_toTiff</a> (const <a class="el" href="#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *dmap, const char *path, const char *path_end, const <a class="el" href="#a2b8e42b38bd4d4f8c966e3bc97e7527e">MR_DistanceMapSaveSettings</a> *settings)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a1df6fb138786a55241b1d77a4b0cc">&#9670;&#160;</a></span>MR_AffineXf3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_AffineXf3f MR_AffineXf3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac5b3176651bd10f11559934b0565b6ee" name="ac5b3176651bd10f11559934b0565b6ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5b3176651bd10f11559934b0565b6ee">&#9670;&#160;</a></span>MR_DistanceMap</h2>
 
@@ -175,6 +221,21 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acb7982850a6576e45e73598937682264" name="acb7982850a6576e45e73598937682264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb7982850a6576e45e73598937682264">&#9670;&#160;</a></span>MR_DistanceMapLoadSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>settings for loading distance maps from external formats Generated from class <span class="tt">MR::DistanceMapLoadSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="a2b8e42b38bd4d4f8c966e3bc97e7527e" name="a2b8e42b38bd4d4f8c966e3bc97e7527e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b8e42b38bd4d4f8c966e3bc97e7527e">&#9670;&#160;</a></span>MR_DistanceMapSaveSettings</h2>
 
@@ -187,6 +248,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>determines how to save distance maps Generated from class <span class="tt">MR::DistanceMapSaveSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). Cartesian range vector between distance map borders in X direction Returns a pointer to a member variable of class <span class="tt">MR::MeshToDistanceMapParams</span> named <span class="tt">xRange</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a52efa08117d1b3edf97d282ba7127323" name="a52efa08117d1b3edf97d282ba7127323"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52efa08117d1b3edf97d282ba7127323">&#9670;&#160;</a></span>MR_expected_MR_DistanceMap_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> <a class="el" href="#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores either a <span class="tt">MR::DistanceMap</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -261,11 +337,68 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>settings for saving rasters in external formats Generated from class <span class="tt">MR::RasterSaveSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>settings for saving rasters in external formats Generated from class <span class="tt">MR::RasterSaveSettings</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::TiffSaveSettings</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ae0c6104dcd799a946e4e2ddc8214d24c" name="ae0c6104dcd799a946e4e2ddc8214d24c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c6104dcd799a946e4e2ddc8214d24c">&#9670;&#160;</a></span>MR_std_optional_double</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a> <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores either a single <span class="tt">double</span> or nothing. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a0e44ffea584a24f5e2afeb57343b6b4c" name="a0e44ffea584a24f5e2afeb57343b6b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e44ffea584a24f5e2afeb57343b6b4c">&#9670;&#160;</a></span>MR_TiffSaveSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>settings for saving rasters in .tiff format Generated from class <span class="tt">MR::TiffSaveSettings</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::RasterSaveSettings</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a427596c8432d09d2751f6b6529c8e6c1" name="a427596c8432d09d2751f6b6529c8e6c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a427596c8432d09d2751f6b6529c8e6c1">&#9670;&#160;</a></span>MR_DistanceMapLoad_fromTiff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromTiff </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none Generated from function <span class="tt">MR::DistanceMapLoad::fromTiff</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__DistanceMap__std__string_8h.html#a0a335b47ce20d18bf52ab4847d97e275" title="Destroys a heap-allocated instance of MR_expected_MR_DistanceMap_std_string. Does nothing if the poin...">MR_expected_MR_DistanceMap_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a5112184b5e33a3b163c1eeedc884b8d9" name="a5112184b5e33a3b163c1eeedc884b8d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5112184b5e33a3b163c1eeedc884b8d9">&#9670;&#160;</a></span>MR_DistanceMapSave_toTiff()</h2>
 
@@ -402,14 +535,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a695f31c8df26abc5e3cfb42cf56e46fb" name="a695f31c8df26abc5e3cfb42cf56e46fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a695f31c8df26abc5e3cfb42cf56e46fb">&#9670;&#160;</a></span>MR_RasterSave_toTiff()</h2>
+<a id="adbb7ee8a33a9e3cfc18c348093fae04f" name="adbb7ee8a33a9e3cfc18c348093fae04f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb7ee8a33a9e3cfc18c348093fae04f">&#9670;&#160;</a></span>MR_RasterSave_toTiff_MR_RasterSaveSettings()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_RasterSave_toTiff </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_RasterSave_toTiff_MR_RasterSaveSettings </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a> *</td>          <td class="paramname"><span class="paramname"><em>raster</em></span>, </td>
         </tr>
@@ -430,7 +563,457 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 Generated from function <span class="tt">MR::RasterSave::toTiff</span>. Parameter <span class="tt">raster</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::RasterSave::toTiff</span>. Parameter <span class="tt">raster</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6e6af9385ff2e8460ec52a4c099b48a9" name="a6e6af9385ff2e8460ec52a4c099b48a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e6af9385ff2e8460ec52a4c099b48a9">&#9670;&#160;</a></span>MR_RasterSave_toTiff_MR_TiffSaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_RasterSave_toTiff_MR_TiffSaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0a70009e8aa37a2f4a0df7c6aba89eb3">MR_Raster</a> *</td>          <td class="paramname"><span class="paramname"><em>raster</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 Generated from function <span class="tt">MR::RasterSave::toTiff</span>. Parameter <span class="tt">raster</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aaeae6963ad97f0eb724d60f7a48531ab" name="aaeae6963ad97f0eb724d60f7a48531ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeae6963ad97f0eb724d60f7a48531ab">&#9670;&#160;</a></span>MR_TiffSaveSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::TiffSaveSettings::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a7aa50d92e2118aa6328fb1153b4358eb" name="a7aa50d92e2118aa6328fb1153b4358eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa50d92e2118aa6328fb1153b4358eb">&#9670;&#160;</a></span>MR_TiffSaveSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::TiffSaveSettings::TiffSaveSettings</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a6514719641aaa1dfe5efdd70f2b92df0" title="Destroys a heap-allocated instance of MR_TiffSaveSettings. Does nothing if the pointer is null.">MR_TiffSaveSettings_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3306fc9eaa4936a38413bc1a3dd25fdd" name="a3306fc9eaa4936a38413bc1a3dd25fdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3306fc9eaa4936a38413bc1a3dd25fdd">&#9670;&#160;</a></span>MR_TiffSaveSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a6514719641aaa1dfe5efdd70f2b92df0" title="Destroys a heap-allocated instance of MR_TiffSaveSettings. Does nothing if the pointer is null.">MR_TiffSaveSettings_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7c37249ac0c29afa0031f085e3b2254f" name="a7c37249ac0c29afa0031f085e3b2254f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c37249ac0c29afa0031f085e3b2254f">&#9670;&#160;</a></span>MR_TiffSaveSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#ad1b4b857c32b44ab6d1568eb78124233" title="Destroys a heap-allocated array of MR_TiffSaveSettings. Does nothing if the pointer is null.">MR_TiffSaveSettings_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#ae548d10e1b5c420d6694fb2cd4d5ced2">MR_TiffSaveSettings_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a1e94f3b44e9617104c00cc613978a86b">MR_TiffSaveSettings_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a6514719641aaa1dfe5efdd70f2b92df0" name="a6514719641aaa1dfe5efdd70f2b92df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6514719641aaa1dfe5efdd70f2b92df0">&#9670;&#160;</a></span>MR_TiffSaveSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TiffSaveSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad1b4b857c32b44ab6d1568eb78124233" name="ad1b4b857c32b44ab6d1568eb78124233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b4b857c32b44ab6d1568eb78124233">&#9670;&#160;</a></span>MR_TiffSaveSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TiffSaveSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ab51da680f433ddd00fa83b96674e2587" name="ab51da680f433ddd00fa83b96674e2587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51da680f433ddd00fa83b96674e2587">&#9670;&#160;</a></span>MR_TiffSaveSettings_Get_noData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a> * MR_TiffSaveSettings_Get_noData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional value meaning no data, written as GDAL_NODATA Returns a pointer to a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">noData</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab8a42682773dd99fb521212581717277" name="ab8a42682773dd99fb521212581717277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a42682773dd99fb521212581717277">&#9670;&#160;</a></span>MR_TiffSaveSettings_Get_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_TiffSaveSettings_Get_progress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Returns a pointer to a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">progress</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a747e2e6d6f4e62f45d2467feb799c175" name="a747e2e6d6f4e62f45d2467feb799c175"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747e2e6d6f4e62f45d2467feb799c175">&#9670;&#160;</a></span>MR_TiffSaveSettings_Get_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const  * MR_TiffSaveSettings_Get_xf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Returns a pointer to a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ab6524f0a62e0cd546850582be1cbcaae" name="ab6524f0a62e0cd546850582be1cbcaae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6524f0a62e0cd546850582be1cbcaae">&#9670;&#160;</a></span>MR_TiffSaveSettings_GetMutable_noData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae0c6104dcd799a946e4e2ddc8214d24c">MR_std_optional_double</a> * MR_TiffSaveSettings_GetMutable_noData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional value meaning no data, written as GDAL_NODATA Returns a mutable pointer to a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">noData</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a66de8183539911d7fe39b704a693e731" name="a66de8183539911d7fe39b704a693e731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66de8183539911d7fe39b704a693e731">&#9670;&#160;</a></span>MR_TiffSaveSettings_GetMutable_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_TiffSaveSettings_GetMutable_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Returns a mutable pointer to a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">progress</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a96f87f162e1f98ef7b379ef16db08fb3" name="a96f87f162e1f98ef7b379ef16db08fb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f87f162e1f98ef7b379ef16db08fb3">&#9670;&#160;</a></span>MR_TiffSaveSettings_GetMutable_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> ** MR_TiffSaveSettings_GetMutable_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Returns a mutable pointer to a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ae53395e525b21b4f9f528ee7062e8de5" name="ae53395e525b21b4f9f528ee7062e8de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae53395e525b21b4f9f528ee7062e8de5">&#9670;&#160;</a></span>MR_TiffSaveSettings_MutableStaticDowncastFrom_MR_RasterSaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_MutableStaticDowncastFrom_MR_RasterSaveSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::RasterSaveSettings</span> to a derived class <span class="tt">MR::TiffSaveSettings</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a2fbe579a19c5f1c721a7a5d65a68ca26" name="a2fbe579a19c5f1c721a7a5d65a68ca26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fbe579a19c5f1c721a7a5d65a68ca26">&#9670;&#160;</a></span>MR_TiffSaveSettings_MutableUpcastTo_MR_RasterSaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> * MR_TiffSaveSettings_MutableUpcastTo_MR_RasterSaveSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <span class="tt">MR::TiffSaveSettings</span> to its base class <span class="tt">MR::RasterSaveSettings</span>. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ae548d10e1b5c420d6694fb2cd4d5ced2" name="ae548d10e1b5c420d6694fb2cd4d5ced2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae548d10e1b5c420d6694fb2cd4d5ced2">&#9670;&#160;</a></span>MR_TiffSaveSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a1e94f3b44e9617104c00cc613978a86b" name="a1e94f3b44e9617104c00cc613978a86b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e94f3b44e9617104c00cc613978a86b">&#9670;&#160;</a></span>MR_TiffSaveSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a12f178db18a70aa2eaadcacc40b66465" name="a12f178db18a70aa2eaadcacc40b66465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f178db18a70aa2eaadcacc40b66465">&#9670;&#160;</a></span>MR_TiffSaveSettings_Set_noData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TiffSaveSettings_Set_noData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional value meaning no data, written as GDAL_NODATA Modifies a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">noData</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> is optional. To keep it empty, pass a null pointer. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">noData</span>. When this function is called, this object will drop object references it held previously in <span class="tt">noData</span>. </p>
+
+</div>
+</div>
+<a id="ad0ab16e85b7e46df72ec6a7710959834" name="ad0ab16e85b7e46df72ec6a7710959834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ab16e85b7e46df72ec6a7710959834">&#9670;&#160;</a></span>MR_TiffSaveSettings_Set_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TiffSaveSettings_Set_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report save progress and cancel saving if user desires Modifies a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">progress</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">progress</span>. When this function is called, this object will drop object references it held previously in <span class="tt">progress</span>. </p>
+
+</div>
+</div>
+<a id="a46b6a55ee4dd389f20888a11eb05b707" name="a46b6a55ee4dd389f20888a11eb05b707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b6a55ee4dd389f20888a11eb05b707">&#9670;&#160;</a></span>MR_TiffSaveSettings_Set_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TiffSaveSettings_Set_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Modifies a member variable of class <span class="tt">MR::TiffSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
+
+</div>
+</div>
+<a id="aef895180ab23624de387f8badbdf310f" name="aef895180ab23624de387f8badbdf310f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef895180ab23624de387f8badbdf310f">&#9670;&#160;</a></span>MR_TiffSaveSettings_StaticDowncastFrom_MR_RasterSaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> * MR_TiffSaveSettings_StaticDowncastFrom_MR_RasterSaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::RasterSaveSettings</span> to a derived class <span class="tt">MR::TiffSaveSettings</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a81aa32037f3380ef06a895300f19962e" name="a81aa32037f3380ef06a895300f19962e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81aa32037f3380ef06a895300f19962e">&#9670;&#160;</a></span>MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a091b1c6d0c8400fc4a818d402115b616">MR_RasterSaveSettings</a> * MR_TiffSaveSettings_UpcastTo_MR_RasterSaveSettings </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0e44ffea584a24f5e2afeb57343b6b4c">MR_TiffSaveSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <span class="tt">MR::TiffSaveSettings</span> to its base class <span class="tt">MR::RasterSaveSettings</span>. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

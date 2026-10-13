@@ -2321,6 +2321,9 @@ var hierarchy =
       [ "MR.Const_ThickenParams", "classMR_1_1Const__ThickenParams.html", [
         [ "MR.ThickenParams", "classMR_1_1ThickenParams.html", null ]
       ] ],
+      [ "MR.Const_TiffSaveSettings", "classMR_1_1Const__TiffSaveSettings.html", [
+        [ "MR.TiffSaveSettings", "classMR_1_1TiffSaveSettings.html", null ]
+      ] ],
       [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", [
         [ "MR.ToolPathParams", "classMR_1_1ToolPathParams.html", null ]
       ] ],
@@ -3083,8 +3086,8 @@ var hierarchy =
       [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", [
         [ "MR.VoxelsLoad.DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", null ]
       ] ],
-      [ "MR.VoxelsLoad.Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", [
-        [ "MR.VoxelsLoad.LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ]
+      [ "MR.VoxelsLoad.Const_RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html", [
+        [ "MR.VoxelsLoad.RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html", null ]
       ] ],
       [ "MR.VoxelsLoad.Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", [
         [ "MR.VoxelsLoad.RawParameters", "classMR_1_1VoxelsLoad_1_1RawParameters.html", null ]
@@ -4403,6 +4406,7 @@ var hierarchy =
       [ "MR.Const_TexturePerFace", "classMR_1_1Const__TexturePerFace.html", null ],
       [ "MR.Const_Tgt2SrcMaps", "classMR_1_1Const__Tgt2SrcMaps.html", null ],
       [ "MR.Const_ThickenParams", "classMR_1_1Const__ThickenParams.html", null ],
+      [ "MR.Const_TiffSaveSettings", "classMR_1_1Const__TiffSaveSettings.html", null ],
       [ "MR.Const_ToolPathParams", "classMR_1_1Const__ToolPathParams.html", null ],
       [ "MR.Const_ToolPathResult", "classMR_1_1Const__ToolPathResult.html", null ],
       [ "MR.Const_TransformVdbVolumeResult", "classMR_1_1Const__TransformVdbVolumeResult.html", null ],
@@ -4657,7 +4661,7 @@ var hierarchy =
       [ "MR.VoxelsLoad.Const_DicomStatus", "classMR_1_1VoxelsLoad_1_1Const__DicomStatus.html", null ],
       [ "MR.VoxelsLoad.Const_DicomVolume", "classMR_1_1VoxelsLoad_1_1Const__DicomVolume.html", null ],
       [ "MR.VoxelsLoad.Const_DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb.html", null ],
-      [ "MR.VoxelsLoad.Const_LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings.html", null ],
+      [ "MR.VoxelsLoad.Const_RasterFolderLoadSettings", "classMR_1_1VoxelsLoad_1_1Const__RasterFolderLoadSettings.html", null ],
       [ "MR.VoxelsLoad.Const_RawParameters", "classMR_1_1VoxelsLoad_1_1Const__RawParameters.html", null ],
       [ "MR.VoxelsSave.Const_SavingSettings", "classMR_1_1VoxelsSave_1_1Const__SavingSettings.html", null ],
       [ "MR.WeightedShell.Const_DistanceVolumeCreationParams", "classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams.html", null ],

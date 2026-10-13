@@ -6,6 +6,21 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1RasterSaveSettings" prot="public" virt="non-virtual">MR.RasterSaveSettings</derivedcompoundref>
     <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__RasterSaveSettings_1a475fb2d2022c628dcfe4a1c17f090812" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3f MR.Const_RasterSaveSettings.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.xf</qualifiedname>
+        <briefdescription>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="917" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="918" bodyend="929"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__RasterSaveSettings_1a576d74b88d561344757ea21ce0c11985" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
         <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_RasterSaveSettings.progress</definition>
@@ -19,7 +34,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="868" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="868" bodyend="868"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="935" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="935" bodyend="935"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__RasterSaveSettings_1a4498e1595f92897cb4e2b5bb31a72763" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3f._Underlying** MR.Const_RasterSaveSettings.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="930" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="930" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -39,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="855" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="855" bodyend="861"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="904" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="904" bodyend="910"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -55,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="862" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="862" bodyend="862"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="911" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="911" bodyend="911"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1d9dd71526dad9b58a7d2e100ceaeac3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -70,14 +101,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="894" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="894" bodyend="898"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="965" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="965" bodyend="969"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a8ebe00647b63a5a0a26712ba9ee54dbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1b9f0b05d0ecd5a7469965f64ca5b666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_RasterSaveSettings.Const_RasterSaveSettings</definition>
-        <argsstring>(MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <argsstring>(MR.AffineXf3f? xf, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>Const_RasterSaveSettings</name>
         <qualifiedname>MR.Const_RasterSaveSettings.Const_RasterSaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+        </param>
         <param>
           <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
@@ -89,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="903" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="903" bodyend="908"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="974" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="974" bodyend="980"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a96b0a8a1e20198b780c34e3fb041d549" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -108,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="913" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="913" bodyend="918"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="985" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="985" bodyend="990"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1ed87c5dad0505cd28ae24a2f46a23b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -127,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="923" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="923" bodyend="923"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="995" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="995" bodyend="995"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a1dede3a65b4e7f9c1b69427ca107fb99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -146,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="928" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="928" bodyend="928"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1000" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="1000" bodyend="1000"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -162,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="863" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="863" bodyend="863"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="912" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="912" bodyend="912"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -186,16 +221,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="883" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="883" bodyend="888"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="954" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="954" bodyend="959"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a9b4b7f61f65386d54dc9dc06d07208a3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1af4467a743845e00b3455c514ac8af3b6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RasterSaveSettings._Underlying *</type>
         <definition>static unsafe MR.RasterSaveSettings._Underlying * MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy progress_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progress)</argsstring>
+        <argsstring>(MR.AffineXf3f *xf, MR.Misc._PassBy progress_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progress)</argsstring>
         <name>__MR_RasterSaveSettings_ConstructFrom</name>
         <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_ConstructFrom</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>xf</declname>
+        </param>
         <param>
           <type>MR.Misc._PassBy</type>
           <declname>progress_pass_by</declname>
@@ -210,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="933" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1005" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aed6982013d65fbeedc738eb0bd99de37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RasterSaveSettings._Underlying *</type>
@@ -232,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="936" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1008" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aa6228880cf2a007eef1f5b9eedcb2b6f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.RasterSaveSettings._Underlying *</type>
@@ -246,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="939" column="62"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1011" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a177915d29d92b9887276bf392c0accd1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -264,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="942" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1014" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1aa2c6b1ee5a7cf2953c95580806cb2f82" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
@@ -282,11 +321,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="945" column="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1017" column="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RasterSaveSettings_1a590180cd35781f19afb5a78dd5589d68" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ConstBox_AffineXf3f._Underlying **</type>
+        <definition>static unsafe MR.ConstBox_AffineXf3f._Underlying ** MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_Get_xf</definition>
+        <argsstring>(Const_RasterSaveSettings._Underlying *_this)</argsstring>
+        <name>__MR_RasterSaveSettings_Get_xf</name>
+        <qualifiedname>MR.Const_RasterSaveSettings.__MR_RasterSaveSettings_Get_xf</qualifiedname>
+        <param>
+          <type>Const_RasterSaveSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="1020" column="63"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>settings for saving rasters in external formats Generated from class <computeroutput><ref refid="classMR_1_1RasterSaveSettings" kindref="compound">MR.RasterSaveSettings</ref></computeroutput>. This is the const half of the class. </para>
+<para>settings for saving rasters in external formats Generated from class <computeroutput><ref refid="classMR_1_1RasterSaveSettings" kindref="compound">MR.RasterSaveSettings</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1TiffSaveSettings" kindref="compound">MR.TiffSaveSettings</ref></computeroutput> This is the const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -313,12 +370,19 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Const_RasterSaveSettings</label>
         <link refid="classMR_1_1Const__RasterSaveSettings"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
         <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="2">
@@ -328,22 +392,25 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="849" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="850" bodyend="946"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" line="898" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRaster.cs" bodystart="899" bodyend="1021"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__RasterSaveSettings_1a9b4b7f61f65386d54dc9dc06d07208a3" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1af4467a743845e00b3455c514ac8af3b6" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1aed6982013d65fbeedc738eb0bd99de37" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1aa6228880cf2a007eef1f5b9eedcb2b6f" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a177915d29d92b9887276bf392c0accd1" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_Destroy</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1aa2c6b1ee5a7cf2953c95580806cb2f82" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_Get_progress</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a590180cd35781f19afb5a78dd5589d68" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__MR_RasterSaveSettings_Get_xf</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a4498e1595f92897cb4e2b5bb31a72763" prot="protected" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>__ptr_storage_xf</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a989e1b47c4855a99f9b64b0d2bf1fbc4" prot="package" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a1d9dd71526dad9b58a7d2e100ceaeac3" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
-      <member refid="classMR_1_1Const__RasterSaveSettings_1a8ebe00647b63a5a0a26712ba9ee54dbc" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a1b9f0b05d0ecd5a7469965f64ca5b666" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a96b0a8a1e20198b780c34e3fb041d549" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a1ed87c5dad0505cd28ae24a2f46a23b6" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a1dede3a65b4e7f9c1b69427ca107fb99" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Const_RasterSaveSettings</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a578d4af4fdfb44c82b98705724848f5e" prot="protected" virt="virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1ae74b952efcaca8e1ccfe42f94ff2740a" prot="public" virt="virtual"><scope>MR::Const_RasterSaveSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1a576d74b88d561344757ea21ce0c11985" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__RasterSaveSettings_1a475fb2d2022c628dcfe4a1c17f090812" prot="public" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>xf</name></member>
       <member refid="classMR_1_1Const__RasterSaveSettings_1aa1c42ea500a4e357584aa035f5ccf850" prot="private" virt="non-virtual"><scope>MR::Const_RasterSaveSettings</scope><name>~Const_RasterSaveSettings</name></member>
     </listofallmembers>
   </compounddef>

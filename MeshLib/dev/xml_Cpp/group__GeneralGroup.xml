@@ -63,6 +63,7 @@
     <innerclass refid="structMR_1_1Pdf_1_1TextCellParams" prot="public">MR::Pdf::TextCellParams</innerclass>
     <innerclass refid="structMR_1_1Pdf_1_1ColumnInfo" prot="private">MR::Pdf::ColumnInfo</innerclass>
     <innerclass refid="structMR_1_1Pdf_1_1TableGeneralParams" prot="private">MR::Pdf::TableGeneralParams</innerclass>
+    <innerclass refid="structMR_1_1TiffSaveSettings" prot="public">MR::TiffSaveSettings</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" prot="public">MR::PlanarTriangulation::BaseOutlineParameters</innerclass>
@@ -485,10 +486,6 @@
     <innerclass refid="structMR_1_1TbbTaskArenaAndGroup" prot="public">MR::TbbTaskArenaAndGroup</innerclass>
     <innerclass refid="classMR_1_1TbbThreadMutex" prot="public">MR::TbbThreadMutex</innerclass>
     <innerclass refid="classMR_1_1TbbThreadMutex_1_1LockGuard" prot="public">MR::TbbThreadMutex::LockGuard</innerclass>
-    <innerclass refid="structMR_1_1BaseTiffParameters" prot="public">MR::BaseTiffParameters</innerclass>
-    <innerclass refid="structMR_1_1TiffParameters" prot="public">MR::TiffParameters</innerclass>
-    <innerclass refid="structMR_1_1RawTiffOutput" prot="public">MR::RawTiffOutput</innerclass>
-    <innerclass refid="structMR_1_1WriteRawTiffParams" prot="public">MR::WriteRawTiffParams</innerclass>
     <innerclass refid="structMR_1_1TriTriDistanceResult" prot="public">MR::TriTriDistanceResult</innerclass>
     <innerclass refid="structMR_1_1TriTriDistanceParams" prot="public">MR::TriTriDistanceParams</innerclass>
     <innerclass refid="structMR_1_1TriMesh" prot="public">MR::TriMesh</innerclass>
@@ -931,6 +928,7 @@
     <innernamespace refid="namespaceMR_1_1Nesting">MR::Nesting</innernamespace>
     <innernamespace refid="namespaceMR_1_1RasterLoad">MR::RasterLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1RasterSave">MR::RasterSave</innernamespace>
+    <innernamespace refid="namespaceMR_1_1DistanceMapLoad">MR::DistanceMapLoad</innernamespace>
     <innernamespace refid="namespaceMR_1_1DistanceMapSave">MR::DistanceMapSave</innernamespace>
     <innernamespace refid="namespaceMR_1_1PlanarTriangulation">MR::PlanarTriangulation</innernamespace>
     <innernamespace refid="namespaceMR_1_1Features_1_1Primitives">MR::Features::Primitives</innernamespace>
@@ -9633,86 +9631,6 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRSystemPath.h" line="51" column="5" bodyfile="MRMesh/MRSystemPath.h" bodystart="52" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="enum" id="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>SampleType</name>
-        <qualifiedname>MR::BaseTiffParameters::SampleType</qualifiedname>
-        <enumvalue id="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
-          <name>Unknown</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b" prot="public">
-          <name>Uint</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa1686a6c336b71b36d77354cea19a8b52" prot="public">
-          <name>Int</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1ggaaf63d045d0a43afd72404a7a0d4f862fa22ae0e2b89e5e3d477f988cc36d3272b" prot="public">
-          <name>Float</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="18" column="5" bodyfile="MRMesh/MRTiffIO.h" bodystart="19" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="enum" id="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" prot="public" static="no" strong="yes">
-        <type></type>
-        <name>ValueType</name>
-        <qualifiedname>MR::BaseTiffParameters::ValueType</qualifiedname>
-        <enumvalue id="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
-          <name>Unknown</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74" prot="public">
-          <name>Scalar</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028" prot="public">
-          <name>RGB</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="group__GeneralGroup_1gga29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f" prot="public">
-          <name>RGBA</name>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="26" column="5" bodyfile="MRMesh/MRTiffIO.h" bodystart="27" bodyend="32"/>
       </memberdef>
       <memberdef kind="enum" id="group__GeneralGroup_1ga44bd35b44ad13ba0a8968ae8260539cd" prot="public" static="no" strong="yes">
         <type>bool</type>
@@ -23392,6 +23310,21 @@ if given transformation is not rigid, then it is a good idea to normalize return
         <inbodydescription>
         </inbodydescription>
         <location file="MRIOExtras/MRPdf.h" line="286" column="18"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; double &gt;</type>
+        <definition>std::optional&lt;double&gt; MR::TiffSaveSettings::noData</definition>
+        <argsstring></argsstring>
+        <name>noData</name>
+        <qualifiedname>MR::TiffSaveSettings::noData</qualifiedname>
+        <briefdescription>
+<para>optional value meaning no data, written as GDAL_NODATA </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="43" column="19" bodyfile="MRIOExtras/MRTiff.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -44900,282 +44833,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRTelemetry.h" line="14" column="16" declfile="MRMesh/MRTelemetry.h" declline="14" declcolumn="16"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" kindref="member">MR::BaseTiffParameters::SampleType</ref></type>
-        <definition>enum MR::BaseTiffParameters::SampleType MR::BaseTiffParameters::Unknown</definition>
-        <argsstring></argsstring>
-        <name>Unknown</name>
-        <qualifiedname>MR::BaseTiffParameters::Unknown</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="24" column="35"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" prot="public" static="no" mutable="no">
-        <type>enum <ref refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" kindref="member">MR::BaseTiffParameters::ValueType</ref></type>
-        <definition>enum MR::BaseTiffParameters::ValueType MR::BaseTiffParameters::Unknown</definition>
-        <argsstring></argsstring>
-        <name>Unknown</name>
-        <qualifiedname>MR::BaseTiffParameters::Unknown</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="32" column="33"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::BaseTiffParameters::bytesPerSample</definition>
-        <argsstring></argsstring>
-        <name>bytesPerSample</name>
-        <qualifiedname>MR::BaseTiffParameters::bytesPerSample</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>size of internal data in file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="35" column="9" bodyfile="MRMesh/MRTiffIO.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" prot="public" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::BaseTiffParameters::imageSize</definition>
-        <argsstring></argsstring>
-        <name>imageSize</name>
-        <qualifiedname>MR::BaseTiffParameters::imageSize</qualifiedname>
-        <briefdescription>
-<para>size of image if not layered, otherwise size of layer </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="38" column="14" bodyfile="MRMesh/MRTiffIO.h" bodystart="38" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::TiffParameters::tiled</definition>
-        <argsstring></argsstring>
-        <name>tiled</name>
-        <qualifiedname>MR::TiffParameters::tiled</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>true if tif file is tiled </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="46" column="10" bodyfile="MRMesh/MRTiffIO.h" bodystart="46" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" prot="public" static="no" mutable="no">
-        <type>Vector2i</type>
-        <definition>Vector2i MR::TiffParameters::tileSize</definition>
-        <argsstring></argsstring>
-        <name>tileSize</name>
-        <qualifiedname>MR::TiffParameters::tileSize</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="47" column="14" bodyfile="MRMesh/MRTiffIO.h" bodystart="47" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::TiffParameters::layers</definition>
-        <argsstring></argsstring>
-        <name>layers</name>
-        <qualifiedname>MR::TiffParameters::layers</qualifiedname>
-        <initializer>= 1</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="48" column="9" bodyfile="MRMesh/MRTiffIO.h" bodystart="48" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::TiffParameters::depth</definition>
-        <argsstring></argsstring>
-        <name>depth</name>
-        <qualifiedname>MR::TiffParameters::depth</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-<para>tile depth (if several layers) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="50" column="9" bodyfile="MRMesh/MRTiffIO.h" bodystart="50" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga0246df3ced8b0fffb290eb2abf95bb96" prot="public" static="no" mutable="no">
-        <type>uint8_t *</type>
-        <definition>uint8_t* MR::RawTiffOutput::bytes</definition>
-        <argsstring></argsstring>
-        <name>bytes</name>
-        <qualifiedname>MR::RawTiffOutput::bytes</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>main output data, should be allocated </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="64" column="13" bodyfile="MRMesh/MRTiffIO.h" bodystart="64" bodyend="64"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaee37c2713f2e293aaf18d6ff35a3ef2f" prot="public" static="no" mutable="no">
-        <type>size_t</type>
-        <definition>size_t MR::RawTiffOutput::size</definition>
-        <argsstring></argsstring>
-        <name>size</name>
-        <qualifiedname>MR::RawTiffOutput::size</qualifiedname>
-        <initializer>{ 0 }</initializer>
-        <briefdescription>
-<para>allocated data size </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="66" column="12" bodyfile="MRMesh/MRTiffIO.h" bodystart="66" bodyend="66"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga4a46a4e341d9607035dd3b8e7f94b350" prot="public" static="no" mutable="no">
-        <type>TiffParameters *</type>
-        <definition>TiffParameters* MR::RawTiffOutput::params</definition>
-        <argsstring></argsstring>
-        <name>params</name>
-        <qualifiedname>MR::RawTiffOutput::params</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional params output </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="68" column="20" bodyfile="MRMesh/MRTiffIO.h" bodystart="68" bodyend="68"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga56a198effd90991eb70ce8c6707711dc" prot="public" static="no" mutable="no">
-        <type>AffineXf3f *</type>
-        <definition>AffineXf3f* MR::RawTiffOutput::p2wXf</definition>
-        <argsstring></argsstring>
-        <name>p2wXf</name>
-        <qualifiedname>MR::RawTiffOutput::p2wXf</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>optional pixel to world transform </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="70" column="16" bodyfile="MRMesh/MRTiffIO.h" bodystart="70" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga678bc6694cc6bc3d60c264d18d97e243" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::RawTiffOutput::convertToFloat</definition>
-        <argsstring></argsstring>
-        <name>convertToFloat</name>
-        <qualifiedname>MR::RawTiffOutput::convertToFloat</qualifiedname>
-        <initializer>{ true }</initializer>
-        <briefdescription>
-<para>input if true loads tiff file as floats array </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="72" column="10" bodyfile="MRMesh/MRTiffIO.h" bodystart="72" bodyend="72"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga274e87eb13cf3064d528d5799b534c2d" prot="public" static="no" mutable="no">
-        <type>float *</type>
-        <definition>float* MR::RawTiffOutput::min</definition>
-        <argsstring></argsstring>
-        <name>min</name>
-        <qualifiedname>MR::RawTiffOutput::min</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-<para>min max </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="74" column="11" bodyfile="MRMesh/MRTiffIO.h" bodystart="74" bodyend="74"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gab63212231c28e54f0070c1283711a98a" prot="public" static="no" mutable="no">
-        <type>float *</type>
-        <definition>float* MR::RawTiffOutput::max</definition>
-        <argsstring></argsstring>
-        <name>max</name>
-        <qualifiedname>MR::RawTiffOutput::max</qualifiedname>
-        <initializer>{ nullptr }</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="75" column="11" bodyfile="MRMesh/MRTiffIO.h" bodystart="75" bodyend="75"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" prot="public" static="no" mutable="no">
-        <type>BaseTiffParameters</type>
-        <definition>BaseTiffParameters MR::WriteRawTiffParams::baseParams</definition>
-        <argsstring></argsstring>
-        <name>baseParams</name>
-        <qualifiedname>MR::WriteRawTiffParams::baseParams</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="83" column="24" bodyfile="MRMesh/MRTiffIO.h" bodystart="83" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" prot="public" static="no" mutable="no">
-        <type>const AffineXf3f *</type>
-        <definition>const AffineXf3f* MR::WriteRawTiffParams::xf</definition>
-        <argsstring></argsstring>
-        <name>xf</name>
-        <qualifiedname>MR::WriteRawTiffParams::xf</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-<para>optional transformation data written to GeoTIFF&apos;s ModelTransformationTag </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="85" column="22" bodyfile="MRMesh/MRTiffIO.h" bodystart="85" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" prot="public" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string MR::WriteRawTiffParams::noData</definition>
-        <argsstring></argsstring>
-        <name>noData</name>
-        <qualifiedname>MR::WriteRawTiffParams::noData</qualifiedname>
-        <briefdescription>
-<para>optional NoData value written to GDAL_NODATA </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="87" column="17" bodyfile="MRMesh/MRTiffIO.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga26c9f09ce86daf06e28972f128bd268a" prot="public" static="no" mutable="no">
         <type>Vector3&lt; T &gt;</type>
@@ -81565,7 +81222,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="31" column="11" declfile="MRIOExtras/MRTiff.h" declline="31" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="32" column="11" declfile="MRIOExtras/MRTiff.h" declline="32" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; RasterInfo &gt;</type>
@@ -81584,7 +81241,34 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="34" column="11" declfile="MRIOExtras/MRTiff.h" declline="34" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="35" column="11" declfile="MRIOExtras/MRTiff.h" declline="35" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga97262f8abdfe526f36a8127e068508f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::RasterSave::toTiff</definition>
+        <argsstring>(const Raster &amp;raster, const std::filesystem::path &amp;path, const TiffSaveSettings &amp;settings)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>MR::RasterSave::toTiff</qualifiedname>
+        <param>
+          <type>const Raster &amp;</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const TiffSaveSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="51" column="11" declfile="MRIOExtras/MRTiff.h" declline="51" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81608,11 +81292,10 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="43" column="11" declfile="MRIOExtras/MRTiff.h" declline="43" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="52" column="11" declfile="MRIOExtras/MRTiff.h" declline="52" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Image &gt;</type>
@@ -81631,7 +81314,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="52" column="11" declfile="MRIOExtras/MRTiff.h" declline="52" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="61" column="11" declfile="MRIOExtras/MRTiff.h" declline="61" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81654,7 +81337,58 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="60" column="11" declfile="MRIOExtras/MRTiff.h" declline="60" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="69" column="11" declfile="MRIOExtras/MRTiff.h" declline="69" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaca4207193c9429dfa4854457efea6c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; DistanceMap &gt;</type>
+        <definition>Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const DistanceMapLoadSettings &amp;settings={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::DistanceMapLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const DistanceMapLoadSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="78" column="11" declfile="MRIOExtras/MRTiff.h" declline="78" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gab345cb66e5ce36e8727661b2a91f9f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; DistanceMap &gt; MR::DistanceMapLoad::fromTiff</definition>
+        <argsstring>(const std::filesystem::path &amp;path, DistanceMapToWorld &amp;params, ProgressCallback progressCb={})</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>MR::DistanceMapLoad::fromTiff</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>DistanceMapToWorld &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="80" column="32" bodyfile="MRIOExtras/MRTiff.h" bodystart="80" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81682,7 +81416,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="68" column="11" declfile="MRIOExtras/MRTiff.h" declline="68" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="94" column="11" declfile="MRIOExtras/MRTiff.h" declline="94" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -147646,158 +147380,6 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRTextureColors.h" line="26" column="14" declfile="MRMesh/MRTextureColors.h" declline="26" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::BaseTiffParameters::operator==</definition>
-        <argsstring>(const BaseTiffParameters &amp;) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::BaseTiffParameters::operator==</qualifiedname>
-        <param>
-          <type>const BaseTiffParameters &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="40" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::TiffParameters::operator==</definition>
-        <argsstring>(const TiffParameters &amp;) const =default</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::TiffParameters::operator==</qualifiedname>
-        <param>
-          <type>const TiffParameters &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="52" column="10"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga82a781ae507923635d45a1044e8983bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::isTIFFFile</definition>
-        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
-        <name>isTIFFFile</name>
-        <qualifiedname>MR::isTIFFFile</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>returns true if given file is tiff </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="56" column="7" declfile="MRMesh/MRTiffIO.h" declline="56" declcolumn="7"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2d9f515a128f5399a3bb2d923eac2a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; TiffParameters &gt;</type>
-        <definition>Expected&lt; TiffParameters &gt; MR::readTiffParameters</definition>
-        <argsstring>(const std::filesystem::path &amp;path)</argsstring>
-        <name>readTiffParameters</name>
-        <qualifiedname>MR::readTiffParameters</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <briefdescription>
-<para>reads parameters of tiff file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="59" column="11" declfile="MRMesh/MRTiffIO.h" declline="59" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga279ac3e2a1324201295c03e901942929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::readRawTiff</definition>
-        <argsstring>(const std::filesystem::path &amp;path, RawTiffOutput &amp;output)</argsstring>
-        <name>readRawTiff</name>
-        <qualifiedname>MR::readRawTiff</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>RawTiffOutput &amp;</type>
-          <declname>output</declname>
-        </param>
-        <briefdescription>
-<para>load values from tiff to ouput.data </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="79" column="11" declfile="MRMesh/MRTiffIO.h" declline="79" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0f1dc59ecc48a433652dd5d6fa7f86cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::writeRawTiff</definition>
-        <argsstring>(const uint8_t *bytes, const std::filesystem::path &amp;path, const WriteRawTiffParams &amp;params)</argsstring>
-        <name>writeRawTiff</name>
-        <qualifiedname>MR::writeRawTiff</qualifiedname>
-        <param>
-          <type>const uint8_t *</type>
-          <declname>bytes</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>const WriteRawTiffParams &amp;</type>
-          <declname>params</declname>
-        </param>
-        <briefdescription>
-<para>writes bytes to tiff file </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="91" column="11" declfile="MRMesh/MRTiffIO.h" declline="91" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae22fd2b15bcc1e528cb2eb3c7650d520" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::writeRawTiff</definition>
-        <argsstring>(const uint8_t *bytes, const std::filesystem::path &amp;path, const BaseTiffParameters &amp;params, const AffineXf3f *xf)</argsstring>
-        <name>writeRawTiff</name>
-        <qualifiedname>MR::writeRawTiff</qualifiedname>
-        <param>
-          <type>const uint8_t *</type>
-          <declname>bytes</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>path</declname>
-        </param>
-        <param>
-          <type>const BaseTiffParameters &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>xf</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRTiffIO.h" line="94" column="17" bodyfile="MRMesh/MRTiffIO.h" bodystart="94" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga638324ed49e28189a1c35cf398dc6a73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Mesh</type>

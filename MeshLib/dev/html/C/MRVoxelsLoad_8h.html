@@ -149,7 +149,7 @@ $(function(){initNavTree('MRVoxelsLoad_8h.html','',''); });
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a48dc9955a7e911e90a30f8306223fce3" id="r_a48dc9955a7e911e90a30f8306223fce3"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48dc9955a7e911e90a30f8306223fce3">MR_VoxelsLoad_GridType</a></td></tr>
-<tr class="memitem:aeb55c2e7200cad314e4876ce3d2d50a9" id="r_aeb55c2e7200cad314e4876ce3d2d50a9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></td></tr>
+<tr class="memitem:a67e79feb44820d200be6fd57c1090360" id="r_a67e79feb44820d200be6fd57c1090360"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -196,30 +196,30 @@ Functions</h2></td></tr>
 <tr class="memitem:aee47609fb24bf8f15c208bd65a0cfea2" id="r_aee47609fb24bf8f15c208bd65a0cfea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee47609fb24bf8f15c208bd65a0cfea2">MR_VoxelsLoad_fromGav_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:a11896268c70ea93a1189e1a49ea40089" id="r_a11896268c70ea93a1189e1a49ea40089"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11896268c70ea93a1189e1a49ea40089">MR_VoxelsLoad_gridsFromAnySupportedFormat</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memitem:ac51c63e42adaafa76c997bf7e57243cc" id="r_ac51c63e42adaafa76c997bf7e57243cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac51c63e42adaafa76c997bf7e57243cc">MR_VoxelsLoad_fromAnySupportedFormat</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:aa8912e897ed96dc28ba096eec2046e8a" id="r_aa8912e897ed96dc28ba096eec2046e8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8912e897ed96dc28ba096eec2046e8a">MR_VoxelsLoad_LoadingTiffSettings_Get_dir</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:ad266fb0a060dcc4d8dadaf99c3928267" id="r_ad266fb0a060dcc4d8dadaf99c3928267"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad266fb0a060dcc4d8dadaf99c3928267">MR_VoxelsLoad_LoadingTiffSettings_Set_dir</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, const char *value, const char *value_end)</td></tr>
-<tr class="memitem:a20be48a5eaee620097c06f457c55c9a1" id="r_a20be48a5eaee620097c06f457c55c9a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20be48a5eaee620097c06f457c55c9a1">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:a0147a46a348f40ce96674a59aaa2b042" id="r_a0147a46a348f40ce96674a59aaa2b042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0147a46a348f40ce96674a59aaa2b042">MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:aeff961572e1fc4390d5d7d363df57d7d" id="r_aeff961572e1fc4390d5d7d363df57d7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff961572e1fc4390d5d7d363df57d7d">MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
-<tr class="memitem:a5da79e2e4e8a071981b719bc17ed69fd" id="r_a5da79e2e4e8a071981b719bc17ed69fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da79e2e4e8a071981b719bc17ed69fd">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:a3a9880d183d9c1d412afeedfc1a5d535" id="r_a3a9880d183d9c1d412afeedfc1a5d535"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a9880d183d9c1d412afeedfc1a5d535">MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:a28b7293a8999ff7f62842b9d13aec1e9" id="r_a28b7293a8999ff7f62842b9d13aec1e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b7293a8999ff7f62842b9d13aec1e9">MR_VoxelsLoad_LoadingTiffSettings_Set_gridType</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> value)</td></tr>
-<tr class="memitem:a771732e5673994c5cb305a05051fc422" id="r_a771732e5673994c5cb305a05051fc422"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a771732e5673994c5cb305a05051fc422">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:a6e0dc8f72313b22622e4fb5b5d749168" id="r_a6e0dc8f72313b22622e4fb5b5d749168"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e0dc8f72313b22622e4fb5b5d749168">MR_VoxelsLoad_LoadingTiffSettings_Get_cb</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:a04e4ac89ebcfbd947135caa095e07f7e" id="r_a04e4ac89ebcfbd947135caa095e07f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04e4ac89ebcfbd947135caa095e07f7e">MR_VoxelsLoad_LoadingTiffSettings_Set_cb</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
-<tr class="memitem:adf1fe2aaeca45d7e63dbd9eee463d04c" id="r_adf1fe2aaeca45d7e63dbd9eee463d04c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf1fe2aaeca45d7e63dbd9eee463d04c">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memitem:a131e02a16948d22dc6dc25cfebac26e0" id="r_a131e02a16948d22dc6dc25cfebac26e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a131e02a16948d22dc6dc25cfebac26e0">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a8997c99acd68bb0ea17b3885d8968b0d" id="r_a8997c99acd68bb0ea17b3885d8968b0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8997c99acd68bb0ea17b3885d8968b0d">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:aa8b28dc0590689ff3253f1b020e06d06" id="r_aa8b28dc0590689ff3253f1b020e06d06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8b28dc0590689ff3253f1b020e06d06">MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</a> (const char *dir, const char *dir_end, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> gridType, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:a373c3dc98c987a14b9a7f64e064a6286" id="r_a373c3dc98c987a14b9a7f64e064a6286"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a373c3dc98c987a14b9a7f64e064a6286">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:af851854396e80a2a6ff71586bd303862" id="r_af851854396e80a2a6ff71586bd303862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af851854396e80a2a6ff71586bd303862">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a270de112e16d9c71bbe683512efd0cfa" id="r_a270de112e16d9c71bbe683512efd0cfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a270de112e16d9c71bbe683512efd0cfa">MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_other)</td></tr>
-<tr class="memitem:a232ccf76360eabacbd668f5cb7d6af7a" id="r_a232ccf76360eabacbd668f5cb7d6af7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a232ccf76360eabacbd668f5cb7d6af7a">MR_VoxelsLoad_LoadingTiffSettings_Destroy</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memdesc:a232ccf76360eabacbd668f5cb7d6af7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a7dc8b7961625eb5f5923659fb317a30b" id="r_a7dc8b7961625eb5f5923659fb317a30b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dc8b7961625eb5f5923659fb317a30b">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
-<tr class="memdesc:a7dc8b7961625eb5f5923659fb317a30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:aa67b2a467727a9365a09899f7ae70e8f" id="r_aa67b2a467727a9365a09899f7ae70e8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa67b2a467727a9365a09899f7ae70e8f">MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</a> (<a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_other)</td></tr>
-<tr class="memitem:a9a9c31128691bcc88e2fc8132dd4ef1a" id="r_a9a9c31128691bcc88e2fc8132dd4ef1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a9c31128691bcc88e2fc8132dd4ef1a">MR_VoxelsLoad_loadTiffDir</a> (const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *settings)</td></tr>
+<tr class="memitem:aa11db2fdfe0b70c6129d874a4d4337c5" id="r_aa11db2fdfe0b70c6129d874a4d4337c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa11db2fdfe0b70c6129d874a4d4337c5">MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a846a56ce8a87bf7da57717d836e87249" id="r_a846a56ce8a87bf7da57717d836e87249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a846a56ce8a87bf7da57717d836e87249">MR_VoxelsLoad_RasterFolderLoadSettings_Set_dir</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="memitem:a652a9987859cb0f9dd2bfa196e11099c" id="r_a652a9987859cb0f9dd2bfa196e11099c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a652a9987859cb0f9dd2bfa196e11099c">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:ae089794b114c2f2a7d835d946c498e5d" id="r_ae089794b114c2f2a7d835d946c498e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae089794b114c2f2a7d835d946c498e5d">MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a669d131c18a4855934768f7b88615857" id="r_a669d131c18a4855934768f7b88615857"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a669d131c18a4855934768f7b88615857">MR_VoxelsLoad_RasterFolderLoadSettings_Set_voxelSize</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="memitem:a54a9f7782f0a015c1c34d91b6d8eb8de" id="r_a54a9f7782f0a015c1c34d91b6d8eb8de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54a9f7782f0a015c1c34d91b6d8eb8de">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_voxelSize</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:ad8a5b2bbdf0d8a3718e9168f7b6507dc" id="r_ad8a5b2bbdf0d8a3718e9168f7b6507dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a5b2bbdf0d8a3718e9168f7b6507dc">MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a6e7d46892840baa3a945fa17e7cb0b6c" id="r_a6e7d46892840baa3a945fa17e7cb0b6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e7d46892840baa3a945fa17e7cb0b6c">MR_VoxelsLoad_RasterFolderLoadSettings_Set_gridType</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this, <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> value)</td></tr>
+<tr class="memitem:a5b07c7029c71b7c72c2db5b471ef7ad2" id="r_a5b07c7029c71b7c72c2db5b471ef7ad2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b07c7029c71b7c72c2db5b471ef7ad2">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_gridType</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a80baa874464bbcf263e9b33c84b8778f" id="r_a80baa874464bbcf263e9b33c84b8778f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80baa874464bbcf263e9b33c84b8778f">MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:aa04c3f267cb0110a80f0bc54c8e97e0e" id="r_aa04c3f267cb0110a80f0bc54c8e97e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa04c3f267cb0110a80f0bc54c8e97e0e">MR_VoxelsLoad_RasterFolderLoadSettings_Set_cb</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:a87a1e1b513c33ad72314c4d3643e1fc8" id="r_a87a1e1b513c33ad72314c4d3643e1fc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87a1e1b513c33ad72314c4d3643e1fc8">MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:ad05b8b56bead63bc8d985ea3c710288b" id="r_ad05b8b56bead63bc8d985ea3c710288b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad05b8b56bead63bc8d985ea3c710288b">MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a157540e651165096a31a15975e556fb7" id="r_a157540e651165096a31a15975e556fb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a157540e651165096a31a15975e556fb7">MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a5b09a6751681c10c0feabfd14388badf" id="r_a5b09a6751681c10c0feabfd14388badf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b09a6751681c10c0feabfd14388badf">MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom</a> (const char *dir, const char *dir_end, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> gridType, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a5f3d6be556f42b07dca5c3658e5e26d9" id="r_a5f3d6be556f42b07dca5c3658e5e26d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f3d6be556f42b07dca5c3658e5e26d9">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a36057b85cbfaa6988a57e6cad9d3d85f" id="r_a36057b85cbfaa6988a57e6cad9d3d85f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36057b85cbfaa6988a57e6cad9d3d85f">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a863b96fc240c9a0098436a51374c2157" id="r_a863b96fc240c9a0098436a51374c2157"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a863b96fc240c9a0098436a51374c2157">MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_other)</td></tr>
+<tr class="memitem:a7b0da7d1d589691555b792fb72dfecc6" id="r_a7b0da7d1d589691555b792fb72dfecc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b0da7d1d589691555b792fb72dfecc6">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memdesc:a7b0da7d1d589691555b792fb72dfecc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a12a1a0caec74d3815f7db733efccf27e" id="r_a12a1a0caec74d3815f7db733efccf27e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12a1a0caec74d3815f7db733efccf27e">MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this)</td></tr>
+<tr class="memdesc:a12a1a0caec74d3815f7db733efccf27e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:af35eeafd809143e3ac26752683d2d99a" id="r_af35eeafd809143e3ac26752683d2d99a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af35eeafd809143e3ac26752683d2d99a">MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother</a> (<a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *_other)</td></tr>
+<tr class="memitem:a5f91f1d2af44f34cae660b667de1fee7" id="r_a5f91f1d2af44f34cae660b667de1fee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f91f1d2af44f34cae660b667de1fee7">MR_VoxelsLoad_loadRasterFolder</a> (const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *settings)</td></tr>
 <tr class="memitem:a1ef86ceb605d0bffae3b67211a5598b2" id="r_a1ef86ceb605d0bffae3b67211a5598b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef86ceb605d0bffae3b67211a5598b2">MR_makeObjectVoxelsFromFile</a> (const char *file, const char *file_end, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
 <tr class="memitem:a52b39239ae5695304c1d98ff2d13b7bc" id="r_a52b39239ae5695304c1d98ff2d13b7bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52b39239ae5695304c1d98ff2d13b7bc">MR_makeObjectFromVoxelsFile</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
 </table>
@@ -238,18 +238,18 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb55c2e7200cad314e4876ce3d2d50a9" name="aeb55c2e7200cad314e4876ce3d2d50a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb55c2e7200cad314e4876ce3d2d50a9">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings</h2>
+<a id="a67e79feb44820d200be6fd57c1090360" name="a67e79feb44820d200be6fd57c1090360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67e79feb44820d200be6fd57c1090360">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></td>
+          <td class="memname">typedef struct <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -706,16 +706,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa67b2a467727a9365a09899f7ae70e8f" name="aa67b2a467727a9365a09899f7ae70e8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa67b2a467727a9365a09899f7ae70e8f">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother()</h2>
+<a id="a5f91f1d2af44f34cae660b667de1fee7" name="a5f91f1d2af44f34cae660b667de1fee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f91f1d2af44f34cae660b667de1fee7">&#9670;&#160;</a></span>MR_VoxelsLoad_loadRasterFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_loadRasterFolder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load voxels from the raster files of a folder, a layer from each file: the files are those of the extension with a raster loader that most files have, sorted by name; they must have the same RasterInfo, their values are converted by convertRasterToFloats Generated from function <span class="tt">MR::VoxelsLoad::loadRasterFolder</span>. Parameter <span class="tt">settings</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af35eeafd809143e3ac26752683d2d99a" name="af35eeafd809143e3ac26752683d2d99a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af35eeafd809143e3ac26752683d2d99a">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -725,22 +743,22 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::VoxelsLoad::LoadingTiffSettings::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Generated from method <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
-<a id="aa8b28dc0590689ff3253f1b020e06d06" name="aa8b28dc0590689ff3253f1b020e06d06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8b28dc0590689ff3253f1b020e06d06">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom()</h2>
+<a id="a5b09a6751681c10c0feabfd14388badf" name="a5b09a6751681c10c0feabfd14388badf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b09a6751681c10c0feabfd14388badf">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
         </tr>
@@ -771,260 +789,260 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> elementwise. Parameter <span class="tt">dir</span> is a UTF-8 encoded filesystem path. The reference to the parameter <span class="tt">dir</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">voxelSize</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">gridType</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">cb</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a232ccf76360eabacbd668f5cb7d6af7a" title="Destroys a heap-allocated instance of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer ...">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> elementwise. Parameter <span class="tt">dir</span> is a UTF-8 encoded filesystem path. The reference to the parameter <span class="tt">dir</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">voxelSize</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">gridType</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">cb</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a7b0da7d1d589691555b792fb72dfecc6" title="Destroys a heap-allocated instance of MR_VoxelsLoad_RasterFolderLoadSettings. Does nothing if the poi...">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
-<a id="a270de112e16d9c71bbe683512efd0cfa" name="a270de112e16d9c71bbe683512efd0cfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a270de112e16d9c71bbe683512efd0cfa">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother()</h2>
+<a id="a863b96fc240c9a0098436a51374c2157" name="a863b96fc240c9a0098436a51374c2157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a863b96fc240c9a0098436a51374c2157">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <span class="tt">MR::VoxelsLoad::LoadingTiffSettings::LoadingTiffSettings</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a232ccf76360eabacbd668f5cb7d6af7a" title="Destroys a heap-allocated instance of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer ...">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from constructor <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings::RasterFolderLoadSettings</span>. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a7b0da7d1d589691555b792fb72dfecc6" title="Destroys a heap-allocated instance of MR_VoxelsLoad_RasterFolderLoadSettings. Does nothing if the poi...">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a131e02a16948d22dc6dc25cfebac26e0" name="a131e02a16948d22dc6dc25cfebac26e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a131e02a16948d22dc6dc25cfebac26e0">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct()</h2>
+<a id="ad05b8b56bead63bc8d985ea3c710288b" name="ad05b8b56bead63bc8d985ea3c710288b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad05b8b56bead63bc8d985ea3c710288b">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a232ccf76360eabacbd668f5cb7d6af7a" title="Destroys a heap-allocated instance of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer ...">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a7b0da7d1d589691555b792fb72dfecc6" title="Destroys a heap-allocated instance of MR_VoxelsLoad_RasterFolderLoadSettings. Does nothing if the poi...">MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a8997c99acd68bb0ea17b3885d8968b0d" name="a8997c99acd68bb0ea17b3885d8968b0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8997c99acd68bb0ea17b3885d8968b0d">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray()</h2>
+<a id="a157540e651165096a31a15975e556fb7" name="a157540e651165096a31a15975e556fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157540e651165096a31a15975e556fb7">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstructArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a7dc8b7961625eb5f5923659fb317a30b" title="Destroys a heap-allocated array of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer is ...">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#af851854396e80a2a6ff71586bd303862">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a373c3dc98c987a14b9a7f64e064a6286">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr()</a></span> to access the array elements. </p>
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#a12a1a0caec74d3815f7db733efccf27e" title="Destroys a heap-allocated array of MR_VoxelsLoad_RasterFolderLoadSettings. Does nothing if the pointe...">MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a36057b85cbfaa6988a57e6cad9d3d85f">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a5f3d6be556f42b07dca5c3658e5e26d9">MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr()</a></span> to access the array elements. </p>
 
 </div>
 </div>
-<a id="a232ccf76360eabacbd668f5cb7d6af7a" name="a232ccf76360eabacbd668f5cb7d6af7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a232ccf76360eabacbd668f5cb7d6af7a">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Destroy()</h2>
+<a id="a7b0da7d1d589691555b792fb72dfecc6" name="a7b0da7d1d589691555b792fb72dfecc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b0da7d1d589691555b792fb72dfecc6">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Destroy()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_LoadingTiffSettings_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_RasterFolderLoadSettings_Destroy </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></span>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a></span>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
-<a id="a7dc8b7961625eb5f5923659fb317a30b" name="a7dc8b7961625eb5f5923659fb317a30b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dc8b7961625eb5f5923659fb317a30b">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_DestroyArray()</h2>
+<a id="a12a1a0caec74d3815f7db733efccf27e" name="a12a1a0caec74d3815f7db733efccf27e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a1a0caec74d3815f7db733efccf27e">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_LoadingTiffSettings_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_RasterFolderLoadSettings_DestroyArray </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></span>. Does nothing if the pointer is null. </p>
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a></span>. Does nothing if the pointer is null. </p>
 
 </div>
 </div>
-<a id="a6e0dc8f72313b22622e4fb5b5d749168" name="a6e0dc8f72313b22622e4fb5b5d749168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e0dc8f72313b22622e4fb5b5d749168">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_cb()</h2>
+<a id="a80baa874464bbcf263e9b33c84b8778f" name="a80baa874464bbcf263e9b33c84b8778f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80baa874464bbcf263e9b33c84b8778f">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_cb </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_VoxelsLoad_RasterFolderLoadSettings_Get_cb </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">cb</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">cb</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="aa8912e897ed96dc28ba096eec2046e8a" name="aa8912e897ed96dc28ba096eec2046e8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8912e897ed96dc28ba096eec2046e8a">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_dir()</h2>
+<a id="aa11db2fdfe0b70c6129d874a4d4337c5" name="aa11db2fdfe0b70c6129d874a4d4337c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11db2fdfe0b70c6129d874a4d4337c5">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_dir </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_VoxelsLoad_RasterFolderLoadSettings_Get_dir </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">dir</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">dir</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="a3a9880d183d9c1d412afeedfc1a5d535" name="a3a9880d183d9c1d412afeedfc1a5d535"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a9880d183d9c1d412afeedfc1a5d535">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_gridType()</h2>
+<a id="ad8a5b2bbdf0d8a3718e9168f7b6507dc" name="ad8a5b2bbdf0d8a3718e9168f7b6507dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8a5b2bbdf0d8a3718e9168f7b6507dc">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_gridType </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> * MR_VoxelsLoad_RasterFolderLoadSettings_Get_gridType </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">gridType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">gridType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="a0147a46a348f40ce96674a59aaa2b042" name="a0147a46a348f40ce96674a59aaa2b042"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0147a46a348f40ce96674a59aaa2b042">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize()</h2>
+<a id="ae089794b114c2f2a7d835d946c498e5d" name="ae089794b114c2f2a7d835d946c498e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae089794b114c2f2a7d835d946c498e5d">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_RasterFolderLoadSettings_Get_voxelSize </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">voxelSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">voxelSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="adf1fe2aaeca45d7e63dbd9eee463d04c" name="adf1fe2aaeca45d7e63dbd9eee463d04c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf1fe2aaeca45d7e63dbd9eee463d04c">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb()</h2>
+<a id="a87a1e1b513c33ad72314c4d3643e1fc8" name="a87a1e1b513c33ad72314c4d3643e1fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a1e1b513c33ad72314c4d3643e1fc8">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_cb </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">cb</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">cb</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="a20be48a5eaee620097c06f457c55c9a1" name="a20be48a5eaee620097c06f457c55c9a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20be48a5eaee620097c06f457c55c9a1">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir()</h2>
+<a id="a652a9987859cb0f9dd2bfa196e11099c" name="a652a9987859cb0f9dd2bfa196e11099c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a652a9987859cb0f9dd2bfa196e11099c">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPly_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_dir </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">dir</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">dir</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="a771732e5673994c5cb305a05051fc422" name="a771732e5673994c5cb305a05051fc422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a771732e5673994c5cb305a05051fc422">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType()</h2>
+<a id="a5b07c7029c71b7c72c2db5b471ef7ad2" name="a5b07c7029c71b7c72c2db5b471ef7ad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b07c7029c71b7c72c2db5b471ef7ad2">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_gridType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ade81850d307663037a73e44454100a3e">MR_VoxelsLoad_GridType</a> * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_gridType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">gridType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">gridType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="a5da79e2e4e8a071981b719bc17ed69fd" name="a5da79e2e4e8a071981b719bc17ed69fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5da79e2e4e8a071981b719bc17ed69fd">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize()</h2>
+<a id="a54a9f7782f0a015c1c34d91b6d8eb8de" name="a54a9f7782f0a015c1c34d91b6d8eb8de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a9f7782f0a015c1c34d91b6d8eb8de">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_voxelSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_RasterFolderLoadSettings_GetMutable_voxelSize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">voxelSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Returns a mutable pointer to a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">voxelSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
-<a id="af851854396e80a2a6ff71586bd303862" name="af851854396e80a2a6ff71586bd303862"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af851854396e80a2a6ff71586bd303862">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr()</h2>
+<a id="a36057b85cbfaa6988a57e6cad9d3d85f" name="a36057b85cbfaa6988a57e6cad9d3d85f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36057b85cbfaa6988a57e6cad9d3d85f">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_OffsetMutablePtr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1037,16 +1055,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a373c3dc98c987a14b9a7f64e064a6286" name="a373c3dc98c987a14b9a7f64e064a6286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a373c3dc98c987a14b9a7f64e064a6286">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr()</h2>
+<a id="a5f3d6be556f42b07dca5c3658e5e26d9" name="a5f3d6be556f42b07dca5c3658e5e26d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3d6be556f42b07dca5c3658e5e26d9">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> * MR_VoxelsLoad_RasterFolderLoadSettings_OffsetPtr </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1059,16 +1077,16 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04e4ac89ebcfbd947135caa095e07f7e" name="a04e4ac89ebcfbd947135caa095e07f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04e4ac89ebcfbd947135caa095e07f7e">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_cb()</h2>
+<a id="aa04c3f267cb0110a80f0bc54c8e97e0e" name="aa04c3f267cb0110a80f0bc54c8e97e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04c3f267cb0110a80f0bc54c8e97e0e">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Set_cb()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_LoadingTiffSettings_Set_cb </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_RasterFolderLoadSettings_Set_cb </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1082,20 +1100,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">cb</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">cb</span>. When this function is called, this object will drop object references it held previously in <span class="tt">cb</span>. </p>
+<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">cb</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">cb</span>. When this function is called, this object will drop object references it held previously in <span class="tt">cb</span>. </p>
 
 </div>
 </div>
-<a id="ad266fb0a060dcc4d8dadaf99c3928267" name="ad266fb0a060dcc4d8dadaf99c3928267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad266fb0a060dcc4d8dadaf99c3928267">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_dir()</h2>
+<a id="a846a56ce8a87bf7da57717d836e87249" name="a846a56ce8a87bf7da57717d836e87249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846a56ce8a87bf7da57717d836e87249">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Set_dir()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_LoadingTiffSettings_Set_dir </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_RasterFolderLoadSettings_Set_dir </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1109,20 +1127,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">dir</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> is a UTF-8 encoded filesystem path. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">dir</span>. When this function is called, this object will drop object references it held previously in <span class="tt">dir</span>. </p>
+<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">dir</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> is a UTF-8 encoded filesystem path. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">dir</span>. When this function is called, this object will drop object references it held previously in <span class="tt">dir</span>. </p>
 
 </div>
 </div>
-<a id="a28b7293a8999ff7f62842b9d13aec1e9" name="a28b7293a8999ff7f62842b9d13aec1e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28b7293a8999ff7f62842b9d13aec1e9">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_gridType()</h2>
+<a id="a6e7d46892840baa3a945fa17e7cb0b6c" name="a6e7d46892840baa3a945fa17e7cb0b6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7d46892840baa3a945fa17e7cb0b6c">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Set_gridType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_LoadingTiffSettings_Set_gridType </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_RasterFolderLoadSettings_Set_gridType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1131,20 +1149,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">gridType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">gridType</span>. When this function is called, this object will drop object references it held previously in <span class="tt">gridType</span>. </p>
+<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">gridType</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">gridType</span>. When this function is called, this object will drop object references it held previously in <span class="tt">gridType</span>. </p>
 
 </div>
 </div>
-<a id="aeff961572e1fc4390d5d7d363df57d7d" name="aeff961572e1fc4390d5d7d363df57d7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeff961572e1fc4390d5d7d363df57d7d">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize()</h2>
+<a id="a669d131c18a4855934768f7b88615857" name="a669d131c18a4855934768f7b88615857"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a669d131c18a4855934768f7b88615857">&#9670;&#160;</a></span>MR_VoxelsLoad_RasterFolderLoadSettings_Set_voxelSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VoxelsLoad_RasterFolderLoadSettings_Set_voxelSize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a67e79feb44820d200be6fd57c1090360">MR_VoxelsLoad_RasterFolderLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1153,25 +1171,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::LoadingTiffSettings</span> named <span class="tt">voxelSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">voxelSize</span>. When this function is called, this object will drop object references it held previously in <span class="tt">voxelSize</span>. </p>
-
-</div>
-</div>
-<a id="a9a9c31128691bcc88e2fc8132dd4ef1a" name="a9a9c31128691bcc88e2fc8132dd4ef1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a9c31128691bcc88e2fc8132dd4ef1a">&#9670;&#160;</a></span>MR_VoxelsLoad_loadTiffDir()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_loadTiffDir </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#aeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Load voxels from a set of TIFF files Generated from function <span class="tt">MR::VoxelsLoad::loadTiffDir</span>. Parameter <span class="tt">settings</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Modifies a member variable of class <span class="tt">MR::VoxelsLoad::RasterFolderLoadSettings</span> named <span class="tt">voxelSize</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">voxelSize</span>. When this function is called, this object will drop object references it held previously in <span class="tt">voxelSize</span>. </p>
 
 </div>
 </div>

@@ -139,6 +139,8 @@ $(function(){initNavTree('classMR_1_1DistanceMapLoad.html','','classMR_1_1Distan
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a14f9d19844f30c80e3d9e795f15edce1" id="r_a14f9d19844f30c80e3d9e795f15edce1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1DistanceMap.html">MR.DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14f9d19844f30c80e3d9e795f15edce1">fromTiff</a> (string path, <a class="el" href="classMR_1_1Const__DistanceMapLoadSettings.html">MR.Const_DistanceMapLoadSettings</a>? settings=null)</td></tr>
+<tr class="memdesc:a14f9d19844f30c80e3d9e795f15edce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none Generated from function <span class="tt"><a class="el" href="#a14f9d19844f30c80e3d9e795f15edce1" title="loads the first image of a .tiff file: one channel is taken as is, three or more channels give the lu...">MR.DistanceMapLoad.fromTiff</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ab8f7534506e4b5989d5ae1a76738abba" id="r_ab8f7534506e4b5989d5ae1a76738abba"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1DistanceMap.html">MR.DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8f7534506e4b5989d5ae1a76738abba">fromRaw</a> (string path, <a class="el" href="classMR_1_1Const__DistanceMapLoadSettings.html">MR.Const_DistanceMapLoadSettings</a>? settings=null)</td></tr>
 <tr class="memdesc:ab8f7534506e4b5989d5ae1a76738abba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="classMR_1_1DistanceMap.html" title="this class allows to store distances from the plane in particular pixels validVerts keeps only pixels...">DistanceMap</a> from binary file Format: 2 integer - <a class="el" href="classMR_1_1Const__DistanceMap.html#a992ede508df7c0eee9dcbc49ec06ef1c" title="returns X resolution Generated from method MR.DistanceMap.resX.">DistanceMap.resX</a> &amp; <a class="el" href="classMR_1_1Const__DistanceMap.html#aa9232afcbcb100e7122e15b04bd09b1b" title="returns Y resolution Generated from method MR.DistanceMap.resY.">DistanceMap.resY</a> [resX * resY] float - matrix of values Generated from function <span class="tt"><a class="el" href="#ab8f7534506e4b5989d5ae1a76738abba" title="Load DistanceMap from binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap....">MR.DistanceMapLoad.fromRaw</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:aead3d31ae57eff03c26fbd715a4f3e15" id="r_aead3d31ae57eff03c26fbd715a4f3e15"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1DistanceMap.html">MR.DistanceMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead3d31ae57eff03c26fbd715a4f3e15">fromMrDistanceMap</a> (string path, <a class="el" href="classMR_1_1Const__DistanceMapLoadSettings.html">MR.Const_DistanceMapLoadSettings</a>? settings=null)</td></tr>
@@ -240,7 +242,39 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="a14f9d19844f30c80e3d9e795f15edce1" name="a14f9d19844f30c80e3d9e795f15edce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f9d19844f30c80e3d9e795f15edce1">&#9670;&#160;</a></span>fromTiff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1DistanceMap.html">MR.DistanceMap</a> MR.DistanceMapLoad.fromTiff </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__DistanceMapLoadSettings.html">MR.Const_DistanceMapLoadSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none Generated from function <span class="tt"><a class="el" href="#a14f9d19844f30c80e3d9e795f15edce1" title="loads the first image of a .tiff file: one channel is taken as is, three or more channels give the lu...">MR.DistanceMapLoad.fromTiff</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="MRTiff_8cs.html">MRTiff.cs</a></li>
 <li><a class="el" href="MRDistanceMapLoad_8cs.html">MRDistanceMapLoad.cs</a></li>
 </ul>
 </div><!-- contents -->

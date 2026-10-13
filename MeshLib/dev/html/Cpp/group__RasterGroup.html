@@ -151,9 +151,67 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gadcb09b212975aa3c7b3267ef39c306e1" id="r_gadcb09b212975aa3c7b3267ef39c306e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadcb09b212975aa3c7b3267ef39c306e1">MR::convertRasterToImage</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster)</td></tr>
+<tr class="memitem:gafac7517a903175c5a262beba1b91f775" id="r_gafac7517a903175c5a262beba1b91f775"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafac7517a903175c5a262beba1b91f775">MR::convertRasterToFloats</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster, float *dst, size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:ga9ef3666bc6712baf860863656831fa63" id="r_ga9ef3666bc6712baf860863656831fa63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9ef3666bc6712baf860863656831fa63">MR::convertRasterToFloats</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster, std::vector&lt; float &gt; &amp;dst)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="gafac7517a903175c5a262beba1b91f775" name="gafac7517a903175c5a262beba1b91f775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafac7517a903175c5a262beba1b91f775">&#9670;&#160;</a></span>convertRasterToFloats() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::convertRasterToFloats </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>raster</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>dst</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRaster_8h.html">MRMesh/MRRaster.h</a>&gt;</code></p>
+<p>converts the values of a raster to floats in dst, which has room for size = dims.x * dims.y * dims.z values, in the order of the raster:</p><ul>
+<li>one channel is taken as is;</li>
+<li>three or more channels give the luma 0.299 R + 0.587 G + 0.114 B of the first three; fails for two channels, an unknown type, data whose size does not match the dimensions, or another size </li>
+</ul>
+
+</div>
+</div>
+<a id="ga9ef3666bc6712baf860863656831fa63" name="ga9ef3666bc6712baf860863656831fa63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ef3666bc6712baf860863656831fa63">&#9670;&#160;</a></span>convertRasterToFloats() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::convertRasterToFloats </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>raster</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>dst</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRaster_8h.html">MRMesh/MRRaster.h</a>&gt;</code></p>
+<p>converts the values of a raster to floats as above, dst is resized to dims.x * dims.y * dims.z values (memory is reallocated only if its capacity is too small) </p>
+
+</div>
+</div>
 <a id="gadcb09b212975aa3c7b3267ef39c306e1" name="gadcb09b212975aa3c7b3267ef39c306e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadcb09b212975aa3c7b3267ef39c306e1">&#9670;&#160;</a></span>convertRasterToImage()</h2>
 

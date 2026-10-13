@@ -131,6 +131,7 @@ $(function(){initNavTree('MRTiff_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRTiff.h File Reference</div></div>
@@ -138,14 +139,20 @@ $(function(){initNavTree('MRTiff_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRIOExtras_2config_8h_source.html">config.h</a>&quot;</code><br />
 <code>#include &quot;exports.h&quot;</code><br />
-<code>#include &lt;<a class="el" href="MRDistanceMapParams_8h_source.html">MRMesh/MRDistanceMapParams.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRDistanceMap_8h_source.html">MRMesh/MRDistanceMap.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRExpected_8h_source.html">MRMesh/MRExpected.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRRaster_8h_source.html">MRMesh/MRRaster.h</a>&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRTiff_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:MR_3A_3ATiffSaveSettings" id="r_MR_3A_3ATiffSaveSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TiffSaveSettings.html">MR::TiffSaveSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">settings for saving rasters in .tiff format  <a href="structMR_1_1TiffSaveSettings.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
@@ -154,6 +161,7 @@ Namespaces</h2></td></tr>
 <tr class="memitem:MR_3A_3ARasterSave" id="r_MR_3A_3ARasterSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1RasterSave.html">MR::RasterSave</a></td></tr>
 <tr class="memitem:MR_3A_3AImageLoad" id="r_MR_3A_3AImageLoad"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageLoad.html">MR::ImageLoad</a></td></tr>
 <tr class="memitem:MR_3A_3AImageSave" id="r_MR_3A_3AImageSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ImageSave.html">MR::ImageSave</a></td></tr>
+<tr class="memitem:MR_3A_3ADistanceMapLoad" id="r_MR_3A_3ADistanceMapLoad"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapLoad.html">MR::DistanceMapLoad</a></td></tr>
 <tr class="memitem:MR_3A_3ADistanceMapSave" id="r_MR_3A_3ADistanceMapSave"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1DistanceMapSave.html">MR::DistanceMapSave</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
@@ -161,10 +169,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4cb4aac0a47a9d901d24247625ebc4f9" id="r_ga4cb4aac0a47a9d901d24247625ebc4f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Raster.html">Raster</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9">MR::RasterLoad::fromTiff</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1RasterLoadSettings.html">RasterLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga937e9face092516582310b4330dfc8da" id="r_ga937e9face092516582310b4330dfc8da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1RasterInfo.html">RasterInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga937e9face092516582310b4330dfc8da">MR::RasterLoad::infoFromTiff</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga937e9face092516582310b4330dfc8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads everything about the raster except its values from .tiff format  <br /></td></tr>
+<tr class="memitem:ga97262f8abdfe526f36a8127e068508f6" id="r_ga97262f8abdfe526f36a8127e068508f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga97262f8abdfe526f36a8127e068508f6">MR::RasterSave::toTiff</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1TiffSaveSettings.html">TiffSaveSettings</a> &amp;settings)</td></tr>
 <tr class="memitem:ga75f16c022a45b2f8a627a948a9390653" id="r_ga75f16c022a45b2f8a627a948a9390653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga75f16c022a45b2f8a627a948a9390653">MR::RasterSave::toTiff</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga7aa85481e130d6308bc8ddae1581f9c4" id="r_ga7aa85481e130d6308bc8ddae1581f9c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4">MR::ImageLoad::fromTiff</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memitem:ga15e4b1b6ede3c72f01803bf8178f5203" id="r_ga15e4b1b6ede3c72f01803bf8178f5203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga15e4b1b6ede3c72f01803bf8178f5203">MR::ImageSave::toTiff</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga15e4b1b6ede3c72f01803bf8178f5203"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
+<tr class="memitem:gaca4207193c9429dfa4854457efea6c23" id="r_gaca4207193c9429dfa4854457efea6c23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:gab345cb66e5ce36e8727661b2a91f9f02" id="r_gab345cb66e5ce36e8727661b2a91f9f02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab345cb66e5ce36e8727661b2a91f9f02">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
 <tr class="memitem:gabd82d0afb5ae771e7c73d41a9c8d7a91" id="r_gabd82d0afb5ae771e7c73d41a9c8d7a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabd82d0afb5ae771e7c73d41a9c8d7a91">MR::DistanceMapSave::toTiff</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;dmap, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:gabd82d0afb5ae771e7c73d41a9c8d7a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
 </table>

@@ -141,9 +141,21 @@ $(function(){initNavTree('structMR_1_1RasterSaveSettings.html','','structMR_1_1R
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRRaster_8h_source.html">MRMesh/MRRaster.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::RasterSaveSettings:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="structMR_1_1RasterSaveSettings.png" usemap="#MR_3A_3ARasterSaveSettings_map" alt=""/>
+  <map id="MR_3A_3ARasterSaveSettings_map" name="MR_3A_3ARasterSaveSettings_map">
+<area href="structMR_1_1TiffSaveSettings.html" title="settings for saving rasters in .tiff format" alt="MR::TiffSaveSettings" shape="rect" coords="0,56,146,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a96a20d4c5e859028ef66fd98db8fd14b" id="r_a96a20d4c5e859028ef66fd98db8fd14b"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a20d4c5e859028ef66fd98db8fd14b">xf</a> = nullptr</td></tr>
+<tr class="memdesc:a96a20d4c5e859028ef66fd98db8fd14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF)  <br /></td></tr>
 <tr class="memitem:a04b466bdf3c5f2d7e08030e4cd463ee8" id="r_a04b466bdf3c5f2d7e08030e4cd463ee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b466bdf3c5f2d7e08030e4cd463ee8">progress</a></td></tr>
 <tr class="memdesc:a04b466bdf3c5f2d7e08030e4cd463ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report save progress and cancel saving if user desires  <br /></td></tr>
 </table>
@@ -163,6 +175,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>to report save progress and cancel saving if user desires </p>
+
+</div>
+</div>
+<a id="a96a20d4c5e859028ef66fd98db8fd14b" name="a96a20d4c5e859028ef66fd98db8fd14b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a20d4c5e859028ef66fd98db8fd14b">&#9670;&#160;</a></span>xf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const AffineXf3f* MR::RasterSaveSettings::xf = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) </p>
 
 </div>
 </div>
