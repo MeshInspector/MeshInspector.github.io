@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"classMR_1_1ObjBitSet.html#af5d676598c18b95c525c5f42dceae639":[9,3,0,0,0,1472,13],
 "classMR_1_1ObjBitSet.html#af807daaa5b27ad4f847428fe98723b20":[9,3,0,0,0,1472,33],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle.html":[9,3,0,0,0,1492],
 "classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle.html#a175a1ac53ec6d6aae1d5754cb52ce1b2":[9,3,0,0,0,1492,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "classMR_1_1ObjectGcode.html#a8679fec7b335886a191e90fa0970e5e9":[9,3,0,0,0,1478,9],
 "classMR_1_1ObjectGcode.html#a8899b319ece2a964a3da97eb1942883b":[9,3,0,0,0,1478,35],
 "classMR_1_1ObjectGcode.html#a9339703a4a5dd89485bda64b4fd3c275":[9,3,0,0,0,1478,4],
-"classMR_1_1ObjectGcode.html#a9c1605d9e9740f4184dc398ec5cf2aad":[9,3,0,0,0,1478,63],
-"classMR_1_1ObjectGcode.html#aa55ef0f15759291eb7ad6f3851c73e3b":[9,3,0,0,0,1478,58]
+"classMR_1_1ObjectGcode.html#a9c1605d9e9740f4184dc398ec5cf2aad":[9,3,0,0,0,1478,63]
 };

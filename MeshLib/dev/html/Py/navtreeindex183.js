@@ -1,5 +1,6 @@
 var NAVTREEINDEX183 =
 {
+"classmrviewerpy_1_1ViewportFitMode.html#ad46aa62e401a73ef6b430857f49f6369":[9,1,1,0,2,14,1],
 "dir_3ecdc24727f96bbda5b63fed27130143.html":[9,1,2,0,0,1],
 "dir_6839f4d55b09e3f2df4fa17a7f4dfccc.html":[9,1,2,0,0,1,0,0],
 "dir_962aa80361c9e62a441b8bc61ef6a9df.html":[9,1,2,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX183 =
 "namespacemrmeshpy.html#a04750adee27f3cc82c9073ef7997b1e9":[9,1,0,0,2,3243],
 "namespacemrmeshpy.html#a04a9b844838421165558ffac548c5686":[9,1,0,0,2,3301],
 "namespacemrmeshpy.html#a04abf9378e5ecea271c7fc712a710a6a":[9,1,0,0,2,2402],
-"namespacemrmeshpy.html#a04d0b5f01bb90030cc4735f7153ed6cb":[9,1,0,0,2,2496],
-"namespacemrmeshpy.html#a04d7458be8619e39367a06d9ef6b4c10":[9,1,0,0,2,1337]
+"namespacemrmeshpy.html#a04d0b5f01bb90030cc4735f7153ed6cb":[9,1,0,0,2,2496]
 };

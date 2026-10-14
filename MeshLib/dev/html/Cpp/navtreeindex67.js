@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"structMR_1_1MeshOrPoints_1_1ProjectionResult.html":[9,0,0,20,373],
 "structMR_1_1MeshPoint.html":[9,0,0,20,378],
 "structMR_1_1MeshPointAndDistance.html":[9,0,0,20,175],
 "structMR_1_1MeshProjectionParameters.html":[9,0,0,20,462],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[9,0,1,0,1,35,2,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[9,0,2,0,2,22,2,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[9,0,1,0,1,35,2,2],
-"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[9,0,2,0,2,22,2,2],
-"structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[9,0,1,0,1,35,2,0]
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[9,0,2,0,2,22,2,2]
 };

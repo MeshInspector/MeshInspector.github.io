@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7":[9,1,1,0,1,856,6],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a2b5fbdca0b14f5275750244753139c32":[9,1,0,0,2,856,3],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a2b5fbdca0b14f5275750244753139c32":[9,1,1,0,1,856,3],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a3328395be3db3f551233b9c2ac9c6469":[9,1,0,0,2,856,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1SkyPatch.html#a4ed3fe4aa8891dfe64b14a70d2bda761":[9,1,1,0,1,870,5],
 "classmrmeshpy_1_1SkyPatch.html#a66f0f2f892e4cd73af3ad1d35e8c6a92":[9,1,0,0,2,870,3],
 "classmrmeshpy_1_1SkyPatch.html#a66f0f2f892e4cd73af3ad1d35e8c6a92":[9,1,1,0,1,870,3],
-"classmrmeshpy_1_1SkyPatch.html#aa4a088c9afe686d8580e953d55e84a79":[9,1,0,0,2,870,2],
-"classmrmeshpy_1_1SkyPatch.html#aa4a088c9afe686d8580e953d55e84a79":[9,1,1,0,1,870,2]
+"classmrmeshpy_1_1SkyPatch.html#aa4a088c9afe686d8580e953d55e84a79":[9,1,0,0,2,870,2]
 };

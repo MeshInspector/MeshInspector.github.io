@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1FaceSetBitIterator.html#a76e31410796bbf2f51077fab355cad7a":[9,3,0,0,0,1212,6],
 "classMR_1_1FaceSetBitIterator.html#a79cded9a146482a3456f9a91be564df0":[9,3,0,0,0,1212,5],
 "classMR_1_1FaceSetBitIterator.html#a9774b4e76265fd909a79c8e4cb1dec73":[9,3,0,0,0,1212,1],
 "classMR_1_1FaceSetBitIterator.html#ae4da90c5d90adb6d3f2539b31f202423":[9,3,0,0,0,1212,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#af9ef97094715969cea959866a8f44435":[9,3,0,0,0,1220,0,5,0],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#afc15e24fa43ea2c144a8678efe0d08a1":[9,3,0,0,0,1220,0,5,5],
 "classMR_1_1Features_1_1Const__SubfeatureInfo.html":[9,3,0,0,0,1220,1],
-"classMR_1_1Features_1_1Const__SubfeatureInfo.html#a04102749b72368813a4db314f659df7a":[9,3,0,0,0,1220,1,1],
-"classMR_1_1Features_1_1Const__SubfeatureInfo.html#a399d4b9b4ce3ce9ec78d6f02f28b6ab0":[9,3,0,0,0,1220,1,0]
+"classMR_1_1Features_1_1Const__SubfeatureInfo.html#a04102749b72368813a4db314f659df7a":[9,3,0,0,0,1220,1,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"std__filesystem__path_8h.html#affb783a4579158cb3356e29f03589313":[9,2,2,0,0,0,0,2,120,8],
 "std__filesystem__path_8h_source.html":[9,2,2,0,0,0,0,2,120],
 "std__function__MR__AABBTreePoints_8h.html":[9,2,2,0,0,0,0,2,157],
 "std__function__MR__AABBTreePoints_8h.html#a14490c30ba13b907d723e39c3cc0c7fb":[9,2,2,0,0,0,0,2,157,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a4844cc8815e978bc4880fee051d0d301":[9,2,2,0,0,0,0,2,170,2],
 "std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a5de71fe9c7dcb5e0363c9d5580bc3659":[9,2,2,0,0,0,0,2,170,0],
 "std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a682ec98ccae8c748e21b6156d7e57a3a":[9,2,2,0,0,0,0,2,170,6],
-"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a687d72157a2ff9ce30a71f65bf56db56":[9,2,2,0,0,0,0,2,170,4],
-"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a7bfedc5b8eceaf7e4486ad6e9ad8e7bc":[9,2,2,0,0,0,0,2,170,12]
+"std__function__MR__Vector2i__from__const__MR__Vector2f__ref_8h.html#a687d72157a2ff9ce30a71f65bf56db56":[9,2,2,0,0,0,0,2,170,4]
 };

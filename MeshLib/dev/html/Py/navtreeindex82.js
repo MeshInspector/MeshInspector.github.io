@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1QuarterBit.html#a76f1f44c78b13d584e16420d73ac0668":[9,1,1,0,1,809,11],
 "classmrmeshpy_1_1QuarterBit.html#a77e39586d828a0aa983c02c8dd76500e":[9,1,0,0,2,809,5],
 "classmrmeshpy_1_1QuarterBit.html#a77e39586d828a0aa983c02c8dd76500e":[9,1,1,0,1,809,5],
 "classmrmeshpy_1_1QuarterBit.html#a799a0b3517838ab72f1f27b5d0b8a11b":[9,1,0,0,2,809,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html#a3e6d86b55d8236fb933837f7d38b01f6":[9,1,1,0,1,815,0,0],
 "classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html#a4868b617fb17188e257efe7e1f035a33":[9,1,0,0,2,815,0,3],
 "classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html#a4868b617fb17188e257efe7e1f035a33":[9,1,1,0,1,815,0,3],
-"classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html#a82546cee8ba2b6a5da69574887c2b493":[9,1,0,0,2,815,0,4],
-"classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html#a82546cee8ba2b6a5da69574887c2b493":[9,1,1,0,1,815,0,4]
+"classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html#a82546cee8ba2b6a5da69574887c2b493":[9,1,0,0,2,815,0,4]
 };

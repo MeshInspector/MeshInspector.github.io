@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"classmrmeshpy_1_1PlaneAccumulator.html#a171cc751df2efa2bca623f77d8287248":[9,1,1,0,1,734,4],
 "classmrmeshpy_1_1PlaneAccumulator.html#a19d87d687549bdf6d439a6732199b359":[9,1,0,0,2,734,1],
 "classmrmeshpy_1_1PlaneAccumulator.html#a19d87d687549bdf6d439a6732199b359":[9,1,1,0,1,734,1],
 "classmrmeshpy_1_1PlaneAccumulator.html#a506caa1154591a3eaa37dc74975a54cc":[9,1,0,0,2,734,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "classmrmeshpy_1_1PointCloudPart.html#ac93332c39dc61df710b4bbabbfe51b09":[9,1,1,0,1,742,2],
 "classmrmeshpy_1_1PointCloudPart.html#afbb0bc341082083082dc72b0f204f69b":[9,1,0,0,2,742,5],
 "classmrmeshpy_1_1PointCloudPart.html#afbb0bc341082083082dc72b0f204f69b":[9,1,1,0,1,742,5],
-"classmrmeshpy_1_1PointCloudRelaxParams.html":[9,1,0,0,2,743],
-"classmrmeshpy_1_1PointCloudRelaxParams.html":[9,1,1,0,1,743]
+"classmrmeshpy_1_1PointCloudRelaxParams.html":[9,1,0,0,2,743]
 };

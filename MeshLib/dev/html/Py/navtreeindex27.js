@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066":[9,1,1,0,1,246,5],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a6c11416670b874ffef55a72bb27f6d55":[9,1,0,0,2,246,2],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a6c11416670b874ffef55a72bb27f6d55":[9,1,1,0,1,246,2],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a7133d23695f2ea4e087363c30f1f520b":[9,1,0,0,2,246,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1EdgeSegmentd.html#a41b09fb9c0d69c7bcb06e2a859ee366a":[9,1,1,0,1,253,5],
 "classmrmeshpy_1_1EdgeSegmentd.html#a472b08665b0b6f646295166f93142619":[9,1,0,0,2,253,11],
 "classmrmeshpy_1_1EdgeSegmentd.html#a472b08665b0b6f646295166f93142619":[9,1,1,0,1,253,11],
-"classmrmeshpy_1_1EdgeSegmentd.html#a4dc70920b981d7080b0f4057246134e3":[9,1,0,0,2,253,9],
-"classmrmeshpy_1_1EdgeSegmentd.html#a4dc70920b981d7080b0f4057246134e3":[9,1,1,0,1,253,9]
+"classmrmeshpy_1_1EdgeSegmentd.html#a4dc70920b981d7080b0f4057246134e3":[9,1,0,0,2,253,9]
 };

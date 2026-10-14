@@ -58,10 +58,11 @@ var NAVTREEINDEX0 =
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
 "../MeshLibCSharpSetupGuide.html":[2,2],
-"../MeshLibCmakeSetupGuide.html":[2,5],
+"../MeshLibCmakeSetupGuide.html":[2,6],
 "../MeshLibCppSetupGuide.html":[2,1],
 "../MeshLibJsSetupGuide.html":[2,4],
 "../MeshLibPythonSetupGuide.html":[2,0],
+"../MeshLibRustSetupGuide.html":[2,5],
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRIteratorRange_8cs.html":[9,3,1,0,0,0,2,142],
 "MRJpeg_8cs.html":[9,3,1,0,0,0,1,7],
 "MRLaplacian_8cs.html":[9,3,1,0,0,0,2,143],
-"MRLas_8cs.html":[9,3,1,0,0,0,1,8],
-"MRLevelOfDetails_8cs.html":[9,3,1,0,0,0,2,144]
+"MRLas_8cs.html":[9,3,1,0,0,0,1,8]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a39c3a20e7c69203c9a1f4101f8b2ef82":[9,0,2,0,2,32,4,1],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a72e91164e356ea478b0e5df93aaed69c":[9,0,1,0,1,48,4,4],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a72e91164e356ea478b0e5df93aaed69c":[9,0,2,0,2,32,4,4],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#ae504a5e70f7acf22ea7a2989e0069f35":[9,0,1,0,1,48,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1ViewportMask.html#ae1fc607d938397dac12f6acafd1de9e7":[9,0,0,11,1,1,13],
 "classMR_1_1ViewportParametersAction.html":[9,0,0,4,44],
 "classMR_1_1ViewportProperty.html":[9,0,0,11,1,3],
-"classMR_1_1ViewportProperty.html":[9,0,0,20,356],
-"classMR_1_1ViewportProperty.html#a08a3a7775fba5eb3fce855a27cf8d586":[9,0,0,11,1,3,0]
+"classMR_1_1ViewportProperty.html":[9,0,0,20,356]
 };

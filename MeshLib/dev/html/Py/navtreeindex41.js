@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1ICPProperties.html#af1bbeaaac190bd8f3ca8a15fd913c60b":[9,1,1,0,1,427,22],
 "classmrmeshpy_1_1ICPProperties.html#af2f40a01fa7403de3234b88f6cf3656f":[9,1,0,0,2,427,2],
 "classmrmeshpy_1_1ICPProperties.html#af2f40a01fa7403de3234b88f6cf3656f":[9,1,1,0,1,427,2],
 "classmrmeshpy_1_1IComputePointsToDistanceFunctionVolume.html":[9,1,0,0,2,416],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1InSphereResult.html#ad35f7c4c4af179108403700ce3f84149":[9,1,1,0,1,441,10],
 "classmrmeshpy_1_1InSphereSearchSettings.html":[9,1,0,0,2,442],
 "classmrmeshpy_1_1InSphereSearchSettings.html":[9,1,1,0,1,442],
-"classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[9,1,0,0,2,442,4],
-"classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[9,1,1,0,1,442,4]
+"classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[9,1,0,0,2,442,4]
 };

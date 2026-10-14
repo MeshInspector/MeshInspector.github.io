@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classmrmeshpy_1_1MeshBuilder_1_1VertDuplication.html#ab241d0d547e49b7464138f9f0be63597":[9,1,1,0,1,543,5,1],
 "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html":[9,1,0,0,2,543,7],
 "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html":[9,1,1,0,1,543,7],
 "classmrmeshpy_1_1MeshBuilder_1_1VertInfo.html#a124bb6326ff57743f781061922874a6e":[9,1,0,0,2,543,7,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1MeshIntersectionResult.html#aa0bce6664cf9819a32afacec3dc4445b":[9,1,1,0,1,548,9],
 "classmrmeshpy_1_1MeshIntersectionResult.html#aaa1362d44ecaa8bc05dd891fe1f247ac":[9,1,0,0,2,548,4],
 "classmrmeshpy_1_1MeshIntersectionResult.html#aaa1362d44ecaa8bc05dd891fe1f247ac":[9,1,1,0,1,548,4],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aab887a864c34bb0615beb70031f4e53a":[9,1,0,0,2,548,6],
-"classmrmeshpy_1_1MeshIntersectionResult.html#aab887a864c34bb0615beb70031f4e53a":[9,1,1,0,1,548,6]
+"classmrmeshpy_1_1MeshIntersectionResult.html#aab887a864c34bb0615beb70031f4e53a":[9,1,0,0,2,548,6]
 };

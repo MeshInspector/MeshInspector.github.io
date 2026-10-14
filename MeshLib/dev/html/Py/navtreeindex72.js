@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1OutlierTypeMask.html#af70a635c5651e92615f9c78debaf39ef":[9,1,1,0,1,691,19],
 "classmrmeshpy_1_1OutliersDetector.html":[9,1,0,0,2,690],
 "classmrmeshpy_1_1OutliersDetector.html":[9,1,1,0,1,690],
 "classmrmeshpy_1_1OutliersDetector.html#a01f15cf773fefaf9402381a3d71b8a7c":[9,1,0,0,2,690,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1PdfBuildinFont.html#a4e4da9ccae03e2f4f1e1f00f5dcf433b":[9,1,1,0,1,704,9],
 "classmrmeshpy_1_1PdfBuildinFont.html#a4eb68a9562937e30dc7f54c262227ffb":[9,1,0,0,2,704,6],
 "classmrmeshpy_1_1PdfBuildinFont.html#a4eb68a9562937e30dc7f54c262227ffb":[9,1,1,0,1,704,6],
-"classmrmeshpy_1_1PdfBuildinFont.html#a697554566792ee5d1662b4d09c52c24b":[9,1,0,0,2,704,3],
-"classmrmeshpy_1_1PdfBuildinFont.html#a697554566792ee5d1662b4d09c52c24b":[9,1,1,0,1,704,3]
+"classmrmeshpy_1_1PdfBuildinFont.html#a697554566792ee5d1662b4d09c52c24b":[9,1,0,0,2,704,3]
 };

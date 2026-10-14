@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"classMR_1_1EdgeColors.html#aedc8ac34e2bd732dd21e84ebb04c10a9":[9,3,0,0,0,1177,21],
 "classMR_1_1EdgeLengthMesh.html":[9,3,0,0,0,1179],
 "classMR_1_1EdgeLengthMesh.html#a045debb390ef5dc21b11133a6073bd62":[9,3,0,0,0,1179,8],
 "classMR_1_1EdgeLengthMesh.html#a475440e95dc0242144686642bb22ecad":[9,3,0,0,0,1179,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "classMR_1_1EnumNeihbourVertices.html#ae9fd6f9c55a9d2d39849f90725db924b":[9,3,0,0,0,1197,6],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html":[9,3,0,0,0,1198],
 "classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a32efd0b562c5b7b238eb95c7bdb9ff64":[9,3,0,0,0,1198,2],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a411a174fe93fcc9ee3441f7fa66d1ddd":[9,3,0,0,0,1198,3],
-"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a4d05e5a746cdbb79d4b571b37715575e":[9,3,0,0,0,1198,4]
+"classMR_1_1Expected__MRCudaDeviceInfo__StdString.html#a411a174fe93fcc9ee3441f7fa66d1ddd":[9,3,0,0,0,1198,3]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX21 =
 {
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a23ddc7076042ad800331d4a5c448cd84":[9,1,1,0,1,203,2],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a2f8c7960b14e00cd4400b01145e33d94":[9,1,0,0,2,203,4],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a2f8c7960b14e00cd4400b01145e33d94":[9,1,1,0,1,203,4],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a51fc9b11a3bea8baf291fc1bc221ba00":[9,1,0,0,2,203,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1DeloneSettings.html#a76845ab04c0635b101bf76601b744f34":[9,1,1,0,1,208,9],
 "classmrmeshpy_1_1DeloneSettings.html#a77f4e295bacda62ec17540f9196f60d1":[9,1,0,0,2,208,12],
 "classmrmeshpy_1_1DeloneSettings.html#a77f4e295bacda62ec17540f9196f60d1":[9,1,1,0,1,208,12],
-"classmrmeshpy_1_1DeloneSettings.html#a79576adaadd1eb40f9a356b0c353f6b7":[9,1,0,0,2,208,2],
-"classmrmeshpy_1_1DeloneSettings.html#a79576adaadd1eb40f9a356b0c353f6b7":[9,1,1,0,1,208,2]
+"classmrmeshpy_1_1DeloneSettings.html#a79576adaadd1eb40f9a356b0c353f6b7":[9,1,0,0,2,208,2]
 };

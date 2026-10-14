@@ -134,7 +134,7 @@ $(function(){initNavTree('StatePluginsHelp.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2StatePluginsHelp"></a></p>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md167"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md171"></a>
 Base Functions</h2>
 <p><b>State plugins</b> is simple objects to work with MeshLib scene and/or objects. It is one of possible inheritance of MR::RibbonMenuItem</p>
 <p>It has base functions:</p>
@@ -145,7 +145,7 @@ Base Functions</h2>
 </div><!-- fragment --><p> <b>On Enable function</b> - will be called if user enables plugin (only possible if <span class="tt">isAvailable</span> has returned true), if <span class="tt">onEnable_</span> function returns false plugin will not be enabled (useful for some expensive checks, not to do them in each frame <span class="tt">available</span> function) </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onEnable_();</div>
 </div><!-- fragment --><p> <b>On Disable function</b> - will be called if user disable plugin, it is necessary to clear all plugin data </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onDisable_();</div>
 </div><!-- fragment --><p> <b>Draw Dialog function</b> - this function is called in each frame, only if plugin is enabled (will not be called after <span class="tt">onDisable_</span> function). It is necessary to show plugin custom UI. </p><div class="fragment"><div class="line">MRVIEWER_API <span class="keyword">virtual</span> <span class="keywordtype">void</span> drawDialog( ImGuiContext* ctx );</div>
-</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md168"></a>
+</div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md172"></a>
 How to make your first plugin</h2>
 <p>To create you plugin you need to inherit class from MR::StatePlugin or MR::StateListenerPlugin (in case you need to get some events)<br  />
  Example: </p><div class="fragment"><div class="line"><span class="keyword">class </span>MyOwnPlugin : <span class="keyword">public</span> MR::StatePlugin</div>

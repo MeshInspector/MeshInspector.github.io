@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"classmrmeshpy_1_1ChangeSceneAction.html#a232e82671c8b4ec80c0d3b401c352ddc":[9,1,1,0,1,144,5],
 "classmrmeshpy_1_1ChangeSceneAction.html#a93077eba908a224c9c36da64dab857ce":[9,1,0,0,2,144,3],
 "classmrmeshpy_1_1ChangeSceneAction.html#a93077eba908a224c9c36da64dab857ce":[9,1,1,0,1,144,3],
 "classmrmeshpy_1_1ChangeSceneAction.html#ac520e382f4f52e8d1e6bf1190a621dd3":[9,1,0,0,2,144,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "classmrmeshpy_1_1Color.html#aea93dc4b1b6a0df7a024e5bcdfa5cc1a":[9,1,1,0,1,159,5],
 "classmrmeshpy_1_1Color.html#af6df1600be5ca9d1dd195c2c70aa6054":[9,1,0,0,2,159,18],
 "classmrmeshpy_1_1Color.html#af6df1600be5ca9d1dd195c2c70aa6054":[9,1,1,0,1,159,18],
-"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[9,1,0,0,2,161],
-"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[9,1,1,0,1,161]
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[9,1,0,0,2,161]
 };

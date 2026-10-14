@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1TiffSaveSettings.html":[9,1,1,0,1,1138],
 "classmrmeshpy_1_1TiffSaveSettings.html#a51ac0fe0df953b6617f966b094745c02":[9,1,0,0,2,1138,0],
 "classmrmeshpy_1_1TiffSaveSettings.html#a51ac0fe0df953b6617f966b094745c02":[9,1,1,0,1,1138,0],
 "classmrmeshpy_1_1TiffSaveSettings.html#a7cf57feb662e8056e8ccae78aa13ac67":[9,1,0,0,2,1138,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1TriCornerUVCoords.html#ad5b6805fff4013ea75eb305d9a36a63b":[9,1,1,0,1,1150,12],
 "classmrmeshpy_1_1TriCornerUVCoords.html#ae259f38781727baadfca1b229be2653f":[9,1,0,0,2,1150,16],
 "classmrmeshpy_1_1TriCornerUVCoords.html#ae259f38781727baadfca1b229be2653f":[9,1,1,0,1,1150,16],
-"classmrmeshpy_1_1TriCornerUVCoords.html#ae517047db0fc16f053d2180f6713e5ca":[9,1,0,0,2,1150,10],
-"classmrmeshpy_1_1TriCornerUVCoords.html#ae517047db0fc16f053d2180f6713e5ca":[9,1,1,0,1,1150,10]
+"classmrmeshpy_1_1TriCornerUVCoords.html#ae517047db0fc16f053d2180f6713e5ca":[9,1,0,0,2,1150,10]
 };

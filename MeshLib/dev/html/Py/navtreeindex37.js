@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classmrmeshpy_1_1FreeFormBestFit.html#a66891ecb6c0c9cf0fd5c99ebe9ec0cb3":[9,1,1,0,1,311,3],
 "classmrmeshpy_1_1FreeFormBestFit.html#a732f9108657fb491361c86aaa8aaad50":[9,1,0,0,2,311,0],
 "classmrmeshpy_1_1FreeFormBestFit.html#a732f9108657fb491361c86aaa8aaad50":[9,1,1,0,1,311,0],
 "classmrmeshpy_1_1FreeFormBestFit.html#a839a6a6dc20a98a638944a3a74ce0465":[9,1,0,0,2,311,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classmrmeshpy_1_1Graph.html#abd983603d3664bdf6569212efc00f5d0":[9,1,1,0,1,404,10],
 "classmrmeshpy_1_1Graph.html#ac7151d61d9f442d00ef51f96f5adb645":[9,1,0,0,2,404,13],
 "classmrmeshpy_1_1Graph.html#ac7151d61d9f442d00ef51f96f5adb645":[9,1,1,0,1,404,13],
-"classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c":[9,1,0,0,2,404,3],
-"classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c":[9,1,1,0,1,404,3]
+"classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c":[9,1,0,0,2,404,3]
 };

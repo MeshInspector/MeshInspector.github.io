@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"classmrmeshpy_1_1IntersectionPrecomputes__float.html#a0dd3563e77b409dd3773dc06f8d12427":[9,1,1,0,1,452,3],
 "classmrmeshpy_1_1IntersectionPrecomputes__float.html#a6f96f7b067191370d9e4b46e27b9a3ee":[9,1,0,0,2,452,1],
 "classmrmeshpy_1_1IntersectionPrecomputes__float.html#a6f96f7b067191370d9e4b46e27b9a3ee":[9,1,1,0,1,452,1],
 "classmrmeshpy_1_1IntersectionPrecomputes__float.html#a8202121c0ceeca86c59d6872d498184b":[9,1,0,0,2,452,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "classmrmeshpy_1_1Laplacian.html#ab2de54cbe949f98f111b0c2f1966e8af":[9,1,1,0,1,476,17],
 "classmrmeshpy_1_1Laplacian.html#ab9e15cb10cc81c0cd98ad5971c643e9f":[9,1,0,0,2,476,3],
 "classmrmeshpy_1_1Laplacian.html#ab9e15cb10cc81c0cd98ad5971c643e9f":[9,1,1,0,1,476,3],
-"classmrmeshpy_1_1Laplacian.html#acc40634927ba1072289ae3b471c87854":[9,1,0,0,2,476,6],
-"classmrmeshpy_1_1Laplacian.html#acc40634927ba1072289ae3b471c87854":[9,1,1,0,1,476,6]
+"classmrmeshpy_1_1Laplacian.html#acc40634927ba1072289ae3b471c87854":[9,1,0,0,2,476,6]
 };

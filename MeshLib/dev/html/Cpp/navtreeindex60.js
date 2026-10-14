@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f":[9,0,1,0,1,15,18],
 "namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255":[9,0,1,0,1,15,10],
 "namespaceMR_1_1ImGuiMath_1_1detail.html":[9,0,1,0,1,15,0],
 "namespaceMR_1_1ImGuiMeasurementIndicators.html":[9,0,1,0,1,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#aecf4fc0a614180fc9054d35d369e126d":[9,0,1,0,1,51,2,0,13],
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af5fdf7810e48bc37be0ad0931e5afc26":[9,0,1,0,1,51,2,0,14],
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2":[9,0,1,0,1,51,2,0,7],
-"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2abdf2e8bb433e2d884bd053d6c86ca415":[9,0,1,0,1,51,2,0,7,5],
-"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2ac5b6efbcca1f43b59969a46a5d29cca8":[9,0,1,0,1,51,2,0,7,3]
+"namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af6cf945d0154e53dcaa106af9db16bb2abdf2e8bb433e2d884bd053d6c86ca415":[9,0,1,0,1,51,2,0,7,5]
 };

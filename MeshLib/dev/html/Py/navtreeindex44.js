@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classmrmeshpy_1_1Laplacian.html#acc40634927ba1072289ae3b471c87854":[9,1,1,0,1,476,6],
 "classmrmeshpy_1_1Laplacian.html#afd2dcc2371805915752e4d3122f459c5":[9,1,0,0,2,476,11],
 "classmrmeshpy_1_1Laplacian.html#afd2dcc2371805915752e4d3122f459c5":[9,1,1,0,1,476,11],
 "classmrmeshpy_1_1Laplacian_1_1Attractor.html":[9,1,0,0,2,476,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1LineObject.html#a3a14171b043c8913e6622c13bd944930":[9,1,1,0,1,485,11],
 "classmrmeshpy_1_1LineObject.html#a5a8936c1eaa24d70f6c024352b277912":[9,1,0,0,2,485,1],
 "classmrmeshpy_1_1LineObject.html#a5a8936c1eaa24d70f6c024352b277912":[9,1,1,0,1,485,1],
-"classmrmeshpy_1_1LineObject.html#a5e1a40660087aa58c7fed739068ea468":[9,1,0,0,2,485,6],
-"classmrmeshpy_1_1LineObject.html#a5e1a40660087aa58c7fed739068ea468":[9,1,1,0,1,485,6]
+"classmrmeshpy_1_1LineObject.html#a5e1a40660087aa58c7fed739068ea468":[9,1,0,0,2,485,6]
 };

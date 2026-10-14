@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"MRTripleFaceIntersections_8h.html":[9,0,3,0,7,419],
 "MRTripleFaceIntersections_8h_source.html":[9,0,3,0,7,419],
 "MRTunnelDetector_8h.html":[9,0,3,0,7,421],
 "MRTunnelDetector_8h_source.html":[9,0,3,0,7,421],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classMR_1_1BitSet.html#a40738ebf472136cc76b60d1563edb0de":[9,0,0,3,3,38],
 "classMR_1_1BitSet.html#a466f41a196180947a6b55ce01eb5f761":[9,0,0,3,3,3],
 "classMR_1_1BitSet.html#a51f26b5e2a5f81eed95766439f200000":[9,0,0,3,3,6],
-"classMR_1_1BitSet.html#a552e222c0bee74a65f294cdbec098310":[9,0,0,3,3,22],
-"classMR_1_1BitSet.html#a564d8eefb54ebeb11bd982cfa1c98c6d":[9,0,0,3,3,19]
+"classMR_1_1BitSet.html#a552e222c0bee74a65f294cdbec098310":[9,0,0,3,3,22]
 };

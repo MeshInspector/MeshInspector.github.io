@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRLevelOfDetails_8cs.html":[9,3,1,0,0,0,2,144],
 "MRLineObject_8cs.html":[9,3,1,0,0,0,2,146],
 "MRLineSegm_8cs.html":[9,3,1,0,0,0,2,147],
 "MRLine_8cs.html":[9,3,1,0,0,0,2,145],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRUnitInfo_8cs.html":[9,3,1,0,0,0,2,367],
 "MRUniteManyMeshes_8cs.html":[9,3,1,0,0,0,2,366],
 "MRUnorientedTriangle_8cs.html":[9,3,1,0,0,0,2,368],
-"MRVDBConversions_8cs.html":[9,3,1,0,0,0,4,27],
-"MRVDBFloatGrid_8cs.html":[9,3,1,0,0,0,4,28]
+"MRVDBConversions_8cs.html":[9,3,1,0,0,0,4,27]
 };

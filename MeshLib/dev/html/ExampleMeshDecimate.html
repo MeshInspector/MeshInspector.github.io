@@ -370,6 +370,48 @@ Source mesh <div class="image">
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::mr;</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // Load mesh.</div>
+<div class="line">    let mut loaded = mr::mesh_load::from_any_supported_format_2(&quot;mesh.stl&quot;, None);</div>
+<div class="line">    let Some(mesh) = loaded.value_mut() else</div>
+<div class="line">    {</div>
+<div class="line">        return Err(format!(&quot;Failed to load mesh: {}&quot;, loaded.error().unwrap()));</div>
+<div class="line">    };</div>
+<div class="line"> </div>
+<div class="line">    // Setup decimate parameters.</div>
+<div class="line">    let mut settings = mr::DecimateSettings::new();</div>
+<div class="line"> </div>
+<div class="line">    // Decimation stop thresholds, you may specify one or both.</div>
+<div class="line">    settings.set_max_deleted_faces(1000); // Number of faces to be deleted.</div>
+<div class="line">    settings.set_max_error(0.05); // Maximum error when decimation stops.</div>
+<div class="line"> </div>
+<div class="line">    // Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</div>
+<div class="line">    // A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead.</div>
+<div class="line">    settings.set_subdivide_parts(16);</div>
+<div class="line"> </div>
+<div class="line">    // Decimate mesh.</div>
+<div class="line">    let result = mr::decimate_mesh(mesh, Some(&amp;settings));</div>
+<div class="line">    println!(&quot;Removed {} vertices, {} faces&quot;, result.verts_deleted(), result.faces_deleted());</div>
+<div class="line"> </div>
+<div class="line">    // Save result.</div>
+<div class="line">    let saved = mr::mesh_save::to_any_supported_format_3(mesh, &quot;decimated_mesh.stl&quot;, None);</div>
+<div class="line">    if let Some(error) = saved.error()</div>
+<div class="line">    {</div>
+<div class="line">        return Err(format!(&quot;Failed to save mesh: {error}&quot;));</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --> Source mesh <div class="image">
+<img src="decimate_before.png" alt=""/>
+</div>
+ After decimate <div class="image">
+<img src="decimate_after.png" alt=""/>
+</div>
+</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

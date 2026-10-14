@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,1,0,1,848,2,7],
 "classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,0,0,2,848,3],
 "classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,1,0,1,848,3],
 "classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,0,0,2,848,3,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "classmrmeshpy_1_1SharpOffsetParameters.html#af3f759e106fdf8d0bd831a22353cd480":[9,1,1,0,1,857,8],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,0,0,2,856],
 "classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html":[9,1,1,0,1,856],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7":[9,1,0,0,2,856,6],
-"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7":[9,1,1,0,1,856,6]
+"classmrmeshpy_1_1SharpenMarchingCubesMeshSettings.html#a11426f82c5dedab7864e7877ab8546a7":[9,1,0,0,2,856,6]
 };

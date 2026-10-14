@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classmrmeshpy_1_1Graph.html#adb850399916f589182a5218d4eb1757c":[9,1,1,0,1,404,3],
 "classmrmeshpy_1_1GraphEdgeBitSet.html":[9,1,0,0,2,405],
 "classmrmeshpy_1_1GraphEdgeBitSet.html":[9,1,1,0,1,405],
 "classmrmeshpy_1_1GraphEdgeBitSet.html#a0249c1331438b69bc0f2ad753333e904":[9,1,0,0,2,405,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classmrmeshpy_1_1GraphVertId.html#aa873bc596181fb6687065c7c356193d8":[9,1,1,0,1,408,8],
 "classmrmeshpy_1_1GraphVertId.html#aa976c95a040c2ef8ae98f20c5542a9b1":[9,1,0,0,2,408,11],
 "classmrmeshpy_1_1GraphVertId.html#aa976c95a040c2ef8ae98f20c5542a9b1":[9,1,1,0,1,408,11],
-"classmrmeshpy_1_1GraphVertId.html#abbc7e8e6e96e21375e0f8b487092e0f2":[9,1,0,0,2,408,6],
-"classmrmeshpy_1_1GraphVertId.html#abbc7e8e6e96e21375e0f8b487092e0f2":[9,1,1,0,1,408,6]
+"classmrmeshpy_1_1GraphVertId.html#abbc7e8e6e96e21375e0f8b487092e0f2":[9,1,0,0,2,408,6]
 };

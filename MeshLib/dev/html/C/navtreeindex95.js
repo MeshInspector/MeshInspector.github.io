@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"MRQuadraticForm_8h.html#af8e6229fa39b71a48a30a734fd76dfbc":[9,2,2,0,0,0,0,1,301,80],
 "MRQuadraticForm_8h.html#af94edd978758f21414b9ffd29a8c3151":[9,2,2,0,0,0,0,1,301,43],
 "MRQuadraticForm_8h.html#afbfe7f6fc62a301833880ef19ffe6d7c":[9,2,2,0,0,0,0,1,301,8],
 "MRQuadraticForm_8h.html#afc8292228c8f7e2ea06dc284a5efd2d3":[9,2,2,0,0,0,0,1,301,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "MRRadiusMeasurementObject_8h.html#aa657521ac1d601651e9fa6cee7847573":[9,2,2,0,0,0,0,1,304,71],
 "MRRadiusMeasurementObject_8h.html#aac3ead50e94f46dc675bb007f7a0d60b":[9,2,2,0,0,0,0,1,304,119],
 "MRRadiusMeasurementObject_8h.html#ab1994d9f54896ac160e2157e40903ca4":[9,2,2,0,0,0,0,1,304,4],
-"MRRadiusMeasurementObject_8h.html#ab3cba733af45b5c22d755278ce377564":[9,2,2,0,0,0,0,1,304,147],
-"MRRadiusMeasurementObject_8h.html#ab4658150668dcbb6b4cfa18904e3bf62":[9,2,2,0,0,0,0,1,304,126]
+"MRRadiusMeasurementObject_8h.html#ab3cba733af45b5c22d755278ce377564":[9,2,2,0,0,0,0,1,304,147]
 };

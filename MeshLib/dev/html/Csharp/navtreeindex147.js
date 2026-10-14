@@ -1,5 +1,6 @@
 var NAVTREEINDEX147 =
 {
+"classMR_1_1VisualObject.html#ac7b4bc52f94f43df05e41137a70a6fed":[9,3,0,0,0,1857,33],
 "classMR_1_1VisualObject.html#ac8736edb5a08681504a4b58ff34a8175":[9,3,0,0,0,1857,44],
 "classMR_1_1VisualObject.html#acec78011ed1d12290ac1b51933569f14":[9,3,0,0,0,1857,28],
 "classMR_1_1VisualObject.html#ad3b8422d5ae0ad8e9714eae6e02d1dc7":[9,3,0,0,0,1857,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX147 =
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#a8286e133990e0a3b26f4085baebe9a49":[9,3,0,0,0,1866,6,0],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#aafe236ba8ce9ba482959c6e2c498a324":[9,3,0,0,0,1866,6,5],
 "classMR_1_1VoxelsLoad_1_1DicomVolume.html#ab2af87955f85db2837ee20c2695f000a":[9,3,0,0,0,1866,6,1],
-"classMR_1_1VoxelsLoad_1_1DicomVolume.html#abd7c795158f6de08b4970e0d8058b628":[9,3,0,0,0,1866,6,3],
-"classMR_1_1VoxelsLoad_1_1DicomVolume.html#abe0d90be31b0c0bf151c7448dfd5893b":[9,3,0,0,0,1866,6,4]
+"classMR_1_1VoxelsLoad_1_1DicomVolume.html#abd7c795158f6de08b4970e0d8058b628":[9,3,0,0,0,1866,6,3]
 };

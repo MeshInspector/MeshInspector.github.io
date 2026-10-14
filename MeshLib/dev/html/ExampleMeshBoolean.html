@@ -502,6 +502,68 @@ Source meshes <div class="image">
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::mr;</div>
+<div class="line">use meshlib::mr::{BooleanOperation, BooleanResultMapper, BooleanResultMapper_MapObject as MapObject, FaceBitSet, FaceId, Vector3f};</div>
+<div class="line"> </div>
+<div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
+<div class="line">{</div>
+<div class="line">    // First, create a unit sphere.</div>
+<div class="line">    let sphere1 = mr::make_uv_sphere(Some(1.0), Some(64), Some(64));</div>
+<div class="line"> </div>
+<div class="line">    // Create a copy of this sphere and offset it.</div>
+<div class="line">    let mut sphere2 = sphere1.clone();</div>
+<div class="line">    let xf = mr::AffineXf3f::translation(&amp;Vector3f {x: 0.7, y: 0.0, z: 0.0});</div>
+<div class="line">    sphere2.transform(&amp;xf, None);</div>
+<div class="line"> </div>
+<div class="line">    // Ask for an optional mapper relating the primitives of the input meshes to the primitives of the result.</div>
+<div class="line">    let mut mapper = BooleanResultMapper::new();</div>
+<div class="line"> </div>
+<div class="line">    // Perform the boolean operation.</div>
+<div class="line">    let result = mr::boolean_6(&amp;sphere1, &amp;sphere2, BooleanOperation::Intersection, None, Some(&amp;mut mapper), None);</div>
+<div class="line">    if !result.valid()</div>
+<div class="line">    {</div>
+<div class="line">        return Err(format!(&quot;Failed to perform boolean: {}&quot;, result.error_string()));</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    // Find the faces of the result produced by each input sphere, and the faces the cut created.</div>
+<div class="line">    let faces_of_sphere1 = mapper.map_mr_face_bit_set(sphere1.topology().get_valid_faces(), MapObject::A);</div>
+<div class="line">    let faces_of_sphere2 = mapper.map_mr_face_bit_set(sphere2.topology().get_valid_faces(), MapObject::B);</div>
+<div class="line">    let new_faces = mapper.new_faces();</div>
+<div class="line"> </div>
+<div class="line">    println!(&quot;faces from sphere1: {}&quot;, faces_of_sphere1.count());</div>
+<div class="line">    println!(&quot;faces from sphere2: {}&quot;, faces_of_sphere2.count());</div>
+<div class="line">    println!(&quot;faces created by the cut: {}&quot;, new_faces.count());</div>
+<div class="line"> </div>
+<div class="line">    // Map one particular face of sphere1 forward: the cut can split it in several faces of the</div>
+<div class="line">    // result, or drop it completely if that part of sphere1 is not in the result.</div>
+<div class="line">    let face_of_sphere1 = FaceId {id_: 793};</div>
+<div class="line">    let mut one_face = FaceBitSet::new();</div>
+<div class="line">    one_face.auto_resize_set_2(face_of_sphere1, None);</div>
+<div class="line">    let produced_faces = mapper.map_mr_face_bit_set(&amp;one_face, MapObject::A);</div>
+<div class="line">    println!(&quot;face {} of sphere1 produced {} faces of the result&quot;, face_of_sphere1.id_, produced_faces.count());</div>
+<div class="line"> </div>
+<div class="line">    // And backward: the face of sphere1 each face of the result came from</div>
+<div class="line">    // (invalid id for the faces that came from sphere2).</div>
+<div class="line">    let new2old_faces = mapper.get_new2_old_face_map(MapObject::A);</div>
+<div class="line">    let result_face = produced_faces.find_first();</div>
+<div class="line">    println!(&quot;face {} of the result came from face {} of sphere1&quot;, result_face.id_, new2old_faces.index(result_face).id_);</div>
+<div class="line"> </div>
+<div class="line">    // Save result to an STL file.</div>
+<div class="line">    let saved = mr::mesh_save::to_any_supported_format_3(result.mesh(), &quot;out_boolean.stl&quot;, None);</div>
+<div class="line">    if let Some(error) = saved.error()</div>
+<div class="line">    {</div>
+<div class="line">        return Err(format!(&quot;Failed to save mesh: {error}&quot;));</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    Ok(())</div>
+<div class="line">}</div>
+</div><!-- fragment --> Source meshes <div class="image">
+<img src="boolean_before.png" alt=""/>
+</div>
+ Boolean intersection <div class="image">
+<img src="boolean_after.png" alt=""/>
+</div>
+</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"classMR_1_1UndirectedEdgeBitSet.html#aee87d70a957a8c06178c0d31d378f665":[9,3,0,0,0,1740,2],
 "classMR_1_1UndirectedEdgeBitSet.html#af6d835a154736aca4567ad3a6f76fbcf":[9,3,0,0,0,1740,22],
 "classMR_1_1UndirectedEdgeBitSet.html#afa8fbf564b358a38ba65ebef43c403f8":[9,3,0,0,0,1740,17],
 "classMR_1_1UndirectedEdgeBitSet.html#aff05670041ac411b5158fe1f34d93305":[9,3,0,0,0,1740,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "classMR_1_1VarEdgeTri.html#addc01e47759d41b0227cc3c12a1ba9e2":[9,3,0,0,0,1761,3],
 "classMR_1_1VarEdgeTri.html#aee326b52da70a7045fb861e7ae7d81e7":[9,3,0,0,0,1761,4],
 "classMR_1_1VarEdgeTri.html#aee8cd58806e446725a10c44b9ab9a261":[9,3,0,0,0,1761,2],
-"classMR_1_1VarEdgeTri.html#afa5ab5347dc38bbc21af8303e1d956e7":[9,3,0,0,0,1761,6],
-"classMR_1_1VdbVolume.html":[9,3,0,0,0,1762]
+"classMR_1_1VarEdgeTri.html#afa5ab5347dc38bbc21af8303e1d956e7":[9,3,0,0,0,1761,6]
 };

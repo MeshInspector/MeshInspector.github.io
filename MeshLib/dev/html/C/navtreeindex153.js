@@ -1,5 +1,6 @@
 var NAVTREEINDEX153 =
 {
+"std__optional__MR__SignedDistanceToMeshResult_8h.html#aca4af3b3bc6caa254922196b6480ce19":[9,2,2,0,0,0,0,2,227,9],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#ae2ac01170927ef8235d27a2b3a607094":[9,2,2,0,0,0,0,2,227,6],
 "std__optional__MR__SignedDistanceToMeshResult_8h_source.html":[9,2,2,0,0,0,0,2,227],
 "std__optional__MR__TriIntersectResult_8h.html":[9,2,2,0,0,0,0,2,229],
@@ -248,6 +249,5 @@ var NAVTREEINDEX153 =
 "std__optional__std__vector__MR__ObjVertId_8h.html#a40b4c7753d7540230d907f249779f996":[9,2,2,0,0,0,0,2,242,5],
 "std__optional__std__vector__MR__ObjVertId_8h.html#a59d48b3ab6421383ba6549ed19654c6d":[9,2,2,0,0,0,0,2,242,8],
 "std__optional__std__vector__MR__ObjVertId_8h.html#a5a6dcb4ed8d7fcbfaa578806feaec45e":[9,2,2,0,0,0,0,2,242,1],
-"std__optional__std__vector__MR__ObjVertId_8h.html#a5e92d88d7cd05cb6257d737e8ae7cd99":[9,2,2,0,0,0,0,2,242,3],
-"std__optional__std__vector__MR__ObjVertId_8h.html#a6c8e7b90da1643b04b90a516c7e11d8a":[9,2,2,0,0,0,0,2,242,11]
+"std__optional__std__vector__MR__ObjVertId_8h.html#a5e92d88d7cd05cb6257d737e8ae7cd99":[9,2,2,0,0,0,0,2,242,3]
 };

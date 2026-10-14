@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html":[9,1,1,0,1,161],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[9,1,0,0,2,161,6],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a0e0598f4890fbfb362b605f74f9a63d6":[9,1,1,0,1,161,6],
 "classmrmeshpy_1_1ColorMapAggregator__FaceTag__AggregateMode.html#a12aff3a68e7c390b284765c989c5f167":[9,1,0,0,2,161,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "classmrmeshpy_1_1ComputePointsToDistanceVolume.html#adc0d9534f20d2ca65bb1a960f344b353":[9,1,1,0,1,170,0],
 "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html":[9,1,0,0,2,171],
 "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html":[9,1,1,0,1,171],
-"classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#a1e18f283c5b4c34e4e078bbfc578d0bd":[9,1,0,0,2,171,7],
-"classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#a1e18f283c5b4c34e4e078bbfc578d0bd":[9,1,1,0,1,171,7]
+"classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#a1e18f283c5b4c34e4e078bbfc578d0bd":[9,1,0,0,2,171,7]
 };

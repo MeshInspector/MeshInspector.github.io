@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"group__VoxelGroup.html":[9,0,0,17],
 "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985":[9,0,0,17,20],
 "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35":[9,0,0,17,17],
 "group__VoxelGroup.html#ga1e9ca6412f80a5ce4751fb16cad4ce2c":[9,0,0,17,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[9,0,1,0,1,15,4],
 "namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[9,0,1,0,1,15,13],
 "namespaceMR_1_1ImGuiMath.html#ab2120d83ad46fc54b4a21db479448c46":[9,0,1,0,1,15,9],
-"namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[9,0,1,0,1,15,15],
-"namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f":[9,0,1,0,1,15,18]
+"namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[9,0,1,0,1,15,15]
 };

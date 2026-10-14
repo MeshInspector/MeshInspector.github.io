@@ -58,10 +58,11 @@ var NAVTREEINDEX0 =
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
 "../MeshLibCSharpSetupGuide.html":[2,2],
-"../MeshLibCmakeSetupGuide.html":[2,5],
+"../MeshLibCmakeSetupGuide.html":[2,6],
 "../MeshLibCppSetupGuide.html":[2,1],
 "../MeshLibJsSetupGuide.html":[2,4],
 "../MeshLibPythonSetupGuide.html":[2,0],
+"../MeshLibRustSetupGuide.html":[2,5],
 "../MeshStructureOverview.html":[8,1],
 "../PackageOverview.html":[8],
 "../Py/APIPyPage.html":[9,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "bindings_8d_8mts.html#adfd61662143c1f0975c634c01a12664c":[9,4,1,0,0,1,0,0,0,190],
 "bindings_8d_8mts.html#ae2484d55c1489c3f2a654987ffbf5243":[9,4,1,0,0,1,0,0,0,124],
 "bindings_8d_8mts.html#ae4b973fcfa520ece361141bc0be236dd":[9,4,1,0,0,1,0,0,0,159],
-"bindings_8d_8mts.html#ae6eb7dd1a9e739213f97d28386e06d34":[9,4,1,0,0,1,0,0,0,130],
-"bindings_8d_8mts.html#ae82accaa12c2fb234a7f8642239a6f7b":[9,4,1,0,0,1,0,0,0,149]
+"bindings_8d_8mts.html#ae6eb7dd1a9e739213f97d28386e06d34":[9,4,1,0,0,1,0,0,0,130]
 };

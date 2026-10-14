@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1Const__MetricToAStarPenalty.html#ab352ee1dbc977e526ec867655424779e":[9,3,0,0,0,623,5],
 "classMR_1_1Const__MetricToAStarPenalty.html#ab56e863910dced01a5b7ccf17c0e745c":[9,3,0,0,0,623,1],
 "classMR_1_1Const__MetricToAStarPenalty.html#acc20dc4b6120920a4157488482c0a5d0":[9,3,0,0,0,623,7],
 "classMR_1_1Const__MetricToAStarPenalty.html#acef9039f69981994dac07f2e8a378903":[9,3,0,0,0,623,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__NoCtor__Char.html#a1ae435e198596693e1f2cdda39258b05":[9,3,0,0,0,639,4],
 "classMR_1_1Const__NoCtor__Char.html#a38f44b7365f14346700be332e038615c":[9,3,0,0,0,639,1],
 "classMR_1_1Const__NoCtor__MREdgeId.html":[9,3,0,0,0,640],
-"classMR_1_1Const__NoCtor__MREdgeId.html#a5024beded499ad35eeb75f2f846b2b9a":[9,3,0,0,0,640,3],
-"classMR_1_1Const__NoCtor__MREdgeId.html#a79ff852beb8ae6e9f5410a90a0912675":[9,3,0,0,0,640,4]
+"classMR_1_1Const__NoCtor__MREdgeId.html#a5024beded499ad35eeb75f2f846b2b9a":[9,3,0,0,0,640,3]
 };

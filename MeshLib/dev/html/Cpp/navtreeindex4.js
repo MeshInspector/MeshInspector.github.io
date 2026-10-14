@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"MROpenRawVoxelsPlugin_8h_source.html":[9,0,3,0,1,3,1],
 "MROpenVDBHelper_8h.html":[9,0,3,0,12,17],
 "MROpenVDBHelper_8h_source.html":[9,0,3,0,12,17],
 "MROrder_8h.html":[9,0,3,0,7,286],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "MRRenderVolumeObject_8h.html":[9,0,3,0,11,92],
 "MRRenderVolumeObject_8h_source.html":[9,0,3,0,11,92],
 "MRRenderWrapObject_8h.html":[9,0,3,0,11,93],
-"MRRenderWrapObject_8h_source.html":[9,0,3,0,11,93],
-"MRResizeNoInit_8h.html":[9,0,3,0,7,364]
+"MRRenderWrapObject_8h_source.html":[9,0,3,0,11,93]
 };
