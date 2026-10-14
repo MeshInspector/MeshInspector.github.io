@@ -3538,7 +3538,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga75f16c022a45b2f8a627a948a9390653" id="r_ga75f16c022a45b2f8a627a948a9390653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75f16c022a45b2f8a627a948a9390653">MR::RasterSave::toTiff</a> (const <a class="el" href="structMR_1_1Raster.html">Raster</a> &amp;raster, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1RasterSaveSettings.html">RasterSaveSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:ga7aa85481e130d6308bc8ddae1581f9c4" id="r_ga7aa85481e130d6308bc8ddae1581f9c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7aa85481e130d6308bc8ddae1581f9c4">MR::ImageLoad::fromTiff</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memitem:ga15e4b1b6ede3c72f01803bf8178f5203" id="r_ga15e4b1b6ede3c72f01803bf8178f5203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15e4b1b6ede3c72f01803bf8178f5203">MR::ImageSave::toTiff</a> (const <a class="el" href="structMR_1_1Image.html">Image</a> &amp;image, const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ga15e4b1b6ede3c72f01803bf8178f5203"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format  <br /></td></tr>
+<tr class="memdesc:ga15e4b1b6ede3c72f01803bf8178f5203"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .tiff format with unassociated alpha, as in <a class="el" href="structMR_1_1Image.html">Image</a>: the colors are not multiplied by it  <br /></td></tr>
 <tr class="memitem:gaca4207193c9429dfa4854457efea6c23" id="r_gaca4207193c9429dfa4854457efea6c23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca4207193c9429dfa4854457efea6c23">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapLoadSettings.html">DistanceMapLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memitem:gab345cb66e5ce36e8727661b2a91f9f02" id="r_gab345cb66e5ce36e8727661b2a91f9f02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab345cb66e5ce36e8727661b2a91f9f02">MR::DistanceMapLoad::fromTiff</a> (const std::filesystem::path &amp;path, <a class="el" href="structMR_1_1DistanceMapToWorld.html">DistanceMapToWorld</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progressCb={})</td></tr>
 <tr class="memitem:gabd82d0afb5ae771e7c73d41a9c8d7a91" id="r_gabd82d0afb5ae771e7c73d41a9c8d7a91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd82d0afb5ae771e7c73d41a9c8d7a91">MR::DistanceMapSave::toTiff</a> (const <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> &amp;dmap, const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1DistanceMapSaveSettings.html">DistanceMapSaveSettings</a> &amp;settings={})</td></tr>
@@ -78239,7 +78239,7 @@ element fields:<br  />
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
-<p>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <a class="el" href="#ga4cb4aac0a47a9d901d24247625ebc4f9">RasterLoad::fromTiff</a> and converted by convertRasterToImage </p>
+<p>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <a class="el" href="#ga4cb4aac0a47a9d901d24247625ebc4f9">RasterLoad::fromTiff</a> and converted by convertRasterToImage; the colors are not multiplied by alpha unless the file stores them so (associated alpha) </p>
 
 </div>
 </div>
@@ -78265,7 +78265,7 @@ element fields:<br  />
 <p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
 <p>loads the first image of a .tiff file as a raster with one layer:</p><ul>
 <li>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</li>
-<li>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</li>
+<li>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors, which are not multiplied by alpha unless the file stores them so (associated alpha);</li>
 <li>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</li>
 <li>the files compressed by the methods that libtiff does not support fail to load;</li>
 <li>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats </li>
@@ -187979,7 +187979,7 @@ template&lt;typename T&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
 
-<p>saves in .tiff format </p>
+<p>saves in .tiff format with unassociated alpha, as in <a class="el" href="structMR_1_1Image.html">Image</a>: the colors are not multiplied by it </p>
 
 </div>
 </div>
@@ -188036,7 +188036,7 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRTiff_8h.html">MRIOExtras/MRTiff.h</a>&gt;</code></p>
-<p>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 </p>
+<p>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors (unassociated alpha: the colors are not multiplied by it), of any type from UInt8 to Float64 </p>
 
 </div>
 </div>

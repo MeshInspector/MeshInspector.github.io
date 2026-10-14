@@ -210,7 +210,7 @@ Static Public Member Functions</h2></td></tr>
 <p>loads the first image of a .tiff file as a raster with one layer: </p>
 <ul>
 <li>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</li>
-<li>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</li>
+<li>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors, which are not multiplied by alpha unless the file stores them so (associated alpha);</li>
 <li>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</li>
 <li>the files compressed by the methods that libtiff does not support fail to load;</li>
 <li>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats Generated from function <span class="tt"><a class="el" href="#a2cf02b499f72beaa678019f2a03f22f5" title="loads the first image of a .tiff file as a raster with one layer:">MR.RasterLoad.fromTiff</a></span>. Parameter <span class="tt">settings</span> defaults to <span class="tt">{}</span>. </li>

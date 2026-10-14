@@ -344,7 +344,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">loads the first image of a .tiff file: libtiff decodes the formats it supports,
-the others are loaded by RasterLoad::fromTiff and converted by convertRasterToImage
+the others are loaded by RasterLoad::fromTiff and converted by convertRasterToImage;
+the colors are not multiplied by alpha unless the file stores them so (associated alpha)
 </pre> 
 </div>
 </div>

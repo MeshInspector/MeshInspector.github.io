@@ -81288,7 +81288,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <detaileddescription>
 <para>loads the first image of a .tiff file as a raster with one layer:<itemizedlist>
 <listitem><para>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</para>
-</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</para>
+</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors, which are not multiplied by alpha unless the file stores them so (associated alpha);</para>
 </listitem><listitem><para>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</para>
 </listitem><listitem><para>the files compressed by the methods that libtiff does not support fail to load;</para>
 </listitem><listitem><para>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats </para>
@@ -81339,7 +81339,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors, of any type from UInt8 to Float64 </para>
+<para>saves a raster with one layer in .tiff format: one channel of gray values, or three or four channels of RGB or RGBA colors (unassociated alpha: the colors are not multiplied by it), of any type from UInt8 to Float64 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -81385,11 +81385,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <ref refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kindref="member">RasterLoad::fromTiff</ref> and converted by convertRasterToImage </para>
+<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <ref refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kindref="member">RasterLoad::fromTiff</ref> and converted by convertRasterToImage; the colors are not multiplied by alpha unless the file stores them so (associated alpha) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="61" column="11" declfile="MRIOExtras/MRTiff.h" declline="61" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="62" column="11" declfile="MRIOExtras/MRTiff.h" declline="62" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81406,13 +81406,13 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
           <declname>path</declname>
         </param>
         <briefdescription>
-<para>saves in .tiff format </para>
+<para>saves in .tiff format with unassociated alpha, as in <ref refid="structMR_1_1Image" kindref="compound">Image</ref>: the colors are not multiplied by it </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="69" column="11" declfile="MRIOExtras/MRTiff.h" declline="69" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="70" column="11" declfile="MRIOExtras/MRTiff.h" declline="70" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaca4207193c9429dfa4854457efea6c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; DistanceMap &gt;</type>
@@ -81436,7 +81436,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="78" column="11" declfile="MRIOExtras/MRTiff.h" declline="78" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="79" column="11" declfile="MRIOExtras/MRTiff.h" declline="79" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab345cb66e5ce36e8727661b2a91f9f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
@@ -81463,7 +81463,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="80" column="32" bodyfile="MRIOExtras/MRTiff.h" bodystart="80" bodyend="86"/>
+        <location file="MRIOExtras/MRTiff.h" line="81" column="32" bodyfile="MRIOExtras/MRTiff.h" bodystart="81" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81491,7 +81491,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="94" column="11" declfile="MRIOExtras/MRTiff.h" declline="94" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="95" column="11" declfile="MRIOExtras/MRTiff.h" declline="95" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>

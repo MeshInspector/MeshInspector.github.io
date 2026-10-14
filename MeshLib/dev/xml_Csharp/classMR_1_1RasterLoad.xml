@@ -24,7 +24,7 @@
         <detaileddescription>
 <para><itemizedlist>
 <listitem><para>gray, palette and RGB images keep the stored samples of any type (gray values, color indices or color components) as channels;</para>
-</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors;</para>
+</listitem><listitem><para>libtiff decodes the other formats (gray with alpha, YCbCr, CMYK, less than 8 bits per sample, etc.) to four UInt8 channels of RGBA colors, which are not multiplied by alpha unless the file stores them so (associated alpha);</para>
 </listitem><listitem><para>the formats that libtiff cannot decode are read as stored too if each pixel has one sample or three or more interleaved samples of 8 to 64 bits, otherwise loading fails;</para>
 </listitem><listitem><para>the files compressed by the methods that libtiff does not support fail to load;</para>
 </listitem><listitem><para>the rows keep the stored order whatever the Orientation tag says, also in the decoded formats Generated from function <computeroutput><ref refid="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" kindref="member">MR.RasterLoad.fromTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
