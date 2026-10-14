@@ -13,13 +13,13 @@
         <qualifiedname>MR::RasterSaveSettings::xf</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
-<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) </para>
         </briefdescription>
         <detaileddescription>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRaster.h" line="76" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="76" bodyend="-1"/>
+        <location file="MRMesh/MRRaster.h" line="77" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRaster.h" line="78" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="78" bodyend="-1"/>
+        <location file="MRMesh/MRRaster.h" line="79" column="22" bodyfile="MRMesh/MRRaster.h" bodystart="79" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -54,7 +54,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRRaster.h" line="73" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="74" bodyend="79"/>
+    <location file="MRMesh/MRRaster.h" line="73" column="1" bodyfile="MRMesh/MRRaster.h" bodystart="74" bodyend="80"/>
     <listofallmembers>
       <member refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" prot="public" virt="non-virtual"><scope>MR::RasterSaveSettings</scope><name>progress</name></member>
       <member refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" prot="public" virt="non-virtual"><scope>MR::RasterSaveSettings</scope><name>xf</name></member>

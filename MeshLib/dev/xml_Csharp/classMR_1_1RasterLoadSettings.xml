@@ -11,7 +11,7 @@
         <name>xf</name>
         <qualifiedname>MR.RasterLoadSettings.xf</qualifiedname>
         <briefdescription>
-<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity </para>
+<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>

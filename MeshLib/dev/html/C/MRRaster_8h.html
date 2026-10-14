@@ -1183,7 +1183,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity Returns a pointer to a member variable of class <span class="tt">MR::RasterLoadSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a pointer to a member variable of class <span class="tt">MR::RasterLoadSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1219,7 +1219,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity Returns a mutable pointer to a member variable of class <span class="tt">MR::RasterLoadSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a mutable pointer to a member variable of class <span class="tt">MR::RasterLoadSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1312,7 +1312,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity Modifies a member variable of class <span class="tt">MR::RasterLoadSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
+<p>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Modifies a member variable of class <span class="tt">MR::RasterLoadSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
 
 </div>
 </div>
@@ -1498,7 +1498,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Returns a pointer to a member variable of class <span class="tt">MR::RasterSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a pointer to a member variable of class <span class="tt">MR::RasterSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1534,7 +1534,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Returns a mutable pointer to a member variable of class <span class="tt">MR::RasterSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a mutable pointer to a member variable of class <span class="tt">MR::RasterSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -1627,7 +1627,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Modifies a member variable of class <span class="tt">MR::RasterSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Modifies a member variable of class <span class="tt">MR::RasterSaveSettings</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
 
 </div>
 </div>

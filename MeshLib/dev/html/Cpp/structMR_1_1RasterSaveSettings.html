@@ -155,7 +155,6 @@ $(function(){initNavTree('structMR_1_1RasterSaveSettings.html','','structMR_1_1R
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a96a20d4c5e859028ef66fd98db8fd14b" id="r_a96a20d4c5e859028ef66fd98db8fd14b"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96a20d4c5e859028ef66fd98db8fd14b">xf</a> = nullptr</td></tr>
-<tr class="memdesc:a96a20d4c5e859028ef66fd98db8fd14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF)  <br /></td></tr>
 <tr class="memitem:a04b466bdf3c5f2d7e08030e4cd463ee8" id="r_a04b466bdf3c5f2d7e08030e4cd463ee8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b466bdf3c5f2d7e08030e4cd463ee8">progress</a></td></tr>
 <tr class="memdesc:a04b466bdf3c5f2d7e08030e4cd463ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">to report save progress and cancel saving if user desires  <br /></td></tr>
 </table>
@@ -189,8 +188,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) </p>
+<p>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center </p>
 
 </div>
 </div>

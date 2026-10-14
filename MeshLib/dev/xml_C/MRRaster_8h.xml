@@ -874,7 +874,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity Returns a pointer to a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a pointer to a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -896,7 +896,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity Modifies a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
+<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Modifies a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -914,7 +914,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>optional output: transformation of (column, row, value) to world coordinates if the format stores it (e.g. GeoTIFF), otherwise the identity; (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterLoadSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1183,11 +1183,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Returns a pointer to a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a pointer to a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="360" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="360" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="361" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="361" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a5a910fec66b88f0c897e510e93b7ab84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1205,11 +1205,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Modifies a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Modifies a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>xf</computeroutput>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="367" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="367" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="369" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="369" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1aeacd56b0a5b7800e57aa3ea7f85e4dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
@@ -1223,11 +1223,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF) Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF); (0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center Returns a mutable pointer to a member variable of class <computeroutput>MR::RasterSaveSettings</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="374" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="374" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="377" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="377" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -1245,7 +1245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="381" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="381" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="384" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="384" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1271,7 +1271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="388" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="388" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="391" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="391" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -1289,7 +1289,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="395" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="395" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="398" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="398" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1306,7 +1306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="399" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="399" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="402" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="402" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1324,7 +1324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="404" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="404" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="407" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="407" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a2a283fce5c74250fa541f538103e4472" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1350,7 +1350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="411" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="411" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="414" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="414" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1372,7 +1372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="415" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="415" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="418" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="418" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1394,7 +1394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="419" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="419" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="422" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="422" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1416,7 +1416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="424" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="424" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="427" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="427" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1434,7 +1434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="427" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="427" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="430" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="430" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1452,7 +1452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="430" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="430" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="433" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="433" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref> *</type>
@@ -1478,7 +1478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="437" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="437" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" line="440" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h" declline="440" declcolumn="31"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1620,39 +1620,39 @@
 <codeline lineno="347"><highlight class="normal"></highlight></codeline>
 <codeline lineno="353" refid="MRRaster_8h_1ac9d7ee2ec5ed50509df0ad5e1f42073b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*<ref refid="MRRaster_8h_1ac9d7ee2ec5ed50509df0ad5e1f42073b" kindref="member">MR_RasterLoadSettings_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a8a32d017de76b733fb7da342370bbc72" kindref="member">MR_RasterLoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360" refid="MRRaster_8h_1a54f41c67bd251a679edfa611e1e4138d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRRaster_8h_1a54f41c67bd251a679edfa611e1e4138d" kindref="member">MR_RasterSaveSettings_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="361"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367" refid="MRRaster_8h_1a5a910fec66b88f0c897e510e93b7ab84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a5a910fec66b88f0c897e510e93b7ab84" kindref="member">MR_RasterSaveSettings_Set_xf</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="368"><highlight class="normal"></highlight></codeline>
-<codeline lineno="374" refid="MRRaster_8h_1aeacd56b0a5b7800e57aa3ea7f85e4dd5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRRaster_8h_1aeacd56b0a5b7800e57aa3ea7f85e4dd5" kindref="member">MR_RasterSaveSettings_GetMutable_xf</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"></highlight></codeline>
-<codeline lineno="381" refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" kindref="member">MR_RasterSaveSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="382"><highlight class="normal"></highlight></codeline>
-<codeline lineno="388" refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" kindref="member">MR_RasterSaveSettings_Set_progress</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="389"><highlight class="normal"></highlight></codeline>
-<codeline lineno="395" refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" kindref="member">MR_RasterSaveSettings_GetMutable_progress</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="396"><highlight class="normal"></highlight></codeline>
-<codeline lineno="399" refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" kindref="member">MR_RasterSaveSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="400"><highlight class="normal"></highlight></codeline>
-<codeline lineno="404" refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" kindref="member">MR_RasterSaveSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="405"><highlight class="normal"></highlight></codeline>
-<codeline lineno="411" refid="MRRaster_8h_1a2a283fce5c74250fa541f538103e4472" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a2a283fce5c74250fa541f538103e4472" kindref="member">MR_RasterSaveSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
-<codeline lineno="412"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415" refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" kindref="member">MR_RasterSaveSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="419" refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" kindref="member">MR_RasterSaveSettings_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="420"><highlight class="normal"></highlight></codeline>
-<codeline lineno="424" refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" kindref="member">MR_RasterSaveSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="425"><highlight class="normal"></highlight></codeline>
-<codeline lineno="427" refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kindref="member">MR_RasterSaveSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="361" refid="MRRaster_8h_1a54f41c67bd251a679edfa611e1e4138d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRRaster_8h_1a54f41c67bd251a679edfa611e1e4138d" kindref="member">MR_RasterSaveSettings_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="MRRaster_8h_1a5a910fec66b88f0c897e510e93b7ab84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a5a910fec66b88f0c897e510e93b7ab84" kindref="member">MR_RasterSaveSettings_Set_xf</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="MRRaster_8h_1aeacd56b0a5b7800e57aa3ea7f85e4dd5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRRaster_8h_1aeacd56b0a5b7800e57aa3ea7f85e4dd5" kindref="member">MR_RasterSaveSettings_GetMutable_xf</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384" refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1a3770b0f667f4effe979c7d91c24396c1" kindref="member">MR_RasterSaveSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391" refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a713e39f95a0eda95ea9df2eae924be7b" kindref="member">MR_RasterSaveSettings_Set_progress</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398" refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRaster_8h_1aece1b2f2a9aef872b62112e9dd67cfd4" kindref="member">MR_RasterSaveSettings_GetMutable_progress</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9798bf1149a7c7b762aa3d67df8e03c2" kindref="member">MR_RasterSaveSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="407" refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a66e1b23e9e9982cde0e3a02b53d9c543" kindref="member">MR_RasterSaveSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414" refid="MRRaster_8h_1a2a283fce5c74250fa541f538103e4472" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a2a283fce5c74250fa541f538103e4472" kindref="member">MR_RasterSaveSettings_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418" refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a5b9c1df829aafd76e227f0e2b6cb5a1e" kindref="member">MR_RasterSaveSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="422" refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a9dfa69e5bfbef1398a4ae24102e4efed" kindref="member">MR_RasterSaveSettings_OffsetMutablePtr</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"></highlight></codeline>
+<codeline lineno="427" refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a25951d63cf03f528dc57d191b18fae70" kindref="member">MR_RasterSaveSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="428"><highlight class="normal"></highlight></codeline>
-<codeline lineno="430" refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" kindref="member">MR_RasterSaveSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="430" refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1ab00e25757aca4d35f4cb8882cee4efa0" kindref="member">MR_RasterSaveSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="431"><highlight class="normal"></highlight></codeline>
-<codeline lineno="437" refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" kindref="member">MR_RasterSaveSettings_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="438"><highlight class="normal"></highlight></codeline>
-<codeline lineno="439"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="440"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="441"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="433" refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRaster_8h_1a008272c840c6d8535718300f9e6b4fd2" kindref="member">MR_RasterSaveSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="440" refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*<ref refid="MRRaster_8h_1a02e3b47613bee05d6c7b4e1f00df38f2" kindref="member">MR_RasterSaveSettings_AssignFromAnother</ref>(<ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRTiff_8h_1a091b1c6d0c8400fc4a818d402115b616" kindref="member">MR_RasterSaveSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="443"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRaster.h"/>
   </compounddef>

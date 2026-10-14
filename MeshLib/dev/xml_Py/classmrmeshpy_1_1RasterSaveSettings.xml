@@ -233,12 +233,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF)
+<para><verbatim>optional transformation of (column, row, value) to world coordinates, saved if the format supports it (e.g. GeoTIFF);
+(0, 0) is the corner of the first pixel, and (0.5, 0.5) is its center
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42246" bodyend="42249"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42246" bodyend="42250"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterSaveSettings_1ac87301b5321ade40253d832a9357dfe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -260,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42251" bodyend="42252"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42252" bodyend="42253"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -283,7 +284,7 @@ settings for saving rasters in external formats
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42204" bodyend="42252"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42204" bodyend="42253"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RasterSaveSettings_1a71d245052a15ee1f98525d5ce6c9cc35" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1RasterSaveSettings_1ad48380036885cac7486460e37d334c23" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterSaveSettings</scope><name>__init__</name></member>

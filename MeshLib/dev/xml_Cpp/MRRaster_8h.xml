@@ -318,12 +318,12 @@
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="structMR_1_1RasterSaveSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RasterSaveSettings" kindref="compound">RasterSaveSettings</ref></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="76" refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="78" refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" kindref="member">progress</ref>;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77" refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f*<sp/><ref refid="structMR_1_1RasterSaveSettings_1a96a20d4c5e859028ef66fd98db8fd14b" kindref="member">xf</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref><sp/><ref refid="structMR_1_1RasterSaveSettings_1a04b466bdf3c5f2d7e08030e4cd463ee8" kindref="member">progress</ref>;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRRaster.h"/>
   </compounddef>
