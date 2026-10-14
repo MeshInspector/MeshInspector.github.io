@@ -971,8 +971,21 @@
     <member refid="MRTiff_8h_1a6f8f980fd6d903b05640e3e02a1ec231" kind="typedef"><name>MR_expected_MR_RasterInfo_std_string</name></member>
     <member refid="MRTiff_8h_1af973406beb1038c22c5342ae0d99a27e" kind="typedef"><name>MR_expected_MR_Raster_std_string</name></member>
     <member refid="MRTiff_8h_1ae0c6104dcd799a946e4e2ddc8214d24c" kind="typedef"><name>MR_std_optional_double</name></member>
+    <member refid="MRTiff_8h_1a5a2048412d06900be24e45b2d4a0c303" kind="typedef"><name>MR_RasterLoad_TiffLoadSettings</name></member>
     <member refid="MRTiff_8h_1a0e44ffea584a24f5e2afeb57343b6b4c" kind="typedef"><name>MR_TiffSaveSettings</name></member>
-    <member refid="MRTiff_8h_1ae4661697cb83e683195e70223e1f168f" kind="function"><name>MR_RasterLoad_fromTiff</name></member>
+    <member refid="MRTiff_8h_1ac98a4b1c0915d5488c2d2383242191d1" kind="function"><name>MR_RasterLoad_TiffLoadSettings_Get_noData</name></member>
+    <member refid="MRTiff_8h_1a68f201080e20566c9534e2738fca0a58" kind="function"><name>MR_RasterLoad_TiffLoadSettings_Set_noData</name></member>
+    <member refid="MRTiff_8h_1a993a3ae8fd26f61d31355c690d20809d" kind="function"><name>MR_RasterLoad_TiffLoadSettings_GetMutable_noData</name></member>
+    <member refid="MRTiff_8h_1a3a5e3cfa08c3d46f4f4709473237c86f" kind="function"><name>MR_RasterLoad_TiffLoadSettings_DefaultConstruct</name></member>
+    <member refid="MRTiff_8h_1a8963043abf5d78bddbd021141693d8c8" kind="function"><name>MR_RasterLoad_TiffLoadSettings_DefaultConstructArray</name></member>
+    <member refid="MRTiff_8h_1a20a068af815fe837515104c03d0aa5ae" kind="function"><name>MR_RasterLoad_TiffLoadSettings_ConstructFrom</name></member>
+    <member refid="MRTiff_8h_1aa737bbca6a0ccd29787f31d6c4ad3d31" kind="function"><name>MR_RasterLoad_TiffLoadSettings_OffsetPtr</name></member>
+    <member refid="MRTiff_8h_1ab4b841eeeb9d987b13dd5cc08297e172" kind="function"><name>MR_RasterLoad_TiffLoadSettings_OffsetMutablePtr</name></member>
+    <member refid="MRTiff_8h_1a849162c6ad67045cd2aed3c0cbeb48ca" kind="function"><name>MR_RasterLoad_TiffLoadSettings_ConstructFromAnother</name></member>
+    <member refid="MRTiff_8h_1ae5fd13dffbaf1e911dae3d1739088df3" kind="function"><name>MR_RasterLoad_TiffLoadSettings_Destroy</name></member>
+    <member refid="MRTiff_8h_1adaea881f74ec07cd7ca7ec9d3795899d" kind="function"><name>MR_RasterLoad_TiffLoadSettings_DestroyArray</name></member>
+    <member refid="MRTiff_8h_1a32a097668ed19447bcbfeb79e46176bd" kind="function"><name>MR_RasterLoad_TiffLoadSettings_AssignFromAnother</name></member>
+    <member refid="MRTiff_8h_1a48ec69bf8f00c0a185bb09c1774b2477" kind="function"><name>MR_RasterLoad_fromTiff</name></member>
     <member refid="MRTiff_8h_1ad565ad3cf5977c40bfb54c28dc5fe29b" kind="function"><name>MR_RasterLoad_infoFromTiff</name></member>
     <member refid="MRTiff_8h_1ab51da680f433ddd00fa83b96674e2587" kind="function"><name>MR_TiffSaveSettings_Get_noData</name></member>
     <member refid="MRTiff_8h_1a12f178db18a70aa2eaadcacc40b66465" kind="function"><name>MR_TiffSaveSettings_Set_noData</name></member>

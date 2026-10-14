@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="509" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="509" bodyend="518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="749" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="749" bodyend="758"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="523" column="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="763" column="67"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapSave_1acf6209d759b34db852cf45a23b03ad1c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
@@ -242,7 +242,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="502" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="503" bodyend="524"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="742" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="743" bodyend="764"/>
     <listofallmembers>
       <member refid="classMR_1_1DistanceMapSave_1acf6209d759b34db852cf45a23b03ad1c" prot="private" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>__MR_DistanceMapSave_toAnySupportedFormat</name></member>
       <member refid="classMR_1_1DistanceMapSave_1a1f7dfad1b4dba2e0f3ce8b294ae3bc22" prot="private" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>__MR_DistanceMapSave_toMrDistanceMap</name></member>

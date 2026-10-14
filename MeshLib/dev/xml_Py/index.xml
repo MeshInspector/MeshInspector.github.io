@@ -16832,7 +16832,7 @@
   </compound>
   <compound refid="classmrmeshpy_1_1RasterLoad" kind="class"><name>mrmeshpy::RasterLoad</name>
     <member refid="classmrmeshpy_1_1RasterLoad_1a96747cea6029d73d12fe6f58078c3960" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="classmrmeshpy_1_1RasterLoad_1a021b9266012771aea5cfcb4fe9941447" kind="function"><name>fromTiff</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1ababc4f45d55d095090eca3577fce5c2a" kind="function"><name>fromTiff</name></member>
     <member refid="classmrmeshpy_1_1RasterLoad_1adae450f6635ad312da84e579db5c8c79" kind="function"><name>infoFromAnySupportedFormat</name></member>
     <member refid="classmrmeshpy_1_1RasterLoad_1a13800f67eb0c2ffe9086efc2ef35becd" kind="function"><name>infoFromTiff</name></member>
   </compound>
@@ -16852,8 +16852,8 @@
   </compound>
   <compound refid="classmrmeshpy_1_1RasterSave" kind="class"><name>mrmeshpy::RasterSave</name>
     <member refid="classmrmeshpy_1_1RasterSave_1a5d196629bc3773640fb6d4fb4fbf89f3" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="classmrmeshpy_1_1RasterSave_1a30296ad07ad74f0d1e92a663476663ec" kind="function"><name>toTiff</name></member>
     <member refid="classmrmeshpy_1_1RasterSave_1ac49589f358644cad49a9ae5119f30019" kind="function"><name>toTiff</name></member>
+    <member refid="classmrmeshpy_1_1RasterSave_1a30296ad07ad74f0d1e92a663476663ec" kind="function"><name>toTiff</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1RasterSaveSettings" kind="class"><name>mrmeshpy::RasterSaveSettings</name>
     <member refid="classmrmeshpy_1_1RasterSaveSettings_1a58dc178c0a0673531638f33b1ee6fe13" kind="variable"><name>_offsetof_progress</name></member>
@@ -25221,6 +25221,17 @@
     <member refid="classmrmeshpy_1_1ThickenParams_1a5c8ec76ba9d465be9547bca7c18f2298" kind="function"><name>outsideOffset</name></member>
     <member refid="classmrmeshpy_1_1ThickenParams_1a993b95aa76b31cf42fda8d1e18ec7db5" kind="function"><name>outsideOffset</name></member>
   </compound>
+  <compound refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings" kind="class"><name>mrmeshpy::RasterLoad::TiffLoadSettings</name>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a8310744f952e9bcd17cc80fa42264729" kind="variable"><name>_offsetof_noData</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a7a1250becdb30c990b90d033bf3bab72" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a6071934eb00589a4e56806dfd11eff16" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a6071934eb00589a4e56806dfd11eff16" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a3e6d86b55d8236fb933837f7d38b01f6" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a13905166556630c988315563dca321f7" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1aae228a5c64275d619f7e99847ab89666" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a4868b617fb17188e257efe7e1f035a33" kind="function"><name>noData</name></member>
+    <member refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings_1a82546cee8ba2b6a5da69574887c2b493" kind="function"><name>noData</name></member>
+  </compound>
   <compound refid="classmrmeshpy_1_1TiffSaveSettings" kind="class"><name>mrmeshpy::TiffSaveSettings</name>
     <member refid="classmrmeshpy_1_1TiffSaveSettings_1aabfe1a97204c9482788c718bc0842dbe" kind="variable"><name>_offsetof_noData</name></member>
     <member refid="classmrmeshpy_1_1TiffSaveSettings_1a773d607ea82364617242952d775fc9be" kind="function"><name>__init__</name></member>
@@ -33089,6 +33100,7 @@
     <member refid="namespacemrmeshpy_1ad08692945aa2db9962bc60be1003e591" kind="function"><name>hasFormatPlaceholders</name></member>
     <member refid="namespacemrmeshpy_1ac4c9e0d73e2c530f3125cec14e7a484b" kind="function"><name>hasMultipleEdges</name></member>
     <member refid="namespacemrmeshpy_1a9eca53aeabfa6d70e9441d9f9a1aeef6" kind="function"><name>hasProhibitedChars</name></member>
+    <member refid="namespacemrmeshpy_1ab9a0836c02cc4cad3b558a7661aac471" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a9ee1db556a8c20bda08add64497250c6" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a7cdebfe26d01bb16a1968604c7fa68e0" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a97ce01094a8c118590cdbf7cc9bf6134" kind="function"><name>heapBytes</name></member>
@@ -33099,7 +33111,6 @@
     <member refid="namespacemrmeshpy_1ade70f20ade3b161b3c46d41738f386f2" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1afa61dce26ed66edfff9cea5e70b2a09b" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1a033abbdc76d5393f43e8ae89a50a8e12" kind="function"><name>heapBytes</name></member>
-    <member refid="namespacemrmeshpy_1ab9a0836c02cc4cad3b558a7661aac471" kind="function"><name>heapBytes</name></member>
     <member refid="namespacemrmeshpy_1ae53e446ff455ecd603569115d2e51d44" kind="function"><name>holeDirArea</name></member>
     <member refid="namespacemrmeshpy_1a0213d9e3c40a01066287a35a975c4934" kind="function"><name>holePerimeter</name></member>
     <member refid="namespacemrmeshpy_1a4504758a8fae339f5bceca8f4facef6f" kind="function"><name>identityMetric</name></member>
@@ -33335,9 +33346,9 @@
     <member refid="namespacemrmeshpy_1a520d3648a964ee111d20036bc1e868d4" kind="function"><name>mixed</name></member>
     <member refid="namespacemrmeshpy_1ae050f34ed5d327883f0d8c5a13f8d482" kind="function"><name>mixed</name></member>
     <member refid="namespacemrmeshpy_1a437039026e957c5d68a75f1a57b80591" kind="function"><name>mixed</name></member>
+    <member refid="namespacemrmeshpy_1a86adcf5881fe9af879d8a5aad79c2b97" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
     <member refid="namespacemrmeshpy_1a8ede3e2443c93ad62e73d967d25a384a" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
     <member refid="namespacemrmeshpy_1a9a3ba3b539cf2850c1a5265b45f9b47d" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
-    <member refid="namespacemrmeshpy_1a86adcf5881fe9af879d8a5aad79c2b97" kind="function"><name>moveMeshToVoxelMaxDeriv</name></member>
     <member refid="namespacemrmeshpy_1a65a754f206488e5529e943e23e7d4cdb" kind="function"><name>mult</name></member>
     <member refid="namespacemrmeshpy_1a2f3c0a882369007ba04b9b876d02d620" kind="function"><name>mult</name></member>
     <member refid="namespacemrmeshpy_1ac1c2fb7099043a5f21f8a630564353c2" kind="function"><name>mult</name></member>

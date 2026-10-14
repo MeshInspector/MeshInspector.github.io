@@ -824,7 +824,7 @@ var annotated_dup =
       [ "RadiusMeasurementObject", "classmrmeshpy_1_1RadiusMeasurementObject.html", "classmrmeshpy_1_1RadiusMeasurementObject" ],
       [ "Raster", "classmrmeshpy_1_1Raster.html", "classmrmeshpy_1_1Raster" ],
       [ "RasterInfo", "classmrmeshpy_1_1RasterInfo.html", "classmrmeshpy_1_1RasterInfo" ],
-      [ "RasterLoad", "classmrmeshpy_1_1RasterLoad.html", null ],
+      [ "RasterLoad", "classmrmeshpy_1_1RasterLoad.html", "classmrmeshpy_1_1RasterLoad" ],
       [ "RasterLoadSettings", "classmrmeshpy_1_1RasterLoadSettings.html", "classmrmeshpy_1_1RasterLoadSettings" ],
       [ "RasterSave", "classmrmeshpy_1_1RasterSave.html", null ],
       [ "RasterSaveSettings", "classmrmeshpy_1_1RasterSaveSettings.html", "classmrmeshpy_1_1RasterSaveSettings" ],

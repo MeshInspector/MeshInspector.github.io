@@ -19,13 +19,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1a14f9d19844f30c80e3d9e795f15edce1" kindref="member">MR.DistanceMapLoad.fromTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; the values of one channel equal to the value meaning no data (GDAL_NODATA) are invalid; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapLoad_1a14f9d19844f30c80e3d9e795f15edce1" kindref="member">MR.DistanceMapLoad.fromTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="484" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="484" bodyend="494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="724" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="724" bodyend="734"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapLoad_1ab8f7534506e4b5989d5ae1a76738abba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="499" column="76"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="739" column="76"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMapLoad_1a587890b52984d993177ab2d88edf6fe6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRDistanceMap_StdString._Underlying *</type>
@@ -210,7 +210,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="476" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="477" bodyend="500"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="715" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="716" bodyend="740"/>
     <listofallmembers>
       <member refid="classMR_1_1DistanceMapLoad_1a587890b52984d993177ab2d88edf6fe6" prot="private" virt="non-virtual"><scope>MR::DistanceMapLoad</scope><name>__MR_DistanceMapLoad_fromAnySupportedFormat</name></member>
       <member refid="classMR_1_1DistanceMapLoad_1ae1fc28637acc3730f3201dd3259fe300" prot="private" virt="non-virtual"><scope>MR::DistanceMapLoad</scope><name>__MR_DistanceMapLoad_fromMrDistanceMap</name></member>

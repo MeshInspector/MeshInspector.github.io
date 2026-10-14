@@ -3047,6 +3047,9 @@ var hierarchy =
       [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html", [
         [ "MR.PolylineComponents.LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", null ]
       ] ],
+      [ "MR.RasterLoad.Const_TiffLoadSettings", "classMR_1_1RasterLoad_1_1Const__TiffLoadSettings.html", [
+        [ "MR.RasterLoad.TiffLoadSettings", "classMR_1_1RasterLoad_1_1TiffLoadSettings.html", null ]
+      ] ],
       [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", [
         [ "MR.SceneLoad.Result", "classMR_1_1SceneLoad_1_1Result.html", null ]
       ] ],
@@ -4648,6 +4651,7 @@ var hierarchy =
       [ "MR.PointsLoad.Const_NamedCloud", "classMR_1_1PointsLoad_1_1Const__NamedCloud.html", null ],
       [ "MR.PointsSave.Const_CtmSavePointsOptions", "classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions.html", null ],
       [ "MR.PolylineComponents.Const_LargeByLengthComponentsSettings", "classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings.html", null ],
+      [ "MR.RasterLoad.Const_TiffLoadSettings", "classMR_1_1RasterLoad_1_1Const__TiffLoadSettings.html", null ],
       [ "MR.SceneLoad.Const_Result", "classMR_1_1SceneLoad_1_1Const__Result.html", null ],
       [ "MR.SceneLoad.Const_Settings", "classMR_1_1SceneLoad_1_1Const__Settings.html", null ],
       [ "MR.SceneSave.Const_Settings", "classMR_1_1SceneSave_1_1Const__Settings.html", null ],

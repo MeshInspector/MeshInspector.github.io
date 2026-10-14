@@ -1388,6 +1388,7 @@ var hierarchy =
     [ "mrmeshpy.TexturePerFace", "classmrmeshpy_1_1TexturePerFace.html", null ],
     [ "mrmeshpy.Tgt2SrcMaps", "classmrmeshpy_1_1Tgt2SrcMaps.html", null ],
     [ "mrmeshpy.ThickenParams", "classmrmeshpy_1_1ThickenParams.html", null ],
+    [ "mrmeshpy.RasterLoad.TiffLoadSettings", "classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings.html", null ],
     [ "mrmeshpy.TimeUnit", "classmrmeshpy_1_1TimeUnit.html", null ],
     [ "mrmeshpy.ToolPathParams", "classmrmeshpy_1_1ToolPathParams.html", [
       [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", null ]

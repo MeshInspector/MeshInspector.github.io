@@ -213,7 +213,8 @@ var annotated_dup =
         [ "LargeByLengthComponentsSettings", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings.html", "structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" ]
       ] ],
       [ "RasterLoad", "namespaceMR_1_1RasterLoad.html", [
-        [ "RasterLoader", "structMR_1_1RasterLoad_1_1RasterLoader.html", "structMR_1_1RasterLoad_1_1RasterLoader" ]
+        [ "RasterLoader", "structMR_1_1RasterLoad_1_1RasterLoader.html", "structMR_1_1RasterLoad_1_1RasterLoader" ],
+        [ "TiffLoadSettings", "structMR_1_1RasterLoad_1_1TiffLoadSettings.html", "structMR_1_1RasterLoad_1_1TiffLoadSettings" ]
       ] ],
       [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", [
         [ "AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],

@@ -1,5 +1,17 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54":[9,1,0,0,2,841,9],
+"classmrmeshpy_1_1SaveSettings.html#a699b99fafa9f99d7b5ac668d94846b54":[9,1,1,0,1,841,9],
+"classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b":[9,1,0,0,2,841,1],
+"classmrmeshpy_1_1SaveSettings.html#a72283386dd7c2700a272d9ef1c81c29b":[9,1,1,0,1,841,1],
+"classmrmeshpy_1_1SaveSettings.html#a7d567ca2364dc8ff64662fde01bbb43d":[9,1,0,0,2,841,21],
+"classmrmeshpy_1_1SaveSettings.html#a7d567ca2364dc8ff64662fde01bbb43d":[9,1,1,0,1,841,21],
+"classmrmeshpy_1_1SaveSettings.html#a81771cf4e4023c678647efcd50223e01":[9,1,0,0,2,841,26],
+"classmrmeshpy_1_1SaveSettings.html#a81771cf4e4023c678647efcd50223e01":[9,1,1,0,1,841,26],
+"classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd":[9,1,0,0,2,841,4],
+"classmrmeshpy_1_1SaveSettings.html#a8aa43c02d17f5a9ee0e26dce9257efbd":[9,1,1,0,1,841,4],
+"classmrmeshpy_1_1SaveSettings.html#aa55f96bf1a4f0fbdf29abebca792cf0e":[9,1,0,0,2,841,10],
+"classmrmeshpy_1_1SaveSettings.html#aa55f96bf1a4f0fbdf29abebca792cf0e":[9,1,1,0,1,841,10],
 "classmrmeshpy_1_1SaveSettings.html#aac0572323fc8a0e1a11a533e614b95db":[9,1,0,0,2,841,2],
 "classmrmeshpy_1_1SaveSettings.html#aac0572323fc8a0e1a11a533e614b95db":[9,1,1,0,1,841,2],
 "classmrmeshpy_1_1SaveSettings.html#ab0308bab262ffed82505833c80b2e3c0":[9,1,0,0,2,841,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[9,1,0,0,2,848,2,5],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae105e1163c63a45e93e4d02a27680d2f":[9,1,1,0,1,848,2,5],
 "classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,0,0,2,848,2,7],
-"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,1,0,1,848,2,7],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,0,0,2,848,3],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html":[9,1,1,0,1,848,3],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,0,0,2,848,3,5],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a1dd770e0ddb679b9d7db4b0f067c06da":[9,1,1,0,1,848,3,5],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a2e6f3f8c97d77d7079bb2633bfe3f6c0":[9,1,0,0,2,848,3,0],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a2e6f3f8c97d77d7079bb2633bfe3f6c0":[9,1,1,0,1,848,3,0],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a39cf875c438dd0d2a6b1d8b8eaabeede":[9,1,0,0,2,848,3,3],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a39cf875c438dd0d2a6b1d8b8eaabeede":[9,1,1,0,1,848,3,3],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a3af2d776cbeba5960c0e4a02771f5f48":[9,1,0,0,2,848,3,2],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a3af2d776cbeba5960c0e4a02771f5f48":[9,1,1,0,1,848,3,2],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a48aeb3b82d2e346db5fd97a94f4504ba":[9,1,0,0,2,848,3,9],
-"classmrmeshpy_1_1SceneSettings_1_1StringType.html#a48aeb3b82d2e346db5fd97a94f4504ba":[9,1,1,0,1,848,3,9]
+"classmrmeshpy_1_1SceneSettings_1_1ShadingMode.html#ae573b0d18f954665fdda1ae5db1c2f8e":[9,1,1,0,1,848,2,7]
 };

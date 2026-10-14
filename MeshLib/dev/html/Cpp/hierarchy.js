@@ -1336,6 +1336,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", null ],
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", null ],
     [ "MR::ThickenParams", "structMR_1_1ThickenParams.html", null ],
+    [ "MR::RasterLoad::TiffLoadSettings", "structMR_1_1RasterLoad_1_1TiffLoadSettings.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
     [ "MR::RenderDimensions::Tolerance", "structMR_1_1RenderDimensions_1_1Tolerance.html", null ],
     [ "MR::Toolbar", "classMR_1_1Toolbar.html", null ],

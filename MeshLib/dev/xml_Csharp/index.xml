@@ -33535,6 +33535,23 @@
     <member refid="classMR_1_1Const__ThickenParams_1a164bad7b81b9e795bb2c4056f7a220df" kind="function"><name>__MR_ThickenParams_Get_normalsTrustFactor</name></member>
     <member refid="classMR_1_1Const__ThickenParams_1a58070045e92ba7371f959842349ad54c" kind="function"><name>__MR_ThickenParams_Get_outsideOffset</name></member>
   </compound>
+  <compound refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings" kind="class"><name>MR::RasterLoad::Const_TiffLoadSettings</name>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1aa9c9d565ec0802b96668ff63709c229e" kind="property"><name>noData</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a44765155f54f0dc3f9bbde513948ad6a" kind="variable"><name>__ptr_storage_noData</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a69b3c352196130e4f451417b97befe02" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a3cc94c067a7035a5c60f4a22481d5dee" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a6e78b337025cafe0a4fc953d2b6fe5d1" kind="function"><name>Const_TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a7cfd2bc73b27cbf88592889a910f80da" kind="function"><name>Const_TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1ac41c021d099ef7b5a203e4d049ea76c0" kind="function"><name>Const_TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a8a879741d185eec1a8ee840cc246fedd" kind="function"><name>Const_TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a805f2979d33adba2d4ad6092af8c5771" kind="function"><name>~Const_TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a00ecc678ea4058ef3f67316090dfd0f1" kind="function"><name>Const_TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a9140eefd5030d5aecddb9bd199194552" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1ae292c490e11e9ea10bd2f11819bcd52d" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1a337a5113817fe12610f598d468d4ec40" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_DefaultConstruct</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1ace68a9f0ddbd4834f5c3bf632edf761e" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_Destroy</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1Const__TiffLoadSettings_1afc1a16aee80490da9dcb1bc25bf88e5e" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_Get_noData</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__TiffSaveSettings" kind="class"><name>MR::Const_TiffSaveSettings</name>
     <member refid="classMR_1_1Const__TiffSaveSettings_1ab86eca2fa52171bef6df78d0aac2f11a" kind="property"><name>noData</name></member>
     <member refid="classMR_1_1Const__TiffSaveSettings_1a88b3ae402762384e1690ff94dcedef46" kind="property"><name>xf</name></member>
@@ -61545,11 +61562,11 @@
     <member refid="classMR_1_1RasterInfo_1a9d8e2ffbeaa2d1107315a6a892117628" kind="function"><name>__MR_RasterInfo_DefaultConstruct</name></member>
   </compound>
   <compound refid="classMR_1_1RasterLoad" kind="class"><name>MR::RasterLoad</name>
-    <member refid="classMR_1_1RasterLoad_1a2cf02b499f72beaa678019f2a03f22f5" kind="function"><name>fromTiff</name></member>
+    <member refid="classMR_1_1RasterLoad_1a0ff5e685a72bcd36d617902b4002376c" kind="function"><name>fromTiff</name></member>
     <member refid="classMR_1_1RasterLoad_1a0d7f9a0a540662f6edbcda4c5630cbcb" kind="function"><name>infoFromTiff</name></member>
     <member refid="classMR_1_1RasterLoad_1a3404721ea149fdff48a6a04bfad3e97c" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="classMR_1_1RasterLoad_1ad3a841c5d719fb952f3c0772b1946e52" kind="function"><name>infoFromAnySupportedFormat</name></member>
-    <member refid="classMR_1_1RasterLoad_1a1eb2e6bfc8d89d1e3defa2f15903051f" kind="function"><name>__MR_RasterLoad_fromTiff</name></member>
+    <member refid="classMR_1_1RasterLoad_1a6710cead3cf2c57422d6c1034450ce9a" kind="function"><name>__MR_RasterLoad_fromTiff</name></member>
     <member refid="classMR_1_1RasterLoad_1a5699866c160798898544744d2dc4a144" kind="function"><name>__MR_RasterLoad_infoFromTiff</name></member>
     <member refid="classMR_1_1RasterLoad_1af851a27a8ad266631e2aab4f7cd81017" kind="function"><name>__MR_RasterLoad_fromAnySupportedFormat</name></member>
     <member refid="classMR_1_1RasterLoad_1a6d528213b653aba8c7345f097bf45653" kind="function"><name>__MR_RasterLoad_infoFromAnySupportedFormat</name></member>
@@ -64146,6 +64163,19 @@
     <member refid="classMR_1_1ThickenParams_1a693abcb85904c02d404de897f51c2497" kind="function"><name>__MR_ThickenParams_ConstructFrom</name></member>
     <member refid="classMR_1_1ThickenParams_1af04ef97c8a0b650179c477c617fbcf23" kind="function"><name>__MR_ThickenParams_ConstructFromAnother</name></member>
     <member refid="classMR_1_1ThickenParams_1a87c75816be34355e20fed8b6ea116185" kind="function"><name>__MR_ThickenParams_DefaultConstruct</name></member>
+  </compound>
+  <compound refid="classMR_1_1RasterLoad_1_1TiffLoadSettings" kind="class"><name>MR::RasterLoad::TiffLoadSettings</name>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1a8fe0f2c671eaaf97f5b4109d9e1fc1aa" kind="property"><name>noData</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1a027c0831be345487651d3479cd9bab9c" kind="function"><name>TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1aedfcb654fde99f8e5ad6c1e3839b2fb6" kind="function"><name>TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1adae2ed87bd994dcad0f48833f2a45ee9" kind="function"><name>TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1a5387e8abd3ba450244cd47d8dd8c3567" kind="function"><name>TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1af163396a724f991c75ceeaa2720ddc70" kind="function"><name>TiffLoadSettings</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1a0814916b6aec9e7078f3394cc6c45719" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1ab1c9b12e2d6d7885918afe2add4e7482" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_AssignFromAnother</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1a6513b4c4fb1ff2ea1a61a15e08a40628" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1a612a92d2d88ee064197c0ec6862a9867" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1RasterLoad_1_1TiffLoadSettings_1af9aef22c8cec39f9ceab3bca62076734" kind="function"><name>__MR_RasterLoad_TiffLoadSettings_DefaultConstruct</name></member>
   </compound>
   <compound refid="classMR_1_1TiffSaveSettings" kind="class"><name>MR::TiffSaveSettings</name>
     <member refid="classMR_1_1TiffSaveSettings_1a123054b2cd95ae52a8faeefabddbff2e" kind="property"><name>noData</name></member>

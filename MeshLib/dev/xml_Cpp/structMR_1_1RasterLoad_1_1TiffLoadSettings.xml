@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RasterLoad_1_1TiffLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RasterLoad::TiffLoadSettings</compoundname>
+    <includes refid="MRTiff_8h" local="no">MRIOExtras/MRTiff.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga74d5090863da20420ed89f30807bbe0e" kind="variable"><name>noData</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>TIFF-specific raster load parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRIOExtras/MRTiff.h" line="25" column="1" bodyfile="MRIOExtras/MRTiff.h" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga74d5090863da20420ed89f30807bbe0e" prot="public" virt="non-virtual"><scope>MR::RasterLoad::TiffLoadSettings</scope><name>noData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

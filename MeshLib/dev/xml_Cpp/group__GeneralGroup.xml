@@ -63,6 +63,7 @@
     <innerclass refid="structMR_1_1Pdf_1_1TextCellParams" prot="public">MR::Pdf::TextCellParams</innerclass>
     <innerclass refid="structMR_1_1Pdf_1_1ColumnInfo" prot="private">MR::Pdf::ColumnInfo</innerclass>
     <innerclass refid="structMR_1_1Pdf_1_1TableGeneralParams" prot="private">MR::Pdf::TableGeneralParams</innerclass>
+    <innerclass refid="structMR_1_1RasterLoad_1_1TiffLoadSettings" prot="public">MR::RasterLoad::TiffLoadSettings</innerclass>
     <innerclass refid="structMR_1_1TiffSaveSettings" prot="public">MR::TiffSaveSettings</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
@@ -23312,6 +23313,22 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRIOExtras/MRPdf.h" line="286" column="18"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga74d5090863da20420ed89f30807bbe0e" prot="public" static="no" mutable="no">
+        <type>std::optional&lt; double &gt; *</type>
+        <definition>std::optional&lt;double&gt;* MR::RasterLoad::TiffLoadSettings::noData</definition>
+        <argsstring></argsstring>
+        <name>noData</name>
+        <qualifiedname>MR::RasterLoad::TiffLoadSettings::noData</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output: the value meaning no data (GDAL_NODATA) if the file has one, otherwise nullopt </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRTiff.h" line="28" column="19" bodyfile="MRIOExtras/MRTiff.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" prot="public" static="no" mutable="no">
         <type>std::optional&lt; double &gt;</type>
         <definition>std::optional&lt;double&gt; MR::TiffSaveSettings::noData</definition>
@@ -23325,7 +23342,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="43" column="19" bodyfile="MRIOExtras/MRTiff.h" bodystart="43" bodyend="-1"/>
+        <location file="MRIOExtras/MRTiff.h" line="51" column="19" bodyfile="MRIOExtras/MRTiff.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" prot="public" static="no" mutable="no">
         <type>VertId</type>
@@ -81268,10 +81285,10 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRIOExtras/MRPng.h" line="32" column="11" declfile="MRIOExtras/MRPng.h" declline="32" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga3b276cd2ad021748a60bf2f705ac3bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Raster &gt;</type>
         <definition>Expected&lt; Raster &gt; MR::RasterLoad::fromTiff</definition>
-        <argsstring>(const std::filesystem::path &amp;path, const RasterLoadSettings &amp;settings={})</argsstring>
+        <argsstring>(const std::filesystem::path &amp;path, const RasterLoadSettings &amp;settings={}, const TiffLoadSettings &amp;tiffSettings={})</argsstring>
         <name>fromTiff</name>
         <qualifiedname>MR::RasterLoad::fromTiff</qualifiedname>
         <param>
@@ -81281,6 +81298,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <param>
           <type>const RasterLoadSettings &amp;</type>
           <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const TiffLoadSettings &amp;</type>
+          <declname>tiffSettings</declname>
           <defval>{}</defval>
         </param>
         <briefdescription>
@@ -81297,7 +81319,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="32" column="11" declfile="MRIOExtras/MRTiff.h" declline="32" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="39" column="11" declfile="MRIOExtras/MRTiff.h" declline="39" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; RasterInfo &gt;</type>
@@ -81316,7 +81338,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="35" column="11" declfile="MRIOExtras/MRTiff.h" declline="35" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="43" column="11" declfile="MRIOExtras/MRTiff.h" declline="43" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga97262f8abdfe526f36a8127e068508f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81343,7 +81365,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="51" column="11" declfile="MRIOExtras/MRTiff.h" declline="51" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="59" column="11" declfile="MRIOExtras/MRTiff.h" declline="59" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81370,7 +81392,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="52" column="11" declfile="MRIOExtras/MRTiff.h" declline="52" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="60" column="11" declfile="MRIOExtras/MRTiff.h" declline="60" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7aa85481e130d6308bc8ddae1581f9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Image &gt;</type>
@@ -81385,11 +81407,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <ref refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kindref="member">RasterLoad::fromTiff</ref> and converted by convertRasterToImage; the colors are not multiplied by alpha unless the file stores them so (associated alpha) </para>
+<para>loads the first image of a .tiff file: libtiff decodes the formats it supports, the others are loaded by <ref refid="group__GeneralGroup_1ga3b276cd2ad021748a60bf2f705ac3bbc" kindref="member">RasterLoad::fromTiff</ref> and converted by convertRasterToImage; the colors are not multiplied by alpha unless the file stores them so (associated alpha) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="62" column="11" declfile="MRIOExtras/MRTiff.h" declline="62" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="70" column="11" declfile="MRIOExtras/MRTiff.h" declline="70" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga15e4b1b6ede3c72f01803bf8178f5203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81412,7 +81434,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="70" column="11" declfile="MRIOExtras/MRTiff.h" declline="70" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="78" column="11" declfile="MRIOExtras/MRTiff.h" declline="78" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaca4207193c9429dfa4854457efea6c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; DistanceMap &gt;</type>
@@ -81432,11 +81454,11 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none </para>
+<para>loads the first image of a .tiff file: one channel is taken as is, three or more channels give the luma of the first three, see convertRasterToFloats; the values of one channel equal to the value meaning no data (GDAL_NODATA) are invalid; settings.distanceMapToWorld gets the GeoTIFF transformation, or the identity if the file has none </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="79" column="11" declfile="MRIOExtras/MRTiff.h" declline="79" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="88" column="11" declfile="MRIOExtras/MRTiff.h" declline="88" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gab345cb66e5ce36e8727661b2a91f9f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; DistanceMap &gt;</type>
@@ -81463,7 +81485,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="81" column="32" bodyfile="MRIOExtras/MRTiff.h" bodystart="81" bodyend="87"/>
+        <location file="MRIOExtras/MRTiff.h" line="90" column="32" bodyfile="MRIOExtras/MRTiff.h" bodystart="90" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd82d0afb5ae771e7c73d41a9c8d7a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -81491,7 +81513,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRTiff.h" line="95" column="11" declfile="MRIOExtras/MRTiff.h" declline="95" declcolumn="11"/>
+        <location file="MRIOExtras/MRTiff.h" line="104" column="11" declfile="MRIOExtras/MRTiff.h" declline="104" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>

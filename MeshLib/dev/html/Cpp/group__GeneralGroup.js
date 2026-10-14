@@ -431,6 +431,9 @@ var group__GeneralGroup =
       [ "rect", "group__GeneralGroup.html#gac6d96b2c644db5ae28d307a62806a383", null ],
       [ "textParams", "group__GeneralGroup.html#gae2bf5c8e0ef483e8f509d09e9b45174b", null ]
     ] ],
+    [ "MR::RasterLoad::TiffLoadSettings", "structMR_1_1RasterLoad_1_1TiffLoadSettings.html", [
+      [ "noData", "group__GeneralGroup.html#ga74d5090863da20420ed89f30807bbe0e", null ]
+    ] ],
     [ "MR::TiffSaveSettings", "structMR_1_1TiffSaveSettings.html", [
       [ "noData", "group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345", null ]
     ] ],
@@ -12330,7 +12333,7 @@ var group__GeneralGroup =
     [ "MR::DistanceMapLoad::fromTiff", "group__GeneralGroup.html#gaca4207193c9429dfa4854457efea6c23", null ],
     [ "MR::DistanceMapLoad::fromTiff", "group__GeneralGroup.html#gab345cb66e5ce36e8727661b2a91f9f02", null ],
     [ "MR::ImageLoad::fromTiff", "group__GeneralGroup.html#ga7aa85481e130d6308bc8ddae1581f9c4", null ],
-    [ "MR::RasterLoad::fromTiff", "group__GeneralGroup.html#ga4cb4aac0a47a9d901d24247625ebc4f9", null ],
+    [ "MR::RasterLoad::fromTiff", "group__GeneralGroup.html#ga3b276cd2ad021748a60bf2f705ac3bbc", null ],
     [ "MR::MeshTriPointT::fromTriangle", "group__GeneralGroup.html#gab180f2f8ec1eb726f15e6587013fcfc6", null ],
     [ "MR::MeshBuilder::fromTriangles", "group__GeneralGroup.html#ga3851088244e23053e194bb0bcd9e5700", null ],
     [ "MR::MeshBuilder::fromTrianglesDuplicatingNonManifoldVertices", "group__GeneralGroup.html#gac85a71548f3100e3b6dec18adaab539d", null ],
@@ -18005,6 +18008,7 @@ var group__GeneralGroup =
     [ "MR::MeshTopology::HalfEdgeRecord::next", "group__GeneralGroup.html#gaa79948207ce03ac940110fc5b6eeadad", null ],
     [ "MR::PolylineTopology::HalfEdgeRecord::next", "group__GeneralGroup.html#gab1ed86ede6d5b6c5be5ed47055c9ee11", null ],
     [ "MR::GlTexture::NO_TEX", "group__GeneralGroup.html#ga41901568843aff73ce764e7d07c0a81f", null ],
+    [ "MR::RasterLoad::TiffLoadSettings::noData", "group__GeneralGroup.html#ga74d5090863da20420ed89f30807bbe0e", null ],
     [ "MR::TiffSaveSettings::noData", "group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345", null ],
     [ "MR::NoDefInit", "group__GeneralGroup.html#gae14e1033b3de0c30a6bb404e940dc424", null ],
     [ "MR::AABBTreeBase::nodes_", "group__GeneralGroup.html#ga11f524576ba6c686729f0173615bc190", null ],

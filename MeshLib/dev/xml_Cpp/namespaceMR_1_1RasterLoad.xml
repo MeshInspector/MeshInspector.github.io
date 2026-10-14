@@ -3,6 +3,7 @@
   <compounddef id="namespaceMR_1_1RasterLoad" kind="namespace" language="C++">
     <compoundname>MR::RasterLoad</compoundname>
     <innerclass refid="structMR_1_1RasterLoad_1_1RasterLoader" prot="public">MR::RasterLoad::RasterLoader</innerclass>
+    <innerclass refid="structMR_1_1RasterLoad_1_1TiffLoadSettings" prot="public">MR::RasterLoad::TiffLoadSettings</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" prot="public" static="no">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Raster" kindref="compound">Raster</ref> &gt;(*)(const std::filesystem::path &amp;, const <ref refid="structMR_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref> &amp;)</type>
@@ -34,7 +35,7 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <member refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kind="function"><name>fromTiff</name></member>
+      <member refid="group__GeneralGroup_1ga3b276cd2ad021748a60bf2f705ac3bbc" kind="function"><name>fromTiff</name></member>
       <member refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" kind="function"><name>infoFromTiff</name></member>
       <member refid="group__RasterLoadGroup_1gaab2549a28175f7d8f2ae7b5431442f73" kind="function"><name>fromAnySupportedFormat</name></member>
       <member refid="group__RasterLoadGroup_1ga60a7fe313f6d66a2d13aaf834599e50d" kind="function"><name>infoFromAnySupportedFormat</name></member>

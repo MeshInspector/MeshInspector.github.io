@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1RasterLoad" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::RasterLoad</compoundname>
+    <innerclass refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings" prot="public">mrmeshpy::RasterLoad::TiffLoadSettings</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1a96747cea6029d73d12fe6f58078c3960" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
@@ -26,12 +27,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="723" bodyend="726"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="763" bodyend="766"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1a021b9266012771aea5cfcb4fe9941447" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1ababc4f45d55d095090eca3577fce5c2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Raster" kindref="compound">Raster</ref></type>
         <definition> Raster mrmeshpy.RasterLoad.fromTiff</definition>
-        <argsstring>(os.PathLike|str|bytes path, RasterLoadSettings settings=...)</argsstring>
+        <argsstring>(os.PathLike|str|bytes path, RasterLoadSettings settings=..., RasterLoad.TiffLoadSettings tiffSettings=...)</argsstring>
         <name>fromTiff</name>
         <qualifiedname>mrmeshpy.RasterLoad.fromTiff</qualifiedname>
         <param>
@@ -41,6 +42,11 @@
         <param>
           <type><ref refid="classmrmeshpy_1_1RasterLoadSettings" kindref="compound">RasterLoadSettings</ref></type>
           <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RasterLoad_1_1TiffLoadSettings" kindref="compound">RasterLoad.TiffLoadSettings</ref></type>
+          <declname>tiffSettings</declname>
           <defval>...</defval>
         </param>
         <briefdescription>
@@ -58,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="728" bodyend="738"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="768" bodyend="778"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1adae450f6635ad312da84e579db5c8c79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
@@ -78,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="740" bodyend="743"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="780" bodyend="783"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1RasterLoad_1a13800f67eb0c2ffe9086efc2ef35becd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1RasterInfo" kindref="compound">RasterInfo</ref></type>
@@ -98,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="745" bodyend="748"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="785" bodyend="788"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -107,10 +113,10 @@
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="718" bodyend="748"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="718" bodyend="788"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1RasterLoad_1a96747cea6029d73d12fe6f58078c3960" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>fromAnySupportedFormat</name></member>
-      <member refid="classmrmeshpy_1_1RasterLoad_1a021b9266012771aea5cfcb4fe9941447" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>fromTiff</name></member>
+      <member refid="classmrmeshpy_1_1RasterLoad_1ababc4f45d55d095090eca3577fce5c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>fromTiff</name></member>
       <member refid="classmrmeshpy_1_1RasterLoad_1adae450f6635ad312da84e579db5c8c79" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>infoFromAnySupportedFormat</name></member>
       <member refid="classmrmeshpy_1_1RasterLoad_1a13800f67eb0c2ffe9086efc2ef35becd" prot="public" virt="non-virtual"><scope>mrmeshpy::RasterLoad</scope><name>infoFromTiff</name></member>
     </listofallmembers>

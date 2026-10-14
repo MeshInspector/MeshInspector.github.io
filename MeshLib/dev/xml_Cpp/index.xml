@@ -11749,6 +11749,9 @@
     <member refid="structMR_1_1ThreadRootTimeRecord_1a3e5ba8456a90bb0fad95117f932b88b7" kind="function"><name>printTree</name></member>
     <member refid="structMR_1_1ThreadRootTimeRecord_1a8369b56e3b80eadaad7c4d75eae4ea14" kind="function"><name>~ThreadRootTimeRecord</name></member>
   </compound>
+  <compound refid="structMR_1_1RasterLoad_1_1TiffLoadSettings" kind="struct"><name>MR::RasterLoad::TiffLoadSettings</name>
+    <member refid="group__GeneralGroup_1ga74d5090863da20420ed89f30807bbe0e" kind="variable"><name>noData</name></member>
+  </compound>
   <compound refid="structMR_1_1TiffSaveSettings" kind="struct"><name>MR::TiffSaveSettings</name>
     <member refid="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" kind="variable"><name>noData</name></member>
   </compound>
@@ -17119,7 +17122,7 @@
   <compound refid="namespaceMR_1_1RasterLoad" kind="namespace"><name>MR::RasterLoad</name>
     <member refid="namespaceMR_1_1RasterLoad_1a0841950ed95e631a37203af96bfc0f2b" kind="typedef"><name>RasterFileLoader</name></member>
     <member refid="namespaceMR_1_1RasterLoad_1ade9e8b8215e87321bea2c34d68fe543b" kind="typedef"><name>RasterInfoLoader</name></member>
-    <member refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kind="function"><name>fromTiff</name></member>
+    <member refid="group__GeneralGroup_1ga3b276cd2ad021748a60bf2f705ac3bbc" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" kind="function"><name>infoFromTiff</name></member>
     <member refid="group__RasterLoadGroup_1gaab2549a28175f7d8f2ae7b5431442f73" kind="function"><name>fromAnySupportedFormat</name></member>
     <member refid="group__RasterLoadGroup_1ga60a7fe313f6d66a2d13aaf834599e50d" kind="function"><name>infoFromAnySupportedFormat</name></member>
@@ -22276,6 +22279,7 @@
     <member refid="group__GeneralGroup_1ga8ad3bd1fc79040b52327f862e925278f" kind="variable"><name>colorLines</name></member>
     <member refid="group__GeneralGroup_1ga2e3f2fa34910012c4d09f57c480d85b6" kind="variable"><name>fontSize</name></member>
     <member refid="group__GeneralGroup_1gae024d2a255ca7e6b10a982238597494f" kind="variable"><name>tableParams_</name></member>
+    <member refid="group__GeneralGroup_1ga74d5090863da20420ed89f30807bbe0e" kind="variable"><name>noData</name></member>
     <member refid="group__GeneralGroup_1gaea10af7e0dd9264e3a7855d26a7b5345" kind="variable"><name>noData</name></member>
     <member refid="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" kind="variable"><name>lOrg</name></member>
     <member refid="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" kind="variable"><name>lDest</name></member>
@@ -26011,7 +26015,7 @@
     <member refid="group__GeneralGroup_1ga307c90c18a4c76238088f90d44fa96fd" kind="function"><name>fromPng</name></member>
     <member refid="group__GeneralGroup_1ga9317aae284f353085d4799cc043a4471" kind="function"><name>toPng</name></member>
     <member refid="group__GeneralGroup_1ga6c144adb55e7a5da74033de268c22adb" kind="function"><name>toPng</name></member>
-    <member refid="group__GeneralGroup_1ga4cb4aac0a47a9d901d24247625ebc4f9" kind="function"><name>fromTiff</name></member>
+    <member refid="group__GeneralGroup_1ga3b276cd2ad021748a60bf2f705ac3bbc" kind="function"><name>fromTiff</name></member>
     <member refid="group__GeneralGroup_1ga937e9face092516582310b4330dfc8da" kind="function"><name>infoFromTiff</name></member>
     <member refid="group__GeneralGroup_1ga97262f8abdfe526f36a8127e068508f6" kind="function"><name>toTiff</name></member>
     <member refid="group__GeneralGroup_1ga75f16c022a45b2f8a627a948a9390653" kind="function"><name>toTiff</name></member>

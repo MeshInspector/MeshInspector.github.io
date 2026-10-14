@@ -45,7 +45,7 @@ var searchData=
   ['nextid_42',['nextId',['../structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6',1,'MR::TriangulationHelpers::FanOptimizerQueueElement']]],
   ['nextroundedges_43',['nextRoundEdges',['../structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8',1,'MR::DeloneFlipsCache']]],
   ['no_5ftex_44',['NO_TEX',['../group__GeneralGroup.html#ga41901568843aff73ce764e7d07c0a81f',1,'MR::GlTexture']]],
-  ['nodata_45',['noData',['../group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345',1,'MR::TiffSaveSettings']]],
+  ['nodata_45',['noData',['../group__GeneralGroup.html#ga74d5090863da20420ed89f30807bbe0e',1,'MR::RasterLoad::TiffLoadSettings::noData'],['../group__GeneralGroup.html#gaea10af7e0dd9264e3a7855d26a7b5345',1,'MR::TiffSaveSettings::noData']]],
   ['nodefinit_46',['NoDefInit',['../group__GeneralGroup.html#gae14e1033b3de0c30a6bb404e940dc424',1,'MR']]],
   ['nodes_5f_47',['nodes_',['../group__GeneralGroup.html#ga11f524576ba6c686729f0173615bc190',1,'MR::AABBTreeBase']]],
   ['nodetag_48',['NodeTag',['../group__GeneralGroup.html#ga377a98e08f145435910c6f6f568722b3',1,'MR']]],
