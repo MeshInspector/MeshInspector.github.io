@@ -182033,9 +182033,9 @@ returns true if load was succeed </para>
         </inbodydescription>
         <location file="MRViewer/MRSplashWindow.h" line="27" column="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1573c8629a9fbf26469c6ecb8c9372f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf01c48a73b53806678acaf24c3a270db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>virtual void MR::SplashWindow::start</definition>
+        <definition>void MR::SplashWindow::start</definition>
         <argsstring>()</argsstring>
         <name>start</name>
         <qualifiedname>MR::SplashWindow::start</qualifiedname>
@@ -182046,11 +182046,11 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSplashWindow.h" line="31" column="19"/>
+        <location file="MRViewer/MRSplashWindow.h" line="31" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga83c07182085b1ad55439d6509fa157ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gab48855fcfc4227b2e7cf197229389efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>virtual void MR::SplashWindow::stop</definition>
+        <definition>void MR::SplashWindow::stop</definition>
         <argsstring>()</argsstring>
         <name>stop</name>
         <qualifiedname>MR::SplashWindow::stop</qualifiedname>
@@ -182061,7 +182061,7 @@ returns true if load was succeed </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRSplashWindow.h" line="34" column="19"/>
+        <location file="MRViewer/MRSplashWindow.h" line="34" column="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga017a42c7599e421ba51d913f9c9c0a5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>float</type>
