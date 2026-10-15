@@ -2833,7 +2833,7 @@ var searchData=
   ['replaceinplace_57',['replaceInplace',['../classMR.html#a74ea0efcbd460adf05bac238fafdfa09',1,'MR']]],
   ['replaceprohibitedchars_58',['replaceProhibitedChars',['../classMR.html#a5ce970b084b61a27fadc7734b4ce36b1',1,'MR']]],
   ['replicatez_59',['replicateZ',['../classMR.html#ad14aed2f191dc8006a1012ea79aa2c68',1,'MR']]],
-  ['reportprogress_60',['reportProgress',['../classMR.html#a6a9b50313a77c24324e520577931a0d1',1,'MR.reportProgress(MR.Std._ByValue_Function_Bool_From_Float cb, float v)'],['../classMR.html#a6c646f60e9dbcc61877577e4d815d280',1,'MR.reportProgress(MR.Std._ByValue_Function_Bool_From_Float cb, float v, nuint counter, int divider)']]],
+  ['reportprogress_60',['reportProgress',['../classMR.html#aae0113fab10df5795e5a72a9d8e4b35f',1,'MR.reportProgress(MR.Std.Const_Function_Bool_From_Float cb, float v)'],['../classMR.html#af2788c7097622d1dae94213d7b13ec6d',1,'MR.reportProgress(MR.Std.Const_Function_Bool_From_Float cb, float v, nuint counter, int divider)']]],
   ['resample_61',['resample',['../classMR.html#a16c4da6c14a99c56ed77e11d2fa4afc3',1,'MR']]],
   ['resampled_62',['resampled',['../classMR.html#a4e002a0fd2b4b43a50327413ffdee323',1,'MR.resampled(MR.Const_FloatGrid grid, float voxelScale, MR.Std._ByValue_Function_Bool_From_Float? cb=null)'],['../classMR.html#aca6ebed45fa553a3f840f49492681616',1,'MR.resampled(MR.Const_FloatGrid grid, in MR.Vector3f voxelScale, MR.Std._ByValue_Function_Bool_From_Float? cb=null)']]],
   ['resamplepoints_63',['resamplePoints',['../classMR_1_1MultiwayICP.html#adc72d721bc443d2a5386600ac02245db',1,'MR::MultiwayICP']]],

@@ -36154,14 +36154,14 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrism.cs" line="10" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrism.cs" bodystart="10" bodyend="14"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6a9b50313a77c24324e520577931a0d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aae0113fab10df5795e5a72a9d8e4b35f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.reportProgress</definition>
-        <argsstring>(MR.Std._ByValue_Function_Bool_From_Float cb, float v)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float cb, float v)</argsstring>
         <name>reportProgress</name>
         <qualifiedname>MR.reportProgress</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <type>MR.Std.Const_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -36177,7 +36177,7 @@ do not really keeps volume but tries hard </para>
 <parametername>cb</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>with given value; just returning true for empty callback Generated from function <computeroutput><ref refid="classMR_1a6a9b50313a77c24324e520577931a0d1" kindref="member">MR.reportProgress</ref></computeroutput>. </para>
+<para>with given value; just returning true for empty callback Generated from function <computeroutput><ref refid="classMR_1aae0113fab10df5795e5a72a9d8e4b35f" kindref="member">MR.reportProgress</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -36187,14 +36187,14 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProgressCallback.cs" line="7" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProgressCallback.cs" bodystart="7" bodyend="10"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6c646f60e9dbcc61877577e4d815d280" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1af2788c7097622d1dae94213d7b13ec6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>static unsafe bool MR.reportProgress</definition>
-        <argsstring>(MR.Std._ByValue_Function_Bool_From_Float cb, float v, nuint counter, int divider)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float cb, float v, nuint counter, int divider)</argsstring>
         <name>reportProgress</name>
         <qualifiedname>MR.reportProgress</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <type>MR.Std.Const_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -36234,7 +36234,7 @@ do not really keeps volume but tries hard </para>
 <parametername>divider</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>(preferably a power of 2); just returning true for empty callback Generated from function <computeroutput><ref refid="classMR_1a6a9b50313a77c24324e520577931a0d1" kindref="member">MR.reportProgress</ref></computeroutput>. </para>
+<para>(preferably a power of 2); just returning true for empty callback Generated from function <computeroutput><ref refid="classMR_1aae0113fab10df5795e5a72a9d8e4b35f" kindref="member">MR.reportProgress</ref></computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -82011,18 +82011,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrism.cs" line="19" column="44"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aaa30c2e7f7f5993ff1666fc9761f5f8f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a66890c719385c48c4ab71b3868a63a44" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
         <definition>static unsafe byte MR.__MR_reportProgress_2</definition>
-        <argsstring>(MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb, float v)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float._Underlying *cb, float v)</argsstring>
         <name>__MR_reportProgress_2</name>
         <qualifiedname>MR.__MR_reportProgress_2</qualifiedname>
         <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>cb_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -82037,18 +82033,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRProgressCallback.cs" line="43" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aca5f647d33f5903179c4206cf896e913" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a1df3a95ede6f817826808eaec4c493e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
         <definition>static unsafe byte MR.__MR_reportProgress_4</definition>
-        <argsstring>(MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb, float v, nuint counter, int divider)</argsstring>
+        <argsstring>(MR.Std.Const_Function_Bool_From_Float._Underlying *cb, float v, nuint counter, int divider)</argsstring>
         <name>__MR_reportProgress_4</name>
         <qualifiedname>MR.__MR_reportProgress_4</qualifiedname>
         <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>cb_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -101364,8 +101356,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab0a5b1226ac181783ba5659fcc4e3eda" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_replaceInplace</name></member>
       <member refid="classMR_1a5a1c849c38e2d91c2da16bfd6fc8561d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_replaceProhibitedChars</name></member>
       <member refid="classMR_1a19142acbb4be28b29b6605ab1d21d0a7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_replicateZ</name></member>
-      <member refid="classMR_1aaa30c2e7f7f5993ff1666fc9761f5f8f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reportProgress_2</name></member>
-      <member refid="classMR_1aca5f647d33f5903179c4206cf896e913" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reportProgress_4</name></member>
+      <member refid="classMR_1a66890c719385c48c4ab71b3868a63a44" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reportProgress_2</name></member>
+      <member refid="classMR_1a1df3a95ede6f817826808eaec4c493e7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reportProgress_4</name></member>
       <member refid="classMR_1ad2738abae0a69a86926961d87c61ad4e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_resample</name></member>
       <member refid="classMR_1a78ef9c6d3deba101f3e414eca204edad" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_resampled_float</name></member>
       <member refid="classMR_1a24716b58f6c9a2d45c672c09650b908f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_resampled_MR_Vector3f</name></member>
@@ -103269,8 +103261,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a74ea0efcbd460adf05bac238fafdfa09" prot="public" virt="non-virtual"><scope>MR</scope><name>replaceInplace</name></member>
       <member refid="classMR_1a5ce970b084b61a27fadc7734b4ce36b1" prot="public" virt="non-virtual"><scope>MR</scope><name>replaceProhibitedChars</name></member>
       <member refid="classMR_1ad14aed2f191dc8006a1012ea79aa2c68" prot="public" virt="non-virtual"><scope>MR</scope><name>replicateZ</name></member>
-      <member refid="classMR_1a6a9b50313a77c24324e520577931a0d1" prot="public" virt="non-virtual"><scope>MR</scope><name>reportProgress</name></member>
-      <member refid="classMR_1a6c646f60e9dbcc61877577e4d815d280" prot="public" virt="non-virtual"><scope>MR</scope><name>reportProgress</name></member>
+      <member refid="classMR_1aae0113fab10df5795e5a72a9d8e4b35f" prot="public" virt="non-virtual"><scope>MR</scope><name>reportProgress</name></member>
+      <member refid="classMR_1af2788c7097622d1dae94213d7b13ec6d" prot="public" virt="non-virtual"><scope>MR</scope><name>reportProgress</name></member>
       <member refid="classMR_1a16c4da6c14a99c56ed77e11d2fa4afc3" prot="public" virt="non-virtual"><scope>MR</scope><name>resample</name></member>
       <member refid="classMR_1a4e002a0fd2b4b43a50327413ffdee323" prot="public" virt="non-virtual"><scope>MR</scope><name>resampled</name></member>
       <member refid="classMR_1aca6ebed45fa553a3f840f49492681616" prot="public" virt="non-virtual"><scope>MR</scope><name>resampled</name></member>
