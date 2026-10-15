@@ -322,7 +322,7 @@ $(function(){initNavTree('MROpenVDBHelper_8h_source.html','',''); });
 <div class="foldopen" id="foldopen00184" data-start="{" data-end="}">
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa3ba5b5d4dddbf923bc92f56310c747b">  184</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#gaa3ba5b5d4dddbf923bc92f56310c747b">RangeProgress</a>( <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>, <a class="code hl_enumeration" href="group__GeneralGroup.html#gaa39d9c285d46ac3ce70aea92db6f9bf2">Mode</a> mode ) :</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        size_{ <a class="code hl_function" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a> },</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        cb_{ cb },</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>        cb_{ std::move( cb ) },</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        mode_{ mode }</div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    {</div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        progressThreadId_ = std::this_thread::get_id();</div>

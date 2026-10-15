@@ -150,7 +150,7 @@ $(function(){initNavTree('MRVDBProgressInterrupter_8h_source.html','',''); });
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structMR_1_1ProgressInterrupter.html">   17</a></span><span class="keyword">struct </span><a class="code hl_function" href="group__GeneralGroup.html#gad4f40f015b6a225a963200f8fced9ea8">ProgressInterrupter</a> : openvdb::util::NullInterrupter</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad4f40f015b6a225a963200f8fced9ea8">   19</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#gad4f40f015b6a225a963200f8fced9ea8">ProgressInterrupter</a>( <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb )  : cb_{ cb }</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad4f40f015b6a225a963200f8fced9ea8">   19</a></span>    <a class="code hl_function" href="group__GeneralGroup.html#gad4f40f015b6a225a963200f8fced9ea8">ProgressInterrupter</a>( <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb )  : cb_{ std::move( cb ) }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        , progressThreadId_{ std::this_thread::get_id() } {}</div>
 </div>
 <div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
