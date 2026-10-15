@@ -1190,10 +1190,10 @@
         </inbodydescription>
         <location file="MRMesh/MRParallelFor.h" line="21" column="7" declfile="MRMesh/MRParallelFor.h" declline="21" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__BasicGroup_1ga71dd68bc7a3e31a4779d51ec181066ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BasicGroup_1ga3d10e3277d0dbf04ba095f52b25d4f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::parallelFor</definition>
-        <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, ProgressCallback cb, size_t reportProgressEvery=1024)</argsstring>
+        <argsstring>(size_t begin, size_t end, FunctionRef&lt; void(size_t, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, const ProgressCallback &amp;cb, size_t reportProgressEvery=1024)</argsstring>
         <name>parallelFor</name>
         <qualifiedname>MR::parallelFor</qualifiedname>
         <param>
@@ -1213,7 +1213,7 @@
           <declname>ctx</declname>
         </param>
         <param>
-          <type>ProgressCallback</type>
+          <type>const ProgressCallback &amp;</type>
           <declname>cb</declname>
         </param>
         <param>

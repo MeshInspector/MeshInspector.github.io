@@ -193,10 +193,10 @@
         </inbodydescription>
         <location file="MRMesh/MRBitSetParallelFor.h" line="62" column="7" declfile="MRMesh/MRBitSetParallelFor.h" declline="62" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a1f094746abf85a10cf062caea76a86ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1ac80c10d3cdd20520fd097aa56cfa8f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool MR::BitSetParallel::forAllRanged</definition>
-        <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, ProgressCallback progressCb, size_t reportProgressEveryBit=1024)</argsstring>
+        <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, const ProgressCallback &amp;progressCb, size_t reportProgressEveryBit=1024)</argsstring>
         <name>forAllRanged</name>
         <qualifiedname>MR::BitSetParallel::forAllRanged</qualifiedname>
         <param>
@@ -212,7 +212,7 @@
           <declname>ctx</declname>
         </param>
         <param>
-          <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
+          <type>const <ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref> &amp;</type>
           <declname>progressCb</declname>
         </param>
         <param>

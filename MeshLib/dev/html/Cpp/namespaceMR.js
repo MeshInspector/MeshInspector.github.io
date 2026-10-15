@@ -15,7 +15,7 @@ var namespaceMR =
       [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#aaed29890343a67cc172f1987cd57dc10", null ],
       [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#a171e1b4c596f99a5ac789f4ec19c22d3", null ],
       [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#a7188e3b56fb0a02aa78b5e9d3bcc6ae6", null ],
-      [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#a1f094746abf85a10cf062caea76a86ee", null ]
+      [ "forAllRanged", "namespaceMR_1_1BitSetParallel.html#ac80c10d3cdd20520fd097aa56cfa8f1c", null ]
     ] ],
     [ "Cuda", "namespaceMR_1_1Cuda.html", "namespaceMR_1_1Cuda" ],
     [ "detail", "namespaceMR_1_1detail.html", "namespaceMR_1_1detail" ],
@@ -3238,7 +3238,7 @@ var namespaceMR =
     [ "parallelFor", "group__BasicGroup.html#ga1dc1fa5afc6f99004188ccefc4e8dae9", null ],
     [ "parallelFor", "group__BasicGroup.html#ga1ad43c8c0718e27ba01d6e807509b470", null ],
     [ "parallelFor", "group__BasicGroup.html#gaad7a9b6adc1871df7a0c6a3b34b22ba1", null ],
-    [ "parallelFor", "group__BasicGroup.html#ga71dd68bc7a3e31a4779d51ec181066ad", null ],
+    [ "parallelFor", "group__BasicGroup.html#ga3d10e3277d0dbf04ba095f52b25d4f07", null ],
     [ "parallelMinMax", "group__GeneralGroup.html#ga37052239684b8d892b2c4bdfcff0c7f8", null ],
     [ "parallelMinMax", "group__GeneralGroup.html#ga5de91105f52c153a74baec119d5e3d89", null ],
     [ "parallelMinMax", "group__GeneralGroup.html#ga7cb753b06674c4abe1896e2c91e743dd", null ],
