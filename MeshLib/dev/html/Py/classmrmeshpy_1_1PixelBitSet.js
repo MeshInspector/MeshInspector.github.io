@@ -15,6 +15,7 @@ var classmrmeshpy_1_1PixelBitSet =
     [ "__repr__", "classmrmeshpy_1_1PixelBitSet.html#a13aa5abdaacc1ac185ee0103370a58f4", null ],
     [ "__sub__", "classmrmeshpy_1_1PixelBitSet.html#a2a42e5006e467482fc47e531e58b574d", null ],
     [ "__xor__", "classmrmeshpy_1_1PixelBitSet.html#a3e5ae1c08ca224de03777ceb47628b25", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1PixelBitSet.html#a44f23af94822094ff17247afe8cb7431", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1PixelBitSet.html#a64e488a8b158993446db8dc8089cfd50", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1PixelBitSet.html#abcbb330033d9203eca87f0c9a27738fd", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1PixelBitSet.html#a8e5798a7b82bf113a270f0a71a2c92ca", null ],

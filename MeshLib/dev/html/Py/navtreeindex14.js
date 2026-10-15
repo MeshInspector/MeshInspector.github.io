@@ -1,5 +1,9 @@
 var NAVTREEINDEX14 =
 {
+"classmrmeshpy_1_1CNCMachineSettings.html#a5be1d8fa337057eed003d585b1c8290e":[9,1,1,0,1,158,9],
+"classmrmeshpy_1_1CNCMachineSettings.html#a80ab24ffc766cadaa27ed895b8042195":[9,1,0,0,2,158,7],
+"classmrmeshpy_1_1CNCMachineSettings.html#a80ab24ffc766cadaa27ed895b8042195":[9,1,1,0,1,158,7],
+"classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723":[9,1,0,0,2,158,1],
 "classmrmeshpy_1_1CNCMachineSettings.html#a8e36a1917ef1c963af5df577d36df723":[9,1,1,0,1,158,1],
 "classmrmeshpy_1_1CNCMachineSettings.html#a9887638126755af3ff7e31b8702371ea":[9,1,0,0,2,158,3],
 "classmrmeshpy_1_1CNCMachineSettings.html#a9887638126755af3ff7e31b8702371ea":[9,1,1,0,1,158,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX14 =
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#af0c65b16cf3d5a3e9bed29d056e0bcda":[9,1,1,0,1,124,2],
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#af2cd5c0c7530714a401ed0ee8f189ab4":[9,1,0,0,2,124,3],
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#af2cd5c0c7530714a401ed0ee8f189ab4":[9,1,1,0,1,124,3],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc639c8cfc17ec930e09410992291a9c":[9,1,0,0,2,124,0],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc639c8cfc17ec930e09410992291a9c":[9,1,1,0,1,124,0],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc74325a7079c2993bc40cfdccc7715b":[9,1,0,0,2,124,4],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc74325a7079c2993bc40cfdccc7715b":[9,1,1,0,1,124,4],
-"classmrmeshpy_1_1ChangeMeshTexturePerFaceAction.html":[9,1,0,0,2,125]
+"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc639c8cfc17ec930e09410992291a9c":[9,1,0,0,2,124,0]
 };

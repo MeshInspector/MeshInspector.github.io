@@ -15,6 +15,7 @@ var classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag =
     [ "__repr__", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a068e0d234f06358d8da5679bcce4c2ec", null ],
     [ "__sub__", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a1e9f54304c29400e77da072f332faaba", null ],
     [ "__xor__", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a6c104e6b7c3dcd34acd36877192cc0d3", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a72e8e04747d2644f035762eaef18e57d", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#ad127d99136dc7099b252684bc95e69ce", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a73daebdc93e0efa2a12276d6a0e4c492", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a7bf33a40a0a2392ceec98f4b3d173f1a", null ],

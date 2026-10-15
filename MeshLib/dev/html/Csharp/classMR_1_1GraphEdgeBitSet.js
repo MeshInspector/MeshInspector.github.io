@@ -8,6 +8,7 @@ var classMR_1_1GraphEdgeBitSet =
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#af1b6da1ee614e018f33a14f9b564309f", null ],
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#a563a91b964edbb1ac7a4613ca95ee9f8", null ],
     [ "assign", "classMR_1_1GraphEdgeBitSet.html#a5e1fa50222b762d20c84fd4183a0cfba", null ],
+    [ "atomicTestSet", "classMR_1_1GraphEdgeBitSet.html#aa711d115984c70353adbfd087a60442d", null ],
     [ "autoResizeSet", "classMR_1_1GraphEdgeBitSet.html#af6c226f98f10825831ed67be1ec00563", null ],
     [ "autoResizeSet", "classMR_1_1GraphEdgeBitSet.html#a71a2ea2e46ca91159c14e9b00af5d9e8", null ],
     [ "autoResizeTestSet", "classMR_1_1GraphEdgeBitSet.html#a3481a40690d5331cdc31680e13c51072", null ],

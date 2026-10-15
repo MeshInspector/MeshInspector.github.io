@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html":[9,0,2,0,2,37,3,0],
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#a01352ebbd0c15c42cc60d529877ff26c":[9,0,1,0,1,56,3,0,0],
 "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#a01352ebbd0c15c42cc60d529877ff26c":[9,0,2,0,2,37,3,0,0],
 "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aa47efdcf86ee2cbcfefc52e1781b2c61":[9,0,1,0,1,56,3,0,1],
 "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aa47efdcf86ee2cbcfefc52e1781b2c61":[9,0,2,0,2,37,3,0,1],

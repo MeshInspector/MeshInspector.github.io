@@ -8,6 +8,7 @@ var classMR_1_1RegionBitSet =
     [ "RegionBitSet", "classMR_1_1RegionBitSet.html#ade7e0e90e49ff8e83f55dcc5cbde94c8", null ],
     [ "RegionBitSet", "classMR_1_1RegionBitSet.html#a74c560c41b854bea2c57b1ed5d16f689", null ],
     [ "assign", "classMR_1_1RegionBitSet.html#a03ce7adcd7ae250e545dd7fd046e9fe9", null ],
+    [ "atomicTestSet", "classMR_1_1RegionBitSet.html#a66ed6044799d982bbb10462f6ae86e31", null ],
     [ "autoResizeSet", "classMR_1_1RegionBitSet.html#a610f1c7bef17ac37e7fa7c228927f9d8", null ],
     [ "autoResizeSet", "classMR_1_1RegionBitSet.html#a7c50bc1ed3399df1ef3cf1a70ac20d14", null ],
     [ "autoResizeTestSet", "classMR_1_1RegionBitSet.html#a4c3b2bcfaa76737515f3af206e83233b", null ],

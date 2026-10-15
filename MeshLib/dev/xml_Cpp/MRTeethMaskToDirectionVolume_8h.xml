@@ -43,11 +43,13 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
       </node>
       <node id="32">
@@ -271,11 +273,11 @@
         </childnode>
         <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -312,7 +314,7 @@
         <label>config.h</label>
         <link refid="MRVoxels_2config_8h"/>
       </node>
-      <node id="47">
+      <node id="48">
         <label>MRMesh/MRphmap.h</label>
       </node>
       <node id="8">
@@ -329,6 +331,9 @@
       </node>
       <node id="9">
         <label>array</label>
+      </node>
+      <node id="46">
+        <label>atomic</label>
       </node>
       <node id="15">
         <label>cassert</label>
@@ -354,7 +359,7 @@
       <node id="31">
         <label>iosfwd</label>
       </node>
-      <node id="46">
+      <node id="47">
         <label>iterator</label>
       </node>
       <node id="37">
@@ -363,7 +368,7 @@
       <node id="39">
         <label>memory</label>
       </node>
-      <node id="48">
+      <node id="49">
         <label>optional</label>
       </node>
       <node id="12">

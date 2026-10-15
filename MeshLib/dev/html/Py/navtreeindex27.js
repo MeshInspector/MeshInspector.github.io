@@ -1,5 +1,11 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[9,1,1,0,1,246],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[9,1,0,0,2,246,3],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[9,1,1,0,1,246,3],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[9,1,0,0,2,246,4],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[9,1,1,0,1,246,4],
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066":[9,1,0,0,2,246,5],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066":[9,1,1,0,1,246,5],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a6c11416670b874ffef55a72bb27f6d55":[9,1,0,0,2,246,2],
 "classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a6c11416670b874ffef55a72bb27f6d55":[9,1,1,0,1,246,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1EdgeSegmentd.html":[9,1,1,0,1,253],
 "classmrmeshpy_1_1EdgeSegmentd.html#a01eb45e83cc7b234d1ab93568f05631f":[9,1,0,0,2,253,0],
 "classmrmeshpy_1_1EdgeSegmentd.html#a01eb45e83cc7b234d1ab93568f05631f":[9,1,1,0,1,253,0],
-"classmrmeshpy_1_1EdgeSegmentd.html#a1e4ad674a6fc5c4b978a09c80c3f57c2":[9,1,0,0,2,253,10],
-"classmrmeshpy_1_1EdgeSegmentd.html#a1e4ad674a6fc5c4b978a09c80c3f57c2":[9,1,1,0,1,253,10],
-"classmrmeshpy_1_1EdgeSegmentd.html#a41b09fb9c0d69c7bcb06e2a859ee366a":[9,1,0,0,2,253,5],
-"classmrmeshpy_1_1EdgeSegmentd.html#a41b09fb9c0d69c7bcb06e2a859ee366a":[9,1,1,0,1,253,5],
-"classmrmeshpy_1_1EdgeSegmentd.html#a472b08665b0b6f646295166f93142619":[9,1,0,0,2,253,11],
-"classmrmeshpy_1_1EdgeSegmentd.html#a472b08665b0b6f646295166f93142619":[9,1,1,0,1,253,11],
-"classmrmeshpy_1_1EdgeSegmentd.html#a4dc70920b981d7080b0f4057246134e3":[9,1,0,0,2,253,9]
+"classmrmeshpy_1_1EdgeSegmentd.html#a1e4ad674a6fc5c4b978a09c80c3f57c2":[9,1,0,0,2,253,10]
 };

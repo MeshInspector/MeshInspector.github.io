@@ -8,6 +8,7 @@ var classMR_1_1TypedBitSet__MRIdMRICPElemtTag =
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad86eafbb4594284da14c8e2e47caee64", null ],
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad54c84653e6d058ff1295ae79cea04c9", null ],
     [ "assign", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad066a1d5409247f4b9a311096d76226e", null ],
+    [ "atomicTestSet", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ae50d8bc0ff008adfd0002320d67c5f48", null ],
     [ "autoResizeSet", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a63ce9c414b4e3ddd72a3372ee7e7cc16", null ],
     [ "autoResizeSet", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a4cfa96237854c9ac557ff03bfb61b1d6", null ],
     [ "autoResizeTestSet", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a341567d4fca7b4d9d81a0e689fa3fc46", null ],

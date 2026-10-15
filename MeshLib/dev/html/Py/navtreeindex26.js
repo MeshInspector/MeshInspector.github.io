@@ -1,5 +1,11 @@
 var NAVTREEINDEX26 =
 {
+"classmrmeshpy_1_1EdgeColors.html#a64b5d76c6209f3dc06e19b85a6dee943":[9,1,0,0,2,240,7],
+"classmrmeshpy_1_1EdgeColors.html#a64b5d76c6209f3dc06e19b85a6dee943":[9,1,1,0,1,240,6],
+"classmrmeshpy_1_1EdgeColors.html#a64b5d76c6209f3dc06e19b85a6dee943":[9,1,1,0,1,240,7],
+"classmrmeshpy_1_1EdgeColors.html#a685328b687e997648d78be0de3601eb0":[9,1,0,0,2,240,8],
+"classmrmeshpy_1_1EdgeColors.html#a685328b687e997648d78be0de3601eb0":[9,1,1,0,1,240,8],
+"classmrmeshpy_1_1EdgeColors.html#a6857e2d07a69da5afc0d73b3dc50224b":[9,1,0,0,2,240,11],
 "classmrmeshpy_1_1EdgeColors.html#a6857e2d07a69da5afc0d73b3dc50224b":[9,1,1,0,1,240,11],
 "classmrmeshpy_1_1EdgeColors.html#a6e4799e1ca0d303d579101e645326b60":[9,1,0,0,2,240,17],
 "classmrmeshpy_1_1EdgeColors.html#a6e4799e1ca0d303d579101e645326b60":[9,1,1,0,1,240,17],
@@ -243,11 +249,5 @@ var NAVTREEINDEX26 =
 "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a8cc214423f3b4cb567407c50c474bf96":[9,1,1,0,1,245,0,0],
 "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a906a9ca269035dedf061b74d577aac3e":[9,1,0,0,2,245,0,8],
 "classmrmeshpy_1_1EdgePathsBuilderT__MetricToAStarPenalty_1_1ReachedVert.html#a906a9ca269035dedf061b74d577aac3e":[9,1,1,0,1,245,0,8],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[9,1,0,0,2,246],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[9,1,1,0,1,246],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[9,1,0,0,2,246,3],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a04e0bc6fdd0b8f860c85ae05bec2849c":[9,1,1,0,1,246,3],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[9,1,0,0,2,246,4],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a0ee2e3eea70b6b85f88a869e9e4cc100":[9,1,1,0,1,246,4],
-"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html#a3a7e653ae47bb6b10d11d868f4b41066":[9,1,0,0,2,246,5]
+"classmrmeshpy_1_1EdgePathsBuilderT__TrivialMetricToPenalty.html":[9,1,0,0,2,246]
 };

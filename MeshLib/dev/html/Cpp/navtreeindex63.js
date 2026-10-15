@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DeloneFlipsCache.html#a3a1a1bc0543a674c264e79c91353b0c6":[9,0,2,0,2,191,1],
+"structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[9,0,1,0,1,210,0],
 "structMR_1_1DeloneFlipsCache.html#a82541a219cbf4d1deff8d55e0e0d618d":[9,0,2,0,2,191,0],
 "structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[9,0,1,0,1,210,2],
 "structMR_1_1DeloneFlipsCache.html#a952f52b549cb750bf0006e86f02e64f8":[9,0,2,0,2,191,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1GCommand.html":[9,0,0,20,905],
 "structMR_1_1GLDriverIssue.html":[9,0,0,20,606],
 "structMR_1_1GcodeProcessor_1_1BaseAction.html":[9,0,0,20,276],
-"structMR_1_1GcodeProcessor_1_1Command.html":[9,0,0,20,278],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[9,0,0,20,277],
-"structMR_1_1GeneralOffsetParameters.html":[9,0,0,20,874]
+"structMR_1_1GcodeProcessor_1_1Command.html":[9,0,0,20,278]
 };

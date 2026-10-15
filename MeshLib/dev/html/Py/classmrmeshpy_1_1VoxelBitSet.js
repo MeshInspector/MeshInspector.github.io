@@ -15,6 +15,7 @@ var classmrmeshpy_1_1VoxelBitSet =
     [ "__repr__", "classmrmeshpy_1_1VoxelBitSet.html#a3b442277af4823e1675a3acaed8441b2", null ],
     [ "__sub__", "classmrmeshpy_1_1VoxelBitSet.html#ad6d90efe452c6ee9bcd98cc77b5375d0", null ],
     [ "__xor__", "classmrmeshpy_1_1VoxelBitSet.html#a17ea5fdb5cfab3d02e89b1d7f60340dc", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1VoxelBitSet.html#ad7bac4fde65d2b14fdf99bbdc3ea36c6", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VoxelBitSet.html#a81e75610dc6c17d08d748e576f742d14", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1VoxelBitSet.html#a83c487bc0b245d25c78eb4c9a643434b", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1VoxelBitSet.html#a8d6e538efd74455f9d63af5009ba018a", null ],

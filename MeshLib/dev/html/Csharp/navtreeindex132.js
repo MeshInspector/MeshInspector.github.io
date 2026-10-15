@@ -1,5 +1,14 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a08fdd857382bbb23f014db16f800c7a9":[9,3,0,0,0,1643,2],
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a32bfc0d34b0365b7fbd7ab11f034b63b":[9,3,0,0,0,1643,5],
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#a4a925c80ae7c5329e0472c573d9898bd":[9,3,0,0,0,1643,1],
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#aa2d564999c08612873bcd40847c81999":[9,3,0,0,0,1643,3],
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#ac7e18802e59dd05caa9239cdcc26c5e4":[9,3,0,0,0,1643,6],
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#ad49affbf1f89dbeb55af197f5c155e6e":[9,3,0,0,0,1643,0],
+"classMR_1_1SetBitIteratorT__MRNodeBitSet.html#ad8d6e01f8392b13d219e90555974b410":[9,3,0,0,0,1643,4],
+"classMR_1_1SetBitIteratorT__MRObjBitSet.html":[9,3,0,0,0,1644],
+"classMR_1_1SetBitIteratorT__MRObjBitSet.html#a10be95cfdb66ea13723475c76ab34d54":[9,3,0,0,0,1644,4],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a2c0bb2a85a78267fc691eee1181e6c71":[9,3,0,0,0,1644,3],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a3f53cba6365a2377c61b9026c18e7c0f":[9,3,0,0,0,1644,2],
 "classMR_1_1SetBitIteratorT__MRObjBitSet.html#a4c48e7943aba393477b04bf01b921c6f":[9,3,0,0,0,1644,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1SmoothFillingSettings.html#aafc1fdfb2ed97dab7d336839a1641cf8":[9,3,0,0,0,1666,1],
 "classMR_1_1SomeLocalTriangulations.html":[9,3,0,0,0,1667],
 "classMR_1_1SomeLocalTriangulations.html#a025e91ded83fa1c8f05c2e0f815677d4":[9,3,0,0,0,1667,4],
-"classMR_1_1SomeLocalTriangulations.html#a0a42efcbf0fed65e80639dfcdd01636d":[9,3,0,0,0,1667,3],
-"classMR_1_1SomeLocalTriangulations.html#a1004c07c18187184e80619c078ef71a7":[9,3,0,0,0,1667,0],
-"classMR_1_1SomeLocalTriangulations.html#a56f3ff93b8c2eca220a57c4b19eeac8b":[9,3,0,0,0,1667,1],
-"classMR_1_1SomeLocalTriangulations.html#aa455206b6dd90ed8aa6e32b24ee64f43":[9,3,0,0,0,1667,7],
-"classMR_1_1SomeLocalTriangulations.html#ac6411f90369ae7ad08cb75e39dea2588":[9,3,0,0,0,1667,5],
-"classMR_1_1SomeLocalTriangulations.html#ad092f67a19e5fb356b08362962b2b533":[9,3,0,0,0,1667,2],
-"classMR_1_1SomeLocalTriangulations.html#ad35531666dd9f585b9f5cec076d9a74d":[9,3,0,0,0,1667,8],
-"classMR_1_1SomeLocalTriangulations.html#aebeee680a02bb22554917b9e83ba3474":[9,3,0,0,0,1667,6],
-"classMR_1_1SortIntersectionsData.html":[9,3,0,0,0,1668],
-"classMR_1_1SortIntersectionsData.html#a048858f6764aa1dbed7417a848ffb298":[9,3,0,0,0,1668,6]
+"classMR_1_1SomeLocalTriangulations.html#a0a42efcbf0fed65e80639dfcdd01636d":[9,3,0,0,0,1667,3]
 };

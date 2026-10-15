@@ -7,6 +7,7 @@ var classMR_1_1BitSet =
     [ "BitSet", "classMR_1_1BitSet.html#afab07406cee38429e04894dd1de6f202", null ],
     [ "all", "classMR_1_1BitSet.html#a112ab209d0b98ba80237157538fe4f30", null ],
     [ "any", "classMR_1_1BitSet.html#a51f26b5e2a5f81eed95766439f200000", null ],
+    [ "atomicTestSet", "classMR_1_1BitSet.html#a2681ea331742547c197cd373884d917c", null ],
     [ "autoResizeSet", "classMR_1_1BitSet.html#a737f8cc71944c7c750f8eeba4028ac17", null ],
     [ "autoResizeSet", "classMR_1_1BitSet.html#ab61cde9e7da6d5d6c75fefd11e2e6a24", null ],
     [ "autoResizeTestSet", "classMR_1_1BitSet.html#a84a9273303ae000bcf94b893a298eb95", null ],

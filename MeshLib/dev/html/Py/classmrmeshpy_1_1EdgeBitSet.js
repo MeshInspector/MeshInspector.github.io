@@ -15,6 +15,7 @@ var classmrmeshpy_1_1EdgeBitSet =
     [ "__repr__", "classmrmeshpy_1_1EdgeBitSet.html#a69dea4dff0daf7a1aecf49d080999389", null ],
     [ "__sub__", "classmrmeshpy_1_1EdgeBitSet.html#a3bd2d1a918179c2e008ea27c3191f2c8", null ],
     [ "__xor__", "classmrmeshpy_1_1EdgeBitSet.html#a51581f90cba5a02e66043666e96183ed", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1EdgeBitSet.html#a19e0c3e0b688f999c54e989565dfb297", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1EdgeBitSet.html#ae1946bc0785b9842a1c8da5f434c51a3", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1EdgeBitSet.html#ad3b5039089dbdf9883c257ed93fcbddd", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1EdgeBitSet.html#a48b6ef0ede7cb9a3cf9a56a08ccba297", null ],

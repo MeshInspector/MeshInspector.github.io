@@ -1,5 +1,8 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1FaceSetBitIterator.html":[9,3,0,0,0,1212],
+"classMR_1_1FaceSetBitIterator.html#a24dfeedd92d7c64833321af8b6aac193":[9,3,0,0,0,1212,2],
+"classMR_1_1FaceSetBitIterator.html#a33cc8337540b5a96ed17ca31e1aa0dda":[9,3,0,0,0,1212,3],
 "classMR_1_1FaceSetBitIterator.html#a76e31410796bbf2f51077fab355cad7a":[9,3,0,0,0,1212,6],
 "classMR_1_1FaceSetBitIterator.html#a79cded9a146482a3456f9a91be564df0":[9,3,0,0,0,1212,5],
 "classMR_1_1FaceSetBitIterator.html#a9774b4e76265fd909a79c8e4cb1dec73":[9,3,0,0,0,1212,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#ab611a46e015619ab7767d55bd8ecb6fa":[9,3,0,0,0,1220,0,5,7],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#ab6920cbd6631967fd905647ab82f2e3b":[9,3,0,0,0,1220,0,5,4],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#ad028e4f9dc5f2f70fa64a16b5521c574":[9,3,0,0,0,1220,0,5,2],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#af9ef97094715969cea959866a8f44435":[9,3,0,0,0,1220,0,5,0],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#afc15e24fa43ea2c144a8678efe0d08a1":[9,3,0,0,0,1220,0,5,5],
-"classMR_1_1Features_1_1Const__SubfeatureInfo.html":[9,3,0,0,0,1220,1],
-"classMR_1_1Features_1_1Const__SubfeatureInfo.html#a04102749b72368813a4db314f659df7a":[9,3,0,0,0,1220,1,1]
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Distance.html#af9ef97094715969cea959866a8f44435":[9,3,0,0,0,1220,0,5,0]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX42 =
 {
+"classmrmeshpy_1_1InSphereResult.html#a6f37ec483764092c8857b6a14411a126":[9,1,1,0,1,441,9],
+"classmrmeshpy_1_1InSphereResult.html#a9740c8b67e0513249013b97d30847eda":[9,1,0,0,2,441,1],
+"classmrmeshpy_1_1InSphereResult.html#a9740c8b67e0513249013b97d30847eda":[9,1,1,0,1,441,1],
+"classmrmeshpy_1_1InSphereResult.html#abc0e060a4bb4c52e6d7df502c1fb74fc":[9,1,0,0,2,441,5],
+"classmrmeshpy_1_1InSphereResult.html#abc0e060a4bb4c52e6d7df502c1fb74fc":[9,1,1,0,1,441,5],
+"classmrmeshpy_1_1InSphereResult.html#ac7b84407ff196dcb9b666d1700325b92":[9,1,0,0,2,441,3],
+"classmrmeshpy_1_1InSphereResult.html#ac7b84407ff196dcb9b666d1700325b92":[9,1,1,0,1,441,3],
+"classmrmeshpy_1_1InSphereResult.html#ad35f7c4c4af179108403700ce3f84149":[9,1,0,0,2,441,10],
+"classmrmeshpy_1_1InSphereResult.html#ad35f7c4c4af179108403700ce3f84149":[9,1,1,0,1,441,10],
+"classmrmeshpy_1_1InSphereSearchSettings.html":[9,1,0,0,2,442],
+"classmrmeshpy_1_1InSphereSearchSettings.html":[9,1,1,0,1,442],
+"classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[9,1,0,0,2,442,4],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a0b1d48e74aaad8aa3e05a714ceb9bf47":[9,1,1,0,1,442,4],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a0bc9dfc185d8a52438a1683aa14203d0":[9,1,0,0,2,442,7],
 "classmrmeshpy_1_1InSphereSearchSettings.html#a0bc9dfc185d8a52438a1683aa14203d0":[9,1,1,0,1,442,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX42 =
 "classmrmeshpy_1_1IntersectionPrecomputes__double.html#a77f312c312487b8202be613cfa6a953f":[9,1,1,0,1,451,0],
 "classmrmeshpy_1_1IntersectionPrecomputes__double.html#a85338a4a9b616cc5ee22cdf67d5acd93":[9,1,0,0,2,451,4],
 "classmrmeshpy_1_1IntersectionPrecomputes__double.html#a85338a4a9b616cc5ee22cdf67d5acd93":[9,1,1,0,1,451,4],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#a91a1adcc9ec7daca235ac1ae96acd1bc":[9,1,0,0,2,451,6],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#a91a1adcc9ec7daca235ac1ae96acd1bc":[9,1,1,0,1,451,6],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ab98c9b5520a658903c0c741e258cef8e":[9,1,0,0,2,451,10],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ab98c9b5520a658903c0c741e258cef8e":[9,1,1,0,1,451,10],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ac83e1d2e481aaee9375699919a52db55":[9,1,0,0,2,451,9],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ac83e1d2e481aaee9375699919a52db55":[9,1,1,0,1,451,9],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ad019590c5f4b50e95d55395407b838cf":[9,1,0,0,2,451,7],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ad019590c5f4b50e95d55395407b838cf":[9,1,1,0,1,451,7],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ad8eb89097dfdd92fdf71647b2ad30bf5":[9,1,0,0,2,451,5],
-"classmrmeshpy_1_1IntersectionPrecomputes__double.html#ad8eb89097dfdd92fdf71647b2ad30bf5":[9,1,1,0,1,451,5],
-"classmrmeshpy_1_1IntersectionPrecomputes__float.html":[9,1,0,0,2,452],
-"classmrmeshpy_1_1IntersectionPrecomputes__float.html":[9,1,1,0,1,452],
-"classmrmeshpy_1_1IntersectionPrecomputes__float.html#a0dd3563e77b409dd3773dc06f8d12427":[9,1,0,0,2,452,3]
+"classmrmeshpy_1_1IntersectionPrecomputes__double.html#a91a1adcc9ec7daca235ac1ae96acd1bc":[9,1,0,0,2,451,6]
 };

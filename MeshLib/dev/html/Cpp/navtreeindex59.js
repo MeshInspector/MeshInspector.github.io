@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"group__VolumeSegmentationGroup.html#ga6595550746d1b29a414b80b5bb1c3e27":[9,0,0,17,2,4],
+"group__VolumeSegmentationGroup.html#ga66a8de1137e7c508ae9c12d886306f4e":[9,0,0,17,2,2],
 "group__VoxelGroup.html":[9,0,0,17],
 "group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985":[9,0,0,17,20],
 "group__VoxelGroup.html#ga1d7ef8146c7e01018cfd181e0967ac35":[9,0,0,17,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[9,0,1,0,1,15,11],
 "namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[9,0,1,0,1,15,7],
 "namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[9,0,1,0,1,15,4],
-"namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[9,0,1,0,1,15,13],
-"namespaceMR_1_1ImGuiMath.html#ab2120d83ad46fc54b4a21db479448c46":[9,0,1,0,1,15,9],
-"namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[9,0,1,0,1,15,15]
+"namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[9,0,1,0,1,15,13]
 };

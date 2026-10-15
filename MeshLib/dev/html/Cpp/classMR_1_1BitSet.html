@@ -185,6 +185,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f625bd1a775ce33f59b769411f2d7e7" id="r_a6f625bd1a775ce33f59b769411f2d7e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f625bd1a775ce33f59b769411f2d7e7">set</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n)</td></tr>
 <tr class="memdesc:a6f625bd1a775ce33f59b769411f2d7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not using a default argument for <span class="tt">val</span> to get better C bindings.  <br /></td></tr>
 <tr class="memitem:a6847dbe94d82cde085f4440c58980759" id="r_a6847dbe94d82cde085f4440c58980759"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6847dbe94d82cde085f4440c58980759">set</a> ()</td></tr>
+<tr class="memitem:a2681ea331742547c197cd373884d917c" id="r_a2681ea331742547c197cd373884d917c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2681ea331742547c197cd373884d917c">atomicTestSet</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n)</td></tr>
 <tr class="memitem:a784dcb0f29bf20a645a4267b68d0d6ae" id="r_a784dcb0f29bf20a645a4267b68d0d6ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a784dcb0f29bf20a645a4267b68d0d6ae">reset</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n, <a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> len)</td></tr>
 <tr class="memitem:aa2267b11bc02d8a216df148fdccc02a3" id="r_aa2267b11bc02d8a216df148fdccc02a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2267b11bc02d8a216df148fdccc02a3">reset</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n)</td></tr>
 <tr class="memitem:a247ac2e0767fad340477836233e87cb8" id="r_a247ac2e0767fad340477836233e87cb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a247ac2e0767fad340477836233e87cb8">reset</a> ()</td></tr>
@@ -419,6 +420,32 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns true if at least one bits in this container is set </p>
+
+</div>
+</div>
+<a id="a2681ea331742547c197cd373884d917c" name="a2681ea331742547c197cd373884d917c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2681ea331742547c197cd373884d917c">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::BitSet::atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset, provided no other modification of the bitset (including resizing) is performed in parallel </p>
 
 </div>
 </div>

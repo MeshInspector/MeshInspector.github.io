@@ -184,6 +184,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3514cdf3ed29fe3f2ee7cc54ea284dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aee91e03c503d80c2ec0d2689a019c857" title="Generated from method MR.BitSet.set.">MR.BitSet.set</a></span>.  <br /></td></tr>
 <tr class="memitem:a080895da5751a312ecacfd41528d37d4" id="r_a080895da5751a312ecacfd41528d37d4"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1BitSet.html">MR.BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080895da5751a312ecacfd41528d37d4">set</a> ()</td></tr>
 <tr class="memdesc:a080895da5751a312ecacfd41528d37d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#aee91e03c503d80c2ec0d2689a019c857" title="Generated from method MR.BitSet.set.">MR.BitSet.set</a></span>.  <br /></td></tr>
+<tr class="memitem:a95a194adf502fcdb8ccf1b2ffc6131b4" id="r_a95a194adf502fcdb8ccf1b2ffc6131b4"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95a194adf502fcdb8ccf1b2ffc6131b4">atomicTestSet</a> (nuint n)</td></tr>
+<tr class="memdesc:a95a194adf502fcdb8ccf1b2ffc6131b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset, provided no other modification of the bitset (including resizing) is performed in parallel Generated from method <span class="tt"><a class="el" href="#a95a194adf502fcdb8ccf1b2ffc6131b4" title="sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads ...">MR.BitSet.atomicTestSet</a></span>.  <br /></td></tr>
 <tr class="memitem:a5d06730b9ff1c4d11ab30b3a116efcca" id="r_a5d06730b9ff1c4d11ab30b3a116efcca"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1BitSet.html">MR.BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d06730b9ff1c4d11ab30b3a116efcca">reset</a> (nuint n, nuint len)</td></tr>
 <tr class="memdesc:a5d06730b9ff1c4d11ab30b3a116efcca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#a5d06730b9ff1c4d11ab30b3a116efcca" title="Generated from method MR.BitSet.reset.">MR.BitSet.reset</a></span>.  <br /></td></tr>
 <tr class="memitem:ad4b5cef852ca3689618c96d3cb45ed3a" id="r_ad4b5cef852ca3689618c96d3cb45ed3a"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1BitSet.html">MR.BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b5cef852ca3689618c96d3cb45ed3a">reset</a> (nuint n)</td></tr>
@@ -476,6 +478,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from method <span class="tt">MR::BitSet::operator=</span>. </p>
+
+</div>
+</div>
+<a id="a95a194adf502fcdb8ccf1b2ffc6131b4" name="a95a194adf502fcdb8ccf1b2ffc6131b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95a194adf502fcdb8ccf1b2ffc6131b4">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.BitSet.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype">nuint</td>          <td class="paramname"><span class="paramname"><em>n</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset, provided no other modification of the bitset (including resizing) is performed in parallel Generated from method <span class="tt"><a class="el" href="#a95a194adf502fcdb8ccf1b2ffc6131b4" title="sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads ...">MR.BitSet.atomicTestSet</a></span>. </p>
 
 </div>
 </div>

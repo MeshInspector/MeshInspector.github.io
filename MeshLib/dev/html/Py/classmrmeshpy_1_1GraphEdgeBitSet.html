@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2daba4ceae7b15a152705ff963d7a3d8" id="r_a2daba4ceae7b15a152705ff963d7a3d8"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2daba4ceae7b15a152705ff963d7a3d8">__repr__</a> (self)</td></tr>
 <tr class="memitem:a0ea5e7892c402e689ce30ff1955d5c57" id="r_a0ea5e7892c402e689ce30ff1955d5c57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea5e7892c402e689ce30ff1955d5c57">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> b)</td></tr>
 <tr class="memitem:a368340b9d0233f4fc2e86095f4224c8e" id="r_a368340b9d0233f4fc2e86095f4224c8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a368340b9d0233f4fc2e86095f4224c8e">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> b)</td></tr>
+<tr class="memitem:a0aacf40db023b876416942bf164a6fdb" id="r_a0aacf40db023b876416942bf164a6fdb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0aacf40db023b876416942bf164a6fdb">atomicTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> n)</td></tr>
 <tr class="memitem:aa6655b4ee80d071cd8ea06fe7c0778f3" id="r_aa6655b4ee80d071cd8ea06fe7c0778f3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6655b4ee80d071cd8ea06fe7c0778f3">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> pos, int len, bool val=True)</td></tr>
 <tr class="memitem:a0fdacaac7bdb6e7381be2185e23b9fa1" id="r_a0fdacaac7bdb6e7381be2185e23b9fa1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fdacaac7bdb6e7381be2185e23b9fa1">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> pos, bool val=True)</td></tr>
 <tr class="memitem:a9744b88febc10db81dd13bd818d98ac8" id="r_a9744b88febc10db81dd13bd818d98ac8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9744b88febc10db81dd13bd818d98ac8">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a> pos, bool val=True)</td></tr>
@@ -597,6 +598,31 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0aacf40db023b876416942bf164a6fdb" name="a0aacf40db023b876416942bf164a6fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aacf40db023b876416942bf164a6fdb">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.GraphEdgeBitSet.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ab180a8d812e38d6017ae181b145ee402">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>

@@ -15,6 +15,7 @@ var classmrmeshpy_1_1TextureBitSet =
     [ "__repr__", "classmrmeshpy_1_1TextureBitSet.html#a74578d9e7e34e5132036206163480bb6", null ],
     [ "__sub__", "classmrmeshpy_1_1TextureBitSet.html#aa6b5555229b9cd4e6d018a10f61c39fd", null ],
     [ "__xor__", "classmrmeshpy_1_1TextureBitSet.html#a12052dc58db7c1d117a7b38a84b2adb2", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1TextureBitSet.html#af3a27da9a4c2e772a0cbe80367a0e61e", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1TextureBitSet.html#a6fd8bc9b807c3b74d2ac7c566f4fe4ff", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1TextureBitSet.html#aad305548e8acd90eaa55b268aaa6acd6", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1TextureBitSet.html#a0b5f3d39211515c61af61310eeb9dc37", null ],

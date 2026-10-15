@@ -1,5 +1,7 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[9,0,1,0,1,16,10,17],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[9,0,2,0,2,7,10,17],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,1,0,1,16,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[9,0,2,0,2,7,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[9,0,1,0,1,16,10,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1McpGateway_1_1Config.html#abf13345caaa67573350f7cce650d3e96":[9,0,1,0,1,22,0,2],
 "structMR_1_1McpGateway_1_1Config.html#abf13345caaa67573350f7cce650d3e96":[9,0,2,0,2,11,0,2],
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html":[9,0,1,0,1,23,0],
-"structMR_1_1McpSettings_1_1CmdLineOverrides.html":[9,0,2,0,2,12,0],
-"structMR_1_1McpSettings_1_1CmdLineOverrides.html#a03d182d700e0d22a419a61a656a38a44":[9,0,1,0,1,23,0,0],
-"structMR_1_1McpSettings_1_1CmdLineOverrides.html#a03d182d700e0d22a419a61a656a38a44":[9,0,2,0,2,12,0,0]
+"structMR_1_1McpSettings_1_1CmdLineOverrides.html":[9,0,2,0,2,12,0]
 };

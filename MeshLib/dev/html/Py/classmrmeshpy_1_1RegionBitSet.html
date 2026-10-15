@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9ae781ec49a10782dd62aa870b928e6b" id="r_a9ae781ec49a10782dd62aa870b928e6b"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ae781ec49a10782dd62aa870b928e6b">__repr__</a> (self)</td></tr>
 <tr class="memitem:a15c6df59da4e2a891fcada1a328dd0a0" id="r_a15c6df59da4e2a891fcada1a328dd0a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15c6df59da4e2a891fcada1a328dd0a0">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> b)</td></tr>
 <tr class="memitem:a9bc2f297651bf40ee89dc1bf3f0ef255" id="r_a9bc2f297651bf40ee89dc1bf3f0ef255"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc2f297651bf40ee89dc1bf3f0ef255">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> b)</td></tr>
+<tr class="memitem:a46e0f2bc5f92f797049e33e6db4f1b92" id="r_a46e0f2bc5f92f797049e33e6db4f1b92"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e0f2bc5f92f797049e33e6db4f1b92">atomicTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> n)</td></tr>
 <tr class="memitem:a7d2d593d0edbbc43971d25aa44668a90" id="r_a7d2d593d0edbbc43971d25aa44668a90"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d2d593d0edbbc43971d25aa44668a90">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> pos, int len, bool val=True)</td></tr>
 <tr class="memitem:ae8f7a7a686fdab752b49992691d4e770" id="r_ae8f7a7a686fdab752b49992691d4e770"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8f7a7a686fdab752b49992691d4e770">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> pos, bool val=True)</td></tr>
 <tr class="memitem:a7cd390901e8a567b94eafe4d3804de60" id="r_a7cd390901e8a567b94eafe4d3804de60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cd390901e8a567b94eafe4d3804de60">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a> pos, bool val=True)</td></tr>
@@ -596,6 +597,31 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46e0f2bc5f92f797049e33e6db4f1b92" name="a46e0f2bc5f92f797049e33e6db4f1b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e0f2bc5f92f797049e33e6db4f1b92">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.RegionBitSet.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ab180a8d812e38d6017ae181b145ee402">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>

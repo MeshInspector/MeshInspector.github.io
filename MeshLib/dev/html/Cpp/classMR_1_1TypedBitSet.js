@@ -3,6 +3,7 @@ var classMR_1_1TypedBitSet =
     [ "IndexType", "classMR_1_1TypedBitSet.html#a7434b47b953a52e27cb6a6c645c7ca9e", null ],
     [ "TypedBitSet", "classMR_1_1TypedBitSet.html#a160d8a64dbfb6bd0daf545ff7dc45d14", null ],
     [ "TypedBitSet", "classMR_1_1TypedBitSet.html#acea394abbd9a933a8c30dcff23618a19", null ],
+    [ "atomicTestSet", "classMR_1_1TypedBitSet.html#a280c9bf73f9fad3ead31cb2ac888da8e", null ],
     [ "autoResizeSet", "classMR_1_1TypedBitSet.html#ac084b6f0e50d9d3d70c694580d4453e1", null ],
     [ "autoResizeSet", "classMR_1_1TypedBitSet.html#a68171098d647c6f4bce72bdded8ed1e2", null ],
     [ "autoResizeTestSet", "classMR_1_1TypedBitSet.html#acb1f6a8f6fc880f058586b91e7a28f0f", null ],

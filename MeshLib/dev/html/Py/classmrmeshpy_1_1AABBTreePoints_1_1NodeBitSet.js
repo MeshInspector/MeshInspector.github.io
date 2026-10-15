@@ -15,6 +15,7 @@ var classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet =
     [ "__repr__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ac6769a4a523c4a581c79d6da343ac5a2", null ],
     [ "__sub__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a89a9b163bd3887abd3a4ee810d30c9bb", null ],
     [ "__xor__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a186c74932a30e873c96fb140589e89c8", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#af94be69b648f63fde0daa192c3619780", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a78671de51488bd2bb1256b49db1ad526", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ad47703c73b72fd7fb4a0de98831af8cc", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a9baea15eadb8b96c02b3d13dd4b81052", null ],

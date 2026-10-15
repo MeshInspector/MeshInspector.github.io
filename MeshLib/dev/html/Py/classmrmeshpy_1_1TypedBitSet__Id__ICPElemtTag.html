@@ -166,6 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a068e0d234f06358d8da5679bcce4c2ec" id="r_a068e0d234f06358d8da5679bcce4c2ec"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068e0d234f06358d8da5679bcce4c2ec">__repr__</a> (self)</td></tr>
 <tr class="memitem:a1e9f54304c29400e77da072f332faaba" id="r_a1e9f54304c29400e77da072f332faaba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html">TypedBitSet_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e9f54304c29400e77da072f332faaba">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html">TypedBitSet_Id_ICPElemtTag</a> b)</td></tr>
 <tr class="memitem:a6c104e6b7c3dcd34acd36877192cc0d3" id="r_a6c104e6b7c3dcd34acd36877192cc0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html">TypedBitSet_Id_ICPElemtTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c104e6b7c3dcd34acd36877192cc0d3">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html">TypedBitSet_Id_ICPElemtTag</a> b)</td></tr>
+<tr class="memitem:a72e8e04747d2644f035762eaef18e57d" id="r_a72e8e04747d2644f035762eaef18e57d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e8e04747d2644f035762eaef18e57d">atomicTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> n)</td></tr>
 <tr class="memitem:a73daebdc93e0efa2a12276d6a0e4c492" id="r_a73daebdc93e0efa2a12276d6a0e4c492"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73daebdc93e0efa2a12276d6a0e4c492">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos, int len, bool val=True)</td></tr>
 <tr class="memitem:ad127d99136dc7099b252684bc95e69ce" id="r_ad127d99136dc7099b252684bc95e69ce"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad127d99136dc7099b252684bc95e69ce">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos, bool val=True)</td></tr>
 <tr class="memitem:a7bf33a40a0a2392ceec98f4b3d173f1a" id="r_a7bf33a40a0a2392ceec98f4b3d173f1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bf33a40a0a2392ceec98f4b3d173f1a">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a> pos, bool val=True)</td></tr>
@@ -600,6 +601,31 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72e8e04747d2644f035762eaef18e57d" name="a72e8e04747d2644f035762eaef18e57d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e8e04747d2644f035762eaef18e57d">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.TypedBitSet_Id_ICPElemtTag.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Id__ICPElemtTag.html">Id_ICPElemtTag</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ab180a8d812e38d6017ae181b145ee402">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>

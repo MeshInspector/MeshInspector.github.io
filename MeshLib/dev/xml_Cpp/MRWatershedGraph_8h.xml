@@ -19,11 +19,13 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
         <childnode refid="24" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
         <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="7">
@@ -125,7 +127,7 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -141,10 +143,13 @@
       <node id="9">
         <label>array</label>
       </node>
+      <node id="24">
+        <label>atomic</label>
+      </node>
       <node id="15">
         <label>cassert</label>
       </node>
-      <node id="26">
+      <node id="27">
         <label>cfloat</label>
       </node>
       <node id="17">
@@ -159,10 +164,10 @@
       <node id="13">
         <label>functional</label>
       </node>
-      <node id="24">
+      <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>iterator</label>
       </node>
       <node id="12">

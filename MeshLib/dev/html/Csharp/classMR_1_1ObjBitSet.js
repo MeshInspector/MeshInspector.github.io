@@ -8,6 +8,7 @@ var classMR_1_1ObjBitSet =
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#a2e7818d5574de19dcc45fc9875ffce47", null ],
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#ad500facccb18bcba1e42b2bbe0ab1fde", null ],
     [ "assign", "classMR_1_1ObjBitSet.html#a8fd4c7999aaa1ca0342377d61e5037b8", null ],
+    [ "atomicTestSet", "classMR_1_1ObjBitSet.html#a407df4b6030c443357f302b5427ecd0b", null ],
     [ "autoResizeSet", "classMR_1_1ObjBitSet.html#a901373e61eea711e229f782760979db3", null ],
     [ "autoResizeSet", "classMR_1_1ObjBitSet.html#aab4c7e987acde889caf1285f53bf7343", null ],
     [ "autoResizeTestSet", "classMR_1_1ObjBitSet.html#ad2ad3c2a66acf6f13a723affb602ae88", null ],

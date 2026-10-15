@@ -1,5 +1,14 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1SomeLocalTriangulations.html#a1004c07c18187184e80619c078ef71a7":[9,3,0,0,0,1667,0],
+"classMR_1_1SomeLocalTriangulations.html#a56f3ff93b8c2eca220a57c4b19eeac8b":[9,3,0,0,0,1667,1],
+"classMR_1_1SomeLocalTriangulations.html#aa455206b6dd90ed8aa6e32b24ee64f43":[9,3,0,0,0,1667,7],
+"classMR_1_1SomeLocalTriangulations.html#ac6411f90369ae7ad08cb75e39dea2588":[9,3,0,0,0,1667,5],
+"classMR_1_1SomeLocalTriangulations.html#ad092f67a19e5fb356b08362962b2b533":[9,3,0,0,0,1667,2],
+"classMR_1_1SomeLocalTriangulations.html#ad35531666dd9f585b9f5cec076d9a74d":[9,3,0,0,0,1667,8],
+"classMR_1_1SomeLocalTriangulations.html#aebeee680a02bb22554917b9e83ba3474":[9,3,0,0,0,1667,6],
+"classMR_1_1SortIntersectionsData.html":[9,3,0,0,0,1668],
+"classMR_1_1SortIntersectionsData.html#a048858f6764aa1dbed7417a848ffb298":[9,3,0,0,0,1668,6],
 "classMR_1_1SortIntersectionsData.html#a18f556fae44be6a22f1f6458461d3b8d":[9,3,0,0,0,1668,5],
 "classMR_1_1SortIntersectionsData.html#a7b1f4582159024cc4622f3ffcb2e4ae3":[9,3,0,0,0,1668,1],
 "classMR_1_1SortIntersectionsData.html#a91c944f1c71728c9ddbfe10860ac841d":[9,3,0,0,0,1668,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#ad20269964deb9cd7d4b97988fda31cbc":[9,3,0,0,0,1678,5,2],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#af29cf2c87a900418e011693af6121770":[9,3,0,0,0,1678,5,7],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#af77e1964450d17302d65a09b6a0a5fe9":[9,3,0,0,0,1678,5,9],
-"classMR_1_1StitchHolesParams.html":[9,3,0,0,0,1679],
-"classMR_1_1StitchHolesParams.html#a36ad238a8454e764bbf01e954eb5e176":[9,3,0,0,0,1679,0],
-"classMR_1_1StitchHolesParams.html#a864057f59341c6c201d82b91b4d9c482":[9,3,0,0,0,1679,2],
-"classMR_1_1StitchHolesParams.html#a960ec243807f948040f26d5a634e5dc8":[9,3,0,0,0,1679,4],
-"classMR_1_1StitchHolesParams.html#a97509e6b095df58502fc3e0c700cc625":[9,3,0,0,0,1679,6],
-"classMR_1_1StitchHolesParams.html#ab0de2c800261b87f7ea4435f0fe117c0":[9,3,0,0,0,1679,1],
-"classMR_1_1StitchHolesParams.html#ad228199df1b8233da99a3f3b9318e5ff":[9,3,0,0,0,1679,3],
-"classMR_1_1StitchHolesParams.html#af1b91d94e597fe8ee14c178e094e718c":[9,3,0,0,0,1679,7],
-"classMR_1_1StitchHolesParams.html#af856cd6e44234f201f8737a7090fc796":[9,3,0,0,0,1679,5],
-"classMR_1_1SubdivideFillingSettings.html":[9,3,0,0,0,1680]
+"classMR_1_1StitchHolesParams.html":[9,3,0,0,0,1679]
 };

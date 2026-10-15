@@ -165,6 +165,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a22a5a48ff9b18857c01e9ff9ba31c379" id="r_a22a5a48ff9b18857c01e9ff9ba31c379"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22a5a48ff9b18857c01e9ff9ba31c379">__repr__</a> (self)</td></tr>
 <tr class="memitem:a058ba9d428348001004ee944deeb5ed4" id="r_a058ba9d428348001004ee944deeb5ed4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a058ba9d428348001004ee944deeb5ed4">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a> b)</td></tr>
 <tr class="memitem:a53af67f93f50b6eae895ba6e9d558d9c" id="r_a53af67f93f50b6eae895ba6e9d558d9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53af67f93f50b6eae895ba6e9d558d9c">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html">ObjBitSet</a> b)</td></tr>
+<tr class="memitem:aa6026ba6336cb13b54badf6e497f756b" id="r_aa6026ba6336cb13b54badf6e497f756b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6026ba6336cb13b54badf6e497f756b">atomicTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> n)</td></tr>
 <tr class="memitem:ade691461e755764bda615d64540c3798" id="r_ade691461e755764bda615d64540c3798"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade691461e755764bda615d64540c3798">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> pos, int len, bool val=True)</td></tr>
 <tr class="memitem:ab7e97d1f1d96bc0f364603ac2b676cc9" id="r_ab7e97d1f1d96bc0f364603ac2b676cc9"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7e97d1f1d96bc0f364603ac2b676cc9">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> pos, bool val=True)</td></tr>
 <tr class="memitem:a1f8274548d05d967063c6f41db291a45" id="r_a1f8274548d05d967063c6f41db291a45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f8274548d05d967063c6f41db291a45">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a> pos, bool val=True)</td></tr>
@@ -597,6 +598,31 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6026ba6336cb13b54badf6e497f756b" name="aa6026ba6336cb13b54badf6e497f756b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6026ba6336cb13b54badf6e497f756b">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.ObjBitSet.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1ObjId.html">ObjId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ab180a8d812e38d6017ae181b145ee402">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>

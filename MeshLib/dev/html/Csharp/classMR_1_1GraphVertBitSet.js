@@ -8,6 +8,7 @@ var classMR_1_1GraphVertBitSet =
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a28093ce51fa51d117b15367612871085", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a77b2209a53a267fbf5460cb26fdc6309", null ],
     [ "assign", "classMR_1_1GraphVertBitSet.html#ad52b2bf7ebe2af06b80a706cd2c40667", null ],
+    [ "atomicTestSet", "classMR_1_1GraphVertBitSet.html#a864b3ef58b733886f5423b2fd1838a4d", null ],
     [ "autoResizeSet", "classMR_1_1GraphVertBitSet.html#ac7f93b9bbe7d531c878a630dd4ed4e6f", null ],
     [ "autoResizeSet", "classMR_1_1GraphVertBitSet.html#af7069d44bc69184a621cc360f07a287c", null ],
     [ "autoResizeTestSet", "classMR_1_1GraphVertBitSet.html#aea47cb80961bdee39897918f0afab5a0", null ],

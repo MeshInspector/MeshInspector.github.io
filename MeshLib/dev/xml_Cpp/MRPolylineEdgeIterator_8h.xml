@@ -19,11 +19,13 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
         <childnode refid="24" relation="include">
         </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
         <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -50,7 +52,7 @@
         <childnode refid="21" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>MRIteratorRange.h</label>
         <link refid="MRIteratorRange_8h"/>
       </node>
@@ -89,9 +91,9 @@
         <link refid="MRPolylineEdgeIterator_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -143,6 +145,9 @@
       <node id="8">
         <label>array</label>
       </node>
+      <node id="24">
+        <label>atomic</label>
+      </node>
       <node id="14">
         <label>cassert</label>
       </node>
@@ -158,10 +163,10 @@
       <node id="12">
         <label>functional</label>
       </node>
-      <node id="24">
+      <node id="25">
         <label>iosfwd</label>
       </node>
-      <node id="25">
+      <node id="26">
         <label>iterator</label>
       </node>
       <node id="11">

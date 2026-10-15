@@ -15,6 +15,7 @@ var classmrmeshpy_1_1GraphEdgeBitSet =
     [ "__repr__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a2daba4ceae7b15a152705ff963d7a3d8", null ],
     [ "__sub__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a0ea5e7892c402e689ce30ff1955d5c57", null ],
     [ "__xor__", "classmrmeshpy_1_1GraphEdgeBitSet.html#a368340b9d0233f4fc2e86095f4224c8e", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1GraphEdgeBitSet.html#a0aacf40db023b876416942bf164a6fdb", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1GraphEdgeBitSet.html#a0fdacaac7bdb6e7381be2185e23b9fa1", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1GraphEdgeBitSet.html#aa6655b4ee80d071cd8ea06fe7c0778f3", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1GraphEdgeBitSet.html#a9744b88febc10db81dd13bd818d98ac8", null ],

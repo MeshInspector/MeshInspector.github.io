@@ -166,6 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a59b6929ca16cbe090c495f80bb98ef1a" id="r_a59b6929ca16cbe090c495f80bb98ef1a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59b6929ca16cbe090c495f80bb98ef1a">__repr__</a> (self)</td></tr>
 <tr class="memitem:a1668f0c3d5587d8ef5d31e483ebe3b22" id="r_a1668f0c3d5587d8ef5d31e483ebe3b22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1668f0c3d5587d8ef5d31e483ebe3b22">__sub__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> b)</td></tr>
 <tr class="memitem:ab523743769810a55a8eea4e7f67e208d" id="r_ab523743769810a55a8eea4e7f67e208d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab523743769810a55a8eea4e7f67e208d">__xor__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> b)</td></tr>
+<tr class="memitem:a125471b7bfbb59299cd681b770e6e456" id="r_a125471b7bfbb59299cd681b770e6e456"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a125471b7bfbb59299cd681b770e6e456">atomicTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n)</td></tr>
 <tr class="memitem:a3839575ccb9308d837c8bb010b8306c2" id="r_a3839575ccb9308d837c8bb010b8306c2"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3839575ccb9308d837c8bb010b8306c2">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> pos, int len, bool val=True)</td></tr>
 <tr class="memitem:a24a5fbbef66d6641d4e063809991ef79" id="r_a24a5fbbef66d6641d4e063809991ef79"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24a5fbbef66d6641d4e063809991ef79">autoResizeSet</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> pos, bool val=True)</td></tr>
 <tr class="memitem:a7d011098911a5f6105a8f1725c114404" id="r_a7d011098911a5f6105a8f1725c114404"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d011098911a5f6105a8f1725c114404">autoResizeTestSet</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> pos, bool val=True)</td></tr>
@@ -619,6 +620,31 @@ with all bits after size() considered off during testing
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a125471b7bfbb59299cd681b770e6e456" name="a125471b7bfbb59299cd681b770e6e456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a125471b7bfbb59299cd681b770e6e456">&#9670;&#160;</a></span>atomicTestSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.FaceBitSet.atomicTestSet </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sets n-th bit and returns its previous value; it is safe to call simultaneously from several threads for any bits of the same bitset,
+provided no other modification of the bitset (including resizing) is performed in parallel
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#ab180a8d812e38d6017ae181b145ee402">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>

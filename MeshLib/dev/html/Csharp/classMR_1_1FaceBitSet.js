@@ -8,6 +8,7 @@ var classMR_1_1FaceBitSet =
     [ "FaceBitSet", "classMR_1_1FaceBitSet.html#aabd2bd6e248b578dbfa7f5825ec804ae", null ],
     [ "FaceBitSet", "classMR_1_1FaceBitSet.html#a43e5c434b3655a01ba9475267c63a3cd", null ],
     [ "assign", "classMR_1_1FaceBitSet.html#a1794b6bca4e956cbb9946bbc97d987d3", null ],
+    [ "atomicTestSet", "classMR_1_1FaceBitSet.html#ae9eefb9f96ef558d62c26d1e541145ad", null ],
     [ "autoResizeSet", "classMR_1_1FaceBitSet.html#acfc07caffa26f306d43c4b374b7ced81", null ],
     [ "autoResizeSet", "classMR_1_1FaceBitSet.html#af3d7f835cabde18b0e9e309e2c2654ad", null ],
     [ "autoResizeTestSet", "classMR_1_1FaceBitSet.html#a5d40b99dfdc84733f5fa7ea510e13da6", null ],

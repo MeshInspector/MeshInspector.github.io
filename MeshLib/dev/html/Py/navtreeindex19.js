@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"classmrmeshpy_1_1ContourToDistanceMapParams.html#abe0b55b4479f74eb0f0454053905d918":[9,1,1,0,1,183,5],
+"classmrmeshpy_1_1ContourToDistanceMapParams.html#af40d6ccd60ff381dbfafeb9656f2d596":[9,1,0,0,2,183,8],
+"classmrmeshpy_1_1ContourToDistanceMapParams.html#af40d6ccd60ff381dbfafeb9656f2d596":[9,1,1,0,1,183,8],
+"classmrmeshpy_1_1ContoursDistanceMapOffset.html":[9,1,0,0,2,180],
 "classmrmeshpy_1_1ContoursDistanceMapOffset.html":[9,1,1,0,1,180],
 "classmrmeshpy_1_1ContoursDistanceMapOffset.html#a5e77364123809546e412e25a066b9d9f":[9,1,0,0,2,180,3],
 "classmrmeshpy_1_1ContoursDistanceMapOffset.html#a5e77364123809546e412e25a066b9d9f":[9,1,1,0,1,180,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "classmrmeshpy_1_1CutAroundVertSetsParams.html#aa671bfb8e9d1f7e2155276b9a5af03ba":[9,1,1,0,1,194,1],
 "classmrmeshpy_1_1CutAroundVertSetsParams.html#ac75f2e58436a10742cf986a8d15109cf":[9,1,0,0,2,194,2],
 "classmrmeshpy_1_1CutAroundVertSetsParams.html#ac75f2e58436a10742cf986a8d15109cf":[9,1,1,0,1,194,2],
-"classmrmeshpy_1_1CutByProjectionSettings.html":[9,1,0,0,2,195],
-"classmrmeshpy_1_1CutByProjectionSettings.html":[9,1,1,0,1,195],
-"classmrmeshpy_1_1CutByProjectionSettings.html#a016d2dcf81e87467992889764e437734":[9,1,0,0,2,195,6],
-"classmrmeshpy_1_1CutByProjectionSettings.html#a016d2dcf81e87467992889764e437734":[9,1,1,0,1,195,6],
-"classmrmeshpy_1_1CutByProjectionSettings.html#a3326f5582f2c2e5d7b9a123d9a30fee2":[9,1,0,0,2,195,0]
+"classmrmeshpy_1_1CutByProjectionSettings.html":[9,1,0,0,2,195]
 };

@@ -15,6 +15,7 @@ var classmrmeshpy_1_1ObjBitSet =
     [ "__repr__", "classmrmeshpy_1_1ObjBitSet.html#a22a5a48ff9b18857c01e9ff9ba31c379", null ],
     [ "__sub__", "classmrmeshpy_1_1ObjBitSet.html#a058ba9d428348001004ee944deeb5ed4", null ],
     [ "__xor__", "classmrmeshpy_1_1ObjBitSet.html#a53af67f93f50b6eae895ba6e9d558d9c", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1ObjBitSet.html#aa6026ba6336cb13b54badf6e497f756b", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1ObjBitSet.html#ab7e97d1f1d96bc0f364603ac2b676cc9", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1ObjBitSet.html#ade691461e755764bda615d64540c3798", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1ObjBitSet.html#a1f8274548d05d967063c6f41db291a45", null ],

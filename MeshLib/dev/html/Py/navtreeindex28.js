@@ -1,5 +1,11 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1EdgeSegmentd.html#a1e4ad674a6fc5c4b978a09c80c3f57c2":[9,1,1,0,1,253,10],
+"classmrmeshpy_1_1EdgeSegmentd.html#a41b09fb9c0d69c7bcb06e2a859ee366a":[9,1,0,0,2,253,5],
+"classmrmeshpy_1_1EdgeSegmentd.html#a41b09fb9c0d69c7bcb06e2a859ee366a":[9,1,1,0,1,253,5],
+"classmrmeshpy_1_1EdgeSegmentd.html#a472b08665b0b6f646295166f93142619":[9,1,0,0,2,253,11],
+"classmrmeshpy_1_1EdgeSegmentd.html#a472b08665b0b6f646295166f93142619":[9,1,1,0,1,253,11],
+"classmrmeshpy_1_1EdgeSegmentd.html#a4dc70920b981d7080b0f4057246134e3":[9,1,0,0,2,253,9],
 "classmrmeshpy_1_1EdgeSegmentd.html#a4dc70920b981d7080b0f4057246134e3":[9,1,1,0,1,253,9],
 "classmrmeshpy_1_1EdgeSegmentd.html#a5116608dd14dd7ce651ace1eb4e3812b":[9,1,0,0,2,253,8],
 "classmrmeshpy_1_1EdgeSegmentd.html#a5116608dd14dd7ce651ace1eb4e3812b":[9,1,1,0,1,253,8],
@@ -243,11 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1EndMillTool.html#ae4c6f6bbffcf8056055348ce13d9ad94":[9,1,1,0,1,258,0],
 "classmrmeshpy_1_1EnumNeihbourFaces.html":[9,1,0,0,2,259],
 "classmrmeshpy_1_1EnumNeihbourFaces.html":[9,1,1,0,1,259],
-"classmrmeshpy_1_1EnumNeihbourFaces.html#aa2f17b54bcb6012f8c6db2fb8eeeeea9":[9,1,0,0,2,259,1],
-"classmrmeshpy_1_1EnumNeihbourFaces.html#aa2f17b54bcb6012f8c6db2fb8eeeeea9":[9,1,1,0,1,259,1],
-"classmrmeshpy_1_1EnumNeihbourFaces.html#adc945e4f4ebbe3d55892d7522d58663f":[9,1,0,0,2,259,0],
-"classmrmeshpy_1_1EnumNeihbourFaces.html#adc945e4f4ebbe3d55892d7522d58663f":[9,1,1,0,1,259,0],
-"classmrmeshpy_1_1EnumNeihbourFaces.html#ae1f6c135bf3d4ea6c2d88372adc4d1e5":[9,1,0,0,2,259,2],
-"classmrmeshpy_1_1EnumNeihbourFaces.html#ae1f6c135bf3d4ea6c2d88372adc4d1e5":[9,1,1,0,1,259,2],
-"classmrmeshpy_1_1EnumNeihbourVertices.html":[9,1,0,0,2,260]
+"classmrmeshpy_1_1EnumNeihbourFaces.html#aa2f17b54bcb6012f8c6db2fb8eeeeea9":[9,1,0,0,2,259,1]
 };

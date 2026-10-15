@@ -3202,6 +3202,7 @@
     <member refid="MRBitSet_8h_1a945e7127f6832d366658b3654ae67a6c" kind="function"><name>MR_FaceBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a321b31678ceea53e1cfc1fd12495efeb" kind="function"><name>MR_FaceBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a8c59686077cdf5c5a49f7e91ebc51fcb" kind="function"><name>MR_FaceBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1affd5ea840b0a1b2684fd39f8ee7e5c18" kind="function"><name>MR_FaceBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1ab2eab2a674c7e27529d2d9ba4f832be2" kind="function"><name>MR_FaceBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1a944dfd3b85803282878775b352cde511" kind="function"><name>MR_FaceBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a667a74f0c04538829f4ba622d8c04c05" kind="function"><name>MR_FaceBitSet_reset_0</name></member>
@@ -3283,6 +3284,7 @@
     <member refid="MRBitSet_8h_1acbd4af756835864446298606d3061eca" kind="function"><name>MR_VertBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a9cbc96512c8c12f1f36539e92bec5c0e" kind="function"><name>MR_VertBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1afef6fbcceb3a52e16167ae82347b4bd7" kind="function"><name>MR_VertBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1afbd63e15618afd06f831203f9aff5b50" kind="function"><name>MR_VertBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1ae85ee15f4e65e91a61107f8b61071481" kind="function"><name>MR_VertBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1a9e460540402d5e18e5a4aaf7ed9de947" kind="function"><name>MR_VertBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a2cd66c117940a15efa7b48edee91bdba" kind="function"><name>MR_VertBitSet_reset_0</name></member>
@@ -3364,6 +3366,7 @@
     <member refid="MRBitSet_8h_1abc444da7ff1acd7672d809db5827fb6f" kind="function"><name>MR_EdgeBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a879d8fe6ae64763073e9031689f98023" kind="function"><name>MR_EdgeBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a05e9bf6002fc1642d21422b29972c57f" kind="function"><name>MR_EdgeBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1a5ed35fd6aac59c2a8a9ffa241727f286" kind="function"><name>MR_EdgeBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a3b3b037a9c750fe50aad5e32005ac980" kind="function"><name>MR_EdgeBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1acacf55fb1c251cbffb4448740009e6b6" kind="function"><name>MR_EdgeBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1ae2125a169b994386d21c46f805147546" kind="function"><name>MR_EdgeBitSet_reset_0</name></member>
@@ -3445,6 +3448,7 @@
     <member refid="MRBitSet_8h_1a62785eccee5b06a6a5099a24706c9d87" kind="function"><name>MR_UndirectedEdgeBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a5cea74732d66dddf937a2fcc13a5ac5c" kind="function"><name>MR_UndirectedEdgeBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a5d229bc0062a8d5c47480340829e5724" kind="function"><name>MR_UndirectedEdgeBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1a87a49b295b8f2718c175fdf095b46830" kind="function"><name>MR_UndirectedEdgeBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1af30a30b4cf8f3cef0ce8abb64af8f26f" kind="function"><name>MR_UndirectedEdgeBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1ae59be6f361a16471860a9cfceabb297f" kind="function"><name>MR_UndirectedEdgeBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a0c59c38a595e7b256377971159d23dbb" kind="function"><name>MR_UndirectedEdgeBitSet_reset_0</name></member>
@@ -3526,6 +3530,7 @@
     <member refid="MRBitSet_8h_1a59a1e7f0fa45b2a2137b2dc216772804" kind="function"><name>MR_PixelBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1aacd886bce1e6526cd13bbcb170c3ec3f" kind="function"><name>MR_PixelBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a3cf9725ff5172a4df230e36dbc0ff0ff" kind="function"><name>MR_PixelBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1ab4e1a624ce524052e8639329108ffad1" kind="function"><name>MR_PixelBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a7f069a3c6656da7462b3c849821949ac" kind="function"><name>MR_PixelBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1ab0a901f40c6951cbf217038e20b541f0" kind="function"><name>MR_PixelBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a301ca1d64e40f5ea29660aaaffb9e8bd" kind="function"><name>MR_PixelBitSet_reset_0</name></member>
@@ -3607,6 +3612,7 @@
     <member refid="MRBitSet_8h_1a74dc20dcbe45f790602524de1900ef3c" kind="function"><name>MR_VoxelBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a212cdee789067d3d8ebf75a425e07701" kind="function"><name>MR_VoxelBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a04dc3a801af14ef10de82815945bb0f3" kind="function"><name>MR_VoxelBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1a3be9bb57cd15848a2ae806b1466375a9" kind="function"><name>MR_VoxelBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a7eac3e53e30574472f14185bdd9e98a3" kind="function"><name>MR_VoxelBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1a93a6e77962e6c84fed03e39501291b2d" kind="function"><name>MR_VoxelBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a654dd79993f194a5cb0363a237472bab" kind="function"><name>MR_VoxelBitSet_reset_0</name></member>
@@ -3688,6 +3694,7 @@
     <member refid="MRBitSet_8h_1a286a2f839df5c17a9c5529c86ef8ab8c" kind="function"><name>MR_RegionBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1acb4c6e74490d60409169edb550c61caa" kind="function"><name>MR_RegionBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a38969bb8ea13a609875abba7d3733255" kind="function"><name>MR_RegionBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1abf8e503cefedfd2742ec2de4d364b06f" kind="function"><name>MR_RegionBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a7dc3138779238b40808ee9e62fa23f6f" kind="function"><name>MR_RegionBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1ae7d9e3fa5b2dea6f241245961e443a91" kind="function"><name>MR_RegionBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a8b332a2e903f7d0e21bb3df6704167da" kind="function"><name>MR_RegionBitSet_reset_0</name></member>
@@ -3769,6 +3776,7 @@
     <member refid="MRBitSet_8h_1a5aa965556fad14aa37ac9ecd29cef3b6" kind="function"><name>MR_NodeBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1ac42d375d815971ff1bf9b7bf0ad34df3" kind="function"><name>MR_NodeBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a5b9c96e1a5cc16db2e554738a292ed90" kind="function"><name>MR_NodeBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1aef85011e8cf54180e6076cfa1d17e8d6" kind="function"><name>MR_NodeBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a04ae562003f7da7224bffbf67cda77a1" kind="function"><name>MR_NodeBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1ace3bc1da3064bf68d69036cd6c96aec3" kind="function"><name>MR_NodeBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1acc3ea79809ca47e0a29c51e339ef5e38" kind="function"><name>MR_NodeBitSet_reset_0</name></member>
@@ -3850,6 +3858,7 @@
     <member refid="MRBitSet_8h_1addfb3a005c5469f45a420f98a328b2ed" kind="function"><name>MR_ObjBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a007aef36c1331080902daa2d026431b4" kind="function"><name>MR_ObjBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1af3ba09886a591bfed2904cb077a6e689" kind="function"><name>MR_ObjBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1a47b2b2e1bcc52257782af7751c6d2ef9" kind="function"><name>MR_ObjBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a464ae307b09efbb7f30c91b5c83456d6" kind="function"><name>MR_ObjBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1a3788ff2ab46b2eb146b31fe59320cc65" kind="function"><name>MR_ObjBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a80b5160c6a0d8165ef64a57ae7495cef" kind="function"><name>MR_ObjBitSet_reset_0</name></member>
@@ -3931,6 +3940,7 @@
     <member refid="MRBitSet_8h_1ad24f42f5a33792f5a45d6a6981787054" kind="function"><name>MR_TextureBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1ab964827a8dbb9d4937642155798d6f90" kind="function"><name>MR_TextureBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1ae6e32d6ac0be5ed3a2993eccc4655293" kind="function"><name>MR_TextureBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1ad5e33a6f49001eddaec07c2e1b347951" kind="function"><name>MR_TextureBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1adc77c5381b6e7167a641f733bf80dbed" kind="function"><name>MR_TextureBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1abc9679fa19a59c76f35cbab53e08da9a" kind="function"><name>MR_TextureBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a6bc71b7d6931daf644d24c764aebb0cf" kind="function"><name>MR_TextureBitSet_reset_0</name></member>
@@ -4012,6 +4022,7 @@
     <member refid="MRBitSet_8h_1a66f9598752d0b159d6b481ea33cfc723" kind="function"><name>MR_GraphVertBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a7befad8b24767de7ace462886682c4d6" kind="function"><name>MR_GraphVertBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1aa26cf1fcf9628114cd4dceb012ab2cbc" kind="function"><name>MR_GraphVertBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1ad4a12a263badf4a8d401729f04420abf" kind="function"><name>MR_GraphVertBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a9f48b044a352ef0f898c5d4c83d48ca8" kind="function"><name>MR_GraphVertBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1ad774e23e2757dc65def52d158f7e9c66" kind="function"><name>MR_GraphVertBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1ad36e06aafa40ce308626859962771aea" kind="function"><name>MR_GraphVertBitSet_reset_0</name></member>
@@ -4093,6 +4104,7 @@
     <member refid="MRBitSet_8h_1a2afd85954edf4c151ec15c28f9307924" kind="function"><name>MR_GraphEdgeBitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a68c2c141aee70e7686912b1e313c025e" kind="function"><name>MR_GraphEdgeBitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a3136de53dbbc985c8d2406e956be4a0a" kind="function"><name>MR_GraphEdgeBitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1a523712cf28808670e8e3bd6ccebb6d31" kind="function"><name>MR_GraphEdgeBitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a1c41e1051aeed026273824f9e3920668" kind="function"><name>MR_GraphEdgeBitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1a4c11bc92237f4c213708f0df7327fcf2" kind="function"><name>MR_GraphEdgeBitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a1b663100dfdfdc171211b8bee179ff40" kind="function"><name>MR_GraphEdgeBitSet_reset_0</name></member>
@@ -4174,6 +4186,7 @@
     <member refid="MRBitSet_8h_1a3ec45eeda0890eb82f0b67c98b46de89" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_set_2</name></member>
     <member refid="MRBitSet_8h_1ab1b914582479b9fcc9a16711bb840bf3" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_set_1</name></member>
     <member refid="MRBitSet_8h_1ad4cee17d3587510b5976e3836681164f" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_set_0</name></member>
+    <member refid="MRBitSet_8h_1a0b3550eea5cdf0a327ec86e64b018e03" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a9991035209c230d7fb33318baeb5e258" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_reset_2</name></member>
     <member refid="MRBitSet_8h_1af2631d2a067b2bcc6b301046933e5627" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_reset_1</name></member>
     <member refid="MRBitSet_8h_1a0076da9b53c2c5f7bed0670fd6298078" kind="function"><name>MR_TypedBitSet_MR_Id_MR_ICPElemtTag_reset_0</name></member>
@@ -4458,6 +4471,7 @@
     <member refid="MRBitSet_8h_1a8ab3d82ee7a41ca0991fe91e76186da9" kind="function"><name>MR_BitSet_set_2</name></member>
     <member refid="MRBitSet_8h_1a6c52daf4982e78321b08acb219159600" kind="function"><name>MR_BitSet_set_1</name></member>
     <member refid="MRBitSet_8h_1a8217d6201f1891f40ac8ccec9b807742" kind="function"><name>MR_BitSet_set_0</name></member>
+    <member refid="MRBitSet_8h_1a93ec0fe382bed99f1b4bfa27f07318ca" kind="function"><name>MR_BitSet_atomicTestSet</name></member>
     <member refid="MRBitSet_8h_1a0c0de8a9c6424734c28fc6d2bf1589b4" kind="function"><name>MR_BitSet_reset_2</name></member>
     <member refid="MRBitSet_8h_1ab22589028c52fc4ce391d6c13040f6bb" kind="function"><name>MR_BitSet_reset_1</name></member>
     <member refid="MRBitSet_8h_1a49659029e64ea2734f80048dd9cbcd1f" kind="function"><name>MR_BitSet_reset_0</name></member>

@@ -1186,6 +1186,7 @@
     <member refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7" kind="function"><name>__xor__</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a7791a54179bcc02c9e8d46ccd467d1df" kind="function"><name>all</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a72e64427ab6f98e8ffeb422c97588e62" kind="function"><name>any</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1ab180a8d812e38d6017ae181b145ee402" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a0416156b4269add8c1fb14d531b3f9e5" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83" kind="function"><name>autoResizeTestSet</name></member>
@@ -5254,6 +5255,7 @@
     <member refid="classmrmeshpy_1_1EdgeBitSet_1a69dea4dff0daf7a1aecf49d080999389" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1EdgeBitSet_1a3bd2d1a918179c2e008ea27c3191f2c8" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1EdgeBitSet_1a51581f90cba5a02e66043666e96183ed" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1EdgeBitSet_1a19e0c3e0b688f999c54e989565dfb297" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1EdgeBitSet_1ad3b5039089dbdf9883c257ed93fcbddd" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1EdgeBitSet_1ae1946bc0785b9842a1c8da5f434c51a3" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1EdgeBitSet_1a48b6ef0ede7cb9a3cf9a56a08ccba297" kind="function"><name>autoResizeTestSet</name></member>
@@ -6024,6 +6026,7 @@
     <member refid="classmrmeshpy_1_1FaceBitSet_1a59b6929ca16cbe090c495f80bb98ef1a" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1FaceBitSet_1a1668f0c3d5587d8ef5d31e483ebe3b22" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1FaceBitSet_1ab523743769810a55a8eea4e7f67e208d" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1FaceBitSet_1a125471b7bfbb59299cd681b770e6e456" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1FaceBitSet_1a3839575ccb9308d837c8bb010b8306c2" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1FaceBitSet_1a24a5fbbef66d6641d4e063809991ef79" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1FaceBitSet_1a7d011098911a5f6105a8f1725c114404" kind="function"><name>autoResizeTestSet</name></member>
@@ -8123,6 +8126,7 @@
     <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2daba4ceae7b15a152705ff963d7a3d8" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0ea5e7892c402e689ce30ff1955d5c57" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a368340b9d0233f4fc2e86095f4224c8e" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0aacf40db023b876416942bf164a6fdb" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1aa6655b4ee80d071cd8ea06fe7c0778f3" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0fdacaac7bdb6e7381be2185e23b9fa1" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9744b88febc10db81dd13bd818d98ac8" kind="function"><name>autoResizeTestSet</name></member>
@@ -8200,6 +8204,7 @@
     <member refid="classmrmeshpy_1_1GraphVertBitSet_1a6b9fb75f61fbd7df29a36b5b39f60953" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1GraphVertBitSet_1a7f141be9b58552f19936c74d79e518eb" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1GraphVertBitSet_1af7997f27ec53915b99b7ec6e08d400d2" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1GraphVertBitSet_1af1f6ad5a795766b07eac85223043e2f1" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1GraphVertBitSet_1a19282e51a096b4b8d402fac992e573f8" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1GraphVertBitSet_1a22ce6dd468011768390f3eb2469827ee" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1GraphVertBitSet_1af0643ad3506269f2793f17dcf3f5ce40" kind="function"><name>autoResizeTestSet</name></member>
@@ -13035,6 +13040,7 @@
     <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac6769a4a523c4a581c79d6da343ac5a2" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a89a9b163bd3887abd3a4ee810d30c9bb" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a186c74932a30e873c96fb140589e89c8" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1af94be69b648f63fde0daa192c3619780" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad47703c73b72fd7fb4a0de98831af8cc" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a78671de51488bd2bb1256b49db1ad526" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a9baea15eadb8b96c02b3d13dd4b81052" kind="function"><name>autoResizeTestSet</name></member>
@@ -13088,6 +13094,7 @@
     <member refid="classmrmeshpy_1_1NodeBitSet_1a4710c47c510d5595fe61636c3fb897b2" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1NodeBitSet_1a0096acae95f9a975c95b152970a2287d" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1NodeBitSet_1aa23c9caeb69e8f1703225063dd321c16" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1NodeBitSet_1a430457cd13c45783ea67334c35a02f46" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1NodeBitSet_1ad2a863b8e3ebac9a7067b63371179a09" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1NodeBitSet_1a7ec268765192e72f321d02c8b32b59a2" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1NodeBitSet_1af96273b1fe9625a776c19b87259f4106" kind="function"><name>autoResizeTestSet</name></member>
@@ -13346,6 +13353,7 @@
     <member refid="classmrmeshpy_1_1ObjBitSet_1a22a5a48ff9b18857c01e9ff9ba31c379" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1ObjBitSet_1a058ba9d428348001004ee944deeb5ed4" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1ObjBitSet_1a53af67f93f50b6eae895ba6e9d558d9c" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1ObjBitSet_1aa6026ba6336cb13b54badf6e497f756b" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1ObjBitSet_1ade691461e755764bda615d64540c3798" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1ObjBitSet_1ab7e97d1f1d96bc0f364603ac2b676cc9" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1ObjBitSet_1a1f8274548d05d967063c6f41db291a45" kind="function"><name>autoResizeTestSet</name></member>
@@ -15154,6 +15162,7 @@
     <member refid="classmrmeshpy_1_1PixelBitSet_1a13aa5abdaacc1ac185ee0103370a58f4" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1PixelBitSet_1a2a42e5006e467482fc47e531e58b574d" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1PixelBitSet_1a3e5ae1c08ca224de03777ceb47628b25" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1PixelBitSet_1a44f23af94822094ff17247afe8cb7431" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1PixelBitSet_1abcbb330033d9203eca87f0c9a27738fd" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1PixelBitSet_1a64e488a8b158993446db8dc8089cfd50" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1PixelBitSet_1a8e5798a7b82bf113a270f0a71a2c92ca" kind="function"><name>autoResizeTestSet</name></member>
@@ -17109,6 +17118,7 @@
     <member refid="classmrmeshpy_1_1RegionBitSet_1a9ae781ec49a10782dd62aa870b928e6b" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1RegionBitSet_1a15c6df59da4e2a891fcada1a328dd0a0" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1RegionBitSet_1a9bc2f297651bf40ee89dc1bf3f0ef255" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1RegionBitSet_1a46e0f2bc5f92f797049e33e6db4f1b92" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1RegionBitSet_1a7d2d593d0edbbc43971d25aa44668a90" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1RegionBitSet_1ae8f7a7a686fdab752b49992691d4e770" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1RegionBitSet_1a7cd390901e8a567b94eafe4d3804de60" kind="function"><name>autoResizeTestSet</name></member>
@@ -25095,6 +25105,7 @@
     <member refid="classmrmeshpy_1_1TextureBitSet_1a74578d9e7e34e5132036206163480bb6" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1TextureBitSet_1aa6b5555229b9cd4e6d018a10f61c39fd" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1TextureBitSet_1a12052dc58db7c1d117a7b38a84b2adb2" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1TextureBitSet_1af3a27da9a4c2e772a0cbe80367a0e61e" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1TextureBitSet_1aad305548e8acd90eaa55b268aaa6acd6" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1TextureBitSet_1a6fd8bc9b807c3b74d2ac7c566f4fe4ff" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1TextureBitSet_1a0b5f3d39211515c61af61310eeb9dc37" kind="function"><name>autoResizeTestSet</name></member>
@@ -26114,6 +26125,7 @@
     <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a068e0d234f06358d8da5679bcce4c2ec" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a1e9f54304c29400e77da072f332faaba" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a6c104e6b7c3dcd34acd36877192cc0d3" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a72e8e04747d2644f035762eaef18e57d" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a73daebdc93e0efa2a12276d6a0e4c492" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1ad127d99136dc7099b252684bc95e69ce" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag_1a7bf33a40a0a2392ceec98f4b3d173f1a" kind="function"><name>autoResizeTestSet</name></member>
@@ -26307,6 +26319,7 @@
     <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1afc967e6b5dd8ce2daccfe8b3906ef231" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8ee21d8a5c375283337e6a6a33ab6837" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a9b788e843ee1267f8f072fd5df465f56" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a9628665b280cb4209408190425bbf4f5" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1f801f7a80a61ade2820344ba54f16c4" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc184546a131bbdbd1746e79fd318084" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a82aee58b292ed8f758fb25574c2ef10f" kind="function"><name>autoResizeTestSet</name></member>
@@ -30058,6 +30071,7 @@
     <member refid="classmrmeshpy_1_1VertBitSet_1aa258db5bc3b9034510a9ec6078c3f579" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1VertBitSet_1a1f0f881ea4e3f3b24bf41c8f332821b6" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1VertBitSet_1ae8b54bdad9527607a3c845367a841f82" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1VertBitSet_1ab6ca2c1f0afc9aee085ab25b1e710832" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1VertBitSet_1a9573ba046dc518f718dc54cdfe3a7ddb" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1VertBitSet_1abdb9b4c9bf9d6feab7218dbd6c90cca2" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1VertBitSet_1a895c899ff819d3345c29c696ffe7f0f6" kind="function"><name>autoResizeTestSet</name></member>
@@ -31044,6 +31058,7 @@
     <member refid="classmrmeshpy_1_1VoxelBitSet_1a3b442277af4823e1675a3acaed8441b2" kind="function"><name>__repr__</name></member>
     <member refid="classmrmeshpy_1_1VoxelBitSet_1ad6d90efe452c6ee9bcd98cc77b5375d0" kind="function"><name>__sub__</name></member>
     <member refid="classmrmeshpy_1_1VoxelBitSet_1a17ea5fdb5cfab3d02e89b1d7f60340dc" kind="function"><name>__xor__</name></member>
+    <member refid="classmrmeshpy_1_1VoxelBitSet_1ad7bac4fde65d2b14fdf99bbdc3ea36c6" kind="function"><name>atomicTestSet</name></member>
     <member refid="classmrmeshpy_1_1VoxelBitSet_1a83c487bc0b245d25c78eb4c9a643434b" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1VoxelBitSet_1a81e75610dc6c17d08d748e576f742d14" kind="function"><name>autoResizeSet</name></member>
     <member refid="classmrmeshpy_1_1VoxelBitSet_1a8d6e538efd74455f9d63af5009ba018a" kind="function"><name>autoResizeTestSet</name></member>

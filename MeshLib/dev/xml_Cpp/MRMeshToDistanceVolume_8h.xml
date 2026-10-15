@@ -41,11 +41,13 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
       <node id="31">
@@ -80,12 +82,12 @@
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="50">
+      <node id="51">
         <label>MRDistanceToMeshOptions.h</label>
         <link refid="MRDistanceToMeshOptions_8h"/>
-        <childnode refid="51" relation="include">
-        </childnode>
         <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
         </childnode>
       </node>
       <node id="39">
@@ -146,16 +148,16 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="48">
+      <node id="49">
         <label>MRMesh/MRMeshDistance.h</label>
         <link refid="MRMeshDistance_8h"/>
-        <childnode refid="49" relation="include">
-        </childnode>
         <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
       <node id="8">
@@ -184,7 +186,7 @@
         <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="50">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="8" relation="include">
@@ -216,7 +218,7 @@
         <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="51">
+      <node id="52">
         <label>MRSignDetectionMode.h</label>
         <link refid="MRSignDetectionMode_8h"/>
         <childnode refid="8" relation="include">
@@ -307,7 +309,7 @@
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
@@ -361,10 +363,13 @@
       <node id="12">
         <label>array</label>
       </node>
+      <node id="47">
+        <label>atomic</label>
+      </node>
       <node id="18">
         <label>cassert</label>
       </node>
-      <node id="52">
+      <node id="53">
         <label>cfloat</label>
       </node>
       <node id="21">
@@ -388,7 +393,7 @@
       <node id="23">
         <label>iosfwd</label>
       </node>
-      <node id="47">
+      <node id="48">
         <label>iterator</label>
       </node>
       <node id="36">
@@ -397,7 +402,7 @@
       <node id="38">
         <label>memory</label>
       </node>
-      <node id="53">
+      <node id="54">
         <label>optional</label>
       </node>
       <node id="15">

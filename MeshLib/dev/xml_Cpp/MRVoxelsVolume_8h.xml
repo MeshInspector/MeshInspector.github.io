@@ -56,11 +56,13 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
         <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
       <node id="29">
@@ -322,6 +324,9 @@
       <node id="9">
         <label>array</label>
       </node>
+      <node id="45">
+        <label>atomic</label>
+      </node>
       <node id="15">
         <label>cassert</label>
       </node>
@@ -346,7 +351,7 @@
       <node id="28">
         <label>iosfwd</label>
       </node>
-      <node id="45">
+      <node id="46">
         <label>iterator</label>
       </node>
       <node id="34">

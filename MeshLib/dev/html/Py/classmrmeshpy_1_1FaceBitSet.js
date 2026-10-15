@@ -16,6 +16,7 @@ var classmrmeshpy_1_1FaceBitSet =
     [ "__repr__", "classmrmeshpy_1_1FaceBitSet.html#a59b6929ca16cbe090c495f80bb98ef1a", null ],
     [ "__sub__", "classmrmeshpy_1_1FaceBitSet.html#a1668f0c3d5587d8ef5d31e483ebe3b22", null ],
     [ "__xor__", "classmrmeshpy_1_1FaceBitSet.html#ab523743769810a55a8eea4e7f67e208d", null ],
+    [ "atomicTestSet", "classmrmeshpy_1_1FaceBitSet.html#a125471b7bfbb59299cd681b770e6e456", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1FaceBitSet.html#a24a5fbbef66d6641d4e063809991ef79", null ],
     [ "autoResizeSet", "classmrmeshpy_1_1FaceBitSet.html#a3839575ccb9308d837c8bb010b8306c2", null ],
     [ "autoResizeTestSet", "classmrmeshpy_1_1FaceBitSet.html#a7d011098911a5f6105a8f1725c114404", null ],
