@@ -146980,7 +146980,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <name>getExecutablePath</name>
         <qualifiedname>MR::SystemPath::getExecutablePath</qualifiedname>
         <briefdescription>
-<para>get the current executable&apos;s file path </para>
+<para>get the current executable&apos;s file path, absolute (except in Emscripten, where it is the .wasm location) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -147038,7 +147038,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <name>getExecutableDirectory</name>
         <qualifiedname>MR::SystemPath::getExecutableDirectory</qualifiedname>
         <briefdescription>
-<para>get the current executable&apos;s directory path </para>
+<para>get the current executable&apos;s directory path, absolute (except in Emscripten) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
