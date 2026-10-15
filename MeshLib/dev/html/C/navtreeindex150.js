@@ -1,5 +1,8 @@
 var NAVTREEINDEX150 =
 {
+"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a535217674399a5dfe55a05072258e816":[9,2,2,0,0,0,0,2,178,3],
+"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a6a6d38a0595d26f73e65ae1bf41281d9":[9,2,2,0,0,0,0,2,178,8],
+"std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a6bbf90275effc57dbc0d9b96ca126c6f":[9,2,2,0,0,0,0,2,178,7],
 "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a71d149f4865cafb70cbcff1e23488602":[9,2,2,0,0,0,0,2,178,1],
 "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a72fe25a7da907321b698fe3e3c5a1ecc":[9,2,2,0,0,0,0,2,178,5],
 "std__function__unsigned__char__from__const__MR__Vector3i__ref_8h.html#a96252bc961185cf4668450b625d4e070":[9,2,2,0,0,0,0,2,178,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX150 =
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a65c9e2696d936261c06520b798876715":[9,2,2,0,0,0,0,2,198,1],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a67127e42fc7184aa454aa59ac9e74776":[9,2,2,0,0,0,0,2,198,12],
 "std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a6b874e347b3275e1ac4b694dee8dd8fa":[9,2,2,0,0,0,0,2,198,9],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a797cc7279a0dacea49dbcf0a6a6c7fd5":[9,2,2,0,0,0,0,2,198,11],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a7b1b59758be41d64a7d00836d5bb281c":[9,2,2,0,0,0,0,2,198,10],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a7e8db34941cc65dcc5e71d990d01229b":[9,2,2,0,0,0,0,2,198,14],
-"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#aa4d13222797652c36a00379aaff3a1bc":[9,2,2,0,0,0,0,2,198,4]
+"std__function__void__from__MR__UndirectedEdgeId__const__MR__Vector2f__ref__float_8h.html#a797cc7279a0dacea49dbcf0a6a6c7fd5":[9,2,2,0,0,0,0,2,198,11]
 };

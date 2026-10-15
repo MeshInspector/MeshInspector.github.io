@@ -1,7 +1,7 @@
 var classMR_1_1Const__DecimateSettings =
 [
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a3a3dde2ea4cfeb3893a023c4ad3769fa", null ],
-    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a0f048cebf5ff1515b330f29d87d71a30", null ],
+    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aec546f95c297885c51237dc07372c4f6", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a416cbe92341394d850efa8a7306a0d67", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a476b386045686fc33af580f15bf4fd1c", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aed5f611167dc3065bea632c41eb1e2d8", null ],
@@ -12,6 +12,7 @@ var classMR_1_1Const__DecimateSettings =
     [ "__ptr_storage_notFlippable", "classMR_1_1Const__DecimateSettings.html#a2283a78a2823f6b471edf25f3dd9cee1", null ],
     [ "__ptr_storage_partFaces", "classMR_1_1Const__DecimateSettings.html#a17351744d3e46ac91aeb7be1e3052a28", null ],
     [ "__ptr_storage_region", "classMR_1_1Const__DecimateSettings.html#a3e442e0e6b96b9c62c50ddcb526ead72", null ],
+    [ "__ptr_storage_regionEdges", "classMR_1_1Const__DecimateSettings.html#a9f9a5b2b79b1bfc14c3570811bd98b42", null ],
     [ "__ptr_storage_twinMap", "classMR_1_1Const__DecimateSettings.html#a848193fe93368a106d3f52dde320ebe4", null ],
     [ "__ptr_storage_vertForms", "classMR_1_1Const__DecimateSettings.html#a5b44c6180de01bed11c517db1abbc1af", null ],
     [ "__ref_storage_angleWeightedDistToPlane", "classMR_1_1Const__DecimateSettings.html#a1c294ea457892ee12391778669fc91d9", null ],
@@ -57,6 +58,7 @@ var classMR_1_1Const__DecimateSettings =
     [ "preCollapse", "classMR_1_1Const__DecimateSettings.html#aff48a89e5b6e9c64ac9fd7159114c131", null ],
     [ "progressCallback", "classMR_1_1Const__DecimateSettings.html#a83c76ac708a9d5812c0ba6e30f276881", null ],
     [ "region", "classMR_1_1Const__DecimateSettings.html#a0e42c453a37e6cb6765b4f4fc226c86f", null ],
+    [ "regionEdges", "classMR_1_1Const__DecimateSettings.html#a927f684d4ec8a3826764295430565dab", null ],
     [ "stabilizer", "classMR_1_1Const__DecimateSettings.html#a004998eb81e23e3de0e7d671dd14572a", null ],
     [ "strategy", "classMR_1_1Const__DecimateSettings.html#a1b769a3f417acfaf2850cfb538830c0b", null ],
     [ "subdivideParts", "classMR_1_1Const__DecimateSettings.html#a27f3e3531623261f1c018736674582b5", null ],

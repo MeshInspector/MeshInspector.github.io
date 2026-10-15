@@ -2,7 +2,7 @@ var classmrmeshpy_1_1DecimateSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8", null ],
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a051ad80dd4673ad4e825bdef48419f87", null ],
-    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a8f5827c606e93f2b657389c5b7d73b15", null ],
+    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#aca89d6a389ef7cdff78739e4312d0197", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#ad23e1338af289f8942bea68e493a1c69", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#acc3cfe893142f2e7424ac9f6d07c5285", null ],
     [ "angleWeightedDistToPlane", "classmrmeshpy_1_1DecimateSettings.html#ad18aacdc6d0ce2b4f8b4fa982d1a1560", null ],
@@ -49,6 +49,8 @@ var classmrmeshpy_1_1DecimateSettings =
     [ "progressCallback", "classmrmeshpy_1_1DecimateSettings.html#a4dde0c1220e3992b4f6d242af36040e8", null ],
     [ "region", "classmrmeshpy_1_1DecimateSettings.html#a3da95241ed69d97ee6fc5ffc0adee881", null ],
     [ "region", "classmrmeshpy_1_1DecimateSettings.html#aab3df2e170579f18d520c16f47c8166b", null ],
+    [ "regionEdges", "classmrmeshpy_1_1DecimateSettings.html#a25adde528ec61985c44d258119923e19", null ],
+    [ "regionEdges", "classmrmeshpy_1_1DecimateSettings.html#ac4e8f5d40a86ebe8176f053fc174dcf2", null ],
     [ "stabilizer", "classmrmeshpy_1_1DecimateSettings.html#a207116947163001c13a9df0cb07ef4b1", null ],
     [ "stabilizer", "classmrmeshpy_1_1DecimateSettings.html#a9832e5350daddcc94fb138aa8dddcf80", null ],
     [ "subdivideParts", "classmrmeshpy_1_1DecimateSettings.html#a169832040cb0b9600d84945bae3b2ec8", null ],

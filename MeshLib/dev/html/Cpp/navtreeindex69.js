@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1ShortcutKey.html":[9,0,0,20,741],
 "structMR_1_1ShortcutManager_1_1ShortcutAction.html":[9,0,0,20,744],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html":[9,0,0,20,745],
 "structMR_1_1ShrinkwrapParameters.html":[9,0,0,9,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html":[9,0,1,0,1,51,2,0,1],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html":[9,0,2,0,2,34,0,0,1],
 "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#a419c2080df58d6e1bc2fa5d52d79c75d":[9,0,1,0,1,51,2,0,1,1],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#a419c2080df58d6e1bc2fa5d52d79c75d":[9,0,2,0,2,34,0,0,1,1],
-"structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#a4ffa9727b330021d13456e1ef6905bad":[9,0,1,0,1,51,2,0,1,2]
+"structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html#a419c2080df58d6e1bc2fa5d52d79c75d":[9,0,2,0,2,34,0,0,1,1]
 };

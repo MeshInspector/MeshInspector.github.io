@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1PolylineProjectionResult2.html#aefcb6322109dcf29a0e05cf36e65511c":[9,1,1,0,1,768,9],
+"classmrmeshpy_1_1PolylineProjectionResult2.html#afa55c40ab542488b5222263f8d20a8a6":[9,1,0,0,2,768,7],
+"classmrmeshpy_1_1PolylineProjectionResult2.html#afa55c40ab542488b5222263f8d20a8a6":[9,1,1,0,1,768,7],
+"classmrmeshpy_1_1PolylineProjectionResult3.html":[9,1,0,0,2,769],
 "classmrmeshpy_1_1PolylineProjectionResult3.html":[9,1,1,0,1,769],
 "classmrmeshpy_1_1PolylineProjectionResult3.html#a0dc486948b8acd0868831a03f5a438f0":[9,1,0,0,2,769,8],
 "classmrmeshpy_1_1PolylineProjectionResult3.html#a0dc486948b8acd0868831a03f5a438f0":[9,1,1,0,1,769,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1PolylineTraits__Vector3f.html":[9,1,1,0,1,777],
 "classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[9,1,0,0,2,777,0],
 "classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[9,1,0,0,2,777,2],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[9,1,1,0,1,777,0],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[9,1,1,0,1,777,2],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#afdd58e41a4e99ce7d335db08e39ea0a6":[9,1,0,0,2,777,1],
-"classmrmeshpy_1_1PolylineTraits__Vector3f.html#afdd58e41a4e99ce7d335db08e39ea0a6":[9,1,1,0,1,777,1],
-"classmrmeshpy_1_1PolylineUndirectedEdgeIterator.html":[9,1,0,0,2,778]
+"classmrmeshpy_1_1PolylineTraits__Vector3f.html#a8adbf9ba374a5d35fbf8137d9473a7d3":[9,1,1,0,1,777,0]
 };

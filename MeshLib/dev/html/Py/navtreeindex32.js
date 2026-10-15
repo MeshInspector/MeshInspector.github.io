@@ -1,5 +1,9 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1FastWindingNumber.html#a8ef6b7c72e518ec149318e10b52c2517":[9,1,1,0,1,280,3],
+"classmrmeshpy_1_1FeatureObject.html":[9,1,0,0,2,281],
+"classmrmeshpy_1_1FeatureObject.html":[9,1,1,0,1,281],
+"classmrmeshpy_1_1FeatureObject.html#a0dd5541ee688b5c1de7d3467f7a7b47c":[9,1,0,0,2,281,13],
 "classmrmeshpy_1_1FeatureObject.html#a0dd5541ee688b5c1de7d3467f7a7b47c":[9,1,1,0,1,281,13],
 "classmrmeshpy_1_1FeatureObject.html#a12a48864fde34a3b0a6f72b6f95fcc00":[9,1,0,0,2,281,21],
 "classmrmeshpy_1_1FeatureObject.html#a12a48864fde34a3b0a6f72b6f95fcc00":[9,1,1,0,1,281,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ac9998974a776f3b71967adee7614ae84":[9,1,1,0,1,285,0,2,7],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ad9f66589e7ae5a340390d98b1f8d48d5":[9,1,0,0,2,285,0,2,5],
 "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ad9f66589e7ae5a340390d98b1f8d48d5":[9,1,1,0,1,285,0,2,5],
-"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ae6d992741122cc18a475e6b707992883":[9,1,0,0,2,285,0,2,4],
-"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ae6d992741122cc18a475e6b707992883":[9,1,1,0,1,285,0,2,4],
-"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html":[9,1,0,0,2,285,0,3],
-"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html":[9,1,1,0,1,285,0,3],
-"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status.html#a19f142d692aa36bce260deb327cd1bd8":[9,1,0,0,2,285,0,3,7]
+"classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ae6d992741122cc18a475e6b707992883":[9,1,0,0,2,285,0,2,4]
 };

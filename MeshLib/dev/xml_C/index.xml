@@ -14714,6 +14714,9 @@
     <member refid="MRMeshDecimate_8h_1aab81e1629f140658f68f6bd533205f7c" kind="function"><name>MR_DecimateSettings_Get_bdVerts</name></member>
     <member refid="MRMeshDecimate_8h_1abe4a808bb09c57bdde7574053190d824" kind="function"><name>MR_DecimateSettings_Set_bdVerts</name></member>
     <member refid="MRMeshDecimate_8h_1aba48dca41bab8a9c97c63a27a19e44a9" kind="function"><name>MR_DecimateSettings_GetMutable_bdVerts</name></member>
+    <member refid="MRMeshDecimate_8h_1a2862f1ffb4095b3342a510d9aba32ee8" kind="function"><name>MR_DecimateSettings_Get_regionEdges</name></member>
+    <member refid="MRMeshDecimate_8h_1a76a9cc4816c2ca8b4b5dc31362e1bc44" kind="function"><name>MR_DecimateSettings_Set_regionEdges</name></member>
+    <member refid="MRMeshDecimate_8h_1aee7d7b9e08cc4944469045dafa2c59a1" kind="function"><name>MR_DecimateSettings_GetMutable_regionEdges</name></member>
     <member refid="MRMeshDecimate_8h_1ab2616be87cd3e577fa77d0e6714b11de" kind="function"><name>MR_DecimateSettings_Get_maxAngleChange</name></member>
     <member refid="MRMeshDecimate_8h_1a2ea8fef752573a16d229dcc02f1e2910" kind="function"><name>MR_DecimateSettings_Set_maxAngleChange</name></member>
     <member refid="MRMeshDecimate_8h_1a7754c9a654aeccf153c5cf4cc0d61d44" kind="function"><name>MR_DecimateSettings_GetMutable_maxAngleChange</name></member>
@@ -14749,7 +14752,7 @@
     <member refid="MRMeshDecimate_8h_1a2262fed9ad3b37b373946c4f375b5178" kind="function"><name>MR_DecimateSettings_GetMutable_minFacesInPart</name></member>
     <member refid="MRMeshDecimate_8h_1a11fc6de32c51d96f2d0ecf2cdf0d89f2" kind="function"><name>MR_DecimateSettings_DefaultConstruct</name></member>
     <member refid="MRMeshDecimate_8h_1a71192febccae648d80fefdfdf94dadbc" kind="function"><name>MR_DecimateSettings_DefaultConstructArray</name></member>
-    <member refid="MRMeshDecimate_8h_1a513ef56ddfa1e6db7107f44c892e8f4d" kind="function"><name>MR_DecimateSettings_ConstructFrom</name></member>
+    <member refid="MRMeshDecimate_8h_1a75c44aa4b33f3d74ba6c9cabb046726a" kind="function"><name>MR_DecimateSettings_ConstructFrom</name></member>
     <member refid="MRMeshDecimate_8h_1a6df6d574a873cbde9b7eea445b0228af" kind="function"><name>MR_DecimateSettings_OffsetPtr</name></member>
     <member refid="MRMeshDecimate_8h_1a0ea64b3d47778328d7dbe81bf0b20604" kind="function"><name>MR_DecimateSettings_OffsetMutablePtr</name></member>
     <member refid="MRMeshDecimate_8h_1a105ccafb7f2f8853c907acd7290e5fa5" kind="function"><name>MR_DecimateSettings_ConstructFromAnother</name></member>

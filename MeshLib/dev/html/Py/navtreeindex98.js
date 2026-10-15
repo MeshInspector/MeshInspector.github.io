@@ -1,5 +1,9 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1TriangulateHolesParams.html":[9,1,1,0,1,1146],
+"classmrmeshpy_1_1TriangulateHolesParams.html#a484037d2ceaf79cc79cd56baadf36afd":[9,1,0,0,2,1146,3],
+"classmrmeshpy_1_1TriangulateHolesParams.html#a484037d2ceaf79cc79cd56baadf36afd":[9,1,1,0,1,1146,3],
+"classmrmeshpy_1_1TriangulateHolesParams.html#ab5336f711dec84ea28235e68ceaa49bf":[9,1,0,0,2,1146,4],
 "classmrmeshpy_1_1TriangulateHolesParams.html#ab5336f711dec84ea28235e68ceaa49bf":[9,1,1,0,1,1146,4],
 "classmrmeshpy_1_1TriangulateHolesParams.html#abcba60eff9254e59e6a55ad5d7bc2f2f":[9,1,0,0,2,1146,0],
 "classmrmeshpy_1_1TriangulateHolesParams.html#abcba60eff9254e59e6a55ad5d7bc2f2f":[9,1,1,0,1,1146,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2b68c93b2ddfdce77b75bf71d3d563d5":[9,1,1,0,1,1153,13],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,0,0,2,1153,3],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,1,0,1,1153,3],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[9,1,0,0,2,1153,9],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[9,1,1,0,1,1153,9],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a5032ea393d340c8d7b3b2d1510ac2bcb":[9,1,0,0,2,1153,4],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a5032ea393d340c8d7b3b2d1510ac2bcb":[9,1,1,0,1,1153,4],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a60c277f9ec8a303b6488c25c65ca73ae":[9,1,0,0,2,1153,1]
+"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[9,1,0,0,2,1153,9]
 };

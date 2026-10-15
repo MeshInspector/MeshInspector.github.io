@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[9,1,1,0,1,808,0],
+"classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[9,1,0,0,2,808,2],
+"classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[9,1,1,0,1,808,2],
+"classmrmeshpy_1_1QuadricApprox.html#a8bb056f3fa9e51ba7ec8fa6a5db8f732":[9,1,0,0,2,808,1],
 "classmrmeshpy_1_1QuadricApprox.html#a8bb056f3fa9e51ba7ec8fa6a5db8f732":[9,1,1,0,1,808,1],
 "classmrmeshpy_1_1QuarterBit.html":[9,1,0,0,2,809],
 "classmrmeshpy_1_1QuarterBit.html":[9,1,1,0,1,809],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1RasterLoad.html":[9,1,1,0,1,815],
 "classmrmeshpy_1_1RasterLoadSettings.html":[9,1,0,0,2,816],
 "classmrmeshpy_1_1RasterLoadSettings.html":[9,1,1,0,1,816],
-"classmrmeshpy_1_1RasterLoadSettings.html#a5863b66276a91c30489a75bcc700f557":[9,1,0,0,2,816,1],
-"classmrmeshpy_1_1RasterLoadSettings.html#a5863b66276a91c30489a75bcc700f557":[9,1,1,0,1,816,1],
-"classmrmeshpy_1_1RasterLoadSettings.html#a771ff5b403a4590121d6a77f04d9ed8b":[9,1,0,0,2,816,3],
-"classmrmeshpy_1_1RasterLoadSettings.html#a771ff5b403a4590121d6a77f04d9ed8b":[9,1,1,0,1,816,3],
-"classmrmeshpy_1_1RasterLoadSettings.html#a99328b0b3a144acea9c00bda5e051197":[9,1,0,0,2,816,5]
+"classmrmeshpy_1_1RasterLoadSettings.html#a5863b66276a91c30489a75bcc700f557":[9,1,0,0,2,816,1]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX152 =
 {
+"std__optional__MR__Color_8h.html#ad59cfcbd8109b0d62e3e3c2b45ad753e":[9,2,2,0,0,0,0,2,209,12],
+"std__optional__MR__Color_8h.html#adf3b0e282d95d0ac0ee88c6a53937da8":[9,2,2,0,0,0,0,2,209,0],
+"std__optional__MR__Color_8h.html#afa5f94d36e9ec4a86aeabcc6e7542a3b":[9,2,2,0,0,0,0,2,209,6],
 "std__optional__MR__Color_8h_source.html":[9,2,2,0,0,0,0,2,209],
 "std__optional__MR__DentalId_8h.html":[9,2,2,0,0,0,0,2,210],
 "std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053":[9,2,2,0,0,0,0,2,210,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX152 =
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a3b93e7f4b851b95f1f857da61fffc81f":[9,2,2,0,0,0,0,2,226,5],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a52f262fd29dc0b9767d61a0e45e61b5c":[9,2,2,0,0,0,0,2,226,2],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a623148d566ce9004ab903a3c58ca828e":[9,2,2,0,0,0,0,2,226,0],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5":[9,2,2,0,0,0,0,2,226,6],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a6c2d4cc257a02e3dd4c1e170f18e2d3c":[9,2,2,0,0,0,0,2,226,12],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a6e5817d02f4a5b4d5f8eae2bed9469d1":[9,2,2,0,0,0,0,2,226,10],
-"std__optional__MR__PolylineIntersectionResult2_8h.html#aab8ca47902d7c4c1ac19071c75ac56d3":[9,2,2,0,0,0,0,2,226,4]
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5":[9,2,2,0,0,0,0,2,226,6]
 };

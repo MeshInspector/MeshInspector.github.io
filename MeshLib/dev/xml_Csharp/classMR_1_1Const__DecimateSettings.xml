@@ -305,6 +305,21 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="217" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="218" bodyend="229"/>
       </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1a927f684d4ec8a3826764295430565dab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? Const_UndirectedEdgeBitSet MR.Const_DecimateSettings.regionEdges</definition>
+        <argsstring></argsstring>
+        <name>regionEdges</name>
+        <qualifiedname>MR.Const_DecimateSettings.regionEdges</qualifiedname>
+        <briefdescription>
+<para>if region is not null and this pointer is not null, then it shall contain all edges incident to region faces (as returned by getIncidentEdges( topology, *region )), and the algorithm does not compute them itself </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="236" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="237" bodyend="248"/>
+      </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1aaf4db0e16102fcf5ad00e2a923619a9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe float</type>
         <definition>unsafe float MR.Const_DecimateSettings.maxAngleChange</definition>
@@ -318,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="236" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="236" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="255" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="255" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1aff48a89e5b6e9c64ac9fd7159114c131" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
@@ -334,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="245" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="245" bodyend="245"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="264" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="264" bodyend="264"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1a03459a0062ce0bcbeee804ea07ac12c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef</type>
@@ -350,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="255" column="95" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="255" bodyend="255"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="274" column="95" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="274" bodyend="274"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1a2a05cd90eff2e8506f8a3eab71281876" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</type>
@@ -365,7 +380,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="261" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="261" bodyend="261"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="280" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="280" bodyend="280"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1aa88d919e73cd061d59f0e0ea5b7a23eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.? <ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kindref="compound">Vector_MRQuadraticForm3f_MRVertId</ref></type>
@@ -380,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="268" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="269" bodyend="280"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="287" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="288" bodyend="299"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1a4746687f133a538ad8a2aa78e412a665" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
@@ -395,7 +410,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="286" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="286" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="305" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="305" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1a83c76ac708a9d5812c0ba6e30f276881" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
@@ -410,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="292" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="292" bodyend="292"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="311" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="311" bodyend="311"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1a27f3e3531623261f1c018736674582b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
@@ -425,7 +440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="298" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="298" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="317" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="317" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1aa4e0cd109290eee59e9d8d9b865512db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe bool</type>
@@ -440,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="305" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="305" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="324" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="324" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1ad2aa5e7e744414e2a04018642dc536db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe MR.Std.? Vector_MRFaceBitSet</type>
@@ -455,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="313" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="314" bodyend="325"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="332" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="333" bodyend="344"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__DecimateSettings_1af09b0d2581c37052c97caf4811b6d874" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe int</type>
@@ -470,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="331" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="331" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="350" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="350" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -754,6 +769,20 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="230" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="230" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1a9f9a5b2b79b1bfc14c3570811bd98b42" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_UndirectedEdgeBitSet._Underlying** MR.Const_DecimateSettings.__ptr_storage_regionEdges</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_regionEdges</name>
+        <qualifiedname>MR.Const_DecimateSettings.__ptr_storage_regionEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="249" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="249" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1a6a03ed8def8566d99f1e710ff4218d1d" prot="protected" static="no" mutable="no">
         <type>unsafe float *</type>
         <definition>unsafe float* MR.Const_DecimateSettings.__ref_storage_maxAngleChange</definition>
@@ -766,7 +795,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="237" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="237" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="256" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="256" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1a5b44c6180de01bed11c517db1abbc1af" prot="protected" static="no" mutable="no">
         <type>unsafe MR.Vector_MRQuadraticForm3f_MRVertId._Underlying **</type>
@@ -780,7 +809,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="281" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="281" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="300" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="300" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1abcd33e5e3ddd6fc7fc8ea91c9bbfcff5" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
@@ -794,7 +823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="287" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="287" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="306" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="306" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1af4771c2c678ac415402963cc4a7ef8d0" prot="protected" static="no" mutable="no">
         <type>unsafe int *</type>
@@ -808,7 +837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="299" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="299" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="318" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="318" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1ae88ab22926a8eae285fc9dfa73791b0b" prot="protected" static="no" mutable="no">
         <type>unsafe bool *</type>
@@ -822,7 +851,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="306" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="306" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="325" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="325" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1a17351744d3e46ac91aeb7be1e3052a28" prot="protected" static="no" mutable="no">
         <type>unsafe MR.Std.Vector_MRFaceBitSet._Underlying **</type>
@@ -836,7 +865,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="326" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="326" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="345" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="345" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1Const__DecimateSettings_1aa4b3b4dd592ad694181074ba6ea99b51" prot="protected" static="no" mutable="no">
         <type>unsafe int *</type>
@@ -850,7 +879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="332" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="332" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="351" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="351" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -901,12 +930,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="481" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="481" bodyend="485"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="504" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="504" bodyend="508"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a0f048cebf5ff1515b330f29d87d71a30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1aec546f95c297885c51237dc07372c4f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_DecimateSettings.Const_DecimateSettings</definition>
-        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, float maxAngleChange, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef adjustCollapse, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_Bool_From_Float progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, MR.Const_UndirectedEdgeBitSet? regionEdges, float maxAngleChange, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef adjustCollapse, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_Bool_From_Float progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
         <name>Const_DecimateSettings</name>
         <qualifiedname>MR.Const_DecimateSettings.Const_DecimateSettings</qualifiedname>
         <param>
@@ -990,6 +1019,10 @@
           <declname>bdVerts</declname>
         </param>
         <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
+          <declname>regionEdges</declname>
+        </param>
+        <param>
           <type>float</type>
           <declname>maxAngleChange</declname>
         </param>
@@ -1040,7 +1073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="490" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="490" bodyend="505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="513" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="513" bodyend="529"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a416cbe92341394d850efa8a7306a0d67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -1059,7 +1092,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="510" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="510" bodyend="515"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="534" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="534" bodyend="539"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a476b386045686fc33af580f15bf4fd1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -1078,7 +1111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="520" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="520" bodyend="520"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="544" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="544" bodyend="544"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1aed5f611167dc3065bea632c41eb1e2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -1097,7 +1130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="525" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="525" bodyend="525"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="549" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="549" bodyend="549"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1137,14 +1170,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="470" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="470" bodyend="475"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="493" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="493" bodyend="498"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a2962ad3f2e5ab316e61b4f59609d4d46" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a25f8ca3c26b49ad4bca985a5af9cb13f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimateSettings._Underlying *</type>
         <definition>static unsafe MR.DecimateSettings._Underlying * MR.Const_DecimateSettings.__MR_DecimateSettings_ConstructFrom</definition>
-        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, byte angleWeightedDistToPlane, byte optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet._Underlying *region, MR.UndirectedEdgeBitSet._Underlying *notFlippable, byte collapseNearNotFlippable, MR.UndirectedEdgeBitSet._Underlying *edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId._Underlying *twinMap, byte touchNearBdEdges, byte touchBdVerts, MR.VertBitSet._Underlying *bdVerts, float maxAngleChange, MR.Misc._PassBy preCollapse_pass_by, MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef._Underlying *preCollapse, MR.Misc._PassBy adjustCollapse_pass_by, MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef._Underlying *adjustCollapse, MR.Misc._PassBy onEdgeDel_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId._Underlying *vertForms, byte packMesh, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback, int subdivideParts, byte decimateBetweenParts, MR.Std.Vector_MRFaceBitSet._Underlying *partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, byte angleWeightedDistToPlane, byte optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet._Underlying *region, MR.UndirectedEdgeBitSet._Underlying *notFlippable, byte collapseNearNotFlippable, MR.UndirectedEdgeBitSet._Underlying *edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId._Underlying *twinMap, byte touchNearBdEdges, byte touchBdVerts, MR.VertBitSet._Underlying *bdVerts, MR.Const_UndirectedEdgeBitSet._Underlying *regionEdges, float maxAngleChange, MR.Misc._PassBy preCollapse_pass_by, MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef._Underlying *preCollapse, MR.Misc._PassBy adjustCollapse_pass_by, MR.Std.Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef._Underlying *adjustCollapse, MR.Misc._PassBy onEdgeDel_pass_by, MR.Std.Function_Void_From_MREdgeId_MREdgeId._Underlying *onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId._Underlying *vertForms, byte packMesh, MR.Misc._PassBy progressCallback_pass_by, MR.Std.Function_Bool_From_Float._Underlying *progressCallback, int subdivideParts, byte decimateBetweenParts, MR.Std.Vector_MRFaceBitSet._Underlying *partFaces, int minFacesInPart)</argsstring>
         <name>__MR_DecimateSettings_ConstructFrom</name>
         <qualifiedname>MR.Const_DecimateSettings.__MR_DecimateSettings_ConstructFrom</qualifiedname>
         <param>
@@ -1228,6 +1261,10 @@
           <declname>bdVerts</declname>
         </param>
         <param>
+          <type>MR.Const_UndirectedEdgeBitSet._Underlying *</type>
+          <declname>regionEdges</declname>
+        </param>
+        <param>
           <type>float</type>
           <declname>maxAngleChange</declname>
         </param>
@@ -1293,7 +1330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="530" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="554" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a5697dff8219c4ff0c622237860024a53" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimateSettings._Underlying *</type>
@@ -1315,7 +1352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="533" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="557" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a7c22d45a0a70b41148f919e423f0d6c3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimateSettings._Underlying *</type>
@@ -1329,7 +1366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="536" column="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="560" column="60"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1af33b71c173058456f16a388de091bde0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -1347,7 +1384,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="539" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="563" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a2625e82c9ebbc409079587ffe4ce3c65" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef._Underlying *</type>
@@ -1365,7 +1402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="542" column="113"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="566" column="113"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1add250a94a1a219a97c7bacd9cd5009ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1383,7 +1420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="545" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="569" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a007d34ae49f7dfbb19a3ba62d7688686" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying **</type>
@@ -1401,7 +1438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="548" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="572" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1ae3ca7f1798cf5c44f16a1002411c3e96" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1419,7 +1456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="551" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="575" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a696a702f8ae3337c37ba5c3b273bf2a3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1437,7 +1474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="554" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="578" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a99b668e8e4c1807f324368765c989610" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1455,7 +1492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="557" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="581" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1ad04fc68f7f4a587015b277db56d3ec29" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
@@ -1473,7 +1510,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="560" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="584" column="64"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1aff42e8961e20a3156ed7f2542fd21be5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1491,7 +1528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="563" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="587" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a56369e93fcf5905cfbd2d622d6d883aa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1509,7 +1546,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="566" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="590" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a1a7db2d1b5052595d3bdeeff1b6defaf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int *</type>
@@ -1527,7 +1564,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="569" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="593" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a3268346e3c9888678eb0edbf9a6b0bc9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int *</type>
@@ -1545,7 +1582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="572" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="596" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a77593b782c34e1a622011d54fc154126" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1563,7 +1600,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="575" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="599" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1ac9c8fe200b7dbee9442e06a8cfb7aca9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1581,7 +1618,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="578" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="602" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a402c7ee9cf8f6c61ad5521366c673fe5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1599,7 +1636,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="581" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="605" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a6f678d75e3c1227bd0e19adcb57404fb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int *</type>
@@ -1617,7 +1654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="584" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="608" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a65df3a0977a453b3cd06068a0bad3ee4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
@@ -1635,7 +1672,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="587" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="611" column="64"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a827d199ca28d763e1e0fede8fbd0d63c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId._Underlying *</type>
@@ -1653,7 +1690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="590" column="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="614" column="89"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a94d4a9c04e23d075bc4491d179cf091c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1671,7 +1708,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="593" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="617" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1abc9b724df4fc82c990a7bda8d3c28693" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1689,7 +1726,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="596" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="620" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1ad74fde96898f546f9b81d33193301514" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceBitSet._Underlying **</type>
@@ -1707,7 +1744,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="599" column="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="623" column="66"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a26934828ae6f59f8b3708ec88af90da7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Bool_From_MREdgeId_ConstMRVector3fRef._Underlying *</type>
@@ -1725,7 +1762,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="602" column="99"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="626" column="99"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a85f62361e150b83d1c5346fe1f35ef98" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
@@ -1743,7 +1780,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="605" column="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="629" column="77"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a55cf6024ccbfbaf03e6a0a84072b4be2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying **</type>
@@ -1761,7 +1798,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="608" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="632" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a43144d4f5312edb6a5bd663bb3fdb3ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_UndirectedEdgeBitSet._Underlying **</type>
+        <definition>static unsafe MR.Const_UndirectedEdgeBitSet._Underlying ** MR.Const_DecimateSettings.__MR_DecimateSettings_Get_regionEdges</definition>
+        <argsstring>(Const_DecimateSettings._Underlying *_this)</argsstring>
+        <name>__MR_DecimateSettings_Get_regionEdges</name>
+        <qualifiedname>MR.Const_DecimateSettings.__MR_DecimateSettings_Get_regionEdges</qualifiedname>
+        <param>
+          <type>Const_DecimateSettings._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="635" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a23758cacb234f5d4435255c85d18685c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1779,7 +1834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="611" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="638" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1af9db93bd83461e7784e86e2f8091c850" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1add28113e16217d08b03c89236a144146" kindref="member">MR.DecimateStrategy</ref> *</type>
@@ -1797,7 +1852,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="614" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="641" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a24c1752135da1ebf15d453fca6c27c77" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int *</type>
@@ -1815,7 +1870,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="617" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="644" column="34"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a8492b08f02229a73857feae2063ae72f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe float *</type>
@@ -1833,7 +1888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="620" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="647" column="36"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a8958a991365c6db6c5e3c6bed0c8a87c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1851,7 +1906,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="623" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="650" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1a3163b8c5e9d19ebe81c97cd2878fea1b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe bool *</type>
@@ -1869,7 +1924,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="626" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="653" column="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1ac86a6fe5810cffb5a9a0003e658c8f94" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId._Underlying **</type>
@@ -1887,7 +1942,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="629" column="98"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="656" column="98"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__DecimateSettings_1abf1571449efa9cb163281340c3f7453a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRQuadraticForm3f_MRVertId._Underlying **</type>
@@ -1905,7 +1960,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="632" column="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="659" column="77"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1952,6 +2007,7 @@
           <edgelabel>__ptr_storage_notFlippable</edgelabel>
           <edgelabel>__ptr_storage_partFaces</edgelabel>
           <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_regionEdges</edgelabel>
           <edgelabel>__ptr_storage_twinMap</edgelabel>
           <edgelabel>__ptr_storage_vertForms</edgelabel>
           <edgelabel>__ref_storage_strategy</edgelabel>
@@ -1964,9 +2020,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="25" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="26" bodyend="633"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="25" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="26" bodyend="660"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__DecimateSettings_1a2962ad3f2e5ab316e61b4f59609d4d46" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a25f8ca3c26b49ad4bca985a5af9cb13f" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a5697dff8219c4ff0c622237860024a53" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a7c22d45a0a70b41148f919e423f0d6c3" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1af33b71c173058456f16a388de091bde0" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Destroy</name></member>
@@ -1993,6 +2049,7 @@
       <member refid="classMR_1_1Const__DecimateSettings_1a26934828ae6f59f8b3708ec88af90da7" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_preCollapse</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a85f62361e150b83d1c5346fe1f35ef98" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_progressCallback</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a55cf6024ccbfbaf03e6a0a84072b4be2" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_region</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a43144d4f5312edb6a5bd663bb3fdb3ca" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_regionEdges</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a23758cacb234f5d4435255c85d18685c" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_stabilizer</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1af9db93bd83461e7784e86e2f8091c850" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_strategy</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a24c1752135da1ebf15d453fca6c27c77" prot="private" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__MR_DecimateSettings_Get_subdivideParts</name></member>
@@ -2006,6 +2063,7 @@
       <member refid="classMR_1_1Const__DecimateSettings_1a2283a78a2823f6b471edf25f3dd9cee1" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ptr_storage_notFlippable</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a17351744d3e46ac91aeb7be1e3052a28" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ptr_storage_partFaces</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a3e442e0e6b96b9c62c50ddcb526ead72" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a9f9a5b2b79b1bfc14c3570811bd98b42" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ptr_storage_regionEdges</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a848193fe93368a106d3f52dde320ebe4" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ptr_storage_twinMap</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a5b44c6180de01bed11c517db1abbc1af" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ptr_storage_vertForms</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a1c294ea457892ee12391778669fc91d9" prot="protected" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>__ref_storage_angleWeightedDistToPlane</name></member>
@@ -2034,7 +2092,7 @@
       <member refid="classMR_1_1Const__DecimateSettings_1aefe9678228e1e80db81b52e0d713b37c" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a963114c1aa5a10572ef7da09a6c1488f" prot="package" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a3a3dde2ea4cfeb3893a023c4ad3769fa" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
-      <member refid="classMR_1_1Const__DecimateSettings_1a0f048cebf5ff1515b330f29d87d71a30" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1aec546f95c297885c51237dc07372c4f6" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a416cbe92341394d850efa8a7306a0d67" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a476b386045686fc33af580f15bf4fd1c" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1aed5f611167dc3065bea632c41eb1e2d8" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>Const_DecimateSettings</name></member>
@@ -2059,6 +2117,7 @@
       <member refid="classMR_1_1Const__DecimateSettings_1aff48a89e5b6e9c64ac9fd7159114c131" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>preCollapse</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a83c76ac708a9d5812c0ba6e30f276881" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>progressCallback</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a0e42c453a37e6cb6765b4f4fc226c86f" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a927f684d4ec8a3826764295430565dab" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>regionEdges</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a004998eb81e23e3de0e7d671dd14572a" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>stabilizer</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a1b769a3f417acfaf2850cfb538830c0b" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>strategy</name></member>
       <member refid="classMR_1_1Const__DecimateSettings_1a27f3e3531623261f1c018736674582b5" prot="public" virt="non-virtual"><scope>MR::Const_DecimateSettings</scope><name>subdivideParts</name></member>

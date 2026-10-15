@@ -173,6 +173,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ae341a50784372571b1b5bb3e6948981e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary.  <br /></td></tr>
 <tr class="memitem:aee15c4faad0020190c28ac13da3e735e" id="r_aee15c4faad0020190c28ac13da3e735e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee15c4faad0020190c28ac13da3e735e">touchBdVerts</a> = true</td></tr>
 <tr class="memitem:abc44005d50714fe75f875a25f3a59f66" id="r_abc44005d50714fe75f875a25f3a59f66"><td class="memItemLeft" align="right" valign="top">VertBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc44005d50714fe75f875a25f3a59f66">bdVerts</a> = nullptr</td></tr>
+<tr class="memitem:a6d86579d9da2f3a27a05bd02a9c8af2c" id="r_a6d86579d9da2f3a27a05bd02a9c8af2c"><td class="memItemLeft" align="right" valign="top">const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d86579d9da2f3a27a05bd02a9c8af2c">regionEdges</a> = nullptr</td></tr>
 <tr class="memitem:aebecde304889b67910dd05d032cb8d07" id="r_aebecde304889b67910dd05d032cb8d07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebecde304889b67910dd05d032cb8d07">maxAngleChange</a> = -1</td></tr>
 <tr class="memitem:a5901e72dc3fd85459f38318a894afbbd" id="r_a5901e72dc3fd85459f38318a894afbbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga8ca6fbc7c349a31c3f0a68ce8f513265">PreCollapseCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5901e72dc3fd85459f38318a894afbbd">preCollapse</a></td></tr>
 <tr class="memdesc:a5901e72dc3fd85459f38318a894afbbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The user can provide this optional callback that is invoked immediately before edge collapse;.  <br /></td></tr>
@@ -551,6 +552,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Region on mesh to be decimated, it is updated during the operation. </p>
+
+</div>
+</div>
+<a id="a6d86579d9da2f3a27a05bd02a9c8af2c" name="a6d86579d9da2f3a27a05bd02a9c8af2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d86579d9da2f3a27a05bd02a9c8af2c">&#9670;&#160;</a></span>regionEdges</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const UndirectedEdgeBitSet* MR::DecimateSettings::regionEdges = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if region is not null and this pointer is not null, then it shall contain all edges incident to region faces (as returned by getIncidentEdges( topology, *region )), and the algorithm does not compute them itself </p>
 
 </div>
 </div>

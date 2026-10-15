@@ -1,5 +1,8 @@
 var NAVTREEINDEX137 =
 {
+"expected__MR__Raster__std__string_8h.html#a610dadc5a92d224ed1017725396d1cca":[9,2,2,0,0,0,0,2,24,4],
+"expected__MR__Raster__std__string_8h.html#a70bb67e25a6a674dcb1cc0ba47f98d5a":[9,2,2,0,0,0,0,2,24,7],
+"expected__MR__Raster__std__string_8h.html#a7f88e4979b6575ff8b4ef6bad6b7b224":[9,2,2,0,0,0,0,2,24,0],
 "expected__MR__Raster__std__string_8h.html#a89bdecac461e0cce5d3799a1cbb0ad23":[9,2,2,0,0,0,0,2,24,2],
 "expected__MR__Raster__std__string_8h.html#a8f39966d92dc0bab864af80df4b5b024":[9,2,2,0,0,0,0,2,24,12],
 "expected__MR__Raster__std__string_8h.html#aad68b55c8fff2a4d178d4c42cc1c7640":[9,2,2,0,0,0,0,2,24,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX137 =
 "expected__MR__VertBitSet__std__string_8h.html#aeae86554cb5a14c652867d5e2a6e6e6a":[9,2,2,0,0,0,0,2,40,1],
 "expected__MR__VertBitSet__std__string_8h.html#af3ad0138c75f983525132b78c5e51b61":[9,2,2,0,0,0,0,2,40,11],
 "expected__MR__VertBitSet__std__string_8h_source.html":[9,2,2,0,0,0,0,2,40],
-"expected__MR__VertColors__std__string_8h.html":[9,2,2,0,0,0,0,2,41],
-"expected__MR__VertColors__std__string_8h.html#a0980baf57ab9d9919b1ccabf8dd657ff":[9,2,2,0,0,0,0,2,41,10],
-"expected__MR__VertColors__std__string_8h.html#a186c23b24dcfc908e35ecf62f20540fb":[9,2,2,0,0,0,0,2,41,4],
-"expected__MR__VertColors__std__string_8h.html#a2d4f20014a94b7e86e4155d3bcd09ab1":[9,2,2,0,0,0,0,2,41,1]
+"expected__MR__VertColors__std__string_8h.html":[9,2,2,0,0,0,0,2,41]
 };

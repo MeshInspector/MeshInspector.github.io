@@ -4290,6 +4290,7 @@
     <member refid="classmrmeshpy_1_1DecimateSettings_1ab101fa26ea03810699bafd474c3ccc8a" kind="variable"><name>_offsetof_preCollapse</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1aaaf8d4d1fc6f0a07207e86f7e8b81edf" kind="variable"><name>_offsetof_progressCallback</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a74eb8e8a93a05a5dc978d7e43b83df4a" kind="variable"><name>_offsetof_region</name></member>
+    <member refid="classmrmeshpy_1_1DecimateSettings_1a0f53b58f2f11bc5dd6f596aa3de3390f" kind="variable"><name>_offsetof_regionEdges</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1ab90d428de45942883a4a9671c03cc81d" kind="variable"><name>_offsetof_stabilizer</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a2a33d76b302a87456a6c23302b6c9994" kind="variable"><name>_offsetof_strategy</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a0e5acf64890312190b1a03fd1cbead42" kind="variable"><name>_offsetof_subdivideParts</name></member>
@@ -4303,7 +4304,7 @@
     <member refid="classmrmeshpy_1_1DecimateSettings_1afec8b87744b79957fde34407cb57740f" kind="function"><name>operator</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1adc864beb92ab0473ec0a508b57b3f3f8" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a051ad80dd4673ad4e825bdef48419f87" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1DecimateSettings_1a8f5827c606e93f2b657389c5b7d73b15" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1DecimateSettings_1aca89d6a389ef7cdff78739e4312d0197" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1ad23e1338af289f8942bea68e493a1c69" kind="function"><name>adjustCollapse</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1acc3cfe893142f2e7424ac9f6d07c5285" kind="function"><name>adjustCollapse</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1ad18aacdc6d0ce2b4f8b4fa982d1a1560" kind="function"><name>angleWeightedDistToPlane</name></member>
@@ -4350,6 +4351,8 @@
     <member refid="classmrmeshpy_1_1DecimateSettings_1a4dde0c1220e3992b4f6d242af36040e8" kind="function"><name>progressCallback</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a3da95241ed69d97ee6fc5ffc0adee881" kind="function"><name>region</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1aab3df2e170579f18d520c16f47c8166b" kind="function"><name>region</name></member>
+    <member refid="classmrmeshpy_1_1DecimateSettings_1a25adde528ec61985c44d258119923e19" kind="function"><name>regionEdges</name></member>
+    <member refid="classmrmeshpy_1_1DecimateSettings_1ac4e8f5d40a86ebe8176f053fc174dcf2" kind="function"><name>regionEdges</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a207116947163001c13a9df0cb07ef4b1" kind="function"><name>stabilizer</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a9832e5350daddcc94fb138aa8dddcf80" kind="function"><name>stabilizer</name></member>
     <member refid="classmrmeshpy_1_1DecimateSettings_1a169832040cb0b9600d84945bae3b2ec8" kind="function"><name>subdivideParts</name></member>

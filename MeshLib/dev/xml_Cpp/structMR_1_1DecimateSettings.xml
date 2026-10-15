@@ -323,6 +323,22 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshDecimate.h" line="107" column="17" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="107" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a6d86579d9da2f3a27a05bd02a9c8af2c" prot="public" static="no" mutable="no">
+        <type>const UndirectedEdgeBitSet *</type>
+        <definition>const UndirectedEdgeBitSet* MR::DecimateSettings::regionEdges</definition>
+        <argsstring></argsstring>
+        <name>regionEdges</name>
+        <qualifiedname>MR::DecimateSettings::regionEdges</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if region is not null and this pointer is not null, then it shall contain all edges incident to region faces (as returned by getIncidentEdges( topology, *region )), and the algorithm does not compute them itself </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshDecimate.h" line="111" column="33" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aebecde304889b67910dd05d032cb8d07" prot="public" static="no" mutable="no">
         <type>float</type>
         <definition>float MR::DecimateSettings::maxAngleChange</definition>
@@ -337,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="111" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="111" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="115" column="11" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a5901e72dc3fd85459f38318a894afbbd" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga8ca6fbc7c349a31c3f0a68ce8f513265" kindref="member">PreCollapseCallback</ref></type>
@@ -353,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="119" column="25" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="119" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="123" column="25" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(UndirectedEdgeId ue, float &amp;collapseErrorSq, Vector3f &amp;collapsePos)&gt;</type>
@@ -369,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="129" column="19" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="129" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="133" column="19" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="133" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1afc72ed6f7c868487d053596c86220d6f" prot="public" static="no" mutable="no">
         <type>std::function&lt; void(EdgeId del, EdgeId rem)&gt;</type>
@@ -384,7 +400,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="133" column="19" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="133" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="137" column="19" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a8a682d43b723098485a748e97bd12111" prot="public" static="no" mutable="no">
         <type><ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; QuadraticForm3f, VertId &gt; *</type>
@@ -400,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="140" column="13" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="140" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="144" column="13" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a320a08e8abf402aa6a0dae956ad9be0e" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -416,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="143" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="143" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="147" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -431,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="146" column="22" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="146" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="150" column="22" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -447,7 +463,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="150" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="150" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="154" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -463,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="154" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="154" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="158" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7d69e19f2609b7330c6ac5d17a9ebfff" prot="public" static="no" mutable="no">
         <type>std::vector&lt; FaceBitSet &gt; *</type>
@@ -479,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="159" column="18" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="159" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="163" column="18" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7cc18ed533890cfc09a39ba3724b5f85" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -495,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="162" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="162" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="166" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="166" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -519,7 +535,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMeshDecimate.h" line="34" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="163"/>
+    <location file="MRMesh/MRMeshDecimate.h" line="34" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="167"/>
     <listofallmembers>
       <member refid="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
       <member refid="structMR_1_1DecimateSettings_1a2f6ca4e4f21750ae6d21f4d0c4376dca" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
@@ -544,6 +560,7 @@
       <member refid="structMR_1_1DecimateSettings_1a5901e72dc3fd85459f38318a894afbbd" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>preCollapse</name></member>
       <member refid="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>progressCallback</name></member>
       <member refid="structMR_1_1DecimateSettings_1a9359f9da0b131c164d942b1361bd9644" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1DecimateSettings_1a6d86579d9da2f3a27a05bd02a9c8af2c" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>regionEdges</name></member>
       <member refid="structMR_1_1DecimateSettings_1ab8a313e9caff73dd179f03a9c7b80baa" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>stabilizer</name></member>
       <member refid="structMR_1_1DecimateSettings_1a7b024d2a905ecd6515a263ec20d35dc6" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>strategy</name></member>
       <member refid="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>subdivideParts</name></member>

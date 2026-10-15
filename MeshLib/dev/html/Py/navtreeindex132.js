@@ -1,5 +1,9 @@
 var NAVTREEINDEX132 =
 {
+"classmrmeshpy_1_1WholeEdgeMap.html#af92280efe1d21fec1f3fe92ff676ffa1":[9,1,1,0,1,1322,0],
+"classmrmeshpy_1_1WrapType.html":[9,1,0,0,2,1323],
+"classmrmeshpy_1_1WrapType.html":[9,1,1,0,1,1323],
+"classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[9,1,0,0,2,1323,11],
 "classmrmeshpy_1_1WrapType.html#a070ea1bd418e10f1e4f6034d9c764e42":[9,1,1,0,1,1323,11],
 "classmrmeshpy_1_1WrapType.html#a0b36738324f061864dff8926519985eb":[9,1,0,0,2,1323,5],
 "classmrmeshpy_1_1WrapType.html#a0b36738324f061864dff8926519985eb":[9,1,1,0,1,1323,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX132 =
 "classmrmeshpy_1_1func__CurvePoint__from__float.html#ac8308bb1d6a966242a70d99c94400b51":[9,1,1,0,1,331,6],
 "classmrmeshpy_1_1func__CurvePoint__from__float.html#aea89941e74a8072a946b175699fbb959":[9,1,0,0,2,331,0],
 "classmrmeshpy_1_1func__CurvePoint__from__float.html#aea89941e74a8072a946b175699fbb959":[9,1,1,0,1,331,0],
-"classmrmeshpy_1_1func__CurvePoint__from__float.html#aeb4e9559a7551ccba6a9b3965bacaa2e":[9,1,0,0,2,331,5],
-"classmrmeshpy_1_1func__CurvePoint__from__float.html#aeb4e9559a7551ccba6a9b3965bacaa2e":[9,1,1,0,1,331,5],
-"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html":[9,1,0,0,2,346],
-"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html":[9,1,1,0,1,346],
-"classmrmeshpy_1_1func__MeshOrPoints__ProjectionResult__from__Vector3__float.html#a80181a04c8eb5101b3cf103d10ff68ce":[9,1,0,0,2,346,5]
+"classmrmeshpy_1_1func__CurvePoint__from__float.html#aeb4e9559a7551ccba6a9b3965bacaa2e":[9,1,0,0,2,331,5]
 };

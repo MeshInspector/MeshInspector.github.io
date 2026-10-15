@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"classMR_1_1Const__InSphere.html#ae5b8f0050a54dba3f5613914e382f61a":[9,3,0,0,0,514,1],
+"classMR_1_1Const__InSphere.html#afcc01a78c88b1e73de1121cde86b9362":[9,3,0,0,0,514,10],
 "classMR_1_1Const__InSphereSearchSettings.html":[9,3,0,0,0,515],
 "classMR_1_1Const__InSphereSearchSettings.html#a1b0e26f87d9a627a3e04ab946a2b5d1b":[9,3,0,0,0,515,9],
 "classMR_1_1Const__InSphereSearchSettings.html#a28fb6ea52649d276a2479bf791bf0890":[9,3,0,0,0,515,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a8d80fa856e407d8ea37b66a5d5cda53f":[9,3,0,0,0,541,1],
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#a9864cac0779eb7fcd82f2bd64ea6b76c":[9,3,0,0,0,541,0],
 "classMR_1_1Const__IteratorRange__MRChunkIterator.html#aca11c6a5fffed451f5d3be4401c3328f":[9,3,0,0,0,541,7],
-"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html":[9,3,0,0,0,542],
-"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html#a6ce7532c364c56c1f4d702a31c735ced":[9,3,0,0,0,542,7],
-"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html#a7525f0cbeb00dc0d3b58780daebb8ba6":[9,3,0,0,0,542,3]
+"classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator.html":[9,3,0,0,0,542]
 };

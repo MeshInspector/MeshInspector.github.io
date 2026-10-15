@@ -1,5 +1,9 @@
 var NAVTREEINDEX90 =
 {
+"classmrmeshpy_1_1Sphere3f.html#ad7f11a90785e736e4dbd2bdca033ebc9":[9,1,1,0,1,882,4],
+"classmrmeshpy_1_1SphereObject.html":[9,1,0,0,2,883],
+"classmrmeshpy_1_1SphereObject.html":[9,1,1,0,1,883],
+"classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[9,1,0,0,2,883,5],
 "classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4":[9,1,1,0,1,883,5],
 "classmrmeshpy_1_1SphereObject.html#a06c40f0a1fe3697ffdb39aa62348582c":[9,1,0,0,2,883,10],
 "classmrmeshpy_1_1SphereObject.html#a06c40f0a1fe3697ffdb39aa62348582c":[9,1,1,0,1,883,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html":[9,1,1,0,1,1109],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[9,1,0,0,2,1109,7],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a118fd53e95258820d0c8e6998f32401a":[9,1,1,0,1,1109,7],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[9,1,0,0,2,1109,8],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[9,1,1,0,1,1109,8],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a4be43df4f4a1263b879a7093232ef735":[9,1,0,0,2,1109,6],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a4be43df4f4a1263b879a7093232ef735":[9,1,1,0,1,1109,6],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a5fb8aac644301a4d71835344c4403590":[9,1,0,0,2,1109,10]
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a2bb2a7e3dbffedf2935ab9b42fa502c4":[9,1,0,0,2,1109,8]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX107 =
 {
+"classmrmeshpy_1_1Vector4i64.html#a430d759f406a24ee2fcad91c03940d4b":[9,1,1,0,1,1210,21],
+"classmrmeshpy_1_1Vector4i64.html#a57d1efb357e9a7534886ee15e087282d":[9,1,0,0,2,1210,24],
+"classmrmeshpy_1_1Vector4i64.html#a57d1efb357e9a7534886ee15e087282d":[9,1,1,0,1,1210,24],
+"classmrmeshpy_1_1Vector4i64.html#a79c87cdae25c6fa5eece4049e0779a53":[9,1,0,0,2,1210,9],
 "classmrmeshpy_1_1Vector4i64.html#a79c87cdae25c6fa5eece4049e0779a53":[9,1,1,0,1,1210,9],
 "classmrmeshpy_1_1Vector4i64.html#a7b216e4c7ef1c00d213ef8112093d5ca":[9,1,0,0,2,1210,23],
 "classmrmeshpy_1_1Vector4i64.html#a7b216e4c7ef1c00d213ef8112093d5ca":[9,1,1,0,1,1210,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX107 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#aafccbaf95469536e7c6780ddd554d5df":[9,1,1,0,1,1213,0],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ab847d0996e3c02e4cf579a599df0bbc3":[9,1,0,0,2,1213,9],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ab847d0996e3c02e4cf579a599df0bbc3":[9,1,1,0,1,1213,9],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,0,0,2,1213,22],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,0,0,2,1213,23],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,1,0,1,1213,22],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,1,0,1,1213,23],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac3de69feb4083e250f63ece94db487e4":[9,1,0,0,2,1213,5]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#ac2f0ca948647d189c858e832a45417be":[9,1,0,0,2,1213,22]
 };

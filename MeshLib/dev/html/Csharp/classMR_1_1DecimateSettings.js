@@ -1,7 +1,7 @@
 var classMR_1_1DecimateSettings =
 [
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab67032cee10cf045f9a4cee048756b24", null ],
-    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a626117acb5f02241e19b472323d6ee39", null ],
+    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab66d46cb470b18f40aa96568d7c2fba5", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a99a889cfdc331349b8e18b3b2fc5d088", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#aa705d47a48108e8562a3cd9a12128b6d", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d", null ],
@@ -29,6 +29,7 @@ var classMR_1_1DecimateSettings =
     [ "preCollapse", "classMR_1_1DecimateSettings.html#a87f9f04e45a05c5bb4faa942ff24d7a8", null ],
     [ "progressCallback", "classMR_1_1DecimateSettings.html#a4984b848772dfb665350a9ba3696eec5", null ],
     [ "region", "classMR_1_1DecimateSettings.html#a9aa16e7824c46218171c37ffb38efebe", null ],
+    [ "regionEdges", "classMR_1_1DecimateSettings.html#a4658a59611530cb49ce808a51b6659b1", null ],
     [ "stabilizer", "classMR_1_1DecimateSettings.html#a0c8618241fb4ab98e199e480d5808066", null ],
     [ "strategy", "classMR_1_1DecimateSettings.html#a7d0f6cbf05458bab4e5eb3e750801de4", null ],
     [ "subdivideParts", "classMR_1_1DecimateSettings.html#a051e26d6cd8669e3ea6efd9397bd3f4d", null ],

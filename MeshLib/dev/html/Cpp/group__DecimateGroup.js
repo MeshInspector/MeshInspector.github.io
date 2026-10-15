@@ -24,6 +24,7 @@ var group__DecimateGroup =
       [ "preCollapse", "structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd", null ],
       [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
       [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
+      [ "regionEdges", "structMR_1_1DecimateSettings.html#a6d86579d9da2f3a27a05bd02a9c8af2c", null ],
       [ "stabilizer", "structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa", null ],
       [ "strategy", "structMR_1_1DecimateSettings.html#a7b024d2a905ecd6515a263ec20d35dc6", null ],
       [ "subdivideParts", "structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4", null ],

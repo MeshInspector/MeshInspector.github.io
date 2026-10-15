@@ -1,5 +1,8 @@
 var NAVTREEINDEX125 =
 {
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bf":[9,3,0,0,0,1528,12],
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3289297424e01eda5b788c083bbf3147":[9,3,0,0,0,1528,12,1],
+"classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfa3d0365a27a39c0af183445fc4d932a8a":[9,3,0,0,0,1528,12,0],
 "classMR_1_1PlanarTriangulation.html#a16757991e9e882dfb0fed5364ee342bfaffb9356ff2b7da85c75c92fa7ea03b8b":[9,3,0,0,0,1528,12,2],
 "classMR_1_1PlanarTriangulation.html#a284e7bebb8b5ffd5cb288277726bd05d":[9,3,0,0,0,1528,14],
 "classMR_1_1PlanarTriangulation.html#a34a9cb429fb7084527f2f92fc91cb4fb":[9,3,0,0,0,1528,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX125 =
 "classMR_1_1PointAccumulator.html#a85bffe3466166ba6c4a888e4ebfa805a":[9,3,0,0,0,1534,4],
 "classMR_1_1PointAccumulator.html#a932c86d48f51c256c4309ec041300043":[9,3,0,0,0,1534,0],
 "classMR_1_1PointAccumulator.html#acd23e7684122defb7cb9651ed7942bc2":[9,3,0,0,0,1534,2],
-"classMR_1_1PointAndDistance.html":[9,3,0,0,0,1535],
-"classMR_1_1PointAndDistance.html#a09b9eaa4df4bace14176e3ce0a0d15a7":[9,3,0,0,0,1535,2],
-"classMR_1_1PointAndDistance.html#a0c9922eac279b39cc5b2d7e065ea590a":[9,3,0,0,0,1535,0],
-"classMR_1_1PointAndDistance.html#a3f7d721bd4ff485d263894eeca7d96c1":[9,3,0,0,0,1535,6]
+"classMR_1_1PointAndDistance.html":[9,3,0,0,0,1535]
 };

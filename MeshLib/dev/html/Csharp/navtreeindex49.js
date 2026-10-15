@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1Const__FlowAggregator_1_1Flows.html#a77b5f890534976a5d81af2c254e242e4":[9,3,0,0,0,477,1,1],
+"classMR_1_1Const__FlowAggregator_1_1Flows.html#a8ca4618e5fa75042c9f6f2c213d42ed6":[9,3,0,0,0,477,1,5],
 "classMR_1_1Const__FlowAggregator_1_1Flows.html#a98da9c973dcca6b756cbcbc03a58810f":[9,3,0,0,0,477,1,2],
 "classMR_1_1Const__FlowAggregator_1_1Flows.html#acdad7cd95f9b4b0c7d4c815d65e37c4a":[9,3,0,0,0,477,1,7],
 "classMR_1_1Const__FlowOrigin.html":[9,3,0,0,0,478],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Const__Graph.html#ad81924dec6c7c3525794921c35d5d41f":[9,3,0,0,0,487,16],
 "classMR_1_1Const__Graph.html#adc75fa498d3893935d7eac9f29532d4b":[9,3,0,0,0,487,3],
 "classMR_1_1Const__Graph.html#af1f127cd2257994c9326d6792696dcb0":[9,3,0,0,0,487,15],
-"classMR_1_1Const__Graph.html#aff0be28e4f7995a31545050f9b429812":[9,3,0,0,0,487,6],
-"classMR_1_1Const__GraphEdgeBitSet.html":[9,3,0,0,0,488],
-"classMR_1_1Const__GraphEdgeBitSet.html#a12acc43e0df13cd90e0348d4cc74898d":[9,3,0,0,0,488,11]
+"classMR_1_1Const__Graph.html#aff0be28e4f7995a31545050f9b429812":[9,3,0,0,0,487,6]
 };
