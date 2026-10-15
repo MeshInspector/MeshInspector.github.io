@@ -1161,7 +1161,6 @@
     <member refid="classmrmeshpy_1_1MeshSave_1_1BinaryStlSaver_1a1125f772a5883f780e7c9d2f7d190d2e" kind="function"><name>writeTri</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1BitSet" kind="class"><name>mrmeshpy::BitSet</name>
-    <member refid="classmrmeshpy_1_1BitSet_1a59b26e0abde0aeed833933ad5058adfe" kind="variable"><name>bits_per_block</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1aa0a7d1ede8a4702ab5421d151412dfc9" kind="variable"><name>npos</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3" kind="function"><name>__init__</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274" kind="function"><name>beginId</name></member>
@@ -1195,6 +1194,7 @@
     <member refid="classmrmeshpy_1_1BitSet_1a2335e90bc299cbaa4f87a7e2157f869a" kind="function"><name>capacity</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a640d1f443a7ea30d50a532de2cdf90b4" kind="function"><name>clear</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a4b8a47eb3cd9dc19a7448b1a3b1765e2" kind="function"><name>count</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1a46517483fca5921e9b4b1b1abc7e5cac" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1aab954a31474723788e2aeee311325c15" kind="function"><name>empty</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5" kind="function"><name>endId</name></member>
     <member refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006" kind="function"><name>find_first</name></member>
@@ -3933,6 +3933,16 @@
     <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1CornerType_1ad8e7c06176d48b81117d90f209324a34" kind="function"><name>__str__</name></member>
     <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1CornerType_1a3625a1eed76f4dfe90b25a5bf1bc5ffa" kind="function"><name>name</name></member>
     <member refid="classmrmeshpy_1_1OffsetContoursParams_1_1CornerType_1a071312ac8413be02a8aeea280203c4d7" kind="function"><name>value</name></member>
+  </compound>
+  <compound refid="classmrmeshpy_1_1BitSet_1_1Counts" kind="class"><name>mrmeshpy::BitSet::Counts</name>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1a22495a28807a510e6e4c4e85d3423cd5" kind="variable"><name>_offsetof_bits</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1a609c5f17c3a14326d9db2b524908062d" kind="variable"><name>_offsetof_blocks</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1a6594896be01a7fc82009bd3faa0e74bd" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1af6afa5316d8315cce109b4b8f079156e" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1af6afa5316d8315cce109b4b8f079156e" kind="function"><name>operator</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1a0457ad5e17633f582ec2d493b61eae6d" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1a272b34076d12ae2688af16d34080e412" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1BitSet_1_1Counts_1ad0c7b04404833fd6d7879490e17a4889" kind="function"><name>__init__</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kind="class"><name>mrmeshpy::MeshSave::CtmSaveOptions</name>
     <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a20f9077d22db80d71fcdcca58842b028" kind="variable"><name>_offsetof_compressionLevel</name></member>

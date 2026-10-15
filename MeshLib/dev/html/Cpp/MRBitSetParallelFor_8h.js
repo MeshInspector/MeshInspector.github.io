@@ -10,6 +10,7 @@ var MRBitSetParallelFor_8h =
     [ "MR::BitSetParallelForAll", "group__BasicGroup.html#ga473b8a238072b360e13c47d4c255d66f", null ],
     [ "MR::BitSetParallelForAllRanged", "group__BasicGroup.html#ga33e26ce0b4711944b757408b0ab339a5", null ],
     [ "MR::BitSetParallelForAllRanged", "group__BasicGroup.html#ga82bab0dac0d1604747ecff512e8a091a", null ],
+    [ "MR::BitSetWalk", "group__BasicGroup.html#gae44ca60e47ff70a1a8dd261447c8175c", null ],
     [ "MR::BitSetParallel::bitSubRange", "namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e", null ],
     [ "MR::BitSetParallel::blockRange", "namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307", null ],
     [ "MR::BitSetParallel::blockRange", "namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1", null ],

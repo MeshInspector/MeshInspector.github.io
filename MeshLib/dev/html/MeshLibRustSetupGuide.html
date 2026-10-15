@@ -143,11 +143,6 @@ $(function(){initNavTree('MeshLibRustSetupGuide.html','',''); });
       </li>
       <li class="level2">
         <a href="#autotoc_md172">Installation </a>
-        <ul>
-          <li class="level3">
-            <a href="#RustSetupOwnLibraries">Using your own MeshLib installation </a>
-          </li>
-        </ul>
       </li>
       <li class="level2">
         <a href="#autotoc_md173">Using the API </a>
@@ -162,48 +157,43 @@ $(function(){initNavTree('MeshLibRustSetupGuide.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2RustSetupGuide"></a></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md171"></a>
 Setting Up MeshLib for Rust Development</h1>
-<dl class="section note"><dt>Note</dt><dd>The Rust bindings are new. The crate is generated from the C API and is published on <a href="https://crates.io/crates/meshlib">crates.io</a> and as archives on the releases page.</dd></dl>
-<p>The crate is named <span class="tt">meshlib</span>. It wraps the C API library <span class="tt">MeshLibC2</span> (see the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>) in safe Rust: C++ classes become types held in <span class="tt">Owned&lt;T&gt;</span>, which destroys the object when dropped, references and pointers become <span class="tt">&amp;T</span> / <span class="tt">&amp;mut T</span> / <span class="tt">Option&lt;&amp;T&gt;</span>, <span class="tt">std::string</span> parameters take <span class="tt">&amp;str</span>, and C++ exceptions become panics. The <span class="tt">MR</span> namespace is the crate root, so <span class="tt">MR::Mesh</span> is <span class="tt">meshlib::Mesh</span>, and the nested namespaces become modules: <span class="tt">MR::MeshSave</span> is <span class="tt">meshlib::mesh_save</span>.</p>
+<dl class="section note"><dt>Note</dt><dd>The Rust bindings are new. The crate is generated from the C API and is published as a source archive on the releases page, not on crates.io yet.</dd></dl>
+<p>The crate is named <span class="tt">meshlib</span>. It wraps the C API library <span class="tt">MeshLibC2</span> (see the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>) in safe Rust: C++ classes become types held in <span class="tt">Owned&lt;T&gt;</span>, which destroys the object when dropped, references and pointers become <span class="tt">&amp;T</span> / <span class="tt">&amp;mut T</span> / <span class="tt">Option&lt;&amp;T&gt;</span>, <span class="tt">std::string</span> parameters take <span class="tt">&amp;str</span>, and C++ exceptions become panics. The C++ namespaces become modules, so everything from <span class="tt">MR::</span> is under <span class="tt">meshlib::mr</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="RustSetupPrerequisites"></a>
 Prerequisites</h2>
 <ul>
-<li><a href="https://rustup.rs/">Rust</a> 1.88 or newer, with <span class="tt">cargo</span>.</li>
-<li>Windows, Linux (glibc 2.28 or newer) or macOS, on x86_64 or aarch64.</li>
+<li><a href="https://rustup.rs/">Rust</a> 1.82 or newer, with <span class="tt">cargo</span>.</li>
+<li>The MeshLib binaries for your platform, installed as described in the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>: the Windows archive, the Linux <span class="tt">.deb</span> or vcpkg archive, or the macOS <span class="tt">.pkg</span>. The crate links against <span class="tt">MeshLibC2</span> (and <span class="tt">MeshLibC2Cuda</span>) from that installation.</li>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md172"></a>
 Installation</h2>
 <ol type="1">
-<li><b>Get the crate</b> <br  />
- The simplest way is crates.io: <span class="tt">cargo add meshlib@3.1.4-540</span> (use the latest version from the <a href="https://crates.io/crates/meshlib">crate page</a>). It adds the crate without libraries described below to your <span class="tt">Cargo.toml</span>, so step 2 is done too. Or open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download one of:<ul>
-<li><span class="tt">meshlib_&lt;version&gt;_rust_bindings.zip</span> (4 MB): <span class="tt">Cargo.toml</span>, <span class="tt">build.rs</span> and the generated <span class="tt">src</span>. On the first build, <span class="tt">build.rs</span> downloads the MeshLib shared libraries of the target platform (20-35 MB) from the same release, checks their SHA256 and keeps them in the user's cache directory (<span class="tt">LOCALAPPDATA%\meshlib</span>, <span class="tt">~/Library/Caches/meshlib</span>, <span class="tt">~/.cache/meshlib</span>; set <span class="tt">MESHLIB_CACHE_DIR</span> to change it). Offline, set <span class="tt">MESHLIB_NATIVE_URL</span> to a directory with the downloaded <span class="tt">meshlib_&lt;version&gt;_rust_native_&lt;os&gt;-&lt;arch&gt;.zip</span>.</li>
-<li><span class="tt">meshlib_&lt;version&gt;_rust.zip</span> (160 MB): the same plus, in <span class="tt">native</span>, the libraries of all supported platforms, so nothing is downloaded.</li>
-</ul>
-</li>
-</ol>
-<p>Extract it next to your project, e.g. into <span class="tt">../MeshLibRust</span>. The libraries are the same ones as in the NuGet package. The crate version is the MeshLib version with the build number as a pre-release identifier, as in the npm package: <span class="tt">3.1.4-528</span> for v3.1.4.528. Cargo picks pre-release versions only when they are asked for explicitly, so name the build in the dependency: <span class="tt">meshlib = "3.1.4-528"</span> also accepts the later builds of 3.1.4, but <span class="tt">meshlib = "3.1"</span> matches none of them.</p>
-<ol type="1">
+<li><b>Download the crate</b> <br  />
+ Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download <span class="tt">meshlib_&lt;version&gt;_rust_bindings.zip</span> of the same version as your MeshLib binaries. Extract it next to your project, e.g. into <span class="tt">../MeshLibRust</span>. The archive holds <span class="tt">Cargo.toml</span>, <span class="tt">build.rs</span> and the generated <span class="tt">src</span>. The crate version is the MeshLib version with the fourth number as build metadata (<span class="tt">3.1.4+528</span> for v3.1.4.528).</li>
 <li><b>Add the dependency</b> <br  />
  In your <span class="tt">Cargo.toml</span>: <div class="fragment"><div class="line">[dependencies]</div>
 <div class="line">meshlib = { path = &quot;../MeshLibRust&quot; }</div>
 </div><!-- fragment --></li>
-</ol>
-<p>That is all: <span class="tt">cargo build</span>, <span class="tt">cargo run</span> and <span class="tt">cargo test</span> find the libraries of the target platform by themselves. The crate's <span class="tt">build.rs</span> also puts them next to your executables in <span class="tt">target/&lt;profile&gt;</span>, which is enough to run them without <span class="tt">cargo</span> on Windows. On Linux, let the executable find them there by adding to your own <span class="tt">build.rs</span>: </p><div class="fragment"><div class="line">println!(&quot;cargo:rustc-link-arg-bins=-Wl,-rpath,$ORIGIN&quot;);</div>
-</div><!-- fragment --><p> On macOS, set <span class="tt">DYLD_FALLBACK_LIBRARY_PATH</span> to that directory. When you ship your program, ship the libraries with it.</p>
-<h3 class="doxsection"><a class="anchor" id="RustSetupOwnLibraries"></a>
-Using your own MeshLib installation</h3>
-<p>Instead of the bundled or downloaded libraries, the crate can use the MeshLib binaries you already have, installed as described in the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>: the Windows archive, the Linux <span class="tt">.deb</span> or vcpkg archive, or the macOS <span class="tt">.pkg</span> of the same version. Point the linker to them with the <span class="tt">MESHLIB_LIB_DIR</span> environment variable, then nothing is downloaded:</p><ul>
+<li><b>Point the linker to the MeshLib libraries</b> <br  />
+ The crate's <span class="tt">build.rs</span> reads the <span class="tt">MESHLIB_LIB_DIR</span> environment variable and adds that directory to the linker search path. Set it to the directory with the MeshLib shared libraries when building:<ul>
 <li>Windows: <span class="tt">C:\meshlib-built\install\app\Release</span> (the <span class="tt">.dll</span> files; no import library is needed, the crate links with <span class="tt">raw-dylib</span>)</li>
 <li>Linux: <span class="tt">/usr/local/lib/MeshLib/lib</span> for the <span class="tt">.deb</span>, or <span class="tt">path_to_install/lib</span> for the vcpkg archive</li>
 <li>macOS: <span class="tt">/Library/Frameworks/MeshLib.framework/Versions/Current/lib</span> <div class="fragment"><div class="line">MESHLIB_LIB_DIR=/usr/local/lib/MeshLib/lib cargo build</div>
-</div><!-- fragment --> The same directory must be visible to the dynamic loader when your program runs: add it to <span class="tt">PATH</span> on Windows, <span class="tt">LD_LIBRARY_PATH</span> on Linux, <span class="tt">DYLD_LIBRARY_PATH</span> on macOS.</li>
+</div><!-- fragment --></li>
 </ul>
+</li>
+<li><b>Make the libraries loadable at runtime</b> <br  />
+ The same directory must be visible to the dynamic loader when your program runs: add it to <span class="tt">PATH</span> on Windows, <span class="tt">LD_LIBRARY_PATH</span> on Linux, <span class="tt">DYLD_LIBRARY_PATH</span> on macOS.</li>
+</ol>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md173"></a>
 Using the API</h2>
-<div class="fragment"><div class="line">fn main()</div>
+<div class="fragment"><div class="line">use meshlib::mr;</div>
+<div class="line"> </div>
+<div class="line">fn main()</div>
 <div class="line">{</div>
-<div class="line">    let mesh = meshlib::make_uv_sphere(Some(1.0), Some(64), Some(64)); // Owned&lt;Mesh&gt;, freed on drop.</div>
+<div class="line">    let mesh = mr::make_uv_sphere(Some(1.0), Some(64), Some(64)); // Owned&lt;Mesh&gt;, freed on drop.</div>
 <div class="line">    println!(&quot;{} faces&quot;, mesh.topology().get_valid_faces().count());</div>
-<div class="line">    let saved = meshlib::mesh_save::to_any_supported_format_3(&amp;mesh, &quot;sphere.stl&quot;, None); // Returns the C++ `expected&lt;void, std::string&gt;`.</div>
+<div class="line">    let saved = mr::mesh_save::to_any_supported_format_3(&amp;mesh, &quot;sphere.stl&quot;, None); // Returns the C++ `expected&lt;void, std::string&gt;`.</div>
 <div class="line">    if let Some(error) = saved.error()</div>
 <div class="line">    {</div>
 <div class="line">        panic!(&quot;Failed to save: {error}&quot;);</div>
@@ -213,8 +203,8 @@ Using the API</h2>
 <ul>
 <li>Parameters with default arguments take <span class="tt">Option</span>, pass <span class="tt">None</span> for the default.</li>
 <li>Overloaded C++ functions keep the disambiguated names of the C API, e.g. <span class="tt">boolean_6</span>; hover the function in your editor, its doc comment names the C function and the C++ original.</li>
-<li>Callbacks (<span class="tt">std::function</span> parameters) are built from closures: <span class="tt">meshlib::std_function_bool_from_float::from_fn(|progress| true)</span>.</li>
-<li>Downcasts and upcasts between a class and its bases are explicit: <span class="tt">object_mesh.upcast_to_object()</span>, <span class="tt">meshlib::ObjectMesh::dynamic_downcast_from_object(&amp;object)</span>.</li>
+<li>Callbacks (<span class="tt">std::function</span> parameters) are built from closures: <span class="tt">mr::std_function_bool_from_float::from_fn(|progress| true)</span>.</li>
+<li>Downcasts and upcasts between a class and its bases are explicit: <span class="tt">object_mesh.upcast_to_object()</span>, <span class="tt">mr::ObjectMesh::dynamic_downcast_from_object(&amp;object)</span>.</li>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md174"></a>
 Try MeshLib with Rust Examples</h2>

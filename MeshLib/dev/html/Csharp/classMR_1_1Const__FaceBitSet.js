@@ -14,6 +14,7 @@ var classMR_1_1Const__FaceBitSet =
     [ "bits", "classMR_1_1Const__FaceBitSet.html#a91a16e633ee633ecedc916b7f7a5668c", null ],
     [ "capacity", "classMR_1_1Const__FaceBitSet.html#a043f396590120a21255ca930c282ffd8", null ],
     [ "count", "classMR_1_1Const__FaceBitSet.html#a505d3b6924898e48b7849a187de250b8", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__FaceBitSet.html#ae899e31b949147f5ae83cda83184ed6b", null ],
     [ "Dispose", "classMR_1_1Const__FaceBitSet.html#afb7cb74bfd47e0bd918ed6dc217e26b1", null ],
     [ "Dispose", "classMR_1_1Const__FaceBitSet.html#a56013e6fa7273b98b99adbb14ee113bb", null ],
     [ "empty", "classMR_1_1Const__FaceBitSet.html#adf383ff8d010c1a40f22a2683098193e", null ],

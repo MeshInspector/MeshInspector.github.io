@@ -131,6 +131,7 @@ $(function(){initNavTree('classMR_1_1BitSet.html','','classMR_1_1BitSet-members'
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
@@ -154,6 +155,11 @@ $(function(){initNavTree('classMR_1_1BitSet.html','','classMR_1_1BitSet-members'
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Counts" id="r_Counts"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1BitSet_1_1Counts.html">Counts</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the numbers of set bits and of non-empty blocks  <a href="structMR_1_1BitSet_1_1Counts.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ace77355bd95e75d56e1bfab444eefb3e" id="r_ace77355bd95e75d56e1bfab444eefb3e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace77355bd95e75d56e1bfab444eefb3e">block_type</a> = std::uint64_t</td></tr>
@@ -214,6 +220,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae93bbbefc2bee256a329ec3ac480f963"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all bits in this container are reset  <br /></td></tr>
 <tr class="memitem:afc187206a3427ae8c94638dd893f922a" id="r_afc187206a3427ae8c94638dd893f922a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc187206a3427ae8c94638dd893f922a">count</a> () const noexcept</td></tr>
 <tr class="memdesc:afc187206a3427ae8c94638dd893f922a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of set bits in the whole set  <br /></td></tr>
+<tr class="memitem:a59ea8e43bbe9292d964b5674ce3c891c" id="r_a59ea8e43bbe9292d964b5674ce3c891c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1BitSet_1_1Counts.html">Counts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59ea8e43bbe9292d964b5674ce3c891c">countBitsAndBlocks</a> (<a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a> maxBits=~<a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>{}) const noexcept</td></tr>
 <tr class="memitem:ac8e1e2ea2d5a77114c44b2d32f3e9e8b" id="r_ac8e1e2ea2d5a77114c44b2d32f3e9e8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8e1e2ea2d5a77114c44b2d32f3e9e8b">find_first</a> () const</td></tr>
 <tr class="memdesc:ac8e1e2ea2d5a77114c44b2d32f3e9e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return the smallest index i such that bit i is set, or npos if *this has no on bits.  <br /></td></tr>
 <tr class="memitem:ab3c6d3157f3b02affcf7def04eb60c31" id="r_ab3c6d3157f3b02affcf7def04eb60c31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3c6d3157f3b02affcf7def04eb60c31">find_next</a> (<a class="el" href="#a0427884dece1dde1fa25caaa7b2aaba9">IndexType</a> n) const</td></tr>
@@ -700,6 +707,32 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>computes the number of set bits in the whole set </p>
+
+</div>
+</div>
+<a id="a59ea8e43bbe9292d964b5674ce3c891c" name="a59ea8e43bbe9292d964b5674ce3c891c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ea8e43bbe9292d964b5674ce3c891c">&#9670;&#160;</a></span>countBitsAndBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1BitSet_1_1Counts.html">Counts</a> MR::BitSet::countBitsAndBlocks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a></td>          <td class="paramname"><span class="paramname"><em>maxBits</em></span><span class="paramdefsep"> = </span><span class="paramdefval">~<a class="el" href="#a029565ede6f02c029a79d6821794eca3">size_type</a>{}</span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits; both numbers are then partial, which makes a size test of a large set cheap </p>
 
 </div>
 </div>

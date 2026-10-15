@@ -14,6 +14,7 @@ var classMR_1_1Const__ObjBitSet =
     [ "bits", "classMR_1_1Const__ObjBitSet.html#a79a27aff8b6b8a1fc1ffaf647ae7bc58", null ],
     [ "capacity", "classMR_1_1Const__ObjBitSet.html#a905ad81b3756b0701e82f200e4c35b3e", null ],
     [ "count", "classMR_1_1Const__ObjBitSet.html#a110c22c173941220de359816b1de0917", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__ObjBitSet.html#acd8f31c206ba1e2418d467d9960d0983", null ],
     [ "Dispose", "classMR_1_1Const__ObjBitSet.html#a6b0002096e70ae83ca1cf3e21a63be81", null ],
     [ "Dispose", "classMR_1_1Const__ObjBitSet.html#ac1f723c914351ec3c68a2d93c1f79e0c", null ],
     [ "empty", "classMR_1_1Const__ObjBitSet.html#aacf62e7e599b7851d7b26a10972b78b1", null ],

@@ -14,6 +14,7 @@ var classMR_1_1Const__GraphVertBitSet =
     [ "bits", "classMR_1_1Const__GraphVertBitSet.html#a9a316950f71fd7d515c0b2ec7f6fdef6", null ],
     [ "capacity", "classMR_1_1Const__GraphVertBitSet.html#a4feccf7fd45a6cd421465b5727ea8220", null ],
     [ "count", "classMR_1_1Const__GraphVertBitSet.html#a3d041f8b9eb05bbe158eaec7839ccfd8", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__GraphVertBitSet.html#ae48ea3d19d4db8f0f4c0def38215a6c5", null ],
     [ "Dispose", "classMR_1_1Const__GraphVertBitSet.html#a2ee02fb91b9d15a5644948ef1574dbf4", null ],
     [ "Dispose", "classMR_1_1Const__GraphVertBitSet.html#a5e0d89d8ef37b844db8c1a5a68ec698c", null ],
     [ "empty", "classMR_1_1Const__GraphVertBitSet.html#aee86eddfbbadf6f62c1d28abdb0f9e6c", null ],

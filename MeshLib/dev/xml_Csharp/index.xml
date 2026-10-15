@@ -8303,6 +8303,7 @@
     <member refid="classMR_1_1Const__BitSet_1ab8c0a0cd8cfd9fbc9df267181939d075" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__BitSet_1adf89309ae33908a1f8952b8091b58fa0" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__BitSet_1acf70e770c48fc532a2701a1dceb4b371" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__BitSet_1afb10f9dc1a309b56242cc9331f45d566" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__BitSet_1ad779b3230440ed0070782c9be495b3d7" kind="function"><name>findFirst</name></member>
     <member refid="classMR_1_1Const__BitSet_1a186f0f3cb1c52907bac51c9f0ed76abd" kind="function"><name>findNext</name></member>
     <member refid="classMR_1_1Const__BitSet_1abde5287d1c418faa6fbf6fafed3e140b" kind="function"><name>findLast</name></member>
@@ -8333,6 +8334,7 @@
     <member refid="classMR_1_1Const__BitSet_1a43081937749e97ad39727ee5df23a92b" kind="function"><name>__MR_BitSet_bits</name></member>
     <member refid="classMR_1_1Const__BitSet_1a5ab94ed0d1966eaa933edf8f0b7f2f96" kind="function"><name>__MR_BitSet_capacity</name></member>
     <member refid="classMR_1_1Const__BitSet_1a3d51058c11be08bc5a480f708029c9dd" kind="function"><name>__MR_BitSet_count</name></member>
+    <member refid="classMR_1_1Const__BitSet_1aa197f4c293c750452a88529e0e792b45" kind="function"><name>__MR_BitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__BitSet_1ae04a85689fceda30b7ea49891e55c11d" kind="function"><name>__MR_BitSet_empty</name></member>
     <member refid="classMR_1_1Const__BitSet_1a2a5ffb0e07b36ef23a5f08a321768632" kind="function"><name>__MR_BitSet_endId</name></member>
     <member refid="classMR_1_1Const__BitSet_1a5c9c95f68577dc7a4bbab2d7994bbd9f" kind="function"><name>__MR_BitSet_find_first</name></member>
@@ -11998,6 +12000,26 @@
     <member refid="classMR_1_1Const__CoordinateConverters2_1aa176e9d40bde12c4f52280895e0f9842" kind="function"><name>__MR_CoordinateConverters2_Get_toFloat</name></member>
     <member refid="classMR_1_1Const__CoordinateConverters2_1a3a91b51b511ab552bbdba6521a76147b" kind="function"><name>__MR_CoordinateConverters2_Get_toInt</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__BitSet_1_1Const__Counts" kind="class"><name>MR::Const_BitSet::Const_Counts</name>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1aa4feee4c584f9301cec50632536df69e" kind="property"><name>bits</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1ac95765bee391f865ab0bdf35c3f0ad06" kind="property"><name>blocks</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1ac962375ea14596f7d629631acaf0a671" kind="variable"><name>__ref_storage_bits</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1a2ef944f98632673e87688e435f856213" kind="variable"><name>__ref_storage_blocks</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1ada719dd239c314445934618d1aa1b781" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1aa19ea145fed79a23c587557d1c0203f6" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1afa8e480e85acb79fe12b4f170124bc5b" kind="function"><name>Const_Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1a332f8e44f202c434f98356a11c891390" kind="function"><name>Const_Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1aedd6cd925aae4bda5dcd4759c275ed2a" kind="function"><name>Const_Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1ae0957e6b410843428bba711c16aa4373" kind="function"><name>Const_Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1a71b17a9e14f0e655f5a97d384d0853ab" kind="function"><name>~Const_Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1abec20ba983a7885178be7704f2e1615b" kind="function"><name>Const_Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1a03b8df52a13b9509040b937eaaaf896f" kind="function"><name>__MR_BitSet_Counts_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1a0b1e649ab2866b6f8e8041a1ed600d9f" kind="function"><name>__MR_BitSet_Counts_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1ac81f3f95b5495e8a29f077aa31e2254c" kind="function"><name>__MR_BitSet_Counts_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1ad003ba6d78c4e306d9c2fe6214020eeb" kind="function"><name>__MR_BitSet_Counts_Destroy</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1acea1d5e99b7dd9cfffcfa93245500ae2" kind="function"><name>__MR_BitSet_Counts_Get_bits</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Const__Counts_1a2033d8897049300d55aca9e7ea82b026" kind="function"><name>__MR_BitSet_Counts_Get_blocks</name></member>
+  </compound>
   <compound refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions" kind="class"><name>MR::MeshSave::Const_CtmSaveOptions</name>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ab5d519dc6cd42e9205825232de3b0089" kind="enum"><name>MeshCompression</name></member>
     <member refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions_1ab5d519dc6cd42e9205825232de3b0089a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
@@ -14071,6 +14093,7 @@
     <member refid="classMR_1_1Const__EdgeBitSet_1a438024af598fe6924316013fbbddcad9" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a280fc105a989e1176e214ca467fba27b" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a8624549464d5be1979c47bf2f0b6cb84" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__EdgeBitSet_1a0aded52ad3b96ea779f22b576abcdce6" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a2eeb920652260f5327851a9c2444f09f" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1af58a0bfe40b3e946f728c254d73431d8" kind="function"><name>~Const_EdgeBitSet</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a141431492903e6071969e514c644fac4" kind="function"><name>GetEnumerator</name></member>
@@ -14098,6 +14121,7 @@
     <member refid="classMR_1_1Const__EdgeBitSet_1a0708511846d0d6533bd6152e49332dd5" kind="function"><name>__MR_EdgeBitSet_bits</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a3d47bdbdcb8656179f9b9830e2414c98" kind="function"><name>__MR_EdgeBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1ac3b8c814acc56315e61f56809ed26179" kind="function"><name>__MR_EdgeBitSet_count</name></member>
+    <member refid="classMR_1_1Const__EdgeBitSet_1a53c1177e988c8212ab30fce80fca5682" kind="function"><name>__MR_EdgeBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a6837416f7f9080bb8fbbc6f1db4c9ffd" kind="function"><name>__MR_EdgeBitSet_empty</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1a67da4eda0ad2fbbf603939ffc4a851aa" kind="function"><name>__MR_EdgeBitSet_endId</name></member>
     <member refid="classMR_1_1Const__EdgeBitSet_1ad8769d82456099191fb04b88ade2d6cb" kind="function"><name>__MR_EdgeBitSet_find_first</name></member>
@@ -15043,6 +15067,7 @@
     <member refid="classMR_1_1Const__FaceBitSet_1a1f60a55267a3ea429f204cbebbc35768" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1af7daeb58bc5cc8d876e91d509d99cb62" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a505d3b6924898e48b7849a187de250b8" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__FaceBitSet_1ae899e31b949147f5ae83cda83184ed6b" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a8c88ccd7336bddbc6b673c8fdf7dfa0c" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a796d713c96d31358051dd1c7cd526b02" kind="function"><name>Equals</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a53b8c73332a56ddfe739fa0418bca23f" kind="function"><name>Equals</name></member>
@@ -15074,6 +15099,7 @@
     <member refid="classMR_1_1Const__FaceBitSet_1a946437cd58154e4b694f56552c1c96a6" kind="function"><name>__MR_FaceBitSet_bits</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1aeea471d1d64e1b83cf9e47b4b0d57da6" kind="function"><name>__MR_FaceBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a171e82e37f265a6e27b89617ee5de8c3" kind="function"><name>__MR_FaceBitSet_count</name></member>
+    <member refid="classMR_1_1Const__FaceBitSet_1a9d9308100dd8b38247e41bd5d5d21d3f" kind="function"><name>__MR_FaceBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a5e76d2dbb3b1e01b68fe2eadffbe3ca5" kind="function"><name>__MR_FaceBitSet_empty</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a2827c958e388eda9011a69624e7758cb" kind="function"><name>__MR_FaceBitSet_endId</name></member>
     <member refid="classMR_1_1Const__FaceBitSet_1a7ded0d610a60daf787a10945507a9741" kind="function"><name>__MR_FaceBitSet_find_first</name></member>
@@ -16686,6 +16712,7 @@
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab444bef9a3c836c634491c0d58df8ef9" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab1b5c7c2defe5ac5346686d8350b0153" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1a301cf5f881abe0e39349a7e0af348f1f" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad3359805f68692e508752e8ae776010e" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1abf3e5975d2fe8189e3e5634ae31fc954" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1aaa329de8b6e64569bc07f705ff4a59be" kind="function"><name>~Const_GraphEdgeBitSet</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1af0b1bc3a4ba49e2e5273ec316746066c" kind="function"><name>GetEnumerator</name></member>
@@ -16713,6 +16740,7 @@
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad8db8338785a2b0771bccb2346ed8713" kind="function"><name>__MR_GraphEdgeBitSet_bits</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1a4200f00c481c9804ef7b8b17509b5532" kind="function"><name>__MR_GraphEdgeBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1aea2926ec50d58b1268956b7c9e8ff105" kind="function"><name>__MR_GraphEdgeBitSet_count</name></member>
+    <member refid="classMR_1_1Const__GraphEdgeBitSet_1a7d296d2a901969ab9836548779c04bf4" kind="function"><name>__MR_GraphEdgeBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1a51a32c715adce0e37d7c6ba8f574226b" kind="function"><name>__MR_GraphEdgeBitSet_empty</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1af4cdb81ee47c063c4ccfa2308ae2988e" kind="function"><name>__MR_GraphEdgeBitSet_endId</name></member>
     <member refid="classMR_1_1Const__GraphEdgeBitSet_1a422d30809a9dfa1659486a6a50bc8e63" kind="function"><name>__MR_GraphEdgeBitSet_find_first</name></member>
@@ -16784,6 +16812,7 @@
     <member refid="classMR_1_1Const__GraphVertBitSet_1a524ab7ab63bd9a49559441d62345bd51" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1ae308fbbc60412ab2e8f3f07384f47263" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1a3d041f8b9eb05bbe158eaec7839ccfd8" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__GraphVertBitSet_1ae48ea3d19d4db8f0f4c0def38215a6c5" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1a2b7ffe026dbf92061fbb6d0f077e6cc2" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1a97ce3c01519a0ac84da0c71fd810ebc5" kind="function"><name>~Const_GraphVertBitSet</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1a1df4ef56247ce1647319f5cadddb5a57" kind="function"><name>GetEnumerator</name></member>
@@ -16811,6 +16840,7 @@
     <member refid="classMR_1_1Const__GraphVertBitSet_1a341e03eca2056e46bdb967094f42b736" kind="function"><name>__MR_GraphVertBitSet_bits</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1ae36c7b1cafba2f8b0ad71e37f060253f" kind="function"><name>__MR_GraphVertBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1a919ee8098cd7b4b9666fd15c09ca5c3a" kind="function"><name>__MR_GraphVertBitSet_count</name></member>
+    <member refid="classMR_1_1Const__GraphVertBitSet_1a26dd032aae99a5a6cb2a66908e7eee53" kind="function"><name>__MR_GraphVertBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1ad61c5dc24483c9aa33c2d9dbe84c054f" kind="function"><name>__MR_GraphVertBitSet_empty</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1ac8ce4917caac2c733fa376648779b160" kind="function"><name>__MR_GraphVertBitSet_endId</name></member>
     <member refid="classMR_1_1Const__GraphVertBitSet_1afef6c48a246093f80425c74047f9808d" kind="function"><name>__MR_GraphVertBitSet_find_first</name></member>
@@ -22303,6 +22333,7 @@
     <member refid="classMR_1_1Const__NodeBitSet_1ab1ee5b0c11ce0bb0ac46eab1e9033eac" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a1a728523e9b05f825cef35caa7a85be2" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a20bde5d14d64522149c024e3f2524430" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__NodeBitSet_1a5d3c04070904fd071ba88437d9ef7e8c" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a96d6ed6ada649f3b265721fe64bc8842" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a44e8aeee666e725c83598ac13373ce74" kind="function"><name>~Const_NodeBitSet</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a6ac250bab621c24e46221bf81e43d414" kind="function"><name>GetEnumerator</name></member>
@@ -22330,6 +22361,7 @@
     <member refid="classMR_1_1Const__NodeBitSet_1a564543e9daffb270eaf4d8564c07e0fb" kind="function"><name>__MR_NodeBitSet_bits</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1aa5d98458b496a2e1b853456d86c2884c" kind="function"><name>__MR_NodeBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a2b41ca77865c34016f32cbe92ca8195f" kind="function"><name>__MR_NodeBitSet_count</name></member>
+    <member refid="classMR_1_1Const__NodeBitSet_1ab0b4de6fd77e9cb033dc13a893dfdfc7" kind="function"><name>__MR_NodeBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1ad91fd3b9f8bf6ef48cf72853bd83d6ef" kind="function"><name>__MR_NodeBitSet_empty</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a9791758b6d45c943ca12dda2c0ed51a5" kind="function"><name>__MR_NodeBitSet_endId</name></member>
     <member refid="classMR_1_1Const__NodeBitSet_1a3dff20944fa071c5d8e6bdbf7b2b7678" kind="function"><name>__MR_NodeBitSet_find_first</name></member>
@@ -22924,6 +22956,7 @@
     <member refid="classMR_1_1Const__ObjBitSet_1aca6c15361d0640081fc8cc54afc72e5a" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a95eda67f3348935085feb666cf2229ef" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a110c22c173941220de359816b1de0917" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__ObjBitSet_1acd8f31c206ba1e2418d467d9960d0983" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a3ce5fee738be5a3f4753e2a521520054" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a3cab26cd15dbd389dac5208b29ada07e" kind="function"><name>~Const_ObjBitSet</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a12fbfa5f196ac0471e201732901dc075" kind="function"><name>GetEnumerator</name></member>
@@ -22951,6 +22984,7 @@
     <member refid="classMR_1_1Const__ObjBitSet_1a573a9fa7bf224d5ad36320c9a1c0a4f2" kind="function"><name>__MR_ObjBitSet_bits</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a1383f6d0b1a5e2641de6aa8ee0078b09" kind="function"><name>__MR_ObjBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a7b0ffb26ed4d9c8092ecc18937eac68b" kind="function"><name>__MR_ObjBitSet_count</name></member>
+    <member refid="classMR_1_1Const__ObjBitSet_1a68011df2b0ab306718adb995109c3d1c" kind="function"><name>__MR_ObjBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a5b5f04ae9eec4488d644fc63a55e9a27" kind="function"><name>__MR_ObjBitSet_empty</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1ac9768898fa1aeb939d43adb3e091a004" kind="function"><name>__MR_ObjBitSet_endId</name></member>
     <member refid="classMR_1_1Const__ObjBitSet_1a1f1eaee42591c19aa8647e167b276500" kind="function"><name>__MR_ObjBitSet_find_first</name></member>
@@ -26296,6 +26330,7 @@
     <member refid="classMR_1_1Const__PixelBitSet_1a88d1d780165b80100ef48fe2a53c029e" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a3e4f2732760be2818a2401681d01cf37" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1ac03136e34e5e5b9d8d789c42ab7d19cc" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__PixelBitSet_1af366498886c52f3d67cac0e961da929e" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a3f653684afe0e7442612aa7ddf1b1d51" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a9b74c5c66816814df07771739ef6083d" kind="function"><name>~Const_PixelBitSet</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a861920b5031cfc789c12272610543df1" kind="function"><name>GetEnumerator</name></member>
@@ -26323,6 +26358,7 @@
     <member refid="classMR_1_1Const__PixelBitSet_1ab7f3da483bff88532e4e3c9cea361ce8" kind="function"><name>__MR_PixelBitSet_bits</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1acea56862687a30c57c44f2fa49c328b0" kind="function"><name>__MR_PixelBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1ac089bc0ef7e6fa0a257659627836f78c" kind="function"><name>__MR_PixelBitSet_count</name></member>
+    <member refid="classMR_1_1Const__PixelBitSet_1a8811bbde2d41cdc35bcc0ab67df766c4" kind="function"><name>__MR_PixelBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a68c87e47edf3dd3f20361f6197fd1278" kind="function"><name>__MR_PixelBitSet_empty</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a4b0fba95988157cac4873cc69b5783be" kind="function"><name>__MR_PixelBitSet_endId</name></member>
     <member refid="classMR_1_1Const__PixelBitSet_1a9a948b58f05104fe7aae5e8c77516403" kind="function"><name>__MR_PixelBitSet_find_first</name></member>
@@ -29649,6 +29685,7 @@
     <member refid="classMR_1_1Const__RegionBitSet_1a7ecd331884ca877abb1abbef7b791976" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1ae3ec0df5da258de4d32e7b68e77e206d" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1abc041d5dfe3650d21aedf3abcbdd9566" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__RegionBitSet_1ae5ad8bd0fa8a90dc661b796701706de1" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1a3299eac68af153bbe86fb06b04885a8d" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1a6c61c0f57870fb8ad9c508e42ff14bdb" kind="function"><name>~Const_RegionBitSet</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1aa8ff720c845bce15e49a794e9ca54e64" kind="function"><name>GetEnumerator</name></member>
@@ -29676,6 +29713,7 @@
     <member refid="classMR_1_1Const__RegionBitSet_1ad76e7d15e2bb6df41a13941e0e7f87d9" kind="function"><name>__MR_RegionBitSet_bits</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1ae37e842b073b6d26a2cc4b3395daa4ba" kind="function"><name>__MR_RegionBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1a8fa65efc868901d52c6ffe74942d4e83" kind="function"><name>__MR_RegionBitSet_count</name></member>
+    <member refid="classMR_1_1Const__RegionBitSet_1ae799cf43e127382b52e0b9c4c9c58850" kind="function"><name>__MR_RegionBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1ac66fa2470e73fbe205d12ffa957b8629" kind="function"><name>__MR_RegionBitSet_empty</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1a68649648eac45c280dead35fb40cbda7" kind="function"><name>__MR_RegionBitSet_endId</name></member>
     <member refid="classMR_1_1Const__RegionBitSet_1ac9662cbe9fe68a87b64715adf023ee78" kind="function"><name>__MR_RegionBitSet_find_first</name></member>
@@ -33395,6 +33433,7 @@
     <member refid="classMR_1_1Const__TextureBitSet_1a48154cd072810460adbd87ec00b22a1f" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a09dbcad32b97fc7faa82206d7afebbbd" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a2c165c609e75973c8fa86e0cd8c0207d" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__TextureBitSet_1a1bf5a6a35dea9d5e2dc0c05636ef7709" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1aa933305a4a7d8083a19e1c90cf40d979" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a9ca61310db3233b8fcaa3e4066ee6b5c" kind="function"><name>~Const_TextureBitSet</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a0ca07376d432fcd041e458a8205f6a0b" kind="function"><name>GetEnumerator</name></member>
@@ -33422,6 +33461,7 @@
     <member refid="classMR_1_1Const__TextureBitSet_1a7449aed365b9a6efed1c608157e8dd18" kind="function"><name>__MR_TextureBitSet_bits</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a25fbf9447aed2e38ae3f546f9a4006f8" kind="function"><name>__MR_TextureBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a11f310990b9f4bb19ebe04e7e0c08295" kind="function"><name>__MR_TextureBitSet_count</name></member>
+    <member refid="classMR_1_1Const__TextureBitSet_1ac7052e5b17343149496a10f226f9fd4a" kind="function"><name>__MR_TextureBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a6c6b6b58b3dbf3a74cc2f32f210c0ecd" kind="function"><name>__MR_TextureBitSet_empty</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1aaeedb1e1d1e85e12acb66d684310a96e" kind="function"><name>__MR_TextureBitSet_endId</name></member>
     <member refid="classMR_1_1Const__TextureBitSet_1a9a4e74ba52a98044591749499584f856" kind="function"><name>__MR_TextureBitSet_find_first</name></member>
@@ -34378,6 +34418,7 @@
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9790e216ed69a8e9070570deca51e55e" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ab325830ee7d5e4c118d657a76d7e9d49" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a7f1ddf04fc54bd803939e6d0e1fc4cc0" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1af7e550c94f68e0a60a1e7a8d1c7ae99a" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a8752d8b19ff2582e61c96ada78146e81" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1ace1d76178cc02c4a4882b96ba86ba021" kind="function"><name>~Const_TypedBitSet_MRIdMRICPElemtTag</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9e2fa1f152d94779847392a7783d87d5" kind="function"><name>GetEnumerator</name></member>
@@ -34405,6 +34446,7 @@
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a9a5471c41df99b0905566cd5bd0a2973" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_bits</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a4e2afeed1f373d74e6fbe2c5a64ed662" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_capacity</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a74afb36e2ab07c69d92248c087d4838f" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_count</name></member>
+    <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a30e8934efa1101dea663132d20cbb2eb" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a52a6daec4b3d7e7776dbde39d99b6f4a" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_empty</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a7ef47dd962f522fe3df7612d06ecd01c" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_endId</name></member>
     <member refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag_1a2b076fba431cc72530aabafcb00842c3" kind="function"><name>__MR_TypedBitSet_MR_Id_MR_ICPElemtTag_find_first</name></member>
@@ -34609,6 +34651,7 @@
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1af33d96a78f2710b97c02cf8508e3d783" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aef9d184bd2f2eccbf6eb5763a8fa49a1" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a5890d0a004a7f41f8e02137ab1bf0c62" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a6fb0ccfdf76a683e551901b9e3c6285c" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a76ae69675e5583e0589a5ca5928adee0" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a7b2466245f1c4dbd065041de8ba8809f" kind="function"><name>~Const_UndirectedEdgeBitSet</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1ab8f93b9b6318a9724d121411f9eb6910" kind="function"><name>GetEnumerator</name></member>
@@ -34636,6 +34679,7 @@
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a43dd7dafaefdc34cdfff5a382a37c8e7" kind="function"><name>__MR_UndirectedEdgeBitSet_bits</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1adfd2655a763b210a07f9a99d95947ffb" kind="function"><name>__MR_UndirectedEdgeBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a24fd193baea0ee2d0e9fc27a71ca2bd3" kind="function"><name>__MR_UndirectedEdgeBitSet_count</name></member>
+    <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a7d1af0e0d341383195d2c26e131a190c" kind="function"><name>__MR_UndirectedEdgeBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a81232fb08603422e85523a66be52d773" kind="function"><name>__MR_UndirectedEdgeBitSet_empty</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1a7a72fdd99c506788fd3f54321da6f298" kind="function"><name>__MR_UndirectedEdgeBitSet_endId</name></member>
     <member refid="classMR_1_1Const__UndirectedEdgeBitSet_1aaaf7a8ff925beb0fbc9d539cd9720e5a" kind="function"><name>__MR_UndirectedEdgeBitSet_find_first</name></member>
@@ -38113,6 +38157,7 @@
     <member refid="classMR_1_1Const__VertBitSet_1a8370a4305b957336dd8f5f2b916c88f6" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a0a25cfb456b7b85d28dd8196941aad8f" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a7d970cefc5e722a1b90fc2729d983457" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__VertBitSet_1ae3a1634a7b967e9ea15e2a66d65f5807" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a14516cb723dd0ec2a3a74c2efd4bd073" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a6e72d931e3e942ac83fbe327d9b8973f" kind="function"><name>Equals</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1aaeaf067125ab458f13d59c7fe261b303" kind="function"><name>Equals</name></member>
@@ -38144,6 +38189,7 @@
     <member refid="classMR_1_1Const__VertBitSet_1aca81474c7de0306da46a02a1c59165af" kind="function"><name>__MR_VertBitSet_bits</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a21fb6742ae4d74e9cf4fa35ab7e8a7d1" kind="function"><name>__MR_VertBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a64da873219787addc70f97a7216f9834" kind="function"><name>__MR_VertBitSet_count</name></member>
+    <member refid="classMR_1_1Const__VertBitSet_1acac5dd9dbca531d8b670e7a49cc596d1" kind="function"><name>__MR_VertBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a734de68eec9b5335ff1b0633a332bfd0" kind="function"><name>__MR_VertBitSet_empty</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1ab333aaa12b8b9961489866703f499e83" kind="function"><name>__MR_VertBitSet_endId</name></member>
     <member refid="classMR_1_1Const__VertBitSet_1a78bc47e13edeba6963fbd33848d18d0c" kind="function"><name>__MR_VertBitSet_find_first</name></member>
@@ -39296,6 +39342,7 @@
     <member refid="classMR_1_1Const__VoxelBitSet_1a7990fa54eb68a014ab2f2859f18237c9" kind="function"><name>any</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a6c72866b57c2195e9a9fcae124e55c9f" kind="function"><name>none</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1ab20da7ccacb06ac967af88b4bb4e9e73" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1Const__VoxelBitSet_1a690c68aeb2ed68a0ddb82313b3eee3d9" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a878929c91328ab62547d66a91c6c9e8c" kind="function"><name>heapBytes</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1abf1a5c54ea9c13640dd17d39ca98ec8a" kind="function"><name>~Const_VoxelBitSet</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1ab7bb53ae062c810a2150db0f47a2032a" kind="function"><name>GetEnumerator</name></member>
@@ -39323,6 +39370,7 @@
     <member refid="classMR_1_1Const__VoxelBitSet_1a8782b614766cae248288f23b3034340b" kind="function"><name>__MR_VoxelBitSet_bits</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a405279c6c64ad88b3e6e6ccca147ec0f" kind="function"><name>__MR_VoxelBitSet_capacity</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a40e866f97fa3e6934be41662db42a1db" kind="function"><name>__MR_VoxelBitSet_count</name></member>
+    <member refid="classMR_1_1Const__VoxelBitSet_1aef344a6ff4e8b4d917fcb9a519a9c388" kind="function"><name>__MR_VoxelBitSet_countBitsAndBlocks</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a9793095cc471577c3477dac590808493" kind="function"><name>__MR_VoxelBitSet_empty</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a8c2eba625552d2ff0124d047091cdc10" kind="function"><name>__MR_VoxelBitSet_endId</name></member>
     <member refid="classMR_1_1Const__VoxelBitSet_1a8442dbb209879991e33cb5cd3bbb9d00" kind="function"><name>__MR_VoxelBitSet_find_first</name></member>
@@ -43522,6 +43570,20 @@
     <member refid="classMR_1_1CoordinateConverters2_1a7ddd9f1c5a6cf3af77afa7a014bb6722" kind="function"><name>__MR_CoordinateConverters2_DefaultConstruct</name></member>
     <member refid="classMR_1_1CoordinateConverters2_1a4210c0a6a2c62f8efb923c7d4566db31" kind="function"><name>__MR_CoordinateConverters2_GetMutable_toFloat</name></member>
     <member refid="classMR_1_1CoordinateConverters2_1a851e999851da51fb071c778b371ba8f9" kind="function"><name>__MR_CoordinateConverters2_GetMutable_toInt</name></member>
+  </compound>
+  <compound refid="classMR_1_1Const__BitSet_1_1Counts" kind="class"><name>MR::Const_BitSet::Counts</name>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1ac7c3b50380e98d4542d2c1005700ab1e" kind="property"><name>bits</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a51b8fc42ba00e61473dfc46027dcf742" kind="property"><name>blocks</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a9c8c5f8f566e42d4b36344769aa9a7c0" kind="function"><name>Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a245ddc2db1e2394d22327d24ef5c0b8b" kind="function"><name>Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1aca910e28d283fa4017ccb75c4468532e" kind="function"><name>Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a255185c6b0b702f9d29ce2bebd1b13fc" kind="function"><name>Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a5f6779ab0ce18ffa1afa012fa1942975" kind="function"><name>Counts</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a4cebf276bdd8f31fafd2797a892a3096" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1ac8ea99e38cefd5d6643b02bef496c4a1" kind="function"><name>__MR_BitSet_Counts_AssignFromAnother</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1a5190c283d0d9d14988545f2a9bd44a8e" kind="function"><name>__MR_BitSet_Counts_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1af7468c4e17686ee76d98526674a299c4" kind="function"><name>__MR_BitSet_Counts_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__BitSet_1_1Counts_1af8de4216ba0812914fcf4db6b8948ee7" kind="function"><name>__MR_BitSet_Counts_DefaultConstruct</name></member>
   </compound>
   <compound refid="classMR_1_1MeshSave_1_1CtmSaveOptions" kind="class"><name>MR::MeshSave::CtmSaveOptions</name>
     <member refid="classMR_1_1MeshSave_1_1CtmSaveOptions_1a81b5a7fbb29208246a18c7fc4ccb9bc3" kind="property"><name>meshCompression</name></member>

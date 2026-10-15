@@ -393,6 +393,9 @@ var hierarchy =
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", [
         [ "MR.BitSet", "classMR_1_1BitSet.html", null ]
       ] ],
+      [ "MR.Const_BitSet.Const_Counts", "classMR_1_1Const__BitSet_1_1Const__Counts.html", [
+        [ "MR.Const_BitSet.Counts", "classMR_1_1Const__BitSet_1_1Counts.html", null ]
+      ] ],
       [ "MR.Const_BooleanInternalParameters", "classMR_1_1Const__BooleanInternalParameters.html", [
         [ "MR.BooleanInternalParameters", "classMR_1_1BooleanInternalParameters.html", null ]
       ] ],
@@ -3759,6 +3762,7 @@ var hierarchy =
       [ "MR.Const_BestFitParabolad", "classMR_1_1Const__BestFitParabolad.html", null ],
       [ "MR.Const_BestFitParabolaf", "classMR_1_1Const__BestFitParabolaf.html", null ],
       [ "MR.Const_BitSet", "classMR_1_1Const__BitSet.html", null ],
+      [ "MR.Const_BitSet.Const_Counts", "classMR_1_1Const__BitSet_1_1Const__Counts.html", null ],
       [ "MR.Const_BooleanInternalParameters", "classMR_1_1Const__BooleanInternalParameters.html", null ],
       [ "MR.Const_BooleanParameters", "classMR_1_1Const__BooleanParameters.html", null ],
       [ "MR.Const_BooleanPreCutResult", "classMR_1_1Const__BooleanPreCutResult.html", null ],

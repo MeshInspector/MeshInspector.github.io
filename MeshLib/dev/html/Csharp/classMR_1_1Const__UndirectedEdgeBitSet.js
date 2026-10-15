@@ -14,6 +14,7 @@ var classMR_1_1Const__UndirectedEdgeBitSet =
     [ "bits", "classMR_1_1Const__UndirectedEdgeBitSet.html#af144db2c551181276ffde59951758995", null ],
     [ "capacity", "classMR_1_1Const__UndirectedEdgeBitSet.html#a5f0f35200c23a55cb73a5c4fa49e42c7", null ],
     [ "count", "classMR_1_1Const__UndirectedEdgeBitSet.html#a5890d0a004a7f41f8e02137ab1bf0c62", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__UndirectedEdgeBitSet.html#a6fb0ccfdf76a683e551901b9e3c6285c", null ],
     [ "Dispose", "classMR_1_1Const__UndirectedEdgeBitSet.html#a71162a946d99b2d65d9af00dee955de1", null ],
     [ "Dispose", "classMR_1_1Const__UndirectedEdgeBitSet.html#a88edebce3baf6c807130b6ecaae6155f", null ],
     [ "empty", "classMR_1_1Const__UndirectedEdgeBitSet.html#a6b454b8683fcf73df7c3cddd7be8b43e", null ],

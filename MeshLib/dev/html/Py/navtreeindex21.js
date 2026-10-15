@@ -1,5 +1,15 @@
 var NAVTREEINDEX21 =
 {
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afd08f90a3f79b1d8c82bd22d50837260":[9,1,0,0,2,202,20],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afd08f90a3f79b1d8c82bd22d50837260":[9,1,1,0,1,202,20],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html":[9,1,0,0,2,203],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html":[9,1,1,0,1,203],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a0cfae42939e31423ba151140b73e8696":[9,1,0,0,2,203,7],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a0cfae42939e31423ba151140b73e8696":[9,1,1,0,1,203,7],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a106ce46e774efd7e504b9d3335f56eb3":[9,1,0,0,2,203,11],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a106ce46e774efd7e504b9d3335f56eb3":[9,1,1,0,1,203,11],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a10843fd7eae321de8d80242400822abb":[9,1,0,0,2,203,19],
+"classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a10843fd7eae321de8d80242400822abb":[9,1,1,0,1,203,19],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a1954be2bafef9894b17b366d6e72b98f":[9,1,0,0,2,203,0],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a1954be2bafef9894b17b366d6e72b98f":[9,1,1,0,1,203,0],
 "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html#a1da7c84d1ee2a0da491b29d0d6b16251":[9,1,0,0,2,203,15],
@@ -239,15 +249,5 @@ var NAVTREEINDEX21 =
 "classmrmeshpy_1_1DeloneFlipsCache.html#adfdb336ff1865bc321c5da1873289cc3":[9,1,0,0,2,207,5],
 "classmrmeshpy_1_1DeloneFlipsCache.html#adfdb336ff1865bc321c5da1873289cc3":[9,1,1,0,1,207,5],
 "classmrmeshpy_1_1DeloneFlipsCache.html#ae996fc23ae3bd14c5a3acece703aaa7a":[9,1,0,0,2,207,0],
-"classmrmeshpy_1_1DeloneFlipsCache.html#ae996fc23ae3bd14c5a3acece703aaa7a":[9,1,1,0,1,207,0],
-"classmrmeshpy_1_1DeloneFlipsCache.html#af9fa293efb2822a2d4dca48e128a3375":[9,1,0,0,2,207,7],
-"classmrmeshpy_1_1DeloneFlipsCache.html#af9fa293efb2822a2d4dca48e128a3375":[9,1,1,0,1,207,7],
-"classmrmeshpy_1_1DeloneSettings.html":[9,1,0,0,2,208],
-"classmrmeshpy_1_1DeloneSettings.html":[9,1,1,0,1,208],
-"classmrmeshpy_1_1DeloneSettings.html#a16ba078a461520d1302ad3a7db234316":[9,1,0,0,2,208,1],
-"classmrmeshpy_1_1DeloneSettings.html#a16ba078a461520d1302ad3a7db234316":[9,1,1,0,1,208,1],
-"classmrmeshpy_1_1DeloneSettings.html#a31aab6dfd5f30ef79ff9916499d11607":[9,1,0,0,2,208,10],
-"classmrmeshpy_1_1DeloneSettings.html#a31aab6dfd5f30ef79ff9916499d11607":[9,1,1,0,1,208,10],
-"classmrmeshpy_1_1DeloneSettings.html#a3a767967e878efcd7ca8a26b686e3ed4":[9,1,0,0,2,208,11],
-"classmrmeshpy_1_1DeloneSettings.html#a3a767967e878efcd7ca8a26b686e3ed4":[9,1,1,0,1,208,11]
+"classmrmeshpy_1_1DeloneFlipsCache.html#ae996fc23ae3bd14c5a3acece703aaa7a":[9,1,1,0,1,207,0]
 };

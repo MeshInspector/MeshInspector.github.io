@@ -14,6 +14,7 @@ var classMR_1_1Const__VertBitSet =
     [ "bits", "classMR_1_1Const__VertBitSet.html#a6fe7d652a0aeac131dc958dc67b7992d", null ],
     [ "capacity", "classMR_1_1Const__VertBitSet.html#a52f89283d04f555380339d90939dc21c", null ],
     [ "count", "classMR_1_1Const__VertBitSet.html#a7d970cefc5e722a1b90fc2729d983457", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__VertBitSet.html#ae3a1634a7b967e9ea15e2a66d65f5807", null ],
     [ "Dispose", "classMR_1_1Const__VertBitSet.html#a52228a203118282651dcb4379d838585", null ],
     [ "Dispose", "classMR_1_1Const__VertBitSet.html#a6a97c43c3c73afcf8eae9d36566f0137", null ],
     [ "empty", "classMR_1_1Const__VertBitSet.html#a4dcc0ad3e184a1b338cbc93db25a8e61", null ],

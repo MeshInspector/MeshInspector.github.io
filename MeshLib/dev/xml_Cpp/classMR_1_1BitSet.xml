@@ -5,6 +5,7 @@
     <derivedcompoundref refid="classMR_1_1TypedBitSet" prot="public" virt="non-virtual">MR::TypedBitSet&lt; Id&lt; T &gt; &gt;</derivedcompoundref>
     <derivedcompoundref refid="classMR_1_1TypedBitSet" prot="public" virt="non-virtual">MR::TypedBitSet&lt; I &gt;</derivedcompoundref>
     <includes refid="MRBitSet_8h" local="no">MRMesh/MRBitSet.h</includes>
+    <innerclass refid="structMR_1_1BitSet_1_1Counts" prot="public">MR::BitSet::Counts</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="typedef" id="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" prot="public" static="no">
         <type>std::uint64_t</type>
@@ -94,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="274" column="17" bodyfile="MRMesh/MRBitSet.h" bodystart="274" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="281" column="17" bodyfile="MRMesh/MRBitSet.h" bodystart="281" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classMR_1_1BitSet_1a6d276e8dbb191806b7696d0a0886ffd0" prot="private" static="no" mutable="no">
         <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
@@ -109,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="275" column="15" bodyfile="MRMesh/MRBitSet.h" bodystart="275" bodyend="-1"/>
+        <location file="MRMesh/MRBitSet.h" line="282" column="15" bodyfile="MRMesh/MRBitSet.h" bodystart="282" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -788,6 +789,26 @@
         </inbodydescription>
         <location file="MRMesh/MRBitSet.h" line="167" column="17"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a59ea8e43bbe9292d964b5674ce3c891c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1BitSet_1_1Counts" kindref="compound">Counts</ref></type>
+        <definition>Counts MR::BitSet::countBitsAndBlocks</definition>
+        <argsstring>(size_type maxBits=~size_type{}) const noexcept</argsstring>
+        <name>countBitsAndBlocks</name>
+        <qualifiedname>MR::BitSet::countBitsAndBlocks</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>maxBits</declname>
+          <defval>~<ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits; both numbers are then partial, which makes a size test of a large set cheap </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="174" column="14"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1ac8e1e2ea2d5a77114c44b2d32f3e9e8b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
         <definition>IndexType MR::BitSet::find_first</definition>
@@ -801,7 +822,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="170" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="170" bodyend="170"/>
+        <location file="MRMesh/MRBitSet.h" line="177" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="177" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1ab3c6d3157f3b02affcf7def04eb60c31" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -820,7 +841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="173" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="173" bodyend="173"/>
+        <location file="MRMesh/MRBitSet.h" line="180" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="180" bodyend="180"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a564d8eefb54ebeb11bd982cfa1c98c6d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -835,7 +856,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="176" column="17"/>
+        <location file="MRMesh/MRBitSet.h" line="183" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a0344c4c74d9b9a4ff11bdeae69c2ddb9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -850,7 +871,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="179" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="179" bodyend="179"/>
+        <location file="MRMesh/MRBitSet.h" line="186" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="186" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a552e222c0bee74a65f294cdbec098310" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -869,7 +890,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="182" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="182" bodyend="182"/>
+        <location file="MRMesh/MRBitSet.h" line="189" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="189" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a9b09976d5ec7a06cec09091750fc98e1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -884,7 +905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="185" column="17"/>
+        <location file="MRMesh/MRBitSet.h" line="192" column="17"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1add7456b9f19f1c5722b428a88eb87241" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>size_t</type>
@@ -903,7 +924,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="188" column="14"/>
+        <location file="MRMesh/MRBitSet.h" line="195" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1af25621ad18727451aa9a89f69e9f75b6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -922,7 +943,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="191" column="12"/>
+        <location file="MRMesh/MRBitSet.h" line="198" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a8b3601282d28190fc25476e611829852" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -941,7 +962,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="194" column="12"/>
+        <location file="MRMesh/MRBitSet.h" line="201" column="12"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1ac7929d81a23ad4ff51c472f0d1c992d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -960,7 +981,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="198" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="198" bodyend="198"/>
+        <location file="MRMesh/MRBitSet.h" line="205" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="205" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1ab61cde9e7da6d5d6c75fefd11e2e6a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -988,7 +1009,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="201" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="201" bodyend="206"/>
+        <location file="MRMesh/MRBitSet.h" line="208" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="208" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a737f8cc71944c7c750f8eeba4028ac17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -1011,7 +1032,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="207" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="207" bodyend="207"/>
+        <location file="MRMesh/MRBitSet.h" line="214" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="214" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a84a9273303ae000bcf94b893a298eb95" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -1035,7 +1056,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="210" column="11" bodyfile="MRMesh/MRBitSet.h" bodystart="210" bodyend="216"/>
+        <location file="MRMesh/MRBitSet.h" line="217" column="11" bodyfile="MRMesh/MRBitSet.h" bodystart="217" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1ae5007749dadb7430dc9dedb73114f9a6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
@@ -1050,7 +1071,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="219" column="13" bodyfile="MRMesh/MRBitSet.h" bodystart="219" bodyend="219"/>
+        <location file="MRMesh/MRBitSet.h" line="226" column="13" bodyfile="MRMesh/MRBitSet.h" bodystart="226" bodyend="226"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1abd624eb57fa1932e782bf7eb418f7d1d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -1065,7 +1086,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="222" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="222" bodyend="222"/>
+        <location file="MRMesh/MRBitSet.h" line="229" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="229" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a1f947bfd0ac71d4db95bbf1402d27ddf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -1079,7 +1100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="226" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="226" bodyend="226"/>
+        <location file="MRMesh/MRBitSet.h" line="233" column="16" bodyfile="MRMesh/MRBitSet.h" bodystart="233" bodyend="233"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -1115,7 +1136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="225" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="225" bodyend="225"/>
+        <location file="MRMesh/MRBitSet.h" line="232" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="232" bodyend="232"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -1136,7 +1157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="230" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="230" bodyend="230"/>
+        <location file="MRMesh/MRBitSet.h" line="237" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="237" bodyend="237"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a4d3c9c08e1ea8bfcd8b65b8f78cb652b" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
@@ -1155,7 +1176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="233" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="233" bodyend="233"/>
+        <location file="MRMesh/MRBitSet.h" line="240" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="240" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a70081eea3dd16bb6c7157c06d5b86cee" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
@@ -1174,7 +1195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="236" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="236" bodyend="236"/>
+        <location file="MRMesh/MRBitSet.h" line="243" column="23" bodyfile="MRMesh/MRBitSet.h" bodystart="243" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a8f4484237b765f3d3efb055d8daf3646" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref></type>
@@ -1193,7 +1214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="239" column="24" bodyfile="MRMesh/MRBitSet.h" bodystart="239" bodyend="239"/>
+        <location file="MRMesh/MRBitSet.h" line="246" column="24" bodyfile="MRMesh/MRBitSet.h" bodystart="246" bodyend="246"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a36c0186190e547b33c3cb88bbd92624f" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1ace77355bd95e75d56e1bfab444eefb3e" kindref="member">block_type</ref></type>
@@ -1219,7 +1240,7 @@
 <para>xor</para>
 <para>set all bits in [0, lastBit)</para>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="242" column="24" bodyfile="MRMesh/MRBitSet.h" bodystart="242" bodyend="247"/>
+        <location file="MRMesh/MRBitSet.h" line="249" column="24" bodyfile="MRMesh/MRBitSet.h" bodystart="249" bodyend="254"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -1236,7 +1257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="250" column="11"/>
+        <location file="MRMesh/MRBitSet.h" line="257" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a0966c6f93f6bcb45363b0a0faeb6372f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1251,7 +1272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="253" column="11"/>
+        <location file="MRMesh/MRBitSet.h" line="260" column="11"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -1288,7 +1309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="259" column="13"/>
+        <location file="MRMesh/MRBitSet.h" line="266" column="13"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1a782fcf4be895063694c85917cf0adc2c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -1307,7 +1328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="262" column="16"/>
+        <location file="MRMesh/MRBitSet.h" line="269" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BitSet_1ad9e0a275c5788e83a990cca3d5b88b3e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
@@ -1326,7 +1347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="265" column="16"/>
+        <location file="MRMesh/MRBitSet.h" line="272" column="16"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="friend">
@@ -1350,7 +1371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="267" column="13"/>
+        <location file="MRMesh/MRBitSet.h" line="274" column="13"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1BitSet_1aadab48850b173a8c3542b620d35b4960" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::istream &amp;</type>
@@ -1372,7 +1393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="268" column="26"/>
+        <location file="MRMesh/MRBitSet.h" line="275" column="26"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1BitSet_1ad10eef891e591ca10e1d3328b630615b" prot="private" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY friend auto</type>
@@ -1390,7 +1411,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="270" column="36" bodyfile="MRMesh/MRBitSet.h" bodystart="270" bodyend="270"/>
+        <location file="MRMesh/MRBitSet.h" line="277" column="36" bodyfile="MRMesh/MRBitSet.h" bodystart="277" bodyend="277"/>
       </memberdef>
       <memberdef kind="friend" id="classMR_1_1BitSet_1a6da7329d948ae26caf06d68118aa5dc4" prot="private" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE_PY friend auto</type>
@@ -1407,7 +1428,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="271" column="36" bodyfile="MRMesh/MRBitSet.h" bodystart="271" bodyend="271"/>
+        <location file="MRMesh/MRBitSet.h" line="278" column="36" bodyfile="MRMesh/MRBitSet.h" bodystart="278" bodyend="278"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1433,7 +1454,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRBitSet.h" line="69" column="1" bodyfile="MRMesh/MRBitSet.h" bodystart="70" bodyend="276"/>
+    <location file="MRMesh/MRBitSet.h" line="69" column="1" bodyfile="MRMesh/MRBitSet.h" bodystart="70" bodyend="283"/>
     <listofallmembers>
       <member refid="classMR_1_1BitSet_1a112ab209d0b98ba80237157538fe4f30" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>all</name></member>
       <member refid="classMR_1_1BitSet_1a51f26b5e2a5f81eed95766439f200000" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>any</name></member>
@@ -1458,6 +1479,7 @@
       <member refid="classMR_1_1BitSet_1ad5356319788e20bd77294c90f6b72ea1" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1BitSet_1a911e2daac2bf0277dfa9759afa552795" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>clear</name></member>
       <member refid="classMR_1_1BitSet_1afc187206a3427ae8c94638dd893f922a" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1BitSet_1a59ea8e43bbe9292d964b5674ce3c891c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>countBitsAndBlocks</name></member>
       <member refid="classMR_1_1BitSet_1a68591813e27420d51ac2dbe237e85d36" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>empty</name></member>
       <member refid="classMR_1_1BitSet_1a6da7329d948ae26caf06d68118aa5dc4" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>end</name></member>
       <member refid="classMR_1_1BitSet_1a1f947bfd0ac71d4db95bbf1402d27ddf" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>endId</name></member>

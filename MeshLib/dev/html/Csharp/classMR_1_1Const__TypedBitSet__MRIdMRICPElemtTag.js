@@ -14,6 +14,7 @@ var classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag =
     [ "bits", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a01aaf3792e68820dd59ee27bc2b83f53", null ],
     [ "capacity", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#afe9cb0ee13c249be9262e97391548cd3", null ],
     [ "count", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a7f1ddf04fc54bd803939e6d0e1fc4cc0", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#af7e550c94f68e0a60a1e7a8d1c7ae99a", null ],
     [ "Dispose", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a011c8421acf891515d5d69140cfe61d7", null ],
     [ "Dispose", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a0e227fcb7568a095c010fdbf46b965f1", null ],
     [ "empty", "classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag.html#a21093fe82d70f64efe6d6d9eb54fb486", null ],

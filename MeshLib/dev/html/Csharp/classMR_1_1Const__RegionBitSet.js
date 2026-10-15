@@ -14,6 +14,7 @@ var classMR_1_1Const__RegionBitSet =
     [ "bits", "classMR_1_1Const__RegionBitSet.html#af1bae430634daa5c2df2e39719f89c3c", null ],
     [ "capacity", "classMR_1_1Const__RegionBitSet.html#a752335f53ae9828ccc067df3b4ff5df2", null ],
     [ "count", "classMR_1_1Const__RegionBitSet.html#abc041d5dfe3650d21aedf3abcbdd9566", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__RegionBitSet.html#ae5ad8bd0fa8a90dc661b796701706de1", null ],
     [ "Dispose", "classMR_1_1Const__RegionBitSet.html#a2bebafd389fb989f1802bf71f832bdb8", null ],
     [ "Dispose", "classMR_1_1Const__RegionBitSet.html#a08d19723d433bc0390a66d985dd0a271", null ],
     [ "empty", "classMR_1_1Const__RegionBitSet.html#a577c85c8f29d06cda42f6b474fb4c408", null ],

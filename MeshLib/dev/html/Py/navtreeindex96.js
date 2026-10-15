@@ -1,5 +1,15 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1TexturePerFace.html#ae9dc9d79b12b18ea918260dcc681dbac":[9,1,0,0,2,1135,19],
+"classmrmeshpy_1_1TexturePerFace.html#ae9dc9d79b12b18ea918260dcc681dbac":[9,1,1,0,1,1135,19],
+"classmrmeshpy_1_1TexturePerFace.html#af3ee1cfcd9bb42e5414af6c2218f6030":[9,1,0,0,2,1135,12],
+"classmrmeshpy_1_1TexturePerFace.html#af3ee1cfcd9bb42e5414af6c2218f6030":[9,1,1,0,1,1135,12],
+"classmrmeshpy_1_1TexturePerFace.html#afa6642efef1e6702f76fc9a66a814665":[9,1,0,0,2,1135,26],
+"classmrmeshpy_1_1TexturePerFace.html#afa6642efef1e6702f76fc9a66a814665":[9,1,1,0,1,1135,26],
+"classmrmeshpy_1_1TexturePerFace.html#affa86a2076173751d9204c9822251c34":[9,1,0,0,2,1135,10],
+"classmrmeshpy_1_1TexturePerFace.html#affa86a2076173751d9204c9822251c34":[9,1,1,0,1,1135,10],
+"classmrmeshpy_1_1Tgt2SrcMaps.html":[9,1,0,0,2,1136],
+"classmrmeshpy_1_1Tgt2SrcMaps.html":[9,1,1,0,1,1136],
 "classmrmeshpy_1_1Tgt2SrcMaps.html#a99223046a34347f56e292e03fe16b5e7":[9,1,0,0,2,1136,0],
 "classmrmeshpy_1_1Tgt2SrcMaps.html#a99223046a34347f56e292e03fe16b5e7":[9,1,1,0,1,1136,0],
 "classmrmeshpy_1_1Tgt2SrcMaps.html#aa5678e2dc416ec2d5a1fd874c34ad8ef":[9,1,0,0,2,1136,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1TriCornerUVCoords.html#a5d213815740116c9b9fd2a401d35ff3c":[9,1,0,0,2,1150,11],
 "classmrmeshpy_1_1TriCornerUVCoords.html#a5d213815740116c9b9fd2a401d35ff3c":[9,1,1,0,1,1150,11],
 "classmrmeshpy_1_1TriCornerUVCoords.html#a5fb0a059782b79cf0323e583a681ee54":[9,1,0,0,2,1150,31],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a5fb0a059782b79cf0323e583a681ee54":[9,1,1,0,1,1150,31],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a773e2ca28db9288e3132ba26dfceb7c6":[9,1,0,0,2,1150,37],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a773e2ca28db9288e3132ba26dfceb7c6":[9,1,1,0,1,1150,37],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a7fd27d3361408905508e723523e87c72":[9,1,0,0,2,1150,20],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a7fd27d3361408905508e723523e87c72":[9,1,0,0,2,1150,21],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a7fd27d3361408905508e723523e87c72":[9,1,1,0,1,1150,20],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a7fd27d3361408905508e723523e87c72":[9,1,1,0,1,1150,21],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a88329cc3a9b2dedcc205ed591f61ee4e":[9,1,0,0,2,1150,0],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a88329cc3a9b2dedcc205ed591f61ee4e":[9,1,1,0,1,1150,0],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a8eb10eeafb2b781040e9a7b5f0bc0ae7":[9,1,0,0,2,1150,38],
-"classmrmeshpy_1_1TriCornerUVCoords.html#a8eb10eeafb2b781040e9a7b5f0bc0ae7":[9,1,1,0,1,1150,38]
+"classmrmeshpy_1_1TriCornerUVCoords.html#a5fb0a059782b79cf0323e583a681ee54":[9,1,1,0,1,1150,31]
 };

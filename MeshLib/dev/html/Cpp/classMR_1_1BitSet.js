@@ -1,5 +1,6 @@
 var classMR_1_1BitSet =
 [
+    [ "Counts", "structMR_1_1BitSet_1_1Counts.html", "structMR_1_1BitSet_1_1Counts" ],
     [ "block_type", "classMR_1_1BitSet.html#ace77355bd95e75d56e1bfab444eefb3e", null ],
     [ "IndexType", "classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9", null ],
     [ "size_type", "classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3", null ],
@@ -16,6 +17,7 @@ var classMR_1_1BitSet =
     [ "capacity", "classMR_1_1BitSet.html#ad5356319788e20bd77294c90f6b72ea1", null ],
     [ "clear", "classMR_1_1BitSet.html#a911e2daac2bf0277dfa9759afa552795", null ],
     [ "count", "classMR_1_1BitSet.html#afc187206a3427ae8c94638dd893f922a", null ],
+    [ "countBitsAndBlocks", "classMR_1_1BitSet.html#a59ea8e43bbe9292d964b5674ce3c891c", null ],
     [ "empty", "classMR_1_1BitSet.html#a68591813e27420d51ac2dbe237e85d36", null ],
     [ "endId", "classMR_1_1BitSet.html#a1f947bfd0ac71d4db95bbf1402d27ddf", null ],
     [ "find_first", "classMR_1_1BitSet.html#ac8e1e2ea2d5a77114c44b2d32f3e9e8b", null ],

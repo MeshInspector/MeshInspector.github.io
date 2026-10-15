@@ -684,6 +684,7 @@
     <member refid="classMR_1_1BitSet_1a51f26b5e2a5f81eed95766439f200000" kind="function"><name>any</name></member>
     <member refid="classMR_1_1BitSet_1ae93bbbefc2bee256a329ec3ac480f963" kind="function"><name>none</name></member>
     <member refid="classMR_1_1BitSet_1afc187206a3427ae8c94638dd893f922a" kind="function"><name>count</name></member>
+    <member refid="classMR_1_1BitSet_1a59ea8e43bbe9292d964b5674ce3c891c" kind="function"><name>countBitsAndBlocks</name></member>
     <member refid="classMR_1_1BitSet_1ac8e1e2ea2d5a77114c44b2d32f3e9e8b" kind="function"><name>find_first</name></member>
     <member refid="classMR_1_1BitSet_1ab3c6d3157f3b02affcf7def04eb60c31" kind="function"><name>find_next</name></member>
     <member refid="classMR_1_1BitSet_1a564d8eefb54ebeb11bd982cfa1c98c6d" kind="function"><name>find_last</name></member>
@@ -2183,6 +2184,10 @@
     <member refid="group__GeneralGroup_1ga6dad3e6da660e28d0eb9cccce5e2c60b" kind="function"><name>pick_</name></member>
     <member refid="group__GeneralGroup_1ga3f3f08dd23e5fcc2fd188e3780443159" kind="function"><name>hover_</name></member>
     <member refid="group__GeneralGroup_1gab4ee055c2671c2b13b4a994c812fde5b" kind="function"><name>press_</name></member>
+  </compound>
+  <compound refid="structMR_1_1BitSet_1_1Counts" kind="struct"><name>MR::BitSet::Counts</name>
+    <member refid="structMR_1_1BitSet_1_1Counts_1a66fde9318f3590b9b462765778d2c15f" kind="variable"><name>bits</name></member>
+    <member refid="structMR_1_1BitSet_1_1Counts_1a0776e6d306c72a973806858bb91e4004" kind="variable"><name>blocks</name></member>
   </compound>
   <compound refid="structMR_1_1MeshSave_1_1CtmSaveOptions" kind="struct"><name>MR::MeshSave::CtmSaveOptions</name>
     <member refid="group__GeneralGroup_1gae11e0573781455904bb818493c2ad69d" kind="enum"><name>MeshCompression</name></member>
@@ -14905,6 +14910,7 @@
     <member refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kind="function"><name>BitSetParallelFor</name></member>
     <member refid="group__BasicGroup_1gabc3f588255ae3bd530638a5c6fb55557" kind="function"><name>BitSetParallelFor</name></member>
     <member refid="group__BasicGroup_1gaa44fd6dceea20f68975639cc07df31b2" kind="function"><name>BitSetParallelFor</name></member>
+    <member refid="group__BasicGroup_1gae44ca60e47ff70a1a8dd261447c8175c" kind="function"><name>BitSetWalk</name></member>
     <member refid="group__BooleanGroup_1ga1c924334076a710ae361fbdab680d498" kind="function"><name>doBooleanOperation</name></member>
     <member refid="group__BoxGroup_1ga38298a22be771a329c44d148ff2cb3c8" kind="function"><name>getCorners</name></member>
     <member refid="group__BoxGroup_1ga29381aa0a95542624d22842711d672f9" kind="function"><name>getCorners</name></member>
@@ -19425,6 +19431,7 @@
     <member refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kind="function"><name>BitSetParallelFor</name></member>
     <member refid="group__BasicGroup_1gabc3f588255ae3bd530638a5c6fb55557" kind="function"><name>BitSetParallelFor</name></member>
     <member refid="group__BasicGroup_1gaa44fd6dceea20f68975639cc07df31b2" kind="function"><name>BitSetParallelFor</name></member>
+    <member refid="group__BasicGroup_1gae44ca60e47ff70a1a8dd261447c8175c" kind="function"><name>BitSetWalk</name></member>
     <member refid="group__BasicGroup_1ga2442ef2afa7012af6ca21ebcb6604536" kind="function"><name>heapBytes</name></member>
     <member refid="group__BasicGroup_1ga92b723fb37bb2e5133cba528ecd679e6" kind="function"><name>heapBytes</name></member>
     <member refid="group__BasicGroup_1ga6f62a19a1892f63b5d147de8ef2160c0" kind="function"><name>heapBytes</name></member>

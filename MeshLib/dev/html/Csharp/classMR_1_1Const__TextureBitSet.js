@@ -14,6 +14,7 @@ var classMR_1_1Const__TextureBitSet =
     [ "bits", "classMR_1_1Const__TextureBitSet.html#a9e79f8d09de21621e6976eb7cdbc8691", null ],
     [ "capacity", "classMR_1_1Const__TextureBitSet.html#a4c147b2c0e5ba760c50edb46917e40bc", null ],
     [ "count", "classMR_1_1Const__TextureBitSet.html#a2c165c609e75973c8fa86e0cd8c0207d", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__TextureBitSet.html#a1bf5a6a35dea9d5e2dc0c05636ef7709", null ],
     [ "Dispose", "classMR_1_1Const__TextureBitSet.html#aa0d288bfd9c5dd8a771f881f979970e7", null ],
     [ "Dispose", "classMR_1_1Const__TextureBitSet.html#a034674d4f09ea6eee4282e2cebb9ebf0", null ],
     [ "empty", "classMR_1_1Const__TextureBitSet.html#a7747cd1938ec6af8d852365559c64a1c", null ],

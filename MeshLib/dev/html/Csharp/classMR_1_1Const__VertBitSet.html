@@ -232,6 +232,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0a25cfb456b7b85d28dd8196941aad8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all bits in this container are reset Generated from method <span class="tt"><a class="el" href="#a0a25cfb456b7b85d28dd8196941aad8f" title="returns true if all bits in this container are reset Generated from method MR.VertBitSet....">MR.VertBitSet.none</a></span>.  <br /></td></tr>
 <tr class="memitem:a7d970cefc5e722a1b90fc2729d983457" id="r_a7d970cefc5e722a1b90fc2729d983457"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d970cefc5e722a1b90fc2729d983457">count</a> ()</td></tr>
 <tr class="memdesc:a7d970cefc5e722a1b90fc2729d983457"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of set bits in the whole set Generated from method <span class="tt"><a class="el" href="#a7d970cefc5e722a1b90fc2729d983457" title="computes the number of set bits in the whole set Generated from method MR.VertBitSet....">MR.VertBitSet.count</a></span>.  <br /></td></tr>
+<tr class="memitem:ae3a1634a7b967e9ea15e2a66d65f5807" id="r_ae3a1634a7b967e9ea15e2a66d65f5807"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__BitSet_1_1Counts.html">MR.BitSet.Counts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3a1634a7b967e9ea15e2a66d65f5807">countBitsAndBlocks</a> (nuint? maxBits=null)</td></tr>
+<tr class="memdesc:ae3a1634a7b967e9ea15e2a66d65f5807"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits; both numbers are then partial, which makes a size test of a large set cheap Generated from method <span class="tt"><a class="el" href="#ae3a1634a7b967e9ea15e2a66d65f5807" title="computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed max...">MR.VertBitSet.countBitsAndBlocks</a></span>. Parameter <span class="tt">maxBits</span> defaults to <span class="tt">~MR::BitSet::size_type{}</span>.  <br /></td></tr>
 <tr class="memitem:a14516cb723dd0ec2a3a74c2efd4bd073" id="r_a14516cb723dd0ec2a3a74c2efd4bd073"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14516cb723dd0ec2a3a74c2efd4bd073">heapBytes</a> ()</td></tr>
 <tr class="memdesc:a14516cb723dd0ec2a3a74c2efd4bd073"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt"><a class="el" href="#a14516cb723dd0ec2a3a74c2efd4bd073" title="returns the amount of memory this object occupies on heap Generated from method MR....">MR.VertBitSet.heapBytes</a></span>.  <br /></td></tr>
 <tr class="memitem:a6e72d931e3e942ac83fbe327d9b8973f" id="r_a6e72d931e3e942ac83fbe327d9b8973f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e72d931e3e942ac83fbe327d9b8973f">Equals</a> (<a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? b)</td></tr>
@@ -653,6 +655,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>computes the number of set bits in the whole set Generated from method <span class="tt"><a class="el" href="#a7d970cefc5e722a1b90fc2729d983457" title="computes the number of set bits in the whole set Generated from method MR.VertBitSet....">MR.VertBitSet.count</a></span>. </p>
+
+</div>
+</div>
+<a id="ae3a1634a7b967e9ea15e2a66d65f5807" name="ae3a1634a7b967e9ea15e2a66d65f5807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3a1634a7b967e9ea15e2a66d65f5807">&#9670;&#160;</a></span>countBitsAndBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__BitSet_1_1Counts.html">MR.BitSet.Counts</a> MR.Const_VertBitSet.countBitsAndBlocks </td>
+          <td>(</td>
+          <td class="paramtype">nuint?</td>          <td class="paramname"><span class="paramname"><em>maxBits</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits; both numbers are then partial, which makes a size test of a large set cheap Generated from method <span class="tt"><a class="el" href="#ae3a1634a7b967e9ea15e2a66d65f5807" title="computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed max...">MR.VertBitSet.countBitsAndBlocks</a></span>. Parameter <span class="tt">maxBits</span> defaults to <span class="tt">~MR::BitSet::size_type{}</span>. </p>
 
 </div>
 </div>

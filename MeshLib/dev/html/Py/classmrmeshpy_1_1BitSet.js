@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1BitSet =
 [
+    [ "Counts", "classmrmeshpy_1_1BitSet_1_1Counts.html", "classmrmeshpy_1_1BitSet_1_1Counts" ],
     [ "__init__", "classmrmeshpy_1_1BitSet.html#a39db448937a80d8ee2b6227341b4108b", null ],
     [ "__init__", "classmrmeshpy_1_1BitSet.html#af2c732bf4be38bf0ad895b491101afb8", null ],
     [ "__init__", "classmrmeshpy_1_1BitSet.html#a8ce6ced7f4569123c79ba3d86cbb9546", null ],
@@ -27,6 +28,7 @@ var classmrmeshpy_1_1BitSet =
     [ "capacity", "classmrmeshpy_1_1BitSet.html#a2335e90bc299cbaa4f87a7e2157f869a", null ],
     [ "clear", "classmrmeshpy_1_1BitSet.html#a640d1f443a7ea30d50a532de2cdf90b4", null ],
     [ "count", "classmrmeshpy_1_1BitSet.html#a4b8a47eb3cd9dc19a7448b1a3b1765e2", null ],
+    [ "countBitsAndBlocks", "classmrmeshpy_1_1BitSet.html#a46517483fca5921e9b4b1b1abc7e5cac", null ],
     [ "empty", "classmrmeshpy_1_1BitSet.html#aab954a31474723788e2aeee311325c15", null ],
     [ "endId", "classmrmeshpy_1_1BitSet.html#a9f71200c981f11d2ec5f7c797de269e5", null ],
     [ "find_first", "classmrmeshpy_1_1BitSet.html#aac9c41ec6addef5012e587e850a8d006", null ],

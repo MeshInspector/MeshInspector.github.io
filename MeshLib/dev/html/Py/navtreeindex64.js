@@ -1,5 +1,15 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1NoDefInit__VertId.html":[9,1,0,0,2,634],
+"classmrmeshpy_1_1NoDefInit__VertId.html":[9,1,1,0,1,634],
+"classmrmeshpy_1_1NoDefInit__VertId.html#a3da6400d75b656c65ef4b08737fe919b":[9,1,0,0,2,634,2],
+"classmrmeshpy_1_1NoDefInit__VertId.html#a3da6400d75b656c65ef4b08737fe919b":[9,1,1,0,1,634,2],
+"classmrmeshpy_1_1NoDefInit__VertId.html#a79d7f8ef3ee9ae12b5d5599ae7542617":[9,1,0,0,2,634,1],
+"classmrmeshpy_1_1NoDefInit__VertId.html#a79d7f8ef3ee9ae12b5d5599ae7542617":[9,1,1,0,1,634,1],
+"classmrmeshpy_1_1NoDefInit__VertId.html#ac61180161415dbae909481ab6e2bc979":[9,1,0,0,2,634,0],
+"classmrmeshpy_1_1NoDefInit__VertId.html#ac61180161415dbae909481ab6e2bc979":[9,1,1,0,1,634,0],
+"classmrmeshpy_1_1NoDefInit__VoxelId.html":[9,1,0,0,2,635],
+"classmrmeshpy_1_1NoDefInit__VoxelId.html":[9,1,1,0,1,635],
 "classmrmeshpy_1_1NoDefInit__VoxelId.html#a0436dd5d7fe35867e38b4078b464e6c4":[9,1,0,0,2,635,2],
 "classmrmeshpy_1_1NoDefInit__VoxelId.html#a0436dd5d7fe35867e38b4078b464e6c4":[9,1,1,0,1,635,2],
 "classmrmeshpy_1_1NoDefInit__VoxelId.html#a684485149fceed0a81d89f53653a6f49":[9,1,0,0,2,635,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1ObjBitSet.html#a00e4018fa7d563e2473143303fdc012d":[9,1,0,0,2,644,19],
 "classmrmeshpy_1_1ObjBitSet.html#a00e4018fa7d563e2473143303fdc012d":[9,1,1,0,1,644,19],
 "classmrmeshpy_1_1ObjBitSet.html#a058ba9d428348001004ee944deeb5ed4":[9,1,0,0,2,644,13],
-"classmrmeshpy_1_1ObjBitSet.html#a058ba9d428348001004ee944deeb5ed4":[9,1,1,0,1,644,13],
-"classmrmeshpy_1_1ObjBitSet.html#a08d5918995634d21d80db0f93417ac0e":[9,1,0,0,2,644,47],
-"classmrmeshpy_1_1ObjBitSet.html#a08d5918995634d21d80db0f93417ac0e":[9,1,1,0,1,644,47],
-"classmrmeshpy_1_1ObjBitSet.html#a08db4fdb647d0792de77302b0b53495b":[9,1,0,0,2,644,28],
-"classmrmeshpy_1_1ObjBitSet.html#a08db4fdb647d0792de77302b0b53495b":[9,1,1,0,1,644,28],
-"classmrmeshpy_1_1ObjBitSet.html#a0cb19356cdba7be2f89df415f666f7e6":[9,1,0,0,2,644,46],
-"classmrmeshpy_1_1ObjBitSet.html#a0cb19356cdba7be2f89df415f666f7e6":[9,1,1,0,1,644,46],
-"classmrmeshpy_1_1ObjBitSet.html#a0df626d8a5cfc246075fbdf50698ca45":[9,1,0,0,2,644,4],
-"classmrmeshpy_1_1ObjBitSet.html#a0df626d8a5cfc246075fbdf50698ca45":[9,1,1,0,1,644,4],
-"classmrmeshpy_1_1ObjBitSet.html#a12192798bf539496895736a0a8f97ff8":[9,1,0,0,2,644,41],
-"classmrmeshpy_1_1ObjBitSet.html#a12192798bf539496895736a0a8f97ff8":[9,1,1,0,1,644,41]
+"classmrmeshpy_1_1ObjBitSet.html#a058ba9d428348001004ee944deeb5ed4":[9,1,1,0,1,644,13]
 };

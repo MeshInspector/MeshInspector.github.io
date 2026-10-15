@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1AABBTreeTraits.html":[9,0,0,1,3],
+"structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a":[9,0,0,1,3,2],
 "structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[9,0,0,1,3,1],
 "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[9,0,0,1,3,0],
 "structMR_1_1AllLocalTriangulations.html":[9,0,0,20,334],
@@ -23,6 +25,9 @@ var NAVTREEINDEX62 =
 "structMR_1_1BendContoursAlongCurveParams.html":[9,0,0,20,126],
 "structMR_1_1BendTextAlongCurveParams.html":[9,0,0,20,565],
 "structMR_1_1BindVertexAttribArraySettings.html":[9,0,0,20,664],
+"structMR_1_1BitSet_1_1Counts.html":[9,0,0,3,3,0],
+"structMR_1_1BitSet_1_1Counts.html#a0776e6d306c72a973806858bb91e4004":[9,0,0,3,3,0,1],
+"structMR_1_1BitSet_1_1Counts.html#a66fde9318f3590b9b462765778d2c15f":[9,0,0,3,3,0,0],
 "structMR_1_1BooleanInternalParameters.html":[9,0,0,8,1],
 "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[9,0,0,8,1,3],
 "structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[9,0,0,8,1,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DecimateSettings.html#adcc8d3606bda7323ca4c7b6f6866df2c":[9,0,0,10,0,6],
 "structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[9,0,0,10,0,29],
 "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,0,0,10,0,7],
-"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,0,0,10,0,28],
-"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,0,0,10,0,13],
-"structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[9,0,0,10,0,16],
-"structMR_1_1DeloneFlipsCache.html":[9,0,1,0,1,210],
-"structMR_1_1DeloneFlipsCache.html":[9,0,2,0,2,191],
-"structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,1,0,1,210,3]
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,0,0,10,0,28]
 };

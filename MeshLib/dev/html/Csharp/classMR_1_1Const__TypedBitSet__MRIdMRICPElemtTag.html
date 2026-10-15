@@ -232,6 +232,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab325830ee7d5e4c118d657a76d7e9d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all bits in this container are reset Generated from method <span class="tt">MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<a class="el" href="#ab325830ee7d5e4c118d657a76d7e9d49" title="returns true if all bits in this container are reset Generated from method MR.TypedBitSet&lt;MR....">none</a></span>.  <br /></td></tr>
 <tr class="memitem:a7f1ddf04fc54bd803939e6d0e1fc4cc0" id="r_a7f1ddf04fc54bd803939e6d0e1fc4cc0"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f1ddf04fc54bd803939e6d0e1fc4cc0">count</a> ()</td></tr>
 <tr class="memdesc:a7f1ddf04fc54bd803939e6d0e1fc4cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of set bits in the whole set Generated from method <span class="tt">MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<a class="el" href="#a7f1ddf04fc54bd803939e6d0e1fc4cc0" title="computes the number of set bits in the whole set Generated from method MR.TypedBitSet&lt;MR....">count</a></span>.  <br /></td></tr>
+<tr class="memitem:af7e550c94f68e0a60a1e7a8d1c7ae99a" id="r_af7e550c94f68e0a60a1e7a8d1c7ae99a"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__BitSet_1_1Counts.html">MR.BitSet.Counts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7e550c94f68e0a60a1e7a8d1c7ae99a">countBitsAndBlocks</a> (nuint? maxBits=null)</td></tr>
+<tr class="memdesc:af7e550c94f68e0a60a1e7a8d1c7ae99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits; both numbers are then partial, which makes a size test of a large set cheap Generated from method <span class="tt">MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<a class="el" href="#af7e550c94f68e0a60a1e7a8d1c7ae99a" title="computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed max...">countBitsAndBlocks</a></span>. Parameter <span class="tt">maxBits</span> defaults to <span class="tt">~MR::BitSet::size_type{}</span>.  <br /></td></tr>
 <tr class="memitem:a8752d8b19ff2582e61c96ada78146e81" id="r_a8752d8b19ff2582e61c96ada78146e81"><td class="memItemLeft" align="right" valign="top">unsafe nuint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8752d8b19ff2582e61c96ada78146e81">heapBytes</a> ()</td></tr>
 <tr class="memdesc:a8752d8b19ff2582e61c96ada78146e81"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap Generated from method <span class="tt">MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<a class="el" href="#a8752d8b19ff2582e61c96ada78146e81" title="returns the amount of memory this object occupies on heap Generated from method MR....">heapBytes</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -648,6 +650,33 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>computes the number of set bits in the whole set Generated from method <span class="tt">MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<a class="el" href="#a7f1ddf04fc54bd803939e6d0e1fc4cc0" title="computes the number of set bits in the whole set Generated from method MR.TypedBitSet&lt;MR....">count</a></span>. </p>
+
+</div>
+</div>
+<a id="af7e550c94f68e0a60a1e7a8d1c7ae99a" name="af7e550c94f68e0a60a1e7a8d1c7ae99a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e550c94f68e0a60a1e7a8d1c7ae99a">&#9670;&#160;</a></span>countBitsAndBlocks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__BitSet_1_1Counts.html">MR.BitSet.Counts</a> MR.Const_TypedBitSet_MRIdMRICPElemtTag.countBitsAndBlocks </td>
+          <td>(</td>
+          <td class="paramtype">nuint?</td>          <td class="paramname"><span class="paramname"><em>maxBits</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed maxBits; both numbers are then partial, which makes a size test of a large set cheap Generated from method <span class="tt">MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<a class="el" href="#af7e550c94f68e0a60a1e7a8d1c7ae99a" title="computes the numbers of set bits and of non-empty blocks, stopping as soon as the set bits exceed max...">countBitsAndBlocks</a></span>. Parameter <span class="tt">maxBits</span> defaults to <span class="tt">~MR::BitSet::size_type{}</span>. </p>
 
 </div>
 </div>

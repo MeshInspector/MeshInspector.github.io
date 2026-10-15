@@ -14,6 +14,7 @@ var classMR_1_1Const__NodeBitSet =
     [ "bits", "classMR_1_1Const__NodeBitSet.html#a89c573784ce1aaee3003899662f45ad7", null ],
     [ "capacity", "classMR_1_1Const__NodeBitSet.html#a2b887666cafd9740628d11fc5a5be00a", null ],
     [ "count", "classMR_1_1Const__NodeBitSet.html#a20bde5d14d64522149c024e3f2524430", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__NodeBitSet.html#a5d3c04070904fd071ba88437d9ef7e8c", null ],
     [ "Dispose", "classMR_1_1Const__NodeBitSet.html#a902134bdc090c75b10274706160411e9", null ],
     [ "Dispose", "classMR_1_1Const__NodeBitSet.html#adc818eb6f6938210fb63c88b26c85849", null ],
     [ "empty", "classMR_1_1Const__NodeBitSet.html#a4768aaab3a05bbf5a90888af033e88a6", null ],

@@ -288,7 +288,8 @@ MR::MeshSave</dd></dl>
 <div class="line">ml.MeshSave.toAnySupportedFormat(mesh, &#39;mesh.ply&#39;);</div>
 </div><!-- fragment -->   <dl class="section note"><dt>Note</dt><dd>The <span class="tt">using</span> declaration requires Node.js 24+ or a modern browser. On older runtimes, call <span class="tt">.delete()</span> on each object instead (see <a class="el" href="MeshLibJsSetupGuide.html#JsMemoryManagement">Memory Management</a> in the JavaScript Setup Guide).  </dd></dl>
 </li>
-<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line"> </div>
+<li><b class="tab-title">Rust</b> <div class="fragment"><div class="line">use meshlib::mr;</div>
+<div class="line"> </div>
 <div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
 <div class="line">{</div>
 <div class="line">    let args: Vec&lt;String&gt; = std::env::args().collect();</div>
@@ -296,7 +297,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    let output_path = args.get(2).map_or(&quot;mesh.ply&quot;, String::as_str);</div>
 <div class="line"> </div>
 <div class="line">    // Load mesh.</div>
-<div class="line">    let loaded = meshlib::mesh_load::from_any_supported_format_2(input_path, None);</div>
+<div class="line">    let loaded = mr::mesh_load::from_any_supported_format_2(input_path, None);</div>
 <div class="line">    let Some(mesh) = loaded.value() else</div>
 <div class="line">    {</div>
 <div class="line">        if args.len() &lt;= 1</div>
@@ -307,7 +308,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    // Save mesh.</div>
-<div class="line">    let saved = meshlib::mesh_save::to_any_supported_format_3(mesh, output_path, None);</div>
+<div class="line">    let saved = mr::mesh_save::to_any_supported_format_3(mesh, output_path, None);</div>
 <div class="line">    if let Some(error) = saved.error()</div>
 <div class="line">    {</div>
 <div class="line">        return Err(format!(&quot;Failed to save mesh: {error}&quot;));</div>

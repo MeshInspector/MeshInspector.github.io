@@ -219,6 +219,7 @@ var hierarchy =
     [ "mrmeshpy.CoordinateConverters", "classmrmeshpy_1_1CoordinateConverters.html", null ],
     [ "mrmeshpy.CoordinateConverters2", "classmrmeshpy_1_1CoordinateConverters2.html", null ],
     [ "mrmeshpy.OffsetContoursParams.CornerType", "classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html", null ],
+    [ "mrmeshpy.BitSet.Counts", "classmrmeshpy_1_1BitSet_1_1Counts.html", null ],
     [ "mrmeshpy.CubicBezierCurve2d", "classmrmeshpy_1_1CubicBezierCurve2d.html", null ],
     [ "mrmeshpy.CubicBezierCurve2f", "classmrmeshpy_1_1CubicBezierCurve2f.html", null ],
     [ "mrmeshpy.CubicBezierCurve3d", "classmrmeshpy_1_1CubicBezierCurve3d.html", null ],

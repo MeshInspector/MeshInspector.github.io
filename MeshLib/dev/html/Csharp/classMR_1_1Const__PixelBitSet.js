@@ -14,6 +14,7 @@ var classMR_1_1Const__PixelBitSet =
     [ "bits", "classMR_1_1Const__PixelBitSet.html#a66ec22dd5fad8db3b7d61de314dcb3ba", null ],
     [ "capacity", "classMR_1_1Const__PixelBitSet.html#a3e7e63d46cdeece11cbed7c99b54ef5b", null ],
     [ "count", "classMR_1_1Const__PixelBitSet.html#ac03136e34e5e5b9d8d789c42ab7d19cc", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__PixelBitSet.html#af366498886c52f3d67cac0e961da929e", null ],
     [ "Dispose", "classMR_1_1Const__PixelBitSet.html#a2056360af9d5794d8b4ab1836b4d6e22", null ],
     [ "Dispose", "classMR_1_1Const__PixelBitSet.html#aba85f5313ffe8d71267cfadbe77f761e", null ],
     [ "empty", "classMR_1_1Const__PixelBitSet.html#a6b8d8e3ee603013955e6faf3f56fdc4a", null ],

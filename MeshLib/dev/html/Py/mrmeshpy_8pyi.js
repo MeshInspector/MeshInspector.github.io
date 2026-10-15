@@ -168,6 +168,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.BestFitParabolad", "classmrmeshpy_1_1BestFitParabolad.html", "classmrmeshpy_1_1BestFitParabolad" ],
     [ "mrmeshpy.BestFitParabolaf", "classmrmeshpy_1_1BestFitParabolaf.html", "classmrmeshpy_1_1BestFitParabolaf" ],
     [ "mrmeshpy.BitSet", "classmrmeshpy_1_1BitSet.html", "classmrmeshpy_1_1BitSet" ],
+    [ "mrmeshpy.BitSet.Counts", "classmrmeshpy_1_1BitSet_1_1Counts.html", "classmrmeshpy_1_1BitSet_1_1Counts" ],
     [ "mrmeshpy.BooleanInternalParameters", "classmrmeshpy_1_1BooleanInternalParameters.html", "classmrmeshpy_1_1BooleanInternalParameters" ],
     [ "mrmeshpy.BooleanOperation", "classmrmeshpy_1_1BooleanOperation.html", "classmrmeshpy_1_1BooleanOperation" ],
     [ "mrmeshpy.BooleanParameters", "classmrmeshpy_1_1BooleanParameters.html", "classmrmeshpy_1_1BooleanParameters" ],

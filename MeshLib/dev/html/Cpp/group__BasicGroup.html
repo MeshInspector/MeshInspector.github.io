@@ -241,6 +241,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gabc3f588255ae3bd530638a5c6fb55557 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc3f588255ae3bd530638a5c6fb55557">MR::BitSetParallelFor</a> (const BS &amp;bs, F &amp;&amp;f, tbb::task_group_context &amp;tgc)</td></tr>
 <tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2" id="r_gaa44fd6dceea20f68975639cc07df31b2"><td class="memTemplParams" colspan="2">template&lt;typename BS, typename L, typename F, typename ... Cb&gt; </td></tr>
 <tr class="memitem:gaa44fd6dceea20f68975639cc07df31b2 template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa44fd6dceea20f68975639cc07df31b2">MR::BitSetParallelFor</a> (const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="memitem:gae44ca60e47ff70a1a8dd261447c8175c" id="r_gae44ca60e47ff70a1a8dd261447c8175c"><td class="memTemplParams" colspan="2">template&lt;typename In, typename Res, typename Visit&gt; </td></tr>
+<tr class="memitem:gae44ca60e47ff70a1a8dd261447c8175c template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae44ca60e47ff70a1a8dd261447c8175c">MR::BitSetWalk</a> (const In &amp;input, Res &amp;res, bool parallel, Visit &amp;&amp;visit)</td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536" id="r_ga2442ef2afa7012af6ca21ebcb6604536"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:ga2442ef2afa7012af6ca21ebcb6604536 template"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2442ef2afa7012af6ca21ebcb6604536">MR::heapBytes</a> (const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="memdesc:ga2442ef2afa7012af6ca21ebcb6604536"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given vector occupies on heap  <br /></td></tr>
@@ -852,6 +854,42 @@ template&lt;typename BS, typename L, typename ... F&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRBitSetParallelFor_8h.html">MRMesh/MRBitSetParallelFor.h</a>&gt;</code></p>
 <p>executes given function f( bit, subBitRange, tls ) for each bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html">BitSet</a> (bs) in parallel threads, where subBitRange are the bits that will be processed by the same thread, tls=e.local() (evaluated once for each subBitRange); it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+
+</div>
+</div>
+<a id="gae44ca60e47ff70a1a8dd261447c8175c" name="gae44ca60e47ff70a1a8dd261447c8175c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae44ca60e47ff70a1a8dd261447c8175c">&#9670;&#160;</a></span>BitSetWalk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename In, typename Res, typename Visit&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::BitSetWalk </td>
+          <td>(</td>
+          <td class="paramtype">const In &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Res &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>parallel</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Visit &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>visit</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRBitSetParallelFor_8h.html">MRMesh/MRBitSetParallelFor.h</a>&gt;</code></p>
+<p>calls visit( x, add ) for every set bit x of (input), where add( i ) sets bit i in (res): serially in the order of bits, or in parallel threads, where add sets the bit atomically, since several threads may write in the same block of (res) </p>
 
 </div>
 </div>

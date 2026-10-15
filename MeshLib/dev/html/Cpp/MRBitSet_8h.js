@@ -1,5 +1,6 @@
 var MRBitSet_8h =
 [
+    [ "MR::BitSet::Counts", "structMR_1_1BitSet_1_1Counts.html", "structMR_1_1BitSet_1_1Counts" ],
     [ "MR::contains", "group__BasicGroup.html#ga57dc941dcc422cae832eb4e285f9258b", null ],
     [ "MR::contains", "group__BasicGroup.html#ga84d3ef89997a21c7e28a95f9888e3a2e", null ],
     [ "MR::fillVectorWithSeqNums", "group__BasicGroup.html#ga896279ee5bfa452079d99c123817842b", null ],

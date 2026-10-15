@@ -1,5 +1,15 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#a999c16852d18828864e088e91a1072e8":[9,1,0,0,2,1145,5],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#a999c16852d18828864e088e91a1072e8":[9,1,1,0,1,1145,5],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#aa9fa94a138700cc9006c0d43d7ec5525":[9,1,0,0,2,1145,7],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#aa9fa94a138700cc9006c0d43d7ec5525":[9,1,1,0,1,1145,7],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[9,1,0,0,2,1145,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae257cf60c3dd5edd2e0e238f880a1d22":[9,1,1,0,1,1145,4],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae544cf0203408859e5f1e623474af7f4":[9,1,0,0,2,1145,6],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#ae544cf0203408859e5f1e623474af7f4":[9,1,1,0,1,1145,6],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[9,1,0,0,2,1145,3],
+"classmrmeshpy_1_1TriangleSegmentIntersectResult.html#af3adca081b4095d0e0d70084c3ac125f":[9,1,1,0,1,1145,3],
 "classmrmeshpy_1_1TriangulateHolesParams.html":[9,1,0,0,2,1146],
 "classmrmeshpy_1_1TriangulateHolesParams.html":[9,1,1,0,1,1146],
 "classmrmeshpy_1_1TriangulateHolesParams.html#a484037d2ceaf79cc79cd56baadf36afd":[9,1,0,0,2,1146,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1TriangulationParameters.html#af2a6263c012d08bfdeff89d4cfe778d2":[9,1,0,0,2,1149,6],
 "classmrmeshpy_1_1TriangulationParameters.html#af2a6263c012d08bfdeff89d4cfe778d2":[9,1,1,0,1,1149,6],
 "classmrmeshpy_1_1TrimOptionalOutput.html":[9,1,0,0,2,1153],
-"classmrmeshpy_1_1TrimOptionalOutput.html":[9,1,1,0,1,1153],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a05fefcafe2e9cb7f7584424a24a88b53":[9,1,0,0,2,1153,12],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a05fefcafe2e9cb7f7584424a24a88b53":[9,1,1,0,1,1153,12],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a09d790511678fcc05f6b12b4bb0573de":[9,1,0,0,2,1153,6],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a09d790511678fcc05f6b12b4bb0573de":[9,1,1,0,1,1153,6],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a0d9fad353619ce3752caddd26a5c7434":[9,1,0,0,2,1153,8],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a0d9fad353619ce3752caddd26a5c7434":[9,1,1,0,1,1153,8],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a2b68c93b2ddfdce77b75bf71d3d563d5":[9,1,0,0,2,1153,13],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a2b68c93b2ddfdce77b75bf71d3d563d5":[9,1,1,0,1,1153,13],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,0,0,2,1153,3],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,1,0,1,1153,3]
+"classmrmeshpy_1_1TrimOptionalOutput.html":[9,1,1,0,1,1153]
 };

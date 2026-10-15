@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BitSet_1_1Counts" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BitSet::Counts</compoundname>
+    <includes refid="MRBitSet_8h" local="no">MRMesh/MRBitSet.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BitSet_1_1Counts_1a66fde9318f3590b9b462765778d2c15f" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::BitSet::Counts::bits</definition>
+        <argsstring></argsstring>
+        <name>bits</name>
+        <qualifiedname>MR::BitSet::Counts::bits</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="170" column="27" bodyfile="MRMesh/MRBitSet.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BitSet_1_1Counts_1a0776e6d306c72a973806858bb91e4004" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::BitSet::Counts::blocks</definition>
+        <argsstring></argsstring>
+        <name>blocks</name>
+        <qualifiedname>MR::BitSet::Counts::blocks</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="170" column="43" bodyfile="MRMesh/MRBitSet.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>the numbers of set bits and of non-empty blocks </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRBitSet.h" line="170" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="170" bodyend="170"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BitSet_1_1Counts_1a66fde9318f3590b9b462765778d2c15f" prot="public" virt="non-virtual"><scope>MR::BitSet::Counts</scope><name>bits</name></member>
+      <member refid="structMR_1_1BitSet_1_1Counts_1a0776e6d306c72a973806858bb91e4004" prot="public" virt="non-virtual"><scope>MR::BitSet::Counts</scope><name>blocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

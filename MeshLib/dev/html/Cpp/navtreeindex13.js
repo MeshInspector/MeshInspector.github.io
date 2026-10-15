@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1ViewportMask.html#ae1fc607d938397dac12f6acafd1de9e7":[9,0,0,11,1,1,13],
 "classMR_1_1ViewportParametersAction.html":[9,0,0,4,44],
 "classMR_1_1ViewportProperty.html":[9,0,0,11,1,3],
 "classMR_1_1ViewportProperty.html":[9,0,0,20,356],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "functions_r.html":[9,0,2,3,0,18],
 "functions_rela.html":[9,0,2,3,6],
 "functions_s.html":[9,0,2,3,0,19],
-"functions_t.html":[9,0,2,3,0,20],
-"functions_type.html":[9,0,2,3,3]
+"functions_t.html":[9,0,2,3,0,20]
 };

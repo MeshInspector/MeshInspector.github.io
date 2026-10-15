@@ -1881,6 +1881,7 @@ var namespaceMR =
     [ "BitSetParallelForAll", "group__BasicGroup.html#ga473b8a238072b360e13c47d4c255d66f", null ],
     [ "BitSetParallelForAllRanged", "group__BasicGroup.html#ga33e26ce0b4711944b757408b0ab339a5", null ],
     [ "BitSetParallelForAllRanged", "group__BasicGroup.html#ga82bab0dac0d1604747ecff512e8a091a", null ],
+    [ "BitSetWalk", "group__BasicGroup.html#gae44ca60e47ff70a1a8dd261447c8175c", null ],
     [ "blend", "group__GeneralGroup.html#ga4b04ff1161b2c5a217772a5c848f98dc", null ],
     [ "BMap", "group__GeneralGroup.html#ga1d5cc23c99d2f46783d60010d13d31f9", null ],
     [ "BMap< UndirectedEdgeId, UndirectedEdgeId >", "group__GeneralGroup.html#ga7352d9729644e3fd4d02dd5131bdc652", null ],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"classmrmeshpy_1_1QuadraticForm3f.html#aa4094f26450a9cbe5e16817fd1b1c984":[9,1,0,0,2,807,4],
+"classmrmeshpy_1_1QuadraticForm3f.html#aa4094f26450a9cbe5e16817fd1b1c984":[9,1,1,0,1,807,4],
+"classmrmeshpy_1_1QuadraticForm3f.html#aab8df15b4bf6d8874e41f7233d73bfbe":[9,1,0,0,2,807,6],
+"classmrmeshpy_1_1QuadraticForm3f.html#aab8df15b4bf6d8874e41f7233d73bfbe":[9,1,1,0,1,807,6],
+"classmrmeshpy_1_1QuadraticForm3f.html#aacab84d06a0fb99034d81ce6d2ef7e37":[9,1,0,0,2,807,8],
+"classmrmeshpy_1_1QuadraticForm3f.html#aacab84d06a0fb99034d81ce6d2ef7e37":[9,1,1,0,1,807,8],
+"classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[9,1,0,0,2,807,5],
+"classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[9,1,1,0,1,807,5],
+"classmrmeshpy_1_1QuadricApprox.html":[9,1,0,0,2,808],
+"classmrmeshpy_1_1QuadricApprox.html":[9,1,1,0,1,808],
 "classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[9,1,0,0,2,808,0],
 "classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[9,1,1,0,1,808,0],
 "classmrmeshpy_1_1QuadricApprox.html#a23e69cda75f413c14b31f4dfb68962af":[9,1,0,0,2,808,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "classmrmeshpy_1_1RasterInfo.html#aa80ee6de318270d92d3ba442d86cfbf6":[9,1,0,0,2,814,9],
 "classmrmeshpy_1_1RasterInfo.html#aa80ee6de318270d92d3ba442d86cfbf6":[9,1,1,0,1,814,9],
 "classmrmeshpy_1_1RasterInfo.html#abfd3f1d6906031559b135d525b6f3038":[9,1,0,0,2,814,7],
-"classmrmeshpy_1_1RasterInfo.html#abfd3f1d6906031559b135d525b6f3038":[9,1,1,0,1,814,7],
-"classmrmeshpy_1_1RasterInfo.html#ae44d24f3e34cbe78aadcca970d7442b7":[9,1,0,0,2,814,0],
-"classmrmeshpy_1_1RasterInfo.html#ae44d24f3e34cbe78aadcca970d7442b7":[9,1,1,0,1,814,0],
-"classmrmeshpy_1_1RasterInfo.html#ae735d06a2e5e354d2679773700a33ee3":[9,1,0,0,2,814,4],
-"classmrmeshpy_1_1RasterInfo.html#ae735d06a2e5e354d2679773700a33ee3":[9,1,1,0,1,814,4],
-"classmrmeshpy_1_1RasterInfo.html#ae9d64252d7d50bf19716814c532e0fc0":[9,1,0,0,2,814,1],
-"classmrmeshpy_1_1RasterInfo.html#ae9d64252d7d50bf19716814c532e0fc0":[9,1,1,0,1,814,1],
-"classmrmeshpy_1_1RasterLoad.html":[9,1,0,0,2,815],
-"classmrmeshpy_1_1RasterLoad.html":[9,1,1,0,1,815],
-"classmrmeshpy_1_1RasterLoadSettings.html":[9,1,0,0,2,816],
-"classmrmeshpy_1_1RasterLoadSettings.html":[9,1,1,0,1,816]
+"classmrmeshpy_1_1RasterInfo.html#abfd3f1d6906031559b135d525b6f3038":[9,1,1,0,1,814,7]
 };

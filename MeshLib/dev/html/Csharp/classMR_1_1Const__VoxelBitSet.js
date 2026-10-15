@@ -14,6 +14,7 @@ var classMR_1_1Const__VoxelBitSet =
     [ "bits", "classMR_1_1Const__VoxelBitSet.html#a9ae39a4890e34aaf9e1c6b83d95d53a8", null ],
     [ "capacity", "classMR_1_1Const__VoxelBitSet.html#a1074fe5f444b78780074f5157531d563", null ],
     [ "count", "classMR_1_1Const__VoxelBitSet.html#ab20da7ccacb06ac967af88b4bb4e9e73", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__VoxelBitSet.html#a690c68aeb2ed68a0ddb82313b3eee3d9", null ],
     [ "Dispose", "classMR_1_1Const__VoxelBitSet.html#a84240fd89d78cea84e9cee2f57350284", null ],
     [ "Dispose", "classMR_1_1Const__VoxelBitSet.html#a08ed2d66ea780167e36032b1decec912", null ],
     [ "empty", "classMR_1_1Const__VoxelBitSet.html#a0f2c57e5e83fd8b56746fa86ff3451fc", null ],

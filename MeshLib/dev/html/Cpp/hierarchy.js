@@ -310,6 +310,7 @@ var hierarchy =
     [ "MR::CoordinateConverters", "structMR_1_1CoordinateConverters.html", null ],
     [ "MR::CoordinateConverters2", "structMR_1_1CoordinateConverters2.html", null ],
     [ "MR::CornerControllerObject", "classMR_1_1CornerControllerObject.html", null ],
+    [ "MR::BitSet::Counts", "structMR_1_1BitSet_1_1Counts.html", null ],
     [ "MR::CubicBezierCurve< V >", "structMR_1_1CubicBezierCurve.html", null ],
     [ "MR::CudaAccessor", "classMR_1_1CudaAccessor.html", null ],
     [ "MR::CurveFunc", "structMR_1_1CurveFunc.html", null ],

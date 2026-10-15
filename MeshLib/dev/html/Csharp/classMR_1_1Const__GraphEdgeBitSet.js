@@ -14,6 +14,7 @@ var classMR_1_1Const__GraphEdgeBitSet =
     [ "bits", "classMR_1_1Const__GraphEdgeBitSet.html#a12acc43e0df13cd90e0348d4cc74898d", null ],
     [ "capacity", "classMR_1_1Const__GraphEdgeBitSet.html#ad687a25d6d0173364d3a94b265cd9945", null ],
     [ "count", "classMR_1_1Const__GraphEdgeBitSet.html#a301cf5f881abe0e39349a7e0af348f1f", null ],
+    [ "countBitsAndBlocks", "classMR_1_1Const__GraphEdgeBitSet.html#ad3359805f68692e508752e8ae776010e", null ],
     [ "Dispose", "classMR_1_1Const__GraphEdgeBitSet.html#a8d0e69ebcbd86b0d4b8566f513fe1866", null ],
     [ "Dispose", "classMR_1_1Const__GraphEdgeBitSet.html#ad5c34bd9b20dc74c37692ce8a2924e31", null ],
     [ "empty", "classMR_1_1Const__GraphEdgeBitSet.html#a282f2d9a22b16196b6bc746c29144377", null ],
