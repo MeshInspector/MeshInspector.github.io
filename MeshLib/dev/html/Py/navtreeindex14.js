@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classmrmeshpy_1_1CNCMachineSettings.html#a5be1d8fa337057eed003d585b1c8290e":[9,1,0,0,2,158,9],
 "classmrmeshpy_1_1CNCMachineSettings.html#a5be1d8fa337057eed003d585b1c8290e":[9,1,1,0,1,158,9],
 "classmrmeshpy_1_1CNCMachineSettings.html#a80ab24ffc766cadaa27ed895b8042195":[9,1,0,0,2,158,7],
 "classmrmeshpy_1_1CNCMachineSettings.html#a80ab24ffc766cadaa27ed895b8042195":[9,1,1,0,1,158,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#af0c65b16cf3d5a3e9bed29d056e0bcda":[9,1,0,0,2,124,2],
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#af0c65b16cf3d5a3e9bed29d056e0bcda":[9,1,1,0,1,124,2],
 "classmrmeshpy_1_1ChangeMeshPointsAction.html#af2cd5c0c7530714a401ed0ee8f189ab4":[9,1,0,0,2,124,3],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#af2cd5c0c7530714a401ed0ee8f189ab4":[9,1,1,0,1,124,3],
-"classmrmeshpy_1_1ChangeMeshPointsAction.html#afc639c8cfc17ec930e09410992291a9c":[9,1,0,0,2,124,0]
+"classmrmeshpy_1_1ChangeMeshPointsAction.html#af2cd5c0c7530714a401ed0ee8f189ab4":[9,1,1,0,1,124,3]
 };

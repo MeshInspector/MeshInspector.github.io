@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a82a4f2693097b888d2748bdd222ff661":[9,3,0,0,0,1235,0,14],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#aa43fc9ba3625c2fa90a6a32720c12cd5":[9,3,0,0,0,1235,0,5],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#aa66f3fbb3b9e17987f5a0f147b00f8b5":[9,3,0,0,0,1235,0,10],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#aab365887c4d5e2d1501219b08f3e6e57":[9,3,0,0,0,1235,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "classMR_1_1GraphEdgeBitSet.html#a23f365ebf98239da895373812ad7dd67":[9,3,0,0,0,1250,1],
 "classMR_1_1GraphEdgeBitSet.html#a3481a40690d5331cdc31680e13c51072":[9,3,0,0,0,1250,11],
 "classMR_1_1GraphEdgeBitSet.html#a35e455eca37aad981ac8ccd6ee81527c":[9,3,0,0,0,1250,17],
-"classMR_1_1GraphEdgeBitSet.html#a3c91724ab7453d3e8592a62a1d3dfa96":[9,3,0,0,0,1250,19],
-"classMR_1_1GraphEdgeBitSet.html#a41f565e143f872c1ec0dd3e976007b68":[9,3,0,0,0,1250,25]
+"classMR_1_1GraphEdgeBitSet.html#a3c91724ab7453d3e8592a62a1d3dfa96":[9,3,0,0,0,1250,19]
 };

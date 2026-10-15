@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type.html#afa654817804d971e0404217e566d7391":[9,1,0,0,2,294,2,1,2],
 "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type.html#afa654817804d971e0404217e566d7391":[9,1,1,0,1,294,2,1,2],
 "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html":[9,1,0,0,2,294,2,2],
 "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html":[9,1,1,0,1,294,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1FixCreasesParams.html#af315b88687c5921e9228451490cc27c7":[9,1,0,0,2,302,0],
 "classmrmeshpy_1_1FixCreasesParams.html#af315b88687c5921e9228451490cc27c7":[9,1,1,0,1,302,0],
 "classmrmeshpy_1_1FixCreasesParams.html#af34e66adbab9af3fd3878dc0906a4362":[9,1,0,0,2,302,3],
-"classmrmeshpy_1_1FixCreasesParams.html#af34e66adbab9af3fd3878dc0906a4362":[9,1,1,0,1,302,3],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html":[9,1,0,0,2,303]
+"classmrmeshpy_1_1FixCreasesParams.html#af34e66adbab9af3fd3878dc0906a4362":[9,1,1,0,1,302,3]
 };

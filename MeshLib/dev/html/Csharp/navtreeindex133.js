@@ -1,5 +1,6 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1SmoothFillingSettings.html#aafc1fdfb2ed97dab7d336839a1641cf8":[9,3,0,0,0,1666,1],
 "classMR_1_1SomeLocalTriangulations.html":[9,3,0,0,0,1667],
 "classMR_1_1SomeLocalTriangulations.html#a025e91ded83fa1c8f05c2e0f815677d4":[9,3,0,0,0,1667,4],
 "classMR_1_1SomeLocalTriangulations.html#a0a42efcbf0fed65e80639dfcdd01636d":[9,3,0,0,0,1667,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#a9d99178f4b634f382408b48553ff2689":[9,3,0,0,0,1678,5,8],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aa00aa4bf3e37df1838b955a8b8e26544":[9,3,0,0,0,1678,5,10],
 "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aacfaec0c0e43801a9cbe7b7cc570daf8":[9,3,0,0,0,1678,5,11],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aba943069a104fc5c4be4e0556e833341":[9,3,0,0,0,1678,5,13],
-"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#ad20269964deb9cd7d4b97988fda31cbc":[9,3,0,0,0,1678,5,2]
+"classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html#aba943069a104fc5c4be4e0556e833341":[9,3,0,0,0,1678,5,13]
 };

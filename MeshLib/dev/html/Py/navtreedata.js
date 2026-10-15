@@ -34,6 +34,7 @@ var NAVTREE =
       [ "C", "../MeshLibCSetupGuide.html", null ],
       [ "JavaScript", "../MeshLibJsSetupGuide.html", null ],
       [ "Rust", "../MeshLibRustSetupGuide.html", null ],
+      [ "Java", "../MeshLibJavaSetupGuide.html", null ],
       [ "CMake", "../MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "../License.html", null ],
@@ -320,15 +321,15 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html#a431abb3f48a396176e13c56dc220d44d",
 "classmrmeshpy_1_1std__vector__unsigned__short.html#a688e9723d34425249f26e4b096e40b25",
 "classmrviewerpy_1_1ViewportFitDataParams.html#a5c0367c0bbceec4622e8b6c43b24a27a",
-"namespacemrmeshpy.html#a008bb85e9956f6ab8fa06fd534068009",
-"namespacemrmeshpy.html#a244b94f1cbef9badbe2ead6a3bbcd740",
-"namespacemrmeshpy.html#a412be43693220e3507e9d549626d6712",
-"namespacemrmeshpy.html#a5d32f84cfe838d45149da0062c3b7e69",
-"namespacemrmeshpy.html#a7e0733c188e85f0c7080ca1c58feb9d8",
-"namespacemrmeshpy.html#a9eaeb85cc2ed782b070f3f95bcc2250f",
-"namespacemrmeshpy.html#abd35cb7070e81754859e0c5c4ceccad5",
-"namespacemrmeshpy.html#ad8b652b0335ccd72891d526813661424",
-"namespacemrmeshpy.html#af7bb92532dd2bb2fa37548ffdd15261e"
+"namespacemrmeshpy.html#a0075a61a1836be9e390d32523a347b02",
+"namespacemrmeshpy.html#a242ff888fbbf276696d037824a95dffc",
+"namespacemrmeshpy.html#a41287a5e4c3702c49eec7921446640a2",
+"namespacemrmeshpy.html#a5d2536e502f9d876c8de49d8641ee65c",
+"namespacemrmeshpy.html#a7deef2727a4df33dbbee0c72effed335",
+"namespacemrmeshpy.html#a9e8d33371d2989c28330ec3bc3254b7a",
+"namespacemrmeshpy.html#abd29d88a8d7fde45f42cfaf4aca5c77c",
+"namespacemrmeshpy.html#ad88fa8f2c5b232ef1257c1ee6e964779",
+"namespacemrmeshpy.html#af74b9c307d00d212668656b182745de9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

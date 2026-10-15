@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a81ffa6e0e5036a203e151cf1066eceff":[9,3,0,0,0,694,4],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a88cbdb1cb5581b4740c6771674b30173":[9,3,0,0,0,694,0],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#a89de2906d8328e9b124ce56154e1f00f":[9,3,0,0,0,694,5],
 "classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCone.html#ad77ea1b8c65d264123c2bf795c25e181":[9,3,0,0,0,694,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "classMR_1_1Const__ObjectDistanceMap.html#a5fde3d27c02f5bb7212a4f8fb91df48a":[9,3,0,0,0,679,109],
 "classMR_1_1Const__ObjectDistanceMap.html#a6048623b28f969ff0300a852cf9431bf":[9,3,0,0,0,679,46],
 "classMR_1_1Const__ObjectDistanceMap.html#a60c57ab0c620f804dc064e795cc6d2fe":[9,3,0,0,0,679,15],
-"classMR_1_1Const__ObjectDistanceMap.html#a626fab883c405643fa07c1bf6e192686":[9,3,0,0,0,679,40],
-"classMR_1_1Const__ObjectDistanceMap.html#a631ded48a83b05c244a51a2691cf10c4":[9,3,0,0,0,679,32]
+"classMR_1_1Const__ObjectDistanceMap.html#a626fab883c405643fa07c1bf6e192686":[9,3,0,0,0,679,40]
 };

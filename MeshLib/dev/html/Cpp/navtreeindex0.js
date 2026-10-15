@@ -58,8 +58,9 @@ var NAVTREEINDEX0 =
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
 "../MeshLibCSharpSetupGuide.html":[2,2],
-"../MeshLibCmakeSetupGuide.html":[2,6],
+"../MeshLibCmakeSetupGuide.html":[2,7],
 "../MeshLibCppSetupGuide.html":[2,1],
+"../MeshLibJavaSetupGuide.html":[2,6],
 "../MeshLibJsSetupGuide.html":[2,4],
 "../MeshLibPythonSetupGuide.html":[2,0],
 "../MeshLibRustSetupGuide.html":[2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRClosestWeightedPoint_8h.html":[9,0,3,0,7,60],
 "MRClosestWeightedPoint_8h_source.html":[9,0,3,0,7,60],
 "MRCloudPartMapping_8h.html":[9,0,3,0,7,62],
-"MRCloudPartMapping_8h_source.html":[9,0,3,0,7,62],
-"MRColorMapAggregator_8h.html":[9,0,3,0,7,65]
+"MRCloudPartMapping_8h_source.html":[9,0,3,0,7,62]
 };

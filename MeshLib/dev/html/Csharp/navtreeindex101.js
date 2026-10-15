@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1DistanceMapSave.html#ad2c46a3796f8ae801f2fdc9d7fbf41b3":[9,3,0,0,0,1164,0],
 "classMR_1_1DistanceMapSave.html#af5f73d2b7ddf420b84901ac67016729f":[9,3,0,0,0,1164,2],
 "classMR_1_1DistanceMapSaveSettings.html":[9,3,0,0,0,1165],
 "classMR_1_1DistanceMapSaveSettings.html#a2f4f9fdb8967a93301a279f1c3e70bf1":[9,3,0,0,0,1165,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1EdgeColors.html#aa9dbf471f0eddeaceb33a564a39a3ab0":[9,3,0,0,0,1177,2],
 "classMR_1_1EdgeColors.html#aae91d1a2298f0b834a450954da5764c1":[9,3,0,0,0,1177,26],
 "classMR_1_1EdgeColors.html#aba1eba42ff6dfc723b97b20dbc7df412":[9,3,0,0,0,1177,17],
-"classMR_1_1EdgeColors.html#abf2a80a0c7eb6d77a39d6029e76c3246":[9,3,0,0,0,1177,23],
-"classMR_1_1EdgeColors.html#ac210c64b19e5698b01d280486ccc510a":[9,3,0,0,0,1177,25]
+"classMR_1_1EdgeColors.html#abf2a80a0c7eb6d77a39d6029e76c3246":[9,3,0,0,0,1177,23]
 };

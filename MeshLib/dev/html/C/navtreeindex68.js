@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"MRMesh_8h.html#a61c383473b97b9434c5860a64ebfccb5":[9,2,2,0,0,0,0,1,165,34],
 "MRMesh_8h.html#a641a81a13c090f4ada9a457b67edf651":[9,2,2,0,0,0,0,1,165,63],
 "MRMesh_8h.html#a6784dcfed208704650bfd266628c4aee":[9,2,2,0,0,0,0,1,165,102],
 "MRMesh_8h.html#a693ef248f6cca8994f85acd6623668b1":[9,2,2,0,0,0,0,1,165,76],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "MRMoveMeshToVoxelMaxDeriv_8h.html#ab0b17b4d7a506d422a3f219dd341d328":[9,2,2,0,0,0,0,4,13,130],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#ab20c5513c8d03139bd88df42d6832607":[9,2,2,0,0,0,0,4,13,6],
 "MRMoveMeshToVoxelMaxDeriv_8h.html#ab2b03d0faf31d9582a0561d0b4a274e3":[9,2,2,0,0,0,0,4,13,176],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#ab338427260aefb512cd0c780d94ab33b":[9,2,2,0,0,0,0,4,13,94],
-"MRMoveMeshToVoxelMaxDeriv_8h.html#ab4835306505ec0cb7bfdd4a6157380c8":[9,2,2,0,0,0,0,4,13,180]
+"MRMoveMeshToVoxelMaxDeriv_8h.html#ab338427260aefb512cd0c780d94ab33b":[9,2,2,0,0,0,0,4,13,94]
 };

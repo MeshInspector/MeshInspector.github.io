@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1NewEdgesMap.html#a7d563c8646ac6495f850481cd50f5150":[9,1,0,0,2,603,2],
 "classmrmeshpy_1_1NewEdgesMap.html#a7d563c8646ac6495f850481cd50f5150":[9,1,1,0,1,603,2],
 "classmrmeshpy_1_1NewEdgesMap.html#a95716ec9a2d6e3143c3d56e5bdf9a81e":[9,1,0,0,2,603,4],
 "classmrmeshpy_1_1NewEdgesMap.html#a95716ec9a2d6e3143c3d56e5bdf9a81e":[9,1,1,0,1,603,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1NoDefInit__VertId.html#ac61180161415dbae909481ab6e2bc979":[9,1,0,0,2,634,0],
 "classmrmeshpy_1_1NoDefInit__VertId.html#ac61180161415dbae909481ab6e2bc979":[9,1,1,0,1,634,0],
 "classmrmeshpy_1_1NoDefInit__VoxelId.html":[9,1,0,0,2,635],
-"classmrmeshpy_1_1NoDefInit__VoxelId.html":[9,1,1,0,1,635],
-"classmrmeshpy_1_1NoDefInit__VoxelId.html#a0436dd5d7fe35867e38b4078b464e6c4":[9,1,0,0,2,635,2]
+"classmrmeshpy_1_1NoDefInit__VoxelId.html":[9,1,1,0,1,635]
 };

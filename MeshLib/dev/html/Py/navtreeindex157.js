@@ -1,5 +1,6 @@
 var NAVTREEINDEX157 =
 {
+"classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html#a15822cb757a00e8e9fa5da410b940758":[9,1,0,0,2,999,28],
 "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html#a15822cb757a00e8e9fa5da410b940758":[9,1,1,0,1,999,28],
 "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html#a1c1ceff2d48e506fde0f8ae03b5dce57":[9,1,0,0,2,999,13],
 "classmrmeshpy_1_1std__vector__LineSegm__Vector3__float.html#a1c1ceff2d48e506fde0f8ae03b5dce57":[9,1,1,0,1,999,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX157 =
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#ad04c6f74f8e68100ef3b7eb14aa15137":[9,1,0,0,2,1005,22],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#ad04c6f74f8e68100ef3b7eb14aa15137":[9,1,1,0,1,1005,22],
 "classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#ad9431ba27448c79e2ece4e7aef543be6":[9,1,0,0,2,1005,5],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#ad9431ba27448c79e2ece4e7aef543be6":[9,1,1,0,1,1005,5],
-"classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#ae19e4e2db0e4587f53941ad712d776ed":[9,1,0,0,2,1005,7]
+"classmrmeshpy_1_1std__vector__MeshBuilder__VertSpan.html#ad9431ba27448c79e2ece4e7aef543be6":[9,1,1,0,1,1005,5]
 };

@@ -58,8 +58,9 @@ var NAVTREEINDEX0 =
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
 "../MeshLibCSharpSetupGuide.html":[2,2],
-"../MeshLibCmakeSetupGuide.html":[2,6],
+"../MeshLibCmakeSetupGuide.html":[2,7],
 "../MeshLibCppSetupGuide.html":[2,1],
+"../MeshLibJavaSetupGuide.html":[2,6],
 "../MeshLibJsSetupGuide.html":[2,4],
 "../MeshLibPythonSetupGuide.html":[2,0],
 "../MeshLibRustSetupGuide.html":[2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRAABBTreeBase_8h.html#a72d073e2a6f51296619192a77dec7272":[9,2,2,0,0,0,0,1,2,12],
 "MRAABBTreeBase_8h.html#a751ab093c2f54c484084b2d946b91065":[9,2,2,0,0,0,0,1,2,63],
 "MRAABBTreeBase_8h.html#a7dc87e3b2a49222c8f67c90fe0387fce":[9,2,2,0,0,0,0,1,2,88],
-"MRAABBTreeBase_8h.html#a7e0e69f3d41226c505d5f61320a4d9b9":[9,2,2,0,0,0,0,1,2,55],
-"MRAABBTreeBase_8h.html#a834bce676aab69a69970b6efd9449660":[9,2,2,0,0,0,0,1,2,23]
+"MRAABBTreeBase_8h.html#a7e0e69f3d41226c505d5f61320a4d9b9":[9,2,2,0,0,0,0,1,2,55]
 };

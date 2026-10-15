@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1TriangulateHolesParams.html":[9,1,0,0,2,1146],
 "classmrmeshpy_1_1TriangulateHolesParams.html":[9,1,1,0,1,1146],
 "classmrmeshpy_1_1TriangulateHolesParams.html#a484037d2ceaf79cc79cd56baadf36afd":[9,1,0,0,2,1146,3],
 "classmrmeshpy_1_1TriangulateHolesParams.html#a484037d2ceaf79cc79cd56baadf36afd":[9,1,1,0,1,1146,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2b68c93b2ddfdce77b75bf71d3d563d5":[9,1,0,0,2,1153,13],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2b68c93b2ddfdce77b75bf71d3d563d5":[9,1,1,0,1,1153,13],
 "classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,0,0,2,1153,3],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,1,0,1,1153,3],
-"classmrmeshpy_1_1TrimOptionalOutput.html#a4b8d60ee28c1db014367eb5247c5fa55":[9,1,0,0,2,1153,9]
+"classmrmeshpy_1_1TrimOptionalOutput.html#a2e0f3f3cfac0e99278e6a01af2000db6":[9,1,1,0,1,1153,3]
 };

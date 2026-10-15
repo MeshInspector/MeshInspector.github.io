@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[9,0,1,0,1,35,2,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a70e3d0a1a91b137c484075351c1bda3e":[9,0,2,0,2,22,2,3],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[9,0,1,0,1,35,2,2],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a77bdcb1f510b0515f87b17324c8d67aa":[9,0,2,0,2,22,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ShaderWarning.html":[9,0,0,20,588],
 "structMR_1_1SharpOffsetParameters.html":[9,0,0,20,872],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html":[9,0,0,20,510],
-"structMR_1_1ShellVertexInfo.html":[9,0,0,20,306],
-"structMR_1_1Shortcut.html":[9,0,0,20,742]
+"structMR_1_1ShellVertexInfo.html":[9,0,0,20,306]
 };

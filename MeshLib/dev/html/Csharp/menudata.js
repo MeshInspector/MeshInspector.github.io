@@ -33,6 +33,7 @@ var menudata={children:[
 {text:"C",url:"../MeshLibCSetupGuide.html"},
 {text:"JavaScript",url:"../MeshLibJsSetupGuide.html"},
 {text:"Rust",url:"../MeshLibRustSetupGuide.html"},
+{text:"Java",url:"../MeshLibJavaSetupGuide.html"},
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"How to cite",url:"../Citation.html"},

@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Const__ZlibCompressStats.html#a29368fb3d2bedcbccf2e9ad394432931":[9,3,0,0,0,1055,1],
 "classMR_1_1Const__ZlibCompressStats.html#a34d13d3fe075c04b879730d284065c4e":[9,3,0,0,0,1055,7],
 "classMR_1_1Const__ZlibCompressStats.html#a3edd4f5927a4b1c43b871fefdd19e74e":[9,3,0,0,0,1055,4],
 "classMR_1_1Const__ZlibCompressStats.html#a690f3858ac28624bbac6943cb8d3604c":[9,3,0,0,0,1055,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1Cuda_1_1Const__PointsProjector.html#aef7afd0014618ac03eee242e4379147f":[9,3,0,0,0,1133,6,9],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html":[9,3,0,0,0,1133,7],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a0c5d2e92cddc3957fd34799932d82002":[9,3,0,0,0,1133,7,2],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a30c1365e012d872d8df43e12fbc76e53":[9,3,0,0,0,1133,7,0],
-"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32":[9,3,0,0,0,1133,7,8]
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a30c1365e012d872d8df43e12fbc76e53":[9,3,0,0,0,1133,7,0]
 };

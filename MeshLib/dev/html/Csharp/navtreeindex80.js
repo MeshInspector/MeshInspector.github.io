@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__SimpleVolumeMinMaxU16.html#a0598ac351a666080d12ac5bc2aec0e05":[9,3,0,0,0,847,11],
 "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a0bcb73fac97479f26479122fdc7fa923":[9,3,0,0,0,847,26],
 "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a164d209ef11573d3675a0b6178482bdf":[9,3,0,0,0,847,3],
 "classMR_1_1Const__SimpleVolumeMinMaxU16.html#a1d3e39015c7dd2ed777ad8dc938dea29":[9,3,0,0,0,847,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__SphereObject.html#a0c170d9508dcecbeda73fe2d04c6017f":[9,3,0,0,0,861,27],
 "classMR_1_1Const__SphereObject.html#a0cd085ce8e691244b72763f58be9b7fd":[9,3,0,0,0,861,18],
 "classMR_1_1Const__SphereObject.html#a112d60b61d046b477d8ab1be0a797bcd":[9,3,0,0,0,861,21],
-"classMR_1_1Const__SphereObject.html#a203efab821718a75ab7a99ef0c870a1c":[9,3,0,0,0,861,16],
-"classMR_1_1Const__SphereObject.html#a212ff52fa8e4dace9b7af2f1d42d7fb4":[9,3,0,0,0,861,23]
+"classMR_1_1Const__SphereObject.html#a203efab821718a75ab7a99ef0c870a1c":[9,3,0,0,0,861,16]
 };

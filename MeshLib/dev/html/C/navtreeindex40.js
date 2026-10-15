@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"MRFeatures_8h.html#a5cc824cedb070b3fa92e375544bee04e":[9,2,2,0,0,0,0,1,101,171],
 "MRFeatures_8h.html#a5cd671f3d90295fcd91bbae9719678df":[9,2,2,0,0,0,0,1,101,107],
 "MRFeatures_8h.html#a5d05749be54b0f360cc81299bfe6afa6":[9,2,2,0,0,0,0,1,101,57],
 "MRFeatures_8h.html#a5e35b1ec269b5f1732015f56522bcd5b":[9,2,2,0,0,0,0,1,101,240],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "MRFillHoleNicely_8h.html#a3f01812d89236acd45153c731d6e8c0f":[9,2,2,0,0,0,0,1,106,73],
 "MRFillHoleNicely_8h.html#a42d4934c475cb29f652fcfd1dfdd7aed":[9,2,2,0,0,0,0,1,106,32],
 "MRFillHoleNicely_8h.html#a43cfa1782de18caacf821cc444bf0410":[9,2,2,0,0,0,0,1,106,52],
-"MRFillHoleNicely_8h.html#a446cd1e894ab6ef3de7c1242cc6f88a7":[9,2,2,0,0,0,0,1,106,60],
-"MRFillHoleNicely_8h.html#a4542b5be7b62576ce607b2a4ec67ec07":[9,2,2,0,0,0,0,1,106,9]
+"MRFillHoleNicely_8h.html#a446cd1e894ab6ef3de7c1242cc6f88a7":[9,2,2,0,0,0,0,1,106,60]
 };

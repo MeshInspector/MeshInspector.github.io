@@ -59,8 +59,9 @@ var NAVTREEINDEX0 =
 "../License.html":[3],
 "../MeshLibCSetupGuide.html":[2,3],
 "../MeshLibCSharpSetupGuide.html":[2,2],
-"../MeshLibCmakeSetupGuide.html":[2,6],
+"../MeshLibCmakeSetupGuide.html":[2,7],
 "../MeshLibCppSetupGuide.html":[2,1],
+"../MeshLibJavaSetupGuide.html":[2,6],
 "../MeshLibJsSetupGuide.html":[2,4],
 "../MeshLibPythonSetupGuide.html":[2,0],
 "../MeshLibRustSetupGuide.html":[2,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a38114ec1d1349a46628324489a602e0f":[9,1,0,0,2,3,10],
 "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a38114ec1d1349a46628324489a602e0f":[9,1,1,0,1,3,10],
 "classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a5f34a8685094910577d6b6f4440dc52e":[9,1,0,0,2,3,8],
-"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a5f34a8685094910577d6b6f4440dc52e":[9,1,1,0,1,3,8],
-"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a6f7fe261062b8ccef1a87ec348524669":[9,1,0,0,2,3,9]
+"classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a5f34a8685094910577d6b6f4440dc52e":[9,1,1,0,1,3,8]
 };

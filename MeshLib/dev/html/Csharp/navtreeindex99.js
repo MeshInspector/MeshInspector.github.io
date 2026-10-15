@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a345a2c3a2ad57fe98251e53d6119fb32":[9,3,0,0,0,1133,7,8],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6b9df534abc4ddb6c2c9b95a674063ed":[9,3,0,0,0,1133,7,1],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#a6dacf8fbd0207d569e3e35876ee708d6":[9,3,0,0,0,1133,7,7],
 "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html#ac3f7a8e10de898caab17054a19c1187b":[9,3,0,0,0,1133,7,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1DecimateResult.html#a1485417101447b1de97b0f684c956034":[9,3,0,0,0,1146,2],
 "classMR_1_1DecimateResult.html#a4907b767f454c980b94fb8385a459c6b":[9,3,0,0,0,1146,4],
 "classMR_1_1DecimateResult.html#a527166116e334bc77c78ef5ce736cda5":[9,3,0,0,0,1146,5],
-"classMR_1_1DecimateResult.html#a64552392c8ee7167f138222085aa9f03":[9,3,0,0,0,1146,0],
-"classMR_1_1DecimateResult.html#a877bdbe5430fac08446a155fbf450e3a":[9,3,0,0,0,1146,1]
+"classMR_1_1DecimateResult.html#a64552392c8ee7167f138222085aa9f03":[9,3,0,0,0,1146,0]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"MRLocalTriangulations_8h.html#ae21790d12555ddef2b53c737e77cf945":[9,2,2,0,0,0,0,1,153,70],
 "MRLocalTriangulations_8h.html#ae31fabc38ee7db7dd79bd3cdd3ff5a21":[9,2,2,0,0,0,0,1,153,72],
 "MRLocalTriangulations_8h.html#aeafcb0730c693c21e6267ab6fe46cb11":[9,2,2,0,0,0,0,1,153,71],
 "MRLocalTriangulations_8h.html#aebb66bfd983cda359f0f8cf1fa6e971a":[9,2,2,0,0,0,0,1,153,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "MRMarchingCubes_8h.html#af8b0c284cf0e8ed7278a805fddf2ec18":[9,2,2,0,0,0,0,4,11,35],
 "MRMarchingCubes_8h.html#afe923012defe8369f0ad8823d0dfd519":[9,2,2,0,0,0,0,4,11,60],
 "MRMarchingCubes_8h_source.html":[9,2,2,0,0,0,0,4,11],
-"MRMarkedContour_8h.html":[9,2,2,0,0,0,0,1,159],
-"MRMarkedContour_8h.html#a0003b4aa84597ae34848085ef669f0bc":[9,2,2,0,0,0,0,1,159,42]
+"MRMarkedContour_8h.html":[9,2,2,0,0,0,0,1,159]
 };

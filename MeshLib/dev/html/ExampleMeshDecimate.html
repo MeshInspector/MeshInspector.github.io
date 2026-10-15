@@ -412,6 +412,62 @@ Source mesh <div class="image">
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mr.DecimateResult;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.DecimateSettings;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.expected_MR_Mesh_std_string;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.expected_void_std_string;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshDecimate</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// Load mesh.</span></div>
+<div class="line">        expected_MR_Mesh_std_string loaded = meshlib.mr.meshload.Functions.fromAnySupportedFormat(<span class="stringliteral">&quot;mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        <span class="keywordflow">if</span> (!loaded.success())</div>
+<div class="line">        {</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to load mesh: &quot;</span> + loaded.error());</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">        }</div>
+<div class="line">        Mesh mesh = loaded.value_mut();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Repack mesh optimally.</span></div>
+<div class="line">        <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing.</span></div>
+<div class="line">        mesh.packOptimally(<span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Setup decimate parameters.</span></div>
+<div class="line">        DecimateSettings settings = <span class="keyword">new</span> DecimateSettings();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Decimation stop thresholds, you may specify one or both.</span></div>
+<div class="line">        settings.setMaxDeletedFaces(1000); <span class="comment">// Number of faces to be deleted.</span></div>
+<div class="line">        settings.setMaxError(0.05f); <span class="comment">// Maximum error when decimation stops.</span></div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
+<div class="line">        <span class="comment">// A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead.</span></div>
+<div class="line">        settings.setSubdivideParts(16);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Decimate mesh.</span></div>
+<div class="line">        DecimateResult result = Functions.decimateMesh(mesh, settings);</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;Removed &quot;</span> + result.vertsDeleted() + <span class="stringliteral">&quot; vertices, &quot;</span> + result.facesDeleted() + <span class="stringliteral">&quot; faces&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save result.</span></div>
+<div class="line">        expected_void_std_string saved = meshlib.mr.meshsave.Functions.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;decimated_mesh.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        <span class="keywordflow">if</span> (!saved.success())</div>
+<div class="line">        {</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to save mesh: &quot;</span> + saved.error());</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> Source mesh <div class="image">
+<img src="decimate_before.png" alt=""/>
+</div>
+ After decimate <div class="image">
+<img src="decimate_after.png" alt=""/>
+</div>
+</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

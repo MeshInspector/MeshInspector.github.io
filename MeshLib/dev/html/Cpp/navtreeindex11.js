@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html#a8082ee9bd4f7d6aa6c8caa39ac0d2e2e":[9,0,1,0,1,43,6,0],
 "classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent.html#a8082ee9bd4f7d6aa6c8caa39ac0d2e2e":[9,0,2,0,2,27,6,0],
 "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html":[9,0,1,0,1,43,7],
 "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html":[9,0,2,0,2,27,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html":[9,0,2,0,2,32,4],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a11dc848394777b3ad3ebabada8ff3ad8":[9,0,1,0,1,48,4,3],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a11dc848394777b3ad3ebabada8ff3ad8":[9,0,2,0,2,32,4,3],
-"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[9,0,1,0,1,48,4,2],
-"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[9,0,2,0,2,32,4,2]
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[9,0,1,0,1,48,4,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"MRGLStaticHolder_8h_source.html":[9,0,3,0,11,33],
 "MRGLTexture_8h.html":[9,0,3,0,11,34],
 "MRGLTexture_8h_source.html":[9,0,3,0,11,34],
 "MRGcodeLoad_8h.html":[9,0,3,0,7,135],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "MRMapOrHashMap_8h_source.html":[9,0,3,0,7,191],
 "MRMapping_8h.html":[9,0,3,0,7,192],
 "MRMapping_8h_source.html":[9,0,3,0,7,192],
-"MRMarchingCubes_8h.html":[9,0,3,0,12,12],
-"MRMarchingCubes_8h_source.html":[9,0,3,0,12,12]
+"MRMarchingCubes_8h.html":[9,0,3,0,12,12]
 };

@@ -564,6 +564,82 @@ Source meshes <div class="image">
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mr.AffineXf3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanOperation;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanResult;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanResultMapper;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanResultMapper_MapObject;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.FaceBitSet;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.FaceId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.FaceMap;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.Vector3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.mr.expected_void_std_string;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
+<div class="line"><span class="keyword">class </span>MeshBoolean</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>(String[] args)</div>
+<div class="line">    {</div>
+<div class="line">        <span class="comment">// First, create a unit sphere.</span></div>
+<div class="line">        Mesh sphere1 = Functions.makeUVSphere(1.0f, 64, 64);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Create a copy of this sphere and offset it.</span></div>
+<div class="line">        Mesh sphere2 = <span class="keyword">new</span> Mesh(sphere1);</div>
+<div class="line">        AffineXf3f xf = AffineXf3f.translation(<span class="keyword">new</span> Vector3f(0.7f, 0.0f, 0.0f));</div>
+<div class="line">        sphere2.transform(xf, <span class="keyword">null</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Ask for an optional mapper relating the primitives of the input meshes to the primitives of the result.</span></div>
+<div class="line">        BooleanResultMapper mapper = <span class="keyword">new</span> BooleanResultMapper();</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Perform the boolean operation.</span></div>
+<div class="line">        BooleanResult result = Functions.boolean_(sphere1, sphere2, BooleanOperation.Intersection, <span class="keyword">null</span>, mapper, <span class="keyword">null</span>);</div>
+<div class="line">        <span class="keywordflow">if</span> (!result.valid())</div>
+<div class="line">        {</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to perform boolean: &quot;</span> + result.errorString());</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Find the faces of the result produced by each input sphere, and the faces the cut created.</span></div>
+<div class="line">        FaceBitSet facesOfSphere1 = mapper.map(sphere1.topology().getValidFaces(), BooleanResultMapper_MapObject.A);</div>
+<div class="line">        FaceBitSet facesOfSphere2 = mapper.map(sphere2.topology().getValidFaces(), BooleanResultMapper_MapObject.B);</div>
+<div class="line">        FaceBitSet newFaces = mapper.newFaces();</div>
+<div class="line"> </div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;faces from sphere1: &quot;</span> + facesOfSphere1.count());</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;faces from sphere2: &quot;</span> + facesOfSphere2.count());</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;faces created by the cut: &quot;</span> + newFaces.count());</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Map one particular face of sphere1 forward: the cut can split it in several faces of the</span></div>
+<div class="line">        <span class="comment">// result, or drop it completely if that part of sphere1 is not in the result.</span></div>
+<div class="line">        FaceId faceOfSphere1 = <span class="keyword">new</span> FaceId(793);</div>
+<div class="line">        FaceBitSet oneFace = <span class="keyword">new</span> FaceBitSet();</div>
+<div class="line">        oneFace.autoResizeSet(faceOfSphere1, <span class="keyword">true</span>);</div>
+<div class="line">        FaceBitSet producedFaces = mapper.map(oneFace, BooleanResultMapper_MapObject.A);</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;face &quot;</span> + faceOfSphere1.id_() + <span class="stringliteral">&quot; of sphere1 produced &quot;</span> + producedFaces.count() + <span class="stringliteral">&quot; faces of the result&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// And backward: the face of sphere1 each face of the result came from</span></div>
+<div class="line">        <span class="comment">// (invalid id for the faces that came from sphere2).</span></div>
+<div class="line">        FaceMap new2oldFaces = mapper.getNew2OldFaceMap(BooleanResultMapper_MapObject.A);</div>
+<div class="line">        FaceId resultFace = producedFaces.find_first();</div>
+<div class="line">        System.out.println(<span class="stringliteral">&quot;face &quot;</span> + resultFace.id_() + <span class="stringliteral">&quot; of the result came from face &quot;</span> + new2oldFaces.index(resultFace).id_() + <span class="stringliteral">&quot; of sphere1&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// Save result to an STL file.</span></div>
+<div class="line">        expected_void_std_string saved = meshlib.mr.meshsave.Functions.toAnySupportedFormat(result.mesh(), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        <span class="keywordflow">if</span> (!saved.success())</div>
+<div class="line">        {</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to save mesh: &quot;</span> + saved.error());</div>
+<div class="line">            System.exit(1);</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+</div><!-- fragment --> Source meshes <div class="image">
+<img src="boolean_before.png" alt=""/>
+</div>
+ Boolean intersection <div class="image">
+<img src="boolean_after.png" alt=""/>
+</div>
+</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->

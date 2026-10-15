@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRColorMapAggregator_8h.html":[9,0,3,0,7,65],
 "MRColorMapAggregator_8h_source.html":[9,0,3,0,7,65],
 "MRColorTheme_8h.html":[9,0,3,0,11,12],
 "MRColorTheme_8h_source.html":[9,0,3,0,11,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRGLMacro_8h.html":[9,0,3,0,11,32],
 "MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7":[9,0,3,0,11,32,0],
 "MRGLMacro_8h_source.html":[9,0,3,0,11,32],
-"MRGLStaticHolder_8h.html":[9,0,3,0,11,33],
-"MRGLStaticHolder_8h_source.html":[9,0,3,0,11,33]
+"MRGLStaticHolder_8h.html":[9,0,3,0,11,33]
 };

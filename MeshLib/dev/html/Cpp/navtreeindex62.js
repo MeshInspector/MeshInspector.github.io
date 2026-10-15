@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[9,0,0,1,3,1],
 "structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[9,0,0,1,3,0],
 "structMR_1_1AllLocalTriangulations.html":[9,0,0,20,334],
 "structMR_1_1AlphaShapeData.html":[9,0,0,20,127],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[9,0,0,10,0,16],
 "structMR_1_1DeloneFlipsCache.html":[9,0,1,0,1,210],
 "structMR_1_1DeloneFlipsCache.html":[9,0,2,0,2,191],
-"structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,1,0,1,210,3],
-"structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,2,0,2,191,3]
+"structMR_1_1DeloneFlipsCache.html#a238e6b49d80746fc39866fa132c510d3":[9,0,1,0,1,210,3]
 };

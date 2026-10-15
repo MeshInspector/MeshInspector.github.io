@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"classMR_1_1Const__MeshToDistanceMapParams.html#abe5bf99515ce58245e2d44033c71e563":[9,3,0,0,0,614,0],
 "classMR_1_1Const__MeshToDistanceMapParams.html#ac4b299ac8a772f67abb948835af130b0":[9,3,0,0,0,614,1],
 "classMR_1_1Const__MeshToDistanceMapParams.html#ac9862af2925ffe1a9310b1ad96bec95e":[9,3,0,0,0,614,22],
 "classMR_1_1Const__MeshToDistanceMapParams.html#ad78031c3c878d3422295d3eab37f9f68":[9,3,0,0,0,614,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "classMR_1_1Const__MetricToAStarPenalty.html":[9,3,0,0,0,623],
 "classMR_1_1Const__MetricToAStarPenalty.html#a04858f5470ceb49d41da5d34b5c469fe":[9,3,0,0,0,623,8],
 "classMR_1_1Const__MetricToAStarPenalty.html#a4463b763006a35451f059364c66fa594":[9,3,0,0,0,623,2],
-"classMR_1_1Const__MetricToAStarPenalty.html#a51990eacd7961f703d8e0f6b03c190b0":[9,3,0,0,0,623,0],
-"classMR_1_1Const__MetricToAStarPenalty.html#a6e48618f3fffa5d322678c14de6c2707":[9,3,0,0,0,623,3]
+"classMR_1_1Const__MetricToAStarPenalty.html#a51990eacd7961f703d8e0f6b03c190b0":[9,3,0,0,0,623,0]
 };

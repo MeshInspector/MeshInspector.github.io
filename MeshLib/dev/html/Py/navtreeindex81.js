@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"classmrmeshpy_1_1PositionedText.html#adc826106d87240e25caa5595edcabc83":[9,1,0,0,2,795,1],
 "classmrmeshpy_1_1PositionedText.html#adc826106d87240e25caa5595edcabc83":[9,1,1,0,1,795,1],
 "classmrmeshpy_1_1PositionedText.html#ae4aa54d4ff6238cf83b0a4939aea6267":[9,1,0,0,2,795,0],
 "classmrmeshpy_1_1PositionedText.html#ae4aa54d4ff6238cf83b0a4939aea6267":[9,1,1,0,1,795,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[9,1,0,0,2,807,5],
 "classmrmeshpy_1_1QuadraticForm3f.html#acfbc01bfedb94d7f2bce30f3724e224c":[9,1,1,0,1,807,5],
 "classmrmeshpy_1_1QuadricApprox.html":[9,1,0,0,2,808],
-"classmrmeshpy_1_1QuadricApprox.html":[9,1,1,0,1,808],
-"classmrmeshpy_1_1QuadricApprox.html#a09ed7eb2114885d9e8a532d542995c49":[9,1,0,0,2,808,0]
+"classmrmeshpy_1_1QuadricApprox.html":[9,1,1,0,1,808]
 };

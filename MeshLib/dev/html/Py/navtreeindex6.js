@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"classmrmeshpy_1_1BendContoursAlongCurveParams.html#a335ce40eecc891eb89fc51bae8ec91b3":[9,1,0,0,2,50,12],
 "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a335ce40eecc891eb89fc51bae8ec91b3":[9,1,1,0,1,50,12],
 "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a35050fa8cf76e698f6d91096d46426e1":[9,1,0,0,2,50,8],
 "classmrmeshpy_1_1BendContoursAlongCurveParams.html#a35050fa8cf76e698f6d91096d46426e1":[9,1,1,0,1,50,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "classmrmeshpy_1_1BooleanOperation.html":[9,1,0,0,2,70],
 "classmrmeshpy_1_1BooleanOperation.html":[9,1,1,0,1,70],
 "classmrmeshpy_1_1BooleanOperation.html#a0644652b03571b11f91f31030890680d":[9,1,0,0,2,70,10],
-"classmrmeshpy_1_1BooleanOperation.html#a0644652b03571b11f91f31030890680d":[9,1,1,0,1,70,10],
-"classmrmeshpy_1_1BooleanOperation.html#a100b1e4419e8994eefac3602f9ab5aa0":[9,1,0,0,2,70,6]
+"classmrmeshpy_1_1BooleanOperation.html#a0644652b03571b11f91f31030890680d":[9,1,1,0,1,70,10]
 };

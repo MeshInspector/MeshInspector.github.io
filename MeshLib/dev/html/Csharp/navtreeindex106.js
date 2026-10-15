@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1FillHoleMetric.html#a2c1ba55499bc9a972157bbdb33c658c7":[9,3,0,0,0,1224,6],
 "classMR_1_1FillHoleMetric.html#aa18d0841694f6015f54f4b4dc354d570":[9,3,0,0,0,1224,3],
 "classMR_1_1FillHoleMetric.html#aa250f4e21f368d470f170aa0905da818":[9,3,0,0,0,1224,2],
 "classMR_1_1FillHoleMetric.html#ab2435bf1ca9e3e7908cbdbd44e1f4e8d":[9,3,0,0,0,1224,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a4cf61ea9c6a5d8811d24edc520391c88":[9,3,0,0,0,1235,0,12],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a570e8d2afc42e754080c2d09dbfceac2":[9,3,0,0,0,1235,0,4],
 "classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a61f2f3189dec98b645ea7f9b23e9b114":[9,3,0,0,0,1235,0,13],
-"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a693b312c0b7100e537c3acb07c369d85":[9,3,0,0,0,1235,0,1],
-"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a82a4f2693097b888d2748bdd222ff661":[9,3,0,0,0,1235,0,14]
+"classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters.html#a693b312c0b7100e537c3acb07c369d85":[9,3,0,0,0,1235,0,1]
 };
