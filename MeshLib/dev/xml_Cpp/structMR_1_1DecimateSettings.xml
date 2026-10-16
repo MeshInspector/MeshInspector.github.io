@@ -475,11 +475,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts </para>
+<para>Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="158" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="158" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="159" column="10" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7d69e19f2609b7330c6ac5d17a9ebfff" prot="public" static="no" mutable="no">
         <type>std::vector&lt; FaceBitSet &gt; *</type>
@@ -495,7 +495,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="163" column="18" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="163" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="164" column="18" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DecimateSettings_1a7cc18ed533890cfc09a39ba3724b5f85" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -511,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="166" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="166" bodyend="-1"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="167" column="9" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="167" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -535,7 +535,7 @@
         <link refid="classMR_1_1Vector"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRMeshDecimate.h" line="34" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="167"/>
+    <location file="MRMesh/MRMeshDecimate.h" line="34" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="35" bodyend="168"/>
     <listofallmembers>
       <member refid="structMR_1_1DecimateSettings_1a21d7c6d9122286b4edf7bd531d38b72b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
       <member refid="structMR_1_1DecimateSettings_1a2f6ca4e4f21750ae6d21f4d0c4376dca" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>

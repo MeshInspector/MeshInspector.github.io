@@ -1553,7 +1553,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts Returns a pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">decimateBetweenParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region Returns a pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">decimateBetweenParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2135,7 +2135,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts Returns a mutable pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">decimateBetweenParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region Returns a mutable pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">decimateBetweenParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2790,7 +2790,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts Modifies a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">decimateBetweenParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">decimateBetweenParts</span>. </p>
+<p>Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region Modifies a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">decimateBetweenParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">decimateBetweenParts</span>. </p>
 
 </div>
 </div>

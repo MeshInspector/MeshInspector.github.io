@@ -264,7 +264,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a27f3e3531623261f1c018736674582b5" id="r_a27f3e3531623261f1c018736674582b5"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27f3e3531623261f1c018736674582b5">subdivideParts</a><code> [get]</code></td></tr>
 <tr class="memdesc:a27f3e3531623261f1c018736674582b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad.  <br /></td></tr>
 <tr class="memitem:aa4e0cd109290eee59e9d8d9b865512db" id="r_aa4e0cd109290eee59e9d8d9b865512db"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e0cd109290eee59e9d8d9b865512db">decimateBetweenParts</a><code> [get]</code></td></tr>
-<tr class="memdesc:aa4e0cd109290eee59e9d8d9b865512db"><td class="mdescLeft">&#160;</td><td class="mdescRight">After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts.  <br /></td></tr>
+<tr class="memdesc:aa4e0cd109290eee59e9d8d9b865512db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region.  <br /></td></tr>
 <tr class="memitem:ad2aa5e7e744414e2a04018642dc536db" id="r_ad2aa5e7e744414e2a04018642dc536db"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.? Vector_MRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2aa5e7e744414e2a04018642dc536db">partFaces</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad2aa5e7e744414e2a04018642dc536db"><td class="mdescLeft">&#160;</td><td class="mdescRight">if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option  <br /></td></tr>
 <tr class="memitem:af09b0d2581c37052c97caf4811b6d874" id="r_af09b0d2581c37052c97caf4811b6d874"><td class="memItemLeft" align="right" valign="top">unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af09b0d2581c37052c97caf4811b6d874">minFacesInPart</a><code> [get]</code></td></tr>
@@ -1370,7 +1370,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts. </p>
+<p>Whether to decimate near the borders of individual parts to eliminate small edges there: as soon as two sibling nodes in the binary tree of parts are decimated, their union is decimated in parallel with other nodes, and only the border between two halves of the mesh remains for the final decimation of whole mesh region. </p>
 
 </div>
 </div>
