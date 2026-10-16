@@ -5,7 +5,7 @@ var searchData=
   ['p2plstabilizer_2',['p2plStabilizer',['../classICPProperties.html#a51b358f243888b6cf83db958e296c41d',1,'ICPProperties']]],
   ['pack_3',['pack',['../classMesh.html#ac3c3547ec119da203c626a4aa601bc56',1,'Mesh']]],
   ['packmesh_4',['packMesh',['../classDecimateSettings.html#aa96cd5cc66f6d720735be71885284f72',1,'DecimateSettings::packMesh'],['../classRemeshSettings.html#ab5dd3d01e684f41750f60c3676ee70ba',1,'RemeshSettings::packMesh']]],
-  ['packoptimally_5',['packOptimally',['../classMesh.html#aed586a2285b09d1dfed0e38590449e7c',1,'Mesh']]],
+  ['packoptimally_5',['packOptimally',['../classMesh.html#aed586a2285b09d1dfed0e38590449e7c',1,'Mesh::packOptimally()'],['../classMesh.html#ae1bc43197a3d4b28091f90acf78cfdff',1,'Mesh::packOptimally(boolean preserveAABBTree)']]],
   ['peredge_6',['PerEdge',['../bindings_8d_8mts.html#a51444be96316efc6d822134406394a5ca7bdb3ad2d0dbf702f29befb8f2e14586',1,'bindings.d.mts']]],
   ['pervertex_7',['PerVertex',['../bindings_8d_8mts.html#a51444be96316efc6d822134406394a5cac03d3664af47806b119e55b1c6ef4775',1,'bindings.d.mts']]],
   ['plusz_8',['plusZ',['../classVector3.html#a74913a9a4d68056ba4bbf571e8a31bbd',1,'Vector3']]],

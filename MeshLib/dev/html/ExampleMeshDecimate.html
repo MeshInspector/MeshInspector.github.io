@@ -158,9 +158,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line"> </div>
 <div class="line">    MR::Mesh&amp; mesh = *meshRes;</div>
 <div class="line">    </div>
-<div class="line">    <span class="comment">// Repack mesh optimally.</span></div>
+<div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">    mesh.packOptimally();</div>
+<div class="line">    mesh.packOptimally( <span class="keyword">false</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">    MR::DecimateSettings settings;</div>
@@ -198,9 +198,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line"><span class="comment"># Load mesh</span></div>
 <div class="line">mesh = mrmeshpy.loadMesh(<span class="stringliteral">&quot;mesh.stl&quot;</span>)</div>
 <div class="line"> </div>
-<div class="line"><span class="comment"># Repack mesh optimally.</span></div>
+<div class="line"><span class="comment"># Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line"><span class="comment"># It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">mesh.packOptimally()</div>
+<div class="line">mesh.packOptimally(<span class="keyword">False</span>)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Setup decimate parameters</span></div>
 <div class="line">settings = mrmeshpy.DecimateSettings()</div>
@@ -301,9 +301,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">                ? MR.MeshLoad.fromAnySupportedFormat(args[0])</div>
 <div class="line">                : MR.makeUVSphere(1.0f, 64, 64);</div>
 <div class="line"> </div>
-<div class="line">            <span class="comment">// Repack mesh optimally.</span></div>
+<div class="line">            <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">            <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
-<div class="line">            mesh.packOptimally();</div>
+<div class="line">            mesh.packOptimally(<span class="keyword">false</span>);</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">            MR.DecimateSettings ds = <span class="keyword">new</span>();</div>
@@ -342,9 +342,9 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">// Load mesh</div>
 <div class="line">using mesh = ml.MeshLoad.fromAnySupportedFormat(&#39;mesh.stl&#39;);</div>
 <div class="line"> </div>
-<div class="line">// Repack the mesh.</div>
+<div class="line">// Repack the mesh without building an AABB tree, which decimation invalidates anyway.</div>
 <div class="line">// Not necessary, but highly recommended to achieve the best performance in parallel processing.</div>
-<div class="line">mesh.packOptimally();</div>
+<div class="line">mesh.packOptimally(false);</div>
 <div class="line"> </div>
 <div class="line">// Setup decimate parameters</div>
 <div class="line">using settings = new ml.DecimateSettings();</div>
@@ -432,9 +432,9 @@ Source mesh <div class="image">
 <div class="line">        }</div>
 <div class="line">        Mesh mesh = loaded.value_mut();</div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// Repack mesh optimally.</span></div>
+<div class="line">        <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
 <div class="line">        <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing.</span></div>
-<div class="line">        mesh.packOptimally(<span class="keyword">null</span>);</div>
+<div class="line">        mesh.packOptimally(<span class="keyword">false</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Setup decimate parameters.</span></div>
 <div class="line">        DecimateSettings settings = <span class="keyword">new</span> DecimateSettings();</div>

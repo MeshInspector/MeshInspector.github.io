@@ -144,6 +144,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3c3547ec119da203c626a4aa601bc56" id="r_ac3c3547ec119da203c626a4aa601bc56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c3547ec119da203c626a4aa601bc56">pack</a> ()</td></tr>
 <tr class="memdesc:ac3c3547ec119da203c626a4aa601bc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">tightly packs all arrays eliminating lone edges and invalid faces, vertices and points  <br /></td></tr>
 <tr class="memitem:aed586a2285b09d1dfed0e38590449e7c" id="r_aed586a2285b09d1dfed0e38590449e7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed586a2285b09d1dfed0e38590449e7c">packOptimally</a> ()</td></tr>
+<tr class="memitem:ae1bc43197a3d4b28091f90acf78cfdff" id="r_ae1bc43197a3d4b28091f90acf78cfdff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1bc43197a3d4b28091f90acf78cfdff">packOptimally</a> (<a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a> preserveAABBTree)</td></tr>
 <tr class="memitem:a7bce69de1b3b56a1c71d2eaf4cda8c14" id="r_a7bce69de1b3b56a1c71d2eaf4cda8c14"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bce69de1b3b56a1c71d2eaf4cda8c14">volume</a> ()</td></tr>
 <tr class="memitem:a75fdb3c699d2af450f9e78fb83624151" id="r_a75fdb3c699d2af450f9e78fb83624151"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75fdb3c699d2af450f9e78fb83624151">area</a> ()</td></tr>
 <tr class="memdesc:a75fdb3c699d2af450f9e78fb83624151"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of given face  <br /></td></tr>
@@ -476,7 +477,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aed586a2285b09d1dfed0e38590449e7c" name="aed586a2285b09d1dfed0e38590449e7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed586a2285b09d1dfed0e38590449e7c">&#9670;&#160;</a></span>packOptimally()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed586a2285b09d1dfed0e38590449e7c">&#9670;&#160;</a></span>packOptimally() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,6 +486,29 @@ Public Attributes</h2></td></tr>
           <td class="memname">void Mesh::packOptimally </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">preserveAABBTree</td><td>whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae1bc43197a3d4b28091f90acf78cfdff" name="ae1bc43197a3d4b28091f90acf78cfdff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1bc43197a3d4b28091f90acf78cfdff">&#9670;&#160;</a></span>packOptimally() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mesh::packOptimally </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a></td>          <td class="paramname"><span class="paramname"><em>preserveAABBTree</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
