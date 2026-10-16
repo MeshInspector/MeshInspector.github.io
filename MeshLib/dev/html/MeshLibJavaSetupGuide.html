@@ -142,13 +142,16 @@ $(function(){initNavTree('MeshLibJavaSetupGuide.html','',''); });
         <a href="#JavaSetupPrerequisites">Prerequisites </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md137">Installation </a>
+        <a href="#autotoc_md137">Installation from Maven Central </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md138">Using the API </a>
+        <a href="#autotoc_md138">Installation from the release archive </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md139">Try MeshLib with Java Examples </a>
+        <a href="#autotoc_md139">Using the API </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md140">Try MeshLib with Java Examples </a>
       </li>
     </ul>
   </li>
@@ -157,23 +160,42 @@ $(function(){initNavTree('MeshLibJavaSetupGuide.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2JavaSetupGuide"></a></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md136"></a>
 Setting Up MeshLib for Java Development</h1>
-<dl class="section note"><dt>Note</dt><dd>The Java bindings are new. They are generated from the C API and published as a source archive on the releases page, not on Maven Central yet.</dd></dl>
 <p>The bindings are a plain jar, <span class="tt">meshlib.jar</span>, with no native code of its own: it calls the C API library <span class="tt">MeshLibC2</span> (see the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>) through the foreign function API of Java 22, so there is no JNI glue to compile. C++ classes become classes whose instances own their C++ object (destroyed when garbage-collected, or earlier by <span class="tt">close()</span>), references returned by methods keep the object they point into alive, <span class="tt">std::string</span> parameters take <span class="tt">String</span>, and C++ exceptions become <span class="tt">meshlib.CppException</span>. The C++ namespaces become packages, so everything from <span class="tt">MR::</span> is under <span class="tt">meshlib.mr</span>, and the free functions are the static methods of <span class="tt">meshlib.mr.Functions</span>.</p>
 <h2 class="doxsection"><a class="anchor" id="JavaSetupPrerequisites"></a>
 Prerequisites</h2>
 <ul>
 <li>A JDK 22 or newer (the bindings use <span class="tt">java.lang.foreign</span>, final since Java 22).</li>
-<li>The MeshLib binaries for your platform, installed as described in the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>: the Linux <span class="tt">.deb</span> or vcpkg archive, or the macOS <span class="tt">.pkg</span>. On Windows use the DLLs of the NuGet package instead of the plain Windows archive, see below.</li>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md137"></a>
-Installation</h2>
+Installation from Maven Central</h2>
+<p>The bindings are the artifact <span class="tt">com.meshinspector:meshlib</span>, and the MeshLib libraries of each platform are artifacts of the same name and version with the classifiers <span class="tt">natives-windows-x86_64</span>, <span class="tt">natives-windows-aarch64</span>, <span class="tt">natives-linux-x86_64</span>, <span class="tt">natives-linux-aarch64</span>, <span class="tt">natives-macos-x86_64</span> and <span class="tt">natives-macos-aarch64</span>. On the first use the bindings extract the libraries of the current platform from the natives jar on the class path to the temporary directory (or to the directory in the system property <span class="tt">meshlib.native.cache</span>), and later runs reuse them; nothing else needs to be installed.</p>
+<p><b>Gradle</b> (<span class="tt">build.gradle.kts</span>), with the natives of the platforms you need: </p><div class="fragment"><div class="line">dependencies {</div>
+<div class="line">    implementation(&quot;com.meshinspector:meshlib:3.1.4.544&quot;)</div>
+<div class="line">    runtimeOnly(&quot;com.meshinspector:meshlib:3.1.4.544:natives-windows-x86_64&quot;)</div>
+<div class="line">    runtimeOnly(&quot;com.meshinspector:meshlib:3.1.4.544:natives-linux-x86_64&quot;)</div>
+<div class="line">}</div>
+</div><!-- fragment --><p><b>Maven</b>: the dependency on <span class="tt">meshlib</span>, and one on the natives with a classifier picked by an OS profile, as in <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/java-examples/pom.xml">examples/java-examples/pom.xml</a>: </p><div class="fragment"><div class="line">&lt;<span class="keywordtype">dependency</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">groupId</span>&gt;<span class="keyword">com.meshinspector</span>&lt;/<span class="keywordtype">groupId</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">artifactId</span>&gt;<span class="keyword">meshlib</span>&lt;/<span class="keywordtype">artifactId</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">version</span>&gt;3.1.4.544&lt;/<span class="keywordtype">version</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">dependency</span>&gt;</div>
+<div class="line">&lt;<span class="keywordtype">dependency</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">groupId</span>&gt;<span class="keyword">com.meshinspector</span>&lt;/<span class="keywordtype">groupId</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">artifactId</span>&gt;<span class="keyword">meshlib</span>&lt;/<span class="keywordtype">artifactId</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">version</span>&gt;3.1.4.544&lt;/<span class="keywordtype">version</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">classifier</span>&gt;<span class="keyword">natives-</span>${<span class="keyword">meshlib.platform</span>}&lt;/<span class="keywordtype">classifier</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">scope</span>&gt;<span class="keyword">runtime</span>&lt;/<span class="keywordtype">scope</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">dependency</span>&gt;</div>
+</div><!-- fragment --><p>Run with <span class="tt">--enable-native-access=ALL-UNNAMED</span> (otherwise the first call into the library prints a warning).</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
+Installation from the release archive</h2>
 <ol type="1">
 <li><b>Download the bindings</b> <br  />
  Open the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> page and download <span class="tt">meshlib_&lt;version&gt;_java_bindings.zip</span> of the same version as your MeshLib binaries. It holds <span class="tt">meshlib.jar</span> and the generated sources in <span class="tt">src</span>, which your IDE can use for navigation and documentation.</li>
 <li><b>Put the jar on the class path</b> <br  />
  <span class="tt">javac -cp meshlib.jar ...</span> and <span class="tt">java -cp meshlib.jar:... ...</span> (<span class="tt">;</span> instead of <span class="tt">:</span> on Windows), or add it to your build tool as a plain jar dependency.</li>
 <li><b>Make the MeshLib libraries loadable</b> <br  />
- Pass the directory with the MeshLib shared libraries in <span class="tt">java.library.path</span>, and enable native access for your code (otherwise the first call into the library prints a warning): <div class="fragment"><div class="line">java --enable-native-access=ALL-UNNAMED -Djava.library.path=/usr/local/lib/MeshLib/lib -cp meshlib.jar:. MyProgram</div>
+ Install the MeshLib binaries for your platform as described in the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a> (the Linux <span class="tt">.deb</span> or vcpkg archive, or the macOS <span class="tt">.pkg</span>; on Windows use the DLLs of the NuGet package instead of the plain Windows archive, see below). Pass the directory with the MeshLib shared libraries in <span class="tt">java.library.path</span>, and enable native access for your code: <div class="fragment"><div class="line">java --enable-native-access=ALL-UNNAMED -Djava.library.path=/usr/local/lib/MeshLib/lib -cp meshlib.jar:. MyProgram</div>
 </div><!-- fragment --><ul>
 <li>Linux: <span class="tt">/usr/local/lib/MeshLib/lib</span> for the <span class="tt">.deb</span>, or <span class="tt">path_to_install/lib</span> for the vcpkg archive</li>
 <li>macOS: <span class="tt">/Library/Frameworks/MeshLib.framework/Versions/Current/lib</span></li>
@@ -181,7 +203,7 @@ Installation</h2>
 </ul>
 </li>
 </ol>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
 Using the API</h2>
 <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mr.Functions;</div>
 <div class="line"><span class="keyword">import</span> meshlib.mr.Mesh;</div>
@@ -209,9 +231,9 @@ Using the API</h2>
 <li>Downcasts and upcasts between a class and its bases are explicit: <span class="tt">objectMesh.upcastToObject()</span>, <span class="tt">ObjectMesh.dynamicDowncastFromObject(object)</span> (null if the object isn't an <span class="tt">ObjectMesh</span>).</li>
 <li>Structs like <span class="tt">Vector3f</span> are views over native memory with the C++ layout: <span class="tt">v.x()</span>, <span class="tt">v.setX(1.0f)</span>, <span class="tt">v.copy()</span>.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md140"></a>
 Try MeshLib with Java Examples</h2>
-<p>The <a class="el" href="Examples.html">code samples</a> have Java tabs for the <a class="el" href="ExampleMeshBoolean.html">boolean</a>, <a class="el" href="ExampleMeshDecimate.html">decimation</a> and <a class="el" href="ExampleMeshLoadSave.html">load and save</a> examples, with the sources in <span class="tt">examples/java-examples</span> of the repository. Compile them with <span class="tt">javac --release 22 -cp meshlib.jar -d classes examples/java-examples/*.java</span> and run them with <span class="tt">java --enable-native-access=ALL-UNNAMED -Djava.library.path=&lt;libraries&gt; -cp meshlib.jar:classes MeshBoolean</span>. </p>
+<p>The <a class="el" href="Examples.html">code samples</a> have Java tabs for the <a class="el" href="ExampleMeshBoolean.html">boolean</a>, <a class="el" href="ExampleMeshDecimate.html">decimation</a> and <a class="el" href="ExampleMeshLoadSave.html">load and save</a> examples, with the sources in <span class="tt">examples/java-examples</span> of the repository. Run them with Maven from that directory: <span class="tt">mvn compile exec:exec -Dexample=MeshBoolean</span>. Or compile them with <span class="tt">javac --release 22 -cp meshlib.jar -d classes examples/java-examples/*.java</span> and run them with <span class="tt">java --enable-native-access=ALL-UNNAMED -Djava.library.path=&lt;libraries&gt; -cp meshlib.jar:classes MeshBoolean</span>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
