@@ -2741,6 +2741,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.pseudonormal", "namespacemrmeshpy.html#afb52eb800023323158a02a3c74524fe0", null ],
     [ "mrmeshpy.pseudonormal", "namespacemrmeshpy.html#a93b85f416167dc6f48c5d825767592c7", null ],
     [ "mrmeshpy.putScanFileNameInZ", "namespacemrmeshpy.html#aa5ce6c8f168ac410ef421f243467c27a", null ],
+    [ "mrmeshpy.putSimpleVolumeInDenseGrid", "namespacemrmeshpy.html#a1270753928d12a1bd07c7780ddbf10dc", null ],
     [ "mrmeshpy.quadrangleOtherDiagonal_double", "namespacemrmeshpy.html#ae8e3100bbc564f475c7a689a74b71f38", null ],
     [ "mrmeshpy.quadrangleOtherDiagonal_float", "namespacemrmeshpy.html#af259256291c59f2f052818093cea6760", null ],
     [ "mrmeshpy.quadraticForm", "namespacemrmeshpy.html#a8462eef0440bdb86f672b0e448e09aa7", null ],

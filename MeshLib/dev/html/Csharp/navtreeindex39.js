@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1Const__Cone3ApproximationParams.html#a80b6c32ef93b00c6b8d26c12b0196215":[9,3,0,0,0,362,0],
 "classMR_1_1Const__Cone3ApproximationParams.html#a87d85e2aafa0c20c35a97213cced41df":[9,3,0,0,0,362,6],
 "classMR_1_1Const__Cone3ApproximationParams.html#ab81287e4d0fee031c4df8f02077c3021":[9,3,0,0,0,362,5],
 "classMR_1_1Const__Cone3ApproximationParams.html#aba36f80609bfcae7cbdfaf955fac923e":[9,3,0,0,0,362,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1Const__ContoursDistanceMapOffset.html#a1d287f69b32066ad60e596c1f45c4d95a960b44c579bc2f6818d2daaf9e4c16f0":[9,3,0,0,0,368,0,0],
 "classMR_1_1Const__ContoursDistanceMapOffset.html#a1d287f69b32066ad60e596c1f45c4d95aea89b68c34ce4a63c0f77e17413c6e30":[9,3,0,0,0,368,0,1],
 "classMR_1_1Const__ContoursDistanceMapOffset.html#a295598623ce955c14e61d6b2346c0ecf":[9,3,0,0,0,368,2],
-"classMR_1_1Const__ContoursDistanceMapOffset.html#a343ef351a19670c401571268fa48dc3a":[9,3,0,0,0,368,4],
-"classMR_1_1Const__ContoursDistanceMapOffset.html#a5e9c4ab1da8491fb94b3b33cd484dd64":[9,3,0,0,0,368,8]
+"classMR_1_1Const__ContoursDistanceMapOffset.html#a343ef351a19670c401571268fa48dc3a":[9,3,0,0,0,368,4]
 };

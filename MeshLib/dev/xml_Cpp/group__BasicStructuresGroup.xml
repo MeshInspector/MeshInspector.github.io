@@ -740,6 +740,70 @@
         </inbodydescription>
         <location file="MRVoxels/MRVDBFloatGrid.h" line="62" column="42" bodyfile="MRVoxels/MRVDBFloatGrid.h" bodystart="62" bodyend="66"/>
       </memberdef>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga3563bb2455bc4f7c264b52fc67c9eb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::putSimpleVolumeInDenseGrid</definition>
+        <argsstring>(openvdb::FloatGrid &amp;grid, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, ProgressCallback cb={})</argsstring>
+        <name>putSimpleVolumeInDenseGrid</name>
+        <qualifiedname>MR::putSimpleVolumeInDenseGrid</qualifiedname>
+        <param>
+          <type>openvdb::FloatGrid &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>minCoord</declname>
+        </param>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Copy given <computeroutput>simpleVolume</computeroutput> into the <computeroutput>grid</computeroutput>, starting at <computeroutput>minCoord</computeroutput> Uses multithreaded copying, so the function is not thread safe. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="70" column="22" declfile="MRVoxels/MRVDBFloatGrid.h" declline="70" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__BasicStructuresGroup_1ga9032dad3aaac78372fa711d2dbdac09d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_IGNORE void</type>
+        <definition>MR_BIND_IGNORE void MR::putSimpleVolumeInDenseGrid</definition>
+        <argsstring>(openvdb::FloatGrid::Accessor &amp;gridAccessor, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, ProgressCallback cb={})</argsstring>
+        <name>putSimpleVolumeInDenseGrid</name>
+        <qualifiedname>MR::putSimpleVolumeInDenseGrid</qualifiedname>
+        <param>
+          <type>openvdb::FloatGrid::Accessor &amp;</type>
+          <declname>gridAccessor</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>minCoord</declname>
+        </param>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Copy given <computeroutput>simpleVolume</computeroutput> into the grid of <computeroutput>gridAccessor</computeroutput>, starting at <computeroutput>minCoord</computeroutput> Can be called from different threads on the same grid, provided that the accessors are different. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRVoxels/MRVDBFloatGrid.h" line="77" column="22" declfile="MRVoxels/MRVDBFloatGrid.h" declline="77" declcolumn="22"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>This chapter represents documentation about basic structures elements. </para>

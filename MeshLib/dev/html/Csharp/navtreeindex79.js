@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"classMR_1_1Const__SetBitIteratorT__MRPixelBitSet.html":[9,3,0,0,0,832],
 "classMR_1_1Const__SetBitIteratorT__MRPixelBitSet.html#a0b370b43b5477f648376d28995366d08":[9,3,0,0,0,832,12],
 "classMR_1_1Const__SetBitIteratorT__MRPixelBitSet.html#a35ce56398188985a7320fc1856403ed8":[9,3,0,0,0,832,5],
 "classMR_1_1Const__SetBitIteratorT__MRPixelBitSet.html#a3e6f0165a1a2d7bc031d2737447e09aa":[9,3,0,0,0,832,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "classMR_1_1Const__SimpleVolumeMinMax.html#a270a685b0b175ba9b542d0e658dd21d2":[9,3,0,0,0,846,1],
 "classMR_1_1Const__SimpleVolumeMinMax.html#a316ec2e34ce836f16251558626d78b6f":[9,3,0,0,0,846,19],
 "classMR_1_1Const__SimpleVolumeMinMax.html#a3611ff9dc059638846b72504d3077bdd":[9,3,0,0,0,846,3],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a4c89445bda894ca0cf7221b3a75e8fcc":[9,3,0,0,0,846,32],
-"classMR_1_1Const__SimpleVolumeMinMax.html#a6202e4cd6321e6fa27bb451ac5c9690e":[9,3,0,0,0,846,21]
+"classMR_1_1Const__SimpleVolumeMinMax.html#a4c89445bda894ca0cf7221b3a75e8fcc":[9,3,0,0,0,846,32]
 };

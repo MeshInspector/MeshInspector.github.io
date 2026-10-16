@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[9,0,0,10,0,7],
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[9,0,0,10,0,28],
 "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[9,0,0,10,0,13],
 "structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[9,0,0,10,0,16],
 "structMR_1_1DeloneFlipsCache.html":[9,0,1,0,1,210],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[9,0,0,20,862],
 "structMR_1_1FixUndercuts_1_1FindParams.html":[9,0,0,20,859],
 "structMR_1_1FixUndercuts_1_1FixParams.html":[9,0,0,20,860],
-"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[9,0,0,20,861],
-"structMR_1_1FlatTree.html":[9,0,0,20,719],
-"structMR_1_1FlowAggregator_1_1Flows.html":[9,0,0,20,124]
+"structMR_1_1FixUndercuts_1_1ImproveDirectionParameters.html":[9,0,0,20,861]
 };

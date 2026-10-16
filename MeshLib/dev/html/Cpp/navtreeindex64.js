@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1FlatTree.html":[9,0,0,20,719],
+"structMR_1_1FlowAggregator_1_1Flows.html":[9,0,0,20,124],
 "structMR_1_1FlowOrigin.html":[9,0,0,20,121],
 "structMR_1_1FontLoadSettings.html":[9,0,0,20,687],
 "structMR_1_1FramebufferData_1_1DrawParams.html":[9,0,0,20,667],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a9f1e9dff1758efb4b2feb981f5c49862":[9,0,2,0,2,7,10,11],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#aa7fcd623acda48ca1c6a59341f2fdaae":[9,0,1,0,1,16,10,21],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#aa7fcd623acda48ca1c6a59341f2fdaae":[9,0,2,0,2,7,10,21],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ab1361eb667fc891d6ee87e93a3ff37e9":[9,0,1,0,1,16,10,8],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ab1361eb667fc891d6ee87e93a3ff37e9":[9,0,2,0,2,7,10,8],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe015e8f2eefbaf7c0afec0d91912ec8":[9,0,1,0,1,16,10,6]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ab1361eb667fc891d6ee87e93a3ff37e9":[9,0,1,0,1,16,10,8]
 };

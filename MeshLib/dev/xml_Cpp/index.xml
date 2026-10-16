@@ -16463,7 +16463,7 @@
     <member refid="group__GeneralGroup_1gaff9290893302d164d71224a62681ffb8" kind="function"><name>simpleVolumeToDenseGrid</name></member>
     <member refid="group__GeneralGroup_1ga848886a5fe4ea4919a1dd3460818a93b" kind="function"><name>simpleVolumeToVdbVolume</name></member>
     <member refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" kind="function"><name>functionVolumeToVdbVolume</name></member>
-    <member refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
+    <member refid="group__GeneralGroup_1ga3c50f956b4a39dd7c1f0699d10e43868" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
     <member refid="group__GeneralGroup_1ga69ba52d461daeb55ccaacabb0f59f29b" kind="function"><name>vdbVolumeToSimpleVolume</name></member>
     <member refid="group__GeneralGroup_1gabb518d223c0e2154a41ed31e9b253ef8" kind="function"><name>vdbVolumeToSimpleVolumeNorm</name></member>
     <member refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" kind="function"><name>vdbVolumeToSimpleVolumeU16</name></member>
@@ -16480,6 +16480,8 @@
     <member refid="group__BasicStructuresGroup_1ga99ce50f6a936498fa39156fff3bd3397" kind="function"><name>fromVdbBox</name></member>
     <member refid="group__BasicStructuresGroup_1gafaceca609bb25c112d03e61621d7df0c" kind="function"><name>toVdbBox</name></member>
     <member refid="group__BasicStructuresGroup_1ga4638fcf62c2a9d1394b8d69425b9f993" kind="function"><name>toVdbBox</name></member>
+    <member refid="group__BasicStructuresGroup_1ga3563bb2455bc4f7c264b52fc67c9eb57" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
+    <member refid="group__BasicStructuresGroup_1ga9032dad3aaac78372fa711d2dbdac09d" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
     <member refid="group__GeneralGroup_1gaca1f6e889fadd4d30603c3cffcf9a930" kind="function"><name>resampleVolumeByInterpolation</name></member>
     <member refid="group__VolumeSegmentationGroup_1ga66a8de1137e7c508ae9c12d886306f4e" kind="function"><name>meshFromVoxelsMask</name></member>
     <member refid="group__VolumeSegmentationGroup_1ga485d85b6eaca610e17853e44f73c6176" kind="function"><name>segmentVolume</name></member>
@@ -20456,6 +20458,8 @@
     <member refid="group__BasicStructuresGroup_1ga99ce50f6a936498fa39156fff3bd3397" kind="function"><name>fromVdbBox</name></member>
     <member refid="group__BasicStructuresGroup_1gafaceca609bb25c112d03e61621d7df0c" kind="function"><name>toVdbBox</name></member>
     <member refid="group__BasicStructuresGroup_1ga4638fcf62c2a9d1394b8d69425b9f993" kind="function"><name>toVdbBox</name></member>
+    <member refid="group__BasicStructuresGroup_1ga3563bb2455bc4f7c264b52fc67c9eb57" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
+    <member refid="group__BasicStructuresGroup_1ga9032dad3aaac78372fa711d2dbdac09d" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
   </compound>
   <compound refid="group__ComponentsGroup" kind="group"><name>ComponentsGroup</name>
     <member refid="group__ComponentsGroup_1gae454bfbd27b24030c793ab3382963143" kind="function"><name>getComponent</name></member>
@@ -32065,7 +32069,7 @@
     <member refid="group__GeneralGroup_1gaff9290893302d164d71224a62681ffb8" kind="function"><name>simpleVolumeToDenseGrid</name></member>
     <member refid="group__GeneralGroup_1ga848886a5fe4ea4919a1dd3460818a93b" kind="function"><name>simpleVolumeToVdbVolume</name></member>
     <member refid="group__GeneralGroup_1ga429c9f6983e751443e9721e975118b55" kind="function"><name>functionVolumeToVdbVolume</name></member>
-    <member refid="group__GeneralGroup_1ga7c3b58d5eb16e77c1a7bf7bb0898489f" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
+    <member refid="group__GeneralGroup_1ga3c50f956b4a39dd7c1f0699d10e43868" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
     <member refid="group__GeneralGroup_1ga69ba52d461daeb55ccaacabb0f59f29b" kind="function"><name>vdbVolumeToSimpleVolume</name></member>
     <member refid="group__GeneralGroup_1gabb518d223c0e2154a41ed31e9b253ef8" kind="function"><name>vdbVolumeToSimpleVolumeNorm</name></member>
     <member refid="group__GeneralGroup_1ga1a5076b4e1308bf13953c1fa817154fe" kind="function"><name>vdbVolumeToSimpleVolumeU16</name></member>

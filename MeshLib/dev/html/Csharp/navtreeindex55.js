@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"classMR_1_1Const__MakeDegenerateBandAroundRegionParams.html#af519c2ca5cad93235ca2f3c8bf645a33":[9,3,0,0,0,568,8],
 "classMR_1_1Const__MakeSignedByWindingNumberSettings.html":[9,3,0,0,0,569],
 "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a0993cd1183f93ae1a052f21f1056086e":[9,3,0,0,0,569,5],
 "classMR_1_1Const__MakeSignedByWindingNumberSettings.html#a1b394f8f3299dd6a65ba41b0b13c46e8":[9,3,0,0,0,569,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX55 =
 "classMR_1_1Const__McOffsetMeshOutputs.html#aa2ed12eea61effe6b0a6df75e64913ee":[9,3,0,0,0,581,10],
 "classMR_1_1Const__McOffsetMeshOutputs.html#aa675cd7eef6f58592d4875224ba70a23":[9,3,0,0,0,581,5],
 "classMR_1_1Const__McOffsetMeshOutputs.html#ab4deb8ab699fe170a03a14f0ecc1573d":[9,3,0,0,0,581,9],
-"classMR_1_1Const__McOffsetMeshOutputs.html#ada5f5fc44897c1317e42af1dd182b605":[9,3,0,0,0,581,3],
-"classMR_1_1Const__McOffsetMeshOutputs.html#afea46883b99fd83082a5b110c5fccb0d":[9,3,0,0,0,581,8]
+"classMR_1_1Const__McOffsetMeshOutputs.html#ada5f5fc44897c1317e42af1dd182b605":[9,3,0,0,0,581,3]
 };

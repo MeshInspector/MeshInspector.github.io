@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"MRVoxelsVolume_8h.html#ae60071ff38419508dd7919c4ebb3d3e4":[9,2,2,0,0,0,0,4,38,322],
 "MRVoxelsVolume_8h.html#ae6194931259da71c9eaf215259aa6fd2":[9,2,2,0,0,0,0,4,38,195],
 "MRVoxelsVolume_8h.html#ae753aa9d71b76547705bba891a620730":[9,2,2,0,0,0,0,4,38,78],
 "MRVoxelsVolume_8h.html#ae82d92b482af409f4e61a334716e9eb7":[9,2,2,0,0,0,0,4,38,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "MRWeightedPointsShell_8h.html#ae4f4e2dcb6e382b604660cd66ee1a88f":[9,2,2,0,0,0,0,4,40,105],
 "MRWeightedPointsShell_8h.html#ae64b7a39116329c0dc7f7dc11eb7b529":[9,2,2,0,0,0,0,4,40,87],
 "MRWeightedPointsShell_8h.html#ae9e615700c523e8eb8c22adde31304f9":[9,2,2,0,0,0,0,4,40,32],
-"MRWeightedPointsShell_8h.html#aea774e73576140e762a504876092362a":[9,2,2,0,0,0,0,4,40,76],
-"MRWeightedPointsShell_8h.html#aec764298293c5310720239815947b993":[9,2,2,0,0,0,0,4,40,55]
+"MRWeightedPointsShell_8h.html#aea774e73576140e762a504876092362a":[9,2,2,0,0,0,0,4,40,76]
 };

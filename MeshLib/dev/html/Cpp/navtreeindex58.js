@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"group__SurfaceDistanceGroup.html#gaeba57b4a06d4b3b80c88d9500fada13f":[9,0,0,16,1,1],
+"group__SurfaceDistanceGroup.html#gaf58156e69b850162dc3d0a6ea29fae72":[9,0,0,16,1,6],
 "group__SurfaceDistanceGroup.html#gafcfbdd0804b19650444f23e586a83452":[9,0,0,16,1,0],
 "group__SurfacePathGroup.html":[9,0,0,16],
 "group__SurfacePathGroup.html#ga02ee193e489ee539ab60e56139f84aa5":[9,0,0,16,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9":[9,0,0,17,0,2,1],
 "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb":[9,0,0,17,0,2,2],
 "group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454":[9,0,0,17,0,2,6],
-"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a":[9,0,0,17,0,2,3],
-"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565":[9,0,0,17,0,2,4],
-"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7":[9,0,0,17,0,2,5]
+"group__VolumeIndexerGroup.html#ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a":[9,0,0,17,0,2,3]
 };

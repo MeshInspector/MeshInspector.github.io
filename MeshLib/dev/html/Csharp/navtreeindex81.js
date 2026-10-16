@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"classMR_1_1Const__Sphere3f.html":[9,3,0,0,0,860],
 "classMR_1_1Const__Sphere3f.html#a1f09a92dfae76eedd6cb8c242a702a0f":[9,3,0,0,0,860,8],
 "classMR_1_1Const__Sphere3f.html#a223201c727d10383c212b396f98757a5":[9,3,0,0,0,860,7],
 "classMR_1_1Const__Sphere3f.html#a273f5fdfbade42ca9b80439af2210769":[9,3,0,0,0,860,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "classMR_1_1Const__SurfaceDistanceBuilder.html#a876ccebac8e43c23e4fc8cd52450ef84":[9,3,0,0,0,869,3],
 "classMR_1_1Const__SurfaceDistanceBuilder.html#a94f75048cd9b2ff796e23f6cdf0161a4":[9,3,0,0,0,869,2],
 "classMR_1_1Const__SurfaceDistanceBuilder.html#a9539444769626459d19d71d9e4df2efd":[9,3,0,0,0,869,4],
-"classMR_1_1Const__SurfaceDistanceBuilder.html#ad4405aa45ff042fbf4674773c9e2c621":[9,3,0,0,0,869,8],
-"classMR_1_1Const__SurfaceDistanceBuilder.html#ad60694713d832e686b4e0ee78e1388d9":[9,3,0,0,0,869,1]
+"classMR_1_1Const__SurfaceDistanceBuilder.html#ad4405aa45ff042fbf4674773c9e2c621":[9,3,0,0,0,869,8]
 };

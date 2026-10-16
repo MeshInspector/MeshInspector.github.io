@@ -1,5 +1,6 @@
 var NAVTREEINDEX215 =
 {
+"std__vector__uint64__t_8h.html#a88801aa739340659132620f18d443019":[9,2,2,0,0,0,0,2,571,21],
 "std__vector__uint64__t_8h.html#a94c5f5482d053b268d3da41722ec3768":[9,2,2,0,0,0,0,2,571,10],
 "std__vector__uint64__t_8h.html#a964825832a6f715fe46f94f3b69619c8":[9,2,2,0,0,0,0,2,571,64],
 "std__vector__uint64__t_8h.html#a968d9487281807c7012c3758d2279b35":[9,2,2,0,0,0,0,2,571,48],
@@ -248,6 +249,5 @@ var NAVTREEINDEX215 =
 "structMR__GraphEdgeId.html":[9,2,1,0,20],
 "structMR__GraphEdgeId.html#a51a7bff9eb46075de2a867a410255eda":[9,2,1,0,20,0],
 "structMR__GraphVertId.html":[9,2,1,0,21],
-"structMR__GraphVertId.html#af778bf9a44503915cd6dda7e7d09acc7":[9,2,1,0,21,0],
-"structMR__LocaleDomainId.html":[9,2,1,0,22]
+"structMR__GraphVertId.html#af778bf9a44503915cd6dda7e7d09acc7":[9,2,1,0,21,0]
 };

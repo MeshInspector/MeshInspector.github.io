@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointsLoad_1_1E57LoadSettings.html#ae394bef3a4ed47c0fe3ce1dbd6d1252d":[9,0,2,0,2,22,0,1],
+"structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html":[9,0,0,21,0],
 "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a16c217c6cb59687dff9a821eeb23f1ed":[9,0,0,21,0,0],
 "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#a68c631f384663243df50045a0e260556":[9,0,0,21,0,1],
 "structMR_1_1PointsLoad_1_1MultiScanLoadSettings.html#ae48ef2454e91343b51324c18fa937fe7":[9,0,0,21,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1SegmEndColors.html":[9,0,0,20,842],
 "structMR_1_1SegmPoint.html":[9,0,0,0,21],
 "structMR_1_1SegmPoint.html":[9,0,0,20,507],
-"structMR_1_1SegmentSegmentIntersectResult.html":[9,0,0,20,480],
-"structMR_1_1SelfIntersections_1_1Settings.html":[9,0,0,20,270],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[9,0,0,20,509]
+"structMR_1_1SegmentSegmentIntersectResult.html":[9,0,0,20,480]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"classMR_1_1BooleanParameters.html#a94fff11c1150a6c8bc5c13a60d644c09":[9,3,0,0,0,62,1],
 "classMR_1_1BooleanParameters.html#a9fa1fed12527b89559e229a002453d78":[9,3,0,0,0,62,12],
 "classMR_1_1BooleanParameters.html#aa575bb722008b6b8734d6f5dff719a32":[9,3,0,0,0,62,3],
 "classMR_1_1BooleanParameters.html#abf3789d887f8bff27ed3d65be8b2f7d6":[9,3,0,0,0,62,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "classMR_1_1Box__Color.html#a6ba52e603167a9dfe9b2a7259d0dc6e7":[9,3,0,0,0,95,14],
 "classMR_1_1Box__Color.html#a6e11fe71f39e5110de898a3da15ea490":[9,3,0,0,0,95,0],
 "classMR_1_1Box__Color.html#a7e8d40591102c18b933ad87dba971b0b":[9,3,0,0,0,95,8],
-"classMR_1_1Box__Color.html#a80c1cbad5e77e02d0bfc1485a7639f55":[9,3,0,0,0,95,19],
-"classMR_1_1Box__Color.html#a9c047fbbaf942f9131159dc2335f4e41":[9,3,0,0,0,95,9]
+"classMR_1_1Box__Color.html#a80c1cbad5e77e02d0bfc1485a7639f55":[9,3,0,0,0,95,19]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX164 =
 {
+"std__shared__ptr__MR__ObjectDistanceMap_8h.html#a4661c31358d22b56a756b0ded71e1a48":[9,2,2,0,0,0,0,2,369,6],
 "std__shared__ptr__MR__ObjectDistanceMap_8h.html#a63b2b109bcb54348f565764af75e5151":[9,2,2,0,0,0,0,2,369,2],
 "std__shared__ptr__MR__ObjectDistanceMap_8h.html#a646445756f47f511b58bd172faf7d93c":[9,2,2,0,0,0,0,2,369,7],
 "std__shared__ptr__MR__ObjectDistanceMap_8h.html#a8be0ed80383826ece482da9ee95937e5":[9,2,2,0,0,0,0,2,369,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX164 =
 "std__shared__ptr__MR__Object_8h.html#aed0865a6f343465c1837911d65c845cc":[9,2,2,0,0,0,0,2,366,17],
 "std__shared__ptr__MR__Object_8h.html#af034ee731bfcb516dc1c128522d89939":[9,2,2,0,0,0,0,2,366,12],
 "std__shared__ptr__MR__Object_8h.html#af2c925979e0f7aabe38817170119efe1":[9,2,2,0,0,0,0,2,366,20],
-"std__shared__ptr__MR__Object_8h_source.html":[9,2,2,0,0,0,0,2,366],
-"std__shared__ptr__MR__OpenVdbFloatGrid_8h.html":[9,2,2,0,0,0,0,2,379]
+"std__shared__ptr__MR__Object_8h_source.html":[9,2,2,0,0,0,0,2,366]
 };

@@ -125,6 +125,8 @@ var group__BasicStructuresGroup =
     [ "MR::operator-=", "group__BasicStructuresGroup.html#ga2c64eb34f40157199ec9339b67a68c25", null ],
     [ "MR::ovdb", "group__BasicStructuresGroup.html#ga7c6031335bfc2515993437f951485ad1", null ],
     [ "MR::ovdb", "group__BasicStructuresGroup.html#ga12f92e71b639968eb7a4ffb4cbe51291", null ],
+    [ "MR::putSimpleVolumeInDenseGrid", "group__BasicStructuresGroup.html#ga3563bb2455bc4f7c264b52fc67c9eb57", null ],
+    [ "MR::putSimpleVolumeInDenseGrid", "group__BasicStructuresGroup.html#ga9032dad3aaac78372fa711d2dbdac09d", null ],
     [ "MR::resampled", "group__BasicStructuresGroup.html#gaf17bb94ba9fe8bf6f01de2334d8be119", null ],
     [ "MR::resampled", "group__BasicStructuresGroup.html#ga1bfdecc867ada4fd3525c717441a44ce", null ],
     [ "MR::setLevelSetType", "group__BasicStructuresGroup.html#ga9a2627798d685fc7e535ab8f8d9daced", null ],

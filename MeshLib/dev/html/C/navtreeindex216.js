@@ -1,5 +1,6 @@
 var NAVTREEINDEX216 =
 {
+"structMR__LocaleDomainId.html":[9,2,1,0,22],
 "structMR__LocaleDomainId.html#a8a2ced44aea1d046c7594287d82d9d25":[9,2,1,0,22,0],
 "structMR__Matrix2b.html":[9,2,1,0,23],
 "structMR__Matrix2b.html#a6b666f1ef04efd81c799779bffe772e5":[9,2,1,0,23,1],

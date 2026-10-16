@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"classMR_1_1Const__OutlierParams.html#ae5591e79fdc875b8a1891e642adcfe01":[9,3,0,0,0,712,7],
 "classMR_1_1Const__OutliersDetector.html":[9,3,0,0,0,713],
 "classMR_1_1Const__OutliersDetector.html#a05b0e50373adb7bdf143ebf4be371cb4":[9,3,0,0,0,713,0],
 "classMR_1_1Const__OutliersDetector.html#a6d8fd180921bb92003732374f9a784d3":[9,3,0,0,0,713,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "classMR_1_1Const__Pdf_1_1Const__PaletteRowStats.html#afbe26e628aef01ab18156d22e15d292a":[9,3,0,0,0,723,5,8],
 "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html":[9,3,0,0,0,723,6],
 "classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a01da7be385b4e51b44f2189c439bcf54":[9,3,0,0,0,723,6,7],
-"classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a087e4a41740901e8427cb479ace945ff":[9,3,0,0,0,723,6,5],
-"classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a0d32add333af21d6c6245377b17eedc2":[9,3,0,0,0,723,6,9]
+"classMR_1_1Const__Pdf_1_1Const__TextCellParams.html#a087e4a41740901e8427cb479ace945ff":[9,3,0,0,0,723,6,5]
 };

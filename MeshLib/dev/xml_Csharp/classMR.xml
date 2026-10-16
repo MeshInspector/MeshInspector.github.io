@@ -54573,6 +54573,38 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1589" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1589" bodyend="1592"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1aeefa1bc20ea30c0bbf7bd29de013a6f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.putSimpleVolumeInDenseGrid</definition>
+        <argsstring>(MR.FloatGrid grid, in MR.Vector3i minCoord, MR.Const_SimpleVolume simpleVolume, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>putSimpleVolumeInDenseGrid</name>
+        <qualifiedname>MR.putSimpleVolumeInDenseGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>minCoord</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Copy given <computeroutput>simpleVolume</computeroutput> into the <computeroutput>grid</computeroutput>, starting at <computeroutput>minCoord</computeroutput> Uses multithreaded copying, so the function is not thread safe. The overloads taking openvdb::FloatGrid and its Accessor are declared in MRVDBFloatGrid.h Generated from function <computeroutput><ref refid="classMR_1aeefa1bc20ea30c0bbf7bd29de013a6f3" kindref="member">MR.putSimpleVolumeInDenseGrid</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1601" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1601" bodyend="1607"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a1cd8bf1a75f098b5e390e96afb1b1add" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></type>
         <definition>static unsafe MR.SimpleVolumeMinMax MR.vdbVolumeToSimpleVolume</definition>
@@ -54600,7 +54632,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1601" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1601" bodyend="1608"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1616" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1616" bodyend="1623"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abb491fb215c58a0a91fb55ccedbe7d95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></type>
@@ -54646,7 +54678,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1620" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1620" bodyend="1627"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1635" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1635" bodyend="1642"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af30c694b493b4d39168297fa89d6eb3a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1SimpleVolumeMinMaxU16" kindref="compound">MR.SimpleVolumeMinMaxU16</ref></type>
@@ -54692,7 +54724,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1639" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1639" bodyend="1646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1654" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1654" bodyend="1661"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a101617f48e0ab6bbf55fca30abefd480" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -54715,7 +54747,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1652" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1652" bodyend="1658"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1667" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1667" bodyend="1673"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad2a00c8e7fc64c0c15799f37b7e21f5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -54738,7 +54770,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1665" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1665" bodyend="1671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1680" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1680" bodyend="1686"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1d3be35305c77689bd1fd77b16b7de99" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -54769,7 +54801,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1677" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1677" bodyend="1685"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1692" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1692" bodyend="1700"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af35b31f2daa88520a99fc84091ffcd57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -54792,7 +54824,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1692" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1692" bodyend="1698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1707" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1707" bodyend="1713"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a07838044c4b6a2700e70c496a0329d90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -98567,7 +98599,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1703" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1718" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1685ae4f946486bc98fc8f34d3d9c337" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -98593,7 +98625,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1706" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1721" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aefbab89f8b7aa0daf67fbf5e2e4976f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VdbVolume._Underlying *</type>
@@ -98615,7 +98647,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1709" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1724" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a327dabd2125e4570458392f8df1cb385" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VdbVolume._Underlying *</type>
@@ -98641,7 +98673,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1712" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1727" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a29d0c4712e85115513d6d21bdeb47ae9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -98663,7 +98695,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1715" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1730" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1b80ddb87cf35790e7b75386fc9dc678" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -98685,7 +98717,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1718" column="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1733" column="65"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8eda57892c49858e16b22152cbd977bb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
@@ -98715,7 +98747,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1721" column="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1736" column="63"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a490a681f514ece20c0e9609ff73988f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FloatGrid._Underlying *</type>
@@ -98753,7 +98785,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1724" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1739" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a597dca8f24d623c67fffecf3a1bddf9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -98775,7 +98807,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1727" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1742" column="70"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae087da1602fa4e3a57e4d2aabdd53765" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FloatGrid._Underlying *</type>
@@ -98813,7 +98845,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1730" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1745" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a1c25e0c75077c62ead13ffbb5b13444f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRVdbVolume_StdString._Underlying *</type>
@@ -98835,7 +98867,41 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1733" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1748" column="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1afceab155eda0dffcb858df512fec0358" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.__MR_putSimpleVolumeInDenseGrid</definition>
+        <argsstring>(MR.FloatGrid._Underlying *grid, MR.Vector3i *minCoord, MR.Const_SimpleVolume._Underlying *simpleVolume, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
+        <name>__MR_putSimpleVolumeInDenseGrid</name>
+        <qualifiedname>MR.__MR_putSimpleVolumeInDenseGrid</qualifiedname>
+        <param>
+          <type>MR.FloatGrid._Underlying *</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+          <declname>minCoord</declname>
+        </param>
+        <param>
+          <type>MR.Const_SimpleVolume._Underlying *</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1751" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a25718bcfb93e89650b03655d47ffdc87" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FloatGrid._Underlying *</type>
@@ -98865,7 +98931,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1736" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1754" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8d195e4b311079cea2101b6b08a90769" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VdbVolume._Underlying *</type>
@@ -98891,7 +98957,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1739" column="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1757" column="49"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a915e9cac200d37b623aa68ae90fb9086" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRSimpleVolumeMinMax_StdString._Underlying *</type>
@@ -98921,7 +98987,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1742" column="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1760" column="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af5e55d143d62ed906ee62b4d89387094" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRSimpleVolumeMinMax_StdString._Underlying *</type>
@@ -98955,7 +99021,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1745" column="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1763" column="79"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adb2fcfbc37ae2a058b675416b15cdedf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRSimpleVolumeMinMaxU16_StdString._Underlying *</type>
@@ -98989,7 +99055,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1748" column="82"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1766" column="82"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad356e673faf57ef8c585eee013604cf8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
@@ -101310,6 +101376,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac92a87c3c81811a02956a6043443ca33" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_pseudonormal_MR_UndirectedEdgeId</name></member>
       <member refid="classMR_1a0986eac1f63a184848176fa75231042e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_pseudonormal_MR_VertId</name></member>
       <member refid="classMR_1a4a41f9bc5af0c9ec3cf3c44736fcb9e9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_putScanFileNameInZ</name></member>
+      <member refid="classMR_1afceab155eda0dffcb858df512fec0358" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_putSimpleVolumeInDenseGrid</name></member>
       <member refid="classMR_1a7e6b5cbbd302bf2db36a79c3a5f6ff49" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_quadrangleOtherDiagonal_double</name></member>
       <member refid="classMR_1a25015f753e57e4229cdfec1661802e2a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_quadrangleOtherDiagonal_float</name></member>
       <member refid="classMR_1a0c1a77c29998d23acc21122ef9a401c1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_quadraticForm</name></member>
@@ -103209,6 +103276,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a2534b5344b204b97873e86a67eabf1e5" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>
       <member refid="classMR_1ab0f39a1ffdf9cf20f5cd90d30b59f5fb" prot="public" virt="non-virtual"><scope>MR</scope><name>pseudonormal</name></member>
       <member refid="classMR_1a508c0f9086c8dedaf73a53064b1b50ab" prot="public" virt="non-virtual"><scope>MR</scope><name>putScanFileNameInZ</name></member>
+      <member refid="classMR_1aeefa1bc20ea30c0bbf7bd29de013a6f3" prot="public" virt="non-virtual"><scope>MR</scope><name>putSimpleVolumeInDenseGrid</name></member>
       <member refid="classMR_1a581e354a84548b92ab1e00f64b47e2a8" prot="public" virt="non-virtual"><scope>MR</scope><name>quadrangleOtherDiagonal</name></member>
       <member refid="classMR_1a446a38aeff591eed307c97c0b91ace61" prot="public" virt="non-virtual"><scope>MR</scope><name>quadrangleOtherDiagonal</name></member>
       <member refid="classMR_1a71a7085695abea2d74eafdb506574962" prot="public" virt="non-virtual"><scope>MR</scope><name>quadraticForm</name></member>

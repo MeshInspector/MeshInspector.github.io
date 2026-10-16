@@ -12625,6 +12625,8 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:abf08935359755caece8f2bab39999e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#abf08935359755caece8f2bab39999e8b" title="Generated from function MR.simpleVolumeToVdbVolume. Parameter cb defaults to {}.">MR.simpleVolumeToVdbVolume</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a6c8cc69cc6557fe679f4877e630f8712" id="r_a6c8cc69cc6557fe679f4877e630f8712"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VdbVolume.html">MR.VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c8cc69cc6557fe679f4877e630f8712">functionVolumeToVdbVolume</a> (<a class="el" href="classMR_1_1Const__FunctionVolume.html">MR.Const_FunctionVolume</a> functoinVolume, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:a6c8cc69cc6557fe679f4877e630f8712"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a6c8cc69cc6557fe679f4877e630f8712" title="Generated from function MR.functionVolumeToVdbVolume. Parameter cb defaults to {}.">MR.functionVolumeToVdbVolume</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:aeefa1bc20ea30c0bbf7bd29de013a6f3" id="r_aeefa1bc20ea30c0bbf7bd29de013a6f3"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeefa1bc20ea30c0bbf7bd29de013a6f3">putSimpleVolumeInDenseGrid</a> (<a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a> grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> minCoord, <a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a> simpleVolume, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
+<tr class="memdesc:aeefa1bc20ea30c0bbf7bd29de013a6f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code class="param">simpleVolume</code> into the <code class="param">grid</code>, starting at <code class="param">minCoord</code> Uses multithreaded copying, so the function is not thread safe. The overloads taking openvdb::FloatGrid and its Accessor are declared in MRVDBFloatGrid.h Generated from function <span class="tt"><a class="el" href="#aeefa1bc20ea30c0bbf7bd29de013a6f3" title="Copy given simpleVolume into the grid, starting at minCoord Uses multithreaded copying,...">MR.putSimpleVolumeInDenseGrid</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a1cd8bf1a75f098b5e390e96afb1b1add" id="r_a1cd8bf1a75f098b5e390e96afb1b1add"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1SimpleVolumeMinMax.html">MR.SimpleVolumeMinMax</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cd8bf1a75f098b5e390e96afb1b1add">vdbVolumeToSimpleVolume</a> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, <a class="el" href="structMR_1_1Box3i.html">MR.Box3i</a>? activeBox=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
 <tr class="memdesc:a1cd8bf1a75f098b5e390e96afb1b1add"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a1cd8bf1a75f098b5e390e96afb1b1add" title="Generated from function MR.vdbVolumeToSimpleVolume. Parameter activeBox defaults to MR....">MR.vdbVolumeToSimpleVolume</a></span>. Parameter <span class="tt">activeBox</span> defaults to <span class="tt"><a class="el" href="structMR_1_1Box3i.html" title="Box given by its min- and max- corners Generated from class MR.Box3i. This is the by-value version of...">MR.Box3i()</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:abb491fb215c58a0a91fb55ccedbe7d95" id="r_abb491fb215c58a0a91fb55ccedbe7d95"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1SimpleVolumeMinMax.html">MR.SimpleVolumeMinMax</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb491fb215c58a0a91fb55ccedbe7d95">vdbVolumeToSimpleVolumeNorm</a> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, <a class="el" href="structMR_1_1Box3i.html">MR.Box3i</a>? activeBox=null, MR._InOpt_Box1f sourceScale=default, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</td></tr>
@@ -68902,6 +68904,47 @@ All new faces should be parallel to given direction It is measured in squared le
 </div><div class="memdoc">
 
 <p>Read layer heights from given scan file names Generated from function <span class="tt"><a class="el" href="#a508c0f9086c8dedaf73a53064b1b50ab" title="Read layer heights from given scan file names Generated from function MR.putScanFileNameInZ.">MR.putScanFileNameInZ</a></span>. </p>
+
+</div>
+</div>
+<a id="aeefa1bc20ea30c0bbf7bd29de013a6f3" name="aeefa1bc20ea30c0bbf7bd29de013a6f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeefa1bc20ea30c0bbf7bd29de013a6f3">&#9670;&#160;</a></span>putSimpleVolumeInDenseGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.putSimpleVolumeInDenseGrid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">MR.FloatGrid</a></td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>minCoord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a></td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_Bool_From_Float?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy given <code class="param">simpleVolume</code> into the <code class="param">grid</code>, starting at <code class="param">minCoord</code> Uses multithreaded copying, so the function is not thread safe. The overloads taking openvdb::FloatGrid and its Accessor are declared in MRVDBFloatGrid.h Generated from function <span class="tt"><a class="el" href="#aeefa1bc20ea30c0bbf7bd29de013a6f3" title="Copy given simpleVolume into the grid, starting at minCoord Uses multithreaded copying,...">MR.putSimpleVolumeInDenseGrid</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

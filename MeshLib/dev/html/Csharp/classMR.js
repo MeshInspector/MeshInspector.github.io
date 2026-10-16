@@ -3993,6 +3993,7 @@ var classMR =
     [ "pseudonormal", "classMR.html#a2534b5344b204b97873e86a67eabf1e5", null ],
     [ "pseudonormal", "classMR.html#ad2388b5e03f55fbd6e9ed46f9827b874", null ],
     [ "putScanFileNameInZ", "classMR.html#a508c0f9086c8dedaf73a53064b1b50ab", null ],
+    [ "putSimpleVolumeInDenseGrid", "classMR.html#aeefa1bc20ea30c0bbf7bd29de013a6f3", null ],
     [ "quadrangleOtherDiagonal", "classMR.html#a446a38aeff591eed307c97c0b91ace61", null ],
     [ "quadrangleOtherDiagonal", "classMR.html#a581e354a84548b92ab1e00f64b47e2a8", null ],
     [ "quadraticForm", "classMR.html#a71a7085695abea2d74eafdb506574962", null ],

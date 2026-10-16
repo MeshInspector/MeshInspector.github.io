@@ -1,5 +1,6 @@
 var NAVTREEINDEX100 =
 {
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2bcfc0595393ab797145d7dc8b9a4fd3":[9,3,0,0,0,1144,0],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a5911008bde3042e75c6b5e5f8beaa711":[9,3,0,0,0,1144,13],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a63f609f1311dd5e2b400bfb71458cd30":[9,3,0,0,0,1144,5],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a8005a11cbf87cdf5f029f7399e592513":[9,3,0,0,0,1144,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1DistanceMap.html#a1f275d0614719f56754d15458ffbbc76":[9,3,0,0,0,1161,20],
 "classMR_1_1DistanceMap.html#a230c976b1e35f27fc65e10c0a0b5dc82":[9,3,0,0,0,1161,9],
 "classMR_1_1DistanceMap.html#a29754806c2ec6381f917d332713d1a24":[9,3,0,0,0,1161,17],
-"classMR_1_1DistanceMap.html#a2efbd76cb6a07dcd53ab3d78100efe98":[9,3,0,0,0,1161,19],
-"classMR_1_1DistanceMap.html#a48c265309a4aa76b2f3bcf62c8b42a5e":[9,3,0,0,0,1161,10]
+"classMR_1_1DistanceMap.html#a2efbd76cb6a07dcd53ab3d78100efe98":[9,3,0,0,0,1161,19]
 };

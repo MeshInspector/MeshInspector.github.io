@@ -1,5 +1,6 @@
 var NAVTREEINDEX134 =
 {
+"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a9274114fb5ee972822d9d17a78b69adb":[9,3,0,0,0,1678,3,8],
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#aa041230bcb85c4b414d1b689d960e61e":[9,3,0,0,0,1678,3,10],
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#ab1b03a47697f4da6837b1f12030209ae":[9,3,0,0,0,1678,3,13],
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#acd0233c16c34a584e52a0efb9df47cc2":[9,3,0,0,0,1678,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX134 =
 "classMR_1_1SymMatrix3i64.html#aa9b045a06175bd0feba1697485cd22cb":[9,3,0,0,0,1694,11],
 "classMR_1_1SymMatrix3i64.html#ad5807790fc1d516e7d82412758543f74":[9,3,0,0,0,1694,8],
 "classMR_1_1SymMatrix3i64.html#af4b91450cee46a44c94bbe89c97c4f18":[9,3,0,0,0,1694,4],
-"classMR_1_1SymMatrix4__UnsignedChar.html":[9,3,0,0,0,1695],
-"classMR_1_1SymMatrix4__UnsignedChar.html#a00b34433b20bda18313b3aee2b34cada":[9,3,0,0,0,1695,16]
+"classMR_1_1SymMatrix4__UnsignedChar.html":[9,3,0,0,0,1695]
 };

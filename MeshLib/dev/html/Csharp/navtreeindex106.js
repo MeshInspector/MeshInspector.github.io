@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane.html#acbb0ba113688ac7c31c988361639ddce":[9,3,0,0,0,1220,5,16,2],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane.html#aed1f20e1d6a7ef4b507241527ec32ba8":[9,3,0,0,0,1220,5,16,1],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f.html":[9,3,0,0,0,1220,5,17],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f.html#a03324aefa1e6c348ceee18970ee51490":[9,3,0,0,0,1220,5,17,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FixCreasesParams.html#a85881cb5b64d05fb0bcc267e5c91c403":[9,3,0,0,0,1233,6],
 "classMR_1_1FixCreasesParams.html#a99b2d648a4d4474f90a0138f5cc36615":[9,3,0,0,0,1233,2],
 "classMR_1_1FixCreasesParams.html#ac2d6646321c8c3c9b0fcba8fce9879d4":[9,3,0,0,0,1233,3],
-"classMR_1_1FixCreasesParams.html#ae111d4a5aaf828db3d105470fa791677":[9,3,0,0,0,1233,0],
-"classMR_1_1FixMeshDegeneraciesParams.html":[9,3,0,0,0,1234]
+"classMR_1_1FixCreasesParams.html#ae111d4a5aaf828db3d105470fa791677":[9,3,0,0,0,1233,0]
 };

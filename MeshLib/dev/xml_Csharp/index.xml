@@ -54024,6 +54024,7 @@
     <member refid="classMR_1a147fd6b6f06c029f646302445bed7ef2" kind="function"><name>simpleVolumeToDenseGrid</name></member>
     <member refid="classMR_1abf08935359755caece8f2bab39999e8b" kind="function"><name>simpleVolumeToVdbVolume</name></member>
     <member refid="classMR_1a6c8cc69cc6557fe679f4877e630f8712" kind="function"><name>functionVolumeToVdbVolume</name></member>
+    <member refid="classMR_1aeefa1bc20ea30c0bbf7bd29de013a6f3" kind="function"><name>putSimpleVolumeInDenseGrid</name></member>
     <member refid="classMR_1a1cd8bf1a75f098b5e390e96afb1b1add" kind="function"><name>vdbVolumeToSimpleVolume</name></member>
     <member refid="classMR_1abb491fb215c58a0a91fb55ccedbe7d95" kind="function"><name>vdbVolumeToSimpleVolumeNorm</name></member>
     <member refid="classMR_1af30c694b493b4d39168297fa89d6eb3a" kind="function"><name>vdbVolumeToSimpleVolumeU16</name></member>
@@ -55874,6 +55875,7 @@
     <member refid="classMR_1a597dca8f24d623c67fffecf3a1bddf9c" kind="function"><name>__MR_meshToDistanceVdbVolume</name></member>
     <member refid="classMR_1ae087da1602fa4e3a57e4d2aabdd53765" kind="function"><name>__MR_meshToLevelSet</name></member>
     <member refid="classMR_1a1c25e0c75077c62ead13ffbb5b13444f" kind="function"><name>__MR_meshToVolume</name></member>
+    <member refid="classMR_1afceab155eda0dffcb858df512fec0358" kind="function"><name>__MR_putSimpleVolumeInDenseGrid</name></member>
     <member refid="classMR_1a25718bcfb93e89650b03655d47ffdc87" kind="function"><name>__MR_simpleVolumeToDenseGrid</name></member>
     <member refid="classMR_1a8d195e4b311079cea2101b6b08a90769" kind="function"><name>__MR_simpleVolumeToVdbVolume</name></member>
     <member refid="classMR_1a915e9cac200d37b623aa68ae90fb9086" kind="function"><name>__MR_vdbVolumeToSimpleVolume</name></member>

@@ -206,6 +206,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga99ce50f6a936498fa39156fff3bd3397" id="r_ga99ce50f6a936498fa39156fff3bd3397"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Box3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga99ce50f6a936498fa39156fff3bd3397">MR::fromVdbBox</a> (const openvdb::CoordBBox &amp;box)</td></tr>
 <tr class="memitem:gafaceca609bb25c112d03e61621d7df0c" id="r_gafaceca609bb25c112d03e61621d7df0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafaceca609bb25c112d03e61621d7df0c">MR::toVdbBox</a> (const Box3i &amp;box)</td></tr>
 <tr class="memitem:ga4638fcf62c2a9d1394b8d69425b9f993" id="r_ga4638fcf62c2a9d1394b8d69425b9f993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4638fcf62c2a9d1394b8d69425b9f993">MR::toVdbBox</a> (const Vector3i &amp;dims)</td></tr>
+<tr class="memitem:ga3563bb2455bc4f7c264b52fc67c9eb57" id="r_ga3563bb2455bc4f7c264b52fc67c9eb57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3563bb2455bc4f7c264b52fc67c9eb57">MR::putSimpleVolumeInDenseGrid</a> (openvdb::FloatGrid &amp;grid, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga3563bb2455bc4f7c264b52fc67c9eb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code class="param">simpleVolume</code> into the <code class="param">grid</code>, starting at <code class="param">minCoord</code> Uses multithreaded copying, so the function is not thread safe.  <br /></td></tr>
+<tr class="memitem:ga9032dad3aaac78372fa711d2dbdac09d" id="r_ga9032dad3aaac78372fa711d2dbdac09d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9032dad3aaac78372fa711d2dbdac09d">MR::putSimpleVolumeInDenseGrid</a> (openvdb::FloatGrid::Accessor &amp;gridAccessor, const Vector3i &amp;minCoord, const SimpleVolume &amp;simpleVolume, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ga9032dad3aaac78372fa711d2dbdac09d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy given <code class="param">simpleVolume</code> into the grid of <code class="param">gridAccessor</code>, starting at <code class="param">minCoord</code> Can be called from different threads on the same grid, provided that the accessors are different.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -826,6 +830,76 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRVDBFloatGrid_8h.html">MRVoxels/MRVDBFloatGrid.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga3563bb2455bc4f7c264b52fc67c9eb57" name="ga3563bb2455bc4f7c264b52fc67c9eb57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3563bb2455bc4f7c264b52fc67c9eb57">&#9670;&#160;</a></span>putSimpleVolumeInDenseGrid() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::putSimpleVolumeInDenseGrid </td>
+          <td>(</td>
+          <td class="paramtype">openvdb::FloatGrid &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>minCoord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SimpleVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVDBFloatGrid_8h.html">MRVoxels/MRVDBFloatGrid.h</a>&gt;</code></p>
+
+<p>Copy given <code class="param">simpleVolume</code> into the <code class="param">grid</code>, starting at <code class="param">minCoord</code> Uses multithreaded copying, so the function is not thread safe. </p>
+
+</div>
+</div>
+<a id="ga9032dad3aaac78372fa711d2dbdac09d" name="ga9032dad3aaac78372fa711d2dbdac09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9032dad3aaac78372fa711d2dbdac09d">&#9670;&#160;</a></span>putSimpleVolumeInDenseGrid() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> void MR::putSimpleVolumeInDenseGrid </td>
+          <td>(</td>
+          <td class="paramtype">openvdb::FloatGrid::Accessor &amp;</td>          <td class="paramname"><span class="paramname"><em>gridAccessor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>minCoord</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const SimpleVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a></td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVDBFloatGrid_8h.html">MRVoxels/MRVDBFloatGrid.h</a>&gt;</code></p>
+
+<p>Copy given <code class="param">simpleVolume</code> into the grid of <code class="param">gridAccessor</code>, starting at <code class="param">minCoord</code> Can be called from different threads on the same grid, provided that the accessors are different. </p>
 
 </div>
 </div>

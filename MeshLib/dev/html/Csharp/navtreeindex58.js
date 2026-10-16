@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRSimpleVolumeMinMax.html#af29aac82d8581616bbe3bf7e5080e833":[9,3,0,0,0,600,22],
 "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html":[9,3,0,0,0,601],
 "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a05d65f22e8ec9c0004ea80ebd6f60b12":[9,3,0,0,0,601,6],
 "classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRVdbVolume.html#a07419aab8c0c95bb3474f225796afdc5":[9,3,0,0,0,601,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "classMR_1_1Const__MeshToDirectionVolumeParams.html#aa954821546c6cd3a133e72d409d9dfe9":[9,3,0,0,0,613,3],
 "classMR_1_1Const__MeshToDirectionVolumeParams.html#aadf07834decc5e14f4a2d323a1d36e73":[9,3,0,0,0,613,9],
 "classMR_1_1Const__MeshToDirectionVolumeParams.html#ab7bc01167e9a5933cb8793747d912f82":[9,3,0,0,0,613,4],
-"classMR_1_1Const__MeshToDirectionVolumeParams.html#adfba683182f64d2379dd12f418384e97":[9,3,0,0,0,613,8],
-"classMR_1_1Const__MeshToDistanceMapParams.html":[9,3,0,0,0,614]
+"classMR_1_1Const__MeshToDirectionVolumeParams.html#adfba683182f64d2379dd12f418384e97":[9,3,0,0,0,613,8]
 };

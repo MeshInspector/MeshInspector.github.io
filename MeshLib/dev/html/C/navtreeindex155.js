@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"std__pair__MR__Vector3d__MR__Vector3d_8h_source.html":[9,2,2,0,0,0,0,2,282],
 "std__pair__MR__Vector3f__MR__TriPointf_8h.html":[9,2,2,0,0,0,0,2,283],
 "std__pair__MR__Vector3f__MR__TriPointf_8h.html#a1721b0c9d2445ec002398cb3f93d23c7":[9,2,2,0,0,0,0,2,283,0],
 "std__pair__MR__Vector3f__MR__TriPointf_8h.html#a244cd70bc7b5a5b537355e2d8d09f9e9":[9,2,2,0,0,0,0,2,283,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "std__pair__const__MR__UndirectedEdgeId__MR__UndirectedEdgeId_8h_source.html":[9,2,2,0,0,0,0,2,258],
 "std__pair__const__MR__UndirectedEdgeId__int_8h.html":[9,2,2,0,0,0,0,2,256],
 "std__pair__const__MR__UndirectedEdgeId__int_8h.html#a12d82a2aaeaf5981149cb60fd3919f09":[9,2,2,0,0,0,0,2,256,9],
-"std__pair__const__MR__UndirectedEdgeId__int_8h.html#a133c2d1c7b9c4ea8ddb826e0ba8a3fc1":[9,2,2,0,0,0,0,2,256,4],
-"std__pair__const__MR__UndirectedEdgeId__int_8h.html#a5742a7d3443286870c553a1c38b30db9":[9,2,2,0,0,0,0,2,256,6]
+"std__pair__const__MR__UndirectedEdgeId__int_8h.html#a133c2d1c7b9c4ea8ddb826e0ba8a3fc1":[9,2,2,0,0,0,0,2,256,4]
 };
