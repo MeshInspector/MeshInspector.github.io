@@ -548,11 +548,7 @@ Source meshes <div class="image">
 <div class="line">    println!(&quot;face {} of the result came from face {} of sphere1&quot;, result_face.id_, new2old_faces.index(result_face).id_);</div>
 <div class="line"> </div>
 <div class="line">    // Save result to an STL file.</div>
-<div class="line">    let saved = meshlib::mesh_save::to_any_supported_format_3(result.mesh(), &quot;out_boolean.stl&quot;, None);</div>
-<div class="line">    if let Some(error) = saved.error()</div>
-<div class="line">    {</div>
-<div class="line">        return Err(format!(&quot;Failed to save mesh: {error}&quot;));</div>
-<div class="line">    }</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format_3(result.mesh(), &quot;out_boolean.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
 <div class="line"> </div>
 <div class="line">    Ok(())</div>
 <div class="line">}</div>
