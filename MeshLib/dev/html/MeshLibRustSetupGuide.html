@@ -136,13 +136,13 @@ $(function(){initNavTree('MeshLibRustSetupGuide.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md171">Setting Up MeshLib for Rust Development </a>
+    <a href="#autotoc_md172">Setting Up MeshLib for Rust Development </a>
     <ul>
       <li class="level2">
         <a href="#RustSetupPrerequisites">Prerequisites </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md172">Installation </a>
+        <a href="#autotoc_md173">Installation </a>
         <ul>
           <li class="level3">
             <a href="#RustSetupOwnLibraries">Using your own MeshLib installation </a>
@@ -150,17 +150,17 @@ $(function(){initNavTree('MeshLibRustSetupGuide.html','',''); });
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md173">Using the API </a>
+        <a href="#autotoc_md174">Using the API </a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md174">Try MeshLib with Rust Examples </a>
+        <a href="#autotoc_md175">Try MeshLib with Rust Examples </a>
       </li>
     </ul>
   </li>
 </ul>
 </div>
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2RustSetupGuide"></a></p>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md171"></a>
+<h1 class="doxsection"><a class="anchor" id="autotoc_md172"></a>
 Setting Up MeshLib for Rust Development</h1>
 <dl class="section note"><dt>Note</dt><dd>The Rust bindings are new. The crate is generated from the C API and is published on <a href="https://crates.io/crates/meshlib">crates.io</a> and as archives on the releases page.</dd></dl>
 <p>The crate is named <span class="tt">meshlib</span>. It wraps the C API library <span class="tt">MeshLibC2</span> (see the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>) in safe Rust: C++ classes become types held in <span class="tt">Owned&lt;T&gt;</span>, which destroys the object when dropped, references and pointers become <span class="tt">&amp;T</span> / <span class="tt">&amp;mut T</span> / <span class="tt">Option&lt;&amp;T&gt;</span>, <span class="tt">std::string</span> parameters take <span class="tt">&amp;str</span>, and C++ exceptions become panics. The <span class="tt">MR</span> namespace is the crate root, so <span class="tt">MR::Mesh</span> is <span class="tt">meshlib::Mesh</span>, and the nested namespaces become modules: <span class="tt">MR::MeshSave</span> is <span class="tt">meshlib::mesh_save</span>.</p>
@@ -170,7 +170,7 @@ Prerequisites</h2>
 <li><a href="https://rustup.rs/">Rust</a> 1.88 or newer, with <span class="tt">cargo</span>.</li>
 <li>Windows, Linux (glibc 2.28 or newer) or macOS, on x86_64 or aarch64.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md172"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md173"></a>
 Installation</h2>
 <ol type="1">
 <li><b>Get the crate</b> <br  />
@@ -197,7 +197,7 @@ Using your own MeshLib installation</h3>
 <li>macOS: <span class="tt">/Library/Frameworks/MeshLib.framework/Versions/Current/lib</span> <div class="fragment"><div class="line">MESHLIB_LIB_DIR=/usr/local/lib/MeshLib/lib cargo build</div>
 </div><!-- fragment --> The same directory must be visible to the dynamic loader when your program runs: add it to <span class="tt">PATH</span> on Windows, <span class="tt">LD_LIBRARY_PATH</span> on Linux, <span class="tt">DYLD_LIBRARY_PATH</span> on macOS.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md173"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md174"></a>
 Using the API</h2>
 <div class="fragment"><div class="line">fn main() -&gt; Result&lt;(), String&gt;</div>
 <div class="line">{</div>
@@ -215,7 +215,7 @@ Using the API</h2>
 <li>Callbacks (<span class="tt">std::function</span> parameters) are built from closures: <span class="tt">meshlib::std_function_bool_from_float::from_fn(|progress| true)</span>.</li>
 <li>Downcasts and upcasts between a class and its bases are explicit: <span class="tt">object_mesh.upcast_to_object()</span>, <span class="tt">meshlib::ObjectMesh::dynamic_downcast_from_object(&amp;object)</span>.</li>
 </ul>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md174"></a>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md175"></a>
 Try MeshLib with Rust Examples</h2>
 <p>The <a class="el" href="Examples.html">code samples</a> have Rust tabs for the <a class="el" href="ExampleMeshBoolean.html">boolean</a>, <a class="el" href="ExampleMeshDecimate.html">decimation</a> and <a class="el" href="ExampleMeshLoadSave.html">load and save</a> examples, with the sources in <span class="tt">examples/rust-examples</span> of the repository. Build them with <span class="tt">cargo build --manifest-path examples/rust-examples/Cargo.toml</span> after setting <span class="tt">MESHLIB_LIB_DIR</span>. </p>
 </div></div><!-- contents -->
