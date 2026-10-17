@@ -2705,7 +2705,8 @@ reorder all faces, vertices and edges according to given maps, each containing o
       </table>
 </div><div class="memdoc">
 <pre class="fragment">packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices
-\\param preserveAABBTree whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory)
+\\param preserveAABBTree whether to keep valid mesh's AABB tree after return (it will take longer to compute and it will occupy more memory);
+an already constructed tree is used for faster ordering of faces in any case
 </pre> 
 </div>
 </div>

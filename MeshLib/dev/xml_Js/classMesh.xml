@@ -110,7 +110,7 @@
 <parametername>preserveAABBTree</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>whether to keep valid mesh&apos;s AABB tree after return (it will take longer to compute and it will occupy more memory) </para>
+<para>whether to keep valid mesh&apos;s AABB tree after return (it will take longer to compute and it will occupy more memory); an already constructed tree is used for faster ordering of faces in any case </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -138,7 +138,7 @@
 <parametername>preserveAABBTree</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>whether to keep valid mesh&apos;s AABB tree after return (it will take longer to compute and it will occupy more memory) </para>
+<para>whether to keep valid mesh&apos;s AABB tree after return (it will take longer to compute and it will occupy more memory); an already constructed tree is used for faster ordering of faces in any case </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
