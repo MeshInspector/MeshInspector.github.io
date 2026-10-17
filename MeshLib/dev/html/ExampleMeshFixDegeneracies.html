@@ -203,7 +203,7 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
@@ -214,7 +214,7 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    <span class="comment">// you can set various parameters for the resolving process; see the documentation for more info</span></div>
 <div class="line">    MR_FixMeshDegeneraciesParams* params = MR_FixMeshDegeneraciesParams_DefaultConstruct();</div>
 <div class="line">    <span class="comment">// maximum permitted deviation</span></div>
-<div class="line">    <span class="keyword">const</span> MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
+<div class="line">    <span class="keyword">const</span> MR_Box3f bbox = MR_Mesh_computeBoundingBox( mesh, NULL );</div>
 <div class="line">    MR_FixMeshDegeneraciesParams_Set_maxDeviation( params, 1e-5f * MR_Box3f_diagonal( &amp;bbox ) );</div>
 <div class="line">    <span class="comment">// maximum length of edges to be collapsed</span></div>
 <div class="line">    MR_FixMeshDegeneraciesParams_Set_tinyEdgeLength( params, 1e-3f );</div>
@@ -229,7 +229,7 @@ $(function(){initNavTree('ExampleMeshFixDegeneracies.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;fixedMesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

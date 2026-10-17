@@ -525,12 +525,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="232" column="36"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1ab1d66f5433263a59493c2670ce3419e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a3f066121fb40a7168c960e4b91d4e6e1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
-        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_1</definition>
+        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox</definition>
         <argsstring>(_Underlying *_this, MR.AffineXf3f *toWorld)</argsstring>
-        <name>__MR_PointCloud_computeBoundingBox_1</name>
-        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_1</qualifiedname>
+        <name>__MR_PointCloud_computeBoundingBox</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -547,12 +547,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="235" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1a0accc784abf6395b37ad1418689f8d0f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__PointCloud_1aafddb3c94fd6cbfafc0ed297a01ac65e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
-        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_2</definition>
+        <definition>static unsafe MR.Box3f MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_region</definition>
         <argsstring>(_Underlying *_this, MR.Const_VertBitSet._Underlying *region, MR.AffineXf3f *toWorld)</argsstring>
-        <name>__MR_PointCloud_computeBoundingBox_2</name>
-        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_2</qualifiedname>
+        <name>__MR_PointCloud_computeBoundingBox_region</name>
+        <qualifiedname>MR.Const_PointCloud.__MR_PointCloud_computeBoundingBox_region</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -786,8 +786,8 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="8" bodyend="266"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__PointCloud_1a28f2c5adf14f8e91b4c73bc29f3ec296" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_calcNumValidPoints</name></member>
-      <member refid="classMR_1_1Const__PointCloud_1ab1d66f5433263a59493c2670ce3419e0" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_computeBoundingBox_1</name></member>
-      <member refid="classMR_1_1Const__PointCloud_1a0accc784abf6395b37ad1418689f8d0f" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_computeBoundingBox_2</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a3f066121fb40a7168c960e4b91d4e6e1" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1aafddb3c94fd6cbfafc0ed297a01ac65e" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_computeBoundingBox_region</name></member>
       <member refid="classMR_1_1Const__PointCloud_1a4bdd9f32d0f0bc570871909c2e63e957" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__PointCloud_1acc79fa17f17cfe4b138621a939ef9f86" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__PointCloud_1abaafcb9e9f4140d8f06081547c3b6c96" prot="private" virt="non-virtual"><scope>MR::Const_PointCloud</scope><name>__MR_PointCloud_Destroy</name></member>

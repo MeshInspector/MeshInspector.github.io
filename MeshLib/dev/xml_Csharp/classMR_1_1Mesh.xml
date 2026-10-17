@@ -983,27 +983,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1817" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Mesh_1abfa54c910db2be3029d22af7eddc83ae" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Mesh_1aaea9cef34cb008137f2951e2a3e4c335" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Mesh.__MR_Mesh_addMeshPart_3</definition>
-        <argsstring>(_Underlying *_this, MR.Const_MeshPart._Underlying *from, MR.Const_PartMapping._Underlying *map, MR.VacantElements._Underlying *vacant)</argsstring>
-        <name>__MR_Mesh_addMeshPart_3</name>
-        <qualifiedname>MR.Mesh.__MR_Mesh_addMeshPart_3</qualifiedname>
+        <definition>static unsafe void MR.Mesh.__MR_Mesh_addMesh</definition>
+        <argsstring>(_Underlying *_this, MR.Const_Mesh._Underlying *from, MR.PartMapping._Underlying *map, byte *rearrangeTriangles)</argsstring>
+        <name>__MR_Mesh_addMesh</name>
+        <qualifiedname>MR.Mesh.__MR_Mesh_addMesh</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Const_MeshPart._Underlying *</type>
+          <type>MR.Const_Mesh._Underlying *</type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_PartMapping._Underlying *</type>
+          <type>MR.PartMapping._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
-          <type>MR.VacantElements._Underlying *</type>
-          <declname>vacant</declname>
+          <type>byte *</type>
+          <declname>rearrangeTriangles</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1013,12 +1013,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1820" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Mesh_1abb4829884c5a564e3332401362c96e66" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Mesh_1a27e667ba5795418c4dd95a219a17c6c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.Mesh.__MR_Mesh_addMeshPart_6</definition>
+        <definition>static unsafe byte MR.Mesh.__MR_Mesh_addMeshPart</definition>
         <argsstring>(_Underlying *_this, MR.Const_MeshPart._Underlying *from, byte *flipOrientation, MR.Std.Const_Vector_StdVectorMREdgeId._Underlying *thisContours, MR.Std.Const_Vector_StdVectorMREdgeId._Underlying *fromContours, MR.PartMapping._Underlying *map, MR.VacantElements._Underlying *vacant)</argsstring>
-        <name>__MR_Mesh_addMeshPart_6</name>
-        <qualifiedname>MR.Mesh.__MR_Mesh_addMeshPart_6</qualifiedname>
+        <name>__MR_Mesh_addMeshPart</name>
+        <qualifiedname>MR.Mesh.__MR_Mesh_addMeshPart</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1055,27 +1055,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1823" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Mesh_1a485549391a4d5ea5c06a7287a5bbb78e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Mesh_1a68ef933e6098a0f8d4f83b547a8b62d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Mesh.__MR_Mesh_addMesh_3</definition>
-        <argsstring>(_Underlying *_this, MR.Const_Mesh._Underlying *from, MR.PartMapping._Underlying *map, byte *rearrangeTriangles)</argsstring>
-        <name>__MR_Mesh_addMesh_3</name>
-        <qualifiedname>MR.Mesh.__MR_Mesh_addMesh_3</qualifiedname>
+        <definition>static unsafe void MR.Mesh.__MR_Mesh_addMeshPart_mapping</definition>
+        <argsstring>(_Underlying *_this, MR.Const_MeshPart._Underlying *from, MR.Const_PartMapping._Underlying *map, MR.VacantElements._Underlying *vacant)</argsstring>
+        <name>__MR_Mesh_addMeshPart_mapping</name>
+        <qualifiedname>MR.Mesh.__MR_Mesh_addMeshPart_mapping</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR.Const_Mesh._Underlying *</type>
+          <type>MR.Const_MeshPart._Underlying *</type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.PartMapping._Underlying *</type>
+          <type>MR.Const_PartMapping._Underlying *</type>
           <declname>map</declname>
         </param>
         <param>
-          <type>byte *</type>
-          <declname>rearrangeTriangles</declname>
+          <type>MR.VacantElements._Underlying *</type>
+          <declname>vacant</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1085,12 +1085,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1826" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Mesh_1a381d5d56bafdec3da861c17b78a47680" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Mesh_1a54a96c243b774bb200575935c1dbbcf9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Mesh.__MR_Mesh_addMesh_5</definition>
+        <definition>static unsafe void MR.Mesh.__MR_Mesh_addMesh_outMaps</definition>
         <argsstring>(_Underlying *_this, MR.Const_Mesh._Underlying *from, MR.FaceMap._Underlying *outFmap, MR.VertMap._Underlying *outVmap, MR.WholeEdgeMap._Underlying *outEmap, byte *rearrangeTriangles)</argsstring>
-        <name>__MR_Mesh_addMesh_5</name>
-        <qualifiedname>MR.Mesh.__MR_Mesh_addMesh_5</qualifiedname>
+        <name>__MR_Mesh_addMesh_outMaps</name>
+        <qualifiedname>MR.Mesh.__MR_Mesh_addMesh_outMaps</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1731,10 +1731,10 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1438" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1439" bodyend="1893"/>
     <listofallmembers>
-      <member refid="classMR_1_1Mesh_1a485549391a4d5ea5c06a7287a5bbb78e" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMesh_3</name></member>
-      <member refid="classMR_1_1Mesh_1a381d5d56bafdec3da861c17b78a47680" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMesh_5</name></member>
-      <member refid="classMR_1_1Mesh_1abfa54c910db2be3029d22af7eddc83ae" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMeshPart_3</name></member>
-      <member refid="classMR_1_1Mesh_1abb4829884c5a564e3332401362c96e66" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMeshPart_6</name></member>
+      <member refid="classMR_1_1Mesh_1aaea9cef34cb008137f2951e2a3e4c335" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMesh</name></member>
+      <member refid="classMR_1_1Mesh_1a54a96c243b774bb200575935c1dbbcf9" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMesh_outMaps</name></member>
+      <member refid="classMR_1_1Mesh_1a27e667ba5795418c4dd95a219a17c6c6" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMeshPart</name></member>
+      <member refid="classMR_1_1Mesh_1a68ef933e6098a0f8d4f83b547a8b62d3" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addMeshPart_mapping</name></member>
       <member refid="classMR_1_1Mesh_1a332a6b9bbcf16be0cf29e8572cd0b772" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addPoint</name></member>
       <member refid="classMR_1_1Mesh_1a35f7e4e1189b9ac18388a1a30fa993b8" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addSeparateContours</name></member>
       <member refid="classMR_1_1Mesh_1a0111ff1d466a4f8fa1e6d5a313cacc7c" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>__MR_Mesh_addSeparateEdgeLoop</name></member>

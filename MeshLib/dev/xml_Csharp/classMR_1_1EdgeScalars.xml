@@ -600,6 +600,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="20637" column="55"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeScalars_1a4bdbeae92eb87636b54f259edf7322e3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeScalars._Underlying *</type>
+        <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_EdgeScalars_Construct</name>
+        <qualifiedname>MR.EdgeScalars.__MR_EdgeScalars_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="20640" column="55"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgeScalars_1a2909a88b5fc51188db213e75be26d8a7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeScalars._Underlying *</type>
         <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_ConstructFromAnother</definition>
@@ -620,35 +638,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="20640" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="20643" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeScalars_1a173bef3d7679f51e5a3e18745e8f58fe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeScalars_1a9673d80a2bca22fc6a92c628e7bab89d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeScalars._Underlying *</type>
-        <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_EdgeScalars_Construct_1_size_t</name>
-        <qualifiedname>MR.EdgeScalars.__MR_EdgeScalars_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_Construct_fill</definition>
+        <argsstring>(nuint size, float *val)</argsstring>
+        <name>__MR_EdgeScalars_Construct_fill</name>
+        <qualifiedname>MR.EdgeScalars.__MR_EdgeScalars_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="20643" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeScalars_1acf2b8ec3eae10c36b77f9b6fbc275f84" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.EdgeScalars._Underlying *</type>
-        <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_Construct_1_std_vector_float</definition>
-        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
-        <name>__MR_EdgeScalars_Construct_1_std_vector_float</name>
-        <qualifiedname>MR.EdgeScalars.__MR_EdgeScalars_Construct_1_std_vector_float</qualifiedname>
         <param>
-          <type>MR.Std.Vector_Float._Underlying *</type>
-          <declname>vec</declname>
+          <type>float *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -658,19 +662,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="20646" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeScalars_1ac959f36b41ab6fa04c67cd2d7367fcb1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeScalars_1a0edd9bf6127c6601bbf92fb7b3096f91" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeScalars._Underlying *</type>
-        <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_Construct_2</definition>
-        <argsstring>(nuint size, float *val)</argsstring>
-        <name>__MR_EdgeScalars_Construct_2</name>
-        <qualifiedname>MR.EdgeScalars.__MR_EdgeScalars_Construct_2</qualifiedname>
+        <definition>static unsafe MR.EdgeScalars._Underlying * MR.EdgeScalars.__MR_EdgeScalars_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
+        <name>__MR_EdgeScalars_Construct_stdVector</name>
+        <qualifiedname>MR.EdgeScalars.__MR_EdgeScalars_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>float *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_Float._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1186,9 +1186,9 @@
       <member refid="classMR_1_1EdgeScalars_1a43286d9041903897b31dcd81ea03160d" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_autoResizeSet_3</name></member>
       <member refid="classMR_1_1EdgeScalars_1a154928bf87273107dfbdb838923c6d39" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_back_mut</name></member>
       <member refid="classMR_1_1EdgeScalars_1a93cc4378734518a95e6ea4bbb213af2b" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_clear</name></member>
-      <member refid="classMR_1_1EdgeScalars_1a173bef3d7679f51e5a3e18745e8f58fe" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1EdgeScalars_1acf2b8ec3eae10c36b77f9b6fbc275f84" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_Construct_1_std_vector_float</name></member>
-      <member refid="classMR_1_1EdgeScalars_1ac959f36b41ab6fa04c67cd2d7367fcb1" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_Construct_2</name></member>
+      <member refid="classMR_1_1EdgeScalars_1a4bdbeae92eb87636b54f259edf7322e3" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_Construct</name></member>
+      <member refid="classMR_1_1EdgeScalars_1a9673d80a2bca22fc6a92c628e7bab89d" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_Construct_fill</name></member>
+      <member refid="classMR_1_1EdgeScalars_1a0edd9bf6127c6601bbf92fb7b3096f91" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_Construct_stdVector</name></member>
       <member refid="classMR_1_1EdgeScalars_1a2909a88b5fc51188db213e75be26d8a7" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_ConstructFromAnother</name></member>
       <member refid="classMR_1_1EdgeScalars_1a0ca15c164e60ac6588a273c483a9fb24" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_data_mut</name></member>
       <member refid="classMR_1_1EdgeScalars_1a31d3ec04e49d484eabb34146b7d121a4" prot="private" virt="non-virtual"><scope>MR::EdgeScalars</scope><name>__MR_EdgeScalars_DefaultConstruct</name></member>

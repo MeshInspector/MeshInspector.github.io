@@ -552,12 +552,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="493" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointCloud_1aacaf1d5ec15ae6f28a39658946f57d56" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointCloud_1a5c24dbeab2055b65b8f1ce1d12ad2cb9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-        <definition>static unsafe MR.VertId MR.PointCloud.__MR_PointCloud_addPoint_1</definition>
+        <definition>static unsafe MR.VertId MR.PointCloud.__MR_PointCloud_addPoint</definition>
         <argsstring>(_Underlying *_this, MR.Vector3f *point)</argsstring>
-        <name>__MR_PointCloud_addPoint_1</name>
-        <qualifiedname>MR.PointCloud.__MR_PointCloud_addPoint_1</qualifiedname>
+        <name>__MR_PointCloud_addPoint</name>
+        <qualifiedname>MR.PointCloud.__MR_PointCloud_addPoint</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -574,12 +574,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="496" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointCloud_1a3e3f7ad885c76cea69f4ef6c437bb8aa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointCloud_1a17c24e40cd6759a79b3929475f269cd9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-        <definition>static unsafe MR.VertId MR.PointCloud.__MR_PointCloud_addPoint_2</definition>
+        <definition>static unsafe MR.VertId MR.PointCloud.__MR_PointCloud_addPoint_normal</definition>
         <argsstring>(_Underlying *_this, MR.Vector3f *point, MR.Vector3f *normal)</argsstring>
-        <name>__MR_PointCloud_addPoint_2</name>
-        <qualifiedname>MR.PointCloud.__MR_PointCloud_addPoint_2</qualifiedname>
+        <name>__MR_PointCloud_addPoint_normal</name>
+        <qualifiedname>MR.PointCloud.__MR_PointCloud_addPoint_normal</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -807,8 +807,8 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" line="272" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloud.cs" bodystart="273" bodyend="521"/>
     <listofallmembers>
       <member refid="classMR_1_1PointCloud_1a3a12626c0eeb46a19767735ef8ba176c" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_addPartByMask</name></member>
-      <member refid="classMR_1_1PointCloud_1aacaf1d5ec15ae6f28a39658946f57d56" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_addPoint_1</name></member>
-      <member refid="classMR_1_1PointCloud_1a3e3f7ad885c76cea69f4ef6c437bb8aa" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_addPoint_2</name></member>
+      <member refid="classMR_1_1PointCloud_1a5c24dbeab2055b65b8f1ce1d12ad2cb9" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_addPoint</name></member>
+      <member refid="classMR_1_1PointCloud_1a17c24e40cd6759a79b3929475f269cd9" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_addPoint_normal</name></member>
       <member refid="classMR_1_1PointCloud_1ae36fe1c8f743086d2f3bcf747d971c8c" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_AssignFromAnother</name></member>
       <member refid="classMR_1_1PointCloud_1afbe960594cbcd0d75d3bcfba6bb0cc7c" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_ConstructFromAnother</name></member>
       <member refid="classMR_1_1PointCloud_1ac1dff0dd4fc16538b1d168d1796c6c75" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>__MR_PointCloud_DefaultConstruct</name></member>

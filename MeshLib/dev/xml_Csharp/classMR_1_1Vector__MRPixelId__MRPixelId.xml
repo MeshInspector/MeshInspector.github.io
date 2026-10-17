@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59445" column="70"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1a13ce7a715a51051ba07ee9040a559989" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRPixelId_MRPixelId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct</name>
+        <qualifiedname>MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59448" column="70"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1a835c0bf52405dcf3ddb402410f49e2fa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRPixelId_MRPixelId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59448" column="70"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59451" column="70"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1a4a09b96908b43e70d186e7ce0efc2e8c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1a61c3d71bff775ac9896dd2bee7e49544" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRPixelId_MRPixelId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.PixelId *val)</argsstring>
+        <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_fill</name>
+        <qualifiedname>MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59451" column="70"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1abf8e86880c72c9e376b07d46013b7d86" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRPixelId_MRPixelId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_std_vector_MR_PixelId</definition>
-        <argsstring>(MR.Std.Vector_MRPixelId._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_std_vector_MR_PixelId</name>
-        <qualifiedname>MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_std_vector_MR_PixelId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRPixelId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="59454" column="70"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1ae93e36b076fb711b513236382bdc0996" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRPixelId__MRPixelId_1a31a0095cd00ad4124c1d9dddb05087c4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRPixelId_MRPixelId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_2</definition>
-        <argsstring>(nuint size, MR.PixelId *val)</argsstring>
-        <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_2</name>
-        <qualifiedname>MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRPixelId._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRPixelId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1aae7bc39bb4f1f5473a16b0f4a679d37f" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ae1fae932d063acd8853f03007af183c3" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_back_mut</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1adfb5d22ccde6d844aadff62c50e371a5" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_clear</name></member>
-      <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a4a09b96908b43e70d186e7ce0efc2e8c" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1abf8e86880c72c9e376b07d46013b7d86" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_1_std_vector_MR_PixelId</name></member>
-      <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ae93e36b076fb711b513236382bdc0996" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a13ce7a715a51051ba07ee9040a559989" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct</name></member>
+      <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a61c3d71bff775ac9896dd2bee7e49544" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a31a0095cd00ad4124c1d9dddb05087c4" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a835c0bf52405dcf3ddb402410f49e2fa" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1aedaf8e22438faac4f63d150d1935e694" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_data_mut</name></member>
       <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1adddb5694129ca27e69ce7a1f8bd8aef3" prot="private" virt="non-virtual"><scope>MR::Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_DefaultConstruct</name></member>

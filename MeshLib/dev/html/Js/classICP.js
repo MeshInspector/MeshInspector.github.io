@@ -1,7 +1,7 @@
 var classICP =
 [
-    [ "ICP", "classICP.html#a09dbac28a63c296be59f1b6481271e8a", null ],
-    [ "ICP", "classICP.html#a770878be33c4ff48b382d3b260b2eda6", null ],
+    [ "ICP", "classICP.html#a4404c0fbed08c955df9e4b66f040a9d7", null ],
+    [ "ICP", "classICP.html#a3de6447a8a6a272213c908991e2988e9", null ],
     [ "autoSelectFloatXf", "classICP.html#ac51b5db8da1b5e9d6768e0911c6bcb75", null ],
     [ "calculateTransformation", "classICP.html#a3d8e926b66f331934a1c0b17fd3361eb", null ],
     [ "getMeanSqDistToPlane", "classICP.html#a927348b785aa38ed25d056379d39e201", null ],

@@ -600,6 +600,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1597" column="57"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Triangulation_1afb1357c7aa05e442d93f986427b8554c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Triangulation._Underlying *</type>
+        <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Triangulation_Construct</name>
+        <qualifiedname>MR.Triangulation.__MR_Triangulation_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1600" column="57"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Triangulation_1ac2d55d8a1d269bf6b55f919685f63100" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Triangulation._Underlying *</type>
         <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_ConstructFromAnother</definition>
@@ -620,35 +638,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1600" column="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1603" column="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1ac8b1b19ba21ad76420bf8aa49d126c45" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1a5d100ebf1420e06ef62672ed2ba4adc3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Triangulation._Underlying *</type>
-        <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Triangulation_Construct_1_size_t</name>
-        <qualifiedname>MR.Triangulation.__MR_Triangulation_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Std.Array_MRVertId_3 *val)</argsstring>
+        <name>__MR_Triangulation_Construct_fill</name>
+        <qualifiedname>MR.Triangulation.__MR_Triangulation_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1603" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1a8a60679ea85c013b6bccef7a95c8df12" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Triangulation._Underlying *</type>
-        <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_Construct_1_std_vector_std_array_MR_VertId_3</definition>
-        <argsstring>(MR.Std.Vector_StdArrayMRVertId3._Underlying *vec)</argsstring>
-        <name>__MR_Triangulation_Construct_1_std_vector_std_array_MR_VertId_3</name>
-        <qualifiedname>MR.Triangulation.__MR_Triangulation_Construct_1_std_vector_std_array_MR_VertId_3</qualifiedname>
         <param>
-          <type>MR.Std.Vector_StdArrayMRVertId3._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Std.Array_MRVertId_3 *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -658,19 +662,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1606" column="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Triangulation_1ad684348ca2cd51de872a23d421412fa1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Triangulation_1a125323fef58ea9b9210599123cc47e47" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Triangulation._Underlying *</type>
-        <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_Construct_2</definition>
-        <argsstring>(nuint size, MR.Std.Array_MRVertId_3 *val)</argsstring>
-        <name>__MR_Triangulation_Construct_2</name>
-        <qualifiedname>MR.Triangulation.__MR_Triangulation_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Triangulation._Underlying * MR.Triangulation.__MR_Triangulation_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_StdArrayMRVertId3._Underlying *vec)</argsstring>
+        <name>__MR_Triangulation_Construct_stdVector</name>
+        <qualifiedname>MR.Triangulation.__MR_Triangulation_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Std.Array_MRVertId_3 *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_StdArrayMRVertId3._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1186,9 +1186,9 @@
       <member refid="classMR_1_1Triangulation_1a262f41d5393fa17261d7743a0f43b645" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Triangulation_1abb5bf3957b6aaa36920bcb0de7473987" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_back_mut</name></member>
       <member refid="classMR_1_1Triangulation_1a355cacfe84a28c48a8b78982d1b74de5" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_clear</name></member>
-      <member refid="classMR_1_1Triangulation_1ac8b1b19ba21ad76420bf8aa49d126c45" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Triangulation_1a8a60679ea85c013b6bccef7a95c8df12" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_Construct_1_std_vector_std_array_MR_VertId_3</name></member>
-      <member refid="classMR_1_1Triangulation_1ad684348ca2cd51de872a23d421412fa1" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_Construct_2</name></member>
+      <member refid="classMR_1_1Triangulation_1afb1357c7aa05e442d93f986427b8554c" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_Construct</name></member>
+      <member refid="classMR_1_1Triangulation_1a5d100ebf1420e06ef62672ed2ba4adc3" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_Construct_fill</name></member>
+      <member refid="classMR_1_1Triangulation_1a125323fef58ea9b9210599123cc47e47" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_Construct_stdVector</name></member>
       <member refid="classMR_1_1Triangulation_1ac2d55d8a1d269bf6b55f919685f63100" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Triangulation_1a1a4c23aa133bcf78b327afd9152ae8f5" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_data_mut</name></member>
       <member refid="classMR_1_1Triangulation_1af27d9a0f308e0733301c3079a541cde4" prot="private" virt="non-virtual"><scope>MR::Triangulation</scope><name>__MR_Triangulation_DefaultConstruct</name></member>

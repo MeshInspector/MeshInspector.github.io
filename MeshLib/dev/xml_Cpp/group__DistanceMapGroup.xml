@@ -12,6 +12,445 @@
     <innerclass refid="structMR_1_1DistanceMapLoadSettings" prot="public">MR::DistanceMapLoadSettings</innerclass>
     <innerclass refid="structMR_1_1DistanceMapSaveSettings" prot="public">MR::DistanceMapSaveSettings</innerclass>
     <innerclass refid="classMR_1_1RectIndexer" prot="public">MR::RectIndexer</innerclass>
+    <sectiondef kind="user-defined">
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" prot="public" static="no" mutable="no">
+        <type>const ContourToDistanceMapParams &amp;</type>
+        <definition>Mesh BooleanOperation const BooleanParameters &amp; MR::params</definition>
+        <argsstring></argsstring>
+        <name>params</name>
+        <qualifiedname>MR::params</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDistanceMap.h" line="254" column="38" bodyfile="MRMesh/MRDistanceMap.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga1ceb255a1de1a49e02ff03c17ec71350" prot="public" static="no" mutable="no">
+        <type>const Mesh &amp;</type>
+        <definition>Mesh &amp;&amp; MR::meshB</definition>
+        <argsstring></argsstring>
+        <name>meshB</name>
+        <qualifiedname>MR::meshB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="62" column="47" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga69c979e2e86dc19d223ee4f41fb46fea" prot="public" static="no" mutable="no">
+        <type>const Mesh BooleanOperation</type>
+        <definition>Mesh BooleanOperation MR::operation</definition>
+        <argsstring></argsstring>
+        <name>operation</name>
+        <qualifiedname>MR::operation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="62" column="70" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" prot="public" static="no" mutable="no">
+        <type>const Mesh BooleanOperation const AffineXf3f *</type>
+        <definition>const MeshPart const AffineXf3f * MR::rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>rigidB2A</name>
+        <qualifiedname>MR::rigidB2A</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="63" column="52" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga848e5345e71d79237fb4a0881d2119a8" prot="public" static="no" mutable="no">
+        <type>const Mesh BooleanOperation const AffineXf3f BooleanResultMapper *</type>
+        <definition>const Mesh BooleanOperation const AffineXf3f BooleanResultMapper* MR::mapper</definition>
+        <argsstring></argsstring>
+        <name>mapper</name>
+        <qualifiedname>MR::mapper</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="63" column="81" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" prot="public" static="no" mutable="no">
+        <type>const Mesh BooleanOperation const AffineXf3f BooleanResultMapper ProgressCallback</type>
+        <definition>VertCoords const MeshRelaxParams const ProgressCallback &amp; MR::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::cb</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="63" column="106" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga39152eebf658678f4b4dcf694eaa7e6e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 PreciseCollisionResult findCollidingEdgeTrisPrecise(const MeshPart &amp;a</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
+        <briefdescription>
+<para>finds all pairs of colliding edges from one mesh and triangle from another mesh </para>
+        </briefdescription>
+        <detaileddescription>
+<para>composes the set of all vertices incident to given faces</para>
+<para>returns a vector with face-normal in every element for valid mesh faces</para>
+<para>Stitches two holes in <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><linebreak/>
+.</para>
+<para>creates simple converters from Vector3f to Vector3i and back in mesh parts area range</para>
+<para>converts distance map to 2d iso-lines: iso-lines are created in space <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> ( plane OXY with pixelSize = (1, 1) )</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anyIntersection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then the function returns as fast as it finds any intersection</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Build cylindrical patch to fill space between two holes represented by one of their edges each,<linebreak/>
+default metric: ComplexStitchMetric</para>
+<para><image type="html" name="before_stitch.png" width="250cm">Before</image>
+ <image type="html" name="stitch.png" width="250cm">After</image>
+</para>
+<para>Next picture show, how newly generated faces can be smoothed <ref refid="group__GeneralGroup_1ga0e682b83c6954583b3f9ec92e9b5dffa" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1gad5fa6e7eb325d6fac5aae27909ce7d8d" kindref="member">MR::subdivideMesh</ref> <image type="html" name="stitch_smooth.png" width="250cm">Stitch with smooth</image>
+</para>
+<para><programlisting filename="cpp-examples/MeshStitchHole.dox.cpp"></programlisting></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mesh with hole </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>EdgeId which represents 1st hole (should not have valid left FaceId) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>EdgeId which represents 2nd hole (should not have valid left FaceId) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameters of holes stitching</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kindref="member">fillHole</ref> </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref></para>
+</simplesect>
+applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback</para>
+</simplesect>
+Reduces noise in given mesh, see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</para>
+<para>Computes signed distances from valid vertices of test mesh to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDistanceMap.h" line="250" column="1" bodyfile="MRMesh/MRDistanceMap.h" bodystart="261" bodyend="-1" declfile="MRMesh/MRMeshNormals.h" declline="23" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(withXf) 1 BooleanResult boolean(const Mesh &amp;meshA</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
+        <param>
+          <type>withXf</type>
+        </param>
+        <briefdescription>
+<para>Performs CSG operation on two meshes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes new mesh - result of boolean operation on mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meshA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>A</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>meshB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>B</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CSG operation to perform </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mapper</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Input meshes should have no self-intersections in intersecting zone </para>
+</simplesect>
+<simplesect kind="note"><para>If meshes are not closed in intersecting zone some boolean operations are not allowed (as far as input meshes interior and exterior cannot be determined) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga3cd95420eff10d7088c11eaba95708df" prot="public" static="no" const="no" explicit="no" inline="no" refqual="rvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(move) 1 BooleanResult boolean(Mesh &amp;&amp;meshA</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
+        <param>
+          <type>move</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BooleanResult</type>
+        <definition>BooleanResult MR::forceBoolean</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
+        <name>forceBoolean</name>
+        <qualifiedname>MR::forceBoolean</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const BooleanParameters &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calls boolean in force mode, also unites close vertices and fills holes afterwards <simplesect kind="note"><para>expects closed mesh on input, and fills all holes </para>
+</simplesect>
+<simplesect kind="warning"><para>params.mapper might be not correctly updated when new holes are filled </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="114" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="114" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga6d540f90dc1f346721c02d850438ed29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; Mesh &gt;</type>
+        <definition>Expected&lt; Mesh &gt; MR::selfBoolean</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>selfBoolean</name>
+        <qualifiedname>MR::selfBoolean</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs boolean operation on mesh with itself, cutting simple intersections contours and flipping their connectivity this function is experimental and likely to change signature and/or behavior in future </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="120" column="11" declfile="MRMesh/MRMeshBoolean.h" declline="120" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga0b6ca259502ac9cd412a6d3b42249201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Contours3f</type>
+        <definition>Contours3f MR::findIntersectionContours</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, const AffineXf3f *rigidB2A=nullptr)</argsstring>
+        <name>findIntersectionContours</name>
+        <qualifiedname>MR::findIntersectionContours</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns intersection contours of given meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="123" column="13" declfile="MRMesh/MRMeshBoolean.h" declline="123" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; BooleanResultPoints, std::string &gt;</type>
+        <definition>Expected&lt; BooleanResultPoints, std::string &gt; MR::getBooleanPoints</definition>
+        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr)</argsstring>
+        <name>getBooleanPoints</name>
+        <qualifiedname>MR::getBooleanPoints</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshA</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>meshB</declname>
+        </param>
+        <param>
+          <type>BooleanOperation</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>const AffineXf3f *</type>
+          <declname>rigidB2A</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>Returns the points of mesh boolean&apos;s result mesh. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns vertices and intersection points of mesh that is result of boolean operation of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput>. Can be used as fast alternative for cases where the mesh topology can be ignored (bounding box, convex hull, etc.) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meshA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>A</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>meshB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input mesh <computeroutput>B</computeroutput> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean operation to perform </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rigidB2A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="143" column="12" declfile="MRMesh/MRMeshBoolean.h" declline="143" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="group__DistanceMapGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::convertIntFloatAllVerts</definition>
+        <argsstring>(Mesh &amp;mesh, const CoordinateConverters &amp;conv)</argsstring>
+        <name>convertIntFloatAllVerts</name>
+        <qualifiedname>MR::convertIntFloatAllVerts</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const CoordinateConverters &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts all vertices of the mesh first in integer-coordinates, and then back in float-coordinates; this is necessary to avoid small self-intersections near newly introduced vertices on cut-contours; this actually sligntly moves only small perentage of vertices near x=0 or y=0 or z=0 planes, where float-precision is higher than int-precision; newly introduced vertices on cut-contours are also converted, but we expected that they remain unchanged due to idempotent property of the conversion </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="151" column="7" declfile="MRMesh/MRMeshBoolean.h" declline="151" declcolumn="7"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="enum">
       <memberdef kind="enum" id="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" prot="public" static="no" strong="yes">
         <type>signed char</type>
@@ -70,6 +509,34 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga80af23d6afb6730de0589211dc06002d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>const ContourToDistanceMapParams float MR::isoValue</definition>
+        <argsstring></argsstring>
+        <name>isoValue</name>
+        <qualifiedname>MR::isoValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDistanceMap.h" line="250" column="43" bodyfile="MRMesh/MRDistanceMap.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga08cc3c144188eeeba21b46af5590db82" prot="public" static="no" mutable="no">
+        <type>MR_BIND_OVERLOAD_SUFFIX(xf) 1 std float</type>
+        <definition>MR_BIND_OVERLOAD_SUFFIX(xf) 1 std float MR::pixelSize</definition>
+        <argsstring></argsstring>
+        <name>pixelSize</name>
+        <qualifiedname>MR::pixelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRDistanceMap.h" line="261" column="43" bodyfile="MRMesh/MRDistanceMap.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__DistanceMapGroup_1gaf0cff421c4d16669d4c549f214bb8477" prot="public" static="yes" mutable="no">
         <type>const std::initializer_list&lt; OutEdge2 &gt;</type>
         <definition>const std::initializer_list&lt;OutEdge2&gt; MR::allOutEdges2</definition>
@@ -304,46 +771,14 @@
         </inbodydescription>
         <location file="MRMesh/MRDistanceMap.h" line="246" column="15" declfile="MRMesh/MRDistanceMap.h" declline="246" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__DistanceMapGroup_1gaa693ceaf7bf9d2dc2728807f26d6e12a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Polyline2</type>
-        <definition>Polyline2 MR::distanceMapTo2DIsoPolyline</definition>
-        <argsstring>(const DistanceMap &amp;distMap, float isoValue)</argsstring>
-        <name>distanceMapTo2DIsoPolyline</name>
-        <qualifiedname>MR::distanceMapTo2DIsoPolyline</qualifiedname>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga73d46de92d0aa806267918fa4d211d1c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(params) 1 Polyline2 distanceMapTo2DIsoPolyline(const DistanceMap &amp;distMap</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const DistanceMap &amp;</type>
-          <declname>distMap</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>isoValue</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>converts distance map to 2d iso-lines: iso-lines are created in space <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> ( plane OXY with pixelSize = (1, 1) ) </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRDistanceMap.h" line="250" column="13" declfile="MRMesh/MRDistanceMap.h" declline="250" declcolumn="13"/>
-      </memberdef>
-      <memberdef kind="function" id="group__DistanceMapGroup_1ga54c8f32aafa8f7d85f1839635e080609" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Polyline2</type>
-        <definition>Polyline2 MR::distanceMapTo2DIsoPolyline</definition>
-        <argsstring>(const DistanceMap &amp;distMap, const ContourToDistanceMapParams &amp;params, float isoValue)</argsstring>
-        <name>distanceMapTo2DIsoPolyline</name>
-        <qualifiedname>MR::distanceMapTo2DIsoPolyline</qualifiedname>
-        <param>
-          <type>const DistanceMap &amp;</type>
-          <declname>distMap</declname>
-        </param>
-        <param>
-          <type>const ContourToDistanceMapParams &amp;</type>
-          <declname>params</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>isoValue</declname>
+          <type>params</type>
         </param>
         <briefdescription>
 <para>iso-lines are created in real space ( plane OXY with parameters according <ref refid="structMR_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref> ) </para>
@@ -352,30 +787,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRDistanceMap.h" line="253" column="13" declfile="MRMesh/MRDistanceMap.h" declline="253" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="253" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="group__DistanceMapGroup_1gaf8e4c5b69b7ff64356b8fe6d7d73583e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::pair&lt; Polyline2, AffineXf3f &gt;</type>
-        <definition>std::pair&lt; Polyline2, AffineXf3f &gt; MR::distanceMapTo2DIsoPolyline</definition>
-        <argsstring>(const DistanceMap &amp;distMap, const AffineXf3f &amp;xf, float isoValue, bool useDepth=false)</argsstring>
-        <name>distanceMapTo2DIsoPolyline</name>
-        <qualifiedname>MR::distanceMapTo2DIsoPolyline</qualifiedname>
+      <memberdef kind="function" id="group__DistanceMapGroup_1ga867028ba328a8652452d4ce44c02e953" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type>MR_BIND_OVERLOAD_SUFFIX(xf) 1 std</type>
+        <definition>MR_BIND_OVERLOAD_SUFFIX(xf) 1 std MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(pixelSize) 1 Polyline2 distanceMapTo2DIsoPolyline(const DistanceMap &amp;distMap</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const DistanceMap &amp;</type>
-          <declname>distMap</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f &amp;</type>
-          <declname>xf</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>isoValue</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>useDepth</declname>
-          <defval>false</defval>
+          <type>pixelSize</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -393,33 +814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRDistanceMap.h" line="259" column="13" declfile="MRMesh/MRDistanceMap.h" declline="259" declcolumn="13"/>
-      </memberdef>
-      <memberdef kind="function" id="group__DistanceMapGroup_1ga40f0ce955b843b2257a05a5ee11d7e93" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Polyline2</type>
-        <definition>Polyline2 MR::distanceMapTo2DIsoPolyline</definition>
-        <argsstring>(const DistanceMap &amp;distMap, float pixelSize, float isoValue)</argsstring>
-        <name>distanceMapTo2DIsoPolyline</name>
-        <qualifiedname>MR::distanceMapTo2DIsoPolyline</qualifiedname>
-        <param>
-          <type>const DistanceMap &amp;</type>
-          <declname>distMap</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>pixelSize</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>isoValue</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRDistanceMap.h" line="261" column="13" declfile="MRMesh/MRDistanceMap.h" declline="261" declcolumn="13"/>
+        <location file="MRMesh/MRDistanceMap.h" line="261" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__DistanceMapGroup_1gacffe5f45914f7b6f7d4fbd8a17c3bd0d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Polyline2</type>

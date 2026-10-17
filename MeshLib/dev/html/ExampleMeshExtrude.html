@@ -234,7 +234,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh.</span></div>
@@ -247,14 +247,14 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Select faces to extrude</span></div>
 <div class="line">    MR_FaceBitSet* facesToExtrude = MR_FaceBitSet_DefaultConstruct();</div>
-<div class="line">    MR_FaceBitSet_autoResizeSet_2( facesToExtrude, (MR_FaceId){1}, NULL );</div>
-<div class="line">    MR_FaceBitSet_autoResizeSet_2( facesToExtrude, (MR_FaceId){2}, NULL );</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet( facesToExtrude, (MR_FaceId){1}, NULL );</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet( facesToExtrude, (MR_FaceId){2}, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create duplicated verts on region boundary</span></div>
 <div class="line">    MR_makeDegenerateBandAroundRegion( mesh, facesToExtrude, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find vertices that will be moved</span></div>
-<div class="line">    MR_VertBitSet* vertsToMove = MR_getIncidentVerts_2_MR_FaceBitSet( MR_Mesh_Get_topology( mesh ), facesToExtrude );</div>
+<div class="line">    MR_VertBitSet* vertsToMove = MR_getIncidentVerts( MR_Mesh_Get_topology( mesh ), facesToExtrude );</div>
 <div class="line">    MR_Vector3f* points = MR_VertCoords_data_mut( MR_Mesh_GetMutable_points( mesh ) );</div>
 <div class="line">    MR_Vector3f shift = MR_Vector3f_plusZ();</div>
 <div class="line">    <span class="keywordtype">size_t</span> numPoints = MR_VertCoords_size( MR_Mesh_GetMutable_points( mesh ) );</div>
@@ -266,7 +266,7 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;extruded_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;extruded_mesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
 <div class="line">    <span class="keywordflow">else</span></div>

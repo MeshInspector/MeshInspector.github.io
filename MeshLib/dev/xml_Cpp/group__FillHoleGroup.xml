@@ -55,6 +55,34 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
+      <memberdef kind="variable" id="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFillHole.h" line="118" column="37" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" prot="public" static="no" mutable="no">
+        <type>const MeshPart &amp;</type>
+        <definition>EdgeId EdgeId MR::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="71" column="52" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__FillHoleGroup_1gad6e60cb1116257e53229b6ee7ee22351" prot="public" static="no" extern="yes" mutable="no">
         <type>const double</type>
         <definition>const double MR::BadTriangulationMetric</definition>
@@ -72,85 +100,6 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::stitchHoles</definition>
-        <argsstring>(Mesh &amp;mesh, EdgeId a, EdgeId b, const StitchHolesParams &amp;params={})</argsstring>
-        <name>stitchHoles</name>
-        <qualifiedname>MR::stitchHoles</qualifiedname>
-        <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>EdgeId</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>const StitchHolesParams &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>Stitches two holes in <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><linebreak/>
-. </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Build cylindrical patch to fill space between two holes represented by one of their edges each,<linebreak/>
-default metric: ComplexStitchMetric</para>
-<para><image type="html" name="before_stitch.png" width="250cm">Before</image>
- <image type="html" name="stitch.png" width="250cm">After</image>
-</para>
-<para>Next picture show, how newly generated faces can be smoothed <ref refid="group__GeneralGroup_1ga0e682b83c6954583b3f9ec92e9b5dffa" kindref="member">MR::positionVertsSmoothly</ref> <ref refid="group__MeshSubdivideGroup_1gad5fa6e7eb325d6fac5aae27909ce7d8d" kindref="member">MR::subdivideMesh</ref> <image type="html" name="stitch_smooth.png" width="250cm">Stitch with smooth</image>
-</para>
-<para><programlisting filename="cpp-examples/MeshStitchHole.dox.cpp"></programlisting></para>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>mesh</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>mesh with hole </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>a</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>EdgeId which represents 1st hole (should not have valid left FaceId) </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>b</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>EdgeId which represents 2nd hole (should not have valid left FaceId) </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>params</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>parameters of holes stitching</para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kindref="member">fillHole</ref> </para>
-</simplesect>
-<simplesect kind="see"><para><ref refid="structMR_1_1StitchHolesParams" kindref="compound">StitchHolesParams</ref> </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="118" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="118" declcolumn="7"/>
-      </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::buildCylinderBetweenTwoHoles</definition>
@@ -182,20 +131,14 @@ default metric: ComplexStitchMetric</para>
         </inbodydescription>
         <location file="MRMesh/MRMeshFillHole.h" line="120" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="120" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::stitchHoles</definition>
-        <argsstring>(Mesh &amp;mesh, const StitchHolesParams &amp;params={})</argsstring>
-        <name>stitchHoles</name>
-        <qualifiedname>MR::stitchHoles</qualifiedname>
+      <memberdef kind="function" id="group__FillHoleGroup_1gaa9b4fc2c3c8176dafe70ab92f9a03dc8" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(auto) 1 bool stitchHoles(Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const StitchHolesParams &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
+          <type>auto</type>
         </param>
         <briefdescription>
 <para>this version finds holes in the mesh by itself and returns false if they are not found </para>
@@ -204,7 +147,7 @@ default metric: ComplexStitchMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="123" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="123" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="123" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -286,7 +229,7 @@ default metric: CircumscribedFillMetric</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kindref="member">stitchHoles</ref> </para>
+<simplesect kind="see"><para>stitchHoles </para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" kindref="member">fillHoleTrivially</ref> </para>
 </simplesect>

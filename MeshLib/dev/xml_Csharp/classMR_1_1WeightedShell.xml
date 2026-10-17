@@ -216,34 +216,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1678" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WeightedShell_1a5ddce924abf2ec9030b9807f9fb41f82" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1a1639df0a139621d82dce42613872436e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.WeightedShell.__MR_WeightedShell_meshShell_2</definition>
-        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.WeightedShell.Const_ParametersRegions._Underlying *params_)</argsstring>
-        <name>__MR_WeightedShell_meshShell_2</name>
-        <qualifiedname>MR.WeightedShell.__MR_WeightedShell_meshShell_2</qualifiedname>
-        <param>
-          <type>MR.Const_Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>MR.WeightedShell.Const_ParametersRegions._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1681" column="69"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WeightedShell_1a8850931c2ee1bf038a7c22f7425a445a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.WeightedShell.__MR_WeightedShell_meshShell_3_MR_VertScalars</definition>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.WeightedShell.__MR_WeightedShell_meshShell</definition>
         <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Const_VertScalars._Underlying *vertWeights, MR.WeightedShell.Const_ParametersMetric._Underlying *params_)</argsstring>
-        <name>__MR_WeightedShell_meshShell_3_MR_VertScalars</name>
-        <qualifiedname>MR.WeightedShell.__MR_WeightedShell_meshShell_3_MR_VertScalars</qualifiedname>
+        <name>__MR_WeightedShell_meshShell</name>
+        <qualifiedname>MR.WeightedShell.__MR_WeightedShell_meshShell</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -262,14 +240,36 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1681" column="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1acecad736785e7b3b8a0ace05e2712afb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.WeightedShell.__MR_WeightedShell_meshShell_regions</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.WeightedShell.Const_ParametersRegions._Underlying *params_)</argsstring>
+        <name>__MR_WeightedShell_meshShell_regions</name>
+        <qualifiedname>MR.WeightedShell.__MR_WeightedShell_meshShell_regions</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_ParametersRegions._Underlying *</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1684" column="69"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WeightedShell_1af2de9cc0e839a442f76bd46bb694578f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1a9e7f442c3dd156543b6c7ea7ac7e33fd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.WeightedShell.__MR_WeightedShell_meshShell_3_MR_WeightedShell_ParametersRegions</definition>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.WeightedShell.__MR_WeightedShell_meshShell_regionsBuilder</definition>
         <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.WeightedShell.Const_ParametersRegions._Underlying *params_, MR.Misc._PassBy volumeBuilder_pass_by, MR.Std.Function_MRFunctionVolume_From_ConstMRMeshRef_ConstMRWeightedShellDistanceVolumeCreationParamsRef._Underlying *volumeBuilder)</argsstring>
-        <name>__MR_WeightedShell_meshShell_3_MR_WeightedShell_ParametersRegions</name>
-        <qualifiedname>MR.WeightedShell.__MR_WeightedShell_meshShell_3_MR_WeightedShell_ParametersRegions</qualifiedname>
+        <name>__MR_WeightedShell_meshShell_regionsBuilder</name>
+        <qualifiedname>MR.WeightedShell.__MR_WeightedShell_meshShell_regionsBuilder</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -372,9 +372,9 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="4" bodyend="1697"/>
     <listofallmembers>
       <member refid="classMR_1_1WeightedShell_1a7df2cf524ea670c1d745beb8c298731a" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_calculateShellWeightsFromRegions</name></member>
-      <member refid="classMR_1_1WeightedShell_1a5ddce924abf2ec9030b9807f9fb41f82" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshShell_2</name></member>
-      <member refid="classMR_1_1WeightedShell_1a8850931c2ee1bf038a7c22f7425a445a" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshShell_3_MR_VertScalars</name></member>
-      <member refid="classMR_1_1WeightedShell_1af2de9cc0e839a442f76bd46bb694578f" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshShell_3_MR_WeightedShell_ParametersRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1a1639df0a139621d82dce42613872436e" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshShell</name></member>
+      <member refid="classMR_1_1WeightedShell_1acecad736785e7b3b8a0ace05e2712afb" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshShell_regions</name></member>
+      <member refid="classMR_1_1WeightedShell_1a9e7f442c3dd156543b6c7ea7ac7e33fd" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshShell_regionsBuilder</name></member>
       <member refid="classMR_1_1WeightedShell_1acccfcb79700728dbe3e569e59ef4ed79" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_meshToDistanceVolume</name></member>
       <member refid="classMR_1_1WeightedShell_1a0f33d039bce91e8e668d0902a1d4a762" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_pointsShell</name></member>
       <member refid="classMR_1_1WeightedShell_1a3069d9f918e2aca383554e95b35acf0d" prot="private" virt="non-virtual"><scope>MR::WeightedShell</scope><name>__MR_WeightedShell_pointsToDistanceVolume</name></member>

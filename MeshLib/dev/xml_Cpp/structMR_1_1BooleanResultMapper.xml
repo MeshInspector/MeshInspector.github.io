@@ -253,8 +253,8 @@
 <para>Structure to map old mesh BitSets to new. </para>
     </briefdescription>
     <detaileddescription>
-<para>Structure to easily map topology of <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> input meshes to result mesh</para>
-<para>This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> to result mesh topology primitives <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting> <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting> <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> </para>
+<para>Structure to easily map topology of MR::boolean input meshes to result mesh</para>
+<para>This structure allows to map faces, vertices and edges of mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> input of MR::boolean to result mesh topology primitives <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting> <programlisting filename="cpp-examples/MeshBoolean.dox.cpp"></programlisting> <simplesect kind="see"><para>MR::boolean </para>
 </simplesect>
 </para>
     </detaileddescription>

@@ -600,6 +600,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63743" column="73"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a9126237b17b1f37dbb3f58a330efe277" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying *</type>
+        <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct</name>
+        <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63746" column="73"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a4e12fea301c908f50b377e9c226dcfbe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying *</type>
         <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_ConstructFromAnother</definition>
@@ -620,35 +638,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63746" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63749" column="73"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ac55d9e15c5f9e268e994d4e0fbbebd64" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae68b1fabc6ff09c50c22dfd838ac8ab1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying *</type>
-        <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_fill</definition>
+        <argsstring>(nuint size, int *val)</argsstring>
+        <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_fill</name>
+        <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63749" column="73"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aa266d64296d3f9b3dec869fef2a8310d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying *</type>
-        <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_std_vector_int</definition>
-        <argsstring>(MR.Std.Vector_Int._Underlying *vec)</argsstring>
-        <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_std_vector_int</name>
-        <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_std_vector_int</qualifiedname>
         <param>
-          <type>MR.Std.Vector_Int._Underlying *</type>
-          <declname>vec</declname>
+          <type>int *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -658,19 +662,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="63752" column="73"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8cbe57066c04e5355262765d00bde67e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a5a79e93360ca1cc17dc7663a6fe9ee77" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying *</type>
-        <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_2</definition>
-        <argsstring>(nuint size, int *val)</argsstring>
-        <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_2</name>
-        <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_Int._Underlying *vec)</argsstring>
+        <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>int *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_Int._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1186,9 +1186,9 @@
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1af8949a5dff0b354ca3f18876d1cde45d" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a34099afa1048c7704de26c206ade3242" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_back_mut</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ad59d43561d14d181eb3e819867879e2a" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_clear</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ac55d9e15c5f9e268e994d4e0fbbebd64" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aa266d64296d3f9b3dec869fef2a8310d" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_1_std_vector_int</name></member>
-      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8cbe57066c04e5355262765d00bde67e" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a9126237b17b1f37dbb3f58a330efe277" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae68b1fabc6ff09c50c22dfd838ac8ab1" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a5a79e93360ca1cc17dc7663a6fe9ee77" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a4e12fea301c908f50b377e9c226dcfbe" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a31efa8d746bce406e1cab687873edec8" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_data_mut</name></member>
       <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ac529f3b4d7e7605481940ad3b64ae09e" prot="private" virt="non-virtual"><scope>MR::Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_DefaultConstruct</name></member>

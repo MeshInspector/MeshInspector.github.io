@@ -557,6 +557,32 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1a43c13e0d08af3ef2e22e9fde6478f6b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICP._Underlying *</type>
+        <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_Construct</definition>
+        <argsstring>(MR.Const_MeshOrPointsXf._Underlying *flt, MR.Const_MeshOrPointsXf._Underlying *ref_, float samplingVoxelSize)</argsstring>
+        <name>__MR_ICP_Construct</name>
+        <qualifiedname>MR.Const_ICP.__MR_ICP_Construct</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>ref_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2186" column="47"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1a98cb51132fa57227e6ecb2b69c67dd67" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
         <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_ConstructFromAnother</definition>
@@ -577,93 +603,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2186" column="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICP_1acabf58255e50c5c7c184c5fa42925b09" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ICP._Underlying *</type>
-        <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_Construct_3</definition>
-        <argsstring>(MR.Const_MeshOrPointsXf._Underlying *flt, MR.Const_MeshOrPointsXf._Underlying *ref_, float samplingVoxelSize)</argsstring>
-        <name>__MR_ICP_Construct_3</name>
-        <qualifiedname>MR.Const_ICP.__MR_ICP_Construct_3</qualifiedname>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>flt</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>ref_</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>samplingVoxelSize</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2189" column="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICP_1a4f51653de23452c0bbc600e066101dd8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ICP._Underlying *</type>
-        <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_Construct_4_MR_VertBitSet</definition>
-        <argsstring>(MR.Const_MeshOrPointsXf._Underlying *flt, MR.Const_MeshOrPointsXf._Underlying *ref_, MR.Const_VertBitSet._Underlying *fltSamples, MR.Const_VertBitSet._Underlying *refSamples)</argsstring>
-        <name>__MR_ICP_Construct_4_MR_VertBitSet</name>
-        <qualifiedname>MR.Const_ICP.__MR_ICP_Construct_4_MR_VertBitSet</qualifiedname>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>flt</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>ref_</declname>
-        </param>
-        <param>
-          <type>MR.Const_VertBitSet._Underlying *</type>
-          <declname>fltSamples</declname>
-        </param>
-        <param>
-          <type>MR.Const_VertBitSet._Underlying *</type>
-          <declname>refSamples</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2192" column="47"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__ICP_1a6bd5ffd60b7650c8fc36c173ad4f464f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ICP._Underlying *</type>
-        <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_Construct_4_std_vector_MR_WeightedVertex</definition>
-        <argsstring>(MR.Const_MeshOrPointsXf._Underlying *flt, MR.Const_MeshOrPointsXf._Underlying *ref_, MR.Std.Const_Vector_MRWeightedVertex._Underlying *fltSamples, MR.Std.Const_Vector_MRWeightedVertex._Underlying *refSamples)</argsstring>
-        <name>__MR_ICP_Construct_4_std_vector_MR_WeightedVertex</name>
-        <qualifiedname>MR.Const_ICP.__MR_ICP_Construct_4_std_vector_MR_WeightedVertex</qualifiedname>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>flt</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>ref_</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MRWeightedVertex._Underlying *</type>
-          <declname>fltSamples</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MRWeightedVertex._Underlying *</type>
-          <declname>refSamples</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2195" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1af00bcf0420ff8e91577638c800891ea1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -697,7 +637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2198" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2192" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1aa9fc81d1a78470e063cadbe17e0db219" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -735,7 +675,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2201" column="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2195" column="47"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__ICP_1ac10207a71136f2a8e6f105d2977c347f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ICP._Underlying *</type>
@@ -758,6 +698,66 @@
         <param>
           <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
           <declname>refXf</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRWeightedVertex._Underlying *</type>
+          <declname>fltSamples</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRWeightedVertex._Underlying *</type>
+          <declname>refSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2198" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1a9471f8e09d2929d8c754a7ed6f9db197" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICP._Underlying *</type>
+        <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_Construct_samples</definition>
+        <argsstring>(MR.Const_MeshOrPointsXf._Underlying *flt, MR.Const_MeshOrPointsXf._Underlying *ref_, MR.Const_VertBitSet._Underlying *fltSamples, MR.Const_VertBitSet._Underlying *refSamples)</argsstring>
+        <name>__MR_ICP_Construct_samples</name>
+        <qualifiedname>MR.Const_ICP.__MR_ICP_Construct_samples</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>ref_</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>fltSamples</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>refSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="2201" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICP_1a7ce4e8b526d175e1e90438ba31d3d5a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ICP._Underlying *</type>
+        <definition>static unsafe MR.ICP._Underlying * MR.Const_ICP.__MR_ICP_Construct_weightedSamples</definition>
+        <argsstring>(MR.Const_MeshOrPointsXf._Underlying *flt, MR.Const_MeshOrPointsXf._Underlying *ref_, MR.Std.Const_Vector_MRWeightedVertex._Underlying *fltSamples, MR.Std.Const_Vector_MRWeightedVertex._Underlying *refSamples)</argsstring>
+        <name>__MR_ICP_Construct_weightedSamples</name>
+        <qualifiedname>MR.Const_ICP.__MR_ICP_Construct_weightedSamples</qualifiedname>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>flt</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>ref_</declname>
         </param>
         <param>
           <type>MR.Std.Const_Vector_MRWeightedVertex._Underlying *</type>
@@ -984,12 +984,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1969" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1970" bodyend="2232"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__ICP_1acabf58255e50c5c7c184c5fa42925b09" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_3</name></member>
-      <member refid="classMR_1_1Const__ICP_1a4f51653de23452c0bbc600e066101dd8" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_4_MR_VertBitSet</name></member>
-      <member refid="classMR_1_1Const__ICP_1a6bd5ffd60b7650c8fc36c173ad4f464f" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_4_std_vector_MR_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__ICP_1a43c13e0d08af3ef2e22e9fde6478f6b2" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct</name></member>
       <member refid="classMR_1_1Const__ICP_1af00bcf0420ff8e91577638c800891ea1" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_5</name></member>
       <member refid="classMR_1_1Const__ICP_1aa9fc81d1a78470e063cadbe17e0db219" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_6_MR_VertBitSet</name></member>
       <member refid="classMR_1_1Const__ICP_1ac10207a71136f2a8e6f105d2977c347f" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_6_std_vector_MR_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__ICP_1a9471f8e09d2929d8c754a7ed6f9db197" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_samples</name></member>
+      <member refid="classMR_1_1Const__ICP_1a7ce4e8b526d175e1e90438ba31d3d5a8" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Construct_weightedSamples</name></member>
       <member refid="classMR_1_1Const__ICP_1a98cb51132fa57227e6ecb2b69c67dd67" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__ICP_1a0bd72f3ad4e0973990df8401d026509d" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_Destroy</name></member>
       <member refid="classMR_1_1Const__ICP_1a0bea029946e6bee2b47fa6f2ad2ef9f2" prot="private" virt="non-virtual"><scope>MR::Const_ICP</scope><name>__MR_ICP_getFlt2RefPairs</name></member>

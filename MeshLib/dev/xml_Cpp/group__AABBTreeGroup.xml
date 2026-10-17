@@ -41,6 +41,23 @@
     <innerclass refid="structMR_1_1PolylineProjectionWithOffsetResult" prot="public">MR::PolylineProjectionWithOffsetResult</innerclass>
     <innerclass refid="classMR_1_1SharedThreadSafeOwner" prot="public">MR::SharedThreadSafeOwner</innerclass>
     <innerclass refid="classMR_1_1UniqueThreadSafeOwner" prot="public">MR::UniqueThreadSafeOwner</innerclass>
+    <sectiondef kind="user-defined">
+      <memberdef kind="variable" id="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" prot="public" static="no" mutable="no">
+        <type>const Mesh BooleanOperation const AffineXf3f *</type>
+        <definition>const MeshPart const AffineXf3f * MR::rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>rigidB2A</name>
+        <qualifiedname>MR::rigidB2A</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="63" column="52" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="enum">
       <memberdef kind="enum" id="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" prot="public" static="no" strong="yes">
         <type>bool</type>
@@ -461,6 +478,84 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRPolylineProject.h" line="105" column="1" bodyfile="MRMesh/MRPolylineProject.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__AABBTreeGroup_1gaa740ea677f280fb2ec7aa62f36ae0e6e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; FaceFace &gt; *</type>
+        <definition>std::vector&lt;FaceFace&gt;* MR::outCollidingPairs</definition>
+        <argsstring></argsstring>
+        <name>outCollidingPairs</name>
+        <qualifiedname>MR::outCollidingPairs</qualifiedname>
+        <briefdescription>
+<para>if nullptr then the algorithm returns with true as soon as first collision is found </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollide.h" line="28" column="17" bodyfile="MRMesh/MRMeshCollide.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__AABBTreeGroup_1ga8e29498b56ebbbc50f4e1f619dde6a1e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; FaceFace &gt; ProgressCallback const Face2RegionMap *</type>
+        <definition>std::vector&lt;FaceFace&gt; ProgressCallback const Face2RegionMap* MR::regionMap</definition>
+        <argsstring></argsstring>
+        <name>regionMap</name>
+        <qualifiedname>MR::regionMap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>if regionMap is provided then only self-intersections within a region are returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollide.h" line="30" column="26" bodyfile="MRMesh/MRMeshCollide.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__AABBTreeGroup_1ga98036eae0d382183e4906ce403547cce" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; FaceFace &gt; ProgressCallback const Face2RegionMap bool</type>
+        <definition>std::vector&lt;FaceFace&gt; ProgressCallback const Face2RegionMap bool MR::touchIsIntersection</definition>
+        <argsstring></argsstring>
+        <name>touchIsIntersection</name>
+        <qualifiedname>MR::touchIsIntersection</qualifiedname>
+        <initializer>= false )</initializer>
+        <briefdescription>
+<para>if true then treat touching faces as self-intersections too </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollide.h" line="31" column="10" bodyfile="MRMesh/MRMeshCollide.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__AABBTreeGroup_1ga05ee3dfec69d22b27853602f59f0e9eb" prot="public" static="no" mutable="no">
+        <type>const MeshPart ConvertToIntVector</type>
+        <definition>const MeshPart ConvertToIntVector MR::conv</definition>
+        <argsstring></argsstring>
+        <name>conv</name>
+        <qualifiedname>MR::conv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="72" column="24" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__AABBTreeGroup_1gaa557fa48b4991f28ca7d45c7747c3a52" prot="public" static="no" mutable="no">
+        <type>const MeshPart ConvertToIntVector const AffineXf3f bool</type>
+        <definition>const MeshPart ConvertToIntVector const AffineXf3f bool MR::anyIntersection</definition>
+        <argsstring></argsstring>
+        <name>anyIntersection</name>
+        <qualifiedname>MR::anyIntersection</qualifiedname>
+        <initializer>= false )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="72" column="61" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="72" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -923,89 +1018,27 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshCollide.h" line="23" column="13" declfile="MRMesh/MRMeshCollide.h" declline="23" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; bool &gt;</type>
-        <definition>Expected&lt; bool &gt; MR::findSelfCollidingTriangles</definition>
-        <argsstring>(const MeshPart &amp;mp, std::vector&lt; FaceFace &gt; *outCollidingPairs, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</argsstring>
-        <name>findSelfCollidingTriangles</name>
-        <qualifiedname>MR::findSelfCollidingTriangles</qualifiedname>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga0ac9111663ef8ecf7fd92ee1a3f4ac21" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(outPairs) 1 Expected&lt; bool &gt; findSelfCollidingTriangles(const MeshPart &amp;mp</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshPart &amp;</type>
-          <declname>mp</declname>
-        </param>
-        <param>
-          <type>std::vector&lt; FaceFace &gt; *</type>
-          <declname>outCollidingPairs</declname>
-          <briefdescription><para>if nullptr then the algorithm returns with true as soon as first collision is found </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>ProgressCallback</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const Face2RegionMap *</type>
-          <declname>regionMap</declname>
-          <defval>nullptr</defval>
-          <briefdescription><para>if regionMap is provided then only self-intersections within a region are returned </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>touchIsIntersection</declname>
-          <defval>false</defval>
+          <type>outPairs</type>
         </param>
         <briefdescription>
 <para>finds all pairs (or the fact of any self-collision) of colliding triangles from one mesh or a region </para>
         </briefdescription>
         <detaileddescription>
-<para>if true then treat touching faces as self-intersections too </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollide.h" line="27" column="12" declfile="MRMesh/MRMeshCollide.h" declline="27" declcolumn="12"/>
+        <location file="MRMesh/MRMeshCollide.h" line="27" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; std::vector&lt; FaceFace &gt; &gt;</type>
-        <definition>Expected&lt; std::vector&lt; FaceFace &gt; &gt; MR::findSelfCollidingTriangles</definition>
-        <argsstring>(const MeshPart &amp;mp, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</argsstring>
-        <name>findSelfCollidingTriangles</name>
-        <qualifiedname>MR::findSelfCollidingTriangles</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>mp</declname>
-        </param>
-        <param>
-          <type>ProgressCallback</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const Face2RegionMap *</type>
-          <declname>regionMap</declname>
-          <defval>nullptr</defval>
-          <briefdescription><para>if regionMap is provided then only self-intersections within a region are returned </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>touchIsIntersection</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-<para>finds all pairs of colliding triangles from one mesh or a region </para>
-        </briefdescription>
-        <detaileddescription>
-<para>if true then treat touching faces as self-intersections too </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshCollide.h" line="34" column="12" declfile="MRMesh/MRMeshCollide.h" declline="34" declcolumn="12"/>
-      </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; FaceBitSet &gt;</type>
-        <definition>Expected&lt; FaceBitSet &gt; MR::findSelfCollidingTrianglesBS</definition>
+      <memberdef kind="function" id="group__AABBTreeGroup_1ga9f1a6f0ff1926c81193564f7862bf4a4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MR_BIND_OVERLOAD_SUFFIX() 1 Expected&lt; std Expected&lt; FaceBitSet &gt;</type>
+        <definition>MR_BIND_OVERLOAD_SUFFIX() 1 Expected&lt; std Expected&lt; FaceBitSet &gt; MR::findSelfCollidingTrianglesBS</definition>
         <argsstring>(const MeshPart &amp;mp, ProgressCallback cb={}, const Face2RegionMap *regionMap=nullptr, bool touchIsIntersection=false)</argsstring>
         <name>findSelfCollidingTrianglesBS</name>
         <qualifiedname>MR::findSelfCollidingTrianglesBS</qualifiedname>
@@ -1031,10 +1064,10 @@
           <defval>false</defval>
         </param>
         <briefdescription>
-<para>the same <ref refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kindref="member">findSelfCollidingTriangles</ref> but returns the union of all self-intersecting faces </para>
+<para>finds all pairs of colliding triangles from one mesh or a region </para>
         </briefdescription>
         <detaileddescription>
-<para>if true then treat touching faces as self-intersections too </para>
+<para>&lt; if true then treat touching faces as self-intersections too the same findSelfCollidingTriangles but returns the union of all self-intersecting faces if true then treat touching faces as self-intersections too </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -1271,61 +1304,6 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshCollidePrecise.h" line="24" column="13" bodyfile="MRMesh/MRMeshCollidePrecise.h" bodystart="24" bodyend="27"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>PreciseCollisionResult</type>
-        <definition>PreciseCollisionResult MR::findCollidingEdgeTrisPrecise</definition>
-        <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr, bool anyIntersection=false)</argsstring>
-        <name>findCollidingEdgeTrisPrecise</name>
-        <qualifiedname>MR::findCollidingEdgeTrisPrecise</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>ConvertToIntVector</type>
-          <declname>conv</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>anyIntersection</declname>
-          <defval>false</defval>
-        </param>
-        <briefdescription>
-<para>finds all pairs of colliding edges from one mesh and triangle from another mesh </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>rigidB2A</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>anyIntersection</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>if true then the function returns as fast as it finds any intersection </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="71" column="25" declfile="MRMesh/MRMeshCollidePrecise.h" declline="71" declcolumn="25"/>
-      </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga91e422710464a72aa3c6bb6894527e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::updateCollidingEdgeTrisPrecise</definition>
@@ -1452,142 +1430,25 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshCollidePrecise.h" line="94" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="94" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::vector&lt; EdgeTri &gt;</type>
-        <definition>std::vector&lt; EdgeTri &gt; MR::findCollidingEdgeTrisPrecise</definition>
-        <argsstring>(const Mesh &amp;a, const std::vector&lt; EdgeId &gt; &amp;edgesA, const Mesh &amp;b, const std::vector&lt; FaceId &gt; &amp;facesB, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr)</argsstring>
-        <name>findCollidingEdgeTrisPrecise</name>
-        <qualifiedname>MR::findCollidingEdgeTrisPrecise</qualifiedname>
+      <memberdef kind="function" id="group__AABBTreeGroup_1gad280ccdb7115e8f158eb8ee48847680e" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type>MR_BIND_OVERLOAD_SUFFIX(edgesA) 1 std MR_BIND_OVERLOAD_SUFFIX(facesA) 1 std</type>
+        <definition>MR_BIND_OVERLOAD_SUFFIX(edgesA) 1 std MR_BIND_OVERLOAD_SUFFIX(facesA) 1 std MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(onePart) 1 CoordinateConverters getVectorConverters(const MeshPart &amp;a)</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const Mesh &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
-          <declname>edgesA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; FaceId &gt; &amp;</type>
-          <declname>facesB</declname>
-        </param>
-        <param>
-          <type>ConvertToIntVector</type>
-          <declname>conv</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-          <defval>nullptr</defval>
+          <type>onePart</type>
         </param>
         <briefdescription>
 <para>finds all intersections between every given edge from A and given triangles from B </para>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="98" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="98" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::vector&lt; EdgeTri &gt;</type>
-        <definition>std::vector&lt; EdgeTri &gt; MR::findCollidingEdgeTrisPrecise</definition>
-        <argsstring>(const Mesh &amp;a, const std::vector&lt; FaceId &gt; &amp;facesA, const Mesh &amp;b, const std::vector&lt; EdgeId &gt; &amp;edgesB, ConvertToIntVector conv, const AffineXf3f *rigidB2A=nullptr)</argsstring>
-        <name>findCollidingEdgeTrisPrecise</name>
-        <qualifiedname>MR::findCollidingEdgeTrisPrecise</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; FaceId &gt; &amp;</type>
-          <declname>facesA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; EdgeId &gt; &amp;</type>
-          <declname>edgesB</declname>
-        </param>
-        <param>
-          <type>ConvertToIntVector</type>
-          <declname>conv</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>finds all intersections between every given triangle from A and given edge from B </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="104" column="14" declfile="MRMesh/MRMeshCollidePrecise.h" declline="104" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>CoordinateConverters</type>
-        <definition>CoordinateConverters MR::getVectorConverters</definition>
-        <argsstring>(const MeshPart &amp;a)</argsstring>
-        <name>getVectorConverters</name>
-        <qualifiedname>MR::getVectorConverters</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
+<para>finds all intersections between every given triangle from A and given edge from B</para>
 <para>creates simple converters from Vector3f to Vector3i and back in mesh part area range </para>
-        </briefdescription>
-        <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="112" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="112" declcolumn="23"/>
-      </memberdef>
-      <memberdef kind="function" id="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>CoordinateConverters</type>
-        <definition>CoordinateConverters MR::getVectorConverters</definition>
-        <argsstring>(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr)</argsstring>
-        <name>getVectorConverters</name>
-        <qualifiedname>MR::getVectorConverters</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>creates simple converters from Vector3f to Vector3i and back in mesh parts area range </para>
-        </briefdescription>
-        <detaileddescription>
-<para><parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>rigidB2A</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshCollidePrecise.h" line="118" column="23" declfile="MRMesh/MRMeshCollidePrecise.h" declline="118" declcolumn="23"/>
+        <location file="MRMesh/MRMeshCollidePrecise.h" line="112" column="1" declfile="MRMesh/MRMeshCollidePrecise.h" declline="112" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

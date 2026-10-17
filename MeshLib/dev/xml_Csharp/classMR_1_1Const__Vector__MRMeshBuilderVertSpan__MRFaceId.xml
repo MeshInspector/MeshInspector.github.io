@@ -447,6 +447,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ace51f6e636d8472a3c7c167ae211e868" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct</name>
+        <qualifiedname>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28603" column="81"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a6c2ed8f62950e3de65ea4b0742f8e820" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_ConstructFromAnother</definition>
@@ -467,35 +485,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28603" column="81"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28606" column="81"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a7429046cdc68bfa64687661d2d2989bb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a4a9f0313ce1e1eee79c1e69e403687e2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.MeshBuilder.Const_VertSpan._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_fill</name>
+        <qualifiedname>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28606" column="81"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1af6df18a33cd4fc86af42444f108a7da6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_std_vector_MR_MeshBuilder_VertSpan</definition>
-        <argsstring>(MR.Std.Vector_MRMeshBuilderVertSpan._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_std_vector_MR_MeshBuilder_VertSpan</name>
-        <qualifiedname>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_std_vector_MR_MeshBuilder_VertSpan</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRMeshBuilderVertSpan._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.MeshBuilder.Const_VertSpan._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -505,19 +509,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="28609" column="81"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ae3f81e9e307b06e2a4af2dc7dcf8ff3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1af75fe6c2ba7e978d2365348b20326bbe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_2</definition>
-        <argsstring>(nuint size, MR.MeshBuilder.Const_VertSpan._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_2</name>
-        <qualifiedname>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRMeshBuilderVertSpan_MRFaceId._Underlying * MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRMeshBuilderVertSpan._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId.__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.MeshBuilder.Const_VertSpan._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRMeshBuilderVertSpan._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -857,9 +857,9 @@
       <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a11ee978f52ce494ab0b02b1421afe5c8" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1abac0ed516692c0ba3bc53776ecc02319" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_beginId</name></member>
       <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a3a8c94326464209813ab866349d67344" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_capacity</name></member>
-      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a7429046cdc68bfa64687661d2d2989bb" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1af6df18a33cd4fc86af42444f108a7da6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_1_std_vector_MR_MeshBuilder_VertSpan</name></member>
-      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ae3f81e9e307b06e2a4af2dc7dcf8ff3b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ace51f6e636d8472a3c7c167ae211e868" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a4a9f0313ce1e1eee79c1e69e403687e2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1af75fe6c2ba7e978d2365348b20326bbe" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a6c2ed8f62950e3de65ea4b0742f8e820" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a17d0cfeeb78235d6d94a4047883a0efd" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a60ca55715df34199453456732ab47ecc" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_DefaultConstruct</name></member>

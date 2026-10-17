@@ -75,7 +75,7 @@ var MRPointCloudRelax_8h =
     [ "MR_PointCloudRelaxParams_Set_updateCaches", "MRPointCloudRelax_8h.html#a20abd49d723e091d25a037dbbd2a5100", null ],
     [ "MR_PointCloudRelaxParams_StaticDowncastFrom_MR_RelaxParams", "MRPointCloudRelax_8h.html#a03f53e947810fe4e426f0c7cc2f2a6f5", null ],
     [ "MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams", "MRPointCloudRelax_8h.html#a9117260d4581b2cc4573ba70627f71c3", null ],
-    [ "MR_relax_3_MR_PointCloud", "MRPointCloudRelax_8h.html#aef742ac7bd70fa90d91fec9025e8d375", null ],
+    [ "MR_relax_pointCloud", "MRPointCloudRelax_8h.html#a1f0b87386f37a43a0e2f61af03bdd46c", null ],
     [ "MR_relaxApprox_3_MR_PointCloud", "MRPointCloudRelax_8h.html#a19fa4189c34f19fa6e45560edb134663", null ],
     [ "MR_relaxKeepVolume_3_MR_PointCloud", "MRPointCloudRelax_8h.html#a8f73122d5fe8b71d808f59bba8bcd17a", null ]
 ];

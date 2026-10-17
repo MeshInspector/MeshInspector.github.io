@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3323" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a3378034dc27334fba2387eecafd855d9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a20f50e9fea7c827abf20a683a60b6df0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId pos, byte *val)</argsstring>
-        <name>__MR_EdgeBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_EdgeBitSet_autoResizeSet</name>
+        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3326" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a389dd6ba16e9a6f0406f63c2b5ca9f4a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1ac3e9048b405bc345485b9b392e54aeb8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_EdgeBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_EdgeBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3377" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1aabc8da790cd554eaab0d518ffa66c7b4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a5c431ca79ff7b4e4a7200d22b5c3d8cf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_EdgeBitSet_set_0</name>
-        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3380" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a5317bf511a8394e516b59e5459985739" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.EdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.EdgeId n)</argsstring>
-        <name>__MR_EdgeBitSet_set_1</name>
-        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3383" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1afd66486b8ef7ebab4b0944d61758e8ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.EdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_2</definition>
+        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId n, byte val)</argsstring>
-        <name>__MR_EdgeBitSet_set_2</name>
-        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_2</qualifiedname>
+        <name>__MR_EdgeBitSet_set</name>
+        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3380" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a0cf954175ebd5cbffcacae2ee933b708" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeBitSet._Underlying *</type>
+        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_EdgeBitSet_set_all</name>
+        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3383" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a8bf00a426404055eab53063acde85d62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.EdgeBitSet._Underlying *</type>
+        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.EdgeId n)</argsstring>
+        <name>__MR_EdgeBitSet_set_bit</name>
+        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="3386" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a586c5f81c309b84af67bf6966624982e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeBitSet_1a8ae3509ef5d754809782d5a5159b26f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeBitSet._Underlying *</type>
-        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_3</definition>
+        <definition>static unsafe MR.EdgeBitSet._Underlying * MR.EdgeBitSet.__MR_EdgeBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId n, nuint len, byte val)</argsstring>
-        <name>__MR_EdgeBitSet_set_3</name>
-        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_3</qualifiedname>
+        <name>__MR_EdgeBitSet_set_range</name>
+        <qualifiedname>MR.EdgeBitSet.__MR_EdgeBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1648,8 +1648,8 @@
     <listofallmembers>
       <member refid="classMR_1_1EdgeBitSet_1af38bafcdd16e6b49a2c370c93b92f969" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1EdgeBitSet_1ae94b4667c274e6e8261dc7aec84a64e2" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1EdgeBitSet_1a3378034dc27334fba2387eecafd855d9" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1EdgeBitSet_1a389dd6ba16e9a6f0406f63c2b5ca9f4a" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1EdgeBitSet_1a20f50e9fea7c827abf20a683a60b6df0" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1EdgeBitSet_1ac3e9048b405bc345485b9b392e54aeb8" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1EdgeBitSet_1ae8ceb1eb1c040660cea408fa8d4a86f0" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1EdgeBitSet_1a55fbb16a4dbdc10e45617d5ec61db5ba" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1EdgeBitSet_1aaf66928fa51d5f886f93163e2a586d5e" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_bitor_assign</name></member>
@@ -1671,10 +1671,10 @@
       <member refid="classMR_1_1EdgeBitSet_1a749f51abd04f93ca776487de5b8e7b63" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_resize</name></member>
       <member refid="classMR_1_1EdgeBitSet_1a53483755d14996fd501894f9c15655a1" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1EdgeBitSet_1aad7dd2015732266f67ff8c8729936cdd" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_reverse</name></member>
-      <member refid="classMR_1_1EdgeBitSet_1aabc8da790cd554eaab0d518ffa66c7b4" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_0</name></member>
-      <member refid="classMR_1_1EdgeBitSet_1a5317bf511a8394e516b59e5459985739" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_1</name></member>
-      <member refid="classMR_1_1EdgeBitSet_1afd66486b8ef7ebab4b0944d61758e8ca" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_2</name></member>
-      <member refid="classMR_1_1EdgeBitSet_1a586c5f81c309b84af67bf6966624982e" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_3</name></member>
+      <member refid="classMR_1_1EdgeBitSet_1a5c431ca79ff7b4e4a7200d22b5c3d8cf" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set</name></member>
+      <member refid="classMR_1_1EdgeBitSet_1a0cf954175ebd5cbffcacae2ee933b708" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_all</name></member>
+      <member refid="classMR_1_1EdgeBitSet_1a8bf00a426404055eab53063acde85d62" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_bit</name></member>
+      <member refid="classMR_1_1EdgeBitSet_1a8ae3509ef5d754809782d5a5159b26f0" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_set_range</name></member>
       <member refid="classMR_1_1EdgeBitSet_1aefa42c57fae3521139e7f76727d9c31b" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1EdgeBitSet_1a9a84fee893848c1a0c6ab3762dd5c8db" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_sub_assign</name></member>
       <member refid="classMR_1_1EdgeBitSet_1a782d2609c90a870c2e64089f83a465f2" prot="private" virt="non-virtual"><scope>MR::EdgeBitSet</scope><name>__MR_EdgeBitSet_subtract</name></member>

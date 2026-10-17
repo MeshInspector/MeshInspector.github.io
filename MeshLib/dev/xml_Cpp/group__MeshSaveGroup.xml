@@ -4,6 +4,65 @@
     <compoundname>MeshSaveGroup</compoundname>
     <title>Mesh Save</title>
     <innerclass refid="classMR_1_1MeshSave_1_1BinaryStlSaver" prot="public">MR::MeshSave::BinaryStlSaver</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__MeshSaveGroup_1ga98aef4649d53f623906c635ff1aaf18e" prot="public" static="no" mutable="no">
+        <type>const std::filesystem::path &amp;</type>
+        <definition>const std::filesystem::path&amp; MR::MeshSave::file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <qualifiedname>MR::MeshSave::file</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSave.h" line="97" column="65" bodyfile="MRMesh/MRMeshSave.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshSaveGroup_1ga88dc6322aa89f4d0a7eaf376cbde3ad6" prot="public" static="no" mutable="no">
+        <type>const std::filesystem::path const SaveSettings &amp;</type>
+        <definition>const std::string std::ostream const SaveSettings &amp; MR::MeshSave::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <qualifiedname>MR::MeshSave::settings</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSave.h" line="97" column="90" bodyfile="MRMesh/MRMeshSave.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshSaveGroup_1ga60011c108fbbc4bb220fea7dbfc53a36" prot="public" static="no" mutable="no">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; MR::MeshSave::extension</definition>
+        <argsstring></argsstring>
+        <name>extension</name>
+        <qualifiedname>MR::MeshSave::extension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSave.h" line="99" column="54" bodyfile="MRMesh/MRMeshSave.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshSaveGroup_1ga16eb575515438064d98e1410a7574895" prot="public" static="no" mutable="no">
+        <type>const std::string std::ostream &amp;</type>
+        <definition>const std::string std::ostream&amp; MR::MeshSave::out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <qualifiedname>MR::MeshSave::out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshSave.h" line="99" column="77" bodyfile="MRMesh/MRMeshSave.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshSaveGroup_1ga9513ef1ff3f501a7e44ca11e8020add4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -542,25 +601,12 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshSave.h" line="94" column="11" declfile="MRMesh/MRMeshSave.h" declline="94" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1ga8c3547484d9f9d64e8d1d967225e190f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::MeshSave::toAnySupportedFormat</definition>
-        <argsstring>(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
-        <name>toAnySupportedFormat</name>
-        <qualifiedname>MR::MeshSave::toAnySupportedFormat</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const SaveSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gaa05bdb5fed13993e770d0f517a729412" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshSave::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshSave::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>detects the format from file extension and save mesh to it </para>
         </briefdescription>
@@ -568,30 +614,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="97" column="11" declfile="MRMesh/MRMeshSave.h" declline="97" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="97" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshSaveGroup_1gae312c46875e32db543db5c77bdc1d1df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::MeshSave::toAnySupportedFormat</definition>
-        <argsstring>(const Mesh &amp;mesh, const std::string &amp;extension, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
-        <name>toAnySupportedFormat</name>
-        <qualifiedname>MR::MeshSave::toAnySupportedFormat</qualifiedname>
+      <memberdef kind="function" id="group__MeshSaveGroup_1gac21be5be1e9ae00a0510430749be9f51" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshSave::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(stream) 1 Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshSave::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>extension</declname>
-        </param>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type>const SaveSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
+          <type>stream</type>
         </param>
         <briefdescription>
 <para>extension in <computeroutput>*.ext</computeroutput> format </para>
@@ -600,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshSave.h" line="99" column="11" declfile="MRMesh/MRMeshSave.h" declline="99" declcolumn="11"/>
+        <location file="MRMesh/MRMeshSave.h" line="99" column="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

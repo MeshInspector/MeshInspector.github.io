@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1017" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceBitSet_1aec98bd1f39a01376d842636eae03e2c1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a1c8219bcfd120043c2c50c57ea237607" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.FaceId pos, byte *val)</argsstring>
-        <name>__MR_FaceBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_FaceBitSet_autoResizeSet</name>
+        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1020" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a425761d49d3d5a1c204a36e28fdd9945" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceBitSet_1ab14d26ac5c60f1f578bfccbbc1228005" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.FaceId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_FaceBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_FaceBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1071" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a8939ce775bd101e19b9dcf43c1bcf49b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceBitSet_1ab7d822c7ce3235c1290de69dbfd72285" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying *</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_FaceBitSet_set_0</name>
-        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1074" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a9052490727952ba7d636f74be8f3069b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceBitSet._Underlying *</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.FaceId n)</argsstring>
-        <name>__MR_FaceBitSet_set_1</name>
-        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1077" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a0b46c5ee7353408f89b5d44272be2503" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceBitSet._Underlying *</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_2</definition>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.FaceId n, byte val)</argsstring>
-        <name>__MR_FaceBitSet_set_2</name>
-        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_2</qualifiedname>
+        <name>__MR_FaceBitSet_set</name>
+        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1074" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a0b792c707c875aa28ce5ac80792e98a6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceBitSet._Underlying *</type>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_FaceBitSet_set_all</name>
+        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1077" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceBitSet_1ae8b9c141e532917db676ea4198672747" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceBitSet._Underlying *</type>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.FaceId n)</argsstring>
+        <name>__MR_FaceBitSet_set_bit</name>
+        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="1080" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceBitSet_1aad5896666d40b17e6393315554bcf216" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceBitSet_1a12576a846670d823768839870b23e041" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying *</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_3</definition>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.FaceBitSet.__MR_FaceBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.FaceId n, nuint len, byte val)</argsstring>
-        <name>__MR_FaceBitSet_set_3</name>
-        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_3</qualifiedname>
+        <name>__MR_FaceBitSet_set_range</name>
+        <qualifiedname>MR.FaceBitSet.__MR_FaceBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1658,8 +1658,8 @@
     <listofallmembers>
       <member refid="classMR_1_1FaceBitSet_1a7c8e3e3dff91fa6e4bd75d5f8f23f141" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1FaceBitSet_1abea46be0caa0bc5fc8f5d1a3dd0f77aa" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1FaceBitSet_1aec98bd1f39a01376d842636eae03e2c1" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1FaceBitSet_1a425761d49d3d5a1c204a36e28fdd9945" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1FaceBitSet_1a1c8219bcfd120043c2c50c57ea237607" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1FaceBitSet_1ab14d26ac5c60f1f578bfccbbc1228005" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1FaceBitSet_1a2e9c697ec9e960c5fb4fe8732614374a" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1FaceBitSet_1a2eea95f4719ea1337fc49ea7b3985222" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1FaceBitSet_1a2d581732049e85ce5eb833bcfdb3c8fb" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_bitor_assign</name></member>
@@ -1681,10 +1681,10 @@
       <member refid="classMR_1_1FaceBitSet_1acab22517f4453bc21a8c8c0434e579e1" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_resize</name></member>
       <member refid="classMR_1_1FaceBitSet_1ab5849decb34fbb4a33e2a16bb2f2c0c0" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1FaceBitSet_1a5caf4e6e6719fdd94e7508534399f80e" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_reverse</name></member>
-      <member refid="classMR_1_1FaceBitSet_1a8939ce775bd101e19b9dcf43c1bcf49b" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_0</name></member>
-      <member refid="classMR_1_1FaceBitSet_1a9052490727952ba7d636f74be8f3069b" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_1</name></member>
-      <member refid="classMR_1_1FaceBitSet_1a0b46c5ee7353408f89b5d44272be2503" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_2</name></member>
-      <member refid="classMR_1_1FaceBitSet_1aad5896666d40b17e6393315554bcf216" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_3</name></member>
+      <member refid="classMR_1_1FaceBitSet_1ab7d822c7ce3235c1290de69dbfd72285" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set</name></member>
+      <member refid="classMR_1_1FaceBitSet_1a0b792c707c875aa28ce5ac80792e98a6" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_all</name></member>
+      <member refid="classMR_1_1FaceBitSet_1ae8b9c141e532917db676ea4198672747" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_bit</name></member>
+      <member refid="classMR_1_1FaceBitSet_1a12576a846670d823768839870b23e041" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_set_range</name></member>
       <member refid="classMR_1_1FaceBitSet_1a6fbe9a5dd79665f55f25b078d07b2df2" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1FaceBitSet_1ac047e2f57f173b9d0a06a29532e1186a" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_sub_assign</name></member>
       <member refid="classMR_1_1FaceBitSet_1ac71446a62f89f52f114cd3c9903f2107" prot="private" virt="non-virtual"><scope>MR::FaceBitSet</scope><name>__MR_FaceBitSet_subtract</name></member>

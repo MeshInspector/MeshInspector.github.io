@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13756" column="55"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceNormals_1a776fadcb29dcd57d9d578e539afa7b79" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceNormals._Underlying *</type>
+        <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_FaceNormals_Construct</name>
+        <qualifiedname>MR.FaceNormals.__MR_FaceNormals_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13759" column="55"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceNormals_1af21e95f03a06e764d5923def7e17394a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceNormals._Underlying *</type>
         <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13759" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13762" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceNormals_1a8f58fb267e4e8d2f6cdf26d1f6560c21" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceNormals_1a1c5b38e6f280da4b722e8693b6ad376d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceNormals._Underlying *</type>
-        <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_FaceNormals_Construct_1_size_t</name>
-        <qualifiedname>MR.FaceNormals.__MR_FaceNormals_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Vector3f *val)</argsstring>
+        <name>__MR_FaceNormals_Construct_fill</name>
+        <qualifiedname>MR.FaceNormals.__MR_FaceNormals_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13762" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceNormals_1aadcc13ac75cd349afb8be0cbde6238bb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceNormals._Underlying *</type>
-        <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_Construct_1_std_vector_MR_Vector3f</definition>
-        <argsstring>(MR.Std.Vector_MRVector3f._Underlying *vec)</argsstring>
-        <name>__MR_FaceNormals_Construct_1_std_vector_MR_Vector3f</name>
-        <qualifiedname>MR.FaceNormals.__MR_FaceNormals_Construct_1_std_vector_MR_Vector3f</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRVector3f._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13765" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceNormals_1af8d8a84db16144462f95f23fb458f2f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceNormals_1ada40a2aff74542537025ad902acbc023" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceNormals._Underlying *</type>
-        <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_Construct_2</definition>
-        <argsstring>(nuint size, MR.Vector3f *val)</argsstring>
-        <name>__MR_FaceNormals_Construct_2</name>
-        <qualifiedname>MR.FaceNormals.__MR_FaceNormals_Construct_2</qualifiedname>
+        <definition>static unsafe MR.FaceNormals._Underlying * MR.FaceNormals.__MR_FaceNormals_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRVector3f._Underlying *vec)</argsstring>
+        <name>__MR_FaceNormals_Construct_stdVector</name>
+        <qualifiedname>MR.FaceNormals.__MR_FaceNormals_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRVector3f._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1FaceNormals_1abf550f09dfb1c3b7baa18cc65891cea7" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_autoResizeSet_3</name></member>
       <member refid="classMR_1_1FaceNormals_1a65bcd401f50cd3620b283535a11d818d" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_back_mut</name></member>
       <member refid="classMR_1_1FaceNormals_1adb1698e90d8cbe367e370523cbf2e97d" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_clear</name></member>
-      <member refid="classMR_1_1FaceNormals_1a8f58fb267e4e8d2f6cdf26d1f6560c21" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1FaceNormals_1aadcc13ac75cd349afb8be0cbde6238bb" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_Construct_1_std_vector_MR_Vector3f</name></member>
-      <member refid="classMR_1_1FaceNormals_1af8d8a84db16144462f95f23fb458f2f1" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_Construct_2</name></member>
+      <member refid="classMR_1_1FaceNormals_1a776fadcb29dcd57d9d578e539afa7b79" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_Construct</name></member>
+      <member refid="classMR_1_1FaceNormals_1a1c5b38e6f280da4b722e8693b6ad376d" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_Construct_fill</name></member>
+      <member refid="classMR_1_1FaceNormals_1ada40a2aff74542537025ad902acbc023" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_Construct_stdVector</name></member>
       <member refid="classMR_1_1FaceNormals_1af21e95f03a06e764d5923def7e17394a" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_ConstructFromAnother</name></member>
       <member refid="classMR_1_1FaceNormals_1ab4918524a7881dc7d79d98d858f71a00" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_data_mut</name></member>
       <member refid="classMR_1_1FaceNormals_1adb52734cdbb416767b904748ec2db4a1" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>__MR_FaceNormals_DefaultConstruct</name></member>

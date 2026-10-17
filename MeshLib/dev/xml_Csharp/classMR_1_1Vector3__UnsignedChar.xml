@@ -305,6 +305,32 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="2295" column="64"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector3__UnsignedChar_1aadb8befcd9f0f6990e6aa4447b8096d4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector3_UnsignedChar._Underlying *</type>
+        <definition>static unsafe MR.Vector3_UnsignedChar._Underlying * MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct</definition>
+        <argsstring>(byte x, byte y, byte z)</argsstring>
+        <name>__MR_Vector3_unsigned_char_Construct</name>
+        <qualifiedname>MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="2298" column="64"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector3__UnsignedChar_1af2e4214be95fddd984b705ea1740c953" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector3_UnsignedChar._Underlying *</type>
         <definition>static unsafe MR.Vector3_UnsignedChar._Underlying * MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_ConstructFromAnother</definition>
@@ -321,43 +347,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="2298" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="2301" column="64"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector3__UnsignedChar_1a4cc0c57ec9418c37eccf48475341be80" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector3__UnsignedChar_1a7f13892fac8387c9ad2923df4fe1a31d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector3_UnsignedChar._Underlying *</type>
-        <definition>static unsafe MR.Vector3_UnsignedChar._Underlying * MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct_1</definition>
+        <definition>static unsafe MR.Vector3_UnsignedChar._Underlying * MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct_MR_NoInit</definition>
         <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_Vector3_unsigned_char_Construct_1</name>
-        <qualifiedname>MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct_1</qualifiedname>
+        <name>__MR_Vector3_unsigned_char_Construct_MR_NoInit</name>
+        <qualifiedname>MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct_MR_NoInit</qualifiedname>
         <param>
           <type>MR.NoInit._Underlying *</type>
           <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="2301" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector3__UnsignedChar_1af77842f9ea46709e1a4c0c327ddda75a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector3_UnsignedChar._Underlying *</type>
-        <definition>static unsafe MR.Vector3_UnsignedChar._Underlying * MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct_3</definition>
-        <argsstring>(byte x, byte y, byte z)</argsstring>
-        <name>__MR_Vector3_unsigned_char_Construct_3</name>
-        <qualifiedname>MR.Vector3_UnsignedChar.__MR_Vector3_unsigned_char_Construct_3</qualifiedname>
-        <param>
-          <type>byte</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>byte</type>
-          <declname>y</declname>
-        </param>
-        <param>
-          <type>byte</type>
-          <declname>z</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -558,8 +558,8 @@
       <member refid="classMR_1_1Vector3__UnsignedChar_1acaad92e03a913b19d4c9d8120011f476" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_mul_assign_MR_Vector3_unsigned_char_unsigned_char</name></member>
       <member refid="classMR_1_1Vector3__UnsignedChar_1a8439594f05883a54190fe0f1237c6893" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_sub_assign_MR_Vector3_unsigned_char</name></member>
       <member refid="classMR_1_1Vector3__UnsignedChar_1ae1291ba5c846e1a28b8d64a2c0e00d41" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_AssignFromAnother</name></member>
-      <member refid="classMR_1_1Vector3__UnsignedChar_1a4cc0c57ec9418c37eccf48475341be80" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_Construct_1</name></member>
-      <member refid="classMR_1_1Vector3__UnsignedChar_1af77842f9ea46709e1a4c0c327ddda75a" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_Construct_3</name></member>
+      <member refid="classMR_1_1Vector3__UnsignedChar_1aadb8befcd9f0f6990e6aa4447b8096d4" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_Construct</name></member>
+      <member refid="classMR_1_1Vector3__UnsignedChar_1a7f13892fac8387c9ad2923df4fe1a31d" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_Construct_MR_NoInit</name></member>
       <member refid="classMR_1_1Vector3__UnsignedChar_1af2e4214be95fddd984b705ea1740c953" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector3__UnsignedChar_1a2e01116762634a34049dda818013ec74" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_DefaultConstruct</name></member>
       <member refid="classMR_1_1Vector3__UnsignedChar_1ac3fb556878b8fe3588ae6825d8547757" prot="private" virt="non-virtual"><scope>MR::Vector3_UnsignedChar</scope><name>__MR_Vector3_unsigned_char_index_mut</name></member>

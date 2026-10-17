@@ -391,30 +391,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1599" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="1599" bodyend="1602"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Vector3i64_1a4e4d2fc25563da0f540526e4a3fc72a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
-        <definition>static unsafe MR.Vector3i64 MR.Vector3i64.__MR_Vector3i64_Construct_1</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_Vector3i64_Construct_1</name>
-        <qualifiedname>MR.Vector3i64.__MR_Vector3i64_Construct_1</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1673" column="43"/>
-      </memberdef>
-      <memberdef kind="function" id="structMR_1_1Vector3i64_1ad3d4c00152c4d4910a51a0f220e7ed91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="structMR_1_1Vector3i64_1a7ee2181f8bd2d835dea1a69181a3f709" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
-        <definition>static MR.Vector3i64 MR.Vector3i64.__MR_Vector3i64_Construct_3</definition>
+        <definition>static MR.Vector3i64 MR.Vector3i64.__MR_Vector3i64_Construct</definition>
         <argsstring>(long x, long y, long z)</argsstring>
-        <name>__MR_Vector3i64_Construct_3</name>
-        <qualifiedname>MR.Vector3i64.__MR_Vector3i64_Construct_3</qualifiedname>
+        <name>__MR_Vector3i64_Construct</name>
+        <qualifiedname>MR.Vector3i64.__MR_Vector3i64_Construct</qualifiedname>
         <param>
           <type>long</type>
           <declname>x</declname>
@@ -433,7 +415,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1676" column="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1673" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Vector3i64_1a3c7bd27cdb7e8a17516b92d2df4714cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
+        <definition>static unsafe MR.Vector3i64 MR.Vector3i64.__MR_Vector3i64_Construct_MR_NoInit</definition>
+        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
+        <name>__MR_Vector3i64_Construct_MR_NoInit</name>
+        <qualifiedname>MR.Vector3i64.__MR_Vector3i64_Construct_MR_NoInit</qualifiedname>
+        <param>
+          <type>MR.NoInit._Underlying *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="1676" column="43"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Vector3i64_1a21f2c507c9bca8a1594ae5b352098cb6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
@@ -1205,8 +1205,8 @@
       <member refid="structMR_1_1Vector3i64_1a01737fc470eaa5524ca4bb3376ccb50d" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_pos_MR_Vector3i64</name></member>
       <member refid="structMR_1_1Vector3i64_1aa4bbb2b6dae7a4f1059b4831e64db6f0" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_sub_assign_MR_Vector3i64</name></member>
       <member refid="structMR_1_1Vector3i64_1acf2e3343b6891e0abac67217f80a69e4" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_sub_MR_Vector3i64</name></member>
-      <member refid="structMR_1_1Vector3i64_1a4e4d2fc25563da0f540526e4a3fc72a2" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_Construct_1</name></member>
-      <member refid="structMR_1_1Vector3i64_1ad3d4c00152c4d4910a51a0f220e7ed91" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_Construct_3</name></member>
+      <member refid="structMR_1_1Vector3i64_1a7ee2181f8bd2d835dea1a69181a3f709" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_Construct</name></member>
+      <member refid="structMR_1_1Vector3i64_1a3c7bd27cdb7e8a17516b92d2df4714cf" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_Construct_MR_NoInit</name></member>
       <member refid="structMR_1_1Vector3i64_1a21f2c507c9bca8a1594ae5b352098cb6" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_DefaultConstruct</name></member>
       <member refid="structMR_1_1Vector3i64_1af41f69bc9bfd9280442b7a2082056a31" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_diagonal</name></member>
       <member refid="structMR_1_1Vector3i64_1af16b777bb59e49d90257e839c4d5b6be" prot="public" virt="non-virtual"><scope>MR::Vector3i64</scope><name>__MR_Vector3i64_furthestBasisVector</name></member>

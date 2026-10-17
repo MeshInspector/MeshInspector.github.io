@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1af24da8211a6f9eb861494ac255763b94" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRTextureId_MRTextureId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_TextureId_MR_TextureId_Construct</name>
+        <qualifiedname>MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61626" column="74"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a12d531412b2dcde16e712ebc574cf7ea" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRTextureId_MRTextureId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61626" column="74"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61629" column="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1aaeeaf9935433d48e5968694c6e662a53" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1aadde746ee48afaf95c59853d5d82df9f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRTextureId_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.TextureId *val)</argsstring>
+        <name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_fill</name>
+        <qualifiedname>MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61629" column="74"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a112db6b169c32e17487767d3e1fb16df" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRTextureId_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_std_vector_MR_TextureId</definition>
-        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_std_vector_MR_TextureId</name>
-        <qualifiedname>MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_std_vector_MR_TextureId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRTextureId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61632" column="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1ac762423e28f499d16c7aa192b59f468f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a24289fbeb9fa744d47cd693ecc83457d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRTextureId_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_2</definition>
-        <argsstring>(nuint size, MR.TextureId *val)</argsstring>
-        <name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_2</name>
-        <qualifiedname>MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRTextureId_MRTextureId._Underlying * MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Vector_MRTextureId_MRTextureId.__MR_Vector_MR_TextureId_MR_TextureId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRTextureId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a952606325f947bcbc8efead05f406f01" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a4b7acf922dc3ca1933a463aa9fd477d6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_beginId</name></member>
       <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a0538d1f5cba02ae83e0947c7989263c2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_capacity</name></member>
-      <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1aaeeaf9935433d48e5968694c6e662a53" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a112db6b169c32e17487767d3e1fb16df" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_1_std_vector_MR_TextureId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1ac762423e28f499d16c7aa192b59f468f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1af24da8211a6f9eb861494ac255763b94" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_Construct</name></member>
+      <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1aadde746ee48afaf95c59853d5d82df9f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a24289fbeb9fa744d47cd693ecc83457d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a12d531412b2dcde16e712ebc574cf7ea" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1ac355105e2a36ab1d732858a7cac85b27" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1ad21ef8b3a6fd34ffb44b04d0456b6415" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRTextureId_MRTextureId</scope><name>__MR_Vector_MR_TextureId_MR_TextureId_DefaultConstruct</name></member>

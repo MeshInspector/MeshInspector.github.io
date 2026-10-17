@@ -849,12 +849,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiScanLoad.cs" line="365" column="75"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsLoad_1ac98599034462b2a3c37398abb8c88336" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1a261bbaadd43a7418062c1db76793049a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRPointCloud_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat_2</definition>
+        <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat</definition>
         <argsstring>(byte *file, byte *file_end, MR.Const_PointsLoadSettings._Underlying *settings)</argsstring>
-        <name>__MR_PointsLoad_fromAnySupportedFormat_2</name>
-        <qualifiedname>MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat_2</qualifiedname>
+        <name>__MR_PointsLoad_fromAnySupportedFormat</name>
+        <qualifiedname>MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat</qualifiedname>
         <param>
           <type>byte *</type>
           <declname>file</declname>
@@ -875,12 +875,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoad.cs" line="186" column="75"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsLoad_1afa9b94691ab8cfee3e2bd2a9712d808b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1ae8d8647c9f91e84a8e875dafca711461" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRPointCloud_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat_3</definition>
+        <definition>static unsafe MR.Expected_MRPointCloud_StdString._Underlying * MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat_stream</definition>
         <argsstring>(MR.Std.Istream._Underlying *in_, byte *extension, byte *extension_end, MR.Const_PointsLoadSettings._Underlying *settings)</argsstring>
-        <name>__MR_PointsLoad_fromAnySupportedFormat_3</name>
-        <qualifiedname>MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat_3</qualifiedname>
+        <name>__MR_PointsLoad_fromAnySupportedFormat_stream</name>
+        <qualifiedname>MR.PointsLoad.__MR_PointsLoad_fromAnySupportedFormat_stream</qualifiedname>
         <param>
           <type>MR.Std.Istream._Underlying *</type>
           <declname>in_</declname>
@@ -1152,8 +1152,8 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1521" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1522" bodyend="1559"/>
     <listofallmembers>
-      <member refid="classMR_1_1PointsLoad_1ac98599034462b2a3c37398abb8c88336" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromAnySupportedFormat_2</name></member>
-      <member refid="classMR_1_1PointsLoad_1afa9b94691ab8cfee3e2bd2a9712d808b" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromAnySupportedFormat_3</name></member>
+      <member refid="classMR_1_1PointsLoad_1a261bbaadd43a7418062c1db76793049a" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1PointsLoad_1ae8d8647c9f91e84a8e875dafca711461" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromAnySupportedFormat_stream</name></member>
       <member refid="classMR_1_1PointsLoad_1af75fc29911f809bf10d94f21c1dc47b1" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromCtm_std_filesystem_path</name></member>
       <member refid="classMR_1_1PointsLoad_1ac4e94294c124147e44ecc3a26f82d6e2" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromCtm_std_istream</name></member>
       <member refid="classMR_1_1PointsLoad_1a29d3dfe686889320de1511b87a040780" prot="private" virt="non-virtual"><scope>MR::PointsLoad</scope><name>__MR_PointsLoad_fromDrc_std_filesystem_path</name></member>

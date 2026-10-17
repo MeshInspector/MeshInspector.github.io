@@ -4,6 +4,15 @@
     <compoundname>MR::MeshTopology</compoundname>
     <includes refid="MRMeshTopology_8h" local="no">MRMesh/MRMeshTopology.h</includes>
     <innerclass refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord" prot="private">MR::MeshTopology::HalfEdgeRecord</innerclass>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga09e426a17c3ccad720ccf0b29a122085" kind="variable"><name>v0</name></member>
+      <member refid="group__GeneralGroup_1ga9328aae450b468b77651cc29aecd7e42" kind="variable"><name>v1</name></member>
+      <member refid="group__GeneralGroup_1gaa504c7884e44ccd50394862aed66dfe0" kind="variable"><name>const</name></member>
+      <member refid="group__GeneralGroup_1gac41b7aa4dfce6d2ed4485e52703f39d4" kind="variable"><name>const</name></member>
+      <member refid="group__GeneralGroup_1gad9198c0528f17a48176af8b91b20402f" kind="variable"><name>outVmap</name></member>
+      <member refid="group__GeneralGroup_1ga0f5ad9ea2306ad7b0c5982888116c6eb" kind="variable"><name>outEmap</name></member>
+      <member refid="group__GeneralGroup_1ga48035d11a498d979434f3b5c404550d9" kind="variable"><name>rearrangeTriangles</name></member>
+    </sectiondef>
     <sectiondef kind="friend">
       <member refid="group__GeneralGroup_1gac9dd8ac8bb48edc727dfda0f73d714da" kind="friend"><name>MeshTopologyDiff</name></member>
     </sectiondef>
@@ -60,10 +69,10 @@
       <member refid="group__GeneralGroup_1gaf020bbe446f3965db015301732d7592d" kind="function"><name>isTriVert</name></member>
       <member refid="group__GeneralGroup_1ga3d85b486bb589bae547c1e7fc7c1f342" kind="function"><name>getAllTriVerts</name></member>
       <member refid="group__GeneralGroup_1ga38ff51ae302402397ba017f96799d992" kind="function"><name>getTriangulation</name></member>
-      <member refid="group__GeneralGroup_1gad3ba6513949b7e2cc8d026657fd8ee0f" kind="function"><name>getLeftTriVerts</name></member>
+      <member refid="group__GeneralGroup_1ga6bb76a1203b487a001925d22c987d587" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1gad62222883fc0c58bc72eed22f7d74953" kind="function"><name>getLeftTriVerts</name></member>
-      <member refid="group__GeneralGroup_1ga9fd531135d0c893edd63545034f5b026" kind="function"><name>getLeftTriVerts</name></member>
-      <member refid="group__GeneralGroup_1gae7ad9074cc4e1be50475db39d352f94f" kind="function"><name>getLeftTriVerts</name></member>
+      <member refid="group__GeneralGroup_1gacf9260b301cea069c85f5851128b0f1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1ga534ada1b901d5230b000f3bd442c4278" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1gaad405e625450208e48d0237b9b5f53e8" kind="function"><name>forEachVertex</name></member>
       <member refid="group__GeneralGroup_1ga19c52a0f233ed29357bf32c280272444" kind="function"><name>getLeftTriEdges</name></member>
       <member refid="group__GeneralGroup_1ga4c0c34fc025958084fc870fb352c0f2a" kind="function"><name>getTriEdges</name></member>
@@ -149,8 +158,8 @@
       <member refid="group__GeneralGroup_1ga7bbda199205f3f2040094ed56f5e1805" kind="function"><name>addPartByMask</name></member>
       <member refid="group__GeneralGroup_1ga3fe4136c1642a8e761ebeb82c82ce632" kind="function"><name>addPartByMask</name></member>
       <member refid="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" kind="function"><name>rotateTriangles</name></member>
-      <member refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" kind="function"><name>pack</name></member>
-      <member refid="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" kind="function"><name>pack</name></member>
+      <member refid="group__GeneralGroup_1gae222b339f086b68c44e2321ed48cfa43" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1ga0bc5afed464de8329a9bd88e40606a91" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga209f41dfcfd5540a55a1e01f31fb65b9" kind="function"><name>packMinMem</name></member>
       <member refid="group__GeneralGroup_1ga81f80fe1150711ff7445416be04b9133" kind="function"><name>write</name></member>
       <member refid="group__GeneralGroup_1gae53000ef54becc9aaca40915c254c24f" kind="function"><name>read</name></member>
@@ -200,6 +209,8 @@
       <member refid="group__GeneralGroup_1ga5fc8c691836a8645942e3336a365c6f5" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeAllFromEdges_</name></member>
       <member refid="group__GeneralGroup_1ga9b0965c616ba1372dc30a0cfc25e2459" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
       <member refid="group__GeneralGroup_1ga2125e27e8dfe29a6b457ec6ed685539c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeValidsFromEdges</name></member>
+      <member refid="group__GeneralGroup_1gaa504c7884e44ccd50394862aed66dfe0" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>const</name></member>
+      <member refid="group__GeneralGroup_1gac41b7aa4dfce6d2ed4485e52703f39d4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>const</name></member>
       <member refid="group__GeneralGroup_1ga9cec8fcb3700270debd8b9cdc9fa6cf7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFace</name></member>
       <member refid="group__GeneralGroup_1ga381fd334af76605898ec97a371babf04" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFaces</name></member>
       <member refid="group__GeneralGroup_1ga4249f7a97c745af922214ed2ca58f20d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>dest</name></member>
@@ -249,10 +260,7 @@
       <member refid="group__GeneralGroup_1ga711ccb0a051ca5c5c92d009eaeeee9a6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftRing</name></member>
       <member refid="group__GeneralGroup_1ga4b349540d13a045d0c10bb3c40c8f3bd" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftRings</name></member>
       <member refid="group__GeneralGroup_1ga19c52a0f233ed29357bf32c280272444" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriEdges</name></member>
-      <member refid="group__GeneralGroup_1gad3ba6513949b7e2cc8d026657fd8ee0f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
       <member refid="group__GeneralGroup_1gad62222883fc0c58bc72eed22f7d74953" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
-      <member refid="group__GeneralGroup_1ga9fd531135d0c893edd63545034f5b026" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
-      <member refid="group__GeneralGroup_1gae7ad9074cc4e1be50475db39d352f94f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getLeftTriVerts</name></member>
       <member refid="group__GeneralGroup_1ga438a70cf73b4cfd4789c28a7fc72b459" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getOrgDegree</name></member>
       <member refid="group__GeneralGroup_1gab273acab1025da6cc45beb4d4f1cf338" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getPathLeftFaces</name></member>
       <member refid="group__GeneralGroup_1ga4320e52da10ab5ff062a760545ec2299" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>getPathRightFaces</name></member>
@@ -296,6 +304,11 @@
       <member refid="group__GeneralGroup_1ga32ef296197eb1631ca3af65f4614024a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>left</name></member>
       <member refid="group__GeneralGroup_1ga107a70561c7abcc661b7ada8910fb701" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>makeEdge</name></member>
       <member refid="group__GeneralGroup_1gac9dd8ac8bb48edc727dfda0f73d714da" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopologyDiff</name></member>
+      <member refid="group__GeneralGroup_1ga6bb76a1203b487a001925d22c987d587" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1gacf9260b301cea069c85f5851128b0f1c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1ga534ada1b901d5230b000f3bd442c4278" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1gae222b339f086b68c44e2321ed48cfa43" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1ga0bc5afed464de8329a9bd88e40606a91" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga2dad4d8d3af9888d8bd8303195aad3b9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>next</name></member>
       <member refid="group__GeneralGroup_1ga2f2136ea7f300f8a7a02cc34b58ca035" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>nextLeftBd</name></member>
       <member refid="group__GeneralGroup_1ga94378f70606fda1a41eb0605de0c8cbe" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>numValidFaces</name></member>
@@ -304,13 +317,14 @@
       <member refid="group__GeneralGroup_1ga273b7c26a64f8296fd8aae5275ebfd02" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>numValidVerts_</name></member>
       <member refid="group__GeneralGroup_1gadaf57d8b41c5f38c2bf17310ac1d8b78" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>operator==</name></member>
       <member refid="group__GeneralGroup_1ga730ccabca6bf4811fd6b7a2a87bdce13" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>org</name></member>
-      <member refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>pack</name></member>
-      <member refid="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>pack</name></member>
+      <member refid="group__GeneralGroup_1ga0f5ad9ea2306ad7b0c5982888116c6eb" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>outEmap</name></member>
+      <member refid="group__GeneralGroup_1gad9198c0528f17a48176af8b91b20402f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>outVmap</name></member>
       <member refid="group__GeneralGroup_1ga209f41dfcfd5540a55a1e01f31fb65b9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>packMinMem</name></member>
       <member refid="group__GeneralGroup_1gabf2f3abf6b3d6899c61b6d9821d30a0a" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>preferEdges</name></member>
       <member refid="group__GeneralGroup_1ga7b32ade5428d261aa511099eff6788c0" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>prev</name></member>
       <member refid="group__GeneralGroup_1gab4c4f7414e097980b6b0624fa7f0b5d9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>prevLeftBd</name></member>
       <member refid="group__GeneralGroup_1gae53000ef54becc9aaca40915c254c24f" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>read</name></member>
+      <member refid="group__GeneralGroup_1ga48035d11a498d979434f3b5c404550d9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>rearrangeTriangles</name></member>
       <member refid="group__GeneralGroup_1ga365a012f4cca05d6ad5abd4570b993cd" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
       <member refid="group__GeneralGroup_1gad584643e2e3233eea5dbb51eab4b1ba0" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>right</name></member>
       <member refid="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>rotateTriangles</name></member>
@@ -333,6 +347,8 @@
       <member refid="group__GeneralGroup_1gac98224de2783697878fbe01eb90c1f13" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>undirectedEdgeSize</name></member>
       <member refid="group__GeneralGroup_1ga87e604fc7885293a1dbb7b4a89eed25f" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>updateValids_</name></member>
       <member refid="group__GeneralGroup_1ga45129b46fde8337018f14ecc690ddb81" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>updatingValids</name></member>
+      <member refid="group__GeneralGroup_1ga09e426a17c3ccad720ccf0b29a122085" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>v0</name></member>
+      <member refid="group__GeneralGroup_1ga9328aae450b468b77651cc29aecd7e42" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>v1</name></member>
       <member refid="group__GeneralGroup_1gab6216d00aa9f17f75d24d2a67d976419" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>validFaces_</name></member>
       <member refid="group__GeneralGroup_1ga23ca10349eba18999fa2c78aa8781256" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>validVerts_</name></member>
       <member refid="group__GeneralGroup_1gafe0c8f123fa4b9130eb2d7e3a3632341" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertCapacity</name></member>

@@ -1719,6 +1719,40 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2107" column="39"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a1a436e7617e5a7086d709616123f699a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.MeshTopology.__MR_MeshTopology_pack</definition>
+        <argsstring>(_Underlying *_this, MR.FaceMap._Underlying *outFmap, MR.VertMap._Underlying *outVmap, MR.WholeEdgeMap._Underlying *outEmap, byte *rearrangeTriangles)</argsstring>
+        <name>__MR_MeshTopology_pack</name>
+        <qualifiedname>MR.MeshTopology.__MR_MeshTopology_pack</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.FaceMap._Underlying *</type>
+          <declname>outFmap</declname>
+        </param>
+        <param>
+          <type>MR.VertMap._Underlying *</type>
+          <declname>outVmap</declname>
+        </param>
+        <param>
+          <type>MR.WholeEdgeMap._Underlying *</type>
+          <declname>outEmap</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>rearrangeTriangles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2110" column="35"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshTopology_1a90b63511dad82210bb8ae3b1433871e2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.MeshTopology.__MR_MeshTopology_packMinMem</definition>
@@ -1739,14 +1773,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2110" column="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2113" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a753fd4fd68e976a61bfb2a012604040e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a0f79bd59ac12d859dc757ab960c98c65" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.MeshTopology.__MR_MeshTopology_pack_1</definition>
+        <definition>static unsafe void MR.MeshTopology.__MR_MeshTopology_pack_mapping</definition>
         <argsstring>(_Underlying *_this, MR.Const_PackMapping._Underlying *map)</argsstring>
-        <name>__MR_MeshTopology_pack_1</name>
-        <qualifiedname>MR.MeshTopology.__MR_MeshTopology_pack_1</qualifiedname>
+        <name>__MR_MeshTopology_pack_mapping</name>
+        <qualifiedname>MR.MeshTopology.__MR_MeshTopology_pack_mapping</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1754,40 +1788,6 @@
         <param>
           <type>MR.Const_PackMapping._Underlying *</type>
           <declname>map</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="2113" column="35"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshTopology_1a28c1dd8007a072940f563a2b8394ad0c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.MeshTopology.__MR_MeshTopology_pack_4</definition>
-        <argsstring>(_Underlying *_this, MR.FaceMap._Underlying *outFmap, MR.VertMap._Underlying *outVmap, MR.WholeEdgeMap._Underlying *outEmap, byte *rearrangeTriangles)</argsstring>
-        <name>__MR_MeshTopology_pack_4</name>
-        <qualifiedname>MR.MeshTopology.__MR_MeshTopology_pack_4</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>MR.FaceMap._Underlying *</type>
-          <declname>outFmap</declname>
-        </param>
-        <param>
-          <type>MR.VertMap._Underlying *</type>
-          <declname>outVmap</declname>
-        </param>
-        <param>
-          <type>MR.WholeEdgeMap._Underlying *</type>
-          <declname>outEmap</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>rearrangeTriangles</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -2222,8 +2222,8 @@
       <member refid="classMR_1_1MeshTopology_1a4fc85f61c4e00bf6fcfe9a4a6643ad5a" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_flipEdge</name></member>
       <member refid="classMR_1_1MeshTopology_1a1c79fcbc3318ceaad7ce223da83526d9" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_flipOrientation</name></member>
       <member refid="classMR_1_1MeshTopology_1a28468ac5478fbe9aee5a6fd94ba4ec4e" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_makeEdge</name></member>
-      <member refid="classMR_1_1MeshTopology_1a753fd4fd68e976a61bfb2a012604040e" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_pack_1</name></member>
-      <member refid="classMR_1_1MeshTopology_1a28c1dd8007a072940f563a2b8394ad0c" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_pack_4</name></member>
+      <member refid="classMR_1_1MeshTopology_1a1a436e7617e5a7086d709616123f699a" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_pack</name></member>
+      <member refid="classMR_1_1MeshTopology_1a0f79bd59ac12d859dc757ab960c98c65" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_pack_mapping</name></member>
       <member refid="classMR_1_1MeshTopology_1a90b63511dad82210bb8ae3b1433871e2" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_packMinMem</name></member>
       <member refid="classMR_1_1MeshTopology_1aa4912f379a6e5bc28a9d5ca6586f783a" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_preferEdges</name></member>
       <member refid="classMR_1_1MeshTopology_1af3ed2a7da537ae084e065462475c62f1" prot="private" virt="non-virtual"><scope>MR::MeshTopology</scope><name>__MR_MeshTopology_read</name></member>

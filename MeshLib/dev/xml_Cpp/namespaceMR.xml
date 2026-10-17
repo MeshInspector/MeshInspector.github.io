@@ -1170,6 +1170,22 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
+      <member refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kind="variable"><name>params</name></member>
+      <member refid="group__DistanceMapGroup_1ga1ceb255a1de1a49e02ff03c17ec71350" kind="variable"><name>meshB</name></member>
+      <member refid="group__DistanceMapGroup_1ga69c979e2e86dc19d223ee4f41fb46fea" kind="variable"><name>operation</name></member>
+      <member refid="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" kind="variable"><name>rigidB2A</name></member>
+      <member refid="group__DistanceMapGroup_1ga848e5345e71d79237fb4a0881d2119a8" kind="variable"><name>mapper</name></member>
+      <member refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kind="variable"><name>cb</name></member>
+      <member refid="group__DistanceMapGroup_1ga39152eebf658678f4b4dcf694eaa7e6e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1ga3cd95420eff10d7088c11eaba95708df" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
+      <member refid="group__DistanceMapGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
+      <member refid="group__DistanceMapGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
+      <member refid="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
+      <member refid="group__DistanceMapGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
+    </sectiondef>
+    <sectiondef kind="user-defined">
       <member refid="group__ContourGroup_1ga2781b4d5e5bf7cc617f8a0eba5a524f6" kind="function"><name>convertContourTo2f</name></member>
       <member refid="group__ContourGroup_1gaa4ceecc8e73e44a2e6581d55a462f1ea" kind="function"><name>convertContourTo3f</name></member>
       <member refid="group__ContourGroup_1gaba764c41a940b36b3557d7cfd2dfa4a2" kind="function"><name>convertContourTo2d</name></member>
@@ -1244,16 +1260,6 @@
       <member refid="group__SurfacePathGroup_1gaba6bba9899b4b1a78c2c711d73b92ecd" kind="function"><name>getPathEdgesInPlane</name></member>
       <member refid="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" kind="function"><name>edgePathToContour3f</name></member>
       <member refid="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" kind="function"><name>edgePathsToContours3f</name></member>
-    </sectiondef>
-    <sectiondef kind="user-defined">
-      <member refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kind="function"><name>boolean</name></member>
-      <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
-      <member refid="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" kind="function"><name>boolean</name></member>
-      <member refid="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
-      <member refid="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
-      <member refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
-      <member refid="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
-      <member refid="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
     </sectiondef>
     <sectiondef kind="user-defined">
       <member refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" kind="function"><name>makeObjectMeshFromFile</name></member>
@@ -1946,6 +1952,8 @@
       <member refid="group__ConstantsGroup_1ga415e7be5800fdfbcd56d4dcb21e6e1f4" kind="variable"><name>PI2</name></member>
       <member refid="group__ConstantsGroup_1gae00cfb986e1a28fc4d521d5a0666b31b" kind="variable"><name>PI_F</name></member>
       <member refid="group__ConstantsGroup_1gacad362d32c6fa4936e463a6c211583ac" kind="variable"><name>PI2_F</name></member>
+      <member refid="group__DistanceMapGroup_1ga80af23d6afb6730de0589211dc06002d" kind="variable"><name>isoValue</name></member>
+      <member refid="group__DistanceMapGroup_1ga08cc3c144188eeeba21b46af5590db82" kind="variable"><name>pixelSize</name></member>
       <memberdef kind="variable" id="namespaceMR_1aca010840c751d4c7b1a30bcd55fe5cdd" prot="public" static="no" extern="yes" mutable="no">
         <type>const <ref refid="group__IOFiltersGroup_1ga6e5e24c14d4909fcad8aa5fab54d047b" kindref="member">IOFilters</ref></type>
         <definition>const IOFilters MR::AllFilter</definition>
@@ -1962,6 +1970,13 @@
       </memberdef>
       <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
       <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
+      <member refid="group__AABBTreeGroup_1gaa740ea677f280fb2ec7aa62f36ae0e6e" kind="variable"><name>outCollidingPairs</name></member>
+      <member refid="group__AABBTreeGroup_1ga8e29498b56ebbbc50f4e1f619dde6a1e" kind="variable"><name>regionMap</name></member>
+      <member refid="group__AABBTreeGroup_1ga98036eae0d382183e4906ce403547cce" kind="variable"><name>touchIsIntersection</name></member>
+      <member refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kind="variable"><name>b</name></member>
+      <member refid="group__AABBTreeGroup_1ga05ee3dfec69d22b27853602f59f0e9eb" kind="variable"><name>conv</name></member>
+      <member refid="group__AABBTreeGroup_1gaa557fa48b4991f28ca7d45c7747c3a52" kind="variable"><name>anyIntersection</name></member>
+      <member refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kind="variable"><name>a</name></member>
       <member refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kind="variable"><name>noInit</name></member>
       <member refid="group__GeneralGroup_1gae14e1033b3de0c30a6bb404e940dc424" kind="variable"><name>NoDefInit</name></member>
       <member refid="group__GeneralGroup_1gac8c2508941fcd4ad714cdf50c45aa41c" kind="variable"><name>EdgeTag</name></member>
@@ -2060,10 +2075,19 @@
       <member refid="group__GeneralGroup_1ga78658d7e2559b2c2ecccd1003dc75e04" kind="variable"><name>ChangeSceneAction</name></member>
       <member refid="group__GeneralGroup_1gac090ec24cc989c66ab1dbc182cb43c87" kind="variable"><name>dependent_false</name></member>
       <member refid="group__FillHoleGroup_1gad6e60cb1116257e53229b6ee7ee22351" kind="variable"><name>BadTriangulationMetric</name></member>
+      <member refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kind="variable"><name>points</name></member>
+      <member refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kind="variable"><name>settings</name></member>
       <member refid="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" kind="variable"><name>cmpOld</name></member>
       <member refid="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" kind="variable"><name>setNew</name></member>
+      <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
+      <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
+      <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
+      <member refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kind="variable"><name>mesh</name></member>
       <member refid="group__DistanceMapGroup_1gaf0cff421c4d16669d4c549f214bb8477" kind="variable"><name>allOutEdges2</name></member>
       <member refid="group__DistanceMapGroup_1ga1fe8adc8eeed5eae0d5217546cb26d59" kind="variable"><name>OutEdge2Count</name></member>
+      <member refid="group__GeneralGroup_1ga0cf5fcc5efe63eaf86bbda721b7041c4" kind="variable"><name>faces</name></member>
+      <member refid="group__GeneralGroup_1ga018938df5d34ea1035a4d0c57d9f9708" kind="variable"><name>store</name></member>
+      <member refid="group__GeneralGroup_1gabbe25ce79dd85635294b1687bb4bdc72" kind="variable"><name>edges</name></member>
       <member refid="group__GeneralGroup_1gafc52ca9c641e143b043d33a56cb36376" kind="variable"><name>TelemetrySignal</name></member>
       <member refid="group__VolumeIndexerGroup_1ga2f359b8ca6ad382c364a49777f193ba0" kind="variable"><name>all6Edges</name></member>
       <member refid="group__VolumeIndexerGroup_1gab35bebc2eedde9b1262043f5242f3ebf" kind="variable"><name>OutEdgeCount</name></member>
@@ -2332,10 +2356,8 @@
       <member refid="group__DistanceMapGroup_1ga0c9486d9b44ae47b12824b99e28b0a93" kind="function"><name>distanceMapFromContours</name></member>
       <member refid="group__DistanceMapGroup_1gae7e25fed5029c03aec12173cbf641fc7" kind="function"><name>distanceMapFromContours</name></member>
       <member refid="group__DistanceMapGroup_1ga9ee4d06d74d77a647a2858fba8cebdb3" kind="function"><name>edgePointsFromContours</name></member>
-      <member refid="group__DistanceMapGroup_1gaa693ceaf7bf9d2dc2728807f26d6e12a" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-      <member refid="group__DistanceMapGroup_1ga54c8f32aafa8f7d85f1839635e080609" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-      <member refid="group__DistanceMapGroup_1gaf8e4c5b69b7ff64356b8fe6d7d73583e" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-      <member refid="group__DistanceMapGroup_1ga40f0ce955b843b2257a05a5ee11d7e93" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
+      <member refid="group__DistanceMapGroup_1ga73d46de92d0aa806267918fa4d211d1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__DistanceMapGroup_1ga867028ba328a8652452d4ce44c02e953" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__DistanceMapGroup_1gacffe5f45914f7b6f7d4fbd8a17c3bd0d" kind="function"><name>polylineOffset</name></member>
       <member refid="group__DistanceMapGroup_1gaa2524cfec596759a4205736303d71c32" kind="function"><name>contourUnion</name></member>
       <member refid="group__DistanceMapGroup_1ga77440735adb40e169512805b388d02ff" kind="function"><name>contourIntersection</name></member>
@@ -2547,21 +2569,16 @@
       <member refid="group__MeshAlgorithmGroup_1ga85f120484f51a420267e45c05af90e90" kind="function"><name>straightenBoundary</name></member>
       <member refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" kind="function"><name>findCollidingTriangles</name></member>
       <member refid="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" kind="function"><name>findCollidingTriangleBitsets</name></member>
-      <member refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kind="function"><name>findSelfCollidingTriangles</name></member>
-      <member refid="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" kind="function"><name>findSelfCollidingTriangles</name></member>
-      <member refid="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
+      <member refid="group__AABBTreeGroup_1ga0ac9111663ef8ecf7fd92ee1a3f4ac21" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__AABBTreeGroup_1ga9f1a6f0ff1926c81193564f7862bf4a4" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
       <member refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kind="function"><name>isInside</name></member>
       <member refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kind="function"><name>isNonIntersectingInside</name></member>
       <member refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" kind="function"><name>isNonIntersectingInside</name></member>
       <member refid="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
       <member refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" kind="function"><name>operator==</name></member>
-      <member refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
       <member refid="group__AABBTreeGroup_1ga91e422710464a72aa3c6bb6894527e72" kind="function"><name>updateCollidingEdgeTrisPrecise</name></member>
       <member refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
-      <member refid="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-      <member refid="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-      <member refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" kind="function"><name>getVectorConverters</name></member>
-      <member refid="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" kind="function"><name>getVectorConverters</name></member>
+      <member refid="group__AABBTreeGroup_1gad280ccdb7115e8f158eb8ee48847680e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kind="function"><name>decimateMesh</name></member>
       <member refid="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" kind="function"><name>decimateObjectMeshData</name></member>
       <member refid="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" kind="function"><name>makeDecimatedObjectMeshData</name></member>
@@ -2595,9 +2612,8 @@
       <member refid="group__MeshEigenGroup_1gaedf452a3921d36f5597817800bd3b55d" kind="function"><name>topologyToEigen</name></member>
       <member refid="group__MeshEigenGroup_1ga24bf8eab6bf0c1eed0bb93ca8668237d" kind="function"><name>meshToEigen</name></member>
       <member refid="group__GeneralGroup_1gadd5038dba629ab9f09789d2855c2aa73" kind="function"><name>makeDegenerateBandAroundRegion</name></member>
-      <member refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kind="function"><name>stitchHoles</name></member>
       <member refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
-      <member refid="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" kind="function"><name>stitchHoles</name></member>
+      <member refid="group__FillHoleGroup_1gaa9b4fc2c3c8176dafe70ab92f9a03dc8" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
       <member refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kind="function"><name>fillHole</name></member>
       <member refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kind="function"><name>fillHoles</name></member>
@@ -2863,8 +2879,7 @@
       <member refid="group__FillHoleGroup_1ga202cf2363d92c6bb9820b0726c95a52f" kind="function"><name>getMinAreaMetric</name></member>
       <member refid="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" kind="function"><name>getCloseSurfaceFillMetric</name></member>
       <member refid="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" kind="function"><name>mixMetrics</name></member>
-      <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
-      <member refid="group__MeshNormalsGroup_1ga22889800cd6e0b2ebbc550783da6eff7" kind="function"><name>computePerFaceNormals</name></member>
+      <member refid="group__MeshNormalsGroup_1ga07aac16e40bfab860a310d0c96627135" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
       <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
       <member refid="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" kind="function"><name>computePerVertPseudoNormals</name></member>
@@ -2884,8 +2899,6 @@
       <member refid="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" kind="function"><name>findBoxedTrisInBall</name></member>
       <member refid="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" kind="function"><name>findTrisInBall</name></member>
       <member refid="group__AABBTreeGroup_1gaa589ad702e6b1f7b5abcdba92a673997" kind="function"><name>findSignedDistance</name></member>
-      <member refid="group__MeshRelaxGroup_1gae33b27e64fe5ab346333589e6564abee" kind="function"><name>relax</name></member>
-      <member refid="group__MeshRelaxGroup_1ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e" kind="function"><name>relax</name></member>
       <member refid="group__MeshRelaxGroup_1ga11a3c4423d57bdec0536c0916269613c" kind="function"><name>vertexPosEqualNeiAreas</name></member>
       <member refid="group__MeshRelaxGroup_1gafbd4050c45f9441d53f08ae512d5b495" kind="function"><name>vertexPosEqualNeiAreas</name></member>
       <member refid="group__MeshRelaxGroup_1ga0b7b12e3abc437cc721146292d65991b" kind="function"><name>equalizeTriAreas</name></member>
@@ -2936,8 +2949,7 @@
       <member refid="group__GeneralGroup_1ga1954e92c2b9fe2316cbf33d72e75d527" kind="function"><name>denoiseNormals</name></member>
       <member refid="group__GeneralGroup_1ga7ffe0a021107f569b3ffa018da32e9b2" kind="function"><name>updateIndicator</name></member>
       <member refid="group__GeneralGroup_1gab54d26f09a8a2f95888858cfdcdd347c" kind="function"><name>updateIndicatorFast</name></member>
-      <member refid="group__GeneralGroup_1ga6883a12f4f393ed08b4e93f7bf0be84a" kind="function"><name>meshDenoiseViaNormals</name></member>
-      <member refid="group__GeneralGroup_1gac335a53bfd7d287604c31298e1b5a43b" kind="function"><name>meshDenoiseViaNormals</name></member>
+      <member refid="group__GeneralGroup_1ga94c8414ad4bf06b5f17dfec5060a2ce3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" kind="function"><name>meshDenoiseWithCreases</name></member>
       <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
       <member refid="group__GeneralGroup_1gaf1d0eee1758bde49f19146f8ca980be8" kind="function"><name>meshDenoiseWithCreases</name></member>
@@ -3016,7 +3028,7 @@
       <member refid="group__PointCloudGroup_1gad170a186634adcea1422a0bcb701584d" kind="function"><name>findAvgPointsRadius</name></member>
       <member refid="group__GeneralGroup_1gabb21b4a984eeae29a269f729ed5c3979" kind="function"><name>dilateRegion</name></member>
       <member refid="group__GeneralGroup_1ga3d766f3fa624850ad0eb7a31efa6433f" kind="function"><name>erodeRegion</name></member>
-      <member refid="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" kind="function"><name>relax</name></member>
+      <member refid="group__PointCloudGroup_1gaccd91f9d5a08418da1f899a4b2026e4b" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" kind="function"><name>relaxKeepVolume</name></member>
       <member refid="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" kind="function"><name>relaxApprox</name></member>
       <member refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kind="function"><name>triangulatePointCloud</name></member>
@@ -3041,8 +3053,7 @@
       <member refid="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" kind="function"><name>findFewClosestPoints</name></member>
       <member refid="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" kind="function"><name>findNClosestPointsPerPoint</name></member>
       <member refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" kind="function"><name>findTwoClosestPoints</name></member>
-      <member refid="group__GeneralGroup_1gaf70fbc3926faabd14d6e8b2a2f3e3f64" kind="function"><name>findSignedDistances</name></member>
-      <member refid="group__GeneralGroup_1ga79c9901bf0bf90470274e88ac9ded1d5" kind="function"><name>findSignedDistances</name></member>
+      <member refid="group__GeneralGroup_1ga1de7b11758eb43eb8c68a66149c3c14e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__AABBTreeGroup_1ga557c3d2fa026be12ba0a5f6c8813da41" kind="function"><name>findCollidingEdgePairs</name></member>
       <member refid="group__AABBTreeGroup_1ga24ed7e965fcb7ada110eb1d9919999f9" kind="function"><name>findCollidingEdges</name></member>
       <member refid="group__AABBTreeGroup_1gac15d4a03ef6c224fff28d48fc239c17c" kind="function"><name>findCollidingEdgesBitsets</name></member>
@@ -3152,8 +3163,7 @@
       <member refid="group__GeneralGroup_1ga25e4628987fb45fbedf8ebcb4327c4d2" kind="function"><name>findLeftBoundaryInsideMesh</name></member>
       <member refid="group__GeneralGroup_1gad3a38eb65db7e1c0b80715ca70e92e5c" kind="function"><name>findRegionBoundaryUndirectedEdgesInsideMesh</name></member>
       <member refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kind="function"><name>findRegionOuterFaces</name></member>
-      <member refid="group__GeneralGroup_1ga1bf573dc61dc6ba97a3e8a4bc9028c2e" kind="function"><name>getIncidentVerts</name></member>
-      <member refid="group__GeneralGroup_1ga1c24193ec72b494c106fad689c5c5c32" kind="function"><name>getIncidentVerts</name></member>
+      <member refid="group__GeneralGroup_1ga2666947390978d2d8aa387e33cc8699c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" kind="function"><name>getInnerVerts</name></member>
       <member refid="group__GeneralGroup_1ga6f38b74b3e7d5e776f98e2f88bb48006" kind="function"><name>getInnerVerts</name></member>
       <member refid="group__GeneralGroup_1gaf2cf93d2c7ffbf6ae4821220390574fd" kind="function"><name>getBoundaryVerts</name></member>
@@ -3164,12 +3174,12 @@
       <member refid="group__GeneralGroup_1ga8e8ba4975b219200687bca5ed2a7ab6a" kind="function"><name>getRegionEdges</name></member>
       <member refid="group__GeneralGroup_1ga7c62678a98f7bc518805bd7a677d6674" kind="function"><name>getIncidentEdges</name></member>
       <member refid="group__GeneralGroup_1ga36ed48a6aab7607a3983c5492c50e22c" kind="function"><name>getIncidentEdges</name></member>
-      <member refid="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" kind="function"><name>getIncidentVerts</name></member>
+      <member refid="group__GeneralGroup_1ga9ae614a46609b519105b81bee3848ca0" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" kind="function"><name>getIncidentFaces</name></member>
       <member refid="group__GeneralGroup_1gab23fc7120dab6b7ab49bdc965bfdb9f5" kind="function"><name>getNeighborFaces</name></member>
       <member refid="group__GeneralGroup_1ga14cc03346c7b6c8e0f2fb75ab7865cd1" kind="function"><name>getInnerEdges</name></member>
       <member refid="group__GeneralGroup_1gac1f4537bd1f66f8d1fd1b74dc72b29c8" kind="function"><name>getInnerEdges</name></member>
-      <member refid="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" kind="function"><name>getIncidentVerts</name></member>
+      <member refid="group__GeneralGroup_1ga88851d68af903e1acabcb1c58279b4be" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" kind="function"><name>getInnerVerts</name></member>
       <member refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kind="function"><name>makeRegularGridMesh</name></member>
       <member refid="group__GeneralGroup_1gaae27e6fa67b4e0d5a59574d504d53a61" kind="function"><name>makeRegularGridMesh</name></member>

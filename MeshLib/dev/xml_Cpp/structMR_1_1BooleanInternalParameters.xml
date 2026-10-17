@@ -98,27 +98,39 @@
           <edgelabel>originalMeshA</edgelabel>
           <edgelabel>originalMeshB</edgelabel>
         </childnode>
-        <childnode refid="4" relation="usage">
+        <childnode refid="8" relation="usage">
           <edgelabel>converters</edgelabel>
         </childnode>
       </node>
-      <node id="6">
+      <node id="10">
         <label>MR::ConvertToFloatVector</label>
         <link refid="structMR_1_1ConvertToFloatVector"/>
       </node>
-      <node id="5">
+      <node id="9">
         <label>MR::ConvertToIntVector</label>
         <link refid="structMR_1_1ConvertToIntVector"/>
       </node>
-      <node id="4">
+      <node id="8">
         <label>MR::CoordinateConverters</label>
         <link refid="structMR_1_1CoordinateConverters"/>
-        <childnode refid="5" relation="usage">
+        <childnode refid="9" relation="usage">
           <edgelabel>toInt</edgelabel>
         </childnode>
-        <childnode refid="6" relation="usage">
+        <childnode refid="10" relation="usage">
           <edgelabel>toFloat</edgelabel>
         </childnode>
+      </node>
+      <node id="5">
+        <label>MR::MapOrHashMap&lt; FaceId, FaceId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="7">
+        <label>MR::MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="6">
+        <label>MR::MapOrHashMap&lt; VertId, VertId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
       </node>
       <node id="2">
         <label>MR::Mesh</label>
@@ -126,10 +138,31 @@
         <childnode refid="3" relation="usage">
           <edgelabel>topology</edgelabel>
         </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>map</edgelabel>
+          <edgelabel>rearrangeTriangles</edgelabel>
+          <edgelabel>vacant</edgelabel>
+        </childnode>
       </node>
       <node id="3">
         <label>MR::MeshTopology</label>
         <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="4">
+        <label>MR::PartMapping</label>
+        <link refid="structMR_1_1PartMapping"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>src2tgtFaces</edgelabel>
+          <edgelabel>tgt2srcFaces</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>src2tgtVerts</edgelabel>
+          <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="MRMesh/MRBooleanOperation.h" line="104" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="105" bodyend="117"/>

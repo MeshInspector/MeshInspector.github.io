@@ -596,6 +596,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38353" column="76"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1acaaf2e1dd2074e842df30513c34c51fc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38356" column="76"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a5e12d13ab4919054f0e396503a99fd1d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_ConstructFromAnother</definition>
@@ -616,35 +634,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38356" column="76"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38359" column="76"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3a273fe160e39958daf8a8605142cb80" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1aa0ebd5db09553d4a7903bf881dd15af5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Const_ModelPointsData._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_fill</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38359" column="76"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a08be2e6c20215e09e4440d094c915c44" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_std_vector_MR_ModelPointsData</definition>
-        <argsstring>(MR.Std.Vector_MRModelPointsData._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_std_vector_MR_ModelPointsData</name>
-        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_std_vector_MR_ModelPointsData</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRModelPointsData._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Const_ModelPointsData._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -654,19 +658,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38362" column="76"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8aa7bfb67f12ba74eb34ae1e2acf795f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRModelPointsData__MRObjId_1aae1655dccb9f74089db7877e156dcecf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_2</definition>
-        <argsstring>(nuint size, MR.Const_ModelPointsData._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_2</name>
-        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRModelPointsData_MRObjId._Underlying * MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRModelPointsData._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_MRModelPointsData_MRObjId.__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_ModelPointsData._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRModelPointsData._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1172,9 +1172,9 @@
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3e71211094c6b73c63f36556696f36f6" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1aaf8aa14b142c03a7155305e16ecbd326" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_back_mut</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a6b951dd0ed1c468487d16f17836ec419" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_clear</name></member>
-      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a3a273fe160e39958daf8a8605142cb80" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a08be2e6c20215e09e4440d094c915c44" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_1_std_vector_MR_ModelPointsData</name></member>
-      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a8aa7bfb67f12ba74eb34ae1e2acf795f" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1acaaf2e1dd2074e842df30513c34c51fc" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1aa0ebd5db09553d4a7903bf881dd15af5" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1aae1655dccb9f74089db7877e156dcecf" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a5e12d13ab4919054f0e396503a99fd1d" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a6d129a2f47ab01aa1886580e5fa39d2c" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_data_mut</name></member>
       <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1ab32e5aa47ce4db2ff60ba0125e1fbfd8" prot="private" virt="non-virtual"><scope>MR::Vector_MRModelPointsData_MRObjId</scope><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_DefaultConstruct</name></member>

@@ -1306,11 +1306,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" line="392" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" declline="392" declcolumn="41"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshBuilder_8h_1a1974c1fbb01e9d45a57132a1ba3aa81b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshBuilder_8h_1af993c7181da645348ed1cedd0400a39b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
-        <definition>MRC_API int MR_MeshBuilder_uniteCloseVertices_4</definition>
+        <definition>MRC_API int MR_MeshBuilder_uniteCloseVertices_dist</definition>
         <argsstring>(MR_Mesh *mesh, float closeDist, const bool *uniteOnlyBd, MR_VertMap *optionalVertOldToNew)</argsstring>
-        <name>MR_MeshBuilder_uniteCloseVertices_4</name>
+        <name>MR_MeshBuilder_uniteCloseVertices_dist</name>
         <param>
           <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
           <declname>mesh</declname>
@@ -1364,11 +1364,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" line="403" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBuilder.h" declline="403" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshBuilder_8h_1a893b2ba49a1348adaed7e8ac4957c8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMeshBuilder_8h_1a2540361142b6ef28f90fcc86828b887c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
-        <definition>MRC_API int MR_MeshBuilder_uniteCloseVertices_2</definition>
+        <definition>MRC_API int MR_MeshBuilder_uniteCloseVertices</definition>
         <argsstring>(MR_Mesh *mesh, const MR_MeshBuilder_UniteCloseParams *params)</argsstring>
-        <name>MR_MeshBuilder_uniteCloseVertices_2</name>
+        <name>MR_MeshBuilder_uniteCloseVertices</name>
         <param>
           <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
           <declname>mesh</declname>
@@ -1551,9 +1551,9 @@
 <codeline lineno="385"><highlight class="normal"></highlight></codeline>
 <codeline lineno="392" refid="MRMeshBuilder_8h_1a719c9bccc8106f6d5a1793068b92b9d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/>*<ref refid="MRMeshBuilder_8h_1a719c9bccc8106f6d5a1793068b92b9d4" kindref="member">MR_MeshBuilder_UniteCloseParams_AssignFromAnother</ref>(<ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="393"><highlight class="normal"></highlight></codeline>
-<codeline lineno="403" refid="MRMeshBuilder_8h_1a1974c1fbb01e9d45a57132a1ba3aa81b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a1974c1fbb01e9d45a57132a1ba3aa81b" kindref="member">MR_MeshBuilder_uniteCloseVertices_4</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*uniteOnlyBd,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*optionalVertOldToNew);</highlight></codeline>
+<codeline lineno="403" refid="MRMeshBuilder_8h_1af993c7181da645348ed1cedd0400a39b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1af993c7181da645348ed1cedd0400a39b" kindref="member">MR_MeshBuilder_uniteCloseVertices_dist</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>closeDist,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*uniteOnlyBd,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*optionalVertOldToNew);</highlight></codeline>
 <codeline lineno="404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="412" refid="MRMeshBuilder_8h_1a893b2ba49a1348adaed7e8ac4957c8c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a893b2ba49a1348adaed7e8ac4957c8c5" kindref="member">MR_MeshBuilder_uniteCloseVertices_2</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="412" refid="MRMeshBuilder_8h_1a2540361142b6ef28f90fcc86828b887c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a2540361142b6ef28f90fcc86828b887c" kindref="member">MR_MeshBuilder_uniteCloseVertices</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilder_8h_1a94d98029ed62a076a8ca41e3fc3e575d" kindref="member">MR_MeshBuilder_UniteCloseParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="413"><highlight class="normal"></highlight></codeline>
 <codeline lineno="414"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="415"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>

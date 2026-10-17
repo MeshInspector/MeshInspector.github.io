@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1aa98b0b9628784b79afd3c5eb51f078ea" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Face2RegionMap._Underlying *</type>
+        <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Face2RegionMap_Construct</name>
+        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9832" column="58"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a55d6093ac13261b8ce49e956a3e7569b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Face2RegionMap._Underlying *</type>
         <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9832" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9835" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1afbc9339dee2992fca5be3693887c9783" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1adec8fd5ebee5050b2534a282916f2be4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Face2RegionMap._Underlying *</type>
-        <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Face2RegionMap_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_fill</definition>
+        <argsstring>(nuint size, MR.RegionId *val)</argsstring>
+        <name>__MR_Face2RegionMap_Construct_fill</name>
+        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9835" column="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1ab1ff8f14654a95e9e41da0af91b87e77" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Face2RegionMap._Underlying *</type>
-        <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_1_std_vector_MR_RegionId</definition>
-        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
-        <name>__MR_Face2RegionMap_Construct_1_std_vector_MR_RegionId</name>
-        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_1_std_vector_MR_RegionId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRRegionId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9838" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1affe442c848fbd73b1aa7c9f77fafeacf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a58bdb877d34277a8635ec71541cf90b8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Face2RegionMap._Underlying *</type>
-        <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_2</definition>
-        <argsstring>(nuint size, MR.RegionId *val)</argsstring>
-        <name>__MR_Face2RegionMap_Construct_2</name>
-        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
+        <name>__MR_Face2RegionMap_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRRegionId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__Face2RegionMap_1af7c7f26e25e3f634776444c254a43e67" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_backId</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a1142bf2e81c4a9eaef758abef3c47bc4" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_beginId</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a6e47b27115d440d2e971c518577a0092" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_capacity</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1afbc9339dee2992fca5be3693887c9783" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1ab1ff8f14654a95e9e41da0af91b87e77" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_1_std_vector_MR_RegionId</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1affe442c848fbd73b1aa7c9f77fafeacf" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1aa98b0b9628784b79afd3c5eb51f078ea" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1adec8fd5ebee5050b2534a282916f2be4" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a58bdb877d34277a8635ec71541cf90b8" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a55d6093ac13261b8ce49e956a3e7569b" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1af1c25883786e88c17fd9b809dbc72e6b" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_data</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a3d571455f4e981017dd6b07c1f1cf2df" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_DefaultConstruct</name></member>

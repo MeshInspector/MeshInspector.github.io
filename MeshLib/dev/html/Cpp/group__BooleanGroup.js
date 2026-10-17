@@ -79,10 +79,6 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::boolean", "group__BooleanGroup.html#ga16435c813b6198ecc337b3023c2cc729", null ],
-    [ "MR::boolean", "group__BooleanGroup.html#gafdc7b5669facb509c577f29284ddfb9a", null ],
-    [ "MR::boolean", "group__BooleanGroup.html#ga6ed597bf8c9350700adae2b23fed4f74", null ],
-    [ "MR::convertIntFloatAllVerts", "group__BooleanGroup.html#gaea2a58b1c675ac131f93a0785e7d7ec1", null ],
     [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga8f2f47f6c859930c9c0252e4bc28944e", null ],
     [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#gaccf79b17bf64faa5454a116f768def33", null ],
     [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga9b27124d1aee7872d4ac97a96ef4fee2", null ],
@@ -92,8 +88,6 @@ var group__BooleanGroup =
     [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c", null ],
     [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga1c924334076a710ae361fbdab680d498", null ],
-    [ "MR::findIntersectionContours", "group__BooleanGroup.html#ga0b6ca259502ac9cd412a6d3b42249201", null ],
-    [ "MR::forceBoolean", "group__BooleanGroup.html#ga52bfb35f8321bd4301244ba7f839bbdc", null ],
-    [ "MR::getBooleanPoints", "group__BooleanGroup.html#gac5ed86269f5cf1022e94d272e28f73b7", null ],
-    [ "MR::selfBoolean", "group__BooleanGroup.html#ga6d540f90dc1f346721c02d850438ed29", null ]
+    [ "MR::getBooleanPoints", "group__DistanceMapGroup.html#gac5ed86269f5cf1022e94d272e28f73b7", null ],
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#gabde61d75feea288c14690ed8c3e592d2", null ]
 ];

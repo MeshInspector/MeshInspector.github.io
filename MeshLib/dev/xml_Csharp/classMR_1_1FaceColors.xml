@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16345" column="54"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceColors_1a12cccb7a7c68b29b58a4a841fd58c0c2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceColors._Underlying *</type>
+        <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_FaceColors_Construct</name>
+        <qualifiedname>MR.FaceColors.__MR_FaceColors_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16348" column="54"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceColors_1a4db3ca4175f90be7f8aa845b0b10aa69" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceColors._Underlying *</type>
         <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16348" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16351" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceColors_1a420a66ccf658ba25876a1ff1855a4385" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceColors_1ae7a4765bec0c5b0e57c9d19f051568b1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceColors._Underlying *</type>
-        <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_FaceColors_Construct_1_size_t</name>
-        <qualifiedname>MR.FaceColors.__MR_FaceColors_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Color *val)</argsstring>
+        <name>__MR_FaceColors_Construct_fill</name>
+        <qualifiedname>MR.FaceColors.__MR_FaceColors_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16351" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceColors_1ade5faefb8a437d87e3a9aa5bcdf08428" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceColors._Underlying *</type>
-        <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_Construct_1_std_vector_MR_Color</definition>
-        <argsstring>(MR.Std.Vector_MRColor._Underlying *vec)</argsstring>
-        <name>__MR_FaceColors_Construct_1_std_vector_MR_Color</name>
-        <qualifiedname>MR.FaceColors.__MR_FaceColors_Construct_1_std_vector_MR_Color</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRColor._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16354" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceColors_1adc89058f9eb76dbc9f86e4e6bc63ed5d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceColors_1ac77e7c58d083269297157cc7fb8ad8cf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceColors._Underlying *</type>
-        <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_Construct_2</definition>
-        <argsstring>(nuint size, MR.Color *val)</argsstring>
-        <name>__MR_FaceColors_Construct_2</name>
-        <qualifiedname>MR.FaceColors.__MR_FaceColors_Construct_2</qualifiedname>
+        <definition>static unsafe MR.FaceColors._Underlying * MR.FaceColors.__MR_FaceColors_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRColor._Underlying *vec)</argsstring>
+        <name>__MR_FaceColors_Construct_stdVector</name>
+        <qualifiedname>MR.FaceColors.__MR_FaceColors_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRColor._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1FaceColors_1aa3ebac3c625253ad8753924bc5b1abf2" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_autoResizeSet_3</name></member>
       <member refid="classMR_1_1FaceColors_1a758f4aed6e96fd458a4a98cba3e768de" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_back_mut</name></member>
       <member refid="classMR_1_1FaceColors_1aedb489c7f29d5bc41b093297f97833ec" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_clear</name></member>
-      <member refid="classMR_1_1FaceColors_1a420a66ccf658ba25876a1ff1855a4385" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1FaceColors_1ade5faefb8a437d87e3a9aa5bcdf08428" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_Construct_1_std_vector_MR_Color</name></member>
-      <member refid="classMR_1_1FaceColors_1adc89058f9eb76dbc9f86e4e6bc63ed5d" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_Construct_2</name></member>
+      <member refid="classMR_1_1FaceColors_1a12cccb7a7c68b29b58a4a841fd58c0c2" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_Construct</name></member>
+      <member refid="classMR_1_1FaceColors_1ae7a4765bec0c5b0e57c9d19f051568b1" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_Construct_fill</name></member>
+      <member refid="classMR_1_1FaceColors_1ac77e7c58d083269297157cc7fb8ad8cf" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_Construct_stdVector</name></member>
       <member refid="classMR_1_1FaceColors_1a4db3ca4175f90be7f8aa845b0b10aa69" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_ConstructFromAnother</name></member>
       <member refid="classMR_1_1FaceColors_1a2bb5d979ad872f8107d9e7b876164a7e" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_data_mut</name></member>
       <member refid="classMR_1_1FaceColors_1a25c97127d3b2bc70e556cc188ef14f44" prot="private" virt="non-virtual"><scope>MR::FaceColors</scope><name>__MR_FaceColors_DefaultConstruct</name></member>

@@ -26467,9 +26467,56 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRColor.h" line="13" column="13" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="group__GeneralGroup_1ga23be6d1433e113ac1210707ea82270f9" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
-        <definition>uint8_t MR::Color::g</definition>
+        <definition>int int int a MR::Color::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>MR::Color::g</qualifiedname>
+        <initializer>{uint8_t(g)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRColor.h" line="13" column="15" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga658fa5014c6e2170ea24d7c8aa6baee8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>int int int a MR::Color::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::Color::b</qualifiedname>
+        <initializer>{uint8_t(b)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRColor.h" line="13" column="17" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8d505c540a356c81a0bbf17945b22153" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>int int int a MR::Color::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::Color::a</qualifiedname>
+        <initializer>{255} {} 
+    MR_BIND_OVERLOAD_SUFFIX(float) constexpr Color( float r, float g, float b, float a ) noexcept :
+        r{ r &gt; 1 ? uint8_t( 255 ) : ( r &lt; 0 ? uint8_t( 0 ) : uint8_t( r * 255 ) )}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRColor.h" line="13" column="19" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga272ef24545bd23f76ddebf129e1de523" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::Color::g</definition>
         <argsstring></argsstring>
         <name>g</name>
         <qualifiedname>MR::Color::g</qualifiedname>
@@ -26479,11 +26526,11 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="13" column="15" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+        <location file="MRMesh/MRColor.h" line="17" column="42" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MR::Color::b</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaffabf4b2ea3763fb8614f0e4704e412a" prot="public" static="no" mutable="no">
+        <type>int int</type>
+        <definition>int int MR::Color::b</definition>
         <argsstring></argsstring>
         <name>b</name>
         <qualifiedname>MR::Color::b</qualifiedname>
@@ -26493,21 +26540,68 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="13" column="17" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+        <location file="MRMesh/MRColor.h" line="17" column="48" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" prot="public" static="no" mutable="no">
-        <type>uint8_t</type>
-        <definition>uint8_t MR::Color::a</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1gadf0405d1b74590168531c8f591b552ca" prot="public" static="no" mutable="no">
+        <type>int int int a</type>
+        <definition>int int int a MR::Color::noexcept</definition>
         <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::Color::a</qualifiedname>
+        <name>noexcept</name>
+        <qualifiedname>MR::Color::noexcept</qualifiedname>
+        <bitfield> r{uint8_t(r)}</bitfield>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="13" column="19" bodyfile="MRMesh/MRColor.h" bodystart="13" bodyend="-1"/>
+        <location file="MRMesh/MRColor.h" line="17" column="57" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga23be6d1433e113ac1210707ea82270f9" prot="public" static="no" mutable="no">
+        <type>int int int a</type>
+        <definition>int int int a MR::Color::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>MR::Color::g</qualifiedname>
+        <initializer>{uint8_t(g)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRColor.h" line="17" column="67" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga658fa5014c6e2170ea24d7c8aa6baee8" prot="public" static="no" mutable="no">
+        <type>int int int a</type>
+        <definition>int int int a MR::Color::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::Color::b</qualifiedname>
+        <initializer>{uint8_t(b)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRColor.h" line="17" column="69" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga8d505c540a356c81a0bbf17945b22153" prot="public" static="no" mutable="no">
+        <type>int int int a</type>
+        <definition>int int int a MR::Color::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::Color::a</qualifiedname>
+        <initializer>{uint8_t(a)} {}
+    MR_BIND_OVERLOAD_SUFFIX(rgb) constexpr Color( int r, int g, int b ) noexcept : r{uint8_t(r)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRColor.h" line="17" column="71" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="18"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga755dfde7b86dcd1f2da851590cf7d308" prot="public" static="no" mutable="no">
         <type>ColorMap</type>
@@ -26917,7 +27011,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </briefdescription>
         <detaileddescription>
 <para>This is optional input for better contours resolving<linebreak/>
-it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> manualy, use case of it is <ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> </para>
+it provides additional info from other mesh used in boolean operation, useful to solve some degeneration <simplesect kind="note"><para>Most likely you don&apos;t need this in case you call <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> manualy, use case of it is MR::boolean </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -31671,6 +31765,92 @@ it provides additional info from other mesh used in boolean operation, useful to
         </inbodydescription>
         <location file="MRMesh/MRICP.h" line="184" column="10" bodyfile="MRMesh/MRICP.h" bodystart="184" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga65fa806f871737d772315ea28a9de0ce" prot="public" static="no" mutable="no">
+        <type>const MeshOrPointsXf &amp;</type>
+        <definition>const MeshOrPointsXf &amp; MR::ICP::ref</definition>
+        <argsstring></argsstring>
+        <name>ref</name>
+        <qualifiedname>MR::ICP::ref</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="211" column="60" bodyfile="MRMesh/MRICP.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaebf36c716f0957f8e60b7b84df532ccf" prot="public" static="no" mutable="no">
+        <type>const MeshOrPointsXf const VertBitSet &amp;</type>
+        <definition>const MeshOrPointsXf const VertBitSet&amp; MR::ICP::fltSamples</definition>
+        <argsstring></argsstring>
+        <name>fltSamples</name>
+        <qualifiedname>MR::ICP::fltSamples</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="211" column="81" bodyfile="MRMesh/MRICP.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga886c36f8281c5a2a8181e4042a51366d" prot="public" static="no" mutable="no">
+        <type>const MeshOrPointsXf const VertBitSet const VertBitSet &amp;</type>
+        <definition>const MeshOrPointsXf const VertBitSet const VertBitSet&amp; MR::ICP::refSamples</definition>
+        <argsstring></argsstring>
+        <name>refSamples</name>
+        <qualifiedname>MR::ICP::refSamples</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="211" column="110" bodyfile="MRMesh/MRICP.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" prot="public" static="no" mutable="no">
+        <type>const MeshOrPointsXf const std::vector&lt; WeightedVertexf &gt; &amp;</type>
+        <definition>const MeshOrPointsXf const std::vector&lt;WeightedVertexf&gt;&amp; MR::ICP::fltSamples</definition>
+        <argsstring></argsstring>
+        <name>fltSamples</name>
+        <qualifiedname>MR::ICP::fltSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="217" column="82" bodyfile="MRMesh/MRICP.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gae0fc293d759e349e030e83f637b6673e" prot="public" static="no" mutable="no">
+        <type>const MeshOrPointsXf const std::vector&lt; WeightedVertexf &gt; const std::vector&lt; WeightedVertexf &gt; &amp;</type>
+        <definition>const MeshOrPointsXf const std::vector&lt;WeightedVertexf&gt; const std::vector&lt;WeightedVertexf&gt;&amp; MR::ICP::refSamples</definition>
+        <argsstring></argsstring>
+        <name>refSamples</name>
+        <qualifiedname>MR::ICP::refSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="217" column="111" bodyfile="MRMesh/MRICP.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gafabb42cb0c084223533a643bb600e0c4" prot="public" static="no" mutable="no">
+        <type>const MeshOrPointsXf float</type>
+        <definition>const MeshOrPointsXf float MR::ICP::samplingVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>samplingVoxelSize</name>
+        <qualifiedname>MR::ICP::samplingVoxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRICP.h" line="228" column="70" bodyfile="MRMesh/MRICP.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" prot="private" static="no" mutable="no">
         <type>MeshOrPointsXf</type>
         <definition>MeshOrPointsXf MR::ICP::flt_</definition>
@@ -32903,6 +33083,64 @@ it provides additional info from other mesh used in boolean operation, useful to
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRIsNaN.h" line="13" column="15" bodyfile="MRMesh/MRIsNaN.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga684ea86bce1e071b8600a2cfd4bdf524" prot="public" static="no" mutable="no">
+        <type>VertCoords &amp;</type>
+        <definition>VertCoords&amp; MR::Laplacian::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR::Laplacian::points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRLaplacian.h" line="27" column="51" bodyfile="MRMesh/MRLaplacian.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gadf40f24990a3a112f6f02bea20e44d4e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Laplacian::smooth</definition>
+        <argsstring></argsstring>
+        <name>smooth</name>
+        <qualifiedname>MR::Laplacian::smooth</qualifiedname>
+        <initializer>= true )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRLaplacian.h" line="43" column="39" bodyfile="MRMesh/MRLaplacian.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga9157b56134c5c567dda801ec9a8b71f7" prot="public" static="no" mutable="no">
+        <type>const Vector3f &amp;</type>
+        <definition>const Vector3f&amp; MR::Laplacian::fixedPos</definition>
+        <argsstring></argsstring>
+        <name>fixedPos</name>
+        <qualifiedname>MR::Laplacian::fixedPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRLaplacian.h" line="47" column="50" bodyfile="MRMesh/MRLaplacian.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga2064ca7307d60e68bfa23be6cea67f85" prot="public" static="no" mutable="no">
+        <type>const Vector3f bool</type>
+        <definition>const Vector3f bool MR::Laplacian::smooth</definition>
+        <argsstring></argsstring>
+        <name>smooth</name>
+        <qualifiedname>MR::Laplacian::smooth</qualifiedname>
+        <initializer>= true )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRLaplacian.h" line="47" column="64" bodyfile="MRMesh/MRLaplacian.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" prot="public" static="no" mutable="no">
         <type>MeshTriPoint</type>
@@ -34165,6 +34403,65 @@ it provides additional info from other mesh used in boolean operation, useful to
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRMeshBuilder.h" line="111" column="17" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga23b7741683f546f6f6f7cc9e01268a35" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MeshBuilder::closeDist</definition>
+        <argsstring></argsstring>
+        <name>closeDist</name>
+        <qualifiedname>MR::MeshBuilder::closeDist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBuilder.h" line="119" column="36" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga5a25563874c1189777a31e5494f28f29" prot="public" static="no" mutable="no">
+        <type>float bool</type>
+        <definition>float bool MR::MeshBuilder::uniteOnlyBd</definition>
+        <argsstring></argsstring>
+        <name>uniteOnlyBd</name>
+        <qualifiedname>MR::MeshBuilder::uniteOnlyBd</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBuilder.h" line="119" column="51" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga29b93496214c0e773af29f717a45304d" prot="public" static="no" mutable="no">
+        <type>float bool VertMap *</type>
+        <definition>float bool VertMap* MR::MeshBuilder::optionalVertOldToNew</definition>
+        <argsstring></argsstring>
+        <name>optionalVertOldToNew</name>
+        <qualifiedname>MR::MeshBuilder::optionalVertOldToNew</qualifiedname>
+        <initializer>= nullptr )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBuilder.h" line="120" column="14" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gabea2a6a01fbeedb07cfeef9283e8c34a" prot="public" static="no" mutable="no">
+        <type>const UniteCloseParams &amp;</type>
+        <definition>const UniteCloseParams&amp; MR::MeshBuilder::params</definition>
+        <argsstring></argsstring>
+        <name>params</name>
+        <qualifiedname>MR::MeshBuilder::params</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBuilder.h" line="125" column="53" bodyfile="MRMesh/MRMeshBuilder.h" bodystart="125" bodyend="125"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" prot="public" static="no" mutable="no">
         <type>ThreeVertIds</type>
@@ -36532,6 +36829,108 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRMeshTopology.h" line="24" column="16" bodyfile="MRMesh/MRMeshTopology.h" bodystart="24" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga09e426a17c3ccad720ccf0b29a122085" prot="public" static="no" mutable="no">
+        <type>VertId &amp;</type>
+        <definition>VertId&amp; MR::MeshTopology::v0</definition>
+        <argsstring></argsstring>
+        <name>v0</name>
+        <qualifiedname>MR::MeshTopology::v0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="172" column="46" bodyfile="MRMesh/MRMeshTopology.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga9328aae450b468b77651cc29aecd7e42" prot="public" static="no" mutable="no">
+        <type>VertId VertId &amp;</type>
+        <definition>VertId VertId&amp; MR::MeshTopology::v1</definition>
+        <argsstring></argsstring>
+        <name>v1</name>
+        <qualifiedname>MR::MeshTopology::v1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="172" column="57" bodyfile="MRMesh/MRMeshTopology.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa504c7884e44ccd50394862aed66dfe0" prot="public" static="no" mutable="no">
+        <type>VertId VertId VertId &amp;v2</type>
+        <definition>VertId VertId VertId&amp; v2 MR::MeshTopology::const</definition>
+        <argsstring></argsstring>
+        <name>const</name>
+        <qualifiedname>MR::MeshTopology::const</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="172" column="72" bodyfile="MRMesh/MRMeshTopology.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gac41b7aa4dfce6d2ed4485e52703f39d4" prot="public" static="no" mutable="no">
+        <type>ThreeVertIds &amp;v</type>
+        <definition>ThreeVertIds&amp; v MR::MeshTopology::const</definition>
+        <argsstring></argsstring>
+        <name>const</name>
+        <qualifiedname>MR::MeshTopology::const</qualifiedname>
+        <initializer>{ getLeftTriVerts( a, v[0], v[1], v[2] )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="174" column="65" bodyfile="MRMesh/MRMeshTopology.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad9198c0528f17a48176af8b91b20402f" prot="public" static="no" mutable="no">
+        <type>VertMap *</type>
+        <definition>VertMap* MR::MeshTopology::outVmap</definition>
+        <argsstring></argsstring>
+        <name>outVmap</name>
+        <qualifiedname>MR::MeshTopology::outVmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="512" column="45" bodyfile="MRMesh/MRMeshTopology.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga0f5ad9ea2306ad7b0c5982888116c6eb" prot="public" static="no" mutable="no">
+        <type>VertMap WholeEdgeMap *</type>
+        <definition>VertMap WholeEdgeMap* MR::MeshTopology::outEmap</definition>
+        <argsstring></argsstring>
+        <name>outEmap</name>
+        <qualifiedname>MR::MeshTopology::outEmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="512" column="68" bodyfile="MRMesh/MRMeshTopology.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga48035d11a498d979434f3b5c404550d9" prot="public" static="no" mutable="no">
+        <type>VertMap WholeEdgeMap bool</type>
+        <definition>VertMap WholeEdgeMap bool MR::MeshTopology::rearrangeTriangles</definition>
+        <argsstring></argsstring>
+        <name>rearrangeTriangles</name>
+        <qualifiedname>MR::MeshTopology::rearrangeTriangles</qualifiedname>
+        <initializer>= false )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshTopology.h" line="512" column="82" bodyfile="MRMesh/MRMeshTopology.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa79948207ce03ac940110fc5b6eeadad" prot="public" static="no" mutable="no">
         <type>EdgeId</type>
         <definition>EdgeId MR::MeshTopology::HalfEdgeRecord::next</definition>
@@ -37767,6 +38166,21 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRNormalDenoising.h" line="70" column="27" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" prot="public" static="no" mutable="no">
+        <type>const DenoiseViaNormalsSettings &amp;</type>
+        <definition>const DenoiseViaNormalsSettings &amp; MR::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <qualifiedname>MR::settings</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRNormalDenoising.h" line="75" column="63" bodyfile="MRMesh/MRNormalDenoising.h" bodystart="75" bodyend="75"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -41774,6 +42188,69 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRPointsToMeshProjector.h" line="49" column="22" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="49" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" prot="public" static="no" mutable="no">
+        <type>const VertCoords &amp;</type>
+        <definition>const VertCoords&amp; MR::testPoints</definition>
+        <argsstring></argsstring>
+        <name>testPoints</name>
+        <qualifiedname>MR::testPoints</qualifiedname>
+        <briefdescription>
+<para>&lt; the distances to this mesh will be returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsToMeshProjector.h" line="57" column="23" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" prot="public" static="no" mutable="no">
+        <type>const VertCoords const VertBitSet *</type>
+        <definition>const VertCoords const VertBitSet* MR::validTestPoints</definition>
+        <argsstring></argsstring>
+        <name>validTestPoints</name>
+        <qualifiedname>MR::validTestPoints</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>the distances from these points will be returned </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsToMeshProjector.h" line="57" column="52" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" prot="public" static="no" mutable="no">
+        <type>const VertCoords const VertBitSet const MeshProjectionParameters IPointsToMeshProjector *</type>
+        <definition>const Mesh const MeshProjectionParameters IPointsToMeshProjector * MR::projector</definition>
+        <argsstring></argsstring>
+        <name>projector</name>
+        <qualifiedname>MR::projector</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+<para>if projector is not given then CPU&apos;s computations will be used </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsToMeshProjector.h" line="59" column="29" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" prot="public" static="no" mutable="no">
+        <type>const Mesh &amp;</type>
+        <definition>const Mesh&amp; MR::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::mesh</qualifiedname>
+        <briefdescription>
+<para>&lt; the distances to this mesh will be returned </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the distances from valid vertices of this mesh will be returned </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsToMeshProjector.h" line="66" column="16" bodyfile="MRMesh/MRPointsToMeshProjector.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" prot="private" static="no" mutable="no">
         <type>const Mesh *</type>
         <definition>const Mesh* MR::PointsToMeshProjector::mesh_</definition>
@@ -43356,6 +43833,48 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRRadiusMeasurementObject.h" line="101" column="27" bodyfile="MRMesh/MRRadiusMeasurementObject.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga0cf5fcc5efe63eaf86bbda721b7041c4" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet &amp;</type>
+        <definition>const FaceBitSet * MR::faces</definition>
+        <argsstring></argsstring>
+        <name>faces</name>
+        <qualifiedname>MR::faces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRegionBoundary.h" line="95" column="55" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga018938df5d34ea1035a4d0c57d9f9708" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet VertBitSet &amp;</type>
+        <definition>const UndirectedEdgeBitSet VertBitSet &amp; MR::store</definition>
+        <argsstring></argsstring>
+        <name>store</name>
+        <qualifiedname>MR::store</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRegionBoundary.h" line="99" column="79" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1gabbe25ce79dd85635294b1687bb4bdc72" prot="public" static="no" mutable="no">
+        <type>const UndirectedEdgeBitSet &amp;</type>
+        <definition>const UndirectedEdgeBitSet * MR::edges</definition>
+        <argsstring></argsstring>
+        <name>edges</name>
+        <qualifiedname>MR::edges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRRegionBoundary.h" line="136" column="65" bodyfile="MRMesh/MRRegionBoundary.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga54914fd0242fd42930528e26b7a6fedf" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -45394,7 +45913,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying <ref refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kindref="member">MR::MeshBuilder::uniteCloseVertices</ref> and <ref refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kindref="member">MR::fillHoles</ref> afterwards <simplesect kind="warning"><para>if enabled - closed meshes expected on input </para>
+<para>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying MR::MeshBuilder::uniteCloseVertices and <ref refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kindref="member">MR::fillHoles</ref> afterwards <simplesect kind="warning"><para>if enabled - closed meshes expected on input </para>
 </simplesect>
 <simplesect kind="warning"><para>not recommended in most cases </para>
 </simplesect>
@@ -45526,20 +46045,34 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRUnorientedTriangle.h" line="17" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="17" bodyend="17"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gad4c1a76a727c0e52830149df75a87a0f" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; T &gt;</type>
-        <definition>std::vector&lt;T&gt; MR::Vector&lt; T, I &gt;::vec_</definition>
+      <memberdef kind="variable" id="group__GeneralGroup_1gaa67407d058ac75b0ff0e4fd21c5bebb8" prot="public" static="no" mutable="no">
+        <type>const T &amp;</type>
+        <definition>const T&amp; MR::Vector&lt; T, I &gt;::val</definition>
         <argsstring></argsstring>
-        <name>vec_</name>
-        <qualifiedname>MR::Vector::vec_</qualifiedname>
+        <name>val</name>
+        <qualifiedname>MR::Vector::val</qualifiedname>
+        <bitfield> vec_( size</bitfield>
         <briefdescription>
-<para>The user can directly manipulate the vector, they can&apos;t break anything anyway. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="161" column="17" bodyfile="MRMesh/MRVector.h" bodystart="161" bodyend="-1"/>
+        <location file="MRMesh/MRVector.h" line="38" column="42" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga82fa3e637184fa5213f3203525fa9ada" prot="public" static="no" nodiscard="yes" mutable="no">
+        <type>const T</type>
+        <definition>const T MR::Vector&lt; T, I &gt;::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>MR::Vector::val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector.h" line="38" column="48" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="158"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f40bccc013c893ac7558c2262a6eff1" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -45597,6 +46130,21 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRVector3.h" line="39" column="11" bodyfile="MRMesh/MRVector3.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__GeneralGroup_1ga46afea730f507bed70954bbdb3457eb8" prot="public" static="no" mutable="no">
+        <type>T T z</type>
+        <definition>T T z MR::Vector3&lt; T &gt;::noexcept</definition>
+        <argsstring></argsstring>
+        <name>noexcept</name>
+        <qualifiedname>MR::Vector3::noexcept</qualifiedname>
+        <bitfield> x( x )</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector3.h" line="47" column="47" bodyfile="MRMesh/MRVector3.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gad2688016c72fa4b8f105895bd2532e7c" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -50399,7 +50947,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <argsstring></argsstring>
         <name>ordinaryColor</name>
         <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::ordinaryColor</qualifiedname>
-        <initializer>= <ref refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" kindref="member">MR::Color::gray</ref>()</initializer>
+        <initializer>= MR::Color::gray()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -50429,7 +50977,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <argsstring></argsstring>
         <name>hoveredColor</name>
         <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::hoveredColor</qualifiedname>
-        <initializer>= <ref refid="group__GeneralGroup_1ga07d25f841350c5a6eeca781f6dcd0fda" kindref="member">MR::Color::green</ref>()</initializer>
+        <initializer>= MR::Color::green()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -50459,7 +51007,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         <argsstring></argsstring>
         <name>selectedColor</name>
         <qualifiedname>MR::BoundarySelectionWidget::BoundarySelectionWidgetParams::selectedColor</qualifiedname>
-        <initializer>= <ref refid="group__GeneralGroup_1ga1c9185e5072e0a0a568d09ca99f99be8" kindref="member">MR::Color::purple</ref>()</initializer>
+        <initializer>= MR::Color::purple()</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -74314,78 +74862,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRUnorientedTriangle.h" line="50" column="17"/>
       </memberdef>
-      <memberdef kind="friend" id="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>MR_BIND_IGNORE_PY friend auto</type>
-        <definition>MR_BIND_IGNORE_PY friend auto begin</definition>
-        <argsstring>(const Vector&lt; T, I &gt; &amp;a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR::Vector::begin</qualifiedname>
-        <param>
-          <type>const Vector&lt; T, I &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="155" column="36" bodyfile="MRMesh/MRVector.h" bodystart="155" bodyend="155"/>
-      </memberdef>
-      <memberdef kind="friend" id="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>MR_BIND_IGNORE_PY friend auto</type>
-        <definition>MR_BIND_IGNORE_PY friend auto begin</definition>
-        <argsstring>(Vector&lt; T, I &gt; &amp;a)</argsstring>
-        <name>begin</name>
-        <qualifiedname>MR::Vector::begin</qualifiedname>
-        <param>
-          <type>Vector&lt; T, I &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="156" column="36" bodyfile="MRMesh/MRVector.h" bodystart="156" bodyend="156"/>
-      </memberdef>
-      <memberdef kind="friend" id="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>MR_BIND_IGNORE_PY friend auto</type>
-        <definition>MR_BIND_IGNORE_PY friend auto end</definition>
-        <argsstring>(const Vector&lt; T, I &gt; &amp;a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR::Vector::end</qualifiedname>
-        <param>
-          <type>const Vector&lt; T, I &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="157" column="36" bodyfile="MRMesh/MRVector.h" bodystart="157" bodyend="157"/>
-      </memberdef>
-      <memberdef kind="friend" id="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>MR_BIND_IGNORE_PY friend auto</type>
-        <definition>MR_BIND_IGNORE_PY friend auto end</definition>
-        <argsstring>(Vector&lt; T, I &gt; &amp;a)</argsstring>
-        <name>end</name>
-        <qualifiedname>MR::Vector::end</qualifiedname>
-        <param>
-          <type>Vector&lt; T, I &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="158" column="36" bodyfile="MRMesh/MRVector.h" bodystart="158" bodyend="158"/>
-      </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gaa313f8ba832a4b648631b27ecc640444" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool operator==</definition>
@@ -85013,7 +85489,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>computes the composition of two mappings x -&gt; a(b(x)) </para>
+<para>computes the composition of two mappings x -&gt; <ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a(b(x))</ref> </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88415,487 +88891,19 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRColor.h" line="16" column="14" bodyfile="MRMesh/MRColor.h" bodystart="16" bodyend="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(int r, int g, int b, int a) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
+      <memberdef kind="function" id="group__GeneralGroup_1ga7b00119818b1c4042f45fb5f15e69fde" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Color::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() const expr Color(int r</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Color::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="17" column="15" bodyfile="MRMesh/MRColor.h" bodystart="17" bodyend="17"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(int r, int g, int b) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="18" column="15" bodyfile="MRMesh/MRColor.h" bodystart="18" bodyend="18"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(float r, float g, float b, float a) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-<para>Using a separate overload instead of a default argument to produce better C bindings. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="19" column="15" bodyfile="MRMesh/MRColor.h" bodystart="19" bodyend="23"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga87cd07021fafe2e28e4734086bec5506" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(float r, float g, float b) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="24" column="15" bodyfile="MRMesh/MRColor.h" bodystart="24" bodyend="24"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga97a5b103a46bec5a9f09026fb693bb67" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>unsigned int</type>
-        <definition>unsigned int MR::Color::getUInt32</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>getUInt32</name>
-        <qualifiedname>MR::Color::getUInt32</qualifiedname>
-        <briefdescription>
-<para>Using a separate overload instead of a default argument to produce better C bindings. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="26" column="28" bodyfile="MRMesh/MRColor.h" bodystart="26" bodyend="26"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafdf32fadc1e749715ad1911813a76f75" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::white</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>white</name>
-        <qualifiedname>MR::Color::white</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="28" column="28" bodyfile="MRMesh/MRColor.h" bodystart="28" bodyend="28"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5596c66211faa167983f60fb9c684e0c" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::black</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>black</name>
-        <qualifiedname>MR::Color::black</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="29" column="28" bodyfile="MRMesh/MRColor.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::gray</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>gray</name>
-        <qualifiedname>MR::Color::gray</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="30" column="28" bodyfile="MRMesh/MRColor.h" bodystart="30" bodyend="30"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9f743712af5597ae9e55d338143d10c6" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::red</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>red</name>
-        <qualifiedname>MR::Color::red</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="31" column="28" bodyfile="MRMesh/MRColor.h" bodystart="31" bodyend="31"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga07d25f841350c5a6eeca781f6dcd0fda" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::green</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>green</name>
-        <qualifiedname>MR::Color::green</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="32" column="28" bodyfile="MRMesh/MRColor.h" bodystart="32" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gacd72366575d0f58c29867044c403e34a" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::blue</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>blue</name>
-        <qualifiedname>MR::Color::blue</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="33" column="28" bodyfile="MRMesh/MRColor.h" bodystart="33" bodyend="33"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga7a15e2053da20914d242d21eb1486f30" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::yellow</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>yellow</name>
-        <qualifiedname>MR::Color::yellow</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="34" column="28" bodyfile="MRMesh/MRColor.h" bodystart="34" bodyend="34"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga882e30e9e993b05867c2140409cb4942" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::brown</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>brown</name>
-        <qualifiedname>MR::Color::brown</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="35" column="28" bodyfile="MRMesh/MRColor.h" bodystart="35" bodyend="35"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1c9185e5072e0a0a568d09ca99f99be8" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::purple</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>purple</name>
-        <qualifiedname>MR::Color::purple</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="36" column="28" bodyfile="MRMesh/MRColor.h" bodystart="36" bodyend="36"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>static constexpr Color MR::Color::transparent</definition>
-        <argsstring>() noexcept</argsstring>
-        <name>transparent</name>
-        <qualifiedname>MR::Color::transparent</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="37" column="28" bodyfile="MRMesh/MRColor.h" bodystart="37" bodyend="37"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga24e6fb7f70f1db9bda37d9279f1b4e2d" prot="public" static="yes" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>uint8_t</type>
-        <definition>static constexpr uint8_t MR::Color::valToUint8</definition>
-        <argsstring>(T val) noexcept</argsstring>
-        <name>valToUint8</name>
-        <qualifiedname>MR::Color::valToUint8</qualifiedname>
-        <param>
-          <type>T</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="40" column="30" bodyfile="MRMesh/MRColor.h" bodystart="40" bodyend="54"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2879fe1d429706d60bf61dba5073b28d" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(const Vector3&lt; T &gt; &amp;vec) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>const Vector3&lt; T &gt; &amp;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="57" column="24" bodyfile="MRMesh/MRColor.h" bodystart="57" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaeb10dfddd28274eab02133fe4bfb2f61" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Color::Color</definition>
-        <argsstring>(const Vector4&lt; T &gt; &amp;vec) noexcept</argsstring>
-        <name>Color</name>
-        <qualifiedname>MR::Color::Color</qualifiedname>
-        <param>
-          <type>const Vector4&lt; T &gt; &amp;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="65" column="24" bodyfile="MRMesh/MRColor.h" bodystart="65" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" prot="public" static="no" constexpr="yes" const="yes" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-        </templateparamlist>
-        <type>constexpr</type>
-        <definition>MR::Color::operator Vector4&lt; T &gt;</definition>
-        <argsstring>() const noexcept</argsstring>
-        <name>operator Vector4&lt; T &gt;</name>
-        <qualifiedname>MR::Color::operator Vector4&lt; T &gt;</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="73" column="24" bodyfile="MRMesh/MRColor.h" bodystart="73" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3671d8320e6244266951f9a5ea6ef33e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const uint8_t &amp;</type>
-        <definition>const uint8_t &amp; MR::Color::operator[]</definition>
-        <argsstring>(int e) const</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Color::operator[]</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="85" column="19" bodyfile="MRMesh/MRColor.h" bodystart="85" bodyend="85"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga30e8afba2ca683c433ab83718048a41e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>uint8_t &amp;</type>
-        <definition>uint8_t &amp; MR::Color::operator[]</definition>
-        <argsstring>(int e)</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Color::operator[]</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>e</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="86" column="13" bodyfile="MRMesh/MRColor.h" bodystart="86" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga91d690a2375168d047a346239b7c38b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Color &amp;</type>
-        <definition>Color &amp; MR::Color::operator+=</definition>
-        <argsstring>(const Color &amp;other)</argsstring>
-        <name>operator+=</name>
-        <qualifiedname>MR::Color::operator+=</qualifiedname>
-        <param>
-          <type>const Color &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="88" column="11" bodyfile="MRMesh/MRColor.h" bodystart="88" bodyend="88"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga52c442cda61f9c17b52534a4f2358c62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Color &amp;</type>
-        <definition>Color &amp; MR::Color::operator-=</definition>
-        <argsstring>(const Color &amp;other)</argsstring>
-        <name>operator-=</name>
-        <qualifiedname>MR::Color::operator-=</qualifiedname>
-        <param>
-          <type>const Color &amp;</type>
-          <declname>other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="89" column="11" bodyfile="MRMesh/MRColor.h" bodystart="89" bodyend="89"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaec1e7daf3ecd5715157f118516cf17c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Color &amp;</type>
-        <definition>Color &amp; MR::Color::operator*=</definition>
-        <argsstring>(float m)</argsstring>
-        <name>operator*=</name>
-        <qualifiedname>MR::Color::operator*=</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="90" column="11" bodyfile="MRMesh/MRColor.h" bodystart="90" bodyend="90"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9f21a5ed60bd2e9b0ab50266610e35f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>Color &amp;</type>
-        <definition>Color &amp; MR::Color::operator/=</definition>
-        <argsstring>(float m)</argsstring>
-        <name>operator/=</name>
-        <qualifiedname>MR::Color::operator/=</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="91" column="11" bodyfile="MRMesh/MRColor.h" bodystart="91" bodyend="91"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab12a1e450b868138a87d0feb4f9e3d8b" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>Color</type>
-        <definition>Color MR::Color::scaledAlpha</definition>
-        <argsstring>(float m) const noexcept</argsstring>
-        <name>scaledAlpha</name>
-        <qualifiedname>MR::Color::scaledAlpha</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>m</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRColor.h" line="93" column="21" bodyfile="MRMesh/MRColor.h" bodystart="93" bodyend="96"/>
+        <location file="MRMesh/MRColor.h" line="17" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga11adbe77a0a789151fa888fe153d4933" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -103641,29 +103649,14 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="MRMesh/MRICP.h" line="209" column="5" bodyfile="MRMesh/MRICP.h" bodystart="209" bodyend="210"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gad91f5ed97435e251629b58c1d4d48ebe" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
-        <definition>MR::ICP::ICP</definition>
-        <argsstring>(const MeshOrPointsXf &amp;flt, const MeshOrPointsXf &amp;ref, const VertBitSet &amp;fltSamples={}, const VertBitSet &amp;refSamples={})</argsstring>
-        <name>ICP</name>
-        <qualifiedname>MR::ICP::ICP</qualifiedname>
+        <definition>MR::ICP::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(samples) 1 ICP(const MeshOrPointsXf &amp;flt</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::ICP::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshOrPointsXf &amp;</type>
-          <declname>flt</declname>
-        </param>
-        <param>
-          <type>const MeshOrPointsXf &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const VertBitSet &amp;</type>
-          <declname>fltSamples</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const VertBitSet &amp;</type>
-          <declname>refSamples</declname>
-          <defval>{}</defval>
+          <type>samples</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -103671,7 +103664,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="211" column="6"/>
+        <location file="MRMesh/MRICP.h" line="211" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -103712,27 +103705,14 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="MRMesh/MRICP.h" line="215" column="5" bodyfile="MRMesh/MRICP.h" bodystart="215" bodyend="216"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf4e277621b4076612a9c2c951ecd5615" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
-        <definition>MR::ICP::ICP</definition>
-        <argsstring>(const MeshOrPointsXf &amp;flt, const MeshOrPointsXf &amp;ref, const std::vector&lt; WeightedVertexf &gt; &amp;fltSamples, const std::vector&lt; WeightedVertexf &gt; &amp;refSamples)</argsstring>
-        <name>ICP</name>
-        <qualifiedname>MR::ICP::ICP</qualifiedname>
+        <definition>MR::ICP::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(weightedSamples) 1 ICP(const MeshOrPointsXf &amp;flt</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::ICP::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshOrPointsXf &amp;</type>
-          <declname>flt</declname>
-        </param>
-        <param>
-          <type>const MeshOrPointsXf &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; WeightedVertexf &gt; &amp;</type>
-          <declname>fltSamples</declname>
-        </param>
-        <param>
-          <type>const std::vector&lt; WeightedVertexf &gt; &amp;</type>
-          <declname>refSamples</declname>
+          <type>weightedSamples</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -103740,7 +103720,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="217" column="6"/>
+        <location file="MRMesh/MRICP.h" line="217" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -103818,31 +103798,19 @@ this function must be faster than extractXYPlaneSections function when connectin
         </inbodydescription>
         <location file="MRMesh/MRICP.h" line="226" column="6" bodyfile="MRMesh/MRICP.h" bodystart="226" bodyend="227"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga5b060cd68f7edaee14673276f8b3c42a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
-        <definition>MR::ICP::ICP</definition>
-        <argsstring>(const MeshOrPointsXf &amp;flt, const MeshOrPointsXf &amp;ref, float samplingVoxelSize)</argsstring>
-        <name>ICP</name>
-        <qualifiedname>MR::ICP::ICP</qualifiedname>
-        <param>
-          <type>const MeshOrPointsXf &amp;</type>
-          <declname>flt</declname>
-        </param>
-        <param>
-          <type>const MeshOrPointsXf &amp;</type>
-          <declname>ref</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>samplingVoxelSize</declname>
-        </param>
+        <definition>MR::ICP::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 ICP(const MeshOrPointsXf &amp;flt</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::ICP::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRICP.h" line="228" column="6"/>
+        <location file="MRMesh/MRICP.h" line="228" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -108031,37 +107999,28 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRIterativeSampling.h" line="16" column="16" declfile="MRMesh/MRIterativeSampling.h" declline="16" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga3de39ed8ed62f4df8bbfbd873218b07e" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
-        <definition>MR::Laplacian::Laplacian</definition>
-        <argsstring>(Mesh &amp;mesh)</argsstring>
-        <name>Laplacian</name>
-        <qualifiedname>MR::Laplacian::Laplacian</qualifiedname>
-        <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
+        <definition>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 explicit Laplacian(Mesh &amp;mesh)</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRLaplacian.h" line="26" column="15"/>
+        <location file="MRMesh/MRLaplacian.h" line="26" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf1e9fa1a2d1da6305610b98e321efbbf" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
         <type></type>
-        <definition>MR::Laplacian::Laplacian</definition>
-        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points)</argsstring>
-        <name>Laplacian</name>
-        <qualifiedname>MR::Laplacian::Laplacian</qualifiedname>
+        <definition>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(topology) 1 Laplacian(const MeshTopology &amp;topology</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>VertCoords &amp;</type>
-          <declname>points</declname>
+          <type>topology</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -108069,7 +108028,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRLaplacian.h" line="27" column="6"/>
+        <location file="MRMesh/MRLaplacian.h" line="27" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga61c764e507de86f90b4a8763fdae00fd" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -108189,21 +108148,12 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRLaplacian.h" line="38" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Laplacian::fixVertex</definition>
-        <argsstring>(VertId v, bool smooth=true)</argsstring>
-        <name>fixVertex</name>
-        <qualifiedname>MR::Laplacian::fixVertex</qualifiedname>
-        <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>smooth</declname>
-          <defval>true</defval>
-        </param>
+      <memberdef kind="function" id="group__GeneralGroup_1gafe079fa9f4dd351d2365cd42a15ae550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 void fixVertex(VertId v</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -108220,26 +108170,16 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRLaplacian.h" line="43" column="11"/>
+        <location file="MRMesh/MRLaplacian.h" line="43" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Laplacian::fixVertex</definition>
-        <argsstring>(VertId v, const Vector3f &amp;fixedPos, bool smooth=true)</argsstring>
-        <name>fixVertex</name>
-        <qualifiedname>MR::Laplacian::fixVertex</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1gaaa66889c32ef49e14c59dce3587227fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(pos) 1 void fixVertex(VertId v</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Laplacian::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>VertId</type>
-          <declname>v</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>fixedPos</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>smooth</declname>
-          <defval>true</defval>
+          <type>pos</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -108257,7 +108197,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRLaplacian.h" line="47" column="11"/>
+        <location file="MRMesh/MRLaplacian.h" line="47" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gabd2232997c80ac2ccfa4b05df9ca0767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -112413,29 +112353,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshBuilder.h" line="91" column="15" declfile="MRMesh/MRMeshBuilder.h" declline="91" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::MeshBuilder::uniteCloseVertices</definition>
-        <argsstring>(Mesh &amp;mesh, float closeDist, bool uniteOnlyBd=true, VertMap *optionalVertOldToNew=nullptr)</argsstring>
-        <name>uniteCloseVertices</name>
-        <qualifiedname>MR::MeshBuilder::uniteCloseVertices</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1gaa025e5add547573085ebcafb05da4759" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshBuilder::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(dist) 1 int uniteCloseVertices(Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshBuilder::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>closeDist</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>uniteOnlyBd</declname>
-          <defval>true</defval>
-        </param>
-        <param>
-          <type>VertMap *</type>
-          <declname>optionalVertOldToNew</declname>
-          <defval>nullptr</defval>
+          <type>dist</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -112472,23 +112397,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBuilder.h" line="119" column="6" declfile="MRMesh/MRMeshBuilder.h" declline="119" declcolumn="6"/>
+        <location file="MRMesh/MRMeshBuilder.h" line="119" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int MR::MeshBuilder::uniteCloseVertices</definition>
-        <argsstring>(Mesh &amp;mesh, const UniteCloseParams &amp;params={})</argsstring>
-        <name>uniteCloseVertices</name>
-        <qualifiedname>MR::MeshBuilder::uniteCloseVertices</qualifiedname>
-        <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const UniteCloseParams &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
+      <memberdef kind="function" id="group__GeneralGroup_1ga82376a94925cb41439befe12e547b3c3" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshBuilder::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 int uniteCloseVertices(Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshBuilder::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -112508,7 +112424,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBuilder.h" line="125" column="6" declfile="MRMesh/MRMeshBuilder.h" declline="125" declcolumn="6"/>
+        <location file="MRMesh/MRMeshBuilder.h" line="125" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga67c89067a48e2a3d29e24b6a36d57de7" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -119011,27 +118927,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshTopology.h" line="168" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad3ba6513949b7e2cc8d026657fd8ee0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MeshTopology::getLeftTriVerts</definition>
-        <argsstring>(EdgeId a, VertId &amp;v0, VertId &amp;v1, VertId &amp;v2) const</argsstring>
-        <name>getLeftTriVerts</name>
-        <qualifiedname>MR::MeshTopology::getLeftTriVerts</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga6bb76a1203b487a001925d22c987d587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(outVerts) 1 void getLeftTriVerts(EdgeId a</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>VertId &amp;</type>
-          <declname>v0</declname>
-        </param>
-        <param>
-          <type>VertId &amp;</type>
-          <declname>v1</declname>
-        </param>
-        <param>
-          <type>VertId &amp;</type>
-          <declname>v2</declname>
+          <type>outVerts</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -119040,7 +118943,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="172" column="15"/>
+        <location file="MRMesh/MRMeshTopology.h" line="172" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad62222883fc0c58bc72eed22f7d74953" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
@@ -119065,19 +118968,14 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshTopology.h" line="173" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="173" bodyend="173"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9fd531135d0c893edd63545034f5b026" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MeshTopology::getLeftTriVerts</definition>
-        <argsstring>(EdgeId a, ThreeVertIds &amp;v) const</argsstring>
-        <name>getLeftTriVerts</name>
-        <qualifiedname>MR::MeshTopology::getLeftTriVerts</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1gacf9260b301cea069c85f5851128b0f1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(outArray) void getLeftTriVerts(EdgeId a</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>ThreeVertIds &amp;</type>
-          <declname>v</declname>
+          <type>outArray</type>
         </param>
         <briefdescription>
 <para>This one is not in the bindings because of the reference-to-array parameter. </para>
@@ -119086,25 +118984,21 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="174" column="25" bodyfile="MRMesh/MRMeshTopology.h" bodystart="174" bodyend="174"/>
+        <location file="MRMesh/MRMeshTopology.h" line="174" column="20"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae7ad9074cc4e1be50475db39d352f94f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>ThreeVertIds</type>
-        <definition>ThreeVertIds MR::MeshTopology::getLeftTriVerts</definition>
-        <argsstring>(EdgeId a) const</argsstring>
-        <name>getLeftTriVerts</name>
-        <qualifiedname>MR::MeshTopology::getLeftTriVerts</qualifiedname>
-        <param>
-          <type>EdgeId</type>
-          <declname>a</declname>
-        </param>
+      <memberdef kind="function" id="group__GeneralGroup_1ga534ada1b901d5230b000f3bd442c4278" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() ThreeVertIds getLeftTriVerts(EdgeId a) const</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="175" column="19" bodyfile="MRMesh/MRMeshTopology.h" bodystart="175" bodyend="175"/>
+        <location file="MRMesh/MRMeshTopology.h" line="175" column="5" bodyfile="MRMesh/MRMeshTopology.h" bodystart="175" bodyend="175"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaad405e625450208e48d0237b9b5f53e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -121177,32 +121071,12 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </inbodydescription>
         <location file="MRMesh/MRMeshTopology.h" line="506" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MeshTopology::pack</definition>
-        <argsstring>(FaceMap *outFmap=nullptr, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</argsstring>
-        <name>pack</name>
-        <qualifiedname>MR::MeshTopology::pack</qualifiedname>
-        <param>
-          <type>FaceMap *</type>
-          <declname>outFmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>VertMap *</type>
-          <declname>outVmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>WholeEdgeMap *</type>
-          <declname>outEmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>rearrangeTriangles</declname>
-          <defval>false</defval>
-        </param>
+      <memberdef kind="function" id="group__GeneralGroup_1gae222b339f086b68c44e2321ed48cfa43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 void pack(FaceMap *outFmap</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -121229,17 +121103,16 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="512" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="512" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::MeshTopology::pack</definition>
-        <argsstring>(const PackMapping &amp;map)</argsstring>
-        <name>pack</name>
-        <qualifiedname>MR::MeshTopology::pack</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga0bc5afed464de8329a9bd88e40606a91" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(mapping) 1 void pack(const PackMapping &amp;map)</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshTopology::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const PackMapping &amp;</type>
-          <declname>map</declname>
+          <type>mapping</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -121248,7 +121121,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshTopology.h" line="516" column="11"/>
+        <location file="MRMesh/MRMeshTopology.h" line="516" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga209f41dfcfd5540a55a1e01f31fb65b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -121263,7 +121136,7 @@ sphere&quot; ties into Inside or Outside by simulation-of-simplicity as describe
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <ref refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" kindref="member">pack</ref> method, this method allocates minimal amount of memory for its operation but works much slower </para>
+<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <ref refid="group__GeneralGroup_1ga14aba576e5451b9dfd9541bffe7470ef" kindref="member">pack</ref> method, this method allocates minimal amount of memory for its operation but works much slower </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -124089,47 +123962,14 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRNormalDenoising.h" line="37" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="37" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga6883a12f4f393ed08b4e93f7bf0be84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::meshDenoiseViaNormals</definition>
-        <argsstring>(Mesh &amp;mesh, const DenoiseViaNormalsSettings &amp;settings={})</argsstring>
-        <name>meshDenoiseViaNormals</name>
-        <qualifiedname>MR::meshDenoiseViaNormals</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga94c8414ad4bf06b5f17dfec5060a2ce3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(progress) 1 bool meshDenoiseViaNormals(Mesh &amp;mesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const DenoiseViaNormalsSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Reduces noise in given mesh, see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot; </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="75" column="7" declfile="MRMesh/MRNormalDenoising.h" declline="75" declcolumn="7"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac335a53bfd7d287604c31298e1b5a43b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::meshDenoiseViaNormals</definition>
-        <argsstring>(Mesh &amp;mesh, const DenoiseViaNormalsSettings &amp;settings, const ProgressCallback &amp;cb)</argsstring>
-        <name>meshDenoiseViaNormals</name>
-        <qualifiedname>MR::meshDenoiseViaNormals</qualifiedname>
-        <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const DenoiseViaNormalsSettings &amp;</type>
-          <declname>settings</declname>
-        </param>
-        <param>
-          <type>const ProgressCallback &amp;</type>
-          <declname>cb</declname>
+          <type>progress</type>
         </param>
         <briefdescription>
 <para>the same, reporting the progress in (cb); returns false if the operation was canceled from it </para>
@@ -124138,7 +123978,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRNormalDenoising.h" line="78" column="8" declfile="MRMesh/MRNormalDenoising.h" declline="78" declcolumn="8"/>
+        <location file="MRMesh/MRNormalDenoising.h" line="78" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -136185,86 +136025,23 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MRPointsToMeshProjector.h" line="32" column="20"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf70fbc3926faabd14d6e8b2a2f3e3f64" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>VertScalars</type>
-        <definition>VertScalars MR::findSignedDistances</definition>
-        <argsstring>(const Mesh &amp;refMesh, const VertCoords &amp;testPoints, const VertBitSet *validTestPoints={}, const MeshProjectionParameters &amp;params={}, IPointsToMeshProjector *projector={})</argsstring>
-        <name>findSignedDistances</name>
-        <qualifiedname>MR::findSignedDistances</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1de7b11758eb43eb8c68a66149c3c14e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(points) 1 VertScalars findSignedDistances(const Mesh &amp;refMesh</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const Mesh &amp;</type>
-          <declname>refMesh</declname>
-          <briefdescription><para>the distances to this mesh will be returned </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const VertCoords &amp;</type>
-          <declname>testPoints</declname>
-        </param>
-        <param>
-          <type>const VertBitSet *</type>
-          <declname>validTestPoints</declname>
-          <defval>{}</defval>
-          <briefdescription><para>the distances from these points will be returned </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const MeshProjectionParameters &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>IPointsToMeshProjector *</type>
-          <declname>projector</declname>
-          <defval>{}</defval>
+          <type>points</type>
         </param>
         <briefdescription>
-<para>if projector is not given then CPU&apos;s computations will be used </para>
         </briefdescription>
         <detaileddescription>
 <para>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsToMeshProjector.h" line="55" column="15" declfile="MRMesh/MRPointsToMeshProjector.h" declline="55" declcolumn="15"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga79c9901bf0bf90470274e88ac9ded1d5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>VertScalars</type>
-        <definition>VertScalars MR::findSignedDistances</definition>
-        <argsstring>(const Mesh &amp;refMesh, const Mesh &amp;mesh, const MeshProjectionParameters &amp;params={}, IPointsToMeshProjector *projector={})</argsstring>
-        <name>findSignedDistances</name>
-        <qualifiedname>MR::findSignedDistances</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>refMesh</declname>
-          <briefdescription><para>the distances to this mesh will be returned </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>mesh</declname>
-          <briefdescription><para>the distances from valid vertices of this mesh will be returned </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>const MeshProjectionParameters &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>IPointsToMeshProjector *</type>
-          <declname>projector</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-<para>if projector is not given then CPU&apos;s computations will be used </para>
-        </briefdescription>
-        <detaileddescription>
-<para>Computes signed distances from valid vertices of test mesh to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPointsToMeshProjector.h" line="64" column="15" declfile="MRMesh/MRPointsToMeshProjector.h" declline="64" declcolumn="15"/>
+        <location file="MRMesh/MRPointsToMeshProjector.h" line="55" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3c206247fe6e6ed0dd78c5f4defe0892" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -141467,46 +141244,14 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRRegionBoundary.h" line="92" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="92" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1bf573dc61dc6ba97a3e8a4bc9028c2e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::getIncidentVerts</definition>
-        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet &amp;faces)</argsstring>
-        <name>getIncidentVerts</name>
-        <qualifiedname>MR::getIncidentVerts</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga2666947390978d2d8aa387e33cc8699c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(facesStore) 1 const VertBitSet &amp;getIncidentVerts(const MeshTopology &amp;topology</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const FaceBitSet &amp;</type>
-          <declname>faces</declname>
-        </param>
-        <briefdescription>
-<para>composes the set of all vertices incident to given faces </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="95" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="95" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga1c24193ec72b494c106fad689c5c5c32" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::getIncidentVerts</definition>
-        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *faces, VertBitSet &amp;store)</argsstring>
-        <name>getIncidentVerts</name>
-        <qualifiedname>MR::getIncidentVerts</qualifiedname>
-        <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const FaceBitSet *</type>
-          <declname>faces</declname>
-        </param>
-        <param>
-          <type>VertBitSet &amp;</type>
-          <declname>store</declname>
+          <type>facesStore</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -141515,7 +141260,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="99" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="99" declcolumn="21"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="99" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -141749,19 +141494,14 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRRegionBoundary.h" line="133" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="133" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>VertBitSet</type>
-        <definition>VertBitSet MR::getIncidentVerts</definition>
-        <argsstring>(const MeshTopology &amp;topology, const UndirectedEdgeBitSet &amp;edges)</argsstring>
-        <name>getIncidentVerts</name>
-        <qualifiedname>MR::getIncidentVerts</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9ae614a46609b519105b81bee3848ca0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(edges) 1 VertBitSet getIncidentVerts(const MeshTopology &amp;topology</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const UndirectedEdgeBitSet &amp;</type>
-          <declname>edges</declname>
+          <type>edges</type>
         </param>
         <briefdescription>
 <para>composes the set of all vertices incident to given edges </para>
@@ -141770,7 +141510,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="136" column="14" declfile="MRMesh/MRRegionBoundary.h" declline="136" declcolumn="14"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="136" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -141864,23 +141604,14 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRRegionBoundary.h" line="148" column="24" declfile="MRMesh/MRRegionBoundary.h" declline="148" declcolumn="24"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>const VertBitSet &amp;</type>
-        <definition>const VertBitSet &amp; MR::getIncidentVerts</definition>
-        <argsstring>(const MeshTopology &amp;topology, const UndirectedEdgeBitSet *edges, VertBitSet &amp;store)</argsstring>
-        <name>getIncidentVerts</name>
-        <qualifiedname>MR::getIncidentVerts</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1ga88851d68af903e1acabcb1c58279b4be" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(edgesStore) 1 const VertBitSet &amp;getIncidentVerts(const MeshTopology &amp;topology</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const UndirectedEdgeBitSet *</type>
-          <declname>edges</declname>
-        </param>
-        <param>
-          <type>VertBitSet &amp;</type>
-          <declname>store</declname>
+          <type>edgesStore</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -141889,7 +141620,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRRegionBoundary.h" line="152" column="21" declfile="MRMesh/MRRegionBoundary.h" declline="152" declcolumn="21"/>
+        <location file="MRMesh/MRRegionBoundary.h" line="152" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertBitSet</type>
@@ -151411,16 +151142,12 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRVector.h" line="32" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf899ea32ccf8bf49bb09d834c9d178dd" prot="public" static="no" const="no" explicit="yes" inline="yes" refqual="rvalue" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga2cfec5e1584dd9df4e72448620afecd6" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
         <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(size_t size) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>size</declname>
-        </param>
+        <definition>MR::Vector&lt; T, I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() explicit Vector(size_t size) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Vector::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>creates a vector with <computeroutput>size</computeroutput> elements with default value </para>
         </briefdescription>
@@ -151428,21 +151155,16 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="35" column="14" bodyfile="MRMesh/MRVector.h" bodystart="35" bodyend="35"/>
+        <location file="MRMesh/MRVector.h" line="35" column="5" bodyfile="MRMesh/MRVector.h" bodystart="35" bodyend="35"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac68e153a1cf7d72f90f9af6be0555d6e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga3b3384c862003a03c5a0c42f19d8df77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(size_t size, const T &amp;val)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
+        <definition>MR::Vector&lt; T, I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(fill) explicit Vector(size_t size</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Vector::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>size_t</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>const T &amp;</type>
-          <declname>val</declname>
+          <type>fill</type>
         </param>
         <briefdescription>
 <para>creates a vector with <computeroutput>size</computeroutput> elements with the given value </para>
@@ -151451,631 +151173,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="38" column="14" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="38"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga68a6c5f7f0cebdd11e11ced071dad1bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(std::vector&lt; T &gt; &amp;&amp;vec)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>std::vector&lt; T &gt; &amp;&amp;</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-<para>moves data from the given std::vector&lt;T&gt; </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="41" column="5" bodyfile="MRMesh/MRVector.h" bodystart="41" bodyend="41"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga677df0d98b9a3abfc0733796f1c56c7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>class InputIt</type>
-          </param>
-        </templateparamlist>
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(InputIt first, InputIt last)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>InputIt</type>
-          <declname>first</declname>
-        </param>
-        <param>
-          <type>InputIt</type>
-          <declname>last</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="44" column="5" bodyfile="MRMesh/MRVector.h" bodystart="44" bodyend="44"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8f77e1876cab4b371446e7913cb25121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::Vector</definition>
-        <argsstring>(std::initializer_list&lt; T &gt; init)</argsstring>
-        <name>Vector</name>
-        <qualifiedname>MR::Vector::Vector</qualifiedname>
-        <param>
-          <type>std::initializer_list&lt; T &gt;</type>
-          <declname>init</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="46" column="5" bodyfile="MRMesh/MRVector.h" bodystart="46" bodyend="46"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac23bc97fbd4484f943e6ff60af745e75" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Vector&lt; T, I &gt;::operator==</definition>
-        <argsstring>(const Vector &amp;b) const MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>operator==</name>
-        <qualifiedname>MR::Vector::operator==</qualifiedname>
-        <param>
-          <type>const Vector &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="48" column="11" bodyfile="MRMesh/MRVector.h" bodystart="48" bodyend="48"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga9e7dbbc00d422b6370dc679c663c5331" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Vector&lt; T, I &gt;::operator!=</definition>
-        <argsstring>(const Vector &amp;b) const MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>operator!=</name>
-        <qualifiedname>MR::Vector::operator!=</qualifiedname>
-        <param>
-          <type>const Vector &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="49" column="11" bodyfile="MRMesh/MRVector.h" bodystart="49" bodyend="49"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::clear</definition>
-        <argsstring>()</argsstring>
-        <name>clear</name>
-        <qualifiedname>MR::Vector::clear</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="51" column="10" bodyfile="MRMesh/MRVector.h" bodystart="51" bodyend="51"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Vector&lt; T, I &gt;::empty</definition>
-        <argsstring>() const</argsstring>
-        <name>empty</name>
-        <qualifiedname>MR::Vector::empty</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="53" column="11" bodyfile="MRMesh/MRVector.h" bodystart="53" bodyend="53"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::size_t</type>
-        <definition>std::size_t MR::Vector&lt; T, I &gt;::size</definition>
-        <argsstring>() const</argsstring>
-        <name>size</name>
-        <qualifiedname>MR::Vector::size</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="55" column="18" bodyfile="MRMesh/MRVector.h" bodystart="55" bodyend="55"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga2c8202f5b1a09ebf0bd5a5a3dc2936fd" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resize</definition>
-        <argsstring>(size_t newSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR::Vector::resize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="57" column="10" bodyfile="MRMesh/MRVector.h" bodystart="57" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae081234bbf4fef169d61159d617cf5c6" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resize</definition>
-        <argsstring>(size_t newSize, const T &amp;t) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resize</name>
-        <qualifiedname>MR::Vector::resize</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>const T &amp;</type>
-          <declname>t</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="58" column="10" bodyfile="MRMesh/MRVector.h" bodystart="58" bodyend="58"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8a23a61e0e9734a4a33ad686080db6b0" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resizeNoInit</definition>
-        <argsstring>(size_t targetSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resizeNoInit</name>
-        <qualifiedname>MR::Vector::resizeNoInit</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>targetSize</declname>
-        </param>
-        <briefdescription>
-<para>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor ) </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="61" column="10" bodyfile="MRMesh/MRVector.h" bodystart="61" bodyend="61"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::size_t</type>
-        <definition>std::size_t MR::Vector&lt; T, I &gt;::capacity</definition>
-        <argsstring>() const</argsstring>
-        <name>capacity</name>
-        <qualifiedname>MR::Vector::capacity</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="63" column="18" bodyfile="MRMesh/MRVector.h" bodystart="63" bodyend="63"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::reserve</definition>
-        <argsstring>(size_t capacity)</argsstring>
-        <name>reserve</name>
-        <qualifiedname>MR::Vector::reserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>capacity</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="65" column="10" bodyfile="MRMesh/MRVector.h" bodystart="65" bodyend="65"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga349375d06b5b75e3b26f9587fe0584f5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const_reference</type>
-        <definition>const_reference MR::Vector&lt; T, I &gt;::operator[]</definition>
-        <argsstring>(I i) const MR_LIFETIMEBOUND</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Vector::operator[]</qualifiedname>
-        <param>
-          <type>I</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="67" column="22" bodyfile="MRMesh/MRVector.h" bodystart="67" bodyend="71"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga6bae4e482e7ead78efad9465a5ac085d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>reference</type>
-        <definition>reference MR::Vector&lt; T, I &gt;::operator[]</definition>
-        <argsstring>(I i) MR_LIFETIMEBOUND</argsstring>
-        <name>operator[]</name>
-        <qualifiedname>MR::Vector::operator[]</qualifiedname>
-        <param>
-          <type>I</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="72" column="16" bodyfile="MRMesh/MRVector.h" bodystart="72" bodyend="76"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga291ed0f8042c268b0aa65b87497daca1" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resizeWithReserve</definition>
-        <argsstring>(size_t newSize) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR::Vector::resizeWithReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <briefdescription>
-<para>same as resize(newSize), which already grows the capacity geometrically </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="80" column="10" bodyfile="MRMesh/MRVector.h" bodystart="80" bodyend="83"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8d2ff338e3ecf6232044e755e5145fde" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::resizeWithReserve</definition>
-        <argsstring>(size_t newSize, const T &amp;value) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>resizeWithReserve</name>
-        <qualifiedname>MR::Vector::resizeWithReserve</qualifiedname>
-        <param>
-          <type>size_t</type>
-          <declname>newSize</declname>
-        </param>
-        <param>
-          <type>const T &amp;</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-<para>same as resize(newSize, value), which already grows the capacity geometrically </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="87" column="10" bodyfile="MRMesh/MRVector.h" bodystart="87" bodyend="90"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::autoResizeSet</definition>
-        <argsstring>(I pos, size_t len, T val) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR::Vector::autoResizeSet</qualifiedname>
-        <param>
-          <type>I</type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>size_t</type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>add new elements with the given value</para>
-<para>the number of the elements existing before function call to be changed</para>
-<para>change the value of the elements existing before function call</para>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="94" column="10" bodyfile="MRMesh/MRVector.h" bodystart="94" bodyend="110"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gac42f813829d695e418e088932eacfd6c" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::autoResizeSet</definition>
-        <argsstring>(I i, T val) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR::Vector::autoResizeSet</qualifiedname>
-        <param>
-          <type>I</type>
-          <declname>i</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>val</declname>
-        </param>
-        <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="113" column="10" bodyfile="MRMesh/MRVector.h" bodystart="113" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <type>reference</type>
-        <definition>reference MR::Vector&lt; T, I &gt;::autoResizeAt</definition>
-        <argsstring>(I i) MR_REQUIRES_IF_SUPPORTED(sizeof(T)&gt;0 &amp;&amp;std</argsstring>
-        <name>autoResizeAt</name>
-        <qualifiedname>MR::Vector::autoResizeAt</qualifiedname>
-        <param>
-          <type>I</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-<para>this accessor automatically adjusts the size of the vector </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="119" column="16" bodyfile="MRMesh/MRVector.h" bodystart="119" bodyend="124"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::push_back</definition>
-        <argsstring>(const T &amp;t MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
-        <name>push_back</name>
-        <qualifiedname>MR::Vector::push_back</qualifiedname>
-        <param>
-          <type>const T &amp;t </type>
-          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
-          <array>this</array>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="126" column="10" bodyfile="MRMesh/MRVector.h" bodystart="126" bodyend="126"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga05637c5798b92bebed2ff7a28c610317" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::push_back</definition>
-        <argsstring>(T &amp;&amp;t MR_LIFETIME_CAPTURE_BY_NESTED(this))</argsstring>
-        <name>push_back</name>
-        <qualifiedname>MR::Vector::push_back</qualifiedname>
-        <param>
-          <type>T &amp;&amp;t </type>
-          <declname>MR_LIFETIME_CAPTURE_BY_NESTED</declname>
-          <array>this</array>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="127" column="10" bodyfile="MRMesh/MRVector.h" bodystart="127" bodyend="127"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga06fae7c424bf43fc3c4cbbf624496400" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::pop_back</definition>
-        <argsstring>()</argsstring>
-        <name>pop_back</name>
-        <qualifiedname>MR::Vector::pop_back</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="128" column="10" bodyfile="MRMesh/MRVector.h" bodystart="128" bodyend="128"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga0d377a848db9d73675bc1849a0810eac" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename...</type>
-            <declname>Args</declname>
-            <defname>Args</defname>
-          </param>
-        </templateparamlist>
-        <type></type>
-        <definition>MR::Vector&lt; T, I &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
-        <argsstring>(sizeof(T)&gt;0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;) T &amp;emplace_back(Args &amp;&amp;... args)</argsstring>
-        <name>MR_REQUIRES_IF_SUPPORTED</name>
-        <qualifiedname>MR::Vector::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
-        <param>
-          <type>sizeof(T)</type>
-        </param>
-        <param>
-          <type>0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="130" column="16" bodyfile="MRMesh/MRVector.h" bodystart="130" bodyend="131"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const_reference</type>
-        <definition>const_reference MR::Vector&lt; T, I &gt;::front</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>front</name>
-        <qualifiedname>MR::Vector::front</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="133" column="22" bodyfile="MRMesh/MRVector.h" bodystart="133" bodyend="133"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>reference</type>
-        <definition>reference MR::Vector&lt; T, I &gt;::front</definition>
-        <argsstring>() MR_LIFETIMEBOUND</argsstring>
-        <name>front</name>
-        <qualifiedname>MR::Vector::front</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="134" column="22" bodyfile="MRMesh/MRVector.h" bodystart="134" bodyend="134"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const_reference</type>
-        <definition>const_reference MR::Vector&lt; T, I &gt;::back</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>back</name>
-        <qualifiedname>MR::Vector::back</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="135" column="23" bodyfile="MRMesh/MRVector.h" bodystart="135" bodyend="135"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>reference</type>
-        <definition>reference MR::Vector&lt; T, I &gt;::back</definition>
-        <argsstring>() MR_LIFETIMEBOUND</argsstring>
-        <name>back</name>
-        <qualifiedname>MR::Vector::back</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="136" column="23" bodyfile="MRMesh/MRVector.h" bodystart="136" bodyend="136"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>I</type>
-        <definition>I MR::Vector&lt; T, I &gt;::beginId</definition>
-        <argsstring>() const</argsstring>
-        <name>beginId</name>
-        <qualifiedname>MR::Vector::beginId</qualifiedname>
-        <briefdescription>
-<para>returns the identifier of the first element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="139" column="8" bodyfile="MRMesh/MRVector.h" bodystart="139" bodyend="139"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>I</type>
-        <definition>I MR::Vector&lt; T, I &gt;::backId</definition>
-        <argsstring>() const</argsstring>
-        <name>backId</name>
-        <qualifiedname>MR::Vector::backId</qualifiedname>
-        <briefdescription>
-<para>returns the identifier of the <ref refid="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" kindref="member">back()</ref> element </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="142" column="8" bodyfile="MRMesh/MRVector.h" bodystart="142" bodyend="142"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>I</type>
-        <definition>I MR::Vector&lt; T, I &gt;::endId</definition>
-        <argsstring>() const</argsstring>
-        <name>endId</name>
-        <qualifiedname>MR::Vector::endId</qualifiedname>
-        <briefdescription>
-<para>returns <ref refid="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" kindref="member">backId()</ref> + 1 </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="145" column="8" bodyfile="MRMesh/MRVector.h" bodystart="145" bodyend="145"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>T *</type>
-        <definition>T * MR::Vector&lt; T, I &gt;::data</definition>
-        <argsstring>() MR_LIFETIMEBOUND</argsstring>
-        <name>data</name>
-        <qualifiedname>MR::Vector::data</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="147" column="8" bodyfile="MRMesh/MRVector.h" bodystart="147" bodyend="147"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>const T *</type>
-        <definition>const T * MR::Vector&lt; T, I &gt;::data</definition>
-        <argsstring>() const MR_LIFETIMEBOUND</argsstring>
-        <name>data</name>
-        <qualifiedname>MR::Vector::data</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="148" column="14" bodyfile="MRMesh/MRVector.h" bodystart="148" bodyend="148"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Vector&lt; T, I &gt;::swap</definition>
-        <argsstring>(Vector &amp;b)</argsstring>
-        <name>swap</name>
-        <qualifiedname>MR::Vector::swap</qualifiedname>
-        <param>
-          <type>Vector &amp;</type>
-          <declname>b</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="150" column="10" bodyfile="MRMesh/MRVector.h" bodystart="150" bodyend="150"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>size_t</type>
-        <definition>size_t MR::Vector&lt; T, I &gt;::heapBytes</definition>
-        <argsstring>() const</argsstring>
-        <name>heapBytes</name>
-        <qualifiedname>MR::Vector::heapBytes</qualifiedname>
-        <briefdescription>
-<para>returns the amount of memory this object occupies on heap </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="153" column="13" bodyfile="MRMesh/MRVector.h" bodystart="153" bodyend="153"/>
+        <location file="MRMesh/MRVector.h" line="38" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -152177,23 +151275,28 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRVector3.h" line="46" column="14" bodyfile="MRMesh/MRVector3.h" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa1b7f648b920d3afcfd29032b79ed8af" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
-        <type>constexpr</type>
-        <definition>MR::Vector3&lt; T &gt;::Vector3</definition>
-        <argsstring>(T x, T y, T z) noexcept</argsstring>
-        <name>Vector3</name>
-        <qualifiedname>MR::Vector3::Vector3</qualifiedname>
+      <memberdef kind="function" id="group__GeneralGroup_1gaae6dc9b9d469703114969bff10928505" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Vector3&lt; T &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() const expr Vector3(T x</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Vector3::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector3.h" line="47" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga625ddd9d6e39896d113b6da4942f837e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>T T z</type>
+        <definition>T T z MR::Vector3&lt; T &gt;::y</definition>
+        <argsstring>(y)</argsstring>
+        <name>y</name>
+        <qualifiedname>MR::Vector3::y</qualifiedname>
         <param>
-          <type>T</type>
-          <declname>x</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>y</declname>
-        </param>
-        <param>
-          <type>T</type>
-          <declname>z</declname>
+          <type>y</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -152201,7 +151304,24 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector3.h" line="47" column="15" bodyfile="MRMesh/MRVector3.h" bodystart="47" bodyend="47"/>
+        <location file="MRMesh/MRVector3.h" line="47" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga517c223ab427bad801cb3975802e7cf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T T z</type>
+        <definition>T T z MR::Vector3&lt; T &gt;::z</definition>
+        <argsstring>(z)</argsstring>
+        <name>z</name>
+        <qualifiedname>MR::Vector3::z</qualifiedname>
+        <param>
+          <type>z</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRVector3.h" line="47" column="61" bodyfile="MRMesh/MRVector3.h" bodystart="47" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga9bfdd0e5562d8003259366aedc1074a5" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" noexcept="yes" virt="non-virtual">
         <templateparamlist>

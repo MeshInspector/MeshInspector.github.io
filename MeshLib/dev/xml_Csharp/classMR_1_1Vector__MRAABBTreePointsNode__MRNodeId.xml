@@ -596,6 +596,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26424" column="80"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1afc683fd61c0ac1fc9669e68af4b45c98" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct</name>
+        <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26427" column="80"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a09d574251683a0b88227e1469c811b19" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_ConstructFromAnother</definition>
@@ -616,35 +634,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26427" column="80"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26430" column="80"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa9eead4d0aa3a4204ca56410ae1a6aad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa64be6b2701acf0c963f1ee986d46311" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.AABBTreePoints.Const_Node._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_fill</name>
+        <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26430" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a1ebb2b6e4b10ef17f6dc0c86fd49a3b4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_std_vector_MR_AABBTreePoints_Node</definition>
-        <argsstring>(MR.Std.Vector_MRAABBTreePointsNode._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_std_vector_MR_AABBTreePoints_Node</name>
-        <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_std_vector_MR_AABBTreePoints_Node</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRAABBTreePointsNode._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.AABBTreePoints.Const_Node._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -654,19 +658,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26433" column="80"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a7077555b93af896976fb1948407dd0da" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a2dc91291291c8136c28c48aaca4c05d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_2</definition>
-        <argsstring>(nuint size, MR.AABBTreePoints.Const_Node._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_2</name>
-        <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRAABBTreePointsNode_MRNodeId._Underlying * MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRAABBTreePointsNode._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_MRAABBTreePointsNode_MRNodeId.__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.AABBTreePoints.Const_Node._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRAABBTreePointsNode._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1172,9 +1172,9 @@
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a930e7f28d13f696b17c87bb90f3babcb" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ab9d0735fd1bce7e572a23065d8ded4a0" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_back_mut</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a10b6eabea4a59540424f0adecc80e373" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_clear</name></member>
-      <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa9eead4d0aa3a4204ca56410ae1a6aad" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a1ebb2b6e4b10ef17f6dc0c86fd49a3b4" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_1_std_vector_MR_AABBTreePoints_Node</name></member>
-      <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a7077555b93af896976fb1948407dd0da" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1afc683fd61c0ac1fc9669e68af4b45c98" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct</name></member>
+      <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aa64be6b2701acf0c963f1ee986d46311" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a2dc91291291c8136c28c48aaca4c05d2" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a09d574251683a0b88227e1469c811b19" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a17f92c2d8e4a4edeb8c6787b911c08d3" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_data_mut</name></member>
       <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ac93ab1f19e42bd9dfa8c47f28054c17e" prot="private" virt="non-virtual"><scope>MR::Vector_MRAABBTreePointsNode_MRNodeId</scope><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_DefaultConstruct</name></member>

@@ -226,7 +226,7 @@ Using the API</h2>
 </div><!-- fragment --><p>A few rules of thumb:</p>
 <ul>
 <li>Parameters with default arguments, pointers and <span class="tt">std::optional</span> are nullable, pass <span class="tt">null</span> for the default. Scalars with defaults are boxed (<span class="tt">Integer</span>, <span class="tt">Float</span>), for the same reason.</li>
-<li>Overloaded C++ functions keep their names as long as their Java parameter types differ; the others get the disambiguated names of the C API, e.g. <span class="tt">boolean_4_const_MR_Mesh_ref</span>. The doc comment of every method names the C function and the C++ original.</li>
+<li>Overloaded C++ functions keep their names as long as their Java parameter types differ; the others get the disambiguated names of the C API, e.g. <span class="tt">boolean_move</span>. The doc comment of every method names the C function and the C++ original.</li>
 <li>Callbacks (<span class="tt">std::function</span> parameters) are built from lambdas: <span class="tt">std_function_bool_from_float.of(progress -&gt; true)</span>. An exception thrown by the lambda is rethrown by the method that called into MeshLib.</li>
 <li>Downcasts and upcasts between a class and its bases are explicit: <span class="tt">objectMesh.upcastToObject()</span>, <span class="tt">ObjectMesh.dynamicDowncastFromObject(object)</span> (null if the object isn't an <span class="tt">ObjectMesh</span>).</li>
 <li>Structs like <span class="tt">Vector3f</span> are views over native memory with the C++ layout: <span class="tt">v.x()</span>, <span class="tt">v.setX(1.0f)</span>, <span class="tt">v.copy()</span>.</li>

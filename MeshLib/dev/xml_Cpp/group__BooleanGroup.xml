@@ -10,37 +10,14 @@
     <innerclass refid="structMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
     <innerclass refid="structMR_1_1BooleanResult" prot="public">MR::BooleanResult</innerclass>
     <sectiondef kind="user-defined">
-      <memberdef kind="function" id="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BooleanResult</type>
-        <definition>BooleanResult MR::boolean</definition>
-        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</argsstring>
-        <name>boolean</name>
-        <qualifiedname>MR::boolean</qualifiedname>
+      <memberdef kind="function" id="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(withXf) 1 BooleanResult boolean(const Mesh &amp;meshA</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>BooleanOperation</type>
-          <declname>operation</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-        </param>
-        <param>
-          <type>BooleanResultMapper *</type>
-          <declname>mapper</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>ProgressCallback</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
+          <type>withXf</type>
         </param>
         <briefdescription>
 <para>Performs CSG operation on two meshes. </para>
@@ -96,9 +73,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="62" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="62" declcolumn="16"/>
+        <location file="MRMesh/MRMeshBoolean.h" line="62" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; BooleanResultPoints, std::string &gt;</type>
         <definition>Expected&lt; BooleanResultPoints, std::string &gt; MR::getBooleanPoints</definition>
         <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr)</argsstring>
@@ -163,174 +140,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRMeshBoolean.h" line="143" column="12" declfile="MRMesh/MRMeshBoolean.h" declline="143" declcolumn="12"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BooleanResult</type>
-        <definition>BooleanResult MR::boolean</definition>
-        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
-        <name>boolean</name>
-        <qualifiedname>MR::boolean</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>BooleanOperation</type>
-          <declname>operation</declname>
-        </param>
-        <param>
-          <type>const BooleanParameters &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="106" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="106" declcolumn="16"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BooleanResult</type>
-        <definition>BooleanResult MR::boolean</definition>
-        <argsstring>(Mesh &amp;&amp;meshA, Mesh &amp;&amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
-        <name>boolean</name>
-        <qualifiedname>MR::boolean</qualifiedname>
-        <param>
-          <type>Mesh &amp;&amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>Mesh &amp;&amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>BooleanOperation</type>
-          <declname>operation</declname>
-        </param>
-        <param>
-          <type>const BooleanParameters &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="108" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="108" declcolumn="16"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BooleanResult</type>
-        <definition>BooleanResult MR::forceBoolean</definition>
-        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const BooleanParameters &amp;params={})</argsstring>
-        <name>forceBoolean</name>
-        <qualifiedname>MR::forceBoolean</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>BooleanOperation</type>
-          <declname>operation</declname>
-        </param>
-        <param>
-          <type>const BooleanParameters &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>calls boolean in force mode, also unites close vertices and fills holes afterwards <simplesect kind="note"><para>expects closed mesh on input, and fills all holes </para>
-</simplesect>
-<simplesect kind="warning"><para>params.mapper might be not correctly updated when new holes are filled </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="114" column="16" declfile="MRMesh/MRMeshBoolean.h" declline="114" declcolumn="16"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; Mesh &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::selfBoolean</definition>
-        <argsstring>(const Mesh &amp;mesh)</argsstring>
-        <name>selfBoolean</name>
-        <qualifiedname>MR::selfBoolean</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>performs boolean operation on mesh with itself, cutting simple intersections contours and flipping their connectivity this function is experimental and likely to change signature and/or behavior in future </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="120" column="11" declfile="MRMesh/MRMeshBoolean.h" declline="120" declcolumn="11"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Contours3f</type>
-        <definition>Contours3f MR::findIntersectionContours</definition>
-        <argsstring>(const Mesh &amp;meshA, const Mesh &amp;meshB, const AffineXf3f *rigidB2A=nullptr)</argsstring>
-        <name>findIntersectionContours</name>
-        <qualifiedname>MR::findIntersectionContours</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshA</declname>
-        </param>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>meshB</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>rigidB2A</declname>
-          <defval>nullptr</defval>
-        </param>
-        <briefdescription>
-<para>returns intersection contours of given meshes </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="123" column="13" declfile="MRMesh/MRMeshBoolean.h" declline="123" declcolumn="13"/>
-      </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::convertIntFloatAllVerts</definition>
-        <argsstring>(Mesh &amp;mesh, const CoordinateConverters &amp;conv)</argsstring>
-        <name>convertIntFloatAllVerts</name>
-        <qualifiedname>MR::convertIntFloatAllVerts</qualifiedname>
-        <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const CoordinateConverters &amp;</type>
-          <declname>conv</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>converts all vertices of the mesh first in integer-coordinates, and then back in float-coordinates; this is necessary to avoid small self-intersections near newly introduced vertices on cut-contours; this actually sligntly moves only small perentage of vertices near x=0 or y=0 or z=0 planes, where float-precision is higher than int-precision; newly introduced vertices on cut-contours are also converted, but we expected that they remain unchanged due to idempotent property of the conversion </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshBoolean.h" line="151" column="7" declfile="MRMesh/MRMeshBoolean.h" declline="151" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="enum">
@@ -422,7 +231,7 @@
         </briefdescription>
         <detaileddescription>
 <para>Enum class of available CSG operations <image type="html" name="no_bool.png" width="300cm">Two separate meshes</image>
- <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kindref="member">MR::boolean</ref> </para>
+ <simplesect kind="see"><para>MR::boolean </para>
 </simplesect>
 </para>
         </detaileddescription>

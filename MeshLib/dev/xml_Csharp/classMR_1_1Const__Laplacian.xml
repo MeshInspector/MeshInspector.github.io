@@ -220,6 +220,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a0e91e2414a333f628fbd914788970a20" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Laplacian._Underlying *</type>
+        <definition>static unsafe MR.Laplacian._Underlying * MR.Const_Laplacian.__MR_Laplacian_Construct</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh)</argsstring>
+        <name>__MR_Laplacian_Construct</name>
+        <qualifiedname>MR.Const_Laplacian.__MR_Laplacian_Construct</qualifiedname>
+        <param>
+          <type>MR.Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="368" column="53"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a995bcbc09b1ce902b1aa8184c6dccad7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Laplacian._Underlying *</type>
         <definition>static unsafe MR.Laplacian._Underlying * MR.Const_Laplacian.__MR_Laplacian_ConstructFromAnother</definition>
@@ -240,32 +258,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="368" column="53"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1a78818835e1eced096f77aa12e570203b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Laplacian._Underlying *</type>
-        <definition>static unsafe MR.Laplacian._Underlying * MR.Const_Laplacian.__MR_Laplacian_Construct_1</definition>
-        <argsstring>(MR.Mesh._Underlying *mesh)</argsstring>
-        <name>__MR_Laplacian_Construct_1</name>
-        <qualifiedname>MR.Const_Laplacian.__MR_Laplacian_Construct_1</qualifiedname>
-        <param>
-          <type>MR.Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="371" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1abd66e355fe846dfc066326522f1be405" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Laplacian_1ae204b90112f2d92386ed3cf2e027d3e8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Laplacian._Underlying *</type>
-        <definition>static unsafe MR.Laplacian._Underlying * MR.Const_Laplacian.__MR_Laplacian_Construct_2</definition>
+        <definition>static unsafe MR.Laplacian._Underlying * MR.Const_Laplacian.__MR_Laplacian_Construct_topology</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.VertCoords._Underlying *points)</argsstring>
-        <name>__MR_Laplacian_Construct_2</name>
-        <qualifiedname>MR.Const_Laplacian.__MR_Laplacian_Construct_2</qualifiedname>
+        <name>__MR_Laplacian_Construct_topology</name>
+        <qualifiedname>MR.Const_Laplacian.__MR_Laplacian_Construct_topology</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -443,8 +443,8 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" bodystart="16" bodyend="393"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__Laplacian_1a78818835e1eced096f77aa12e570203b" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_Construct_1</name></member>
-      <member refid="classMR_1_1Const__Laplacian_1abd66e355fe846dfc066326522f1be405" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a0e91e2414a333f628fbd914788970a20" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_Construct</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1ae204b90112f2d92386ed3cf2e027d3e8" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_Construct_topology</name></member>
       <member refid="classMR_1_1Const__Laplacian_1a995bcbc09b1ce902b1aa8184c6dccad7" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Laplacian_1ae4f5f2053424272afdffcfee6fa4d67b" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_Destroy</name></member>
       <member refid="classMR_1_1Const__Laplacian_1abbc9aa89890ef9d9e24628c0341250ec" prot="private" virt="non-virtual"><scope>MR::Const_Laplacian</scope><name>__MR_Laplacian_firstLayerFixedVerts</name></member>

@@ -184,7 +184,7 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshRes = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshRes = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
@@ -192,7 +192,7 @@ $(function(){initNavTree('ExampleSignedDistancePointToMesh.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_Vector3f point = MR_Vector3f_Construct_3( 1.5f, 1.0f, 0.5f );</div>
+<div class="line">    MR_Vector3f point = MR_Vector3f_Construct( 1.5f, 1.0f, 0.5f );</div>
 <div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_std_optional_MR_SignedDistanceToMeshResult* resOpt = MR_findSignedDistance_MR_Vector3f( &amp;point, mp, NULL, NULL );</div>

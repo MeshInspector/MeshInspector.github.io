@@ -596,6 +596,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34939" column="87"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a909f8be9e2102f2e3588d44cca1e21a0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct</name>
+        <qualifiedname>MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34942" column="87"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a0f716fc8179a74ec9247a4f9cab32a41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying *</type>
         <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_ConstructFromAnother</definition>
@@ -616,35 +634,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34942" column="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34945" column="87"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a26301632473efcb6fe4dfffaee18b254" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1ad940d301a8f37929483602acbc7f5689" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Std.Const_Vector_MRGraphEdgeId._Underlying *val)</argsstring>
+        <name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_fill</name>
+        <qualifiedname>MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34945" column="87"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1ada64509106f75e5942bafdd3fec13f8f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_std_vector_std_vector_MR_GraphEdgeId</definition>
-        <argsstring>(MR.Std.Vector_StdVectorMRGraphEdgeId._Underlying *vec)</argsstring>
-        <name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_std_vector_std_vector_MR_GraphEdgeId</name>
-        <qualifiedname>MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_std_vector_std_vector_MR_GraphEdgeId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_StdVectorMRGraphEdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Std.Const_Vector_MRGraphEdgeId._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -654,19 +658,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="34948" column="87"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1acc15e128c8aab23dfc418349949830f9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1abd11ed8af74aa9b80278d6d8a6fc5af1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_2</definition>
-        <argsstring>(nuint size, MR.Std.Const_Vector_MRGraphEdgeId._Underlying *val)</argsstring>
-        <name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_2</name>
-        <qualifiedname>MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId._Underlying * MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_StdVectorMRGraphEdgeId._Underlying *vec)</argsstring>
+        <name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_StdVectorMRGraphEdgeId_MRGraphVertId.__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MRGraphEdgeId._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_StdVectorMRGraphEdgeId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1190,9 +1190,9 @@
       <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a41256e9adcce89a39a7eaba70a12044d" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1af4b10864456d8f240347acbb393914fb" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_back_mut</name></member>
       <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1aad753a6d41632d96399244e4497c557a" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_clear</name></member>
-      <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a26301632473efcb6fe4dfffaee18b254" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1ada64509106f75e5942bafdd3fec13f8f" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_1_std_vector_std_vector_MR_GraphEdgeId</name></member>
-      <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1acc15e128c8aab23dfc418349949830f9" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a909f8be9e2102f2e3588d44cca1e21a0" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1ad940d301a8f37929483602acbc7f5689" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1abd11ed8af74aa9b80278d6d8a6fc5af1" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a0f716fc8179a74ec9247a4f9cab32a41" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a7ecf0c02a3540fa969056fb613fcc2bb" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_data_mut</name></member>
       <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a7af01d1ce737d499c8d31d878196bfb7" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</scope><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_DefaultConstruct</name></member>

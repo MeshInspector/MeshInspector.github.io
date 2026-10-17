@@ -168,7 +168,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a91ef8171f989554a528459da9f0c603a" id="r_a91ef8171f989554a528459da9f0c603a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ef8171f989554a528459da9f0c603a">rectRectOverlap</a> (Box2f a, Box2f b)</td></tr>
+<tr class="memitem:a91ef8171f989554a528459da9f0c603a" id="r_a91ef8171f989554a528459da9f0c603a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ef8171f989554a528459da9f0c603a">rectRectOverlap</a> (Box2f <a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, Box2f <a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A generic rect allocator. Given a set of rects and a target rect, finds the closest free rect next to the target (using dijkstra's algorithm). The class can be reused multiple times to avoid repeated heap allocation, it doesn't store any state other than memory pools. For optimal results you should bring your own AABB tree (see <span class="tt"><a class="el" href="#a0c0e4459ae9255dde41c3c2e216999a3">FindPotentiallyOverlappingRects</a></span>) below, but in simple cases you can get away with a flat list. </p>

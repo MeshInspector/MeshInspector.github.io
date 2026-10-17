@@ -126,20 +126,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>notify <ref refid="classLaplacian" kindref="compound">Laplacian</ref> that given vertex has changed after init and must be fixed during apply;<parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>smooth</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>whether to make the surface smooth in this vertex (sharp otherwise) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="521" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="518" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classLaplacian_1a086d923f1ec84086bd64ceb607f90229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -154,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="525" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="522" column="8"/>
       </memberdef>
       <memberdef kind="function" id="classLaplacian_1a927d60d108191133ed4d3f32fff12d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177,20 +167,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>notify <ref refid="classLaplacian" kindref="compound">Laplacian</ref> that given vertex has changed after init and must be fixed during apply;<parameterlist kind="param"><parameteritem>
-<parameternamelist>
-<parametername>smooth</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>whether to make the surface smooth in this vertex (sharp otherwise) </para>
-</parameterdescription>
-</parameteritem>
-</parameterlist>
-</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="529" column="8"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="523" column="8"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -204,7 +184,7 @@
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="505" bodyend="530"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" bodystart="505" bodyend="524"/>
     <listofallmembers>
       <member refid="classLaplacian_1a086d923f1ec84086bd64ceb607f90229" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>apply</name></member>
       <member refid="classLaplacian_1afef137cf4f5a9f0e5bfd08b7dccd6f7b" prot="public" virt="non-virtual"><scope>Laplacian</scope><name>fixVertex</name></member>

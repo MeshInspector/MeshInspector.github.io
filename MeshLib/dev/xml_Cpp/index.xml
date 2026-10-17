@@ -644,6 +644,9 @@
     <member refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kind="typedef"><name>IndexType</name></member>
     <member refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kind="variable"><name>bits_per_block</name></member>
     <member refid="classMR_1_1BitSet_1af09b9c83f7a055fa6ea95e83b7fee246" kind="variable"><name>npos</name></member>
+    <member refid="classMR_1_1BitSet_1a558654932f4220ca7207e0dfb1beb50d" kind="variable"><name>len</name></member>
+    <member refid="classMR_1_1BitSet_1a3b4b70d31b0c6c39871acf55556f4ad5" kind="variable"><name>val</name></member>
+    <member refid="classMR_1_1BitSet_1a9d8f5e32b8b114a48ccb34a54e4aeec2" kind="variable"><name>val</name></member>
     <member refid="classMR_1_1BitSet_1aacb06419123b86b604f5b183e3714bad" kind="variable"><name>blocks_</name></member>
     <member refid="classMR_1_1BitSet_1a6d276e8dbb191806b7696d0a0886ffd0" kind="variable"><name>numBits_</name></member>
     <member refid="classMR_1_1BitSet_1a466f41a196180947a6b55ce01eb5f761" kind="function"><name>BitSet</name></member>
@@ -660,10 +663,10 @@
     <member refid="classMR_1_1BitSet_1aa1f040574bd60bfde685c9747f1e689c" kind="function"><name>uncheckedTestSet</name></member>
     <member refid="classMR_1_1BitSet_1aab6d4690169ae21969bc5f538fc8fbff" kind="function"><name>test</name></member>
     <member refid="classMR_1_1BitSet_1a85be34ba3bb731ce828ca21c67b1413c" kind="function"><name>test_set</name></member>
-    <member refid="classMR_1_1BitSet_1a597ed58dd86315f71c893994b7bb46c4" kind="function"><name>set</name></member>
-    <member refid="classMR_1_1BitSet_1abc51849e29c44edfdbf413c84b74f4c6" kind="function"><name>set</name></member>
-    <member refid="classMR_1_1BitSet_1a6f625bd1a775ce33f59b769411f2d7e7" kind="function"><name>set</name></member>
-    <member refid="classMR_1_1BitSet_1a6847dbe94d82cde085f4440c58980759" kind="function"><name>set</name></member>
+    <member refid="classMR_1_1BitSet_1a2b7a5e063bf87be66797f46762475692" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="classMR_1_1BitSet_1a28af421cc92401d7eb7104f2e1e98951" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="classMR_1_1BitSet_1a02e640e7a4515ab2199d48683590e1cd" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="classMR_1_1BitSet_1af4eddcd2028f1616b9d92532bb3cf026" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="classMR_1_1BitSet_1a2681ea331742547c197cd373884d917c" kind="function"><name>atomicTestSet</name></member>
     <member refid="classMR_1_1BitSet_1a784dcb0f29bf20a645a4267b68d0d6ae" kind="function"><name>reset</name></member>
     <member refid="classMR_1_1BitSet_1aa2267b11bc02d8a216df148fdccc02a3" kind="function"><name>reset</name></member>
@@ -695,24 +698,12 @@
     <member refid="classMR_1_1BitSet_1af25621ad18727451aa9a89f69e9f75b6" kind="function"><name>is_subset_of</name></member>
     <member refid="classMR_1_1BitSet_1a8b3601282d28190fc25476e611829852" kind="function"><name>intersects</name></member>
     <member refid="classMR_1_1BitSet_1ac7929d81a23ad4ff51c472f0d1c992d5" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="classMR_1_1BitSet_1ab61cde9e7da6d5d6c75fefd11e2e6a24" kind="function"><name>autoResizeSet</name></member>
-    <member refid="classMR_1_1BitSet_1a737f8cc71944c7c750f8eeba4028ac17" kind="function"><name>autoResizeSet</name></member>
-    <member refid="classMR_1_1BitSet_1a84a9273303ae000bcf94b893a298eb95" kind="function"><name>autoResizeTestSet</name></member>
-    <member refid="classMR_1_1BitSet_1ae5007749dadb7430dc9dedb73114f9a6" kind="function"><name>heapBytes</name></member>
-    <member refid="classMR_1_1BitSet_1abd624eb57fa1932e782bf7eb418f7d1d" kind="function"><name>backId</name></member>
-    <member refid="classMR_1_1BitSet_1a1f947bfd0ac71d4db95bbf1402d27ddf" kind="function"><name>endId</name></member>
-    <member refid="classMR_1_1BitSet_1a8bb32afb9d02a11bf7c980344babc472" kind="function"><name>fromBlocks</name></member>
-    <member refid="classMR_1_1BitSet_1a21d6c2e6655c7c3a36f9ba013553d488" kind="function"><name>beginId</name></member>
-    <member refid="classMR_1_1BitSet_1a300b57edadf33ea0d04527ab45a5b4db" kind="function"><name>calcNumBlocks_</name></member>
-    <member refid="classMR_1_1BitSet_1a4d3c9c08e1ea8bfcd8b65b8f78cb652b" kind="function"><name>blockIndex_</name></member>
-    <member refid="classMR_1_1BitSet_1a70081eea3dd16bb6c7157c06d5b86cee" kind="function"><name>bitIndex_</name></member>
-    <member refid="classMR_1_1BitSet_1a8f4484237b765f3d3efb055d8daf3646" kind="function"><name>bitMask_</name></member>
-    <member refid="classMR_1_1BitSet_1a36c0186190e547b33c3cb88bbd92624f" kind="function"><name>bitMask_</name></member>
-    <member refid="classMR_1_1BitSet_1a587b53cba73d797d491e85e7c8b578d3" kind="function"><name>setUnusedBits_</name></member>
+    <member refid="classMR_1_1BitSet_1a65df782e9a60fd7d886305eb547b7149" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="classMR_1_1BitSet_1a0966c6f93f6bcb45363b0a0faeb6372f" kind="function"><name>resetUnusedBits_</name></member>
     <member refid="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" kind="function"><name>rangeOp_</name></member>
     <member refid="classMR_1_1BitSet_1a782fcf4be895063694c85917cf0adc2c" kind="function"><name>findSetBitAfter_</name></member>
     <member refid="classMR_1_1BitSet_1ad9e0a275c5788e83a990cca3d5b88b3e" kind="function"><name>findNonSetBitAfter_</name></member>
+    <member refid="classMR_1_1BitSet_1a8bb32afb9d02a11bf7c980344babc472" kind="function"><name>fromBlocks</name></member>
     <member refid="classMR_1_1BitSet_1a6a67416a17d4bee21a1d349ba0e9b7f1" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="classMR_1_1BitSet_1aadab48850b173a8c3542b620d35b4960" kind="friend"><name>operator&gt;&gt;</name></member>
     <member refid="classMR_1_1BitSet_1ad10eef891e591ca10e1d3328b630615b" kind="friend"><name>begin</name></member>
@@ -1686,37 +1677,18 @@
   </compound>
   <compound refid="structMR_1_1Color" kind="struct"><name>MR::Color</name>
     <member refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kind="variable"><name>r</name></member>
-    <member refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kind="variable"><name>g</name></member>
-    <member refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga23be6d1433e113ac1210707ea82270f9" kind="variable"><name>g</name></member>
+    <member refid="group__GeneralGroup_1ga658fa5014c6e2170ea24d7c8aa6baee8" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga8d505c540a356c81a0bbf17945b22153" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga272ef24545bd23f76ddebf129e1de523" kind="variable"><name>g</name></member>
+    <member refid="group__GeneralGroup_1gaffabf4b2ea3763fb8614f0e4704e412a" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1gadf0405d1b74590168531c8f591b552ca" kind="variable"><name>noexcept</name></member>
+    <member refid="group__GeneralGroup_1ga23be6d1433e113ac1210707ea82270f9" kind="variable"><name>g</name></member>
+    <member refid="group__GeneralGroup_1ga658fa5014c6e2170ea24d7c8aa6baee8" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga8d505c540a356c81a0bbf17945b22153" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1ga361e3d7af72254b02de4d5bdf7f08b60" kind="function"><name>Color</name></member>
     <member refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga87cd07021fafe2e28e4734086bec5506" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga97a5b103a46bec5a9f09026fb693bb67" kind="function"><name>getUInt32</name></member>
-    <member refid="group__GeneralGroup_1ga2879fe1d429706d60bf61dba5073b28d" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1gaeb10dfddd28274eab02133fe4bfb2f61" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" kind="function"><name>operator Vector4&lt; T &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga3671d8320e6244266951f9a5ea6ef33e" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga30e8afba2ca683c433ab83718048a41e" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga91d690a2375168d047a346239b7c38b7" kind="function"><name>operator+=</name></member>
-    <member refid="group__GeneralGroup_1ga52c442cda61f9c17b52534a4f2358c62" kind="function"><name>operator-=</name></member>
-    <member refid="group__GeneralGroup_1gaec1e7daf3ecd5715157f118516cf17c7" kind="function"><name>operator*=</name></member>
-    <member refid="group__GeneralGroup_1ga9f21a5ed60bd2e9b0ab50266610e35f6" kind="function"><name>operator/=</name></member>
-    <member refid="group__GeneralGroup_1gab12a1e450b868138a87d0feb4f9e3d8b" kind="function"><name>scaledAlpha</name></member>
-    <member refid="group__GeneralGroup_1gafdf32fadc1e749715ad1911813a76f75" kind="function"><name>white</name></member>
-    <member refid="group__GeneralGroup_1ga5596c66211faa167983f60fb9c684e0c" kind="function"><name>black</name></member>
-    <member refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" kind="function"><name>gray</name></member>
-    <member refid="group__GeneralGroup_1ga9f743712af5597ae9e55d338143d10c6" kind="function"><name>red</name></member>
-    <member refid="group__GeneralGroup_1ga07d25f841350c5a6eeca781f6dcd0fda" kind="function"><name>green</name></member>
-    <member refid="group__GeneralGroup_1gacd72366575d0f58c29867044c403e34a" kind="function"><name>blue</name></member>
-    <member refid="group__GeneralGroup_1ga7a15e2053da20914d242d21eb1486f30" kind="function"><name>yellow</name></member>
-    <member refid="group__GeneralGroup_1ga882e30e9e993b05867c2140409cb4942" kind="function"><name>brown</name></member>
-    <member refid="group__GeneralGroup_1ga1c9185e5072e0a0a568d09ca99f99be8" kind="function"><name>purple</name></member>
-    <member refid="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" kind="function"><name>transparent</name></member>
-    <member refid="group__GeneralGroup_1ga24e6fb7f70f1db9bda37d9279f1b4e2d" kind="function"><name>valToUint8</name></member>
+    <member refid="group__GeneralGroup_1ga7b00119818b1c4042f45fb5f15e69fde" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
   </compound>
   <compound refid="classMR_1_1ColorMapAggregator" kind="class"><name>MR::ColorMapAggregator</name>
     <member refid="group__GeneralGroup_1gab256b40e5b8b82eac72187cf3cc0712a" kind="enum"><name>AggregateMode</name></member>
@@ -4220,6 +4192,12 @@
     <member refid="group__GeneralGroup_1gadd5db6ebcba46e60e03d40bd3b1ad0d7" kind="variable"><name>loaded</name></member>
   </compound>
   <compound refid="classMR_1_1ICP" kind="class"><name>MR::ICP</name>
+    <member refid="group__GeneralGroup_1ga65fa806f871737d772315ea28a9de0ce" kind="variable"><name>ref</name></member>
+    <member refid="group__GeneralGroup_1gaebf36c716f0957f8e60b7b84df532ccf" kind="variable"><name>fltSamples</name></member>
+    <member refid="group__GeneralGroup_1ga886c36f8281c5a2a8181e4042a51366d" kind="variable"><name>refSamples</name></member>
+    <member refid="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" kind="variable"><name>fltSamples</name></member>
+    <member refid="group__GeneralGroup_1gae0fc293d759e349e030e83f637b6673e" kind="variable"><name>refSamples</name></member>
+    <member refid="group__GeneralGroup_1gafabb42cb0c084223533a643bb600e0c4" kind="variable"><name>samplingVoxelSize</name></member>
     <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" kind="variable"><name>flt_</name></member>
     <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" kind="variable"><name>ref_</name></member>
     <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" kind="variable"><name>prop_</name></member>
@@ -4230,11 +4208,11 @@
     <member refid="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" kind="variable"><name>resultType_</name></member>
     <member refid="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" kind="variable"><name>iter_</name></member>
     <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
-    <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1gad91f5ed97435e251629b58c1d4d48ebe" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" kind="function"><name>ICP</name></member>
-    <member refid="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1gaf4e277621b4076612a9c2c951ecd5615" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kind="function"><name>ICP</name></member>
-    <member refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1ga5b060cd68f7edaee14673276f8b3c42a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" kind="function"><name>setParams</name></member>
     <member refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" kind="function"><name>setCosineLimit</name></member>
     <member refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" kind="function"><name>setDistanceLimit</name></member>
@@ -4991,6 +4969,10 @@
     <member refid="group__GeneralGroup_1ga596df9f6e3335a7b93dbefdeffcf7b72" kind="function"><name>action</name></member>
   </compound>
   <compound refid="classMR_1_1Laplacian" kind="class"><name>MR::Laplacian</name>
+    <member refid="group__GeneralGroup_1ga684ea86bce1e071b8600a2cfd4bdf524" kind="variable"><name>points</name></member>
+    <member refid="group__GeneralGroup_1gadf40f24990a3a112f6f02bea20e44d4e" kind="variable"><name>smooth</name></member>
+    <member refid="group__GeneralGroup_1ga9157b56134c5c567dda801ec9a8b71f7" kind="variable"><name>fixedPos</name></member>
+    <member refid="group__GeneralGroup_1ga2064ca7307d60e68bfa23be6cea67f85" kind="variable"><name>smooth</name></member>
     <member refid="group__GeneralGroup_1ga112a32afcf865c5075765fe27e01b5db" kind="variable"><name>topology_</name></member>
     <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" kind="variable"><name>points_</name></member>
     <member refid="group__GeneralGroup_1ga89275c83411511907eadafbab493bc78" kind="variable"><name>region_</name></member>
@@ -5003,14 +4985,14 @@
     <member refid="group__GeneralGroup_1ga370d50bcaff0164140181254769159d3" kind="variable"><name>regionVert2id_</name></member>
     <member refid="group__GeneralGroup_1ga0b3def1240423bd62f55b011b88532b3" kind="variable"><name>freeVert2id_</name></member>
     <member refid="group__GeneralGroup_1gade04ad69951c0a7fea994dd296614113" kind="variable"><name>solver_</name></member>
-    <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
-    <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
+    <member refid="group__GeneralGroup_1ga3de39ed8ed62f4df8bbfbd873218b07e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1gaf1e9fa1a2d1da6305610b98e321efbbf" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga61c764e507de86f90b4a8763fdae00fd" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1gaddaaf769ca00b17d64d71fe8f4b3a60d" kind="function"><name>~Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
-    <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
-    <member refid="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" kind="function"><name>fixVertex</name></member>
+    <member refid="group__GeneralGroup_1gafe079fa9f4dd351d2365cd42a15ae550" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1gaaa66889c32ef49e14c59dce3587227fb" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gabd2232997c80ac2ccfa4b05df9ca0767" kind="function"><name>multVertexWeight</name></member>
     <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" kind="function"><name>updateSolver</name></member>
     <member refid="group__GeneralGroup_1ga6d897482a207ddf21fab0274e22a7133" kind="function"><name>applyToVector</name></member>
@@ -5574,6 +5556,20 @@
   <compound refid="structMR_1_1Mesh" kind="struct"><name>MR::Mesh</name>
     <member refid="structMR_1_1Mesh_1a91b13898794821d7f88845ebaa6cc1c4" kind="variable"><name>topology</name></member>
     <member refid="structMR_1_1Mesh_1a9c8ead50efe2f8a111848b488f0a6aca" kind="variable"><name>points</name></member>
+    <member refid="structMR_1_1Mesh_1a38119185e97916eacea6c36adb34f7ef" kind="variable"><name>toWorld</name></member>
+    <member refid="structMR_1_1Mesh_1abb49738279dec064e483be26d3fafb55" kind="variable"><name>map</name></member>
+    <member refid="structMR_1_1Mesh_1a075acf82c23dacae9d98a5a80f516072" kind="variable"><name>rearrangeTriangles</name></member>
+    <member refid="structMR_1_1Mesh_1a8a52ae94d003827fe786e2b278dac1f3" kind="variable"><name>outFmap</name></member>
+    <member refid="structMR_1_1Mesh_1ac7d3edb8fd319a5a4d211ba25d24e346" kind="variable"><name>outVmap</name></member>
+    <member refid="structMR_1_1Mesh_1a4e632453870de6742cfb3ae37491a6b4" kind="variable"><name>outEmap</name></member>
+    <member refid="structMR_1_1Mesh_1abdd2b8cf153548ba62d91facc2f0526f" kind="variable"><name>rearrangeTriangles</name></member>
+    <member refid="structMR_1_1Mesh_1a1e677e30de874a7c800e274fde50a33b" kind="variable"><name>map</name></member>
+    <member refid="structMR_1_1Mesh_1a3457bde750f42e5a0173e67e9e203511" kind="variable"><name>vacant</name></member>
+    <member refid="structMR_1_1Mesh_1a7e633064d34622a947601f8375121da3" kind="variable"><name>flipOrientation</name></member>
+    <member refid="structMR_1_1Mesh_1abcaf059635202a004144cd791f470296" kind="variable"><name>thisContours</name></member>
+    <member refid="structMR_1_1Mesh_1a1c15fb58bb4738566c304ea3f803f4a8" kind="variable"><name>fromContours</name></member>
+    <member refid="structMR_1_1Mesh_1a4ce258b41f3bcf9f54ae352ff29746aa" kind="variable"><name>map</name></member>
+    <member refid="structMR_1_1Mesh_1aa0483429ef19cb1de99952625025e9a4" kind="variable"><name>vacant</name></member>
     <member refid="structMR_1_1Mesh_1a43406c62d4fbf3496b1acce4c8107633" kind="variable"><name>AABBTreeOwner_</name></member>
     <member refid="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" kind="variable"><name>AABBTreePointsOwner_</name></member>
     <member refid="structMR_1_1Mesh_1a7a5061b30edacea6f7d707988504f80e" kind="variable"><name>dipolesOwner_</name></member>
@@ -5658,8 +5654,8 @@
     <member refid="structMR_1_1Mesh_1aae3794627367f1c0ae6a497f41542197" kind="function"><name>cotan</name></member>
     <member refid="structMR_1_1Mesh_1aa04078e21e25882482b068987fbc6add" kind="function"><name>quadraticForm</name></member>
     <member refid="structMR_1_1Mesh_1aaab3b5b832271960652218f95db6174a" kind="function"><name>getBoundingBox</name></member>
-    <member refid="structMR_1_1Mesh_1a916b0cecc3457997280e8f1e39227c8e" kind="function"><name>computeBoundingBox</name></member>
-    <member refid="structMR_1_1Mesh_1a4040ab24e115ea0cd68fef6a177882c7" kind="function"><name>computeBoundingBox</name></member>
+    <member refid="structMR_1_1Mesh_1a2800abae671db9249887bf8128c07d86" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="structMR_1_1Mesh_1a55d264e08ec551ae0fb5b18a2695d497" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="structMR_1_1Mesh_1ab9d3cfcd12351d9a2dd46dea8ddf9e65" kind="function"><name>averageEdgeLength</name></member>
     <member refid="structMR_1_1Mesh_1aa4f692f06732a94954fbf3fe28c25a5a" kind="function"><name>findCenterFromPoints</name></member>
     <member refid="structMR_1_1Mesh_1a983c07d7b4304575cff85c24523ca8a1" kind="function"><name>findCenterFromFaces</name></member>
@@ -5674,10 +5670,10 @@
     <member refid="structMR_1_1Mesh_1a572820417c5fc8e867bbb2f078275222" kind="function"><name>splitEdge</name></member>
     <member refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" kind="function"><name>splitFace</name></member>
     <member refid="structMR_1_1Mesh_1a8c0879122a6abf7e015c89fdbd7dd584" kind="function"><name>splitFace</name></member>
-    <member refid="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" kind="function"><name>addMesh</name></member>
-    <member refid="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" kind="function"><name>addMesh</name></member>
-    <member refid="structMR_1_1Mesh_1a40a4b434d26da4ffa956ad8cb72093ff" kind="function"><name>addMeshPart</name></member>
-    <member refid="structMR_1_1Mesh_1a3eb0890a9d7a3fe58757bdd6768610ac" kind="function"><name>addMeshPart</name></member>
+    <member refid="structMR_1_1Mesh_1a780f0833527417e641ebbbd9ea27b39a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="structMR_1_1Mesh_1ab4a932360cad5e1747110151bb1cd6a7" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="structMR_1_1Mesh_1a72021ca5095e77a53e4192c2166bd0c2" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="structMR_1_1Mesh_1a3c10e2f017960f99ac15b408a7f198d7" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" kind="function"><name>cloneRegion</name></member>
     <member refid="structMR_1_1Mesh_1a195c509bc89bff7c15ae4f20a0659b36" kind="function"><name>pack</name></member>
     <member refid="structMR_1_1Mesh_1a6e9aa843e541b5b9b371902f0e14810a" kind="function"><name>pack</name></member>
@@ -5968,6 +5964,13 @@
     <member refid="group__GeneralGroup_1ga740cc5d8bb375f88ea00678baa716cef" kind="variable"><name>fwn</name></member>
   </compound>
   <compound refid="classMR_1_1MeshTopology" kind="class"><name>MR::MeshTopology</name>
+    <member refid="group__GeneralGroup_1ga09e426a17c3ccad720ccf0b29a122085" kind="variable"><name>v0</name></member>
+    <member refid="group__GeneralGroup_1ga9328aae450b468b77651cc29aecd7e42" kind="variable"><name>v1</name></member>
+    <member refid="group__GeneralGroup_1gaa504c7884e44ccd50394862aed66dfe0" kind="variable"><name>const</name></member>
+    <member refid="group__GeneralGroup_1gac41b7aa4dfce6d2ed4485e52703f39d4" kind="variable"><name>const</name></member>
+    <member refid="group__GeneralGroup_1gad9198c0528f17a48176af8b91b20402f" kind="variable"><name>outVmap</name></member>
+    <member refid="group__GeneralGroup_1ga0f5ad9ea2306ad7b0c5982888116c6eb" kind="variable"><name>outEmap</name></member>
+    <member refid="group__GeneralGroup_1ga48035d11a498d979434f3b5c404550d9" kind="variable"><name>rearrangeTriangles</name></member>
     <member refid="group__GeneralGroup_1gac9dd8ac8bb48edc727dfda0f73d714da" kind="friend"><name>MeshTopologyDiff</name></member>
     <member refid="group__GeneralGroup_1ga9b7eb5f697ea83a1ba72945ca2bbd48a" kind="variable"><name>edges_</name></member>
     <member refid="group__GeneralGroup_1gaa05e32dd8cd4be5b168e51a5b3329b4b" kind="variable"><name>edgePerVertex_</name></member>
@@ -6019,10 +6022,10 @@
     <member refid="group__GeneralGroup_1gaf020bbe446f3965db015301732d7592d" kind="function"><name>isTriVert</name></member>
     <member refid="group__GeneralGroup_1ga3d85b486bb589bae547c1e7fc7c1f342" kind="function"><name>getAllTriVerts</name></member>
     <member refid="group__GeneralGroup_1ga38ff51ae302402397ba017f96799d992" kind="function"><name>getTriangulation</name></member>
-    <member refid="group__GeneralGroup_1gad3ba6513949b7e2cc8d026657fd8ee0f" kind="function"><name>getLeftTriVerts</name></member>
+    <member refid="group__GeneralGroup_1ga6bb76a1203b487a001925d22c987d587" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gad62222883fc0c58bc72eed22f7d74953" kind="function"><name>getLeftTriVerts</name></member>
-    <member refid="group__GeneralGroup_1ga9fd531135d0c893edd63545034f5b026" kind="function"><name>getLeftTriVerts</name></member>
-    <member refid="group__GeneralGroup_1gae7ad9074cc4e1be50475db39d352f94f" kind="function"><name>getLeftTriVerts</name></member>
+    <member refid="group__GeneralGroup_1gacf9260b301cea069c85f5851128b0f1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga534ada1b901d5230b000f3bd442c4278" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gaad405e625450208e48d0237b9b5f53e8" kind="function"><name>forEachVertex</name></member>
     <member refid="group__GeneralGroup_1ga19c52a0f233ed29357bf32c280272444" kind="function"><name>getLeftTriEdges</name></member>
     <member refid="group__GeneralGroup_1ga4c0c34fc025958084fc870fb352c0f2a" kind="function"><name>getTriEdges</name></member>
@@ -6108,8 +6111,8 @@
     <member refid="group__GeneralGroup_1ga7bbda199205f3f2040094ed56f5e1805" kind="function"><name>addPartByMask</name></member>
     <member refid="group__GeneralGroup_1ga3fe4136c1642a8e761ebeb82c82ce632" kind="function"><name>addPartByMask</name></member>
     <member refid="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" kind="function"><name>rotateTriangles</name></member>
-    <member refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" kind="function"><name>pack</name></member>
-    <member refid="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" kind="function"><name>pack</name></member>
+    <member refid="group__GeneralGroup_1gae222b339f086b68c44e2321ed48cfa43" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga0bc5afed464de8329a9bd88e40606a91" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga209f41dfcfd5540a55a1e01f31fb65b9" kind="function"><name>packMinMem</name></member>
     <member refid="group__GeneralGroup_1ga81f80fe1150711ff7445416be04b9133" kind="function"><name>write</name></member>
     <member refid="group__GeneralGroup_1gae53000ef54becc9aaca40915c254c24f" kind="function"><name>read</name></member>
@@ -8440,6 +8443,8 @@
     <member refid="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" kind="variable"><name>points</name></member>
     <member refid="structMR_1_1PointCloud_1a25c1039968a5dc3a24591ac5b74148ad" kind="variable"><name>normals</name></member>
     <member refid="structMR_1_1PointCloud_1a99cd2bd3f8fa8482032603f382ab9a03" kind="variable"><name>validPoints</name></member>
+    <member refid="structMR_1_1PointCloud_1acf467d3da6aff2b54a601c4921de1f2f" kind="variable"><name>toWorld</name></member>
+    <member refid="structMR_1_1PointCloud_1ace3e2f591185408ede2b73c7d0f1ad46" kind="variable"><name>normal</name></member>
     <member refid="structMR_1_1PointCloud_1a544b6f1222cd259ee283fafdb0700311" kind="variable"><name>AABBTreeOwner_</name></member>
     <member refid="structMR_1_1PointCloud_1a4e713072e68a27b247042676b693bb26" kind="function"><name>calcNumValidPoints</name></member>
     <member refid="structMR_1_1PointCloud_1a400e79598dd6367452f3bfe56249615b" kind="function"><name>hasNormals</name></member>
@@ -8447,15 +8452,15 @@
     <member refid="structMR_1_1PointCloud_1a645a4b6af1de600172fab56912082219" kind="function"><name>getAABBTree</name></member>
     <member refid="structMR_1_1PointCloud_1ac58b0b5f3bf2f48f46f9fe30e054b7cb" kind="function"><name>getAABBTreeNotCreate</name></member>
     <member refid="structMR_1_1PointCloud_1ab8528785525982a60c9bb9ea1ddcc103" kind="function"><name>getBoundingBox</name></member>
-    <member refid="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" kind="function"><name>computeBoundingBox</name></member>
-    <member refid="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" kind="function"><name>computeBoundingBox</name></member>
+    <member refid="structMR_1_1PointCloud_1a65677efaca849285816d9632529b5520" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="structMR_1_1PointCloud_1a5982bc0f5607f15bb30837797ab27153" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" kind="function"><name>findCenterFromPoints</name></member>
     <member refid="structMR_1_1PointCloud_1a8ac1e905740b138eb0ea9644d11c6ad9" kind="function"><name>findCenterFromBBox</name></member>
     <member refid="structMR_1_1PointCloud_1a050308043ec1ab0b5b1170e045463514" kind="function"><name>transform</name></member>
     <member refid="structMR_1_1PointCloud_1ab63b94ac2b31f8c2e5b7ee94bcfa2471" kind="function"><name>getLexicographicalOrder</name></member>
     <member refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" kind="function"><name>addPartByMask</name></member>
-    <member refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" kind="function"><name>addPoint</name></member>
-    <member refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" kind="function"><name>addPoint</name></member>
+    <member refid="structMR_1_1PointCloud_1a062a286ba8240f571adaabc6c788dcdd" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="structMR_1_1PointCloud_1a0cbf3a6974c5e59d24276dca0227ab0b" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" kind="function"><name>mirror</name></member>
     <member refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" kind="function"><name>flipOrientation</name></member>
     <member refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" kind="function"><name>pack</name></member>
@@ -12153,12 +12158,16 @@
   <compound refid="classMR_1_1TypedBitSet" kind="class"><name>MR::TypedBitSet</name>
     <member refid="classMR_1_1TypedBitSet_1af6d08ef86011fef8bb77807a324470dc" kind="typedef"><name>base</name></member>
     <member refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kind="typedef"><name>IndexType</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a9ae4f2a018d6eac16ba23a9056e328e4" kind="variable"><name>len</name></member>
+    <member refid="classMR_1_1TypedBitSet_1abdac1bb72f9bbb489416aea5ef3d48b4" kind="variable"><name>val</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a8891857489103a9a56e5cac157615ae9" kind="variable"><name>this</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a1b4061fc4492958adbf2e160b06416a1" kind="variable"><name>val</name></member>
     <member refid="classMR_1_1TypedBitSet_1a160d8a64dbfb6bd0daf545ff7dc45d14" kind="function"><name>TypedBitSet</name></member>
     <member refid="classMR_1_1TypedBitSet_1acea394abbd9a933a8c30dcff23618a19" kind="function"><name>TypedBitSet</name></member>
-    <member refid="classMR_1_1TypedBitSet_1a45519a54bca8b779e3d28914573976e4" kind="function"><name>set</name></member>
-    <member refid="classMR_1_1TypedBitSet_1aa22ea796da263f3c2e2c7e274739372d" kind="function"><name>set</name></member>
-    <member refid="classMR_1_1TypedBitSet_1ad17fe6fa8abe77f9c8278efc75c45378" kind="function"><name>set</name></member>
-    <member refid="classMR_1_1TypedBitSet_1a5e98a6921676543e769cbc42e1d08110" kind="function"><name>set</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a1ce28ea60bf014267ab302af83854330" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="classMR_1_1TypedBitSet_1ab66d66372b26f3d57c61fe5c474dbd9b" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="classMR_1_1TypedBitSet_1ae413cfbec2539660569e30d9f0ee1ebb" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a4d5dda3eb124f77008d653d5c8d290ff" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="classMR_1_1TypedBitSet_1a280c9bf73f9fad3ead31cb2ac888da8e" kind="function"><name>atomicTestSet</name></member>
     <member refid="classMR_1_1TypedBitSet_1a56718438dc2893dac6d917709a0af6aa" kind="function"><name>reset</name></member>
     <member refid="classMR_1_1TypedBitSet_1ae8d95e98e9c75e421fa7b11cac718833" kind="function"><name>reset</name></member>
@@ -12182,10 +12191,7 @@
     <member refid="classMR_1_1TypedBitSet_1ad9dd330c61eb1ba1e9d9de2595f7553e" kind="function"><name>subtract</name></member>
     <member refid="classMR_1_1TypedBitSet_1a52925d5095533a7b638c2cdef31f594a" kind="function"><name>is_subset_of</name></member>
     <member refid="classMR_1_1TypedBitSet_1a05915b74cec96003f0e381fe2472ac6b" kind="function"><name>intersects</name></member>
-    <member refid="classMR_1_1TypedBitSet_1a68171098d647c6f4bce72bdded8ed1e2" kind="function"><name>autoResizeSet</name></member>
-    <member refid="classMR_1_1TypedBitSet_1ac084b6f0e50d9d3d70c694580d4453e1" kind="function"><name>autoResizeSet</name></member>
-    <member refid="classMR_1_1TypedBitSet_1acb1f6a8f6fc880f058586b91e7a28f0f" kind="function"><name>autoResizeTestSet</name></member>
-    <member refid="classMR_1_1TypedBitSet_1ae94c743dc8b5ce0898c5e3e4cbf884d6" kind="function"><name>getMapping</name></member>
+    <member refid="classMR_1_1TypedBitSet_1a3064eba67b2c18af6fe85c9019a7faf9" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="classMR_1_1TypedBitSet_1ae0cd24595367501d92c1d903b48d8719" kind="function"><name>getMapping</name></member>
     <member refid="classMR_1_1TypedBitSet_1af731611c94c36dd23e44c15f8d81127b" kind="function"><name>getMapping</name></member>
     <member refid="classMR_1_1TypedBitSet_1a0f5101ff8af97777e9bac69ed357f6aa" kind="function"><name>getMapping</name></member>
@@ -12500,49 +12506,11 @@
     <member refid="group__GeneralGroup_1gaaa0ee5d98cd26c7e6232195bcda2b459" kind="typedef"><name>const_reference</name></member>
     <member refid="group__GeneralGroup_1ga23a39a0e101ba40e7369b90045cb930d" kind="typedef"><name>iterator</name></member>
     <member refid="group__GeneralGroup_1gad2ec2e50ffddfcbf6168c243fa2da868" kind="typedef"><name>const_iterator</name></member>
-    <member refid="group__GeneralGroup_1gad4c1a76a727c0e52830149df75a87a0f" kind="variable"><name>vec_</name></member>
+    <member refid="group__GeneralGroup_1gaa67407d058ac75b0ff0e4fd21c5bebb8" kind="variable"><name>val</name></member>
+    <member refid="group__GeneralGroup_1ga82fa3e637184fa5213f3203525fa9ada" kind="variable"><name>val</name></member>
     <member refid="group__GeneralGroup_1ga0c68875da8e1de13eb3033e6dcb33bf3" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1gaf899ea32ccf8bf49bb09d834c9d178dd" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1gac68e153a1cf7d72f90f9af6be0555d6e" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1ga68a6c5f7f0cebdd11e11ced071dad1bd" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1ga677df0d98b9a3abfc0733796f1c56c7d" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1ga8f77e1876cab4b371446e7913cb25121" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1gac23bc97fbd4484f943e6ff60af745e75" kind="function"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga9e7dbbc00d422b6370dc679c663c5331" kind="function"><name>operator!=</name></member>
-    <member refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" kind="function"><name>clear</name></member>
-    <member refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" kind="function"><name>empty</name></member>
-    <member refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kind="function"><name>size</name></member>
-    <member refid="group__GeneralGroup_1ga2c8202f5b1a09ebf0bd5a5a3dc2936fd" kind="function"><name>resize</name></member>
-    <member refid="group__GeneralGroup_1gae081234bbf4fef169d61159d617cf5c6" kind="function"><name>resize</name></member>
-    <member refid="group__GeneralGroup_1ga8a23a61e0e9734a4a33ad686080db6b0" kind="function"><name>resizeNoInit</name></member>
-    <member refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" kind="function"><name>capacity</name></member>
-    <member refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kind="function"><name>reserve</name></member>
-    <member refid="group__GeneralGroup_1ga349375d06b5b75e3b26f9587fe0584f5" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga6bae4e482e7ead78efad9465a5ac085d" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga291ed0f8042c268b0aa65b87497daca1" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="group__GeneralGroup_1ga8d2ff338e3ecf6232044e755e5145fde" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" kind="function"><name>autoResizeSet</name></member>
-    <member refid="group__GeneralGroup_1gac42f813829d695e418e088932eacfd6c" kind="function"><name>autoResizeSet</name></member>
-    <member refid="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" kind="function"><name>autoResizeAt</name></member>
-    <member refid="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" kind="function"><name>push_back</name></member>
-    <member refid="group__GeneralGroup_1ga05637c5798b92bebed2ff7a28c610317" kind="function"><name>push_back</name></member>
-    <member refid="group__GeneralGroup_1ga06fae7c424bf43fc3c4cbbf624496400" kind="function"><name>pop_back</name></member>
-    <member refid="group__GeneralGroup_1ga0d377a848db9d73675bc1849a0810eac" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" kind="function"><name>front</name></member>
-    <member refid="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" kind="function"><name>front</name></member>
-    <member refid="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" kind="function"><name>back</name></member>
-    <member refid="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" kind="function"><name>back</name></member>
-    <member refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" kind="function"><name>beginId</name></member>
-    <member refid="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" kind="function"><name>backId</name></member>
-    <member refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" kind="function"><name>endId</name></member>
-    <member refid="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" kind="function"><name>data</name></member>
-    <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" kind="function"><name>data</name></member>
-    <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
-    <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
-    <member refid="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" kind="friend"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" kind="friend"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" kind="friend"><name>end</name></member>
-    <member refid="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" kind="friend"><name>end</name></member>
+    <member refid="group__GeneralGroup_1ga2cfec5e1584dd9df4e72448620afecd6" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga3b3384c862003a03c5a0c42f19d8df77" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
   </compound>
   <compound refid="structMR_1_1Vector2" kind="struct"><name>MR::Vector2</name>
     <member refid="structMR_1_1Vector2_1a7be48c5d4180d89d8038acede661911e" kind="function"><name>distanceSq</name></member>
@@ -12614,9 +12582,12 @@
     <member refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kind="variable"><name>x</name></member>
     <member refid="group__GeneralGroup_1ga4cbb29e67931176028f57f29b2bd6953" kind="variable"><name>y</name></member>
     <member refid="group__GeneralGroup_1gae596ea6de55c00124d84150eadecd455" kind="variable"><name>z</name></member>
+    <member refid="group__GeneralGroup_1ga46afea730f507bed70954bbdb3457eb8" kind="variable"><name>noexcept</name></member>
     <member refid="group__GeneralGroup_1gad8b62d7466c2f210d9618cc9c3fe555f" kind="function"><name>Vector3</name></member>
     <member refid="group__GeneralGroup_1ga8d2060921c3ecd7d080f93c50e1bec51" kind="function"><name>Vector3</name></member>
-    <member refid="group__GeneralGroup_1gaa1b7f648b920d3afcfd29032b79ed8af" kind="function"><name>Vector3</name></member>
+    <member refid="group__GeneralGroup_1gaae6dc9b9d469703114969bff10928505" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga625ddd9d6e39896d113b6da4942f837e" kind="function"><name>y</name></member>
+    <member refid="group__GeneralGroup_1ga517c223ab427bad801cb3975802e7cf5" kind="function"><name>z</name></member>
     <member refid="group__GeneralGroup_1ga9bfdd0e5562d8003259366aedc1074a5" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1ga8b863a75d888921eb316d0faf64e45b7" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1ga91b0398c10d527ac2433b92451a3dfb8" kind="function"><name>operator[]</name></member>
@@ -14160,6 +14131,20 @@
     <member refid="namespaceMR_1a4c95ee49f1806c7573241fe7617401c9" kind="function"><name>moveMeshToVoxelMaxDeriv&lt; VdbVolume &gt;</name></member>
     <member refid="namespaceMR_1a9e77619da9231f0a8ee9ca39edfbaf11" kind="function"><name>moveMeshToVoxelMaxDeriv&lt; SimpleVolumeMinMax &gt;</name></member>
     <member refid="namespaceMR_1af57a9e992da58c4255497330494f5790" kind="function"><name>moveMeshToVoxelMaxDeriv&lt; FunctionVolume &gt;</name></member>
+    <member refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kind="variable"><name>params</name></member>
+    <member refid="group__DistanceMapGroup_1ga1ceb255a1de1a49e02ff03c17ec71350" kind="variable"><name>meshB</name></member>
+    <member refid="group__DistanceMapGroup_1ga69c979e2e86dc19d223ee4f41fb46fea" kind="variable"><name>operation</name></member>
+    <member refid="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" kind="variable"><name>rigidB2A</name></member>
+    <member refid="group__DistanceMapGroup_1ga848e5345e71d79237fb4a0881d2119a8" kind="variable"><name>mapper</name></member>
+    <member refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kind="variable"><name>cb</name></member>
+    <member refid="group__DistanceMapGroup_1ga39152eebf658678f4b4dcf694eaa7e6e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1ga3cd95420eff10d7088c11eaba95708df" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
+    <member refid="group__DistanceMapGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
+    <member refid="group__DistanceMapGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
+    <member refid="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
+    <member refid="group__DistanceMapGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
     <member refid="group__ContourGroup_1ga2781b4d5e5bf7cc617f8a0eba5a524f6" kind="function"><name>convertContourTo2f</name></member>
     <member refid="group__ContourGroup_1gaa4ceecc8e73e44a2e6581d55a462f1ea" kind="function"><name>convertContourTo3f</name></member>
     <member refid="group__ContourGroup_1gaba764c41a940b36b3557d7cfd2dfa4a2" kind="function"><name>convertContourTo2d</name></member>
@@ -14230,14 +14215,6 @@
     <member refid="group__SurfacePathGroup_1gaba6bba9899b4b1a78c2c711d73b92ecd" kind="function"><name>getPathEdgesInPlane</name></member>
     <member refid="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" kind="function"><name>edgePathToContour3f</name></member>
     <member refid="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" kind="function"><name>edgePathsToContours3f</name></member>
-    <member refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kind="function"><name>boolean</name></member>
-    <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
-    <member refid="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" kind="function"><name>boolean</name></member>
-    <member refid="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
-    <member refid="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
-    <member refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
-    <member refid="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
-    <member refid="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
     <member refid="group__DataModelGroup_1gae0171c457a8d377c478e26a0b170456c" kind="function"><name>makeObjectMeshFromFile</name></member>
     <member refid="group__DataModelGroup_1gadd90fc0dc330a520a6dff51ba956a7f1" kind="function"><name>makeObjectFromMeshFile</name></member>
     <member refid="group__DataModelGroup_1gac9dd077808aa46ace7e81ce139b9059a" kind="function"><name>makeObjectLinesFromFile</name></member>
@@ -14662,9 +14639,18 @@
     <member refid="group__ConstantsGroup_1ga415e7be5800fdfbcd56d4dcb21e6e1f4" kind="variable"><name>PI2</name></member>
     <member refid="group__ConstantsGroup_1gae00cfb986e1a28fc4d521d5a0666b31b" kind="variable"><name>PI_F</name></member>
     <member refid="group__ConstantsGroup_1gacad362d32c6fa4936e463a6c211583ac" kind="variable"><name>PI2_F</name></member>
+    <member refid="group__DistanceMapGroup_1ga80af23d6afb6730de0589211dc06002d" kind="variable"><name>isoValue</name></member>
+    <member refid="group__DistanceMapGroup_1ga08cc3c144188eeeba21b46af5590db82" kind="variable"><name>pixelSize</name></member>
     <member refid="namespaceMR_1aca010840c751d4c7b1a30bcd55fe5cdd" kind="variable"><name>AllFilter</name></member>
     <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
     <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
+    <member refid="group__AABBTreeGroup_1gaa740ea677f280fb2ec7aa62f36ae0e6e" kind="variable"><name>outCollidingPairs</name></member>
+    <member refid="group__AABBTreeGroup_1ga8e29498b56ebbbc50f4e1f619dde6a1e" kind="variable"><name>regionMap</name></member>
+    <member refid="group__AABBTreeGroup_1ga98036eae0d382183e4906ce403547cce" kind="variable"><name>touchIsIntersection</name></member>
+    <member refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kind="variable"><name>b</name></member>
+    <member refid="group__AABBTreeGroup_1ga05ee3dfec69d22b27853602f59f0e9eb" kind="variable"><name>conv</name></member>
+    <member refid="group__AABBTreeGroup_1gaa557fa48b4991f28ca7d45c7747c3a52" kind="variable"><name>anyIntersection</name></member>
+    <member refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1gaaa8f63a4fb4dcabf0f8f1dc79cdeee90" kind="variable"><name>noInit</name></member>
     <member refid="group__GeneralGroup_1gae14e1033b3de0c30a6bb404e940dc424" kind="variable"><name>NoDefInit</name></member>
     <member refid="group__GeneralGroup_1gac8c2508941fcd4ad714cdf50c45aa41c" kind="variable"><name>EdgeTag</name></member>
@@ -14763,10 +14749,19 @@
     <member refid="group__GeneralGroup_1ga78658d7e2559b2c2ecccd1003dc75e04" kind="variable"><name>ChangeSceneAction</name></member>
     <member refid="group__GeneralGroup_1gac090ec24cc989c66ab1dbc182cb43c87" kind="variable"><name>dependent_false</name></member>
     <member refid="group__FillHoleGroup_1gad6e60cb1116257e53229b6ee7ee22351" kind="variable"><name>BadTriangulationMetric</name></member>
+    <member refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kind="variable"><name>points</name></member>
+    <member refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kind="variable"><name>settings</name></member>
     <member refid="group__HistoryGroup_1gad99fa852d419f9e626ea9fa47d4c7884" kind="variable"><name>cmpOld</name></member>
     <member refid="group__HistoryGroup_1ga66d1f6caeb3fa983f8d823d501d10cc3" kind="variable"><name>setNew</name></member>
+    <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
+    <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
+    <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
+    <member refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kind="variable"><name>mesh</name></member>
     <member refid="group__DistanceMapGroup_1gaf0cff421c4d16669d4c549f214bb8477" kind="variable"><name>allOutEdges2</name></member>
     <member refid="group__DistanceMapGroup_1ga1fe8adc8eeed5eae0d5217546cb26d59" kind="variable"><name>OutEdge2Count</name></member>
+    <member refid="group__GeneralGroup_1ga0cf5fcc5efe63eaf86bbda721b7041c4" kind="variable"><name>faces</name></member>
+    <member refid="group__GeneralGroup_1ga018938df5d34ea1035a4d0c57d9f9708" kind="variable"><name>store</name></member>
+    <member refid="group__GeneralGroup_1gabbe25ce79dd85635294b1687bb4bdc72" kind="variable"><name>edges</name></member>
     <member refid="group__GeneralGroup_1gafc52ca9c641e143b043d33a56cb36376" kind="variable"><name>TelemetrySignal</name></member>
     <member refid="group__VolumeIndexerGroup_1ga2f359b8ca6ad382c364a49777f193ba0" kind="variable"><name>all6Edges</name></member>
     <member refid="group__VolumeIndexerGroup_1gab35bebc2eedde9b1262043f5242f3ebf" kind="variable"><name>OutEdgeCount</name></member>
@@ -15033,10 +15028,8 @@
     <member refid="group__DistanceMapGroup_1ga0c9486d9b44ae47b12824b99e28b0a93" kind="function"><name>distanceMapFromContours</name></member>
     <member refid="group__DistanceMapGroup_1gae7e25fed5029c03aec12173cbf641fc7" kind="function"><name>distanceMapFromContours</name></member>
     <member refid="group__DistanceMapGroup_1ga9ee4d06d74d77a647a2858fba8cebdb3" kind="function"><name>edgePointsFromContours</name></member>
-    <member refid="group__DistanceMapGroup_1gaa693ceaf7bf9d2dc2728807f26d6e12a" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-    <member refid="group__DistanceMapGroup_1ga54c8f32aafa8f7d85f1839635e080609" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-    <member refid="group__DistanceMapGroup_1gaf8e4c5b69b7ff64356b8fe6d7d73583e" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-    <member refid="group__DistanceMapGroup_1ga40f0ce955b843b2257a05a5ee11d7e93" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
+    <member refid="group__DistanceMapGroup_1ga73d46de92d0aa806267918fa4d211d1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1ga867028ba328a8652452d4ce44c02e953" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__DistanceMapGroup_1gacffe5f45914f7b6f7d4fbd8a17c3bd0d" kind="function"><name>polylineOffset</name></member>
     <member refid="group__DistanceMapGroup_1gaa2524cfec596759a4205736303d71c32" kind="function"><name>contourUnion</name></member>
     <member refid="group__DistanceMapGroup_1ga77440735adb40e169512805b388d02ff" kind="function"><name>contourIntersection</name></member>
@@ -15248,21 +15241,16 @@
     <member refid="group__MeshAlgorithmGroup_1ga85f120484f51a420267e45c05af90e90" kind="function"><name>straightenBoundary</name></member>
     <member refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" kind="function"><name>findCollidingTriangles</name></member>
     <member refid="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" kind="function"><name>findCollidingTriangleBitsets</name></member>
-    <member refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kind="function"><name>findSelfCollidingTriangles</name></member>
-    <member refid="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" kind="function"><name>findSelfCollidingTriangles</name></member>
-    <member refid="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
+    <member refid="group__AABBTreeGroup_1ga0ac9111663ef8ecf7fd92ee1a3f4ac21" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__AABBTreeGroup_1ga9f1a6f0ff1926c81193564f7862bf4a4" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
     <member refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kind="function"><name>isInside</name></member>
     <member refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
     <member refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" kind="function"><name>operator==</name></member>
-    <member refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="group__AABBTreeGroup_1ga91e422710464a72aa3c6bb6894527e72" kind="function"><name>updateCollidingEdgeTrisPrecise</name></member>
     <member refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
-    <member refid="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" kind="function"><name>getVectorConverters</name></member>
-    <member refid="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" kind="function"><name>getVectorConverters</name></member>
+    <member refid="group__AABBTreeGroup_1gad280ccdb7115e8f158eb8ee48847680e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kind="function"><name>decimateMesh</name></member>
     <member refid="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" kind="function"><name>decimateObjectMeshData</name></member>
     <member refid="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" kind="function"><name>makeDecimatedObjectMeshData</name></member>
@@ -15296,9 +15284,8 @@
     <member refid="group__MeshEigenGroup_1gaedf452a3921d36f5597817800bd3b55d" kind="function"><name>topologyToEigen</name></member>
     <member refid="group__MeshEigenGroup_1ga24bf8eab6bf0c1eed0bb93ca8668237d" kind="function"><name>meshToEigen</name></member>
     <member refid="group__GeneralGroup_1gadd5038dba629ab9f09789d2855c2aa73" kind="function"><name>makeDegenerateBandAroundRegion</name></member>
-    <member refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kind="function"><name>stitchHoles</name></member>
     <member refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
-    <member refid="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" kind="function"><name>stitchHoles</name></member>
+    <member refid="group__FillHoleGroup_1gaa9b4fc2c3c8176dafe70ab92f9a03dc8" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
     <member refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kind="function"><name>fillHole</name></member>
     <member refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kind="function"><name>fillHoles</name></member>
@@ -15564,8 +15551,7 @@
     <member refid="group__FillHoleGroup_1ga202cf2363d92c6bb9820b0726c95a52f" kind="function"><name>getMinAreaMetric</name></member>
     <member refid="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" kind="function"><name>getCloseSurfaceFillMetric</name></member>
     <member refid="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" kind="function"><name>mixMetrics</name></member>
-    <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
-    <member refid="group__MeshNormalsGroup_1ga22889800cd6e0b2ebbc550783da6eff7" kind="function"><name>computePerFaceNormals</name></member>
+    <member refid="group__MeshNormalsGroup_1ga07aac16e40bfab860a310d0c96627135" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
     <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
     <member refid="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" kind="function"><name>computePerVertPseudoNormals</name></member>
@@ -15585,8 +15571,6 @@
     <member refid="group__AABBTreeGroup_1ga90634a0c0496ed8f339298a566260e68" kind="function"><name>findBoxedTrisInBall</name></member>
     <member refid="group__AABBTreeGroup_1ga1d649a36ab13b6d880081a27f17b87dc" kind="function"><name>findTrisInBall</name></member>
     <member refid="group__AABBTreeGroup_1gaa589ad702e6b1f7b5abcdba92a673997" kind="function"><name>findSignedDistance</name></member>
-    <member refid="group__MeshRelaxGroup_1gae33b27e64fe5ab346333589e6564abee" kind="function"><name>relax</name></member>
-    <member refid="group__MeshRelaxGroup_1ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e" kind="function"><name>relax</name></member>
     <member refid="group__MeshRelaxGroup_1ga11a3c4423d57bdec0536c0916269613c" kind="function"><name>vertexPosEqualNeiAreas</name></member>
     <member refid="group__MeshRelaxGroup_1gafbd4050c45f9441d53f08ae512d5b495" kind="function"><name>vertexPosEqualNeiAreas</name></member>
     <member refid="group__MeshRelaxGroup_1ga0b7b12e3abc437cc721146292d65991b" kind="function"><name>equalizeTriAreas</name></member>
@@ -15637,8 +15621,7 @@
     <member refid="group__GeneralGroup_1ga1954e92c2b9fe2316cbf33d72e75d527" kind="function"><name>denoiseNormals</name></member>
     <member refid="group__GeneralGroup_1ga7ffe0a021107f569b3ffa018da32e9b2" kind="function"><name>updateIndicator</name></member>
     <member refid="group__GeneralGroup_1gab54d26f09a8a2f95888858cfdcdd347c" kind="function"><name>updateIndicatorFast</name></member>
-    <member refid="group__GeneralGroup_1ga6883a12f4f393ed08b4e93f7bf0be84a" kind="function"><name>meshDenoiseViaNormals</name></member>
-    <member refid="group__GeneralGroup_1gac335a53bfd7d287604c31298e1b5a43b" kind="function"><name>meshDenoiseViaNormals</name></member>
+    <member refid="group__GeneralGroup_1ga94c8414ad4bf06b5f17dfec5060a2ce3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1gaf1d0eee1758bde49f19146f8ca980be8" kind="function"><name>meshDenoiseWithCreases</name></member>
@@ -15717,7 +15700,7 @@
     <member refid="group__PointCloudGroup_1gad170a186634adcea1422a0bcb701584d" kind="function"><name>findAvgPointsRadius</name></member>
     <member refid="group__GeneralGroup_1gabb21b4a984eeae29a269f729ed5c3979" kind="function"><name>dilateRegion</name></member>
     <member refid="group__GeneralGroup_1ga3d766f3fa624850ad0eb7a31efa6433f" kind="function"><name>erodeRegion</name></member>
-    <member refid="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" kind="function"><name>relax</name></member>
+    <member refid="group__PointCloudGroup_1gaccd91f9d5a08418da1f899a4b2026e4b" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" kind="function"><name>relaxKeepVolume</name></member>
     <member refid="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" kind="function"><name>relaxApprox</name></member>
     <member refid="group__PointCloudTriangulationGroup_1gad8757f0b892706f56491e2b0a5a016d8" kind="function"><name>triangulatePointCloud</name></member>
@@ -15742,8 +15725,7 @@
     <member refid="group__AABBTreeGroup_1ga435f633cd74c790a6f22a06436182137" kind="function"><name>findFewClosestPoints</name></member>
     <member refid="group__AABBTreeGroup_1ga62582619bf0581f79f510b9d98928762" kind="function"><name>findNClosestPointsPerPoint</name></member>
     <member refid="group__AABBTreeGroup_1ga32485df4ed1f18a0b4315756a69ff792" kind="function"><name>findTwoClosestPoints</name></member>
-    <member refid="group__GeneralGroup_1gaf70fbc3926faabd14d6e8b2a2f3e3f64" kind="function"><name>findSignedDistances</name></member>
-    <member refid="group__GeneralGroup_1ga79c9901bf0bf90470274e88ac9ded1d5" kind="function"><name>findSignedDistances</name></member>
+    <member refid="group__GeneralGroup_1ga1de7b11758eb43eb8c68a66149c3c14e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__AABBTreeGroup_1ga557c3d2fa026be12ba0a5f6c8813da41" kind="function"><name>findCollidingEdgePairs</name></member>
     <member refid="group__AABBTreeGroup_1ga24ed7e965fcb7ada110eb1d9919999f9" kind="function"><name>findCollidingEdges</name></member>
     <member refid="group__AABBTreeGroup_1gac15d4a03ef6c224fff28d48fc239c17c" kind="function"><name>findCollidingEdgesBitsets</name></member>
@@ -15853,8 +15835,7 @@
     <member refid="group__GeneralGroup_1ga25e4628987fb45fbedf8ebcb4327c4d2" kind="function"><name>findLeftBoundaryInsideMesh</name></member>
     <member refid="group__GeneralGroup_1gad3a38eb65db7e1c0b80715ca70e92e5c" kind="function"><name>findRegionBoundaryUndirectedEdgesInsideMesh</name></member>
     <member refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kind="function"><name>findRegionOuterFaces</name></member>
-    <member refid="group__GeneralGroup_1ga1bf573dc61dc6ba97a3e8a4bc9028c2e" kind="function"><name>getIncidentVerts</name></member>
-    <member refid="group__GeneralGroup_1ga1c24193ec72b494c106fad689c5c5c32" kind="function"><name>getIncidentVerts</name></member>
+    <member refid="group__GeneralGroup_1ga2666947390978d2d8aa387e33cc8699c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" kind="function"><name>getInnerVerts</name></member>
     <member refid="group__GeneralGroup_1ga6f38b74b3e7d5e776f98e2f88bb48006" kind="function"><name>getInnerVerts</name></member>
     <member refid="group__GeneralGroup_1gaf2cf93d2c7ffbf6ae4821220390574fd" kind="function"><name>getBoundaryVerts</name></member>
@@ -15865,12 +15846,12 @@
     <member refid="group__GeneralGroup_1ga8e8ba4975b219200687bca5ed2a7ab6a" kind="function"><name>getRegionEdges</name></member>
     <member refid="group__GeneralGroup_1ga7c62678a98f7bc518805bd7a677d6674" kind="function"><name>getIncidentEdges</name></member>
     <member refid="group__GeneralGroup_1ga36ed48a6aab7607a3983c5492c50e22c" kind="function"><name>getIncidentEdges</name></member>
-    <member refid="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" kind="function"><name>getIncidentVerts</name></member>
+    <member refid="group__GeneralGroup_1ga9ae614a46609b519105b81bee3848ca0" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" kind="function"><name>getIncidentFaces</name></member>
     <member refid="group__GeneralGroup_1gab23fc7120dab6b7ab49bdc965bfdb9f5" kind="function"><name>getNeighborFaces</name></member>
     <member refid="group__GeneralGroup_1ga14cc03346c7b6c8e0f2fb75ab7865cd1" kind="function"><name>getInnerEdges</name></member>
     <member refid="group__GeneralGroup_1gac1f4537bd1f66f8d1fd1b74dc72b29c8" kind="function"><name>getInnerEdges</name></member>
-    <member refid="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" kind="function"><name>getIncidentVerts</name></member>
+    <member refid="group__GeneralGroup_1ga88851d68af903e1acabcb1c58279b4be" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" kind="function"><name>getInnerVerts</name></member>
     <member refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kind="function"><name>makeRegularGridMesh</name></member>
     <member refid="group__GeneralGroup_1gaae27e6fa67b4e0d5a59574d504d53a61" kind="function"><name>makeRegularGridMesh</name></member>
@@ -16865,6 +16846,10 @@
   </compound>
   <compound refid="namespaceMR_1_1MeshBuilder" kind="namespace"><name>MR::MeshBuilder</name>
     <member refid="group__GeneralGroup_1gaae1698e7265ea3826cd2442fae545416" kind="typedef"><name>BetterDupContinuation</name></member>
+    <member refid="group__GeneralGroup_1ga23b7741683f546f6f6f7cc9e01268a35" kind="variable"><name>closeDist</name></member>
+    <member refid="group__GeneralGroup_1ga5a25563874c1189777a31e5494f28f29" kind="variable"><name>uniteOnlyBd</name></member>
+    <member refid="group__GeneralGroup_1ga29b93496214c0e773af29f717a45304d" kind="variable"><name>optionalVertOldToNew</name></member>
+    <member refid="group__GeneralGroup_1gabea2a6a01fbeedb07cfeef9283e8c34a" kind="variable"><name>params</name></member>
     <member refid="group__GeneralGroup_1ga3851088244e23053e194bb0bcd9e5700" kind="function"><name>fromTriangles</name></member>
     <member refid="group__GeneralGroup_1gac85a71548f3100e3b6dec18adaab539d" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
     <member refid="group__GeneralGroup_1ga1d81a265f58e40e49884915932ef03cc" kind="function"><name>fromPointTriples</name></member>
@@ -16873,14 +16858,18 @@
     <member refid="group__GeneralGroup_1gaddfd35d380df5345cbda74b4bdfeff6f" kind="function"><name>addTriangles</name></member>
     <member refid="group__GeneralGroup_1gabb87fb2cc9c28dca88cac5adbb077bc2" kind="function"><name>fromFaceSoup</name></member>
     <member refid="group__GeneralGroup_1gaf14db16fd78b08d340b0a0aaa94907c9" kind="function"><name>computeTrianglesRepetitions</name></member>
-    <member refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kind="function"><name>uniteCloseVertices</name></member>
-    <member refid="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" kind="function"><name>uniteCloseVertices</name></member>
+    <member refid="group__GeneralGroup_1gaa025e5add547573085ebcafb05da4759" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga82376a94925cb41439befe12e547b3c3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga7454d25501e5125b48c8dc0d68bdfa2b" kind="function"><name>duplicateNonManifoldVertices</name></member>
     <member refid="group__GeneralGroup_1ga2058ddb2325a81e9a96e54f834eea5d6" kind="function"><name>inspectVertNeighbourhood</name></member>
   </compound>
   <compound refid="namespaceMR_1_1MeshComponents" kind="namespace"><name>MR::MeshComponents</name>
     <member refid="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" kind="enum"><name>FaceIncidence</name></member>
     <member refid="group__MeshComponentsGroup_1gad136d40567d48c0a0e9668c5daf797b9" kind="enum"><name>VolumeSelection</name></member>
+    <member refid="group__MeshComponentsGroup_1ga06cd0d2739807ac1817e21714a77b155" kind="variable"><name>minArea</name></member>
+    <member refid="group__MeshComponentsGroup_1ga291282746acb01b0a8f0add1c741eca7" kind="variable"><name>isCompBd</name></member>
+    <member refid="group__MeshComponentsGroup_1ga7bf3e0737aecb4b63a527d014b0bea83" kind="variable"><name>unionFind</name></member>
+    <member refid="group__MeshComponentsGroup_1ga4280eb57f55729dc5222991eecc3cf84" kind="variable"><name>outBdEdgesBetweenLargeComps</name></member>
     <member refid="group__MeshComponentsGroup_1ga823ed70b2a3f8987017e57cbc9ae2789" kind="function"><name>getComponent</name></member>
     <member refid="group__MeshComponentsGroup_1ga75b5490074101f02a07ffafbe1d42d12" kind="function"><name>getComponentVerts</name></member>
     <member refid="group__MeshComponentsGroup_1ga80cae558467e7bd7f1653b46bb13948f" kind="function"><name>getLargestComponentVerts</name></member>
@@ -16890,9 +16879,9 @@
     <member refid="group__MeshComponentsGroup_1ga15d5de6ff738635f4d805cf6e8581aaa" kind="function"><name>getLargestComponentVolume</name></member>
     <member refid="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" kind="function"><name>getComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga96e3045fbc7e35b4c183ed1fdb98850b" kind="function"><name>getComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kind="function"><name>getLargeByAreaComponents</name></member>
+    <member refid="group__MeshComponentsGroup_1gaf6b68cea12137d44fb03418c5f46ddce" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshComponentsGroup_1ga6ce22d1ba91640724f2871328726b18a" kind="function"><name>getLargeByVolumeComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" kind="function"><name>getLargeByAreaComponents</name></member>
+    <member refid="group__MeshComponentsGroup_1gabdbe4987630c4fa59a495242098b8885" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshComponentsGroup_1ga8f7b3aea1e17934f892932ac212a71f2" kind="function"><name>expandToComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga23b859fdd8b110e1159c392f9f891f77" kind="function"><name>getNLargeByAreaComponents</name></member>
     <member refid="group__MeshComponentsGroup_1gafd9d69cd8ee018f61cfec8cdfe055f95" kind="function"><name>getLargeByAreaSmoothComponents</name></member>
@@ -16957,8 +16946,8 @@
     <member refid="namespaceMR_1_1MeshLoad_1a276f38ac4f57c6a34b02b9644d7324fe" kind="function"><name>fromPly</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1a0889ea8de881e47d230b6958335bcd64" kind="function"><name>fromDxf</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1a237ce93a6f674962c499c791476e1839" kind="function"><name>fromDxf</name></member>
-    <member refid="namespaceMR_1_1MeshLoad_1aa115a0d8b8efd585125c07693565388b" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="namespaceMR_1_1MeshLoad_1a78e3652043b5c14b69d5b91e83061f81" kind="function"><name>fromAnySupportedFormat</name></member>
+    <member refid="namespaceMR_1_1MeshLoad_1a3156ac4339435553ca2d33f1668a3bcd" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="namespaceMR_1_1MeshLoad_1a8d59a9bfff2f3755e414457d1b8fb11e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1a56ffb5ceb885e2f5e2b965ce19ba299f" kind="function"><name>telemetryLogSize</name></member>
     <member refid="group__MeshLoadObjGroup_1ga78eb3db4a38b8df457c09a8f74b126a3" kind="function"><name>fromSceneObjFile</name></member>
     <member refid="group__MeshLoadObjGroup_1ga084c68bf6ed27f70de50de85900bd2bc" kind="function"><name>fromSceneObjFile</name></member>
@@ -16968,6 +16957,10 @@
   <compound refid="namespaceMR_1_1MeshSave" kind="namespace"><name>MR::MeshSave</name>
     <member refid="namespaceMR_1_1MeshSave_1a44ae097f41a9722d0110ffb971ba7ce0" kind="typedef"><name>MeshFileSaver</name></member>
     <member refid="namespaceMR_1_1MeshSave_1a7e16b086c414a0768e241ea5f21ca9b6" kind="typedef"><name>MeshStreamSaver</name></member>
+    <member refid="group__MeshSaveGroup_1ga98aef4649d53f623906c635ff1aaf18e" kind="variable"><name>file</name></member>
+    <member refid="group__MeshSaveGroup_1ga88dc6322aa89f4d0a7eaf376cbde3ad6" kind="variable"><name>settings</name></member>
+    <member refid="group__MeshSaveGroup_1ga60011c108fbbc4bb220fea7dbfc53a36" kind="variable"><name>extension</name></member>
+    <member refid="group__MeshSaveGroup_1ga16eb575515438064d98e1410a7574895" kind="variable"><name>out</name></member>
     <member refid="group__GeneralGroup_1ga6482d0b63851221c94c50665e4bbb4b9" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga61be7630e83bc41780d3e40c1dfb1351" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga0ac906684f9be8595fe62ce6ced0e1c8" kind="function"><name>toCtm</name></member>
@@ -16995,8 +16988,8 @@
     <member refid="group__MeshSaveGroup_1gac7864ffe508d7d2a043b6e5006080939" kind="function"><name>toModel3mf</name></member>
     <member refid="group__MeshSaveGroup_1gaa35cc232c4f90c198d7e92339daee858" kind="function"><name>toModel3mf</name></member>
     <member refid="group__MeshSaveGroup_1ga8c9353b4703d4a74cbc6abf109e2f329" kind="function"><name>to3mf</name></member>
-    <member refid="group__MeshSaveGroup_1ga8c3547484d9f9d64e8d1d967225e190f" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="group__MeshSaveGroup_1gae312c46875e32db543db5c77bdc1d1df" kind="function"><name>toAnySupportedFormat</name></member>
+    <member refid="group__MeshSaveGroup_1gaa05bdb5fed13993e770d0f517a729412" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__MeshSaveGroup_1gac21be5be1e9ae00a0510430749be9f51" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshSaveObjGroup_1ga1a5490e813e3e91930caa8d81073f715" kind="function"><name>sceneToObj</name></member>
     <member refid="group__MeshSaveObjGroup_1ga72979120d0709cf01e854d8d25814a5c" kind="function"><name>sceneToObj</name></member>
   </compound>
@@ -17068,13 +17061,17 @@
     <member refid="group__IOGroup_1ga80e4f60af0a019706ae5488aa2d1acb2" kind="function"><name>fromObj</name></member>
     <member refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" kind="function"><name>fromDxf</name></member>
     <member refid="group__IOGroup_1ga72bf2e744527a6f283dc17ddb3f49317" kind="function"><name>fromDxf</name></member>
-    <member refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="group__IOGroup_1gaecd3b7671e06c949d93c808ec95506f7" kind="function"><name>fromAnySupportedFormat</name></member>
+    <member refid="group__IOGroup_1ga211fda8baf23a249ac231793c2848373" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__IOGroup_1ga8aa3f213c68acbefae62997111264010" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__IOGroup_1ga56f3c968fa0da7592fff9bf39304344e" kind="function"><name>telemetryLogSize</name></member>
   </compound>
   <compound refid="namespaceMR_1_1PointsSave" kind="namespace"><name>MR::PointsSave</name>
     <member refid="namespaceMR_1_1PointsSave_1a356417aed0685b9e9741744f7b357eba" kind="typedef"><name>PointsFileSaver</name></member>
     <member refid="namespaceMR_1_1PointsSave_1a1c0d45a07ed1828ee0d1190c6ca69cab" kind="typedef"><name>PointsStreamSaver</name></member>
+    <member refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kind="variable"><name>file</name></member>
+    <member refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kind="variable"><name>settings</name></member>
+    <member refid="group__PointsSaveGroup_1ga31507bdc39de3cd5dbe1a0038cd6f56d" kind="variable"><name>extension</name></member>
+    <member refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kind="variable"><name>out</name></member>
     <member refid="group__GeneralGroup_1ga24d5809ee70d11aeeb25a036234a5e2c" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1gae7775f44d52949b8d06ef0d096de8863" kind="function"><name>toCtm</name></member>
     <member refid="group__GeneralGroup_1ga898d2d11a740e4045732fea8bcaf73cd" kind="function"><name>toCtm</name></member>
@@ -17091,8 +17088,8 @@
     <member refid="group__PointsSaveGroup_1ga0038543a33756a47ca1091efe038b8b6" kind="function"><name>toAsc</name></member>
     <member refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kind="function"><name>toPly</name></member>
     <member refid="group__PointsSaveGroup_1ga93de8bb7c42d48456a16be2813cbd14a" kind="function"><name>toPly</name></member>
-    <member refid="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="group__PointsSaveGroup_1ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f" kind="function"><name>toAnySupportedFormat</name></member>
+    <member refid="group__PointsSaveGroup_1gaf3db0c1382a48e811765551be79a0a39" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__PointsSaveGroup_1ga143900205dead299f60c684ef6b8817a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
   </compound>
   <compound refid="namespaceMR_1_1PolylineComponents" kind="namespace"><name>MR::PolylineComponents</name>
     <member refid="group__GeneralGroup_1gabec2d7d813f0159e3532c158410ca712" kind="function"><name>getNumComponents</name></member>
@@ -17476,15 +17473,18 @@
   </compound>
   <compound refid="namespaceMR_1_1WeightedShell" kind="namespace"><name>MR::WeightedShell</name>
     <member refid="namespaceMR_1_1WeightedShell_1ad2ba4e4f0e0175fc0608e172a0619984" kind="typedef"><name>meshToDistanceVolumeT</name></member>
+    <member refid="namespaceMR_1_1WeightedShell_1a0d6f5aa3e2803f42c36c469f54c762bf" kind="variable"><name>vertWeights</name></member>
+    <member refid="namespaceMR_1_1WeightedShell_1a0b2dea08ba80d4e80dcf5be93e0ce706" kind="variable"><name>params</name></member>
+    <member refid="namespaceMR_1_1WeightedShell_1aaaf8a52d4a487d149e4ae02a7317ccd8" kind="variable"><name>volumeBuilder</name></member>
     <member refid="namespaceMR_1_1WeightedShell_1ad1ffa222355f35085c885b87e8d27df8" kind="function"><name>pointsToDistanceVolume</name></member>
     <member refid="namespaceMR_1_1WeightedShell_1a1828e77e08ab2c06e1b4bffe5866270f" kind="function"><name>meshToDistanceVolume</name></member>
     <member refid="namespaceMR_1_1WeightedShell_1a2d9e4d1c9f007cc1087818a3740c5653" kind="function"><name>pointsShell</name></member>
     <member refid="namespaceMR_1_1WeightedShell_1a27dc07084bd9d7ba531af503ee26ecaa" kind="function"><name>pointsShell</name></member>
     <member refid="namespaceMR_1_1WeightedShell_1a6c11500f809bc486096500b727e6cbbe" kind="function"><name>meshShell</name></member>
-    <member refid="namespaceMR_1_1WeightedShell_1aa73cc71df322e6863d94e7f237875475" kind="function"><name>meshShell</name></member>
+    <member refid="namespaceMR_1_1WeightedShell_1a63de0b6d59010041133de78641678b6d" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="namespaceMR_1_1WeightedShell_1a521af3e40765a04b00069fa14da9a3fa" kind="function"><name>calculateShellWeightsFromRegions</name></member>
-    <member refid="namespaceMR_1_1WeightedShell_1a31f9c85adfd5e2b5553fb5dcb97384f0" kind="function"><name>meshShell</name></member>
-    <member refid="namespaceMR_1_1WeightedShell_1a8154f94a6793c43fd049a5bf549bf75f" kind="function"><name>meshShell</name></member>
+    <member refid="namespaceMR_1_1WeightedShell_1a738e972170d976f713b039f87d68ad09" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="namespaceMR_1_1WeightedShell_1a54afa8bb7c49d05901fce752e9cdd510" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
   </compound>
   <compound refid="namespaceopenvdb" kind="namespace"><name>openvdb</name>
   </compound>
@@ -19250,6 +19250,7 @@
     <member refid="group__ConversionBetween2and3dimGroup_1ga4a844799c3d17d7ef03c8fbd4e8546b6" kind="function"><name>to2dim</name></member>
   </compound>
   <compound refid="group__AABBTreeGroup" kind="group"><name>AABBTreeGroup</name>
+    <member refid="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" kind="variable"><name>rigidB2A</name></member>
     <member refid="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" kind="enum"><name>ProcessOneResult</name></member>
     <member refid="group__AABBTreeGroup_1gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612" kind="enumvalue"><name>StopProcessing</name></member>
     <member refid="group__AABBTreeGroup_1gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e" kind="enumvalue"><name>ContinueProcessing</name></member>
@@ -19280,6 +19281,11 @@
     <member refid="group__AABBTreeGroup_1gac2b944209dd41b786a30b1d537639470" kind="typedef"><name>FoundEdgeCallback</name></member>
     <member refid="group__AABBTreeGroup_1ga5e0d9af4be57927671a26f2c4588a515" kind="typedef"><name>FoundEdgeCallback2</name></member>
     <member refid="group__AABBTreeGroup_1ga865abfe228b7d60d582d2c6ce24ffb19" kind="typedef"><name>FoundEdgeCallback3</name></member>
+    <member refid="group__AABBTreeGroup_1gaa740ea677f280fb2ec7aa62f36ae0e6e" kind="variable"><name>outCollidingPairs</name></member>
+    <member refid="group__AABBTreeGroup_1ga8e29498b56ebbbc50f4e1f619dde6a1e" kind="variable"><name>regionMap</name></member>
+    <member refid="group__AABBTreeGroup_1ga98036eae0d382183e4906ce403547cce" kind="variable"><name>touchIsIntersection</name></member>
+    <member refid="group__AABBTreeGroup_1ga05ee3dfec69d22b27853602f59f0e9eb" kind="variable"><name>conv</name></member>
+    <member refid="group__AABBTreeGroup_1gaa557fa48b4991f28ca7d45c7747c3a52" kind="variable"><name>anyIntersection</name></member>
     <member refid="group__AABBTreeGroup_1ga3c1bb6417aaa769fa4156f2edac91749" kind="function"><name>getNumNodes</name></member>
     <member refid="group__AABBTreeGroup_1ga364302ddaf673e7f00c6745f4172d6c0" kind="function"><name>makeAABBTreeNodeVec</name></member>
     <member refid="group__AABBTreeGroup_1ga47032a5f420080191bd8d3600c3c24ef" kind="function"><name>getNumNodesPoints</name></member>
@@ -19294,21 +19300,16 @@
     <member refid="group__AABBTreeGroup_1ga562052fddd56327be07ffe8c0cc7f7af" kind="function"><name>findMaxVectorDim</name></member>
     <member refid="group__AABBTreeGroup_1ga6e40cae7759017db4116172d739d174d" kind="function"><name>findCollidingTriangles</name></member>
     <member refid="group__AABBTreeGroup_1ga8defd1b47b126123f3cf99c68e771ea0" kind="function"><name>findCollidingTriangleBitsets</name></member>
-    <member refid="group__AABBTreeGroup_1ga8311349cbf854a8a56407def83e4342d" kind="function"><name>findSelfCollidingTriangles</name></member>
-    <member refid="group__AABBTreeGroup_1ga8fb534af9cf7d272a2addab053665534" kind="function"><name>findSelfCollidingTriangles</name></member>
-    <member refid="group__AABBTreeGroup_1gaa34db2c0df1550c7f166893dbf581953" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
+    <member refid="group__AABBTreeGroup_1ga0ac9111663ef8ecf7fd92ee1a3f4ac21" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__AABBTreeGroup_1ga9f1a6f0ff1926c81193564f7862bf4a4" kind="function"><name>findSelfCollidingTrianglesBS</name></member>
     <member refid="group__AABBTreeGroup_1ga7892dab0d0fdaed07c3c16c0b4ccc6e9" kind="function"><name>isInside</name></member>
     <member refid="group__AABBTreeGroup_1ga20e0c10db7c46b127cf4b5446101f894" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="group__AABBTreeGroup_1gac22748b9e5c563d95321d66315116084" kind="function"><name>isNonIntersectingInside</name></member>
     <member refid="group__AABBTreeGroup_1ga908e44352951a11a559011e12312a299" kind="function"><name>isNonIntersectingInsidePrecise</name></member>
     <member refid="group__AABBTreeGroup_1ga8f7cfd40975f9648e9785f72d75ff92d" kind="function"><name>operator==</name></member>
-    <member refid="group__AABBTreeGroup_1ga7b104a00c60718368c988029510bf8ba" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
     <member refid="group__AABBTreeGroup_1ga91e422710464a72aa3c6bb6894527e72" kind="function"><name>updateCollidingEdgeTrisPrecise</name></member>
     <member refid="group__AABBTreeGroup_1gaa06a012aef3a0273d36e471fda3beb02" kind="function"><name>findSelfCollidingEdgeTrisPrecise</name></member>
-    <member refid="group__AABBTreeGroup_1ga2194d3a8c576623325dfcb218caed7e0" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="group__AABBTreeGroup_1ga8e605b47552994f921a55bf1c5eed7e4" kind="function"><name>findCollidingEdgeTrisPrecise</name></member>
-    <member refid="group__AABBTreeGroup_1ga057f5379e01790297fec3ffe2573986e" kind="function"><name>getVectorConverters</name></member>
-    <member refid="group__AABBTreeGroup_1ga55c0d6a31ffafbd8b8283f2a5aa70fb2" kind="function"><name>getVectorConverters</name></member>
+    <member refid="group__AABBTreeGroup_1gad280ccdb7115e8f158eb8ee48847680e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__AABBTreeGroup_1ga751dcb67fc6f5cf0f46116fcf9cefd9c" kind="function"><name>processCloseTriangles</name></member>
     <member refid="group__AABBTreeGroup_1ga50fea0557381236d780b7ea113906a0f" kind="function"><name>signedDistanceToMesh</name></member>
     <member refid="group__AABBTreeGroup_1ga5d17b235f3f132749a8d474be90b43b5" kind="function"><name>rayMeshIntersect</name></member>
@@ -19383,8 +19384,8 @@
     <member refid="group__IOGroup_1ga80e4f60af0a019706ae5488aa2d1acb2" kind="function"><name>fromObj</name></member>
     <member refid="group__IOGroup_1ga0bcd39338d08939438531f7d5c9d077d" kind="function"><name>fromDxf</name></member>
     <member refid="group__IOGroup_1ga72bf2e744527a6f283dc17ddb3f49317" kind="function"><name>fromDxf</name></member>
-    <member refid="group__IOGroup_1ga7ffd96e7cc233f9a5d99dfc3e8bb0edb" kind="function"><name>fromAnySupportedFormat</name></member>
-    <member refid="group__IOGroup_1gaecd3b7671e06c949d93c808ec95506f7" kind="function"><name>fromAnySupportedFormat</name></member>
+    <member refid="group__IOGroup_1ga211fda8baf23a249ac231793c2848373" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__IOGroup_1ga8aa3f213c68acbefae62997111264010" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__IOGroup_1ga56f3c968fa0da7592fff9bf39304344e" kind="function"><name>telemetryLogSize</name></member>
   </compound>
   <compound refid="group__Base64Group" kind="group"><name>Base64Group</name>
@@ -19568,6 +19569,20 @@
     <member refid="group__ContourGroup_1ga1c3f2c9e804fed14c8655398fe9c3b5f" kind="function"><name>convertContours</name></member>
   </compound>
   <compound refid="group__DistanceMapGroup" kind="group"><name>DistanceMapGroup</name>
+    <member refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kind="variable"><name>params</name></member>
+    <member refid="group__DistanceMapGroup_1ga1ceb255a1de1a49e02ff03c17ec71350" kind="variable"><name>meshB</name></member>
+    <member refid="group__DistanceMapGroup_1ga69c979e2e86dc19d223ee4f41fb46fea" kind="variable"><name>operation</name></member>
+    <member refid="group__DistanceMapGroup_1ga557dc22e5cbeb46ead267fbf4b2b59b3" kind="variable"><name>rigidB2A</name></member>
+    <member refid="group__DistanceMapGroup_1ga848e5345e71d79237fb4a0881d2119a8" kind="variable"><name>mapper</name></member>
+    <member refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kind="variable"><name>cb</name></member>
+    <member refid="group__DistanceMapGroup_1ga39152eebf658678f4b4dcf694eaa7e6e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1ga3cd95420eff10d7088c11eaba95708df" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
+    <member refid="group__DistanceMapGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
+    <member refid="group__DistanceMapGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
+    <member refid="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
+    <member refid="group__DistanceMapGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
     <member refid="group__DistanceMapGroup_1gab7acb4543154d042c297e5823fb633b6" kind="enum"><name>OutEdge2</name></member>
     <member refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a4bbb8f967da6d1a610596d7257179c2b" kind="enumvalue"><name>Invalid</name></member>
     <member refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a" kind="enumvalue"><name>PlusY</name></member>
@@ -19575,6 +19590,8 @@
     <member refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7" kind="enumvalue"><name>PlusX</name></member>
     <member refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454" kind="enumvalue"><name>MinusX</name></member>
     <member refid="group__DistanceMapGroup_1ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9" kind="enumvalue"><name>Count</name></member>
+    <member refid="group__DistanceMapGroup_1ga80af23d6afb6730de0589211dc06002d" kind="variable"><name>isoValue</name></member>
+    <member refid="group__DistanceMapGroup_1ga08cc3c144188eeeba21b46af5590db82" kind="variable"><name>pixelSize</name></member>
     <member refid="group__DistanceMapGroup_1gaf0cff421c4d16669d4c549f214bb8477" kind="variable"><name>allOutEdges2</name></member>
     <member refid="group__DistanceMapGroup_1ga1fe8adc8eeed5eae0d5217546cb26d59" kind="variable"><name>OutEdge2Count</name></member>
     <member refid="group__DistanceMapGroup_1gafea0efc1548ba1e0f2517f593f1bd35e" kind="function"><name>combineXYderivativeMaps</name></member>
@@ -19583,10 +19600,8 @@
     <member refid="group__DistanceMapGroup_1ga0c9486d9b44ae47b12824b99e28b0a93" kind="function"><name>distanceMapFromContours</name></member>
     <member refid="group__DistanceMapGroup_1gae7e25fed5029c03aec12173cbf641fc7" kind="function"><name>distanceMapFromContours</name></member>
     <member refid="group__DistanceMapGroup_1ga9ee4d06d74d77a647a2858fba8cebdb3" kind="function"><name>edgePointsFromContours</name></member>
-    <member refid="group__DistanceMapGroup_1gaa693ceaf7bf9d2dc2728807f26d6e12a" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-    <member refid="group__DistanceMapGroup_1ga54c8f32aafa8f7d85f1839635e080609" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-    <member refid="group__DistanceMapGroup_1gaf8e4c5b69b7ff64356b8fe6d7d73583e" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
-    <member refid="group__DistanceMapGroup_1ga40f0ce955b843b2257a05a5ee11d7e93" kind="function"><name>distanceMapTo2DIsoPolyline</name></member>
+    <member refid="group__DistanceMapGroup_1ga73d46de92d0aa806267918fa4d211d1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1ga867028ba328a8652452d4ce44c02e953" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__DistanceMapGroup_1gacffe5f45914f7b6f7d4fbd8a17c3bd0d" kind="function"><name>polylineOffset</name></member>
     <member refid="group__DistanceMapGroup_1gaa2524cfec596759a4205736303d71c32" kind="function"><name>contourUnion</name></member>
     <member refid="group__DistanceMapGroup_1ga77440735adb40e169512805b388d02ff" kind="function"><name>contourIntersection</name></member>
@@ -19709,14 +19724,8 @@
   <compound refid="group__MeshGroup" kind="group"><name>MeshGroup</name>
   </compound>
   <compound refid="group__BooleanGroup" kind="group"><name>BooleanGroup</name>
-    <member refid="group__BooleanGroup_1ga16435c813b6198ecc337b3023c2cc729" kind="function"><name>boolean</name></member>
-    <member refid="group__BooleanGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
-    <member refid="group__BooleanGroup_1gafdc7b5669facb509c577f29284ddfb9a" kind="function"><name>boolean</name></member>
-    <member refid="group__BooleanGroup_1ga6ed597bf8c9350700adae2b23fed4f74" kind="function"><name>boolean</name></member>
-    <member refid="group__BooleanGroup_1ga52bfb35f8321bd4301244ba7f839bbdc" kind="function"><name>forceBoolean</name></member>
-    <member refid="group__BooleanGroup_1ga6d540f90dc1f346721c02d850438ed29" kind="function"><name>selfBoolean</name></member>
-    <member refid="group__BooleanGroup_1ga0b6ca259502ac9cd412a6d3b42249201" kind="function"><name>findIntersectionContours</name></member>
-    <member refid="group__BooleanGroup_1gaea2a58b1c675ac131f93a0785e7d7ec1" kind="function"><name>convertIntFloatAllVerts</name></member>
+    <member refid="group__DistanceMapGroup_1gabde61d75feea288c14690ed8c3e592d2" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__DistanceMapGroup_1gac5ed86269f5cf1022e94d272e28f73b7" kind="function"><name>getBooleanPoints</name></member>
     <member refid="group__BooleanGroup_1ga9e84a8cc429efdf5cc108ca1c6aaccbd" kind="enum"><name>BooleanOperation</name></member>
     <member refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda833b7406c91f551bd8502cf76bb95c29" kind="enumvalue"><name>InsideA</name></member>
     <member refid="group__BooleanGroup_1gga9e84a8cc429efdf5cc108ca1c6aaccbda9f3e5e704c939dff3070cf175df0b75d" kind="enumvalue"><name>InsideB</name></member>
@@ -19754,6 +19763,10 @@
     <member refid="group__MeshComponentsGroup_1ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6" kind="enumvalue"><name>Abs</name></member>
     <member refid="group__MeshComponentsGroup_1ggad136d40567d48c0a0e9668c5daf797b9a3289297424e01eda5b788c083bbf3147" kind="enumvalue"><name>Positive</name></member>
     <member refid="group__MeshComponentsGroup_1ggad136d40567d48c0a0e9668c5daf797b9affb9356ff2b7da85c75c92fa7ea03b8b" kind="enumvalue"><name>Negative</name></member>
+    <member refid="group__MeshComponentsGroup_1ga06cd0d2739807ac1817e21714a77b155" kind="variable"><name>minArea</name></member>
+    <member refid="group__MeshComponentsGroup_1ga291282746acb01b0a8f0add1c741eca7" kind="variable"><name>isCompBd</name></member>
+    <member refid="group__MeshComponentsGroup_1ga7bf3e0737aecb4b63a527d014b0bea83" kind="variable"><name>unionFind</name></member>
+    <member refid="group__MeshComponentsGroup_1ga4280eb57f55729dc5222991eecc3cf84" kind="variable"><name>outBdEdgesBetweenLargeComps</name></member>
     <member refid="group__MeshComponentsGroup_1ga823ed70b2a3f8987017e57cbc9ae2789" kind="function"><name>getComponent</name></member>
     <member refid="group__MeshComponentsGroup_1ga75b5490074101f02a07ffafbe1d42d12" kind="function"><name>getComponentVerts</name></member>
     <member refid="group__MeshComponentsGroup_1ga80cae558467e7bd7f1653b46bb13948f" kind="function"><name>getLargestComponentVerts</name></member>
@@ -19763,9 +19776,9 @@
     <member refid="group__MeshComponentsGroup_1ga15d5de6ff738635f4d805cf6e8581aaa" kind="function"><name>getLargestComponentVolume</name></member>
     <member refid="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" kind="function"><name>getComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga96e3045fbc7e35b4c183ed1fdb98850b" kind="function"><name>getComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kind="function"><name>getLargeByAreaComponents</name></member>
+    <member refid="group__MeshComponentsGroup_1gaf6b68cea12137d44fb03418c5f46ddce" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshComponentsGroup_1ga6ce22d1ba91640724f2871328726b18a" kind="function"><name>getLargeByVolumeComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" kind="function"><name>getLargeByAreaComponents</name></member>
+    <member refid="group__MeshComponentsGroup_1gabdbe4987630c4fa59a495242098b8885" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshComponentsGroup_1ga8f7b3aea1e17934f892932ac212a71f2" kind="function"><name>expandToComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga23b859fdd8b110e1159c392f9f891f77" kind="function"><name>getNLargeByAreaComponents</name></member>
     <member refid="group__MeshComponentsGroup_1gafd9d69cd8ee018f61cfec8cdfe055f95" kind="function"><name>getLargeByAreaSmoothComponents</name></member>
@@ -19850,10 +19863,11 @@
     <member refid="group__FillHoleGroup_1ga9a2b22c68476e1176c0f8a8f43542611" kind="typedef"><name>FillTriangleMetric</name></member>
     <member refid="group__FillHoleGroup_1ga7f292aee02fc8ca7504a114461b74cd5" kind="typedef"><name>FillEdgeMetric</name></member>
     <member refid="group__FillHoleGroup_1gaf0a9f8a0620df3a7af664ad4c6aab213" kind="typedef"><name>FillCombineMetric</name></member>
+    <member refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kind="variable"><name>a</name></member>
+    <member refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kind="variable"><name>b</name></member>
     <member refid="group__FillHoleGroup_1gad6e60cb1116257e53229b6ee7ee22351" kind="variable"><name>BadTriangulationMetric</name></member>
-    <member refid="group__FillHoleGroup_1ga1411d5a294195af4ea96f30d4e47a108" kind="function"><name>stitchHoles</name></member>
     <member refid="group__FillHoleGroup_1ga2f24ede2ab1d007b775443aff87d052a" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
-    <member refid="group__FillHoleGroup_1ga1d5c1c9ce33580b95bdf4834f022ed3e" kind="function"><name>stitchHoles</name></member>
+    <member refid="group__FillHoleGroup_1gaa9b4fc2c3c8176dafe70ab92f9a03dc8" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__FillHoleGroup_1ga9de831741793790088bcc1af9358c25c" kind="function"><name>buildCylinderBetweenTwoHoles</name></member>
     <member refid="group__FillHoleGroup_1gaea109869817edaf2a249691f0ec7f1bb" kind="function"><name>fillHole</name></member>
     <member refid="group__FillHoleGroup_1ga1829ba14703d9aca13dbb785ea1794d0" kind="function"><name>fillHoles</name></member>
@@ -19969,8 +19983,8 @@
   </compound>
   <compound refid="group__MeshNormalsGroup" kind="group"><name>MeshNormalsGroup</name>
     <member refid="group__MeshNormalsGroup_1ga59217bfc441b57736e20fa4c8b136c1f" kind="typedef"><name>TriangleCornerNormals</name></member>
-    <member refid="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" kind="function"><name>computePerFaceNormals</name></member>
-    <member refid="group__MeshNormalsGroup_1ga22889800cd6e0b2ebbc550783da6eff7" kind="function"><name>computePerFaceNormals</name></member>
+    <member refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kind="variable"><name>points</name></member>
+    <member refid="group__MeshNormalsGroup_1ga07aac16e40bfab860a310d0c96627135" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" kind="function"><name>computePerFaceNormals4</name></member>
     <member refid="group__MeshNormalsGroup_1ga7b42ab138289c2be7e30986671f2a773" kind="function"><name>computePerVertNormals</name></member>
     <member refid="group__MeshNormalsGroup_1ga5ae37093c97fac3f5b66734fa5b1a13f" kind="function"><name>computePerVertPseudoNormals</name></member>
@@ -19978,8 +19992,7 @@
     <member refid="group__MeshNormalsGroup_1gae0d9f93e52c6de06a13b82bdcd6c69b5" kind="function"><name>computePerCornerNormals</name></member>
   </compound>
   <compound refid="group__MeshRelaxGroup" kind="group"><name>MeshRelaxGroup</name>
-    <member refid="group__MeshRelaxGroup_1gae33b27e64fe5ab346333589e6564abee" kind="function"><name>relax</name></member>
-    <member refid="group__MeshRelaxGroup_1ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e" kind="function"><name>relax</name></member>
+    <member refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kind="variable"><name>cb</name></member>
     <member refid="group__MeshRelaxGroup_1ga11a3c4423d57bdec0536c0916269613c" kind="function"><name>vertexPosEqualNeiAreas</name></member>
     <member refid="group__MeshRelaxGroup_1gafbd4050c45f9441d53f08ae512d5b495" kind="function"><name>vertexPosEqualNeiAreas</name></member>
     <member refid="group__MeshRelaxGroup_1ga0b7b12e3abc437cc721146292d65991b" kind="function"><name>equalizeTriAreas</name></member>
@@ -19995,6 +20008,10 @@
     <member refid="group__MeshRelaxGroup_1ga5334e44dde4cc350f4731fd75154f896" kind="function"><name>hardSmoothTetrahedrons</name></member>
   </compound>
   <compound refid="group__MeshSaveGroup" kind="group"><name>MeshSaveGroup</name>
+    <member refid="group__MeshSaveGroup_1ga98aef4649d53f623906c635ff1aaf18e" kind="variable"><name>file</name></member>
+    <member refid="group__MeshSaveGroup_1ga88dc6322aa89f4d0a7eaf376cbde3ad6" kind="variable"><name>settings</name></member>
+    <member refid="group__MeshSaveGroup_1ga60011c108fbbc4bb220fea7dbfc53a36" kind="variable"><name>extension</name></member>
+    <member refid="group__MeshSaveGroup_1ga16eb575515438064d98e1410a7574895" kind="variable"><name>out</name></member>
     <member refid="group__MeshSaveGroup_1ga9513ef1ff3f501a7e44ca11e8020add4" kind="function"><name>toMrmesh</name></member>
     <member refid="group__MeshSaveGroup_1gaca2f6357ec8494d5605359f1605f00b3" kind="function"><name>toMrmesh</name></member>
     <member refid="group__MeshSaveGroup_1ga9493b59b63946b2427188aed7ceae256" kind="function"><name>toOff</name></member>
@@ -20014,8 +20031,8 @@
     <member refid="group__MeshSaveGroup_1gac7864ffe508d7d2a043b6e5006080939" kind="function"><name>toModel3mf</name></member>
     <member refid="group__MeshSaveGroup_1gaa35cc232c4f90c198d7e92339daee858" kind="function"><name>toModel3mf</name></member>
     <member refid="group__MeshSaveGroup_1ga8c9353b4703d4a74cbc6abf109e2f329" kind="function"><name>to3mf</name></member>
-    <member refid="group__MeshSaveGroup_1ga8c3547484d9f9d64e8d1d967225e190f" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="group__MeshSaveGroup_1gae312c46875e32db543db5c77bdc1d1df" kind="function"><name>toAnySupportedFormat</name></member>
+    <member refid="group__MeshSaveGroup_1gaa05bdb5fed13993e770d0f517a729412" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__MeshSaveGroup_1gac21be5be1e9ae00a0510430749be9f51" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
   </compound>
   <compound refid="group__MeshSaveObjGroup" kind="group"><name>MeshSaveObjGroup</name>
     <member refid="group__MeshSaveObjGroup_1ga1a5490e813e3e91930caa8d81073f715" kind="function"><name>sceneToObj</name></member>
@@ -20059,7 +20076,7 @@
     <member refid="group__PointCloudGroup_1ga117dbe61fc1c56b7b7ba25d6514ac35d" kind="function"><name>makeOrientedNormals</name></member>
     <member refid="group__PointCloudGroup_1ga15578cc0c068a55121b279b4d0b9e7cb" kind="function"><name>makeNormals</name></member>
     <member refid="group__PointCloudGroup_1gad170a186634adcea1422a0bcb701584d" kind="function"><name>findAvgPointsRadius</name></member>
-    <member refid="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" kind="function"><name>relax</name></member>
+    <member refid="group__PointCloudGroup_1gaccd91f9d5a08418da1f899a4b2026e4b" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" kind="function"><name>relaxKeepVolume</name></member>
     <member refid="group__PointCloudGroup_1gaf730c446bd16a9211e90506d85c35757" kind="function"><name>relaxApprox</name></member>
     <member refid="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" kind="function"><name>pointUniformSampling</name></member>
@@ -20085,6 +20102,10 @@
     <member refid="group__PointCloudComponentsGroup_1ga2fd74d609a838e30b78f03e49da4737e" kind="function"><name>getUnionFindStructureVerts</name></member>
   </compound>
   <compound refid="group__PointsSaveGroup" kind="group"><name>PointsSaveGroup</name>
+    <member refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kind="variable"><name>file</name></member>
+    <member refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kind="variable"><name>settings</name></member>
+    <member refid="group__PointsSaveGroup_1ga31507bdc39de3cd5dbe1a0038cd6f56d" kind="variable"><name>extension</name></member>
+    <member refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kind="variable"><name>out</name></member>
     <member refid="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" kind="function"><name>toXyz</name></member>
     <member refid="group__PointsSaveGroup_1ga736ca6d57fbc8d9d4574411f34b2f3ea" kind="function"><name>toXyz</name></member>
     <member refid="group__PointsSaveGroup_1ga2431f9963ccca043cf31d9f5a8e9c98a" kind="function"><name>toXyzn</name></member>
@@ -20093,8 +20114,8 @@
     <member refid="group__PointsSaveGroup_1ga0038543a33756a47ca1091efe038b8b6" kind="function"><name>toAsc</name></member>
     <member refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kind="function"><name>toPly</name></member>
     <member refid="group__PointsSaveGroup_1ga93de8bb7c42d48456a16be2813cbd14a" kind="function"><name>toPly</name></member>
-    <member refid="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" kind="function"><name>toAnySupportedFormat</name></member>
-    <member refid="group__PointsSaveGroup_1ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f" kind="function"><name>toAnySupportedFormat</name></member>
+    <member refid="group__PointsSaveGroup_1gaf3db0c1382a48e811765551be79a0a39" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__PointsSaveGroup_1ga143900205dead299f60c684ef6b8817a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
   </compound>
   <compound refid="group__PolylineGroup" kind="group"><name>PolylineGroup</name>
     <member refid="group__PolylineGroup_1ga349201f5ba6a4ad7fe91d113e0d0d2ec" kind="function"><name>relax</name></member>
@@ -22504,9 +22525,15 @@
     <member refid="group__GeneralGroup_1ga9c190b668695dc7442dd075e6e0b036c" kind="variable"><name>feedrateIdle_</name></member>
     <member refid="group__GeneralGroup_1ga72b1543f27bcfe4326e9701d9927bf27" kind="variable"><name>homePosition_</name></member>
     <member refid="group__GeneralGroup_1gaaa379f38f05825d099fa1a11b4fa9b32" kind="variable"><name>r</name></member>
-    <member refid="group__GeneralGroup_1ga88b7f7b16582811c68398fcb60488717" kind="variable"><name>g</name></member>
-    <member refid="group__GeneralGroup_1gad69a83b856320cef2a9d1f2ef968dbfd" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1ga21c5ef511dcf3b636ce3f8a5fd699874" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga23be6d1433e113ac1210707ea82270f9" kind="variable"><name>g</name></member>
+    <member refid="group__GeneralGroup_1ga658fa5014c6e2170ea24d7c8aa6baee8" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga8d505c540a356c81a0bbf17945b22153" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga272ef24545bd23f76ddebf129e1de523" kind="variable"><name>g</name></member>
+    <member refid="group__GeneralGroup_1gaffabf4b2ea3763fb8614f0e4704e412a" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1gadf0405d1b74590168531c8f591b552ca" kind="variable"><name>noexcept</name></member>
+    <member refid="group__GeneralGroup_1ga23be6d1433e113ac1210707ea82270f9" kind="variable"><name>g</name></member>
+    <member refid="group__GeneralGroup_1ga658fa5014c6e2170ea24d7c8aa6baee8" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga8d505c540a356c81a0bbf17945b22153" kind="variable"><name>a</name></member>
     <member refid="group__GeneralGroup_1ga755dfde7b86dcd1f2da851590cf7d308" kind="variable"><name>colorMap</name></member>
     <member refid="group__GeneralGroup_1gac2d631a1f9c3262477e8f19fc818b39a" kind="variable"><name>elements</name></member>
     <member refid="group__GeneralGroup_1ga07f41e7176267a0eec20f240d0ab836a" kind="variable"><name>defaultColor_</name></member>
@@ -22849,6 +22876,12 @@
     <member refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" kind="variable"><name>exitVal</name></member>
     <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" kind="variable"><name>mutualClosest</name></member>
     <member refid="group__GeneralGroup_1ga8efa777933097be92b2e442ee0962d0c" kind="variable"><name>ignoreBdTgts</name></member>
+    <member refid="group__GeneralGroup_1ga65fa806f871737d772315ea28a9de0ce" kind="variable"><name>ref</name></member>
+    <member refid="group__GeneralGroup_1gaebf36c716f0957f8e60b7b84df532ccf" kind="variable"><name>fltSamples</name></member>
+    <member refid="group__GeneralGroup_1ga886c36f8281c5a2a8181e4042a51366d" kind="variable"><name>refSamples</name></member>
+    <member refid="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" kind="variable"><name>fltSamples</name></member>
+    <member refid="group__GeneralGroup_1gae0fc293d759e349e030e83f637b6673e" kind="variable"><name>refSamples</name></member>
+    <member refid="group__GeneralGroup_1gafabb42cb0c084223533a643bb600e0c4" kind="variable"><name>samplingVoxelSize</name></member>
     <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" kind="variable"><name>flt_</name></member>
     <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" kind="variable"><name>ref_</name></member>
     <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" kind="variable"><name>prop_</name></member>
@@ -22931,6 +22964,10 @@
     <member refid="group__GeneralGroup_1gaae6b3a6e5308d9b86786cc6f73d8a0ed" kind="variable"><name>type_</name></member>
     <member refid="group__GeneralGroup_1gac50b2a332a59b46a9f98d7dc951dd010" kind="variable"><name>cQuietNan</name></member>
     <member refid="group__GeneralGroup_1ga8f3c9f088f6a284e579d9042826fccd6" kind="variable"><name>cQuietNanBits</name></member>
+    <member refid="group__GeneralGroup_1ga684ea86bce1e071b8600a2cfd4bdf524" kind="variable"><name>points</name></member>
+    <member refid="group__GeneralGroup_1gadf40f24990a3a112f6f02bea20e44d4e" kind="variable"><name>smooth</name></member>
+    <member refid="group__GeneralGroup_1ga9157b56134c5c567dda801ec9a8b71f7" kind="variable"><name>fixedPos</name></member>
+    <member refid="group__GeneralGroup_1ga2064ca7307d60e68bfa23be6cea67f85" kind="variable"><name>smooth</name></member>
     <member refid="group__GeneralGroup_1ga568001a06cd6d0a77fc7e87e9cebdc9a" kind="variable"><name>p</name></member>
     <member refid="group__GeneralGroup_1ga9e19c8e2f07fda8228b4b66df9b6832b" kind="variable"><name>target</name></member>
     <member refid="group__GeneralGroup_1ga38939421f38fc6c59008300357e654f4" kind="variable"><name>weight</name></member>
@@ -23015,6 +23052,10 @@
     <member refid="group__GeneralGroup_1ga6e04cfb485e0a54e7aaf0c75c8ad0eec" kind="variable"><name>duplicateNonManifold</name></member>
     <member refid="group__GeneralGroup_1ga5379829943a90af63f2b4db61f7ff57d" kind="variable"><name>optionalVertOldToNew</name></member>
     <member refid="group__GeneralGroup_1ga110cc42934b904692094323354588513" kind="variable"><name>optionalDuplications</name></member>
+    <member refid="group__GeneralGroup_1ga23b7741683f546f6f6f7cc9e01268a35" kind="variable"><name>closeDist</name></member>
+    <member refid="group__GeneralGroup_1ga5a25563874c1189777a31e5494f28f29" kind="variable"><name>uniteOnlyBd</name></member>
+    <member refid="group__GeneralGroup_1ga29b93496214c0e773af29f717a45304d" kind="variable"><name>optionalVertOldToNew</name></member>
+    <member refid="group__GeneralGroup_1gabea2a6a01fbeedb07cfeef9283e8c34a" kind="variable"><name>params</name></member>
     <member refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" kind="variable"><name>f</name></member>
     <member refid="group__GeneralGroup_1ga1fdb51404a12dafa32d295e97234ce4f" kind="variable"><name>region</name></member>
@@ -23176,6 +23217,13 @@
     <member refid="group__GeneralGroup_1ga9f5d70ec6986d7b4f5477c5e2298f5e5" kind="variable"><name>edges</name></member>
     <member refid="group__GeneralGroup_1ga1f111c2398ef25fb853ecdd03cf5ff59" kind="variable"><name>verts</name></member>
     <member refid="group__GeneralGroup_1ga62233d2b2599039751a03d75ceca0704" kind="variable"><name>faces</name></member>
+    <member refid="group__GeneralGroup_1ga09e426a17c3ccad720ccf0b29a122085" kind="variable"><name>v0</name></member>
+    <member refid="group__GeneralGroup_1ga9328aae450b468b77651cc29aecd7e42" kind="variable"><name>v1</name></member>
+    <member refid="group__GeneralGroup_1gaa504c7884e44ccd50394862aed66dfe0" kind="variable"><name>const</name></member>
+    <member refid="group__GeneralGroup_1gac41b7aa4dfce6d2ed4485e52703f39d4" kind="variable"><name>const</name></member>
+    <member refid="group__GeneralGroup_1gad9198c0528f17a48176af8b91b20402f" kind="variable"><name>outVmap</name></member>
+    <member refid="group__GeneralGroup_1ga0f5ad9ea2306ad7b0c5982888116c6eb" kind="variable"><name>outEmap</name></member>
+    <member refid="group__GeneralGroup_1ga48035d11a498d979434f3b5c404550d9" kind="variable"><name>rearrangeTriangles</name></member>
     <member refid="group__GeneralGroup_1gaa79948207ce03ac940110fc5b6eeadad" kind="variable"><name>next</name></member>
     <member refid="group__GeneralGroup_1ga72d923a9f0e2f0b8bf55d43bbd30bc2c" kind="variable"><name>prev</name></member>
     <member refid="group__GeneralGroup_1ga2408c1ef3fd6c369eebe4355ae4ea4bc" kind="variable"><name>org</name></member>
@@ -23257,6 +23305,7 @@
     <member refid="group__GeneralGroup_1gab298fec8f17af7398ab708ce69c2af2d" kind="variable"><name>maxInitialDist</name></member>
     <member refid="group__GeneralGroup_1ga234cc7724ee82658a6f22257b3400e39" kind="variable"><name>region</name></member>
     <member refid="group__GeneralGroup_1gad7f7b82ea225f8e0f9a358b607d7fead" kind="variable"><name>outCreases</name></member>
+    <member refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kind="variable"><name>settings</name></member>
     <member refid="group__GeneralGroup_1ga3d33a7031078f565b34961a3e568362d" kind="variable"><name>gamma</name></member>
     <member refid="group__GeneralGroup_1ga6d407894f4a783d1f8d5b12904e64893" kind="variable"><name>guideWeight</name></member>
     <member refid="group__GeneralGroup_1ga059ccaf0f8ef1ba826bc02449fc4defc" kind="variable"><name>pointIters</name></member>
@@ -23529,6 +23578,10 @@
     <member refid="group__GeneralGroup_1ga93e080458c496f555a43b92f40f7e547" kind="variable"><name>upDistLimitSq</name></member>
     <member refid="group__GeneralGroup_1ga758389fe44297258e47fdd1ef104916b" kind="variable"><name>refXf</name></member>
     <member refid="group__GeneralGroup_1ga7ce5f16c30935b50d1c953fc917000dc" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1gab30b2cff28d4af1589761e19ac9019fa" kind="variable"><name>testPoints</name></member>
+    <member refid="group__GeneralGroup_1gad0626776a19c450dc06af751d1bd6b56" kind="variable"><name>validTestPoints</name></member>
+    <member refid="group__GeneralGroup_1gacad7dea69af1314dca455d10ae162e3f" kind="variable"><name>projector</name></member>
+    <member refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kind="variable"><name>mesh</name></member>
     <member refid="group__GeneralGroup_1gac83a7b047702654dffccadc7acdc6941" kind="variable"><name>mesh_</name></member>
     <member refid="group__GeneralGroup_1gab156e4253bbd59fe13340074cbd665c9" kind="variable"><name>maxLargeComponents</name></member>
     <member refid="group__GeneralGroup_1ga5f82c05aa96cc5f5e952e7fc9ed1cf7d" kind="variable"><name>numSmallerComponents</name></member>
@@ -23632,6 +23685,9 @@
     <member refid="group__GeneralGroup_1gacdc632ba526bf0f3631a99cf8cef5ce7" kind="variable"><name>isSpherical_</name></member>
     <member refid="group__GeneralGroup_1ga0aebcc710899afc5d97d79d9b4d42829" kind="variable"><name>visualLengthMultiplier_</name></member>
     <member refid="group__GeneralGroup_1gaa2bf2e5addd5e14efa4e712dffffe8ec" kind="variable"><name>cachedValue_</name></member>
+    <member refid="group__GeneralGroup_1ga0cf5fcc5efe63eaf86bbda721b7041c4" kind="variable"><name>faces</name></member>
+    <member refid="group__GeneralGroup_1ga018938df5d34ea1035a4d0c57d9f9708" kind="variable"><name>store</name></member>
+    <member refid="group__GeneralGroup_1gabbe25ce79dd85635294b1687bb4bdc72" kind="variable"><name>edges</name></member>
     <member refid="group__GeneralGroup_1ga54914fd0242fd42930528e26b7a6fedf" kind="variable"><name>width_</name></member>
     <member refid="group__GeneralGroup_1ga9a512580b60da2b33192642a48b296d9" kind="variable"><name>height_</name></member>
     <member refid="group__GeneralGroup_1gad1095ab10deb9ae39deafb777408d0d0" kind="variable"><name>surfacePC_</name></member>
@@ -23775,11 +23831,13 @@
     <member refid="group__GeneralGroup_1ga531dd608ed4d751acebfe96a4ce966ef" kind="variable"><name>prettyName</name></member>
     <member refid="group__GeneralGroup_1ga51e42890c307d870cd98616e9336cc4f" kind="variable"><name>unitSuffix</name></member>
     <member refid="group__GeneralGroup_1ga6dc0b9d338593fc4fd8715ed4e11b9f8" kind="variable"><name>verts</name></member>
-    <member refid="group__GeneralGroup_1gad4c1a76a727c0e52830149df75a87a0f" kind="variable"><name>vec_</name></member>
+    <member refid="group__GeneralGroup_1gaa67407d058ac75b0ff0e4fd21c5bebb8" kind="variable"><name>val</name></member>
+    <member refid="group__GeneralGroup_1ga82fa3e637184fa5213f3203525fa9ada" kind="variable"><name>val</name></member>
     <member refid="group__GeneralGroup_1ga5f40bccc013c893ac7558c2262a6eff1" kind="variable"><name>elements</name></member>
     <member refid="group__GeneralGroup_1ga3d6f56ed3c525a928116d6c095997c5c" kind="variable"><name>x</name></member>
     <member refid="group__GeneralGroup_1ga4cbb29e67931176028f57f29b2bd6953" kind="variable"><name>y</name></member>
     <member refid="group__GeneralGroup_1gae596ea6de55c00124d84150eadecd455" kind="variable"><name>z</name></member>
+    <member refid="group__GeneralGroup_1ga46afea730f507bed70954bbdb3457eb8" kind="variable"><name>noexcept</name></member>
     <member refid="group__GeneralGroup_1gad2688016c72fa4b8f105895bd2532e7c" kind="variable"><name>elements</name></member>
     <member refid="group__GeneralGroup_1ga2430707dabdc5933eb1c27e622a73c04" kind="variable"><name>x</name></member>
     <member refid="group__GeneralGroup_1ga0e6c5be3afc64d0b545923575087bb78" kind="variable"><name>y</name></member>
@@ -25669,10 +25727,6 @@
     <member refid="group__GeneralGroup_1ga49b96d931ecbe6f88e3b838a6347d14e" kind="friend"><name>operator&lt;&lt;</name></member>
     <member refid="group__GeneralGroup_1gaae0ca13e381c0da0a32ffd38d5f8c346" kind="friend"><name>operator&gt;&gt;</name></member>
     <member refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kind="friend"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1gac2374ea2fa52ec9ff0f43f1d45aab889" kind="friend"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1gab3222ec28cfb5b8baf0f806b9035207d" kind="friend"><name>begin</name></member>
-    <member refid="group__GeneralGroup_1ga41b6e642d26380cc66a251b84ede3a07" kind="friend"><name>end</name></member>
-    <member refid="group__GeneralGroup_1gae4b694dba80d0a51e8c06de14eef2aff" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1gaa313f8ba832a4b648631b27ecc640444" kind="friend"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga21621332debf444906aee7baa46ec9bd" kind="friend"><name>operator!=</name></member>
     <member refid="group__GeneralGroup_1ga6ff62d94821680cd4aa78b7f0e9fc08f" kind="friend"><name>operator+</name></member>
@@ -26367,32 +26421,7 @@
     <member refid="group__GeneralGroup_1gaba12a3656ff9917b57e05ff69286af64" kind="function"><name>loadFromJson</name></member>
     <member refid="group__GeneralGroup_1ga361e3d7af72254b02de4d5bdf7f08b60" kind="function"><name>Color</name></member>
     <member refid="group__GeneralGroup_1gade02ccd5f38dd6cf3dbadde1ab4a860f" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga55f851e585f9e9137306856b29866631" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1gaf2931e15274d970116abc0ded3b1a63d" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1gae3c0f9cd94d092309159eff33f604df2" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga87cd07021fafe2e28e4734086bec5506" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga97a5b103a46bec5a9f09026fb693bb67" kind="function"><name>getUInt32</name></member>
-    <member refid="group__GeneralGroup_1gafdf32fadc1e749715ad1911813a76f75" kind="function"><name>white</name></member>
-    <member refid="group__GeneralGroup_1ga5596c66211faa167983f60fb9c684e0c" kind="function"><name>black</name></member>
-    <member refid="group__GeneralGroup_1gab2d02b3c25652081a0b2f9c3f4de388f" kind="function"><name>gray</name></member>
-    <member refid="group__GeneralGroup_1ga9f743712af5597ae9e55d338143d10c6" kind="function"><name>red</name></member>
-    <member refid="group__GeneralGroup_1ga07d25f841350c5a6eeca781f6dcd0fda" kind="function"><name>green</name></member>
-    <member refid="group__GeneralGroup_1gacd72366575d0f58c29867044c403e34a" kind="function"><name>blue</name></member>
-    <member refid="group__GeneralGroup_1ga7a15e2053da20914d242d21eb1486f30" kind="function"><name>yellow</name></member>
-    <member refid="group__GeneralGroup_1ga882e30e9e993b05867c2140409cb4942" kind="function"><name>brown</name></member>
-    <member refid="group__GeneralGroup_1ga1c9185e5072e0a0a568d09ca99f99be8" kind="function"><name>purple</name></member>
-    <member refid="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" kind="function"><name>transparent</name></member>
-    <member refid="group__GeneralGroup_1ga24e6fb7f70f1db9bda37d9279f1b4e2d" kind="function"><name>valToUint8</name></member>
-    <member refid="group__GeneralGroup_1ga2879fe1d429706d60bf61dba5073b28d" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1gaeb10dfddd28274eab02133fe4bfb2f61" kind="function"><name>Color</name></member>
-    <member refid="group__GeneralGroup_1ga81bd34e112d9fcde01fd52f922966f2f" kind="function"><name>operator Vector4&lt; T &gt;</name></member>
-    <member refid="group__GeneralGroup_1ga3671d8320e6244266951f9a5ea6ef33e" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga30e8afba2ca683c433ab83718048a41e" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga91d690a2375168d047a346239b7c38b7" kind="function"><name>operator+=</name></member>
-    <member refid="group__GeneralGroup_1ga52c442cda61f9c17b52534a4f2358c62" kind="function"><name>operator-=</name></member>
-    <member refid="group__GeneralGroup_1gaec1e7daf3ecd5715157f118516cf17c7" kind="function"><name>operator*=</name></member>
-    <member refid="group__GeneralGroup_1ga9f21a5ed60bd2e9b0ab50266610e35f6" kind="function"><name>operator/=</name></member>
-    <member refid="group__GeneralGroup_1gab12a1e450b868138a87d0feb4f9e3d8b" kind="function"><name>scaledAlpha</name></member>
+    <member refid="group__GeneralGroup_1ga7b00119818b1c4042f45fb5f15e69fde" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga11adbe77a0a789151fa888fe153d4933" kind="function"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga5534d2437ed57cabae82ae75a441b224" kind="function"><name>operator!=</name></member>
     <member refid="group__GeneralGroup_1gaf9a5c1118c2c4b0cda030dff8d11ce03" kind="function"><name>operator+</name></member>
@@ -27067,11 +27096,11 @@
     <member refid="group__GeneralGroup_1ga9381989fd9c2bfbded47dacbf86d0aee" kind="function"><name>deactivateFarPairs</name></member>
     <member refid="group__GeneralGroup_1ga1301b1c633de237705ebc76fcbd215df" kind="function"><name>updatePointPairs</name></member>
     <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
-    <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1gad91f5ed97435e251629b58c1d4d48ebe" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" kind="function"><name>ICP</name></member>
-    <member refid="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1gaf4e277621b4076612a9c2c951ecd5615" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kind="function"><name>ICP</name></member>
-    <member refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" kind="function"><name>ICP</name></member>
+    <member refid="group__GeneralGroup_1ga5b060cd68f7edaee14673276f8b3c42a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" kind="function"><name>setParams</name></member>
     <member refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" kind="function"><name>setCosineLimit</name></member>
     <member refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" kind="function"><name>setDistanceLimit</name></member>
@@ -27286,14 +27315,14 @@
     <member refid="group__GeneralGroup_1gabd1b7dba45c5ebca540c9a469e64084e" kind="function"><name>~RegisterRenderObjectConstructor</name></member>
     <member refid="group__GeneralGroup_1gad4d2c738603108b1182410a19fbe7b5a" kind="function"><name>isNanFast</name></member>
     <member refid="group__GeneralGroup_1gab1ebfd99de734fb5a427394dcc38d2d5" kind="function"><name>pointIterativeSampling</name></member>
-    <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" kind="function"><name>Laplacian</name></member>
-    <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" kind="function"><name>Laplacian</name></member>
+    <member refid="group__GeneralGroup_1ga3de39ed8ed62f4df8bbfbd873218b07e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1gaf1e9fa1a2d1da6305610b98e321efbbf" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga61c764e507de86f90b4a8763fdae00fd" kind="function"><name>Laplacian</name></member>
     <member refid="group__GeneralGroup_1gaddaaf769ca00b17d64d71fe8f4b3a60d" kind="function"><name>~Laplacian</name></member>
     <member refid="group__GeneralGroup_1ga4a5fd158281d7c2d11d4c1bfc6f0d42f" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
-    <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
-    <member refid="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" kind="function"><name>fixVertex</name></member>
+    <member refid="group__GeneralGroup_1gafe079fa9f4dd351d2365cd42a15ae550" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1gaaa66889c32ef49e14c59dce3587227fb" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gabd2232997c80ac2ccfa4b05df9ca0767" kind="function"><name>multVertexWeight</name></member>
     <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" kind="function"><name>updateSolver</name></member>
     <member refid="group__GeneralGroup_1ga6d897482a207ddf21fab0274e22a7133" kind="function"><name>applyToVector</name></member>
@@ -27491,8 +27520,8 @@
     <member refid="group__GeneralGroup_1gaddfd35d380df5345cbda74b4bdfeff6f" kind="function"><name>addTriangles</name></member>
     <member refid="group__GeneralGroup_1gabb87fb2cc9c28dca88cac5adbb077bc2" kind="function"><name>fromFaceSoup</name></member>
     <member refid="group__GeneralGroup_1gaf14db16fd78b08d340b0a0aaa94907c9" kind="function"><name>computeTrianglesRepetitions</name></member>
-    <member refid="group__GeneralGroup_1gafd13ce716b18402ee77952081cf52e40" kind="function"><name>uniteCloseVertices</name></member>
-    <member refid="group__GeneralGroup_1ga735c792eb0d3d6adc4c77f067f973d46" kind="function"><name>uniteCloseVertices</name></member>
+    <member refid="group__GeneralGroup_1gaa025e5add547573085ebcafb05da4759" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga82376a94925cb41439befe12e547b3c3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga67c89067a48e2a3d29e24b6a36d57de7" kind="function"><name>Triangle</name></member>
     <member refid="group__GeneralGroup_1ga9a381456c77917de55d37a962d6841e9" kind="function"><name>Triangle</name></member>
     <member refid="group__GeneralGroup_1gad3a0063941eb7c51389f4baeaae1d36f" kind="function"><name>operator==</name></member>
@@ -27776,10 +27805,10 @@
     <member refid="group__GeneralGroup_1gaf020bbe446f3965db015301732d7592d" kind="function"><name>isTriVert</name></member>
     <member refid="group__GeneralGroup_1ga3d85b486bb589bae547c1e7fc7c1f342" kind="function"><name>getAllTriVerts</name></member>
     <member refid="group__GeneralGroup_1ga38ff51ae302402397ba017f96799d992" kind="function"><name>getTriangulation</name></member>
-    <member refid="group__GeneralGroup_1gad3ba6513949b7e2cc8d026657fd8ee0f" kind="function"><name>getLeftTriVerts</name></member>
+    <member refid="group__GeneralGroup_1ga6bb76a1203b487a001925d22c987d587" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gad62222883fc0c58bc72eed22f7d74953" kind="function"><name>getLeftTriVerts</name></member>
-    <member refid="group__GeneralGroup_1ga9fd531135d0c893edd63545034f5b026" kind="function"><name>getLeftTriVerts</name></member>
-    <member refid="group__GeneralGroup_1gae7ad9074cc4e1be50475db39d352f94f" kind="function"><name>getLeftTriVerts</name></member>
+    <member refid="group__GeneralGroup_1gacf9260b301cea069c85f5851128b0f1c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga534ada1b901d5230b000f3bd442c4278" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gaad405e625450208e48d0237b9b5f53e8" kind="function"><name>forEachVertex</name></member>
     <member refid="group__GeneralGroup_1ga19c52a0f233ed29357bf32c280272444" kind="function"><name>getLeftTriEdges</name></member>
     <member refid="group__GeneralGroup_1ga4c0c34fc025958084fc870fb352c0f2a" kind="function"><name>getTriEdges</name></member>
@@ -27865,8 +27894,8 @@
     <member refid="group__GeneralGroup_1ga7bbda199205f3f2040094ed56f5e1805" kind="function"><name>addPartByMask</name></member>
     <member refid="group__GeneralGroup_1ga3fe4136c1642a8e761ebeb82c82ce632" kind="function"><name>addPartByMask</name></member>
     <member refid="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" kind="function"><name>rotateTriangles</name></member>
-    <member refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" kind="function"><name>pack</name></member>
-    <member refid="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" kind="function"><name>pack</name></member>
+    <member refid="group__GeneralGroup_1gae222b339f086b68c44e2321ed48cfa43" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga0bc5afed464de8329a9bd88e40606a91" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga209f41dfcfd5540a55a1e01f31fb65b9" kind="function"><name>packMinMem</name></member>
     <member refid="group__GeneralGroup_1ga81f80fe1150711ff7445416be04b9133" kind="function"><name>write</name></member>
     <member refid="group__GeneralGroup_1gae53000ef54becc9aaca40915c254c24f" kind="function"><name>read</name></member>
@@ -27987,8 +28016,7 @@
     <member refid="group__GeneralGroup_1ga1954e92c2b9fe2316cbf33d72e75d527" kind="function"><name>denoiseNormals</name></member>
     <member refid="group__GeneralGroup_1ga7ffe0a021107f569b3ffa018da32e9b2" kind="function"><name>updateIndicator</name></member>
     <member refid="group__GeneralGroup_1gab54d26f09a8a2f95888858cfdcdd347c" kind="function"><name>updateIndicatorFast</name></member>
-    <member refid="group__GeneralGroup_1ga6883a12f4f393ed08b4e93f7bf0be84a" kind="function"><name>meshDenoiseViaNormals</name></member>
-    <member refid="group__GeneralGroup_1gac335a53bfd7d287604c31298e1b5a43b" kind="function"><name>meshDenoiseViaNormals</name></member>
+    <member refid="group__GeneralGroup_1ga94c8414ad4bf06b5f17dfec5060a2ce3" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gad3ee3facd1ffb97bd91ffba08a243484" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1ga8b997b3e9f6333808da102fcc5b2a4ab" kind="function"><name>meshDenoiseWithCreases</name></member>
     <member refid="group__GeneralGroup_1gaf1d0eee1758bde49f19146f8ca980be8" kind="function"><name>meshDenoiseWithCreases</name></member>
@@ -28603,8 +28631,7 @@
     <member refid="group__GeneralGroup_1ga8386d444f8e600bb3fe67a31fc2c04f3" kind="function"><name>updateMeshData</name></member>
     <member refid="group__GeneralGroup_1gaffb7ba1779ad577458ada7ad99f578ce" kind="function"><name>findProjections</name></member>
     <member refid="group__GeneralGroup_1ga2743e8821707c1810ac41b5918b2613c" kind="function"><name>projectionsHeapBytes</name></member>
-    <member refid="group__GeneralGroup_1gaf70fbc3926faabd14d6e8b2a2f3e3f64" kind="function"><name>findSignedDistances</name></member>
-    <member refid="group__GeneralGroup_1ga79c9901bf0bf90470274e88ac9ded1d5" kind="function"><name>findSignedDistances</name></member>
+    <member refid="group__GeneralGroup_1ga1de7b11758eb43eb8c68a66149c3c14e" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga3c206247fe6e6ed0dd78c5f4defe0892" kind="function"><name>updateMeshData</name></member>
     <member refid="group__GeneralGroup_1gae94bc431332d412f6a094093e77ed8d9" kind="function"><name>findProjections</name></member>
     <member refid="group__GeneralGroup_1ga9b64899affd5b03d593b17336d91bddf" kind="function"><name>projectionsHeapBytes</name></member>
@@ -28825,8 +28852,7 @@
     <member refid="group__GeneralGroup_1ga25e4628987fb45fbedf8ebcb4327c4d2" kind="function"><name>findLeftBoundaryInsideMesh</name></member>
     <member refid="group__GeneralGroup_1gad3a38eb65db7e1c0b80715ca70e92e5c" kind="function"><name>findRegionBoundaryUndirectedEdgesInsideMesh</name></member>
     <member refid="group__GeneralGroup_1gad1af449d1fe41126018652d521b145e4" kind="function"><name>findRegionOuterFaces</name></member>
-    <member refid="group__GeneralGroup_1ga1bf573dc61dc6ba97a3e8a4bc9028c2e" kind="function"><name>getIncidentVerts</name></member>
-    <member refid="group__GeneralGroup_1ga1c24193ec72b494c106fad689c5c5c32" kind="function"><name>getIncidentVerts</name></member>
+    <member refid="group__GeneralGroup_1ga2666947390978d2d8aa387e33cc8699c" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga933bf23c183f418612370ff8c7a14101" kind="function"><name>getInnerVerts</name></member>
     <member refid="group__GeneralGroup_1ga6f38b74b3e7d5e776f98e2f88bb48006" kind="function"><name>getInnerVerts</name></member>
     <member refid="group__GeneralGroup_1gaf2cf93d2c7ffbf6ae4821220390574fd" kind="function"><name>getBoundaryVerts</name></member>
@@ -28837,12 +28863,12 @@
     <member refid="group__GeneralGroup_1ga8e8ba4975b219200687bca5ed2a7ab6a" kind="function"><name>getRegionEdges</name></member>
     <member refid="group__GeneralGroup_1ga7c62678a98f7bc518805bd7a677d6674" kind="function"><name>getIncidentEdges</name></member>
     <member refid="group__GeneralGroup_1ga36ed48a6aab7607a3983c5492c50e22c" kind="function"><name>getIncidentEdges</name></member>
-    <member refid="group__GeneralGroup_1ga4164918654e0538c4a3f1cfd0e4562a3" kind="function"><name>getIncidentVerts</name></member>
+    <member refid="group__GeneralGroup_1ga9ae614a46609b519105b81bee3848ca0" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1gaa793f0cbb7613e733d7350367795da48" kind="function"><name>getIncidentFaces</name></member>
     <member refid="group__GeneralGroup_1gab23fc7120dab6b7ab49bdc965bfdb9f5" kind="function"><name>getNeighborFaces</name></member>
     <member refid="group__GeneralGroup_1ga14cc03346c7b6c8e0f2fb75ab7865cd1" kind="function"><name>getInnerEdges</name></member>
     <member refid="group__GeneralGroup_1gac1f4537bd1f66f8d1fd1b74dc72b29c8" kind="function"><name>getInnerEdges</name></member>
-    <member refid="group__GeneralGroup_1ga449e315d715d251f9ea330a4adb206b5" kind="function"><name>getIncidentVerts</name></member>
+    <member refid="group__GeneralGroup_1ga88851d68af903e1acabcb1c58279b4be" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga6552a6e6676abaae7bffe15e1b993c4a" kind="function"><name>getInnerVerts</name></member>
     <member refid="group__GeneralGroup_1ga336c89bb41942449b73eb9fdc6482579" kind="function"><name>makeRegularGridMesh</name></member>
     <member refid="group__GeneralGroup_1gaae27e6fa67b4e0d5a59574d504d53a61" kind="function"><name>makeRegularGridMesh</name></member>
@@ -29291,48 +29317,15 @@
     <member refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga0c68875da8e1de13eb3033e6dcb33bf3" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1gaf899ea32ccf8bf49bb09d834c9d178dd" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1gac68e153a1cf7d72f90f9af6be0555d6e" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1ga68a6c5f7f0cebdd11e11ced071dad1bd" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1ga677df0d98b9a3abfc0733796f1c56c7d" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1ga8f77e1876cab4b371446e7913cb25121" kind="function"><name>Vector</name></member>
-    <member refid="group__GeneralGroup_1gac23bc97fbd4484f943e6ff60af745e75" kind="function"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga9e7dbbc00d422b6370dc679c663c5331" kind="function"><name>operator!=</name></member>
-    <member refid="group__GeneralGroup_1ga0e593b171d655e35f554674f88083c76" kind="function"><name>clear</name></member>
-    <member refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" kind="function"><name>empty</name></member>
-    <member refid="group__GeneralGroup_1ga2816ffd002bac70ab04d1bd18e2c5cfd" kind="function"><name>size</name></member>
-    <member refid="group__GeneralGroup_1ga2c8202f5b1a09ebf0bd5a5a3dc2936fd" kind="function"><name>resize</name></member>
-    <member refid="group__GeneralGroup_1gae081234bbf4fef169d61159d617cf5c6" kind="function"><name>resize</name></member>
-    <member refid="group__GeneralGroup_1ga8a23a61e0e9734a4a33ad686080db6b0" kind="function"><name>resizeNoInit</name></member>
-    <member refid="group__GeneralGroup_1ga291f08448069b69e4286d064907e6fdd" kind="function"><name>capacity</name></member>
-    <member refid="group__GeneralGroup_1ga74f2d276465f6183ec4068d124cbb596" kind="function"><name>reserve</name></member>
-    <member refid="group__GeneralGroup_1ga349375d06b5b75e3b26f9587fe0584f5" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga6bae4e482e7ead78efad9465a5ac085d" kind="function"><name>operator[]</name></member>
-    <member refid="group__GeneralGroup_1ga291ed0f8042c268b0aa65b87497daca1" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="group__GeneralGroup_1ga8d2ff338e3ecf6232044e755e5145fde" kind="function"><name>resizeWithReserve</name></member>
-    <member refid="group__GeneralGroup_1gaf0951dea97b2041bcf0b554bf3f92408" kind="function"><name>autoResizeSet</name></member>
-    <member refid="group__GeneralGroup_1gac42f813829d695e418e088932eacfd6c" kind="function"><name>autoResizeSet</name></member>
-    <member refid="group__GeneralGroup_1ga34cbfbd253ebde3284a83172a4443540" kind="function"><name>autoResizeAt</name></member>
-    <member refid="group__GeneralGroup_1ga5ea16d2aeaa1f2e2d683aade3c67794c" kind="function"><name>push_back</name></member>
-    <member refid="group__GeneralGroup_1ga05637c5798b92bebed2ff7a28c610317" kind="function"><name>push_back</name></member>
-    <member refid="group__GeneralGroup_1ga06fae7c424bf43fc3c4cbbf624496400" kind="function"><name>pop_back</name></member>
-    <member refid="group__GeneralGroup_1ga0d377a848db9d73675bc1849a0810eac" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="group__GeneralGroup_1ga45f2bc56cf356b515e4663756f9603d0" kind="function"><name>front</name></member>
-    <member refid="group__GeneralGroup_1ga94dc9dbf3a73cbe2587df726910c0c62" kind="function"><name>front</name></member>
-    <member refid="group__GeneralGroup_1ga46444b5dbe2a6683e69b0da7019a275a" kind="function"><name>back</name></member>
-    <member refid="group__GeneralGroup_1ga00e105c75d03f3e463940689fbbc9971" kind="function"><name>back</name></member>
-    <member refid="group__GeneralGroup_1ga77de89f2d4e174400377d487cb85aa88" kind="function"><name>beginId</name></member>
-    <member refid="group__GeneralGroup_1ga8c55eb98bf2596f633ff35ce1f8fe00b" kind="function"><name>backId</name></member>
-    <member refid="group__GeneralGroup_1gaffe4aad8fd23742b0de456abb1921fc0" kind="function"><name>endId</name></member>
-    <member refid="group__GeneralGroup_1gaade5514343c87eb684306b423c1c7243" kind="function"><name>data</name></member>
-    <member refid="group__GeneralGroup_1ga3aff297b5a977389219718cb0c834eb7" kind="function"><name>data</name></member>
-    <member refid="group__GeneralGroup_1gae03333f72ab69a79829ae5f0d6d426ef" kind="function"><name>swap</name></member>
-    <member refid="group__GeneralGroup_1ga8adb58b328ca5465266d3859a7bc1d72" kind="function"><name>heapBytes</name></member>
+    <member refid="group__GeneralGroup_1ga2cfec5e1584dd9df4e72448620afecd6" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga3b3384c862003a03c5a0c42f19d8df77" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     <member refid="group__GeneralGroup_1ga6e1f5a59f99a789757cac0330d67bf79" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" kind="function"><name>getAt</name></member>
     <member refid="group__GeneralGroup_1gad8b62d7466c2f210d9618cc9c3fe555f" kind="function"><name>Vector3</name></member>
     <member refid="group__GeneralGroup_1ga8d2060921c3ecd7d080f93c50e1bec51" kind="function"><name>Vector3</name></member>
-    <member refid="group__GeneralGroup_1gaa1b7f648b920d3afcfd29032b79ed8af" kind="function"><name>Vector3</name></member>
+    <member refid="group__GeneralGroup_1gaae6dc9b9d469703114969bff10928505" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+    <member refid="group__GeneralGroup_1ga625ddd9d6e39896d113b6da4942f837e" kind="function"><name>y</name></member>
+    <member refid="group__GeneralGroup_1ga517c223ab427bad801cb3975802e7cf5" kind="function"><name>z</name></member>
     <member refid="group__GeneralGroup_1ga9bfdd0e5562d8003259366aedc1074a5" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1gaf3522428d5137f019a3da623a19222ab" kind="function"><name>diagonal</name></member>
     <member refid="group__GeneralGroup_1ga048dcca2da540bf2d429cbca37e41092" kind="function"><name>plusX</name></member>

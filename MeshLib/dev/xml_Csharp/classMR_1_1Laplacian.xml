@@ -376,6 +376,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Laplacian_1afc2e218ae677c97d29b5fe166c62aa71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Laplacian._Underlying *</type>
+        <definition>static unsafe MR.Laplacian._Underlying * MR.Laplacian.__MR_Laplacian_Construct</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh)</argsstring>
+        <name>__MR_Laplacian_Construct</name>
+        <qualifiedname>MR.Laplacian.__MR_Laplacian_Construct</qualifiedname>
+        <param>
+          <type>MR.Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="563" column="53"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Laplacian_1a655b77ecdbacf70523f903d6fadce7a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Laplacian._Underlying *</type>
         <definition>static unsafe MR.Laplacian._Underlying * MR.Laplacian.__MR_Laplacian_ConstructFromAnother</definition>
@@ -396,32 +414,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="563" column="53"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1aad28ff18dcd2a15190fc0d04db8aac71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Laplacian._Underlying *</type>
-        <definition>static unsafe MR.Laplacian._Underlying * MR.Laplacian.__MR_Laplacian_Construct_1</definition>
-        <argsstring>(MR.Mesh._Underlying *mesh)</argsstring>
-        <name>__MR_Laplacian_Construct_1</name>
-        <qualifiedname>MR.Laplacian.__MR_Laplacian_Construct_1</qualifiedname>
-        <param>
-          <type>MR.Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="566" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a0b93419b16690354aebffb341e6c52af" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Laplacian_1ad119afecfa1d458bc84137dfcb94fa7f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Laplacian._Underlying *</type>
-        <definition>static unsafe MR.Laplacian._Underlying * MR.Laplacian.__MR_Laplacian_Construct_2</definition>
+        <definition>static unsafe MR.Laplacian._Underlying * MR.Laplacian.__MR_Laplacian_Construct_topology</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.VertCoords._Underlying *points)</argsstring>
-        <name>__MR_Laplacian_Construct_2</name>
-        <qualifiedname>MR.Laplacian.__MR_Laplacian_Construct_2</qualifiedname>
+        <name>__MR_Laplacian_Construct_topology</name>
+        <qualifiedname>MR.Laplacian.__MR_Laplacian_Construct_topology</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -522,12 +522,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="581" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1a5f5ef8b723871585a173226c853d348a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Laplacian_1a5f2fb2f3f2a3d11909dea5dec0f1d7e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Laplacian.__MR_Laplacian_fixVertex_2</definition>
+        <definition>static unsafe void MR.Laplacian.__MR_Laplacian_fixVertex</definition>
         <argsstring>(_Underlying *_this, MR.VertId v, byte *smooth)</argsstring>
-        <name>__MR_Laplacian_fixVertex_2</name>
-        <qualifiedname>MR.Laplacian.__MR_Laplacian_fixVertex_2</qualifiedname>
+        <name>__MR_Laplacian_fixVertex</name>
+        <qualifiedname>MR.Laplacian.__MR_Laplacian_fixVertex</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -548,12 +548,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLaplacian.cs" line="584" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Laplacian_1af1d6215e8d1f2ad3e4d0a46e5aeb1013" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Laplacian_1ad3e06bc85ff0bfc49a1775f17bf9b13e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Laplacian.__MR_Laplacian_fixVertex_3</definition>
+        <definition>static unsafe void MR.Laplacian.__MR_Laplacian_fixVertex_pos</definition>
         <argsstring>(_Underlying *_this, MR.VertId v, MR.Vector3f *fixedPos, byte *smooth)</argsstring>
-        <name>__MR_Laplacian_fixVertex_3</name>
-        <qualifiedname>MR.Laplacian.__MR_Laplacian_fixVertex_3</qualifiedname>
+        <name>__MR_Laplacian_fixVertex_pos</name>
+        <qualifiedname>MR.Laplacian.__MR_Laplacian_fixVertex_pos</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -775,11 +775,11 @@
       <member refid="classMR_1_1Laplacian_1a5cbcd3204d4ef84cc453e7f9e8289825" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_apply</name></member>
       <member refid="classMR_1_1Laplacian_1adb6e3466254fcf8f90163e868d915aaf" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_applyToScalar</name></member>
       <member refid="classMR_1_1Laplacian_1a9f8f89d3240b08a8d036c14560c1438f" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_applyToVector</name></member>
-      <member refid="classMR_1_1Laplacian_1aad28ff18dcd2a15190fc0d04db8aac71" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_Construct_1</name></member>
-      <member refid="classMR_1_1Laplacian_1a0b93419b16690354aebffb341e6c52af" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_Construct_2</name></member>
+      <member refid="classMR_1_1Laplacian_1afc2e218ae677c97d29b5fe166c62aa71" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_Construct</name></member>
+      <member refid="classMR_1_1Laplacian_1ad119afecfa1d458bc84137dfcb94fa7f" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_Construct_topology</name></member>
       <member refid="classMR_1_1Laplacian_1a655b77ecdbacf70523f903d6fadce7a1" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_ConstructFromAnother</name></member>
-      <member refid="classMR_1_1Laplacian_1a5f5ef8b723871585a173226c853d348a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_fixVertex_2</name></member>
-      <member refid="classMR_1_1Laplacian_1af1d6215e8d1f2ad3e4d0a46e5aeb1013" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_fixVertex_3</name></member>
+      <member refid="classMR_1_1Laplacian_1a5f2fb2f3f2a3d11909dea5dec0f1d7e7" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_fixVertex</name></member>
+      <member refid="classMR_1_1Laplacian_1ad3e06bc85ff0bfc49a1775f17bf9b13e" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_fixVertex_pos</name></member>
       <member refid="classMR_1_1Laplacian_1ad15624caf74afb42286e7e3c3c958c7e" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_init</name></member>
       <member refid="classMR_1_1Laplacian_1a83a968e66b14a5022924400f13c7f3fc" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_initFromPoints</name></member>
       <member refid="classMR_1_1Laplacian_1ad06f032949bdc8e4a9c2e48f6555a231" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>__MR_Laplacian_multVertexWeight</name></member>

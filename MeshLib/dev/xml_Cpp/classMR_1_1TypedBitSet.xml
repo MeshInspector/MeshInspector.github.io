@@ -41,6 +41,66 @@
         <location file="MRMesh/MRBitSet.h" line="293" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="293" bodyend="-1"/>
       </memberdef>
     </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1TypedBitSet_1a9ae4f2a018d6eac16ba23a9056e328e4" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::TypedBitSet&lt; I &gt;::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <qualifiedname>MR::TypedBitSet::len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="301" column="43" bodyfile="MRMesh/MRBitSet.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TypedBitSet_1abdac1bb72f9bbb489416aea5ef3d48b4" prot="public" static="no" nodiscard="yes" mutable="no">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref> bool</type>
+        <definition>size_type bool MR::TypedBitSet&lt; I &gt;::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>MR::TypedBitSet::val</qualifiedname>
+        <initializer>{ base::set( n, <ref refid="classMR_1_1TypedBitSet_1a9ae4f2a018d6eac16ba23a9056e328e4" kindref="member">len</ref>, val )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="301" column="52" bodyfile="MRMesh/MRBitSet.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TypedBitSet_1a8891857489103a9a56e5cac157615ae9" prot="public" static="no" mutable="no">
+        <type>return *</type>
+        <definition>return * MR::TypedBitSet&lt; I &gt;::this</definition>
+        <argsstring></argsstring>
+        <name>this</name>
+        <qualifiedname>MR::TypedBitSet::this</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="301" column="66" bodyfile="MRMesh/MRBitSet.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1TypedBitSet_1a1b4061fc4492958adbf2e160b06416a1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::TypedBitSet&lt; I &gt;::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>MR::TypedBitSet::val</qualifiedname>
+        <initializer>{ base::set( n, val )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBitSet.h" line="302" column="38" bodyfile="MRMesh/MRBitSet.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1TypedBitSet_1a160d8a64dbfb6bd0daf545ff7dc45d14" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -80,23 +140,14 @@
         </inbodydescription>
         <location file="MRMesh/MRBitSet.h" line="299" column="14" bodyfile="MRMesh/MRBitSet.h" bodystart="299" bodyend="299"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1a45519a54bca8b779e3d28914573976e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1TypedBitSet" kindref="compound">TypedBitSet</ref> &amp;</type>
-        <definition>TypedBitSet &amp; MR::TypedBitSet&lt; I &gt;::set</definition>
-        <argsstring>(IndexType n, size_type len, bool val)</argsstring>
-        <name>set</name>
-        <qualifiedname>MR::TypedBitSet::set</qualifiedname>
+      <memberdef kind="function" id="classMR_1_1TypedBitSet_1a1ce28ea60bf014267ab302af83854330" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::TypedBitSet&lt; I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(range) TypedBitSet &amp;set(IndexType n</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::TypedBitSet::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type><ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref></type>
-          <declname>n</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
+          <type>range</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -104,39 +155,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="301" column="18" bodyfile="MRMesh/MRBitSet.h" bodystart="301" bodyend="301"/>
+        <location file="MRMesh/MRBitSet.h" line="301" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1aa22ea796da263f3c2e2c7e274739372d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1TypedBitSet" kindref="compound">TypedBitSet</ref> &amp;</type>
-        <definition>TypedBitSet &amp; MR::TypedBitSet&lt; I &gt;::set</definition>
-        <argsstring>(IndexType n, bool val)</argsstring>
-        <name>set</name>
-        <qualifiedname>MR::TypedBitSet::set</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref></type>
-          <declname>n</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
-        </param>
+      <memberdef kind="function" id="classMR_1_1TypedBitSet_1ab66d66372b26f3d57c61fe5c474dbd9b" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::TypedBitSet&lt; I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() TypedBitSet &amp;set(IndexType n</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::TypedBitSet::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="302" column="18" bodyfile="MRMesh/MRBitSet.h" bodystart="302" bodyend="302"/>
+        <location file="MRMesh/MRBitSet.h" line="302" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1ad17fe6fa8abe77f9c8278efc75c45378" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1TypedBitSet" kindref="compound">TypedBitSet</ref> &amp;</type>
-        <definition>TypedBitSet &amp; MR::TypedBitSet&lt; I &gt;::set</definition>
-        <argsstring>(IndexType n)</argsstring>
-        <name>set</name>
-        <qualifiedname>MR::TypedBitSet::set</qualifiedname>
+      <memberdef kind="function" id="classMR_1_1TypedBitSet_1ae413cfbec2539660569e30d9f0ee1ebb" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::TypedBitSet&lt; I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(bit) TypedBitSet &amp;set(IndexType n)</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::TypedBitSet::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type><ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref></type>
-          <declname>n</declname>
+          <type>bit</type>
         </param>
         <briefdescription>
 <para>Not using a default argument for <computeroutput>val</computeroutput> to get better C bindings. </para>
@@ -145,21 +187,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="303" column="18" bodyfile="MRMesh/MRBitSet.h" bodystart="303" bodyend="303"/>
+        <location file="MRMesh/MRBitSet.h" line="303" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="303" bodyend="303"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1a5e98a6921676543e769cbc42e1d08110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1TypedBitSet" kindref="compound">TypedBitSet</ref> &amp;</type>
-        <definition>TypedBitSet &amp; MR::TypedBitSet&lt; I &gt;::set</definition>
-        <argsstring>()</argsstring>
-        <name>set</name>
-        <qualifiedname>MR::TypedBitSet::set</qualifiedname>
+      <memberdef kind="function" id="classMR_1_1TypedBitSet_1a4d5dda3eb124f77008d653d5c8d290ff" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::TypedBitSet&lt; I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(all) TypedBitSet &amp;set()</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::TypedBitSet::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a112ab209d0b98ba80237157538fe4f30" kindref="member">all</ref></type>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="304" column="18" bodyfile="MRMesh/MRBitSet.h" bodystart="304" bodyend="304"/>
+        <location file="MRMesh/MRBitSet.h" line="304" column="5" bodyfile="MRMesh/MRBitSet.h" bodystart="304" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TypedBitSet_1a280c9bf73f9fad3ead31cb2ac888da8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -572,24 +617,14 @@
         </inbodydescription>
         <location file="MRMesh/MRBitSet.h" line="354" column="11" bodyfile="MRMesh/MRBitSet.h" bodystart="354" bodyend="354"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1a68171098d647c6f4bce72bdded8ed1e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::TypedBitSet&lt; I &gt;::autoResizeSet</definition>
-        <argsstring>(IndexType pos, size_type len, bool val=true)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR::TypedBitSet::autoResizeSet</qualifiedname>
+      <memberdef kind="function" id="classMR_1_1TypedBitSet_1a3064eba67b2c18af6fe85c9019a7faf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::TypedBitSet&lt; I &gt;::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(range) void autoResizeSet(IndexType pos</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::TypedBitSet::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type><ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
-          <declname>len</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
-          <defval>true</defval>
+          <type>range</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -597,77 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="356" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="356" bodyend="356"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1ac084b6f0e50d9d3d70c694580d4453e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::TypedBitSet&lt; I &gt;::autoResizeSet</definition>
-        <argsstring>(IndexType pos, bool val=true)</argsstring>
-        <name>autoResizeSet</name>
-        <qualifiedname>MR::TypedBitSet::autoResizeSet</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="357" column="10" bodyfile="MRMesh/MRBitSet.h" bodystart="357" bodyend="357"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1acb1f6a8f6fc880f058586b91e7a28f0f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::TypedBitSet&lt; I &gt;::autoResizeTestSet</definition>
-        <argsstring>(IndexType pos, bool val=true)</argsstring>
-        <name>autoResizeTestSet</name>
-        <qualifiedname>MR::TypedBitSet::autoResizeTestSet</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" kindref="member">IndexType</ref></type>
-          <declname>pos</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>val</declname>
-          <defval>true</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="358" column="11" bodyfile="MRMesh/MRBitSet.h" bodystart="358" bodyend="358"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TypedBitSet_1ae94c743dc8b5ce0898c5e3e4cbf884d6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref></type>
-          </param>
-        </templateparamlist>
-        <type><ref refid="classMR_1_1TypedBitSet" kindref="compound">TypedBitSet</ref></type>
-        <definition>TypedBitSet MR::TypedBitSet&lt; I &gt;::getMapping</definition>
-        <argsstring>(const M &amp;map) const</argsstring>
-        <name>getMapping</name>
-        <qualifiedname>MR::TypedBitSet::getMapping</qualifiedname>
-        <param>
-          <type>const <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &amp;</type>
-          <declname>map</declname>
-        </param>
-        <briefdescription>
-<para>constructs another bit set from this where every set bit index is transformed using given map </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRBitSet.h" line="362" column="18"/>
+        <location file="MRMesh/MRBitSet.h" line="356" column="5"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1TypedBitSet_1ae0cd24595367501d92c1d903b48d8719" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="classMR_1_1TypedBitSet" kindref="compound">TypedBitSet</ref></type>
@@ -1224,12 +1189,6 @@
       <member refid="classMR_1_1BitSet_1a51f26b5e2a5f81eed95766439f200000" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>any</name></member>
       <member refid="classMR_1_1TypedBitSet_1a280c9bf73f9fad3ead31cb2ac888da8e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>atomicTestSet</name></member>
       <member refid="classMR_1_1BitSet_1a2681ea331742547c197cd373884d917c" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>atomicTestSet</name></member>
-      <member refid="classMR_1_1TypedBitSet_1a68171098d647c6f4bce72bdded8ed1e2" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>autoResizeSet</name></member>
-      <member refid="classMR_1_1TypedBitSet_1ac084b6f0e50d9d3d70c694580d4453e1" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>autoResizeSet</name></member>
-      <member refid="classMR_1_1BitSet_1ab61cde9e7da6d5d6c75fefd11e2e6a24" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>autoResizeSet</name></member>
-      <member refid="classMR_1_1BitSet_1a737f8cc71944c7c750f8eeba4028ac17" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>autoResizeSet</name></member>
-      <member refid="classMR_1_1TypedBitSet_1acb1f6a8f6fc880f058586b91e7a28f0f" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>autoResizeTestSet</name></member>
-      <member refid="classMR_1_1BitSet_1a84a9273303ae000bcf94b893a298eb95" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>autoResizeTestSet</name></member>
       <member refid="classMR_1_1TypedBitSet_1a1e7bde75493bee03d4d0858b1511edb7" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>backId</name></member>
       <member refid="classMR_1_1TypedBitSet_1af6d08ef86011fef8bb77807a324470dc" prot="private" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>base</name></member>
       <member refid="classMR_1_1TypedBitSet_1a7431dbea0877010d6fe6071a4079e4f0" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>begin</name></member>
@@ -1254,13 +1213,14 @@
       <member refid="classMR_1_1BitSet_1ab3c6d3157f3b02affcf7def04eb60c31" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>find_next</name></member>
       <member refid="classMR_1_1TypedBitSet_1a9e9b2d36de208900d099d40529a7caa6" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>find_next_not_set</name></member>
       <member refid="classMR_1_1BitSet_1a552e222c0bee74a65f294cdbec098310" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classMR_1_1BitSet_1ad9e0a275c5788e83a990cca3d5b88b3e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>findNonSetBitAfter_</name></member>
+      <member refid="classMR_1_1BitSet_1a782fcf4be895063694c85917cf0adc2c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>findSetBitAfter_</name></member>
       <member refid="classMR_1_1TypedBitSet_1aa605696838774383149d2e67d739875c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1TypedBitSet_1a1bf55d1e5884853bb8ddff311e4d2cdb" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1TypedBitSet_1a783e25520435d7024b7edd437846d218" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1BitSet_1a93e21fb90c6e66305939698ba328dfb4" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1BitSet_1af5fff3291406197a18b73907ba6d0ad0" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1BitSet_1a8bb32afb9d02a11bf7c980344babc472" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>fromBlocks</name></member>
-      <member refid="classMR_1_1TypedBitSet_1ae94c743dc8b5ce0898c5e3e4cbf884d6" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1TypedBitSet_1ae0cd24595367501d92c1d903b48d8719" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1TypedBitSet_1af731611c94c36dd23e44c15f8d81127b" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1TypedBitSet_1a0f5101ff8af97777e9bac69ed357f6aa" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
@@ -1269,12 +1229,17 @@
       <member refid="classMR_1_1TypedBitSet_1a26dcfe764bcfba79f19d2050ee47a416" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
       <member refid="group__BasicGroup_1gabefbd707048572a74df60a453534dbab" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
       <member refid="group__BasicGroup_1ga37348afa24bcbc43d3a71e35e02267d6" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>getMapping</name></member>
-      <member refid="classMR_1_1BitSet_1ae5007749dadb7430dc9dedb73114f9a6" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1TypedBitSet_1a7434b47b953a52e27cb6a6c645c7ca9e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>IndexType</name></member>
       <member refid="classMR_1_1TypedBitSet_1a05915b74cec96003f0e381fe2472ac6b" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1BitSet_1a8b3601282d28190fc25476e611829852" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>intersects</name></member>
       <member refid="classMR_1_1TypedBitSet_1a52925d5095533a7b638c2cdef31f594a" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>is_subset_of</name></member>
       <member refid="classMR_1_1BitSet_1af25621ad18727451aa9a89f69e9f75b6" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classMR_1_1TypedBitSet_1a9ae4f2a018d6eac16ba23a9056e328e4" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>len</name></member>
+      <member refid="classMR_1_1TypedBitSet_1a1ce28ea60bf014267ab302af83854330" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="classMR_1_1TypedBitSet_1ab66d66372b26f3d57c61fe5c474dbd9b" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="classMR_1_1TypedBitSet_1ae413cfbec2539660569e30d9f0ee1ebb" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="classMR_1_1TypedBitSet_1a4d5dda3eb124f77008d653d5c8d290ff" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="classMR_1_1TypedBitSet_1a3064eba67b2c18af6fe85c9019a7faf9" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="classMR_1_1BitSet_1ae93bbbefc2bee256a329ec3ac480f963" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>none</name></member>
       <member refid="classMR_1_1BitSet_1af09b9c83f7a055fa6ea95e83b7fee246" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>npos</name></member>
       <member refid="classMR_1_1TypedBitSet_1af128e7c662fdfb16768d3f19de265794" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>nthSetBit</name></member>
@@ -1303,22 +1268,17 @@
       <member refid="classMR_1_1BitSet_1a627357e95c82ecc40d8d2d35e2d9dee6" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>operator|=</name></member>
       <member refid="classMR_1_1BitSet_1af4799e91aeb36deab4540ac14bf16e98" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>pop_back</name></member>
       <member refid="classMR_1_1BitSet_1acfad508aa764e014db0ace9f3fc05f93" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>push_back</name></member>
+      <member refid="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>rangeOp_</name></member>
       <member refid="classMR_1_1BitSet_1a40738ebf472136cc76b60d1563edb0de" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>reserve</name></member>
       <member refid="classMR_1_1TypedBitSet_1a56718438dc2893dac6d917709a0af6aa" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1TypedBitSet_1ae8d95e98e9c75e421fa7b11cac718833" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1TypedBitSet_1ac518899e0d130c7defa17020e6531157" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1BitSet_1a784dcb0f29bf20a645a4267b68d0d6ae" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>reset</name></member>
       <member refid="classMR_1_1BitSet_1aa2267b11bc02d8a216df148fdccc02a3" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1BitSet_1a0966c6f93f6bcb45363b0a0faeb6372f" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>resetUnusedBits_</name></member>
       <member refid="classMR_1_1BitSet_1a97ddc08a16b1455bbb930a302244937b" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>resize</name></member>
       <member refid="classMR_1_1BitSet_1ac7929d81a23ad4ff51c472f0d1c992d5" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1BitSet_1ab21cd56d68b78fe434b450e0edbc8a52" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>reverse</name></member>
-      <member refid="classMR_1_1TypedBitSet_1a45519a54bca8b779e3d28914573976e4" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>set</name></member>
-      <member refid="classMR_1_1TypedBitSet_1aa22ea796da263f3c2e2c7e274739372d" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>set</name></member>
-      <member refid="classMR_1_1TypedBitSet_1ad17fe6fa8abe77f9c8278efc75c45378" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>set</name></member>
-      <member refid="classMR_1_1TypedBitSet_1a5e98a6921676543e769cbc42e1d08110" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>set</name></member>
-      <member refid="classMR_1_1BitSet_1a597ed58dd86315f71c893994b7bb46c4" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>set</name></member>
-      <member refid="classMR_1_1BitSet_1abc51849e29c44edfdbf413c84b74f4c6" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>set</name></member>
-      <member refid="classMR_1_1BitSet_1a6f625bd1a775ce33f59b769411f2d7e7" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1BitSet_1af71838c1900e9dd77091a6e2204b2a69" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>shrink_to_fit</name></member>
       <member refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>size</name></member>
       <member refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>size_type</name></member>
@@ -1328,10 +1288,13 @@
       <member refid="classMR_1_1BitSet_1aab6d4690169ae21969bc5f538fc8fbff" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>test</name></member>
       <member refid="classMR_1_1TypedBitSet_1a0aa7b935d8b7848c1ac69d22eb1d799e" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>test_set</name></member>
       <member refid="classMR_1_1BitSet_1a85be34ba3bb731ce828ca21c67b1413c" prot="public" virt="non-virtual" ambiguityscope="MR::BitSet::"><scope>MR::TypedBitSet</scope><name>test_set</name></member>
+      <member refid="classMR_1_1TypedBitSet_1a8891857489103a9a56e5cac157615ae9" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>this</name></member>
       <member refid="classMR_1_1TypedBitSet_1a160d8a64dbfb6bd0daf545ff7dc45d14" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>TypedBitSet</name></member>
       <member refid="classMR_1_1TypedBitSet_1acea394abbd9a933a8c30dcff23618a19" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>TypedBitSet</name></member>
       <member refid="classMR_1_1BitSet_1a88d7cb003f37bb4ff177bf6082074305" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>uncheckedTest</name></member>
       <member refid="classMR_1_1BitSet_1aa1f040574bd60bfde685c9747f1e689c" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1TypedBitSet_1abdac1bb72f9bbb489416aea5ef3d48b4" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>val</name></member>
+      <member refid="classMR_1_1TypedBitSet_1a1b4061fc4492958adbf2e160b06416a1" prot="public" virt="non-virtual"><scope>MR::TypedBitSet</scope><name>val</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

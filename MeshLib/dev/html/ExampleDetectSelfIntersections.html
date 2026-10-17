@@ -218,7 +218,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// find self-intersecting faces pairs</span></div>
-<div class="line">    MR_expected_std_vector_MR_FaceFace_std_string* selfCollidingPairsRes = MR_findSelfCollidingTriangles_4( mp, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
+<div class="line">    MR_expected_std_vector_MR_FaceFace_std_string* selfCollidingPairsRes = MR_findSelfCollidingTriangles( mp, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
 <div class="line">    MR_std_vector_MR_FaceFace* selfCollidingPairs = MR_expected_std_vector_MR_FaceFace_std_string_value_mut( selfCollidingPairsRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !selfCollidingPairs )</div>
 <div class="line">    {</div>
@@ -247,7 +247,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)MR_FaceBitSet_count( selfCollidingBitSet ) );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// fast check if mesh has self-intersections</span></div>
-<div class="line">    MR_expected_bool_std_string* isSelfCollidingRes = MR_findSelfCollidingTriangles_5( mp, NULL, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
+<div class="line">    MR_expected_bool_std_string* isSelfCollidingRes = MR_findSelfCollidingTriangles_outPairs( mp, NULL, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
 <div class="line">    <span class="keywordtype">bool</span>* isSelfColliding = MR_expected_bool_std_string_value_mut( isSelfCollidingRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !isSelfColliding )</div>
 <div class="line">    {</div>

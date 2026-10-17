@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8938" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a2da4e5646d8118b7f85d2c355bca683d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a47d7cb0e2671bfac9cc1dd1a805083f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.NodeId pos, byte *val)</argsstring>
-        <name>__MR_NodeBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_NodeBitSet_autoResizeSet</name>
+        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8941" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a7d9dfd677a7368de8c2aa27b66417d67" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a8c7244137fa4e53505b764ed2e6cef5a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.NodeId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_NodeBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_NodeBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8992" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a11f2b1951191ac728ab260e09773b7f8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a973f6975fa65a54a9aeba869503e2227" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.NodeBitSet._Underlying *</type>
-        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_NodeBitSet_set_0</name>
-        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8995" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NodeBitSet_1acb6d5000bc17c62166d2bfc29b98348a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NodeBitSet._Underlying *</type>
-        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.NodeId n)</argsstring>
-        <name>__MR_NodeBitSet_set_1</name>
-        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8998" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1NodeBitSet_1af5ef5271a3d613708817abcbf1f6a9ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.NodeBitSet._Underlying *</type>
-        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_2</definition>
+        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.NodeId n, byte val)</argsstring>
-        <name>__MR_NodeBitSet_set_2</name>
-        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_2</qualifiedname>
+        <name>__MR_NodeBitSet_set</name>
+        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8995" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a1135f93a08f39221c4eeddc99618157a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.NodeBitSet._Underlying *</type>
+        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_NodeBitSet_set_all</name>
+        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8998" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NodeBitSet_1ac0ecf486f5e42b998a0b555233f57157" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.NodeBitSet._Underlying *</type>
+        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.NodeId n)</argsstring>
+        <name>__MR_NodeBitSet_set_bit</name>
+        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="9001" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1NodeBitSet_1a664d137322c6570f16edce7693f403c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1NodeBitSet_1ad265330a79953ecc3e45188360927755" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.NodeBitSet._Underlying *</type>
-        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_3</definition>
+        <definition>static unsafe MR.NodeBitSet._Underlying * MR.NodeBitSet.__MR_NodeBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.NodeId n, nuint len, byte val)</argsstring>
-        <name>__MR_NodeBitSet_set_3</name>
-        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_3</qualifiedname>
+        <name>__MR_NodeBitSet_set_range</name>
+        <qualifiedname>MR.NodeBitSet.__MR_NodeBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1648,8 +1648,8 @@
     <listofallmembers>
       <member refid="classMR_1_1NodeBitSet_1a379af04f8f8b16c82ce9375134f10544" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1NodeBitSet_1aee78fa89be78e824c8a56431c378b753" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1NodeBitSet_1a2da4e5646d8118b7f85d2c355bca683d" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1NodeBitSet_1a7d9dfd677a7368de8c2aa27b66417d67" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1NodeBitSet_1a47d7cb0e2671bfac9cc1dd1a805083f0" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1NodeBitSet_1a8c7244137fa4e53505b764ed2e6cef5a" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1NodeBitSet_1a8c84c4b79111c7a9ae36b613d1d194be" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1NodeBitSet_1a4fafea98956d98d8a8f0f2575c85c6dc" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1NodeBitSet_1a9a53f4e4881f4e1a260200f9d304ee1a" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_bitor_assign</name></member>
@@ -1671,10 +1671,10 @@
       <member refid="classMR_1_1NodeBitSet_1ad1322cd85404650ff2a8e34763c411f9" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_resize</name></member>
       <member refid="classMR_1_1NodeBitSet_1a93dd3cb7656a0a8f7ed69d6d427c87b8" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1NodeBitSet_1ae5a708c6a681498b20586e50347927c9" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_reverse</name></member>
-      <member refid="classMR_1_1NodeBitSet_1a11f2b1951191ac728ab260e09773b7f8" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_0</name></member>
-      <member refid="classMR_1_1NodeBitSet_1acb6d5000bc17c62166d2bfc29b98348a" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_1</name></member>
-      <member refid="classMR_1_1NodeBitSet_1af5ef5271a3d613708817abcbf1f6a9ca" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_2</name></member>
-      <member refid="classMR_1_1NodeBitSet_1a664d137322c6570f16edce7693f403c7" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_3</name></member>
+      <member refid="classMR_1_1NodeBitSet_1a973f6975fa65a54a9aeba869503e2227" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set</name></member>
+      <member refid="classMR_1_1NodeBitSet_1a1135f93a08f39221c4eeddc99618157a" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_all</name></member>
+      <member refid="classMR_1_1NodeBitSet_1ac0ecf486f5e42b998a0b555233f57157" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_bit</name></member>
+      <member refid="classMR_1_1NodeBitSet_1ad265330a79953ecc3e45188360927755" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_set_range</name></member>
       <member refid="classMR_1_1NodeBitSet_1a53d48530862b5d3d980cde8e643bb9e4" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1NodeBitSet_1af847217b3d45005ce263cf7521a3782a" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_sub_assign</name></member>
       <member refid="classMR_1_1NodeBitSet_1afb04306a7a40443495e0a99613211524" prot="private" virt="non-virtual"><scope>MR::NodeBitSet</scope><name>__MR_NodeBitSet_subtract</name></member>

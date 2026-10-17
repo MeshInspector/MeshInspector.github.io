@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2174" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertBitSet_1ae9b835fddff3a236a5c172375e6010e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertBitSet_1aa5e99b8483c8980c684deb58a4fe69ec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.VertBitSet.__MR_VertBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.VertBitSet.__MR_VertBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.VertId pos, byte *val)</argsstring>
-        <name>__MR_VertBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_VertBitSet_autoResizeSet</name>
+        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2177" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertBitSet_1a59b397a02679b17e0ac46c467bb48512" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertBitSet_1a5af23fdabb2a5076196b4c73f37900c4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.VertBitSet.__MR_VertBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.VertBitSet.__MR_VertBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.VertId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_VertBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_VertBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2228" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertBitSet_1afc64d8706c7501b16d756cfb4c0b5e35" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertBitSet_1a4e395875e38067ad4b7a40aa97881001" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_VertBitSet_set_0</name>
-        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2231" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertBitSet_1a9076dbf44b2e9baf3227a9d29be1e0a2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.VertId n)</argsstring>
-        <name>__MR_VertBitSet_set_1</name>
-        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2234" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertBitSet_1aac1e435d5f39043a4ae33dba4673096e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_2</definition>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.VertId n, byte val)</argsstring>
-        <name>__MR_VertBitSet_set_2</name>
-        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_2</qualifiedname>
+        <name>__MR_VertBitSet_set</name>
+        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2231" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertBitSet_1a259b654c13f6ebd1bade66e2794dad00" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertBitSet._Underlying *</type>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VertBitSet_set_all</name>
+        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2234" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertBitSet_1aee037bdb23c786caacc6ab0577688e4b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertBitSet._Underlying *</type>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.VertId n)</argsstring>
+        <name>__MR_VertBitSet_set_bit</name>
+        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="2237" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertBitSet_1a33b80f684b7fbffd31219401d464f42b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertBitSet_1ae13dd1a93647b40436cfa92c34c11e19" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_3</definition>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.VertBitSet.__MR_VertBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.VertId n, nuint len, byte val)</argsstring>
-        <name>__MR_VertBitSet_set_3</name>
-        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_3</qualifiedname>
+        <name>__MR_VertBitSet_set_range</name>
+        <qualifiedname>MR.VertBitSet.__MR_VertBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1658,8 +1658,8 @@
     <listofallmembers>
       <member refid="classMR_1_1VertBitSet_1ad915722ceaea31df7fd15dd432cff189" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1VertBitSet_1a6faab50362a2cd7fadc31f708fc5cc0d" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1VertBitSet_1ae9b835fddff3a236a5c172375e6010e9" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1VertBitSet_1a59b397a02679b17e0ac46c467bb48512" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1VertBitSet_1aa5e99b8483c8980c684deb58a4fe69ec" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1VertBitSet_1a5af23fdabb2a5076196b4c73f37900c4" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1VertBitSet_1ad7cb0fa1cf42052b646a9425a822f537" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1VertBitSet_1a29b21f4810fdb47d73200c6dc956c9a7" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1VertBitSet_1a424c847bea7dc2ed769dec3d66aa1b44" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_bitor_assign</name></member>
@@ -1681,10 +1681,10 @@
       <member refid="classMR_1_1VertBitSet_1a9a31ad02c3f6f666d7efc208a1e58915" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_resize</name></member>
       <member refid="classMR_1_1VertBitSet_1ae1a80288239dc97c7482c76652d4e2cd" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1VertBitSet_1a9e1ed56db0408e8c81ae22d02576f8bb" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_reverse</name></member>
-      <member refid="classMR_1_1VertBitSet_1afc64d8706c7501b16d756cfb4c0b5e35" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_0</name></member>
-      <member refid="classMR_1_1VertBitSet_1a9076dbf44b2e9baf3227a9d29be1e0a2" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_1</name></member>
-      <member refid="classMR_1_1VertBitSet_1aac1e435d5f39043a4ae33dba4673096e" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_2</name></member>
-      <member refid="classMR_1_1VertBitSet_1a33b80f684b7fbffd31219401d464f42b" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_3</name></member>
+      <member refid="classMR_1_1VertBitSet_1a4e395875e38067ad4b7a40aa97881001" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set</name></member>
+      <member refid="classMR_1_1VertBitSet_1a259b654c13f6ebd1bade66e2794dad00" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_all</name></member>
+      <member refid="classMR_1_1VertBitSet_1aee037bdb23c786caacc6ab0577688e4b" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_bit</name></member>
+      <member refid="classMR_1_1VertBitSet_1ae13dd1a93647b40436cfa92c34c11e19" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_set_range</name></member>
       <member refid="classMR_1_1VertBitSet_1ab56f6e16afc7f7d34f26d3df82943217" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1VertBitSet_1adc3ff414d560218015d029ad4d0f6650" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_sub_assign</name></member>
       <member refid="classMR_1_1VertBitSet_1a0ff6182b2f55afaee9e65e38be3d2686" prot="private" virt="non-virtual"><scope>MR::VertBitSet</scope><name>__MR_VertBitSet_subtract</name></member>

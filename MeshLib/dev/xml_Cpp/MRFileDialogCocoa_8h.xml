@@ -138,7 +138,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail" kindref="compound">MR::detail</ref></highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::filesystem::path&gt;<sp/><ref refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kindref="member">runCocoaFileDialog</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FileDialog_1_1Parameters" kindref="compound">MR::FileDialog::Parameters</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="9" refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::vector&lt;std::filesystem::path&gt;<sp/><ref refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kindref="member">runCocoaFileDialog</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FileDialog_1_1Parameters" kindref="compound">MR::FileDialog::Parameters</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1ga5eb87f0ab1d7fca53c85caa95f287e69" kindref="member">params</ref><sp/>);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>
     </programlisting>

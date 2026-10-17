@@ -596,6 +596,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30723" column="80"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1aa6930b913f2f3bd0f982a972e21f59a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30726" column="80"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ae444ae408748ed58327b75dc8ec974c2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying *</type>
         <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_ConstructFromAnother</definition>
@@ -616,35 +634,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30726" column="80"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30729" column="80"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a25bff2a676ce81abe7e2779424f3b97d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a75e912953643872b1a96b2f9fb43d4c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Std.Const_Vector_MREdgePoint._Underlying *val)</argsstring>
+        <name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_fill</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30729" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afa5d3fa3a1f6037e46da2ed1054421d0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_std_vector_std_vector_MR_EdgePoint</definition>
-        <argsstring>(MR.Std.Vector_StdVectorMREdgePoint._Underlying *vec)</argsstring>
-        <name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_std_vector_std_vector_MR_EdgePoint</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_std_vector_std_vector_MR_EdgePoint</qualifiedname>
         <param>
-          <type>MR.Std.Vector_StdVectorMREdgePoint._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Std.Const_Vector_MREdgePoint._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -654,19 +658,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="30732" column="80"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6e85b7260cb3f60452442b745c79718a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac7e53a2c76173390dd5883a71df04284" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_2</definition>
-        <argsstring>(nuint size, MR.Std.Const_Vector_MREdgePoint._Underlying *val)</argsstring>
-        <name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_2</name>
-        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_StdVectorMREdgePoint_MRVertId._Underlying * MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_StdVectorMREdgePoint._Underlying *vec)</argsstring>
+        <name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_StdVectorMREdgePoint_MRVertId.__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Vector_MREdgePoint._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_StdVectorMREdgePoint._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1190,9 +1190,9 @@
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1aa0e843566e845164fd8068de9fe5823a" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a688c83af88f2fe3e1b58838d7ca74fce" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_back_mut</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a1b61d1f8b1dca6b6fdd5dcfaf29e1cfb" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_clear</name></member>
-      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a25bff2a676ce81abe7e2779424f3b97d" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1afa5d3fa3a1f6037e46da2ed1054421d0" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_1_std_vector_std_vector_MR_EdgePoint</name></member>
-      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6e85b7260cb3f60452442b745c79718a" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1aa6930b913f2f3bd0f982a972e21f59a8" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a75e912953643872b1a96b2f9fb43d4c6" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac7e53a2c76173390dd5883a71df04284" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ae444ae408748ed58327b75dc8ec974c2" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a39f0558ca2120aca0014a3d44cd5f4fc" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_data_mut</name></member>
       <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a68926005f433328c151038327eeb8aa6" prot="private" virt="non-virtual"><scope>MR::Vector_StdVectorMREdgePoint_MRVertId</scope><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_DefaultConstruct</name></member>

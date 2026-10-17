@@ -245,7 +245,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    <span class="comment">// Load meshes:</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// First mesh, which will be moved.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshFloatingEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshFloatingEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* meshFloating = MR_expected_MR_Mesh_std_string_value_mut( meshFloatingEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshFloating )</div>
 <div class="line">    {</div>
@@ -254,7 +254,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Second mesh, static.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshReferenceEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshReferenceEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* meshReference = MR_expected_MR_Mesh_std_string_value_mut( meshReferenceEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshReference )</div>
 <div class="line">    {</div>
@@ -263,7 +263,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( meshReference, NULL );</div>
+<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox( meshReference, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> diagonal = MR_Box3f_diagonal( &amp;bbox );</div>
 <div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
 <div class="line">    MR_ICPProperties* icpParams = MR_ICPProperties_DefaultConstruct();</div>
@@ -278,7 +278,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    MR_MeshOrPoints_Destroy( fltMop );</div>
 <div class="line">    MR_MeshOrPoints_Destroy( refMop );</div>
 <div class="line"> </div>
-<div class="line">    MR_ICP* icp = MR_ICP_Construct_3( flt, ref, icpSamplingVoxelSize );</div>
+<div class="line">    MR_ICP* icp = MR_ICP_Construct( flt, ref, icpSamplingVoxelSize );</div>
 <div class="line">    MR_ICP_setParams( icp, icpParams );</div>
 <div class="line">    MR_ICPProperties_Destroy( icpParams );</div>
 <div class="line">    MR_AffineXf3f xf = MR_ICP_calculateTransformation( icp );</div>
@@ -298,7 +298,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">    MR_MeshOrPointsXf_Destroy( ref );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

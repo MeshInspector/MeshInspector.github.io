@@ -488,25 +488,14 @@
         </inbodydescription>
         <location file="MRMesh/MRPointCloudRadius.h" line="14" column="8" declfile="MRMesh/MRPointCloudRadius.h" declline="14" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointCloudGroup_1gab9585f4e631931775325d348d2b41f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::relax</definition>
-        <argsstring>(PointCloud &amp;pointCloud, const PointCloudRelaxParams &amp;params={}, ProgressCallback cb={})</argsstring>
-        <name>relax</name>
-        <qualifiedname>MR::relax</qualifiedname>
+      <memberdef kind="function" id="group__PointCloudGroup_1gaccd91f9d5a08418da1f899a4b2026e4b" prot="public" static="no" const="no" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(pointCloud) 1 bool relax(PointCloud &amp;pointCloud</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>PointCloud &amp;</type>
-          <declname>pointCloud</declname>
-        </param>
-        <param>
-          <type>const PointCloudRelaxParams &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>ProgressCallback</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
+          <type>pointCloud</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -517,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloudRelax.h" line="21" column="7" declfile="MRMesh/MRPointCloudRelax.h" declline="21" declcolumn="7"/>
+        <location file="MRMesh/MRPointCloudRelax.h" line="21" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__PointCloudGroup_1ga98ac77273eb374aff599b70216768f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>

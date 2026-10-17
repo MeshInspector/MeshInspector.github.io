@@ -327,30 +327,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="38" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" bodystart="38" bodyend="43"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a4e955b72215055d2ba7dc2e3659ce5b5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
-        <definition>static unsafe MR.Vector3b MR.ConstBox_Vector3b.__MR_Vector3b_Construct_1</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_Vector3b_Construct_1</name>
-        <qualifiedname>MR.ConstBox_Vector3b.__MR_Vector3b_Construct_1</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="249" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a0f019b849cdf169a12d23e55805bd989" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a5cb1f0b2f203468ea2529abcadaf1c6c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
-        <definition>static MR.Vector3b MR.ConstBox_Vector3b.__MR_Vector3b_Construct_3</definition>
+        <definition>static MR.Vector3b MR.ConstBox_Vector3b.__MR_Vector3b_Construct</definition>
         <argsstring>(byte x, byte y, byte z)</argsstring>
-        <name>__MR_Vector3b_Construct_3</name>
-        <qualifiedname>MR.ConstBox_Vector3b.__MR_Vector3b_Construct_3</qualifiedname>
+        <name>__MR_Vector3b_Construct</name>
+        <qualifiedname>MR.ConstBox_Vector3b.__MR_Vector3b_Construct</qualifiedname>
         <param>
           <type>byte</type>
           <declname>x</declname>
@@ -369,7 +351,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="252" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="249" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a49f14b5456396f92902e15910a0aedd3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
+        <definition>static unsafe MR.Vector3b MR.ConstBox_Vector3b.__MR_Vector3b_Construct_MR_NoInit</definition>
+        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
+        <name>__MR_Vector3b_Construct_MR_NoInit</name>
+        <qualifiedname>MR.ConstBox_Vector3b.__MR_Vector3b_Construct_MR_NoInit</qualifiedname>
+        <param>
+          <type>MR.NoInit._Underlying *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="252" column="41"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Vector3b_1a1ed7a68de75164db0bd6b82702b741ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Vector3b" kindref="compound">MR.Vector3b</ref></type>
@@ -1056,8 +1056,8 @@
       <member refid="classMR_1_1ConstBox__Vector3b_1a042bec1866715e2693df776928bb96df" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_neg_MR_Vector3b</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a0d93f64dfe75ca41b75496487aecc96e" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_pos_MR_Vector3b</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a046e1e36aeb6e19ec34136ca5f031529" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_sub_MR_Vector3b</name></member>
-      <member refid="classMR_1_1ConstBox__Vector3b_1a4e955b72215055d2ba7dc2e3659ce5b5" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_Construct_1</name></member>
-      <member refid="classMR_1_1ConstBox__Vector3b_1a0f019b849cdf169a12d23e55805bd989" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_Construct_3</name></member>
+      <member refid="classMR_1_1ConstBox__Vector3b_1a5cb1f0b2f203468ea2529abcadaf1c6c" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_Construct</name></member>
+      <member refid="classMR_1_1ConstBox__Vector3b_1a49f14b5456396f92902e15910a0aedd3" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_Construct_MR_NoInit</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1a1ed7a68de75164db0bd6b82702b741ca" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_DefaultConstruct</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1ac57c5f7634fbbc41fd2466a20c82423e" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_diagonal</name></member>
       <member refid="classMR_1_1ConstBox__Vector3b_1ae76e11e43d6c4c47e4a68dd55445b276" prot="private" virt="non-virtual"><scope>MR::ConstBox_Vector3b</scope><name>__MR_Vector3b_Get_elements</name></member>

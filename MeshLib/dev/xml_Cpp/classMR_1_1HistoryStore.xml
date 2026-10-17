@@ -90,7 +90,7 @@
         <location file="MRViewer/MRHistoryStore.h" line="82" column="5" bodyfile="MRViewer/MRHistoryStore.h" bodystart="83" bodyend="93"/>
       </memberdef>
       <memberdef kind="typedef" id="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" prot="public" static="no">
-        <type>boost::signals2::signal&lt; void(<ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> &amp;store, <ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref>, std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt; action)&gt;</type>
+        <type>boost::signals2::signal&lt; void(<ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> &amp;<ref refid="group__GeneralGroup_1ga018938df5d34ea1035a4d0c57d9f9708" kindref="member">store</ref>, <ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref>, std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt; action)&gt;</type>
         <definition>using MR::HistoryStore::HistoryStoreChangedSignal =  boost::signals2::signal&lt;void( HistoryStore&amp; store, ChangeType, std::shared_ptr&lt;HistoryAction&gt; action )&gt;</definition>
         <argsstring></argsstring>
         <name>HistoryStoreChangedSignal</name>

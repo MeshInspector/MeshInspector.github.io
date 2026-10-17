@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7651" column="50"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a17de158d4ae05dc6f7ad05e734c08dd9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.ObjMap._Underlying *</type>
+        <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_ObjMap_Construct</name>
+        <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7654" column="50"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ObjMap_1a55d5251aa3402c505e0892e29fc7a561" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ObjMap._Underlying *</type>
         <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7654" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7657" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a807131f4d669d5fe70f822a6c2395ddb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1aa99621bd0eebab5c2d25f0e99c3856b8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ObjMap._Underlying *</type>
-        <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_ObjMap_Construct_1_size_t</name>
-        <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct_fill</definition>
+        <argsstring>(nuint size, MR.ObjId *val)</argsstring>
+        <name>__MR_ObjMap_Construct_fill</name>
+        <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7657" column="50"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1ad0f5f71877fb9519c6704f63d03cbc9f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.ObjMap._Underlying *</type>
-        <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct_1_std_vector_MR_ObjId</definition>
-        <argsstring>(MR.Std.Vector_MRObjId._Underlying *vec)</argsstring>
-        <name>__MR_ObjMap_Construct_1_std_vector_MR_ObjId</name>
-        <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct_1_std_vector_MR_ObjId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRObjId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7660" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a7696cf1f37c26a89eb90704af5ce2a56" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1ac7bc8ca74588272df52ce47da9519b21" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ObjMap._Underlying *</type>
-        <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct_2</definition>
-        <argsstring>(nuint size, MR.ObjId *val)</argsstring>
-        <name>__MR_ObjMap_Construct_2</name>
-        <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct_2</qualifiedname>
+        <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRObjId._Underlying *vec)</argsstring>
+        <name>__MR_ObjMap_Construct_stdVector</name>
+        <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRObjId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1ObjMap_1ad529d38476d623f28a0909de1c3be1c6" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_autoResizeSet_3</name></member>
       <member refid="classMR_1_1ObjMap_1a7f290f4b9117d31e24734df1af643aaf" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_back_mut</name></member>
       <member refid="classMR_1_1ObjMap_1a60e823cfb559a58907d2472212cea0e0" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_clear</name></member>
-      <member refid="classMR_1_1ObjMap_1a807131f4d669d5fe70f822a6c2395ddb" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1ObjMap_1ad0f5f71877fb9519c6704f63d03cbc9f" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_1_std_vector_MR_ObjId</name></member>
-      <member refid="classMR_1_1ObjMap_1a7696cf1f37c26a89eb90704af5ce2a56" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_2</name></member>
+      <member refid="classMR_1_1ObjMap_1a17de158d4ae05dc6f7ad05e734c08dd9" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct</name></member>
+      <member refid="classMR_1_1ObjMap_1aa99621bd0eebab5c2d25f0e99c3856b8" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_fill</name></member>
+      <member refid="classMR_1_1ObjMap_1ac7bc8ca74588272df52ce47da9519b21" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1ObjMap_1a55d5251aa3402c505e0892e29fc7a561" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1ObjMap_1a5a8ff08f74d42ad1b6bf7a707c963682" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_data_mut</name></member>
       <member refid="classMR_1_1ObjMap_1ad684435e1d807de86e87a316b318279a" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_DefaultConstruct</name></member>

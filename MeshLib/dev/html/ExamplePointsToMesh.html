@@ -189,7 +189,7 @@ $(function(){initNavTree('ExamplePointsToMesh.html','',''); });
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="comment">// load points</span></div>
-<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;Points.ply&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;Points.ply&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_PointCloud* pointCloud = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !pointCloud )</div>
 <div class="line">    {</div>
@@ -204,7 +204,7 @@ $(function(){initNavTree('ExamplePointsToMesh.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_triangulation; <span class="comment">// can be nullopt only if canceled by progress callback</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

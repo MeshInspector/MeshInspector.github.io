@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a227388d6fd50a9d14dd75d45de27fffc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertScalars._Underlying *</type>
+        <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_VertScalars_Construct</name>
+        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18523" column="55"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a5588dcc3fe43ac7306a9b6bd5707de21" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
         <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18523" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18526" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a7ec341b144bec3e43b0340768bce56bb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a3328a607859d066d773f4f60d7045a74" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
-        <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_VertScalars_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct_fill</definition>
+        <argsstring>(nuint size, float *val)</argsstring>
+        <name>__MR_VertScalars_Construct_fill</name>
+        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18526" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a29958b044da03035a51d875d2f0ad907" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertScalars._Underlying *</type>
-        <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct_1_std_vector_float</definition>
-        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
-        <name>__MR_VertScalars_Construct_1_std_vector_float</name>
-        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct_1_std_vector_float</qualifiedname>
         <param>
-          <type>MR.Std.Vector_Float._Underlying *</type>
-          <declname>vec</declname>
+          <type>float *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18529" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1ac699d5b44247b46a71147af73a1f3657" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1ad8846bb18ca54e35cbc524407253b185" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
-        <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct_2</definition>
-        <argsstring>(nuint size, float *val)</argsstring>
-        <name>__MR_VertScalars_Construct_2</name>
-        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct_2</qualifiedname>
+        <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
+        <name>__MR_VertScalars_Construct_stdVector</name>
+        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>float *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_Float._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__VertScalars_1ad330c6546fa7df03a2016b7f841de8c5" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_backId</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a64c9ea7fbb53ff4ca3337771f1e441df" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_beginId</name></member>
       <member refid="classMR_1_1Const__VertScalars_1aa771b59cda1216a4b31f00efb5218c2b" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_capacity</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1a7ec341b144bec3e43b0340768bce56bb" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1a29958b044da03035a51d875d2f0ad907" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_1_std_vector_float</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1ac699d5b44247b46a71147af73a1f3657" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_2</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a227388d6fd50a9d14dd75d45de27fffc" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a3328a607859d066d773f4f60d7045a74" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1ad8846bb18ca54e35cbc524407253b185" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a5588dcc3fe43ac7306a9b6bd5707de21" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__VertScalars_1aebf5ae413ec1004857fc450e8c787ea4" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_data</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ae17af94eedb22e91462e74e07208561d" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_DefaultConstruct</name></member>

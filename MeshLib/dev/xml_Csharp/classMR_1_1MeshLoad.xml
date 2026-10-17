@@ -1103,12 +1103,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="624" column="69"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1a947c409dc905267c276fda380ea557b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a13ed918693efe7ce56e073b9fbaecac5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat_2</definition>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat</definition>
         <argsstring>(byte *file, byte *file_end, MR.Const_MeshLoadSettings._Underlying *settings)</argsstring>
-        <name>__MR_MeshLoad_fromAnySupportedFormat_2</name>
-        <qualifiedname>MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat_2</qualifiedname>
+        <name>__MR_MeshLoad_fromAnySupportedFormat</name>
+        <qualifiedname>MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat</qualifiedname>
         <param>
           <type>byte *</type>
           <declname>file</declname>
@@ -1129,12 +1129,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshLoad.cs" line="627" column="69"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshLoad_1a2330703d94b8ed94e499125c24e25924" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshLoad_1a74f7850725e1eeea27aca83ac0875385" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRMesh_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat_3</definition>
+        <definition>static unsafe MR.Expected_MRMesh_StdString._Underlying * MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat_stream</definition>
         <argsstring>(MR.Std.Istream._Underlying *in_, byte *extension, byte *extension_end, MR.Const_MeshLoadSettings._Underlying *settings)</argsstring>
-        <name>__MR_MeshLoad_fromAnySupportedFormat_3</name>
-        <qualifiedname>MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat_3</qualifiedname>
+        <name>__MR_MeshLoad_fromAnySupportedFormat_stream</name>
+        <qualifiedname>MR.MeshLoad.__MR_MeshLoad_fromAnySupportedFormat_stream</qualifiedname>
         <param>
           <type>MR.Std.Istream._Underlying *</type>
           <declname>in_</declname>
@@ -1584,8 +1584,8 @@
     <listofallmembers>
       <member refid="classMR_1_1MeshLoad_1a59f86f692ec54fcb8c66a89c1ac9c0d7" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromAnyStl_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshLoad_1a2913c93d2cc9d435ff19368578fc1855" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromAnyStl_std_istream</name></member>
-      <member refid="classMR_1_1MeshLoad_1a947c409dc905267c276fda380ea557b9" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromAnySupportedFormat_2</name></member>
-      <member refid="classMR_1_1MeshLoad_1a2330703d94b8ed94e499125c24e25924" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromAnySupportedFormat_3</name></member>
+      <member refid="classMR_1_1MeshLoad_1a13ed918693efe7ce56e073b9fbaecac5" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1MeshLoad_1a74f7850725e1eeea27aca83ac0875385" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromAnySupportedFormat_stream</name></member>
       <member refid="classMR_1_1MeshLoad_1a0852fd64ff7c7de6f03b38150380c3f0" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromASCIIStl_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshLoad_1a327d2fe3e47c910b79dbcdcdea0194f4" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromASCIIStl_std_istream</name></member>
       <member refid="classMR_1_1MeshLoad_1a6e6c4728e38b16bc7ba54db3e4b12a3f" prot="private" virt="non-virtual"><scope>MR::MeshLoad</scope><name>__MR_MeshLoad_fromBinaryStl_std_filesystem_path</name></member>

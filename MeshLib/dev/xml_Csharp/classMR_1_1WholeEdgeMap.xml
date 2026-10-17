@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8514" column="56"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a63606d8e887598b0e3aa789577f0780c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.WholeEdgeMap._Underlying *</type>
+        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_WholeEdgeMap_Construct</name>
+        <qualifiedname>MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8517" column="56"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1ab3e9e0d4f472006450b52ae6a0d36283" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
         <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8517" column="56"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8520" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1ada07b60e7f5080e4eddb462df09dc3bb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a2e8f107da13512481c0645afe1b70f4e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_WholeEdgeMap_Construct_1_size_t</name>
-        <qualifiedname>MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_fill</definition>
+        <argsstring>(nuint size, MR.EdgeId *val)</argsstring>
+        <name>__MR_WholeEdgeMap_Construct_fill</name>
+        <qualifiedname>MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8520" column="56"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a019c4f3ca1655d75430deac0a261173e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.WholeEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</definition>
-        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *vec)</argsstring>
-        <name>__MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</name>
-        <qualifiedname>MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MREdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8523" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a1b1d3df9e1bf19c0b00cdc13cc52b526" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WholeEdgeMap_1a079dc1d7206c86fefc76515e0d085e1c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_2</definition>
-        <argsstring>(nuint size, MR.EdgeId *val)</argsstring>
-        <name>__MR_WholeEdgeMap_Construct_2</name>
-        <qualifiedname>MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_2</qualifiedname>
+        <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *vec)</argsstring>
+        <name>__MR_WholeEdgeMap_Construct_stdVector</name>
+        <qualifiedname>MR.WholeEdgeMap.__MR_WholeEdgeMap_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MREdgeId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1WholeEdgeMap_1a2c39de59536e796f6c16f1f5d441757c" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_autoResizeSet_3</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a9ffb340ac3695950cb6045ae578862d0" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_back_mut</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ad31636a57914df3dd12b57b2ef5389f0" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_clear</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1ada07b60e7f5080e4eddb462df09dc3bb" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a019c4f3ca1655d75430deac0a261173e" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_1_std_vector_MR_EdgeId</name></member>
-      <member refid="classMR_1_1WholeEdgeMap_1a1b1d3df9e1bf19c0b00cdc13cc52b526" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_2</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a63606d8e887598b0e3aa789577f0780c" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a2e8f107da13512481c0645afe1b70f4e" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_fill</name></member>
+      <member refid="classMR_1_1WholeEdgeMap_1a079dc1d7206c86fefc76515e0d085e1c" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1ab3e9e0d4f472006450b52ae6a0d36283" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a9cebb88c21df7d2daa460afbaf7e300c" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_data_mut</name></member>
       <member refid="classMR_1_1WholeEdgeMap_1a138e7f4308ac7e6d202a4366b14282be" prot="private" virt="non-virtual"><scope>MR::WholeEdgeMap</scope><name>__MR_WholeEdgeMap_DefaultConstruct</name></member>

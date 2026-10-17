@@ -2,11 +2,7 @@ var group__PointCloudGroup =
 [
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", [
       [ "addPartByMask", "structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217", null ],
-      [ "addPoint", "structMR_1_1PointCloud.html#a7e507a7cdba55a1c26aa3a073cf2d315", null ],
-      [ "addPoint", "structMR_1_1PointCloud.html#a765101913d8149614746444a3257c1f2", null ],
       [ "calcNumValidPoints", "structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26", null ],
-      [ "computeBoundingBox", "structMR_1_1PointCloud.html#a314c3d7c570cf70aed6cf664175740cd", null ],
-      [ "computeBoundingBox", "structMR_1_1PointCloud.html#a7f4cc661b8564a36aabab04453b0e27f", null ],
       [ "findCenterFromBBox", "structMR_1_1PointCloud.html#a8ac1e905740b138eb0ea9644d11c6ad9", null ],
       [ "findCenterFromPoints", "structMR_1_1PointCloud.html#a442397a4e191dbf7addbd86427681aaa", null ],
       [ "flipOrientation", "structMR_1_1PointCloud.html#a8d42094704ecd8b5b4eb3a82c10c111d", null ],
@@ -19,12 +15,18 @@ var group__PointCloudGroup =
       [ "heapBytes", "structMR_1_1PointCloud.html#a2a3bb316a10b49cacc3843090aa06a22", null ],
       [ "invalidateCaches", "structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069", null ],
       [ "mirror", "structMR_1_1PointCloud.html#ab5cc9f05068553ba1033167bb6189fcf", null ],
+      [ "MR_BIND_OVERLOAD_SUFFIX", "structMR_1_1PointCloud.html#a65677efaca849285816d9632529b5520", null ],
+      [ "MR_BIND_OVERLOAD_SUFFIX", "structMR_1_1PointCloud.html#a062a286ba8240f571adaabc6c788dcdd", null ],
+      [ "MR_BIND_OVERLOAD_SUFFIX", "structMR_1_1PointCloud.html#a0cbf3a6974c5e59d24276dca0227ab0b", null ],
+      [ "MR_BIND_OVERLOAD_SUFFIX", "structMR_1_1PointCloud.html#a5982bc0f5607f15bb30837797ab27153", null ],
       [ "pack", "structMR_1_1PointCloud.html#a9fee9a45c5a54797c40fb2c7c9ed646e", null ],
       [ "pack", "structMR_1_1PointCloud.html#af70413bd36eefbb8ce26cf2a52addf33", null ],
       [ "transform", "structMR_1_1PointCloud.html#a050308043ec1ab0b5b1170e045463514", null ],
       [ "updateCaches", "structMR_1_1PointCloud.html#af87c45e1d1e2193c2f42933aa2ba646e", null ],
+      [ "normal", "structMR_1_1PointCloud.html#ace3e2f591185408ede2b73c7d0f1ad46", null ],
       [ "normals", "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad", null ],
       [ "points", "structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4", null ],
+      [ "toWorld", "structMR_1_1PointCloud.html#acf467d3da6aff2b54a601c4921de1f2f", null ],
       [ "validPoints", "structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03", null ]
     ] ],
     [ "MR::PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", [
@@ -49,11 +51,11 @@ var group__PointCloudGroup =
     [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gabc9d6a3d4680264055d93f5039ee962e", null ],
     [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#ga864b89267ca9c36845aa4bda529ea85e", null ],
     [ "MR::makeUnorientedNormals", "group__PointCloudGroup.html#gabbad18eed929fbd7bec2afad0b91541d", null ],
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__PointCloudGroup.html#gaccd91f9d5a08418da1f899a4b2026e4b", null ],
     [ "MR::orientNormals", "group__PointCloudGroup.html#ga543bf9d494b5f9966b03ac52df938eb7", null ],
     [ "MR::orientNormals", "group__PointCloudGroup.html#ga3040bf00fa2722f573c4ef965d0ddae6", null ],
     [ "MR::orientNormals", "group__PointCloudGroup.html#ga4207b28452885c6d8c37052d9f9f9297", null ],
     [ "MR::pointUniformSampling", "group__PointCloudGroup.html#ga419eb233734e75003af48032eb07f36b", null ],
-    [ "MR::relax", "group__PointCloudGroup.html#gab9585f4e631931775325d348d2b41f9b", null ],
     [ "MR::relaxApprox", "group__PointCloudGroup.html#gaf730c446bd16a9211e90506d85c35757", null ],
     [ "MR::relaxKeepVolume", "group__PointCloudGroup.html#ga98ac77273eb374aff599b70216768f96", null ]
 ];

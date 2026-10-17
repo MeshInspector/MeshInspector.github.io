@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a6608af57ee1658a09015ced0fbe72c8e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TexturePerFace._Underlying *</type>
+        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_TexturePerFace_Construct</name>
+        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14211" column="58"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a9f34a2abcbbc5fdbddcc6608f36e62ad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
         <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14211" column="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14214" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1ab77ba9d7f0959af50b0ac9a733795a2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a6b065abd95f7c2c9406d4740630c3b5f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
-        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_TexturePerFace_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_fill</definition>
+        <argsstring>(nuint size, MR.TextureId *val)</argsstring>
+        <name>__MR_TexturePerFace_Construct_fill</name>
+        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14214" column="58"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a0fd7e7d9286c44cd551711f110e40a33" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.TexturePerFace._Underlying *</type>
-        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_1_std_vector_MR_TextureId</definition>
-        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *vec)</argsstring>
-        <name>__MR_TexturePerFace_Construct_1_std_vector_MR_TextureId</name>
-        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_1_std_vector_MR_TextureId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRTextureId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14217" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a5a9d78d5f8fbeb2ffa9a76a51bbb9505" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TexturePerFace_1a0fa4698a394ad9e549a82d0d943f937f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
-        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_2</definition>
-        <argsstring>(nuint size, MR.TextureId *val)</argsstring>
-        <name>__MR_TexturePerFace_Construct_2</name>
-        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_2</qualifiedname>
+        <definition>static unsafe MR.TexturePerFace._Underlying * MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *vec)</argsstring>
+        <name>__MR_TexturePerFace_Construct_stdVector</name>
+        <qualifiedname>MR.Const_TexturePerFace.__MR_TexturePerFace_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRTextureId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__TexturePerFace_1a427952080e1944f2481b852f84bb7854" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_backId</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a8cb127663b73a5142dc02648987ce9e7" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_beginId</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a6d740de46e2d894e04f58e0eadaeb707" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_capacity</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1ab77ba9d7f0959af50b0ac9a733795a2e" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1a0fd7e7d9286c44cd551711f110e40a33" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_1_std_vector_MR_TextureId</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1a5a9d78d5f8fbeb2ffa9a76a51bbb9505" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_2</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a6608af57ee1658a09015ced0fbe72c8e" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a6b065abd95f7c2c9406d4740630c3b5f" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a0fa4698a394ad9e549a82d0d943f937f" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a9f34a2abcbbc5fdbddcc6608f36e62ad" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a53cc49d6a3ec2dab862eb2013645c908" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_data</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a88bf0b4aee0d21f0c23133a342979081" prot="private" virt="non-virtual"><scope>MR::Const_TexturePerFace</scope><name>__MR_TexturePerFace_DefaultConstruct</name></member>

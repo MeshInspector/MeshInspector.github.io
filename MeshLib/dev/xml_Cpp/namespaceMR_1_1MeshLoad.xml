@@ -513,21 +513,12 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshLoad.h" line="150" column="11" declfile="MRMesh/MRMeshLoad.h" declline="150" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1aa115a0d8b8efd585125c07693565388b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::MeshLoad::fromAnySupportedFormat</definition>
-        <argsstring>(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromAnySupportedFormat</name>
-        <qualifiedname>MR::MeshLoad::fromAnySupportedFormat</qualifiedname>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a3156ac4339435553ca2d33f1668a3bcd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshLoad::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 Expected&lt; Mesh &gt; fromAnySupportedFormat(const std</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshLoad::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>loads mesh from file in the format detected from file extension </para>
         </briefdescription>
@@ -535,26 +526,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="153" column="11" declfile="MRMesh/MRMeshLoad.h" declline="153" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="153" column="1" bodyfile="MRMesh/MRMeshLoad.h" bodystart="153" bodyend="153"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a78e3652043b5c14b69d5b91e83061f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
-        <definition>Expected&lt; Mesh &gt; MR::MeshLoad::fromAnySupportedFormat</definition>
-        <argsstring>(std::istream &amp;in, const std::string &amp;extension, const MeshLoadSettings &amp;settings={})</argsstring>
-        <name>fromAnySupportedFormat</name>
-        <qualifiedname>MR::MeshLoad::fromAnySupportedFormat</qualifiedname>
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a8d59a9bfff2f3755e414457d1b8fb11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshLoad::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(stream) 1 Expected&lt; Mesh &gt; fromAnySupportedFormat(std</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshLoad::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>std::istream &amp;</type>
-          <declname>in</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>extension</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
+          <type>stream</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -563,7 +544,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshLoad.h" line="157" column="11" declfile="MRMesh/MRMeshLoad.h" declline="157" declcolumn="11"/>
+        <location file="MRMesh/MRMeshLoad.h" line="157" column="1" bodyfile="MRMesh/MRMeshLoad.h" bodystart="157" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a56ffb5ceb885e2f5e2b965ce19ba299f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> void</type>

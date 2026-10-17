@@ -2704,12 +2704,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1165" column="48"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a1ace6e07d122b4d2bc87668abd4a5dca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ae5385903055464cba7064363cbe4be6d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
-        <definition>static unsafe MR.Box3f MR.Const_Mesh.__MR_Mesh_computeBoundingBox_1</definition>
+        <definition>static unsafe MR.Box3f MR.Const_Mesh.__MR_Mesh_computeBoundingBox</definition>
         <argsstring>(_Underlying *_this, MR.AffineXf3f *toWorld)</argsstring>
-        <name>__MR_Mesh_computeBoundingBox_1</name>
-        <qualifiedname>MR.Const_Mesh.__MR_Mesh_computeBoundingBox_1</qualifiedname>
+        <name>__MR_Mesh_computeBoundingBox</name>
+        <qualifiedname>MR.Const_Mesh.__MR_Mesh_computeBoundingBox</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -2726,12 +2726,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1168" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Mesh_1abd7494044df3359a641ce03a78ae6209" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a56f812300abd648c1050a7e38e101562" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
-        <definition>static unsafe MR.Box3f MR.Const_Mesh.__MR_Mesh_computeBoundingBox_2</definition>
+        <definition>static unsafe MR.Box3f MR.Const_Mesh.__MR_Mesh_computeBoundingBox_region</definition>
         <argsstring>(_Underlying *_this, MR.Const_FaceBitSet._Underlying *region, MR.AffineXf3f *toWorld)</argsstring>
-        <name>__MR_Mesh_computeBoundingBox_2</name>
-        <qualifiedname>MR.Const_Mesh.__MR_Mesh_computeBoundingBox_2</qualifiedname>
+        <name>__MR_Mesh_computeBoundingBox_region</name>
+        <qualifiedname>MR.Const_Mesh.__MR_Mesh_computeBoundingBox_region</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -4908,8 +4908,8 @@
       <member refid="classMR_1_1Const__Mesh_1adfc8a0bb121afae1f64585077d0820b0" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_circumcircleDiameter</name></member>
       <member refid="classMR_1_1Const__Mesh_1a68b2851c324d971a58cdf6e587609d7b" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_circumcircleDiameterSq</name></member>
       <member refid="classMR_1_1Const__Mesh_1a774d629ffe0be3b2aa092a66ea3d4eb6" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_cloneRegion</name></member>
-      <member refid="classMR_1_1Const__Mesh_1a1ace6e07d122b4d2bc87668abd4a5dca" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_computeBoundingBox_1</name></member>
-      <member refid="classMR_1_1Const__Mesh_1abd7494044df3359a641ce03a78ae6209" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_computeBoundingBox_2</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae5385903055464cba7064363cbe4be6d" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a56f812300abd648c1050a7e38e101562" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_computeBoundingBox_region</name></member>
       <member refid="classMR_1_1Const__Mesh_1adbd92de2c0b2cd92d142acb07382edbf" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Mesh_1ac5e84be6693027222b050f6e15809f41" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_cotan</name></member>
       <member refid="classMR_1_1Const__Mesh_1a5437bdd49c284ca560c867fd718d1256" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>__MR_Mesh_dblArea_MR_FaceId</name></member>

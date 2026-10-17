@@ -2065,12 +2065,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1593" column="72"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshComponents_1a50f6a6f8f9b187f38b2ea660960e2dc7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1a052b2ffdee0eb85aacbb6131b28d3fbf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying *</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying * MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents_3</definition>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents</definition>
         <argsstring>(MR.Const_MeshPart._Underlying *meshPart, float minArea, MR.Const_UndirectedEdgeBitSet._Underlying *isCompBd)</argsstring>
-        <name>__MR_MeshComponents_getLargeByAreaComponents_3</name>
-        <qualifiedname>MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents_3</qualifiedname>
+        <name>__MR_MeshComponents_getLargeByAreaComponents</name>
+        <qualifiedname>MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents</qualifiedname>
         <param>
           <type>MR.Const_MeshPart._Underlying *</type>
           <declname>meshPart</declname>
@@ -2091,12 +2091,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshComponents.cs" line="1596" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshComponents_1a146c6b886ddcd6edd1947f45cec20f11" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshComponents_1ac80131b804349a60322c046ccbfffa43" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying *</type>
-        <definition>static unsafe MR.FaceBitSet._Underlying * MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents_4</definition>
+        <definition>static unsafe MR.FaceBitSet._Underlying * MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents_unionFind</definition>
         <argsstring>(MR.Const_MeshPart._Underlying *meshPart, MR.BaseUnionFind_MRFaceId._Underlying *unionFind, float minArea, MR.UndirectedEdgeBitSet._Underlying *outBdEdgesBetweenLargeComps)</argsstring>
-        <name>__MR_MeshComponents_getLargeByAreaComponents_4</name>
-        <qualifiedname>MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents_4</qualifiedname>
+        <name>__MR_MeshComponents_getLargeByAreaComponents_unionFind</name>
+        <qualifiedname>MR.MeshComponents.__MR_MeshComponents_getLargeByAreaComponents_unionFind</qualifiedname>
         <param>
           <type>MR.Const_MeshPart._Underlying *</type>
           <declname>meshPart</declname>
@@ -2791,8 +2791,8 @@
       <member refid="classMR_1_1MeshComponents_1abb838e975ba96313033daa434ba377b3" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getComponentsVerts</name></member>
       <member refid="classMR_1_1MeshComponents_1a7134b91ea452e120683b151d9e8fadb3" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getComponentVerts</name></member>
       <member refid="classMR_1_1MeshComponents_1ae5fbbf9d325fee1a3684e9b27bcc72cc" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getFacePairRegionMap</name></member>
-      <member refid="classMR_1_1MeshComponents_1a50f6a6f8f9b187f38b2ea660960e2dc7" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByAreaComponents_3</name></member>
-      <member refid="classMR_1_1MeshComponents_1a146c6b886ddcd6edd1947f45cec20f11" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByAreaComponents_4</name></member>
+      <member refid="classMR_1_1MeshComponents_1a052b2ffdee0eb85aacbb6131b28d3fbf" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByAreaComponents</name></member>
+      <member refid="classMR_1_1MeshComponents_1ac80131b804349a60322c046ccbfffa43" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByAreaComponents_unionFind</name></member>
       <member refid="classMR_1_1MeshComponents_1af6f9b7ec8ad1a503b9368562ddd76b4c" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByAreaRegions</name></member>
       <member refid="classMR_1_1MeshComponents_1aae0cf26dd407a91324fbd4db5570a914" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByAreaSmoothComponents</name></member>
       <member refid="classMR_1_1MeshComponents_1ad025df92176587cac8a5695cd34fb64a" prot="private" virt="non-virtual"><scope>MR::MeshComponents</scope><name>__MR_MeshComponents_getLargeByVolumeComponents</name></member>

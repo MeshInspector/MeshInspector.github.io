@@ -530,6 +530,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1ae24acc931fd486e83c3c4e09adc55619" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.UndirectedEdge2RegionMap._Underlying *</type>
+        <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_UndirectedEdge2RegionMap_Construct</name>
+        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8969" column="68"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a6e82e9eb916088e90045fadef6fcd83d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdge2RegionMap._Underlying *</type>
         <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_ConstructFromAnother</definition>
@@ -550,35 +568,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8969" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8972" column="68"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1ac489e17be21a84f6c7b3cbd2e7e25370" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1aaf9fa5cf402d5773ddcfea2555be1053" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdge2RegionMap._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_UndirectedEdge2RegionMap_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_fill</definition>
+        <argsstring>(nuint size, MR.RegionId *val)</argsstring>
+        <name>__MR_UndirectedEdge2RegionMap_Construct_fill</name>
+        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8972" column="68"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1ad693d8845d0dbafcda6c5d6fc83b597b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.UndirectedEdge2RegionMap._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_1_std_vector_MR_RegionId</definition>
-        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
-        <name>__MR_UndirectedEdge2RegionMap_Construct_1_std_vector_MR_RegionId</name>
-        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_1_std_vector_MR_RegionId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRRegionId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -588,19 +592,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8975" column="68"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a58612ba941b9301201b98b4f8827e46f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a8a8d88205e6b911861d3c6e4ced1b53a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdge2RegionMap._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_2</definition>
-        <argsstring>(nuint size, MR.RegionId *val)</argsstring>
-        <name>__MR_UndirectedEdge2RegionMap_Construct_2</name>
-        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_2</qualifiedname>
+        <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
+        <name>__MR_UndirectedEdge2RegionMap_Construct_stdVector</name>
+        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRRegionId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -973,9 +973,9 @@
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a7432d61ea81fdc1b1ef1d3096f606c35" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_backId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a11aa35f08baa26568f5bbcb645a68cae" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_beginId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a691fe98a5a106a9212d378b7c84cda61" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_capacity</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ac489e17be21a84f6c7b3cbd2e7e25370" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ad693d8845d0dbafcda6c5d6fc83b597b" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_1_std_vector_MR_RegionId</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a58612ba941b9301201b98b4f8827e46f" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_2</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ae24acc931fd486e83c3c4e09adc55619" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1aaf9fa5cf402d5773ddcfea2555be1053" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a8a8d88205e6b911861d3c6e4ced1b53a" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a6e82e9eb916088e90045fadef6fcd83d" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a0dc7fb27758483fca5060e8834cc8911" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a69f8d5bea4e29e0a2f8b45037a21915a" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_DefaultConstruct</name></member>

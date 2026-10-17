@@ -530,6 +530,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1ae32dacc3db70376623a5a51aa30d7a99" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.UndirectedEdgeColors._Underlying *</type>
+        <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_UndirectedEdgeColors_Construct</name>
+        <qualifiedname>MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17663" column="64"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a38408ecd2dfbaef3d9e2dee6cacd4474" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeColors._Underlying *</type>
         <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_ConstructFromAnother</definition>
@@ -550,35 +568,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17663" column="64"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17666" column="64"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1aa12d93c9e1ab50de7cc335adbf1f745c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a3bc75791548b946cac0a3ad303cd2c3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeColors._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_UndirectedEdgeColors_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Color *val)</argsstring>
+        <name>__MR_UndirectedEdgeColors_Construct_fill</name>
+        <qualifiedname>MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17666" column="64"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a2808d20082e8de17eb1485a253e67df6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.UndirectedEdgeColors._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_1_std_vector_MR_Color</definition>
-        <argsstring>(MR.Std.Vector_MRColor._Underlying *vec)</argsstring>
-        <name>__MR_UndirectedEdgeColors_Construct_1_std_vector_MR_Color</name>
-        <qualifiedname>MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_1_std_vector_MR_Color</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRColor._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -588,19 +592,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17669" column="64"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a8d526c73e2d00257b81ff43b90041a13" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeColors_1a1037083566ba63f9d7b4f51d1dd211f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeColors._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_2</definition>
-        <argsstring>(nuint size, MR.Color *val)</argsstring>
-        <name>__MR_UndirectedEdgeColors_Construct_2</name>
-        <qualifiedname>MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_2</qualifiedname>
+        <definition>static unsafe MR.UndirectedEdgeColors._Underlying * MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRColor._Underlying *vec)</argsstring>
+        <name>__MR_UndirectedEdgeColors_Construct_stdVector</name>
+        <qualifiedname>MR.Const_UndirectedEdgeColors.__MR_UndirectedEdgeColors_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRColor._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -973,9 +973,9 @@
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1aa44d19cb3cb8c41c5c06aaee4252aa44" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_backId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a06ba54ab60b7cf50e4076d86535ea5a4" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_beginId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a191acf187cb7720bd9710689306e5ae0" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_capacity</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1aa12d93c9e1ab50de7cc335adbf1f745c" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a2808d20082e8de17eb1485a253e67df6" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_Construct_1_std_vector_MR_Color</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a8d526c73e2d00257b81ff43b90041a13" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_Construct_2</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1ae32dacc3db70376623a5a51aa30d7a99" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_Construct</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a3bc75791548b946cac0a3ad303cd2c3b" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeColors_1a1037083566ba63f9d7b4f51d1dd211f0" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a38408ecd2dfbaef3d9e2dee6cacd4474" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1a0f43cc4f9d8bb0af755fc3c7284b6a9b" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeColors_1aabe5a46410a27a1680266477143216d4" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeColors</scope><name>__MR_UndirectedEdgeColors_DefaultConstruct</name></member>

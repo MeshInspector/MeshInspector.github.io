@@ -133,7 +133,8 @@ $(function(){initNavTree('group__MeshComponentsGroup.html','',''); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">MeshComponents <div class="ingroups"><a class="el" href="group__ComponentsGroup.html">Components</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -159,82 +160,89 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga823ed70b2a3f8987017e57cbc9ae2789" id="r_ga823ed70b2a3f8987017e57cbc9ae2789"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga823ed70b2a3f8987017e57cbc9ae2789">MR::MeshComponents::getComponent</a> (const MeshPart &amp;meshPart, FaceId id, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:ga75b5490074101f02a07ffafbe1d42d12" id="r_ga75b5490074101f02a07ffafbe1d42d12"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75b5490074101f02a07ffafbe1d42d12">MR::MeshComponents::getComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertId id, const VertBitSet *region=nullptr)</td></tr>
-<tr class="memitem:ga80cae558467e7bd7f1653b46bb13948f" id="r_ga80cae558467e7bd7f1653b46bb13948f"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80cae558467e7bd7f1653b46bb13948f">MR::MeshComponents::getLargestComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:ga823ed70b2a3f8987017e57cbc9ae2789" id="r_ga823ed70b2a3f8987017e57cbc9ae2789"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga823ed70b2a3f8987017e57cbc9ae2789">MR::MeshComponents::getComponent</a> (const MeshPart &amp;meshPart, FaceId id, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:ga75b5490074101f02a07ffafbe1d42d12" id="r_ga75b5490074101f02a07ffafbe1d42d12"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75b5490074101f02a07ffafbe1d42d12">MR::MeshComponents::getComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, VertId id, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:ga80cae558467e7bd7f1653b46bb13948f" id="r_ga80cae558467e7bd7f1653b46bb13948f"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80cae558467e7bd7f1653b46bb13948f">MR::MeshComponents::getLargestComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:ga80cae558467e7bd7f1653b46bb13948f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by number of elements component  <br /></td></tr>
-<tr class="memitem:gaf4ae6e26c37957e4d8c21b753af0d451" id="r_gaf4ae6e26c37957e4d8c21b753af0d451"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf4ae6e26c37957e4d8c21b753af0d451">MR::MeshComponents::getLargeComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, int minVerts, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:gaf4ae6e26c37957e4d8c21b753af0d451" id="r_gaf4ae6e26c37957e4d8c21b753af0d451"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf4ae6e26c37957e4d8c21b753af0d451">MR::MeshComponents::getLargeComponentVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, int minVerts, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gaf4ae6e26c37957e4d8c21b753af0d451"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of vertex connected components, each having at least  <br /></td></tr>
-<tr class="memitem:gaec294ffa0563a15d0b25c06c81ee5d51" id="r_gaec294ffa0563a15d0b25c06c81ee5d51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec294ffa0563a15d0b25c06c81ee5d51">MR::MeshComponents::getLargestComponentArea</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, FaceBitSet *largestComponent=nullptr, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="memitem:gaec294ffa0563a15d0b25c06c81ee5d51" id="r_gaec294ffa0563a15d0b25c06c81ee5d51"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec294ffa0563a15d0b25c06c81ee5d51">MR::MeshComponents::getLargestComponentArea</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={}, FaceBitSet *largestComponent=nullptr, int *numSmallerComponents=nullptr)</td></tr>
 <tr class="memdesc:gaec294ffa0563a15d0b25c06c81ee5d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the area of the largest by surface area component, and zero if there are no components at all  <br /></td></tr>
-<tr class="memitem:gad1f06f5521d13b8e679953ce57f4e690" id="r_gad1f06f5521d13b8e679953ce57f4e690"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1f06f5521d13b8e679953ce57f4e690">MR::MeshComponents::getLargestComponent</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, float minArea=0, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="memitem:gad1f06f5521d13b8e679953ce57f4e690" id="r_gad1f06f5521d13b8e679953ce57f4e690"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1f06f5521d13b8e679953ce57f4e690">MR::MeshComponents::getLargestComponent</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={}, float <a class="el" href="#ga06cd0d2739807ac1817e21714a77b155">minArea</a>=0, int *numSmallerComponents=nullptr)</td></tr>
 <tr class="memdesc:gad1f06f5521d13b8e679953ce57f4e690"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the largest by surface area component or empty set if its area is smaller than  <br /></td></tr>
-<tr class="memitem:ga15d5de6ff738635f4d805cf6e8581aaa" id="r_ga15d5de6ff738635f4d805cf6e8581aaa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15d5de6ff738635f4d805cf6e8581aaa">MR::MeshComponents::getLargestComponentVolume</a> (const MeshPart &amp;meshPart, <a class="el" href="#gad136d40567d48c0a0e9668c5daf797b9">VolumeSelection</a> selection=<a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6">VolumeSelection::Abs</a>, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={}, FaceBitSet *largestComponent=nullptr, int *numSmallerComponents=nullptr)</td></tr>
+<tr class="memitem:ga15d5de6ff738635f4d805cf6e8581aaa" id="r_ga15d5de6ff738635f4d805cf6e8581aaa"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga15d5de6ff738635f4d805cf6e8581aaa">MR::MeshComponents::getLargestComponentVolume</a> (const MeshPart &amp;meshPart, <a class="el" href="#gad136d40567d48c0a0e9668c5daf797b9">VolumeSelection</a> selection=<a class="el" href="#ggad136d40567d48c0a0e9668c5daf797b9a1e34af023adeb7d5f484f8eb4b9826b6">VolumeSelection::Abs</a>, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={}, FaceBitSet *largestComponent=nullptr, int *numSmallerComponents=nullptr)</td></tr>
 <tr class="memdesc:ga15d5de6ff738635f4d805cf6e8581aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output: the number of components in addition to returned one, so all components if none was selected  <br /></td></tr>
-<tr class="memitem:gaab630260881d2a238df5dfc1d9a31517" id="r_gaab630260881d2a238df5dfc1d9a31517"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab630260881d2a238df5dfc1d9a31517">MR::MeshComponents::getComponents</a> (const MeshPart &amp;meshPart, const FaceBitSet &amp;seeds, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:gaab630260881d2a238df5dfc1d9a31517" id="r_gaab630260881d2a238df5dfc1d9a31517"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab630260881d2a238df5dfc1d9a31517">MR::MeshComponents::getComponents</a> (const MeshPart &amp;meshPart, const FaceBitSet &amp;seeds, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
 <tr class="memdesc:gaab630260881d2a238df5dfc1d9a31517"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed face  <br /></td></tr>
-<tr class="memitem:ga96e3045fbc7e35b4c183ed1fdb98850b" id="r_ga96e3045fbc7e35b4c183ed1fdb98850b"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96e3045fbc7e35b4c183ed1fdb98850b">MR::MeshComponents::getComponents</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;seeds, const FaceBitSet *region=nullptr, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:ga0e01c5d278553086be9238207fdd5e4e" id="r_ga0e01c5d278553086be9238207fdd5e4e"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e01c5d278553086be9238207fdd5e4e">MR::MeshComponents::getLargeByAreaComponents</a> (const MeshPart &amp;meshPart, float minArea, const UndirectedEdgeBitSet *isCompBd)</td></tr>
-<tr class="memdesc:ga0e01c5d278553086be9238207fdd5e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given area  <br /></td></tr>
+<tr class="memitem:ga96e3045fbc7e35b4c183ed1fdb98850b" id="r_ga96e3045fbc7e35b4c183ed1fdb98850b"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga96e3045fbc7e35b4c183ed1fdb98850b">MR::MeshComponents::getComponents</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;seeds, const FaceBitSet *region=nullptr, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:gaf6b68cea12137d44fb03418c5f46ddce" id="r_gaf6b68cea12137d44fb03418c5f46ddce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf6b68cea12137d44fb03418c5f46ddce">MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX</a> () 1 FaceBitSet getLargeByAreaComponents(const MeshPart &amp;meshPart</td></tr>
+<tr class="memdesc:gaf6b68cea12137d44fb03418c5f46ddce"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given area  <br /></td></tr>
 <tr class="memitem:ga6ce22d1ba91640724f2871328726b18a" id="r_ga6ce22d1ba91640724f2871328726b18a"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6ce22d1ba91640724f2871328726b18a">MR::MeshComponents::getLargeByVolumeComponents</a> (const MeshPart &amp;meshPart, float minVolume)</td></tr>
-<tr class="memitem:gae2860bc16910d275e467880105068b2d" id="r_gae2860bc16910d275e467880105068b2d"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2860bc16910d275e467880105068b2d">MR::MeshComponents::getLargeByAreaComponents</a> (const MeshPart &amp;meshPart, <a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt; &amp;unionFind, float minArea, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</td></tr>
-<tr class="memdesc:gae2860bc16910d275e467880105068b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">given prepared union-find structure returns the union of connected components, each having at least given area  <br /></td></tr>
-<tr class="memitem:ga8f7b3aea1e17934f892932ac212a71f2" id="r_ga8f7b3aea1e17934f892932ac212a71f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f7b3aea1e17934f892932ac212a71f2">MR::MeshComponents::expandToComponents</a> (const MeshPart &amp;mp, const FaceBitSet &amp;seeds, const <a class="el" href="structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html">ExpandToComponentsParams</a> &amp;params={})</td></tr>
+<tr class="memitem:gabdbe4987630c4fa59a495242098b8885" id="r_gabdbe4987630c4fa59a495242098b8885"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabdbe4987630c4fa59a495242098b8885">MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX</a> (<a class="el" href="#ga7bf3e0737aecb4b63a527d014b0bea83">unionFind</a>) 1 FaceBitSet getLargeByAreaComponents(const MeshPart &amp;meshPart</td></tr>
+<tr class="memdesc:gabdbe4987630c4fa59a495242098b8885"><td class="mdescLeft">&#160;</td><td class="mdescRight">given prepared union-find structure returns the union of connected components, each having at least given area  <br /></td></tr>
+<tr class="memitem:ga8f7b3aea1e17934f892932ac212a71f2" id="r_ga8f7b3aea1e17934f892932ac212a71f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f7b3aea1e17934f892932ac212a71f2">MR::MeshComponents::expandToComponents</a> (const MeshPart &amp;mp, const FaceBitSet &amp;seeds, const <a class="el" href="structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html">ExpandToComponentsParams</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>={})</td></tr>
 <tr class="memdesc:ga8f7b3aea1e17934f892932ac212a71f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands given seeds to whole components  <br /></td></tr>
-<tr class="memitem:ga23b859fdd8b110e1159c392f9f891f77" id="r_ga23b859fdd8b110e1159c392f9f891f77"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23b859fdd8b110e1159c392f9f891f77">MR::MeshComponents::getNLargeByAreaComponents</a> (const MeshPart &amp;meshPart, const <a class="el" href="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">LargeByAreaComponentsSettings</a> &amp;settings)</td></tr>
+<tr class="memitem:ga23b859fdd8b110e1159c392f9f891f77" id="r_ga23b859fdd8b110e1159c392f9f891f77"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23b859fdd8b110e1159c392f9f891f77">MR::MeshComponents::getNLargeByAreaComponents</a> (const MeshPart &amp;meshPart, const <a class="el" href="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html">LargeByAreaComponentsSettings</a> &amp;<a class="el" href="group__GeneralGroup.html#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>)</td></tr>
 <tr class="memdesc:ga23b859fdd8b110e1159c392f9f891f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns requested number of largest by area connected components in descending by area order  <br /></td></tr>
-<tr class="memitem:gafd9d69cd8ee018f61cfec8cdfe055f95" id="r_gafd9d69cd8ee018f61cfec8cdfe055f95"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd9d69cd8ee018f61cfec8cdfe055f95">MR::MeshComponents::getLargeByAreaSmoothComponents</a> (const MeshPart &amp;meshPart, float minArea, float angleFromPlanar, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</td></tr>
-<tr class="memitem:gac2482651f614e0165c208254ab32c6fa" id="r_gac2482651f614e0165c208254ab32c6fa"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac2482651f614e0165c208254ab32c6fa">MR::MeshComponents::getComponentsVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;seeds, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:gafd9d69cd8ee018f61cfec8cdfe055f95" id="r_gafd9d69cd8ee018f61cfec8cdfe055f95"><td class="memItemLeft" align="right" valign="top">FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd9d69cd8ee018f61cfec8cdfe055f95">MR::MeshComponents::getLargeByAreaSmoothComponents</a> (const MeshPart &amp;meshPart, float <a class="el" href="#ga06cd0d2739807ac1817e21714a77b155">minArea</a>, float angleFromPlanar, UndirectedEdgeBitSet *<a class="el" href="#ga4280eb57f55729dc5222991eecc3cf84">outBdEdgesBetweenLargeComps</a>=nullptr)</td></tr>
+<tr class="memitem:gac2482651f614e0165c208254ab32c6fa" id="r_gac2482651f614e0165c208254ab32c6fa"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac2482651f614e0165c208254ab32c6fa">MR::MeshComponents::getComponentsVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const VertBitSet &amp;seeds, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gac2482651f614e0165c208254ab32c6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed vert  <br /></td></tr>
-<tr class="memitem:gae974a625c63fc8fe114d87f296074399" id="r_gae974a625c63fc8fe114d87f296074399"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae974a625c63fc8fe114d87f296074399">MR::MeshComponents::getNumComponents</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:gae974a625c63fc8fe114d87f296074399" id="r_gae974a625c63fc8fe114d87f296074399"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae974a625c63fc8fe114d87f296074399">MR::MeshComponents::getNumComponents</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
 <tr class="memdesc:gae974a625c63fc8fe114d87f296074399"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of connected components in mesh part  <br /></td></tr>
-<tr class="memitem:gac9ffcc637ef2fbb6ebbeda874df5abe5" id="r_gac9ffcc637ef2fbb6ebbeda874df5abe5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9ffcc637ef2fbb6ebbeda874df5abe5">MR::MeshComponents::getAllComponents</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:gaa93eb46b6c87bd17060bee960111398c" id="r_gaa93eb46b6c87bd17060bee960111398c"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa93eb46b6c87bd17060bee960111398c">MR::MeshComponents::getAllComponents</a> (const MeshPart &amp;meshPart, int maxComponentCount, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:gac9ffcc637ef2fbb6ebbeda874df5abe5" id="r_gac9ffcc637ef2fbb6ebbeda874df5abe5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9ffcc637ef2fbb6ebbeda874df5abe5">MR::MeshComponents::getAllComponents</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:gaa93eb46b6c87bd17060bee960111398c" id="r_gaa93eb46b6c87bd17060bee960111398c"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa93eb46b6c87bd17060bee960111398c">MR::MeshComponents::getAllComponents</a> (const MeshPart &amp;meshPart, int maxComponentCount, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
 <tr class="memitem:ga97b195864ae6464fc4af8dbbfbf12c25" id="r_ga97b195864ae6464fc4af8dbbfbf12c25"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97b195864ae6464fc4af8dbbfbf12c25">MR::MeshComponents::getAllComponents</a> (Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region, int maxComponentCount)</td></tr>
-<tr class="memitem:ga2aab1963ab19bf9523812ac0264c0841" id="r_ga2aab1963ab19bf9523812ac0264c0841"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2aab1963ab19bf9523812ac0264c0841">MR::MeshComponents::getAllComponentsMap</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:ga2aab1963ab19bf9523812ac0264c0841" id="r_ga2aab1963ab19bf9523812ac0264c0841"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2aab1963ab19bf9523812ac0264c0841">MR::MeshComponents::getAllComponentsMap</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
 <tr class="memitem:ga412b70cb572bcbabfe070e9e1b33d345" id="r_ga412b70cb572bcbabfe070e9e1b33d345"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga412b70cb572bcbabfe070e9e1b33d345">MR::MeshComponents::getAllComponentsMapBySharpEdges</a> (const MeshPart &amp;meshPart, float angleThreshold=0.5f)</td></tr>
-<tr class="memitem:ga0a656dc0668e166fd8382b1dbca0c106" id="r_ga0a656dc0668e166fd8382b1dbca0c106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshComponents_1_1ComponentsFaces.html">ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a656dc0668e166fd8382b1dbca0c106">MR::MeshComponents::getAllComponentsFaces</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:ga0a656dc0668e166fd8382b1dbca0c106" id="r_ga0a656dc0668e166fd8382b1dbca0c106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshComponents_1_1ComponentsFaces.html">ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0a656dc0668e166fd8382b1dbca0c106">MR::MeshComponents::getAllComponentsFaces</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
 <tr class="memitem:gaba2da2bd1f3d2cfcf549494036b08cd7" id="r_gaba2da2bd1f3d2cfcf549494036b08cd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshComponents_1_1ComponentsFaces.html">ComponentsFaces</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba2da2bd1f3d2cfcf549494036b08cd7">MR::MeshComponents::getAllComponentsFaces</a> (const Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region)</td></tr>
 <tr class="memdesc:gaba2da2bd1f3d2cfcf549494036b08cd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components from components map ( FaceId =&gt; RegionId in [0, componentsCount) ) for the faces of given region  <br /></td></tr>
-<tr class="memitem:ga87fa009d5a9b64c256cd45780378d1fb" id="r_ga87fa009d5a9b64c256cd45780378d1fb"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87fa009d5a9b64c256cd45780378d1fb">MR::MeshComponents::getFacePairRegionMap</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt; &amp;facePairs, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:gabb9aee33af237e8ace6daa0b6b7ba783" id="r_gabb9aee33af237e8ace6daa0b6b7ba783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double, RegionId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb9aee33af237e8ace6daa0b6b7ba783">MR::MeshComponents::getRegionAreas</a> (const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions)</td></tr>
+<tr class="memitem:ga87fa009d5a9b64c256cd45780378d1fb" id="r_ga87fa009d5a9b64c256cd45780378d1fb"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87fa009d5a9b64c256cd45780378d1fb">MR::MeshComponents::getFacePairRegionMap</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt; &amp;facePairs, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:gabb9aee33af237e8ace6daa0b6b7ba783" id="r_gabb9aee33af237e8ace6daa0b6b7ba783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double, RegionId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb9aee33af237e8ace6daa0b6b7ba783">MR::MeshComponents::getRegionAreas</a> (const MeshPart &amp;meshPart, const Face2RegionMap &amp;<a class="el" href="group__AABBTreeGroup.html#ga8e29498b56ebbbc50f4e1f619dde6a1e">regionMap</a>, int numRegions)</td></tr>
 <tr class="memdesc:gabb9aee33af237e8ace6daa0b6b7ba783"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of each region given via the map  <br /></td></tr>
-<tr class="memitem:gaf0690687907bc23ce3b2772500238124" id="r_gaf0690687907bc23ce3b2772500238124"><td class="memItemLeft" align="right" valign="top">std::pair&lt; FaceBitSet, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0690687907bc23ce3b2772500238124">MR::MeshComponents::getLargeByAreaRegions</a> (const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions, float minArea)</td></tr>
-<tr class="memitem:gac3f08916e38c544b82948eebe0ad7927" id="r_gac3f08916e38c544b82948eebe0ad7927"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac3f08916e38c544b82948eebe0ad7927">MR::MeshComponents::getAllComponentsVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:gaf0690687907bc23ce3b2772500238124" id="r_gaf0690687907bc23ce3b2772500238124"><td class="memItemLeft" align="right" valign="top">std::pair&lt; FaceBitSet, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0690687907bc23ce3b2772500238124">MR::MeshComponents::getLargeByAreaRegions</a> (const MeshPart &amp;meshPart, const Face2RegionMap &amp;<a class="el" href="group__AABBTreeGroup.html#ga8e29498b56ebbbc50f4e1f619dde6a1e">regionMap</a>, int numRegions, float <a class="el" href="#ga06cd0d2739807ac1817e21714a77b155">minArea</a>)</td></tr>
+<tr class="memitem:gac3f08916e38c544b82948eebe0ad7927" id="r_gac3f08916e38c544b82948eebe0ad7927"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac3f08916e38c544b82948eebe0ad7927">MR::MeshComponents::getAllComponentsVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gac3f08916e38c544b82948eebe0ad7927"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components of mesh part  <br /></td></tr>
-<tr class="memitem:ga44be685ea9ba443cf22a7e0e8c370e94" id="r_ga44be685ea9ba443cf22a7e0e8c370e94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44be685ea9ba443cf22a7e0e8c370e94">MR::MeshComponents::getAllComponentsVertsSeparatedByPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path)</td></tr>
+<tr class="memitem:ga44be685ea9ba443cf22a7e0e8c370e94" id="r_ga44be685ea9ba443cf22a7e0e8c370e94"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga44be685ea9ba443cf22a7e0e8c370e94">MR::MeshComponents::getAllComponentsVertsSeparatedByPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path)</td></tr>
 <tr class="memdesc:ga44be685ea9ba443cf22a7e0e8c370e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components, separating vertices by given path (either closed or from boundary to boundary)  <br /></td></tr>
-<tr class="memitem:ga35d4be81290a02ce78331c6173eac4f2" id="r_ga35d4be81290a02ce78331c6173eac4f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35d4be81290a02ce78331c6173eac4f2">MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;paths)</td></tr>
+<tr class="memitem:ga35d4be81290a02ce78331c6173eac4f2" id="r_ga35d4be81290a02ce78331c6173eac4f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga35d4be81290a02ce78331c6173eac4f2">MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;paths)</td></tr>
 <tr class="memdesc:ga35d4be81290a02ce78331c6173eac4f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all connected components, separating vertices by given paths (either closed or from boundary to boundary)  <br /></td></tr>
-<tr class="memitem:gafdcffc76ac25f878c3b7396979b31a59" id="r_gafdcffc76ac25f878c3b7396979b31a59"><td class="memItemLeft" align="right" valign="top">std::vector&lt; EdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdcffc76ac25f878c3b7396979b31a59">MR::MeshComponents::getAllComponentsEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const EdgeBitSet &amp;edges)</td></tr>
+<tr class="memitem:gafdcffc76ac25f878c3b7396979b31a59" id="r_gafdcffc76ac25f878c3b7396979b31a59"><td class="memItemLeft" align="right" valign="top">std::vector&lt; EdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafdcffc76ac25f878c3b7396979b31a59">MR::MeshComponents::getAllComponentsEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const EdgeBitSet &amp;<a class="el" href="group__GeneralGroup.html#gabbe25ce79dd85635294b1687bb4bdc72">edges</a>)</td></tr>
 <tr class="memdesc:gafdcffc76ac25f878c3b7396979b31a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">subdivides given edges on connected components  <br /></td></tr>
-<tr class="memitem:ga771199217cd0fe03f92ad929b794ea15" id="r_ga771199217cd0fe03f92ad929b794ea15"><td class="memItemLeft" align="right" valign="top">std::vector&lt; UndirectedEdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga771199217cd0fe03f92ad929b794ea15">MR::MeshComponents::getAllComponentsUndirectedEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;edges)</td></tr>
+<tr class="memitem:ga771199217cd0fe03f92ad929b794ea15" id="r_ga771199217cd0fe03f92ad929b794ea15"><td class="memItemLeft" align="right" valign="top">std::vector&lt; UndirectedEdgeBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga771199217cd0fe03f92ad929b794ea15">MR::MeshComponents::getAllComponentsUndirectedEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const UndirectedEdgeBitSet &amp;<a class="el" href="group__GeneralGroup.html#gabbe25ce79dd85635294b1687bb4bdc72">edges</a>)</td></tr>
 <tr class="memdesc:ga771199217cd0fe03f92ad929b794ea15"><td class="mdescLeft">&#160;</td><td class="mdescRight">subdivides given edges on connected components  <br /></td></tr>
-<tr class="memitem:gab766c6742304e7dd92a89641da49284c" id="r_gab766c6742304e7dd92a89641da49284c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab766c6742304e7dd92a89641da49284c">MR::MeshComponents::hasFullySelectedComponent</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;selection)</td></tr>
+<tr class="memitem:gab766c6742304e7dd92a89641da49284c" id="r_gab766c6742304e7dd92a89641da49284c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab766c6742304e7dd92a89641da49284c">MR::MeshComponents::hasFullySelectedComponent</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const VertBitSet &amp;selection)</td></tr>
 <tr class="memdesc:gab766c6742304e7dd92a89641da49284c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if all vertices of a mesh connected component are present in selection  <br /></td></tr>
 <tr class="memitem:gaa41df9253ef4b45f4766fbed05ec4298" id="r_gaa41df9253ef4b45f4766fbed05ec4298"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa41df9253ef4b45f4766fbed05ec4298">MR::MeshComponents::hasFullySelectedComponent</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertBitSet &amp;selection)</td></tr>
-<tr class="memitem:gafb34a3c82c94661207c96d0fb0f48a27" id="r_gafb34a3c82c94661207c96d0fb0f48a27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb34a3c82c94661207c96d0fb0f48a27">MR::MeshComponents::excludeFullySelectedComponents</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, VertBitSet &amp;selection)</td></tr>
+<tr class="memitem:gafb34a3c82c94661207c96d0fb0f48a27" id="r_gafb34a3c82c94661207c96d0fb0f48a27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafb34a3c82c94661207c96d0fb0f48a27">MR::MeshComponents::excludeFullySelectedComponents</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, VertBitSet &amp;selection)</td></tr>
 <tr class="memdesc:gafb34a3c82c94661207c96d0fb0f48a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">if all vertices of a mesh connected component are present in selection, excludes these vertices  <br /></td></tr>
-<tr class="memitem:ga76ec00bcf70f407142ded7836a7de9e5" id="r_ga76ec00bcf70f407142ded7836a7de9e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76ec00bcf70f407142ded7836a7de9e5">MR::MeshComponents::getUnionFindStructureFaces</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:ga76ec00bcf70f407142ded7836a7de9e5" id="r_ga76ec00bcf70f407142ded7836a7de9e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76ec00bcf70f407142ded7836a7de9e5">MR::MeshComponents::getUnionFindStructureFaces</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
 <tr class="memdesc:ga76ec00bcf70f407142ded7836a7de9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with different options of face-connectivity  <br /></td></tr>
-<tr class="memitem:ga0dd9fd26a17b60590340314427a7a32c" id="r_ga0dd9fd26a17b60590340314427a7a32c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0dd9fd26a17b60590340314427a7a32c">MR::MeshComponents::getUnionFindStructureFaces</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet *region=nullptr, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:ga1c98700350bd8f0c087a291cbb6839ec" id="r_ga1c98700350bd8f0c087a291cbb6839ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c98700350bd8f0c087a291cbb6839ec">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const MeshPart &amp;meshPart, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:gafa8932336abeda4634ac75a8b9ecc38d" id="r_gafa8932336abeda4634ac75a8b9ecc38d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafa8932336abeda4634ac75a8b9ecc38d">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
-<tr class="memitem:gaab4f40960e177485925e0ef983994118" id="r_gaab4f40960e177485925e0ef983994118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab4f40960e177485925e0ef983994118">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet *region=nullptr)</td></tr>
+<tr class="memitem:ga0dd9fd26a17b60590340314427a7a32c" id="r_ga0dd9fd26a17b60590340314427a7a32c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0dd9fd26a17b60590340314427a7a32c">MR::MeshComponents::getUnionFindStructureFaces</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet *region=nullptr, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:ga1c98700350bd8f0c087a291cbb6839ec" id="r_ga1c98700350bd8f0c087a291cbb6839ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c98700350bd8f0c087a291cbb6839ec">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const MeshPart &amp;meshPart, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:gafa8932336abeda4634ac75a8b9ecc38d" id="r_gafa8932336abeda4634ac75a8b9ecc38d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafa8932336abeda4634ac75a8b9ecc38d">MR::MeshComponents::getUnionFindStructureFacesPerEdge</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *<a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">isCompBd</a>={})</td></tr>
+<tr class="memitem:gaab4f40960e177485925e0ef983994118" id="r_gaab4f40960e177485925e0ef983994118"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaab4f40960e177485925e0ef983994118">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const VertBitSet *region=nullptr)</td></tr>
 <tr class="memdesc:gaab4f40960e177485925e0ef983994118"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices  <br /></td></tr>
 <tr class="memitem:ga1d49179fb661df7dcb1a026fc986ec5a" id="r_ga1d49179fb661df7dcb1a026fc986ec5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d49179fb661df7dcb1a026fc986ec5a">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const VertBitSet *region=nullptr)</td></tr>
-<tr class="memitem:ga404e853471df6d94afe6a73f1ec1b7ed" id="r_ga404e853471df6d94afe6a73f1ec1b7ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga404e853471df6d94afe6a73f1ec1b7ed">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const EdgeBitSet &amp;edges)</td></tr>
+<tr class="memitem:ga404e853471df6d94afe6a73f1ec1b7ed" id="r_ga404e853471df6d94afe6a73f1ec1b7ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga404e853471df6d94afe6a73f1ec1b7ed">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const EdgeBitSet &amp;<a class="el" href="group__GeneralGroup.html#gabbe25ce79dd85635294b1687bb4bdc72">edges</a>)</td></tr>
 <tr class="memdesc:ga404e853471df6d94afe6a73f1ec1b7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices, considering connections by given edges only  <br /></td></tr>
-<tr class="memitem:ga54416f91858b38cf3ce7372f9de68249" id="r_ga54416f91858b38cf3ce7372f9de68249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga54416f91858b38cf3ce7372f9de68249">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;edges)</td></tr>
+<tr class="memitem:ga54416f91858b38cf3ce7372f9de68249" id="r_ga54416f91858b38cf3ce7372f9de68249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga54416f91858b38cf3ce7372f9de68249">MR::MeshComponents::getUnionFindStructureVerts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const UndirectedEdgeBitSet &amp;<a class="el" href="group__GeneralGroup.html#gabbe25ce79dd85635294b1687bb4bdc72">edges</a>)</td></tr>
 <tr class="memdesc:ga54416f91858b38cf3ce7372f9de68249"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices, considering connections by given undirected edges only  <br /></td></tr>
-<tr class="memitem:ga3b8e4f75d863fddc12966da77ca570de" id="r_ga3b8e4f75d863fddc12966da77ca570de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b8e4f75d863fddc12966da77ca570de">MR::MeshComponents::getUnionFindStructureVertsEx</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;ignoreEdges)</td></tr>
+<tr class="memitem:ga3b8e4f75d863fddc12966da77ca570de" id="r_ga3b8e4f75d863fddc12966da77ca570de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3b8e4f75d863fddc12966da77ca570de">MR::MeshComponents::getUnionFindStructureVertsEx</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const UndirectedEdgeBitSet &amp;ignoreEdges)</td></tr>
 <tr class="memdesc:ga3b8e4f75d863fddc12966da77ca570de"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices, considering connections by all edges excluding given ones  <br /></td></tr>
-<tr class="memitem:ga7e5fd0e6213bad557af5151e1d75b907" id="r_ga7e5fd0e6213bad557af5151e1d75b907"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7e5fd0e6213bad557af5151e1d75b907">MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, VertBitSet *outPathVerts=nullptr)</td></tr>
+<tr class="memitem:ga7e5fd0e6213bad557af5151e1d75b907" id="r_ga7e5fd0e6213bad557af5151e1d75b907"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7e5fd0e6213bad557af5151e1d75b907">MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;path, VertBitSet *outPathVerts=nullptr)</td></tr>
 <tr class="memdesc:ga7e5fd0e6213bad557af5151e1d75b907"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices, separating vertices by given path (either closed or from boundary to boundary)  <br /></td></tr>
-<tr class="memitem:gacbb33dd08f88d0e7c8d8fd20492a5286" id="r_gacbb33dd08f88d0e7c8d8fd20492a5286"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacbb33dd08f88d0e7c8d8fd20492a5286">MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;paths, VertBitSet *outPathVerts=nullptr)</td></tr>
-<tr class="memitem:gab9cb78e1a9f65624f29658dc041cc0c7" id="r_gab9cb78e1a9f65624f29658dc041cc0c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; UndirectedEdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab9cb78e1a9f65624f29658dc041cc0c7">MR::MeshComponents::getUnionFindStructureUndirectedEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, bool allPointToRoots=false)</td></tr>
-<tr class="memitem:ga144b55cc0f8b4e8963f7316fa8abc761" id="r_ga144b55cc0f8b4e8963f7316fa8abc761"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga144b55cc0f8b4e8963f7316fa8abc761">MR::MeshComponents::getComponentsUndirectedEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet &amp;seeds)</td></tr>
+<tr class="memitem:gacbb33dd08f88d0e7c8d8fd20492a5286" id="r_gacbb33dd08f88d0e7c8d8fd20492a5286"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacbb33dd08f88d0e7c8d8fd20492a5286">MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;paths, VertBitSet *outPathVerts=nullptr)</td></tr>
+<tr class="memitem:gab9cb78e1a9f65624f29658dc041cc0c7" id="r_gab9cb78e1a9f65624f29658dc041cc0c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1UnionFind.html">UnionFind</a>&lt; UndirectedEdgeId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab9cb78e1a9f65624f29658dc041cc0c7">MR::MeshComponents::getUnionFindStructureUndirectedEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, bool allPointToRoots=false)</td></tr>
+<tr class="memitem:ga144b55cc0f8b4e8963f7316fa8abc761" id="r_ga144b55cc0f8b4e8963f7316fa8abc761"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga144b55cc0f8b4e8963f7316fa8abc761">MR::MeshComponents::getComponentsUndirectedEdges</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const UndirectedEdgeBitSet &amp;seeds)</td></tr>
 <tr class="memdesc:ga144b55cc0f8b4e8963f7316fa8abc761"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns union of connected components, each of which contains at least one seed edge  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga06cd0d2739807ac1817e21714a77b155" id="r_ga06cd0d2739807ac1817e21714a77b155"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga06cd0d2739807ac1817e21714a77b155">MR::MeshComponents::minArea</a></td></tr>
+<tr class="memitem:ga291282746acb01b0a8f0add1c741eca7" id="r_ga291282746acb01b0a8f0add1c741eca7"><td class="memItemLeft" align="right" valign="top">float const UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga291282746acb01b0a8f0add1c741eca7">MR::MeshComponents::isCompBd</a></td></tr>
+<tr class="memitem:ga7bf3e0737aecb4b63a527d014b0bea83" id="r_ga7bf3e0737aecb4b63a527d014b0bea83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7bf3e0737aecb4b63a527d014b0bea83">MR::MeshComponents::unionFind</a></td></tr>
+<tr class="memitem:ga4280eb57f55729dc5222991eecc3cf84" id="r_ga4280eb57f55729dc5222991eecc3cf84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt; float UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4280eb57f55729dc5222991eecc3cf84">MR::MeshComponents::outBdEdgesBetweenLargeComps</a> = nullptr )</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
@@ -1089,87 +1097,6 @@ Functions</h2></td></tr>
 
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
 <p>given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: FaceId -&gt; RegionId, 2. the total number of regions </p>
-
-</div>
-</div>
-<a id="gae2860bc16910d275e467880105068b2d" name="gae2860bc16910d275e467880105068b2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gae2860bc16910d275e467880105068b2d">&#9670;&#160;</a></span>getLargeByAreaComponents() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">FaceBitSet MR::MeshComponents::getLargeByAreaComponents </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>unionFind</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minArea</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>outBdEdgesBetweenLargeComps</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
-
-<p>given prepared union-find structure returns the union of connected components, each having at least given area </p>
-
-</div>
-</div>
-<a id="ga0e01c5d278553086be9238207fdd5e4e" name="ga0e01c5d278553086be9238207fdd5e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0e01c5d278553086be9238207fdd5e4e">&#9670;&#160;</a></span>getLargeByAreaComponents() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">FaceBitSet MR::MeshComponents::getLargeByAreaComponents </td>
-          <td>(</td>
-          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minArea</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
-
-<p>returns the union of connected components, each having at least given area </p>
 
 </div>
 </div>
@@ -2133,6 +2060,129 @@ Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaf6b68cea12137d44fb03418c5f46ddce" name="gaf6b68cea12137d44fb03418c5f46ddce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf6b68cea12137d44fb03418c5f46ddce">&#9670;&#160;</a></span>MR_BIND_OVERLOAD_SUFFIX() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+<p>returns the union of connected components, each having at least given area </p>
+
+</div>
+</div>
+<a id="gabdbe4987630c4fa59a495242098b8885" name="gabdbe4987630c4fa59a495242098b8885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabdbe4987630c4fa59a495242098b8885">&#9670;&#160;</a></span>MR_BIND_OVERLOAD_SUFFIX() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga7bf3e0737aecb4b63a527d014b0bea83">unionFind</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+<p>given prepared union-find structure returns the union of connected components, each having at least given area </p>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="ga291282746acb01b0a8f0add1c741eca7" name="ga291282746acb01b0a8f0add1c741eca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga291282746acb01b0a8f0add1c741eca7">&#9670;&#160;</a></span>isCompBd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float const UndirectedEdgeBitSet* MR::MeshComponents::isCompBd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga06cd0d2739807ac1817e21714a77b155" name="ga06cd0d2739807ac1817e21714a77b155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga06cd0d2739807ac1817e21714a77b155">&#9670;&#160;</a></span>minArea</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt; FaceId &gt; float MR::MeshComponents::minArea</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga4280eb57f55729dc5222991eecc3cf84" name="ga4280eb57f55729dc5222991eecc3cf84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4280eb57f55729dc5222991eecc3cf84">&#9670;&#160;</a></span>outBdEdgesBetweenLargeComps</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt;FaceId&gt; float UndirectedEdgeBitSet* MR::MeshComponents::outBdEdgesBetweenLargeComps = nullptr )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga7bf3e0737aecb4b63a527d014b0bea83" name="ga7bf3e0737aecb4b63a527d014b0bea83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7bf3e0737aecb4b63a527d014b0bea83">&#9670;&#160;</a></span>unionFind</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1BaseUnionFind.html">BaseUnionFind</a>&lt;FaceId&gt;&amp; MR::MeshComponents::unionFind</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>

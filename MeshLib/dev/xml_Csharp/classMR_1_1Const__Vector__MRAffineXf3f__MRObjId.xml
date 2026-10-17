@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9883b552716abceeba4569e4ee4b8ec4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25198" column="71"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a115fccc2569515e3677b9b205eed9ffa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25198" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25201" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a29a9cca0730dd8e8302902aae981b09e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aac85bab975fa55535d0672fa87339088" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.AffineXf3f *val)</argsstring>
+        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_fill</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25201" column="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af11ac6ef1957b8a824213e555e9dadbc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_std_vector_MR_AffineXf3f</definition>
-        <argsstring>(MR.Std.Vector_MRAffineXf3f._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_std_vector_MR_AffineXf3f</name>
-        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_std_vector_MR_AffineXf3f</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRAffineXf3f._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25204" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a12a40d9a5a4f3069d2179958b52f18c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a6b1fa079b28d3c305527771901feb575" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_2</definition>
-        <argsstring>(nuint size, MR.AffineXf3f *val)</argsstring>
-        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_2</name>
-        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRAffineXf3f._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRAffineXf3f._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aa7f0b76083e9c1c8b79cd17e4c11df5c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a95ad5ccfcadcbf35bf0c0ecf14733f4e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_beginId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a862da4838f6ac847d7fe73fff82f4eef" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_capacity</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a29a9cca0730dd8e8302902aae981b09e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af11ac6ef1957b8a824213e555e9dadbc" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_1_std_vector_MR_AffineXf3f</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a12a40d9a5a4f3069d2179958b52f18c6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9883b552716abceeba4569e4ee4b8ec4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aac85bab975fa55535d0672fa87339088" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a6b1fa079b28d3c305527771901feb575" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a115fccc2569515e3677b9b205eed9ffa" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2e7bb8ffa0f9e62378144831c045951c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ab4e2c2640b4d30e7cdc61fa6788785fb" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_DefaultConstruct</name></member>

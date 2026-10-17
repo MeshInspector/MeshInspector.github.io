@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad95fd04a3f1bbcdbfcebac6c8dd1f8b7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47201" column="71"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7a8e78a97e98a9aceb3b62d5886ea59f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47201" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47204" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a76adbe5604173a17db0be5c15cb99b64" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7b3f9bdc4a8c922e88e442f1a355e07e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Const_VertBitSet._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_fill</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47204" column="71"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aaba1553772f8e5d84acd514dbce44b23" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_std_vector_MR_VertBitSet</definition>
-        <argsstring>(MR.Std.Vector_MRVertBitSet._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_std_vector_MR_VertBitSet</name>
-        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_std_vector_MR_VertBitSet</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRVertBitSet._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Const_VertBitSet._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47207" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aabe17fb413713e8312fe0e02cd307c59" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7dc780dbdd8b6420f99504b3bdaf2259" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_2</definition>
-        <argsstring>(nuint size, MR.Const_VertBitSet._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_2</name>
-        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRVertBitSet_MRObjId._Underlying * MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRVertBitSet._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Vector_MRVertBitSet_MRObjId.__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_VertBitSet._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRVertBitSet._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a5997e2067b4f3389b454e78ecbc93982" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ac9f1485885330bdb4d6fa7a33927c3dd" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_beginId</name></member>
       <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1af364fa455ea72396649058fdb431ddf0" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_capacity</name></member>
-      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a76adbe5604173a17db0be5c15cb99b64" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aaba1553772f8e5d84acd514dbce44b23" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_1_std_vector_MR_VertBitSet</name></member>
-      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1aabe17fb413713e8312fe0e02cd307c59" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1ad95fd04a3f1bbcdbfcebac6c8dd1f8b7" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7b3f9bdc4a8c922e88e442f1a355e07e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7dc780dbdd8b6420f99504b3bdaf2259" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a7a8e78a97e98a9aceb3b62d5886ea59f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a63518de0702a5c1aa64a476df933534d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRVertBitSet__MRObjId_1a18564976caf7dcb7d05115b19374626f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRVertBitSet_MRObjId</scope><name>__MR_Vector_MR_VertBitSet_MR_ObjId_DefaultConstruct</name></member>

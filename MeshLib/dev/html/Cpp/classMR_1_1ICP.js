@@ -1,11 +1,8 @@
 var classMR_1_1ICP =
 [
     [ "ICP", "group__GeneralGroup.html#gabf8abfc1336998ff9b7f0baff945f17f", null ],
-    [ "ICP", "group__GeneralGroup.html#ga176b1bc0e8f03f9db115cb8e5894ff14", null ],
     [ "ICP", "group__GeneralGroup.html#ga95a8266663f52f5442b8b30c105495e5", null ],
-    [ "ICP", "group__GeneralGroup.html#gad5f4abee52607307b0e47d4d04559473", null ],
     [ "ICP", "group__GeneralGroup.html#ga78b77e51102c8f0da1a67c2f90dd0449", null ],
-    [ "ICP", "group__GeneralGroup.html#gad1944f4e241f23e28b47d4fcf882869b", null ],
     [ "autoSelectFloatXf", "group__GeneralGroup.html#gae6979d6159d128afbd42cd9efe9774ae", null ],
     [ "calculateTransformation", "group__GeneralGroup.html#gaf4d26a79ea3d3839ee76658eda157b6f", null ],
     [ "getFlt2RefPairs", "group__GeneralGroup.html#ga615de191aaa0811f84bcd43de0798d0d", null ],
@@ -16,6 +13,9 @@ var classMR_1_1ICP =
     [ "getParams", "group__GeneralGroup.html#ga3b44361c18aeb9ceab9d26c86c5939ef", null ],
     [ "getRef2FltPairs", "group__GeneralGroup.html#ga5ae6b714ad76474375e6365bb6a882a6", null ],
     [ "getStatusInfo", "group__GeneralGroup.html#ga4ae3f70fc9c4fc7ffbcdb0f43eae2421", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#ga5b060cd68f7edaee14673276f8b3c42a", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#gad91f5ed97435e251629b58c1d4d48ebe", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__GeneralGroup.html#gaf4e277621b4076612a9c2c951ecd5615", null ],
     [ "recomputeBitSet", "group__GeneralGroup.html#gabd481b32d31b8f82a05f815143b28820", null ],
     [ "sampleFltPoints", "group__GeneralGroup.html#gab34beaf329dc6198fe7d028dd9ddccbe", null ],
     [ "samplePoints", "group__GeneralGroup.html#ga64b2b6e88452dd7ef588e0f2533beeee", null ],
@@ -29,5 +29,11 @@ var classMR_1_1ICP =
     [ "setParams", "group__GeneralGroup.html#ga432cc96b69c08b035a5c6bf6bf8919da", null ],
     [ "setRefSamples", "group__GeneralGroup.html#ga033946f0665c58cf3f65b7bdd9732679", null ],
     [ "setXfs", "group__GeneralGroup.html#gac6e52fe345c88a831ba23619cd352e47", null ],
-    [ "updatePointPairs", "group__GeneralGroup.html#gafd50cf7357b6599704f31b3c1dcde7ad", null ]
+    [ "updatePointPairs", "group__GeneralGroup.html#gafd50cf7357b6599704f31b3c1dcde7ad", null ],
+    [ "fltSamples", "group__GeneralGroup.html#gaebf36c716f0957f8e60b7b84df532ccf", null ],
+    [ "fltSamples", "group__GeneralGroup.html#gaabd0ec37eec618bd9268a836dd613d9c", null ],
+    [ "ref", "group__GeneralGroup.html#ga65fa806f871737d772315ea28a9de0ce", null ],
+    [ "refSamples", "group__GeneralGroup.html#ga886c36f8281c5a2a8181e4042a51366d", null ],
+    [ "refSamples", "group__GeneralGroup.html#gae0fc293d759e349e030e83f637b6673e", null ],
+    [ "samplingVoxelSize", "group__GeneralGroup.html#gafabb42cb0c084223533a643bb600e0c4", null ]
 ];

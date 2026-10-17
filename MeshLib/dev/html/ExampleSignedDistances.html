@@ -197,7 +197,7 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* mesh1Res = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* mesh1Res = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh1.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* refMesh = MR_expected_MR_Mesh_std_string_value_mut( mesh1Res );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !refMesh )</div>
 <div class="line">    {</div>
@@ -205,7 +205,7 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_load_1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_MR_Mesh_std_string* mesh2Res = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh2.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* mesh2Res = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh2.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( mesh2Res );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
@@ -214,7 +214,7 @@ $(function(){initNavTree('ExampleSignedDistances.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// get object of VertScalars - set of distances between points of target mesh and reference mesh</span></div>
-<div class="line">    MR_VertScalars* vertDistances = MR_findSignedDistances_4( refMesh, mesh, NULL, NULL );</div>
+<div class="line">    MR_VertScalars* vertDistances = MR_findSignedDistances( refMesh, mesh, NULL, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> minDist = FLT_MAX;</div>
 <div class="line">    <span class="keywordtype">float</span> maxDist = -FLT_MAX;</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; MR_VertScalars_size( vertDistances ); ++i )</div>

@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11184" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TextureBitSet_1af47c925d1aaed62575688519a852d9ed" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1aee98c52db3feba56a2431688059468f8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.TextureId pos, byte *val)</argsstring>
-        <name>__MR_TextureBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_TextureBitSet_autoResizeSet</name>
+        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11187" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a9a5346df99dabff0c1d7dfeb54275847" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a1772cd8a23e79b93cf03ffd08876b6e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.TextureId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_TextureBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_TextureBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11238" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TextureBitSet_1aeecde6d62956b10a5b34c725c446fe3f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a03fdcdacd3e40e3c0359eebc7e6497a4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TextureBitSet._Underlying *</type>
-        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_TextureBitSet_set_0</name>
-        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11241" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a8292ec521bcca75134c1c010330a2edd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.TextureBitSet._Underlying *</type>
-        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.TextureId n)</argsstring>
-        <name>__MR_TextureBitSet_set_1</name>
-        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11244" column="57"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1TextureBitSet_1ae8c4b84bb34e4d4a57a4fdbe85c76e1f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.TextureBitSet._Underlying *</type>
-        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_2</definition>
+        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.TextureId n, byte val)</argsstring>
-        <name>__MR_TextureBitSet_set_2</name>
-        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_2</qualifiedname>
+        <name>__MR_TextureBitSet_set</name>
+        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11241" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a000695a852eb18bb27ec59688467627c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TextureBitSet._Underlying *</type>
+        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_TextureBitSet_set_all</name>
+        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11244" column="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a4b3b630bc3d6d693459ea922b274fe97" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.TextureBitSet._Underlying *</type>
+        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.TextureId n)</argsstring>
+        <name>__MR_TextureBitSet_set_bit</name>
+        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11247" column="57"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TextureBitSet_1a9d915c8cee0930eb7169f80df5caec62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TextureBitSet_1ad2d9e5fe3b496686c53028fb4e28d41e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TextureBitSet._Underlying *</type>
-        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_3</definition>
+        <definition>static unsafe MR.TextureBitSet._Underlying * MR.TextureBitSet.__MR_TextureBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.TextureId n, nuint len, byte val)</argsstring>
-        <name>__MR_TextureBitSet_set_3</name>
-        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_3</qualifiedname>
+        <name>__MR_TextureBitSet_set_range</name>
+        <qualifiedname>MR.TextureBitSet.__MR_TextureBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1648,8 +1648,8 @@
     <listofallmembers>
       <member refid="classMR_1_1TextureBitSet_1a7c953802609a53853477196f25c95e76" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1TextureBitSet_1ac8a146b5e59e0358ae5b8c1e470af939" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1TextureBitSet_1af47c925d1aaed62575688519a852d9ed" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1TextureBitSet_1a9a5346df99dabff0c1d7dfeb54275847" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1TextureBitSet_1aee98c52db3feba56a2431688059468f8" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a1772cd8a23e79b93cf03ffd08876b6e0" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1TextureBitSet_1a7b6710fec6d12b31eb5b19b3764bcf32" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1TextureBitSet_1a6abf9f5a88518b51fc119a129b47a3b2" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1TextureBitSet_1a01c3a1cf8a62559cf8bcac6c6682d509" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_bitor_assign</name></member>
@@ -1671,10 +1671,10 @@
       <member refid="classMR_1_1TextureBitSet_1ae2f0451dfe1db6b1969cd436d1c537f5" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_resize</name></member>
       <member refid="classMR_1_1TextureBitSet_1a51c7c1822643dccab2316e00c78d770b" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1TextureBitSet_1a0db561e0d294ea9edc6bbdf7445d8ba5" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_reverse</name></member>
-      <member refid="classMR_1_1TextureBitSet_1aeecde6d62956b10a5b34c725c446fe3f" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_0</name></member>
-      <member refid="classMR_1_1TextureBitSet_1a8292ec521bcca75134c1c010330a2edd" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_1</name></member>
-      <member refid="classMR_1_1TextureBitSet_1ae8c4b84bb34e4d4a57a4fdbe85c76e1f" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_2</name></member>
-      <member refid="classMR_1_1TextureBitSet_1a9d915c8cee0930eb7169f80df5caec62" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_3</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a03fdcdacd3e40e3c0359eebc7e6497a4" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a000695a852eb18bb27ec59688467627c" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_all</name></member>
+      <member refid="classMR_1_1TextureBitSet_1a4b3b630bc3d6d693459ea922b274fe97" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_bit</name></member>
+      <member refid="classMR_1_1TextureBitSet_1ad2d9e5fe3b496686c53028fb4e28d41e" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_set_range</name></member>
       <member refid="classMR_1_1TextureBitSet_1a2bd67ba8fc142f43743a14da3bd36f84" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1TextureBitSet_1a7274d251a0c8f4befe66a1ebc6afb0b3" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_sub_assign</name></member>
       <member refid="classMR_1_1TextureBitSet_1ac8eb740184350666eaae528aabc34974" prot="private" virt="non-virtual"><scope>MR::TextureBitSet</scope><name>__MR_TextureBitSet_subtract</name></member>

@@ -218,6 +218,9 @@
       <node id="18">
         <label>MR::Vector&lt; MR::MeshTexture, TextureId &gt;</label>
         <link refid="classMR_1_1Vector"/>
+        <childnode refid="19" relation="usage">
+          <edgelabel>val</edgelabel>
+        </childnode>
       </node>
       <node id="10">
         <label>MR::ViewportMask</label>

@@ -3,23 +3,23 @@
   <compounddef id="classICP" kind="class" language="C++" prot="public">
     <compoundname>ICP</compoundname>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classICP_1a09dbac28a63c296be59f1b6481271e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classICP_1a4404c0fbed08c955df9e4b66f040a9d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>ICP::ICP</definition>
-        <argsstring>(MeshOrPointsXf flt, MeshOrPointsXf ref, number samplingVoxelSize)</argsstring>
+        <argsstring>(MeshOrPointsXf _0, MeshOrPointsXf _1, number _2)</argsstring>
         <name>ICP</name>
         <qualifiedname>ICP::ICP</qualifiedname>
         <param>
           <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
-          <declname>flt</declname>
+          <declname>_0</declname>
         </param>
         <param>
           <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
-          <declname>ref</declname>
+          <declname>_1</declname>
         </param>
         <param>
           <type>number</type>
-          <declname>samplingVoxelSize</declname>
+          <declname>_2</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -29,27 +29,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/npm/meshlib/bindings.d.mts" line="453" column="3"/>
       </memberdef>
-      <memberdef kind="function" id="classICP_1a770878be33c4ff48b382d3b260b2eda6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classICP_1a3de6447a8a6a272213c908991e2988e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>ICP::ICP</definition>
-        <argsstring>(MeshOrPointsXf flt, MeshOrPointsXf ref, VertBitSet fltSamples, VertBitSet refSamples)</argsstring>
+        <argsstring>(MeshOrPointsXf _0, MeshOrPointsXf _1, VertBitSet _2, VertBitSet _3)</argsstring>
         <name>ICP</name>
         <qualifiedname>ICP::ICP</qualifiedname>
         <param>
           <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
-          <declname>flt</declname>
+          <declname>_0</declname>
         </param>
         <param>
           <type><ref refid="classMeshOrPointsXf" kindref="compound">MeshOrPointsXf</ref></type>
-          <declname>ref</declname>
+          <declname>_1</declname>
         </param>
         <param>
           <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>fltSamples</declname>
+          <declname>_2</declname>
         </param>
         <param>
           <type><ref refid="classVertBitSet" kindref="compound">VertBitSet</ref></type>
-          <declname>refSamples</declname>
+          <declname>_3</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -256,8 +256,8 @@
       <member refid="classICP_1a990fe54b35371b4058ca82e52402af02" prot="public" virt="non-virtual"><scope>ICP</scope><name>getNumActivePairs</name></member>
       <member refid="classICP_1a13dc8dc33851c0538dd76d90519cf5be" prot="public" virt="non-virtual"><scope>ICP</scope><name>getNumSamples</name></member>
       <member refid="classICP_1a6b8aaa414a5049987b8d9e8a9b713fbf" prot="public" virt="non-virtual"><scope>ICP</scope><name>getStatusInfo</name></member>
-      <member refid="classICP_1a09dbac28a63c296be59f1b6481271e8a" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
-      <member refid="classICP_1a770878be33c4ff48b382d3b260b2eda6" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
+      <member refid="classICP_1a4404c0fbed08c955df9e4b66f040a9d7" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
+      <member refid="classICP_1a3de6447a8a6a272213c908991e2988e9" prot="public" virt="non-virtual"><scope>ICP</scope><name>ICP</name></member>
       <member refid="classICP_1a1aa6ac06ab188c6ad5f91c62cd5071be" prot="public" virt="non-virtual"><scope>ICP</scope><name>samplePoints</name></member>
       <member refid="classICP_1a30f002a3aa9c4481b34f432a04cf28cc" prot="public" virt="non-virtual"><scope>ICP</scope><name>samplePoints</name></member>
       <member refid="classICP_1afa32833f0273c59aefc35f9257bc2389" prot="public" virt="non-virtual"><scope>ICP</scope><name>setParams</name></member>

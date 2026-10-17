@@ -74,6 +74,65 @@
         <location file="MRMesh/MRMeshComponents.h" line="51" column="1" bodyfile="MRMesh/MRMeshComponents.h" bodystart="52" bodyend="56"/>
       </memberdef>
     </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__MeshComponentsGroup_1ga06cd0d2739807ac1817e21714a77b155" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>BaseUnionFind&lt; FaceId &gt; float MR::MeshComponents::minArea</definition>
+        <argsstring></argsstring>
+        <name>minArea</name>
+        <qualifiedname>MR::MeshComponents::minArea</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="73" column="43" bodyfile="MRMesh/MRMeshComponents.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshComponentsGroup_1ga291282746acb01b0a8f0add1c741eca7" prot="public" static="no" mutable="no">
+        <type>float const UndirectedEdgeBitSet *</type>
+        <definition>float const UndirectedEdgeBitSet* MR::MeshComponents::isCompBd</definition>
+        <argsstring></argsstring>
+        <name>isCompBd</name>
+        <qualifiedname>MR::MeshComponents::isCompBd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="73" column="79" bodyfile="MRMesh/MRMeshComponents.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshComponentsGroup_1ga7bf3e0737aecb4b63a527d014b0bea83" prot="public" static="no" mutable="no">
+        <type>BaseUnionFind&lt; FaceId &gt; &amp;</type>
+        <definition>BaseUnionFind&lt;FaceId&gt;&amp; MR::MeshComponents::unionFind</definition>
+        <argsstring></argsstring>
+        <name>unionFind</name>
+        <qualifiedname>MR::MeshComponents::unionFind</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="80" column="52" bodyfile="MRMesh/MRMeshComponents.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__MeshComponentsGroup_1ga4280eb57f55729dc5222991eecc3cf84" prot="public" static="no" mutable="no">
+        <type>BaseUnionFind&lt; FaceId &gt; float UndirectedEdgeBitSet *</type>
+        <definition>BaseUnionFind&lt;FaceId&gt; float UndirectedEdgeBitSet* MR::MeshComponents::outBdEdgesBetweenLargeComps</definition>
+        <argsstring></argsstring>
+        <name>outBdEdgesBetweenLargeComps</name>
+        <qualifiedname>MR::MeshComponents::outBdEdgesBetweenLargeComps</qualifiedname>
+        <initializer>= nullptr )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="81" column="27" bodyfile="MRMesh/MRMeshComponents.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga823ed70b2a3f8987017e57cbc9ae2789" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -406,24 +465,12 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshComponents.h" line="69" column="14" declfile="MRMesh/MRMeshComponents.h" declline="69" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>FaceBitSet</type>
-        <definition>FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
-        <argsstring>(const MeshPart &amp;meshPart, float minArea, const UndirectedEdgeBitSet *isCompBd)</argsstring>
-        <name>getLargeByAreaComponents</name>
-        <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>meshPart</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>minArea</declname>
-        </param>
-        <param>
-          <type>const UndirectedEdgeBitSet *</type>
-          <declname>isCompBd</declname>
-        </param>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaf6b68cea12137d44fb03418c5f46ddce" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 FaceBitSet getLargeByAreaComponents(const MeshPart &amp;meshPart</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>returns the union of connected components, each having at least given area </para>
         </briefdescription>
@@ -431,7 +478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="73" column="14" declfile="MRMesh/MRMeshComponents.h" declline="73" declcolumn="14"/>
+        <location file="MRMesh/MRMeshComponents.h" line="73" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga6ce22d1ba91640724f2871328726b18a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -456,28 +503,14 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshComponents.h" line="77" column="14" declfile="MRMesh/MRMeshComponents.h" declline="77" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>FaceBitSet</type>
-        <definition>FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
-        <argsstring>(const MeshPart &amp;meshPart, BaseUnionFind&lt; FaceId &gt; &amp;unionFind, float minArea, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
-        <name>getLargeByAreaComponents</name>
-        <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gabdbe4987630c4fa59a495242098b8885" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(unionFind) 1 FaceBitSet getLargeByAreaComponents(const MeshPart &amp;meshPart</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MeshComponents::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshPart &amp;</type>
-          <declname>meshPart</declname>
-        </param>
-        <param>
-          <type>BaseUnionFind&lt; FaceId &gt; &amp;</type>
-          <declname>unionFind</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>minArea</declname>
-        </param>
-        <param>
-          <type>UndirectedEdgeBitSet *</type>
-          <declname>outBdEdgesBetweenLargeComps</declname>
-          <defval>nullptr</defval>
+          <type>unionFind</type>
         </param>
         <briefdescription>
 <para>given prepared union-find structure returns the union of connected components, each having at least given area </para>
@@ -486,7 +519,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="80" column="14" declfile="MRMesh/MRMeshComponents.h" declline="80" declcolumn="14"/>
+        <location file="MRMesh/MRMeshComponents.h" line="80" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga8f7b3aea1e17934f892932ac212a71f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; FaceBitSet &gt;</type>

@@ -61665,12 +61665,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1670" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aec3250d65d8582bd78cd99bdc4c1b3db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a681f55bb7730d2e42b4495074bd3da18" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Polyline2._Underlying *</type>
-        <definition>static unsafe MR.Polyline2._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_2</definition>
+        <definition>static unsafe MR.Polyline2._Underlying * MR.__MR_distanceMapTo2DIsoPolyline</definition>
         <argsstring>(MR.Const_DistanceMap._Underlying *distMap, float isoValue)</argsstring>
-        <name>__MR_distanceMapTo2DIsoPolyline_2</name>
-        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_2</qualifiedname>
+        <name>__MR_distanceMapTo2DIsoPolyline</name>
+        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline</qualifiedname>
         <param>
           <type>MR.Const_DistanceMap._Underlying *</type>
           <declname>distMap</declname>
@@ -61687,12 +61687,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1673" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aa267eae3b59d2791c66efdf35950ee7c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a6a88bae878e5e9bf885495aee69fa32a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Polyline2._Underlying *</type>
-        <definition>static unsafe MR.Polyline2._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_3_MR_ContourToDistanceMapParams</definition>
+        <definition>static unsafe MR.Polyline2._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_params</definition>
         <argsstring>(MR.Const_DistanceMap._Underlying *distMap, MR.Const_ContourToDistanceMapParams._Underlying *params_, float isoValue)</argsstring>
-        <name>__MR_distanceMapTo2DIsoPolyline_3_MR_ContourToDistanceMapParams</name>
-        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_3_MR_ContourToDistanceMapParams</qualifiedname>
+        <name>__MR_distanceMapTo2DIsoPolyline_params</name>
+        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_params</qualifiedname>
         <param>
           <type>MR.Const_DistanceMap._Underlying *</type>
           <declname>distMap</declname>
@@ -61713,12 +61713,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1676" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a8adfadd69ae908d39c6ffeef1cc363fe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a492430ba8911d944d067a0b793b4d14b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Polyline2._Underlying *</type>
-        <definition>static unsafe MR.Polyline2._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_3_float</definition>
+        <definition>static unsafe MR.Polyline2._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_pixelSize</definition>
         <argsstring>(MR.Const_DistanceMap._Underlying *distMap, float pixelSize, float isoValue)</argsstring>
-        <name>__MR_distanceMapTo2DIsoPolyline_3_float</name>
-        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_3_float</qualifiedname>
+        <name>__MR_distanceMapTo2DIsoPolyline_pixelSize</name>
+        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_pixelSize</qualifiedname>
         <param>
           <type>MR.Const_DistanceMap._Underlying *</type>
           <declname>distMap</declname>
@@ -61739,12 +61739,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="1679" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6d646e067dfd8c426efd99540f7c27fb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a4d9d13fadfc26fe2ac3cdc0cbaf9282a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Pair_MRPolyline2_MRAffineXf3f._Underlying *</type>
-        <definition>static unsafe MR.Std.Pair_MRPolyline2_MRAffineXf3f._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_4</definition>
+        <definition>static unsafe MR.Std.Pair_MRPolyline2_MRAffineXf3f._Underlying * MR.__MR_distanceMapTo2DIsoPolyline_xf</definition>
         <argsstring>(MR.Const_DistanceMap._Underlying *distMap, MR.AffineXf3f *xf, float isoValue, byte *useDepth)</argsstring>
-        <name>__MR_distanceMapTo2DIsoPolyline_4</name>
-        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_4</qualifiedname>
+        <name>__MR_distanceMapTo2DIsoPolyline_xf</name>
+        <qualifiedname>MR.__MR_distanceMapTo2DIsoPolyline_xf</qualifiedname>
         <param>
           <type>MR.Const_DistanceMap._Underlying *</type>
           <declname>distMap</declname>
@@ -67577,18 +67577,18 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="703" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ae83d1d2f3e937957f0883563160b5734" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a356af990ea02b2d0f5d75ff2f5f937c3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.BooleanResult._Underlying *</type>
-        <definition>static unsafe MR.BooleanResult._Underlying * MR.__MR_boolean_4_MR_Mesh_rvalue_ref</definition>
-        <argsstring>(MR.Mesh._Underlying *meshA, MR.Mesh._Underlying *meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters._Underlying *params_)</argsstring>
-        <name>__MR_boolean_4_MR_Mesh_rvalue_ref</name>
-        <qualifiedname>MR.__MR_boolean_4_MR_Mesh_rvalue_ref</qualifiedname>
+        <definition>static unsafe MR.BooleanResult._Underlying * MR.__MR_boolean</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *meshA, MR.Const_Mesh._Underlying *meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters._Underlying *params_)</argsstring>
+        <name>__MR_boolean</name>
+        <qualifiedname>MR.__MR_boolean</qualifiedname>
         <param>
-          <type>MR.Mesh._Underlying *</type>
+          <type>MR.Const_Mesh._Underlying *</type>
           <declname>meshA</declname>
         </param>
         <param>
-          <type>MR.Mesh._Underlying *</type>
+          <type>MR.Const_Mesh._Underlying *</type>
           <declname>meshB</declname>
         </param>
         <param>
@@ -67607,18 +67607,18 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1625" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a877b9e2d36c41d43bd5bc19583dace59" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1adf68394416606826a85c661050444222" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.BooleanResult._Underlying *</type>
-        <definition>static unsafe MR.BooleanResult._Underlying * MR.__MR_boolean_4_const_MR_Mesh_ref</definition>
-        <argsstring>(MR.Const_Mesh._Underlying *meshA, MR.Const_Mesh._Underlying *meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters._Underlying *params_)</argsstring>
-        <name>__MR_boolean_4_const_MR_Mesh_ref</name>
-        <qualifiedname>MR.__MR_boolean_4_const_MR_Mesh_ref</qualifiedname>
+        <definition>static unsafe MR.BooleanResult._Underlying * MR.__MR_boolean_move</definition>
+        <argsstring>(MR.Mesh._Underlying *meshA, MR.Mesh._Underlying *meshB, MR.BooleanOperation operation, MR.Const_BooleanParameters._Underlying *params_)</argsstring>
+        <name>__MR_boolean_move</name>
+        <qualifiedname>MR.__MR_boolean_move</qualifiedname>
         <param>
-          <type>MR.Const_Mesh._Underlying *</type>
+          <type>MR.Mesh._Underlying *</type>
           <declname>meshA</declname>
         </param>
         <param>
-          <type>MR.Const_Mesh._Underlying *</type>
+          <type>MR.Mesh._Underlying *</type>
           <declname>meshB</declname>
         </param>
         <param>
@@ -67637,12 +67637,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1628" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ab0ac38bf60b91fbe96c65ac1aea151be" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aa4ddae8066f32a5a7bf68406ca3b017b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.BooleanResult._Underlying *</type>
-        <definition>static unsafe MR.BooleanResult._Underlying * MR.__MR_boolean_6</definition>
+        <definition>static unsafe MR.BooleanResult._Underlying * MR.__MR_boolean_withXf</definition>
         <argsstring>(MR.Const_Mesh._Underlying *meshA, MR.Const_Mesh._Underlying *meshB, MR.BooleanOperation operation, MR.AffineXf3f *rigidB2A, MR.BooleanResultMapper._Underlying *mapper, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_boolean_6</name>
-        <qualifiedname>MR.__MR_boolean_6</qualifiedname>
+        <name>__MR_boolean_withXf</name>
+        <qualifiedname>MR.__MR_boolean_withXf</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>meshA</declname>
@@ -67895,6 +67895,40 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="132" column="60"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1abc8e3fb2f874131ec92abb2249950f04" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_StdVectorMRFaceFace_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_StdVectorMRFaceFace_StdString._Underlying * MR.__MR_findSelfCollidingTriangles</definition>
+        <argsstring>(MR.Const_MeshPart._Underlying *mp, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb, MR.Const_Face2RegionMap._Underlying *regionMap, byte *touchIsIntersection)</argsstring>
+        <name>__MR_findSelfCollidingTriangles</name>
+        <qualifiedname>MR.__MR_findSelfCollidingTriangles</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart._Underlying *</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>MR.Const_Face2RegionMap._Underlying *</type>
+          <declname>regionMap</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>touchIsIntersection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="135" column="78"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a2ef80ca7d9ee6d4058aa656b783ff720" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFaceBitSet_StdString._Underlying *</type>
         <definition>static unsafe MR.Expected_MRFaceBitSet_StdString._Underlying * MR.__MR_findSelfCollidingTrianglesBS</definition>
@@ -67927,48 +67961,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="135" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="138" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ac1e0904c156488ed0275f7b11a32bdcf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Expected_StdVectorMRFaceFace_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_StdVectorMRFaceFace_StdString._Underlying * MR.__MR_findSelfCollidingTriangles_4</definition>
-        <argsstring>(MR.Const_MeshPart._Underlying *mp, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb, MR.Const_Face2RegionMap._Underlying *regionMap, byte *touchIsIntersection)</argsstring>
-        <name>__MR_findSelfCollidingTriangles_4</name>
-        <qualifiedname>MR.__MR_findSelfCollidingTriangles_4</qualifiedname>
-        <param>
-          <type>MR.Const_MeshPart._Underlying *</type>
-          <declname>mp</declname>
-        </param>
-        <param>
-          <type>MR.Misc._PassBy</type>
-          <declname>cb_pass_by</declname>
-        </param>
-        <param>
-          <type>MR.Std.Function_Bool_From_Float._Underlying *</type>
-          <declname>cb</declname>
-        </param>
-        <param>
-          <type>MR.Const_Face2RegionMap._Underlying *</type>
-          <declname>regionMap</declname>
-        </param>
-        <param>
-          <type>byte *</type>
-          <declname>touchIsIntersection</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="138" column="78"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a7615d62cd001513e5b7b35a0560c0345" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a327f6b45a63790ebba2f95a0901a6667" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Bool_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Bool_StdString._Underlying * MR.__MR_findSelfCollidingTriangles_5</definition>
+        <definition>static unsafe MR.Expected_Bool_StdString._Underlying * MR.__MR_findSelfCollidingTriangles_outPairs</definition>
         <argsstring>(MR.Const_MeshPart._Underlying *mp, MR.Std.Vector_MRFaceFace._Underlying *outCollidingPairs, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb, MR.Const_Face2RegionMap._Underlying *regionMap, byte *touchIsIntersection)</argsstring>
-        <name>__MR_findSelfCollidingTriangles_5</name>
-        <qualifiedname>MR.__MR_findSelfCollidingTriangles_5</qualifiedname>
+        <name>__MR_findSelfCollidingTriangles_outPairs</name>
+        <qualifiedname>MR.__MR_findSelfCollidingTriangles_outPairs</qualifiedname>
         <param>
           <type>MR.Const_MeshPart._Underlying *</type>
           <declname>mp</declname>
@@ -68129,12 +68129,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollide.cs" line="153" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ae8db2f0592bad925bd5d7d6d527f7e2b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ac47c108e0829e340bb15444346fb5042" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRVarEdgeTri._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRVarEdgeTri._Underlying * MR.__MR_findCollidingEdgeTrisPrecise_5</definition>
+        <definition>static unsafe MR.Std.Vector_MRVarEdgeTri._Underlying * MR.__MR_findCollidingEdgeTrisPrecise</definition>
         <argsstring>(MR.Const_MeshPart._Underlying *a, MR.Const_MeshPart._Underlying *b, MR.ConvertToIntVector._Underlying *conv, MR.AffineXf3f *rigidB2A, byte *anyIntersection)</argsstring>
-        <name>__MR_findCollidingEdgeTrisPrecise_5</name>
-        <qualifiedname>MR.__MR_findCollidingEdgeTrisPrecise_5</qualifiedname>
+        <name>__MR_findCollidingEdgeTrisPrecise</name>
+        <qualifiedname>MR.__MR_findCollidingEdgeTrisPrecise</qualifiedname>
         <param>
           <type>MR.Const_MeshPart._Underlying *</type>
           <declname>a</declname>
@@ -68163,12 +68163,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="871" column="62"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a1098e3e7047951ac5cdd49be173a3179" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ac43a95fe850e1c4ea04f8eb6189c0e41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MREdgeTri._Underlying * MR.__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</definition>
+        <definition>static unsafe MR.Std.Vector_MREdgeTri._Underlying * MR.__MR_findCollidingEdgeTrisPrecise_edgesA</definition>
         <argsstring>(MR.Const_Mesh._Underlying *a, MR.Std.Const_Vector_MREdgeId._Underlying *edgesA, MR.Const_Mesh._Underlying *b, MR.Std.Const_Vector_MRFaceId._Underlying *facesB, MR.ConvertToIntVector._Underlying *conv, MR.AffineXf3f *rigidB2A)</argsstring>
-        <name>__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</name>
-        <qualifiedname>MR.__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</qualifiedname>
+        <name>__MR_findCollidingEdgeTrisPrecise_edgesA</name>
+        <qualifiedname>MR.__MR_findCollidingEdgeTrisPrecise_edgesA</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>a</declname>
@@ -68201,12 +68201,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="874" column="59"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a198eeadec282406c0148098f728afdd9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a0e3a15288fe06b08a522b4fa4e5d7a56" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeTri._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MREdgeTri._Underlying * MR.__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</definition>
+        <definition>static unsafe MR.Std.Vector_MREdgeTri._Underlying * MR.__MR_findCollidingEdgeTrisPrecise_facesA</definition>
         <argsstring>(MR.Const_Mesh._Underlying *a, MR.Std.Const_Vector_MRFaceId._Underlying *facesA, MR.Const_Mesh._Underlying *b, MR.Std.Const_Vector_MREdgeId._Underlying *edgesB, MR.ConvertToIntVector._Underlying *conv, MR.AffineXf3f *rigidB2A)</argsstring>
-        <name>__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</name>
-        <qualifiedname>MR.__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</qualifiedname>
+        <name>__MR_findCollidingEdgeTrisPrecise_facesA</name>
+        <qualifiedname>MR.__MR_findCollidingEdgeTrisPrecise_facesA</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>a</declname>
@@ -68273,30 +68273,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="880" column="59"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a8cdd5f51a5b7d719c10a3c75b7259831" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a04dc0ddff7865486db33ed5cc37410ce" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.CoordinateConverters._Underlying *</type>
-        <definition>static unsafe MR.CoordinateConverters._Underlying * MR.__MR_getVectorConverters_1</definition>
-        <argsstring>(MR.Const_MeshPart._Underlying *a)</argsstring>
-        <name>__MR_getVectorConverters_1</name>
-        <qualifiedname>MR.__MR_getVectorConverters_1</qualifiedname>
-        <param>
-          <type>MR.Const_MeshPart._Underlying *</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="883" column="60"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1aabcf8aca5cfb21088005c840b0fb4960" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.CoordinateConverters._Underlying *</type>
-        <definition>static unsafe MR.CoordinateConverters._Underlying * MR.__MR_getVectorConverters_3</definition>
+        <definition>static unsafe MR.CoordinateConverters._Underlying * MR.__MR_getVectorConverters</definition>
         <argsstring>(MR.Const_MeshPart._Underlying *a, MR.Const_MeshPart._Underlying *b, MR.AffineXf3f *rigidB2A)</argsstring>
-        <name>__MR_getVectorConverters_3</name>
-        <qualifiedname>MR.__MR_getVectorConverters_3</qualifiedname>
+        <name>__MR_getVectorConverters</name>
+        <qualifiedname>MR.__MR_getVectorConverters</qualifiedname>
         <param>
           <type>MR.Const_MeshPart._Underlying *</type>
           <declname>a</declname>
@@ -68308,6 +68290,24 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         <param>
           <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> *</type>
           <declname>rigidB2A</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="883" column="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6755742a79cdc2defc682838c1a78145" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.CoordinateConverters._Underlying *</type>
+        <definition>static unsafe MR.CoordinateConverters._Underlying * MR.__MR_getVectorConverters_onePart</definition>
+        <argsstring>(MR.Const_MeshPart._Underlying *a)</argsstring>
+        <name>__MR_getVectorConverters_onePart</name>
+        <qualifiedname>MR.__MR_getVectorConverters_onePart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart._Underlying *</type>
+          <declname>a</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -69771,15 +69771,23 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1435" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a02a85bc6b60dbc4b1857dee475ff10a5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_stitchHoles_2</definition>
-        <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_StitchHolesParams._Underlying *params_)</argsstring>
-        <name>__MR_stitchHoles_2</name>
-        <qualifiedname>MR.__MR_stitchHoles_2</qualifiedname>
+      <memberdef kind="function" id="classMR_1a675070bd970f5a878ba9e0e162a6b35d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.__MR_stitchHoles</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh, MR.EdgeId a, MR.EdgeId b, MR.Const_StitchHolesParams._Underlying *params_)</argsstring>
+        <name>__MR_stitchHoles</name>
+        <qualifiedname>MR.__MR_stitchHoles</qualifiedname>
         <param>
           <type>MR.Mesh._Underlying *</type>
           <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>b</declname>
         </param>
         <param>
           <type>MR.Const_StitchHolesParams._Underlying *</type>
@@ -69793,23 +69801,15 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1438" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a24e6899a404af2b3e310596812440f63" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_stitchHoles_4</definition>
-        <argsstring>(MR.Mesh._Underlying *mesh, MR.EdgeId a, MR.EdgeId b, MR.Const_StitchHolesParams._Underlying *params_)</argsstring>
-        <name>__MR_stitchHoles_4</name>
-        <qualifiedname>MR.__MR_stitchHoles_4</qualifiedname>
+      <memberdef kind="function" id="classMR_1a96e6eab88635e319e8284413bb40c978" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_stitchHoles_auto</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_StitchHolesParams._Underlying *params_)</argsstring>
+        <name>__MR_stitchHoles_auto</name>
+        <qualifiedname>MR.__MR_stitchHoles_auto</qualifiedname>
         <param>
           <type>MR.Mesh._Underlying *</type>
           <declname>mesh</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
-          <declname>b</declname>
         </param>
         <param>
           <type>MR.Const_StitchHolesParams._Underlying *</type>
@@ -73665,6 +73665,24 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="350" column="75"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1ac1af018b03c3227fbe22e40ee04a4ba7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceNormals._Underlying *</type>
+        <definition>static unsafe MR.FaceNormals._Underlying * MR.__MR_computePerFaceNormals</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh)</argsstring>
+        <name>__MR_computePerFaceNormals</name>
+        <qualifiedname>MR.__MR_computePerFaceNormals</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="353" column="51"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1aac3dfb54094d1902d11e7eb15080cedf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.__MR_computePerFaceNormals4</definition>
@@ -73689,32 +73707,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="353" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="356" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a3430ebfa57fe9e784fa14045d252dda4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a6f1d86ca2db20c48cf467f1029c2fe64" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceNormals._Underlying *</type>
-        <definition>static unsafe MR.FaceNormals._Underlying * MR.__MR_computePerFaceNormals_1</definition>
-        <argsstring>(MR.Const_Mesh._Underlying *mesh)</argsstring>
-        <name>__MR_computePerFaceNormals_1</name>
-        <qualifiedname>MR.__MR_computePerFaceNormals_1</qualifiedname>
-        <param>
-          <type>MR.Const_Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshNormals.cs" line="356" column="51"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1aad0f97accf979552a1ed4514758a6942" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceNormals._Underlying *</type>
-        <definition>static unsafe MR.FaceNormals._Underlying * MR.__MR_computePerFaceNormals_2</definition>
+        <definition>static unsafe MR.FaceNormals._Underlying * MR.__MR_computePerFaceNormals_topology</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_VertCoords._Underlying *points)</argsstring>
-        <name>__MR_computePerFaceNormals_2</name>
-        <qualifiedname>MR.__MR_computePerFaceNormals_2</qualifiedname>
+        <name>__MR_computePerFaceNormals_topology</name>
+        <qualifiedname>MR.__MR_computePerFaceNormals_topology</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -74279,6 +74279,32 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1430" column="31"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1af1ceab81f4d0a986d49c0367b67bdde2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>static unsafe byte MR.__MR_relax</definition>
+        <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_MeshRelaxParams._Underlying *params_, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
+        <name>__MR_relax</name>
+        <qualifiedname>MR.__MR_relax</qualifiedname>
+        <param>
+          <type>MR.Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshRelaxParams._Underlying *</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1433" column="31"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a5619a7273c650f9336745f4e4b5b6370" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
         <definition>static unsafe byte MR.__MR_relaxApprox_3_MR_Mesh</definition>
@@ -74303,7 +74329,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1433" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1436" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aca6fa1fff545cb824c4479573de068f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -74333,7 +74359,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1436" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1439" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a497eb0465d39a677c97fefa4cf0bd479" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -74359,7 +74385,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1439" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1442" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8fdcbc6f1d261e7c6302d0b07f09404f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -74389,40 +74415,14 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1442" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a58c474cc84b9cde3de929f805912acbb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_relax_3_MR_Mesh</definition>
-        <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_MeshRelaxParams._Underlying *params_, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_relax_3_MR_Mesh</name>
-        <qualifiedname>MR.__MR_relax_3_MR_Mesh</qualifiedname>
-        <param>
-          <type>MR.Mesh._Underlying *</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshRelaxParams._Underlying *</type>
-          <declname>params_</declname>
-        </param>
-        <param>
-          <type>MR.Std.Const_Function_Bool_From_Float._Underlying *</type>
-          <declname>cb</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1445" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a30a547806fd1780b9e93252fe9a7c20b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a14e2e4467bc3e2d30f81e339b6d4d1f3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_relax_4</definition>
+        <definition>static unsafe byte MR.__MR_relax_topology</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.VertCoords._Underlying *points, MR.Const_MeshRelaxParams._Underlying *params_, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_relax_4</name>
-        <qualifiedname>MR.__MR_relax_4</qualifiedname>
+        <name>__MR_relax_topology</name>
+        <qualifiedname>MR.__MR_relax_topology</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -75461,12 +75461,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="825" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1aad63eaac658cc6de4e8e33f2ed263c43" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ae73da492eda8cfbcc57cb05d77423efd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.__MR_meshDenoiseViaNormals_2</definition>
+        <definition>static unsafe void MR.__MR_meshDenoiseViaNormals</definition>
         <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_DenoiseViaNormalsSettings._Underlying *settings)</argsstring>
-        <name>__MR_meshDenoiseViaNormals_2</name>
-        <qualifiedname>MR.__MR_meshDenoiseViaNormals_2</qualifiedname>
+        <name>__MR_meshDenoiseViaNormals</name>
+        <qualifiedname>MR.__MR_meshDenoiseViaNormals</qualifiedname>
         <param>
           <type>MR.Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -75483,12 +75483,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalDenoising.cs" line="828" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a8314635a53a44afc033111549ebde44b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a10ee91bca048fcd6e826abfe78866642" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_meshDenoiseViaNormals_3</definition>
+        <definition>static unsafe byte MR.__MR_meshDenoiseViaNormals_progress</definition>
         <argsstring>(MR.Mesh._Underlying *mesh, MR.Const_DenoiseViaNormalsSettings._Underlying *settings, MR.Std.Const_Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_meshDenoiseViaNormals_3</name>
-        <qualifiedname>MR.__MR_meshDenoiseViaNormals_3</qualifiedname>
+        <name>__MR_meshDenoiseViaNormals_progress</name>
+        <qualifiedname>MR.__MR_meshDenoiseViaNormals_progress</qualifiedname>
         <param>
           <type>MR.Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -79209,12 +79209,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="781" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ad958da3a413e638a1d88a082bcaa01b5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a149b080dfb7ff1fbf6796d9f141c077d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
-        <definition>static unsafe byte MR.__MR_relax_3_MR_PointCloud</definition>
+        <definition>static unsafe byte MR.__MR_relax_pointCloud</definition>
         <argsstring>(MR.PointCloud._Underlying *pointCloud, MR.Const_PointCloudRelaxParams._Underlying *params_, MR.Misc._PassBy cb_pass_by, MR.Std.Function_Bool_From_Float._Underlying *cb)</argsstring>
-        <name>__MR_relax_3_MR_PointCloud</name>
-        <qualifiedname>MR.__MR_relax_3_MR_PointCloud</qualifiedname>
+        <name>__MR_relax_pointCloud</name>
+        <qualifiedname>MR.__MR_relax_pointCloud</qualifiedname>
         <param>
           <type>MR.PointCloud._Underlying *</type>
           <declname>pointCloud</declname>
@@ -79745,12 +79745,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1124" column="65"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a4985d14a54e9b7019e03cf21bd1cfa62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a9f06df6128730a3db6081b2a54724e4a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
-        <definition>static unsafe MR.VertScalars._Underlying * MR.__MR_findSignedDistances_4</definition>
+        <definition>static unsafe MR.VertScalars._Underlying * MR.__MR_findSignedDistances</definition>
         <argsstring>(MR.Const_Mesh._Underlying *refMesh, MR.Const_Mesh._Underlying *mesh, MR.Const_MeshProjectionParameters._Underlying *params_, MR.IPointsToMeshProjector._Underlying *projector)</argsstring>
-        <name>__MR_findSignedDistances_4</name>
-        <qualifiedname>MR.__MR_findSignedDistances_4</qualifiedname>
+        <name>__MR_findSignedDistances</name>
+        <qualifiedname>MR.__MR_findSignedDistances</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>refMesh</declname>
@@ -79775,12 +79775,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="737" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ab5f95e67590e500e67f83a8d851e0e20" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a834f480535569ebff49cab2f2298179e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
-        <definition>static unsafe MR.VertScalars._Underlying * MR.__MR_findSignedDistances_5</definition>
+        <definition>static unsafe MR.VertScalars._Underlying * MR.__MR_findSignedDistances_points</definition>
         <argsstring>(MR.Const_Mesh._Underlying *refMesh, MR.Const_VertCoords._Underlying *testPoints, MR.Const_VertBitSet._Underlying *validTestPoints, MR.Const_MeshProjectionParameters._Underlying *params_, MR.IPointsToMeshProjector._Underlying *projector)</argsstring>
-        <name>__MR_findSignedDistances_5</name>
-        <qualifiedname>MR.__MR_findSignedDistances_5</qualifiedname>
+        <name>__MR_findSignedDistances_points</name>
+        <qualifiedname>MR.__MR_findSignedDistances_points</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>refMesh</declname>
@@ -82909,12 +82909,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="377" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ae6c2fadf5b8a7d2503c6f76caba3665a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aafda99b4518cabd26434a3725bc0d25e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.__MR_getIncidentVerts_2_MR_FaceBitSet</definition>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.__MR_getIncidentVerts</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_FaceBitSet._Underlying *faces)</argsstring>
-        <name>__MR_getIncidentVerts_2_MR_FaceBitSet</name>
-        <qualifiedname>MR.__MR_getIncidentVerts_2_MR_FaceBitSet</qualifiedname>
+        <name>__MR_getIncidentVerts</name>
+        <qualifiedname>MR.__MR_getIncidentVerts</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -82931,12 +82931,12 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="380" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a209f859492aa51f4cee90bfb48013f25" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a34288c9bdc0a170e28c700b32c990973" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.VertBitSet._Underlying * MR.__MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet</definition>
+        <definition>static unsafe MR.VertBitSet._Underlying * MR.__MR_getIncidentVerts_edges</definition>
         <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_UndirectedEdgeBitSet._Underlying *edges)</argsstring>
-        <name>__MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet</name>
-        <qualifiedname>MR.__MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet</qualifiedname>
+        <name>__MR_getIncidentVerts_edges</name>
+        <qualifiedname>MR.__MR_getIncidentVerts_edges</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
@@ -82953,19 +82953,19 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="383" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1ac6ed4624e4998912e5032b3e596eeaca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1ac3264349e837c7e01d1ec5717169b428" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.Const_VertBitSet._Underlying * MR.__MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr</definition>
-        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_FaceBitSet._Underlying *faces, MR.VertBitSet._Underlying *store)</argsstring>
-        <name>__MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr</name>
-        <qualifiedname>MR.__MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr</qualifiedname>
+        <definition>static unsafe MR.Const_VertBitSet._Underlying * MR.__MR_getIncidentVerts_edgesStore</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_UndirectedEdgeBitSet._Underlying *edges, MR.VertBitSet._Underlying *store)</argsstring>
+        <name>__MR_getIncidentVerts_edgesStore</name>
+        <qualifiedname>MR.__MR_getIncidentVerts_edgesStore</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet._Underlying *</type>
-          <declname>faces</declname>
+          <type>MR.Const_UndirectedEdgeBitSet._Underlying *</type>
+          <declname>edges</declname>
         </param>
         <param>
           <type>MR.VertBitSet._Underlying *</type>
@@ -82979,19 +82979,19 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegionBoundary.cs" line="386" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a7292d4869b1180b8e9e1188a8976fcaa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a7fad1ff0ed20dab94a8b2afb4fdd0471" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Const_VertBitSet._Underlying *</type>
-        <definition>static unsafe MR.Const_VertBitSet._Underlying * MR.__MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr</definition>
-        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_UndirectedEdgeBitSet._Underlying *edges, MR.VertBitSet._Underlying *store)</argsstring>
-        <name>__MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr</name>
-        <qualifiedname>MR.__MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr</qualifiedname>
+        <definition>static unsafe MR.Const_VertBitSet._Underlying * MR.__MR_getIncidentVerts_facesStore</definition>
+        <argsstring>(MR.Const_MeshTopology._Underlying *topology, MR.Const_FaceBitSet._Underlying *faces, MR.VertBitSet._Underlying *store)</argsstring>
+        <name>__MR_getIncidentVerts_facesStore</name>
+        <qualifiedname>MR.__MR_getIncidentVerts_facesStore</qualifiedname>
         <param>
           <type>MR.Const_MeshTopology._Underlying *</type>
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet._Underlying *</type>
-          <declname>edges</declname>
+          <type>MR.Const_FaceBitSet._Underlying *</type>
+          <declname>faces</declname>
         </param>
         <param>
           <type>MR.VertBitSet._Underlying *</type>
@@ -100041,9 +100041,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aac2e0b4b6ce41c2b7a8524dfc2cc7a4d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bitor_MR_QuarterBit</name></member>
       <member refid="classMR_1aa6fb0e2e6d80ba37414b5aec2d963938" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bitor_MR_RenderModelPassMask</name></member>
       <member refid="classMR_1ae109875616416a7f412cd71f4faa1404" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_blend</name></member>
-      <member refid="classMR_1a877b9e2d36c41d43bd5bc19583dace59" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_boolean_4_const_MR_Mesh_ref</name></member>
-      <member refid="classMR_1ae83d1d2f3e937957f0883563160b5734" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_boolean_4_MR_Mesh_rvalue_ref</name></member>
-      <member refid="classMR_1ab0ac38bf60b91fbe96c65ac1aea151be" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_boolean_6</name></member>
+      <member refid="classMR_1a356af990ea02b2d0f5d75ff2f5f937c3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_boolean</name></member>
+      <member refid="classMR_1adf68394416606826a85c661050444222" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_boolean_move</name></member>
+      <member refid="classMR_1aa4ddae8066f32a5a7bf68406ca3b017b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_boolean_withXf</name></member>
       <member refid="classMR_1af8c01b19077dfed90d738b116e502387" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bridgeFillAllHoles</name></member>
       <member refid="classMR_1a0cae566056009e51f6709d9823ace420" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_buildBottom</name></member>
       <member refid="classMR_1a33db8570c1da60b1ad3312fba66fe13d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_buildCylinderBetweenTwoHoles_2</name></member>
@@ -100138,9 +100138,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab534f6120883d04f7bfb20885fb35bd3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computeMeshNormals</name></member>
       <member refid="classMR_1a961595bcb8618914640cf42eda48722b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computeNormal</name></member>
       <member refid="classMR_1a5a15fafb6bf6c1b4a41789c5d7025c38" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerCornerNormals</name></member>
+      <member refid="classMR_1ac1af018b03c3227fbe22e40ee04a4ba7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerFaceNormals</name></member>
       <member refid="classMR_1aac3dfb54094d1902d11e7eb15080cedf" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerFaceNormals4</name></member>
-      <member refid="classMR_1a3430ebfa57fe9e784fa14045d252dda4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerFaceNormals_1</name></member>
-      <member refid="classMR_1aad0f97accf979552a1ed4514758a6942" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerFaceNormals_2</name></member>
+      <member refid="classMR_1a6f1d86ca2db20c48cf467f1029c2fe64" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerFaceNormals_topology</name></member>
       <member refid="classMR_1a4f21b12a6a2385607a2015a31ee7e76d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerVertNormals</name></member>
       <member refid="classMR_1a2b7f7827883c5527de098120bba71f0a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computePerVertPseudoNormals</name></member>
       <member refid="classMR_1ac69767aa419ae5dd5461c779f4434752" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_computeRayThicknessAtVertices</name></member>
@@ -100324,10 +100324,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab24bc6c19be1519d613dc4c6e80449de" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distance_float_MR_Vector3f</name></member>
       <member refid="classMR_1aff198cd3ac5e491727b14032c87e0d56" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapFromContours_3</name></member>
       <member refid="classMR_1a7947250f0bac23831c5adc8336d9ea68" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapFromContours_4</name></member>
-      <member refid="classMR_1aec3250d65d8582bd78cd99bdc4c1b3db" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_2</name></member>
-      <member refid="classMR_1a8adfadd69ae908d39c6ffeef1cc363fe" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_3_float</name></member>
-      <member refid="classMR_1aa267eae3b59d2791c66efdf35950ee7c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_3_MR_ContourToDistanceMapParams</name></member>
-      <member refid="classMR_1a6d646e067dfd8c426efd99540f7c27fb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_4</name></member>
+      <member refid="classMR_1a681f55bb7730d2e42b4495074bd3da18" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline</name></member>
+      <member refid="classMR_1a6a88bae878e5e9bf885495aee69fa32a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_params</name></member>
+      <member refid="classMR_1a492430ba8911d944d067a0b793b4d14b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_pixelSize</name></member>
+      <member refid="classMR_1a4d9d13fadfc26fe2ac3cdc0cbaf9282a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapTo2DIsoPolyline_xf</name></member>
       <member refid="classMR_1a683ca2ebc9b79765b38937feacbabf1f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceMapToMesh</name></member>
       <member refid="classMR_1a481924329a5481165529eb1ef15e0245" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceSq_double_MR_Vector2d</name></member>
       <member refid="classMR_1a4879b37fb50591538b0a030525ca19bc" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_distanceSq_double_MR_Vector3d</name></member>
@@ -100701,9 +100701,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ab415d8b58a92cf617c0aa10942bc3bd7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgePairs</name></member>
       <member refid="classMR_1a05c8d849826d4aea4c4f1f04bbd0cd49" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdges</name></member>
       <member refid="classMR_1a2c4f53e28b6d0f96b7f2303b8f28c3bd" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgesBitsets</name></member>
-      <member refid="classMR_1ae8db2f0592bad925bd5d7d6d527f7e2b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgeTrisPrecise_5</name></member>
-      <member refid="classMR_1a1098e3e7047951ac5cdd49be173a3179" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_EdgeId</name></member>
-      <member refid="classMR_1a198eeadec282406c0148098f728afdd9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgeTrisPrecise_6_std_vector_MR_FaceId</name></member>
+      <member refid="classMR_1ac47c108e0829e340bb15444346fb5042" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgeTrisPrecise</name></member>
+      <member refid="classMR_1ac43a95fe850e1c4ea04f8eb6189c0e41" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgeTrisPrecise_edgesA</name></member>
+      <member refid="classMR_1a0e3a15288fe06b08a522b4fa4e5d7a56" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingEdgeTrisPrecise_facesA</name></member>
       <member refid="classMR_1af90be2bd7a0715b3f8d6ebd44f68ca11" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingTriangleBitsets</name></member>
       <member refid="classMR_1a7e042b2b2eb309817841a63b3444649b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollidingTriangles</name></member>
       <member refid="classMR_1a35d4b5267a2c898208d466b254e8b083" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findCollisionStatus_3</name></member>
@@ -100796,8 +100796,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a353761340940d87f3611e785c1652f9a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingEdges</name></member>
       <member refid="classMR_1a6534ee09ae19afa814dbdeb53fe20285" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingEdgesBS</name></member>
       <member refid="classMR_1a7ae906807a87c51b3e2b16af2f44c406" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingEdgeTrisPrecise</name></member>
-      <member refid="classMR_1ac1e0904c156488ed0275f7b11a32bdcf" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTriangles_4</name></member>
-      <member refid="classMR_1a7615d62cd001513e5b7b35a0560c0345" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTriangles_5</name></member>
+      <member refid="classMR_1abc8e3fb2f874131ec92abb2249950f04" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTriangles</name></member>
+      <member refid="classMR_1a327f6b45a63790ebba2f95a0901a6667" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTriangles_outPairs</name></member>
       <member refid="classMR_1a2ef80ca7d9ee6d4058aa656b783ff720" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSelfCollidingTrianglesBS</name></member>
       <member refid="classMR_1ad3922de5511e930ab838a5cb7516c42d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSharpEdges</name></member>
       <member refid="classMR_1ac20c63596be5429f29cbd600cb0ed7b3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findShortEdges</name></member>
@@ -100806,8 +100806,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ae15478381fee05a6d3ca44e7b68de885" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findShrinkwrapPositions</name></member>
       <member refid="classMR_1a7fcfaaa879ac4bf06cbf624f749e8b90" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSignedDistance_MR_MeshPart</name></member>
       <member refid="classMR_1abba4844fb0388abcd571e18b48e28a76" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSignedDistance_MR_Vector3f</name></member>
-      <member refid="classMR_1a4985d14a54e9b7019e03cf21bd1cfa62" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSignedDistances_4</name></member>
-      <member refid="classMR_1ab5f95e67590e500e67f83a8d851e0e20" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSignedDistances_5</name></member>
+      <member refid="classMR_1a9f06df6128730a3db6081b2a54724e4a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSignedDistances</name></member>
+      <member refid="classMR_1a834f480535569ebff49cab2f2298179e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSignedDistances_points</name></member>
       <member refid="classMR_1a091b8240a7ba5b893b5bdf424240918e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSkyRays</name></member>
       <member refid="classMR_1af6a2b90d910b89ba002e044e33383aee" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSmallestCloseVertices_3_MR_Mesh</name></member>
       <member refid="classMR_1a4d286515a6200d1f47a9f00e5ee208e5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_findSmallestCloseVertices_3_MR_PointCloud</name></member>
@@ -100926,10 +100926,10 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a0d67e7d58a41263af0802097c661f65d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentEdges_MR_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1ae6acb8c5a2ebfb122670710f5ffd09e3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentFaces_MR_UndirectedEdgeBitSet</name></member>
       <member refid="classMR_1afa643da8cd1db4de1435fb165f4fde4e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentFaces_MR_VertBitSet</name></member>
-      <member refid="classMR_1ae6c2fadf5b8a7d2503c6f76caba3665a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_2_MR_FaceBitSet</name></member>
-      <member refid="classMR_1a209f859492aa51f4cee90bfb48013f25" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet</name></member>
-      <member refid="classMR_1ac6ed4624e4998912e5032b3e596eeaca" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr</name></member>
-      <member refid="classMR_1a7292d4869b1180b8e9e1188a8976fcaa" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr</name></member>
+      <member refid="classMR_1aafda99b4518cabd26434a3725bc0d25e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts</name></member>
+      <member refid="classMR_1a34288c9bdc0a170e28c700b32c990973" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_edges</name></member>
+      <member refid="classMR_1ac3264349e837c7e01d1ec5717169b428" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_edgesStore</name></member>
+      <member refid="classMR_1a7fad1ff0ed20dab94a8b2afb4fdd0471" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getIncidentVerts_facesStore</name></member>
       <member refid="classMR_1a3b66074d5331c1b75486683b0cf8521e" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getInnerEdges_MR_FaceBitSet</name></member>
       <member refid="classMR_1a60304034e224ada0293f807cdbb639d4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getInnerEdges_MR_VertBitSet</name></member>
       <member refid="classMR_1a8d63596de0acf3680dd8ecf87addece2" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getInnerFaces</name></member>
@@ -101005,8 +101005,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac8b9dfd431aebfef1be0a90602481378" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getUserConfigDir</name></member>
       <member refid="classMR_1a41116f1bf7f150dda428a3bf0dd86f3f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getUserConfigFilePath</name></member>
       <member refid="classMR_1a46377d9b72865a5d793b253a03b41229" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getValue</name></member>
-      <member refid="classMR_1a8cdd5f51a5b7d719c10a3c75b7259831" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVectorConverters_1</name></member>
-      <member refid="classMR_1aabcf8aca5cfb21088005c840b0fb4960" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVectorConverters_3</name></member>
+      <member refid="classMR_1a04dc0ddff7865486db33ed5cc37410ce" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVectorConverters</name></member>
+      <member refid="classMR_1a6755742a79cdc2defc682838c1a78145" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVectorConverters_onePart</name></member>
       <member refid="classMR_1ad82b53b6af4fd7bfe7f771a9be4c3df7" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVertexAsMeshTriPoint</name></member>
       <member refid="classMR_1a15d2cc4d66942ea8dbd8ef0473477538" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVertexOrdering_MR_FaceBMap</name></member>
       <member refid="classMR_1a67160866ff83c6c07029e652a19d169a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_getVertexOrdering_MR_MeshTopology</name></member>
@@ -101228,8 +101228,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aa6910146354778d6a3262d9da3cf53fc" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_merge_1_std_vector_std_shared_ptr_MR_ObjectLines</name></member>
       <member refid="classMR_1a18c5e394bcb75da12e6055191ba23bb1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_merge_1_std_vector_std_shared_ptr_MR_ObjectPoints</name></member>
       <member refid="classMR_1a9a9c9b88f63ecbfde4fb8ffaac0304a9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_merge_2</name></member>
-      <member refid="classMR_1aad63eaac658cc6de4e8e33f2ed263c43" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseViaNormals_2</name></member>
-      <member refid="classMR_1a8314635a53a44afc033111549ebde44b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseViaNormals_3</name></member>
+      <member refid="classMR_1ae73da492eda8cfbcc57cb05d77423efd" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseViaNormals</name></member>
+      <member refid="classMR_1a10ee91bca048fcd6e826abfe78866642" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseViaNormals_progress</name></member>
       <member refid="classMR_1a412b5da9b151c72d456f1c9af499df14" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseWithCreases_3</name></member>
       <member refid="classMR_1a0f632bc66b655fd1e650dc07d6e1ccba" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseWithCreases_4_MR_Mesh</name></member>
       <member refid="classMR_1aed30db817d343755aab5aa71ef3d6681" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_meshDenoiseWithCreases_4_MR_MeshTopology</name></member>
@@ -101405,9 +101405,9 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aee5cacda638c41535764ba4a0b3a8d98" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reduceTotalAngleInMesh</name></member>
       <member refid="classMR_1aeddabdc833ed0cef2f075f7121416b03" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_refineFeatureObject_MR_Mesh</name></member>
       <member refid="classMR_1a6994f14f34c97ed15cadf3a893f9dcfa" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_refineFeatureObject_MR_PointCloud</name></member>
-      <member refid="classMR_1a58c474cc84b9cde3de929f805912acbb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relax_3_MR_Mesh</name></member>
-      <member refid="classMR_1ad958da3a413e638a1d88a082bcaa01b5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relax_3_MR_PointCloud</name></member>
-      <member refid="classMR_1a30a547806fd1780b9e93252fe9a7c20b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relax_4</name></member>
+      <member refid="classMR_1af1ceab81f4d0a986d49c0367b67bdde2" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relax</name></member>
+      <member refid="classMR_1a149b080dfb7ff1fbf6796d9f141c077d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relax_pointCloud</name></member>
+      <member refid="classMR_1a14e2e4467bc3e2d30f81e339b6d4d1f3" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relax_topology</name></member>
       <member refid="classMR_1a5619a7273c650f9336745f4e4b5b6370" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relaxApprox_3_MR_Mesh</name></member>
       <member refid="classMR_1a71d2036e7ce0558aab7e1edd3c7731d9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relaxApprox_3_MR_PointCloud</name></member>
       <member refid="classMR_1aca6fa1fff545cb824c4479573de068f6" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_relaxApprox_4</name></member>
@@ -101497,8 +101497,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a9f9b13d927bca3db45fe5a40bb77ccbf" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_sqr_int_MR_Vector2i</name></member>
       <member refid="classMR_1a463fb5445b2e6ecb6b10fcfb0635b7eb" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_sqr_int_MR_Vector3i</name></member>
       <member refid="classMR_1a9fe9657590a7a316efac4b1582dc69ba" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchContours</name></member>
-      <member refid="classMR_1a02a85bc6b60dbc4b1857dee475ff10a5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchHoles_2</name></member>
-      <member refid="classMR_1a24e6899a404af2b3e310596812440f63" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchHoles_4</name></member>
+      <member refid="classMR_1a675070bd970f5a878ba9e0e162a6b35d" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchHoles</name></member>
+      <member refid="classMR_1a96e6eab88635e319e8284413bb40c978" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchHoles_auto</name></member>
       <member refid="classMR_1ad9efd4c20ddb4b11d108582fc581e6ed" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchHolesNicely</name></member>
       <member refid="classMR_1a7986c88dec21d030c3ad67ddd7274760" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_stitchOpenTwinEdges</name></member>
       <member refid="classMR_1a5e7b101129b4775a255ebf17361094e9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_straightenBoundary</name></member>

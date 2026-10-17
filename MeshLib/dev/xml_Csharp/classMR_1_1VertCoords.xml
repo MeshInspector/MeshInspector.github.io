@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="11966" column="54"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertCoords_1ab80638961d4761d3b4078bc1617dbaae" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VertCoords._Underlying *</type>
+        <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_VertCoords_Construct</name>
+        <qualifiedname>MR.VertCoords.__MR_VertCoords_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="11969" column="54"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1VertCoords_1aadd581461350b893572c76218af9d909" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertCoords._Underlying *</type>
         <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="11969" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="11972" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoords_1a3247cd0050ab281d1a517cc24aeac93e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertCoords_1ad070ef67340b07419a196d159337266a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertCoords._Underlying *</type>
-        <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_VertCoords_Construct_1_size_t</name>
-        <qualifiedname>MR.VertCoords.__MR_VertCoords_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Vector3f *val)</argsstring>
+        <name>__MR_VertCoords_Construct_fill</name>
+        <qualifiedname>MR.VertCoords.__MR_VertCoords_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="11972" column="54"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoords_1aede47ee4b8f243d645fac1a46fe06a07" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VertCoords._Underlying *</type>
-        <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_Construct_1_std_vector_MR_Vector3f</definition>
-        <argsstring>(MR.Std.Vector_MRVector3f._Underlying *vec)</argsstring>
-        <name>__MR_VertCoords_Construct_1_std_vector_MR_Vector3f</name>
-        <qualifiedname>MR.VertCoords.__MR_VertCoords_Construct_1_std_vector_MR_Vector3f</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRVector3f._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="11975" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertCoords_1a92f42c4b9fd44725604f483f2cb68b29" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertCoords_1a8b64de7bdbe87761407a4f18b013b8fd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertCoords._Underlying *</type>
-        <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_Construct_2</definition>
-        <argsstring>(nuint size, MR.Vector3f *val)</argsstring>
-        <name>__MR_VertCoords_Construct_2</name>
-        <qualifiedname>MR.VertCoords.__MR_VertCoords_Construct_2</qualifiedname>
+        <definition>static unsafe MR.VertCoords._Underlying * MR.VertCoords.__MR_VertCoords_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRVector3f._Underlying *vec)</argsstring>
+        <name>__MR_VertCoords_Construct_stdVector</name>
+        <qualifiedname>MR.VertCoords.__MR_VertCoords_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRVector3f._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1VertCoords_1aceec25ac38519df41b3e87b61a352d07" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_autoResizeSet_3</name></member>
       <member refid="classMR_1_1VertCoords_1aa69a66860c9e03e0b9f785582ecafce7" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_back_mut</name></member>
       <member refid="classMR_1_1VertCoords_1ac25ff98ba9d5a3e9f370d7971f20c672" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_clear</name></member>
-      <member refid="classMR_1_1VertCoords_1a3247cd0050ab281d1a517cc24aeac93e" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1VertCoords_1aede47ee4b8f243d645fac1a46fe06a07" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_Construct_1_std_vector_MR_Vector3f</name></member>
-      <member refid="classMR_1_1VertCoords_1a92f42c4b9fd44725604f483f2cb68b29" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_Construct_2</name></member>
+      <member refid="classMR_1_1VertCoords_1ab80638961d4761d3b4078bc1617dbaae" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_Construct</name></member>
+      <member refid="classMR_1_1VertCoords_1ad070ef67340b07419a196d159337266a" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_Construct_fill</name></member>
+      <member refid="classMR_1_1VertCoords_1a8b64de7bdbe87761407a4f18b013b8fd" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_Construct_stdVector</name></member>
       <member refid="classMR_1_1VertCoords_1aadd581461350b893572c76218af9d909" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_ConstructFromAnother</name></member>
       <member refid="classMR_1_1VertCoords_1aa4bf588a3b25f846f26798effcceb001" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_data_mut</name></member>
       <member refid="classMR_1_1VertCoords_1a7885073a6428000bfd1d5d7d1bb9559a" prot="private" virt="non-virtual"><scope>MR::VertCoords</scope><name>__MR_VertCoords_DefaultConstruct</name></member>

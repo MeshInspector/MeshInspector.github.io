@@ -529,6 +529,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1af008d9ae77b07c30f739fbb7959308e7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct</name>
+        <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53140" column="77"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a5da35d0b994234082708332b56960598" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_ConstructFromAnother</definition>
@@ -549,35 +567,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53140" column="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53143" column="77"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a3ccda304aff7a14911770e9d74234945" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab750910d714687c44cbc4abec53ffb95" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Const_FaceBitSet._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_fill</name>
+        <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53143" column="77"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1aaf486d74481bbc486ce58ba874049e64" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_std_vector_MR_FaceBitSet</definition>
-        <argsstring>(MR.Std.Vector_MRFaceBitSet._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_std_vector_MR_FaceBitSet</name>
-        <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_std_vector_MR_FaceBitSet</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRFaceBitSet._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Const_FaceBitSet._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -587,19 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53146" column="77"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a3b000a240c35afceb3b0bc467a946c92" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ae81fdcf21cb5a2da51709f35a43bb724" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_2</definition>
-        <argsstring>(nuint size, MR.Const_FaceBitSet._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_2</name>
-        <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRFaceBitSet_MRGraphVertId._Underlying * MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRFaceBitSet._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Vector_MRFaceBitSet_MRGraphVertId.__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_FaceBitSet._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRFaceBitSet._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -972,9 +972,9 @@
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a4ca39f4aaf285d9f4b2f5f66a5dba6ca" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a4b0840cfdba3c76ec9ea2f941299714a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_beginId</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a69a7318de349ac66f9a91d037a8c73db" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_capacity</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a3ccda304aff7a14911770e9d74234945" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1aaf486d74481bbc486ce58ba874049e64" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_1_std_vector_MR_FaceBitSet</name></member>
-      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a3b000a240c35afceb3b0bc467a946c92" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1af008d9ae77b07c30f739fbb7959308e7" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ab750910d714687c44cbc4abec53ffb95" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ae81fdcf21cb5a2da51709f35a43bb724" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a5da35d0b994234082708332b56960598" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1ac014cb17c03cef467b7c49371f9fafa4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId_1a4a1ab68de04cf0429e88dcda571c95e2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRFaceBitSet_MRGraphVertId</scope><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_DefaultConstruct</name></member>

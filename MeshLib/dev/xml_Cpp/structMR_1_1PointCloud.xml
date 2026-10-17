@@ -49,6 +49,35 @@
         </inbodydescription>
         <location file="MRMesh/MRPointCloud.h" line="25" column="16" bodyfile="MRMesh/MRPointCloud.h" bodystart="25" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointCloud_1acf467d3da6aff2b54a601c4921de1f2f" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::PointCloud::toWorld</definition>
+        <argsstring></argsstring>
+        <name>toWorld</name>
+        <qualifiedname>MR::PointCloud::toWorld</qualifiedname>
+        <initializer>= nullptr ) const</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloud.h" line="55" column="60" bodyfile="MRMesh/MRPointCloud.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointCloud_1ace3e2f591185408ede2b73c7d0f1ad46" prot="public" static="no" mutable="no">
+        <type>const Vector3f &amp;</type>
+        <definition>const Vector3f&amp; MR::PointCloud::normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <qualifiedname>MR::PointCloud::normal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointCloud.h" line="80" column="55" bodyfile="MRMesh/MRPointCloud.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="structMR_1_1PointCloud_1a544b6f1222cd259ee283fafdb0700311" prot="private" static="no" mutable="yes">
@@ -162,17 +191,12 @@
         </inbodydescription>
         <location file="MRMesh/MRPointCloud.h" line="47" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>Box3f</type>
-        <definition>Box3f MR::PointCloud::computeBoundingBox</definition>
-        <argsstring>(const AffineXf3f *toWorld=nullptr) const</argsstring>
-        <name>computeBoundingBox</name>
-        <qualifiedname>MR::PointCloud::computeBoundingBox</qualifiedname>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>toWorld</declname>
-          <defval>nullptr</defval>
-        </param>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a65677efaca849285816d9632529b5520" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 Box3f computeBoundingBox(const AffineXf3f *toWorld</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -180,22 +204,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloud.h" line="51" column="13"/>
+        <location file="MRMesh/MRPointCloud.h" line="51" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>Box3f</type>
-        <definition>Box3f MR::PointCloud::computeBoundingBox</definition>
-        <argsstring>(const VertBitSet *region, const AffineXf3f *toWorld=nullptr) const</argsstring>
-        <name>computeBoundingBox</name>
-        <qualifiedname>MR::PointCloud::computeBoundingBox</qualifiedname>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a5982bc0f5607f15bb30837797ab27153" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(region) 1 Box3f computeBoundingBox(const VertBitSet *region</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const VertBitSet *</type>
-          <declname>region</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>toWorld</declname>
-          <defval>nullptr</defval>
+          <type>region</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -204,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloud.h" line="55" column="13"/>
+        <location file="MRMesh/MRPointCloud.h" line="55" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
@@ -317,16 +335,12 @@
         </inbodydescription>
         <location file="MRMesh/MRPointCloud.h" line="73" column="11"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::PointCloud::addPoint</definition>
-        <argsstring>(const Vector3f &amp;point)</argsstring>
-        <name>addPoint</name>
-        <qualifiedname>MR::PointCloud::addPoint</qualifiedname>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a062a286ba8240f571adaabc6c788dcdd" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 VertId addPoint(const Vector3f &amp;point)</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>appends a point and returns its VertId </para>
         </briefdescription>
@@ -334,21 +348,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloud.h" line="77" column="13"/>
+        <location file="MRMesh/MRPointCloud.h" line="77" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>VertId</type>
-        <definition>VertId MR::PointCloud::addPoint</definition>
-        <argsstring>(const Vector3f &amp;point, const Vector3f &amp;normal)</argsstring>
-        <name>addPoint</name>
-        <qualifiedname>MR::PointCloud::addPoint</qualifiedname>
+      <memberdef kind="function" id="structMR_1_1PointCloud_1a0cbf3a6974c5e59d24276dca0227ab0b" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(normal) 1 VertId addPoint(const Vector3f &amp;point</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const Vector3f &amp;</type>
-          <declname>point</declname>
-        </param>
-        <param>
-          <type>const Vector3f &amp;</type>
-          <declname>normal</declname>
+          <type><ref refid="structMR_1_1PointCloud_1ace3e2f591185408ede2b73c7d0f1ad46" kindref="member">normal</ref></type>
         </param>
         <briefdescription>
 <para>appends a point with normal and returns its VertId </para>
@@ -357,7 +366,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointCloud.h" line="80" column="13"/>
+        <location file="MRMesh/MRPointCloud.h" line="80" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -506,11 +515,7 @@
     <listofallmembers>
       <member refid="structMR_1_1PointCloud_1a544b6f1222cd259ee283fafdb0700311" prot="private" virt="non-virtual"><scope>MR::PointCloud</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1PointCloud_1a461af7799e74931eb23168bd86111217" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPartByMask</name></member>
-      <member refid="structMR_1_1PointCloud_1a7e507a7cdba55a1c26aa3a073cf2d315" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
-      <member refid="structMR_1_1PointCloud_1a765101913d8149614746444a3257c1f2" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
       <member refid="structMR_1_1PointCloud_1a4e713072e68a27b247042676b693bb26" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>calcNumValidPoints</name></member>
-      <member refid="structMR_1_1PointCloud_1a314c3d7c570cf70aed6cf664175740cd" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
-      <member refid="structMR_1_1PointCloud_1a7f4cc661b8564a36aabab04453b0e27f" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
       <member refid="structMR_1_1PointCloud_1a8ac1e905740b138eb0ea9644d11c6ad9" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromBBox</name></member>
       <member refid="structMR_1_1PointCloud_1a442397a4e191dbf7addbd86427681aaa" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromPoints</name></member>
       <member refid="structMR_1_1PointCloud_1a8d42094704ecd8b5b4eb3a82c10c111d" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>flipOrientation</name></member>
@@ -523,10 +528,16 @@
       <member refid="structMR_1_1PointCloud_1a2a3bb316a10b49cacc3843090aa06a22" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>heapBytes</name></member>
       <member refid="structMR_1_1PointCloud_1ab7c257206a284f22b8e2484b87436069" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>invalidateCaches</name></member>
       <member refid="structMR_1_1PointCloud_1ab5cc9f05068553ba1033167bb6189fcf" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>mirror</name></member>
+      <member refid="structMR_1_1PointCloud_1a65677efaca849285816d9632529b5520" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1PointCloud_1a5982bc0f5607f15bb30837797ab27153" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1PointCloud_1a062a286ba8240f571adaabc6c788dcdd" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1PointCloud_1a0cbf3a6974c5e59d24276dca0227ab0b" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1PointCloud_1ace3e2f591185408ede2b73c7d0f1ad46" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>normal</name></member>
       <member refid="structMR_1_1PointCloud_1a25c1039968a5dc3a24591ac5b74148ad" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>normals</name></member>
       <member refid="structMR_1_1PointCloud_1af70413bd36eefbb8ce26cf2a52addf33" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
       <member refid="structMR_1_1PointCloud_1a9fee9a45c5a54797c40fb2c7c9ed646e" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>pack</name></member>
       <member refid="structMR_1_1PointCloud_1a0da05bf74b7157037f314c884ab018b4" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>points</name></member>
+      <member refid="structMR_1_1PointCloud_1acf467d3da6aff2b54a601c4921de1f2f" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>toWorld</name></member>
       <member refid="structMR_1_1PointCloud_1a050308043ec1ab0b5b1170e045463514" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>transform</name></member>
       <member refid="structMR_1_1PointCloud_1af87c45e1d1e2193c2f42933aa2ba646e" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>updateCaches</name></member>
       <member refid="structMR_1_1PointCloud_1a99cd2bd3f8fa8482032603f382ab9a03" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>validPoints</name></member>

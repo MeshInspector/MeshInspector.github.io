@@ -241,7 +241,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
 <div class="line">    <span class="keywordtype">size_t</span> vertSize = MR_MeshTopology_vertSize( MR_Mesh_Get_topology( mesh ) );</div>
-<div class="line">    MR_VertScalars* scalars = MR_VertScalars_Construct_1_size_t( vertSize );</div>
+<div class="line">    MR_VertScalars* scalars = MR_VertScalars_Construct( vertSize );</div>
 <div class="line">    <span class="keywordtype">float</span> maxWeight = 0.0f;</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; vertSize; ++i )</div>
 <div class="line">    {</div>
@@ -264,7 +264,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">    MR_DistanceFromWeightedPointsParams* dist = MR_WeightedShell_ParametersMetric_GetMutable_dist( params );</div>
 <div class="line">    MR_DistanceFromWeightedPointsParams_Set_maxWeight( dist, maxWeight );</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_MR_Mesh_std_string* res = MR_WeightedShell_meshShell_3_MR_VertScalars( mesh, scalars, params );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* res = MR_WeightedShell_meshShell( mesh, scalars, params );</div>
 <div class="line">    MR_Mesh* resMesh = MR_expected_MR_Mesh_std_string_value_mut( res );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !resMesh )</div>
 <div class="line">    {</div>
@@ -272,7 +272,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_shell;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( resMesh, <span class="stringliteral">&quot;offset_weighted.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( resMesh, <span class="stringliteral">&quot;offset_weighted.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

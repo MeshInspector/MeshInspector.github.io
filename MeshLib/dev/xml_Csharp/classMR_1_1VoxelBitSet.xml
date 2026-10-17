@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6692" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1acdeb23ea2aa26c96ff0ec32d90ff9a3c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1a573c2dce58d28246f2ccf7595477712d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.VoxelId pos, byte *val)</argsstring>
-        <name>__MR_VoxelBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_VoxelBitSet_autoResizeSet</name>
+        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6695" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1a95ceb7af83af1d1d0085d069d84941df" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1acf0e7fd225b97e824685bb6e2a3cc143" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.VoxelId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_VoxelBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_VoxelBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6746" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1ab1bd52ca1bab051711dc0751b54b332d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1aab81c7b407fc0fdfc99742caa09a0c1d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VoxelBitSet._Underlying *</type>
-        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_VoxelBitSet_set_0</name>
-        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6749" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1a6ad319b3e6d678010c766803fcc5c4fe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelBitSet._Underlying *</type>
-        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.VoxelId n)</argsstring>
-        <name>__MR_VoxelBitSet_set_1</name>
-        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6752" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1aa48cda9693c4b19eb5a5e477274d9d9c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.VoxelBitSet._Underlying *</type>
-        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_2</definition>
+        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.VoxelId n, byte val)</argsstring>
-        <name>__MR_VoxelBitSet_set_2</name>
-        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_2</qualifiedname>
+        <name>__MR_VoxelBitSet_set</name>
+        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6749" column="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1aa5f5d3df0f9e503b25eec4ee265495d4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelBitSet._Underlying *</type>
+        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelBitSet_set_all</name>
+        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6752" column="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1aa9cfdbc1eaec7080f456403ae1dcacf6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelBitSet._Underlying *</type>
+        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelId n)</argsstring>
+        <name>__MR_VoxelBitSet_set_bit</name>
+        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="6755" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1ac1e6c9571cd419a1f3deeb311bc828fa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelBitSet_1a6c36f14b3e611d745ab33f0398083c39" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VoxelBitSet._Underlying *</type>
-        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_3</definition>
+        <definition>static unsafe MR.VoxelBitSet._Underlying * MR.VoxelBitSet.__MR_VoxelBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.VoxelId n, nuint len, byte val)</argsstring>
-        <name>__MR_VoxelBitSet_set_3</name>
-        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_3</qualifiedname>
+        <name>__MR_VoxelBitSet_set_range</name>
+        <qualifiedname>MR.VoxelBitSet.__MR_VoxelBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1648,8 +1648,8 @@
     <listofallmembers>
       <member refid="classMR_1_1VoxelBitSet_1a751fd6eefd6f36b71c4be8bc8c2127d7" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1VoxelBitSet_1a44359c159618f51ce4d53403f617ebf1" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1VoxelBitSet_1acdeb23ea2aa26c96ff0ec32d90ff9a3c" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1VoxelBitSet_1a95ceb7af83af1d1d0085d069d84941df" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1VoxelBitSet_1a573c2dce58d28246f2ccf7595477712d" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1VoxelBitSet_1acf0e7fd225b97e824685bb6e2a3cc143" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1VoxelBitSet_1ae213d49460f95b43d4b50ffeb0bcf1d9" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1VoxelBitSet_1ad1e48652cb26b2b018cb041cff53e020" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1VoxelBitSet_1af5cebf5f1898004df6428d397e11e21e" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_bitor_assign</name></member>
@@ -1671,10 +1671,10 @@
       <member refid="classMR_1_1VoxelBitSet_1a1ae7c0eabb68eba2418fab70cc715df3" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_resize</name></member>
       <member refid="classMR_1_1VoxelBitSet_1afa24613a4a8fc8045b20af9ced90c1c5" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1VoxelBitSet_1a0136ad241faf008e7c482442715ad2b2" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_reverse</name></member>
-      <member refid="classMR_1_1VoxelBitSet_1ab1bd52ca1bab051711dc0751b54b332d" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_0</name></member>
-      <member refid="classMR_1_1VoxelBitSet_1a6ad319b3e6d678010c766803fcc5c4fe" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_1</name></member>
-      <member refid="classMR_1_1VoxelBitSet_1aa48cda9693c4b19eb5a5e477274d9d9c" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_2</name></member>
-      <member refid="classMR_1_1VoxelBitSet_1ac1e6c9571cd419a1f3deeb311bc828fa" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_3</name></member>
+      <member refid="classMR_1_1VoxelBitSet_1aab81c7b407fc0fdfc99742caa09a0c1d" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set</name></member>
+      <member refid="classMR_1_1VoxelBitSet_1aa5f5d3df0f9e503b25eec4ee265495d4" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_all</name></member>
+      <member refid="classMR_1_1VoxelBitSet_1aa9cfdbc1eaec7080f456403ae1dcacf6" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_bit</name></member>
+      <member refid="classMR_1_1VoxelBitSet_1a6c36f14b3e611d745ab33f0398083c39" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_set_range</name></member>
       <member refid="classMR_1_1VoxelBitSet_1a9a8ab8625dbb80fadcbfb3fd96662c63" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1VoxelBitSet_1a7db4a8b97a16dbb86bb465282bcebd48" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_sub_assign</name></member>
       <member refid="classMR_1_1VoxelBitSet_1a85631a809d1cca4b5c96eda8835d87e5" prot="private" virt="non-virtual"><scope>MR::VoxelBitSet</scope><name>__MR_VoxelBitSet_subtract</name></member>

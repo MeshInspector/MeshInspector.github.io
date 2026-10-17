@@ -6,8 +6,6 @@ var namespaceMR_1_1PointsLoad =
     [ "PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", "structMR_1_1PointsLoad_1_1PointsLoader" ],
     [ "PointsFileLoader", "namespaceMR_1_1PointsLoad.html#acaeabf1d4cced15a0961b626a6e9b868", null ],
     [ "PointsStreamLoader", "namespaceMR_1_1PointsLoad.html#a0f81139db68679c906d09ff033071478", null ],
-    [ "fromAnySupportedFormat", "group__IOGroup.html#ga7ffd96e7cc233f9a5d99dfc3e8bb0edb", null ],
-    [ "fromAnySupportedFormat", "group__IOGroup.html#gaecd3b7671e06c949d93c808ec95506f7", null ],
     [ "fromCtm", "group__GeneralGroup.html#ga8a580b810c0308121d566693f5e196a2", null ],
     [ "fromCtm", "group__GeneralGroup.html#ga1afe750e0a8c61a6730d43d9b071987f", null ],
     [ "fromDrc", "group__GeneralGroup.html#ga30664957b9e3557712428bd9b5f2d61b", null ],
@@ -29,5 +27,7 @@ var namespaceMR_1_1PointsLoad =
     [ "fromText", "group__IOGroup.html#ga1c3cebd38d164d456af80671f7250fbf", null ],
     [ "fromText", "group__IOGroup.html#gacc3b6b39e72f9a09af6653f353e66998", null ],
     [ "loadObjectFromE57", "namespaceMR_1_1PointsLoad.html#a01b4e00f4add2695b9e1a518880a315a", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__IOGroup.html#ga211fda8baf23a249ac231793c2848373", null ],
+    [ "MR_BIND_OVERLOAD_SUFFIX", "group__IOGroup.html#ga8aa3f213c68acbefae62997111264010", null ],
     [ "telemetryLogSize", "group__IOGroup.html#ga56f3c968fa0da7592fff9bf39304344e", null ]
 ];

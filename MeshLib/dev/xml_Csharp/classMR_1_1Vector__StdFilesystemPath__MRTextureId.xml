@@ -600,6 +600,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43407" column="80"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a26010c02a4a2f8640dc57a2636061ad2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct</name>
+        <qualifiedname>MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43410" column="80"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1ac54081e3a28e66a10e8edd74dbcbac2d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying *</type>
         <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_ConstructFromAnother</definition>
@@ -620,50 +638,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43410" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1af555dbb45a3e31005bfc87727ec453d5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_size_t</qualifiedname>
-        <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43413" column="80"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a023f6006dc323d20d8b0b9bb1f77dcf2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a9fc2df2e766f8df9fe002571fe14c70c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_std_vector_std_filesystem_path</definition>
-        <argsstring>(MR.Std.Vector_StdFilesystemPath._Underlying *vec)</argsstring>
-        <name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_std_vector_std_filesystem_path</name>
-        <qualifiedname>MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_std_vector_std_filesystem_path</qualifiedname>
-        <param>
-          <type>MR.Std.Vector_StdFilesystemPath._Underlying *</type>
-          <declname>vec</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43416" column="80"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1aadaae6639d739e135cff7d3556fc128a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_2</definition>
+        <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_fill</definition>
         <argsstring>(nuint size, byte *val, byte *val_end)</argsstring>
-        <name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_2</name>
-        <qualifiedname>MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_2</qualifiedname>
+        <name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_fill</name>
+        <qualifiedname>MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
@@ -675,6 +657,24 @@
         <param>
           <type>byte *</type>
           <declname>val_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="43416" column="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1aa2d7dd2b89cf0efe6371613c8cb832c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying *</type>
+        <definition>static unsafe MR.Vector_StdFilesystemPath_MRTextureId._Underlying * MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_StdFilesystemPath._Underlying *vec)</argsstring>
+        <name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_StdFilesystemPath_MRTextureId.__MR_Vector_std_filesystem_path_MR_TextureId_Construct_stdVector</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdFilesystemPath._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1214,9 +1214,9 @@
       <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a49d3b515dbf7905f974e1a6b3d9eddc6" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a9ad89a59086bfdad6e36db033d109c93" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_back_mut</name></member>
       <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1aa79646a8268c5f400d6baef723a49d3e" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_clear</name></member>
-      <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1af555dbb45a3e31005bfc87727ec453d5" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a023f6006dc323d20d8b0b9bb1f77dcf2" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_1_std_vector_std_filesystem_path</name></member>
-      <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1aadaae6639d739e135cff7d3556fc128a" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a26010c02a4a2f8640dc57a2636061ad2" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct</name></member>
+      <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a9fc2df2e766f8df9fe002571fe14c70c" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1aa2d7dd2b89cf0efe6371613c8cb832c6" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1ac54081e3a28e66a10e8edd74dbcbac2d" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a07af184f9ef24dec8b2b75732c859cca" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_data_mut</name></member>
       <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a39450f4119165d29343a3df57b21e72d" prot="private" virt="non-virtual"><scope>MR::Vector_StdFilesystemPath_MRTextureId</scope><name>__MR_Vector_std_filesystem_path_MR_TextureId_DefaultConstruct</name></member>

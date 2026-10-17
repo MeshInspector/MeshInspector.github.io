@@ -3,6 +3,14 @@
   <compounddef id="classMR_1_1ICP" kind="class" language="C++" prot="public">
     <compoundname>MR::ICP</compoundname>
     <includes refid="MRICP_8h" local="no">MRMesh/MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga65fa806f871737d772315ea28a9de0ce" kind="variable"><name>ref</name></member>
+      <member refid="group__GeneralGroup_1gaebf36c716f0957f8e60b7b84df532ccf" kind="variable"><name>fltSamples</name></member>
+      <member refid="group__GeneralGroup_1ga886c36f8281c5a2a8181e4042a51366d" kind="variable"><name>refSamples</name></member>
+      <member refid="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" kind="variable"><name>fltSamples</name></member>
+      <member refid="group__GeneralGroup_1gae0fc293d759e349e030e83f637b6673e" kind="variable"><name>refSamples</name></member>
+      <member refid="group__GeneralGroup_1gafabb42cb0c084223533a643bb600e0c4" kind="variable"><name>samplingVoxelSize</name></member>
+    </sectiondef>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" kind="variable"><name>flt_</name></member>
       <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" kind="variable"><name>ref_</name></member>
@@ -16,11 +24,11 @@
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
-      <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kind="function"><name>ICP</name></member>
+      <member refid="group__GeneralGroup_1gad91f5ed97435e251629b58c1d4d48ebe" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" kind="function"><name>ICP</name></member>
-      <member refid="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" kind="function"><name>ICP</name></member>
+      <member refid="group__GeneralGroup_1gaf4e277621b4076612a9c2c951ecd5615" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kind="function"><name>ICP</name></member>
-      <member refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" kind="function"><name>ICP</name></member>
+      <member refid="group__GeneralGroup_1ga5b060cd68f7edaee14673276f8b3c42a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga432cc96b69c08b035a5c6bf6bf8919da" kind="function"><name>setParams</name></member>
       <member refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" kind="function"><name>setCosineLimit</name></member>
       <member refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" kind="function"><name>setDistanceLimit</name></member>
@@ -60,6 +68,29 @@
     <detaileddescription>
 <para>This class allows you to register two object with similar shape using Iterative Closest Points (<ref refid="classMR_1_1ICP" kindref="compound">ICP</ref>) point-to-point or point-to-plane algorithms <programlisting filename="cpp-examples/MeshICP.dox.cpp"></programlisting> </para>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ICP</label>
+        <link refid="classMR_1_1ICP"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fltSamples</edgelabel>
+          <edgelabel>ref</edgelabel>
+          <edgelabel>refSamples</edgelabel>
+          <edgelabel>samplingVoxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshOrPoints</label>
+        <link refid="classMR_1_1MeshOrPoints"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshOrPointsXf</label>
+        <link refid="structMR_1_1MeshOrPointsXf"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>obj</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="MRMesh/MRICP.h" line="198" column="1" bodyfile="MRMesh/MRICP.h" bodystart="199" bodyend="321"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae6979d6159d128afbd42cd9efe9774ae" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>autoSelectFloatXf</name></member>
@@ -71,6 +102,8 @@
       <member refid="group__GeneralGroup_1gaa8b47068555e697a4aa11d9d09b42d48" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>deactivatefarDistPairs_</name></member>
       <member refid="group__GeneralGroup_1gac9ea5c5be89d6d0ac867a3c800b3d576" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>flt2refPairs_</name></member>
       <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>flt_</name></member>
+      <member refid="group__GeneralGroup_1gaebf36c716f0957f8e60b7b84df532ccf" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>fltSamples</name></member>
+      <member refid="group__GeneralGroup_1gaabd0ec37eec618bd9268a836dd613d9c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>fltSamples</name></member>
       <member refid="group__GeneralGroup_1gaabb907b9fe22046611ad6261575d9282" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>fltSamplesCloud_</name></member>
       <member refid="group__GeneralGroup_1ga615de191aaa0811f84bcd43de0798d0d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getFlt2RefPairs</name></member>
       <member refid="group__GeneralGroup_1gadfc6f0e8d0d390d67b27d3182f5dfd51" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getMeanSqDistToPlane</name></member>
@@ -81,23 +114,27 @@
       <member refid="group__GeneralGroup_1ga5ae6b714ad76474375e6365bb6a882a6" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getRef2FltPairs</name></member>
       <member refid="group__GeneralGroup_1ga4ae3f70fc9c4fc7ffbcdb0f43eae2421" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>getStatusInfo</name></member>
       <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
-      <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
       <member refid="group__GeneralGroup_1ga95a8266663f52f5442b8b30c105495e5" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
-      <member refid="group__GeneralGroup_1gad5f4abee52607307b0e47d4d04559473" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
       <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
-      <member refid="group__GeneralGroup_1gad1944f4e241f23e28b47d4fcf882869b" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ICP</name></member>
       <member refid="group__GeneralGroup_1gaa764e0eb401923bc323db14e29174fc6" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>iter_</name></member>
+      <member refid="group__GeneralGroup_1gad91f5ed97435e251629b58c1d4d48ebe" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1gaf4e277621b4076612a9c2c951ecd5615" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__GeneralGroup_1ga5b060cd68f7edaee14673276f8b3c42a" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="group__GeneralGroup_1ga14578981138986a9062afaaa0424635e" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>p2plIter_</name></member>
       <member refid="group__GeneralGroup_1ga07fa3e5142a0e6d3bfdd592d7a04eb8a" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>p2ptIter_</name></member>
       <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>prop_</name></member>
       <member refid="group__GeneralGroup_1gabd481b32d31b8f82a05f815143b28820" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>recomputeBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga65fa806f871737d772315ea28a9de0ce" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>ref</name></member>
       <member refid="group__GeneralGroup_1gaba64c8a5a357b2f567a3318251ca1efc" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>ref2fltPairs_</name></member>
       <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>ref_</name></member>
+      <member refid="group__GeneralGroup_1ga886c36f8281c5a2a8181e4042a51366d" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>refSamples</name></member>
+      <member refid="group__GeneralGroup_1gae0fc293d759e349e030e83f637b6673e" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>refSamples</name></member>
       <member refid="group__GeneralGroup_1ga2ddb4bf28f18ebfa84539617a8f16e83" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>refSamplesCloud_</name></member>
       <member refid="group__GeneralGroup_1ga875ef39dad82165cac8ec237876a1b5c" prot="private" virt="non-virtual"><scope>MR::ICP</scope><name>resultType_</name></member>
       <member refid="group__GeneralGroup_1gab34beaf329dc6198fe7d028dd9ddccbe" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleFltPoints</name></member>
       <member refid="group__GeneralGroup_1ga64b2b6e88452dd7ef588e0f2533beeee" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>samplePoints</name></member>
       <member refid="group__GeneralGroup_1gafc0b8391f6d7cff0770e87055906cf2c" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>sampleRefPoints</name></member>
+      <member refid="group__GeneralGroup_1gafabb42cb0c084223533a643bb600e0c4" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>samplingVoxelSize</name></member>
       <member refid="group__GeneralGroup_1ga88482e98d2aeaf3ce210222c82b564c4" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setBadIterCount</name></member>
       <member refid="group__GeneralGroup_1ga529477c3f55443aaefc9c0feedd0a100" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setCosineLimit</name></member>
       <member refid="group__GeneralGroup_1gad23d220ed5d22716a483aba0bdb8fb98" prot="public" virt="non-virtual"><scope>MR::ICP</scope><name>setDistanceLimit</name></member>

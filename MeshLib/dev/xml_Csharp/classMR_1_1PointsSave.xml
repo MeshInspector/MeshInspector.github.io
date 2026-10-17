@@ -735,12 +735,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRDraco.cs" line="881" column="67"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsSave_1a05b32e4d62578bb3f7e7f4a88ffe3815" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1ae9fa6df48238fabeda23f235c8d129e0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.PointsSave.__MR_PointsSave_toAnySupportedFormat_3</definition>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.PointsSave.__MR_PointsSave_toAnySupportedFormat</definition>
         <argsstring>(MR.Const_PointCloud._Underlying *points, byte *file, byte *file_end, MR.Const_SaveSettings._Underlying *settings)</argsstring>
-        <name>__MR_PointsSave_toAnySupportedFormat_3</name>
-        <qualifiedname>MR.PointsSave.__MR_PointsSave_toAnySupportedFormat_3</qualifiedname>
+        <name>__MR_PointsSave_toAnySupportedFormat</name>
+        <qualifiedname>MR.PointsSave.__MR_PointsSave_toAnySupportedFormat</qualifiedname>
         <param>
           <type>MR.Const_PointCloud._Underlying *</type>
           <declname>points</declname>
@@ -765,12 +765,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsSave.cs" line="150" column="67"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsSave_1a0067ff7837b3122b03e8f578bfbb7b71" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1a0401b95eb33fe34016b5bccc03e76ff5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.PointsSave.__MR_PointsSave_toAnySupportedFormat_4</definition>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.PointsSave.__MR_PointsSave_toAnySupportedFormat_stream</definition>
         <argsstring>(MR.Const_PointCloud._Underlying *points, byte *extension, byte *extension_end, MR.Std.Ostream._Underlying *out_, MR.Const_SaveSettings._Underlying *settings)</argsstring>
-        <name>__MR_PointsSave_toAnySupportedFormat_4</name>
-        <qualifiedname>MR.PointsSave.__MR_PointsSave_toAnySupportedFormat_4</qualifiedname>
+        <name>__MR_PointsSave_toAnySupportedFormat_stream</name>
+        <qualifiedname>MR.PointsSave.__MR_PointsSave_toAnySupportedFormat_stream</qualifiedname>
         <param>
           <type>MR.Const_PointCloud._Underlying *</type>
           <declname>points</declname>
@@ -1030,8 +1030,8 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="729" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="730" bodyend="1411"/>
     <listofallmembers>
-      <member refid="classMR_1_1PointsSave_1a05b32e4d62578bb3f7e7f4a88ffe3815" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toAnySupportedFormat_3</name></member>
-      <member refid="classMR_1_1PointsSave_1a0067ff7837b3122b03e8f578bfbb7b71" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toAnySupportedFormat_4</name></member>
+      <member refid="classMR_1_1PointsSave_1ae9fa6df48238fabeda23f235c8d129e0" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1PointsSave_1a0401b95eb33fe34016b5bccc03e76ff5" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toAnySupportedFormat_stream</name></member>
       <member refid="classMR_1_1PointsSave_1a5c5c7e0fb6f7e09e1e8fefd3dba6dd95" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toAsc_std_filesystem_path</name></member>
       <member refid="classMR_1_1PointsSave_1a51f8c194b13bb7787d2d47aa62a2d9d2" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toAsc_std_ostream</name></member>
       <member refid="classMR_1_1PointsSave_1a951934aff5c69d6fad037bb238c01d67" prot="private" virt="non-virtual"><scope>MR::PointsSave</scope><name>__MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_PointsSave_CtmSavePointsOptions</name></member>

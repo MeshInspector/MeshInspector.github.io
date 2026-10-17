@@ -530,6 +530,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a58bb7e5f3810eb13325c006589531091" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.UndirectedEdgeMap._Underlying *</type>
+        <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_UndirectedEdgeMap_Construct</name>
+        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6380" column="61"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a69ebfedecd79fa8f93829a54eb3a9452" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeMap._Underlying *</type>
         <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_ConstructFromAnother</definition>
@@ -550,35 +568,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6380" column="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6383" column="61"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a4f4e509cbe226b4dd447d3e9037e8736" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a50a8f1d3e4656d3c83802d2c0431bc6e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_UndirectedEdgeMap_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_fill</definition>
+        <argsstring>(nuint size, MR.UndirectedEdgeId *val)</argsstring>
+        <name>__MR_UndirectedEdgeMap_Construct_fill</name>
+        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6383" column="61"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1ac5573e82eec30458fe7edb278e5bf26c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.UndirectedEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_1_std_vector_MR_UndirectedEdgeId</definition>
-        <argsstring>(MR.Std.Vector_MRUndirectedEdgeId._Underlying *vec)</argsstring>
-        <name>__MR_UndirectedEdgeMap_Construct_1_std_vector_MR_UndirectedEdgeId</name>
-        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_1_std_vector_MR_UndirectedEdgeId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRUndirectedEdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -588,19 +592,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6386" column="61"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1aea9e694183d9ba490bf94747e1ac454d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1afd30e3bda01d8a7831512be75f85e44f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeMap._Underlying *</type>
-        <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_2</definition>
-        <argsstring>(nuint size, MR.UndirectedEdgeId *val)</argsstring>
-        <name>__MR_UndirectedEdgeMap_Construct_2</name>
-        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_2</qualifiedname>
+        <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRUndirectedEdgeId._Underlying *vec)</argsstring>
+        <name>__MR_UndirectedEdgeMap_Construct_stdVector</name>
+        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRUndirectedEdgeId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -973,9 +973,9 @@
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a08b3d4a2f90bee3d21f0ff2d0a69cdf5" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_backId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a54cff43c170701bccb773d9b3dee4bb0" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_beginId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a284727e37245846a5b8da269140037ca" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_capacity</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a4f4e509cbe226b4dd447d3e9037e8736" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1ac5573e82eec30458fe7edb278e5bf26c" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_1_std_vector_MR_UndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1aea9e694183d9ba490bf94747e1ac454d" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_2</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a58bb7e5f3810eb13325c006589531091" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a50a8f1d3e4656d3c83802d2c0431bc6e" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1afd30e3bda01d8a7831512be75f85e44f" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a69ebfedecd79fa8f93829a54eb3a9452" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ad68df0f123443fd1eebc312fcce71126" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a123e1ed9e15539207b0943c0633c10dc" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_DefaultConstruct</name></member>

@@ -300,7 +300,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">    MR_BooleanParameters_Set_mapper( params, mapper );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Perform the boolean operation.</span></div>
-<div class="line">    MR_BooleanResult* result = MR_boolean_4_const_MR_Mesh_ref( sphere1, sphere2, MR_BooleanOperation_Intersection, params );</div>
+<div class="line">    MR_BooleanResult* result = MR_boolean( sphere1, sphere2, MR_BooleanOperation_Intersection, params );</div>
 <div class="line">    MR_BooleanParameters_Destroy( params );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !MR_BooleanResult_valid( result ) )</div>
 <div class="line">    {</div>
@@ -327,7 +327,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">    <span class="comment">// result, or drop it completely if that part of sphere1 is not in the result.</span></div>
 <div class="line">    MR_FaceId faceOfSphere1 = { 793 };</div>
 <div class="line">    MR_FaceBitSet* oneFace = MR_FaceBitSet_DefaultConstruct();</div>
-<div class="line">    MR_FaceBitSet_autoResizeSet_2( oneFace, faceOfSphere1, NULL );</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet( oneFace, faceOfSphere1, NULL );</div>
 <div class="line">    MR_FaceBitSet* producedFaces = MR_BooleanResultMapper_map_MR_FaceBitSet( mapper, oneFace, MR_BooleanResultMapper_MapObject_A );</div>
 <div class="line">    printf( <span class="stringliteral">&quot;face %d of sphere1 produced %zu faces of the result\n&quot;</span>, faceOfSphere1.id_, MR_FaceBitSet_count( producedFaces ) );</div>
 <div class="line"> </div>
@@ -343,7 +343,7 @@ $(function(){initNavTree('ExampleMeshBoolean.html','',''); });
 <div class="line">    MR_FaceBitSet_Destroy( oneFace );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result to an STL file.</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( MR_BooleanResult_Get_mesh( result ), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( MR_BooleanResult_Get_mesh( result ), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -518,7 +518,7 @@ Source meshes <div class="image">
 <div class="line">    let mut mapper = BooleanResultMapper::new();</div>
 <div class="line"> </div>
 <div class="line">    // Perform the boolean operation.</div>
-<div class="line">    let result = meshlib::boolean_6(&amp;sphere1, &amp;sphere2, BooleanOperation::Intersection, None, Some(&amp;mut mapper), None);</div>
+<div class="line">    let result = meshlib::boolean_with_xf(&amp;sphere1, &amp;sphere2, BooleanOperation::Intersection, None, Some(&amp;mut mapper), None);</div>
 <div class="line">    if !result.valid()</div>
 <div class="line">    {</div>
 <div class="line">        return Err(format!(&quot;Failed to perform boolean: {}&quot;, result.error_string()));</div>
@@ -537,7 +537,7 @@ Source meshes <div class="image">
 <div class="line">    // result, or drop it completely if that part of sphere1 is not in the result.</div>
 <div class="line">    let face_of_sphere1 = FaceId {id_: 793};</div>
 <div class="line">    let mut one_face = FaceBitSet::new();</div>
-<div class="line">    one_face.auto_resize_set_2(face_of_sphere1, None);</div>
+<div class="line">    one_face.auto_resize_set(face_of_sphere1, None);</div>
 <div class="line">    let produced_faces = mapper.map_mr_face_bit_set(&amp;one_face, MapObject::A);</div>
 <div class="line">    println!(&quot;face {} of sphere1 produced {} faces of the result&quot;, face_of_sphere1.id_, produced_faces.count());</div>
 <div class="line"> </div>
@@ -548,7 +548,7 @@ Source meshes <div class="image">
 <div class="line">    println!(&quot;face {} of the result came from face {} of sphere1&quot;, result_face.id_, new2old_faces.index(result_face).id_);</div>
 <div class="line"> </div>
 <div class="line">    // Save result to an STL file.</div>
-<div class="line">    meshlib::mesh_save::to_any_supported_format_3(result.mesh(), &quot;out_boolean.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(result.mesh(), &quot;out_boolean.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
 <div class="line"> </div>
 <div class="line">    Ok(())</div>
 <div class="line">}</div>

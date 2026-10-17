@@ -859,12 +859,42 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a9a2995e8d5a2b1be7a3bb6136a016d44" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1afd5c0e919175c17ffb11d8cf784fa574" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct</definition>
+        <argsstring>(int r, int g, int b, int a)</argsstring>
+        <name>__MR_Color_Construct</name>
+        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="354" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1af964fc43dc3aea0f373f9c3635e5bade" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
-        <definition>static unsafe MR.Color MR.ConstBox_Color.__MR_Color_Construct_1</definition>
+        <definition>static unsafe MR.Color MR.ConstBox_Color.__MR_Color_Construct_MR_NoInit</definition>
         <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_Color_Construct_1</name>
-        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_1</qualifiedname>
+        <name>__MR_Color_Construct_MR_NoInit</name>
+        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_MR_NoInit</qualifiedname>
         <param>
           <type>MR.NoInit._Underlying *</type>
           <declname>_1</declname>
@@ -875,14 +905,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="354" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="357" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a9d1eda60817b91b41d339d6ec1ac6363" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1ab3cb04ca22ddd2890a6fe14eac97d3fb" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
-        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_3_float</definition>
-        <argsstring>(float r, float g, float b)</argsstring>
-        <name>__MR_Color_Construct_3_float</name>
-        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_3_float</qualifiedname>
+        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_float</definition>
+        <argsstring>(float r, float g, float b, float a)</argsstring>
+        <name>__MR_Color_Construct_float</name>
+        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_float</qualifiedname>
         <param>
           <type>float</type>
           <declname>r</declname>
@@ -895,31 +925,9 @@
           <type>float</type>
           <declname>b</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="357" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1aaeb0fdb1231382ed2ccbf4790c7f375f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
-        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_3_int</definition>
-        <argsstring>(int r, int g, int b)</argsstring>
-        <name>__MR_Color_Construct_3_int</name>
-        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_3_int</qualifiedname>
         <param>
-          <type>int</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>b</declname>
+          <type>float</type>
+          <declname>a</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -929,72 +937,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="360" column="31"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a47095b1a213e09e3545c5a6c31e0d9db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
-        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_4_float</definition>
-        <argsstring>(float r, float g, float b, float a)</argsstring>
-        <name>__MR_Color_Construct_4_float</name>
-        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_4_float</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="363" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a3901fe7399d7e2285d151b55cec9ab7b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
-        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_4_int</definition>
-        <argsstring>(int r, int g, int b, int a)</argsstring>
-        <name>__MR_Color_Construct_4_int</name>
-        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_4_int</qualifiedname>
-        <param>
-          <type>int</type>
-          <declname>r</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>g</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="366" column="31"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1ab4613751c50b8dbfd09b56cd02f3a970" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1acd23996c1334638218445af07ffdb7b3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
-        <definition>static unsafe MR.Color MR.ConstBox_Color.__MR_Color_Construct_float</definition>
+        <definition>static unsafe MR.Color MR.ConstBox_Color.__MR_Color_Construct_float_MR_Vector4f</definition>
         <argsstring>(MR.Vector4f *vec)</argsstring>
-        <name>__MR_Color_Construct_float</name>
-        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_float</qualifiedname>
+        <name>__MR_Color_Construct_float_MR_Vector4f</name>
+        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_float_MR_Vector4f</qualifiedname>
         <param>
           <type><ref refid="structMR_1_1Vector4f" kindref="compound">MR.Vector4f</ref> *</type>
           <declname>vec</declname>
@@ -1005,7 +953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="369" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="363" column="38"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a40291f30dae4c96f079d0fd238241459" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
@@ -1023,7 +971,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="372" column="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="366" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a608ea34131542c818d769347cafc10b7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_rgb</definition>
+        <argsstring>(int r, int g, int b)</argsstring>
+        <name>__MR_Color_Construct_rgb</name>
+        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_rgb</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="369" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a2b76977cb38d9ae5ee2f085643514304" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>static MR.Color MR.ConstBox_Color.__MR_Color_Construct_rgbFloat</definition>
+        <argsstring>(float r, float g, float b)</argsstring>
+        <name>__MR_Color_Construct_rgbFloat</name>
+        <qualifiedname>MR.ConstBox_Color.__MR_Color_Construct_rgbFloat</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="372" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ConstBox__Color_1a5ac8f58c60d15fd878118e4a1706a25c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector4f" kindref="compound">MR.Vector4f</ref></type>
@@ -1505,13 +1505,13 @@
       <member refid="classMR_1_1ConstBox__Color_1a6111b7b9b66e54998a8a7d60b795d1f2" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_black</name></member>
       <member refid="classMR_1_1ConstBox__Color_1aec74c275680a523a18966412218616ee" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_blue</name></member>
       <member refid="classMR_1_1ConstBox__Color_1ad46770073a2341eab5ac3f9a50cea319" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_brown</name></member>
-      <member refid="classMR_1_1ConstBox__Color_1a9a2995e8d5a2b1be7a3bb6136a016d44" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_1</name></member>
-      <member refid="classMR_1_1ConstBox__Color_1a9d1eda60817b91b41d339d6ec1ac6363" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_3_float</name></member>
-      <member refid="classMR_1_1ConstBox__Color_1aaeb0fdb1231382ed2ccbf4790c7f375f" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_3_int</name></member>
-      <member refid="classMR_1_1ConstBox__Color_1a47095b1a213e09e3545c5a6c31e0d9db" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_4_float</name></member>
-      <member refid="classMR_1_1ConstBox__Color_1a3901fe7399d7e2285d151b55cec9ab7b" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_4_int</name></member>
-      <member refid="classMR_1_1ConstBox__Color_1ab4613751c50b8dbfd09b56cd02f3a970" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_float</name></member>
+      <member refid="classMR_1_1ConstBox__Color_1afd5c0e919175c17ffb11d8cf784fa574" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct</name></member>
+      <member refid="classMR_1_1ConstBox__Color_1ab3cb04ca22ddd2890a6fe14eac97d3fb" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_float</name></member>
+      <member refid="classMR_1_1ConstBox__Color_1acd23996c1334638218445af07ffdb7b3" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_float_MR_Vector4f</name></member>
       <member refid="classMR_1_1ConstBox__Color_1a40291f30dae4c96f079d0fd238241459" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_int</name></member>
+      <member refid="classMR_1_1ConstBox__Color_1af964fc43dc3aea0f373f9c3635e5bade" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_MR_NoInit</name></member>
+      <member refid="classMR_1_1ConstBox__Color_1a608ea34131542c818d769347cafc10b7" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_rgb</name></member>
+      <member refid="classMR_1_1ConstBox__Color_1a2b76977cb38d9ae5ee2f085643514304" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_Construct_rgbFloat</name></member>
       <member refid="classMR_1_1ConstBox__Color_1a5ac8f58c60d15fd878118e4a1706a25c" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_ConvertTo_MR_Vector4f</name></member>
       <member refid="classMR_1_1ConstBox__Color_1a3b5b1f1db7a2655902f45cc7820fc9b6" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_ConvertTo_MR_Vector4i</name></member>
       <member refid="classMR_1_1ConstBox__Color_1a432044b299eb24f22b2d340c3c987ba1" prot="private" virt="non-virtual"><scope>MR::ConstBox_Color</scope><name>__MR_Color_DefaultConstruct</name></member>

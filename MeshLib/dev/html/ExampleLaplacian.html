@@ -247,7 +247,7 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh</span></div>
@@ -259,7 +259,7 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Construct deformer on the mesh vertices</span></div>
-<div class="line">    MR_Laplacian* lDeformer = MR_Laplacian_Construct_1( mesh );</div>
+<div class="line">    MR_Laplacian* lDeformer = MR_Laplacian_Construct( mesh );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find an area for the deformation anchor points</span></div>
 <div class="line">    <span class="keyword">const</span> MR_VertBitSet* verts = MR_MeshTopology_getValidVerts( MR_Mesh_Get_topology( mesh ) );</div>
@@ -269,26 +269,26 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">    MR_VertBitSet* freeVerts = MR_VertBitSet_DefaultConstruct();</div>
 <div class="line">    MR_VertBitSet_resize( freeVerts, MR_VertBitSet_size( verts ), NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_VertBitSet_set_2( freeVerts, ancV0, <span class="keyword">true</span> );</div>
-<div class="line">    MR_VertBitSet_set_2( freeVerts, ancV1, <span class="keyword">true</span> );</div>
+<div class="line">    MR_VertBitSet_set( freeVerts, ancV0, <span class="keyword">true</span> );</div>
+<div class="line">    MR_VertBitSet_set( freeVerts, ancV1, <span class="keyword">true</span> );</div>
 <div class="line">    <span class="comment">// Expand the free area</span></div>
 <div class="line">    MR_expand_MR_VertBitSet( MR_Mesh_Get_topology( mesh ), freeVerts, &amp;(<span class="keywordtype">int</span>){5} );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Initialize laplacian</span></div>
 <div class="line">    MR_Laplacian_init( lDeformer, freeVerts, MR_EdgeWeights_Cotan, &amp;(MR_VertexMass){MR_VertexMass_NeiArea}, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
+<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox( mesh, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> shiftAmount = MR_Box3f_diagonal( &amp;bbox ) * 0.01f;</div>
 <div class="line">    <span class="comment">// Fix the anchor vertices in the required position</span></div>
 <div class="line">    <span class="keyword">const</span> MR_VertCoords* points = MR_Mesh_Get_points( mesh );</div>
 <div class="line">    MR_Vector3f posV0 = MR_Mesh_normal_MR_VertId( mesh, ancV0 );</div>
 <div class="line">    posV0 = MR_mul_MR_Vector3f_float( &amp;posV0, shiftAmount );</div>
 <div class="line">    posV0 = MR_add_MR_Vector3f( MR_VertCoords_index( points, ancV0 ), &amp;posV0 );</div>
-<div class="line">    MR_Laplacian_fixVertex_3( lDeformer, ancV0, &amp;posV0, NULL );</div>
+<div class="line">    MR_Laplacian_fixVertex_pos( lDeformer, ancV0, &amp;posV0, NULL );</div>
 <div class="line">    MR_Vector3f posV1 = MR_Mesh_normal_MR_VertId( mesh, ancV1 );</div>
 <div class="line">    posV1 = MR_mul_MR_Vector3f_float( &amp;posV1, shiftAmount );</div>
 <div class="line">    posV1 = MR_add_MR_Vector3f( MR_VertCoords_index( points, ancV1 ), &amp;posV1 );</div>
-<div class="line">    MR_Laplacian_fixVertex_3( lDeformer, ancV1, &amp;posV1, NULL );</div>
+<div class="line">    MR_Laplacian_fixVertex_pos( lDeformer, ancV1, &amp;posV1, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Move the free vertices according to the anchor ones</span></div>
 <div class="line">    MR_Laplacian_apply( lDeformer );</div>
@@ -297,7 +297,7 @@ $(function(){initNavTree('ExampleLaplacian.html','',''); });
 <div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the deformed mesh</span></div>
-<div class="line">    MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_VertBitSet_Destroy( freeVerts );</div>
 <div class="line">    MR_Laplacian_Destroy( lDeformer );</div>

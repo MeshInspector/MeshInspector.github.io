@@ -20,11 +20,28 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
+      <node id="5">
+        <label>MR::MapOrHashMap&lt; FaceId, FaceId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="7">
+        <label>MR::MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="6">
+        <label>MR::MapOrHashMap&lt; VertId, VertId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
       <node id="2">
         <label>MR::Mesh</label>
         <link refid="structMR_1_1Mesh"/>
         <childnode refid="3" relation="usage">
           <edgelabel>topology</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>map</edgelabel>
+          <edgelabel>rearrangeTriangles</edgelabel>
+          <edgelabel>vacant</edgelabel>
         </childnode>
       </node>
       <node id="1">
@@ -33,10 +50,10 @@
         <childnode refid="2" relation="usage">
           <edgelabel>mesh</edgelabel>
         </childnode>
-        <childnode refid="4" relation="usage">
+        <childnode refid="8" relation="usage">
           <edgelabel>textureFiles</edgelabel>
         </childnode>
-        <childnode refid="5" relation="usage">
+        <childnode refid="9" relation="usage">
           <edgelabel>texturePerFace</edgelabel>
         </childnode>
       </node>
@@ -44,11 +61,27 @@
         <label>MR::MeshTopology</label>
         <link refid="classMR_1_1MeshTopology"/>
       </node>
-      <node id="5">
+      <node id="4">
+        <label>MR::PartMapping</label>
+        <link refid="structMR_1_1PartMapping"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>src2tgtFaces</edgelabel>
+          <edgelabel>tgt2srcFaces</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>src2tgtVerts</edgelabel>
+          <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
         <label>MR::Vector&lt; TextureId, FaceId &gt;</label>
         <link refid="classMR_1_1Vector"/>
       </node>
-      <node id="4">
+      <node id="8">
         <label>MR::Vector&lt; std::filesystem::path, TextureId &gt;</label>
       </node>
     </collaborationgraph>

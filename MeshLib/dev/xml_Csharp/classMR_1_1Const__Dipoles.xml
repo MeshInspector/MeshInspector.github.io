@@ -447,6 +447,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a7834b04fa6abcbb83feacccfadce84d3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Dipoles._Underlying *</type>
+        <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Dipoles_Construct</name>
+        <qualifiedname>MR.Const_Dipoles.__MR_Dipoles_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2911" column="51"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a9ddd25bab14efaf6df8a917ba6757ee0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Dipoles._Underlying *</type>
         <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_ConstructFromAnother</definition>
@@ -467,35 +485,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2911" column="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2914" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a07a9d34eeb486f2962f5b82b0c20dc8e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a98bfa3a737c4dbf737b96f510bb8a528" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Dipoles._Underlying *</type>
-        <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Dipoles_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Dipoles.__MR_Dipoles_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Const_Dipole._Underlying *val)</argsstring>
+        <name>__MR_Dipoles_Construct_fill</name>
+        <qualifiedname>MR.Const_Dipoles.__MR_Dipoles_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2914" column="51"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a6b050b98be673dbc0d892febb0a1aca3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Dipoles._Underlying *</type>
-        <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_Construct_1_std_vector_MR_Dipole</definition>
-        <argsstring>(MR.Std.Vector_MRDipole._Underlying *vec)</argsstring>
-        <name>__MR_Dipoles_Construct_1_std_vector_MR_Dipole</name>
-        <qualifiedname>MR.Const_Dipoles.__MR_Dipoles_Construct_1_std_vector_MR_Dipole</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRDipole._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.Const_Dipole._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -505,19 +509,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2917" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1aba7f011b9095fa0f1bb1d06473d83153" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1aad3e29f1f6057c32b41798679ddf101e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Dipoles._Underlying *</type>
-        <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_Construct_2</definition>
-        <argsstring>(nuint size, MR.Const_Dipole._Underlying *val)</argsstring>
-        <name>__MR_Dipoles_Construct_2</name>
-        <qualifiedname>MR.Const_Dipoles.__MR_Dipoles_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Dipoles._Underlying * MR.Const_Dipoles.__MR_Dipoles_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRDipole._Underlying *vec)</argsstring>
+        <name>__MR_Dipoles_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Dipoles.__MR_Dipoles_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_Dipole._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRDipole._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -857,9 +857,9 @@
       <member refid="classMR_1_1Const__Dipoles_1aef5cb75831a8741987a5be0721558bc7" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_backId</name></member>
       <member refid="classMR_1_1Const__Dipoles_1affa55461adbf590b20671c74a519b2e8" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_beginId</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a212acf187043c15bfec9f7aaa1e4429b" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_capacity</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1a07a9d34eeb486f2962f5b82b0c20dc8e" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1a6b050b98be673dbc0d892febb0a1aca3" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_Construct_1_std_vector_MR_Dipole</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1aba7f011b9095fa0f1bb1d06473d83153" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a7834b04fa6abcbb83feacccfadce84d3" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_Construct</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a98bfa3a737c4dbf737b96f510bb8a528" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1aad3e29f1f6057c32b41798679ddf101e" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a9ddd25bab14efaf6df8a917ba6757ee0" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a4648ab55501a9cfc1bedf637880e1301" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_data</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a82ccffea088b5638125f96d9d58b5c8a" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>__MR_Dipoles_DefaultConstruct</name></member>

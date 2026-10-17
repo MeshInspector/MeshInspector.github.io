@@ -619,6 +619,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60308" column="72"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1ac55fa016b3f01fc1328515f7e3bf4a55" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRRegionId_MRRegionId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60311" column="72"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1aa4c611abe174a0e6d01a0c85b8f7619d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRRegionId_MRRegionId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_ConstructFromAnother</definition>
@@ -639,35 +657,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60311" column="72"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60314" column="72"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a3a3c6349f80733cca8b0b8d110ae7700" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a42c628d3e7d2f3be1c05e45c01069a74" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRRegionId_MRRegionId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_size_t</name>
-        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.RegionId *val)</argsstring>
+        <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_fill</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60314" column="72"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a232c535d70f1cb78015920551008638f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRRegionId_MRRegionId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_std_vector_MR_RegionId</definition>
-        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_std_vector_MR_RegionId</name>
-        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_std_vector_MR_RegionId</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRRegionId._Underlying *</type>
-          <declname>vec</declname>
+          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -677,19 +681,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60317" column="72"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1a81f4e832a10662d37c52cc234b27f521" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRRegionId__MRRegionId_1abfe753d14dd7e5c2042777f86997661f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRRegionId_MRRegionId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_2</definition>
-        <argsstring>(nuint size, MR.RegionId *val)</argsstring>
-        <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_2</name>
-        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref> *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRRegionId._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1227,9 +1227,9 @@
       <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a7edb8a9e94789fb6bfc7efcf1d6b02c8" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a17f816d914c293bd74737197cd4dc6fb" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_back_mut</name></member>
       <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a655e83c495d2755a2c7770f0e63340bd" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_clear</name></member>
-      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a3a3c6349f80733cca8b0b8d110ae7700" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a232c535d70f1cb78015920551008638f" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_1_std_vector_MR_RegionId</name></member>
-      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a81f4e832a10662d37c52cc234b27f521" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1ac55fa016b3f01fc1328515f7e3bf4a55" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a42c628d3e7d2f3be1c05e45c01069a74" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1abfe753d14dd7e5c2042777f86997661f" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1aa4c611abe174a0e6d01a0c85b8f7619d" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1acee528a7db1cd8bafa8c92d60dfc11eb" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_data_mut</name></member>
       <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1adb5f930837bfa4075a36db982735ccaa" prot="private" virt="non-virtual"><scope>MR::Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_DefaultConstruct</name></member>

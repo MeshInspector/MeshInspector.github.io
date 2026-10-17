@@ -542,15 +542,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24761" column="75"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a8bdf214e86366dacc534e183938349d7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a5e246776aaac70db3994a3add5e99d20" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRMeshOrPointsXf_MRObjId._Underlying * MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_1</definition>
-        <argsstring>(MR.Std.Vector_MRMeshOrPointsXf._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_1</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_1</qualifiedname>
+        <definition>static unsafe MR.Vector_MRMeshOrPointsXf_MRObjId._Underlying * MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.Const_MeshOrPointsXf._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_fill</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_fill</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRMeshOrPointsXf._Underlying *</type>
-          <declname>vec</declname>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -560,19 +564,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24764" column="75"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a877ee1c8993f2cc9e1ccf0f0351272e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a1d760344169ba798b3147dc7651fcdc9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRMeshOrPointsXf_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRMeshOrPointsXf_MRObjId._Underlying * MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_2</definition>
-        <argsstring>(nuint size, MR.Const_MeshOrPointsXf._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_2</name>
-        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRMeshOrPointsXf_MRObjId._Underlying * MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRMeshOrPointsXf._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_stdVector</name>
+        <qualifiedname>MR.Vector_MRMeshOrPointsXf_MRObjId.__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.Const_MeshOrPointsXf._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRMeshOrPointsXf._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1011,8 +1011,8 @@
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1ab232363dc28287f1f94efa5fa5dc1616" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_autoResizeSet_3</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af0a4c2311801d65a5b7cf6d690238db3" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_back_mut</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a27b376b0a3595e5ef911333dfdaa36b0" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_clear</name></member>
-      <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a8bdf214e86366dacc534e183938349d7" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_1</name></member>
-      <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a877ee1c8993f2cc9e1ccf0f0351272e9" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_2</name></member>
+      <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a5e246776aaac70db3994a3add5e99d20" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_fill</name></member>
+      <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a1d760344169ba798b3147dc7651fcdc9" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a57bbe855f0443a5cc08b841f6f742b45" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a8789180023e4b08f3c5c85783b911f3b" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_data_mut</name></member>
       <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a73872fc7eea773a08675d27d2de26e67" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshOrPointsXf_MRObjId</scope><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_DefaultConstruct</name></member>

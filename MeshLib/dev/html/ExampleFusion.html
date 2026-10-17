@@ -215,7 +215,7 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// load points</span></div>
-<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;Points.ply&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;Points.ply&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_PointCloud* pc = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !pc )</div>
 <div class="line">    {</div>
@@ -224,7 +224,7 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_PointsToMeshParameters* params = MR_PointsToMeshParameters_DefaultConstruct();</div>
-<div class="line">    MR_Box3f box = MR_PointCloud_computeBoundingBox_1( pc, NULL );</div>
+<div class="line">    MR_Box3f box = MR_PointCloud_computeBoundingBox( pc, NULL );</div>
 <div class="line">    <span class="keywordtype">float</span> voxelSize = MR_Box3f_diagonal( &amp;box ) * 1e-2f;</div>
 <div class="line">    MR_PointsToMeshParameters_Set_voxelSize( params, voxelSize );</div>
 <div class="line">    <span class="keywordtype">float</span> avgRadius = MR_findAvgPointsRadius( pc, 50, NULL );</div>
@@ -240,7 +240,7 @@ $(function(){initNavTree('ExampleFusion.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_fuse;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;Mesh.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

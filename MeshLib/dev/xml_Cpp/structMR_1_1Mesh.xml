@@ -32,6 +32,218 @@
         </inbodydescription>
         <location file="MRMesh/MRMesh.h" line="26" column="16" bodyfile="MRMesh/MRMesh.h" bodystart="26" bodyend="-1"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a38119185e97916eacea6c36adb34f7ef" prot="public" static="no" mutable="no">
+        <type>const AffineXf3f *</type>
+        <definition>const AffineXf3f* MR::Mesh::toWorld</definition>
+        <argsstring></argsstring>
+        <name>toWorld</name>
+        <qualifiedname>MR::Mesh::toWorld</qualifiedname>
+        <initializer>= nullptr ) const</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="339" column="58" bodyfile="MRMesh/MRMesh.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1abb49738279dec064e483be26d3fafb55" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+        <definition>PartMapping MR::Mesh::map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>MR::Mesh::map</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="398" column="52" bodyfile="MRMesh/MRMesh.h" bodystart="398" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a075acf82c23dacae9d98a5a80f516072" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> bool</type>
+        <definition>PartMapping bool MR::Mesh::rearrangeTriangles</definition>
+        <argsstring></argsstring>
+        <name>rearrangeTriangles</name>
+        <qualifiedname>MR::Mesh::rearrangeTriangles</qualifiedname>
+        <initializer>= false )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="398" column="62" bodyfile="MRMesh/MRMesh.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a8a52ae94d003827fe786e2b278dac1f3" prot="public" static="no" mutable="no">
+        <type>FaceMap *</type>
+        <definition>FaceMap* MR::Mesh::outFmap</definition>
+        <argsstring></argsstring>
+        <name>outFmap</name>
+        <qualifiedname>MR::Mesh::outFmap</qualifiedname>
+        <briefdescription>
+<para>optionally returns mappings: from.id -&gt; this.id </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="401" column="18" bodyfile="MRMesh/MRMesh.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1ac7d3edb8fd319a5a4d211ba25d24e346" prot="public" static="no" mutable="no">
+        <type>FaceMap VertMap *</type>
+        <definition>FaceMap VertMap* MR::Mesh::outVmap</definition>
+        <argsstring></argsstring>
+        <name>outVmap</name>
+        <qualifiedname>MR::Mesh::outVmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="401" column="35" bodyfile="MRMesh/MRMesh.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a4e632453870de6742cfb3ae37491a6b4" prot="public" static="no" mutable="no">
+        <type>FaceMap VertMap WholeEdgeMap *</type>
+        <definition>FaceMap VertMap WholeEdgeMap* MR::Mesh::outEmap</definition>
+        <argsstring></argsstring>
+        <name>outEmap</name>
+        <qualifiedname>MR::Mesh::outEmap</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="401" column="58" bodyfile="MRMesh/MRMesh.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1abdd2b8cf153548ba62d91facc2f0526f" prot="public" static="no" mutable="no">
+        <type>FaceMap VertMap WholeEdgeMap bool</type>
+        <definition>FaceMap VertMap WholeEdgeMap bool MR::Mesh::rearrangeTriangles</definition>
+        <argsstring></argsstring>
+        <name>rearrangeTriangles</name>
+        <qualifiedname>MR::Mesh::rearrangeTriangles</qualifiedname>
+        <initializer>= false )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="401" column="72" bodyfile="MRMesh/MRMesh.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a1e677e30de874a7c800e274fde50a33b" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> &amp;</type>
+        <definition>const PartMapping&amp; MR::Mesh::map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>MR::Mesh::map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="405" column="59" bodyfile="MRMesh/MRMesh.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a3457bde750f42e5a0173e67e9e203511" prot="public" static="no" mutable="no">
+        <type>const <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> <ref refid="structMR_1_1VacantElements" kindref="compound">VacantElements</ref> *</type>
+        <definition>const PartMapping VacantElements* MR::Mesh::vacant</definition>
+        <argsstring></argsstring>
+        <name>vacant</name>
+        <qualifiedname>MR::Mesh::vacant</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="405" column="79" bodyfile="MRMesh/MRMesh.h" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a7e633064d34622a947601f8375121da3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Mesh::flipOrientation</definition>
+        <argsstring></argsstring>
+        <name>flipOrientation</name>
+        <qualifiedname>MR::Mesh::flipOrientation</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="412" column="45" bodyfile="MRMesh/MRMesh.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1abcaf059635202a004144cd791f470296" prot="public" static="no" mutable="no">
+        <type>bool const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
+        <definition>bool const std::vector&lt;EdgePath&gt;&amp; MR::Mesh::thisContours</definition>
+        <argsstring></argsstring>
+        <name>thisContours</name>
+        <qualifiedname>MR::Mesh::thisContours</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="413" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="413" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a1c15fb58bb4738566c304ea3f803f4a8" prot="public" static="no" mutable="no">
+        <type>bool const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
+        <definition>bool const std::vector&lt;EdgePath&gt; const std::vector&lt;EdgePath&gt;&amp; MR::Mesh::fromContours</definition>
+        <argsstring></argsstring>
+        <name>fromContours</name>
+        <qualifiedname>MR::Mesh::fromContours</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>contours on this mesh that have to be stitched with </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="414" column="28" bodyfile="MRMesh/MRMesh.h" bodystart="414" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1a4ce258b41f3bcf9f54ae352ff29746aa" prot="public" static="no" mutable="no">
+        <type>bool const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+        <definition>bool const std::vector&lt;EdgePath&gt; const std::vector&lt;EdgePath&gt; PartMapping MR::Mesh::map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>MR::Mesh::map</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>optionally returns mappings: from.id -&gt; this.id </para>
+        </briefdescription>
+        <detaileddescription>
+<para>contours on from mesh during addition </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="416" column="21" bodyfile="MRMesh/MRMesh.h" bodystart="416" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Mesh_1aa0483429ef19cb1de99952625025e9a4" prot="public" static="no" mutable="no">
+        <type>bool const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> <ref refid="structMR_1_1VacantElements" kindref="compound">VacantElements</ref> *</type>
+        <definition>bool const std::vector&lt;EdgePath&gt; const std::vector&lt;EdgePath&gt; PartMapping VacantElements* MR::Mesh::vacant</definition>
+        <argsstring></argsstring>
+        <name>vacant</name>
+        <qualifiedname>MR::Mesh::vacant</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMesh.h" line="416" column="42" bodyfile="MRMesh/MRMesh.h" bodystart="416" bodyend="416"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="structMR_1_1Mesh_1a43406c62d4fbf3496b1acce4c8107633" prot="private" static="no" mutable="yes">
@@ -1867,17 +2079,12 @@
         </inbodydescription>
         <location file="MRMesh/MRMesh.h" line="331" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a916b0cecc3457997280e8f1e39227c8e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>Box3f</type>
-        <definition>Box3f MR::Mesh::computeBoundingBox</definition>
-        <argsstring>(const AffineXf3f *toWorld=nullptr) const</argsstring>
-        <name>computeBoundingBox</name>
-        <qualifiedname>MR::Mesh::computeBoundingBox</qualifiedname>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>toWorld</declname>
-          <defval>nullptr</defval>
-        </param>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a2800abae671db9249887bf8128c07d86" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 Box3f computeBoundingBox(const AffineXf3f *toWorld</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -1885,22 +2092,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="335" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="335" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a4040ab24e115ea0cd68fef6a177882c7" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>Box3f</type>
-        <definition>Box3f MR::Mesh::computeBoundingBox</definition>
-        <argsstring>(const FaceBitSet *region, const AffineXf3f *toWorld=nullptr) const</argsstring>
-        <name>computeBoundingBox</name>
-        <qualifiedname>MR::Mesh::computeBoundingBox</qualifiedname>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a55d264e08ec551ae0fb5b18a2695d497" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(region) 1 Box3f computeBoundingBox(const FaceBitSet *region</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const FaceBitSet *</type>
-          <declname>region</declname>
-        </param>
-        <param>
-          <type>const AffineXf3f *</type>
-          <declname>toWorld</declname>
-          <defval>nullptr</defval>
+          <type>region</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1909,7 +2110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="339" column="13"/>
+        <location file="MRMesh/MRMesh.h" line="339" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ab9d3cfcd12351d9a2dd46dea8ddf9e65" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -2242,26 +2443,12 @@
         </inbodydescription>
         <location file="MRMesh/MRMesh.h" line="395" column="12" bodyfile="MRMesh/MRMesh.h" bodystart="395" bodyend="395"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Mesh::addMesh</definition>
-        <argsstring>(const Mesh &amp;from, PartMapping map={}, bool rearrangeTriangles=false)</argsstring>
-        <name>addMesh</name>
-        <qualifiedname>MR::Mesh::addMesh</qualifiedname>
-        <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
-          <declname>map</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>rearrangeTriangles</declname>
-          <defval>false</defval>
-        </param>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a780f0833527417e641ebbbd9ea27b39a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 void addMesh(const Mesh &amp;from</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>appends another mesh as separate connected component(s) to this </para>
         </briefdescription>
@@ -2269,38 +2456,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="398" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="398" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Mesh::addMesh</definition>
-        <argsstring>(const Mesh &amp;from, FaceMap *outFmap, VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr, bool rearrangeTriangles=false)</argsstring>
-        <name>addMesh</name>
-        <qualifiedname>MR::Mesh::addMesh</qualifiedname>
+      <memberdef kind="function" id="structMR_1_1Mesh_1ab4a932360cad5e1747110151bb1cd6a7" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(outMaps) 1 void addMesh(const Mesh &amp;from</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>FaceMap *</type>
-          <declname>outFmap</declname>
-          <briefdescription><para>optionally returns mappings: from.id -&gt; this.id </para>
-</briefdescription>
-        </param>
-        <param>
-          <type>VertMap *</type>
-          <declname>outVmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>WholeEdgeMap *</type>
-          <declname>outEmap</declname>
-          <defval>nullptr</defval>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>rearrangeTriangles</declname>
-          <defval>false</defval>
+          <type>outMaps</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -2308,26 +2473,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="399" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="399" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a40a4b434d26da4ffa956ad8cb72093ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void MR::Mesh::addMeshPart</definition>
-        <argsstring>(const MeshPart &amp;from, const PartMapping &amp;map, VacantElements *vacant={})</argsstring>
-        <name>addMeshPart</name>
-        <qualifiedname>MR::Mesh::addMeshPart</qualifiedname>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a72021ca5095e77a53e4192c2166bd0c2" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(mapping) 1 void addMeshPart(const MeshPart &amp;from</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshPart &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>const <ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref> &amp;</type>
-          <declname>map</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1VacantElements" kindref="compound">VacantElements</ref> *</type>
-          <declname>vacant</declname>
-          <defval>{}</defval>
+          <type>mapping</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -2345,47 +2500,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="405" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="405" column="5"/>
       </memberdef>
-      <memberdef kind="function" id="structMR_1_1Mesh_1a3eb0890a9d7a3fe58757bdd6768610ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::Mesh::addMeshPart</definition>
-        <argsstring>(const MeshPart &amp;from, bool flipOrientation=false, const std::vector&lt; EdgePath &gt; &amp;thisContours={}, const std::vector&lt; EdgePath &gt; &amp;fromContours={}, PartMapping map={}, VacantElements *vacant={})</argsstring>
-        <name>addMeshPart</name>
-        <qualifiedname>MR::Mesh::addMeshPart</qualifiedname>
-        <param>
-          <type>const MeshPart &amp;</type>
-          <declname>from</declname>
-        </param>
-        <param>
-          <type>bool</type>
-          <declname>flipOrientation</declname>
-          <defval>false</defval>
-        </param>
-        <param>
-          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
-          <declname>thisContours</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const std::vector&lt; <ref refid="group__GeneralGroup_1ga9f6c1e614e45e332d4cecfc5e77bc07e" kindref="member">EdgePath</ref> &gt; &amp;</type>
-          <declname>fromContours</declname>
-          <defval>{}</defval>
-          <briefdescription><para>contours on this mesh that have to be stitched with </para>
-</briefdescription>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
-          <declname>map</declname>
-          <defval>{}</defval>
-          <briefdescription><para>contours on from mesh during addition optionally returns mappings: from.id -&gt; this.id </para>
-</briefdescription>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1VacantElements" kindref="compound">VacantElements</ref> *</type>
-          <declname>vacant</declname>
-          <defval>{}</defval>
-        </param>
+      <memberdef kind="function" id="structMR_1_1Mesh_1a3c10e2f017960f99ac15b408a7f198d7" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 bool addMeshPart(const MeshPart &amp;from</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::Mesh::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -2412,7 +2534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMesh.h" line="412" column="11"/>
+        <location file="MRMesh/MRMesh.h" line="412" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -3119,26 +3241,55 @@
 <para>This class represents a mesh, including topology (connectivity) information and point coordinates, as well as some caches to accelerate search algorithms </para>
     </detaileddescription>
     <collaborationgraph>
+      <node id="4">
+        <label>MR::MapOrHashMap&lt; FaceId, FaceId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="6">
+        <label>MR::MapOrHashMap&lt; UndirectedEdgeId, EdgeId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
+      <node id="5">
+        <label>MR::MapOrHashMap&lt; VertId, VertId &gt;</label>
+        <link refid="structMR_1_1MapOrHashMap"/>
+      </node>
       <node id="1">
         <label>MR::Mesh</label>
         <link refid="structMR_1_1Mesh"/>
         <childnode refid="2" relation="usage">
           <edgelabel>topology</edgelabel>
         </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>map</edgelabel>
+          <edgelabel>rearrangeTriangles</edgelabel>
+          <edgelabel>vacant</edgelabel>
+        </childnode>
       </node>
       <node id="2">
         <label>MR::MeshTopology</label>
         <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="3">
+        <label>MR::PartMapping</label>
+        <link refid="structMR_1_1PartMapping"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>src2tgtFaces</edgelabel>
+          <edgelabel>tgt2srcFaces</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>src2tgtVerts</edgelabel>
+          <edgelabel>tgt2srcVerts</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>src2tgtEdges</edgelabel>
+          <edgelabel>tgt2srcEdges</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="MRMesh/MRMesh.h" line="23" column="1" bodyfile="MRMesh/MRMesh.h" bodystart="24" bodyend="513"/>
     <listofallmembers>
       <member refid="structMR_1_1Mesh_1a43406c62d4fbf3496b1acce4c8107633" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreeOwner_</name></member>
       <member refid="structMR_1_1Mesh_1aa1ecefe76a7c8a2863dc394ed25bc3e2" prot="private" virt="non-virtual"><scope>MR::Mesh</scope><name>AABBTreePointsOwner_</name></member>
-      <member refid="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
-      <member refid="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
-      <member refid="structMR_1_1Mesh_1a40a4b434d26da4ffa956ad8cb72093ff" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
-      <member refid="structMR_1_1Mesh_1a3eb0890a9d7a3fe58757bdd6768610ac" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
       <member refid="structMR_1_1Mesh_1a074d71b712f4d3b75e9afe65903cba2f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPoint</name></member>
       <member refid="structMR_1_1Mesh_1ac127a110cf4ae135424a266306fc6788" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateContours</name></member>
       <member refid="structMR_1_1Mesh_1a07d95933f6235de108fcb86097508b9f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateEdgeLoop</name></member>
@@ -3151,8 +3302,6 @@
       <member refid="structMR_1_1Mesh_1acdc8a11c22979314254353c064b61025" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>circumcircleDiameter</name></member>
       <member refid="structMR_1_1Mesh_1a097d63092885e790e360319635cf3b86" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>circumcircleDiameterSq</name></member>
       <member refid="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cloneRegion</name></member>
-      <member refid="structMR_1_1Mesh_1a916b0cecc3457997280e8f1e39227c8e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
-      <member refid="structMR_1_1Mesh_1a4040ab24e115ea0cd68fef6a177882c7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>computeBoundingBox</name></member>
       <member refid="structMR_1_1Mesh_1aae3794627367f1c0ae6a497f41542197" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>cotan</name></member>
       <member refid="structMR_1_1Mesh_1a1e2a8eaf7d1882e02a3eea66d1d72349" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dblArea</name></member>
       <member refid="structMR_1_1Mesh_1ab6d39814aa495e12ba8e388c22a6f12e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>dblArea</name></member>
@@ -3185,6 +3334,8 @@
       <member refid="structMR_1_1Mesh_1a1eda7cca99d50abaa6f9c15d4edefabb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findCreaseEdges</name></member>
       <member refid="structMR_1_1Mesh_1a30ffc7daf92144ac76a43684a5ca21b4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findSharpEdges</name></member>
       <member refid="structMR_1_1Mesh_1ae4a0775d0410e3ff89ed981468aa016e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>findSpikeVertices</name></member>
+      <member refid="structMR_1_1Mesh_1a7e633064d34622a947601f8375121da3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>flipOrientation</name></member>
+      <member refid="structMR_1_1Mesh_1a1c15fb58bb4738566c304ea3f803f4a8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromContours</name></member>
       <member refid="structMR_1_1Mesh_1af0ca02be2aa33003546b35bec72fb3c0" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromFaceSoup</name></member>
       <member refid="structMR_1_1Mesh_1ac2c611bb8e5eedee72dd33d1b2229e2f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromPointTriples</name></member>
       <member refid="structMR_1_1Mesh_1aee885a16014f6020547ca821e361c0f5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>fromTriangles</name></member>
@@ -3219,12 +3370,24 @@
       <member refid="structMR_1_1Mesh_1abac0e977c029df6d8bad34161ec50cce" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftDirDblArea</name></member>
       <member refid="structMR_1_1Mesh_1a797623a41864029eb93103c262fa70d4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftNormal</name></member>
       <member refid="structMR_1_1Mesh_1a8413d6a67149defd54376ec0b8d8ff05" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>leftTangent</name></member>
+      <member refid="structMR_1_1Mesh_1abb49738279dec064e483be26d3fafb55" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>map</name></member>
+      <member refid="structMR_1_1Mesh_1a1e677e30de874a7c800e274fde50a33b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>map</name></member>
+      <member refid="structMR_1_1Mesh_1a4ce258b41f3bcf9f54ae352ff29746aa" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>map</name></member>
       <member refid="structMR_1_1Mesh_1a6cd3981840651ddac27d427a965ce818" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>mirror</name></member>
+      <member refid="structMR_1_1Mesh_1a2800abae671db9249887bf8128c07d86" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1Mesh_1a55d264e08ec551ae0fb5b18a2695d497" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1Mesh_1a780f0833527417e641ebbbd9ea27b39a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1Mesh_1ab4a932360cad5e1747110151bb1cd6a7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1Mesh_1a72021ca5095e77a53e4192c2166bd0c2" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="structMR_1_1Mesh_1a3c10e2f017960f99ac15b408a7f198d7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
       <member refid="structMR_1_1Mesh_1acc0ceb8ed258ca42cf125638c6940594" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
       <member refid="structMR_1_1Mesh_1aff330955f978300560fd33b43cd77cdd" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
       <member refid="structMR_1_1Mesh_1a129593cd8a305c93e60d945df893d20a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>normal</name></member>
       <member refid="structMR_1_1Mesh_1ad566edd8a184ac216a12a07e9f9270eb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>operator==</name></member>
       <member refid="structMR_1_1Mesh_1a5fab8c28312fa8c3ac69c2f63d345f20" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>orgPnt</name></member>
+      <member refid="structMR_1_1Mesh_1a4e632453870de6742cfb3ae37491a6b4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>outEmap</name></member>
+      <member refid="structMR_1_1Mesh_1a8a52ae94d003827fe786e2b278dac1f3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>outFmap</name></member>
+      <member refid="structMR_1_1Mesh_1ac7d3edb8fd319a5a4d211ba25d24e346" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>outVmap</name></member>
       <member refid="structMR_1_1Mesh_1a195c509bc89bff7c15ae4f20a0659b36" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
       <member refid="structMR_1_1Mesh_1a6e9aa843e541b5b9b371902f0e14810a" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
       <member refid="structMR_1_1Mesh_1a3aab49091b051347cde5a30a3f9ccbcc" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
@@ -3240,6 +3403,8 @@
       <member refid="structMR_1_1Mesh_1acfd1988e966914fd56fac8cee64c5f49" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
       <member refid="structMR_1_1Mesh_1ac48c479f458af1facea8e79e38ed0d63" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pseudonormal</name></member>
       <member refid="structMR_1_1Mesh_1aa04078e21e25882482b068987fbc6add" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>quadraticForm</name></member>
+      <member refid="structMR_1_1Mesh_1a075acf82c23dacae9d98a5a80f516072" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>rearrangeTriangles</name></member>
+      <member refid="structMR_1_1Mesh_1abdd2b8cf153548ba62d91facc2f0526f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>rearrangeTriangles</name></member>
       <member refid="structMR_1_1Mesh_1a100fbcee62af5a8779713b186d7e6824" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>shrinkToFit</name></member>
       <member refid="structMR_1_1Mesh_1a18b304c7bb132b9149d1ba45884fe700" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
       <member refid="structMR_1_1Mesh_1a6d5ecc32f9f154e338bcda8777c77259" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>signedDistance</name></member>
@@ -3249,18 +3414,22 @@
       <member refid="structMR_1_1Mesh_1a9f365e654b9b4a4584293c3add2fdb05" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
       <member refid="structMR_1_1Mesh_1a8c0879122a6abf7e015c89fdbd7dd584" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
       <member refid="structMR_1_1Mesh_1a45e5bda99bca2001e2b7d947f1b16177" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>sumAngles</name></member>
+      <member refid="structMR_1_1Mesh_1abcaf059635202a004144cd791f470296" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>thisContours</name></member>
       <member refid="structMR_1_1Mesh_1a757524ab0b73b9ef9256daca95b55540" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
       <member refid="structMR_1_1Mesh_1adbf2e3f4d7d5486dcfac998c96935dd3" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toEdgePoint</name></member>
       <member refid="structMR_1_1Mesh_1a91b13898794821d7f88845ebaa6cc1c4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>topology</name></member>
       <member refid="structMR_1_1Mesh_1a270c420c13ec0ad3d41b3bee66a69fe7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
       <member refid="structMR_1_1Mesh_1a72472fa8eac4aba3ae82bb68995534c7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
       <member refid="structMR_1_1Mesh_1af8c6a8e572a6252362c3616d2973c5f7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toTriPoint</name></member>
+      <member refid="structMR_1_1Mesh_1a38119185e97916eacea6c36adb34f7ef" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>toWorld</name></member>
       <member refid="structMR_1_1Mesh_1a92e85c214675a13b28dc01afc1e2659c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>transform</name></member>
       <member refid="structMR_1_1Mesh_1a63bb9b6214248707f092cca1db05afb2" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triangleAspectRatio</name></member>
       <member refid="structMR_1_1Mesh_1a985bc1ef62bdb8754e1b4f3da304256b" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triCenter</name></member>
       <member refid="structMR_1_1Mesh_1a9c3fed969fd69fc13302e22b2d6fd4ad" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>triPoint</name></member>
       <member refid="structMR_1_1Mesh_1a5234fc402df7b5912834413c90f4dd10" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCaches</name></member>
       <member refid="structMR_1_1Mesh_1a09a97bb00b1eac52db441f32170cbcc6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCachesAfterSplits</name></member>
+      <member refid="structMR_1_1Mesh_1a3457bde750f42e5a0173e67e9e203511" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>vacant</name></member>
+      <member refid="structMR_1_1Mesh_1aa0483429ef19cb1de99952625025e9a4" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>vacant</name></member>
       <member refid="structMR_1_1Mesh_1ae844a3412483056be32f892b104dac40" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>volume</name></member>
       <member refid="structMR_1_1Mesh_1ab19cc6268005d386aff0e95b2b04fa9d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>zeroUnusedPoints</name></member>
     </listofallmembers>

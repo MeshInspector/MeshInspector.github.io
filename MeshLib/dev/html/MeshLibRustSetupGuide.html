@@ -204,13 +204,13 @@ Using the API</h2>
 <div class="line">    let mesh = meshlib::make_uv_sphere(Some(1.0), Some(64), Some(64)); // Owned&lt;Mesh&gt;, freed on drop.</div>
 <div class="line">    println!(&quot;{} faces&quot;, mesh.topology().get_valid_faces().count());</div>
 <div class="line">    // Returns the C++ `expected&lt;void, std::string&gt;`, `into_result()` makes it `Result&lt;(), String&gt;`.</div>
-<div class="line">    meshlib::mesh_save::to_any_supported_format_3(&amp;mesh, &quot;sphere.stl&quot;, None).into_result()?;</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, &quot;sphere.stl&quot;, None).into_result()?;</div>
 <div class="line">    Ok(())</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>A few rules of thumb:</p>
 <ul>
 <li>Parameters with default arguments take <span class="tt">Option</span>, pass <span class="tt">None</span> for the default.</li>
-<li>Overloaded C++ functions keep the disambiguated names of the C API, e.g. <span class="tt">boolean_6</span>; hover the function in your editor, its doc comment names the C function and the C++ original.</li>
+<li>Overloaded C++ functions keep the disambiguated names of the C API, e.g. <span class="tt">boolean_with_xf</span>; hover the function in your editor, its doc comment names the C function and the C++ original.</li>
 <li>Functions returning C++ <span class="tt">expected&lt;T, std::string&gt;</span> give an opaque <span class="tt">expected_...</span> object: <span class="tt">into_result()</span> converts it to <span class="tt">Result&lt;Owned&lt;T&gt;, String&gt;</span> (so <span class="tt">?</span> works), <span class="tt">as_result()</span> to <span class="tt">Result&lt;&amp;T, &amp;std_string&gt;</span> without moving. Likewise <span class="tt">into_option()</span> converts a returned <span class="tt">std::optional&lt;T&gt;</span> to <span class="tt">Option&lt;Owned&lt;T&gt;&gt;</span>.</li>
 <li>Callbacks (<span class="tt">std::function</span> parameters) are built from closures: <span class="tt">meshlib::std_function_bool_from_float::from_fn(|progress| true)</span>.</li>
 <li>Downcasts and upcasts between a class and its bases are explicit: <span class="tt">object_mesh.upcast_to_object()</span>, <span class="tt">meshlib::ObjectMesh::dynamic_downcast_from_object(&amp;object)</span>.</li>

@@ -6,70 +6,24 @@
     <innerclass refid="structMR_1_1MeshRelaxParams" prot="public">MR::MeshRelaxParams</innerclass>
     <innerclass refid="structMR_1_1MeshEqualizeTriAreasParams" prot="public">MR::MeshEqualizeTriAreasParams</innerclass>
     <innerclass refid="structMR_1_1MeshApproxRelaxParams" prot="public">MR::MeshApproxRelaxParams</innerclass>
+    <sectiondef kind="user-defined">
+      <memberdef kind="variable" id="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" prot="public" static="no" mutable="no">
+        <type>const Mesh BooleanOperation const AffineXf3f BooleanResultMapper ProgressCallback</type>
+        <definition>VertCoords const MeshRelaxParams const ProgressCallback &amp; MR::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::cb</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshBoolean.h" line="63" column="106" bodyfile="MRMesh/MRMeshBoolean.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshRelaxGroup_1gae33b27e64fe5ab346333589e6564abee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::relax</definition>
-        <argsstring>(Mesh &amp;mesh, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
-        <name>relax</name>
-        <qualifiedname>MR::relax</qualifiedname>
-        <param>
-          <type>Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
-        <param>
-          <type>const MeshRelaxParams &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const ProgressCallback &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>applies given number of relaxation iterations to the whole mesh ( or some region if it is specified ) <simplesect kind="return"><para>true if was finished successfully, false if was interrupted by progress callback </para>
-</simplesect>
-</para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshRelax.h" line="24" column="7" declfile="MRMesh/MRMeshRelax.h" declline="24" declcolumn="7"/>
-      </memberdef>
-      <memberdef kind="function" id="group__MeshRelaxGroup_1ga3dbd5ee9aa51d0fb51e6d8cbc8bb5b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition>bool MR::relax</definition>
-        <argsstring>(const MeshTopology &amp;topology, VertCoords &amp;points, const MeshRelaxParams &amp;params={}, const ProgressCallback &amp;cb={})</argsstring>
-        <name>relax</name>
-        <qualifiedname>MR::relax</qualifiedname>
-        <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>VertCoords &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type>const MeshRelaxParams &amp;</type>
-          <declname>params</declname>
-          <defval>{}</defval>
-        </param>
-        <param>
-          <type>const ProgressCallback &amp;</type>
-          <declname>cb</declname>
-          <defval>{}</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshRelax.h" line="25" column="7" declfile="MRMesh/MRMeshRelax.h" declline="25" declcolumn="7"/>
-      </memberdef>
       <memberdef kind="function" id="group__MeshRelaxGroup_1ga11a3c4423d57bdec0536c0916269613c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3f</type>
         <definition>Vector3f MR::vertexPosEqualNeiAreas</definition>

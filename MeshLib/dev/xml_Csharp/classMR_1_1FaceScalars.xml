@@ -600,6 +600,24 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19772" column="55"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1FaceScalars_1a763aeeb753f24b35738c299dea28ae96" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.FaceScalars._Underlying *</type>
+        <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_FaceScalars_Construct</name>
+        <qualifiedname>MR.FaceScalars.__MR_FaceScalars_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19775" column="55"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceScalars_1a244043e014765e69a19a497c903c7c09" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceScalars._Underlying *</type>
         <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_ConstructFromAnother</definition>
@@ -620,35 +638,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19775" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19778" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceScalars_1aa1ac34eda527a428aafc13bb9e4f8843" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceScalars_1a80663f219ff7126fb24e700d6a15e54a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceScalars._Underlying *</type>
-        <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_FaceScalars_Construct_1_size_t</name>
-        <qualifiedname>MR.FaceScalars.__MR_FaceScalars_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_Construct_fill</definition>
+        <argsstring>(nuint size, float *val)</argsstring>
+        <name>__MR_FaceScalars_Construct_fill</name>
+        <qualifiedname>MR.FaceScalars.__MR_FaceScalars_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19778" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceScalars_1abb6dda2f30ea3c9061dbad8d3e649436" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.FaceScalars._Underlying *</type>
-        <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_Construct_1_std_vector_float</definition>
-        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
-        <name>__MR_FaceScalars_Construct_1_std_vector_float</name>
-        <qualifiedname>MR.FaceScalars.__MR_FaceScalars_Construct_1_std_vector_float</qualifiedname>
         <param>
-          <type>MR.Std.Vector_Float._Underlying *</type>
-          <declname>vec</declname>
+          <type>float *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -658,19 +662,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="19781" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceScalars_1ac22f22ee535486d81bb1bf3075caac48" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceScalars_1a1503c8c5d1412f959b22b2d090bc2d12" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceScalars._Underlying *</type>
-        <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_Construct_2</definition>
-        <argsstring>(nuint size, float *val)</argsstring>
-        <name>__MR_FaceScalars_Construct_2</name>
-        <qualifiedname>MR.FaceScalars.__MR_FaceScalars_Construct_2</qualifiedname>
+        <definition>static unsafe MR.FaceScalars._Underlying * MR.FaceScalars.__MR_FaceScalars_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
+        <name>__MR_FaceScalars_Construct_stdVector</name>
+        <qualifiedname>MR.FaceScalars.__MR_FaceScalars_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>float *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_Float._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -1186,9 +1186,9 @@
       <member refid="classMR_1_1FaceScalars_1a3f511b8cbd2a454a1b761926b1e5767f" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_autoResizeSet_3</name></member>
       <member refid="classMR_1_1FaceScalars_1a4e3521f9f1437d28d4bc12801af59c34" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_back_mut</name></member>
       <member refid="classMR_1_1FaceScalars_1ac2a541c992466fb892dc017db6dbeea2" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_clear</name></member>
-      <member refid="classMR_1_1FaceScalars_1aa1ac34eda527a428aafc13bb9e4f8843" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1FaceScalars_1abb6dda2f30ea3c9061dbad8d3e649436" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_Construct_1_std_vector_float</name></member>
-      <member refid="classMR_1_1FaceScalars_1ac22f22ee535486d81bb1bf3075caac48" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_Construct_2</name></member>
+      <member refid="classMR_1_1FaceScalars_1a763aeeb753f24b35738c299dea28ae96" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_Construct</name></member>
+      <member refid="classMR_1_1FaceScalars_1a80663f219ff7126fb24e700d6a15e54a" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_Construct_fill</name></member>
+      <member refid="classMR_1_1FaceScalars_1a1503c8c5d1412f959b22b2d090bc2d12" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_Construct_stdVector</name></member>
       <member refid="classMR_1_1FaceScalars_1a244043e014765e69a19a497c903c7c09" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_ConstructFromAnother</name></member>
       <member refid="classMR_1_1FaceScalars_1a2116455bbc3f3d72774c8b2ac7a235b7" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_data_mut</name></member>
       <member refid="classMR_1_1FaceScalars_1ae151b6058f8943c8fb25815e3435662e" prot="private" virt="non-virtual"><scope>MR::FaceScalars</scope><name>__MR_FaceScalars_DefaultConstruct</name></member>

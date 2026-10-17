@@ -24,7 +24,8 @@ var MRMeshFillHole_8h =
     [ "MR::makeInterHoleBridgeEdges", "group__FillHoleGroup.html#gaa7b4656b5eb409139fbb67985106e06b", null ],
     [ "MR::makeQuadBridge", "group__FillHoleGroup.html#ga4ca9c35a40fd933fbfd31883e3a1c76a", null ],
     [ "MR::makeSmoothBridge", "group__FillHoleGroup.html#gaeb585e92175777d0104f7cb7bad9215f", null ],
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#ga39152eebf658678f4b4dcf694eaa7e6e", null ],
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__FillHoleGroup.html#gaa9b4fc2c3c8176dafe70ab92f9a03dc8", null ],
     [ "MR::splitQuad", "group__FillHoleGroup.html#ga71fca5b809e46f918e1bc23c90c3201e", null ],
-    [ "MR::stitchHoles", "group__FillHoleGroup.html#ga1d5c1c9ce33580b95bdf4834f022ed3e", null ],
-    [ "MR::stitchHoles", "group__FillHoleGroup.html#ga1411d5a294195af4ea96f30d4e47a108", null ]
+    [ "MR::a", "group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e", null ]
 ];

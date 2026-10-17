@@ -227,7 +227,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">char</span>* outputPath = argc &gt; 2 ? argv[2] : <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( inputPath, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( inputPath, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
@@ -239,7 +239,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh.</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, outputPath, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, outputPath, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -296,7 +296,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    let output_path = args.get(2).map_or(&quot;mesh.ply&quot;, String::as_str);</div>
 <div class="line"> </div>
 <div class="line">    // Load mesh. `into_result()` turns the returned `expected` into a Rust `Result`.</div>
-<div class="line">    let mesh = meshlib::mesh_load::from_any_supported_format_2(input_path, None).into_result().map_err(|error|</div>
+<div class="line">    let mesh = meshlib::mesh_load::from_any_supported_format(input_path, None).into_result().map_err(|error|</div>
 <div class="line">    {</div>
 <div class="line">        if args.len() &lt;= 1</div>
 <div class="line">        {</div>
@@ -306,7 +306,7 @@ MR::MeshSave</dd></dl>
 <div class="line">    })?;</div>
 <div class="line"> </div>
 <div class="line">    // Save mesh.</div>
-<div class="line">    meshlib::mesh_save::to_any_supported_format_3(&amp;mesh, output_path, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
+<div class="line">    meshlib::mesh_save::to_any_supported_format(&amp;mesh, output_path, None).into_result().map_err(|error| format!(&quot;Failed to save mesh: {error}&quot;))?;</div>
 <div class="line"> </div>
 <div class="line">    Ok(())</div>
 <div class="line">}</div>

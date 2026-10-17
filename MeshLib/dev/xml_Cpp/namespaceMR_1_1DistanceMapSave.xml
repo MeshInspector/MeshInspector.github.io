@@ -4,7 +4,7 @@
     <compoundname>MR::DistanceMapSave</compoundname>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceMR_1_1DistanceMapSave_1aac7825149eb9a0b19702af74fa42f45e" prot="public" static="no">
-        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;distanceMap, const std::filesystem::path &amp;path, const <ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref> &amp;settings)</type>
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &amp;distanceMap, const std::filesystem::path &amp;path, const <ref refid="structMR_1_1DistanceMapSaveSettings" kindref="compound">DistanceMapSaveSettings</ref> &amp;<ref refid="group__GeneralGroup_1ga351ee7aaab2fab7deb7b0aed319437f4" kindref="member">settings</ref>)</type>
         <definition>using MR::DistanceMapSave::DistanceMapSaver =  Expected&lt;void&gt;( * )( const DistanceMap&amp; distanceMap, const std::filesystem::path&amp; path, const DistanceMapSaveSettings&amp; settings )</definition>
         <argsstring></argsstring>
         <name>DistanceMapSaver</name>

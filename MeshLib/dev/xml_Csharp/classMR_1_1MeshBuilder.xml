@@ -627,12 +627,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="822" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1a6e72cf51dcc103493983f4efdbba4743" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1aca6b49ecb5328f0f1738b5a626773a39" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int</type>
-        <definition>static unsafe int MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices_2</definition>
+        <definition>static unsafe int MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices</definition>
         <argsstring>(MR.Mesh._Underlying *mesh, MR.MeshBuilder.Const_UniteCloseParams._Underlying *params_)</argsstring>
-        <name>__MR_MeshBuilder_uniteCloseVertices_2</name>
-        <qualifiedname>MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices_2</qualifiedname>
+        <name>__MR_MeshBuilder_uniteCloseVertices</name>
+        <qualifiedname>MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices</qualifiedname>
         <param>
           <type>MR.Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -649,12 +649,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilder.cs" line="825" column="34"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshBuilder_1a77158fb6ca15c131360386edd30e543a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1aea5ccf08a89f1f5845ec2339f9440766" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int</type>
-        <definition>static unsafe int MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices_4</definition>
+        <definition>static unsafe int MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices_dist</definition>
         <argsstring>(MR.Mesh._Underlying *mesh, float closeDist, byte *uniteOnlyBd, MR.VertMap._Underlying *optionalVertOldToNew)</argsstring>
-        <name>__MR_MeshBuilder_uniteCloseVertices_4</name>
-        <qualifiedname>MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices_4</qualifiedname>
+        <name>__MR_MeshBuilder_uniteCloseVertices_dist</name>
+        <qualifiedname>MR.MeshBuilder.__MR_MeshBuilder_uniteCloseVertices_dist</qualifiedname>
         <param>
           <type>MR.Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -756,8 +756,8 @@
       <member refid="classMR_1_1MeshBuilder_1ae22fe380c553091525e33397cb9fe4a8" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_fromTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a5246bc59d4ef47c0a7030c85be25daed" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_fromTrianglesDuplicatingNonManifoldVertices</name></member>
       <member refid="classMR_1_1MeshBuilder_1a2083803ec9649c67df10df85cb032dba" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_inspectVertNeighbourhood</name></member>
-      <member refid="classMR_1_1MeshBuilder_1a6e72cf51dcc103493983f4efdbba4743" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_uniteCloseVertices_2</name></member>
-      <member refid="classMR_1_1MeshBuilder_1a77158fb6ca15c131360386edd30e543a" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_uniteCloseVertices_4</name></member>
+      <member refid="classMR_1_1MeshBuilder_1aca6b49ecb5328f0f1738b5a626773a39" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_uniteCloseVertices</name></member>
+      <member refid="classMR_1_1MeshBuilder_1aea5ccf08a89f1f5845ec2339f9440766" prot="private" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>__MR_MeshBuilder_uniteCloseVertices_dist</name></member>
       <member refid="classMR_1_1MeshBuilder_1aaa70f53f87dcec921d5b389ca968ee83" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a8f56c81fc69887e45243cc752e0707e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>addTriangles</name></member>
       <member refid="classMR_1_1MeshBuilder_1a667f81572077e63009eff3b94e4d63e2" prot="public" virt="non-virtual"><scope>MR::MeshBuilder</scope><name>computeTrianglesRepetitions</name></member>

@@ -21,39 +21,31 @@
         <location file="MRMesh/MRMeshNormals.h" line="40" column="1" bodyfile="MRMesh/MRMeshNormals.h" bodystart="40" bodyend="-1"/>
       </memberdef>
     </sectiondef>
-    <sectiondef kind="func">
-      <memberdef kind="function" id="group__MeshNormalsGroup_1ga825d07f824fb53d09c6b1bef59a494fa" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>FaceNormals</type>
-        <definition>FaceNormals MR::computePerFaceNormals</definition>
-        <argsstring>(const Mesh &amp;mesh)</argsstring>
-        <name>computePerFaceNormals</name>
-        <qualifiedname>MR::computePerFaceNormals</qualifiedname>
-        <param>
-          <type>const Mesh &amp;</type>
-          <declname>mesh</declname>
-        </param>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" prot="public" static="no" mutable="no">
+        <type>const VertCoords &amp;</type>
+        <definition>VertCoords&amp; MR::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR::points</qualifiedname>
         <briefdescription>
-<para>returns a vector with face-normal in every element for valid mesh faces </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshNormals.h" line="23" column="15" declfile="MRMesh/MRMeshNormals.h" declline="23" declcolumn="15"/>
+        <location file="MRMesh/MRMeshNormals.h" line="24" column="55" bodyfile="MRMesh/MRMeshNormals.h" bodystart="24" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshNormalsGroup_1ga22889800cd6e0b2ebbc550783da6eff7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>FaceNormals</type>
-        <definition>FaceNormals MR::computePerFaceNormals</definition>
-        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points)</argsstring>
-        <name>computePerFaceNormals</name>
-        <qualifiedname>MR::computePerFaceNormals</qualifiedname>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshNormalsGroup_1ga07aac16e40bfab860a310d0c96627135" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(topology) 1 FaceNormals computePerFaceNormals(const MeshTopology &amp;topology</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const MeshTopology &amp;</type>
-          <declname>topology</declname>
-        </param>
-        <param>
-          <type>const VertCoords &amp;</type>
-          <declname>points</declname>
+          <type>topology</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -61,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshNormals.h" line="24" column="15" declfile="MRMesh/MRMeshNormals.h" declline="24" declcolumn="15"/>
+        <location file="MRMesh/MRMeshNormals.h" line="24" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshNormalsGroup_1gaa5b7b1b62db0c38010925f94be955036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

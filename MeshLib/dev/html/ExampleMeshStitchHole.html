@@ -210,7 +210,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    <span class="comment">// Load meshes:</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// First mesh, which will be moved.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
@@ -219,7 +219,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Second mesh, static.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* mesh2Ex = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* mesh2Ex = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh2 = MR_expected_MR_Mesh_std_string_value_mut( mesh2Ex );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh2 )</div>
 <div class="line">    {</div>
@@ -228,7 +228,7 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Unite meshes</span></div>
-<div class="line">    MR_Mesh_addMesh_3( mesh, mesh2, NULL, NULL );</div>
+<div class="line">    MR_Mesh_addMesh( mesh, mesh2, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
 <div class="line">    MR_std_vector_MR_EdgeId* edges = MR_MeshTopology_findHoleRepresentiveEdges( MR_Mesh_Get_topology( mesh ), NULL );</div>
@@ -245,13 +245,13 @@ $(function(){initNavTree('ExampleMeshStitchHole.html','',''); });
 <div class="line">    MR_StitchHolesParams_Set_metric( params, MR_PassBy_Move, metric );</div>
 <div class="line">    MR_FillHoleMetric_Destroy( metric );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// We also have a version of this function (`MR_stitchHoles_2()`) that finds the two holes automatically.</span></div>
+<div class="line">    <span class="comment">// We also have a version of this function (`MR_stitchHoles_auto()`) that finds the two holes automatically.</span></div>
 <div class="line">    <span class="comment">// Here we&#39;ve found them manually for demonstration purposes.</span></div>
-<div class="line">    MR_stitchHoles_4( mesh, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
+<div class="line">    MR_stitchHoles( mesh, *MR_std_vector_MR_EdgeId_at( edges, 0 ), *MR_std_vector_MR_EdgeId_at( edges, 1 ), params );</div>
 <div class="line">    MR_StitchHolesParams_Destroy( params );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;stitchedMesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

@@ -2980,12 +2980,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1404" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1ad54a6494f11c6a9a7b5ffcb2978f98c9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1a5168fba0dd2a20913d1cef30afd56c2e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRVertId_3</type>
-        <definition>static unsafe MR.Std.Array_MRVertId_3 MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_1</definition>
+        <definition>static unsafe MR.Std.Array_MRVertId_3 MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId a)</argsstring>
-        <name>__MR_MeshTopology_getLeftTriVerts_1</name>
-        <qualifiedname>MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_1</qualifiedname>
+        <name>__MR_MeshTopology_getLeftTriVerts</name>
+        <qualifiedname>MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -3002,12 +3002,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1407" column="52"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1a807c4fad384b51f06641d0bb68f3f1b5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1a312e1713e0bdd9089d519b3b5716d5a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_2</definition>
+        <definition>static unsafe void MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_outArray</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId a, MR.Std.Array_MRVertId_3 *v)</argsstring>
-        <name>__MR_MeshTopology_getLeftTriVerts_2</name>
-        <qualifiedname>MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_2</qualifiedname>
+        <name>__MR_MeshTopology_getLeftTriVerts_outArray</name>
+        <qualifiedname>MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_outArray</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -3028,12 +3028,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1410" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1a571141158ff52db39c293ae1c07e50cd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1abda4106d4703ad6045f4ee79cca2ed37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_4</definition>
+        <definition>static unsafe void MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_outVerts</definition>
         <argsstring>(_Underlying *_this, MR.EdgeId a, MR.VertId *v0, MR.VertId *v1, MR.VertId *v2)</argsstring>
-        <name>__MR_MeshTopology_getLeftTriVerts_4</name>
-        <qualifiedname>MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_4</qualifiedname>
+        <name>__MR_MeshTopology_getLeftTriVerts_outVerts</name>
+        <qualifiedname>MR.Const_MeshTopology.__MR_MeshTopology_getLeftTriVerts_outVerts</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -4484,9 +4484,9 @@
       <member refid="classMR_1_1Const__MeshTopology_1ac44f8d6970c158aea68f77cfaf165519" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftRing</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1ad14c529921524e752d0bb130ecd21b1b" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftRings</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1ac1145c2d5ee1eff19a725c6c748291b7" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriEdges</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1ad54a6494f11c6a9a7b5ffcb2978f98c9" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriVerts_1</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a807c4fad384b51f06641d0bb68f3f1b5" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriVerts_2</name></member>
-      <member refid="classMR_1_1Const__MeshTopology_1a571141158ff52db39c293ae1c07e50cd" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriVerts_4</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a5168fba0dd2a20913d1cef30afd56c2e" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriVerts</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1a312e1713e0bdd9089d519b3b5716d5a8" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriVerts_outArray</name></member>
+      <member refid="classMR_1_1Const__MeshTopology_1abda4106d4703ad6045f4ee79cca2ed37" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getLeftTriVerts_outVerts</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a2c01a7defac96dd8a7126e3e1bc461bf" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getOrgDegree</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a795a5a15543242e10cb9a5122e0b90bd" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getPathLeftFaces</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1af8f9a9a408e15f94e75caf2cfe627256" prot="private" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>__MR_MeshTopology_getPathRightFaces</name></member>

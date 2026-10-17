@@ -1149,12 +1149,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="438" column="67"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1ad72a45ae5ed9b64dd05562e6fdec8e99" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshSave_1a092d6f82feb804ef483a2eaed792fb99" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toAnySupportedFormat_3</definition>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toAnySupportedFormat</definition>
         <argsstring>(MR.Const_Mesh._Underlying *mesh, byte *file, byte *file_end, MR.Const_SaveSettings._Underlying *settings)</argsstring>
-        <name>__MR_MeshSave_toAnySupportedFormat_3</name>
-        <qualifiedname>MR.MeshSave.__MR_MeshSave_toAnySupportedFormat_3</qualifiedname>
+        <name>__MR_MeshSave_toAnySupportedFormat</name>
+        <qualifiedname>MR.MeshSave.__MR_MeshSave_toAnySupportedFormat</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -1179,12 +1179,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="441" column="67"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1a6d129f95918d47a0cc09b5611c622c4a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MeshSave_1ac195db2ccacbb59ab1b068c350cba76e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_Void_StdString._Underlying *</type>
-        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toAnySupportedFormat_4</definition>
+        <definition>static unsafe MR.Expected_Void_StdString._Underlying * MR.MeshSave.__MR_MeshSave_toAnySupportedFormat_stream</definition>
         <argsstring>(MR.Const_Mesh._Underlying *mesh, byte *extension, byte *extension_end, MR.Std.Ostream._Underlying *out_, MR.Const_SaveSettings._Underlying *settings)</argsstring>
-        <name>__MR_MeshSave_toAnySupportedFormat_4</name>
-        <qualifiedname>MR.MeshSave.__MR_MeshSave_toAnySupportedFormat_4</qualifiedname>
+        <name>__MR_MeshSave_toAnySupportedFormat_stream</name>
+        <qualifiedname>MR.MeshSave.__MR_MeshSave_toAnySupportedFormat_stream</qualifiedname>
         <param>
           <type>MR.Const_Mesh._Underlying *</type>
           <declname>mesh</declname>
@@ -1791,8 +1791,8 @@
       <member refid="classMR_1_1MeshSave_1ab426cd92a3459e70c1ce78f20e4447ce" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_sceneToObj_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshSave_1a5a8c04f7c8d4e369588630feaf1e5c16" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_sceneToObj_std_ostream</name></member>
       <member refid="classMR_1_1MeshSave_1ab1cfc6d5b3068363532480e8dc6d8ce8" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_to3mf</name></member>
-      <member refid="classMR_1_1MeshSave_1ad72a45ae5ed9b64dd05562e6fdec8e99" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toAnySupportedFormat_3</name></member>
-      <member refid="classMR_1_1MeshSave_1a6d129f95918d47a0cc09b5611c622c4a" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toAnySupportedFormat_4</name></member>
+      <member refid="classMR_1_1MeshSave_1a092d6f82feb804ef483a2eaed792fb99" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1MeshSave_1ac195db2ccacbb59ab1b068c350cba76e" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toAnySupportedFormat_stream</name></member>
       <member refid="classMR_1_1MeshSave_1ae1a77ae153187987d6b37130fb708614" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toAsciiStl_std_filesystem_path</name></member>
       <member refid="classMR_1_1MeshSave_1a99db148c499c31e125286e408030c0ab" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toAsciiStl_std_ostream</name></member>
       <member refid="classMR_1_1MeshSave_1ac14f1ce389f33b515f73637f34368ade" prot="private" virt="non-virtual"><scope>MR::MeshSave</scope><name>__MR_MeshSave_toBinaryStl_std_filesystem_path</name></member>

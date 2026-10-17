@@ -1,12 +1,12 @@
 var MRPointCloud_8h =
 [
     [ "MR_PointCloud_addPartByMask", "MRPointCloud_8h.html#a7a6143b976dfb20ea4f602d9dfc7f4dd", null ],
-    [ "MR_PointCloud_addPoint_1", "MRPointCloud_8h.html#a1dd09bab96da8ce4bd71dc1b63b74ee7", null ],
-    [ "MR_PointCloud_addPoint_2", "MRPointCloud_8h.html#adb800679b6191b66d8441e0eeaa1be37", null ],
+    [ "MR_PointCloud_addPoint", "MRPointCloud_8h.html#ad6aaab129e863599811d754ea99d05fb", null ],
+    [ "MR_PointCloud_addPoint_normal", "MRPointCloud_8h.html#a01d1075359d6334efff9b61c64c3fc41", null ],
     [ "MR_PointCloud_AssignFromAnother", "MRPointCloud_8h.html#a74d28bea871c104f8ee1916079f629d6", null ],
     [ "MR_PointCloud_calcNumValidPoints", "MRPointCloud_8h.html#ada5ba4120bee44b28495f030b7090237", null ],
-    [ "MR_PointCloud_computeBoundingBox_1", "MRPointCloud_8h.html#a06cd202fbe59c6268bdc6de59001b676", null ],
-    [ "MR_PointCloud_computeBoundingBox_2", "MRPointCloud_8h.html#a4400a5f601b6fc74028cb07dfe837c12", null ],
+    [ "MR_PointCloud_computeBoundingBox", "MRPointCloud_8h.html#ae2c6807a2be1710955990cf210cb9b93", null ],
+    [ "MR_PointCloud_computeBoundingBox_region", "MRPointCloud_8h.html#a79ad07fb96ee0540c386b36ea923ba16", null ],
     [ "MR_PointCloud_ConstructFromAnother", "MRPointCloud_8h.html#a73fe5632c6f7ddcdfb097ef587a9ffe7", null ],
     [ "MR_PointCloud_DefaultConstruct", "MRPointCloud_8h.html#a2d04585a52a8fe0a2d41ec2b1ed09237", null ],
     [ "MR_PointCloud_DefaultConstructArray", "MRPointCloud_8h.html#ab42b368ac1743fac9fd01e5073d7304e", null ],

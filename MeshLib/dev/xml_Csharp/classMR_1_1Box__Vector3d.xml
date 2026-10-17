@@ -336,30 +336,12 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Box__Vector3d_1afaa24b08c26bf49550a678da8ceb3b9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
-        <definition>static unsafe MR.Vector3d MR.Box_Vector3d.__MR_Vector3d_Construct_1</definition>
-        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
-        <name>__MR_Vector3d_Construct_1</name>
-        <qualifiedname>MR.Box_Vector3d.__MR_Vector3d_Construct_1</qualifiedname>
-        <param>
-          <type>MR.NoInit._Underlying *</type>
-          <declname>_1</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="5127" column="41"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Box__Vector3d_1a4e5320668bbd8d48ea6166127f4a23d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Box__Vector3d_1a6ca448b646ef88cbbaf65c9d471871c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
-        <definition>static MR.Vector3d MR.Box_Vector3d.__MR_Vector3d_Construct_3</definition>
+        <definition>static MR.Vector3d MR.Box_Vector3d.__MR_Vector3d_Construct</definition>
         <argsstring>(double x, double y, double z)</argsstring>
-        <name>__MR_Vector3d_Construct_3</name>
-        <qualifiedname>MR.Box_Vector3d.__MR_Vector3d_Construct_3</qualifiedname>
+        <name>__MR_Vector3d_Construct</name>
+        <qualifiedname>MR.Box_Vector3d.__MR_Vector3d_Construct</qualifiedname>
         <param>
           <type>double</type>
           <declname>x</declname>
@@ -378,7 +360,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="5130" column="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="5127" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector3d_1a08e5be600c2cfbc090f2c3a9a85d36f5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>static unsafe MR.Vector3d MR.Box_Vector3d.__MR_Vector3d_Construct_MR_NoInit</definition>
+        <argsstring>(MR.NoInit._Underlying *_1)</argsstring>
+        <name>__MR_Vector3d_Construct_MR_NoInit</name>
+        <qualifiedname>MR.Box_Vector3d.__MR_Vector3d_Construct_MR_NoInit</qualifiedname>
+        <param>
+          <type>MR.NoInit._Underlying *</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector3.cs" line="5130" column="41"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Box__Vector3d_1acf6ed79a97ac93903a87c1dfff3f9cf3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -624,10 +624,10 @@
       <member refid="classMR_1_1Box__Vector3d_1aca442bd0ee107f900f3025930c269387" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_div_assign_MR_Vector3d_double</name></member>
       <member refid="classMR_1_1Box__Vector3d_1a970fd92e6c2baf33d5b8386b257609b6" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_mul_assign_MR_Vector3d_double</name></member>
       <member refid="classMR_1_1Box__Vector3d_1a041a0bc16b48b9f7206cd61af49dee0a" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_sub_assign_MR_Vector3d</name></member>
-      <member refid="classMR_1_1Box__Vector3d_1afaa24b08c26bf49550a678da8ceb3b9d" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_Construct_1</name></member>
-      <member refid="classMR_1_1Box__Vector3d_1a4e5320668bbd8d48ea6166127f4a23d6" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_Construct_3</name></member>
+      <member refid="classMR_1_1Box__Vector3d_1a6ca448b646ef88cbbaf65c9d471871c6" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_Construct</name></member>
       <member refid="classMR_1_1Box__Vector3d_1acf6ed79a97ac93903a87c1dfff3f9cf3" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_Construct_float</name></member>
       <member refid="classMR_1_1Box__Vector3d_1a4ddad4213d790737bf367a76f9133209" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_Construct_int</name></member>
+      <member refid="classMR_1_1Box__Vector3d_1a08e5be600c2cfbc090f2c3a9a85d36f5" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_Construct_MR_NoInit</name></member>
       <member refid="classMR_1_1Box__Vector3d_1a129115a88e8583468706c9e86e0707d2" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_DefaultConstruct</name></member>
       <member refid="classMR_1_1Box__Vector3d_1a5e064191912758487320f78f3849508f" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_index_mut</name></member>
       <member refid="classMR_1_1Box__Vector3d_1ae88b0a309114df74c7b23539698a97df" prot="private" virt="non-virtual"><scope>MR::Box_Vector3d</scope><name>__MR_Vector3d_unsignZeroValues</name></member>

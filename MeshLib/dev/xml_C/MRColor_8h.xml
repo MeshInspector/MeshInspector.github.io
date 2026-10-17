@@ -229,11 +229,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" line="31" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" declline="31" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRColor_8h_1a221552db50796450f4e0e01ab89604fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRColor_8h_1ae7a61b92eff9719efc0541fd661a15bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
-        <definition>MRC_API MR_Color MR_Color_Construct_1</definition>
+        <definition>MRC_API MR_Color MR_Color_Construct_MR_NoInit</definition>
         <argsstring>(const MR_NoInit *_1)</argsstring>
-        <name>MR_Color_Construct_1</name>
+        <name>MR_Color_Construct_MR_NoInit</name>
         <param>
           <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
@@ -247,11 +247,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" line="36" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" declline="36" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRColor_8h_1a5432fdbb587a4e77d6ba943ae42bfd7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRColor_8h_1ae62351a56e605ab321be07a6fb3f82d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
-        <definition>MRC_API MR_Color MR_Color_Construct_4_int</definition>
+        <definition>MRC_API MR_Color MR_Color_Construct</definition>
         <argsstring>(int r, int g, int b, int a)</argsstring>
-        <name>MR_Color_Construct_4_int</name>
+        <name>MR_Color_Construct</name>
         <param>
           <type>int</type>
           <declname>r</declname>
@@ -277,11 +277,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" line="39" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" declline="39" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRColor_8h_1a929719e96be607bb3581249e983a7dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRColor_8h_1ab5ac35c506a0e870e938262ae30d1f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
-        <definition>MRC_API MR_Color MR_Color_Construct_3_int</definition>
+        <definition>MRC_API MR_Color MR_Color_Construct_rgb</definition>
         <argsstring>(int r, int g, int b)</argsstring>
-        <name>MR_Color_Construct_3_int</name>
+        <name>MR_Color_Construct_rgb</name>
         <param>
           <type>int</type>
           <declname>r</declname>
@@ -303,11 +303,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" line="42" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" declline="42" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRColor_8h_1a43bd95305a889d743298c6bbc201889e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRColor_8h_1a07266a62f25321dd91cc0091a979965d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
-        <definition>MRC_API MR_Color MR_Color_Construct_4_float</definition>
+        <definition>MRC_API MR_Color MR_Color_Construct_float</definition>
         <argsstring>(float r, float g, float b, float a)</argsstring>
-        <name>MR_Color_Construct_4_float</name>
+        <name>MR_Color_Construct_float</name>
         <param>
           <type>float</type>
           <declname>r</declname>
@@ -333,11 +333,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" line="45" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" declline="45" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRColor_8h_1add30f2c9ba9b4041b731fc091c5e8e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRColor_8h_1a04181e159e4124f9aacb30ab6318bba1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
-        <definition>MRC_API MR_Color MR_Color_Construct_3_float</definition>
+        <definition>MRC_API MR_Color MR_Color_Construct_rgbFloat</definition>
         <argsstring>(float r, float g, float b)</argsstring>
-        <name>MR_Color_Construct_3_float</name>
+        <name>MR_Color_Construct_rgbFloat</name>
         <param>
           <type>float</type>
           <declname>r</declname>
@@ -377,11 +377,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" line="53" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRColor.h" declline="53" declcolumn="18"/>
       </memberdef>
-      <memberdef kind="function" id="MRColor_8h_1af8abb3d4210ef9f96be532110a25db89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRColor_8h_1ac715770c6b459093707f270a59eaff77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
-        <definition>MRC_API MR_Color MR_Color_Construct_float</definition>
+        <definition>MRC_API MR_Color MR_Color_Construct_float_MR_Vector4f</definition>
         <argsstring>(const MR_Vector4f *vec)</argsstring>
-        <name>MR_Color_Construct_float</name>
+        <name>MR_Color_Construct_float_MR_Vector4f</name>
         <param>
           <type>const <ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref> *</type>
           <declname>vec</declname>
@@ -1020,19 +1020,19 @@
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31" refid="MRColor_8h_1af6cb833bab82da01ea7bc2534cb9ce02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRColor_8h_1af6cb833bab82da01ea7bc2534cb9ce02" kindref="member">MR_Color_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRColor_8h_1a221552db50796450f4e0e01ab89604fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a221552db50796450f4e0e01ab89604fe" kindref="member">MR_Color_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="36" refid="MRColor_8h_1ae7a61b92eff9719efc0541fd661a15bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ae7a61b92eff9719efc0541fd661a15bf" kindref="member">MR_Color_Construct_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRColor_8h_1a5432fdbb587a4e77d6ba943ae42bfd7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a5432fdbb587a4e77d6ba943ae42bfd7a" kindref="member">MR_Color_Construct_4_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="39" refid="MRColor_8h_1ae62351a56e605ab321be07a6fb3f82d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ae62351a56e605ab321be07a6fb3f82d9" kindref="member">MR_Color_Construct</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRColor_8h_1a929719e96be607bb3581249e983a7dc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a929719e96be607bb3581249e983a7dc7" kindref="member">MR_Color_Construct_3_int</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="42" refid="MRColor_8h_1ab5ac35c506a0e870e938262ae30d1f5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ab5ac35c506a0e870e938262ae30d1f5c" kindref="member">MR_Color_Construct_rgb</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRColor_8h_1a43bd95305a889d743298c6bbc201889e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a43bd95305a889d743298c6bbc201889e" kindref="member">MR_Color_Construct_4_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
+<codeline lineno="45" refid="MRColor_8h_1a07266a62f25321dd91cc0091a979965d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a07266a62f25321dd91cc0091a979965d" kindref="member">MR_Color_Construct_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRColor_8h_1add30f2c9ba9b4041b731fc091c5e8e45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1add30f2c9ba9b4041b731fc091c5e8e45" kindref="member">MR_Color_Construct_3_float</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="48" refid="MRColor_8h_1a04181e159e4124f9aacb30ab6318bba1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a04181e159e4124f9aacb30ab6318bba1" kindref="member">MR_Color_Construct_rgbFloat</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>g,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="MRColor_8h_1a6bc40c889ded473b47b2814cd18c5f83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1a6bc40c889ded473b47b2814cd18c5f83" kindref="member">MR_Color_Construct_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref><sp/>*vec);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRColor_8h_1af8abb3d4210ef9f96be532110a25db89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1af8abb3d4210ef9f96be532110a25db89" kindref="member">MR_Color_Construct_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*vec);</highlight></codeline>
+<codeline lineno="58" refid="MRColor_8h_1ac715770c6b459093707f270a59eaff77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRColor_8h_1ac715770c6b459093707f270a59eaff77" kindref="member">MR_Color_Construct_float_MR_Vector4f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector4f" kindref="compound">MR_Vector4f</ref><sp/>*vec);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62" refid="MRColor_8h_1a9ef106230e42377718e5039685152b19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref><sp/><ref refid="MRColor_8h_1a9ef106230e42377718e5039685152b19" kindref="member">MR_Color_ConvertTo_MR_Vector4i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>

@@ -34,6 +34,12 @@
         <location file="MRMesh/MRIOFormatsRegistry.h" line="266" column="1" bodyfile="MRMesh/MRIOFormatsRegistry.h" bodystart="266" bodyend="-1"/>
       </memberdef>
     </sectiondef>
+    <sectiondef kind="var">
+      <member refid="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" kind="variable"><name>file</name></member>
+      <member refid="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" kind="variable"><name>settings</name></member>
+      <member refid="group__PointsSaveGroup_1ga31507bdc39de3cd5dbe1a0038cd6f56d" kind="variable"><name>extension</name></member>
+      <member refid="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" kind="variable"><name>out</name></member>
+    </sectiondef>
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1ga24d5809ee70d11aeeb25a036234a5e2c" kind="function"><name>toCtm</name></member>
       <member refid="group__GeneralGroup_1gae7775f44d52949b8d06ef0d096de8863" kind="function"><name>toCtm</name></member>
@@ -51,8 +57,8 @@
       <member refid="group__PointsSaveGroup_1ga0038543a33756a47ca1091efe038b8b6" kind="function"><name>toAsc</name></member>
       <member refid="group__PointsSaveGroup_1ga0b2da3e6f5f88ee5c6ce8ae396030282" kind="function"><name>toPly</name></member>
       <member refid="group__PointsSaveGroup_1ga93de8bb7c42d48456a16be2813cbd14a" kind="function"><name>toPly</name></member>
-      <member refid="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" kind="function"><name>toAnySupportedFormat</name></member>
-      <member refid="group__PointsSaveGroup_1ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f" kind="function"><name>toAnySupportedFormat</name></member>
+      <member refid="group__PointsSaveGroup_1gaf3db0c1382a48e811765551be79a0a39" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
+      <member refid="group__PointsSaveGroup_1ga143900205dead299f60c684ef6b8817a" kind="function"><name>MR_BIND_OVERLOAD_SUFFIX</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>

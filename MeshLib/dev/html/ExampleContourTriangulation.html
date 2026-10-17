@@ -219,12 +219,12 @@ $(function(){initNavTree('ExampleContourTriangulation.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_conversion; <span class="comment">// error while converting image to distance map</span></div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_Polyline2* pl2 = MR_distanceMapTo2DIsoPolyline_2( dm, 210.0f );</div>
+<div class="line">    MR_Polyline2* pl2 = MR_distanceMapTo2DIsoPolyline( dm, 210.0f );</div>
 <div class="line">    MR_std_vector_std_vector_MR_Vector2f* conts = MR_Polyline2_contours( pl2, NULL );</div>
 <div class="line"> </div>
 <div class="line">    MR_Mesh* triangulationRes = MR_PlanarTriangulation_triangulateContours_std_vector_std_vector_MR_Vector2f( conts, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( triangulationRes, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>, NULL, NULL );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>

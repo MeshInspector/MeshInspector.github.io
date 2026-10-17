@@ -223,7 +223,7 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_value_mut( meshEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
@@ -232,7 +232,7 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Add noise to the mesh</span></div>
-<div class="line">    MR_Box3f box = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
+<div class="line">    MR_Box3f box = MR_Mesh_computeBoundingBox( mesh, NULL );</div>
 <div class="line">    MR_NoiseSettings* noiseSettings = MR_NoiseSettings_DefaultConstruct();</div>
 <div class="line">    MR_NoiseSettings_Set_sigma( noiseSettings, MR_Box3f_diagonal( &amp;box ) * 0.0001f );</div>
 <div class="line">    MR_expected_void_std_string* noiseEx = MR_addNoise_MR_Mesh( mesh, NULL, noiseSettings );</div>
@@ -248,7 +248,7 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the noised mesh</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;noised_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;noised_mesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
@@ -257,10 +257,10 @@ $(function(){initNavTree('ExampleNoiseDenoise.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Denoise the mesh with sharpening for sharp edges</span></div>
 <div class="line">    <span class="comment">// see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</span></div>
-<div class="line">    MR_meshDenoiseViaNormals_2( mesh, NULL );</div>
+<div class="line">    MR_meshDenoiseViaNormals( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the denoised mesh</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx2 = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;denoised_mesh.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_void_std_string* saveEx2 = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;denoised_mesh.stl&quot;</span>, NULL, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx2 ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx2 ) ) );</div>

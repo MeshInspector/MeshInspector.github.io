@@ -3,6 +3,65 @@
   <compounddef id="group__PointsSaveGroup" kind="group">
     <compoundname>PointsSaveGroup</compoundname>
     <title>Points Save</title>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__PointsSaveGroup_1gae05aee316e622fc41d2b3e15a7a8ea06" prot="public" static="no" mutable="no">
+        <type>const std::filesystem::path &amp;</type>
+        <definition>const std::filesystem::path&amp; MR::PointsSave::file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <qualifiedname>MR::PointsSave::file</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsSave.h" line="40" column="64" bodyfile="MRMesh/MRPointsSave.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__PointsSaveGroup_1ga603e011ed40da5c8565c91c0f0a4aead" prot="public" static="no" mutable="no">
+        <type>const std::filesystem::path const SaveSettings &amp;</type>
+        <definition>const std::string std::ostream const SaveSettings &amp; MR::PointsSave::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <qualifiedname>MR::PointsSave::settings</qualifiedname>
+        <initializer>= {} )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsSave.h" line="40" column="88" bodyfile="MRMesh/MRPointsSave.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__PointsSaveGroup_1ga31507bdc39de3cd5dbe1a0038cd6f56d" prot="public" static="no" mutable="no">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; MR::PointsSave::extension</definition>
+        <argsstring></argsstring>
+        <name>extension</name>
+        <qualifiedname>MR::PointsSave::extension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsSave.h" line="42" column="54" bodyfile="MRMesh/MRPointsSave.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__PointsSaveGroup_1gad6ea70247d37a65b7221d7b923407418" prot="public" static="no" mutable="no">
+        <type>const std::string std::ostream &amp;</type>
+        <definition>const std::string std::ostream&amp; MR::PointsSave::out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <qualifiedname>MR::PointsSave::out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPointsSave.h" line="42" column="77" bodyfile="MRMesh/MRPointsSave.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__PointsSaveGroup_1ga9f5215f345f350ec8c26ea8f8b1b123f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; void &gt;</type>
@@ -224,25 +283,12 @@
         </inbodydescription>
         <location file="MRMesh/MRPointsSave.h" line="37" column="11" declfile="MRMesh/MRPointsSave.h" declline="37" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointsSaveGroup_1gab9d40fe2ffff1295614436078dc95bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::PointsSave::toAnySupportedFormat</definition>
-        <argsstring>(const PointCloud &amp;points, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</argsstring>
-        <name>toAnySupportedFormat</name>
-        <qualifiedname>MR::PointsSave::toAnySupportedFormat</qualifiedname>
-        <param>
-          <type>const PointCloud &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type>const std::filesystem::path &amp;</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type>const SaveSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
-        </param>
+      <memberdef kind="function" id="group__PointsSaveGroup_1gaf3db0c1382a48e811765551be79a0a39" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointsSave::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>() 1 Expected&lt; void &gt; toAnySupportedFormat(const PointCloud &amp;points</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::PointsSave::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <briefdescription>
 <para>detects the format from file extension and save points to it </para>
         </briefdescription>
@@ -250,30 +296,16 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsSave.h" line="40" column="11" declfile="MRMesh/MRPointsSave.h" declline="40" declcolumn="11"/>
+        <location file="MRMesh/MRPointsSave.h" line="40" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="group__PointsSaveGroup_1ga2ecb1b4d166fa4b5d7dcbf7f9b26b50f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>Expected&lt; void &gt;</type>
-        <definition>Expected&lt; void &gt; MR::PointsSave::toAnySupportedFormat</definition>
-        <argsstring>(const PointCloud &amp;points, const std::string &amp;extension, std::ostream &amp;out, const SaveSettings &amp;settings={})</argsstring>
-        <name>toAnySupportedFormat</name>
-        <qualifiedname>MR::PointsSave::toAnySupportedFormat</qualifiedname>
+      <memberdef kind="function" id="group__PointsSaveGroup_1ga143900205dead299f60c684ef6b8817a" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>MR::PointsSave::MR_BIND_OVERLOAD_SUFFIX</definition>
+        <argsstring>(stream) 1 Expected&lt; void &gt; toAnySupportedFormat(const PointCloud &amp;points</argsstring>
+        <name>MR_BIND_OVERLOAD_SUFFIX</name>
+        <qualifiedname>MR::PointsSave::MR_BIND_OVERLOAD_SUFFIX</qualifiedname>
         <param>
-          <type>const PointCloud &amp;</type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type>const std::string &amp;</type>
-          <declname>extension</declname>
-        </param>
-        <param>
-          <type>std::ostream &amp;</type>
-          <declname>out</declname>
-        </param>
-        <param>
-          <type>const SaveSettings &amp;</type>
-          <declname>settings</declname>
-          <defval>{}</defval>
+          <type>stream</type>
         </param>
         <briefdescription>
 <para>extension in <computeroutput>*.ext</computeroutput> format </para>
@@ -282,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsSave.h" line="42" column="11" declfile="MRMesh/MRPointsSave.h" declline="42" declcolumn="11"/>
+        <location file="MRMesh/MRPointsSave.h" line="42" column="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

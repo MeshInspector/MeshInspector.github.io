@@ -154,8 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac58b0b5f3bf2f48f46f9fe30e054b7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this point cloud, but does not create it if it did not exist  <br /></td></tr>
 <tr class="memitem:ab8528785525982a60c9bb9ea1ddcc103" id="r_ab8528785525982a60c9bb9ea1ddcc103"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8528785525982a60c9bb9ea1ddcc103">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:ab8528785525982a60c9bb9ea1ddcc103"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimal bounding box containing all valid vertices (implemented via <a class="el" href="#a645a4b6af1de600172fab56912082219" title="returns cached aabb-tree for this point cloud, creating it if it did not exist in a thread-safe manne...">getAABBTree()</a>)  <br /></td></tr>
-<tr class="memitem:a314c3d7c570cf70aed6cf664175740cd" id="r_a314c3d7c570cf70aed6cf664175740cd"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a314c3d7c570cf70aed6cf664175740cd">computeBoundingBox</a> (const AffineXf3f *toWorld=nullptr) const</td></tr>
-<tr class="memitem:a7f4cc661b8564a36aabab04453b0e27f" id="r_a7f4cc661b8564a36aabab04453b0e27f"><td class="memItemLeft" align="right" valign="top">Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f4cc661b8564a36aabab04453b0e27f">computeBoundingBox</a> (const VertBitSet *region, const AffineXf3f *toWorld=nullptr) const</td></tr>
+<tr class="memitem:a65677efaca849285816d9632529b5520" id="r_a65677efaca849285816d9632529b5520"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65677efaca849285816d9632529b5520">MR_BIND_OVERLOAD_SUFFIX</a> () 1 Box3f <a class="el" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>(const AffineXf3f *<a class="el" href="#acf467d3da6aff2b54a601c4921de1f2f">toWorld</a></td></tr>
+<tr class="memitem:a5982bc0f5607f15bb30837797ab27153" id="r_a5982bc0f5607f15bb30837797ab27153"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5982bc0f5607f15bb30837797ab27153">MR_BIND_OVERLOAD_SUFFIX</a> (region) 1 Box3f <a class="el" href="group__MathGroup.html#ga3b002e846a245cb69384c1d444ea65a0">computeBoundingBox</a>(const VertBitSet *region</td></tr>
 <tr class="memitem:a442397a4e191dbf7addbd86427681aaa" id="r_a442397a4e191dbf7addbd86427681aaa"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442397a4e191dbf7addbd86427681aaa">findCenterFromPoints</a> () const</td></tr>
 <tr class="memdesc:a442397a4e191dbf7addbd86427681aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid points  <br /></td></tr>
 <tr class="memitem:a8ac1e905740b138eb0ea9644d11c6ad9" id="r_a8ac1e905740b138eb0ea9644d11c6ad9"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ac1e905740b138eb0ea9644d11c6ad9">findCenterFromBBox</a> () const</td></tr>
@@ -164,10 +164,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab63b94ac2b31f8c2e5b7ee94bcfa2471" id="r_ab63b94ac2b31f8c2e5b7ee94bcfa2471"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab63b94ac2b31f8c2e5b7ee94bcfa2471">getLexicographicalOrder</a> () const</td></tr>
 <tr class="memdesc:ab63b94ac2b31f8c2e5b7ee94bcfa2471"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all valid point ids sorted lexicographically by their coordinates (optimal for uniform sampling)  <br /></td></tr>
 <tr class="memitem:a461af7799e74931eb23168bd86111217" id="r_a461af7799e74931eb23168bd86111217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a461af7799e74931eb23168bd86111217">addPartByMask</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;from, const VertBitSet &amp;fromVerts, const <a class="el" href="structMR_1_1CloudPartMapping.html">CloudPartMapping</a> &amp;outMap={}, const VertNormals *extNormals=nullptr)</td></tr>
-<tr class="memitem:a7e507a7cdba55a1c26aa3a073cf2d315" id="r_a7e507a7cdba55a1c26aa3a073cf2d315"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e507a7cdba55a1c26aa3a073cf2d315">addPoint</a> (const Vector3f &amp;point)</td></tr>
-<tr class="memdesc:a7e507a7cdba55a1c26aa3a073cf2d315"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <br /></td></tr>
-<tr class="memitem:a765101913d8149614746444a3257c1f2" id="r_a765101913d8149614746444a3257c1f2"><td class="memItemLeft" align="right" valign="top">VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765101913d8149614746444a3257c1f2">addPoint</a> (const Vector3f &amp;point, const Vector3f &amp;<a class="el" href="group__GeneralGroup.html#gaeaaa231de17fd92490d5ffbdac7d7c16">normal</a>)</td></tr>
-<tr class="memdesc:a765101913d8149614746444a3257c1f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point with normal and returns its VertId  <br /></td></tr>
+<tr class="memitem:a062a286ba8240f571adaabc6c788dcdd" id="r_a062a286ba8240f571adaabc6c788dcdd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a062a286ba8240f571adaabc6c788dcdd">MR_BIND_OVERLOAD_SUFFIX</a> () 1 VertId addPoint(const Vector3f &amp;point)</td></tr>
+<tr class="memdesc:a062a286ba8240f571adaabc6c788dcdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point and returns its VertId  <br /></td></tr>
+<tr class="memitem:a0cbf3a6974c5e59d24276dca0227ab0b" id="r_a0cbf3a6974c5e59d24276dca0227ab0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cbf3a6974c5e59d24276dca0227ab0b">MR_BIND_OVERLOAD_SUFFIX</a> (<a class="el" href="#ace3e2f591185408ede2b73c7d0f1ad46">normal</a>) 1 VertId addPoint(const Vector3f &amp;point</td></tr>
+<tr class="memdesc:a0cbf3a6974c5e59d24276dca0227ab0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends a point with normal and returns its VertId  <br /></td></tr>
 <tr class="memitem:ab5cc9f05068553ba1033167bb6189fcf" id="r_ab5cc9f05068553ba1033167bb6189fcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5cc9f05068553ba1033167bb6189fcf">mirror</a> (const <a class="el" href="group__GeneralGroup.html#ga6b8606e6618471611100352ed5a178a7">Plane3f</a> &amp;plane)</td></tr>
 <tr class="memdesc:ab5cc9f05068553ba1033167bb6189fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">reflects the points from a given plane  <br /></td></tr>
 <tr class="memitem:a8d42094704ecd8b5b4eb3a82c10c111d" id="r_a8d42094704ecd8b5b4eb3a82c10c111d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d42094704ecd8b5b4eb3a82c10c111d">flipOrientation</a> (const VertBitSet *region=nullptr)</td></tr>
@@ -188,6 +188,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a25c1039968a5dc3a24591ac5b74148ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">unit normal directions of points (can be empty if no normals are known)  <br /></td></tr>
 <tr class="memitem:a99cd2bd3f8fa8482032603f382ab9a03" id="r_a99cd2bd3f8fa8482032603f382ab9a03"><td class="memItemLeft" align="right" valign="top">VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99cd2bd3f8fa8482032603f382ab9a03">validPoints</a></td></tr>
 <tr class="memdesc:a99cd2bd3f8fa8482032603f382ab9a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">only points and normals corresponding to set bits here are valid  <br /></td></tr>
+<tr class="memitem:acf467d3da6aff2b54a601c4921de1f2f" id="r_acf467d3da6aff2b54a601c4921de1f2f"><td class="memItemLeft" align="right" valign="top">const AffineXf3f *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf467d3da6aff2b54a601c4921de1f2f">toWorld</a> = nullptr ) const</td></tr>
+<tr class="memitem:ace3e2f591185408ede2b73c7d0f1ad46" id="r_ace3e2f591185408ede2b73c7d0f1ad46"><td class="memItemLeft" align="right" valign="top">const Vector3f &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace3e2f591185408ede2b73c7d0f1ad46">normal</a></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a461af7799e74931eb23168bd86111217" name="a461af7799e74931eb23168bd86111217"></a>
@@ -227,48 +229,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e507a7cdba55a1c26aa3a073cf2d315" name="a7e507a7cdba55a1c26aa3a073cf2d315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e507a7cdba55a1c26aa3a073cf2d315">&#9670;&#160;</a></span>addPoint() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertId MR::PointCloud::addPoint </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>appends a point and returns its VertId </p>
-
-</div>
-</div>
-<a id="a765101913d8149614746444a3257c1f2" name="a765101913d8149614746444a3257c1f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a765101913d8149614746444a3257c1f2">&#9670;&#160;</a></span>addPoint() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VertId MR::PointCloud::addPoint </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>appends a point with normal and returns its VertId </p>
-
-</div>
-</div>
 <a id="a4e713072e68a27b247042676b693bb26" name="a4e713072e68a27b247042676b693bb26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e713072e68a27b247042676b693bb26">&#9670;&#160;</a></span>calcNumValidPoints()</h2>
 
@@ -293,62 +253,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>computes the total number of valid points in the cloud </p>
-
-</div>
-</div>
-<a id="a314c3d7c570cf70aed6cf664175740cd" name="a314c3d7c570cf70aed6cf664175740cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a314c3d7c570cf70aed6cf664175740cd">&#9670;&#160;</a></span>computeBoundingBox() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Box3f MR::PointCloud::computeBoundingBox </td>
-          <td>(</td>
-          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>passes through all valid points and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </p>
-
-</div>
-</div>
-<a id="a7f4cc661b8564a36aabab04453b0e27f" name="a7f4cc661b8564a36aabab04453b0e27f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f4cc661b8564a36aabab04453b0e27f">&#9670;&#160;</a></span>computeBoundingBox() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Box3f MR::PointCloud::computeBoundingBox </td>
-          <td>(</td>
-          <td class="paramtype">const VertBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const AffineXf3f *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>passes through all given vertices (or all valid vertices if region == null) and finds the minimal bounding box containing all of them if toWorld transformation is given then returns minimal bounding box in world space </p>
 
 </div>
 </div>
@@ -653,6 +557,96 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a65677efaca849285816d9632529b5520" name="a65677efaca849285816d9632529b5520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65677efaca849285816d9632529b5520">&#9670;&#160;</a></span>MR_BIND_OVERLOAD_SUFFIX() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>passes through all valid points and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </p>
+
+</div>
+</div>
+<a id="a062a286ba8240f571adaabc6c788dcdd" name="a062a286ba8240f571adaabc6c788dcdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062a286ba8240f571adaabc6c788dcdd">&#9670;&#160;</a></span>MR_BIND_OVERLOAD_SUFFIX() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appends a point and returns its VertId </p>
+
+</div>
+</div>
+<a id="a0cbf3a6974c5e59d24276dca0227ab0b" name="a0cbf3a6974c5e59d24276dca0227ab0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cbf3a6974c5e59d24276dca0227ab0b">&#9670;&#160;</a></span>MR_BIND_OVERLOAD_SUFFIX() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ace3e2f591185408ede2b73c7d0f1ad46">normal</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const &amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appends a point with normal and returns its VertId </p>
+
+</div>
+</div>
+<a id="a5982bc0f5607f15bb30837797ab27153" name="a5982bc0f5607f15bb30837797ab27153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5982bc0f5607f15bb30837797ab27153">&#9670;&#160;</a></span>MR_BIND_OVERLOAD_SUFFIX() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::PointCloud::MR_BIND_OVERLOAD_SUFFIX </td>
+          <td>(</td>
+          <td class="paramtype">region</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>passes through all given vertices (or all valid vertices if region == null) and finds the minimal bounding box containing all of them if toWorld transformation is given then returns minimal bounding box in world space </p>
+
+</div>
+</div>
 <a id="a9fee9a45c5a54797c40fb2c7c9ed646e" name="a9fee9a45c5a54797c40fb2c7c9ed646e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fee9a45c5a54797c40fb2c7c9ed646e">&#9670;&#160;</a></span>pack() <span class="overload">[1/2]</span></h2>
 
@@ -735,6 +729,20 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="ace3e2f591185408ede2b73c7d0f1ad46" name="ace3e2f591185408ede2b73c7d0f1ad46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace3e2f591185408ede2b73c7d0f1ad46">&#9670;&#160;</a></span>normal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Vector3f&amp; MR::PointCloud::normal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a25c1039968a5dc3a24591ac5b74148ad" name="a25c1039968a5dc3a24591ac5b74148ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a25c1039968a5dc3a24591ac5b74148ad">&#9670;&#160;</a></span>normals</h2>
 
@@ -764,6 +772,20 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>coordinates of points </p>
+
+</div>
+</div>
+<a id="acf467d3da6aff2b54a601c4921de1f2f" name="acf467d3da6aff2b54a601c4921de1f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf467d3da6aff2b54a601c4921de1f2f">&#9670;&#160;</a></span>toWorld</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const AffineXf3f* MR::PointCloud::toWorld = nullptr ) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

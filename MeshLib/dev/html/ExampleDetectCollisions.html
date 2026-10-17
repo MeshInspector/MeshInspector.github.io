@@ -204,7 +204,7 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line"> </div>
 <div class="line">    MR_Mesh* meshA = MR_makeUVSphere( NULL, NULL, NULL ); <span class="comment">// make mesh A</span></div>
 <div class="line">    MR_Mesh* meshB = MR_makeUVSphere( NULL, NULL, NULL ); <span class="comment">// make mesh B</span></div>
-<div class="line">    MR_Vector3f shift = MR_Vector3f_Construct_3( 0.1f, 0.1f, 0.1f );</div>
+<div class="line">    MR_Vector3f shift = MR_Vector3f_Construct( 0.1f, 0.1f, 0.1f );</div>
 <div class="line">    MR_AffineXf3f xf = MR_AffineXf3f_translation( &amp;shift );</div>
 <div class="line">    MR_Mesh_transform( meshB, &amp;xf, NULL ); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>

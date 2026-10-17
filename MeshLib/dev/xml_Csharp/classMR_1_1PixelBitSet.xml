@@ -944,12 +944,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5569" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a157b2f8fa574984371d1a698d0e1df24" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a705a9fab718ee4fba1933556b54c3743" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet_2</definition>
+        <definition>static unsafe void MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet</definition>
         <argsstring>(_Underlying *_this, MR.PixelId pos, byte *val)</argsstring>
-        <name>__MR_PixelBitSet_autoResizeSet_2</name>
-        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet_2</qualifiedname>
+        <name>__MR_PixelBitSet_autoResizeSet</name>
+        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -970,12 +970,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5572" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a60136e1fb7c1acda5f63f4f1366ac903" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1aa5c9a28cf4d8d43f685d43aa4c802bf1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
-        <definition>static unsafe void MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet_3</definition>
+        <definition>static unsafe void MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet_range</definition>
         <argsstring>(_Underlying *_this, MR.PixelId pos, nuint len, byte *val)</argsstring>
-        <name>__MR_PixelBitSet_autoResizeSet_3</name>
-        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet_3</qualifiedname>
+        <name>__MR_PixelBitSet_autoResizeSet_range</name>
+        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_autoResizeSet_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1348,52 +1348,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5623" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a359422c171b5f4846b121a9dfb75b271" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1aa11bc0fa991c50bfd9824097f7a1b2f0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PixelBitSet._Underlying *</type>
-        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_0</definition>
-        <argsstring>(_Underlying *_this)</argsstring>
-        <name>__MR_PixelBitSet_set_0</name>
-        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_0</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5626" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1ad47a30108050a35c908883026b0b0478" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.PixelBitSet._Underlying *</type>
-        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_1</definition>
-        <argsstring>(_Underlying *_this, MR.PixelId n)</argsstring>
-        <name>__MR_PixelBitSet_set_1</name>
-        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_1</qualifiedname>
-        <param>
-          <type>_Underlying *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
-          <declname>n</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5629" column="55"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1aad242155ef84f8f92ba5220c07512726" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.PixelBitSet._Underlying *</type>
-        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_2</definition>
+        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set</definition>
         <argsstring>(_Underlying *_this, MR.PixelId n, byte val)</argsstring>
-        <name>__MR_PixelBitSet_set_2</name>
-        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_2</qualifiedname>
+        <name>__MR_PixelBitSet_set</name>
+        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1412,14 +1372,54 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5626" column="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a3d098308ef0ab910576b7b98918d222c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PixelBitSet._Underlying *</type>
+        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_all</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_PixelBitSet_set_all</name>
+        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_all</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5629" column="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a7f00a26adc4b2f09ca6fddaa402fe3a4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.PixelBitSet._Underlying *</type>
+        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_bit</definition>
+        <argsstring>(_Underlying *_this, MR.PixelId n)</argsstring>
+        <name>__MR_PixelBitSet_set_bit</name>
+        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_bit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="5632" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PixelBitSet_1a3d08e168c0ae3d1a042f1aeae63e8c7a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PixelBitSet_1aa25e26472815fc74922e24a408b8d5ff" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.PixelBitSet._Underlying *</type>
-        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_3</definition>
+        <definition>static unsafe MR.PixelBitSet._Underlying * MR.PixelBitSet.__MR_PixelBitSet_set_range</definition>
         <argsstring>(_Underlying *_this, MR.PixelId n, nuint len, byte val)</argsstring>
-        <name>__MR_PixelBitSet_set_3</name>
-        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_3</qualifiedname>
+        <name>__MR_PixelBitSet_set_range</name>
+        <qualifiedname>MR.PixelBitSet.__MR_PixelBitSet_set_range</qualifiedname>
         <param>
           <type>_Underlying *</type>
           <declname>_this</declname>
@@ -1648,8 +1648,8 @@
     <listofallmembers>
       <member refid="classMR_1_1PixelBitSet_1af02d7850ecaef8c1979db498e5f96724" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_AssignFromAnother</name></member>
       <member refid="classMR_1_1PixelBitSet_1ad2c8c3a807a121c23c9071d780fe5fb1" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_atomicTestSet</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a157b2f8fa574984371d1a698d0e1df24" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_autoResizeSet_2</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a60136e1fb7c1acda5f63f4f1366ac903" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a705a9fab718ee4fba1933556b54c3743" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_autoResizeSet</name></member>
+      <member refid="classMR_1_1PixelBitSet_1aa5c9a28cf4d8d43f685d43aa4c802bf1" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_autoResizeSet_range</name></member>
       <member refid="classMR_1_1PixelBitSet_1a07c07cbaad58ef6d864538fe694eea95" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_autoResizeTestSet</name></member>
       <member refid="classMR_1_1PixelBitSet_1a15d7e8e010805735ffa242f0d1d8b31c" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_bitand_assign</name></member>
       <member refid="classMR_1_1PixelBitSet_1a62afdfe5612ac15de004beef9989a90d" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_bitor_assign</name></member>
@@ -1671,10 +1671,10 @@
       <member refid="classMR_1_1PixelBitSet_1a1d5f06a5d4aa87c14f91c41730b86442" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_resize</name></member>
       <member refid="classMR_1_1PixelBitSet_1adf743183d663a02e56822a6091024103" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_resizeWithReserve</name></member>
       <member refid="classMR_1_1PixelBitSet_1a2af2015ba77157d5bd2058773a31edff" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_reverse</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a359422c171b5f4846b121a9dfb75b271" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_0</name></member>
-      <member refid="classMR_1_1PixelBitSet_1ad47a30108050a35c908883026b0b0478" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_1</name></member>
-      <member refid="classMR_1_1PixelBitSet_1aad242155ef84f8f92ba5220c07512726" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_2</name></member>
-      <member refid="classMR_1_1PixelBitSet_1a3d08e168c0ae3d1a042f1aeae63e8c7a" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_3</name></member>
+      <member refid="classMR_1_1PixelBitSet_1aa11bc0fa991c50bfd9824097f7a1b2f0" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a3d098308ef0ab910576b7b98918d222c" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_all</name></member>
+      <member refid="classMR_1_1PixelBitSet_1a7f00a26adc4b2f09ca6fddaa402fe3a4" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_bit</name></member>
+      <member refid="classMR_1_1PixelBitSet_1aa25e26472815fc74922e24a408b8d5ff" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_set_range</name></member>
       <member refid="classMR_1_1PixelBitSet_1af1628e07ca6a6b23af90a5d9afad8dab" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_shrink_to_fit</name></member>
       <member refid="classMR_1_1PixelBitSet_1a719d9aab89a65c624614204f6ddec040" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_sub_assign</name></member>
       <member refid="classMR_1_1PixelBitSet_1ac888261e47256d8bf607a3f03ac7d3f3" prot="private" virt="non-virtual"><scope>MR::PixelBitSet</scope><name>__MR_PixelBitSet_subtract</name></member>

@@ -10,11 +10,13 @@ var MRDistanceMap_8h =
     [ "MR::convertImageToDistanceMap", "group__DistanceMapGroup.html#gae5873b0d32e494a0e4eb9c14a39f9b1b", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#ga0c9486d9b44ae47b12824b99e28b0a93", null ],
     [ "MR::distanceMapFromContours", "group__DistanceMapGroup.html#gae7e25fed5029c03aec12173cbf641fc7", null ],
-    [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#gaf8e4c5b69b7ff64356b8fe6d7d73583e", null ],
-    [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga54c8f32aafa8f7d85f1839635e080609", null ],
-    [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#gaa693ceaf7bf9d2dc2728807f26d6e12a", null ],
-    [ "MR::distanceMapTo2DIsoPolyline", "group__DistanceMapGroup.html#ga40f0ce955b843b2257a05a5ee11d7e93", null ],
     [ "MR::distanceMapToMesh", "group__DistanceMapGroup.html#ga43601df100c62be8e9a82c549448bebd", null ],
     [ "MR::edgePointsFromContours", "group__DistanceMapGroup.html#ga9ee4d06d74d77a647a2858fba8cebdb3", null ],
-    [ "MR::polylineOffset", "group__DistanceMapGroup.html#gacffe5f45914f7b6f7d4fbd8a17c3bd0d", null ]
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#ga39152eebf658678f4b4dcf694eaa7e6e", null ],
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#ga73d46de92d0aa806267918fa4d211d1c", null ],
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#ga867028ba328a8652452d4ce44c02e953", null ],
+    [ "MR::polylineOffset", "group__DistanceMapGroup.html#gacffe5f45914f7b6f7d4fbd8a17c3bd0d", null ],
+    [ "MR::isoValue", "group__DistanceMapGroup.html#ga80af23d6afb6730de0589211dc06002d", null ],
+    [ "MR::params", "group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69", null ],
+    [ "MR::pixelSize", "group__DistanceMapGroup.html#ga08cc3c144188eeeba21b46af5590db82", null ]
 ];

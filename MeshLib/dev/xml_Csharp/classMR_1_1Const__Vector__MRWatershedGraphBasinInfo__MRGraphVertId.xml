@@ -447,6 +447,24 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a7cc74518c05a65faa7e7cfd7f50db873" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying *</type>
+        <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53970" column="90"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a6925a09e3cd7f4b324b41b9f20c92b41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_ConstructFromAnother</definition>
@@ -467,35 +485,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53970" column="90"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53973" column="90"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ae0f77ffe8c85a88353601647238fd930" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a8f559824d7b423ac172b8fdee3428fb4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_size_t</definition>
-        <argsstring>(nuint size)</argsstring>
-        <name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_size_t</name>
-        <qualifiedname>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_size_t</qualifiedname>
+        <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_fill</definition>
+        <argsstring>(nuint size, MR.WatershedGraph.Const_BasinInfo._Underlying *val)</argsstring>
+        <name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_fill</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_fill</qualifiedname>
         <param>
           <type>nuint</type>
           <declname>size</declname>
         </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53973" column="90"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a6dd5a4bd4a691a0149497f321e5bf011" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_std_vector_MR_WatershedGraph_BasinInfo</definition>
-        <argsstring>(MR.Std.Vector_MRWatershedGraphBasinInfo._Underlying *vec)</argsstring>
-        <name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_std_vector_MR_WatershedGraph_BasinInfo</name>
-        <qualifiedname>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_std_vector_MR_WatershedGraph_BasinInfo</qualifiedname>
         <param>
-          <type>MR.Std.Vector_MRWatershedGraphBasinInfo._Underlying *</type>
-          <declname>vec</declname>
+          <type>MR.WatershedGraph.Const_BasinInfo._Underlying *</type>
+          <declname>val</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -505,19 +509,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="53976" column="90"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a62a8e43700fde3574e79333578bc1d7b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a63f819713dd516160914125790861285" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying *</type>
-        <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_2</definition>
-        <argsstring>(nuint size, MR.WatershedGraph.Const_BasinInfo._Underlying *val)</argsstring>
-        <name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_2</name>
-        <qualifiedname>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_2</qualifiedname>
+        <definition>static unsafe MR.Vector_MRWatershedGraphBasinInfo_MRGraphVertId._Underlying * MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_stdVector</definition>
+        <argsstring>(MR.Std.Vector_MRWatershedGraphBasinInfo._Underlying *vec)</argsstring>
+        <name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_stdVector</name>
+        <qualifiedname>MR.Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId.__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_stdVector</qualifiedname>
         <param>
-          <type>nuint</type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>MR.WatershedGraph.Const_BasinInfo._Underlying *</type>
-          <declname>val</declname>
+          <type>MR.Std.Vector_MRWatershedGraphBasinInfo._Underlying *</type>
+          <declname>vec</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -857,9 +857,9 @@
       <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0fe8081aad9677a12a5310f8bed2ef1f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_backId</name></member>
       <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a2d658e0d2ef3ffaa8ae0bfc1b9a5f177" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_beginId</name></member>
       <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a9de4df95d46aed5fc4adfde275702dc4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_capacity</name></member>
-      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ae0f77ffe8c85a88353601647238fd930" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_size_t</name></member>
-      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a6dd5a4bd4a691a0149497f321e5bf011" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_1_std_vector_MR_WatershedGraph_BasinInfo</name></member>
-      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a62a8e43700fde3574e79333578bc1d7b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_2</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a7cc74518c05a65faa7e7cfd7f50db873" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a8f559824d7b423ac172b8fdee3428fb4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_fill</name></member>
+      <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a63f819713dd516160914125790861285" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a6925a09e3cd7f4b324b41b9f20c92b41" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ab75a61d7ce1c94fa8f05de3895e751f2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a16ad128dfda3937ef6a35b9e2b73bf54" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRWatershedGraphBasinInfo_MRGraphVertId</scope><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_DefaultConstruct</name></member>

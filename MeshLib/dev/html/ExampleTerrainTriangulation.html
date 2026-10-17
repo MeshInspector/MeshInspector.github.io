@@ -216,7 +216,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    MR_VertColors* colors = MR_VertColors_DefaultConstruct();</div>
 <div class="line">    MR_PointsLoadSettings* pls = MR_PointsLoadSettings_DefaultConstruct();</div>
 <div class="line">    MR_PointsLoadSettings_Set_colors( pls, colors );</div>
-<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
+<div class="line">    MR_expected_MR_PointCloud_std_string* loadRes = MR_PointsLoad_fromAnySupportedFormat( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, NULL, pls );</div>
 <div class="line">    MR_PointCloud* pc = MR_expected_MR_PointCloud_std_string_value_mut( loadRes );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !pc )</div>
 <div class="line">    {</div>
@@ -240,7 +240,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">        MR_SaveSettings_Set_colors( ss, colors );</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat( mesh, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, NULL, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_error( saveEx ) )</div>
 <div class="line">    {</div>
 <div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_data( MR_expected_void_std_string_error( saveEx ) ) );</div>
