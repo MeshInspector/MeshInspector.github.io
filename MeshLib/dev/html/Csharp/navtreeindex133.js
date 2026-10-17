@@ -1,5 +1,8 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1SkyPatch.html#acb43d0e50815d98ada274126255a380e":[9,3,0,0,0,1662,2],
+"classMR_1_1SkyPatch.html#ad65bdaa6a7d9e7eede397834d4ada9b2":[9,3,0,0,0,1662,0],
+"classMR_1_1SliceInfo.html":[9,3,0,0,0,1663],
 "classMR_1_1SliceInfo.html#a25501c41d7a4cc880ac824eb8f976a30":[9,3,0,0,0,1663,8],
 "classMR_1_1SliceInfo.html#a33fed4365f52d8fc4cf8b6d8791bcc45":[9,3,0,0,0,1663,6],
 "classMR_1_1SliceInfo.html#a3cdf13d075d4560705f53bd5f43f9770":[9,3,0,0,0,1663,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector.html#ad9674fe01734870f35c8b93012930558":[9,3,0,0,0,1678,2,7],
 "classMR_1_1Std_1_1Const__SharedPtr__MRCudaPointsToMeshProjector.html#adb72d695f058ffed7882ca33d876de0c":[9,3,0,0,0,1678,2,3],
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html":[9,3,0,0,0,1678,3],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a0116c6edc110721b8448ab5dc6b8fdd0":[9,3,0,0,0,1678,3,3],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a1ae3ebe705177ef9369df9cca8a79ae8":[9,3,0,0,0,1678,3,4],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a2b680cb4a593e305172498417dfa8a1d":[9,3,0,0,0,1678,3,9],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a3ca4b2e9d8fbc21b74962d9014d08b96":[9,3,0,0,0,1678,3,2]
+"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a0116c6edc110721b8448ab5dc6b8fdd0":[9,3,0,0,0,1678,3,3]
 };

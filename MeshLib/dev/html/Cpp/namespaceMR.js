@@ -3389,6 +3389,8 @@ var namespaceMR =
     [ "RigidScaleXf3< float >", "group__GeneralGroup.html#gabdd8336870c2a5643e70e2946261c057", null ],
     [ "RigidXf3< float >", "group__GeneralGroup.html#gaaf5cceffefdf823dab109b800385c40e", null ],
     [ "rotateToLongestEdge", "group__TriangleIntersectionGroup.html#ga29e15a7eedf63140f179f6730b9ce2ec", null ],
+    [ "roundToInt", "group__GeneralGroup.html#ga08c6b7c7f9ce12cc43348acfe6e959a6", null ],
+    [ "roundToInt", "group__GeneralGroup.html#ga482e2d9a879b5391318f30477f11f2d9", null ],
     [ "roundToPrecision", "group__BasicGroup.html#gacad07973c51ce633d7a0fa104399db99", null ],
     [ "roundToPrecision", "group__BasicGroup.html#ga13a3902f4af22aaa5fcd0817f8d925fd", null ],
     [ "same", "group__GeneralGroup.html#ga3b15caf456e5957f1d1a548142e66641", null ],

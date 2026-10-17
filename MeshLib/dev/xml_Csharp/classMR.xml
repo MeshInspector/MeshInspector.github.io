@@ -37992,6 +37992,44 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="936" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="936" bodyend="939"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a63d55c7753bff5fa1dace295719dc929" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MR.roundToInt</definition>
+        <argsstring>(double x)</argsstring>
+        <name>roundToInt</name>
+        <qualifiedname>MR.roundToInt</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler Generated from function <computeroutput><ref refid="classMR_1a63d55c7753bff5fa1dace295719dc929" kindref="member">MR.roundToInt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRound.cs" line="7" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRound.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a49dda10d52f747a7de620fd146456fd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MR.roundToInt</definition>
+        <argsstring>(float x)</argsstring>
+        <name>roundToInt</name>
+        <qualifiedname>MR.roundToInt</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler Generated from function <computeroutput><ref refid="classMR_1a63d55c7753bff5fa1dace295719dc929" kindref="member">MR.roundToInt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRound.cs" line="16" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRound.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a8489698b12cb4c3d8bc3d81c58acc5a8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
         <definition>static unsafe MR.Vector3f MR.applyFloat</definition>
@@ -83639,6 +83677,42 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="959" column="88"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1ae366ae3b0bd647b271745550486cc607" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MR.__MR_roundToInt_double</definition>
+        <argsstring>(double x)</argsstring>
+        <name>__MR_roundToInt_double</name>
+        <qualifiedname>MR.__MR_roundToInt_double</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRound.cs" line="24" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1add64a661fdf32b056cc61c9950f18740" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int MR.__MR_roundToInt_float</definition>
+        <argsstring>(float x)</argsstring>
+        <name>__MR_roundToInt_float</name>
+        <qualifiedname>MR.__MR_roundToInt_float</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRound.cs" line="27" column="23"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a86d3c0fcf30d2037e219ef9091b2da3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
         <definition>static unsafe MR.Vector3d MR.__MR_applyDouble_const_MR_AffineXf3d_ptr</definition>
@@ -101432,6 +101506,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a92278ea7f6bfb82f308a78b066a1c086" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_resolveMeshDegenerations</name></member>
       <member refid="classMR_1ace3089f72a569ca2eaa4a60e3c015731" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reverse_std_vector_MR_EdgeId</name></member>
       <member refid="classMR_1adf7abbfaa807eacdd2c419ccb117da19" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_reverse_std_vector_std_vector_MR_EdgeId</name></member>
+      <member refid="classMR_1ae366ae3b0bd647b271745550486cc607" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_roundToInt_double</name></member>
+      <member refid="classMR_1add64a661fdf32b056cc61c9950f18740" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_roundToInt_float</name></member>
       <member refid="classMR_1a2627ba8428e14a3381ca32a8fd55f95f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_roundToPrecision_double</name></member>
       <member refid="classMR_1a4f82c8443b7026c832840485b69785e8" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_roundToPrecision_float</name></member>
       <member refid="classMR_1a7e07d9209ec13865b678c4c0777d97c5" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_same_double_MR_EdgePointd</name></member>
@@ -103338,6 +103414,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a78a4954ee826bfe1a85dfb7dcba166e0" prot="public" virt="non-virtual"><scope>MR</scope><name>resolveMeshDegenerations</name></member>
       <member refid="classMR_1a3ab33fbb13e3fba683081df40da4b884" prot="public" virt="non-virtual"><scope>MR</scope><name>reverse</name></member>
       <member refid="classMR_1a382e525737366aed855aca6835089ec0" prot="public" virt="non-virtual"><scope>MR</scope><name>reverse</name></member>
+      <member refid="classMR_1a63d55c7753bff5fa1dace295719dc929" prot="public" virt="non-virtual"><scope>MR</scope><name>roundToInt</name></member>
+      <member refid="classMR_1a49dda10d52f747a7de620fd146456fd6" prot="public" virt="non-virtual"><scope>MR</scope><name>roundToInt</name></member>
       <member refid="classMR_1a9cdca8c8994e7acafcd7bd505dd61a45" prot="public" virt="non-virtual"><scope>MR</scope><name>roundToPrecision</name></member>
       <member refid="classMR_1a5c57a8f458e244373cbf47a60ee4a988" prot="public" virt="non-virtual"><scope>MR</scope><name>roundToPrecision</name></member>
       <member refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" prot="public" virt="non-virtual"><scope>MR</scope><name>same</name></member>

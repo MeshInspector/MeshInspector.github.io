@@ -1,5 +1,8 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__VisualObject.html#a0dd034ce2ce18abaf5d6ec6201b1c7cb":[9,3,0,0,0,1024,67],
+"classMR_1_1Const__VisualObject.html#a102fbd6770cd3d72214f4722a244a39f":[9,3,0,0,0,1024,29],
+"classMR_1_1Const__VisualObject.html#a1134dc38472dce07df6f0d604a7f705e":[9,3,0,0,0,1024,13],
 "classMR_1_1Const__VisualObject.html#a138a8f11030b22a44d9722e8137cc5f4":[9,3,0,0,0,1024,54],
 "classMR_1_1Const__VisualObject.html#a15f545516eec449cbb9572e818335498":[9,3,0,0,0,1024,27],
 "classMR_1_1Const__VisualObject.html#a1b6dc701ca5d7f4d2b29878293bb6e70":[9,3,0,0,0,1024,19],
@@ -246,8 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a1eb73d2f0f76e2cc9e07e91b8e483719":[9,3,0,0,0,1045,0],
 "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a2aa63f5e5188bb01c142fc8a62efd4a4":[9,3,0,0,0,1045,1],
 "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a5eed847729b64e91c87c21d7c47f1e86":[9,3,0,0,0,1045,2],
-"classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a67a97f53a4bc91eddfb725a1167496ce":[9,3,0,0,0,1045,3],
-"classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#af61122b9b82c84e234ec4bb1ed3fab1a":[9,3,0,0,0,1045,4],
-"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html":[9,3,0,0,0,1033],
-"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a0e2284cb8dc3097acf99d975d03b0230":[9,3,0,0,0,1033,1]
+"classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a67a97f53a4bc91eddfb725a1167496ce":[9,3,0,0,0,1045,3]
 };

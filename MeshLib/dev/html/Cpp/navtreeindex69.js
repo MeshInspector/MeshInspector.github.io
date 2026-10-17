@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1RibbonTab.html":[9,0,0,20,707],
+"structMR_1_1RigidScaleXf3.html":[9,0,0,20,496],
+"structMR_1_1RigidXf3.html":[9,0,0,20,497],
+"structMR_1_1SaveObjectSettings.html":[9,0,0,20,715],
 "structMR_1_1SaveSettings.html":[9,0,0,20,501],
 "structMR_1_1SceneColors.html":[9,0,0,18,3],
 "structMR_1_1SceneColors.html":[9,0,0,20,503],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1TriangulationParameters.html#af9e046f71d9cf4b908279bd24f0a1707":[9,0,0,13,1,4],
 "structMR_1_1TrimOptionalOutput.html":[9,0,0,20,386],
 "structMR_1_1TrimWithPlaneParams.html":[9,0,0,20,385],
-"structMR_1_1TrivialMetricToPenalty.html":[9,0,0,20,217],
-"structMR_1_1TwoLineSegmClosestPoints.html":[9,0,0,20,529],
-"structMR_1_1TypedFlatTree.html":[9,0,0,20,720],
-"structMR_1_1UI_1_1ButtonCustomizationParams.html":[9,0,0,20,771],
-"structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[9,0,0,20,772]
+"structMR_1_1TrivialMetricToPenalty.html":[9,0,0,20,217]
 };

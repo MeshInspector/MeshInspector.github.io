@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad":[9,0,0,12,0,23],
+"structMR_1_1PointCloud.html#a2a3bb316a10b49cacc3843090aa06a22":[9,0,0,12,0,11],
+"structMR_1_1PointCloud.html#a400e79598dd6367452f3bfe56249615b":[9,0,0,12,0,10],
+"structMR_1_1PointCloud.html#a442397a4e191dbf7addbd86427681aaa":[9,0,0,12,0,3],
 "structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217":[9,0,0,12,0,0],
 "structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26":[9,0,0,12,0,1],
 "structMR_1_1PointCloud.html#a5982bc0f5607f15bb30837797ab27153":[9,0,0,12,0,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RibbonSchema.html":[9,0,0,20,708],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[9,0,0,20,712],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[9,0,0,20,710],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[9,0,0,20,711],
-"structMR_1_1RibbonTab.html":[9,0,0,20,707],
-"structMR_1_1RigidScaleXf3.html":[9,0,0,20,496],
-"structMR_1_1RigidXf3.html":[9,0,0,20,497],
-"structMR_1_1SaveObjectSettings.html":[9,0,0,20,715]
+"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[9,0,0,20,711]
 };

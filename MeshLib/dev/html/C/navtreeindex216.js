@@ -1,5 +1,9 @@
 var NAVTREEINDEX216 =
 {
+"structMR__EdgeId.html#a15e0dc8bb877ee01d7cbaf634fd3acff":[9,2,1,0,18,0],
+"structMR__FaceId.html":[9,2,1,0,19],
+"structMR__FaceId.html#a7ae93aa9bc5bb188c24ad26df75f2069":[9,2,1,0,19,0],
+"structMR__GraphEdgeId.html":[9,2,1,0,20],
 "structMR__GraphEdgeId.html#a51a7bff9eb46075de2a867a410255eda":[9,2,1,0,20,0],
 "structMR__GraphVertId.html":[9,2,1,0,21],
 "structMR__GraphVertId.html#af778bf9a44503915cd6dda7e7d09acc7":[9,2,1,0,21,0],

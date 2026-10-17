@@ -7558,6 +7558,10 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gab1ba9bf4b9468525f62bc98e2160eb1f" id="r_gab1ba9bf4b9468525f62bc98e2160eb1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1IteratorRange.html">IteratorRange</a>&lt; <a class="el" href="#gad2baece747803d447531075a0e80a2c3">LeftRingIterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab1ba9bf4b9468525f62bc98e2160eb1f">MR::leftRing</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId edge)</td></tr>
 <tr class="memitem:gaa10e8c70214e043065a204ed41c35dd3" id="r_gaa10e8c70214e043065a204ed41c35dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1IteratorRange.html">IteratorRange</a>&lt; <a class="el" href="#gad2baece747803d447531075a0e80a2c3">LeftRingIterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa10e8c70214e043065a204ed41c35dd3">MR::leftRing</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, FaceId f)</td></tr>
 <tr class="memitem:ga649c474104e7af19340b277ad9328dfb" id="r_ga649c474104e7af19340b277ad9328dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1IteratorRange.html">IteratorRange</a>&lt; <a class="el" href="#gad2baece747803d447531075a0e80a2c3">LeftRingIterator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga649c474104e7af19340b277ad9328dfb">MR::leftRing0</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, EdgeId edge)</td></tr>
+<tr class="memitem:ga08c6b7c7f9ce12cc43348acfe6e959a6" id="r_ga08c6b7c7f9ce12cc43348acfe6e959a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga08c6b7c7f9ce12cc43348acfe6e959a6">MR::roundToInt</a> (double x) noexcept</td></tr>
+<tr class="memdesc:ga08c6b7c7f9ce12cc43348acfe6e959a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler  <br /></td></tr>
+<tr class="memitem:ga482e2d9a879b5391318f30477f11f2d9" id="r_ga482e2d9a879b5391318f30477f11f2d9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga482e2d9a879b5391318f30477f11f2d9">MR::roundToInt</a> (float x) noexcept</td></tr>
+<tr class="memdesc:ga482e2d9a879b5391318f30477f11f2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler  <br /></td></tr>
 <tr class="memitem:ga423dfbb3e8fe2d355d3569c58f27881f" id="r_ga423dfbb3e8fe2d355d3569c58f27881f"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga423dfbb3e8fe2d355d3569c58f27881f">MR::applyFloat</a> (const AffineXf3d *xf, const Vector3f &amp;p)</td></tr>
 <tr class="memdesc:ga423dfbb3e8fe2d355d3569c58f27881f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point as is or after application of given transform to it in double precision  <br /></td></tr>
 <tr class="memitem:gacc1d104ed2e275977cf878d68073c9b2" id="r_gacc1d104ed2e275977cf878d68073c9b2"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacc1d104ed2e275977cf878d68073c9b2">MR::applyFloat</a> (const Matrix3d *m, const Vector3f &amp;n)</td></tr>
@@ -158715,6 +158719,65 @@ template&lt;typename <a class="el" href="#ga7d89e508205d25559adcd087abfcd43a">I<
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRViewport_8h.html">MRViewer/MRViewport.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga08c6b7c7f9ce12cc43348acfe6e959a6" name="ga08c6b7c7f9ce12cc43348acfe6e959a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga08c6b7c7f9ce12cc43348acfe6e959a6">&#9670;&#160;</a></span>roundToInt() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::roundToInt </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRound_8h.html">MRMesh/MRRound.h</a>&gt;</code></p>
+
+<p>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler </p>
+<p>std::round is a library call with MSVC, GCC on x86-64 (unless -fno-trapping-math) and Clang on x86-64 without SSE4.1; GCC and Clang compile it into one fcvtas on arm64, Clang into roundsd with SSE4.1 (e.g. macOS x86-64) </p>
+
+</div>
+</div>
+<a id="ga482e2d9a879b5391318f30477f11f2d9" name="ga482e2d9a879b5391318f30477f11f2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga482e2d9a879b5391318f30477f11f2d9">&#9670;&#160;</a></span>roundToInt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::roundToInt </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRRound_8h.html">MRMesh/MRRound.h</a>&gt;</code></p>
+
+<p>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler </p>
 
 </div>
 </div>

@@ -22999,6 +22999,10 @@
     <member refid="MRRingIterator_8h_1a86a0bb646509e03d6cc927a5cbd92b5d" kind="function"><name>MR_leftRing_MR_FaceId</name></member>
     <member refid="MRRingIterator_8h_1a127bfc0e41f6bdc0460f2b0bde48fa07" kind="function"><name>MR_leftRing0</name></member>
   </compound>
+  <compound refid="MRRound_8h" kind="file"><name>MRRound.h</name>
+    <member refid="MRRound_8h_1a819f59d1ff485e6c42e0737c8d42e540" kind="function"><name>MR_roundToInt_double</name></member>
+    <member refid="MRRound_8h_1a94fad90c785bee9745a25b32539d1074" kind="function"><name>MR_roundToInt_float</name></member>
+  </compound>
   <compound refid="MRSaveSettings_8h" kind="file"><name>MRSaveSettings.h</name>
     <member refid="MRSaveSettings_8h_1ae17b3dd6073d365538139be2692c1128" kind="typedef"><name>MR_VertRenumber</name></member>
     <member refid="MRSaveSettings_8h_1a5083b8cc85c47483063e2e2b9973e42f" kind="function"><name>MR_SaveSettings_Get_onlyValidPoints</name></member>

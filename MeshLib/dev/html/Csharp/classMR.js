@@ -4049,6 +4049,8 @@ var classMR =
     [ "resolveMeshDegenerations", "classMR.html#a78a4954ee826bfe1a85dfb7dcba166e0", null ],
     [ "reverse", "classMR.html#a3ab33fbb13e3fba683081df40da4b884", null ],
     [ "reverse", "classMR.html#a382e525737366aed855aca6835089ec0", null ],
+    [ "roundToInt", "classMR.html#a63d55c7753bff5fa1dace295719dc929", null ],
+    [ "roundToInt", "classMR.html#a49dda10d52f747a7de620fd146456fd6", null ],
     [ "roundToPrecision", "classMR.html#a9cdca8c8994e7acafcd7bd505dd61a45", null ],
     [ "roundToPrecision", "classMR.html#a5c57a8f458e244373cbf47a60ee4a988", null ],
     [ "same", "classMR.html#aa04021a5d2d15697aba0e68b0b45adfb", null ],

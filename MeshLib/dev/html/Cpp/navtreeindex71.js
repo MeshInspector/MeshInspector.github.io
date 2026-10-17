@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,856],
+"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,20,857],
+"structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html":[9,0,0,2,18,1],
+"structMR_1_1VoxelsLoad_1_1RawParameters.html":[9,0,0,2,18,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,1,0,1,55,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,2,0,2,36,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[9,0,1,0,1,55,0,0],

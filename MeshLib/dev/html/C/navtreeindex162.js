@@ -1,5 +1,9 @@
 var NAVTREEINDEX162 =
 {
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#ac20fb4b19da884b7f0eadf915fa55f5a":[9,2,2,0,0,1,0,0,12,18],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#adb4964aa3c42942584156815e4260975":[9,2,2,0,0,1,0,0,12,14],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#adf1c6132f377f02229c99c0377d9cb61":[9,2,2,0,0,1,0,0,12,12],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#ae7fd91f1506d4c3de56d1b9e85a3516f":[9,2,2,0,0,1,0,0,12,6],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#af2791abee7f8854c61f2e07d33f06a64":[9,2,2,0,0,1,0,0,12,0],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#af3a6ddec8086b2c6bc7754329b544a45":[9,2,2,0,0,1,0,0,12,11],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#af3ee736281c0ac6d15f556b476d118ee":[9,2,2,0,0,1,0,0,12,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX162 =
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a225e872c5d02072ce82e90020a96c617":[9,2,2,0,0,0,0,2,356,12],
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3ac49b10a3f8d9b5da02fa8bcde7c82a":[9,2,2,0,0,0,0,2,356,1],
 "std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a3bdbf540542cfb31bdc8fb65e2c4472c":[9,2,2,0,0,0,0,2,356,0],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a504bfed0f3aad83e1291401aa3cd98c2":[9,2,2,0,0,0,0,2,356,11],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a566824d84de9966c15f49ea49255a0a2":[9,2,2,0,0,0,0,2,356,21],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a6056f6d697f8e00a1929e9b682861a42":[9,2,2,0,0,0,0,2,356,15],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a66394309f4670bd4bee3ff63b857b141":[9,2,2,0,0,0,0,2,356,6],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a76b6623ee8cbeb882a48bc5ac4855f05":[9,2,2,0,0,0,0,2,356,3]
+"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a504bfed0f3aad83e1291401aa3cd98c2":[9,2,2,0,0,0,0,2,356,11]
 };

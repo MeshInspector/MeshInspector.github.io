@@ -1,5 +1,8 @@
 var NAVTREEINDEX13 =
 {
+"classMR_1_1BMap__MRPixelId__MRPixelId.html":[9,3,0,0,0,55],
+"classMR_1_1BMap__MRPixelId__MRPixelId.html#a207d8a892c5bf2ab401234cae57c270c":[9,3,0,0,0,55,1],
+"classMR_1_1BMap__MRPixelId__MRPixelId.html#a29f20bbc16ee7f850ff8f8c39ac1b141":[9,3,0,0,0,55,5],
 "classMR_1_1BMap__MRPixelId__MRPixelId.html#a2a0fac056cfb06abedf7e8a1964488d0":[9,3,0,0,0,55,4],
 "classMR_1_1BMap__MRPixelId__MRPixelId.html#a3d3fabb7806bfafb7338dff3f89ba514":[9,3,0,0,0,55,0],
 "classMR_1_1BMap__MRPixelId__MRPixelId.html#a8e70127bfc2c9e86a4a31bdb92f20010":[9,3,0,0,0,55,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX13 =
 "classMR_1_1BooleanParameters.html":[9,3,0,0,0,62],
 "classMR_1_1BooleanParameters.html#a0b4d64485461751a76dc6da72fc3f7b3":[9,3,0,0,0,62,8],
 "classMR_1_1BooleanParameters.html#a225aab981cc3810283cd4a45f67ce333":[9,3,0,0,0,62,7],
-"classMR_1_1BooleanParameters.html#a30a38c2c80f6057fa5c047c264da2651":[9,3,0,0,0,62,4],
-"classMR_1_1BooleanParameters.html#a51800ccc18cba1b48dc2018b8bc445b4":[9,3,0,0,0,62,10],
-"classMR_1_1BooleanParameters.html#a51f5bd8d3e1f34a182f070842b56e624":[9,3,0,0,0,62,11],
-"classMR_1_1BooleanParameters.html#a607c522b1dca425875024d2562aaa023":[9,3,0,0,0,62,2]
+"classMR_1_1BooleanParameters.html#a30a38c2c80f6057fa5c047c264da2651":[9,3,0,0,0,62,4]
 };

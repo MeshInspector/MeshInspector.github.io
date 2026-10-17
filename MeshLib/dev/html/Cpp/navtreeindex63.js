@@ -1,5 +1,9 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e":[9,0,0,10,0,18],
+"structMR_1_1DecimateSettings.html#a38bbdf3c479e6edea3b93ca7a7b52084":[9,0,0,10,0,9],
+"structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd":[9,0,0,10,0,20],
+"structMR_1_1DecimateSettings.html#a5c38997b3f0df2d9e534bf87f530cdd7":[9,0,0,10,0,31],
 "structMR_1_1DecimateSettings.html#a5ec13d6be73db6e77b404aea2c0d3371":[9,0,0,10,0,8],
 "structMR_1_1DecimateSettings.html#a5f0e2ae094cddee1b490103a349feda5":[9,0,0,10,0,4],
 "structMR_1_1DecimateSettings.html#a6d86579d9da2f3a27a05bd02a9c8af2c":[9,0,0,10,0,24],
@@ -245,9 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[9,0,0,1,29,2],
 "structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[9,0,0,1,29,3],
 "structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[9,0,0,1,29,0],
-"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[9,0,0,1,29,5],
-"structMR_1_1FitBoxParams.html":[9,0,0,20,603],
-"structMR_1_1FitDataParams.html":[9,0,0,20,602],
-"structMR_1_1FixCreasesParams.html":[9,0,0,9,4,1],
-"structMR_1_1FixCreasesParams.html#a279d3fb54a0fb0946a220b96b62e06cc":[9,0,0,9,4,1,1]
+"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[9,0,0,1,29,5]
 };

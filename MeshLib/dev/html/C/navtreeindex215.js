@@ -1,5 +1,9 @@
 var NAVTREEINDEX215 =
 {
+"std__vector__uint64__t_8h.html#a7a7c85a1804967b220ff3f05dc69963c":[9,2,2,0,0,0,0,2,571,52],
+"std__vector__uint64__t_8h.html#a7b079a26ff13740b873b410581df68f4":[9,2,2,0,0,0,0,2,571,57],
+"std__vector__uint64__t_8h.html#a7c7ceb7988c2effd58a7af1678d1931a":[9,2,2,0,0,0,0,2,571,69],
+"std__vector__uint64__t_8h.html#a81654c95de7b7b591626a0710600249b":[9,2,2,0,0,0,0,2,571,68],
 "std__vector__uint64__t_8h.html#a841a6acb8fa9f1fdedff65c4b0702397":[9,2,2,0,0,0,0,2,571,49],
 "std__vector__uint64__t_8h.html#a86d858fb59abb644e154480beec3db78":[9,2,2,0,0,0,0,2,571,46],
 "std__vector__uint64__t_8h.html#a88665471b4156449b034fecf4e5f9c4c":[9,2,2,0,0,0,0,2,571,25],
@@ -245,9 +249,5 @@ var NAVTREEINDEX215 =
 "structMR__Color.html#a5dea71edd69bdc81ca83d36580a3677b":[9,2,1,0,17,2],
 "structMR__Color.html#aa42eb9bb577b955386e4f8b1cc7e1f25":[9,2,1,0,17,3],
 "structMR__Color.html#aa750e2f6bf418c8ccc3000069caf5b0a":[9,2,1,0,17,1],
-"structMR__EdgeId.html":[9,2,1,0,18],
-"structMR__EdgeId.html#a15e0dc8bb877ee01d7cbaf634fd3acff":[9,2,1,0,18,0],
-"structMR__FaceId.html":[9,2,1,0,19],
-"structMR__FaceId.html#a7ae93aa9bc5bb188c24ad26df75f2069":[9,2,1,0,19,0],
-"structMR__GraphEdgeId.html":[9,2,1,0,20]
+"structMR__EdgeId.html":[9,2,1,0,18]
 };

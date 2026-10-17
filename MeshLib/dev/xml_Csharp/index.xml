@@ -53335,6 +53335,8 @@
     <member refid="classMR_1a37bd2a244d5583d1a35b22364f9b5fb2" kind="function"><name>leftRing</name></member>
     <member refid="classMR_1a2a746015f0aca82b1ad3273238d8dd64" kind="function"><name>leftRing</name></member>
     <member refid="classMR_1ae2bedce0b282961b95e50b4e9e838868" kind="function"><name>leftRing0</name></member>
+    <member refid="classMR_1a63d55c7753bff5fa1dace295719dc929" kind="function"><name>roundToInt</name></member>
+    <member refid="classMR_1a49dda10d52f747a7de620fd146456fd6" kind="function"><name>roundToInt</name></member>
     <member refid="classMR_1a8489698b12cb4c3d8bc3d81c58acc5a8" kind="function"><name>applyFloat</name></member>
     <member refid="classMR_1a932c91bf20846d545c123bfa505db9c4" kind="function"><name>applyFloat</name></member>
     <member refid="classMR_1a0913d9f2adc4128c6e732f11a64eef4e" kind="function"><name>applyDouble</name></member>
@@ -55184,6 +55186,8 @@
     <member refid="classMR_1a2c6243996c46c32a5d02b172db57a17e" kind="function"><name>__MR_orgRing0</name></member>
     <member refid="classMR_1ab0bf0a40bfb76275f5b2768d06574dc8" kind="function"><name>__MR_orgRing_MR_EdgeId</name></member>
     <member refid="classMR_1a6edf803775398fe9475fbcf2dfe6c37b" kind="function"><name>__MR_orgRing_MR_VertId</name></member>
+    <member refid="classMR_1ae366ae3b0bd647b271745550486cc607" kind="function"><name>__MR_roundToInt_double</name></member>
+    <member refid="classMR_1add64a661fdf32b056cc61c9950f18740" kind="function"><name>__MR_roundToInt_float</name></member>
     <member refid="classMR_1a86d3c0fcf30d2037e219ef9091b2da3b" kind="function"><name>__MR_applyDouble_const_MR_AffineXf3d_ptr</name></member>
     <member refid="classMR_1a703830b99795d11d5e8720426f94ec70" kind="function"><name>__MR_applyDouble_const_MR_Matrix3d_ptr</name></member>
     <member refid="classMR_1a3fcdd342f5ffe927208a9e4c8bf8dfcd" kind="function"><name>__MR_applyFloat_const_MR_AffineXf3d_ptr</name></member>
@@ -72029,6 +72033,8 @@
   <compound refid="MRRigidXf3_8cs" kind="file"><name>MRRigidXf3.cs</name>
   </compound>
   <compound refid="MRRingIterator_8cs" kind="file"><name>MRRingIterator.cs</name>
+  </compound>
+  <compound refid="MRRound_8cs" kind="file"><name>MRRound.cs</name>
   </compound>
   <compound refid="MRSaveSettings_8cs" kind="file"><name>MRSaveSettings.cs</name>
   </compound>

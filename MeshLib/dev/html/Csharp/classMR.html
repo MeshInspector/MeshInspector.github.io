@@ -11239,6 +11239,10 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:a2a746015f0aca82b1ad3273238d8dd64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a37bd2a244d5583d1a35b22364f9b5fb2" title="Generated from function MR.leftRing.">MR.leftRing</a></span>.  <br /></td></tr>
 <tr class="memitem:ae2bedce0b282961b95e50b4e9e838868" id="r_ae2bedce0b282961b95e50b4e9e838868"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameLeft.html">MR.IteratorRange_MRRingIteratorMRNextEdgeSameLeft</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2bedce0b282961b95e50b4e9e838868">leftRing0</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="structMR_1_1EdgeId.html">MR.EdgeId</a> edge)</td></tr>
 <tr class="memdesc:ae2bedce0b282961b95e50b4e9e838868"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#ae2bedce0b282961b95e50b4e9e838868" title="Generated from function MR.leftRing0.">MR.leftRing0</a></span>.  <br /></td></tr>
+<tr class="memitem:a63d55c7753bff5fa1dace295719dc929" id="r_a63d55c7753bff5fa1dace295719dc929"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63d55c7753bff5fa1dace295719dc929">roundToInt</a> (double x)</td></tr>
+<tr class="memdesc:a63d55c7753bff5fa1dace295719dc929"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler Generated from function <span class="tt"><a class="el" href="#a63d55c7753bff5fa1dace295719dc929" title="the same as (int)std.round( x ) for any x in int range (halves are rounded away from zero),...">MR.roundToInt</a></span>.  <br /></td></tr>
+<tr class="memitem:a49dda10d52f747a7de620fd146456fd6" id="r_a49dda10d52f747a7de620fd146456fd6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49dda10d52f747a7de620fd146456fd6">roundToInt</a> (float x)</td></tr>
+<tr class="memdesc:a49dda10d52f747a7de620fd146456fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler Generated from function <span class="tt"><a class="el" href="#a63d55c7753bff5fa1dace295719dc929" title="the same as (int)std.round( x ) for any x in int range (halves are rounded away from zero),...">MR.roundToInt</a></span>.  <br /></td></tr>
 <tr class="memitem:a8489698b12cb4c3d8bc3d81c58acc5a8" id="r_a8489698b12cb4c3d8bc3d81c58acc5a8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8489698b12cb4c3d8bc3d81c58acc5a8">applyFloat</a> (<a class="el" href="structMR_1_1AffineXf3d.html">MR.AffineXf3d</a>? xf, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> p)</td></tr>
 <tr class="memdesc:a8489698b12cb4c3d8bc3d81c58acc5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the point as is or after application of given transform to it in double precision Generated from function <span class="tt"><a class="el" href="#a8489698b12cb4c3d8bc3d81c58acc5a8" title="returns the point as is or after application of given transform to it in double precision Generated f...">MR.applyFloat</a></span>.  <br /></td></tr>
 <tr class="memitem:a932c91bf20846d545c123bfa505db9c4" id="r_a932c91bf20846d545c123bfa505db9c4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a932c91bf20846d545c123bfa505db9c4">applyFloat</a> (<a class="el" href="structMR_1_1Matrix3d.html">MR.Matrix3d</a>? m, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> n)</td></tr>
@@ -71210,6 +71214,60 @@ do not really keeps volume but tries hard </p>
 
 </div>
 </div>
+<a id="a63d55c7753bff5fa1dace295719dc929" name="a63d55c7753bff5fa1dace295719dc929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d55c7753bff5fa1dace295719dc929">&#9670;&#160;</a></span>roundToInt() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR.roundToInt </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler Generated from function <span class="tt"><a class="el" href="#a63d55c7753bff5fa1dace295719dc929" title="the same as (int)std.round( x ) for any x in int range (halves are rounded away from zero),...">MR.roundToInt</a></span>. </p>
+
+</div>
+</div>
+<a id="a49dda10d52f747a7de620fd146456fd6" name="a49dda10d52f747a7de620fd146456fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49dda10d52f747a7de620fd146456fd6">&#9670;&#160;</a></span>roundToInt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR.roundToInt </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler Generated from function <span class="tt"><a class="el" href="#a63d55c7753bff5fa1dace295719dc929" title="the same as (int)std.round( x ) for any x in int range (halves are rounded away from zero),...">MR.roundToInt</a></span>. </p>
+
+</div>
+</div>
 <a id="a9cdca8c8994e7acafcd7bd505dd61a45" name="a9cdca8c8994e7acafcd7bd505dd61a45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9cdca8c8994e7acafcd7bd505dd61a45">&#9670;&#160;</a></span>roundToPrecision() <span class="overload">[1/2]</span></h2>
 
@@ -77627,6 +77685,7 @@ default metric: ComplexStitchMetric. </p>
 <li><a class="el" href="MRRegularGridMesh_8cs.html">MRRegularGridMesh.cs</a></li>
 <li><a class="el" href="MRRenderModelParameters_8cs.html">MRRenderModelParameters.cs</a></li>
 <li><a class="el" href="MRRingIterator_8cs.html">MRRingIterator.cs</a></li>
+<li><a class="el" href="MRRound_8cs.html">MRRound.cs</a></li>
 <li><a class="el" href="MRSaveSettings_8cs.html">MRSaveSettings.cs</a></li>
 <li><a class="el" href="MRScalarConvert_8cs.html">MRScalarConvert.cs</a></li>
 <li><a class="el" href="MRSceneRoot_8cs.html">MRSceneRoot.cs</a></li>

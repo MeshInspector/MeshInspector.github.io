@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"group__BasicGroup.html#ga84d3ef89997a21c7e28a95f9888e3a2e":[9,0,0,3,40],
+"group__BasicGroup.html#ga85f29c2edc391eb7cbc4c9a948de7b8d":[9,0,0,3,114],
 "group__BasicGroup.html#ga86e6878b728d3f789b3b211a2011d935":[9,0,0,3,29],
 "group__BasicGroup.html#ga896279ee5bfa452079d99c123817842b":[9,0,0,3,46],
 "group__BasicGroup.html#ga8e5910c21dd8d185e8c21a9691826314":[9,0,0,3,84],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a6ee0807f5bf1b3e0a4d52919eb298454":[9,0,0,5,9,4],
 "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a89241a914ba5d59de9168c4416e69c4a":[9,0,0,5,9,1],
 "group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6a9cc816b8a2117db796c073f012e78565":[9,0,0,5,9,2],
-"group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7":[9,0,0,5,9,3],
-"group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6ae93f994f01c537c4e2f7d8528c3eb5e9":[9,0,0,5,9,5],
-"group__DistanceMapLoadGroup.html":[9,0,0,2,1]
+"group__DistanceMapGroup.html#ggab7acb4543154d042c297e5823fb633b6aac53fa7ccf60e6f59512da11975eb8a7":[9,0,0,5,9,3]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX87 =
 {
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aa7775efefc851437e7ace086961a48c0":[9,3,0,0,0,925,36],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aaa4fee8d2d8c4e1b16166ea9b80b63e4":[9,3,0,0,0,925,48],
+"classMR_1_1Const__UndirectedEdgeBitSet.html#aac697b10ead3216fdbe4d877f8f0c9c4":[9,3,0,0,0,925,30],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#aacf8f6deb27dc0b091f6cc5e631404d4":[9,3,0,0,0,925,43],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#ab6b1a486e76654d548cc9ff7968f3f9b":[9,3,0,0,0,925,31],
 "classMR_1_1Const__UndirectedEdgeBitSet.html#ab8969791257f18f12e3d028e3ddc8f7c":[9,3,0,0,0,925,38],
@@ -246,8 +249,5 @@ var NAVTREEINDEX87 =
 "classMR_1_1Const__UniteManyMeshesParams.html#ad891d9608ff772c04836d07308ae595a":[9,3,0,0,0,940,6],
 "classMR_1_1Const__UniteManyMeshesParams.html#aeb04f4a9ec91884a25843d695207f939":[9,3,0,0,0,940,0],
 "classMR_1_1Const__UniteManyMeshesParams.html#aef0a0193251101e74dee6f9c1da4e184":[9,3,0,0,0,940,22],
-"classMR_1_1Const__UniteManyMeshesParams.html#af19aadcbec5afa48c8afecdc6d224e85":[9,3,0,0,0,940,13],
-"classMR_1_1Const__UniteMeshNormalizationParams.html":[9,3,0,0,0,941],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#a06ea23d9987a7961c91dc05fe714c42e":[9,3,0,0,0,941,0],
-"classMR_1_1Const__UniteMeshNormalizationParams.html#a3debe233db5438044f9c8b386a873ed7":[9,3,0,0,0,941,10]
+"classMR_1_1Const__UniteManyMeshesParams.html#af19aadcbec5afa48c8afecdc6d224e85":[9,3,0,0,0,940,13]
 };

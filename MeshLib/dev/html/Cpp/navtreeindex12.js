@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html":[9,0,1,0,1,48,4],
+"classMR_1_1SpaceMouse_1_1HandlerHidapi.html":[9,0,2,0,2,32,4],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a11dc848394777b3ad3ebabada8ff3ad8":[9,0,1,0,1,48,4,3],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a11dc848394777b3ad3ebabada8ff3ad8":[9,0,2,0,2,32,4,3],
 "classMR_1_1SpaceMouse_1_1HandlerHidapi.html#a20c6b0e22bec8be84b2034de74bf6073":[9,0,1,0,1,48,4,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "classMR_1_1ViewportMask.html#a248e3f0431d42d1ac2933236093ef69d":[9,0,0,11,1,1,11],
 "classMR_1_1ViewportMask.html#a26e65f2daaea38682d1665c24444c2a7":[9,0,0,11,1,1,8],
 "classMR_1_1ViewportMask.html#a38422daf68e574090fc13e66a188ef95":[9,0,0,11,1,1,12],
-"classMR_1_1ViewportMask.html#a5f575fec91c28cf40307c3e5d10a6079":[9,0,0,11,1,1,1],
-"classMR_1_1ViewportMask.html#a606591b56d6a246352c6d3a68d5cbd28":[9,0,0,11,1,1,2],
-"classMR_1_1ViewportMask.html#a69499d7263eff235c7eead5fe6b6d88b":[9,0,0,11,1,1,7]
+"classMR_1_1ViewportMask.html#a5f575fec91c28cf40307c3e5d10a6079":[9,0,0,11,1,1,1]
 };

@@ -4,6 +4,7 @@
     <compoundname>MRBitCast.h</compoundname>
     <includes local="no">version</includes>
     <includedby refid="MRIsNaN_8h" local="yes">MRMesh/MRIsNaN.h</includedby>
+    <includedby refid="MRRound_8h" local="yes">MRMesh/MRRound.h</includedby>
     <incdepgraph>
       <node id="1">
         <label>MRMesh/MRBitCast.h</label>
@@ -16,10 +17,34 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="9">
+        <label>MRMesh/MRAlphaShape.h</label>
+        <link refid="MRAlphaShape_8h"/>
+      </node>
       <node id="1">
         <label>MRMesh/MRBitCast.h</label>
         <link refid="MRBitCast_8h"/>
         <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRContoursCut.h</label>
+        <link refid="MRContoursCut_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRInSphere.h</label>
+        <link refid="MRInSphere_8h"/>
+      </node>
+      <node id="12">
+        <label>MRMesh/MRIntersectionContour.h</label>
+        <link refid="MRIntersectionContour_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -27,6 +52,44 @@
         <link refid="MRIsNaN_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
+      </node>
+      <node id="15">
+        <label>MRMesh/MRMeshBoolean.h</label>
+        <link refid="MRMeshBoolean_8h"/>
+      </node>
+      <node id="11">
+        <label>MRMesh/MRMeshCollidePrecise.h</label>
+        <link refid="MRMeshCollidePrecise_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMesh/MROneMeshContours.h</label>
+        <link refid="MROneMeshContours_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRPrecisePredicates3.h</label>
+        <link refid="MRPrecisePredicates3_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMesh/MRRound.h</label>
+        <link refid="MRRound_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRMesh/MRTripleFaceIntersections.h</label>
+        <link refid="MRTripleFaceIntersections_8h"/>
       </node>
       <node id="4">
         <label>MRVoxels/MRMoveMeshToVoxelMaxDeriv.h</label>

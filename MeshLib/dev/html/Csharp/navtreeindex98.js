@@ -1,5 +1,8 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Const__XfBasedCache__MRBox3f.html#aec6bf653fff6540b474c1b49af5d6b8a":[9,3,0,0,0,1051,3],
+"classMR_1_1Const__ZCompensateParams.html":[9,3,0,0,0,1052],
+"classMR_1_1Const__ZCompensateParams.html#a0b01b4292a1fb05dc101057c69e8ab95":[9,3,0,0,0,1052,11],
 "classMR_1_1Const__ZCompensateParams.html#a5ccce2f1fdc58ff9219c24ca6e2a2e2e":[9,3,0,0,0,1052,12],
 "classMR_1_1Const__ZCompensateParams.html#a60835c091933c4abd694b8a3443fe653":[9,3,0,0,0,1052,4],
 "classMR_1_1Const__ZCompensateParams.html#a6d694e9a0a0861917382fa93c03b83d7":[9,3,0,0,0,1052,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a12486a5f9436c08cf642f7e400e39baf":[9,3,0,0,0,1133,4,16],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a14498b2cb061dd931adf704c3f59ef98":[9,3,0,0,0,1133,4,1],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a20cfc9510ee780771f5ea96b12fccef6":[9,3,0,0,0,1133,4,2],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a238d3b2d8d4972d6a20a08344faf8b3b":[9,3,0,0,0,1133,4,10],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a2b61184f9c426dbc1aa5a4fb3fe546fd":[9,3,0,0,0,1133,4,13],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a3b74585a8d996570d5da9ae908194f02":[9,3,0,0,0,1133,4,18],
-"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a3ebc872c2fb58e4fe0418d622a140573":[9,3,0,0,0,1133,4,15]
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a238d3b2d8d4972d6a20a08344faf8b3b":[9,3,0,0,0,1133,4,10]
 };

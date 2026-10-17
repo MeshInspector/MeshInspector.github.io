@@ -15865,6 +15865,8 @@
     <member refid="group__GeneralGroup_1gab1ba9bf4b9468525f62bc98e2160eb1f" kind="function"><name>leftRing</name></member>
     <member refid="group__GeneralGroup_1gaa10e8c70214e043065a204ed41c35dd3" kind="function"><name>leftRing</name></member>
     <member refid="group__GeneralGroup_1ga649c474104e7af19340b277ad9328dfb" kind="function"><name>leftRing0</name></member>
+    <member refid="group__GeneralGroup_1ga08c6b7c7f9ce12cc43348acfe6e959a6" kind="function"><name>roundToInt</name></member>
+    <member refid="group__GeneralGroup_1ga482e2d9a879b5391318f30477f11f2d9" kind="function"><name>roundToInt</name></member>
     <member refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kind="function"><name>applyFloat</name></member>
     <member refid="group__GeneralGroup_1gacc1d104ed2e275977cf878d68073c9b2" kind="function"><name>applyFloat</name></member>
     <member refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kind="function"><name>applyDouble</name></member>
@@ -18467,6 +18469,8 @@
   <compound refid="MRRigidXf3_8h" kind="file"><name>MRRigidXf3.h</name>
   </compound>
   <compound refid="MRRingIterator_8h" kind="file"><name>MRRingIterator.h</name>
+  </compound>
+  <compound refid="MRRound_8h" kind="file"><name>MRRound.h</name>
   </compound>
   <compound refid="MRSaveSettings_8h" kind="file"><name>MRSaveSettings.h</name>
   </compound>
@@ -28913,6 +28917,8 @@
     <member refid="group__GeneralGroup_1gab1ba9bf4b9468525f62bc98e2160eb1f" kind="function"><name>leftRing</name></member>
     <member refid="group__GeneralGroup_1gaa10e8c70214e043065a204ed41c35dd3" kind="function"><name>leftRing</name></member>
     <member refid="group__GeneralGroup_1ga649c474104e7af19340b277ad9328dfb" kind="function"><name>leftRing0</name></member>
+    <member refid="group__GeneralGroup_1ga08c6b7c7f9ce12cc43348acfe6e959a6" kind="function"><name>roundToInt</name></member>
+    <member refid="group__GeneralGroup_1ga482e2d9a879b5391318f30477f11f2d9" kind="function"><name>roundToInt</name></member>
     <member refid="group__GeneralGroup_1ga423dfbb3e8fe2d355d3569c58f27881f" kind="function"><name>applyFloat</name></member>
     <member refid="group__GeneralGroup_1gacc1d104ed2e275977cf878d68073c9b2" kind="function"><name>applyFloat</name></member>
     <member refid="group__GeneralGroup_1ga7aba106487b0adfd357e9232e18a922f" kind="function"><name>applyDouble</name></member>

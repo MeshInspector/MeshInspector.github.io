@@ -15160,6 +15160,8 @@ var group__GeneralGroup =
     [ "MR::TouchpadController::Handler::rotate", "group__GeneralGroup.html#gaf1d038636cfb202e8e3709fc8518b6f2", null ],
     [ "MR::MeshTopology::rotateTriangles", "group__GeneralGroup.html#ga6e36bbc83e30c437d92e8d9253ae2a59", null ],
     [ "MR::Viewport::rotationCenterMode", "group__GeneralGroup.html#ga32f520027876c213e77b698e6db8d75d", null ],
+    [ "MR::roundToInt", "group__GeneralGroup.html#ga08c6b7c7f9ce12cc43348acfe6e959a6", null ],
+    [ "MR::roundToInt", "group__GeneralGroup.html#ga482e2d9a879b5391318f30477f11f2d9", null ],
     [ "MR::EnumNeihbourFaces::run", "group__GeneralGroup.html#ga64b329cfce6e97b4dbf37b031815e913", null ],
     [ "MR::EnumNeihbourVertices::run", "group__GeneralGroup.html#ga65449d4756ca8415fcdee1a1cb68a390", null ],
     [ "MR::EnumNeihbourVertices::run", "group__GeneralGroup.html#gab1421ec24db86f8e4775fee7e41e8ecc", null ],
