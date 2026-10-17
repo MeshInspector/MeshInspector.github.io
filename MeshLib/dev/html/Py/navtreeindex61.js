@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"classmrmeshpy_1_1MoveType.html#a1b7a12f64f4458cc3995f24a210f5bfb":[9,1,0,0,2,593,4],
+"classmrmeshpy_1_1MoveType.html#a1b7a12f64f4458cc3995f24a210f5bfb":[9,1,1,0,1,593,4],
+"classmrmeshpy_1_1MoveType.html#a2a2184fb2ca78b82b4410c8a78dc953e":[9,1,0,0,2,593,7],
+"classmrmeshpy_1_1MoveType.html#a2a2184fb2ca78b82b4410c8a78dc953e":[9,1,1,0,1,593,7],
 "classmrmeshpy_1_1MoveType.html#a34c6270a74f33e4fd8b0b6eb1fffa0aa":[9,1,0,0,2,593,10],
 "classmrmeshpy_1_1MoveType.html#a34c6270a74f33e4fd8b0b6eb1fffa0aa":[9,1,1,0,1,593,10],
 "classmrmeshpy_1_1MoveType.html#a74b89fb435385fd772920cda0e4f42f2":[9,1,0,0,2,593,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1NeighborDir.html":[9,1,0,0,2,600],
 "classmrmeshpy_1_1NeighborDir.html":[9,1,1,0,1,600],
 "classmrmeshpy_1_1NeighborDir.html#a0a3cc3545be89de4f0dd4bc454cf62f6":[9,1,0,0,2,600,8],
-"classmrmeshpy_1_1NeighborDir.html#a0a3cc3545be89de4f0dd4bc454cf62f6":[9,1,1,0,1,600,8],
-"classmrmeshpy_1_1NeighborDir.html#a10f810fc3d8b03e5842ae999667916dd":[9,1,0,0,2,600,4],
-"classmrmeshpy_1_1NeighborDir.html#a10f810fc3d8b03e5842ae999667916dd":[9,1,1,0,1,600,4],
-"classmrmeshpy_1_1NeighborDir.html#a1702a9cd76d367722a3b85e4b89a1b47":[9,1,0,0,2,600,5],
-"classmrmeshpy_1_1NeighborDir.html#a1702a9cd76d367722a3b85e4b89a1b47":[9,1,1,0,1,600,5]
+"classmrmeshpy_1_1NeighborDir.html#a0a3cc3545be89de4f0dd4bc454cf62f6":[9,1,1,0,1,600,8]
 };

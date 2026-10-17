@@ -1,5 +1,8 @@
 var NAVTREEINDEX103 =
 {
+"classMR_1_1EmbeddedStructureParameters.html#aaaa62bbd2fd422ec831786bd5b2440b5":[9,3,0,0,0,1193,1],
+"classMR_1_1EmbeddedStructureParameters.html#ac09be6aa745a228d7d075dd941039fc0":[9,3,0,0,0,1193,2],
+"classMR_1_1EmbeddedStructureParameters.html#ad485383e40a0fb97816cef6078fff5eb":[9,3,0,0,0,1193,3],
 "classMR_1_1EmbeddedStructureParameters.html#ae5b8fac3ca18fefa250604327019fb46":[9,3,0,0,0,1193,10],
 "classMR_1_1EmbeddedStructureParameters.html#af92cd819d25e7dbf9d47d1cdf37714a0":[9,3,0,0,0,1193,11],
 "classMR_1_1EndMillCutter.html":[9,3,0,0,0,1194],
@@ -246,8 +249,5 @@ var NAVTREEINDEX103 =
 "classMR_1_1FaceNormals.html#a6cf5c7c0ff6ea6aef4633e766dba29d0":[9,3,0,0,0,1210,27],
 "classMR_1_1FaceNormals.html#a7232281273dfad4701fc4b24cf922e35":[9,3,0,0,0,1210,14],
 "classMR_1_1FaceNormals.html#a74a23180f5757b3918ef8bc9f4bc07b5":[9,3,0,0,0,1210,1],
-"classMR_1_1FaceNormals.html#a7ba5bd6e7d3ebc78d1c385d33cdc1157":[9,3,0,0,0,1210,21],
-"classMR_1_1FaceNormals.html#a84a14a3573f1921da29b66d450a200f4":[9,3,0,0,0,1210,16],
-"classMR_1_1FaceNormals.html#a89efd4265b3134d7ed73e9473af0239d":[9,3,0,0,0,1210,5],
-"classMR_1_1FaceNormals.html#a8d58ae7f092ba9543b3f66c276d7ee0c":[9,3,0,0,0,1210,22]
+"classMR_1_1FaceNormals.html#a7ba5bd6e7d3ebc78d1c385d33cdc1157":[9,3,0,0,0,1210,21]
 };

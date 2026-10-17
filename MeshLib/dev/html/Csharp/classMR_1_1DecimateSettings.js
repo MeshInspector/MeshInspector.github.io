@@ -1,7 +1,7 @@
 var classMR_1_1DecimateSettings =
 [
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab67032cee10cf045f9a4cee048756b24", null ],
-    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab66d46cb470b18f40aa96568d7c2fba5", null ],
+    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a0d0aaaffc92573ff63bb31d9867e632a", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a99a889cfdc331349b8e18b3b2fc5d088", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#aa705d47a48108e8562a3cd9a12128b6d", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d", null ],
@@ -27,6 +27,7 @@ var classMR_1_1DecimateSettings =
     [ "packMesh", "classMR_1_1DecimateSettings.html#a9967784a45ec0ed10eae8055d3868d67", null ],
     [ "partFaces", "classMR_1_1DecimateSettings.html#a492c1ffd1bc957984b1d0f955ad47706", null ],
     [ "preCollapse", "classMR_1_1DecimateSettings.html#a87f9f04e45a05c5bb4faa942ff24d7a8", null ],
+    [ "preventNormalFlips", "classMR_1_1DecimateSettings.html#a47cea23db5f8bf51da034d446e08586c", null ],
     [ "progressCallback", "classMR_1_1DecimateSettings.html#a4984b848772dfb665350a9ba3696eec5", null ],
     [ "region", "classMR_1_1DecimateSettings.html#a9aa16e7824c46218171c37ffb38efebe", null ],
     [ "regionEdges", "classMR_1_1DecimateSettings.html#a4658a59611530cb49ce808a51b6659b1", null ],

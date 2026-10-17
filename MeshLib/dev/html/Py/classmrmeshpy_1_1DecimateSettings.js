@@ -2,7 +2,7 @@ var classmrmeshpy_1_1DecimateSettings =
 [
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#adc864beb92ab0473ec0a508b57b3f3f8", null ],
     [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#a051ad80dd4673ad4e825bdef48419f87", null ],
-    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#aca89d6a389ef7cdff78739e4312d0197", null ],
+    [ "__init__", "classmrmeshpy_1_1DecimateSettings.html#afb87ba03cd8419f59e61a276a102b456", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#ad23e1338af289f8942bea68e493a1c69", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimateSettings.html#acc3cfe893142f2e7424ac9f6d07c5285", null ],
     [ "angleWeightedDistToPlane", "classmrmeshpy_1_1DecimateSettings.html#ad18aacdc6d0ce2b4f8b4fa982d1a1560", null ],
@@ -45,6 +45,8 @@ var classmrmeshpy_1_1DecimateSettings =
     [ "partFaces", "classmrmeshpy_1_1DecimateSettings.html#a006981886b21b800b6e3d76e7bdd25ae", null ],
     [ "preCollapse", "classmrmeshpy_1_1DecimateSettings.html#ac1f21277339e973178f26d5398a53a22", null ],
     [ "preCollapse", "classmrmeshpy_1_1DecimateSettings.html#aef406f827ad416d3d4a437a23acc0034", null ],
+    [ "preventNormalFlips", "classmrmeshpy_1_1DecimateSettings.html#ade342b6b63db228857a0929387665379", null ],
+    [ "preventNormalFlips", "classmrmeshpy_1_1DecimateSettings.html#ad5d7e383c6acee772aced5f8db24a5d0", null ],
     [ "progressCallback", "classmrmeshpy_1_1DecimateSettings.html#ac67327171494d7697f9a9feae448d56f", null ],
     [ "progressCallback", "classmrmeshpy_1_1DecimateSettings.html#a4dde0c1220e3992b4f6d242af36040e8", null ],
     [ "region", "classmrmeshpy_1_1DecimateSettings.html#a3da95241ed69d97ee6fc5ffc0adee881", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1UI_1_1CachedTextSize.html":[9,0,0,20,776],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html":[9,0,0,20,774],
 "structMR_1_1UI_1_1CustomConfigModalSettings.html":[9,0,0,20,778],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[9,0,1,0,1,51,11,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,856],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,20,857],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html":[9,0,0,2,18,1],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html":[9,0,0,2,18,0],
-"structMR_1_1VoxelsSave_1_1SavingSettings.html":[9,0,1,0,1,55,0]
+"structMR_1_1VoxelsLoad_1_1RawParameters.html":[9,0,0,2,18,0]
 };

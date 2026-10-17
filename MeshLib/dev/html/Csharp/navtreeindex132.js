@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1SelfIntersections_1_1Settings.html#ac257e2fb2a2cff1d12140c1ed50022fd":[9,3,0,0,0,1638,1,9],
+"classMR_1_1SelfIntersections_1_1Settings.html#ac993fa3cd74d0cef09e91c0108e51d30":[9,3,0,0,0,1638,1,4],
+"classMR_1_1SelfIntersections_1_1Settings.html#aca027ac4e4873596c80ec488fe3bc2b9":[9,3,0,0,0,1638,1,8],
 "classMR_1_1SelfIntersections_1_1Settings.html#ad7465e182463e34befdd374819b08e2c":[9,3,0,0,0,1638,1,10],
 "classMR_1_1SelfIntersections_1_1Settings.html#aeb583c32541bbf1c2cfc791021f8313f":[9,3,0,0,0,1638,1,1],
 "classMR_1_1SelfIntersections_1_1Settings.html#aec99a28a17b6b1eb0dd0939ae2f96d60":[9,3,0,0,0,1638,1,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1SkyPatch.html#abe998e94e7a14fd0d21bed821c8eb32e":[9,3,0,0,0,1662,6],
 "classMR_1_1SkyPatch.html#acb43d0e50815d98ada274126255a380e":[9,3,0,0,0,1662,2],
 "classMR_1_1SkyPatch.html#ad65bdaa6a7d9e7eede397834d4ada9b2":[9,3,0,0,0,1662,0],
-"classMR_1_1SliceInfo.html":[9,3,0,0,0,1663],
-"classMR_1_1SliceInfo.html#a25501c41d7a4cc880ac824eb8f976a30":[9,3,0,0,0,1663,8],
-"classMR_1_1SliceInfo.html#a33fed4365f52d8fc4cf8b6d8791bcc45":[9,3,0,0,0,1663,6],
-"classMR_1_1SliceInfo.html#a3cdf13d075d4560705f53bd5f43f9770":[9,3,0,0,0,1663,5]
+"classMR_1_1SliceInfo.html":[9,3,0,0,0,1663]
 };

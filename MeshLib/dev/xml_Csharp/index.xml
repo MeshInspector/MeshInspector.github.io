@@ -12764,6 +12764,7 @@
     <member refid="classMR_1_1Const__DecimateSettings_1a0db58b5dfc996b7da8cb64062bcc4f9a" kind="property"><name>maxBdShift</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1af3dd234ef39f48aa23e8c8f7b26b68b4" kind="property"><name>maxTriangleAspectRatio</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1ae15d8a986c59c51af33874572ac8d3db" kind="property"><name>criticalTriAspectRatio</name></member>
+    <member refid="classMR_1_1Const__DecimateSettings_1a4df102049cb80543014f54f185b57a96" kind="property"><name>preventNormalFlips</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a849c5886afce8ef09720bf5caad2e18b" kind="property"><name>tinyEdgeLength</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a004998eb81e23e3de0e7d671dd14572a" kind="property"><name>stabilizer</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a5b98104d4d0ce4400db01ab16d5d758a" kind="property"><name>angleWeightedDistToPlane</name></member>
@@ -12796,6 +12797,7 @@
     <member refid="classMR_1_1Const__DecimateSettings_1abb7c1b25ba001730fa98cbf1b7a3242c" kind="variable"><name>__ref_storage_maxBdShift</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a09c093f5e5a2ec1d45339bb6d7ab6086" kind="variable"><name>__ref_storage_maxTriangleAspectRatio</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a87f4d035bedb288de6b32f8f6b6aa6c1" kind="variable"><name>__ref_storage_criticalTriAspectRatio</name></member>
+    <member refid="classMR_1_1Const__DecimateSettings_1a183066a0fc02373af6c05be486a3d84c" kind="variable"><name>__ref_storage_preventNormalFlips</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1ace431deffae6d72bb13afd70878d23df" kind="variable"><name>__ref_storage_tinyEdgeLength</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a50fb3d6707eee2ab4cf5889637fcb15b" kind="variable"><name>__ref_storage_stabilizer</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a1c294ea457892ee12391778669fc91d9" kind="variable"><name>__ref_storage_angleWeightedDistToPlane</name></member>
@@ -12821,13 +12823,13 @@
     <member refid="classMR_1_1Const__DecimateSettings_1a08f9fdd46eaa7d957b9f55770ba40302" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a13aa77795e9c44082a4e1ab4b2bb2820" kind="function"><name>Dispose</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a3a3dde2ea4cfeb3893a023c4ad3769fa" kind="function"><name>Const_DecimateSettings</name></member>
-    <member refid="classMR_1_1Const__DecimateSettings_1aec546f95c297885c51237dc07372c4f6" kind="function"><name>Const_DecimateSettings</name></member>
+    <member refid="classMR_1_1Const__DecimateSettings_1a8470dbd19231df41cc9581203a91fabc" kind="function"><name>Const_DecimateSettings</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a416cbe92341394d850efa8a7306a0d67" kind="function"><name>Const_DecimateSettings</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a476b386045686fc33af580f15bf4fd1c" kind="function"><name>Const_DecimateSettings</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1aed5f611167dc3065bea632c41eb1e2d8" kind="function"><name>Const_DecimateSettings</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a48e44a4f36b05fae04b9dca3275a3f2b" kind="function"><name>~Const_DecimateSettings</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a963114c1aa5a10572ef7da09a6c1488f" kind="function"><name>Const_DecimateSettings</name></member>
-    <member refid="classMR_1_1Const__DecimateSettings_1a25f8ca3c26b49ad4bca985a5af9cb13f" kind="function"><name>__MR_DecimateSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1Const__DecimateSettings_1ae54a0880918c501ede84e99a414d8a2f" kind="function"><name>__MR_DecimateSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a5697dff8219c4ff0c622237860024a53" kind="function"><name>__MR_DecimateSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a7c22d45a0a70b41148f919e423f0d6c3" kind="function"><name>__MR_DecimateSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1af33b71c173058456f16a388de091bde0" kind="function"><name>__MR_DecimateSettings_Destroy</name></member>
@@ -12852,6 +12854,7 @@
     <member refid="classMR_1_1Const__DecimateSettings_1abc9b724df4fc82c990a7bda8d3c28693" kind="function"><name>__MR_DecimateSettings_Get_packMesh</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1ad74fde96898f546f9b81d33193301514" kind="function"><name>__MR_DecimateSettings_Get_partFaces</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a26934828ae6f59f8b3708ec88af90da7" kind="function"><name>__MR_DecimateSettings_Get_preCollapse</name></member>
+    <member refid="classMR_1_1Const__DecimateSettings_1a78dd9186a50a579473089894c4350b3e" kind="function"><name>__MR_DecimateSettings_Get_preventNormalFlips</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a85f62361e150b83d1c5346fe1f35ef98" kind="function"><name>__MR_DecimateSettings_Get_progressCallback</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a55cf6024ccbfbaf03e6a0a84072b4be2" kind="function"><name>__MR_DecimateSettings_Get_region</name></member>
     <member refid="classMR_1_1Const__DecimateSettings_1a43144d4f5312edb6a5bd663bb3fdb3ca" kind="function"><name>__MR_DecimateSettings_Get_regionEdges</name></member>
@@ -44105,6 +44108,7 @@
     <member refid="classMR_1_1DecimateSettings_1a193a618670d11e983f53b8bbb475dc82" kind="property"><name>maxBdShift</name></member>
     <member refid="classMR_1_1DecimateSettings_1a7c571da61f8e47c5b445e4a1cdcb37cd" kind="property"><name>maxTriangleAspectRatio</name></member>
     <member refid="classMR_1_1DecimateSettings_1aa3e405ad22a6d187b84173b2be3f3956" kind="property"><name>criticalTriAspectRatio</name></member>
+    <member refid="classMR_1_1DecimateSettings_1a47cea23db5f8bf51da034d446e08586c" kind="property"><name>preventNormalFlips</name></member>
     <member refid="classMR_1_1DecimateSettings_1a5e9863ef259f30192b2acbc1b3a78ec6" kind="property"><name>tinyEdgeLength</name></member>
     <member refid="classMR_1_1DecimateSettings_1a0c8618241fb4ab98e199e480d5808066" kind="property"><name>stabilizer</name></member>
     <member refid="classMR_1_1DecimateSettings_1a1f59a8f451281096bee895e0f09f083d" kind="property"><name>angleWeightedDistToPlane</name></member>
@@ -44133,13 +44137,13 @@
     <member refid="classMR_1_1DecimateSettings_1a112b89ae894d191a8da473e6372dc580" kind="property"><name>minFacesInPart</name></member>
     <member refid="classMR_1_1DecimateSettings_1a29c5319a7e8deee2d7f4a7ae75c69233" kind="function"><name>DecimateSettings</name></member>
     <member refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" kind="function"><name>DecimateSettings</name></member>
-    <member refid="classMR_1_1DecimateSettings_1ab66d46cb470b18f40aa96568d7c2fba5" kind="function"><name>DecimateSettings</name></member>
+    <member refid="classMR_1_1DecimateSettings_1a0d0aaaffc92573ff63bb31d9867e632a" kind="function"><name>DecimateSettings</name></member>
     <member refid="classMR_1_1DecimateSettings_1a99a889cfdc331349b8e18b3b2fc5d088" kind="function"><name>DecimateSettings</name></member>
     <member refid="classMR_1_1DecimateSettings_1aa705d47a48108e8562a3cd9a12128b6d" kind="function"><name>DecimateSettings</name></member>
     <member refid="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" kind="function"><name>DecimateSettings</name></member>
     <member refid="classMR_1_1DecimateSettings_1a41a5f86701c05809d1d01a45254b2185" kind="function"><name>assign</name></member>
     <member refid="classMR_1_1DecimateSettings_1a0e1a40236689fd5ed673832de09997f3" kind="function"><name>__MR_DecimateSettings_AssignFromAnother</name></member>
-    <member refid="classMR_1_1DecimateSettings_1a15138ca8ec0e45ff48a95dc487ce6a7b" kind="function"><name>__MR_DecimateSettings_ConstructFrom</name></member>
+    <member refid="classMR_1_1DecimateSettings_1aa4a4895633b8c0111082c4d11e8892ba" kind="function"><name>__MR_DecimateSettings_ConstructFrom</name></member>
     <member refid="classMR_1_1DecimateSettings_1a18110ef280c45719c7a3976e862b5a53" kind="function"><name>__MR_DecimateSettings_ConstructFromAnother</name></member>
     <member refid="classMR_1_1DecimateSettings_1a5e0381cb70ce5a75f2216d2c4e240c2d" kind="function"><name>__MR_DecimateSettings_DefaultConstruct</name></member>
     <member refid="classMR_1_1DecimateSettings_1a8aa907c678fa21f882cca9f38e1e8089" kind="function"><name>__MR_DecimateSettings_GetMutable_adjustCollapse</name></member>

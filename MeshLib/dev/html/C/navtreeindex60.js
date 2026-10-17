@@ -1,11 +1,14 @@
 var NAVTREEINDEX60 =
 {
-"MRMeshDecimate_8h.html#af58657741abda5f50aaf0f93f5d3d5ae":[9,2,2,0,0,0,0,1,175,221],
-"MRMeshDecimate_8h.html#af7cfb32bcd5cd85987823d58b5700010":[9,2,2,0,0,0,0,1,175,197],
-"MRMeshDecimate_8h.html#af830e4be7edf947f274e65c20eec63f4":[9,2,2,0,0,0,0,1,175,128],
+"MRMeshDecimate_8h.html#af102da5247fa1a080154403b3ce8fcb9":[9,2,2,0,0,0,0,1,175,100],
+"MRMeshDecimate_8h.html#af2a593bb6487338b1e3b5a159f65c18c":[9,2,2,0,0,0,0,1,175,21],
+"MRMeshDecimate_8h.html#af5691998bfbef826a875560ac0580434":[9,2,2,0,0,0,0,1,175,120],
+"MRMeshDecimate_8h.html#af58657741abda5f50aaf0f93f5d3d5ae":[9,2,2,0,0,0,0,1,175,224],
+"MRMeshDecimate_8h.html#af7cfb32bcd5cd85987823d58b5700010":[9,2,2,0,0,0,0,1,175,200],
+"MRMeshDecimate_8h.html#af830e4be7edf947f274e65c20eec63f4":[9,2,2,0,0,0,0,1,175,130],
 "MRMeshDecimate_8h.html#afb32f5b28e42df692b9d7fb6ed603d9c":[9,2,2,0,0,0,0,1,175,47],
-"MRMeshDecimate_8h.html#afc8594d7af7b032477e831fae1e0012c":[9,2,2,0,0,0,0,1,175,155],
-"MRMeshDecimate_8h.html#afca4a31d16dbeda0614f169ddca638dc":[9,2,2,0,0,0,0,1,175,147],
+"MRMeshDecimate_8h.html#afc8594d7af7b032477e831fae1e0012c":[9,2,2,0,0,0,0,1,175,158],
+"MRMeshDecimate_8h.html#afca4a31d16dbeda0614f169ddca638dc":[9,2,2,0,0,0,0,1,175,150],
 "MRMeshDecimate_8h.html#aff543414478a21a6383678de5719058b":[9,2,2,0,0,0,0,1,175,12],
 "MRMeshDecimate_8h_source.html":[9,2,2,0,0,0,0,1,175],
 "MRMeshDelete_8h.html":[9,2,2,0,0,0,0,1,177],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "MRMeshFillHole_8h.html#aa6654c3b1cbd7e4932b7270a00868f1a":[9,2,2,0,0,0,0,1,184,87],
 "MRMeshFillHole_8h.html#aaaf68def94018db7b43526ce5b44cda6":[9,2,2,0,0,0,0,1,184,72],
 "MRMeshFillHole_8h.html#aacb6e8956c70256df406685442c141ab":[9,2,2,0,0,0,0,1,184,14],
-"MRMeshFillHole_8h.html#ab391387fa150a1ab1bfb4e5b4b720bae":[9,2,2,0,0,0,0,1,184,7],
-"MRMeshFillHole_8h.html#ab3bac0844d3f86cba1e0152bdd8c9aeb":[9,2,2,0,0,0,0,1,184,54],
-"MRMeshFillHole_8h.html#ab42646ad3e891206417b57f0fc3067b7":[9,2,2,0,0,0,0,1,184,89],
-"MRMeshFillHole_8h.html#ab43a0900f0699abec90023d0bc3572e8":[9,2,2,0,0,0,0,1,184,75]
+"MRMeshFillHole_8h.html#ab391387fa150a1ab1bfb4e5b4b720bae":[9,2,2,0,0,0,0,1,184,7]
 };

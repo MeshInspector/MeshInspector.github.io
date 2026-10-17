@@ -14702,6 +14702,9 @@
     <member refid="MRMeshDecimate_8h_1ab757a6830ba5e37f4bf9ebc80faa6677" kind="function"><name>MR_DecimateSettings_Get_criticalTriAspectRatio</name></member>
     <member refid="MRMeshDecimate_8h_1ab75fac3e5984c9eaf59aa4d90c54a702" kind="function"><name>MR_DecimateSettings_Set_criticalTriAspectRatio</name></member>
     <member refid="MRMeshDecimate_8h_1a72ca06ab1ae9c36738df48f91521a681" kind="function"><name>MR_DecimateSettings_GetMutable_criticalTriAspectRatio</name></member>
+    <member refid="MRMeshDecimate_8h_1ac7161af17f2ae9aceb827969fffe9132" kind="function"><name>MR_DecimateSettings_Get_preventNormalFlips</name></member>
+    <member refid="MRMeshDecimate_8h_1a93c51ccd4bddd3267207caece4a64d59" kind="function"><name>MR_DecimateSettings_Set_preventNormalFlips</name></member>
+    <member refid="MRMeshDecimate_8h_1ac8d6ec1051890c96469ab9f85c0d5ad3" kind="function"><name>MR_DecimateSettings_GetMutable_preventNormalFlips</name></member>
     <member refid="MRMeshDecimate_8h_1aba733f9c5ef068d36dafdbca07b1237e" kind="function"><name>MR_DecimateSettings_Get_tinyEdgeLength</name></member>
     <member refid="MRMeshDecimate_8h_1a464a318a9744b02d8b5f147541b660d8" kind="function"><name>MR_DecimateSettings_Set_tinyEdgeLength</name></member>
     <member refid="MRMeshDecimate_8h_1a6753c96e752eb5309d77e5304d304a56" kind="function"><name>MR_DecimateSettings_GetMutable_tinyEdgeLength</name></member>
@@ -14782,7 +14785,7 @@
     <member refid="MRMeshDecimate_8h_1a2262fed9ad3b37b373946c4f375b5178" kind="function"><name>MR_DecimateSettings_GetMutable_minFacesInPart</name></member>
     <member refid="MRMeshDecimate_8h_1a11fc6de32c51d96f2d0ecf2cdf0d89f2" kind="function"><name>MR_DecimateSettings_DefaultConstruct</name></member>
     <member refid="MRMeshDecimate_8h_1a71192febccae648d80fefdfdf94dadbc" kind="function"><name>MR_DecimateSettings_DefaultConstructArray</name></member>
-    <member refid="MRMeshDecimate_8h_1a75c44aa4b33f3d74ba6c9cabb046726a" kind="function"><name>MR_DecimateSettings_ConstructFrom</name></member>
+    <member refid="MRMeshDecimate_8h_1a200550115f795b9cef277277153b0b93" kind="function"><name>MR_DecimateSettings_ConstructFrom</name></member>
     <member refid="MRMeshDecimate_8h_1a6df6d574a873cbde9b7eea445b0228af" kind="function"><name>MR_DecimateSettings_OffsetPtr</name></member>
     <member refid="MRMeshDecimate_8h_1a0ea64b3d47778328d7dbe81bf0b20604" kind="function"><name>MR_DecimateSettings_OffsetMutablePtr</name></member>
     <member refid="MRMeshDecimate_8h_1a105ccafb7f2f8853c907acd7290e5fa5" kind="function"><name>MR_DecimateSettings_ConstructFromAnother</name></member>

@@ -218,13 +218,13 @@ var NAVTREEINDEX =
 "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html#af5fdf7810e48bc37be0ad0931e5afc26",
 "structImGui_1_1SavedWindowPosParams.html#ae153555ca0fe067806fd161a5eafe2f6",
 "structMR_1_1DecimateSettings.html#a5ec13d6be73db6e77b404aea2c0d3371",
-"structMR_1_1FixCreasesParams.html#a6921929310773c0b26398debbe0ee1f7",
+"structMR_1_1FixCreasesParams.html#a3c47008ac5a83366788b6b52976b5e4c",
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a2336292a36c4f80334c9d987104aa00a",
-"structMR_1_1Matrix2.html",
-"structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html",
-"structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26",
-"structMR_1_1SceneColors.html",
-"structMR_1_1UI_1_1CheckboxOrModifierState.html",
+"structMR_1_1Matrix.html#afcec7ff199943212099a907797f41293",
+"structMR_1_1MeshComponents_1_1ExpandToComponentsParams.html#aee9c119e10ee9a63b219e9db0061a578",
+"structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217",
+"structMR_1_1SaveSettings.html",
+"structMR_1_1UI_1_1CachedTextSize.html",
 "structMR_1_1VoxelsSave_1_1SavingSettings.html"
 ];
 

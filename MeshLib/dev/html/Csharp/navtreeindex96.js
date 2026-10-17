@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"classMR_1_1Const__VisualObject.html#a138a8f11030b22a44d9722e8137cc5f4":[9,3,0,0,0,1024,54],
+"classMR_1_1Const__VisualObject.html#a15f545516eec449cbb9572e818335498":[9,3,0,0,0,1024,27],
 "classMR_1_1Const__VisualObject.html#a1b6dc701ca5d7f4d2b29878293bb6e70":[9,3,0,0,0,1024,19],
 "classMR_1_1Const__VisualObject.html#a1d3a708ded0c52d13bc58920ae474857":[9,3,0,0,0,1024,2],
 "classMR_1_1Const__VisualObject.html#a1d714dc4b0d7ca6c3feb47a5c8a23f60":[9,3,0,0,0,1024,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#a67a97f53a4bc91eddfb725a1167496ce":[9,3,0,0,0,1045,3],
 "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html#af61122b9b82c84e234ec4bb1ed3fab1a":[9,3,0,0,0,1045,4],
 "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html":[9,3,0,0,0,1033],
-"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a0e2284cb8dc3097acf99d975d03b0230":[9,3,0,0,0,1033,1],
-"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a35121e314aa96f94a71b1d3c13f4827e":[9,3,0,0,0,1033,5],
-"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a4565f3f620b5098b5916600ee7899498":[9,3,0,0,0,1033,3]
+"classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html#a0e2284cb8dc3097acf99d975d03b0230":[9,3,0,0,0,1033,1]
 };

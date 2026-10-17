@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointCloud.html#a461af7799e74931eb23168bd86111217":[9,0,0,12,0,0],
 "structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26":[9,0,0,12,0,1],
 "structMR_1_1PointCloud.html#a5982bc0f5607f15bb30837797ab27153":[9,0,0,12,0,17],
 "structMR_1_1PointCloud.html#a5da247e2172bb10e5ba6ed1105d5c167":[9,0,0,12,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RibbonTab.html":[9,0,0,20,707],
 "structMR_1_1RigidScaleXf3.html":[9,0,0,20,496],
 "structMR_1_1RigidXf3.html":[9,0,0,20,497],
-"structMR_1_1SaveObjectSettings.html":[9,0,0,20,715],
-"structMR_1_1SaveSettings.html":[9,0,0,20,501]
+"structMR_1_1SaveObjectSettings.html":[9,0,0,20,715]
 };

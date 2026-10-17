@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a5b558d1980fd737456a4ee25f6b4da23":[9,3,0,0,0,1133,4,4],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a6a224ad6a8fb2bdbf20eb938043c070c":[9,3,0,0,0,1133,4,0],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a9744ae3662b9cdc2ed5c8002e1139644":[9,3,0,0,0,1133,4,12],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a9b9eebd20ff03af9f494ea0ae9908464":[9,3,0,0,0,1133,4,3],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#aadf9d89f98b255d7b0501aa5b0344602":[9,3,0,0,0,1133,4,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1DecimatePolylineResult.html#addfe4e10968d02c38ccd2a83b77afccb":[9,3,0,0,0,1143,1],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html":[9,3,0,0,0,1144],
 "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a091322056865ca6e2db6e05f31ef02d6":[9,3,0,0,0,1144,4],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a0e134506a5044ff2d17926e673f20aef":[9,3,0,0,0,1144,8],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a133cf8a04c1fc6fde4e87f0ec3cd0c37":[9,3,0,0,0,1144,11],
-"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2559b6eed510406317ae45c8c6c229bd":[9,3,0,0,0,1144,6]
+"classMR_1_1DecimatePolylineSettings__MRVector2f.html#a0e134506a5044ff2d17926e673f20aef":[9,3,0,0,0,1144,8]
 };

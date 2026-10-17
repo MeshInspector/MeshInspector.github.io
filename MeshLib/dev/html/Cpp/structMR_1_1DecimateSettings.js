@@ -21,6 +21,7 @@ var structMR_1_1DecimateSettings =
     [ "packMesh", "structMR_1_1DecimateSettings.html#a320a08e8abf402aa6a0dae956ad9be0e", null ],
     [ "partFaces", "structMR_1_1DecimateSettings.html#a7d69e19f2609b7330c6ac5d17a9ebfff", null ],
     [ "preCollapse", "structMR_1_1DecimateSettings.html#a5901e72dc3fd85459f38318a894afbbd", null ],
+    [ "preventNormalFlips", "structMR_1_1DecimateSettings.html#a83cf18a566f0fa10cc6421ddcc2487e6", null ],
     [ "progressCallback", "structMR_1_1DecimateSettings.html#aa54526c521844dcca8dc5aa91e3628de", null ],
     [ "region", "structMR_1_1DecimateSettings.html#a9359f9da0b131c164d942b1361bd9644", null ],
     [ "regionEdges", "structMR_1_1DecimateSettings.html#a6d86579d9da2f3a27a05bd02a9c8af2c", null ],

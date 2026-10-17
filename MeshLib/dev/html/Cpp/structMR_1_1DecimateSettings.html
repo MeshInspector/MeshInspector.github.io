@@ -153,6 +153,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af1fd605860fa7a20931506008f29daa9" id="r_af1fd605860fa7a20931506008f29daa9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1fd605860fa7a20931506008f29daa9">maxTriangleAspectRatio</a> = 20</td></tr>
 <tr class="memdesc:af1fd605860fa7a20931506008f29daa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximal possible aspect ratio of a triangle introduced during decimation.  <br /></td></tr>
 <tr class="memitem:a5f0e2ae094cddee1b490103a349feda5" id="r_a5f0e2ae094cddee1b490103a349feda5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f0e2ae094cddee1b490103a349feda5">criticalTriAspectRatio</a> = FLT_MAX</td></tr>
+<tr class="memitem:a83cf18a566f0fa10cc6421ddcc2487e6" id="r_a83cf18a566f0fa10cc6421ddcc2487e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83cf18a566f0fa10cc6421ddcc2487e6">preventNormalFlips</a> = true</td></tr>
 <tr class="memitem:ac0e97c22838e162343661fd588f7a326" id="r_ac0e97c22838e162343661fd588f7a326"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0e97c22838e162343661fd588f7a326">tinyEdgeLength</a> = -1</td></tr>
 <tr class="memdesc:ac0e97c22838e162343661fd588f7a326"><td class="mdescLeft">&#160;</td><td class="mdescRight">edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio  <br /></td></tr>
 <tr class="memitem:ab8a313e9caff73dd179f03a9c7b80baa" id="r_ab8a313e9caff73dd179f03a9c7b80baa"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a313e9caff73dd179f03a9c7b80baa">stabilizer</a> = 0.001f</td></tr>
@@ -520,6 +521,21 @@ Public Attributes</h2></td></tr>
 
 <p>The user can provide this optional callback that is invoked immediately before edge collapse;. </p>
 <p>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </p>
+
+</div>
+</div>
+<a id="a83cf18a566f0fa10cc6421ddcc2487e6" name="a83cf18a566f0fa10cc6421ddcc2487e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83cf18a566f0fa10cc6421ddcc2487e6">&#9670;&#160;</a></span>preventNormalFlips</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::DecimateSettings::preventNormalFlips = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to prohibit a collapse if it inverts the normal of a remaining triangle; turning it off (together with maxTriangleAspectRatio = FLT_MAX) makes decimation faster, but some triangles may appear inverted </p>
 
 </div>
 </div>

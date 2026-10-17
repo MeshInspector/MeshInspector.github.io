@@ -1,5 +1,9 @@
 var NAVTREEINDEX177 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html":[9,1,0,0,2,1060],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html":[9,1,1,0,1,1060],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a007fd1feb6b0b324de88f30ddadbb016":[9,1,0,0,2,1060,24],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a007fd1feb6b0b324de88f30ddadbb016":[9,1,1,0,1,1060,24],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a00ffbd1f0d1e579a323a1fcdfe51830b":[9,1,0,0,2,1060,1],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a00ffbd1f0d1e579a323a1fcdfe51830b":[9,1,1,0,1,1060,1],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a15611bb55c173fa6ba346add73d50c1d":[9,1,0,0,2,1060,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX177 =
 "classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[9,1,0,0,2,1062,20],
 "classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[9,1,1,0,1,1062,20],
 "classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[9,1,0,0,2,1063],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[9,1,1,0,1,1063],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a0488161a7cb01a0685a99a219e78d916":[9,1,0,0,2,1063,10],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a0488161a7cb01a0685a99a219e78d916":[9,1,1,0,1,1063,10],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a08deede4f4b20455de210efbc1ff2b22":[9,1,0,0,2,1063,16],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html#a08deede4f4b20455de210efbc1ff2b22":[9,1,1,0,1,1063,16]
+"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[9,1,1,0,1,1063]
 };

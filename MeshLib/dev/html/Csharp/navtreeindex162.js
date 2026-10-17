@@ -1,5 +1,8 @@
 var NAVTREEINDEX162 =
 {
+"structMR_1_1Vector3f.html#a3caade5bf04fd8d035312aa536f6e6a5":[9,3,0,0,0,1771,69],
+"structMR_1_1Vector3f.html#a3cb0579eec4f38bee26ea936d12cb082":[9,3,0,0,0,1771,46],
+"structMR_1_1Vector3f.html#a3e605a1b4ccad2933f2b1ef484fa03ba":[9,3,0,0,0,1771,11],
 "structMR_1_1Vector3f.html#a3f5f43a7aa33498390974ac0dd1fd906":[9,3,0,0,0,1771,61],
 "structMR_1_1Vector3f.html#a411800c154bd06560941c0a20cb2a83c":[9,3,0,0,0,1771,70],
 "structMR_1_1Vector3f.html#a43ffc65df6376ae6331ad8645d02808e":[9,3,0,0,0,1771,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX162 =
 "structMR_1_1Vector4d.html#a247c2e2df64d3752f346c0b257b96024":[9,3,0,0,0,1776,32],
 "structMR_1_1Vector4d.html#a27b4b1fc3efe773c408de7a10732fd5e":[9,3,0,0,0,1776,49],
 "structMR_1_1Vector4d.html#a2fba2fdb6f40c7d758ad10de9f2eafdc":[9,3,0,0,0,1776,34],
-"structMR_1_1Vector4d.html#a318ddd799f2e06ee25cfb96f783d9e2d":[9,3,0,0,0,1776,10],
-"structMR_1_1Vector4d.html#a360b9d12c3469405af0a889262f93703":[9,3,0,0,0,1776,2],
-"structMR_1_1Vector4d.html#a372f7f29d0a73b689b14c2e95eaa6184":[9,3,0,0,0,1776,24],
-"structMR_1_1Vector4d.html#a393cb43ee4acc3dcfb9f72a08f8ecbbf":[9,3,0,0,0,1776,18]
+"structMR_1_1Vector4d.html#a318ddd799f2e06ee25cfb96f783d9e2d":[9,3,0,0,0,1776,10]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX133 =
 {
+"classMR_1_1SliceInfo.html#a25501c41d7a4cc880ac824eb8f976a30":[9,3,0,0,0,1663,8],
+"classMR_1_1SliceInfo.html#a33fed4365f52d8fc4cf8b6d8791bcc45":[9,3,0,0,0,1663,6],
+"classMR_1_1SliceInfo.html#a3cdf13d075d4560705f53bd5f43f9770":[9,3,0,0,0,1663,5],
 "classMR_1_1SliceInfo.html#a3dbab359dae4776982d459ed7e16f717":[9,3,0,0,0,1663,1],
 "classMR_1_1SliceInfo.html#a9aac1264ba8b0f4d44f5afae63f90f93":[9,3,0,0,0,1663,4],
 "classMR_1_1SliceInfo.html#a9e04082cfceb469a794d842bf7de37da":[9,3,0,0,0,1663,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX133 =
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a0116c6edc110721b8448ab5dc6b8fdd0":[9,3,0,0,0,1678,3,3],
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a1ae3ebe705177ef9369df9cca8a79ae8":[9,3,0,0,0,1678,3,4],
 "classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a2b680cb4a593e305172498417dfa8a1d":[9,3,0,0,0,1678,3,9],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a3ca4b2e9d8fbc21b74962d9014d08b96":[9,3,0,0,0,1678,3,2],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a3e9c29930ea4cb9b8558a553e90ea75c":[9,3,0,0,0,1678,3,12],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a691aec710db43ce9844b60e97bca1b78":[9,3,0,0,0,1678,3,6],
-"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a7089498a6e41301881f39bc79ae70379":[9,3,0,0,0,1678,3,7]
+"classMR_1_1Std_1_1SharedPtr__MRCudaComputePointsToDistanceVolume.html#a3ca4b2e9d8fbc21b74962d9014d08b96":[9,3,0,0,0,1678,3,2]
 };

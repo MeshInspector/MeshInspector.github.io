@@ -1,5 +1,8 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1FaceNormals.html#a84a14a3573f1921da29b66d450a200f4":[9,3,0,0,0,1210,16],
+"classMR_1_1FaceNormals.html#a89efd4265b3134d7ed73e9473af0239d":[9,3,0,0,0,1210,5],
+"classMR_1_1FaceNormals.html#a8d58ae7f092ba9543b3f66c276d7ee0c":[9,3,0,0,0,1210,22],
 "classMR_1_1FaceNormals.html#a8d6d8472c2805299ae481bc79e9cb873":[9,3,0,0,0,1210,8],
 "classMR_1_1FaceNormals.html#aa90f79cb7e683408bc658f4c9d036374":[9,3,0,0,0,1210,4],
 "classMR_1_1FaceNormals.html#aaa67a3578e91f5482b352567e464e972":[9,3,0,0,0,1210,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#ab2e4285b9d8097af0bbfe739326717fb":[9,3,0,0,0,1220,0,2,21],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#ac33315ede1ca712414456ce0093b8847":[9,3,0,0,0,1220,0,2,19],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#aca093b0309c564deed839d95c60a9dcb":[9,3,0,0,0,1220,0,2,9],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#ad8f2c9fc826110e9b4176193be7a8fc8":[9,3,0,0,0,1220,0,2,7],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#adb9d462160b2520bb94e1da342cc6e76":[9,3,0,0,0,1220,0,2,5],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#aee57de65892572ddb39d6116c794b3c6":[9,3,0,0,0,1220,0,2,22],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#af1845617106dcde98c0a9bca4514234f":[9,3,0,0,0,1220,0,2,16]
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#ad8f2c9fc826110e9b4176193be7a8fc8":[9,3,0,0,0,1220,0,2,7]
 };
