@@ -170,7 +170,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    settings.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
-<div class="line">    <span class="comment">// A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead</span></div>
+<div class="line">    <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
 <div class="line">    settings.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
@@ -210,7 +210,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">settings.maxError = 0.05 <span class="comment"># Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
-<div class="line"><span class="comment"># A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead</span></div>
+<div class="line"><span class="comment"># 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
 <div class="line">settings.subdivideParts = 16</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Decimate mesh</span></div>
@@ -225,7 +225,8 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <img src="decimate_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBuffer.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshDecimate.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
@@ -252,6 +253,11 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">// Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</span></div>
+<div class="line">    <span class="comment">// It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing</span></div>
+<div class="line">    <span class="keywordtype">bool</span> preserveAABBTree = <span class="keyword">false</span>;</div>
+<div class="line">    MR_PackMapping_Destroy( MR_Mesh_packOptimally_1( mesh, &amp;preserveAABBTree ) );</div>
+<div class="line"> </div>
 <div class="line">    <span class="comment">// Setup decimate parameters</span></div>
 <div class="line">    MR_DecimateSettings* params = MR_DecimateSettings_DefaultConstruct();</div>
 <div class="line"> </div>
@@ -260,7 +266,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">    MR_DecimateSettings_Set_maxError( params, 0.05f ); <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
-<div class="line">    <span class="comment">// A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead</span></div>
+<div class="line">    <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
 <div class="line">    MR_DecimateSettings_Set_subdivideParts( params, 16 );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Decimate mesh</span></div>
@@ -313,7 +319,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">            ds.maxError = 0.05f; <span class="comment">// Maximum error when decimation stops</span></div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
-<div class="line">            <span class="comment">// A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead</span></div>
+<div class="line">            <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</span></div>
 <div class="line">            ds.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// Decimate mesh</span></div>
@@ -354,7 +360,7 @@ $(function(){initNavTree('ExampleMeshDecimate.html','',''); });
 <div class="line">settings.maxError = 0.05; // Maximum error when decimation stops</div>
 <div class="line"> </div>
 <div class="line">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</div>
-<div class="line">// A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead</div>
+<div class="line">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead</div>
 <div class="line">settings.subdivideParts = 16;</div>
 <div class="line"> </div>
 <div class="line">// Decimate mesh</div>
@@ -376,6 +382,10 @@ Source mesh <div class="image">
 <div class="line">    // Load mesh.</div>
 <div class="line">    let mut mesh = meshlib::mesh_load::from_any_supported_format_2(&quot;mesh.stl&quot;, None).into_result().map_err(|error| format!(&quot;Failed to load mesh: {error}&quot;))?;</div>
 <div class="line"> </div>
+<div class="line">    // Repack mesh optimally without building an AABB tree, which decimation invalidates anyway.</div>
+<div class="line">    // It&#39;s not necessary but highly recommended to achieve the best performance in parallel processing.</div>
+<div class="line">    mesh.pack_optimally_1(Some(false));</div>
+<div class="line"> </div>
 <div class="line">    // Setup decimate parameters.</div>
 <div class="line">    let mut settings = meshlib::DecimateSettings::new();</div>
 <div class="line"> </div>
@@ -384,7 +394,7 @@ Source mesh <div class="image">
 <div class="line">    settings.set_max_error(0.05); // Maximum error when decimation stops.</div>
 <div class="line"> </div>
 <div class="line">    // Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</div>
-<div class="line">    // A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead.</div>
+<div class="line">    // 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead.</div>
 <div class="line">    settings.set_subdivide_parts(16);</div>
 <div class="line"> </div>
 <div class="line">    // Decimate mesh.</div>
@@ -436,7 +446,7 @@ Source mesh <div class="image">
 <div class="line">        settings.setMaxError(0.05f); <span class="comment">// Maximum error when decimation stops.</span></div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Number of parts for parallel processing, greatly improves performance at the cost of minor quality loss.</span></div>
-<div class="line">        <span class="comment">// A value close to the number of CPU cores is usually the fastest; much larger values add per-part overhead.</span></div>
+<div class="line">        <span class="comment">// 16 is a good choice even with fewer CPU cores, since smaller parts are processed faster; much larger values add per-part overhead.</span></div>
 <div class="line">        settings.setSubdivideParts(16);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Decimate mesh.</span></div>
