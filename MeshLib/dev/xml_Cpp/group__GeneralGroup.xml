@@ -138881,10 +138881,10 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
         </inbodydescription>
         <location file="MRMesh/MRPrism.h" line="12" column="11" declfile="MRMesh/MRPrism.h" declline="12" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gad8fa8ec5590f6b95bdbfc2224e8d190f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga8dc6b86e59d0d50adae0b3c868158ab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE void</type>
         <definition>MR_BIND_IGNORE void MR::processSelfSubtasks</definition>
-        <argsstring>(const AABBTree &amp;tree, std::vector&lt; NodeNode &gt; &amp;subtasks, std::vector&lt; NodeNode &gt; &amp;nextSubtasks, std::function&lt; Processing(const NodeNode &amp;)&gt; processLeaf, std::function&lt; Processing(const Box3f &amp;lBox, const Box3f &amp;rBox)&gt; processNodes)</argsstring>
+        <argsstring>(const AABBTree &amp;tree, std::vector&lt; NodeNode &gt; &amp;subtasks, std::vector&lt; NodeNode &gt; &amp;nextSubtasks, std::function&lt; Processing(const NodeNode &amp;)&gt; processLeaf, std::function&lt; Processing(const NodeNode &amp;)&gt; processNodes)</argsstring>
         <name>processSelfSubtasks</name>
         <qualifiedname>MR::processSelfSubtasks</qualifiedname>
         <param>
@@ -138906,7 +138906,7 @@ if 1) any of the vertices is invalid or not within the <ref refid="group__Genera
           <declname>processLeaf</declname>
         </param>
         <param>
-          <type>std::function&lt; Processing(const Box3f &amp;lBox, const Box3f &amp;rBox)&gt;</type>
+          <type>std::function&lt; Processing(const NodeNode &amp;)&gt;</type>
           <declname>processNodes</declname>
         </param>
         <briefdescription>
@@ -138952,7 +138952,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 <parametername>processNodes</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>function that determines how to process boxes</para>
+<para>function that determines how to process two different nodes (e.g. whether their boxes intersect)</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>

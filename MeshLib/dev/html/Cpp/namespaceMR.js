@@ -3298,7 +3298,7 @@ var namespaceMR =
     [ "printTimingTree", "group__BasicGroup.html#gaa062fb28e95de030cde47eb792db4270", null ],
     [ "printTimingTreeAtEnd", "group__BasicGroup.html#gaea0c8b01358b57ffcc2ca74961b6a912", null ],
     [ "processCloseTriangles", "group__AABBTreeGroup.html#ga751dcb67fc6f5cf0f46116fcf9cefd9c", null ],
-    [ "processSelfSubtasks", "group__GeneralGroup.html#gad8fa8ec5590f6b95bdbfc2224e8d190f", null ],
+    [ "processSelfSubtasks", "group__GeneralGroup.html#ga8dc6b86e59d0d50adae0b3c868158ab5", null ],
     [ "projArea", "group__GeneralGroup.html#gaae7b989c51f5d62e948fabc293b10df8", null ],
     [ "projArea", "group__GeneralGroup.html#ga65325d5765de14230b066e2706dbba82", null ],
     [ "projectFaceAttribute", "group__GeneralGroup.html#gafb43cdb85d285bf367875ed35c3d8d7a", null ],
