@@ -570,7 +570,6 @@ Source meshes <div class="image">
 <div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
 <div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
 <div class="line"><span class="keyword">import</span> meshlib.Vector3f;</div>
-<div class="line"><span class="keyword">import</span> meshlib.expected_void_std_string;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
 <div class="line"><span class="keyword">class </span>MeshBoolean</div>
@@ -619,13 +618,8 @@ Source meshes <div class="image">
 <div class="line">        FaceId resultFace = producedFaces.find_first();</div>
 <div class="line">        System.out.println(<span class="stringliteral">&quot;face &quot;</span> + resultFace.id_() + <span class="stringliteral">&quot; of the result came from face &quot;</span> + new2oldFaces.index(resultFace).id_() + <span class="stringliteral">&quot; of sphere1&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// Save result to an STL file.</span></div>
-<div class="line">        expected_void_std_string saved = meshlib.meshsave.Functions.toAnySupportedFormat(result.mesh(), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, <span class="keyword">null</span>);</div>
-<div class="line">        <span class="keywordflow">if</span> (!saved.success())</div>
-<div class="line">        {</div>
-<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to save mesh: &quot;</span> + saved.error());</div>
-<div class="line">            System.exit(1);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save result to an STL file. An error is thrown as `UnexpectedResultException`.</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(result.mesh(), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, <span class="keyword">null</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --> Source meshes <div class="image">

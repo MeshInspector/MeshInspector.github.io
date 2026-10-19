@@ -312,8 +312,7 @@ MR::MeshSave</dd></dl>
 <div class="line">}</div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
-<div class="line"><span class="keyword">import</span> meshlib.expected_MR_Mesh_std_string;</div>
-<div class="line"><span class="keyword">import</span> meshlib.expected_void_std_string;</div>
+<div class="line"><span class="keyword">import</span> meshlib.UnexpectedResultException;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
 <div class="line"><span class="keyword">class </span>MeshLoadSave</div>
@@ -323,24 +322,23 @@ MR::MeshSave</dd></dl>
 <div class="line">        String inputPath = args.length &gt; 0 ? args[0] : <span class="stringliteral">&quot;mesh.stl&quot;</span>;</div>
 <div class="line">        String outputPath = args.length &gt; 1 ? args[1] : <span class="stringliteral">&quot;mesh.ply&quot;</span>;</div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// Load mesh.</span></div>
-<div class="line">        expected_MR_Mesh_std_string loaded = meshlib.meshload.Functions.fromAnySupportedFormat(inputPath, <span class="keyword">null</span>);</div>
-<div class="line">        <span class="keywordflow">if</span> (!loaded.success())</div>
+<div class="line">        <span class="comment">// Load mesh. The C++ function returns `Expected&lt;Mesh&gt;`: the Java wrapper returns the mesh, or throws the error.</span></div>
+<div class="line">        Mesh mesh;</div>
+<div class="line">        <span class="keywordflow">try</span></div>
+<div class="line">        {</div>
+<div class="line">            mesh = meshlib.meshload.Functions.fromAnySupportedFormat(inputPath, <span class="keyword">null</span>);</div>
+<div class="line">        }</div>
+<div class="line">        <span class="keywordflow">catch</span> (UnexpectedResultException e)</div>
 <div class="line">        {</div>
 <div class="line">            <span class="keywordflow">if</span> (args.length == 0)</div>
 <div class="line">                System.err.println(<span class="stringliteral">&quot;Usage: MeshLoadSave [input mesh] [output mesh]&quot;</span>);</div>
-<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to load mesh: &quot;</span> + loaded.error());</div>
+<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to load mesh: &quot;</span> + e.getMessage());</div>
 <div class="line">            System.exit(1);</div>
+<div class="line">            <span class="keywordflow">return</span>;</div>
 <div class="line">        }</div>
-<div class="line">        Mesh mesh = loaded.value();</div>
 <div class="line"> </div>
-<div class="line">        <span class="comment">// Save mesh.</span></div>
-<div class="line">        expected_void_std_string saved = meshlib.meshsave.Functions.toAnySupportedFormat(mesh, outputPath, <span class="keyword">null</span>);</div>
-<div class="line">        <span class="keywordflow">if</span> (!saved.success())</div>
-<div class="line">        {</div>
-<div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to save mesh: &quot;</span> + saved.error());</div>
-<div class="line">            System.exit(1);</div>
-<div class="line">        }</div>
+<div class="line">        <span class="comment">// Save mesh. An error is thrown the same way.</span></div>
+<div class="line">        meshlib.meshsave.Functions.toAnySupportedFormat(mesh, outputPath, <span class="keyword">null</span>);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>
