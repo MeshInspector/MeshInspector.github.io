@@ -1270,6 +1270,7 @@ var hierarchy =
       [ "MR::Signal< T >", "structMR_1_1Signal.html", null ]
     ] ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
+    [ "MR::SignedProduct< A, B >", "structMR_1_1SignedProduct.html", null ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
       [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [
         [ "MR::ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", null ]

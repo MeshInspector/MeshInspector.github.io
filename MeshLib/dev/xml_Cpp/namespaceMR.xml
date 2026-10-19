@@ -706,6 +706,7 @@
     <innerclass refid="structMR_1_1Signal" prot="public">MR::Signal</innerclass>
     <innerclass refid="structMR_1_1SignedDistanceToMeshOptions" prot="public">MR::SignedDistanceToMeshOptions</innerclass>
     <innerclass refid="structMR_1_1SignedDistanceToMeshResult" prot="public">MR::SignedDistanceToMeshResult</innerclass>
+    <innerclass refid="structMR_1_1SignedProduct" prot="public">MR::SignedProduct</innerclass>
     <innerclass refid="structMR_1_1SimpleTimeRecord" prot="public">MR::SimpleTimeRecord</innerclass>
     <innerclass refid="structMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="structMR_1_1SliceInfo" prot="public">MR::SliceInfo</innerclass>
@@ -3270,6 +3271,8 @@
       <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
       <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
       <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kind="function"><name>lowestTermOfSumOfProducts</name></member>
+      <member refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kind="function"><name>lowestTermOfProductsDiff</name></member>
       <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
       <member refid="group__GeneralGroup_1ga28de882a11f5c9ac17334f542ab0ec47" kind="function"><name>projectSpline</name></member>
       <member refid="group__GeneralGroup_1ga2b6db8327a937df5f0371d7adba2adc5" kind="function"><name>projectSplineAsMTP</name></member>
