@@ -153,6 +153,7 @@ Classes</h2></td></tr>
 <tr class="memitem:FuncCallHelper" id="r_FuncCallHelper"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1FuncCallHelper.html">FuncCallHelper</a></td></tr>
 <tr class="memitem:MakeScopeGuard" id="r_MakeScopeGuard"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1MakeScopeGuard.html">MakeScopeGuard</a></td></tr>
 <tr class="memitem:PerturbationStages" id="r_PerturbationStages"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1PerturbationStages.html">PerturbationStages</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the plane  <a href="classMR_1_1detail_1_1PerturbationStages.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PointDegree" id="r_PointDegree"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1detail_1_1PointDegree.html">PointDegree</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a point with the degree of its perturbation: its coordinates z, y, x get eps^d, eps^(3*d), eps^(9*d)  <a href="structMR_1_1detail_1_1PointDegree.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ScopeGuard" id="r_ScopeGuard"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1detail_1_1ScopeGuard.html">ScopeGuard</a></td></tr>
@@ -197,9 +198,12 @@ Variables</h2></td></tr>
 <tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc" id="r_a7fc2a0ff5839e59c72d8681e50b67fdc"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a7fc2a0ff5839e59c72d8681e50b67fdc template"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fc2a0ff5839e59c72d8681e50b67fdc">cMulBits</a> = std::is_same_v&lt;T, <a class="el" href="group__GeneralGroup.html#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a>&gt; || ( std::is_unsigned_v&lt;T&gt; &amp;&amp; sizeof( T ) &gt;= 8 ) ? 128 : 64</td></tr>
 <tr class="memitem:a82fcd377947914c7a39781e66672c4d8" id="r_a82fcd377947914c7a39781e66672c4d8"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82fcd377947914c7a39781e66672c4d8">cMaxPerturbedPoints</a> = 16</td></tr>
-<tr class="memdesc:a82fcd377947914c7a39781e66672c4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest number of points of one predicate that getPointDegrees and <a class="el" href="classMR_1_1detail_1_1PerturbationStages.html">PerturbationStages</a> take  <br /></td></tr>
+<tr class="memdesc:a82fcd377947914c7a39781e66672c4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest number of points of one predicate that getPointDegrees and <a class="el" href="classMR_1_1detail_1_1PerturbationStages.html" title="segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the pl...">PerturbationStages</a> take  <br /></td></tr>
 <tr class="memitem:acba423b3c3de9931068347f0f0d091d2" id="r_acba423b3c3de9931068347f0f0d091d2"><td class="memItemLeft" align="right" valign="top">constexpr std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acba423b3c3de9931068347f0f0d091d2">cMaxPolyDAll</a> = std::numeric_limits&lt;std::int64_t&gt;::max()</td></tr>
 <tr class="memdesc:acba423b3c3de9931068347f0f0d091d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">the largest degree that no term exceeds: a polynomial with it keeps all its terms  <br /></td></tr>
+<tr class="memitem:aea8ae9fea302c32cf51613ff45883cbd" id="r_aea8ae9fea302c32cf51613ff45883cbd"><td class="memItemLeft" align="right" valign="top">constexpr std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea8ae9fea302c32cf51613ff45883cbd">cMaxPolyDTriTri</a> = 15'943'959</td></tr>
+<tr class="memitem:aeae89a43c7822db7a7bc766ef2af245c" id="r_aeae89a43c7822db7a7bc766ef2af245c"><td class="memItemLeft" align="right" valign="top">constexpr std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeae89a43c7822db7a7bc766ef2af245c">cMaxPolyDTriPlane</a> = 430'486'893</td></tr>
+<tr class="memdesc:aeae89a43c7822db7a7bc766ef2af245c"><td class="mdescLeft">&#160;</td><td class="mdescRight">segmentIntersectionOrder  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>for internal use: namespace detail is not bound to other languages </p>
@@ -648,7 +652,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>the largest number of points of one predicate that getPointDegrees and <a class="el" href="classMR_1_1detail_1_1PerturbationStages.html">PerturbationStages</a> take </p>
+<p>the largest number of points of one predicate that getPointDegrees and <a class="el" href="classMR_1_1detail_1_1PerturbationStages.html" title="segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the pl...">PerturbationStages</a> take </p>
 
 </div>
 </div>
@@ -673,6 +677,53 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>the largest degree that no term exceeds: a polynomial with it keeps all its terms </p>
+
+</div>
+</div>
+<a id="aeae89a43c7822db7a7bc766ef2af245c" name="aeae89a43c7822db7a7bc766ef2af245c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae89a43c7822db7a7bc766ef2af245c">&#9670;&#160;</a></span>cMaxPolyDTriPlane</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::int64_t MR::detail::cMaxPolyDTriPlane = 430'486'893</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>segmentIntersectionOrder </p>
+
+</div>
+</div>
+<a id="aea8ae9fea302c32cf51613ff45883cbd" name="aea8ae9fea302c32cf51613ff45883cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea8ae9fea302c32cf51613ff45883cbd">&#9670;&#160;</a></span>cMaxPolyDTriTri</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::int64_t MR::detail::cMaxPolyDTriTri = 15'943'959</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>the largest degrees of the polynomial terms that segmentIntersectionOrder and segmentIntersectionTriPlaneOrder consider first, found experimentally (the leading term of nom, or the leading term of at least one of two orient3d-polynomials for the segment's ends) in the tests and in a random sweep of degenerate inputs; the terms of higher degrees are not stored to save computation time, and if they are not enough to decide, the predicates repeat the computation with all terms (cMaxPolyDAll); the tests count the inputs above them, so they live here rather than in MRPrecisePredicates3.cpp </p>
 
 </div>
 </div>

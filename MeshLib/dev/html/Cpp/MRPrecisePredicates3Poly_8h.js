@@ -7,5 +7,7 @@ var MRPrecisePredicates3Poly_8h =
     [ "MR::detail::orient3dPoly", "namespaceMR_1_1detail.html#a349b4ff5760953282c595de0b6c3e1ab", null ],
     [ "MR::detail::orient3dVolume", "namespaceMR_1_1detail.html#ab652e2278f32034e7f2aa5960239c222", null ],
     [ "MR::detail::cMaxPerturbedPoints", "namespaceMR_1_1detail.html#a82fcd377947914c7a39781e66672c4d8", null ],
-    [ "MR::detail::cMaxPolyDAll", "namespaceMR_1_1detail.html#acba423b3c3de9931068347f0f0d091d2", null ]
+    [ "MR::detail::cMaxPolyDAll", "namespaceMR_1_1detail.html#acba423b3c3de9931068347f0f0d091d2", null ],
+    [ "MR::detail::cMaxPolyDTriPlane", "namespaceMR_1_1detail.html#aeae89a43c7822db7a7bc766ef2af245c", null ],
+    [ "MR::detail::cMaxPolyDTriTri", "namespaceMR_1_1detail.html#aea8ae9fea302c32cf51613ff45883cbd", null ]
 ];

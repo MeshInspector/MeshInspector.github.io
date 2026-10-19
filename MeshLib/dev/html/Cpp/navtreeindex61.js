@@ -117,12 +117,14 @@ var NAVTREEINDEX61 =
 "namespaceMR_1_1detail.html#a4b40e1222b8df2660b25e4942deb39fb":[9,0,1,0,1,3,11],
 "namespaceMR_1_1detail.html#a5594c749385503cd1087702f28de4651":[9,0,1,0,1,3,16],
 "namespaceMR_1_1detail.html#a642d79bba1a218c9810ee5a91c1362b9":[9,0,1,0,1,3,9],
-"namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc":[9,0,1,0,1,3,23],
+"namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc":[9,0,1,0,1,3,25],
 "namespaceMR_1_1detail.html#a7fc59c8caf263e5cec996db9f596920d":[9,0,1,0,1,3,19],
 "namespaceMR_1_1detail.html#a82fcd377947914c7a39781e66672c4d8":[9,0,1,0,1,3,21],
 "namespaceMR_1_1detail.html#ab652e2278f32034e7f2aa5960239c222":[9,0,1,0,1,3,15],
 "namespaceMR_1_1detail.html#acba423b3c3de9931068347f0f0d091d2":[9,0,1,0,1,3,22],
 "namespaceMR_1_1detail.html#adef9954c65821ab458734f64ae86e011":[9,0,1,0,1,3,12],
+"namespaceMR_1_1detail.html#aea8ae9fea302c32cf51613ff45883cbd":[9,0,1,0,1,3,24],
+"namespaceMR_1_1detail.html#aeae89a43c7822db7a7bc766ef2af245c":[9,0,1,0,1,3,23],
 "namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f":[9,0,1,0,1,3,20],
 "namespaceMR_1_1detail_1_1AffineXf3f.html":[9,0,0,20,18],
 "namespaceMR_1_1detail_1_1Units.html":[9,0,0,20,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX61 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[9,0,1,0,0,0,11],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[9,0,2,0,1,0,11],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,1,0,0,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,2,0,1,0,6],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,1,0,0,0,4],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,2,0,1,0,4]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,2,0,1,0,6]
 };

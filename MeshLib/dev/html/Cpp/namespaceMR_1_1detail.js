@@ -23,5 +23,7 @@ var namespaceMR_1_1detail =
     [ "cFitsFastInt128", "namespaceMR_1_1detail.html#af6206848d5379160c8a8684d2c76593f", null ],
     [ "cMaxPerturbedPoints", "namespaceMR_1_1detail.html#a82fcd377947914c7a39781e66672c4d8", null ],
     [ "cMaxPolyDAll", "namespaceMR_1_1detail.html#acba423b3c3de9931068347f0f0d091d2", null ],
+    [ "cMaxPolyDTriPlane", "namespaceMR_1_1detail.html#aeae89a43c7822db7a7bc766ef2af245c", null ],
+    [ "cMaxPolyDTriTri", "namespaceMR_1_1detail.html#aea8ae9fea302c32cf51613ff45883cbd", null ],
     [ "cMulBits", "namespaceMR_1_1detail.html#a7fc2a0ff5839e59c72d8681e50b67fdc", null ]
 ];

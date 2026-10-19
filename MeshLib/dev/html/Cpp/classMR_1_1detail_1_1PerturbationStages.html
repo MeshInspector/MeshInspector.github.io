@@ -137,6 +137,9 @@ $(function(){initNavTree('classMR_1_1detail_1_1PerturbationStages.html','','clas
 </div><!--header-->
 <div class="contents">
 
+<p>segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the plane  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRPrecisePredicates3Poly_8h_source.html">MRMesh/MRPrecisePredicates3Poly.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -157,7 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adabf7d755d7291635f11b881da45440d template"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adabf7d755d7291635f11b881da45440d">firstStage</a> (F &amp;&amp;f, std::int64_t maxDeg=<a class="el" href="namespaceMR_1_1detail.html#acba423b3c3de9931068347f0f0d091d2">cMaxPolyDAll</a>) const -&gt; std::invoke_result_t&lt; F &amp;, int &gt;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>the points of a predicate with the degrees of their perturbation, which moves them in stages: at stage s = 1, ..., <a class="el" href="#a703fc73b301b3862535a5f24f658acda" title="the number of stages, which is the number of different ids">numStages()</a> only the points with the s smallest ids are perturbed (orient3dPoly leaves the others unperturbed); a polynomial of the predicate that is not zero at stage s already has the leading term of the full one, since every term with a point of a later stage has a larger degree than every term without; and if it was zero at stage s - 1, its terms without the points of stage s cancel one another, so only the products of the terms of degrees from place( s ) up remain (see <span class="tt">from</span> in lowestTermOfSumOfProducts) </p>
+<div class="textblock"><p>segmentIntersectionTriPlaneOrder: it reaches the polynomial path with all three largest ids in the plane </p>
+<p>the points of a predicate with the degrees of their perturbation, which moves them in stages: at stage s = 1, ..., <a class="el" href="#a703fc73b301b3862535a5f24f658acda" title="the number of stages, which is the number of different ids">numStages()</a> only the points with the s smallest ids are perturbed (orient3dPoly leaves the others unperturbed); a polynomial of the predicate that is not zero at stage s already has the leading term of the full one, since every term with a point of a later stage has a larger degree than every term without; and if it was zero at stage s - 1, its terms without the points of stage s cancel one another, so only the products of the terms of degrees from place( s ) up remain (see <span class="tt">from</span> in lowestTermOfSumOfProducts) </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42bd47428e12dd23d0d9506c23069a10" name="a42bd47428e12dd23d0d9506c23069a10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42bd47428e12dd23d0d9506c23069a10">&#9670;&#160;</a></span>PerturbationStages()</h2>

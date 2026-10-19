@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PackMapping.html":[9,0,0,20,149],
+"structMR_1_1Palette_1_1Label.html":[9,0,0,20,638],
 "structMR_1_1Palette_1_1Parameters.html":[9,0,0,20,639],
 "structMR_1_1Parabola.html":[9,0,0,20,439],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[9,0,0,20,446],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RemeshSettings.html#a58fc77c6b836083eab39f95b271080e8":[9,0,0,10,3,16],
 "structMR_1_1RemeshSettings.html#a6a29eef43f96e620bbdc1a55778d04b4":[9,0,0,10,3,13],
 "structMR_1_1RemeshSettings.html#a719cad8f8428301214682399c497bbc1":[9,0,0,10,3,3],
-"structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a":[9,0,0,10,3,14],
-"structMR_1_1RemeshSettings.html#ac40df80c94fefeea4585f945fb040012":[9,0,0,10,3,4],
-"structMR_1_1RemeshSettings.html#ac65eb4c2e1f090a756362df72b272d6e":[9,0,0,10,3,12]
+"structMR_1_1RemeshSettings.html#aba67372080b3650ca0d9a939e8b5526a":[9,0,0,10,3,14]
 };
