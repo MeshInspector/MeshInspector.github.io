@@ -52254,7 +52254,11 @@
     <member refid="classMR_1a3be90284019be8a697d6c90819662e0a" kind="function"><name>accumulatePoints</name></member>
     <member refid="classMR_1a18c803a8b48f4cc3cc81705d54c2f754" kind="function"><name>canSolvePolynomial</name></member>
     <member refid="classMR_1ada2d25b5d67d9c72a69d601a919a700f" kind="function"><name>canMinimizePolynomial</name></member>
-    <member refid="classMR_1a6651aa3b71f22253d032af5e28defd36" kind="function"><name>bitCast</name></member>
+    <member refid="classMR_1a731c47f21fe5dffd9eeab06ada167ca5" kind="function"><name>bitCast</name></member>
+    <member refid="classMR_1ab8d2a6ef1f7983da63cb3fdec9a93469" kind="function"><name>bitCast</name></member>
+    <member refid="classMR_1a22dcae313b74dc20ea35dceabe34acc4" kind="function"><name>bitCast_UnsignedInt_Float</name></member>
+    <member refid="classMR_1ada21d07cd6d1f9ffe8ff6bed1dab2b7f" kind="function"><name>bitCast</name></member>
+    <member refid="classMR_1a19d25ce43d9d05bdd8585c50c0bc860e" kind="function"><name>bitCast_Int_Float</name></member>
     <member refid="classMR_1ae1bdf887987f0a6402a400ace765e33e" kind="function"><name>begin</name></member>
     <member refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" kind="function"><name>end</name></member>
     <member refid="classMR_1a63e730e9aed2113eb5d25e2a404ff88c" kind="function"><name>begin</name></member>
@@ -54101,7 +54105,11 @@
     <member refid="classMR_1ac5a657d2498a1144392bd64edae58b10" kind="function"><name>__MR_accumulateWeighedPoints</name></member>
     <member refid="classMR_1aa5a08c3fecd258a44de097b53495ed1c" kind="function"><name>__MR_canMinimizePolynomial</name></member>
     <member refid="classMR_1a4f3bc3c626c6cf2a8539984679ebb8f9" kind="function"><name>__MR_canSolvePolynomial</name></member>
-    <member refid="classMR_1a3fa70cbd9bf5c6f8c1519395ee639c9a" kind="function"><name>__MR_bit_cast</name></member>
+    <member refid="classMR_1a58dd35a5a506775f553410ee7619c8a8" kind="function"><name>__MR_bit_cast_double_uint64_t</name></member>
+    <member refid="classMR_1a342562553004779c4f7d19a7f77e6c62" kind="function"><name>__MR_bit_cast_float_unsigned_int</name></member>
+    <member refid="classMR_1a71f4602a728b920ae05313d352e2ccf1" kind="function"><name>__MR_bit_cast_int_float</name></member>
+    <member refid="classMR_1a321ff85f996235342bff2dc5892c0557" kind="function"><name>__MR_bit_cast_uint64_t_double</name></member>
+    <member refid="classMR_1a4d5406fed0650e0e2f91add69c390418" kind="function"><name>__MR_bit_cast_unsigned_int_float</name></member>
     <member refid="classMR_1a32a373e9bf0876efb3a085d825bb9654" kind="function"><name>__MR_begin_const_MR_BitSet_ref</name></member>
     <member refid="classMR_1a1805a825d9bbd654f666aa7f3e8d8646" kind="function"><name>__MR_begin_const_MR_EdgeBitSet_ref</name></member>
     <member refid="classMR_1a872f0ac056705d4b5b075f21b5e498b1" kind="function"><name>__MR_begin_const_MR_FaceBitSet_ref</name></member>

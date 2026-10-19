@@ -6719,12 +6719,88 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3180" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="3180" bodyend="3183"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a6651aa3b71f22253d032af5e28defd36" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe int</type>
-        <definition>static unsafe int MR.bitCast</definition>
-        <argsstring>(float from)</argsstring>
+      <memberdef kind="function" id="classMR_1a731c47f21fe5dffd9eeab06ada167ca5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.bitCast</definition>
+        <argsstring>(double from)</argsstring>
         <name>bitCast</name>
         <qualifiedname>MR.bitCast</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <computeroutput>MR::bit_cast&amp;lt;uint64_t, double&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="7" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ab8d2a6ef1f7983da63cb3fdec9a93469" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.bitCast</definition>
+        <argsstring>(ulong from)</argsstring>
+        <name>bitCast</name>
+        <qualifiedname>MR.bitCast</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <computeroutput>MR::bit_cast&amp;lt;double, uint64_t&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="16" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a22dcae313b74dc20ea35dceabe34acc4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>static unsafe uint MR.bitCast_UnsignedInt_Float</definition>
+        <argsstring>(float from)</argsstring>
+        <name>bitCast_UnsignedInt_Float</name>
+        <qualifiedname>MR.bitCast_UnsignedInt_Float</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <computeroutput>MR::bit_cast&amp;lt;unsigned int, float&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="25" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ada21d07cd6d1f9ffe8ff6bed1dab2b7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.bitCast</definition>
+        <argsstring>(uint from)</argsstring>
+        <name>bitCast</name>
+        <qualifiedname>MR.bitCast</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+<para>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <computeroutput>MR::bit_cast&amp;lt;float, unsigned int&amp;gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="34" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a19d25ce43d9d05bdd8585c50c0bc860e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>static unsafe int MR.bitCast_Int_Float</definition>
+        <argsstring>(float from)</argsstring>
+        <name>bitCast_Int_Float</name>
+        <qualifiedname>MR.bitCast_Int_Float</qualifiedname>
         <param>
           <type>float</type>
           <declname>from</declname>
@@ -6736,7 +6812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="7" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="7" bodyend="10"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="43" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" bodystart="43" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae1bdf887987f0a6402a400ace765e33e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceSetBitIterator" kindref="compound">MR.FaceSetBitIterator</ref></type>
@@ -56623,12 +56699,48 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="3191" column="24"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a3fa70cbd9bf5c6f8c1519395ee639c9a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a58dd35a5a506775f553410ee7619c8a8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.__MR_bit_cast_double_uint64_t</definition>
+        <argsstring>(ulong *from)</argsstring>
+        <name>__MR_bit_cast_double_uint64_t</name>
+        <qualifiedname>MR.__MR_bit_cast_double_uint64_t</qualifiedname>
+        <param>
+          <type>ulong *</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="51" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a342562553004779c4f7d19a7f77e6c62" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>static unsafe float MR.__MR_bit_cast_float_unsigned_int</definition>
+        <argsstring>(uint *from)</argsstring>
+        <name>__MR_bit_cast_float_unsigned_int</name>
+        <qualifiedname>MR.__MR_bit_cast_float_unsigned_int</qualifiedname>
+        <param>
+          <type>uint *</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="54" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a71f4602a728b920ae05313d352e2ccf1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe int</type>
-        <definition>static unsafe int MR.__MR_bit_cast</definition>
+        <definition>static unsafe int MR.__MR_bit_cast_int_float</definition>
         <argsstring>(float *from)</argsstring>
-        <name>__MR_bit_cast</name>
-        <qualifiedname>MR.__MR_bit_cast</qualifiedname>
+        <name>__MR_bit_cast_int_float</name>
+        <qualifiedname>MR.__MR_bit_cast_int_float</qualifiedname>
         <param>
           <type>float *</type>
           <declname>from</declname>
@@ -56639,7 +56751,43 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="15" column="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="57" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a321ff85f996235342bff2dc5892c0557" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.__MR_bit_cast_uint64_t_double</definition>
+        <argsstring>(double *from)</argsstring>
+        <name>__MR_bit_cast_uint64_t_double</name>
+        <qualifiedname>MR.__MR_bit_cast_uint64_t_double</qualifiedname>
+        <param>
+          <type>double *</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="60" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a4d5406fed0650e0e2f91add69c390418" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>static unsafe uint MR.__MR_bit_cast_unsigned_int_float</definition>
+        <argsstring>(float *from)</argsstring>
+        <name>__MR_bit_cast_unsigned_int_float</name>
+        <qualifiedname>MR.__MR_bit_cast_unsigned_int_float</qualifiedname>
+        <param>
+          <type>float *</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitCast.cs" line="63" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a32a373e9bf0876efb3a085d825bb9654" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.SetBitIterator._Underlying *</type>
@@ -100093,7 +100241,11 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a4b0c4c37ab0cf5f10ee543d89ddd1581" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bendTextAlongSurfacePath_MR_GeodesicPath</name></member>
       <member refid="classMR_1a2a7e34fd9a75ce46d36076c1a614238f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bendTextAlongSurfacePath_std_vector_MR_EdgePoint</name></member>
       <member refid="classMR_1a72e7396a6519483d9efb000f28b7e3c4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bestQuadrangleDiagonal</name></member>
-      <member refid="classMR_1a3fa70cbd9bf5c6f8c1519395ee639c9a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bit_cast</name></member>
+      <member refid="classMR_1a58dd35a5a506775f553410ee7619c8a8" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bit_cast_double_uint64_t</name></member>
+      <member refid="classMR_1a342562553004779c4f7d19a7f77e6c62" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bit_cast_float_unsigned_int</name></member>
+      <member refid="classMR_1a71f4602a728b920ae05313d352e2ccf1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bit_cast_int_float</name></member>
+      <member refid="classMR_1a321ff85f996235342bff2dc5892c0557" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bit_cast_uint64_t_double</name></member>
+      <member refid="classMR_1a4d5406fed0650e0e2f91add69c390418" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bit_cast_unsigned_int_float</name></member>
       <member refid="classMR_1afe1d03b87958126842cb4461d004b2a9" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bitand_assign_MR_BasicUiRenderTask_InteractionMask</name></member>
       <member refid="classMR_1a842601be4959bdc361274e79ec91f217" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bitand_assign_MR_DepthFunction</name></member>
       <member refid="classMR_1a8523c948056bb712d4f16b02607ede09" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_bitand_assign_MR_OutlierTypeMask</name></member>
@@ -101960,7 +102112,11 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ad0fb76ee5d4eb634b24339ac4594cfe9" prot="public" virt="non-virtual"><scope>MR</scope><name>bitandAssign</name></member>
       <member refid="classMR_1aa49fe09a6d8cab73d683baf8858370eb" prot="public" virt="non-virtual"><scope>MR</scope><name>bitandAssign</name></member>
       <member refid="classMR_1a816e416d8a36a19bec4b748d63e391fa" prot="public" virt="non-virtual"><scope>MR</scope><name>bitandAssign</name></member>
-      <member refid="classMR_1a6651aa3b71f22253d032af5e28defd36" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast</name></member>
+      <member refid="classMR_1a731c47f21fe5dffd9eeab06ada167ca5" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast</name></member>
+      <member refid="classMR_1ab8d2a6ef1f7983da63cb3fdec9a93469" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast</name></member>
+      <member refid="classMR_1ada21d07cd6d1f9ffe8ff6bed1dab2b7f" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast</name></member>
+      <member refid="classMR_1a19d25ce43d9d05bdd8585c50c0bc860e" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast_Int_Float</name></member>
+      <member refid="classMR_1a22dcae313b74dc20ea35dceabe34acc4" prot="public" virt="non-virtual"><scope>MR</scope><name>bitCast_UnsignedInt_Float</name></member>
       <member refid="classMR_1a0a786082a07a7c33b2dc65303a420598" prot="public" virt="non-virtual"><scope>MR</scope><name>bitor</name></member>
       <member refid="classMR_1ab0ba37851aa97ea8141462fc31eef901" prot="public" virt="non-virtual"><scope>MR</scope><name>bitor</name></member>
       <member refid="classMR_1accc8bdba5ff809f008ae09dd00706d8d" prot="public" virt="non-virtual"><scope>MR</scope><name>bitor</name></member>

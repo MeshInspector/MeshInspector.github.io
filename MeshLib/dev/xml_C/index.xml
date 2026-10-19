@@ -3118,7 +3118,11 @@
     <member refid="MRBezier_8h_1a4a460a8638ceb9b89676938b771b69c5" kind="function"><name>MR_CubicBezierCurve3d_getWeights</name></member>
   </compound>
   <compound refid="MRBitCast_8h" kind="file"><name>MRBitCast.h</name>
-    <member refid="MRBitCast_8h_1ad88e9d13853588315481a4cc235db014" kind="function"><name>MR_bit_cast</name></member>
+    <member refid="MRBitCast_8h_1a09d50ced15468387d4dad609cfdb20f2" kind="function"><name>MR_bit_cast_uint64_t_double</name></member>
+    <member refid="MRBitCast_8h_1aae213e176e51b0ca9c43beea1297e79a" kind="function"><name>MR_bit_cast_double_uint64_t</name></member>
+    <member refid="MRBitCast_8h_1a2b126693288c7b8596ade02f8641af6d" kind="function"><name>MR_bit_cast_unsigned_int_float</name></member>
+    <member refid="MRBitCast_8h_1a551af13410c9728650bfe1d4d57596b6" kind="function"><name>MR_bit_cast_float_unsigned_int</name></member>
+    <member refid="MRBitCast_8h_1af41b688dde9ec2ae6deaa98b2fabbb0a" kind="function"><name>MR_bit_cast_int_float</name></member>
   </compound>
   <compound refid="MRBitSet_8h" kind="file"><name>MRBitSet.h</name>
     <member refid="MRBitSet_8h_1af034b4103e85b60d533cd9bcaf4b9b00" kind="typedef"><name>MR_BMap_MR_GraphEdgeId_MR_GraphEdgeId</name></member>

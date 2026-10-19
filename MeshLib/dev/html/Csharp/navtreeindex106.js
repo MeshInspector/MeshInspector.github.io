@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a73b3d869e258800de6c1d93d4cf69bd2":[9,3,0,0,0,1220,5,14,2],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#af9454f0191dfe593829132c296bde3b0":[9,3,0,0,0,1220,5,14,5],
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html":[9,3,0,0,0,1220,5,15],
+"classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a4013cf1e7b00fcba726992d198593c7f":[9,3,0,0,0,1220,5,15,3],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a57e76b10aa53cb448c1fb4e9f9bc5cfd":[9,3,0,0,0,1220,5,15,0],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#a8628a38f22d71ae52f6fbcb0080a5344":[9,3,0,0,0,1220,5,15,2],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html#ac0b55cf884e6f6a81252808687c1e2a6":[9,3,0,0,0,1220,5,15,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[9,3,0,0,0,1232,5],
 "classMR_1_1FindProjectionOnPointsSettings.html#abb60a27acf66c938fc50a52bda2eb266":[9,3,0,0,0,1232,1],
 "classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[9,3,0,0,0,1232,10],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1232,2],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae7e68ebe84cce6921c62907010ceda5a":[9,3,0,0,0,1232,4],
-"classMR_1_1FixCreasesParams.html":[9,3,0,0,0,1233],
-"classMR_1_1FixCreasesParams.html#a24289f1c3d7fdf4d197dce5d5632e2ac":[9,3,0,0,0,1233,1],
-"classMR_1_1FixCreasesParams.html#a2f33ec700fda47d26df3427091fa4132":[9,3,0,0,0,1233,5]
+"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1232,2]
 };

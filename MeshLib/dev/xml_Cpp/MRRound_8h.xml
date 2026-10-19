@@ -111,7 +111,7 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(<sp/>defined(<sp/>_MSC_VER<sp/>)<sp/>&amp;&amp;<sp/>!defined(<sp/>__clang__<sp/>)<sp/>)<sp/>||<sp/>(<sp/>defined(<sp/>__x86_64__<sp/>)<sp/>&amp;&amp;<sp/>!(<sp/>defined(<sp/>__clang__<sp/>)<sp/>&amp;&amp;<sp/>defined(<sp/>__SSE4_1__<sp/>)<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(<sp/>defined(<sp/>_MSC_VER<sp/>)<sp/>&amp;&amp;<sp/>!defined(<sp/>__clang__<sp/>)<sp/>)<sp/>||<sp/>(<sp/>defined(<sp/>__x86_64__<sp/>)<sp/>&amp;&amp;<sp/>!(<sp/>defined(<sp/>__clang__<sp/>)<sp/>&amp;&amp;<sp/>defined(<sp/>__SSE4_1__<sp/>)<sp/>)<sp/>)<sp/>||<sp/>defined(<sp/>__wasm__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_ROUND_TO_INT_NO_LIBRARY_CALL</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>

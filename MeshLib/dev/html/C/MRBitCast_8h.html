@@ -136,22 +136,63 @@ $(function(){initNavTree('MRBitCast_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRBitCast_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad88e9d13853588315481a4cc235db014" id="r_ad88e9d13853588315481a4cc235db014"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad88e9d13853588315481a4cc235db014">MR_bit_cast</a> (const float *from)</td></tr>
+<tr class="memitem:a09d50ced15468387d4dad609cfdb20f2" id="r_a09d50ced15468387d4dad609cfdb20f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09d50ced15468387d4dad609cfdb20f2">MR_bit_cast_uint64_t_double</a> (const double *from)</td></tr>
+<tr class="memitem:aae213e176e51b0ca9c43beea1297e79a" id="r_aae213e176e51b0ca9c43beea1297e79a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae213e176e51b0ca9c43beea1297e79a">MR_bit_cast_double_uint64_t</a> (const uint64_t *from)</td></tr>
+<tr class="memitem:a2b126693288c7b8596ade02f8641af6d" id="r_a2b126693288c7b8596ade02f8641af6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b126693288c7b8596ade02f8641af6d">MR_bit_cast_unsigned_int_float</a> (const float *from)</td></tr>
+<tr class="memitem:a551af13410c9728650bfe1d4d57596b6" id="r_a551af13410c9728650bfe1d4d57596b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551af13410c9728650bfe1d4d57596b6">MR_bit_cast_float_unsigned_int</a> (const unsigned int *from)</td></tr>
+<tr class="memitem:af41b688dde9ec2ae6deaa98b2fabbb0a" id="r_af41b688dde9ec2ae6deaa98b2fabbb0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af41b688dde9ec2ae6deaa98b2fabbb0a">MR_bit_cast_int_float</a> (const float *from)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="ad88e9d13853588315481a4cc235db014" name="ad88e9d13853588315481a4cc235db014"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad88e9d13853588315481a4cc235db014">&#9670;&#160;</a></span>MR_bit_cast()</h2>
+<a id="aae213e176e51b0ca9c43beea1297e79a" name="aae213e176e51b0ca9c43beea1297e79a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae213e176e51b0ca9c43beea1297e79a">&#9670;&#160;</a></span>MR_bit_cast_double_uint64_t()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_bit_cast </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_bit_cast_double_uint64_t </td>
+          <td>(</td>
+          <td class="paramtype">const uint64_t *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <span class="tt">MR::bit_cast&lt;double, uint64_t&gt;</span>. Parameter <span class="tt">from</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a551af13410c9728650bfe1d4d57596b6" name="a551af13410c9728650bfe1d4d57596b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551af13410c9728650bfe1d4d57596b6">&#9670;&#160;</a></span>MR_bit_cast_float_unsigned_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_bit_cast_float_unsigned_int </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned int *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <span class="tt">MR::bit_cast&lt;float, unsigned int&gt;</span>. Parameter <span class="tt">from</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="af41b688dde9ec2ae6deaa98b2fabbb0a" name="af41b688dde9ec2ae6deaa98b2fabbb0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af41b688dde9ec2ae6deaa98b2fabbb0a">&#9670;&#160;</a></span>MR_bit_cast_int_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_bit_cast_int_float </td>
           <td>(</td>
           <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -159,6 +200,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <span class="tt">MR::bit_cast&lt;int, float&gt;</span>. Parameter <span class="tt">from</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a09d50ced15468387d4dad609cfdb20f2" name="a09d50ced15468387d4dad609cfdb20f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d50ced15468387d4dad609cfdb20f2">&#9670;&#160;</a></span>MR_bit_cast_uint64_t_double()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint64_t MR_bit_cast_uint64_t_double </td>
+          <td>(</td>
+          <td class="paramtype">const double *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <span class="tt">MR::bit_cast&lt;uint64_t, double&gt;</span>. Parameter <span class="tt">from</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a2b126693288c7b8596ade02f8641af6d" name="a2b126693288c7b8596ade02f8641af6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b126693288c7b8596ade02f8641af6d">&#9670;&#160;</a></span>MR_bit_cast_unsigned_int_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int MR_bit_cast_unsigned_int_float </td>
+          <td>(</td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>std::bit_cast wrapper with the compiler's intrinsic fallback Generated from function <span class="tt">MR::bit_cast&lt;unsigned int, float&gt;</span>. Parameter <span class="tt">from</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

@@ -142503,7 +142503,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 <para>the same as (int)std::round( x ) for any x in int range (halves are rounded away from zero), but without a library call on any compiler </para>
         </briefdescription>
         <detaileddescription>
-<para>std::round is a library call with MSVC, GCC on x86-64 (unless -fno-trapping-math) and Clang on x86-64 without SSE4.1; GCC and Clang compile it into one fcvtas on arm64, Clang into roundsd with SSE4.1 (e.g. macOS x86-64) </para>
+<para>std::round is a library call with MSVC, GCC on x86-64 (unless -fno-trapping-math), Clang on x86-64 without SSE4.1 and on WebAssembly; GCC and Clang compile it into one fcvtas on arm64, Clang into roundsd with SSE4.1 (e.g. macOS x86-64) </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
