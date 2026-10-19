@@ -1,10 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"group__MeshFixerGroup.html#ga3d72f926edb3f593c53583fba7398538":[9,0,0,9,4,18],
-"group__MeshFixerGroup.html#ga6eafb1189e4c2e117a06c36ae2b67fd5":[9,0,0,9,4,16],
-"group__MeshFixerGroup.html#ga754a74fa515375b32aee32394abe05f6":[9,0,0,9,4,26],
-"group__MeshFixerGroup.html#ga79c0629831d5275b266a9c2e89184d18":[9,0,0,9,4,27],
-"group__MeshFixerGroup.html#ga7ed9b863f3586261b7732c0dba013eae":[9,0,0,9,4,25],
 "group__MeshFixerGroup.html#ga81e1fcab0f64d4bdb4ccf19d7e67bae1":[9,0,0,9,4,15],
 "group__MeshFixerGroup.html#ga83684a28016ea3e3feadd7c643905e6d":[9,0,0,9,4,14],
 "group__MeshFixerGroup.html#ga900c1c80bfa1ca726e5afe5ccab5b31d":[9,0,0,9,4,6],
@@ -249,5 +244,10 @@ var NAVTREEINDEX57 =
 "group__SerializerGroup.html#gaef36006b3524b7d2effad692fbd9728b":[9,0,0,2,17,48],
 "group__SerializerGroup.html#gaf8ddb2e7af9d1892c88c8f2968dcf241":[9,0,0,2,17,40],
 "group__SerializerGroup.html#gafeec2f7391ebaf4299dc8a436c8fe671":[9,0,0,2,17,46],
-"group__SerializerGroup.html#gaff43d6038d63bac26080d08d71953dd3":[9,0,0,2,17,57]
+"group__SerializerGroup.html#gaff43d6038d63bac26080d08d71953dd3":[9,0,0,2,17,57],
+"group__SubvoxelMeshCorrection.html":[9,0,0,17,1],
+"group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438":[9,0,0,17,1,2],
+"group__SurfaceDistanceBuilder.html":[9,0,0,16,2],
+"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[9,0,0,16,2,3],
+"group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[9,0,0,16,2,2]
 };

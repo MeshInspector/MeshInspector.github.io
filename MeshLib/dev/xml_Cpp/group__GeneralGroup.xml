@@ -477,7 +477,6 @@
     <innerclass refid="structMR_1_1Signal" prot="public">MR::Signal</innerclass>
     <innerclass refid="structMR_1_1SkyPatch" prot="public">MR::SkyPatch</innerclass>
     <innerclass refid="classMR_1_1SparsePolynomial" prot="public">MR::SparsePolynomial</innerclass>
-    <innerclass refid="structMR_1_1SignedProduct" prot="public">MR::SignedProduct</innerclass>
     <innerclass refid="structMR_1_1Sphere" prot="public">MR::Sphere</innerclass>
     <innerclass refid="classMR_1_1SphereObject" prot="public">MR::SphereObject</innerclass>
     <innerclass refid="structMR_1_1SymMatrix2" prot="public">MR::SymMatrix2</innerclass>
@@ -17991,7 +17990,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="20" column="1" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="20" bodyend="-1"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="19" column="1" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1ga3e8cbde7010be3da4e90ed99e6f2c853" prot="public" static="no">
         <type>std::pair&lt; D, C &gt;</type>
@@ -18006,7 +18005,7 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="79" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="79" bodyend="-1"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="49" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" prot="public" static="no">
         <type>typename V::ValueType</type>
@@ -44923,52 +44922,6 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </inbodydescription>
         <location file="MRMesh/MRSolarRadiation.h" line="21" column="11" bodyfile="MRMesh/MRSolarRadiation.h" bodystart="21" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" prot="public" static="no" mutable="no">
-        <type>const A *</type>
-        <definition>const A* MR::SignedProduct&lt; A, B &gt;::a</definition>
-        <argsstring></argsstring>
-        <name>a</name>
-        <qualifiedname>MR::SignedProduct::a</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="35" column="13" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="35" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" prot="public" static="no" mutable="no">
-        <type>const B *</type>
-        <definition>const B* MR::SignedProduct&lt; A, B &gt;::b</definition>
-        <argsstring></argsstring>
-        <name>b</name>
-        <qualifiedname>MR::SignedProduct::b</qualifiedname>
-        <initializer>= nullptr</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="36" column="13" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="36" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" prot="public" static="no" mutable="no">
-        <type>bool</type>
-        <definition>bool MR::SignedProduct&lt; A, B &gt;::negative</definition>
-        <argsstring></argsstring>
-        <name>negative</name>
-        <qualifiedname>MR::SignedProduct::negative</qualifiedname>
-        <initializer>= false</initializer>
-        <briefdescription>
-<para>whether the product is subtracted </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="37" column="10" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="37" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga3cdcb59017dfbb100b74e6fc17192d26" prot="private" static="no" mutable="no">
         <type>std::vector&lt; Term &gt;</type>
         <definition>std::vector&lt;Term&gt; MR::SparsePolynomial&lt; C, D, M &gt;::terms_</definition>
@@ -44981,7 +44934,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="126" column="17" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="126" bodyend="-1"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="96" column="17" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="96" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" prot="public" static="no" mutable="no">
         <type>V</type>
@@ -74759,7 +74712,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="117" column="30" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="117" bodyend="117"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="87" column="30" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="87" bodyend="87"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga869660408870e65bd32d5ea6df41edce" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SparsePolynomial</type>
@@ -74781,7 +74734,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="118" column="30" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="118" bodyend="118"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="88" column="30" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="88" bodyend="88"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga63b86dd913cfa47171634ae6a4537fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -74819,7 +74772,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="120" column="36"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="90" column="36"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -144469,9 +144422,8 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 <para>computes the product of two polynomials, converting every coefficient into type T before multiplication; e.g. T=<ref refid="classMR_1_1Int128Mul256" kindref="compound">Int128Mul256</ref> multiplies <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref> coefficients without overflow into a polynomial with <ref refid="group__HighPrecisionGroup_1ga03afccb56b1bcb89b74a55f6cac19618" kindref="member">FastInt256</ref> coefficients </para>
         </detaileddescription>
         <inbodydescription>
-<para>no conversion (and no copy of a big integer) if the coefficients have type T already</para>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="254" column="26" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="254" bodyend="277" declfile="MRMesh/MRSparsePolynomial.h" declline="25" declcolumn="25"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="224" column="26" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="224" bodyend="243" declfile="MRMesh/MRSparsePolynomial.h" declline="24" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -144507,115 +144459,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="29" column="18" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="29" bodyend="29"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename TA</type>
-          </param>
-          <param>
-            <type>typename TB</type>
-            <defval>TA</defval>
-          </param>
-          <param>
-            <type>typename CA</type>
-          </param>
-          <param>
-            <type>typename CB</type>
-          </param>
-          <param>
-            <type>typename D</type>
-          </param>
-          <param>
-            <type>D</type>
-            <declname>M</declname>
-            <defname>M</defname>
-          </param>
-        </templateparamlist>
-        <type>std::pair&lt; D, int &gt;</type>
-        <definition>std::pair&lt; D, int &gt; MR::lowestTermOfSumOfProducts</definition>
-        <argsstring>(const SignedProduct&lt; SparsePolynomial&lt; CA, D, M &gt;, SparsePolynomial&lt; CB, D, M &gt; &gt; *products, int numProducts, std::type_identity_t&lt; D &gt; from=0)</argsstring>
-        <name>lowestTermOfSumOfProducts</name>
-        <qualifiedname>MR::lowestTermOfSumOfProducts</qualifiedname>
-        <param>
-          <type>const SignedProduct&lt; SparsePolynomial&lt; CA, D, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt;, SparsePolynomial&lt; CB, D, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt; &gt; *</type>
-          <declname>products</declname>
-        </param>
-        <param>
-          <type>int</type>
-          <declname>numProducts</declname>
-        </param>
-        <param>
-          <type>std::type_identity_t&lt; D &gt;</type>
-          <declname>from</declname>
-          <defval>0</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns the degree and the sign of the lowest-degree not-zero coefficient of the sum of the given products of polynomials, or sign 0 if all its coefficients of degrees not above M are zeros (the terms of higher degrees are not considered, since the arguments store the terms of degrees not above M only); every coefficient of the first factors is converted into type TA and every coefficient of the second factors into type TB before multiplication (unless it already has that type), and the coefficients of the products have the type of TA*TB; the coefficients of the sum are computed in the order of increasing degree and only till the first not-zero one; the products of two terms of degrees below <computeroutput>from</computeroutput> are skipped, which the caller may do if their sum is known to be zero (e.g. a polynomial that was zero before the terms of degrees from <computeroutput>from</computeroutput> up were added to its factors); <computeroutput>from</computeroutput> takes no part in deducing D, so any integer converts to it </para>
-        </detaileddescription>
-        <inbodydescription>
-<para>the terms of every product form rows: the i-th term of its first factor times all the terms of the second one in the order of increasing degree; the heap keeps the current term of every row, so all terms of all products are visited in the order of increasing degree</para>
-<para>the product and the indices of the terms in its two factors</para>
-<para>the row of a term of f below <computeroutput>from</computeroutput> starts from the first term of g not below it</para>
-<para>the terms of degrees above M are never considered, and since the terms of every polynomial are sorted, the initialization stops at the first such row that starts from the first term of g</para>
-<para>no conversion (and no copy of a big integer) if a coefficient has the type to multiply in already</para>
-        </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="280" column="11" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="280" bodyend="360" declfile="MRMesh/MRSparsePolynomial.h" declline="49" declcolumn="12"/>
-      </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <templateparamlist>
-          <param>
-            <type>typename T</type>
-          </param>
-          <param>
-            <type>typename C</type>
-          </param>
-          <param>
-            <type>typename D</type>
-          </param>
-          <param>
-            <type>D</type>
-            <declname>M</declname>
-            <defname>M</defname>
-          </param>
-        </templateparamlist>
-        <type>std::pair&lt; D, int &gt;</type>
-        <definition>std::pair&lt; D, int &gt; MR::lowestTermOfProductsDiff</definition>
-        <argsstring>(const SparsePolynomial&lt; C, D, M &gt; &amp;a, const SparsePolynomial&lt; C, D, M &gt; &amp;b, const SparsePolynomial&lt; C, D, M &gt; &amp;c, const SparsePolynomial&lt; C, D, M &gt; &amp;d, std::type_identity_t&lt; D &gt; from=0)</argsstring>
-        <name>lowestTermOfProductsDiff</name>
-        <qualifiedname>MR::lowestTermOfProductsDiff</qualifiedname>
-        <param>
-          <type>const SparsePolynomial&lt; C, D, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt; &amp;</type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type>const SparsePolynomial&lt; C, D, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt; &amp;</type>
-          <declname>b</declname>
-        </param>
-        <param>
-          <type>const SparsePolynomial&lt; C, D, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt; &amp;</type>
-          <declname>c</declname>
-        </param>
-        <param>
-          <type>const SparsePolynomial&lt; C, D, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt; &amp;</type>
-          <declname>d</declname>
-        </param>
-        <param>
-          <type>std::type_identity_t&lt; D &gt;</type>
-          <declname>from</declname>
-          <defval>0</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>returns the degree and the sign of the lowest-degree not-zero coefficient of the polynomial ( a * b - c * d ), or sign 0 if all its coefficients of degrees not above M are zeros, see <ref refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kindref="member">lowestTermOfSumOfProducts</ref> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="55" column="12" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="55" bodyend="60"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="28" column="18" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="28" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -144658,11 +144502,15 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns the sign of the polynomial ( a * b - c * d ) for infinitesimal positive argument, i.e. the sign of its lowest-degree not-zero coefficient, see <ref refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kindref="member">lowestTermOfProductsDiff</ref> </para>
+<para>returns the sign of the polynomial ( a * b - c * d ) for infinitesimal positive argument, i.e. the sign of its lowest-degree not-zero coefficient, or 0 if all its coefficients of degrees not above M are zeros (the terms of higher degrees are not considered, since the arguments store the terms of degrees not above M only); every coefficient is converted into type T before multiplication, and the coefficients of the products have the type of T*T; the coefficients of the difference are computed in the order of increasing degree and only till the first not-zero one </para>
         </detaileddescription>
         <inbodydescription>
+<para>the terms of a*b (and of c*d) form rows: the i-th term of a times all the terms of b in the order of increasing degree; the heap keeps the current term of every row, so all terms of both products are visited in the order of increasing degree</para>
+<para>indices of the terms in the two factors</para>
+<para>true for the terms of c*d</para>
+<para>the terms of degrees above M are never considered, and since the terms of every polynomial are sorted, the initialization stops at the first such row</para>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="65" column="6" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="65" bodyend="66"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="246" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="246" bodyend="298" declfile="MRMesh/MRSparsePolynomial.h" declline="35" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -144677,7 +144525,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="82" column="5"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="52" column="5"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8b1ef47ca46e4387543f27df6e3b3bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -144696,7 +144544,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="86" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="130" bodyend="140"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="56" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="100" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaf742f5b139ea26142c4b53b07b105655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -144723,7 +144571,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="89" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="143" bodyend="151"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="59" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="113" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gadb8ff3c08eca24b211a02e31060ec736" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -144758,7 +144606,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="92" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="154" bodyend="172"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="62" column="5" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="124" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gaa2b403abf3066fd54bde49ee763aab40" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SparsePolynomial</type>
@@ -144777,7 +144625,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="95" column="30" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="175" bodyend="183"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="65" column="30" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="145" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga687ad0841acd4ba8dd03d5915fdaecf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -144796,7 +144644,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="98" column="10" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="98" bodyend="104"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="68" column="10" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="68" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3121c41d3714630889e95595c2ed63ba" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -144811,7 +144659,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="107" column="11" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="107" bodyend="107"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="77" column="11" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="77" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga555f6678115944f56cb6b347fcbc297a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -144826,7 +144674,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="110" column="11" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="186" bodyend="193"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="80" column="11" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="156" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga4594d4e61f1e8cb98cdf84f86dcdc9bd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::vector&lt; Term &gt; &amp;</type>
@@ -144841,7 +144689,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="113" column="25" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="113" bodyend="113"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="83" column="25" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga7db8147e43ed44e6850f4f813a585247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SparsePolynomial &amp;</type>
@@ -144859,7 +144707,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="115" column="22" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="212" bodyend="222"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="85" column="22" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="182" bodyend="192"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga33daec7c11a36c33eb5530ffa262a597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SparsePolynomial &amp;</type>
@@ -144877,7 +144725,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="116" column="22" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="225" bodyend="251"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="86" column="22" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="195" bodyend="221"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga46819ce49c562cce3bc42d2c067fb64e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -144892,7 +144740,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSparsePolynomial.h" line="124" column="10" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="196" bodyend="209"/>
+        <location file="MRMesh/MRSparsePolynomial.h" line="94" column="10" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="166" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>

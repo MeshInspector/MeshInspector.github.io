@@ -4554,11 +4554,6 @@ var group__GeneralGroup =
       [ "operator+", "group__GeneralGroup.html#ga844f65b0aad10ae232ab11237a790ae1", null ],
       [ "operator-", "group__GeneralGroup.html#ga869660408870e65bd32d5ea6df41edce", null ]
     ] ],
-    [ "MR::SignedProduct< A, B >", "structMR_1_1SignedProduct.html", [
-      [ "a", "group__GeneralGroup.html#gaa21d306ff03b1835319727067eff1ccd", null ],
-      [ "b", "group__GeneralGroup.html#ga76de47a66aabde4757e7e6fae8895a59", null ],
-      [ "negative", "group__GeneralGroup.html#ga49be6ff2464f25e4d95c06e561917dc4", null ]
-    ] ],
     [ "MR::Sphere< V >", "structMR_1_1Sphere.html", [
       [ "T", "group__GeneralGroup.html#gab3dcbfdadbd1e9018e22a979ea25c6f9", null ],
       [ "Sphere", "group__GeneralGroup.html#ga0146c86fafdf02efca98966d2ff841ef", null ],
@@ -13639,8 +13634,6 @@ var group__GeneralGroup =
     [ "MR::LocaltimeOrZero", "group__GeneralGroup.html#gad36e8ac1954499755bc5a0d1259fc529", null ],
     [ "MR::TbbThreadMutex::LockGuard::LockGuard", "group__GeneralGroup.html#ga88773482b1410e7fe4a3e0199337191c", null ],
     [ "MR::TbbThreadMutex::LockGuard::LockGuard", "group__GeneralGroup.html#ga1dc758a109b4c0c35b31302cab8b2bbc", null ],
-    [ "MR::lowestTermOfProductsDiff", "group__GeneralGroup.html#ga851b2cffd096626c502dd6165ecda2a8", null ],
-    [ "MR::lowestTermOfSumOfProducts", "group__GeneralGroup.html#ga84ceb1616e6fdd1b7dec8b222c401ea4", null ],
     [ "MR::AncillaryImGuiLabel::make", "group__GeneralGroup.html#ga29164595f1baaf514bbde473a7b4fbc9", null ],
     [ "MR::AncillaryImGuiLabel::make", "group__GeneralGroup.html#ga49250eb022982b0fc3781564b5c48ddf", null ],
     [ "MR::AncillaryImGuiLabel::make", "group__GeneralGroup.html#ga77d8234d4eb90c9066914191040095a8", null ],
@@ -16751,7 +16744,6 @@ var group__GeneralGroup =
     [ "MR::RigidXf3::a", "group__GeneralGroup.html#gad344bdee6f6f01c79ad1f21d6ee2e283", null ],
     [ "MR::SegmEndColors::a", "group__GeneralGroup.html#ga074d144106e966fd84ea6ac76b9a172b", null ],
     [ "MR::SegmPoint::a", "group__GeneralGroup.html#ga5473b25338c8b8b27c9d38f2b6bb8f89", null ],
-    [ "MR::SignedProduct::a", "group__GeneralGroup.html#gaa21d306ff03b1835319727067eff1ccd", null ],
     [ "MR::TriPoint::a", "group__GeneralGroup.html#ga8b3c5d2f52bedd379a12737883685b69", null ],
     [ "MR::TriTriDistanceResult::a", "group__GeneralGroup.html#ga26c9f09ce86daf06e28972f128bd268a", null ],
     [ "MR::TwoLineSegmClosestPoints::a", "group__GeneralGroup.html#ga42d3b98a66ca10b8a23f540ff55dee07", null ],
@@ -16839,7 +16831,6 @@ var group__GeneralGroup =
     [ "MR::RigidScaleXf3::b", "group__GeneralGroup.html#gaab41cf4d5be1d1a224a24a5b484e3a1d", null ],
     [ "MR::RigidXf3::b", "group__GeneralGroup.html#ga1c18eb2cefaafa045ec3e26dc9948f71", null ],
     [ "MR::SegmEndColors::b", "group__GeneralGroup.html#ga34ba656028d463bdd70196ca015bdeab", null ],
-    [ "MR::SignedProduct::b", "group__GeneralGroup.html#ga76de47a66aabde4757e7e6fae8895a59", null ],
     [ "MR::TriPoint::b", "group__GeneralGroup.html#ga7ad9a3fd75d2c4414e75599a4eb0d497", null ],
     [ "MR::TriTriDistanceResult::b", "group__GeneralGroup.html#ga2adde456867209868cd165e976db06d2", null ],
     [ "MR::TwoLineSegmClosestPoints::b", "group__GeneralGroup.html#ga74973d963ba6b88826bc0f458b08e827", null ],
@@ -17925,7 +17916,6 @@ var group__GeneralGroup =
     [ "MR::SceneObjectsListDrawer::MoveAndScrollData::needScroll", "group__GeneralGroup.html#ga5fa4cc6e843bdb6827ddcfde0e1b7709", null ],
     [ "MR::ObjectComparableWithReference::ComparisonTolerance::negative", "group__GeneralGroup.html#ga1833d1474b6f1ccbc444523a384c218a", null ],
     [ "MR::RenderDimensions::Tolerance::negative", "group__GeneralGroup.html#ga3b194200af6df82091fc20d103aa8b7c", null ],
-    [ "MR::SignedProduct::negative", "group__GeneralGroup.html#ga49be6ff2464f25e4d95c06e561917dc4", null ],
     [ "MR::Features::Primitives::ConeSegment::negativeLength", "group__GeneralGroup.html#gaa12508a43caab5ab1a44e29db684592d", null ],
     [ "MR::TransformControls::VisualParams::negativeLineExtension", "group__GeneralGroup.html#ga2000340dcc4b3b42415a4a5113590373", null ],
     [ "MR::Features::Primitives::ConeSegment::negativeSideRadius", "group__GeneralGroup.html#gabf9a80b6307631742a88be4930217ef9", null ],

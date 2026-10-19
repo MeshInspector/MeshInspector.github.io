@@ -1034,7 +1034,6 @@ var annotated_dup =
       [ "Signal", "structMR_1_1Signal.html", "structMR_1_1Signal" ],
       [ "SignedDistanceToMeshOptions", "structMR_1_1SignedDistanceToMeshOptions.html", "structMR_1_1SignedDistanceToMeshOptions" ],
       [ "SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", "structMR_1_1SignedDistanceToMeshResult" ],
-      [ "SignedProduct", "structMR_1_1SignedProduct.html", "structMR_1_1SignedProduct" ],
       [ "SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", "structMR_1_1SimpleTimeRecord" ],
       [ "SkyPatch", "structMR_1_1SkyPatch.html", "structMR_1_1SkyPatch" ],
       [ "SliceInfo", "structMR_1_1SliceInfo.html", "structMR_1_1SliceInfo" ],

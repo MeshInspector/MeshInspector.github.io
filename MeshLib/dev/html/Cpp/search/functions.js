@@ -1625,8 +1625,6 @@ var searchData=
   ['loggingstreambuf_103',['LoggingStreambuf',['../classMR_1_1LoggingStreambuf.html#a10af535c39ec904bc21af3515d22ca70',1,'MR::LoggingStreambuf']]],
   ['lookat_104',['lookAt',['../group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da',1,'MR']]],
   ['loopdirarea_105',['loopDirArea',['../structMR_1_1Polyline.html#ad4be3d0739eaf55a7156960a61d9b1e3',1,'MR::Polyline']]],
-  ['lowesttermofproductsdiff_106',['lowestTermOfProductsDiff',['../group__GeneralGroup.html#ga851b2cffd096626c502dd6165ecda2a8',1,'MR']]],
-  ['lowesttermofsumofproducts_107',['lowestTermOfSumOfProducts',['../group__GeneralGroup.html#ga84ceb1616e6fdd1b7dec8b222c401ea4',1,'MR']]],
   ['_7ealphasortgl_0',['~AlphaSortGL',['../group__GeneralGroup.html#ga1dd61ddfaca7ad57995cff3e85436742',1,'MR::AlphaSortGL']]],
   ['_7eancillarylabel_1',['~AncillaryLabel',['../group__GeneralGroup.html#gacdfb7bc77de0517f71a4e105a1a4f36d',1,'MR::AncillaryLabel']]],
   ['_7eancillarylines_2',['~AncillaryLines',['../group__GeneralGroup.html#gac40b43be9d56a0501df43434d19d8cbc',1,'MR::AncillaryLines']]],

@@ -841,8 +841,6 @@ Classes</h2></td></tr>
 <tr class="memitem:MR_3A_3ASkyPatch" id="r_MR_3A_3ASkyPatch"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class represents a portion of the sky, and its radiation  <a href="structMR_1_1SkyPatch.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ASparsePolynomial_3C_20C_2C_20D_2C_20M_20_3E" id="r_MR_3A_3ASparsePolynomial_3C_20C_2C_20D_2C_20M_20_3E"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SparsePolynomial.html">MR::SparsePolynomial&lt; C, D, M &gt;</a></td></tr>
-<tr class="memitem:MR_3A_3ASignedProduct_3C_20A_2C_20B_20_3E" id="r_MR_3A_3ASignedProduct_3C_20A_2C_20B_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SignedProduct.html">MR::SignedProduct&lt; A, B &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">one product of two polynomials in a sum, see <a class="el" href="#ga84ceb1616e6fdd1b7dec8b222c401ea4">lowestTermOfSumOfProducts</a>  <a href="structMR_1_1SignedProduct.html#details">More...</a><br /></td></tr>
 <tr class="memitem:MR_3A_3ASphere_3C_20V_20_3E" id="r_MR_3A_3ASphere_3C_20V_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Sphere.html">MR::Sphere&lt; V &gt;</a></td></tr>
 <tr class="memitem:MR_3A_3ASphereObject" id="r_MR_3A_3ASphereObject"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SphereObject.html">MR::SphereObject</a></td></tr>
 <tr class="memitem:MR_3A_3ASymMatrix2_3C_20T_20_3E" id="r_MR_3A_3ASymMatrix2_3C_20T_20_3E"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SymMatrix2.html">MR::SymMatrix2&lt; T &gt;</a></td></tr>
@@ -7683,10 +7681,6 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:ga39de2d02d74ee4158df88993a656c0d0" id="r_ga39de2d02d74ee4158df88993a656c0d0"><td class="memTemplParams" colspan="2">template&lt;typename C, typename D, D M&gt; </td></tr>
 <tr class="memitem:ga39de2d02d74ee4158df88993a656c0d0 template"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga39de2d02d74ee4158df88993a656c0d0">MR::operator*</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>)</td></tr>
 <tr class="memdesc:ga39de2d02d74ee4158df88993a656c0d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the product of two polynomials with the coefficients of the same type  <br /></td></tr>
-<tr class="memitem:ga84ceb1616e6fdd1b7dec8b222c401ea4" id="r_ga84ceb1616e6fdd1b7dec8b222c401ea4"><td class="memTemplParams" colspan="2">template&lt;typename TA, typename TB = TA, typename CA, typename CB, typename D, D M&gt; </td></tr>
-<tr class="memitem:ga84ceb1616e6fdd1b7dec8b222c401ea4 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; D, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84ceb1616e6fdd1b7dec8b222c401ea4">MR::lowestTermOfSumOfProducts</a> (const <a class="el" href="structMR_1_1SignedProduct.html">SignedProduct</a>&lt; <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; CA, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;, <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; CB, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &gt; *products, int numProducts, std::type_identity_t&lt; D &gt; from=0)</td></tr>
-<tr class="memitem:ga851b2cffd096626c502dd6165ecda2a8" id="r_ga851b2cffd096626c502dd6165ecda2a8"><td class="memTemplParams" colspan="2">template&lt;typename T, typename C, typename D, D M&gt; </td></tr>
-<tr class="memitem:ga851b2cffd096626c502dd6165ecda2a8 template"><td class="memItemLeft" align="right" valign="top">std::pair&lt; D, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga851b2cffd096626c502dd6165ecda2a8">MR::lowestTermOfProductsDiff</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;c, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;d, std::type_identity_t&lt; D &gt; from=0)</td></tr>
 <tr class="memitem:ga653978c9d8cd70c6399ccb07f7191182" id="r_ga653978c9d8cd70c6399ccb07f7191182"><td class="memTemplParams" colspan="2">template&lt;typename T, typename C, typename D, D M&gt; </td></tr>
 <tr class="memitem:ga653978c9d8cd70c6399ccb07f7191182 template"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga653978c9d8cd70c6399ccb07f7191182">MR::signOfProductsDiff</a> (const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga8984ec4b8cdb3ebbc09d53f588587d3e">a</a>, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;<a class="el" href="group__FillHoleGroup.html#ga18e48630776db875b1a03ec6f89e6edd">b</a>, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;c, const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;d)</td></tr>
 <tr class="memitem:ga3dc64df27400abce4c5aa702e5829ac3" id="r_ga3dc64df27400abce4c5aa702e5829ac3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3dc64df27400abce4c5aa702e5829ac3">MR::SparsePolynomial&lt; C, D, M &gt;::SparsePolynomial</a> ()=default</td></tr>
@@ -13474,10 +13468,6 @@ Variables</h2></td></tr>
 <tr class="memdesc:gab2ea86c9173f3228c1adec10b4b8c48a"><td class="mdescLeft">&#160;</td><td class="mdescRight">direction toward the center of the patch  <br /></td></tr>
 <tr class="memitem:ga511b8b1d8245fb415755ea6881577867" id="r_ga511b8b1d8245fb415755ea6881577867"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga511b8b1d8245fb415755ea6881577867">MR::SkyPatch::radiation</a> = 0</td></tr>
 <tr class="memdesc:ga511b8b1d8245fb415755ea6881577867"><td class="mdescLeft">&#160;</td><td class="mdescRight">radiation of the patch depending on Sun's position, sky clearness and brightness, etc  <br /></td></tr>
-<tr class="memitem:gaa21d306ff03b1835319727067eff1ccd" id="r_gaa21d306ff03b1835319727067eff1ccd"><td class="memItemLeft" align="right" valign="top">const A *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa21d306ff03b1835319727067eff1ccd">MR::SignedProduct&lt; A, B &gt;::a</a> = nullptr</td></tr>
-<tr class="memitem:ga76de47a66aabde4757e7e6fae8895a59" id="r_ga76de47a66aabde4757e7e6fae8895a59"><td class="memItemLeft" align="right" valign="top">const B *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga76de47a66aabde4757e7e6fae8895a59">MR::SignedProduct&lt; A, B &gt;::b</a> = nullptr</td></tr>
-<tr class="memitem:ga49be6ff2464f25e4d95c06e561917dc4" id="r_ga49be6ff2464f25e4d95c06e561917dc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga49be6ff2464f25e4d95c06e561917dc4">MR::SignedProduct&lt; A, B &gt;::negative</a> = false</td></tr>
-<tr class="memdesc:ga49be6ff2464f25e4d95c06e561917dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the product is subtracted  <br /></td></tr>
 <tr class="memitem:gac761a3c59ab76b111bb301d71558d5a7" id="r_gac761a3c59ab76b111bb301d71558d5a7"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac761a3c59ab76b111bb301d71558d5a7">MR::Sphere&lt; V &gt;::center</a></td></tr>
 <tr class="memitem:gac91793706fe6273028dbecc98e540b1b" id="r_gac91793706fe6273028dbecc98e540b1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gab3dcbfdadbd1e9018e22a979ea25c6f9">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac91793706fe6273028dbecc98e540b1b">MR::Sphere&lt; V &gt;::radius</a> = 0</td></tr>
 <tr class="memitem:gaf527509f666f1f4e66becbf773677189" id="r_gaf527509f666f1f4e66becbf773677189"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf527509f666f1f4e66becbf773677189">MR::SymMatrix2&lt; T &gt;::xx</a> = 0</td></tr>
@@ -115962,99 +115952,6 @@ returns true if load was succeed </p>
 
 </div>
 </div>
-<a id="ga851b2cffd096626c502dd6165ecda2a8" name="ga851b2cffd096626c502dd6165ecda2a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga851b2cffd096626c502dd6165ecda2a8">&#9670;&#160;</a></span>lowestTermOfProductsDiff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, typename C, typename D, D M&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; D, int &gt; MR::lowestTermOfProductsDiff </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; C, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>d</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::type_identity_t&lt; D &gt;</td>          <td class="paramname"><span class="paramname"><em>from</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
-<p>returns the degree and the sign of the lowest-degree not-zero coefficient of the polynomial ( a * b - c * d ), or sign 0 if all its coefficients of degrees not above M are zeros, see <a class="el" href="#ga84ceb1616e6fdd1b7dec8b222c401ea4">lowestTermOfSumOfProducts</a> </p>
-
-</div>
-</div>
-<a id="ga84ceb1616e6fdd1b7dec8b222c401ea4" name="ga84ceb1616e6fdd1b7dec8b222c401ea4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga84ceb1616e6fdd1b7dec8b222c401ea4">&#9670;&#160;</a></span>lowestTermOfSumOfProducts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename TA, typename TB = TA, typename CA, typename CB, typename D, D M&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; D, int &gt; MR::lowestTermOfSumOfProducts </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1SignedProduct.html">SignedProduct</a>&lt; <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; CA, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt;, <a class="el" href="classMR_1_1SparsePolynomial.html">SparsePolynomial</a>&lt; CB, D, <a class="el" href="MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9">M</a> &gt; &gt; *</td>          <td class="paramname"><span class="paramname"><em>products</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numProducts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::type_identity_t&lt; D &gt;</td>          <td class="paramname"><span class="paramname"><em>from</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
-<p>returns the degree and the sign of the lowest-degree not-zero coefficient of the sum of the given products of polynomials, or sign 0 if all its coefficients of degrees not above M are zeros (the terms of higher degrees are not considered, since the arguments store the terms of degrees not above M only); every coefficient of the first factors is converted into type TA and every coefficient of the second factors into type TB before multiplication (unless it already has that type), and the coefficients of the products have the type of TA*TB; the coefficients of the sum are computed in the order of increasing degree and only till the first not-zero one; the products of two terms of degrees below <span class="tt">from</span> are skipped, which the caller may do if their sum is known to be zero (e.g. a polynomial that was zero before the terms of degrees from <span class="tt">from</span> up were added to its factors); <span class="tt">from</span> takes no part in deducing D, so any integer converts to it </p>
-<p>the terms of every product form rows: the i-th term of its first factor times all the terms of the second one in the order of increasing degree; the heap keeps the current term of every row, so all terms of all products are visited in the order of increasing degree</p>
-<p>the product and the indices of the terms in its two factors</p>
-<p>the row of a term of f below <span class="tt">from</span> starts from the first term of g not below it</p>
-<p>the terms of degrees above M are never considered, and since the terms of every polynomial are sorted, the initialization stops at the first such row that starts from the first term of g</p>
-<p>no conversion (and no copy of a big integer) if a coefficient has the type to multiply in already</p>
-
-</div>
-</div>
 <a id="ga29164595f1baaf514bbde473a7b4fbc9" name="ga29164595f1baaf514bbde473a7b4fbc9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga29164595f1baaf514bbde473a7b4fbc9">&#9670;&#160;</a></span>make() <span class="overload">[1/10]</span></h2>
 
@@ -125570,7 +125467,6 @@ template&lt;typename T, typename C, typename D, D M&gt; </div>
 
 <p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
 <p>computes the product of two polynomials, converting every coefficient into type T before multiplication; e.g. T=<a class="el" href="classMR_1_1Int128Mul256.html">Int128Mul256</a> multiplies <a class="el" href="#ga626821a3551ab1b67dc553a092bd0a2f">FastInt128</a> coefficients without overflow into a polynomial with <a class="el" href="group__HighPrecisionGroup.html#ga03afccb56b1bcb89b74a55f6cac19618">FastInt256</a> coefficients </p>
-<p>no conversion (and no copy of a big integer) if the coefficients have type T already</p>
 
 </div>
 </div>
@@ -177309,7 +177205,11 @@ template&lt;typename T, typename C, typename D, D M&gt; </div>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRSparsePolynomial_8h.html">MRMesh/MRSparsePolynomial.h</a>&gt;</code></p>
-<p>returns the sign of the polynomial ( a * b - c * d ) for infinitesimal positive argument, i.e. the sign of its lowest-degree not-zero coefficient, see <a class="el" href="#ga851b2cffd096626c502dd6165ecda2a8">lowestTermOfProductsDiff</a> </p>
+<p>returns the sign of the polynomial ( a * b - c * d ) for infinitesimal positive argument, i.e. the sign of its lowest-degree not-zero coefficient, or 0 if all its coefficients of degrees not above M are zeros (the terms of higher degrees are not considered, since the arguments store the terms of degrees not above M only); every coefficient is converted into type T before multiplication, and the coefficients of the products have the type of T*T; the coefficients of the difference are computed in the order of increasing degree and only till the first not-zero one </p>
+<p>the terms of a*b (and of c*d) form rows: the i-th term of a times all the terms of b in the order of increasing degree; the heap keeps the current term of every row, so all terms of both products are visited in the order of increasing degree</p>
+<p>indices of the terms in the two factors</p>
+<p>true for the terms of c*d</p>
+<p>the terms of degrees above M are never considered, and since the terms of every polynomial are sorted, the initialization stops at the first such row</p>
 
 </div>
 </div>
@@ -202618,7 +202518,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga8d505c540a356c81a0bbf17945b22153" name="ga8d505c540a356c81a0bbf17945b22153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8d505c540a356c81a0bbf17945b22153">&#9670;&#160;</a></span>a <span class="overload">[1/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d505c540a356c81a0bbf17945b22153">&#9670;&#160;</a></span>a <span class="overload">[1/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202642,7 +202542,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga8d505c540a356c81a0bbf17945b22153" name="ga8d505c540a356c81a0bbf17945b22153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8d505c540a356c81a0bbf17945b22153">&#9670;&#160;</a></span>a <span class="overload">[2/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d505c540a356c81a0bbf17945b22153">&#9670;&#160;</a></span>a <span class="overload">[2/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202659,7 +202559,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="gaca69f5d63615624473f947bb8b68d739" name="gaca69f5d63615624473f947bb8b68d739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaca69f5d63615624473f947bb8b68d739">&#9670;&#160;</a></span>a <span class="overload">[3/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaca69f5d63615624473f947bb8b68d739">&#9670;&#160;</a></span>a <span class="overload">[3/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202673,7 +202573,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga6f7984cdd308a0c9cfdfdab64c870c2f" name="ga6f7984cdd308a0c9cfdfdab64c870c2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f7984cdd308a0c9cfdfdab64c870c2f">&#9670;&#160;</a></span>a <span class="overload">[4/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6f7984cdd308a0c9cfdfdab64c870c2f">&#9670;&#160;</a></span>a <span class="overload">[4/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202691,7 +202591,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga87ce7cfc8aa4d50dc87c6ef7b7751cd9" name="ga87ce7cfc8aa4d50dc87c6ef7b7751cd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga87ce7cfc8aa4d50dc87c6ef7b7751cd9">&#9670;&#160;</a></span>a <span class="overload">[5/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87ce7cfc8aa4d50dc87c6ef7b7751cd9">&#9670;&#160;</a></span>a <span class="overload">[5/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202709,7 +202609,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad8082db96a699453e8d5686f29c7c235" name="gad8082db96a699453e8d5686f29c7c235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad8082db96a699453e8d5686f29c7c235">&#9670;&#160;</a></span>a <span class="overload">[6/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad8082db96a699453e8d5686f29c7c235">&#9670;&#160;</a></span>a <span class="overload">[6/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202733,7 +202633,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5a416b6364f2ec163ab839380998b247" name="ga5a416b6364f2ec163ab839380998b247"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5a416b6364f2ec163ab839380998b247">&#9670;&#160;</a></span>a <span class="overload">[7/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a416b6364f2ec163ab839380998b247">&#9670;&#160;</a></span>a <span class="overload">[7/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202749,7 +202649,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga34d2109107ef4c428253a8755305114b" name="ga34d2109107ef4c428253a8755305114b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga34d2109107ef4c428253a8755305114b">&#9670;&#160;</a></span>a <span class="overload">[8/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34d2109107ef4c428253a8755305114b">&#9670;&#160;</a></span>a <span class="overload">[8/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202765,7 +202665,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3cc5be84c9490736e6839f7d4f54e839" name="ga3cc5be84c9490736e6839f7d4f54e839"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3cc5be84c9490736e6839f7d4f54e839">&#9670;&#160;</a></span>a <span class="overload">[9/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3cc5be84c9490736e6839f7d4f54e839">&#9670;&#160;</a></span>a <span class="overload">[9/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202783,7 +202683,7 @@ template&lt;typename T, size_t degree&gt; </div>
 </div>
 </div>
 <a id="ga99d6bff08a40df6a9873566e597b029e" name="ga99d6bff08a40df6a9873566e597b029e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga99d6bff08a40df6a9873566e597b029e">&#9670;&#160;</a></span>a <span class="overload">[10/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99d6bff08a40df6a9873566e597b029e">&#9670;&#160;</a></span>a <span class="overload">[10/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202801,7 +202701,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gac7250fbdfd02baf9936e263ed527779e" name="gac7250fbdfd02baf9936e263ed527779e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac7250fbdfd02baf9936e263ed527779e">&#9670;&#160;</a></span>a <span class="overload">[11/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gac7250fbdfd02baf9936e263ed527779e">&#9670;&#160;</a></span>a <span class="overload">[11/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202819,7 +202719,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gad344bdee6f6f01c79ad1f21d6ee2e283" name="gad344bdee6f6f01c79ad1f21d6ee2e283"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad344bdee6f6f01c79ad1f21d6ee2e283">&#9670;&#160;</a></span>a <span class="overload">[12/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad344bdee6f6f01c79ad1f21d6ee2e283">&#9670;&#160;</a></span>a <span class="overload">[12/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202837,7 +202737,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga074d144106e966fd84ea6ac76b9a172b" name="ga074d144106e966fd84ea6ac76b9a172b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga074d144106e966fd84ea6ac76b9a172b">&#9670;&#160;</a></span>a <span class="overload">[13/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga074d144106e966fd84ea6ac76b9a172b">&#9670;&#160;</a></span>a <span class="overload">[13/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202851,7 +202751,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga5473b25338c8b8b27c9d38f2b6bb8f89" name="ga5473b25338c8b8b27c9d38f2b6bb8f89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5473b25338c8b8b27c9d38f2b6bb8f89">&#9670;&#160;</a></span>a <span class="overload">[14/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5473b25338c8b8b27c9d38f2b6bb8f89">&#9670;&#160;</a></span>a <span class="overload">[14/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202868,24 +202768,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="gaa21d306ff03b1835319727067eff1ccd" name="gaa21d306ff03b1835319727067eff1ccd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa21d306ff03b1835319727067eff1ccd">&#9670;&#160;</a></span>a <span class="overload">[15/19]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename A, typename B&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const A* <a class="el" href="structMR_1_1SignedProduct.html">MR::SignedProduct</a>&lt; A, B &gt;::a = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga8b3c5d2f52bedd379a12737883685b69" name="ga8b3c5d2f52bedd379a12737883685b69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8b3c5d2f52bedd379a12737883685b69">&#9670;&#160;</a></span>a <span class="overload">[16/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8b3c5d2f52bedd379a12737883685b69">&#9670;&#160;</a></span>a <span class="overload">[15/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202904,7 +202788,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga26c9f09ce86daf06e28972f128bd268a" name="ga26c9f09ce86daf06e28972f128bd268a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga26c9f09ce86daf06e28972f128bd268a">&#9670;&#160;</a></span>a <span class="overload">[17/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26c9f09ce86daf06e28972f128bd268a">&#9670;&#160;</a></span>a <span class="overload">[16/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202921,7 +202805,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="ga42d3b98a66ca10b8a23f540ff55dee07" name="ga42d3b98a66ca10b8a23f540ff55dee07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga42d3b98a66ca10b8a23f540ff55dee07">&#9670;&#160;</a></span>a <span class="overload">[18/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42d3b98a66ca10b8a23f540ff55dee07">&#9670;&#160;</a></span>a <span class="overload">[17/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202939,7 +202823,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="ga52ef91aaa0208aa1e90b238eef7bbee9" name="ga52ef91aaa0208aa1e90b238eef7bbee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga52ef91aaa0208aa1e90b238eef7bbee9">&#9670;&#160;</a></span>a <span class="overload">[19/19]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52ef91aaa0208aa1e90b238eef7bbee9">&#9670;&#160;</a></span>a <span class="overload">[18/18]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204118,7 +204002,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga092cf8a0fd74634e6e4d50b8cfc9956d" name="ga092cf8a0fd74634e6e4d50b8cfc9956d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga092cf8a0fd74634e6e4d50b8cfc9956d">&#9670;&#160;</a></span>b <span class="overload">[1/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga092cf8a0fd74634e6e4d50b8cfc9956d">&#9670;&#160;</a></span>b <span class="overload">[1/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204134,7 +204018,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga658fa5014c6e2170ea24d7c8aa6baee8" name="ga658fa5014c6e2170ea24d7c8aa6baee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga658fa5014c6e2170ea24d7c8aa6baee8">&#9670;&#160;</a></span>b <span class="overload">[2/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga658fa5014c6e2170ea24d7c8aa6baee8">&#9670;&#160;</a></span>b <span class="overload">[2/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204148,7 +204032,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaffabf4b2ea3763fb8614f0e4704e412a" name="gaffabf4b2ea3763fb8614f0e4704e412a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaffabf4b2ea3763fb8614f0e4704e412a">&#9670;&#160;</a></span>b <span class="overload">[3/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaffabf4b2ea3763fb8614f0e4704e412a">&#9670;&#160;</a></span>b <span class="overload">[3/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204162,7 +204046,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="ga658fa5014c6e2170ea24d7c8aa6baee8" name="ga658fa5014c6e2170ea24d7c8aa6baee8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga658fa5014c6e2170ea24d7c8aa6baee8">&#9670;&#160;</a></span>b <span class="overload">[4/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga658fa5014c6e2170ea24d7c8aa6baee8">&#9670;&#160;</a></span>b <span class="overload">[4/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204176,7 +204060,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gaaf405ad228844bff2d377328b8c2f73c" name="gaaf405ad228844bff2d377328b8c2f73c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaf405ad228844bff2d377328b8c2f73c">&#9670;&#160;</a></span>b <span class="overload">[5/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf405ad228844bff2d377328b8c2f73c">&#9670;&#160;</a></span>b <span class="overload">[5/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204190,7 +204074,7 @@ template&lt;typename T, typename <a class="el" href="#ga7d89e508205d25559adcd087
 </div>
 </div>
 <a id="gad0c89e3405412b9dea74a995aab95f38" name="gad0c89e3405412b9dea74a995aab95f38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad0c89e3405412b9dea74a995aab95f38">&#9670;&#160;</a></span>b <span class="overload">[6/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gad0c89e3405412b9dea74a995aab95f38">&#9670;&#160;</a></span>b <span class="overload">[6/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204208,7 +204092,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gafcb4423f5becc13fff968c531455f4e8" name="gafcb4423f5becc13fff968c531455f4e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafcb4423f5becc13fff968c531455f4e8">&#9670;&#160;</a></span>b <span class="overload">[7/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gafcb4423f5becc13fff968c531455f4e8">&#9670;&#160;</a></span>b <span class="overload">[7/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204224,7 +204108,7 @@ template&lt;typename V&gt; </div>
 </div>
 </div>
 <a id="ga9753dfacf3e0613b37e554a7f4b63f8a" name="ga9753dfacf3e0613b37e554a7f4b63f8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9753dfacf3e0613b37e554a7f4b63f8a">&#9670;&#160;</a></span>b <span class="overload">[8/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9753dfacf3e0613b37e554a7f4b63f8a">&#9670;&#160;</a></span>b <span class="overload">[8/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204240,7 +204124,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga9c92b4bc72a2fd317f159c70c50e441c" name="ga9c92b4bc72a2fd317f159c70c50e441c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9c92b4bc72a2fd317f159c70c50e441c">&#9670;&#160;</a></span>b <span class="overload">[9/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c92b4bc72a2fd317f159c70c50e441c">&#9670;&#160;</a></span>b <span class="overload">[9/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204256,7 +204140,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="gaab41cf4d5be1d1a224a24a5b484e3a1d" name="gaab41cf4d5be1d1a224a24a5b484e3a1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaab41cf4d5be1d1a224a24a5b484e3a1d">&#9670;&#160;</a></span>b <span class="overload">[10/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab41cf4d5be1d1a224a24a5b484e3a1d">&#9670;&#160;</a></span>b <span class="overload">[10/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204274,7 +204158,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1c18eb2cefaafa045ec3e26dc9948f71" name="ga1c18eb2cefaafa045ec3e26dc9948f71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1c18eb2cefaafa045ec3e26dc9948f71">&#9670;&#160;</a></span>b <span class="overload">[11/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1c18eb2cefaafa045ec3e26dc9948f71">&#9670;&#160;</a></span>b <span class="overload">[11/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204292,7 +204176,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga34ba656028d463bdd70196ca015bdeab" name="ga34ba656028d463bdd70196ca015bdeab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga34ba656028d463bdd70196ca015bdeab">&#9670;&#160;</a></span>b <span class="overload">[12/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga34ba656028d463bdd70196ca015bdeab">&#9670;&#160;</a></span>b <span class="overload">[12/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204305,24 +204189,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ga76de47a66aabde4757e7e6fae8895a59" name="ga76de47a66aabde4757e7e6fae8895a59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga76de47a66aabde4757e7e6fae8895a59">&#9670;&#160;</a></span>b <span class="overload">[13/17]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename A, typename B&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">const B* <a class="el" href="structMR_1_1SignedProduct.html">MR::SignedProduct</a>&lt; A, B &gt;::b = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ga7ad9a3fd75d2c4414e75599a4eb0d497" name="ga7ad9a3fd75d2c4414e75599a4eb0d497"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7ad9a3fd75d2c4414e75599a4eb0d497">&#9670;&#160;</a></span>b <span class="overload">[14/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7ad9a3fd75d2c4414e75599a4eb0d497">&#9670;&#160;</a></span>b <span class="overload">[13/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204340,7 +204208,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga2adde456867209868cd165e976db06d2" name="ga2adde456867209868cd165e976db06d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2adde456867209868cd165e976db06d2">&#9670;&#160;</a></span>b <span class="overload">[15/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2adde456867209868cd165e976db06d2">&#9670;&#160;</a></span>b <span class="overload">[14/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204356,7 +204224,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="ga74973d963ba6b88826bc0f458b08e827" name="ga74973d963ba6b88826bc0f458b08e827"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga74973d963ba6b88826bc0f458b08e827">&#9670;&#160;</a></span>b <span class="overload">[16/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga74973d963ba6b88826bc0f458b08e827">&#9670;&#160;</a></span>b <span class="overload">[15/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204372,7 +204240,7 @@ template&lt;class T&gt; </div>
 </div>
 </div>
 <a id="ga4bb6813b4c01f5510e20837676efa7ae" name="ga4bb6813b4c01f5510e20837676efa7ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4bb6813b4c01f5510e20837676efa7ae">&#9670;&#160;</a></span>b <span class="overload">[17/17]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4bb6813b4c01f5510e20837676efa7ae">&#9670;&#160;</a></span>b <span class="overload">[16/16]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222577,7 +222445,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga1833d1474b6f1ccbc444523a384c218a" name="ga1833d1474b6f1ccbc444523a384c218a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1833d1474b6f1ccbc444523a384c218a">&#9670;&#160;</a></span>negative <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1833d1474b6f1ccbc444523a384c218a">&#9670;&#160;</a></span>negative <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222592,7 +222460,7 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 <a id="ga3b194200af6df82091fc20d103aa8b7c" name="ga3b194200af6df82091fc20d103aa8b7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga3b194200af6df82091fc20d103aa8b7c">&#9670;&#160;</a></span>negative <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b194200af6df82091fc20d103aa8b7c">&#9670;&#160;</a></span>negative <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222604,24 +222472,6 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>Should be positive or zero. </p>
-
-</div>
-</div>
-<a id="ga49be6ff2464f25e4d95c06e561917dc4" name="ga49be6ff2464f25e4d95c06e561917dc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga49be6ff2464f25e4d95c06e561917dc4">&#9670;&#160;</a></span>negative <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename A, typename B&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structMR_1_1SignedProduct.html">MR::SignedProduct</a>&lt; A, B &gt;::negative = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>whether the product is subtracted </p>
 
 </div>
 </div>

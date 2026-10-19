@@ -11015,11 +11015,6 @@
     <member refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" kind="variable"><name>mtp</name></member>
     <member refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" kind="variable"><name>dist</name></member>
   </compound>
-  <compound refid="structMR_1_1SignedProduct" kind="struct"><name>MR::SignedProduct</name>
-    <member refid="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" kind="variable"><name>a</name></member>
-    <member refid="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" kind="variable"><name>negative</name></member>
-  </compound>
   <compound refid="structMR_1_1SimpleTimeRecord" kind="struct"><name>MR::SimpleTimeRecord</name>
     <member refid="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" kind="variable"><name>count</name></member>
     <member refid="structMR_1_1SimpleTimeRecord_1a783bd5b3455191ffcbf6c59363d9e81e" kind="variable"><name>time</name></member>
@@ -15954,8 +15949,6 @@
     <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
     <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kind="function"><name>lowestTermOfSumOfProducts</name></member>
-    <member refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kind="function"><name>lowestTermOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga28de882a11f5c9ac17334f542ab0ec47" kind="function"><name>projectSpline</name></member>
     <member refid="group__GeneralGroup_1ga2b6db8327a937df5f0371d7adba2adc5" kind="function"><name>projectSplineAsMTP</name></member>
@@ -23785,9 +23778,6 @@
     <member refid="group__GeneralGroup_1ga0f708a94c94e32aa8001fe2cf18960d4" kind="variable"><name>outSharpEdges</name></member>
     <member refid="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" kind="variable"><name>dir</name></member>
     <member refid="group__GeneralGroup_1ga511b8b1d8245fb415755ea6881577867" kind="variable"><name>radiation</name></member>
-    <member refid="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" kind="variable"><name>a</name></member>
-    <member refid="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" kind="variable"><name>negative</name></member>
     <member refid="group__GeneralGroup_1ga3cdcb59017dfbb100b74e6fc17192d26" kind="variable"><name>terms_</name></member>
     <member refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kind="variable"><name>center</name></member>
     <member refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kind="variable"><name>radius</name></member>
@@ -29042,8 +29032,6 @@
     <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
     <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kind="function"><name>lowestTermOfSumOfProducts</name></member>
-    <member refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kind="function"><name>lowestTermOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" kind="function"><name>SparsePolynomial</name></member>
     <member refid="group__GeneralGroup_1ga8b1ef47ca46e4387543f27df6e3b3bf7" kind="function"><name>SparsePolynomial</name></member>
