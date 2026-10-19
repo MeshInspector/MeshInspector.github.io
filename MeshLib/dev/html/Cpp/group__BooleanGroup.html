@@ -182,20 +182,20 @@ Functions</h2></td></tr>
 <tr class="memitem:ga1c924334076a710ae361fbdab680d498" id="r_ga1c924334076a710ae361fbdab680d498"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1c924334076a710ae361fbdab680d498">MR::doBooleanOperation</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshACut, <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;&amp;meshBCut, std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;&amp;cutEdgesA, std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;&amp;cutEdgesB, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> <a class="el" href="group__DistanceMapGroup.html#ga69c979e2e86dc19d223ee4f41fb46fea">operation</a>, const AffineXf3f *<a class="el" href="group__DistanceMapGroup.html#ga557dc22e5cbeb46ead267fbf4b2b59b3">rigidB2A</a>=nullptr, <a class="el" href="structMR_1_1BooleanResultMapper.html">BooleanResultMapper</a> *<a class="el" href="group__DistanceMapGroup.html#ga848e5345e71d79237fb4a0881d2119a8">mapper</a>=nullptr, bool mergeAllNonIntersectingComponents=false, const <a class="el" href="structMR_1_1BooleanInternalParameters.html">BooleanInternalParameters</a> &amp;intParams={})</td></tr>
 <tr class="memitem:ga84b6da724860c1e5ac72574b7635c22c" id="r_ga84b6da724860c1e5ac72574b7635c22c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1CutMeshResult.html">CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c">MR::cutMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;contours, const <a class="el" href="structMR_1_1CutMeshParameters.html">CutMeshParameters</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga5eb87f0ab1d7fca53c85caa95f287e69">params</a>={})</td></tr>
 <tr class="memdesc:ga84b6da724860c1e5ac72574b7635c22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts mesh by given contours.  <br /></td></tr>
-<tr class="memitem:gaccf79b17bf64faa5454a116f768def33" id="r_gaccf79b17bf64faa5454a116f768def33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccf79b17bf64faa5454a116f768def33">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, float offset, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
-<tr class="memdesc:gaccf79b17bf64faa5454a116f768def33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
-<tr class="memitem:ga8f2f47f6c859930c9c0252e4bc28944e" id="r_ga8f2f47f6c859930c9c0252e4bc28944e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f2f47f6c859930c9c0252e4bc28944e">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
-<tr class="memdesc:ga8f2f47f6c859930c9c0252e4bc28944e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
-<tr class="memitem:ga86ca2da82f81a72954e27baf0e31fbd8" id="r_ga86ca2da82f81a72954e27baf0e31fbd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86ca2da82f81a72954e27baf0e31fbd8">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="group__GeneralGroup.html#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
-<tr class="memdesc:ga86ca2da82f81a72954e27baf0e31fbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
-<tr class="memitem:ga1038937a987d09a86802e694724e7aa7" id="r_ga1038937a987d09a86802e694724e7aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1038937a987d09a86802e694724e7aa7">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
-<tr class="memdesc:ga1038937a987d09a86802e694724e7aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
-<tr class="memitem:ga9b27124d1aee7872d4ac97a96ef4fee2" id="r_ga9b27124d1aee7872d4ac97a96ef4fee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b27124d1aee7872d4ac97a96ef4fee2">MR::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
-<tr class="memdesc:ga9b27124d1aee7872d4ac97a96ef4fee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
-<tr class="memitem:ga84ad133112b40770a9311344d2bbfdde" id="r_ga84ad133112b40770a9311344d2bbfdde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84ad133112b40770a9311344d2bbfdde">MR::convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;surfacePath, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
-<tr class="memdesc:ga84ad133112b40770a9311344d2bbfdde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>.  <br /></td></tr>
-<tr class="memitem:ga60c552ace8de5755edd7e5a28dd4dc6b" id="r_ga60c552ace8de5755edd7e5a28dd4dc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga60c552ace8de5755edd7e5a28dd4dc6b">MR::convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
-<tr class="memdesc:ga60c552ace8de5755edd7e5a28dd4dc6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="group__GeneralGroup.html#ga1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>.  <br /></td></tr>
+<tr class="memitem:ga2cc55b5541f2ceaaf75cd0e0d48c8292" id="r_ga2cc55b5541f2ceaaf75cd0e0d48c8292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2cc55b5541f2ceaaf75cd0e0d48c8292">MR::offsetSurfaceLineToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, float offset, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
+<tr class="memdesc:ga2cc55b5541f2ceaaf75cd0e0d48c8292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="memitem:gac67a5b20bb2312590785d6dca7473866" id="r_gac67a5b20bb2312590785d6dca7473866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac67a5b20bb2312590785d6dca7473866">MR::offsetSurfaceLineToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
+<tr class="memdesc:gac67a5b20bb2312590785d6dca7473866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="memitem:ga123f4e8e51dc1696e7db2ff8fc233bd2" id="r_ga123f4e8e51dc1696e7db2ff8fc233bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga123f4e8e51dc1696e7db2ff8fc233bd2">MR::surfaceLineToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="group__GeneralGroup.html#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memdesc:ga123f4e8e51dc1696e7db2ff8fc233bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="memitem:ga2e24ce065ef7d94e723ba08376773c39" id="r_ga2e24ce065ef7d94e723ba08376773c39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2e24ce065ef7d94e723ba08376773c39">MR::surfaceLineToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memdesc:ga2e24ce065ef7d94e723ba08376773c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="memitem:ga3a22b60786ebca45162b3cdc5d713ff0" id="r_ga3a22b60786ebca45162b3cdc5d713ff0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a22b60786ebca45162b3cdc5d713ff0">MR::surfaceLineToClosedMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memdesc:ga3a22b60786ebca45162b3cdc5d713ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
+<tr class="memitem:ga4f62f582556848a63c2cfcfee951da9f" id="r_ga4f62f582556848a63c2cfcfee951da9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f62f582556848a63c2cfcfee951da9f">MR::surfacePathWithEndsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;surfacePath, const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
+<tr class="memdesc:ga4f62f582556848a63c2cfcfee951da9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>.  <br /></td></tr>
+<tr class="memitem:gae3e1a627ede49e7b24ea170b0d8e2c4c" id="r_gae3e1a627ede49e7b24ea170b0d8e2c4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae3e1a627ede49e7b24ea170b0d8e2c4c">MR::surfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__GeneralGroup.html#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
+<tr class="memdesc:gae3e1a627ede49e7b24ea170b0d8e2c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="group__GeneralGroup.html#ga1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>.  <br /></td></tr>
 <tr class="memitem:gabde61d75feea288c14690ed8c3e592d2" id="r_gabde61d75feea288c14690ed8c3e592d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gabde61d75feea288c14690ed8c3e592d2">MR::MR_BIND_OVERLOAD_SUFFIX</a> (withXf) 1 <a class="el" href="structMR_1_1BooleanResult.html">BooleanResult</a> boolean(const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA</td></tr>
 <tr class="memdesc:gabde61d75feea288c14690ed8c3e592d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs CSG operation on two meshes.  <br /></td></tr>
 <tr class="memitem:gac5ed86269f5cf1022e94d272e28f73b7" id="r_gac5ed86269f5cf1022e94d272e28f73b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1BooleanResultPoints.html">BooleanResultPoints</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DistanceMapGroup.html#gac5ed86269f5cf1022e94d272e28f73b7">MR::getBooleanPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="group__DistanceMapGroup.html#ga1ceb255a1de1a49e02ff03c17ec71350">meshB</a>, <a class="el" href="#ga9e84a8cc429efdf5cc108ca1c6aaccbd">BooleanOperation</a> <a class="el" href="group__DistanceMapGroup.html#ga69c979e2e86dc19d223ee4f41fb46fea">operation</a>, const AffineXf3f *<a class="el" href="group__DistanceMapGroup.html#ga557dc22e5cbeb46ead267fbf4b2b59b3">rigidB2A</a>=nullptr)</td></tr>
@@ -221,7 +221,7 @@ Functions</h2></td></tr>
 
 <p>Special data type for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a>. </p>
 <p>This is special data for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a>, you can convert some other contours representation to it by:<br  />
-<a class="el" href="#ga9b27124d1aee7872d4ac97a96ef4fee2">MR::convertMeshTriPointsToClosedContour</a> <a class="el" href="#ga60c552ace8de5755edd7e5a28dd4dc6b">MR::convertSurfacePathsToMeshContours</a> </p>
+<a class="el" href="#ga3a22b60786ebca45162b3cdc5d713ff0">MR::surfaceLineToClosedMeshContour</a> <a class="el" href="#gae3e1a627ede49e7b24ea170b0d8e2c4c">MR::surfacePathsToMeshContours</a> </p>
 
 </div>
 </div>
@@ -300,336 +300,6 @@ Difference A-B</div></div>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="ga8f2f47f6c859930c9c0252e4bc28944e" name="ga8f2f47f6c859930c9c0252e4bc28944e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8f2f47f6c859930c9c0252e4bc28944e">&#9670;&#160;</a></span>convertMeshTriPointsSurfaceOffsetToMeshContours() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::function&lt; float(int)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>offsetAtPoint</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
-
-<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">offsetAtPoint</td><td>functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned </td></tr>
-    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="gaccf79b17bf64faa5454a116f768def33" name="gaccf79b17bf64faa5454a116f768def33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaccf79b17bf64faa5454a116f768def33">&#9670;&#160;</a></span>convertMeshTriPointsSurfaceOffsetToMeshContours() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
-
-<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">offset</td><td>amount of offset form given point, note that absolute value is used and isoline in both direction returned </td></tr>
-    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga9b27124d1aee7872d4ac97a96ef4fee2" name="ga9b27124d1aee7872d4ac97a96ef4fee2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga9b27124d1aee7872d4ac97a96ef4fee2">&#9670;&#160;</a></span>convertMeshTriPointsToClosedContour()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::convertMeshTriPointsToClosedContour </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
-
-<p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">OneMeshContour</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour </dd></dl>
-
-</div>
-</div>
-<a id="ga86ca2da82f81a72954e27baf0e31fbd8" name="ga86ca2da82f81a72954e27baf0e31fbd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga86ca2da82f81a72954e27baf0e31fbd8">&#9670;&#160;</a></span>convertMeshTriPointsToMeshContour() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::convertMeshTriPointsToMeshContour </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a></td>          <td class="paramname"><span class="paramname"><em>connectorFn</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
-
-<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds paths between neighbor <code class="param">surfaceLine</code> with <a class="el" href="group__GeneralGroup.html#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> function and build contour <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">connectorFn</td><td>function to build path between neighbor surfaceLine, if not present simple geodesic path function is used </td></tr>
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">OneMeshContour</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga1038937a987d09a86802e694724e7aa7" name="ga1038937a987d09a86802e694724e7aa7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1038937a987d09a86802e694724e7aa7">&#9670;&#160;</a></span>convertMeshTriPointsToMeshContour() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::convertMeshTriPointsToMeshContour </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
-
-<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">OneMeshContour</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ga60c552ace8de5755edd7e5a28dd4dc6b" name="ga60c552ace8de5755edd7e5a28dd4dc6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga60c552ace8de5755edd7e5a28dd4dc6b">&#9670;&#160;</a></span>convertSurfacePathsToMeshContours()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> MR::convertSurfacePathsToMeshContours </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePaths</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
-
-<p>Converts <a class="el" href="group__GeneralGroup.html#ga1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>. </p>
-<p>Creates <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">MR::OneMeshContours</a> object from given surface paths for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p>
-
-</div>
-</div>
-<a id="ga84ad133112b40770a9311344d2bbfdde" name="ga84ad133112b40770a9311344d2bbfdde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga84ad133112b40770a9311344d2bbfdde">&#9670;&#160;</a></span>convertSurfacePathWithEndsToMeshContour()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> MR::convertSurfacePathWithEndsToMeshContour </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
-
-<p>Converts <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>. </p>
-<p>Creates <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">MR::OneMeshContour</a> object from given surface path with ends for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face</p>
-<p>note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</p>
-<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path </p>
-
-</div>
-</div>
 <a id="ga84b6da724860c1e5ac72574b7635c22c" name="ga84b6da724860c1e5ac72574b7635c22c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga84b6da724860c1e5ac72574b7635c22c">&#9670;&#160;</a></span>cutMesh()</h2>
 
@@ -807,6 +477,338 @@ so if you cannot guarantee contours without intersections better make copy of me
 <dl class="section note"><dt>Note</dt><dd>Input meshes should have no self-intersections in intersecting zone </dd>
 <dd>
 If meshes are not closed in intersecting zone some boolean operations are not allowed (as far as input meshes interior and exterior cannot be determined) </dd></dl>
+
+</div>
+</div>
+<a id="gac67a5b20bb2312590785d6dca7473866" name="gac67a5b20bb2312590785d6dca7473866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac67a5b20bb2312590785d6dca7473866">&#9670;&#160;</a></span>offsetSurfaceLineToMeshContours() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt; MR::offsetSurfaceLineToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(int)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>offsetAtPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
+
+<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offsetAtPoint</td><td>functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned </td></tr>
+    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__GeneralGroup.html#ga7d9ef88ab36051823b5873593cf03071" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">offsetSurfaceLine</a> to <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e" title="get&lt;0&gt; returns min, get&lt;1&gt; returns max">get</a> the <a class="el" href="group__GeneralGroup.html#ga3b15caf456e5957f1d1a548142e66641" title="returns true if two edge-points are equal considering different representations">same</a> contours as plain <a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a> </dd></dl>
+
+</div>
+</div>
+<a id="ga2cc55b5541f2ceaaf75cd0e0d48c8292" name="ga2cc55b5541f2ceaaf75cd0e0d48c8292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2cc55b5541f2ceaaf75cd0e0d48c8292">&#9670;&#160;</a></span>offsetSurfaceLineToMeshContours() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt; MR::offsetSurfaceLineToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
+
+<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offset</td><td>amount of offset form given point, note that absolute value is used and isoline in both direction returned </td></tr>
+    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__GeneralGroup.html#ga7d9ef88ab36051823b5873593cf03071" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">offsetSurfaceLine</a> to <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e" title="get&lt;0&gt; returns min, get&lt;1&gt; returns max">get</a> the <a class="el" href="group__GeneralGroup.html#ga3b15caf456e5957f1d1a548142e66641" title="returns true if two edge-points are equal considering different representations">same</a> contours as plain <a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a> </dd></dl>
+
+</div>
+</div>
+<a id="ga3a22b60786ebca45162b3cdc5d713ff0" name="ga3a22b60786ebca45162b3cdc5d713ff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a22b60786ebca45162b3cdc5d713ff0">&#9670;&#160;</a></span>surfaceLineToClosedMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::surfaceLineToClosedMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </p>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">OneMeshContour</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>better use surfaceLineToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour </dd></dl>
+
+</div>
+</div>
+<a id="ga123f4e8e51dc1696e7db2ff8fc233bd2" name="ga123f4e8e51dc1696e7db2ff8fc233bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga123f4e8e51dc1696e7db2ff8fc233bd2">&#9670;&#160;</a></span>surfaceLineToMeshContour() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::surfaceLineToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__GeneralGroup.html#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a></td>          <td class="paramname"><span class="paramname"><em>connectorFn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
+<p>Finds paths between neighbor <code class="param">surfaceLine</code> with <a class="el" href="group__GeneralGroup.html#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> function and build contour <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectorFn</td><td>function to build path between neighbor surfaceLine, if not present simple geodesic path function is used </td></tr>
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">OneMeshContour</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2e24ce065ef7d94e723ba08376773c39" name="ga2e24ce065ef7d94e723ba08376773c39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2e24ce065ef7d94e723ba08376773c39">&#9670;&#160;</a></span>surfaceLineToMeshContour() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::surfaceLineToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">OneMeshContour</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae3e1a627ede49e7b24ea170b0d8e2c4c" name="gae3e1a627ede49e7b24ea170b0d8e2c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae3e1a627ede49e7b24ea170b0d8e2c4c">&#9670;&#160;</a></span>surfacePathsToMeshContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> MR::surfacePathsToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePaths</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>Converts <a class="el" href="group__GeneralGroup.html#ga1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>. </p>
+<p>Creates <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">MR::OneMeshContours</a> object from given surface paths for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p>
+
+</div>
+</div>
+<a id="ga4f62f582556848a63c2cfcfee951da9f" name="ga4f62f582556848a63c2cfcfee951da9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f62f582556848a63c2cfcfee951da9f">&#9670;&#160;</a></span>surfacePathWithEndsToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> MR::surfacePathWithEndsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>Converts <a class="el" href="group__GeneralGroup.html#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> to <a class="el" href="#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a>. </p>
+<p>Creates <a class="el" href="structMR_1_1OneMeshContour.html" title="One contour on mesh.">MR::OneMeshContour</a> object from given surface path with ends for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face</p>
+<p>note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</p>
+<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path </p>
 
 </div>
 </div>

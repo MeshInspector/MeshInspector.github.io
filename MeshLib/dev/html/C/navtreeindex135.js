@@ -1,5 +1,11 @@
 var NAVTREEINDEX135 =
 {
+"MRWeightedPointsShell_8h.html#ab6a5dc3fc3f52af32c7013c80b489e16":[9,2,2,0,0,0,0,4,40,4],
+"MRWeightedPointsShell_8h.html#ab6b8be7aa2e88cd72df45cd14f0f07ae":[9,2,2,0,0,0,0,4,40,67],
+"MRWeightedPointsShell_8h.html#ab7881313b0ebd64d7dec7a0f173a155b":[9,2,2,0,0,0,0,4,40,44],
+"MRWeightedPointsShell_8h.html#ab8a31ae3e2ae9cee2ec9396eb79e90b4":[9,2,2,0,0,0,0,4,40,59],
+"MRWeightedPointsShell_8h.html#aba9246790ea1619e997814c14481a6b5":[9,2,2,0,0,0,0,4,40,26],
+"MRWeightedPointsShell_8h.html#abc69bd9eaa1d3735082ec8826f23802f":[9,2,2,0,0,0,0,4,40,28],
 "MRWeightedPointsShell_8h.html#abdd076f1bd78b8a2449cec064cf520a7":[9,2,2,0,0,0,0,4,40,39],
 "MRWeightedPointsShell_8h.html#abeeeb9949da9b81cefe893ece969cf59":[9,2,2,0,0,0,0,4,40,71],
 "MRWeightedPointsShell_8h.html#ac024b937d538ef1182d3e9b2e7dd9f9a":[9,2,2,0,0,0,0,4,40,119],
@@ -243,11 +249,5 @@ var NAVTREEINDEX135 =
 "expected__MR__DistanceMap__std__string_8h.html#a0a335b47ce20d18bf52ab4847d97e275":[9,2,2,0,0,0,0,2,5,4],
 "expected__MR__DistanceMap__std__string_8h.html#a1c7f21885a65d8cf439c3b66ba37649d":[9,2,2,0,0,0,0,2,5,9],
 "expected__MR__DistanceMap__std__string_8h.html#a2236ddb1ae58118fbd951a2d542cd668":[9,2,2,0,0,0,0,2,5,0],
-"expected__MR__DistanceMap__std__string_8h.html#a4f4c9f14a2eecfdcf1c5a31040e7df62":[9,2,2,0,0,0,0,2,5,2],
-"expected__MR__DistanceMap__std__string_8h.html#a57a13f85197874b8c4d560a32483c8bc":[9,2,2,0,0,0,0,2,5,3],
-"expected__MR__DistanceMap__std__string_8h.html#a65f1c89569ea7811b977cab238e4fab3":[9,2,2,0,0,0,0,2,5,7],
-"expected__MR__DistanceMap__std__string_8h.html#a7844b3d52814c0daedd5c9407e572380":[9,2,2,0,0,0,0,2,5,12],
-"expected__MR__DistanceMap__std__string_8h.html#a82be96827001702476d541c7f1a96dc4":[9,2,2,0,0,0,0,2,5,11],
-"expected__MR__DistanceMap__std__string_8h.html#aa74d5f29f134e190b11eee9d8d6b2f60":[9,2,2,0,0,0,0,2,5,5],
-"expected__MR__DistanceMap__std__string_8h.html#acdd9864d3f00b837b729f8373d7f90c2":[9,2,2,0,0,0,0,2,5,1]
+"expected__MR__DistanceMap__std__string_8h.html#a4f4c9f14a2eecfdcf1c5a31040e7df62":[9,2,2,0,0,0,0,2,5,2]
 };

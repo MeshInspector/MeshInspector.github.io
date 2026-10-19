@@ -98,5 +98,7 @@ var MRContoursCut_8h =
     [ "MR_NewEdgesMap_OffsetMutablePtr", "MRContoursCut_8h.html#a5fa13e35e1a15805e3b2199ef79fe9bc", null ],
     [ "MR_NewEdgesMap_OffsetPtr", "MRContoursCut_8h.html#a970e3c1cc36ce5a9d5e517bb82b95ee4", null ],
     [ "MR_NewEdgesMap_Set_map", "MRContoursCut_8h.html#ab8f4886f68e1f6fe4a4eb4c4150a2a01", null ],
-    [ "MR_NewEdgesMap_Set_splitEdges", "MRContoursCut_8h.html#a400a0892dcba681cf7884b4f40e7f2f4", null ]
+    [ "MR_NewEdgesMap_Set_splitEdges", "MRContoursCut_8h.html#a400a0892dcba681cf7884b4f40e7f2f4", null ],
+    [ "MR_offsetSurfaceLineToMeshContours_float", "MRContoursCut_8h.html#a4fff9b4993ce8263ee2dcb2843ffc551", null ],
+    [ "MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int", "MRContoursCut_8h.html#ac2f62f72c059d9444ed7e0c6529a4601", null ]
 ];

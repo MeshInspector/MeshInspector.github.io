@@ -232,14 +232,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a55d073762b3fd4d13b33b4ad738ea59f" id="r_a55d073762b3fd4d13b33b4ad738ea59f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55d073762b3fd4d13b33b4ad738ea59f">MR_SearchPathSettings_DestroyArray</a> (const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this)</td></tr>
 <tr class="memdesc:a55d073762b3fd4d13b33b4ad738ea59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:afbc879fc92e83352debb2b11527c09a5" id="r_afbc879fc92e83352debb2b11527c09a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc879fc92e83352debb2b11527c09a5">MR_SearchPathSettings_AssignFromAnother</a> (<a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_this, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *_other)</td></tr>
+<tr class="memitem:a4fc2d85428d2837317fbad536e14b983" id="r_a4fc2d85428d2837317fbad536e14b983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc2d85428d2837317fbad536e14b983">MR_surfaceLineToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *pivotIndices)</td></tr>
+<tr class="memdesc:a4fc2d85428d2837317fbad536e14b983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
+<tr class="memitem:a2b9023daef78cd58a9b733c2fb747486" id="r_a2b9023daef78cd58a9b733c2fb747486"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9023daef78cd58a9b733c2fb747486">MR_surfaceLineToClosedMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *pivotIndices)</td></tr>
+<tr class="memdesc:a2b9023daef78cd58a9b733c2fb747486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
+<tr class="memitem:a60614d357fa477f7a9794cf785e4b486" id="r_a60614d357fa477f7a9794cf785e4b486"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf48f2f428c5411d09902dcb7f6e7135">MR_OneMeshContour</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60614d357fa477f7a9794cf785e4b486">MR_surfacePathWithEndsToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
+<tr class="memdesc:a60614d357fa477f7a9794cf785e4b486"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours.  <br /></td></tr>
+<tr class="memitem:aa46e485d7a124e3542f534bc86015b69" id="r_aa46e485d7a124e3542f534bc86015b69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa46e485d7a124e3542f534bc86015b69">MR_surfacePathsToMeshContours</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *surfacePaths)</td></tr>
+<tr class="memdesc:aa46e485d7a124e3542f534bc86015b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePaths to OneMeshContours.  <br /></td></tr>
 <tr class="memitem:ae135424c5fba4937d523b2c9565c66d4" id="r_ae135424c5fba4937d523b2c9565c66d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae135424c5fba4937d523b2c9565c66d4">MR_convertMeshTriPointsToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *pivotIndices)</td></tr>
-<tr class="memdesc:ae135424c5fba4937d523b2c9565c66d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
 <tr class="memitem:abec6ba672ad55203411326447ed295c0" id="r_abec6ba672ad55203411326447ed295c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec6ba672ad55203411326447ed295c0">MR_convertMeshTriPointsToClosedContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings, <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *pivotIndices)</td></tr>
-<tr class="memdesc:abec6ba672ad55203411326447ed295c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same.  <br /></td></tr>
 <tr class="memitem:a6393120aff1c0d0d512e1e531b03c8c9" id="r_a6393120aff1c0d0d512e1e531b03c8c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf48f2f428c5411d09902dcb7f6e7135">MR_OneMeshContour</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6393120aff1c0d0d512e1e531b03c8c9">MR_convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
-<tr class="memdesc:a6393120aff1c0d0d512e1e531b03c8c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours.  <br /></td></tr>
 <tr class="memitem:a1bd895fcecb5e374594f6e82bb8a69f4" id="r_a1bd895fcecb5e374594f6e82bb8a69f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd895fcecb5e374594f6e82bb8a69f4">MR_convertSurfacePathsToMeshContours</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *surfacePaths)</td></tr>
-<tr class="memdesc:a1bd895fcecb5e374594f6e82bb8a69f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePaths to OneMeshContours.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a5194745309d16da7d3662811a218a4ff" name="a5194745309d16da7d3662811a218a4ff"></a>
@@ -346,15 +350,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour MR::cutMesh input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <span class="tt">MR::convertMeshTriPointsToClosedContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">searchSettings</span> is a single object. Parameter <span class="tt">searchSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">pivotIndices</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__OneMeshContour__std__string_8h.html#adacd889b1885dc2e883c5c389ca6bbd9" title="Destroys a heap-allocated instance of MR_expected_MR_OneMeshContour_std_string. Does nothing if the p...">MR_expected_MR_OneMeshContour_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+<p>Generated from function <span class="tt">MR::convertMeshTriPointsToClosedContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">searchSettings</span> is a single object. Parameter <span class="tt">searchSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">pivotIndices</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__OneMeshContour__std__string_8h.html#adacd889b1885dc2e883c5c389ca6bbd9" title="Destroys a heap-allocated instance of MR_expected_MR_OneMeshContour_std_string. Does nothing if the p...">MR_expected_MR_OneMeshContour_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -386,15 +382,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour MR::cutMesh input </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour Generated from function <span class="tt">MR::convertMeshTriPointsToMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">searchSettings</span> is a single object. Parameter <span class="tt">searchSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">pivotIndices</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__OneMeshContour__std__string_8h.html#adacd889b1885dc2e883c5c389ca6bbd9" title="Destroys a heap-allocated instance of MR_expected_MR_OneMeshContour_std_string. Does nothing if the p...">MR_expected_MR_OneMeshContour_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Generated from function <span class="tt">MR::convertMeshTriPointsToMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">searchSettings</span> is a single object. Parameter <span class="tt">searchSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">pivotIndices</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__OneMeshContour__std__string_8h.html#adacd889b1885dc2e883c5c389ca6bbd9" title="Destroys a heap-allocated instance of MR_expected_MR_OneMeshContour_std_string. Does nothing if the p...">MR_expected_MR_OneMeshContour_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -416,9 +404,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Converts SurfacePaths to OneMeshContours. </p>
-<p>Creates MR::OneMeshContours object from given surface paths for MR::cutMesh input Generated from function <span class="tt">MR::convertSurfacePathsToMeshContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfacePaths</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__OneMeshContour_8h.html#a47df2effb5c8b10df6ecc6d9d656e6e6" title="Destroys a heap-allocated instance of MR_std_vector_MR_OneMeshContour. Does nothing if the pointer is...">MR_std_vector_MR_OneMeshContour_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::convertSurfacePathsToMeshContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfacePaths</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__OneMeshContour_8h.html#a47df2effb5c8b10df6ecc6d9d656e6e6" title="Destroys a heap-allocated instance of MR_std_vector_MR_OneMeshContour. Does nothing if the pointer is...">MR_std_vector_MR_OneMeshContour_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -450,11 +436,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Converts SurfacePath to OneMeshContours. </p>
-<p>Creates MR::OneMeshContour object from given surface path with ends for MR::cutMesh input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face</p>
-<p>note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</p>
-<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <span class="tt">MR::convertSurfacePathWithEndsToMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">start</span> can not be null. It is a single object. Parameter <span class="tt">surfacePath</span> can not be null. It is a single object. Parameter <span class="tt">end</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::convertSurfacePathWithEndsToMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">start</span> can not be null. It is a single object. Parameter <span class="tt">surfacePath</span> can not be null. It is a single object. Parameter <span class="tt">end</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1905,6 +1887,146 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <span class="tt">MR::subdivideLoneContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">contours</span> can not be null. It is a single object. Parameter <span class="tt">new2oldMap</span> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a2b9023daef78cd58a9b733c2fb747486" name="a2b9023daef78cd58a9b733c2fb747486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9023daef78cd58a9b733c2fb747486">&#9670;&#160;</a></span>MR_surfaceLineToClosedMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> * MR_surfaceLineToClosedMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same. </p>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour MR::cutMesh input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>better use surfaceLineToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <span class="tt">MR::surfaceLineToClosedMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">searchSettings</span> is a single object. Parameter <span class="tt">searchSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">pivotIndices</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__OneMeshContour__std__string_8h.html#adacd889b1885dc2e883c5c389ca6bbd9" title="Destroys a heap-allocated instance of MR_expected_MR_OneMeshContour_std_string. Does nothing if the p...">MR_expected_MR_OneMeshContour_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a4fc2d85428d2837317fbad536e14b983" name="a4fc2d85428d2837317fbad536e14b983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc2d85428d2837317fbad536e14b983">&#9670;&#160;</a></span>MR_surfaceLineToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5194745309d16da7d3662811a218a4ff">MR_expected_MR_OneMeshContour_std_string</a> * MR_surfaceLineToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContoursCut_8h.html#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour MR::cutMesh input </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result OneMeshContour Generated from function <span class="tt">MR::surfaceLineToMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfaceLine</span> can not be null. It is a single object. Parameter <span class="tt">searchSettings</span> is a single object. Parameter <span class="tt">searchSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">pivotIndices</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__OneMeshContour__std__string_8h.html#adacd889b1885dc2e883c5c389ca6bbd9" title="Destroys a heap-allocated instance of MR_expected_MR_OneMeshContour_std_string. Does nothing if the p...">MR_expected_MR_OneMeshContour_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa46e485d7a124e3542f534bc86015b69" name="aa46e485d7a124e3542f534bc86015b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46e485d7a124e3542f534bc86015b69">&#9670;&#160;</a></span>MR_surfacePathsToMeshContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a071da9f0f67109f51758510529ba0b5b">MR_std_vector_MR_OneMeshContour</a> * MR_surfacePathsToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>surfacePaths</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts SurfacePaths to OneMeshContours. </p>
+<p>Creates MR::OneMeshContours object from given surface paths for MR::cutMesh input Generated from function <span class="tt">MR::surfacePathsToMeshContours</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">surfacePaths</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__OneMeshContour_8h.html#a47df2effb5c8b10df6ecc6d9d656e6e6" title="Destroys a heap-allocated instance of MR_std_vector_MR_OneMeshContour. Does nothing if the pointer is...">MR_std_vector_MR_OneMeshContour_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a60614d357fa477f7a9794cf785e4b486" name="a60614d357fa477f7a9794cf785e4b486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60614d357fa477f7a9794cf785e4b486">&#9670;&#160;</a></span>MR_surfacePathWithEndsToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acf48f2f428c5411d09902dcb7f6e7135">MR_OneMeshContour</a> * MR_surfacePathWithEndsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts SurfacePath to OneMeshContours. </p>
+<p>Creates MR::OneMeshContour object from given surface path with ends for MR::cutMesh input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face</p>
+<p>note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</p>
+<p>vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <span class="tt">MR::surfacePathWithEndsToMeshContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">start</span> can not be null. It is a single object. Parameter <span class="tt">surfacePath</span> can not be null. It is a single object. Parameter <span class="tt">end</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#a36e8392ba824e189685ffd74670bfc2b" title="Destroys a heap-allocated instance of MR_OneMeshContour. Does nothing if the pointer is null.">MR_OneMeshContour_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

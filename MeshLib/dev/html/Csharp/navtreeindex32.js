@@ -1,5 +1,11 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1Const__AngleMeasurementObject.html#a8c56f9d434d4f608da1c76ea64f8185c":[9,3,0,0,0,247,3],
+"classMR_1_1Const__AngleMeasurementObject.html#a8e071f1462d52b87c43efb48a75c01d8":[9,3,0,0,0,247,6],
+"classMR_1_1Const__AngleMeasurementObject.html#a8f3ab81dd86a89af19aa91473ce1ba6c":[9,3,0,0,0,247,37],
+"classMR_1_1Const__AngleMeasurementObject.html#a9230aacf9714f4bc5c21ce97d180be95":[9,3,0,0,0,247,43],
+"classMR_1_1Const__AngleMeasurementObject.html#a94dffb6ff8993d79b83cf57f56bb9694":[9,3,0,0,0,247,74],
+"classMR_1_1Const__AngleMeasurementObject.html#a96f240137535e3e49cd9cc9961da0034":[9,3,0,0,0,247,36],
 "classMR_1_1Const__AngleMeasurementObject.html#a99269e28242066ab28ae482f8e281fd5":[9,3,0,0,0,247,11],
 "classMR_1_1Const__AngleMeasurementObject.html#a9a3882437072d7f38c52c12f73eee30d":[9,3,0,0,0,247,22],
 "classMR_1_1Const__AngleMeasurementObject.html#aa12a365c6ac950ce0d290ef67a2cc6e2":[9,3,0,0,0,247,71],
@@ -243,11 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Const__Ball3d.html#a855ecd48e721cbef8f1f8606c109b46a":[9,3,0,0,0,254,13],
 "classMR_1_1Const__Ball3d.html#abaeebf913de0cdc42454328167323cca":[9,3,0,0,0,254,4],
 "classMR_1_1Const__Ball3d.html#ac3bc876a758e6c4eb951eaf967fb25b7":[9,3,0,0,0,254,7],
-"classMR_1_1Const__Ball3d.html#ad25a547af9b7e1dea984eebbb53cbdd6":[9,3,0,0,0,254,5],
-"classMR_1_1Const__Ball3f.html":[9,3,0,0,0,255],
-"classMR_1_1Const__Ball3f.html#a2badf3b0ac457131dbedae4e35026910":[9,3,0,0,0,255,8],
-"classMR_1_1Const__Ball3f.html#a2e0e059c224762ae3ef66ebc765e9be6":[9,3,0,0,0,255,6],
-"classMR_1_1Const__Ball3f.html#a31d530f86c095ba2d38aaad689371d30":[9,3,0,0,0,255,12],
-"classMR_1_1Const__Ball3f.html#a44aef74c76f7f5855f638a390bbad1c2":[9,3,0,0,0,255,1],
-"classMR_1_1Const__Ball3f.html#a4975f4af8bb8866eadff1f325578c352":[9,3,0,0,0,255,4]
+"classMR_1_1Const__Ball3d.html#ad25a547af9b7e1dea984eebbb53cbdd6":[9,3,0,0,0,254,5]
 };

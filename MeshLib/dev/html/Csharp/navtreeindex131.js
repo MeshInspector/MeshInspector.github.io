@@ -1,5 +1,11 @@
 var NAVTREEINDEX131 =
 {
+"classMR_1_1RemeshSettings.html#a4a6b57a51515f6901d862d9de703f739":[9,3,0,0,0,1619,22],
+"classMR_1_1RemeshSettings.html#a4f2c8225746fce47bdebd0ffd0182f28":[9,3,0,0,0,1619,20],
+"classMR_1_1RemeshSettings.html#a4f4cd661547e1581808c4ed8b7e79192":[9,3,0,0,0,1619,17],
+"classMR_1_1RemeshSettings.html#a6fa95b6c7aebc6640c70c489cca181bb":[9,3,0,0,0,1619,21],
+"classMR_1_1RemeshSettings.html#a8135724dd2f44a816686ce14a292c35a":[9,3,0,0,0,1619,5],
+"classMR_1_1RemeshSettings.html#a8419139bad5103d954fe4583498a55b2":[9,3,0,0,0,1619,19],
 "classMR_1_1RemeshSettings.html#a85d37f82d6d6a3a01cfced65c81549bb":[9,3,0,0,0,1619,10],
 "classMR_1_1RemeshSettings.html#a9620c3243c317759812a32e49a2d3d51":[9,3,0,0,0,1619,12],
 "classMR_1_1RemeshSettings.html#aa316c4431cacf7d50ce917dd4910b4f3":[9,3,0,0,0,1619,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX131 =
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#a1d2e62349caed2d7b284aa3de24b01ce":[9,3,0,0,0,1638,0,19],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#a48e86885386a4cc8dc6018bd9064c8cf":[9,3,0,0,0,1638,0,9],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#a51fc1148e2432efd812a734ca213c613":[9,3,0,0,0,1638,0,13],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a59884a276fd64ee99e23d490eeb35722":[9,3,0,0,0,1638,0,15],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a6ce5ca76288f7b06c8b23e1b0acd283b":[9,3,0,0,0,1638,0,6],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a6ce9c38cfaf0d47eaab54400037b90a4":[9,3,0,0,0,1638,0,20],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a920ed38c92e5715ed9baa82931334b12":[9,3,0,0,0,1638,0,8],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#a974e641eb7371fc3357134fd1c77c7f3":[9,3,0,0,0,1638,0,14],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#aa1a622830d90c31e854d975954d5db4f":[9,3,0,0,0,1638,0,11],
-"classMR_1_1SelfIntersections_1_1Const__Settings.html#aa8ca564119d95d55ddb23b2c0e05c914":[9,3,0,0,0,1638,0,1]
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a59884a276fd64ee99e23d490eeb35722":[9,3,0,0,0,1638,0,15]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"MREdgePoint_8h.html#a9fa2c470ebf1799f697f65076b3df1c1":[9,2,2,0,0,0,0,1,88,4],
+"MREdgePoint_8h.html#aa3565ab838ce625eb2a29080bf87f13b":[9,2,2,0,0,0,0,1,88,112],
 "MREdgePoint_8h.html#aa5fc94684762de00501d32e2f80a9fc5":[9,2,2,0,0,0,0,1,88,6],
 "MREdgePoint_8h.html#aa75716593a9b64cc5e45fd86d14de0ec":[9,2,2,0,0,0,0,1,88,10],
 "MREdgePoint_8h.html#aa90bea9b9646706e7f0c32d57b8cac86":[9,2,2,0,0,0,0,1,88,88],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98":[9,2,2,0,0,0,0,1,94,3],
 "MRExtractIsolines_8h.html#aa84dbb2068f89932d53c85c16f97059c":[9,2,2,0,0,0,0,1,94,2],
 "MRExtractIsolines_8h.html#ac1a50c5ef33444a58eaa6fee2adb225f":[9,2,2,0,0,0,0,1,94,18],
-"MRExtractIsolines_8h.html#ac6868f232fe66d5d26f7e77e6f9abdc6":[9,2,2,0,0,0,0,1,94,11],
-"MRExtractIsolines_8h_source.html":[9,2,2,0,0,0,0,1,94],
-"MRFaceDistance_8h.html":[9,2,2,0,0,0,0,1,95]
+"MRExtractIsolines_8h.html#ac6868f232fe66d5d26f7e77e6f9abdc6":[9,2,2,0,0,0,0,1,94,11]
 };

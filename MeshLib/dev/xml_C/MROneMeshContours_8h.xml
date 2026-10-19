@@ -1562,11 +1562,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="449" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="449" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MROneMeshContours_8h_1a4fc2d85428d2837317fbad536e14b983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_MR_OneMeshContour_std_string * MR_convertMeshTriPointsToMeshContour</definition>
+        <definition>MRC_API MR_expected_MR_OneMeshContour_std_string * MR_surfaceLineToMeshContour</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_std_vector_MR_MeshTriPoint *surfaceLine, const MR_SearchPathSettings *searchSettings, MR_std_vector_int *pivotIndices)</argsstring>
-        <name>MR_convertMeshTriPointsToMeshContour</name>
+        <name>MR_surfaceLineToMeshContour</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
           <declname>mesh</declname>
@@ -1600,7 +1600,7 @@
 <parametername>pivotIndices</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output indices of given surfaceLine in result OneMeshContour Generated from function <computeroutput>MR::convertMeshTriPointsToMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>searchSettings</computeroutput> is a single object. Parameter <computeroutput>searchSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pivotIndices</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__OneMeshContour__std__string_8h_1adacd889b1885dc2e883c5c389ca6bbd9" kindref="member">MR_expected_MR_OneMeshContour_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>optional output indices of given surfaceLine in result OneMeshContour Generated from function <computeroutput>MR::surfaceLineToMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>searchSettings</computeroutput> is a single object. Parameter <computeroutput>searchSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pivotIndices</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__OneMeshContour__std__string_8h_1adacd889b1885dc2e883c5c389ca6bbd9" kindref="member">MR_expected_MR_OneMeshContour_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -1610,11 +1610,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="465" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="465" declcolumn="50"/>
       </memberdef>
-      <memberdef kind="function" id="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MROneMeshContours_8h_1a2b9023daef78cd58a9b733c2fb747486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref> *</type>
-        <definition>MRC_API MR_expected_MR_OneMeshContour_std_string * MR_convertMeshTriPointsToClosedContour</definition>
+        <definition>MRC_API MR_expected_MR_OneMeshContour_std_string * MR_surfaceLineToClosedMeshContour</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_std_vector_MR_MeshTriPoint *surfaceLine, const MR_SearchPathSettings *searchSettings, MR_std_vector_int *pivotIndices)</argsstring>
-        <name>MR_convertMeshTriPointsToClosedContour</name>
+        <name>MR_surfaceLineToClosedMeshContour</name>
         <param>
           <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
           <declname>mesh</declname>
@@ -1644,13 +1644,129 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="note"><para>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <computeroutput>MR::convertMeshTriPointsToClosedContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>searchSettings</computeroutput> is a single object. Parameter <computeroutput>searchSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pivotIndices</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__OneMeshContour__std__string_8h_1adacd889b1885dc2e883c5c389ca6bbd9" kindref="member">MR_expected_MR_OneMeshContour_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<simplesect kind="note"><para>better use surfaceLineToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <computeroutput>MR::surfaceLineToClosedMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>searchSettings</computeroutput> is a single object. Parameter <computeroutput>searchSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pivotIndices</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__OneMeshContour__std__string_8h_1adacd889b1885dc2e883c5c389ca6bbd9" kindref="member">MR_expected_MR_OneMeshContour_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="481" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="481" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MROneMeshContours_8h_1a60614d357fa477f7a9794cf785e4b486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_OneMeshContour * MR_surfacePathWithEndsToMeshContour</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_MeshTriPoint *start, const MR_std_vector_MR_EdgePoint *surfacePath, const MR_MeshTriPoint *end)</argsstring>
+        <name>MR_surfacePathWithEndsToMeshContour</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref> *</type>
+          <declname>surfacePath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Converts SurfacePath to OneMeshContours. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates MR::OneMeshContour object from given surface path with ends for MR::cutMesh input <computeroutput>start</computeroutput> and surfacePath.front() should be from same face surfacePath.back() and <computeroutput>end</computeroutput> should be from same face</para>
+<para>note that whole path (including <computeroutput>start</computeroutput> and <computeroutput>end</computeroutput>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</para>
+<para>vert path edge point path edge end o-------<mdash/>o- <ndash/> <ndash/> <ndash/> <ndash/> O \ \ / \ \ / \ \ / \/ o path Generated from function <computeroutput>MR::surfacePathWithEndsToMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfacePath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a36e8392ba824e189685ffd74670bfc2b" kindref="member">MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="507" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="507" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MROneMeshContours_8h_1aa46e485d7a124e3542f534bc86015b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour * MR_surfacePathsToMeshContours</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_std_vector_std_vector_MR_EdgePoint *surfacePaths)</argsstring>
+        <name>MR_surfacePathsToMeshContours</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref> *</type>
+          <declname>surfacePaths</declname>
+        </param>
+        <briefdescription>
+<para>Converts SurfacePaths to OneMeshContours. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates MR::OneMeshContours object from given surface paths for MR::cutMesh input Generated from function <computeroutput>MR::surfacePathsToMeshContours</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfacePaths</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" kindref="member">MR_std_vector_MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="518" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="518" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_OneMeshContour_std_string * MR_convertMeshTriPointsToMeshContour</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_std_vector_MR_MeshTriPoint *surfaceLine, const MR_SearchPathSettings *searchSettings, MR_std_vector_int *pivotIndices)</argsstring>
+        <name>MR_convertMeshTriPointsToMeshContour</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref> *</type>
+          <declname>searchSettings</declname>
+        </param>
+        <param>
+          <type><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref> *</type>
+          <declname>pivotIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::convertMeshTriPointsToMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>searchSettings</computeroutput> is a single object. Parameter <computeroutput>searchSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pivotIndices</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__OneMeshContour__std__string_8h_1adacd889b1885dc2e883c5c389ca6bbd9" kindref="member">MR_expected_MR_OneMeshContour_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="528" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="528" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_OneMeshContour_std_string * MR_convertMeshTriPointsToClosedContour</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_std_vector_MR_MeshTriPoint *surfaceLine, const MR_SearchPathSettings *searchSettings, MR_std_vector_int *pivotIndices)</argsstring>
+        <name>MR_convertMeshTriPointsToClosedContour</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref> *</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref> *</type>
+          <declname>searchSettings</declname>
+        </param>
+        <param>
+          <type><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref> *</type>
+          <declname>pivotIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::convertMeshTriPointsToClosedContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>searchSettings</computeroutput> is a single object. Parameter <computeroutput>searchSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>pivotIndices</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__OneMeshContour__std__string_8h_1adacd889b1885dc2e883c5c389ca6bbd9" kindref="member">MR_expected_MR_OneMeshContour_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="538" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="538" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MROneMeshContours_8h_1a6393120aff1c0d0d512e1e531b03c8c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
@@ -1674,16 +1790,13 @@
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>Converts SurfacePath to OneMeshContours. </para>
         </briefdescription>
         <detaileddescription>
-<para>Creates MR::OneMeshContour object from given surface path with ends for MR::cutMesh input <computeroutput>start</computeroutput> and surfacePath.front() should be from same face surfacePath.back() and <computeroutput>end</computeroutput> should be from same face</para>
-<para>note that whole path (including <computeroutput>start</computeroutput> and <computeroutput>end</computeroutput>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)):</para>
-<para>vert path edge point path edge end o-------<mdash/>o- <ndash/> <ndash/> <ndash/> <ndash/> O \ \ / \ \ / \ \ / \/ o path Generated from function <computeroutput>MR::convertSurfacePathWithEndsToMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfacePath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a36e8392ba824e189685ffd74670bfc2b" kindref="member">MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertSurfacePathWithEndsToMeshContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>start</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfacePath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MROneMeshContours_8h_1a36e8392ba824e189685ffd74670bfc2b" kindref="member">MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="507" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="507" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="547" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="547" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MROneMeshContours_8h_1a1bd895fcecb5e374594f6e82bb8a69f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
@@ -1699,14 +1812,13 @@
           <declname>surfacePaths</declname>
         </param>
         <briefdescription>
-<para>Converts SurfacePaths to OneMeshContours. </para>
         </briefdescription>
         <detaileddescription>
-<para>Creates MR::OneMeshContours object from given surface paths for MR::cutMesh input Generated from function <computeroutput>MR::convertSurfacePathsToMeshContours</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfacePaths</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" kindref="member">MR_std_vector_MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertSurfacePathsToMeshContours</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfacePaths</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" kindref="member">MR_std_vector_MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="518" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="518" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" line="554" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h" declline="554" declcolumn="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1901,17 +2013,29 @@
 <codeline lineno="442"><highlight class="normal"></highlight></codeline>
 <codeline lineno="449" refid="MROneMeshContours_8h_1afbc879fc92e83352debb2b11527c09a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*<ref refid="MROneMeshContours_8h_1afbc879fc92e83352debb2b11527c09a5" kindref="member">MR_SearchPathSettings_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="450"><highlight class="normal"></highlight></codeline>
-<codeline lineno="465" refid="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" kindref="member">MR_convertMeshTriPointsToMeshContour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings,<sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*pivotIndices);</highlight></codeline>
+<codeline lineno="465" refid="MROneMeshContours_8h_1a4fc2d85428d2837317fbad536e14b983" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MROneMeshContours_8h_1a4fc2d85428d2837317fbad536e14b983" kindref="member">MR_surfaceLineToMeshContour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings,<sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*pivotIndices);</highlight></codeline>
 <codeline lineno="466"><highlight class="normal"></highlight></codeline>
-<codeline lineno="481" refid="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" kindref="member">MR_convertMeshTriPointsToClosedContour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings,<sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*pivotIndices);</highlight></codeline>
+<codeline lineno="481" refid="MROneMeshContours_8h_1a2b9023daef78cd58a9b733c2fb747486" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MROneMeshContours_8h_1a2b9023daef78cd58a9b733c2fb747486" kindref="member">MR_surfaceLineToClosedMeshContour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings,<sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*pivotIndices);</highlight></codeline>
 <codeline lineno="482"><highlight class="normal"></highlight></codeline>
-<codeline lineno="507" refid="MROneMeshContours_8h_1a6393120aff1c0d0d512e1e531b03c8c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="MROneMeshContours_8h_1a6393120aff1c0d0d512e1e531b03c8c9" kindref="member">MR_convertSurfacePathWithEndsToMeshContour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*surfacePath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end);</highlight></codeline>
+<codeline lineno="507" refid="MROneMeshContours_8h_1a60614d357fa477f7a9794cf785e4b486" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="MROneMeshContours_8h_1a60614d357fa477f7a9794cf785e4b486" kindref="member">MR_surfacePathWithEndsToMeshContour</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*surfacePath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end);</highlight></codeline>
 <codeline lineno="508"><highlight class="normal"></highlight></codeline>
-<codeline lineno="518" refid="MROneMeshContours_8h_1a1bd895fcecb5e374594f6e82bb8a69f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="MROneMeshContours_8h_1a1bd895fcecb5e374594f6e82bb8a69f4" kindref="member">MR_convertSurfacePathsToMeshContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*surfacePaths);</highlight></codeline>
+<codeline lineno="518" refid="MROneMeshContours_8h_1aa46e485d7a124e3542f534bc86015b69" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="MROneMeshContours_8h_1aa46e485d7a124e3542f534bc86015b69" kindref="member">MR_surfacePathsToMeshContours</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*surfacePaths);</highlight></codeline>
 <codeline lineno="519"><highlight class="normal"></highlight></codeline>
-<codeline lineno="520"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="521"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="522"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;use<sp/>surfaceLineToMeshContour&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="528" refid="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" kindref="member">MR_convertMeshTriPointsToMeshContour</ref>(const<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/>const<sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings,<sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*pivotIndices);</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"></highlight></codeline>
+<codeline lineno="537"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;use<sp/>surfaceLineToClosedMeshContour&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="538" refid="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1a5194745309d16da7d3662811a218a4ff" kindref="member">MR_expected_MR_OneMeshContour_std_string</ref><sp/>*<ref refid="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" kindref="member">MR_convertMeshTriPointsToClosedContour</ref>(const<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/>const<sp/><ref refid="MRContoursCut_8h_1a8148a83a9f1530146fb64e96c19511b8" kindref="member">MR_SearchPathSettings</ref><sp/>*searchSettings,<sp/><ref refid="MRIntersectionContour_8h_1a39843253e49249719b6defbb7948aa79" kindref="member">MR_std_vector_int</ref><sp/>*pivotIndices);</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight></codeline>
+<codeline lineno="546"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;use<sp/>surfacePathWithEndsToMeshContour&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="547" refid="MROneMeshContours_8h_1a6393120aff1c0d0d512e1e531b03c8c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="MROneMeshContours_8h_1a6393120aff1c0d0d512e1e531b03c8c9" kindref="member">MR_convertSurfacePathWithEndsToMeshContour</ref>(const<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start,<sp/>const<sp/><ref refid="MRAlignContoursToMesh_8h_1a9138e3f58ce2b39215044d2e368587ae" kindref="member">MR_std_vector_MR_EdgePoint</ref><sp/>*surfacePath,<sp/>const<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*end);</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><ref refid="common_8h_1a8c3610f371eccf54a150a4e60a5f5878" kindref="member">MRC_DEPRECATED_REASON</ref>(</highlight><highlight class="stringliteral">&quot;use<sp/>surfacePathsToMeshContours&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="554" refid="MROneMeshContours_8h_1a1bd895fcecb5e374594f6e82bb8a69f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="MROneMeshContours_8h_1a1bd895fcecb5e374594f6e82bb8a69f4" kindref="member">MR_convertSurfacePathsToMeshContours</ref>(const<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>const<sp/><ref refid="MRExtractIsolines_8h_1a9eda717f5871eea7d095bcf2f34a7a98" kindref="member">MR_std_vector_std_vector_MR_EdgePoint</ref><sp/>*surfacePaths);</highlight></codeline>
+<codeline lineno="555"><highlight class="normal"></highlight></codeline>
+<codeline lineno="556"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="557"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="558"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MROneMeshContours.h"/>
   </compounddef>

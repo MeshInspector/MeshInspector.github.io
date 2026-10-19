@@ -230,6 +230,33 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5936" bodyend="5937"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1a96c6e0a389c2c04bd1563f0ae7685eba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsSave.toDrc</definition>
+        <argsstring>(PointCloud points, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
+        <name>toDrc</name>
+        <qualifiedname>mrmeshpy.PointsSave.toDrc</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5940" bodyend="5941"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1a3c36925c708353472e53da18535ae2d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.PointsSave.toDrc</definition>
@@ -256,34 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5940" bodyend="5943"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1a96c6e0a389c2c04bd1563f0ae7685eba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.PointsSave.toDrc</definition>
-        <argsstring>(PointCloud points, os.PathLike|str|bytes file, SaveSettings settings=...)</argsstring>
-        <name>toDrc</name>
-        <qualifiedname>mrmeshpy.PointsSave.toDrc</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
-          <declname>points</declname>
-        </param>
-        <param>
-          <type>os.PathLike|str|bytes</type>
-          <declname>file</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
-          <declname>settings</declname>
-          <defval>...</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5946" bodyend="5947"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="5944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="5944" bodyend="5947"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PointsSave_1a85ba6dbb7115ba72f8b012e5934c609b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -525,8 +525,8 @@ each output line contains [x, y, z, nx, ny, nz], where x, y, z are point coordin
       <member refid="classmrmeshpy_1_1PointsSave_1a13dced07ff00d1e3ba3fe0f3aeacd7a5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1ab6e2c023ecfac37431fbbc78226902ce" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a935ede47437742121a7853c640d3a56c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toCtm</name></member>
-      <member refid="classmrmeshpy_1_1PointsSave_1a3c36925c708353472e53da18535ae2d4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a96c6e0a389c2c04bd1563f0ae7685eba" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toDrc</name></member>
+      <member refid="classmrmeshpy_1_1PointsSave_1a3c36925c708353472e53da18535ae2d4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a85ba6dbb7115ba72f8b012e5934c609b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1af41173f25e0fc62fa09f2686e1ae48da" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toDrc</name></member>
       <member refid="classmrmeshpy_1_1PointsSave_1a60cd4c66a5cc982d51e42742a3dadc21" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsSave</scope><name>toPly</name></member>

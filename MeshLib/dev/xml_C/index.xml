@@ -8024,6 +8024,8 @@
     <member refid="MRContoursCut_8h_1ab7c973aa816d8cb9e34b96d415e23c0c" kind="function"><name>MR_CutByProjectionSettings_DestroyArray</name></member>
     <member refid="MRContoursCut_8h_1a412cbdbaa9b68d53a897d33fbcbf4ec1" kind="function"><name>MR_CutByProjectionSettings_AssignFromAnother</name></member>
     <member refid="MRContoursCut_8h_1a03b8a6f92dec9b222dc364c7151d33df" kind="function"><name>MR_cutMeshByProjection</name></member>
+    <member refid="MRContoursCut_8h_1a4fff9b4993ce8263ee2dcb2843ffc551" kind="function"><name>MR_offsetSurfaceLineToMeshContours_float</name></member>
+    <member refid="MRContoursCut_8h_1ac2f62f72c059d9444ed7e0c6529a4601" kind="function"><name>MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int</name></member>
     <member refid="MRContoursCut_8h_1a1211d658133a8cec342d464c04f3afd2" kind="function"><name>MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float</name></member>
     <member refid="MRContoursCut_8h_1a470f587a93585b221f6cc2dfc1829ad3" kind="function"><name>MR_convertMeshTriPointsSurfaceOffsetToMeshContours_std_function_float_func_from_int</name></member>
   </compound>
@@ -19715,6 +19717,10 @@
     <member refid="MROneMeshContours_8h_1a884eedddae4cbc617fa65b0d5ea0341f" kind="function"><name>MR_SearchPathSettings_Destroy</name></member>
     <member refid="MROneMeshContours_8h_1a55d073762b3fd4d13b33b4ad738ea59f" kind="function"><name>MR_SearchPathSettings_DestroyArray</name></member>
     <member refid="MROneMeshContours_8h_1afbc879fc92e83352debb2b11527c09a5" kind="function"><name>MR_SearchPathSettings_AssignFromAnother</name></member>
+    <member refid="MROneMeshContours_8h_1a4fc2d85428d2837317fbad536e14b983" kind="function"><name>MR_surfaceLineToMeshContour</name></member>
+    <member refid="MROneMeshContours_8h_1a2b9023daef78cd58a9b733c2fb747486" kind="function"><name>MR_surfaceLineToClosedMeshContour</name></member>
+    <member refid="MROneMeshContours_8h_1a60614d357fa477f7a9794cf785e4b486" kind="function"><name>MR_surfacePathWithEndsToMeshContour</name></member>
+    <member refid="MROneMeshContours_8h_1aa46e485d7a124e3542f534bc86015b69" kind="function"><name>MR_surfacePathsToMeshContours</name></member>
     <member refid="MROneMeshContours_8h_1ae135424c5fba4937d523b2c9565c66d4" kind="function"><name>MR_convertMeshTriPointsToMeshContour</name></member>
     <member refid="MROneMeshContours_8h_1abec6ba672ad55203411326447ed295c0" kind="function"><name>MR_convertMeshTriPointsToClosedContour</name></member>
     <member refid="MROneMeshContours_8h_1a6393120aff1c0d0d512e1e531b03c8c9" kind="function"><name>MR_convertSurfacePathWithEndsToMeshContour</name></member>

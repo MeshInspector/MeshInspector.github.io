@@ -2302,8 +2302,10 @@
       <member refid="group__GeneralGroup_1gaf5b396c08011572eef5659ca9b84f37a" kind="function"><name>cutMeshByContour</name></member>
       <member refid="group__GeneralGroup_1ga8471f2a87338254b2c1d8a0790776f0e" kind="function"><name>cutMeshByContours</name></member>
       <member refid="group__GeneralGroup_1ga66c0157a15c650c2df28de17df4c485c" kind="function"><name>cutMeshByProjection</name></member>
-      <member refid="group__BooleanGroup_1gaccf79b17bf64faa5454a116f768def33" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
-      <member refid="group__BooleanGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
+      <member refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kind="function"><name>offsetSurfaceLineToMeshContours</name></member>
+      <member refid="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" kind="function"><name>offsetSurfaceLineToMeshContours</name></member>
+      <member refid="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
+      <member refid="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
       <member refid="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" kind="function"><name>separateClosedContour</name></member>
       <member refid="group__GeneralGroup_1ga87506fc61d2601b4f1eb46cda6f84fd6" kind="function"><name>stitchContours</name></member>
       <member refid="group__GeneralGroup_1ga800a7215f19eb459e13c87d65a08d34d" kind="function"><name>cutAlongEdgeLoop</name></member>
@@ -2988,11 +2990,16 @@
       <member refid="group__GeneralGroup_1ga6c2a8d613e29f26fcbbfaad5c43205a5" kind="function"><name>getOneMeshIntersectionContours</name></member>
       <member refid="group__GeneralGroup_1ga57f74cde60c66eebd3b6f0076937f2c8" kind="function"><name>getOneMeshSelfIntersectionContours</name></member>
       <member refid="group__GeneralGroup_1ga1d82174091ef8dac35de35e5b472b0fe" kind="function"><name>extractMeshContours</name></member>
-      <member refid="group__BooleanGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
-      <member refid="group__BooleanGroup_1ga1038937a987d09a86802e694724e7aa7" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
-      <member refid="group__BooleanGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" kind="function"><name>convertMeshTriPointsToClosedContour</name></member>
-      <member refid="group__BooleanGroup_1ga84ad133112b40770a9311344d2bbfdde" kind="function"><name>convertSurfacePathWithEndsToMeshContour</name></member>
-      <member refid="group__BooleanGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" kind="function"><name>convertSurfacePathsToMeshContours</name></member>
+      <member refid="group__BooleanGroup_1ga123f4e8e51dc1696e7db2ff8fc233bd2" kind="function"><name>surfaceLineToMeshContour</name></member>
+      <member refid="group__BooleanGroup_1ga2e24ce065ef7d94e723ba08376773c39" kind="function"><name>surfaceLineToMeshContour</name></member>
+      <member refid="group__BooleanGroup_1ga3a22b60786ebca45162b3cdc5d713ff0" kind="function"><name>surfaceLineToClosedMeshContour</name></member>
+      <member refid="group__BooleanGroup_1ga4f62f582556848a63c2cfcfee951da9f" kind="function"><name>surfacePathWithEndsToMeshContour</name></member>
+      <member refid="group__BooleanGroup_1gae3e1a627ede49e7b24ea170b0d8e2c4c" kind="function"><name>surfacePathsToMeshContours</name></member>
+      <member refid="group__GeneralGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
+      <member refid="group__GeneralGroup_1ga1038937a987d09a86802e694724e7aa7" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
+      <member refid="group__GeneralGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" kind="function"><name>convertMeshTriPointsToClosedContour</name></member>
+      <member refid="group__GeneralGroup_1ga84ad133112b40770a9311344d2bbfdde" kind="function"><name>convertSurfacePathWithEndsToMeshContour</name></member>
+      <member refid="group__GeneralGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" kind="function"><name>convertSurfacePathsToMeshContours</name></member>
       <member refid="group__GeneralGroup_1ga23e34559729eb030740a98ba96839023" kind="function"><name>getOptimalFaceOrdering</name></member>
       <member refid="group__GeneralGroup_1ga064094d50cec191ddf9c9d7087b880ae" kind="function"><name>getVertexOrdering</name></member>
       <member refid="group__GeneralGroup_1ga349bf2ff50da76fb348ce2014d9900d8" kind="function"><name>getEdgeOrdering</name></member>

@@ -77,5 +77,9 @@ var MROneMeshContours_8h =
     [ "MR_SortIntersectionsData_Set_isOtherA", "MROneMeshContours_8h.html#a60265b314fd81e173194e4c5d690cec2", null ],
     [ "MR_SortIntersectionsData_Set_meshAVertsNum", "MROneMeshContours_8h.html#adb1980d5c8847e89ea1d8990afc42889", null ],
     [ "MR_SortIntersectionsData_Set_rigidB2A", "MROneMeshContours_8h.html#af5a05e372b5f84dcd1146b2253ad8447", null ],
-    [ "MR_subdivideLoneContours", "MROneMeshContours_8h.html#af082f5c0e9b42a66ff8b0cd28ae6a4c8", null ]
+    [ "MR_subdivideLoneContours", "MROneMeshContours_8h.html#af082f5c0e9b42a66ff8b0cd28ae6a4c8", null ],
+    [ "MR_surfaceLineToClosedMeshContour", "MROneMeshContours_8h.html#a2b9023daef78cd58a9b733c2fb747486", null ],
+    [ "MR_surfaceLineToMeshContour", "MROneMeshContours_8h.html#a4fc2d85428d2837317fbad536e14b983", null ],
+    [ "MR_surfacePathsToMeshContours", "MROneMeshContours_8h.html#aa46e485d7a124e3542f534bc86015b69", null ],
+    [ "MR_surfacePathWithEndsToMeshContour", "MROneMeshContours_8h.html#a60614d357fa477f7a9794cf785e4b486", null ]
 ];

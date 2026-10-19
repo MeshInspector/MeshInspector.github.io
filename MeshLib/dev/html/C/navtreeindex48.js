@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"MRInSphere_8h.html#a971d9ef39a334a084e0937ebe6ac8647":[9,2,2,0,0,0,0,1,131,33],
+"MRInSphere_8h.html#a9cdaff044a51f97336e374b17656b9c5":[9,2,2,0,0,0,0,1,131,30],
 "MRInSphere_8h.html#a9cf85017b3502d2227a7e3185045fa10":[9,2,2,0,0,0,0,1,131,52],
 "MRInSphere_8h.html#aa07cb8c670c4bea87523e98ad0c94d71":[9,2,2,0,0,0,0,1,131,40],
 "MRInSphere_8h.html#aa3d031679253613f3807aa3e9e7f779c":[9,2,2,0,0,0,0,1,131,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "MRIteratorRange_8h.html#a1a1a7b222197da0b60c88380049f502d":[9,2,2,0,0,0,0,1,142,36],
 "MRIteratorRange_8h.html#a1a218e31f08e888e5e5f6786456d5d18":[9,2,2,0,0,0,0,1,142,19],
 "MRIteratorRange_8h.html#a1b5c0e6f26946bd0246541ca68447b6d":[9,2,2,0,0,0,0,1,142,35],
-"MRIteratorRange_8h.html#a1baffb23306c6627e46402e460e9b8f1":[9,2,2,0,0,0,0,1,142,25],
-"MRIteratorRange_8h.html#a1bbd94398c05ef66681ae5c0c2b4e2e9":[9,2,2,0,0,0,0,1,142,24],
-"MRIteratorRange_8h.html#a1e2edf0123e16713799fefb1d5b32a9d":[9,2,2,0,0,0,0,1,142,77]
+"MRIteratorRange_8h.html#a1baffb23306c6627e46402e460e9b8f1":[9,2,2,0,0,0,0,1,142,25]
 };

@@ -79,15 +79,15 @@ var group__BooleanGroup =
       [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#ga8f2f47f6c859930c9c0252e4bc28944e", null ],
-    [ "MR::convertMeshTriPointsSurfaceOffsetToMeshContours", "group__BooleanGroup.html#gaccf79b17bf64faa5454a116f768def33", null ],
-    [ "MR::convertMeshTriPointsToClosedContour", "group__BooleanGroup.html#ga9b27124d1aee7872d4ac97a96ef4fee2", null ],
-    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga86ca2da82f81a72954e27baf0e31fbd8", null ],
-    [ "MR::convertMeshTriPointsToMeshContour", "group__BooleanGroup.html#ga1038937a987d09a86802e694724e7aa7", null ],
-    [ "MR::convertSurfacePathsToMeshContours", "group__BooleanGroup.html#ga60c552ace8de5755edd7e5a28dd4dc6b", null ],
-    [ "MR::convertSurfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga84ad133112b40770a9311344d2bbfdde", null ],
     [ "MR::cutMesh", "group__BooleanGroup.html#ga84b6da724860c1e5ac72574b7635c22c", null ],
     [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga1c924334076a710ae361fbdab680d498", null ],
     [ "MR::getBooleanPoints", "group__DistanceMapGroup.html#gac5ed86269f5cf1022e94d272e28f73b7", null ],
-    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#gabde61d75feea288c14690ed8c3e592d2", null ]
+    [ "MR::MR_BIND_OVERLOAD_SUFFIX", "group__DistanceMapGroup.html#gabde61d75feea288c14690ed8c3e592d2", null ],
+    [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#gac67a5b20bb2312590785d6dca7473866", null ],
+    [ "MR::offsetSurfaceLineToMeshContours", "group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292", null ],
+    [ "MR::surfaceLineToClosedMeshContour", "group__BooleanGroup.html#ga3a22b60786ebca45162b3cdc5d713ff0", null ],
+    [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga123f4e8e51dc1696e7db2ff8fc233bd2", null ],
+    [ "MR::surfaceLineToMeshContour", "group__BooleanGroup.html#ga2e24ce065ef7d94e723ba08376773c39", null ],
+    [ "MR::surfacePathsToMeshContours", "group__BooleanGroup.html#gae3e1a627ede49e7b24ea170b0d8e2c4c", null ],
+    [ "MR::surfacePathWithEndsToMeshContour", "group__BooleanGroup.html#ga4f62f582556848a63c2cfcfee951da9f", null ]
 ];

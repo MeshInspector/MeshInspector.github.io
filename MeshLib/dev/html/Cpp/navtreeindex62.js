@@ -1,5 +1,12 @@
 var NAVTREEINDEX62 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98":[9,0,2,0,1,0,7],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a19ef8883b4cd0ba24446e2cd767ac8d6":[9,0,1,0,0,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a19ef8883b4cd0ba24446e2cd767ac8d6":[9,0,2,0,1,0,10],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[9,0,1,0,0,0,11],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1b847836011905ac5e81447b23f40ca5":[9,0,2,0,1,0,11],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,1,0,0,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[9,0,2,0,1,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,1,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[9,0,2,0,1,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[9,0,1,0,0,0,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[9,0,0,5,1,2],
 "structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[9,0,0,5,1,1],
 "structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178":[9,0,0,5,1,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[9,0,0,5,1,0,0],
-"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30":[9,0,0,5,1,0,1],
-"structMR_1_1ContoursDistanceMapOptions.html":[9,0,0,5,2],
-"structMR_1_1ContoursDistanceMapOptions.html#a37e6ab24d4bd5bee82c4ff4cfded2aec":[9,0,0,5,2,2],
-"structMR_1_1ContoursDistanceMapOptions.html#a5015f92ab6db453e909083c2c9486054":[9,0,0,5,2,4],
-"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6":[9,0,0,5,2,0],
-"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6ac0f03fce7a18db1b1d8c8c977e711727":[9,0,0,5,2,0,0],
-"structMR_1_1ContoursDistanceMapOptions.html#a8338b4b187db812314a5890ccf5e6ec6af3521ec7c51139960b7e21cef6b936df":[9,0,0,5,2,0,1]
+"structMR_1_1ContoursDistanceMapOffset.html#ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0":[9,0,0,5,1,0,0]
 };

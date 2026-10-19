@@ -52456,6 +52456,8 @@
     <member refid="classMR_1a66706bca91747f8db37973b61c26c5a8" kind="function"><name>cutMeshByContour</name></member>
     <member refid="classMR_1a8780422842277c2966f86979c2e549c3" kind="function"><name>cutMeshByContours</name></member>
     <member refid="classMR_1aae21063cd33c482aadbe57a6738bd8d6" kind="function"><name>cutMeshByProjection</name></member>
+    <member refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kind="function"><name>offsetSurfaceLineToMeshContours</name></member>
+    <member refid="classMR_1aee70ef84f19de70d74441de0824e219d" kind="function"><name>offsetSurfaceLineToMeshContours</name></member>
     <member refid="classMR_1a0c0667c8aecfe15913da9f1629f1216c" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
     <member refid="classMR_1a7b36dfa81f6516db1c9f6a19bce00cca" kind="function"><name>convertMeshTriPointsSurfaceOffsetToMeshContours</name></member>
     <member refid="classMR_1ae386b79ef0c05dbddb2ddbf14fd303b5" kind="function"><name>separateClosedContour</name></member>
@@ -53145,6 +53147,10 @@
     <member refid="classMR_1a4e313f155145af457ac56f4527bcf344" kind="function"><name>getOneMeshIntersectionContours</name></member>
     <member refid="classMR_1ae38cf4185eac3553eeb170be89903c8d" kind="function"><name>getOneMeshSelfIntersectionContours</name></member>
     <member refid="classMR_1a1d9fdf5da92c823204e0528bba1e98d4" kind="function"><name>extractMeshContours</name></member>
+    <member refid="classMR_1a5f9148e3b3c2382e79bb495451b2b4fb" kind="function"><name>surfaceLineToMeshContour</name></member>
+    <member refid="classMR_1a74c8f3966a66b9e46e6b3a11c93f64d9" kind="function"><name>surfaceLineToClosedMeshContour</name></member>
+    <member refid="classMR_1a6dc2419c50bfd7579fbf5503b54575d9" kind="function"><name>surfacePathWithEndsToMeshContour</name></member>
+    <member refid="classMR_1a95326686573a3af977634a0a5ab4df6b" kind="function"><name>surfacePathsToMeshContours</name></member>
     <member refid="classMR_1a4c21ee05149540c42fe44e772486a561" kind="function"><name>convertMeshTriPointsToMeshContour</name></member>
     <member refid="classMR_1a3e13ad5693207d2111e76373c99e70fd" kind="function"><name>convertMeshTriPointsToClosedContour</name></member>
     <member refid="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" kind="function"><name>convertSurfacePathWithEndsToMeshContour</name></member>
@@ -54309,6 +54315,8 @@
     <member refid="classMR_1a6138dfe48ce8c7b65468a33ec19ea98b" kind="function"><name>__MR_cutMeshByContour</name></member>
     <member refid="classMR_1af690219591bc7be4d352665e42e5873e" kind="function"><name>__MR_cutMeshByContours</name></member>
     <member refid="classMR_1a335008174b7bb5d565ec18ac5a011d0b" kind="function"><name>__MR_cutMeshByProjection</name></member>
+    <member refid="classMR_1a3c1c20d2dcedcde696bafc8635a763ac" kind="function"><name>__MR_offsetSurfaceLineToMeshContours_float</name></member>
+    <member refid="classMR_1a5a7ac9571fed478265794fb15b341f0b" kind="function"><name>__MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int</name></member>
     <member refid="classMR_1af0a061ccdbebfc7cecf44ac129fc11a0" kind="function"><name>__MR_separateClosedContour</name></member>
     <member refid="classMR_1a5d57c78a604887342ed0cf25bac49145" kind="function"><name>__MR_cutAlongEdgeLoop_MR_Mesh</name></member>
     <member refid="classMR_1a5265f3b61e05204dc1efc6a815db5db0" kind="function"><name>__MR_cutAlongEdgeLoop_MR_MeshTopology</name></member>
@@ -55004,6 +55012,10 @@
     <member refid="classMR_1aa3c0e746743fa73078e94f79fc34540f" kind="function"><name>__MR_getOneMeshIntersectionContours</name></member>
     <member refid="classMR_1a9f8259287165a4080b2f8a8e0a79b18d" kind="function"><name>__MR_getOneMeshSelfIntersectionContours</name></member>
     <member refid="classMR_1a82e92182f0ed2918acaf7039f4048867" kind="function"><name>__MR_subdivideLoneContours</name></member>
+    <member refid="classMR_1a6922ae63b04018d7d4d227235acd5b72" kind="function"><name>__MR_surfaceLineToClosedMeshContour</name></member>
+    <member refid="classMR_1af95aee1a930a381d248b02faa23c265f" kind="function"><name>__MR_surfaceLineToMeshContour</name></member>
+    <member refid="classMR_1ae6c2ca378f9ff5dc43534dd898e83260" kind="function"><name>__MR_surfacePathWithEndsToMeshContour</name></member>
+    <member refid="classMR_1ae2ee0cf1290674be0a24194e01ca2f86" kind="function"><name>__MR_surfacePathsToMeshContours</name></member>
     <member refid="classMR_1ad562713870245c35a7a11f40dd381f5a" kind="function"><name>__MR_getEdgeOrdering</name></member>
     <member refid="classMR_1a21c27fc55aef6fa2e1473ea7e39cc6da" kind="function"><name>__MR_getOptimalFaceOrdering</name></member>
     <member refid="classMR_1a15d2cc4d66942ea8dbd8ef0473477538" kind="function"><name>__MR_getVertexOrdering_MR_FaceBMap</name></member>

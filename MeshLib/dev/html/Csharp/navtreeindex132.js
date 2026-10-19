@@ -1,5 +1,11 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a6ce5ca76288f7b06c8b23e1b0acd283b":[9,3,0,0,0,1638,0,6],
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a6ce9c38cfaf0d47eaab54400037b90a4":[9,3,0,0,0,1638,0,20],
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a920ed38c92e5715ed9baa82931334b12":[9,3,0,0,0,1638,0,8],
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#a974e641eb7371fc3357134fd1c77c7f3":[9,3,0,0,0,1638,0,14],
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#aa1a622830d90c31e854d975954d5db4f":[9,3,0,0,0,1638,0,11],
+"classMR_1_1SelfIntersections_1_1Const__Settings.html#aa8ca564119d95d55ddb23b2c0e05c914":[9,3,0,0,0,1638,0,1],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#ab68000106a35cfb3cec434e43d5976bb":[9,3,0,0,0,1638,0,2],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#abc05c43c695669ad16c849a3e408ef2c":[9,3,0,0,0,1638,0,7],
 "classMR_1_1SelfIntersections_1_1Const__Settings.html#abf9c767ae2acd3bffe639b905d59fea3":[9,3,0,0,0,1638,0,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1SimpleVolumeMinMaxU16.html#a69c55af1b2425fc2e906863c5616e748":[9,3,0,0,0,1660,7],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a72f9f6095594e5fb799e277141368464":[9,3,0,0,0,1660,10],
 "classMR_1_1SimpleVolumeMinMaxU16.html#a8298ab9645c4d40ec2c2a672682fd121":[9,3,0,0,0,1660,9],
-"classMR_1_1SimpleVolumeMinMaxU16.html#aaf18ad50cae9f1e115f9e45836163a96":[9,3,0,0,0,1660,1],
-"classMR_1_1SimpleVolumeMinMaxU16.html#ad0547476b4eb7a5a8eaca23f06990b41":[9,3,0,0,0,1660,12],
-"classMR_1_1SimpleVolumeMinMaxU16.html#ae5c63c09034fe96fd9a19bd3a3aa6ae8":[9,3,0,0,0,1660,5],
-"classMR_1_1SimpleVolumeU16.html":[9,3,0,0,0,1661],
-"classMR_1_1SimpleVolumeU16.html#a0a125c36aacc3a723a0e2626e185edd6":[9,3,0,0,0,1661,7],
-"classMR_1_1SimpleVolumeU16.html#a175bd9fcd1e00f552f0412dbd02442b6":[9,3,0,0,0,1661,0],
-"classMR_1_1SimpleVolumeU16.html#a26888335ab871cb587e8561304a8694b":[9,3,0,0,0,1661,5]
+"classMR_1_1SimpleVolumeMinMaxU16.html#aaf18ad50cae9f1e115f9e45836163a96":[9,3,0,0,0,1660,1]
 };

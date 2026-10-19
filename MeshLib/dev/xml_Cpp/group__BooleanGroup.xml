@@ -252,7 +252,7 @@
         </briefdescription>
         <detaileddescription>
 <para>This is special data for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref>, you can convert some other contours representation to it by:<linebreak/>
-<ref refid="group__BooleanGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" kindref="member">MR::convertMeshTriPointsToClosedContour</ref> <ref refid="group__BooleanGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" kindref="member">MR::convertSurfacePathsToMeshContours</ref> </para>
+<ref refid="group__BooleanGroup_1ga3a22b60786ebca45162b3cdc5d713ff0" kindref="member">MR::surfaceLineToClosedMeshContour</ref> <ref refid="group__BooleanGroup_1gae3e1a627ede49e7b24ea170b0d8e2c4c" kindref="member">MR::surfacePathsToMeshContours</ref> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -383,12 +383,12 @@ so if you cannot guarantee contours without intersections better make copy of me
         </inbodydescription>
         <location file="MRMesh/MRContoursCut.h" line="97" column="16" declfile="MRMesh/MRContoursCut.h" declline="97" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1gaccf79b17bf64faa5454a116f768def33" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
-        <definition>Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <definition>Expected&lt; OneMeshContours &gt; MR::offsetSurfaceLineToMeshContours</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, float offset, SearchPathSettings searchSettings={})</argsstring>
-        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
-        <qualifiedname>MR::convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <name>offsetSurfaceLineToMeshContours</name>
+        <qualifiedname>MR::offsetSurfaceLineToMeshContours</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>
@@ -427,18 +427,20 @@ so if you cannot guarantee contours without intersections better make copy of me
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="see"><para><ref refid="group__GeneralGroup_1ga7d9ef88ab36051823b5873593cf03071" kindref="member">offsetSurfaceLine</ref> to <ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref> the <ref refid="group__GeneralGroup_1ga3b15caf456e5957f1d1a548142e66641" kindref="member">same</ref> contours as plain <ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref> </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="144" column="11" declfile="MRMesh/MRContoursCut.h" declline="144" declcolumn="11"/>
+        <location file="MRMesh/MRContoursCut.h" line="145" column="11" declfile="MRMesh/MRContoursCut.h" declline="145" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
-        <definition>Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <definition>Expected&lt; OneMeshContours &gt; MR::offsetSurfaceLineToMeshContours</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, SearchPathSettings searchSettings={})</argsstring>
-        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
-        <qualifiedname>MR::convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <name>offsetSurfaceLineToMeshContours</name>
+        <qualifiedname>MR::offsetSurfaceLineToMeshContours</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>
@@ -477,18 +479,20 @@ so if you cannot guarantee contours without intersections better make copy of me
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="see"><para><ref refid="group__GeneralGroup_1ga7d9ef88ab36051823b5873593cf03071" kindref="member">offsetSurfaceLine</ref> to <ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref> the <ref refid="group__GeneralGroup_1ga3b15caf456e5957f1d1a548142e66641" kindref="member">same</ref> contours as plain <ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref> </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="155" column="11" declfile="MRMesh/MRContoursCut.h" declline="155" declcolumn="11"/>
+        <location file="MRMesh/MRContoursCut.h" line="157" column="11" declfile="MRMesh/MRContoursCut.h" declline="157" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1ga123f4e8e51dc1696e7db2ff8fc233bd2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt;</type>
-        <definition>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
+        <definition>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt; MR::surfaceLineToMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, MeshTriPointsConnector connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
-        <name>convertMeshTriPointsToMeshContour</name>
-        <qualifiedname>MR::convertMeshTriPointsToMeshContour</qualifiedname>
+        <name>surfaceLineToMeshContour</name>
+        <qualifiedname>MR::surfaceLineToMeshContour</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>
@@ -533,12 +537,12 @@ so if you cannot guarantee contours without intersections better make copy of me
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="83" column="26" declfile="MRMesh/MROneMeshContours.h" declline="83" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga1038937a987d09a86802e694724e7aa7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1ga2e24ce065ef7d94e723ba08376773c39" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContour &gt;</type>
-        <definition>Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
+        <definition>Expected&lt; OneMeshContour &gt; MR::surfaceLineToMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, SearchPathSettings searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
-        <name>convertMeshTriPointsToMeshContour</name>
-        <qualifiedname>MR::convertMeshTriPointsToMeshContour</qualifiedname>
+        <name>surfaceLineToMeshContour</name>
+        <qualifiedname>MR::surfaceLineToMeshContour</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>
@@ -584,12 +588,12 @@ so if you cannot guarantee contours without intersections better make copy of me
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="101" column="11" declfile="MRMesh/MROneMeshContours.h" declline="101" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1ga3a22b60786ebca45162b3cdc5d713ff0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContour &gt;</type>
-        <definition>Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToClosedContour</definition>
+        <definition>Expected&lt; OneMeshContour &gt; MR::surfaceLineToClosedMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, SearchPathSettings searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
-        <name>convertMeshTriPointsToClosedContour</name>
-        <qualifiedname>MR::convertMeshTriPointsToClosedContour</qualifiedname>
+        <name>surfaceLineToClosedMeshContour</name>
+        <qualifiedname>MR::surfaceLineToClosedMeshContour</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>
@@ -621,7 +625,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="note"><para>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour </para>
+<simplesect kind="note"><para>better use surfaceLineToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -629,12 +633,12 @@ so if you cannot guarantee contours without intersections better make copy of me
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="112" column="11" declfile="MRMesh/MROneMeshContours.h" declline="112" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga84ad133112b40770a9311344d2bbfdde" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1ga4f62f582556848a63c2cfcfee951da9f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>OneMeshContour</type>
-        <definition>OneMeshContour MR::convertSurfacePathWithEndsToMeshContour</definition>
+        <definition>OneMeshContour MR::surfacePathWithEndsToMeshContour</definition>
         <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const SurfacePath &amp;surfacePath, const MeshTriPoint &amp;end)</argsstring>
-        <name>convertSurfacePathWithEndsToMeshContour</name>
-        <qualifiedname>MR::convertSurfacePathWithEndsToMeshContour</qualifiedname>
+        <name>surfacePathWithEndsToMeshContour</name>
+        <qualifiedname>MR::surfacePathWithEndsToMeshContour</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>
@@ -663,12 +667,12 @@ so if you cannot guarantee contours without intersections better make copy of me
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="134" column="17" declfile="MRMesh/MROneMeshContours.h" declline="134" declcolumn="17"/>
       </memberdef>
-      <memberdef kind="function" id="group__BooleanGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1gae3e1a627ede49e7b24ea170b0d8e2c4c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>OneMeshContours</type>
-        <definition>OneMeshContours MR::convertSurfacePathsToMeshContours</definition>
+        <definition>OneMeshContours MR::surfacePathsToMeshContours</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;surfacePaths)</argsstring>
-        <name>convertSurfacePathsToMeshContours</name>
-        <qualifiedname>MR::convertSurfacePathsToMeshContours</qualifiedname>
+        <name>surfacePathsToMeshContours</name>
+        <qualifiedname>MR::surfacePathsToMeshContours</qualifiedname>
         <param>
           <type>const Mesh &amp;</type>
           <declname>mesh</declname>

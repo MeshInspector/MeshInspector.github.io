@@ -91751,6 +91751,69 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </inbodydescription>
         <location file="MRMesh/MRContoursCut.h" line="134" column="12" declfile="MRMesh/MRContoursCut.h" declline="134" declcolumn="12"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1gaccf79b17bf64faa5454a116f768def33" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expected&lt; OneMeshContours &gt;</type>
+        <definition>Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, float offset, SearchPathSettings searchSettings={})</argsstring>
+        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
+        <qualifiedname>MR::convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>SearchPathSettings</type>
+          <declname>searchSettings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>the old names stay in the bindings, since scripts call them </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRContoursCut.h" line="162" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="162" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expected&lt; OneMeshContours &gt;</type>
+        <definition>Expected&lt; OneMeshContours &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, SearchPathSettings searchSettings={})</argsstring>
+        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
+        <qualifiedname>MR::convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>const std::function&lt; float(int)&gt; &amp;</type>
+          <declname>offsetAtPoint</declname>
+        </param>
+        <param>
+          <type>SearchPathSettings</type>
+          <declname>searchSettings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRContoursCut.h" line="169" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="169" bodyend="173"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; FaceBitSet &gt;</type>
         <definition>std::vector&lt; FaceBitSet &gt; MR::separateClosedContour</definition>
@@ -132219,6 +132282,154 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="MRMesh/MROneMeshContours.h" line="72" column="13" declfile="MRMesh/MROneMeshContours.h" declline="72" declcolumn="13"/>
       </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga86ca2da82f81a72954e27baf0e31fbd8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt;</type>
+        <definition>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, MeshTriPointsConnector connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
+        <name>convertMeshTriPointsToMeshContour</name>
+        <qualifiedname>MR::convertMeshTriPointsToMeshContour</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>MeshTriPointsConnector</type>
+          <declname>connectorFn</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; *</type>
+          <declname>pivotIndices</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>the old names stay in the bindings, since scripts call them </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MROneMeshContours.h" line="149" column="32" bodyfile="MRMesh/MROneMeshContours.h" bodystart="149" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga1038937a987d09a86802e694724e7aa7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expected&lt; OneMeshContour &gt;</type>
+        <definition>Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToMeshContour</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, SearchPathSettings searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
+        <name>convertMeshTriPointsToMeshContour</name>
+        <qualifiedname>MR::convertMeshTriPointsToMeshContour</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>SearchPathSettings</type>
+          <declname>searchSettings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; *</type>
+          <declname>pivotIndices</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MROneMeshContours.h" line="156" column="17" bodyfile="MRMesh/MROneMeshContours.h" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga9b27124d1aee7872d4ac97a96ef4fee2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Expected&lt; OneMeshContour &gt;</type>
+        <definition>Expected&lt; OneMeshContour &gt; MR::convertMeshTriPointsToClosedContour</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; MeshTriPoint &gt; &amp;surfaceLine, SearchPathSettings searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</argsstring>
+        <name>convertMeshTriPointsToClosedContour</name>
+        <qualifiedname>MR::convertMeshTriPointsToClosedContour</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MeshTriPoint &gt; &amp;</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>SearchPathSettings</type>
+          <declname>searchSettings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; *</type>
+          <declname>pivotIndices</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MROneMeshContours.h" line="163" column="17" bodyfile="MRMesh/MROneMeshContours.h" bodystart="163" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga84ad133112b40770a9311344d2bbfdde" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OneMeshContour</type>
+        <definition>OneMeshContour MR::convertSurfacePathWithEndsToMeshContour</definition>
+        <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, const SurfacePath &amp;surfacePath, const MeshTriPoint &amp;end)</argsstring>
+        <name>convertSurfacePathWithEndsToMeshContour</name>
+        <qualifiedname>MR::convertSurfacePathWithEndsToMeshContour</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>const SurfacePath &amp;</type>
+          <declname>surfacePath</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MROneMeshContours.h" line="170" column="23" bodyfile="MRMesh/MROneMeshContours.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="group__GeneralGroup_1ga60c552ace8de5755edd7e5a28dd4dc6b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OneMeshContours</type>
+        <definition>OneMeshContours MR::convertSurfacePathsToMeshContours</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;surfacePaths)</argsstring>
+        <name>convertSurfacePathsToMeshContours</name>
+        <qualifiedname>MR::convertSurfacePathsToMeshContours</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; SurfacePath &gt; &amp;</type>
+          <declname>surfacePaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MROneMeshContours.h" line="176" column="24" bodyfile="MRMesh/MROneMeshContours.h" bodystart="176" bodyend="179"/>
+      </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga23e34559729eb030740a98ba96839023" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBMap</type>
         <definition>FaceBMap MR::getOptimalFaceOrdering</definition>
@@ -145838,11 +146049,13 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 </parameterlist>
 <simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
 </simplesect>
+<simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref> to also <ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref> the <ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref> primitive of every contour point </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSurfaceLineOffset.h" line="20" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="20" declcolumn="11"/>
+        <location file="MRMesh/MRSurfaceLineOffset.h" line="21" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="21" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44a9a9075d36bff7e50b395b6cfef550" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Contours3f &gt;</type>
@@ -145893,11 +146106,13 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 </parameterlist>
 <simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
 </simplesect>
+<simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref> to also <ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref> the <ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref> primitive of every contour point </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSurfaceLineOffset.h" line="30" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="30" declcolumn="11"/>
+        <location file="MRMesh/MRSurfaceLineOffset.h" line="32" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="32" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d7b116cb57858e0b068a33b81aed7a7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>

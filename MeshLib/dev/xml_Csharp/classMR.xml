@@ -10866,12 +10866,12 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1291" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1291" bodyend="1297"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a0c0667c8aecfe15913da9f1629f1216c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour</type>
-        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.offsetSurfaceLineToMeshContours</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, float offset, MR.Const_SearchPathSettings? searchSettings=null)</argsstring>
-        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
-        <qualifiedname>MR.convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <name>offsetSurfaceLineToMeshContours</name>
+        <qualifiedname>MR.offsetSurfaceLineToMeshContours</qualifiedname>
         <param>
           <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
@@ -10906,22 +10906,24 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
 <parametername>searchSettings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>settings for search geodesic path Generated from function <computeroutput><ref refid="classMR_1a0c0667c8aecfe15913da9f1629f1216c" kindref="member">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>settings for search geodesic path </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="see"><para><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">offsetSurfaceLine</ref> to get the <ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">same</ref> contours as plain points Generated from function <computeroutput><ref refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kindref="member">MR.offsetSurfaceLineToMeshContours</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1307" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1307" bodyend="1313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1308" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1308" bodyend="1314"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a7b36dfa81f6516db1c9f6a19bce00cca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1aee70ef84f19de70d74441de0824e219d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour</type>
-        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.offsetSurfaceLineToMeshContours</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Std.Const_Function_Float_From_Int offsetAtPoint, MR.Const_SearchPathSettings? searchSettings=null)</argsstring>
-        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
-        <qualifiedname>MR.convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <name>offsetSurfaceLineToMeshContours</name>
+        <qualifiedname>MR.offsetSurfaceLineToMeshContours</qualifiedname>
         <param>
           <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
@@ -10956,15 +10958,81 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
 <parametername>searchSettings</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>settings for search geodesic path Generated from function <computeroutput><ref refid="classMR_1a0c0667c8aecfe15913da9f1629f1216c" kindref="member">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>settings for search geodesic path </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="see"><para><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">offsetSurfaceLine</ref> to get the <ref refid="classMR_1aa04021a5d2d15697aba0e68b0b45adfb" kindref="member">same</ref> contours as plain points Generated from function <computeroutput><ref refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kindref="member">MR.offsetSurfaceLineToMeshContours</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1323" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1323" bodyend="1329"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1325" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1325" bodyend="1331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a0c0667c8aecfe15913da9f1629f1216c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MROneMeshContour</type>
+        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, float offset, MR.Const_SearchPathSettings? searchSettings=null)</argsstring>
+        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
+        <qualifiedname>MR.convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref>?</type>
+          <declname>searchSettings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c0667c8aecfe15913da9f1629f1216c" kindref="member">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1339" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1339" bodyend="1345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a7b36dfa81f6516db1c9f6a19bce00cca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MROneMeshContour</type>
+        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.convertMeshTriPointsSurfaceOffsetToMeshContours</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Std.Const_Function_Float_From_Int offsetAtPoint, MR.Const_SearchPathSettings? searchSettings=null)</argsstring>
+        <name>convertMeshTriPointsSurfaceOffsetToMeshContours</name>
+        <qualifiedname>MR.convertMeshTriPointsSurfaceOffsetToMeshContours</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Float_From_Int</type>
+          <declname>offsetAtPoint</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref>?</type>
+          <declname>searchSettings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a0c0667c8aecfe15913da9f1629f1216c" kindref="member">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1352" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1352" bodyend="1358"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae386b79ef0c05dbddb2ddbf14fd303b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceBitSet</type>
@@ -31311,12 +31379,12 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1045" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1045" bodyend="1048"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a4c21ee05149540c42fe44e772486a561" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a5f9148e3b3c2382e79bb495451b2b4fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
-        <definition>static unsafe MR.OneMeshContour MR.convertMeshTriPointsToMeshContour</definition>
+        <definition>static unsafe MR.OneMeshContour MR.surfaceLineToMeshContour</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Const_SearchPathSettings? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</argsstring>
-        <name>convertMeshTriPointsToMeshContour</name>
-        <qualifiedname>MR.convertMeshTriPointsToMeshContour</qualifiedname>
+        <name>surfaceLineToMeshContour</name>
+        <qualifiedname>MR.surfaceLineToMeshContour</qualifiedname>
         <param>
           <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
@@ -31352,7 +31420,7 @@ do not really keeps volume but tries hard </para>
 <parametername>pivotIndices</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>optional output indices of given surfaceLine in result <ref refid="classMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref> Generated from function <computeroutput><ref refid="classMR_1a4c21ee05149540c42fe44e772486a561" kindref="member">MR.convertMeshTriPointsToMeshContour</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>optional output indices of given surfaceLine in result <ref refid="classMR_1_1OneMeshContour" kindref="compound">OneMeshContour</ref> Generated from function <computeroutput><ref refid="classMR_1a5f9148e3b3c2382e79bb495451b2b4fb" kindref="member">MR.surfaceLineToMeshContour</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -31362,12 +31430,12 @@ do not really keeps volume but tries hard </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1058" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1058" bodyend="1064"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a3e13ad5693207d2111e76373c99e70fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a74c8f3966a66b9e46e6b3a11c93f64d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
-        <definition>static unsafe MR.OneMeshContour MR.convertMeshTriPointsToClosedContour</definition>
+        <definition>static unsafe MR.OneMeshContour MR.surfaceLineToClosedMeshContour</definition>
         <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Const_SearchPathSettings? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</argsstring>
-        <name>convertMeshTriPointsToClosedContour</name>
-        <qualifiedname>MR.convertMeshTriPointsToClosedContour</qualifiedname>
+        <name>surfaceLineToClosedMeshContour</name>
+        <qualifiedname>MR.surfaceLineToClosedMeshContour</qualifiedname>
         <param>
           <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
@@ -31399,13 +31467,133 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="note"><para>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <computeroutput><ref refid="classMR_1a3e13ad5693207d2111e76373c99e70fd" kindref="member">MR.convertMeshTriPointsToClosedContour</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<simplesect kind="note"><para>better use surfaceLineToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <computeroutput><ref refid="classMR_1a74c8f3966a66b9e46e6b3a11c93f64d9" kindref="member">MR.surfaceLineToClosedMeshContour</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1074" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1074" bodyend="1080"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6dc2419c50bfd7579fbf5503b54575d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
+        <definition>static unsafe MR.OneMeshContour MR.surfacePathWithEndsToMeshContour</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_MeshTriPoint start, MR.Std.Const_Vector_MREdgePoint surfacePath, MR.Const_MeshTriPoint end)</argsstring>
+        <name>surfacePathWithEndsToMeshContour</name>
+        <qualifiedname>MR.surfacePathWithEndsToMeshContour</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint</type>
+          <declname>surfacePath</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Converts SurfacePath to OneMeshContours Creates <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref> object from given surface path with ends for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input <computeroutput>start</computeroutput> and surfacePath.front() should be from same face surfacePath.back() and <computeroutput>end</computeroutput> should be from same face note that whole path (including <computeroutput>start</computeroutput> and <computeroutput>end</computeroutput>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)): vert path edge point path edge end o-------<mdash/>o- <ndash/> <ndash/> <ndash/> <ndash/> O \ \ / \ \ / \ \ / \/ o path Generated from function <computeroutput><ref refid="classMR_1a6dc2419c50bfd7579fbf5503b54575d9" kindref="member">MR.surfacePathWithEndsToMeshContour</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1098" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1098" bodyend="1101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a95326686573a3af977634a0a5ab4df6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MROneMeshContour</type>
+        <definition>static unsafe MR.Std.Vector_MROneMeshContour MR.surfacePathsToMeshContours</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_StdVectorMREdgePoint surfacePaths)</argsstring>
+        <name>surfacePathsToMeshContours</name>
+        <qualifiedname>MR.surfacePathsToMeshContours</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgePoint</type>
+          <declname>surfacePaths</declname>
+        </param>
+        <briefdescription>
+<para>Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input Generated from function <computeroutput><ref refid="classMR_1a95326686573a3af977634a0a5ab4df6b" kindref="member">MR.surfacePathsToMeshContours</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1108" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1108" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a4c21ee05149540c42fe44e772486a561" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
+        <definition>static unsafe MR.OneMeshContour MR.convertMeshTriPointsToMeshContour</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Const_SearchPathSettings? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</argsstring>
+        <name>convertMeshTriPointsToMeshContour</name>
+        <qualifiedname>MR.convertMeshTriPointsToMeshContour</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref>?</type>
+          <declname>searchSettings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Int?</type>
+          <declname>pivotIndices</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a4c21ee05149540c42fe44e772486a561" kindref="member">MR.convertMeshTriPointsToMeshContour</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1118" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1118" bodyend="1124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a3e13ad5693207d2111e76373c99e70fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
+        <definition>static unsafe MR.OneMeshContour MR.convertMeshTriPointsToClosedContour</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Const_SearchPathSettings? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</argsstring>
+        <name>convertMeshTriPointsToClosedContour</name>
+        <qualifiedname>MR.convertMeshTriPointsToClosedContour</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref>?</type>
+          <declname>searchSettings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Int?</type>
+          <declname>pivotIndices</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a3e13ad5693207d2111e76373c99e70fd" kindref="member">MR.convertMeshTriPointsToClosedContour</ref></computeroutput>. Parameter <computeroutput>searchSettings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1131" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1131" bodyend="1137"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref></type>
@@ -31430,13 +31618,13 @@ do not really keeps volume but tries hard </para>
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>Converts SurfacePath to OneMeshContours Creates <ref refid="classMR_1_1OneMeshContour" kindref="compound">MR.OneMeshContour</ref> object from given surface path with ends for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input <computeroutput>start</computeroutput> and surfacePath.front() should be from same face surfacePath.back() and <computeroutput>end</computeroutput> should be from same face note that whole path (including <computeroutput>start</computeroutput> and <computeroutput>end</computeroutput>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)): vert path edge point path edge end o-------<mdash/>o- <ndash/> <ndash/> <ndash/> <ndash/> O \ \ / \ \ / \ \ / \/ o path Generated from function <computeroutput><ref refid="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" kindref="member">MR.convertSurfacePathWithEndsToMeshContour</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a66f7e08b31c052563f7e2f794fd3b4fc" kindref="member">MR.convertSurfacePathWithEndsToMeshContour</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1098" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1098" bodyend="1101"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1143" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1143" bodyend="1146"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a17aadc79148649b96ee95169fb912b52" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour</type>
@@ -31453,13 +31641,13 @@ do not really keeps volume but tries hard </para>
           <declname>surfacePaths</declname>
         </param>
         <briefdescription>
-<para>Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input Generated from function <computeroutput><ref refid="classMR_1a17aadc79148649b96ee95169fb912b52" kindref="member">MR.convertSurfacePathsToMeshContours</ref></computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1a17aadc79148649b96ee95169fb912b52" kindref="member">MR.convertSurfacePathsToMeshContours</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1108" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1108" bodyend="1111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1152" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="1152" bodyend="1155"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a57edc968539491535afe2e054b7162b9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBMap" kindref="compound">MR.FaceBMap</ref></type>
@@ -39791,11 +39979,13 @@ do not really keeps volume but tries hard </para>
 </parameterlist>
 <simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
 </simplesect>
-Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">MR.offsetSurfaceLine</ref></computeroutput>. </para>
+<simplesect kind="see"><para><ref refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kindref="member">offsetSurfaceLineToMeshContours</ref> to also get the mesh primitive of every contour point Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">MR.offsetSurfaceLine</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="11" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="11" bodyend="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="12" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="12" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afa49e571c4beed9fa8749b175cbe6fea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -39846,11 +40036,13 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
 </parameterlist>
 <simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
 </simplesect>
-Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">MR.offsetSurfaceLine</ref></computeroutput>. </para>
+<simplesect kind="see"><para><ref refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kindref="member">offsetSurfaceLineToMeshContours</ref> to also get the mesh primitive of every contour point Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">MR.offsetSurfaceLine</ref></computeroutput>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="27" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="27" bodyend="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="29" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="29" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae23dfdf4b6ddd90e89a00ad8d67b2161" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.String</type>
@@ -60356,7 +60548,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1334" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1363" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac3a4989161818cce10bd73a6afc2c58c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying *</type>
@@ -60386,7 +60578,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1337" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1366" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8b7f2327a907114110c90c94e88491e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.CutMeshResult._Underlying *</type>
@@ -60412,7 +60604,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1340" column="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1369" column="53"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6138dfe48ce8c7b65468a33ec19ea98b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFaceBitSet_StdString._Underlying *</type>
@@ -60438,7 +60630,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1343" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1372" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af690219591bc7be4d352665e42e5873e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFaceBitSet_StdString._Underlying *</type>
@@ -60464,7 +60656,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1346" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1375" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a335008174b7bb5d565ec18ac5a011d0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorStdVectorMREdgeId_StdString._Underlying *</type>
@@ -60490,7 +60682,67 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1349" column="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1378" column="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a3c1c20d2dcedcde696bafc8635a763ac" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying * MR.__MR_offsetSurfaceLineToMeshContours_float</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Const_Vector_MRMeshTriPoint._Underlying *surfaceLine, float offset, MR.SearchPathSettings._Underlying *searchSettings)</argsstring>
+        <name>__MR_offsetSurfaceLineToMeshContours_float</name>
+        <qualifiedname>MR.__MR_offsetSurfaceLineToMeshContours_float</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint._Underlying *</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>MR.SearchPathSettings._Underlying *</type>
+          <declname>searchSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1381" column="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a5a7ac9571fed478265794fb15b341f0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying * MR.__MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Const_Vector_MRMeshTriPoint._Underlying *surfaceLine, MR.Std.Const_Function_Float_From_Int._Underlying *offsetAtPoint, MR.SearchPathSettings._Underlying *searchSettings)</argsstring>
+        <name>__MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int</name>
+        <qualifiedname>MR.__MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint._Underlying *</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Float_From_Int._Underlying *</type>
+          <declname>offsetAtPoint</declname>
+        </param>
+        <param>
+          <type>MR.SearchPathSettings._Underlying *</type>
+          <declname>searchSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1384" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af0a061ccdbebfc7cecf44ac129fc11a0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceBitSet._Underlying *</type>
@@ -78386,7 +78638,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1116" column="75"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1160" column="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9af14e425b8f7644b927d7b60169b0a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MROneMeshContour_StdString._Underlying *</type>
@@ -78416,7 +78668,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1119" column="75"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1163" column="75"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8f5e0ca5e15a0a7366d94648bbe5a8f8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.OneMeshContour._Underlying *</type>
@@ -78446,7 +78698,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1122" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1166" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a624b9e29d357c1ec6f005a48150751de" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour._Underlying *</type>
@@ -78468,7 +78720,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1125" column="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1169" column="66"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a90adcb81b6b164e35da6a61de52f4f2d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f._Underlying *</type>
@@ -78486,7 +78738,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1128" column="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1172" column="69"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa3c0e746743fa73078e94f79fc34540f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -78536,7 +78788,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1131" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1175" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9f8259287165a4080b2f8a8e0a79b18d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour._Underlying *</type>
@@ -78566,7 +78818,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1134" column="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1178" column="66"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a82e92182f0ed2918acaf7039f4048867" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe void</type>
@@ -78592,7 +78844,119 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1137" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1181" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a6922ae63b04018d7d4d227235acd5b72" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MROneMeshContour_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MROneMeshContour_StdString._Underlying * MR.__MR_surfaceLineToClosedMeshContour</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Const_Vector_MRMeshTriPoint._Underlying *surfaceLine, MR.SearchPathSettings._Underlying *searchSettings, MR.Std.Vector_Int._Underlying *pivotIndices)</argsstring>
+        <name>__MR_surfaceLineToClosedMeshContour</name>
+        <qualifiedname>MR.__MR_surfaceLineToClosedMeshContour</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint._Underlying *</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>MR.SearchPathSettings._Underlying *</type>
+          <declname>searchSettings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Int._Underlying *</type>
+          <declname>pivotIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1184" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1af95aee1a930a381d248b02faa23c265f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Expected_MROneMeshContour_StdString._Underlying *</type>
+        <definition>static unsafe MR.Expected_MROneMeshContour_StdString._Underlying * MR.__MR_surfaceLineToMeshContour</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Const_Vector_MRMeshTriPoint._Underlying *surfaceLine, MR.SearchPathSettings._Underlying *searchSettings, MR.Std.Vector_Int._Underlying *pivotIndices)</argsstring>
+        <name>__MR_surfaceLineToMeshContour</name>
+        <qualifiedname>MR.__MR_surfaceLineToMeshContour</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRMeshTriPoint._Underlying *</type>
+          <declname>surfaceLine</declname>
+        </param>
+        <param>
+          <type>MR.SearchPathSettings._Underlying *</type>
+          <declname>searchSettings</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Int._Underlying *</type>
+          <declname>pivotIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1187" column="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ae6c2ca378f9ff5dc43534dd898e83260" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.OneMeshContour._Underlying *</type>
+        <definition>static unsafe MR.OneMeshContour._Underlying * MR.__MR_surfacePathWithEndsToMeshContour</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Const_MeshTriPoint._Underlying *start, MR.Std.Const_Vector_MREdgePoint._Underlying *surfacePath, MR.Const_MeshTriPoint._Underlying *end)</argsstring>
+        <name>__MR_surfacePathWithEndsToMeshContour</name>
+        <qualifiedname>MR.__MR_surfacePathWithEndsToMeshContour</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTriPoint._Underlying *</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MREdgePoint._Underlying *</type>
+          <declname>surfacePath</declname>
+        </param>
+        <param>
+          <type>MR.Const_MeshTriPoint._Underlying *</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1190" column="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1ae2ee0cf1290674be0a24194e01ca2f86" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MROneMeshContour._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_MROneMeshContour._Underlying * MR.__MR_surfacePathsToMeshContours</definition>
+        <argsstring>(MR.Const_Mesh._Underlying *mesh, MR.Std.Const_Vector_StdVectorMREdgePoint._Underlying *surfacePaths)</argsstring>
+        <name>__MR_surfacePathsToMeshContours</name>
+        <qualifiedname>MR.__MR_surfacePathsToMeshContours</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh._Underlying *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgePoint._Underlying *</type>
+          <declname>surfacePaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="1193" column="66"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad562713870245c35a7a11f40dd381f5a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeBMap._Underlying *</type>
@@ -85344,7 +85708,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="38" column="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="40" column="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aaee1e03d3991c64464d88965ca6f635a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorStdVectorMRVector3f_StdString._Underlying *</type>
@@ -85370,7 +85734,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="41" column="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="43" column="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a844b2eb3c544e10367e9ad4fb5344260" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying *</type>
@@ -101563,6 +101927,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a538c98d401004b2f38142bc8d53f8d8a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_offsetPolyline</name></member>
       <member refid="classMR_1a998fae951a157ad5a26afe3cc07cee40" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_offsetSurfaceLine_float</name></member>
       <member refid="classMR_1aaee1e03d3991c64464d88965ca6f635a" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_offsetSurfaceLine_std_function_float_func_from_int</name></member>
+      <member refid="classMR_1a3c1c20d2dcedcde696bafc8635a763ac" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_offsetSurfaceLineToMeshContours_float</name></member>
+      <member refid="classMR_1a5a7ac9571fed478265794fb15b341f0b" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_offsetSurfaceLineToMeshContours_std_function_float_func_from_int</name></member>
       <member refid="classMR_1a633b0b735a265a400b74e9791ef88f62" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_offsetVerts</name></member>
       <member refid="classMR_1a7cf7a6c75855e55915e6f37502206625" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_OpenDocument</name></member>
       <member refid="classMR_1ac913f4627d994f3078c59b86890e0d17" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_OpenLink</name></member>
@@ -101772,9 +102138,13 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1aa57248aacd4aa50832a88d8571339ed1" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_subprogress_size_t</name></member>
       <member refid="classMR_1a5ad52e6576e1288365e4285e6bcea8f4" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_suggestVoxelSize</name></member>
       <member refid="classMR_1a11ec0f592571c88c5f531a48d0cf4967" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_sumAngles</name></member>
+      <member refid="classMR_1a6922ae63b04018d7d4d227235acd5b72" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfaceLineToClosedMeshContour</name></member>
+      <member refid="classMR_1af95aee1a930a381d248b02faa23c265f" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfaceLineToMeshContour</name></member>
       <member refid="classMR_1a4df2663638e119ff28e4a3c76df42824" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfacePathLength</name></member>
       <member refid="classMR_1a9b0d94a085f6fa88a353147d23a9a915" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfacePathsToContours3f</name></member>
+      <member refid="classMR_1ae2ee0cf1290674be0a24194e01ca2f86" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfacePathsToMeshContours</name></member>
       <member refid="classMR_1a1e5f4edff66d8e8a3d1902bdcdb2bf81" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfacePathToContour3f</name></member>
+      <member refid="classMR_1ae6c2ca378f9ff5dc43534dd898e83260" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surfacePathWithEndsToMeshContour</name></member>
       <member refid="classMR_1a7401c3e64ce2f4e32b3eaa02a0af7ee0" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surroundingContour_std_vector_MR_EdgeId</name></member>
       <member refid="classMR_1ae0d18c85c320d4b50db110790dd9dd7c" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_surroundingContour_std_vector_MR_VertId</name></member>
       <member refid="classMR_1ae2cfdd37167a43a89848272baec99add" prot="private" virt="non-virtual"><scope>MR</scope><name>__MR_systemToUtf8</name></member>
@@ -103459,6 +103829,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ad050f7ba8978268130a4632bccf88845" prot="public" virt="non-virtual"><scope>MR</scope><name>offsetPolyline</name></member>
       <member refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" prot="public" virt="non-virtual"><scope>MR</scope><name>offsetSurfaceLine</name></member>
       <member refid="classMR_1afa49e571c4beed9fa8749b175cbe6fea" prot="public" virt="non-virtual"><scope>MR</scope><name>offsetSurfaceLine</name></member>
+      <member refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" prot="public" virt="non-virtual"><scope>MR</scope><name>offsetSurfaceLineToMeshContours</name></member>
+      <member refid="classMR_1aee70ef84f19de70d74441de0824e219d" prot="public" virt="non-virtual"><scope>MR</scope><name>offsetSurfaceLineToMeshContours</name></member>
       <member refid="classMR_1a0697be9a7417c96ba0d67c0410146720" prot="public" virt="non-virtual"><scope>MR</scope><name>offsetVerts</name></member>
       <member refid="classMR_1ab84f54859c65356960c9b552baa0428a" prot="public" virt="non-virtual"><scope>MR</scope><name>openDocument</name></member>
       <member refid="classMR_1aa409ac1fbb537c65e2732989802eca24" prot="public" virt="non-virtual"><scope>MR</scope><name>openLink</name></member>
@@ -103690,9 +104062,13 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a70546070ddea020c265bc4a6e9a0be2c" prot="public" virt="non-virtual"><scope>MR</scope><name>subprogress</name></member>
       <member refid="classMR_1ad81ffb3bbefd671f1f212d9577698869" prot="public" virt="non-virtual"><scope>MR</scope><name>suggestVoxelSize</name></member>
       <member refid="classMR_1adc8a4fc0abb2b05f3b8959a00ad1a51a" prot="public" virt="non-virtual"><scope>MR</scope><name>sumAngles</name></member>
+      <member refid="classMR_1a74c8f3966a66b9e46e6b3a11c93f64d9" prot="public" virt="non-virtual"><scope>MR</scope><name>surfaceLineToClosedMeshContour</name></member>
+      <member refid="classMR_1a5f9148e3b3c2382e79bb495451b2b4fb" prot="public" virt="non-virtual"><scope>MR</scope><name>surfaceLineToMeshContour</name></member>
       <member refid="classMR_1a32ab6571ddd67a7691ff64f675dda47d" prot="public" virt="non-virtual"><scope>MR</scope><name>surfacePathLength</name></member>
       <member refid="classMR_1adf4283775d2c86ad7f19447a04e86b99" prot="public" virt="non-virtual"><scope>MR</scope><name>surfacePathsToContours3f</name></member>
+      <member refid="classMR_1a95326686573a3af977634a0a5ab4df6b" prot="public" virt="non-virtual"><scope>MR</scope><name>surfacePathsToMeshContours</name></member>
       <member refid="classMR_1a1b0c8c6c660b50e3a5ec760b3c897b61" prot="public" virt="non-virtual"><scope>MR</scope><name>surfacePathToContour3f</name></member>
+      <member refid="classMR_1a6dc2419c50bfd7579fbf5503b54575d9" prot="public" virt="non-virtual"><scope>MR</scope><name>surfacePathWithEndsToMeshContour</name></member>
       <member refid="classMR_1a7df21fe87f902d367a36764129b79653" prot="public" virt="non-virtual"><scope>MR</scope><name>surroundingContour</name></member>
       <member refid="classMR_1a5491185e0b3c7a1c2b8ae62f3b2a1d2e" prot="public" virt="non-virtual"><scope>MR</scope><name>surroundingContour</name></member>
       <member refid="classMR_1a9a6124d052a6082bcb43c1ead011ecbe" prot="public" virt="non-virtual"><scope>MR</scope><name>systemToUtf8</name></member>

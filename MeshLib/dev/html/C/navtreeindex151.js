@@ -1,5 +1,11 @@
 var NAVTREEINDEX151 =
 {
+"std__function__void__from__MR__Pdf__ref_8h.html#a3e3c1e2fb50977c15f2bf05b70f91058":[9,2,2,0,0,0,0,2,195,14],
+"std__function__void__from__MR__Pdf__ref_8h.html#a4374e7892807da1b317ebf6bf62b7008":[9,2,2,0,0,0,0,2,195,12],
+"std__function__void__from__MR__Pdf__ref_8h.html#a4ed19dd362fe7ee59969638fa91c710f":[9,2,2,0,0,0,0,2,195,1],
+"std__function__void__from__MR__Pdf__ref_8h.html#a4f87238960248970d7393a64b6ce6808":[9,2,2,0,0,0,0,2,195,6],
+"std__function__void__from__MR__Pdf__ref_8h.html#a6de8aa5547125deb21a6146188f0542a":[9,2,2,0,0,0,0,2,195,11],
+"std__function__void__from__MR__Pdf__ref_8h.html#abe1fb740847102b46d0347cff37ae473":[9,2,2,0,0,0,0,2,195,3],
 "std__function__void__from__MR__Pdf__ref_8h.html#ac775a76bfe888b075c38e43b8630e8b3":[9,2,2,0,0,0,0,2,195,9],
 "std__function__void__from__MR__Pdf__ref_8h.html#ae011babeac78f3c264753fae9d9dcfff":[9,2,2,0,0,0,0,2,195,4],
 "std__function__void__from__MR__Pdf__ref_8h.html#aef10eff18e53c196c7c54b0796c46ebc":[9,2,2,0,0,0,0,2,195,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX151 =
 "std__function__void__from__int_8h.html#ada9602511ad08b04ba3b3923402ef647":[9,2,2,0,0,0,0,2,185,8],
 "std__function__void__from__int_8h.html#adbdd459353cb2118d2a72e08af96dbdd":[9,2,2,0,0,0,0,2,185,6],
 "std__function__void__from__int_8h.html#aefc44a28a2ecaa03581f4c8bf3eb3c4f":[9,2,2,0,0,0,0,2,185,1],
-"std__function__void__from__int_8h_source.html":[9,2,2,0,0,0,0,2,185],
-"std__optional__MR__AllLocalTriangulations_8h.html":[9,2,2,0,0,0,0,2,206],
-"std__optional__MR__AllLocalTriangulations_8h.html#a238f32953c4d691e5ac6b311e95d50ee":[9,2,2,0,0,0,0,2,206,3],
-"std__optional__MR__AllLocalTriangulations_8h.html#a2be2aa9754cc97b93e306a361078aa78":[9,2,2,0,0,0,0,2,206,8],
-"std__optional__MR__AllLocalTriangulations_8h.html#a4122cc7a4fefb0782738431f1a0baadf":[9,2,2,0,0,0,0,2,206,4],
-"std__optional__MR__AllLocalTriangulations_8h.html#a41d4f7f98192a9d26fbd6187652a7fa8":[9,2,2,0,0,0,0,2,206,1],
-"std__optional__MR__AllLocalTriangulations_8h.html#a50d399e828241a4a446965395837c1aa":[9,2,2,0,0,0,0,2,206,9]
+"std__function__void__from__int_8h_source.html":[9,2,2,0,0,0,0,2,185]
 };

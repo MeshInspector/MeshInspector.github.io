@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesConeSegment.html#aae0af9660522bb42f1f4ec8067423afa":[9,3,0,0,0,1220,5,12,3],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesConeSegment.html#af4da0d92206cbcd04a00942198910404":[9,3,0,0,0,1220,5,12,4],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html":[9,3,0,0,0,1220,5,13],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#a05fd15cdfb52365995c7e2c126cae81e":[9,3,0,0,0,1220,5,13,0],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#a30110e1ebb65e1950042fa0e7ec5324f":[9,3,0,0,0,1220,5,13,2],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ab8ee3c653c2171053b4abe8199e87e63":[9,3,0,0,0,1220,5,13,1],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae39be43567ac710eb05fdc7049bc6a08":[9,3,0,0,0,1220,5,13,4],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae444074c95b25ad1415fe2a9dc06c5ce":[9,3,0,0,0,1220,5,13,3],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae9aea1ad5d5949b0d95bdf3e80d347fa":[9,3,0,0,0,1220,5,13,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FindOverlappingSettings.html#a6123a9b01aff87f055b4cdf520415327":[9,3,0,0,0,1231,11],
 "classMR_1_1FindOverlappingSettings.html#a76c37e6e5b96ffb1d0dabe5ae527e111":[9,3,0,0,0,1231,4],
 "classMR_1_1FindOverlappingSettings.html#a93d814c7bdfe57492d70b69bbd1d8e01":[9,3,0,0,0,1231,8],
-"classMR_1_1FindOverlappingSettings.html#aa45d8b84680522000e4c77532d5efe8f":[9,3,0,0,0,1231,5],
-"classMR_1_1FindOverlappingSettings.html#ab400d00d331e7bf1b7b871a7adec82c8":[9,3,0,0,0,1231,10],
-"classMR_1_1FindOverlappingSettings.html#af2341a3a1fd62d71b5932f6253dfac17":[9,3,0,0,0,1231,0],
-"classMR_1_1FindProjectionOnPointsSettings.html":[9,3,0,0,0,1232],
-"classMR_1_1FindProjectionOnPointsSettings.html#a17b406f9dd2aac6ba9f0b7ae38292a82":[9,3,0,0,0,1232,6],
-"classMR_1_1FindProjectionOnPointsSettings.html#a1e180c4868011c58860dd2b901fa3938":[9,3,0,0,0,1232,7],
-"classMR_1_1FindProjectionOnPointsSettings.html#a3b4b688a4c5f65212c06abb32d98df6e":[9,3,0,0,0,1232,8]
+"classMR_1_1FindOverlappingSettings.html#aa45d8b84680522000e4c77532d5efe8f":[9,3,0,0,0,1231,5]
 };

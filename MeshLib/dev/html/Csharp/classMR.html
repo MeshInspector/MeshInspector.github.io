@@ -9449,10 +9449,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8780422842277c2966f86979c2e549c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cuts <code class="param">mesh</code> by <code class="param">contours</code> by projecting all the points.  <br /></td></tr>
 <tr class="memitem:aae21063cd33c482aadbe57a6738bd8d6" id="r_aae21063cd33c482aadbe57a6738bd8d6"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdVectorMREdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae21063cd33c482aadbe57a6738bd8d6">cutMeshByProjection</a> (<a class="el" href="classMR_1_1Mesh.html">MR.Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMRVector3f contours, <a class="el" href="classMR_1_1Const__CutByProjectionSettings.html">MR.Const_CutByProjectionSettings</a> settings)</td></tr>
 <tr class="memdesc:aae21063cd33c482aadbe57a6738bd8d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections.  <br /></td></tr>
+<tr class="memitem:aa2c4c87778555ccf897b4d0a0f811b12" id="r_aa2c4c87778555ccf897b4d0a0f811b12"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MROneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2c4c87778555ccf897b4d0a0f811b12">offsetSurfaceLineToMeshContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, float offset, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null)</td></tr>
+<tr class="memdesc:aa2c4c87778555ccf897b4d0a0f811b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memitem:aee70ef84f19de70d74441de0824e219d" id="r_aee70ef84f19de70d74441de0824e219d"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MROneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee70ef84f19de70d74441de0824e219d">offsetSurfaceLineToMeshContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Std.Const_Function_Float_From_Int offsetAtPoint, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null)</td></tr>
+<tr class="memdesc:aee70ef84f19de70d74441de0824e219d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
 <tr class="memitem:a0c0667c8aecfe15913da9f1629f1216c" id="r_a0c0667c8aecfe15913da9f1629f1216c"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MROneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c">convertMeshTriPointsSurfaceOffsetToMeshContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, float offset, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null)</td></tr>
-<tr class="memdesc:a0c0667c8aecfe15913da9f1629f1216c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memdesc:a0c0667c8aecfe15913da9f1629f1216c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c" title="Generated from function MR.convertMeshTriPointsSurfaceOffsetToMeshContours. Parameter searchSettings ...">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a7b36dfa81f6516db1c9f6a19bce00cca" id="r_a7b36dfa81f6516db1c9f6a19bce00cca"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MROneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b36dfa81f6516db1c9f6a19bce00cca">convertMeshTriPointsSurfaceOffsetToMeshContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, MR.Std.Const_Function_Float_From_Int offsetAtPoint, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null)</td></tr>
-<tr class="memdesc:a7b36dfa81f6516db1c9f6a19bce00cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memdesc:a7b36dfa81f6516db1c9f6a19bce00cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c" title="Generated from function MR.convertMeshTriPointsSurfaceOffsetToMeshContours. Parameter searchSettings ...">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ae386b79ef0c05dbddb2ddbf14fd303b5" id="r_ae386b79ef0c05dbddb2ddbf14fd303b5"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae386b79ef0c05dbddb2ddbf14fd303b5">separateClosedContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRVector3f contour, MR.Std.Const_Function_Void_From_ConstMREdgePointRef? cb=null)</td></tr>
 <tr class="memdesc:ae386b79ef0c05dbddb2ddbf14fd303b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#ae386b79ef0c05dbddb2ddbf14fd303b5" title="Generated from function MR.separateClosedContour. Parameter cb defaults to {}.">MR.separateClosedContour</a></span>. Parameter <span class="tt">cb</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a12b00e36cf48ad83fe06eb98f39d3131" id="r_a12b00e36cf48ad83fe06eb98f39d3131"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12b00e36cf48ad83fe06eb98f39d3131">stitchContours</a> (<a class="el" href="classMR_1_1MeshTopology.html">MR.MeshTopology</a> topology, MR.Std.Const_Vector_MREdgeId c0, MR.Std.Const_Vector_MREdgeId c1)</td></tr>
@@ -10842,14 +10846,22 @@ do not really keeps volume but tries hard  <br /></td></tr>
 <tr class="memdesc:ae38cf4185eac3553eeb170be89903c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#ae38cf4185eac3553eeb170be89903c8d" title="Generated from function MR.getOneMeshSelfIntersectionContours.">MR.getOneMeshSelfIntersectionContours</a></span>.  <br /></td></tr>
 <tr class="memitem:a1d9fdf5da92c823204e0528bba1e98d4" id="r_a1d9fdf5da92c823204e0528bba1e98d4"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_StdVectorMRVector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d9fdf5da92c823204e0528bba1e98d4">extractMeshContours</a> (MR.Std.Const_Vector_MROneMeshContour meshContours)</td></tr>
 <tr class="memdesc:a1d9fdf5da92c823204e0528bba1e98d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a1d9fdf5da92c823204e0528bba1e98d4" title="Generated from function MR.extractMeshContours.">MR.extractMeshContours</a></span>.  <br /></td></tr>
+<tr class="memitem:a5f9148e3b3c2382e79bb495451b2b4fb" id="r_a5f9148e3b3c2382e79bb495451b2b4fb"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9148e3b3c2382e79bb495451b2b4fb">surfaceLineToMeshContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</td></tr>
+<tr class="memdesc:a5f9148e3b3c2382e79bb495451b2b4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memitem:a74c8f3966a66b9e46e6b3a11c93f64d9" id="r_a74c8f3966a66b9e46e6b3a11c93f64d9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c8f3966a66b9e46e6b3a11c93f64d9">surfaceLineToClosedMeshContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</td></tr>
+<tr class="memdesc:a74c8f3966a66b9e46e6b3a11c93f64d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memitem:a6dc2419c50bfd7579fbf5503b54575d9" id="r_a6dc2419c50bfd7579fbf5503b54575d9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6dc2419c50bfd7579fbf5503b54575d9">surfacePathWithEndsToMeshContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, MR.Std.Const_Vector_MREdgePoint surfacePath, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="el" href="#a0c385f7a49af5e22d4df16e0367ee26f">end</a>)</td></tr>
+<tr class="memdesc:a6dc2419c50bfd7579fbf5503b54575d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours Creates <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">MR.OneMeshContour</a> object from given surface path with ends for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)): vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <span class="tt"><a class="el" href="#a6dc2419c50bfd7579fbf5503b54575d9" title="Converts SurfacePath to OneMeshContours Creates MR.OneMeshContour object from given surface path with...">MR.surfacePathWithEndsToMeshContour</a></span>.  <br /></td></tr>
+<tr class="memitem:a95326686573a3af977634a0a5ab4df6b" id="r_a95326686573a3af977634a0a5ab4df6b"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MROneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95326686573a3af977634a0a5ab4df6b">surfacePathsToMeshContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMREdgePoint surfacePaths)</td></tr>
+<tr class="memdesc:a95326686573a3af977634a0a5ab4df6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input Generated from function <span class="tt"><a class="el" href="#a95326686573a3af977634a0a5ab4df6b" title="Converts SurfacePaths to OneMeshContours Creates MR.OneMeshContours object from given surface paths f...">MR.surfacePathsToMeshContours</a></span>.  <br /></td></tr>
 <tr class="memitem:a4c21ee05149540c42fe44e772486a561" id="r_a4c21ee05149540c42fe44e772486a561"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c21ee05149540c42fe44e772486a561">convertMeshTriPointsToMeshContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</td></tr>
-<tr class="memdesc:a4c21ee05149540c42fe44e772486a561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memdesc:a4c21ee05149540c42fe44e772486a561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a4c21ee05149540c42fe44e772486a561" title="Generated from function MR.convertMeshTriPointsToMeshContour. Parameter searchSettings defaults to {}...">MR.convertMeshTriPointsToMeshContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a3e13ad5693207d2111e76373c99e70fd" id="r_a3e13ad5693207d2111e76373c99e70fd"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e13ad5693207d2111e76373c99e70fd">convertMeshTriPointsToClosedContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_MRMeshTriPoint surfaceLine, <a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>? searchSettings=null, MR.Std.Vector_Int? pivotIndices=null)</td></tr>
-<tr class="memdesc:a3e13ad5693207d2111e76373c99e70fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input.  <br /></td></tr>
+<tr class="memdesc:a3e13ad5693207d2111e76373c99e70fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a3e13ad5693207d2111e76373c99e70fd" title="Generated from function MR.convertMeshTriPointsToClosedContour. Parameter searchSettings defaults to ...">MR.convertMeshTriPointsToClosedContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a66f7e08b31c052563f7e2f794fd3b4fc" id="r_a66f7e08b31c052563f7e2f794fd3b4fc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66f7e08b31c052563f7e2f794fd3b4fc">convertSurfacePathWithEndsToMeshContour</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> start, MR.Std.Const_Vector_MREdgePoint surfacePath, <a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a> <a class="el" href="#a0c385f7a49af5e22d4df16e0367ee26f">end</a>)</td></tr>
-<tr class="memdesc:a66f7e08b31c052563f7e2f794fd3b4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePath to OneMeshContours Creates <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">MR.OneMeshContour</a> object from given surface path with ends for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)): vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <span class="tt"><a class="el" href="#a66f7e08b31c052563f7e2f794fd3b4fc" title="Converts SurfacePath to OneMeshContours Creates MR.OneMeshContour object from given surface path with...">MR.convertSurfacePathWithEndsToMeshContour</a></span>.  <br /></td></tr>
+<tr class="memdesc:a66f7e08b31c052563f7e2f794fd3b4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a66f7e08b31c052563f7e2f794fd3b4fc" title="Generated from function MR.convertSurfacePathWithEndsToMeshContour.">MR.convertSurfacePathWithEndsToMeshContour</a></span>.  <br /></td></tr>
 <tr class="memitem:a17aadc79148649b96ee95169fb912b52" id="r_a17aadc79148649b96ee95169fb912b52"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MROneMeshContour&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17aadc79148649b96ee95169fb912b52">convertSurfacePathsToMeshContours</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, MR.Std.Const_Vector_StdVectorMREdgePoint surfacePaths)</td></tr>
-<tr class="memdesc:a17aadc79148649b96ee95169fb912b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input Generated from function <span class="tt"><a class="el" href="#a17aadc79148649b96ee95169fb912b52" title="Converts SurfacePaths to OneMeshContours Creates MR.OneMeshContours object from given surface paths f...">MR.convertSurfacePathsToMeshContours</a></span>.  <br /></td></tr>
+<tr class="memdesc:a17aadc79148649b96ee95169fb912b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a17aadc79148649b96ee95169fb912b52" title="Generated from function MR.convertSurfacePathsToMeshContours.">MR.convertSurfacePathsToMeshContours</a></span>.  <br /></td></tr>
 <tr class="memitem:a57edc968539491535afe2e054b7162b9" id="r_a57edc968539491535afe2e054b7162b9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBMap.html">MR.FaceBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57edc968539491535afe2e054b7162b9">getOptimalFaceOrdering</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh)</td></tr>
 <tr class="memdesc:a57edc968539491535afe2e054b7162b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes optimal order of faces: old face id -&gt; new face id, the order is similar as in AABB tree, but faster to compute Generated from function <span class="tt"><a class="el" href="#a57edc968539491535afe2e054b7162b9" title="computes optimal order of faces: old face id -&gt; new face id, the order is similar as in AABB tree,...">MR.getOptimalFaceOrdering</a></span>.  <br /></td></tr>
 <tr class="memitem:a7116e2be9d35e8718e55f23c047272f4" id="r_a7116e2be9d35e8718e55f23c047272f4"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1VertBMap.html">MR.VertBMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7116e2be9d35e8718e55f23c047272f4">getVertexOrdering</a> (<a class="el" href="classMR_1_1Const__FaceBMap.html">MR.Const_FaceBMap</a> faceMap, <a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology)</td></tr>
@@ -28900,14 +28912,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </table>
 </div><div class="memdoc">
 
-<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">offset</td><td>amount of offset form given point, note that absolute value is used and isoline in both direction returned </td></tr>
-    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path Generated from function <span class="tt"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Generated from function <span class="tt"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c" title="Generated from function MR.convertMeshTriPointsSurfaceOffsetToMeshContours. Parameter searchSettings ...">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -28948,14 +28953,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </table>
 </div><div class="memdoc">
 
-<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">offsetAtPoint</td><td>functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned </td></tr>
-    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path Generated from function <span class="tt"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Generated from function <span class="tt"><a class="el" href="#a0c0667c8aecfe15913da9f1629f1216c" title="Generated from function MR.convertMeshTriPointsSurfaceOffsetToMeshContours. Parameter searchSettings ...">MR.convertMeshTriPointsSurfaceOffsetToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -28996,14 +28994,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </table>
 </div><div class="memdoc">
 
-<p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">OneMeshContour</a> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>better use convertMeshTriPointsToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <span class="tt"><a class="el" href="#a3e13ad5693207d2111e76373c99e70fd" title="Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not ...">MR.convertMeshTriPointsToClosedContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </dd></dl>
+<p>Generated from function <span class="tt"><a class="el" href="#a3e13ad5693207d2111e76373c99e70fd" title="Generated from function MR.convertMeshTriPointsToClosedContour. Parameter searchSettings defaults to ...">MR.convertMeshTriPointsToClosedContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -29044,14 +29035,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </table>
 </div><div class="memdoc">
 
-<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
-    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">OneMeshContour</a> Generated from function <span class="tt"><a class="el" href="#a4c21ee05149540c42fe44e772486a561" title="Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same,...">MR.convertMeshTriPointsToMeshContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Generated from function <span class="tt"><a class="el" href="#a4c21ee05149540c42fe44e772486a561" title="Generated from function MR.convertMeshTriPointsToMeshContour. Parameter searchSettings defaults to {}...">MR.convertMeshTriPointsToMeshContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>
@@ -29144,7 +29128,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </table>
 </div><div class="memdoc">
 
-<p>Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input Generated from function <span class="tt"><a class="el" href="#a17aadc79148649b96ee95169fb912b52" title="Converts SurfacePaths to OneMeshContours Creates MR.OneMeshContours object from given surface paths f...">MR.convertSurfacePathsToMeshContours</a></span>. </p>
+<p>Generated from function <span class="tt"><a class="el" href="#a17aadc79148649b96ee95169fb912b52" title="Generated from function MR.convertSurfacePathsToMeshContours.">MR.convertSurfacePathsToMeshContours</a></span>. </p>
 
 </div>
 </div>
@@ -29185,7 +29169,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 </table>
 </div><div class="memdoc">
 
-<p>Converts SurfacePath to OneMeshContours Creates <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">MR.OneMeshContour</a> object from given surface path with ends for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)): vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <span class="tt"><a class="el" href="#a66f7e08b31c052563f7e2f794fd3b4fc" title="Converts SurfacePath to OneMeshContours Creates MR.OneMeshContour object from given surface path with...">MR.convertSurfacePathWithEndsToMeshContour</a></span>. </p>
+<p>Generated from function <span class="tt"><a class="el" href="#a66f7e08b31c052563f7e2f794fd3b4fc" title="Generated from function MR.convertSurfacePathWithEndsToMeshContour.">MR.convertSurfacePathWithEndsToMeshContour</a></span>. </p>
 
 </div>
 </div>
@@ -66454,7 +66438,7 @@ All new faces should be parallel to given direction It is measured in squared le
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
-<p>Generated from function <span class="tt"><a class="el" href="#a5ab07b05a6159daff0a98ed100cffac1" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">MR.offsetSurfaceLine</a></span>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aa2c4c87778555ccf897b4d0a0f811b12" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">offsetSurfaceLineToMeshContours</a> to also get the mesh primitive of every contour point Generated from function <span class="tt"><a class="el" href="#a5ab07b05a6159daff0a98ed100cffac1" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">MR.offsetSurfaceLine</a></span>. </dd></dl>
 
 </div>
 </div>
@@ -66500,7 +66484,105 @@ All new faces should be parallel to given direction It is measured in squared le
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
-<p>Generated from function <span class="tt"><a class="el" href="#a5ab07b05a6159daff0a98ed100cffac1" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">MR.offsetSurfaceLine</a></span>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#aa2c4c87778555ccf897b4d0a0f811b12" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">offsetSurfaceLineToMeshContours</a> to also get the mesh primitive of every contour point Generated from function <span class="tt"><a class="el" href="#a5ab07b05a6159daff0a98ed100cffac1" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">MR.offsetSurfaceLine</a></span>. </dd></dl>
+
+</div>
+</div>
+<a id="aa2c4c87778555ccf897b4d0a0f811b12" name="aa2c4c87778555ccf897b4d0a0f811b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2c4c87778555ccf897b4d0a0f811b12">&#9670;&#160;</a></span>offsetSurfaceLineToMeshContours() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MROneMeshContour MR.offsetSurfaceLineToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRMeshTriPoint</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offset</td><td>amount of offset form given point, note that absolute value is used and isoline in both direction returned </td></tr>
+    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a5ab07b05a6159daff0a98ed100cffac1" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">offsetSurfaceLine</a> to get the <a class="el" href="#aa04021a5d2d15697aba0e68b0b45adfb" title="returns true if two edge-points are equal considering different representations Generated from functi...">same</a> contours as plain points Generated from function <span class="tt"><a class="el" href="#aa2c4c87778555ccf897b4d0a0f811b12" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">MR.offsetSurfaceLineToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </dd></dl>
+
+</div>
+</div>
+<a id="aee70ef84f19de70d74441de0824e219d" name="aee70ef84f19de70d74441de0824e219d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee70ef84f19de70d74441de0824e219d">&#9670;&#160;</a></span>offsetSurfaceLineToMeshContours() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MROneMeshContour MR.offsetSurfaceLineToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRMeshTriPoint</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_Float_From_Int</td>          <td class="paramname"><span class="paramname"><em>offsetAtPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offsetAtPoint</td><td>functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned </td></tr>
+    <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a5ab07b05a6159daff0a98ed100cffac1" title="Returns contours in mesh space that are offset from surfaceLine on offset amount in all directions.">offsetSurfaceLine</a> to get the <a class="el" href="#aa04021a5d2d15697aba0e68b0b45adfb" title="returns true if two edge-points are equal considering different representations Generated from functi...">same</a> contours as plain points Generated from function <span class="tt"><a class="el" href="#aa2c4c87778555ccf897b4d0a0f811b12" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">MR.offsetSurfaceLineToMeshContours</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </dd></dl>
 
 </div>
 </div>
@@ -74323,6 +74405,102 @@ default metric: ComplexStitchMetric. </p>
 
 </div>
 </div>
+<a id="a74c8f3966a66b9e46e6b3a11c93f64d9" name="a74c8f3966a66b9e46e6b3a11c93f64d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c8f3966a66b9e46e6b3a11c93f64d9">&#9670;&#160;</a></span>surfaceLineToClosedMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a> MR.surfaceLineToClosedMeshContour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRMeshTriPoint</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_Int?</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build closed contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">OneMeshContour</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>better use surfaceLineToMeshContour(...) instead, note that it requires same front and back MeshTriPoints for closed contour Generated from function <span class="tt"><a class="el" href="#a74c8f3966a66b9e46e6b3a11c93f64d9" title="Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not ...">MR.surfaceLineToClosedMeshContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </dd></dl>
+
+</div>
+</div>
+<a id="a5f9148e3b3c2382e79bb495451b2b4fb" name="a5f9148e3b3c2382e79bb495451b2b4fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f9148e3b3c2382e79bb495451b2b4fb">&#9670;&#160;</a></span>surfaceLineToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a> MR.surfaceLineToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MRMeshTriPoint</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__SearchPathSettings.html">MR.Const_SearchPathSettings</a>?</td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Vector_Int?</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build contour <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">searchSettings</td><td>settings for search geo path </td></tr>
+    <tr><td class="paramname">pivotIndices</td><td>optional output indices of given surfaceLine in result <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">OneMeshContour</a> Generated from function <span class="tt"><a class="el" href="#a5f9148e3b3c2382e79bb495451b2b4fb" title="Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same,...">MR.surfaceLineToMeshContour</a></span>. Parameter <span class="tt">searchSettings</span> defaults to <span class="tt">{}</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a32ab6571ddd67a7691ff64f675dda47d" name="a32ab6571ddd67a7691ff64f675dda47d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32ab6571ddd67a7691ff64f675dda47d">&#9670;&#160;</a></span>surfacePathLength()</h2>
 
@@ -74385,6 +74563,37 @@ default metric: ComplexStitchMetric. </p>
 
 </div>
 </div>
+<a id="a95326686573a3af977634a0a5ab4df6b" name="a95326686573a3af977634a0a5ab4df6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95326686573a3af977634a0a5ab4df6b">&#9670;&#160;</a></span>surfacePathsToMeshContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Std.Vector_MROneMeshContour MR.surfacePathsToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_StdVectorMREdgePoint</td>          <td class="paramname"><span class="paramname"><em>surfacePaths</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts SurfacePaths to OneMeshContours Creates MR::OneMeshContours object from given surface paths for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input Generated from function <span class="tt"><a class="el" href="#a95326686573a3af977634a0a5ab4df6b" title="Converts SurfacePaths to OneMeshContours Creates MR.OneMeshContours object from given surface paths f...">MR.surfacePathsToMeshContours</a></span>. </p>
+
+</div>
+</div>
 <a id="a1b0c8c6c660b50e3a5ec760b3c897b61" name="a1b0c8c6c660b50e3a5ec760b3c897b61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b0c8c6c660b50e3a5ec760b3c897b61">&#9670;&#160;</a></span>surfacePathToContour3f()</h2>
 
@@ -74413,6 +74622,47 @@ default metric: ComplexStitchMetric. </p>
 </div><div class="memdoc">
 
 <p>converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <span class="tt"><a class="el" href="#a1b0c8c6c660b50e3a5ec760b3c897b61" title="converts lines on mesh in 3D contours by computing coordinate of each point Generated from function M...">MR.surfacePathToContour3f</a></span>. </p>
+
+</div>
+</div>
+<a id="a6dc2419c50bfd7579fbf5503b54575d9" name="a6dc2419c50bfd7579fbf5503b54575d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dc2419c50bfd7579fbf5503b54575d9">&#9670;&#160;</a></span>surfacePathWithEndsToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1OneMeshContour.html">MR.OneMeshContour</a> MR.surfacePathWithEndsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Vector_MREdgePoint</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTriPoint.html">MR.Const_MeshTriPoint</a></td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts SurfacePath to OneMeshContours Creates <a class="el" href="classMR_1_1OneMeshContour.html" title="Generated from class MR.OneMeshContour. This is the non-const half of the class.">MR.OneMeshContour</a> object from given surface path with ends for <a class="el" href="#a69c80bb31266546933db0c88875afc59" title="Cuts mesh by given contours This function cuts mesh making new edges paths on place of input contours...">MR.cutMesh</a> input <span class="tt">start</span> and surfacePath.front() should be from same face surfacePath.back() and <span class="tt">end</span> should be from same face note that whole path (including <span class="tt">start</span> and <span class="tt">end</span>) should not have self-intersections also following case is not supported (vertex -&gt; edge (incident with vertex)): vert path edge point path edge end o-------&mdash;o- &ndash; &ndash; &ndash; &ndash; O \ \ / \ \ / \ \ / \/ o path Generated from function <span class="tt"><a class="el" href="#a6dc2419c50bfd7579fbf5503b54575d9" title="Converts SurfacePath to OneMeshContours Creates MR.OneMeshContour object from given surface path with...">MR.surfacePathWithEndsToMeshContour</a></span>. </p>
 
 </div>
 </div>

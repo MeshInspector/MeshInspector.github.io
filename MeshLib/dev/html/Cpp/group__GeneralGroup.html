@@ -4230,6 +4230,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8471f2a87338254b2c1d8a0790776f0e" id="r_ga8471f2a87338254b2c1d8a0790776f0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8471f2a87338254b2c1d8a0790776f0e">MR::cutMeshByContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours, const AffineXf3f &amp;xf={})</td></tr>
 <tr class="memitem:ga66c0157a15c650c2df28de17df4c485c" id="r_ga66c0157a15c650c2df28de17df4c485c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga66c0157a15c650c2df28de17df4c485c">MR::cutMeshByProjection</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours, const <a class="el" href="structMR_1_1CutByProjectionSettings.html">CutByProjectionSettings</a> &amp;<a class="el" href="#ga351ee7aaab2fab7deb7b0aed319437f4">settings</a>)</td></tr>
 <tr class="memdesc:ga66c0157a15c650c2df28de17df4c485c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections.  <br /></td></tr>
+<tr class="memitem:gaccf79b17bf64faa5454a116f768def33" id="r_gaccf79b17bf64faa5454a116f768def33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaccf79b17bf64faa5454a116f768def33">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, float offset, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
+<tr class="memdesc:gaccf79b17bf64faa5454a116f768def33"><td class="mdescLeft">&#160;</td><td class="mdescRight">the old names stay in the bindings, since scripts call them  <br /></td></tr>
+<tr class="memitem:ga8f2f47f6c859930c9c0252e4bc28944e" id="r_ga8f2f47f6c859930c9c0252e4bc28944e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f2f47f6c859930c9c0252e4bc28944e">MR::convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, const std::function&lt; float(int)&gt; &amp;offsetAtPoint, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
 <tr class="memitem:ga41199d0cddfedc2e7a079524081c570e" id="r_ga41199d0cddfedc2e7a079524081c570e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41199d0cddfedc2e7a079524081c570e">MR::separateClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; Vector3f &gt; &amp;contour, const <a class="el" href="#ga2403984460c26289689a1eddd1fb4270">PathMeshEdgePointCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 <tr class="memitem:ga87506fc61d2601b4f1eb46cda6f84fd6" id="r_ga87506fc61d2601b4f1eb46cda6f84fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87506fc61d2601b4f1eb46cda6f84fd6">MR::stitchContours</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;c0, const <a class="el" href="#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;c1)</td></tr>
 <tr class="memitem:ga800a7215f19eb459e13c87d65a08d34d" id="r_ga800a7215f19eb459e13c87d65a08d34d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga800a7215f19eb459e13c87d65a08d34d">MR::cutAlongEdgeLoop</a> (<a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;c0)</td></tr>
@@ -6888,6 +6891,12 @@ requires MeasureSupported&lt;A, B&gt;</td></tr>
 <tr class="memitem:ga57f74cde60c66eebd3b6f0076937f2c8" id="r_ga57f74cde60c66eebd3b6f0076937f2c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57f74cde60c66eebd3b6f0076937f2c8">MR::getOneMeshSelfIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;contours, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *<a class="el" href="group__DistanceMapGroup.html#ga557dc22e5cbeb46ead267fbf4b2b59b3">rigidB2A</a>=nullptr)</td></tr>
 <tr class="memitem:ga1d82174091ef8dac35de35e5b472b0fe" id="r_ga1d82174091ef8dac35de35e5b472b0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1d82174091ef8dac35de35e5b472b0fe">MR::extractMeshContours</a> (const <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;meshContours)</td></tr>
 <tr class="memdesc:ga1d82174091ef8dac35de35e5b472b0fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a" title="Special data type for MR::cutMesh.">OneMeshContours</a> contours representation to <a class="el" href="#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>: set of coordinates.  <br /></td></tr>
+<tr class="memitem:ga86ca2da82f81a72954e27baf0e31fbd8" id="r_ga86ca2da82f81a72954e27baf0e31fbd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86ca2da82f81a72954e27baf0e31fbd8">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a> connectorFn, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memdesc:ga86ca2da82f81a72954e27baf0e31fbd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the old names stay in the bindings, since scripts call them  <br /></td></tr>
+<tr class="memitem:ga1038937a987d09a86802e694724e7aa7" id="r_ga1038937a987d09a86802e694724e7aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1038937a987d09a86802e694724e7aa7">MR::convertMeshTriPointsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memitem:ga9b27124d1aee7872d4ac97a96ef4fee2" id="r_ga9b27124d1aee7872d4ac97a96ef4fee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9b27124d1aee7872d4ac97a96ef4fee2">MR::convertMeshTriPointsToClosedContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;surfaceLine, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={}, std::vector&lt; int &gt; *pivotIndices=nullptr)</td></tr>
+<tr class="memitem:ga84ad133112b40770a9311344d2bbfdde" id="r_ga84ad133112b40770a9311344d2bbfdde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84ad133112b40770a9311344d2bbfdde">MR::convertSurfacePathWithEndsToMeshContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;start, const <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;surfacePath, const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;<a class="el" href="group__ViewportGroup.html#gab1b9c0765f511f096bad80c6f11d728d">end</a>)</td></tr>
+<tr class="memitem:ga60c552ace8de5755edd7e5a28dd4dc6b" id="r_ga60c552ace8de5755edd7e5a28dd4dc6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga60c552ace8de5755edd7e5a28dd4dc6b">MR::convertSurfacePathsToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, const std::vector&lt; <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;surfacePaths)</td></tr>
 <tr class="memitem:ga23e34559729eb030740a98ba96839023" id="r_ga23e34559729eb030740a98ba96839023"><td class="memItemLeft" align="right" valign="top">FaceBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga23e34559729eb030740a98ba96839023">MR::getOptimalFaceOrdering</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>)</td></tr>
 <tr class="memitem:ga064094d50cec191ddf9c9d7087b880ae" id="r_ga064094d50cec191ddf9c9d7087b880ae"><td class="memItemLeft" align="right" valign="top">VertBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga064094d50cec191ddf9c9d7087b880ae">MR::getVertexOrdering</a> (const FaceBMap &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
 <tr class="memitem:ga349bf2ff50da76fb348ce2014d9900d8" id="r_ga349bf2ff50da76fb348ce2014d9900d8"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBMap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga349bf2ff50da76fb348ce2014d9900d8">MR::getEdgeOrdering</a> (const FaceBMap &amp;faceMap, const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology)</td></tr>
@@ -51677,6 +51686,215 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a id="ga8f2f47f6c859930c9c0252e4bc28944e" name="ga8f2f47f6c859930c9c0252e4bc28944e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f2f47f6c859930c9c0252e4bc28944e">&#9670;&#160;</a></span>convertMeshTriPointsSurfaceOffsetToMeshContours() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::function&lt; float(int)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>offsetAtPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="gaccf79b17bf64faa5454a116f768def33" name="gaccf79b17bf64faa5454a116f768def33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaccf79b17bf64faa5454a116f768def33">&#9670;&#160;</a></span>convertMeshTriPointsSurfaceOffsetToMeshContours() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt; MR::convertMeshTriPointsSurfaceOffsetToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>offset</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
+
+<p>the old names stay in the bindings, since scripts call them </p>
+
+</div>
+</div>
+<a id="ga9b27124d1aee7872d4ac97a96ef4fee2" name="ga9b27124d1aee7872d4ac97a96ef4fee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9b27124d1aee7872d4ac97a96ef4fee2">&#9670;&#160;</a></span>convertMeshTriPointsToClosedContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::convertMeshTriPointsToClosedContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga86ca2da82f81a72954e27baf0e31fbd8" name="ga86ca2da82f81a72954e27baf0e31fbd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86ca2da82f81a72954e27baf0e31fbd8">&#9670;&#160;</a></span>convertMeshTriPointsToMeshContour() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::convertMeshTriPointsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga217b7a3f4fc9168e09f3d423beb790e5">MeshTriPointsConnector</a></td>          <td class="paramname"><span class="paramname"><em>connectorFn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+<p>the old names stay in the bindings, since scripts call them </p>
+
+</div>
+</div>
+<a id="ga1038937a987d09a86802e694724e7aa7" name="ga1038937a987d09a86802e694724e7aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1038937a987d09a86802e694724e7aa7">&#9670;&#160;</a></span>convertMeshTriPointsToMeshContour() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> &gt; MR::convertMeshTriPointsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfaceLine</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a></td>          <td class="paramname"><span class="paramname"><em>searchSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; int &gt; *</td>          <td class="paramname"><span class="paramname"><em>pivotIndices</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
 <a id="ga5e8e05fd5b42a02a4f30855d98651b98" name="ga5e8e05fd5b42a02a4f30855d98651b98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga5e8e05fd5b42a02a4f30855d98651b98">&#9670;&#160;</a></span>convertObject()</h2>
 
@@ -51695,6 +51913,78 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRTeethMaskToDirectionVolume_8h.html">MRVoxels/MRTeethMaskToDirectionVolume.h</a>&gt;</code></p>
 
 <p>Converts single object into direction volume. </p>
+
+</div>
+</div>
+<a id="ga60c552ace8de5755edd7e5a28dd4dc6b" name="ga60c552ace8de5755edd7e5a28dd4dc6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga60c552ace8de5755edd7e5a28dd4dc6b">&#9670;&#160;</a></span>convertSurfacePathsToMeshContours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> MR::convertSurfacePathsToMeshContours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePaths</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
+
+</div>
+</div>
+<a id="ga84ad133112b40770a9311344d2bbfdde" name="ga84ad133112b40770a9311344d2bbfdde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga84ad133112b40770a9311344d2bbfdde">&#9670;&#160;</a></span>convertSurfacePathWithEndsToMeshContour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1OneMeshContour.html">OneMeshContour</a> MR::convertSurfacePathWithEndsToMeshContour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga385347c747ccdacb9d225088205f6dab">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MROneMeshContours_8h.html">MRMesh/MROneMeshContours.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -131158,6 +131448,7 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">offsetSurfaceLineToMeshContours</a> to also <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e" title="get&lt;0&gt; returns min, get&lt;1&gt; returns max">get</a> the <a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a" title="&lt; the distances to this mesh will be returned">mesh</a> primitive of every contour point </dd></dl>
 
 </div>
 </div>
@@ -131205,6 +131496,7 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group__BooleanGroup.html#ga2cc55b5541f2ceaaf75cd0e0d48c8292" title="Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same...">offsetSurfaceLineToMeshContours</a> to also <a class="el" href="group__BoxGroup.html#ga053696cba1348e4b44c49f0751433c8e" title="get&lt;0&gt; returns min, get&lt;1&gt; returns max">get</a> the <a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a" title="&lt; the distances to this mesh will be returned">mesh</a> primitive of every contour point </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,11 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html":[9,3,0,0,0,1043],
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#a2c6839b709d031eddd07e7281da05b32":[9,3,0,0,0,1043,1],
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#a3e5579ed2e9d7d043a1aed2f5650d672":[9,3,0,0,0,1043,3],
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#aa70b078aa58d554aa5ad3e8c3410b82e":[9,3,0,0,0,1043,4],
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#abc5986791ad5cfd7fb4ec8fd4542adbe":[9,3,0,0,0,1043,2],
+"classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html#ac6489a27fab9f5c298c8b6fb1136e88d":[9,3,0,0,0,1043,0],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html":[9,3,0,0,0,1044],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a12663f21105f48ee673d50f274408851":[9,3,0,0,0,1044,3],
 "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html#a20cb65e8b04885b3481d6843cd40f631":[9,3,0,0,0,1044,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1Const__WholeEdgeMap.html#a9d78b5c5f2432384f745b11e45bb4f6c":[9,3,0,0,0,1050,2],
 "classMR_1_1Const__WholeEdgeMap.html#aa44c24cbcdd3ab6d2d5d98c11c37e145":[9,3,0,0,0,1050,19],
 "classMR_1_1Const__WholeEdgeMap.html#aabe1dafa6fcf4cd0d292bed584de1753":[9,3,0,0,0,1050,26],
-"classMR_1_1Const__WholeEdgeMap.html#aaee6e167f00b60127d6d75b6dc973896":[9,3,0,0,0,1050,17],
-"classMR_1_1Const__WholeEdgeMap.html#ab6e7d20e553bafdbebb8a16eaaca7007":[9,3,0,0,0,1050,16],
-"classMR_1_1Const__WholeEdgeMap.html#abf065206ac2a5c7aa5dc2cd929b85d06":[9,3,0,0,0,1050,15],
-"classMR_1_1Const__WholeEdgeMap.html#ac40530ef1948738dbaefd570a5ce3e7e":[9,3,0,0,0,1050,5],
-"classMR_1_1Const__WholeEdgeMap.html#acb4882e147aa6939a7fc363f5a781953":[9,3,0,0,0,1050,20],
-"classMR_1_1Const__WholeEdgeMap.html#acd489f5caf37311c5deaef1ad9353c07":[9,3,0,0,0,1050,12],
-"classMR_1_1Const__WholeEdgeMap.html#ad64f1de2b4e71a8f1b69173074367274":[9,3,0,0,0,1050,7]
+"classMR_1_1Const__WholeEdgeMap.html#aaee6e167f00b60127d6d75b6dc973896":[9,3,0,0,0,1050,17]
 };

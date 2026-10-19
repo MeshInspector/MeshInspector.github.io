@@ -1,5 +1,11 @@
 var NAVTREEINDEX104 =
 {
+"classMR_1_1FaceMap.html#ae2c21331b4562f75b14feeca9cb4ca10":[9,3,0,0,0,1209,1],
+"classMR_1_1FaceMap.html#ae874b6d5cd05175166f2f4ddc0a2ac4c":[9,3,0,0,0,1209,6],
+"classMR_1_1FaceMap.html#af4e2ca05f25592cd71eab3fe82b01e25":[9,3,0,0,0,1209,27],
+"classMR_1_1FaceNormals.html":[9,3,0,0,0,1210],
+"classMR_1_1FaceNormals.html#a068fd7657f3250b91214c31decc6863c":[9,3,0,0,0,1210,0],
+"classMR_1_1FaceNormals.html#a069cef08ff253e31a4c0194dcefb43c1":[9,3,0,0,0,1210,25],
 "classMR_1_1FaceNormals.html#a2662a1f79489f4a5575c38cc8214f8db":[9,3,0,0,0,1210,23],
 "classMR_1_1FaceNormals.html#a273f2647ec6c1a9c72d71bf501bde1fa":[9,3,0,0,0,1210,9],
 "classMR_1_1FaceNormals.html#a276c8705a0ea7c0d2e7b7a9d121cdda6":[9,3,0,0,0,1210,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX104 =
 "classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart.html#ab88a180a559e3f586d27d4b402870524":[9,3,0,0,0,1220,0,1,5],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart.html#ad120af76cbf873240e081b8309367e77":[9,3,0,0,0,1220,0,1,4],
 "classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html":[9,3,0,0,0,1220,0,2],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a1fd5ccf9ffb9aaee64a69ffe58f4193e":[9,3,0,0,0,1220,0,2,18],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a24d76491847546800b03ae63840b732c":[9,3,0,0,0,1220,0,2,4],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a2b9ca0eb5f3e7694772989c1790a1c26":[9,3,0,0,0,1220,0,2,17],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a32c209f4645e1f9e8bf290e04fc91388":[9,3,0,0,0,1220,0,2,3],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a4013c8df953c511cc6d6f824992a5a88":[9,3,0,0,0,1220,0,2,11],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a47240e4993b8ad613c0e65cd6daab1dd":[9,3,0,0,0,1220,0,2,8],
-"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a4fcbf2f343ebfd56a87f6d74c8a6b575":[9,3,0,0,0,1220,0,2,12]
+"classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Angle.html#a1fd5ccf9ffb9aaee64a69ffe58f4193e":[9,3,0,0,0,1220,0,2,18]
 };
