@@ -35,8 +35,8 @@
       <member refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" kind="function"><name>inverse</name></member>
       <member refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" kind="function"><name>operator+=</name></member>
       <member refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" kind="function"><name>operator-=</name></member>
-      <member refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" kind="function"><name>operator*=</name></member>
-      <member refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" kind="function"><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga99e0be1e5bffb3b6359888a6e130687d" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga51d8fe8edf354cbdf97b8a6b14a30ef7" kind="function"><name>operator/=</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <member refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" kind="function"><name>identity</name></member>
@@ -58,10 +58,10 @@
       <member refid="group__GeneralGroup_1ga7c6db10e1c1818cbcf3083e960afab31" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__GeneralGroup_1ga8d70252193181da8d5d1a8cd1393d59d" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>normSq</name></member>
       <member refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator*</name></member>
-      <member refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga99e0be1e5bffb3b6359888a6e130687d" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator*=</name></member>
       <member refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator+=</name></member>
       <member refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator-=</name></member>
-      <member refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga51d8fe8edf354cbdf97b8a6b14a30ef7" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator/=</name></member>
       <member refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>outerSquare</name></member>
       <member refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>outerSquare</name></member>
       <member refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>SymMatrix3</name></member>

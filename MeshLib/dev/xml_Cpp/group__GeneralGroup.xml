@@ -145931,7 +145931,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRSymMatrix2.h" line="45" column="17" bodyfile="MRMesh/MRSymMatrix2.h" bodystart="45" bodyend="45"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga55a77d7f0bbf6b2221a68f1b76439079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1gabc2969db7ce02a40611724cbddd9b535" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SymMatrix2 &amp;</type>
         <definition>SymMatrix2 &amp; MR::SymMatrix2&lt; T &gt;::operator*=</definition>
         <argsstring>(T b)</argsstring>
@@ -145947,9 +145947,9 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSymMatrix2.h" line="46" column="17" bodyfile="MRMesh/MRSymMatrix2.h" bodystart="46" bodyend="46"/>
+        <location file="MRMesh/MRSymMatrix2.h" line="46" column="27" bodyfile="MRMesh/MRSymMatrix2.h" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1ga841408afb3b039fd491f2c3078d9ad99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga2ee4ab5ba4047edc22941456526e9147" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SymMatrix2 &amp;</type>
         <definition>SymMatrix2 &amp; MR::SymMatrix2&lt; T &gt;::operator/=</definition>
         <argsstring>(T b)</argsstring>
@@ -145965,7 +145965,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSymMatrix2.h" line="47" column="17" bodyfile="MRMesh/MRSymMatrix2.h" bodystart="47" bodyend="53"/>
+        <location file="MRMesh/MRSymMatrix2.h" line="47" column="27" bodyfile="MRMesh/MRSymMatrix2.h" bodystart="47" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>
@@ -146151,7 +146151,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </inbodydescription>
         <location file="MRMesh/MRSymMatrix3.h" line="46" column="17" bodyfile="MRMesh/MRSymMatrix3.h" bodystart="46" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga99e0be1e5bffb3b6359888a6e130687d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SymMatrix3 &amp;</type>
         <definition>SymMatrix3 &amp; MR::SymMatrix3&lt; T &gt;::operator*=</definition>
         <argsstring>(T b)</argsstring>
@@ -146167,9 +146167,9 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSymMatrix3.h" line="47" column="17" bodyfile="MRMesh/MRSymMatrix3.h" bodystart="47" bodyend="47"/>
+        <location file="MRMesh/MRSymMatrix3.h" line="47" column="27" bodyfile="MRMesh/MRSymMatrix3.h" bodystart="47" bodyend="47"/>
       </memberdef>
-      <memberdef kind="function" id="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__GeneralGroup_1ga51d8fe8edf354cbdf97b8a6b14a30ef7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>SymMatrix3 &amp;</type>
         <definition>SymMatrix3 &amp; MR::SymMatrix3&lt; T &gt;::operator/=</definition>
         <argsstring>(T b)</argsstring>
@@ -146185,7 +146185,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSymMatrix3.h" line="48" column="17" bodyfile="MRMesh/MRSymMatrix3.h" bodystart="48" bodyend="54"/>
+        <location file="MRMesh/MRSymMatrix3.h" line="48" column="27" bodyfile="MRMesh/MRSymMatrix3.h" bodystart="48" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8bba7cb7e8b42e2e84775e1f07217196" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>
