@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="41" column="14" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="41" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="44" column="14" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" prot="public" static="no" mutable="no">
         <type>std::int64_t</type>
@@ -26,13 +26,13 @@
         <qualifiedname>MR::detail::PointDegree::d</qualifiedname>
         <initializer>= 0</initializer>
         <briefdescription>
-<para>degree of epsilon for pt.z </para>
+<para>degree of epsilon for pt.z; 0 leaves the point unperturbed </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="42" column="18" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="45" column="18" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="45" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="45" column="19" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="45" bodyend="49"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="48" column="19" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="48" bodyend="52"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -61,7 +61,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRPrecisePredicates3Poly.h" line="39" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="40" bodyend="50"/>
+    <location file="MRMesh/MRPrecisePredicates3Poly.h" line="42" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="43" bodyend="53"/>
     <listofallmembers>
       <member refid="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" prot="public" virt="non-virtual"><scope>MR::detail::PointDegree</scope><name>d</name></member>
       <member refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" prot="public" virt="non-virtual"><scope>MR::detail::PointDegree</scope><name>degree</name></member>

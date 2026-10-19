@@ -4,6 +4,7 @@
     <compoundname>MR::detail</compoundname>
     <innerclass refid="classMR_1_1detail_1_1FuncCallHelper" prot="public">MR::detail::FuncCallHelper</innerclass>
     <innerclass refid="structMR_1_1detail_1_1MakeScopeGuard" prot="public">MR::detail::MakeScopeGuard</innerclass>
+    <innerclass refid="classMR_1_1detail_1_1PerturbationStages" prot="public">MR::detail::PerturbationStages</innerclass>
     <innerclass refid="structMR_1_1detail_1_1PointDegree" prot="public">MR::detail::PointDegree</innerclass>
     <innerclass refid="classMR_1_1detail_1_1ScopeGuard" prot="public">MR::detail::ScopeGuard</innerclass>
     <innernamespace refid="namespaceMR_1_1detail_1_1AffineXf3f">MR::detail::AffineXf3f</innernamespace>
@@ -29,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="83" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="156" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="156" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="var">
@@ -74,6 +75,38 @@
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRFastInt.h" line="96" column="15" bodyfile="MRMesh/MRFastInt.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1detail_1a82fcd377947914c7a39781e66672c4d8" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::detail::cMaxPerturbedPoints</definition>
+        <argsstring></argsstring>
+        <name>cMaxPerturbedPoints</name>
+        <qualifiedname>MR::detail::cMaxPerturbedPoints</qualifiedname>
+        <initializer>= 16</initializer>
+        <briefdescription>
+<para>the largest number of points of one predicate that getPointDegrees and <ref refid="classMR_1_1detail_1_1PerturbationStages" kindref="compound">PerturbationStages</ref> take </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="56" column="15" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceMR_1_1detail_1acba423b3c3de9931068347f0f0d091d2" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t MR::detail::cMaxPolyDAll</definition>
+        <argsstring></argsstring>
+        <name>cMaxPolyDAll</name>
+        <qualifiedname>MR::detail::cMaxPolyDAll</qualifiedname>
+        <initializer>= std::numeric_limits&lt;std::int64_t&gt;::max()</initializer>
+        <briefdescription>
+<para>the largest degree that no term exceeds: a polynomial with it keeps all its terms </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="104" column="24" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="104" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -268,27 +301,44 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="26" column="29" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="26" bodyend="36"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="29" column="29" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="29" bodyend="39"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1detail_1a65b130bbf519588b0fa0fb2504ac46d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>std::array&lt; <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref>, 8 &gt;</type>
-        <definition>std::array&lt; PointDegree, 8 &gt; MR::detail::getPointDegrees</definition>
-        <argsstring>(const std::array&lt; PreciseVertCoords, 8 &gt; &amp;vs)</argsstring>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a2d09b58c9b2d6864a0c30dbe13540b62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMacros_8h_1ab046fc4170c43e2643920e9039d7357e" kindref="member">MR_FORCE_INLINE</ref> int</type>
+        <definition>MR_FORCE_INLINE int MR::detail::getPointDegrees</definition>
+        <argsstring>(const PreciseVertCoords *vs, const std::int64_t *radices, int n, PointDegree *res, std::int64_t *places=nullptr)</argsstring>
         <name>getPointDegrees</name>
         <qualifiedname>MR::detail::getPointDegrees</qualifiedname>
         <param>
-          <type>const std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 8 &gt; &amp;</type>
+          <type>const <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref> *</type>
           <declname>vs</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>radices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref> *</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>std::int64_t *</type>
+          <declname>places</declname>
+          <defval>nullptr</defval>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the degrees of the perturbation of the eight points of segmentIntersectionOrder and segmentIntersectionTriPlaneOrder: sorted by ids, the points get the degrees 1, 27, 27^2, ..., and points with equal ids get equal degrees; the smallest id moves most, as in orient3d, and since a product of two orient3d-polynomials takes every point at most twice, with the weight at most 9 + 3 + 1 each time, the degrees order the terms by the weights of the points from the largest id down </para>
+<para>finds the degrees of the perturbation of points vs[0..n-1] and writes them in res[0..n-1]: sorted by ids, the points get the degrees 1, r_0, r_0 * r_1, ..., where r_k is the radix of the k-th id, given in radices[] of every point with that id, and points with equal ids get equal degrees; the smallest id moves most, as in orient3d, and the radix of a point must exceed its weight in every term of the polynomials of the predicate (the sum of 9, 3, 1 over its coordinates in the term), so that the degrees order the terms as the perturbation of orient3d does: by the weights of the points from the largest id down; returns the number of different ids, and writes their degrees in ascending order in places[] if it is not null </para>
         </detaileddescription>
         <inbodydescription>
 <para>skip to support triangles with shared vertices</para>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="56" column="20" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="56" bodyend="78"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="64" column="21" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="64" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -325,11 +375,11 @@
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
-<para>every element of the matrix with the rows (a-d), (b-d), (c-d) is a polynomial: delta + eps^degP - eps^degD, whose terms are stored below (skipping zero delta), the last term is always -eps^degD</para>
+<para>every element of the matrix with the rows (a-d), (b-d), (c-d) is a polynomial: delta + eps^degP - eps^degD, whose terms are stored below (skipping zero delta and the terms of unperturbed points), the last term is -eps^degD if d is perturbed</para>
 <para>the determinant is the sum over 6 permutations of the signed products of three elements, each product has up to 27 monomials; the product of the last terms of three elements (eps^(13*degD) with the sign of permutation) is excluded, since 6 of them cancel one another</para>
 <para>all coefficients are not larger than 2^32 by absolute value, so the product of two of them fits in int64</para>
         </inbodydescription>
-        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="87" column="13" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="87" bodyend="131"/>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="160" column="13" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="160" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>

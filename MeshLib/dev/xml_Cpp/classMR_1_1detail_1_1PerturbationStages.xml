@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1detail_1_1PerturbationStages" kind="class" language="C++" prot="public">
+    <compoundname>MR::detail::PerturbationStages</compoundname>
+    <includes refid="MRPrecisePredicates3Poly_8h" local="no">MRMesh/MRPrecisePredicates3Poly.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1detail_1_1PerturbationStages_1a233d7ea702b327a0dce9b35bfc1c6eaf" prot="private" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref>, <ref refid="namespaceMR_1_1detail_1a82fcd377947914c7a39781e66672c4d8" kindref="member">cMaxPerturbedPoints</ref> &gt;</type>
+        <definition>std::array&lt;PointDegree, cMaxPerturbedPoints&gt; MR::detail::PerturbationStages::points_</definition>
+        <argsstring></argsstring>
+        <name>points_</name>
+        <qualifiedname>MR::detail::PerturbationStages::points_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="148" column="16" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1detail_1_1PerturbationStages_1ae67ecb8d180f7e304b15289891c1cfdf" prot="private" static="no" mutable="no">
+        <type>std::array&lt; std::int64_t, <ref refid="namespaceMR_1_1detail_1a82fcd377947914c7a39781e66672c4d8" kindref="member">cMaxPerturbedPoints</ref> &gt;</type>
+        <definition>std::array&lt;std::int64_t, cMaxPerturbedPoints&gt; MR::detail::PerturbationStages::places_</definition>
+        <argsstring></argsstring>
+        <name>places_</name>
+        <qualifiedname>MR::detail::PerturbationStages::places_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="149" column="16" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1detail_1_1PerturbationStages_1a6fcaaeebdc387d5ef951ac9ad3235982" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::detail::PerturbationStages::numStages_</definition>
+        <argsstring></argsstring>
+        <name>numStages_</name>
+        <qualifiedname>MR::detail::PerturbationStages::numStages_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="150" column="9" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1a42bd47428e12dd23d0d9506c23069a10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="MRMacros_8h_1ab046fc4170c43e2643920e9039d7357e" kindref="member">MR_FORCE_INLINE</ref></type>
+        <definition>MR_FORCE_INLINE MR::detail::PerturbationStages::PerturbationStages</definition>
+        <argsstring>(const PreciseVertCoords *vs, const std::int64_t *radices, int n)</argsstring>
+        <name>PerturbationStages</name>
+        <qualifiedname>MR::detail::PerturbationStages::PerturbationStages</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref> *</type>
+          <declname>vs</declname>
+        </param>
+        <param>
+          <type>const std::int64_t *</type>
+          <declname>radices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>the stages of points vs[0..n-1] with the degrees from getPointDegrees </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="115" column="21" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="115" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1a703fc73b301b3862535a5f24f658acda" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::detail::PerturbationStages::numStages</definition>
+        <argsstring>() const</argsstring>
+        <name>numStages</name>
+        <qualifiedname>MR::detail::PerturbationStages::numStages</qualifiedname>
+        <briefdescription>
+<para>the number of stages, which is the number of different ids </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="122" column="10" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1a85dbebd3f3ec1516ab281af66a9f7846" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t MR::detail::PerturbationStages::place</definition>
+        <argsstring>(int s) const</argsstring>
+        <name>place</name>
+        <qualifiedname>MR::detail::PerturbationStages::place</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>the degree of the points perturbed first at stage s: every term with them has at least this degree, every term of the earlier stages less </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="125" column="19" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1a27a21179b8378063d695dc3ea4ce1513" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref> &amp;</type>
+        <definition>const PointDegree &amp; MR::detail::PerturbationStages::operator[]</definition>
+        <argsstring>(int i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::detail::PerturbationStages::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>point i with its degree, as perturbed at the last stage </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="128" column="25" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1a842249174d8b0012c69cd20261fe084d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref></type>
+        <definition>PointDegree MR::detail::PerturbationStages::at</definition>
+        <argsstring>(int i, int s) const</argsstring>
+        <name>at</name>
+        <qualifiedname>MR::detail::PerturbationStages::at</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>point i as perturbed at stage s </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="131" column="18" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1ad8d14e37017868728e75ddb67a88bad5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::detail::PerturbationStages::startsAt</definition>
+        <argsstring>(int i, int s) const</argsstring>
+        <name>startsAt</name>
+        <qualifiedname>MR::detail::PerturbationStages::startsAt</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>whether point i is perturbed first at stage s </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="134" column="11" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1detail_1_1PerturbationStages_1adabf7d755d7291635f11b881da45440d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+        </templateparamlist>
+        <type>std::invoke_result_t&lt; F &amp;, int &gt;</type>
+        <definition>std::invoke_result_t&lt; F &amp;, int &gt; MR::detail::PerturbationStages::firstStage</definition>
+        <argsstring>(F &amp;&amp;f, std::int64_t maxDeg=cMaxPolyDAll) const</argsstring>
+        <name>firstStage</name>
+        <qualifiedname>MR::detail::PerturbationStages::firstStage</qualifiedname>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>std::int64_t</type>
+          <declname>maxDeg</declname>
+          <defval><ref refid="namespaceMR_1_1detail_1acba423b3c3de9931068347f0f0d091d2" kindref="member">cMaxPolyDAll</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>calls f( s ) for the stages s = 1, 2, ... until it returns a value, and returns that value (or the empty one after the last stage); the stages with places above maxDeg are skipped, since they add only the terms of degrees above it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="139" column="11" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="139" bodyend="145"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the points of a predicate with the degrees of their perturbation, which moves them in stages: at stage s = 1, ..., <ref refid="classMR_1_1detail_1_1PerturbationStages_1a703fc73b301b3862535a5f24f658acda" kindref="member">numStages()</ref> only the points with the s smallest ids are perturbed (orient3dPoly leaves the others unperturbed); a polynomial of the predicate that is not zero at stage s already has the leading term of the full one, since every term with a point of a later stage has a larger degree than every term without; and if it was zero at stage s - 1, its terms without the points of stage s cancel one another, so only the products of the terms of degrees from place( s ) up remain (see <computeroutput>from</computeroutput> in lowestTermOfSumOfProducts) </para>
+    </detaileddescription>
+    <location file="MRMesh/MRPrecisePredicates3Poly.h" line="111" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="112" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a842249174d8b0012c69cd20261fe084d" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>at</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1adabf7d755d7291635f11b881da45440d" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>firstStage</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a703fc73b301b3862535a5f24f658acda" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>numStages</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a6fcaaeebdc387d5ef951ac9ad3235982" prot="private" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>numStages_</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a27a21179b8378063d695dc3ea4ce1513" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>operator[]</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a42bd47428e12dd23d0d9506c23069a10" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>PerturbationStages</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a85dbebd3f3ec1516ab281af66a9f7846" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>place</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1ae67ecb8d180f7e304b15289891c1cfdf" prot="private" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>places_</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1a233d7ea702b327a0dce9b35bfc1c6eaf" prot="private" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>points_</name></member>
+      <member refid="classMR_1_1detail_1_1PerturbationStages_1ad8d14e37017868728e75ddb67a88bad5" prot="public" virt="non-virtual"><scope>MR::detail::PerturbationStages</scope><name>startsAt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

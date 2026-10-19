@@ -8158,6 +8158,18 @@
     <member refid="group__GeneralGroup_1ga8a3bbfef3276f1831b2a645909a93a94" kind="variable"><name>task_</name></member>
     <member refid="group__GeneralGroup_1ga86ddf92193dd592a4f6b78b9df17f094" kind="function"><name>operator()</name></member>
   </compound>
+  <compound refid="classMR_1_1detail_1_1PerturbationStages" kind="class"><name>MR::detail::PerturbationStages</name>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a233d7ea702b327a0dce9b35bfc1c6eaf" kind="variable"><name>points_</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1ae67ecb8d180f7e304b15289891c1cfdf" kind="variable"><name>places_</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a6fcaaeebdc387d5ef951ac9ad3235982" kind="variable"><name>numStages_</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a42bd47428e12dd23d0d9506c23069a10" kind="function"><name>PerturbationStages</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a703fc73b301b3862535a5f24f658acda" kind="function"><name>numStages</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a85dbebd3f3ec1516ab281af66a9f7846" kind="function"><name>place</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a27a21179b8378063d695dc3ea4ce1513" kind="function"><name>operator[]</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1a842249174d8b0012c69cd20261fe084d" kind="function"><name>at</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1ad8d14e37017868728e75ddb67a88bad5" kind="function"><name>startsAt</name></member>
+    <member refid="classMR_1_1detail_1_1PerturbationStages_1adabf7d755d7291635f11b881da45440d" kind="function"><name>firstStage</name></member>
+  </compound>
   <compound refid="structMR_1_1ViewportGL_1_1PickColor" kind="struct"><name>MR::ViewportGL::PickColor</name>
     <member refid="group__GeneralGroup_1gaa3b4158113bf9222c85c1bbe85c1433a" kind="variable"><name>color</name></member>
   </compound>
@@ -16553,6 +16565,8 @@
     <member refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" kind="typedef"><name>VolumePoly</name></member>
     <member refid="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" kind="variable"><name>cFitsFastInt128</name></member>
     <member refid="namespaceMR_1_1detail_1a7fc2a0ff5839e59c72d8681e50b67fdc" kind="variable"><name>cMulBits</name></member>
+    <member refid="namespaceMR_1_1detail_1a82fcd377947914c7a39781e66672c4d8" kind="variable"><name>cMaxPerturbedPoints</name></member>
+    <member refid="namespaceMR_1_1detail_1acba423b3c3de9931068347f0f0d091d2" kind="variable"><name>cMaxPolyDAll</name></member>
     <member refid="namespaceMR_1_1detail_1a1c3d4f65be2335aa2156f777bfe33154" kind="function"><name>addCarry64</name></member>
     <member refid="namespaceMR_1_1detail_1a7fc59c8caf263e5cec996db9f596920d" kind="function"><name>subBorrow64</name></member>
     <member refid="namespaceMR_1_1detail_1a198d8073571caaae263de501236e6052" kind="function"><name>signWord</name></member>
@@ -16560,7 +16574,7 @@
     <member refid="namespaceMR_1_1detail_1a0c3c7fc10991c0eb99094bb42d438de2" kind="function"><name>mulWordsOf</name></member>
     <member refid="namespaceMR_1_1detail_1a642d79bba1a218c9810ee5a91c1362b9" kind="function"><name>doubleFromWords</name></member>
     <member refid="namespaceMR_1_1detail_1ab652e2278f32034e7f2aa5960239c222" kind="function"><name>orient3dVolume</name></member>
-    <member refid="namespaceMR_1_1detail_1a65b130bbf519588b0fa0fb2504ac46d4" kind="function"><name>getPointDegrees</name></member>
+    <member refid="namespaceMR_1_1detail_1a2d09b58c9b2d6864a0c30dbe13540b62" kind="function"><name>getPointDegrees</name></member>
     <member refid="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" kind="function"><name>orient3dPoly</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>

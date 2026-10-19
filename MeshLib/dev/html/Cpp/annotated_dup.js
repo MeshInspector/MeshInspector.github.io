@@ -38,6 +38,7 @@ var annotated_dup =
         ] ],
         [ "FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", "classMR_1_1detail_1_1FuncCallHelper" ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
+        [ "PerturbationStages", "classMR_1_1detail_1_1PerturbationStages.html", "classMR_1_1detail_1_1PerturbationStages" ],
         [ "PointDegree", "structMR_1_1detail_1_1PointDegree.html", "structMR_1_1detail_1_1PointDegree" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
       ] ],
