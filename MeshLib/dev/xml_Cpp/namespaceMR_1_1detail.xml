@@ -4,9 +4,34 @@
     <compoundname>MR::detail</compoundname>
     <innerclass refid="classMR_1_1detail_1_1FuncCallHelper" prot="public">MR::detail::FuncCallHelper</innerclass>
     <innerclass refid="structMR_1_1detail_1_1MakeScopeGuard" prot="public">MR::detail::MakeScopeGuard</innerclass>
+    <innerclass refid="structMR_1_1detail_1_1PointDegree" prot="public">MR::detail::PointDegree</innerclass>
     <innerclass refid="classMR_1_1detail_1_1ScopeGuard" prot="public">MR::detail::ScopeGuard</innerclass>
     <innernamespace refid="namespaceMR_1_1detail_1_1AffineXf3f">MR::detail::AffineXf3f</innernamespace>
     <innernamespace refid="namespaceMR_1_1detail_1_1Units">MR::detail::Units</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" prot="public" static="no">
+        <templateparamlist>
+          <param>
+            <type>std::int64_t</type>
+            <declname>M</declname>
+            <defname>M</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial</ref>&lt; <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref>, std::int64_t, <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt;</type>
+        <definition>using MR::detail::VolumePoly =  SparsePolynomial&lt;FastInt128, std::int64_t, M&gt;</definition>
+        <argsstring></argsstring>
+        <name>VolumePoly</name>
+        <qualifiedname>MR::detail::VolumePoly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>128 bits are enough to store all coefficients of one orient3d-polynomial (products of three coordinate differences), while the products of two such polynomials are computed in 256 bits, see signOfProductsDiff&lt;Int128Mul256&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="83" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="var">
       <memberdef kind="variable" id="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" prot="public" static="no" constexpr="yes" mutable="no">
         <templateparamlist>
@@ -214,6 +239,98 @@
         </inbodydescription>
         <location file="MRMesh/MRFastInt.h" line="113" column="10" declfile="MRMesh/MRFastInt.h" declline="113" declcolumn="10"/>
       </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1ab652e2278f32034e7f2aa5960239c222" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="MRMacros_8h_1ab046fc4170c43e2643920e9039d7357e" kindref="member">MR_FORCE_INLINE</ref> <ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref></type>
+        <definition>MR_FORCE_INLINE FastInt128 MR::detail::orient3dVolume</definition>
+        <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c, const Vector3i &amp;d)</argsstring>
+        <name>orient3dVolume</name>
+        <qualifiedname>MR::detail::orient3dVolume</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the building blocks of the precise predicates in <ref refid="MRPrecisePredicates3_8h" kindref="compound">MRPrecisePredicates3.h</ref>, shared with the other predicates that must agree with them: the exact volume of a tetrahedron, and its polynomial in eps when the points are perturbed by simulation-of-simplicity the exact signed volume of tetrahedron abcd times 6: dot( a - d, cross( b - d, c - d ) ), whose sign orient3d( a, b, c, d ) returns if it is not zero; 128 bits are enough for coordinates within the range of <ref refid="structMR_1_1ConvertToIntVector" kindref="compound">ConvertToIntVector</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="26" column="29" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a65b130bbf519588b0fa0fb2504ac46d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref>, 8 &gt;</type>
+        <definition>std::array&lt; PointDegree, 8 &gt; MR::detail::getPointDegrees</definition>
+        <argsstring>(const std::array&lt; PreciseVertCoords, 8 &gt; &amp;vs)</argsstring>
+        <name>getPointDegrees</name>
+        <qualifiedname>MR::detail::getPointDegrees</qualifiedname>
+        <param>
+          <type>const std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 8 &gt; &amp;</type>
+          <declname>vs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the degrees of the perturbation of the eight points of segmentIntersectionOrder and segmentIntersectionTriPlaneOrder: sorted by ids, the points get the degrees 1, 27, 27^2, ..., and points with equal ids get equal degrees; the smallest id moves most, as in orient3d, and since a product of two orient3d-polynomials takes every point at most twice, with the weight at most 9 + 3 + 1 each time, the degrees order the terms by the weights of the points from the largest id down </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>skip to support triangles with shared vertices</para>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="56" column="20" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="56" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>std::int64_t</type>
+            <declname>M</declname>
+            <defname>M</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" kindref="member">VolumePoly</ref>&lt; <ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref> &gt;</type>
+        <definition>VolumePoly&lt; M &gt; MR::detail::orient3dPoly</definition>
+        <argsstring>(const PointDegree &amp;a, const PointDegree &amp;b, const PointDegree &amp;c, const PointDegree &amp;d)</argsstring>
+        <name>orient3dPoly</name>
+        <qualifiedname>MR::detail::orient3dPoly</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>the volume of tetrahedron abcd (see orient3dVolume) of the perturbed points as a polynomial of eps, without the terms of degrees above M </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>every element of the matrix with the rows (a-d), (b-d), (c-d) is a polynomial: delta + eps^degP - eps^degD, whose terms are stored below (skipping zero delta), the last term is always -eps^degD</para>
+<para>the determinant is the sum over 6 permutations of the signed products of three elements, each product has up to 27 monomials; the product of the last terms of three elements (eps^(13*degD) with the sign of permutation) is excluded, since 6 of them cancel one another</para>
+<para>all coefficients are not larger than 2^32 by absolute value, so the product of two of them fits in int64</para>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="87" column="13" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="87" bodyend="131"/>
+      </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
         <definition>std::vector&lt; std::filesystem::path &gt; MR::detail::runCocoaFileDialog</definition>
@@ -269,6 +386,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>for internal use: namespace detail is not bound to other languages </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

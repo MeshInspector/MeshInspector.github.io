@@ -1,5 +1,6 @@
 var NAVTREEINDEX154 =
 {
+"std__optional__double_8h.html#a040a147bb286d9150ebe790e6a6c6c80":[9,2,2,0,0,0,0,2,204,1],
 "std__optional__double_8h.html#a0459c4450cd6cbd85bb1af0a9cd859e1":[9,2,2,0,0,0,0,2,204,6],
 "std__optional__double_8h.html#a3c98e22a3f579a685a677e5dc2f0d624":[9,2,2,0,0,0,0,2,204,9],
 "std__optional__double_8h.html#a50decd0bf20942c418cb1700ee3587a1":[9,2,2,0,0,0,0,2,204,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX154 =
 "std__pair__MR__Vector3d__MR__TriPointd_8h.html#a60f81c76c82158db0833cbebd9b6b9cc":[9,2,2,0,0,0,0,2,281,11],
 "std__pair__MR__Vector3d__MR__TriPointd_8h.html#a74f99108c3647524c157c7ebae444fca":[9,2,2,0,0,0,0,2,281,6],
 "std__pair__MR__Vector3d__MR__TriPointd_8h.html#a82a9b2ccdbdf957f8e607548513957dd":[9,2,2,0,0,0,0,2,281,12],
-"std__pair__MR__Vector3d__MR__TriPointd_8h.html#aa5c26833225b0f13031df4471148fcb1":[9,2,2,0,0,0,0,2,281,5],
-"std__pair__MR__Vector3d__MR__TriPointd_8h.html#aaba650c5d8928d71e81ab4acc14e30d2":[9,2,2,0,0,0,0,2,281,3]
+"std__pair__MR__Vector3d__MR__TriPointd_8h.html#aa5c26833225b0f13031df4471148fcb1":[9,2,2,0,0,0,0,2,281,5]
 };

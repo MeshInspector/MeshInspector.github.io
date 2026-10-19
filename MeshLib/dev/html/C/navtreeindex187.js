@@ -1,5 +1,6 @@
 var NAVTREEINDEX187 =
 {
+"std__vector__MR__Nesting__NestingResult_8h_source.html":[9,2,2,0,0,0,0,2,482],
 "std__vector__MR__NodeId_8h.html":[9,2,2,0,0,0,0,2,483],
 "std__vector__MR__NodeId_8h.html#a041b9d46fa342417cb7d3d6b0e65db57":[9,2,2,0,0,0,0,2,483,24],
 "std__vector__MR__NodeId_8h.html#a0872de1efab29bb08f036e2a200d1fc0":[9,2,2,0,0,0,0,2,483,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX187 =
 "std__vector__MR__OffsetContoursOrigins_8h.html#a5812b6b7070610911ddd5d8991d91776":[9,2,2,0,0,0,0,2,486,59],
 "std__vector__MR__OffsetContoursOrigins_8h.html#a584c1ff73ea4f02cd709487b1decdaa0":[9,2,2,0,0,0,0,2,486,31],
 "std__vector__MR__OffsetContoursOrigins_8h.html#a599e930d7e3e1062c7761dff4c8e194e":[9,2,2,0,0,0,0,2,486,64],
-"std__vector__MR__OffsetContoursOrigins_8h.html#a59d17f8e305950c1132c7a30032959bb":[9,2,2,0,0,0,0,2,486,43],
-"std__vector__MR__OffsetContoursOrigins_8h.html#a5db341616c4f7923402a63a95012b82c":[9,2,2,0,0,0,0,2,486,53]
+"std__vector__MR__OffsetContoursOrigins_8h.html#a59d17f8e305950c1132c7a30032959bb":[9,2,2,0,0,0,0,2,486,43]
 };

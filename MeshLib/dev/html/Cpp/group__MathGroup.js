@@ -13,6 +13,7 @@ var group__MathGroup =
     [ "Triangle intersection", "group__TriangleIntersectionGroup.html", "group__TriangleIntersectionGroup" ],
     [ "Tuple Bindings", "group__TupleBindingsGroup.html", "group__TupleBindingsGroup" ],
     [ "Vector", "group__VectorGroup.html", "group__VectorGroup" ],
+    [ "MR::detail", "namespaceMR_1_1detail.html", null ],
     [ "MR::QuadricApprox", "classMR_1_1QuadricApprox.html", [
       [ "QuadricApprox", "group__GeneralGroup.html#ga1451826f5c7e17f9abe54c74b26052dd", null ],
       [ "addPoint", "group__GeneralGroup.html#ga4c491c30846d6d6051ac64bc66374e9f", null ],

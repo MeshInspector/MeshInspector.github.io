@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#af91ef483c5fb1d8d44a3daf22152ecf5":[9,3,0,0,0,1551,1,5],
+"classMR_1_1PointsSave_1_1CtmSavePointsOptions.html#afce5ae97c6471480593714ede4857d43":[9,3,0,0,0,1551,1,18],
 "classMR_1_1PointsToDistanceVolumeParams.html":[9,3,0,0,0,1552],
 "classMR_1_1PointsToDistanceVolumeParams.html#a0f34f8bf8654f7250be67d3bf22bc225":[9,3,0,0,0,1552,1],
 "classMR_1_1PointsToDistanceVolumeParams.html#a2058c4708b7528d1d26f891ff721b220":[9,3,0,0,0,1552,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "classMR_1_1PolylineTopology.html#ae3272c5e65afda3009d6c952038b2479":[9,3,0,0,0,1569,15],
 "classMR_1_1PolylineTopology.html#ae5dc1a01d4d16febb475d1ee5ee66e4c":[9,3,0,0,0,1569,5],
 "classMR_1_1PolylineTopology.html#ae8cacc2daf025a7f8d691acb41db4287":[9,3,0,0,0,1569,3],
-"classMR_1_1PolylineTopology.html#aefd33bef44faf2f0f2220876fb77f267":[9,3,0,0,0,1569,17],
-"classMR_1_1PolylineTopology.html#af834302c4e4f32a56fcd5758077dbc06":[9,3,0,0,0,1569,1],
-"classMR_1_1PolylineTraits__MRVector2f.html":[9,3,0,0,0,1571]
+"classMR_1_1PolylineTopology.html#aefd33bef44faf2f0f2220876fb77f267":[9,3,0,0,0,1569,17]
 };

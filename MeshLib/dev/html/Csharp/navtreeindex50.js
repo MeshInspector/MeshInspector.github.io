@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"classMR_1_1Const__GeneralOffsetParameters.html#abd640d792f728ecd7ec9ecdb460af415":[9,3,0,0,0,485,21],
+"classMR_1_1Const__GeneralOffsetParameters.html#abe5fc4112cc92ccc25342e6696476141":[9,3,0,0,0,485,29],
 "classMR_1_1Const__GeneralOffsetParameters.html#ac18a7f660c63a66cc6cb1c00f8e6f072":[9,3,0,0,0,485,2],
 "classMR_1_1Const__GeneralOffsetParameters.html#ac62711ebe07268883fa200a47c447d86":[9,3,0,0,0,485,1],
 "classMR_1_1Const__GeneralOffsetParameters.html#aed08fcfa33f634d1b5ef520f8c75f2f7":[9,3,0,0,0,485,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "classMR_1_1Const__HexPalette.html#a6bbacb9b41fc6272ac1415967d0b31f2":[9,3,0,0,0,493,6],
 "classMR_1_1Const__HexPalette.html#a9e1c31e72902f3df0a88729d1198f616":[9,3,0,0,0,493,10],
 "classMR_1_1Const__HexPalette.html#ac39deffe19a8ea8ac056f41261caeb01":[9,3,0,0,0,493,2],
-"classMR_1_1Const__HexPalette.html#acee358678bda1df8f179a99dc1985deb":[9,3,0,0,0,493,1],
-"classMR_1_1Const__HexPalette.html#ad22dd6871dcb23af475f20504dde5754":[9,3,0,0,0,493,15],
-"classMR_1_1Const__HexPalette.html#ad31225f5dafd5a7db2a77153e53d6346":[9,3,0,0,0,493,4]
+"classMR_1_1Const__HexPalette.html#acee358678bda1df8f179a99dc1985deb":[9,3,0,0,0,493,1]
 };

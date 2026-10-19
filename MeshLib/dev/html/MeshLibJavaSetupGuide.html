@@ -168,17 +168,25 @@ Prerequisites</h2>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md137"></a>
 Installation from Maven Central</h2>
-<p>The bindings are the artifact <span class="tt">com.meshinspector:meshlib</span>. On the first use they download the MeshLib libraries of the current platform (Windows, Linux or macOS; x86_64 or aarch64) from the <a href="https://github.com/MeshInspector/MeshLib/releases">GitHub release</a> of the same version, check them against the SHA-256 stored in the jar, and keep them in the user's cache directory (<span class="tt">LOCALAPPDATA%\meshlib</span>, <span class="tt">~/Library/Caches/meshlib</span> or <span class="tt">~/.cache/meshlib</span>), where later runs and the MeshLib Rust crate find them. Nothing else needs to be installed.</p>
-<p><b>Gradle</b> (<span class="tt">build.gradle.kts</span>): </p><div class="fragment"><div class="line">dependencies {</div>
+<p>The bindings are the artifact <span class="tt">com.meshinspector:meshlib</span>, and the MeshLib libraries of each platform are artifacts of the same name and version with the classifiers <span class="tt">natives-windows-x86_64</span>, <span class="tt">natives-windows-aarch64</span>, <span class="tt">natives-linux-x86_64</span>, <span class="tt">natives-linux-aarch64</span>, <span class="tt">natives-macos-x86_64</span> and <span class="tt">natives-macos-aarch64</span>. On the first use the bindings extract the libraries of the current platform from the natives jar on the class path to the temporary directory (or to the directory in the system property <span class="tt">meshlib.native.cache</span>), and later runs reuse them; nothing else needs to be installed.</p>
+<p><b>Gradle</b> (<span class="tt">build.gradle.kts</span>), with the natives of the platforms you need: </p><div class="fragment"><div class="line">dependencies {</div>
 <div class="line">    implementation(&quot;com.meshinspector:meshlib:1.2.3.4&quot;)</div>
+<div class="line">    runtimeOnly(&quot;com.meshinspector:meshlib:1.2.3.4:natives-windows-x86_64&quot;)</div>
+<div class="line">    runtimeOnly(&quot;com.meshinspector:meshlib:1.2.3.4:natives-linux-x86_64&quot;)</div>
 <div class="line">}</div>
-</div><!-- fragment --><p><b>Maven</b> (<span class="tt">pom.xml</span>, see also <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/java-examples/pom.xml">examples/java-examples/pom.xml</a>): </p><div class="fragment"><div class="line">&lt;<span class="keywordtype">dependency</span>&gt;</div>
+</div><!-- fragment --><p><b>Maven</b>: the dependency on <span class="tt">meshlib</span>, and one on the natives with a classifier picked by an OS profile, as in <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/java-examples/pom.xml">examples/java-examples/pom.xml</a>: </p><div class="fragment"><div class="line">&lt;<span class="keywordtype">dependency</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">groupId</span>&gt;<span class="keyword">com.meshinspector</span>&lt;/<span class="keywordtype">groupId</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">artifactId</span>&gt;<span class="keyword">meshlib</span>&lt;/<span class="keywordtype">artifactId</span>&gt;</div>
 <div class="line">  &lt;<span class="keywordtype">version</span>&gt;1.2.3.4&lt;/<span class="keywordtype">version</span>&gt;</div>
 <div class="line">&lt;/<span class="keywordtype">dependency</span>&gt;</div>
+<div class="line">&lt;<span class="keywordtype">dependency</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">groupId</span>&gt;<span class="keyword">com.meshinspector</span>&lt;/<span class="keywordtype">groupId</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">artifactId</span>&gt;<span class="keyword">meshlib</span>&lt;/<span class="keywordtype">artifactId</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">version</span>&gt;1.2.3.4&lt;/<span class="keywordtype">version</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">classifier</span>&gt;<span class="keyword">natives-</span>${<span class="keyword">meshlib.platform</span>}&lt;/<span class="keywordtype">classifier</span>&gt;</div>
+<div class="line">  &lt;<span class="keywordtype">scope</span>&gt;<span class="keyword">runtime</span>&lt;/<span class="keywordtype">scope</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">dependency</span>&gt;</div>
 </div><!-- fragment --><p>Run with <span class="tt">--enable-native-access=ALL-UNNAMED</span> (otherwise the first call into the library prints a warning).</p>
-<p>Without access to github.com, download <span class="tt">meshlib_v1.2.3.4_rust_native_&lt;os&gt;-&lt;arch&gt;.zip</span> of your platform from the release page and point the environment variable <span class="tt">MESHLIB_NATIVE_URL</span> (or the system property <span class="tt">meshlib.native.url</span>) to the directory with it. <span class="tt">MESHLIB_CACHE_DIR</span> (or <span class="tt">meshlib.native.cache</span>) changes the cache directory.</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md138"></a>
 Installation from the release archive</h2>
 <ol type="1">

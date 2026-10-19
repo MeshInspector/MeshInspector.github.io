@@ -14,6 +14,7 @@
     <innerclass refid="structMR_1_1SegmPoint" prot="public">MR::SegmPoint</innerclass>
     <innerclass refid="structMR_1_1Sphere" prot="public">MR::Sphere</innerclass>
     <innerclass refid="structMR_1_1TriPoint" prot="public">MR::TriPoint</innerclass>
+    <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
     <innergroup refid="group__ConversionBetween2and3dimGroup">2d &lt;-&gt; 3d conversion</innergroup>
     <innergroup refid="group__BestFitGroup">BestFit</innergroup>
     <innergroup refid="group__BoxGroup">Box</innergroup>

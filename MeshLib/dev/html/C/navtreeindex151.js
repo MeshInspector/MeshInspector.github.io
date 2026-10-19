@@ -1,5 +1,6 @@
 var NAVTREEINDEX151 =
 {
+"std__function__void__from__MR__Pdf__ref_8h.html#ac775a76bfe888b075c38e43b8630e8b3":[9,2,2,0,0,0,0,2,195,9],
 "std__function__void__from__MR__Pdf__ref_8h.html#ae011babeac78f3c264753fae9d9dcfff":[9,2,2,0,0,0,0,2,195,4],
 "std__function__void__from__MR__Pdf__ref_8h.html#aef10eff18e53c196c7c54b0796c46ebc":[9,2,2,0,0,0,0,2,195,7],
 "std__function__void__from__MR__Pdf__ref_8h.html#af9c539a2fcc236346918dac4ce191b82":[9,2,2,0,0,0,0,2,195,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX151 =
 "std__optional__MR__AllLocalTriangulations_8h.html#a2be2aa9754cc97b93e306a361078aa78":[9,2,2,0,0,0,0,2,206,8],
 "std__optional__MR__AllLocalTriangulations_8h.html#a4122cc7a4fefb0782738431f1a0baadf":[9,2,2,0,0,0,0,2,206,4],
 "std__optional__MR__AllLocalTriangulations_8h.html#a41d4f7f98192a9d26fbd6187652a7fa8":[9,2,2,0,0,0,0,2,206,1],
-"std__optional__MR__AllLocalTriangulations_8h.html#a50d399e828241a4a446965395837c1aa":[9,2,2,0,0,0,0,2,206,9],
-"std__optional__MR__AllLocalTriangulations_8h.html#a5c6658c2037edc70390f177c880a9094":[9,2,2,0,0,0,0,2,206,0]
+"std__optional__MR__AllLocalTriangulations_8h.html#a50d399e828241a4a446965395837c1aa":[9,2,2,0,0,0,0,2,206,9]
 };

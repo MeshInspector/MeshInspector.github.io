@@ -1070,6 +1070,7 @@ var hierarchy =
     [ "MR::PointAndDistance", "structMR_1_1PointAndDistance.html", null ],
     [ "MR::PointCloud", "structMR_1_1PointCloud.html", null ],
     [ "MR::PointCloudPart", "structMR_1_1PointCloudPart.html", null ],
+    [ "MR::detail::PointDegree", "structMR_1_1detail_1_1PointDegree.html", null ],
     [ "MR::PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", null ],
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
     [ "MR::PointOnObject", "structMR_1_1PointOnObject.html", null ],
@@ -1269,6 +1270,7 @@ var hierarchy =
       [ "MR::Signal< T >", "structMR_1_1Signal.html", null ]
     ] ],
     [ "MR::SignedDistanceToMeshResult", "structMR_1_1SignedDistanceToMeshResult.html", null ],
+    [ "MR::SignedProduct< A, B >", "structMR_1_1SignedProduct.html", null ],
     [ "MR::SimpleTimeRecord", "structMR_1_1SimpleTimeRecord.html", [
       [ "MR::TimeRecord", "structMR_1_1TimeRecord.html", [
         [ "MR::ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", null ]

@@ -4030,6 +4030,7 @@
     <member refid="classMR_1_1Box__Vector3i64_1a854683e5f60de6832fbb0f4ae1f45573" kind="function"><name>Box_Vector3i64</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1acf8e41a0fa378fbe11f76b4765e869db" kind="function"><name>Box_Vector3i64</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1a596e49e82a4b58f989a6bdcdb4496acd" kind="function"><name>Box_Vector3i64</name></member>
+    <member refid="classMR_1_1Box__Vector3i64_1a9ea635e939df8fb40325107a61208923" kind="function"><name>Box_Vector3i64</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1a10a0054d64e9ec3594ed45eeb82da388" kind="function"><name>addAssign</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1a5c673f7003662a1fd16347aba617e0d7" kind="function"><name>subAssign</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1a3c4a4b6d67dc6cdb0f95255c8329f9e7" kind="function"><name>mulAssign</name></member>
@@ -4037,6 +4038,7 @@
     <member refid="classMR_1_1Box__Vector3i64_1a1ce7cd53ebf07951e414117d4ffc5867" kind="function"><name>Box_Vector3i64</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1aebe84f333639a027fcc748c99ea3bebb" kind="function"><name>__MR_Vector3i64_Construct</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1afd89b57125fdbf66c2049ee140947435" kind="function"><name>__MR_Vector3i64_Construct_MR_NoInit</name></member>
+    <member refid="classMR_1_1Box__Vector3i64_1a131740f0e22db0234fcf8f1ca1cdc107" kind="function"><name>__MR_Vector3i64_Construct_int</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1a86853014aa9c9cae48e1fc5341aca9d3" kind="function"><name>__MR_Vector3i64_DefaultConstruct</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1adfb6bb8d7377099b9b6dd15e78ae7853" kind="function"><name>__MR_Vector3i64_index_mut</name></member>
     <member refid="classMR_1_1Box__Vector3i64_1a77e46e03486f5acceb67662655593f03" kind="function"><name>__MR_add_assign_MR_Vector3i64</name></member>
@@ -43018,6 +43020,7 @@
     <member refid="classMR_1_1ConstBox__Vector3i64_1a999e24a8601d97ed2d1122fc3dd1b126" kind="function"><name>ConstBox_Vector3i64</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a2d788faf308d5ebd5080c93035be64da" kind="function"><name>ConstBox_Vector3i64</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a951468d3771678b54f6e18fca6f641de" kind="function"><name>ConstBox_Vector3i64</name></member>
+    <member refid="classMR_1_1ConstBox__Vector3i64_1a288824e28ab4ab56cf8674a8dd195f23" kind="function"><name>ConstBox_Vector3i64</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a3fc8642173296ec84776167404ffd8db" kind="function"><name>lengthSq</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1ac0405d8250c6cd7c29b62bddbf5a4fa7" kind="function"><name>length</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a293b6912c1c266aa89308574016054dc" kind="function"><name>furthestBasisVector</name></member>
@@ -43027,6 +43030,7 @@
     <member refid="classMR_1_1ConstBox__Vector3i64_1ae79919888f25b9846231b088e40afb72" kind="function"><name>ConstBox_Vector3i64</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a06c143f0b8e3721e8ef474670ce889e4" kind="function"><name>__MR_Vector3i64_Construct</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a42500121d52b28475aa6d1117ee87508" kind="function"><name>__MR_Vector3i64_Construct_MR_NoInit</name></member>
+    <member refid="classMR_1_1ConstBox__Vector3i64_1ace64af17540538f21863299e0f7585bb" kind="function"><name>__MR_Vector3i64_Construct_int</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a8a71f682e9448e12d59a14a09340fa66" kind="function"><name>__MR_Vector3i64_DefaultConstruct</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1a23db1cca41b52ba4cba3254564a5a813" kind="function"><name>__MR_Vector3i64_Get_elements</name></member>
     <member refid="classMR_1_1ConstBox__Vector3i64_1ae996a955716adfad0cba28b19b73c46d" kind="function"><name>__MR_Vector3i64_diagonal</name></member>
@@ -66369,6 +66373,7 @@
     <member refid="structMR_1_1Vector3i64_1a2fce292e4b2268171ab4176476369c40" kind="function"><name>operator/</name></member>
     <member refid="structMR_1_1Vector3i64_1a7ee2181f8bd2d835dea1a69181a3f709" kind="function"><name>__MR_Vector3i64_Construct</name></member>
     <member refid="structMR_1_1Vector3i64_1a3c7bd27cdb7e8a17516b92d2df4714cf" kind="function"><name>__MR_Vector3i64_Construct_MR_NoInit</name></member>
+    <member refid="structMR_1_1Vector3i64_1aa5557baaf37cc32e7760aec56f7a41fb" kind="function"><name>__MR_Vector3i64_Construct_int</name></member>
     <member refid="structMR_1_1Vector3i64_1a21f2c507c9bca8a1594ae5b352098cb6" kind="function"><name>__MR_Vector3i64_DefaultConstruct</name></member>
     <member refid="structMR_1_1Vector3i64_1af41f69bc9bfd9280442b7a2082056a31" kind="function"><name>__MR_Vector3i64_diagonal</name></member>
     <member refid="structMR_1_1Vector3i64_1af16b777bb59e49d90257e839c4d5b6be" kind="function"><name>__MR_Vector3i64_furthestBasisVector</name></member>
@@ -66398,6 +66403,7 @@
     <member refid="structMR_1_1Vector3i64_1a115852010be34f7db1ed0dd1718236dd" kind="function"><name>Vector3i64</name></member>
     <member refid="structMR_1_1Vector3i64_1afbec142534994cc0f29dad6bb0ef713b" kind="function"><name>Vector3i64</name></member>
     <member refid="structMR_1_1Vector3i64_1a4bb90c69d3f6dde4f537b2e7b751c9a0" kind="function"><name>Vector3i64</name></member>
+    <member refid="structMR_1_1Vector3i64_1a527c63ad31822cbba1af7433d1031561" kind="function"><name>Vector3i64</name></member>
     <member refid="structMR_1_1Vector3i64_1a9ce2a9da327a518fd36e1794f4070917" kind="function"><name>index</name></member>
     <member refid="structMR_1_1Vector3i64_1a73f00ff8e950d1bc83b189ac7f9d1a08" kind="function"><name>lengthSq</name></member>
     <member refid="structMR_1_1Vector3i64_1a0692fed5d2ba8b829aab32c62482c280" kind="function"><name>length</name></member>

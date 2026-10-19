@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SignedProduct" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SignedProduct</compoundname>
+    <includes refid="MRSparsePolynomial_8h" local="no">MRMesh/MRSparsePolynomial.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename A</type>
+      </param>
+      <param>
+        <type>typename B</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" kind="variable"><name>negative</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>one product of two polynomials in a sum, see <ref refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kindref="member">lowestTermOfSumOfProducts</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRSparsePolynomial.h" line="33" column="1" bodyfile="MRMesh/MRSparsePolynomial.h" bodystart="34" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" prot="public" virt="non-virtual"><scope>MR::SignedProduct</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" prot="public" virt="non-virtual"><scope>MR::SignedProduct</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" prot="public" virt="non-virtual"><scope>MR::SignedProduct</scope><name>negative</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

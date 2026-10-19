@@ -1,5 +1,6 @@
 var NAVTREEINDEX161 =
 {
+"std__shared__ptr__MR__ChangeScaleAction_8h.html#ad62e64be800967c2e28713e5fb84820e":[9,2,2,0,0,0,0,2,337,10],
 "std__shared__ptr__MR__ChangeScaleAction_8h.html#ae48a80ae3483363c55c3e7b1b3672e98":[9,2,2,0,0,0,0,2,337,16],
 "std__shared__ptr__MR__ChangeScaleAction_8h.html#aff3f15e949a55cf3008a758819a1fe1b":[9,2,2,0,0,0,0,2,337,21],
 "std__shared__ptr__MR__ChangeScaleAction_8h_source.html":[9,2,2,0,0,0,0,2,337],
@@ -248,6 +249,5 @@ var NAVTREEINDEX161 =
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html":[9,2,2,0,0,1,0,0,12],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a03827ddaa99e74a003ddaf41834bad87":[9,2,2,0,0,1,0,0,12,2],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a1bfe9bc1f1c532fcece013c342db60b7":[9,2,2,0,0,1,0,0,12,13],
-"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a1e6f63fa67e760569ecbe275580716cb":[9,2,2,0,0,1,0,0,12,20],
-"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a26a8e9c206d52e57b6a87a9039013e04":[9,2,2,0,0,1,0,0,12,4]
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a1e6f63fa67e760569ecbe275580716cb":[9,2,2,0,0,1,0,0,12,20]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1ConstBox__Matrix4d.html#ad95562f1021e86f9f2b28a04b4a74970":[9,3,0,0,0,1091,28],
 "classMR_1_1ConstBox__Matrix4d.html#adc6203a763925c9c2a37c6763bb307e1":[9,3,0,0,0,1091,1],
 "classMR_1_1ConstBox__Matrix4d.html#addc43350692bc934f463253c9850ad47":[9,3,0,0,0,1091,42],
 "classMR_1_1ConstBox__Matrix4d.html#adfa99e5bd605cd315a7ba802654ed955":[9,3,0,0,0,1091,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1ConstBox__TextureId.html#afb852b32ef83f5dcb518e61a881673db":[9,3,0,0,0,1100,10],
 "classMR_1_1ConstBox__UndirectedEdgeId.html":[9,3,0,0,0,1101],
 "classMR_1_1ConstBox__UndirectedEdgeId.html#a003589366bf199b4fcb345f979189f40":[9,3,0,0,0,1101,12],
-"classMR_1_1ConstBox__UndirectedEdgeId.html#a192efd2966c4ed91db8c67d4a1bef705":[9,3,0,0,0,1101,6],
-"classMR_1_1ConstBox__UndirectedEdgeId.html#a1c28d3534d7b2d8d316eacfd21792e60":[9,3,0,0,0,1101,1]
+"classMR_1_1ConstBox__UndirectedEdgeId.html#a192efd2966c4ed91db8c67d4a1bef705":[9,3,0,0,0,1101,6]
 };

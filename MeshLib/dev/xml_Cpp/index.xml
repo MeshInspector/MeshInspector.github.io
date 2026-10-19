@@ -8484,6 +8484,11 @@
   <compound refid="structMR_1_1PointCloudRelaxParams" kind="struct"><name>MR::PointCloudRelaxParams</name>
     <member refid="structMR_1_1PointCloudRelaxParams_1ab8de6ecb0effc2fb5ae7f053955d6caf" kind="variable"><name>neighborhoodRadius</name></member>
   </compound>
+  <compound refid="structMR_1_1detail_1_1PointDegree" kind="struct"><name>MR::detail::PointDegree</name>
+    <member refid="structMR_1_1detail_1_1PointDegree_1a0d6f01d8e849c8dcca65b40bd058ea4b" kind="variable"><name>pt</name></member>
+    <member refid="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" kind="variable"><name>d</name></member>
+    <member refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" kind="function"><name>degree</name></member>
+  </compound>
   <compound refid="structMR_1_1PointInAllSpaces" kind="struct"><name>MR::PointInAllSpaces</name>
     <member refid="group__GeneralGroup_1ga0faf89a2289bed4bb23a92601e2a6cd9" kind="variable"><name>screenSpace</name></member>
     <member refid="group__GeneralGroup_1ga5512321f2684ad8e986186697b2ccc51" kind="variable"><name>viewportSpace</name></member>
@@ -11009,6 +11014,11 @@
     <member refid="structMR_1_1SignedDistanceToMeshResult_1adb459805ccfb452c3a5c82fe673bbfec" kind="variable"><name>proj</name></member>
     <member refid="structMR_1_1SignedDistanceToMeshResult_1aec6c1291f51d451f8ab2bcf2d9371c41" kind="variable"><name>mtp</name></member>
     <member refid="structMR_1_1SignedDistanceToMeshResult_1ab2ab2feebc81103d19915755ccb48d23" kind="variable"><name>dist</name></member>
+  </compound>
+  <compound refid="structMR_1_1SignedProduct" kind="struct"><name>MR::SignedProduct</name>
+    <member refid="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" kind="variable"><name>negative</name></member>
   </compound>
   <compound refid="structMR_1_1SimpleTimeRecord" kind="struct"><name>MR::SimpleTimeRecord</name>
     <member refid="structMR_1_1SimpleTimeRecord_1a2baac0fd5930644e7eff1dcb301703ca" kind="variable"><name>count</name></member>
@@ -15944,6 +15954,8 @@
     <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
     <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kind="function"><name>lowestTermOfSumOfProducts</name></member>
+    <member refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kind="function"><name>lowestTermOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga28de882a11f5c9ac17334f542ab0ec47" kind="function"><name>projectSpline</name></member>
     <member refid="group__GeneralGroup_1ga2b6db8327a937df5f0371d7adba2adc5" kind="function"><name>projectSplineAsMTP</name></member>
@@ -16538,6 +16550,7 @@
     <member refid="group__GeneralGroup_1ga5caa3c21e1c35ac6d6dd2eb125484783" kind="function"><name>loadMRCudaDll</name></member>
   </compound>
   <compound refid="namespaceMR_1_1detail" kind="namespace"><name>MR::detail</name>
+    <member refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" kind="typedef"><name>VolumePoly</name></member>
     <member refid="namespaceMR_1_1detail_1af6206848d5379160c8a8684d2c76593f" kind="variable"><name>cFitsFastInt128</name></member>
     <member refid="namespaceMR_1_1detail_1a7fc2a0ff5839e59c72d8681e50b67fdc" kind="variable"><name>cMulBits</name></member>
     <member refid="namespaceMR_1_1detail_1a1c3d4f65be2335aa2156f777bfe33154" kind="function"><name>addCarry64</name></member>
@@ -16546,6 +16559,9 @@
     <member refid="namespaceMR_1_1detail_1adef9954c65821ab458734f64ae86e011" kind="function"><name>mulWords</name></member>
     <member refid="namespaceMR_1_1detail_1a0c3c7fc10991c0eb99094bb42d438de2" kind="function"><name>mulWordsOf</name></member>
     <member refid="namespaceMR_1_1detail_1a642d79bba1a218c9810ee5a91c1362b9" kind="function"><name>doubleFromWords</name></member>
+    <member refid="namespaceMR_1_1detail_1ab652e2278f32034e7f2aa5960239c222" kind="function"><name>orient3dVolume</name></member>
+    <member refid="namespaceMR_1_1detail_1a65b130bbf519588b0fa0fb2504ac46d4" kind="function"><name>getPointDegrees</name></member>
+    <member refid="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" kind="function"><name>orient3dPoly</name></member>
     <member refid="namespaceMR_1_1detail_1a5594c749385503cd1087702f28de4651" kind="function"><name>runCocoaFileDialog</name></member>
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
     <member refid="namespaceMR_1_1detail_1a1a02e764be7c54f9177025ee42b915d0" kind="function"><name>runPortalFileDialog</name></member>
@@ -18413,6 +18429,8 @@
   <compound refid="MRPrecisePredicates2_8h" kind="file"><name>MRPrecisePredicates2.h</name>
   </compound>
   <compound refid="MRPrecisePredicates3_8h" kind="file"><name>MRPrecisePredicates3.h</name>
+  </compound>
+  <compound refid="MRPrecisePredicates3Poly_8h" kind="file"><name>MRPrecisePredicates3Poly.h</name>
   </compound>
   <compound refid="MRPrimitiveMapsComposition_8h" kind="file"><name>MRPrimitiveMapsComposition.h</name>
   </compound>
@@ -23767,6 +23785,9 @@
     <member refid="group__GeneralGroup_1ga0f708a94c94e32aa8001fe2cf18960d4" kind="variable"><name>outSharpEdges</name></member>
     <member refid="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" kind="variable"><name>dir</name></member>
     <member refid="group__GeneralGroup_1ga511b8b1d8245fb415755ea6881577867" kind="variable"><name>radiation</name></member>
+    <member refid="group__GeneralGroup_1gaa21d306ff03b1835319727067eff1ccd" kind="variable"><name>a</name></member>
+    <member refid="group__GeneralGroup_1ga76de47a66aabde4757e7e6fae8895a59" kind="variable"><name>b</name></member>
+    <member refid="group__GeneralGroup_1ga49be6ff2464f25e4d95c06e561917dc4" kind="variable"><name>negative</name></member>
     <member refid="group__GeneralGroup_1ga3cdcb59017dfbb100b74e6fc17192d26" kind="variable"><name>terms_</name></member>
     <member refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kind="variable"><name>center</name></member>
     <member refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kind="variable"><name>radius</name></member>
@@ -29021,6 +29042,8 @@
     <member refid="group__GeneralGroup_1gabbe6d9d5f0b3716ea3a9824b82181f26" kind="function"><name>makeSolidOfRevolution</name></member>
     <member refid="group__GeneralGroup_1ga2a9110bdd2a450f4830e39f32ae6dcfc" kind="function"><name>mulAs</name></member>
     <member refid="group__GeneralGroup_1ga39de2d02d74ee4158df88993a656c0d0" kind="function"><name>operator*</name></member>
+    <member refid="group__GeneralGroup_1ga84ceb1616e6fdd1b7dec8b222c401ea4" kind="function"><name>lowestTermOfSumOfProducts</name></member>
+    <member refid="group__GeneralGroup_1ga851b2cffd096626c502dd6165ecda2a8" kind="function"><name>lowestTermOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga653978c9d8cd70c6399ccb07f7191182" kind="function"><name>signOfProductsDiff</name></member>
     <member refid="group__GeneralGroup_1ga3dc64df27400abce4c5aa702e5829ac3" kind="function"><name>SparsePolynomial</name></member>
     <member refid="group__GeneralGroup_1ga8b1ef47ca46e4387543f27df6e3b3bf7" kind="function"><name>SparsePolynomial</name></member>

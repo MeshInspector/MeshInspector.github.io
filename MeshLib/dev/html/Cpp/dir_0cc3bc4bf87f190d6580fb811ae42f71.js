@@ -340,6 +340,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRPrecipitationSimulator.h", "MRPrecipitationSimulator_8h.html", null ],
     [ "MRPrecisePredicates2.h", "MRPrecisePredicates2_8h.html", "MRPrecisePredicates2_8h" ],
     [ "MRPrecisePredicates3.h", "MRPrecisePredicates3_8h.html", "MRPrecisePredicates3_8h" ],
+    [ "MRPrecisePredicates3Poly.h", "MRPrecisePredicates3Poly_8h.html", "MRPrecisePredicates3Poly_8h" ],
     [ "MRPrimitiveMapsComposition.h", "MRPrimitiveMapsComposition_8h.html", "MRPrimitiveMapsComposition_8h" ],
     [ "MRPriorityQueue.h", "MRPriorityQueue_8h.html", null ],
     [ "MRPrism.h", "MRPrism_8h.html", "MRPrism_8h" ],

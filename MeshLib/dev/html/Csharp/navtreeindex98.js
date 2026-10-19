@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1Const__WholeEdgeMap.html#ae52860420681932a7411d933985e3211":[9,3,0,0,0,1050,11],
+"classMR_1_1Const__WholeEdgeMap.html#aec5965cd507feddbd4b9781d1a844303":[9,3,0,0,0,1050,21],
 "classMR_1_1Const__WholeEdgeMap.html#aedb4919fd9049a977cf70c410706af10":[9,3,0,0,0,1050,1],
 "classMR_1_1Const__WholeEdgeMap.html#af0b98ae7007c2253b3b2f1175260bfc9":[9,3,0,0,0,1050,9],
 "classMR_1_1Const__WholeEdgeMap.html#afbe8717d5e5469130271bb3b3ff982af":[9,3,0,0,0,1050,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1Cuda_1_1Const__ComputePointsToDistanceVolume.html#af9df92c13dfa1540b9f6bba7a9171a40":[9,3,0,0,0,1133,2,8],
 "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html":[9,3,0,0,0,1133,3],
 "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#a07625ccf64bcf5972e33a515c581df79":[9,3,0,0,0,1133,3,0],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aaf459444113b11f36cd4a3064f737497":[9,3,0,0,0,1133,3,1],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#ad4026e453e435ef4e9d5f5e4b9df69b4":[9,3,0,0,0,1133,3,4],
-"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#adf94d310bf935b45cda3ff48f0f97898":[9,3,0,0,0,1133,3,2]
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aaf459444113b11f36cd4a3064f737497":[9,3,0,0,0,1133,3,1]
 };

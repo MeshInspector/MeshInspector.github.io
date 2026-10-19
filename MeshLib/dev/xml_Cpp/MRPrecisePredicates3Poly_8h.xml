@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRPrecisePredicates3Poly_8h" kind="file" language="C++">
+    <compoundname>MRPrecisePredicates3Poly.h</compoundname>
+    <includes refid="MRPrecisePredicates3_8h" local="yes">MRPrecisePredicates3.h</includes>
+    <includes refid="MRInt64Mul128_8h" local="yes">MRInt64Mul128.h</includes>
+    <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
+    <includes refid="MRSparsePolynomial_8h" local="yes">MRSparsePolynomial.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">array</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="27">
+        <label>MRBitCast.h</label>
+        <link refid="MRBitCast_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="31">
+        <label>MRFastInt128.h</label>
+        <link refid="MRFastInt128_8h"/>
+      </node>
+      <node id="25">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MRInt64Mul128.h</label>
+        <link refid="MRInt64Mul128_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+        <link refid="MRMeshFwd_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRPrecisePredicates3.h</label>
+        <link refid="MRPrecisePredicates3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRPrecisePredicates3Poly.h</label>
+        <link refid="MRPrecisePredicates3Poly_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRRound.h</label>
+        <link refid="MRRound_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MRSparsePolynomial.h</label>
+        <link refid="MRSparsePolynomial_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+      </node>
+      <node id="11">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="12">
+        <label>array</label>
+      </node>
+      <node id="18">
+        <label>cassert</label>
+      </node>
+      <node id="21">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="17">
+        <label>cstdint</label>
+      </node>
+      <node id="22">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="23">
+        <label>iosfwd</label>
+      </node>
+      <node id="29">
+        <label>optional</label>
+      </node>
+      <node id="15">
+        <label>parallel_hashmap/phmap_fwd_decl.h</label>
+      </node>
+      <node id="14">
+        <label>string</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="24">
+        <label>utility</label>
+      </node>
+      <node id="13">
+        <label>vector</label>
+      </node>
+      <node id="28">
+        <label>version</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1detail_1_1PointDegree" prot="public">MR::detail::PointDegree</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRPrecisePredicates3_8h" kindref="compound">MRPrecisePredicates3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRInt64Mul128_8h" kindref="compound">MRInt64Mul128.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMacros_8h" kindref="compound">MRMacros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRSparsePolynomial_8h" kindref="compound">MRSparsePolynomial.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail" kindref="compound">detail</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="namespaceMR_1_1detail_1ab652e2278f32034e7f2aa5960239c222" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMacros_8h_1ab046fc4170c43e2643920e9039d7357e" kindref="member">MR_FORCE_INLINE</ref><sp/><ref refid="group__GeneralGroup_1ga626821a3551ab1b67dc553a092bd0a2f" kindref="member">FastInt128</ref><sp/><ref refid="namespaceMR_1_1detail_1ab652e2278f32034e7f2aa5960239c222" kindref="member">orient3dVolume</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>d<sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i64<sp/>x(<sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref><sp/>-<sp/>d<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i64<sp/>y(<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref><sp/>-<sp/>d<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i64<sp/>z(<sp/>c<sp/>-<sp/>d<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>x.x<sp/>)<sp/>*<sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>y.y<sp/>*<sp/>z.z<sp/>-<sp/>y.z<sp/>*<sp/>z.y<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>-<sp/><sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>x.y<sp/>)<sp/>*<sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>y.x<sp/>*<sp/>z.z<sp/>-<sp/>y.z<sp/>*<sp/>z.x<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>+<sp/><sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>x.z<sp/>)<sp/>*<sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>y.x<sp/>*<sp/>z.y<sp/>-<sp/>y.y<sp/>*<sp/>z.x<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1detail_1_1PointDegree" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1detail_1_1PointDegree_1a0d6f01d8e849c8dcca65b40bd058ea4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3i<sp/><ref refid="structMR_1_1detail_1_1PointDegree_1a0d6f01d8e849c8dcca65b40bd058ea4b" kindref="member">pt</ref>;</highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::int64_t<sp/><ref refid="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" kindref="member">d</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>std::int64_t<sp/><ref refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" kindref="member">degree</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="46"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>std::int64_t<sp/>w[3]<sp/>=<sp/>{<sp/>9,<sp/>3,<sp/>1<sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>w[i]<sp/>*<sp/><ref refid="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" kindref="member">d</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="namespaceMR_1_1detail_1a65b130bbf519588b0fa0fb2504ac46d4" refkind="member"><highlight class="normal">[[nodiscard]]<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::array&lt;PointDegree,<sp/>8&gt;<sp/><ref refid="namespaceMR_1_1detail_1a65b130bbf519588b0fa0fb2504ac46d4" kindref="member">getPointDegrees</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;PreciseVertCoords,<sp/>8&gt;<sp/>&amp;<sp/>vs<sp/>)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">VertN</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/>v;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;VertN,<sp/>8&gt;<sp/>as;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>8;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>as[i]<sp/>=<sp/>{<sp/>vs[i].id,<sp/>i<sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>std::sort(<sp/><ref refid="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" kindref="member">begin</ref>(<sp/>as<sp/>),<sp/><ref refid="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" kindref="member">end</ref>(<sp/>as<sp/>),<sp/>[](<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref><sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref>.v<sp/>&lt;<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref>.v;<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;PointDegree,<sp/>8&gt;<sp/>res;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>std::int64_t<sp/>d<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>8;<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>n<sp/>=<sp/>as[i].n;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res[n]<sp/>=<sp/>{<sp/>vs[n].pt,<sp/>d<sp/>};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>i<sp/>&lt;<sp/>7<sp/>&amp;&amp;<sp/>as[i].v<sp/>&lt;<sp/>as[i+1].v<sp/>)<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>d<sp/>*=<sp/>27;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>res;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;std::</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">64_t<sp/>M&gt;</highlight></codeline>
+<codeline lineno="83" refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" kindref="member">VolumePoly</ref><sp/>=<sp/><ref refid="classMR_1_1SparsePolynomial" kindref="compound">SparsePolynomial&lt;FastInt128, std::int64_t, M&gt;</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;std::</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">64_t<sp/>M&gt;</highlight></codeline>
+<codeline lineno="87" refid="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="namespaceMR_1_1detail_1a38adfe3c74506871e3e2af9c3c598c75" kindref="member">VolumePoly&lt;M&gt;</ref><sp/><ref refid="namespaceMR_1_1detail_1a349b4ff5760953282c595de0b6c3e1ab" kindref="member">orient3dPoly</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref><sp/>&amp;<sp/><ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref><sp/>&amp;<sp/><ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref><sp/>&amp;<sp/>c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref><sp/>&amp;<sp/>d<sp/>)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Element</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3e8cbde7010be3da4e90ed99e6f2c853" kindref="member">VolumePoly&lt;M&gt;::Term</ref><sp/>terms[3];</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numTerms<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>Element<sp/>m[3][3];</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1detail_1_1PointDegree" kindref="compound">PointDegree</ref><sp/>*<sp/>rows[3]<sp/>=<sp/>{<sp/>&amp;<ref refid="group__FillHoleGroup_1ga8984ec4b8cdb3ebbc09d53f588587d3e" kindref="member">a</ref>,<sp/>&amp;<ref refid="group__FillHoleGroup_1ga18e48630776db875b1a03ec6f89e6edd" kindref="member">b</ref>,<sp/>&amp;c<sp/>};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0;<sp/>r<sp/>&lt;<sp/>3;<sp/>++r<sp/>)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col<sp/>=<sp/>0;<sp/>col<sp/>&lt;<sp/>3;<sp/>++col<sp/>)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>e<sp/>=<sp/>m[r][col];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::int64_t<sp/>delta<sp/>=<sp/>std::int64_t(<sp/>rows[r]-&gt;pt[col]<sp/>)<sp/>-<sp/>d.<ref refid="structMR_1_1detail_1_1PointDegree_1a0d6f01d8e849c8dcca65b40bd058ea4b" kindref="member">pt</ref>[col]<sp/>)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e.terms[e.numTerms++]<sp/>=<sp/>{<sp/>0,<sp/>delta<sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e.terms[e.numTerms++]<sp/>=<sp/>{<sp/>rows[r]-&gt;<ref refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" kindref="member">degree</ref>(<sp/>col<sp/>),<sp/>1<sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>e.terms[e.numTerms++]<sp/>=<sp/>{<sp/>d.<ref refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" kindref="member">degree</ref>(<sp/>col<sp/>),<sp/>-1<sp/>};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>perms[6][4]<sp/>=<sp/>{<sp/>{<sp/>0,<sp/>1,<sp/>2,<sp/>1<sp/>},<sp/>{<sp/>1,<sp/>2,<sp/>0,<sp/>1<sp/>},<sp/>{<sp/>2,<sp/>0,<sp/>1,<sp/>1<sp/>},<sp/>{<sp/>0,<sp/>2,<sp/>1,<sp/>-1<sp/>},<sp/>{<sp/>2,<sp/>1,<sp/>0,<sp/>-1<sp/>},<sp/>{<sp/>1,<sp/>0,<sp/>2,<sp/>-1<sp/>}<sp/>};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;typename<sp/>VolumePoly&lt;M&gt;::Term&gt;<sp/>terms;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>terms.reserve(<sp/>6<sp/>*<sp/>26<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>p<sp/>:<sp/>perms<sp/>)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Element<sp/>&amp;<sp/>e0<sp/>=<sp/>m[0][p[0]];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Element<sp/>&amp;<sp/>e1<sp/>=<sp/>m[1][p[1]];</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Element<sp/>&amp;<sp/>e2<sp/>=<sp/>m[2][p[2]];</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k0<sp/>=<sp/>0;<sp/>k0<sp/>&lt;<sp/>e0.numTerms;<sp/>++k0<sp/>)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k1<sp/>=<sp/>0;<sp/>k1<sp/>&lt;<sp/>e1.numTerms;<sp/>++k1<sp/>)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::int64_t<sp/>c01<sp/>=<sp/>p[3]<sp/>*<sp/>std::int64_t(<sp/>e0.terms[k0].second<sp/>)<sp/>*<sp/>std::int64_t(<sp/>e1.terms[k1].second<sp/>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::int64_t<sp/>d01<sp/>=<sp/>e0.terms[k0].first<sp/>+<sp/>e1.terms[k1].first;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>last2<sp/>=<sp/>k0<sp/>+<sp/>1<sp/>==<sp/>e0.numTerms<sp/>&amp;&amp;<sp/>k1<sp/>+<sp/>1<sp/>==<sp/>e1.numTerms<sp/>?<sp/>e2.numTerms<sp/>-<sp/>1<sp/>:<sp/>e2.numTerms;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k2<sp/>=<sp/>0;<sp/>k2<sp/>&lt;<sp/>last2;<sp/>++k2<sp/>)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>deg<sp/>=<sp/>d01<sp/>+<sp/>e2.terms[k2].first;<sp/>deg<sp/>&lt;=<sp/><ref refid="MRScalarConvert_8h_1ae65bae37c04df532c86990892b7a43b9" kindref="member">M</ref><sp/>)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>terms.emplace_back(<sp/>deg,<sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>c01<sp/>)<sp/>*<sp/><ref refid="classMR_1_1Int64Mul128" kindref="compound">Int64Mul128</ref>(<sp/>std::int64_t(<sp/>e2.terms[k2].second<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2b403abf3066fd54bde49ee763aab40" kindref="member">VolumePoly&lt;M&gt;::fromUnsortedTerms</ref>(<sp/>std::move(<sp/>terms<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRMesh/MRPrecisePredicates3Poly.h"/>
+  </compounddef>
+</doxygen>

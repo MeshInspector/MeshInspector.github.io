@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1detail_1_1PointDegree" kind="struct" language="C++" prot="public">
+    <compoundname>MR::detail::PointDegree</compoundname>
+    <includes refid="MRPrecisePredicates3Poly_8h" local="no">MRMesh/MRPrecisePredicates3Poly.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1detail_1_1PointDegree_1a0d6f01d8e849c8dcca65b40bd058ea4b" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::detail::PointDegree::pt</definition>
+        <argsstring></argsstring>
+        <name>pt</name>
+        <qualifiedname>MR::detail::PointDegree::pt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="41" column="14" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" prot="public" static="no" mutable="no">
+        <type>std::int64_t</type>
+        <definition>std::int64_t MR::detail::PointDegree::d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>MR::detail::PointDegree::d</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>degree of epsilon for pt.z </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="42" column="18" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::int64_t</type>
+        <definition>std::int64_t MR::detail::PointDegree::degree</definition>
+        <argsstring>(int i) const</argsstring>
+        <name>degree</name>
+        <qualifiedname>MR::detail::PointDegree::degree</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>the degree of epsilon for coordinate i </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRPrecisePredicates3Poly.h" line="45" column="19" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="45" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a point with the degree of its perturbation: its coordinates z, y, x get eps^d, eps^(3*d), eps^(9*d) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRPrecisePredicates3Poly.h" line="39" column="1" bodyfile="MRMesh/MRPrecisePredicates3Poly.h" bodystart="40" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structMR_1_1detail_1_1PointDegree_1acaf323135f612345c58d160c5625815c" prot="public" virt="non-virtual"><scope>MR::detail::PointDegree</scope><name>d</name></member>
+      <member refid="structMR_1_1detail_1_1PointDegree_1a1fc04a51a536e6143d0ebb3d57ad6cb2" prot="public" virt="non-virtual"><scope>MR::detail::PointDegree</scope><name>degree</name></member>
+      <member refid="structMR_1_1detail_1_1PointDegree_1a0d6f01d8e849c8dcca65b40bd058ea4b" prot="public" virt="non-virtual"><scope>MR::detail::PointDegree</scope><name>pt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

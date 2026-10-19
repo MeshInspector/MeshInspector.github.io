@@ -1,5 +1,6 @@
 var NAVTREEINDEX135 =
 {
+"MRWeightedPointsShell_8h.html#abdd076f1bd78b8a2449cec064cf520a7":[9,2,2,0,0,0,0,4,40,39],
 "MRWeightedPointsShell_8h.html#abeeeb9949da9b81cefe893ece969cf59":[9,2,2,0,0,0,0,4,40,71],
 "MRWeightedPointsShell_8h.html#ac024b937d538ef1182d3e9b2e7dd9f9a":[9,2,2,0,0,0,0,4,40,119],
 "MRWeightedPointsShell_8h.html#ac3ee684a3a5e0555588de1ef3913c924":[9,2,2,0,0,0,0,4,40,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX135 =
 "expected__MR__DistanceMap__std__string_8h.html#a7844b3d52814c0daedd5c9407e572380":[9,2,2,0,0,0,0,2,5,12],
 "expected__MR__DistanceMap__std__string_8h.html#a82be96827001702476d541c7f1a96dc4":[9,2,2,0,0,0,0,2,5,11],
 "expected__MR__DistanceMap__std__string_8h.html#aa74d5f29f134e190b11eee9d8d6b2f60":[9,2,2,0,0,0,0,2,5,5],
-"expected__MR__DistanceMap__std__string_8h.html#acdd9864d3f00b837b729f8373d7f90c2":[9,2,2,0,0,0,0,2,5,1],
-"expected__MR__DistanceMap__std__string_8h.html#ad9b718b858ff6ed0e997f34ff4860c9a":[9,2,2,0,0,0,0,2,5,8]
+"expected__MR__DistanceMap__std__string_8h.html#acdd9864d3f00b837b729f8373d7f90c2":[9,2,2,0,0,0,0,2,5,1]
 };

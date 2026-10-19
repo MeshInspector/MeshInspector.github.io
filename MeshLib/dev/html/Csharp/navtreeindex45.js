@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a96efde9039ac3948eca4fa52a492dded":[9,3,0,0,0,425,1,8],
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a97158a8a4dd024d3a9276aa638aaae06":[9,3,0,0,0,425,1,0],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#ac16fe907a6abede5319ac83459a080e7":[9,3,0,0,0,425,1,3],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776":[9,3,0,0,0,425,1,7],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html":[9,3,0,0,0,426],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__EmbeddedStructureParameters.html#a29680f5ba51967d26e63632bb0cfe0b1":[9,3,0,0,0,436,14],
 "classMR_1_1Const__EmbeddedStructureParameters.html#a414ddeaf30ba73f1caa321624cb6c032":[9,3,0,0,0,436,15],
 "classMR_1_1Const__EmbeddedStructureParameters.html#a432b40e611f9bec4b7768db67dbe4f48":[9,3,0,0,0,436,16],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a46b0f00ff55432797b36d6e7f3e3cf98":[9,3,0,0,0,436,10],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a52987f588129b9fd7d048a823afb6e8a":[9,3,0,0,0,436,1],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a550d666be000fe3ddb8dd236650a02a1":[9,3,0,0,0,436,7]
+"classMR_1_1Const__EmbeddedStructureParameters.html#a46b0f00ff55432797b36d6e7f3e3cf98":[9,3,0,0,0,436,10]
 };
