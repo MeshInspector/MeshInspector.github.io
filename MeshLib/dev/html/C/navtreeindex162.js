@@ -1,5 +1,12 @@
 var NAVTREEINDEX162 =
 {
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a340b1ce7b965624d9c14200e2adb5404":[9,2,2,0,0,1,0,0,12,1],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a4f7d9454fc8fa6cdce31c0e492437308":[9,2,2,0,0,1,0,0,12,15],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a522175f2482bbce9f9fafbdfe5ae0886":[9,2,2,0,0,1,0,0,12,3],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a57e3eeb238a9696aece1e997b36a27ce":[9,2,2,0,0,1,0,0,12,9],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a620aa1af22759241ce382d1a13c8e55c":[9,2,2,0,0,1,0,0,12,21],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a711e93bc1f9cc8c144c6a37584317c0c":[9,2,2,0,0,1,0,0,12,16],
+"std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a749ea1de2e5fcd2e0f35d65c8293d69b":[9,2,2,0,0,1,0,0,12,10],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a849352edd4a22a97fd742423756d77c8":[9,2,2,0,0,1,0,0,12,17],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#a9b51396faae7b97d4689e6fe1027557f":[9,2,2,0,0,1,0,0,12,5],
 "std__shared__ptr__MR__Cuda__ComputePointsToDistanceVolume_8h.html#aa38827560cd64569b28362ca4873ae89":[9,2,2,0,0,1,0,0,12,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX162 =
 "std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#aad7b5866ea5ae911bbe9439f312cee40":[9,2,2,0,0,0,0,2,357,21],
 "std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#ab142a4daa55eb9d806807ae65ed335e1":[9,2,2,0,0,0,0,2,357,5],
 "std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#ab701719d37ce73671d20ebfba5982c28":[9,2,2,0,0,0,0,2,357,15],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#acfe2e027bff5dded57d4948985375723":[9,2,2,0,0,0,0,2,357,14],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#ae676ae1464acec569dfdb10f06acf794":[9,2,2,0,0,0,0,2,357,2],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#aea5edd76e1ee2cbb544d0871c097d311":[9,2,2,0,0,0,0,2,357,7],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#af1d3069c70acefcaf060cb2c9f320a62":[9,2,2,0,0,0,0,2,357,11],
-"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h_source.html":[9,2,2,0,0,0,0,2,357],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html":[9,2,2,0,0,0,0,2,356],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a0ace502fa08f84485e4ce9e8add1e8fe":[9,2,2,0,0,0,0,2,356,7],
-"std__shared__ptr__MR__IComputePointsToDistanceVolume_8h.html#a1591e8794d970d0353940b4abd2a643e":[9,2,2,0,0,0,0,2,356,2]
+"std__shared__ptr__MR__IComputePointsToDistanceVolumeByParts_8h.html#acfe2e027bff5dded57d4948985375723":[9,2,2,0,0,0,0,2,357,14]
 };

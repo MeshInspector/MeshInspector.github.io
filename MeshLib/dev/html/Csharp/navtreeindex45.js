@@ -1,5 +1,10 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#ac16fe907a6abede5319ac83459a080e7":[9,3,0,0,0,425,1,3],
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776":[9,3,0,0,0,425,1,7],
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html":[9,3,0,0,0,426],
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a16253ac1c0a6e7527ac24d5f94a51169":[9,3,0,0,0,426,13],
+"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a1888f2bb667507fb6b833c06cfed24c5":[9,3,0,0,0,426,12],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a2c81693dedebda359ea0a2ee162fab1c":[9,3,0,0,0,426,11],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a62ab3e81ad88d2c7a6ad71103e549ce7":[9,3,0,0,0,426,7],
 "classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a69191060f0d4f9dbff4c42d06c6db29c":[9,3,0,0,0,426,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1Const__EmbeddedStructureParameters.html#a432b40e611f9bec4b7768db67dbe4f48":[9,3,0,0,0,436,16],
 "classMR_1_1Const__EmbeddedStructureParameters.html#a46b0f00ff55432797b36d6e7f3e3cf98":[9,3,0,0,0,436,10],
 "classMR_1_1Const__EmbeddedStructureParameters.html#a52987f588129b9fd7d048a823afb6e8a":[9,3,0,0,0,436,1],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a550d666be000fe3ddb8dd236650a02a1":[9,3,0,0,0,436,7],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a566ad505b4ca0ea57c241a8277e16a01":[9,3,0,0,0,436,0],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a5e957b5885e80b07292d34a8bec32bd5":[9,3,0,0,0,436,13],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a653bbf055a2191768f320545960a51b2":[9,3,0,0,0,436,6],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a68c38338cbeb4a2e1d1a3d3108629c5a":[9,3,0,0,0,436,9],
-"classMR_1_1Const__EmbeddedStructureParameters.html#a9e9da76f3411eb2107d19fb419bf9dd6":[9,3,0,0,0,436,8]
+"classMR_1_1Const__EmbeddedStructureParameters.html#a550d666be000fe3ddb8dd236650a02a1":[9,3,0,0,0,436,7]
 };

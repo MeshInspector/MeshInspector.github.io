@@ -1,5 +1,12 @@
 var NAVTREEINDEX152 =
 {
+"std__optional__MR__AllLocalTriangulations_8h.html#a8655cee9cf8bdac376553d14f2574f34":[9,2,2,0,0,0,0,2,206,6],
+"std__optional__MR__AllLocalTriangulations_8h.html#aa22af46c651d6c6134e53b6f6626503b":[9,2,2,0,0,0,0,2,206,5],
+"std__optional__MR__AllLocalTriangulations_8h.html#aa8ad733e73010c27e50140102f4a8613":[9,2,2,0,0,0,0,2,206,2],
+"std__optional__MR__AllLocalTriangulations_8h.html#acc3fe77142977e5047c6fbe791caed29":[9,2,2,0,0,0,0,2,206,12],
+"std__optional__MR__AllLocalTriangulations_8h.html#ad11fe80af37aaf1cd4ef49b822c5ceaf":[9,2,2,0,0,0,0,2,206,10],
+"std__optional__MR__AllLocalTriangulations_8h.html#af1393a8e79233d89042c93ebf771165c":[9,2,2,0,0,0,0,2,206,11],
+"std__optional__MR__AllLocalTriangulations_8h.html#af25118fdddd16671c9108d79597a08d6":[9,2,2,0,0,0,0,2,206,7],
 "std__optional__MR__AllLocalTriangulations_8h_source.html":[9,2,2,0,0,0,0,2,206],
 "std__optional__MR__Box1f_8h.html":[9,2,2,0,0,0,0,2,207],
 "std__optional__MR__Box1f_8h.html#a055b57f1ee62be2306e418786a7756d0":[9,2,2,0,0,0,0,2,207,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX152 =
 "std__optional__MR__Plane3d_8h.html#a2ae02eafcd23c1ff34991fc3db59370c":[9,2,2,0,0,0,0,2,223,10],
 "std__optional__MR__Plane3d_8h.html#a2f1ae1a6ab9b69ac2387a065357d028e":[9,2,2,0,0,0,0,2,223,3],
 "std__optional__MR__Plane3d_8h.html#a506db4006f6da3de9d8877f032dfb56b":[9,2,2,0,0,0,0,2,223,4],
-"std__optional__MR__Plane3d_8h.html#a6668da408647f3e2e43fa57e9a0e3633":[9,2,2,0,0,0,0,2,223,2],
-"std__optional__MR__Plane3d_8h.html#a8b3c52c1aa8375a5475a52276fd7ed5f":[9,2,2,0,0,0,0,2,223,0],
-"std__optional__MR__Plane3d_8h.html#aa632868fff1676942c9b97989ba50c24":[9,2,2,0,0,0,0,2,223,8],
-"std__optional__MR__Plane3d_8h.html#ab19258e07f4439e60790cf4fa84b043a":[9,2,2,0,0,0,0,2,223,11],
-"std__optional__MR__Plane3d_8h.html#ab8e9c9af984e9ed5495a3efd072f7eb4":[9,2,2,0,0,0,0,2,223,12],
-"std__optional__MR__Plane3d_8h.html#ac1ec2a957e20ab847148add587638773":[9,2,2,0,0,0,0,2,223,1],
-"std__optional__MR__Plane3d_8h.html#ad1c6c9dc53beeec7369003e55bb38a39":[9,2,2,0,0,0,0,2,223,6],
-"std__optional__MR__Plane3d_8h.html#adffbc7b345bfac0b5f1bc5f3952ad288":[9,2,2,0,0,0,0,2,223,7]
+"std__optional__MR__Plane3d_8h.html#a6668da408647f3e2e43fa57e9a0e3633":[9,2,2,0,0,0,0,2,223,2]
 };

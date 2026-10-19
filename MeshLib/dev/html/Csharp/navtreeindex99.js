@@ -1,5 +1,10 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#aec9c9bccd4d1ade2320a06ccdf382a00":[9,3,0,0,0,1133,3,5],
+"classMR_1_1Cuda_1_1Const__ComputeToolDistance.html#afb97876686758a4ccd3d0928c7598dfd":[9,3,0,0,0,1133,3,3],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html":[9,3,0,0,0,1133,4],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a0e260c32a75de4d62eb7229e96bb6688":[9,3,0,0,0,1133,4,5],
+"classMR_1_1Cuda_1_1Const__DeviceInfo.html#a0fd0cddd12de58e7801bc739abdc850c":[9,3,0,0,0,1133,4,7],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a12486a5f9436c08cf642f7e400e39baf":[9,3,0,0,0,1133,4,16],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a14498b2cb061dd931adf704c3f59ef98":[9,3,0,0,0,1133,4,1],
 "classMR_1_1Cuda_1_1Const__DeviceInfo.html#a20cfc9510ee780771f5ea96b12fccef6":[9,3,0,0,0,1133,4,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1CylinderObject.html#af04795f3d4e04142b9294bb9cacbd153":[9,3,0,0,0,1142,3],
 "classMR_1_1CylinderObject.html#af420d5ada88b57cbf980c97e1b740758":[9,3,0,0,0,1142,13],
 "classMR_1_1CylinderObject.html#af4ec98491c931751de28d37e844c9bf4":[9,3,0,0,0,1142,35],
-"classMR_1_1CylinderObject.html#af72951f762f87e6c80a93c967ca31495":[9,3,0,0,0,1142,65],
-"classMR_1_1CylinderObject.html#afc069ea722422c8eb8e9c61c1c077f84":[9,3,0,0,0,1142,1],
-"classMR_1_1DecimatePolylineResult.html":[9,3,0,0,0,1143],
-"classMR_1_1DecimatePolylineResult.html#a24517383d0d4683f49cdcd25ed04e217":[9,3,0,0,0,1143,2],
-"classMR_1_1DecimatePolylineResult.html#a3e3c6467c81adc273ddfd6b468d4ddc6":[9,3,0,0,0,1143,5],
-"classMR_1_1DecimatePolylineResult.html#a47c127e3e1326913eebaa2e6618b30cb":[9,3,0,0,0,1143,6]
+"classMR_1_1CylinderObject.html#af72951f762f87e6c80a93c967ca31495":[9,3,0,0,0,1142,65]
 };

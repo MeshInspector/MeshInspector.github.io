@@ -1,5 +1,10 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1Const__DoubleOffsetSettings.html#a02807edd03344f7c2f287e97454ffa30":[9,3,0,0,0,417,6],
+"classMR_1_1Const__DoubleOffsetSettings.html#a0edf0ba91aafb73645fa07922e46e42b":[9,3,0,0,0,417,11],
+"classMR_1_1Const__DoubleOffsetSettings.html#a2a46424d9ab827038dff47607938a809":[9,3,0,0,0,417,15],
+"classMR_1_1Const__DoubleOffsetSettings.html#a446701f97463d385d2b9956f8dca0b36":[9,3,0,0,0,417,16],
+"classMR_1_1Const__DoubleOffsetSettings.html#a4809fcfd338dab19285f7943e5b133d6":[9,3,0,0,0,417,0],
 "classMR_1_1Const__DoubleOffsetSettings.html#a4e57251e5a5bae849e217ac9e5eea1cc":[9,3,0,0,0,417,4],
 "classMR_1_1Const__DoubleOffsetSettings.html#a4efdcaa5282c6ccd03f2e62241088b77":[9,3,0,0,0,417,19],
 "classMR_1_1Const__DoubleOffsetSettings.html#a501d0eb22d2fd31a6a5e3173491cb1fb":[9,3,0,0,0,417,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a7716bf516b460d0529be0c2e6e6a95a2":[9,3,0,0,0,425,1,4],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a8758a1d2c2a40e7f521b3fe4816c9821":[9,3,0,0,0,425,1,1],
 "classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a96efde9039ac3948eca4fa52a492dded":[9,3,0,0,0,425,1,8],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a97158a8a4dd024d3a9276aa638aaae06":[9,3,0,0,0,425,1,0],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#ac16fe907a6abede5319ac83459a080e7":[9,3,0,0,0,425,1,3],
-"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#af9bd1c7b275e9289597d6103fed37776":[9,3,0,0,0,425,1,7],
-"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html":[9,3,0,0,0,426],
-"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a16253ac1c0a6e7527ac24d5f94a51169":[9,3,0,0,0,426,13],
-"classMR_1_1Const__EdgePathsBuilderT__MRTrivialMetricToPenalty.html#a1888f2bb667507fb6b833c06cfed24c5":[9,3,0,0,0,426,12]
+"classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert.html#a97158a8a4dd024d3a9276aa638aaae06":[9,3,0,0,0,425,1,0]
 };

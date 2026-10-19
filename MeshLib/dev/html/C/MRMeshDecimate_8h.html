@@ -154,6 +154,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a1f79512fa06dde5c5b86fd13227b4af0" id="r_a1f79512fa06dde5c5b86fd13227b4af0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1f79512fa06dde5c5b86fd13227b4af0">MR_std_optional_MR_ObjectMeshData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f79512fa06dde5c5b86fd13227b4af0">MR_std_optional_MR_ObjectMeshData</a></td></tr>
 <tr class="memitem:ac2f5218d1fa6814d6c1ab3326cbcd560" id="r_ac2f5218d1fa6814d6c1ab3326cbcd560"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a4dc6be73767d7ac8f4650391559d2b64">MR_DecimateStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2f5218d1fa6814d6c1ab3326cbcd560">MR_DecimateStrategy</a></td></tr>
 <tr class="memdesc:ac2f5218d1fa6814d6c1ab3326cbcd560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <br /></td></tr>
+<tr class="memitem:a00e2eac4918024a1655818dc389e67de" id="r_a00e2eac4918024a1655818dc389e67de"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e2eac4918024a1655818dc389e67de">MR_DecimatePartsMode</a></td></tr>
+<tr class="memdesc:a00e2eac4918024a1655818dc389e67de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1)  <br /></td></tr>
 <tr class="memitem:a6e3ff7daeb59ebc150f578d14cef449a" id="r_a6e3ff7daeb59ebc150f578d14cef449a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a></td></tr>
 <tr class="memitem:a1c2bfbb682daa7da43026c7be3a4796e" id="r_a1c2bfbb682daa7da43026c7be3a4796e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1c2bfbb682daa7da43026c7be3a4796e">MR_DecimateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c2bfbb682daa7da43026c7be3a4796e">MR_DecimateResult</a></td></tr>
 <tr class="memitem:a9e532a8dde170a330f509fc8d387aa1e" id="r_a9e532a8dde170a330f509fc8d387aa1e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9e532a8dde170a330f509fc8d387aa1e">MR_ResolveMeshDegenSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e532a8dde170a330f509fc8d387aa1e">MR_ResolveMeshDegenSettings</a></td></tr>
@@ -165,6 +167,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893">MR_DecimateStrategy_ShortestEdgeFirst</a> = 1
  }</td></tr>
 <tr class="memdesc:a4dc6be73767d7ac8f4650391559d2b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#a4dc6be73767d7ac8f4650391559d2b64">More...</a><br /></td></tr>
+<tr class="memitem:a310d769cca56860c6d0b5b64daefc1dc" id="r_a310d769cca56860c6d0b5b64daefc1dc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> { <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dca66558caf17b318f9dc5ddf9a1d43a7d8">MR_DecimatePartsMode_PackedMesh</a> = 0
+, <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dca3f9f9e5c45a580de9847bc32bef9cfe2">MR_DecimatePartsMode_AABBTree</a> = 1
+ }</td></tr>
+<tr class="memdesc:a310d769cca56860c6d0b5b64daefc1dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1)  <a href="#a310d769cca56860c6d0b5b64daefc1dc">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -267,6 +273,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3d741b90aeb3ba8e54d74ca19fc63c0f" id="r_a3d741b90aeb3ba8e54d74ca19fc63c0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d741b90aeb3ba8e54d74ca19fc63c0f">MR_DecimateSettings_Get_subdivideParts</a> (const <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
 <tr class="memitem:a3cffeb8691245162333b40c6b03532e6" id="r_a3cffeb8691245162333b40c6b03532e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cffeb8691245162333b40c6b03532e6">MR_DecimateSettings_Set_subdivideParts</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this, int value)</td></tr>
 <tr class="memitem:a8cec86b6f534bf716402d4baa714fb50" id="r_a8cec86b6f534bf716402d4baa714fb50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cec86b6f534bf716402d4baa714fb50">MR_DecimateSettings_GetMutable_subdivideParts</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
+<tr class="memitem:a901d586963b23a865972b3c6043fbd1a" id="r_a901d586963b23a865972b3c6043fbd1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a901d586963b23a865972b3c6043fbd1a">MR_DecimateSettings_Get_partsMode</a> (const <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
+<tr class="memitem:acc8eef0c9ef14573530e6b4843228b6f" id="r_acc8eef0c9ef14573530e6b4843228b6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc8eef0c9ef14573530e6b4843228b6f">MR_DecimateSettings_Set_partsMode</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this, <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> value)</td></tr>
+<tr class="memitem:ac9aa0f7bc76ff30f1e50f934fd82e28a" id="r_ac9aa0f7bc76ff30f1e50f934fd82e28a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9aa0f7bc76ff30f1e50f934fd82e28a">MR_DecimateSettings_GetMutable_partsMode</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
 <tr class="memitem:afb32f5b28e42df692b9d7fb6ed603d9c" id="r_afb32f5b28e42df692b9d7fb6ed603d9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb32f5b28e42df692b9d7fb6ed603d9c">MR_DecimateSettings_Get_decimateBetweenParts</a> (const <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
 <tr class="memitem:a0ee5c69f12d0f281e8cd58ad161bf7af" id="r_a0ee5c69f12d0f281e8cd58ad161bf7af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ee5c69f12d0f281e8cd58ad161bf7af">MR_DecimateSettings_Set_decimateBetweenParts</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this, bool value)</td></tr>
 <tr class="memitem:aaaf61520eb936c3e32ae1914418a0875" id="r_aaaf61520eb936c3e32ae1914418a0875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf61520eb936c3e32ae1914418a0875">MR_DecimateSettings_GetMutable_decimateBetweenParts</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
@@ -278,7 +287,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a2262fed9ad3b37b373946c4f375b5178" id="r_a2262fed9ad3b37b373946c4f375b5178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2262fed9ad3b37b373946c4f375b5178">MR_DecimateSettings_GetMutable_minFacesInPart</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_this)</td></tr>
 <tr class="memitem:a11fc6de32c51d96f2d0ecf2cdf0d89f2" id="r_a11fc6de32c51d96f2d0ecf2cdf0d89f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11fc6de32c51d96f2d0ecf2cdf0d89f2">MR_DecimateSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="memitem:a71192febccae648d80fefdfdf94dadbc" id="r_a71192febccae648d80fefdfdf94dadbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71192febccae648d80fefdfdf94dadbc">MR_DecimateSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a200550115f795b9cef277277153b0b93" id="r_a200550115f795b9cef277277153b0b93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a200550115f795b9cef277277153b0b93">MR_DecimateSettings_ConstructFrom</a> (<a class="el" href="#a4dc6be73767d7ac8f4650391559d2b64">MR_DecimateStrategy</a> strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, bool preventNormalFlips, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, bool collapseNearNotFlippable, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edgesToCollapse, <a class="el" href="MRBitSet_8h.html#ab75e1f6cb82a9cc94c4465f6f148d60c">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId</a> *twinMap, bool touchNearBdEdges, bool touchBdVerts, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *bdVerts, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *regionEdges, float maxAngleChange, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> preCollapse_pass_by, <a class="el" href="#ab21e9d887739d4c46e4480f89c5565d3">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</a> *preCollapse, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> adjustCollapse_pass_by, <a class="el" href="#a694819557dec9d9544052ae7aa406eff">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</a> *adjustCollapse, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeDel_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeDel, <a class="el" href="#a4e8b64eda278d91e3e5819be7d109e71">MR_Vector_MR_QuadraticForm3f_MR_VertId</a> *vertForms, bool packMesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback, int subdivideParts, bool decimateBetweenParts, <a class="el" href="MRContoursSeparation_8h.html#a0169cde57dbd417b44427c47cd152645">MR_std_vector_MR_FaceBitSet</a> *partFaces, int minFacesInPart)</td></tr>
+<tr class="memitem:ab52b53c579d7953c9ad20fd8efdac1e6" id="r_ab52b53c579d7953c9ad20fd8efdac1e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab52b53c579d7953c9ad20fd8efdac1e6">MR_DecimateSettings_ConstructFrom</a> (<a class="el" href="#a4dc6be73767d7ac8f4650391559d2b64">MR_DecimateStrategy</a> strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, bool preventNormalFlips, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, bool collapseNearNotFlippable, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edgesToCollapse, <a class="el" href="MRBitSet_8h.html#ab75e1f6cb82a9cc94c4465f6f148d60c">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_MR_UndirectedEdgeId</a> *twinMap, bool touchNearBdEdges, bool touchBdVerts, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *bdVerts, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *regionEdges, float maxAngleChange, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> preCollapse_pass_by, <a class="el" href="#ab21e9d887739d4c46e4480f89c5565d3">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</a> *preCollapse, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> adjustCollapse_pass_by, <a class="el" href="#a694819557dec9d9544052ae7aa406eff">MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</a> *adjustCollapse, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeDel_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeDel, <a class="el" href="#a4e8b64eda278d91e3e5819be7d109e71">MR_Vector_MR_QuadraticForm3f_MR_VertId</a> *vertForms, bool packMesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback, int subdivideParts, <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> partsMode, bool decimateBetweenParts, <a class="el" href="MRContoursSeparation_8h.html#a0169cde57dbd417b44427c47cd152645">MR_std_vector_MR_FaceBitSet</a> *partFaces, int minFacesInPart)</td></tr>
 <tr class="memitem:a6df6d574a873cbde9b7eea445b0228af" id="r_a6df6d574a873cbde9b7eea445b0228af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df6d574a873cbde9b7eea445b0228af">MR_DecimateSettings_OffsetPtr</a> (const <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a0ea64b3d47778328d7dbe81bf0b20604" id="r_a0ea64b3d47778328d7dbe81bf0b20604"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea64b3d47778328d7dbe81bf0b20604">MR_DecimateSettings_OffsetMutablePtr</a> (<a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a105ccafb7f2f8853c907acd7290e5fa5" id="r_a105ccafb7f2f8853c907acd7290e5fa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a105ccafb7f2f8853c907acd7290e5fa5">MR_DecimateSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *_other)</td></tr>
@@ -419,6 +428,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a68e166ab1440679dbc41ea6c693e22f0" id="r_a68e166ab1440679dbc41ea6c693e22f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e166ab1440679dbc41ea6c693e22f0">MR_remesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a532d0e68d8ead398ebeabe06add523ba">MR_RemeshSettings</a> *settings)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a00e2eac4918024a1655818dc389e67de" name="a00e2eac4918024a1655818dc389e67de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e2eac4918024a1655818dc389e67de">&#9670;&#160;</a></span>MR_DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1) </p>
+
+</div>
+</div>
 <a id="a1c2bfbb682daa7da43026c7be3a4796e" name="a1c2bfbb682daa7da43026c7be3a4796e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c2bfbb682daa7da43026c7be3a4796e">&#9670;&#160;</a></span>MR_DecimateResult</h2>
 
@@ -564,6 +589,28 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a310d769cca56860c6d0b5b64daefc1dc" name="a310d769cca56860c6d0b5b64daefc1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310d769cca56860c6d0b5b64daefc1dc">&#9670;&#160;</a></span>MR_DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a310d769cca56860c6d0b5b64daefc1dca66558caf17b318f9dc5ddf9a1d43a7d8" name="a310d769cca56860c6d0b5b64daefc1dca66558caf17b318f9dc5ddf9a1d43a7d8"></a>MR_DecimatePartsMode_PackedMesh&#160;</td><td class="fielddoc"><p>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a310d769cca56860c6d0b5b64daefc1dca3f9f9e5c45a580de9847bc32bef9cfe2" name="a310d769cca56860c6d0b5b64daefc1dca3f9f9e5c45a580de9847bc32bef9cfe2"></a>MR_DecimatePartsMode_AABBTree&#160;</td><td class="fielddoc"><p>the parts are subtrees of mesh's AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="a4dc6be73767d7ac8f4650391559d2b64" name="a4dc6be73767d7ac8f4650391559d2b64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4dc6be73767d7ac8f4650391559d2b64">&#9670;&#160;</a></span>MR_DecimateStrategy</h2>
 
@@ -1162,8 +1209,8 @@ After</div></div>
 
 </div>
 </div>
-<a id="a200550115f795b9cef277277153b0b93" name="a200550115f795b9cef277277153b0b93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a200550115f795b9cef277277153b0b93">&#9670;&#160;</a></span>MR_DecimateSettings_ConstructFrom()</h2>
+<a id="ab52b53c579d7953c9ad20fd8efdac1e6" name="ab52b53c579d7953c9ad20fd8efdac1e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52b53c579d7953c9ad20fd8efdac1e6">&#9670;&#160;</a></span>MR_DecimateSettings_ConstructFrom()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1341,6 +1388,11 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a></td>          <td class="paramname"><span class="paramname"><em>partsMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>decimateBetweenParts</em></span>, </td>
         </tr>
         <tr>
@@ -1355,7 +1407,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <span class="tt">MR::DecimateSettings</span> elementwise. The reference to the parameter <span class="tt">strategy</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">region</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">notFlippable</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">edgesToCollapse</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">twinMap</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">bdVerts</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">regionEdges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">preCollapse</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">adjustCollapse</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">onEdgeDel</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">vertForms</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">progressCallback</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">partFaces</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aba4b49c1fc63bf6029d452bff2a12f37" title="Destroys a heap-allocated instance of MR_DecimateSettings. Does nothing if the pointer is null.">MR_DecimateSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+<p>Constructs <span class="tt">MR::DecimateSettings</span> elementwise. The reference to the parameter <span class="tt">strategy</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">region</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">notFlippable</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">edgesToCollapse</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">twinMap</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">bdVerts</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">regionEdges</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">preCollapse</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">adjustCollapse</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">onEdgeDel</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">vertForms</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">progressCallback</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">partsMode</span> might be preserved in the constructed object. The reference to the parameter <span class="tt">partFaces</span> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aba4b49c1fc63bf6029d452bff2a12f37" title="Destroys a heap-allocated instance of MR_DecimateSettings. Does nothing if the pointer is null.">MR_DecimateSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>
@@ -1817,6 +1869,24 @@ After</div></div>
 
 </div>
 </div>
+<a id="a901d586963b23a865972b3c6043fbd1a" name="a901d586963b23a865972b3c6043fbd1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a901d586963b23a865972b3c6043fbd1a">&#9670;&#160;</a></span>MR_DecimateSettings_Get_partsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> * MR_DecimateSettings_Get_partsMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given Returns a pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">partsMode</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="a5323a60fdcb04781b92c01764fa5c30a" name="a5323a60fdcb04781b92c01764fa5c30a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5323a60fdcb04781b92c01764fa5c30a">&#9670;&#160;</a></span>MR_DecimateSettings_Get_preCollapse()</h2>
 
@@ -1959,7 +2029,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Returns a pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">subdivideParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Returns a pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">subdivideParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -2417,6 +2487,24 @@ After</div></div>
 
 </div>
 </div>
+<a id="ac9aa0f7bc76ff30f1e50f934fd82e28a" name="ac9aa0f7bc76ff30f1e50f934fd82e28a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9aa0f7bc76ff30f1e50f934fd82e28a">&#9670;&#160;</a></span>MR_DecimateSettings_GetMutable_partsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a> * MR_DecimateSettings_GetMutable_partsMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given Returns a mutable pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">partsMode</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
 <a id="abbc197d3f629c624fb908a83a5286003" name="abbc197d3f629c624fb908a83a5286003"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbc197d3f629c624fb908a83a5286003">&#9670;&#160;</a></span>MR_DecimateSettings_GetMutable_preCollapse()</h2>
 
@@ -2559,7 +2647,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Returns a mutable pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">subdivideParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Returns a mutable pointer to a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">subdivideParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3151,6 +3239,28 @@ After</div></div>
 
 </div>
 </div>
+<a id="acc8eef0c9ef14573530e6b4843228b6f" name="acc8eef0c9ef14573530e6b4843228b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8eef0c9ef14573530e6b4843228b6f">&#9670;&#160;</a></span>MR_DecimateSettings_Set_partsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DecimateSettings_Set_partsMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6e3ff7daeb59ebc150f578d14cef449a">MR_DecimateSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a310d769cca56860c6d0b5b64daefc1dc">MR_DecimatePartsMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given Modifies a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">partsMode</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">partsMode</span>. When this function is called, this object will drop object references it held previously in <span class="tt">partsMode</span>. </p>
+
+</div>
+</div>
 <a id="af830e4be7edf947f274e65c20eec63f4" name="af830e4be7edf947f274e65c20eec63f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af830e4be7edf947f274e65c20eec63f4">&#9670;&#160;</a></span>MR_DecimateSettings_Set_preCollapse()</h2>
 
@@ -3335,7 +3445,7 @@ After</div></div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Modifies a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">subdivideParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">subdivideParts</span>. </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad Modifies a member variable of class <span class="tt">MR::DecimateSettings</span> named <span class="tt">subdivideParts</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">subdivideParts</span>. </p>
 
 </div>
 </div>

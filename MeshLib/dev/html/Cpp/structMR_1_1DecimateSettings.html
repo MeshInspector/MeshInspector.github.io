@@ -188,6 +188,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa54526c521844dcca8dc5aa91e3628de" id="r_aa54526c521844dcca8dc5aa91e3628de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54526c521844dcca8dc5aa91e3628de">progressCallback</a></td></tr>
 <tr class="memdesc:aa54526c521844dcca8dc5aa91e3628de"><td class="mdescLeft">&#160;</td><td class="mdescRight">callback to report algorithm progress and cancel it by user request  <br /></td></tr>
 <tr class="memitem:a8f97c534c28993195cc07d01e1721fe4" id="r_a8f97c534c28993195cc07d01e1721fe4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f97c534c28993195cc07d01e1721fe4">subdivideParts</a> = 1</td></tr>
+<tr class="memitem:a5c45e6bbbd754a83383dc12b0564c009" id="r_a5c45e6bbbd754a83383dc12b0564c009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35">DecimatePartsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c45e6bbbd754a83383dc12b0564c009">partsMode</a> = <a class="el" href="group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">DecimatePartsMode::PackedMesh</a></td></tr>
+<tr class="memdesc:a5c45e6bbbd754a83383dc12b0564c009"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given  <br /></td></tr>
 <tr class="memitem:a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" id="r_a75b6f5ba5cb1ddac954f9ffd4fb9b7fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe">decimateBetweenParts</a> = true</td></tr>
 <tr class="memitem:a7d69e19f2609b7330c6ac5d17a9ebfff" id="r_a7d69e19f2609b7330c6ac5d17a9ebfff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69e19f2609b7330c6ac5d17a9ebfff">partFaces</a> = nullptr</td></tr>
 <tr class="memitem:a7cc18ed533890cfc09a39ba3724b5f85" id="r_a7cc18ed533890cfc09a39ba3724b5f85"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cc18ed533890cfc09a39ba3724b5f85">minFacesInPart</a> = 0</td></tr>
@@ -507,6 +509,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5c45e6bbbd754a83383dc12b0564c009" name="a5c45e6bbbd754a83383dc12b0564c009"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c45e6bbbd754a83383dc12b0564c009">&#9670;&#160;</a></span>partsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35">DecimatePartsMode</a> MR::DecimateSettings::partsMode = <a class="el" href="group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">DecimatePartsMode::PackedMesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given </p>
+
+</div>
+</div>
 <a id="a5901e72dc3fd85459f38318a894afbbd" name="a5901e72dc3fd85459f38318a894afbbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5901e72dc3fd85459f38318a894afbbd">&#9670;&#160;</a></span>preCollapse</h2>
 
@@ -626,7 +644,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>

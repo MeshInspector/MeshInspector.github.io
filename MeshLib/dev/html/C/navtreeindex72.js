@@ -1,5 +1,12 @@
 var NAVTREEINDEX72 =
 {
+"MRNormalDenoising_8h.html#a2e109c0a25f2510d1b0ee54b7527671b":[9,2,2,0,0,0,0,1,223,25],
+"MRNormalDenoising_8h.html#a30103115a62480d9c220844d01ce1a32":[9,2,2,0,0,0,0,1,223,48],
+"MRNormalDenoising_8h.html#a3aa421f93ae0a3ff1443d0f3ba1409cf":[9,2,2,0,0,0,0,1,223,1],
+"MRNormalDenoising_8h.html#a4033fc4d1d6c120433a89224c2e3d99f":[9,2,2,0,0,0,0,1,223,46],
+"MRNormalDenoising_8h.html#a4327cc1b14fa192ba7fcb3e1d4c8a477":[9,2,2,0,0,0,0,1,223,23],
+"MRNormalDenoising_8h.html#a497741494ff8ba75853707db48df0097":[9,2,2,0,0,0,0,1,223,31],
+"MRNormalDenoising_8h.html#a4d28cfae84e8457c7af73be2cfb30f05":[9,2,2,0,0,0,0,1,223,52],
 "MRNormalDenoising_8h.html#a5044557867c70d83cef5bb325cc0fb23":[9,2,2,0,0,0,0,1,223,70],
 "MRNormalDenoising_8h.html#a51d9d0e2236de9d4ec77e10d6eb5b8b8":[9,2,2,0,0,0,0,1,223,17],
 "MRNormalDenoising_8h.html#a52a06d777bcadf60ac028f09c435255d":[9,2,2,0,0,0,0,1,223,43],
@@ -242,12 +249,5 @@ var NAVTREEINDEX72 =
 "MRObjectDistanceMap_8h.html#a5daccea74da9ca2f3b6ce74b4013f8e9":[9,2,2,0,0,0,0,1,228,220],
 "MRObjectDistanceMap_8h.html#a5e8bf7a358048f80eba09cb5582bac5b":[9,2,2,0,0,0,0,1,228,214],
 "MRObjectDistanceMap_8h.html#a5fd06049e3d01169eb27b6c8c3526c85":[9,2,2,0,0,0,0,1,228,208],
-"MRObjectDistanceMap_8h.html#a62a537a81a232a5bac02d217e9245410":[9,2,2,0,0,0,0,1,228,40],
-"MRObjectDistanceMap_8h.html#a637b207e5d379e669ae2a8c65efcbbf0":[9,2,2,0,0,0,0,1,228,193],
-"MRObjectDistanceMap_8h.html#a644aded507946b62f853437921ff2560":[9,2,2,0,0,0,0,1,228,90],
-"MRObjectDistanceMap_8h.html#a6585bf6a8be60d08723d87c0214e1983":[9,2,2,0,0,0,0,1,228,171],
-"MRObjectDistanceMap_8h.html#a661d56711d8aacf570cc5e381f4b9b39":[9,2,2,0,0,0,0,1,228,75],
-"MRObjectDistanceMap_8h.html#a67c13dc9fd94f688d7ae317455f21907":[9,2,2,0,0,0,0,1,228,142],
-"MRObjectDistanceMap_8h.html#a699c1fb5a31f757ad2c1cf9f63596ee4":[9,2,2,0,0,0,0,1,228,22],
-"MRObjectDistanceMap_8h.html#a6a66c3a9630ea1e8ca68879198d7c78f":[9,2,2,0,0,0,0,1,228,202]
+"MRObjectDistanceMap_8h.html#a62a537a81a232a5bac02d217e9245410":[9,2,2,0,0,0,0,1,228,40]
 };

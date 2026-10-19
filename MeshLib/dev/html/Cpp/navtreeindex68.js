@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1PointCloud.html#a050308043ec1ab0b5b1170e045463514":[9,0,0,12,0,20],
+"structMR_1_1PointCloud.html#a062a286ba8240f571adaabc6c788dcdd":[9,0,0,12,0,15],
+"structMR_1_1PointCloud.html#a0cbf3a6974c5e59d24276dca0227ab0b":[9,0,0,12,0,16],
+"structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4":[9,0,0,12,0,24],
 "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad":[9,0,0,12,0,23],
 "structMR_1_1PointCloud.html#a2a3bb316a10b49cacc3843090aa06a22":[9,0,0,12,0,11],
 "structMR_1_1PointCloud.html#a400e79598dd6367452f3bfe56249615b":[9,0,0,12,0,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1RibbonMenuUIConfig.html":[9,0,0,20,696],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[9,0,0,20,692],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[9,0,0,20,691],
-"structMR_1_1RibbonNotification.html":[9,0,0,20,698],
-"structMR_1_1RibbonSchema.html":[9,0,0,20,708],
-"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[9,0,0,20,712],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[9,0,0,20,710],
-"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[9,0,0,20,711]
+"structMR_1_1RibbonNotification.html":[9,0,0,20,698]
 };

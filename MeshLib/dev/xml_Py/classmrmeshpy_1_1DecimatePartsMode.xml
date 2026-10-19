@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DecimatePartsMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DecimatePartsMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePartsMode_1a1054b2fda0cf2b36b32283539049f5c2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePartsMode::AABBTree</definition>
+        <argsstring></argsstring>
+        <name>AABBTree</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.AABBTree</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DecimatePartsMode" kindref="compound">DecimatePartsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePartsMode_1a2d7ea35590d948214d3c491d4e67c61e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePartsMode::PackedMesh</definition>
+        <argsstring></argsstring>
+        <name>PackedMesh</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.PackedMesh</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DecimatePartsMode" kindref="compound">DecimatePartsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePartsMode_1a31003a2f494221e1ab293040ea31c7cf" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePartsMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1DecimatePartsMode" kindref="compound">DecimatePartsMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14202" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1abc4e3719c5af2a6a4547b7c437c969b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimatePartsMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14203" bodyend="14204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1af1b084ab939c7834fd349a7edf6a94eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePartsMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14205" bodyend="14206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a64c29b2b9890ac36ffc302050d9a2488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePartsMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14207" bodyend="14208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a23452ee8d44be241f152d1e07a010ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePartsMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14209" bodyend="14210"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a725dda667307b6df1e71ee20268bbe47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePartsMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14211" bodyend="14212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a82ff7944c8cac7b2f06470d963842a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePartsMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14213" bodyend="14214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a0a4e7eebde7f6d1dfeafa5c8ee27fa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimatePartsMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14215" bodyend="14216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a5a10464705c3beb6db5a1ec5b7834865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DecimatePartsMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14217" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14217" bodyend="14218"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a19a46fcaa99d8fe87fe7e8d54ea9f00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePartsMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14219" bodyend="14220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a67e8868c1849df9c5d428f0749f3cc7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DecimatePartsMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14221" bodyend="14222"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1aa001dfc515455d6a9e479a060e366698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DecimatePartsMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14224" bodyend="14225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePartsMode_1a41915f4beaeea831cefac810e136bc0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePartsMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.DecimatePartsMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14227" bodyend="14228"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  PackedMesh : the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids
+
+  AABBTree : the parts are subtrees of mesh&apos;s AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed;
+the number of parts is rounded up to a power of two
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14191" bodyend="14228"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1abc4e3719c5af2a6a4547b7c437c969b6" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1af1b084ab939c7834fd349a7edf6a94eb" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a64c29b2b9890ac36ffc302050d9a2488" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a23452ee8d44be241f152d1e07a010ecd" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a725dda667307b6df1e71ee20268bbe47" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a82ff7944c8cac7b2f06470d963842a7d" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a31003a2f494221e1ab293040ea31c7cf" prot="private" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a0a4e7eebde7f6d1dfeafa5c8ee27fa29" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a5a10464705c3beb6db5a1ec5b7834865" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a19a46fcaa99d8fe87fe7e8d54ea9f00f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a67e8868c1849df9c5d428f0749f3cc7e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a1054b2fda0cf2b36b32283539049f5c2" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>AABBTree</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1aa001dfc515455d6a9e479a060e366698" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a2d7ea35590d948214d3c491d4e67c61e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>PackedMesh</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePartsMode_1a41915f4beaeea831cefac810e136bc0f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePartsMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

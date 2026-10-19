@@ -1,5 +1,6 @@
 var MRMeshDecimate_8h =
 [
+    [ "MR_DecimatePartsMode", "MRMeshDecimate_8h.html#a00e2eac4918024a1655818dc389e67de", null ],
     [ "MR_DecimateResult", "MRMeshDecimate_8h.html#a1c2bfbb682daa7da43026c7be3a4796e", null ],
     [ "MR_DecimateSettings", "MRMeshDecimate_8h.html#a6e3ff7daeb59ebc150f578d14cef449a", null ],
     [ "MR_DecimateStrategy", "MRMeshDecimate_8h.html#ac2f5218d1fa6814d6c1ab3326cbcd560", null ],
@@ -9,6 +10,10 @@ var MRMeshDecimate_8h =
     [ "MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref", "MRMeshDecimate_8h.html#a694819557dec9d9544052ae7aa406eff", null ],
     [ "MR_std_optional_MR_ObjectMeshData", "MRMeshDecimate_8h.html#a1f79512fa06dde5c5b86fd13227b4af0", null ],
     [ "MR_Vector_MR_QuadraticForm3f_MR_VertId", "MRMeshDecimate_8h.html#a4e8b64eda278d91e3e5819be7d109e71", null ],
+    [ "MR_DecimatePartsMode", "MRMeshDecimate_8h.html#a310d769cca56860c6d0b5b64daefc1dc", [
+      [ "MR_DecimatePartsMode_PackedMesh", "MRMeshDecimate_8h.html#a310d769cca56860c6d0b5b64daefc1dca66558caf17b318f9dc5ddf9a1d43a7d8", null ],
+      [ "MR_DecimatePartsMode_AABBTree", "MRMeshDecimate_8h.html#a310d769cca56860c6d0b5b64daefc1dca3f9f9e5c45a580de9847bc32bef9cfe2", null ]
+    ] ],
     [ "MR_DecimateStrategy", "MRMeshDecimate_8h.html#a4dc6be73767d7ac8f4650391559d2b64", [
       [ "MR_DecimateStrategy_MinimizeError", "MRMeshDecimate_8h.html#a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5", null ],
       [ "MR_DecimateStrategy_ShortestEdgeFirst", "MRMeshDecimate_8h.html#a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893", null ]
@@ -39,7 +44,7 @@ var MRMeshDecimate_8h =
     [ "MR_DecimateResult_Set_facesDeleted", "MRMeshDecimate_8h.html#a6cdc39de92be28d091655150d5830713", null ],
     [ "MR_DecimateResult_Set_vertsDeleted", "MRMeshDecimate_8h.html#a79e49425ed63014e2d1a5428f58efeeb", null ],
     [ "MR_DecimateSettings_AssignFromAnother", "MRMeshDecimate_8h.html#a983ab3599e0a272369faf8f70c973a17", null ],
-    [ "MR_DecimateSettings_ConstructFrom", "MRMeshDecimate_8h.html#a200550115f795b9cef277277153b0b93", null ],
+    [ "MR_DecimateSettings_ConstructFrom", "MRMeshDecimate_8h.html#ab52b53c579d7953c9ad20fd8efdac1e6", null ],
     [ "MR_DecimateSettings_ConstructFromAnother", "MRMeshDecimate_8h.html#a105ccafb7f2f8853c907acd7290e5fa5", null ],
     [ "MR_DecimateSettings_DefaultConstruct", "MRMeshDecimate_8h.html#a11fc6de32c51d96f2d0ecf2cdf0d89f2", null ],
     [ "MR_DecimateSettings_DefaultConstructArray", "MRMeshDecimate_8h.html#a71192febccae648d80fefdfdf94dadbc", null ],
@@ -65,6 +70,7 @@ var MRMeshDecimate_8h =
     [ "MR_DecimateSettings_Get_optimizeVertexPos", "MRMeshDecimate_8h.html#ae28014e2ebbb271262484077c9572c92", null ],
     [ "MR_DecimateSettings_Get_packMesh", "MRMeshDecimate_8h.html#acca4947b136afc195cf10ecefe2a0fbe", null ],
     [ "MR_DecimateSettings_Get_partFaces", "MRMeshDecimate_8h.html#a6e9d60081fbdaa3806d65489d8b9e4ba", null ],
+    [ "MR_DecimateSettings_Get_partsMode", "MRMeshDecimate_8h.html#a901d586963b23a865972b3c6043fbd1a", null ],
     [ "MR_DecimateSettings_Get_preCollapse", "MRMeshDecimate_8h.html#a5323a60fdcb04781b92c01764fa5c30a", null ],
     [ "MR_DecimateSettings_Get_preventNormalFlips", "MRMeshDecimate_8h.html#ac7161af17f2ae9aceb827969fffe9132", null ],
     [ "MR_DecimateSettings_Get_progressCallback", "MRMeshDecimate_8h.html#a5cf447bee558cd9ef6a9f67c019fb13d", null ],
@@ -98,6 +104,7 @@ var MRMeshDecimate_8h =
     [ "MR_DecimateSettings_GetMutable_optimizeVertexPos", "MRMeshDecimate_8h.html#a533890cca94678d396a0d12c25bd5ab9", null ],
     [ "MR_DecimateSettings_GetMutable_packMesh", "MRMeshDecimate_8h.html#ae16f3151c7bdcbcb80ea4cbd45147a21", null ],
     [ "MR_DecimateSettings_GetMutable_partFaces", "MRMeshDecimate_8h.html#adff5919eab630678e986a6ba092de3ee", null ],
+    [ "MR_DecimateSettings_GetMutable_partsMode", "MRMeshDecimate_8h.html#ac9aa0f7bc76ff30f1e50f934fd82e28a", null ],
     [ "MR_DecimateSettings_GetMutable_preCollapse", "MRMeshDecimate_8h.html#abbc197d3f629c624fb908a83a5286003", null ],
     [ "MR_DecimateSettings_GetMutable_preventNormalFlips", "MRMeshDecimate_8h.html#ac8d6ec1051890c96469ab9f85c0d5ad3", null ],
     [ "MR_DecimateSettings_GetMutable_progressCallback", "MRMeshDecimate_8h.html#a456e97e0a456ca329ac359a5fe38467a", null ],
@@ -133,6 +140,7 @@ var MRMeshDecimate_8h =
     [ "MR_DecimateSettings_Set_optimizeVertexPos", "MRMeshDecimate_8h.html#a5fe0a516781f64dd365e7a1e661b1907", null ],
     [ "MR_DecimateSettings_Set_packMesh", "MRMeshDecimate_8h.html#a7ae00362fab523aa7fcc95515d645cf9", null ],
     [ "MR_DecimateSettings_Set_partFaces", "MRMeshDecimate_8h.html#a99f1b064b0da983641cee5edaa870fc0", null ],
+    [ "MR_DecimateSettings_Set_partsMode", "MRMeshDecimate_8h.html#acc8eef0c9ef14573530e6b4843228b6f", null ],
     [ "MR_DecimateSettings_Set_preCollapse", "MRMeshDecimate_8h.html#af830e4be7edf947f274e65c20eec63f4", null ],
     [ "MR_DecimateSettings_Set_preventNormalFlips", "MRMeshDecimate_8h.html#a93c51ccd4bddd3267207caece4a64d59", null ],
     [ "MR_DecimateSettings_Set_progressCallback", "MRMeshDecimate_8h.html#a672c17fe5870ac6ac3fdb82ba8ed8bf1", null ],

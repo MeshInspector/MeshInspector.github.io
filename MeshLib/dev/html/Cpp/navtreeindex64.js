@@ -1,5 +1,9 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[9,0,0,1,29,2],
+"structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[9,0,0,1,29,3],
+"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[9,0,0,1,29,0],
+"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[9,0,0,1,29,5],
 "structMR_1_1FitBoxParams.html":[9,0,0,20,603],
 "structMR_1_1FitDataParams.html":[9,0,0,20,602],
 "structMR_1_1FixCreasesParams.html":[9,0,0,9,4,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[9,0,1,0,1,16,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[9,0,2,0,2,7,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[9,0,1,0,1,16,9,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[9,0,2,0,2,7,9,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a5dd25c864ad33b95fc71a3f2143422b2":[9,0,1,0,1,16,9,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a5dd25c864ad33b95fc71a3f2143422b2":[9,0,2,0,2,7,9,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[9,0,1,0,1,16,9,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[9,0,2,0,2,7,9,0,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[9,0,2,0,2,7,9,0,2]
 };

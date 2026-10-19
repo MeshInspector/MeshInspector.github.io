@@ -210,6 +210,7 @@ var annotated_dup =
       [ "Cylinder3d", "classmrmeshpy_1_1Cylinder3d.html", "classmrmeshpy_1_1Cylinder3d" ],
       [ "Cylinder3f", "classmrmeshpy_1_1Cylinder3f.html", "classmrmeshpy_1_1Cylinder3f" ],
       [ "CylinderObject", "classmrmeshpy_1_1CylinderObject.html", "classmrmeshpy_1_1CylinderObject" ],
+      [ "DecimatePartsMode", "classmrmeshpy_1_1DecimatePartsMode.html", "classmrmeshpy_1_1DecimatePartsMode" ],
       [ "DecimatePolylineResult", "classmrmeshpy_1_1DecimatePolylineResult.html", "classmrmeshpy_1_1DecimatePolylineResult" ],
       [ "DecimatePolylineSettings_Vector2f", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f" ],
       [ "DecimatePolylineSettings_Vector3f", "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html", "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f" ],

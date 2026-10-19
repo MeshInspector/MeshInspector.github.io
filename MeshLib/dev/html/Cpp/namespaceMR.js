@@ -1362,6 +1362,10 @@ var namespaceMR =
       [ "MoveMask", "group__GeneralGroup.html#gga83b450495cc5fde2cb5539447eb20dc6abbcb0741ee54183dd91df77caff007ec", null ],
       [ "FullMask", "group__GeneralGroup.html#gga83b450495cc5fde2cb5539447eb20dc6a32950741c2a4db230a8af70867adc378", null ]
     ] ],
+    [ "DecimatePartsMode", "group__DecimateGroup.html#gaed99d2728682c43807db96f18bb16d35", [
+      [ "PackedMesh", "group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b", null ],
+      [ "AABBTree", "group__DecimateGroup.html#ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
+    ] ],
     [ "DecimateStrategy", "group__DecimateGroup.html#ga216960c15f7b00558ab28053967a9615", [
       [ "MinimizeError", "group__DecimateGroup.html#gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098", null ],
       [ "ShortestEdgeFirst", "group__DecimateGroup.html#gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552", null ]

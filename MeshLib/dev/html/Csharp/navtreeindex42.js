@@ -1,8 +1,13 @@
 var NAVTREEINDEX42 =
 {
-"classMR_1_1Const__DecimateSettings.html#af3dd234ef39f48aa23e8c8f7b26b68b4":[9,3,0,0,0,393,49],
-"classMR_1_1Const__DecimateSettings.html#af4771c2c678ac415402963cc4a7ef8d0":[9,3,0,0,0,393,32],
-"classMR_1_1Const__DecimateSettings.html#aff48a89e5b6e9c64ac9fd7159114c131":[9,3,0,0,0,393,56],
+"classMR_1_1Const__DecimateSettings.html#ae88ab22926a8eae285fc9dfa73791b0b":[9,3,0,0,0,393,18],
+"classMR_1_1Const__DecimateSettings.html#aed5f611167dc3065bea632c41eb1e2d8":[9,3,0,0,0,393,4],
+"classMR_1_1Const__DecimateSettings.html#aedbcfd9daa8550e71fbae871fe84c0a6":[9,3,0,0,0,393,52],
+"classMR_1_1Const__DecimateSettings.html#aefe9678228e1e80db81b52e0d713b37c":[9,3,0,0,0,393,40],
+"classMR_1_1Const__DecimateSettings.html#af09b0d2581c37052c97caf4811b6d874":[9,3,0,0,0,393,51],
+"classMR_1_1Const__DecimateSettings.html#af3dd234ef39f48aa23e8c8f7b26b68b4":[9,3,0,0,0,393,50],
+"classMR_1_1Const__DecimateSettings.html#af4771c2c678ac415402963cc4a7ef8d0":[9,3,0,0,0,393,33],
+"classMR_1_1Const__DecimateSettings.html#aff48a89e5b6e9c64ac9fd7159114c131":[9,3,0,0,0,393,58],
 "classMR_1_1Const__DeloneFlipsCache.html":[9,3,0,0,0,394],
 "classMR_1_1Const__DeloneFlipsCache.html#a07aa4d1a97ab5f27379c5c15362d40f5":[9,3,0,0,0,394,7],
 "classMR_1_1Const__DeloneFlipsCache.html#a124c78729a66b3d173916f15dbe3564d":[9,3,0,0,0,394,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1Const__DistanceMap.html#a611f7f62192e935436d51f886afa3687":[9,3,0,0,0,407,21],
 "classMR_1_1Const__DistanceMap.html#a6966b075259e2a5424acd26d59597bf2":[9,3,0,0,0,407,16],
 "classMR_1_1Const__DistanceMap.html#a6cca14a2a97317429dfacbffa4cab120":[9,3,0,0,0,407,9],
-"classMR_1_1Const__DistanceMap.html#a7753a7e249ac75ad697f3131e601d99d":[9,3,0,0,0,407,24],
-"classMR_1_1Const__DistanceMap.html#a791add6cd1dd36e855fbe4d7564d480e":[9,3,0,0,0,407,23],
-"classMR_1_1Const__DistanceMap.html#a791cfd8d201e957c0842d360c5fd7457":[9,3,0,0,0,407,14],
-"classMR_1_1Const__DistanceMap.html#a84e6d9172e5998cafc9bb0bba2863cd1":[9,3,0,0,0,407,3],
-"classMR_1_1Const__DistanceMap.html#a888204d37229697c873c4d866b8951c1":[9,3,0,0,0,407,20],
-"classMR_1_1Const__DistanceMap.html#a932ef365ca10972b981fcbc0b1bfc126":[9,3,0,0,0,407,13]
+"classMR_1_1Const__DistanceMap.html#a7753a7e249ac75ad697f3131e601d99d":[9,3,0,0,0,407,24]
 };

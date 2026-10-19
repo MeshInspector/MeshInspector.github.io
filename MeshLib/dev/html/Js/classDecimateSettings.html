@@ -173,6 +173,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa96cd5cc66f6d720735be71885284f72" id="r_aa96cd5cc66f6d720735be71885284f72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa96cd5cc66f6d720735be71885284f72">packMesh</a></td></tr>
 <tr class="memdesc:aa96cd5cc66f6d720735be71885284f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to pack mesh at the end  <br /></td></tr>
 <tr class="memitem:af6b0a7e07c35f8a3d11122338c6df4d8" id="r_af6b0a7e07c35f8a3d11122338c6df4d8"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b0a7e07c35f8a3d11122338c6df4d8">subdivideParts</a></td></tr>
+<tr class="memitem:a29a631b13da0279a667e3dcd4df1a75b" id="r_a29a631b13da0279a667e3dcd4df1a75b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55">DecimatePartsMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29a631b13da0279a667e3dcd4df1a75b">partsMode</a></td></tr>
+<tr class="memdesc:a29a631b13da0279a667e3dcd4df1a75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given  <br /></td></tr>
 <tr class="memitem:a19532b4b6af7982ecfe4a4791ce59ab2" id="r_a19532b4b6af7982ecfe4a4791ce59ab2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="bindings_8d_8mts.html#ab327118a7dc64c2db1605682331342bb">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19532b4b6af7982ecfe4a4791ce59ab2">decimateBetweenParts</a></td></tr>
 <tr class="memitem:a64e16468367498643496bc6c212061bc" id="r_a64e16468367498643496bc6c212061bc"><td class="memItemLeft" align="right" valign="top">number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64e16468367498643496bc6c212061bc">minFacesInPart</a></td></tr>
 <tr class="memdesc:a64e16468367498643496bc6c212061bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode  <br /></td></tr>
@@ -416,6 +418,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a29a631b13da0279a667e3dcd4df1a75b" name="a29a631b13da0279a667e3dcd4df1a75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29a631b13da0279a667e3dcd4df1a75b">&#9670;&#160;</a></span>partsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55">DecimatePartsMode</a> DecimateSettings::partsMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how the parts are found for subdivideParts &gt; 1; ignored if partFaces is given </p>
+
+</div>
+</div>
 <a id="aa71ff9ba8836c18773b8a7a5c169c0d4" name="aa71ff9ba8836c18773b8a7a5c169c0d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa71ff9ba8836c18773b8a7a5c169c0d4">&#9670;&#160;</a></span>stabilizer</h2>
 
@@ -456,7 +474,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
+<p>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: with default partsMode, please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </p>
 
 </div>
 </div>

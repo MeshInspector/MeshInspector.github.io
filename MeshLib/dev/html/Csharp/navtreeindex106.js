@@ -1,5 +1,11 @@
 var NAVTREEINDEX106 =
 {
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane.html#ae9aea1ad5d5949b0d95bdf3e80d347fa":[9,3,0,0,0,1220,5,13,5],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html":[9,3,0,0,0,1220,5,14],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a08897de76dd821fe5e5ddaafead84542":[9,3,0,0,0,1220,5,14,0],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a163f3586ae9bfc4ee74aa457aa8cdfc0":[9,3,0,0,0,1220,5,14,4],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a54f5844b7ceea8bf77af3b75a97d1cb1":[9,3,0,0,0,1220,5,14,3],
+"classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a71be47e13196cd32169f62159e0714eb":[9,3,0,0,0,1220,5,14,1],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#a73b3d869e258800de6c1d93d4cf69bd2":[9,3,0,0,0,1220,5,14,2],
 "classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f.html#af9454f0191dfe593829132c296bde3b0":[9,3,0,0,0,1220,5,14,5],
 "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html":[9,3,0,0,0,1220,5,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX106 =
 "classMR_1_1FindProjectionOnPointsSettings.html#a1e180c4868011c58860dd2b901fa3938":[9,3,0,0,0,1232,7],
 "classMR_1_1FindProjectionOnPointsSettings.html#a3b4b688a4c5f65212c06abb32d98df6e":[9,3,0,0,0,1232,8],
 "classMR_1_1FindProjectionOnPointsSettings.html#a53543fd7e5c4199e8a688b1b4f5ac0e3":[9,3,0,0,0,1232,11],
-"classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[9,3,0,0,0,1232,9],
-"classMR_1_1FindProjectionOnPointsSettings.html#a7836daddb0ae8a4e7912b77e26f7afe8":[9,3,0,0,0,1232,3],
-"classMR_1_1FindProjectionOnPointsSettings.html#a8e4de168dc26fe7e4710894323b55cb8":[9,3,0,0,0,1232,0],
-"classMR_1_1FindProjectionOnPointsSettings.html#aaefefdbe5255b54029b22a1788375642":[9,3,0,0,0,1232,5],
-"classMR_1_1FindProjectionOnPointsSettings.html#abb60a27acf66c938fc50a52bda2eb266":[9,3,0,0,0,1232,1],
-"classMR_1_1FindProjectionOnPointsSettings.html#abef84fb0f410d26d99d8a886d1c0a0b3":[9,3,0,0,0,1232,10],
-"classMR_1_1FindProjectionOnPointsSettings.html#ae3192751bc405bc750438702ff6d3f85":[9,3,0,0,0,1232,2]
+"classMR_1_1FindProjectionOnPointsSettings.html#a623b816a5bf7bfe5fcbbfb992f0013ac":[9,3,0,0,0,1232,9]
 };

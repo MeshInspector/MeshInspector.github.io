@@ -1,5 +1,12 @@
 var NAVTREEINDEX173 =
 {
+"std__vector__MR__Dipole_8h.html#ad90bdb2add38fa4b3d62a7cfa99702c4":[9,2,2,0,0,0,0,2,434,7],
+"std__vector__MR__Dipole_8h.html#ae46aa65cd295a644f033b5957de9afae":[9,2,2,0,0,0,0,2,434,31],
+"std__vector__MR__Dipole_8h.html#ae7c95228c2a0e31aaba74f175b49b8e4":[9,2,2,0,0,0,0,2,434,59],
+"std__vector__MR__Dipole_8h.html#aea861e44b981e339d216d99754d004a1":[9,2,2,0,0,0,0,2,434,5],
+"std__vector__MR__Dipole_8h.html#aecdc82cbb36abc1f9fcb6a055fca74f9":[9,2,2,0,0,0,0,2,434,2],
+"std__vector__MR__Dipole_8h.html#af3e4cc31b0af221a7b025b36288c24b2":[9,2,2,0,0,0,0,2,434,55],
+"std__vector__MR__Dipole_8h.html#af5759644d1d420722b812802c18c0654":[9,2,2,0,0,0,0,2,434,3],
 "std__vector__MR__Dipole_8h.html#af83af1976be7a650cacbc73065e61b32":[9,2,2,0,0,0,0,2,434,63],
 "std__vector__MR__Dipole_8h.html#afc26762eaf64be73fb93aca955b03c44":[9,2,2,0,0,0,0,2,434,51],
 "std__vector__MR__Dipole_8h_source.html":[9,2,2,0,0,0,0,2,434],
@@ -242,12 +249,5 @@ var NAVTREEINDEX173 =
 "std__vector__MR__EdgePoint_8h.html#a23840b32c69c914ca28e428976fe4f2c":[9,2,2,0,0,0,0,2,437,36],
 "std__vector__MR__EdgePoint_8h.html#a242dfef3f746616b8bf6b2f1f9de29cb":[9,2,2,0,0,0,0,2,437,7],
 "std__vector__MR__EdgePoint_8h.html#a2433f566226fa6ff51052e4466db966b":[9,2,2,0,0,0,0,2,437,60],
-"std__vector__MR__EdgePoint_8h.html#a28c8dbc7e983122ff2680d144f1a3226":[9,2,2,0,0,0,0,2,437,26],
-"std__vector__MR__EdgePoint_8h.html#a2a18a3fd128c8ad3c482525b94d0ee3e":[9,2,2,0,0,0,0,2,437,57],
-"std__vector__MR__EdgePoint_8h.html#a2d1e3338eefac12fe54ada6fe14691fc":[9,2,2,0,0,0,0,2,437,1],
-"std__vector__MR__EdgePoint_8h.html#a2d76f739777873770c685b9269078c9a":[9,2,2,0,0,0,0,2,437,33],
-"std__vector__MR__EdgePoint_8h.html#a2da249506b5b46313bdb177120799e52":[9,2,2,0,0,0,0,2,437,69],
-"std__vector__MR__EdgePoint_8h.html#a300e5b5d2d0c23018fb522d27002ee23":[9,2,2,0,0,0,0,2,437,17],
-"std__vector__MR__EdgePoint_8h.html#a30d07654eb2388615e78cf72fc942d15":[9,2,2,0,0,0,0,2,437,18],
-"std__vector__MR__EdgePoint_8h.html#a315e559e0c10d41d0b70c4bd18bc80ec":[9,2,2,0,0,0,0,2,437,22]
+"std__vector__MR__EdgePoint_8h.html#a28c8dbc7e983122ff2680d144f1a3226":[9,2,2,0,0,0,0,2,437,26]
 };

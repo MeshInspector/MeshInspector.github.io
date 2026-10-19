@@ -1,5 +1,12 @@
 var NAVTREEINDEX135 =
 {
+"MRWeightedPointsShell_8h.html#abeeeb9949da9b81cefe893ece969cf59":[9,2,2,0,0,0,0,4,40,71],
+"MRWeightedPointsShell_8h.html#ac024b937d538ef1182d3e9b2e7dd9f9a":[9,2,2,0,0,0,0,4,40,119],
+"MRWeightedPointsShell_8h.html#ac3ee684a3a5e0555588de1ef3913c924":[9,2,2,0,0,0,0,4,40,61],
+"MRWeightedPointsShell_8h.html#ac5663f3f9b102f4f35eda0a4b0338ab3":[9,2,2,0,0,0,0,4,40,70],
+"MRWeightedPointsShell_8h.html#ac6d9985900db10c935737ec3ceeebe98":[9,2,2,0,0,0,0,4,40,99],
+"MRWeightedPointsShell_8h.html#aca369a985a0b013c83c9d03bc5bbc22c":[9,2,2,0,0,0,0,4,40,37],
+"MRWeightedPointsShell_8h.html#acf37b4c73132dfc4050e1b21a7178b81":[9,2,2,0,0,0,0,4,40,38],
 "MRWeightedPointsShell_8h.html#ad18fea3ff794016136624ce55b9419a1":[9,2,2,0,0,0,0,4,40,35],
 "MRWeightedPointsShell_8h.html#ad1d45e1ad218ceaf9faee9a0f0b5c1bd":[9,2,2,0,0,0,0,4,40,20],
 "MRWeightedPointsShell_8h.html#ad3f2d444bdc65a67a994f96bb0cd8194":[9,2,2,0,0,0,0,4,40,63],
@@ -242,12 +249,5 @@ var NAVTREEINDEX135 =
 "expected__MR__DistanceMap__std__string_8h.html#a82be96827001702476d541c7f1a96dc4":[9,2,2,0,0,0,0,2,5,11],
 "expected__MR__DistanceMap__std__string_8h.html#aa74d5f29f134e190b11eee9d8d6b2f60":[9,2,2,0,0,0,0,2,5,5],
 "expected__MR__DistanceMap__std__string_8h.html#acdd9864d3f00b837b729f8373d7f90c2":[9,2,2,0,0,0,0,2,5,1],
-"expected__MR__DistanceMap__std__string_8h.html#ad9b718b858ff6ed0e997f34ff4860c9a":[9,2,2,0,0,0,0,2,5,8],
-"expected__MR__DistanceMap__std__string_8h.html#ae95c8047a14bee09d3608832578c6ce4":[9,2,2,0,0,0,0,2,5,6],
-"expected__MR__DistanceMap__std__string_8h.html#aed03377e223da8d1f608e354ea33b6fa":[9,2,2,0,0,0,0,2,5,10],
-"expected__MR__DistanceMap__std__string_8h_source.html":[9,2,2,0,0,0,0,2,5],
-"expected__MR__FaceBitSet__std__string_8h.html":[9,2,2,0,0,0,0,2,6],
-"expected__MR__FaceBitSet__std__string_8h.html#a10ba0c7f0c0627a8cc12f7fdce192730":[9,2,2,0,0,0,0,2,6,8],
-"expected__MR__FaceBitSet__std__string_8h.html#a2150170169a38cf4ba76e8ba93f41d00":[9,2,2,0,0,0,0,2,6,0],
-"expected__MR__FaceBitSet__std__string_8h.html#a3458d0fdfcbdb868576bb558d318c685":[9,2,2,0,0,0,0,2,6,11]
+"expected__MR__DistanceMap__std__string_8h.html#ad9b718b858ff6ed0e997f34ff4860c9a":[9,2,2,0,0,0,0,2,5,8]
 };

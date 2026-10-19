@@ -232,6 +232,7 @@ var hierarchy =
     [ "mrmeshpy.CutMeshResult", "classmrmeshpy_1_1CutMeshResult.html", null ],
     [ "mrmeshpy.Cylinder3d", "classmrmeshpy_1_1Cylinder3d.html", null ],
     [ "mrmeshpy.Cylinder3f", "classmrmeshpy_1_1Cylinder3f.html", null ],
+    [ "mrmeshpy.DecimatePartsMode", "classmrmeshpy_1_1DecimatePartsMode.html", null ],
     [ "mrmeshpy.DecimatePolylineResult", "classmrmeshpy_1_1DecimatePolylineResult.html", null ],
     [ "mrmeshpy.DecimatePolylineSettings_Vector2f", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html", null ],
     [ "mrmeshpy.DecimatePolylineSettings_Vector3f", "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html", null ],

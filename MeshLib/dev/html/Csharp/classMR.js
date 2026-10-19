@@ -1957,6 +1957,10 @@ var classMR =
       [ "HemisphereSearchFit", "classMR.html#a294c22b69e418098a4582556d50f25fca1a4728573c55a3c1ceca7af11776f64b", null ],
       [ "SpecificAxisFit", "classMR.html#a294c22b69e418098a4582556d50f25fca2c0500afc7ff11f210c486fe633f3384", null ]
     ] ],
+    [ "DecimatePartsMode", "classMR.html#a2c3149bb72b815d3262f101e5c6dc7d4", [
+      [ "PackedMesh", "classMR.html#a2c3149bb72b815d3262f101e5c6dc7d4aa9b711ba88fcba59c5510bf18d754c5b", null ],
+      [ "AABBTree", "classMR.html#a2c3149bb72b815d3262f101e5c6dc7d4a220dce5b9731e80b3b1d4a59a9bbe8d8", null ]
+    ] ],
     [ "DecimateStrategy", "classMR.html#add28113e16217d08b03c89236a144146", [
       [ "MinimizeError", "classMR.html#add28113e16217d08b03c89236a144146a67b5bfba24e72d549786f512b318c243", null ],
       [ "ShortestEdgeFirst", "classMR.html#add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b", null ]

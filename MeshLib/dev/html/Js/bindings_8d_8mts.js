@@ -108,6 +108,10 @@ var bindings_8d_8mts =
       [ "Sequential", "bindings_8d_8mts.html#a70f6b13a312f3117a59433bec8606bf0a3e43c0262698131c52c4f95dbd7f6709", null ],
       [ "AABBTreeBased", "bindings_8d_8mts.html#a70f6b13a312f3117a59433bec8606bf0a35b3e9a4e631ad33fad2015827cfcb6a", null ]
     ] ],
+    [ "DecimatePartsMode", "bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55", [
+      [ "PackedMesh", "bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e", null ],
+      [ "AABBTree", "bindings_8d_8mts.html#ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d", null ]
+    ] ],
     [ "DecimateStrategy", "bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fb", [
       [ "MinimizeError", "bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fbac9f66cbc4953783cde6144ea9e4ea7fd", null ],
       [ "ShortestEdgeFirst", "bindings_8d_8mts.html#aae3b7ed557d4233548d7966f0951e8fba7dd8eb61d5d609641c4916ad48bd3726", null ]

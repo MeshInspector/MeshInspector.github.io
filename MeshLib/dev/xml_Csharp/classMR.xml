@@ -3278,6 +3278,37 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="6" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="7" bodyend="16"/>
       </memberdef>
+      <memberdef kind="enum" id="classMR_1a2c3149bb72b815d3262f101e5c6dc7d4" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>DecimatePartsMode</name>
+        <qualifiedname>MR.DecimatePartsMode</qualifiedname>
+        <enumvalue id="classMR_1a2c3149bb72b815d3262f101e5c6dc7d4aa9b711ba88fcba59c5510bf18d754c5b" prot="public">
+          <name>PackedMesh</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1a2c3149bb72b815d3262f101e5c6dc7d4a220dce5b9731e80b3b1d4a59a9bbe8d8" prot="public">
+          <name>AABBTree</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>the parts are subtrees of mesh's AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines how decimation finds the parts of the mesh for parallel processing (<ref refid="classMR_1_1DecimateSettings_1a051e26d6cd8669e3ea6efd9397bd3f4d" kindref="member">DecimateSettings.subdivideParts</ref> &gt; 1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="22" bodyend="32"/>
+      </memberdef>
       <memberdef kind="enum" id="classMR_1aa3ebc28a0c17a0a5fc0c9b90a97bfc95" prot="public" static="no" strong="yes">
         <type>int</type>
         <name>FlipEdge</name>
@@ -20084,7 +20115,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2404" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2404" bodyend="2407"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2438" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2438" bodyend="2441"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b23bf5afee443084bf2d9b73f988b7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DecimateResult" kindref="compound">MR.DecimateResult</ref></type>
@@ -20107,7 +20138,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2415" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2415" bodyend="2418"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2449" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2449" bodyend="2452"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afae00f00c650a31e74069bcd833d5dbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRObjectMeshData</type>
@@ -20135,7 +20166,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2424" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2424" bodyend="2427"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2458" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2458" bodyend="2461"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1adaff706b1ad6559988dccaecc02410eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref></type>
@@ -20171,7 +20202,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2433" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2433" bodyend="2436"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2467" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2467" bodyend="2470"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ad8afdff4b57c9e145de327ad497c3fc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kindref="compound">MR.Vector_MRQuadraticForm3f_MRVertId</ref></type>
@@ -20203,7 +20234,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2442" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2442" bodyend="2445"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2476" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2476" bodyend="2479"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0999167624becfc8f0ef783fd10f96b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -20230,7 +20261,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2452" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2452" bodyend="2455"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2486" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2486" bodyend="2489"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a78a4954ee826bfe1a85dfb7dcba166e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -20259,7 +20290,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2465" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2465" bodyend="2468"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2499" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2499" bodyend="2502"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a45ad91d20adc7c36d5051f856642d124" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -20282,7 +20313,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2474" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2474" bodyend="2477"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2508" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2508" bodyend="2511"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a50c216fceb589c982d43e7396bea561b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
@@ -68577,7 +68608,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2482" column="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2516" column="55"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a06df88249af2010a83656753328dc6ef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRQuadraticForm3f_MRVertId._Underlying *</type>
@@ -68607,7 +68638,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2485" column="73"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2519" column="73"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a19fa5f0ec03ebb181bc7dec881c6afcc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimateResult._Underlying *</type>
@@ -68629,7 +68660,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2488" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2522" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abab03d7f3be6414eaac2aeab6f3b7d91" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.DecimateResult._Underlying *</type>
@@ -68651,7 +68682,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2491" column="54"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2525" column="54"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8f6e2fcc7034a97370d8095f151f8e3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceBitSet._Underlying *</type>
@@ -68677,7 +68708,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2494" column="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2528" column="50"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae092ed330d0eb4f775bfcb37ce378f85" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Optional_MRObjectMeshData._Underlying *</type>
@@ -68703,7 +68734,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2497" column="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2531" column="68"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aa2585fe3c21a4e0f817df1b445211d1e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -68725,7 +68756,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2500" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2534" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a92278ea7f6bfb82f308a78b066a1c086" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe byte</type>
@@ -68747,7 +68778,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2503" column="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2537" column="31"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae9369a6841bceff387728fb03377a2fc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Function_Bool_From_MREdgeId_ConstMRVector3fRef._Underlying *</type>
@@ -102348,6 +102379,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ada2324ff8c50136471a253eae77241f4" prot="public" virt="non-virtual"><scope>MR</scope><name>decimateContour</name></member>
       <member refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" prot="public" virt="non-virtual"><scope>MR</scope><name>decimateMesh</name></member>
       <member refid="classMR_1a7b23bf5afee443084bf2d9b73f988b7d" prot="public" virt="non-virtual"><scope>MR</scope><name>decimateObjectMeshData</name></member>
+      <member refid="classMR_1a2c3149bb72b815d3262f101e5c6dc7d4" prot="public" virt="non-virtual"><scope>MR</scope><name>DecimatePartsMode</name></member>
       <member refid="classMR_1a6395faf9db8917747e12a9e33e707b22" prot="public" virt="non-virtual"><scope>MR</scope><name>decimatePolyline</name></member>
       <member refid="classMR_1a596c22dadd176574e09a25c8e9a0d91a" prot="public" virt="non-virtual"><scope>MR</scope><name>decimatePolyline</name></member>
       <member refid="classMR_1add28113e16217d08b03c89236a144146" prot="public" virt="non-virtual"><scope>MR</scope><name>DecimateStrategy</name></member>

@@ -8649,6 +8649,10 @@ Public Types</h2></td></tr>
 , <a class="el" href="#add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b">ShortestEdgeFirst</a> = 1
  }</td></tr>
 <tr class="memdesc:add28113e16217d08b03c89236a144146"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#add28113e16217d08b03c89236a144146">More...</a><br /></td></tr>
+<tr class="memitem:a2c3149bb72b815d3262f101e5c6dc7d4" id="r_a2c3149bb72b815d3262f101e5c6dc7d4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c3149bb72b815d3262f101e5c6dc7d4">DecimatePartsMode</a> : int { <a class="el" href="#a2c3149bb72b815d3262f101e5c6dc7d4aa9b711ba88fcba59c5510bf18d754c5b">PackedMesh</a> = 0
+, <a class="el" href="#a2c3149bb72b815d3262f101e5c6dc7d4a220dce5b9731e80b3b1d4a59a9bbe8d8">AABBTree</a> = 1
+ }</td></tr>
+<tr class="memdesc:a2c3149bb72b815d3262f101e5c6dc7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="classMR_1_1DecimateSettings.html#a051e26d6cd8669e3ea6efd9397bd3f4d" title="If this value is more than 1, then virtually subdivides the mesh on given number of parts to process ...">DecimateSettings.subdivideParts</a> &gt; 1)  <a href="#a2c3149bb72b815d3262f101e5c6dc7d4">More...</a><br /></td></tr>
 <tr class="memitem:aa3ebc28a0c17a0a5fc0c9b90a97bfc95" id="r_aa3ebc28a0c17a0a5fc0c9b90a97bfc95"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ebc28a0c17a0a5fc0c9b90a97bfc95">FlipEdge</a> : int { <a class="el" href="#aa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839">Can</a> = 0
 , <a class="el" href="#aa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba">Cannot</a> = 1
 , <a class="el" href="#aa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be">Must</a> = 2
@@ -12982,6 +12986,28 @@ Related Symbols</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a294c22b69e418098a4582556d50f25fca966805730aa004c013d26ce8985852a7" name="a294c22b69e418098a4582556d50f25fca966805730aa004c013d26ce8985852a7"></a>ApproximationPCM&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a294c22b69e418098a4582556d50f25fca1a4728573c55a3c1ceca7af11776f64b" name="a294c22b69e418098a4582556d50f25fca1a4728573c55a3c1ceca7af11776f64b"></a>HemisphereSearchFit&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a294c22b69e418098a4582556d50f25fca2c0500afc7ff11f210c486fe633f3384" name="a294c22b69e418098a4582556d50f25fca2c0500afc7ff11f210c486fe633f3384"></a>SpecificAxisFit&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a2c3149bb72b815d3262f101e5c6dc7d4" name="a2c3149bb72b815d3262f101e5c6dc7d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c3149bb72b815d3262f101e5c6dc7d4">&#9670;&#160;</a></span>DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a2c3149bb72b815d3262f101e5c6dc7d4">MR.DecimatePartsMode</a> : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="classMR_1_1DecimateSettings.html#a051e26d6cd8669e3ea6efd9397bd3f4d" title="If this value is more than 1, then virtually subdivides the mesh on given number of parts to process ...">DecimateSettings.subdivideParts</a> &gt; 1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2c3149bb72b815d3262f101e5c6dc7d4aa9b711ba88fcba59c5510bf18d754c5b" name="a2c3149bb72b815d3262f101e5c6dc7d4aa9b711ba88fcba59c5510bf18d754c5b"></a>PackedMesh&#160;</td><td class="fielddoc"><p>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a2c3149bb72b815d3262f101e5c6dc7d4a220dce5b9731e80b3b1d4a59a9bbe8d8" name="a2c3149bb72b815d3262f101e5c6dc7d4a220dce5b9731e80b3b1d4a59a9bbe8d8"></a>AABBTree&#160;</td><td class="fielddoc"><p>the parts are subtrees of mesh's AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </p>
+</td></tr>
 </table>
 
 </div>

@@ -1,5 +1,12 @@
 var NAVTREEINDEX95 =
 {
+"MRQuadraticForm_8h.html#a4af5eab35830f3b609b5a2d1db0b9eec":[9,2,2,0,0,0,0,1,301,45],
+"MRQuadraticForm_8h.html#a4d38f455a0976e5375ed134a47443e56":[9,2,2,0,0,0,0,1,301,81],
+"MRQuadraticForm_8h.html#a515e827e69e1c4352d14b5308a362fff":[9,2,2,0,0,0,0,1,301,41],
+"MRQuadraticForm_8h.html#a51e504515ef04a6d0c42f890f9b9fc63":[9,2,2,0,0,0,0,1,301,61],
+"MRQuadraticForm_8h.html#a5c500dce343ecf3f60749659e2a9a7d3":[9,2,2,0,0,0,0,1,301,70],
+"MRQuadraticForm_8h.html#a5e59d48d47430f3a0a43f0c389f31566":[9,2,2,0,0,0,0,1,301,65],
+"MRQuadraticForm_8h.html#a6053c68e8cd952e03596619f154346cc":[9,2,2,0,0,0,0,1,301,38],
 "MRQuadraticForm_8h.html#a62b27ed4544a8c74d01fc16b658b0b91":[9,2,2,0,0,0,0,1,301,1],
 "MRQuadraticForm_8h.html#a6ac971a371c6b3bf25445ffc21cc305a":[9,2,2,0,0,0,0,1,301,32],
 "MRQuadraticForm_8h.html#a6ba9ba30b79a5442914a51c333a1efcc":[9,2,2,0,0,0,0,1,301,59],
@@ -242,12 +249,5 @@ var NAVTREEINDEX95 =
 "MRRadiusMeasurementObject_8h.html#a551ce20ce10236db8696954afcfc6c2f":[9,2,2,0,0,0,0,1,304,63],
 "MRRadiusMeasurementObject_8h.html#a5b7a243921bde8e3183debfa55b48add":[9,2,2,0,0,0,0,1,304,93],
 "MRRadiusMeasurementObject_8h.html#a5ba716617d858bbd36e53f75f29f998b":[9,2,2,0,0,0,0,1,304,102],
-"MRRadiusMeasurementObject_8h.html#a5c9645886dc98ad9d4bd21d72df92f25":[9,2,2,0,0,0,0,1,304,76],
-"MRRadiusMeasurementObject_8h.html#a5cd45b103cd05b079a560e580e32bac6":[9,2,2,0,0,0,0,1,304,146],
-"MRRadiusMeasurementObject_8h.html#a5e651d8bace180a67f54c4cb8ad46da8":[9,2,2,0,0,0,0,1,304,14],
-"MRRadiusMeasurementObject_8h.html#a5f068f77e9acd365f7e1ee71f8681c1a":[9,2,2,0,0,0,0,1,304,149],
-"MRRadiusMeasurementObject_8h.html#a63575ee023487ee68b49e527f15c9253":[9,2,2,0,0,0,0,1,304,133],
-"MRRadiusMeasurementObject_8h.html#a63df8a799ed46b2bbce9b210923856ae":[9,2,2,0,0,0,0,1,304,33],
-"MRRadiusMeasurementObject_8h.html#a645be311b096bef3aa30bc974af2f4e6":[9,2,2,0,0,0,0,1,304,32],
-"MRRadiusMeasurementObject_8h.html#a66444e10d4a9308ee300afee330ac8c2":[9,2,2,0,0,0,0,1,304,136]
+"MRRadiusMeasurementObject_8h.html#a5c9645886dc98ad9d4bd21d72df92f25":[9,2,2,0,0,0,0,1,304,76]
 };

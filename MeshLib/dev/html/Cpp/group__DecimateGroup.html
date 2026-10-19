@@ -158,6 +158,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552">MR::ShortestEdgeFirst</a>
  }</td></tr>
 <tr class="memdesc:ga216960c15f7b00558ab28053967a9615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#ga216960c15f7b00558ab28053967a9615">More...</a><br /></td></tr>
+<tr class="memitem:gaed99d2728682c43807db96f18bb16d35" id="r_gaed99d2728682c43807db96f18bb16d35"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed99d2728682c43807db96f18bb16d35">MR::DecimatePartsMode</a> { <a class="el" href="#ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b">MR::DecimatePartsMode::PackedMesh</a>
+, <a class="el" href="#ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8">MR::DecimatePartsMode::AABBTree</a>
+ }</td></tr>
+<tr class="memdesc:gaed99d2728682c43807db96f18bb16d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (DecimateSettings::subdivideParts &gt; 1)  <a href="#gaed99d2728682c43807db96f18bb16d35">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -184,6 +188,38 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about mesh decimation. </p>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaed99d2728682c43807db96f18bb16d35" name="gaed99d2728682c43807db96f18bb16d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed99d2728682c43807db96f18bb16d35">&#9670;&#160;</a></span>DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#gaed99d2728682c43807db96f18bb16d35">MR::DecimatePartsMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshDecimate_8h.html">MRMesh/MRMeshDecimate.h</a>&gt;</code></p>
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="structMR_1_1DecimateSettings.html#a8f97c534c28993195cc07d01e1721fe4">DecimateSettings::subdivideParts</a> &gt; 1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b" name="ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b"></a>PackedMesh&#160;</td><td class="fielddoc"><p>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8" name="ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8"></a>AABBTree&#160;</td><td class="fielddoc"><p>the parts are subtrees of mesh's AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga216960c15f7b00558ab28053967a9615" name="ga216960c15f7b00558ab28053967a9615"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga216960c15f7b00558ab28053967a9615">&#9670;&#160;</a></span>DecimateStrategy</h2>
 

@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[9,0,0,20,920],
+"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[9,0,0,20,917],
+"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[9,0,0,20,918],
+"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[9,0,0,20,919],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html":[9,0,0,20,856],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[9,0,0,20,857],
 "structMR_1_1VoxelsLoad_1_1RasterFolderLoadSettings.html":[9,0,0,2,18,1],

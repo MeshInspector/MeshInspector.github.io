@@ -328,6 +328,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aae3b7ed557d4233548d7966f0951e8fba7dd8eb61d5d609641c4916ad48bd3726">ShortestEdgeFirst</a>
  }</td></tr>
 <tr class="memdesc:aae3b7ed557d4233548d7966f0951e8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the order of edge collapses inside Decimate algorithm.  <a href="#aae3b7ed557d4233548d7966f0951e8fb">More...</a><br /></td></tr>
+<tr class="memitem:ad1b68ac93afc03c8e0d5aae50bf2fa55" id="r_ad1b68ac93afc03c8e0d5aae50bf2fa55"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1b68ac93afc03c8e0d5aae50bf2fa55">DecimatePartsMode</a> { <a class="el" href="#ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e">PackedMesh</a>
+, <a class="el" href="#ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d">AABBTree</a>
+ }</td></tr>
+<tr class="memdesc:ad1b68ac93afc03c8e0d5aae50bf2fa55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="classDecimateSettings.html#af6b0a7e07c35f8a3d11122338c6df4d8">DecimateSettings::subdivideParts</a> &gt; 1)  <a href="#ad1b68ac93afc03c8e0d5aae50bf2fa55">More...</a><br /></td></tr>
 <tr class="memitem:affcedbbb6a1acf807f0cfc008c6dbe11" id="r_affcedbbb6a1acf807f0cfc008c6dbe11"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11">MultipleEdgesResolveMode</a> { <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252">None</a>
 , <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b">Simple</a>
 , <a class="el" href="#affcedbbb6a1acf807f0cfc008c6dbe11a628442936d0c47e692857732a6f040ff">Strong</a>
@@ -569,6 +573,26 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70f6b13a312f3117a59433bec8606bf0a3e43c0262698131c52c4f95dbd7f6709" name="a70f6b13a312f3117a59433bec8606bf0a3e43c0262698131c52c4f95dbd7f6709"></a>Sequential&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a70f6b13a312f3117a59433bec8606bf0a35b3e9a4e631ad33fad2015827cfcb6a" name="a70f6b13a312f3117a59433bec8606bf0a35b3e9a4e631ad33fad2015827cfcb6a"></a>AABBTreeBased&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad1b68ac93afc03c8e0d5aae50bf2fa55" name="ad1b68ac93afc03c8e0d5aae50bf2fa55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b68ac93afc03c8e0d5aae50bf2fa55">&#9670;&#160;</a></span>DecimatePartsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ad1b68ac93afc03c8e0d5aae50bf2fa55">DecimatePartsMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines how decimation finds the parts of the mesh for parallel processing (<a class="el" href="classDecimateSettings.html#af6b0a7e07c35f8a3d11122338c6df4d8">DecimateSettings::subdivideParts</a> &gt; 1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e" name="ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e"></a>PackedMesh&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d" name="ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d"></a>AABBTree&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

@@ -14679,11 +14679,15 @@
     <member refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64" kind="enum"><name>MR_DecimateStrategy</name></member>
     <member refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64a9446fa9f8cac0775eff41122ee4b41a5" kind="enumvalue"><name>MR_DecimateStrategy_MinimizeError</name></member>
     <member refid="MRMeshDecimate_8h_1a4dc6be73767d7ac8f4650391559d2b64aca7ebefc5706c97cc8fcab9b5c672893" kind="enumvalue"><name>MR_DecimateStrategy_ShortestEdgeFirst</name></member>
+    <member refid="MRMeshDecimate_8h_1a310d769cca56860c6d0b5b64daefc1dc" kind="enum"><name>MR_DecimatePartsMode</name></member>
+    <member refid="MRMeshDecimate_8h_1a310d769cca56860c6d0b5b64daefc1dca66558caf17b318f9dc5ddf9a1d43a7d8" kind="enumvalue"><name>MR_DecimatePartsMode_PackedMesh</name></member>
+    <member refid="MRMeshDecimate_8h_1a310d769cca56860c6d0b5b64daefc1dca3f9f9e5c45a580de9847bc32bef9cfe2" kind="enumvalue"><name>MR_DecimatePartsMode_AABBTree</name></member>
     <member refid="MRMeshDecimate_8h_1a4e8b64eda278d91e3e5819be7d109e71" kind="typedef"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId</name></member>
     <member refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kind="typedef"><name>MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</name></member>
     <member refid="MRMeshDecimate_8h_1a694819557dec9d9544052ae7aa406eff" kind="typedef"><name>MR_std_function_void_from_MR_UndirectedEdgeId_float_ref_MR_Vector3f_ref</name></member>
     <member refid="MRMeshDecimate_8h_1a1f79512fa06dde5c5b86fd13227b4af0" kind="typedef"><name>MR_std_optional_MR_ObjectMeshData</name></member>
     <member refid="MRMeshDecimate_8h_1ac2f5218d1fa6814d6c1ab3326cbcd560" kind="typedef"><name>MR_DecimateStrategy</name></member>
+    <member refid="MRMeshDecimate_8h_1a00e2eac4918024a1655818dc389e67de" kind="typedef"><name>MR_DecimatePartsMode</name></member>
     <member refid="MRMeshDecimate_8h_1a6e3ff7daeb59ebc150f578d14cef449a" kind="typedef"><name>MR_DecimateSettings</name></member>
     <member refid="MRMeshDecimate_8h_1a1c2bfbb682daa7da43026c7be3a4796e" kind="typedef"><name>MR_DecimateResult</name></member>
     <member refid="MRMeshDecimate_8h_1a9e532a8dde170a330f509fc8d387aa1e" kind="typedef"><name>MR_ResolveMeshDegenSettings</name></member>
@@ -14778,6 +14782,9 @@
     <member refid="MRMeshDecimate_8h_1a3d741b90aeb3ba8e54d74ca19fc63c0f" kind="function"><name>MR_DecimateSettings_Get_subdivideParts</name></member>
     <member refid="MRMeshDecimate_8h_1a3cffeb8691245162333b40c6b03532e6" kind="function"><name>MR_DecimateSettings_Set_subdivideParts</name></member>
     <member refid="MRMeshDecimate_8h_1a8cec86b6f534bf716402d4baa714fb50" kind="function"><name>MR_DecimateSettings_GetMutable_subdivideParts</name></member>
+    <member refid="MRMeshDecimate_8h_1a901d586963b23a865972b3c6043fbd1a" kind="function"><name>MR_DecimateSettings_Get_partsMode</name></member>
+    <member refid="MRMeshDecimate_8h_1acc8eef0c9ef14573530e6b4843228b6f" kind="function"><name>MR_DecimateSettings_Set_partsMode</name></member>
+    <member refid="MRMeshDecimate_8h_1ac9aa0f7bc76ff30f1e50f934fd82e28a" kind="function"><name>MR_DecimateSettings_GetMutable_partsMode</name></member>
     <member refid="MRMeshDecimate_8h_1afb32f5b28e42df692b9d7fb6ed603d9c" kind="function"><name>MR_DecimateSettings_Get_decimateBetweenParts</name></member>
     <member refid="MRMeshDecimate_8h_1a0ee5c69f12d0f281e8cd58ad161bf7af" kind="function"><name>MR_DecimateSettings_Set_decimateBetweenParts</name></member>
     <member refid="MRMeshDecimate_8h_1aaaf61520eb936c3e32ae1914418a0875" kind="function"><name>MR_DecimateSettings_GetMutable_decimateBetweenParts</name></member>
@@ -14789,7 +14796,7 @@
     <member refid="MRMeshDecimate_8h_1a2262fed9ad3b37b373946c4f375b5178" kind="function"><name>MR_DecimateSettings_GetMutable_minFacesInPart</name></member>
     <member refid="MRMeshDecimate_8h_1a11fc6de32c51d96f2d0ecf2cdf0d89f2" kind="function"><name>MR_DecimateSettings_DefaultConstruct</name></member>
     <member refid="MRMeshDecimate_8h_1a71192febccae648d80fefdfdf94dadbc" kind="function"><name>MR_DecimateSettings_DefaultConstructArray</name></member>
-    <member refid="MRMeshDecimate_8h_1a200550115f795b9cef277277153b0b93" kind="function"><name>MR_DecimateSettings_ConstructFrom</name></member>
+    <member refid="MRMeshDecimate_8h_1ab52b53c579d7953c9ad20fd8efdac1e6" kind="function"><name>MR_DecimateSettings_ConstructFrom</name></member>
     <member refid="MRMeshDecimate_8h_1a6df6d574a873cbde9b7eea445b0228af" kind="function"><name>MR_DecimateSettings_OffsetPtr</name></member>
     <member refid="MRMeshDecimate_8h_1a0ea64b3d47778328d7dbe81bf0b20604" kind="function"><name>MR_DecimateSettings_OffsetMutablePtr</name></member>
     <member refid="MRMeshDecimate_8h_1a105ccafb7f2f8853c907acd7290e5fa5" kind="function"><name>MR_DecimateSettings_ConstructFromAnother</name></member>

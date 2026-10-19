@@ -1,5 +1,11 @@
 var NAVTREEINDEX113 =
 {
+"classMR_1_1Mesh.html#a3632624cd519de9bd01603d0ecb509f6":[9,3,0,0,0,1375,11],
+"classMR_1_1Mesh.html#a3ca5fa30b57fdada6bfe0aecb9868a7f":[9,3,0,0,0,1375,18],
+"classMR_1_1Mesh.html#a40bcc4c788e89f4406504fa174d21ff9":[9,3,0,0,0,1375,16],
+"classMR_1_1Mesh.html#a466f6cad2b51436a361e61648f2fb865":[9,3,0,0,0,1375,4],
+"classMR_1_1Mesh.html#a504c6630e7c1492cbe741522640f0d95":[9,3,0,0,0,1375,31],
+"classMR_1_1Mesh.html#a57a1d23b8ef40eeaf0069cb2e09db3e6":[9,3,0,0,0,1375,20],
 "classMR_1_1Mesh.html#a6c3397a5f9b167c21f2ef11cdc2714bb":[9,3,0,0,0,1375,22],
 "classMR_1_1Mesh.html#a6ea37e2c3415fdc14f7fdbc23ba80fd5":[9,3,0,0,0,1375,26],
 "classMR_1_1Mesh.html#a7047e329fbec57254356a66c56e303a5":[9,3,0,0,0,1375,24],
@@ -243,11 +249,5 @@ var NAVTREEINDEX113 =
 "classMR_1_1MeshBuilder_1_1UniteCloseParams.html#a7d30934312ae607dbcbbf7635887ee98":[9,3,0,0,0,1378,14,5],
 "classMR_1_1MeshBuilder_1_1UniteCloseParams.html#a9cd2216d02a9bffd1d5875a5dd3b37ad":[9,3,0,0,0,1378,14,3],
 "classMR_1_1MeshBuilder_1_1UniteCloseParams.html#aa1ddae60d686471530b0e925daa5bc86":[9,3,0,0,0,1378,14,10],
-"classMR_1_1MeshBuilder_1_1UniteCloseParams.html#ac50ae0a8b87349abb1014331b4286a99":[9,3,0,0,0,1378,14,7],
-"classMR_1_1MeshBuilder_1_1UniteCloseParams.html#af450b903e2ec0b09d9e542d571a747b6":[9,3,0,0,0,1378,14,6],
-"classMR_1_1MeshBuilder_1_1VertDuplication.html":[9,3,0,0,0,1378,15],
-"classMR_1_1MeshBuilder_1_1VertDuplication.html#a1f5c612a3f4c91738389e921df16541c":[9,3,0,0,0,1378,15,0],
-"classMR_1_1MeshBuilder_1_1VertDuplication.html#a24285012d758c5d9f22fb638dffd3f01":[9,3,0,0,0,1378,15,4],
-"classMR_1_1MeshBuilder_1_1VertDuplication.html#a30a09ee3b1ab07d852f581c8fbc29da5":[9,3,0,0,0,1378,15,5],
-"classMR_1_1MeshBuilder_1_1VertDuplication.html#a32f38ad3842a777755d13d8a9616ed49":[9,3,0,0,0,1378,15,2]
+"classMR_1_1MeshBuilder_1_1UniteCloseParams.html#ac50ae0a8b87349abb1014331b4286a99":[9,3,0,0,0,1378,14,7]
 };

@@ -38,6 +38,35 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshDecimate.h" line="21" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="22" bodyend="25"/>
       </memberdef>
+      <memberdef kind="enum" id="group__DecimateGroup_1gaed99d2728682c43807db96f18bb16d35" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DecimatePartsMode</name>
+        <qualifiedname>MR::DecimatePartsMode</qualifiedname>
+        <enumvalue id="group__DecimateGroup_1ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b" prot="public">
+          <name>PackedMesh</name>
+          <briefdescription>
+<para>the mesh is already packed optimally (e.g. by mesh.packOptimally()), and the parts are ranges of face ids </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__DecimateGroup_1ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8" prot="public">
+          <name>AABBTree</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>the parts are subtrees of mesh&apos;s AABB tree (taken from the mesh if present, otherwise constructed), no packing is needed; the number of parts is rounded up to a power of two </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines how decimation finds the parts of the mesh for parallel processing (<ref refid="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" kindref="member">DecimateSettings::subdivideParts</ref> &gt; 1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshDecimate.h" line="28" column="1" bodyfile="MRMesh/MRMeshDecimate.h" bodystart="29" bodyend="35"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -66,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="204" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="204" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="217" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="217" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DecimateResult</type>
@@ -89,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="209" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="209" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="222" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="222" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; ObjectMeshData &gt;</type>
@@ -117,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="212" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="212" declcolumn="17"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="225" column="17" declfile="MRMesh/MRMeshDecimate.h" declline="225" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga5d60f8aec3ed26e0949d5b97861324e0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QuadraticForm3f</type>
@@ -153,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="220" column="19" declfile="MRMesh/MRMeshDecimate.h" declline="220" declcolumn="19"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="233" column="19" declfile="MRMesh/MRMeshDecimate.h" declline="233" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga5064016639386ac5440322085837e9da" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; QuadraticForm3f, VertId &gt;</type>
@@ -185,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="226" column="10" declfile="MRMesh/MRMeshDecimate.h" declline="226" declcolumn="10"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="239" column="10" declfile="MRMesh/MRMeshDecimate.h" declline="239" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1gafd27c831dac6b72e1cc177e88f8a7c4a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
@@ -212,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="233" column="14" declfile="MRMesh/MRMeshDecimate.h" declline="233" declcolumn="14"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="246" column="14" declfile="MRMesh/MRMeshDecimate.h" declline="246" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga819efdab20db83df5180d339b4ed6196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -242,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="266" column="7" declfile="MRMesh/MRMeshDecimate.h" declline="266" declcolumn="7"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="279" column="7" declfile="MRMesh/MRMeshDecimate.h" declline="279" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1ga2f09d000493d3c9da7ce3f98f6f4ee3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -265,7 +294,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshDecimate.h" line="321" column="7" declfile="MRMesh/MRMeshDecimate.h" declline="321" declcolumn="7"/>
+        <location file="MRMesh/MRMeshDecimate.h" line="334" column="7" declfile="MRMesh/MRMeshDecimate.h" declline="334" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__DecimateGroup_1gaeafa3a500cea3d03dc8e011409571cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DecimatePolylineResult</type>

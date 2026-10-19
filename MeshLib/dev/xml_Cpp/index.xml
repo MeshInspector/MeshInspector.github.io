@@ -2422,6 +2422,7 @@
     <member refid="structMR_1_1DecimateSettings_1a320a08e8abf402aa6a0dae956ad9be0e" kind="variable"><name>packMesh</name></member>
     <member refid="structMR_1_1DecimateSettings_1aa54526c521844dcca8dc5aa91e3628de" kind="variable"><name>progressCallback</name></member>
     <member refid="structMR_1_1DecimateSettings_1a8f97c534c28993195cc07d01e1721fe4" kind="variable"><name>subdivideParts</name></member>
+    <member refid="structMR_1_1DecimateSettings_1a5c45e6bbbd754a83383dc12b0564c009" kind="variable"><name>partsMode</name></member>
     <member refid="structMR_1_1DecimateSettings_1a75b6f5ba5cb1ddac954f9ffd4fb9b7fe" kind="variable"><name>decimateBetweenParts</name></member>
     <member refid="structMR_1_1DecimateSettings_1a7d69e19f2609b7330c6ac5d17a9ebfff" kind="variable"><name>partFaces</name></member>
     <member refid="structMR_1_1DecimateSettings_1a7cc18ed533890cfc09a39ba3724b5f85" kind="variable"><name>minFacesInPart</name></member>
@@ -14369,6 +14370,7 @@
     <member refid="group__GeneralGroup_1ga494f6ca56c512e886474f7209f624c48" kind="enum"><name>Side</name></member>
     <member refid="group__GeneralGroup_1gaa1ff587f4ced1a1f1f1be9787830ef93" kind="enum"><name>DepthFunction</name></member>
     <member refid="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" kind="enum"><name>DecimateStrategy</name></member>
+    <member refid="group__DecimateGroup_1gaed99d2728682c43807db96f18bb16d35" kind="enum"><name>DecimatePartsMode</name></member>
     <member refid="group__MeshDeloneGroup_1gaa3ebc28a0c17a0a5fc0c9b90a97bfc95" kind="enum"><name>FlipEdge</name></member>
     <member refid="group__AABBTreeGroup_1ga3dd2fd9fcc06b6502d22a9ea3eb63e47" kind="enum"><name>ProcessOneResult</name></member>
     <member refid="group__AABBTreeGroup_1ga5aa465c33f4b7d12b07ec82baf32654b" kind="enum"><name>MeshMeshCollisionStatus</name></member>
@@ -19825,6 +19827,9 @@
     <member refid="group__DecimateGroup_1ga216960c15f7b00558ab28053967a9615" kind="enum"><name>DecimateStrategy</name></member>
     <member refid="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a0aa99bb1752ad6d876e337cc13f70098" kind="enumvalue"><name>MinimizeError</name></member>
     <member refid="group__DecimateGroup_1gga216960c15f7b00558ab28053967a9615a701726fb0205943f4567e09bcebd0552" kind="enumvalue"><name>ShortestEdgeFirst</name></member>
+    <member refid="group__DecimateGroup_1gaed99d2728682c43807db96f18bb16d35" kind="enum"><name>DecimatePartsMode</name></member>
+    <member refid="group__DecimateGroup_1ggaed99d2728682c43807db96f18bb16d35aa9b711ba88fcba59c5510bf18d754c5b" kind="enumvalue"><name>PackedMesh</name></member>
+    <member refid="group__DecimateGroup_1ggaed99d2728682c43807db96f18bb16d35a220dce5b9731e80b3b1d4a59a9bbe8d8" kind="enumvalue"><name>AABBTree</name></member>
     <member refid="group__DecimateGroup_1gae9313434cccf9f5b704c8f1fbb534a50" kind="function"><name>decimateMesh</name></member>
     <member refid="group__DecimateGroup_1ga3f57cf6a3c61be20a3b70d36877d86ca" kind="function"><name>decimateObjectMeshData</name></member>
     <member refid="group__DecimateGroup_1gacc35b69a8b8bab04f5ae4a9d7b89e072" kind="function"><name>makeDecimatedObjectMeshData</name></member>

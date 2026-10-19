@@ -112,6 +112,7 @@
     <member refid="classDecimateSettings_1ab9624fa8f6934304352dd1ff3911ed70" kind="variable"><name>maxAngleChange</name></member>
     <member refid="classDecimateSettings_1aa96cd5cc66f6d720735be71885284f72" kind="variable"><name>packMesh</name></member>
     <member refid="classDecimateSettings_1af6b0a7e07c35f8a3d11122338c6df4d8" kind="variable"><name>subdivideParts</name></member>
+    <member refid="classDecimateSettings_1a29a631b13da0279a667e3dcd4df1a75b" kind="variable"><name>partsMode</name></member>
     <member refid="classDecimateSettings_1a19532b4b6af7982ecfe4a4791ce59ab2" kind="variable"><name>decimateBetweenParts</name></member>
     <member refid="classDecimateSettings_1a64e16468367498643496bc6c212061bc" kind="variable"><name>minFacesInPart</name></member>
     <member refid="classDecimateSettings_1a52dd0d358a8f27e77b0cac76654357ad" kind="function"><name>DecimateSettings</name></member>
@@ -656,6 +657,9 @@
     <member refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fb" kind="enum"><name>DecimateStrategy</name></member>
     <member refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fbac9f66cbc4953783cde6144ea9e4ea7fd" kind="enumvalue"><name>MinimizeError</name></member>
     <member refid="bindings_8d_8mts_1aae3b7ed557d4233548d7966f0951e8fba7dd8eb61d5d609641c4916ad48bd3726" kind="enumvalue"><name>ShortestEdgeFirst</name></member>
+    <member refid="bindings_8d_8mts_1ad1b68ac93afc03c8e0d5aae50bf2fa55" kind="enum"><name>DecimatePartsMode</name></member>
+    <member refid="bindings_8d_8mts_1ad1b68ac93afc03c8e0d5aae50bf2fa55ac06e02bb0595d709ea6cda74b40c838e" kind="enumvalue"><name>PackedMesh</name></member>
+    <member refid="bindings_8d_8mts_1ad1b68ac93afc03c8e0d5aae50bf2fa55ac70643a827f9368cbea9120720ba4e2d" kind="enumvalue"><name>AABBTree</name></member>
     <member refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11" kind="enum"><name>MultipleEdgesResolveMode</name></member>
     <member refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11ac7485dcc8d256a6f197ed7802687f252" kind="enumvalue"><name>None</name></member>
     <member refid="bindings_8d_8mts_1affcedbbb6a1acf807f0cfc008c6dbe11aebfbf7dc5cde0772efb1aa49712bd76b" kind="enumvalue"><name>Simple</name></member>

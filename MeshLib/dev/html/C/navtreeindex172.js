@@ -1,5 +1,12 @@
 var NAVTREEINDEX172 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a7bc9761ba3a322725c925b20e5537b60":[9,2,2,0,0,0,0,2,431,41],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a83a422399e8fcd0e99630f7a26da55be":[9,2,2,0,0,0,0,2,431,33],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a893cba94d9a3a069a61df572db54dc60":[9,2,2,0,0,0,0,2,431,13],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a8affdc7363c9cc84b548a34552b49779":[9,2,2,0,0,0,0,2,431,38],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a8c06cf51915afd9670ef74bd70a5a2ef":[9,2,2,0,0,0,0,2,431,3],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a909c8187a30f136493c0ec5c2020e866":[9,2,2,0,0,0,0,2,431,55],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a91d83ead0ce56e0b201e7c611eccb730":[9,2,2,0,0,0,0,2,431,67],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a92b7792616349b410324dcfa8ebc8a5f":[9,2,2,0,0,0,0,2,431,44],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a953ddf15c4627fdb54b7e97ea0e138fd":[9,2,2,0,0,0,0,2,431,53],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a99049275bfee12f589758c71fb931d4b":[9,2,2,0,0,0,0,2,431,47],
@@ -242,12 +249,5 @@ var NAVTREEINDEX172 =
 "std__vector__MR__Dipole_8h.html#ac4561568a0175f189287ff3209779b21":[9,2,2,0,0,0,0,2,434,14],
 "std__vector__MR__Dipole_8h.html#ac6ed5e568be337b4903d24f2256dcdc1":[9,2,2,0,0,0,0,2,434,11],
 "std__vector__MR__Dipole_8h.html#ad038f02ee6675dcf1d87cb5e553c56ac":[9,2,2,0,0,0,0,2,434,58],
-"std__vector__MR__Dipole_8h.html#ad4c47747c8167e149577a0ffc6c18c3a":[9,2,2,0,0,0,0,2,434,62],
-"std__vector__MR__Dipole_8h.html#ad90bdb2add38fa4b3d62a7cfa99702c4":[9,2,2,0,0,0,0,2,434,7],
-"std__vector__MR__Dipole_8h.html#ae46aa65cd295a644f033b5957de9afae":[9,2,2,0,0,0,0,2,434,31],
-"std__vector__MR__Dipole_8h.html#ae7c95228c2a0e31aaba74f175b49b8e4":[9,2,2,0,0,0,0,2,434,59],
-"std__vector__MR__Dipole_8h.html#aea861e44b981e339d216d99754d004a1":[9,2,2,0,0,0,0,2,434,5],
-"std__vector__MR__Dipole_8h.html#aecdc82cbb36abc1f9fcb6a055fca74f9":[9,2,2,0,0,0,0,2,434,2],
-"std__vector__MR__Dipole_8h.html#af3e4cc31b0af221a7b025b36288c24b2":[9,2,2,0,0,0,0,2,434,55],
-"std__vector__MR__Dipole_8h.html#af5759644d1d420722b812802c18c0654":[9,2,2,0,0,0,0,2,434,3]
+"std__vector__MR__Dipole_8h.html#ad4c47747c8167e149577a0ffc6c18c3a":[9,2,2,0,0,0,0,2,434,62]
 };

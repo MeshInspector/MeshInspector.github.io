@@ -238,6 +238,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.CutMeshResult", "classmrmeshpy_1_1CutMeshResult.html", "classmrmeshpy_1_1CutMeshResult" ],
     [ "mrmeshpy.Cylinder3d", "classmrmeshpy_1_1Cylinder3d.html", "classmrmeshpy_1_1Cylinder3d" ],
     [ "mrmeshpy.Cylinder3f", "classmrmeshpy_1_1Cylinder3f.html", "classmrmeshpy_1_1Cylinder3f" ],
+    [ "mrmeshpy.DecimatePartsMode", "classmrmeshpy_1_1DecimatePartsMode.html", "classmrmeshpy_1_1DecimatePartsMode" ],
     [ "mrmeshpy.DecimatePolylineResult", "classmrmeshpy_1_1DecimatePolylineResult.html", "classmrmeshpy_1_1DecimatePolylineResult" ],
     [ "mrmeshpy.DecimatePolylineSettings_Vector2f", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f" ],
     [ "mrmeshpy.DecimatePolylineSettings_Vector3f", "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f.html", "classmrmeshpy_1_1DecimatePolylineSettings__Vector3f" ],

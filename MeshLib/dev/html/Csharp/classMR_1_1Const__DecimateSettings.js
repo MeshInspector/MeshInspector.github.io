@@ -1,7 +1,7 @@
 var classMR_1_1Const__DecimateSettings =
 [
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a3a3dde2ea4cfeb3893a023c4ad3769fa", null ],
-    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a8470dbd19231df41cc9581203a91fabc", null ],
+    [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a2a89cca368f1baeb9fb66aac27561819", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a416cbe92341394d850efa8a7306a0d67", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#a476b386045686fc33af580f15bf4fd1c", null ],
     [ "Const_DecimateSettings", "classMR_1_1Const__DecimateSettings.html#aed5f611167dc3065bea632c41eb1e2d8", null ],
@@ -29,6 +29,7 @@ var classMR_1_1Const__DecimateSettings =
     [ "__ref_storage_minFacesInPart", "classMR_1_1Const__DecimateSettings.html#aa4b3b4dd592ad694181074ba6ea99b51", null ],
     [ "__ref_storage_optimizeVertexPos", "classMR_1_1Const__DecimateSettings.html#a25d9c82e96331bf85eb813438e09ddfd", null ],
     [ "__ref_storage_packMesh", "classMR_1_1Const__DecimateSettings.html#abcd33e5e3ddd6fc7fc8ea91c9bbfcff5", null ],
+    [ "__ref_storage_partsMode", "classMR_1_1Const__DecimateSettings.html#abe8838ba7a5da6fb453c04d0d3ae245c", null ],
     [ "__ref_storage_preventNormalFlips", "classMR_1_1Const__DecimateSettings.html#a183066a0fc02373af6c05be486a3d84c", null ],
     [ "__ref_storage_stabilizer", "classMR_1_1Const__DecimateSettings.html#a50fb3d6707eee2ab4cf5889637fcb15b", null ],
     [ "__ref_storage_strategy", "classMR_1_1Const__DecimateSettings.html#ac26061a9fe87f70fe4bbdeff0f30a613", null ],
@@ -56,6 +57,7 @@ var classMR_1_1Const__DecimateSettings =
     [ "optimizeVertexPos", "classMR_1_1Const__DecimateSettings.html#a35d47882f056f71b0855b174817dc979", null ],
     [ "packMesh", "classMR_1_1Const__DecimateSettings.html#a4746687f133a538ad8a2aa78e412a665", null ],
     [ "partFaces", "classMR_1_1Const__DecimateSettings.html#ad2aa5e7e744414e2a04018642dc536db", null ],
+    [ "partsMode", "classMR_1_1Const__DecimateSettings.html#ac2418796ac3adc63fe0f29b1b10534fd", null ],
     [ "preCollapse", "classMR_1_1Const__DecimateSettings.html#aff48a89e5b6e9c64ac9fd7159114c131", null ],
     [ "preventNormalFlips", "classMR_1_1Const__DecimateSettings.html#a4df102049cb80543014f54f185b57a96", null ],
     [ "progressCallback", "classMR_1_1Const__DecimateSettings.html#a83c76ac708a9d5812c0ba6e30f276881", null ],
