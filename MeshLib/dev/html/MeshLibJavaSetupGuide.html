@@ -160,7 +160,7 @@ $(function(){initNavTree('MeshLibJavaSetupGuide.html','',''); });
 <div class="textblock"><p><a class="anchor" id="md_doxygen_2general__pages_2JavaSetupGuide"></a></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md136"></a>
 Setting Up MeshLib for Java Development</h1>
-<p>The bindings are a plain jar, <span class="tt">meshlib.jar</span>, with no native code of its own: it calls the C API library <span class="tt">MeshLibC2</span> (see the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>) through the foreign function API of Java 22, so there is no JNI glue to compile. C++ classes become classes whose instances own their C++ object (destroyed when garbage-collected, or earlier by <span class="tt">close()</span>), references returned by methods keep the object they point into alive, <span class="tt">std::string</span> parameters take <span class="tt">String</span>, and C++ exceptions become <span class="tt">meshlib.CppException</span>. The C++ namespaces become packages, so everything from <span class="tt">MR::</span> is under <span class="tt">meshlib.mr</span>, and the free functions are the static methods of <span class="tt">meshlib.mr.Functions</span>.</p>
+<p>The bindings are a plain jar, <span class="tt">meshlib.jar</span>, with no native code of its own: it calls the C API library <span class="tt">MeshLibC2</span> (see the <a class="el" href="MeshLibCSetupGuide.html">C Setup Guide</a>) through the foreign function API of Java 22, so there is no JNI glue to compile. C++ classes become classes whose instances own their C++ object (destroyed when garbage-collected, or earlier by <span class="tt">close()</span>), references returned by methods keep the object they point into alive, <span class="tt">std::string</span> parameters take <span class="tt">String</span>, and C++ exceptions become <span class="tt">meshlib.CppException</span>. Everything from <span class="tt">MR::</span> is directly in the <span class="tt">meshlib</span> package, nested namespaces become subpackages (<span class="tt">MR::MeshLoad</span> is <span class="tt">meshlib.meshload</span>), and the free functions are the static methods of the <span class="tt">Functions</span> class of each package.</p>
 <h2 class="doxsection"><a class="anchor" id="JavaSetupPrerequisites"></a>
 Prerequisites</h2>
 <ul>
@@ -205,9 +205,9 @@ Installation from the release archive</h2>
 </ol>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md139"></a>
 Using the API</h2>
-<div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mr.Functions;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.Mesh;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.expected_void_std_string;</div>
+<div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.expected_void_std_string;</div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Main</div>
 <div class="line">{</div>
@@ -216,7 +216,7 @@ Using the API</h2>
 <div class="line">        <span class="keywordflow">try</span> (Mesh mesh = Functions.makeUVSphere(1.0f, 64, 64)) <span class="comment">// Owns the C++ object, destroyed by `close()` or by the garbage collector.</span></div>
 <div class="line">        {</div>
 <div class="line">            System.out.println(mesh.topology().getValidFaces().count() + <span class="stringliteral">&quot; faces&quot;</span>);</div>
-<div class="line">            expected_void_std_string saved = meshlib.mr.meshsave.Functions.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;sphere.stl&quot;</span>, <span class="keyword">null</span>); <span class="comment">// The C++ `expected&lt;void, std::string&gt;`.</span></div>
+<div class="line">            expected_void_std_string saved = meshlib.meshsave.Functions.toAnySupportedFormat(mesh, <span class="stringliteral">&quot;sphere.stl&quot;</span>, <span class="keyword">null</span>); <span class="comment">// The C++ `expected&lt;void, std::string&gt;`.</span></div>
 <div class="line">            <span class="keywordflow">if</span> (!saved.success())</div>
 <div class="line">                <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;Failed to save: &quot;</span> + saved.error());</div>
 <div class="line">        }</div>

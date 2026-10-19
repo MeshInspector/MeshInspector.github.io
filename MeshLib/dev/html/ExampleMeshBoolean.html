@@ -559,18 +559,18 @@ Source meshes <div class="image">
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mr.AffineXf3f;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanOperation;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanResult;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanResultMapper;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.BooleanResultMapper_MapObject;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.FaceBitSet;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.FaceId;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.FaceMap;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.Functions;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.Mesh;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.Vector3f;</div>
-<div class="line"><span class="keyword">import</span> meshlib.mr.expected_void_std_string;</div>
+<li><b class="tab-title">Java</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.AffineXf3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.BooleanOperation;</div>
+<div class="line"><span class="keyword">import</span> meshlib.BooleanResult;</div>
+<div class="line"><span class="keyword">import</span> meshlib.BooleanResultMapper;</div>
+<div class="line"><span class="keyword">import</span> meshlib.BooleanResultMapper_MapObject;</div>
+<div class="line"><span class="keyword">import</span> meshlib.FaceBitSet;</div>
+<div class="line"><span class="keyword">import</span> meshlib.FaceId;</div>
+<div class="line"><span class="keyword">import</span> meshlib.FaceMap;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Functions;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Mesh;</div>
+<div class="line"><span class="keyword">import</span> meshlib.Vector3f;</div>
+<div class="line"><span class="keyword">import</span> meshlib.expected_void_std_string;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// The class isn&#39;t public because of the `.dox.java` file name, the launcher doesn&#39;t mind.</span></div>
 <div class="line"><span class="keyword">class </span>MeshBoolean</div>
@@ -620,7 +620,7 @@ Source meshes <div class="image">
 <div class="line">        System.out.println(<span class="stringliteral">&quot;face &quot;</span> + resultFace.id_() + <span class="stringliteral">&quot; of the result came from face &quot;</span> + new2oldFaces.index(resultFace).id_() + <span class="stringliteral">&quot; of sphere1&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">        <span class="comment">// Save result to an STL file.</span></div>
-<div class="line">        expected_void_std_string saved = meshlib.mr.meshsave.Functions.toAnySupportedFormat(result.mesh(), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line">        expected_void_std_string saved = meshlib.meshsave.Functions.toAnySupportedFormat(result.mesh(), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, <span class="keyword">null</span>);</div>
 <div class="line">        <span class="keywordflow">if</span> (!saved.success())</div>
 <div class="line">        {</div>
 <div class="line">            System.err.println(<span class="stringliteral">&quot;Failed to save mesh: &quot;</span> + saved.error());</div>
