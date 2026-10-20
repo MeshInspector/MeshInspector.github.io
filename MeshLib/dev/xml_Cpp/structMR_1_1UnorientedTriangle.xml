@@ -22,7 +22,7 @@
     <detaileddescription>
 <para>describes a triangle as three vertex IDs sorted in a way to quickly find same triangles irrespective of vertex order (clockwise or counterclockwise) </para>
     </detaileddescription>
-    <location file="MRMesh/MRUnorientedTriangle.h" line="15" column="1" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="16" bodyend="51"/>
+    <location file="MRMesh/MRUnorientedTriangle.h" line="16" column="1" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="17" bodyend="52"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga74d6d544ece458f69514e02465ea0a1e" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>getFlipped</name></member>
       <member refid="group__GeneralGroup_1ga45e593296b33c08794467bccc48dc9ef" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator const ThreeVertIds &amp;</name></member>

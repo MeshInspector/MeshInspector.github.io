@@ -46090,7 +46090,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="17" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="17" bodyend="17"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="18" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="18" bodyend="18"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1gaa67407d058ac75b0ff0e4fd21c5bebb8" prot="public" static="no" mutable="no">
         <type>const T &amp;</type>
@@ -74907,7 +74907,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="50" column="17"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="51" column="17"/>
       </memberdef>
       <memberdef kind="friend" id="group__GeneralGroup_1gaa313f8ba832a4b648631b27ecc640444" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -151451,7 +151451,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="19" column="5" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="19" bodyend="39"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="20" column="5" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="20" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga74d6d544ece458f69514e02465ea0a1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>ThreeVertIds</type>
@@ -151466,7 +151466,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="42" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="42" bodyend="42"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="43" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga2acb7c3b59143a9bddbe412c01ec2489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -151481,7 +151481,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="44" column="5" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="44" bodyend="44"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="45" column="5" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="45" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga45e593296b33c08794467bccc48dc9ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -151495,7 +151495,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="45" column="5" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="45" bodyend="45"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="46" column="5" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="46" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>VertId &amp;</type>
@@ -151513,7 +151513,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="47" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="47" bodyend="47"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="48" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="48" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const VertId &amp;</type>
@@ -151531,7 +151531,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRUnorientedTriangle.h" line="48" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="48" bodyend="48"/>
+        <location file="MRMesh/MRUnorientedTriangle.h" line="49" column="18" bodyfile="MRMesh/MRUnorientedTriangle.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0c68875da8e1de13eb3033e6dcb33bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
