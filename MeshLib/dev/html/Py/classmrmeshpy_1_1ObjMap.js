@@ -3,7 +3,7 @@ var classmrmeshpy_1_1ObjMap =
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#a6ac92630b7ad1d5f2fa851da2c6f0c03", null ],
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#a7fb3da2638085ddf97393b76439dff41", null ],
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#a71f479f9859f1041d2bc4b37fa46fa78", null ],
-    [ "__init__", "classmrmeshpy_1_1ObjMap.html#ab7cd514dd773beddb320efb3e3bad0cf", null ],
+    [ "__init__", "classmrmeshpy_1_1ObjMap.html#a4f77397490967a69faae39d573fc221c", null ],
     [ "__init__", "classmrmeshpy_1_1ObjMap.html#a44d25296d337eeb2c8eb23bb7a0466d7", null ],
     [ "__eq__", "classmrmeshpy_1_1ObjMap.html#a02a19e87624178c3ea21e30a7387c5a5", null ],
     [ "__getitem__", "classmrmeshpy_1_1ObjMap.html#a75d2494db07156d035b4d7e122fea35c", null ],
@@ -39,6 +39,6 @@ var classmrmeshpy_1_1ObjMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1ObjMap.html#ad66f4d30b30af4c06ed793391ec8b57c", null ],
     [ "size", "classmrmeshpy_1_1ObjMap.html#a093caa945d25fc70b3078740e6a914ba", null ],
     [ "swap", "classmrmeshpy_1_1ObjMap.html#a2b960221432bee8a4cec0351eb4463ae", null ],
-    [ "vec_", "classmrmeshpy_1_1ObjMap.html#a9ab1bb8cbab9e96fc7574a069bb5606f", null ],
-    [ "vec_", "classmrmeshpy_1_1ObjMap.html#a14d9ab3fb78e920d4224339ffa2b5e24", null ]
+    [ "vec", "classmrmeshpy_1_1ObjMap.html#abca65c7031eea8261126cc1fa1ddaa01", null ],
+    [ "vec", "classmrmeshpy_1_1ObjMap.html#a7f1ee23bdebe8f7727c009731b4e2ee7", null ]
 ];

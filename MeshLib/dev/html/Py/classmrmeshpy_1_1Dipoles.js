@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Dipoles =
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#a3688b558f19217277d2915f5deac9ab8", null ],
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#adc96c8f7835e4eeaf44fdb3f15d51431", null ],
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#ac93b4fd60bd4c14dc12d0fe73155592c", null ],
-    [ "__init__", "classmrmeshpy_1_1Dipoles.html#a53c72e6a822452d223515bda0f56a1b9", null ],
+    [ "__init__", "classmrmeshpy_1_1Dipoles.html#a8b5e4bf03a5e2e7b2b99557b58df86b3", null ],
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#a6ee1fc3c7a16292de829ed16c27a5de7", null ],
     [ "__getitem__", "classmrmeshpy_1_1Dipoles.html#adb9d20c0bddb6f1227ccc44848a0014e", null ],
     [ "__getitem__", "classmrmeshpy_1_1Dipoles.html#adb9d20c0bddb6f1227ccc44848a0014e", null ],
@@ -36,6 +36,6 @@ var classmrmeshpy_1_1Dipoles =
     [ "shrink_to_fit", "classmrmeshpy_1_1Dipoles.html#ac22a2f20cead20a08b8feca8b0d481c0", null ],
     [ "size", "classmrmeshpy_1_1Dipoles.html#aa86c47fb593f495d63ac3015f80fa8fb", null ],
     [ "swap", "classmrmeshpy_1_1Dipoles.html#ad1d003d5f7724221d603c1edb8505536", null ],
-    [ "vec_", "classmrmeshpy_1_1Dipoles.html#afa3a46aaacb48544713acd2d4498187b", null ],
-    [ "vec_", "classmrmeshpy_1_1Dipoles.html#a8e60e6cc78ebc06d89c9d9312287ffb4", null ]
+    [ "vec", "classmrmeshpy_1_1Dipoles.html#a33cb0593959d7554fcecf727c3b9b54a", null ],
+    [ "vec", "classmrmeshpy_1_1Dipoles.html#a7bd8439ec2fae91d9611a49c6511cc7e", null ]
 ];

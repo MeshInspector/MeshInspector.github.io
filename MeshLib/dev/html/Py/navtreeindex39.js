@@ -1,13 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"classmrmeshpy_1_1GraphVertBitSet.html#a6f6ac87cd94c97add7f004320ced8092":[9,1,0,0,2,408,0],
-"classmrmeshpy_1_1GraphVertBitSet.html#a6f6ac87cd94c97add7f004320ced8092":[9,1,1,0,1,408,0],
-"classmrmeshpy_1_1GraphVertBitSet.html#a73747a9e534d9c0f54cb55eb5656c7bf":[9,1,0,0,2,408,40],
-"classmrmeshpy_1_1GraphVertBitSet.html#a73747a9e534d9c0f54cb55eb5656c7bf":[9,1,1,0,1,408,40],
-"classmrmeshpy_1_1GraphVertBitSet.html#a77cd1d78dee2c916b16768b9424ddaa7":[9,1,0,0,2,408,8],
-"classmrmeshpy_1_1GraphVertBitSet.html#a77cd1d78dee2c916b16768b9424ddaa7":[9,1,1,0,1,408,8],
-"classmrmeshpy_1_1GraphVertBitSet.html#a7a92107f11a2b0e7b0d12974f9fb53c8":[9,1,0,0,2,408,23],
-"classmrmeshpy_1_1GraphVertBitSet.html#a7a92107f11a2b0e7b0d12974f9fb53c8":[9,1,1,0,1,408,23],
 "classmrmeshpy_1_1GraphVertBitSet.html#a7f141be9b58552f19936c74d79e518eb":[9,1,0,0,2,408,13],
 "classmrmeshpy_1_1GraphVertBitSet.html#a7f141be9b58552f19936c74d79e518eb":[9,1,1,0,1,408,13],
 "classmrmeshpy_1_1GraphVertBitSet.html#a8195abf86c018c447975e234129e57f1":[9,1,0,0,2,408,26],
@@ -249,5 +241,13 @@ var NAVTREEINDEX39 =
 "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html#a92db1e641d9d2833cf9de1a927bbab8e":[9,1,0,0,2,412,0,1],
 "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html#a92db1e641d9d2833cf9de1a927bbab8e":[9,1,1,0,1,412,0,1],
 "classmrmeshpy_1_1HexPalette.html":[9,1,0,0,2,413],
-"classmrmeshpy_1_1HexPalette.html":[9,1,1,0,1,413]
+"classmrmeshpy_1_1HexPalette.html":[9,1,1,0,1,413],
+"classmrmeshpy_1_1HexPalette.html#a43bf800172c96d3bb3ce4e9d33869722":[9,1,0,0,2,413,1],
+"classmrmeshpy_1_1HexPalette.html#a43bf800172c96d3bb3ce4e9d33869722":[9,1,1,0,1,413,1],
+"classmrmeshpy_1_1HexPalette.html#ae9a05db1b47ab153d13cf70a25f583c4":[9,1,0,0,2,413,0],
+"classmrmeshpy_1_1HexPalette.html#ae9a05db1b47ab153d13cf70a25f583c4":[9,1,0,0,2,413,2],
+"classmrmeshpy_1_1HexPalette.html#ae9a05db1b47ab153d13cf70a25f583c4":[9,1,1,0,1,413,0],
+"classmrmeshpy_1_1HexPalette.html#ae9a05db1b47ab153d13cf70a25f583c4":[9,1,1,0,1,413,2],
+"classmrmeshpy_1_1Histogram.html":[9,1,0,0,2,414],
+"classmrmeshpy_1_1Histogram.html":[9,1,1,0,1,414]
 };

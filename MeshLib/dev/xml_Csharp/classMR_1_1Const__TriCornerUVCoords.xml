@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="1947" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="1947" bodyend="1954"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1a53ad8b24ce08421df8b6619f0262ddb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1a219d8b4227056bab291963a4d515bb4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_TriCornerUVCoords.Const_TriCornerUVCoords</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; v)</argsstring>
         <name>Const_TriCornerUVCoords</name>
         <qualifiedname>MR.Const_TriCornerUVCoords.Const_TriCornerUVCoords</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1aab0b7db4aac3233fd8eb4a0cef48ee98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1afd5876727550120785d0633c8f6b5071" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_TriCornerUVCoords.operator Const_TriCornerUVCoords</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt; v)</argsstring>
         <name>operator Const_TriCornerUVCoords</name>
         <qualifiedname>MR.Const_TriCornerUVCoords.operator Const_TriCornerUVCoords</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVector2f3 &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TriCornerUVCoords_1ae7c6efdb7c35dd9959cb010a68d99767" kindref="member">MR.TriCornerUVCoords.TriCornerUVCoords</ref></computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2109" column="61"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1af02ba728df27b81ee5ea32222993ae78" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1a645baeda5909da7f9665facad082bdfc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TriCornerUVCoords._Underlying *</type>
         <definition>static unsafe MR.TriCornerUVCoords._Underlying * MR.Const_TriCornerUVCoords.__MR_TriCornerUVCoords_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_StdArrayMRVector2f3._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_StdArrayMRVector2f3._Underlying *v)</argsstring>
         <name>__MR_TriCornerUVCoords_Construct_stdVector</name>
         <qualifiedname>MR.Const_TriCornerUVCoords.__MR_TriCornerUVCoords_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_StdArrayMRVector2f3._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2118" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1a126ebb98e11fa4193cea3b13d190634f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__TriCornerUVCoords_1ac9baee9225568c58ac50787f5873b5f6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_StdArrayMRVector2f3._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_StdArrayMRVector2f3._Underlying * MR.Const_TriCornerUVCoords.__MR_TriCornerUVCoords_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_StdArrayMRVector2f3._Underlying * MR.Const_TriCornerUVCoords.__MR_TriCornerUVCoords_Get_vec</definition>
         <argsstring>(MR.Const_TriCornerUVCoords._Underlying *_this)</argsstring>
-        <name>__MR_TriCornerUVCoords_Get_vec_</name>
-        <qualifiedname>MR.Const_TriCornerUVCoords.__MR_TriCornerUVCoords_Get_vec_</qualifiedname>
+        <name>__MR_TriCornerUVCoords_Get_vec</name>
+        <qualifiedname>MR.Const_TriCornerUVCoords.__MR_TriCornerUVCoords_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_TriCornerUVCoords._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a33855416d57702b3864957de63d69bac" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_capacity</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1ab11706c5741c15c15c25b01fe8d6b290" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a7e9bbf7f2153a7b2f47eae79e790f0db" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__TriCornerUVCoords_1af02ba728df27b81ee5ea32222993ae78" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__TriCornerUVCoords_1a645baeda5909da7f9665facad082bdfc" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a3ccdceaff40ec1138bd73beed1ed448e" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a74536691cd75c369f1f58d0113f4dba9" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_data</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a53b505f9687d8b28baab24f4af194df8" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a93bbe93906afb1c82ae2aa3f0f0a83f6" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_empty</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1ae96abb34163d995b6bec7eed01df32e2" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_endId</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a02c38e251d19baa1fb1b8ab2cee3b515" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_front</name></member>
-      <member refid="classMR_1_1Const__TriCornerUVCoords_1a126ebb98e11fa4193cea3b13d190634f" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__TriCornerUVCoords_1ac9baee9225568c58ac50787f5873b5f6" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_Get_vec</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1abdca29d265948021f6709ea1b4d99a26" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_heapBytes</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1afad0fcbb9cccfef0e59968805343f56a" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_index</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a8aea313c3f7db8082ede4f5e3195f020" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>__MR_TriCornerUVCoords_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a1805d5ccc1f249ff123e5ea55a0cc5e5" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a41bc99f703e09017a8b13bac112a4ea1" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1aaf5f14570074b97ae63acfcbaceea4c1" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
-      <member refid="classMR_1_1Const__TriCornerUVCoords_1a53ad8b24ce08421df8b6619f0262ddb2" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__TriCornerUVCoords_1a219d8b4227056bab291963a4d515bb4f" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a9b0339c05fe7aa6f9308456b6facb584" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>data</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a8f27456a3b6bd00cd79dbed3a4d3cdad" prot="protected" virt="virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a41e276166af153c697f269cc25000ef3" prot="public" virt="virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a8a1fc592b4f7b52abcf2a693d1c1fd79" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1ae8b754ee5a4362ed252e7a7e28b0612f" prot="private" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a02fb73653c2523b0618678e12896cf31" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__TriCornerUVCoords_1aab0b7db4aac3233fd8eb4a0cef48ee98" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>operator Const_TriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__TriCornerUVCoords_1afd5876727550120785d0633c8f6b5071" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>operator Const_TriCornerUVCoords</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1add192d2dc00fd65fe7381cb4726f95b5" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1a759ff63a7d9732f5096d88bf2046b963" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__TriCornerUVCoords_1aa750f784ff4fdd07f87e8b22e3071ba4" prot="public" virt="non-virtual"><scope>MR::Const_TriCornerUVCoords</scope><name>size</name></member>

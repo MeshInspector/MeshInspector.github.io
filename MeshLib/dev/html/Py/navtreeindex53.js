@@ -1,13 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"classmrmeshpy_1_1Mesh.html#a007e3bcf71f8620611addd6e94c3513b":[9,1,0,0,2,541,5],
-"classmrmeshpy_1_1Mesh.html#a007e3bcf71f8620611addd6e94c3513b":[9,1,1,0,1,541,5],
-"classmrmeshpy_1_1Mesh.html#a053fbfc5abbe255ddfdc0cd8a02e49c9":[9,1,0,0,2,541,33],
-"classmrmeshpy_1_1Mesh.html#a053fbfc5abbe255ddfdc0cd8a02e49c9":[9,1,1,0,1,541,33],
-"classmrmeshpy_1_1Mesh.html#a07cd0640e440f64854b0980fadca745e":[9,1,0,0,2,541,42],
-"classmrmeshpy_1_1Mesh.html#a07cd0640e440f64854b0980fadca745e":[9,1,1,0,1,541,42],
-"classmrmeshpy_1_1Mesh.html#a0d69fc1e01412433c83f1d0626875818":[9,1,0,0,2,541,100],
-"classmrmeshpy_1_1Mesh.html#a0d69fc1e01412433c83f1d0626875818":[9,1,1,0,1,541,100],
 "classmrmeshpy_1_1Mesh.html#a0e771b63016e7a6ddf56e28c02144aee":[9,1,0,0,2,541,40],
 "classmrmeshpy_1_1Mesh.html#a0e771b63016e7a6ddf56e28c02144aee":[9,1,1,0,1,541,40],
 "classmrmeshpy_1_1Mesh.html#a103b613cee322330912a3c900658294a":[9,1,0,0,2,541,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX53 =
 "classmrmeshpy_1_1MeshAttributesToUpdate.html#a9c9b14740e3f751058c0142ded64aaae":[9,1,0,0,2,543,2],
 "classmrmeshpy_1_1MeshAttributesToUpdate.html#a9c9b14740e3f751058c0142ded64aaae":[9,1,1,0,1,543,2],
 "classmrmeshpy_1_1MeshAttributesToUpdate.html#ab7f664098ff1179ed37379fb7129143f":[9,1,0,0,2,543,0],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#ab7f664098ff1179ed37379fb7129143f":[9,1,1,0,1,543,0]
+"classmrmeshpy_1_1MeshAttributesToUpdate.html#ab7f664098ff1179ed37379fb7129143f":[9,1,1,0,1,543,0],
+"classmrmeshpy_1_1MeshAttributesToUpdate.html#af1109fe0ccfeb0256d900dea711ac55d":[9,1,0,0,2,543,1],
+"classmrmeshpy_1_1MeshAttributesToUpdate.html#af1109fe0ccfeb0256d900dea711ac55d":[9,1,1,0,1,543,1],
+"classmrmeshpy_1_1MeshBuilder.html":[9,1,0,0,2,544],
+"classmrmeshpy_1_1MeshBuilder.html":[9,1,1,0,1,544],
+"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html":[9,1,0,0,2,544,0],
+"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html":[9,1,1,0,1,544,0],
+"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a19e5d652aee18c47fd00054cfb8ef80b":[9,1,0,0,2,544,0,5],
+"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a19e5d652aee18c47fd00054cfb8ef80b":[9,1,1,0,1,544,0,5]
 };

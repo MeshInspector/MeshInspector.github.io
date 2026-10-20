@@ -1,13 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#af1109fe0ccfeb0256d900dea711ac55d":[9,1,0,0,2,543,1],
-"classmrmeshpy_1_1MeshAttributesToUpdate.html#af1109fe0ccfeb0256d900dea711ac55d":[9,1,1,0,1,543,1],
-"classmrmeshpy_1_1MeshBuilder.html":[9,1,0,0,2,544],
-"classmrmeshpy_1_1MeshBuilder.html":[9,1,1,0,1,544],
-"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html":[9,1,0,0,2,544,0],
-"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html":[9,1,1,0,1,544,0],
-"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a19e5d652aee18c47fd00054cfb8ef80b":[9,1,0,0,2,544,0,5],
-"classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a19e5d652aee18c47fd00054cfb8ef80b":[9,1,1,0,1,544,0,5],
 "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a3325911d36199c598062f38fbcc9e2cc":[9,1,0,0,2,544,0,7],
 "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a3325911d36199c598062f38fbcc9e2cc":[9,1,1,0,1,544,0,7],
 "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html#a3b4140b7d62f71c109b7ace886a51ba3":[9,1,0,0,2,544,0,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX54 =
 "classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a23daeea8aa0dffd6b18ef74e5551285a":[9,1,0,0,2,545,4,2],
 "classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a23daeea8aa0dffd6b18ef74e5551285a":[9,1,1,0,1,545,4,2],
 "classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a25f8f319ced72ea3ac5cd59feb6b1b7b":[9,1,0,0,2,545,4,5],
-"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a25f8f319ced72ea3ac5cd59feb6b1b7b":[9,1,1,0,1,545,4,5]
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a25f8f319ced72ea3ac5cd59feb6b1b7b":[9,1,1,0,1,545,4,5],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a4da32e9dbfa875789f69995e0c20bfc8":[9,1,0,0,2,545,4,9],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a4da32e9dbfa875789f69995e0c20bfc8":[9,1,1,0,1,545,4,9],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a9b84ee3afdc275fd456e29bf2771880e":[9,1,0,0,2,545,4,3],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#a9b84ee3afdc275fd456e29bf2771880e":[9,1,1,0,1,545,4,3],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#aa2582543c6f97ad2d621e22f8367ff86":[9,1,0,0,2,545,4,10],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#aa2582543c6f97ad2d621e22f8367ff86":[9,1,1,0,1,545,4,10],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#aa48687ccf7c61b6aa91625952b9fb1d1":[9,1,0,0,2,545,4,11],
+"classmrmeshpy_1_1MeshComponents_1_1VolumeSelection.html#aa48687ccf7c61b6aa91625952b9fb1d1":[9,1,1,0,1,545,4,11]
 };

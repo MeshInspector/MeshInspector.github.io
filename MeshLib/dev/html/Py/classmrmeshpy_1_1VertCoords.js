@@ -3,7 +3,7 @@ var classmrmeshpy_1_1VertCoords =
     [ "__init__", "classmrmeshpy_1_1VertCoords.html#ab69a672fd29b605f43ca27de686a87eb", null ],
     [ "__init__", "classmrmeshpy_1_1VertCoords.html#a92981e223091debaed708c7e5fdffd19", null ],
     [ "__init__", "classmrmeshpy_1_1VertCoords.html#a01adef15eb464c647f1211d76317cade", null ],
-    [ "__init__", "classmrmeshpy_1_1VertCoords.html#a4a902fcc63e15dd43624e5ea29a693d9", null ],
+    [ "__init__", "classmrmeshpy_1_1VertCoords.html#ab70efc8c72abe9ebfdcafcdbc927e2a5", null ],
     [ "__init__", "classmrmeshpy_1_1VertCoords.html#ab79cc3930ab8fd7d45966cd3b993c299", null ],
     [ "__eq__", "classmrmeshpy_1_1VertCoords.html#a560eb043ff243def4c19f225ed53e315", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertCoords.html#a7b7a2505b031319cd660e5de289384bb", null ],
@@ -40,7 +40,5 @@ var classmrmeshpy_1_1VertCoords =
     [ "size", "classmrmeshpy_1_1VertCoords.html#a498a7c0978824381b7c469de71acb941", null ],
     [ "swap", "classmrmeshpy_1_1VertCoords.html#a615cf7157581486938196438abf3955d", null ],
     [ "vec", "classmrmeshpy_1_1VertCoords.html#a8f0cfee54b377ac5995792064d3fb985", null ],
-    [ "vec", "classmrmeshpy_1_1VertCoords.html#a4badaa14033a0eebeb3a07c80475a6c3", null ],
-    [ "vec_", "classmrmeshpy_1_1VertCoords.html#a43c2318467c161cf1277f9cff73b029d", null ],
-    [ "vec_", "classmrmeshpy_1_1VertCoords.html#a397b16b6c1aa957217e50ca8260ab0e8", null ]
+    [ "vec", "classmrmeshpy_1_1VertCoords.html#a4badaa14033a0eebeb3a07c80475a6c3", null ]
 ];

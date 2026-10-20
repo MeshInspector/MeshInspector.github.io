@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5783" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5783" bodyend="5790"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1ae5639b5a5ecdeb68449c2b245bbe293d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1ae1a6cb078c96639a3c22c525b8ce88d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgeMap.EdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; v)</argsstring>
         <name>EdgeMap</name>
         <qualifiedname>MR.EdgeMap.EdgeMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
@@ -587,15 +587,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1af37cf6449ccd0abe992d2906171fec23" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1aa8a9cf441b2fca97730559b2d74d0e7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.EdgeMap.operator EdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; v)</argsstring>
         <name>operator EdgeMap</name>
         <qualifiedname>MR.EdgeMap.operator EdgeMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
@@ -696,15 +696,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6008" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1a6e4a09d8703ccbcec8ee506b30348f41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1a41c39ab35dc83c186f0d5bbcfeb5b858" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeMap._Underlying *</type>
         <definition>static unsafe MR.EdgeMap._Underlying * MR.EdgeMap.__MR_EdgeMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *v)</argsstring>
         <name>__MR_EdgeMap_Construct_stdVector</name>
         <qualifiedname>MR.EdgeMap.__MR_EdgeMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MREdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -728,12 +728,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6014" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeMap_1aa59412f811cf0f19b5448b0c48b035a4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeMap_1a4ec346843370c075e2dc5c3fe436204b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeId._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MREdgeId._Underlying * MR.EdgeMap.__MR_EdgeMap_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MREdgeId._Underlying * MR.EdgeMap.__MR_EdgeMap_GetMutable_vec</definition>
         <argsstring>(MR.EdgeMap._Underlying *_this)</argsstring>
-        <name>__MR_EdgeMap_GetMutable_vec_</name>
-        <qualifiedname>MR.EdgeMap.__MR_EdgeMap_GetMutable_vec_</qualifiedname>
+        <name>__MR_EdgeMap_GetMutable_vec</name>
+        <qualifiedname>MR.EdgeMap.__MR_EdgeMap_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.EdgeMap._Underlying *</type>
           <declname>_this</declname>
@@ -1262,12 +1262,12 @@
       <member refid="classMR_1_1EdgeMap_1a0605a01fb08d7306ff97a77d3a02d84a" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_clear</name></member>
       <member refid="classMR_1_1EdgeMap_1a3bd8293b29499d805d14d5219bdae76d" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_Construct</name></member>
       <member refid="classMR_1_1EdgeMap_1a8644f07278db63c28073ef588ac6371f" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_Construct_fill</name></member>
-      <member refid="classMR_1_1EdgeMap_1a6e4a09d8703ccbcec8ee506b30348f41" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1EdgeMap_1a41c39ab35dc83c186f0d5bbcfeb5b858" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1EdgeMap_1a5625315843cfa43d253679e75fe495e8" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1EdgeMap_1ad047796000db74db006cc7bd2e0ce09d" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_data_mut</name></member>
       <member refid="classMR_1_1EdgeMap_1a5a9060dcd9411fade817f41cb0809aaa" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_DefaultConstruct</name></member>
       <member refid="classMR_1_1EdgeMap_1a6773135be0bbc266cd69309b6689a7ea" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_front_mut</name></member>
-      <member refid="classMR_1_1EdgeMap_1aa59412f811cf0f19b5448b0c48b035a4" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1EdgeMap_1a4ec346843370c075e2dc5c3fe436204b" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_GetMutable_vec</name></member>
       <member refid="classMR_1_1EdgeMap_1ad4b4f0bb9fc7a6ce08f845e0d159c0c7" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_index_mut</name></member>
       <member refid="classMR_1_1EdgeMap_1a05f2aae8d20815c9658f148d314b0690" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_pop_back</name></member>
       <member refid="classMR_1_1EdgeMap_1aabe1b09282392b5e2a4e21197122f5cf" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>__MR_EdgeMap_push_back_const_MR_EdgeId_ref</name></member>
@@ -1296,7 +1296,7 @@
       <member refid="classMR_1_1Const__EdgeMap_1a164fe5ae02065bfa72dac83e3d9e6741" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a2da7f40e3ba792f5853ec1130046db56" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1af9f7a3c920062ef77abf213f3ff27ace" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a5bb1d87dc45ce96d3d08c7d77b3ab7e1" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ad47cfa9255bc444ab667bfc250a358ac" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Const_EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1a317d971f85610c821fc7153cdfb8d1ec" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1ab6b12226dcc9430ceeb9c2f31964012a" prot="protected" virt="virtual"><scope>MR::EdgeMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1aa80e7a577373a379011927e688b398e4" prot="public" virt="virtual"><scope>MR::EdgeMap</scope><name>Dispose</name></member>
@@ -1307,7 +1307,7 @@
       <member refid="classMR_1_1EdgeMap_1aae16dff2a5f4781268c606f6bb467066" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1a66300063dd68bc5b27677f732f72893c" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1EdgeMap_1abf43d6d5ca9f29aa95bdcfb1d2bc4490" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
-      <member refid="classMR_1_1EdgeMap_1ae5639b5a5ecdeb68449c2b245bbe293d" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
+      <member refid="classMR_1_1EdgeMap_1ae1a6cb078c96639a3c22c525b8ce88d3" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a0aee0a2134bf1cc9f814ad82161626d8" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a1a231a22ed33e2df6493597e623b006c" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a77bfe3dcf0f6c846f1eef7e9c7d0e66a" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>Equals</name></member>
@@ -1316,8 +1316,8 @@
       <member refid="classMR_1_1EdgeMap_1a2196fd9587fb1013ec0e429aa2d660b8" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1EdgeMap_1a0a8e1a4e87c03e46df21a9a58cc300c7" prot="private" virt="non-virtual"><scope>MR::EdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a5b97f2097965979d1e979e6c6f0d0e6e" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__EdgeMap_1a143d8533f87e97e8a0226e2303bf71a4" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator Const_EdgeMap</name></member>
-      <member refid="classMR_1_1EdgeMap_1af37cf6449ccd0abe992d2906171fec23" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a5dc3c7bdace36063b3bfe32761a19e9f" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator Const_EdgeMap</name></member>
+      <member refid="classMR_1_1EdgeMap_1aa8a9cf441b2fca97730559b2d74d0e7b" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator EdgeMap</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1af7f4e1732778a4a5f892ef0a40663602" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__EdgeMap_1a7b7e1b7efd5c7f50e3eae7884bc12245" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1EdgeMap_1af12ecb46144f0e2674524a37ab78a926" prot="public" virt="non-virtual"><scope>MR::EdgeMap</scope><name>popBack</name></member>

@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac43ef38f22973354f8c918e7cb5dddfd", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#add1f2bb42ab3e31e65883357f2940c1a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#aa747abdb705880e371b78670832b3d3d", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a82e749f97a95a55e86e6f9c9f521f414", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a8fa5eb7ce67b96d72bb04c836517c001", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a7f6034f7ea824a56cccf23ab5021be1c", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a983d2c7979b6851fe564abc4a56fafca", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a961852348726c62f8e1d4a6aee24bf3a", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a1f2adcd331b3b13a77f62492489a4c8a", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a3e8767573ed2d60fd20ab075d90a2006", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a36f6c139eb6e127ae784e3703844a030", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ad500ed30af7fe4452c6cc12ca6c3f6ed", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#aac34cd9d49242f726bb857e28e7e4783", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#a57facfed30622bd601b79843b0fab850", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag.html#ac9f14d1e81054fb5cd52b659b74d1058", null ]
 ];

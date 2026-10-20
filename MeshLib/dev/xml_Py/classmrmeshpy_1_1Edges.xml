@@ -20,12 +20,12 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Edges_1a35fdfafa9cb9b982b0bac7d9d48109d9" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Edges_1a421d0620bab17e07d5e4b22c83feac99" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Edges::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Edges::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Edges._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Edges._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -243,10 +243,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18279" bodyend="18282"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Edges_1a6a5e7fd2d6b57290bb2f35191b2fff3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Edges_1a9e9521d38662207b9ad641aaf547cd2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Edges.__init__</definition>
-        <argsstring>(self, std_vector_std_array_Id_VertTag_2ul vec)</argsstring>
+        <argsstring>(self, std_vector_std_array_Id_VertTag_2ul v)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Edges.__init__</qualifiedname>
         <param>
@@ -255,7 +255,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__2ul" kindref="compound">std_vector_std_array_Id_VertTag_2ul</ref></type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -926,12 +926,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18384" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18384" bodyend="18385"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Edges_1ad5d0fc6bc7766d78bde9837cff108f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Edges_1ae9c559174309853320a41ccdf9aa9a28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__array__Id__VertTag__2ul" kindref="compound">std_vector_std_array_Id_VertTag_2ul</ref></type>
-        <definition> std_vector_std_array_Id_VertTag_2ul mrmeshpy.Edges.vec_</definition>
+        <definition> std_vector_std_array_Id_VertTag_2ul mrmeshpy.Edges.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Edges.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Edges.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -946,12 +946,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18387" bodyend="18390"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Edges_1a66770429ba090bda8dae7fde8ea0f7da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Edges_1aa371d2972fef96336e6bfc69b21fe4df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Edges.vec_</definition>
+        <definition> None mrmeshpy.Edges.vec</definition>
         <argsstring>(self, std_vector_std_array_Id_VertTag_2ul arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Edges.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Edges.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -990,12 +990,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Edges_1a034ca5c060121ea9ca1ea62b6c3979d4" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a6fc6fdadced5d2dfd984f95bde8dad63" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a3169dda529730ae5a653423204589927" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Edges_1a6a5e7fd2d6b57290bb2f35191b2fff3b" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Edges_1a9e9521d38662207b9ad641aaf547cd2e" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a1405afdfe4856a5abd981a9fab4ddd78" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a0d4b93f4a7452bf159d95e09918a023d" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a76f490ac0e3826a2437a61d92be774d3" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a213138149f287f5dcaa16ba8fe15a97c" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Edges_1a35fdfafa9cb9b982b0bac7d9d48109d9" prot="protected" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Edges_1a421d0620bab17e07d5e4b22c83feac99" prot="protected" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>_offsetof_vec</name></member>
       <member refid="classmrmeshpy_1_1Edges_1ad7a5f331ffd5fc073b8196c1031b6915" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a3d860abe3205b03fc1d04dbb9c61bcce" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a67107e6b37b2e0ad4cec386124670df9" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>autoResizeSet</name></member>
@@ -1025,8 +1025,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Edges_1a3d30ed668000cbd40ed5d8fc61d16e10" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a3aac22af05f6074074ea0fe894e47d6c" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Edges_1a98a8b9af2718c53ca87d9caec8976954" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>swap</name></member>
-      <member refid="classmrmeshpy_1_1Edges_1ad5d0fc6bc7766d78bde9837cff108f6b" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Edges_1a66770429ba090bda8dae7fde8ea0f7da" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Edges_1ae9c559174309853320a41ccdf9aa9a28" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Edges_1aa371d2972fef96336e6bfc69b21fe4df" prot="public" virt="non-virtual"><scope>mrmeshpy::Edges</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

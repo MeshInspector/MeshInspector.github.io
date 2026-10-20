@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60514" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="60514" bodyend="60521"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a9053a39882be7471ef5c12893afbfdb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a6d9ead543bc9ba08dd0c9724f39949a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRPixelId_MRPixelId.Const_Vector_MRPixelId_MRPixelId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt; v)</argsstring>
         <name>Const_Vector_MRPixelId_MRPixelId</name>
         <qualifiedname>MR.Const_Vector_MRPixelId_MRPixelId.Const_Vector_MRPixelId_MRPixelId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1aeb598871e30f68f4b6a7209cf2707f5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a36da4b421178f29fe3d0b8c7f8e6cb2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_MRPixelId_MRPixelId.operator Const_Vector_MRPixelId_MRPixelId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt; v)</argsstring>
         <name>operator Const_Vector_MRPixelId_MRPixelId</name>
         <qualifiedname>MR.Const_Vector_MRPixelId_MRPixelId.operator Const_Vector_MRPixelId_MRPixelId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRPixelId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60676" column="70"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a541bbbe240362fff887fa7e164d14545" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a4d62f736e9a76b1d28605918f3f022ad" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRPixelId_MRPixelId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRPixelId_MRPixelId._Underlying * MR.Const_Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRPixelId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRPixelId._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRPixelId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="60685" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a5b6b60aa5c7d96a24e4264d237e84042" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a3ce08fdccf48a6a89a7234d2bf3cec9a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRPixelId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRPixelId._Underlying * MR.Const_Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRPixelId._Underlying * MR.Const_Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_MRPixelId_MRPixelId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_PixelId_MR_PixelId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_MR_PixelId_MR_PixelId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_MRPixelId_MRPixelId.__MR_Vector_MR_PixelId_MR_PixelId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_MRPixelId_MRPixelId._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a51b0a3870f5029a766d6d444c8085e90" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a43fcbb1386ab98c29657674930a820a5" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a95ee6279b2f9e82c3f609990a60febea" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a541bbbe240362fff887fa7e164d14545" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a4d62f736e9a76b1d28605918f3f022ad" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a1a17574bb6d3ad00d644db078c896cac" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1af01b421138da92449b2c45b7b72d03ac" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1ac328d74f4086f2d641f3bac99ce2e3b0" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a0aede2cf6455a681facafef824306100" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a6eb37043e299810663549255afe02d0a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a6dc5639fb0d6fc28ae70debb4dacec9c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a5b6b60aa5c7d96a24e4264d237e84042" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a3ce08fdccf48a6a89a7234d2bf3cec9a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a63473406cea95b262ccaca1b4e8eed57" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1aaa785b74559ceaa8e5fb50355087260f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_index</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a52d97d8433952df90d881689e0ae0486" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>__MR_Vector_MR_PixelId_MR_PixelId_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a1fa51761a1cbed0013c235187622c83a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a55526f8fbc0aa0c6fc6e95f17f7e323e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a5c31fe43f9b078881ac34752b2e97d0f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a9053a39882be7471ef5c12893afbfdb1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a6d9ead543bc9ba08dd0c9724f39949a2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Const_Vector_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a0e0e0f51c13c9583dc5fdeb5678bf850" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1ae01cc2b1771010c014bc3ef54870e53e" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a2b7a0e1650043acb5628d5a945ea3569" prot="public" virt="virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1afdb1a3706c9bcdab0064c757b96fa545" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a174c7aa66386c5305f4688dd72a04151" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1aa4ef2f4a4cd6bc37faf2b2a8e35258fa" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1aeb598871e30f68f4b6a7209cf2707f5d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>operator Const_Vector_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a36da4b421178f29fe3d0b8c7f8e6cb2c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>operator Const_Vector_MRPixelId_MRPixelId</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a74a3726beadb889aca9a1dad07f3c1eb" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1a30f32d226d479adeff41de6afb3f3b38" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__MRPixelId__MRPixelId_1afab177f60a48c4b4085d9cef27933c9a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRPixelId_MRPixelId</scope><name>size</name></member>

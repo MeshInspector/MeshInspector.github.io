@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33459" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="33459" bodyend="33464"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a1ab94c341409e65c13285088b478dc70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aeecedeb91861042298974991a0df5420" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Vector_MRNestingMeshXf_MRObjId.Vector_MRNestingMeshXf_MRObjId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRNestingMeshXf &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRNestingMeshXf &gt; v)</argsstring>
         <name>Vector_MRNestingMeshXf_MRObjId</name>
         <qualifiedname>MR.Vector_MRNestingMeshXf_MRObjId.Vector_MRNestingMeshXf_MRObjId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRNestingMeshXf &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1MeshXf" kindref="compound">MR.Nesting.MeshXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -564,15 +564,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aef866b92b2becc5fa130c4449ee16d81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a68066faf29e43dd9fba2f4bcde79a647" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Vector_MRNestingMeshXf_MRObjId.operator Vector_MRNestingMeshXf_MRObjId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRNestingMeshXf &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRNestingMeshXf &gt; v)</argsstring>
         <name>operator Vector_MRNestingMeshXf_MRObjId</name>
         <qualifiedname>MR.Vector_MRNestingMeshXf_MRObjId.operator Vector_MRNestingMeshXf_MRObjId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRNestingMeshXf &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1MeshXf" kindref="compound">MR.Nesting.MeshXf</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -673,15 +673,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33675" column="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ad4c8528aac5353798dcc1928bd13dcbc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a7197fe8e50c683359aeb7758df8e27ef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRNestingMeshXf_MRObjId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRNestingMeshXf_MRObjId._Underlying * MR.Vector_MRNestingMeshXf_MRObjId.__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRNestingMeshXf._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRNestingMeshXf._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct_stdVector</name>
         <qualifiedname>MR.Vector_MRNestingMeshXf_MRObjId.__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRNestingMeshXf._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -705,12 +705,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="33681" column="74"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a10fd71219e59a7df9b496c8265551d41" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a62345f5c75cacf23daac34dc7263f456" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRNestingMeshXf._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf._Underlying * MR.Vector_MRNestingMeshXf_MRObjId.__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRNestingMeshXf._Underlying * MR.Vector_MRNestingMeshXf_MRObjId.__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec</definition>
         <argsstring>(MR.Vector_MRNestingMeshXf_MRObjId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec_</name>
-        <qualifiedname>MR.Vector_MRNestingMeshXf_MRObjId.__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec_</qualifiedname>
+        <name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec</name>
+        <qualifiedname>MR.Vector_MRNestingMeshXf_MRObjId.__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.Vector_MRNestingMeshXf_MRObjId._Underlying *</type>
           <declname>_this</declname>
@@ -1207,12 +1207,12 @@
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a992705bc2d5e21918348b73ea12e3d46" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_clear</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a01c67c8c777cec5027c441625171f0b4" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a625ab3c00b4623dfab83472e6b4701d3" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct_fill</name></member>
-      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ad4c8528aac5353798dcc1928bd13dcbc" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a7197fe8e50c683359aeb7758df8e27ef" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a122873880bdc28f3a43a3a88739737a1" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a2075a1d66560bea0684be588cc79e3ed" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_data_mut</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a29e84748b07518b5c100b8e18abfe171" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_DefaultConstruct</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a2524c7ed48a3d8b7e051d5873b216350" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_front_mut</name></member>
-      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a10fd71219e59a7df9b496c8265551d41" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a62345f5c75cacf23daac34dc7263f456" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_GetMutable_vec</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aacd623df86cb9095a0cfa31bff5a9dc8" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_index_mut</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ac9b30b36913f144305d18f95736b2897" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_pop_back</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aad0bbf12473ef503200acbe0fcb34662" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_push_back_const_MR_Nesting_MeshXf_ref</name></member>
@@ -1240,7 +1240,7 @@
       <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1af39ad3253bfbb775406881a799cee3b7" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Const_Vector_MRNestingMeshXf_MRObjId</name></member>
       <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a1730b567eee25721841bcdaa627fbaf6" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Const_Vector_MRNestingMeshXf_MRObjId</name></member>
       <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a4f246e60207284774df8de2f4e1a6767" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Const_Vector_MRNestingMeshXf_MRObjId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a022b8bc7c6cd966d876c5c0a02d4a995" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Const_Vector_MRNestingMeshXf_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a52b88cb3e6afe1023dd36dfc32d2515b" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Const_Vector_MRNestingMeshXf_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a7f3c359703ec85ea1351e210c121b673" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a922834b55ff7aaa073bf2a64de4283d5" prot="protected" virt="virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a01be699a77fece42e6fad8e8d55a369b" prot="public" virt="virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Dispose</name></member>
@@ -1250,8 +1250,8 @@
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ad4974d4bc3e3024d7d6771b045bc66ae" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ae9c385ffe9791527a96bc2d74e883dfa" prot="private" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a149218a84d1fbde9fb1789982c3585c2" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1ad1363748608a9e30179b7e31bdd877d8" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>operator Const_Vector_MRNestingMeshXf_MRObjId</name></member>
-      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aef866b92b2becc5fa130c4449ee16d81" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>operator Vector_MRNestingMeshXf_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingMeshXf__MRObjId_1a65e3586dddfc190a4c25b04cbfdc45be" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>operator Const_Vector_MRNestingMeshXf_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a68066faf29e43dd9fba2f4bcde79a647" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>operator Vector_MRNestingMeshXf_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a9e07deab3fe136d81f39f228327ad44e" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ade1881719a310fbdba32234a854e0810" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a8e59ee1f5a251aa934d1bf3b4b1834d9" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>pushBack</name></member>
@@ -1272,7 +1272,7 @@
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a7dbf565a8717c1aeb1719464eb2cbe39" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Vector_MRNestingMeshXf_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a8529ac4018e64241df780351a4f270ea" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Vector_MRNestingMeshXf_MRObjId</name></member>
       <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ad9b784f747459d821bf025d33481cffb" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Vector_MRNestingMeshXf_MRObjId</name></member>
-      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a1ab94c341409e65c13285088b478dc70" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Vector_MRNestingMeshXf_MRObjId</name></member>
+      <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aeecedeb91861042298974991a0df5420" prot="public" virt="non-virtual"><scope>MR::Vector_MRNestingMeshXf_MRObjId</scope><name>Vector_MRNestingMeshXf_MRObjId</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

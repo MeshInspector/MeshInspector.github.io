@@ -20,12 +20,12 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeColors_1afd9d32a37548e027c96e08599aec4880" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeColors_1ad74f1b155858f1cd064386c87bdd6536" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.EdgeColors::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.EdgeColors::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.EdgeColors._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.EdgeColors._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -243,10 +243,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16911" bodyend="16914"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeColors_1ae2754188a4a6700d5138a1fb9b0b05f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeColors_1a56da56bec67cf5c0368555e94183d92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.EdgeColors.__init__</definition>
-        <argsstring>(self, std_vector_Color vec)</argsstring>
+        <argsstring>(self, std_vector_Color v)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeColors.__init__</qualifiedname>
         <param>
@@ -255,7 +255,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -950,12 +950,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17020" bodyend="17021"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeColors_1a05d543fb62894c3128bd00c6a9524502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeColors_1af86385e5353c5b8af606a3e7a8aa8150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
-        <definition> std_vector_Color mrmeshpy.EdgeColors.vec_</definition>
+        <definition> std_vector_Color mrmeshpy.EdgeColors.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.EdgeColors.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.EdgeColors.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -970,12 +970,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17023" bodyend="17026"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeColors_1a1e412db2971323e6bf8e615b8651780d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeColors_1a6b7512ab6160b2a3a625bb7cb3bbd62d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.EdgeColors.vec_</definition>
+        <definition> None mrmeshpy.EdgeColors.vec</definition>
         <argsstring>(self, std_vector_Color arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.EdgeColors.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.EdgeColors.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1014,12 +1014,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1EdgeColors_1a7fb340b55c66ded802d064b8b6798818" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1a28eb61b3ad621ff66299df01e3a40fc8" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1aabffbd783300fec6539ced957da11ba8" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1EdgeColors_1ae2754188a4a6700d5138a1fb9b0b05f2" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeColors_1a56da56bec67cf5c0368555e94183d92b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1a24fa168b1e84bfa169b000c1cd848eb8" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1a685328b687e997648d78be0de3601eb0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1ab4fcbeb52d5969aa8d50e423bd734593" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1a9a1903b13c7b02a5c733456aba4a2abf" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1EdgeColors_1afd9d32a37548e027c96e08599aec4880" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1EdgeColors_1ad74f1b155858f1cd064386c87bdd6536" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>_offsetof_vec</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1a6857e2d07a69da5afc0d73b3dc50224b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1ab2726d3fde69fb0727305913d4a44bec" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1a4d2b1759e90453d5b520e15a02d1b8c1" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>autoResizeSet</name></member>
@@ -1050,8 +1050,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1EdgeColors_1a25e3987808b45ea9b4cad248d29c6e58" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1aabca0386b6e822ce10751092a8f61519" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1EdgeColors_1aeeca46ebf234b2b46f4fd83185f4cc38" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>swap</name></member>
-      <member refid="classmrmeshpy_1_1EdgeColors_1a05d543fb62894c3128bd00c6a9524502" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1EdgeColors_1a1e412db2971323e6bf8e615b8651780d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1EdgeColors_1af86385e5353c5b8af606a3e7a8aa8150" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1EdgeColors_1a6b7512ab6160b2a3a625bb7cb3bbd62d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeColors</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

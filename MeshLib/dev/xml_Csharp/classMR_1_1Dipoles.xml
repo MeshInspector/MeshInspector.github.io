@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3141" bodyend="3146"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1afd901e1747851db81ccfbc8bf78062cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a6ffb038e2971e8968f971c94822a231e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Dipoles.Dipoles</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; v)</argsstring>
         <name>Dipoles</name>
         <qualifiedname>MR.Dipoles.Dipoles</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
@@ -564,15 +564,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Dipoles_1afcec64e7155abe24b9938b32ea620069" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a47d6a6b8c21e4d2507561cfaa17d9160" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Dipoles.operator Dipoles</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; v)</argsstring>
         <name>operator Dipoles</name>
         <qualifiedname>MR.Dipoles.operator Dipoles</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
@@ -673,15 +673,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3357" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1a4897b2158ef704aca2672470b8b733db" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1a61f472831923373ff086fa121f0b1781" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Dipoles._Underlying *</type>
         <definition>static unsafe MR.Dipoles._Underlying * MR.Dipoles.__MR_Dipoles_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRDipole._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRDipole._Underlying *v)</argsstring>
         <name>__MR_Dipoles_Construct_stdVector</name>
         <qualifiedname>MR.Dipoles.__MR_Dipoles_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRDipole._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -705,12 +705,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3363" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Dipoles_1aefb288156ba34da3bfcc1be03c1ab271" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Dipoles_1ad5bd251358aeef70fc63bbd295abcd9f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRDipole._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRDipole._Underlying * MR.Dipoles.__MR_Dipoles_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRDipole._Underlying * MR.Dipoles.__MR_Dipoles_GetMutable_vec</definition>
         <argsstring>(MR.Dipoles._Underlying *_this)</argsstring>
-        <name>__MR_Dipoles_GetMutable_vec_</name>
-        <qualifiedname>MR.Dipoles.__MR_Dipoles_GetMutable_vec_</qualifiedname>
+        <name>__MR_Dipoles_GetMutable_vec</name>
+        <qualifiedname>MR.Dipoles.__MR_Dipoles_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.Dipoles._Underlying *</type>
           <declname>_this</declname>
@@ -1207,12 +1207,12 @@
       <member refid="classMR_1_1Dipoles_1a8dc741f7de4730eb8d28319f60d47f26" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_clear</name></member>
       <member refid="classMR_1_1Dipoles_1a26a75ec0f7eea4ad58e7fd686d7b09e0" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_Construct</name></member>
       <member refid="classMR_1_1Dipoles_1af006c320a942e1fca199000acd788eb7" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_Construct_fill</name></member>
-      <member refid="classMR_1_1Dipoles_1a4897b2158ef704aca2672470b8b733db" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Dipoles_1a61f472831923373ff086fa121f0b1781" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_Construct_stdVector</name></member>
       <member refid="classMR_1_1Dipoles_1a62077c42910fbcc2e35e2a6724fef98d" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Dipoles_1ac0a802e6e6b5d637ba885aa083a96419" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_data_mut</name></member>
       <member refid="classMR_1_1Dipoles_1ade78c9a417d41cc56f74c8fe793da048" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_DefaultConstruct</name></member>
       <member refid="classMR_1_1Dipoles_1a2f4a5b6f7d119535bb5b36e67c0b48d2" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_front_mut</name></member>
-      <member refid="classMR_1_1Dipoles_1aefb288156ba34da3bfcc1be03c1ab271" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1Dipoles_1ad5bd251358aeef70fc63bbd295abcd9f" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_GetMutable_vec</name></member>
       <member refid="classMR_1_1Dipoles_1a22c6a3098ee0692cca061be471a55fcf" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_index_mut</name></member>
       <member refid="classMR_1_1Dipoles_1a5afa3f5a075c797fcb1d68d00cb98c1f" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_pop_back</name></member>
       <member refid="classMR_1_1Dipoles_1ac710e3390e3d300837423006bae13f5f" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>__MR_Dipoles_push_back_const_MR_Dipole_ref</name></member>
@@ -1240,7 +1240,7 @@
       <member refid="classMR_1_1Const__Dipoles_1a697922f1704095a6f95586ff3a033cd1" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a5e09db7aea5c61ba2aa80b7a092dbf16" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a8a7b843a40d0886c1115f927cb0191c3" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1af4e51b619c0ad0c52b73c3e9051f5ab8" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a07487123fa3333f1f3d6625bb5ed9cdb" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Const_Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>data</name></member>
       <member refid="classMR_1_1Dipoles_1a3e5c63e6809553abf91458b4b9c58999" prot="package" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
@@ -1249,7 +1249,7 @@
       <member refid="classMR_1_1Dipoles_1ab9fff43945dbf480b756218004ff2264" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1a25f0d0302ef69109d18a51228bf46aed" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1a2e988800aae0ffaf8b4d1eb5d80d80bc" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
-      <member refid="classMR_1_1Dipoles_1afd901e1747851db81ccfbc8bf78062cb" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a6ffb038e2971e8968f971c94822a231e" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>Dipoles</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a8bea2fd8461ca36af10a1d14e14f0809" prot="protected" virt="virtual"><scope>MR::Dipoles</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a7c15612694d19f80eecff40d2cfca49f" prot="public" virt="virtual"><scope>MR::Dipoles</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Dipoles_1a99b7c9c5b95bc7847df06e8186561d1b" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>empty</name></member>
@@ -1258,8 +1258,8 @@
       <member refid="classMR_1_1Dipoles_1a195ce5f79be16492dde15d1b72915132" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Dipoles_1a2351f281734cba781b7a91714f32e0b3" prot="private" virt="non-virtual"><scope>MR::Dipoles</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Dipoles_1ac7158fb56571747424dff75532f24dad" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Dipoles_1a4a798782142ce624ceb3fe0520360419" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Const_Dipoles</name></member>
-      <member refid="classMR_1_1Dipoles_1afcec64e7155abe24b9938b32ea620069" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ae5ef5ee28f1d71be8736d29777d571fb" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Const_Dipoles</name></member>
+      <member refid="classMR_1_1Dipoles_1a47d6a6b8c21e4d2507561cfaa17d9160" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>operator Dipoles</name></member>
       <member refid="classMR_1_1Dipoles_1aaeb72ff38a76bba93d857876a33cab25" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>popBack</name></member>
       <member refid="classMR_1_1Dipoles_1abf2a6245c94958b96c85a6ea614b9292" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Dipoles_1a6bfa87a3f6fd2adaf490463928eb8ec9" prot="public" virt="non-virtual"><scope>MR::Dipoles</scope><name>pushBack</name></member>

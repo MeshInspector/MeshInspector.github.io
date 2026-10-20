@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__ModelPointsData__ObjId =
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#ace9f282ddfe5adc864fe87ddc8a85f0c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#aa1aedf8eb2ad1b83fab00e4bf794975c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a4de8afdf455b25f825d775504a8600cf", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a321ffc2a401fcd523ad3e467a8e39dfb", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a49f4214bc4e7ad86ce7f2563ab8ed05a", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#ae253c765d3766977abac37f121f0122d", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a868ab42fa1951b5684a9a42438ce8abd", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a868ab42fa1951b5684a9a42438ce8abd", null ],
@@ -36,6 +36,6 @@ var classmrmeshpy_1_1Vector__ModelPointsData__ObjId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a6c9bb9b3f2ea173f70a1e8217001a4f9", null ],
     [ "size", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a3d44ad9ccfc9f19bb66acbd278509436", null ],
     [ "swap", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a213eb6201edda9d61996feef408fa654", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a8f7b7f32a3622e0f11e9c140e715bc39", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#adff67662f7fd860e06954f8ce8151999", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a735b4ca3dcade122610a2c8072b27938", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__ModelPointsData__ObjId.html#a542ef1275d860089a243521768eb703d", null ]
 ];

@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14587" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14587" bodyend="14594"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TexturePerFace_1a4328d4f4cc179e3f878cb9469f769fcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TexturePerFace_1ae266e12127f57f9a06bbfdcd4d3b0afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.TexturePerFace.TexturePerFace</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt; v)</argsstring>
         <name>TexturePerFace</name>
         <qualifiedname>MR.TexturePerFace.TexturePerFace</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TexturePerFace_1ac6f7f3429fc913d4f574436660e2947d" kindref="member">MR.TexturePerFace.TexturePerFace</ref></computeroutput>. </para>
@@ -587,15 +587,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1TexturePerFace_1aaf52e05da43d4c25a6192da4dce90da1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TexturePerFace_1a10f6a14e14f3d07ff4bdd0c22419ed86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.TexturePerFace.operator TexturePerFace</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt; v)</argsstring>
         <name>operator TexturePerFace</name>
         <qualifiedname>MR.TexturePerFace.operator TexturePerFace</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRTextureId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1TexturePerFace_1ac6f7f3429fc913d4f574436660e2947d" kindref="member">MR.TexturePerFace.TexturePerFace</ref></computeroutput>. </para>
@@ -696,15 +696,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14812" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TexturePerFace_1aa5aabf8ef53ed3e0d6b760c33c3f3ca9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TexturePerFace_1a07ae0b545a80f80c01da9939f5d138ef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.TexturePerFace._Underlying *</type>
         <definition>static unsafe MR.TexturePerFace._Underlying * MR.TexturePerFace.__MR_TexturePerFace_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRTextureId._Underlying *v)</argsstring>
         <name>__MR_TexturePerFace_Construct_stdVector</name>
         <qualifiedname>MR.TexturePerFace.__MR_TexturePerFace_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRTextureId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -728,12 +728,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14818" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1TexturePerFace_1aac574b3dc616eecc95fc3c6f7bcf87c7" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1TexturePerFace_1a3ca794b5d5ba499e432fce3b0e41a745" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRTextureId._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRTextureId._Underlying * MR.TexturePerFace.__MR_TexturePerFace_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRTextureId._Underlying * MR.TexturePerFace.__MR_TexturePerFace_GetMutable_vec</definition>
         <argsstring>(MR.TexturePerFace._Underlying *_this)</argsstring>
-        <name>__MR_TexturePerFace_GetMutable_vec_</name>
-        <qualifiedname>MR.TexturePerFace.__MR_TexturePerFace_GetMutable_vec_</qualifiedname>
+        <name>__MR_TexturePerFace_GetMutable_vec</name>
+        <qualifiedname>MR.TexturePerFace.__MR_TexturePerFace_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.TexturePerFace._Underlying *</type>
           <declname>_this</declname>
@@ -1262,12 +1262,12 @@
       <member refid="classMR_1_1TexturePerFace_1af9db0a078244b06e57b6a305c8e39073" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_clear</name></member>
       <member refid="classMR_1_1TexturePerFace_1a7d0315c79839409ab45d61a4f1c26d82" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_Construct</name></member>
       <member refid="classMR_1_1TexturePerFace_1a806775a299b3d088cddeae607ee8ed77" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_Construct_fill</name></member>
-      <member refid="classMR_1_1TexturePerFace_1aa5aabf8ef53ed3e0d6b760c33c3f3ca9" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_Construct_stdVector</name></member>
+      <member refid="classMR_1_1TexturePerFace_1a07ae0b545a80f80c01da9939f5d138ef" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_Construct_stdVector</name></member>
       <member refid="classMR_1_1TexturePerFace_1aa8b4f8d6ab5fb0940257f7c1f172fc47" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_ConstructFromAnother</name></member>
       <member refid="classMR_1_1TexturePerFace_1a15003bf407f86c02c4b82d7e9bb9e1ff" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_data_mut</name></member>
       <member refid="classMR_1_1TexturePerFace_1a454a69dc2201bfa1a4ff96daa16f54d7" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_DefaultConstruct</name></member>
       <member refid="classMR_1_1TexturePerFace_1af0b7b6dad98df4bb808bde255604453b" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_front_mut</name></member>
-      <member refid="classMR_1_1TexturePerFace_1aac574b3dc616eecc95fc3c6f7bcf87c7" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1TexturePerFace_1a3ca794b5d5ba499e432fce3b0e41a745" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_GetMutable_vec</name></member>
       <member refid="classMR_1_1TexturePerFace_1adae7de8b6d312eb0a72bec1568a1eec7" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_index_mut</name></member>
       <member refid="classMR_1_1TexturePerFace_1a6fb677636409a2d1a7deb7483e07ed63" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_pop_back</name></member>
       <member refid="classMR_1_1TexturePerFace_1a2ad8f74bbf5ce08036fbc85db7fdb38d" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>__MR_TexturePerFace_push_back_const_MR_TextureId_ref</name></member>
@@ -1296,7 +1296,7 @@
       <member refid="classMR_1_1Const__TexturePerFace_1a896a6796b3a959985b0438d7ef4de9a2" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a0ef3d5739464f55632b93a61e8416d99" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a7f837cb165ff4b34def146f9f80b07ce" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1a5180b7d4ca576a75a6b7a74fedda7088" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a1bf5c321c0095c200e5a501e009c6db2" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>Const_TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1ad14ede97c649d215be69923950796feb" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>data</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a5996f1b03981f83ef820ca2f68246552" prot="protected" virt="virtual"><scope>MR::TexturePerFace</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1aec426953f98ee25d134809ed8f3e3618" prot="public" virt="virtual"><scope>MR::TexturePerFace</scope><name>Dispose</name></member>
@@ -1308,8 +1308,8 @@
       <member refid="classMR_1_1TexturePerFace_1a7bbd39f74f34c16f4268431cf41482be" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1TexturePerFace_1af7f0e04115be5d81ef369692e3754669" prot="private" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1af82a08da62517ba970ef8ec5b85c3571" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__TexturePerFace_1affcc9c24212986200048081694a256b7" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator Const_TexturePerFace</name></member>
-      <member refid="classMR_1_1TexturePerFace_1aaf52e05da43d4c25a6192da4dce90da1" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator TexturePerFace</name></member>
+      <member refid="classMR_1_1Const__TexturePerFace_1a59ab45daa354bc6504fd80ce3261b57c" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator Const_TexturePerFace</name></member>
+      <member refid="classMR_1_1TexturePerFace_1a10f6a14e14f3d07ff4bdd0c22419ed86" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator TexturePerFace</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1af30a8ccaaeed0ade6a2d66f05da267b2" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__TexturePerFace_1a990b1345b4771c94125cc9e9c14f4b8a" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>operator==</name></member>
       <member refid="classMR_1_1TexturePerFace_1a339877572eb13ce38ab6b98af46f3982" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>popBack</name></member>
@@ -1331,7 +1331,7 @@
       <member refid="classMR_1_1TexturePerFace_1a85348a5151a263d63e14711f290aa9dc" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1ad1904fe49d81237bcd690977ab13ed46" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1a0085fce88b0e0106635e12b72fdfe5c7" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>
-      <member refid="classMR_1_1TexturePerFace_1a4328d4f4cc179e3f878cb9469f769fcc" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>
+      <member refid="classMR_1_1TexturePerFace_1ae266e12127f57f9a06bbfdcd4d3b0afc" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>TexturePerFace</name></member>
       <member refid="classMR_1_1TexturePerFace_1a559c4a174d00671bcd9e60cb9f2c7ae6" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1TexturePerFace_1a932d432fed296fa3b51da3f0059a959f" prot="public" virt="non-virtual"><scope>MR::TexturePerFace</scope><name>vec</name></member>
     </listofallmembers>

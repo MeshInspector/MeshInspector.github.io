@@ -1,13 +1,5 @@
 var NAVTREEINDEX88 =
 {
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a9f3e02ba012a082b721768ffd4f26f7e":[9,1,0,0,2,854,0,0,5],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a9f3e02ba012a082b721768ffd4f26f7e":[9,1,1,0,1,854,0,0,5],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ab01223e3d6b8387e5eb979784328f88e":[9,1,0,0,2,854,0,0,1],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ab01223e3d6b8387e5eb979784328f88e":[9,1,1,0,1,854,0,0,1],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ab7bc53b51c47e0452503a91735cd9a65":[9,1,0,0,2,854,0,0,9],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ab7bc53b51c47e0452503a91735cd9a65":[9,1,1,0,1,854,0,0,9],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#abe1ad6dbb02ea18c40c5b7753b26d24b":[9,1,0,0,2,854,0,0,3],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#abe1ad6dbb02ea18c40c5b7753b26d24b":[9,1,1,0,1,854,0,0,3],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ac176009ccfa8ed06b956a3395595edf7":[9,1,0,0,2,854,0,0,0],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ac176009ccfa8ed06b956a3395595edf7":[9,1,1,0,1,854,0,0,0],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#ae52826aa2481e99268a41f9027ae4155":[9,1,0,0,2,854,0,0,10],
@@ -249,5 +241,13 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1SignDetectionModeShort.html#a588017b96dbf46ba620f53f29c373036":[9,1,0,0,2,863,3],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a588017b96dbf46ba620f53f29c373036":[9,1,1,0,1,863,3],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a5882a016e7193af4244f3243a1499733":[9,1,0,0,2,863,8],
-"classmrmeshpy_1_1SignDetectionModeShort.html#a5882a016e7193af4244f3243a1499733":[9,1,1,0,1,863,8]
+"classmrmeshpy_1_1SignDetectionModeShort.html#a5882a016e7193af4244f3243a1499733":[9,1,1,0,1,863,8],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a869237d93f40d33085295e2f6f100b32":[9,1,0,0,2,863,7],
+"classmrmeshpy_1_1SignDetectionModeShort.html#a869237d93f40d33085295e2f6f100b32":[9,1,1,0,1,863,7],
+"classmrmeshpy_1_1SignDetectionModeShort.html#ad7114e58582997758e6c99ecc07c7c4f":[9,1,0,0,2,863,10],
+"classmrmeshpy_1_1SignDetectionModeShort.html#ad7114e58582997758e6c99ecc07c7c4f":[9,1,1,0,1,863,10],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html":[9,1,0,0,2,864],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html":[9,1,1,0,1,864],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#a2a3ab58e5815530af8cec8eac21cd03d":[9,1,0,0,2,864,1],
+"classmrmeshpy_1_1SignedDistanceToMeshOptions.html#a2a3ab58e5815530af8cec8eac21cd03d":[9,1,1,0,1,864,1]
 };

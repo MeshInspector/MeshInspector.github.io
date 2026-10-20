@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId =
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a32f79ab7ff3465b01a9aa2e0909d96ce", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#ae8cbe4bf93d72b7c0f27ce1e619148d8", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#af1b656c4367ba886d5ab4186112ae2b5", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#aef34e4dc5a311f3c2e3e01e93da4cb57", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#ac22a7a17a2a6a0cd6d7ebee286765acd", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a5a78ed78c28e44246f59156ae93fec6b", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a155bca916b8896c7818c00a6a4d056f8", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a56240695d1843062d1eec64b110c6f7e", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a2dbce66991af31159404f769ebfa5323", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a350eb18335156863320de456eec84336", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#ae0bedc23241d8f7777a2240c3c90e6c9", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a1dc091d5d8f097e4b48dc2430f26287e", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a149c8daf7228bebc4a5aeb943eaff40f", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a6d6cea1da6cfacddeac039432f7c8351", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId.html#a05a4100c4b62e4472348f174b24a3847", null ]
 ];

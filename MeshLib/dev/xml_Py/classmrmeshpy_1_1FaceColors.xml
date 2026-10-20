@@ -20,12 +20,12 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1FaceColors_1a3f730bde077d1bcfde3698021c5aca4d" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FaceColors_1aa6b4303e4fc50b4bd678bf75c3f8a619" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.FaceColors::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.FaceColors::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.FaceColors._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.FaceColors._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -243,10 +243,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19101" bodyend="19104"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FaceColors_1afef88c791b0a83506f84a61e1d4c5b92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColors_1a30f609bc101b9a2f67b66a8ec6be6239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.FaceColors.__init__</definition>
-        <argsstring>(self, std_vector_Color vec)</argsstring>
+        <argsstring>(self, std_vector_Color v)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.FaceColors.__init__</qualifiedname>
         <param>
@@ -255,7 +255,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -950,12 +950,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19210" bodyend="19211"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FaceColors_1a55fd676e466d5025c6f4b914378d5cb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColors_1ab4791780f2009304f72170fa866d9d7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
-        <definition> std_vector_Color mrmeshpy.FaceColors.vec_</definition>
+        <definition> std_vector_Color mrmeshpy.FaceColors.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.FaceColors.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.FaceColors.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -970,12 +970,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19213" bodyend="19216"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FaceColors_1a12565158d450ad8534b95064262e3e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceColors_1aed6d993fc485ff69c816c491a36e0257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.FaceColors.vec_</definition>
+        <definition> None mrmeshpy.FaceColors.vec</definition>
         <argsstring>(self, std_vector_Color arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.FaceColors.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.FaceColors.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -1015,12 +1015,12 @@ Aliases:  ColorMapAggregator_FaceTag_ColorMap
       <member refid="classmrmeshpy_1_1FaceColors_1a0fb8bd9a6253eadedb06548c62fe5d97" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a9ecbcf793287a7ed92b1cbe28fccf76b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a666a7e39b137cd30114f3bd4b2a3328e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1FaceColors_1afef88c791b0a83506f84a61e1d4c5b92" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceColors_1a30f609bc101b9a2f67b66a8ec6be6239" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a2b053e31110de685b382ec0e3e420e0d" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a50a8230b8d3905c426d710799905f089" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a02a65440263ceeef2094bce775ff6465" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1aa5afc0ac3f3c9310bcdec9ab1641e41e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1FaceColors_1a3f730bde077d1bcfde3698021c5aca4d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1FaceColors_1aa6b4303e4fc50b4bd678bf75c3f8a619" prot="protected" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>_offsetof_vec</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1ac222fda0c553c40658225a2f24d46509" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a4900c91da97332c4bf54c0b84f5d6dd0" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1ab6254882e6a35725149865620654de77" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>autoResizeSet</name></member>
@@ -1051,8 +1051,8 @@ Aliases:  ColorMapAggregator_FaceTag_ColorMap
       <member refid="classmrmeshpy_1_1FaceColors_1a7bd879be11d5197d1c99b2368a1432f1" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1aedfe4f1489ad3c5e490d13f0eb3e99ee" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1FaceColors_1a210a796ef2b29d33af8f0b63e96aca98" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>swap</name></member>
-      <member refid="classmrmeshpy_1_1FaceColors_1a55fd676e466d5025c6f4b914378d5cb1" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1FaceColors_1a12565158d450ad8534b95064262e3e24" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1FaceColors_1ab4791780f2009304f72170fa866d9d7b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1FaceColors_1aed6d993fc485ff69c816c491a36e0257" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceColors</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

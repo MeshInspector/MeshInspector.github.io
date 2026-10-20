@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vert2RegionMap =
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a6e69e9e68328f5bb2847a1f0ee2840fd", null ],
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a54e0eb9c30e999322bf1d2ab8a6725a4", null ],
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a87ead53c1addf731547f929fe077dd88", null ],
-    [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a206c0749c09c452ccbf23134c40ad834", null ],
+    [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a1ee9384530ded2bb8fab33da561e0b51", null ],
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a502fba08b55d2b4117b38eb3c446642f", null ],
     [ "__eq__", "classmrmeshpy_1_1Vert2RegionMap.html#a85c0accdfd71bd340899f4d3e5820653", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vert2RegionMap.html#ac5cac6b32fb92c74b6c8b88f51b0d3d1", null ],
@@ -39,6 +39,6 @@ var classmrmeshpy_1_1Vert2RegionMap =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vert2RegionMap.html#a4043e10fc11f6ff75c61f2bcacf7619f", null ],
     [ "size", "classmrmeshpy_1_1Vert2RegionMap.html#aa77ae7814130e18e16edff0641d686ed", null ],
     [ "swap", "classmrmeshpy_1_1Vert2RegionMap.html#a22cedc4f13faaa48865b0aefbbeb1f22", null ],
-    [ "vec_", "classmrmeshpy_1_1Vert2RegionMap.html#a8d1f336127b1726275be4576dadc7fdd", null ],
-    [ "vec_", "classmrmeshpy_1_1Vert2RegionMap.html#a4a84608d8a6289cbc114012c36716374", null ]
+    [ "vec", "classmrmeshpy_1_1Vert2RegionMap.html#a7da5cb9cc85888cd15c658bebe7d37cc", null ],
+    [ "vec", "classmrmeshpy_1_1Vert2RegionMap.html#af428760b2b01d4a1e1d12f6872faa7e8", null ]
 ];

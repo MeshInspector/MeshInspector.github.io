@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13357" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13357" bodyend="13364"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1abf26c48a5f74849f376e6945dba52f38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1a087f12ec5c76babb52218aa8367283f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_FaceNormals.Const_FaceNormals</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; v)</argsstring>
         <name>Const_FaceNormals</name>
         <qualifiedname>MR.Const_FaceNormals.Const_FaceNormals</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" kindref="member">MR.FaceNormals.FaceNormals</ref></computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1ac1d195f8bef27aebe48611858af8f5e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1a5f6cc3affcfdb2d1a539707f45b33e9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_FaceNormals.operator Const_FaceNormals</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt; v)</argsstring>
         <name>operator Const_FaceNormals</name>
         <qualifiedname>MR.Const_FaceNormals.operator Const_FaceNormals</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVector3f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" kindref="member">MR.FaceNormals.FaceNormals</ref></computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13519" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1a36a6973904d6b3acda0870cb16e1204d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1af77e0fa568d4b115469ee57371f9343a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceNormals._Underlying *</type>
         <definition>static unsafe MR.FaceNormals._Underlying * MR.Const_FaceNormals.__MR_FaceNormals_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRVector3f._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRVector3f._Underlying *v)</argsstring>
         <name>__MR_FaceNormals_Construct_stdVector</name>
         <qualifiedname>MR.Const_FaceNormals.__MR_FaceNormals_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRVector3f._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13528" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1aaf7471ae8ba6473cb066d40e5c8bb861" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__FaceNormals_1aa24729cf0460da3f94d5f28f286aa89d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRVector3f._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRVector3f._Underlying * MR.Const_FaceNormals.__MR_FaceNormals_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRVector3f._Underlying * MR.Const_FaceNormals.__MR_FaceNormals_Get_vec</definition>
         <argsstring>(MR.Const_FaceNormals._Underlying *_this)</argsstring>
-        <name>__MR_FaceNormals_Get_vec_</name>
-        <qualifiedname>MR.Const_FaceNormals.__MR_FaceNormals_Get_vec_</qualifiedname>
+        <name>__MR_FaceNormals_Get_vec</name>
+        <qualifiedname>MR.Const_FaceNormals.__MR_FaceNormals_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_FaceNormals._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__FaceNormals_1a79dd660cdad52a512b50a7a131de0da6" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_capacity</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a4e0d3761f3beb7ddb7c4a3166037365f" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_Construct</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a7e9b1ad369ec7684ba9614c046429854" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__FaceNormals_1a36a6973904d6b3acda0870cb16e1204d" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1af77e0fa568d4b115469ee57371f9343a" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1acf1cfd17bd05469c82e41712cb688a01" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a67733a7a05fffa1967a98bfa572ae44f" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_data</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a7a8ee568ef4c6aac93e9010bddfc14cf" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__FaceNormals_1a435c72e38b802b3a58e403b7dd836632" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_empty</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1af747429f526d999e946609d01eb5fb88" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_endId</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1af529c8513ea4c19ae67d3befcb8796ba" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_front</name></member>
-      <member refid="classMR_1_1Const__FaceNormals_1aaf7471ae8ba6473cb066d40e5c8bb861" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1aa24729cf0460da3f94d5f28f286aa89d" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_Get_vec</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a40ea8302842be6554d702c0f8a253e93" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_heapBytes</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a67c84f8fb3f5650750b762ebe063bb02" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_index</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a9d2fb1dd060c4191a3d9d9382a4d1a3a" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>__MR_FaceNormals_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__FaceNormals_1a859edcb5eaaa2562801fc0f4509c0e84" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>Const_FaceNormals</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a06a330ec776962750cb1f390008d443a" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>Const_FaceNormals</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a43c2b8d42c1d7c80c4349cd7077b56f2" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>Const_FaceNormals</name></member>
-      <member refid="classMR_1_1Const__FaceNormals_1abf26c48a5f74849f376e6945dba52f38" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a087f12ec5c76babb52218aa8367283f5" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>Const_FaceNormals</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1aafe494fd3e9389b8ba9b3cff1fbdbee1" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>data</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a9e958d34cb75eafe5d985c4664b7dd92" prot="protected" virt="virtual"><scope>MR::Const_FaceNormals</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1ae224fa73237a99ab9f1664d90db9516a" prot="public" virt="virtual"><scope>MR::Const_FaceNormals</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__FaceNormals_1a90cf4b55ffad1fe0f9b6e62176e5f788" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1ad97d18683217b55a090cb2d6c751c284" prot="private" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1ab4250c275794fc3c7689143d1aadadc9" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__FaceNormals_1ac1d195f8bef27aebe48611858af8f5e5" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>operator Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a5f6cc3affcfdb2d1a539707f45b33e9f" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>operator Const_FaceNormals</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1ae0337c8c94ca5f8aa24a30a9bc3709c7" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a17d1b6c7284deb672077fa2fa3444ba6" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__FaceNormals_1a20b5541fc993d1733c2b61ef6e6ecb60" prot="public" virt="non-virtual"><scope>MR::Const_FaceNormals</scope><name>size</name></member>

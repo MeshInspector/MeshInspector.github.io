@@ -201,15 +201,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23735" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23735" bodyend="23740"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8f1a9c6edcac2f23d073b4fb75f4ec51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a28a878c2283b062c6e27a43ba1a97f0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt; v)</argsstring>
         <name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name>
         <qualifiedname>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -426,15 +426,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a6f2e433b3eb7ace831da1fb34b9dcebe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a1461d50803e4638c21ffcda4a440fec1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt; v)</argsstring>
         <name>operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name>
         <qualifiedname>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -509,15 +509,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23876" column="89"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8234d198d1b69d163eb58adad23e2d14" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aeba895cc6349fa00785a10b51713b9b9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId._Underlying * MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRAABBTreeNodeMRObjTreeTraits._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -559,12 +559,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23885" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a98d54b1edf17892dd0aec103a90ebc5d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ac2a56a9cc4ecd9a53dd76fe1f7a88a37" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits._Underlying * MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRAABBTreeNodeMRObjTreeTraits._Underlying * MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId.__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId._Underlying *</type>
           <declname>_this</declname>
@@ -859,7 +859,7 @@
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a71fe4867897e0b3aa2b2584987776128" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a91bc9c30836cd04c5474b08c1e0afefd" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a04ad5d1b5d24d36e1a3f54946c43bbc2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8234d198d1b69d163eb58adad23e2d14" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aeba895cc6349fa00785a10b51713b9b9" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a1c0531318448aecb8962c9af655237e6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aaf22847881429de91d1c4dbd31ec6f96" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1add9da2cc5d883350facc433380d3badd" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_DefaultConstruct</name></member>
@@ -867,7 +867,7 @@
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a777b21fa1515ef0b4d661b3b070506b7" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a91d7c5ae19e0e639a8913bc14fd27b1b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1aa8ee72c8ead4bf089b179e7facbea321" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a98d54b1edf17892dd0aec103a90ebc5d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ac2a56a9cc4ecd9a53dd76fe1f7a88a37" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a20519fecd9e2bea558315ef37fa0d003" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a9fd1fb7460e94b855a133b3770048caf" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_index</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a1adda6331355306a3a75f769fd3d0a9e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_size</name></member>
@@ -882,7 +882,7 @@
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a5878a0fab89daceebea0c5237b7ca399" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a44445e14accfea9d4dbef2ba04fa3d9a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a9c2d176326f75d77f6c1bbd20db68466" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8f1a9c6edcac2f23d073b4fb75f4ec51" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a28a878c2283b062c6e27a43ba1a97f0c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ae113b3942427f678b53eeac0bbd10a30" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ac011952baa428bf83c64a21b9fc58bbc" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a106e26b8cceb94b4f3c249185c142f7b" prot="public" virt="virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>Dispose</name></member>
@@ -892,7 +892,7 @@
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a692f9b76fdbc19b9acca3b258ad4949a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ab468000f19fe3eb8e370984372ea4ae0" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1adfc9de3c73cc3195147eba625b782027" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a6f2e433b3eb7ace831da1fb34b9dcebe" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a1461d50803e4638c21ffcda4a440fec1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>operator Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ad753d6e133394d10518496882a960fa2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ad82a5f8b3ddd96a0c953f82fb6722032" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>this[MR.NodeId i]</name></member>
       <member refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ab83358e2b30c896bdc4e839055ec340f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</scope><name>vec</name></member>

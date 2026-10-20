@@ -203,15 +203,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6301" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="6301" bodyend="6308"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a1c1a37d896c732c7e86ac04c370d3f0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1ab185dc4e29e5dc509064bac702577cf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdgeMap.Const_UndirectedEdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUndirectedEdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUndirectedEdgeId &gt; v)</argsstring>
         <name>Const_UndirectedEdgeMap</name>
         <qualifiedname>MR.Const_UndirectedEdgeMap.Const_UndirectedEdgeMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRUndirectedEdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeMap_1aacd14c2394cdd39bfacdf12e89d0bb94" kindref="member">MR.UndirectedEdgeMap.UndirectedEdgeMap</ref></computeroutput>. </para>
@@ -464,15 +464,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a8ed3fb3fe95c45e354b31bb0388b9625" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a5aa37fa80792793fe12843baf6debf7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_UndirectedEdgeMap.operator Const_UndirectedEdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUndirectedEdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUndirectedEdgeId &gt; v)</argsstring>
         <name>operator Const_UndirectedEdgeMap</name>
         <qualifiedname>MR.Const_UndirectedEdgeMap.operator Const_UndirectedEdgeMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRUndirectedEdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeMap_1aacd14c2394cdd39bfacdf12e89d0bb94" kindref="member">MR.UndirectedEdgeMap.UndirectedEdgeMap</ref></computeroutput>. </para>
@@ -592,15 +592,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6463" column="61"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1afd30e3bda01d8a7831512be75f85e44f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a3a7c583f6c4ad2f375cbff44758ac541" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdgeMap._Underlying *</type>
         <definition>static unsafe MR.UndirectedEdgeMap._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRUndirectedEdgeId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRUndirectedEdgeId._Underlying *v)</argsstring>
         <name>__MR_UndirectedEdgeMap_Construct_stdVector</name>
         <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRUndirectedEdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -642,12 +642,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="6472" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1a5ef9fd534ddd486584bbde93e0cfa07a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeMap_1aaa85eebb5ece0b070c44c2e5741a23f1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRUndirectedEdgeId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRUndirectedEdgeId._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRUndirectedEdgeId._Underlying * MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Get_vec</definition>
         <argsstring>(MR.Const_UndirectedEdgeMap._Underlying *_this)</argsstring>
-        <name>__MR_UndirectedEdgeMap_Get_vec_</name>
-        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Get_vec_</qualifiedname>
+        <name>__MR_UndirectedEdgeMap_Get_vec</name>
+        <qualifiedname>MR.Const_UndirectedEdgeMap.__MR_UndirectedEdgeMap_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_UndirectedEdgeMap._Underlying *</type>
           <declname>_this</declname>
@@ -975,7 +975,7 @@
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a284727e37245846a5b8da269140037ca" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_capacity</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a58bb7e5f3810eb13325c006589531091" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a50a8f1d3e4656d3c83802d2c0431bc6e" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1afd30e3bda01d8a7831512be75f85e44f" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a3a7c583f6c4ad2f375cbff44758ac541" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a69ebfedecd79fa8f93829a54eb3a9452" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ad68df0f123443fd1eebc312fcce71126" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a123e1ed9e15539207b0943c0633c10dc" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_DefaultConstruct</name></member>
@@ -983,7 +983,7 @@
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a0af482d2439e9b19d71102abb89ec46c" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_empty</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ac7a2b6818ed16e4525a26ac9559317cb" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_endId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ae5c956286524b32be334cfe213555410" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_front</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a5ef9fd534ddd486584bbde93e0cfa07a" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1aaa85eebb5ece0b070c44c2e5741a23f1" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_Get_vec</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a48eb23064374854493a225f57031d180" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_heapBytes</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1aba94add9d5f40f0a759ad57aad1828db" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_index</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1afa917d6db22ee3821b7ab6a4212291a7" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>__MR_UndirectedEdgeMap_size</name></member>
@@ -998,7 +998,7 @@
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ac5bf42ba55d4d27912c89b24797f12e2" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Const_UndirectedEdgeMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a492ebb2745424e88acb5a795d13e3ffa" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Const_UndirectedEdgeMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a449a7cb40c89a8d8569c6d530eaabd94" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Const_UndirectedEdgeMap</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a1c1a37d896c732c7e86ac04c370d3f0a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Const_UndirectedEdgeMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1ab185dc4e29e5dc509064bac702577cf0" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Const_UndirectedEdgeMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ad93a3584eec89889b9ca9a47489eb3dd" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a49688087ced61d9944441b2edb0d84cd" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1abcc4c21e5f30c3cd43a163d69834be47" prot="public" virt="virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>Dispose</name></member>
@@ -1010,7 +1010,7 @@
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a162688c2c53c99d50bb733eaa27014e8" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a0e6e3dc9976da5c45182c89d15adb3f6" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a85b4c0c14beaa8029f54111a2a1bee5b" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a8ed3fb3fe95c45e354b31bb0388b9625" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>operator Const_UndirectedEdgeMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeMap_1a5aa37fa80792793fe12843baf6debf7f" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>operator Const_UndirectedEdgeMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a0b585b99bc79630ab29dfbb1bf780147" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1ab77c237c6176dc6d67a588243d7977f9" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__UndirectedEdgeMap_1a38f9f8d6e1b1a778ccdcd10f567028d3" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeMap</scope><name>size</name></member>

@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="49386" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="49386" bodyend="49391"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aeb37b934f91fa0598e2bf16a1f343bdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a89417b82c46f47fea0c7e9807b5eedc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMRObjVertId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMRObjVertId &gt; v)</argsstring>
         <name>Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMRObjVertId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a51af5a827a34f0dc2249e908437e0d62" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a693e3e78cda0525fb90b5146b0dcdb1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.operator Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMRObjVertId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMRObjVertId &gt; v)</argsstring>
         <name>operator Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.operator Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMRObjVertId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;std::vector&amp;lt;<ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref>&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="49558" column="89"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a0daae7f268da99e6611ebad4d4e23303" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1adf82b48356d2286eb86201fe65406039" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag._Underlying *</type>
         <definition>static unsafe MR.Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag._Underlying * MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_StdVectorMRObjVertId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_StdVectorMRObjVertId._Underlying *v)</argsstring>
         <name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_StdVectorMRObjVertId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="49567" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a3890f234d4612c653a49c22cd4c5b770" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a5f91e8397c90a115876b0e2f0f795c32" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_StdVectorMRObjVertId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_StdVectorMRObjVertId._Underlying * MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_StdVectorMRObjVertId._Underlying * MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec</definition>
         <argsstring>(MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag._Underlying *_this)</argsstring>
-        <name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec_</qualifiedname>
+        <name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag.__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a880e77ddfddefe7ae1d0e8c103f7fac6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1acb3a1aeb2e93dc08c0fff31bb626fc05" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a96a3337707838dc0059d153d50a5cacd" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a0daae7f268da99e6611ebad4d4e23303" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1adf82b48356d2286eb86201fe65406039" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1ab2092cf6cbddf751dfb7975c6808d12d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a207d2d6b41f1060b0f4b8b7ec4ad36b5" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_data</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a5f9dc7a800913cbc3c0120ae6c9f067d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a6a82805071ca86ba2a485e868038529b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_empty</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a9168f3ad0a16aee6e0e5448d6fc21f82" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_endId</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aa0e2e114cce7112e05d98fd22689297c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_front</name></member>
-      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a3890f234d4612c653a49c22cd4c5b770" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a5f91e8397c90a115876b0e2f0f795c32" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a865d0c53dacdadadc9dade4ef939e9b6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a9812b3cc513e4126ac51e13b6e099401" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_index</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a5e5bfbd19b9f7647997d3e688aa67b50" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a19e8cea08b763ddae60001c7514cd887" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1abee57ef2f7bc656c515eec75a1f89c35" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a5e58aeaf46598975fe699524a80680c8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
-      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aeb37b934f91fa0598e2bf16a1f343bdf" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a89417b82c46f47fea0c7e9807b5eedc8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aa212a0c5205847961542a2ea57b33373" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a77f4d2d52264953899fe96945bb3d937" prot="protected" virt="virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a071d06bd77b4be2588a9e8447dc4e141" prot="public" virt="virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aca88da25474f011930b39b870fafb6e5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1afe95d423bdffb2b1ea18163107b83912" prot="private" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a9f092dae167a4107e738620454467228" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a51af5a827a34f0dc2249e908437e0d62" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>operator Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a693e3e78cda0525fb90b5146b0dcdb1c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>operator Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a960f236b51244a9701429a3917c9fe44" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a79747e92cceb87da4dcf314158a22a6c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1ae148aa6b3c9e5856f83dad3ed88f3319" prot="public" virt="non-virtual"><scope>MR::Const_Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</scope><name>size</name></member>

@@ -3,7 +3,7 @@ var classmrmeshpy_1_1TexturePerFace =
     [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#ad87d716d6c886fd53287cf2303a2dff8", null ],
     [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#a311474f0ff8e5993043f32180d3711de", null ],
     [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#a6537cceed9193160174228c93fa91be4", null ],
-    [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#a9b4e5fa24c53831a252e3593f9b282b6", null ],
+    [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#a6adea7804ab4b8cf5eabeed257d636c9", null ],
     [ "__init__", "classmrmeshpy_1_1TexturePerFace.html#a1397acddf10727a0f2b40e895baa921b", null ],
     [ "__eq__", "classmrmeshpy_1_1TexturePerFace.html#a83ab1e83b6d847c6c27693a09a6f4d70", null ],
     [ "__getitem__", "classmrmeshpy_1_1TexturePerFace.html#a69552e9cd55c9fdb2205d421882c9873", null ],
@@ -39,6 +39,6 @@ var classmrmeshpy_1_1TexturePerFace =
     [ "shrink_to_fit", "classmrmeshpy_1_1TexturePerFace.html#ae7ae82c6414b38a563e49c105be3476b", null ],
     [ "size", "classmrmeshpy_1_1TexturePerFace.html#abcded7c061a8155e7523d8f576639857", null ],
     [ "swap", "classmrmeshpy_1_1TexturePerFace.html#ae9004af7c7d209bfd341c05a245f568b", null ],
-    [ "vec_", "classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd", null ],
-    [ "vec_", "classmrmeshpy_1_1TexturePerFace.html#a26bf506130de75b2574cb7214b63cedb", null ]
+    [ "vec", "classmrmeshpy_1_1TexturePerFace.html#a1bd34cf6b9d79a1cd43b6d5706218ad0", null ],
+    [ "vec", "classmrmeshpy_1_1TexturePerFace.html#a051005de38fd2c8b558f15b8cc51c6cf", null ]
 ];

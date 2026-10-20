@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__int__FaceId =
     [ "__init__", "classmrmeshpy_1_1Vector__int__FaceId.html#a709316179d5ad4742e514103e820d737", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__FaceId.html#a2a227e830a906bc5a2fe228626f0c0a6", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__FaceId.html#a6d2a171a95155566537999c1354affc2", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__int__FaceId.html#aafd3cb5608cdd54e18886cdde0577ccf", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__int__FaceId.html#a2c5f76cf2c85a85a68aafb0aae6a1db4", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__FaceId.html#a8f57adf86b6aa7b53d9a7f8ef8e575bd", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__int__FaceId.html#a7a39f34f51945bbabf66598deb8d4ea3", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__int__FaceId.html#ad53ebda19b83168d63b40c9fcaf58cc1", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__int__FaceId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__int__FaceId.html#af2247b63b28b0675fdaec7c5d059b462", null ],
     [ "size", "classmrmeshpy_1_1Vector__int__FaceId.html#aa07496b46aac2b28504e4981e433d9a3", null ],
     [ "swap", "classmrmeshpy_1_1Vector__int__FaceId.html#a5276dd1436a479434abc85e08e997012", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__int__FaceId.html#ad0b024dcebe456263a98d251c3ec0341", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__int__FaceId.html#a904dba61261e365cccc139c99cd56279", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__int__FaceId.html#a14489af86d14e4d574971cc80c750ef1", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__int__FaceId.html#a4f5de31ee7d160c78601a14b673f97d6", null ]
 ];

@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38306" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="38306" bodyend="38313"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a7a4e228155415b0f8d662e679509e466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a41565fcac315611c687d764f7e786c6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt; v)</argsstring>
         <name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name>
         <qualifiedname>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a37fce52cbf1ae84fc7dabcb93c1b738f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a6d0bbf4abcec0b1452637c2aaaa72444" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.operator Const_Vector_MRGraphEdgeId_MRGraphEdgeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt; v)</argsstring>
         <name>operator Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name>
         <qualifiedname>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.operator Const_Vector_MRGraphEdgeId_MRGraphEdgeId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRGraphEdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>, <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38468" column="78"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ad29ea95f62e275a7e92f421834aff846" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ae024690cd11a9699011c4919a9f4bbfd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRGraphEdgeId_MRGraphEdgeId._Underlying * MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRGraphEdgeId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRGraphEdgeId._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRGraphEdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="38477" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a29a791a6a6dee79127a870878c19957e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1acd02c7373243728d25c3f8bb17f95451" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRGraphEdgeId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRGraphEdgeId._Underlying * MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRGraphEdgeId._Underlying * MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId.__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a7509291436f2867ac36109bee531565c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a9aea0800324399f6add98a8ce5a583b5" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1acb8d7d7610440ed7a8405063d3309f03" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ad29ea95f62e275a7e92f421834aff846" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ae024690cd11a9699011c4919a9f4bbfd" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ac3a6faa28d2df3ccc947b69af814bef6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a4735986313e21ed4909a384234915e7d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a6e3e033ef4da7f1f8c9ca32a6209b915" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a9829d5a84343d3ad73134531393c375a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a28bff6b9aed8cb2cc46701a6ded69fad" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1aef92226e2fd20ab685726ac6b23a324b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a29a791a6a6dee79127a870878c19957e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1acd02c7373243728d25c3f8bb17f95451" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a0dbcdff5400746feeab52c04550fc756" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a2ba2c52cbe920d4e44b10869ce418a14" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_index</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a3dc57e5b90889463084c8c945c0aca21" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1aacb76b14a6c468ebcfe72525a8d0d7e6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1afbe6e6a5517c6c8d06873d960c1186d0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a984d4c1e8c822089e0c8930f9b93bf29" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a7a4e228155415b0f8d662e679509e466" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a41565fcac315611c687d764f7e786c6d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1afe12458536615e78485ddb04c8e2180e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a802da6ce05118b983b6292d53555db79" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a69025454efd7774b81de9ed4593783b4" prot="public" virt="virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ae0f444dea2adf0b5f81d1f16cf46cf95" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a7011ef9edd6a9386424adf5a84f4d05b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1ab4736c1eaf4a2ba0bec32d192d0bb64d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a37fce52cbf1ae84fc7dabcb93c1b738f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a6d0bbf4abcec0b1452637c2aaaa72444" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator Const_Vector_MRGraphEdgeId_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a5bcd5b1186cbdb2d7515646b7251cac0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a4af605fa61b6c97abfc925d7bf916ea1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId_1a12a0031e7944962058db412e44620f00" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRGraphEdgeId_MRGraphEdgeId</scope><name>size</name></member>

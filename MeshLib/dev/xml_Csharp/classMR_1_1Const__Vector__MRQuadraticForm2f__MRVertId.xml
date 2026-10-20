@@ -201,15 +201,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51130" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="51130" bodyend="51135"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a5af54f8f9a53cdc858749090854e6aed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac59312e9710f3e5ba003c4160338681b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt; v)</argsstring>
         <name>Const_Vector_MRQuadraticForm2f_MRVertId</name>
         <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -426,15 +426,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a597b638e3a4d7a73346ffa38bf7a79b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7a6865ee1cbf0f77846469f3acbefb35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_MRQuadraticForm2f_MRVertId.operator Const_Vector_MRQuadraticForm2f_MRVertId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt; v)</argsstring>
         <name>operator Const_Vector_MRQuadraticForm2f_MRVertId</name>
         <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.operator Const_Vector_MRQuadraticForm2f_MRVertId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRQuadraticForm2f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm2f" kindref="compound">MR.QuadraticForm2f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -509,15 +509,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51271" column="77"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a1025f4d803208b6327ca9ae96129789a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ad7a81f87a4b0b3c9fb3287a8dc1b8fec" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRQuadraticForm2f_MRVertId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRQuadraticForm2f_MRVertId._Underlying * MR.Const_Vector_MRQuadraticForm2f_MRVertId.__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRQuadraticForm2f._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRQuadraticForm2f._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRQuadraticForm2f._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -559,12 +559,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="51280" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aeb938be2f2ac87472f1766db72ec281a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac61e70fb92ea2f3781aba21d283a924d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRQuadraticForm2f._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRQuadraticForm2f._Underlying * MR.Const_Vector_MRQuadraticForm2f_MRVertId.__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRQuadraticForm2f._Underlying * MR.Const_Vector_MRQuadraticForm2f_MRVertId.__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_MRQuadraticForm2f_MRVertId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_MRQuadraticForm2f_MRVertId.__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_MRQuadraticForm2f_MRVertId._Underlying *</type>
           <declname>_this</declname>
@@ -859,7 +859,7 @@
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a0b0d3b4441b1c7fdea7115dee8298732" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ad688f6e851be64eea20cff6049848024" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa3ed50088b1a3dc68a5a8f826f22773c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a1025f4d803208b6327ca9ae96129789a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ad7a81f87a4b0b3c9fb3287a8dc1b8fec" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a715700fc31f74414c0056b699b4cd734" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1af6f5491b40b78b7684e6bbcedc38e4d9" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aefd7186d9121a3dfa6eb0631105d574d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_DefaultConstruct</name></member>
@@ -867,7 +867,7 @@
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1af1f5c66e10ebfec6e992aa983f244ccb" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a13cbe1d0722e40ae899cf0d092ebe588" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aebb983136d59b01224d2590b775d6ff6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aeb938be2f2ac87472f1766db72ec281a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac61e70fb92ea2f3781aba21d283a924d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a485e8cd30e4d15d3a631888b8dabbde4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a8cbef92a2d4829c9ea884a2aacef5ad8" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_index</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a91171868c07d41139d5a8823fbe8e8de" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_size</name></member>
@@ -882,7 +882,7 @@
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a536a62d324542d565e39081e834e8ab2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aefb77ea2538bdad354d781f3267f467c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a037ec7fe3c3bd46a74dbf15aa07f64e5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a5af54f8f9a53cdc858749090854e6aed" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1ac59312e9710f3e5ba003c4160338681b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a9661a245b5d7dffa455818192e6bc75d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a2e7086e1617f134527a56a2e416f5780" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a742ba0a7a472aab374f35b7689d6ed24" prot="public" virt="virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>Dispose</name></member>
@@ -892,7 +892,7 @@
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a3c39387ee90488b5d584f4222fb85fd2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a0d30d07f699a53973567fa89b03f3f72" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa1b9d0f5ab9114544a1df27a355868e6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a597b638e3a4d7a73346ffa38bf7a79b5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>operator Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a7a6865ee1cbf0f77846469f3acbefb35" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>operator Const_Vector_MRQuadraticForm2f_MRVertId</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a5047ec08115e196b586a10ff57e792f4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1a6c15e9e381ed385c2cb846680e74f71b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Const__Vector__MRQuadraticForm2f__MRVertId_1aa5b3e3b8f077dec5da3766ba4bf57321" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRQuadraticForm2f_MRVertId</scope><name>vec</name></member>

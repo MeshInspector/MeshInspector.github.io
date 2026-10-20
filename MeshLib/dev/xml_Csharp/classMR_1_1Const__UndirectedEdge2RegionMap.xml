@@ -203,15 +203,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8923" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8923" bodyend="8930"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1ad4da85abe7bf3aeb89b0bc41342b6385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a6d943427675d74bf53d9b07421ea9168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_UndirectedEdge2RegionMap.Const_UndirectedEdge2RegionMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; v)</argsstring>
         <name>Const_UndirectedEdge2RegionMap</name>
         <qualifiedname>MR.Const_UndirectedEdge2RegionMap.Const_UndirectedEdge2RegionMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
@@ -464,15 +464,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a1fc7e0a9656c8889b27efe10fedd4ec0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a75ff4a15b53828db6e3b83e8cdf9fb5c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_UndirectedEdge2RegionMap.operator Const_UndirectedEdge2RegionMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; v)</argsstring>
         <name>operator Const_UndirectedEdge2RegionMap</name>
         <qualifiedname>MR.Const_UndirectedEdge2RegionMap.operator Const_UndirectedEdge2RegionMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdge2RegionMap_1a4d40a370128a5a94c81200edb43f60bc" kindref="member">MR.UndirectedEdge2RegionMap.UndirectedEdge2RegionMap</ref></computeroutput>. </para>
@@ -592,15 +592,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9085" column="68"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a8a8d88205e6b911861d3c6e4ced1b53a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1ab6d0274565cb2d1940775a43f6c91f49" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.UndirectedEdge2RegionMap._Underlying *</type>
         <definition>static unsafe MR.UndirectedEdge2RegionMap._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *v)</argsstring>
         <name>__MR_UndirectedEdge2RegionMap_Construct_stdVector</name>
         <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRRegionId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -642,12 +642,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9094" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a05bec6f9063dd83202d05fccc8fe7c2a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdge2RegionMap_1a3d6a042094d9e02576af5e102c5d8b58" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRRegionId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRRegionId._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRRegionId._Underlying * MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Get_vec</definition>
         <argsstring>(MR.Const_UndirectedEdge2RegionMap._Underlying *_this)</argsstring>
-        <name>__MR_UndirectedEdge2RegionMap_Get_vec_</name>
-        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Get_vec_</qualifiedname>
+        <name>__MR_UndirectedEdge2RegionMap_Get_vec</name>
+        <qualifiedname>MR.Const_UndirectedEdge2RegionMap.__MR_UndirectedEdge2RegionMap_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_UndirectedEdge2RegionMap._Underlying *</type>
           <declname>_this</declname>
@@ -975,7 +975,7 @@
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a691fe98a5a106a9212d378b7c84cda61" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_capacity</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ae24acc931fd486e83c3c4e09adc55619" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1aaf9fa5cf402d5773ddcfea2555be1053" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a8a8d88205e6b911861d3c6e4ced1b53a" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ab6d0274565cb2d1940775a43f6c91f49" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a6e82e9eb916088e90045fadef6fcd83d" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a0dc7fb27758483fca5060e8834cc8911" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a69f8d5bea4e29e0a2f8b45037a21915a" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_DefaultConstruct</name></member>
@@ -983,7 +983,7 @@
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a4817179bedf95db2a6b33e796c1cb2f6" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_empty</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a8b967a92d3cd5d5e26f66dbb52ce4f70" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_endId</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a9e2b97508c08c013b46be94674f3e9fc" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_front</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a05bec6f9063dd83202d05fccc8fe7c2a" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a3d6a042094d9e02576af5e102c5d8b58" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_Get_vec</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a64a32cf5e7332e41479f7fb3d05e14c7" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_heapBytes</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a0829dedbc972d925fd44bf3b93c9f6c8" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_index</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a49afb2f194df37291e4166ae2df421e0" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>__MR_UndirectedEdge2RegionMap_size</name></member>
@@ -998,7 +998,7 @@
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1acc014a068fa36200bab029b296476ac6" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Const_UndirectedEdge2RegionMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a7fed582dbf30774ff7145a02dde74576" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Const_UndirectedEdge2RegionMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a910bc72b5fb3da6979fb99c78de79f21" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Const_UndirectedEdge2RegionMap</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ad4da85abe7bf3aeb89b0bc41342b6385" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Const_UndirectedEdge2RegionMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a6d943427675d74bf53d9b07421ea9168" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Const_UndirectedEdge2RegionMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a20583bfebad8fe64a7e450164bf1ce86" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a2f91595fabb1b011ac994fb69f9b945a" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1ab226d99ff222fb463b91e5d350bfe467" prot="public" virt="virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>Dispose</name></member>
@@ -1010,7 +1010,7 @@
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a9a9cf0cfbcb34767b305c0ae509a3d88" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a74d1ccb11afce26bae4ed2e0e1ec1a1d" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a5aa602ee18a6e61c313d77320497255c" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a1fc7e0a9656c8889b27efe10fedd4ec0" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>operator Const_UndirectedEdge2RegionMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a75ff4a15b53828db6e3b83e8cdf9fb5c" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>operator Const_UndirectedEdge2RegionMap</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a7df04ebb06522a9113f489c50c7444f5" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a77e734c87708256091b96a545c90e385" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__UndirectedEdge2RegionMap_1a5927fb0e563d7c8855fa28adae369473" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdge2RegionMap</scope><name>size</name></member>

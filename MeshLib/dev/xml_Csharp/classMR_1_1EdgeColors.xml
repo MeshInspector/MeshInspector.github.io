@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17209" bodyend="17216"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeColors_1a099a1321da8ce2dc5744074ec37dde9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1ac1f571eb67016540b1e2f850104f9b59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.EdgeColors.EdgeColors</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; v)</argsstring>
         <name>EdgeColors</name>
         <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeColors_1a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" kindref="member">MR.EdgeColors.EdgeColors</ref></computeroutput>. </para>
@@ -587,15 +587,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1EdgeColors_1a208b147c82a688ad6c9a12cc61411cf0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1aa2855c2f6ec3a22bce2b7076a797f93c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.EdgeColors.operator EdgeColors</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; v)</argsstring>
         <name>operator EdgeColors</name>
         <qualifiedname>MR.EdgeColors.operator EdgeColors</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeColors_1a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" kindref="member">MR.EdgeColors.EdgeColors</ref></computeroutput>. </para>
@@ -696,15 +696,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17434" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeColors_1a4996af67c021aee2bd15a6f6a5c7cd9d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a17284304ebd61dc4030f5a1324dbe751" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.EdgeColors._Underlying *</type>
         <definition>static unsafe MR.EdgeColors._Underlying * MR.EdgeColors.__MR_EdgeColors_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRColor._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRColor._Underlying *v)</argsstring>
         <name>__MR_EdgeColors_Construct_stdVector</name>
         <qualifiedname>MR.EdgeColors.__MR_EdgeColors_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRColor._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -728,12 +728,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17440" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1EdgeColors_1ab652b3885ed1f58d4bcb6a4a705c69ca" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1aef478bae44e5776ac271a15832b961d6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRColor._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRColor._Underlying * MR.EdgeColors.__MR_EdgeColors_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRColor._Underlying * MR.EdgeColors.__MR_EdgeColors_GetMutable_vec</definition>
         <argsstring>(MR.EdgeColors._Underlying *_this)</argsstring>
-        <name>__MR_EdgeColors_GetMutable_vec_</name>
-        <qualifiedname>MR.EdgeColors.__MR_EdgeColors_GetMutable_vec_</qualifiedname>
+        <name>__MR_EdgeColors_GetMutable_vec</name>
+        <qualifiedname>MR.EdgeColors.__MR_EdgeColors_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.EdgeColors._Underlying *</type>
           <declname>_this</declname>
@@ -1262,12 +1262,12 @@
       <member refid="classMR_1_1EdgeColors_1a8ab6cc0ff3abf1525aa0303cc7274e81" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_clear</name></member>
       <member refid="classMR_1_1EdgeColors_1af01c1df19bb8aac2a4d335c126830c4a" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_Construct</name></member>
       <member refid="classMR_1_1EdgeColors_1ade978b9f18593f425ad36307f9702221" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_Construct_fill</name></member>
-      <member refid="classMR_1_1EdgeColors_1a4996af67c021aee2bd15a6f6a5c7cd9d" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_Construct_stdVector</name></member>
+      <member refid="classMR_1_1EdgeColors_1a17284304ebd61dc4030f5a1324dbe751" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_Construct_stdVector</name></member>
       <member refid="classMR_1_1EdgeColors_1abfc139fbe02f9140052c4371373f4a44" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_ConstructFromAnother</name></member>
       <member refid="classMR_1_1EdgeColors_1a25699ea4b9f75c279a420694cd19e900" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_data_mut</name></member>
       <member refid="classMR_1_1EdgeColors_1ac89947da10620b29cb3b5e7f6b2f82ec" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_DefaultConstruct</name></member>
       <member refid="classMR_1_1EdgeColors_1abc475b0b17dbe57670044cb5fa5a2c98" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_front_mut</name></member>
-      <member refid="classMR_1_1EdgeColors_1ab652b3885ed1f58d4bcb6a4a705c69ca" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1EdgeColors_1aef478bae44e5776ac271a15832b961d6" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_GetMutable_vec</name></member>
       <member refid="classMR_1_1EdgeColors_1a0a1bdc1939e42341ac10dd821ef3f381" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_index_mut</name></member>
       <member refid="classMR_1_1EdgeColors_1a485c157f67607551cf99c4896925863e" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_pop_back</name></member>
       <member refid="classMR_1_1EdgeColors_1ac5045335a413b2f1e9b53efc04b02cc1" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>__MR_EdgeColors_push_back_const_MR_Color_ref</name></member>
@@ -1296,7 +1296,7 @@
       <member refid="classMR_1_1Const__EdgeColors_1a4451c1f097205ae9a72f17803ffb718d" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1ace0273cfa4b27703db045064f414a553" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a3d1b1a6cbf7ac3e407928d07c12b7082" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>Const_EdgeColors</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1a6242281ea4e5ca63df5e9b5029d7d982" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>Const_EdgeColors</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1a149ffd3c72b29a4243f314d31787424c" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>Const_EdgeColors</name></member>
       <member refid="classMR_1_1EdgeColors_1a180f37dbf39836dced21dd74158d486f" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1ae482564ea422f7b60345eb25d4dbb2e6" prot="protected" virt="virtual"><scope>MR::EdgeColors</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a534387e4e4c94fd874c3d71307cb4f91" prot="public" virt="virtual"><scope>MR::EdgeColors</scope><name>Dispose</name></member>
@@ -1307,7 +1307,7 @@
       <member refid="classMR_1_1EdgeColors_1a5f36dc94a1d06a7214d5e61891729f58" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
       <member refid="classMR_1_1EdgeColors_1a34e72d5e82116efbf325c8dddcc13a78" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
       <member refid="classMR_1_1EdgeColors_1a26894141abcd741d072bad64afb7750b" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
-      <member refid="classMR_1_1EdgeColors_1a099a1321da8ce2dc5744074ec37dde9f" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1ac1f571eb67016540b1e2f850104f9b59" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a35fcb0a2bc98ffe601fb9272a68a0615" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>empty</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a2f1c8a90888d119adbe0e78a1a570b5e" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>endId</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a3dfa6a785e81a37f6899210e3c134eb2" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>Equals</name></member>
@@ -1316,8 +1316,8 @@
       <member refid="classMR_1_1EdgeColors_1ac63f0c90dabf4b3880267ece19d99285" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1EdgeColors_1a002edf786066a612d0bc0eac82acfd04" prot="private" virt="non-virtual"><scope>MR::EdgeColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1aef584e0887cb9bed27f900257037093f" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__EdgeColors_1a7cd07192137d2a34736a784392e9c317" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator Const_EdgeColors</name></member>
-      <member refid="classMR_1_1EdgeColors_1a208b147c82a688ad6c9a12cc61411cf0" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator EdgeColors</name></member>
+      <member refid="classMR_1_1Const__EdgeColors_1ace9bac8db4ae2e8496e8243c9001c659" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator Const_EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1aa2855c2f6ec3a22bce2b7076a797f93c" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator EdgeColors</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1a9e77e5863ed66ae6e35ff64812f0df54" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__EdgeColors_1aafb1d085425a3fb38240630d66759a68" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator==</name></member>
       <member refid="classMR_1_1EdgeColors_1aba1eba42ff6dfc723b97b20dbc7df412" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>popBack</name></member>

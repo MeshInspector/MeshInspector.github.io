@@ -148,7 +148,7 @@ $(function(){initNavTree('ExampleMeshExport.html','',''); });
 <div class="line">    <span class="keyword">const</span> std::vector&lt;std::array&lt;MR::VertId, 3&gt;&gt; triangles = mesh.topology.getAllTriVerts();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// all point coordinates</span></div>
-<div class="line">    <span class="keyword">const</span> std::vector&lt;MR::Vector3f&gt; &amp; points =  mesh.points.vec_;</div>
+<div class="line">    <span class="keyword">const</span> std::vector&lt;MR::Vector3f&gt; &amp; points =  mesh.points.vec;</div>
 <div class="line">    <span class="comment">// triangle vertices as triples of ints (pointing to elements in points vector)</span></div>
 <div class="line">    <span class="keyword">const</span> <span class="keywordtype">int</span> * vertexTriples = <span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span><span class="keywordtype">int</span>*<span class="keyword">&gt;</span>( triangles.data() );</div>
 <div class="line"> </div>

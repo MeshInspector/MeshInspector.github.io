@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61388" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="61388" bodyend="61395"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a0682f22c5652aa590857c0392c218799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a8ef63947e2b4c93a27b2c374ac460b99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRRegionId_MRRegionId.Const_Vector_MRRegionId_MRRegionId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; v)</argsstring>
         <name>Const_Vector_MRRegionId_MRRegionId</name>
         <qualifiedname>MR.Const_Vector_MRRegionId_MRRegionId.Const_Vector_MRRegionId_MRRegionId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a3df3ec937b2a09c7f1b2df4ca1e059a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a6caa51d2b5a8cc43c8002acf4d72d582" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_MRRegionId_MRRegionId.operator Const_Vector_MRRegionId_MRRegionId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; v)</argsstring>
         <name>operator Const_Vector_MRRegionId_MRRegionId</name>
         <qualifiedname>MR.Const_Vector_MRRegionId_MRRegionId.operator Const_Vector_MRRegionId_MRRegionId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>, <ref refid="structMR_1_1RegionId" kindref="compound">MR.RegionId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61550" column="72"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a6948cf6b58bc075974ec8320e31669d2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1aa7d3e451817eb2f5f32c7d20ac24ae94" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRRegionId_MRRegionId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRRegionId_MRRegionId._Underlying * MR.Const_Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRRegionId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="61559" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1ac33a09fb2f6d9b154c763a96cf22caa9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a296cb98a792dca6d2c86ffd6f6f1a1fe" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRRegionId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRRegionId._Underlying * MR.Const_Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRRegionId._Underlying * MR.Const_Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_MRRegionId_MRRegionId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_RegionId_MR_RegionId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_MR_RegionId_MR_RegionId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_MRRegionId_MRRegionId.__MR_Vector_MR_RegionId_MR_RegionId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_MRRegionId_MRRegionId._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a459695671e45c75127f7c933f9976a68" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a36f83e318f922382dd1b0b2b337b664b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1aa90af435085ed5f0ed65e0790d585c60" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a6948cf6b58bc075974ec8320e31669d2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1aa7d3e451817eb2f5f32c7d20ac24ae94" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a679902f869165f43fa6d9546766bb345" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1aeae9d0ae0dbd1bcb8af188729987dfd5" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a230a8181adf09663d7a0cd44d115ade5" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a611209602842edbee79bb06ef8d6ea8c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1af0199c3ad71306e804140f7753e902e8" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a44f8a895102bc2c55188f97eb7ca4ab7" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1ac33a09fb2f6d9b154c763a96cf22caa9" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a296cb98a792dca6d2c86ffd6f6f1a1fe" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a45a760e8bded8250daebb9a713978694" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a390d5f4bac322d3c354a307d535174e2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_index</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a817ce32898db20dc81f81ddde4df038f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>__MR_Vector_MR_RegionId_MR_RegionId_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1acdb6c4b32e7e8f5ab1d4c48f6a3ccd10" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Const_Vector_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1ad333dbb557e98efb6902d18cf0e4ef3a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Const_Vector_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a661a04af00f41df95fa23aee00ef8b5c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Const_Vector_MRRegionId_MRRegionId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a0682f22c5652aa590857c0392c218799" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Const_Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a8ef63947e2b4c93a27b2c374ac460b99" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Const_Vector_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a678a5f106b1861019fbab6cefcd2ffcf" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1ab90bb92393bbfbf4931e2448f17a3ac4" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a0837c8bcda67704c6fa576916690bab4" prot="public" virt="virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a8a0b3ae58141737d98f779f7b10c2a97" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a670b54808d8d30c0e5bbdb5839dd64a9" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1ab7accf84e27534e198516b0248a25456" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a3df3ec937b2a09c7f1b2df4ca1e059a4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>operator Const_Vector_MRRegionId_MRRegionId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a6caa51d2b5a8cc43c8002acf4d72d582" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>operator Const_Vector_MRRegionId_MRRegionId</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a1df6bee3f5cb1c015da0caf9fb30d779" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1acfef82046c89694e147bc052937c6912" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__MRRegionId__MRRegionId_1a1a441f796dabe07bff9ba01ede6e0230" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRRegionId_MRRegionId</scope><name>size</name></member>

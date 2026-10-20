@@ -3,7 +3,7 @@ var classmrmeshpy_1_1UndirectedEdgeScalars =
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a7699014db182a7a535e174673f98d00f", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a209f2fe85a7fd4b402b4da728c5be605", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a631c36c351c5f143555b090b7a13272e", null ],
-    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a6fa38fcacd6673398c4b04b6a05d5fe3", null ],
+    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a928dd223d767523983d2b87ebbd0d98b", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a15e8623a63d085dea24f738a42a9377d", null ],
     [ "__eq__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a9ded916ff99b59c60d01f934c322196c", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeScalars.html#ad0bf37e4ded4f01d8efdd221a758799d", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1UndirectedEdgeScalars =
     [ "shrink_to_fit", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a6f6b4fbf947ab78ef7d580453feafdf8", null ],
     [ "size", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a65eaebf3d8b982a5c62f37a51b1f2d27", null ],
     [ "swap", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a8dc9d08f9fd8e5914291564f13d5cf6c", null ],
-    [ "vec_", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a8f31b33ceb4bbd11e4fe0148ce428f96", null ],
-    [ "vec_", "classmrmeshpy_1_1UndirectedEdgeScalars.html#ab69b5c79837ad6018ce3925b2752aa43", null ]
+    [ "vec", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a2824733fc5c821f4490e5a3cf2e9a1ff", null ],
+    [ "vec", "classmrmeshpy_1_1UndirectedEdgeScalars.html#a97235659a636639b6659368611a3ab33", null ]
 ];

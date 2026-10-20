@@ -3,7 +3,7 @@ var classmrmeshpy_1_1FaceNormals =
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#aebd68c53832cb151a89109157bc73ae3", null ],
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a22a4339e437547531d564c86329faed2", null ],
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a674cd101e78ed8f192c59e32cf3e1bcf", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a4c761afb6d48e15f17c52a8d34e3395c", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a547b6d892949ecc02d73da882857a8e8", null ],
     [ "__init__", "classmrmeshpy_1_1FaceNormals.html#a9918c31bcdb0c44c5ceab28f1b93fd1e", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceNormals.html#ac5f3eb9616539c7b8a50343b382d5f5d", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceNormals.html#a4cd9660896e4b507046366c257e2aba0", null ],
@@ -40,7 +40,5 @@ var classmrmeshpy_1_1FaceNormals =
     [ "size", "classmrmeshpy_1_1FaceNormals.html#a33410fb392161ce552ff99207aa42dc7", null ],
     [ "swap", "classmrmeshpy_1_1FaceNormals.html#aee2125e9f9d592e1d0aaae0c2ba41c65", null ],
     [ "vec", "classmrmeshpy_1_1FaceNormals.html#ac5aa8e147ef14bba573f05a79218009b", null ],
-    [ "vec", "classmrmeshpy_1_1FaceNormals.html#a3b503714971aaebb4c066d7f27722c48", null ],
-    [ "vec_", "classmrmeshpy_1_1FaceNormals.html#a4e12f207c617fa8d3c5277eda5949ad4", null ],
-    [ "vec_", "classmrmeshpy_1_1FaceNormals.html#ae31b4659cca4456f15e9c16ce252dc8b", null ]
+    [ "vec", "classmrmeshpy_1_1FaceNormals.html#a3b503714971aaebb4c066d7f27722c48", null ]
 ];

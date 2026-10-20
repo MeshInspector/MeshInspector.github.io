@@ -1,13 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"classmrmeshpy_1_1SpacingSettings.html#ae48d07d36cc14b660574ae93b083dd8b":[9,1,0,0,2,879,5],
-"classmrmeshpy_1_1SpacingSettings.html#ae48d07d36cc14b660574ae93b083dd8b":[9,1,1,0,1,879,5],
-"classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[9,1,0,0,2,879,0],
-"classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[9,1,1,0,1,879,0],
-"classmrmeshpy_1_1Sphere2d.html":[9,1,0,0,2,880],
-"classmrmeshpy_1_1Sphere2d.html":[9,1,1,0,1,880],
-"classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[9,1,0,0,2,880,5],
-"classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[9,1,1,0,1,880,5],
 "classmrmeshpy_1_1Sphere2d.html#a4a7e6bbc353394df3c26b3fe602af417":[9,1,0,0,2,880,3],
 "classmrmeshpy_1_1Sphere2d.html#a4a7e6bbc353394df3c26b3fe602af417":[9,1,1,0,1,880,3],
 "classmrmeshpy_1_1Sphere2d.html#a59ade2cc340e384eb8ee41e7f31f88fb":[9,1,0,0,2,880,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX90 =
 "classmrmeshpy_1_1SubdivideSettings.html#a2d2a6b255768accc5b433591b1f15f8e":[9,1,0,0,2,1109,26],
 "classmrmeshpy_1_1SubdivideSettings.html#a2d2a6b255768accc5b433591b1f15f8e":[9,1,1,0,1,1109,26],
 "classmrmeshpy_1_1SubdivideSettings.html#a4b6e4c34c8e35cc65912a60d49df8c43":[9,1,0,0,2,1109,33],
-"classmrmeshpy_1_1SubdivideSettings.html#a4b6e4c34c8e35cc65912a60d49df8c43":[9,1,1,0,1,1109,33]
+"classmrmeshpy_1_1SubdivideSettings.html#a4b6e4c34c8e35cc65912a60d49df8c43":[9,1,1,0,1,1109,33],
+"classmrmeshpy_1_1SubdivideSettings.html#a4c3d5442905b8f6ab343a606ead6c78d":[9,1,0,0,2,1109,14],
+"classmrmeshpy_1_1SubdivideSettings.html#a4c3d5442905b8f6ab343a606ead6c78d":[9,1,1,0,1,1109,14],
+"classmrmeshpy_1_1SubdivideSettings.html#a4d07608b2ce0e9883e4de1c041566de7":[9,1,0,0,2,1109,31],
+"classmrmeshpy_1_1SubdivideSettings.html#a4d07608b2ce0e9883e4de1c041566de7":[9,1,1,0,1,1109,31],
+"classmrmeshpy_1_1SubdivideSettings.html#a5c6c116f7e90e87b10bab532a9c6f30b":[9,1,0,0,2,1109,5],
+"classmrmeshpy_1_1SubdivideSettings.html#a5c6c116f7e90e87b10bab532a9c6f30b":[9,1,1,0,1,1109,5],
+"classmrmeshpy_1_1SubdivideSettings.html#a5d37f221868eef866e57ca7deae2fa96":[9,1,0,0,2,1109,9],
+"classmrmeshpy_1_1SubdivideSettings.html#a5d37f221868eef866e57ca7deae2fa96":[9,1,1,0,1,1109,9]
 };

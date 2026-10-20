@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="12451" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="12451" bodyend="12458"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1ad4297d35f775d0a9cc90ff39b4967e44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1a3e174c0eea36d77a7782acea21e4adeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_VertCoords2.Const_VertCoords2</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt; v)</argsstring>
         <name>Const_VertCoords2</name>
         <qualifiedname>MR.Const_VertCoords2.Const_VertCoords2</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" kindref="member">MR.VertCoords2.VertCoords2</ref></computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1acec25e69600659b7763353d20986aeaa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1afc95081b823623bb2e974e893bb6ff68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_VertCoords2.operator Const_VertCoords2</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt; v)</argsstring>
         <name>operator Const_VertCoords2</name>
         <qualifiedname>MR.Const_VertCoords2.operator Const_VertCoords2</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVector2f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" kindref="member">MR.VertCoords2.VertCoords2</ref></computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="12613" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1a66bbbac273aadaf5679f44e4eb81b9ee" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1ad101ecb7d7ef992e628a7d95997ef3d9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertCoords2._Underlying *</type>
         <definition>static unsafe MR.VertCoords2._Underlying * MR.Const_VertCoords2.__MR_VertCoords2_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRVector2f._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRVector2f._Underlying *v)</argsstring>
         <name>__MR_VertCoords2_Construct_stdVector</name>
         <qualifiedname>MR.Const_VertCoords2.__MR_VertCoords2_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRVector2f._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="12622" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1acd210a7bfb75e53a97a07192273e1b59" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertCoords2_1a9b764171abf962f573e82dcdfee3974e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRVector2f._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRVector2f._Underlying * MR.Const_VertCoords2.__MR_VertCoords2_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRVector2f._Underlying * MR.Const_VertCoords2.__MR_VertCoords2_Get_vec</definition>
         <argsstring>(MR.Const_VertCoords2._Underlying *_this)</argsstring>
-        <name>__MR_VertCoords2_Get_vec_</name>
-        <qualifiedname>MR.Const_VertCoords2.__MR_VertCoords2_Get_vec_</qualifiedname>
+        <name>__MR_VertCoords2_Get_vec</name>
+        <qualifiedname>MR.Const_VertCoords2.__MR_VertCoords2_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_VertCoords2._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__VertCoords2_1a48bc8fc710e8db313925acb1ba1cc8eb" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_capacity</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1ad87f34ca320ea614a111b5e1154736b5" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_Construct</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a7160fb4846a2bdd602d9fdb2e45e653e" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__VertCoords2_1a66bbbac273aadaf5679f44e4eb81b9ee" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1ad101ecb7d7ef992e628a7d95997ef3d9" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a25dd111ab5d21816a34fddb0a36e1b45" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1ab2c9768751c44d5cff0d3fb44c257623" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_data</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1aeccad10364babd874f97d74b3bd8db1b" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__VertCoords2_1a4cad4a8c2d229cfada67dd362c478fe5" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_empty</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1aa4ab4b8d312b5aa8772e81b28df39072" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_endId</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a3fb0e645dd8e8bc36d2e66611f909a10" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_front</name></member>
-      <member refid="classMR_1_1Const__VertCoords2_1acd210a7bfb75e53a97a07192273e1b59" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a9b764171abf962f573e82dcdfee3974e" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_Get_vec</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a994eeb94089cd6c22e342be4da3246da" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_heapBytes</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a32190e248a1520f6fa28aa4dcb4f84a9" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_index</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1af634528ce60738c4a7dbcad09bf5c03c" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>__MR_VertCoords2_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__VertCoords2_1adf1d2bc9ea703c507a223e6ed77b0edf" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>Const_VertCoords2</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1aa8ce5cafa2adc7b102ab59cf9dd8d270" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>Const_VertCoords2</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a6a51199a7db7f7855fbcea43eab5a18b" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>Const_VertCoords2</name></member>
-      <member refid="classMR_1_1Const__VertCoords2_1ad4297d35f775d0a9cc90ff39b4967e44" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a3e174c0eea36d77a7782acea21e4adeb" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>Const_VertCoords2</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1ab8a6e53d5dd867d494f0a3127dd28bda" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>data</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a8b56f531415bc0125f0d93e68581861c" prot="protected" virt="virtual"><scope>MR::Const_VertCoords2</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1ab1eaa4166851daddce9124a15ecb6a48" prot="public" virt="virtual"><scope>MR::Const_VertCoords2</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__VertCoords2_1ad35e455a4beade5d32802f6d6db417dc" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1ae949ec53ff2456b37da1903af8fbcf6c" prot="private" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1ad079c5e316db79a81c7103e64898fa59" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__VertCoords2_1acec25e69600659b7763353d20986aeaa" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>operator Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1afc95081b823623bb2e974e893bb6ff68" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>operator Const_VertCoords2</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a21da146552ddd12288545674ab38e152" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a77d7e7fc267ff71f2b6b99b00146f181" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__VertCoords2_1a5d4db75bf57d89e944d529e244fed2f1" prot="public" virt="non-virtual"><scope>MR::Const_VertCoords2</scope><name>size</name></member>

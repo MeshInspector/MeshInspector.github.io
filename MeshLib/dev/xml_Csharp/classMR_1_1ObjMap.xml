@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7531" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="7531" bodyend="7538"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a7311b7b79e5ef54d25c38e1ce71431d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a6302c6c012c8351a760a8c6109c46a87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ObjMap.ObjMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt; v)</argsstring>
         <name>ObjMap</name>
         <qualifiedname>MR.ObjMap.ObjMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1ObjMap_1a9881e043a2558892bb96672b2ba1ed5b" kindref="member">MR.ObjMap.ObjMap</ref></computeroutput>. </para>
@@ -587,15 +587,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a0d74cf10ce49f5cb6fcc58bf0d2f712f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1aea3fb532b044d855f3f0222bb1aa7fec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.ObjMap.operator ObjMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt; v)</argsstring>
         <name>operator ObjMap</name>
         <qualifiedname>MR.ObjMap.operator ObjMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRObjId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1ObjMap_1a9881e043a2558892bb96672b2ba1ed5b" kindref="member">MR.ObjMap.ObjMap</ref></computeroutput>. </para>
@@ -696,15 +696,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7756" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1ac7bc8ca74588272df52ce47da9519b21" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1a0269780a2d90a80a84010f1f6d3e5dee" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.ObjMap._Underlying *</type>
         <definition>static unsafe MR.ObjMap._Underlying * MR.ObjMap.__MR_ObjMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRObjId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRObjId._Underlying *v)</argsstring>
         <name>__MR_ObjMap_Construct_stdVector</name>
         <qualifiedname>MR.ObjMap.__MR_ObjMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRObjId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -728,12 +728,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="7762" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ObjMap_1a2743002b6f14aeec4062fa84249a14e5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ObjMap_1ad7df7a65b35ff461cf7684b57e781350" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRObjId._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRObjId._Underlying * MR.ObjMap.__MR_ObjMap_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRObjId._Underlying * MR.ObjMap.__MR_ObjMap_GetMutable_vec</definition>
         <argsstring>(MR.ObjMap._Underlying *_this)</argsstring>
-        <name>__MR_ObjMap_GetMutable_vec_</name>
-        <qualifiedname>MR.ObjMap.__MR_ObjMap_GetMutable_vec_</qualifiedname>
+        <name>__MR_ObjMap_GetMutable_vec</name>
+        <qualifiedname>MR.ObjMap.__MR_ObjMap_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.ObjMap._Underlying *</type>
           <declname>_this</declname>
@@ -1262,12 +1262,12 @@
       <member refid="classMR_1_1ObjMap_1a60e823cfb559a58907d2472212cea0e0" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_clear</name></member>
       <member refid="classMR_1_1ObjMap_1a17de158d4ae05dc6f7ad05e734c08dd9" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct</name></member>
       <member refid="classMR_1_1ObjMap_1aa99621bd0eebab5c2d25f0e99c3856b8" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_fill</name></member>
-      <member refid="classMR_1_1ObjMap_1ac7bc8ca74588272df52ce47da9519b21" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1ObjMap_1a0269780a2d90a80a84010f1f6d3e5dee" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1ObjMap_1a55d5251aa3402c505e0892e29fc7a561" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1ObjMap_1a5a8ff08f74d42ad1b6bf7a707c963682" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_data_mut</name></member>
       <member refid="classMR_1_1ObjMap_1ad684435e1d807de86e87a316b318279a" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_DefaultConstruct</name></member>
       <member refid="classMR_1_1ObjMap_1a7387ab9d7e8e5720f0fef10f1d6b2d27" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_front_mut</name></member>
-      <member refid="classMR_1_1ObjMap_1a2743002b6f14aeec4062fa84249a14e5" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1ObjMap_1ad7df7a65b35ff461cf7684b57e781350" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_GetMutable_vec</name></member>
       <member refid="classMR_1_1ObjMap_1ac9ca8363bce2af79c76554ed6e9a4fc2" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_index_mut</name></member>
       <member refid="classMR_1_1ObjMap_1ab271c406c9dd2f1c126682afa833768a" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_pop_back</name></member>
       <member refid="classMR_1_1ObjMap_1ac59bfb71c3fd213b85ef926b43317ad6" prot="private" virt="non-virtual"><scope>MR::ObjMap</scope><name>__MR_ObjMap_push_back_const_MR_ObjId_ref</name></member>
@@ -1296,7 +1296,7 @@
       <member refid="classMR_1_1Const__ObjMap_1abd6b5439d561e5e99400b08bfb445d3b" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a6a9c071ebac0abff2c141b4d8ac8eab6" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1a997f6f05d820e42f5f0097bf8f786a1e" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a91f963654e8845c33e97c6e03324e357" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1aac1696ef5131e25cb2f8897490935eb9" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>Const_ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a232f09b08f91606b0a7178d6692d1076" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__ObjMap_1adec96720a14ae0d0bfe8b0c9657bc019" prot="protected" virt="virtual"><scope>MR::ObjMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjMap_1ab83b69d3be5f43abf733503009008d45" prot="public" virt="virtual"><scope>MR::ObjMap</scope><name>Dispose</name></member>
@@ -1315,9 +1315,9 @@
       <member refid="classMR_1_1ObjMap_1a4a9ca6d406d0883c68fd2b15ea80798a" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a0080da5fd18d1a59ae48507572da017b" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
       <member refid="classMR_1_1ObjMap_1a5c970a5994d5f47a36b99b018799eab2" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
-      <member refid="classMR_1_1ObjMap_1a7311b7b79e5ef54d25c38e1ce71431d7" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
-      <member refid="classMR_1_1Const__ObjMap_1a4b4862622bc5429e787715055d0746da" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator Const_ObjMap</name></member>
-      <member refid="classMR_1_1ObjMap_1a0d74cf10ce49f5cb6fcc58bf0d2f712f" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator ObjMap</name></member>
+      <member refid="classMR_1_1ObjMap_1a6302c6c012c8351a760a8c6109c46a87" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>ObjMap</name></member>
+      <member refid="classMR_1_1Const__ObjMap_1a85d776da1f1babd1d21639bf1b1d73a8" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator Const_ObjMap</name></member>
+      <member refid="classMR_1_1ObjMap_1aea3fb532b044d855f3f0222bb1aa7fec" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator ObjMap</name></member>
       <member refid="classMR_1_1Const__ObjMap_1ab1d3a6f5da1067ead0bde8fdc24a591c" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__ObjMap_1ad0509224daa290bfc5b2af16f8eba6ab" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1ObjMap_1aae15e7866a7457fc0e742bc244b0127a" prot="public" virt="non-virtual"><scope>MR::ObjMap</scope><name>popBack</name></member>

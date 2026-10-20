@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeI
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a478690f61c8fb733a8ad597a81804bd1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#af177402979c9167a24fc715136845cde", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a55d3c095897b73cff6c1cbf89c083813", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a10fe802a156121dc4a15a255bb7f14a8", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a97b71460d473c28a2b17a9e5f44c7cf1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ab3f4ff74ef4c7c5a3f59732a22b2aec1", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a9219d753edc64a2940846494f75af1b9", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a9219d753edc64a2940846494f75af1b9", null ],
@@ -37,6 +37,6 @@ var classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeI
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ad5cba72f80a84629e0f105b86b928102", null ],
     [ "size", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ac1b9e1ad99fecefffeb02de88d02db45", null ],
     [ "swap", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a136d51f882f54ac6e5c28ca4ed2272ce", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a7f0329819d41cdd5c4a533206b3f14d3", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a525aaaf24f10f752b53153af0f658a91", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#aa03fc6a0808b3dd37e8bea3c1d40245c", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a92ba93c192c1bae61bce713411ae7d42", null ]
 ];

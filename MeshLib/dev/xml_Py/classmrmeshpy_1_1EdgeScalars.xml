@@ -20,12 +20,12 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeScalars_1aaf5acde30a4c0f9761180bdcfe3be814" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeScalars_1ab1f0228bd1e4a453e0ed0500532ad53b" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.EdgeScalars::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.EdgeScalars::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.EdgeScalars._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.EdgeScalars._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -243,10 +243,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17898" bodyend="17901"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a76c00797edfe9d388d655f817d373481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a8ecf27950fb710e526916a6c24642e64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.EdgeScalars.__init__</definition>
-        <argsstring>(self, std_vector_float vec)</argsstring>
+        <argsstring>(self, std_vector_float v)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.EdgeScalars.__init__</qualifiedname>
         <param>
@@ -255,7 +255,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -926,12 +926,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18003" bodyend="18004"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1afbd95f5913bec2b08a41a72f977e7a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1a3dd398080ef4d94c3bcd68479d6d0de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
-        <definition> std_vector_float mrmeshpy.EdgeScalars.vec_</definition>
+        <definition> std_vector_float mrmeshpy.EdgeScalars.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.EdgeScalars.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -946,12 +946,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18006" bodyend="18009"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1adb4b841c87ca162d0d0d2583dd05ecf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeScalars_1aa22cda5ae5244324b3b3a8df995243eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.EdgeScalars.vec_</definition>
+        <definition> None mrmeshpy.EdgeScalars.vec</definition>
         <argsstring>(self, std_vector_float arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.EdgeScalars.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.EdgeScalars.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -990,12 +990,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1EdgeScalars_1a3621c487541b11258357633c0c7d41bc" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1aa62a3f79007cf177b8b495b97f03b91e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1a0fabbad7b1cc734d5ee19db921f809da" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1EdgeScalars_1a76c00797edfe9d388d655f817d373481" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a8ecf27950fb710e526916a6c24642e64" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1a13fcb7e3ef346c49933d66d7ff56b6b7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1a10aedd366735ec6ad2fdc6335aac415d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1a73304e18696680e1cbaab8fe63993ae7" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__ne__</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1a266a1525ffdca15ff83f7b665c932b79" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1EdgeScalars_1aaf5acde30a4c0f9761180bdcfe3be814" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1ab1f0228bd1e4a453e0ed0500532ad53b" prot="protected" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>_offsetof_vec</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1a30d7acb529f2d8c5002a88995c97e3ad" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1adae7b826be1dd746068d914ef42d7bcf" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1ad5aea91d9b032504e7abfae51687dfad" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>autoResizeSet</name></member>
@@ -1025,8 +1025,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1EdgeScalars_1a5ad5ad069d3a45ca9148bcb537180133" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1afc02e577b3f592073f9a8b0f90153188" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1EdgeScalars_1ac53431e824c55e76b6ae13fddd2235d4" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>swap</name></member>
-      <member refid="classmrmeshpy_1_1EdgeScalars_1afbd95f5913bec2b08a41a72f977e7a4e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1EdgeScalars_1adb4b841c87ca162d0d0d2583dd05ecf2" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1a3dd398080ef4d94c3bcd68479d6d0de1" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1EdgeScalars_1aa22cda5ae5244324b3b3a8df995243eb" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeScalars</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

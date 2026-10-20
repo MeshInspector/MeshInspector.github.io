@@ -3,7 +3,7 @@ var classmrmeshpy_1_1VertScalars =
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#ab852665b77ce06a33c4c5dce3b8bb4a1", null ],
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#a9245b58d48507cb0df23b8faf7d65c40", null ],
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#af0f1125d2492fa6f5f7aa33034130392", null ],
-    [ "__init__", "classmrmeshpy_1_1VertScalars.html#a3fb70dbf97bd523f36882f7d07fd5758", null ],
+    [ "__init__", "classmrmeshpy_1_1VertScalars.html#a712fedbe491c4da4f364b0b0a7c1d6b8", null ],
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#a9830781beb42498aab2715c2b4aad223", null ],
     [ "__eq__", "classmrmeshpy_1_1VertScalars.html#ae87ab6503f4660a8b3509b05a69b366e", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertScalars.html#aa084f4bd2ce3f51e29e4f20864b66b82", null ],
@@ -39,7 +39,5 @@ var classmrmeshpy_1_1VertScalars =
     [ "size", "classmrmeshpy_1_1VertScalars.html#a1debca56ff5a2959d244a87381356b18", null ],
     [ "swap", "classmrmeshpy_1_1VertScalars.html#adbdddd127e95163f6f03997ed9925da6", null ],
     [ "vec", "classmrmeshpy_1_1VertScalars.html#a4c8cfcacf7e3017f89472378a652977b", null ],
-    [ "vec", "classmrmeshpy_1_1VertScalars.html#a2b8b82f0cf0e90cb68a7741b7259f5a4", null ],
-    [ "vec_", "classmrmeshpy_1_1VertScalars.html#a6fd03e0963ca9034f9b453424e0910a5", null ],
-    [ "vec_", "classmrmeshpy_1_1VertScalars.html#a19ca59d13ba0dcf9546e5ad5e4631a0f", null ]
+    [ "vec", "classmrmeshpy_1_1VertScalars.html#a2b8b82f0cf0e90cb68a7741b7259f5a4", null ]
 ];

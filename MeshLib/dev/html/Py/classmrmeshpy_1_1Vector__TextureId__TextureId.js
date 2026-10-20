@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__TextureId__TextureId =
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a7e1de1b20aaa1ed5426f72a5fe203c6e", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#aa158bd506562b3569f1b806e39049a6d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a6a87c1b196dbf84b2c3b68b96611a9b1", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a7c27d7c1025a2a63236e30f6131df8fc", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ad76007d5259d31d5026955f760aa51b2", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ae62fcd5307c6692734e472f90b4e3265", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ac3d4fa35196f3c716b47193cff9fe17b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a306fd4f217585d87cde28e1a94fc71cf", null ],
@@ -39,6 +39,6 @@ var classmrmeshpy_1_1Vector__TextureId__TextureId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a9ad2f374366ddde16f19556e49af9a6c", null ],
     [ "size", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a8a204c497ddc07cebe08873ca6180a34", null ],
     [ "swap", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a4a2087bd74e8d9b704535c403f6e7822", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a21b5cee1bb6b046d81951812cfd465a6", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a7165b0d8c23bdb42e68023fa49764f04", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a6f476556851c0f5d2b85f60386206984", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ab7daa8c98cb5ae0632590a65d9715301", null ]
 ];

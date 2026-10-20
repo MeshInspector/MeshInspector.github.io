@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25361" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25361" bodyend="25368"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aab683c5788c7b541d9cd032e9a8f5cf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ad95177c7e4b3c7bfab15b9de00724c8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; v)</argsstring>
         <name>Const_Vector_MRAffineXf3f_MRObjId</name>
         <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a71e359652db822c856548ddc92c59310" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ab55d98f74ba4c60f31a4bd766d26a09c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_MRAffineXf3f_MRObjId.operator Const_Vector_MRAffineXf3f_MRObjId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; v)</argsstring>
         <name>operator Const_Vector_MRAffineXf3f_MRObjId</name>
         <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.operator Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25523" column="71"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a6b1fa079b28d3c305527771901feb575" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a92c1ef7cc3d517086c0b67821dc8cbef" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying *</type>
         <definition>static unsafe MR.Vector_MRAffineXf3f_MRObjId._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRAffineXf3f._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRAffineXf3f._Underlying *v)</argsstring>
         <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRAffineXf3f._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25532" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a605e22411cf545301da525f7f289aea4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2804aaa405028cd837ebfe60ab00a89d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRAffineXf3f._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRAffineXf3f._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRAffineXf3f._Underlying * MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_MRAffineXf3f_MRObjId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_MRAffineXf3f_MRObjId._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a862da4838f6ac847d7fe73fff82f4eef" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9883b552716abceeba4569e4ee4b8ec4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aac85bab975fa55535d0672fa87339088" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a6b1fa079b28d3c305527771901feb575" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a92c1ef7cc3d517086c0b67821dc8cbef" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a115fccc2569515e3677b9b205eed9ffa" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2e7bb8ffa0f9e62378144831c045951c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_data</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ab4e2c2640b4d30e7cdc61fa6788785fb" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a25ca8c61ce5bc553df46ea576c3e6b18" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a4f673cd021160dd3174e125d9613a4b9" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a78ba9fad5e4112584e45bf86746a6204" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a605e22411cf545301da525f7f289aea4" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2804aaa405028cd837ebfe60ab00a89d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1afa0f41015ee2c806fc0d1121d967f913" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af3aa8c73caa923d43a7a160809bd7a9c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_index</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a4df0c6830ba3877b3aebc6272308e1bf" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a13b2b870da7e6a38c01b981bb24f59e0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a170fce9a06538fda3585de325504569f" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a56348194342b817d6bb357670c6c8202" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aab683c5788c7b541d9cd032e9a8f5cf5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ad95177c7e4b3c7bfab15b9de00724c8a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2fdbc1c6018db9dae79fe0b033cd5f13" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ae280dcbbfc67f25f2b3ce82274850ce5" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1abd1bec1ee8b6f065019b851aac4f7926" prot="public" virt="virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7ec6980538381e7d0cbdfecc89872767" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1abfe71730d7e07f32555552af7c55aa44" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aae7f003c9b2e01fa6c701815d6819202" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a71e359652db822c856548ddc92c59310" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ab55d98f74ba4c60f31a4bd766d26a09c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator Const_Vector_MRAffineXf3f_MRObjId</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a024036281389afac254060848c7650c6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a1036937bed60f57f0ef64214e4ec2b3e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7b7e8fe4e858a94d3743e81b1150235e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>size</name></member>

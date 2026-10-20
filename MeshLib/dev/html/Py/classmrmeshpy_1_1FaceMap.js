@@ -3,7 +3,7 @@ var classmrmeshpy_1_1FaceMap =
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#aa85f07e5c63b751b12a33060577c0d01", null ],
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#a935ef8998d96624cfcf5aa480459098f", null ],
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#ae5fc72234504bc46ed274c9f8c87110c", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceMap.html#adf9586e914fa8497b8e4b91b1a45fa81", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceMap.html#a8b180e7df3076b7d0f7c68f9a230efb6", null ],
     [ "__init__", "classmrmeshpy_1_1FaceMap.html#a37f7206d29e4072c1143e2498bbf6006", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceMap.html#a038cd86e6f3c77ac204b1086362e0d2f", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceMap.html#af0d5a0fe74b4bdeb0d54e78863e81f29", null ],
@@ -40,7 +40,5 @@ var classmrmeshpy_1_1FaceMap =
     [ "size", "classmrmeshpy_1_1FaceMap.html#ac4ba9d3206dbf20dd6940cdf78215482", null ],
     [ "swap", "classmrmeshpy_1_1FaceMap.html#a53db47c69385366a4119c34ad8f2991d", null ],
     [ "vec", "classmrmeshpy_1_1FaceMap.html#afc4a1c5e8f1c69a27fb13f15a807af05", null ],
-    [ "vec", "classmrmeshpy_1_1FaceMap.html#a4322a8f2a8d7eaaa1ca58f62d5720013", null ],
-    [ "vec_", "classmrmeshpy_1_1FaceMap.html#a070a1b3d7877dfda9cf8687f83da5611", null ],
-    [ "vec_", "classmrmeshpy_1_1FaceMap.html#a69cc538455270578281546fb7d5c7876", null ]
+    [ "vec", "classmrmeshpy_1_1FaceMap.html#a4322a8f2a8d7eaaa1ca58f62d5720013", null ]
 ];

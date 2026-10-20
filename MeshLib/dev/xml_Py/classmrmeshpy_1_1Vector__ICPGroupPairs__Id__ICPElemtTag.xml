@@ -3,12 +3,12 @@
   <compounddef id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</compoundname>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ad284d81bb60d1d22f115d7b99912cc6e" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a1f3e19821c88f8504e9890561b22d13d" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88387" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88347" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88388" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88348" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a4e22584efa0e5aa5f217d5420266cdd7" prot="public" static="yes" mutable="no">
         <type></type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88389" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88349" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a449cd7f4be6847dd811413a6b6ca725b" prot="public" static="yes" mutable="no">
         <type></type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88390" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88350" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88393" bodyend="88394"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88353" bodyend="88354"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1adecc0c1a2585f344fcc9b75da6a68c94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kindref="compound">Vector_ICPGroupPairs_Id_ICPElemtTag</ref></type>
@@ -109,7 +109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88397" bodyend="88398"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88357" bodyend="88358"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1adecc0c1a2585f344fcc9b75da6a68c94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag" kindref="compound">Vector_ICPGroupPairs_Id_ICPElemtTag</ref></type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88401" bodyend="88402"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88361" bodyend="88362"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88404" bodyend="88405"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88364" bodyend="88365"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88407" bodyend="88408"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88367" bodyend="88368"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a09b4445ff89197a0eefea99741e8d14d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88410" bodyend="88413"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88370" bodyend="88373"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac497c6fabe9aca833226b949beb6d2aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88415" bodyend="88418"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88375" bodyend="88378"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3c9a02f7e3a7d2aed859be059411edec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -249,12 +249,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88420" bodyend="88423"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88380" bodyend="88383"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a98f1c032424b1afc102edb0e13c25a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a77dc63a3ba39f497b8246875ebec8bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</definition>
-        <argsstring>(self, std_vector_ICPGroupPairs vec)</argsstring>
+        <argsstring>(self, std_vector_ICPGroupPairs v)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.__init__</qualifiedname>
         <param>
@@ -263,7 +263,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1std__vector__ICPGroupPairs" kindref="compound">std_vector_ICPGroupPairs</ref></type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88425" bodyend="88428"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88385" bodyend="88388"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1abc98b8a241c9bf460c69b1d6f441c2d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88430" bodyend="88433"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88390" bodyend="88393"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8658eac7a369e028bdbf910cb4fbcebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>typing.Iterator[<ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref>]</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88434" bodyend="88435"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88394" bodyend="88395"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a43fbf84f4640e9e0910ece07cf513d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -341,7 +341,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88436" bodyend="88437"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88396" bodyend="88397"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8fba3862a1b7f4ece0b8cd7de9e372eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88438" bodyend="88441"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88398" bodyend="88401"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac486a2c5bb4b8ef684c2603548d7ad41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -398,7 +398,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88443" bodyend="88447"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88403" bodyend="88407"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7642f133c9d110be2b37c52c5fe23149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -426,7 +426,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88449" bodyend="88452"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88409" bodyend="88412"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac466b2e81dcfda119af3e89b20f2265e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -444,7 +444,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88454" bodyend="88455"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88414" bodyend="88415"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac466b2e81dcfda119af3e89b20f2265e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -462,7 +462,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88457" bodyend="88458"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88417" bodyend="88418"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a27d8c637015003d252868ac50699658e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
@@ -482,7 +482,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88459" bodyend="88462"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88419" bodyend="88422"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1af7eca4a2240a053c44d38a678f1ef9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
@@ -502,7 +502,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88463" bodyend="88466"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88423" bodyend="88426"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a2c56962e70dd606e5afba94a562aeb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -520,7 +520,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88467" bodyend="88468"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88427" bodyend="88428"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a0321e35d36008de1f1151da4ee2d8e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -538,7 +538,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88469" bodyend="88470"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88429" bodyend="88430"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a97dac9457a0e9acf72f7e94de681e698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -556,7 +556,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88472" bodyend="88473"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88432" bodyend="88433"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a97dac9457a0e9acf72f7e94de681e698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -574,7 +574,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88475" bodyend="88476"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88435" bodyend="88436"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7cb76684b9acc486e8d848cf3932a7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -592,7 +592,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88477" bodyend="88478"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88437" bodyend="88438"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a1ecbc3b3d84e4a20d12c2262a893f3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Id__ICPElemtTag" kindref="compound">Id_ICPElemtTag</ref></type>
@@ -612,7 +612,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88479" bodyend="88482"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88439" bodyend="88442"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a225d07249b2b8d4d575ba12f83f04fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -630,7 +630,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88484" bodyend="88485"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88444" bodyend="88445"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a225d07249b2b8d4d575ba12f83f04fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
@@ -648,7 +648,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88487" bodyend="88488"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88447" bodyend="88448"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3a31825b1a997e20bffa62593a112481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -668,7 +668,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88489" bodyend="88492"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88449" bodyend="88452"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7dfbc29a5d2c94a44c511a4809848ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -686,7 +686,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88493" bodyend="88494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88453" bodyend="88454"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aef96adc79e79d69fcdb890d46b7de474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -708,7 +708,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88496" bodyend="88497"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88456" bodyend="88457"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aef96adc79e79d69fcdb890d46b7de474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -730,7 +730,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88499" bodyend="88500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88459" bodyend="88460"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3131e20cd81f12c9453f7896d8680be5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -752,7 +752,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88501" bodyend="88502"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88461" bodyend="88462"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a177d2b7cf582ab955e528f36a68fa03b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -774,7 +774,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88504" bodyend="88505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88464" bodyend="88465"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a42ed4e7921ce0b800718e00bbcb3a952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -800,7 +800,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88507" bodyend="88508"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88467" bodyend="88468"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a140b19682bf4dc6ddfe883768e55ae73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -824,7 +824,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88510" bodyend="88513"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88470" bodyend="88473"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8ba43be6ae5b1872ae4d6379f2818b4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -852,7 +852,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88515" bodyend="88518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88475" bodyend="88478"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1acb94b604ad3eb0dd1f0a58e43ddbf496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -870,7 +870,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88519" bodyend="88520"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88479" bodyend="88480"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aac94494931fe94eb676ddbdd8337128c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -888,7 +888,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88521" bodyend="88522"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88481" bodyend="88482"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a268ec49726967f14a9bc43b3f0839eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -910,14 +910,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88523" bodyend="88524"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88483" bodyend="88484"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac030375f7aa1e60cd57136c4c9573fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a243b2359f49db1abf4f57b071f8d3772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__ICPGroupPairs" kindref="compound">std_vector_ICPGroupPairs</ref></type>
-        <definition> std_vector_ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</definition>
+        <definition> std_vector_ICPGroupPairs mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -930,14 +930,14 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88526" bodyend="88529"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88486" bodyend="88489"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a10ac5dc000f5a0df5cb9244a23319ea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a6f63bdb0cc4fa1d12dbc0b744293ee6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</definition>
+        <definition> None mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec</definition>
         <argsstring>(self, std_vector_ICPGroupPairs arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Vector_ICPGroupPairs_Id_ICPElemtTag.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -952,7 +952,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88531" bodyend="88532"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88491" bodyend="88492"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -967,7 +967,7 @@ Aliases:  Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.const_refere
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88376" bodyend="88532"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="88336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="88336" bodyend="88492"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a059488734162c3714679809cd6aa293d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__getitem__</name></member>
@@ -975,11 +975,11 @@ Aliases:  Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.const_refere
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a09b4445ff89197a0eefea99741e8d14d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac497c6fabe9aca833226b949beb6d2aa" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a3c9a02f7e3a7d2aed859be059411edec" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a98f1c032424b1afc102edb0e13c25a8b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a77dc63a3ba39f497b8246875ebec8bf0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1abc98b8a241c9bf460c69b1d6f441c2d2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8658eac7a369e028bdbf910cb4fbcebe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a43fbf84f4640e9e0910ece07cf513d40" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ad284d81bb60d1d22f115d7b99912cc6e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a1f3e19821c88f8504e9890561b22d13d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>_offsetof_vec</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8fba3862a1b7f4ece0b8cd7de9e372eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac486a2c5bb4b8ef684c2603548d7ad41" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a7642f133c9d110be2b37c52c5fe23149" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>autoResizeSet</name></member>
@@ -1012,8 +1012,8 @@ Aliases:  Vector_Vector_ICPGroupPairs_Id_ICPElemtTag_Id_ICPElemtTag.const_refere
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aac94494931fe94eb676ddbdd8337128c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a268ec49726967f14a9bc43b3f0839eb0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a449cd7f4be6847dd811413a6b6ca725b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>value_type</name></member>
-      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac030375f7aa1e60cd57136c4c9573fac" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a10ac5dc000f5a0df5cb9244a23319ea0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a243b2359f49db1abf4f57b071f8d3772" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a6f63bdb0cc4fa1d12dbc0b744293ee6a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_ICPGroupPairs_Id_ICPElemtTag</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

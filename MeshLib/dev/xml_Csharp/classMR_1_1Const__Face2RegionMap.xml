@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9797" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="9797" bodyend="9804"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a1ba61f4a41ad85e7ff14e351ecd4ecb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a1f4a78c7dd867cc9fe0dc6300d62e88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Face2RegionMap.Const_Face2RegionMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; v)</argsstring>
         <name>Const_Face2RegionMap</name>
         <qualifiedname>MR.Const_Face2RegionMap.Const_Face2RegionMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1af7a6df683de93f9c4f004325899b0647" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a39492ab742a2a73950defac56e6fc8bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Face2RegionMap.operator Const_Face2RegionMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt; v)</argsstring>
         <name>operator Const_Face2RegionMap</name>
         <qualifiedname>MR.Const_Face2RegionMap.operator Const_Face2RegionMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRRegionId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Face2RegionMap_1a1ce5c94b9a97f9292c74e87c4c083833" kindref="member">MR.Face2RegionMap.Face2RegionMap</ref></computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9959" column="58"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a58bdb877d34277a8635ec71541cf90b8" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a101792391f6f27105568bb00b8bd4775" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Face2RegionMap._Underlying *</type>
         <definition>static unsafe MR.Face2RegionMap._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRRegionId._Underlying *v)</argsstring>
         <name>__MR_Face2RegionMap_Construct_stdVector</name>
         <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRRegionId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="9968" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1af1d105277c0ed272c2cc83d9814d76ff" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Face2RegionMap_1a613acdd3f5a6fc4e4f175733785350bf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MRRegionId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MRRegionId._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MRRegionId._Underlying * MR.Const_Face2RegionMap.__MR_Face2RegionMap_Get_vec</definition>
         <argsstring>(MR.Const_Face2RegionMap._Underlying *_this)</argsstring>
-        <name>__MR_Face2RegionMap_Get_vec_</name>
-        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Get_vec_</qualifiedname>
+        <name>__MR_Face2RegionMap_Get_vec</name>
+        <qualifiedname>MR.Const_Face2RegionMap.__MR_Face2RegionMap_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Face2RegionMap._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Face2RegionMap_1a6e47b27115d440d2e971c518577a0092" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_capacity</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1aa98b0b9628784b79afd3c5eb51f078ea" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1adec8fd5ebee5050b2534a282916f2be4" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1a58bdb877d34277a8635ec71541cf90b8" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a101792391f6f27105568bb00b8bd4775" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a55d6093ac13261b8ce49e956a3e7569b" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1af1c25883786e88c17fd9b809dbc72e6b" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_data</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a3d571455f4e981017dd6b07c1f1cf2df" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Face2RegionMap_1a355fbf95200125457a2c4f5193462a1a" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_empty</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a21a70d21a80240ae5d9c5eb89a91e832" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_endId</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1ad98f0ab2a0c985d242b1cc90af3d62cc" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_front</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1af1d105277c0ed272c2cc83d9814d76ff" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a613acdd3f5a6fc4e4f175733785350bf" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_Get_vec</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1aae7ff0ad278e752dcc516b7316886a46" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_heapBytes</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1affc00f02168278716a7a1cfcf6613acc" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_index</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a9e7bc546922b24575fcb4e7c5a009894" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>__MR_Face2RegionMap_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Face2RegionMap_1a9eee2a4ab7fe76f27edb55e108f554af" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1aa1316c265561b2503bafc345c5afb8b7" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1aa6a9bcae6441ef5b1eb48340810634e6" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1a1ba61f4a41ad85e7ff14e351ecd4ecb1" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a1f4a78c7dd867cc9fe0dc6300d62e88e" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>Const_Face2RegionMap</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1abf70c366efece347f0ac6451ae2afbea" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a869836ca138a2b08432688115d495547" prot="protected" virt="virtual"><scope>MR::Const_Face2RegionMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1aa2537d135ecef4f4c43c8cff12390036" prot="public" virt="virtual"><scope>MR::Const_Face2RegionMap</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Face2RegionMap_1aefef3b55559c37fa98768ef6b0403036" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a1f7d046505664ab38771653cdc562767" prot="private" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a53189d5478a8bb2ad5c965f2c6b70ba7" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Face2RegionMap_1af7a6df683de93f9c4f004325899b0647" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator Const_Face2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Face2RegionMap_1a39492ab742a2a73950defac56e6fc8bd" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator Const_Face2RegionMap</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1a89b51c877c6dda4b513002e5afa6784c" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1acdc4c9544f902f7d42118b0da4e34520" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Face2RegionMap_1ae6a5e1aea37ed32780fef9ac5e9cf0db" prot="public" virt="non-virtual"><scope>MR::Const_Face2RegionMap</scope><name>size</name></member>

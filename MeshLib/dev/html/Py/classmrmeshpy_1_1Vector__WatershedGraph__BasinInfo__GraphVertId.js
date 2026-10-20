@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId =
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ad3187714ce3e4e88f9a62d2449ee8cf8", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a2d5ea73f05f21903196c641a7946fb2c", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ab0ed9ac29eed6faeea1d380ae0afd118", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ae31f7959c18a05277cedbcb934bf73bb", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a3bd10b3d855b96bb3507317db2342b56", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ad3e74a28253913bf666936247065a368", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a196881b4d2e58fbbf213a75ea73a17fb", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a196881b4d2e58fbbf213a75ea73a17fb", null ],
@@ -36,6 +36,6 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aa0ec79f753fe48b77d1874153464b672", null ],
     [ "size", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a27b87b5a5abdc95d9a7c13f46e5a654e", null ],
     [ "swap", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aeddc907da3c24d625a847c803b9908ce", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aeb6dbe2ab015a4958a4a118d3ac4418b", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#a493dcdbedc202385fc695b7e24bffdeb", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#ae35dd7464e614a2fc486f43826b525b5", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#afc4b7c1b7eaadf8cc5f20af345a504f6", null ]
 ];

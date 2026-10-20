@@ -1,13 +1,5 @@
 var NAVTREEINDEX81 =
 {
-"classmrmeshpy_1_1Polynomial__float__4.html":[9,1,0,0,2,791],
-"classmrmeshpy_1_1Polynomial__float__4.html":[9,1,1,0,1,791],
-"classmrmeshpy_1_1Polynomial__float__4.html#a30eb6ef31d6786836e10c61089ff23ca":[9,1,0,0,2,791,3],
-"classmrmeshpy_1_1Polynomial__float__4.html#a30eb6ef31d6786836e10c61089ff23ca":[9,1,1,0,1,791,3],
-"classmrmeshpy_1_1Polynomial__float__4.html#a66028c03b33487f0c84516945ea3dbd2":[9,1,0,0,2,791,4],
-"classmrmeshpy_1_1Polynomial__float__4.html#a66028c03b33487f0c84516945ea3dbd2":[9,1,1,0,1,791,4],
-"classmrmeshpy_1_1Polynomial__float__4.html#a82204a7256a088fac6d4ec85f91a1cb1":[9,1,0,0,2,791,1],
-"classmrmeshpy_1_1Polynomial__float__4.html#a82204a7256a088fac6d4ec85f91a1cb1":[9,1,1,0,1,791,1],
 "classmrmeshpy_1_1Polynomial__float__4.html#aa37fe33a4cd7801602eb6a4bbae18bb5":[9,1,0,0,2,791,0],
 "classmrmeshpy_1_1Polynomial__float__4.html#aa37fe33a4cd7801602eb6a4bbae18bb5":[9,1,1,0,1,791,0],
 "classmrmeshpy_1_1Polynomial__float__4.html#ab8a01a46aadc4b84db2154ec5f01d6fd":[9,1,0,0,2,791,5],
@@ -249,5 +241,13 @@ var NAVTREEINDEX81 =
 "classmrmeshpy_1_1QuadraticForm2d.html#a9aa3c70edafad3f27125ab1060753629":[9,1,0,0,2,805,1],
 "classmrmeshpy_1_1QuadraticForm2d.html#a9aa3c70edafad3f27125ab1060753629":[9,1,1,0,1,805,1],
 "classmrmeshpy_1_1QuadraticForm2d.html#ab20cff5e28e49d70e794c42302def265":[9,1,0,0,2,805,4],
-"classmrmeshpy_1_1QuadraticForm2d.html#ab20cff5e28e49d70e794c42302def265":[9,1,1,0,1,805,4]
+"classmrmeshpy_1_1QuadraticForm2d.html#ab20cff5e28e49d70e794c42302def265":[9,1,1,0,1,805,4],
+"classmrmeshpy_1_1QuadraticForm2d.html#ae46f577609082cc398f0f80d85e67f31":[9,1,0,0,2,805,5],
+"classmrmeshpy_1_1QuadraticForm2d.html#ae46f577609082cc398f0f80d85e67f31":[9,1,1,0,1,805,5],
+"classmrmeshpy_1_1QuadraticForm2d.html#af2b82aafdf68d1f4a1453ba7119c1852":[9,1,0,0,2,805,7],
+"classmrmeshpy_1_1QuadraticForm2d.html#af2b82aafdf68d1f4a1453ba7119c1852":[9,1,1,0,1,805,7],
+"classmrmeshpy_1_1QuadraticForm2f.html":[9,1,0,0,2,806],
+"classmrmeshpy_1_1QuadraticForm2f.html":[9,1,1,0,1,806],
+"classmrmeshpy_1_1QuadraticForm2f.html#a124d2ec08858d559a887727746e91c41":[9,1,0,0,2,806,4],
+"classmrmeshpy_1_1QuadraticForm2f.html#a124d2ec08858d559a887727746e91c41":[9,1,1,0,1,806,4]
 };

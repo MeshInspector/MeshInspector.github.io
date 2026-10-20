@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22041" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="22041" bodyend="22045"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1a0a07e06193ad595cc6f85a075384b2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1a0a954c03cb99c3579ed087a0c6668912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_Int_MRFaceId.Const_Vector_Int_MRFaceId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; v)</argsstring>
         <name>Const_Vector_Int_MRFaceId</name>
         <qualifiedname>MR.Const_Vector_Int_MRFaceId.Const_Vector_Int_MRFaceId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_Int &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1a2b53441fca005a90a67eaf0a706233e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1a282f2227a3e10edd84914d7759fb306e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_Int_MRFaceId.operator Const_Vector_Int_MRFaceId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; v)</argsstring>
         <name>operator Const_Vector_Int_MRFaceId</name>
         <qualifiedname>MR.Const_Vector_Int_MRFaceId.operator Const_Vector_Int_MRFaceId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_Int &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22200" column="63"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1aa68a1898f1ce56e9c6c537c238929d31" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1aa43d4306c344769739e02d040fe2d89f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_Int_MRFaceId._Underlying *</type>
         <definition>static unsafe MR.Vector_Int_MRFaceId._Underlying * MR.Const_Vector_Int_MRFaceId.__MR_Vector_int_MR_FaceId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_Int._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_Int._Underlying *v)</argsstring>
         <name>__MR_Vector_int_MR_FaceId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_Int_MRFaceId.__MR_Vector_int_MR_FaceId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_Int._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="22209" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1ab2fb675577ba7a92d6e7ddcd7a6e449f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRFaceId_1a00b14a01fbf85ff9ca27bafd903d954b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_Int._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_Int._Underlying * MR.Const_Vector_Int_MRFaceId.__MR_Vector_int_MR_FaceId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_Int._Underlying * MR.Const_Vector_Int_MRFaceId.__MR_Vector_int_MR_FaceId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_Int_MRFaceId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_int_MR_FaceId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_Int_MRFaceId.__MR_Vector_int_MR_FaceId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_int_MR_FaceId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_Int_MRFaceId.__MR_Vector_int_MR_FaceId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_Int_MRFaceId._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a38789be45f00a27c5bf1e8525594641e" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1ab8ee797b91ce33c93ec1d5cc96bfb46a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a221a9bd34d08ed863807a0bb167f6ea9" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1aa68a1898f1ce56e9c6c537c238929d31" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1aa43d4306c344769739e02d040fe2d89f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a84c4b08e7a59bca5e5211821a3ec7a31" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1affa7faf2819f667985e2001e23bf66ca" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_data</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a7eb00e875f2240cd858f770c9879e17f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a6f81b1bdc1af808be44c260784c16481" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a1fa877e6f63302b7e006b27d1356e083" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a5e1350af2d95ace77193b1780b368908" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1ab2fb675577ba7a92d6e7ddcd7a6e449f" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a00b14a01fbf85ff9ca27bafd903d954b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a91580a49abcffcdd36016d810448ae73" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a3b5f09cb71d43082c9b7dd9b22eb5dcf" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_index</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a01c45a42a8051b5a2571a2b84a20e926" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>__MR_Vector_int_MR_FaceId_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1ad35034134bf33427c0f027d30648d474" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Const_Vector_Int_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a33ddca290e7f9fabbe54e57381c32af2" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Const_Vector_Int_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1abdfd8bbbe92f8658a3ad38e1a751a063" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Const_Vector_Int_MRFaceId</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a0a07e06193ad595cc6f85a075384b2d8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Const_Vector_Int_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a0a954c03cb99c3579ed087a0c6668912" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Const_Vector_Int_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1ad1ec007435b551f913f012f0704af2d8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a8e5f9d29087f05b81c7a4e7a8d272b53" prot="protected" virt="virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a1c5e96efaa965b6cfceb919bb70f8a37" prot="public" virt="virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a0c980eaf8c46b8e7d58194cbaa80f571" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1ab84a91902027f00686c487c726bafe6d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a66d0201c774041bf84a610ddd4493bb3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a2b53441fca005a90a67eaf0a706233e7" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>operator Const_Vector_Int_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a282f2227a3e10edd84914d7759fb306e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>operator Const_Vector_Int_MRFaceId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a33ec15c2f24f96ed4bf9addc5fadb962" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a8654d333db0b4246657d95f255884d01" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRFaceId_1a8d9060f47c1c4911b656bc03d8102f5b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRFaceId</scope><name>size</name></member>

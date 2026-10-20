@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId =
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a4e881c55bba06ad318b948cde6bfbb95", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a72d7ae9dacba867c6ce487109097ec05", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a370cc45d0cfc5824545a57415f11b0f5", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a726628ee6f7b697bea85d3fb88084d7a", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#ad2ce86afd53da099e09c7b001397df2d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a445d9f799349e2866b431a102f65385f", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a0e3ea8cf41c8376bff29a57fed612a3b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a0e3ea8cf41c8376bff29a57fed612a3b", null ],
@@ -36,6 +36,6 @@ var classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a15d92fc5f285cc84d31fefd9d8df07f4", null ],
     [ "size", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a5e13923a4e6edaa628354e9e218f09ca", null ],
     [ "swap", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a5e24ea0ac8d47b60147fdda6eb548308", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a84831b5a01ffa1e9a0f933d3a18200c6", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#ac98d3932332a4857b5dcc8af62a2cf6f", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a855eb300dfda2fee88c1853b2d14f12e", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#af1c08bde61051f5fcecc78111225b96c", null ]
 ];

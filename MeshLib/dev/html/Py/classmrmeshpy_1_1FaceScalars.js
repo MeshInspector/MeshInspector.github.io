@@ -3,7 +3,7 @@ var classmrmeshpy_1_1FaceScalars =
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#ad5329c575d7ad53dc70ba21e726466af", null ],
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#aeda25794e4695eed982c135c979c322a", null ],
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#a50c5209e75e59f748423a09024ca3c57", null ],
-    [ "__init__", "classmrmeshpy_1_1FaceScalars.html#a3006470628684158268ef25db85cc74b", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceScalars.html#ab7d89370b637697c7df4183df40e0b53", null ],
     [ "__init__", "classmrmeshpy_1_1FaceScalars.html#a3c881244616d42326e412ad0bb8a0aa5", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceScalars.html#a29277a43abd432052f83789bbcaea04f", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceScalars.html#abd86bcc54821424717ceb7e04e2f6dd3", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1FaceScalars =
     [ "shrink_to_fit", "classmrmeshpy_1_1FaceScalars.html#a8dd112359c20581685635cbe579e72ad", null ],
     [ "size", "classmrmeshpy_1_1FaceScalars.html#a7536c5ded0a8fc6bd23932eba0d5c46c", null ],
     [ "swap", "classmrmeshpy_1_1FaceScalars.html#aa28e2e18463c4ee0516a8dc92402860c", null ],
-    [ "vec_", "classmrmeshpy_1_1FaceScalars.html#a215efbc0055b471085b1d1fd1dff5c00", null ],
-    [ "vec_", "classmrmeshpy_1_1FaceScalars.html#afa17b39a1419cc2b78333a19ce9e5cfc", null ]
+    [ "vec", "classmrmeshpy_1_1FaceScalars.html#adfaac7eb2a8d1840150c0c97b8c136b5", null ],
+    [ "vec", "classmrmeshpy_1_1FaceScalars.html#acba503f854fbfda17208057cfa232136", null ]
 ];

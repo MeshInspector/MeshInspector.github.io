@@ -233,8 +233,8 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR_SaveSettings* ss = MR_SaveSettings_DefaultConstruct();</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_Color_size( MR_VertColors_Get_vec_( colors ) ) ==</div>
-<div class="line">         MR_std_vector_MR_Vector3f_size( MR_VertCoords_Get_vec_( MR_PointCloud_Get_points( pc ) ) )</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_std_vector_MR_Color_size( MR_VertColors_Get_vec( colors ) ) ==</div>
+<div class="line">         MR_std_vector_MR_Vector3f_size( MR_VertCoords_Get_vec( MR_PointCloud_Get_points( pc ) ) )</div>
 <div class="line">         )</div>
 <div class="line">    {</div>
 <div class="line">        MR_SaveSettings_Set_colors( ss, colors );</div>

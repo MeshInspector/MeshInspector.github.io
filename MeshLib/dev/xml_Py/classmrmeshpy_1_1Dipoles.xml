@@ -3,12 +3,12 @@
   <compounddef id="classmrmeshpy_1_1Dipoles" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::Dipoles</compoundname>
     <sectiondef kind="protected-static-attrib">
-      <memberdef kind="variable" id="classmrmeshpy_1_1Dipoles_1a6a267561e61eae51ab3963254ec20356" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Dipoles_1ac3e3e5da8bc9ded69636945447453c9e" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Dipoles::_offsetof_vec_</definition>
+        <definition>typing mrmeshpy.Dipoles::_offsetof_vec</definition>
         <argsstring></argsstring>
-        <name>_offsetof_vec_</name>
-        <qualifiedname>mrmeshpy.Dipoles._offsetof_vec_</qualifiedname>
+        <name>_offsetof_vec</name>
+        <qualifiedname>mrmeshpy.Dipoles._offsetof_vec</qualifiedname>
         <initializer>=  0</initializer>
         <briefdescription>
         </briefdescription>
@@ -204,10 +204,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15863" bodyend="15866"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a53c72e6a822452d223515bda0f56a1b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a8b5e4bf03a5e2e7b2b99557b58df86b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Dipoles.__init__</definition>
-        <argsstring>(self, std_vector_Dipole vec)</argsstring>
+        <argsstring>(self, std_vector_Dipole v)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
         <param>
@@ -216,7 +216,7 @@
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1std__vector__Dipole" kindref="compound">std_vector_Dipole</ref></type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -865,12 +865,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15966" bodyend="15967"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a33cb0593959d7554fcecf727c3b9b54a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Dipole" kindref="compound">std_vector_Dipole</ref></type>
-        <definition> std_vector_Dipole mrmeshpy.Dipoles.vec_</definition>
+        <definition> std_vector_Dipole mrmeshpy.Dipoles.vec</definition>
         <argsstring>(self)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Dipoles.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Dipoles.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -885,12 +885,12 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15969" bodyend="15972"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a8e60e6cc78ebc06d89c9d9312287ffb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a7bd8439ec2fae91d9611a49c6511cc7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Dipoles.vec_</definition>
+        <definition> None mrmeshpy.Dipoles.vec</definition>
         <argsstring>(self, std_vector_Dipole arg1)</argsstring>
-        <name>vec_</name>
-        <qualifiedname>mrmeshpy.Dipoles.vec_</qualifiedname>
+        <name>vec</name>
+        <qualifiedname>mrmeshpy.Dipoles.vec</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -927,11 +927,11 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Dipoles_1a3688b558f19217277d2915f5deac9ab8" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1adc96c8f7835e4eeaf44fdb3f15d51431" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1ac93b4fd60bd4c14dc12d0fe73155592c" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Dipoles_1a53c72e6a822452d223515bda0f56a1b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a8b5e4bf03a5e2e7b2b99557b58df86b3" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1a6ee1fc3c7a16292de829ed16c27a5de7" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1ab98b28641206dc09aad099c073a85b8c" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__iter__</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1a8140f02abd1178b353d29db426718619" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__setitem__</name></member>
-      <member refid="classmrmeshpy_1_1Dipoles_1a6a267561e61eae51ab3963254ec20356" prot="protected" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ac3e3e5da8bc9ded69636945447453c9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>_offsetof_vec</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1a7ef0473cbcd8806ce47786c9e6da5a93" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>autoResizeAt</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1aa51409fde2903c82512d7357a87be474" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>autoResizeSet</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1aa6f2b2399e85f58994233e3cbbea5148" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>autoResizeSet</name></member>
@@ -961,8 +961,8 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Dipoles_1ac22a2f20cead20a08b8feca8b0d481c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1aa86c47fb593f495d63ac3015f80fa8fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1ad1d003d5f7724221d603c1edb8505536" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>swap</name></member>
-      <member refid="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec_</name></member>
-      <member refid="classmrmeshpy_1_1Dipoles_1a8e60e6cc78ebc06d89c9d9312287ffb4" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a33cb0593959d7554fcecf727c3b9b54a" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a7bd8439ec2fae91d9611a49c6511cc7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

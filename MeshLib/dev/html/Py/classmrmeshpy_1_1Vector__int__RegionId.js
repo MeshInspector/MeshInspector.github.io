@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__int__RegionId =
     [ "__init__", "classmrmeshpy_1_1Vector__int__RegionId.html#acec9b40cf60b0c0778c23b3b21e4b785", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__RegionId.html#ae6ca5f8ad737c9b3ebd6755b55bc5a96", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__RegionId.html#a82494cf5d39d18e0d188ceae4933f13b", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__int__RegionId.html#a291e1d97ec8c6e2c38aa523c42b1f1c4", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__int__RegionId.html#a0b2f1b07dea36da42ca19f2955315929", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__int__RegionId.html#a7942cd603c064ca04800f916cf721f63", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__int__RegionId.html#a813bd5d85ca39e57810d627a84eb5b63", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__int__RegionId.html#a69f4ed08e523a6cedfa5611fdbb90e5b", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__int__RegionId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__int__RegionId.html#ac26aee9790d59a3c89339849f6e21fb3", null ],
     [ "size", "classmrmeshpy_1_1Vector__int__RegionId.html#a555aee9e4858fc0562e1ee12a090b96e", null ],
     [ "swap", "classmrmeshpy_1_1Vector__int__RegionId.html#aaa2bf01c10b01f102e36d9563d4a6449", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__int__RegionId.html#a9bf762589126563ad561eee67ea1a944", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__int__RegionId.html#ab796407fdc7eb60948f00408517b5b23", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__int__RegionId.html#a1784516d5d5cc631b0adebfe31aa9eee", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__int__RegionId.html#ac249895c86cde150ba54657489ba8d99", null ]
 ];

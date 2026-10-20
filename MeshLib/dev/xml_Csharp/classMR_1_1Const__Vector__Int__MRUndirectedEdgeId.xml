@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="64894" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="64894" bodyend="64898"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1afd8524f22c7ff3fb8148886311b49107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a170e1b9fb852255a9e7f5b12ad5e49d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_Vector_Int_MRUndirectedEdgeId.Const_Vector_Int_MRUndirectedEdgeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; v)</argsstring>
         <name>Const_Vector_Int_MRUndirectedEdgeId</name>
         <qualifiedname>MR.Const_Vector_Int_MRUndirectedEdgeId.Const_Vector_Int_MRUndirectedEdgeId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_Int &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a810bae1017b738650632288c9d28be3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a042c9774a864d7173dbf04435087dc4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_Vector_Int_MRUndirectedEdgeId.operator Const_Vector_Int_MRUndirectedEdgeId</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Int &gt; v)</argsstring>
         <name>operator Const_Vector_Int_MRUndirectedEdgeId</name>
         <qualifiedname>MR.Const_Vector_Int_MRUndirectedEdgeId.operator Const_Vector_Int_MRUndirectedEdgeId</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_Int &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;int, <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::Vector</computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="65053" column="73"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1afca2500b784f6145670420ac7ea611c2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a46bfc3149ab0a0e8bb5793eea124f1a6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying *</type>
         <definition>static unsafe MR.Vector_Int_MRUndirectedEdgeId._Underlying * MR.Const_Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_Int._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_Int._Underlying *v)</argsstring>
         <name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</name>
         <qualifiedname>MR.Const_Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_Int._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="65062" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a7d5f15511e8e4019e6076bfdcad21eab" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a20ebfa286b530223140027a4ceeb3a3b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_Int._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_Int._Underlying * MR.Const_Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_Int._Underlying * MR.Const_Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Get_vec</definition>
         <argsstring>(MR.Const_Vector_Int_MRUndirectedEdgeId._Underlying *_this)</argsstring>
-        <name>__MR_Vector_int_MR_UndirectedEdgeId_Get_vec_</name>
-        <qualifiedname>MR.Const_Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Get_vec_</qualifiedname>
+        <name>__MR_Vector_int_MR_UndirectedEdgeId_Get_vec</name>
+        <qualifiedname>MR.Const_Vector_Int_MRUndirectedEdgeId.__MR_Vector_int_MR_UndirectedEdgeId_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_Vector_Int_MRUndirectedEdgeId._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ae47bcd4f6861f561354850d6288367db" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_capacity</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a0c1ccbb0ef27b24907e1a827b892616b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ab82bccdfcc6cd04434fd69b60045aa3c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1afca2500b784f6145670420ac7ea611c2" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a46bfc3149ab0a0e8bb5793eea124f1a6" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1aa112f51e8518251a2c03e691f7b38e58" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a918eeddc7c85e9c93a547e321f414aa1" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_data</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ad4bba1a2f3e5716f07463edbe6cde963" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac144d2261e4ebeb2ac03d89d37e0191b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_empty</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a0540b966989b4419e6cc6d7c26ad2e4c" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_endId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a1a7358f3b85c8a3e22e9f288455b7d58" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_front</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a7d5f15511e8e4019e6076bfdcad21eab" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a20ebfa286b530223140027a4ceeb3a3b" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_Get_vec</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a37a3c580b4dba2e51b999ba485b9e854" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_heapBytes</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac679909015b724cd6b6d7ac7c0bd7907" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_index</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac6b2f421bc7f1659a8e5bbb1828650d7" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>__MR_Vector_int_MR_UndirectedEdgeId_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a3e40743b384b5124003c90c9598e8845" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a46b72bc30de43d6c622ab56d6aa4fe6c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ad295ab1c183b65c62d3471f30a4020b0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1afd8524f22c7ff3fb8148886311b49107" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a170e1b9fb852255a9e7f5b12ad5e49d6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a38be8c5717348238acd80bcab22a123d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>data</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac1e25187687c16cf7455c3e3d8e1cdae" prot="protected" virt="virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac7e7914e344f704f763937746777e0a4" prot="public" virt="virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a7a92f5ae657349cdd81f75af82dcfab1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1af7963cc319f70669a3e9b417fbbb6b77" prot="private" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1ac742adb551a424bb880114c65ec4dd40" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a810bae1017b738650632288c9d28be3d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>operator Const_Vector_Int_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a042c9774a864d7173dbf04435087dc4e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>operator Const_Vector_Int_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a37fad60f53c48fa055b799b3d7f6c986" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a2c6fa5c8601da8bb512e2eaa8150bd01" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__Vector__Int__MRUndirectedEdgeId_1a9a8f4b84bcf324cb7d4215c683292e38" prot="public" virt="non-virtual"><scope>MR::Const_Vector_Int_MRUndirectedEdgeId</scope><name>size</name></member>

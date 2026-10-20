@@ -2,7 +2,7 @@ var classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId =
 [
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a1d8ce87cdec6543cfaea8eedc1168e2f", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#aadedd028bfc33dd3db419e84878dece7", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a19397a7d36f0445cc7c6462cbb5da770", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a8a90e0fc71ab30e17f4a06cbd9990658", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a93a4c74a4c2c571abf4fc3a897137c6b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ac9c84f95a55d6b015c8eb96c713a3b41", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ac9c84f95a55d6b015c8eb96c713a3b41", null ],
@@ -32,6 +32,6 @@ var classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a092258d1aeeb28ec79863ca9599338ec", null ],
     [ "size", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a15db278dffc46e802ba9a1a8804a5e66", null ],
     [ "swap", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ae6c1d0edc47ccc44bb8e586589dbcde8", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ad047361296e642865270dd48f063d297", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a91e37139367b67ecb7fa8ac2c201e7d7", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a267223bb748515bbe6c4d20e9b48bd72", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a7119b8b60833fc2e6d0212f7ecde5717", null ]
 ];

@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15461" bodyend="15468"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1ab7432429e72fb039c64f0d919c3fd684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a08615f90bceca0f788c686f987175773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.VertColors.VertColors</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; v)</argsstring>
         <name>VertColors</name>
         <qualifiedname>MR.VertColors.VertColors</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertColors_1a9a15ba2d7d4775f0d097bd11f65de788" kindref="member">MR.VertColors.VertColors</ref></computeroutput>. </para>
@@ -587,15 +587,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1VertColors_1a7ce69885d3d70e526dc3bebb78a0b113" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a628c40d2a5017c45d308a90e38aa9596" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.VertColors.operator VertColors</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; v)</argsstring>
         <name>operator VertColors</name>
         <qualifiedname>MR.VertColors.operator VertColors</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertColors_1a9a15ba2d7d4775f0d097bd11f65de788" kindref="member">MR.VertColors.VertColors</ref></computeroutput>. </para>
@@ -696,15 +696,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15686" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1af78e4a75de20d71c16880d711890ce45" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1ad6b9007b96676e89653a6dd66ed0526b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertColors._Underlying *</type>
         <definition>static unsafe MR.VertColors._Underlying * MR.VertColors.__MR_VertColors_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRColor._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRColor._Underlying *v)</argsstring>
         <name>__MR_VertColors_Construct_stdVector</name>
         <qualifiedname>MR.VertColors.__MR_VertColors_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRColor._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -728,12 +728,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15692" column="54"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VertColors_1ac6536674b66ec8cc2bb002e0b3e92382" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VertColors_1a5d82878f076f1d253ed7318b2bf3b963" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRColor._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRColor._Underlying * MR.VertColors.__MR_VertColors_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRColor._Underlying * MR.VertColors.__MR_VertColors_GetMutable_vec</definition>
         <argsstring>(MR.VertColors._Underlying *_this)</argsstring>
-        <name>__MR_VertColors_GetMutable_vec_</name>
-        <qualifiedname>MR.VertColors.__MR_VertColors_GetMutable_vec_</qualifiedname>
+        <name>__MR_VertColors_GetMutable_vec</name>
+        <qualifiedname>MR.VertColors.__MR_VertColors_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.VertColors._Underlying *</type>
           <declname>_this</declname>
@@ -1262,12 +1262,12 @@
       <member refid="classMR_1_1VertColors_1adc3fb2aeb4c21fbee9d33fa92b77069e" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_clear</name></member>
       <member refid="classMR_1_1VertColors_1ae79f2371e79fc1650783a649e1833f22" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_Construct</name></member>
       <member refid="classMR_1_1VertColors_1a0a604471bc1ddea33653030f4c14a4f9" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_Construct_fill</name></member>
-      <member refid="classMR_1_1VertColors_1af78e4a75de20d71c16880d711890ce45" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_Construct_stdVector</name></member>
+      <member refid="classMR_1_1VertColors_1ad6b9007b96676e89653a6dd66ed0526b" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_Construct_stdVector</name></member>
       <member refid="classMR_1_1VertColors_1a738d006f5cab8114ba09f5c83dfec9bc" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_ConstructFromAnother</name></member>
       <member refid="classMR_1_1VertColors_1a0224403ed1fe8684445ae2d10530441e" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_data_mut</name></member>
       <member refid="classMR_1_1VertColors_1a9fcf56c45437742b63f72d9da1b75b41" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_DefaultConstruct</name></member>
       <member refid="classMR_1_1VertColors_1acb50842405f6b2574283e2e72e46b39a" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_front_mut</name></member>
-      <member refid="classMR_1_1VertColors_1ac6536674b66ec8cc2bb002e0b3e92382" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1VertColors_1a5d82878f076f1d253ed7318b2bf3b963" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_GetMutable_vec</name></member>
       <member refid="classMR_1_1VertColors_1a19e3bfde257c0625a32cb24af5262eda" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_index_mut</name></member>
       <member refid="classMR_1_1VertColors_1af7b0d24b90ef737bad41a7bbec5d8ad5" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_pop_back</name></member>
       <member refid="classMR_1_1VertColors_1a932702d0d5ceb9b0f42efd268eb1ee12" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>__MR_VertColors_push_back_const_MR_Color_ref</name></member>
@@ -1296,7 +1296,7 @@
       <member refid="classMR_1_1Const__VertColors_1a1f92e3f9e7fa94c361e75e830d2541ee" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1a5c09f6cc81d08b1d230861a3a8fc8c91" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1ad5ec794250bfb2df9750db0ab7387b52" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
-      <member refid="classMR_1_1Const__VertColors_1aa92ff0e09d23d1f38e276c96132037d8" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a4c1913ba774704624b162f7016578a91" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>Const_VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a819475399037335c0aedca5047ae2973" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>data</name></member>
       <member refid="classMR_1_1Const__VertColors_1a6b538fcc9681ff742614b4ac237e4040" prot="protected" virt="virtual"><scope>MR::VertColors</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertColors_1a0b2086b3482bbcb6a00e73a5e1635ef6" prot="public" virt="virtual"><scope>MR::VertColors</scope><name>Dispose</name></member>
@@ -1308,8 +1308,8 @@
       <member refid="classMR_1_1VertColors_1aa53951f0ce8eb3b29f151127ac1e1422" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1VertColors_1aaff0867cf201fc01768ae9926d911644" prot="private" virt="non-virtual"><scope>MR::VertColors</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertColors_1aae52d127f725d67f63effa12c57c296c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__VertColors_1ac5b39ac511b863df1b2fbe48ed3739cf" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator Const_VertColors</name></member>
-      <member refid="classMR_1_1VertColors_1a7ce69885d3d70e526dc3bebb78a0b113" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator VertColors</name></member>
+      <member refid="classMR_1_1Const__VertColors_1a809bc39babc9e362d848f19593e07a1c" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator Const_VertColors</name></member>
+      <member refid="classMR_1_1VertColors_1a628c40d2a5017c45d308a90e38aa9596" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator VertColors</name></member>
       <member refid="classMR_1_1Const__VertColors_1a185fc92a777168cba200cf1f2962ad43" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__VertColors_1a46116e192e48847d7d6bda4806363634" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>operator==</name></member>
       <member refid="classMR_1_1VertColors_1a3fd4b75759e9535814f50af401073df4" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>popBack</name></member>
@@ -1333,7 +1333,7 @@
       <member refid="classMR_1_1VertColors_1a7a8f8f02feacd8a85c48d1b25a872323" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a240defeb2305087b07a9f182e06b6634" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
       <member refid="classMR_1_1VertColors_1a35b33d3cf2fbded59d08824b41113328" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
-      <member refid="classMR_1_1VertColors_1ab7432429e72fb039c64f0d919c3fd684" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
+      <member refid="classMR_1_1VertColors_1a08615f90bceca0f788c686f987175773" prot="public" virt="non-virtual"><scope>MR::VertColors</scope><name>VertColors</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

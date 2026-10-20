@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__ObjId__VoxelId =
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ab0fb3f4ac002a1a4347636e5cdd3e986", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ac326512d7b496f7fe8c3c76e3f551aba", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ae8a7f438b065d8886fd5086ceebbbe91", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a1b916d5256b6ccadcc1fbe42460fe419", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a72c485efe1377cffea70cff0aeceefff", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#ac345ed2c64e2c4cefb25aab101eb3556", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#aed3a60967faa7758a6b5ecf2be7da0b9", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a8a62bfc279d375894b1a14636b50d764", null ],
@@ -39,6 +39,6 @@ var classmrmeshpy_1_1Vector__ObjId__VoxelId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a7d6350d6537854fa05098b6b2e7ecd54", null ],
     [ "size", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#af152a411c194f93dc98f437f7b699a6d", null ],
     [ "swap", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a908ae4995e353b7de843207beddfef86", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#aea11e70d589eeb180dac1c2e54f16d60", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a2ea717d9ebf3e6a4bdd4388e7407f08b", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a189c6b00e7101747744bc004c1152be7", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__ObjId__VoxelId.html#a00ce6d01142ac814e642c5682655d238", null ]
 ];

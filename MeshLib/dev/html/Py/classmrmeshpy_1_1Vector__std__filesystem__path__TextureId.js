@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__std__filesystem__path__TextureId =
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a39dffe501cb9c1f12e6d269c56da1454", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a0a374724ce5794029693fc366a5bdf22", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a4abe31a9b966ada0219b9f0b169e6ed3", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a24a5ce7548dd09bef2609324327f94a4", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a62ad668421b6188da01249c70641acc7", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a91789358846daeecf963381f75b16a45", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#ae62277285df162ea7678e3f89e31590c", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a96a9ae7fff26c1811f304c0ceae76975", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__std__filesystem__path__TextureId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#adeec73523df642f92c063f945c8a7f68", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a406eb0a083ba1e7b89dd0bb954e84c38", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a437931c3ff329920c14eecd39e58687e", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a34643a1ea62c14625e9ee634ef66ad69", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#afbb7223446970318ce2bc056aad2e5c1", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a861bdf392a56131dfc64c7b619fe712f", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__std__filesystem__path__TextureId.html#a53e4cec9272e56e545261ffe7ee45b61", null ]
 ];

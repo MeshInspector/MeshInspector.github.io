@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8049" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="8049" bodyend="8056"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a0d7fdf254e3bf81f98fe739cbf6fbce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ad4a4df12feaf5b6f3437461221a12da2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_WholeEdgeMap.Const_WholeEdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; v)</argsstring>
         <name>Const_WholeEdgeMap</name>
         <qualifiedname>MR.Const_WholeEdgeMap.Const_WholeEdgeMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1aec5965cd507feddbd4b9781d1a844303" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1abcb0ccc6076757722fbd0c3d2ab3101f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_WholeEdgeMap.operator Const_WholeEdgeMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; v)</argsstring>
         <name>operator Const_WholeEdgeMap</name>
         <qualifiedname>MR.Const_WholeEdgeMap.operator Const_WholeEdgeMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1WholeEdgeMap_1a501b0bc673152b4ea8b565a549a79576" kindref="member">MR.WholeEdgeMap.WholeEdgeMap</ref></computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8211" column="56"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a42bf83d8ffaa1d00e9f1481a96b2fe74" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a19198561ffdc94432c3aec6f1d832c0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.WholeEdgeMap._Underlying *</type>
         <definition>static unsafe MR.WholeEdgeMap._Underlying * MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MREdgeId._Underlying *v)</argsstring>
         <name>__MR_WholeEdgeMap_Construct_stdVector</name>
         <qualifiedname>MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MREdgeId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="8220" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1ab437a005c39121d2fec828abc981c870" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__WholeEdgeMap_1a47be5cf650373da6372b2b64893c3102" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_MREdgeId._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_MREdgeId._Underlying * MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_MREdgeId._Underlying * MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Get_vec</definition>
         <argsstring>(MR.Const_WholeEdgeMap._Underlying *_this)</argsstring>
-        <name>__MR_WholeEdgeMap_Get_vec_</name>
-        <qualifiedname>MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Get_vec_</qualifiedname>
+        <name>__MR_WholeEdgeMap_Get_vec</name>
+        <qualifiedname>MR.Const_WholeEdgeMap.__MR_WholeEdgeMap_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_WholeEdgeMap._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1aecd15d68b7b76fcad191902856051e30" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_capacity</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a7e44627effc3fc9186e916a9659adbff" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a211b5d8d3a7c5af5400fc49c70bc47da" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1a42bf83d8ffaa1d00e9f1481a96b2fe74" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a19198561ffdc94432c3aec6f1d832c0b" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1aa2279faecf8d997085d3d671b9419367" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3c4ace8e07f31e2ff5e922f91da3cbd5" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_data</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a184797581370a2d45a604fbc8a0a5407" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1a7a20c4cb61e370fdf8306168dd05f443" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_empty</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1ac476621191f15862d4d5faf1c6cb3f9c" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_endId</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a1e862765015e69338395abb2705189cf" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_front</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1ab437a005c39121d2fec828abc981c870" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1a47be5cf650373da6372b2b64893c3102" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_Get_vec</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1af0f075e12f66df4247ad42e466cb8b3b" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_heapBytes</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a82e70420a842a0b3a0b4d3b728671dde" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_index</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a55a6eef4add375e35ec5a91881a38ee0" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>__MR_WholeEdgeMap_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1a131fba26df9a7ea9c93b5bf05db7d81b" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3665808e7b59fb294949b9fdd066c5ff" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1ac40530ef1948738dbaefd570a5ce3e7e" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1a0d7fdf254e3bf81f98fe739cbf6fbce3" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1ad4a4df12feaf5b6f3437461221a12da2" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1ae52860420681932a7411d933985e3211" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a3df9ebc95d914a5ea8c962ff127f7896" prot="protected" virt="virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1acd489f5caf37311c5deaef1ad9353c07" prot="public" virt="virtual"><scope>MR::Const_WholeEdgeMap</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__WholeEdgeMap_1aa44c24cbcdd3ab6d2d5d98c11c37e145" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a096c7900ef97e2fccc93c52b3e2f4634" prot="private" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1acb4882e147aa6939a7fc363f5a781953" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__WholeEdgeMap_1aec5965cd507feddbd4b9781d1a844303" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator Const_WholeEdgeMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeMap_1abcb0ccc6076757722fbd0c3d2ab3101f" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator Const_WholeEdgeMap</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a18d54500ba6c35deec91ab4c70a9b320" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a6cef7865d8131ba3f9e66db600f5b3f8" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__WholeEdgeMap_1a2a967d3df8ac4f16987d3537ea638bbd" prot="public" virt="non-virtual"><scope>MR::Const_WholeEdgeMap</scope><name>size</name></member>

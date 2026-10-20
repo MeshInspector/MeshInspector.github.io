@@ -1,13 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"classmrmeshpy_1_1PolylineTopology.html#a8cb34e3ceee5a50a6c10d171e5ab10ac":[9,1,0,0,2,775,12],
-"classmrmeshpy_1_1PolylineTopology.html#a8cb34e3ceee5a50a6c10d171e5ab10ac":[9,1,1,0,1,775,12],
-"classmrmeshpy_1_1PolylineTopology.html#a9804e11494985a8b83f996e1cefedff9":[9,1,0,0,2,775,5],
-"classmrmeshpy_1_1PolylineTopology.html#a9804e11494985a8b83f996e1cefedff9":[9,1,1,0,1,775,5],
-"classmrmeshpy_1_1PolylineTopology.html#a9b9e41df2552a3639bcec00ebfdb0439":[9,1,0,0,2,775,53],
-"classmrmeshpy_1_1PolylineTopology.html#a9b9e41df2552a3639bcec00ebfdb0439":[9,1,1,0,1,775,53],
-"classmrmeshpy_1_1PolylineTopology.html#aa0340e9c0fc0241ef57d54bbcb4f2ef7":[9,1,0,0,2,775,25],
-"classmrmeshpy_1_1PolylineTopology.html#aa0340e9c0fc0241ef57d54bbcb4f2ef7":[9,1,1,0,1,775,25],
 "classmrmeshpy_1_1PolylineTopology.html#aa9683e4bc05969f5b2259853858f7462":[9,1,0,0,2,775,22],
 "classmrmeshpy_1_1PolylineTopology.html#aa9683e4bc05969f5b2259853858f7462":[9,1,1,0,1,775,22],
 "classmrmeshpy_1_1PolylineTopology.html#ab1736bccb9edd2045c3d1de8339faafb":[9,1,0,0,2,775,35],
@@ -249,5 +241,13 @@ var NAVTREEINDEX80 =
 "classmrmeshpy_1_1Polynomial__float__3.html#a97e069c165259d9b3c1be130bc0097fc":[9,1,0,0,2,790,0],
 "classmrmeshpy_1_1Polynomial__float__3.html#a97e069c165259d9b3c1be130bc0097fc":[9,1,1,0,1,790,0],
 "classmrmeshpy_1_1Polynomial__float__3.html#a9a1e32322926d6449e7e7ab9c77b242f":[9,1,0,0,2,790,5],
-"classmrmeshpy_1_1Polynomial__float__3.html#a9a1e32322926d6449e7e7ab9c77b242f":[9,1,1,0,1,790,5]
+"classmrmeshpy_1_1Polynomial__float__3.html#a9a1e32322926d6449e7e7ab9c77b242f":[9,1,1,0,1,790,5],
+"classmrmeshpy_1_1Polynomial__float__4.html":[9,1,0,0,2,791],
+"classmrmeshpy_1_1Polynomial__float__4.html":[9,1,1,0,1,791],
+"classmrmeshpy_1_1Polynomial__float__4.html#a30eb6ef31d6786836e10c61089ff23ca":[9,1,0,0,2,791,3],
+"classmrmeshpy_1_1Polynomial__float__4.html#a30eb6ef31d6786836e10c61089ff23ca":[9,1,1,0,1,791,3],
+"classmrmeshpy_1_1Polynomial__float__4.html#a66028c03b33487f0c84516945ea3dbd2":[9,1,0,0,2,791,4],
+"classmrmeshpy_1_1Polynomial__float__4.html#a66028c03b33487f0c84516945ea3dbd2":[9,1,1,0,1,791,4],
+"classmrmeshpy_1_1Polynomial__float__4.html#a82204a7256a088fac6d4ec85f91a1cb1":[9,1,0,0,2,791,1],
+"classmrmeshpy_1_1Polynomial__float__4.html#a82204a7256a088fac6d4ec85f91a1cb1":[9,1,1,0,1,791,1]
 };

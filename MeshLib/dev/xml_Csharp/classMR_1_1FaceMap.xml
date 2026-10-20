@@ -165,15 +165,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4003" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4003" bodyend="4010"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1ae874b6d5cd05175166f2f4ddc0a2ac4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a8d06ff719be7bc75f8f1362820ae4c4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FaceMap.FaceMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt; v)</argsstring>
         <name>FaceMap</name>
         <qualifiedname>MR.FaceMap.FaceMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
@@ -587,15 +587,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1FaceMap_1ae15e6d3092529b1097b8d2e5ce6b5afb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a86a333f19dd37cc5d14aba4ab12f2d2d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.FaceMap.operator FaceMap</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt; v)</argsstring>
         <name>operator FaceMap</name>
         <qualifiedname>MR.FaceMap.operator FaceMap</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
@@ -696,15 +696,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4228" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a9ab7f9821bd69ecab6237c45999795dd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a47f95bd348bda042bdc359e1e68f322a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.FaceMap._Underlying *</type>
         <definition>static unsafe MR.FaceMap._Underlying * MR.FaceMap.__MR_FaceMap_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_MRFaceId._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_MRFaceId._Underlying *v)</argsstring>
         <name>__MR_FaceMap_Construct_stdVector</name>
         <qualifiedname>MR.FaceMap.__MR_FaceMap_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_MRFaceId._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -728,12 +728,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4234" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FaceMap_1a29af072761c0d13c37e1fe39d9f39ba9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FaceMap_1a92e2d00bfa51fbc0985fe93fefd102bf" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceId._Underlying *</type>
-        <definition>static unsafe MR.Std.Vector_MRFaceId._Underlying * MR.FaceMap.__MR_FaceMap_GetMutable_vec_</definition>
+        <definition>static unsafe MR.Std.Vector_MRFaceId._Underlying * MR.FaceMap.__MR_FaceMap_GetMutable_vec</definition>
         <argsstring>(MR.FaceMap._Underlying *_this)</argsstring>
-        <name>__MR_FaceMap_GetMutable_vec_</name>
-        <qualifiedname>MR.FaceMap.__MR_FaceMap_GetMutable_vec_</qualifiedname>
+        <name>__MR_FaceMap_GetMutable_vec</name>
+        <qualifiedname>MR.FaceMap.__MR_FaceMap_GetMutable_vec</qualifiedname>
         <param>
           <type>MR.FaceMap._Underlying *</type>
           <declname>_this</declname>
@@ -1262,12 +1262,12 @@
       <member refid="classMR_1_1FaceMap_1a1ff7680f374d99c1639a478bd8c34a15" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_clear</name></member>
       <member refid="classMR_1_1FaceMap_1adb9b4ea298b8f6eee21affed8b5e6af9" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_Construct</name></member>
       <member refid="classMR_1_1FaceMap_1ab5c451fe680e8370f9710a843ce7ccaf" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_Construct_fill</name></member>
-      <member refid="classMR_1_1FaceMap_1a9ab7f9821bd69ecab6237c45999795dd" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_Construct_stdVector</name></member>
+      <member refid="classMR_1_1FaceMap_1a47f95bd348bda042bdc359e1e68f322a" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_Construct_stdVector</name></member>
       <member refid="classMR_1_1FaceMap_1a99fbd9f8542d9f1d43b8058109710353" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_ConstructFromAnother</name></member>
       <member refid="classMR_1_1FaceMap_1ad660ebd84d6bd8ef79f5a943044ed57e" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_data_mut</name></member>
       <member refid="classMR_1_1FaceMap_1a6d081329aeb4de565194057d92bfd1a4" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_DefaultConstruct</name></member>
       <member refid="classMR_1_1FaceMap_1ae8cfafccc399fbc81af78ecde107e172" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_front_mut</name></member>
-      <member refid="classMR_1_1FaceMap_1a29af072761c0d13c37e1fe39d9f39ba9" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_GetMutable_vec_</name></member>
+      <member refid="classMR_1_1FaceMap_1a92e2d00bfa51fbc0985fe93fefd102bf" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_GetMutable_vec</name></member>
       <member refid="classMR_1_1FaceMap_1a05eb648144d018a397f1e7c6e58f655c" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_index_mut</name></member>
       <member refid="classMR_1_1FaceMap_1adbce4f0cc46a0a649f0363d7f5d79780" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_pop_back</name></member>
       <member refid="classMR_1_1FaceMap_1a1087f9713db2f15f7e5c0b10bc42b537" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>__MR_FaceMap_push_back_const_MR_FaceId_ref</name></member>
@@ -1296,7 +1296,7 @@
       <member refid="classMR_1_1Const__FaceMap_1a7fb3cf9e38bc050497c2476fe8ac7563" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a23db98159e3c3af92bbd39301e21c763" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1aa871358da1b1777b8096b185a9cad8cd" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1a83954d181b04fd92a5ffc9bd3b394cef" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1acf677e747c14b77e4afee6226a64b234" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>Const_FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a6d617c5184a6a30b3471936c0e51224c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>data</name></member>
       <member refid="classMR_1_1Const__FaceMap_1abb5074d3e609821d18a28f56cb2218a6" prot="protected" virt="virtual"><scope>MR::FaceMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__FaceMap_1adaeafcbc17a24e8386941262dc361bcf" prot="public" virt="virtual"><scope>MR::FaceMap</scope><name>Dispose</name></member>
@@ -1311,13 +1311,13 @@
       <member refid="classMR_1_1FaceMap_1a5eb99e82818dc52ded1ef4e482e035db" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1ad8ab1782186107e5bac6049f8671d301" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a77bf2e8880f4c90c95e532b77fec9244" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
-      <member refid="classMR_1_1FaceMap_1ae874b6d5cd05175166f2f4ddc0a2ac4c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
+      <member refid="classMR_1_1FaceMap_1a8d06ff719be7bc75f8f1362820ae4c4d" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>FaceMap</name></member>
       <member refid="classMR_1_1FaceMap_1a5881716a99854db1af85c349bdadc23f" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>front</name></member>
       <member refid="classMR_1_1FaceMap_1a9535c204484b8e19927f5821fb3cac81" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1FaceMap_1a779fa103f7c5b7041a8329b9693faaaa" prot="private" virt="non-virtual"><scope>MR::FaceMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a34b9370703986c21004984bfc31dfe59" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__FaceMap_1a24eee0052d14f1f1f1d42f0a3e9660b3" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator Const_FaceMap</name></member>
-      <member refid="classMR_1_1FaceMap_1ae15e6d3092529b1097b8d2e5ce6b5afb" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a1d9ee1db9048a2394f16842ca81332bb" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator Const_FaceMap</name></member>
+      <member refid="classMR_1_1FaceMap_1a86a333f19dd37cc5d14aba4ab12f2d2d" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator FaceMap</name></member>
       <member refid="classMR_1_1Const__FaceMap_1a17953370b2e3c17de64e4165420423f7" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__FaceMap_1ac18d7e9a389e5eb320a2c50879b4040e" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1FaceMap_1abdc7722e4456670870c948ab9cdf566c" prot="public" virt="non-virtual"><scope>MR::FaceMap</scope><name>popBack</name></member>

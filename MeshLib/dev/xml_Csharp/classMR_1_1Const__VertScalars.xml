@@ -202,15 +202,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18601" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18601" bodyend="18605"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a65261e9d7b8c1bd7b5175c49890569b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a093b275766ea54aae90bff7ab088c26c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_VertScalars.Const_VertScalars</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; v)</argsstring>
         <name>Const_VertScalars</name>
         <qualifiedname>MR.Const_VertScalars.Const_VertScalars</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertScalars_1aae2d91819546bf0ca11062e0ff7acb61" kindref="member">MR.VertScalars.VertScalars</ref></computeroutput>. </para>
@@ -463,15 +463,15 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1aba966ff39befe14ad0b135ebe418937f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a2242af6ed18a03612e88cdfe249eb57c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
         <definition>static unsafe implicit MR.Const_VertScalars.operator Const_VertScalars</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; v)</argsstring>
         <name>operator Const_VertScalars</name>
         <qualifiedname>MR.Const_VertScalars.operator Const_VertScalars</qualifiedname>
         <param>
           <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
 <para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertScalars_1aae2d91819546bf0ca11062e0ff7acb61" kindref="member">MR.VertScalars.VertScalars</ref></computeroutput>. </para>
@@ -591,15 +591,15 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18760" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1ad8846bb18ca54e35cbc524407253b185" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a33aed6337367c2a47f3f0a39f7e953a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.VertScalars._Underlying *</type>
         <definition>static unsafe MR.VertScalars._Underlying * MR.Const_VertScalars.__MR_VertScalars_Construct_stdVector</definition>
-        <argsstring>(MR.Std.Vector_Float._Underlying *vec)</argsstring>
+        <argsstring>(MR.Std.Vector_Float._Underlying *v)</argsstring>
         <name>__MR_VertScalars_Construct_stdVector</name>
         <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Construct_stdVector</qualifiedname>
         <param>
           <type>MR.Std.Vector_Float._Underlying *</type>
-          <declname>vec</declname>
+          <declname>v</declname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -641,12 +641,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18769" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1a002a824d0cf1a7f6a6d549944c0d52b2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__VertScalars_1ab23e3e3d2f9faee55587ba9fde313651" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Const_Vector_Float._Underlying *</type>
-        <definition>static unsafe MR.Std.Const_Vector_Float._Underlying * MR.Const_VertScalars.__MR_VertScalars_Get_vec_</definition>
+        <definition>static unsafe MR.Std.Const_Vector_Float._Underlying * MR.Const_VertScalars.__MR_VertScalars_Get_vec</definition>
         <argsstring>(MR.Const_VertScalars._Underlying *_this)</argsstring>
-        <name>__MR_VertScalars_Get_vec_</name>
-        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Get_vec_</qualifiedname>
+        <name>__MR_VertScalars_Get_vec</name>
+        <qualifiedname>MR.Const_VertScalars.__MR_VertScalars_Get_vec</qualifiedname>
         <param>
           <type>MR.Const_VertScalars._Underlying *</type>
           <declname>_this</declname>
@@ -974,7 +974,7 @@
       <member refid="classMR_1_1Const__VertScalars_1aa771b59cda1216a4b31f00efb5218c2b" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_capacity</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a227388d6fd50a9d14dd75d45de27fffc" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a3328a607859d066d773f4f60d7045a74" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_fill</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1ad8846bb18ca54e35cbc524407253b185" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_stdVector</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a33aed6337367c2a47f3f0a39f7e953a1" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Construct_stdVector</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a5588dcc3fe43ac7306a9b6bd5707de21" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__VertScalars_1aebf5ae413ec1004857fc450e8c787ea4" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_data</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ae17af94eedb22e91462e74e07208561d" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_DefaultConstruct</name></member>
@@ -982,7 +982,7 @@
       <member refid="classMR_1_1Const__VertScalars_1a3284a80823e8dad983f5e2d4f5f7f0ac" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_empty</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a61e170f722b5297d4cd3914bcef72333" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_endId</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a40b10a7862d1fab9af5fa19f573cfdce" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_front</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1a002a824d0cf1a7f6a6d549944c0d52b2" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Get_vec_</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1ab23e3e3d2f9faee55587ba9fde313651" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_Get_vec</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a2c75c808e70a87191eb1419af8f15e5f" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_heapBytes</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a1d8049b948b0cf6b0dab88851a8dc732" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_index</name></member>
       <member refid="classMR_1_1Const__VertScalars_1acc72051d05c37f33ec1767a477dbcc88" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>__MR_VertScalars_size</name></member>
@@ -997,7 +997,7 @@
       <member refid="classMR_1_1Const__VertScalars_1a174bdce8dadf8bc008d096e04ac60b6b" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ad09e2936a354498f8d5a0ec707be02dd" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1afe58eaa971f9ec18fe87a2e48179d9e2" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>Const_VertScalars</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1a65261e9d7b8c1bd7b5175c49890569b7" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>Const_VertScalars</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a093b275766ea54aae90bff7ab088c26c" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a6fdd275844fa9b01efd672ed2f816268" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>data</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ad0d4660e4f67371e8190314458d8a67f" prot="protected" virt="virtual"><scope>MR::Const_VertScalars</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ae2622e8e1184a02b330cb18295137183" prot="public" virt="virtual"><scope>MR::Const_VertScalars</scope><name>Dispose</name></member>
@@ -1009,7 +1009,7 @@
       <member refid="classMR_1_1Const__VertScalars_1a9b48eaa96c3f3d008bd4bf0e93f7f672" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertScalars_1af54756705aef4dd4650eb8101ea769d6" prot="private" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a46be4373cd1771fa63e7f09aa111654e" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>heapBytes</name></member>
-      <member refid="classMR_1_1Const__VertScalars_1aba966ff39befe14ad0b135ebe418937f" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>operator Const_VertScalars</name></member>
+      <member refid="classMR_1_1Const__VertScalars_1a2242af6ed18a03612e88cdfe249eb57c" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>operator Const_VertScalars</name></member>
       <member refid="classMR_1_1Const__VertScalars_1aef045a133fa5640169bd1a9dfa49f629" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>operator!=</name></member>
       <member refid="classMR_1_1Const__VertScalars_1ab42d21c2fb1f16d14b171371b803e056" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>operator==</name></member>
       <member refid="classMR_1_1Const__VertScalars_1a35dbcc7f8446236d0858de7573661cdb" prot="public" virt="non-virtual"><scope>MR::Const_VertScalars</scope><name>size</name></member>

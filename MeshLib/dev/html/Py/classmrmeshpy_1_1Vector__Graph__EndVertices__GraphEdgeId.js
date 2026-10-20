@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId =
     [ "__init__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a8a47599d06603d6a35e6f5f06bc7a683", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a8307d78a1976abe2c799a5b6201ff7e5", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a84c8d843a9d856176b5e2f2ec8a98904", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a9efece207227a64ed71f0d71b85d3662", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#aa28678ba5ba7d35bf9707130c5cb1cfe", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#aeaad270e9ac4f822c6fe224e565443ec", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a0f29a7ba300270afe1aaca79ac5fd55e", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#acdb367bfb3bbf47c8af5883786f0739c", null ],
@@ -38,6 +38,6 @@ var classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a91dc6ddcda747cb2a4f807970ae011bb", null ],
     [ "size", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#aa34bb3990465ae4e1f681664f53a668f", null ],
     [ "swap", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a2976d205cb678aabb682705574b2b812", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a198dba668c6bb3c900af9e18d873ab4f", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#adb4ef46f1c9c022cfab165a77583a331", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#a213ef9dd3adeba796426e98fce4cfc75", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId.html#ad81edd758e4ecbc4b8952b514435ffe1", null ]
 ];

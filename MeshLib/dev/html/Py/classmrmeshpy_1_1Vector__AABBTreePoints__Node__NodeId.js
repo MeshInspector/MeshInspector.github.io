@@ -3,7 +3,7 @@ var classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId =
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#addf9a6a6d99b2eef9a1a30a613839c29", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a0639c00196a7f6b2a474dd5889e6f0d1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a9a3279455eb4968c92a802a7ba842d04", null ],
-    [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a66b3559e5b1cf81fcb268de98bec81f1", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a7ba9e3f23000a1374fee8341ab5de879", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a409901b90b46ea7c2f8ba556bed37167", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a6ec828fabf09462fde90214fa9716079", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a6ec828fabf09462fde90214fa9716079", null ],
@@ -36,6 +36,6 @@ var classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId =
     [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a451051c9989faf5777efb6d691938515", null ],
     [ "size", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#ad3cd7c054dae89fb428e88239bb9e60a", null ],
     [ "swap", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a648b4c08abeb715f375872c3d7e53f9e", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#ae81f5dc9fb791ecf4c37220393bc1ee1", null ],
-    [ "vec_", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a8386e452e6b112dfbbd8eb8d81ad264a", null ]
+    [ "vec", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#ac9e5ae28d8faaf727bf990d0a7f02848", null ],
+    [ "vec", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a2fe4c70b74b8edc257a90e40d751bf14", null ]
 ];

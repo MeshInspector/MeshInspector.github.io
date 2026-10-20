@@ -3,7 +3,7 @@ var classmrmeshpy_1_1VertColors =
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a5478983981389e73020994c2a883347c", null ],
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a5f3c72101f9dad2bee86a2e2eb57a21f", null ],
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a10a5b42268e9f66a4f5b1aeb51320abf", null ],
-    [ "__init__", "classmrmeshpy_1_1VertColors.html#add9aebe3faf4c232b1dfddf9ee41cdfa", null ],
+    [ "__init__", "classmrmeshpy_1_1VertColors.html#a81772f59dcf35cbb93c6207c4d4424e4", null ],
     [ "__init__", "classmrmeshpy_1_1VertColors.html#a6f6b65fc8ca58ca24974c2a552e58309", null ],
     [ "__eq__", "classmrmeshpy_1_1VertColors.html#af8e8f7a9a68227876dbef5a27c90036c", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828", null ],
@@ -39,6 +39,6 @@ var classmrmeshpy_1_1VertColors =
     [ "shrink_to_fit", "classmrmeshpy_1_1VertColors.html#a13a245839a8cb6c11b5f5b5766ad83b2", null ],
     [ "size", "classmrmeshpy_1_1VertColors.html#a784748201173e131a42e0d5782caab59", null ],
     [ "swap", "classmrmeshpy_1_1VertColors.html#aa505ed33fd7ded1b8191d0c3bd02846a", null ],
-    [ "vec_", "classmrmeshpy_1_1VertColors.html#a0ff6bfa9cec8b338eb1973baf64094cd", null ],
-    [ "vec_", "classmrmeshpy_1_1VertColors.html#a7c1886b0020c2badbf46afd05d29ee17", null ]
+    [ "vec", "classmrmeshpy_1_1VertColors.html#ae7f7025984c4676cac4c3ec20844b2f8", null ],
+    [ "vec", "classmrmeshpy_1_1VertColors.html#a20a54d7767d3277b481ef2543724f7c3", null ]
 ];
