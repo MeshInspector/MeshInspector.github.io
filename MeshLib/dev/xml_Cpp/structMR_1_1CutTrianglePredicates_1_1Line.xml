@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CutTrianglePredicates_1_1Line" kind="struct" language="C++" prot="private">
+    <compoundname>MR::CutTrianglePredicates::Line</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1CutTrianglePredicates_1_1Line_1a6b8ce3dfbd8397fd09ffd0bdd27bda35" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::CutTrianglePredicates::Line::side</definition>
+        <argsstring></argsstring>
+        <name>side</name>
+        <qualifiedname>MR::CutTrianglePredicates::Line::side</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="109" column="13" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1CutTrianglePredicates_1_1Line_1ab0ecfb3b949c4fdd47dff0e6d0bd69de" prot="public" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 3 &gt;</type>
+        <definition>std::array&lt;PreciseVertCoords, 3&gt; MR::CutTrianglePredicates::Line::plane</definition>
+        <argsstring></argsstring>
+        <name>plane</name>
+        <qualifiedname>MR::CutTrianglePredicates::Line::plane</qualifiedname>
+        <briefdescription>
+<para>-1 for a plane </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="110" column="20" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>the line through two points: a side of the triangle, or its crossing with the plane through three vertices </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRCutTrianglePredicates.h" line="107" column="5" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="108" bodyend="111"/>
+    <listofallmembers>
+      <member refid="structMR_1_1CutTrianglePredicates_1_1Line_1ab0ecfb3b949c4fdd47dff0e6d0bd69de" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates::Line</scope><name>plane</name></member>
+      <member refid="structMR_1_1CutTrianglePredicates_1_1Line_1a6b8ce3dfbd8397fd09ffd0bdd27bda35" prot="public" virt="non-virtual"><scope>MR::CutTrianglePredicates::Line</scope><name>side</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

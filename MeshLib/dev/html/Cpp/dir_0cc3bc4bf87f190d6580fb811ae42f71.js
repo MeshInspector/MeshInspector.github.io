@@ -82,6 +82,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRCube.h", "MRCube_8h.html", "MRCube_8h" ],
     [ "MRCurve.h", "MRCurve_8h.html", "MRCurve_8h" ],
     [ "MRCutAroundVertSets.h", "MRCutAroundVertSets_8h.html", "MRCutAroundVertSets_8h" ],
+    [ "MRCutTrianglePredicates.h", "MRCutTrianglePredicates_8h.html", null ],
     [ "MRCylinder.h", "MRCylinder_8h.html", "MRCylinder_8h" ],
     [ "MRCylinder3.h", "MRCylinder3_8h.html", null ],
     [ "MRCylinderApproximator.h", "MRCylinderApproximator_8h.html", null ],

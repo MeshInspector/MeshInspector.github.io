@@ -839,6 +839,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.Vector_QuadraticForm3f_VertId", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId.html", "classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" ],
     [ "mrmeshpy.Vector_RegionId_RegionId", "classmrmeshpy_1_1Vector__RegionId__RegionId.html", "classmrmeshpy_1_1Vector__RegionId__RegionId" ],
     [ "mrmeshpy.Vector_TextureId_TextureId", "classmrmeshpy_1_1Vector__TextureId__TextureId.html", "classmrmeshpy_1_1Vector__TextureId__TextureId" ],
+    [ "mrmeshpy.Vector_Vector2d_VertId", "classmrmeshpy_1_1Vector__Vector2d__VertId.html", "classmrmeshpy_1_1Vector__Vector2d__VertId" ],
     [ "mrmeshpy.Vector_Vector3i_VertId", "classmrmeshpy_1_1Vector__Vector3i__VertId.html", "classmrmeshpy_1_1Vector__Vector3i__VertId" ],
     [ "mrmeshpy.Vector_VertId_EdgeId", "classmrmeshpy_1_1Vector__VertId__EdgeId.html", "classmrmeshpy_1_1Vector__VertId__EdgeId" ],
     [ "mrmeshpy.Vector_VoxelId_FaceId", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html", "classmrmeshpy_1_1Vector__VoxelId__FaceId" ],

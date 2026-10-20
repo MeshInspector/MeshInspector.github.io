@@ -4,6 +4,8 @@
     <compoundname>MathGroup</compoundname>
     <title>Math group</title>
     <innerclass refid="classMR_1_1QuadricApprox" prot="public">MR::QuadricApprox</innerclass>
+    <innerclass refid="structMR_1_1PreciseCutPoint" prot="public">MR::PreciseCutPoint</innerclass>
+    <innerclass refid="classMR_1_1CutTrianglePredicates" prot="public">MR::CutTrianglePredicates</innerclass>
     <innerclass refid="structMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
     <innerclass refid="classMR_1_1Histogram" prot="public">MR::Histogram</innerclass>
     <innerclass refid="structMR_1_1Line" prot="public">MR::Line</innerclass>

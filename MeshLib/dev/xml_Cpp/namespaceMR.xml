@@ -147,6 +147,7 @@
     <innerclass refid="structMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
     <innerclass refid="structMR_1_1CutMeshParameters" prot="public">MR::CutMeshParameters</innerclass>
     <innerclass refid="structMR_1_1CutMeshResult" prot="public">MR::CutMeshResult</innerclass>
+    <innerclass refid="classMR_1_1CutTrianglePredicates" prot="public">MR::CutTrianglePredicates</innerclass>
     <innerclass refid="classMR_1_1Cylinder3" prot="public">MR::Cylinder3</innerclass>
     <innerclass refid="classMR_1_1Cylinder3Approximation" prot="public">MR::Cylinder3Approximation</innerclass>
     <innerclass refid="classMR_1_1CylinderObject" prot="public">MR::CylinderObject</innerclass>
@@ -567,6 +568,7 @@
     <innerclass refid="structMR_1_1PostRescaleListener" prot="public">MR::PostRescaleListener</innerclass>
     <innerclass refid="structMR_1_1PostResizeListener" prot="public">MR::PostResizeListener</innerclass>
     <innerclass refid="classMR_1_1PrecipitationSimulator" prot="public">MR::PrecipitationSimulator</innerclass>
+    <innerclass refid="structMR_1_1PreciseCutPoint" prot="public">MR::PreciseCutPoint</innerclass>
     <innerclass refid="structMR_1_1PreciseVertCoord" prot="public">MR::PreciseVertCoord</innerclass>
     <innerclass refid="structMR_1_1PreciseVertCoords" prot="public">MR::PreciseVertCoords</innerclass>
     <innerclass refid="structMR_1_1PreciseVertCoords2" prot="public">MR::PreciseVertCoords2</innerclass>

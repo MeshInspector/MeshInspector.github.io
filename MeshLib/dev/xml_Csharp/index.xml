@@ -37257,6 +37257,57 @@
     <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a4e3c604c9ed4d8353abded0d92714fd5" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_size</name></member>
     <member refid="classMR_1_1Const__Vector__MRTextureId__MRTextureId_1a81b0a225f7e964382cc8656598ed9588" kind="function"><name>__MR_equal_MR_Vector_MR_TextureId_MR_TextureId</name></member>
   </compound>
+  <compound refid="classMR_1_1Const__Vector__MRVector2d__MRVertId" kind="class"><name>MR::Const_Vector_MRVector2d_MRVertId</name>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a740a313169346edecb57fb84093c7338" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a5dcfedc2ac290bd25ed73ed825b8d7f7" kind="property"><name>this[MR.VertId i]</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a609855262b142947d2ee5c7892f9b5ef" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a8bbce4cda452fa36066b3de202fe73db" kind="function"><name>Dispose</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1acdf36ba9bf8c58efaf51a49e2cf57000" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1aef8e88353ec1a9950d3b122a836bd788" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ac360cb7bbe146b1eb016bd23adb06b08" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a446b843a5d3684e9f2d2fb910304c7b6" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a287659337e18b92d6f3723f74f32b707" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a5ffddab4e551f842d44564c68a278728" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a9286c446b1720d1418df51a64e774cbc" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a5b1825872600b0de5fca98dafb48cdcd" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a39db6ab3243a5ec1e2930443476dfb92" kind="function"><name>empty</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ae45bfe1304e8b360a890a9ee223b3905" kind="function"><name>size</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a186178e8738e0d8ef0709a9361b1d3f7" kind="function"><name>capacity</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a29edc7444da5c2ae1b7ea4c4157f03ed" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1aaa1b43214037f1ffa25d44eee1396dd1" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a51d6fdb421728a84448d06638894dbe7" kind="function"><name>beginId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a5e32a39da14df7a0dd58a4424a3ea74f" kind="function"><name>backId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1afc1e5c1c7395d672c1a622bd0de960ea" kind="function"><name>endId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a3bac6e2f7fb18e2876b4e2c551e7fafd" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ac8ab96e0ab9bdee2c84c7695b9d5f556" kind="function"><name>heapBytes</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a869dde24864a40087758029204af3f8c" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ab675bb344e5b0ffeb1ed4f3ec68e1ece" kind="function"><name>Equals</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a61ad38da3e6e356d2611d3fa231ed5ae" kind="function"><name>~Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a990a1063675d47b3f6fcc8c3f19673d9" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ae0892e621927fc7c46354b7d5a3c8ade" kind="function"><name>Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a7b065fd6361741d522e66f4d4d53262f" kind="function"><name>operator Const_Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1aaa043c724a48e85ba3ebfaad0e12fa1b" kind="function"><name>operator==</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a9a1f8a22accefe1b9ecb9544277f761c" kind="function"><name>operator!=</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a6e43a3601ecf21793baf2d4db7f508fa" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Construct</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a1da7c9c7a599b16967e0893367af3264" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a43b4e4f6a91151a5f1a90539eb8167bc" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Construct_fill</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a5dbd9f26bc740aa1e2f444e6235f1a41" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Construct_stdVector</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a333c81ab2202c6398bbabe35de312536" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1aa3774cb4b40048f300d2566155a61cb7" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Destroy</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a7da95b67ac7666d6067968cf61cc9498" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Get_vec_</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a756262607b37f2e0ccccb55dc1197fa8" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_back</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ad32b4d626b4c3905b6a3e53277e84cf6" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_backId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a4991c9756049b77498b54e5b0f934d3a" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_beginId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a945f250ab830550620d2f4d066dd9e7d" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_capacity</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ac90070c3e744441913b7c52973f7bcfd" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_data</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1abdc9dfe89bbc4e6f568947f87fc63893" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_empty</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a6540a8779f2a4164aa3a488d21d898d9" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_endId</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ac93d30dd447c41f9ff0de69e377c3234" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_front</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a0771adf48d63e893c6cc18d03bc9fa3a" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_heapBytes</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a992efe39366021afda892749bcf69728" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_index</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1ac7855a722606bca45e75ce27f97f3b7c" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_size</name></member>
+    <member refid="classMR_1_1Const__Vector__MRVector2d__MRVertId_1a42638edb5ad7dd88822ae59e7ead62a2" kind="function"><name>__MR_equal_MR_Vector_MR_Vector2d_MR_VertId</name></member>
+  </compound>
   <compound refid="classMR_1_1Const__Vector__MRVector3i__MRVertId" kind="class"><name>MR::Const_Vector_MRVector3i_MRVertId</name>
     <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1af51a9dcca3457dff2ba3e1f498036902" kind="property"><name>vec</name></member>
     <member refid="classMR_1_1Const__Vector__MRVector3i__MRVertId_1a7e4ef0089fd3e61e002713d6de83eb75" kind="property"><name>this[MR.VertId i]</name></member>
@@ -53756,6 +53807,10 @@
     <member refid="classMR_1a8d6dc1786dff68322fc8cf47c9bd37d0" kind="function"><name>begin</name></member>
     <member refid="classMR_1ac40cb69f8d7a383339b7174644338b41" kind="function"><name>end</name></member>
     <member refid="classMR_1a7767e0c6f86aa998a6a0af72aa39dfad" kind="function"><name>end</name></member>
+    <member refid="classMR_1a84195148a1e9679d7ec8c2d5ff872261" kind="function"><name>begin</name></member>
+    <member refid="classMR_1a65124f174d6802f5253d4908b0144932" kind="function"><name>begin</name></member>
+    <member refid="classMR_1ad41b40b343933c1f5143c81382e471a1" kind="function"><name>end</name></member>
+    <member refid="classMR_1a73812020efe956597738ffd6b081c1f0" kind="function"><name>end</name></member>
     <member refid="classMR_1a4a53a83d93710942ddea896a8d23d7f6" kind="function"><name>begin</name></member>
     <member refid="classMR_1af3654393be6f8fdd403ac5cd86d27b3f" kind="function"><name>begin</name></member>
     <member refid="classMR_1a3a8a2dd90f4741c08473c157fc04b464" kind="function"><name>end</name></member>
@@ -55503,6 +55558,7 @@
     <member refid="classMR_1afa3f292748d5c5fd853e1e8ba852a23e" kind="function"><name>__MR_begin_MR_Vector_MR_QuadraticForm3f_MR_VertId_ref</name></member>
     <member refid="classMR_1a0064243da90454500cf7796405bfa808" kind="function"><name>__MR_begin_MR_Vector_MR_RegionId_MR_RegionId_ref</name></member>
     <member refid="classMR_1ad4cdc6ccc6f151394c2deaca7aa3aa3f" kind="function"><name>__MR_begin_MR_Vector_MR_TextureId_MR_TextureId_ref</name></member>
+    <member refid="classMR_1a4d3bb584fbd8b8cad1b46036d68009a6" kind="function"><name>__MR_begin_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
     <member refid="classMR_1ad3eaf194636e79ac3d616f5759b285b6" kind="function"><name>__MR_begin_MR_Vector_MR_Vector3i_MR_VertId_ref</name></member>
     <member refid="classMR_1af3b3688250f2e0ba8e450dfd647b8791" kind="function"><name>__MR_begin_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_ref</name></member>
     <member refid="classMR_1a303c00dbf9f091c40cbf5b9d89c1746d" kind="function"><name>__MR_begin_MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_ref</name></member>
@@ -55580,6 +55636,7 @@
     <member refid="classMR_1a0e86ff6898f269431779952452ca1014" kind="function"><name>__MR_begin_const_MR_Vector_MR_QuadraticForm3f_MR_VertId_ref</name></member>
     <member refid="classMR_1aa0de03d5f46e60f9f11257c48bc1c9c2" kind="function"><name>__MR_begin_const_MR_Vector_MR_RegionId_MR_RegionId_ref</name></member>
     <member refid="classMR_1a31658821c99b38809603211f3a4cc6da" kind="function"><name>__MR_begin_const_MR_Vector_MR_TextureId_MR_TextureId_ref</name></member>
+    <member refid="classMR_1aa33c7f1dfa29d7a2772ade43dfac3062" kind="function"><name>__MR_begin_const_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
     <member refid="classMR_1a63d0a809e86d74e3b2f817f85bfc762e" kind="function"><name>__MR_begin_const_MR_Vector_MR_Vector3i_MR_VertId_ref</name></member>
     <member refid="classMR_1a304f54272e576cb47a9af7f1bffee9ec" kind="function"><name>__MR_begin_const_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_ref</name></member>
     <member refid="classMR_1ad0a5b65a59ea293668480bab92a57edd" kind="function"><name>__MR_begin_const_MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_ref</name></member>
@@ -55657,6 +55714,7 @@
     <member refid="classMR_1a4bc4cf88e894e344bbc2125beb293239" kind="function"><name>__MR_end_MR_Vector_MR_QuadraticForm3f_MR_VertId_ref</name></member>
     <member refid="classMR_1af9ac7b1162db83c48d203ca5e3a2b5b7" kind="function"><name>__MR_end_MR_Vector_MR_RegionId_MR_RegionId_ref</name></member>
     <member refid="classMR_1a5c9b6b111000e6a4b553deecf72892c2" kind="function"><name>__MR_end_MR_Vector_MR_TextureId_MR_TextureId_ref</name></member>
+    <member refid="classMR_1ab75167afaab2b207c7dd6a1d17cd2f08" kind="function"><name>__MR_end_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
     <member refid="classMR_1a32fea60181d4a2f8ce27962307848929" kind="function"><name>__MR_end_MR_Vector_MR_Vector3i_MR_VertId_ref</name></member>
     <member refid="classMR_1aa902540531f81822ab6e290207a1b753" kind="function"><name>__MR_end_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_ref</name></member>
     <member refid="classMR_1ac28a5a1bbd3503e4169807452510b20a" kind="function"><name>__MR_end_MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_ref</name></member>
@@ -55734,6 +55792,7 @@
     <member refid="classMR_1a8824374c91ddde0d11a4bb68bec50c17" kind="function"><name>__MR_end_const_MR_Vector_MR_QuadraticForm3f_MR_VertId_ref</name></member>
     <member refid="classMR_1aa1d8362432cfb8e4f499c16527260ba4" kind="function"><name>__MR_end_const_MR_Vector_MR_RegionId_MR_RegionId_ref</name></member>
     <member refid="classMR_1a27d4279df87ab3eb6003bec6e79b6d70" kind="function"><name>__MR_end_const_MR_Vector_MR_TextureId_MR_TextureId_ref</name></member>
+    <member refid="classMR_1a992c266578a1126ff0ae923467875970" kind="function"><name>__MR_end_const_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
     <member refid="classMR_1aa2434368904163ab5f3690e225bfc7f7" kind="function"><name>__MR_end_const_MR_Vector_MR_Vector3i_MR_VertId_ref</name></member>
     <member refid="classMR_1a6f20c6f4db3357cc2c4c13fa1eb517f3" kind="function"><name>__MR_end_const_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_ref</name></member>
     <member refid="classMR_1a38fa169b17ffbc3392324c1e9f0bfff4" kind="function"><name>__MR_end_const_MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_ref</name></member>
@@ -68877,6 +68936,66 @@
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1ada593d88bfd362c46711b5431f9dacff" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_resize_2</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a48c38be181656f39880b739beb930c39" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a1f7e90f8227fc1a0fdf264ed2b734df6" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_swap</name></member>
+  </compound>
+  <compound refid="classMR_1_1Vector__MRVector2d__MRVertId" kind="class"><name>MR::Vector_MRVector2d_MRVertId</name>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a909d9019b3b46ba1a6b83e43735d3bb3" kind="property"><name>vec</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a640bab7744154dee53eb7587a817d7bd" kind="property"><name>this[MR.VertId i]</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1abf9c37ae15d2f3c211963675055e01ff" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a4aeb53c122f656defd9f5625a912a825" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1add6b88b5911b9a48d6459f24f0c2c06a" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1acafeb0c0508d1e2c33ef5ed5da781447" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1af46b0c414e3f5de6b76ee7b2735d5ecf" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a39f5befc278ce93bd2a1806b0b13df11" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a8f6f06f62eaae74c2a9e594914c40df7" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a72c13fe244320a182a6b169a530bda9f" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1abc63a691316aece16ee534d05e551ece" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a3c3af4ccf2f71bc342e6504732acda2d" kind="function"><name>clear</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a8cd018362b4e99d405fcaa27d408d909" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1aa772782edc342fd5980f20106c37ddf3" kind="function"><name>resize</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a6edb5c8a6712f56ba390a99676c1d105" kind="function"><name>resizeNoInit</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1acdb6bb303463c70dea515f43577104eb" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a7a33cb76fa0c7cb08005abd4b52f33ba" kind="function"><name>shrinkToFit</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a36e7e701dc7ac78f8cb0212d42eca03d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a01d2f29ceff1e1308c23e52a56765199" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a71e98fd75b4990443feb28b9437eeb8d" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1afe7f1fbd62666aa4819669b9fca5ee30" kind="function"><name>autoResizeSet</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a3b37aa4ba89b88b0844895d7089fd12d" kind="function"><name>autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a29c5cad9f82eb5ea8a180491ca26a34c" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a0dda0037a5173f51bf4767a483f06d48" kind="function"><name>pushBack</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a2b8a24bc8de0ba3e67366e62999d5e11" kind="function"><name>popBack</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a6fc075925eb934d0999c4135c6da63e4" kind="function"><name>front</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1add2b52d7eee8575755874098262b807b" kind="function"><name>back</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1ac6ec90621c327c3fa96846d4ab1f2b25" kind="function"><name>data</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a4edafa1fcbcce608724618fee6c80ee0" kind="function"><name>swap</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1aa1919dbeafc82508be6d028a929d6233" kind="function"><name>GetEnumerator</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a3fe13731b32ed24ea8a28b861c1de3aa" kind="function"><name>Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1af1d8e9c9da8becd76aca110b908e586c" kind="function"><name>operator Vector_MRVector2d_MRVertId</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a9893429e03bebd62ebcd14822ce5ff31" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_AssignFromAnother</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a62cb7caa23377ff8d2648ad505a4208f" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Construct</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a7e108f3f9bc6d42e611685bb505423e9" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_ConstructFromAnother</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a03e8221f6bb1944d8e3ee738fd8bedb9" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Construct_fill</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1af8de009977bec719a2203030708684d8" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_Construct_stdVector</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a7bcd715616a2baa2caa2e0ff736a2f13" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_DefaultConstruct</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a97322eebdb69daa28f2e95bf10b10fe1" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_GetMutable_vec_</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a1645df3135b71cba65dbe1afbe5a5e17" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_autoResizeAt</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a45f4f7867e0f724accafc4b21a13c69d" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_autoResizeSet_2</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a194db75298ca21b4d984227847119dd6" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_autoResizeSet_3</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a09127cc8d60aa96bac556e48bccb1c37" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_back_mut</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a219e9c3072a5449ae3b618ce00aa920f" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_clear</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a8db4d02c154515de3098daf2f056178a" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_data_mut</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1aa041d9e994214c22323ba17bf58e599d" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_front_mut</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a944cb1ec4b6398a91deb6e7605e8a3c6" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_index_mut</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a97163ed807c767c5d9ed852c81eff91f" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_pop_back</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1ab512eff3b3d7303826d5bd7828303499" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_push_back_MR_Vector2d_rvalue_ref</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a85786819fc91c5dfd985fa2cb3312bf4" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_push_back_const_MR_Vector2d_ref</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a625c6ea78975bd4e955a28f890029aaa" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1adc3730464e3cceff6e77afa2e25576d1" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_resizeNoInit</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1aa14cc591c7890f7ac14fe25847547c2f" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_resizeWithReserve_1</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1adb21b74177e9cf1d959eb6ec18cef83c" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_resizeWithReserve_2</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a3e9805501f25bea9484c07a7f2a09224" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_resize_1</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1af802746e11156b2300629bda39d4ef65" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1ad22c139b354271ffe31306d813a3677a" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_shrink_to_fit</name></member>
+    <member refid="classMR_1_1Vector__MRVector2d__MRVertId_1a1fb6873582aa57bb42610eb55b40045a" kind="function"><name>__MR_Vector_MR_Vector2d_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVector3i__MRVertId" kind="class"><name>MR::Vector_MRVector3i_MRVertId</name>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a959884020854cb8403339711b72b5e03" kind="property"><name>vec</name></member>

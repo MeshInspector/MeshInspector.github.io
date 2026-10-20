@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PreciseCutPoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PreciseCutPoint</compoundname>
+    <includes refid="MRCutTrianglePredicates_8h" local="no">MRMesh/MRCutTrianglePredicates.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PreciseCutPoint_1a00d67e208d245c5ddd9f144d0bd78590" prot="public" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 2 &gt;</type>
+        <definition>std::array&lt;PreciseVertCoords, 2&gt; MR::PreciseCutPoint::seg</definition>
+        <argsstring></argsstring>
+        <name>seg</name>
+        <qualifiedname>MR::PreciseCutPoint::seg</qualifiedname>
+        <briefdescription>
+<para>the vertex in seg[0] if seg[1].id is invalid; otherwise the ends of the segment </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="23" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PreciseCutPoint_1a8a92fbd8e3905e3e715622593fd712c9" prot="public" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="structMR_1_1PreciseVertCoords" kindref="compound">PreciseVertCoords</ref>, 3 &gt;</type>
+        <definition>std::array&lt;PreciseVertCoords, 3&gt; MR::PreciseCutPoint::tri</definition>
+        <argsstring></argsstring>
+        <name>tri</name>
+        <qualifiedname>MR::PreciseCutPoint::tri</qualifiedname>
+        <briefdescription>
+<para>the triangle whose plane the segment crosses; not used for a vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="26" column="16" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PreciseCutPoint_1a38110f3393d6264ef6ef771ef5c9f01b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::PreciseCutPoint::isVertex</definition>
+        <argsstring>() const</argsstring>
+        <name>isVertex</name>
+        <qualifiedname>MR::PreciseCutPoint::isVertex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRCutTrianglePredicates.h" line="28" column="11" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a point inside a triangle of a mesh cut along its intersections with other triangles, defined by mesh vertices in the exact coordinates that the boolean&apos;s predicates take, with the same ids: either a vertex, or the point where a segment crosses the plane of a triangle (an edge-triangle intersection found by <ref refid="group__MathGroup_1ga4b162fc9a97cef14dfdf9a7dfc6bf34f" kindref="member">doTriangleSegmentIntersect</ref>); the coordinates are below 2^30 by absolute value, as <ref refid="group__MathGroup_1ga1d477d2bd0d97e5a7ee1a9b3e62d06cc" kindref="member">getToIntConverter</ref> makes them, which the widths of the exact integers and the error bounds of the predicates rely on, and an id stands for one vertex with the same coordinates in every point </para>
+    </detaileddescription>
+    <location file="MRMesh/MRCutTrianglePredicates.h" line="20" column="1" bodyfile="MRMesh/MRCutTrianglePredicates.h" bodystart="21" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PreciseCutPoint_1a38110f3393d6264ef6ef771ef5c9f01b" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>isVertex</name></member>
+      <member refid="structMR_1_1PreciseCutPoint_1a00d67e208d245c5ddd9f144d0bd78590" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>seg</name></member>
+      <member refid="structMR_1_1PreciseCutPoint_1a8a92fbd8e3905e3e715622593fd712c9" prot="public" virt="non-virtual"><scope>MR::PreciseCutPoint</scope><name>tri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

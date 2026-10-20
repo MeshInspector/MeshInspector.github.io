@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"classMR_1_1BitSet.html#a0427884dece1dde1fa25caaa7b2aaba9":[9,0,0,3,3,2],
+"classMR_1_1BitSet.html#a0966c6f93f6bcb45363b0a0faeb6372f":[9,0,0,3,3,47],
 "classMR_1_1BitSet.html#a112ab209d0b98ba80237157538fe4f30":[9,0,0,3,3,6],
 "classMR_1_1BitSet.html#a247ac2e0767fad340477836233e87cb8":[9,0,0,3,3,44],
 "classMR_1_1BitSet.html#a2681ea331742547c197cd373884d917c":[9,0,0,3,3,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "classMR_1_1ChangeTextureAction.html#add3319a36aa18e770733fef0c61d2f9d":[9,0,0,4,6,4],
 "classMR_1_1ChangeValue.html":[9,0,0,4,33],
 "classMR_1_1ChangeValue.html":[9,0,0,20,169],
-"classMR_1_1ChangeVertsColorMapAction.html":[9,0,0,4,34],
-"classMR_1_1ChangeVertsColorMapAction.html":[9,0,0,20,170],
-"classMR_1_1ChangeVisualizePropertyAction.html":[9,0,0,4,14]
+"classMR_1_1ChangeVertsColorMapAction.html":[9,0,0,4,34]
 };

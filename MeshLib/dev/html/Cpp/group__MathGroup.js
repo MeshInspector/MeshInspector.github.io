@@ -19,6 +19,26 @@ var group__MathGroup =
       [ "addPoint", "group__GeneralGroup.html#ga4c491c30846d6d6051ac64bc66374e9f", null ],
       [ "calcBestCoefficients", "group__GeneralGroup.html#gab4c7110c71267480e00a1c55e9d226dc", null ]
     ] ],
+    [ "MR::PreciseCutPoint", "structMR_1_1PreciseCutPoint.html", [
+      [ "isVertex", "structMR_1_1PreciseCutPoint.html#a38110f3393d6264ef6ef771ef5c9f01b", null ],
+      [ "seg", "structMR_1_1PreciseCutPoint.html#a00d67e208d245c5ddd9f144d0bd78590", null ],
+      [ "tri", "structMR_1_1PreciseCutPoint.html#a8a92fbd8e3905e3e715622593fd712c9", null ]
+    ] ],
+    [ "MR::CutTrianglePredicates", "classMR_1_1CutTrianglePredicates.html", [
+      [ "CutTrianglePredicates", "classMR_1_1CutTrianglePredicates.html#ae4677716e42b887e7fec0ac0a6cb4715", null ],
+      [ "CutTrianglePredicates", "classMR_1_1CutTrianglePredicates.html#a4500970485aa3bf3e731668027af09ce", null ],
+      [ "~CutTrianglePredicates", "classMR_1_1CutTrianglePredicates.html#ae21cdea75229d206fa3a99d2924ae072", null ],
+      [ "addPoint", "classMR_1_1CutTrianglePredicates.html#a661ec89d00d2e2dca4b101ffef4f1987", null ],
+      [ "ccw", "classMR_1_1CutTrianglePredicates.html#a80c7ddb711b4217de9ca3e3ad1cf9534", null ],
+      [ "ccwByLines", "classMR_1_1CutTrianglePredicates.html#a336e7ace670af86d9a104113b19559f1", null ],
+      [ "ccwByPerturbation", "classMR_1_1CutTrianglePredicates.html#acb61f77fdfe6efd12ce218a3c49e8a67", null ],
+      [ "ccwFromBehind", "classMR_1_1CutTrianglePredicates.html#aa3c3493c621e80218c80dd01775485eb", null ],
+      [ "directionByPerturbation", "classMR_1_1CutTrianglePredicates.html#a28e0d102798c6d4261575febd294a07f", null ],
+      [ "failed", "classMR_1_1CutTrianglePredicates.html#a53146af4ffe7ef0fc5d3ad4cd26a1c17", null ],
+      [ "less", "classMR_1_1CutTrianglePredicates.html#a8940fbe891dac60e2b76367ed51541e7", null ],
+      [ "operator=", "classMR_1_1CutTrianglePredicates.html#ac1fa9abfc24eae4a86033e3998dbca54", null ],
+      [ "reset", "classMR_1_1CutTrianglePredicates.html#aace7f230a0e5dd3c987f3c8276145254", null ]
+    ] ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", [
       [ "DenseBox", "group__GeneralGroup.html#ga2eeee7c69c1cc455568a2ab69d3a179b", null ],
       [ "DenseBox", "group__GeneralGroup.html#ga4585db9e756fe2049a698a2845f731d4", null ],

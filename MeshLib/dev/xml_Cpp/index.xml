@@ -2302,6 +2302,42 @@
     <member refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" kind="variable"><name>resultCut</name></member>
     <member refid="group__GeneralGroup_1gaca01891e95be4a6f3cb7168e88a33aac" kind="variable"><name>fbsWithContourIntersections</name></member>
   </compound>
+  <compound refid="classMR_1_1CutTrianglePredicates" kind="class"><name>MR::CutTrianglePredicates</name>
+    <member refid="classMR_1_1CutTrianglePredicates_1a2c322a548c8ced0d4e7930a1f897ab00" kind="variable"><name>tri_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a9dadc77ed7d98116db4f85699f69d24b" kind="variable"><name>normal_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a6f976b378c3d5ad7d613671990698dd3" kind="variable"><name>kx_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a3ba82086109c579524fd1c0499cc4b19" kind="variable"><name>ky_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a5fdb70a8801938196db397b5a8694242" kind="variable"><name>sideDirs_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a35839ccb3c9ce2124171a877ef2f44c0" kind="variable"><name>approx_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1abf707f589f4e28137a5a6b85e9de58d8" kind="variable"><name>impl_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1ae4677716e42b887e7fec0ac0a6cb4715" kind="function"><name>CutTrianglePredicates</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a4500970485aa3bf3e731668027af09ce" kind="function"><name>CutTrianglePredicates</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1ac1fa9abfc24eae4a86033e3998dbca54" kind="function"><name>operator=</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1ae21cdea75229d206fa3a99d2924ae072" kind="function"><name>~CutTrianglePredicates</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1aace7f230a0e5dd3c987f3c8276145254" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a661ec89d00d2e2dca4b101ffef4f1987" kind="function"><name>addPoint</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a8940fbe891dac60e2b76367ed51541e7" kind="function"><name>less</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a28e0d102798c6d4261575febd294a07f" kind="function"><name>directionByPerturbation</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a80c7ddb711b4217de9ca3e3ad1cf9534" kind="function"><name>ccw</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a336e7ace670af86d9a104113b19559f1" kind="function"><name>ccwByLines</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1acb61f77fdfe6efd12ce218a3c49e8a67" kind="function"><name>ccwByPerturbation</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1aa3c3493c621e80218c80dd01775485eb" kind="function"><name>ccwFromBehind</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a53146af4ffe7ef0fc5d3ad4cd26a1c17" kind="function"><name>failed</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a6627543626b962e434fc7421e2ebd06a" kind="function"><name>compareExact_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a046b29e35fb5cd03ca8cf4d2e0596612" kind="function"><name>exactOrient_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a20878b1d2f513b6c65b7c0690d09bbc9" kind="function"><name>ccwExact_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a5d36399b67d1f5918c92da114f61f2dc" kind="function"><name>orientSlow_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1abc2e03be3e9fe0a1a1d977f66ee86c1f" kind="function"><name>ccwBySides_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a890a67ad3e30c437a49805904d590ac1" kind="function"><name>ccwByPlanes_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a892bf5614d5b8c538b3181aae932cbeb" kind="function"><name>coincidentDirection_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1aaf0b3280796c0f1d582354d4738af55e" kind="function"><name>directionFromSide_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1ac099ad89ca3fcfc8aa3de5492910f259" kind="function"><name>perturbedDirection_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a7365327a8110af4d2abcdf5109156920" kind="function"><name>commonLine_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1ad7a691e387c80fb8493686f0e562aef9" kind="function"><name>lineDirection_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a6bae63b9eb37c3b2e1cfa36602121512" kind="function"><name>along_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a64b549d44448b73f008c1ca0c9737e74" kind="function"><name>sideOfPlane_</name></member>
+    <member refid="classMR_1_1CutTrianglePredicates_1a5204d1e237133971341ed506a9c3ed27" kind="function"><name>fail_</name></member>
+  </compound>
   <compound refid="classMR_1_1Cylinder3" kind="class"><name>MR::Cylinder3</name>
     <member refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" kind="variable"><name>mainAxis</name></member>
     <member refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" kind="variable"><name>radius</name></member>
@@ -5066,6 +5102,10 @@
     <member refid="group__GeneralGroup_1ga9177fd315926acedee36e316311837f8" kind="function"><name>LengthTask</name></member>
     <member refid="group__GeneralGroup_1ga4803f998a8c3bd9890bd25a3e0ab1330" kind="function"><name>renderPass</name></member>
     <member refid="group__GeneralGroup_1gaecdc07268d9f4f0a234bf6e2a7fb5a29" kind="function"><name>onClick</name></member>
+  </compound>
+  <compound refid="structMR_1_1CutTrianglePredicates_1_1Line" kind="struct"><name>MR::CutTrianglePredicates::Line</name>
+    <member refid="structMR_1_1CutTrianglePredicates_1_1Line_1a6b8ce3dfbd8397fd09ffd0bdd27bda35" kind="variable"><name>side</name></member>
+    <member refid="structMR_1_1CutTrianglePredicates_1_1Line_1ab0ecfb3b949c4fdd47dff0e6d0bd69de" kind="variable"><name>plane</name></member>
   </compound>
   <compound refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" kind="struct"><name>MR::ImGuiMeasurementIndicators::Text::Line</name>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1acd9bfcf665d2d28338f5b05410ff74ac" kind="variable"><name>elems</name></member>
@@ -8987,6 +9027,11 @@
     <member refid="group__GeneralGroup_1ga40d83f299265b6f68e4560c1841eaeca" kind="variable"><name>heap_</name></member>
     <member refid="group__GeneralGroup_1gad0a5cd2183eefe7bfc3f29122f2b607d" kind="function"><name>PrecipitationSimulator</name></member>
     <member refid="group__GeneralGroup_1ga0166c65bc017f235deff3ba32b0bdae4" kind="function"><name>simulateOne</name></member>
+  </compound>
+  <compound refid="structMR_1_1PreciseCutPoint" kind="struct"><name>MR::PreciseCutPoint</name>
+    <member refid="structMR_1_1PreciseCutPoint_1a00d67e208d245c5ddd9f144d0bd78590" kind="variable"><name>seg</name></member>
+    <member refid="structMR_1_1PreciseCutPoint_1a8a92fbd8e3905e3e715622593fd712c9" kind="variable"><name>tri</name></member>
+    <member refid="structMR_1_1PreciseCutPoint_1a38110f3393d6264ef6ef771ef5c9f01b" kind="function"><name>isVertex</name></member>
   </compound>
   <compound refid="structMR_1_1PreciseVertCoord" kind="struct"><name>MR::PreciseVertCoord</name>
     <member refid="group__GeneralGroup_1ga06f1bfc70a05a9294afb6050626e61dd" kind="variable"><name>id</name></member>
@@ -17834,6 +17879,8 @@
   <compound refid="MRCurve_8h" kind="file"><name>MRCurve.h</name>
   </compound>
   <compound refid="MRCutAroundVertSets_8h" kind="file"><name>MRCutAroundVertSets.h</name>
+  </compound>
+  <compound refid="MRCutTrianglePredicates_8h" kind="file"><name>MRCutTrianglePredicates.h</name>
   </compound>
   <compound refid="MRCylinder_8h" kind="file"><name>MRCylinder.h</name>
   </compound>
