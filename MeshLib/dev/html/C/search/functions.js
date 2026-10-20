@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['unmove_0',['unmove',['../namespacemrbindc__details.html#a08eae2e7f48d8964ac6ab9300a83f529',1,'mrbindc_details']]],
+  ['classargguard_0',['ClassArgGuard',['../structmrbindc__details_1_1ClassArgGuard.html#afa5d7378d9dabc28f87b604aa330b75f',1,'mrbindc_details::ClassArgGuard::ClassArgGuard(T *new_ptr, MR_PassBy &amp;pass_by)'],['../structmrbindc__details_1_1ClassArgGuard.html#a0dad56557fcc1e4c7b63a06538832113',1,'mrbindc_details::ClassArgGuard::ClassArgGuard(const ClassArgGuard &amp;)=delete']]],
+  ['throwwithexceptionsdisabled_0',['ThrowWithExceptionsDisabled',['../namespacemrbindc__details.html#ad098cb71299a513ace3dd1954f79195d',1,'mrbindc_details']]],
+  ['_7eclassargguard_0',['~ClassArgGuard',['../structmrbindc__details_1_1ClassArgGuard.html#a6afe2f1db73f3b21883847a8367c0da4',1,'mrbindc_details::ClassArgGuard']]],
+  ['operator_3d_0',['operator=',['../structmrbindc__details_1_1ClassArgGuard.html#a6da95f382b936a2aba16ee1e67cd1158',1,'mrbindc_details::ClassArgGuard']]],
   ['mr_5faabbtree_5faddsplitfaces_0',['MR_AABBTree_addSplitFaces',['../MRAABBTree_8h.html#aaa0ce7a5eae63e7a7b55ffa9ab3a3729',1,'MRAABBTree.h']]],
   ['mr_5faabbtree_5fassignfromanother_1',['MR_AABBTree_AssignFromAnother',['../MRAABBTree_8h.html#a9d35efe2cf99e373340a280ae2fa3120',1,'MRAABBTree.h']]],
   ['mr_5faabbtree_5fconstruct_2',['MR_AABBTree_Construct',['../MRAABBTree_8h.html#a347987182db574d0e48cb2b0544115db',1,'MRAABBTree.h']]],
@@ -49040,9 +49045,4 @@ var searchData=
   ['mr_5fzlibparams_5foffsetmutableptr_49037',['MR_ZlibParams_OffsetMutablePtr',['../MRZlib_8h.html#a171d26fe4cf375e60ce93842a3e2cc3e',1,'MRZlib.h']]],
   ['mr_5fzlibparams_5foffsetptr_49038',['MR_ZlibParams_OffsetPtr',['../MRZlib_8h.html#ab130b16e26b6f9b3235cb02440ea2459',1,'MRZlib.h']]],
   ['mr_5fzlibparams_5fset_5frawdeflate_49039',['MR_ZlibParams_Set_rawDeflate',['../MRZlib_8h.html#a046122ef4059f33e4fb1f1790b4901b7',1,'MRZlib.h']]],
-  ['classargguard_0',['ClassArgGuard',['../structmrbindc__details_1_1ClassArgGuard.html#afa5d7378d9dabc28f87b604aa330b75f',1,'mrbindc_details::ClassArgGuard::ClassArgGuard(T *new_ptr, MR_PassBy &amp;pass_by)'],['../structmrbindc__details_1_1ClassArgGuard.html#a0dad56557fcc1e4c7b63a06538832113',1,'mrbindc_details::ClassArgGuard::ClassArgGuard(const ClassArgGuard &amp;)=delete']]],
-  ['operator_3d_0',['operator=',['../structmrbindc__details_1_1ClassArgGuard.html#a6da95f382b936a2aba16ee1e67cd1158',1,'mrbindc_details::ClassArgGuard']]],
-  ['throwwithexceptionsdisabled_0',['ThrowWithExceptionsDisabled',['../namespacemrbindc__details.html#ad098cb71299a513ace3dd1954f79195d',1,'mrbindc_details']]],
-  ['_7eclassargguard_0',['~ClassArgGuard',['../structmrbindc__details_1_1ClassArgGuard.html#a6afe2f1db73f3b21883847a8367c0da4',1,'mrbindc_details::ClassArgGuard']]],
-  ['unmove_0',['unmove',['../namespacemrbindc__details.html#a08eae2e7f48d8964ac6ab9300a83f529',1,'mrbindc_details']]],
 ];
