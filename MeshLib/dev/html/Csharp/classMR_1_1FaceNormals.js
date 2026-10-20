@@ -26,6 +26,7 @@ var classMR_1_1FaceNormals =
     [ "resizeNoInit", "classMR_1_1FaceNormals.html#a2662a1f79489f4a5575c38cc8214f8db", null ],
     [ "resizeWithReserve", "classMR_1_1FaceNormals.html#adbb5c0a8a192d2e029e6b05011a96bda", null ],
     [ "resizeWithReserve", "classMR_1_1FaceNormals.html#a069cef08ff253e31a4c0194dcefb43c1", null ],
+    [ "shrinkToFit", "classMR_1_1FaceNormals.html#a192f5bab762506d2c6c8353760dc35d7", null ],
     [ "swap", "classMR_1_1FaceNormals.html#aff33ee6dd5cc98797edcf672d504e14a", null ],
     [ "this[MR.FaceId i]", "classMR_1_1FaceNormals.html#a6cf5c7c0ff6ea6aef4633e766dba29d0", null ],
     [ "vec", "classMR_1_1FaceNormals.html#a3c96c1b125d2ac76c74f7af297629b4f", null ]

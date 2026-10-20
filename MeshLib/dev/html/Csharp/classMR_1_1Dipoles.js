@@ -25,6 +25,7 @@ var classMR_1_1Dipoles =
     [ "resize", "classMR_1_1Dipoles.html#a874c9b9c33cb7e39ca573e4406a40410", null ],
     [ "resizeWithReserve", "classMR_1_1Dipoles.html#acd0b6e06eb782185d6bdafaf2f947032", null ],
     [ "resizeWithReserve", "classMR_1_1Dipoles.html#a831450986d41548da7221d20aad56b1b", null ],
+    [ "shrinkToFit", "classMR_1_1Dipoles.html#a80f616b1aa39fbe43121b663091ca49a", null ],
     [ "swap", "classMR_1_1Dipoles.html#a38268393014d99eb7a40aa803c958e66", null ],
     [ "this[MR.NodeId i]", "classMR_1_1Dipoles.html#a3c1c8b1bd6cc0a4385d92839673db507", null ],
     [ "vec", "classMR_1_1Dipoles.html#a8996143184fcc7a4f4a581773b4eb19e", null ]

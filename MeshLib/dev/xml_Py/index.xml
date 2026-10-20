@@ -4781,6 +4781,7 @@
     <member refid="classmrmeshpy_1_1Dipoles_1a5a0e9e01592bb2294a938ed87e1fbfb0" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Dipoles_1ac821eca504cdc71c7daca6538e562c19" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Dipoles_1ab60230a73cb4a21ffa4d8ce89d13b62f" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Dipoles_1ac22a2f20cead20a08b8feca8b0d481c0" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Dipoles_1aa86c47fb593f495d63ac3015f80fa8fb" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Dipoles_1ad1d003d5f7724221d603c1edb8505536" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" kind="function"><name>vec_</name></member>
@@ -5375,6 +5376,7 @@
     <member refid="classmrmeshpy_1_1EdgeColors_1ac5c4d5e5d5764ce210ebf67ed17a7443" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1EdgeColors_1a12957a79e186b335b8dc8d6ea7430336" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1EdgeColors_1a57d0936a2de213d96c26b2ffb2268042" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1EdgeColors_1a25e3987808b45ea9b4cad248d29c6e58" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1EdgeColors_1aabca0386b6e822ce10751092a8f61519" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1EdgeColors_1aeeca46ebf234b2b46f4fd83185f4cc38" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1EdgeColors_1a05d543fb62894c3128bd00c6a9524502" kind="function"><name>vec_</name></member>
@@ -5472,6 +5474,7 @@
     <member refid="classmrmeshpy_1_1EdgeMap_1a05fd8dd0a8e2a599283e9a0e08ea0479" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1EdgeMap_1ae350c8cb0818af2e86fad2ef45ae6efc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1EdgeMap_1aad05e9d7dc829dcdec80f31f48bd4bcc" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1EdgeMap_1ad72979e674ac1f7deb96ca97d8ccabc8" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1EdgeMap_1ac95cf682db102dacca84e3f46327ea5b" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1EdgeMap_1a379670e2fa3f9875c0f2682192656764" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1EdgeMap_1a4514f82d88e6c954ba50f893d1b2c90e" kind="function"><name>vec_</name></member>
@@ -5622,6 +5625,7 @@
     <member refid="classmrmeshpy_1_1Edges_1a90e278ce7e7004079d9c839dac033851" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Edges_1a6b1c16cd7d1be937690ce07180db7538" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Edges_1a823882570f074b17bcc5684b62c572a1" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Edges_1a3d30ed668000cbd40ed5d8fc61d16e10" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Edges_1a3aac22af05f6074074ea0fe894e47d6c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Edges_1a98a8b9af2718c53ca87d9caec8976954" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Edges_1ad5d0fc6bc7766d78bde9837cff108f6b" kind="function"><name>vec_</name></member>
@@ -5668,6 +5672,7 @@
     <member refid="classmrmeshpy_1_1EdgeScalars_1ad62f042c1d062f05027ab8da7013d633" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1EdgeScalars_1ab2fbd6587eb3d7351faeba6d2cd3ebdd" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1EdgeScalars_1a01e4bcee02dd5559e386cd4e23491c62" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1EdgeScalars_1a5ad5ad069d3a45ca9148bcb537180133" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1EdgeScalars_1afc02e577b3f592073f9a8b0f90153188" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1EdgeScalars_1ac53431e824c55e76b6ae13fddd2235d4" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1EdgeScalars_1afbd95f5913bec2b08a41a72f977e7a4e" kind="function"><name>vec_</name></member>
@@ -6036,6 +6041,7 @@
     <member refid="classmrmeshpy_1_1Face2RegionMap_1a7867592a19f1c21c8a5301344207b7eb" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Face2RegionMap_1a7200f9f7529a239786f62e283e53e8d7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Face2RegionMap_1ae76ce1dc1d9acd1a74657e1542bdf824" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Face2RegionMap_1ae0279d936428ff5a03edf13958a5e0e4" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Face2RegionMap_1a43694d26d3db91fa44b0cd6b2b1c8d86" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Face2RegionMap_1a6fd5591d36f54e37cd80c0241448f764" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Face2RegionMap_1a04d2148ba11784f24ce21307816c0acc" kind="function"><name>vec_</name></member>
@@ -6163,6 +6169,7 @@
     <member refid="classmrmeshpy_1_1FaceColors_1abf5150812bf76905f7da1a3d01b324a4" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1FaceColors_1ae4708c977e07b865717e80ef81cd6991" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1FaceColors_1a3093a01b9873248a2b896d22fef65607" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1FaceColors_1a7bd879be11d5197d1c99b2368a1432f1" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1FaceColors_1aedfe4f1489ad3c5e490d13f0eb3e99ee" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1FaceColors_1a210a796ef2b29d33af8f0b63e96aca98" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1FaceColors_1a55fd676e466d5025c6f4b914378d5cb1" kind="function"><name>vec_</name></member>
@@ -6287,6 +6294,7 @@
     <member refid="classmrmeshpy_1_1FaceMap_1a25d39f0cc043dc43a0e30e1093eaa828" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1FaceMap_1a38642430f2c6ebe325a3e14bebcd1316" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1FaceMap_1a1d8aa78c01d069c864463655fc612a3c" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1FaceMap_1a5acc31bac35ec9afc9eaa0a3029ead6c" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1FaceMap_1ac4ba9d3206dbf20dd6940cdf78215482" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1FaceMap_1a53db47c69385366a4119c34ad8f2991d" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1FaceMap_1afc4a1c5e8f1c69a27fb13f15a807af05" kind="function"><name>vec</name></member>
@@ -6336,6 +6344,7 @@
     <member refid="classmrmeshpy_1_1FaceNormals_1add8af2783aa290a0d3b05cef37958d22" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1FaceNormals_1abbf5898985d07890576b69d7a39f9067" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1FaceNormals_1a997b11fe571f79bad6e4d1bc98395a8d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1FaceNormals_1a3c38c1af221615b7407889050a11f52a" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1FaceNormals_1a33410fb392161ce552ff99207aa42dc7" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1FaceNormals_1aee2125e9f9d592e1d0aaae0c2ba41c65" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1FaceNormals_1ac5aa8e147ef14bba573f05a79218009b" kind="function"><name>vec</name></member>
@@ -6384,6 +6393,7 @@
     <member refid="classmrmeshpy_1_1FaceScalars_1a7f0e20e7a2e866ba131eb775cebff1ab" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1FaceScalars_1a64bdb03039b59705877bfd3bb55674da" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1FaceScalars_1ad285892ce2b434356befe25bc8591dc1" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1FaceScalars_1a8dd112359c20581685635cbe579e72ad" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1FaceScalars_1a7536c5ded0a8fc6bd23932eba0d5c46c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1FaceScalars_1aa28e2e18463c4ee0516a8dc92402860c" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1FaceScalars_1a215efbc0055b471085b1d1fd1dff5c00" kind="function"><name>vec_</name></member>
@@ -14137,6 +14147,7 @@
     <member refid="classmrmeshpy_1_1ObjMap_1a44bf443ed94d8a6be61f43f97a1abd30" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1ObjMap_1afbf6be7de226dd9277513506aff88523" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1ObjMap_1aca5951f1e5dc32fe595ee5cf65667a9d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1ObjMap_1ad66f4d30b30af4c06ed793391ec8b57c" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1ObjMap_1a093caa945d25fc70b3078740e6a914ba" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1ObjMap_1a2b960221432bee8a4cec0351eb4463ae" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1ObjMap_1a9ab1bb8cbab9e96fc7574a069bb5606f" kind="function"><name>vec_</name></member>
@@ -25241,6 +25252,7 @@
     <member refid="classmrmeshpy_1_1TexturePerFace_1a478e20fb3e29565edaa624e8a71cbe38" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1TexturePerFace_1aa2ce7754e459e9ae3f461651b50b3867" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1TexturePerFace_1a0a48f493fd6dd936276ef9937dd29cf5" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1TexturePerFace_1ae7ae82c6414b38a563e49c105be3476b" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1TexturePerFace_1abcded7c061a8155e7523d8f576639857" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1TexturePerFace_1ae9004af7c7d209bfd341c05a245f568b" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1TexturePerFace_1a2158d51439868ca968835c6aef1b32dd" kind="function"><name>vec_</name></member>
@@ -25540,6 +25552,7 @@
     <member refid="classmrmeshpy_1_1Triangulation_1a7ac7b6c2b27cdaff7df5439cb72ae9f0" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Triangulation_1a70cd776efa9b05482f16588902ff72cd" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Triangulation_1aeed07673823904502a3a117d927e2d9b" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Triangulation_1aad95022f1fe19c8bc7f0845ed5d3038c" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Triangulation_1a14e7423ffe04d7ddfd3da5115146a9f9" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Triangulation_1a0118ac93024351a2285467a5f6b0b098" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Triangulation_1abfb2d240cab03cb909d0cdc9b914384c" kind="function"><name>vec</name></member>
@@ -25642,6 +25655,7 @@
     <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a9df0f57aa81d6df77ba55cb94a1a0ccd" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a3deadd22aebf6c6bfbbdc86f155edc64" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a5c066662122177f6295d1b311ed8df5f" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1TriCornerUVCoords_1aaff9fefd2288f09d739cbabea58dafab" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1TriCornerUVCoords_1aaf244527595f53c5145191bb06d35e62" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1TriCornerUVCoords_1afd6aa706bdcc3b71b88f16245678c623" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1TriCornerUVCoords_1a773e2ca28db9288e3132ba26dfceb7c6" kind="function"><name>vec_</name></member>
@@ -26330,6 +26344,7 @@
     <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a43ed702ade7eba1ac7d9cd4ef50e5a52" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa33fe7493a76fe6c1211bde6e5de5809" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a0bf0da5178203613db63887ae36609ca" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a084265537555798b16155f858688e94b" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1aa77810b4e4f137490bb48076abf2abb0" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a83b89a77cea55febed365b4a0b4809d5" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdge2RegionMap_1a0b6228065557111cd979868be3c6fe3c" kind="function"><name>vec_</name></member>
@@ -26439,6 +26454,7 @@
     <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a98a45fadc0e06d0804431462e455e40e" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a71a96ab19e73d3702a65e7f6f8298b55" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a60b1602d12bbff67cd0d023efecf373c" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1ae6fec26952459b3a9684bb7f7642e2b4" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a0a5e44c672355a6af145aa6d4680413c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a6324ad4750ec7921294bedf59cf186bf" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeColors_1a19b4d865ba8b5c1990e4e9ae4f2abf2d" kind="function"><name>vec_</name></member>
@@ -26524,6 +26540,7 @@
     <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1ab3362c8dc06c4c738dacfa15b1e1059a" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1a360783953b1f3f99e52dab45eb035392" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1a1018b1af0fe7579547f409e08fbad4de" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1a9df4ccb70f2b064f139d8ea2de02e9f9" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1a94fa9957e6762d9b597a88e55225b0e0" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1a341b63a500b083dc5526a98e84f32303" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeMap_1a18a5d9aab20886e8568256fd46c308d4" kind="function"><name>vec_</name></member>
@@ -26570,6 +26587,7 @@
     <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a74ece5d4a56a9d03675e1635f8626e88" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a795663338b5bb35d824f9481cbc3de67" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a91312e2d7aa6085258980c8f566d5512" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a6f6b4fbf947ab78ef7d580453feafdf8" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a65eaebf3d8b982a5c62f37a51b1f2d27" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a8dc9d08f9fd8e5914291564f13d5cf6c" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1UndirectedEdgeScalars_1a8f31b33ceb4bbd11e4fe0148ce428f96" kind="function"><name>vec_</name></member>
@@ -27612,6 +27630,7 @@
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a05949552268f82bea67bbd9bd8637748" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a8403988b56d767cde08833c9a6d3cc7a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a23a4c39584fee63a126e5cb0a5fa7ff0" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ad5cba72f80a84629e0f105b86b928102" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1ac1b9e1ad99fecefffeb02de88d02db45" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a136d51f882f54ac6e5c28ca4ed2272ce" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId_1a7f0329819d41cdd5c4a533206b3f14d3" kind="function"><name>vec_</name></member>
@@ -27659,6 +27678,7 @@
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1a97d308d2b5f93ad1d1cefe72c78626f5" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1aa2286c2b817f815e273f7fd373385a65" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1aef8014c8dcbfa4dc240bcc85b8aecee8" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1a2e2a220cd6a4192d1c16e2de2667d5df" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1a6d08eb8671b42eed7058c08c700bc57f" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1a3b6707acd67cc505fed7d2f337c1eda4" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId_1a064c23fe9decfa7d5544d056532d5e91" kind="function"><name>vec_</name></member>
@@ -27706,6 +27726,7 @@
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a5ce5753f2f208e77a77cd6eca0008313" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a8f5215929dda6f423ae2126528004533" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a50cca30e7908a86a7074876c64f71b1a" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a257ff9548de79927eb37041df1e4a665" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a1d19f724a6014d63a1e832cc4379dabf" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a5b2c0d6392f4496be75fe7eb8eaa606b" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId_1a2c8ef897beb814e7cbe464006cabedea" kind="function"><name>vec_</name></member>
@@ -27753,6 +27774,7 @@
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1a0822aabb11ff0429ff6bf732ad003ef1" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1aeca105a72e0d6048ec8623192572a504" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1a4af3b2c59cd4200c71b546f18432f60f" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1a51bae6b8e7a7116400b7cbeea8b41a79" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1a704c7d45096f67f9f5d8b8e10196c460" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1a01be740146fb43bcfb96856474e425a9" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId_1a057ea464b601c42d805518ff2b2559b6" kind="function"><name>vec_</name></member>
@@ -27799,6 +27821,7 @@
     <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1a374574d9d89a0a5710140881e7add257" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1a4e1bf318e4971b1c47390c1c8eb4cc82" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1af39c43032bf47a52603f217919e54dca" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1a451051c9989faf5777efb6d691938515" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1ad3cd7c054dae89fb428e88239bb9e60a" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1a648b4c08abeb715f375872c3d7e53f9e" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId_1ae81f5dc9fb791ecf4c37220393bc1ee1" kind="function"><name>vec_</name></member>
@@ -27848,6 +27871,7 @@
     <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1a9813fa9a3d129cdef158b4b8843116db" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1a8f598d28e95114351e4b72deaf0c7f49" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1af2d4e55a838cfda741f6dba07144442d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1a81ef69ffeb28631fa6aa0b39b1079371" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1a0c5d5d795ea61f4cd4b9121835f0bbea" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1ae6204e729384ee9562f0258b489ac637" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId_1a05e2dc1aa37883ba50495982aae72800" kind="function"><name>vec_</name></member>
@@ -27894,6 +27918,7 @@
     <member refid="classmrmeshpy_1_1Vector__char__VertId_1a31b9f4c4198a8fd1e759233ddf1bf8f5" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__char__VertId_1a7b651eef16b0b78e77ba4a0e7b7f1048" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__char__VertId_1ad055e66639faf09d6d45cc41da507bc5" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__char__VertId_1a195c833809ef5b361f0749e2703d27b0" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__char__VertId_1ab320247e115b714fd3c25887073b6f64" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__char__VertId_1a2a60cbc37399632866c3cd81f17e91ce" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__char__VertId_1a73f04a38326b6de832ba2b238fc38338" kind="function"><name>vec_</name></member>
@@ -27940,6 +27965,7 @@
     <member refid="classmrmeshpy_1_1Vector__double__RegionId_1a44249ca57395bd76e29f74f158939f8c" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__double__RegionId_1a111f89768149ddabc157fce530cb18d5" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__double__RegionId_1aedca288606ea4e93ff1710f320899200" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__double__RegionId_1a5bd88cd7e7680afa179873b2c72dd1af" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__double__RegionId_1aa3cc7a48a64722f0577fec9434c23238" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__double__RegionId_1add9a4a9ee4a44ab43d0c2822d13448b4" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__double__RegionId_1a1e712af95e26a912ab64f4ed1fa0b955" kind="function"><name>vec_</name></member>
@@ -27988,6 +28014,7 @@
     <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1a9ad28da7f6efa45aca515a1275c0dc0c" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1a966f759a762b225cb24b8b94515dd41c" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1afa0b4e431af61cf45bb59f256b8b6356" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1a20d0da995370c029bcb4e21ce23bd940" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1aeae33dfb70d3c562d056f8365407da19" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1a99b98e51e1d5e06fc641cab3053e6a30" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__FaceId_1a1a7c5328f9ede17f7d3a59033bc8efdc" kind="function"><name>vec_</name></member>
@@ -28036,6 +28063,7 @@
     <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1a5edea64c7420430c2c675c8f9994517d" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1a5ea3357a7a44b6a0fac91f2cd9b10a0a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1a8df2b2dd2043fa754295ed71a6a14f69" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1a65fd52d10c8dc95b8bf3b9aff034d9e5" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1a11eaa7d582c2136eba13bd2e062d482f" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1af5925944eefed7c680d337a7b8791e1f" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__EdgeId__VertId_1a5b8ff20ed8f3db92fc40fa149d67ec88" kind="function"><name>vec_</name></member>
@@ -28085,6 +28113,7 @@
     <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a9870f7dbff54cf06d02f8393ccc2561d" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a0d8e1435ed4c8df465b47f9adc194889" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad636d35d6dcf470ffd10e861747ef8bb" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1aa1a5b4661de1136754ae3eab973d0a98" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1a03c0006c3df6f2d3cb1fe67c49d357d8" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ad4d23d373a52c5be1ff3227f416f8010" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__FaceBitSet__GraphVertId_1ae3b5d470e870ed7cd84790844c0f4f47" kind="function"><name>vec_</name></member>
@@ -28132,6 +28161,7 @@
     <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1aa75c85b98f4edb2a796b78f7561fa627" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1af7e311cbfa72f9cbfcff2198e72ddf4f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1a10a3758713fedac9ad68a6268bac8340" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1a654512502454faa1351020ee54f00082" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1a7c858a1140b8f75a17424637f9608d5c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1a7a1600d3419e0e9d8bc78c70f92a19eb" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__FanRecord__VertId_1ad223a339ccc12658e9abaf166edf3cf0" kind="function"><name>vec_</name></member>
@@ -28178,6 +28208,7 @@
     <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1aecae05138b8c216f25f73eb8c0769120" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1a969625ef7dfa3ef99f6160841815fb01" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1a150d8d8b367f746836ef68853638dd93" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1afd51dad8892dc53e637b56051ee7de77" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1acaba5ff8977d505116e06e365ed73b3f" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1aef763207652111edbbdd69923294bc43" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__float__VoxelId_1a361a1e58d13f2cffa5dff83a95f30116" kind="function"><name>vec_</name></member>
@@ -28227,6 +28258,7 @@
     <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1ad0f3ac186672c83c136f92b23cb0e64b" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a6afefd9955f03c18d8b361c3d0845204" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a4c6c1180fe8e88440e7aa611e178f5a6" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a91dc6ddcda747cb2a4f807970ae011bb" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1aa34bb3990465ae4e1f681664f53a668f" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a2976d205cb678aabb682705574b2b812" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Graph__EndVertices__GraphEdgeId_1a198dba668c6bb3c900af9e18d873ab4f" kind="function"><name>vec_</name></member>
@@ -28277,6 +28309,7 @@
     <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a8ed5cdc279e4837c633ff67f05f0069f" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1aa295aba446bd5e68bcb8aa69f77b76e5" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a2d0e47c199f97827d0d80920640c6f74" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a5373c921d66cb0ebf86089fb1b0701fe" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a3bd1aaa89cc059a74e04fb6852607712" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1ae9ed69024d9f6e8d699fd74cb6c2a55b" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId_1a1f9a66d0e6f6eb2308b87370b7a87c9b" kind="function"><name>vec_</name></member>
@@ -28327,6 +28360,7 @@
     <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1a6dc4848d46be0856b315f8a868605b0a" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1a92f5fa646cd9b65ef35122c0b7f792e2" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1a17989c5bfce99e05ee01a5c3ae416082" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1a594da62997d0522fbfb0f5457bcff503" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1ad3dae5e461040d0f443e296a602213b9" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1a01990cba8e4456bcf13b4d81f1c29721" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__GraphVertId__GraphVertId_1ad2aa0739abdce21eff5bd454bb9832c5" kind="function"><name>vec_</name></member>
@@ -28373,6 +28407,7 @@
     <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a42ed4e7921ce0b800718e00bbcb3a952" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a140b19682bf4dc6ddfe883768e55ae73" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a8ba43be6ae5b1872ae4d6379f2818b4b" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1acb94b604ad3eb0dd1f0a58e43ddbf496" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1aac94494931fe94eb676ddbdd8337128c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1a268ec49726967f14a9bc43b3f0839eb0" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag_1ac030375f7aa1e60cd57136c4c9573fac" kind="function"><name>vec_</name></member>
@@ -28423,6 +28458,7 @@
     <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1a1386807ada3453d258b2957d0e72f474" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1af16a24fb72aa807c0e701a8bf6d1bd84" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1ace861a94f97b34317b8468fbcf850899" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1ad91ae78715d26d6e21a7cf694481f237" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1aaab3e2203bac9f516657125fbe5260ea" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1ab452535cca5033ea95fc9b175dfb3016" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Id__ICPElemtTag__Id__ICPElemtTag_1abbb0efdaff2da6da5293679cbf7b0bd1" kind="function"><name>vec_</name></member>
@@ -28469,6 +28505,7 @@
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1aea7dea4214261be9482a8b66bcbfbf01" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1a0522aa3cb64fdc039d565eeb51bbf7da" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1a96906d280d2126d50b95bbb0585b0637" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__FaceId_1af2247b63b28b0675fdaec7c5d059b462" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1aa07496b46aac2b28504e4981e433d9a3" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1a5276dd1436a479434abc85e08e997012" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__FaceId_1ad0b024dcebe456263a98d251c3ec0341" kind="function"><name>vec_</name></member>
@@ -28515,6 +28552,7 @@
     <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a5c9789def352a216cfb5dc9fad696429" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a2614d1d0f14c7b5ee826270507269fcc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a398c29ffbe065112c652ab6dee028ab2" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a71efab928b369694558dad18d667a35c" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1aacbde1bcb3979831c3ac93b16ffce6d1" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a7c5547af1330747e1a68e3856b18d274" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__GraphVertId_1a2158f0641723947d34468ab6fd57826a" kind="function"><name>vec_</name></member>
@@ -28561,6 +28599,7 @@
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1a6a6ffebf77ab18dad25d39e03519954e" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1ae9452425a85952c71ea08e930cf0e7f0" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1a864be9a6b0d1f04c76a0db6bfeabaabb" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__RegionId_1ac26aee9790d59a3c89339849f6e21fb3" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1a555aee9e4858fc0562e1ee12a090b96e" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1aaa2bf01c10b01f102e36d9563d4a6449" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__RegionId_1a9bf762589126563ad561eee67ea1a944" kind="function"><name>vec_</name></member>
@@ -28607,6 +28646,7 @@
     <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1afe041f9eb249dabe4a79ec5b2cffe930" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1ad9cc6806d9f6b062aa3373722d9a59bb" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1a0b06b5cf18909f7a9c1183f42efb0128" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1a0d2724b8526f110e5646e3dbe73c3dc1" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1a3c1087ea509d4c3d7c285c55eee4e919" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1adefc8abe15a25eecb6d9dbdb4a9f4ca8" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__UndirectedEdgeId_1a8696ac975411c2602e1bca8d52083e0d" kind="function"><name>vec_</name></member>
@@ -28653,6 +28693,7 @@
     <member refid="classmrmeshpy_1_1Vector__int__VertId_1a701e9d9a2c5d5c42d8ab43c7d19c63ef" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__VertId_1a973222a3f12c079b287bdb94d1212151" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__VertId_1ae50f70df8e9d567fd786113e0deb52d1" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__int__VertId_1a6941fc7cc6c3086bda0e4ec106ccb33f" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__VertId_1ad39e77a44617df36a9a9484c12c296e4" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__VertId_1ad538b85e539ec33cd061db464c51922f" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__int__VertId_1ad129fed1029649ef1cb7d6431db2ed6c" kind="function"><name>vec_</name></member>
@@ -28699,6 +28740,7 @@
     <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a0517ada70cadcb36926afce521a27b7d" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1add761b10750ebc5dd827c1c1f798c41d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1aa8624bf0a99d1fd694b0e1a029923f65" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a1ac0bbac2cfc2f806bb06b0ee91535c2" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1a261e1d86e7d656cf6990ff2a2aad09af" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1adbc15577c44f927561091adc40d48e42" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId_1ae4476757ea7b2f7a5cbde844d83261fe" kind="function"><name>vec_</name></member>
@@ -28741,6 +28783,7 @@
     <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1aa70140cbc03447766eee3b73bc6ec36e" kind="function"><name>reserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1ad7eb97b4a99fc6215b2f2890dafe2b60" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1a16ba226c6b6f1448df5f093b79e12378" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1a092258d1aeeb28ec79863ca9599338ec" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1a15db278dffc46e802ba9a1a8804a5e66" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1ae6c1d0edc47ccc44bb8e586589dbcde8" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId_1ad047361296e642865270dd48f063d297" kind="function"><name>vec_</name></member>
@@ -28788,6 +28831,7 @@
     <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1ace0aceef24e616ba9427f4502e0c21c2" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1a44685005c6498534f5233e97c1d7d1ca" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1aeaa96f09a533bc5bc2445de785f293a3" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1ad634fbe0ea7170c4906267340aec2a93" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1a7dc9406048145927ace05e42b16c2d8c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1abc9496b92d4afda524ad0917fe1d316d" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__MeshTexture__TextureId_1a6e3cbb72ffaad064d36e3913cd5a49eb" kind="function"><name>vec_</name></member>
@@ -28834,6 +28878,7 @@
     <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1a2a3f59ea0b0bb6af84749c70f83d0709" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1aa781f0a7483974539aa4964b0921a6c8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1ad1f7c43b67ee1e0f145a6cf928da2c90" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1a6c9bb9b3f2ea173f70a1e8217001a4f9" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1a3d44ad9ccfc9f19bb66acbd278509436" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1a213eb6201edda9d61996feef408fa654" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__ModelPointsData__ObjId_1a8f7b7f32a3622e0f11e9c140e715bc39" kind="function"><name>vec_</name></member>
@@ -28880,6 +28925,7 @@
     <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1a9dd52f45ef685d9bb0e1d9e4c7d0c009" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1a49899198bc65714000ea39af0bc1e20e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1a657de2bd0c2d1cf5023ddb180ffb7c6a" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1aa084623980c2fdba4b51ee88df7bb0a2" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1ac7208d335963c5f98d3f55840370caf1" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1a69deceb0079fbb18f621c180c33425d9" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId_1ac3dfea776ad5aed44f57dec00906fb66" kind="function"><name>vec_</name></member>
@@ -28926,6 +28972,7 @@
     <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a83fcbe7e07ac46fd2e3e1506576b12b7" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a2b74bb0235d9ea52f02dcad44801e547" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a02b4643b1f59d40148762ebddc1c1eb4" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a56ca9541d12fd3a70bbef7a0b1f6f1de" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a61f4598210a0e8b4df734824b537b121" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a71eff65d2df3fc41ed3722b8567f2204" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId_1a9a99de5303b661e92bf4d9fb373d44eb" kind="function"><name>vec_</name></member>
@@ -28976,6 +29023,7 @@
     <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1aa46e16597d808c82587c9a353234a8d9" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1ace873b708588009059af149505df37d9" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1af9ae82194f6cc60f6b1d646016cce6b1" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1af35e73132e2863f51685b87dca453860" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1adf11ad62d141fea7630563f5b65b4b83" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1a26fb171ffb45bc6135b053b48a3d1fcd" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__NodeId__NodeId_1ad1d20e38ca659f983678e41471ec9010" kind="function"><name>vec_</name></member>
@@ -29023,6 +29071,7 @@
     <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1ab68b6b7a7df658f1eb7193d502605187" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1a24bed24e21dbfe69e3a574f90e2c2031" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1afeec0ffbb210be963b027f794684f1d0" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1a7d6350d6537854fa05098b6b2e7ecd54" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1af152a411c194f93dc98f437f7b699a6d" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1a908ae4995e353b7de843207beddfef86" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__ObjId__VoxelId_1aea11e70d589eeb180dac1c2e54f16d60" kind="function"><name>vec_</name></member>
@@ -29073,6 +29122,7 @@
     <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1a58deab2c081ea3df7430c22dec013e06" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1a27fde3673cbc22714324b5903b827205" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1af0ea0dc3e0bc370b45a561c0a219501a" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1aada2ff22487b4b4552de564b7af5deed" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1af6167f2f82b175d5eb75dd9397e9a319" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1a8eec75cbcb701ba9676684fc78ceb3ac" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__PixelId__PixelId_1afe05b8d3b332273f86e256dd0b5fd8e7" kind="function"><name>vec_</name></member>
@@ -29119,6 +29169,7 @@
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1afdd573fbb610cf07cc84310795c080fb" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1a8d96769b4972f03b6b04e3b73d2c6c4b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1a2e5537c25d004100ee9c1ea69d9652d2" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1a6330e14528a82eb8ede1bd99d25f5e59" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1a2f992b02a9f28fefabbb8b5715581267" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1ad117edb5513e58bae9f7cb99d7c028c4" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm2f__VertId_1a5aabfd55d331aa28455ba237056690a3" kind="function"><name>vec_</name></member>
@@ -29165,6 +29216,7 @@
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a6dd436ae52923dc428ce3e7e9b2c04eb" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10a94daa0677e63ca09e41725f1746a7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1acb2a426344a59e4162b13b8c694bc20f" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a0ef562fdc0c3c5bda7af5490ede9eef5" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a5044fdf412d8151a8c547bae47c158df" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a9c04db2356c4f7f41b603536036ae3be" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId_1a10436e531c16a4f4ec85528615993360" kind="function"><name>vec_</name></member>
@@ -29215,6 +29267,7 @@
     <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1a7fa7ee5e9d573e72dae252ed5b2ff150" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1a964b5d3de20348cc59d3226a6c6061ea" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1a455dd71684d487668d2833bcb83c4060" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1abcac4e920aca30b1ad5c7c655c572212" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1a52439e195534b154edfff1574f55c458" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1ad5c1642900e8d6bfc10922f2780e8623" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__RegionId__RegionId_1adcf57051c15c19dd67e139ecf95a780e" kind="function"><name>vec_</name></member>
@@ -29264,6 +29317,7 @@
     <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1a6a52464a456a06394b6aefd925315fdc" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1ade445d34a9bd8fceb7983016c72a3351" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1a3dcae9de6789e804aa1c2e78bbd7e838" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1a6ef4cda2bcb5f36e3449df0c37feba54" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1a4bb3e906a466d971ba2084397ef696c2" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1a5891d360d95c4ebac1f27773d8553f53" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId_1a902ec84e21f11684b8042664a1561622" kind="function"><name>vec_</name></member>
@@ -29310,6 +29364,7 @@
     <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1af0ef5b2663c5b60027cf2112c3c1c3e9" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a777f7d23ad18d24265c2bab7fcdcf861" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a180b87ce5589283cf889a5bbd727ee99" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1adeec73523df642f92c063f945c8a7f68" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a406eb0a083ba1e7b89dd0bb954e84c38" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a437931c3ff329920c14eecd39e58687e" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId_1a34643a1ea62c14625e9ee634ef66ad69" kind="function"><name>vec_</name></member>
@@ -29359,6 +29414,7 @@
     <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1a20589a1c4734f19bc9718d1a00bb119f" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1ab3d22125b292971eb4fe696a61a488cc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1a54f0a36ec0eef7cf3529c44bee7957a0" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1ae0ae12fd4cf4b6c4737b5a05886b5c84" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1a34d25e78df8f5f98ce08caec9b692779" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1a623ad4d3fccc4652341c5a585a249d31" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__EdgePoint__VertId_1a6edc8bb2971fffef264244a2adf69d30" kind="function"><name>vec_</name></member>
@@ -29408,6 +29464,7 @@
     <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3fac24e7787bed4c561f31d4e58cf750" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a45d77a33d969bb11eff7916a01f33271" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a71c94be20320c6a2e22edd59189af4b9" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a2dbce66991af31159404f769ebfa5323" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a350eb18335156863320de456eec84336" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae0bedc23241d8f7777a2240c3c90e6c9" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a1dc091d5d8f097e4b48dc2430f26287e" kind="function"><name>vec_</name></member>
@@ -29457,6 +29514,7 @@
     <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1ae32825f94ba5dc5d1b891355b84597dc" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1a15756a5320b2d9aa6c3760d22721e99d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1a845a08b4ba609c2d3859d157a28c3ce2" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1a1f2adcd331b3b13a77f62492489a4c8a" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1a3e8767573ed2d60fd20ab075d90a2006" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1a36f6c139eb6e127ae784e3703844a030" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__std__vector__ObjVertId__Id__ICPElemtTag_1ad500ed30af7fe4452c6cc12ca6c3f6ed" kind="function"><name>vec_</name></member>
@@ -29507,6 +29565,7 @@
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1aeb7f6062bdf1dcd9c3271a51bd2dc990" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1aa89127787767630e01ed216691b5f7dc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a4bd31ae68f03e30534c7f207f97d0fca" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a9ad2f374366ddde16f19556e49af9a6c" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a8a204c497ddc07cebe08873ca6180a34" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a4a2087bd74e8d9b704535c403f6e7822" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__TextureId__TextureId_1a21b5cee1bb6b046d81951812cfd465a6" kind="function"><name>vec_</name></member>
@@ -29553,6 +29612,7 @@
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1ad484245bc5be8ce9061d69330397ba69" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a1217d1a529c244f845daa19356fe24cf" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a49574736794f5b08d63d1afdca88be88" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a3f1dfecb5d297689cbaf598c2702ca34" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a2708731f54513230bfe38410e0c83e89" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a9dd774e34f5c062246953c0473b3ec05" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId_1a6997397a8ba933854d756eda53336a2d" kind="function"><name>vec_</name></member>
@@ -29603,6 +29663,7 @@
     <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1a863ce56686f6925dd337daeff0934d6f" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1a05dfd700422dd7f49af50945a6dd4db4" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1ae075f69315b52ce158c7c48afb0a3fff" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1a37e3ad0930f21fe90f0bf595ba57a072" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1a92dbd72bbec6f9e4d590ef6ed006de7d" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1a133cf71f053065985eea6360eb0d2679" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector3i__VertId_1a794db64ea459d964a59bbec1c13ea5f3" kind="function"><name>vec_</name></member>
@@ -29649,6 +29710,7 @@
     <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1ac135e320b62b235e24df0837de8e3126" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1a5936b2d30255bda513db5107d64947dc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1a0e24297b98e79671bca44b6604f2781d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1adb7aa2818743028463ef3c4ebbab939d" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1ab52fbc64ae8418b634c198b770a6386e" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1ad15c6fbf746a60912a9313a2eda8c999" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag_1ad5f3db43b57ef663e086acf5b2c09928" kind="function"><name>vec_</name></member>
@@ -29698,6 +29760,7 @@
     <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1a95854dd18f82084dfd374732b4ad0ca5" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1a0acfda74bb0a2ffc9e6250bbf5172b38" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1a195741ca9748a94a0f3a22e66e54d75b" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1aded1364fd0e641f46e6c0ecba49c1d5f" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1a1b63ec4463e577aa5b3e5294489cf889" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1adbd032ab9e47ce8662da2eb26f27db8b" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int_1ace0eb4ed7387b810ecf20af25f2b92f2" kind="function"><name>vec_</name></member>
@@ -29744,6 +29807,7 @@
     <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1a973d730797ea8800abc02da4fa5afb5a" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1a8bb9efe6854337fd23ccfe7325000d43" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1a29fc0b98c7c6989a36e762745a6920f4" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1a844639e9e86a0477d064d6484a8a489b" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1ab7af8970bc2a0ce470699cb77972f873" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1aa627cff4c19172fde05ef77fbc685964" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag__int_1a75b6a30ba2fe77141f0884fc4c5f3037" kind="function"><name>vec_</name></member>
@@ -29793,6 +29857,7 @@
     <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1a717b77554f3fa1698d06b7d1a7601b60" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1a89c2768003671fcd9948c78c60386743" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1a40cbaaf7ff7670243b8724cb82137200" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1a1d36d4db0b469995a88a8f344c8c60ac" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1ab1364c93df4cc8b24fe18fae24729835" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1ae3219fac9da2c53cc77436b6d3c22ca8" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertBitSet__ObjId_1ac914981136075b793c5527c2da264f2a" kind="function"><name>vec_</name></member>
@@ -29840,6 +29905,7 @@
     <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1af2f9feb375f1722a1e6f230043fd4b40" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1ace3061502d9dc88bfcb57bb8cbbc3cb0" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1afb64eed63a1af60db07375efb756e5ef" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1a6edd042e3dc988ba92eefd24e3032c67" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1ab7da22111fdb22e3e8067c8dc04eb521" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1a3045053258881d5d1ca4559ca279ff48" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__VertId__EdgeId_1a3e8903af5f7529f36c08a79d8bd6754d" kind="function"><name>vec_</name></member>
@@ -29887,6 +29953,7 @@
     <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1af7a79cb2f377b806a7a244c7098f68db" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae42cd0e2098427ca47050271861206f7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aded3462055cb2316f02b3b06643363ff" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a50d496bcf2ce79dd44d832e950b1c11f" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5d691b883cd7632b51137f470a945a12" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a962815f4e0842415de8ea4ae26787c74" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9d28f745477bfe8e41bd10b9bb6b73fd" kind="function"><name>vec_</name></member>
@@ -29934,6 +30001,7 @@
     <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1a4890603431f95d244b207a89eb74c024" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1a2a0b621817d2f47f825e06178973b669" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1a171f423c83128d02638abf597ccf6a6a" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1a7f4301b3f103ddd2f9e3032a137a92c9" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1adf63f8254f563003cf4302da88a7661c" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1af4ce68021103e194009014e521e33f45" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__VoxelId__VoxelId_1a7dbc69df7804131c0bed5b9c38fa3dc6" kind="function"><name>vec_</name></member>
@@ -29980,6 +30048,7 @@
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aef75badd4cf6b2e244f73a14d66f9a02" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ad01c01e117bbc90fbb73eae4aa5289e4" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1ac635fb4a70dc887779d1387a4d0103c7" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aa0ec79f753fe48b77d1874153464b672" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1a27b87b5a5abdc95d9a7c13f46e5a654e" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aeddc907da3c24d625a847c803b9908ce" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId_1aeb6dbe2ab015a4958a4a118d3ac4418b" kind="function"><name>vec_</name></member>
@@ -30026,6 +30095,7 @@
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a77549e78e92cf45477a1b966c0ab4b6b" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a03ac953bf42d762b24674b69ef522a79" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a8791c2bd881bc9c8e8c2d97cae753a79" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a15d92fc5f285cc84d31fefd9d8df07f4" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a5e13923a4e6edaa628354e9e218f09ca" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a5e24ea0ac8d47b60147fdda6eb548308" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId_1a84831b5a01ffa1e9a0f933d3a18200c6" kind="function"><name>vec_</name></member>
@@ -30082,6 +30152,7 @@
     <member refid="classmrmeshpy_1_1Vert2RegionMap_1a0c7eeb0bb244e2d59dd3d859036eb913" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1Vert2RegionMap_1a341d50b201934f79bdfae318a9fa34d0" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1Vert2RegionMap_1a97099bf0a64cf74860ba0acb75fa1480" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1Vert2RegionMap_1a4043e10fc11f6ff75c61f2bcacf7619f" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1Vert2RegionMap_1aa77ae7814130e18e16edff0641d686ed" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1Vert2RegionMap_1a22cedc4f13faaa48865b0aefbbeb1f22" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1Vert2RegionMap_1a8d1f336127b1726275be4576dadc7fdd" kind="function"><name>vec_</name></member>
@@ -30209,6 +30280,7 @@
     <member refid="classmrmeshpy_1_1VertColors_1a46cb3d7e0488ca323dda83174456cae7" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1VertColors_1a7a3c9bf67c549a3877c605c80414f65f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1VertColors_1a854579e79c86dfc912f180e3ae918a18" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1VertColors_1a13a245839a8cb6c11b5f5b5766ad83b2" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1VertColors_1a784748201173e131a42e0d5782caab59" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1VertColors_1aa505ed33fd7ded1b8191d0c3bd02846a" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1VertColors_1a0ff6bfa9cec8b338eb1973baf64094cd" kind="function"><name>vec_</name></member>
@@ -30256,6 +30328,7 @@
     <member refid="classmrmeshpy_1_1VertCoords_1ae4109993a0a30a36a5fd9daaac5e454d" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1VertCoords_1a7e3c1fa1c0efd06210856c25350c2581" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1VertCoords_1aadae10c8c28f9eaef72819342ef960a6" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1VertCoords_1a08ceaecf82faba75db1d941a93afab96" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1VertCoords_1a498a7c0978824381b7c469de71acb941" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1VertCoords_1a615cf7157581486938196438abf3955d" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1VertCoords_1a8f0cfee54b377ac5995792064d3fb985" kind="function"><name>vec</name></member>
@@ -30305,6 +30378,7 @@
     <member refid="classmrmeshpy_1_1VertCoords2_1abfcebf844db1c9e7762d97332185f1ae" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1VertCoords2_1a5b6ebc15a2e5b89f92e3d0dc57a40e57" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1VertCoords2_1a3fab4fa0d0366ab39eeaed9ec69f123a" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1VertCoords2_1a19bb5d3939b9d105865050556dd79fd1" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1VertCoords2_1a944e50d6c500c2a4e3f3cdc5de743ea6" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1VertCoords2_1a30a74342bbf6a59065edc2cebb15d92c" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1VertCoords2_1a6afd04e218c74e11d7bb6c201fb350c7" kind="function"><name>vec_</name></member>
@@ -30465,6 +30539,7 @@
     <member refid="classmrmeshpy_1_1VertMap_1ac6afd2c71184977268f49877df93d4b9" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1VertMap_1a9ee8d1b8233ad3089805a2baa1f200c7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1VertMap_1adcfaba4fb8ab5b58f8e0685598b849a9" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1VertMap_1aaeabe3be1c9018f7bbdc28b5ae2780ab" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1VertMap_1adcfafadcb94a66c7fa7acf668f5a4c8e" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1VertMap_1a3022de91aaf8531d3611bf5e964e315a" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1VertMap_1ab7dbe73d01d882005131d16c6d6761c2" kind="function"><name>vec_</name></member>
@@ -30554,6 +30629,7 @@
     <member refid="classmrmeshpy_1_1VertScalars_1aeb7a88e02d6792f34a39b428f72c09cf" kind="function"><name>resize</name></member>
     <member refid="classmrmeshpy_1_1VertScalars_1aedb27b45e13f4cf7cf65d076735d1ad0" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1VertScalars_1a54f935601de1feb54bb6e86e6f6e8a46" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1VertScalars_1a4a9be89df57d879ebb20cb866c4789f9" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1VertScalars_1a1debca56ff5a2959d244a87381356b18" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1VertScalars_1adbdddd127e95163f6f03997ed9925da6" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1VertScalars_1a4c8cfcacf7e3017f89472378a652977b" kind="function"><name>vec</name></member>
@@ -31486,6 +31562,7 @@
     <member refid="classmrmeshpy_1_1WholeEdgeMap_1a129af71f4acdff93934be3e894a65462" kind="function"><name>resizeNoInit</name></member>
     <member refid="classmrmeshpy_1_1WholeEdgeMap_1a0e3bd4e9fc4f70ccf4e426d362a06acf" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classmrmeshpy_1_1WholeEdgeMap_1add5a6134664b8e636b3dc22dcae2b07d" kind="function"><name>resizeWithReserve</name></member>
+    <member refid="classmrmeshpy_1_1WholeEdgeMap_1a790db228291dd6db224404b3700e5c97" kind="function"><name>shrink_to_fit</name></member>
     <member refid="classmrmeshpy_1_1WholeEdgeMap_1aeca71a21887e1b28990da74f32c40663" kind="function"><name>size</name></member>
     <member refid="classmrmeshpy_1_1WholeEdgeMap_1ab0e86cf71ebf5bc05246c7c2a3312f8b" kind="function"><name>swap</name></member>
     <member refid="classmrmeshpy_1_1WholeEdgeMap_1ae6addea0da5a8be8a8dfc78d42f40659" kind="function"><name>vec_</name></member>

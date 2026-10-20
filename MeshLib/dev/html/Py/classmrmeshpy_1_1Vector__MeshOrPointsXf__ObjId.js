@@ -29,6 +29,7 @@ var classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId =
     [ "reserve", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#aa70140cbc03447766eee3b73bc6ec36e", null ],
     [ "resize", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ad7eb97b4a99fc6215b2f2890dafe2b60", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a16ba226c6b6f1448df5f093b79e12378", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a092258d1aeeb28ec79863ca9599338ec", null ],
     [ "size", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#a15db278dffc46e802ba9a1a8804a5e66", null ],
     [ "swap", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ae6c1d0edc47ccc44bb8e586589dbcde8", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html#ad047361296e642865270dd48f063d297", null ],

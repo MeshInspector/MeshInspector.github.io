@@ -26,6 +26,7 @@ var classMR_1_1UndirectedEdgeMap =
     [ "resizeNoInit", "classMR_1_1UndirectedEdgeMap.html#ab7050ecdfa94c231bb8a651e78ca93e7", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeMap.html#a7c169c44872524eb3ac52302e44c8315", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeMap.html#a31d990831b206b10983e379843c141d8", null ],
+    [ "shrinkToFit", "classMR_1_1UndirectedEdgeMap.html#ac4f3180ba29e366118b51d0c7db70c20", null ],
     [ "swap", "classMR_1_1UndirectedEdgeMap.html#adaef3fc5122d2959f1120894423117e2", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1UndirectedEdgeMap.html#a4217d2427a18ea9ff835b6102f191ffa", null ],
     [ "vec", "classMR_1_1UndirectedEdgeMap.html#abc87f8a53f6442305665b9f9d07dea57", null ]

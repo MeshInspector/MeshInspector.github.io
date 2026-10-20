@@ -35,6 +35,7 @@ var classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId =
     [ "resize", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a6a52464a456a06394b6aefd925315fdc", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#ade445d34a9bd8fceb7983016c72a3351", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a3dcae9de6789e804aa1c2e78bbd7e838", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a6ef4cda2bcb5f36e3449df0c37feba54", null ],
     [ "size", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a4bb3e906a466d971ba2084397ef696c2", null ],
     [ "swap", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a5891d360d95c4ebac1f27773d8553f53", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__std__array__Vector3f__3__FaceId.html#a902ec84e21f11684b8042664a1561622", null ],

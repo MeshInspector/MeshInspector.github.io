@@ -36,6 +36,7 @@ var classmrmeshpy_1_1TexturePerFace =
     [ "resizeNoInit", "classmrmeshpy_1_1TexturePerFace.html#a478e20fb3e29565edaa624e8a71cbe38", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1TexturePerFace.html#aa2ce7754e459e9ae3f461651b50b3867", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1TexturePerFace.html#a0a48f493fd6dd936276ef9937dd29cf5", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1TexturePerFace.html#ae7ae82c6414b38a563e49c105be3476b", null ],
     [ "size", "classmrmeshpy_1_1TexturePerFace.html#abcded7c061a8155e7523d8f576639857", null ],
     [ "swap", "classmrmeshpy_1_1TexturePerFace.html#ae9004af7c7d209bfd341c05a245f568b", null ],
     [ "vec_", "classmrmeshpy_1_1TexturePerFace.html#a2158d51439868ca968835c6aef1b32dd", null ],

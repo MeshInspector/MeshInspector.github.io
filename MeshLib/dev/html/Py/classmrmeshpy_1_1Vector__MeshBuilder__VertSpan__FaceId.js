@@ -33,6 +33,7 @@ var classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId =
     [ "resize", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a0517ada70cadcb36926afce521a27b7d", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#add761b10750ebc5dd827c1c1f798c41d", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#aa8624bf0a99d1fd694b0e1a029923f65", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a1ac0bbac2cfc2f806bb06b0ee91535c2", null ],
     [ "size", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#a261e1d86e7d656cf6990ff2a2aad09af", null ],
     [ "swap", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#adbc15577c44f927561091adc40d48e42", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__MeshBuilder__VertSpan__FaceId.html#ae4476757ea7b2f7a5cbde844d83261fe", null ],

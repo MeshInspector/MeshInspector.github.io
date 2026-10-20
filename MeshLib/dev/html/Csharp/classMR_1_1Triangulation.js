@@ -25,6 +25,7 @@ var classMR_1_1Triangulation =
     [ "resize", "classMR_1_1Triangulation.html#aab651f600dad602bea22aad9fb1bb256", null ],
     [ "resizeWithReserve", "classMR_1_1Triangulation.html#aa451432cf70605f48e26656276aad82a", null ],
     [ "resizeWithReserve", "classMR_1_1Triangulation.html#a2f06b8634752fbce44347fb094a14fd9", null ],
+    [ "shrinkToFit", "classMR_1_1Triangulation.html#a7038044ed7b275754b4187d80dfe13e5", null ],
     [ "swap", "classMR_1_1Triangulation.html#adefb8a21ca6123e4215c2a9e18e9a61a", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Triangulation.html#af6ad4c273d20bdd5e8cbbaa75baccac8", null ],
     [ "vec", "classMR_1_1Triangulation.html#a04f9cd1b736a2331e4ba9b845e3aa134", null ]

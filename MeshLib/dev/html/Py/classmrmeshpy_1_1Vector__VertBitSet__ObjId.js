@@ -35,6 +35,7 @@ var classmrmeshpy_1_1Vector__VertBitSet__ObjId =
     [ "resize", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a717b77554f3fa1698d06b7d1a7601b60", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a89c2768003671fcd9948c78c60386743", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a40cbaaf7ff7670243b8724cb82137200", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a1d36d4db0b469995a88a8f344c8c60ac", null ],
     [ "size", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ab1364c93df4cc8b24fe18fae24729835", null ],
     [ "swap", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ae3219fac9da2c53cc77436b6d3c22ca8", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#ac914981136075b793c5527c2da264f2a", null ],

@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int =
     [ "resize", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#a5f32c41525551847d27b2bf6a7791028", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#a6cba44d0684f5beaa44bb4be406ec288", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#ab324dc39a946f9bee035da69b164b443", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#a3d800984713bc2c2034b4d3e6570f566", null ],
     [ "swap", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#a7ea00770c3c4c322ffeb862e5c3a8b20", null ],
     [ "this[int i]", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#ac7babb46451d2f6eaadb219b63c7cbf1", null ],
     [ "vec", "classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int.html#a7f31503c5bb046c9c45bbf3333991dc7", null ]

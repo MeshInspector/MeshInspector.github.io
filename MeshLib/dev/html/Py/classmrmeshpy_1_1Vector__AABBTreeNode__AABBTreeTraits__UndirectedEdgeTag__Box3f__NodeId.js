@@ -34,6 +34,7 @@ var classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Bo
     [ "resizeNoInit", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5ce5753f2f208e77a77cd6eca0008313", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a8f5215929dda6f423ae2126528004533", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a50cca30e7908a86a7074876c64f71b1a", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a257ff9548de79927eb37041df1e4a665", null ],
     [ "size", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1d19f724a6014d63a1e832cc4379dabf", null ],
     [ "swap", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a5b2c0d6392f4496be75fe7eb8eaa606b", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a2c8ef897beb814e7cbe464006cabedea", null ],

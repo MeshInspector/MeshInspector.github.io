@@ -36,6 +36,7 @@ var classmrmeshpy_1_1Vector__PixelId__PixelId =
     [ "resizeNoInit", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a58deab2c081ea3df7430c22dec013e06", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a27fde3673cbc22714324b5903b827205", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#af0ea0dc3e0bc370b45a561c0a219501a", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aada2ff22487b4b4552de564b7af5deed", null ],
     [ "size", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#af6167f2f82b175d5eb75dd9397e9a319", null ],
     [ "swap", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a8eec75cbcb701ba9676684fc78ceb3ac", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#afe05b8d3b332273f86e256dd0b5fd8e7", null ],

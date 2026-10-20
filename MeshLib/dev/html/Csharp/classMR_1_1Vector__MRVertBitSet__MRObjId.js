@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRVertBitSet__MRObjId =
     [ "resize", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a38fe4374d6111b78cf9e2214f07a67f4", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a0f9065d22ae11242399e7ded127c73a1", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#ac33205cf4e54ae0bfc66eaf3aba54cf3", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#aa6302ee96cbcfde836a803b93b5b5e48", null ],
     [ "swap", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a5692c8949fd8cf8da11bff076b3bffa1", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#aed366933aa3103358b76878550973a6b", null ],
     [ "vec", "classMR_1_1Vector__MRVertBitSet__MRObjId.html#a1ab47c76c57719bd2d5123a4d689bf83", null ]

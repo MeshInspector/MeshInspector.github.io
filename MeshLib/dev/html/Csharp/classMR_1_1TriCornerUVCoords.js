@@ -25,6 +25,7 @@ var classMR_1_1TriCornerUVCoords =
     [ "resize", "classMR_1_1TriCornerUVCoords.html#ac4f6e3042c30840ca61f9827d984f129", null ],
     [ "resizeWithReserve", "classMR_1_1TriCornerUVCoords.html#a378f8f6366d84b90ac5219281b7c7400", null ],
     [ "resizeWithReserve", "classMR_1_1TriCornerUVCoords.html#a2a8dc265fea9c2e004ae053b8fb0107e", null ],
+    [ "shrinkToFit", "classMR_1_1TriCornerUVCoords.html#ae093d81b40e4cf00359a7860634d682f", null ],
     [ "swap", "classMR_1_1TriCornerUVCoords.html#a1938d28dd9c467a2367145b8d47f5e70", null ],
     [ "this[MR.FaceId i]", "classMR_1_1TriCornerUVCoords.html#ac7fb60636037f415aed5b69ef38e04b6", null ],
     [ "vec", "classMR_1_1TriCornerUVCoords.html#aeec0dabd0a1de9ae09a0fb1294252d41", null ]

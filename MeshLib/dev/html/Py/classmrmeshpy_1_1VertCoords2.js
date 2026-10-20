@@ -36,6 +36,7 @@ var classmrmeshpy_1_1VertCoords2 =
     [ "resizeNoInit", "classmrmeshpy_1_1VertCoords2.html#abfcebf844db1c9e7762d97332185f1ae", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1VertCoords2.html#a5b6ebc15a2e5b89f92e3d0dc57a40e57", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1VertCoords2.html#a3fab4fa0d0366ab39eeaed9ec69f123a", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1VertCoords2.html#a19bb5d3939b9d105865050556dd79fd1", null ],
     [ "size", "classmrmeshpy_1_1VertCoords2.html#a944e50d6c500c2a4e3f3cdc5de743ea6", null ],
     [ "swap", "classmrmeshpy_1_1VertCoords2.html#a30a74342bbf6a59065edc2cebb15d92c", null ],
     [ "vec_", "classmrmeshpy_1_1VertCoords2.html#a6afd04e218c74e11d7bb6c201fb350c7", null ],

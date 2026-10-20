@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRQuadraticForm2f__MRVertId =
     [ "resize", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#ae0da1f4665ad1a307d3a86efd7d72fb1", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#aabc4d7fc3df4a797970ff48e0d3f9314", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#ab1ca56821d942421826a4357185b532e", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a1d8bd091c3ab5ebc659f9e4481fa6ff6", null ],
     [ "swap", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#aa302ba5fae42bfc788551a3d11ea205d", null ],
     [ "this[MR.VertId i]", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a12f04988dd2c30e1d84d8da57f119b40", null ],
     [ "vec", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a3cc191cc3631e55057d89b34586e6426", null ]

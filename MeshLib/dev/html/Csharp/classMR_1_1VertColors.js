@@ -26,6 +26,7 @@ var classMR_1_1VertColors =
     [ "resizeNoInit", "classMR_1_1VertColors.html#a7805e7d4b0b6a7617ade4fece16aed98", null ],
     [ "resizeWithReserve", "classMR_1_1VertColors.html#ae6b4286e34c17f669778ac11ccee48ee", null ],
     [ "resizeWithReserve", "classMR_1_1VertColors.html#a510c4b64a3e4f250bd20c168fadd699d", null ],
+    [ "shrinkToFit", "classMR_1_1VertColors.html#aae75e4fe8e7878b33fc2490848bb884d", null ],
     [ "swap", "classMR_1_1VertColors.html#ae963429afaf0c6f510029d1d71db91ca", null ],
     [ "this[MR.VertId i]", "classMR_1_1VertColors.html#aa3af49275ed92626a7771bc8349cd23a", null ],
     [ "vec", "classMR_1_1VertColors.html#a3ec8d4a17d9f15871ec4be3794ddd814", null ]

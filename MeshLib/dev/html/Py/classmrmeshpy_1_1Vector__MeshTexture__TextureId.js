@@ -34,6 +34,7 @@ var classmrmeshpy_1_1Vector__MeshTexture__TextureId =
     [ "resize", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#ace0aceef24e616ba9427f4502e0c21c2", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a44685005c6498534f5233e97c1d7d1ca", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#aeaa96f09a533bc5bc2445de785f293a3", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#ad634fbe0ea7170c4906267340aec2a93", null ],
     [ "size", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a7dc9406048145927ace05e42b16c2d8c", null ],
     [ "swap", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#abc9496b92d4afda524ad0917fe1d316d", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__MeshTexture__TextureId.html#a6e3cbb72ffaad064d36e3913cd5a49eb", null ],

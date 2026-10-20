@@ -25,6 +25,7 @@ var classMR_1_1VertScalars =
     [ "resize", "classMR_1_1VertScalars.html#a9a58948ba34fd118e9eeeaad9edc66bc", null ],
     [ "resizeWithReserve", "classMR_1_1VertScalars.html#afb2197b71df41b1bfc9d6a1d7c2d9e99", null ],
     [ "resizeWithReserve", "classMR_1_1VertScalars.html#a8868c70d0f1e3003321c7f002858347c", null ],
+    [ "shrinkToFit", "classMR_1_1VertScalars.html#a59deb13caab3c7bd1771c0b00be4c2c1", null ],
     [ "swap", "classMR_1_1VertScalars.html#aa183ecb014d58ad50a71d648b0ad8403", null ],
     [ "this[MR.VertId i]", "classMR_1_1VertScalars.html#a20a8a7ada34a0ac1968a61d298cb8953", null ],
     [ "vec", "classMR_1_1VertScalars.html#abc2fba8ad2c0efdb839c228b177f4f19", null ]

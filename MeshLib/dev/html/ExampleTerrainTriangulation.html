@@ -163,7 +163,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html','',''); });
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    MR::SaveSettings ss;</div>
-<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.vec_.size() == colors.size() )</div>
+<div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.size() == colors.size() )</div>
 <div class="line">    ss.colors = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> saveRes = MR::MeshSave::toAnySupportedFormat( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>

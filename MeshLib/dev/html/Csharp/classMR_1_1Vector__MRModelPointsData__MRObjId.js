@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRModelPointsData__MRObjId =
     [ "resize", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#aed2fc05509c7e91ffa433af51a98cbb8", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a48d3a47d5ba72aafad31ef3b54321772", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a97e55a9db6feb8376747a141e9e32d00", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a1140e9603c2742d44c04a4a1b771fbd7", null ],
     [ "swap", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a287960efa623ef51e478c33db4bfe718", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a846731aa58eb872bea3399c3d7145c83", null ],
     [ "vec", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a874541fdfddb05a557b502b66a5f1f27", null ]

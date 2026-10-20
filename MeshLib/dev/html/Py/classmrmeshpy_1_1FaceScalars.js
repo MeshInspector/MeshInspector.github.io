@@ -35,6 +35,7 @@ var classmrmeshpy_1_1FaceScalars =
     [ "resize", "classmrmeshpy_1_1FaceScalars.html#a7f0e20e7a2e866ba131eb775cebff1ab", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceScalars.html#a64bdb03039b59705877bfd3bb55674da", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceScalars.html#ad285892ce2b434356befe25bc8591dc1", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1FaceScalars.html#a8dd112359c20581685635cbe579e72ad", null ],
     [ "size", "classmrmeshpy_1_1FaceScalars.html#a7536c5ded0a8fc6bd23932eba0d5c46c", null ],
     [ "swap", "classmrmeshpy_1_1FaceScalars.html#aa28e2e18463c4ee0516a8dc92402860c", null ],
     [ "vec_", "classmrmeshpy_1_1FaceScalars.html#a215efbc0055b471085b1d1fd1dff5c00", null ],

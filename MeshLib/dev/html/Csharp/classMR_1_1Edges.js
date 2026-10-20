@@ -25,6 +25,7 @@ var classMR_1_1Edges =
     [ "resize", "classMR_1_1Edges.html#ae81595995df221f204f31bdb6c3b754c", null ],
     [ "resizeWithReserve", "classMR_1_1Edges.html#ade22ffe697f81d7055d3dbad864bdeed", null ],
     [ "resizeWithReserve", "classMR_1_1Edges.html#a46937abeeba77d73a891e60bc9cc271d", null ],
+    [ "shrinkToFit", "classMR_1_1Edges.html#ab1a13528e9868f87edbcb6ba5adae283", null ],
     [ "swap", "classMR_1_1Edges.html#a45e4b4978525f06830af983faa849155", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1Edges.html#a2e08c2f3b804e57d1db86f9025be8069", null ],
     [ "vec", "classMR_1_1Edges.html#abe9a9d319cb601017e441e9448ab0a82", null ]

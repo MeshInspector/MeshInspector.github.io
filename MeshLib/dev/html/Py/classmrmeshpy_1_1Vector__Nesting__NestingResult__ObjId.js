@@ -33,6 +33,7 @@ var classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId =
     [ "resize", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a83fcbe7e07ac46fd2e3e1506576b12b7", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a2b74bb0235d9ea52f02dcad44801e547", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a02b4643b1f59d40148762ebddc1c1eb4", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a56ca9541d12fd3a70bbef7a0b1f6f1de", null ],
     [ "size", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a61f4598210a0e8b4df734824b537b121", null ],
     [ "swap", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a71eff65d2df3fc41ed3722b8567f2204", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a9a99de5303b661e92bf4d9fb373d44eb", null ],

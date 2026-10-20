@@ -26,6 +26,7 @@ var classMR_1_1FaceColors =
     [ "resizeNoInit", "classMR_1_1FaceColors.html#a9991954e97e320f09747b5e7a1830cc6", null ],
     [ "resizeWithReserve", "classMR_1_1FaceColors.html#ab0e628484a0a71851bed81bd363fd230", null ],
     [ "resizeWithReserve", "classMR_1_1FaceColors.html#ad88a0e4e5714e74d59d46575c630fae1", null ],
+    [ "shrinkToFit", "classMR_1_1FaceColors.html#ad91d805d9ca073115be4577de7c53ca0", null ],
     [ "swap", "classMR_1_1FaceColors.html#a88b2fa6165e620756b2574d8540cd5b8", null ],
     [ "this[MR.FaceId i]", "classMR_1_1FaceColors.html#a8c00f3f2076f60bd5961faf246031f08", null ],
     [ "vec", "classMR_1_1FaceColors.html#a5b1b992bed81b2e37dd7330e3d072851", null ]

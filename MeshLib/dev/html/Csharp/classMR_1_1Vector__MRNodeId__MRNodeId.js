@@ -26,6 +26,7 @@ var classMR_1_1Vector__MRNodeId__MRNodeId =
     [ "resizeNoInit", "classMR_1_1Vector__MRNodeId__MRNodeId.html#a76279cea9760094977460f0977fd08a6", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRNodeId__MRNodeId.html#aef4e49ad482902c6cdc001e6a1e541d1", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRNodeId__MRNodeId.html#ad404209bef6dc4f8b9db7415f15be5ed", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRNodeId__MRNodeId.html#a80973f2f564c4e9fe2cd8da157633d97", null ],
     [ "swap", "classMR_1_1Vector__MRNodeId__MRNodeId.html#a0c6b4f9a820a00244629b2d6d86c42b4", null ],
     [ "this[MR.NodeId i]", "classMR_1_1Vector__MRNodeId__MRNodeId.html#a405ca400bfc9a3ae53477cf80152df87", null ],
     [ "vec", "classMR_1_1Vector__MRNodeId__MRNodeId.html#a7cd47abdc648e06e6eaba627e5279a57", null ]

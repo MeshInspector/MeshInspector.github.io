@@ -26,6 +26,7 @@ var classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_
     [ "resizeNoInit", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a66a7af671327d83684ff150daf9daad2", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a2b568206ab3ac81a84552ec7d8c271cc", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a3c096eafbb63257af417931e12f0859b", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a6d97b09cd430a09f5e4c80f12b00a9d5", null ],
     [ "swap", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#a208c1c3c2ffd3b65cffe213b0f9f015b", null ],
     [ "this[MR.NodeId i]", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#ada4d6ee6b17e076347f4e88390dfa6ea", null ],
     [ "vec", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId.html#aa2026bf7e04712272dd9ab4aa3f59ceb", null ]

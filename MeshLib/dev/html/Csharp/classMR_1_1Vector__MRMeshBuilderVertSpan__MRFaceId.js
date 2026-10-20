@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId =
     [ "resize", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#aa952dbf88df1e421e198b9af54ff45a4", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#af5d9ca4b80dc4ac531aa810e4602135e", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a9af1145ce1c05dc71ab0fdcd222f41a3", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a96078e421cb42327dfe689b9c199ac47", null ],
     [ "swap", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a9accf5d42bf0fd664e75c495084f2377", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a6c74baaccb67bdd5dd2deb77e5f7684c", null ],
     [ "vec", "classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId.html#a993d0a4ba267b1a6c75761a74051d1a5", null ]

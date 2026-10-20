@@ -35,6 +35,7 @@ var classmrmeshpy_1_1Vector__int__RegionId =
     [ "resize", "classmrmeshpy_1_1Vector__int__RegionId.html#a6a6ffebf77ab18dad25d39e03519954e", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__int__RegionId.html#ae9452425a85952c71ea08e930cf0e7f0", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__int__RegionId.html#a864be9a6b0d1f04c76a0db6bfeabaabb", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__int__RegionId.html#ac26aee9790d59a3c89339849f6e21fb3", null ],
     [ "size", "classmrmeshpy_1_1Vector__int__RegionId.html#a555aee9e4858fc0562e1ee12a090b96e", null ],
     [ "swap", "classmrmeshpy_1_1Vector__int__RegionId.html#aaa2bf01c10b01f102e36d9563d4a6449", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__int__RegionId.html#a9bf762589126563ad561eee67ea1a944", null ],

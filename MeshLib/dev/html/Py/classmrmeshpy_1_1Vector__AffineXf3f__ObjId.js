@@ -35,6 +35,7 @@ var classmrmeshpy_1_1Vector__AffineXf3f__ObjId =
     [ "resize", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a9813fa9a3d129cdef158b4b8843116db", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8f598d28e95114351e4b72deaf0c7f49", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#af2d4e55a838cfda741f6dba07144442d", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a81ef69ffeb28631fa6aa0b39b1079371", null ],
     [ "size", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a0c5d5d795ea61f4cd4b9121835f0bbea", null ],
     [ "swap", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#ae6204e729384ee9562f0258b489ac637", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a05e2dc1aa37883ba50495982aae72800", null ],

@@ -36,6 +36,7 @@ var classmrmeshpy_1_1Vert2RegionMap =
     [ "resizeNoInit", "classmrmeshpy_1_1Vert2RegionMap.html#a0c7eeb0bb244e2d59dd3d859036eb913", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vert2RegionMap.html#a341d50b201934f79bdfae318a9fa34d0", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vert2RegionMap.html#a97099bf0a64cf74860ba0acb75fa1480", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vert2RegionMap.html#a4043e10fc11f6ff75c61f2bcacf7619f", null ],
     [ "size", "classmrmeshpy_1_1Vert2RegionMap.html#aa77ae7814130e18e16edff0641d686ed", null ],
     [ "swap", "classmrmeshpy_1_1Vert2RegionMap.html#a22cedc4f13faaa48865b0aefbbeb1f22", null ],
     [ "vec_", "classmrmeshpy_1_1Vert2RegionMap.html#a8d1f336127b1726275be4576dadc7fdd", null ],

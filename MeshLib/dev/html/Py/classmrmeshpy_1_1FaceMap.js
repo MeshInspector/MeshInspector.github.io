@@ -36,6 +36,7 @@ var classmrmeshpy_1_1FaceMap =
     [ "resizeNoInit", "classmrmeshpy_1_1FaceMap.html#a25d39f0cc043dc43a0e30e1093eaa828", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceMap.html#a38642430f2c6ebe325a3e14bebcd1316", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceMap.html#a1d8aa78c01d069c864463655fc612a3c", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1FaceMap.html#a5acc31bac35ec9afc9eaa0a3029ead6c", null ],
     [ "size", "classmrmeshpy_1_1FaceMap.html#ac4ba9d3206dbf20dd6940cdf78215482", null ],
     [ "swap", "classmrmeshpy_1_1FaceMap.html#a53db47c69385366a4119c34ad8f2991d", null ],
     [ "vec", "classmrmeshpy_1_1FaceMap.html#afc4a1c5e8f1c69a27fb13f15a807af05", null ],

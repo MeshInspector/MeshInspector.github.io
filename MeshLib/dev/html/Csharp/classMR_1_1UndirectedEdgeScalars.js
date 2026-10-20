@@ -25,6 +25,7 @@ var classMR_1_1UndirectedEdgeScalars =
     [ "resize", "classMR_1_1UndirectedEdgeScalars.html#aaabcc575ce05edab992badac28323658", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeScalars.html#acca3bf4828615a54aa542b962436d459", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeScalars.html#aa1ac23f10e3e79ab7adc3c43132d0fcf", null ],
+    [ "shrinkToFit", "classMR_1_1UndirectedEdgeScalars.html#a64a368a5aed3504bc0e28c1522034114", null ],
     [ "swap", "classMR_1_1UndirectedEdgeScalars.html#a05386dc65aefb36a235688fb610b3038", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1UndirectedEdgeScalars.html#aaaab3ecdde26ac3dc81d2bfbd6c7d0bd", null ],
     [ "vec", "classMR_1_1UndirectedEdgeScalars.html#ab0bd941faa7e993bcc565ff2abd66fcb", null ]

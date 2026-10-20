@@ -26,6 +26,7 @@ var classMR_1_1UndirectedEdgeColors =
     [ "resizeNoInit", "classMR_1_1UndirectedEdgeColors.html#a871fd2789e965ab36a7eba3658cb853c", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeColors.html#a181f49079c294007d1adef2996ed07de", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdgeColors.html#a5cad4ca40c5f39f4b64f66db2bea3075", null ],
+    [ "shrinkToFit", "classMR_1_1UndirectedEdgeColors.html#a818c3a80bfd0cbbc75d2d297b639d290", null ],
     [ "swap", "classMR_1_1UndirectedEdgeColors.html#a1c60313d864303dfbca7080c89e8c756", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1UndirectedEdgeColors.html#ab8c84d8b9db860d73f79975797545921", null ],
     [ "vec", "classMR_1_1UndirectedEdgeColors.html#a772f08ee8c440fba3553f630f6361102", null ]

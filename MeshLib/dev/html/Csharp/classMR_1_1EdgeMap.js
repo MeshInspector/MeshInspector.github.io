@@ -26,6 +26,7 @@ var classMR_1_1EdgeMap =
     [ "resizeNoInit", "classMR_1_1EdgeMap.html#a85ee924748cbe5b78ad7700c5a025f09", null ],
     [ "resizeWithReserve", "classMR_1_1EdgeMap.html#a8e67ee959daf9b9c6592c51cb9385b0f", null ],
     [ "resizeWithReserve", "classMR_1_1EdgeMap.html#a825bf8c5bf606fb1ba3ac5d1df32db99", null ],
+    [ "shrinkToFit", "classMR_1_1EdgeMap.html#af8f021a1eddde1047111a6084cbc2e37", null ],
     [ "swap", "classMR_1_1EdgeMap.html#af831a3ec69500981a36e8e64340056af", null ],
     [ "this[MR.EdgeId i]", "classMR_1_1EdgeMap.html#a366247dab605e34db290492d4ee46f59", null ],
     [ "vec", "classMR_1_1EdgeMap.html#ac98d21dd8f1a1455f18700e6f66e3ef0", null ]

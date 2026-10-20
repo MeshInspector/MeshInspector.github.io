@@ -36,6 +36,7 @@ var classmrmeshpy_1_1FaceNormals =
     [ "resizeNoInit", "classmrmeshpy_1_1FaceNormals.html#add8af2783aa290a0d3b05cef37958d22", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceNormals.html#abbf5898985d07890576b69d7a39f9067", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1FaceNormals.html#a997b11fe571f79bad6e4d1bc98395a8d", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1FaceNormals.html#a3c38c1af221615b7407889050a11f52a", null ],
     [ "size", "classmrmeshpy_1_1FaceNormals.html#a33410fb392161ce552ff99207aa42dc7", null ],
     [ "swap", "classmrmeshpy_1_1FaceNormals.html#aee2125e9f9d592e1d0aaae0c2ba41c65", null ],
     [ "vec", "classmrmeshpy_1_1FaceNormals.html#ac5aa8e147ef14bba573f05a79218009b", null ],

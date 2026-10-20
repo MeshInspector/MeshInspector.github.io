@@ -36,6 +36,7 @@ var classmrmeshpy_1_1VertMap =
     [ "resizeNoInit", "classmrmeshpy_1_1VertMap.html#ac6afd2c71184977268f49877df93d4b9", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1VertMap.html#a9ee8d1b8233ad3089805a2baa1f200c7", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1VertMap.html#adcfaba4fb8ab5b58f8e0685598b849a9", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1VertMap.html#aaeabe3be1c9018f7bbdc28b5ae2780ab", null ],
     [ "size", "classmrmeshpy_1_1VertMap.html#adcfafadcb94a66c7fa7acf668f5a4c8e", null ],
     [ "swap", "classmrmeshpy_1_1VertMap.html#a3022de91aaf8531d3611bf5e964e315a", null ],
     [ "vec_", "classmrmeshpy_1_1VertMap.html#ab7dbe73d01d882005131d16c6d6761c2", null ],

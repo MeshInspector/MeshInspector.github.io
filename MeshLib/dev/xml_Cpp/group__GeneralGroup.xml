@@ -46119,7 +46119,7 @@ using HashSet = phmap::flat_hash_set&lt;T, Hash, Eq&gt;</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="38" column="48" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="158"/>
+        <location file="MRMesh/MRVector.h" line="38" column="48" bodyfile="MRMesh/MRVector.h" bodystart="38" bodyend="164"/>
       </memberdef>
       <memberdef kind="variable" id="group__GeneralGroup_1ga5f40bccc013c893ac7558c2262a6eff1" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>int</type>
@@ -151612,7 +151612,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="170" column="11" bodyfile="MRMesh/MRVector.h" bodystart="170" bodyend="173"/>
+        <location file="MRMesh/MRVector.h" line="176" column="11" bodyfile="MRMesh/MRVector.h" bodystart="176" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gacc5ecd2826659aa256d0bb1b168cc3bc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -151648,7 +151648,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVector.h" line="177" column="11" bodyfile="MRMesh/MRVector.h" bodystart="177" bodyend="180"/>
+        <location file="MRMesh/MRVector.h" line="183" column="11" bodyfile="MRMesh/MRVector.h" bodystart="183" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1gad8b62d7466c2f210d9618cc9c3fe555f" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>

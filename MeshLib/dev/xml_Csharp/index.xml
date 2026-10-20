@@ -44409,6 +44409,7 @@
     <member refid="classMR_1_1Dipoles_1a51d9dfce7c812599dd64f1636e2e24d1" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Dipoles_1a874c9b9c33cb7e39ca573e4406a40410" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Dipoles_1ac989bcf1b71e524de80dc969cfc2ddfd" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Dipoles_1a80f616b1aa39fbe43121b663091ca49a" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Dipoles_1acd0b6e06eb782185d6bdafaf2f947032" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Dipoles_1a831450986d41548da7221d20aad56b1b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Dipoles_1af4e6c300917ef4c2b8caf473d10c7462" kind="function"><name>autoResizeSet</name></member>
@@ -44447,6 +44448,7 @@
     <member refid="classMR_1_1Dipoles_1ab0e4bc9ff26e27355b53339dca3abeff" kind="function"><name>__MR_Dipoles_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Dipoles_1a8375e74affe51df3399e5b623f48bf2e" kind="function"><name>__MR_Dipoles_resize_1</name></member>
     <member refid="classMR_1_1Dipoles_1a26be17001b50c20c097d4aec63c9662e" kind="function"><name>__MR_Dipoles_resize_2</name></member>
+    <member refid="classMR_1_1Dipoles_1a1aee9190e73d830f59b0a40a32ed8de5" kind="function"><name>__MR_Dipoles_shrink_to_fit</name></member>
     <member refid="classMR_1_1Dipoles_1a0c4242ba08de847caab9593535287cfe" kind="function"><name>__MR_Dipoles_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Dirty" kind="class"><name>MR::Dirty</name>
@@ -45070,6 +45072,7 @@
     <member refid="classMR_1_1EdgeColors_1a228c602555964a514698ce41ee1c10bb" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1EdgeColors_1abf2a80a0c7eb6d77a39d6029e76c3246" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1EdgeColors_1ac9fb317f392ce5f7264ce43b78a32cae" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1EdgeColors_1ae087abfa4decdb54cf487136fbf3d30f" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1EdgeColors_1a78dbe0a122ae6ac00a7bf237383f9f79" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1EdgeColors_1ac210c64b19e5698b01d280486ccc510a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1EdgeColors_1a481dcc844767d83f7568703c69db84cc" kind="function"><name>autoResizeSet</name></member>
@@ -45109,6 +45112,7 @@
     <member refid="classMR_1_1EdgeColors_1a8ca8c79c1fdb1b9a7c1b5aa509fb30a6" kind="function"><name>__MR_EdgeColors_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1EdgeColors_1a27b4336a8f9098826ca96a187ee5ef70" kind="function"><name>__MR_EdgeColors_resize_1</name></member>
     <member refid="classMR_1_1EdgeColors_1af00a7f36005f84f2cac580c84938a826" kind="function"><name>__MR_EdgeColors_resize_2</name></member>
+    <member refid="classMR_1_1EdgeColors_1a03f57d7507b53c54f4e3fae67c7610fe" kind="function"><name>__MR_EdgeColors_shrink_to_fit</name></member>
     <member refid="classMR_1_1EdgeColors_1acdc5682f89365de007a5adce10014fe1" kind="function"><name>__MR_EdgeColors_swap</name></member>
   </compound>
   <compound refid="structMR_1_1EdgeId" kind="struct"><name>MR::EdgeId</name>
@@ -45206,6 +45210,7 @@
     <member refid="classMR_1_1EdgeMap_1af6ab9f2cff75bac620c9b30128883ca5" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1EdgeMap_1a85ee924748cbe5b78ad7700c5a025f09" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1EdgeMap_1ae1e40c3baee158b932a035f4a901c628" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1EdgeMap_1af8f021a1eddde1047111a6084cbc2e37" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1EdgeMap_1a8e67ee959daf9b9c6592c51cb9385b0f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1EdgeMap_1a825bf8c5bf606fb1ba3ac5d1df32db99" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1EdgeMap_1aceb85c9998ae4cc49db461431269e40f" kind="function"><name>autoResizeSet</name></member>
@@ -45245,6 +45250,7 @@
     <member refid="classMR_1_1EdgeMap_1a2e42c72e9625c05ba97989ddb6a36960" kind="function"><name>__MR_EdgeMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1EdgeMap_1ab192ea9fb8c3b8090915f0950dee38e5" kind="function"><name>__MR_EdgeMap_resize_1</name></member>
     <member refid="classMR_1_1EdgeMap_1afa75ed2c81c4ce3dbc8cc91f27ed475a" kind="function"><name>__MR_EdgeMap_resize_2</name></member>
+    <member refid="classMR_1_1EdgeMap_1a1329d21cd4af144628be3928e52192ee" kind="function"><name>__MR_EdgeMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1EdgeMap_1a14bdb19d0630719b8517dcc7eb5855bd" kind="function"><name>__MR_EdgeMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1EdgePathsAStarBuilder" kind="class"><name>MR::EdgePathsAStarBuilder</name>
@@ -45386,6 +45392,7 @@
     <member refid="classMR_1_1Edges_1a31d4a3817fbb289b1f3c4ee959ace40a" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Edges_1ae81595995df221f204f31bdb6c3b754c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Edges_1a42c02ce3dd4b76b2ed7f635439db4ab8" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Edges_1ab1a13528e9868f87edbcb6ba5adae283" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Edges_1ade22ffe697f81d7055d3dbad864bdeed" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Edges_1a46937abeeba77d73a891e60bc9cc271d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Edges_1a5ed9dfca64011aeb03150e2c1cbb8f3f" kind="function"><name>autoResizeSet</name></member>
@@ -45424,6 +45431,7 @@
     <member refid="classMR_1_1Edges_1a2db5d4f9d29dd07159de9ade8e27f589" kind="function"><name>__MR_Edges_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Edges_1afdd5a645bd8e33d908b59b736ed43155" kind="function"><name>__MR_Edges_resize_1</name></member>
     <member refid="classMR_1_1Edges_1a9740385d5d13d53a64393625f30ed761" kind="function"><name>__MR_Edges_resize_2</name></member>
+    <member refid="classMR_1_1Edges_1a4ce4d4f0c0e8ae4621ed215f33bdf490" kind="function"><name>__MR_Edges_shrink_to_fit</name></member>
     <member refid="classMR_1_1Edges_1aa1d60d13a26d1de222f3f650de72dbe6" kind="function"><name>__MR_Edges_swap</name></member>
   </compound>
   <compound refid="classMR_1_1EdgeScalars" kind="class"><name>MR::EdgeScalars</name>
@@ -45442,6 +45450,7 @@
     <member refid="classMR_1_1EdgeScalars_1af8fe1455e30448163293a93683259e1d" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1EdgeScalars_1a9b8908eed53d94c57ab93c7c62be9ff5" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1EdgeScalars_1a14fb9d3629f68333a78af1b3eadc19ab" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1EdgeScalars_1a01623d6455693791c09d767c354297d1" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1EdgeScalars_1ac54269b978cf3d2f440cd02b9f299c32" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1EdgeScalars_1aaee1c36bed56d6c0aab2cd32093c2194" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1EdgeScalars_1aaaf6db771720b987977c13c963ed0ed3" kind="function"><name>autoResizeSet</name></member>
@@ -45480,6 +45489,7 @@
     <member refid="classMR_1_1EdgeScalars_1a55dff809060cdcc4c6328a2781c566db" kind="function"><name>__MR_EdgeScalars_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1EdgeScalars_1a6188ed612a2276352072c387d19d60b3" kind="function"><name>__MR_EdgeScalars_resize_1</name></member>
     <member refid="classMR_1_1EdgeScalars_1ab0ddb11bacdea15382c2d11ca336479f" kind="function"><name>__MR_EdgeScalars_resize_2</name></member>
+    <member refid="classMR_1_1EdgeScalars_1ae6cce829c1ebcf058bd5de98a073fd7f" kind="function"><name>__MR_EdgeScalars_shrink_to_fit</name></member>
     <member refid="classMR_1_1EdgeScalars_1a4f1e5a73149b88028eb6c02d66685f2f" kind="function"><name>__MR_EdgeScalars_swap</name></member>
   </compound>
   <compound refid="classMR_1_1EdgeSegment" kind="class"><name>MR::EdgeSegment</name>
@@ -45739,6 +45749,7 @@
     <member refid="classMR_1_1Face2RegionMap_1a145284e1babbccf070964206c540ec1c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Face2RegionMap_1ac91d77229aa73fd94753c5ecf4217b92" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Face2RegionMap_1aaa85a255507621b5fbfe910152073d1f" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Face2RegionMap_1aa7d3fa0d3b4d1bfd817708b759404a2c" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Face2RegionMap_1aeeecd911be9590dd8ec95205c3e15b6e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Face2RegionMap_1a0e8206214f2f84afd15ae052c1cdbaff" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Face2RegionMap_1afcd3982d40d0f556135d6459bdde1023" kind="function"><name>autoResizeSet</name></member>
@@ -45778,6 +45789,7 @@
     <member refid="classMR_1_1Face2RegionMap_1af6148ffa1b9d0d78b0a477f3794b8feb" kind="function"><name>__MR_Face2RegionMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Face2RegionMap_1a200ecc94a0968b24fbd6c9cfa2f1b4fd" kind="function"><name>__MR_Face2RegionMap_resize_1</name></member>
     <member refid="classMR_1_1Face2RegionMap_1a9ad8cdbec8e06aa0b66643fdf760e5ce" kind="function"><name>__MR_Face2RegionMap_resize_2</name></member>
+    <member refid="classMR_1_1Face2RegionMap_1a4519e75e7a89d30be9483d5bb6effd60" kind="function"><name>__MR_Face2RegionMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1Face2RegionMap_1abc7a5cabb43dec4b59d36cb4bc8a495a" kind="function"><name>__MR_Face2RegionMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1FaceBitSet" kind="class"><name>MR::FaceBitSet</name>
@@ -45919,6 +45931,7 @@
     <member refid="classMR_1_1FaceColors_1a1aa9189a806679670ff97d009c072043" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1FaceColors_1a9991954e97e320f09747b5e7a1830cc6" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1FaceColors_1aa74e817331f3a680a8fae1c79ca97420" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1FaceColors_1ad91d805d9ca073115be4577de7c53ca0" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1FaceColors_1ab0e628484a0a71851bed81bd363fd230" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceColors_1ad88a0e4e5714e74d59d46575c630fae1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceColors_1a892c95c360eb38fe88411ff20f100c39" kind="function"><name>autoResizeSet</name></member>
@@ -45958,6 +45971,7 @@
     <member refid="classMR_1_1FaceColors_1aa47153e6419ad00e651a3dae25f541a4" kind="function"><name>__MR_FaceColors_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1FaceColors_1ad09a4921a5a3c0bde1a9955f44daf3e9" kind="function"><name>__MR_FaceColors_resize_1</name></member>
     <member refid="classMR_1_1FaceColors_1a80650b4a2cffa2cfb6348e17c8cb3246" kind="function"><name>__MR_FaceColors_resize_2</name></member>
+    <member refid="classMR_1_1FaceColors_1a3f131f3bb281c710999f6e07f784b6b5" kind="function"><name>__MR_FaceColors_shrink_to_fit</name></member>
     <member refid="classMR_1_1FaceColors_1a43f9d8bb38c3bf180ee7925762fe8747" kind="function"><name>__MR_FaceColors_swap</name></member>
   </compound>
   <compound refid="classMR_1_1FaceDistancesSettings" kind="class"><name>MR::FaceDistancesSettings</name>
@@ -46059,6 +46073,7 @@
     <member refid="classMR_1_1FaceMap_1ab8ec61ff24e72e19d485e1c11b8a4dae" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1FaceMap_1a4b6bccfaa79e88a07efa40430f70987a" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1FaceMap_1ac13df7a10a625dbc6b0a324c2f6d24c9" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1FaceMap_1a2119340b6ce72632c12a4dfc0d806812" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1FaceMap_1a1d51e447cfda1dc7d8a6083eeeeb5fb8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceMap_1a49ffa6a9daa0256a55acc068e098aa91" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceMap_1accb74ceda23f7b6ea19de812b88c2e27" kind="function"><name>autoResizeSet</name></member>
@@ -46098,6 +46113,7 @@
     <member refid="classMR_1_1FaceMap_1acd6db97d0a2e38579d607104904d453c" kind="function"><name>__MR_FaceMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1FaceMap_1a46c62fc9772e621d56efd7c793eeec83" kind="function"><name>__MR_FaceMap_resize_1</name></member>
     <member refid="classMR_1_1FaceMap_1a5825339e05500f1959140c1f3a5435ae" kind="function"><name>__MR_FaceMap_resize_2</name></member>
+    <member refid="classMR_1_1FaceMap_1a03ad134dab06491abf59176b3e5cfbe7" kind="function"><name>__MR_FaceMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1FaceMap_1aab7382d2e310c327a0fed38c4d229306" kind="function"><name>__MR_FaceMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1FaceNormals" kind="class"><name>MR::FaceNormals</name>
@@ -46117,6 +46133,7 @@
     <member refid="classMR_1_1FaceNormals_1a8d58ae7f092ba9543b3f66c276d7ee0c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1FaceNormals_1a2662a1f79489f4a5575c38cc8214f8db" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1FaceNormals_1a54f2d94563d800e7df3dff6834aaa756" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1FaceNormals_1a192f5bab762506d2c6c8353760dc35d7" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1FaceNormals_1adbb5c0a8a192d2e029e6b05011a96bda" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceNormals_1a069cef08ff253e31a4c0194dcefb43c1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceNormals_1a5673d360a2bd1bc7dd17552e4d6beed6" kind="function"><name>autoResizeSet</name></member>
@@ -46156,6 +46173,7 @@
     <member refid="classMR_1_1FaceNormals_1a90634304b810d1b1232f37c3fb2a2f73" kind="function"><name>__MR_FaceNormals_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1FaceNormals_1ad9ee298a1051daa128d3a12ef40eb5e8" kind="function"><name>__MR_FaceNormals_resize_1</name></member>
     <member refid="classMR_1_1FaceNormals_1a23f10e2ac38f20fdb595db930645a33a" kind="function"><name>__MR_FaceNormals_resize_2</name></member>
+    <member refid="classMR_1_1FaceNormals_1ab2ee3da40c20d284b8b90ab06ca4b133" kind="function"><name>__MR_FaceNormals_shrink_to_fit</name></member>
     <member refid="classMR_1_1FaceNormals_1a6e8398b1ae25305f6333969e7c0128e5" kind="function"><name>__MR_FaceNormals_swap</name></member>
   </compound>
   <compound refid="classMR_1_1FaceScalars" kind="class"><name>MR::FaceScalars</name>
@@ -46174,6 +46192,7 @@
     <member refid="classMR_1_1FaceScalars_1a235e3629a50504f8d70538f3875144da" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1FaceScalars_1a074e6b2463772d2e3c29e54dbaba5979" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1FaceScalars_1a74dbdb78e242681dfcb6b1c5fe00e466" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1FaceScalars_1afdb510e1bcc4a955201ce270e30ad08a" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1FaceScalars_1a8409cc7acbcccaa0346ceccfb228b9d2" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceScalars_1ab0800c2c898f691c791eb58e6ee24cbc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1FaceScalars_1a6b8e878392735435f85405751f19c65a" kind="function"><name>autoResizeSet</name></member>
@@ -46212,6 +46231,7 @@
     <member refid="classMR_1_1FaceScalars_1a960a336be8cb26786724300053643d7d" kind="function"><name>__MR_FaceScalars_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1FaceScalars_1a8f1a53734e98aaca089c1f7a12e0a6ba" kind="function"><name>__MR_FaceScalars_resize_1</name></member>
     <member refid="classMR_1_1FaceScalars_1a05eea443257e1819a0b4aae22de18fe8" kind="function"><name>__MR_FaceScalars_resize_2</name></member>
+    <member refid="classMR_1_1FaceScalars_1a4f58664c1a70dd3d55bdf3a268556634" kind="function"><name>__MR_FaceScalars_shrink_to_fit</name></member>
     <member refid="classMR_1_1FaceScalars_1a6f695b5aa5d1cb59cb941cb0494f0cd4" kind="function"><name>__MR_FaceScalars_swap</name></member>
   </compound>
   <compound refid="classMR_1_1FaceSetBitIterator" kind="class"><name>MR::FaceSetBitIterator</name>
@@ -58808,6 +58828,7 @@
     <member refid="classMR_1_1ObjMap_1ad706e0c7681b6a136caf9ac7358315e3" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1ObjMap_1a9dcdf44b3d4fef4266a8ad91e873da6a" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1ObjMap_1a988974469bddb0e54321bfc8d60ea8a8" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1ObjMap_1a97678958478e9305e74e6dbf97e61e75" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1ObjMap_1aef8e1c320c27b1e6b030ed27334af0e8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1ObjMap_1a0f21d04bc9d1b714c7e09e4e0a4d8486" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1ObjMap_1a555e62ca82e7b017fc76a3adb5c75761" kind="function"><name>autoResizeSet</name></member>
@@ -58847,6 +58868,7 @@
     <member refid="classMR_1_1ObjMap_1a7ea78f722d90ee07e96215a28cf9abc4" kind="function"><name>__MR_ObjMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1ObjMap_1a8d14bd495b77df0cd89abca28425e10e" kind="function"><name>__MR_ObjMap_resize_1</name></member>
     <member refid="classMR_1_1ObjMap_1aa32f8a5cf1ccf9449d2f6de6bb9759f1" kind="function"><name>__MR_ObjMap_resize_2</name></member>
+    <member refid="classMR_1_1ObjMap_1aaaf89d2d8700cbbc1125b99fe9fb24c9" kind="function"><name>__MR_ObjMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1ObjMap_1a76c15e01ea1c9d0c1dd9c10bc8399e29" kind="function"><name>__MR_ObjMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1ObjTreeTraits" kind="class"><name>MR::ObjTreeTraits</name>
@@ -64226,6 +64248,7 @@
     <member refid="classMR_1_1TexturePerFace_1a43f0afd286ae567560acb3d2d0679197" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1TexturePerFace_1a9b0795cfcaa1a05b9055a7fd05d2cbd4" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1TexturePerFace_1aef0a8d4e016a6cba4266f8357cfd8938" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1TexturePerFace_1a4f50904e5ff0a1eebb22caed26c846a7" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1TexturePerFace_1abf88962a7c5101da994e0c4500b1021b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1TexturePerFace_1a4f2c1a25e87f27724694dd5b7986667b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1TexturePerFace_1a0d30177c57aa6c8158f0225081a7c420" kind="function"><name>autoResizeSet</name></member>
@@ -64265,6 +64288,7 @@
     <member refid="classMR_1_1TexturePerFace_1a8d8044161067aeea98484c165f22e34c" kind="function"><name>__MR_TexturePerFace_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1TexturePerFace_1af522921109eb620842fa4c589e58e182" kind="function"><name>__MR_TexturePerFace_resize_1</name></member>
     <member refid="classMR_1_1TexturePerFace_1a0ca5b72e36b280a26aca37022fc67703" kind="function"><name>__MR_TexturePerFace_resize_2</name></member>
+    <member refid="classMR_1_1TexturePerFace_1a76d30dd7102b8cca91d1c01e24406310" kind="function"><name>__MR_TexturePerFace_shrink_to_fit</name></member>
     <member refid="classMR_1_1TexturePerFace_1aecad4cc944e9470e0bb24448e450c537" kind="function"><name>__MR_TexturePerFace_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Tgt2SrcMaps" kind="class"><name>MR::Tgt2SrcMaps</name>
@@ -64537,6 +64561,7 @@
     <member refid="classMR_1_1Triangulation_1a9af2387707597bdcfc511276c817f752" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Triangulation_1aab651f600dad602bea22aad9fb1bb256" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Triangulation_1ac16f09504c1e3dfea924064c9f8d1911" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Triangulation_1a7038044ed7b275754b4187d80dfe13e5" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Triangulation_1aa451432cf70605f48e26656276aad82a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Triangulation_1a2f06b8634752fbce44347fb094a14fd9" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Triangulation_1afea0248d92a5272d3af1c7bf7cbcaf72" kind="function"><name>autoResizeSet</name></member>
@@ -64575,6 +64600,7 @@
     <member refid="classMR_1_1Triangulation_1adb5dc4504e89ba3b209616d1bedfed36" kind="function"><name>__MR_Triangulation_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Triangulation_1a325d467150e2a5ee0a21ef105d181626" kind="function"><name>__MR_Triangulation_resize_1</name></member>
     <member refid="classMR_1_1Triangulation_1a9716bf7cac6eb95c0ec68a05eb2179d1" kind="function"><name>__MR_Triangulation_resize_2</name></member>
+    <member refid="classMR_1_1Triangulation_1a11c4b373067bc2c6f4d26616809b884b" kind="function"><name>__MR_Triangulation_shrink_to_fit</name></member>
     <member refid="classMR_1_1Triangulation_1a4936cb4b480466bc2428334f37c07cfa" kind="function"><name>__MR_Triangulation_swap</name></member>
   </compound>
   <compound refid="classMR_1_1TriangulationHelpers" kind="class"><name>MR::TriangulationHelpers</name>
@@ -64646,6 +64672,7 @@
     <member refid="classMR_1_1TriCornerUVCoords_1a13391c4416fac487ca4ef0bdc2c78535" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1ac4f6e3042c30840ca61f9827d984f129" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1aaf26b1dc8eccfe557a123720465ea365" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1TriCornerUVCoords_1ae093d81b40e4cf00359a7860634d682f" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1a378f8f6366d84b90ac5219281b7c7400" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1a2a8dc265fea9c2e004ae053b8fb0107e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1a883b011819ef9f800c573c68e6be5368" kind="function"><name>autoResizeSet</name></member>
@@ -64684,6 +64711,7 @@
     <member refid="classMR_1_1TriCornerUVCoords_1a38af1d4175b4a34d645968b598e4fa14" kind="function"><name>__MR_TriCornerUVCoords_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1a74744ae3fb417fe0e879795c9d9ab2f9" kind="function"><name>__MR_TriCornerUVCoords_resize_1</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1abac9a523073578816481bfba4191add0" kind="function"><name>__MR_TriCornerUVCoords_resize_2</name></member>
+    <member refid="classMR_1_1TriCornerUVCoords_1a1c8efd0d2386f255f0aac283af76503a" kind="function"><name>__MR_TriCornerUVCoords_shrink_to_fit</name></member>
     <member refid="classMR_1_1TriCornerUVCoords_1a7e0113468c69bfe20c46fdcb3d68174d" kind="function"><name>__MR_TriCornerUVCoords_swap</name></member>
   </compound>
   <compound refid="classMR_1_1TriIntersectResult" kind="class"><name>MR::TriIntersectResult</name>
@@ -65050,6 +65078,7 @@
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a69c8d4fb99f7634e25f1b8692f4a9333" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a6a03c486c43f7c53db967645f27b382b" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a6ae931561c27ba089375c7bfee9085fc" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1UndirectedEdge2RegionMap_1a95449ac03851ca0a507aed9d46423294" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a6fb2c943431905bfefbe504e88ee785f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a6f206cf21329851581c1f6572e7849db" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a15dea6f35df14c318e941cfda2f6fc23" kind="function"><name>autoResizeSet</name></member>
@@ -65089,6 +65118,7 @@
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1ae7d99fd314f8f89ab838495658b06421" kind="function"><name>__MR_UndirectedEdge2RegionMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1abd354aa5aabe7f006bd0e6ddac5ff83f" kind="function"><name>__MR_UndirectedEdge2RegionMap_resize_1</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a05203c2d5c846200b4a6d58c2f86fc6e" kind="function"><name>__MR_UndirectedEdge2RegionMap_resize_2</name></member>
+    <member refid="classMR_1_1UndirectedEdge2RegionMap_1a15db0fea6711d11c7bf6b7ae97518bb5" kind="function"><name>__MR_UndirectedEdge2RegionMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1UndirectedEdge2RegionMap_1a560599669547570d70a01215f5ea0849" kind="function"><name>__MR_UndirectedEdge2RegionMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1UndirectedEdgeBitSet" kind="class"><name>MR::UndirectedEdgeBitSet</name>
@@ -65199,6 +65229,7 @@
     <member refid="classMR_1_1UndirectedEdgeColors_1a4fc8642aa1b56fbf48f6c8329f9f0d25" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a871fd2789e965ab36a7eba3658cb853c" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a1f2f33d8cd2e5442151e16a179cfd02f" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1UndirectedEdgeColors_1a818c3a80bfd0cbbc75d2d297b639d290" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a181f49079c294007d1adef2996ed07de" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a5cad4ca40c5f39f4b64f66db2bea3075" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a5d5fc17ab6e9ce07abd842397940bee8" kind="function"><name>autoResizeSet</name></member>
@@ -65238,6 +65269,7 @@
     <member refid="classMR_1_1UndirectedEdgeColors_1aedddad7da6250efed939cdc6ec6482f4" kind="function"><name>__MR_UndirectedEdgeColors_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a8b7c24d1bc53fa911f3240a80727c67b" kind="function"><name>__MR_UndirectedEdgeColors_resize_1</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1a468e00d154bf7ac31651a4a4a448cfbe" kind="function"><name>__MR_UndirectedEdgeColors_resize_2</name></member>
+    <member refid="classMR_1_1UndirectedEdgeColors_1add99c483146f0c2cf883ea57c0da943b" kind="function"><name>__MR_UndirectedEdgeColors_shrink_to_fit</name></member>
     <member refid="classMR_1_1UndirectedEdgeColors_1af477c7a0df1dcc85348d4c7aa0342658" kind="function"><name>__MR_UndirectedEdgeColors_swap</name></member>
   </compound>
   <compound refid="structMR_1_1UndirectedEdgeId" kind="struct"><name>MR::UndirectedEdgeId</name>
@@ -65308,6 +65340,7 @@
     <member refid="classMR_1_1UndirectedEdgeMap_1a7e0cc5f772d2a52244daec91190bc392" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1ab7050ecdfa94c231bb8a651e78ca93e7" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1a1d2377f42fdc83568071cea0f327e1a0" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1UndirectedEdgeMap_1ac4f3180ba29e366118b51d0c7db70c20" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1a7c169c44872524eb3ac52302e44c8315" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1a31d990831b206b10983e379843c141d8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1a5045c35e4eec156ec2d8087be66726df" kind="function"><name>autoResizeSet</name></member>
@@ -65347,6 +65380,7 @@
     <member refid="classMR_1_1UndirectedEdgeMap_1a9f916191939c1c237b48ddbf4f476a76" kind="function"><name>__MR_UndirectedEdgeMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1a7837b4b1528aa4f0bb77f26fca0dd580" kind="function"><name>__MR_UndirectedEdgeMap_resize_1</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1a1ff5faf5a6981aaf286ab5d36590ce1e" kind="function"><name>__MR_UndirectedEdgeMap_resize_2</name></member>
+    <member refid="classMR_1_1UndirectedEdgeMap_1a28936ac6a1f4014fd45fcf4110df81b4" kind="function"><name>__MR_UndirectedEdgeMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1UndirectedEdgeMap_1ab214c7f271426006b69ad1608f71f32f" kind="function"><name>__MR_UndirectedEdgeMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1UndirectedEdgeScalars" kind="class"><name>MR::UndirectedEdgeScalars</name>
@@ -65365,6 +65399,7 @@
     <member refid="classMR_1_1UndirectedEdgeScalars_1a0469c8ac5592a6217259af6e4060705d" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1aaabcc575ce05edab992badac28323658" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1a376876b629cab0f38064e6eb749b2de5" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1UndirectedEdgeScalars_1a64a368a5aed3504bc0e28c1522034114" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1acca3bf4828615a54aa542b962436d459" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1aa1ac23f10e3e79ab7adc3c43132d0fcf" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1aa1fdf6ee3929301ddec83b21379bfe97" kind="function"><name>autoResizeSet</name></member>
@@ -65403,6 +65438,7 @@
     <member refid="classMR_1_1UndirectedEdgeScalars_1ae49c844d708d014f7d4829f7e1f9bcfe" kind="function"><name>__MR_UndirectedEdgeScalars_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1a629e6a99626610779d21a50599930fb9" kind="function"><name>__MR_UndirectedEdgeScalars_resize_1</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1a1c5dd84293044a45fe30d30d9323384e" kind="function"><name>__MR_UndirectedEdgeScalars_resize_2</name></member>
+    <member refid="classMR_1_1UndirectedEdgeScalars_1aea1d6fe5b464aa67a1ceac3a9550e17f" kind="function"><name>__MR_UndirectedEdgeScalars_shrink_to_fit</name></member>
     <member refid="classMR_1_1UndirectedEdgeScalars_1a71bf7d5ac8a9782acacd741f25a0daca" kind="function"><name>__MR_UndirectedEdgeScalars_swap</name></member>
   </compound>
   <compound refid="classMR_1_1UndirectedEdgeSetBitIterator" kind="class"><name>MR::UndirectedEdgeSetBitIterator</name>
@@ -66742,6 +66778,7 @@
     <member refid="classMR_1_1Vector__Char__MRVertId_1afa4ab64c0865ae093533d965e23b5f3b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a59e185db30a8d66b0e8ad7f9d3905d2f" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a1d2db7b0bd8fd04f8d9666d6f6d1c485" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Char__MRVertId_1ada8911b13a2e50c502c64a9f25828c8a" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a03167d25ef3ddc738a7702de1b26ec1f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a4c53daa6c199a91c6fafc3272f414a74" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a8c220a201254ee9f7eb614692777a2dc" kind="function"><name>autoResizeSet</name></member>
@@ -66780,6 +66817,7 @@
     <member refid="classMR_1_1Vector__Char__MRVertId_1a55b06a505965cebf2ef08f6894cd50a9" kind="function"><name>__MR_Vector_char_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a1a0ae004371bf2c0cddb8cc596c119fa" kind="function"><name>__MR_Vector_char_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1ae35cfd07ee17720e56c21e55693d5793" kind="function"><name>__MR_Vector_char_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Char__MRVertId_1a1f2abee8c825bea8be3a15972fc36d8e" kind="function"><name>__MR_Vector_char_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Char__MRVertId_1a81821afac0431a07a37b13a0cb03896c" kind="function"><name>__MR_Vector_char_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Double__MRRegionId" kind="class"><name>MR::Vector_Double_MRRegionId</name>
@@ -66798,6 +66836,7 @@
     <member refid="classMR_1_1Vector__Double__MRRegionId_1ad51ec0d1f5f519d82b45a523fa5188ba" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1a4bedb69c18e4ac7955e3a34cf930e576" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1a2eede1f7b24898e556fc337f4920c8b3" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Double__MRRegionId_1a1eeadddb26166d88ce36eaff3da8dbce" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1a942c03e54236a39fc7e67be07f07d0e3" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1a60b479be83ac0fe07542660d00c19919" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1a3c92ec2ad8c62990054277aa538a8180" kind="function"><name>autoResizeSet</name></member>
@@ -66836,6 +66875,7 @@
     <member refid="classMR_1_1Vector__Double__MRRegionId_1aa68888bd46d24069057b096513ece455" kind="function"><name>__MR_Vector_double_MR_RegionId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1a0f907142bda1a68e8343dad9dd624350" kind="function"><name>__MR_Vector_double_MR_RegionId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1ae4b5acb1baa9053adcf1a253bcadf201" kind="function"><name>__MR_Vector_double_MR_RegionId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Double__MRRegionId_1adc2193d2fb8d5c79ea0a70cc237e6d49" kind="function"><name>__MR_Vector_double_MR_RegionId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Double__MRRegionId_1ae783e94684f4f35a1866a96586d40faf" kind="function"><name>__MR_Vector_double_MR_RegionId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Float__MRVoxelId" kind="class"><name>MR::Vector_Float_MRVoxelId</name>
@@ -66854,6 +66894,7 @@
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1ad02baf83a5fe63a9326c4fe3f7360625" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1ac20c7f5ba73c5341557f02700ce46d5d" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1ae630f135e387a7181e5a80423d82e376" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Float__MRVoxelId_1a9a8b41b8668c802c25291865407522da" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1af8a282f133db8c9b8d0bf87e1d9819c5" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1a1d71ef95beb1dc1c5adea4f8b79b1a8a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1a79f99423dd6f49a20e001291cd449558" kind="function"><name>autoResizeSet</name></member>
@@ -66892,6 +66933,7 @@
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1a608dc6f4a4c751ffe1d1c53a6c4cb234" kind="function"><name>__MR_Vector_float_MR_VoxelId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1a9fddb31bd14ea6b9f531eb4ef0a91c48" kind="function"><name>__MR_Vector_float_MR_VoxelId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1a7824f65e6690ac46193dc5f61a56c990" kind="function"><name>__MR_Vector_float_MR_VoxelId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Float__MRVoxelId_1a93a3a011ab830875e760a930fdcb1aef" kind="function"><name>__MR_Vector_float_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Float__MRVoxelId_1a03ffea1186d5d660e6afa16a88b1b104" kind="function"><name>__MR_Vector_float_MR_VoxelId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Int__MRFaceId" kind="class"><name>MR::Vector_Int_MRFaceId</name>
@@ -66910,6 +66952,7 @@
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a7340b9d2550037e31e663ecc8fb94d0e" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a807d851f84a4cf1bc8e7c922991f15f4" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a1b3ced0eb5b80377827714253befbdb6" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRFaceId_1a8e6f1fbd43cacd2797ce01f107bdb7fa" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a84869abb78fccad5606791f68150f283" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a97990c7981d28379c58f6c690f9dec32" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a6315774f80e66daf085660ff0a8f4951" kind="function"><name>autoResizeSet</name></member>
@@ -66948,6 +66991,7 @@
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a1e894c69760c20148e3b3b4722b0303e" kind="function"><name>__MR_Vector_int_MR_FaceId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a52af435e2f0e6c2fb54fafefdbca491e" kind="function"><name>__MR_Vector_int_MR_FaceId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a24de2d1ab5de5360ab0bfd5b474d94df" kind="function"><name>__MR_Vector_int_MR_FaceId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRFaceId_1ae8092cc613d790ddc61e7cd0f488641b" kind="function"><name>__MR_Vector_int_MR_FaceId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Int__MRFaceId_1a8ef53505cd077663f645bdf64de1602c" kind="function"><name>__MR_Vector_int_MR_FaceId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Int__MRGraphVertId" kind="class"><name>MR::Vector_Int_MRGraphVertId</name>
@@ -66966,6 +67010,7 @@
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aeb381d519df268e78d455f2e54715b79" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ae619fd5b49ea48672592eaed92d28340" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ac5f5e1e896a46bda784515feaed7e421" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRGraphVertId_1af7b692f2199e8f8e7aa3e42c038f7ce2" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a7ee924119a0169ee7209765b1fd1b663" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ab3214fa8ade28ec208b5c1449f497724" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a16983da041301ea9460ece2ed5554cb2" kind="function"><name>autoResizeSet</name></member>
@@ -67004,6 +67049,7 @@
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1aa2cfc47bdf75632c21251f05eff5f8b2" kind="function"><name>__MR_Vector_int_MR_GraphVertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a5285a972e887fc5c856f67eb3299ae1a" kind="function"><name>__MR_Vector_int_MR_GraphVertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a2f257b9ff8d0f8c17d6e0cdd80949c1b" kind="function"><name>__MR_Vector_int_MR_GraphVertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRGraphVertId_1ae4a9dabac4d73939ad87e5da127d508b" kind="function"><name>__MR_Vector_int_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Int__MRGraphVertId_1a095d61ac7585ba61a2918a52559e8c14" kind="function"><name>__MR_Vector_int_MR_GraphVertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Int__MRRegionId" kind="class"><name>MR::Vector_Int_MRRegionId</name>
@@ -67022,6 +67068,7 @@
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a8dc2e991476cb95b3b2fb5456914665b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a2980eb9793cd3ae366fb3b659e3c2e83" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a9dea1ceb77b9746fbbaf1cc27fee07ef" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a9a1dfb635636c435e6c561cd08f0a54a" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a1200ee4e7633b0887e373a0336f16b05" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a668a8b609a8cc5e1478f5f27ee4afff8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1ad4f170fc56e79e39e4f50cd96e7c5282" kind="function"><name>autoResizeSet</name></member>
@@ -67060,6 +67107,7 @@
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a1684717ca59456c67025524b842b27ae" kind="function"><name>__MR_Vector_int_MR_RegionId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a78ed12e334e8524e08483be6f4f8f85d" kind="function"><name>__MR_Vector_int_MR_RegionId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1af07d713a8cf5e8f046edbc517440e2c9" kind="function"><name>__MR_Vector_int_MR_RegionId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRRegionId_1a797f258a847480312ce38dc061d15a8d" kind="function"><name>__MR_Vector_int_MR_RegionId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Int__MRRegionId_1a8dcaddaaaf3876ba3f32d593211a90d1" kind="function"><name>__MR_Vector_int_MR_RegionId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Int__MRUndirectedEdgeId" kind="class"><name>MR::Vector_Int_MRUndirectedEdgeId</name>
@@ -67078,6 +67126,7 @@
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a478bfc844d058f7391a33dfd38e85739" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a91b55e0956bd561adc8c0f85b957b73e" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a161d9f4e98ba82c723f3da14d5e7e2e6" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a90192435de126d0e938a7150576a29f3" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae9730cb95c0ecd2048adff51306b5167" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a77c9f42bc1e6c6239a4068f789eb95a8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a8d2ed6bf2362ebc469d926a7f1f5dbc7" kind="function"><name>autoResizeSet</name></member>
@@ -67116,6 +67165,7 @@
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a5f77d398bf88d29118c166de8938603b" kind="function"><name>__MR_Vector_int_MR_UndirectedEdgeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1a1b3f6475edd4cb7c27759e40cd21fab0" kind="function"><name>__MR_Vector_int_MR_UndirectedEdgeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ab5381714abb95e0766c0ebed666d5ae0" kind="function"><name>__MR_Vector_int_MR_UndirectedEdgeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1aa7a286a80691cd27ef44ba91d658ee9f" kind="function"><name>__MR_Vector_int_MR_UndirectedEdgeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Int__MRUndirectedEdgeId_1ae1c51b4397a740e15c4482447819a571" kind="function"><name>__MR_Vector_int_MR_UndirectedEdgeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__Int__MRVertId" kind="class"><name>MR::Vector_Int_MRVertId</name>
@@ -67134,6 +67184,7 @@
     <member refid="classMR_1_1Vector__Int__MRVertId_1a11f3c65275f5d93d481a56c616940707" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1a7e2de46d829387c9fa84f3d974499fb7" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1a13248e405e439d1c21025ae580aa8df8" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__Int__MRVertId_1a4d694997bcd16a6ca79a920dc8343d4e" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1ad807e51ed8dbc5614be769dadc6f9209" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1a64a242a7a891355110f17432b8d18e44" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1aae50c163fad1c306eb04b0047f6b6ab3" kind="function"><name>autoResizeSet</name></member>
@@ -67172,6 +67223,7 @@
     <member refid="classMR_1_1Vector__Int__MRVertId_1a8ba707cfdfc266d415e4e54f03ea28eb" kind="function"><name>__MR_Vector_int_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1a909806d82cbba99134d6c60843c88858" kind="function"><name>__MR_Vector_int_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1aff99521a9c6ae0d5586d179941cabbf6" kind="function"><name>__MR_Vector_int_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__Int__MRVertId_1a2d6b5e532f841e6be874841072e39fa1" kind="function"><name>__MR_Vector_int_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__Int__MRVertId_1a8edfa1687b55ec440fe3ccfde766d77f" kind="function"><name>__MR_Vector_int_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId" kind="class"><name>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId</name>
@@ -67191,6 +67243,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1acb929a73705664fa13fbed8f3f1777f7" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1a57be4650dc70c56825b6df1cc6a54c0d" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1a890574715b1d9c281cbe7d1cd599ddcd" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1ae895bf6d1b5e7db608254612cc276534" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1aff23e6584f15a85f6d589fb7886dd8c2" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1abfba7d8b8507d4c611d2480fc04416ea" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1a161820f34aac49dc02f14bc02b246a5d" kind="function"><name>autoResizeSet</name></member>
@@ -67230,6 +67283,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1ab7478a648b32f76379990d6f679239ff" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1a1bb9b1a2ba9309ab980efe35e7106bd0" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1a380289313f809397dfcac62075d63cd3" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1a138453babd154204e4a0563ac8de8ea1" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId_1ac1d3e6cd51b734c15c696990d8879849" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kind="class"><name>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</name>
@@ -67249,6 +67303,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a3524a6bc80b51e92fb7ec5b8132df29c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a66a7af671327d83684ff150daf9daad2" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4a1b19107a187d83a24ce2340e3c279d" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a6d97b09cd430a09f5e4c80f12b00a9d5" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a2b568206ab3ac81a84552ec7d8c271cc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a3c096eafbb63257af417931e12f0859b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a6d03eb4ed60b9e3672d2b08394f3e669" kind="function"><name>autoResizeSet</name></member>
@@ -67288,6 +67343,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a131bda535e32b3d86060401d19a3fed7" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a09b10b972cd0f7d2af37273a8cd61c64" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a4ba724188bc5afaa1d8de291c28a0baf" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a1f5ade1dc6d2c77ef9e339cdfc57094f" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId_1a124f9972b3e9ccd91ff72aed9dfce39a" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId" kind="class"><name>MR::Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId</name>
@@ -67307,6 +67363,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a520d0243da529e62d68ebe275eadadfd" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a2587fd29d553e799eb3fb560e4ae65ce" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a5ae9477846ad337b4e0f321d4205f714" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a4a03ec747bc5e312e07a1e5d4fa4588d" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a174e1c32a72a90e13d59c16637d50cef" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a7d27caab06d72316cf02f1ddb396c000" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a7260a5685ebbc795e77ce2a6cfa4c8c0" kind="function"><name>autoResizeSet</name></member>
@@ -67346,6 +67403,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1ac6be587f01c3b691c5f785dc70d455a6" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a0d0927751e820625a0e8ed482e14ec43" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a8866a4abfd0c15404d92e913f0c8b84c" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a7cc810e48bd6c72f31f1e0d666a3a0d6" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId_1a39fc3040f8de50b17b1f83aef8e450f0" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId" kind="class"><name>MR::Vector_MRAABBTreeNodeMRObjTreeTraits_MRNodeId</name>
@@ -67365,6 +67423,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a226ecdd23a7eb7511166f5b6eff0648b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ab83ee962328d5cca1141550b48e3d4df" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a15e81b2d61b3fa984af995186ba5babc" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a6a478249a339b0114a66fc0490c503f8" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ae540f1dbd9885c39f77b5b8e1bb0186d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1af076dbb9b2fa026b697cfad3002c0b6c" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a8662615255e8627074b0edafd371c476" kind="function"><name>autoResizeSet</name></member>
@@ -67404,6 +67463,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a5f68e0b91acd13bd40ecb6e1f28e5710" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a270bd93cd7dce3771945575dd7033f90" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ae2d8548a19a714c1c02028c99a95ef25" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1ae689d5d40290f2eb55c386733888bf7b" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreeNodeMRObjTreeTraits__MRNodeId_1a41df4d091d26f2ccbc7588871d4ed517" kind="function"><name>__MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId" kind="class"><name>MR::Vector_MRAABBTreePointsNode_MRNodeId</name>
@@ -67422,6 +67482,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a34030846e9eb67edd144fdd8841a29a6" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a14faecb6646a0b7c09813fb73ea9aabc" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1afe5401d2d11aa4a8156530e515269ea7" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a73b2e78f648ab68fa889a6f9b82a0613" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a59a3bbf8e39b5826d212c0b353def7ed" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1ae8215f1a5fdc93b26b1cc3cdfb9195f8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a8bc3f7df58edbbc6bd99f40227701f23" kind="function"><name>autoResizeSet</name></member>
@@ -67460,6 +67521,7 @@
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a453b3dcde9e270ed52350bea0339ef4e" kind="function"><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1acd73f8b81ee388055831085a4ed64a9e" kind="function"><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a590cb2e1a79b3fe807676d9d315a5bed" kind="function"><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1a8eefd9e6841705c0a3b11943e9ea019b" kind="function"><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId_1aaa77da680b9f6078ffb79a3fce7b2725" kind="function"><name>__MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRAffineXf3f__MRObjId" kind="class"><name>MR::Vector_MRAffineXf3f_MRObjId</name>
@@ -67478,6 +67540,7 @@
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a1b1abaae21d1b8099556567ad796c5dd" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1ae025e4a29a08ba9ea8e2064c27e1a10a" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a8ec26b2c4e072424ae8772cbdf415621" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a87d10040caeb87cc9879cab21bb19d29" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1af1ae074e7e3c4e0181e9f2f576592941" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a85ffd116ea8741f6a6c2912c3ac51244" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a8cf0050b75cc075d14d2c3d36ceba79b" kind="function"><name>autoResizeSet</name></member>
@@ -67516,6 +67579,7 @@
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a7bf97c8f56096a3d579a7e333e1d8d6f" kind="function"><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a3d9f63c7a7e0fcdf2014bb352bd1690d" kind="function"><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a32c4eb0a3eee4300fd035c2482b65648" kind="function"><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a6411413264315e4540bd2ad233cc98b3" kind="function"><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRAffineXf3f__MRObjId_1a8b287d69639ed00e8c095dd23efd0277" kind="function"><name>__MR_Vector_MR_AffineXf3f_MR_ObjId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MREdgeId__MRFaceId" kind="class"><name>MR::Vector_MREdgeId_MRFaceId</name>
@@ -67535,6 +67599,7 @@
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a39389bd7135c996beae9683b265690d8" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a8c86d7d4a534f5e884b16963a10b86ff" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a21f74dd6938d205207165d5da92ed3a6" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a15ee4e9257360e2fa446539b1011b7ed" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a2f10d54812cb32176efd4ed110043f0e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1ac9ef55f400ea6b30de2336f502511171" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a6e11efc2539b8b758f975f89d778bd9a" kind="function"><name>autoResizeSet</name></member>
@@ -67576,6 +67641,7 @@
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1ace69742a15deba91fdfca8f77cb0d6ef" kind="function"><name>__MR_Vector_MR_EdgeId_MR_FaceId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a3eb75de68cca8781cb57c434524e7319" kind="function"><name>__MR_Vector_MR_EdgeId_MR_FaceId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a3744fc11cbd70de91bd75a35b357cb65" kind="function"><name>__MR_Vector_MR_EdgeId_MR_FaceId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1af551a74e60f6df5b1ec13858a4132ae7" kind="function"><name>__MR_Vector_MR_EdgeId_MR_FaceId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRFaceId_1a31175a5f13f57b1de3e9cc9f78c7cceb" kind="function"><name>__MR_Vector_MR_EdgeId_MR_FaceId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MREdgeId__MRVertId" kind="class"><name>MR::Vector_MREdgeId_MRVertId</name>
@@ -67595,6 +67661,7 @@
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1af0310354d10fef1f147aa698fd07879b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1aa36ad6f1c52c93eea64da179e76a8e86" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a82847058f181bbb08d37653e0558d94f" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a9fbfbe431567b3e4e69b9c3ab13ceeba" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1ada9ebcf6607b1886a9d84ecc76d97da1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a2c425c2bce167a859936abafb92bb1ac" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1aa1b020c8af5862e24741014cff0675e1" kind="function"><name>autoResizeSet</name></member>
@@ -67636,6 +67703,7 @@
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a6fec0576b099976494bcbe65d29f0f4c" kind="function"><name>__MR_Vector_MR_EdgeId_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a0073d893b6d58e4c6e810103c43192fd" kind="function"><name>__MR_Vector_MR_EdgeId_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1ab3b8b154c5cd656545fe4dacff2d1fdb" kind="function"><name>__MR_Vector_MR_EdgeId_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a31818c213977757be1912ee89d26484d" kind="function"><name>__MR_Vector_MR_EdgeId_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MREdgeId__MRVertId_1a7be87a84b03faa78c6badff9ecdd0888" kind="function"><name>__MR_Vector_MR_EdgeId_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId" kind="class"><name>MR::Vector_MRFaceBitSet_MRGraphVertId</name>
@@ -67654,6 +67722,7 @@
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a023548e29c1144e1bd5d63ed345f5407" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ae20b5c04fcc043bc675d495709ab9e5c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a08fb295f8bc9c44c7ae25c4c38fe3b07" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a6022969696986898ad25513da452e335" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1af0b36153330db5c4a8be77f75d21540b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a0a67e561ae60360355e7a3d600add5e1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a8892e69730d1e797bfc33c54014a4fd0" kind="function"><name>autoResizeSet</name></member>
@@ -67692,6 +67761,7 @@
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ac2c134e3dd96d92db724e12dbd9ccfbb" kind="function"><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1ac1a2b663b05d28e8a76b34467f147f56" kind="function"><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a50d397d6d3ad754eded0e7499610c801" kind="function"><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1a1fa705499e1c8012bbe2a5f12ec5ddc5" kind="function"><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRFaceBitSet__MRGraphVertId_1aa45680b53ee2a31a626fd594e71526a5" kind="function"><name>__MR_Vector_MR_FaceBitSet_MR_GraphVertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRFanRecord__MRVertId" kind="class"><name>MR::Vector_MRFanRecord_MRVertId</name>
@@ -67711,6 +67781,7 @@
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a69d7c598a2b606512b8ce915894113cf" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a775303c3b64c7c63628508c30256ecfa" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a15e88b4453d2eb0211acee95927ff4ed" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a09af4a943a542f65f4cb18aa5218b662" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a9be28eca090ab4c86c2dbc2bfc5a5512" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a6928f472a2860d5e9b12a826a6ea9941" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a55360411f4bfa375492ca1c8e1a47820" kind="function"><name>autoResizeSet</name></member>
@@ -67750,6 +67821,7 @@
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1aa3a3669c0206c89741db6c36f379b11c" kind="function"><name>__MR_Vector_MR_FanRecord_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a32a65560b1a6c7d32b2783ca9870ab7c" kind="function"><name>__MR_Vector_MR_FanRecord_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a2c33ec59eea0930e5d880f6f963fb97a" kind="function"><name>__MR_Vector_MR_FanRecord_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a855c6659838a2ac0af0d155a03894a43" kind="function"><name>__MR_Vector_MR_FanRecord_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRFanRecord__MRVertId_1a8e1d809907020c1410ce0ec6b799faad" kind="function"><name>__MR_Vector_MR_FanRecord_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId" kind="class"><name>MR::Vector_MRGraphEdgeId_MRGraphEdgeId</name>
@@ -67769,6 +67841,7 @@
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a314d573347929d6f337eb021c35489e4" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a144969094a2d9ab9c3341591178c4524" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aceb028d07bf925eb3d6959bac707d311" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1aa5c451728af37c158f386894d6ed3604" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a9b71da7d5ed7c6ea4e0f958458ea40e7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a0d9c502e98111ae8ac5d32ee0f6c7fe7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1ae9b2c071c5f4824eec84025320c5dab3" kind="function"><name>autoResizeSet</name></member>
@@ -67808,6 +67881,7 @@
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a147cef097de860ffefde0fa7ee6582b7" kind="function"><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a56dfefce7fb0bfd64945301645d5757a" kind="function"><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a73cfabd2ea6c2648d72abd46fc3c2c95" kind="function"><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1abdee290fdb69739495011b41a589accd" kind="function"><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRGraphEdgeId__MRGraphEdgeId_1a6ca385512276b332d4ea700fd8444cd2" kind="function"><name>__MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId" kind="class"><name>MR::Vector_MRGraphEndVertices_MRGraphEdgeId</name>
@@ -67826,6 +67900,7 @@
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a2cc3224637bf7c08bfbfd3b8331ac301" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1ad1cf1bcb9f2044a01c1ee915fece1523" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a880a017135d68187944854ea387708c0" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a19f96b58671ac759bf37a8a871c7dc5d" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1afdca2722a24b3f88b0ecbcc8a40e13a5" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1ad57f82cb201718e5568b22c3693f7254" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a8594c0940905ed16213810271d20cf2a" kind="function"><name>autoResizeSet</name></member>
@@ -67864,6 +67939,7 @@
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a1916534f12c20051f32b88ff23229784" kind="function"><name>__MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1adc8872a9799639a0430bce433c78805a" kind="function"><name>__MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a8fa58e5c97faca7262cb0bd356bec649" kind="function"><name>__MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1aa7b909ed922224c0b6858c9a2d1b250b" kind="function"><name>__MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId_1a48040774a05f804b5cb768ffa8ad63c5" kind="function"><name>__MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId" kind="class"><name>MR::Vector_MRGraphVertId_MRGraphVertId</name>
@@ -67883,6 +67959,7 @@
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1ad7ed19500f4523fd1fee254a154d45fa" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1af8ec82c94e36fe0f27364e5343fa5033" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1aa34a2c4ee5ec08e0a92d3091fd695b3c" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1af63f3370aaac9351156a6c29049dee97" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8da0e7de73d13684d399f667ef5e3138" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a9d94b8d00305a56612df78175a761ada" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a681f18b32e392e0f0cd786b028a29b17" kind="function"><name>autoResizeSet</name></member>
@@ -67922,6 +67999,7 @@
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1ae8378e49f00dac6e0dc76ac46b719634" kind="function"><name>__MR_Vector_MR_GraphVertId_MR_GraphVertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a1789d48f57245cde0b486f44fa4b2fe0" kind="function"><name>__MR_Vector_MR_GraphVertId_MR_GraphVertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1ade0972438fec3cb63f34f8033d92468b" kind="function"><name>__MR_Vector_MR_GraphVertId_MR_GraphVertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1afacdf0872414448faa320b4b78896ec4" kind="function"><name>__MR_Vector_MR_GraphVertId_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1ae1b1e477065b7ff1d1e8b7d2dfa72185" kind="function"><name>__MR_Vector_MR_GraphVertId_MR_GraphVertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag" kind="class"><name>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name>
@@ -67940,6 +68018,7 @@
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a68f1935fa9170af8c116396e064ebacd" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1acb39b17223530f1c2905279278e78585" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1ee86d34ac2d59aea4f81795e0c96b0b" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a94f24af0483e7d443f03ef6ebbb05203" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a42a5a233fbe0d76f0b5f25c094eca9c4" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a930c91431684f67eb1c32e682720c7cf" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5f9a1b646559ab299bbef07c9a69e97c" kind="function"><name>autoResizeSet</name></member>
@@ -67978,6 +68057,7 @@
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a16094c37435bdf5f4efc81cc54d80938" kind="function"><name>__MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a4a8102d75d2b29cc9bc7e61335542094" kind="function"><name>__MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af913fb38fc428337ec4dc26155e82826" kind="function"><name>__MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a884980ca7abc5ce03f3ec698bd082c73" kind="function"><name>__MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a064f9c4bab73c77ddd9ebca381f1e25e" kind="function"><name>__MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class"><name>MR::Vector_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
@@ -67997,6 +68077,7 @@
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a9c35647e0399eb5accb9713b72b467a9" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1abbf6f85a08266f22c48a9cebba1e9bdc" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a9d04020f3e0c60e2b79d5365f654b04f" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a94c7851303a9e5c954b16770ab818482" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2f2be6398f59754bdb69ebd2931a51f7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad29f598a33a8730da3a12d1c2250815c" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad6b6925a5a3865d24c774dd858dc40ba" kind="function"><name>autoResizeSet</name></member>
@@ -68036,6 +68117,7 @@
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2889e43835bfc304bdf0609b36c4fad6" kind="function"><name>__MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af19e60cf71b51019c548ddd6f5414915" kind="function"><name>__MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a4cbd47458500f3df3c6b0d106591f493" kind="function"><name>__MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af01b55dbac4554525a44080fae466ac4" kind="function"><name>__MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aeb2aa78af0b5375087c3632c046b8920" kind="function"><name>__MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kind="class"><name>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</name>
@@ -68054,6 +68136,7 @@
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ad8b14f1e0c846cd3bc6cd61da2bad032" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa952dbf88df1e421e198b9af54ff45a4" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a979606fd36c739bc4682d38f29f21738" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a96078e421cb42327dfe689b9c199ac47" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1af5d9ca4b80dc4ac531aa810e4602135e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9af1145ce1c05dc71ab0fdcd222f41a3" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a3567d3479db6a66e6ead367263fe7949" kind="function"><name>autoResizeSet</name></member>
@@ -68092,6 +68175,7 @@
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a28186b6f6304cdfc96070faf2d9d922d" kind="function"><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aab7f69796c1a8ba9bee52be1ea281983" kind="function"><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a6dbf766db96093e43c5c80b9b1b06c1f" kind="function"><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a48b7d788cf9851c6145f5f7711b03abe" kind="function"><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a2b4a9a7679a7a52155b154906e4c60ce" kind="function"><name>__MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId" kind="class"><name>MR::Vector_MRMeshOrPointsXf_MRObjId</name>
@@ -68108,6 +68192,7 @@
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af682e0ef0c029c72faaca708bcdd700b" kind="function"><name>clear</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a77f66cd5b975d7fd129e88b1b4713408" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a195dc26a5f42190f8592a9a3c5ffb308" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a2fabbe402df89d6f8dcc67fb7ba91f4b" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a9b89d700d9166a691637c975d50475e7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a346e8108153578594c7746a6dd65039e" kind="function"><name>autoResizeSet</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1aaa9ea48b58c56ca5dfb31b7d6878aed4" kind="function"><name>autoResizeSet</name></member>
@@ -68140,6 +68225,7 @@
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1ac09cb5b3435575aa3023d993d9525528" kind="function"><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_reserve</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a01da590f28175968f92c7c3e5e0f83f6" kind="function"><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_resize</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1af44cf480d790687dd6d6ea111dc7ac1e" kind="function"><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_resizeWithReserve</name></member>
+    <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a403f2d3fdeb0e53a01b8bdf7e5e5a94e" kind="function"><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRMeshOrPointsXf__MRObjId_1a95a31078fc007a06a316ff4eb3973c64" kind="function"><name>__MR_Vector_MR_MeshOrPointsXf_MR_ObjId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kind="class"><name>MR::Vector_MRMeshTexture_MRTextureId</name>
@@ -68158,6 +68244,7 @@
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a39ed2d38f9e4fd73da666764bd332682" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a815484dce75ea418ad83340be08f613a" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1ad1cf3578f025d5f46ba5635cb59c449b" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a4af5bc941f39751094c782db15a570dd" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a79b8b22957f2dc98563bcfd2f10bd271" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a39256b34b517655a85f9302c66f740cf" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1acf11a47a97a5fbda6679c84767c3fd58" kind="function"><name>autoResizeSet</name></member>
@@ -68198,6 +68285,7 @@
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a9e1ad8179ff1e9921c91ea70c9b3a8de" kind="function"><name>__MR_Vector_MR_MeshTexture_MR_TextureId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a16b0068f01057182a0ffbc0b129fb6a8" kind="function"><name>__MR_Vector_MR_MeshTexture_MR_TextureId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a9332a8ae3e630e12f4751347d31b6d2b" kind="function"><name>__MR_Vector_MR_MeshTexture_MR_TextureId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a4472ffc96453fd8e44f3997eb70d59a4" kind="function"><name>__MR_Vector_MR_MeshTexture_MR_TextureId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRMeshTexture__MRTextureId_1a4950c8f45a2cf2df3727d424aaac3135" kind="function"><name>__MR_Vector_MR_MeshTexture_MR_TextureId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRModelPointsData__MRObjId" kind="class"><name>MR::Vector_MRModelPointsData_MRObjId</name>
@@ -68216,6 +68304,7 @@
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a51f30917488a1e0ae38e26ff2ec1ff14" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1aed2fc05509c7e91ffa433af51a98cbb8" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a78065bec2f35ca8e3f1c5e9bf1703cc1" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a1140e9603c2742d44c04a4a1b771fbd7" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a48d3a47d5ba72aafad31ef3b54321772" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a97e55a9db6feb8376747a141e9e32d00" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a984d150e03525a156ca81ac69dac83f6" kind="function"><name>autoResizeSet</name></member>
@@ -68254,6 +68343,7 @@
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a563ada70008616a8d828db92fb4cc30f" kind="function"><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a59836636f209d68e1f125ad7d83f4aed" kind="function"><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a1567f46f053eb611088716fd5dd5c0fc" kind="function"><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1a48f6edc7b6c1936df6d07761f5793ae0" kind="function"><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRModelPointsData__MRObjId_1abb7b34bea607d9388d55d999d7467b2a" kind="function"><name>__MR_Vector_MR_ModelPointsData_MR_ObjId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId" kind="class"><name>MR::Vector_MRNestingMeshXf_MRObjId</name>
@@ -68272,6 +68362,7 @@
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ae056371fa850cc103e68e490e7675bef" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ae89d10b8651924e0094084de55f14882" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a80265450cce8c572cfa86340642c7dba" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aadd8373c7033e22daabc2fbb1fd8f0df" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1aa8816d366f89c0e85c1d001c28a69652" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a5aa3ea84acce48ec12b532144e190f88" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a2dd2ed21755a9a850edd1b81ff87f354" kind="function"><name>autoResizeSet</name></member>
@@ -68310,6 +68401,7 @@
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1abcbf2eb0034586948c32f747181dce0e" kind="function"><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1adb4f15eec06d72af26f27525ea458831" kind="function"><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1adff9d5a2f2c5993ef58b67ece6d852de" kind="function"><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1ab8cd817aaa79b1926cd49b3f7c314dde" kind="function"><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRNestingMeshXf__MRObjId_1a49a2fd824f9640689f5a402d73c5cb6e" kind="function"><name>__MR_Vector_MR_Nesting_MeshXf_MR_ObjId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kind="class"><name>MR::Vector_MRNestingNestingResult_MRObjId</name>
@@ -68328,6 +68420,7 @@
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a7b9a45e9e3f9696a66dbf08a5c712ff8" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ab672e9b6f3e06b882bb6e489c0980f8c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1aa857541720c1f201f19cd5227d850d3d" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a1533706a60fed28381f102fc0d048655" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1af46a5c1cf18bc54bd9aeffc10bb8f780" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1aa2f75c6648367fa622e2467610127c4c" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a0959ec96dddc867eefb547793a1ffcd9" kind="function"><name>autoResizeSet</name></member>
@@ -68366,6 +68459,7 @@
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a8352021ca31023eb217a4a617dd76f05" kind="function"><name>__MR_Vector_MR_Nesting_NestingResult_MR_ObjId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1afa8a4b1d6c3dd99823b3d68949c3869e" kind="function"><name>__MR_Vector_MR_Nesting_NestingResult_MR_ObjId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1a829480f1f32f9b2d2c91fd411435059d" kind="function"><name>__MR_Vector_MR_Nesting_NestingResult_MR_ObjId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1ab7ed00c84a341be10e5db23b79558bcd" kind="function"><name>__MR_Vector_MR_Nesting_NestingResult_MR_ObjId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId_1abda7f0f2faa3915140346db46bf2d462" kind="function"><name>__MR_Vector_MR_Nesting_NestingResult_MR_ObjId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRNodeId__MRNodeId" kind="class"><name>MR::Vector_MRNodeId_MRNodeId</name>
@@ -68385,6 +68479,7 @@
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a64ef2b9af7fceb6de3348b19fd541410" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a76279cea9760094977460f0977fd08a6" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1ad87adf8df298961040d3bba29d82bd20" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a80973f2f564c4e9fe2cd8da157633d97" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1aef4e49ad482902c6cdc001e6a1e541d1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1ad404209bef6dc4f8b9db7415f15be5ed" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a1ab8ff3c9b5737d9057889fb9d9e6613" kind="function"><name>autoResizeSet</name></member>
@@ -68424,6 +68519,7 @@
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1aab9bd6015fd94a625269af72a4317d22" kind="function"><name>__MR_Vector_MR_NodeId_MR_NodeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1af1ab2275789d12157c7e8e60a85f99f8" kind="function"><name>__MR_Vector_MR_NodeId_MR_NodeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a8d1239b89d19a16e707f8268113af774" kind="function"><name>__MR_Vector_MR_NodeId_MR_NodeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1a4e128603e9c776f746c75934dc28b004" kind="function"><name>__MR_Vector_MR_NodeId_MR_NodeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRNodeId__MRNodeId_1ac100aebebe6cb3dd6ac6bfd12b46460a" kind="function"><name>__MR_Vector_MR_NodeId_MR_NodeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRObjId__MRVoxelId" kind="class"><name>MR::Vector_MRObjId_MRVoxelId</name>
@@ -68443,6 +68539,7 @@
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1aad97262bf6ebd6d70bccce236a71411e" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ae4ae8941ae78cb569f82bfc2cf544174" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a894c4c7e136ab8c6d5e2e90a2911d0aa" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a92a8fee83755cb335c14980d88d6b5a6" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a699da50b8e442dc0f11b9e602784555a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a9f8c7d3d24ad77293599f80b7423d0a6" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a10098f123a581f383a7c154196975bcb" kind="function"><name>autoResizeSet</name></member>
@@ -68482,6 +68579,7 @@
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ac5537cd61d723520d974b16a0731499f" kind="function"><name>__MR_Vector_MR_ObjId_MR_VoxelId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1a75f878dca5fc14095e728ef3da6524e2" kind="function"><name>__MR_Vector_MR_ObjId_MR_VoxelId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ae718c49fe438dacd6017187e290a9cf2" kind="function"><name>__MR_Vector_MR_ObjId_MR_VoxelId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ac736ed9e4bfbf68fbdbf14536c6f0d51" kind="function"><name>__MR_Vector_MR_ObjId_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRObjId__MRVoxelId_1ad47bb479d7d20a8083977c37110a2d16" kind="function"><name>__MR_Vector_MR_ObjId_MR_VoxelId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRPixelId__MRPixelId" kind="class"><name>MR::Vector_MRPixelId_MRPixelId</name>
@@ -68501,6 +68599,7 @@
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a906a29fd6c5fd51dccdcf94e43c827d5" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a53fa2a22ff9c3a14f72caa2f6fd4f014" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a3ba783afc943c94a7342ac54047e6fcd" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a0398d800bb36c8b582cd8f98984b7f97" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1abf76b9f78a300cdeb109b8ba86d213b8" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a4465638f23cfa353a9b80f49b37d28d2" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ae0c7c2804fb3dfd3c5e7bf7ad92f84ed" kind="function"><name>autoResizeSet</name></member>
@@ -68540,6 +68639,7 @@
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ae10c1a29fd8ec307d9cfafea9027cf23" kind="function"><name>__MR_Vector_MR_PixelId_MR_PixelId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ab385611981a0751c985a4f25cc4ef1f5" kind="function"><name>__MR_Vector_MR_PixelId_MR_PixelId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ab4adaf42baadf7bb3d7c143835bc01a5" kind="function"><name>__MR_Vector_MR_PixelId_MR_PixelId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1a0e648f346f8419e37db5c2dcf12ba4c5" kind="function"><name>__MR_Vector_MR_PixelId_MR_PixelId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRPixelId__MRPixelId_1ac32061e7c4964a8e8f867b111a226c0c" kind="function"><name>__MR_Vector_MR_PixelId_MR_PixelId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId" kind="class"><name>MR::Vector_MRQuadraticForm2f_MRVertId</name>
@@ -68558,6 +68658,7 @@
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a43fe0755ebc61d5658e02e0fda0fd822" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1ae0da1f4665ad1a307d3a86efd7d72fb1" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a82c4099e0fd0b42bb77303c734673b81" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a1d8bd091c3ab5ebc659f9e4481fa6ff6" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1aabc4d7fc3df4a797970ff48e0d3f9314" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1ab1ca56821d942421826a4357185b532e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a766e280d5099b7eab059f59c50dd76a4" kind="function"><name>autoResizeSet</name></member>
@@ -68596,6 +68697,7 @@
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1ad0ea15a8783746e42283417c1c7e4ed6" kind="function"><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a9a6b9e2c7f2b1977e5bdf643e9fa715a" kind="function"><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a4383c253c72cc794af65ddba9238ced6" kind="function"><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1aa823bd615c3f06a4aec18b1fd9ff9bf9" kind="function"><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm2f__MRVertId_1a5a53ed1e24366566e5f41d830789771a" kind="function"><name>__MR_Vector_MR_QuadraticForm2f_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kind="class"><name>MR::Vector_MRQuadraticForm3f_MRVertId</name>
@@ -68614,6 +68716,7 @@
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1abc050347302b9d5235216a6903926ffe" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a33585ff5bf80d78af8f775daf60f8662" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae446b561f8d1ef7b1b29cc4aae0d3223" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a3b49d2a6efc52f999fc0e7577c51b851" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a6f46717cd0f2deb453398447855b801e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a0d486fe8a0b35f812d325097c1db325b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ac54cf621952b979e0370b27d8c58e4a3" kind="function"><name>autoResizeSet</name></member>
@@ -68652,6 +68755,7 @@
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1abe58e0158ee49d5d28337bcb83b338a4" kind="function"><name>__MR_Vector_MR_QuadraticForm3f_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a380f7a02600bf3c19c34e9b0499decc5" kind="function"><name>__MR_Vector_MR_QuadraticForm3f_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a3ef505fc66aa8d2acff1f0ab80ede42d" kind="function"><name>__MR_Vector_MR_QuadraticForm3f_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a4b676e83f061f20e6570cdaf39f4311a" kind="function"><name>__MR_Vector_MR_QuadraticForm3f_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1aefa6b94b74882424c530b112956cd7f2" kind="function"><name>__MR_Vector_MR_QuadraticForm3f_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRRegionId__MRRegionId" kind="class"><name>MR::Vector_MRRegionId_MRRegionId</name>
@@ -68671,6 +68775,7 @@
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1af83ce9be477b588c100efa032b29e2c8" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1ad23284e1f43cfcfaaefca9f3f66dcf11" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a5343bad9d946b0340106e027de0e6399" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a7592239fba147f033a1032f748b90c1e" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1af041664f7030c40bffbb6b1da0d279d1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a0467afa6f877718fa155c8a59e5619fc" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a27a237b2aa842d13ab5aacf4b96fbc74" kind="function"><name>autoResizeSet</name></member>
@@ -68710,6 +68815,7 @@
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a11f5c349258d65a5a2a2b7285b8e364a" kind="function"><name>__MR_Vector_MR_RegionId_MR_RegionId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a4c431e1031fbd93f65c7cfb3a74d29f4" kind="function"><name>__MR_Vector_MR_RegionId_MR_RegionId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a83252a47c23cd652ee7203f71bd43a83" kind="function"><name>__MR_Vector_MR_RegionId_MR_RegionId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a2667416ef68f6fe6addc863b4cc6f097" kind="function"><name>__MR_Vector_MR_RegionId_MR_RegionId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRRegionId__MRRegionId_1a340e6c7a9901ca08f9dd3124077c614a" kind="function"><name>__MR_Vector_MR_RegionId_MR_RegionId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRTextureId__MRTextureId" kind="class"><name>MR::Vector_MRTextureId_MRTextureId</name>
@@ -68729,6 +68835,7 @@
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a7eedc802e272925aad4d661f9f6df2cd" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a3f43f7d1a9ccabf89246afab3fc78c60" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a0b09e13d084c06535cc02788e9ca4edd" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a026a5cd0e2f3e27c9259b891b9425ec4" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1ae24ee26ceeae7cb05394f15f5248d027" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1ad81dc24bb6f73d467860aa4fb245d3d9" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1ab89539b92905120566b4d5c6e349fc5c" kind="function"><name>autoResizeSet</name></member>
@@ -68768,6 +68875,7 @@
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a6314699008c1f92294daeff3f72c6777" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a2003601bba7ce885304f5470ebee0349" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1ada593d88bfd362c46711b5431f9dacff" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a48c38be181656f39880b739beb930c39" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRTextureId__MRTextureId_1a1f7e90f8227fc1a0fdf264ed2b734df6" kind="function"><name>__MR_Vector_MR_TextureId_MR_TextureId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVector3i__MRVertId" kind="class"><name>MR::Vector_MRVector3i_MRVertId</name>
@@ -68787,6 +68895,7 @@
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a9646de552b9d06c4a100f2ec88b94aa1" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a614166b24833579a422832ddaf6c123f" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1ad3e9ce8be4dc8133c2c487478368cc5c" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1ae6543124bf2caf243343feed71a7358c" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1acabbc5898895f2ab7069b3b95cd05309" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1abbe30ef7feaee4480a156506cd35690b" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a716f0516dfdddfd8037714a8ded53475" kind="function"><name>autoResizeSet</name></member>
@@ -68826,6 +68935,7 @@
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a00c3e17a3733cf47a3fb4a009c82f519" kind="function"><name>__MR_Vector_MR_Vector3i_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a1e8338f34649dc539a2a6de8dde37f65" kind="function"><name>__MR_Vector_MR_Vector3i_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a92981553352e73bff798be1035def899" kind="function"><name>__MR_Vector_MR_Vector3i_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1aef47fb34e0d83e0e4e0e9770d9f9ae69" kind="function"><name>__MR_Vector_MR_Vector3i_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVector3i__MRVertId_1a10d0aafc4e937646983a3ffa65ef5c7d" kind="function"><name>__MR_Vector_MR_Vector3i_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class"><name>MR::Vector_MRVectorMRICPGroupPairsMRIdMRICPElemtTag_MRIdMRICPElemtTag</name>
@@ -68844,6 +68954,7 @@
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a7eb729b9a3cb12322a667e6b56ca95e1" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a5fb294d130fbe604cc92ec9e6893d69a" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2a043780fecedf91ee3d77907ad929bd" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a72661b49ffe0e1104c461a22a7553ec1" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1abf7d59a8e50348213266bdd634320409" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1af045307fabb0ee746a50765e08f2d79d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1aaf4c85992e9fdaf1200994af23f569d7" kind="function"><name>autoResizeSet</name></member>
@@ -68882,6 +68993,7 @@
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1ae2bdb0a19631c101fe3a593050dbbd56" kind="function"><name>__MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab3ad1524583075cb64e060978f315c56" kind="function"><name>__MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1afa465618b61b174431af7108ccf853b2" kind="function"><name>__MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a12850a6f8758e86ac1ac6d241b7fe7af" kind="function"><name>__MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag_1a08edaf18b2ad1b28e70bfdc56e2d7343" kind="function"><name>__MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int" kind="class"><name>MR::Vector_MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag_Int</name>
@@ -68900,6 +69012,7 @@
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a7629488342e7f575be44bdda9a83deba" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a359ebdc6773d86e7fb1b661861bb638a" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a4660adaf51f69f22d7b0d230681963de" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a2b7d5f75324f87ad416a0e809bd38252" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a40378c336a705d28b7ca3231214c0ae0" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1afb6adb2e46c76d4a0ee82eaa884242a7" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a36aaf457041e4d9508570148a34bd705" kind="function"><name>autoResizeSet</name></member>
@@ -68938,6 +69051,7 @@
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1aab439acb09b32874d0fbbf9b08b68609" kind="function"><name>__MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a953c3046c55240ec1a3c3580983dcafe" kind="function"><name>__MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1a2a1f9e6e7c7a78a2c168d8af8feb4d16" kind="function"><name>__MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1aa3a589ab96061eccf33e0b1a1892a900" kind="function"><name>__MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVectorMRVectorMRICPGroupPairsMRIdMRICPElemtTagMRIdMRICPElemtTag__Int_1ab412704d6281300d8dc137827652d526" kind="function"><name>__MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int" kind="class"><name>MR::Vector_MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag_Int</name>
@@ -68956,6 +69070,7 @@
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a5616caaff3ab91a1a1e1e9bbee9aac97" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a5f32c41525551847d27b2bf6a7791028" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1abfb0d21667d3b45fa68b9d0d88d4d03d" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a3d800984713bc2c2034b4d3e6570f566" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a6cba44d0684f5beaa44bb4be406ec288" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ab324dc39a946f9bee035da69b164b443" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a1f80b5f08a84a6635be028cfd6c65abb" kind="function"><name>autoResizeSet</name></member>
@@ -68994,6 +69109,7 @@
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1ae07db387695afa3f36bd96a0307ad36d" kind="function"><name>__MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a46baba9df18ffd6c23d6492f00096dba" kind="function"><name>__MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a925d233ee8a6add1df262eb9b89e81c1" kind="function"><name>__MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a4bae87e789c2cd4b984bc227b3098301" kind="function"><name>__MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVectorStdVectorMRObjVertIdMRIdMRICPElemtTag__Int_1a6a70bf4b8f2eebbe396f04df485d1c64" kind="function"><name>__MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVertBitSet__MRObjId" kind="class"><name>MR::Vector_MRVertBitSet_MRObjId</name>
@@ -69012,6 +69128,7 @@
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a55aa7e089d68185c7ca189339833023b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a38fe4374d6111b78cf9e2214f07a67f4" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a00fe50f8e1df160e2943a36a11de1bca" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1aa6302ee96cbcfde836a803b93b5b5e48" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a0f9065d22ae11242399e7ded127c73a1" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1ac33205cf4e54ae0bfc66eaf3aba54cf3" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a033041f0eaf7ab2413d4eb4eae4009e7" kind="function"><name>autoResizeSet</name></member>
@@ -69050,6 +69167,7 @@
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1adf441c5152f130558e887b49d567c28c" kind="function"><name>__MR_Vector_MR_VertBitSet_MR_ObjId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1aac71acca3e54d4c1ef5771fe27815703" kind="function"><name>__MR_Vector_MR_VertBitSet_MR_ObjId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a7797804548023f501b459c6484e052b6" kind="function"><name>__MR_Vector_MR_VertBitSet_MR_ObjId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a9ff1a336ec63f02aa70e3b9593875cfe" kind="function"><name>__MR_Vector_MR_VertBitSet_MR_ObjId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVertBitSet__MRObjId_1a50d00bf6f4e69f77657028685107c294" kind="function"><name>__MR_Vector_MR_VertBitSet_MR_ObjId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVertId__MREdgeId" kind="class"><name>MR::Vector_MRVertId_MREdgeId</name>
@@ -69069,6 +69187,7 @@
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a03af4c16ebb8a84eda4a49adcca0d9b4" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1aa668242b2875d0747c515f3fb14ebc0a" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1aab1dc5d334124817841563280f7551b7" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a8546fa37fd9a4fd2085dd4666d94869e" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a24c23f170c64e0bdb5b938ae09856a4f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1adfe8048cf1171660717e3f19b2ddb476" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a636a8618dd50362427c9d3235e311724" kind="function"><name>autoResizeSet</name></member>
@@ -69108,6 +69227,7 @@
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a5f70c2edf1e5b51507f35e4d8ed839a0" kind="function"><name>__MR_Vector_MR_VertId_MR_EdgeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1ac162167d058b943f257b40e9bbd6bfd6" kind="function"><name>__MR_Vector_MR_VertId_MR_EdgeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1ab202df64adf8d7f6a3425cd3aec88b6d" kind="function"><name>__MR_Vector_MR_VertId_MR_EdgeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a7c823f34096aa2caf5181d33596c2bdc" kind="function"><name>__MR_Vector_MR_VertId_MR_EdgeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVertId__MREdgeId_1a95ac7b97efb77221cd171afb43d40495" kind="function"><name>__MR_Vector_MR_VertId_MR_EdgeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVoxelId__MRFaceId" kind="class"><name>MR::Vector_MRVoxelId_MRFaceId</name>
@@ -69127,6 +69247,7 @@
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1aa9c5993f5e59ed24cebbe911543b506b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a9630fa8d640d552a79e28bd91b6dfa61" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a3f949eb295d24c94d576e10395da9370" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a6c8fd28522564c264013fe398985ed88" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a25aad615a1895f48ad52763c6491000f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a7e279f4699dd8c0bb9783c5675be89d5" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a5991ca29ccb3e2c62ca7838b2b2de7fd" kind="function"><name>autoResizeSet</name></member>
@@ -69166,6 +69287,7 @@
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a3b3c7e098b2519618d32c3168021776a" kind="function"><name>__MR_Vector_MR_VoxelId_MR_FaceId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a46c9ae3ae4642cb1328a0a00f24aacf5" kind="function"><name>__MR_Vector_MR_VoxelId_MR_FaceId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1abd5e8c070bb6a00f5aa13790e15f6d72" kind="function"><name>__MR_Vector_MR_VoxelId_MR_FaceId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1a0f230791e5ee71c652d2b3e6cf7f1ae0" kind="function"><name>__MR_Vector_MR_VoxelId_MR_FaceId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRFaceId_1ac1511761d5eff61154f2833d4fe27dcb" kind="function"><name>__MR_Vector_MR_VoxelId_MR_FaceId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRVoxelId__MRVoxelId" kind="class"><name>MR::Vector_MRVoxelId_MRVoxelId</name>
@@ -69185,6 +69307,7 @@
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a2793025bb306db9167459b577e80ef0c" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a5f33bd3200900fbdbe273acecb598bec" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a85a5629d7c19ce12cdd99bbc6d44dc3d" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1af6f1deab910bed303b47a2cc9f50b306" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1aed6617333c539eb277c227b0c8e00173" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a4ed951fe7bbe8a15a3631317dd9189d0" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1aba9e50fd3c5ceb5d9a1234f677089b06" kind="function"><name>autoResizeSet</name></member>
@@ -69224,6 +69347,7 @@
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a02e87d066c69fdf6f997acf525797989" kind="function"><name>__MR_Vector_MR_VoxelId_MR_VoxelId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1ae52e8d876934b46611395ecbe4313e18" kind="function"><name>__MR_Vector_MR_VoxelId_MR_VoxelId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a2739729dfa26b8f7e6c97b2ba0a8102f" kind="function"><name>__MR_Vector_MR_VoxelId_MR_VoxelId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1ad163e407358ac233355203513da13f30" kind="function"><name>__MR_Vector_MR_VoxelId_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRVoxelId__MRVoxelId_1a5a51d6412810665332a8731a3c7070e2" kind="function"><name>__MR_Vector_MR_VoxelId_MR_VoxelId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId" kind="class"><name>MR::Vector_MRWatershedGraphBasinInfo_MRGraphVertId</name>
@@ -69242,6 +69366,7 @@
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aeca7e57c129cd7253e97ede68b4bc79a" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1add7335e5c4bc6c70b92945f2b372e3c7" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a0296d206855a863b45e47afbd4033d16" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aa05dbdd7216a6e20d9f9a0e4cb12d7f0" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aaa64bf119965af7ce127d5369cde2350" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1acb4ebabf5a863f75ae08086965787591" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1aedf33f723023d5fc697a0502bee30eb6" kind="function"><name>autoResizeSet</name></member>
@@ -69280,6 +69405,7 @@
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a90ad3bda0f649f802d912f815f526c33" kind="function"><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1af17ed8b44f394a2a486174b753131637" kind="function"><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1ad301141e318f2ec732e29f8dc69c643b" kind="function"><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a7415bf03a3d51f190515c9609c326f26" kind="function"><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBasinInfo__MRGraphVertId_1a581f8d0af271d55af7228325145b620d" kind="function"><name>__MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId" kind="class"><name>MR::Vector_MRWatershedGraphBdInfo_MRGraphEdgeId</name>
@@ -69298,6 +69424,7 @@
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1ab6f7aa46bbba616841aec770616b5755" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1af4861e531280b292f3a42615fb93655d" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a6dad3b56da286c7b1c79c56a2c1b2851" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a590be828449e578b7740797a7960f94b" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1aa898640abf0fe51f02f82b1f8030a132" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1ac5f084bae4a396cc8421aca461bbb08c" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1ad98106e6f23673a30b3e40ae2e4307f6" kind="function"><name>autoResizeSet</name></member>
@@ -69336,6 +69463,7 @@
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1afe68254ec873b2ab03557b62145cde5c" kind="function"><name>__MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a8c8b2d039d017aef489f66cf7dde09f8" kind="function"><name>__MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_resize_1</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a4652dc9320071808f854f350aaaffaee" kind="function"><name>__MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a12aa6cd9f03056a472a91b7c48f83bbc" kind="function"><name>__MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId_1a7dfb13d0fac1a9d97bae6390a9e5865f" kind="function"><name>__MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId" kind="class"><name>MR::Vector_StdArrayMRVector3f3_MRFaceId</name>
@@ -69354,6 +69482,7 @@
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a834fb027e46dca2b9e8a771f028babc3" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a6835e711f9e16da19a7c29158f87cf8b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1ac26fbb621b8e76e472e789b7dcbf4b74" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a1b4a7814769db8cfc00660893c89f37d" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a0e9bf83be9ffc5adf2b3737fc90a5189" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a09bd4e3e4b715d50f9512dcab1e9281e" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a36f46f3d2fc5e16e59a7c70e4adceed6" kind="function"><name>autoResizeSet</name></member>
@@ -69392,6 +69521,7 @@
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1ab85f67fafa0ba46f8001b4b3e9a6ca27" kind="function"><name>__MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1aea8fbc536b4332014a6aff8a4b397e73" kind="function"><name>__MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_resize_1</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a40fe4d5fa54b378060418f4766351824" kind="function"><name>__MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1a0c4397b93f4b5097b8aae4faeef4b9d3" kind="function"><name>__MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId_1adbeb8576e1523c654d16743f846d5e16" kind="function"><name>__MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId" kind="class"><name>MR::Vector_StdFilesystemPath_MRTextureId</name>
@@ -69410,6 +69540,7 @@
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a430307bbbe9072a2cb76f594453c4573" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a12ba95104ced624aac2b11d3cb6dfa08" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a548f2e4b08e9ad5390b220c1ca72bc8b" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1ab5e1acdc8de1394c24ff0cd8f7505fe8" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a9a412eccfd2d2def5e8f00dffed4dcad" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a3bd31027e83d78a52925b5598cd0bb7d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a3f7fcd027f4fbba4f0c5c0c690e7a6bc" kind="function"><name>autoResizeSet</name></member>
@@ -69448,6 +69579,7 @@
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1af65bdcef113d424b43847f567ca34d38" kind="function"><name>__MR_Vector_std_filesystem_path_MR_TextureId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1af33e4ec872b490c38ac024fe206db578" kind="function"><name>__MR_Vector_std_filesystem_path_MR_TextureId_resize_1</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a2cc21f5bfeb12aa071420802558c30f5" kind="function"><name>__MR_Vector_std_filesystem_path_MR_TextureId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1a0c35e8bdd0ed7083e993811fa2d80c03" kind="function"><name>__MR_Vector_std_filesystem_path_MR_TextureId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__StdFilesystemPath__MRTextureId_1afe44bc61fdc3ddec8263d71b2e268e33" kind="function"><name>__MR_Vector_std_filesystem_path_MR_TextureId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId" kind="class"><name>MR::Vector_StdVectorMREdgePoint_MRVertId</name>
@@ -69466,6 +69598,7 @@
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a3156f01204c3774eb62bccfecc5def62" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a99ab7920823df14f8c3dedc7c38ebf42" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a2adf51622fa54232d002feabe98a782c" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ac15a8c2dfceae610a88556c34ed75496" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a64162003be742521710d76303c8c215d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ae2e31df9e6bc6ea0626da5fd1e2b6f1a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1aa60734e2f5c7fe0170ee8ddd287f9839" kind="function"><name>autoResizeSet</name></member>
@@ -69504,6 +69637,7 @@
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1ae1b4190202b013c52621e3a5b7401e68" kind="function"><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a850f52681885aff4b1bf30aba6d49e93" kind="function"><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1acaba1a19993bc6efd3afbb010316bf84" kind="function"><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a6705925590af8949a7581873d62213cc" kind="function"><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__StdVectorMREdgePoint__MRVertId_1a646530bfe1f6de92e6f57d75fc59b7ab" kind="function"><name>__MR_Vector_std_vector_MR_EdgePoint_MR_VertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId" kind="class"><name>MR::Vector_StdVectorMRGraphEdgeId_MRGraphVertId</name>
@@ -69522,6 +69656,7 @@
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a6fdc28ec14d4643f415569c7c1d56dc3" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1ad59a8c964a05c997dcd0054b4e288493" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a3458b03396108a78c3738adaed365c6e" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a8f0e79aee8388c3f1690f83b0f3eae9e" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1aca84a5a2492dd3e94363d1a792b5c93d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1ae1c2c76ca1e4d2244b1a095b29e26f0f" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a009e6ba542f5e301ac44583138f886bb" kind="function"><name>autoResizeSet</name></member>
@@ -69560,6 +69695,7 @@
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1abb5889cda9ef55fca4059504db2dbb2c" kind="function"><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a38184b847298e50384b3d3fa77703a14" kind="function"><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_resize_1</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a7b6dd81e3ff0243781fc0321c01f693e" kind="function"><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a23c79c63fbb96788778c196de4e08eac" kind="function"><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRGraphEdgeId__MRGraphVertId_1a1d8e77e72d14ae5e37c6412a49de3652" kind="function"><name>__MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag" kind="class"><name>MR::Vector_StdVectorMRObjVertId_MRIdMRICPElemtTag</name>
@@ -69578,6 +69714,7 @@
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aeac0a82f77b7745444256d478fa710ad" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a8ad65cf317585357f3bfa5d44c25760b" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a73eed8b60e9e7192be0590b8a212cf92" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1ae84325be5a999883c3e3a5059b4712c9" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a4f8ff98602c315b401c67641c14d9965" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a167206ec7dafd2d58bbe2f949b4ba412" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aa4b17b7b5484aa7b19fc2d8ee550f4bd" kind="function"><name>autoResizeSet</name></member>
@@ -69616,6 +69753,7 @@
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a31ec8038d54b1e369e328769f4d2acbb" kind="function"><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a7a295103b7dae3b129caad40e3903158" kind="function"><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_resize_1</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1afd18f2cd55797cfc89086286730b6ac4" kind="function"><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_resize_2</name></member>
+    <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1aef7d20d7dd548abc67592229a37e2a5e" kind="function"><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__StdVectorMRObjVertId__MRIdMRICPElemtTag_1a1c8b55ab0bcb9311fa17047b4661a72e" kind="function"><name>__MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_swap</name></member>
   </compound>
   <compound refid="classMR_1_1Vector__UnsignedShort__MRVoxelId" kind="class"><name>MR::Vector_UnsignedShort_MRVoxelId</name>
@@ -69634,6 +69772,7 @@
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ab9e2261e44a53dc601737bf8e38bb2ac" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a239c143b99243c2030a94dce4241d721" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a729c7bde135f0f1a01142fe93debdd85" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a40781f87502f489596f11af8826649ee" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a13301069cad614b3cf8d23ac9b7e8f03" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a2be6861465abcc5996e5837fb3900885" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1ad187125fd4045c929f0fb1334d04317a" kind="function"><name>autoResizeSet</name></member>
@@ -69672,6 +69811,7 @@
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1adc89cf9476735241333026fc04e96cd4" kind="function"><name>__MR_Vector_unsigned_short_MR_VoxelId_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a3234215fd32344511fa132372e62c2d4" kind="function"><name>__MR_Vector_unsigned_short_MR_VoxelId_resize_1</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1a683943d0a0627f386974edb3b23011ee" kind="function"><name>__MR_Vector_unsigned_short_MR_VoxelId_resize_2</name></member>
+    <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1abf85ce32c67c1a31caab35690d060cd7" kind="function"><name>__MR_Vector_unsigned_short_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vector__UnsignedShort__MRVoxelId_1aa0669cc4373bbd0d8ce52827faa0ad9c" kind="function"><name>__MR_Vector_unsigned_short_MR_VoxelId_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VersatileChangeMeshPointsAction" kind="class"><name>MR::VersatileChangeMeshPointsAction</name>
@@ -69704,6 +69844,7 @@
     <member refid="classMR_1_1Vert2RegionMap_1aa10eed6e5cc9ceb6b0bb5ba99c476160" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a1f8385cc4db56147aedab19f4e993eba" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a04b000b881bd1bfb875bad605936e8ae" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1Vert2RegionMap_1a4b89ebc706d018b5299a29c00939862a" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a619f9cfbeceee3b85b743cca06781d56" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1aa3523d53062bf3c5dd2714414bf0d528" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1ac166ebf9378c377a9c5a267f5ab54bac" kind="function"><name>autoResizeSet</name></member>
@@ -69743,6 +69884,7 @@
     <member refid="classMR_1_1Vert2RegionMap_1a13c914c59dbd63f774bbe47d8160f727" kind="function"><name>__MR_Vert2RegionMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a4df0035a58032aad1aab06553a608676" kind="function"><name>__MR_Vert2RegionMap_resize_1</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a20afe5d5e66da27c47fc2833819d7377" kind="function"><name>__MR_Vert2RegionMap_resize_2</name></member>
+    <member refid="classMR_1_1Vert2RegionMap_1af3b2dc8aaa3bf1a4f448a0d3366220d5" kind="function"><name>__MR_Vert2RegionMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1Vert2RegionMap_1a05a7625547cff3edb7872513f68c4146" kind="function"><name>__MR_Vert2RegionMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VertBitSet" kind="class"><name>MR::VertBitSet</name>
@@ -69884,6 +70026,7 @@
     <member refid="classMR_1_1VertColors_1ac4b9f7dc789792dee80d11b837cb9d85" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1VertColors_1a7805e7d4b0b6a7617ade4fece16aed98" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1VertColors_1a3dbd6c93f004245ea822d2505905b49f" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1VertColors_1aae75e4fe8e7878b33fc2490848bb884d" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1VertColors_1ae6b4286e34c17f669778ac11ccee48ee" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertColors_1a510c4b64a3e4f250bd20c168fadd699d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertColors_1a583b403089d68fe742320c124eed3ee4" kind="function"><name>autoResizeSet</name></member>
@@ -69923,6 +70066,7 @@
     <member refid="classMR_1_1VertColors_1a9b98ec854f3faf332b54ad4a990d4ad6" kind="function"><name>__MR_VertColors_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1VertColors_1a95d4243e46d5111a4bb55ba753e2dcf8" kind="function"><name>__MR_VertColors_resize_1</name></member>
     <member refid="classMR_1_1VertColors_1a542ccafd3c525b2e99cf5cdf91ceefc2" kind="function"><name>__MR_VertColors_resize_2</name></member>
+    <member refid="classMR_1_1VertColors_1a91857cf41cabf9e7e81057bd3d0f5fe3" kind="function"><name>__MR_VertColors_shrink_to_fit</name></member>
     <member refid="classMR_1_1VertColors_1a9fe344d95e138f4409ae091f1301c677" kind="function"><name>__MR_VertColors_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VertCoords" kind="class"><name>MR::VertCoords</name>
@@ -69942,6 +70086,7 @@
     <member refid="classMR_1_1VertCoords_1a5565dc229b1cd4b8bca349958830e422" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1VertCoords_1af6def684220720d8468b8e9b7310bd08" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1VertCoords_1ad770f8495050d630f3be84906c81c0c5" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1VertCoords_1aeb4338bd3a2e9d3b8d46e43c5f354af2" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1VertCoords_1aa12da505a8d5fd80ed199432d4744a12" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertCoords_1aea4c4f44fdce53e414f9273d74858071" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertCoords_1aa0c11fdc064fdc1082d74260fad4c17c" kind="function"><name>autoResizeSet</name></member>
@@ -69981,6 +70126,7 @@
     <member refid="classMR_1_1VertCoords_1a9817305a4760428e40a9f9d07714f462" kind="function"><name>__MR_VertCoords_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1VertCoords_1a6c406427ba0dad7dca324acbd122d0f1" kind="function"><name>__MR_VertCoords_resize_1</name></member>
     <member refid="classMR_1_1VertCoords_1a63720ce1a05f67b5a8ab4f53009c1944" kind="function"><name>__MR_VertCoords_resize_2</name></member>
+    <member refid="classMR_1_1VertCoords_1a3c66fd6f1d42a35c77d45c1c66fdca2d" kind="function"><name>__MR_VertCoords_shrink_to_fit</name></member>
     <member refid="classMR_1_1VertCoords_1a00fde3e206e4e679f65add979534fef6" kind="function"><name>__MR_VertCoords_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VertCoords2" kind="class"><name>MR::VertCoords2</name>
@@ -70000,6 +70146,7 @@
     <member refid="classMR_1_1VertCoords2_1aa663c311a19f4761dcbc2396455d4d90" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1VertCoords2_1ac468fdd342b9e362b236e46c963209c9" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1VertCoords2_1aa50611c904390de741f778efdee9213b" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1VertCoords2_1a2a674be5f797167165c01f4c4ca1d535" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1VertCoords2_1ad68998e5cd0e38b95b3dadcef8e59d32" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertCoords2_1a568a99ea9710983e712ce7eedd296bba" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertCoords2_1a1cbcbf2ce03fce221d53094f731e6e58" kind="function"><name>autoResizeSet</name></member>
@@ -70039,6 +70186,7 @@
     <member refid="classMR_1_1VertCoords2_1a3ccbe191a6b4155fe1006e14ab267f2f" kind="function"><name>__MR_VertCoords2_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1VertCoords2_1aa5559f4f421911a56b6d81f72f1ce9a7" kind="function"><name>__MR_VertCoords2_resize_1</name></member>
     <member refid="classMR_1_1VertCoords2_1abe91c29fb3fe791b83627387f5be95b8" kind="function"><name>__MR_VertCoords2_resize_2</name></member>
+    <member refid="classMR_1_1VertCoords2_1a65f4e0ddfcc154eacc0a5d31c5139cb3" kind="function"><name>__MR_VertCoords2_shrink_to_fit</name></member>
     <member refid="classMR_1_1VertCoords2_1ad31160ae246db7140cd14c6a2c639d86" kind="function"><name>__MR_VertCoords2_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VertCoordsDiff" kind="class"><name>MR::VertCoordsDiff</name>
@@ -70170,6 +70318,7 @@
     <member refid="classMR_1_1VertMap_1a13f6bef1e39abba71c6d584322ed9646" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1VertMap_1afcd86e452fece2a271800a2ae3582652" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1VertMap_1ac618e350884f994108381953d5868957" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1VertMap_1a77ecec633cfc3f5a166bdc9e81827e41" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1VertMap_1adce266a41ea8546cf9a3cf6d6e044444" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertMap_1a5860251a02b1d0b6305116f5c3cb9b6a" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertMap_1a902506303913a128b5305e7be1b70bb3" kind="function"><name>autoResizeSet</name></member>
@@ -70209,6 +70358,7 @@
     <member refid="classMR_1_1VertMap_1a5f06129f500c77f668d11b08f74f3d2b" kind="function"><name>__MR_VertMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1VertMap_1adeb4aa044904704498eb660245c0e429" kind="function"><name>__MR_VertMap_resize_1</name></member>
     <member refid="classMR_1_1VertMap_1a7ae9385f6a846c0871f3fb6cf13ae7b5" kind="function"><name>__MR_VertMap_resize_2</name></member>
+    <member refid="classMR_1_1VertMap_1acc9c1d5b0df5b5fc6c358e1b05ae5c87" kind="function"><name>__MR_VertMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1VertMap_1ac64eb3e973ab0ac804a9e65cbed2083e" kind="function"><name>__MR_VertMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VertPathInfo" kind="class"><name>MR::VertPathInfo</name>
@@ -70252,6 +70402,7 @@
     <member refid="classMR_1_1VertScalars_1a949a513f9a76da02604254da1f255338" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1VertScalars_1a9a58948ba34fd118e9eeeaad9edc66bc" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1VertScalars_1a5f4b3bc0ca19ea05aae8986c64d6950a" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1VertScalars_1a59deb13caab3c7bd1771c0b00be4c2c1" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1VertScalars_1afb2197b71df41b1bfc9d6a1d7c2d9e99" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertScalars_1a8868c70d0f1e3003321c7f002858347c" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1VertScalars_1a83320b4cfd98662eb36d835efcc4a56c" kind="function"><name>autoResizeSet</name></member>
@@ -70290,6 +70441,7 @@
     <member refid="classMR_1_1VertScalars_1a59a4ba4ca4864f8cec09b68d703ecb2a" kind="function"><name>__MR_VertScalars_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1VertScalars_1a4b5724f2872343fe3677283ed1bd6e3c" kind="function"><name>__MR_VertScalars_resize_1</name></member>
     <member refid="classMR_1_1VertScalars_1a5feeb3cc0f44f21be99f18094f03b285" kind="function"><name>__MR_VertScalars_resize_2</name></member>
+    <member refid="classMR_1_1VertScalars_1a4cb38ce8e0dde1c19cbe78faa5c2b644" kind="function"><name>__MR_VertScalars_shrink_to_fit</name></member>
     <member refid="classMR_1_1VertScalars_1a01ceeaec64f0760fcc68d611e170cc3f" kind="function"><name>__MR_VertScalars_swap</name></member>
   </compound>
   <compound refid="classMR_1_1VertSetBitIterator" kind="class"><name>MR::VertSetBitIterator</name>
@@ -71243,6 +71395,7 @@
     <member refid="classMR_1_1WholeEdgeMap_1ad147e4fef70fb83ac341d5616152fe38" kind="function"><name>resize</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1a02ead3246a3c59c2214c62027362c253" kind="function"><name>resizeNoInit</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1a21f3f9857831df59188e66280a077352" kind="function"><name>reserve</name></member>
+    <member refid="classMR_1_1WholeEdgeMap_1a47ee9334063014c4a2be6d1179516cb4" kind="function"><name>shrinkToFit</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1acb48f1f2e3baaf595827cb49a312ebba" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1a460cd8822a6b87d46a481d0a78e78f7d" kind="function"><name>resizeWithReserve</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1a000dae6c579a9b0b6df9e62b46bf13ed" kind="function"><name>autoResizeSet</name></member>
@@ -71282,6 +71435,7 @@
     <member refid="classMR_1_1WholeEdgeMap_1a3afb48dcddca07d0020f8b1c007ce827" kind="function"><name>__MR_WholeEdgeMap_resizeWithReserve_2</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1ab05a159df373eb533b4b06a2ec4a81e0" kind="function"><name>__MR_WholeEdgeMap_resize_1</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1ad9cc3001d2bb26e14fa271f9470b2c5d" kind="function"><name>__MR_WholeEdgeMap_resize_2</name></member>
+    <member refid="classMR_1_1WholeEdgeMap_1afba00f27fd1c4e8b46048206eaee866a" kind="function"><name>__MR_WholeEdgeMap_shrink_to_fit</name></member>
     <member refid="classMR_1_1WholeEdgeMap_1aba36583f83dec56bdbe7fc1e82c40e73" kind="function"><name>__MR_WholeEdgeMap_swap</name></member>
   </compound>
   <compound refid="classMR_1_1XfBasedCache__MRBox3f" kind="class"><name>MR::XfBasedCache_MRBox3f</name>

@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId =
     [ "resize", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a14faecb6646a0b7c09813fb73ea9aabc", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a59a3bbf8e39b5826d212c0b353def7ed", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ae8215f1a5fdc93b26b1cc3cdfb9195f8", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a73b2e78f648ab68fa889a6f9b82a0613", null ],
     [ "swap", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#af022db9b79d52d0b4ec10278cf018fb6", null ],
     [ "this[MR.NodeId i]", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#ae68683473030666d07f82d7f4bf36518", null ],
     [ "vec", "classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId.html#a1e5c18c21628af3ce76782cb96fce744", null ]

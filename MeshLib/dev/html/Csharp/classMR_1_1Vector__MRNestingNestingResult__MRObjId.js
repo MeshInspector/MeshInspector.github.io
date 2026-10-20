@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRNestingNestingResult__MRObjId =
     [ "resize", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#ab672e9b6f3e06b882bb6e489c0980f8c", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#af46a5c1cf18bc54bd9aeffc10bb8f780", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#aa2f75c6648367fa622e2467610127c4c", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a1533706a60fed28381f102fc0d048655", null ],
     [ "swap", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a93db6371b67b4283ad1617d9a29120ac", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#a7e0715985952e01ef443e6936b3ed1d8", null ],
     [ "vec", "classMR_1_1Vector__MRNestingNestingResult__MRObjId.html#ae7299df9512b0dc73e8791df1088e2f3", null ]

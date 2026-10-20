@@ -25746,6 +25746,7 @@
     <member refid="MRVector_8h_1a02faf3b74b3e1a13a8db6b00c9c7b166" kind="function"><name>MR_Edges_resize_2</name></member>
     <member refid="MRVector_8h_1a1aedf7bc01a7478ac8a54e258cbda8ef" kind="function"><name>MR_Edges_capacity</name></member>
     <member refid="MRVector_8h_1a5279035e055c00a4f7631b0c5c3e9192" kind="function"><name>MR_Edges_reserve</name></member>
+    <member refid="MRVector_8h_1a94a7f9e0ccdd97d2eab12a4eb4659871" kind="function"><name>MR_Edges_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a30551889a87229b0c7018ffd2b59d6fc" kind="function"><name>MR_Edges_index</name></member>
     <member refid="MRVector_8h_1a47441a130e1ef38d907ba108faeccddc" kind="function"><name>MR_Edges_index_mut</name></member>
     <member refid="MRVector_8h_1aac7e52c5212d97d8ab713eb8e9f68dc0" kind="function"><name>MR_Edges_resizeWithReserve_1</name></member>
@@ -25794,6 +25795,7 @@
     <member refid="MRVector_8h_1a929cccba0a9daf30275dd4b099f4c4c2" kind="function"><name>MR_Triangulation_resize_2</name></member>
     <member refid="MRVector_8h_1a338189970a1657f757114b47b37491e2" kind="function"><name>MR_Triangulation_capacity</name></member>
     <member refid="MRVector_8h_1ac7430276fafa60ef45503090e92f2b0a" kind="function"><name>MR_Triangulation_reserve</name></member>
+    <member refid="MRVector_8h_1a1583393524260fdb40ef75b258d0a4cb" kind="function"><name>MR_Triangulation_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1adfb48c98cfc13d1f385a9af2c78abcee" kind="function"><name>MR_Triangulation_index</name></member>
     <member refid="MRVector_8h_1af07f45411b8771eaed1d2da2c976ccca" kind="function"><name>MR_Triangulation_index_mut</name></member>
     <member refid="MRVector_8h_1a2f719aba32b406bdd1b56f03fdd74298" kind="function"><name>MR_Triangulation_resizeWithReserve_1</name></member>
@@ -25842,6 +25844,7 @@
     <member refid="MRVector_8h_1a17d2c9bcb3508e532d1f1edec38ce956" kind="function"><name>MR_TriCornerUVCoords_resize_2</name></member>
     <member refid="MRVector_8h_1aca8faea0bf3a7221cfaff058ab29387c" kind="function"><name>MR_TriCornerUVCoords_capacity</name></member>
     <member refid="MRVector_8h_1a0589cf32a9e0c1ed7820cd0283910d10" kind="function"><name>MR_TriCornerUVCoords_reserve</name></member>
+    <member refid="MRVector_8h_1a7fc5597447216790a18c599ff7841fa1" kind="function"><name>MR_TriCornerUVCoords_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aae44be3ae09e84039cd8ff00ee74a906" kind="function"><name>MR_TriCornerUVCoords_index</name></member>
     <member refid="MRVector_8h_1a8fb12655d40e00060d9d0312068d3fb3" kind="function"><name>MR_TriCornerUVCoords_index_mut</name></member>
     <member refid="MRVector_8h_1a7ec3bb782db4db6353654d9049cf1795" kind="function"><name>MR_TriCornerUVCoords_resizeWithReserve_1</name></member>
@@ -25888,6 +25891,7 @@
     <member refid="MRVector_8h_1a4bd6e70fcd33219a3fe0fa1cf17056da" kind="function"><name>MR_Dipoles_resize_2</name></member>
     <member refid="MRVector_8h_1a129c244c917e62f97dc7a241284adecc" kind="function"><name>MR_Dipoles_capacity</name></member>
     <member refid="MRVector_8h_1aca760e4014d170b8ad8d181fa8079bb5" kind="function"><name>MR_Dipoles_reserve</name></member>
+    <member refid="MRVector_8h_1ac9848f7c4e93a7d613fb3a1cb96ab8dc" kind="function"><name>MR_Dipoles_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a3a70b5c8999094727736aadd2dadfcc3" kind="function"><name>MR_Dipoles_index</name></member>
     <member refid="MRVector_8h_1a43c7053908c3103a64ae10bda110a176" kind="function"><name>MR_Dipoles_index_mut</name></member>
     <member refid="MRVector_8h_1aebbfd12d6f76b92ba99a6653bf4cbee4" kind="function"><name>MR_Dipoles_resizeWithReserve_1</name></member>
@@ -25937,6 +25941,7 @@
     <member refid="MRVector_8h_1a54b2ff31ffc49cd5a7b798e5cf5486c8" kind="function"><name>MR_FaceMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1afd04013cfef3714316cc2f95a9c0858d" kind="function"><name>MR_FaceMap_capacity</name></member>
     <member refid="MRVector_8h_1a5815596253084dbca8a84413df26f721" kind="function"><name>MR_FaceMap_reserve</name></member>
+    <member refid="MRVector_8h_1ab54e113cfe38f27c762a24e217d9e534" kind="function"><name>MR_FaceMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a675d0f825f1afb54ab73231cae493c10" kind="function"><name>MR_FaceMap_index</name></member>
     <member refid="MRVector_8h_1aa3fbb3d7d9e7043a32e4527156fe06e3" kind="function"><name>MR_FaceMap_index_mut</name></member>
     <member refid="MRVector_8h_1a7b11f123ae4bf03df10c8ec4cd3a7db3" kind="function"><name>MR_FaceMap_resizeWithReserve_1</name></member>
@@ -25986,6 +25991,7 @@
     <member refid="MRVector_8h_1a7bd54cf3b4ac19f41446ef42af8b78d6" kind="function"><name>MR_VertMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a381a232047f9c104b88e5b152459399c" kind="function"><name>MR_VertMap_capacity</name></member>
     <member refid="MRVector_8h_1aa6d349e347f507fd18bafba48b4455eb" kind="function"><name>MR_VertMap_reserve</name></member>
+    <member refid="MRVector_8h_1a5c1fc6abbb7d97108c9ba0dabbcca987" kind="function"><name>MR_VertMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a96c84cac068238b0b287b70d3708aa9e" kind="function"><name>MR_VertMap_index</name></member>
     <member refid="MRVector_8h_1a25f837ba2bd6a50d4965cfb1cbc122cc" kind="function"><name>MR_VertMap_index_mut</name></member>
     <member refid="MRVector_8h_1a69ada9c7e06673bc99d46926fbf984d7" kind="function"><name>MR_VertMap_resizeWithReserve_1</name></member>
@@ -26035,6 +26041,7 @@
     <member refid="MRVector_8h_1a03498b2c00b7a8e9030844097217acfc" kind="function"><name>MR_EdgeMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1aa53ae62fbcc37e05e0a8b7c2e6dafd89" kind="function"><name>MR_EdgeMap_capacity</name></member>
     <member refid="MRVector_8h_1abe2f1e79503892aaff856df47a5de384" kind="function"><name>MR_EdgeMap_reserve</name></member>
+    <member refid="MRVector_8h_1a203110911dfe502437f4eceb77d2a51a" kind="function"><name>MR_EdgeMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a655e9400450e2ec7dfd3a5defe548560" kind="function"><name>MR_EdgeMap_index</name></member>
     <member refid="MRVector_8h_1af89a5ddc298b7510569ed2d072584c1c" kind="function"><name>MR_EdgeMap_index_mut</name></member>
     <member refid="MRVector_8h_1a6f444d7cac49b6d20815fd0ec54be14b" kind="function"><name>MR_EdgeMap_resizeWithReserve_1</name></member>
@@ -26084,6 +26091,7 @@
     <member refid="MRVector_8h_1ac5bc79b3e128c0257a1d9603027ccaa7" kind="function"><name>MR_UndirectedEdgeMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a7d90c2b7b2e27a047cc807786f11511e" kind="function"><name>MR_UndirectedEdgeMap_capacity</name></member>
     <member refid="MRVector_8h_1a6fa392ab162eab81eeda84f03a7ba53f" kind="function"><name>MR_UndirectedEdgeMap_reserve</name></member>
+    <member refid="MRVector_8h_1a6723e64deaf7437a9db485bec9fb0e2c" kind="function"><name>MR_UndirectedEdgeMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a9ab718e5ff1c7ce603b153ced762a04a" kind="function"><name>MR_UndirectedEdgeMap_index</name></member>
     <member refid="MRVector_8h_1a2aef683ef9d3ff85758041441b108e8d" kind="function"><name>MR_UndirectedEdgeMap_index_mut</name></member>
     <member refid="MRVector_8h_1a81ee3620d45a80568984725ce033b4a2" kind="function"><name>MR_UndirectedEdgeMap_resizeWithReserve_1</name></member>
@@ -26133,6 +26141,7 @@
     <member refid="MRVector_8h_1aae6013b80a19500f46c208077205cf2b" kind="function"><name>MR_ObjMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ad31dbcac87926567173c2d0403b34589" kind="function"><name>MR_ObjMap_capacity</name></member>
     <member refid="MRVector_8h_1aa0ae07d94a607af71026aaf296366bbd" kind="function"><name>MR_ObjMap_reserve</name></member>
+    <member refid="MRVector_8h_1a280718ad57e5f073e0cb3f1db063aed8" kind="function"><name>MR_ObjMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a2374fb842886bdfaaed5ac1bfb63016c" kind="function"><name>MR_ObjMap_index</name></member>
     <member refid="MRVector_8h_1af54c78c9ecfaa64eec03d74e08834e0e" kind="function"><name>MR_ObjMap_index_mut</name></member>
     <member refid="MRVector_8h_1ad97d4c23efdfd1e49aa874f24c007947" kind="function"><name>MR_ObjMap_resizeWithReserve_1</name></member>
@@ -26182,6 +26191,7 @@
     <member refid="MRVector_8h_1acfa959945df44ebd5f02c196182a94dd" kind="function"><name>MR_WholeEdgeMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a5b257588449e869025ab965eb0fb86d0" kind="function"><name>MR_WholeEdgeMap_capacity</name></member>
     <member refid="MRVector_8h_1a90a365043e2448a1a50d445532adbf0b" kind="function"><name>MR_WholeEdgeMap_reserve</name></member>
+    <member refid="MRVector_8h_1ab5c743777dcdf43cb5f9b9ea5075dec1" kind="function"><name>MR_WholeEdgeMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a6028720d0d75a8addf87083788bd6a71" kind="function"><name>MR_WholeEdgeMap_index</name></member>
     <member refid="MRVector_8h_1ab7702c18aed8de9ed265030c74f49c15" kind="function"><name>MR_WholeEdgeMap_index_mut</name></member>
     <member refid="MRVector_8h_1a8b1bee727e883aede24dc83a0e2dcb87" kind="function"><name>MR_WholeEdgeMap_resizeWithReserve_1</name></member>
@@ -26231,6 +26241,7 @@
     <member refid="MRVector_8h_1a65103e7db92b84673c4a3dae668da9f3" kind="function"><name>MR_UndirectedEdge2RegionMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ad7bd43086fb2e5f9181d00a34acaba84" kind="function"><name>MR_UndirectedEdge2RegionMap_capacity</name></member>
     <member refid="MRVector_8h_1af5b31129d8c2a91b5438dae395d2489e" kind="function"><name>MR_UndirectedEdge2RegionMap_reserve</name></member>
+    <member refid="MRVector_8h_1a3049fa2a78647213f8bc5cbfe9f8df38" kind="function"><name>MR_UndirectedEdge2RegionMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1addd650a5aede05052aa08fbd071020b3" kind="function"><name>MR_UndirectedEdge2RegionMap_index</name></member>
     <member refid="MRVector_8h_1a784b4709abbe8137e2dffe6ec5b24161" kind="function"><name>MR_UndirectedEdge2RegionMap_index_mut</name></member>
     <member refid="MRVector_8h_1a7371ca270ef7a78a9de34771958fb4d7" kind="function"><name>MR_UndirectedEdge2RegionMap_resizeWithReserve_1</name></member>
@@ -26280,6 +26291,7 @@
     <member refid="MRVector_8h_1a9d8e884a670268cb26c3c0516eb02a53" kind="function"><name>MR_Face2RegionMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a027a748aad163b01dfd4cf70e32d1ffc" kind="function"><name>MR_Face2RegionMap_capacity</name></member>
     <member refid="MRVector_8h_1a8944571bd950f95b1940c67abef03f24" kind="function"><name>MR_Face2RegionMap_reserve</name></member>
+    <member refid="MRVector_8h_1a5729642e6810b7b2cc2722f25d83843c" kind="function"><name>MR_Face2RegionMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a9fad31f3461118b62dc82e67031e3cbd" kind="function"><name>MR_Face2RegionMap_index</name></member>
     <member refid="MRVector_8h_1ac610a918aeb9118a2151401b346cdb14" kind="function"><name>MR_Face2RegionMap_index_mut</name></member>
     <member refid="MRVector_8h_1a284d18a81e0eaaf4a8e17d2f3888faf9" kind="function"><name>MR_Face2RegionMap_resizeWithReserve_1</name></member>
@@ -26329,6 +26341,7 @@
     <member refid="MRVector_8h_1a67a30fc2e3d522d08e035a2a8c0f1bfd" kind="function"><name>MR_Vert2RegionMap_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ad3aa6aab4ffccd342ae52c1426c70aff" kind="function"><name>MR_Vert2RegionMap_capacity</name></member>
     <member refid="MRVector_8h_1aca0adc6fece74c1dcadbde7fb6764c1c" kind="function"><name>MR_Vert2RegionMap_reserve</name></member>
+    <member refid="MRVector_8h_1a27a4e31add7f7c3750b0748a70429630" kind="function"><name>MR_Vert2RegionMap_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1abecade7de37735fa39b3ef91c4aa0646" kind="function"><name>MR_Vert2RegionMap_index</name></member>
     <member refid="MRVector_8h_1a507e7bf2109a9a3509579bec04fb45e5" kind="function"><name>MR_Vert2RegionMap_index_mut</name></member>
     <member refid="MRVector_8h_1a3ea0145a95e28e79e10523fbe2d0bb84" kind="function"><name>MR_Vert2RegionMap_resizeWithReserve_1</name></member>
@@ -26378,6 +26391,7 @@
     <member refid="MRVector_8h_1aea56465e8039bda7a3be8ac800ca62d0" kind="function"><name>MR_VertCoords_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a42e30016a533d9dfaba2d012a28bd61c" kind="function"><name>MR_VertCoords_capacity</name></member>
     <member refid="MRVector_8h_1a7be03b7dfa8b9cc37d6987f5f49ce198" kind="function"><name>MR_VertCoords_reserve</name></member>
+    <member refid="MRVector_8h_1abc4508fc95c66f6a73c5cd03e7b8a8f5" kind="function"><name>MR_VertCoords_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a98bba3cd12b65eee0e3d5aa1810bdafe" kind="function"><name>MR_VertCoords_index</name></member>
     <member refid="MRVector_8h_1a835f3851aeca604add9506dc3fc5ae40" kind="function"><name>MR_VertCoords_index_mut</name></member>
     <member refid="MRVector_8h_1a3bee7a523a363c7bb6ed6d3ad1bd129c" kind="function"><name>MR_VertCoords_resizeWithReserve_1</name></member>
@@ -26427,6 +26441,7 @@
     <member refid="MRVector_8h_1af7fa17f5884c7c9269d8fe0809b8b8c1" kind="function"><name>MR_VertCoords2_resizeNoInit</name></member>
     <member refid="MRVector_8h_1aa482bf7440acc4d685d6503d1ff3e361" kind="function"><name>MR_VertCoords2_capacity</name></member>
     <member refid="MRVector_8h_1ad0e1c26d0730c01766c9c8a8242fde3c" kind="function"><name>MR_VertCoords2_reserve</name></member>
+    <member refid="MRVector_8h_1a760e3dcd0b7afd63ecc48d6fcb05fa1e" kind="function"><name>MR_VertCoords2_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a14a28b27c3c7fa37e9017a68fa2a8719" kind="function"><name>MR_VertCoords2_index</name></member>
     <member refid="MRVector_8h_1afea59b656b88026d1b206501a16845cd" kind="function"><name>MR_VertCoords2_index_mut</name></member>
     <member refid="MRVector_8h_1a3c4fd958353e46b785e257b8b20b1416" kind="function"><name>MR_VertCoords2_resizeWithReserve_1</name></member>
@@ -26476,6 +26491,7 @@
     <member refid="MRVector_8h_1a983062098383ecefee5cfb69b05d22bf" kind="function"><name>MR_FaceNormals_resizeNoInit</name></member>
     <member refid="MRVector_8h_1acb704ae367ad07f093459cd33ebcc4ea" kind="function"><name>MR_FaceNormals_capacity</name></member>
     <member refid="MRVector_8h_1a18b74a31cd1950bb5409628ef2caa118" kind="function"><name>MR_FaceNormals_reserve</name></member>
+    <member refid="MRVector_8h_1a3affd0b874aa975cec292d6a97e6275c" kind="function"><name>MR_FaceNormals_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ac5ebe1e737dad93e077f212865bd1184" kind="function"><name>MR_FaceNormals_index</name></member>
     <member refid="MRVector_8h_1ac41d73c76dd8c685444ff5080a2ef076" kind="function"><name>MR_FaceNormals_index_mut</name></member>
     <member refid="MRVector_8h_1a14441ddc6b18750e40120f5a10001091" kind="function"><name>MR_FaceNormals_resizeWithReserve_1</name></member>
@@ -26525,6 +26541,7 @@
     <member refid="MRVector_8h_1a0e8861acb65bd46763c8aec97c71f32c" kind="function"><name>MR_TexturePerFace_resizeNoInit</name></member>
     <member refid="MRVector_8h_1aeeba710e1992eac609f4d022545a5226" kind="function"><name>MR_TexturePerFace_capacity</name></member>
     <member refid="MRVector_8h_1a058ae29fd0c5290a983e6803a70ac971" kind="function"><name>MR_TexturePerFace_reserve</name></member>
+    <member refid="MRVector_8h_1aabe5d62fccab92c80cf1620c9a109fca" kind="function"><name>MR_TexturePerFace_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1af1a34718582b47200f2e94ed6ddace62" kind="function"><name>MR_TexturePerFace_index</name></member>
     <member refid="MRVector_8h_1a55873a975eb0dc0c6fff679b34c4b97b" kind="function"><name>MR_TexturePerFace_index_mut</name></member>
     <member refid="MRVector_8h_1a0ccd00d24f753463a51537a6c25d410c" kind="function"><name>MR_TexturePerFace_resizeWithReserve_1</name></member>
@@ -26574,6 +26591,7 @@
     <member refid="MRVector_8h_1a418e71c7b919f4c65d9bacfb31ccc558" kind="function"><name>MR_VertColors_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a4d27fd4c38659e3802a1d9d04a66d4d1" kind="function"><name>MR_VertColors_capacity</name></member>
     <member refid="MRVector_8h_1a3ea29f7dbecf84e386801c4b59480d99" kind="function"><name>MR_VertColors_reserve</name></member>
+    <member refid="MRVector_8h_1a9640534e44c671aaa74c024ba30fe9d8" kind="function"><name>MR_VertColors_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ac50e5447ea2c66b5c2ab6bb70c2d50a5" kind="function"><name>MR_VertColors_index</name></member>
     <member refid="MRVector_8h_1abec8196ac4e37456dfcbf235a10d2a30" kind="function"><name>MR_VertColors_index_mut</name></member>
     <member refid="MRVector_8h_1aa9513694d2fe70d4a4ae33df801abe99" kind="function"><name>MR_VertColors_resizeWithReserve_1</name></member>
@@ -26623,6 +26641,7 @@
     <member refid="MRVector_8h_1a461ccb40929eee6802919425fa58e9b5" kind="function"><name>MR_FaceColors_resizeNoInit</name></member>
     <member refid="MRVector_8h_1accd10b3e36664797c9c2ef010a3817e3" kind="function"><name>MR_FaceColors_capacity</name></member>
     <member refid="MRVector_8h_1ae6e9777cd8effef5909b9101e5e156f1" kind="function"><name>MR_FaceColors_reserve</name></member>
+    <member refid="MRVector_8h_1ab26c91f5e022b3a2e10c88acca151ddd" kind="function"><name>MR_FaceColors_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a22569d58c4668ddd8758d8d36522cc35" kind="function"><name>MR_FaceColors_index</name></member>
     <member refid="MRVector_8h_1a0e64f59f6a71e202ec6524011dce8336" kind="function"><name>MR_FaceColors_index_mut</name></member>
     <member refid="MRVector_8h_1a60394b252bc166b2164f07a78780f97f" kind="function"><name>MR_FaceColors_resizeWithReserve_1</name></member>
@@ -26672,6 +26691,7 @@
     <member refid="MRVector_8h_1ae939732689d6bfa0fc4c6b8979ba76ff" kind="function"><name>MR_EdgeColors_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a743759a16866167422fe60be2cf0bbb6" kind="function"><name>MR_EdgeColors_capacity</name></member>
     <member refid="MRVector_8h_1abcb47c24fa5b87ad987b53979c769f2a" kind="function"><name>MR_EdgeColors_reserve</name></member>
+    <member refid="MRVector_8h_1a7c8eab14db2a9c25840f18eea84b8a09" kind="function"><name>MR_EdgeColors_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ad20334948f2cc8f5d657b1d45a78901a" kind="function"><name>MR_EdgeColors_index</name></member>
     <member refid="MRVector_8h_1aa212cd102a0c8e293de90d97f5fbeaa1" kind="function"><name>MR_EdgeColors_index_mut</name></member>
     <member refid="MRVector_8h_1af5d5357e2a31feaaab071c23a4c9af0d" kind="function"><name>MR_EdgeColors_resizeWithReserve_1</name></member>
@@ -26721,6 +26741,7 @@
     <member refid="MRVector_8h_1a8942ec20047475a9e6e0ca3e3e1a6805" kind="function"><name>MR_UndirectedEdgeColors_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a5c68da3b7041f1cc82677d4581ffb560" kind="function"><name>MR_UndirectedEdgeColors_capacity</name></member>
     <member refid="MRVector_8h_1ac5066dfbc39e9022f3eaf25286efdf45" kind="function"><name>MR_UndirectedEdgeColors_reserve</name></member>
+    <member refid="MRVector_8h_1a6d884344f86e10759e2358b083ef00ed" kind="function"><name>MR_UndirectedEdgeColors_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a810638d9f016d3d18f5593023b96d5fc" kind="function"><name>MR_UndirectedEdgeColors_index</name></member>
     <member refid="MRVector_8h_1ab7c031e7beb1d9a4575122725ef2be43" kind="function"><name>MR_UndirectedEdgeColors_index_mut</name></member>
     <member refid="MRVector_8h_1a131c85fa1a2135de730c9d2c3c1aaf2c" kind="function"><name>MR_UndirectedEdgeColors_resizeWithReserve_1</name></member>
@@ -26769,6 +26790,7 @@
     <member refid="MRVector_8h_1a109faef2d8d8c1baa06375f6b60eecc6" kind="function"><name>MR_VertScalars_resize_2</name></member>
     <member refid="MRVector_8h_1af44ec6c1eb46fd352d56d0f114d270a9" kind="function"><name>MR_VertScalars_capacity</name></member>
     <member refid="MRVector_8h_1a52150cad476bfe540fe08861872183ba" kind="function"><name>MR_VertScalars_reserve</name></member>
+    <member refid="MRVector_8h_1a5ac7c31db83a8ddc747c54a6120498ee" kind="function"><name>MR_VertScalars_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a633c78b38024e31e2316fd7ca139c608" kind="function"><name>MR_VertScalars_index</name></member>
     <member refid="MRVector_8h_1a1f9f5df1bd1e3e1aa9dc5f118ac4926b" kind="function"><name>MR_VertScalars_index_mut</name></member>
     <member refid="MRVector_8h_1ae2a58749ace283f50a9c8c1df4c02fd6" kind="function"><name>MR_VertScalars_resizeWithReserve_1</name></member>
@@ -26817,6 +26839,7 @@
     <member refid="MRVector_8h_1a630b0391719b36feb7b6aeb064afb645" kind="function"><name>MR_FaceScalars_resize_2</name></member>
     <member refid="MRVector_8h_1a716d2ecca1e6c44ce2b49d3cdcfc35a1" kind="function"><name>MR_FaceScalars_capacity</name></member>
     <member refid="MRVector_8h_1af1aa79594b6a68c78752f8e1a18dfffc" kind="function"><name>MR_FaceScalars_reserve</name></member>
+    <member refid="MRVector_8h_1ad6715bda8c82e013dda85844c2588725" kind="function"><name>MR_FaceScalars_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1adc9244d4c8a8f3b1744003b8c1303699" kind="function"><name>MR_FaceScalars_index</name></member>
     <member refid="MRVector_8h_1aaa01135100e77f622d4c63b2cfe6ca5b" kind="function"><name>MR_FaceScalars_index_mut</name></member>
     <member refid="MRVector_8h_1aa4cbd7eee8cfa038ff284bd566924d21" kind="function"><name>MR_FaceScalars_resizeWithReserve_1</name></member>
@@ -26865,6 +26888,7 @@
     <member refid="MRVector_8h_1aab996efb4e5bf2ee979155ef0f524f31" kind="function"><name>MR_EdgeScalars_resize_2</name></member>
     <member refid="MRVector_8h_1a6ccd96fe5d03896a374b81cd53856988" kind="function"><name>MR_EdgeScalars_capacity</name></member>
     <member refid="MRVector_8h_1addabbc2653b612769e8e08e89dee9243" kind="function"><name>MR_EdgeScalars_reserve</name></member>
+    <member refid="MRVector_8h_1a5bce64100a6fa41346bd3f7131e72168" kind="function"><name>MR_EdgeScalars_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a3d7d4f823f3263f77e8be73ab1bd4e8b" kind="function"><name>MR_EdgeScalars_index</name></member>
     <member refid="MRVector_8h_1ae6b60b67265af52134759835a30ef018" kind="function"><name>MR_EdgeScalars_index_mut</name></member>
     <member refid="MRVector_8h_1a38ad274b3518d018d249657d041517be" kind="function"><name>MR_EdgeScalars_resizeWithReserve_1</name></member>
@@ -26913,6 +26937,7 @@
     <member refid="MRVector_8h_1a4094af472cf74d64a2e2564d2ad2fad4" kind="function"><name>MR_UndirectedEdgeScalars_resize_2</name></member>
     <member refid="MRVector_8h_1aac43ae0471747dab354be833e915d39f" kind="function"><name>MR_UndirectedEdgeScalars_capacity</name></member>
     <member refid="MRVector_8h_1a1c0dec28c1b3f008f0ff09589e3b321c" kind="function"><name>MR_UndirectedEdgeScalars_reserve</name></member>
+    <member refid="MRVector_8h_1ae9f7508eebff33a92de6fadfad1fabdd" kind="function"><name>MR_UndirectedEdgeScalars_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ad3682b901c5150b87f11a2d456e94f8e" kind="function"><name>MR_UndirectedEdgeScalars_index</name></member>
     <member refid="MRVector_8h_1ad543757935965ccc341c6aeac6f26db7" kind="function"><name>MR_UndirectedEdgeScalars_index_mut</name></member>
     <member refid="MRVector_8h_1a7cb68630cc6abae5565db5a358f98635" kind="function"><name>MR_UndirectedEdgeScalars_resizeWithReserve_1</name></member>
@@ -26961,6 +26986,7 @@
     <member refid="MRVector_8h_1aefe02af2814bc6589b2ec93cdabf3b3c" kind="function"><name>MR_Vector_int_MR_FaceId_resize_2</name></member>
     <member refid="MRVector_8h_1af2a40eab0ee706ea2118eee48ab19ba1" kind="function"><name>MR_Vector_int_MR_FaceId_capacity</name></member>
     <member refid="MRVector_8h_1a9fe0c75a1f6b2962f713ea0cb7906a43" kind="function"><name>MR_Vector_int_MR_FaceId_reserve</name></member>
+    <member refid="MRVector_8h_1ae301f3d3385a9ec10ce6f994137e0fbd" kind="function"><name>MR_Vector_int_MR_FaceId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a35968a5b46cf6c96fb48e5b38ffc068b" kind="function"><name>MR_Vector_int_MR_FaceId_index</name></member>
     <member refid="MRVector_8h_1acc0b5f1fe9af7365c57bae8e11f46c3a" kind="function"><name>MR_Vector_int_MR_FaceId_index_mut</name></member>
     <member refid="MRVector_8h_1ac2179a905550cbb93b4817dd2d675a49" kind="function"><name>MR_Vector_int_MR_FaceId_resizeWithReserve_1</name></member>
@@ -27008,6 +27034,7 @@
     <member refid="MRVector_8h_1a139e196c706108d92d5796446f308ab1" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a792ea0aca42939e9e73999a79c10d615" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_capacity</name></member>
     <member refid="MRVector_8h_1a38b30d09c5a2b722936379c0d3d8f96a" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_reserve</name></member>
+    <member refid="MRVector_8h_1abaff34ed8e7c8bc250e0c227233ff159" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a66bef711b0bf7da395221035c484188c" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_index</name></member>
     <member refid="MRVector_8h_1a24e3ee24b61026c0cd853081e110432a" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_index_mut</name></member>
     <member refid="MRVector_8h_1a7e1de9c3e531b22fe40f2f66a1e68996" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f_MR_NodeId_resizeWithReserve_1</name></member>
@@ -27055,6 +27082,7 @@
     <member refid="MRVector_8h_1ae8867e0cb2dfb4146d615cac24f57ee5" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a793dea9dd3d1f74907891b3520d11e4c" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_capacity</name></member>
     <member refid="MRVector_8h_1aa872762ae19e21ffcdcc671232bf0bc4" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_reserve</name></member>
+    <member refid="MRVector_8h_1a788dc1e23d2de0edd77458d71b0d2e19" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a5683d6550ca8d09812bacda27405f883" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_index</name></member>
     <member refid="MRVector_8h_1a12267fa6f6a65590c816ba3115ca0aac" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_index_mut</name></member>
     <member refid="MRVector_8h_1a6156df14ae6af284e76ca55e2d492251" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_ObjTreeTraits_MR_NodeId_resizeWithReserve_1</name></member>
@@ -27099,6 +27127,7 @@
     <member refid="MRVector_8h_1af55a218f8f2f5524ea6d31f5e3907083" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_resize</name></member>
     <member refid="MRVector_8h_1a54903cde4253eec83ca678e407f2ddf1" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_capacity</name></member>
     <member refid="MRVector_8h_1a90cf7d08396f6f13dd46ab2b770450d4" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_reserve</name></member>
+    <member refid="MRVector_8h_1aa9f261c0c5f57adc0895c1d16a3d7ccf" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a064e951456ca0025316da0432bf30576" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_index</name></member>
     <member refid="MRVector_8h_1affab3ff2d576b066a7a4b0e558c7c3d3" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_index_mut</name></member>
     <member refid="MRVector_8h_1a26dc627d78685a689741a06ab4e9b21f" kind="function"><name>MR_Vector_MR_MeshOrPointsXf_MR_ObjId_resizeWithReserve</name></member>
@@ -27145,6 +27174,7 @@
     <member refid="MRVector_8h_1ace63130bf7a37ba25a4c94414f6df2ce" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_resize_2</name></member>
     <member refid="MRVector_8h_1af56e6475d3b2c15339c2c250e22898f3" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_capacity</name></member>
     <member refid="MRVector_8h_1a51e9c0370d347db57d7ae8869789c296" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_reserve</name></member>
+    <member refid="MRVector_8h_1a2192724b50c3783aaeb25e20ea8572f4" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a2f92fd146849c7f46f95ca08ac760564" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_index</name></member>
     <member refid="MRVector_8h_1a903b233ca7c15afe8a9fa566f6f83a11" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_index_mut</name></member>
     <member refid="MRVector_8h_1ac47363f648ca31ac04a410db2cf8af3f" kind="function"><name>MR_Vector_MR_AffineXf3f_MR_ObjId_resizeWithReserve_1</name></member>
@@ -27191,6 +27221,7 @@
     <member refid="MRVector_8h_1af1aa6933d162f315bf05ffb6277eec94" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_resize_2</name></member>
     <member refid="MRVector_8h_1a2d7d8a75ac2057e764863cb53a1839be" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_capacity</name></member>
     <member refid="MRVector_8h_1a8cd2a9fdd48d6d39df5318d20f0432a0" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_reserve</name></member>
+    <member refid="MRVector_8h_1a252b4a04c4505acd027df31184631e76" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a12fe4829e6aafa301168aa086e3e22c3" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_index</name></member>
     <member refid="MRVector_8h_1af82b077db0b5aa8dda2402779cd439e9" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_index_mut</name></member>
     <member refid="MRVector_8h_1ab42302ac9e83e0451cfda2b2dc3e2e80" kind="function"><name>MR_Vector_MR_AABBTreePoints_Node_MR_NodeId_resizeWithReserve_1</name></member>
@@ -27240,6 +27271,7 @@
     <member refid="MRVector_8h_1a7206b4341e2330a28d79b68098f7ca4a" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ad018165a7d1ba1cf65ccde01bf32928f" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1a3f03fcce8ac78357a5f1aad374575dad" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1a27034691b6e7b14ab2643fd654bfd67a" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1adab37b7a3ebfa77d3e5e5acf7d02adf2" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1a6930d9f8ccb128ce2fa86ad83123a6c6" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1a2bc1634249e2d5f2ce40cea200d837c3" kind="function"><name>MR_Vector_MR_EdgeId_MR_VertId_resizeWithReserve_1</name></member>
@@ -27290,6 +27322,7 @@
     <member refid="MRVector_8h_1aace927d60445e7019c6145b8e7669602" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ae32867ecaa087200a1c84b4782d05248" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_capacity</name></member>
     <member refid="MRVector_8h_1a6b7d3f9005d228cf8cb35827e542af6c" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_reserve</name></member>
+    <member refid="MRVector_8h_1a69fac59a9b47d833a94edd6828fb4eae" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aece7c54fdec395b011c8c6bcbd1e8812" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_index</name></member>
     <member refid="MRVector_8h_1ad0715872fe3e2a962d2f896db465fef8" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_index_mut</name></member>
     <member refid="MRVector_8h_1ace1606599598583bd74e1962abc169ed" kind="function"><name>MR_Vector_MR_EdgeId_MR_FaceId_resizeWithReserve_1</name></member>
@@ -27337,6 +27370,7 @@
     <member refid="MRVector_8h_1a6c850ffa408e16c5ad1eed0ee0341039" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_resize_2</name></member>
     <member refid="MRVector_8h_1aa8c407d312b31d73271ecc61b61f9cde" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_capacity</name></member>
     <member refid="MRVector_8h_1a0b98edcb0fb70de15c9b19b98e2cdc3a" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_reserve</name></member>
+    <member refid="MRVector_8h_1a20b50bc35c40c7c2b8e3b216ca3b28e4" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1af8b596c256eb6a1892b146863d405e5a" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_index</name></member>
     <member refid="MRVector_8h_1aa9dfd4b83ab4d2299c2f80edb8609082" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_index_mut</name></member>
     <member refid="MRVector_8h_1aaaae4792b3b1dc988c5754e9eda30597" kind="function"><name>MR_Vector_MR_MeshBuilder_VertSpan_MR_FaceId_resizeWithReserve_1</name></member>
@@ -27386,6 +27420,7 @@
     <member refid="MRVector_8h_1afb4d2b47f85ffdbf56d195655b9e5fa0" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a239f383b410d3cc7c3b28be54c7d29c6" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_capacity</name></member>
     <member refid="MRVector_8h_1a75a10aea02a8f7ff51da296d2a3ac68e" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_reserve</name></member>
+    <member refid="MRVector_8h_1ae1fcce2b891bc2750b4bca7dc76f4e69" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a9b9ddc1782d0b0718461fbc0eb0bd38b" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_index</name></member>
     <member refid="MRVector_8h_1ab567e98019eaeda7321a91bef3b64133" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_index_mut</name></member>
     <member refid="MRVector_8h_1a315e8969bab770a221222e0227bf7f10" kind="function"><name>MR_Vector_MR_VertId_MR_EdgeId_resizeWithReserve_1</name></member>
@@ -27434,6 +27469,7 @@
     <member refid="MRVector_8h_1a7b1e8091ce6d879a70a0559c723efe4c" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_resize_2</name></member>
     <member refid="MRVector_8h_1a646dfa413af2b6b517c20c8ec0fca61c" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1a1a66472230abe8fcf44e853a1a68ad2d" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1a5444234198fcca4f04bf2aa4aba56078" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ae8612e68909e7fa1bfb6d8af032e84f1" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1a42f60f6e5d8fb88dbf0c8acdc4505df5" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1a3c7a32d9bdc8674955b443700efc347e" kind="function"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId_resizeWithReserve_1</name></member>
@@ -27483,6 +27519,7 @@
     <member refid="MRVector_8h_1a5fa36570d4ecc365aea2eb3558a43aca" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ab51ef4e6bcad499069a9ffaf49af9dc4" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1a4107ed9da48fc9852f04a5febd740bae" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1abc8e6cbd5413e84cc65ec6258c83d190" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1abdd290091ef02edfea62752abf0cb62d" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1ad2027b57fa2127d44fb968e44c0ac5e3" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1a608d801b17db9664013448a0a9f4c125" kind="function"><name>MR_Vector_MR_Vector3i_MR_VertId_resizeWithReserve_1</name></member>
@@ -27529,6 +27566,7 @@
     <member refid="MRVector_8h_1ab770e17134f14274cdda097754d536e9" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_resize_2</name></member>
     <member refid="MRVector_8h_1ae4415de8da2a60a292a23f03e6b97284" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_capacity</name></member>
     <member refid="MRVector_8h_1aca1c11019317f5abd9908de85084e948" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_reserve</name></member>
+    <member refid="MRVector_8h_1a477c77b5aa8dfb3bcb1d10e4d11caed2" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a1ca28ec417bd539e670116b1897fa670" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_index</name></member>
     <member refid="MRVector_8h_1a77ced6b311045a52e9d1f7a4376dea9e" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_index_mut</name></member>
     <member refid="MRVector_8h_1ac2655e45b906d232acde1d9fae5dda71" kind="function"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId_resizeWithReserve_1</name></member>
@@ -27575,6 +27613,7 @@
     <member refid="MRVector_8h_1a281848b590fd16b7fd032fc3f57ee5a2" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_resize_2</name></member>
     <member refid="MRVector_8h_1af7aceb7f67036b5bca586c491b822588" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_capacity</name></member>
     <member refid="MRVector_8h_1abbbc7cb24b0a3fcc488c020aa9f89521" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_reserve</name></member>
+    <member refid="MRVector_8h_1af7d45661773750ca3b740174142fbfcd" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a519dbe5c78b2dee4fe8e94850d36c583" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_index</name></member>
     <member refid="MRVector_8h_1a0ddbae13f5f299cd51bb7edab029f602" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_index_mut</name></member>
     <member refid="MRVector_8h_1ae47d790b36b10d378be1be5c93631a23" kind="function"><name>MR_Vector_MR_Nesting_MeshXf_MR_ObjId_resizeWithReserve_1</name></member>
@@ -27621,6 +27660,7 @@
     <member refid="MRVector_8h_1ad7aa239a671d0d4822a0a5c90585b42b" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_resize_2</name></member>
     <member refid="MRVector_8h_1a83963cce727df39bd621f49638a1bad9" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_capacity</name></member>
     <member refid="MRVector_8h_1ad9059f8b7ded4270931d1cb1a7fddc1e" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_reserve</name></member>
+    <member refid="MRVector_8h_1ad8ab90366a8f11b42d9ee0d7b4c886fa" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a15974bd6e2354bf4e4023babc2681006" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_index</name></member>
     <member refid="MRVector_8h_1aece20dc953d7a2ad77d1ea7db0075d20" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_index_mut</name></member>
     <member refid="MRVector_8h_1adfef8e959f49fe212bd86ec18bb8e630" kind="function"><name>MR_Vector_MR_MeshTexture_MR_TextureId_resizeWithReserve_1</name></member>
@@ -27670,6 +27710,7 @@
     <member refid="MRVector_8h_1a7a233150e05c57f9ecf86f8aa527fe26" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_resize_2</name></member>
     <member refid="MRVector_8h_1a7b095564bbaadaf5f8150824ccf6159a" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_capacity</name></member>
     <member refid="MRVector_8h_1a1c6d03645e63ad5d62e8796c635ef8b4" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_reserve</name></member>
+    <member refid="MRVector_8h_1a379c3c726e545120b27951f99159957c" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1abbe899aa166a54b42c39f6c9a95d27b3" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_index</name></member>
     <member refid="MRVector_8h_1ab12f2c580ced54a88ec6e68decacde1a" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_index_mut</name></member>
     <member refid="MRVector_8h_1a126113a9a885eb4c750a67628dec6793" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_resizeWithReserve_1</name></member>
@@ -27718,6 +27759,7 @@
     <member refid="MRVector_8h_1a6a277f2d72627e7db02d98350a7d530d" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_resize_2</name></member>
     <member refid="MRVector_8h_1a5d322c8869bc8bea6a8e17e6203cee6f" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_capacity</name></member>
     <member refid="MRVector_8h_1a699e790bad2edc1685167deab7d5b064" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_reserve</name></member>
+    <member refid="MRVector_8h_1ab7ba070f5cb2f133ff4448408eaaeaca" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1adf6b0777b9192da41dee0a1512648fdb" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_index</name></member>
     <member refid="MRVector_8h_1a1ed929b0905bcadb77cfb998971851fc" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_index_mut</name></member>
     <member refid="MRVector_8h_1abb589c751724d8c86f1077f309e9e838" kind="function"><name>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId_resizeWithReserve_1</name></member>
@@ -27767,6 +27809,7 @@
     <member refid="MRVector_8h_1a2cebf450825d70771bae304eb339cd66" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a880ac7ce62b30d0c4270673667b672ed" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_capacity</name></member>
     <member refid="MRVector_8h_1a22cf73a5c6eec70902797cfe80fa9b7f" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_reserve</name></member>
+    <member refid="MRVector_8h_1a47f771eb71d7a56d72352ae6f7eeed66" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ab49370596a7a568bb18d8f9d759da78e" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_index</name></member>
     <member refid="MRVector_8h_1aa5aae1a485023de77d303e4a035de3d4" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_index_mut</name></member>
     <member refid="MRVector_8h_1a9a18f528f0f62aa1b21eb8c5ab5ec9c5" kind="function"><name>MR_Vector_MR_GraphVertId_MR_GraphVertId_resizeWithReserve_1</name></member>
@@ -27816,6 +27859,7 @@
     <member refid="MRVector_8h_1a86f141248bd68473d6333521e951d2b3" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a977372c0d205fc7f8bf59c5a2cd5aa83" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_capacity</name></member>
     <member refid="MRVector_8h_1a4e7275d42d77c938c7a7e6d67c1badb6" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_reserve</name></member>
+    <member refid="MRVector_8h_1a09f60e690c86262c3af273595ed25c2f" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a6dbc1635b4b8fe271a20acef4783b7ba" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_index</name></member>
     <member refid="MRVector_8h_1a26f18ca0505e4972fb2f638cc3d2c758" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_index_mut</name></member>
     <member refid="MRVector_8h_1a818d775bdf35280b89193e518a38217e" kind="function"><name>MR_Vector_MR_GraphEdgeId_MR_GraphEdgeId_resizeWithReserve_1</name></member>
@@ -27862,6 +27906,7 @@
     <member refid="MRVector_8h_1a767857be2ab58ba240d1f1ff5c8f7574" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_resize_2</name></member>
     <member refid="MRVector_8h_1aa0622c43592f2560416fd29b1dabef5e" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_capacity</name></member>
     <member refid="MRVector_8h_1a7d1a0a6ae3369e5033a64f51928be111" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_reserve</name></member>
+    <member refid="MRVector_8h_1ac2b4bfa8c0757910fce6a099e7598c80" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ae05b9698d22d30273d9f4ea688c09a69" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_index</name></member>
     <member refid="MRVector_8h_1a47f1dfc3b635e8414e2688b0ade4e569" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_index_mut</name></member>
     <member refid="MRVector_8h_1acf85b335c381a6d10756bd8b040788bb" kind="function"><name>MR_Vector_MR_ModelPointsData_MR_ObjId_resizeWithReserve_1</name></member>
@@ -27910,6 +27955,7 @@
     <member refid="MRVector_8h_1a08bcaba0adb024002402c9525c2494e0" kind="function"><name>MR_Vector_int_MR_VertId_resize_2</name></member>
     <member refid="MRVector_8h_1a87eb27e5c4da352c9e9808844a8fe542" kind="function"><name>MR_Vector_int_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1aee5a74fa3af6a59298929b91d51851e2" kind="function"><name>MR_Vector_int_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1a932b5245fec4967157f8371016848c1a" kind="function"><name>MR_Vector_int_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a013cbf679efe04d5f766ca601b284172" kind="function"><name>MR_Vector_int_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1a0a6908d5fc02c038b8c1a866dc16c2b7" kind="function"><name>MR_Vector_int_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1a4f06f060d57a806e26b5c2fb4b3c92c1" kind="function"><name>MR_Vector_int_MR_VertId_resizeWithReserve_1</name></member>
@@ -27957,6 +28003,7 @@
     <member refid="MRVector_8h_1aa43d97f86d2b75c3ad5f40e65bfb7a5c" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a6a602a2bb6adf86944c74e0815b56a1c" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1a692e2b6eebbb35c0dacb257f1a747d21" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1aadc2456a263ec587682d68463ca314a0" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aa1637f510f22711e817282e1b6db93d1" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1a6582792a9fdcf54ea22f49613d98aa24" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1af2fedcc7b3161ceb4c7796cc0dee1d7b" kind="function"><name>MR_Vector_MR_FanRecord_MR_VertId_resizeWithReserve_1</name></member>
@@ -28005,6 +28052,7 @@
     <member refid="MRVector_8h_1ac03289e3acc3b9e8845ee3ca3777a134" kind="function"><name>MR_Vector_int_MR_RegionId_resize_2</name></member>
     <member refid="MRVector_8h_1ac126d6981b25b40a3c492774b66282f1" kind="function"><name>MR_Vector_int_MR_RegionId_capacity</name></member>
     <member refid="MRVector_8h_1ae0d42bed8d0a878aa5412f1b9c6a6ad9" kind="function"><name>MR_Vector_int_MR_RegionId_reserve</name></member>
+    <member refid="MRVector_8h_1a53283af007b77e8adf7c2290fe630297" kind="function"><name>MR_Vector_int_MR_RegionId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a978cc77c392097b414e8b63d43037827" kind="function"><name>MR_Vector_int_MR_RegionId_index</name></member>
     <member refid="MRVector_8h_1a3ccadf3bdbc8f0ddd39dbf4ef4969f08" kind="function"><name>MR_Vector_int_MR_RegionId_index_mut</name></member>
     <member refid="MRVector_8h_1aac1e4d3a9e2f03e00dfa302ce02126e5" kind="function"><name>MR_Vector_int_MR_RegionId_resizeWithReserve_1</name></member>
@@ -28053,6 +28101,7 @@
     <member refid="MRVector_8h_1a3fb687c5454d2619d7b9ca678551ee79" kind="function"><name>MR_Vector_double_MR_RegionId_resize_2</name></member>
     <member refid="MRVector_8h_1a3202857e2452e63d9f5d09400cb60473" kind="function"><name>MR_Vector_double_MR_RegionId_capacity</name></member>
     <member refid="MRVector_8h_1aba7202edb98747637543ec77e7be53a7" kind="function"><name>MR_Vector_double_MR_RegionId_reserve</name></member>
+    <member refid="MRVector_8h_1a39f5b89957969ad63b7ee466e7570770" kind="function"><name>MR_Vector_double_MR_RegionId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ac024311a79a07cc80b04378ae841cee6" kind="function"><name>MR_Vector_double_MR_RegionId_index</name></member>
     <member refid="MRVector_8h_1aedb1ae264f46a7cbfa16063742062255" kind="function"><name>MR_Vector_double_MR_RegionId_index_mut</name></member>
     <member refid="MRVector_8h_1ac3a920f386ccb5c0db2b1b7dfa15a87d" kind="function"><name>MR_Vector_double_MR_RegionId_resizeWithReserve_1</name></member>
@@ -28099,6 +28148,7 @@
     <member refid="MRVector_8h_1a3126a0aaaaccbe85f6e0ba91236a7edf" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_resize_2</name></member>
     <member refid="MRVector_8h_1acfeafd39db8b4cc9acf42e6810022f2c" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1a40033d5cc35ae532fd16d674b4b36183" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1a97a303e70cea8294a6aac9d4c46ef1d3" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a5a7d0eb3631efbc5d41ec705e23afba7" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1af8921861f7926a8e3d997cbeb9ba3a50" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1aaa2040a4471f689bf5ff5848d006a0b3" kind="function"><name>MR_Vector_MR_QuadraticForm3f_MR_VertId_resizeWithReserve_1</name></member>
@@ -28147,6 +28197,7 @@
     <member refid="MRVector_8h_1a29943e70be9451a6dd2f8038a0faa7c9" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_resize_2</name></member>
     <member refid="MRVector_8h_1af4a41f9993d23e1d78d623b5c9f6ee2a" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_capacity</name></member>
     <member refid="MRVector_8h_1a78404c897e1f253051ffa7fb24bec93b" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_reserve</name></member>
+    <member refid="MRVector_8h_1af39b524a3ea36ec4f00a72c9e5923a21" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a1c9c77ab2b6169c5359e68826f371db3" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_index</name></member>
     <member refid="MRVector_8h_1a19e0f967fce62c32ca9db232c129a2d1" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_index_mut</name></member>
     <member refid="MRVector_8h_1abdd32049932cddcb232f76e0015d0c96" kind="function"><name>MR_Vector_std_filesystem_path_MR_TextureId_resizeWithReserve_1</name></member>
@@ -28195,6 +28246,7 @@
     <member refid="MRVector_8h_1a0abaa1f0b12f5fcfb94a8c90b48fb9d3" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_resize_2</name></member>
     <member refid="MRVector_8h_1a7f8d745776c3cb823d566c12309f1552" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_capacity</name></member>
     <member refid="MRVector_8h_1a92ff58db23dee745c0a28d397212eebf" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_reserve</name></member>
+    <member refid="MRVector_8h_1afd39f029a27850cc90ed338eca900704" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aa1c6e4afb07a7e1be1ef2d27354b0a81" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_index</name></member>
     <member refid="MRVector_8h_1a53d4f5bfcf12b9138961d928762473d9" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_index_mut</name></member>
     <member refid="MRVector_8h_1a629f5fc5901b4d1e53231d9c462d2463" kind="function"><name>MR_Vector_std_array_MR_Vector3f_3_MR_FaceId_resizeWithReserve_1</name></member>
@@ -28241,6 +28293,7 @@
     <member refid="MRVector_8h_1a382ddba3faafb88ecde2c3af8c9cefa6" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_resize_2</name></member>
     <member refid="MRVector_8h_1a4d989d5eaf8ec5e31438f2ae5c1b6a45" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_capacity</name></member>
     <member refid="MRVector_8h_1a46ae94b0833f80f19c57ac7c805384cc" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_reserve</name></member>
+    <member refid="MRVector_8h_1ae464cb3fd12d34890e24d860e177263b" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a59da46e5bf91e0da70b7fc3004f36370" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_index</name></member>
     <member refid="MRVector_8h_1a3bd6d494953e2d84657ca5e53bc287a8" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_index_mut</name></member>
     <member refid="MRVector_8h_1a94b8ae7a4632e4df7e7ec1992676624b" kind="function"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_resizeWithReserve_1</name></member>
@@ -28287,6 +28340,7 @@
     <member refid="MRVector_8h_1ac1b1cf9b6b648f2ac01025a0300b9131" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resize_2</name></member>
     <member refid="MRVector_8h_1ac74167378e6a9296b068a0c6f57e1ef5" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_capacity</name></member>
     <member refid="MRVector_8h_1a06e6bd379d1aefb28c4a372d56a1d20c" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_reserve</name></member>
+    <member refid="MRVector_8h_1abb81ceff2b8fe221291f9e22eb912150" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1af654634aa0c2722d171be7c39efe2531" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_index</name></member>
     <member refid="MRVector_8h_1a509958345d305fa3dedc51bd2f551604" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_index_mut</name></member>
     <member refid="MRVector_8h_1aea513ae41bb02f4c768f94784e4bb270" kind="function"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resizeWithReserve_1</name></member>
@@ -28333,6 +28387,7 @@
     <member refid="MRVector_8h_1a068371bdd2d415b59a2f6f5e58a9e156" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_resize_2</name></member>
     <member refid="MRVector_8h_1a2368ca6bf5acb3daec6687b6ffbfddc1" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_capacity</name></member>
     <member refid="MRVector_8h_1a5edeadab0aa84cee8ad281bfe7fe42ef" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_reserve</name></member>
+    <member refid="MRVector_8h_1a3dbbd68b58fb4187748a679143646c06" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aeb51d9de90fd90755a812770b258cb1a" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_index</name></member>
     <member refid="MRVector_8h_1a2fe84a5eae8daec920556d98592a9ae8" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_index_mut</name></member>
     <member refid="MRVector_8h_1a62574650713534323ad2f37bf378ca97" kind="function"><name>MR_Vector_MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_int_resizeWithReserve_1</name></member>
@@ -28381,6 +28436,7 @@
     <member refid="MRVector_8h_1ac1bbf6120441db0b235fc2d2b08ed734" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_resize_2</name></member>
     <member refid="MRVector_8h_1ae8ff8fb7dd57a0d217e0ade8d32d9eec" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_capacity</name></member>
     <member refid="MRVector_8h_1a2c70af7ba8e1b219574cfc52f15db0b9" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_reserve</name></member>
+    <member refid="MRVector_8h_1a9bb517c5d69e20274d12cfea77b6bb46" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a59b845d7d95b6bf64d7d5384f00fe15f" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_index</name></member>
     <member refid="MRVector_8h_1ae7daf5cd88aada4d81069dac4c23bf42" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_index_mut</name></member>
     <member refid="MRVector_8h_1a9679529df8d740186b09a50a086d7882" kind="function"><name>MR_Vector_MR_VertBitSet_MR_ObjId_resizeWithReserve_1</name></member>
@@ -28429,6 +28485,7 @@
     <member refid="MRVector_8h_1a909fe000be2658d975ab040392236253" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_resize_2</name></member>
     <member refid="MRVector_8h_1a9dced5ff70255bd57b2c17582ebf5c4b" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_capacity</name></member>
     <member refid="MRVector_8h_1a243899d791c01e1f94886e662abce411" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_reserve</name></member>
+    <member refid="MRVector_8h_1a3f619aa1d1a3b6e41fb0a54a73ffac06" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a8981cd2798a8720466b08fe9a964d607" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_index</name></member>
     <member refid="MRVector_8h_1ac7a7fc01b2032c04e7d8bd9dd1d8ca31" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_index_mut</name></member>
     <member refid="MRVector_8h_1a55b034ef1df6db1ef135fc06010a144b" kind="function"><name>MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_resizeWithReserve_1</name></member>
@@ -28477,6 +28534,7 @@
     <member refid="MRVector_8h_1a330b1d8ea56ed95bd55d33c4716c74e7" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_resize_2</name></member>
     <member refid="MRVector_8h_1abdf189161ac466206fa003adab616fcb" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_capacity</name></member>
     <member refid="MRVector_8h_1a0b0e1091e04ec817e1ee05c686f40467" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_reserve</name></member>
+    <member refid="MRVector_8h_1a27e4bf8a91c71a8da7c8aad9de807f5c" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a8c11937870279c4eb1841f9b46777e66" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_index</name></member>
     <member refid="MRVector_8h_1aea3f80901af01442f350c3e63c79e9c6" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_index_mut</name></member>
     <member refid="MRVector_8h_1a5b44d183f02ace2ba26bc7e447df11be" kind="function"><name>MR_Vector_MR_Vector_std_vector_MR_ObjVertId_MR_Id_MR_ICPElemtTag_int_resizeWithReserve_1</name></member>
@@ -28523,6 +28581,7 @@
     <member refid="MRVector_8h_1ac328882d5a0f86413f9095dfcf79b4ee" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_resize_2</name></member>
     <member refid="MRVector_8h_1a41e4931ed6225de44d3a808fb89bcec9" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1a1a5152048fbe92d4853983f6e2dfd6dc" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1a8e9d86f3afc953a404d5d0de04abd314" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1abfd588deee9766115c1fb7fb654aa0a2" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1a34040259fa642819a5a5e5cd4755113f" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1a93aebd45f31682d0486f81123a8a3891" kind="function"><name>MR_Vector_MR_QuadraticForm2f_MR_VertId_resizeWithReserve_1</name></member>
@@ -28571,6 +28630,7 @@
     <member refid="MRVector_8h_1ab9ddd5cf852151ccd1e661f6db752288" kind="function"><name>MR_Vector_int_MR_GraphVertId_resize_2</name></member>
     <member refid="MRVector_8h_1a3212c8c54f68c90eb3213041f55b2b51" kind="function"><name>MR_Vector_int_MR_GraphVertId_capacity</name></member>
     <member refid="MRVector_8h_1a02925a7fbc3b0c1899dc11f2926c0ed3" kind="function"><name>MR_Vector_int_MR_GraphVertId_reserve</name></member>
+    <member refid="MRVector_8h_1a6cbd547498f69b6279e633860e2453ed" kind="function"><name>MR_Vector_int_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aa93684d9f9a2fc134fcb740d09bda1a1" kind="function"><name>MR_Vector_int_MR_GraphVertId_index</name></member>
     <member refid="MRVector_8h_1adca5d87f469c42561e3ab68c3e2046ef" kind="function"><name>MR_Vector_int_MR_GraphVertId_index_mut</name></member>
     <member refid="MRVector_8h_1a0a7f952037fcae4a5426ad348e5b115c" kind="function"><name>MR_Vector_int_MR_GraphVertId_resizeWithReserve_1</name></member>
@@ -28620,6 +28680,7 @@
     <member refid="MRVector_8h_1ae2ba9448a959f46d7020a8422ba1cfce" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ab1c558632d4d2a9c3bedf52968a18cde" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_capacity</name></member>
     <member refid="MRVector_8h_1aa98a966bcf799ff6dba93ec84e072acb" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_reserve</name></member>
+    <member refid="MRVector_8h_1aededef12b5885d117bf2f48b9db55208" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1acfc668b28418a2afc90ccc8b0788ab9a" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_index</name></member>
     <member refid="MRVector_8h_1a9d74f7b18a14dec5668dcae18d78644b" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_index_mut</name></member>
     <member refid="MRVector_8h_1ab87729bebf31f8415ef0d10a80143295" kind="function"><name>MR_Vector_MR_VoxelId_MR_FaceId_resizeWithReserve_1</name></member>
@@ -28668,6 +28729,7 @@
     <member refid="MRVector_8h_1a83367f1d1204c0f623918a3f4c5da8d8" kind="function"><name>MR_Vector_char_MR_VertId_resize_2</name></member>
     <member refid="MRVector_8h_1a558ffd1bfefd57ddcdf5e3f031d13efc" kind="function"><name>MR_Vector_char_MR_VertId_capacity</name></member>
     <member refid="MRVector_8h_1ae3a69bc9ff70734f3cb1d2cae4d20639" kind="function"><name>MR_Vector_char_MR_VertId_reserve</name></member>
+    <member refid="MRVector_8h_1a344d537ccb5af822589c2fcae2dec85b" kind="function"><name>MR_Vector_char_MR_VertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a33f68ebfcf6394903e4342e0d2fb14c5" kind="function"><name>MR_Vector_char_MR_VertId_index</name></member>
     <member refid="MRVector_8h_1ad2406a464e07e174d2290e93dc44c86f" kind="function"><name>MR_Vector_char_MR_VertId_index_mut</name></member>
     <member refid="MRVector_8h_1a34ea57e20ed25e09280b44155073732c" kind="function"><name>MR_Vector_char_MR_VertId_resizeWithReserve_1</name></member>
@@ -28716,6 +28778,7 @@
     <member refid="MRVector_8h_1a11e050e1f5be546e2b52112dcf3a2c60" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_resize_2</name></member>
     <member refid="MRVector_8h_1a113477c3a210fd19029066a088bead98" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_capacity</name></member>
     <member refid="MRVector_8h_1a5fa5b08b66a010ca7993db8ba2b0b523" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_reserve</name></member>
+    <member refid="MRVector_8h_1abed724827dc31d13fa6b46e6cb1bb572" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aaf8f08712ade3050f38f70d53f71a44c" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_index</name></member>
     <member refid="MRVector_8h_1a7bdb2526129d5b430855206316d95ece" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_index_mut</name></member>
     <member refid="MRVector_8h_1a0a641188f204c1ff4d9d7c6304f17799" kind="function"><name>MR_Vector_MR_FaceBitSet_MR_GraphVertId_resizeWithReserve_1</name></member>
@@ -28762,6 +28825,7 @@
     <member refid="MRVector_8h_1a56c1701049ae51ff5194a99edc2fa33b" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_resize_2</name></member>
     <member refid="MRVector_8h_1a14668aa87026858469f5661b2f092266" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_capacity</name></member>
     <member refid="MRVector_8h_1a22d01c8d437a3d39ccf3b113370e5815" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_reserve</name></member>
+    <member refid="MRVector_8h_1af97cf650cf9c867a5afde33b26ea44f6" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ae1a2f992101d68dcbf2c04c2fbf34bf1" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_index</name></member>
     <member refid="MRVector_8h_1a9e3d9d225ea90807207cc864f50b449b" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_index_mut</name></member>
     <member refid="MRVector_8h_1abfa3352b46f6a3d30297e69e8fdb9992" kind="function"><name>MR_Vector_MR_WatershedGraph_BasinInfo_MR_GraphVertId_resizeWithReserve_1</name></member>
@@ -28808,6 +28872,7 @@
     <member refid="MRVector_8h_1a2dd923e8845066aadb8e7d5424b5805d" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_resize_2</name></member>
     <member refid="MRVector_8h_1a5f5838f8d12cf46fa8edb420ba4a4f36" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_capacity</name></member>
     <member refid="MRVector_8h_1afc51cb64c282f76a03e60011bd7268e0" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_reserve</name></member>
+    <member refid="MRVector_8h_1a69c0d3b375544c8d7c252db04ac8e04f" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ab26a94bbb4d095c9cd6710b0e889ea01" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_index</name></member>
     <member refid="MRVector_8h_1ad19fd130e2e84af6ec75bb1e123b24ab" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_index_mut</name></member>
     <member refid="MRVector_8h_1a13ba441041895f88f6f0f89c4397c272" kind="function"><name>MR_Vector_MR_WatershedGraph_BdInfo_MR_GraphEdgeId_resizeWithReserve_1</name></member>
@@ -28856,6 +28921,7 @@
     <member refid="MRVector_8h_1adcff47697b7e8f6c4aae7b631a46c84a" kind="function"><name>MR_Vector_float_MR_VoxelId_resize_2</name></member>
     <member refid="MRVector_8h_1a9ff3a24338613d7daef024cb40426fdc" kind="function"><name>MR_Vector_float_MR_VoxelId_capacity</name></member>
     <member refid="MRVector_8h_1a7fca446c648eae06fa0a9915d4b03e90" kind="function"><name>MR_Vector_float_MR_VoxelId_reserve</name></member>
+    <member refid="MRVector_8h_1a9346285951cdeec11862204d759b68d7" kind="function"><name>MR_Vector_float_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ade97d99459e2c6c91f926598ae603715" kind="function"><name>MR_Vector_float_MR_VoxelId_index</name></member>
     <member refid="MRVector_8h_1ad00b1fbf1a547a6185ed8f9d07aef72d" kind="function"><name>MR_Vector_float_MR_VoxelId_index_mut</name></member>
     <member refid="MRVector_8h_1ae3e3793b552b9983f0a80efd730453ff" kind="function"><name>MR_Vector_float_MR_VoxelId_resizeWithReserve_1</name></member>
@@ -28904,6 +28970,7 @@
     <member refid="MRVector_8h_1a8f0d8b42b26b6faebacb5736450ae2b7" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_resize_2</name></member>
     <member refid="MRVector_8h_1adf9c608b4f39612d0f073d0d55c9906d" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_capacity</name></member>
     <member refid="MRVector_8h_1a8d70f822821f370098298777783a78f4" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_reserve</name></member>
+    <member refid="MRVector_8h_1a5dd0330a5533a90a2ad11a3804e6933c" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a520bbbce96e841db37cdf2dae1ae2d73" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_index</name></member>
     <member refid="MRVector_8h_1a62bfbf90c630957181692338099425a7" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_index_mut</name></member>
     <member refid="MRVector_8h_1a375fa9472f598e8f1626b3b9e4327b4e" kind="function"><name>MR_Vector_unsigned_short_MR_VoxelId_resizeWithReserve_1</name></member>
@@ -28953,6 +29020,7 @@
     <member refid="MRVector_8h_1a349f8c1628665a5883acc359226c6a88" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a72eeccbba69fae8c5afa9d706e16e622" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_capacity</name></member>
     <member refid="MRVector_8h_1a05eddf74a2e5e504dda3e6da36236633" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_reserve</name></member>
+    <member refid="MRVector_8h_1aa44f5a7b0b1c524ec4345eb7e707182a" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a81c9b75760f7c72f448e422459af3faa" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_index</name></member>
     <member refid="MRVector_8h_1aaba3e5be827a2d8759c7554b0d69c192" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_index_mut</name></member>
     <member refid="MRVector_8h_1a063cb238864af6c4b2ea87c481649e1e" kind="function"><name>MR_Vector_MR_VoxelId_MR_VoxelId_resizeWithReserve_1</name></member>
@@ -29002,6 +29070,7 @@
     <member refid="MRVector_8h_1a6f618fcf2c8653b97f78178e333d8c9f" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1aae3824e3f4006d49653d3fd8a895be87" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_capacity</name></member>
     <member refid="MRVector_8h_1afef1c38097fd726b18a9f90a9ee454b1" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_reserve</name></member>
+    <member refid="MRVector_8h_1ab6be56b1577723ba61238efc4278b149" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ac34cad51f7bb60d3cd37f13340d48499" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_index</name></member>
     <member refid="MRVector_8h_1ac7ce8917d5b6041c6e5a4cda756969f0" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_index_mut</name></member>
     <member refid="MRVector_8h_1a002d37b88966e5b98501e138ada3dd25" kind="function"><name>MR_Vector_MR_ObjId_MR_VoxelId_resizeWithReserve_1</name></member>
@@ -29051,6 +29120,7 @@
     <member refid="MRVector_8h_1a9851bb3e529768b387b753510b0ce087" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a0888430640f3c60c9e632329517b33bf" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_capacity</name></member>
     <member refid="MRVector_8h_1a2f5b605bfd0340cd92565bac6ee6bb5e" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_reserve</name></member>
+    <member refid="MRVector_8h_1afdf007108499eff0a6658cc79e76a4ee" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1aa4c3de45aca73b063d927997d9b3c37d" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_index</name></member>
     <member refid="MRVector_8h_1aa0929ab0225d3fdf44c05cb1db3461ee" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_index_mut</name></member>
     <member refid="MRVector_8h_1ae3695aa6322e55d59683d5a3c415a712" kind="function"><name>MR_Vector_MR_PixelId_MR_PixelId_resizeWithReserve_1</name></member>
@@ -29100,6 +29170,7 @@
     <member refid="MRVector_8h_1a92fa853bea442dc38539864087a42e40" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1ab801f7a009388443b12fa5c3a1c40636" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_capacity</name></member>
     <member refid="MRVector_8h_1a6a7b30b2c7fab683c898aac1625c610e" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_reserve</name></member>
+    <member refid="MRVector_8h_1ac825130856d3c3ed0b919ee9f3deac38" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a223fb9a0f4dfb65dad240568e91fc914" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_index</name></member>
     <member refid="MRVector_8h_1ae71db09726911e05b07aca7aeb19c043" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_index_mut</name></member>
     <member refid="MRVector_8h_1ac09a0764e59070b506a2abce0b03b55b" kind="function"><name>MR_Vector_MR_RegionId_MR_RegionId_resizeWithReserve_1</name></member>
@@ -29149,6 +29220,7 @@
     <member refid="MRVector_8h_1a5a6c18714620f1949ceadd6b7a219272" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a0d025c49c5ddb8df53acaf433cdc7e8f" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_capacity</name></member>
     <member refid="MRVector_8h_1a9ba7ef6650f12bbc775bc24225e844ed" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_reserve</name></member>
+    <member refid="MRVector_8h_1a6e739663ffc32d49258d74afdc164016" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a390a41e7cc755fb30effa0d2fcebd86e" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_index</name></member>
     <member refid="MRVector_8h_1ac007a495ea6f9518d614da4c5e7db425" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_index_mut</name></member>
     <member refid="MRVector_8h_1a25bb3c0cdfe75514b905e0c180359603" kind="function"><name>MR_Vector_MR_NodeId_MR_NodeId_resizeWithReserve_1</name></member>
@@ -29198,6 +29270,7 @@
     <member refid="MRVector_8h_1a3f73350f824a6249c8b723de3b3d8bdd" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a41ab5f0fae0a95bf27b9e041352056df" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_capacity</name></member>
     <member refid="MRVector_8h_1ab7b930684cfd7bcd73861dc7da8597ca" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_reserve</name></member>
+    <member refid="MRVector_8h_1aaf0030217291cd581fe7af5df397b953" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1abb81aaaf42ba931a8fa467381e1c0aa5" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_index</name></member>
     <member refid="MRVector_8h_1aca9b0264979b17b9f919e6f704c23914" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_index_mut</name></member>
     <member refid="MRVector_8h_1aaf4091b50046f37fe7350d3bf2ce1cf2" kind="function"><name>MR_Vector_MR_TextureId_MR_TextureId_resizeWithReserve_1</name></member>
@@ -29247,6 +29320,7 @@
     <member refid="MRVector_8h_1a5398f56828c842c64775e0c9ff552cdf" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a6b54b105439032625153bde6a26a8683" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_capacity</name></member>
     <member refid="MRVector_8h_1aa9c5e702c6ea358a678b522daebf46ff" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_reserve</name></member>
+    <member refid="MRVector_8h_1ad1a2e8f72cfb07bfb0a32bac38f6e510" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a74c1a781c27ab3444b7292a08eb3816c" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_index</name></member>
     <member refid="MRVector_8h_1a155b6fba2633d1e719204fac18e89b6b" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_index_mut</name></member>
     <member refid="MRVector_8h_1a49cf91ad075b0f30d32166d4718ac19f" kind="function"><name>MR_Vector_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag_resizeWithReserve_1</name></member>
@@ -29295,6 +29369,7 @@
     <member refid="MRVector_8h_1a16d499d4a3b0fba71e1a9ce6bd4c9f11" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_resize_2</name></member>
     <member refid="MRVector_8h_1af13c2d83dff14e9b590a62673ee348da" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_capacity</name></member>
     <member refid="MRVector_8h_1a62c8adc4816b697c247a9a85b2bd2186" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_reserve</name></member>
+    <member refid="MRVector_8h_1ac3ac565cad92cc3c0cde820fe6ca86cf" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1a15de262dfbd30ea7dcedb387fa55bfcb" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_index</name></member>
     <member refid="MRVector_8h_1a2691aeeebe4826e9bb0eede9c324466f" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_index_mut</name></member>
     <member refid="MRVector_8h_1a960b8815178e3c24025eaf16ee536725" kind="function"><name>MR_Vector_int_MR_UndirectedEdgeId_resizeWithReserve_1</name></member>
@@ -29342,6 +29417,7 @@
     <member refid="MRVector_8h_1aa23340da357d66f633a525285a7b3170" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a442782d328b622c277a39545026f9bfd" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_capacity</name></member>
     <member refid="MRVector_8h_1a8155b85c4f88b08bdd56cd8ac818e8ed" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_reserve</name></member>
+    <member refid="MRVector_8h_1a6b5ac7f7428ae8e1381eec19ecd0d8e3" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ac2f48f6b4e687865f8da758039151680" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_index</name></member>
     <member refid="MRVector_8h_1aafbe9db9fdba9c83179a3d190fbe2a48" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_index_mut</name></member>
     <member refid="MRVector_8h_1a09d7d9f5bcd4af9fc69f77f12b680191" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box2f_MR_NodeId_resizeWithReserve_1</name></member>
@@ -29389,6 +29465,7 @@
     <member refid="MRVector_8h_1acc67c7da00358210d52e7793e6ab10aa" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_resizeNoInit</name></member>
     <member refid="MRVector_8h_1a9ef80ef6eabfb29e94c91a61b47a36aa" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_capacity</name></member>
     <member refid="MRVector_8h_1aa0315de7fc9ed8257247d4729083508d" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_reserve</name></member>
+    <member refid="MRVector_8h_1a0cbcd0ba9c1354c33e89e2833583d13f" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_shrink_to_fit</name></member>
     <member refid="MRVector_8h_1ad821e8c1d3a0fdf587baa4256f5b1f0a" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_index</name></member>
     <member refid="MRVector_8h_1a7d2d06d0d8735e5e2de6d92ca4b13e50" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_index_mut</name></member>
     <member refid="MRVector_8h_1a6637cdacfc7cebdc40e83b11a66c1952" kind="function"><name>MR_Vector_MR_AABBTreeNode_MR_AABBTreeTraits_MR_UndirectedEdgeTag_MR_Box3f_MR_NodeId_resizeWithReserve_1</name></member>

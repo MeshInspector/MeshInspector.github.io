@@ -21,6 +21,7 @@ var classMR_1_1Vector__MRMeshOrPointsXf__MRObjId =
     [ "reserve", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a195dc26a5f42190f8592a9a3c5ffb308", null ],
     [ "resize", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a77f66cd5b975d7fd129e88b1b4713408", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a9b89d700d9166a691637c975d50475e7", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a2fabbe402df89d6f8dcc67fb7ba91f4b", null ],
     [ "swap", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#a29b9c8a2b8662d7906af00e9b4575741", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#aea96b99fb7515898efcad9e587ec386a", null ],
     [ "vec", "classMR_1_1Vector__MRMeshOrPointsXf__MRObjId.html#af419e68986c3b4232e30093697f00812", null ]

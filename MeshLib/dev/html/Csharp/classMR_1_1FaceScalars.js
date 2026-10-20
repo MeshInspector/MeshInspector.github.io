@@ -25,6 +25,7 @@ var classMR_1_1FaceScalars =
     [ "resize", "classMR_1_1FaceScalars.html#a074e6b2463772d2e3c29e54dbaba5979", null ],
     [ "resizeWithReserve", "classMR_1_1FaceScalars.html#a8409cc7acbcccaa0346ceccfb228b9d2", null ],
     [ "resizeWithReserve", "classMR_1_1FaceScalars.html#ab0800c2c898f691c791eb58e6ee24cbc", null ],
+    [ "shrinkToFit", "classMR_1_1FaceScalars.html#afdb510e1bcc4a955201ce270e30ad08a", null ],
     [ "swap", "classMR_1_1FaceScalars.html#ab6cc0246dd7aac16e9ef100c7aebe1d1", null ],
     [ "this[MR.FaceId i]", "classMR_1_1FaceScalars.html#ae7788c0d53c051bb4c385fdcf8bdf872", null ],
     [ "vec", "classMR_1_1FaceScalars.html#a962d8abe6b93816b8cf06ac90ee5de2a", null ]

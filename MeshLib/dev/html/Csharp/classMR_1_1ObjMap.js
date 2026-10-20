@@ -26,6 +26,7 @@ var classMR_1_1ObjMap =
     [ "resizeNoInit", "classMR_1_1ObjMap.html#a9dcdf44b3d4fef4266a8ad91e873da6a", null ],
     [ "resizeWithReserve", "classMR_1_1ObjMap.html#aef8e1c320c27b1e6b030ed27334af0e8", null ],
     [ "resizeWithReserve", "classMR_1_1ObjMap.html#a0f21d04bc9d1b714c7e09e4e0a4d8486", null ],
+    [ "shrinkToFit", "classMR_1_1ObjMap.html#a97678958478e9305e74e6dbf97e61e75", null ],
     [ "swap", "classMR_1_1ObjMap.html#aad649441c7066c2ce73f3b64407d38ca", null ],
     [ "this[MR.ObjId i]", "classMR_1_1ObjMap.html#a167b5999a5e54f2490e6bad97fbfbce5", null ],
     [ "vec", "classMR_1_1ObjMap.html#a8554a33cf91f0f5af5391ed1fdf069c7", null ]

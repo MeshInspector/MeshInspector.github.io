@@ -35,6 +35,7 @@ var classmrmeshpy_1_1VertScalars =
     [ "resize", "classmrmeshpy_1_1VertScalars.html#aeb7a88e02d6792f34a39b428f72c09cf", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1VertScalars.html#aedb27b45e13f4cf7cf65d076735d1ad0", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1VertScalars.html#a54f935601de1feb54bb6e86e6f6e8a46", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1VertScalars.html#a4a9be89df57d879ebb20cb866c4789f9", null ],
     [ "size", "classmrmeshpy_1_1VertScalars.html#a1debca56ff5a2959d244a87381356b18", null ],
     [ "swap", "classmrmeshpy_1_1VertScalars.html#adbdddd127e95163f6f03997ed9925da6", null ],
     [ "vec", "classmrmeshpy_1_1VertScalars.html#a4c8cfcacf7e3017f89472378a652977b", null ],

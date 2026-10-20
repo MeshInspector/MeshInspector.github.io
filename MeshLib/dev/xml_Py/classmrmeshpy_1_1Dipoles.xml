@@ -807,6 +807,24 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15958" bodyend="15961"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ac22a2f20cead20a08b8feca8b0d481c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.shrink_to_fit</definition>
+        <argsstring>(self)</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>mrmeshpy.Dipoles.shrink_to_fit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15962" bodyend="15963"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1aa86c47fb593f495d63ac3015f80fa8fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.Dipoles.size</definition>
@@ -823,7 +841,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15962" bodyend="15963"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15964" bodyend="15965"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ad1d003d5f7724221d603c1edb8505536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -845,7 +863,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15964" bodyend="15965"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15966" bodyend="15967"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Dipole" kindref="compound">std_vector_Dipole</ref></type>
@@ -865,7 +883,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15967" bodyend="15970"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15969" bodyend="15972"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a8e60e6cc78ebc06d89c9d9312287ffb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -887,7 +905,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15972" bodyend="15973"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15974" bodyend="15975"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -901,7 +919,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
  \\tparam I type of index (shall be convertible to size_t)
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15823" bodyend="15973"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15823" bodyend="15975"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Dipoles_1adb9d20c0bddb6f1227ccc44848a0014e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__getitem__</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1adb9d20c0bddb6f1227ccc44848a0014e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__getitem__</name></member>
@@ -940,6 +958,7 @@ the elements in between old size and \\p pos are also set to \\p val (for faster
       <member refid="classmrmeshpy_1_1Dipoles_1a5a0e9e01592bb2294a938ed87e1fbfb0" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resize</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1ac821eca504cdc71c7daca6538e562c19" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resizeWithReserve</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1ab60230a73cb4a21ffa4d8ce89d13b62f" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ac22a2f20cead20a08b8feca8b0d481c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>shrink_to_fit</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1aa86c47fb593f495d63ac3015f80fa8fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1ad1d003d5f7724221d603c1edb8505536" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>swap</name></member>
       <member refid="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec_</name></member>

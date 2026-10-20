@@ -35,6 +35,7 @@ var classmrmeshpy_1_1Vector__int__GraphVertId =
     [ "resize", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a5c9789def352a216cfb5dc9fad696429", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a2614d1d0f14c7b5ee826270507269fcc", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a398c29ffbe065112c652ab6dee028ab2", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a71efab928b369694558dad18d667a35c", null ],
     [ "size", "classmrmeshpy_1_1Vector__int__GraphVertId.html#aacbde1bcb3979831c3ac93b16ffce6d1", null ],
     [ "swap", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a7c5547af1330747e1a68e3856b18d274", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__int__GraphVertId.html#a2158f0641723947d34468ab6fd57826a", null ],

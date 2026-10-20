@@ -33,6 +33,7 @@ var classmrmeshpy_1_1Dipoles =
     [ "resize", "classmrmeshpy_1_1Dipoles.html#a5a0e9e01592bb2294a938ed87e1fbfb0", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Dipoles.html#ac821eca504cdc71c7daca6538e562c19", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Dipoles.html#ab60230a73cb4a21ffa4d8ce89d13b62f", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Dipoles.html#ac22a2f20cead20a08b8feca8b0d481c0", null ],
     [ "size", "classmrmeshpy_1_1Dipoles.html#aa86c47fb593f495d63ac3015f80fa8fb", null ],
     [ "swap", "classmrmeshpy_1_1Dipoles.html#ad1d003d5f7724221d603c1edb8505536", null ],
     [ "vec_", "classmrmeshpy_1_1Dipoles.html#afa3a46aaacb48544713acd2d4498187b", null ],

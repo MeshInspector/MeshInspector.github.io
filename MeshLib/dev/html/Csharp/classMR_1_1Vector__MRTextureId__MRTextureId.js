@@ -26,6 +26,7 @@ var classMR_1_1Vector__MRTextureId__MRTextureId =
     [ "resizeNoInit", "classMR_1_1Vector__MRTextureId__MRTextureId.html#a3f43f7d1a9ccabf89246afab3fc78c60", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRTextureId__MRTextureId.html#ae24ee26ceeae7cb05394f15f5248d027", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRTextureId__MRTextureId.html#ad81dc24bb6f73d467860aa4fb245d3d9", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRTextureId__MRTextureId.html#a026a5cd0e2f3e27c9259b891b9425ec4", null ],
     [ "swap", "classMR_1_1Vector__MRTextureId__MRTextureId.html#aff78e589f6c4f1b7b96321d7f38f44ab", null ],
     [ "this[MR.TextureId i]", "classMR_1_1Vector__MRTextureId__MRTextureId.html#a9a01e1ae5e039056b66d174911af7b5b", null ],
     [ "vec", "classMR_1_1Vector__MRTextureId__MRTextureId.html#a5dd7283eab9248d62e5f48c752fa14b2", null ]

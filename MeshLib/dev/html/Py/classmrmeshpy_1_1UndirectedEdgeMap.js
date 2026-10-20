@@ -36,6 +36,7 @@ var classmrmeshpy_1_1UndirectedEdgeMap =
     [ "resizeNoInit", "classmrmeshpy_1_1UndirectedEdgeMap.html#ab3362c8dc06c4c738dacfa15b1e1059a", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1UndirectedEdgeMap.html#a360783953b1f3f99e52dab45eb035392", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1UndirectedEdgeMap.html#a1018b1af0fe7579547f409e08fbad4de", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1UndirectedEdgeMap.html#a9df4ccb70f2b064f139d8ea2de02e9f9", null ],
     [ "size", "classmrmeshpy_1_1UndirectedEdgeMap.html#a94fa9957e6762d9b597a88e55225b0e0", null ],
     [ "swap", "classmrmeshpy_1_1UndirectedEdgeMap.html#a341b63a500b083dc5526a98e84f32303", null ],
     [ "vec_", "classmrmeshpy_1_1UndirectedEdgeMap.html#a18a5d9aab20886e8568256fd46c308d4", null ],

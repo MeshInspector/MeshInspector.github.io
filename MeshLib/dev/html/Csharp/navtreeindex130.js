@@ -1,5 +1,16 @@
 var NAVTREEINDEX130 =
 {
+"classMR_1_1Quaterniond.html#acfb3e3e4a5b71f9823f40b7471bf97ad":[9,3,0,0,0,1602,12],
+"classMR_1_1Quaterniond.html#ae16549e53f8aa016b3d78fef21fa0489":[9,3,0,0,0,1602,15],
+"classMR_1_1Quaterniond.html#af45a7888d342e7b1a7a6d9a61a226974":[9,3,0,0,0,1602,7],
+"classMR_1_1Quaternionf.html":[9,3,0,0,0,1603],
+"classMR_1_1Quaternionf.html#a1400ed3736d1f675bde151d8c624d310":[9,3,0,0,0,1603,5],
+"classMR_1_1Quaternionf.html#a14e55dab896e3c214bf9f93a2bb17aec":[9,3,0,0,0,1603,9],
+"classMR_1_1Quaternionf.html#a1c71ef6bdee5037714588390f70a211a":[9,3,0,0,0,1603,12],
+"classMR_1_1Quaternionf.html#a1c8eb5a31f7c3065dbae7281fa403fac":[9,3,0,0,0,1603,13],
+"classMR_1_1Quaternionf.html#a3eac6b68243a34c8a66e0e1d3ed461f1":[9,3,0,0,0,1603,7],
+"classMR_1_1Quaternionf.html#a4bdcbddd11f2cdd7a3c2cc06ca4ce545":[9,3,0,0,0,1603,8],
+"classMR_1_1Quaternionf.html#a685d834b77effa06517b9c7364bb156e":[9,3,0,0,0,1603,10],
 "classMR_1_1Quaternionf.html#a733dc7c51429998b18bda3783c0f5720":[9,3,0,0,0,1603,2],
 "classMR_1_1Quaternionf.html#a7e353f8d18f2672c96a412a8667cc258":[9,3,0,0,0,1603,0],
 "classMR_1_1Quaternionf.html#a89d5d6557140c2bfbe647bb7687daf1f":[9,3,0,0,0,1603,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX130 =
 "classMR_1_1RelaxParams.html#a3a35234771b7e73df2d9d2ac55d86881":[9,3,0,0,0,1618,5],
 "classMR_1_1RelaxParams.html#a4e6030af260cb62a5532b8a850755064":[9,3,0,0,0,1618,3],
 "classMR_1_1RelaxParams.html#a5a248dea46ab9e0d96dd900d5869e131":[9,3,0,0,0,1618,9],
-"classMR_1_1RelaxParams.html#a6a77807fb4269a27dbe4ed779b218721":[9,3,0,0,0,1618,6],
-"classMR_1_1RelaxParams.html#aa6b4edf72ee6909bde7dbba353ccb623":[9,3,0,0,0,1618,0],
-"classMR_1_1RelaxParams.html#ab63b0c054897c1b08f7e126ae1794748":[9,3,0,0,0,1618,4],
-"classMR_1_1RelaxParams.html#acd9b062a072a30f445c56768f6b39797":[9,3,0,0,0,1618,2],
-"classMR_1_1RelaxParams.html#ae949db566df3a3532f3bebfa7dfcd11c":[9,3,0,0,0,1618,7],
-"classMR_1_1RelaxParams.html#aee56e0ad9adf25e0edb5e544f46857fc":[9,3,0,0,0,1618,1],
-"classMR_1_1RemeshSettings.html":[9,3,0,0,0,1619],
-"classMR_1_1RemeshSettings.html#a080cb6be1d1b401e316862291d62b3e9":[9,3,0,0,0,1619,14],
-"classMR_1_1RemeshSettings.html#a1410b041495d56bc3e616e34105e54d3":[9,3,0,0,0,1619,4],
-"classMR_1_1RemeshSettings.html#a1e54e7c58f6a61255a7ce70d49fe62dc":[9,3,0,0,0,1619,8],
-"classMR_1_1RemeshSettings.html#a29dd5f95d7806750d40e89020792465a":[9,3,0,0,0,1619,7],
-"classMR_1_1RemeshSettings.html#a4988f45d0845680c492db7a1ab546f7f":[9,3,0,0,0,1619,15]
+"classMR_1_1RelaxParams.html#a6a77807fb4269a27dbe4ed779b218721":[9,3,0,0,0,1618,6]
 };

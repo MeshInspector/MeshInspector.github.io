@@ -26,6 +26,7 @@ var classMR_1_1TexturePerFace =
     [ "resizeNoInit", "classMR_1_1TexturePerFace.html#a9b0795cfcaa1a05b9055a7fd05d2cbd4", null ],
     [ "resizeWithReserve", "classMR_1_1TexturePerFace.html#abf88962a7c5101da994e0c4500b1021b", null ],
     [ "resizeWithReserve", "classMR_1_1TexturePerFace.html#a4f2c1a25e87f27724694dd5b7986667b", null ],
+    [ "shrinkToFit", "classMR_1_1TexturePerFace.html#a4f50904e5ff0a1eebb22caed26c846a7", null ],
     [ "swap", "classMR_1_1TexturePerFace.html#a545668a468becaf9c0d3239d1aa0a724", null ],
     [ "this[MR.FaceId i]", "classMR_1_1TexturePerFace.html#a559c4a174d00671bcd9e60cb9f2c7ae6", null ],
     [ "vec", "classMR_1_1TexturePerFace.html#a932d432fed296fa3b51da3f0059a959f", null ]

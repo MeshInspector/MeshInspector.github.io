@@ -34,6 +34,7 @@ var classmrmeshpy_1_1Vector__FanRecord__VertId =
     [ "resizeNoInit", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#aa75c85b98f4edb2a796b78f7561fa627", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#af7e311cbfa72f9cbfcff2198e72ddf4f", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a10a3758713fedac9ad68a6268bac8340", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a654512502454faa1351020ee54f00082", null ],
     [ "size", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a7c858a1140b8f75a17424637f9608d5c", null ],
     [ "swap", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a7a1600d3419e0e9d8bc78c70f92a19eb", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#ad223a339ccc12658e9abaf166edf3cf0", null ],

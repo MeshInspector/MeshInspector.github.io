@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRAffineXf3f__MRObjId =
     [ "resize", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#ae025e4a29a08ba9ea8e2064c27e1a10a", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#af1ae074e7e3c4e0181e9f2f576592941", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a85ffd116ea8741f6a6c2912c3ac51244", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a87d10040caeb87cc9879cab21bb19d29", null ],
     [ "swap", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#ad05ab7644ffda2d502d4d31bdd797113", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#ac8de3166285153d865dbcec4fcc26ab6", null ],
     [ "vec", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#af1a405ad88d18a792e41eb268f8c7b01", null ]

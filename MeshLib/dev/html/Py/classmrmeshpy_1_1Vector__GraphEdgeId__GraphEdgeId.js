@@ -36,6 +36,7 @@ var classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId =
     [ "resizeNoInit", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a8ed5cdc279e4837c633ff67f05f0069f", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#aa295aba446bd5e68bcb8aa69f77b76e5", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a2d0e47c199f97827d0d80920640c6f74", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a5373c921d66cb0ebf86089fb1b0701fe", null ],
     [ "size", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a3bd1aaa89cc059a74e04fb6852607712", null ],
     [ "swap", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#ae9ed69024d9f6e8d699fd74cb6c2a55b", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId.html#a1f9a66d0e6f6eb2308b87370b7a87c9b", null ],

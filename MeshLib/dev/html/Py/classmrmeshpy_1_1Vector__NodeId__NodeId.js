@@ -36,6 +36,7 @@ var classmrmeshpy_1_1Vector__NodeId__NodeId =
     [ "resizeNoInit", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#aa46e16597d808c82587c9a353234a8d9", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#ace873b708588009059af149505df37d9", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#af9ae82194f6cc60f6b1d646016cce6b1", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#af35e73132e2863f51685b87dca453860", null ],
     [ "size", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#adf11ad62d141fea7630563f5b65b4b83", null ],
     [ "swap", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#a26fb171ffb45bc6135b053b48a3d1fcd", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__NodeId__NodeId.html#ad1d20e38ca659f983678e41471ec9010", null ],

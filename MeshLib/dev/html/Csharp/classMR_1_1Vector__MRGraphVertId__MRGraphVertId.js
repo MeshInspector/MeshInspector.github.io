@@ -26,6 +26,7 @@ var classMR_1_1Vector__MRGraphVertId__MRGraphVertId =
     [ "resizeNoInit", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#af8ec82c94e36fe0f27364e5343fa5033", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a8da0e7de73d13684d399f667ef5e3138", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a9d94b8d00305a56612df78175a761ada", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#af63f3370aaac9351156a6c29049dee97", null ],
     [ "swap", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a57927156046b82edf20664e02e079bf3", null ],
     [ "this[MR.GraphVertId i]", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a888629df272765ad092d4aa83cf27301", null ],
     [ "vec", "classMR_1_1Vector__MRGraphVertId__MRGraphVertId.html#a15c70050a5b5c14cbdd96c0cd57158b4", null ]

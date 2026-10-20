@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRNestingMeshXf__MRObjId =
     [ "resize", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ae89d10b8651924e0094084de55f14882", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#aa8816d366f89c0e85c1d001c28a69652", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#a5aa3ea84acce48ec12b532144e190f88", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#aadd8373c7033e22daabc2fbb1fd8f0df", null ],
     [ "swap", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ac603107a23af85770ae85eabf43e192b", null ],
     [ "this[MR.ObjId i]", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ab8480733f43f8cc9bb0cb96c88713ec6", null ],
     [ "vec", "classMR_1_1Vector__MRNestingMeshXf__MRObjId.html#ab817ca3ee0073ca2e0bfafc773fdd398", null ]

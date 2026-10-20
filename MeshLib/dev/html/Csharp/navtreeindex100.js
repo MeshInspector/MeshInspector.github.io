@@ -209,15 +209,16 @@ var NAVTREEINDEX100 =
 "classMR_1_1Dipoles.html#a25f0d0302ef69109d18a51228bf46aed":[9,3,0,0,0,1157,4],
 "classMR_1_1Dipoles.html#a2873b63df3961321f8d5aec6eeeda17f":[9,3,0,0,0,1157,2],
 "classMR_1_1Dipoles.html#a2e988800aae0ffaf8b4d1eb5d80d80bc":[9,3,0,0,0,1157,5],
-"classMR_1_1Dipoles.html#a38268393014d99eb7a40aa803c958e66":[9,3,0,0,0,1157,25],
-"classMR_1_1Dipoles.html#a3c1c8b1bd6cc0a4385d92839673db507":[9,3,0,0,0,1157,26],
+"classMR_1_1Dipoles.html#a38268393014d99eb7a40aa803c958e66":[9,3,0,0,0,1157,26],
+"classMR_1_1Dipoles.html#a3c1c8b1bd6cc0a4385d92839673db507":[9,3,0,0,0,1157,27],
 "classMR_1_1Dipoles.html#a51d9dfce7c812599dd64f1636e2e24d1":[9,3,0,0,0,1157,21],
 "classMR_1_1Dipoles.html#a5ee2d0a9170797f13b93a8f536a81016":[9,3,0,0,0,1157,14],
 "classMR_1_1Dipoles.html#a5f449c34e9132e8b7169761844fe3aa0":[9,3,0,0,0,1157,7],
 "classMR_1_1Dipoles.html#a6bfa87a3f6fd2adaf490463928eb8ec9":[9,3,0,0,0,1157,19],
+"classMR_1_1Dipoles.html#a80f616b1aa39fbe43121b663091ca49a":[9,3,0,0,0,1157,25],
 "classMR_1_1Dipoles.html#a831450986d41548da7221d20aad56b1b":[9,3,0,0,0,1157,24],
 "classMR_1_1Dipoles.html#a874c9b9c33cb7e39ca573e4406a40410":[9,3,0,0,0,1157,22],
-"classMR_1_1Dipoles.html#a8996143184fcc7a4f4a581773b4eb19e":[9,3,0,0,0,1157,27],
+"classMR_1_1Dipoles.html#a8996143184fcc7a4f4a581773b4eb19e":[9,3,0,0,0,1157,28],
 "classMR_1_1Dipoles.html#a929f5fba424e2b92249d8f6ef8b9d412":[9,3,0,0,0,1157,9],
 "classMR_1_1Dipoles.html#aa9bd6466716062dd04491db11f08a925":[9,3,0,0,0,1157,12],
 "classMR_1_1Dipoles.html#aae4a4f0e4c74aa7fb0a151ce09b74fc4":[9,3,0,0,0,1157,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a35e55213992229ce1d91e225059e05f8":[9,3,0,0,0,1159,1],
 "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a43bdb5a5da34b3d20930bea6993bf035":[9,3,0,0,0,1159,7],
 "classMR_1_1DistanceFromWeightedPointsComputeParams.html#a50f91e19700795af23a70f942255b2e3":[9,3,0,0,0,1159,12],
-"classMR_1_1DistanceFromWeightedPointsComputeParams.html#a60321ae15ba2bca670f8ff81a5235c5f":[9,3,0,0,0,1159,11],
-"classMR_1_1DistanceFromWeightedPointsComputeParams.html#a702c49035bcabfe26e379f4a6c82fa14":[9,3,0,0,0,1159,0]
+"classMR_1_1DistanceFromWeightedPointsComputeParams.html#a60321ae15ba2bca670f8ff81a5235c5f":[9,3,0,0,0,1159,11]
 };

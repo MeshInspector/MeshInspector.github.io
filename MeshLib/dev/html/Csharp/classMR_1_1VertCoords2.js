@@ -26,6 +26,7 @@ var classMR_1_1VertCoords2 =
     [ "resizeNoInit", "classMR_1_1VertCoords2.html#ac468fdd342b9e362b236e46c963209c9", null ],
     [ "resizeWithReserve", "classMR_1_1VertCoords2.html#ad68998e5cd0e38b95b3dadcef8e59d32", null ],
     [ "resizeWithReserve", "classMR_1_1VertCoords2.html#a568a99ea9710983e712ce7eedd296bba", null ],
+    [ "shrinkToFit", "classMR_1_1VertCoords2.html#a2a674be5f797167165c01f4c4ca1d535", null ],
     [ "swap", "classMR_1_1VertCoords2.html#a96b3c9467f0f926929ddfa0dc76b60fb", null ],
     [ "this[MR.VertId i]", "classMR_1_1VertCoords2.html#a92fd879a847a83328b71f59214501f8d", null ],
     [ "vec", "classMR_1_1VertCoords2.html#a131f0cbe29fc24c6096a85cba51ad409", null ]

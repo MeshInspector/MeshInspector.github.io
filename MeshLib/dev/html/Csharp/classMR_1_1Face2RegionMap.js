@@ -26,6 +26,7 @@ var classMR_1_1Face2RegionMap =
     [ "resizeNoInit", "classMR_1_1Face2RegionMap.html#ac91d77229aa73fd94753c5ecf4217b92", null ],
     [ "resizeWithReserve", "classMR_1_1Face2RegionMap.html#aeeecd911be9590dd8ec95205c3e15b6e", null ],
     [ "resizeWithReserve", "classMR_1_1Face2RegionMap.html#a0e8206214f2f84afd15ae052c1cdbaff", null ],
+    [ "shrinkToFit", "classMR_1_1Face2RegionMap.html#aa7d3fa0d3b4d1bfd817708b759404a2c", null ],
     [ "swap", "classMR_1_1Face2RegionMap.html#a1b1ae22f3e1169aee24d1f5a362096d9", null ],
     [ "this[MR.FaceId i]", "classMR_1_1Face2RegionMap.html#a5402d759470220432d5bae0a7392df48", null ],
     [ "vec", "classMR_1_1Face2RegionMap.html#aa0d14dfa3a44b11c31064d30c4ccb539", null ]

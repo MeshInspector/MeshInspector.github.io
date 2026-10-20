@@ -34,6 +34,7 @@ var classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId =
     [ "resizeNoInit", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a0822aabb11ff0429ff6bf732ad003ef1", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#aeca105a72e0d6048ec8623192572a504", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a4af3b2c59cd4200c71b546f18432f60f", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a51bae6b8e7a7116400b7cbeea8b41a79", null ],
     [ "size", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a704c7d45096f67f9f5d8b8e10196c460", null ],
     [ "swap", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a01be740146fb43bcfb96856474e425a9", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__AABBTreeNode__ObjTreeTraits__NodeId.html#a057ea464b601c42d805518ff2b2559b6", null ],

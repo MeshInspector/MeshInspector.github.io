@@ -35,6 +35,7 @@ var classmrmeshpy_1_1TriCornerUVCoords =
     [ "resize", "classmrmeshpy_1_1TriCornerUVCoords.html#a9df0f57aa81d6df77ba55cb94a1a0ccd", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1TriCornerUVCoords.html#a3deadd22aebf6c6bfbbdc86f155edc64", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1TriCornerUVCoords.html#a5c066662122177f6295d1b311ed8df5f", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1TriCornerUVCoords.html#aaff9fefd2288f09d739cbabea58dafab", null ],
     [ "size", "classmrmeshpy_1_1TriCornerUVCoords.html#aaf244527595f53c5145191bb06d35e62", null ],
     [ "swap", "classmrmeshpy_1_1TriCornerUVCoords.html#afd6aa706bdcc3b71b88f16245678c623", null ],
     [ "vec_", "classmrmeshpy_1_1TriCornerUVCoords.html#a773e2ca28db9288e3132ba26dfceb7c6", null ],

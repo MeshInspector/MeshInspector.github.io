@@ -26,6 +26,7 @@ var classMR_1_1UndirectedEdge2RegionMap =
     [ "resizeNoInit", "classMR_1_1UndirectedEdge2RegionMap.html#a6a03c486c43f7c53db967645f27b382b", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdge2RegionMap.html#a6fb2c943431905bfefbe504e88ee785f", null ],
     [ "resizeWithReserve", "classMR_1_1UndirectedEdge2RegionMap.html#a6f206cf21329851581c1f6572e7849db", null ],
+    [ "shrinkToFit", "classMR_1_1UndirectedEdge2RegionMap.html#a95449ac03851ca0a507aed9d46423294", null ],
     [ "swap", "classMR_1_1UndirectedEdge2RegionMap.html#a754114d5347ea14cd76a3b6172beb91d", null ],
     [ "this[MR.UndirectedEdgeId i]", "classMR_1_1UndirectedEdge2RegionMap.html#a9616141b9f09a9c169b97b23f2ac8dfa", null ],
     [ "vec", "classMR_1_1UndirectedEdge2RegionMap.html#a989c021424abf70930ed22388ce4d128", null ]

@@ -33,6 +33,7 @@ var classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag =
     [ "resize", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#a42ed4e7921ce0b800718e00bbcb3a952", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#a140b19682bf4dc6ddfe883768e55ae73", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#a8ba43be6ae5b1872ae4d6379f2818b4b", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#acb94b604ad3eb0dd1f0a58e43ddbf496", null ],
     [ "size", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#aac94494931fe94eb676ddbdd8337128c", null ],
     [ "swap", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#a268ec49726967f14a9bc43b3f0839eb0", null ],
     [ "vec_", "classmrmeshpy_1_1Vector__ICPGroupPairs__Id__ICPElemtTag.html#ac030375f7aa1e60cd57136c4c9573fac", null ],

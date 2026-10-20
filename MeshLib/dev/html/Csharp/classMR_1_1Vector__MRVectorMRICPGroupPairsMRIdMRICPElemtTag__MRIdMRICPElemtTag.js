@@ -25,6 +25,7 @@ var classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtT
     [ "resize", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a5fb294d130fbe604cc92ec9e6893d69a", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#abf7d59a8e50348213266bdd634320409", null ],
     [ "resizeWithReserve", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#af045307fabb0ee746a50765e08f2d79d", null ],
+    [ "shrinkToFit", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a72661b49ffe0e1104c461a22a7553ec1", null ],
     [ "swap", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#a91cf3869b37ac4ac37c59b6ade0854b7", null ],
     [ "this[MR.Const_Id_MRICPElemtTag i]", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#ac733a6b31f806d8d4688a7b95677136c", null ],
     [ "vec", "classMR_1_1Vector__MRVectorMRICPGroupPairsMRIdMRICPElemtTag__MRIdMRICPElemtTag.html#aa14618f03b4257206083bee8f3ba4f99", null ]

@@ -36,6 +36,7 @@ var classmrmeshpy_1_1ObjMap =
     [ "resizeNoInit", "classmrmeshpy_1_1ObjMap.html#a44bf443ed94d8a6be61f43f97a1abd30", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1ObjMap.html#afbf6be7de226dd9277513506aff88523", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1ObjMap.html#aca5951f1e5dc32fe595ee5cf65667a9d", null ],
+    [ "shrink_to_fit", "classmrmeshpy_1_1ObjMap.html#ad66f4d30b30af4c06ed793391ec8b57c", null ],
     [ "size", "classmrmeshpy_1_1ObjMap.html#a093caa945d25fc70b3078740e6a914ba", null ],
     [ "swap", "classmrmeshpy_1_1ObjMap.html#a2b960221432bee8a4cec0351eb4463ae", null ],
     [ "vec_", "classmrmeshpy_1_1ObjMap.html#a9ab1bb8cbab9e96fc7574a069bb5606f", null ],
