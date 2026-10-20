@@ -10890,7 +10890,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input. </para>
+<para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input. An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge; the other isolines are closed, with the last intersection equal to the first one. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -10916,7 +10916,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1308" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1308" bodyend="1314"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1310" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1310" bodyend="1316"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aee70ef84f19de70d74441de0824e219d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour</type>
@@ -10942,7 +10942,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input. </para>
+<para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="classMR_1a69c80bb31266546933db0c88875afc59" kindref="member">MR.cutMesh</ref> input. An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge; the other isolines are closed, with the last intersection equal to the first one. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -10968,7 +10968,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1325" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1325" bodyend="1331"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1329" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1329" bodyend="1335"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0c0667c8aecfe15913da9f1629f1216c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour</type>
@@ -11000,7 +11000,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1339" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1339" bodyend="1345"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1343" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1343" bodyend="1349"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7b36dfa81f6516db1c9f6a19bce00cca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MROneMeshContour</type>
@@ -11032,7 +11032,7 @@ Generated from function <computeroutput><ref refid="classMR_1aae21063cd33c482aad
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1352" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1352" bodyend="1358"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1356" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1356" bodyend="1362"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae386b79ef0c05dbddb2ddbf14fd303b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceBitSet</type>
@@ -39977,7 +39977,7 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
+<simplesect kind="return"><para>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kindref="member">offsetSurfaceLineToMeshContours</ref> to also get the mesh primitive of every contour point Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">MR.offsetSurfaceLine</ref></computeroutput>. </para>
 </simplesect>
@@ -39985,7 +39985,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="12" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="12" bodyend="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="13" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="13" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afa49e571c4beed9fa8749b175cbe6fea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
@@ -40034,7 +40034,7 @@ do not really keeps volume but tries hard </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
+<simplesect kind="return"><para>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="classMR_1aa2c4c87778555ccf897b4d0a0f811b12" kindref="member">offsetSurfaceLineToMeshContours</ref> to also get the mesh primitive of every contour point Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0a98ed100cffac1" kindref="member">MR.offsetSurfaceLine</ref></computeroutput>. </para>
 </simplesect>
@@ -40042,7 +40042,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="29" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="29" bodyend="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="31" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" bodystart="31" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae23dfdf4b6ddd90e89a00ad8d67b2161" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.String</type>
@@ -60548,7 +60548,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1363" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1367" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac3a4989161818cce10bd73a6afc2c58c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying *</type>
@@ -60578,7 +60578,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1366" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1370" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a8b7f2327a907114110c90c94e88491e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.CutMeshResult._Underlying *</type>
@@ -60604,7 +60604,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1369" column="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1373" column="53"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6138dfe48ce8c7b65468a33ec19ea98b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFaceBitSet_StdString._Underlying *</type>
@@ -60630,7 +60630,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1372" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1376" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af690219591bc7be4d352665e42e5873e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_MRFaceBitSet_StdString._Underlying *</type>
@@ -60656,7 +60656,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1375" column="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1379" column="71"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a335008174b7bb5d565ec18ac5a011d0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorStdVectorMREdgeId_StdString._Underlying *</type>
@@ -60682,7 +60682,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1378" column="85"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1382" column="85"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3c1c20d2dcedcde696bafc8635a763ac" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying *</type>
@@ -60712,7 +60712,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1381" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1385" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a5a7ac9571fed478265794fb15b341f0b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorMROneMeshContour_StdString._Underlying *</type>
@@ -60742,7 +60742,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1384" column="84"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1388" column="84"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af0a061ccdbebfc7cecf44ac129fc11a0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRFaceBitSet._Underlying *</type>
@@ -85708,7 +85708,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="40" column="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="42" column="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aaee1e03d3991c64464d88965ca6f635a" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Expected_StdVectorStdVectorMRVector3f_StdString._Underlying *</type>
@@ -85734,7 +85734,7 @@ do not really keeps volume but tries hard </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="43" column="87"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceLineOffset.cs" line="45" column="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a844b2eb3c544e10367e9ad4fb5344260" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.Phmap.FlatHashMap_MRVertId_MRVertId._Underlying *</type>

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['s_5ftr_0',['s_tr',['../MRI18n_8h.html#ad186f1135eca2f5c984d81d38d6fde5e',1,'MRI18n.h']]],
+  ['gl_5fexec_0',['GL_EXEC',['../MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7',1,'MRGLMacro.h']]],
+  ['enqueue_5fviewer_5fmethod_0',['ENQUEUE_VIEWER_METHOD',['../MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db',1,'MRViewer.h']]],
+  ['enqueue_5fviewer_5fmethod_5fargs_1',['ENQUEUE_VIEWER_METHOD_ARGS',['../MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde',1,'MRViewer.h']]],
+  ['enqueue_5fviewer_5fmethod_5fargs_5fskipable_2',['ENQUEUE_VIEWER_METHOD_ARGS_SKIPABLE',['../MRViewer_8h.html#a47bc3da84c367214966eb167e5d2a70d',1,'MRViewer.h']]],
   ['m_0',['M',['../MRScalarConvert_8h.html#ae65bae37c04df532c86990892b7a43b9',1,'MRScalarConvert.h']]],
   ['make_5fslot_1',['MAKE_SLOT',['../MRMakeSlot_8h.html#a2c688df55bdadf35189e97880b6dc592',1,'MRMakeSlot.h']]],
   ['mr_5fadd_5fdistance_5fmap_5floader_2',['MR_ADD_DISTANCE_MAP_LOADER',['../MRIOFormatsRegistry_8h.html#a4e8d05ffd9d428b9f115d68f7e4d76fe',1,'MRIOFormatsRegistry.h']]],
@@ -85,10 +88,6 @@ var searchData=
   ['mrsymbolmesh_5fclass_81',['MRSYMBOLMESH_CLASS',['../MRSymbolMeshFwd_8h.html#acd35d2ca8d20c30530e2d38a9295f009',1,'MRSymbolMeshFwd.h']]],
   ['mrvoxels_5fapi_82',['MRVOXELS_API',['../MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad',1,'MRVoxelsFwd.h']]],
   ['mrvoxels_5fclass_83',['MRVOXELS_CLASS',['../MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242',1,'MRVoxelsFwd.h']]],
-  ['enqueue_5fviewer_5fmethod_0',['ENQUEUE_VIEWER_METHOD',['../MRViewer_8h.html#ab5148a6d21d216f28a3c1da0055472db',1,'MRViewer.h']]],
-  ['enqueue_5fviewer_5fmethod_5fargs_1',['ENQUEUE_VIEWER_METHOD_ARGS',['../MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde',1,'MRViewer.h']]],
-  ['enqueue_5fviewer_5fmethod_5fargs_5fskipable_2',['ENQUEUE_VIEWER_METHOD_ARGS_SKIPABLE',['../MRViewer_8h.html#a47bc3da84c367214966eb167e5d2a70d',1,'MRViewer.h']]],
-  ['gl_5fexec_0',['GL_EXEC',['../MRGLMacro_8h.html#ab4347896d8853c18f862de0996dd70e7',1,'MRGLMacro.h']]],
   ['_5fmr_5fpython_5fcustom_5fclass_5fholder_5fname_0',['_MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME',['../MRPython_8h.html#a0a63eac4962f01ac9d1067840d25fe13',1,'MRPython.h']]],
   ['_5ft_1',['_t',['../MRMeshFwd_8h.html#a9ffd0813b79cbb98d3f71fa5adb2a408',1,'MRMeshFwd.h']]],
   ['_5ftr_2',['_tr',['../MRI18n_8h.html#adc6632164911ac0de8387a9b13de000e',1,'MRI18n.h']]],
@@ -103,4 +102,5 @@ var searchData=
   ['detail_5fmr_5ftrim_5fleading_5fcomma_5f_8',['DETAIL_MR_TRIM_LEADING_COMMA_',['../MRMacros_8h.html#acaebd39479bb9677a7e966765a052de4',1,'MRMacros.h']]],
   ['detail_5fmr_5ftrim_5fleading_5fcomma_5fempty_9',['DETAIL_MR_TRIM_LEADING_COMMA_EMPTY',['../MRMacros_8h.html#a71b7b6d36fcf0ab6752038726c7b007d',1,'MRMacros.h']]],
   ['f_5ftr_0',['f_tr',['../MRI18n_8h.html#a33873d54d36dc3bf7a6a77bf40461701',1,'MRI18n.h']]],
+  ['s_5ftr_0',['s_tr',['../MRI18n_8h.html#ad186f1135eca2f5c984d81d38d6fde5e',1,'MRI18n.h']]],
 ];

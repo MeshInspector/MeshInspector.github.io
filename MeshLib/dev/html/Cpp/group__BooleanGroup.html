@@ -520,7 +520,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 <p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
 
 <p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input. An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge; the other isolines are closed, with the last intersection equal to the first one </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">offsetAtPoint</td><td>functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned </td></tr>
     <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>
@@ -571,7 +571,7 @@ If meshes are not closed in intersecting zone some boolean operations are not al
 <p><code>#include &lt;<a class="el" href="MRContoursCut_8h.html">MRMesh/MRContoursCut.h</a>&gt;</code></p>
 
 <p>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </p>
-<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Finds shortest paths between neighbor <code class="param">surfaceLine</code> and build offset contour on surface for <a class="el" href="#ga84b6da724860c1e5ac72574b7635c22c" title="Cuts mesh by given contours.">MR::cutMesh</a> input. An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge; the other isolines are closed, with the last intersection equal to the first one </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">offset</td><td>amount of offset form given point, note that absolute value is used and isoline in both direction returned </td></tr>
     <tr><td class="paramname">searchSettings</td><td>settings for search geodesic path </td></tr>

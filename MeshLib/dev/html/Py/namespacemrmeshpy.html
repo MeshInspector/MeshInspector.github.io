@@ -33993,7 +33993,8 @@ Returns contours in \\p mesh space that are offset from \\p surfaceLine on \\p o
 &lt;param name="mesh"&gt;mesh to perform offset on&lt;/param&gt;
 &lt;param name="surfaceLine"&gt;surface line to perofrm offset from&lt;/param&gt;
 &lt;param name="offset"&gt;amount of offset, note that absolute value is used&lt;/param&gt;
-&lt;returns&gt;resulting offset contours or error if something goes wrong&lt;/returns&gt;
+&lt;returns&gt;resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open:
+its first and last points are on the boundary and differ&lt;/returns&gt;
 \\sa offsetSurfaceLineToMeshContours to also get the mesh primitive of every contour point
 </pre> 
 </div>
@@ -34027,7 +34028,8 @@ Returns contours in \\p mesh space that are offset from \\p surfaceLine on \\p o
 &lt;param name="mesh"&gt;mesh to perform offset on&lt;/param&gt;
 &lt;param name="surfaceLine"&gt;surface line to perofrm offset from&lt;/param&gt;
 &lt;param name="offsetAtPoint"&gt;function that can return different amount of offset in different point (argument is index of point in \\p surfaceLine), note that absolute value is used&lt;/param&gt;
-&lt;returns&gt;resulting offset contours or error if something goes wrong&lt;/returns&gt;
+&lt;returns&gt;resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open:
+its first and last points are on the boundary and differ&lt;/returns&gt;
 \\sa offsetSurfaceLineToMeshContours to also get the mesh primitive of every contour point
 </pre> 
 </div>
@@ -34062,7 +34064,9 @@ Returns contours in \\p mesh space that are offset from \\p surfaceLine on \\p o
 </div><div class="memdoc">
 <pre class="fragment">\\brief Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour
 
-Finds shortest paths between neighbor \\p surfaceLine and build offset contour on surface for MR::cutMesh input
+Finds shortest paths between neighbor \\p surfaceLine and build offset contour on surface for MR::cutMesh input.
+An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge;
+the other isolines are closed, with the last intersection equal to the first one
 \\param offset amount of offset form given point, note that absolute value is used and isoline in both direction returned
 \\param searchSettings settings for search geodesic path
 
@@ -34100,7 +34104,9 @@ Finds shortest paths between neighbor \\p surfaceLine and build offset contour o
 </div><div class="memdoc">
 <pre class="fragment">\\brief Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour
 
-Finds shortest paths between neighbor \\p surfaceLine and build offset contour on surface for MR::cutMesh input
+Finds shortest paths between neighbor \\p surfaceLine and build offset contour on surface for MR::cutMesh input.
+An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge;
+the other isolines are closed, with the last intersection equal to the first one
 \\param offsetAtPoint functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned
 \\param searchSettings settings for search geodesic path
 

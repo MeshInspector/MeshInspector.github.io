@@ -91781,7 +91781,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="162" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="162" bodyend="166"/>
+        <location file="MRMesh/MRContoursCut.h" line="166" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="166" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga8f2f47f6c859930c9c0252e4bc28944e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -91812,7 +91812,7 @@ also adding corners in intersections of <computeroutput>nestedBoxes</computerout
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="169" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="169" bodyend="173"/>
+        <location file="MRMesh/MRContoursCut.h" line="173" column="17" bodyfile="MRMesh/MRContoursCut.h" bodystart="173" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga41199d0cddfedc2e7a079524081c570e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; FaceBitSet &gt;</type>
@@ -146047,7 +146047,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
+<simplesect kind="return"><para>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref> to also <ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref> the <ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref> primitive of every contour point </para>
 </simplesect>
@@ -146055,7 +146055,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSurfaceLineOffset.h" line="21" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="21" declcolumn="11"/>
+        <location file="MRMesh/MRSurfaceLineOffset.h" line="22" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="22" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga44a9a9075d36bff7e50b395b6cfef550" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Contours3f &gt;</type>
@@ -146104,7 +146104,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
+<simplesect kind="return"><para>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</para>
 </simplesect>
 <simplesect kind="see"><para><ref refid="group__BooleanGroup_1ga2cc55b5541f2ceaaf75cd0e0d48c8292" kindref="member">offsetSurfaceLineToMeshContours</ref> to also <ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref> the <ref refid="group__GeneralGroup_1ga6833f3dcd401bb41599e31f5dd9e5f2a" kindref="member">mesh</ref> primitive of every contour point </para>
 </simplesect>
@@ -146112,7 +146112,7 @@ same leafs are skipped and different leafs area processed with <computeroutput>p
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRSurfaceLineOffset.h" line="32" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="32" declcolumn="11"/>
+        <location file="MRMesh/MRSurfaceLineOffset.h" line="34" column="11" declfile="MRMesh/MRSurfaceLineOffset.h" declline="34" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__GeneralGroup_1ga0d7b116cb57858e0b068a33b81aed7a7" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type>constexpr</type>

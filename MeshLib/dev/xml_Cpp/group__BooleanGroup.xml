@@ -410,7 +410,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input. An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge; the other isolines are closed, with the last intersection equal to the first one <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>offset</parametername>
 </parameternamelist>
@@ -433,7 +433,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="145" column="11" declfile="MRMesh/MRContoursCut.h" declline="145" declcolumn="11"/>
+        <location file="MRMesh/MRContoursCut.h" line="147" column="11" declfile="MRMesh/MRContoursCut.h" declline="147" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1gac67a5b20bb2312590785d6dca7473866" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; OneMeshContours &gt;</type>
@@ -462,7 +462,7 @@ so if you cannot guarantee contours without intersections better make copy of me
 <para>Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour. </para>
         </briefdescription>
         <detaileddescription>
-<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input <parameterlist kind="param"><parameteritem>
+<para>Finds shortest paths between neighbor <computeroutput>surfaceLine</computeroutput> and build offset contour on surface for <ref refid="group__BooleanGroup_1ga84b6da724860c1e5ac72574b7635c22c" kindref="member">MR::cutMesh</ref> input. An isoline that reaches the mesh boundary is an open contour (closed = false) from a boundary edge to a boundary edge; the other isolines are closed, with the last intersection equal to the first one <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>offsetAtPoint</parametername>
 </parameternamelist>
@@ -485,7 +485,7 @@ so if you cannot guarantee contours without intersections better make copy of me
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRContoursCut.h" line="157" column="11" declfile="MRMesh/MRContoursCut.h" declline="157" declcolumn="11"/>
+        <location file="MRMesh/MRContoursCut.h" line="161" column="11" declfile="MRMesh/MRContoursCut.h" declline="161" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="group__BooleanGroup_1ga123f4e8e51dc1696e7db2ff8fc233bd2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MR_BIND_IGNORE Expected&lt; OneMeshContour &gt;</type>

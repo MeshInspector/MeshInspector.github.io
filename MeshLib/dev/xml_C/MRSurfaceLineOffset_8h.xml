@@ -78,7 +78,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
+<simplesect kind="return"><para>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</para>
 </simplesect>
 <simplesect kind="see"><para>offsetSurfaceLineToMeshContours to also get the mesh primitive of every contour point Generated from function <computeroutput>MR::offsetSurfaceLine</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__std__vector__MR__Vector3f__std__string_8h_1a6d124afece0aaf292ae595f1fefd51b2" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" line="27" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" declline="27" declcolumn="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" line="28" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" declline="28" declcolumn="66"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceLineOffset_8h_1aaec959990c9406a5a1cd0ca5f1dcb239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceLineOffset_8h_1a273eed4f5cadfa1bedd14695f02a2709" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</ref> *</type>
@@ -134,7 +134,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>resulting offset contours or error if something goes wrong</para>
+<simplesect kind="return"><para>resulting offset contours or error if something goes wrong; a contour that reaches the mesh boundary is open: its first and last points are on the boundary and differ</para>
 </simplesect>
 <simplesect kind="see"><para>offsetSurfaceLineToMeshContours to also get the mesh primitive of every contour point Generated from function <computeroutput>MR::offsetSurfaceLine</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>surfaceLine</computeroutput> can not be null. It is a single object. Parameter <computeroutput>offsetAtPoint</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__std__vector__MR__Vector3f__std__string_8h_1a6d124afece0aaf292ae595f1fefd51b2" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" line="42" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" declline="42" declcolumn="66"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" line="44" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h" declline="44" declcolumn="66"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -164,13 +164,13 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRSurfaceLineOffset_8h_1af6c62eb6d9c7cf09e8dc5ee36e66f4d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceLineOffset_8h_1a273eed4f5cadfa1bedd14695f02a2709" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</ref><sp/>*<ref refid="MRSurfaceLineOffset_8h_1af6c62eb6d9c7cf09e8dc5ee36e66f4d8" kindref="member">MR_offsetSurfaceLine_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRSurfaceLineOffset_8h_1aaec959990c9406a5a1cd0ca5f1dcb239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceLineOffset_8h_1a273eed4f5cadfa1bedd14695f02a2709" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</ref><sp/>*<ref refid="MRSurfaceLineOffset_8h_1aaec959990c9406a5a1cd0ca5f1dcb239" kindref="member">MR_offsetSurfaceLine_std_function_float_func_from_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a984bdb18a92ceb4f93e877ad306ad832" kindref="member">MR_std_function_float_from_int</ref><sp/>*offsetAtPoint);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="28" refid="MRSurfaceLineOffset_8h_1af6c62eb6d9c7cf09e8dc5ee36e66f4d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceLineOffset_8h_1a273eed4f5cadfa1bedd14695f02a2709" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</ref><sp/>*<ref refid="MRSurfaceLineOffset_8h_1af6c62eb6d9c7cf09e8dc5ee36e66f4d8" kindref="member">MR_offsetSurfaceLine_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRSurfaceLineOffset_8h_1aaec959990c9406a5a1cd0ca5f1dcb239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceLineOffset_8h_1a273eed4f5cadfa1bedd14695f02a2709" kindref="member">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</ref><sp/>*<ref refid="MRSurfaceLineOffset_8h_1aaec959990c9406a5a1cd0ca5f1dcb239" kindref="member">MR_offsetSurfaceLine_std_function_float_func_from_int</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*surfaceLine,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a984bdb18a92ceb4f93e877ad306ad832" kindref="member">MR_std_function_float_from_int</ref><sp/>*offsetAtPoint);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceLineOffset.h"/>
   </compounddef>
