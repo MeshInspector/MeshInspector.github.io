@@ -2,7 +2,7 @@ var mrmeshnumpy_8pyi =
 [
     [ "mrmeshnumpy.edgeBitSetFromBools", "namespacemrmeshnumpy.html#a4c856fa3511daab45f4c4996e4d48f62", null ],
     [ "mrmeshnumpy.faceBitSetFromBools", "namespacemrmeshnumpy.html#a0eb7da152334eb8272d6ddf545189b6a", null ],
-    [ "mrmeshnumpy.fromNumpyArray", "namespacemrmeshnumpy.html#a436f15df78cab87872b198370b097c0e", null ],
+    [ "mrmeshnumpy.fromNumpyArray", "namespacemrmeshnumpy.html#a307332033a1da3abfe38eb3ce7df8dbe", null ],
     [ "mrmeshnumpy.getNumpy3Darray", "namespacemrmeshnumpy.html#a30039e3551018d198a5a42bd480744cd", null ],
     [ "mrmeshnumpy.getNumpy3Darray", "namespacemrmeshnumpy.html#afcef0e62a701539ab3eccfd15999f2e9", null ],
     [ "mrmeshnumpy.getNumpyBitSet", "namespacemrmeshnumpy.html#a99acb9582fb6b8f20b4c8352a9943d6b", null ],
