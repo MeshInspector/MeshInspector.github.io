@@ -5892,7 +5892,7 @@ var searchData=
   ['mr_5fdecr_5fmr_5fvoxelid_5885',['MR_decr_MR_VoxelId',['../MRId_8h.html#a11e240e3946e862733aadf782d474a78',1,'MRId.h']]],
   ['mr_5fdelaunaytriangulationxy_5fconst_5fmr_5fpointcloud_5fref_5886',['MR_delaunayTriangulationXY_const_MR_PointCloud_ref',['../MRDelaunayTriangulationXY_8h.html#a52d3320a49103697eb2b1a6c23e297a5',1,'MRDelaunayTriangulationXY.h']]],
   ['mr_5fdelaunaytriangulationxy_5fmr_5fpointcloud_5frvalue_5fref_5887',['MR_delaunayTriangulationXY_MR_PointCloud_rvalue_ref',['../MRDelaunayTriangulationXY_8h.html#a7245754b2de63b98ba138898501ce1bd',1,'MRDelaunayTriangulationXY.h']]],
-  ['mr_5fdelaunaytriangulationxy_5fstd_5fvector_5fmr_5fvector3f_5888',['MR_delaunayTriangulationXY_std_vector_MR_Vector3f',['../MRDelaunayTriangulationXY_8h.html#acad8e669e0dd47fae61467b58f64b534',1,'MRDelaunayTriangulationXY.h']]],
+  ['mr_5fdelaunaytriangulationxy_5fmr_5fvertcoords_5888',['MR_delaunayTriangulationXY_MR_VertCoords',['../MRDelaunayTriangulationXY_8h.html#af057f4a90843a109209ce58c8a17f521',1,'MRDelaunayTriangulationXY.h']]],
   ['mr_5fdeletefaceswithlongedges_5889',['MR_deleteFacesWithLongEdges',['../MRMeshFixer_8h.html#a4e09dea25454889b940b16c035232e0d',1,'MRMeshFixer.h']]],
   ['mr_5fdeletetargetfaces_5fmr_5fmesh_5890',['MR_deleteTargetFaces_MR_Mesh',['../MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb',1,'MRMeshDelete.h']]],
   ['mr_5fdeletetargetfaces_5fmr_5fvector3f_5891',['MR_deleteTargetFaces_MR_Vector3f',['../MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346',1,'MRMeshDelete.h']]],

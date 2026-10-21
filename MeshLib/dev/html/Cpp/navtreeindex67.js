@@ -1,8 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"structMR_1_1Mesh.html#aaab3b5b832271960652218f95db6174a":[9,0,0,7,1,47],
-"structMR_1_1Mesh.html#aadf88049a42ee27a3ad54ca2f83bb056":[9,0,0,7,1,89],
-"structMR_1_1Mesh.html#aae3794627367f1c0ae6a497f41542197":[9,0,0,7,1,12],
 "structMR_1_1Mesh.html#ab19cc6268005d386aff0e95b2b04fa9d":[9,0,0,7,1,119],
 "structMR_1_1Mesh.html#ab4a932360cad5e1747110151bb1cd6a7":[9,0,0,7,1,77],
 "structMR_1_1Mesh.html#ab6d39814aa495e12ba8e388c22a6f12e":[9,0,0,7,1,14],
@@ -249,5 +246,8 @@ var NAVTREEINDEX67 =
 "structMR_1_1ObjTreeTraits.html":[9,0,0,20,117],
 "structMR_1_1ObjVertId.html":[9,0,0,20,282],
 "structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html":[9,0,0,20,405],
-"structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html":[9,0,0,20,407]
+"structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html":[9,0,0,20,407],
+"structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html":[9,0,0,20,406],
+"structMR_1_1ObjectMeshData.html":[9,0,0,20,418],
+"structMR_1_1ObjectMeshMergeOptions.html":[9,0,0,20,417]
 };

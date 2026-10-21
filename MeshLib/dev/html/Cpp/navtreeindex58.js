@@ -1,8 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"group__SerializerGroup.html#ga50539cfe8f960607feeace50210a0a16":[9,0,0,2,17,34],
-"group__SerializerGroup.html#ga52fbd929743c9f6680d751a89b341ae0":[9,0,0,2,17,31],
-"group__SerializerGroup.html#ga572d20520171401a50e9f6a678d9f6f7":[9,0,0,2,17,24],
 "group__SerializerGroup.html#ga591d76b8e857091a46184d4903e87598":[9,0,0,2,17,7],
 "group__SerializerGroup.html#ga5a6b037a77f54ee1959070a26821d442":[9,0,0,2,17,47],
 "group__SerializerGroup.html#ga5b8b008fce1c25189b4b785ce0ac40ef":[9,0,0,2,17,43],
@@ -249,5 +246,8 @@ var NAVTREEINDEX58 =
 "group__TupleBindingsGroup.html#ga4e767d46dd23fb8b21130cc65ef9eb61":[9,0,0,0,11,12],
 "group__TupleBindingsGroup.html#ga4f46e33f779ccbcf3bbee75323347837":[9,0,0,0,11,17],
 "group__TupleBindingsGroup.html#ga7aa397b5ed81246a0465fb3bdc4f5599":[9,0,0,0,11,13],
-"group__TupleBindingsGroup.html#ga8adef0dcb5a67d508801a46f29deb81f":[9,0,0,0,11,7]
+"group__TupleBindingsGroup.html#ga8adef0dcb5a67d508801a46f29deb81f":[9,0,0,0,11,7],
+"group__TupleBindingsGroup.html#ga8c1f285288de8cd4487966109876601b":[9,0,0,0,11,0],
+"group__TupleBindingsGroup.html#gaac529af9159db98123ad959d1708a303":[9,0,0,0,11,2],
+"group__TupleBindingsGroup.html#gaae733878440cead52d3fc2fd6c4429b9":[9,0,0,0,11,1]
 };

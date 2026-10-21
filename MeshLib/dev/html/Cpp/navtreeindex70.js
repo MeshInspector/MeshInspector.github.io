@@ -1,8 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"structMR_1_1TriTriDistanceResult.html":[9,0,0,20,525],
-"structMR_1_1TriangleSegmentIntersectResult.html":[9,0,0,20,483],
-"structMR_1_1TriangulateHolesParams.html":[9,0,0,13,2],
 "structMR_1_1TriangulateHolesParams.html#a8817163abe136db373a3bbdefcba5ed0":[9,0,0,13,2,0],
 "structMR_1_1TriangulateHolesParams.html#aec7ce265264bd1bb9d6287fb079e2eeb":[9,0,0,13,2,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[9,0,1,0,1,50,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX70 =
 "structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e":[9,0,1,0,1,1621],
 "structMR_1_1Vector2.html#a847fe803c44c19055d0a15eca838df52":[9,0,0,0,12,0,19],
 "structMR_1_1Vector2.html#a847fe803c44c19055d0a15eca838df52":[9,0,1,0,1,1613],
-"structMR_1_1Vector2.html#a8fc9699488aa3c7c5bde2d2b046e9f0c":[9,0,0,0,12,0,9]
+"structMR_1_1Vector2.html#a8fc9699488aa3c7c5bde2d2b046e9f0c":[9,0,0,0,12,0,9],
+"structMR_1_1Vector2.html#a9c5f2b992789dba5c6d4e8e80ed28fa0":[9,0,0,0,12,0,5],
+"structMR_1_1Vector2.html#aa17da7f932edf77c0804eef8416b44bb":[9,0,0,0,12,0,7],
+"structMR_1_1Vector2.html#aa7e0a1754fac4de39eb88fc3f1e2db46":[9,0,0,0,12,0,22]
 };

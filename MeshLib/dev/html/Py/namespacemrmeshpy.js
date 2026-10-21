@@ -1637,7 +1637,7 @@ var namespacemrmeshpy =
     [ "decompressZip", "namespacemrmeshpy.html#a1c457182bb225c7ea4a297a82a6d6cea", null ],
     [ "decompressZip", "namespacemrmeshpy.html#a7f1c7f256707e9e5d49d92cbd308d895", null ],
     [ "delaunayTriangulationXY", "namespacemrmeshpy.html#a635df9b1d4a2a5576887837ac989d3f8", null ],
-    [ "delaunayTriangulationXY", "namespacemrmeshpy.html#a2c394bb4882a629f93940a35821265ff", null ],
+    [ "delaunayTriangulationXY", "namespacemrmeshpy.html#ab1803ec16024355a97dca3584559e110", null ],
     [ "deleteFacesWithLongEdges", "namespacemrmeshpy.html#ac2d7b68abf0258dd0f0955310a5c3ad9", null ],
     [ "deleteTargetFaces", "namespacemrmeshpy.html#a24d39b6c2569ed5ff58c89c1688928cc", null ],
     [ "deleteTargetFaces", "namespacemrmeshpy.html#a45ba46dfd211e56fa7e0e580e7bb5659", null ],

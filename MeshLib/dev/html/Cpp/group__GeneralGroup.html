@@ -4314,7 +4314,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga0b342739d4c8569a43f01cec9b3eb49d" id="r_ga0b342739d4c8569a43f01cec9b3eb49d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0b342739d4c8569a43f01cec9b3eb49d">MR::CylinderObject::deserializeModel_</a> (const std::filesystem::path &amp;, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>) override</td></tr>
 <tr class="memdesc:ga0b342739d4c8569a43f01cec9b3eb49d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads model from file.  <br /></td></tr>
 <tr class="memitem:ga06cc53a46f71b4756a31f6e125482278" id="r_ga06cc53a46f71b4756a31f6e125482278"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga06cc53a46f71b4756a31f6e125482278">MR::CylinderObject::setupRenderObject_</a> () const override</td></tr>
-<tr class="memitem:ga03e4bafcf07de23aba92cf73b46b85e7" id="r_ga03e4bafcf07de23aba92cf73b46b85e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga03e4bafcf07de23aba92cf73b46b85e7">MR::delaunayTriangulationXY</a> (std::vector&lt; Vector3f &gt; <a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
+<tr class="memitem:ga551bc08f1beed1775ad3883585feb1c0" id="r_ga551bc08f1beed1775ad3883585feb1c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga551bc08f1beed1775ad3883585feb1c0">MR::delaunayTriangulationXY</a> (VertCoords <a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 <tr class="memitem:ga6b8f8de83a2129d91b27d35fb05da042" id="r_ga6b8f8de83a2129d91b27d35fb05da042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6b8f8de83a2129d91b27d35fb05da042">MR::delaunayTriangulationXY</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 <tr class="memitem:ga84b8f659711d0141a8edf4d898decc92" id="r_ga84b8f659711d0141a8edf4d898decc92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga84b8f659711d0141a8edf4d898decc92">MR::delaunayTriangulationXY</a> (<a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;&amp;cloud, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 <tr class="memdesc:ga84b8f659711d0141a8edf4d898decc92"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as above, but moves cloud points into the resulting mesh instead of copying them  <br /></td></tr>
@@ -7910,7 +7910,6 @@ same leafs are skipped and different leafs area processed with <span class="tt">
 <tr class="memitem:gaf764f93b60643f2b782f259b29fa4ef0" id="r_gaf764f93b60643f2b782f259b29fa4ef0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf764f93b60643f2b782f259b29fa4ef0">MR::TbbThreadMutex::LockGuard::~LockGuard</a> ()</td></tr>
 <tr class="memitem:gaf62d178d9fee21afe07b33f021a5a3e2" id="r_gaf62d178d9fee21afe07b33f021a5a3e2"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classMR_1_1TbbThreadMutex_1_1LockGuard.html">LockGuard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf62d178d9fee21afe07b33f021a5a3e2">MR::TbbThreadMutex::tryLock</a> ()</td></tr>
 <tr class="memitem:ga097e1d5f272059dda5a7aa233cf20a58" id="r_ga097e1d5f272059dda5a7aa233cf20a58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga097e1d5f272059dda5a7aa233cf20a58">MR::intLog2</a> (size_t n)</td></tr>
-<tr class="memitem:gac7d752efc747cf47aa91ccdce5bc770f" id="r_gac7d752efc747cf47aa91ccdce5bc770f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac7d752efc747cf47aa91ccdce5bc770f">MR::terrainTriangulation</a> (std::vector&lt; Vector3f &gt; <a class="el" href="group__MeshNormalsGroup.html#gae344f719e419ed704564732db306c81e">points</a>, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;<a class="el" href="group__DistanceMapGroup.html#gae3a1aa207beab97240bba26498e256c7">cb</a>={})</td></tr>
 <tr class="memitem:gac11e11e244aac02b0b69506b6657c706" id="r_gac11e11e244aac02b0b69506b6657c706"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="#ga6f8b9797e8968735a685a81d8a6064d6">UVCoord</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac11e11e244aac02b0b69506b6657c706">MR::findVertexUV</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertId v, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
 <tr class="memitem:ga5428c2a5d40a3d0e09c57ea16c47701b" id="r_ga5428c2a5d40a3d0e09c57ea16c47701b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; VertUVCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5428c2a5d40a3d0e09c57ea16c47701b">MR::findVertexUVs</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
 <tr class="memitem:ga3d51a6426ec702d816828da6e6660c9e" id="r_ga3d51a6426ec702d816828da6e6660c9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Color.html">Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3d51a6426ec702d816828da6e6660c9e">MR::sampleVertexColor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="#ga6833f3dcd401bb41599e31f5dd9e5f2a">mesh</a>, VertId v, const <a class="el" href="structMR_1_1MeshTexture.html">MeshTexture</a> &amp;tex, const TriCornerUVCoords &amp;triCornerUvCoords)</td></tr>
@@ -54879,8 +54878,8 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="ga03e4bafcf07de23aba92cf73b46b85e7" name="ga03e4bafcf07de23aba92cf73b46b85e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga03e4bafcf07de23aba92cf73b46b85e7">&#9670;&#160;</a></span>delaunayTriangulationXY() <span class="overload">[3/3]</span></h2>
+<a id="ga551bc08f1beed1775ad3883585feb1c0" name="ga551bc08f1beed1775ad3883585feb1c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga551bc08f1beed1775ad3883585feb1c0">&#9670;&#160;</a></span>delaunayTriangulationXY() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -54891,7 +54890,7 @@ template&lt;typename R, typename E, typename... Args&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::delaunayTriangulationXY </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; Vector3f &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+          <td class="paramtype">VertCoords</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -184571,37 +184570,6 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRAsyncTimer_8h.html">MRViewer/MRAsyncTimer.h</a>&gt;</code></p>
 
 <p>orders the waiter thread to stop </p>
-
-</div>
-</div>
-<a id="gac7d752efc747cf47aa91ccdce5bc770f" name="gac7d752efc747cf47aa91ccdce5bc770f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac7d752efc747cf47aa91ccdce5bc770f">&#9670;&#160;</a></span>terrainTriangulation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::terrainTriangulation </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; Vector3f &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><code>#include &lt;<a class="el" href="MRTerrainTriangulation_8h.html">MRMesh/MRTerrainTriangulation.h</a>&gt;</code></p>
 
 </div>
 </div>

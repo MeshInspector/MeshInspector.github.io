@@ -6,7 +6,6 @@
     <includes refid="MRMesh_8h" local="yes">MRMesh.h</includes>
     <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
     <includes refid="MRExpected_8h" local="yes">MRExpected.h</includes>
-    <includedby refid="MRTerrainTriangulation_8h" local="yes">MRMesh/MRTerrainTriangulation.h</includedby>
     <incdepgraph>
       <node id="24">
         <label>MRBitSet.h</label>
@@ -452,18 +451,6 @@
         <label>vector</label>
       </node>
     </incdepgraph>
-    <invincdepgraph>
-      <node id="1">
-        <label>MRMesh/MRDelaunayTriangulationXY.h</label>
-        <link refid="MRDelaunayTriangulationXY_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-      </node>
-      <node id="2">
-        <label>MRMesh/MRTerrainTriangulation.h</label>
-        <link refid="MRTerrainTriangulation_8h"/>
-      </node>
-    </invincdepgraph>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -480,11 +467,11 @@
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" kindref="member">delaunayTriangulationXY</ref>(<sp/>std::vector&lt;Vector3f&gt;<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga551bc08f1beed1775ad3883585feb1c0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga551bc08f1beed1775ad3883585feb1c0" kindref="member">delaunayTriangulationXY</ref>(<sp/>VertCoords<sp/><ref refid="group__MeshNormalsGroup_1gae344f719e419ed704564732db306c81e" kindref="member">points</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="group__GeneralGroup_1ga6b8f8de83a2129d91b27d35fb05da042" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" kindref="member">delaunayTriangulationXY</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga6b8f8de83a2129d91b27d35fb05da042" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga551bc08f1beed1775ad3883585feb1c0" kindref="member">delaunayTriangulationXY</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="group__GeneralGroup_1ga84b8f659711d0141a8edf4d898decc92" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga03e4bafcf07de23aba92cf73b46b85e7" kindref="member">delaunayTriangulationXY</ref>(<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga84b8f659711d0141a8edf4d898decc92" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="MRMeshFwd_8h_1a08ff09fd7e75c029b08cc255b0734300" kindref="member">MRMESH_API</ref><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;Mesh&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga551bc08f1beed1775ad3883585feb1c0" kindref="member">delaunayTriangulationXY</ref>(<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;&amp;<sp/>cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref>&amp;<sp/><ref refid="group__DistanceMapGroup_1gae3a1aa207beab97240bba26498e256c7" kindref="member">cb</ref><sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
     </programlisting>

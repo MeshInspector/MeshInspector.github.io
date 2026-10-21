@@ -52285,7 +52285,7 @@
     <member refid="classMR_1af740a35b13d90312f7e8cb34c9cea2eb" kind="function"><name>makeOpenCone</name></member>
     <member refid="classMR_1a40615f7945e27eae8640975e947c7703" kind="function"><name>makeCylinderAdvanced</name></member>
     <member refid="classMR_1a0f18b8bef9a15812355ffd7621195ff7" kind="function"><name>makeCone</name></member>
-    <member refid="classMR_1a7a2fd6c9db8b83882407c366c3776ec7" kind="function"><name>delaunayTriangulationXY</name></member>
+    <member refid="classMR_1a8857652981a69669412413795e960491" kind="function"><name>delaunayTriangulationXY</name></member>
     <member refid="classMR_1a0e6541b14a9dac3653b66def6cd8fe80" kind="function"><name>delaunayTriangulationXY</name></member>
     <member refid="classMR_1a630013d66dd6ec05562c1b7a16f274fe" kind="function"><name>delaunayTriangulationXY</name></member>
     <member refid="classMR_1acec61d8702c54a9a100573ebaa8111f0" kind="function"><name>calcDipoles</name></member>
@@ -54147,8 +54147,8 @@
     <member refid="classMR_1a1fd132dc458e121917024da91952c006" kind="function"><name>__MR_makeOpenCone</name></member>
     <member refid="classMR_1abacd7bff2439806ad6a2fa30e0a9cead" kind="function"><name>__MR_makeOpenCylinder</name></member>
     <member refid="classMR_1a51eb0801e1046192b0515156d89af326" kind="function"><name>__MR_delaunayTriangulationXY_MR_PointCloud_rvalue_ref</name></member>
+    <member refid="classMR_1a92e1a98e8d1703ea770874df87a29358" kind="function"><name>__MR_delaunayTriangulationXY_MR_VertCoords</name></member>
     <member refid="classMR_1a166950a6e014807e77de1275c7536412" kind="function"><name>__MR_delaunayTriangulationXY_const_MR_PointCloud_ref</name></member>
-    <member refid="classMR_1a82591e1d30f66c1cfe68ddb1e224392b" kind="function"><name>__MR_delaunayTriangulationXY_std_vector_MR_Vector3f</name></member>
     <member refid="classMR_1a3a33325d8441624088251923ad7b6cd7" kind="function"><name>__MR_calcDipoles_2</name></member>
     <member refid="classMR_1a3f3f5a9483f04441b830011e1e2c22d2" kind="function"><name>__MR_calcDipoles_3</name></member>
     <member refid="classMR_1a3ab110955709d2f0f47dbb0340a24e1d" kind="function"><name>__MR_calcFastWindingNumber</name></member>

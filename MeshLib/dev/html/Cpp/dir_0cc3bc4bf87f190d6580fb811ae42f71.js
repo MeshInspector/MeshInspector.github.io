@@ -412,7 +412,6 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRTbbTaskArenaAndGroup.h", "MRTbbTaskArenaAndGroup_8h.html", null ],
     [ "MRTbbThreadMutex.h", "MRTbbThreadMutex_8h.html", null ],
     [ "MRTelemetry.h", "MRTelemetry_8h.html", "MRTelemetry_8h" ],
-    [ "MRTerrainTriangulation.h", "MRTerrainTriangulation_8h.html", "MRTerrainTriangulation_8h" ],
     [ "MRTextureColors.h", "MRTextureColors_8h.html", "MRTextureColors_8h" ],
     [ "MRTimer.h", "MRTimer_8h.html", "MRTimer_8h" ],
     [ "MRTimeRecord.h", "MRTimeRecord_8h.html", "MRTimeRecord_8h" ],
