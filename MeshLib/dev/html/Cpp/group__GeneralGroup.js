@@ -1493,7 +1493,7 @@ var group__GeneralGroup =
       [ "calcWithDistances", "group__GeneralGroup.html#ga4aa071fd6b623fca1cd12ffefee231a4", null ]
     ] ],
     [ "MR::IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", [
-      [ "GridByPartsFunc", "group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f", null ],
+      [ "GridByPartsFunc", "group__GeneralGroup.html#ga69b5ebe3b8356031a22e86c2a4c30021", null ],
       [ "IFastWindingNumberByParts", "group__GeneralGroup.html#ga4cc15b56fc662a88628ca1a7de3eb914", null ],
       [ "IFastWindingNumberByParts", "group__GeneralGroup.html#ga816ff6662fe8899fac1cddf3084583ca", null ],
       [ "IFastWindingNumberByParts", "group__GeneralGroup.html#gac9c05638978eb307eae69e70b8e3e5f5", null ],
@@ -9253,7 +9253,7 @@ var group__GeneralGroup =
     [ "MR::GLStaticHolder::GLuint", "group__GeneralGroup.html#ga51ef10d476eb1492c1b758ef79a42482", null ],
     [ "MR::RenderMeshObject::GLuint", "group__GeneralGroup.html#ga3228435a7c18da1a7bf0ddd0568a2102", null ],
     [ "MR::ViewportGL::GLuint", "group__GeneralGroup.html#ga2a8a6c6953f39b7763a83def4e9f8ba5", null ],
-    [ "MR::IFastWindingNumberByParts::GridByPartsFunc", "group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f", null ],
+    [ "MR::IFastWindingNumberByParts::GridByPartsFunc", "group__GeneralGroup.html#ga69b5ebe3b8356031a22e86c2a4c30021", null ],
     [ "MR::GroupOrder", "group__GeneralGroup.html#ga13c6625ef2ade2be056564a39a8474d2", null ],
     [ "MR::GroupsItemsMap", "group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4", null ],
     [ "MR::MapOrHashMap::Hash", "group__GeneralGroup.html#ga9b9b3bd19e1e1187943ce7850bcf6ee0", null ],

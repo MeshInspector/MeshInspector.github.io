@@ -15137,9 +15137,9 @@ if given transformation is not rigid, then it is a good idea to normalize return
         </inbodydescription>
         <location file="MRMesh/MRFastInt128.h" line="26" column="3" bodyfile="MRMesh/MRFastInt128.h" bodystart="26" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" prot="public" static="no">
-        <type>std::function&lt; Expected&lt; void &gt;(std::vector&lt; float &gt; &amp;&amp;data, const Vector3i &amp;dims, int zOffset)&gt;</type>
-        <definition>using MR::IFastWindingNumberByParts::GridByPartsFunc =  std::function&lt;Expected&lt;void&gt; ( std::vector&lt;float&gt;&amp;&amp; data, const Vector3i&amp; dims, int zOffset )&gt;</definition>
+      <memberdef kind="typedef" id="group__GeneralGroup_1ga69b5ebe3b8356031a22e86c2a4c30021" prot="public" static="no">
+        <type>std::function&lt; Expected&lt; void &gt;(Vector&lt; float, VoxelId &gt; &amp;&amp;data, const Vector3i &amp;dims, int zOffset)&gt;</type>
+        <definition>using MR::IFastWindingNumberByParts::GridByPartsFunc =  std::function&lt;Expected&lt;void&gt; ( Vector&lt;float, VoxelId&gt; &amp;&amp; data, const Vector3i&amp; dims, int zOffset )&gt;</definition>
         <argsstring></argsstring>
         <name>GridByPartsFunc</name>
         <qualifiedname>MR::IFastWindingNumberByParts::GridByPartsFunc</qualifiedname>

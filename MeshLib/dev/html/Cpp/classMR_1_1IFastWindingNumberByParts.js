@@ -1,6 +1,6 @@
 var classMR_1_1IFastWindingNumberByParts =
 [
-    [ "GridByPartsFunc", "group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f", null ],
+    [ "GridByPartsFunc", "group__GeneralGroup.html#ga69b5ebe3b8356031a22e86c2a4c30021", null ],
     [ "IFastWindingNumberByParts", "group__GeneralGroup.html#ga4cc15b56fc662a88628ca1a7de3eb914", null ],
     [ "IFastWindingNumberByParts", "group__GeneralGroup.html#ga816ff6662fe8899fac1cddf3084583ca", null ],
     [ "IFastWindingNumberByParts", "group__GeneralGroup.html#gac9c05638978eb307eae69e70b8e3e5f5", null ],

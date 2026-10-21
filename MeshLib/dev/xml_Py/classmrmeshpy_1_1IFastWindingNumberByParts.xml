@@ -3,10 +3,10 @@
   <compounddef id="classmrmeshpy_1_1IFastWindingNumberByParts" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::IFastWindingNumberByParts</compoundname>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a4dfadf3d0ca430816dbdc5e27b93c996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.IFastWindingNumberByParts.calcFromGridByParts</definition>
-        <argsstring>(self, func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, Vector3i dims, AffineXf3f gridToMeshXf, float beta, int layerOverlap, func_bool_from_float cb)</argsstring>
+        <argsstring>(self, func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int resFunc, Vector3i dims, AffineXf3f gridToMeshXf, float beta, int layerOverlap, func_bool_from_float cb)</argsstring>
         <name>calcFromGridByParts</name>
         <qualifiedname>mrmeshpy.IFastWindingNumberByParts.calcFromGridByParts</qualifiedname>
         <param>
@@ -14,7 +14,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int" kindref="compound">func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</ref></type>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int" kindref="compound">func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</ref></type>
           <declname>resFunc</declname>
         </param>
         <param>
@@ -52,10 +52,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23713" bodyend="23721"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a9452536ad625fa088a953feb7a0ccb76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</definition>
-        <argsstring>(self, func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, Vector3i dims, AffineXf3f gridToMeshXf, DistanceToMeshOptions options, int layerOverlap, func_bool_from_float cb)</argsstring>
+        <argsstring>(self, func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int resFunc, Vector3i dims, AffineXf3f gridToMeshXf, DistanceToMeshOptions options, int layerOverlap, func_bool_from_float cb)</argsstring>
         <name>calcFromGridWithDistancesByParts</name>
         <qualifiedname>mrmeshpy.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</qualifiedname>
         <param>
@@ -63,7 +63,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int" kindref="compound">func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</ref></type>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int" kindref="compound">func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</ref></type>
           <declname>resFunc</declname>
         </param>
         <param>
@@ -112,8 +112,8 @@ Abstract class that complements \\ref IFastWindingNumber with chunked processing
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23707" bodyend="23730"/>
     <listofallmembers>
-      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
-      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
+      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a4dfadf3d0ca430816dbdc5e27b93c996" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
+      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a9452536ad625fa088a953feb7a0ccb76" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -439,7 +439,7 @@ var searchData=
   ['getter_2',['Getter',['../group__GeneralGroup.html#ga6e59a865a18df121ac0b8e5a44105e56',1,'MR::RibbonMenu::CustomContextMenuCheckbox']]],
   ['glfloat_3',['GLfloat',['../group__GeneralGroup.html#ga4324daf005894093aab00d0738fbd422',1,'MR::ViewportGL']]],
   ['gluint_4',['GLuint',['../group__GeneralGroup.html#ga29e1a40f8ddae233dc49511e5daa9200',1,'MR::AlphaSortGL::GLuint'],['../group__GeneralGroup.html#ga51ef10d476eb1492c1b758ef79a42482',1,'MR::GLStaticHolder::GLuint'],['../group__GeneralGroup.html#ga3228435a7c18da1a7bf0ddd0568a2102',1,'MR::RenderMeshObject::GLuint'],['../group__GeneralGroup.html#ga2a8a6c6953f39b7763a83def4e9f8ba5',1,'MR::ViewportGL::GLuint']]],
-  ['gridbypartsfunc_5',['GridByPartsFunc',['../group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f',1,'MR::IFastWindingNumberByParts']]],
+  ['gridbypartsfunc_5',['GridByPartsFunc',['../group__GeneralGroup.html#ga69b5ebe3b8356031a22e86c2a4c30021',1,'MR::IFastWindingNumberByParts']]],
   ['grouporder_6',['GroupOrder',['../group__GeneralGroup.html#ga13c6625ef2ade2be056564a39a8474d2',1,'MR']]],
   ['groupsitemsmap_7',['GroupsItemsMap',['../group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4',1,'MR']]],
   ['launchparams_0',['LaunchParams',['../group__GeneralGroup.html#ga18c86b40dc97e73d26be6d5f21f65093',1,'MR::Viewer']]],

@@ -6489,9 +6489,9 @@
     <member refid="classmrcudapy_1_1FastWindingNumber_1a6d96e6a54e561488ac8e75a3db57c289" kind="function"><name>__init__</name></member>
     <member refid="classmrcudapy_1_1FastWindingNumber_1a4b83d09ad2d66fa7d43e6c9d658fcde7" kind="function"><name>__init__</name></member>
     <member refid="classmrcudapy_1_1FastWindingNumber_1aeb8b41d05598fc70538563ce64efb0f2" kind="function"><name>calcFromGrid</name></member>
-    <member refid="classmrcudapy_1_1FastWindingNumber_1a79f1b2f8b30d09facf58170613773ada" kind="function"><name>calcFromGridByParts</name></member>
+    <member refid="classmrcudapy_1_1FastWindingNumber_1a983566e7536ff1ab747e43755191dbfe" kind="function"><name>calcFromGridByParts</name></member>
     <member refid="classmrcudapy_1_1FastWindingNumber_1a36e07c5949e8e58a6f20420f8a0202c8" kind="function"><name>calcFromGridWithDistances</name></member>
-    <member refid="classmrcudapy_1_1FastWindingNumber_1ad5ad9834bc94fda9b02b5a0ee5af7c3c" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
+    <member refid="classmrcudapy_1_1FastWindingNumber_1a78a5c2136aac9fe144e776894c9e680c" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
     <member refid="classmrcudapy_1_1FastWindingNumber_1a7ee4623a45ba71e0d805bd475b9808c5" kind="function"><name>calcFromVector</name></member>
     <member refid="classmrcudapy_1_1FastWindingNumber_1ad7feb91d3a3cef77741220cd46fc814c" kind="function"><name>calcSelfIntersections</name></member>
   </compound>
@@ -7674,14 +7674,14 @@
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__string__std__vector__char_1a47a0f75c00a05c5d353cca1e9f007bce" kind="function"><name>can_be_created_from_python</name></member>
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__string__std__vector__char_1a9bae5f4d5956e43816fa5553bb451c92" kind="function"><name>holds_cpp_function</name></member>
   </compound>
-  <compound refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int" kind="class"><name>mrmeshpy::func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</name>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a389d3e7b397dc64280c3e6cd0eb6e0a8" kind="function"><name>__bool__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a08690d705fe5fe0a66f3d2711460bc1d" kind="function"><name>__call__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a11f1dd3a2bd0d0b28d67b7a0da6b8746" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a68db93a3b8c881f6a9f5a1b200f0bcb5" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1ac685123ec088e5e7fd80f82bba619bd9" kind="function"><name>__init__</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1a25fda7ed0bca5fb18bbed7c54196aab8" kind="function"><name>can_be_created_from_python</name></member>
-    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int_1af3db558efe3e42fc55fe645b687cdce1" kind="function"><name>holds_cpp_function</name></member>
+  <compound refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int" kind="class"><name>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</name>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a31f2b197ef8c07d44daf00fd46a5fc80" kind="function"><name>__bool__</name></member>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a700e1d972ae3ccca76b91d746b4efb20" kind="function"><name>__call__</name></member>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1af51c6558b08d07984def58a97976a64c" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1af0e8e56eff95d053a93fb0af41a06eea" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a9e735a6ae51140c39e9f0cdc39bdc78f" kind="function"><name>__init__</name></member>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1aeec853b6d38aede736cd33d55526e6f5" kind="function"><name>can_be_created_from_python</name></member>
+    <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a25503c528015787cd88b7ac395f13e63" kind="function"><name>holds_cpp_function</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" kind="class"><name>mrmeshpy::func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int</name>
     <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int_1a2671bd51701d107ebf5cdcda3b158ae4" kind="function"><name>__bool__</name></member>
@@ -8701,8 +8701,8 @@
     <member refid="classmrmeshpy_1_1IFastWindingNumber_1a898b12e02f113538c5d54bf9af0d7bd9" kind="function"><name>calcSelfIntersections</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1IFastWindingNumberByParts" kind="class"><name>mrmeshpy::IFastWindingNumberByParts</name>
-    <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" kind="function"><name>calcFromGridByParts</name></member>
-    <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
+    <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a4dfadf3d0ca430816dbdc5e27b93c996" kind="function"><name>calcFromGridByParts</name></member>
+    <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a9452536ad625fa088a953feb7a0ccb76" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
   </compound>
   <compound refid="classmrmeshpy_1_1IFillContours2DPlanCache" kind="class"><name>mrmeshpy::IFillContours2DPlanCache</name>
   </compound>
