@@ -165,10 +165,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45291" bodyend="45294"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolume_1ad4f83937bd716370201538230cc53dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolume_1ae2bfaa0cdd2b33ede375129853c491a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.SimpleVolume.__init__</definition>
-        <argsstring>(self, Vector_float_VoxelId data, Vector3i dims, Vector3f voxelSize)</argsstring>
+        <argsstring>(self, VoxelScalars data, Vector3i dims, Vector3f voxelSize)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.SimpleVolume.__init__</qualifiedname>
         <param>
@@ -176,7 +176,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1Vector__float__VoxelId" kindref="compound">Vector_float_VoxelId</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VoxelScalars" kindref="compound">VoxelScalars</ref></type>
           <declname>data</declname>
         </param>
         <param>
@@ -242,7 +242,7 @@ represents a box in 3D space subdivided on voxels stored in T
       <member refid="classmrmeshpy_1_1SimpleVolume_1a44059610c7410a7f9feb239bf27612dc" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SimpleVolume_1acb71af013e1365c6d6279527b50cad2d" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SimpleVolume_1af1c04983f17165bcb2521b356fe03e06" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1SimpleVolume_1ad4f83937bd716370201538230cc53dbb" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolume_1ae2bfaa0cdd2b33ede375129853c491a0" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1SimpleVolume_1a43b017ad80493bd0a7dc645cbea861da" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>_offsetof_data</name></member>
       <member refid="classmrmeshpy_1_1SimpleVolume_1acc0592bd599c874dee12f5f118045d02" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>_offsetof_dims</name></member>
       <member refid="classmrmeshpy_1_1SimpleVolume_1a71c44e754ed1c2f2ff28be236166591e" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleVolume</scope><name>_offsetof_voxelSize</name></member>

@@ -5,7 +5,7 @@
     <derivedcompoundref refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public" virt="non-virtual">MR::Cuda::FastWindingNumber</derivedcompoundref>
     <includes refid="MRFastWindingNumber_8h" local="no">MRMesh/MRFastWindingNumber.h</includes>
     <sectiondef kind="public-type">
-      <member refid="group__GeneralGroup_1ga69b5ebe3b8356031a22e86c2a4c30021" kind="typedef"><name>GridByPartsFunc</name></member>
+      <member refid="group__GeneralGroup_1ga5c3de03791425a98b64056f1b16f2caa" kind="typedef"><name>GridByPartsFunc</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga4cc15b56fc662a88628ca1a7de3eb914" kind="function"><name>IFastWindingNumberByParts</name></member>
@@ -36,7 +36,7 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
-      <member refid="group__GeneralGroup_1ga69b5ebe3b8356031a22e86c2a4c30021" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>GridByPartsFunc</name></member>
+      <member refid="group__GeneralGroup_1ga5c3de03791425a98b64056f1b16f2caa" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>GridByPartsFunc</name></member>
       <member refid="group__GeneralGroup_1ga4cc15b56fc662a88628ca1a7de3eb914" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>
       <member refid="group__GeneralGroup_1ga816ff6662fe8899fac1cddf3084583ca" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>
       <member refid="group__GeneralGroup_1gac9c05638978eb307eae69e70b8e3e5f5" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>

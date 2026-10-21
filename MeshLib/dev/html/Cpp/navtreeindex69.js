@@ -1,5 +1,6 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1PythonFunctionAdder.html":[9,0,0,20,563],
 "structMR_1_1QuadraticForm.html":[9,0,0,0,22],
 "structMR_1_1QuadraticForm.html":[9,0,0,20,489],
 "structMR_1_1Quaternion.html":[9,0,0,0,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1TouchpadParameters.html":[9,0,0,20,770],
 "structMR_1_1TouchpadRotateGestureBeginListener.html":[9,0,0,20,820],
 "structMR_1_1TouchpadRotateGestureEndListener.html":[9,0,0,20,822],
-"structMR_1_1TouchpadRotateGestureUpdateListener.html":[9,0,0,20,821],
-"structMR_1_1TouchpadSwipeGestureBeginListener.html":[9,0,0,20,823]
+"structMR_1_1TouchpadRotateGestureUpdateListener.html":[9,0,0,20,821]
 };

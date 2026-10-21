@@ -1830,6 +1830,7 @@
       <member refid="group__GeneralGroup_1ga18500a3df20aa256325c44e2c5b2b499" kind="typedef"><name>TwoVertIds</name></member>
       <member refid="group__GeneralGroup_1ga9fa45e8860a645c31bc2c7f1a2abf56b" kind="typedef"><name>ThreeVertIds</name></member>
       <member refid="group__GeneralGroup_1ga4434b15c24b22d8f017f529064021a35" kind="typedef"><name>ThreeUVCoords</name></member>
+      <member refid="group__GeneralGroup_1gaaa96bd15a3232e297bf7582b5fb5db6e" kind="typedef"><name>VertPredicate</name></member>
       <member refid="group__GeneralGroup_1ga2b15c0d875f91b8c0da03e651251832b" kind="typedef"><name>FacePredicate</name></member>
       <member refid="group__GeneralGroup_1ga3dd173667e136d1ab529bb70c4f9e450" kind="typedef"><name>EdgePredicate</name></member>
       <member refid="group__GeneralGroup_1ga54078c8d4e2a3473d6e15a932c107cd4" kind="typedef"><name>UndirectedEdgePredicate</name></member>
@@ -2741,7 +2742,7 @@
       <member refid="group__GeneralGroup_1gae5a0dc0ec72979e77357933fff648914" kind="function"><name>Vector&lt; Color, VertId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga7965f4340f8a05292212679b11b6c867" kind="function"><name>Vector&lt; Color, EdgeId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga8068a609ed1b503e57eb9c8ce892fd8f" kind="function"><name>Vector&lt; float, VertId &gt;</name></member>
-      <member refid="group__GeneralGroup_1gac616f611dfed813824b64b0632ec27ab" kind="function"><name>Vector&lt; float, EdgeId &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga7fd59e1992b451c4cb9758c705ca8292" kind="function"><name>Vector&lt; float, EdgeId &gt;</name></member>
       <member refid="group__GeneralGroup_1ga0e69561d8c59d6cbfe5db9199465db72" kind="function"><name>contains</name></member>
       <member refid="group__GeneralGroup_1ga1d5cc23c99d2f46783d60010d13d31f9" kind="function"><name>BMap</name></member>
       <member refid="group__GeneralGroup_1gabf67c17ae441516a38345057213cc4c9" kind="function"><name>BMap&lt; VertId, VertId &gt;</name></member>
@@ -3818,9 +3819,9 @@
       <member refid="group__GeneralGroup_1ga9e8df60e64c8304ab4274ec4474566ea" kind="function"><name>voxelsApplyTransform</name></member>
       <member refid="group__GeneralGroup_1ga9145e1b055b88e54edf784e6f3b050fc" kind="function"><name>mergeVolumePart</name></member>
       <member refid="group__GeneralGroup_1gae7cf10a1862176d00de13d2fa27371b9" kind="function"><name>volumeToMeshByParts</name></member>
-      <member refid="group__GeneralGroup_1gaeeb9f9b6fb3da82a4889d9b15410202b" kind="function"><name>VoxelsVolumeMinMax&lt; Vector&lt; float, VoxelId &gt; &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga81a2f9c3d129c5e0ffc607b6fc4a9252" kind="function"><name>VoxelsVolumeMinMax&lt; VoxelScalars &gt;</name></member>
       <member refid="group__GeneralGroup_1ga7a41891bf3def5d695222b1fd0a2655f" kind="function"><name>VoxelsVolume&lt; VoxelValueGetter&lt; float &gt; &gt;</name></member>
-      <member refid="group__GeneralGroup_1gaf6d86654ed0dacf79826e9732d7f3786" kind="function"><name>VoxelsVolume&lt; Vector&lt; float, VoxelId &gt; &gt;</name></member>
+      <member refid="group__GeneralGroup_1gad5625d4f053fb21f3a456aa15403be44" kind="function"><name>VoxelsVolume&lt; VoxelScalars &gt;</name></member>
       <memberdef kind="function" id="namespaceMR_1a90e7a361537bcd60aa55bcec6cc4ffb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; std::shared_ptr&lt; <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> &gt; &gt; &gt;</type>
         <definition>Expected&lt; std::vector&lt; std::shared_ptr&lt; ObjectVoxels &gt; &gt; &gt; MR::makeObjectVoxelsFromFile</definition>

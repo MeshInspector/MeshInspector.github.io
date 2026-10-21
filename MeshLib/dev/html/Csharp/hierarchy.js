@@ -2489,9 +2489,6 @@ var hierarchy =
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", [
         [ "MR.Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html", null ]
       ] ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", [
-        [ "MR.Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html", null ]
-      ] ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", [
         [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", null ]
       ] ],
@@ -2735,17 +2732,20 @@ var hierarchy =
       [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", [
         [ "MR.VoxelMetricParameters", "classMR_1_1VoxelMetricParameters.html", null ]
       ] ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", [
+        [ "MR.VoxelScalars", "classMR_1_1VoxelScalars.html", null ]
+      ] ],
       [ "MR.Const_VoxelTraits_MRFloatGrid", "classMR_1_1Const__VoxelTraits__MRFloatGrid.html", [
         [ "MR.VoxelTraits_MRFloatGrid", "classMR_1_1VoxelTraits__MRFloatGrid.html", null ]
-      ] ],
-      [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId.html", [
-        [ "MR.VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId.html", null ]
       ] ],
       [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", [
         [ "MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", null ]
       ] ],
       [ "MR.Const_VoxelTraits_MRVoxelBitSet", "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html", [
         [ "MR.VoxelTraits_MRVoxelBitSet", "classMR_1_1VoxelTraits__MRVoxelBitSet.html", null ]
+      ] ],
+      [ "MR.Const_VoxelTraits_MRVoxelScalars", "classMR_1_1Const__VoxelTraits__MRVoxelScalars.html", [
+        [ "MR.VoxelTraits_MRVoxelScalars", "classMR_1_1VoxelTraits__MRVoxelScalars.html", null ]
       ] ],
       [ "MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", [
         [ "MR.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", null ]
@@ -3199,7 +3199,6 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeScalars", "classMR_1_1Const__UndirectedEdgeScalars.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
@@ -3259,6 +3258,7 @@ var hierarchy =
       [ "MR.Const_VertScalars", "classMR_1_1Const__VertScalars.html", null ],
       [ "MR.Const_ViewportMask", "classMR_1_1Const__ViewportMask.html", null ],
       [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", null ],
       [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
       [ "MR.Dipoles", "classMR_1_1Dipoles.html", null ],
       [ "MR.EdgeColors", "classMR_1_1EdgeColors.html", null ],
@@ -3280,7 +3280,6 @@ var hierarchy =
       [ "MR.UndirectedEdgeScalars", "classMR_1_1UndirectedEdgeScalars.html", null ],
       [ "MR.Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html", null ],
       [ "MR.Vector_Double_MRRegionId", "classMR_1_1Vector__Double__MRRegionId.html", null ],
-      [ "MR.Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html", null ],
       [ "MR.Vector_Int_MRFaceId", "classMR_1_1Vector__Int__MRFaceId.html", null ],
       [ "MR.Vector_Int_MRGraphVertId", "classMR_1_1Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Vector_Int_MRRegionId", "classMR_1_1Vector__Int__MRRegionId.html", null ],
@@ -3337,6 +3336,7 @@ var hierarchy =
       [ "MR.VertCoords2", "classMR_1_1VertCoords2.html", null ],
       [ "MR.VertMap", "classMR_1_1VertMap.html", null ],
       [ "MR.VertScalars", "classMR_1_1VertScalars.html", null ],
+      [ "MR.VoxelScalars", "classMR_1_1VoxelScalars.html", null ],
       [ "MR.WholeEdgeMap", "classMR_1_1WholeEdgeMap.html", null ]
     ] ],
     [ "IEnumerator", null, [
@@ -3526,7 +3526,6 @@ var hierarchy =
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
@@ -3573,6 +3572,7 @@ var hierarchy =
       [ "MR.Const_ViewportProperty_MRMatrix3f", "classMR_1_1Const__ViewportProperty__MRMatrix3f.html", null ],
       [ "MR.Const_ViewportProperty_MRVector4UnsignedChar", "classMR_1_1Const__ViewportProperty__MRVector4UnsignedChar.html", null ],
       [ "MR.Const_ViewportProperty_UnsignedChar", "classMR_1_1Const__ViewportProperty__UnsignedChar.html", null ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", null ],
       [ "MR.Const_WholeEdgeMap", "classMR_1_1Const__WholeEdgeMap.html", null ],
       [ "MR.EdgeId", "structMR_1_1EdgeId.html", null ],
       [ "MR.FaceId", "structMR_1_1FaceId.html", null ],
@@ -4474,7 +4474,6 @@ var hierarchy =
       [ "MR.Const_Vector4_UnsignedChar", "classMR_1_1Const__Vector4__UnsignedChar.html", null ],
       [ "MR.Const_Vector_Char_MRVertId", "classMR_1_1Const__Vector__Char__MRVertId.html", null ],
       [ "MR.Const_Vector_Double_MRRegionId", "classMR_1_1Const__Vector__Double__MRRegionId.html", null ],
-      [ "MR.Const_Vector_Float_MRVoxelId", "classMR_1_1Const__Vector__Float__MRVoxelId.html", null ],
       [ "MR.Const_Vector_Int_MRFaceId", "classMR_1_1Const__Vector__Int__MRFaceId.html", null ],
       [ "MR.Const_Vector_Int_MRGraphVertId", "classMR_1_1Const__Vector__Int__MRGraphVertId.html", null ],
       [ "MR.Const_Vector_Int_MRRegionId", "classMR_1_1Const__Vector__Int__MRRegionId.html", null ],
@@ -4556,10 +4555,11 @@ var hierarchy =
       [ "MR.Const_VoxelBitSet", "classMR_1_1Const__VoxelBitSet.html", null ],
       [ "MR.Const_VoxelLocation", "classMR_1_1Const__VoxelLocation.html", null ],
       [ "MR.Const_VoxelMetricParameters", "classMR_1_1Const__VoxelMetricParameters.html", null ],
+      [ "MR.Const_VoxelScalars", "classMR_1_1Const__VoxelScalars.html", null ],
       [ "MR.Const_VoxelTraits_MRFloatGrid", "classMR_1_1Const__VoxelTraits__MRFloatGrid.html", null ],
-      [ "MR.Const_VoxelTraits_MRVectorFloatMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId.html", null ],
       [ "MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId", "classMR_1_1Const__VoxelTraits__MRVectorUnsignedShortMRVoxelId.html", null ],
       [ "MR.Const_VoxelTraits_MRVoxelBitSet", "classMR_1_1Const__VoxelTraits__MRVoxelBitSet.html", null ],
+      [ "MR.Const_VoxelTraits_MRVoxelScalars", "classMR_1_1Const__VoxelTraits__MRVoxelScalars.html", null ],
       [ "MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef.html", null ],
       [ "MR.Const_VoxelTraits_StdFunctionUnsignedCharFromConstMRVector3iRef", "classMR_1_1Const__VoxelTraits__StdFunctionUnsignedCharFromConstMRVector3iRef.html", null ],
       [ "MR.Const_VoxelsVolumeAccessor_MRFunctionVolume", "classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume.html", null ],

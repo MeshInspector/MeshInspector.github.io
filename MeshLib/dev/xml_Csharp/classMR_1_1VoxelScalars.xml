@@ -1,0 +1,1616 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelScalars" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelScalars</compoundname>
+    <basecompoundref refid="classMR_1_1Const__VoxelScalars" prot="public" virt="non-virtual">MR.Const_VoxelScalars</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VoxelScalars_1acca21cbc23d552b4a949b9da7f59d935" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_Float</type>
+        <definition>new unsafe MR.Std.Vector_Float MR.VoxelScalars.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.VoxelScalars.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25426" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25426" bodyend="25426"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelScalars_1a26b2e0142e459b804ca4ef76b423fa0a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.VoxelScalars.this[MR.VoxelId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VoxelId i]</name>
+        <qualifiedname>MR.VoxelScalars.this[MR.VoxelId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelScalars::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25561" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25562" bodyend="25567"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a3ca08ee284eadc096508f68a75129d02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new IEnumerator&lt; MR.Misc.Ref&lt; float &gt; &gt;</type>
+        <definition>new IEnumerator&lt; MR.Misc.Ref&lt; float &gt; &gt; MR.VoxelScalars.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.VoxelScalars.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25413" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25413" bodyend="25416"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>()</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25453" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25453" bodyend="25457"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1aa53cf9e3a202fd3fd0a1b8f679def5db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>(MR._ByValue_VoxelScalars _other)</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <param>
+          <type>MR._ByValue_VoxelScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" kindref="member">MR.VoxelScalars.VoxelScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25462" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25462" bodyend="25467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a97db47230b2246935d708dab5f4041f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>(Const_VoxelScalars _other)</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelScalars" kindref="compound">Const_VoxelScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" kindref="member">MR.VoxelScalars.VoxelScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25472" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25472" bodyend="25472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a01a7658530ec5b5669194708823b0406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>(VoxelScalars _other)</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelScalars" kindref="compound">VoxelScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" kindref="member">MR.VoxelScalars.VoxelScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25477" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25477" bodyend="25477"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a9310c7b9826d0d4602ec08c440a0bf32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" kindref="member">MR.VoxelScalars.VoxelScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25483" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25483" bodyend="25487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a5e8989baedca6e18d153f2f0cdada367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>(nuint size, float val)</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" kindref="member">MR.VoxelScalars.VoxelScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25493" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25493" bodyend="25497"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1abf0737d8a4fbf2940a86265e83d61660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelScalars" kindref="compound">MR.VoxelScalars</ref></type>
+        <definition>unsafe MR.VoxelScalars MR.VoxelScalars.assign</definition>
+        <argsstring>(MR._ByValue_VoxelScalars _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VoxelScalars.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_VoxelScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelScalars::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25502" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25502" bodyend="25507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a92c9b951a356d0b2c41767e593a23f61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.assign</definition>
+        <argsstring>(nuint count, float val)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VoxelScalars.assign</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>replaces the contents with <computeroutput>count</computeroutput> copies of <computeroutput>val</computeroutput> Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1abf0737d8a4fbf2940a86265e83d61660" kindref="member">MR.VoxelScalars.assign</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25513" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25513" bodyend="25516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ad8cddc014c03c95368f0c6bcba47e084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.VoxelScalars.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1ad8cddc014c03c95368f0c6bcba47e084" kindref="member">MR.VoxelScalars.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25521" bodyend="25524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a760a303b398600f9c2e9f50ca79d4690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.resize</definition>
+        <argsstring>(nuint newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.VoxelScalars.resize</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a760a303b398600f9c2e9f50ca79d4690" kindref="member">MR.VoxelScalars.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25529" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25529" bodyend="25532"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a8f714a013851c8bc2deb6b4173067162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.resize</definition>
+        <argsstring>(nuint newSize, float t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.VoxelScalars.resize</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a760a303b398600f9c2e9f50ca79d4690" kindref="member">MR.VoxelScalars.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25537" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25537" bodyend="25540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a3f78d0c8d33c82375e6b57dfc86458ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.reserve</definition>
+        <argsstring>(nuint capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.VoxelScalars.reserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a3f78d0c8d33c82375e6b57dfc86458ec" kindref="member">MR.VoxelScalars.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25545" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25545" bodyend="25548"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a7eb62520007ebc2cbcbbc569e4233c04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.VoxelScalars.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelScalars::shrink_to_fit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25553" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25553" bodyend="25556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1aedaa5048d74c60e32af953e592c41059" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.resizeWithReserve</definition>
+        <argsstring>(nuint newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.VoxelScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>same as resize(newSize), which already grows the capacity geometrically Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1aedaa5048d74c60e32af953e592c41059" kindref="member">MR.VoxelScalars.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25574" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25574" bodyend="25577"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a220a5920c75417ca2029db9b0c6a8d70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.resizeWithReserve</definition>
+        <argsstring>(nuint newSize, float value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.VoxelScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>same as resize(newSize, value), which already grows the capacity geometrically Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1aedaa5048d74c60e32af953e592c41059" kindref="member">MR.VoxelScalars.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25584" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25584" bodyend="25587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ae4ec8cc578147f8a5465cf837f1f9cd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.autoResizeSet</definition>
+        <argsstring>(MR.VoxelId pos, nuint len, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.VoxelScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae4ec8cc578147f8a5465cf837f1f9cd1" kindref="member">MR.VoxelScalars.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25594" bodyend="25597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ad2f0ba783018064a2d53a9bc7d664e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.autoResizeSet</definition>
+        <argsstring>(MR.VoxelId i, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.VoxelScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1ae4ec8cc578147f8a5465cf837f1f9cd1" kindref="member">MR.VoxelScalars.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25603" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25603" bodyend="25606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a90f99d07476d9dc37555e1e4e1251907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.VoxelScalars.autoResizeAt</definition>
+        <argsstring>(MR.VoxelId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.VoxelScalars.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a90f99d07476d9dc37555e1e4e1251907" kindref="member">MR.VoxelScalars.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25612" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25612" bodyend="25615"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a48546851a01977c2082a8386153d6ec7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.pushBack</definition>
+        <argsstring>(float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VoxelScalars.pushBack</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelScalars::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25620" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25620" bodyend="25623"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a98cb4cc87f5da3b5cf86bacc3316a6ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VoxelScalars.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelScalars::push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25628" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25628" bodyend="25631"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a487ed97970c3a4c93792ee8e8c1e07ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.VoxelScalars.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelScalars::pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25636" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25636" bodyend="25639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1af4d3917d1a1c43208625bb39c882f810" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe MR.Std.Vector_Float.Iterator MR.VoxelScalars.insert</definition>
+        <argsstring>(MR.Std.Vector_Float.Const_ConstIterator pos, float t)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.VoxelScalars.insert</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>inserts <computeroutput>t</computeroutput> before <computeroutput>pos</computeroutput> Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1af4d3917d1a1c43208625bb39c882f810" kindref="member">MR.VoxelScalars.insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25645" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25645" bodyend="25648"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a3db909ec3a140f62ce09d80a8b2d65aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe MR.Std.Vector_Float.Iterator MR.VoxelScalars.insert</definition>
+        <argsstring>(MR.Std.Vector_Float.Const_ConstIterator pos, MR.Misc._MoveRef _move_t, float t)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.VoxelScalars.insert</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1af4d3917d1a1c43208625bb39c882f810" kindref="member">MR.VoxelScalars.insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25653" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25653" bodyend="25656"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a9ba5bce1b936c26ecde84740509b00cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe MR.Std.Vector_Float.Iterator MR.VoxelScalars.insert</definition>
+        <argsstring>(MR.Std.Vector_Float.Const_ConstIterator pos, nuint count, float t)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.VoxelScalars.insert</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>inserts <computeroutput>count</computeroutput> copies of <computeroutput>t</computeroutput> before <computeroutput>pos</computeroutput> Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1af4d3917d1a1c43208625bb39c882f810" kindref="member">MR.VoxelScalars.insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25662" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25662" bodyend="25665"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a9c3037d5344b376b57f1abc677148c90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe MR.Std.Vector_Float.Iterator MR.VoxelScalars.erase</definition>
+        <argsstring>(MR.Std.Vector_Float.Const_ConstIterator pos)</argsstring>
+        <name>erase</name>
+        <qualifiedname>MR.VoxelScalars.erase</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float.Const_ConstIterator</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>removes the element at <computeroutput>pos</computeroutput> Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a9c3037d5344b376b57f1abc677148c90" kindref="member">MR.VoxelScalars.erase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25671" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25671" bodyend="25674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1aa170471d63e9e6fcc98b7cd490d0bc6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe MR.Std.Vector_Float.Iterator MR.VoxelScalars.erase</definition>
+        <argsstring>(MR.Std.Vector_Float.Const_ConstIterator first, MR.Std.Vector_Float.Const_ConstIterator last)</argsstring>
+        <name>erase</name>
+        <qualifiedname>MR.VoxelScalars.erase</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float.Const_ConstIterator</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.Const_ConstIterator</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+<para>removes the elements in range [first, last) Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a9c3037d5344b376b57f1abc677148c90" kindref="member">MR.VoxelScalars.erase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25680" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25680" bodyend="25683"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a374d1d01beb248801cc33b28cbd58d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.VoxelScalars.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.VoxelScalars.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a374d1d01beb248801cc33b28cbd58d2e" kindref="member">MR.VoxelScalars.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25688" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25688" bodyend="25691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a447593a3a5be37ea2412a67b591087cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.VoxelScalars.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.VoxelScalars.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a447593a3a5be37ea2412a67b591087cd" kindref="member">MR.VoxelScalars.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25696" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25696" bodyend="25699"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a84f11d58e47e739a1094c70f815bcd07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; float &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; float &gt; MR.VoxelScalars.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.VoxelScalars.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a84f11d58e47e739a1094c70f815bcd07" kindref="member">MR.VoxelScalars.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25704" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25704" bodyend="25708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a49901da09c5d30f39c758e0cbb4c030e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe new MR.Std.Vector_Float.Iterator MR.VoxelScalars.begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.VoxelScalars.begin</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a49901da09c5d30f39c758e0cbb4c030e" kindref="member">MR.VoxelScalars.begin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25713" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25713" bodyend="25719"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a999714d26307f41c23539c3cb942f9be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Std.Vector_Float.Iterator</type>
+        <definition>unsafe new MR.Std.Vector_Float.Iterator MR.VoxelScalars.end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>MR.VoxelScalars.end</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a999714d26307f41c23539c3cb942f9be" kindref="member">MR.VoxelScalars.end</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25724" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25724" bodyend="25730"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a2e6c071868b307264d747e641ee62e4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VoxelScalars.swap</definition>
+        <argsstring>(MR.VoxelScalars b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.VoxelScalars.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelScalars" kindref="compound">MR.VoxelScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VoxelScalars_1a2e6c071868b307264d747e641ee62e4a" kindref="member">MR.VoxelScalars.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25735" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25735" bodyend="25738"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a007c9d68c71b6ee6a738678195061da0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.VoxelScalars.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.VoxelScalars.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25418" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25418" bodyend="25421"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ada5a7554ef3c5e129a39c72e222074a2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelScalars.VoxelScalars</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VoxelScalars</name>
+        <qualifiedname>MR.VoxelScalars.VoxelScalars</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25443" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25443" bodyend="25447"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a4eaed0c83b145f6fa2b244dd062ef524" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelScalars._Underlying * MR.VoxelScalars.__MR_VoxelScalars_AssignFromAnother</definition>
+        <argsstring>(_Underlying *_this, MR.Misc._PassBy _other_pass_by, MR.VoxelScalars._Underlying *_other)</argsstring>
+        <name>__MR_VoxelScalars_AssignFromAnother</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_AssignFromAnother</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.VoxelScalars._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25743" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a6692112f575a0dd4bdad3048a32b223b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelScalars._Underlying * MR.VoxelScalars.__MR_VoxelScalars_Construct</definition>
+        <argsstring>(nuint size)</argsstring>
+        <name>__MR_VoxelScalars_Construct</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_Construct</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25746" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a1e3b146048aef6d12675a3e3a41e4497" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelScalars._Underlying * MR.VoxelScalars.__MR_VoxelScalars_ConstructFromAnother</definition>
+        <argsstring>(MR.Misc._PassBy _other_pass_by, MR.VoxelScalars._Underlying *_other)</argsstring>
+        <name>__MR_VoxelScalars_ConstructFromAnother</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_ConstructFromAnother</qualifiedname>
+        <param>
+          <type>MR.Misc._PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type>MR.VoxelScalars._Underlying *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25749" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a63af215f6feae785048fd62cdd5dcf75" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelScalars._Underlying * MR.VoxelScalars.__MR_VoxelScalars_Construct_fill</definition>
+        <argsstring>(nuint size, float *val)</argsstring>
+        <name>__MR_VoxelScalars_Construct_fill</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_Construct_fill</qualifiedname>
+        <param>
+          <type>nuint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25752" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a75371b6c138d19ad6e52edd3dbcb146d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.VoxelScalars._Underlying * MR.VoxelScalars.__MR_VoxelScalars_DefaultConstruct</definition>
+        <argsstring>()</argsstring>
+        <name>__MR_VoxelScalars_DefaultConstruct</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_DefaultConstruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25755" column="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a4820abfdb89b497489d4ca1e820f6e38" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float._Underlying * MR.VoxelScalars.__MR_VoxelScalars_GetMutable_vec</definition>
+        <argsstring>(MR.VoxelScalars._Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_GetMutable_vec</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_GetMutable_vec</qualifiedname>
+        <param>
+          <type>MR.VoxelScalars._Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25758" column="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ac41cb0decdc586bc95b13802bbd46d23" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_assign</definition>
+        <argsstring>(_Underlying *_this, nuint count, float *val)</argsstring>
+        <name>__MR_VoxelScalars_assign</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_assign</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25761" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a225213af7057571bf9ea0d11dad719d0" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.VoxelScalars.__MR_VoxelScalars_autoResizeAt</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelId i)</argsstring>
+        <name>__MR_VoxelScalars_autoResizeAt</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_autoResizeAt</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25764" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ae32948460c4d98dd33564cef7c30c7c6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_autoResizeSet_2</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelId i, float val)</argsstring>
+        <name>__MR_VoxelScalars_autoResizeSet_2</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_autoResizeSet_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25767" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ae04b300d9fa6fd7601e6cee5bd8ab094" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_autoResizeSet_3</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelId pos, nuint len, float val)</argsstring>
+        <name>__MR_VoxelScalars_autoResizeSet_3</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_autoResizeSet_3</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25770" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1af6e17355d61b77c81d4ebf961670f6c3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.VoxelScalars.__MR_VoxelScalars_back_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_back_mut</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_back_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25773" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a2f0acefed07f364d500fe773345850a1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_begin_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_begin_mut</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_begin_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25776" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a29ca032c0f0ad2d630725d484fcb3a32" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_clear</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_clear</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_clear</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25779" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1afe2497708f43ddaa480e42fed9092e1f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.VoxelScalars.__MR_VoxelScalars_data_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_data_mut</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_data_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25782" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a8505e3dcdd4bc05ac65dc8732d6ad963" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_end_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_end_mut</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_end_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25785" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a18cd82e199ff75df34f3496022aa44e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_erase_1</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_Float.ConstIterator._Underlying *pos)</argsstring>
+        <name>__MR_VoxelScalars_erase_1</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_erase_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25788" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a864cf196408ac565a695f6e9736f3f31" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_erase_2</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_Float.ConstIterator._Underlying *first, MR.Std.Vector_Float.ConstIterator._Underlying *last)</argsstring>
+        <name>__MR_VoxelScalars_erase_2</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_erase_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.ConstIterator._Underlying *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.ConstIterator._Underlying *</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25791" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a4b9e0f0279f721e65eae0a0d966c2180" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.VoxelScalars.__MR_VoxelScalars_front_mut</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_front_mut</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_front_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25794" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a40f12c8712255d73bda179803f28a7d1" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe float *</type>
+        <definition>static unsafe float * MR.VoxelScalars.__MR_VoxelScalars_index_mut</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelId i)</argsstring>
+        <name>__MR_VoxelScalars_index_mut</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_index_mut</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25797" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a2a1a7d3c30d33e6b75331496d436b759" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_insert_2_const_float_ref</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_Float.ConstIterator._Underlying *pos, float *t)</argsstring>
+        <name>__MR_VoxelScalars_insert_2_const_float_ref</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_insert_2_const_float_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25800" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a4c6e054a8d40cee0affeebe28389a8bc" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_insert_2_float_rvalue_ref</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_Float.ConstIterator._Underlying *pos, float *t)</argsstring>
+        <name>__MR_VoxelScalars_insert_2_float_rvalue_ref</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_insert_2_float_rvalue_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25803" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a530ff73860b097d90624824fa3ac0bde" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_Float.Iterator._Underlying *</type>
+        <definition>static unsafe MR.Std.Vector_Float.Iterator._Underlying * MR.VoxelScalars.__MR_VoxelScalars_insert_3</definition>
+        <argsstring>(_Underlying *_this, MR.Std.Vector_Float.ConstIterator._Underlying *pos, nuint count, float *t)</argsstring>
+        <name>__MR_VoxelScalars_insert_3</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_insert_3</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_Float.ConstIterator._Underlying *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>count</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25806" column="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1ad079a67af33e5aa122c8947615b36065" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_pop_back</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_pop_back</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_pop_back</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25809" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1af9fa99c0896c9ee3af352fbe02fafeab" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_push_back_const_float_ref</definition>
+        <argsstring>(_Underlying *_this, float *t)</argsstring>
+        <name>__MR_VoxelScalars_push_back_const_float_ref</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_push_back_const_float_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25812" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1abe9ad91fa8e34c98f670e7552677299f" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_push_back_float_rvalue_ref</definition>
+        <argsstring>(_Underlying *_this, float *t)</argsstring>
+        <name>__MR_VoxelScalars_push_back_float_rvalue_ref</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_push_back_float_rvalue_ref</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25815" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a1a945fb887e6a93c02eb688b2af405e6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_reserve</definition>
+        <argsstring>(_Underlying *_this, nuint capacity)</argsstring>
+        <name>__MR_VoxelScalars_reserve</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_reserve</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25818" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a72b546008ceaf652e6ff8f026eadd523" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_resizeWithReserve_1</definition>
+        <argsstring>(_Underlying *_this, nuint newSize)</argsstring>
+        <name>__MR_VoxelScalars_resizeWithReserve_1</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_resizeWithReserve_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25821" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a96875b2f8fcb9c95ff49276e5e8ca5a6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_resizeWithReserve_2</definition>
+        <argsstring>(_Underlying *_this, nuint newSize, float *value)</argsstring>
+        <name>__MR_VoxelScalars_resizeWithReserve_2</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_resizeWithReserve_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25824" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1af67ee74bc3b38497a9f50360bf5b0313" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_resize_1</definition>
+        <argsstring>(_Underlying *_this, nuint newSize)</argsstring>
+        <name>__MR_VoxelScalars_resize_1</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_resize_1</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25827" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a7f11cc8f4b6735ba73bcf124f9071f80" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_resize_2</definition>
+        <argsstring>(_Underlying *_this, nuint newSize, float *t)</argsstring>
+        <name>__MR_VoxelScalars_resize_2</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_resize_2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>nuint</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25830" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1aeb4436e86f189ebf065ab894ce0ce4f4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_shrink_to_fit</definition>
+        <argsstring>(_Underlying *_this)</argsstring>
+        <name>__MR_VoxelScalars_shrink_to_fit</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_shrink_to_fit</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25833" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelScalars_1a2da42eefd012c50fc9bf28433f4c6d55" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.VoxelScalars.__MR_VoxelScalars_swap</definition>
+        <argsstring>(_Underlying *_this, MR.VoxelScalars._Underlying *b)</argsstring>
+        <name>__MR_VoxelScalars_swap</name>
+        <qualifiedname>MR.VoxelScalars.__MR_VoxelScalars_swap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR.VoxelScalars._Underlying *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25836" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1VoxelScalars" kindref="compound">MR.VoxelScalars</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.VoxelScalars</label>
+        <link refid="classMR_1_1VoxelScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_VoxelScalars</label>
+        <link refid="classMR_1_1Const__VoxelScalars"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.VoxelScalars</label>
+        <link refid="classMR_1_1VoxelScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_VoxelScalars</label>
+        <link refid="classMR_1_1Const__VoxelScalars"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25357" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25358" bodyend="25837"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelScalars_1ac41cb0decdc586bc95b13802bbd46d23" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_assign</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a4eaed0c83b145f6fa2b244dd062ef524" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_AssignFromAnother</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a225213af7057571bf9ea0d11dad719d0" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_autoResizeAt</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ae32948460c4d98dd33564cef7c30c7c6" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_autoResizeSet_2</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ae04b300d9fa6fd7601e6cee5bd8ab094" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_autoResizeSet_3</name></member>
+      <member refid="classMR_1_1VoxelScalars_1af6e17355d61b77c81d4ebf961670f6c3" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_back_mut</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a2f0acefed07f364d500fe773345850a1" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_begin_mut</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a29ca032c0f0ad2d630725d484fcb3a32" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_clear</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a6692112f575a0dd4bdad3048a32b223b" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_Construct</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a63af215f6feae785048fd62cdd5dcf75" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_Construct_fill</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a1e3b146048aef6d12675a3e3a41e4497" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_ConstructFromAnother</name></member>
+      <member refid="classMR_1_1VoxelScalars_1afe2497708f43ddaa480e42fed9092e1f" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_data_mut</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a75371b6c138d19ad6e52edd3dbcb146d" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_DefaultConstruct</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a8505e3dcdd4bc05ac65dc8732d6ad963" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_end_mut</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a18cd82e199ff75df34f3496022aa44e9" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_erase_1</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a864cf196408ac565a695f6e9736f3f31" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_erase_2</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a4b9e0f0279f721e65eae0a0d966c2180" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_front_mut</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a4820abfdb89b497489d4ca1e820f6e38" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_GetMutable_vec</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a40f12c8712255d73bda179803f28a7d1" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_index_mut</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a2a1a7d3c30d33e6b75331496d436b759" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_insert_2_const_float_ref</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a4c6e054a8d40cee0affeebe28389a8bc" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_insert_2_float_rvalue_ref</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a530ff73860b097d90624824fa3ac0bde" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_insert_3</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ad079a67af33e5aa122c8947615b36065" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_pop_back</name></member>
+      <member refid="classMR_1_1VoxelScalars_1af9fa99c0896c9ee3af352fbe02fafeab" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_push_back_const_float_ref</name></member>
+      <member refid="classMR_1_1VoxelScalars_1abe9ad91fa8e34c98f670e7552677299f" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_push_back_float_rvalue_ref</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a1a945fb887e6a93c02eb688b2af405e6" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_reserve</name></member>
+      <member refid="classMR_1_1VoxelScalars_1af67ee74bc3b38497a9f50360bf5b0313" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_resize_1</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a7f11cc8f4b6735ba73bcf124f9071f80" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_resize_2</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a72b546008ceaf652e6ff8f026eadd523" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_resizeWithReserve_1</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a96875b2f8fcb9c95ff49276e5e8ca5a6" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_resizeWithReserve_2</name></member>
+      <member refid="classMR_1_1VoxelScalars_1aeb4436e86f189ebf065ab894ce0ce4f4" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_shrink_to_fit</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a2da42eefd012c50fc9bf28433f4c6d55" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>__MR_VoxelScalars_swap</name></member>
+      <member refid="classMR_1_1VoxelScalars_1abf0737d8a4fbf2940a86265e83d61660" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a92c9b951a356d0b2c41767e593a23f61" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a90f99d07476d9dc37555e1e4e1251907" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ae4ec8cc578147f8a5465cf837f1f9cd1" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ad2f0ba783018064a2d53a9bc7d664e5e" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a447593a3a5be37ea2412a67b591087cd" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a28d3de8dd7ecaadbc001fa02f89aadcd" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>backId</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a49901da09c5d30f39c758e0cbb4c030e" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a8fd8a77856ae4b9eae7da8800c835e8e" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a28ca0102624ef775a24ecbbdc9a57580" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a0cbf906d7a9c70c01132f1de0539e490" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>cbegin</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a579093095a84e859fa33dad2fa9a5751" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>cend</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ad8cddc014c03c95368f0c6bcba47e084" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1ac81291ee5c406f3980b6c69d4eaaa467" prot="package" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a919d8fd36dbf98709cb4a66099005376" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1af959f386e67afc8ec39fcad2e9807b4a" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1ab97c1e981acb25ac1c02b321d893b9bd" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a6542708f3a7b8efa586da3e9c8cc4e96" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a61a631a9a675cd8083e10094a35489d5" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a8e5d819626318379fbbaa2b813b122ff" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Const_VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a84f11d58e47e739a1094c70f815bcd07" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a7b8cac1e10c4ebe85b58bfb42d0a513e" prot="protected" virt="virtual"><scope>MR::VoxelScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1ae4fcfa809c494af49674a4dbdcbfcb20" prot="public" virt="virtual"><scope>MR::VoxelScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a4e566fb783a7a79372159208fca91859" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>empty</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a999714d26307f41c23539c3cb942f9be" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a4c2c8f016b5ea49672b15813aee36aa4" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a3b9c9c306cb13eef7840a7ca295d3214" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1ae5ed2847493f260d378187158b609633" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>Equals</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a9c3037d5344b376b57f1abc677148c90" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>erase</name></member>
+      <member refid="classMR_1_1VoxelScalars_1aa170471d63e9e6fcc98b7cd490d0bc6f" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>erase</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a374d1d01beb248801cc33b28cbd58d2e" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>front</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a3ca08ee284eadc096508f68a75129d02" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a007c9d68c71b6ee6a738678195061da0" prot="private" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a36489aad267f87a84e5ba4b9a982ec40" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VoxelScalars_1af4d3917d1a1c43208625bb39c882f810" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>insert</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a3db909ec3a140f62ce09d80a8b2d65aa" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>insert</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a9ba5bce1b936c26ecde84740509b00cf" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>insert</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a63aff046ad391fa39773b6b10f5b4e90" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>maxSize</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a49ad52e76f7c71f5853904112e07f950" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a34ab1e87ee16fdf09cd0cb842082baf9" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>operator==</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a487ed97970c3a4c93792ee8e8c1e07ae" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>popBack</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a48546851a01977c2082a8386153d6ec7" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a98cb4cc87f5da3b5cf86bacc3316a6ae" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a3f78d0c8d33c82375e6b57dfc86458ec" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>reserve</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a760a303b398600f9c2e9f50ca79d4690" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a8f714a013851c8bc2deb6b4173067162" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1VoxelScalars_1aedaa5048d74c60e32af953e592c41059" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a220a5920c75417ca2029db9b0c6a8d70" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a7eb62520007ebc2cbcbbc569e4233c04" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Const__VoxelScalars_1a5f72eaada3ff807afc224bb2ef4eee95" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>size</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a2e6c071868b307264d747e641ee62e4a" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>swap</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a26b2e0142e459b804ca4ef76b423fa0a" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>this[MR.VoxelId i]</name></member>
+      <member refid="classMR_1_1VoxelScalars_1acca21cbc23d552b4a949b9da7f59d935" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>vec</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ada5a7554ef3c5e129a39c72e222074a2" prot="package" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1ae835086f23c2bf57b525c379524ca22a" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1aa53cf9e3a202fd3fd0a1b8f679def5db" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a97db47230b2246935d708dab5f4041f7" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a01a7658530ec5b5669194708823b0406" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a9310c7b9826d0d4602ec08c440a0bf32" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+      <member refid="classMR_1_1VoxelScalars_1a5e8989baedca6e18d153f2f0cdada367" prot="public" virt="non-virtual"><scope>MR::VoxelScalars</scope><name>VoxelScalars</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

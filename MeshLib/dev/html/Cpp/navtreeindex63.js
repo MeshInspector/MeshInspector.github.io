@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1CompensateRadiusParams.html":[9,0,0,20,491],
 "structMR_1_1CompressZipSettings.html":[9,0,0,2,17,0],
 "structMR_1_1CompressZipSettings.html#a081a0d03fa07baae69e080a91f1aa61d":[9,0,0,2,17,0,3],
 "structMR_1_1CompressZipSettings.html#a0fff83332c3dd033ccd3f5bb5dbb8a5d":[9,0,0,2,17,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1Features_1_1Traits_1_1Unary.html":[9,0,0,20,251],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[9,0,0,20,253],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[9,0,0,20,254],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,252],
-"structMR_1_1FileDialogSignals.html":[9,0,0,20,598]
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[9,0,0,20,252]
 };

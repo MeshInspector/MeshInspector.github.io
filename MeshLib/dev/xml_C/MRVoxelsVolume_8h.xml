@@ -116,19 +116,19 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="93" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" bodystart="93" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" prot="public" static="no">
-        <type>struct <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref></type>
-        <definition>typedef struct MR_VoxelTraits_MR_Vector_float_MR_VoxelId MR_VoxelTraits_MR_Vector_float_MR_VoxelId</definition>
+      <memberdef kind="typedef" id="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" prot="public" static="no">
+        <type>struct <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref></type>
+        <definition>typedef struct MR_VoxelTraits_MR_VoxelScalars MR_VoxelTraits_MR_VoxelScalars</definition>
         <argsstring></argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId</name>
+        <name>MR_VoxelTraits_MR_VoxelScalars</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::VoxelTraits&lt;MR::Vector&lt;float, MR::VoxelId&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::VoxelTraits&lt;MR::VoxelScalars&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="97" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" bodystart="97" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="97" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" prot="public" static="no">
         <type>struct <ref refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" kindref="member">MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId</ref></type>
@@ -202,9 +202,9 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a6225cd347d72eb5792a1dba5e507fee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API const MR_Vector_float_MR_VoxelId * MR_SimpleVolumeMinMax_Get_data</definition>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a20ac829535e743f3799af8dac9ae9d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API const MR_VoxelScalars * MR_SimpleVolumeMinMax_Get_data</definition>
         <argsstring>(const MR_SimpleVolumeMinMax *_this)</argsstring>
         <name>MR_SimpleVolumeMinMax_Get_data</name>
         <param>
@@ -218,12 +218,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="123" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="123" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="123" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="123" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a9cd2f3c0d6098d4b19cb1204699bf212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a5273c1bff6cc4c87cbe9d78e1ddf7708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SimpleVolumeMinMax_Set_data</definition>
-        <argsstring>(MR_SimpleVolumeMinMax *_this, MR_PassBy value_pass_by, MR_Vector_float_MR_VoxelId *value)</argsstring>
+        <argsstring>(MR_SimpleVolumeMinMax *_this, MR_PassBy value_pass_by, MR_VoxelScalars *value)</argsstring>
         <name>MR_SimpleVolumeMinMax_Set_data</name>
         <param>
           <type><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref> *</type>
@@ -234,7 +234,7 @@
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -246,9 +246,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="129" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a220b802d9c319e5eda7b29e6f1c94975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_Vector_float_MR_VoxelId * MR_SimpleVolumeMinMax_GetMutable_data</definition>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a52f548e2c2851edd75c6d9ad60ae695c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelScalars * MR_SimpleVolumeMinMax_GetMutable_data</definition>
         <argsstring>(MR_SimpleVolumeMinMax *_this)</argsstring>
         <name>MR_SimpleVolumeMinMax_GetMutable_data</name>
         <param>
@@ -262,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="135" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="135" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="135" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="135" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolume_8h_1ab62adb7989acd9d557e420ae16353da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
@@ -3980,9 +3980,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1144" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1144" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a1863d022ebb3cbb89bed0bf2cf00a59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API const MR_Vector_float_MR_VoxelId * MR_SimpleVolume_Get_data</definition>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a18df89fb3c2695778ac5dd042a1d1698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API const MR_VoxelScalars * MR_SimpleVolume_Get_data</definition>
         <argsstring>(const MR_SimpleVolume *_this)</argsstring>
         <name>MR_SimpleVolume_Get_data</name>
         <param>
@@ -3996,12 +3996,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1150" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1150" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1150" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1150" declcolumn="31"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a15341e1d820a5d2f69ee92458b9ea7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a8ecb433c557e142e3aad108700709cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SimpleVolume_Set_data</definition>
-        <argsstring>(MR_SimpleVolume *_this, MR_PassBy value_pass_by, MR_Vector_float_MR_VoxelId *value)</argsstring>
+        <argsstring>(MR_SimpleVolume *_this, MR_PassBy value_pass_by, MR_VoxelScalars *value)</argsstring>
         <name>MR_SimpleVolume_Set_data</name>
         <param>
           <type><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref> *</type>
@@ -4012,7 +4012,7 @@
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -4024,9 +4024,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1156" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a16115ad4b2efe1de307fe9cb55637b27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_Vector_float_MR_VoxelId * MR_SimpleVolume_GetMutable_data</definition>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a8773039083e34f9fe01ecbb5e7c23e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelScalars * MR_SimpleVolume_GetMutable_data</definition>
         <argsstring>(MR_SimpleVolume *_this)</argsstring>
         <name>MR_SimpleVolume_GetMutable_data</name>
         <param>
@@ -4040,7 +4040,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1162" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1162" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1162" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1162" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolume_8h_1a48abbb4b9a4decd8e4f55b519dee08bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
@@ -4193,17 +4193,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1207" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1207" declcolumn="25"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a1df3d1766afc3bddc3e4294234ab5c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1ac55c0a81fdfb564f39a8987e90b8fbd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref> *</type>
         <definition>MRC_API MR_SimpleVolume * MR_SimpleVolume_ConstructFrom</definition>
-        <argsstring>(MR_PassBy data_pass_by, MR_Vector_float_MR_VoxelId *data, MR_Vector3i dims, MR_Vector3f voxelSize)</argsstring>
+        <argsstring>(MR_PassBy data_pass_by, MR_VoxelScalars *data, MR_Vector3i dims, MR_Vector3f voxelSize)</argsstring>
         <name>MR_SimpleVolume_ConstructFrom</name>
         <param>
           <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>data_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref> *</type>
           <declname>data</declname>
         </param>
         <param>
@@ -5536,28 +5536,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1548" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1548" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a98a2d36eb842b0ccca657a851370f149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_VoxelTraits_MR_Vector_float_MR_VoxelId * MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</definition>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1ae22fbd9dfbb3d5aee09431b874e3eec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelTraits_MR_VoxelScalars * MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</name>
+        <name>MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</name>
         <param>
           <type>void</type>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsVolume_8h_1afcf17f1c2863bc0a40f4f684cc6ca31f" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsVolume_8h_1ac9692bd477a298a12359b8eb7b3b41e1" kindref="member">MR_VoxelTraits_MR_VoxelScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1552" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1552" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1552" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1552" declcolumn="40"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1ad939b20bf10b206f0641a647ae932dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_VoxelTraits_MR_Vector_float_MR_VoxelId * MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstructArray</definition>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a6ea5d4a339ffe6f99d68b6ea021c1d50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelTraits_MR_VoxelScalars * MR_VoxelTraits_MR_VoxelScalars_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstructArray</name>
+        <name>MR_VoxelTraits_MR_VoxelScalars_DefaultConstructArray</name>
         <param>
           <type>size_t</type>
           <declname>num_elems</declname>
@@ -5565,19 +5565,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVoxelsVolume_8h_1a674b664308c09a91947d73f2eb6942f1" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVoxelsVolume_8h_1a34ad06617ba17f58a5becb800e93a077" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVoxelsVolume_8h_1a5826ff44655600e5351b181c69d5c9f8" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRVoxelsVolume_8h_1a58eb1b7ae1895486b3ed79a285ef5a65" kindref="member">MR_VoxelTraits_MR_VoxelScalars_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRVoxelsVolume_8h_1af648edcdc9c3310bef358862515b1b51" kindref="member">MR_VoxelTraits_MR_VoxelScalars_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRVoxelsVolume_8h_1a4d6e8d7f3acaa7ec1cc2875e0c20feda" kindref="member">MR_VoxelTraits_MR_VoxelScalars_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1557" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1557" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1557" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1557" declcolumn="40"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a5826ff44655600e5351b181c69d5c9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API const MR_VoxelTraits_MR_Vector_float_MR_VoxelId * MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetPtr</definition>
-        <argsstring>(const MR_VoxelTraits_MR_Vector_float_MR_VoxelId *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetPtr</name>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a4d6e8d7f3acaa7ec1cc2875e0c20feda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API const MR_VoxelTraits_MR_VoxelScalars * MR_VoxelTraits_MR_VoxelScalars_OffsetPtr</definition>
+        <argsstring>(const MR_VoxelTraits_MR_VoxelScalars *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VoxelTraits_MR_VoxelScalars_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type>const <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -5591,15 +5591,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1561" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1561" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1561" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1561" declcolumn="46"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a34ad06617ba17f58a5becb800e93a077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_VoxelTraits_MR_Vector_float_MR_VoxelId * MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetMutablePtr</definition>
-        <argsstring>(MR_VoxelTraits_MR_Vector_float_MR_VoxelId *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetMutablePtr</name>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1af648edcdc9c3310bef358862515b1b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelTraits_MR_VoxelScalars * MR_VoxelTraits_MR_VoxelScalars_OffsetMutablePtr</definition>
+        <argsstring>(MR_VoxelTraits_MR_VoxelScalars *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_VoxelTraits_MR_VoxelScalars_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -5613,37 +5613,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1565" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1565" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1565" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1565" declcolumn="40"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1af0a9f5595dce0d7ef038e8823fb46f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_VoxelTraits_MR_Vector_float_MR_VoxelId * MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</definition>
-        <argsstring>(const MR_VoxelTraits_MR_Vector_float_MR_VoxelId *_other)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</name>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a52a3b7624e0e6f15df90a3251d321ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelTraits_MR_VoxelScalars * MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</definition>
+        <argsstring>(const MR_VoxelTraits_MR_VoxelScalars *_other)</argsstring>
+        <name>MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</name>
         <param>
-          <type>const <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type>const <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&lt;MR::Vector&lt;float, MR::VoxelId&gt;&gt;::VoxelTraits</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsVolume_8h_1afcf17f1c2863bc0a40f4f684cc6ca31f" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&lt;MR::VoxelScalars&gt;::VoxelTraits</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsVolume_8h_1ac9692bd477a298a12359b8eb7b3b41e1" kindref="member">MR_VoxelTraits_MR_VoxelScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1571" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1571" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1571" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1571" declcolumn="40"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1afcf17f1c2863bc0a40f4f684cc6ca31f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1ac9692bd477a298a12359b8eb7b3b41e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy</definition>
-        <argsstring>(const MR_VoxelTraits_MR_Vector_float_MR_VoxelId *_this)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy</name>
+        <definition>MRC_API void MR_VoxelTraits_MR_VoxelScalars_Destroy</definition>
+        <argsstring>(const MR_VoxelTraits_MR_VoxelScalars *_this)</argsstring>
+        <name>MR_VoxelTraits_MR_VoxelScalars_Destroy</name>
         <param>
-          <type>const <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type>const <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5651,17 +5651,17 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1574" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1574" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a674b664308c09a91947d73f2eb6942f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1a58eb1b7ae1895486b3ed79a285ef5a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DestroyArray</definition>
-        <argsstring>(const MR_VoxelTraits_MR_Vector_float_MR_VoxelId *_this)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DestroyArray</name>
+        <definition>MRC_API void MR_VoxelTraits_MR_VoxelScalars_DestroyArray</definition>
+        <argsstring>(const MR_VoxelTraits_MR_VoxelScalars *_this)</argsstring>
+        <name>MR_VoxelTraits_MR_VoxelScalars_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type>const <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -5669,27 +5669,27 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1577" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1577" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="MRVoxelsVolume_8h_1a8cd9a6ceea0e8d323f888c693fde98f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
-        <definition>MRC_API MR_VoxelTraits_MR_Vector_float_MR_VoxelId * MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</definition>
-        <argsstring>(MR_VoxelTraits_MR_Vector_float_MR_VoxelId *_this, const MR_VoxelTraits_MR_Vector_float_MR_VoxelId *_other)</argsstring>
-        <name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</name>
+      <memberdef kind="function" id="MRVoxelsVolume_8h_1aeb4bb6af02ed89ee0c282c990514a147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
+        <definition>MRC_API MR_VoxelTraits_MR_VoxelScalars * MR_VoxelTraits_MR_VoxelScalars_AssignFromAnother</definition>
+        <argsstring>(MR_VoxelTraits_MR_VoxelScalars *_this, const MR_VoxelTraits_MR_VoxelScalars *_other)</argsstring>
+        <name>MR_VoxelTraits_MR_VoxelScalars_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>const <ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref> *</type>
+          <type>const <ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::VoxelTraits&lt;MR::Vector&lt;float, MR::VoxelId&gt;&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+<para>Generated from method <computeroutput>MR::VoxelTraits&lt;MR::VoxelScalars&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1585" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1585" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" line="1585" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRVoxelsVolume.h" declline="1585" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRVoxelsVolume_8h_1a77c9b90ffd9883461691dbfc362cde5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" kindref="member">MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId</ref> *</type>
@@ -6510,9 +6510,9 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1abe64e8fa15f4ca0ae7f2f0074b58a89f" kindref="member">MR_Box_unsigned_short</ref><sp/><ref refid="MRBox_8h_1abe64e8fa15f4ca0ae7f2f0074b58a89f" kindref="member">MR_Box_unsigned_short</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBox.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref><sp/><ref refid="expected__MR__FloatGrid__std__string_8h_1abc899d5a6475d6b9c15b9ccd231431b3" kindref="member">MR_FloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a61952e99db58d49a26022dfb3fd72c33" kindref="member">MR_Vector_unsigned_short_MR_VoxelId</ref><sp/><ref refid="MRVector_8h_1a61952e99db58d49a26022dfb3fd72c33" kindref="member">MR_Vector_unsigned_short_MR_VoxelId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a61952e99db58d49a26022dfb3fd72c33" kindref="member">MR_Vector_unsigned_short_MR_VoxelId</ref><sp/><ref refid="MRVector_8h_1a61952e99db58d49a26022dfb3fd72c33" kindref="member">MR_Vector_unsigned_short_MR_VoxelId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref><sp/><ref refid="MRBitSet_8h_1a94b5f700f4835481dce132716ff73b05" kindref="member">MR_VoxelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1aa92b66a9548e8504eac52319ee60536a" kindref="member">MR_expected_MR_SimpleVolumeMinMax_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolumeMinMax_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__float__from__const__MR__Vector3i__ref_8h_1a7ac6611449c281ea5a1d9bd0ede7b138" kindref="member">MR_std_function_float_from_const_MR_Vector3i_ref</ref><sp/><ref refid="std__function__float__from__const__MR__Vector3i__ref_8h_1a7ac6611449c281ea5a1d9bd0ede7b138" kindref="member">MR_std_function_float_from_const_MR_Vector3i_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_const_MR_Vector3i_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
@@ -6537,7 +6537,7 @@
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
 <codeline lineno="93" refid="MRVoxelsVolume_8h_1a8adc9b97c5e21a2a5100eed8d268976f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolume_8h_1a8adc9b97c5e21a2a5100eed8d268976f" kindref="member">MR_VoxelsVolume_MR_FloatGrid</ref><sp/><ref refid="MRVoxelsVolume_8h_1a8adc9b97c5e21a2a5100eed8d268976f" kindref="member">MR_VoxelsVolume_MR_FloatGrid</ref>;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref>;</highlight></codeline>
+<codeline lineno="97" refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref>;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="101" refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" kindref="member">MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId</ref><sp/><ref refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" kindref="member">MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId</ref>;</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
@@ -6549,11 +6549,11 @@
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="117" refid="MRVoxelsVolume_8h_1aed461f0469dbc005bc426e8aed486b98" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVoxelsVolume_8h_1aed461f0469dbc005bc426e8aed486b98" kindref="member">MR_VoxelTraits_MR_FloatGrid</ref><sp/><ref refid="MRVoxelsVolume_8h_1aed461f0469dbc005bc426e8aed486b98" kindref="member">MR_VoxelTraits_MR_FloatGrid</ref>;</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRVoxelsVolume_8h_1a6225cd347d72eb5792a1dba5e507fee0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a6225cd347d72eb5792a1dba5e507fee0" kindref="member">MR_SimpleVolumeMinMax_Get_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="MRVoxelsVolume_8h_1a20ac829535e743f3799af8dac9ae9d12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a20ac829535e743f3799af8dac9ae9d12" kindref="member">MR_SimpleVolumeMinMax_Get_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRVoxelsVolume_8h_1a9cd2f3c0d6098d4b19cb1204699bf212" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a9cd2f3c0d6098d4b19cb1204699bf212" kindref="member">MR_SimpleVolumeMinMax_Set_data</ref>(<ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="129" refid="MRVoxelsVolume_8h_1a5273c1bff6cc4c87cbe9d78e1ddf7708" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a5273c1bff6cc4c87cbe9d78e1ddf7708" kindref="member">MR_SimpleVolumeMinMax_Set_data</ref>(<ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="MRVoxelsVolume_8h_1a220b802d9c319e5eda7b29e6f1c94975" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a220b802d9c319e5eda7b29e6f1c94975" kindref="member">MR_SimpleVolumeMinMax_GetMutable_data</ref>(<ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135" refid="MRVoxelsVolume_8h_1a52f548e2c2851edd75c6d9ad60ae695c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a52f548e2c2851edd75c6d9ad60ae695c" kindref="member">MR_SimpleVolumeMinMax_GetMutable_data</ref>(<ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
 <codeline lineno="141" refid="MRVoxelsVolume_8h_1ab62adb7989acd9d557e420ae16353da6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1ab62adb7989acd9d557e420ae16353da6" kindref="member">MR_SimpleVolumeMinMax_Get_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolumeMinMax__std__string_8h_1a8926b75bb2beb7a906aef87b4867fe03" kindref="member">MR_SimpleVolumeMinMax</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
@@ -6931,11 +6931,11 @@
 <codeline lineno="1141"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1144" refid="MRVoxelsVolume_8h_1a2483238c3062d4139ddba18d33dee303" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a2483238c3062d4139ddba18d33dee303" kindref="member">MR_FunctionVolumeU8_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a480ce5e5c2dfe6c859cc7a844065c5fa" kindref="member">MR_FunctionVolumeU8</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1150" refid="MRVoxelsVolume_8h_1a1863d022ebb3cbb89bed0bf2cf00a59d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a1863d022ebb3cbb89bed0bf2cf00a59d" kindref="member">MR_SimpleVolume_Get_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1150" refid="MRVoxelsVolume_8h_1a18df89fb3c2695778ac5dd042a1d1698" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a18df89fb3c2695778ac5dd042a1d1698" kindref="member">MR_SimpleVolume_Get_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1156" refid="MRVoxelsVolume_8h_1a15341e1d820a5d2f69ee92458b9ea7ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a15341e1d820a5d2f69ee92458b9ea7ed" kindref="member">MR_SimpleVolume_Set_data</ref>(<ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="1156" refid="MRVoxelsVolume_8h_1a8ecb433c557e142e3aad108700709cd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a8ecb433c557e142e3aad108700709cd3" kindref="member">MR_SimpleVolume_Set_data</ref>(<ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="1157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1162" refid="MRVoxelsVolume_8h_1a16115ad4b2efe1de307fe9cb55637b27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a16115ad4b2efe1de307fe9cb55637b27" kindref="member">MR_SimpleVolume_GetMutable_data</ref>(<ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1162" refid="MRVoxelsVolume_8h_1a8773039083e34f9fe01ecbb5e7c23e9f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a8773039083e34f9fe01ecbb5e7c23e9f" kindref="member">MR_SimpleVolume_GetMutable_data</ref>(<ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1163"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1168" refid="MRVoxelsVolume_8h_1a48abbb4b9a4decd8e4f55b519dee08bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a48abbb4b9a4decd8e4f55b519dee08bd" kindref="member">MR_SimpleVolume_Get_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1169"><highlight class="normal"></highlight></codeline>
@@ -6953,7 +6953,7 @@
 <codeline lineno="1203"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1207" refid="MRVoxelsVolume_8h_1a71a76af284e66b9bf446a53acf840a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a71a76af284e66b9bf446a53acf840a1e" kindref="member">MR_SimpleVolume_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1215" refid="MRVoxelsVolume_8h_1a1df3d1766afc3bddc3e4294234ab5c73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a1df3d1766afc3bddc3e4294234ab5c73" kindref="member">MR_SimpleVolume_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>data_pass_by,<sp/><ref refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kindref="member">MR_Vector_float_MR_VoxelId</ref><sp/>*data,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>dims,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>voxelSize);</highlight></codeline>
+<codeline lineno="1215" refid="MRVoxelsVolume_8h_1ac55c0a81fdfb564f39a8987e90b8fbd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1ac55c0a81fdfb564f39a8987e90b8fbd2" kindref="member">MR_SimpleVolume_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>data_pass_by,<sp/><ref refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kindref="member">MR_VoxelScalars</ref><sp/>*data,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>dims,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>voxelSize);</highlight></codeline>
 <codeline lineno="1216"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1219" refid="MRVoxelsVolume_8h_1a744fece999d4a95bebf234c8f7054e83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a744fece999d4a95bebf234c8f7054e83" kindref="member">MR_SimpleVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a9eebc3ffb6c9528989e38a2930f391cf" kindref="member">MR_SimpleVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1220"><highlight class="normal"></highlight></codeline>
@@ -7083,21 +7083,21 @@
 <codeline lineno="1545"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1548" refid="MRVoxelsVolume_8h_1a18936423baa1d7384414952fffd5f124" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a18936423baa1d7384414952fffd5f124" kindref="member">MR_VoxelsVolume_MR_FloatGrid_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a8adc9b97c5e21a2a5100eed8d268976f" kindref="member">MR_VoxelsVolume_MR_FloatGrid</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1549"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1552" refid="MRVoxelsVolume_8h_1a98a2d36eb842b0ccca657a851370f149" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a98a2d36eb842b0ccca657a851370f149" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1552" refid="MRVoxelsVolume_8h_1ae22fbd9dfbb3d5aee09431b874e3eec5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1ae22fbd9dfbb3d5aee09431b874e3eec5" kindref="member">MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1553"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1557" refid="MRVoxelsVolume_8h_1ad939b20bf10b206f0641a647ae932dae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1ad939b20bf10b206f0641a647ae932dae" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="1557" refid="MRVoxelsVolume_8h_1a6ea5d4a339ffe6f99d68b6ea021c1d50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a6ea5d4a339ffe6f99d68b6ea021c1d50" kindref="member">MR_VoxelTraits_MR_VoxelScalars_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="1558"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1561" refid="MRVoxelsVolume_8h_1a5826ff44655600e5351b181c69d5c9f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a5826ff44655600e5351b181c69d5c9f8" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1561" refid="MRVoxelsVolume_8h_1a4d6e8d7f3acaa7ec1cc2875e0c20feda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a4d6e8d7f3acaa7ec1cc2875e0c20feda" kindref="member">MR_VoxelTraits_MR_VoxelScalars_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1562"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1565" refid="MRVoxelsVolume_8h_1a34ad06617ba17f58a5becb800e93a077" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a34ad06617ba17f58a5becb800e93a077" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetMutablePtr</ref>(<ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1565" refid="MRVoxelsVolume_8h_1af648edcdc9c3310bef358862515b1b51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1af648edcdc9c3310bef358862515b1b51" kindref="member">MR_VoxelTraits_MR_VoxelScalars_OffsetMutablePtr</ref>(<ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1566"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1571" refid="MRVoxelsVolume_8h_1af0a9f5595dce0d7ef038e8823fb46f9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1af0a9f5595dce0d7ef038e8823fb46f9d" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1571" refid="MRVoxelsVolume_8h_1a52a3b7624e0e6f15df90a3251d321ffb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a52a3b7624e0e6f15df90a3251d321ffb" kindref="member">MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1572"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1574" refid="MRVoxelsVolume_8h_1afcf17f1c2863bc0a40f4f684cc6ca31f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1afcf17f1c2863bc0a40f4f684cc6ca31f" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1574" refid="MRVoxelsVolume_8h_1ac9692bd477a298a12359b8eb7b3b41e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1ac9692bd477a298a12359b8eb7b3b41e1" kindref="member">MR_VoxelTraits_MR_VoxelScalars_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1575"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1577" refid="MRVoxelsVolume_8h_1a674b664308c09a91947d73f2eb6942f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a674b664308c09a91947d73f2eb6942f1" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1577" refid="MRVoxelsVolume_8h_1a58eb1b7ae1895486b3ed79a285ef5a65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a58eb1b7ae1895486b3ed79a285ef5a65" kindref="member">MR_VoxelTraits_MR_VoxelScalars_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1578"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1585" refid="MRVoxelsVolume_8h_1a8cd9a6ceea0e8d323f888c693fde98f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a8cd9a6ceea0e8d323f888c693fde98f3" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</ref>(<ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kindref="member">MR_VoxelTraits_MR_Vector_float_MR_VoxelId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1585" refid="MRVoxelsVolume_8h_1aeb4bb6af02ed89ee0c282c990514a147" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1aeb4bb6af02ed89ee0c282c990514a147" kindref="member">MR_VoxelTraits_MR_VoxelScalars_AssignFromAnother</ref>(<ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kindref="member">MR_VoxelTraits_MR_VoxelScalars</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1586"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1589" refid="MRVoxelsVolume_8h_1a77c9b90ffd9883461691dbfc362cde5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" kindref="member">MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId</ref><sp/>*<ref refid="MRVoxelsVolume_8h_1a77c9b90ffd9883461691dbfc362cde5e" kindref="member">MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1590"><highlight class="normal"></highlight></codeline>

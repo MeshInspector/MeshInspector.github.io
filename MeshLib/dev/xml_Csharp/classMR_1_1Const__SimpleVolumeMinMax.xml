@@ -7,9 +7,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1SimpleVolumeMinMax" prot="public" virt="non-virtual">MR.SimpleVolumeMinMax</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__SimpleVolumeMinMax_1a723508de6b2b5fa148a3ce8d7e52c282" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe <ref refid="classMR_1_1Const__Vector__Float__MRVoxelId" kindref="compound">MR.Const_Vector_Float_MRVoxelId</ref></type>
-        <definition>unsafe MR.Const_Vector_Float_MRVoxelId MR.Const_SimpleVolumeMinMax.data</definition>
+      <memberdef kind="property" id="classMR_1_1Const__SimpleVolumeMinMax_1a7b3845b549b94e3923986ff1bc02fcb6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VoxelScalars" kindref="compound">MR.Const_VoxelScalars</ref></type>
+        <definition>unsafe MR.Const_VoxelScalars MR.Const_SimpleVolumeMinMax.data</definition>
         <argsstring></argsstring>
         <name>data</name>
         <qualifiedname>MR.Const_SimpleVolumeMinMax.data</qualifiedname>
@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="43" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="43" bodyend="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="43" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="43" bodyend="43"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SimpleVolumeMinMax_1a77a741c4f08d460893563a927a4eac58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -758,9 +758,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="327" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeMinMax_1a110f049abbaf91e839bf18996dc77454" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Const_Vector_Float_MRVoxelId._Underlying *</type>
-        <definition>static unsafe MR.Const_Vector_Float_MRVoxelId._Underlying * MR.Const_SimpleVolumeMinMax.__MR_SimpleVolumeMinMax_Get_data</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeMinMax_1aa2a5284d1724deda03869ef21339f76c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.Const_VoxelScalars._Underlying * MR.Const_SimpleVolumeMinMax.__MR_SimpleVolumeMinMax_Get_data</definition>
         <argsstring>(MR.Const_SimpleVolumeMinMax._Underlying *_this)</argsstring>
         <name>__MR_SimpleVolumeMinMax_Get_data</name>
         <qualifiedname>MR.Const_SimpleVolumeMinMax.__MR_SimpleVolumeMinMax_Get_data</qualifiedname>
@@ -774,7 +774,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="330" column="72"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="330" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SimpleVolumeMinMax_1a4d11334e97eaf997fa0f72c9d4a0ce87" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
@@ -1333,7 +1333,7 @@
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a2e274c0b2fa324fffedf7b9eae048a9d" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_diagonal</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a50537106c98c116d48e66cc78e95d6bd" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_expanded</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a38da3a8e161e99e7cec59fd72d4416b3" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_fromMinAndSize</name></member>
-      <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a110f049abbaf91e839bf18996dc77454" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_Get_data</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMax_1aa2a5284d1724deda03869ef21339f76c" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_Get_data</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a4d11334e97eaf997fa0f72c9d4a0ce87" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_Get_dims</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a63f408f7802b0f1bb0a1666bcb66e693" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_Get_elements</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1ae20d2d310a8b612dffa5611b89914ad5" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>__MR_SimpleVolumeMinMax_Get_max</name></member>
@@ -1365,7 +1365,7 @@
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a19f39fcb918cfe3c6f38903d40c6cf9a" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>Const_SimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a3611ff9dc059638846b72504d3077bdd" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>Const_SimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1ad62cdb47189a417c2d4073da7ac068b1" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>corner</name></member>
-      <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a723508de6b2b5fa148a3ce8d7e52c282" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a7b3845b549b94e3923986ff1bc02fcb6" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>data</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1adde75d5ae11dfb6608c62b31e4120294" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>diagonal</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1a77a741c4f08d460893563a927a4eac58" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__SimpleVolumeMinMax_1aaa606c0128154eb45e9dd0c1df96bc93" prot="protected" virt="virtual"><scope>MR::Const_SimpleVolumeMinMax</scope><name>Dispose</name></member>

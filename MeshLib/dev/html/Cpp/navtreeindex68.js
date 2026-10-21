@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"structMR_1_1NodeNode.html#a79a5205b5b3afdb4525f05a356ec8a18":[9,0,0,1,5,1],
 "structMR_1_1NodeNode.html#aa37922a5069e7815141f8eac1dd07ea2":[9,0,0,1,5,0],
 "structMR_1_1NoiseSettings.html":[9,0,0,20,119],
 "structMR_1_1NotificationTags.html":[9,0,0,20,698],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1ProgressInterrupter.html":[9,0,0,20,912],
 "structMR_1_1ProjectAttributeParams.html":[9,0,0,20,488],
 "structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[9,0,0,20,53],
-"structMR_1_1PythonExport_1_1ModuleData.html":[9,0,0,20,562],
-"structMR_1_1PythonFunctionAdder.html":[9,0,0,20,563]
+"structMR_1_1PythonExport_1_1ModuleData.html":[9,0,0,20,562]
 };

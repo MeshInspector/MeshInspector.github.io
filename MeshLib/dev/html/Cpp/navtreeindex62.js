@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"namespacemembers_vars_o.html":[9,0,1,1,2,12],
 "namespacemembers_vars_p.html":[9,0,1,1,2,13],
 "namespacemembers_vars_q.html":[9,0,1,1,2,14],
 "namespacemembers_vars_r.html":[9,0,1,1,2,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "structMR_1_1CloudPartMapping.html":[9,0,0,20,178],
 "structMR_1_1CmpOld.html":[9,0,0,4,38],
 "structMR_1_1Color.html":[9,0,0,20,180],
-"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[9,0,0,20,182],
-"structMR_1_1CompensateRadiusParams.html":[9,0,0,20,491]
+"structMR_1_1ColorMapAggregator_1_1PartialColorMap.html":[9,0,0,20,182]
 };

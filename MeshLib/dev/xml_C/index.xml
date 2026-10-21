@@ -9665,7 +9665,7 @@
   </compound>
   <compound refid="MRFastWindingNumber_8h" kind="file"><name>MRFastWindingNumber.h</name>
     <member refid="MRFastWindingNumber_8h_1ad55ca9af0874ffb89877bad65ae2859d" kind="typedef"><name>MR_Vector3i</name></member>
-    <member refid="MRFastWindingNumber_8h_1a6c68985feb14bc7a6b70c4fabab378d6" kind="typedef"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int</name></member>
+    <member refid="MRFastWindingNumber_8h_1a73c052dfe667b2a80248f40cb62c6abc" kind="typedef"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int</name></member>
     <member refid="MRFastWindingNumber_8h_1a0ffb387b226b9065fc0db873078ef44a" kind="typedef"><name>MR_IFastWindingNumber</name></member>
     <member refid="MRFastWindingNumber_8h_1a200243313a8febf0af29cf2af80f94d2" kind="typedef"><name>MR_FastWindingNumber</name></member>
     <member refid="MRFastWindingNumber_8h_1ab4d2990d4a188fad54429719f466cf18" kind="typedef"><name>MR_IFastWindingNumberByParts</name></member>
@@ -9698,8 +9698,8 @@
     <member refid="MRFastWindingNumber_8h_1ae536f6040cfe17fd09999620ece0f78e" kind="function"><name>MR_FastWindingNumber_calcFromGridWithDistances</name></member>
     <member refid="MRFastWindingNumber_8h_1acf55d5610d0ebbab030284642e91d3be" kind="function"><name>MR_IFastWindingNumberByParts_Destroy</name></member>
     <member refid="MRFastWindingNumber_8h_1a23925a6a04920c7096c5ac34af77ed77" kind="function"><name>MR_IFastWindingNumberByParts_DestroyArray</name></member>
-    <member refid="MRFastWindingNumber_8h_1a0e124b7e9149394099c4f583f8c94516" kind="function"><name>MR_IFastWindingNumberByParts_calcFromGridByParts</name></member>
-    <member refid="MRFastWindingNumber_8h_1ad3e9d34995e90f01e98dd52e380fb877" kind="function"><name>MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</name></member>
+    <member refid="MRFastWindingNumber_8h_1a624357e054fed21b9307798039c21174" kind="function"><name>MR_IFastWindingNumberByParts_calcFromGridByParts</name></member>
+    <member refid="MRFastWindingNumber_8h_1ab9d3204f51feb50fbbb96d4abe77690b" kind="function"><name>MR_IFastWindingNumberByParts_calcFromGridWithDistancesByParts</name></member>
     <member refid="MRFastWindingNumber_8h_1acd001cd6ff85e66ac410fd888cd9c0e5" kind="function"><name>MR_IFastWindingNumberByParts_OffsetPtr</name></member>
     <member refid="MRFastWindingNumber_8h_1ace99b1178792ffcf3f5e22b95cc454e4" kind="function"><name>MR_IFastWindingNumberByParts_OffsetMutablePtr</name></member>
   </compound>
@@ -25726,10 +25726,10 @@
     <member refid="MRVector_8h_1a934488b75d6eda920bafc3b517c9fcb7" kind="typedef"><name>MR_EdgeColors</name></member>
     <member refid="MRVector_8h_1a5cc8181c87b56f3562062034e813a3e8" kind="typedef"><name>MR_FaceScalars</name></member>
     <member refid="MRVector_8h_1a662f224b393aca434388b95812708076" kind="typedef"><name>MR_EdgeScalars</name></member>
+    <member refid="MRVector_8h_1ab840893a8bc03d3ce990a43ef9077f6c" kind="typedef"><name>MR_VoxelScalars</name></member>
     <member refid="MRVector_8h_1acfa5e8c3565680924a45241d37535bf4" kind="typedef"><name>MR_Vector_std_vector_MR_EdgePoint_MR_VertId</name></member>
     <member refid="MRVector_8h_1a80fad84e355e4740ddb9134b4938463b" kind="typedef"><name>MR_Vector_MR_Nesting_NestingResult_MR_ObjId</name></member>
     <member refid="MRVector_8h_1a7e42fd67a931d22c44ed8ca528b6c4bc" kind="typedef"><name>MR_Vector_MR_Vector2d_MR_VertId</name></member>
-    <member refid="MRVector_8h_1a7af5c730bb24a750ff7132a7e5bcb394" kind="typedef"><name>MR_Vector_float_MR_VoxelId</name></member>
     <member refid="MRVector_8h_1a23954723cff3bf0bc65a70da4fd43dd8" kind="typedef"><name>MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag</name></member>
     <member refid="MRVector_8h_1aa2e4be7874e3375944616dc2b9df4b85" kind="typedef"><name>MR_Vector_MR_Vector_MR_ICPGroupPairs_MR_Id_MR_ICPElemtTag_MR_Id_MR_ICPElemtTag</name></member>
     <member refid="MRVector_8h_1a0c0dd16249d38af8e7b594328132dbd6" kind="typedef"><name>MR_Vector_MR_VertBitSet_MR_ObjId</name></member>
@@ -27283,6 +27283,67 @@
     <member refid="MRVector_8h_1a8fdb1d3d917fa313e25d626890a3fee2" kind="function"><name>MR_begin_MR_UndirectedEdgeScalars_ref</name></member>
     <member refid="MRVector_8h_1a0b7515aad09fc2e124ec7a58c2fe67d5" kind="function"><name>MR_end_const_MR_UndirectedEdgeScalars_ref</name></member>
     <member refid="MRVector_8h_1a23963f9735591d741d665f09d5c4460a" kind="function"><name>MR_end_MR_UndirectedEdgeScalars_ref</name></member>
+    <member refid="MRVector_8h_1a4b7f96122f4a5481b3c62b6bbc884571" kind="function"><name>MR_VoxelScalars_Get_vec</name></member>
+    <member refid="MRVector_8h_1a733583b9b892a39bf921c56ca1ef10c3" kind="function"><name>MR_VoxelScalars_Set_vec</name></member>
+    <member refid="MRVector_8h_1ad909f742fb6683c37e82bef8a4a23ed4" kind="function"><name>MR_VoxelScalars_GetMutable_vec</name></member>
+    <member refid="MRVector_8h_1a21776ef56c6e0ac1c17c088b0e90ea02" kind="function"><name>MR_VoxelScalars_DefaultConstruct</name></member>
+    <member refid="MRVector_8h_1a2c727392d85e01159cdc5afca4ae8d31" kind="function"><name>MR_VoxelScalars_DefaultConstructArray</name></member>
+    <member refid="MRVector_8h_1a8cdd5cccb4e135588bb6e924cb383892" kind="function"><name>MR_VoxelScalars_OffsetPtr</name></member>
+    <member refid="MRVector_8h_1a1778d2fb64c8f45c6635b19b90005a7b" kind="function"><name>MR_VoxelScalars_OffsetMutablePtr</name></member>
+    <member refid="MRVector_8h_1ae38de265744b992cdf2ed8e32b31d503" kind="function"><name>MR_VoxelScalars_ConstructFromAnother</name></member>
+    <member refid="MRVector_8h_1a9fc81d12aa14702ae9f485d3ef4c1a52" kind="function"><name>MR_VoxelScalars_Construct</name></member>
+    <member refid="MRVector_8h_1a28d607f6b73739c34326cfaee1c38fbb" kind="function"><name>MR_VoxelScalars_Construct_fill</name></member>
+    <member refid="MRVector_8h_1ad23e1ae1ae45a609830ed51eac6e50b1" kind="function"><name>MR_VoxelScalars_Destroy</name></member>
+    <member refid="MRVector_8h_1a0f6d6a25bea7b284b3e9f121208cb18c" kind="function"><name>MR_VoxelScalars_DestroyArray</name></member>
+    <member refid="MRVector_8h_1a8d3eb07a6995e966513bc37fefc5c8a6" kind="function"><name>MR_VoxelScalars_AssignFromAnother</name></member>
+    <member refid="MRVector_8h_1a54dc7ec58d2660fcaa065a29825c5d66" kind="function"><name>MR_VoxelScalars_assign</name></member>
+    <member refid="MRVector_8h_1a49ea4b6a0afc667b7e895618d5626749" kind="function"><name>MR_equal_MR_VoxelScalars</name></member>
+    <member refid="MRVector_8h_1aba227a59e5749c0dc905d3425d351231" kind="function"><name>MR_not_equal_MR_VoxelScalars</name></member>
+    <member refid="MRVector_8h_1ae7c9dbb3cba8e95601f1491ecafd9772" kind="function"><name>MR_VoxelScalars_clear</name></member>
+    <member refid="MRVector_8h_1a0704770513e6c48671004e11c2840c10" kind="function"><name>MR_VoxelScalars_empty</name></member>
+    <member refid="MRVector_8h_1a4852421bf719230ea9f4984c0026110a" kind="function"><name>MR_VoxelScalars_size</name></member>
+    <member refid="MRVector_8h_1af7e0667445b09e6926b8532665ca23bd" kind="function"><name>MR_VoxelScalars_max_size</name></member>
+    <member refid="MRVector_8h_1addd4071ce66cbd26f36b7dfbd340d579" kind="function"><name>MR_VoxelScalars_resize_1</name></member>
+    <member refid="MRVector_8h_1ae10ece5b1d0b43790906942fd6e2ef69" kind="function"><name>MR_VoxelScalars_resize_2</name></member>
+    <member refid="MRVector_8h_1a004d3aeecfa8b0120b334b1ba2de8668" kind="function"><name>MR_VoxelScalars_capacity</name></member>
+    <member refid="MRVector_8h_1af904cc070b021d65f989552c410c0093" kind="function"><name>MR_VoxelScalars_reserve</name></member>
+    <member refid="MRVector_8h_1abc99ff86b13d427344cef5209dd65d0a" kind="function"><name>MR_VoxelScalars_shrink_to_fit</name></member>
+    <member refid="MRVector_8h_1aeebd5fc3c0ad337a875e407b1e6d09ca" kind="function"><name>MR_VoxelScalars_index</name></member>
+    <member refid="MRVector_8h_1a786122fee65faa0e1e3bec3eb2e2d247" kind="function"><name>MR_VoxelScalars_index_mut</name></member>
+    <member refid="MRVector_8h_1a004ea818cd5510afd339bd0c6f646d9d" kind="function"><name>MR_VoxelScalars_resizeWithReserve_1</name></member>
+    <member refid="MRVector_8h_1a26a7daa96c729ca3d8d846fcd99dab2c" kind="function"><name>MR_VoxelScalars_resizeWithReserve_2</name></member>
+    <member refid="MRVector_8h_1a508bf1505692c358f30b3182a1cc6e93" kind="function"><name>MR_VoxelScalars_autoResizeSet_3</name></member>
+    <member refid="MRVector_8h_1a4bfda739fd241c4fc1a36d8cbee53f0b" kind="function"><name>MR_VoxelScalars_autoResizeSet_2</name></member>
+    <member refid="MRVector_8h_1aaecbba689e1ca3ae5d51e783a45e6f76" kind="function"><name>MR_VoxelScalars_autoResizeAt</name></member>
+    <member refid="MRVector_8h_1a16417a0f8c4fbb0ff170b9225d954264" kind="function"><name>MR_VoxelScalars_push_back_const_float_ref</name></member>
+    <member refid="MRVector_8h_1ad7edc8cda4d3cf6176c2579f7420c15f" kind="function"><name>MR_VoxelScalars_push_back_float_rvalue_ref</name></member>
+    <member refid="MRVector_8h_1ab955bd3028c1d61a6b6ebcd5c573ce55" kind="function"><name>MR_VoxelScalars_pop_back</name></member>
+    <member refid="MRVector_8h_1aa1a62c5a5454cce890fc86e2fb900d97" kind="function"><name>MR_VoxelScalars_insert_2_const_float_ref</name></member>
+    <member refid="MRVector_8h_1ae485baeef08751c008b358802e41e416" kind="function"><name>MR_VoxelScalars_insert_2_float_rvalue_ref</name></member>
+    <member refid="MRVector_8h_1ad88ed2735dae8dab26826989acb37a93" kind="function"><name>MR_VoxelScalars_insert_3</name></member>
+    <member refid="MRVector_8h_1a13d2e415cdbd83d7bdb331fc552c6fc1" kind="function"><name>MR_VoxelScalars_erase_1</name></member>
+    <member refid="MRVector_8h_1afeaf5a813f9db93bb18632523c00ded6" kind="function"><name>MR_VoxelScalars_erase_2</name></member>
+    <member refid="MRVector_8h_1a83c3866c68b493fbdc69f729a27c4bec" kind="function"><name>MR_VoxelScalars_front</name></member>
+    <member refid="MRVector_8h_1ae2d447d5ad4d82da60e03be07e2d5126" kind="function"><name>MR_VoxelScalars_front_mut</name></member>
+    <member refid="MRVector_8h_1afc782a2236899117ebd11d4074425151" kind="function"><name>MR_VoxelScalars_back</name></member>
+    <member refid="MRVector_8h_1aa2aa9de9e5b18f9dbec2bf43674e31fb" kind="function"><name>MR_VoxelScalars_back_mut</name></member>
+    <member refid="MRVector_8h_1aba118832da4372c1e11d580cf8628154" kind="function"><name>MR_VoxelScalars_beginId</name></member>
+    <member refid="MRVector_8h_1a93ac1ff79b1f64a4f8eb31f273c8d948" kind="function"><name>MR_VoxelScalars_backId</name></member>
+    <member refid="MRVector_8h_1acc5776f48c903032ff65b67ca9e7ab45" kind="function"><name>MR_VoxelScalars_endId</name></member>
+    <member refid="MRVector_8h_1a3aae1eee6476473ebdb9c76c7c20a5a7" kind="function"><name>MR_VoxelScalars_data_mut</name></member>
+    <member refid="MRVector_8h_1ab0ce1096d0680ea600ff8c8480cf1a4d" kind="function"><name>MR_VoxelScalars_data</name></member>
+    <member refid="MRVector_8h_1a74b629f8ebe3d302a61aae96e92daa94" kind="function"><name>MR_VoxelScalars_begin_mut</name></member>
+    <member refid="MRVector_8h_1ad64c1f6afcfb20b5d6615e835d4686d8" kind="function"><name>MR_VoxelScalars_begin</name></member>
+    <member refid="MRVector_8h_1ab2188f6f0d999d906d24bf501b74e868" kind="function"><name>MR_VoxelScalars_cbegin</name></member>
+    <member refid="MRVector_8h_1aed008141c4ce5c09d9a08e178e0b20c6" kind="function"><name>MR_VoxelScalars_end_mut</name></member>
+    <member refid="MRVector_8h_1a785ba00ef3e8e89468f57669fa0e8d62" kind="function"><name>MR_VoxelScalars_end</name></member>
+    <member refid="MRVector_8h_1a91cd53c92fe68b874e587a81f56da383" kind="function"><name>MR_VoxelScalars_cend</name></member>
+    <member refid="MRVector_8h_1accabefb9d8c1cd9be29b7675134889ed" kind="function"><name>MR_VoxelScalars_swap</name></member>
+    <member refid="MRVector_8h_1a65eb27b217903ff9f50911c75e564d16" kind="function"><name>MR_VoxelScalars_heapBytes</name></member>
+    <member refid="MRVector_8h_1a417db58dfc2e9aeb05f27e16a07c7891" kind="function"><name>MR_begin_const_MR_VoxelScalars_ref</name></member>
+    <member refid="MRVector_8h_1adedc492b0605c2e937bac2587c554cb4" kind="function"><name>MR_begin_MR_VoxelScalars_ref</name></member>
+    <member refid="MRVector_8h_1aa922d56d544b0bcff4230439bd0915c8" kind="function"><name>MR_end_const_MR_VoxelScalars_ref</name></member>
+    <member refid="MRVector_8h_1a0c72a88fc87281d706675b9fbf1f89ff" kind="function"><name>MR_end_MR_VoxelScalars_ref</name></member>
     <member refid="MRVector_8h_1af7f73442ea0e3c098605f146710f3d2d" kind="function"><name>MR_Vector_int_MR_FaceId_Get_vec</name></member>
     <member refid="MRVector_8h_1a2f311e2de6c2b4de8ba3936064ee0e94" kind="function"><name>MR_Vector_int_MR_FaceId_Set_vec</name></member>
     <member refid="MRVector_8h_1a51e6a9d917520a26011f2145f9d7aa43" kind="function"><name>MR_Vector_int_MR_FaceId_GetMutable_vec</name></member>
@@ -28249,67 +28310,6 @@
     <member refid="MRVector_8h_1a555326849765b450dbc5e7b7c5c9ace7" kind="function"><name>MR_begin_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
     <member refid="MRVector_8h_1a3f0c36b9ecf0d3e089b05362c75b11c8" kind="function"><name>MR_end_const_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
     <member refid="MRVector_8h_1a2eab1ab3490dbd564153681193ca038b" kind="function"><name>MR_end_MR_Vector_MR_Vector2d_MR_VertId_ref</name></member>
-    <member refid="MRVector_8h_1a4214f836745053b257938477c47f9c8f" kind="function"><name>MR_Vector_float_MR_VoxelId_Get_vec</name></member>
-    <member refid="MRVector_8h_1a02a6daffa81084bdb7ac308dadf35aef" kind="function"><name>MR_Vector_float_MR_VoxelId_Set_vec</name></member>
-    <member refid="MRVector_8h_1a45bf1fba00f506b0dd1d9e66df54c77f" kind="function"><name>MR_Vector_float_MR_VoxelId_GetMutable_vec</name></member>
-    <member refid="MRVector_8h_1a31c89e2329a66d92c14774ff8ee8484a" kind="function"><name>MR_Vector_float_MR_VoxelId_DefaultConstruct</name></member>
-    <member refid="MRVector_8h_1a01dc49325419ad0a3db0f660b6b5722f" kind="function"><name>MR_Vector_float_MR_VoxelId_DefaultConstructArray</name></member>
-    <member refid="MRVector_8h_1afaf32489e6038d760b0e6b7e9fa5ba43" kind="function"><name>MR_Vector_float_MR_VoxelId_OffsetPtr</name></member>
-    <member refid="MRVector_8h_1a8c03b4dff895b38d44a6a9f67e1c8f89" kind="function"><name>MR_Vector_float_MR_VoxelId_OffsetMutablePtr</name></member>
-    <member refid="MRVector_8h_1a30547c998324138e1a54bb974e7188df" kind="function"><name>MR_Vector_float_MR_VoxelId_ConstructFromAnother</name></member>
-    <member refid="MRVector_8h_1aebd3e3857a0c36d8cf0a82abb02fa62b" kind="function"><name>MR_Vector_float_MR_VoxelId_Construct</name></member>
-    <member refid="MRVector_8h_1a3529eff67f68e115f8515e7b42c6ff3c" kind="function"><name>MR_Vector_float_MR_VoxelId_Construct_fill</name></member>
-    <member refid="MRVector_8h_1a4e32b498f2e33fde4134bb5e1e5a4c2d" kind="function"><name>MR_Vector_float_MR_VoxelId_Destroy</name></member>
-    <member refid="MRVector_8h_1a9dc084ad0eea99ce469947e8c2e4c362" kind="function"><name>MR_Vector_float_MR_VoxelId_DestroyArray</name></member>
-    <member refid="MRVector_8h_1a788b3c35bd36bc9fab08a97c635689de" kind="function"><name>MR_Vector_float_MR_VoxelId_AssignFromAnother</name></member>
-    <member refid="MRVector_8h_1ac8d0dee0a9f11024ba64baa1a053ab32" kind="function"><name>MR_Vector_float_MR_VoxelId_assign</name></member>
-    <member refid="MRVector_8h_1a1caa1425e9a331dcbad5f15b38fa9730" kind="function"><name>MR_equal_MR_Vector_float_MR_VoxelId</name></member>
-    <member refid="MRVector_8h_1a1de1902ec8b0201c7dd2db44651b395b" kind="function"><name>MR_not_equal_MR_Vector_float_MR_VoxelId</name></member>
-    <member refid="MRVector_8h_1a44dd838cc20b184b0e7a049e6929bbc7" kind="function"><name>MR_Vector_float_MR_VoxelId_clear</name></member>
-    <member refid="MRVector_8h_1a3447a0f8b3d48b21471bfa206013dd29" kind="function"><name>MR_Vector_float_MR_VoxelId_empty</name></member>
-    <member refid="MRVector_8h_1af80a2848dfe7f70503cc9ded37e0b5b0" kind="function"><name>MR_Vector_float_MR_VoxelId_size</name></member>
-    <member refid="MRVector_8h_1a9b43090e5a05df4a661ed18e63ea0437" kind="function"><name>MR_Vector_float_MR_VoxelId_max_size</name></member>
-    <member refid="MRVector_8h_1aff41bf17018da5264b4f8a69978058f4" kind="function"><name>MR_Vector_float_MR_VoxelId_resize_1</name></member>
-    <member refid="MRVector_8h_1adcff47697b7e8f6c4aae7b631a46c84a" kind="function"><name>MR_Vector_float_MR_VoxelId_resize_2</name></member>
-    <member refid="MRVector_8h_1a9ff3a24338613d7daef024cb40426fdc" kind="function"><name>MR_Vector_float_MR_VoxelId_capacity</name></member>
-    <member refid="MRVector_8h_1a7fca446c648eae06fa0a9915d4b03e90" kind="function"><name>MR_Vector_float_MR_VoxelId_reserve</name></member>
-    <member refid="MRVector_8h_1a9346285951cdeec11862204d759b68d7" kind="function"><name>MR_Vector_float_MR_VoxelId_shrink_to_fit</name></member>
-    <member refid="MRVector_8h_1ade97d99459e2c6c91f926598ae603715" kind="function"><name>MR_Vector_float_MR_VoxelId_index</name></member>
-    <member refid="MRVector_8h_1ad00b1fbf1a547a6185ed8f9d07aef72d" kind="function"><name>MR_Vector_float_MR_VoxelId_index_mut</name></member>
-    <member refid="MRVector_8h_1ae3e3793b552b9983f0a80efd730453ff" kind="function"><name>MR_Vector_float_MR_VoxelId_resizeWithReserve_1</name></member>
-    <member refid="MRVector_8h_1a06ab839cc7b20818685ddd7fdfa7f6ca" kind="function"><name>MR_Vector_float_MR_VoxelId_resizeWithReserve_2</name></member>
-    <member refid="MRVector_8h_1a1da8b5ea05e4e081c0b44983a7f6febb" kind="function"><name>MR_Vector_float_MR_VoxelId_autoResizeSet_3</name></member>
-    <member refid="MRVector_8h_1aec43042037e290b166dd48b6927354c4" kind="function"><name>MR_Vector_float_MR_VoxelId_autoResizeSet_2</name></member>
-    <member refid="MRVector_8h_1a799e90463d10305a79672a1dcb65d604" kind="function"><name>MR_Vector_float_MR_VoxelId_autoResizeAt</name></member>
-    <member refid="MRVector_8h_1a8cf1c7bf774f2e9de0636ab13786d080" kind="function"><name>MR_Vector_float_MR_VoxelId_push_back_const_float_ref</name></member>
-    <member refid="MRVector_8h_1a14e6be7db409da9cf86aa330140d55ec" kind="function"><name>MR_Vector_float_MR_VoxelId_push_back_float_rvalue_ref</name></member>
-    <member refid="MRVector_8h_1a8776e0c126e054538c3f2a598f62d2e8" kind="function"><name>MR_Vector_float_MR_VoxelId_pop_back</name></member>
-    <member refid="MRVector_8h_1afb62abc0d462b675f7c31098310ce1e2" kind="function"><name>MR_Vector_float_MR_VoxelId_insert_2_const_float_ref</name></member>
-    <member refid="MRVector_8h_1a4fb62ace82e530c95872748998b4ffc3" kind="function"><name>MR_Vector_float_MR_VoxelId_insert_2_float_rvalue_ref</name></member>
-    <member refid="MRVector_8h_1ada3882995ad589c0eea81a675fec8e16" kind="function"><name>MR_Vector_float_MR_VoxelId_insert_3</name></member>
-    <member refid="MRVector_8h_1a8c68db7bd2174a23c0eaa49e22ca716d" kind="function"><name>MR_Vector_float_MR_VoxelId_erase_1</name></member>
-    <member refid="MRVector_8h_1aeea09d4b0e6ae75e740af7120f67894a" kind="function"><name>MR_Vector_float_MR_VoxelId_erase_2</name></member>
-    <member refid="MRVector_8h_1a4d50b90da043bb3e95ebe1600cdd79dd" kind="function"><name>MR_Vector_float_MR_VoxelId_front</name></member>
-    <member refid="MRVector_8h_1a7134289c434622cdc39b96fbef3125e0" kind="function"><name>MR_Vector_float_MR_VoxelId_front_mut</name></member>
-    <member refid="MRVector_8h_1aa153927d3b7d904e8dd791d100091283" kind="function"><name>MR_Vector_float_MR_VoxelId_back</name></member>
-    <member refid="MRVector_8h_1a22782c215387f7b0a766b14e30bb3ea3" kind="function"><name>MR_Vector_float_MR_VoxelId_back_mut</name></member>
-    <member refid="MRVector_8h_1a1da86c590aefc61e3fafe7db36213d45" kind="function"><name>MR_Vector_float_MR_VoxelId_beginId</name></member>
-    <member refid="MRVector_8h_1aef6962319fdf36756295b19e252b7141" kind="function"><name>MR_Vector_float_MR_VoxelId_backId</name></member>
-    <member refid="MRVector_8h_1a143647c9be6698cb3a76b8c8d189475c" kind="function"><name>MR_Vector_float_MR_VoxelId_endId</name></member>
-    <member refid="MRVector_8h_1a543e6414ee018f8552a626c0079f1512" kind="function"><name>MR_Vector_float_MR_VoxelId_data_mut</name></member>
-    <member refid="MRVector_8h_1a14352e2d0a840f2ad5210af2e07bf04c" kind="function"><name>MR_Vector_float_MR_VoxelId_data</name></member>
-    <member refid="MRVector_8h_1a268e68b7e6da446911c1cfbb0b217ff5" kind="function"><name>MR_Vector_float_MR_VoxelId_begin_mut</name></member>
-    <member refid="MRVector_8h_1a242cfbce72f66de03de87e9581d16c8a" kind="function"><name>MR_Vector_float_MR_VoxelId_begin</name></member>
-    <member refid="MRVector_8h_1acafdb2b265091769740c7b15b79a6c85" kind="function"><name>MR_Vector_float_MR_VoxelId_cbegin</name></member>
-    <member refid="MRVector_8h_1a3d83c3c4b8a96cddea1f28df2ab0950a" kind="function"><name>MR_Vector_float_MR_VoxelId_end_mut</name></member>
-    <member refid="MRVector_8h_1ab7a737579ebf7bad3adebe1879d9826b" kind="function"><name>MR_Vector_float_MR_VoxelId_end</name></member>
-    <member refid="MRVector_8h_1a62dfc6d88fd13fd3f4b4a45fbca92270" kind="function"><name>MR_Vector_float_MR_VoxelId_cend</name></member>
-    <member refid="MRVector_8h_1a27cbcd070a689ecae024500981acff4c" kind="function"><name>MR_Vector_float_MR_VoxelId_swap</name></member>
-    <member refid="MRVector_8h_1a3b22b9f5304e2a621974f8f5259ffae7" kind="function"><name>MR_Vector_float_MR_VoxelId_heapBytes</name></member>
-    <member refid="MRVector_8h_1af177e5114268911bb1ad65276aea1dd0" kind="function"><name>MR_begin_const_MR_Vector_float_MR_VoxelId_ref</name></member>
-    <member refid="MRVector_8h_1a90c191512969a7887dfc85040f90a2a3" kind="function"><name>MR_begin_MR_Vector_float_MR_VoxelId_ref</name></member>
-    <member refid="MRVector_8h_1a11231211831c7c83fa575a8a71f48128" kind="function"><name>MR_end_const_MR_Vector_float_MR_VoxelId_ref</name></member>
-    <member refid="MRVector_8h_1a509ba526e4879d7ae9dd35f68bea9392" kind="function"><name>MR_end_MR_Vector_float_MR_VoxelId_ref</name></member>
     <member refid="MRVector_8h_1aae70bf1e174594dc989a1bcea2efca0b" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Get_vec</name></member>
     <member refid="MRVector_8h_1a531583520aa7fe9817bd646f4becd1cb" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_Set_vec</name></member>
     <member refid="MRVector_8h_1a0c1ea6610cfd41ce96ead3f44bf62ef2" kind="function"><name>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId_GetMutable_vec</name></member>
@@ -34963,22 +34963,22 @@
     <member refid="std__function__expected__void__std__string__from__const__std__string__ref__std__vector__char__rvalue__ref_8h_1a2b07b48c6dfde87419194355f0fb58e4" kind="function"><name>MR_std_function_expected_void_std_string_from_const_std_string_ref_std_vector_char_rvalue_ref_ConstructEx</name></member>
     <member refid="std__function__expected__void__std__string__from__const__std__string__ref__std__vector__char__rvalue__ref_8h_1a29bc5b6d1e1d9be9d7783cfaa4b4f7f5" kind="function"><name>MR_std_function_expected_void_std_string_from_const_std_string_ref_std_vector_char_rvalue_ref_AssignEx</name></member>
   </compound>
-  <compound refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h" kind="file"><name>std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Ve__2dde.h</name>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a7945535f0fa899e34247c2a455a3396c" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_DefaultConstruct</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1aba7ba01aac0c73c008df41fb54b7048a" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_DefaultConstructArray</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a953ab91c5ad666da62cca94156120fe4" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_ConstructFromAnother</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a7ec22ab682f35bea0150d6445d87594f" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_AssignFromAnother</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a0bd8509f22e6a5c5d011917be6a87d6e" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_Destroy</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1aa98d924fcb3035f6be3dd5c522183f1c" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_DestroyArray</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1aeda144faaef7c64d12ca3304ac0590b6" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_OffsetPtr</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a718f79b466cae6c808c5f825b4ada8e5" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_OffsetMutablePtr</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a91a6eef48c3aec5dec5c672ae099b66c" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_has_value</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a0f5e7c5f4a0bf1e0078ba0a49e454e70" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_reset</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1ab8a811ed17e1ce865f83d56d8d74356f" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_call</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a191f38a40461cf0b74f6308e60ad8bb7" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_ConstructStateless</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a3e5fd8e692c19b1790d7f35f787d1d3c" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_Assign</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a757bb65716911685ba89817d5a121bc8" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_ConstructEx</name></member>
-    <member refid="std__function__expected__void__std__string__from__MR__Vector__float__MR__VoxelId__rvalue__ref__const__MR__Ve____2dde_8h_1a9255dc2e30219514d0e930f9802dd896" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_Vector_float_MR_VoxelId_rvalue_ref_const_MR_Vector3i_ref_int_AssignEx</name></member>
+  <compound refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h" kind="file"><name>std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref___1ddf.h</name>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1ab2d9c83952567c1907caa37da74136cb" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_DefaultConstruct</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a1d8d3a7385b50f90ffec5d438e4dbe58" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_DefaultConstructArray</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1aec8d58051ee27b9bc9acd39fb6fd1ec8" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_ConstructFromAnother</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a8dfa18db06b06269c664b3e51d427f57" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_AssignFromAnother</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1ad8ea70ae8a3ac5856cee9764851ac084" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_Destroy</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1ae71aa36df5be958dea6eda7b94851b4d" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_DestroyArray</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1aafec4840e3eb3b8c9a57149fcf8db3af" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_OffsetPtr</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1afe6cc9b52bfc95ac337810da50c0ca64" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_OffsetMutablePtr</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a0f20c12eb1d016c5ebbd5c83a8593ead" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_has_value</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a1ae3c4d9c93f5ead303fb7c17c758046" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_reset</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a62235fa677b48169bf2b9c1642f776e0" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_call</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a6b8cdec19b6941bfadbb92c054a49c63" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_ConstructStateless</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1ad17954469b949a0d76ae1f4cab3d9d82" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_Assign</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1a3512854ba5b5f816dd4c91e5d4549369" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_ConstructEx</name></member>
+    <member refid="std__function__expected__void__std__string__from__MR__VoxelScalars__rvalue__ref__const__MR__Vector3i__ref______1ddf_8h_1aa5ea4771bca40a9a68ebe2afe4dd5f9a" kind="function"><name>MR_std_function_expected_void_std_string_from_MR_VoxelScalars_rvalue_ref_const_MR_Vector3i_ref_int_AssignEx</name></member>
   </compound>
   <compound refid="std__function__float__from__const__char__ptr_8h" kind="file"><name>std_function_float_from_const_char_ptr.h</name>
     <member refid="std__function__float__from__const__char__ptr_8h_1a542450af33ce5aa991c6e4c53318c744" kind="function"><name>MR_std_function_float_from_const_char_ptr_DefaultConstruct</name></member>
@@ -54535,15 +54535,15 @@
   <compound refid="MRVoxelsVolume_8h" kind="file"><name>MRVoxelsVolume.h</name>
     <member refid="MRVoxelsVolume_8h_1a480ce5e5c2dfe6c859cc7a844065c5fa" kind="typedef"><name>MR_FunctionVolumeU8</name></member>
     <member refid="MRVoxelsVolume_8h_1a8adc9b97c5e21a2a5100eed8d268976f" kind="typedef"><name>MR_VoxelsVolume_MR_FloatGrid</name></member>
-    <member refid="MRVoxelsVolume_8h_1a7a91e8ea51f3468e67f3640aa4abad0a" kind="typedef"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId</name></member>
+    <member refid="MRVoxelsVolume_8h_1a26cdfa4dbf798cf18ee5745b6a66cb57" kind="typedef"><name>MR_VoxelTraits_MR_VoxelScalars</name></member>
     <member refid="MRVoxelsVolume_8h_1a0c6b42498dd845fecb8f2000c2aa556b" kind="typedef"><name>MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId</name></member>
     <member refid="MRVoxelsVolume_8h_1a56e45c73fb116950aaaedbfed4a00f21" kind="typedef"><name>MR_VoxelTraits_std_function_float_func_from_const_MR_Vector3i_ref</name></member>
     <member refid="MRVoxelsVolume_8h_1a32ef4ac990d7a11b11f0d455bcd3a2cc" kind="typedef"><name>MR_VoxelTraits_std_function_unsigned_char_func_from_const_MR_Vector3i_ref</name></member>
     <member refid="MRVoxelsVolume_8h_1abfcf4cfeba77de4632d7c9efff3cc8d2" kind="typedef"><name>MR_VoxelTraits_MR_VoxelBitSet</name></member>
     <member refid="MRVoxelsVolume_8h_1aed461f0469dbc005bc426e8aed486b98" kind="typedef"><name>MR_VoxelTraits_MR_FloatGrid</name></member>
-    <member refid="MRVoxelsVolume_8h_1a6225cd347d72eb5792a1dba5e507fee0" kind="function"><name>MR_SimpleVolumeMinMax_Get_data</name></member>
-    <member refid="MRVoxelsVolume_8h_1a9cd2f3c0d6098d4b19cb1204699bf212" kind="function"><name>MR_SimpleVolumeMinMax_Set_data</name></member>
-    <member refid="MRVoxelsVolume_8h_1a220b802d9c319e5eda7b29e6f1c94975" kind="function"><name>MR_SimpleVolumeMinMax_GetMutable_data</name></member>
+    <member refid="MRVoxelsVolume_8h_1a20ac829535e743f3799af8dac9ae9d12" kind="function"><name>MR_SimpleVolumeMinMax_Get_data</name></member>
+    <member refid="MRVoxelsVolume_8h_1a5273c1bff6cc4c87cbe9d78e1ddf7708" kind="function"><name>MR_SimpleVolumeMinMax_Set_data</name></member>
+    <member refid="MRVoxelsVolume_8h_1a52f548e2c2851edd75c6d9ad60ae695c" kind="function"><name>MR_SimpleVolumeMinMax_GetMutable_data</name></member>
     <member refid="MRVoxelsVolume_8h_1ab62adb7989acd9d557e420ae16353da6" kind="function"><name>MR_SimpleVolumeMinMax_Get_dims</name></member>
     <member refid="MRVoxelsVolume_8h_1a7c640acca6e213f434ff987dac37eb04" kind="function"><name>MR_SimpleVolumeMinMax_Set_dims</name></member>
     <member refid="MRVoxelsVolume_8h_1ac78f1a7061bee3a5e20d2cae21306c31" kind="function"><name>MR_SimpleVolumeMinMax_GetMutable_dims</name></member>
@@ -54732,9 +54732,9 @@
     <member refid="MRVoxelsVolume_8h_1a375501131abfea854523a1bb4cf906ac" kind="function"><name>MR_FunctionVolumeU8_DestroyArray</name></member>
     <member refid="MRVoxelsVolume_8h_1aa4089449b2096425a82f0c932d1af002" kind="function"><name>MR_FunctionVolumeU8_AssignFromAnother</name></member>
     <member refid="MRVoxelsVolume_8h_1a2483238c3062d4139ddba18d33dee303" kind="function"><name>MR_FunctionVolumeU8_heapBytes</name></member>
-    <member refid="MRVoxelsVolume_8h_1a1863d022ebb3cbb89bed0bf2cf00a59d" kind="function"><name>MR_SimpleVolume_Get_data</name></member>
-    <member refid="MRVoxelsVolume_8h_1a15341e1d820a5d2f69ee92458b9ea7ed" kind="function"><name>MR_SimpleVolume_Set_data</name></member>
-    <member refid="MRVoxelsVolume_8h_1a16115ad4b2efe1de307fe9cb55637b27" kind="function"><name>MR_SimpleVolume_GetMutable_data</name></member>
+    <member refid="MRVoxelsVolume_8h_1a18df89fb3c2695778ac5dd042a1d1698" kind="function"><name>MR_SimpleVolume_Get_data</name></member>
+    <member refid="MRVoxelsVolume_8h_1a8ecb433c557e142e3aad108700709cd3" kind="function"><name>MR_SimpleVolume_Set_data</name></member>
+    <member refid="MRVoxelsVolume_8h_1a8773039083e34f9fe01ecbb5e7c23e9f" kind="function"><name>MR_SimpleVolume_GetMutable_data</name></member>
     <member refid="MRVoxelsVolume_8h_1a48abbb4b9a4decd8e4f55b519dee08bd" kind="function"><name>MR_SimpleVolume_Get_dims</name></member>
     <member refid="MRVoxelsVolume_8h_1ae970eb02af078468271980a97acc0268" kind="function"><name>MR_SimpleVolume_Set_dims</name></member>
     <member refid="MRVoxelsVolume_8h_1a9ef2d2cac733ae70ad5f8f7732e856cf" kind="function"><name>MR_SimpleVolume_GetMutable_dims</name></member>
@@ -54743,7 +54743,7 @@
     <member refid="MRVoxelsVolume_8h_1a20395cf778d71cb076cf8fce93f424d2" kind="function"><name>MR_SimpleVolume_GetMutable_voxelSize</name></member>
     <member refid="MRVoxelsVolume_8h_1a916878729239931a11e55698449038b4" kind="function"><name>MR_SimpleVolume_DefaultConstruct</name></member>
     <member refid="MRVoxelsVolume_8h_1a71a76af284e66b9bf446a53acf840a1e" kind="function"><name>MR_SimpleVolume_DefaultConstructArray</name></member>
-    <member refid="MRVoxelsVolume_8h_1a1df3d1766afc3bddc3e4294234ab5c73" kind="function"><name>MR_SimpleVolume_ConstructFrom</name></member>
+    <member refid="MRVoxelsVolume_8h_1ac55c0a81fdfb564f39a8987e90b8fbd2" kind="function"><name>MR_SimpleVolume_ConstructFrom</name></member>
     <member refid="MRVoxelsVolume_8h_1a744fece999d4a95bebf234c8f7054e83" kind="function"><name>MR_SimpleVolume_OffsetPtr</name></member>
     <member refid="MRVoxelsVolume_8h_1a702d83327fd16ac8d34cddd6d6202281" kind="function"><name>MR_SimpleVolume_OffsetMutablePtr</name></member>
     <member refid="MRVoxelsVolume_8h_1a45182f65dce06c2df07a26045a192a64" kind="function"><name>MR_SimpleVolume_ConstructFromAnother</name></member>
@@ -54808,14 +54808,14 @@
     <member refid="MRVoxelsVolume_8h_1a69f9f5ca441c201c1ec101ed85a27113" kind="function"><name>MR_VoxelsVolume_MR_FloatGrid_DestroyArray</name></member>
     <member refid="MRVoxelsVolume_8h_1aadfe3ce2b246d773173ee5e6ae7762ab" kind="function"><name>MR_VoxelsVolume_MR_FloatGrid_AssignFromAnother</name></member>
     <member refid="MRVoxelsVolume_8h_1a18936423baa1d7384414952fffd5f124" kind="function"><name>MR_VoxelsVolume_MR_FloatGrid_heapBytes</name></member>
-    <member refid="MRVoxelsVolume_8h_1a98a2d36eb842b0ccca657a851370f149" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstruct</name></member>
-    <member refid="MRVoxelsVolume_8h_1ad939b20bf10b206f0641a647ae932dae" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DefaultConstructArray</name></member>
-    <member refid="MRVoxelsVolume_8h_1a5826ff44655600e5351b181c69d5c9f8" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetPtr</name></member>
-    <member refid="MRVoxelsVolume_8h_1a34ad06617ba17f58a5becb800e93a077" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_OffsetMutablePtr</name></member>
-    <member refid="MRVoxelsVolume_8h_1af0a9f5595dce0d7ef038e8823fb46f9d" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_ConstructFromAnother</name></member>
-    <member refid="MRVoxelsVolume_8h_1afcf17f1c2863bc0a40f4f684cc6ca31f" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_Destroy</name></member>
-    <member refid="MRVoxelsVolume_8h_1a674b664308c09a91947d73f2eb6942f1" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_DestroyArray</name></member>
-    <member refid="MRVoxelsVolume_8h_1a8cd9a6ceea0e8d323f888c693fde98f3" kind="function"><name>MR_VoxelTraits_MR_Vector_float_MR_VoxelId_AssignFromAnother</name></member>
+    <member refid="MRVoxelsVolume_8h_1ae22fbd9dfbb3d5aee09431b874e3eec5" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_DefaultConstruct</name></member>
+    <member refid="MRVoxelsVolume_8h_1a6ea5d4a339ffe6f99d68b6ea021c1d50" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_DefaultConstructArray</name></member>
+    <member refid="MRVoxelsVolume_8h_1a4d6e8d7f3acaa7ec1cc2875e0c20feda" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_OffsetPtr</name></member>
+    <member refid="MRVoxelsVolume_8h_1af648edcdc9c3310bef358862515b1b51" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_OffsetMutablePtr</name></member>
+    <member refid="MRVoxelsVolume_8h_1a52a3b7624e0e6f15df90a3251d321ffb" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_ConstructFromAnother</name></member>
+    <member refid="MRVoxelsVolume_8h_1ac9692bd477a298a12359b8eb7b3b41e1" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_Destroy</name></member>
+    <member refid="MRVoxelsVolume_8h_1a58eb1b7ae1895486b3ed79a285ef5a65" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_DestroyArray</name></member>
+    <member refid="MRVoxelsVolume_8h_1aeb4bb6af02ed89ee0c282c990514a147" kind="function"><name>MR_VoxelTraits_MR_VoxelScalars_AssignFromAnother</name></member>
     <member refid="MRVoxelsVolume_8h_1a77c9b90ffd9883461691dbfc362cde5e" kind="function"><name>MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId_DefaultConstruct</name></member>
     <member refid="MRVoxelsVolume_8h_1a108cb0afa18eba8866015ac6a7ff2228" kind="function"><name>MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId_DefaultConstructArray</name></member>
     <member refid="MRVoxelsVolume_8h_1a114aae3def84aa2ecbd4ca2554a5b15e" kind="function"><name>MR_VoxelTraits_MR_Vector_unsigned_short_MR_VoxelId_OffsetPtr</name></member>
@@ -55128,8 +55128,8 @@
     <member refid="MRCudaFastWindingNumber_8h_1ab843c9b99a18533fa32decb590fd52fd" kind="function"><name>MR_Cuda_FastWindingNumber_calcSelfIntersections</name></member>
     <member refid="MRCudaFastWindingNumber_8h_1a4262a948713c30fed9d6dfcf80e2b400" kind="function"><name>MR_Cuda_FastWindingNumber_calcFromGrid</name></member>
     <member refid="MRCudaFastWindingNumber_8h_1a559b18236cd81fd3ab4d418774fd697c" kind="function"><name>MR_Cuda_FastWindingNumber_calcFromGridWithDistances</name></member>
-    <member refid="MRCudaFastWindingNumber_8h_1a8be5e89e3c2997339cc17a7281ed7ff1" kind="function"><name>MR_Cuda_FastWindingNumber_calcFromGridByParts</name></member>
-    <member refid="MRCudaFastWindingNumber_8h_1a8a4aebbb4af32c1627ac7c2aee7ff861" kind="function"><name>MR_Cuda_FastWindingNumber_calcFromGridWithDistancesByParts</name></member>
+    <member refid="MRCudaFastWindingNumber_8h_1add859e58225ba11dbc6e984daed4e01d" kind="function"><name>MR_Cuda_FastWindingNumber_calcFromGridByParts</name></member>
+    <member refid="MRCudaFastWindingNumber_8h_1a3c4cbf1ae852de6e6d4c692484f51096" kind="function"><name>MR_Cuda_FastWindingNumber_calcFromGridWithDistancesByParts</name></member>
   </compound>
   <compound refid="MRCudaMeshDistanceMap_8h" kind="file"><name>MRCudaMeshDistanceMap.h</name>
     <member refid="MRCudaMeshDistanceMap_8h_1aa9dd662e7996818e2ea8b44516892b41" kind="function"><name>MR_Cuda_computeDistanceMap</name></member>

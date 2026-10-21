@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1TouchpadSwipeGestureBeginListener.html":[9,0,0,20,823],
 "structMR_1_1TouchpadSwipeGestureEndListener.html":[9,0,0,20,825],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html":[9,0,0,20,824],
 "structMR_1_1TouchpadZoomGestureBeginListener.html":[9,0,0,20,826],
@@ -234,11 +235,11 @@ var NAVTREEINDEX70 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[9,0,0,1,18,0,1],
 "structMR_1_1Vector2.html":[9,0,0,0,12,0],
 "structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,0,0,12,0,41],
-"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,1,0,1,2946],
+"structMR_1_1Vector2.html#a032f22a51118a92560ace51190d8eb0d":[9,0,1,0,1,2947],
 "structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[9,0,0,0,12,0,42],
 "structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[9,0,0,0,12,0,4],
 "structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,0,0,12,0,21],
-"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,1,0,1,1624],
+"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d":[9,0,1,0,1,1625],
 "structMR_1_1Vector2.html#a0951427bd63b33bfd7c4ae388753d319":[9,0,0,0,12,0,26],
 "structMR_1_1Vector2.html#a0e1305674b24cfc7ac3054b3e9561b44":[9,0,0,0,12,0,24],
 "structMR_1_1Vector2.html#a1d6b8b54858c91277b9c4999e6350855":[9,0,0,0,12,0,17],
@@ -247,7 +248,6 @@ var NAVTREEINDEX70 =
 "structMR_1_1Vector2.html#a344bd19e0a6d0ddfd67e5739333a38cd":[9,0,0,0,12,0,32],
 "structMR_1_1Vector2.html#a355c1691ed2db85225bea3e3db37a904":[9,0,0,0,12,0,28],
 "structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[9,0,0,0,12,0,18],
-"structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[9,0,1,0,1,1490],
-"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[9,0,0,0,12,0,2],
-"structMR_1_1Vector2.html#a4f4e721384be597d0f5a0ff303e07c48":[9,0,0,0,12,0,37]
+"structMR_1_1Vector2.html#a3e532c0fca60fc9935f8394188cc2f28":[9,0,1,0,1,1491],
+"structMR_1_1Vector2.html#a419f18cb7af20ab8455495874cefbd9d":[9,0,0,0,12,0,2]
 };

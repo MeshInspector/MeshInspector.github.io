@@ -2,9 +2,9 @@ var MRCudaFastWindingNumber_8h =
 [
     [ "MR_Cuda_FastWindingNumber", "MRCudaFastWindingNumber_8h.html#a5941dcae8601d36e1daaa6f014b43ad5", null ],
     [ "MR_Cuda_FastWindingNumber_calcFromGrid", "MRCudaFastWindingNumber_8h.html#a4262a948713c30fed9d6dfcf80e2b400", null ],
-    [ "MR_Cuda_FastWindingNumber_calcFromGridByParts", "MRCudaFastWindingNumber_8h.html#a8be5e89e3c2997339cc17a7281ed7ff1", null ],
+    [ "MR_Cuda_FastWindingNumber_calcFromGridByParts", "MRCudaFastWindingNumber_8h.html#add859e58225ba11dbc6e984daed4e01d", null ],
     [ "MR_Cuda_FastWindingNumber_calcFromGridWithDistances", "MRCudaFastWindingNumber_8h.html#a559b18236cd81fd3ab4d418774fd697c", null ],
-    [ "MR_Cuda_FastWindingNumber_calcFromGridWithDistancesByParts", "MRCudaFastWindingNumber_8h.html#a8a4aebbb4af32c1627ac7c2aee7ff861", null ],
+    [ "MR_Cuda_FastWindingNumber_calcFromGridWithDistancesByParts", "MRCudaFastWindingNumber_8h.html#a3c4cbf1ae852de6e6d4c692484f51096", null ],
     [ "MR_Cuda_FastWindingNumber_calcFromVector", "MRCudaFastWindingNumber_8h.html#a640a8be847214874037b8e1833b74530", null ],
     [ "MR_Cuda_FastWindingNumber_calcSelfIntersections", "MRCudaFastWindingNumber_8h.html#ab843c9b99a18533fa32decb590fd52fd", null ],
     [ "MR_Cuda_FastWindingNumber_Construct", "MRCudaFastWindingNumber_8h.html#aaffa8d847ba54f244fd2ccb08f114502", null ],

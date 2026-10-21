@@ -6,9 +6,9 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1SimpleVolume" prot="public" virt="non-virtual">MR.SimpleVolume</derivedcompoundref>
     <sectiondef kind="property">
-      <memberdef kind="property" id="classMR_1_1Const__SimpleVolume_1a6e5727ee430fc6a3077da4e81f59d4c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
-        <type>unsafe <ref refid="classMR_1_1Const__Vector__Float__MRVoxelId" kindref="compound">MR.Const_Vector_Float_MRVoxelId</ref></type>
-        <definition>unsafe MR.Const_Vector_Float_MRVoxelId MR.Const_SimpleVolume.data</definition>
+      <memberdef kind="property" id="classMR_1_1Const__SimpleVolume_1aeedc151be666cace041b14a11eb3d398" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VoxelScalars" kindref="compound">MR.Const_VoxelScalars</ref></type>
+        <definition>unsafe MR.Const_VoxelScalars MR.Const_SimpleVolume.data</definition>
         <argsstring></argsstring>
         <name>data</name>
         <qualifiedname>MR.Const_SimpleVolume.data</qualifiedname>
@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2367" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2367" bodyend="2367"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2367" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2367" bodyend="2367"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1Const__SimpleVolume_1a03253b88b13b49dad161f833bfc7ef19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -129,14 +129,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2407" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2407" bodyend="2411"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1af56c9afcb03539477f311c8810254c6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1a24a237d9811cbfc04043dd01c55b0ad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.Const_SimpleVolume.Const_SimpleVolume</definition>
-        <argsstring>(MR._ByValue_Vector_Float_MRVoxelId data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
+        <argsstring>(MR._ByValue_VoxelScalars data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
         <name>Const_SimpleVolume</name>
         <qualifiedname>MR.Const_SimpleVolume.Const_SimpleVolume</qualifiedname>
         <param>
-          <type>MR._ByValue_Vector_Float_MRVoxelId</type>
+          <type>MR._ByValue_VoxelScalars</type>
           <declname>data</declname>
         </param>
         <param>
@@ -270,10 +270,10 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1aafbc50853f7b4918f2a22b9fa0d3fb67" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1a2dc852a46d4ce036ffa834033a82f39b" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe MR.SimpleVolume._Underlying *</type>
         <definition>static unsafe MR.SimpleVolume._Underlying * MR.Const_SimpleVolume.__MR_SimpleVolume_ConstructFrom</definition>
-        <argsstring>(MR.Misc._PassBy data_pass_by, MR.Vector_Float_MRVoxelId._Underlying *data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
+        <argsstring>(MR.Misc._PassBy data_pass_by, MR.VoxelScalars._Underlying *data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
         <name>__MR_SimpleVolume_ConstructFrom</name>
         <qualifiedname>MR.Const_SimpleVolume.__MR_SimpleVolume_ConstructFrom</qualifiedname>
         <param>
@@ -281,7 +281,7 @@
           <declname>data_pass_by</declname>
         </param>
         <param>
-          <type>MR.Vector_Float_MRVoxelId._Underlying *</type>
+          <type>MR.VoxelScalars._Underlying *</type>
           <declname>data</declname>
         </param>
         <param>
@@ -354,9 +354,9 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2463" column="35"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1a544e240d94b3f1bedc66f09ef91555e4" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>unsafe MR.Const_Vector_Float_MRVoxelId._Underlying *</type>
-        <definition>static unsafe MR.Const_Vector_Float_MRVoxelId._Underlying * MR.Const_SimpleVolume.__MR_SimpleVolume_Get_data</definition>
+      <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1a6654ade3e2431ff38b3b16ed560c3ff3" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsafe MR.Const_VoxelScalars._Underlying *</type>
+        <definition>static unsafe MR.Const_VoxelScalars._Underlying * MR.Const_SimpleVolume.__MR_SimpleVolume_Get_data</definition>
         <argsstring>(MR.Const_SimpleVolume._Underlying *_this)</argsstring>
         <name>__MR_SimpleVolume_Get_data</name>
         <qualifiedname>MR.Const_SimpleVolume.__MR_SimpleVolume_Get_data</qualifiedname>
@@ -370,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2466" column="72"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2466" column="62"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__SimpleVolume_1af3cc5234b0d6d659ce5ff9caec3b27e9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
@@ -480,11 +480,11 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2351" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2352" bodyend="2476"/>
     <listofallmembers>
-      <member refid="classMR_1_1Const__SimpleVolume_1aafbc50853f7b4918f2a22b9fa0d3fb67" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_ConstructFrom</name></member>
+      <member refid="classMR_1_1Const__SimpleVolume_1a2dc852a46d4ce036ffa834033a82f39b" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_ConstructFrom</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a1d323d747167dd4d57fb309f9fa831f0" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_ConstructFromAnother</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a5dd7f7a56f4432dcd571d3360932aac0" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_DefaultConstruct</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a273255347130ad6fba9cc7b78810972c" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_Destroy</name></member>
-      <member refid="classMR_1_1Const__SimpleVolume_1a544e240d94b3f1bedc66f09ef91555e4" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_Get_data</name></member>
+      <member refid="classMR_1_1Const__SimpleVolume_1a6654ade3e2431ff38b3b16ed560c3ff3" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_Get_data</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1af3cc5234b0d6d659ce5ff9caec3b27e9" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_Get_dims</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a0710bcc0ae984747001424c250819140" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_Get_voxelSize</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1acf7a45c212f5d16ccc85f37b8ebad7fb" prot="private" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__MR_SimpleVolume_heapBytes</name></member>
@@ -492,11 +492,11 @@
       <member refid="classMR_1_1Const__SimpleVolume_1a08ad92a8d941ab13e0e473793d18aa79" prot="protected" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1ae47e7510600c18fa5b3c41768f193b1c" prot="package" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a6ab0ed3b8ee65e54e841d5a96f5deb86" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
-      <member refid="classMR_1_1Const__SimpleVolume_1af56c9afcb03539477f311c8810254c6a" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
+      <member refid="classMR_1_1Const__SimpleVolume_1a24a237d9811cbfc04043dd01c55b0ad8" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a645ec2263a5afd4074012e0244178700" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a6ddc1fb19d4ec91307ede9143f26277e" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a44449aaf81e2dbca6285d591199e2350" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>Const_SimpleVolume</name></member>
-      <member refid="classMR_1_1Const__SimpleVolume_1a6e5727ee430fc6a3077da4e81f59d4c4" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__SimpleVolume_1aeedc151be666cace041b14a11eb3d398" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>data</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a03253b88b13b49dad161f833bfc7ef19" prot="public" virt="non-virtual"><scope>MR::Const_SimpleVolume</scope><name>dims</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1afb3718297e304481562554db7e79b2e2" prot="protected" virt="virtual"><scope>MR::Const_SimpleVolume</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__SimpleVolume_1a5be935857d422458abcf95cf7066d353" prot="public" virt="virtual"><scope>MR::Const_SimpleVolume</scope><name>Dispose</name></member>

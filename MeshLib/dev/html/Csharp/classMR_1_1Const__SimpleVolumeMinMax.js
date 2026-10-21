@@ -33,7 +33,7 @@ var classMR_1_1Const__SimpleVolumeMinMax =
     [ "__ref_storage_max", "classMR_1_1Const__SimpleVolumeMinMax.html#ac9ff207f3ee39e7d1266fbfcf22be615", null ],
     [ "__ref_storage_min", "classMR_1_1Const__SimpleVolumeMinMax.html#a8e6754c930126c95f0b4ac00d545e789", null ],
     [ "__ref_storage_voxelSize", "classMR_1_1Const__SimpleVolumeMinMax.html#a4c89445bda894ca0cf7221b3a75e8fcc", null ],
-    [ "data", "classMR_1_1Const__SimpleVolumeMinMax.html#a723508de6b2b5fa148a3ce8d7e52c282", null ],
+    [ "data", "classMR_1_1Const__SimpleVolumeMinMax.html#a7b3845b549b94e3923986ff1bc02fcb6", null ],
     [ "dims", "classMR_1_1Const__SimpleVolumeMinMax.html#a77a741c4f08d460893563a927a4eac58", null ],
     [ "Elements", "classMR_1_1Const__SimpleVolumeMinMax.html#a7b27c290bd57c273729127e886221001", null ],
     [ "max", "classMR_1_1Const__SimpleVolumeMinMax.html#af0ccd281cc892110068fd392c890a71c", null ],

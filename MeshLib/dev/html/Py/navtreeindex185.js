@@ -202,7 +202,7 @@ var NAVTREEINDEX185 =
 "namespacemrmeshnumpy.html#afcef0e62a701539ab3eccfd15999f2e9":[9,1,0,0,1,4],
 "namespacemrmeshpy.html":[9,1,0,0,2],
 "namespacemrmeshpy.html#a000a2f211a0277534439953a5842fa2e":[9,1,0,0,2,1447],
-"namespacemrmeshpy.html#a001b5f1c258693d979f58f40e02baa37":[9,1,0,0,2,3427],
+"namespacemrmeshpy.html#a001b5f1c258693d979f58f40e02baa37":[9,1,0,0,2,3426],
 "namespacemrmeshpy.html#a0022693a8b3c5da44c7be5c3497df412":[9,1,0,0,2,3139],
 "namespacemrmeshpy.html#a002b55474debfe1e124119b5d9000e32":[9,1,0,0,2,3125],
 "namespacemrmeshpy.html#a0036880b0bd876c6ebcd61f605569eff":[9,1,0,0,2,2611],

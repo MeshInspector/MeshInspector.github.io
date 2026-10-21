@@ -19,12 +19,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66312" bodyend="66313"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66310" bodyend="66311"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a700e1d972ae3ccca76b91d746b4efb20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1acc7dac9d22a908ee580e4563a1bcdfee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int.__call__</definition>
-        <argsstring>(self, Vector_float_VoxelId arg0, Vector3i arg1, int arg2)</argsstring>
+        <argsstring>(self, VoxelScalars arg0, Vector3i arg1, int arg2)</argsstring>
         <name>__call__</name>
         <qualifiedname>mrmeshpy.func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int.__call__</qualifiedname>
         <param>
@@ -32,7 +32,7 @@
           <defname>self</defname>
         </param>
         <param>
-          <type><ref refid="classmrmeshpy_1_1Vector__float__VoxelId" kindref="compound">Vector_float_VoxelId</ref></type>
+          <type><ref refid="classmrmeshpy_1_1VoxelScalars" kindref="compound">VoxelScalars</ref></type>
           <declname>arg0</declname>
         </param>
         <param>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66314" bodyend="66315"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66312" bodyend="66313"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1af51c6558b08d07984def58a97976a64c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66317" bodyend="66318"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66315" bodyend="66316"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1af0e8e56eff95d053a93fb0af41a06eea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66320" bodyend="66321"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66318" bodyend="66319"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a9e735a6ae51140c39e9f0cdc39bdc78f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66323" bodyend="66324"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66321" bodyend="66322"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1aeec853b6d38aede736cd33d55526e6f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66325" bodyend="66328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66323" bodyend="66326"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a25503c528015787cd88b7ac395f13e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -151,17 +151,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66329" bodyend="66332"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66327" bodyend="66330"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66311" bodyend="66332"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="66309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="66309" bodyend="66330"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a31f2b197ef8c07d44daf00fd46a5fc80" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</scope><name>__bool__</name></member>
-      <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a700e1d972ae3ccca76b91d746b4efb20" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1acc7dac9d22a908ee580e4563a1bcdfee" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</scope><name>__call__</name></member>
       <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1af51c6558b08d07984def58a97976a64c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1af0e8e56eff95d053a93fb0af41a06eea" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__Vector__float__Id__VoxelTag__Vector3__int__int_1a9e735a6ae51140c39e9f0cdc39bdc78f" prot="public" virt="non-virtual"><scope>mrmeshpy::func_tl_expected_void_std_string_from_Vector_float_Id_VoxelTag_Vector3_int_int</scope><name>__init__</name></member>
